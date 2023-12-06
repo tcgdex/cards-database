@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Hitmonlee",
+		de: "Kicklee"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Kick",
+				de: "Tritt"
 			},
 
 			damage: 20,
@@ -41,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "High Jump Kick",
+				de: "Turmkick"
 			},
 
 			damage: 60,

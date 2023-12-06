@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Metal Energy",
 		fr: "Énergie Métal",
+		de: "Metall-Energie"
 	},
 	illustrator: undefined,
 	rarity: "Common",

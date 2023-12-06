@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Psychic Energy",
 		fr: "Énergie Psy",
+		de: "Psychoenergie"
 	},
 	illustrator: undefined,
 	rarity: "Common",

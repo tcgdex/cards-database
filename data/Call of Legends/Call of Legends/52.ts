@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Vaporeon",
+		de: "Aquana"
 	},
 	illustrator: "sui",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spiral Drain",
+				de: "Spiralsauger"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Vaporeon.",
+				de: "Entferne 2 Schadensmarken von Aquana."
 			},
 			damage: 20,
 
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dual Splash",
+				de: "Doppelplatscher"
 			},
 			effect: {
 				en: "Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				de: "Wähle 2 Pokémon deines Gegners. Dieser Angriff fügt jedem der gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Quilava",
+		de: "Igelavar"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				de: "Flackern"
 			},
 
 			damage: 30,
@@ -44,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to Quilava.",
+				de: "Lege 1 an Igelavar angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 60,
 

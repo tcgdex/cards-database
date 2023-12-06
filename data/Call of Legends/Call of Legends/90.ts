@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Water Energy",
 		fr: "Énergie Eau",
+		de: "Wasserenergie"
 	},
 	illustrator: undefined,
 	rarity: "Common",

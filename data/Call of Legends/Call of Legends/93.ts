@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Fighting Energy",
 		fr: "Énergie Combat",
+		de: "Kampfenergie"
 	},
 	illustrator: undefined,
 	rarity: "Common",

@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Jolteon",
+		de: "Blitza"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
+				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Jolteon during your opponent's next turn.",
+				de: "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Blitza zugefügt werden."
 			},
 			damage: 20,
 
@@ -45,6 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mach Bolt",
+				de: "Flotter Sprung"
 			},
 
 			damage: 70,
