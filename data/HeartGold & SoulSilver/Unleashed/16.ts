@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Floatzel",
 		fr: "Mustéflott",
+		de: "Bojelin"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Water Acceleration",
 				fr: "Hydro-accélération",
+				de: "Wasser marsch!"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may attach a Water Energy card from your hand to Floatzel. This power can’t be used if Floatzel is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Water de votre main à Mustéflott. Ce pouvoir ne peut pas être utilisé si Mustéflott est affecté par un État Spécial.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte aus deiner Hand an Bojelin anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Bojelin von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -52,6 +55,7 @@ const card: Card = {
 			name: {
 				en: "Waterfall",
 				fr: "Cascade",
+				de: "Kaskade"
 			},
 
 			damage: 60,

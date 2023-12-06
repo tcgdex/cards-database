@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dunsparce",
 		fr: "Insolourdo",
+		de: "Dummisel"
 	},
 
 	illustrator: "Takashi Yamaguchi",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Return",
 				fr: "Retour",
+				de: "Rückkehr"
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
 				fr: "Piochez jusqu’à ce que vous ayez 6 cartes en main.",
+				de: "Ziehe so viele Karten, bis du 6 Karten auf der Hand hast."
 			},
 			damage: 10,
 

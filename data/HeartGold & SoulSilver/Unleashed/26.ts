@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Tyranitar",
 		fr: "Tyranocif",
+		de: "Despotar"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -39,10 +40,12 @@ const card: Card = {
 			name: {
 				en: "Tail Crush",
 				fr: "Destruqueue",
+				de: "Zerquetschender Schweif"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Hyper Beam",
 				fr: "Ultralaser",
+				de: "Hyperstrahl"
 			},
 			effect: {
 				en: "Discard an Energy card attached to the Defending Pokémon.",
 				fr: "Défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				de: "Lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 80,
 

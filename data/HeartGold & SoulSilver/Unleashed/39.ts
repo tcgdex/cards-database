@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pupitar",
 		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -38,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncer",
+				de: "Einhämmern"
 			},
 
 			damage: 30,
@@ -52,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Speed Attack",
 				fr: "Attaque rapide",
+				de: "Tempoangriff"
 			},
 
 			damage: 50,

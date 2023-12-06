@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pupitar",
 		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Boost Gas",
 				fr: "Gazoboost",
+				de: "Antriebsgas"
 			},
 			effect: {
 				en: "If Pupitar has any Energy attached to it, the Retreat Cost for Pupitar is 0.",
 				fr: "Si une ou plusieurs cartes Énergie sont attachées à Ymphect, le Coût de retraite de ce dernier est de 0.",
+				de: "Wenn an Pupitar mindestens 1 Energie angelegt ist, hat Pupitar Rückzugskosten von 0."
 			},
 		},
 	],
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Rage",
 				fr: "Frénésie",
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each damage counter on Pupitar.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât placé sur Ymphect.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Pupitar zu."
 			},
 			damage: "20+",
 

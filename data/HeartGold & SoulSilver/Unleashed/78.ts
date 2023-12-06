@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Judge",
 		fr: "Juge",
+		de: "Richter"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Chaque joueur mélange sa main avec son deck, puis pioche 4 cartes (c’est vous qui piochez en premier).",
-		en: "Each player shuffles his or her hand into his or her deck and draws 4 cards."
+		en: "Each player shuffles his or her hand into his or her deck and draws 4 cards.",
+		de: "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
 	},
 
 	trainerType: "Supporter",

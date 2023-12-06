@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Poliwhirl",
 		fr: "Tetarte",
+		de: "Quaputzi"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Hypnoblast",
 				fr: "Hypnoblast",
+				de: "Hypnoschuss"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -53,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Light Punch",
 				fr: "Poing léger",
+				de: "Leichter Hieb"
 			},
 
 			damage: 30,

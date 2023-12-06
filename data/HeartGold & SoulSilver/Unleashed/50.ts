@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Larvitar",
 		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Mountain Eater",
 				fr: "Mange-montagne",
+				de: "Bergfresser"
 			},
 			effect: {
 				en: "Discard the top card of your opponent’s deck. Then, remove 2 damage counters from Larvitar.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire. Ensuite, retirez 2 marqueurs de dégât à Embrylex.",
+				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel. Entferne dann 2 Schadensmarken von Larvitar."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Reckless Charge",
 				fr: "Attaque imprudente",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "Larvitar does 10 damage to itself.",
 				fr: "Embrylex s’inflige 10 dégâts.",
+				de: "Larvitar fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 

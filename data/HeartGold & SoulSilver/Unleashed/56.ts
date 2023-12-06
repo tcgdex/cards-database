@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Onix",
 		fr: "Onix",
+		de: "Onix"
 	},
 
 	illustrator: "MAHOU",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Energy Healer",
 				fr: "Guérisseur d’énergie",
+				de: "Energie-Heiler"
 			},
 			effect: {
 				en: "Whenever you attach an Energy card from you hand to 1 of your Pokémon, remove 1 damage counter from that Pokémon.",
 				fr: "Lorsque vous attachez une carte Énergie de votre main à Onix, retirez-lui 1 marqueur de dégât.",
+				de: "Wenn du 1 Energiekarte von deiner Hand an Onix anlegst, entferne 1 Schadensmarke von Onix."
 			},
 		},
 	],
@@ -49,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Boundless Power",
 				fr: "Puissance illimitée",
+				de: "Unbegrenzte Kraft"
 			},
 			effect: {
 				en: "Onix can’t attack during your next turn.",
 				fr: "Pendant votre prochain tour, Onix ne peut pas attaquer.",
+				de: "Onix kann in deinem nächsten Zug nicht angreifen."
 			},
 			damage: 80,
 

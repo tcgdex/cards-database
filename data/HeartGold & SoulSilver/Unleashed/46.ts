@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Carnivine",
 		fr: "Vortente",
+		de: "Venuflibis"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Drawup Power",
 				fr: "Pouvoir bloquant",
+				de: "Kraft aufziehen"
 			},
 			effect: {
 				en: "Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez une carte Énergie dans votre deck, montrez-la à votre adversaire, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck anschließend."
 			},
 
 		},
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Spit Up",
 				fr: "Relâche",
+				de: "Entfessler"
 			},
 
 			damage: 20,

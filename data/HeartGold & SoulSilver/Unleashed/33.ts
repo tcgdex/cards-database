@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Metang",
 		fr: "Metang",
+		de: "Metang"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Energy Crane",
 				fr: "Grue d’énergie",
+				de: "Energiekran"
 			},
 			effect: {
 				en: "Search your discard pile for up to 2 Psychic Energy cards and attach them to your Pokémon in any way you like.",
 				fr: "Cherchez jusqu’à 2 cartes Énergie Psychic dans votre pile de défausse et attachez-les à vos Pokémon comme bon vous semble.",
+				de: "Durchsuche deinen Ablagestapel nach bis zu 2 -Energiekarten und lege sie in beliebiger Verteilung an deine Pokémon an."
 			},
 
 		},
@@ -53,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Psypunch",
 				fr: "Coup de poing psy",
+				de: "Psyhieb"
 			},
 
 			damage: 50,

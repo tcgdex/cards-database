@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aipom",
 		fr: "Capumain",
+		de: "Griffel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Tail Code",
 				fr: "Queue codée",
+				de: "Schweifcode"
 			},
 			effect: {
 				en: "Move an Energy card attached to the Defending Pokémon to another of your opponent’s Pokémon.",
 				fr: "Prenez une carte Énergie attachée au Pokémon Défenseur et attachez-la à un autre des Pokémon de votre adversaire.",
+				de: "Lege eine an das Verteidigende Pokémon angelegte Energiekarte an 1 anderes Pokémon deines Gegners an."
 			},
 
 		},
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Tail Smash",
 				fr: "Éclate-queue",
+				de: "Schwanzschmetterer"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
