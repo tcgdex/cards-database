@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ponyta",
 		fr: "Ponyta",
+		de: "Ponita"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Rear Kick",
 				fr: "Ruade",
+				de: "Rückwärtskick"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Intimidation",
+				de: "Flackern"
 			},
 
 			damage: 20,

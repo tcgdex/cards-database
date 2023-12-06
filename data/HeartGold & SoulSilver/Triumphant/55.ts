@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aipom",
 		fr: "Capumain",
+		de: "Griffel"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Imitate",
 				fr: "Imiter",
+				de: "Nachäffen"
 			},
 			effect: {
 				en: "Draw cards until you have the same number of cards in your hand as your opponent.",
 				fr: "Piochez jusqu’à ce que vous obteniez le même nombre de cartes dans votre main que votre adversaire.",
+				de: "Ziehe so viele Karten, bis du die gleiche Anzahl Handkarten hast wie dein Gegner."
 			},
 
 		},
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Tail Punch",
 				fr: "Kogn’Keu",
+				de: "Schwanzhieb"
 			},
 
 			damage: 10,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Electrode",
 		fr: "Electrode",
+		de: "Lektrobal"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -37,6 +38,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Lightning Strike",
 				fr: "Frap’éclair",
+				de: "Blitzschlag"
 			},
 			effect: {
 				en: "You may do 40 damage plus 60 more damage. If you do, discard all Lightning Energy attached to Electrode.",
 				fr: "Vous pouvez infliger 40 dégâts plus 60 dégâts supplémentaires. Dans ce cas, défaussez toutes les cartes Énergie Lightning attachées à Electrode.",
+				de: "Du kannst mit diesem Angriff kann 40 Schadenspunkte plus 60 weitere Schadenspunkte zufügen. Wenn du das machst, lege alle an Lektrobal angelegten -Energien auf deinen Ablagestapel."
 			},
 			damage: "40+",
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Unown",
 		fr: "Zarbi",
+		de: "Icognito"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "CURE",
 				fr: "GUÉRISON",
+				de: "CURE"
 			},
 			effect: {
 				en: "Once during your turn, when you put Unown from your hand onto your Bench, remove all Special Conditions from your Active Pokémon.",
 				fr: "Une seule fois pendant votre tour, lorsque vous placez Zarbi de votre main sur votre Banc, retirez tous les États Spéciaux à votre Pokémon Actif.",
+				de: "Einmal während deines Zuges kannst du, wenn du Icognito von deiner Hand auf deine Bank legst, alle Speziellen Zustände von deinem Aktiven Pokémon entfernen."
 			},
 		},
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Hidden Power",
 				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 10,

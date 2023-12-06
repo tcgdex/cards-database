@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Weepinbell",
 		fr: "Boustiflor",
+		de: "Ultrigaria"
 	},
 
 	illustrator: "Midori Harada",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre Toxik",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Corrode Target",
 				fr: "Visée corrosive",
+				de: "Ziel korrodieren"
 			},
 			effect: {
 				en: "Filp a coin. If heads, look at your opponent’s hand, choose 1 card, and discard it.",
 				fr: "Lancez une pièce. Si c’est face, regardez la main de votre adversaire, choisissez une carte et défaussez-la.",
+				de: "Wirf eine Münze. Schau dir bei \"Kopf\" die Handkarten deines Gegners an, wähle 1 davon und lege sie auf seinen Ablagestapel."
 			},
 			damage: 10,
 

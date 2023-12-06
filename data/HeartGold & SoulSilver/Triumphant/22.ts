@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Golduck",
 		fr: "Akwakwak",
+		de: "Entoron"
 	},
 
 	illustrator: "Naoki Saito",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Natural Remedy",
 				fr: "Remède naturel",
+				de: "Natürliche Heilung"
 			},
 			effect: {
 				en: "Whenever you attach a Water Energy card from your hand to Golduck, remove 2 damage counters from Golduck.",
 				fr: "Lorsque vous attachez une carte Énergie Water de votre main à Akwakwak, retirez-lui 2 marqueurs de dégât.",
+				de: "Entferne jedes Mal, wenn du eine -Energiekarte von deiner Hand an Entoron anlegst, 2 Schadensmarken von Entoron."
 			},
 		},
 	],
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Powerful Splash",
 				fr: "Trempette puissante",
+				de: "Mächtiger Platscher"
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each Water Energy attached to all of your Pokémon.",
 				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie Water attachée à tous vos Pokémon.",
+				de: "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede -Energie, die an deinen Pokémon angelegt ist, zu."
 			},
 			damage: "30+",
 

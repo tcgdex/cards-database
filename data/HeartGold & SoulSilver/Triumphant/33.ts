@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Electabuzz",
 		fr: "Elektek",
+		de: "Elektek"
 	},
 
 	illustrator: "TOKIYA",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Light Punch",
 				fr: "Poing léger",
+				de: "Leichter Hieb"
 			},
 
 			damage: 10,
@@ -46,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Shock Bolt",
 				fr: "Choc’éclair",
+				de: "Schock-Blitz"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard all Lightning Energy attached to Electabuzz.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez toutes les cartes Énergie Lightning attachées à Elektek.",
+				de: "Wirf eine Münze. Bei \"Zahl\" lege alle an Elektek angelegten -Energien auf deinen Ablagestapel."
 			},
 			damage: 60,
 

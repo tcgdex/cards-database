@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Wailmer",
 		fr: "Wailmer",
+		de: "Wailmer"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Double Attack",
 				fr: "Double attaque",
+				de: "Doppelter Angriff"
 			},
 			effect: {
 				en: "Choose 2 of your opponent’s Pokémon. This attack does 20 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 2 des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à chacun d’entre eux. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Wähle 2 Pokémon deines Gegners. Dieser Angriff fügt jedem der gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				de: "Surfer"
 			},
 
 			damage: 50,

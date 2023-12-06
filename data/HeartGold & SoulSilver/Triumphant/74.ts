@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Psyduck",
 		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	illustrator: "Naoki Saito",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Tripping Headbutt",
 				fr: "Coup d’boule agile",
+				de: "Stolper-Kopfnuss"
 			},
 			effect: {
 				en: "Filp a coin. If heads, this attack does 30 damage to 1 of your opponent's Pokémon. If tails, this attack does 30 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts à l’un des Pokémon de Banc de votre adversaire. Si c’est pile, cette attaque inflige 30 dégâts à l’un de vos Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 1 Pokémon deines Gegners 30 Schadenspunkte zu. Bei \"Zahl\" fügt dieser Angriff 1 deiner Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Tentacruel",
 		fr: "Tentacruel",
+		de: "Tentoxa"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Tentavolve",
 				fr: "Tentavolution",
+				de: "Tentwickel"
 			},
 			effect: {
 				en: "If Tentacruel evolved from Tentacool during this turn, the Defending Pokémon is now Paralyzed and Poisoned.",
 				fr: "Si Tentacruel a évolué en Tentacool pendant ce tour, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
+				de: "Wenn sich Tentoxa in diesem Zug aus Tentacha entwickelt hat, ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
 			},
 			damage: 20,
 
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Hyper Beam",
 				fr: "Ultralaser",
+				de: "Hyperstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf eine Münze. Lege bei \"Kopf\" eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 50,
 

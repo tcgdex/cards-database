@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Luvdisc",
 		fr: "Lovdisc",
+		de: "Liebiskus"
 	},
 
 	illustrator: "sui",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Rendezvous Draw",
 				fr: "Pioche commune",
+				de: "Verabredungszieher"
 			},
 			effect: {
 				en: "Each player draws and reveals the top card of his or her deck.",
 				fr: "Chaque joueur pioche et dévoile la carte du dessus de son deck.",
+				de: "Jeder Spieler zieht die oberste Karte seines Decks, zeigt sie seinem Gegner und nimmt sie auf die Hand."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Distorted Wave",
 				fr: "Vague tordue",
+				de: "Verzerrte Welle"
 			},
 			effect: {
 				en: "Before doing damage, remove 1 damage counter from the Defending Pokémon.",
 				fr: "Avant d’infliger des dégâts, retirez un marqueur de dégât au Pokémon Défenseur.",
+				de: "Bevor der Schaden zugefügt wird, entferne 1 Schadensmarke vom Verteidigenden Pokémon."
 			},
 			damage: 30,
 

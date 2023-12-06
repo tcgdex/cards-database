@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magmar",
 		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,12 +33,14 @@ const card: Card = {
 			name: {
 				en: "Eruption",
 				fr: "Éruption",
+				de: "Eruption"
 			},
 			effect: {
 				en: "Each player discards the top card of his or her deck. This attack does 20 damage times the number of Energy cards discarded in this way.",
 				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Énergie ainsi défaussées.",
+				de: "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl aller so abgelegten Energiekarten zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 		{
@@ -49,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
+				de: "Glühen"
 			},
 
 			damage: 30,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kricketot",
 		fr: "Crikzik",
+		de: "Zirpurze"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -33,6 +34,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 30,

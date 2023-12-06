@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sharpedo",
 		fr: "Sharpedo",
+		de: "Tohaido"
 	},
 
 	illustrator: "MAHOU",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Strip Bare",
 				fr: "Croktou",
+				de: "Blankmacher"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, your opponent discards all cards from his or her hand.",
 				fr: "Lancez 2 pièces. Si vous obtenez deux fois un côté face, votre adversaire défausse toutes les cartes de sa main.",
+				de: "Wirf 2 Münzen. Wenn beide \"Kopf\" zeigen, legt dein Gegner alle Handkarten auf seinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Rage",
 				fr: "Frénésie",
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 50 damage plus 10 more damage for each damage counter on Sharpedo.",
 				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât placé sur Sharpedo.",
+				de: "Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Tohaido zu."
 			},
 			damage: "50+",
 

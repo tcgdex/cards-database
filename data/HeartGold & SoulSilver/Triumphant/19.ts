@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dugtrio",
 		fr: "Triopikeur",
+		de: "Digdri"
 	},
 
 	illustrator: "Shizurow",
@@ -37,6 +38,7 @@ const card: Card = {
 			name: {
 				en: "Dig",
 				fr: "Tunnel",
+				de: "Schaufler"
 			},
 
 			damage: 30,
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Sand Impact",
 				fr: "Impact sablonneux",
+				de: "Sandiger Einschlag"
 			},
 			effect: {
 				en: "Flip a coin for each Fighting Energy attached to Dugtrio. This attack does 50 damage plus 20 more damage for each heads.",
 				fr: "Lancez une pièce pour chaque Énergie Fighting attachée à Triopikeur. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf für jede an Digdri angelegte -Energie 1 Münze. Dieser Angriff fügt 50 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50+",
 
