@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Zwirrfinst"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Psychic"],
