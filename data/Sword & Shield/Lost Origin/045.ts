@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Hisui-Salmagnis"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],

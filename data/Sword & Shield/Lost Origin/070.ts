@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Zobiris"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

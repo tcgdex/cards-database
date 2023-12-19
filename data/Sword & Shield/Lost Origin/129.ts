@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Galar-Mauzinger V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Metal"],
