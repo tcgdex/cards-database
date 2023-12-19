@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Granbull",
+		de: "Granbull"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fling",
+				de: "Austoben"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon. (Do the damage before switching the Pokémon.)",
+				de: "Dein Gegner tauscht das verteidigende Pokémon mit 1 der Pokémon auf seiner Bank aus. (Fügt die Schadenspunkte vor dem Asutausch der Pokémon zu)"
 			},
 			damage: 20,
 
@@ -47,6 +50,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Punch",
+				de: "Megahieb"
 			},
 
 			damage: 50,

@@ -4,7 +4,8 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Darkness Energy",
-		fr: "Énergie Obscurité"
+		fr: "Énergie Obscurité",
+		de: "Finsternis-Energie"
 	},
 	illustrator: undefined,
 	rarity: "Common",

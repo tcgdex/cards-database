@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Meganium",
+		de: "Meganie"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Giant Bloom",
+				de: "Riesenblüte"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Meganium.",
+				de: "Entferne 2 Schadensmarken von Meganie."
 			},
 			damage: 60,
 

@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Forretress",
-		fr: "Foretress"
+		fr: "Foretress",
+		de: "Forstellka"
 	},
 
 	illustrator: "CR CG gangs",
@@ -51,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rapid Spin",
-				fr: "Tour rapide"
+				fr: "Tour rapide",
+				de: "Rapid Spin"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with their Active Pokémon; then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, il en choisit un qu'il échange contre son Pokémon Actif. Puis, si vous avez des Pokémon sur votre Banc, vous échangez l'un d'eux contre votre Pokémon Actif. (Infligez les dégâts avant d'échanger les Pokémon.)"
+				fr: "Si votre adversaire a des Pokémon sur son Banc, il en choisit un qu'il échange contre son Pokémon Actif. Puis, si vous avez des Pokémon sur votre Banc, vous échangez l'un d'eux contre votre Pokémon Actif. (Infligez les dégâts avant d'échanger les Pokémon.)",
+				de: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 30,
 

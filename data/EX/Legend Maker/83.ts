@@ -4,7 +4,8 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Arcanine ex",
-		fr: "Arcanin ex"
+		fr: "Arcanin ex",
+		de: "Arkani ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Fire Remedy",
-				fr: "Remède de feu"
+				fr: "Remède de feu",
+				de: "Feuriges Heilmittel"
 			},
 			effect: {
 				en: "Whenever you attach a Fire Energy from your hand to Arcanine ex, remove 1 damage counter and all Special Conditions from Arcanine ex.",
-				fr: "Lorsque vous attachez une Énergie  de votre main à Arcanin ex, retirez-lui 1 marqueur de dégât et tous ses États Spéciaux."
+				fr: "Lorsque vous attachez une Énergie  de votre main à Arcanin ex, retirez-lui 1 marqueur de dégât et tous ses États Spéciaux.",
+				de: "Immer wenn du eine -Energiekarte von deiner Hand an Arkani ex anlegst, entferne 1 Schadensmarke und alle Speziellen Zustände von Arkani ex."
 			},
 		},
 	],
@@ -40,12 +43,14 @@ const card: Card = {
 		{
 			name: {
 				en: "Overrun",
-				fr: "Dépassement"
+				fr: "Dépassement",
+				de: "Überrennen"
 			},
 
 			effect: {
 				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 gegnerischen Pokémon auf der Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 			cost: ["Fire", "Colorless"],
@@ -53,9 +58,13 @@ const card: Card = {
 		},
 		{
 			cost: [ 'Fire', 'Fire', 'Colorless' ],
-			name: { fr: 'Tourbillon de flamme' },
+			name: {
+				fr: 'Tourbillon de flamme',
+				de: "Flammenwirbel"
+			},
 			effect: {
-				fr: 'Défaussez 2 Énergies  ou 1 carte Énergie réaction attachée à Arcanin ex.'
+				fr: 'Défaussez 2 Énergies  ou 1 carte Énergie réaction attachée à Arcanin ex.',
+				de: "Lege 2 -Energie oder 1 Reaktions-Energiekarte, die an Arkani ex angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 100
 		}

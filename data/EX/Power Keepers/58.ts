@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Poochyena",
-		fr: "Medhyena"
+		fr: "Medhyena",
+		de: "Fiffyen"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,13 +30,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Kick",
-				fr: "Double pied"
+				fr: "Double pied",
+				de: "Doppelkick"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 2 Münzen. Dieser Angriff 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

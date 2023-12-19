@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Cleffa",
-		fr: "Mélo"
+		fr: "Mélo",
+		de: "Pii"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Eeeeeeek",
-				fr: "Arheuuuuu"
+				fr: "Arheuuuuu",
+				de: "Piiiiiiieps"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck, then draw 7 cards.",
-				fr: "Mélangez votre main avec votre deck, piochez ensuite 7 cartes."
+				fr: "Mélangez votre main avec votre deck, piochez ensuite 7 cartes.",
+				de: "Mische deine Hand in dein Deck, und ziehe dann 7 Karten."
 			},
 
 		},

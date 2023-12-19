@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Bayleef δ",
-		fr: "Macronium δ ESPÈCES DELTA"
+		fr: "Macronium δ ESPÈCES DELTA",
+		de: "Lorblatt"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
-				fr: "Poudre Toxik"
+				fr: "Poudre Toxik",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 

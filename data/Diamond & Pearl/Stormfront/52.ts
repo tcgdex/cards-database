@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Staravia",
-		fr: "Etourvol"
+		fr: "Etourvol",
+		de: "Staravia"
 	},
 
 	illustrator: "Midori Harada",
@@ -38,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 30,
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Shot Air",
 				fr: "Bouffée d'air",
+				de: "Luftstoß"
 			},
 			effect: {
 				en: "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 

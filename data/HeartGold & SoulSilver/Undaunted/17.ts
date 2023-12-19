@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Leafeon",
 		fr: "Phyllali",
+		de: "Folipurba"
 	},
 
 	illustrator: "Noriko Hotta",
@@ -37,12 +38,14 @@ const card: Card = {
 			name: {
 				en: "Miasma Wind",
 				fr: "Vent miasme",
+				de: "Miasma"
 			},
 			effect: {
 				en: "Does 50 damage times the number of Special Conditions affecting the Defending Pokémon.",
 				fr: "Inflige 50 dégâts multipliés par le nombre d’États Spéciaux affectant le Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl der Speziellen Zustände, von dem das Verteidigende Pokémon betroffen ist, zu."
 			},
-			damage: "50×",
+			damage: "50x",
 
 		},
 		{
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Soothing Scent",
 				fr: "Senteur apaisante",
+				de: "Beruhigender Duft"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 

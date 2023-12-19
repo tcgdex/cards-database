@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Lanturn",
-		fr: "Lanturn"
+		fr: "Lanturn",
+		de: "Lanturn"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Lightning Ball",
-				fr: "Boule éclair"
+				fr: "Boule éclair",
+				de: "Kugelblitz"
 			},
 
 			damage: 20,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Conduction",
-				fr: "Conduction"
+				fr: "Conduction",
+				de: "Stromübertragung"
 			},
 			effect: {
 				en: "Discard all Energy cards attached to Lanturn. Flip a number of coins equal to the number of Energy cards you discarded. This attack does 30 damage plus 40 more damage for each heads.",
-				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Lanturn. Lancez un nombre de pièces égal au nombre de cartes Énergie  que vous avez défaussé. Cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires pour chaque face."
+				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Lanturn. Lancez un nombre de pièces égal au nombre de cartes Énergie  que vous avez défaussé. Cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires pour chaque face.",
+				de: "Lege alle an Lanturn angelegten -Energiekarten auf deinen Ablagestapel. Wirf eine Anzahl Münzen gleich der Anzahl so abgelegter -Energiekarten. Dieser Angriff fügt 30 Schadenspunkte plus 40 weitere Schadenspunkte pro geworfenem 'Kopf' zu."
 			},
 			damage: "30+",
 

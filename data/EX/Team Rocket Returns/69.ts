@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Onix",
+		de: "Onix"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Rush",
+				de: "Horn Rush"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 10,
 
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Granite Head",
+				de: "Granite Head"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Onix by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				de: "During your opponent's next turn, any damage done to Onix by attacks is reduced by 10 (after applying Weakness an Resistance)."
 			},
 			damage: 20,
 

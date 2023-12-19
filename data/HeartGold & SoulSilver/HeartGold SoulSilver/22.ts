@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Granbull",
 		fr: "Granbull",
+		de: "Granbull"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Timid Tackle",
 				fr: "Charge timide",
+				de: "Scheutackle"
 			},
 			effect: {
 				en: "Granbull does 20 damage to itself. Switch Granbull with 1 of your Benched Pokémon.",
 				fr: "Granbull s’inflige 20 dégâts. Échangez Granbull avec l’un des Pokémon de votre Banc.",
+				de: "Granbull fügt sich selbst 20 Schadenspunkte zu. Tausche Granbull gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 50,
 
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Chomp",
 				fr: "Mâche",
+				de: "Champ"
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each damage counter on Granbull.",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Granbull.",
+				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Granbull zu."
 			},
 			damage: "40+",
 

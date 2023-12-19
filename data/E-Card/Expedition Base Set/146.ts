@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Pokémon Reversal",
-		fr: "Inversion de Pokémon"
+		fr: "Inversion de Pokémon",
+		de: "Pokémon-Umkehrung"
 	},
 
 	illustrator: undefined,
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Choisissez 1 des Pokémon du Banc de votre adversaire. Lancez une pièce. Si c'est face, échangez ce Pokémon contre le Pokémon Défenseur."
+		fr: "Choisissez 1 des Pokémon du Banc de votre adversaire. Lancez une pièce. Si c'est face, échangez ce Pokémon contre le Pokémon Défenseur.",
+		de: "Wähle eines der Pokémon auf der Bank deines Gegners. Wirf eine Münze. Tausche bei 'Kopf' dieses Pokémon mit dem Verteidigenden Pokémon."
 	}
 }
 

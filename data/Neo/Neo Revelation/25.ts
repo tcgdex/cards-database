@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Starmie",
-		fr: "Staross"
+		fr: "Staross",
+		de: "Starmie"
 	},
 
 	illustrator: undefined,
@@ -36,12 +37,14 @@ const card: Card = {
 
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde folie"
+				fr: "Onde folie",
+				de: "Confuse Ray"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 			damage: 10
@@ -54,11 +57,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Core Stream",
-				fr: "Courant central"
+				fr: "Courant central",
+				de: "Core Stream"
 			},
 			effect: {
 				en: "Choose an Energy type other than . This attack does 20 damage to each of your opponent's Pokémon with any Energy cards of that type attached to it. Don't apply Weakness and Resistance.",
-				fr: "Choisissez un type d'Énergie autre que . Cette attaque inflige 20 dégâts à chaque Pokémon de votre adversaire possédant des cartes d'Énergie de ce type. N'appliquez ni la Faiblesse ni la Résistance."
+				fr: "Choisissez un type d'Énergie autre que . Cette attaque inflige 20 dégâts à chaque Pokémon de votre adversaire possédant des cartes d'Énergie de ce type. N'appliquez ni la Faiblesse ni la Résistance.",
+				de: "Choose an Energy type other than . This attack does 20 damage to each of your opponent´s Pokémon with any Energy cards of that type attached to it. Don´t apply Weakness and Resistance."
 			}
 
 		},

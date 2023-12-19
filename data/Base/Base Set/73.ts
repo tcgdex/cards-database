@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Impostor Professor Oak",
-		fr: "Faux Professeur Chen"
+		fr: "Faux Professeur Chen",
+		de: "Falscher Professor Eich"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Votre adversaire mélange sa main avec son deck, puis pioche 7 cartes."
+		fr: "Votre adversaire mélange sa main avec son deck, puis pioche 7 cartes.",
+		de: "Dein Gegner mischt die Karten seiner Hand in seinen Stapel und zieht sieben neue Karten"
 	}
 }
 

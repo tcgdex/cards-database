@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Meditite",
 		fr: "Meditikka",
+		de: "Meditie"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Psyshot",
 				fr: "Piqûre psy",
+				de: "Psychoschuss"
 			},
 
 			damage: 10,
@@ -43,12 +45,14 @@ const card: Card = {
 			name: {
 				en: "Karate Chop",
 				fr: "Poing-Karaté",
+				de: "Karateschlag"
 			},
 			effect: {
 				en: "Does 30 damage minus 10 damage for each damage counter on Meditite.",
 				fr: "Inflige 30 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Meditikka.",
+				de: "Dieser Angriff fügt 30 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Meditie zu."
 			},
-			damage: 30,
+			damage: "30-",
 
 		},
 	],

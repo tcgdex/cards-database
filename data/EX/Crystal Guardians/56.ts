@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Meditite",
-		fr: "Meditikka"
+		fr: "Meditikka",
+		de: "Meditie"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Kick",
-				fr: "Koud'pied"
+				fr: "Koud'pied",
+				de: "Tritt"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pure Power",
-				fr: "Pouvoir pur"
+				fr: "Pouvoir pur",
+				de: "Mentalkraft"
 			},
 			effect: {
 				en: "Put 2 damage counters on your opponent's Pokémon in any way you like.",
-				fr: "Placez 2 marqueurs de dégât sur les Pokémon de votre adversaire de la façon que vous voulez."
+				fr: "Placez 2 marqueurs de dégât sur les Pokémon de votre adversaire de la façon que vous voulez.",
+				de: "Lege 2 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon."
 			},
 
 		},

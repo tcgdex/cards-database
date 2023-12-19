@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Camerupt",
-		fr: "Camerupt"
+		fr: "Camerupt",
+		de: "Camerupt"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Extra Flame",
-				fr: "Flamme supplémentaire"
+				fr: "Flamme supplémentaire",
+				de: "Extra Flame"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, this attack does 20 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires.",
+				de: "If the Defending Pokémon is Pokémon-ex, this attack does 20 plus 30 more damage."
 			},
 			damage: "20+",
 
@@ -44,16 +47,18 @@ const card: Card = {
 		{
 			cost: [
 				"Fire",
-				"Colorless",
+				"Fire",
 				"Colorless",
 			],
 			name: {
 				en: "Super Singe",
-				fr: "Ça sent le roussi !"
+				fr: "Ça sent le roussi !",
+				de: "Super Singe"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "The Defending Pokémon is now Burned."
 			},
 			damage: 40,
 

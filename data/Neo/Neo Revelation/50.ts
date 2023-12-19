@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Remoraid",
-		fr: "Rémoraid"
+		fr: "Rémoraid",
+		de: "Remoraid"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharpshooting",
-				fr: "Tir de précision"
+				fr: "Tir de précision",
+				de: "Scharfschuss"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance.",
-				fr: "Lancez une pièce. Si c'est face, choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. N'appliquez ni la Faiblesse, ni la Résistance."
+				fr: "Lancez une pièce. Si c'est face, choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. N'appliquez ni la Faiblesse, ni la Résistance.",
+				de: "Wirf eine Münze. Wähle bei 'Kopf' ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
 			},
 
 		},

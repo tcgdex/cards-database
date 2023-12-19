@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dark Dragonite",
+		de: "Dunkles Dragoran"
 	},
 	illustrator: "Nakaoka",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Dark Trance",
+				de: "Dark Trance"
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may move a Darkness Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Dark Dragonite is affected by a Special Condition.\"",
+				de: "As often as you like during your turn (before your attack), you may move a  Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Dark Dragonite is affected by a Special Condition."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Wing Attack",
+				de: "Double Wing Attack"
 			},
 			effect: {
 				en: "Does 30 damage to each Defending Pokémon.",
+				de: "Does 30 damage to each Defending Pokémon."
 			},
 
 		},
@@ -55,6 +60,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Swipe",
+				de: "Claw Swipe"
 			},
 
 			damage: 50,

@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Porygon",
-		fr: "Porygon"
+		fr: "Porygon",
+		de: "Porygon"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -30,7 +31,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharpen",
-				fr: "Affûtage"
+				fr: "Affûtage",
+				de: "Sharpen"
 			},
 
 			damage: 30,

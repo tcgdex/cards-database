@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Huntail",
-		fr: "Serpang"
+		fr: "Serpang",
+		de: "Aalabyss"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Bite"
 			},
 
 			damage: 20,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Splash",
-				fr: "Éclaboussure obscure"
+				fr: "Éclaboussure obscure",
+				de: "Dark Splash"
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Darkness Pokémon in play.\"",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon  en jeu."
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon  en jeu.",
+				de: "Does 40 damage plus 10 more damage for each  Energy in play."
 			},
 			damage: "40+",
 

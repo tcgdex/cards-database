@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gloom",
 		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Space Out",
 				fr: "Sonné",
+				de: "Abdriften"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Gloom. Gloom is now Asleep.",
 				fr: "Retirez à Ortide 2 marqueurs de dégât. Ortide est maintenant Endormi.",
+				de: "Entferne 2 Schadensmarken von Duflor. Duflor schläft jetzt."
 			},
 
 		},
@@ -50,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Stinky Nectar",
 				fr: "Nectar puant",
+				de: "Stinkender Nektar"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
 			},
 			damage: 30,
 

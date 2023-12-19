@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Raichu ex",
-		fr: "Raichu ex"
+		fr: "Raichu ex",
+		de: "Raichu ex"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Rai-shield",
-				fr: "Rai-bouclier"
+				fr: "Rai-bouclier",
+				de: "Rai-shield"
 			},
 			effect: {
 				en: "Damage done to any of your Raichu ex in play by attacks from your opponent's Pokémon-ex is reduced by 30 (after applying Weakness and Resistance). You can't use more than 1 Rai-shield Poké-Body each turn.",
-				fr: "Les dégâts infligés à 1 des Raichu ex que vous avez en jeu par des attaques de Pokémon-ex de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance). Vous ne pouvez pas utiliser plus d'1 Poké-Body Rai-bouclier par tour."
+				fr: "Les dégâts infligés à 1 des Raichu ex que vous avez en jeu par des attaques de Pokémon-ex de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance). Vous ne pouvez pas utiliser plus d'1 Poké-Body Rai-bouclier par tour.",
+				de: "Damage done to any of your Raichu ex in play by attacks from your opponent's Pokémon-ex is reduced by 30 (after applying Weakness and Resistance). You can't use more than 1 Rai-shield Poké-Body each turn."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Power Short",
-				fr: "Court-circuit"
+				fr: "Court-circuit",
+				de: "Power Short"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If that Pokémon has Poké-Powers, this attack does 30 damage plus 20 more damage.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Si ce Pokémon possède des Poké-Powers, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires."
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Si ce Pokémon possède des Poké-Powers, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				de: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistence for Benched Pokémon.) If that Pokémon has any Powers, this attack does 30 damage plus 20 more damage."
 			},
 
 		},
@@ -61,7 +66,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Pika Bolt",
-				fr: "Pik'éclair"
+				fr: "Pik'éclair",
+				de: "Pika Bolt"
 			},
 
 			damage: 70,

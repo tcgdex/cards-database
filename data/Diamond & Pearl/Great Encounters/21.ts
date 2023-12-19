@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lapras",
 		fr: "Lokhlass",
+		de: "Lapras"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Carry In",
 				fr: "Importer",
+				de: "Hereintragen"
 			},
 			effect: {
 				en: "Search your deck for a Pokémon Tool card, a Supporter card, and a basic Energy card, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck une carte Outil Pokémon, une carte Supporter et une carte Énergie de base, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach 1 Pokémon-Ausrüstungs-, 1 Unterstützer- und 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 20,

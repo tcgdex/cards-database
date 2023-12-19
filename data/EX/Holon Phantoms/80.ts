@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Poochyena",
-		fr: "Medhyena"
+		fr: "Medhyena",
+		de: "Fiffyen"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Paralyzing Gaze",
-				fr: "Regard paralysant"
+				fr: "Regard paralysant",
+				de: "Lähmender Blick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
-				fr: "Coud'pattes"
+				fr: "Coud'pattes",
+				de: "Schmetterkick"
 			},
 
 			damage: 20,

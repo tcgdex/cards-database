@@ -4,7 +4,8 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Fighting Energy",
-		fr: "Énergie Combat"
+		fr: "Énergie Combat",
+		de: "Kampfenergie"
 	},
 	illustrator: undefined,
 	rarity: "Common",

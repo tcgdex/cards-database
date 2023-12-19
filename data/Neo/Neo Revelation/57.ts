@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Swinub",
-		fr: "Marcacrin"
+		fr: "Marcacrin",
+		de: "Quiekel"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
-				fr: "Bélier"
+				fr: "Bélier",
+				de: "Take Down"
 			},
 			effect: {
 				en: "Swinub does 10 damage to itself.",
-				fr: "Marcacrin s'inflige 30 dégâts."
+				fr: "Marcacrin s'inflige 30 dégâts.",
+				de: "Swinub does 10 damage to itself."
 			},
 			damage: 30,
 

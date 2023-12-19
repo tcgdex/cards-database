@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Weezing",
 		fr: "Smogogo",
+		de: "Smogmog"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Toxic Virus",
 				fr: "Virus toxik",
+				de: "Giftvirus"
 			},
 			effect: {
 				en: "At any time between turns, each player puts 1 more damage counter on his or her Poisoned Pokémon.",
 				fr: "N'importe quand entre deux tours, chaque joueur place 1 marqueur de dégât supplémentaire sur ses Pokémon Empoisonnés.",
+				de: "Jeder Spieler legt zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke zusätzlich auf seine vergifteten Pokémon."
 			},
 		},
 	],
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Offensive Gas",
 				fr: "Gaz offensif",
+				de: "Gasattacke"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet und verwirrt."
 			},
 			damage: 30,
 

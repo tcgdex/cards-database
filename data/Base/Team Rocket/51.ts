@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Raticate",
-		fr: "Rattatac obscur"
+		fr: "Rattatac obscur",
+		de: "Dunkles Rattikarl"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
-				fr: "Machouille"
+				fr: "Machouille",
+				de: "Nagen"
 			},
 
 			damage: 20,
@@ -51,12 +53,14 @@ const card: Card = {
 
 			name: {
 				en: "Hyper Fang",
-				fr: "Croc de mort"
+				fr: "Croc de mort",
+				de: "Hyperzahn"
 			},
 
 			effect: {
 				en: "Flip a coin. if tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Bei 'Zahl' fügt dieser Angriff keine Schadenspunkte zu."
 			},
 
 			damage: 50

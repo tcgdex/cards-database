@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Seviper",
-		fr: "Seviper"
+		fr: "Seviper",
+		de: "Vipitis"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Fang",
-				fr: "Croc aiguisé"
+				fr: "Croc aiguisé",
+				de: "Scharfe Fänge"
 			},
 
 			damage: 10,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Toxic",
-				fr: "Toxik"
+				fr: "Toxik",
+				de: "Toxin"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
 			},
 
 		},

@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Corphish",
-		fr: "Écrapince de Team Aqua"
+		fr: "Écrapince de Team Aqua",
+		de: "Team Aquas Krebscorps"
 	},
 	illustrator: "Jungo Suzuki",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Toxic Grip",
-				fr: "Pince empoisonnée"
+				fr: "Pince empoisonnée",
+				de: "Toxic Grip"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "The Defending Pokémon is now Poisoned."
 			},
 
 		},

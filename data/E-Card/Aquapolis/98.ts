@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Onix",
-		fr: "Onix"
+		fr: "Onix",
+		de: "Onix"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -30,13 +31,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Crush",
-				fr: "Écrase"
+				fr: "Écrase",
+				de: "Zermalmer"
 			},
 			effect: {
 				en: "Flip a coin for each Energy attached to Onix. This attack does 20 damage times the number of heads.",
-				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie attachées à Onix. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie attachées à Onix. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Wirf so viele Münzen, wie Energie an Onix angelegt ist. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

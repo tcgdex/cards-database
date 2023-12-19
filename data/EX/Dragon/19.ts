@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Salamence",
-		fr: "Drattak"
+		fr: "Drattak",
+		de: "Brutalanda"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Intimidating Fang",
-				fr: "Croc intimidant"
+				fr: "Croc intimidant",
+				de: "Intimidating Fang"
 			},
 			effect: {
 				en: "As long as Salamence is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
-				fr: "Tant que Drattak est votre Pokémon Actif, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance)."
+				fr: "Tant que Drattak est votre Pokémon Actif, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
+				de: "As long as Salamence is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Flame",
-				fr: "Flamme de dragon"
+				fr: "Flamme de dragon",
+				de: "Dragon Flame"
 			},
 			effect: {
 				en: "You may discard an Energy card attached to Salamence. If you do, this attack does 40 damage plus 20 more damage.",
-				fr: "Vous pouvez défausser une carte Énergie attachée à Drattak. Cette attaque inflige alors 60 dégâts."
+				fr: "Vous pouvez défausser une carte Énergie attachée à Drattak. Cette attaque inflige alors 60 dégâts.",
+				de: "You may discard an Energy card attached to Salamence. If you do, this attack does 40 damage plus 20 more damage."
 			},
 			damage: "40+",
 

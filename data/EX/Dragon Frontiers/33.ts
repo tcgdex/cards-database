@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Kirlia δ",
-		fr: "Kirlia δ ESPÈCES DELTA"
+		fr: "Kirlia δ ESPÈCES DELTA",
+		de: "Kirlia"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flickering Flames",
-				fr: "Flammes vacillantes"
+				fr: "Flammes vacillantes",
+				de: "Züngelnde Flammen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -49,7 +52,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Smack",
-				fr: "Claque"
+				fr: "Claque",
+				de: "Klatscher"
 			},
 
 			damage: 40,

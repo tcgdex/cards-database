@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bayleef",
 		fr: "Macronium",
+		de: "Lorblatt"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -37,6 +38,7 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncer",
+				de: "Einhämmern"
 			},
 
 			damage: 20,
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch’herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 50,

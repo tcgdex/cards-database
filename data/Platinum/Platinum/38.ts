@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shaymin",
 		fr: "Shaymin",
+		de: "Shaymin"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -28,12 +29,14 @@ const card: Card = {
 			name: {
 				en: "Energy Blow",
 				fr: "Coup d'énergie",
+				de: "Energy Blow"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Energy attached to Shaymin.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Shaymin.",
+				de: "Does 10 damage plus 10 more damage for each Energy attached to Shaymin."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -45,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Aromatherapy",
 				fr: "Aromathérapi",
+				de: "Aromatherapy"
 			},
 			effect: {
 				en: "Remove 2 damage counters from each of your Pokémon.",
 				fr: "Retirez à chacun de vos Pokémon 2 marqueurs de dégât.",
+				de: "Remove 2 damage counters from each of your Pokémon."
 			},
 			damage: 40,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Jynx",
 		fr: "Lippoutou",
+		de: "Rossana"
 	},
 
 	illustrator: "Midori Harada",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Mimic",
 				fr: "Copie",
+				de: "Mimikry"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent’s hand.",
 				fr: "Mélangez votre main dans votre deck. Ensuite, piochez un nombre de cartes égal au nombre de cartes de la main de votre adversaire.",
+				de: "Mische deine Handkarten in dein Deck. Zähle danach die Anzahl der Karten auf der Hand deines Gegners und ziehe ebenso viele Karten."
 			},
 
 		},
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Lick",
 				fr: "Léchouille",
+				de: "Schlecker"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 

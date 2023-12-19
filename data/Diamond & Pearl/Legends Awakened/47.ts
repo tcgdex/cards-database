@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Camerupt",
 		fr: "Camerupt",
+		de: "Camerupt"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Eruption",
 				fr: "Éruption",
+				de: "Eruption"
 			},
 			effect: {
 				en: "Each player discards the top card of his or her deck. This attack does 30 damage plus 30 more damage for each Energy card discarded in this way.",
 				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
+				de: "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte plus 30 weitere Schadenspunkte für jede Energiekarte, die auf diese Weise auf den Ablagestapel gelegt wurde, zu."
 			},
 			damage: "30+",
 
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Camerupt does 20 damage to itself.",
 				fr: "Camerupt s'inflige 20 dégâts.",
+				de: "Camerupt fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 80,
 

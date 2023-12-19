@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Pinsir",
-		fr: "Scarabrute"
+		fr: "Scarabrute",
+		de: "Pinsir"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Irongrip",
-				fr: "Poing de fer"
+				fr: "Poing de fer",
+				de: "Eiserner Griff"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt gelähmt"
 			},
 			damage: 20,
 
@@ -50,7 +53,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Guillotine",
-				fr: "Guillotine"
+				fr: "Guillotine",
+				de: "Guillotine"
 			},
 
 			damage: 50,

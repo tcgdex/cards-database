@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Nidorino",
 		fr: "Nidorino",
+		de: "Nidorino"
 	},
 
 	illustrator: "match",
@@ -38,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud’korne",
+				de: "Hornattacke"
 			},
 
 			damage: 30,
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Lunge",
 				fr: "Coup rapide",
+				de: "Ausfall"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 80,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kecleon",
 		fr: "Kecleon Niv. 34",
+		de: "Kecleon"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "Colorful Body",
 				fr: "Corps coloré",
+				de: "Farbenfroher Körper"
 			},
 			effect: {
 				en: "Kecleon's type is Grass Fire Water Lightning Psychic Fighting Darkness Metal Colorless.",
 				fr: "Kecleon est de type GrassFireWaterLightningPsychicFightingDarknessMetalColorless.",
+				de: "Kecleons Typ ist		 ."
 			},
 		},
 	],
@@ -44,12 +47,14 @@ const card: Card = {
 			name: {
 				en: "Triple Smash",
 				fr: "Triple éclate",
+				de: "Dreifachschmetterer"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage plus 20 more damage for each heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Vaporeon δ",
-		fr: "Aquali δ ESPÈCES DELTA"
+		fr: "Aquali δ ESPÈCES DELTA",
+		de: "Aquana"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Delta Search",
-				fr: "Recherche Delta"
+				fr: "Recherche Delta",
+				de: "Delta-Suche"
 			},
 			effect: {
 				en: "Search your deck for a Holon Energy card and attach it to Vaporeon. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie Holon et attachez-la à Aquali. Ensuite, mélangez votre deck."
+				fr: "Cherchez dans votre deck une carte Énergie Holon et attachez-la à Aquali. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach einer Holon-Energiekarte und lege sie an Aquana an. Mische dein Deck danach."
 			},
 			damage: 10,
 
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Return Wave",
-				fr: "Retour de vague"
+				fr: "Retour de vague",
+				de: "Welle der Widerkehr"
 			},
 			effect: {
 				en: "You may return an Energy card attached to Vaporeon to your hand. If you do, choose an Energy card attached to the Defending Pokémon and return it to your opponent's hand.",
-				fr: "Vous pouvez reprendre dans votre main une carte Énergie attachée à Aquali. Choisissez alors une carte Énergie attachée au Pokémon Défenseur. Votre adversaire la reprend dans sa main."
+				fr: "Vous pouvez reprendre dans votre main une carte Énergie attachée à Aquali. Choisissez alors une carte Énergie attachée au Pokémon Défenseur. Votre adversaire la reprend dans sa main.",
+				de: "Du kannst 1 an Aquana angelegte Energiekarte zurück auf die Hand nehmen. Wenn du das machst, wähle 1 Energiekarte, die an einem Pokémon des Gegners anliegt und gieb sie deinem Gegner zurück auf die Hand."
 			},
 			damage: 50,
 

@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Umbreon",
-		fr: "Noctali"
+		fr: "Noctali",
+		de: "Nachtara"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde folie"
+				fr: "Onde folie",
+				de: "Confuse Ray"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -48,7 +51,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Moon Impact",
-				fr: "Impact lunaire"
+				fr: "Impact lunaire",
+				de: "Moon Impact"
 			},
 
 			damage: 40,

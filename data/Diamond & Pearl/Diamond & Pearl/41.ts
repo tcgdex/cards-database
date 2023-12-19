@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Wobbuffet",
 		fr: "Qulbutoké",
+		de: "Woingenau"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Countercharge",
 				fr: "Contre-charge",
+				de: "Konterangriff"
 			},
 			effect: {
 				en: "Flip a coin. If heads, move all damage counters from Wobbuffet to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, déplacez tous les marqueurs de dégât de Qulbutoké sur le Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" entferne alle Schadensmarken von Woingenau und lege sie auf das Verteidigende Pokémon."
 			},
 
 		},

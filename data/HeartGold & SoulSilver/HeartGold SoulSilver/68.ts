@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Hypnoblast",
 				fr: "Hypnoblast",
+				de: "Hypnoschuss"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 

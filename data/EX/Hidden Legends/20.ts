@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Masquerain",
-		fr: "Maskadra"
+		fr: "Maskadra",
+		de: "Maskeregen"
 	},
 	illustrator: "Toshinao Aoki",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Whirlwind",
-				fr: "Cyclone"
+				fr: "Cyclone",
+				de: "Whirlwind"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
 			},
 			damage: 20,
 
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Silver Wind",
-				fr: "Vent argenté"
+				fr: "Vent argenté",
+				de: "Silver Wind"
 			},
 			effect: {
 				en: "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 30 more damage.",
-				fr: "Lors de votre prochain tour, si vous attaquez en utilisant le Vent argenté de Maskadra (après application de la Faiblesse et de la Résistance), cette attaque inflige 30 dégâts supplémentaires."
+				fr: "Lors de votre prochain tour, si vous attaquez en utilisant le Vent argenté de Maskadra (après application de la Faiblesse et de la Résistance), cette attaque inflige 30 dégâts supplémentaires.",
+				de: "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 30 more damage."
 			},
 			damage: 30,
 

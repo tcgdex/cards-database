@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Scyther",
-		fr: "Insécateur"
+		fr: "Insécateur",
+		de: "Sichlor"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
-				fr: "Hâte"
+				fr: "Hâte",
+				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Scyther.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Insécateur."
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Insécateur.",
+				de: "Wirf eine Münze. Verhindere bei 'Kopf' während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Sichlor zugefügt werden."
 			},
 			damage: 10,
 
@@ -49,7 +52,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Sickle",
-				fr: "Lame-aiguisée"
+				fr: "Lame-aiguisée",
+				de: "Scharfe Sichel"
 			},
 
 			damage: 40,

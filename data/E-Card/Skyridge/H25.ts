@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Raichu",
+		de: "Raichu"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Zzzap",
+				de: "Zzzapp!"
 			},
 			effect: {
 				en: "This attack does 20 damage to each Pokémon with a Poké",
+				de: "Dieser Angriff fügt jedem Pokémon mit einem Poké-Body oder einer Poké-Power 20 Schadenspunkte zu (deinen und den gegnerischen Pokémon). (Wende keine Schwäche oder Resistenz an.)"
 			},
 
 		},
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lightning Storm",
+				de: "Blitzsturm"
 			},
 			effect: {
 				en: "Flip a coin. If tails, put 2 damage counters on Raichu.",
+				de: "Wirf eine Münze. Lege bei 'Zahl' 2 Schadensmarken auf Raichu."
 			},
 			damage: 50,
 

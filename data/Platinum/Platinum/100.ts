@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Torkoal",
 		fr: "Chartor",
+		de: "Qurtel"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Super Singe",
 				fr: "Ça sent le roussi!",
+				de: "Super Singe"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
 			},
 			damage: 10,
 
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Flame Ball",
 				fr: "Boule de feu",
+				de: "Flame Ball"
 			},
 			effect: {
 				en: "Move an Energy card attached to Torkoal to 1 of your Benched Pokémon.",
 				fr: "Déplacez une carte Énergie attachée à Charcor sur 1 des Pokémon de votre Banc.",
+				de: "Move an Energy card attached to Torkoal to 1 of your Benched Pokémon."
 			},
 			damage: 40,
 

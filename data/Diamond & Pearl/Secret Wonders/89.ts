@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Growlithe",
 		fr: "Caninos",
+		de: "Fukano"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Roar",
 				fr: "Hurlement",
+				de: "Gebrüll"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Dig Claws",
 				fr: "Creuse-griffe",
+				de: "Schaufelkrallen"
 			},
 
 			damage: 20,

@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Electrike",
-		fr: "Dynavolt"
+		fr: "Dynavolt",
+		de: "Frizelbliz"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,13 +30,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Kick",
-				fr: "Double pied"
+				fr: "Double pied",
+				de: "Double Kick"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

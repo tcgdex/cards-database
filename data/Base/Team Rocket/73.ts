@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "The Boss's Way",
-		fr: "À la façon du Boss"
+		fr: "À la façon du Boss",
+		de: "Der Boss hat immer Recht"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cherchez dans votre deck une carte Évolution dont le nom comporte le mot \"obscur\". Montrez-la à votre adversaire et placez-la dans votre main. Mélangez ensuite votre deck."
+		fr: "Cherchez dans votre deck une carte Évolution dont le nom comporte le mot \"obscur\". Montrez-la à votre adversaire et placez-la dans votre main. Mélangez ensuite votre deck.",
+		de: "Durchsuche dein Deck nach einer Evolutionskarte mit dem Zusatz 'Dunkles'. Zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 	}
 }
 

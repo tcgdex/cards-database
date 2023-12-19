@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Barboach",
-		fr: "Barloche"
+		fr: "Barloche",
+		de: "Schmerbe"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Splash",
-				fr: "Trempette"
+				fr: "Trempette",
+				de: "Platscher"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Slap",
-				fr: "Coud'boue"
+				fr: "Coud'boue",
+				de: "Lehmschelle"
 			},
 
 			damage: 20,

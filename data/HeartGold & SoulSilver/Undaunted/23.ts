@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Vespiquen",
 		fr: "Apireine",
+		de: "Honweisel"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Defense Sign",
 				fr: "Signal de défense",
+				de: "Abwehrzeichen"
 			},
 			effect: {
 				en: "Prevent all damage done to your Benched Grass Pokémon by attacks.",
 				fr: "Prévenez tous les dégâts infligés par des attaques aux Pokémon Grass de votre Banc.",
+				de: "Verhindere allen Schaden, der -Pokémon auf deiner Bank durch Angriffe zugefügt wird."
 			},
 		},
 	],
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Mach Wind",
 				fr: "Vent frénétique",
+				de: "Stürmische Brise"
 			},
 			effect: {
 				en: "During your next turn, Vespiquen’s Retreat Cost is 0.",
 				fr: "Pendant votre prochain tour, le Coût de retraite d’Apireine est de 0.",
+				de: "Die Rückzugskosten für Honweisel betragen in deinem nächsten Zug 0."
 			},
 			damage: 60,
 

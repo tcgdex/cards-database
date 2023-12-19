@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Toxicroak",
-		fr: "Coatox"
+		fr: "Coatox",
+		de: "Toxiquak"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Poison Sacs",
-				fr: "Sacs de poison"
+				fr: "Sacs de poison",
+				de: "Gifttaschen"
 			},
 			effect: {
 				en: "Your opponent can't remove the Special Condition Poisoned by evolving or devolving his or her Poisoned Pokémon. (This also includes putting a Pokémon Level-Up card onto the Poisoned Pokémon.)",
-				fr: "Votre adversaire ne peut pas retirer l'État Spécial Empoisonné en faisant évoluer ou en désévoluant ses Pokémon Empoisonnés. (Placer une carte Pokémon Niveau Sup sur le Pokémon Empoisonné inclus.)"
+				fr: "Votre adversaire ne peut pas retirer l'État Spécial Empoisonné en faisant évoluer ou en désévoluant ses Pokémon Empoisonnés. (Placer une carte Pokémon Niveau Sup sur le Pokémon Empoisonné inclus.)",
+				de: "Dein Gegner kann den Speziellen Zustand \"vergiftet\" von seinen Pokémon nicht durch Entwickeln oder Rückentwickeln entfernen. (Dies gilt auch für das Spielen einer Pokémon Level-Up-Karte auf das vergiftete Pokémon.)"
 			},
 		},
 	],
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Claws",
-				fr: "Griffes articulées"
+				fr: "Griffes articulées",
+				de: "Knöchelkralle"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 30,
 

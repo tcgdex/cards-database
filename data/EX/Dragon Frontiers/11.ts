@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Togetic δ",
-		fr: "Togetic δ ESPÈCES DELTA"
+		fr: "Togetic δ ESPÈCES DELTA",
+		de: "Togetic"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Delta Copy",
-				fr: "Copiage Delta"
+				fr: "Copiage Delta",
+				de: "Delta-Kopie"
 			},
 			effect: {
 				en: "Choose an attack on 1 of your opponent's Pokémon in play that has δ on its card. Delta Copy copies that attack except for its Energy cost. (You must still do anything else required for that attack.) Togetic performs that attack.",
-				fr: "Choisissez une attaque d'1 des Pokémon en jeu de votre adversaire possédant le symbole δ. Copiage Delta copie cette attaque, son Coût en Énergie excepté. (Vous devez toujours faire ce que l'attaque indique.) Togetic utilise cette attaque."
+				fr: "Choisissez une attaque d'1 des Pokémon en jeu de votre adversaire possédant le symbole δ. Copiage Delta copie cette attaque, son Coût en Énergie excepté. (Vous devez toujours faire ce que l'attaque indique.) Togetic utilise cette attaque.",
+				de: "Wähle 1 Angriff von 1 im Spiel befindlichen Pokémon deines Gegners, auf dem δ zu sehen ist. Delta-Kopie kopiert diesen Angriff, mit Ausnahme der Angriffskosten. (Du musst immer noch alles tun, was verlangt wird, um diesen Angriff durchzuführen.) Togetic benutzt den kopierten Angriff."
 			},
 
 		},
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
-				fr: "Grosse vague"
+				fr: "Grosse vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 30,

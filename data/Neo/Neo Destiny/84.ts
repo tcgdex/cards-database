@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Swinub",
-		fr: "Marcacrin"
+		fr: "Marcacrin",
+		de: "Quiekel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Generate Cold",
-				fr: "Émanations glaciales"
+				fr: "Émanations glaciales",
+				de: "Generate Cold"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

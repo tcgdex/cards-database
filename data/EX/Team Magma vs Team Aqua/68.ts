@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Rhyhorn",
-		fr: "Rhinocorne de Team Magma"
+		fr: "Rhinocorne de Team Magma",
+		de: "Team Magmas Rihorn"
 	},
 	illustrator: "Yosuke Da Silva",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ram"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Knock Over",
-				fr: "Culbute"
+				fr: "Culbute",
+				de: "Knock Over"
 			},
 			effect: {
 				en: "You may discard any Stadium card in play.",
-				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu."
+				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
+				de: "You may discard any Stadium card in play."
 			},
 			damage: 10,
 

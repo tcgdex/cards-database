@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Koffing",
 		fr: "Smogo Niv. 22",
+		de: "Smogon"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Offensive Gas",
 				fr: "Gaz offensif",
+				de: "Gasattacke"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
 			},
 
 		},
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Gas Bomb",
 				fr: "Bombe à gaz",
+				de: "Gasbombe"
 			},
 			effect: {
 				en: "Koffing does 30 damage to itself, and don't apply Weakness and Resistance to this damage.",
 				fr: "Smogo s'inflige 30 dégâts. N'appliquez pas la Faiblesse et la Résistance à ces dégâts.",
+				de: "Smogon fügt sich selbst 30 Schadenspunkte zu, wende dabei Schwäche und Resistenz nicht an."
 			},
 			damage: 30,
 

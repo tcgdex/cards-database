@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Seadra δ",
-		fr: "Hypocéan δ ESPÈCES DELTA"
+		fr: "Hypocéan δ ESPÈCES DELTA",
+		de: "Seemon"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Searing Flame",
-				fr: "Flammes calcinantes"
+				fr: "Flammes calcinantes",
+				de: "Sengende Flammen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -49,7 +52,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
-				fr: "Fournaise"
+				fr: "Fournaise",
+				de: "Glühen"
 			},
 
 			damage: 40,

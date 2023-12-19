@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Marshtomp",
-		fr: "Flobio"
+		fr: "Flobio",
+		de: "Moorabbel"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Hypno Wave",
-				fr: "Super hypnovague"
+				fr: "Super hypnovague",
+				de: "Super Hypno Wave"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -48,7 +51,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Surf",
-				fr: "Surf"
+				fr: "Surf",
+				de: "Surf"
 			},
 
 			damage: 50,

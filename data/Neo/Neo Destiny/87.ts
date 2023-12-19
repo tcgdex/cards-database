@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Unown [S]",
-		fr: "Zarbi S"
+		fr: "Zarbi S",
+		de: "Icognito S"
 	},
 
 	illustrator: "CR CG gangs",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "[Search]",
-				fr: "[Search]"
+				fr: "[Search]",
+				de: "Search"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may look at 1 of your Prize cards. Return that Prize card face down. This power can be used even if Unown S is Asleep, Confused, or Paralyzed.",
-				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez regarder une de vos cartes Récompense. Retournez ensuite cette carte, face contre table. Ce pouvoir fonctionne même si Zarbi [S] est Endormi, Confus ou Paralysé."
+				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez regarder une de vos cartes Récompense. Retournez ensuite cette carte, face contre table. Ce pouvoir fonctionne même si Zarbi [S] est Endormi, Confus ou Paralysé.",
+				de: "Once during your turn (before your attack), you may look at 1 of your Prize cards. Return that Prize card face down. This power can be used even if Unown [S] is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -46,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hidden Power",
-				fr: "Puissance cachée"
+				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 20,

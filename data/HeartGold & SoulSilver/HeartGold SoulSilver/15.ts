@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ariados",
 		fr: "Migalos",
+		de: "Ariados"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Leech Life",
 				fr: "Vampirisme",
+				de: "Blutsauger"
 			},
 			effect: {
 				en: "Remove from Ariados the number of damage counters equal to the damage you did to the Defending Pokémon.",
 				fr: "Retirez de Migalos autant de marqueurs de dégâts que de dégâts que vous avez infligés au Pokémon Défenseur.",
+				de: "Entferne Schadensmarken von Ariados entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
 			damage: 30,
 
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Poisonous Saliva",
 				fr: "Salive empoisonnée",
+				de: "Giftsabber"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 50,
 

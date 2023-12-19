@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Croconaw",
-		fr: "Crocrodil"
+		fr: "Crocrodil",
+		de: "Tyracroc"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
-				fr: "Bélier"
+				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Croconaw does 10 damage to itself.",
-				fr: "Crocrodil s'inflige 10 dégâts."
+				fr: "Crocrodil s'inflige 10 dégâts.",
+				de: "Tyracroc fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 40,
 

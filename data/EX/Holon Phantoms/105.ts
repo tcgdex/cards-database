@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Grass Energy",
-		fr: "Énergie Plante"
+		fr: "Énergie Plante",
+		de: "Pflanzenenergie"
 	},
 	illustrator: undefined,
 	rarity: "Rare",

@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Machoke",
-		fr: "Machopeur"
+		fr: "Machopeur",
+		de: "Maschock"
 	},
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "Uncommon",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
-				fr: "Koud'poing"
+				fr: "Koud'poing",
+				de: "Hieb"
 			},
 
 			damage: 20,
@@ -46,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Kick",
-				fr: "Ultimawashi"
+				fr: "Ultimawashi",
+				de: "Megakick"
 			},
 
 			damage: 50,

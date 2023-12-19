@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Roselia",
 		fr: "Roselia",
+		de: "Roselia"
 	},
 
 	illustrator: "Takashi Yamaguchi",
@@ -32,12 +33,14 @@ const card: Card = {
 			name: {
 				en: "Petal Dance",
 				fr: "Danse-fleur",
+				de: "Blättertanz"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads. Roselia is now Confused.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face. Roselia est maintenant Confus.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu. Roselia ist jetzt verwirrt."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

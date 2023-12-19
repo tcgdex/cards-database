@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Goldeen",
-		fr: "Poissirène"
+		fr: "Poissirène",
+		de: "Goldini"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
-				fr: "Ultrason"
+				fr: "Ultrason",
+				de: "Supersonic"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Waterfall",
-				fr: "Cascade"
+				fr: "Cascade",
+				de: "Waterfall"
 			},
 
 			damage: 10,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Staravia",
 		fr: "Etourvol",
+		de: "Staravia"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Whirlwind",
 				fr: "Cyclone",
+				de: "Wirbelwind"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 20,
 
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Clutch",
 				fr: "Serre",
+				de: "Greifer"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 

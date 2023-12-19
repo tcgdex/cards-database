@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Granbull",
-		fr: "Granbull"
+		fr: "Granbull",
+		de: "Granbull"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -50,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Raging Charge",
-				fr: "Charge furieuse"
+				fr: "Charge furieuse",
+				de: "Wutausbruch"
 			},
 			effect: {
 				en: "This attack does 10 damage plus 10 damage for each damage counter on Granbull. Then, Granbull does 20 damage to itself.",
-				fr: "Cette attaque inflige 10 dégâts plus 10 dégâts pour chaque marqueur de dégâts sur Granbull. Ensuite, Granbull s'inflige 20 dégâts."
+				fr: "Cette attaque inflige 10 dégâts plus 10 dégâts pour chaque marqueur de dégâts sur Granbull. Ensuite, Granbull s'inflige 20 dégâts.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 Schadenspunkte für jede Schadensmarke auf Granbull zu. Dann fügt sich Granbull selbst 20 Schadenspunkte zu."
 			},
 			damage: "10+",
 

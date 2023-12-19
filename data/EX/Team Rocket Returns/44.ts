@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Magmar",
+		de: "Magmar"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dump and Draw",
+				de: "Dump and Draw"
 			},
 			effect: {
 				en: "Discard up to 2 Energy cards from your hand. Then, draw 2 cards for each Energy card you discarded.",
+				de: "Discard up to 2 Energy cards from your hand. Then, draw 2 cards for each Energy card you discarded."
 			},
 
 		},
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flame Tail",
+				de: "Flame Tail"
 			},
 
 			damage: 40,

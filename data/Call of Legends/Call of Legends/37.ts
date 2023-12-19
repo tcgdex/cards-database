@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Ursaring",
+		de: "Ursaring"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Confront",
+				de: "Konfrontieren"
 			},
 
 			damage: 20,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Cross Chop",
+				de: "Kreuzhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 30 more damage.",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

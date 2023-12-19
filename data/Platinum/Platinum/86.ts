@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Poochyena",
 		fr: "Medhyena",
+		de: "Fiffyen"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Howl",
 				fr: "Grondement",
+				de: "Howl"
 			},
 			effect: {
 				en: "Search your deck for Poochyena and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez Medhyena dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				de: "Search your deck for Poochyena and put it onto your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -42,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Lunge",
 				fr: "Coup rapide",
+				de: "Lunge"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20,
 

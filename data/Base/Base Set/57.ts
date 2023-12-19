@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Pidgey",
-		fr: "Roucool"
+		fr: "Roucool",
+		de: "Taubsi"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Whirlwind",
-				fr: "Cyclone"
+				fr: "Cyclone",
+				de: "Wirbelwind"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
-				fr: "Si votre adversaire a au moins un Pokémon sur le Banc, il ou elle choisit l'1 d'eux et l'échange avec le Pokémon Défenseur. (Appliquez les dégâts avant d'échanger les Pokémon.)"
+				fr: "Si votre adversaire a au moins un Pokémon sur le Banc, il ou elle choisit l'1 d'eux et l'échange avec le Pokémon Défenseur. (Appliquez les dégâts avant d'échanger les Pokémon.)",
+				de: "Falls Dein gegner irgendwelche Pokémon auf der Bank hat, muss er eines von ihnen wählen und mit dem verteidigenden Pokémon austauschen. (Fühe die Schadenspunkte vor dem Auswechseln des Pokémon zu.)"
 			},
 			damage: 10,
 

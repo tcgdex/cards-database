@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Spinarak",
-		fr: "Mimigal"
+		fr: "Mimigal",
+		de: "Weberak"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -33,12 +34,14 @@ const card: Card = {
 
 			name: {
 				en: "Poison Sting",
-				fr: "Dard-venin"
+				fr: "Dard-venin",
+				de: "Giftstachel"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 20

@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Sleep!",
-		fr: "Bonne nuit, les petits !"
+		fr: "Bonne nuit, les petits !",
+		de: "Schlaf!"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+		fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+		de: "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
 	}
 }
 

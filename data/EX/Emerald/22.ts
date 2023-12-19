@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Breloom",
-		fr: "Chapignon"
+		fr: "Chapignon",
+		de: "Kapilz"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Power Blow",
-				fr: "Coup puissant"
+				fr: "Coup puissant",
+				de: "Power Blow"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Energy attached to Breloom.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Chapignon."
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Chapignon.",
+				de: "Does 10 damage plus 10 more damage for each Energy attached to Breloom"
 			},
 			damage: "10+",
 
@@ -48,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Body Slam",
-				fr: "Plaquage"
+				fr: "Plaquage",
+				de: "Body Slam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. if heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 40,
 

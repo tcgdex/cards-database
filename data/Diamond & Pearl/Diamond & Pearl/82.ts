@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gastly",
 		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Pain Payback",
 				fr: "Renvoi de souffrance",
+				de: "Schmerzrückzahlung"
 			},
 			effect: {
 				en: "Move 1 damage counter from Gastly to 1 of your opponent's Pokémon.",
 				fr: "Déplacez 1 marqueur de dégât de Fantominus sur 1 des Pokémon de votre adversaire.",
+				de: "Entferne 1 Schadensmarke von Nebulak und lege sie auf 1 Pokémon deines Gegners."
 			},
 
 		},

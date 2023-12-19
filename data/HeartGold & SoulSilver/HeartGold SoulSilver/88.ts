@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Wooper",
 		fr: "Axoloto",
+		de: "Felino"
 	},
 
 	illustrator: "match",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Tail Whip",
 				fr: "Mouvemend’keu",
+				de: "Rutenschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can’t attack during your opponent’s next turn.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur ne peut pas attaquer durant le prochain tour de votre adversaire.",
+				de: "Wirf eine Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
 			},
 
 		},
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Watering",
 				fr: "Arrosage",
+				de: "Gießen"
 			},
 
 			damage: 10,

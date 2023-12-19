@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Fearow",
 		fr: "Rapasdepic",
+		de: "Ibitak"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -38,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 30,
@@ -52,12 +54,14 @@ const card: Card = {
 			name: {
 				en: "Repeating Drill",
 				fr: "Multivrille",
+				de: "Mehrfach-Bohrer"
 			},
 			effect: {
 				en: "Flip 5 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 5 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 5 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

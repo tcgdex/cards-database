@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Light Wigglytuff",
-		fr: "Grodoudou lumineux"
+		fr: "Grodoudou lumineux",
+		de: "Helles Knuddeluff"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Evolution Song",
-				fr: "Chant évolutionnaire"
+				fr: "Chant évolutionnaire",
+				de: "Evolution Song"
 			},
 			effect: {
 				en: "Your opponent may choose 1 of his or her Pokémon and search his or her deck for a card that evolves from that Pokémon. Your opponent attaches that card to that Pokémon. This counts as evolving that Pokémon. Either way, you may do the same, and then each player who searched shuffles his or her deck.",
-				fr: "Votre adversaire peut choisir un de ses Pokémon et chercher dans son deck une carte Évolution de ce Pokémon. Votre adversaire attache cette carte à ce Pokémon. Quelle que soit sa décision, vous pouvez faire de même. Chaque joueur ayant cherché une carte mélange ensuite son deck."
+				fr: "Votre adversaire peut choisir un de ses Pokémon et chercher dans son deck une carte Évolution de ce Pokémon. Votre adversaire attache cette carte à ce Pokémon. Quelle que soit sa décision, vous pouvez faire de même. Chaque joueur ayant cherché une carte mélange ensuite son deck.",
+				de: "Your opponent may choose 1 of his or her Pokémon and search his or her deck for a card that evolves from that Pokémon. Your opponent attaches that card to that Pokémon. This counts as evolving that Pokémon. Either way, you may do the same, and then each player who searched shuffles his or her deck."
 			},
 
 		},
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Body Slam",
-				fr: "Plaquage"
+				fr: "Plaquage",
+				de: "Body Slam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Steelix",
-		fr: "Steelix"
+		fr: "Steelix",
+		de: "Stahlos"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -50,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Crush",
-				fr: "Ecras'queue"
+				fr: "Ecras'queue",
+				de: "Tail Crush"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires ; si c'est pile cette attaque inflige 30 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires ; si c'est pile cette attaque inflige 30 dégâts.",
+				de: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage."
 			},
 			damage: "30+",
 

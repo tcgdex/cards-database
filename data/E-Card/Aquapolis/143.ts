@@ -4,27 +4,19 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Metal Energy",
-		fr: "Énergie Métal"
+		fr: "Énergie Métal",
+		de: "Metall Energie"
 	},
+
 	illustrator: "Milky Isobe",
 	rarity: "Rare",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Special",
 
-
-
-
-
-
-
-
-
-
-
-
-
-energyType: "Special",
+	effect: {
+		de: "Damage done to the Pokémon Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). If the Pokémon metal Energy is attached to isn´t , whenever it damages a Pokémon, reduce that damage by 10 (before applying Weakness and Resistance). Metal Energy provides  Energy. (Doesn´t count as a basic Energy card.)"
+	}
 }
 
 export default card

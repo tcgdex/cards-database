@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Sneasel",
-		fr: "Farfuret"
+		fr: "Farfuret",
+		de: "Sniebel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,13 +32,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Swipes",
-				fr: "Combo-griffe"
+				fr: "Combo-griffe",
+				de: "Fury Swipes"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -47,13 +50,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat Up",
-				fr: "Baston"
+				fr: "Baston",
+				de: "Beat Up"
 			},
 			effect: {
 				en: "Flip a coin for each of your Pokémon in play (including this one). This attack does 20 damage times the number of heads.",
-				fr: "Lancez une pièce pour chacun de vos Pokémon en jeu (y compris celui-là). Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez une pièce pour chacun de vos Pokémon en jeu (y compris celui-là). Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Flip a coin for each of your Pokémon in play (including this one). This attack does 20 damage times the number of heads."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Grimer",
-		fr: "Tadmorv"
+		fr: "Tadmorv",
+		de: "Sleima"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras'face"
+				fr: "Écras'face",
+				de: "Pound"
 			},
 
 			damage: 10,
@@ -41,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Spurt",
-				fr: "Jet de poison"
+				fr: "Jet de poison",
+				de: "Poison Spurt"
 			},
 			effect: {
 				en: "Discard a Grass Energy card attached to Grimer. The Defending Pokémon is now Poisoned.",
-				fr: "Défaussez une carte Énergie  attachée à Tadmorv. Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Défaussez une carte Énergie  attachée à Tadmorv. Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Discard a  Energy card attached to Grimer. The Defending Pokémon is now Poisoned."
 			},
 
 		},

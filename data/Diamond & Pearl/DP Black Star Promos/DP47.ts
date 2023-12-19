@@ -4,6 +4,7 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Rayquaza C",
+		de: "Rayquaza C"
 	},
 	illustrator: undefined,
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dragon Spirit",
+				de: "Drachenmut"
 			},
 			effect: {
 				en: "If Rayquaza  is your Active Pokémon and is damaged but not Knocked Out by an opponent's attack, you may search your discard pile for an Energy card and attach it to Rayquaza .",
+				de: "Wenn Rayquaza C dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält, aber nicht kampfunfähig wird, kannst du deinen Ablagestapel nach 1 Energiekarte durchsuchen und sie an Rayquaza C anlegen."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Final Blowup",
+				de: "Letztes Donnerwetter"
 			},
 			effect: {
 				en: "Discard all Energy attached to Rayquaza . Ignore this effect if you have no cards in your hand.",
+				de: "Lege alle an Rayquaza C angelegten Energien auf deinen Ablagestapel. Dieser Effekt gilt nur, wenn du mindestens 1 Handkarte hast."
 			},
 			damage: 200,
 

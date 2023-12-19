@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Spheal",
 		fr: "Obalie Niv. 18",
+		de: "Seemops"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -27,15 +28,20 @@ const card: Card = {
 			cost: [
 				"Water",
 			],
+
 			name: {
 				en: "Powder Snow",
 				fr: "Poudreuse",
+				de: "Pulverschnee"
 			},
+
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
+			damage: 10
 		},
 		{
 			cost: [
@@ -45,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Ice Ball",
 				fr: "Ball'glace",
+				de: "Frostbeule"
 			},
 
 			damage: 20,

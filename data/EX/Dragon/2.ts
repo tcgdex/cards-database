@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Altaria",
-		fr: "Altaria"
+		fr: "Altaria",
+		de: "Altaria"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Dance",
-				fr: "Danse de dragon"
+				fr: "Danse de dragon",
+				de: "Dragon Dance"
 			},
 			effect: {
 				en: "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 40 more damage (before applying Weakness and Resistance).",
-				fr: "Lors de votre prochain tour, si un de vos Pokémon Actifs inflige des dégâts à un des Pokémon Défenseurs, cette attaque inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+				fr: "Lors de votre prochain tour, si un de vos Pokémon Actifs inflige des dégâts à un des Pokémon Défenseurs, cette attaque inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				de: "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 40 more damage (before applying Weakness and Resistance)."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Song",
-				fr: "Chanson de dragon"
+				fr: "Chanson de dragon",
+				de: "Dragon Song"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Asleep.",
-				fr: "Chaque Pokémon Défenseur est maintenant Endormi."
+				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
+				de: "Each Defending Pokémon is now Asleep."
 			},
 			damage: 30,
 

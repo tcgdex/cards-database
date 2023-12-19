@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Combusken",
-		fr: "Galifeu"
+		fr: "Galifeu",
+		de: "Jungglut"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lava Burn",
-				fr: "Brûlure de lave"
+				fr: "Brûlure de lave",
+				de: "Lava Burn"
 			},
 			effect: {
 				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Claws",
-				fr: "Griffes affûtées"
+				fr: "Griffes affûtées",
+				de: "Sharp Claws"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 40 damage plus 10 more damage."
 			},
 			damage: "40+",
 

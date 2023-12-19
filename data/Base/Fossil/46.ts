@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Ekans",
-		fr: "Abo"
+		fr: "Abo",
+		de: "Rettan"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,26 +32,30 @@ const card: Card = {
 			],
 			name: {
 				en: "Spit Poison",
-				fr: "Crache-venin"
+				fr: "Crache-venin",
+				de: "Giftspucke"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
 		{
 			cost: [
-				"Grass",
 				"Colorless",
+				"Grass",
 			],
 			name: {
 				en: "Wrap",
-				fr: "Ligotage"
+				fr: "Ligotage",
+				de: "Wickel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 

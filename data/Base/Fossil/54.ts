@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Shellder",
-		fr: "Kokiyas"
+		fr: "Kokiyas",
+		de: "Muschas"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
-				fr: "Ultrason"
+				fr: "Ultrason",
+				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hide in Shell",
-				fr: "Cache-coquille"
+				fr: "Cache-coquille",
+				de: "In Muschel verstecken"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Shellder during your opponent's next turn. (Any other effects of attacks still happen.)",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Kokiyas pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)"
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Kokiyas pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Muschas während des nächsten Zuges deines gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},

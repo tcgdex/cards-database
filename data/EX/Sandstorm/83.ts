@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Wailmer",
-		fr: "Wailmer"
+		fr: "Wailmer",
+		de: "Wailmer"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,7 +31,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
-				fr: "Roulade"
+				fr: "Roulade",
+				de: "Rollout"
 			},
 
 			damage: 20,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Hypno Wave",
-				fr: "Super hypnovague"
+				fr: "Super hypnovague",
+				de: "Super Hypno Wave"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 30,
 

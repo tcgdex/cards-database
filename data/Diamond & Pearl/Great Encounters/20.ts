@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kingler",
 		fr: "Krabboss",
+		de: "Kingler"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -34,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Crabhammer",
 				fr: "Pince-masse",
+				de: "Krabbhammer"
 			},
 
 			damage: 30,
@@ -48,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Scissor Blow",
 				fr: "Cou d'ciseaux",
+				de: "Scherenschlag"
 			},
 			effect: {
 				en: "If the Defending Pokémon would be Knocked Out by this attack, Kingler does 30 damage to itself.",
 				fr: "Si le Pokémon Défenseur est mis K.O par cette attaque, Krabboss s'inflige 30 dégâts.",
+				de: "Wenn das Verteidigende Pokémon durch diesen Angriff kampfunfähig würde, fügt Kingler sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 80,
 

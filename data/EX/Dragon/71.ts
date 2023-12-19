@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Pineco",
-		fr: "Pomdepic"
+		fr: "Pomdepic",
+		de: "Tannza"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Exoskeleton",
-				fr: "Exosquelette"
+				fr: "Exosquelette",
+				de: "Exoskelett"
 			},
 			effect: {
 				en: "Any damage done to Pineco by attacks is reduced by 10. (after applying Weakness and Resistance).",
-				fr: "Tous dégâts infligés à Pomdepic par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+				fr: "Tous dégâts infligés à Pomdepic par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				de: "Jeder Schaden, der Tannza durch Angriffe zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -42,7 +45,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,

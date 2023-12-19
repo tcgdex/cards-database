@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dratini",
+		de: "Dratini"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
+				de: "Pound"
 			},
 
 			damage: 10,

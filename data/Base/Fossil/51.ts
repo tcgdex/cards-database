@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Krabby",
-		fr: "Krabby"
+		fr: "Krabby",
+		de: "Krabby"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Family",
-				fr: "Appel à la famille"
+				fr: "Appel à la famille",
+				de: "Familienruf"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
-				fr: "Cherchez dans votre deck un Pokémon de base appelé Krabby et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)"
+				fr: "Cherchez dans votre deck un Pokémon de base appelé Krabby et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				de: "Suche in deinem deck nach einer Basis-Pokémon-Karte mit dme namen Krabby und lege sie auf deine bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)"
 			},
 
 		},
@@ -46,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Irongrip",
-				fr: "Poigne de fer"
+				fr: "Poigne de fer",
+				de: "Eiserner Griff"
 			},
 
 			damage: 20,

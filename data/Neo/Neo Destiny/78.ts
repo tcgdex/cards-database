@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Porygon",
-		fr: "Porygon"
+		fr: "Porygon",
+		de: "Porygon"
 	},
 
 	illustrator: undefined,
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharpen",
-				fr: "Affûtage"
+				fr: "Affûtage",
+				de: "Sharpen"
 			},
 
 			damage: 20,

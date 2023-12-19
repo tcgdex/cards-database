@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Charmander",
-		fr: "Salamèche"
+		fr: "Salamèche",
+		de: "Glumanda"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
-				fr: "Intimidation"
+				fr: "Intimidation",
+				de: "Flare"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
-				fr: "Frénésie"
+				fr: "Frénésie",
+				de: "Rage"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Charmander.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Salamèche."
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Salamèche.",
+				de: "Does 10 damage plus 10 more damage for each damage counter on Charmander"
 			},
 			damage: "10+",
 

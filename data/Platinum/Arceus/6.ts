@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Mothim",
+		de: "Moterpel"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 
 			name: {
 				en: "Cloak Party",
+				de: "Umhangteam"
 			},
 			effect: {
 				en: "Search your deck for up to 3 in any combination of Burmy and Wormadam, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				de: "Durchsuche dein Deck nach bis zu 3 Karten in beliebiger Kombination aus Burmy- und Burmadame-Karten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Assist",
+				de: "Energieförderung"
 			},
 			effect: {
 				en: "Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.",
+				de: "Durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 30,
 

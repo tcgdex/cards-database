@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Corphish",
-		fr: "Écrapince"
+		fr: "Écrapince",
+		de: "Krebscorps"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Irongrip",
-				fr: "Poigne de fer"
+				fr: "Poigne de fer",
+				de: "Eiserner Griff"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 20,

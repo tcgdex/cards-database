@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Tauros",
 		fr: "Tauros",
+		de: "Tauros"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Show Off",
 				fr: "Crâneur",
+				de: "Show Off"
 			},
 			effect: {
 				en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck une carte Énergie de base. Montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				de: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -42,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Take Down"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Tauros does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Tauros s'inflige 10 dégâts.",
+				de: "Flip a coin. If tails, Tauros does 10 damage to itself."
 			},
 			damage: 20,
 

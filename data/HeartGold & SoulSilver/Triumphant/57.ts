@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bellsprout",
 		fr: "Chétiflor",
+		de: "Knofensa"
 	},
 
 	illustrator: "Midori Harada",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Inviting Scent",
 				fr: "Senteur ensorcelante",
+				de: "Einladender Duft"
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon.",
 				fr: "Échangez le Pokémon Défenseur avec l’un des Pokémon de Banc de votre adversaire.",
+				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegeners aus."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Careless Tackle",
 				fr: "Plaquage imprudent",
+				de: "Unvorsichtiger Tackle"
 			},
 			effect: {
 				en: "Bellsprout does 10 damage to itself.",
 				fr: "Chetiflor s’inflige 10 dégâts.",
+				de: "Knofensa fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 

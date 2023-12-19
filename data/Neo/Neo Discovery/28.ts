@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Poliwrath",
-		fr: "Tartard"
+		fr: "Tartard",
+		de: "Quappo"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Corkscrew Punch",
-				fr: "Poing tire-bouchon"
+				fr: "Poing tire-bouchon",
+				de: "Corkscrew Punch"
 			},
 
 			damage: 30,
@@ -51,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Submission",
-				fr: "Sacrifice"
+				fr: "Sacrifice",
+				de: "Submission"
 			},
 			effect: {
 				en: "Poliwrath does 20 damage to itself.",
-				fr: "Tartard s'inflige 20 dégâts."
+				fr: "Tartard s'inflige 20 dégâts.",
+				de: "Poliwrath does 20 damage to itself"
 			},
 			damage: 70,
 

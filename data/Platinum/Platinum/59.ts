@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Prinplup",
 		fr: "Prinplouf",
+		de: "Pliprin"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -33,6 +34,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				de: "Surf"
 			},
 
 			damage: 30,
@@ -47,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Bubblebeam",
 				fr: "Bulles d'O",
+				de: "Bubblebeam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 50,
 

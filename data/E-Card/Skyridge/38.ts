@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Machoke",
+		de: "Maschock"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Focus Energy",
+				de: "Energiefokus"
 			},
 			effect: {
 				en: "During your next turn, Machoke's Mega Punch attack's base damage is 80.",
+				de: "Während deines nächsten Zuges beträgt der Basis-Schaden von Maschocks Angriff \"Megahieb\" 80"
 			},
 
 		},
@@ -44,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Punch",
+				de: "Megahieb"
 			},
 
 			damage: 40,

@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Ponyta",
-		fr: "Ponyta"
+		fr: "Ponyta",
+		de: "Ponita"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
-				fr: "Ruade"
+				fr: "Ruade",
+				de: "Schmetterkick"
 			},
 
 			damage: 20,
@@ -45,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flame Tail",
-				fr: "Queue de flamme"
+				fr: "Queue de flamme",
+				de: "Flammenpfad"
 			},
 
 			damage: 30,

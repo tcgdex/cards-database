@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dusclops",
 		fr: "Teraclope",
+		de: "Zwirrklop"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Roam",
 				fr: "Égarement",
+				de: "Umherstreifen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, put 2 damage counters on each of your opponent's Pokémon. If tails, put 2 damage counters on 1 of your Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, placez 2 marqueurs de dégât sur chacun des Pokémon de votre adversaire. Si c'est pile, placez 2 marqueurs de dégât sur 1 de vos Pokémon.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" lege 2 Schadensmarken auf jedes Pokémon deines Gegners. Bei \"Zahl\" lege 2 Schadensmarken auf 1 deiner Pokémon."
 			},
 
 		},
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Gravity Wave",
 				fr: "Vague pesante",
+				de: "Schwerkraftwelle"
 			},
 			effect: {
 				en: "Does 10 damage to each of your opponent's Benched Pokémon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun de vos Pokémon de Banc ne possédant pas de Coût de retraite. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, das Rückzugskosten 0 hat, 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 

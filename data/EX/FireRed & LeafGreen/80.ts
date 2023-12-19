@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Slowpoke",
-		fr: "Ramoloss"
+		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confusion Wave",
-				fr: "Vague de confusion"
+				fr: "Vague de confusion",
+				de: "Confusing Wave"
 			},
 			effect: {
 				en: "Both Slowpoke and the Defending Pokémon are now Confused.",
-				fr: "Ramoloss et le Pokémon Défenseur sont maintenant Confus."
+				fr: "Ramoloss et le Pokémon Défenseur sont maintenant Confus.",
+				de: "Both Slowpoke and the Defending Pokémon are now Confused"
 			},
 
 		},

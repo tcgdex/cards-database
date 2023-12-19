@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Buizel",
 		fr: "Mustébouée",
+		de: "Bamelin"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -41,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				de: "Surfer"
 			},
 
 			damage: 30,

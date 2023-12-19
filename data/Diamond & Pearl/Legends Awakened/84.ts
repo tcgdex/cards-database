@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Beldum",
 		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Allure",
 				fr: "Allure",
+				de: "Verlockung"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,

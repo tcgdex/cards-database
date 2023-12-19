@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Dark Omanyte",
-		fr: "Amonita obscur"
+		fr: "Amonita obscur",
+		de: "Dunkles Amonitas"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Cannon",
-				fr: "Artillerie à O"
+				fr: "Artillerie à O",
+				de: "Water Cannon"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each Energy card attached to Dark Omanyte. Don't apply Weakness and Resistance. You can't do more than 30 damage in this way.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts pour chaque  carte Énergie attachée à Amonita obscur. N'appliquez ni la Faiblesse, ni la Résistance. Vous ne pouvez pas infliger plus de 30 dégâts de cette manière."
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts pour chaque  carte Énergie attachée à Amonita obscur. N'appliquez ni la Faiblesse, ni la Résistance. Vous ne pouvez pas infliger plus de 30 dégâts de cette manière.",
+				de: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each  Energy card attached to Dark Omanyte. Don't apply Weakness and Resistance. You can't do more than 30 damage in this way."
 			},
 
 		},

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Drapion",
 		fr: "Drascore",
+		de: "Piondragi"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -39,10 +40,12 @@ const card: Card = {
 			name: {
 				en: "Toxic Fang",
 				fr: "Croc toxik",
+				de: "Giftiger Reißzahn"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d’un seul sur ce Pokémon entre deux tours.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf dieses Pokémon."
 			},
 			damage: 40,
 
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Land Crush",
 				fr: "Écras’terre",
+				de: "Schollenbrecher"
 			},
 
 			damage: 80,

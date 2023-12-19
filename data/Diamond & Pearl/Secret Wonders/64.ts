@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shelgon",
 		fr: "Drackhaus",
+		de: "Draschel"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Focus Energy",
 				fr: "Puissance",
+				de: "Energiefokus"
 			},
 			effect: {
 				en: "During your next turn, Shelgon's Protect Charge attack's base damage is 80.",
 				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Recharge protectrice de Drackhaus sont de 80.",
+				de: "In deinem nächsten Zug beträgt der Grundschaden des Angriffs Schützender Sturmangriff 80 Schadenspunkte."
 			},
 
 		},
@@ -49,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Protect Charge",
 				fr: "Recharge protectrice",
+				de: "Schützender Sturmangriff"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Shelgon by attacks is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Drackhaus par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Draschel durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 30,
 

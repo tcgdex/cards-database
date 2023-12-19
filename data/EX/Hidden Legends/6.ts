@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Exploud",
-		fr: "Brouhabam"
+		fr: "Brouhabam",
+		de: "Krawumms"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Breaking Sound",
-				fr: "Assourdissant"
+				fr: "Assourdissant",
+				de: "Breaking Sound"
 			},
 			effect: {
 				en: "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bass Control",
-				fr: "Super basse"
+				fr: "Super basse",
+				de: "Bass Control"
 			},
 			effect: {
 				en: "Does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 30 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -62,11 +67,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderous Roar",
-				fr: "Rugissement tonitruant"
+				fr: "Rugissement tonitruant",
+				de: "Thunderous Roar"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus."
+				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "The Defending Pokémon is now Confused."
 			},
 			damage: 30,
 
@@ -80,7 +87,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Voice",
-				fr: "Voix haut perchée"
+				fr: "Voix haut perchée",
+				de: "Hyper Voice"
 			},
 
 			damage: 60,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magmortar",
 		fr: "Maganon",
+		de: "Magbrant"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Top Burner",
 				fr: "Super pyro",
+				de: "Top-Burner"
 			},
 			effect: {
 				en: "For each Fire Energy attached to Magmortar, discard the top card from your opponent’s deck. Then, flip a coin. If tails, discard all Fire Energy attached to Magmortar.",
 				fr: "Pour chaque carte Énergie Fire attachée à Maganon, défaussez la carte du dessus du deck de votre adversaire. Lancez ensuite une pièce. Si c’est pile, défaussez toutes les cartes Énergie Fire attachées à Maganon.",
+				de: "Lege für jede an Magbrant angelegte -Energie die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel. Wirf anschließend eine Münze. Bei \"Zahl\" lege alle an Magbrant angelegten -Energien auf deinen Ablagestapel."
 			},
 
 		},
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Burst Punch",
 				fr: "Poing d’enfer",
+				de: "Explosionshieb"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 60,
 

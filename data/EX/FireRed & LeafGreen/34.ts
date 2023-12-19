@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Haunter",
-		fr: "Spectrum"
+		fr: "Spectrum",
+		de: "Alpollo"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Head Trip",
-				fr: "La tête la première"
+				fr: "La tête la première",
+				de: "Head Trip"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Haunter is on your Bench, you may use this power. One of your Active Pokémon is now Confused.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir si Spectrum est sur votre Banc. Un de vos Pokémon Actifs est maintenant Confus."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir si Spectrum est sur votre Banc. Un de vos Pokémon Actifs est maintenant Confus.",
+				de: "Once during your turn (before your attack), if Haunter is on your Bench, you may use this power. One of your Active Pokémon is now Confused."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde folie"
+				fr: "Onde folie",
+				de: "Confuse Ray"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir si Spectrum est sur votre Banc. Un de vos Pokémon Actifs est maintenant Confus."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir si Spectrum est sur votre Banc. Un de vos Pokémon Actifs est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 

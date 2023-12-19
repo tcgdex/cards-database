@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Onix",
-		fr: "Onix"
+		fr: "Onix",
+		de: "Onix"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Screech",
-				fr: "Grincement"
+				fr: "Grincement",
+				de: "Screech"
 			},
 			effect: {
 				en: "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon.",
-				fr: "Jusqu'à la fin de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 20 dégâts supplémentaires au Pokémon Défenseur."
+				fr: "Jusqu'à la fin de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 20 dégâts supplémentaires au Pokémon Défenseur.",
+				de: "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
-				fr: "Frénésie"
+				fr: "Frénésie",
+				de: "Rage"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Onix.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Onix."
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Onix.",
+				de: "Does 10 damage plus 10 more damage for each damage counter on Onix."
 			},
 			damage: "10+",
 

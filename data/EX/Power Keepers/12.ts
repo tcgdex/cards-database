@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Raichu",
-		fr: "Raichu"
+		fr: "Raichu",
+		de: "Raichu"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Plasma",
-				fr: "Plasma"
+				fr: "Plasma",
+				de: "Plasma"
 			},
 			effect: {
 				en: "Search your discard pile for a Lightning Energy card and attach it to Raichu.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Raichu."
+				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Raichu.",
+				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Raichu an."
 			},
 			damage: 10,
 
@@ -48,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderbolt",
-				fr: "Tonnerre"
+				fr: "Tonnerre",
+				de: "Donnerblitz"
 			},
 			effect: {
 				en: "Discard all Energy cards attached to Raichu.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Raichu."
+				fr: "Défaussez toutes les cartes Énergie attachées à Raichu.",
+				de: "Entferne alle an Raichu angelegten Energiekarten und lege sie auf deinen Ablagestapel."
 			},
 			damage: 100,
 

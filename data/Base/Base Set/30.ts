@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Ivysaur",
-		fr: "Herbizarre"
+		fr: "Herbizarre",
+		de: "Bisaknosp"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -37,7 +38,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Vine Whip",
-				fr: "Fouet Lianes"
+				fr: "Fouet Lianes",
+				de: "Rankenhieb"
 			},
 
 			damage: 30,
@@ -51,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
-				fr: "Poudre Toxik"
+				fr: "Poudre Toxik",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das verteidigende Pokémon ist vergiftet."
 			},
 			damage: 20,
 

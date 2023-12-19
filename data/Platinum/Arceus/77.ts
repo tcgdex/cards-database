@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Tangela",
+		de: "Tangela"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stun Spore",
+				de: "Stachelspore"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 

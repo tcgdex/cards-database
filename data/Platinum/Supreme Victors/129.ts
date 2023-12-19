@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Starly",
 		fr: "Etourmi",
+		de: "Staralilli"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -31,6 +32,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 20,

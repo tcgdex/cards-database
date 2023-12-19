@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Feraligatr",
+		de: "Impergator"
 	},
 	illustrator: "kawayoo",
 	rarity: "Rare",
@@ -32,9 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spinning Tail",
+				de: "Kreisender Schweif"
 			},
 			effect: {
 				en: "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				de: "Dieser Angriff fügt jedem Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Surf",
+				de: "Surfer"
 			},
 
 			damage: 80,

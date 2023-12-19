@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Gastly",
-		fr: "Fantominus"
+		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lick",
-				fr: "Léchouille"
+				fr: "Léchouille",
+				de: "Schlecker"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Conversion",
-				fr: "Conversion d'Énergie"
+				fr: "Conversion d'Énergie",
+				de: "Energieverwandlung"
 			},
 			effect: {
 				en: "Put up to 2 Energy cards from your discard pile into your hand. Gastly does 10 damage to itself.",
-				fr: "Placez jusqu'à 2 cartes Énergie de votre pile de défausse dans votre main. Fantominus s'inflige 10 dégâts."
+				fr: "Placez jusqu'à 2 cartes Énergie de votre pile de défausse dans votre main. Fantominus s'inflige 10 dégâts.",
+				de: "Nimm bis zu zwei Energiekarten von deinem Ablagestapel auf deine hand. nebulak fügt sich selbst 10 schadenspunkte zu."
 			},
 
 		},

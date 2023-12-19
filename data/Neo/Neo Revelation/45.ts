@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Goldeen",
-		fr: "Poissirène"
+		fr: "Poissirène",
+		de: "Goldini"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,13 +32,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fin Smack",
-				fr: "Coud'nageoire"
+				fr: "Coud'nageoire",
+				de: "Fin Smack"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

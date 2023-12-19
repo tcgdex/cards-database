@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bellossom",
 		fr: "Joliflor",
+		de: "Blubella"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Parallel Gain",
 				fr: "Gain parallèle",
+				de: "Allgemeine Erholung"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon.",
 				fr: "Retirez à chacun de vos Pokémon 1 marqueur de dégât.",
+				de: "Entferne 1 Schadensmarke von jedem deiner Pokémon."
 			},
 			damage: 30,
 
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Blend Pollen",
 				fr: "Mélange de pollen",
+				de: "Pollenmischung"
 			},
 			effect: {
 				en: "Does 40 damage plus 20 more damage for each Vileplume and each Bellossom you have in play. Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque Rafflesia et chaque Joliflor que vous avez en jeu. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Dieser Angriff fügt 40 Schadenspunkte plus 20 weitere Schadenspunkte für jedes Giflor und jedes Blubella, das du im Spiel hast, zu. Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: "40+",
 

@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Vulpix",
-		fr: "Goupix"
+		fr: "Goupix",
+		de: "Vulpix"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Shake",
-				fr: "Secoue-queue"
+				fr: "Secoue-queue",
+				de: "Schweifwedeln"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
-				fr: "Souffle-feu"
+				fr: "Souffle-feu",
+				de: "Flackern"
 			},
 
 			damage: 20,

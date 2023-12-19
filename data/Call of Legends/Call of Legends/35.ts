@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Typhlosion",
+		de: "Tornupto"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Magma Punch",
+				de: "Magmahieb"
 			},
 
 			damage: 50,
@@ -44,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Spin",
+				de: "Feuerwirbel"
 			},
 			effect: {
 				en: "Discard 2 Energy attached to Typhlosion.",
+				de: "Lege 2 an Tornupto angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 120,
 

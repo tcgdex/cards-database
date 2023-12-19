@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Celebi",
-		fr: "Celebi"
+		fr: "Celebi",
+		de: "Celebi"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,11 +30,13 @@ const card: Card = {
 
 			name: {
 				en: "Sprouting",
-				fr: "Grandir"
+				fr: "Grandir",
+				de: "Keimen"
 			},
 			effect: {
 				en: "Search your deck for a Grass Energy card and attach it to Celebi. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie Grass et attachez-la à Celebi. Ensuite, mélangez votre deck."
+				fr: "Cherchez dans votre deck une carte Énergie Grass et attachez-la à Celebi. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach einer -Energiekarte und lege sie an Celebi an. Mische dein Deck danach."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Leaf Tornado",
-				fr: "Tornade de feuilles"
+				fr: "Tornade de feuilles",
+				de: "Blättertornado"
 			},
 			effect: {
 				en: "You may move any number of basic Grass Energy cards attached to your Pokémon to your other Pokémon in any way you like.",
-				fr: "Vous pouvez déplacer autant de cartes Énergie de base Grass attachées à vos Pokémon que vous voulez sur vos autres Pokémon de la façon que vous voulez."
+				fr: "Vous pouvez déplacer autant de cartes Énergie de base Grass attachées à vos Pokémon que vous voulez sur vos autres Pokémon de la façon que vous voulez.",
+				de: "Du kannst beliebig viele -Basis-Energiekarten, die an deinen Pokémon angelegt sind, in beliebiger Verteilung an deine anderen Pokémon anlegen."
 			},
 			damage: 30,
 

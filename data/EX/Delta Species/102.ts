@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Switch",
-		fr: "Échange"
+		fr: "Échange",
+		de: "Tausch"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -14,7 +15,8 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		fr: "Échangez 1 de vos Pokémon Actifs avec 1 de vos Pokémon de Banc."
+		fr: "Échangez 1 de vos Pokémon Actifs avec 1 de vos Pokémon de Banc.",
+		de: "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon."
 	}
 }
 

@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Water Energy",
-		fr: "Énergie Eau"
+		fr: "Énergie Eau",
+		de: "Wasserenergie"
 	},
 	illustrator: undefined,
 	rarity: "Common",

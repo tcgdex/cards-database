@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Exploud",
-		fr: "Brouhabam"
+		fr: "Brouhabam",
+		de: "Krawumms"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collectionner"
+				fr: "Collectionner",
+				de: "Collect"
 			},
 			effect: {
 				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes."
+				fr: "Piochez 3 cartes.",
+				de: "Draw 3 cards."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Body Slam",
-				fr: "Plaquage"
+				fr: "Plaquage",
+				de: "Body Slam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 
@@ -63,7 +68,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Voice",
-				fr: "Mégaphone"
+				fr: "Mégaphone",
+				de: "Hyper Voice"
 			},
 
 			damage: 50,
@@ -79,11 +85,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Throw",
-				fr: "Méga lancer"
+				fr: "Méga lancer",
+				de: "Mega Throw"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, this attack does 60 damage plus 40 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires.",
+				de: "If the Defending Pokémon is Pokémon-ex, this attack does 60 damage plus 40 more damage."
 			},
 			damage: "60+",
 

@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Kangaskhan",
-		fr: "Kangourex"
+		fr: "Kangourex",
+		de: "Kangama"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fetch",
-				fr: "Rapporte"
+				fr: "Rapporte",
+				de: "Apportieren"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				de: "Ziehe eine Karte."
 			},
 
 		},
@@ -48,13 +51,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Comet Punch",
-				fr: "Poing comète"
+				fr: "Poing comète",
+				de: "Kometenhieb"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 4 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 20 Schadenspunkte zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

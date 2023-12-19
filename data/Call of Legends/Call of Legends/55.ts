@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cyndaquil",
 		fr: "Héricendre",
+		de: "Feurigel"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Fireworks",
 				fr: "Feux d'artifice",
+				de: "Feuerwerk"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Cyndaquil.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez une Énergie Fire attachée à Héricendre.",
+				de: "Wirf eine Münze. Bei \"Zahl\" lege eine an Feurigel angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 20,
 

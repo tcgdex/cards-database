@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Drifloon",
 		fr: "Baudrive",
+		de: "Driftlon"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Reckless Charge",
 				fr: "Attaque imprudente",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "Drifloon does 10 damage to itself.",
 				fr: "Baudrive s'inflige 10 dégâts.",
+				de: "Driftlon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -45,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},

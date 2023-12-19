@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Oddish",
-		fr: "Mystherbe"
+		fr: "Mystherbe",
+		de: "Myrapla"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stun Spore",
-				fr: "Para-spore"
+				fr: "Para-spore",
+				de: "Stachelsporen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sprout",
-				fr: "Repousse"
+				fr: "Repousse",
+				de: "Sprössling"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon named Oddish and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
-				fr: "Cherchez dans votre deck un Pokémon de base appelé Mystherbe et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)"
+				fr: "Cherchez dans votre deck un Pokémon de base appelé Mystherbe et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				de: "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Myrapla und lege sie auf deine Bank. Mische dein Deck danach. (du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)"
 			},
 
 		},

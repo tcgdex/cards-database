@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Heracross",
 		fr: "Scarhino",
+		de: "Skaraborn"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Pitch",
 				fr: "Lancer",
+				de: "Austoben"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 10,
 
@@ -48,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Horn Slash",
 				fr: "Tranch'korne",
+				de: "Hornschlitzer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

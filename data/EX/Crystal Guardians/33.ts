@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Gulpin",
-		fr: "Gloupti"
+		fr: "Gloupti",
+		de: "Schluppuck"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Amnesia",
-				fr: "Amnésie"
+				fr: "Amnésie",
+				de: "Amnesie"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Il ne pourra pas utiliser cette attaque lors du prochain tour de votre adversaire."
+				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Il ne pourra pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann den gewählten Angriff im nächsten Zug deines Gegners nicht einsetzen."
 			},
 
 		},
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Sludge Toss",
-				fr: "Décision vaseuse"
+				fr: "Décision vaseuse",
+				de: "Schleimwurf"
 			},
 
 			damage: 40,

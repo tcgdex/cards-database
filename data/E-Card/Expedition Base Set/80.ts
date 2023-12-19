@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Haunter",
-		fr: "Spectrum"
+		fr: "Spectrum",
+		de: "Alpollo"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Nightmare",
-				fr: "Cauchemar"
+				fr: "Cauchemar",
+				de: "Nightmare"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 
@@ -49,12 +52,14 @@ const card: Card = {
 
 			name: {
 				en: "Dream Eater",
-				fr: "Dévorêve"
+				fr: "Dévorêve",
+				de: "Dream Eater"
 			},
 
 			effect: {
 				en: "If the Defending Pokémon isn't Asleep, this attack does nothing.",
-				fr: "Si le Pokémon Défenseur n'est pas Endormi, cette attaque ne fait rien."
+				fr: "Si le Pokémon Défenseur n'est pas Endormi, cette attaque ne fait rien.",
+				de: "If the Defending Pokémon isn't Asleep, this attack does nothing."
 			},
 
 			damage: 50

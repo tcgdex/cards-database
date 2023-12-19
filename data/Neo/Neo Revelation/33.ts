@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Magcargo",
-		fr: "Volcaropod"
+		fr: "Volcaropod",
+		de: "Magcargo"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Magma Pool",
-				fr: "Braises"
+				fr: "Braises",
+				de: "Magma Pool"
 			},
 			effect: {
 				en: "If Magcargo is your Active Pokémon and moves to the Bench, remove 1 Fire Energy card attached to Magcargo, if any, and attach it to the new Active Pokémon. (You can't use an Energy card that you used to pay for the Retreat Cost.)",
-				fr: "Si Volcaropod est votre Pokémon Actif et s'il retourne sur votre Banc, retirez 1 carte Énergie  attachée à Volcaropod, le cas échéant, et attachez-la au nouveau Pokémon Actif. (Vous ne pouvez pas utiliser une carte Énergie que vous avez déjà utilisée pour payer le Coût de Retraite.)"
+				fr: "Si Volcaropod est votre Pokémon Actif et s'il retourne sur votre Banc, retirez 1 carte Énergie  attachée à Volcaropod, le cas échéant, et attachez-la au nouveau Pokémon Actif. (Vous ne pouvez pas utiliser une carte Énergie que vous avez déjà utilisée pour payer le Coût de Retraite.)",
+				de: "If Magcargo is your Active Pokémon and moves to the Bench, remove 1  Energy card attached to Magcargo, if any, and attach it to the new Active Pokémon. (You can´t choose Energy card that you used to pay the Retreat Cost.)"
 			},
 		},
 	],
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lava Flow",
-				fr: "Torrent de lave"
+				fr: "Torrent de lave",
+				de: "Lava Flow"
 			},
 			effect: {
 				en: "You may discard any number of Energy cards attached to Magcargo when you use this attack. If you do, this attack does 40 damage plus 20 more damage for each Energy card you discarded in this way.",
-				fr: "Vous pouvez défausser autant de cartes Énergie  attachées à Volcaropod que vous le désirez. Dans ce cas, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie  que vous choisissez de défausser."
+				fr: "Vous pouvez défausser autant de cartes Énergie  attachées à Volcaropod que vous le désirez. Dans ce cas, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie  que vous choisissez de défausser.",
+				de: "You may discard any number of  Energy cards attached to Magcargo when you use this attack. If you do, this attack does 40 damage plus 20 more damage for each  Energy card you discarded in this way."
 			},
 			damage: "40+",
 

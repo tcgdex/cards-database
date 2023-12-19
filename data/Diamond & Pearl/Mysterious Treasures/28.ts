@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Manectric",
-		fr: "Elecsprint"
+		fr: "Elecsprint",
+		de: "Voltenso"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -35,13 +36,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Lightning Twister",
-				fr: "Tornade d'éclairs"
+				fr: "Tornade d'éclairs",
+				de: "Blitzwirbel"
 			},
 			effect: {
 				en: "Does 20 damage times the number of basic Energy cards attached to Manectric.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie de base attachées à Elecsprint."
+				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie de base attachées à Elecsprint.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Voltenso angelegten Basis-Energiekarten zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 		{
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Chain Lightning",
-				fr: "Rafale de foudre"
+				fr: "Rafale de foudre",
+				de: "Kettenblitz"
 			},
 			effect: {
 				en: "Does 20 damage to each of your opponent's Benched Pokémon that is the same type as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire étant du même type que le Pokémon Défenseur. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire étant du même type que le Pokémon Défenseur. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, das denselben Typ wie das Verteidigende Pokémon hat, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 70,
 

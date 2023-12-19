@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dialga",
 		fr: "Dialga",
+		de: "Dialga"
 	},
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare",
@@ -31,10 +32,12 @@ const card: Card = {
 			name: {
 				en: "Energy Stream",
 				fr: "Courant d'énergie",
+				de: "Energy Stream"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Dialga.",
 				fr: "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Dialga.",
+				de: "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Dialga."
 			},
 			damage: 20,
 
@@ -49,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Diamond Blow",
 				fr: "Coup diamant",
+				de: "Diamond Blow"
 			},
 			effect: {
 				en: "Dialga can't attack during your next turn.",
 				fr: "Dialga ne peut pas attaquer lors de votre prochain tour.",
+				de: "Dialga can't attack during your next turn."
 			},
 			damage: 100,
 

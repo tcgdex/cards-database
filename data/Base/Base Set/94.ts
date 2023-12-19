@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Potion",
-		fr: "Potion"
+		fr: "Potion",
+		de: "Trank"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Retirez jusqu'à 2 marqueurs de dégâts d'1 de vos Pokémon."
+		fr: "Retirez jusqu'à 2 marqueurs de dégâts d'1 de vos Pokémon.",
+		de: "Entferne bis zu 2 Schadensmarken von einem Deiner Pokémon."
 	}
 }
 

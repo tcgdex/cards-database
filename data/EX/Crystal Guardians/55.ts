@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Lotad",
-		fr: "Nenupiot"
+		fr: "Nenupiot",
+		de: "Loturzel"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Aqua Lift",
-				fr: "Aqua-élévation"
+				fr: "Aqua-élévation",
+				de: "Aquatransporter"
 			},
 			effect: {
 				en: "If Lotad has any Water Energy attached to it, the Retreat Cost for Lotad is 0.",
-				fr: "Si Nenupiot possède une Énergie , son Coût de retraite est de 0."
+				fr: "Si Nenupiot possède une Énergie , son Coût de retraite est de 0.",
+				de: "Wenn mindestens 1 -Energie an Loturzel angelegt ist, hat Loturzel Rückzugskosten 0."
 			},
 		},
 	],
@@ -42,7 +45,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Tackle",
-				fr: "Roulé-boulé"
+				fr: "Roulé-boulé",
+				de: "Rolltackle"
 			},
 
 			damage: 20,

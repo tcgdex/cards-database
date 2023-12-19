@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Cherubi",
-		fr: "Ceribou"
+		fr: "Ceribou",
+		de: "Kikugi"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Nap",
 				fr: "Tit'sieste",
+				de: "Nickerchen"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Cherubi.",
 				fr: "Retirez à Ceribou 2 marqueurs de dégâts.",
+				de: "Entferne 2 Schadensmarken von Kikugi."
 			},
 
 		},
@@ -48,12 +51,14 @@ const card: Card = {
 			name: {
 				en: "Bullet Seed",
 				fr: "Balle graine",
+				de: "Kugelsaat"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Skiploom",
-		fr: "Floravol"
+		fr: "Floravol",
+		de: "Hubelupf"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hop",
-				fr: "Hop"
+				fr: "Hop",
+				de: "Hüpfer"
 			},
 
 			damage: 20,
@@ -47,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mysterious Powder",
-				fr: "Poudre mystérieuse"
+				fr: "Poudre mystérieuse",
+				de: "Seltsames Puder"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 

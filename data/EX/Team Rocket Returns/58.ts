@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Horsea",
+		de: "Seeper"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Plant",
+				de: "Water Plant"
 			},
 			effect: {
 				en: "Search your discard pile for up to 2 Water Energy cards show them to your opponent and put them into your hand.\"",
+				de: "Search your discard pile for up to 2  Energy cards, show them to your opponent, and put them into your hand."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Swift",
+				de: "Swift"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				de: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 30,
 

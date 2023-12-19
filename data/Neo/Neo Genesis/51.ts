@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Togepi",
-		fr: "Togepi"
+		fr: "Togepi",
+		de: "Togepi"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Barb",
-				fr: "Barbelés empoisonnés"
+				fr: "Barbelés empoisonnés",
+				de: "Giftzacken"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné"
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné",
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 

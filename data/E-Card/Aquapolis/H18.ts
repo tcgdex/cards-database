@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Nidoking",
-		fr: "Nidoking"
+		fr: "Nidoking",
+		de: "Nidoking"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Earth Rage",
-				fr: "Frénésie-terre"
+				fr: "Frénésie-terre",
+				de: "Earth Rage"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Nidoking is your Active Pokémon, you may flip a coin. If heads, put a damage counter on each of your opponent's Benched Pokémon. This power can't be used if Nidoking is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si Nidoking est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, placez un marqueur de dégâts sur chacun des Pokémon du Banc de votre adversaire. Ce pouvoir ne peut pas être utilisé si Nidoking est affecté par un État spécial."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), si Nidoking est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, placez un marqueur de dégâts sur chacun des Pokémon du Banc de votre adversaire. Ce pouvoir ne peut pas être utilisé si Nidoking est affecté par un État spécial.",
+				de: "Once during your turn (before your attack), if Nidoking is your Active Pokémon, you may flip a coin. If heads, put a damage counter on each of your opponent's Benched Pokémon. This power can't be used if Nidoking is affected by a Special Condition."
 			},
 		},
 	],
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Giant Horn",
-				fr: "Corne géante"
+				fr: "Corne géante",
+				de: "Giant Horn"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 50 damage plus 30 more damage."
 			},
 			damage: "50+",
 

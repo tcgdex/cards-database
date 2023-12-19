@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Fighting Energy",
-		fr: "Énergie Combat"
+		fr: "Énergie Combat",
+		de: "Kampfenergie"
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Oddish",
 		fr: "Mystherbe",
+		de: "Myrapla"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -44,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Find a Friend",
 				fr: "Trouver un ami",
+				de: "Freunde finden"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a Grass Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c’est face, cherchez un Pokémon Grass dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				de: "Wirf eine Münze. Durchsuche bei \"Kopf\" dein Deck nach 1 -Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
 			},
 
 		},

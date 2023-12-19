@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Zangoose",
-		fr: "Mangriff"
+		fr: "Mangriff",
+		de: "Sengo"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Poison Resistance",
-				fr: "Résistance au poison"
+				fr: "Résistance au poison",
+				de: "Poison Resistance"
 			},
 			effect: {
 				en: "Zangoose can't be Poisoned.",
-				fr: "Mangriff ne peut pas être Empoisonné."
+				fr: "Mangriff ne peut pas être Empoisonné.",
+				de: "Zangoose can't be Poisoned."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Target Slash",
-				fr: "Tranche-cible"
+				fr: "Tranche-cible",
+				de: "Target Slash"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Seviper, this attack does 10 damage plus 30 more damage.",
-				fr: "Si Seviper est le Pokémon Défenseur, cette attaque inflige 40 dégâts."
+				fr: "Si Seviper est le Pokémon Défenseur, cette attaque inflige 40 dégâts.",
+				de: "If the Defending Pokémon is a Seviper, this attack does 10 damage plus 30 more damage."
 			},
 			damage: "10+",
 
@@ -58,11 +63,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Slash",
-				fr: "Super entaille"
+				fr: "Super entaille",
+				de: "Super Slash"
 			},
 			effect: {
 				en: "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 60 dégâts."
+				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 60 dégâts.",
+				de: "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 30 more damage."
 			},
 			damage: "30+",
 

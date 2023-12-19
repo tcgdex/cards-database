@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gliscor",
 		fr: "Scorvol",
+		de: "Skorgro"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Burning Poison",
 				fr: "Poison brûlant",
+				de: "Giftbrand"
 			},
 			effect: {
 				en: "Choose either Burned or Poisoned. The Defending Pokémon is now affected by that Special Condition. You may return Gliscor and all cards attached to it to your hand.",
 				fr: "Choisissez entre Brûlé et Empoisonné. Le Pokémon Défenseur est maintenant affecté par cet État Spécial. Vous pouvez reprendre Scorvol dans votre main ainsi que toutes les cartes qui lui sont attachées.",
+				de: "Wähle \"verbrannt\" oder \"vergiftet\". Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen. Du kannst Skorgro und alle daran angelegten Karten auf deine Hand zurücknehmen."
 			},
 
 		},
@@ -50,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Pester",
 				fr: "Abattre",
+				de: "Verfolgung"
 			},
 			effect: {
 				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 40 damage plus 40 more damage.",
 				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon von einem Speziellen Zustand betroffen ist, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 

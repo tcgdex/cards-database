@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Totodile",
-		fr: "Kaiminus"
+		fr: "Kaiminus",
+		de: "Karnimani"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Gun",
-				fr: "Pistolet à O"
+				fr: "Pistolet à O",
+				de: "Water Gun"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Energy attached to Totodile but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kaiminus en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kaiminus en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				de: "Does 10 damage plus 10 more damage for each  Energy attached to Totodile but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "10+",
 

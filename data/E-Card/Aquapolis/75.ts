@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Charge Up",
-				fr: "Chargement"
+				fr: "Chargement",
+				de: "Charge Up"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for an Energy card and attach it to Eevee. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, vous pouvez chercher une carte Énergie et l'attacher à Évoli. Mélangez ensuite votre deck."
+				fr: "Lancez une pièce. Si c'est face, vous pouvez chercher une carte Énergie et l'attacher à Évoli. Mélangez ensuite votre deck.",
+				de: "Flip a coin. If heads, search your deck for an Energy card and attach it to Eevee. Shuffle your deck afterward."
 			},
 
 		},
@@ -44,12 +47,14 @@ const card: Card = {
 
 			name: {
 				en: "Lunge",
-				fr: "Coup rapide"
+				fr: "Coup rapide",
+				de: "Lunge"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 
 			damage: 20

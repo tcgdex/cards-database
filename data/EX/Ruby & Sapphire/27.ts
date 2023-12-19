@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Combusken",
-		fr: "Galifeu"
+		fr: "Galifeu",
+		de: "Jungglut"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
-				fr: "Intimidation"
+				fr: "Intimidation",
+				de: "Flackern"
 			},
 
 			damage: 20,
@@ -45,13 +47,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Kick",
-				fr: "Double pied"
+				fr: "Double pied",
+				de: "Doppelkick"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de face."
+				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "40×",
+			damage: "40x",
 
 		},
 	],

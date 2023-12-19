@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Starly",
 		fr: "Étourmi",
+		de: "Staralili"
 	},
 	illustrator: "Kent Kanetsuna",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Whirlwind",
 				fr: "Cyclone",
+				de: "Wirbelwind"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 10,
 
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Flap",
 				fr: "Battement",
+				de: "Flattern"
 			},
 
 			damage: 20,

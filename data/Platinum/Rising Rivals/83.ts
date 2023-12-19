@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Staryu",
 		fr: "Stari Niv. 18",
+		de: "Sterndu"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Cosmic Draw",
 				fr: "Pioche cosmik",
+				de: "Kosmische Anziehungskraft"
 			},
 			effect: {
 				en: "If your opponent has any Evolved Pokémon in play, draw 3 cards.",
 				fr: "Si votre adversaire possède des Pokémon Évolués en jeu, piochez 3 cartes.",
+				de: "Wenn dein Gegner mindestens 1 entwickeltes Pokémon im Spiel hat, ziehe 3 Karten."
 			},
 
 		},
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Swift",
 				fr: "Météores",
+				de: "Sternschauer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				de: "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 10,
 

@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Onix",
-		fr: "Onix"
+		fr: "Onix",
+		de: "Onix"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Throw",
-				fr: "Jet-pierres"
+				fr: "Jet-pierres",
+				de: "Rock Throw"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tunneling",
-				fr: "Creuser un tunnel"
+				fr: "Creuser un tunnel",
+				de: "Tunneling"
 			},
 			effect: {
 				en: "Choose up to 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Onix can't attack during your next turn.",
-				fr: "Choisissez jusqu'à 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Onix ne pourra pas attaquer lors de votre prochain tour."
+				fr: "Choisissez jusqu'à 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Onix ne pourra pas attaquer lors de votre prochain tour.",
+				de: "Choose up to 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Onix can't attack during your next turn."
 			},
 
 		},

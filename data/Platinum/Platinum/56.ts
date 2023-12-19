@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Monferno",
 		fr: "Chimpenfeu",
+		de: "Panpyro"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Fire Tail Slap",
 				fr: "Coup de queue enflammé",
+				de: "Fire Tail Slap"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Monferno.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Chimpenfeu.",
+				de: "Flip a coin. If tails, discard a  Energy attached to Monferno."
 			},
 			damage: 40,
 
@@ -49,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Paralyzing Gaze",
 				fr: "Regard paralysant",
+				de: "Paralyzing Gaze"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

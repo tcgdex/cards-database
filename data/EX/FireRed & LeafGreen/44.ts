@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Persian",
-		fr: "Persian"
+		fr: "Persian",
+		de: "Snobilikat"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Thick Skin",
-				fr: "Dur à cuire"
+				fr: "Dur à cuire",
+				de: "Dicke Haut"
 			},
 			effect: {
 				en: "Persian can't be affected by any Special Conditions.",
-				fr: "Persian ne peut pas être affecté par des États Spéciaux."
+				fr: "Persian ne peut pas être affecté par des États Spéciaux.",
+				de: "Snobilikat kann nicht von Speziellen Zuständen betroffen werden."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Claws",
-				fr: "Griffes empoisonnées"
+				fr: "Griffes empoisonnées",
+				de: "Giftkrallen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -58,11 +63,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Shining Claws",
-				fr: "Griffes étincelantes"
+				fr: "Griffes étincelantes",
+				de: "Glänzende Krallen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus."
+				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 30,
 

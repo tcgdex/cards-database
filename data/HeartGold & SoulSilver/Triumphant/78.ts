@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Swablu",
 		fr: "Tylton",
+		de: "Wablu"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Wing Flick",
 				fr: "Battement d’aile",
+				de: "Schwingenschlag"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec l’un de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 10,
 

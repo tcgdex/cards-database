@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Rapidash",
-		fr: "Galopa obscur"
+		fr: "Galopa obscur",
+		de: "Dunkles Gallopa"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rear Kick",
-				fr: "Ruade"
+				fr: "Ruade",
+				de: "Rear Kick"
 			},
 
 			damage: 20,
@@ -49,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flame Pillar",
-				fr: "Colonne de flammes"
+				fr: "Colonne de flammes",
+				de: "Flame Pillar"
 			},
 			effect: {
 				en: "You may discard 1 Energy card attached to Dark Rapidash when you use this attack. If you do and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Vous pouvez défausser 1 carte Énergie  attachée à Galopa obscur lorsque vous utilisez cette attaque. Dans ce cas, et si votre adversaire a au moins 1 Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (N'appliquez pas la Faiblesse et la Résistance au Pokémon du Banc)."
+				fr: "Vous pouvez défausser 1 carte Énergie  attachée à Galopa obscur lorsque vous utilisez cette attaque. Dans ce cas, et si votre adversaire a au moins 1 Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (N'appliquez pas la Faiblesse et la Résistance au Pokémon du Banc).",
+				de: "You may discard 1  Energy card attached to Dark Rapidash when you use this attack. If you do and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and resistance for benched Pokémon.)"
 			},
 			damage: 30,
 

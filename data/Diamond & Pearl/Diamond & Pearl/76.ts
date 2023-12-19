@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Chimchar",
 		fr: "Ouisticram",
+		de: "Panflam"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
+				de: "Glut"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Chimchar.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Ouisticram.",
+				de: "Wirf 1 Münze. Bei 'Zahl' lege eine -Energie, die an Panflam angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 30,
 

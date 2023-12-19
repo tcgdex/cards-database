@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Kadabra",
-		fr: "Kadabra"
+		fr: "Kadabra",
+		de: "Kadabra"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Recover",
-				fr: "Soin"
+				fr: "Soin",
+				de: "Erholung"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Kadabra in order use this attack. Remove all damage counters from Kadabra.",
-				fr: "Défaussez 1 carte Énergie  attachée à Kadabra pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Kadabra."
+				fr: "Défaussez 1 carte Énergie  attachée à Kadabra pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Kadabra.",
+				de: "Entferne eine auf kadabra abgelegte  Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Kadabra."
 			},
 
 		},
@@ -52,7 +55,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Psy",
-				fr: "Super Psy"
+				fr: "Super Psy",
+				de: "Super-Psychoschlag"
 			},
 
 			damage: 50,

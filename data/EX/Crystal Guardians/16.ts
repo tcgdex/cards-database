@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Combusken",
-		fr: "Galifeu"
+		fr: "Galifeu",
+		de: "Jungglut"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Focus Energy",
-				fr: "Puissance"
+				fr: "Puissance",
+				de: "Energiefokus"
 			},
 			effect: {
 				en: "During your next turn, Combusken's High Jump Kick attack's base damage is 70.",
-				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Pied voltige de Galifeu sont de 70."
+				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Pied voltige de Galifeu sont de 70.",
+				de: "In deinem nächsten Zug beträgt der Grundschaden des Angriffs Turmkick 70 Schadenspunkte."
 			},
 
 		},
@@ -46,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "High Jump Kick",
-				fr: "Pied voltige"
+				fr: "Pied voltige",
+				de: "Turmkick"
 			},
 
 			damage: 30,

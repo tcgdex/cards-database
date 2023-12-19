@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sudowoodo",
 		fr: "Simularbre",
+		de: "Mogelbaum"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -30,12 +31,14 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Fléau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Sudowoodo.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Simularbre.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Mogelbaum zu."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 		{
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Wood Hammer",
 				fr: "Martobois",
+				de: "Holzhammer"
 			},
 			effect: {
 				en: "Sudowoodo does 30 damage to itself.",
 				fr: "Simularbre s'inflige 30 dégâts.",
+				de: "Mogelbaum fügt sich slebst 30 Schadenspunkte zu."
 			},
 			damage: 50,
 

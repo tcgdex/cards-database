@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Tauros",
-		fr: "Tauros"
+		fr: "Tauros",
+		de: "Tauros"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Knock Over",
-				fr: "Culbute"
+				fr: "Culbute",
+				de: "Knock Over"
 			},
 			effect: {
 				en: "You may discard any Stadium card in play.",
-				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu."
+				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
+				de: "You may discard any Stadium card in play."
 			},
 			damage: 10,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rampage",
-				fr: "Saccage"
+				fr: "Saccage",
+				de: "Rampage"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each damage counter on Tauros. After doing damage, flip a coin. If tails, Tauros is now Confused.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Tauros. Après avoir infligé les dégâts, lancez une pièce. Si c'est pile, Tauros est maintenant Confus."
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Tauros. Après avoir infligé les dégâts, lancez une pièce. Si c'est pile, Tauros est maintenant Confus.",
+				de: "Does 20 damage plus 10 damage for each damage counter on Tauros. After doing damage, flip a coin. If tails, Tauros is now Confused."
 			},
 			damage: "20+",
 

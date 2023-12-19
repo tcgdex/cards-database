@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Double Full Heal",
-		fr: "Double guérison totale"
+		fr: "Double guérison totale",
+		de: "Doppel Hyperheiler"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -14,7 +15,8 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		fr: "Retirez à chacun de vos Pokémon Actifs tous leurs États Spéciaux."
+		fr: "Retirez à chacun de vos Pokémon Actifs tous leurs États Spéciaux.",
+		de: "Alle Speziellen Zustände auf allen deinen Aktiven Pokémon verlieren ihre Wirkung."
 	}
 }
 

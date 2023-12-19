@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Combee",
 		fr: "Apitrini",
+		de: "Wadribie"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collectionner",
+				de: "Collect"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Draw a card."
 			},
 
 		},
@@ -43,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Shoot Through",
 				fr: "Passer à travers",
+				de: "Shoot Through"
 			},
 			effect: {
 				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 

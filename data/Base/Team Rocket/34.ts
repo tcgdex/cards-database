@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Electrode",
-		fr: "Electrode obscur"
+		fr: "Electrode obscur",
+		de: "Dunkles Lektrobal"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Tackle",
-				fr: "Plaquage roulant"
+				fr: "Plaquage roulant",
+				de: "Rolling Tackle"
 			},
 
 			damage: 10,
@@ -48,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Bomb",
-				fr: "Bombe à Énergie"
+				fr: "Bombe à Énergie",
+				de: "Energy Bomb"
 			},
 			effect: {
 				en: "Take all Energy cards attached to Dark Electrode and attach them to your Benched Pokémon (in any way you choose). If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode.",
-				fr: "Prenez toutes les cartes Énergie attachées à Electrode obscur et attachez-les aux Pokémon de votre Banc (selon votre choix). Si vous n'avez pas Pokémon sur votre Banc, défaussez toutes les cartes Énergie attachées à Electrode obscur."
+				fr: "Prenez toutes les cartes Énergie attachées à Electrode obscur et attachez-les aux Pokémon de votre Banc (selon votre choix). Si vous n'avez pas Pokémon sur votre Banc, défaussez toutes les cartes Énergie attachées à Electrode obscur.",
+				de: "Take all Energy cards attached to Dark Electrode and attach them to your benched Pokémon (in any way you choose). If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode."
 			},
 			damage: 30,
 

@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Cacnea",
-		fr: "Cacnea"
+		fr: "Cacnea",
+		de: "Tuska"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,13 +30,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Spike Cannon",
-				fr: "Picanon"
+				fr: "Picanon",
+				de: "Spike Cannon"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

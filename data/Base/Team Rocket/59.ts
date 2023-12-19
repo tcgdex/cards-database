@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Machop",
-		fr: "Machoc"
+		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
-				fr: "Koud'poing"
+				fr: "Koud'poing",
+				de: "Hieb"
 			},
 
 			damage: 20,
@@ -46,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Kick",
-				fr: "Koud'pied"
+				fr: "Koud'pied",
+				de: "Kicks"
 			},
 
 			damage: 30,

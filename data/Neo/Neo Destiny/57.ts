@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Unown [C]",
-		fr: "Zarbi C"
+		fr: "Zarbi C",
+		de: "Icognito C"
 	},
 
 	illustrator: "CR CG gangs",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "[Chase]",
-				fr: "[Chase]"
+				fr: "[Chase]",
+				de: "Chase"
 			},
 			effect: {
 				en: "As long as Unown C is your Active Pokémon, whenever your opponent's Active Pokémon tries to retreat, flip a coin. If heads, put 1 damage counter on that Pokémon. Apply Weakness and Resistance.",
-				fr: "Tant que Zarbi [C] est votre Pokémon Actif, si le Pokémon Actif de votre adversaire essaie de battre en retraite, lancez une pièce. Si c'est face, placez 1 marqueur de dégâts sur ce Pokémon. Appliquez la Faiblesse et la Résistance."
+				fr: "Tant que Zarbi [C] est votre Pokémon Actif, si le Pokémon Actif de votre adversaire essaie de battre en retraite, lancez une pièce. Si c'est face, placez 1 marqueur de dégâts sur ce Pokémon. Appliquez la Faiblesse et la Résistance.",
+				de: "As laong as Unown C is your Active Pokémon, whenever your opponent's Active Pokémon tries to retreat, flip a coin. If heads, put 1 damage counter on that Pokémon. Apply Weakness and Resistance"
 			},
 		},
 	],
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hidden Power",
-				fr: "Puissance cachée"
+				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 10,

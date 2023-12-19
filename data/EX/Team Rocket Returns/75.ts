@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Sentret",
+		de: "Wiesor"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Friend Search",
+				de: "Friend Search"
 			},
 			effect: {
 				en: "Look at the top 5 cards of your deck. Choose a Basic Pokémon or Evolution card you find there, show it to your opponent, and put it into your hand. Put the 4 other cards back on top of your deck. Shuffle your deck afterward.",
+				de: "Look at the top 5 cards of your deck. Choose a Basic Pokémon or Evolution card you find there, show it to your opponent, and put it into your hand. Put the 4 other cards back on the top of your deck. Shuffle your deck afterward."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Surprise Attack",
+				de: "Surprise Attack"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20,
 

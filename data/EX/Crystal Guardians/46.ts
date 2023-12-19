@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Bulbasaur",
-		fr: "Bulbizarre"
+		fr: "Bulbizarre",
+		de: "Bisasam"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Growth",
-				fr: "Croissance"
+				fr: "Croissance",
+				de: "Wachstum"
 			},
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Bulbasaur.",
-				fr: "Attachez une carte Énergie  de votre main à Bulbizarre."
+				fr: "Attachez une carte Énergie  de votre main à Bulbizarre.",
+				de: "Lege eine -Energiekarte von deiner Hand an Bisasam an."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Vine Whip",
-				fr: "Fouet lianes"
+				fr: "Fouet lianes",
+				de: "Rankenhieb"
 			},
 
 			damage: 20,

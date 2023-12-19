@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Kecleon",
-		fr: "Kecleon"
+		fr: "Kecleon",
+		de: "Kecleon"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Energy Variation",
-				fr: "Variation d'énergie"
+				fr: "Variation d'énergie",
+				de: "Energiefluktuation"
 			},
 			effect: {
 				en: "Kecleon's type is the same as every type of basic Energy card attached to Kecleon.",
-				fr: "Kecleon est du même type que les cartes Énergie de base qui lui sont attachées."
+				fr: "Kecleon est du même type que les cartes Énergie de base qui lui sont attachées.",
+				de: "Kecleon hat den gleichen Typ wie jede Basis-Energiekarte, die an Kecleon angelegt ist."
 			},
 		},
 	],
@@ -42,13 +45,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Scratch",
-				fr: "Double écorchure"
+				fr: "Double écorchure",
+				de: "Doppelkratzer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face."
+				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

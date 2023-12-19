@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lapras",
 		fr: "Lokhlass",
+		de: "Lapras"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -30,12 +31,14 @@ const card: Card = {
 			name: {
 				en: "Grind",
 				fr: "Écrase",
+				de: "Grind"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to Lapras.",
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Lokhlass",
+				de: "Does 10 damage times the amount of Energy attached to Lapras."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 		{
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Ice Beam",
 				fr: "Laser glace",
+				de: "Ice Beam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 

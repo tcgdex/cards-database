@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Weavile",
 		fr: "Dimoret",
+		de: "Snibunna"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Nasty Plot",
 				fr: "Machination",
+				de: "Ränkeschmied"
 			},
 			effect: {
 				en: "Search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck n'importe quelle carte et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach 1 Karte und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -53,12 +56,14 @@ const card: Card = {
 			name: {
 				en: "Dark Pulse",
 				fr: "Vibrobscur",
+				de: "Finsteraura"
 			},
 			effect: {
 				en: "Does 10 damage times the total amount of Darkness Energy attached to all of your Pokémon.",
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies Darkness attachées à tous vos Pokémon.",
+				de: "Dieser Angriff fügt für jede -Energie, die an deine Pokémon angelegt ist, 10 Schadenspunkte zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

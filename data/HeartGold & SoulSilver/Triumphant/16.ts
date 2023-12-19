@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Carnivine",
 		fr: "Vortente",
+		de: "Venuflibis"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Saliva Lure",
 				fr: "Piège de salive",
+				de: "Speichelköder"
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon.",
 				fr: "Échangez le Pokémon Défenseur avec l’un des Pokémon de Banc de votre adversaire.",
+				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
 			},
 
 		},
@@ -48,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Stick and Absorb",
 				fr: "Colle et absorbe",
+				de: "Festkleben und Einsaugen"
 			},
 			effect: {
 				en: "Remove 3 damage counters from Carnivine. The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Retirez 3 marqueurs de dégât à Vortente. Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+				de: "Entferne 3 Schadensmarken von Venuflibis. Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 

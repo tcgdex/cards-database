@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Phanpy",
 		fr: "Phanpy",
+		de: "Phanpy"
 	},
 
 	illustrator: "Midori Harada",
@@ -32,12 +33,14 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Fléau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Phanpy.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Phanpy.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Phanpy zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

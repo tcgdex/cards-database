@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Kakuna",
-		fr: "Coconfort"
+		fr: "Coconfort",
+		de: "Kokuna"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stiffen",
-				fr: "Armure"
+				fr: "Armure",
+				de: "Härtner"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Coconfort pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)"
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Coconfort pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Kokuna während des nächsten Zugs Deines Gegners zugefüght wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt)."
 			},
 
 		},
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
-				fr: "Poudre Toxik"
+				fr: "Poudre Toxik",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet."
 			},
 			damage: 20,
 

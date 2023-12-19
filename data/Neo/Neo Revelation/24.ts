@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Sneasel",
-		fr: "Farfuret"
+		fr: "Farfuret",
+		de: "Sniebel"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Swipe",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Swipe"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard all Trainer cards attached to your opponent's Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez toutes les cartes Dresseur attachées au Pokémon de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, défaussez toutes les cartes Dresseur attachées au Pokémon de votre adversaire.",
+				de: "Flip a coin. If heads, discard all Trainer cards attached to your opponent´s Pokémon."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-attaque"
+				fr: "Vive-attaque",
+				de: "Quick Attack"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
 			},
 			damage: "10+",
 

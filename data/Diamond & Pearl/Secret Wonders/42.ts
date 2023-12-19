@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Wormadam Sandy Cloak",
 		fr: "Cheniselle Cape Sable",
+		de: "Burmadame Sandumhang"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Sandy Cloak",
 				fr: "Cape sable",
+				de: "Sandumhang"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, excluding damage, done to Wormadam Sandy Cloak.",
 				fr: "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Cheniselle Cape Sable.",
+				de: "Verhindere alle Effekte von Angriffen, außer Schaden, die Wurmadame Sandumhang zugefügt werden."
 			},
 		},
 	],
@@ -47,12 +50,14 @@ const card: Card = {
 			name: {
 				en: "Push Over",
 				fr: "Facilité",
+				de: "Umschubsen"
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Wormadam Sandy Cloak.",
 				fr: "Prévenez tous les effets d’une attaque, dégâts exclus, infligés à Cheniselle Cape Sable par des Pokémon de votre adversaire.",
+				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Burmadame Sandumhang angelegte -Energie zu."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

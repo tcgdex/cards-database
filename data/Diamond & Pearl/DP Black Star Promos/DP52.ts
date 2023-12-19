@@ -4,6 +4,7 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Darkrai",
+		de: "Darkrai"
 	},
 	illustrator: "Wataru Kawahara",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Darkness Aura",
+				de: "Darkness Aura"
 			},
 			effect: {
 				en: "If you have Cresselia in play, each of Darkrai's attacks does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				de: "If you have Cresselia in play, each of Darkrai's attacks does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnoblast",
+				de: "Hypnoblast"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 			},
 			damage: 60,
 

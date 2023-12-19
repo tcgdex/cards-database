@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Poliwhirl",
 		fr: "Tetarte",
+		de: "Quaputzi"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -34,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Light Punch",
 				fr: "Poing léger",
+				de: "Leichter Hieb"
 			},
 
 			damage: 20,
@@ -48,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Bubblebeam",
 				fr: "Bulle d'O",
+				de: "Blubbstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 40,
 

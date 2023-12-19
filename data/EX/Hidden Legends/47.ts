@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Sealeo",
-		fr: "Phogleur"
+		fr: "Phogleur",
+		de: "Seejong"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Icy Wind",
-				fr: "Vent super glacial"
+				fr: "Vent super glacial",
+				de: "Super Icy Wind"
 			},
 			effect: {
 				en: "Does 10 damage to each of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+				fr: "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				de: "Does 10 damage to each of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Reistance"
 			},
 
 		},
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Skull Bash",
-				fr: "Coud'krane"
+				fr: "Coud'krane",
+				de: "Skull Bash"
 			},
 
 			damage: 50,

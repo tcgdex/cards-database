@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Cubone",
-		fr: "Osselait"
+		fr: "Osselait",
+		de: "Tragosso"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
-				fr: "Bataille"
+				fr: "Bataille",
+				de: "Beat"
 			},
 
 			damage: 10,
@@ -38,12 +40,14 @@ const card: Card = {
 		{
 			name: {
 				en: "Rage",
-				fr: "Frénésie"
+				fr: "Frénésie",
+				de: "Rage"
 			},
 
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Cubone.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Osselait."
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Osselait.",
+				de: "Does 10 damage plus 10 more damage for each damage counter on Cubone."
 			},
 
 			damage: "10+",

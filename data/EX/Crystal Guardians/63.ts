@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Squirtle",
-		fr: "Carapuce"
+		fr: "Carapuce",
+		de: "Schiggy"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -43,7 +45,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Skull Bash",
-				fr: "Coud'krane"
+				fr: "Coud'krane",
+				de: "Schädelwumme"
 			},
 
 			damage: 30,

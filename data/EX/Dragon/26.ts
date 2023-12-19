@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Dratini",
-		fr: "Minidraco"
+		fr: "Minidraco",
+		de: "Dratini"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Uncommon",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Dew",
-				fr: "Goutte de dragon"
+				fr: "Goutte de dragon",
+				de: "Drachentau"
 			},
 			effect: {
 				en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 if there is only 1).",
-				fr: "Retirez deux marqueurs de dégât à un de vos Pokémon (ou un s'il n'y en a qu'un)."
+				fr: "Retirez deux marqueurs de dégât à un de vos Pokémon (ou un s'il n'y en a qu'un).",
+				de: "Entferne 2 Schadensmarken von einem deiner Pokémon (1 falls nur 1 vorhanden)."
 			},
 
 		},
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Slap",
-				fr: "Coud'keu"
+				fr: "Coud'keu",
+				de: "Schweifschlag"
 			},
 
 			damage: 10,

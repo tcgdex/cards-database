@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Spinarak",
 		fr: "Mimigal",
+		de: "Webarak"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Hang Down",
 				fr: "Suspension",
+				de: "Herunterhängen"
 			},
 
 			damage: 10,
@@ -44,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Spider Web",
 				fr: "Toile",
+				de: "Spinnennetz"
 			},
 			effect: {
 				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 
 		},

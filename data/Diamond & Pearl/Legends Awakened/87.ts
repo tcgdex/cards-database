@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Chinchou",
 		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Supersonic",
 				fr: "Ultrason",
+				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 10,

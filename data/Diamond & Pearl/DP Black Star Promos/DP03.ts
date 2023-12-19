@@ -4,7 +4,8 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Piplup",
-		fr: "Tiplouf"
+		fr: "Tiplouf",
+		de: "Plinfa"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -37,7 +38,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Picpic"
+			fr: "Picpic",
+			de: "Schnabel"
 		},
 
 		damage: 10
@@ -45,11 +47,13 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			fr: "Éclaboussure"
+			fr: "Éclaboussure",
+			de: "Wasserplatscher"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+			de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 		},
 
 		damage: "20+"

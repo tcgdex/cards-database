@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Scyther",
 		fr: "Insecateur",
+		de: "Sichlor"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -33,6 +34,7 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				de: "Zerschneider"
 			},
 
 			damage: 20,
@@ -47,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Slashing Strike",
 				fr: "Coup déchirant",
+				de: "Schlitzender Schlag"
 			},
 			effect: {
 				en: "During your next turn, Scyther can’t use Slashing Strike.",
 				fr: "Insécateur ne peut pas utiliser son Coup déchirant pendant votre prochain tour.",
+				de: "Sichlor kann Schlitzender Schlag in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 50,
 

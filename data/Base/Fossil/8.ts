@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Hypno",
-		fr: "Hypnomade"
+		fr: "Hypnomade",
+		de: "Hypno"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Prophecy",
-				fr: "Prophétie"
+				fr: "Prophétie",
+				de: "Vorhersagung"
 			},
 			effect: {
 				en: "Look at up to 3 cards from the top of either player's deck and rearrange them as you like.",
-				fr: "Regardez jusqu'à 3 cartes du dessus du deck d'un des deux joueurs et réarrangez-les comme bon vous semble."
+				fr: "Regardez jusqu'à 3 cartes du dessus du deck d'un des deux joueurs et réarrangez-les comme bon vous semble.",
+				de: "Schaue dir bis zu drei der obersten Karten vom Deck deines Gegners oder deinem eigenen Deck an und lege sie in beliebiger Reihenfolge wieder auf das Deck zurück."
 			},
 
 		},
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Mind",
-				fr: "Sombre-esprit"
+				fr: "Sombre-esprit",
+				de: "Finsteres Gemüt"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)"
+				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)",
+				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 30,
 

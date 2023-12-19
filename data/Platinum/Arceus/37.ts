@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Graveler",
+		de: "Georok"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				de: "Tackle"
 			},
 
 			damage: 30,
@@ -44,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "Graveler does 10 damage to itself.",
+				de: "Georok fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 70,
 

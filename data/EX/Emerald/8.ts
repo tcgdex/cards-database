@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Milotic",
-		fr: "Milobellus"
+		fr: "Milobellus",
+		de: "Milotic"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Surf",
-				fr: "Surf"
+				fr: "Surf",
+				de: "Surfer"
 			},
 
 			damage: 20,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Hypno Wave",
-				fr: "Super hypnovague"
+				fr: "Super hypnovague",
+				de: "Super Hypno Welle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wirf 1 Münze. Bei 'Kopf' schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 50,
 

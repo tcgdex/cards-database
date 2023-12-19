@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Quagsire",
+		de: "Morlord"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Saturation",
+				de: "Saturation"
 			},
 			effect: {
 				en: "When you attach a Water Energy card from your hand to Quagsire, remove all Special Conditions and 2 damage counters from Quagsire.\"",
+				de: "When you attach a  Energy card from your hand to Quagsire, remove all Special Conditions and 2 damage counters from Quagsire."
 			},
 		},
 	],
@@ -40,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Pump",
+				de: "Hyper Pump"
 			},
 			effect: {
 				en: "Does 20 damage plus 20 more damage for each basic Energy card attached to Quagsire but not used to pay for this attack's Energy cost. You can't add more than 60 damage in this way.",
+				de: "Does 20 damage plus 20 more damage for each basic Energy card attached to Quagsire but not user to pay for this attack's Energy cost. You can't add more than 60 damage in this way."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

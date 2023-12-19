@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Kingler δ",
-		fr: "Krabboss δ"
+		fr: "Krabboss δ",
+		de: "Kingler"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Body Slam",
-				fr: "Plaquage"
+				fr: "Plaquage",
+				de: "Bodyslam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Prop-up Pinchers",
-				fr: "Pinces calantes"
+				fr: "Pinces calantes",
+				de: "Greifzangen"
 			},
 			effect: {
 				en: "If Kingler has a Pokémon Tool card attached to it, this attack does 40 damage plus 40 more damage.",
-				fr: "Si Krabboss possède une carte Outil Pokémon, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires."
+				fr: "Si Krabboss possède une carte Outil Pokémon, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
+				de: "Wenn an Kingler eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 

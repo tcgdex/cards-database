@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Piplup",
 		fr: "Tiplouf",
+		de: "Plinfa"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				de: "Surfer"
 			},
 
 			damage: 20,

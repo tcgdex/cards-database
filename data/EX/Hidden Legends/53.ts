@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Baltoy",
-		fr: "Balbuto"
+		fr: "Balbuto",
+		de: "Puppance"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'boule"
+				fr: "Coup d'boule",
+				de: "Headbutt"
 			},
 
 			damage: 10,
@@ -39,7 +41,8 @@ const card: Card = {
 			cost: ["Colorless", "Colorless"],
 			name: {
 				en: "Mud Slap",
-				fr: "Coud'boue"
+				fr: "Coud'boue",
+				de: "Mud Slap"
 			},
 
 			damage: 20,

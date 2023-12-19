@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Quilava",
-		fr: "Feurisson"
+		fr: "Feurisson",
+		de: "Igelavar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
-				fr: "Flammèche"
+				fr: "Flammèche",
+				de: "Ember"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Quilava in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Feurisson afin d'utiliser cette attaque."
+				fr: "Défaussez 1 carte Énergie  attachée à Feurisson afin d'utiliser cette attaque.",
+				de: "Discard 1  Energy card attached to Quilava in order to use this attack."
 			},
 			damage: 30,
 
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Wind",
-				fr: "Vent de feu"
+				fr: "Vent de feu",
+				de: "Fire Wind"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them. Flip 2 coins. For each heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance.)",
-				fr: "Si votre adversaire possède un ou plusieurs Pokémon sur son Banc, choisissez l'un d'eux. Lancez 2 pièces. Pour chaque face, cette attaque inflige 10 dégâts à ce Pokémon. (Ne pas appliquer la Faiblesse et la Résistance)."
+				fr: "Si votre adversaire possède un ou plusieurs Pokémon sur son Banc, choisissez l'un d'eux. Lancez 2 pièces. Pour chaque face, cette attaque inflige 10 dégâts à ce Pokémon. (Ne pas appliquer la Faiblesse et la Résistance).",
+				de: "If your opponent has any Benched Pokémon, choose 1 of them. Flip 2 coins. For each heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 

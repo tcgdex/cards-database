@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Delcatty",
 		fr: "Delcatty",
+		de: "Enekoro"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Power Circulation",
 				fr: "Circulation de puissance",
+				de: "Power Circulation"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your discard pile for up to 2 basic Energy cards, show them to your opponent, and put them on top of your deck in any order. If you do, put 2 damage counters on Delcatty. This power can't be used if Delcatty is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir dans votre pile de défausse jusqu'à 2 cartes Énergie de base. Montrez-les à votre adversaire et placez-les au dessus de votre deck dans n'importe quel ordre. Placez alors 2 marqueurs de dégât sur Delcatty. Ce pouvoir ne peut pas être utilisé si Delcatty est affecté par un État Spécial.",
+				de: "Once during your turn (before your attack), you may search your discard pile for up to 2 basic Energy cards, show them to your opponent, and put them on top of your deck in any order. If you do, put 2 damage counters on Delcatty. This power can't be used if Delcatty is affected by a Special Condition."
 			},
 		},
 	],
@@ -45,12 +48,14 @@ const card: Card = {
 			name: {
 				en: "Power Heal",
 				fr: "Pouvoir guérissant",
+				de: "Power Heal"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Delcatty. Then, remove 2 damage counters from Delcatty.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Delcatty. Ensuite, retirez à Delcatty 2 marqueurs de dégât.",
+				de: "Does 10 damage plus 10 more damage for each damage counter on Delcatty. Then, remove 2 damage counters from Delcatty."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -62,6 +67,7 @@ const card: Card = {
 			name: {
 				en: "Rear Kick",
 				fr: "Pouvoir guérisseur",
+				de: "Rear Kick"
 			},
 
 			damage: 60,

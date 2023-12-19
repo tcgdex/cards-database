@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Dunsparce",
-		fr: "Insolourdo"
+		fr: "Insolourdo",
+		de: "Dummisel"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Glare",
-				fr: "Intimidation"
+				fr: "Intimidation",
+				de: "Giftblick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé.",
+				de: "Wird eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

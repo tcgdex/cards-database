@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Feraligatr",
-		fr: "Aligatueur"
+		fr: "Aligatueur",
+		de: "Impergator"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Berserk",
-				fr: "Folie meurtrière"
+				fr: "Folie meurtrière",
+				de: "Berserk"
 			},
 			effect: {
 				en: "When you play Feraligatr from your hand, flip a coin. If heads, discard the top 5 cards from your opponent's deck. If tails, discard the top 5 cards from your deck.",
-				fr: "Lorsque vous jouez Aligatueur depuis votre main, lancez une pièce. Si c'est face, défaussez les 5 premières cartes du dessus du deck de votre adversaire. Si c'est pile, défaussez les 5 premières cartes du dessus de votre deck."
+				fr: "Lorsque vous jouez Aligatueur depuis votre main, lancez une pièce. Si c'est face, défaussez les 5 premières cartes du dessus du deck de votre adversaire. Si c'est pile, défaussez les 5 premières cartes du dessus de votre deck.",
+				de: "When you play Feraligatr from your hand, flip a coin. If heads, discard the top 5 cards from your opponent´s deck. If tails, discard the top 5 cards from your deck."
 			},
 		},
 	],
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Chomp",
-				fr: "Croc"
+				fr: "Croc",
+				de: "Chomp"
 			},
 			effect: {
 				en: "Flip a number of coins equal to the number of damage counters on Feraligatr. This attack does 50 damage plus 10 more damage for each heads.",
-				fr: "Lancez un nombre de pièces égal au nombre de marqueurs de dégâts sur Aligatueur. Cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque face."
+				fr: "Lancez un nombre de pièces égal au nombre de marqueurs de dégâts sur Aligatueur. Cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				de: "Flip a number of coins equal to the number of damage counters on Feraligatr. This attack does 50 damage plus 10 more damage for each heads."
 			},
 			damage: "50+",
 

@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Dusclops",
-		fr: "Teraclope"
+		fr: "Teraclope",
+		de: "Zwirrklop"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Trick Room",
 				fr: "Distorsion",
+				de: "Bizarroraum"
 			},
 			effect: {
 				en: "If you have a Stadium card in play, this attack does 40 damage plus 20 more damage. If your opponent has a Stadium card in play, remove 2 damage counters from Dusclops.",
 				fr: "Si vous avez une carte Stade en jeu, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires. Si votre adversaire a une carte Stade en jeu, retirez à Teraclope 2 marqueurs de dégât.",
+				de: "Wenn du 1 Stadion-Karte im Spiel hast, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu. Wenn dein Gegner 1 Stadion-Karte im Spiel hat, entferne 2 Schadensmarken von Zwirrklop."
 			},
 			damage: "40+",
 

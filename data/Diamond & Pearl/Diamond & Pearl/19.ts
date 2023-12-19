@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Beautifly",
 		fr: "Charmillon",
+		de: "Papinella"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Whirlwind",
 				fr: "Cyclone",
+				de: "Wirbelwind"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Giga Drain",
 				fr: "Giga-sangsue",
+				de: "Gigasauger"
 			},
 			effect: {
 				en: "After your attack, remove from Beautifly the number of damage counters equal to the damage you did to the Defending Pokémon.",
 				fr: "Après votre attaque, retirez à Charmillon autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
+				de: "Entferne nach deinem Angriff Schadensmarken von Papinella entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon zugefügt wurden."
 			},
 			damage: 50,
 

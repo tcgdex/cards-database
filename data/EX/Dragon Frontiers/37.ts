@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Seadra δ",
-		fr: "Hypocéan δ ESPÈCES DELTA"
+		fr: "Hypocéan δ ESPÈCES DELTA",
+		de: "Seemon"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Uncommon",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Extra Ball",
-				fr: "Boule supplémentaire"
+				fr: "Boule supplémentaire",
+				de: "Extra-Ball"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ledyba",
 		fr: "Coxy",
+		de: "Ledyba"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Supersonic",
 				fr: "Ultrason",
+				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Double-edge",
 				fr: "Damoclès",
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "Ledyba does 10 damage to itself.",
 				fr: "Coxy s'inflige 10 dégâts.",
+				de: "Ledyba fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

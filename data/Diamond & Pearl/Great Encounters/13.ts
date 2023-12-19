@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Beedrill",
 		fr: "Dardargnan",
+		de: "Bibor"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Band Attack",
 				fr: "Attaque de groupe",
+				de: "Gemeinschaftsangriff"
 			},
 			effect: {
 				en: "Does 30 damage times the number of Beedrill you have in play.",
 				fr: "Inflige 30 dégâts multipliés par le nombre de Dardargnan que vous avez en jeu.",
+				de: "Dieser Angriff fügt 30 Schadenspunkte für jedes Bibor, das du im Spiel hast, zu."
 			},
-			damage: 30,
+			damage: "30x",
 
 		},
 		{
@@ -50,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Twineedle",
 				fr: "Double-dard",
+				de: "Duonadel"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: 50,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cleffa",
 		fr: "Melo",
+		de: "Pii"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Baby Evolution",
 				fr: "Évolution bébé",
+				de: "Baby Evolution"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may put Clefairy from your hand onto Cleffa (this counts as evolving Cleffa) and remove all damage counters from Cleffa.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Melofée de votre main sur Melo (vous le faites ainsi évoluer) et retirer à Melo tous ses marqueurs de dégât.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Piepi von deiner Hand auf Pii legen (das zählt als Entwickeln von Pii). Entferne alle Schadensmarken von Pii."
 			},
 		},
 	],
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Eeek",
 				fr: "Beurk",
+				de: "Piiieps"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},

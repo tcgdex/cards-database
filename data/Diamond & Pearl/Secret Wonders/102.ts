@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ralts",
 		fr: "Tarsal",
+		de: "Trasla"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Smack",
 				fr: "Claque",
+				de: "Klatscher"
 			},
 
 			damage: 10,
@@ -42,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
+				de: "Konfusstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},

@@ -4,7 +4,8 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Clamperl",
-		fr: "Coquiperl"
+		fr: "Coquiperl",
+		de: "Perlu"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Iron Defense",
-				fr: "Mur de fer"
+				fr: "Mur de fer",
+				de: "Eisenabwehr"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Clamperl during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Coquiperl lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Coquiperl lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Perlu zugefügt werden."
 			},
 
 		},
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Clamp Splash",
-				fr: "Jet de pince"
+				fr: "Jet de pince",
+				de: "Perlenplatscher"
 			},
 
 			damage: 10,

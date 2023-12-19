@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Kricketot",
-		fr: "Crikzik"
+		fr: "Crikzik",
+		de: "Zirpurze"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Family",
-				fr: "Appel à la famille"
+				fr: "Appel à la famille",
+				de: "Familienruf"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck."
+				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Sling",
-				fr: "Lance-pierres"
+				fr: "Lance-pierres",
+				de: "Schleudern"
 			},
 
 			damage: 10,

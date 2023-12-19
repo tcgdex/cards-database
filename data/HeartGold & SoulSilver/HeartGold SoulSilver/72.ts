@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magikarp",
 		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Splash",
 				fr: "Trempette",
+				de: "Platscher"
 			},
 
 			damage: 10,

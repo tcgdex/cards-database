@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Typhlosion",
 		fr: "Typhlosion",
+		de: "Tornupto"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -38,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Magma Punch",
 				fr: "Poing magma",
+				de: "Magmahieb"
 			},
 
 			damage: 50,
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Fire Spin",
 				fr: "Danseflamme",
+				de: "Feuerwirbel"
 			},
 			effect: {
 				en: "Discard 2 Energy attached to Typhlosion.",
 				fr: "Défaussez-vous de 2 cartes Énergie attachées à Typhlosion.",
+				de: "Lege 2 an Tornupto angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 120,
 

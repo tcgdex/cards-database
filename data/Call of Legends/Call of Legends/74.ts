@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Totodile",
 		fr: "Kaiminus",
+		de: "Karnimani"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -32,12 +33,14 @@ const card: Card = {
 			name: {
 				en: "Aqua Tail",
 				fr: "Hydroqueue",
+				de: "Nassschweif"
 			},
 			effect: {
 				en: "Flip a coin for each Water Energy attached to Totodile. This attack does 30 damage plus 20 more damage for each heads.",
 				fr: "Lancez une pièce pour chaque Énergie Water attachée à Kaiminus. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf eine Münze für jede an Karnimani angelegte -Energie. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

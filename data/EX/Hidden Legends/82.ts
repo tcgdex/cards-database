@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Whismur",
-		fr: "Chuchmur"
+		fr: "Chuchmur",
+		de: "Flurmel"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Wail",
-				fr: "Gémissement"
+				fr: "Gémissement",
+				de: "Wail"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
 			},
 			damage: 10,
 

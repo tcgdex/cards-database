@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Charizard",
-		fr: "Dracaufeu obscur"
+		fr: "Dracaufeu obscur",
+		de: "Dunkles Glurak"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Nail Flick",
-				fr: "Chiquenaude"
+				fr: "Chiquenaude",
+				de: "Nagelschnipp"
 			},
 
 			damage: 10,
@@ -48,13 +50,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Continuous Fireball",
-				fr: "Boules de feu continues"
+				fr: "Boules de feu continues",
+				de: "Dauerfeuerball"
 			},
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy cards attached to Dark Charizard. This attack does 50 damage times the number of heads. Discard a number of Energy cards attached to Dark Charizard equal to the number of heads.",
-				fr: "Lancez un nombre de pièces égal au nombre d'Énergies  attachées à Dracaufeu obscur. Cette attaque inflige 50 dégâts multipliés par le nombre de faces. Défaussez autant de cartes Énergies  attachées à Dracaufeu obscur que le nombre de faces."
+				fr: "Lancez un nombre de pièces égal au nombre d'Énergies  attachées à Dracaufeu obscur. Cette attaque inflige 50 dégâts multipliés par le nombre de faces. Défaussez autant de cartes Énergies  attachées à Dracaufeu obscur que le nombre de faces.",
+				de: "Wirf eine Anzahl Münzen gleich der Anzahl  Energiekarten auf Dunkles Glurak. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 50 Schadenspunkte zu. Entferne soviele  Energiekarten von Dukles Glurak wie Kopf geworfen wurde."
 			},
-			damage: "50×",
+			damage: "50x",
 
 		},
 	],

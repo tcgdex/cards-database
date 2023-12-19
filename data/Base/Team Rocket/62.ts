@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Meowth",
-		fr: "Miaouss"
+		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Coin Hurl",
-				fr: "Lancé de monnaie"
+				fr: "Lancé de monnaie",
+				de: "Coin Hurl"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon and flip a coin. If heads, this attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire et lancez une pièce. Si c'est face, cette attaque inflige 20 à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)"
+				fr: "Choisissez 1 des Pokémon de votre adversaire et lancez une pièce. Si c'est face, cette attaque inflige 20 à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)",
+				de: "Choose 1 of your opponent's Pokémon and flip a coin. If heads, this attack does 20 damage to that Pokémon. Don't apply Weakness and resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
 			},
 
 		},

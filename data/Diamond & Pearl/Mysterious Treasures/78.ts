@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Croagunk",
-		fr: "Cradopaud"
+		fr: "Cradopaud",
+		de: "Glibunkel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ghastly Sound",
-				fr: "Son affreux"
+				fr: "Son affreux",
+				de: "Grässliche Geräusche"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play any Supporter cards from his or her hand during his or her next turn.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Supporter de sa main lors de son prochain tour."
+				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Supporter de sa main lors de son prochain tour.",
+				de: "Wirf 1 Münze. Bei 'Kopf' kann dein Gegner in seinem nächsten Zug keine Unterstützerkarten von seiner Hand spielen."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Finger Poke",
-				fr: "Du bout du doigt"
+				fr: "Du bout du doigt",
+				de: "Fingerstubser"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 20,
 

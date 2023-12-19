@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Luxio",
 		fr: "Luxio",
+		de: "Luxio"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Spark",
 				fr: "Étincelle",
+				de: "Funkensprung"
 			},
 			effect: {
 				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Thunderous Claw",
 				fr: "Griffe-tonnerre",
+				de: "Donnerklaue"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard all Lightning Energy attached to Luxio.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez toutes les Énergies Lightning attachées à Luxio.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" entferne alle -Energien, die an Luxio angelegt sind, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 70,
 

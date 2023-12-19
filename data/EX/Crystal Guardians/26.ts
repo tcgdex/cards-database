@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Pelipper δ",
-		fr: "Bekipan δ"
+		fr: "Bekipan δ",
+		de: "Pelipper"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Delta Transport",
-				fr: "Transport Delta"
+				fr: "Transport Delta",
+				de: "Delta-Transport"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Pelipper is on your Bench, you may switch 1 of your Active Pokémon that has δ on its card with 1 of your Benched Pokémon.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Bekipan se trouve sur votre Banc, vous pouvez échanger 1 de vos Pokémon Actifs possédant le symbole δ avec 1 des Pokémon de votre Banc."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), si Bekipan se trouve sur votre Banc, vous pouvez échanger 1 de vos Pokémon Actifs possédant le symbole δ avec 1 des Pokémon de votre Banc.",
+				de: "Ein Mal während deines Zuges (vor deinem Angriff), wenn Pelipper auf deiner Bank liegt, kannst du 1 deiner Aktiven Pokémon, auf dem δ zu sehen ist, gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
-				fr: "Ultrason"
+				fr: "Ultrason",
+				de: "Superschall"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus."
+				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -61,7 +66,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
-				fr: "Cru-aile"
+				fr: "Cru-aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 40,

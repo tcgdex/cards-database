@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Doduo",
 		fr: "Doduo",
+		de: "Dodu"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -45,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Double Headstrike",
 				fr: "Double coup d’tête",
+				de: "Doppelkopfstoß"
 			},
 			effect: {
 				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
 				fr: "Lancez 2 pièces. Si vous obtenez un côté pile, cette attaque ne fait rien.",
+				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen \"Zahl\" gezeigt haben, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 50,
 

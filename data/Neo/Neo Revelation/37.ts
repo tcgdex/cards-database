@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Seaking",
-		fr: "Poissoroy"
+		fr: "Poissoroy",
+		de: "Golking"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rising Lunge",
-				fr: "Botte secrète"
+				fr: "Botte secrète",
+				de: "Rising Lunge"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires. Si c'est pile, cette attaque inflige 10 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires. Si c'est pile, cette attaque inflige 10 dégâts.",
+				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Swipe",
-				fr: "Koud'korne"
+				fr: "Koud'korne",
+				de: "Horn Swipe"
 			},
 			effect: {
 				en: "Flip 2 coins. If both are heads, this attack does 20 damage plus 40 more damage. If 1 or both are tails, this attack does 20 damage.",
-				fr: "Lancez 2 pièces. Si vous obtenez 2 faces, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires. Si vous obtenez au moins 1 pile, cette attaque inflige 20 dégâts."
+				fr: "Lancez 2 pièces. Si vous obtenez 2 faces, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires. Si vous obtenez au moins 1 pile, cette attaque inflige 20 dégâts.",
+				de: "Flip 2 coins. If both are heads, this attack does 20 damage plus 40 more damage. If 1 or both of them are tails, this attack does 20 damage."
 			},
 			damage: "20+",
 

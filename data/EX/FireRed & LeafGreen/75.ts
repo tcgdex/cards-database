@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Poliwag",
-		fr: "Ptitard"
+		fr: "Ptitard",
+		de: "Quapsel"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spiral Attack",
-				fr: "Attaque en spirale"
+				fr: "Attaque en spirale",
+				de: "Spiral Attack"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whap",
-				fr: "Queue battoir"
+				fr: "Queue battoir",
+				de: "Tail Whap"
 			},
 
 			damage: 20,

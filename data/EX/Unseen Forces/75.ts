@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Spinarak",
-		fr: "Mimigal"
+		fr: "Mimigal",
+		de: "Webarak"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stun Poison",
-				fr: "Poison neural"
+				fr: "Poison neural",
+				de: "Stun Poison"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Pierce",
-				fr: "Transpercer"
+				fr: "Transpercer",
+				de: "Pierce"
 			},
 
 			damage: 20,

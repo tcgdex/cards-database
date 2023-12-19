@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Grimer",
 		fr: "Tadmorv",
+		de: "Sleima"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Mud Bomb",
 				fr: "Boue-Bombe",
+				de: "Schlammbombe"
 			},
 
 			damage: 10,
@@ -42,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Gunky",
 				fr: "Vase",
+				de: "Schmiere"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Falss das Verteidigende Pokémon während des nächste Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
 		},

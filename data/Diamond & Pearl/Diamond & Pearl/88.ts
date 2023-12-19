@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Marill",
 		fr: "Marill",
+		de: "Marill"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 			effect: {
 				en: "If Marill is evolved from Azurill, this attack does 10 damage plus 20 more damage.",
 				fr: "Si Marill évolue d'Azurill, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wenn Marill sich aus Azurill entwickelt hat, fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -48,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Splashing Turn",
 				fr: "Tour éclaboussant",
+				de: "Platschende Drehung"
 			},
 			effect: {
 				en: "Switch Marill with 1 of your Benched Pokémon.",
 				fr: "Échangez Marill avec 1 des Pokémon de votre Banc.",
+				de: "Tausche Marill gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 

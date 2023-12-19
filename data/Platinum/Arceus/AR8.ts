@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Arceus",
 		fr: "Arceus",
+		de: "Arceus"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Break Ground",
 				fr: "Casseur de sol",
+				de: "Boden gewinnen"
 			},
 			effect: {
 				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jeden Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 

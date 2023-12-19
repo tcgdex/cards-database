@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Nidoran♂",
 		fr: "Nidoran♂",
+		de: "Nidoran m"
 	},
 
 	illustrator: "match",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Pheromone Poison",
 				fr: "Poison de phéromones",
+				de: "Giftpheromone"
 			},
 			effect: {
 				en: "If Nidoran♀ is on your Bench, the Defending Pokémon is now Poisoned.",
 				fr: "Si Nidoran♀ est sur votre Banc, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wenn sich Nidoran♀ auf deiner Bank befindet, ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -48,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud’korne",
+				de: "Hornattacke"
 			},
 
 			damage: 20,

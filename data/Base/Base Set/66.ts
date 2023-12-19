@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Tangela",
-		fr: "Saquedeneu"
+		fr: "Saquedeneu",
+		de: "Tangela"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bind",
-				fr: "Étreinte"
+				fr: "Étreinte",
+				de: "Klammergriff"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt."
 			},
 			damage: 20,
 
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
-				fr: "Poudre Toxik"
+				fr: "Poudre Toxik",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "das verteidigende Pokémon ist vergiftet."
 			},
 			damage: 20,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Giratina",
 		fr: "Giratina",
+		de: "Giratina"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -31,10 +32,12 @@ const card: Card = {
 			name: {
 				en: "Strafe",
 				fr: "Bombarder",
+				de: "Strafe"
 			},
 			effect: {
 				en: "You may switch Giratina with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Giratina avec 1 de vos Pokémon de Banc.",
+				de: "You may switch Giratina with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 
@@ -48,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Broken-space Blow",
 				fr: "Coup espace-brisé",
+				de: "Broken-space Blow"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to it in the Lost Zone instead of discarding them.",
 				fr: "Si le Pokémon Défenseur est mis K.O par cette attaque, placez le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées dans la Zone Perdue au lieu de les défausser.",
+				de: "If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to it in the Lost Zone instead of discarding them."
 			},
 			damage: 50,
 

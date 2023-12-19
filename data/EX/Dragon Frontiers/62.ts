@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Seel δ",
-		fr: "Otaria δ ESPÈCES DELTA"
+		fr: "Otaria δ ESPÈCES DELTA",
+		de: "Jurob"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras'face"
+				fr: "Écras'face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Beam",
-				fr: "Onde boréale"
+				fr: "Onde boréale",
+				de: "Aurorastrahl"
 			},
 
 			damage: 20,

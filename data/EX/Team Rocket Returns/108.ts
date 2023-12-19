@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Torchic Star",
+		de: "Flemmli *"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fireworks",
+				de: "Firworks"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Torchic Star.",
+				de: "Flip a coin. If tails, discard a  Energy card attached to Shinning Torchic."
 			},
 			damage: 20,
 
@@ -42,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spring Back",
+				de: "Spring Back"
 			},
 			effect: {
 				en: "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Confused.",
+				de: "If your opponent has only 1 Prize card left, this atack does 20 damage plus 50 more damage and the Defending Pokémon is now Confused."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

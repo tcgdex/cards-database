@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gastly",
 		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	illustrator: "Takashi Yamaguchi",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Sneaky Placement",
 				fr: "Placement vicieux",
+				de: "Heimlichtuerei"
 			},
 			effect: {
 				en: "Put 1 damage counter on 1 of your opponent’s Pokémon.",
 				fr: "Placez un marqueur de dégât sur l’un des Pokémon de votre adversaire.",
+				de: "Lege 1 Schadensmarken auf 1 Pokémon deines Gegners."
 			},
 
 		},

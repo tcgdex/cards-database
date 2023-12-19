@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Farfetch'd",
 		fr: "Canarticho",
+		de: "Porenta"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Swords Dance",
 				fr: "Danse-lames",
+				de: "Schwerttanz"
 			},
 			effect: {
 				en: "During your next turn, Farfetch'd's Leek Slap attack's base damage is 60.",
 				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Coup d'oignon de Canarticho sont de 60.",
+				de: "In deinem nächsten Zug beträgt der Grundschaden des Angriffs Lauchschlag 60 Schadenspunkte."
 			},
 
 		},
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Leek Slap",
 				fr: "Coup d'oignon",
+				de: "Lauchschlag"
 			},
 			effect: {
 				en: "During your next turn, Farfetch'd can't use Leek Slap.",
 				fr: "Lors de votre prochain tour, Canarticho ne peut pas utiliser Coup d'poireau.",
+				de: "Porenta kann Lauchschlag in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 30,
 

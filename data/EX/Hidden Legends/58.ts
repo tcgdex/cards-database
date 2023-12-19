@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Clamperl",
-		fr: "Coquiperl"
+		fr: "Coquiperl",
+		de: "Perlu"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Exoskeleton",
-				fr: "Exosquelette"
+				fr: "Exosquelette",
+				de: "Exoskeleton"
 			},
 			effect: {
 				en: "Any damage done to Clamperl by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tous dégâts infligés à Coquiperl par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+				fr: "Tous dégâts infligés à Coquiperl par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				de: "Any damage done to Clamperl by attacks is reduced by 10 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -42,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble",
-				fr: "Écume"
+				fr: "Écume",
+				de: "Bubble"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

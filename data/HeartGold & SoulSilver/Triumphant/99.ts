@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Darkrai & Cresselia LEGEND",
 		fr: "Darkrai & Cresselia LÉGENDE",
+		de: "Darkrai & Cresselia LEGENDE"
 	},
 
 	illustrator: "Shinji Higuchi + Noriko Takaya/樋口真嗣+高屋法子",
@@ -25,18 +26,30 @@ const card: Card = {
 
 	suffix: "Legend",
 
-	attacks: [
-		{
-
-			name: {
-				fr: "",
-			},
-			effect: {
-				fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Darkrai & Cresselia LÉGENDE.",
-			},
-
+	attacks: [{
+		name: {
+			fr: "",
+			de: "Nirgendwo-Krise"
 		},
-	],
+
+		effect: {
+			fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Darkrai & Cresselia LÉGENDE.",
+			de: "Wähle 2 an Darkrai- & Cresselia-LEGENDE angelegte Energiekarten und lege sie ins Nirgendwo. Wenn ein Pokémon deines Gegners durch diesen Angriff kampfunfähig würde, lege dieses Pokémon und alle daran angelegten Karten nicht auf den Ablagestapel, sondern ins Nirgendwo."
+		},
+
+		damage: 100,
+		cost: ["Darkness", "Darkness", "Colorless", "Colorless"]
+	}, {
+		name: {
+			de: "Mondeinladung"
+		},
+
+		effect: {
+			de: "Verschiebe beliebig viele Schadensmarken von Pokémon deines Gegners in beliebiger Verteilung auf andere gegnerische Pokémon."
+		},
+
+		cost: ["Psychic"]
+	}],
 
 	stage: "Basic",
 	retreat: 0,

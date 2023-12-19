@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gligar",
 		fr: "Scorplane",
+		de: "Skorgla"
 	},
 
 	illustrator: "Naoki Saito",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Stun Poison",
 				fr: "Poison neural",
+				de: "Nervengift"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
 			},
 			damage: 20,
 

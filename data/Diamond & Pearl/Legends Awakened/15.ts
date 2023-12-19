@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Regigigas",
 		fr: "Regigigas",
+		de: "Regigigas"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Slow Start",
 				fr: "Début Calme",
+				de: "Saumselig"
 			},
 			effect: {
 				en: "Regigigas can't attack until your opponent has 3 or less Prize cards left.",
 				fr: "Regigigas ne peut attaquer que s'il ne reste plus à votre adversaire qu'un maximum de 3 cartes Récompense.",
+				de: "Regigigas kann nicht angreifen, solange dein Gegner mehr als 3 Preise übrig hat."
 			},
 		},
 	],
@@ -49,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Crush Grip",
 				fr: "Presse",
+				de: "Quetschgriff"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 40 instead of 120.",
 				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, les dégâts de base de cette attaque sont de 40 au lieu de 120.",
+				de: "Wenn auf dem Verteidigenden Pokémon mindestens 1 Schadensmarke liegt, beträgt der Grundschaden dieses Angriffs 40 Schadenspunkte."
 			},
 			damage: 120,
 

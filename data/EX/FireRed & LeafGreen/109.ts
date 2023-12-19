@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Gyarados ex",
-		fr: "Léviator ex"
+		fr: "Léviator ex",
+		de: "Garados ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Twister",
-				fr: "Ouragan"
+				fr: "Ouragan",
+				de: "Twister"
 			},
 			effect: {
 				en: "Flip 2 coins. For each heads, choose 1 Energy attached to the Defending Pokémon, if any, and discard it. If both are tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Pour chaque face, choisissez 1 Énergie attachée au Pokémon Défenseur et défaussez-la. Si vous obtenez 2 piles, cette attaque est sans effet."
+				fr: "Lancez 2 pièces. Pour chaque face, choisissez 1 Énergie attachée au Pokémon Défenseur et défaussez-la. Si vous obtenez 2 piles, cette attaque est sans effet.",
+				de: "Flip 2 coins. For each heads, choose 1 Energy attached to the Defending Pokémon, if any, and discard it. If both are tails, this attack does nothing."
 			},
 			damage: 40,
 
@@ -51,7 +54,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Rage",
-				fr: "Draco-rage"
+				fr: "Draco-rage",
+				de: "Dragon Rage"
 			},
 
 			damage: 100,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bertha's Warmth",
 		fr: "La chaleur de Terry",
+		de: "Teresas Herzlichkeit"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -24,6 +25,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
+		de: "Entferne 5 Schadensmarken von 1 deiner Pokémon SP."
 	},
 	trainerType: "Supporter",
 

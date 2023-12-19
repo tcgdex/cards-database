@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Armaldo",
-		fr: "Armaldo"
+		fr: "Armaldo",
+		de: "Armaldo"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Primal Veil",
-				fr: "Voile primordial"
+				fr: "Voile primordial",
+				de: "Primal Veil"
 			},
 			effect: {
 				en: "As long as Armaldo is your Active Pokémon, each player can't play any Supporter cards.",
-				fr: "Tant qu'Armaldo est votre Pokémon Actif, ni vous ni votre adversaire ne pouvez jouer de cartes Supporter."
+				fr: "Tant qu'Armaldo est votre Pokémon Actif, ni vous ni votre adversaire ne pouvez jouer de cartes Supporter.",
+				de: "As long as Armaldo is your Active Pokémon, each player can't play any Supporter cards."
 			},
 		},
 	],
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Blade Arms",
-				fr: "Bras tranchants"
+				fr: "Bras tranchants",
+				de: "Blade Arms"
 			},
 
 			damage: 60,

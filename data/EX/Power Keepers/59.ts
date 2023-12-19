@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Ralts",
-		fr: "Tarsal"
+		fr: "Tarsal",
+		de: "Trasla"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slap",
-				fr: "Gifle"
+				fr: "Gifle",
+				de: "Hieb"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Teleportation Burst",
-				fr: "Téléportation explosive"
+				fr: "Téléportation explosive",
+				de: "Blitz-Teleportation"
 			},
 			effect: {
 				en: "Switch Ralts with 1 of your Benched Pokémon.",
-				fr: "Échangez Tarsal avec 1 des Pokémon de votre Banc."
+				fr: "Échangez Tarsal avec 1 des Pokémon de votre Banc.",
+				de: "Tausche Trasla gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 

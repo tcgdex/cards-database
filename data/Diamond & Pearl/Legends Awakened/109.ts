@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Nosepass",
 		fr: "Tarinor",
+		de: "Nasgnet"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Sharpen",
 				fr: "Affûtage",
+				de: "Schärfer"
 			},
 
 			damage: 10,
@@ -45,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Nose Poke",
 				fr: "Coup d'nez",
+				de: "Nasenstüber"
 			},
 			effect: {
 				en: "If Probopass is on your Bench, this attack does 20 damage plus 20 more damage.",
 				fr: "Si Tarinorme se trouve sur votre Banc, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wenn sich Voluminas auf deiner Bank befindet, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

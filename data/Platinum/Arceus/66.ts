@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Gulpin",
+		de: "Schluppuck"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Drool",
+				de: "Sabbern"
 			},
 
 			damage: 20,

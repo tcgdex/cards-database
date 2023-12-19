@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Haunter",
-		fr: "Spectrum"
+		fr: "Spectrum",
+		de: "Alpollo"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Smog",
 				fr: "Purédpois",
+				de: "Smog"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -49,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Hoodwink",
 				fr: "Duper",
+				de: "Reinlegen"
 			},
 			effect: {
 				en: "You may search your opponent's discard pile for up to 3 in any combination of Trainer, Supporter, or Stadium cards and put them into your opponent's hand.",
 				fr: "Vous pouvez choisir dans la pile de défausse de votre adversaire une combinaison de jusqu'à 3 cartes Dresseur, Supporter ou Stade et les placer dans la main de votre adversaire.",
+				de: "Du kannst den Ablagestapel deines Gegners nach bis zu 3 Karten in beliebiger Kombination aus Trainer-, Unterstützer- und Stadion-Karten durchsuchen. Dein Gegner nimmt diese Karten auf die Hand."
 			},
 			damage: 30,
 

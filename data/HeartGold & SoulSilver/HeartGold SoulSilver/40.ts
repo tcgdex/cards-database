@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Donphan",
 		fr: "Donphan",
+		de: "Donphan"
 	},
 
 	illustrator: "Midori Harada",
@@ -39,10 +40,12 @@ const card: Card = {
 			name: {
 				en: "Rock Hurl",
 				fr: "Lance-pierre",
+				de: "Steinschleuderer"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by Resistance.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 50,
 
@@ -57,12 +60,14 @@ const card: Card = {
 			name: {
 				en: "Double Spin",
 				fr: "Double tour",
+				de: "Doppeldreher"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "70×",
+			damage: "70x",
 
 		},
 	],

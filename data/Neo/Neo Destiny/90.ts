@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Venonat",
-		fr: "Mimitoss"
+		fr: "Mimitoss",
+		de: "Bluzuk"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -31,26 +32,26 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
-				fr: "Rogne"
+				fr: "Rogne",
+				de: "Gnaw"
 			},
 
 			damage: 10,
 
 		},
 		{
-			cost: [
-				"Grass",
-				"Colorless",
-			],
+			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
 				en: "Poisonpowder",
-				fr: "Poudre toxik"
+				fr: "Poudre toxik",
+				de: "Poison Barb"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "The Defending Pokémon is now Poisoned."
 			},
-			damage: 10,
+			damage: 40,
 
 		},
 	],

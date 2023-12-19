@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Nuzleaf",
-		fr: "Pifeuil"
+		fr: "Pifeuil",
+		de: "Blanas"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fake Out",
-				fr: "Bluff"
+				fr: "Bluff",
+				de: "Mogelhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -48,7 +51,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Gentle Slap",
-				fr: "Gifle douce"
+				fr: "Gifle douce",
+				de: "Sanfter Hieb"
 			},
 
 			damage: 40,

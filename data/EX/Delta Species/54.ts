@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Shelgon δ",
-		fr: "Drackhaus δ ESPÈCES DELTA"
+		fr: "Drackhaus δ ESPÈCES DELTA",
+		de: "Draschel"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Exoskeleton",
-				fr: "Exosquelette"
+				fr: "Exosquelette",
+				de: "Exoskeleton"
 			},
 			effect: {
 				en: "Any damage done to Shelgon by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Drackhaus par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+				fr: "Les dégâts infligés à Drackhaus par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				de: "Any damage done to Shelgon by attacks is reduced by 10 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -40,7 +43,8 @@ const card: Card = {
 		{
 			name: {
 				en: "Heat Blast",
-				fr: "Explosion de chaleur"
+				fr: "Explosion de chaleur",
+				de: "Heat Blast"
 			},
 
 			damage: 30,

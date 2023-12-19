@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Misdreavus",
-		fr: "Feuforêve"
+		fr: "Feuforêve",
+		de: "Traunfugil"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Night Eyes",
-				fr: "Mauvais œil"
+				fr: "Mauvais œil",
+				de: "Night Eyes"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Perish Song",
-				fr: "Requiem"
+				fr: "Requiem",
+				de: "Perish Song"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Asleep, and was attacked with Night Eyes during your last turn, it is Knocked Out.",
-				fr: "Si le Pokémon Défenseur est Endormi et s'il a subi l'attaque Mauvais œil durant votre tour précédent, il est mis K.O."
+				fr: "Si le Pokémon Défenseur est Endormi et s'il a subi l'attaque Mauvais œil durant votre tour précédent, il est mis K.O.",
+				de: "If the Defending Pokémon is Asleep and was attacked with Night Eyes during your last turn, it is Knocked Out."
 			},
 
 		},

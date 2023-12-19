@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Arceus LV. X",
 		fr: "Arceus",
+		de: "Arceus"
 	},
 	illustrator: "Shizurow",
 	rarity: "Rare",
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "Multitype",
 				fr: "Multi-Type",
+				de: "Variabilität"
 			},
 			effect: {
 				en: "Arceus LV.X's type is the same type as its previous Level.",
 				fr: "Le type d'Arceus NIV.X est le même qu'au tour précédent.",
+				de: "Arceus LV.X hat denselben Typ wie sein vorheriges Level."
 			},
 		},
 	],

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bagon",
 		fr: "Draby",
+		de: "Kindwurm"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -43,12 +45,14 @@ const card: Card = {
 			name: {
 				en: "Rage",
 				fr: "Frénésie",
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Bagon.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Draby.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Kindwurm zu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

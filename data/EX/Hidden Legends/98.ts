@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Regirock ex",
-		fr: "Regirock ex"
+		fr: "Regirock ex",
+		de: "Regirock ex"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Healing Stone",
-				fr: "Pierre guérisseuse"
+				fr: "Pierre guérisseuse",
+				de: "Healing Stone"
 			},
 			effect: {
 				en: "At any time between turns, remove 1 damage counter from Regirock ex.",
-				fr: "N'importe quand entre deux tours, retirez à Regirock ex 1 marqueur de dégât."
+				fr: "N'importe quand entre deux tours, retirez à Regirock ex 1 marqueur de dégât.",
+				de: "At any time between turns, remove 1 damage counter from Regirock ex."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tonnage",
-				fr: "Surpuissance"
+				fr: "Surpuissance",
+				de: "Tonnage"
 			},
 			effect: {
 				en: "You may do 60 damage plus 20 more damage. If you do, Regirock ex does 30 damage to itself.",
-				fr: "Vous pouvez infliger 60 dégâts plus 20 dégâts supplémentaires. Regirock ex s'inflige alors 30 dégâts."
+				fr: "Vous pouvez infliger 60 dégâts plus 20 dégâts supplémentaires. Regirock ex s'inflige alors 30 dégâts.",
+				de: "You may do 60 damage plus 20 more damage. If you do, Regirock ex does 30 damage to itself."
 			},
 			damage: "60+",
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Palkia",
 		fr: "Palkia",
+		de: "Palkia"
 	},
 	illustrator: "Daisuke Ito",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Spacial Rend",
 				fr: "Spatio-Rift",
+				de: "Raumschlag"
 			},
 			effect: {
 				en: "Search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. If there is any Stadium card in play, discard it.",
 				fr: "Choisissez dans votre deck une carte Stade, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck. Si une carte Stade est en jeu, défaussez-la.",
+				de: "Durchsuche dein Deck nach 1 Stadion-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach. Wenn sich bereits eine Stadion-Karte im Spiel befindet, lege diese auf den Ablagestapel."
 			},
 			damage: 10,
 
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Transback",
 				fr: "Transfert",
+				de: "Abtransport"
 			},
 			effect: {
 				en: "You may flip a coin. If heads, discard all Energy attached to Palkia and put the Defending Pokémon and all cards attached to it on top of your opponent's deck. Your opponent shuffles his or her deck afterward.",
 				fr: "Vous pouvez lancer une pièce. Si c'est face, défaussez toutes les Énergies attachées à Palkia et placez le Pokémon Défenseur et toutes les cartes qui lui sont attachées au dessus du deck de votre adversaire. Ensuite, votre adversaire mélange son deck.",
+				de: "Du kannst 1 Münze werfen. Bei \"Kopf\" lege alle Energien, die an Palkia angelegt sind, auf deinen Ablagestapel. Danach lege das Verteidigende Pokémon und alle an es angelegten Karten auf das Deck deines Gegners. Dein Gegner mischt sein Deck danach."
 			},
 			damage: 40,
 

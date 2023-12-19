@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Kirlia",
-		fr: "Kirlia"
+		fr: "Kirlia",
+		de: "Kirlia"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Calm Mind",
-				fr: "Plénitude"
+				fr: "Plénitude",
+				de: "Calm Mind"
 			},
 			effect: {
 				en: "Remove 3 damage counters from Kirlia.",
-				fr: "Retirez à Kirlia 3 marqueurs de dégât."
+				fr: "Retirez à Kirlia 3 marqueurs de dégât.",
+				de: "Remove 3 damage counters from Kirlia."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic Boom",
-				fr: "Psycho-boom"
+				fr: "Psycho-boom",
+				de: "Psychic Boom"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				de: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon."
 			},
 			damage: "20+",
 

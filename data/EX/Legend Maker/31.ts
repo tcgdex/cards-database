@@ -4,7 +4,8 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Dunsparce",
-		fr: "Insolourdo"
+		fr: "Insolourdo",
+		de: "Dummisel"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Deadlock",
-				fr: "Impasse"
+				fr: "Impasse",
+				de: "Stillstand"
 			},
 			effect: {
 				en: "As long as Dunsparce is your Active Pokémon, your opponent's Dunsparce can't attack.",
-				fr: "Tant qu'Insolourdo est votre Pokémon Actif, l'Insolourdo de votre adversaire ne peut pas attaquer."
+				fr: "Tant qu'Insolourdo est votre Pokémon Actif, l'Insolourdo de votre adversaire ne peut pas attaquer.",
+				de: "Solange Dummisel dein Aktives Pokémon ist, können Dummisel deines Gegners nicht angreifen."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Down Draw",
-				fr: "Pioche du dessous"
+				fr: "Pioche du dessous",
+				de: "Tiefer Zug"
 			},
 			effect: {
 				en: "Draw 2 cards from the bottom of your deck.",
-				fr: "Piochez 2 cartes du dessous de votre deck."
+				fr: "Piochez 2 cartes du dessous de votre deck.",
+				de: "Ziehe die untersten 2 Karten denes Decks."
 			},
 
 		},
@@ -55,11 +60,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tripping Turn",
-				fr: "Tour trébuchant"
+				fr: "Tour trébuchant",
+				de: "Stolpernder Wechsel"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused. You may switch Dunsparce with 1 of your Benched Pokémon.",
-				fr: "Le Pokémon Défenseur est maintenant Confus. Vous pouvez échanger Insolourdo avec 1 des Pokémon de votre Banc."
+				fr: "Le Pokémon Défenseur est maintenant Confus. Vous pouvez échanger Insolourdo avec 1 des Pokémon de votre Banc.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt. Du kannst Dummisel gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 
 		},

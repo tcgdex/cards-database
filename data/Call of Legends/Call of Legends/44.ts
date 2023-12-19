@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Flareon",
+		de: "Flamara"
 	},
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flame Tail",
+				de: "Flammenschweif"
 			},
 
 			damage: 30,
@@ -43,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to Flareon.",
+				de: "Lege 1 an Flamara angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 

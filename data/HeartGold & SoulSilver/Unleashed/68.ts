@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Vulpix",
 		fr: "Goupix",
+		de: "Vulpix"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Fireworks",
 				fr: "Feux d’artifice",
+				de: "Feuerwerk"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Vulpix.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez une carte Énergie Fire attachée à Goupix.",
+				de: "Wirf eine Münze. Bei \"Zahl\" lege 1 an Vulpix angelegte -Energie auf deinen Ablagestapel."
 			},
 			damage: 20,
 

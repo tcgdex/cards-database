@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Machoke",
 		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Knuckle Down",
 				fr: "Poing de chute",
+				de: "Knöchelhauer"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par les Poké-Powers, les Poké-Bodies ou tout autre effet en action sur le Pokémon Défenseur.",
+				de: "Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 30,
 
@@ -54,6 +57,7 @@ const card: Card = {
 			name: {
 				en: "Strength",
 				fr: "Force",
+				de: "Stärke"
 			},
 
 			damage: 60,

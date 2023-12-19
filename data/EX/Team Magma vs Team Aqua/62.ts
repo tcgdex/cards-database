@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Houndour",
-		fr: "Malosse de Team Magma"
+		fr: "Malosse de Team Magma",
+		de: "Team Magmas Hunduster"
 	},
 	illustrator: "Atsuko Ujiie",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
-				fr: "Fournaise"
+				fr: "Fournaise",
+				de: "Combustion"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Singe",
-				fr: "Ça sent le roussi !"
+				fr: "Ça sent le roussi !",
+				de: "Super Singe"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "The Defending Pokémon is now Burned."
 			},
 			damage: 10,
 

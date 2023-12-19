@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Dark Flaaffy",
-		fr: "Lainergie obscur"
+		fr: "Lainergie obscur",
+		de: "Dunkles Waaty"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "High Voltage",
-				fr: "Haut voltage"
+				fr: "Haut voltage",
+				de: "High Voltage"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur pendant son prochain tour."
+				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur pendant son prochain tour.",
+				de: "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn."
 			},
 			damage: 10,
 
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stun Wave",
-				fr: "Para-vague"
+				fr: "Para-vague",
+				de: "Stun Wave"
 			},
 			effect: {
 				en: "If the Defending Pokémon has a Pokémon Power, that power stops working until the end of your next turn.",
-				fr: "Si le Pokémon Défenseur a un Pouvoir Pokémon, ce pouvoir cesse de fonctionner jusqu'à la fin de votre prochain tour."
+				fr: "Si le Pokémon Défenseur a un Pouvoir Pokémon, ce pouvoir cesse de fonctionner jusqu'à la fin de votre prochain tour.",
+				de: "If the Defending Pokémon has a Pokémon Power, that Power stops working until the end of your next turn."
 			},
 			damage: 30,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Alph Lithograph",
 		fr: "Lithographie d’Alpha",
+		de: "Alph Lithograph"
 	},
 
 	illustrator: "Milky Isobe",
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		fr: "REGARDEZ TOUTES VOS CARTES RECOMPENSE QUI SONT FACE CACHEE!",
-		en: "LOOK AT ALL OF YOUR FACE DOWN PRIZE CARDS!"
+		en: "LOOK AT ALL OF YOUR FACE DOWN PRIZE CARDS!",
+		de: "Schau dir deine verdeckten Preiskarten an!"
 	},
 
 	trainerType: "Item",

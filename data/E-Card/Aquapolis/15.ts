@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Houndoom",
-		fr: "Démolosse"
+		fr: "Démolosse",
+		de: "Hundemon"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fireworks",
-				fr: "Feu d'artifice"
+				fr: "Feu d'artifice",
+				de: "Feuerwerk"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard 1 Energy card attached to Houndoom.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez-vous d'une carte Énergie  attachée à Démolosse."
+				fr: "Lancez une pièce. Si c'est pile, défaussez-vous d'une carte Énergie  attachée à Démolosse.",
+				de: "Wirf eine Münze. Lege bei 'Zahl' eine an Hundemon angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Impact",
-				fr: "Sombre impact"
+				fr: "Sombre impact",
+				de: "Finsterer Einfluss"
 			},
 			effect: {
 				en: "The Defending Pokémon can't use any Poké-Powers until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas utiliser de Poké-Powers jusqu'à la fin du prochain tour de votre adversaire."
+				fr: "Le Pokémon Défenseur ne peut pas utiliser de Poké-Powers jusqu'à la fin du prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann bis zum Ende des nächsten Zuges deines Gegners keine Poké-Power verwenden."
 			},
 			damage: 40,
 

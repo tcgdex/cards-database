@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Mankey",
-		fr: "Férosinge"
+		fr: "Férosinge",
+		de: "Menki"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mug",
-				fr: "Agression"
+				fr: "Agression",
+				de: "Ausrauben"
 			},
 			effect: {
 				en: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
-				fr: "Avant d'infliger les dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur."
+				fr: "Avant d'infliger les dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur.",
+				de: "Lege alle Trainerkarten, die an das Verteidigende Pokémon angelegt sind, auf den Ablagestapel deines Gegners, bevor der Schaden zugefügt wird."
 			},
 			damage: 10,
 
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
-				fr: "Frénésie"
+				fr: "Frénésie",
+				de: "Raserei"
 			},
 			effect: {
 				en: "This attack does 10 damage plus 10 more damage for each damage counter on Mankey.",
-				fr: "Cette attaque inflige 10 dégâts plus 10 dégâts pour chaque marqueur de dégâts sur Férosinge."
+				fr: "Cette attaque inflige 10 dégâts plus 10 dégâts pour chaque marqueur de dégâts sur Férosinge.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus zusätzliche 10 Schadenspunkte für jede Schadensmarke auf Menki zu."
 			},
 			damage: "10+",
 

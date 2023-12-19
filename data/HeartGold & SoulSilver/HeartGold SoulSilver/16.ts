@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Butterfree",
 		fr: "Papilusion",
+		de: "Smettbo"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Cure Powder",
 				fr: "Poudre de soins",
+				de: "Heilstaub"
 			},
 			effect: {
 				en: "Remove 3 damage counters from each of your Pokémon.",
 				fr: "Retirez 3 marqueurs de dégâts de chacun de vos Pokémon.",
+				de: "Entferne 3 Schadensmarken von jedem deiner Pokémon."
 			},
 
 		},
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Whirlwind",
 				fr: "Cyclone",
+				de: "Wirbelwind"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec l’un des Pokémon de son Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 60,
 

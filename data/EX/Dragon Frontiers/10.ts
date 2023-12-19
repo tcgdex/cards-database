@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Snorlax δ",
-		fr: "Ronflex δ ESPÈCES DELTA"
+		fr: "Ronflex δ ESPÈCES DELTA",
+		de: "Relaxo"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Bedhead",
-				fr: "Tête de lit"
+				fr: "Tête de lit",
+				de: "Schlafmütze"
 			},
 			effect: {
 				en: "As long as Snorlax remains Asleep between turns, put 2 damage counters on 1 of the Defending Pokémon.",
-				fr: "Tant que Ronflex est Endormi entre deux tours, placez 2 marqueurs de dégât sur 1 des Pokémon Défenseurs."
+				fr: "Tant que Ronflex est Endormi entre deux tours, placez 2 marqueurs de dégât sur 1 des Pokémon Défenseurs.",
+				de: "Wenn Relaxo schläft und zwischen zwei Zügen nicht aufwacht, lege 2 Schadensmarken auf 1 Verteidigendes Pokémon."
 			},
 		},
 	],

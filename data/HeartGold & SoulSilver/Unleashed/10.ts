@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Torterra",
 		fr: "Torterra",
+		de: "Chelterrar"
 	},
 
 	illustrator: "match",
@@ -39,10 +40,12 @@ const card: Card = {
 			name: {
 				en: "Giga Drain",
 				fr: "Giga-sangsue",
+				de: "Gigasauger"
 			},
 			effect: {
 				en: "Remove from Torterra the number of damage counters equal to the damage you did to the Defending Pokémon.",
 				fr: "Retirez de Torterra un nombre de marqueurs de dégât équivalant aux dégâts que vous avez infligés au Pokémon Défenseur.",
+				de: "Entferne Schadensmarken von Chelterrar entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
 			damage: 40,
 
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Land Crush",
 				fr: "Écras’terre",
+				de: "Schollenbrecher"
 			},
 
 			damage: 80,

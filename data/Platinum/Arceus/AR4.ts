@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Arceus",
 		fr: "Arceus",
+		de: "Arceus"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Fastwave",
 				fr: "Lame de fond",
+				de: "Rasende Schallwelle"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				de: "Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf den Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 50,
 

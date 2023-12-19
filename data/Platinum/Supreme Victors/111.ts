@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magnemite",
 		fr: "Magneti",
+		de: "Magnetilo"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Speed Ball",
 				fr: "Balle rapide",
+				de: "Geschwindigkeitsball"
 			},
 
 			damage: 10,
@@ -43,12 +45,14 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

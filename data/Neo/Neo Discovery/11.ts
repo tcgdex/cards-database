@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Smeargle",
-		fr: "Queulorior"
+		fr: "Queulorior",
+		de: "Farbeagle"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sketch",
-				fr: "Gribouille"
+				fr: "Gribouille",
+				de: "Sketch"
 			},
 			effect: {
 				en: "If the Defending Pokémon attacked last turn, and Smeargle was in play during that attack, Smeargle copies that attack except for its Energy costs and anything else required in order to use that attack.",
-				fr: "Si le Pokémon Défenseur a attaqué au tour précédent et si Queulorior était en jeu pendant cette attaque, Queulorior peut copier cette attaque excepté son coût en Énergie et les autres éléments nécessaires à cette attaque."
+				fr: "Si le Pokémon Défenseur a attaqué au tour précédent et si Queulorior était en jeu pendant cette attaque, Queulorior peut copier cette attaque excepté son coût en Énergie et les autres éléments nécessaires à cette attaque.",
+				de: "If the Defending Pokémon attack last turn, and Smeargle was in play during that attack, Smeargle copies that attack execpt fpr its Energy costs and anything else reguired in order to use that attack."
 			},
 
 		},

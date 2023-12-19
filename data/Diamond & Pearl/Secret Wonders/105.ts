@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shellder",
 		fr: "Kokiyas",
+		de: "Muschas"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Shell Rest",
 				fr: "Repos coquillage",
+				de: "Panzerruhe"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Shellder.",
 				fr: "Retirez à Kokiyas 2 marqueurs de dégât.",
+				de: "Entferne 2 Schadensmarken von Muschas."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Tongue Slap",
 				fr: "Gros coup de langue",
+				de: "Zungenschelle"
 			},
 
 			damage: 20,

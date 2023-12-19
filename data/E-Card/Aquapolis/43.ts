@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Vileplume",
-		fr: "Rafflesia"
+		fr: "Rafflesia",
+		de: "Giflor"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Scent",
-				fr: "Senteur empoisonnée"
+				fr: "Senteur empoisonnée",
+				de: "Poison Scent"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned and Confused. If tails, the Defending Pokémon is now Poisoned and Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné et Confus. Si c'est pile, le Pokémon Défenseur est maintenant Empoisonné et Endormi."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné et Confus. Si c'est pile, le Pokémon Défenseur est maintenant Empoisonné et Endormi.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned and Confused. If tails, the Defending Pokémon is now Poisoned and Asleep."
 			}
 
 		},
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Addictive Pollen",
-				fr: "Pollen drogué"
+				fr: "Pollen drogué",
+				de: "Addictive Pollen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play Supporter cards during his or her next turn.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Supporter pendant son prochain tour."
+				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Supporter pendant son prochain tour.",
+				de: "Flip a coin. If heads, your opponent can't play Supporter cards during his or her next turn."
 			},
 			damage: 40,
 

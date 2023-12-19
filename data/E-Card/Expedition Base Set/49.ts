@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Golem",
-		fr: "Grolem"
+		fr: "Grolem",
+		de: "Geowaz"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Rock Body",
-				fr: "Corps roc"
+				fr: "Corps roc",
+				de: "Rock Body"
 			},
 			effect: {
 				en: "All Damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés par des attaques sur Grolem sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+				fr: "Tous les dégâts infligés par des attaques sur Grolem sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				de: "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance.)"
 			},
 		},
 	],
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Tumble",
-				fr: "Roule-pierre"
+				fr: "Roule-pierre",
+				de: "Rock Tumble"
 			},
 			effect: {
 				en: "Don't apply Resistance.",
-				fr: "N'appliquez pas la Résistance."
+				fr: "N'appliquez pas la Résistance.",
+				de: "Don't apply Resistance."
 			},
 			damage: 60,
 

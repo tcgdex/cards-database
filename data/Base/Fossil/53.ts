@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Psyduck",
-		fr: "Psykokwak"
+		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Headache",
-				fr: "Migraine"
+				fr: "Migraine",
+				de: "Kopfweh"
 			},
 			effect: {
 				en: "Your opponent can't play Trainer cards during his or her next turn.",
-				fr: "Votre adversaire ne peut pas jouer de carte Dresseur durant son prochain tour."
+				fr: "Votre adversaire ne peut pas jouer de carte Dresseur durant son prochain tour.",
+				de: "Dein gegner kann während seines nächsten Zuges keine Trainerkarte spielen."
 			},
 
 		},
@@ -45,13 +48,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Swipes",
-				fr: "Combo-griffe"
+				fr: "Combo-griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal wenn die Münze 'Kopf' zeigt 10 Schadenspunkte zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

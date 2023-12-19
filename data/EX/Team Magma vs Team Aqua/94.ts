@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Suicune ex",
-		fr: "Suicune ex"
+		fr: "Suicune ex",
+		de: "Suicune ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Flip",
-				fr: "Échange d'énergie"
+				fr: "Échange d'énergie",
+				de: "Energy Flip"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. You may move an Energy card attached to that Pokémon to another of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. Vous pouvez déplacer une carte Énergie attachée à ce Pokémon sur un autre des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. Vous pouvez déplacer une carte Énergie attachée à ce Pokémon sur un autre des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. You may move an Energy card attached to that Pokémon to another of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Reverse Stream",
-				fr: "Courant inverse"
+				fr: "Courant inverse",
+				de: "Reverse Stream"
 			},
 			effect: {
 				en: "You may return all basic Energy cards attached to Suicune ex to your hand. If you do, this attack does 50 damage plus 10 more damage for each basic Energy card you returned.",
-				fr: "Vous pouvez reprendre dans votre main toutes les cartes Énergie de base attachées à Suicune ex. Cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie de base reprise."
+				fr: "Vous pouvez reprendre dans votre main toutes les cartes Énergie de base attachées à Suicune ex. Cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie de base reprise.",
+				de: "You may return all basic Energy cards attached to Suicune ex to your hand. If you do, this attack does 50 damage plus 10 more damage for each basic Energy card you returned."
 			},
 			damage: "50+",
 

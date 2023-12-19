@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Squirtle",
-		fr: "Carapuce"
+		fr: "Carapuce",
+		de: "Schiggy"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble",
-				fr: "Écume"
+				fr: "Écume",
+				de: "Bubble"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Turn",
-				fr: "Tour fracassant"
+				fr: "Tour fracassant",
+				de: "Smash Turn"
 			},
 			effect: {
 				en: "After your attack, you may switch Squirtle with 1 of your Benched Pokémon.",
-				fr: "Après votre attaque, vous pouvez échanger Carapuce avec 1 des Pokémon de votre Banc."
+				fr: "Après votre attaque, vous pouvez échanger Carapuce avec 1 des Pokémon de votre Banc.",
+				de: "After your attack, you may switch Squirtle with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 

@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Regice",
-		fr: "Regice"
+		fr: "Regice",
+		de: "Regice"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Clear Body",
-				fr: "Corps sain"
+				fr: "Corps sain",
+				de: "Neutraltorso"
 			},
 			effect: {
 				en: "Regice can't be affected by any Special Conditions.",
-				fr: "Regice ne peut pas être affecté par des États Spéciaux."
+				fr: "Regice ne peut pas être affecté par des États Spéciaux.",
+				de: "Regice kann nicht von Speziellen Zuständen betroffen werden."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Icy Wind",
-				fr: "Vent glacé"
+				fr: "Vent glacé",
+				de: "Eissturm"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 40,
 

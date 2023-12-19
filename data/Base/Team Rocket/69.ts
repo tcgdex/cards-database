@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Voltorb",
-		fr: "Voltorbe"
+		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Speed Ball",
-				fr: "Balle rapide"
+				fr: "Balle rapide",
+				de: "Geschwindigkeitsball"
 			},
 
 			damage: 20,

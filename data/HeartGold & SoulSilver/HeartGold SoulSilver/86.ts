@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Totodile",
 		fr: "Kaiminus",
+		de: "Karnimani"
 	},
 
 	illustrator: "kawayoo",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 20,

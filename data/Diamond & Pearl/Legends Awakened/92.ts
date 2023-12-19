@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Drifloon",
 		fr: "Baudrive",
+		de: "Driftlon"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Mind Bend",
 				fr: "Contrôleur d'esprit",
+				de: "Gedankenverbiegung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -48,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				de: "Windstoß"
 			},
 
 			damage: 20,

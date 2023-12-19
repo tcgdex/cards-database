@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Ekans",
-		fr: "Abo"
+		fr: "Abo",
+		de: "Rettan"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -30,12 +31,14 @@ const card: Card = {
 
 			name: {
 				en: "Poison Sting",
-				fr: "Dard-venin"
+				fr: "Dard-venin",
+				de: "Poison Sting"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 			damage: 10

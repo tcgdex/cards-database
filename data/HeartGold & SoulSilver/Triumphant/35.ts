@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Haunter",
 		fr: "Spectrum",
+		de: "Alpollo"
 	},
 
 	illustrator: "Takashi Yamaguchi",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Sneaky Placement",
 				fr: "Placement vicieux",
+				de: "Heimlichtuerei"
 			},
 			effect: {
 				en: "Put 2 damage counters on 1 of your opponent’s Pokémon.",
 				fr: "Placez 2 marqueurs de dégât sur l’un des Pokémon de votre adversaire.",
+				de: "Lege 2 Schadensmarken auf 1 Pokémon deines Gegners."
 			},
 
 		},
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Sleep Poison",
 				fr: "Poison dodo",
+				de: "Schlafgift"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep and Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				de: "Das Verteidigende Pokémon schläft jetzt und ist vergiftet."
 			},
 
 		},

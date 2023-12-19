@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Wailord",
-		fr: "Wailord"
+		fr: "Wailord",
+		de: "Wailord"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
-				fr: "Bélier"
+				fr: "Bélier",
+				de: "Take Down"
 			},
 			effect: {
 				en: "Wailord does 20 damage to itself.",
-				fr: "Wailord s'inflige 20 dégâts."
+				fr: "Wailord s'inflige 20 dégâts.",
+				de: "Wailord does 20 damage to itself."
 			},
 			damage: 50,
 
@@ -52,7 +55,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Surf",
-				fr: "Surf"
+				fr: "Surf",
+				de: "Surf"
 			},
 
 			damage: 70,

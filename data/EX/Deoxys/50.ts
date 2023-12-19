@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Vigoroth",
-		fr: "Vigoroth"
+		fr: "Vigoroth",
+		de: "Muntier"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Vigorous Aura",
-				fr: "Aura énergique"
+				fr: "Aura énergique",
+				de: "Vigorous Aura"
 			},
 			effect: {
 				en: "As long as Vigoroth is your Active Pokémon, attacks by each player's Active Pokémon (both if there are 2) do 10 more damage to any Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Tant que Vigoroth est votre Pokémon Actif, les attaques infligées par les Pokémon Actifs de chaque joueur (les 2 s'il y en a 2), infligent 10 dégâts supplémentaires à n'importe quel Pokémon Actif (avant application de la Faiblesse et de la Résistance)."
+				fr: "Tant que Vigoroth est votre Pokémon Actif, les attaques infligées par les Pokémon Actifs de chaque joueur (les 2 s'il y en a 2), infligent 10 dégâts supplémentaires à n'importe quel Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
+				de: "As long as Vigoroth is your Active Pokémon, attacks by each player's Active Pokémon (both if there are 2) do 10 more damage to any Active Pokémon (before applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Scratch"
 			},
 
 			damage: 30,

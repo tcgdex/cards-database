@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Skarmory",
-		fr: "Airmure"
+		fr: "Airmure",
+		de: "Panzaeron"
 	},
 
 	illustrator: "Aya Kusube",
@@ -31,13 +32,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Attack",
-				fr: "Furie"
+				fr: "Furie",
+				de: "Fury Attack"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -48,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
-				fr: "Hâte"
+				fr: "Hâte",
+				de: "Agility"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Skarmory.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Airmure."
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Airmure.",
+				de: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Skarmory."
 			},
 			damage: 20,
 

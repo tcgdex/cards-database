@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Piplup",
 		fr: "Tiplouf",
+		de: "Plinfa"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Water Splash",
 				fr: "Éclaboussure",
+				de: "Wasserplatscher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Charmander",
-		fr: "Salamèche"
+		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -45,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Tail",
-				fr: "Pyro queue"
+				fr: "Pyro queue",
+				de: "Feuerschweif"
 			},
 
 			damage: 20,

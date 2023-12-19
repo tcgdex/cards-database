@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bibarel",
 		fr: "Castorno",
+		de: "Bidifas"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -34,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Rolling Tackle",
 				fr: "Roulé-boulé",
+				de: "Rolltackle"
 			},
 
 			damage: 20,
@@ -48,12 +50,14 @@ const card: Card = {
 			name: {
 				en: "Tail Rap",
 				fr: "Frap' keu",
+				de: "Schweifklopfen"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: 30,
+			damage: "30x",
 
 		},
 	],

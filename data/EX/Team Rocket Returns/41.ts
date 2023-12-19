@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dark Pupitar",
+		de: "Dunkles Pupitar"
 	},
 	illustrator: "Emi Miwa",
 	rarity: "Uncommon",
@@ -32,9 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Streak",
+				de: "Dark Streak"
 			},
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
+				de: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -47,9 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Tumble",
+				de: "Rock Tumble"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
+				de: "This attack's damage is not affected by Resistance."
 			},
 			damage: 40,
 

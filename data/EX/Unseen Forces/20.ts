@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Chansey",
-		fr: "Leveinard"
+		fr: "Leveinard",
+		de: "Chaneira"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Healing",
-				fr: "Hyper guérison"
+				fr: "Hyper guérison",
+				de: "Hyper Healing"
 			},
 			effect: {
 				en: "Remove 1 damage counter and all Special Conditions from each of your Active Pokémon.",
-				fr: "Retirez à chacun de vos Pokémon Actifs 1 marqueur de dégât et tous leurs États Spéciaux."
+				fr: "Retirez à chacun de vos Pokémon Actifs 1 marqueur de dégât et tous leurs États Spéciaux.",
+				de: "Remove 1 damage counter and all Special Conditions from each of your Active Pokémon."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Tackle",
-				fr: "Double charge"
+				fr: "Double charge",
+				de: "Double Tackle"
 			},
 			effect: {
 				en: "Does 20 damage to each Defending Pokémon.",
-				fr: "Inflige 20 dégâts à chaque Pokémon Défenseur."
+				fr: "Inflige 20 dégâts à chaque Pokémon Défenseur.",
+				de: "Does 20 damage to each Defending Pokémon."
 			},
 
 		},

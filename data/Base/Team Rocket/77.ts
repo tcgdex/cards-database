@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Nightly Garbage Run",
-		fr: "Raid nocturne dans les poubelles"
+		fr: "Raid nocturne dans les poubelles",
+		de: "Nächtliche Müllabfuhr"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Choisissez jusqu'à 3 cartes Pokémon de base, Évolution et/ou Énergie de base dans votre pile de défausse. Montrez-les à votre adversaire et mélangez-les avec votre deck."
+		fr: "Choisissez jusqu'à 3 cartes Pokémon de base, Évolution et/ou Énergie de base dans votre pile de défausse. Montrez-les à votre adversaire et mélangez-les avec votre deck.",
+		de: "Wähle bis zu drei basis-Pokémon-Karten, Evolutionskarten und/oder Basis-Energiekarten aus deinem Ablagestapel. Zeige sie deinem Gegner und mische sie in dein Deck."
 	}
 }
 

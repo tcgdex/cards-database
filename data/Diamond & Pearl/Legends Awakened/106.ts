@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Meowth",
 		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Pay Day",
 				fr: "Jackpot",
+				de: "Zahltag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, draw a card.",
 				fr: "Lancez une pièce. Si c'est face, piochez une carte.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ziehe 1 Karte."
 			},
 			damage: 10,
 
@@ -48,12 +51,14 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 3 Münzen.Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

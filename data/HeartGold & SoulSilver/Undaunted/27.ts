@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gloom",
 		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Miracle Powder",
 				fr: "Poudre miracle",
+				de: "Wunderstaub"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.",
 				fr: "Lancez une pièce. Si c’est face, choisissez un État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial.",
+				de: "Wirf eine Münze. Wähle bei \"Kopf\" 1 Speziellen Zustand. Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen."
 			},
 			damage: 30,
 

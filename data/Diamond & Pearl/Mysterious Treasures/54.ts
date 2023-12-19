@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Magmar",
-		fr: "Magmar"
+		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
-				fr: "Intimidation"
+				fr: "Intimidation",
+				de: "Flackern"
 			},
 
 			damage: 20,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
-				fr: "Lance-flamme"
+				fr: "Lance-flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to Magmar.",
-				fr: "Défaussez une Énergie attachée à Magmar."
+				fr: "Défaussez une Énergie attachée à Magmar.",
+				de: "Lege 1 an Magmar angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 50,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Beldum",
 		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Reaction",
 				fr: "Réagir",
+				de: "Reaktion"
 			},
 			effect: {
 				en: "You may switch Beldum with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Terhal avec un Pokémon de votre Banc.",
+				de: "Du kannst Tanhel gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 10,
 

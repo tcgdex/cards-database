@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Ledian",
-		fr: "Coxyclaque"
+		fr: "Coxyclaque",
+		de: "Ledian"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Baton Pass",
-				fr: "Relais"
+				fr: "Relais",
+				de: "Stafette"
 			},
 			effect: {
 				en: "If you have any Pokémon on your Bench, remove all Energy cards from Ledian and attach them to 1 of those Pokémon, then switch Ledian with that Pokémon.",
-				fr: "Si vous avez un ou plusieurs Pokémon  sur votre Banc, retirez toutes les cartes Énergie  sur Coxyclaque et attachez-les à l'un de ces Pokémon, échangez ensuite Coxyclaque avec ce Pokémon."
+				fr: "Si vous avez un ou plusieurs Pokémon  sur votre Banc, retirez toutes les cartes Énergie  sur Coxyclaque et attachez-les à l'un de ces Pokémon, échangez ensuite Coxyclaque avec ce Pokémon.",
+				de: "Falls du mindestens ein -Pokémon auf deiner Bank hast, entferne alle -Energiekarten von Ledian und lege sie an dieses Pokémon an, und tausche dann Ledian mit diesem Pokémon aus."
 			},
 			damage: 30,
 

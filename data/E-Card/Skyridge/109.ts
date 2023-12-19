@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Teddiursa",
+		de: "Teddiursa"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -26,13 +27,18 @@ const card: Card = {
 			cost: [
 				"Colorless",
 			],
+
 			name: {
 				en: "Surprise Attack",
-			},
-			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Überraschungsangriff"
 			},
 
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+			},
+
+			damage: 20
 		},
 		{
 			cost: [
@@ -41,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
+				de: "Raserei"
 			},
 			effect: {
 				en: "This attack does 10 damage plus 10 more damage for each damage counter on Teddiursa.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 zusätzliche Schadenspunkte für jede Schadensmarke auf Teddiursa zu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

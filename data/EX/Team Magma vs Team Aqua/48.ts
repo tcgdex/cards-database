@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Carvanha",
-		fr: "Carvanha de Team Aqua"
+		fr: "Carvanha de Team Aqua",
+		de: "Team Aquas Kanivanha"
 	},
 	illustrator: "Hiromichi Sugiyama",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
-				fr: "Grosse vague"
+				fr: "Grosse vague",
+				de: "Wave Splash"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Fin",
-				fr: "Aileron-rasoir"
+				fr: "Aileron-rasoir",
+				de: "Razor Fin"
 			},
 
 			damage: 20,

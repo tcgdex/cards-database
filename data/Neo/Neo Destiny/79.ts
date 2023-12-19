@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Psyduck",
-		fr: "Psykokwak"
+		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flipper Splash",
-				fr: "Koud'palme"
+				fr: "Koud'palme",
+				de: "Flipper Splash"
 			},
 
 			damage: 10,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Migraine",
-				fr: "Maud'krâne"
+				fr: "Maud'krâne",
+				de: "Migraine"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, Psykokwak est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, Psykokwak est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused."
 			},
 			damage: 20,
 

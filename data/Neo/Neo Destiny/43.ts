@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Houndour",
-		fr: "Malosse"
+		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Corner",
-				fr: "Coincé"
+				fr: "Coincé",
+				de: "Corner"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				de: "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 
 		},
@@ -47,12 +50,14 @@ const card: Card = {
 
 			name: {
 				en: "Lunge",
-				fr: "Coup rapide"
+				fr: "Coup rapide",
+				de: "Lunge"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 
 			damage: 30

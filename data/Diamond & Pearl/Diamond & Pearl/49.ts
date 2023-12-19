@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Grotle",
 		fr: "Boskara",
+		de: "Chelcarain"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Synthesis",
 				fr: "Synthèse",
+				de: "Synthese"
 			},
 			effect: {
 				en: "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck une carte Énergie Grass, et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach einer -Energiekarte und lege sie an 1 deiner Pokémon an. Mische dein Deck danach."
 			},
 
 		},
@@ -53,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				de: "Zerschneider"
 			},
 
 			damage: 50,

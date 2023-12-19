@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Light Sunflora",
-		fr: "Heliatronc lumineux"
+		fr: "Heliatronc lumineux",
+		de: "Helles Sonnflora"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Reflected Sunlight",
-				fr: "Reflet du soleil"
+				fr: "Reflet du soleil",
+				de: "Reflected Sunlight"
 			},
 			effect: {
 				en: "Attach up to 2 Energy cards from your hand to 1 of your Pokémon.",
-				fr: "Attachez jusqu'à 2 cartes Énergie  de votre main à l'un de vos Pokémon ."
+				fr: "Attachez jusqu'à 2 cartes Énergie  de votre main à l'un de vos Pokémon .",
+				de: "Attached up to 2  Energy cards from your hand to 1 of your  Pokémon."
 			},
 
 		},
@@ -52,7 +55,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Solarbeam",
-				fr: "Lance-soleil"
+				fr: "Lance-soleil",
+				de: "Solarbeam"
 			},
 
 			damage: 40,

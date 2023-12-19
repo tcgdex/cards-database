@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Hoppip",
-		fr: "Granivol"
+		fr: "Granivol",
+		de: "Hoppspross"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Tackle",
-				fr: "Roulé-boulé"
+				fr: "Roulé-boulé",
+				de: "Rolltackle"
 			},
 
 			damage: 20,
