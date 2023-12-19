@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Strahlendes Quajutsu"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],

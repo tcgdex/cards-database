@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Hisui-Admurai V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Darkness"],

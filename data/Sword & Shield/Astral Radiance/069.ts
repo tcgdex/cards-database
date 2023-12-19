@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Damythir"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],

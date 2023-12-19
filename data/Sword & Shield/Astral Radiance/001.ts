@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Bibor V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Grass"],

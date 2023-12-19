@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Bollterus"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Metal"],
