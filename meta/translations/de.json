@@ -1,13 +1,12 @@
 {
-	"$schema": "./schema.json",
 	"__comment__": "Should be complete",
+	"$schema": "./schema.json",
 	"abilityType": {
 		"Ability": "Fähigkeit",
 		"Ancient Trait": "Uralte Eigenschaft",
 		"Poke-BODY": "Poké-BODY",
 		"Poke-POWER": "Poké-POWER",
 		"Pokemon Power": "Pokemon Power"
-
 	},
 	"category": {
 		"Energy": "Energie",
@@ -20,28 +19,35 @@
 	},
 	"rarity": {
 		"Amazing": "Atemberaubend",
+		"Classic Collection": "Klassische Kollektion",
 		"Common": "Häufig",
+		"Double rare": "Doppelselten",
+		"Full Art Trainer": "Vollkunsttrainer",
+		"Holo Rare": "Selten, Holografisch",
+		"Holo Rare V": "Selten, Holografisch V",
+		"Holo Rare VMAX": "Selten, Holografisch VMAX",
+		"Holo Rare VSTAR": "Selten, Holografisch VSTAR",
+		"Hyper rare": "Hyperselten",
+		"Illustration rare": "Selten, Illustration",
 		"None": "Keine",
+		"Radiant Rare": "Selten, Strahlend",
 		"Rare": "Selten",
 		"Secret Rare": "Versteckt Selten",
-		"Ultra Rare": "Ultra Selten",
-		"Uncommon": "Ungewöhnlich",
-		"Double rare": "Doppelselten",
-		"Illustration rare": "Selten, Illustration",
 		"Special illustration rare": "Selten, besondere Illustration",
-		"Hyper rare": "Hyperselten"
+		"Ultra Rare": "Ultra Selten",
+		"Uncommon": "Ungewöhnlich"
 	},
 	"stage": {
-		"BREAK": "TURBO",
+		"Baby": "Baby",
 		"Basic": "Basis",
+		"BREAK": "TURBO",
 		"LEVEL-UP": "Level Up",
 		"MEGA": "MEGA",
 		"RESTORED": "Erweckt",
 		"Stage1": "Rang 1",
 		"Stage2": "Rang 2",
-		"VMAX": "VMAX",
 		"V-UNION": "V-UNION",
-		"Baby": "Baby",
+		"VMAX": "VMAX",
 		"VSTAR": "VSTAR"
 	},
 	"suffix": {

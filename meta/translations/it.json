@@ -1,13 +1,12 @@
 {
-	"$schema": "./schema.json",
 	"__comment__": "Missing abilityTypes and some Trainer Types",
+	"$schema": "./schema.json",
 	"abilityType": {
 		"Ability": "Ability",
 		"Ancient Trait": "Ancient Trait",
 		"Poke-BODY": "Poke-BODY",
 		"Poke-POWER": "Poke-POWER",
 		"Pokemon Power": "Pokemon Power"
-
 	},
 	"category": {
 		"Energy": "Energia",
@@ -20,28 +19,35 @@
 	},
 	"rarity": {
 		"Amazing": "Policrome",
+		"Classic Collection": "Collezione Classica",
 		"Common": "Comune",
+		"Double rare": "Rara doppia",
+		"Full Art Trainer": "Allenatore d'arte completa",
+		"Holo Rare": "Olografica Rara",
+		"Holo Rare V": "Olografica Rara V",
+		"Holo Rare VMAX": "Olografica Rara VMAX",
+		"Holo Rare VSTAR": "Olografica Rara VSTAR",
+		"Hyper rare": "Rara iper",
+		"Illustration rare": "Rara illustrazione",
 		"None": "Nessuna",
+		"Radiant Rare": "Rara Lucente",
 		"Rare": "Rara",
 		"Secret Rare": "Segreto rara",
-		"Ultra Rare": "Ultrarara",
-		"Uncommon": "Non comune",
-		"Double rare": "Rara doppia",
-		"Illustration rare": "Rara illustrazione",
 		"Special illustration rare": "Rara illustrazione speciale",
-		"Hyper rare": "Rara iper"
+		"Ultra Rare": "Ultrarara",
+		"Uncommon": "Non comune"
 	},
 	"stage": {
-		"BREAK": "TURBO",
+		"Baby": "Bambino",
 		"Basic": "Base",
+		"BREAK": "TURBO",
 		"LEVEL-UP": "Livello Più",
 		"MEGA": "MEGA",
 		"RESTORED": "Ricreato",
 		"Stage1": "Livello 1",
 		"Stage2": "Livello 2",
-		"VMAX": "VMAX",
 		"V-UNION": "V-UNION",
-		"Baby": "Bambino",
+		"VMAX": "VMAX",
 		"VSTAR": "V ASTRO"
 	},
 	"suffix": {
