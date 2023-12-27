@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Rattata",
 	},
 	illustrator: undefined,
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

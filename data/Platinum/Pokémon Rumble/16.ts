@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Bibarel",
 	},
 	illustrator: undefined,
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
