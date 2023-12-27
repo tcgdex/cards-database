@@ -97,6 +97,9 @@
 				"Illustration rare": {
 					"type": "string"
 				},
+				"LEGEND": {
+					"type": "string"
+				},
 				"None": {
 					"type": "string"
 				},
@@ -110,6 +113,9 @@
 					"type": "string"
 				},
 				"Rare Holo LV.X": {
+					"type": "string"
+				},
+				"Rare PRIME": {
 					"type": "string"
 				},
 				"Secret Rare": {
@@ -146,11 +152,13 @@
 				"Holo Rare VSTAR",
 				"Hyper rare",
 				"Illustration rare",
+				"LEGEND",
 				"None",
 				"Radiant Rare",
 				"Rare",
 				"Rare Holo",
 				"Rare Holo LV.X",
+				"Rare PRIME",
 				"Secret Rare",
 				"Shiny rare",
 				"Shiny rare V",
