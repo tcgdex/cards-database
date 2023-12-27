@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Erika's Clefairy",
 	},
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Lt. Surge",
 	},
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Trainer",
 
 	set: Set,
