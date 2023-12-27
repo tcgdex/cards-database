@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Ampharos"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
