@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Porygon-Z"
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Rare",
+	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
 
 	set: Set,
