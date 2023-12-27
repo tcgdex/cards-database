@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "chibi",
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Lightning"],
