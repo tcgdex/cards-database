@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Roserade GL"
 	},
 	illustrator: "Kanako Eo",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

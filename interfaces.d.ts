@@ -102,6 +102,8 @@ export interface Card {
 	 * - None: https://www.tcgdex.net/database/sm/smp/SM01
 	 * - Radiant Rare: https://www.tcgdex.net/database/Sword-&-Shield/Silver-Tempest/016-Radiant-Tsareena
 	 * - Rare: https://www.tcgdex.net/database/xy/xy9/3
+	 * - Rare Holo: https://www.tcgdex.net/database/Platinum/Platinum/1-Ampharos
+	 * - Rare Holo LV.X: https://www.tcgdex.net/database/Platinum/Platinum/122-Dialga-G
 	 * - Secret Rare: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/73-Alcremie-VMAX
 	 * - Shiny rare: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/SV001-Rowlet
 	 * - Shiny rare V: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/SV105-Rillaboom-V
@@ -113,9 +115,10 @@ export interface Card {
 	rarity: 'Amazing Rare' | 'Classic Collection' | 'Common' | 'Double rare' |
 			'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
 			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' |
-			'Illustration rare' | 'None' | 'Radiant Rare' | 'Rare' |
-			'Secret Rare' | 'Shiny rare' | 'Shiny rare V' | 'Shiny rare VMAX' |
-			'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
+			'Illustration rare' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' |
+			'Rare Holo LV.X' | 'Secret Rare' | 'Shiny rare' |
+			'Shiny rare V' | 'Shiny rare VMAX' | 'Special illustration rare' |
+			'Ultra Rare' | 'Uncommon'
 
 	/**
 	 * Card Category

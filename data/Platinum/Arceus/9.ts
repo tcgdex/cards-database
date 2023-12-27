@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Schlukwech"
 	},
 	illustrator: "Aya Kusube",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

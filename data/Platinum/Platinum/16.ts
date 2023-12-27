@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Letarking"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

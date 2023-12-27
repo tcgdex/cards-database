@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Bojelin GL"
 	},
 	illustrator: "Midori Harada",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

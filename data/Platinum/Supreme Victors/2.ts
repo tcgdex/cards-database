@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Lohgock FB"
 	},
 	illustrator: "Motofumi Fujiwara",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

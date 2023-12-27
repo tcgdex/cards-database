@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Gyarados",
 	},
 	illustrator: undefined,
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

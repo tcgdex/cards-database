@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Drifzepeli FB"
 	},
 	illustrator: "Lee HyunJung",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

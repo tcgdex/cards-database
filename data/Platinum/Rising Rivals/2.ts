@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Bollterus GL"
 	},
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

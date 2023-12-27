@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Tangoloss"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

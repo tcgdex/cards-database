@@ -106,6 +106,12 @@
 				"Rare": {
 					"type": "string"
 				},
+				"Rare Holo": {
+					"type": "string"
+				},
+				"Rare Holo LV.X": {
+					"type": "string"
+				},
 				"Secret Rare": {
 					"type": "string"
 				},
@@ -143,6 +149,8 @@
 				"None",
 				"Radiant Rare",
 				"Rare",
+				"Rare Holo",
+				"Rare Holo LV.X",
 				"Secret Rare",
 				"Shiny rare",
 				"Shiny rare V",
