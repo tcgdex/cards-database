@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "aky CG Works",
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Colorless"],

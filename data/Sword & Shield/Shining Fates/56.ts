@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],

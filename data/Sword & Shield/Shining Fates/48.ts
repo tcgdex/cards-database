@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
