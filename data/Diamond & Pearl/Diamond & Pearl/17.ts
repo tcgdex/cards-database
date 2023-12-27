@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Chelterrar"
 	},
 	illustrator: "Masahiko Ishii",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

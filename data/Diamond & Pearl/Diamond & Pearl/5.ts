@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Panferno"
 	},
 	illustrator: "Nakaoka",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
