@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Rotom"
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

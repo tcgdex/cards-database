@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Magnezone"
 	},
 	illustrator: "Tomoaki Imakuni",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

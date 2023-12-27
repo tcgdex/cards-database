@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Gastrodon Westliches Meer"
 	},
 	illustrator: "Kazuyuki Kano",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

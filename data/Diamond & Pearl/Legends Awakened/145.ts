@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Rihornior"
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Rare",
+	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
 
 	set: Set,

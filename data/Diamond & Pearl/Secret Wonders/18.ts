@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Brutalanda"
 	},
 	illustrator: "Kazuyuki Kano",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
