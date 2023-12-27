@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Gewaldro"
 	},
 	illustrator: "Suwama Chiaki",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

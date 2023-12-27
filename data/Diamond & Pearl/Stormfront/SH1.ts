@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Driftlon"
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
 
 	set: Set,
