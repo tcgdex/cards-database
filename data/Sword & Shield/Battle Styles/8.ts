@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mina Nakai",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
