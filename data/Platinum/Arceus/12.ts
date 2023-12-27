@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Zapdos G"
 	},
 	illustrator: "Ryota Saito",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

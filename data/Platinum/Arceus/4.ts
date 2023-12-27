@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Kabutops"
 	},
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

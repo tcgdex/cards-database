@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Toxiquak"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

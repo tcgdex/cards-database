@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Heatran"
 	},
 	illustrator: "Keiko Moritsugu",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

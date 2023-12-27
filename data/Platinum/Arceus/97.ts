@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Gengar"
 	},
 	illustrator: "Shizurow",
-	rarity: "Rare",
+	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
 
 	set: Set,
