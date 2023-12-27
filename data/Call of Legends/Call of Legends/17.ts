@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Vulnona"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

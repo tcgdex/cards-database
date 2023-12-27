@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Palkia"
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

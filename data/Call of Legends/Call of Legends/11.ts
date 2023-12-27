@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Jirachi"
 	},
 	illustrator: "match",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

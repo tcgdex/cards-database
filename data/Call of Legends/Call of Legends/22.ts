@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Nachtara"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

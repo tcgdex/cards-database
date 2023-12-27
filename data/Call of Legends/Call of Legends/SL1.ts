@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Deoxys"
 	},
 	illustrator: "Noriko Hotta",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

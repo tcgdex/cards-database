@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Dialga"
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

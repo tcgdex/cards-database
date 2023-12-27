@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Farbeagle"
 	},
 	illustrator: "Midori Harada",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
