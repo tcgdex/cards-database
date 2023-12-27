@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Rayquaza C"
 	},
 	illustrator: "kawayoo",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

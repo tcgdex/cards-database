@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Staraptor FB"
 	},
 	illustrator: "Hiroki Fuchino",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

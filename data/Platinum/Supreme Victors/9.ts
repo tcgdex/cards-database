@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Regigigas FB"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Absol G"
 	},
 	illustrator: "Yusuke Ishikawa",
-	rarity: "Rare",
+	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
 
 	set: Set,
