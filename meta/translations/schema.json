@@ -64,7 +64,7 @@
 		},
 		"rarity": {
 			"properties": {
-				"Amazing": {
+				"Amazing Rare": {
 					"type": "string"
 				},
 				"Classic Collection": {
@@ -109,6 +109,15 @@
 				"Secret Rare": {
 					"type": "string"
 				},
+				"Shiny Rare": {
+					"type": "string"
+				},
+				"Shiny Rare V": {
+					"type": "string"
+				},
+				"Shiny Rare VMAX": {
+					"type": "string"
+				},
 				"Special illustration rare": {
 					"type": "string"
 				},
@@ -120,7 +129,7 @@
 				}
 			},
 			"required": [
-				"Amazing",
+				"Amazing Rare",
 				"Classic Collection",
 				"Common",
 				"Double rare",
@@ -135,6 +144,9 @@
 				"Radiant Rare",
 				"Rare",
 				"Secret Rare",
+				"Shiny rare",
+				"Shiny rare V",
+				"Shiny rare VMAX",
 				"Special illustration rare",
 				"Ultra Rare",
 				"Uncommon"

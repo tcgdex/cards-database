@@ -18,7 +18,7 @@
 		"Special": "Especial"
 	},
 	"rarity": {
-		"Amazing": "Increíbles",
+		"Amazing Rare": "Increíbles",
 		"Classic Collection": "Colección Clásica",
 		"Common": "Commún",
 		"Double rare": "Rara Doble",
@@ -33,6 +33,9 @@
 		"Radiant Rare": "Rara Radiante",
 		"Rare": "Rara",
 		"Secret Rare": "Rara Secreto",
+		"Shiny rare": "Shiny rare",
+		"Shiny rare V": "Shiny rare V",
+		"Shiny rare VMAX": "Shiny rare VMAX",
 		"Special illustration rare": "Rara Ilustración Especial",
 		"Ultra Rare": "Rara Ultra",
 		"Uncommon": "Uncommon"

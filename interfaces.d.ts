@@ -82,22 +82,40 @@ export interface Card {
 	/**
 	 * Card Rarity
 	 *
-	 * - None https://www.tcgdex.net/database/sm/smp/SM01
-	 * - Common https://www.tcgdex.net/database/xy/xy9/1
-	 * - Uncommon https://www.tcgdex.net/database/xy/xy9/2
-	 * - Rare https://www.tcgdex.net/database/xy/xy9/3
-	 * - Ultra Rare https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/18-Cinderace-V
-	 * - Secret Rare https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/73-Alcremie-VMAX
-	 * - Amazing https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/17-Reshiram
+	 * notes:
+	 *
+	 * - Currently in the work to be coherent with the official card lists
+	 * - the rarities Shiny rare V and Shiny rare VMAX are one rarity in the official but separated in the API
+	 *
+	 * Examples (link should be up to date):
+	 * - Amazing Rare: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/17-Reshiram
+	 * - Classic Collection: https://www.tcgdex.net/database/Sword-&-Shield/Celebrations/2A-Blastoise
+	 * - Common: https://www.tcgdex.net/database/xy/xy9/1
+	 * - Double rare: https://www.tcgdex.net/database/Scarlet-&-Violet/151/003-Venusaur-ex
+	 * - Full Art Trainer: https://www.tcgdex.net/database/Sword-&-Shield/Silver-Tempest/TG01-Braixen
+	 * - Holo Rare: https://www.tcgdex.net/database/Sword-&-Shield/Astral-Radiance/014-Shaymin
+	 * - Holo Rare V: https://www.tcgdex.net/database/Sword-&-Shield/Darkness-Ablaze/1-Butterfree-V
+	 * - Holo Rare VMAX: https://www.tcgdex.net/database/Sword-&-Shield/Darkness-Ablaze/2-Butterfree-VMAX
+	 * - Holo Rare VSTAR: https://www.tcgdex.net/database/Sword-&-Shield/Astral-Radiance/018-Hisuian-Lilligant-VSTAR
+	 * - Hyper rare: https://www.tcgdex.net/database/Scarlet-&-Violet/151/205-Mew-ex
+	 * - Illustration rare: https://www.tcgdex.net/database/Scarlet-&-Violet/151/166-Bulbasaur
+	 * - None: https://www.tcgdex.net/database/sm/smp/SM01
+	 * - Radiant Rare: https://www.tcgdex.net/database/Sword-&-Shield/Silver-Tempest/016-Radiant-Tsareena
+	 * - Rare: https://www.tcgdex.net/database/xy/xy9/3
+	 * - Secret Rare: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/73-Alcremie-VMAX
+	 * - Shiny rare: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/SV001-Rowlet
+	 * - Shiny rare V: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/SV105-Rillaboom-V
+	 * - Shiny rare VMAX: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/SV106-Rillaboom-VMAX
+	 * - Special illustration rare: https://www.tcgdex.net/database/Scarlet-&-Violet/151/198-Venusaur-ex
+	 * - Ultra Rare: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/18-Cinderace-V
+	 * - Uncommon: https://www.tcgdex.net/database/Sword-&-Shield/Darkness-Ablaze/136-Furret
 	 */
-	rarity: 'None' | 'Common' | 'Uncommon' |
-			'Rare' | 'Holo Rare' | 'Ultra Rare' |
-			'Holo Rare V' | 'Holo Rare VMAX' | 'Secret Rare' |
-			'Amazing Rare' | 'Radiant Rare' | 'Holo Rare VSTAR' |
-			'Classic Collection' | 'Double rare' |
-			'Illustration rare' | 'Special illustration rare' |
-			'Hyper rare' | 'Full Art Trainer' | 'Shiny rare' |
-			'Shiny rare V' | 'Shiny rare VMAX'
+	rarity: 'Amazing Rare' | 'Classic Collection' | 'Common' | 'Double rare' |
+			'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
+			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' |
+			'Illustration rare' | 'None' | 'Radiant Rare' | 'Rare' |
+			'Secret Rare' | 'Shiny rare' | 'Shiny rare V' | 'Shiny rare VMAX' |
+			'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
 
 	/**
 	 * Card Category
