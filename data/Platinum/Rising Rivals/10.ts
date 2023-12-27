@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Traunmagil GL"
 	},
 	illustrator: "Naoyo Kimura",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

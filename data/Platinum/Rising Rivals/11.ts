@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Rameidon GL"
 	},
 	illustrator: "Suwama Chiaki",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
