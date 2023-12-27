@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Magnezone V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Lightning"],

@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Regigigas VSTAR"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Colorless"],

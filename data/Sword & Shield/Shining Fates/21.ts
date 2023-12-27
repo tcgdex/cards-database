@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
-	rarity: "Amazing",
+	rarity: "Amazing Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],

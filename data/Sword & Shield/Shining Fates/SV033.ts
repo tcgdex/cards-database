@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yumi",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Water"],

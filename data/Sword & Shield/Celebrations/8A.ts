@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Ultra Rare",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],

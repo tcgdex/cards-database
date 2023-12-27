@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Rotom V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Mochizuki",
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Fire"],

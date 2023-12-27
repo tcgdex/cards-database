@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Glurak"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fire"],

@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Aquana VMAX"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Water"],

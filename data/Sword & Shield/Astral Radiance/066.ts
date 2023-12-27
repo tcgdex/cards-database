@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Vesprit"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

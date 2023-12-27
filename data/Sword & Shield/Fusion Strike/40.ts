@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Skelabra VMAX"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fire"],

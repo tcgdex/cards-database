@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Alola Vulpix-VSTAR"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Water"],

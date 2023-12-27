@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Letarking"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Colorless"],

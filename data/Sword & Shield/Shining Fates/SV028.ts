@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "otumami",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Water"],

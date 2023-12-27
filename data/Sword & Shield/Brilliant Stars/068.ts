@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Mimigma V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Psychic"],

@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Heiteira"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Colorless"],

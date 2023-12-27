@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Folipurba VSTAR"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Grass"],

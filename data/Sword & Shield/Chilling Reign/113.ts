@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryota Murayama",
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Metal"],

@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Hisui-Tornupto V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Psychic"],

@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Bissbark V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Colorless"],

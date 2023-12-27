@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Satoshi Shirai",
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Grass"],

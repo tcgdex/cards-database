@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Tomokazu Komiya",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],

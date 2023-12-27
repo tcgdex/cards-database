@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Ultra Rare",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],

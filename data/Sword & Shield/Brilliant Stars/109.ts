@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Knakrack"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Dragon"],

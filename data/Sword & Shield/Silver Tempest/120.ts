@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Strahlendes Jirachi"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Metal"],

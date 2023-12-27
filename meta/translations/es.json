@@ -1,13 +1,12 @@
 {
-	"$schema": "./schema.json",
 	"__comment__": "Missing some abilityTypes and some Trainer Types",
+	"$schema": "./schema.json",
 	"abilityType": {
 		"Ability": "Habilidad",
 		"Ancient Trait": "Ancient Trait",
 		"Poke-BODY": "Poke-BODY",
 		"Poke-POWER": "Poke-POWER",
 		"Pokemon Power": "Pokemon Power"
-
 	},
 	"category": {
 		"Energy": "Energía",
@@ -19,29 +18,39 @@
 		"Special": "Especial"
 	},
 	"rarity": {
-		"Amazing": "Increíbles",
+		"Amazing Rare": "Increíbles",
+		"Classic Collection": "Colección Clásica",
 		"Common": "Commún",
+		"Double rare": "Rara Doble",
+		"Full Art Trainer": "Entrenador de arte completo",
+		"Holo Rare": "Rara Holo",
+		"Holo Rare V": "Rara Holo V",
+		"Holo Rare VMAX": "Rara Holo VMAX",
+		"Holo Rare VSTAR": "Rara Holo VSTAR",
+		"Hyper rare": "Rara Híper",
+		"Illustration rare": "Rara Ilustración",
 		"None": "Ninguno",
+		"Radiant Rare": "Rara Radiante",
 		"Rare": "Rara",
 		"Secret Rare": "Rara Secreto",
-		"Ultra Rare": "Rara Ultra",
-		"Uncommon": "Uncommon",
-		"Double rare": "Rara Doble",
-		"Illustration rare": "Rara Ilustración",
+		"Shiny rare": "Shiny rare",
+		"Shiny rare V": "Shiny rare V",
+		"Shiny rare VMAX": "Shiny rare VMAX",
 		"Special illustration rare": "Rara Ilustración Especial",
-		"Hyper rare": "Rara Híper"
+		"Ultra Rare": "Rara Ultra",
+		"Uncommon": "Uncommon"
 	},
 	"stage": {
-		"BREAK": "TURBO",
+		"Baby": "Bebé",
 		"Basic": "Basico",
+		"BREAK": "TURBO",
 		"LEVEL-UP": "Subir de nivel",
 		"MEGA": "MEGA",
 		"RESTORED": "Recreado",
 		"Stage1": "Fase 1",
 		"Stage2": "Fase 2",
-		"VMAX": "VMAX",
 		"V-UNION": "V-UNION",
-		"Baby": "Bebé",
+		"VMAX": "VMAX",
 		"VSTAR": "V-ASTRO"
 	},
 	"suffix": {

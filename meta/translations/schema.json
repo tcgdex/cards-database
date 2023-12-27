@@ -1,9 +1,7 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"type": "object",
 	"properties": {
 		"abilityType": {
-			"type": "object",
 			"properties": {
 				"Ability": {
 					"type": "string"
@@ -27,10 +25,10 @@
 				"Poke-BODY",
 				"Poke-POWER",
 				"Pokemon Power"
-			]
+			],
+			"type": "object"
 		},
 		"category": {
-			"type": "object",
 			"properties": {
 				"Energy": {
 					"type": "string"
@@ -46,10 +44,10 @@
 				"Energy",
 				"Pokemon",
 				"Trainer"
-			]
+			],
+			"type": "object"
 		},
 		"energyType": {
-			"type": "object",
 			"properties": {
 				"Normal": {
 					"type": "string"
@@ -61,18 +59,48 @@
 			"required": [
 				"Normal",
 				"Special"
-			]
+			],
+			"type": "object"
 		},
 		"rarity": {
-			"type": "object",
 			"properties": {
-				"Amazing": {
+				"Amazing Rare": {
+					"type": "string"
+				},
+				"Classic Collection": {
 					"type": "string"
 				},
 				"Common": {
 					"type": "string"
 				},
+				"Double rare": {
+					"type": "string"
+				},
+				"Full Art Trainer": {
+					"type": "string"
+				},
+				"Holo Rare": {
+					"type": "string"
+				},
+				"Holo Rare V": {
+					"type": "string"
+				},
+				"Holo Rare VMAX": {
+					"type": "string"
+				},
+				"Holo Rare VSTAR": {
+					"type": "string"
+				},
+				"Hyper rare": {
+					"type": "string"
+				},
+				"Illustration rare": {
+					"type": "string"
+				},
 				"None": {
+					"type": "string"
+				},
+				"Radiant Rare": {
 					"type": "string"
 				},
 				"Rare": {
@@ -81,46 +109,59 @@
 				"Secret Rare": {
 					"type": "string"
 				},
-				"Ultra Rare": {
+				"Shiny Rare": {
 					"type": "string"
 				},
-				"Uncommon": {
+				"Shiny Rare V": {
 					"type": "string"
 				},
-				"Double rare": {
-					"type": "string"
-				},
-				"Illustration rare": {
+				"Shiny Rare VMAX": {
 					"type": "string"
 				},
 				"Special illustration rare": {
 					"type": "string"
 				},
-				"Hyper rare": {
+				"Ultra Rare": {
+					"type": "string"
+				},
+				"Uncommon": {
 					"type": "string"
 				}
 			},
 			"required": [
-				"Amazing",
+				"Amazing Rare",
+				"Classic Collection",
 				"Common",
+				"Double rare",
+				"Full Art Trainer",
+				"Holo Rare",
+				"Holo Rare V",
+				"Holo Rare VMAX",
+				"Holo Rare VSTAR",
+				"Hyper rare",
+				"Illustration rare",
 				"None",
+				"Radiant Rare",
 				"Rare",
 				"Secret Rare",
-				"Ultra Rare",
-				"Uncommon",
-				"Double rare",
-				"Illustration rare",
+				"Shiny rare",
+				"Shiny rare V",
+				"Shiny rare VMAX",
 				"Special illustration rare",
-				"Hyper rare"
-			]
+				"Ultra Rare",
+				"Uncommon"
+			],
+			"type": "object"
 		},
 		"stage": {
-			"type": "object",
 			"properties": {
-				"BREAK": {
+				"Baby": {
 					"type": "string"
 				},
 				"Basic": {
+					"type": "string"
+				},
+				"BREAK": {
 					"type": "string"
 				},
 				"LEVEL-UP": {
@@ -138,13 +179,10 @@
 				"Stage2": {
 					"type": "string"
 				},
-				"VMAX": {
-					"type": "string"
-				},
 				"V-UNION": {
 					"type": "string"
 				},
-				"Baby": {
+				"VMAX": {
 					"type": "string"
 				},
 				"VSTAR": {
@@ -163,10 +201,10 @@
 				"V-UNION",
 				"Baby",
 				"VSTAR"
-			]
+			],
+			"type": "object"
 		},
 		"suffix": {
-			"type": "object",
 			"properties": {
 				"EX": {
 					"type": "string"
@@ -198,10 +236,10 @@
 				"SP",
 				"TAG TEAM-GX",
 				"V"
-			]
+			],
+			"type": "object"
 		},
 		"trainerType": {
-			"type": "object",
 			"properties": {
 				"Ace Spec": {
 					"type": "string"
@@ -237,10 +275,10 @@
 				"Supporter",
 				"Technical Machine",
 				"Tool"
-			]
+			],
+			"type": "object"
 		},
 		"types": {
-			"type": "object",
 			"properties": {
 				"Colorless": {
 					"type": "string"
@@ -288,7 +326,8 @@
 				"Metal",
 				"Psychic",
 				"Water"
-			]
+			],
+			"type": "object"
 		}
 	},
 	"required": [
@@ -300,5 +339,6 @@
 		"suffix",
 		"trainerType",
 		"types"
-	]
+	],
+	"type": "object"
 }

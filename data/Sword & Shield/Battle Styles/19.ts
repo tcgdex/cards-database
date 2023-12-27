@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Tsuji",
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Grass"],

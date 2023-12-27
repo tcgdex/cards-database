@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Mewtu VSTAR"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Psychic"],

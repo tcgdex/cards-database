@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Papungha"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],

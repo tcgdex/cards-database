@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Dialga"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Dragon"],

@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Ultra Rare",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],

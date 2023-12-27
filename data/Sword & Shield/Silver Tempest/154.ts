@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Erd-Siegelstein"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Trainer",
 
 	effect: {

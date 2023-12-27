@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Hisui-Dressella V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Grass"],

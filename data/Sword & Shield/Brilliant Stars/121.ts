@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Bidifas"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hasuno",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Metal"],

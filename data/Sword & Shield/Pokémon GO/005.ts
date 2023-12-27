@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Alola-Kokowei V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Grass"],

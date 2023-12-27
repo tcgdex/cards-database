@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Water"],

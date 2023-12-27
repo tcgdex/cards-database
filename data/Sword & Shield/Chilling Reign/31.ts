@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Taira Akitsu",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],

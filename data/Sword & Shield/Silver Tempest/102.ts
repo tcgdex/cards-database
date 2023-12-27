@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Ursaluna V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Fighting"],

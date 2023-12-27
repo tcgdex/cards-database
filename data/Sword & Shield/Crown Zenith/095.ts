@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Zacian V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Metal"],

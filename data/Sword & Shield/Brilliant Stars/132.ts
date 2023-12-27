@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Befehl vom Boss"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Trainer",
 
 	effect: {

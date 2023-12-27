@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Hisui Viscogon-V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Dragon"],

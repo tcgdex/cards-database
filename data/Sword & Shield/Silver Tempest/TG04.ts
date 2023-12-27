@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Rossana"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Psychic"],

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Tsuji",
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Psychic"],

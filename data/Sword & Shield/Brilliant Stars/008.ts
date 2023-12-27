@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Chelterrar"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Grass"],

@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Garados"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Water"],

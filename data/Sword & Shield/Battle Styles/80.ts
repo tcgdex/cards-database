@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "AKIRA EGAWA",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fighting"],

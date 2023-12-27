@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Thanathora"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],

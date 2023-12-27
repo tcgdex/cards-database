@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 	hp: 120,

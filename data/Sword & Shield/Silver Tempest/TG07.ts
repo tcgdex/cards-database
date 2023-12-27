@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Wuffels"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fighting"],
