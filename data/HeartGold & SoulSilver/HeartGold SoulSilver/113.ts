@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shinji Higuchi",
-	rarity: "Ultra Rare",
+	rarity: "LEGEND",
 	category: "Pokemon",
 	set: Set,
 
