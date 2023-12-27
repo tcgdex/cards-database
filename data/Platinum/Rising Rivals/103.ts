@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Simsala 4"
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Rare Holo L.X",
+	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
 
 	set: Set,
