@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Giovanni's Nidoking",
 	},
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Koga's Ditto",
 	},
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
