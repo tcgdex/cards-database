@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Demeteros"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],

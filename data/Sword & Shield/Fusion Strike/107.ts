@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Riffex"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],
