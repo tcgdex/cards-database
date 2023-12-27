@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shizurow",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
