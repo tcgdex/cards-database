@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare V",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Grass"],

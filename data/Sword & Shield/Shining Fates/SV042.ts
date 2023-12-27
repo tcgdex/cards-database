@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],

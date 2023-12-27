@@ -90,7 +90,14 @@ export interface Card {
 	 * - Secret Rare https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/73-Alcremie-VMAX
 	 * - Amazing https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/17-Reshiram
 	 */
-	rarity: 'None' | 'Common' | 'Uncommon' | 'Rare' | 'Holo Rare' | 'Ultra Rare' | 'Holo Rare V' | 'Holo Rare VMAX' | 'Secret Rare' | 'Amazing Rare' | 'Radiant Rare' | 'Holo Rare VSTAR' | 'Classic Collection' | 'Double rare' | 'Illustration rare' | 'Special illustration rare' | 'Hyper rare' | 'Full Art Trainer'
+	rarity: 'None' | 'Common' | 'Uncommon' |
+			'Rare' | 'Holo Rare' | 'Ultra Rare' |
+			'Holo Rare V' | 'Holo Rare VMAX' | 'Secret Rare' |
+			'Amazing Rare' | 'Radiant Rare' | 'Holo Rare VSTAR' |
+			'Classic Collection' | 'Double rare' |
+			'Illustration rare' | 'Special illustration rare' |
+			'Hyper rare' | 'Full Art Trainer' | 'Shiny rare' |
+			'Shiny rare V' | 'Shiny rare VMAX'
 
 	/**
 	 * Card Category

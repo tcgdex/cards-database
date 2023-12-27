@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "SATOSHI NAKAI",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Darkness"],

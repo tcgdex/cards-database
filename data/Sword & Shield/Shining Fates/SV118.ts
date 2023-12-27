@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saki Hayashiro",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare V",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Colorless"],

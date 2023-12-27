@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "MAHOU",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
