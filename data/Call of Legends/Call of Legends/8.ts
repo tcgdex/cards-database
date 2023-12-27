@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Kapoera"
 	},
 	illustrator: "Shigenori Negishi",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
