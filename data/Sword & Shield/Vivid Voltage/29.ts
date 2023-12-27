@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryota Murayama",
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	set: Set,
 	hp: 190,

@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Amazing",
+	rarity: "Amazing Rare",
 	category: "Pokemon",
 	set: Set,
 	hp: 120,

@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "NC Empire",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 	hp: 130,
