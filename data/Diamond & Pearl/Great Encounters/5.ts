@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Pachirisu"
 	},
 	illustrator: "Hironobu Yoshida",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
