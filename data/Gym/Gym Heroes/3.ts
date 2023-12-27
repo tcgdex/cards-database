@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Erika's Clefable",
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

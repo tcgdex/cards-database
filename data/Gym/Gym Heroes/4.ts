@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Erika's Dragonair",
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

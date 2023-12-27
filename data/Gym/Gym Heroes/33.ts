@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Rocket's Snorlax",
 	},
 	illustrator: "Shin-ichi Yoshida",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
