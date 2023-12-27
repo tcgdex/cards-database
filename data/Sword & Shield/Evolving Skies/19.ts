@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Entei"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],

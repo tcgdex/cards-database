@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Galar-Zapdos"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fighting"],

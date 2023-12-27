@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Kappalores"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Water"],

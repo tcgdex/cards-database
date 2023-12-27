@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Golgantes V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Psychic"],

@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Victini"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fire"],
