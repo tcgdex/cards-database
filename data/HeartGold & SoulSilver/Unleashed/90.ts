@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shinji Higuchi + Sachiko Eba 樋口 真嗣 + 江場 左知子",
-	rarity: "Ultra Rare",
+	rarity: "LEGEND",
 	category: "Pokemon",
 	set: Set,
 

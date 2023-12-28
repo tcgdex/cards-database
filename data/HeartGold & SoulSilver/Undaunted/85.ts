@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Noriko Hotta",
-	rarity: "Ultra Rare",
+	rarity: "Rare PRIME",
 	category: "Pokemon",
 	set: Set,
 
