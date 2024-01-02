@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"scripts": {
-		"compile": "tsc --project tsconfig.json"
+		"validate": "tsc --noEmit --project tsconfig.json"
 	},
 	"devDependencies": {
 		"@types/node": "^18",
