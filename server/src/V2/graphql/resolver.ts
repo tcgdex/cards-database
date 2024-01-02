@@ -10,11 +10,15 @@ const middleware = (fn: (lang: SupportedLanguages, query: Query) => any) => (
 	_: any,
 	e: any
 ) => {
-
-	console.log(data)
-
 	// get the locale directive
 	const langArgument = e?.fieldNodes?.[0]?.directives?.[0]?.arguments?.[0]?.value
+
+	// Deprecated code handling
+	// @ts-expect-error count is deprectaed in the frontend
+	if (data.pagination?.count) {
+		// @ts-expect-error count is deprectaed in the frontend
+		data.pagination.itemsPerPage = data.pagination.count
+	}
 
 	// if there is no locale directive
 	if (!langArgument) {

@@ -105,35 +105,42 @@ export function validateItem(validator: any | Array<any>, value: any): boolean {
  */
 export function handleSort(data: Array<any>, query: Query<any>) {
 	const sort: Query<any>['sort'] = query.sort ?? {field: 'id', order: 'ASC'}
+	const field = sort.field
+	const order = sort.order ?? 'ASC'
 	const firstEntry = data[0]
 
 	// early exit if the order is not correctly set
-	if (sort.order !== 'ASC' && sort.order !== 'DESC') {
-		console.warn('Sort order is not valid', sort.order)
+	if (order !== 'ASC' && order !== 'DESC') {
+		console.warn('Sort order is not valid', order)
 		return data
 	}
 
-	console.log('pouet', sort)
-
-	if (!(sort.field in firstEntry)) {
+	if (!(field in firstEntry)) {
 		return data
 	}
-	const sortType = typeof data[0][sort.field]
+	const sortType = typeof data[0][field]
 	if (sortType === 'number') {
-		if (sort.order === 'ASC') {
-			return data.sort((a, b) => a[sort.field] - b[sort.field])
+		if (order === 'ASC') {
+			return data.sort((a, b) => a[field] - b[field])
 		} else {
-			return data.sort((a, b) => b[sort.field] - a[sort.field])
+			return data.sort((a, b) => b[field] - a[field])
 		}
 	} else {
-		if (sort.order === 'ASC') {
-			return data.sort((a, b) => a[sort.field] > b[sort.field] ? 1 : -1)
+		if (order === 'ASC') {
+			return data.sort((a, b) => a[field] > b[field] ? 1 : -1)
 		} else {
-			return data.sort((a, b) => a[sort.field] > b[sort.field] ? -1 : 1)
+			return data.sort((a, b) => a[field] > b[field] ? -1 : 1)
 		}
 	}
 }
 
+/**
+ * filter data out to make it paginated
+ *
+ * @param data the data to paginate
+ * @param query the query
+ * @returns the data that is in the paginated query
+ */
 export function handlePagination(data: Array<any>, query: Query<any>) {
 	if (!query.pagination) {
 		return data
@@ -148,6 +155,13 @@ export function handlePagination(data: Array<any>, query: Query<any>) {
 	)
 }
 
+/**
+ * filter the data using the specified query
+ *
+ * @param data the data to validate
+ * @param query the query to validate against
+ * @returns the filtered data
+ */
 export function handleValidation(data: Array<any>, query: Query) {
 	const filters = query.filters
 	if (!filters) {
