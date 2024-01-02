@@ -11,7 +11,7 @@ const router = express.Router()
  * Drawbacks
  * Attack.damage is a string instead of possibly being a number or a string
  */
-const schema = buildSchema(fs.readFileSync('./public/v2/graphql.gql').toString())
+const schema = buildSchema(fs.readFileSync('./public/v2/graphql.gql', 'utf-8'))
 
 // Error Logging for debugging
 function graphQLErrorHandle(error: GraphQLError) {
@@ -26,19 +26,15 @@ function graphQLErrorHandle(error: GraphQLError) {
 	return formatError(error)
 }
 
-// Add graphql to the route
-router.get('/', graphqlHTTP({
+const graphql = graphqlHTTP({
 	schema,
 	rootValue: resolver,
 	graphiql: true,
 	customFormatErrorFn: graphQLErrorHandle
-}))
+})
 
-router.post('/', graphqlHTTP({
-	schema,
-	rootValue: resolver,
-	graphiql: true,
-	customFormatErrorFn: graphQLErrorHandle
-}))
+// Add graphql to the route
+router.get('/', graphql)
+router.post('/', graphql)
 
 export default router

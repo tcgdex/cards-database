@@ -1,7 +1,7 @@
 import express from 'express'
-import status from './status'
 import jsonEndpoints from './V2/endpoints/jsonEndpoints'
 import graphql from './V2/graphql'
+import status from './status'
 // Current API version
 const VERSION = 2
 
@@ -32,7 +32,7 @@ server.use((req, res, next) => {
 })
 
 server.get('/', (_, res) => {
-	res.redirect('https://www.tcgdex.dev/?ref=api.tcgdex.net')
+	res.redirect('https://www.tcgdex.dev/?ref=api.tccgdex.net')
 })
 
 server.use(express.static('./public'))

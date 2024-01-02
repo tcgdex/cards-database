@@ -1,15 +1,17 @@
+import { SupportedLanguages } from '@tcgdex/sdk'
+import { Query } from '../../interfaces'
+import { checkLanguage } from '../../util'
 import Card from '../Components/Card'
-import { Options } from '../../interfaces'
 import Serie from '../Components/Serie'
 import Set from '../Components/Set'
-import { SupportedLanguages } from '@tcgdex/sdk'
-import { checkLanguage } from '../../util'
 
-const middleware = <Q extends Record<string, any> = Record<string, any>>(fn: (lang: SupportedLanguages, query: Q) => any) => (
-	data: Q,
+const middleware = (fn: (lang: SupportedLanguages, query: Query) => any) => (
+	data: Query,
 	_: any,
 	e: any
 ) => {
+
+	console.log(data)
 
 	// get the locale directive
 	const langArgument = e?.fieldNodes?.[0]?.directives?.[0]?.arguments?.[0]?.value
@@ -37,28 +39,27 @@ const middleware = <Q extends Record<string, any> = Record<string, any>>(fn: (la
 
 export default {
 	// Cards Endpoints
-	cards: middleware<Options<keyof Card['card']>>((lang, query) => {
-		return Card.find(lang, query.filters ?? {}, query.pagination)
+	cards: middleware((lang, query) => {
+		return Card.find(lang, query)
 	}),
-	card: middleware<{set?: string, id: string}>((lang, query) => {
-		const toSearch = query.set ? 'localId' : 'id'
-		return Card.findOne(lang, {[toSearch]: query.id})
+	card: middleware((lang, query) => {
+		return Card.findOne(lang, query)
 	}),
 
 	// Set Endpoints
-	set: middleware<{id: string}>((lang, query) => {
-		return Set.findOne(lang, {id: query.id}) ?? Set.findOne(lang, {name: query.id})
+	set: middleware((lang, query) => {
+		return Set.findOne(lang, query)
 	}),
-	sets: middleware<Options<keyof Set['set']>>((lang, query) => {
-		return Set.find(lang, query.filters ?? {}, query.pagination)
+	sets: middleware((lang, query) => {
+		return Set.find(lang, query)
 	}),
 
 	// Serie Endpoints
-	serie: middleware<{id: string}>((lang, query) => {
-		return Serie.findOne(lang, {id: query.id}) ?? Serie.findOne(lang, {name: query.id})
+	serie: middleware((lang, query) => {
+		return Serie.findOne(lang, query)
 	}),
-	series: middleware<Options<keyof Serie['serie']>>((lang, query) => {
-		return Serie.find(lang, query.filters ?? {}, query.pagination)
+	series: middleware((lang, query) => {
+		return Serie.find(lang, query)
 	}),
 
 };
