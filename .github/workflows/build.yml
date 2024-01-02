@@ -17,13 +17,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
-
-    - name: Setup BunJS
-      uses: oven-sh/setup-bun@v1
-
-    - name: Validate the data
-      run: bun run validate
-
     - name: Docker meta
       id: meta
       uses: docker/metadata-action@v5
