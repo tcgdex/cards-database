@@ -3,10 +3,9 @@
 	"private": true,
 	"main": "dist/index.js",
 	"scripts": {
-		"compile": "ts-node --project ../tsconfig.json compiler/index.ts",
-		"dev": "ts-node-dev -T src/index.ts",
-		"build": "tsc --project tsconfig.json",
-		"start": "node dist/index.js"
+		"compile": "bun compiler/index.ts",
+		"dev": "bun --watch --hot src/index.ts",
+		"start": "bun src/index.ts"
 	},
 	"license": "MIT",
 	"dependencies": {

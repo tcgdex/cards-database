@@ -118,7 +118,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
  * @returns [the local id, the Card object]
  */
 export async function getCard(serie: string, setName: string, id: string): Promise<Card> {
-	return (await import(`../../${DB_PATH}/data/${serie}/${setName}/${id}.js`)).default
+	return (await import(`../../${DB_PATH}/data/${serie}/${setName}/${id}.ts`)).default
 }
 
 /**
@@ -128,7 +128,7 @@ export async function getCard(serie: string, setName: string, id: string): Promi
  * @returns An array with the 0 = localId, 1 = Card Object
  */
 export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Array<[string, Card]>> {
-	const cards = await smartGlob(`${DB_PATH}/data/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.js`)
+	const cards = await smartGlob(`${DB_PATH}/data/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.ts`)
 	const list: Array<[string, Card]> = []
 	for (const path of cards) {
 		let items = path.split('/')

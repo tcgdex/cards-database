@@ -1,11 +1,10 @@
 {
 	"private": true,
 	"scripts": {
-		"compile": "tsc --project tsconfig.json"
+		"validate": "tsc --noEmit --project tsconfig.json"
 	},
 	"devDependencies": {
-		"@types/node": "^18",
-		"ts-node": "^10",
-		"typescript": "^4"
+		"@types/node": "^20",
+		"typescript": "^5"
 	}
 }
