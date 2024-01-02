@@ -21,7 +21,7 @@ jobs:
 
     - name: Install deps
       run: |
-        RUN bun install --frozen-lockfile
+        bun install --frozen-lockfile
         cd server
         bun install --frozen-lockfile
 
