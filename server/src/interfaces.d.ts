@@ -26,7 +26,7 @@ export interface Query<T extends {} = {}> {
 	/**
 	 * Filters used in the query
 	 */
-	filters?: Partial<{ [Key in keyof T]: T[Key] | Array<T[Key]> }>
+	filters?: Partial<{ [Key in keyof T]: T[Key] extends object ? string | number | Array<string | number> : T[Key] | Array<T[Key]> }>
 
 	/**
 	 * data sorting

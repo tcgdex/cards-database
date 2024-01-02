@@ -1,7 +1,7 @@
 import { objectLoop } from '@dzeio/object-util'
 import { Serie as SDKSerie, SerieResume, SupportedLanguages } from '@tcgdex/sdk'
-import { Pagination, Query } from '../../interfaces'
-import { handlePagination, handleSort, handleValidation, lightCheck } from '../../util'
+import { Query } from '../../interfaces'
+import { handlePagination, handleSort, handleValidation } from '../../util'
 import Set from './Set'
 
 type LocalSerie = Omit<SDKSerie, 'sets'> & {sets: () => Array<Set>}
