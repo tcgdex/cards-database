@@ -1,10 +1,23 @@
 {
 	"include": ["data", "server/compiler", "interfaces.d.ts"],
 	"compilerOptions": {
-		"target": "es5",
-		"module": "commonjs",
+		"lib": ["ESNext"],
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleDetection": "force",
+		"skipLibCheck": true,
+
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
-		"resolveJsonModule": true
+		"resolveJsonModule": true,
+
+
+		// Bundler mode
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+
+		// disabled because it would produce too much errors
+		"verbatimModuleSyntax": false,
+		"noEmit": true,
 	}
 }
