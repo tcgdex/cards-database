@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Dragoran V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Dragon"],
@@ -58,7 +58,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	variants: {
+		"normal": false,
+		"reverse": false,
+		"holo": true
+	}
 }
 
 export default card

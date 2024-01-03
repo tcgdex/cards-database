@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Deoxys",
 		fr: "Deoxys",
+		de: "Deoxys"
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Cell Storm",
 				fr: "Tempête cellulaire",
+				de: "Zellsturm"
 			},
 			effect: {
 				en: "Discard 2 Psychic Energy attached to Deoxys and remove 6 damage counters from Deoxys.",
 				fr: "Défaussez 2 Énergies Psychic attachées à Deoxys et retirez-lui 6 marqueurs de dégâts.",
+				de: "Lege 2 an Deoxys angelegte -Energien auf deinen Ablagestapel und entferne 6 Schadensmarken von Deoxys."
 			},
 			damage: 60,
 

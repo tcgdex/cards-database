@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Swalot",
 		fr: "Avaltout",
+		de: "Schlukwech"
 	},
 
 	illustrator: "Midori Harada",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Swallow Up",
 				fr: "Engloutir",
+				de: "Runterschlucken"
 			},
 			effect: {
 				en: "Before doing damage, count the remaining HP of the Defending Pokémon and Swalot. If the Defending Pokémon has fewer remaining HP than Swalot's, this attack does 80 damage instead.",
 				fr: "Avant d'infliger des dégâts, comptez le nombre de PV restants au Pokémon Défenseur ainsi qu'à Avaltout. Si le Pokémon Défenseur possède moins de PV qu'Avaltout, cette attaque inflige 80 dégâts.",
+				de: "Bevor der Schaden zugefügt wird, vergleiche die verbliebenen KP von dem Verteidigenden Pokémon und Schlukwech. Wenn das Verteidigende Pokémon weniger verbliebene KP hat als Schlukwech, fügt dieser Angriff 80 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Gunk Shot",
 				fr: "Détricanon",
+				de: "Mülltreffer"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 60,
 

@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Zapdos",
-		fr: "Élector"
+		fr: "Élector",
+		de: "Zapdos"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderstorm",
-				fr: "Orage"
+				fr: "Orage",
+				de: "Thunderstorm"
 			},
 			effect: {
 				en: "For each of your opponent's Benched Pokémon, flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself.",
-				fr: "Pour chacun des Pokémon du Banc de votre adversaire, lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts au Pokémon concerné. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Ensuite, Élector s'inflige 10 dégâts pour chaque pile."
+				fr: "Pour chacun des Pokémon du Banc de votre adversaire, lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts au Pokémon concerné. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Ensuite, Élector s'inflige 10 dégâts pour chaque pile.",
+				de: "For each of your opponent's Benched Pokémon, flip a coin. IF heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself."
 			},
 			damage: 40,
 

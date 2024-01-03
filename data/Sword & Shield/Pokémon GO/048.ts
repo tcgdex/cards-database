@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Melmetal VMAX"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Metal"],
@@ -54,7 +54,12 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "F"
+	regulationMark: "F",
+	variants: {
+		"normal": false,
+		"reverse": false,
+		"holo": true
+	}
 }
 
 export default card

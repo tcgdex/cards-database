@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Croconaw δ",
-		fr: "Crocrodil δ ESPÈCES DELTA"
+		fr: "Crocrodil δ ESPÈCES DELTA",
+		de: "Tyracroc"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Scary Face",
-				fr: "Grimace"
+				fr: "Grimace",
+				de: "Grimasse"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon bis zum Ende des nächsten gegnerischen Zuges weder angreifen noch sich zurückziehen."
 			},
 
 		},
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 50,

@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Jigglypuff",
+		de: "Pummeluff"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap",
+				de: "Nickerchen"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Jigglypuff",
+				de: "Entferne eine Schadensmarke von Pummeluff."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lullaby",
+				de: "Wiegenlied"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 

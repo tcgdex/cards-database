@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Staryu",
-		fr: "Stari"
+		fr: "Stari",
+		de: "Sterndu"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Spinning Attack",
-				fr: "Attaque tournante"
+				fr: "Attaque tournante",
+				de: "Spinning Attack"
 			},
 
 			damage: 20,

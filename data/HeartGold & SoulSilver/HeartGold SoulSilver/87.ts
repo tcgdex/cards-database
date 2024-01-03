@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Vulpix",
 		fr: "Goupix",
+		de: "Vulpix"
 	},
 
 	illustrator: "TOKIYA",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Singe",
 				fr: "Roussir",
+				de: "Versengung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 
 		},
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
+				de: "Glut"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Vulpix.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez-vous d’une carte Énergie Fire attachée à Goupix.",
+				de: "Wirf eine Münze. Bei \"Zahl\" lege 1 an Vulpix angelegte -Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 

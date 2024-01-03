@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Glaziola VMAX"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Water"],

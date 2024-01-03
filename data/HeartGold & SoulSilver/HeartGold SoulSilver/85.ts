@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sunkern",
 		fr: "Tournegrin",
+		de: "Sonnkern"
 	},
 
 	illustrator: "Yuka Morii",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Cure Kernels",
 				fr: "Graines de soin",
+				de: "Heilsamen"
 			},
 			effect: {
 				en: "Remove 2 damage counters from 1 of your Pokémon.",
 				fr: "Retirez 2 marqueurs de dégâts d’un de vos Pokémon.",
+				de: "Entferne 2 Schadensmarken von 1 deiner Pokémon."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Seed Bomb",
 				fr: "Canon graine",
+				de: "Samenbomben"
 			},
 
 			damage: 20,

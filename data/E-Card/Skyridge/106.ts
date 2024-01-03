@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Sunkern",
+		de: "Sonnkern"
 	},
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
+				de: "Walzer"
 			},
 
 			damage: 10,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Blot",
+				de: "Klecks"
 			},
 			effect: {
 				en: "If there are any damage counters on Sunkern, remove 1 of them.",
+				de: "Wenn Schadensmarken auf Sonnkern liegen, entferne 1 von ihnen."
 			},
 			damage: 10,
 

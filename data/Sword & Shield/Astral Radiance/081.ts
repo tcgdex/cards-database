@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Strahlendes Resladero"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],
@@ -60,9 +60,9 @@ const card: Card = {
 	regulationMark: "F",
 
 	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
+		normal: false,
+		reverse: false,
+		holo: true,
 		firstEdition: false
 	}
 }

@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Poliwhirl",
-		fr: "Têtarte"
+		fr: "Têtarte",
+		de: "Quaputzi"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Stream",
-				fr: "Courant d'énergie"
+				fr: "Courant d'énergie",
+				de: "Energiestrom"
 			},
 			effect: {
 				en: "Search your discard pile for a basic Energy card and attach it to Poliwhirl.",
-				fr: "Cherchez dans votre deck une carte Énergie de base et attachez-la à Têtarte."
+				fr: "Cherchez dans votre deck une carte Énergie de base et attachez-la à Têtarte.",
+				de: "Durchsuche deinen Ablagestapel nach einer Basis- Energiekarte und lege sie an Quaputzi an."
 			},
 			damage: 10,
 
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble",
-				fr: "Écume"
+				fr: "Écume",
+				de: "Blubber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 

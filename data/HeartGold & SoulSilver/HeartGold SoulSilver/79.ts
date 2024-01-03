@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sandshrew",
 		fr: "Sabelette",
+		de: "Sandan"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Defense Curl",
 				fr: "Boul’armure",
+				de: "Einigler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Sandshrew by attacks during your opponent’s next turn.",
 				fr: "Lancez une pièce. Si c’est face, évitez tous les dégâts infligés à Sabelette par des attaques pendant le prochain tour de votre adversaire.",
+				de: "Wirf eine Münze. Bei \"Kopf\" verhindere alle Schadenspunkte, die Sandan während des nächsten Zuges deines Gegners durch Angriff zugefügt werden."
 			},
 
 		},
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 10,

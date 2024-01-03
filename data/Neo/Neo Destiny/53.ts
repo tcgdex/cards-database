@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Light Venomoth",
-		fr: "Aéromite lumineux"
+		fr: "Aéromite lumineux",
+		de: "Helles Omot"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mysterious Wing",
-				fr: "Aile mystérieuse"
+				fr: "Aile mystérieuse",
+				de: "Mysterious Wing"
 			},
 			effect: {
 				en: "Your opponent may choose a Baby Pokémon, Basic Pokémon, or Evolution card from his or her discard pile and put it into his or her hand. Either way, you may do the same.",
-				fr: "Votre adversaire peut choisir une carte Bébé Pokémon, Pokémon de base ou Évolution de sa pile de défausse et l'ajouter à sa main. Quelle que soit sa décision, vous pouvez faire de même."
+				fr: "Votre adversaire peut choisir une carte Bébé Pokémon, Pokémon de base ou Évolution de sa pile de défausse et l'ajouter à sa main. Quelle que soit sa décision, vous pouvez faire de même.",
+				de: "Your opponent may choose a Baby Pokémon, Basic Pokémon, or Evolution card from his or her discard pile and put it into his or her hand. Either way, you may do the same."
 			},
 
 		},
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Synchronize",
-				fr: "Synchronisation"
+				fr: "Synchronisation",
+				de: "Synchronize"
 			},
 			effect: {
 				en: "If Light Venomoth and the Defending Pokémon have a different number of Energy cards attached to them, this attack does nothing.",
-				fr: "Si Aéromite lumineux et le Pokémon Défenseur ont un nombre différent de cartes Énergie attachées à eux, cette attaque ne fait rien."
+				fr: "Si Aéromite lumineux et le Pokémon Défenseur ont un nombre différent de cartes Énergie attachées à eux, cette attaque ne fait rien.",
+				de: "If Light Venomoth and the Defending Pokémon have a differenz number of Energy cards attached to them, this attack does nothing."
 			},
 			damage: 40,
 

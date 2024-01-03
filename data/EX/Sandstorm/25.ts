@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Vaporeon",
-		fr: "Aquali"
+		fr: "Aquali",
+		de: "Aquana"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Beam",
-				fr: "Onde boréale"
+				fr: "Onde boréale",
+				de: "Aurora Beam"
 			},
 
 			damage: 30,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Sonic",
-				fr: "Aquasonique"
+				fr: "Aquasonique",
+				de: "Aqua Sonic"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
+				de: "This attack's damage is not affected by Resistance."
 			},
 			damage: 50,
 

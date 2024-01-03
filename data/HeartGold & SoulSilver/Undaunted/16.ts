@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Honchkrow",
 		fr: "Corboss",
+		de: "Kramshef"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Shadow Bind",
 				fr: "Étreinte d’ombre",
+				de: "Schattenbindung"
 			},
 			effect: {
 				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Vengeance",
 				fr: "Vengeance",
+				de: "Rache"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Darkness Pokémon in your discard pile.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chacun des Pokémon Darkness de votre pile de défausse.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes -Pokémon in deinem Ablagestapel zu."
 			},
 			damage: "10+",
 

@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Rocket's Moltres ex",
+		de: "Rockets Lavados ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dark Lift",
+				de: "Dark Lift"
 			},
 			effect: {
 				en: "If Rocket's Moltres ex has any Darkness Energy attached to it, the Retreat Cost for Rocket's Moltres ex is 0.\"",
+				de: "If Rocket's Moltres ex has any  Energy attache to it, the Retread Cost for Rocket's Moltres ex is 0."
 			},
 		},
 	],
@@ -39,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Dance",
+				de: "Fire Dance"
 			},
 			effect: {
 				en: "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.\"",
+				de: "Search your discard pile for a  Energy card and attached it to 1 of your Pokémon."
 			},
 			damage: 30,
 
@@ -54,6 +59,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
+				de: "Combustion"
 			},
 
 			damage: 50,

@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Seaking",
-		fr: "Poissoroy"
+		fr: "Poissoroy",
+		de: "Golking"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -35,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Attack",
-				fr: "Koud'korne"
+				fr: "Koud'korne",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -48,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Waterfall",
-				fr: "Cascade"
+				fr: "Cascade",
+				de: "Kaskade"
 			},
 
 			damage: 30,

@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -43,7 +45,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Pika Bolt",
-				fr: "Pik'éclair"
+				fr: "Pik'éclair",
+				de: "Pikaschuss"
 			},
 
 			damage: 40,

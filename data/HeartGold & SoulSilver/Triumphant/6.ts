@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Nidoking",
 		fr: "Nidoking",
+		de: "Nidoking"
 	},
 
 	illustrator: "match",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Pheromone Stamina",
 				fr: "Endurance aux phéromones",
+				de: "Pheromon-Ausdauer"
 			},
 			effect: {
 				en: "Nidoking gets +20 HP for each Nidoqueen you have in play.",
 				fr: "Nidoking reçoit +20 PV pour chacun de vos Nidoqueen en jeu.",
+				de: "Nidoking erhält +20 KP für jedes deiner Nidoqueen im Spiel."
 			},
 		},
 	],
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Venomous Horn",
 				fr: "Corne venimeuse",
+				de: "Giftiges Horn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 80,
 

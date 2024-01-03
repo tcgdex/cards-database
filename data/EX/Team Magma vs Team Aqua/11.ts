@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Rhydon",
-		fr: "Rhinoféros de Team Magma"
+		fr: "Rhinoféros de Team Magma",
+		de: "Team Magmas Rizeros"
 	},
 	illustrator: "T. Honda",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Magma Jab",
-				fr: "Taquet de Magma"
+				fr: "Taquet de Magma",
+				de: "Magma Jab"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "This attack's damage is not affected by Resistance."
 			},
 			damage: 20,
 
@@ -48,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Shoot Down",
-				fr: "Démolir"
+				fr: "Démolir",
+				de: "Shoot Down"
 			},
 			effect: {
 				en: "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Confused.",
-				fr: "Si le nom du Pokémon Défenseur comporte Team Aqua, le Pokémon Défenseur est maintenant Confus."
+				fr: "Si le nom du Pokémon Défenseur comporte Team Aqua, le Pokémon Défenseur est maintenant Confus.",
+				de: "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Confused."
 			},
 			damage: 50,
 

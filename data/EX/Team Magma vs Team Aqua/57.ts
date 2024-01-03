@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Spheal",
-		fr: "Obalie de Team Aqua"
+		fr: "Obalie de Team Aqua",
+		de: "Team Aquas Seemops"
 	},
 	illustrator: "Nakaoka",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
-				fr: "Roulade"
+				fr: "Roulade",
+				de: "Rollout"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Trance",
-				fr: "Aqua-transe"
+				fr: "Aqua-transe",
+				de: "Aqua Trance"
 			},
 			effect: {
 				en: "At the end of your opponent's next turn, the Defending Pokémon is now Asleep.",
-				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Endormi."
+				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Endormi.",
+				de: "At the end of your opponent's next turn, the Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 

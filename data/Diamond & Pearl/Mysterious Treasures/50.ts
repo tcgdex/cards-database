@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Golbat",
-		fr: "Nosferalto"
+		fr: "Nosferalto",
+		de: "Golbat"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pulse Search",
-				fr: "Recherche de pouls"
+				fr: "Recherche de pouls",
+				de: "Suchimpuls"
 			},
 			effect: {
 				en: "Look at your opponent's hand.",
-				fr: "Regardez la main de votre adversaire."
+				fr: "Regardez la main de votre adversaire.",
+				de: "Schau dir die Handkarten deines Gegners an."
 			},
 			damage: 30,
 

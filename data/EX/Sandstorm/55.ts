@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Xatu",
-		fr: "Xatu"
+		fr: "Xatu",
+		de: "Xatu"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Healing Wind",
-				fr: "Vent guérisseur"
+				fr: "Vent guérisseur",
+				de: "Heilender Wind"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may remove 1 damage counter from each of your Active Pokémon. This power can't be used if Xatu is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez retirer un marqueur de dégât à chacun de vos Pokémon Actifs. Ce pouvoir ne peut pas être utilisé si Xatu est affecté par un État Spécial."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez retirer un marqueur de dégât à chacun de vos Pokémon Actifs. Ce pouvoir ne peut pas être utilisé si Xatu est affecté par un État Spécial.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von jedem deiner Aktiven Pokémon entfernen. Diese Poké-Power kann nicht verwendet werden, falls Xatu von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psyimpact",
-				fr: "Impact psy"
+				fr: "Impact psy",
+				de: "Psieinschlag"
 			},
 			effect: {
 				en: "Put 1 damage counter on each of your opponent's Pokémon.",
-				fr: "Placez un marqueur de dégât sur chacun des Pokémon de votre adversaire."
+				fr: "Placez un marqueur de dégât sur chacun des Pokémon de votre adversaire.",
+				de: "Lege auf jedes Pokémon deines Gegners eine Schadensmarke."
 			},
 
 		},

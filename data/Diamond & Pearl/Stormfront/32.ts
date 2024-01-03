@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Bibarel",
-		fr: "Castorno"
+		fr: "Castorno",
+		de: "Bidifas"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Unaware",
 				fr: "Inconscient",
+				de: "Unkenntnis"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, excluding damage, done to Bibarel.",
 				fr: "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Castorno.",
+				de: "Verhindere alle Effekte von Angriffen, außer Schaden, die Bidifas zugefügt würden."
 			},
 		},
 	],
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Amnesia",
 				fr: "Amnésie",
+				de: "Amnesie"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann im nächsten Zug deines Gegners den gewählten Angriff nicht einsetzen."
 			},
 			damage: 20,
 
@@ -62,6 +67,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				de: "Surfer"
 			},
 
 			damage: 60,

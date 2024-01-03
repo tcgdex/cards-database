@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Unown C",
 		fr: "Zarbi C",
+		de: "Icognito C"
 	},
 
 	illustrator: "Nakaoka",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Call",
 				fr: "CRIER",
+				de: "CALL"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Unown C is on your Bench, you may flip a coin. If heads, search your deck for any 1 Unown and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si Zarbi C est sur votre Banc, vous pouvez lancer une pièce. Si c'est face, choisissez dans votre deck 1 Zarbi et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Icognito C auf deiner Bank liegt, kannst du 1 Münze werfen. Bei \"Kopf\" durchsuche dein Deck nach 1 Icognito-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 		},
 	],
@@ -41,11 +44,12 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Colorless",
+				"Psychic",
 			],
 			name: {
 				en: "Hidden Power",
 				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 10,

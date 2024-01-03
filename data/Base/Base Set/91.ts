@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Bill",
-		fr: "Léo"
+		fr: "Léo",
+		de: "Bill"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Piochez 2 cartes."
+		fr: "Piochez 2 cartes.",
+		de: "Ziehe 2 Karten."
 	}
 }
 

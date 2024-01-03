@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Dewgong",
-		fr: "Lamantine"
+		fr: "Lamantine",
+		de: "Jugong"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -37,7 +38,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Beam",
-				fr: "Onde Boréale"
+				fr: "Onde Boréale",
+				de: "Aurorastrahl"
 			},
 
 			damage: 50,
@@ -52,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ice Beam",
-				fr: "Laser Glace"
+				fr: "Laser Glace",
+				de: "Ice Beam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 

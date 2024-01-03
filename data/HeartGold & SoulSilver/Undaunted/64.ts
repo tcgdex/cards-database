@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Rattata",
 		fr: "Rattata",
+		de: "Rattfratz"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				de: "Nagen"
 			},
 
 			damage: 20,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Togekiss C",
 		fr: "Togekiss ",
+		de: "Togekiss C"
 	},
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -43,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Reckless Charge",
 				fr: "Attaque imprudente",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "Togekiss C does 10 damage to itself.",
 				fr: "Togekiss  s'inflige 10 dégâts.",
+				de: "Togekiss C fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

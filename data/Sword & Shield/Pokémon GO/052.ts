@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Heiteira"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Colorless"],
@@ -65,7 +65,12 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "F"
+	regulationMark: "F",
+	variants: {
+		"normal": false,
+		"reverse": true,
+		"holo": true
+	}
 }
 
 export default card

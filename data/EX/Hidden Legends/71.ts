@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Seedot",
-		fr: "Grainipiot"
+		fr: "Grainipiot",
+		de: "Samurzel"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Growth Spurt",
-				fr: "Jaillissement"
+				fr: "Jaillissement",
+				de: "Growth Spurt"
 			},
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Seedot.",
-				fr: "Attachez une carte Énergie  de votre main à Grainipiot."
+				fr: "Attachez une carte Énergie  de votre main à Grainipiot.",
+				de: "Attach a  Energy card from your hand to Seedot."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Trip Over",
-				fr: "Croche-pied"
+				fr: "Croche-pied",
+				de: "Trip Over"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
 			},
 			damage: "10+",
 

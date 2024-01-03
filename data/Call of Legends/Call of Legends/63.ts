@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mareep",
 		fr: "Wattouat",
+		de: "Voltilamm"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Static Shock",
 				fr: "Choc statique",
+				de: "Statischer Schock"
 			},
 
 			damage: 10,

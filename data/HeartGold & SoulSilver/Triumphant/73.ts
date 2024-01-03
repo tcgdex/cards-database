@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Porygon",
 		fr: "Porygon",
+		de: "Porygon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Sharpen",
 				fr: "Affûtage",
+				de: "Schärfer"
 			},
 
 			damage: 10,
@@ -45,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Recover",
 				fr: "Soin",
+				de: "Genesung"
 			},
 			effect: {
 				en: "Discard an Energy attached to Porygon and remove 4 damage counters from Porygon.",
 				fr: "Défaussez une carte Énergie attachée à Porygon et retirez-lui 4 marqueurs de dégât.",
+				de: "Lege 1 an Porygon angelegten Energie auf deinen Ablagestapel und entferne 4 Schadensmarken von Porygon."
 			},
 
 		},

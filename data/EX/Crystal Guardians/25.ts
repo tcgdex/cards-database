@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Medicham",
-		fr: "Charmina"
+		fr: "Charmina",
+		de: "Meditalis"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dual Armor",
-				fr: "Double armure"
+				fr: "Double armure",
+				de: "Doppelte Rüstung"
 			},
 			effect: {
 				en: "As long as Medicham has any Psychic Energy cards attached to it, Medicham is both Psychic and Fighting type.",
-				fr: "Tant que Charmina possède des cartes Énergie , il est de type  et ."
+				fr: "Tant que Charmina possède des cartes Énergie , il est de type  et .",
+				de: "Solange an Meditalis mindestens eine -Energiekarte angelegt ist, ist Meditalis ein Pokémon vom Typ  und ."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psyshock",
-				fr: "Choc psy"
+				fr: "Choc psy",
+				de: "Psychoschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -61,11 +66,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sky Uppercut",
-				fr: "Stratopercut"
+				fr: "Stratopercut",
+				de: "Himmelhieb"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verringert."
 			},
 			damage: 50,
 

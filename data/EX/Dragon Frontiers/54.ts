@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Mareep δ",
-		fr: "Wattouat δ ESPÈCES DELTA"
+		fr: "Wattouat δ ESPÈCES DELTA",
+		de: "Voltilamm"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whap",
-				fr: "Queue battoir"
+				fr: "Queue battoir",
+				de: "Schweifvertrimmer"
 			},
 
 			damage: 10,

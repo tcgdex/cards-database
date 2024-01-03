@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Xatu",
-		fr: "Xatu"
+		fr: "Xatu",
+		de: "Xatu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Prophecy",
-				fr: "Prophétie"
+				fr: "Prophétie",
+				de: "Prophecy"
 			},
 			effect: {
 				en: "Look at the top 3 cards of either player's deck and rearrange them as you like.",
-				fr: "Regardez les 3 cartes du dessus du deck de n'importe quel joueur et ordonnez-les comme bon vous semble."
+				fr: "Regardez les 3 cartes du dessus du deck de n'importe quel joueur et ordonnez-les comme bon vous semble.",
+				de: "Look at the top 3 cards of either player's deck and rearrange them as you like."
 			},
 
 		},
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde folie"
+				fr: "Onde folie",
+				de: "Confuse Ray"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 30,
 

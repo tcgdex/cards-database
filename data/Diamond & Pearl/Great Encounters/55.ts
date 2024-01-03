@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Togetic",
 		fr: "Togetic",
+		de: "Togetic"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -34,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Speed Dive",
 				fr: "Équilibre Plongée",
+				de: "Tempohechtsprung"
 			},
 
 			damage: 20,
@@ -48,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Sweet Kiss",
 				fr: "Doux baiser",
+				de: "Bitterkuss"
 			},
 			effect: {
 				en: "Your opponent may draw a card.",
 				fr: "Votre adversaire peut piocher une carte.",
+				de: "Dein Gegner kann 1 Karte ziehen."
 			},
 			damage: 50,
 

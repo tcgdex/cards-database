@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Exeggcute",
-		fr: "Nœufnœuf"
+		fr: "Nœufnœuf",
+		de: "Owei"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -29,13 +30,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Continuous Eggsplosion",
-				fr: "Éclate continue"
+				fr: "Éclate continue",
+				de: "Continuous Eggsplosion"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Support",
-				fr: "Maintien d'énergie"
+				fr: "Maintien d'énergie",
+				de: "Energy Support"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a Energy card and attach it to one of your Benched Pokémon. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Énergie  et attachez-la à un de vos Pokémon du Banc. Mélangez ensuite votre deck."
+				fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Énergie  et attachez-la à un de vos Pokémon du Banc. Mélangez ensuite votre deck.",
+				de: "Flip a coin. If heads, search your deck for a  Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward."
 			},
 
 		},

@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Gengar",
+		de: "Gengar"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Curse",
+				de: "Fluch"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another of your opponent's Pokémon. This power can't be used if Gengar is affected by a Special Condition.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von 1 Pokémon deines Gegners entfernen und auf 1 anderes Pokémon deines Gegners legen. Diese Poké-Power kann nicht benutzt werden, wenn Gengar von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadow Skip",
+				de: "Schattensprung"
 			},
 			effect: {
 				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) You may switch Gengar with 1 of your Benched Pokémon.",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Du kannst Gengar gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 60,
 

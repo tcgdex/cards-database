@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Mareep",
-		fr: "Wattouat"
+		fr: "Wattouat",
+		de: "Voltilamm"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Static Electricity",
-				fr: "Électricité statique"
+				fr: "Électricité statique",
+				de: "Static Electricity"
 			},
 			effect: {
 				en: "For each Mareep in play, you may search your deck for a Energy card and attach it to Mareep. Shuffle your deck afterward.",
-				fr: "Pour chaque Wattouat en jeu, vous pouvez chercher une carte Énergie  dans votre deck et l'attacher à Mareep. Mélangez ensuite votre deck."
+				fr: "Pour chaque Wattouat en jeu, vous pouvez chercher une carte Énergie  dans votre deck et l'attacher à Mareep. Mélangez ensuite votre deck.",
+				de: "For each Mareep in play, you may search your deck for a  Energy card and attach it to Mareep. Shuffle your deck afterward."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
-				fr: "Éclair"
+				fr: "Éclair",
+				de: "Thundershock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

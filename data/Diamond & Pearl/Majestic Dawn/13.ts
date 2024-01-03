@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Rotom",
 		fr: "Motisma",
+		de: "Rotom"
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Dual Trans",
 				fr: "Double trans",
+				de: "Doppel-Transfer"
 			},
 			effect: {
 				en: "Search your discard pile for up to 2 basic Energy cards and attach them to 1 of your Pokémon.",
 				fr: "Choisissez dans votre pile de défausse jusqu'à 2 cartes Énergie et attachez-les à 1 de vos Pokémon.",
+				de: "Durchsuche deinen Ablagestapel nach bis zu 2 Basis-Energiekarten und lege sie an 1 deiner Pokémon an."
 			},
 
 		},
@@ -43,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Reflect Energy",
 				fr: "Renvoi d'énergie",
+				de: "Energiereflektion"
 			},
 			effect: {
 				en: "Move an Energy card attached to Rotom to 1 of your Benched Pokémon.",
 				fr: "Déplacez une carte Énergie attachée à Motisma sur 1 des Pokémon de votre Banc.",
+				de: "Entferne 1 an Rotom angelegte Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 30,
 

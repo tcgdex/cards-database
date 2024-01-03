@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Switch",
-		fr: "Transfert"
+		fr: "Transfert",
+		de: "Tausch"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Échangez 1 Pokémon de votre Banc avec votre Pokémon actif."
+		fr: "Échangez 1 Pokémon de votre Banc avec votre Pokémon actif.",
+		de: "Tausche eines Deiner Pokémon auf der Bank mit Deinem aktiven Pokémon aus."
 	}
 }
 

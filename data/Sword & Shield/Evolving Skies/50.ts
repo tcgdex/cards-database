@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Raichu"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],

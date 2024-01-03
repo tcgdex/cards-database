@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Dugtrio",
-		fr: "Triopikeur"
+		fr: "Triopikeur",
+		de: "Digdri"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Sand Veil",
-				fr: "Voile ensablant"
+				fr: "Voile ensablant",
+				de: "Sandvorhang"
 			},
 			effect: {
 				en: "Prevent all damage done to your Benched Pokémon by your opponent's attacks.",
-				fr: "Prévenez tous les dégâts infligés à vos Pokémon de Banc par les attaques de votre adversaire."
+				fr: "Prévenez tous les dégâts infligés à vos Pokémon de Banc par les attaques de votre adversaire.",
+				de: "Verhindere allen Schaden, der Pokémon auf deiner Bank durch gegnerische Angriffe zugefügt wird."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig Under",
-				fr: "Terrassement"
+				fr: "Terrassement",
+				de: "Schaufel unter"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Les dégâts ne sont pas affectés par la Faiblesse et la Résistance."
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Les dégâts ne sont pas affectés par la Faiblesse et la Résistance.",
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch die Schwäche und Resistenz des Verteidigenden Pokémon nicht verändert."
 			},
 
 		},
@@ -60,11 +65,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
-				fr: "Damoclès"
+				fr: "Damoclès",
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "Dugtrio does 10 damage to itself.",
-				fr: "Triopikeur s'inflige 10 dégâts."
+				fr: "Triopikeur s'inflige 10 dégâts.",
+				de: "Digdri fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 60,
 

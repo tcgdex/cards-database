@@ -43,6 +43,15 @@
       "contributions": [
         "data"
       ]
+    },
+    {
+      "login": "calli23",
+      "name": "calli23",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24553863?v=4",
+      "profile": "https://github.com/calli23",
+      "contributions": [
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -50,5 +59,6 @@
   "projectOwner": "tcgdex",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }

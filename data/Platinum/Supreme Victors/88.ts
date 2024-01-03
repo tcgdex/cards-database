@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Yanma",
 		fr: "Yanma",
+		de: "Yanma"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Supersonic",
 				fr: "Ultrason",
+				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Air Slash",
 				fr: "Lame d'air",
+				de: "Luftschnitt"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard an Energy card attached to Yanma.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie attachée à Yanma.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 1 Energiekarte, die an Yanma angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 20,
 

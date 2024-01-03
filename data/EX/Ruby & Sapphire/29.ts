@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Delcatty",
-		fr: "Delcatty"
+		fr: "Delcatty",
+		de: "Enekoro"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Call",
-				fr: "Énergie supplémentaire"
+				fr: "Énergie supplémentaire",
+				de: "Energieruf"
 			},
 			effect: {
 				en: "Attach 1 Energy card from your discard pile to your Active Pokémon.",
-				fr: "Attachez une carte Énergie de votre pile de défausse à votre Pokémon Actif."
+				fr: "Attachez une carte Énergie de votre pile de défausse à votre Pokémon Actif.",
+				de: "Nimm eine Energiekarte von deinem Ablagestapel und lege sie an das Aktive Pokémon an."
 			},
 			damage: 10,
 
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Cannonball",
-				fr: "Boulet de canon"
+				fr: "Boulet de canon",
+				de: "Kanonenkugel"
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each Energy attached to Delcatty but not used to pay for this attack's Energy cost.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée à Delcatty qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque."
+				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée à Delcatty qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque.",
+				de: "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Enekoro angelegte Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde."
 			},
 			damage: "30+",
 

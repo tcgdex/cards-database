@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Feebas",
-		fr: "Barpau"
+		fr: "Barpau",
+		de: "Barschwa"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -41,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ascension",
-				fr: "Ascension"
+				fr: "Ascension",
+				de: "Ascension"
 			},
 			effect: {
 				en: "Search your deck for a card that evolves from Feebas and put it on Feebas. (This counts as evolving Feebas.) Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte qui évolue de Barpau et placez-la sur Barpau. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck."
+				fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte qui évolue de Barpau et placez-la sur Barpau. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck.",
+				de: "Search your deck for a card that evolves from Feebas and put it on Feebas. (This counts as evolving Feebas.) Shuffle your deck afterward."
 			},
 
 		},

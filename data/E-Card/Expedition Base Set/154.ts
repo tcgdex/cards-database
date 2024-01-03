@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Full Heal",
-		fr: "Guérison totale"
+		fr: "Guérison totale",
+		de: "Hyperheiler"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Retirez tous les États spéciaux de votre Pokémon Actif."
+		fr: "Retirez tous les États spéciaux de votre Pokémon Actif.",
+		de: "Entferne alle Speziellen Zustände von deinem Aktiven Pokémon."
 	}
 }
 

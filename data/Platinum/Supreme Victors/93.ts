@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bulbasaur",
 		fr: "Bulbizarre",
+		de: "Bisasam"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet lianes",
+				de: "Rankenhieb"
 			},
 
 			damage: 20,

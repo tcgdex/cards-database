@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lombre",
 		fr: "Lombre",
+		de: "Lombrero"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Interrupt",
 				fr: "Interruption",
+				de: "Interrupt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, look at your opponent's hand and choose 1 card, then have your opponent shuffle that card into his or her deck.",
 				fr: "Lancez une pièce. Si c'est face, regardez la main de votre adversaire et choisissez-y une carte. Ensuite, demandez à votre adversaire de la mélanger à son deck.",
+				de: "Flip a coin. If heads, look at your opponent's hand and choose 1 card, then have your opponent shuffle that card into his or her deck."
 			},
 			damage: 20,
 
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Gentle Slap",
 				fr: "Gifle douce",
+				de: "Gentle Slap"
 			},
 
 			damage: 60,

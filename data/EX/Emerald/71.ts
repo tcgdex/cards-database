@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Voltorb",
-		fr: "Voltorbe"
+		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ram"
 			},
 
 			damage: 10,
@@ -43,7 +45,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Speed Ball",
-				fr: "Balle rapide"
+				fr: "Balle rapide",
+				de: "Speed Ball"
 			},
 
 			damage: 30,

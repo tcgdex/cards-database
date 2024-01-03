@@ -4,10 +4,11 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Drifloon",
-		fr: "Baudrive"
+		fr: "Baudrive",
+		de: "Driftlon"
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,10 +30,12 @@ const card: Card = {
 			name: {
 				en: "Unburden",
 				fr: "Délestage",
+				de: "Entlastung"
 			},
 			effect: {
 				en: "If Drifloon has a Pokémon Tool card attached to it, Drifloon's Retreat Cost is colorless colorless more.",
 				fr: "Si Baudrive possède une carte Outil Pokémon, son Coût de Retraite est de ColorlessColorless de plus.",
+				de: "Wenn an Driftlon 1 Pokémon-Ausrüstung angelegt ist, sind Driftlons Rückzugskosten um  erhöht."
 			},
 		},
 	],
@@ -44,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -57,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Big Explosion",
 				fr: "Grosse explosion",
+				de: "Große Explosion"
 			},
 			effect: {
 				en: "Drifloon does 50 damage to itself.",
 				fr: "Baudrive s'inflige 50 dégâts.",
+				de: "Driftlon fügt sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 50,
 

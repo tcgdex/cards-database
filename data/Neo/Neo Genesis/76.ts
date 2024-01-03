@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Stantler",
-		fr: "Cerfrousse"
+		fr: "Cerfrousse",
+		de: "Damhirplex"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stomp",
-				fr: "Écrasement"
+				fr: "Écrasement",
+				de: "Stampfer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts.",
+				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei Zahl fügt dieser Angriff 20 Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mystifying Horns",
-				fr: "Cornes fascinantes"
+				fr: "Cornes fascinantes",
+				de: "Verwirrhörner"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 

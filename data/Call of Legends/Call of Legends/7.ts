@@ -4,9 +4,10 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Gyarados",
+		de: "Garados"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,6 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hydro Splash",
+				de: "Hydroplatscher"
 			},
 
 			damage: 50,
@@ -46,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Beam",
+				de: "Hyperstrahl"
 			},
 			effect: {
 				en: "Discard an Energy card attached to the Defending Pokémon.",
+				de: "Lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 80,
 

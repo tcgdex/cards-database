@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Piloswine",
-		fr: "Cochignon"
+		fr: "Cochignon",
+		de: "Keifel"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap",
-				fr: "Tit'sieste"
+				fr: "Tit'sieste",
+				de: "Nap"
 			},
 			effect: {
 				en: "Remove 3 damage counters from Piloswine. If it has fewer damage counters than that, remove all of them.",
-				fr: "Retirez 3 marqueurs de dégâts de Cochignon. S'il y a moins de marqueurs de dégâts sur lui, retirez-les tous."
+				fr: "Retirez 3 marqueurs de dégâts de Cochignon. S'il y a moins de marqueurs de dégâts sur lui, retirez-les tous.",
+				de: "Remove 3 damage counters from Piloswine. If it has fewer damage counters than that, remove all of them."
 			},
 
 		},
@@ -53,11 +56,13 @@ const card: Card = {
 			],
 			name: {
 				en: "High-Speed Charge",
-				fr: "Charge bulldozer"
+				fr: "Charge bulldozer",
+				de: "High-Speed Charge"
 			},
 			effect: {
 				en: "Piloswine does 30 damage to itself. Piloswine can't use this attack during your next turn.",
-				fr: "Cochignon s'inflige 30 dégâts. Cochignon ne peut pas utiliser à nouveau cette attaque durant votre prochain tour."
+				fr: "Cochignon s'inflige 30 dégâts. Cochignon ne peut pas utiliser à nouveau cette attaque durant votre prochain tour.",
+				de: "Piloswine does 30 damage to itself. Piloswine can't use this attack during your next turn."
 			},
 			damage: 80,
 

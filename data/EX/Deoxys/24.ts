@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Seaking",
-		fr: "Poissoroy"
+		fr: "Poissoroy",
+		de: "Golking"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Triple Breach",
-				fr: "Triple rupture"
+				fr: "Triple rupture",
+				de: "Triple Breach"
 			},
 			effect: {
 				en: "Choose 3 of your opponent's Pokémon. This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 3 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à chacun de ces Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et de la Résistance aux Pokémon de Banc)."
+				fr: "Choisissez 3 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à chacun de ces Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et de la Résistance aux Pokémon de Banc).",
+				de: "Choose 3 of your opponent's Pokémon. This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for benched Pokémon.)"
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rend",
-				fr: "Déchirer"
+				fr: "Déchirer",
+				de: "Rend"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 30 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				de: "If the Defending Pokémon already has any damage on it, this attack does 30 damage plus 20 more damage."
 			},
 			damage: "30+",
 

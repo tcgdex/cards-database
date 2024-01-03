@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Dark Exeggutor",
-		fr: "Noadkoko obscur"
+		fr: "Noadkoko obscur",
+		de: "Dunkles Kokowei"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -35,13 +36,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Triple Headbutt",
-				fr: "Triple coup d'boule"
+				fr: "Triple coup d'boule",
+				de: "Triple Headbutt"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -51,13 +54,15 @@ const card: Card = {
 			],
 			name: {
 				en: "MAX Burst",
-				fr: "Explosion maximale"
+				fr: "Explosion maximale",
+				de: "MAX Burst"
 			},
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy cards attached to your opponent's Pokémon. This attack does 20 damage times the number of heads.",
-				fr: "Lancez un nombre de pièces égal au nombre de cartes Énergie attachées au Pokémon de votre adversaire. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez un nombre de pièces égal au nombre de cartes Énergie attachées au Pokémon de votre adversaire. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Flip a number of coins equal to the number of Energy cards attached to your opponent's Pokémon. This attack does 20 damage times the number of heads."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

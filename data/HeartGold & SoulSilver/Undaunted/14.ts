@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hariyama",
 		fr: "Hariyama",
+		de: "Hariyama"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -39,6 +40,7 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncer",
+				de: "Einhämmern"
 			},
 
 			damage: 60,
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Backward Belt Throw",
 				fr: "Projection arrière",
+				de: "Rückwärtsgürtelwurf"
 			},
 			effect: {
 				en: "You may do 80 damage plus 20 more damage. If you do, Hariyama does 20 damage to itself.",
 				fr: "Vous pouvez infliger 80 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Hariyama s’inflige 20 dégâts.",
+				de: "Dieser Angriff kann 80 Schadenspunkte plus 20 weitere Schadenspunkte zufügen. In diesem Fall fügt Hariyama sich selbst 20 Schadenspunkte zu."
 			},
 			damage: "80+",
 

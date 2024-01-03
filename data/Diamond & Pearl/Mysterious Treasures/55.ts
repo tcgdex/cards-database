@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Masquerain",
-		fr: "Maskadra"
+		fr: "Maskadra",
+		de: "Maskeregen"
 	},
 
 	illustrator: "Midori Harada",
@@ -36,13 +37,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Centrifugal Force",
-				fr: "Force centrifuge"
+				fr: "Force centrifuge",
+				de: "Zentrifugalkraft"
 			},
 			effect: {
 				en: "Does 20 damage times the number of Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost).",
-				fr: "Inflige 20 dégâts multipliés par le nombre d'Énergie Colorless dans le Coût de retraite du Pokémon Défenseur (après application des effets du Coût de retraite)."
+				fr: "Inflige 20 dégâts multipliés par le nombre d'Énergie Colorless dans le Coût de retraite du Pokémon Défenseur (après application des effets du Coût de retraite).",
+				de: "Dieser Angriff fügt 20 Schadenspunkte für jede -Energie in den Rückzugskosten des Verteidigenden Pokémon zu (nachdem Effekte auf die Rückzugskosten verrechnet wurden)."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 		{
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Swirling Ripple",
-				fr: "Clapotis tourbillonnant"
+				fr: "Clapotis tourbillonnant",
+				de: "Wirbelnde Wellen"
 			},
 			effect: {
 				en: "If your opponent has any Water Pokémon in play, this attack does 30 damage plus 30 more damage and the Defending Pokémon is now Confused.",
-				fr: "Si votre adversaire possède des Pokémon Water en jeu, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus."
+				fr: "Si votre adversaire possède des Pokémon Water en jeu, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
+				de: "Wenn dein Gegner mindestens 1 -Pokémon im Spiel hat, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: "30+",
 

@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Trapinch",
-		fr: "Kraknoix"
+		fr: "Kraknoix",
+		de: "Knacklion"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sand Pit",
-				fr: "Bac à sable"
+				fr: "Bac à sable",
+				de: "Sandgrube"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite jusqu'à la fin du prochain tour de votre adversaire."
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite jusqu'à la fin du prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 10,
 
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Irongrip",
-				fr: "Poigne de fer"
+				fr: "Poigne de fer",
+				de: "Eiserner Griff"
 			},
 
 			damage: 20,

@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Blaziken",
-		fr: "Brasegali"
+		fr: "Brasegali",
+		de: "Lohgock"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Blaze",
-				fr: "Brasier"
+				fr: "Brasier",
+				de: "Blaze"
 			},
 			effect: {
 				en: "As long as Blaziken's remaining HP is 40 or less, Blaziken does 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Tant que Brasegali possède 40 Points de vie ou moins, il inflige 40 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance)."
+				fr: "Tant que Brasegali possède 40 Points de vie ou moins, il inflige 40 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
+				de: "As long as Blaziken's remainingHP is 40 or less,Blaziken does 40 damage to the Defending Pokémon ( before applying Weakness and Resistance"
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Searing Flame",
-				fr: "Flammes calcinantes"
+				fr: "Flammes calcinantes",
+				de: "Searing Flame"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "The Defending Pokémon is now Burned."
 			},
 			damage: 10,
 
@@ -55,12 +60,14 @@ const card: Card = {
 		{
 			name: {
 				en: "Damage Burn",
-				fr: "Dégâts brûlants"
+				fr: "Dégâts brûlants",
+				de: "Damage Burn"
 			},
 
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				de: "If the Defending Pokémon already has any Damage counters on it, this attack does 50 damage plus 20 more damage."
 			},
 
 			damage: "50+",

@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Ho-Oh LEGEND",
 		fr: "Ho-Oh LÉGENDAIRE",
+		de: "Ho-Oh LEGENDE"
 	},
 
 	illustrator: "Shinji Higuchi",
-	rarity: "Ultra Rare",
+	rarity: "LEGEND",
 	category: "Pokemon",
 	set: Set,
 
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Sacred Rainbow",
 				fr: "Arc-en-ciel sacré",
+				de: "Heiliger Regenbogen"
 			},
 			effect: {
 				en: "All energy attached to Ho-Oh LEGEND are Fire Energy instead of their usual type.",
 				fr: "Toute les énergies attachées au Ho-Oh LÉGENDAIRE sont de type Fire et non de leur type habituel.",
+				de: "Alle Energien, die an Ho-Oh-LEGENDE angelegt sind, liefern -Energie anstelle ihres normalen Typs."
 			},
 		},
 	],
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Bright Wing",
 				fr: "Ailes lumineuses",
+				de: "Strahlenschwinge"
 			},
 			effect: {
 				en: "Discard an Energy attached to Ho-Oh LEGEND.",
 				fr: "Défaussez-vous d’une Énergie attachée au Ho-Oh LÉGENDAIRE.",
+				de: "Lege 1 an Ho-Oh-LEGENDE angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 100,
 

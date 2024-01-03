@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Light Ninetales",
-		fr: "Feunard lumineux"
+		fr: "Feunard lumineux",
+		de: "Helles Vulnona"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -30,18 +31,21 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: [
-				"Fire",
-			],
+			cost: ["Fire", "Fire", "Fire"],
+
 			name: {
 				en: "Guiding Flame",
-				fr: "Flambeau"
-			},
-			effect: {
-				en: "Put a Baby Pokémon or a Basic Pokémon card from your discard pile onto your Bench. (You can't use this attack if your Bench is full.)",
-				fr: "Placez une carte Bébé Pokémon ou Pokémon de base de votre pile de défausse sur votre Banc. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)"
+				fr: "Flambeau",
+				de: "Fire Blast"
 			},
 
+			effect: {
+				en: "Put a Baby Pokémon or a Basic Pokémon card from your discard pile onto your Bench. (You can't use this attack if your Bench is full.)",
+				fr: "Placez une carte Bébé Pokémon ou Pokémon de base de votre pile de défausse sur votre Banc. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				de: "Discard a  Energy card attached to Light Ninetales in order to use this attack."
+			},
+
+			damage: 50
 		},
 		{
 			cost: [
@@ -51,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Blast",
-				fr: "Déflagration"
+				fr: "Déflagration",
+				de: "Fire Blast"
 			},
 			effect: {
 				en: "Discard a Energy card attached to Light Ninetales in order to use this attack.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Feunard lumineux pour utiliser cette attaque."
+				fr: "Défaussez-vous d'une carte Énergie  attachée à Feunard lumineux pour utiliser cette attaque.",
+				de: "Discard a  Energy card attached to Light Ninetales in order to use this attack."
 			},
 			damage: 50,
 

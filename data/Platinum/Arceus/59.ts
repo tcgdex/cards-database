@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Charmander",
+		de: "Glumanda"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Friends",
+				de: "Freundesruf"
 			},
 			effect: {
 				en: "Search your deck for a Fire Basic Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				de: "Durchsuche dein Deck nach 1 -Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Steady Firebreathing",
+				de: "Stetiger Feuerhauch"
 			},
 
 			damage: 20,

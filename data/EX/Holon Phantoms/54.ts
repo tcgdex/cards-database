@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Vibrava δ",
-		fr: "Vibraninf δ ESPÈCES DELTA"
+		fr: "Vibraninf δ ESPÈCES DELTA",
+		de: "Vibrava"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Knock Away",
-				fr: "Asticotage"
+				fr: "Asticotage",
+				de: "Zurückschlagen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -49,7 +52,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Cutting Wind",
-				fr: "Vent glacial"
+				fr: "Vent glacial",
+				de: "Schneidender Wind"
 			},
 
 			damage: 40,

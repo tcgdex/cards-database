@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Staryu",
 		fr: "Stari",
+		de: "Sterndu"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Recover",
 				fr: "Soin",
+				de: "Genesung"
 			},
 			effect: {
 				en: "Discard an Energy attached to Staryu and remove 3 damage counters from Staryu.",
 				fr: "Défaussez une Énergie attachée à Stari et retirez-lui 3 marqueurs de dégât.",
+				de: "Lege 1 an Sterndu angelegte Energie auf den Ablagestapel und entferne 3 Schadensmarken von Sterndu."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque tournante",
+				de: "Rundumangriff"
 			},
 
 			damage: 20,

@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Maintenance",
-		fr: "Entretien"
+		fr: "Entretien",
+		de: "Wartung"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Mélangez 2 des autres cartes de votre main avec votre deck pour piocher une carte."
+		fr: "Mélangez 2 des autres cartes de votre main avec votre deck pour piocher une carte.",
+		de: "Mische 2 Karten aus Deiner Hand in Deinen Stapel."
 	}
 }
 

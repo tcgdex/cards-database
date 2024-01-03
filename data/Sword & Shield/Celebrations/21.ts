@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Solgaleo"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	types: ["Metal"],
 	illustrator: "kirisAki",

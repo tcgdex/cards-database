@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Skarmory",
+		de: "Panzaeron"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Steel Coat",
+				de: "Stahlmantel"
 			},
 			effect: {
 				en: "Search your deck for a Metal Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				de: "Durchsuche dein Deck nach einer -Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Wing",
+				de: "Rasierflügel"
 			},
 
 			damage: 40,

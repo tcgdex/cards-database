@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Wingull",
 		fr: "Goelise",
+		de: "Wingull"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Water Drip",
 				fr: "Goutte à goutte",
+				de: "Spritzwasser"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 20,

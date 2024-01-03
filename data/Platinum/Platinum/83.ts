@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Misdreavus",
 		fr: "Feuforêve",
+		de: "Traunfugil"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Take Back",
 				fr: "Reprendre",
+				de: "Take Back"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it into your hand.",
 				fr: "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Dresseur, montrez-la à votre adversaire et placez-la dans votre main.",
+				de: "Flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it into your hand."
 			},
 
 		},
@@ -42,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,

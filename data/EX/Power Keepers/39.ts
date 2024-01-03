@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Shelgon",
-		fr: "Drackhaus"
+		fr: "Drackhaus",
+		de: "Draschel"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
-				fr: "Frénésie"
+				fr: "Frénésie",
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Shelgon.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Drackhaus."
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Drackhaus.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Draschel zu."
 			},
 			damage: "10+",
 
@@ -49,7 +52,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Tackle",
-				fr: "Roulé-boulé"
+				fr: "Roulé-boulé",
+				de: "Rolltackle"
 			},
 
 			damage: 40,

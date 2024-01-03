@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Seadra",
 		fr: "Hypocean",
+		de: "Seemon"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Muddy Water",
 				fr: "Ocroupi",
+				de: "Lehmbrühe"
 			},
 			effect: {
 				en: "Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à l’un des Pokémon se trouvant sur le Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistzenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -54,6 +57,7 @@ const card: Card = {
 			name: {
 				en: "Razor Fin",
 				fr: "Aileron-rasoir",
+				de: "Rasierflosse"
 			},
 
 			damage: 50,

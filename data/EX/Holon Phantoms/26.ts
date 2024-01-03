@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Rayquaza δ",
-		fr: "Rayquaza δ ESPÈCES DELTA"
+		fr: "Rayquaza δ ESPÈCES DELTA",
+		de: "Rayquaza"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Outrage",
-				fr: "Colère"
+				fr: "Colère",
+				de: "Wutanfall"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, this attack does 10 damage plus 10 more damage for each damage counter on Rayquaza.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Rayquaza."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Rayquaza.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus weitere 10 Schadenspunkte mal der Anzahl Schadensmarken auf Rayquaza zu."
 			},
 			damage: "10+",
 
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
-				fr: "Lance-flamme"
+				fr: "Lance-flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard 1 Fire Energy attached to Rayquaza.",
-				fr: "Défaussez 1 Énergie  attachée à Rayquaza."
+				fr: "Défaussez 1 Énergie  attachée à Rayquaza.",
+				de: "Lege 1 an Rayquaza angelegte -Energie auf deinen Ablagestapel."
 			},
 			damage: 40,
 

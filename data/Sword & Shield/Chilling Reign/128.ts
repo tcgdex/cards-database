@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "HYOGONOSUKE",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],

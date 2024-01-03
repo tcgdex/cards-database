@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Zubat",
+		de: "Zubat"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Streak",
+				de: "Dark Streak"
 			},
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
+				de: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ambush",
+				de: "Ambush"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

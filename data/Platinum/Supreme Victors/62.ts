@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ivysaur",
 		fr: "Herbizarre",
+		de: "Bisaknosp"
 	},
 	illustrator: "Kanako Eo",
 	rarity: "Uncommon",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Evolutionary Pollen",
 				fr: "Pollen évolutif",
+				de: "Entwicklungspollen"
 			},
 			effect: {
 				en: "Once during your turn, when you play Ivysaur from your hand to evolve 1 of your Pokémon, you may use this power. Your opponent's Active Pokémon is now Asleep.",
 				fr: "Une seule fois lors de votre tour, lorsque vous jouez Herbizarre de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez utiliser ce pouvoir. Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				de: "Einmal während deines Zuges kannst du, wenn du Bisaknosp von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, diese Poké-Power benutzen. Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 		},
 	],
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				de: "Zerschneider"
 			},
 
 			damage: 50,

@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Unown [W]",
-		fr: "Zarbi W"
+		fr: "Zarbi W",
+		de: "Icognito W"
 	},
 
 	illustrator: "CR CG gangs",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "[Want]",
-				fr: "[Want]"
+				fr: "[Want]",
+				de: "Want"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if you have Unown W, Unown A, Unown N, and Unown T on your Bench, you may flip a coin. If heads, put a Trainer card from your discard pile into your hand.",
-				fr: "Une fois pendant votre tour (avant votre attaque), si vous avez Zarbi [W], Zarbi [A], Zarbi [N] et Zarbi [T] sur votre Banc, vous pouvez lancer une pièce. Si c'est face, ajoutez une carte Dresseur de votre pile de défausse à votre main."
+				fr: "Une fois pendant votre tour (avant votre attaque), si vous avez Zarbi [W], Zarbi [A], Zarbi [N] et Zarbi [T] sur votre Banc, vous pouvez lancer une pièce. Si c'est face, ajoutez une carte Dresseur de votre pile de défausse à votre main.",
+				de: "Once during your turn (before your attack), if you have Unown W, Unown A, Unown N, and Unown T on your Bench, you may flip a coin. If heads, put a Trainer card from your discard pile into your hand."
 			},
 		},
 	],
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hidden Power",
-				fr: "Puissance cachée"
+				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 10,

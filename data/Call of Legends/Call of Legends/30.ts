@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Pidgeot",
+		de: "Tauboss"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Headwind",
+				de: "Gegenwind"
 			},
 			effect: {
 				en: "During your opponent's next turn, the attack cost of each of the Defending Pokémon's attacks is ColorlessColorless more.",
+				de: "Während des nächsten Zuges deines Gegners kosten die Angriffe des Verteidigenden Pokémon  mehr."
 			},
 			damage: 20,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 30 more damage.",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

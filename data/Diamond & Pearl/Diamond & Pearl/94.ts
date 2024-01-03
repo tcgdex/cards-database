@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ponyta",
 		fr: "Ponyta",
+		de: "Ponita"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Flame Tail",
 				fr: "Queue de flammes",
+				de: "Flammenschweif"
 			},
 
 			damage: 30,

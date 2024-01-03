@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Misty's Seadra",
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Turtok"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Water"],
@@ -76,7 +76,12 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "F"
+	regulationMark: "F",
+	variants: {
+		"normal": false,
+		"reverse": true,
+		"holo": true
+	}
 }
 
 export default card

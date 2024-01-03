@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Quilava",
-		fr: "Feurisson"
+		fr: "Feurisson",
+		de: "Igelavar"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fireworks",
-				fr: "Feux d'artifice"
+				fr: "Feux d'artifice",
+				de: "Feuerwerk"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Quilava.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Feurisson."
+				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Feurisson.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" lege 1 an Igelavar angelegte -Energie auf deinen Ablagestapel."
 			},
 			damage: 40,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Torterra",
 		fr: "Torterra",
+		de: "Chelterrar"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -35,12 +36,14 @@ const card: Card = {
 			name: {
 				en: "Green Blast",
 				fr: "Explosion verte",
+				de: "Green Blast"
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Grass attachée à tous vos Pokémon.",
+				de: "Does 40 damage plus 10 more damage for each  Energy attached to all of your Pokémon."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 		{
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Soothing Scent",
 				fr: "Senteur apaisante",
+				de: "Soothing Scent"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 80,
 

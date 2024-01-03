@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Motofumi Fujiwara",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Psychic"],

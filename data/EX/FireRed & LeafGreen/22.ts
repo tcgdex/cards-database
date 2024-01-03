@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Dugtrio",
-		fr: "Triopikeur"
+		fr: "Triopikeur",
+		de: "Digdri"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sonicboom",
-				fr: "Sonicboom"
+				fr: "Sonicboom",
+				de: "Sonicboom"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				de: "This attack's damage isn't affected by Weakness or Resistance."
 			},
 			damage: 30,
 
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rumble",
-				fr: "Bagarre"
+				fr: "Bagarre",
+				de: "Rumble"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire."
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
+				de: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
 			},
 			damage: 50,
 

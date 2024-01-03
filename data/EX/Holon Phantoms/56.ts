@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Wobbuffet",
-		fr: "Qulbutoké"
+		fr: "Qulbutoké",
+		de: "Woingenau"
 	},
 	illustrator: "Katsura Tabata",
 	rarity: "Uncommon",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Friends",
-				fr: "À la rescousse!"
+				fr: "À la rescousse!",
+				de: "Freundesruf"
 			},
 			effect: {
 				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck jusqu'à 2 Pokémon de base et placez-les sur votre Banc. Ensuite, mélangez votre deck."
+				fr: "Choisissez dans votre deck jusqu'à 2 Pokémon de base et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -44,13 +47,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Retaliate",
-				fr: "Représailles"
+				fr: "Représailles",
+				de: "Vergeltung"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Wobbuffet.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Qulbutoké."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Qulbutoké.",
+				de: "Dieser Angriff fügt für jede Schadensmarke auf Woingenau 10 Schadenspunkte zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

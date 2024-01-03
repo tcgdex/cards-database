@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Charmeleon",
-		fr: "Reptincel"
+		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -37,7 +38,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 30,
@@ -51,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
-				fr: "Lance-flamme"
+				fr: "Lance-flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Charmeleon in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Reptincel pour pouvoir utiliser cette attaque."
+				fr: "Défaussez 1 carte Énergie  attachée à Reptincel pour pouvoir utiliser cette attaque.",
+				de: "Entferne eine auf Glutexo abgelegte  Energiekarte, um diesen Angriff auszuführen."
 			},
 			damage: 50,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Grimer",
 		fr: "Tadmorv",
+		de: "Sleima"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Division",
 				fr: "Division",
+				de: "Division"
 			},
 			effect: {
 				en: "Search your deck for Grimer and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez Tadmorv dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				de: "Search your deck for Grimer and put it onto your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -42,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Poison Gas",
 				fr: "Gaz toxik",
+				de: "Poison Gas"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "The Defending Pokémon is now Poisoned."
 			},
 
 		},

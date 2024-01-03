@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Togekiss",
 		fr: "Togekiss",
+		de: "Togekiss"
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Blessed Wings",
 				fr: "Ailes bénies",
+				de: "Gesegnete Schwingen"
 			},
 			effect: {
 				en: "Remove all damage counters from each of your Pokémon. Shuffle Togekiss and all cards attached to it back into your deck.",
 				fr: "Retirez tous les marqueurs de dégât à chacun de vos Pokémon. Mélangez Togekiss et toutes les cartes qui lui sont attachées avec votre deck.",
+				de: "Entferne alle Schadensmarken von jedem deiner Pokémon. Mische Togekiss und alle daran angelegten Karten zurück in dein Deck."
 			},
 
 		},
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Air Cutter",
 				fr: "Tranch’Air",
+				de: "Windschnitt"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 80,
 

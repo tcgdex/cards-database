@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Scyther",
-		fr: "Insécateur"
+		fr: "Insécateur",
+		de: "Sichlor"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -36,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Swords Dance",
 				fr: "Danse-lames",
+				de: "Schwerttanz"
 			},
 			effect: {
 				en: "During your next turn, Scyther's Slashing Strike attack's base damage is 60.",
 				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Coup déchirant d'Insécateur sont de 60.",
+				de: "In deinem nächsten Zug beträgt der Grundschaden von Sichlors Angriff Schlitzender Schlag 60 Schadenspunkte."
 			},
 
 		},
@@ -51,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Slashing Strike",
 				fr: "Coup déchirant",
+				de: "Schlitzender Schlag"
 			},
 			effect: {
 				en: "During your next turn, Scyther can't use Slashing Strike.",
 				fr: "Lors de votre prochain tour, Insécateur ne peut pas utiliser Coup déchirant.",
+				de: "Sichlor kann Schlitzender Schlag in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 30,
 

@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Ultra Rare",
+	rarity: "Classic Collection",
 	category: "Trainer",
 	trainerType: "Supporter",
 

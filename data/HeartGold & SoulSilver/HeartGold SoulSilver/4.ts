@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Gyarados",
 		fr: "Léviator",
+		de: "Garados"
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -39,6 +40,7 @@ const card: Card = {
 			name: {
 				en: "Hydro Splash",
 				fr: "Hydro-éclaboussure",
+				de: "Hydroplatscher"
 			},
 
 			damage: 50,
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Hyper Beam",
 				fr: "Ultralaser",
+				de: "Hyperstrahl"
 			},
 			effect: {
 				en: "Discard an Energy card attached to the Defending Pokémon.",
 				fr: "Défaussez-vous d’une carte Énergie attachée au Pokémon Défenseur.",
+				de: "Lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 80,
 

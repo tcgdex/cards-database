@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Skorupi",
 		fr: "Rapion",
+		de: "Pionskora"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Paralyzing Clamp",
 				fr: "Griffe paralysante",
+				de: "Lähmschnapper"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" ist das Verteidigenede Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 

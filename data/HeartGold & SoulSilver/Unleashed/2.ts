@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Magmortar",
 		fr: "Maganon",
+		de: "Magbrant"
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -39,12 +40,14 @@ const card: Card = {
 			name: {
 				en: "Hard Crush",
 				fr: "Écras’dur",
+				de: "Heftiger Zermalmer"
 			},
 			effect: {
 				en: "Discard the top 3 cards from your deck. This attack does 50 damage times the number of Energy cards you discarded.",
 				fr: "Défaussez les 3 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
+				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
 			},
-			damage: "50×",
+			damage: "50x",
 
 		},
 		{
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Mantle Bazooka",
 				fr: "Bazoocape",
+				de: "Verhüllte Panzerfaust"
 			},
 			effect: {
 				en: "Discard 2 Fire Energy attached to Magmortar.",
 				fr: "Défaussez 2 cartes Énergie Fire attachées à Maganon.",
+				de: "Lege 2 an Magbrant angelgte -Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 

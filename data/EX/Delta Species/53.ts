@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Shelgon δ",
-		fr: "Drackhaus δ ESPÈCES DELTA"
+		fr: "Drackhaus δ ESPÈCES DELTA",
+		de: "Draschel"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
@@ -31,24 +32,27 @@ const card: Card = {
 			],
 			name: {
 				en: "Tight Jaw",
-				fr: "Mâchoire serrée"
+				fr: "Mâchoire serrée",
+				de: "Tight Jaw"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
 		},
 		{
 			cost: [
+				"Colorless",
+				"Colorless",
 				"Fire",
-				"Colorless",
-				"Colorless",
 			],
 			name: {
 				en: "Combustion",
-				fr: "Fournaise"
+				fr: "Fournaise",
+				de: "Combustion"
 			},
 
 			damage: 40,

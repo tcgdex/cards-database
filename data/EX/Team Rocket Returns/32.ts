@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dark Dragonair",
+		de: "Dunkles Dragonir"
 	},
 	illustrator: "Tomoaki Imakuni",
 	rarity: "Uncommon",
@@ -32,9 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Tackle",
+				de: "Double Tackle"
 			},
 			effect: {
 				en: "Does 20 damage to each Defending Pokémon.",
+				de: "Does 20 damage to each Defending Pokémon."
 			},
 
 		},
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Crushing Blow",
+				de: "Crushing Blow"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				de: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
 			},
 			damage: 40,
 

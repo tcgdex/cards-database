@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Houndoom",
 		fr: "Demolosse",
+		de: "Hundemon"
 	},
 
 	illustrator: "Hideaki Hakozaki",
-	rarity: "Ultra Rare",
+	rarity: "Rare PRIME",
 	category: "Pokemon",
 	set: Set,
 
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Fire Breath",
 				fr: "Haleine de feu",
+				de: "Feueratem"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Burned. This power can’t be used if Houndoom is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c’est face, le Pokémon Défenseur est maintenant Brûlé. Ce pouvoir ne peut pas être utilisé si Démolosse est affecté par un État Spécial.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt. Diese Poké-Power kann nicht benutzt werden, wenn Hundemon von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Dark Clamp",
 				fr: "Pince des Ténèbres",
+				de: "Dunkler Klammergriff"
 			},
 			effect: {
 				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 70,
 

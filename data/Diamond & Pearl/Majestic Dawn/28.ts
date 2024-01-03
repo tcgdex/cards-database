@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Plusle",
 		fr: "Posipi",
+		de: "Plusle"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Call for Family",
 				fr: "Appel à la famille",
+				de: "Familienruf"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -45,12 +48,14 @@ const card: Card = {
 			name: {
 				en: "(-) Boost",
 				fr: "Boost (-)",
+				de: "(-) Aufladung"
 			},
 			effect: {
 				en: "If Minun is on your Bench, this attack does 20 damage plus 20 more damage.",
 				fr: "Si Negapi se trouve sur votre Banc, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wenn sich Minun auf deiner Bank befindet, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

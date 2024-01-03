@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Omastar",
-		fr: "Amonistar"
+		fr: "Amonistar",
+		de: "Amoroso"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Squeeze",
-				fr: "Compression"
+				fr: "Compression",
+				de: "Quetschen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed. If tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque fait 10 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est Paralysé. Si c'est pile, l'attaque ne fait que 10 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque fait 10 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est Paralysé. Si c'est pile, l'attaque ne fait que 10 dégâts.",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu und das verteidigende Pokémon ist jetzt gelähmt. Bei \"Zahl\" fügt dieser Angriff 10 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spike Barrage",
-				fr: "Barrage de pics"
+				fr: "Barrage de pics",
+				de: "Stachel-Stakkato"
 			},
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy attached to Omastar. This attack does 20 damage plus 20 more for each heads.",
-				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergies  attachées à Amonistar. Cette attaque fait 20 dégâts plus 20 dégâts par face."
+				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergies  attachées à Amonistar. Cette attaque fait 20 dégâts plus 20 dégâts par face.",
+				de: "Wirf so viele Münzen, wie -Energie an Amoroso angelegt ist. Dieser Anrgiff fügt 20 Schadenspunkte pro geworfenem \"Kopf\" zu."
 			},
 			damage: "20+",
 

@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Pidgeotto",
-		fr: "Roucoups"
+		fr: "Roucoups",
+		de: "Tauboga"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Clutch",
-				fr: "Serre"
+				fr: "Serre",
+				de: "Clutch"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire."
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
+				de: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
 			},
 			damage: 10,
 
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Cutting Wind",
-				fr: "Vent glacial"
+				fr: "Vent glacial",
+				de: "Cutting Wind"
 			},
 
 			damage: 30,

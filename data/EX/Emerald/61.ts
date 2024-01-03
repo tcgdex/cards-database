@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Ralts",
-		fr: "Tarsal"
+		fr: "Tarsal",
+		de: "Trasla"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnotic Ray",
-				fr: "Onde hypnotique"
+				fr: "Onde hypnotique",
+				de: "Hypnotic Ray"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",

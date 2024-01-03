@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Arceus LV. X",
 		fr: "Arceus",
+		de: "Arceus"
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Rare",
+	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
 
 	set: Set,
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "Multitype",
 				fr: "Multi-Type",
+				de: "Variabilität"
 			},
 			effect: {
 				en: "Arceus LV.X's type is the same type as its previous Level.",
 				fr: "Le type d'Arceus NIV.X est le même qu'au tour précédent.",
+				de: "Arceus LV.X hat denselben Typ wie sein vorheriges Level."
 			},
 		},
 	],
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Psychic Bolt",
 				fr: "Éclair psy",
+				de: "Psychoschlag"
 			},
 			effect: {
 				en: "Discard a Lightning Energy and a Psychic Energy attached to Arceus.",
 				fr: "Défaussez une Énergie Lightning et une Énergie Psychic attachée à Arceus.",
+				de: "Lege 1 -Energie und 1 -Energie, die an Arceus angelegt sind, auf deinen Ablagestapel."
 			},
 			damage: 100,
 

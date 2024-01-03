@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Solrock",
-		fr: "Solaroc"
+		fr: "Solaroc",
+		de: "Sonnfel"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Sunbeam",
-				fr: "Rayon de soleil"
+				fr: "Rayon de soleil",
+				de: "Sunbeam"
 			},
 			effect: {
 				en: "The maximum HP for each Lunatone you have in play is now 80.",
-				fr: "Le total de Points de vie maximum pour chaque Seleroc que vous avez en jeu est maintenant de 80."
+				fr: "Le total de Points de vie maximum pour chaque Seleroc que vous avez en jeu est maintenant de 80.",
+				de: "The maximum HP for each Lunastone you have in play is now 80."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Scorching Light",
-				fr: "Lumière aveuglante"
+				fr: "Lumière aveuglante",
+				de: "Scorching Light"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Burned."
 			},
 
 		},
@@ -55,11 +60,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Reflected Beam",
-				fr: "Reflet lumineux"
+				fr: "Reflet lumineux",
+				de: "Reflected Beam"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon for each Lunatone you have in play. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque Seleroc que vous avez en jeu. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque Seleroc que vous avez en jeu. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				de: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon for each Lunastone you have in play. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

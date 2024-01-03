@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Growlithe",
 		fr: "Caninos",
+		de: "Fukano"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Smash Kick",
 				fr: "Coud'pattes",
+				de: "Schmetterkick"
 			},
 
 			damage: 10,
@@ -44,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Fireworks",
 				fr: "Feux d'artifices",
+				de: "Feuerwerk"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Growlithe.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Caninos.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Fukano angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 30,
 

@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Raichu",
-		fr: "Raichu"
+		fr: "Raichu",
+		de: "Raichu"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
-				fr: "Éclair"
+				fr: "Éclair",
+				de: "Thundershock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -54,12 +57,14 @@ const card: Card = {
 
 			name: {
 				en: "Lightning Strike",
-				fr: "Frap'éclair"
+				fr: "Frap'éclair",
+				de: "Lightning Strike"
 			},
 
 			effect: {
 				en: "You may discard all Energy cards attached to Raichu. If you do, this attack does 80 damage.",
-				fr: "Vous pouvez défausser toutes les cartes Énergie  attachées à Raichu. Si vous le faites, cette attaque inflige 80 dégâts."
+				fr: "Vous pouvez défausser toutes les cartes Énergie  attachées à Raichu. Si vous le faites, cette attaque inflige 80 dégâts.",
+				de: "You may discard all @energie cards attached to Raichu. If you do, this attack does 80 damage."
 			},
 
 			damage: 40

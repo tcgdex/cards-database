@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "kirisAki",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Metal"],

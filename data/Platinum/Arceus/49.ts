@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Wormadam Plant Cloak",
+		de: "Burmadame Pflanzenumhang"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magical Needle",
+				de: "Zaubernadel"
 			},
 			effect: {
 				en: "Remove 2 damage counters from 1 of your Benched Pokémon.",
+				de: "Entferne 2 Schadensmarken von 1 Pokémon auf deiner Bank."
 			},
 			damage: 20,
 
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Cloak Scale",
+				de: "Umhang-Schuppe"
 			},
 			effect: {
 				en: "If you have Wormadam Sandy Cloak in play, the Defending Pokémon is now Burned, Confused, and Poisoned.",
+				de: "Wenn du Burmadame Sandumhang im Spiel hast, ist das Verteidigende Pokémon jetzt verbrannt, verwirrt und vergiftet."
 			},
 			damage: 50,
 

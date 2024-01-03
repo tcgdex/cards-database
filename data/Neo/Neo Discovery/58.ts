@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Mareep",
-		fr: "Wattouat"
+		fr: "Wattouat",
+		de: "Voltilamm"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
-				fr: "Secousse Tonnerre"
+				fr: "Secousse Tonnerre",
+				de: "Donnerrüttler"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Mareep does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, Wattouat s'inflige 10 dégâts."
+				fr: "Lancez une pièce. Si c'est face, Wattouat s'inflige 10 dégâts.",
+				de: "Wirf eine Münze. Bei \"Zahl\" fügt sich Voltilamm selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

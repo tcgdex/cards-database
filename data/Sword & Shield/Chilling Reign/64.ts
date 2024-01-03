@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Tika Matsuno",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 	hp: 120,

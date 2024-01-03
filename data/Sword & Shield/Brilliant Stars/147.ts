@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Forschung des Professors"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Trainer",
 
 	effect: {
@@ -26,7 +26,13 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	regulationMark: "D"
+	regulationMark: "D",
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

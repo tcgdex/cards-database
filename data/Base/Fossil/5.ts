@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Gengar",
-		fr: "Ectoplasma"
+		fr: "Ectoplasma",
+		de: "Gengar"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Curse",
-				fr: "Malédiction"
+				fr: "Malédiction",
+				de: "Fluchen"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is Asleep, Confused, or Paralyzed.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts depuis 1 des Pokémon de votre adversaire vers un autre (même si cela met l'autre Pokémon K.O.). Ce pouvoir ne peut être utilisé si Ectoplasma est Endormi, Confus ou Paralysé."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts depuis 1 des Pokémon de votre adversaire vers un autre (même si cela met l'autre Pokémon K.O.). Ce pouvoir ne peut être utilisé si Ectoplasma est Endormi, Confus ou Paralysé.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Schadensmarke von einem Pokémon deines Gegners auf ein anderes verschieben (selbst wenn du dieses Pokémon damit kampfunfähig machst). Diese Fähigkeit kann nicht eingesetzt werden, falls Gegna schläft,verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Mind",
-				fr: "Sombre-esprit"
+				fr: "Sombre-esprit",
+				de: "Finsteres Gemüt"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)"
+				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)",
+				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 30,
 

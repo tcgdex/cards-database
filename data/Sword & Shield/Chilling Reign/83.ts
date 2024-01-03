@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "KEIICHIRO ITO",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],

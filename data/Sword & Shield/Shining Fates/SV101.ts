@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Lee HyunJung",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Slowpoke",
-		fr: "Ramoloss"
+		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fishing Tail",
-				fr: "Queue de pêche"
+				fr: "Queue de pêche",
+				de: "Angelschweif"
 			},
 			effect: {
 				en: "Search your discard pile for a Baby Pokémon, Basic Pokémon, Evolution card, or basic Energy card, show it to your opponent, and then put it into your hand.",
-				fr: "Cherchez dans votre pile de défausse une carte Bébé Pokémon, Pokémon de base ou Évolution, ou une Carte Énergie de base. Montrez-la à votre adversaire et ajoutez-la ensuite à votre main."
+				fr: "Cherchez dans votre pile de défausse une carte Bébé Pokémon, Pokémon de base ou Évolution, ou une Carte Énergie de base. Montrez-la à votre adversaire et ajoutez-la ensuite à votre main.",
+				de: "Durchsuche deinen Ablagestapel nach einem Baby-Pokémon, einem Basis-Pokémon, einer Entwicklungskarte oder einer Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,

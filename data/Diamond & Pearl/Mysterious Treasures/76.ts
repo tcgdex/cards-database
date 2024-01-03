@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Chansey",
-		fr: "Leveinard"
+		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Scrunch",
-				fr: "Compresse"
+				fr: "Compresse",
+				de: "Zähneknirschen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Chansey by attacks during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Leveinard par des attaques lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Leveinard par des attaques lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere alle Schadenspunkte, die Chaneira während des nächsten Zuges deines Gegners durch Angriffe zugefügt werden."
 			},
 
 		},
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
-				fr: "Damoclès"
+				fr: "Damoclès",
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "Chansey does 60 damage to itself.",
-				fr: "Leveinard s'inflige 60 dégâts."
+				fr: "Leveinard s'inflige 60 dégâts.",
+				de: "Chaneira fügt sich selbst 60 Schadenspunkte zu."
 			},
 			damage: 80,
 

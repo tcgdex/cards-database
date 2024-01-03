@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Beldum",
 		fr: "Terhal",
+		de: "Tanhel"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Pit Search",
 				fr: "Recherche dans la fosse",
+				de: "Grubensuche"
 			},
 			effect: {
 				en: "Search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck une carte Stade, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach 1 Stadion-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -44,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,

@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Shiftry",
-		fr: "Tengalice"
+		fr: "Tengalice",
+		de: "Tengulist"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Fan Away",
-				fr: "Faire de l'air"
+				fr: "Faire de l'air",
+				de: "Fan Away"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, return 1 Energy card attached to the Defending Pokémon to your opponent's hand. This power can't be used if Shiftry is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, votre adversaire reprend dans sa main une carte Énergie attachée au Pokémon Défenseur. Ce pouvoir ne peut pas être utilisé si Tengalice est affecté par un État Spécial."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, votre adversaire reprend dans sa main une carte Énergie attachée au Pokémon Défenseur. Ce pouvoir ne peut pas être utilisé si Tengalice est affecté par un État Spécial.",
+				de: "Once during your turn (before your attack), you may flip a coin. If heads, return 1 Energy card attached to the Defending Pokémon to your opponent's hand. This power can't be used if Shiftry is affected by a Special Condition."
 			},
 		},
 	],
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Light Touch Throw",
-				fr: "Lancer léger"
+				fr: "Lancer léger",
+				de: "Light Touch Throw"
 			},
 			effect: {
 				en: "Does 80 damage minus 10 damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 80 dégâts moins 10 dégâts pour chaque Énergie attachée au Pokémon Défenseur."
+				fr: "Inflige 80 dégâts moins 10 dégâts pour chaque Énergie attachée au Pokémon Défenseur.",
+				de: "Does 80 damage minus 10 damage for each Energy attached to the Defending Pokémon."
 			},
 			damage: "80-",
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Glameow",
 		fr: "Chaglam",
+		de: "Charmian"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Captivate",
 				fr: "Séduction",
+				de: "Liebreiz"
 			},
 			effect: {
 				en: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon.",
 				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs.",
+				de: "Tausche 1 Verteidigendes Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 20,

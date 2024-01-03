@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Rhydon",
+		de: "Rizeros"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stomp",
+				de: "Stampfer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
+				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -47,13 +50,18 @@ const card: Card = {
 				"Colorless",
 				"Colorless",
 			],
+
 			name: {
 				en: "Giant Tail",
-			},
-			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Riesenschweif"
 			},
 
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+			},
+
+			damage: 100
 		},
 	],
 	weaknesses: [

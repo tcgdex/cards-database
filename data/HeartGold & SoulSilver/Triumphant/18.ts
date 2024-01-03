@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dragonite",
 		fr: "Dracolosse",
+		de: "Dragoran"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -39,10 +40,12 @@ const card: Card = {
 			name: {
 				en: "Calming Wind",
 				fr: "Vent apaisant",
+				de: "Beruhigender Wind"
 			},
 			effect: {
 				en: "Remove all Special Conditions from Dragonite.",
 				fr: "Retirez tous les États Spéciaux à Dracolosse.",
+				de: "Entferne alle Speziellen Zustände von Dragoran."
 			},
 			damage: 50,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Dragon Stamp",
 				fr: "Dragofrappe",
+				de: "Drachenstampfer"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are tails, this attack does nothing. If both of them are heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez 2 pièces. Si vous obtenez deux fois un côté pile, cette attaque ne fait rien. Si vous obtenez deux fois face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 2 Münzen. Wenn beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen. Wenn beide Münzen \"Kopf\" zeigen, ist das Verteidigende Pokémon jezt gelähmt."
 			},
 			damage: 80,
 

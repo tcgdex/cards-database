@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flop",
-				fr: "Flop"
+				fr: "Flop",
+				de: "Flop"
 			},
 
 			damage: 10,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rapid Evolution",
-				fr: "Évolution rapide"
+				fr: "Évolution rapide",
+				de: "Rapid Evolution"
 			},
 			effect: {
 				en: "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Léviator ou Léviator obscur et placez-la sur Magicarpe. (Cela revient à faire évoluer Magicarpe). Mélangez ensuite votre deck."
+				fr: "Cherchez dans votre deck une carte Léviator ou Léviator obscur et placez-la sur Magicarpe. (Cela revient à faire évoluer Magicarpe). Mélangez ensuite votre deck.",
+				de: "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward."
 			},
 
 		},

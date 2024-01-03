@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magmar",
 		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Live Coal",
 				fr: "Charbon mutant",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Magma Punch",
 				fr: "Poing magma",
+				de: "Magmahieb"
 			},
 
 			damage: 20,

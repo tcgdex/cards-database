@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hoppip",
 		fr: "Granivol",
+		de: "Hoppspross"
 	},
 
 	illustrator: "sui",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Bounce",
 				fr: "Faire des bonds",
+				de: "Sprungfeder"
 			},
 			effect: {
 				en: "You may switch Hoppip with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Granivol contre un Pokémon de votre Banc.",
+				de: "Du kannst Hoppspross gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 10,
 

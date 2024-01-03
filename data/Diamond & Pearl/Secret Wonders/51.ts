@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ivysaur",
 		fr: "Herbizarre",
+		de: "Bisaknosp"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Leech Seed",
 				fr: "Vampigraine",
+				de: "Egelsamen"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Ivysaur.",
 				fr: "Retirez à Herbizarre 1 marqueur de dégât.",
+				de: "Entferne 1 Schadensmarke von Bisaknosp."
 			},
 			damage: 20,
 
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 60,

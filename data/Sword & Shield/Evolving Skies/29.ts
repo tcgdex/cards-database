@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Garados VMAX"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Water"],

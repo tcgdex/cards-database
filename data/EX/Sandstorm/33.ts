@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Breloom",
-		fr: "Chapignon"
+		fr: "Chapignon",
+		de: "Kapilz"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Poison Breath",
-				fr: "Super haleine empoisonnée"
+				fr: "Super haleine empoisonnée",
+				de: "Super Poison Breath"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Poisoned.",
-				fr: "Chaque Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Chaque Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Each Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sky Uppercut",
-				fr: "Stratopercut"
+				fr: "Stratopercut",
+				de: "Sky Uppercut"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "This attack's damage is not affected by Resistance."
 			},
 			damage: 50,
 

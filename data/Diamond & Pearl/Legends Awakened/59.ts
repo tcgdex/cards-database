@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lanturn",
 		fr: "Lanturn",
+		de: "Lanturn"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Energy Split",
 				fr: "Séparation d'Énergie",
+				de: "Energie-Spaltung"
 			},
 			effect: {
 				en: "This attack does 30 damage to each of your opponent's Pokémon that has any Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 30 dégâts à chacun des Pokémon de votre adversaire possédant des cartes Énergie. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt allen Pokémon deines Gegners, an denen mindestens 1 Energiekarte angelegt ist, 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Bolt",
 				fr: "Aqua-boulon",
+				de: "Aquaschuss"
 			},
 			effect: {
 				en: "Does 60 damage plus 10 more damage for each Water Energy attached to Lanturn.",
 				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Water attachée à Lanturn.",
+				de: "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Lanturn angelegte -Energie zu."
 			},
 			damage: "60+",
 

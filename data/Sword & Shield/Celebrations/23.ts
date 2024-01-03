@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Forschung des Professors (Prof. Eich)"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Trainer",
 
 	effect: {

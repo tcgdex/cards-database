@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "AKIRA EGAWA",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 	hp: 90,

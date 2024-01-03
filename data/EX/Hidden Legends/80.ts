@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Voltorb",
-		fr: "Voltorbe"
+		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Recharge",
-				fr: "Recharger"
+				fr: "Recharger",
+				de: "Recharge"
 			},
 			effect: {
 				en: "Search your deck for a Lightning Energy card and attach it to Voltorb. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie  et attachez-la à Voltorbe. Ensuite, mélangez votre deck."
+				fr: "Choisissez dans votre deck une carte Énergie  et attachez-la à Voltorbe. Ensuite, mélangez votre deck.",
+				de: "Search your deck for a  Energy card and attach it to Voltorb. Shuffle your deck afterward."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Attack",
-				fr: "Attaque qui roule"
+				fr: "Attaque qui roule",
+				de: "Rolling Attack"
 			},
 
 			damage: 20,

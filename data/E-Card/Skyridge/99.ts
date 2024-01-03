@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Slugma",
+		de: "Schneckmag"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Singe",
+				de: "Versengung"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
+				de: "Das verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 10,
 

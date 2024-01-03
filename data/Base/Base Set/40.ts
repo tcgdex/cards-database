@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Raticate",
-		fr: "Rattatac"
+		fr: "Rattatac",
+		de: "Rattikarl"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -49,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Fang",
-				fr: "Croc Fatal"
+				fr: "Croc Fatal",
+				de: "Superzahn"
 			},
 			effect: {
 				en: "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10).",
-				fr: "Inflige une quantité de dégâts au Pokémon Défenseur égale à la moitié de ses PV restants (arrondis à la dizaine la plus proche)."
+				fr: "Inflige une quantité de dégâts au Pokémon Défenseur égale à la moitié de ses PV restants (arrondis à la dizaine la plus proche).",
+				de: "Fügt dem verteidigenden Pokémon Schadenspunkte in Höhe der Hälfte seiner verbleibenden KP (auf die nächste Zehnerstelle aufgerundet) zu."
 			},
 			damage: "?",
 

@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Magneton",
-		fr: "Magneton"
+		fr: "Magneton",
+		de: "Magneton"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Wave",
 				fr: "Cage-éclair",
+				de: "Donnerwelle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Removal Pulse",
 				fr: "Vibration suppressive",
+				de: "Entladungsimpuls"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 50,
 

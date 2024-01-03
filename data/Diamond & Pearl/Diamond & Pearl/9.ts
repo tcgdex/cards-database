@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Manaphy",
 		fr: "Manaphy",
+		de: "Manaphy"
 	},
 	illustrator: "Nakaoka",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Call for Family",
 				fr: "Appel à la famille",
+				de: "Familienruf"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck un Pokémon de Base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -45,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Ring",
 				fr: "Anneau Hydro",
+				de: "Wasserring"
 			},
 			effect: {
 				en: "Switch Manaphy with 1 of your Benched Pokémon.",
 				fr: "Échangez Manaphy avec 1 des Pokémon de votre Banc.",
+				de: "Tausche Manaphy gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 30,
 

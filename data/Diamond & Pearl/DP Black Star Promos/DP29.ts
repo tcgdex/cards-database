@@ -4,7 +4,8 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Rhyperior",
-		fr: "Rhinastoc"
+		fr: "Rhinastoc",
+		de: "Rihornior"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Common",
@@ -27,13 +28,15 @@ const card: Card = {
 
 			name: {
 				en: "Hard Crush",
-				fr: "Écras'dur"
+				fr: "Écras'dur",
+				de: "Heftiger Zermalmer"
 			},
 			effect: {
 				en: "Discard the top 5 cards of your deck. This attack does 50 damage for each Energy card you discarded.",
-				fr: "Défaussez les 5 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts par chaque carte Énergie défaussée."
+				fr: "Défaussez les 5 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts par chaque carte Énergie défaussée.",
+				de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt für jede Energiekarte, die auf diese Weise abgelegt wurde, 50 Schadenspunkte zu."
 			},
-			damage: "50×",
+			damage: "50x",
 
 		},
 		{
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Upthrow",
-				fr: "Soulèvement"
+				fr: "Soulèvement",
+				de: "Verwerfung"
 			},
 			effect: {
 				en: "Search your discard pile for all Fighting Energy cards, show them to your opponent, and shuffle them into your deck.",
-				fr: "Cherchez dans votre pile de défausse toutes les cartes Énergie Fighting, montrez-les à votre adversaire et mélangez-les à votre deck."
+				fr: "Cherchez dans votre pile de défausse toutes les cartes Énergie Fighting, montrez-les à votre adversaire et mélangez-les à votre deck.",
+				de: "Durchsuche deinen Ablagestapel nach allen -Energiekarten, zeige sie deinem Gegner und mische sie in dein Deck."
 			},
 			damage: 60,
 

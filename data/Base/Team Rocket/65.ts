@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Psyduck",
-		fr: "Psykokwak"
+		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,26 +32,30 @@ const card: Card = {
 			],
 			name: {
 				en: "Dizziness",
-				fr: "Vertige"
+				fr: "Vertige",
+				de: "Dizziness"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				de: "Draw a card."
 			},
 
 		},
 		{
 			cost: [
-				"Water",
 				"Colorless",
+				"Water",
 			],
 			name: {
 				en: "Water Gun",
-				fr: "Pistolet à O"
+				fr: "Pistolet à O",
+				de: "Water Gun"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way.",
-				fr: "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Psykokwak en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+				fr: "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Psykokwak en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				de: "Does 20 damage plus 10 more damage for each  Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way."
 			},
 			damage: "20+",
 

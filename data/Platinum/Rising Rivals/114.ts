@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Surfing Pikachu",
 		fr: "Pikachu surfeur Niv. 13",
+		de: "Surfendes Pikachu"
 	},
 	illustrator: "Toshinao Aoki",
 	rarity: "Rare",
@@ -31,6 +32,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				de: "Surfer"
 			},
 
 			damage: 30,

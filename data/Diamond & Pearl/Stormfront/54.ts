@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Bidoof",
-		fr: "Keunotor"
+		fr: "Keunotor",
+		de: "Bidiza"
 	},
 
 	illustrator: "Yuka Morii",
@@ -36,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Yawn",
 				fr: "Baillement",
+				de: "Gähnen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -50,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Self-abandonment",
 				fr: "S'abandonner",
+				de: "Selbstlosigkeit"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage to the Defending Pokémon. If tails, Bidoof does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts au Pokémon Défenseur. Si c'est pile, Keunotor s'inflige 10 dégâts.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff dem Verteidigenden Pokémon 30 Schadenspunkte zu. Bei \"Zahl\" fügt Bidiza sich selbst 10 Schadenspunkte zu."
 			},
 
 		},

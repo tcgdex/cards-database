@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Sudowoodo",
-		fr: "Simularbre"
+		fr: "Simularbre",
+		de: "Mogelbaum"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,13 +32,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
-				fr: "Fleau"
+				fr: "Fleau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Sudowoodo.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Simularbre."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Simularbre.",
+				de: "Fügt 10 Schadenspunkte mal der Anzahl der Schadensmarken auf Mogelbaum zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Throw",
-				fr: "Jet-pierres"
+				fr: "Jet-pierres",
+				de: "Steinwurf"
 			},
 
 			damage: 30,

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "aky CG Works",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare V",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Fighting"],

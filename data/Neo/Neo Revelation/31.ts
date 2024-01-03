@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Jynx",
-		fr: "Lippoutou"
+		fr: "Lippoutou",
+		de: "Rossana"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Freezing Kiss Goodnight",
-				fr: "Bisou glacial"
+				fr: "Bisou glacial",
+				de: "Freezing Kiss Goodnight"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Strange Dance",
-				fr: "Danse étrange"
+				fr: "Danse étrange",
+				de: "Strange Dance"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Confused. If tails, this attack does 20 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus. Si c'est pile, cette attaque inflige 20 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus. Si c'est pile, cette attaque inflige 20 dégâts.",
+				de: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Confused. If tails, this attack does 20 damage."
 			},
 			damage: "20+",
 

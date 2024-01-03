@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Caterpie",
 		fr: "Chenipan",
+		de: "Raupy"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,

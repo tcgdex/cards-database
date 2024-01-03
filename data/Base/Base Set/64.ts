@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Starmie",
-		fr: "Staross"
+		fr: "Staross",
+		de: "Starmie"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Recover",
-				fr: "Soin"
+				fr: "Soin",
+				de: "Erholung"
 			},
 			effect: {
 				en: "Discard 1 Energy card to Starmie in order to use this attack. Remove all damage counters from Starmie.",
-				fr: "Défaussez 1 carte Énergie  attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross."
+				fr: "Défaussez 1 carte Énergie  attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross.",
+				de: "Entferne eine auf Starmie abgelegte  Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Starmie."
 			},
 
 		},
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Star Freeze",
-				fr: "Étoile gelante"
+				fr: "Étoile gelante",
+				de: "Sternenfrost"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt."
 			},
 			damage: 20,
 

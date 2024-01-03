@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Abomasnow",
-		fr: "Blizzaroi"
+		fr: "Blizzaroi",
+		de: "Rexblisar"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Glacier Snow",
-				fr: "Neige de glacier"
+				fr: "Neige de glacier",
+				de: "Gletscherschnee"
 			},
 			effect: {
 				en: "If Abomasnow is your Active Pokémon and is damaged by an opponent's attack (even if Abomasnow is Knocked Out), the Attacking Pokémon is now Asleep.",
-				fr: "Si Blizzaroi est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Blizzaroi est mis K.O), le Pokémon Attaquant est maintenant Endormi."
+				fr: "Si Blizzaroi est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Blizzaroi est mis K.O), le Pokémon Attaquant est maintenant Endormi.",
+				de: "Wenn Rexblisar dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Rexblisar dadurch kampfunfähig wird), schläft das Angreifende Pokémon jetzt."
 			},
 		},
 	],
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Heavy Blizzard",
-				fr: "Gros blizzard"
+				fr: "Gros blizzard",
+				de: "Schwerer Schneesturm"
 			},
 			effect: {
 				en: "Flip a coin. If heads, put 1 damage counter on each of your opponent's Benched Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, placez 1 marqueur de dégât sur chaque Pokémon de Banc de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, placez 1 marqueur de dégât sur chaque Pokémon de Banc de votre adversaire.",
+				de: "Wirf 1 Münze. Bei 'Kopf' lege 1 Schadensmarke auf jedes Pokémon auf der Bank deines Gegners."
 			},
 			damage: 60,
 

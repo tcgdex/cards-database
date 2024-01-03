@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Golem",
-		fr: "Grolem"
+		fr: "Grolem",
+		de: "Geowaz"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -38,7 +39,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Avalanche",
-				fr: "Avalanche"
+				fr: "Avalanche",
+				de: "Lawine"
 			},
 
 			damage: 60,
@@ -53,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Selfdestruct",
-				fr: "Destruction"
+				fr: "Destruction",
+				de: "Finale"
 			},
 			effect: {
 				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself.",
-				fr: "Inflige 20 dégâts à chacun des Pokémon du Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Grolem s'inflige 100 dégâts."
+				fr: "Inflige 20 dégâts à chacun des Pokémon du Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Grolem s'inflige 100 dégâts.",
+				de: "Fügt jeden Pokémon auf der bank eines jeden Spielers 20 Schadenspunkte zu. (Schwäche und resistenz für Pokémon auf der bank nicht anwenden.) Geowaz fügt sich selbst 100 Schadenspunkte zu."
 			},
 			damage: 100,
 

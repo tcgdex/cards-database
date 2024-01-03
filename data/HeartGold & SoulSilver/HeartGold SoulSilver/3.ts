@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Clefable",
 		fr: "Mélodelfe",
+		de: "Pixi"
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Fairy Power",
 				fr: "Pouvoir de fée",
+				de: "Feenmacht"
 			},
 			effect: {
 				en: "Return 1 of your Pokémon and all cards attached to it to your hand.",
 				fr: "Reprenez un de vos Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
+				de: "Nimm 1 deiner Pokémon und alle an es angelegten Karten auf deine Hand zurück."
 			},
 
 		},
@@ -53,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Moon Impact",
 				fr: "Impact lunaire",
+				de: "Mondeinschlag"
 			},
 
 			damage: 40,

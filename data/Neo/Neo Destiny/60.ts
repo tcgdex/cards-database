@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Unown [Z]",
-		fr: "Zarbi Z"
+		fr: "Zarbi Z",
+		de: "Icognito Z"
 	},
 
 	illustrator: "CR CG gangs",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "[Zoom]",
-				fr: "[Zoom]"
+				fr: "[Zoom]",
+				de: "Zoom"
 			},
 			effect: {
 				en: "As long as Unown Z is Benched, you pay no Energy cost to retreat a Pokémon with Unown in its name.",
-				fr: "Tant que Zarbi [Z] est sur votre Banc, vous ne payez aucun coût d'Énergie pour faire battre en retraite vos Pokémon Zarbi."
+				fr: "Tant que Zarbi [Z] est sur votre Banc, vous ne payez aucun coût d'Énergie pour faire battre en retraite vos Pokémon Zarbi.",
+				de: "As long as Unwon Z is benched, you may pay no Energy cost to retreat Pokémon with Unown in its name."
 			},
 		},
 	],
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hidden Power",
-				fr: "Puissance cachée"
+				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 10,

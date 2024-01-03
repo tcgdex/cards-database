@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shinx",
 		fr: "Lixy",
+		de: "Sheinux"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -31,6 +32,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,

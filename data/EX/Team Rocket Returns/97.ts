@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Rocket's Entei ex",
+		de: "Rockets Entei ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dark Condition",
+				de: "Dark Condition"
 			},
 			effect: {
 				en: "As long as Rocket's Entei ex has any Darkness Energy attached to it, Rocket's Entei ex has no Weakness.\"",
+				de: "As long as Rocket's Entei ex has any  Energy attached to it, Reocket's Entei ex has no Weakness."
 			},
 		},
 	],
@@ -38,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Link",
+				de: "Energy Link"
 			},
 			effect: {
 				en: "Search your discard pile for an Energy card and attach it to Rocket's Entei ex.",
+				de: "Search your discard pile for an Energy card and attach it to Rocket's Entei ex."
 			},
 			damage: 10,
 
@@ -53,9 +58,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Volcanic Ash",
+				de: "Volcanic Ash"
 			},
 			effect: {
 				en: "Discard 2 Energy attached to Rocket's Entei ex and then choose 1 of your opponent's Pok��mon. This attack does 60 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				de: "Discard 2 Energy attached to Rocket's Entei ex and then choose 1 of your opponent's Pokémon. This attack does 60 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

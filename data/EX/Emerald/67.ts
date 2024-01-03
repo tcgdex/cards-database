@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Swablu",
-		fr: "Tylton"
+		fr: "Tylton",
+		de: "Wablu"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Feathery",
-				fr: "Doux comme une plume"
+				fr: "Doux comme une plume",
+				de: "Feathery"
 			},
 			effect: {
 				en: "As long as Swablu is on your Bench, prevent all damage done to Swablu by opponent's attacks.",
-				fr: "Tant que Tylton est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques de votre adversaire."
+				fr: "Tant que Tylton est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques de votre adversaire.",
+				de: "As long as Swablu is on your Bench, prevent all damage done to Swablu by opponent's attacks."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Wind",
-				fr: "Coupe-vent"
+				fr: "Coupe-vent",
+				de: "Razor Wind"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20,
 

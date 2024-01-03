@@ -4,9 +4,10 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Houndoom",
+		de: "Hundemon"
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Counterattack",
+				de: "Feuerkonter"
 			},
 			effect: {
 				en: "If your opponent has any Fighting Pokémon in play, this attack does 20 damage plus 60 more damage.",
+				de: "Wenn dein Gegner mindestens 1 -Pokémon im Spiel hat, fügt dieser Angriff 20 Schadenspunkte plus 60 weitere Schadenspunkte zu."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Roar",
+				de: "Finsternisbrüller"
 			},
 			effect: {
 				en: "Your opponent discards a card from his or her hand.",
+				de: "Der Gegner legt eine seiner Handkarten auf seinen Ablagestapel."
 			},
 			damage: 50,
 

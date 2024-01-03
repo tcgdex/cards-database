@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Raichu ex",
-		fr: "Raichu ex"
+		fr: "Raichu ex",
+		de: "Raichu ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dazzle Blast",
-				fr: "Explosion de lumière"
+				fr: "Explosion de lumière",
+				de: "Dazzle Blast"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -48,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Thunderbolt",
-				fr: "Méga tonnerre"
+				fr: "Méga tonnerre",
+				de: "Mega Thunderbolt"
 			},
 			effect: {
 				en: "Discard all Energy cards attached to Raichu ex.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Raichu ex."
+				fr: "Défaussez toutes les cartes Énergie attachées à Raichu ex.",
+				de: "Discard all Energy cards attacked to Raichu ex."
 			},
 			damage: 120,
 

@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti"
+		fr: "Magneti",
+		de: "Magnetilo"
 	},
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "Uncommon",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Attract",
-				fr: "Attraction"
+				fr: "Attraction",
+				de: "Attract"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it.",
-				fr: "Choisissez un des Pokémon du Banc de votre adversaire et échangez-le contre le Pokémon Défenseur."
+				fr: "Choisissez un des Pokémon du Banc de votre adversaire et échangez-le contre le Pokémon Défenseur.",
+				de: "Choose 1 of your opponent´s Benched Pokémon and switch the Defending Pokémon with it."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Purugly",
 		fr: "Chaffreux",
+		de: "Shnurgarst"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "High Hat",
 				fr: "Chapeau haut",
+				de: "Hoher Hut"
 			},
 			effect: {
 				en: "Choose 1 card from your opponent's hand without looking and discard it.",
 				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la.",
+				de: "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Dein Gegner legt diese Karte auf seinen Ablagestapel."
 			},
 
 		},
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Body Slam",
 				fr: "Plaquage",
+				de: "Bodyslam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 50,
 

@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Water Energy",
-		fr: "Énergie Eau"
+		fr: "Énergie Eau",
+		de: "Wasserenergie"
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",

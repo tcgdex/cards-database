@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Energy Returner",
 		fr: "Récupérateur d’énergie",
+		de: "Energie-Rückgewinnung"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Cherchez 4 cartes Énergie de base dans votre pile de défausse, montrez-les à votre adversaire et mélangez-les à votre deck.",
-		en: "Search your discard pile for 4 basic Energy cards, show them to your opponent, and shuffle them into your deck."
+		en: "Search your discard pile for 4 basic Energy cards, show them to your opponent, and shuffle them into your deck.",
+		de: "Durchsuche deinen Ablagestapel nach 4 Basis-Energiekarten, zeige sie deinem Gegner und mische sie in dein Deck."
 	},
 
 	trainerType: "Item",

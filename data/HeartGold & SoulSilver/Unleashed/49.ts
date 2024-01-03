@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Horsea",
 		fr: "Hypotrempe",
+		de: "Seeper"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -45,12 +47,14 @@ const card: Card = {
 			name: {
 				en: "Fin Smack",
 				fr: "Coup d’aileron",
+				de: "Flossenklatscher"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

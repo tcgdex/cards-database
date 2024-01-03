@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Manaphy",
 		fr: "Manaphy",
+		de: "Manaphy"
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Deep Sea Swirl",
 				fr: "Remous abyssal",
+				de: "Tiefseewirbel"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw 5 cards.",
 				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
+				de: "Mische deine Handkarten in dein Deck. Ziehe danach 5 Karten."
 			},
 
 		},
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 20,

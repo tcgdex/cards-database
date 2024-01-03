@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Goldeen",
-		fr: "Poissirène"
+		fr: "Poissirène",
+		de: "Goldini"
 	},
 	illustrator: "Masako Yamashita",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Splash",
-				fr: "Trempette"
+				fr: "Trempette",
+				de: "Platscher"
 			},
 
 			damage: 10,

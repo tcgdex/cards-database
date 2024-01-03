@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Mew"
 	},
 
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],

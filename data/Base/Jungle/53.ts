@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Goldeen",
-		fr: "Poissirène"
+		fr: "Poissirène",
+		de: "Goldini"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Attack",
-				fr: "Koud'korne"
+				fr: "Koud'korne",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,

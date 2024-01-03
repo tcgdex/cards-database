@@ -4,9 +4,10 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Hitmontop",
+		de: "Kapoera"
 	},
 	illustrator: "Shigenori Negishi",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -28,11 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Triple Kick",
+				de: "Dreifachkick"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 		{
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Close Combat",
+				de: "Nahkampf"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Hitmontop by attacks is increased by 20 (after applying Weakness and Resistance).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Kapoera durch Angriffe zugefügt wird, um 20 Schadenspunkte erhöht (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 60,
 

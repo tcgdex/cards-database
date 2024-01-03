@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Squirtle",
 		fr: "Carapuce",
+		de: "Schiggy"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Skull Bash",
 				fr: "Coud'krane",
+				de: "Skull Bash"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Bite"
 			},
 
 			damage: 20,

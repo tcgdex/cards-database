@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Sableye",
-		fr: "Tenefix"
+		fr: "Tenefix",
+		de: "Zobiris"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Night Vision",
-				fr: "Vision de nuit"
+				fr: "Vision de nuit",
+				de: "Night Vision"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Sableye is your Active Pokémon, you may look at your opponent's hand. This power can't be used if Sableye is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Tenefix est votre Pokémon Actif, vous pouvez regarder la main de votre adversaire. Ce pouvoir ne peut pas être utilisé si Tenefix est affecté par un État Spécial."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), si Tenefix est votre Pokémon Actif, vous pouvez regarder la main de votre adversaire. Ce pouvoir ne peut pas être utilisé si Tenefix est affecté par un État Spécial.",
+				de: "Once during your turn (before your attack), if Sableye is your Active Pokémon, you may look at your opponent's hand. This power can't be used if Sableye is affected by a Special Condition."
 			},
 		},
 	],
@@ -41,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Slash"
 			},
 
 			damage: 10,
@@ -53,11 +57,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Limitation",
-				fr: "Restriction"
+				fr: "Restriction",
+				de: "Limitation"
 			},
 			effect: {
 				en: "Your opponent can't play any Supporter cards from his or her hand during your opponent's next turn.",
-				fr: "Votre adversaire ne peut pas jouer de cartes Supporter de sa main lors de son prochain tour."
+				fr: "Votre adversaire ne peut pas jouer de cartes Supporter de sa main lors de son prochain tour.",
+				de: "Your opponent can't play any Supporter cards from his or her hand during your opponent's next turn."
 			},
 
 		},

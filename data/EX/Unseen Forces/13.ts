@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Slowbro",
-		fr: "Flagadoss"
+		fr: "Flagadoss",
+		de: "Lahmus"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dual Armor",
-				fr: "Double armure"
+				fr: "Double armure",
+				de: "Dual Armor"
 			},
 			effect: {
 				en: "As long as Slowbro has any Psychic Energy attached to it, Slowbro is both Water and Psychic type.",
-				fr: "Tant que Flagadoss possède des Énergies , il est à la fois de type  et ."
+				fr: "Tant que Flagadoss possède des Énergies , il est à la fois de type  et .",
+				de: "As long as Slowbro has any  Energy attached to it, Slowbro is both  and  type."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Parallel Gain",
-				fr: "Gain parallèle"
+				fr: "Gain parallèle",
+				de: "Parallel Gain"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon (including Slowbro).",
-				fr: "Retirez 1 marqueur de dégât à chacun de vos Pokémon (Flagadoss inclus)."
+				fr: "Retirez 1 marqueur de dégât à chacun de vos Pokémon (Flagadoss inclus).",
+				de: "Remove 1 damage counter from each of your Active Pokémon (including Slowbro)."
 			},
 			damage: 20,
 
@@ -60,7 +65,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Tackle",
-				fr: "Roulé-boulé"
+				fr: "Roulé-boulé",
+				de: "Rolling Tackle"
 			},
 
 			damage: 50,

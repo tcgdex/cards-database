@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Ledian",
+		de: "Ledian"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Powder Protection",
+				de: "Powder Protection"
 			},
 			effect: {
 				en: "Any damage done to Ledian by attacks from Pokémon that has an owner in its name is reduced by 40.",
+				de: "Any damage done to Ledian by attacks from Pokémon that has an owner in its name is reduced by 40."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Split Spiral Punch",
+				de: "Split Spiral Punch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -56,6 +61,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				de: "Tackle"
 			},
 
 			damage: 50,

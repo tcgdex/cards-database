@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "NC Empire",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Metal"],

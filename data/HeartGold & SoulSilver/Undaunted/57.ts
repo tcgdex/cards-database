@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Misdreavus",
 		fr: "Feuforeve",
+		de: "Traunfugil"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Mumble",
 				fr: "Marmonner",
+				de: "Grummeln"
 			},
 
 			damage: 10,
@@ -44,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Dual Draw",
 				fr: "Pioche mutuelle",
+				de: "Doppelzug"
 			},
 			effect: {
 				en: "Each player draws 3 cards.",
 				fr: "Chaque joueur pioche 3 cartes.",
+				de: "Jeder Spieler zieht 3 Karten."
 			},
 
 		},

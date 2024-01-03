@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Arcanine",
 		fr: "Arcanin",
+		de: "Arkani"
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -38,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Sharp Fang",
 				fr: "Croc aiguisé",
+				de: "Scharfe Fänge"
 			},
 
 			damage: 50,
@@ -53,6 +55,7 @@ const card: Card = {
 			name: {
 				en: "Fire Mane",
 				fr: "Crinière de feu",
+				de: "Flammenmähne"
 			},
 
 			damage: 90,

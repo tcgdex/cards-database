@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shellos West Sea",
 		fr: "Sancoki Mer Occident Niv. 27",
+		de: "Schalellos Westliches Meer"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Healing Sea",
 				fr: "Mer guérisseuse",
+				de: "Heilendes Meer"
 			},
 			effect: {
 				en: "Flip 2 coins. Choose 1 of your Pokémon. For each heads, remove 1 damage counter from that Pokémon.",
 				fr: "Lancez 2 pièces. Choisissez 1 de vos Pokémon. Pour chaque face, retirez-lui 1 marqueur de dégât.",
+				de: "Wirf 2 Münzen. Wähle 1 deiner Pokémon. Entferne pro \"Kopf\" 1 Schadensmarke vom gewählten Pokémon."
 			},
 
 		},
@@ -43,6 +46,7 @@ const card: Card = {
 			name: {
 				en: "Mud Shot",
 				fr: "Tir de boue",
+				de: "Lehmschuss"
 			},
 
 			damage: 20,

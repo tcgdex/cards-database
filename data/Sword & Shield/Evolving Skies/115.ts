@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Trikephalo"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Dragon"],

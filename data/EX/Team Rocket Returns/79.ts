@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Swinub",
+		de: "Quiekel"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rest",
+				de: "Rest"
 			},
 			effect: {
 				en: "Remove all Special Conditions and all damage counters from Swinub. Swinub is now Asleep.",
+				de: "Remove all Special Conditions and all damage counters from Swinub. Swinub is now Asleep."
 			},
 
 		},

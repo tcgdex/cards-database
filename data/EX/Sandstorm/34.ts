@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Delcatty",
-		fr: "Delcatty"
+		fr: "Delcatty",
+		de: "Enekoro"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 30,
@@ -46,13 +48,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Ultra Energy Source",
-				fr: "Source d'énergie ultra"
+				fr: "Source d'énergie ultra",
+				de: "Ultra Energiequelle"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of basic Energy attached to all of the Active Pokémon (both yours and your opponent's).",
-				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées aux Pokémon Actifs (les vôtres et ceux de votre adversaire)."
+				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées aux Pokémon Actifs (les vôtres et ceux de votre adversaire).",
+				de: "Fügt für jede Basis-Energie, die an allen Aktiven Pokémon (deine und die des Gegners) angelegt ist, 10 Schadenspunkte zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

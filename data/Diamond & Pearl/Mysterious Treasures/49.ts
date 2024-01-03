@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Girafarig",
-		fr: "Girafarig"
+		fr: "Girafarig",
+		de: "Girafarig"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Crane Neck",
-				fr: "Grue"
+				fr: "Grue",
+				de: "Halsrecker"
 			},
 			effect: {
 				en: "Search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Supporter, montrez-la à votre adversaire et placez-la dans votre main. Ensuite mélangez votre deck."
+				fr: "Choisissez dans votre deck une carte Supporter, montrez-la à votre adversaire et placez-la dans votre main. Ensuite mélangez votre deck.",
+				de: "Durchsuche dein Deck nach einer Trainerkarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psybeam",
-				fr: "Rafale psy"
+				fr: "Rafale psy",
+				de: "Psystrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 

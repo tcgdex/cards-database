@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Donphan",
+		de: "Donphan"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -32,9 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Hurl",
+				de: "Steinschleuderer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 50,
 
@@ -48,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Spin",
+				de: "Doppeldreher"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: 70,
+			damage: "70x",
 
 		},
 	],

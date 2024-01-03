@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Hitmonchan",
-		fr: "Tygnon"
+		fr: "Tygnon",
+		de: "Nockchan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Jab",
-				fr: "Taquet"
+				fr: "Taquet",
+				de: "Boxschlag"
 			},
 
 			damage: 20,
@@ -45,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Special Punch",
-				fr: "Punch Spécial"
+				fr: "Punch Spécial",
+				de: "Spezialschlag"
 			},
 
 			damage: 40,

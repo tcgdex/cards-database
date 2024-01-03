@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Elekid",
-		fr: "Elekid"
+		fr: "Elekid",
+		de: "Elekid"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Playful Punch",
-				fr: "Poing joueur"
+				fr: "Poing joueur",
+				de: "Playful Punch"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, do 20 damage to your opponent's Active Pokémon. (Apply Weakness and Resistance.) Either way, this ends your turn. This power can't be used if Elekid is Asleep, Confused, or Paralyzed.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, infligez 20 dégâts au Pokémon Actif de votre adversaire. (Appliquez la Faiblesse et la Résistance.) Que ce soit pile ou face, cela termine votre tour. Ce pouvoir ne peut être utilisé si Elekid est Endormi, Confus ou Paralysé."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, infligez 20 dégâts au Pokémon Actif de votre adversaire. (Appliquez la Faiblesse et la Résistance.) Que ce soit pile ou face, cela termine votre tour. Ce pouvoir ne peut être utilisé si Elekid est Endormi, Confus ou Paralysé.",
+				de: "Once during your turn (before your attack), you may flip a coin. If heads, do 20 damage to your opponent's Active Pokémon. (Apply Weakness and Resistance.) Either way, this ends your turn. This power can't be used if Elekid is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],

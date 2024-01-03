@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Mudkip",
-		fr: "Gobou"
+		fr: "Gobou",
+		de: "Hydropi"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Submerge",
-				fr: "Submerger"
+				fr: "Submerger",
+				de: "Untertauchen"
 			},
 			effect: {
 				en: "As long as Mudkip is on your Bench, prevent all damage done to Mudkip by attacks (both yours and your opponent's).",
-				fr: "Tant que Gobou est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (les vôtres et celles de votre adversaire)."
+				fr: "Tant que Gobou est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (les vôtres et celles de votre adversaire).",
+				de: "Solange sich Hydropi auf deiner Bank befindet, verhindere allen Schaden, der Hydropi durch Angriffe zugefügt wird (eigene und gegnerische Angriffe)."
 			},
 		},
 	],
@@ -41,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Slap",
-				fr: "Coud'boue"
+				fr: "Coud'boue",
+				de: "Lehmschelle"
 			},
 
 			damage: 10,

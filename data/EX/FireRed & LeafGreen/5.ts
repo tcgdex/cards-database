@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Exeggutor",
-		fr: "Noadkoko"
+		fr: "Noadkoko",
+		de: "Kokowei"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic Exchange",
-				fr: "Échange psychique"
+				fr: "Échange psychique",
+				de: "Psychic Exchange"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Draw up to 8 cards.",
-				fr: "Mélangez votre main avec votre deck. Piochez ensuite jusqu'à 8 cartes."
+				fr: "Mélangez votre main avec votre deck. Piochez ensuite jusqu'à 8 cartes.",
+				de: "Shuffle your hand into your deck. Draw up to 8 cards."
 			},
 
 		},
@@ -46,13 +49,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Big Eggsplosion",
-				fr: "Grosse éclate"
+				fr: "Grosse éclate",
+				de: "Big Eggsplosion"
 			},
 			effect: {
 				en: "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads",
-				fr: "Lancez une pièce pour chaque Énergie attachée à Noadkoko. Cette attaque inflige 40 dégâts multipliés par le nombre de faces."
+				fr: "Lancez une pièce pour chaque Énergie attachée à Noadkoko. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
+				de: "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads."
 			},
-			damage: "40×",
+			damage: "40x",
 
 		},
 	],

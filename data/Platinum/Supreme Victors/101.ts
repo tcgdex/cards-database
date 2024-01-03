@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Croagunk",
 		fr: "Cradopaud",
+		de: "Glibunkel"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Hook",
 				fr: "Crochet",
+				de: "Haken"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Corkscrew Punch",
 				fr: "Poing en tire-bouchon",
+				de: "Korkenzieherhieb"
 			},
 
 			damage: 20,

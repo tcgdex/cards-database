@@ -4,7 +4,8 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Turtwig",
-		fr: "Tortipouss"
+		fr: "Tortipouss",
+		de: "Chelast"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,7 +30,8 @@ const card: Card = {
 
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -41,7 +43,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				fr: "Tranch'herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 20,

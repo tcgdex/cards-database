@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Farfetch’d",
 		fr: "Canarticho",
+		de: "Porenta"
 	},
 
 	illustrator: "Aya Kusube",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw 2 cards.",
 				fr: "Piochez 2 cartes.",
+				de: "Ziehe 2 Karten."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Spin Turn",
 				fr: "Tournoyer",
+				de: "Absatzdreher"
 			},
 			effect: {
 				en: "Switch Farfetch’d with 1 of your Benched Pokémon.",
 				fr: "Échangez Canarticho avec un Pokémon de votre Banc.",
+				de: "Tausche Porenta gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 

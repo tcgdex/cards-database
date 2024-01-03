@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Chinchou",
 		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	illustrator: "sui",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Lightning Ball",
 				fr: "Boule éclair",
+				de: "Kugelblitz"
 			},
 
 			damage: 20,

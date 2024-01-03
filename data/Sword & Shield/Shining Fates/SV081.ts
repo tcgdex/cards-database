@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saya Tsuruta",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],

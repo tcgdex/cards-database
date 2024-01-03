@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "PokéDex (HANDY909)",
-		fr: "Pokédex"
+		fr: "Pokédex",
+		de: "PokéDex HANDY909"
 	},
 
 	illustrator: "K. Utsunomiya",
@@ -14,7 +15,8 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		fr: "Mélangez votre deck. Regardez les 6 cartes du dessus de votre deck puis remettez-les dans votre deck dans n'importe quel ordre."
+		fr: "Mélangez votre deck. Regardez les 6 cartes du dessus de votre deck puis remettez-les dans votre deck dans n'importe quel ordre.",
+		de: "Shuffle your deck. Look at 6 cards from the top of your deck, then put them back on top of your deck in any order."
 	}
 }
 

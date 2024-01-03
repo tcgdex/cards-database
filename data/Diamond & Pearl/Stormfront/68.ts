@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Misdreavus",
-		fr: "Feuforêve"
+		fr: "Feuforêve",
+		de: "Traunfugil"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Lullaby",
 				fr: "Comptine",
+				de: "Wiegenlied"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -48,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Nightmare Feast",
 				fr: "Festin cauchemardesque",
+				de: "Alptraumgelage"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Asleep, this attack does 50 damage and remove 5 damage counters from Misdreavus. If the Defending Pokémon is not Asleep, this attack does nothing.",
 				fr: "Si le Pokémon Défenseur est Endormi, cette attaque inflige 50 dégâts et retire à Feuforêve 5 marqueurs de dégât. Si le Pokémon Défenseur n'est pas Endormi, cette attaque est sans effet.",
+				de: "Wenn das Verteidigende Pokémon schläft, fügt dieser Angriff 50 Schadenspunkte zu und entferne 5 Schadensmarken von Traunfugil. Wenn das Verteidigende Pokémon nicht schläft, hat dieser Angriff keine Auswirkungen."
 			},
 
 		},

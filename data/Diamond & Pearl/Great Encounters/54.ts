@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Slowbro",
 		fr: "Flagadoss",
+		de: "Lahmus"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Amnesia",
 				fr: "Amnésie",
+				de: "Amnesie"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Il ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann im nächsten Zug deines Gegners den gewählten Angriff nicht einsetzen."
 			},
 			damage: 20,
 
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Zen Headbutt",
 				fr: "Psykoud'Boul",
+				de: "Zen-Kopfstoß"
 			},
 
 			damage: 60,

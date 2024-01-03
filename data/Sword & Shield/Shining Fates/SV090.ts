@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Metal"],

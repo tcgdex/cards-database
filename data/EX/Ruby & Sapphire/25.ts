@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Aron",
-		fr: "Galekid"
+		fr: "Galekid",
+		de: "Stollunior"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
-				fr: "Roulade"
+				fr: "Roulade",
+				de: "Rollout"
 			},
 
 			damage: 10,
@@ -42,13 +44,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Stab",
-				fr: "Coup double"
+				fr: "Coup double",
+				de: "Double Stab"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face."
+				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
+				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

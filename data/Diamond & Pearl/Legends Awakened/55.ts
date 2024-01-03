@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gliscor",
 		fr: "Scorvol",
+		de: "Skorgro"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Poison Jab",
 				fr: "Direct Toxik",
+				de: "Gifthieb"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Sharp Tail",
 				fr: "Queue tranchante",
+				de: "Scharfer Schweif"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

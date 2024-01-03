@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Omanyte δ",
-		fr: "Amonita δ ESPÈCES DELTA"
+		fr: "Amonita δ ESPÈCES DELTA",
+		de: "Amonitas"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collectionner"
+				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes."
+				fr: "Piochez 3 cartes.",
+				de: "Ziehe 3 Karten."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Arrow",
-				fr: "Flèche d'eau"
+				fr: "Flèche d'eau",
+				de: "Wasserpfeil"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Electrike",
 		fr: "Dynavolt",
+		de: "Frizelbliz"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Roar",
 				fr: "Hurlement",
+				de: "Roar"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
 			},
 
 		},
@@ -45,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Fang",
 				fr: "Crocs Éclair",
+				de: "Thunder Fang"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

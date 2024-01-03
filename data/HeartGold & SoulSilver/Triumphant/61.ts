@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Diglett",
 		fr: "Taupiqueur",
+		de: "Digda"
 	},
 
 	illustrator: "Shizurow",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Sand Veil",
 				fr: "Voile Sable",
+				de: "Sandschleicher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Diglett during your opponent’s next turn.",
 				fr: "Lancez une pièce. Si c’est face, prévenez tous les effets d’attaques (y compris les dégâts) infligés à Taupiqueur pendant le prochain tour de votre adversaire.",
+				de: "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Digda zugefügt werden."
 			},
 
 		},
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Mini Earthquake",
 				fr: "Mini séisme",
+				de: "Mini-Erdbeben"
 			},
 			effect: {
 				en: "Does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 

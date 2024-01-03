@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Metagross",
 		fr: "Metalosse",
+		de: "Metagross"
 	},
 
 	illustrator: "TOKIYA",
@@ -39,6 +40,7 @@ const card: Card = {
 			name: {
 				en: "Strength",
 				fr: "Force",
+				de: "Stärke"
 			},
 
 			damage: 70,
@@ -54,12 +56,14 @@ const card: Card = {
 			name: {
 				en: "Quad Smash",
 				fr: "Quadruple destruction",
+				de: "Vierfacher Schlag"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "50×",
+			damage: "50x",
 
 		},
 	],

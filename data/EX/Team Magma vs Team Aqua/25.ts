@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Carvanha",
-		fr: "Carvanha de Team Aqua"
+		fr: "Carvanha de Team Aqua",
+		de: "Team Aquas Kanivanha"
 	},
 	illustrator: "Mt. TBT",
 	rarity: "Uncommon",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dark Lift",
-				fr: "Sombre élévation"
+				fr: "Sombre élévation",
+				de: "Dark Lift"
 			},
 			effect: {
 				en: "If Team Aqua's Carvanha has any Darkness Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0.\"",
-				fr: "Si Carvanha de Team Aqua possède des Énergies , son coût de retraite est de 0."
+				fr: "Si Carvanha de Team Aqua possède des Énergies , son coût de retraite est de 0.",
+				de: "If Team Aqua's Carvanha has any  Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0."
 			},
 		},
 	],
@@ -42,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Slow-Acting Poison",
-				fr: "Poison à effet retardé"
+				fr: "Poison à effet retardé",
+				de: "Slow-Acting Poison"
 			},
 			effect: {
 				en: "At the end of your opponent's next turn, the Defending Pokémon is now Poisoned.",
-				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Empoisonné."
+				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Empoisonné.",
+				de: "At the end of your opponent's next turn, the Defending Pokémon is now Poisoned."
 			},
 			damage: 20,
 

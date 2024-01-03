@@ -4,6 +4,7 @@ import Set from '../Supreme Victors'
 const card: Card = {
 	name: {
 		en: "Relicanth",
+		de: "Relicanth"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Deep Sea Pressure",
+				de: "Tiefseedruck"
 			},
 			effect: {
 				en: "During your opponent's next turn, the Defending Pokémon's Retreat Cost is Colorless Colorless more.",
+				de: "Während des nächsten Zuges deines Gegners sind die Rückzugskosten des Verteidigenden Pokémon um  erhöht."
 			},
 			damage: 20,
 
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Wave",
+				de: "Aquawelle"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage plus 10 more damage for each heads.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

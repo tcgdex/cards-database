@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Tropius",
-		fr: "Tropius"
+		fr: "Tropius",
+		de: "Tropius"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Tropical Motion",
-				fr: "Mouvement tropical"
+				fr: "Mouvement tropical",
+				de: "Tropical Motion"
 			},
 			effect: {
 				en: "As long as Tropius is your Active Pokémon, your opponent's Pokémon have no Resistance.",
-				fr: "Tant que Tropius est votre Pokémon Actif, le Pokémon de votre adversaire n'a pas de Résistance."
+				fr: "Tant que Tropius est votre Pokémon Actif, le Pokémon de votre adversaire n'a pas de Résistance.",
+				de: "As long as Tropius is your Active Pokémon, your opponent's Active Pokémon have noch Resistance."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Miracle Blow",
-				fr: "Coup miraculeux"
+				fr: "Coup miraculeux",
+				de: "Miracle Blow"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.",
-				fr: "Lancez une pièce. Si c'est face, choisissez 1 État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial."
+				fr: "Lancez une pièce. Si c'est face, choisissez 1 État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial.",
+				de: "Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition."
 			},
 
 		},
@@ -58,11 +63,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stomp",
-				fr: "Écrasement"
+				fr: "Écrasement",
+				de: "Stomp"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
 			},
 			damage: "40+",
 

@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Cacturne ex",
-		fr: "Cacturne ex"
+		fr: "Cacturne ex",
+		de: "Noktuska ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Cursed Glare",
-				fr: "Regard maléfique"
+				fr: "Regard maléfique",
+				de: "Cursed Glare"
 			},
 			effect: {
 				en: "As long as Cacturne ex is your Active Pokémon, your opponent can't attach any Special Energy cards (except for Darkness and Metal Energy cards) from his or her hand to his or her Active Pokémon.",
-				fr: "Tant que Cacturne ex est votre Pokémon Actif, votre adversaire ne peut pas attacher de cartes Énergie spéciales (sauf les cartes Énergie  et ) de sa main à son Pokémon Actif."
+				fr: "Tant que Cacturne ex est votre Pokémon Actif, votre adversaire ne peut pas attacher de cartes Énergie spéciales (sauf les cartes Énergie  et ) de sa main à son Pokémon Actif.",
+				de: "As long as Cacturne ex is your Active Pokémon, your Opponent cant attach any Special Energy cards (except for  and  Energy cards) from his or her hand to his or her Active Pokémon"
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psybeam",
-				fr: "Rafale psy"
+				fr: "Rafale psy",
+				de: "Psybeam"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus."
+				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "The Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -60,11 +65,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spike Rend",
-				fr: "Pointe déchirante"
+				fr: "Pointe déchirante",
+				de: "Spike Rend"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				de: "If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage"
 			},
 			damage: "50+",
 

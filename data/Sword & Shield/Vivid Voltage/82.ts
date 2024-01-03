@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
-	rarity: "Amazing",
+	rarity: "Amazing Rare",
 	category: "Pokemon",
 	set: Set,
 	hp: 110,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Unown K",
 		fr: "Zarbi K",
+		de: "Icognito K"
 	},
 	illustrator: "Daisuke Ito",
 	rarity: "Uncommon",
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "KIND",
 				fr: "KATÉGORIE",
+				de: "KIND"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may remove 2 damage counters from 1 of the Defending Pokémon.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retirer 2 marqueurs de dégât à 1 des Pokémon Défenseurs.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 2 Schadensmarken von 1 Verteidigenden Pokémon entfernen."
 			},
 		},
 	],
@@ -42,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Hidden Power",
 				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 20,

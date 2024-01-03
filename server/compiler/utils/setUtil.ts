@@ -1,7 +1,7 @@
 import { Set, SupportedLanguages } from '../../../interfaces'
-import { DB_PATH, fetchRemoteFile, setIsLegal, smartGlob } from './util'
-import { cardToCardSimple, getCards } from './cardUtil'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
+import { cardToCardSimple, getCards } from './cardUtil'
+import { DB_PATH, fetchRemoteFile, setIsLegal, smartGlob } from './util'
 
 interface t {
 	[key: string]: Set
@@ -20,11 +20,11 @@ export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
 export async function getSet(name: string, serie = '*'): Promise<Set> {
 	if (!setCache[name]) {
 		try {
-			const [path] = await smartGlob(`${DB_PATH}/data/${serie}/${name}.js`)
+			const [path] = await smartGlob(`${DB_PATH}/data/${serie}/${name}.ts`)
 			setCache[name] = (await import(`../../${path}`)).default
 		} catch (error) {
 			console.error(error)
-			console.error(`Error trying to import importing (${`db/data/${serie}/${name}.js`})`)
+			console.error(`Error trying to import importing (${`db/data/${serie}/${name}.ts`})`)
 			process.exit(1)
 		}
 	}
@@ -34,7 +34,7 @@ export async function getSet(name: string, serie = '*'): Promise<Set> {
 // Dont use cache as it wont necessary have them all
 export async function getSets(serie = '*', lang: SupportedLanguages): Promise<Array<Set>> {
 	// list sets names
-	const rawSets = (await smartGlob(`${DB_PATH}/data/${serie}/*.js`)).map((set) => set.substring(set.lastIndexOf('/') + 1, set.lastIndexOf('.')))
+	const rawSets = (await smartGlob(`${DB_PATH}/data/${serie}/*.ts`)).map((set) => set.substring(set.lastIndexOf('/') + 1, set.lastIndexOf('.')))
 	// Fetch sets
 	const sets = (await Promise.all(rawSets.map((set) => getSet(set, serie))))
 		// Filter sets

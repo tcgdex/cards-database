@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mankey",
 		fr: "Férosinge",
+		de: "Menki"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Punch",
 				fr: "Koud’poing",
+				de: "Boxhieb"
 			},
 
 			damage: 10,
@@ -45,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Karate Chop",
 				fr: "Poing-Karaté",
+				de: "Karateschlag"
 			},
 			effect: {
 				en: "Does 40 damage minus 10 damage for each damage counter on Mankey.",
 				fr: "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Férosinge.",
+				de: "Dieser Angriff fügt 40 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Menki zu."
 			},
 			damage: "40-",
 

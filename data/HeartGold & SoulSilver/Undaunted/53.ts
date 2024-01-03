@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Houndour",
 		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	illustrator: "kawayoo",
@@ -33,6 +34,7 @@ const card: Card = {
 			name: {
 				en: "Sharp Fang",
 				fr: "Croc aiguisé",
+				de: "Scharfe Fänge"
 			},
 
 			damage: 30,

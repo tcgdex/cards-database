@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Azelf",
 		fr: "Créfadet",
+		de: "Tobutz"
 	},
 	illustrator: "Shizurow",
-	rarity: "Rare",
+	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
 
 	set: Set,
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "Psychic Aura",
 				fr: "Aura psy",
+				de: "Psycho-Aura"
 			},
 			effect: {
 				en: "Each of your Psychic Pokémon has no Weakness.",
 				fr: "Chacun de vos Pokémon Psychic ne possède pas de Faiblesse.",
+				de: "Jedes deiner -Pokémon hat keine Schwäche mehr."
 			},
 		},
 	],
@@ -42,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Deep Balance",
 				fr: "Bon équilibre",
+				de: "Tiefenausgleich"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. Put 1 damage counter on that Pokémon for each Energy attached to all of your opponent's Pokémon.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Placez 1 marqueur de dégât sur ce Pokémon pour chaque Énergie attachée à tous les Pokémon de votre adversaire.",
+				de: "Wähle 1 Pokémon deines Gegners. Lege für jede Energie, die an allen Pokémon deines Gegners angelegt ist, 1 Schadensmarke auf das gewählte Pokémon."
 			},
 
 		},

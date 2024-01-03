@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Loudred",
 		fr: "Ramboum",
+		de: "Krakeelo"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -34,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Smash Kick",
 				fr: "Coud'pattes",
+				de: "Schmetterkick"
 			},
 
 			damage: 30,
@@ -48,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Stomp Off",
 				fr: "Trépignement",
+				de: "Davonstapfen"
 			},
 			effect: {
 				en: "Discard the top card from your opponent's deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 50,
 

@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Nidoran♀",
+		de: "Nidoran W"
 	},
 	illustrator: "Masako Yamashita",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Sting",
+				de: "Giftstachel"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
-			damage: 20,
+			damage: 10,
 
 		},
 	],

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sableye G",
 		fr: "Tenefix ",
+		de: "Zobiris G"
 	},
 	illustrator: "Yusuke Ishikawa",
 	rarity: "Rare",
@@ -24,14 +25,14 @@ const card: Card = {
 
 	attacks: [
 		{
-
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
-
+			cost: ["Darkness"]
 		},
 		{
 			cost: [
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Astonish",
 				fr: "Étonnement",
+				de: "Erstauner"
 			},
 			effect: {
 				en: "Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
 				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire. Regardez-la, puis demandez à votre adversaire de la mélanger à son deck.",
+				de: "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Schau dir die Karte an, danach mischt dein Gegner sie in sein Deck."
 			},
 			damage: 20,
 

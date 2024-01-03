@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Meowth",
 		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Pay Day",
 				fr: "Jackpot",
+				de: "Zahltag"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 			damage: 10,
 
@@ -48,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Dig Claws",
 				fr: "Creusogriffes",
+				de: "Schaufelkrallen"
 			},
 
 			damage: 20,

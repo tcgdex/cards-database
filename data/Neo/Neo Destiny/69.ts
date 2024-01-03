@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Hitmonchan",
-		fr: "Tygnon"
+		fr: "Tygnon",
+		de: "Nockchan"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dodge",
-				fr: "Esquive"
+				fr: "Esquive",
+				de: "Dodge"
 			},
 			effect: {
 				en: "If Hitmonchan would be damaged by an attack during your opponent's next turn, flip a coin. If heads, prevent that attack's damage done to Hitmonchan. (Any other effects of attacks still happen.)",
-				fr: "Si une attaque doit infliger des dégâts à Tygnon pendant le prochain tour de votre adversaire, lancez une pièce. Si c'est face, prévenez les dégâts infligés à Tygnon par cette attaque. (Tous les autres effets dus à des attaques subsistent.)"
+				fr: "Si une attaque doit infliger des dégâts à Tygnon pendant le prochain tour de votre adversaire, lancez une pièce. Si c'est face, prévenez les dégâts infligés à Tygnon par cette attaque. (Tous les autres effets dus à des attaques subsistent.)",
+				de: "If Hitmonchan would be damaged by an attack during your opponent's next turn, flip a coin. If heads, prevent that attack's damage done to Hitmonchan. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic Jab",
-				fr: "Punch ultrason"
+				fr: "Punch ultrason",
+				de: "Supersonic Jab"
 			},
 
 			damage: 40,

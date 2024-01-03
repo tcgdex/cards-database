@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "aky CG Works",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare VMAX",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Fire"],

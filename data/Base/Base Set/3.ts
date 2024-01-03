@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Chansey",
-		fr: "Leveinard"
+		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Scrunch",
-				fr: "Compresse"
+				fr: "Compresse",
+				de: "Zähneknirschen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Leveinard pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)"
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Leveinard pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				de: "Wirf eine Münze. Bei \"Kopf\" kannst Du den Schaden, der Chaneira während des nächsten Zuges zugefügt wird, verhindern. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
-				fr: "Damoclès"
+				fr: "Damoclès",
+				de: "Austeiler"
 			},
 			effect: {
 				en: "Chansey does 80 damage to itself.",
-				fr: "Leveinard s'inflige 80 points de dégâts."
+				fr: "Leveinard s'inflige 80 points de dégâts.",
+				de: "Chaneira fügt sich selbst 80 Schadenspunkte zu."
 			},
 			damage: 80,
 

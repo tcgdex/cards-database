@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lunatone",
 		fr: "Seleroc",
+		de: "Lunastein"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "Marvel Eyes",
 				fr: "Yeux merveilleux",
+				de: "Mirakelaugen"
 			},
 			effect: {
 				en: "If you have Solrock in play, prevent all effects of attacks, including damage, done to any of your Lunatone or Solrock by your opponent's Pokémon LV.X.",
 				fr: "Si vous avez Solaroc en jeu, prévenez tous les effets d'attaques, dégâts inclus, infligés à vos Seleroc ou Solaroc par les Pokémon NIV.X de votre adversaire.",
+				de: "Wenn du Sonnfel im Spiel hast, verhindere alle Effekte von Angriffen, einschließlich Schaden, die deinen Lunastein und Sonnfel im Spiel von gegnerischen Pokémon LV.X zugefügt würden."
 			},
 		},
 	],
@@ -43,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Gravity Wave",
 				fr: "Vague pesante",
+				de: "Schwerkraftwelle"
 			},
 			effect: {
 				en: "Does 30 damage to each of your opponent's Benched Pokémon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire qui ne possède pas de Coût de retraite. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, das Rückzugskosten 0 hat, 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 

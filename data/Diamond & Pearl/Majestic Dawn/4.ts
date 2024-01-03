@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Dialga",
 		fr: "Dialga",
+		de: "Dialga"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -21,6 +22,17 @@ const card: Card = {
 
 	stage: "Basic",
 
+	item: {
+		name: {
+			fr: "Orbe Adamant",
+			de: 'Adamant-Orb'
+		},
+		effect: {
+			fr: "Si un Pokémon Actif possède une Faiblesse au type Metal, les attaques de Dialga infligent 20 dégâts supplémentaires à ce Pokémon (avant application de la Faiblesse et de la Résistance).",
+			de: 'Wenn ein Aktives Pokémon eine Schwäche gegen -Pokémon hat, fügen Dialgas Angriffe diesem Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden).'
+		}
+	},
+
 
 	attacks: [
 		{
@@ -29,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Time Shift",
-				fr: "Orbe Adamant",
+				fr: "Modification temporelle",
+				de: 'Zeitverschiebung'
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Si un Pokémon Actif possède une Faiblesse au type Metal, les attaques de Dialga infligent 20 dégâts supplémentaires à ce Pokémon (avant application de la Faiblesse et de la Résistance).",
+				fr: "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
+				de: 'Ziehe so viele Karten, bis du 6 Karten auf der Hand hast. '
 			},
 
 		},
@@ -46,31 +60,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Diamond Blast",
-				fr: "Modification temporelle",
+				fr: "Explosion diamant",
+				de: 'Diamantschuss'
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 60 damage plus 20 more damage.",
-				fr: "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
-			},
-			damage: 60,
-
-		},
-		{
-			cost: [
-				"Metal",
-				"Metal",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Explosion diamant",
-			},
-			effect: {
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires.",
+				de: 'Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu. '
 			},
 			damage: "60+",
 
-		},
+		}
 	],
 	weaknesses: [
 		{

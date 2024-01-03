@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Dual Ball",
-		fr: "Double boule"
+		fr: "Double boule",
+		de: "Doppelter Ball"
 	},
 
 	illustrator: "Big Mama\" Tagawa\"",
@@ -14,7 +15,8 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		fr: "Lancez 2 pièces. Pour chaque face, cherchez dans votre deck un Pokémon de base, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck."
+		fr: "Lancez 2 pièces. Pour chaque face, cherchez dans votre deck un Pokémon de base, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
+		de: "Wirf zwei Münzen. Durchsuche dein Deck für jeden Kopf nach einer Basispokémonkarte und nimm sie auf die Hand. Mische dein Deck danach."
 	}
 }
 

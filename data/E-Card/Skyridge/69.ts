@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Kadabra",
+		de: "Kadabra"
 	},
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Nightmare",
+				de: "Alptraum"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mind Shock",
+				de: "Verstandesschock"
 			},
 			effect: {
 				en: "Don't apply Weakness and Resistance.",
+				de: "Wende keine Schwäche oder Resistenz an."
 			},
 			damage: 40,
 

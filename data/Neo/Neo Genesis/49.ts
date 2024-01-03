@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Skiploom",
-		fr: "Floravol"
+		fr: "Floravol",
+		de: "Hubelupf"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
-				fr: "Poudre toxik"
+				fr: "Poudre toxik",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stun Spore",
-				fr: "Para-spore"
+				fr: "Para-spore",
+				de: "Stachelspore"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

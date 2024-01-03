@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cacturne",
 		fr: "Cacturne",
+		de: "Noktuska"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -34,12 +35,14 @@ const card: Card = {
 			name: {
 				en: "Pin Missile",
 				fr: "Dard-nuée",
+				de: "Nadelrakete"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 		{
@@ -51,12 +54,14 @@ const card: Card = {
 			name: {
 				en: "Needle Arm",
 				fr: "Poing dard",
+				de: "Nietenranke"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage.",
 				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

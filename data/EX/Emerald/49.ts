@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Feebas",
-		fr: "Barpau"
+		fr: "Barpau",
+		de: "Barschwa"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Submerge",
-				fr: "Submerger"
+				fr: "Submerger",
+				de: "Untertauchen"
 			},
 			effect: {
 				en: "As long as Feebas is on your Bench, prevent all damage done to Feebas by attacks (both yours and your opponent's).",
-				fr: "Tant que Barpau est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (les vôtres et celles de votre adversaire)."
+				fr: "Tant que Barpau est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (les vôtres et celles de votre adversaire).",
+				de: "Solange sich Barschwa auf deiner Bank befindet, verhindere allen Schaden, der Barschwa durch Angriffe zugefügt wird (eigene und gegnerische Angriffe)."
 			},
 		},
 	],
@@ -42,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lunge",
-				fr: "Coup rapide"
+				fr: "Coup rapide",
+				de: "Ausfall"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 

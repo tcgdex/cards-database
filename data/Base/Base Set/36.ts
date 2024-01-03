@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Magmar",
-		fr: "Magmar"
+		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Punch",
-				fr: "Poing de Feu"
+				fr: "Poing de Feu",
+				de: "Feuerschlag"
 			},
 
 			damage: 30,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
-				fr: "Lance-flamme"
+				fr: "Lance-flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Magmar in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Magmar pour pouvoir utiliser cette attaque."
+				fr: "Défaussez 1 carte Énergie  attachée à Magmar pour pouvoir utiliser cette attaque.",
+				de: "Entferne eine auf Magmar abgelegte  Energiekarte, um diesen Angriff auszuführen."
 			},
 			damage: 50,
 

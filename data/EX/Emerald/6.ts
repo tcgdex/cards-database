@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Kyogre",
-		fr: "Kyogre"
+		fr: "Kyogre",
+		de: "Kyogre"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ram"
 			},
 
 			damage: 10,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Sonic",
-				fr: "Aquasonique"
+				fr: "Aquasonique",
+				de: "Aqua Sonic"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "This attack's damage isn't affected by Resistance."
 			},
 			damage: 40,
 

@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Dragonite",
-		fr: "Dracolosse obscur"
+		fr: "Dracolosse obscur",
+		de: "Dunkles Dragoran"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Summon Minions",
-				fr: "Convocation de serviteurs"
+				fr: "Convocation de serviteurs",
+				de: "Summon Minions"
 			},
 			effect: {
 				en: "When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Lorsque vous jouez Dracolosse obscur depuis votre main, cherchez jusqu'à 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck."
+				fr: "Lorsque vous jouez Dracolosse obscur depuis votre main, cherchez jusqu'à 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				de: "When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
 			},
 		},
 	],
@@ -53,12 +56,14 @@ const card: Card = {
 
 			name: {
 				en: "Giant Tail",
-				fr: "Longue queue"
+				fr: "Longue queue",
+				de: "Giant Tail"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 
 			damage: 70

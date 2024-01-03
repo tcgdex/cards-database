@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Quagsire δ",
-		fr: "Maraiste δ ESPÈCES DELTA"
+		fr: "Maraiste δ ESPÈCES DELTA",
+		de: "Morlord"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Dig up",
-				fr: "Désenfouir"
+				fr: "Désenfouir",
+				de: "Ausbuddeln"
 			},
 			effect: {
 				en: "Once during your turn, when you play Quagsire from your hand to evolve 1 of your Pokémon, you may search your discard pile for up to 2 Pokémon Tool cards, show them to your opponent, and put them into your hand.",
-				fr: "Une seule fois lors de votre tour, lorsque vous jouez Maraiste de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez choisir dans votre pile de défausse jusqu'à 2 cartes Outil Pokémon. Montrez-la à votre adversaire et placez-les dans votre main."
+				fr: "Une seule fois lors de votre tour, lorsque vous jouez Maraiste de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez choisir dans votre pile de défausse jusqu'à 2 cartes Outil Pokémon. Montrez-la à votre adversaire et placez-les dans votre main.",
+				de: "Einmal während deines Zuges, wenn du Morlord von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du deinen Ablagestapel nach bis zu 2 Pokémon-Ausrüstungs-Karten durchsuchen. Zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 		},
 	],
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pump Out",
-				fr: "Faire couler à flots"
+				fr: "Faire couler à flots",
+				de: "Hochpumpen"
 			},
 			effect: {
 				en: "If Quagsire has a Pokémon Tool card attached to it, this attack does 50 damage plus 20 more damage.",
-				fr: "Si Maraiste possède une carte Outil Pokémon, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires."
+				fr: "Si Maraiste possède une carte Outil Pokémon, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wenn an Morlord eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 

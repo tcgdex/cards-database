@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Dark Wigglytuff",
-		fr: "Grodoudou obscur"
+		fr: "Grodoudou obscur",
+		de: "Dunkles Knuddeluff"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Song",
-				fr: "Sombre chant"
+				fr: "Sombre chant",
+				de: "Dark Song"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi. Si c'est pile, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Slap Awake",
-				fr: "Réveil-gifle"
+				fr: "Réveil-gifle",
+				de: "Slap Awake"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Asleep or Confused, this attack does 20 damage plus 20 more damage. Then, the Defending Pokémon is no longer Asleep or Confused.",
-				fr: "Si le Pokémon Défenseur est Endormi ou Confus, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires. Le Pokémon Défenseur n'est ensuite plus Endormi ou Confus."
+				fr: "Si le Pokémon Défenseur est Endormi ou Confus, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires. Le Pokémon Défenseur n'est ensuite plus Endormi ou Confus.",
+				de: "If the Defending Pokémon is Asleep or Confused, this attack does 20 damage plus 20 more damage. Then, the Defending Pokémon is no longer Asleep or Confused."
 			},
 			damage: "20+",
 

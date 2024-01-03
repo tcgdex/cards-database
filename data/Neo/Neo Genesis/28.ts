@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Bayleef",
-		fr: "Macronium"
+		fr: "Macronium",
+		de: "Lorblatt"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -37,12 +38,14 @@ const card: Card = {
 
 			name: {
 				en: "Poisonpowder",
-				fr: "Poudre toxik"
+				fr: "Poudre toxik",
+				de: "Poisonpowder"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 			damage: 20
@@ -55,11 +58,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pollen Shield",
-				fr: "Bouclier pollen"
+				fr: "Bouclier pollen",
+				de: "Pollen Shield"
 			},
 			effect: {
 				en: "During your opponent's next turn, Bayleef can't become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pokémon Powers, and Trainer cards still happen.)",
-				fr: "Pendant le prochain tour de votre adversaire, Macronium ne peut pas devenir Endormir, Confus, Paralysé ou Empoisonné. (Tous les autres effets d'attaques, Pouvoir Pokémon et cartes Dresseur sont toujours actifs.)"
+				fr: "Pendant le prochain tour de votre adversaire, Macronium ne peut pas devenir Endormir, Confus, Paralysé ou Empoisonné. (Tous les autres effets d'attaques, Pouvoir Pokémon et cartes Dresseur sont toujours actifs.)",
+				de: "During your opponent's next turn, Bayleef can't become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pokémon Powers, and Trainer cards still happen.)"
 			},
 			damage: 30,
 

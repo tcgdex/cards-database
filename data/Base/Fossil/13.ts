@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Muk",
-		fr: "Grotadmorv"
+		fr: "Grotadmorv",
+		de: "Sleimok"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Toxic Gas",
-				fr: "Puanteur"
+				fr: "Puanteur",
+				de: "Giftgas"
 			},
 			effect: {
 				en: "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is Asleep, Confused, or Paralyzed.",
-				fr: "Ignorez tout pouvoir Pokémon autre que Puanteur. L'effet de ce pouvoir cesse lorsque Grotadmorv est Endormi, Confus ou Paralysé."
+				fr: "Ignorez tout pouvoir Pokémon autre que Puanteur. L'effet de ce pouvoir cesse lorsque Grotadmorv est Endormi, Confus ou Paralysé.",
+				de: "Ignoriere alle Pokémon-Power außer den Giftgasen. Diese Fähigkeit verliert ihre Wirkung, solange Sleimok schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -52,12 +55,14 @@ const card: Card = {
 
 			name: {
 				en: "Sludge",
-				fr: "Détritus"
+				fr: "Détritus",
+				de: "Schlammbad"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 30

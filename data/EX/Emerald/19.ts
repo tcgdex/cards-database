@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Rhydon",
-		fr: "Rhinoferos"
+		fr: "Rhinoferos",
+		de: "Rizeros"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Attack",
-				fr: "Koud'korne"
+				fr: "Koud'korne",
+				de: "Horn Attack"
 			},
 
 			damage: 30,
@@ -42,11 +44,13 @@ const card: Card = {
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
 				en: "Rock Tumble",
-				fr: "Roule-pierre"
+				fr: "Roule-pierre",
+				de: "Rock Tumble"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "This attack's damage isn't affected by Resistance."
 			},
 			damage: 60,
 

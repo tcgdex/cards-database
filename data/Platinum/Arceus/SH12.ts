@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Shinx",
+		de: "Sheinux"
 	},
 	illustrator: "sui",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Star Barrier",
+				de: "Sternenbarriere"
 			},
 			effect: {
 				en: "As long as Shinx has any Energy attached to it, Shinx has no Weakness.",
+				de: "Solange an Sheinux mindestens 1 Energie angelegt ist, hat Sheinux keine Schwäche."
 			},
 		},
 	],
@@ -38,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Payback",
+				de: "Gegenstoß"
 			},
 			effect: {
 				en: "If your opponent has only 1 Prize card left, this attack does 10 damage plus 30 more damage.",
+				de: "Wenn dein Gegner nur 1 Preis übrig hat, fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

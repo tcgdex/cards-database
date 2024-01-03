@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Kakuna",
+		de: "Kokuna"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Exoskeleton",
+				de: "Exoskelett"
 			},
 			effect: {
 				en: "All damage done to Kakuna is reduced by 10 (after applying Weakness and Resistance).",
+				de: "Jeder Schaden, der Kokuna durch Angriffe zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -38,14 +41,16 @@ const card: Card = {
 			cost: [
 				"Grass",
 			],
+
 			name: {
 				en: "Poisonpowder",
+				de: "Giftpulver"
 			},
+
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-			},
-			damage: 10,
-
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
+			}
 		},
 	],
 	weaknesses: [

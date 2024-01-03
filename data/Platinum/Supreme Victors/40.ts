@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Roserade C",
 		fr: "Roserade ",
+		de: "Roserade C"
 	},
 	illustrator: "kawayoo",
 	rarity: "Rare",
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "Natural Cure",
 				fr: "Remède naturel",
+				de: "Innere Kraft"
 			},
 			effect: {
 				en: "When you attach an Energy card from your hand to Roserade C, remove all Special Conditions from Roserade C.",
 				fr: "Lorsque vous attachez une carte Énergie de votre main à Roserade , retirez-lui tous ses États Spéciaux.",
+				de: "Wenn du 1 Energiekarte von deiner Hand an Roserade C anlegst, entferne alle Speziellen Zustände von Roserade C."
 			},
 		},
 	],
@@ -44,12 +47,14 @@ const card: Card = {
 			name: {
 				en: "Magical Leaf",
 				fr: "Feuillemagik",
+				de: "Zauberblatt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage and remove 2 damage counters from Roserade C.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires tout en retirant 2 marqueurs de dégât à Roserade .",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu und entferne 2 Schadensmarken von Roserade C."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

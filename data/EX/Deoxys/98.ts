@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Deoxys ex",
-		fr: "Deoxys ex"
+		fr: "Deoxys ex",
+		de: "Deoxys ex"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Form Change",
-				fr: "Changement de forme"
+				fr: "Changement de forme",
+				de: "Form Change"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poké-Power each turn.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck une autre Deoxys ex et l'échanger avec Deoxys ex. (Toutes les cartes attachées à Deoxys ex, marqueurs de dégât, États Spéciaux et autres effets se trouvent maintenant sur le nouveau Pokémon.) Placez alors Deoxys ex au dessus de votre deck. Ensuite, mélangez votre deck. Vous ne pouvez pas utiliser plus d'1 Poké-Power Changement de forme par tour."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck une autre Deoxys ex et l'échanger avec Deoxys ex. (Toutes les cartes attachées à Deoxys ex, marqueurs de dégât, États Spéciaux et autres effets se trouvent maintenant sur le nouveau Pokémon.) Placez alors Deoxys ex au dessus de votre deck. Ensuite, mélangez votre deck. Vous ne pouvez pas utiliser plus d'1 Poké-Power Changement de forme par tour.",
+				de: "Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Condition, and effects on it are now on the new Pokémon.) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poke-Power each turn."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic Burst",
-				fr: "Explosion psy"
+				fr: "Explosion psy",
+				de: "Psyburst"
 			},
 			effect: {
 				en: "You may discard 2 Energy attached to Deoxys ex. If you do, this attack does 50 damage plus 20 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Vous pouvez défausser 2 Énergies attachées à Deoxys ex. Cette attaque inflige alors 50 dégâts plus 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
+				fr: "Vous pouvez défausser 2 Énergies attachées à Deoxys ex. Cette attaque inflige alors 50 dégâts plus 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				de: "You may discard 2 Energy cards from Deoxys ex. If you do, this attack does 50 damage plus 30 more damage for each Energy attached at the Defending Pokémon."
 			},
 			damage: "50+",
 

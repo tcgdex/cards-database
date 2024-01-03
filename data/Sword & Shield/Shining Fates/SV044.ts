@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Lightning"],

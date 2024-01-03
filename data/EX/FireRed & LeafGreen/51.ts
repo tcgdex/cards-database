@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Weepinbell",
-		fr: "Boustiflor"
+		fr: "Boustiflor",
+		de: "Ultrigaria"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				fr: "Tranch'herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 20,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Corrosive Acid",
-				fr: "Acide corrosif"
+				fr: "Acide corrosif",
+				de: "Zersetzendes Gift"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 10,
 

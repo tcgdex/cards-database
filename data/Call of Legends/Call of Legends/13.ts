@@ -4,9 +4,10 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Leafeon",
+		de: "Folipurba"
 	},
 	illustrator: "match",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Miasma Wind",
+				de: "Miasma"
 			},
 			effect: {
 				en: "Does 50 damage times the number of Special Conditions affecting the Defending Pokémon.",
+				de: "Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl der Speziellen Zustände, von dem das Verteidigende Pokémon betroffen ist, zu."
 			},
-			damage: 50,
+			damage: "50x",
 
 		},
 		{
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Soothing Scent",
+				de: "Beruhigender Duft"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 

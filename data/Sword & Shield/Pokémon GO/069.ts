@@ -25,7 +25,12 @@ const card: Card = {
 		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Wenn du eine Phase-2-Karte auf deiner Hand hast, die sich aus jenem Pokémon entwickelt, lege sie auf das Basis-Pokémon, um es zu entwickeln und Phase 1 zu überspringen. Du kannst diese Karte nicht während deines ersten Zuges oder für ein Basis-Pokémon, das während dieses Zuges ins Spiel gebracht wurde, verwenden."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	variants: {
+		"normal": true,
+		"reverse": true,
+		"holo": false
+	}
 }
 
 export default card

@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Shaymin",
 		fr: "Shaymin",
+		de: "Shaymin"
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Flower Aroma",
 				fr: "Arôme floral",
+				de: "Flower Aroma"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Shaymin. The Defending Pokémon is now Asleep.",
 				fr: "Retirez à Shaymin 2 marqueurs de dégât. Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Remove 2 damge counters from Shaymin. The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -46,12 +49,14 @@ const card: Card = {
 			name: {
 				en: "Damage Aid",
 				fr: "Aide aux dégâts",
+				de: "Damage Aid"
 			},
 			effect: {
 				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 50 more damage. Then, remove all Special Conditions from the Defending Pokémon.",
 				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires. Ensuite, retirez au Pokémon Défenseur tous ses États Spéciaux.",
+				de: "If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 50 more damage. Then, remove all Special Conditions from the Defending Pokémon."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

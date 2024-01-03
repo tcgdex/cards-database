@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Barboach",
-		fr: "Barloche"
+		fr: "Barloche",
+		de: "Schmerbe"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Waterfall",
-				fr: "Cascade"
+				fr: "Cascade",
+				de: "Kaskade"
 			},
 
 			damage: 10,
@@ -41,13 +43,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
-				fr: "Fléau"
+				fr: "Fléau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Barboach.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Barloche."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Barloche.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Schmerbe zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

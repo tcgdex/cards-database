@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Feebas",
 		fr: "Barpau",
+		de: "Barschwa"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Splash",
 				fr: "Trempette",
+				de: "Platscher"
 			},
 
 			damage: 10,
@@ -42,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Fast Evolution",
 				fr: "Évolution fulgurante",
+				de: "Schnelle Evolution"
 			},
 			effect: {
 				en: "Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck une carte Évolution, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach 1 Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},

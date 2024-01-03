@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sentret",
 		fr: "Fouinette",
+		de: "Wiesor"
 	},
 
 	illustrator: "MAHOU",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Scout",
 				fr: "Espion",
+				de: "Späher"
 			},
 			effect: {
 				en: "Look at your opponent’s hand.",
 				fr: "Regardez la main de votre adversaire.",
+				de: "Schau dir die Handkarten deines Gegners an."
 			},
 
 		},
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,

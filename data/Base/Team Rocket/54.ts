@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Drowzee",
-		fr: "Soporifik"
+		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Long Distance Hypnosis",
-				fr: "Hypnose longue distance"
+				fr: "Hypnose longue distance",
+				de: "Long-Distance Hypnos"
 			},
 			effect: {
 				en: "Distance Hypnosis - Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Asleep; if tails, your Active Pokémon is now Asleep. The power can't be used if Drowzee is Asleep, Confused, or Paralyzed.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi ; si c'est pile, votre Pokémon Actif est maintenant Endormi. Ce pouvoir ne peut être utilisé si Soporifik est Endormi, Confus ou Paralysé."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi ; si c'est pile, votre Pokémon Actif est maintenant Endormi. Ce pouvoir ne peut être utilisé si Soporifik est Endormi, Confus ou Paralysé.",
+				de: "Once during your turn (before your attack), you may flip a coin. if heads, the defending Pokémon is now Asleep; If tails, your Active Pokémon is now Asleep. The power can't be used if Drowzee is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Nightmare",
-				fr: "Cauchemar"
+				fr: "Cauchemar",
+				de: "Nightmare"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 

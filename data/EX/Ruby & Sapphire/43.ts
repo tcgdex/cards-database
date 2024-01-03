@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Silcoon",
-		fr: "Armulys"
+		fr: "Armulys",
+		de: "Schaloko"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Hard Cocoon",
-				fr: "Carapace"
+				fr: "Carapace",
+				de: "Hard Cocoon"
 			},
 			effect: {
 				en: "During your opponent's turn, if Silcoon would be damaged by an opponent's attack (after applying Weakness and Resistance), flip a coin. If heads, reduce that damage by 30.",
-				fr: "Pendant le tour de votre adversaire, si l'une de ses attaques inflige des dégâts à Almurys (après application de la Faiblesse et de la Résistance), lancez une pièce. Si c'est face, réduisez ces dégâts de 30."
+				fr: "Pendant le tour de votre adversaire, si l'une de ses attaques inflige des dégâts à Almurys (après application de la Faiblesse et de la Résistance), lancez une pièce. Si c'est face, réduisez ces dégâts de 30.",
+				de: "During your opponent's turn, if Silcoon would be damaged by an opponent's attack (after applying Weakness and Resistance), flip a coin. If heads, reduce that damage by 30."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Gooey Thread",
-				fr: "Fil gluant"
+				fr: "Fil gluant",
+				de: "Gooey Thread"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite tant que le prochain tour de votre adversaire n'est pas terminé."
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite tant que le prochain tour de votre adversaire n'est pas terminé.",
+				de: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
 			},
 			damage: 10,
 

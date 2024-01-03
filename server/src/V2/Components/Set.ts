@@ -1,9 +1,9 @@
 import { objectLoop } from '@dzeio/object-util'
 import { Set as SDKSet, SetResume, SupportedLanguages } from '@tcgdex/sdk'
-import Card from './Card'
 import { Pagination } from '../../interfaces'
-import Serie from './Serie'
 import { lightCheck } from '../../util'
+import Card from './Card'
+import Serie from './Serie'
 
 interface variants {
     normal?: boolean;
@@ -24,7 +24,7 @@ export default class Set implements LocalSet {
 			if (key === 'serie' || key === 'cards') {
 				return
 			}
-			this[key as 'id'] = it
+			this[key as 'tcgOnline'] = it as string
 		})
 	}
 

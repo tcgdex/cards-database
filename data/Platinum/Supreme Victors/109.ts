@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kricketot",
 		fr: "Crikzik",
+		de: "Zirpurze"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 20,

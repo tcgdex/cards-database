@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ho-Oh",
 		fr: "Ho-Oh",
+		de: "Ho-Oh"
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
+				de: "Glühen"
 			},
 
 			damage: 50,
@@ -48,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Scorching Wing",
 				fr: "Aile brûlante",
+				de: "Versengende Schwingen"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard all Fire Energy attached to Ho-Oh.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez toutes les Énergies Fire attachées à Ho-Oh.",
+				de: "Wirf eine Münze. Bei \"Zahl\" lege alle an Ho-Oh angelegten -Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 

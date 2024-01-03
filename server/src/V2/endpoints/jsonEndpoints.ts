@@ -28,19 +28,25 @@ const endpointToField: Record<string, keyof SDKCard> = {
 	"variants": "variants",
 }
 
-// server
-// 	.get('/cache/performance', (req, res) => {
-// 		res.json(apicache.getPerformance())
-// 	})
-
-// 	// add route to display cache index
-// 	.get('/cache/index', (req, res) => {
-// 		res.json(apicache.getIndex())
-// 	})
-
 server
-	.use(apicache.middleware('1 day', undefined, {}))
+	// Midleware that handle caching
+	.use(apicache.middleware('1 day', (req: Request) => req.method === 'GET', {}))
 
+	// .get('/cache/performance', (req, res) => {
+	// 	res.json(apicache.getPerformance())
+	// })
+
+	// // add route to display cache index
+	// .get('/cache/index', (req, res) => {
+	// 	res.json(apicache.getIndex())
+	// })
+
+	// Midleware that handle url transformation
+	.use((req, _, next) => {
+		// this is ugly BUT it fix the problem with + not becoming spaces
+		req.url = req.url.replace(/\+/g, ' ')
+		next()
+	})
 
 
 	/**

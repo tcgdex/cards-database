@@ -4,9 +4,10 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Clefable",
+		de: "Pixi"
 	},
 	illustrator: "sui",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fairy Power",
+				de: "Feenmacht"
 			},
 			effect: {
 				en: "Return 1 of your Pokémon and all cards attached to it to your hand.",
+				de: "Nimm 1 deiner Pokémon und alle an es angelegten Karten auf deine Hand zurück."
 			},
 
 		},
@@ -44,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Moon Impact",
+				de: "Mondeinschlag"
 			},
 
 			damage: 40,

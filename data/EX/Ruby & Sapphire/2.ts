@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Beautifly",
-		fr: "Charmillon"
+		fr: "Charmillon",
+		de: "Papinella"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Withering Dust",
-				fr: "Poussière desséchante"
+				fr: "Poussière desséchante",
+				de: "Withering Dust"
 			},
 			effect: {
 				en: "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon.",
-				fr: "Tant que Charmillon est en jeu, vous ne pouvez pas appliquer la Résistance aux Pokémon Actifs."
+				fr: "Tant que Charmillon est en jeu, vous ne pouvez pas appliquer la Résistance aux Pokémon Actifs.",
+				de: "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stun Spore",
-				fr: "Poussière paralysante"
+				fr: "Poussière paralysante",
+				de: "Stun Spore"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -60,11 +65,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Parallel Gain",
-				fr: "Gain parallèle"
+				fr: "Gain parallèle",
+				de: "Parallel Gain"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon, including Beautifly.",
-				fr: "Retirez un marqueur de dégât à tous vos Pokémon, Charmillon inclus."
+				fr: "Retirez un marqueur de dégât à tous vos Pokémon, Charmillon inclus.",
+				de: "Remove 1 damage counter from each of your Pokémon, including Beautifly"
 			},
 			damage: 50,
 

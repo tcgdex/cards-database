@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Galar-Lavados"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],

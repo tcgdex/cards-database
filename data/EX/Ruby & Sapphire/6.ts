@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Dustox",
-		fr: "Papinox"
+		fr: "Papinox",
+		de: "Pudox"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Protective Dust",
-				fr: "Poussière protectrice"
+				fr: "Poussière protectrice",
+				de: "Protective Dust"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon.",
-				fr: "Prévenez tous les effets d'attaques, excepté les dégâts, infligés à Papinox par le Pokémon Attaquant."
+				fr: "Prévenez tous les effets d'attaques, excepté les dégâts, infligés à Papinox par le Pokémon Attaquant.",
+				de: "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Toxic",
-				fr: "Toxik"
+				fr: "Toxik",
+				de: "Toxic"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez deux marqueurs de dégât sur le Pokémon Défenseur entre les deux tours."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez deux marqueurs de dégât sur le Pokémon Défenseur entre les deux tours.",
+				de: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the defending Pokémon between turns."
 			},
 
 		},
@@ -60,7 +65,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Gust",
-				fr: "Tornade"
+				fr: "Tornade",
+				de: "Gust"
 			},
 
 			damage: 50,

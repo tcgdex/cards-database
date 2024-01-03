@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Kirlia",
-		fr: "Kirlia"
+		fr: "Kirlia",
+		de: "Kirlia"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Psypunch",
-				fr: "Coup de poing psy"
+				fr: "Coup de poing psy",
+				de: "Psypunch"
 			},
 
 			damage: 30,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mind Shock",
-				fr: "Choc cérébral"
+				fr: "Choc cérébral",
+				de: "Mind Shock"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				de: "This attack's damage isn't affected by Weakness or Resistance."
 			},
 			damage: 40,
 

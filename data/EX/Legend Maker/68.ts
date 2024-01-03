@@ -4,7 +4,8 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Voltorb",
-		fr: "Voltorbe"
+		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Wave",
-				fr: "Cage-éclair"
+				fr: "Cage-éclair",
+				de: "Donnerwelle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bouncing Ball",
-				fr: "Balle rebondissante"
+				fr: "Balle rebondissante",
+				de: "Hüpfender Ball"
 			},
 			effect: {
 				en: "Voltorb does 10 damage to itself.",
-				fr: "Voltorbe s'inflige 10 dégâts."
+				fr: "Voltorbe s'inflige 10 dégâts.",
+				de: "Voltobal fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

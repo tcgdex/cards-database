@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kirlia",
 		fr: "Kirlia",
+		de: "Kirlia"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Teleportation Burst",
 				fr: "Téléportation explosive",
+				de: "Teleportation Burst"
 			},
 			effect: {
 				en: "You may switch Kirlia with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Kirlia avec 1 des Pokémon de Banc de votre adversaire.",
+				de: "You may switch Kirlia with 1 of your Benched Pokémon."
 			},
 			damage: 30,
 
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Super Psy Bolt",
 				fr: "Super psy",
+				de: "Super Psy Bolt"
 			},
 
 			damage: 60,

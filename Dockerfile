@@ -1,48 +1,52 @@
-FROM node:alpine as BUILD_IMAGE
+FROM docker.io/oven/bun:1-alpine as BUILD_IMAGE
 
-WORKDIR /app
+# go to work folder
+WORKDIR /usr/src/app
 
 # Add git as it is used to fetch updated times
 RUN apk add git
 
-# prepare dependencies
-ADD package.json package-lock.json ./
-ADD server/package.json server/package-lock.json ./server/
+ADD --chown=bun:bun package.json bun.lockb ./
+ADD --chown=bun:bun server/package.json server/bun.lockb ./server/
 
 # install dependencies
-RUN npm ci && \
+RUN bun install --frozen-lockfile && \
 cd server && \
-npm ci
+bun install --frozen-lockfile
 
 # Add project files
-ADD . .
+ADD --chown=bun:bun . .
 
 # build
-RUN npm run compile && \
-cd server && \
-npm run compile && \
-npm run build
+RUN cd server && \
+bun run compile
 
-# remove dev dependencies
-RUN npm prune --production && \
-cd server && \
-npm prune --production
+# remove dev dependencies (bun do not yet support "prune")
+RUN cd server && \
+rm -rf node_modules && \
+bun install --frozen-install --production
 
 # go to another VM
-FROM node:alpine
+FROM docker.io/oven/bun:1-alpine as PROD_IMAGE
 
-# go to folder
-WORKDIR /app
+# inform software to be in production
+ENV NODE_ENV=production
+
+# run as non root user
+USER bun
+
+# go to work folder
+WORKDIR /usr/src/app
 
 # copy from build image
-COPY --from=BUILD_IMAGE /app/server/generated ./generated
-COPY --from=BUILD_IMAGE /app/server/node_modules ./node_modules
-COPY --from=BUILD_IMAGE /app/server/dist ./dist
-COPY --from=BUILD_IMAGE /app/server/public ./public
-COPY --from=BUILD_IMAGE /app/server/package.json ./package.json
+COPY --chown=bun:bun --from=BUILD_IMAGE /usr/src/app/server/generated ./generated
+COPY --chown=bun:bun --from=BUILD_IMAGE /usr/src/app/server/node_modules ./node_modules
+COPY --chown=bun:bun --from=BUILD_IMAGE /usr/src/app/server/src ./src
+COPY --chown=bun:bun --from=BUILD_IMAGE /usr/src/app/server/public ./public
+COPY --chown=bun:bun --from=BUILD_IMAGE /usr/src/app/server/package.json ./package.json
 
 # Expose port
 EXPOSE 3000
 
 # run it !
-CMD ["npm", "run", "start"]
+CMD ["bun", "run", "start"]

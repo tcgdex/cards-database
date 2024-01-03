@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lileep",
 		fr: "Lilia",
+		de: "Liliep"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Astonish",
 				fr: "Étonnement",
+				de: "Erstauner"
 			},
 			effect: {
 				en: "Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
 				fr: "Choisissez sans regarder une carte de la main de votre adversaire. Regardez-la et demandez à votre adversaire de la mélanger à son deck.",
+				de: "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Schau dir die Karte an, danach mischt dein Gegner sie in sein Deck."
 			},
 			damage: 20,
 
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Absorb",
 				fr: "Vol-vie",
+				de: "Absorber"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Lileep.",
 				fr: "Retirez à Lilia 2 marqueurs de dégât.",
+				de: "Entferne 2 Schadensmarken von Liliep."
 			},
 			damage: 30,
 

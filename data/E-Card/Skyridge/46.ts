@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Abra",
+		de: "Abra"
 	},
 	illustrator: "Keiko Fukuyama",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Psychoflow",
+				de: "Psychofluss"
 			},
 			effect: {
 				en: "As long as there is a Psychic Energy card attached to Abra, its Retreat Cost is 0.",
+				de: "Solange mindestens eine -Energiekarte an Abra angelegt ist, betragen seine Rückzugskosten 0."
 			},
 		},
 	],
@@ -39,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				de: "Kopfnuss"
 			},
 
 			damage: 20,

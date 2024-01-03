@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Salamence δ",
-		fr: "Drattak δ ESPÈCES DELTA"
+		fr: "Drattak δ ESPÈCES DELTA",
+		de: "Brutalanda"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Dance",
-				fr: "Danse du feu"
+				fr: "Danse du feu",
+				de: "Feuertanz"
 			},
 			effect: {
 				en: "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à 1 de vos Pokémon."
+				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à 1 de vos Pokémon.",
+				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an 1 deiner Pokémon an."
 			},
 			damage: 30,
 
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Delta Blast",
-				fr: "Explosion Delta"
+				fr: "Explosion Delta",
+				de: "Delta-Schuss"
 			},
 			effect: {
 				en: "Discard a Metal Energy card attached to Salamence.",
-				fr: "Défaussez une carte Énergie  attachée à Drattak."
+				fr: "Défaussez une carte Énergie  attachée à Drattak.",
+				de: "Lege 1 an Brutalanda angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 100,
 

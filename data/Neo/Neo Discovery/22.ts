@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Hitmontop",
-		fr: "Kapoera"
+		fr: "Kapoera",
+		de: "Kapoera"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Detect",
-				fr: "Détection"
+				fr: "Détection",
+				de: "Scanner"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Hitmontop.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, tous les effets des attaques contre Kapoera, y compris les dégâts, sont annulés."
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, tous les effets des attaques contre Kapoera, y compris les dégâts, sont annulés.",
+				de: "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten gegenerischen Zugs alle Aus-wirkungen von Angriffen auf kapoera (einschließlich der Schadenspunkte)."
 			},
 
 		},
@@ -48,15 +51,17 @@ const card: Card = {
 
 			name: {
 				en: "Triple Kick",
-				fr: "Triple pied"
+				fr: "Triple pied",
+				de: "Dreifachkick"
 			},
 
 			effect: {
 				en: "Flip 3 coins. This attack does 30 times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				de: "Wirf drei Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 
-			damage: "30×"
+			damage: "30x"
 		},
 	],
 

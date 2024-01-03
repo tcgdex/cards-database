@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Numel",
 		fr: "Chamallot",
+		de: "Camaub"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Flare Bonus",
 				fr: "Bonus d’intimidation",
+				de: "Flammenbonus"
 			},
 			effect: {
 				en: "Discard a Fire Energy card from your hand. Then, draw 3 cards.",
 				fr: "Défaussez une carte Énergie Fire de votre main. Ensuite, piochez 3 cartes.",
+				de: "Lege 1 -Energiekarte von deiner Hand auf deinen Ablagestapel. Ziehe danach 3 Karten."
 			},
 
 		},
@@ -48,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
+				de: "Glühen"
 			},
 
 			damage: 40,

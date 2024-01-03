@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Tentacool",
-		fr: "Tentacool"
+		fr: "Tentacool",
+		de: "Tentacha"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Freefloating",
-				fr: "Apesanteur"
+				fr: "Apesanteur",
+				de: "Freefloating"
 			},
 			effect: {
 				en: "If Tentacool has no Energy attached to it, Tentacool's Retreat Cost is 0.",
-				fr: "Si Tentacool ne possède pas d'Énergies, son Coût de Retraite est de 0."
+				fr: "Si Tentacool ne possède pas d'Énergies, son Coût de Retraite est de 0.",
+				de: "If Tentacool has no Energy attached to it, Tentacool's Retreat Cost is 0."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Wrap",
-				fr: "Ligotage"
+				fr: "Ligotage",
+				de: "Wrap"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 
 		},

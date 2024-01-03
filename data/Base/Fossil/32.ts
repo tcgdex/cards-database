@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Cloyster",
-		fr: "Crustabri"
+		fr: "Crustabri",
+		de: "Austos"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -37,12 +38,14 @@ const card: Card = {
 
 			name: {
 				en: "Clamp",
-				fr: "Claquoir"
+				fr: "Claquoir",
+				de: "Schnapper"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, cette attaque n'a aucun effet (pas même les dégâts)."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, cette attaque n'a aucun effet (pas même les dégâts).",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt. Bei 'Zahl' hat dieser Angriff keine Auswirkungen (und fügt auch keine Schadenspunkte zu)."
 			},
 
 			damage: 30
@@ -54,13 +57,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Spike Cannon",
-				fr: "Picanon"
+				fr: "Picanon",
+				de: "Dornkanone"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal wenn die Münze 'Kopf' zeigt 30 Schadenspunkte zu."
 			},
-			damage: "30×",
+			damage: "30x",
 
 		},
 	],

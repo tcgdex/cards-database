@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Mismagius",
+		de: "Traunmagil"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleeping Spell",
+				de: "Schlafzauber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				de: "Wirf eine Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 30,
 
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poltergeist",
+				de: "Poltergeist"
 			},
 			effect: {
 				en: "Look at your opponent's hand. This attack does 30 damage times the number of Trainer, Supporter, and Stadium cards in your opponent's hand.",
+				de: "Schau dir die Handkarten deines Gegners an. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der Trainer-, Unterstützer- und Stadion-Karten, die du dort gefunden hast, zu."
 			},
-			damage: 30,
+			damage: "30x",
 
 		},
 	],

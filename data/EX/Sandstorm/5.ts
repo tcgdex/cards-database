@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Flareon",
-		fr: "Pyroli"
+		fr: "Pyroli",
+		de: "Flamara"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Singe",
-				fr: "Ça sent le roussi!"
+				fr: "Ça sent le roussi!",
+				de: "Super Singe"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
 			},
 			damage: 20,
 
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
-				fr: "Lance-flamme"
+				fr: "Lance-flamme",
+				de: "Flamethrower"
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Flareon.",
-				fr: "Défaussez une carte Énergie  attachée à Pyroli."
+				fr: "Défaussez une carte Énergie  attachée à Pyroli.",
+				de: "Discard a  Energy card attached to Flareon."
 			},
 			damage: 70,
 

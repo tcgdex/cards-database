@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kangaskhan",
 		fr: "Kangourex",
+		de: "Kangama"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 30,
@@ -45,12 +47,14 @@ const card: Card = {
 			name: {
 				en: "Comet Punch",
 				fr: "Poing comète",
+				de: "Kometenhieb"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 	],

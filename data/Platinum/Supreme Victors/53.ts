@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Carnivine",
 		fr: "Vortente",
+		de: "Venuflibis"
 	},
 	illustrator: "Satoshi Ohta",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet lianes",
+				de: "Rankenhieb"
 			},
 
 			damage: 20,
@@ -45,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Swallow",
 				fr: "Avale",
+				de: "Verschlucken"
 			},
 			effect: {
 				en: "Flip a coin. If heads, remove from Carnivine the number of damage counters equal to the damage you did to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, retirez à Vortente autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" entferne Schadensmarken von Venuflibis entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
 			damage: 30,
 

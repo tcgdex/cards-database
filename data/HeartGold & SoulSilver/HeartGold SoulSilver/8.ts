@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Noctowl",
 		fr: "Noarfang",
+		de: "Noctuh"
 	},
 
 	illustrator: "Suwama Chiaki",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Night Sight",
 				fr: "Vision de nuit",
+				de: "Nachtblick"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may draw a card. This power can’t be used if Noctowl is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Noarfang est affecté par un État spécial.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Noctuh von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Extrasensory",
 				fr: "Extrasenseur",
+				de: "Sondersensor"
 			},
 			effect: {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 40 damage plus 40 more damage.",
 				fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
+				de: "Wenn du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 

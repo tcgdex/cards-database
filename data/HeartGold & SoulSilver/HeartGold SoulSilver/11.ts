@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Shuckle",
 		fr: "Caratroc",
+		de: "Pottrott"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -29,9 +30,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				fr: "Coquille barricade",
+				de: "Panzersperre"
 			},
 			effect: {
 				fr: "Tant que Caratroc est sur le Banc, prévenez tous les dégâts infligés à Caratroc par des attaques (les vôtres et celles de votre adversaire).",
+				de: "Solange sich Pottrott auf deiner Bank befindet, verhindere allen Schaden, der Pottrott durch Angriffe (deine oder die deines Gegners) zugefügt würde."
 			},
 		},
 	],
@@ -45,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Poison Jab",
 				fr: "Direct Toxik",
+				de: "Gifthieb"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergifet."
 			},
 			damage: 30,
 

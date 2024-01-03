@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Geodude",
-		fr: "Racaillou"
+		fr: "Racaillou",
+		de: "Kleinstein"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Punch",
-				fr: "Coud'phalange"
+				fr: "Coud'phalange",
+				de: "Knochenhieb"
 			},
 
 			damage: 20,

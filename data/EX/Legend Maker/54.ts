@@ -4,7 +4,8 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Grimer",
-		fr: "Tadmorv"
+		fr: "Tadmorv",
+		de: "Sleima"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ascension",
-				fr: "Ascension"
+				fr: "Ascension",
+				de: "Aufstieg"
 			},
 			effect: {
 				en: "Search your deck for a card that evolves from Grimer and put it onto Grimer. (This counts as evolving Grimer.) Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte qui évolue de Tadmorv et placez-la sur Tadmorv. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck."
+				fr: "Cherchez dans votre deck une carte qui évolue de Tadmorv et placez-la sur Tadmorv. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach 1 Karte, die sich aus Sleima entwickelt, und lege sie auf Sleima. (Das zählt als Entwickeln von Sleima.) Mische dein Deck danach."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Sludge Toss",
-				fr: "Décision vaseuse"
+				fr: "Décision vaseuse",
+				de: "Schleimwurf"
 			},
 
 			damage: 20,

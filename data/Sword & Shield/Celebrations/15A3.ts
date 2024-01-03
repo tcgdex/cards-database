@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin-ichi Yoshida",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],

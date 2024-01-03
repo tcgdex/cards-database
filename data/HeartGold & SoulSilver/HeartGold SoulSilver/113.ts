@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Lugia LEGEND",
 		fr: "Lugia LÉGENDAIRE",
+		de: "Lugia LEGENDE"
 	},
 
 	illustrator: "Shinji Higuchi",
-	rarity: "Ultra Rare",
+	rarity: "LEGEND",
 	category: "Pokemon",
 	set: Set,
 
@@ -35,7 +36,21 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	attacks: [{
+		name: {
+			de: "Urgewaltexplosion"
+		},
+
+		damage: 200,
+
+		effect: {
+			de: "Lege 1 -Energie, 1 -Energie und 1 -Energie, die an Lugia-LEGENDE angelegt sind, auf deinen Ablagestapel."
+		},
+
+		cost: ["Fire", "Water", "Lightning"]
+	}]
 }
 
 export default card

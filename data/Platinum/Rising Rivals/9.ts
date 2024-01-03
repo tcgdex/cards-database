@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Luxray GL",
 		fr: "Luxray  Niv. 48",
+		de: "Luxtra GL"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -31,6 +32,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 30,
@@ -45,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Trash Bolt",
 				fr: "Éclair saccageant",
+				de: "Abfallblitz"
 			},
 			effect: {
 				en: "Discard an Energy card from your hand. (If you can't discard a card from your hand, this attack does nothing.)",
 				fr: "Défaussez une carte Énergie de votre main. (Si vous ne pouvez pas défausser de carte de votre main, cette attaque est sans effet).",
+				de: "Lege 1 Energiekarte von deiner Hand auf deinen Ablagestapel. (Wenn du das nicht machen kannst, hat dieser Angriff keine Auswirkungen.)"
 			},
 			damage: 70,
 

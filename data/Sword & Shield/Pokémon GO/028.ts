@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
@@ -44,7 +44,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	variants: {
+		"normal": true,
+		"reverse": true,
+		"holo": true
+	}
 }
 
 export default card

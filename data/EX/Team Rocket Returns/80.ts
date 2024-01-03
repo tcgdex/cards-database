@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Voltorb",
+		de: "Voltobal"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Psycho Waves",
+				de: "Psycho Waves"
 			},
 			effect: {
 				en: "Discard an Energy card attached to Voltorb. The Defending Pokémon is now Confused.",
+				de: "Discard an Energy card attached to Voltorb. The Defending Pokémon is now Confused."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Wave",
+				de: "Thunder Wave"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 

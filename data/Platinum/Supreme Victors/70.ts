@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Milotic",
 		fr: "Milobellus",
+		de: "Milotic"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Cleansing Ring",
 				fr: "Cercle nettoyant",
+				de: "Reinigungsring"
 			},
 			effect: {
 				en: "You may discard 2 cards from your hand. If you do, remove 4 damage counters from 1 of your Pokémon.",
 				fr: "Vous pouvez défausser 2 cartes de votre main. Retirez alors à 1 de vos Pokémon 4 marqueurs de dégât.",
+				de: "Du kannst 2 Karten von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, entferne 4 Schadensmarken von 1 deiner Pokémon."
 			},
 			damage: 20,
 
@@ -51,12 +54,14 @@ const card: Card = {
 			name: {
 				en: "Scale Blow",
 				fr: "Coup d'écaille",
+				de: "Schuppenschlag"
 			},
 			effect: {
 				en: "Does 90 damage minus 10 damage for each card in your hand.",
 				fr: "Inflige 90 dégâts moins 10 dégâts pour chaque carte se trouvant dans votre main.",
+				de: "Dieser Angriff fügt 90 Schadenspunkte minus 10 Schadenspunkte für jede Karte auf deiner Hand zu."
 			},
-			damage: 90,
+			damage: "90-",
 
 		},
 	],

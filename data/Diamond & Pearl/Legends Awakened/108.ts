@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Nincada",
 		fr: "Ningale",
+		de: "Nincada"
 	},
 
 	illustrator: "Midori Harada",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -44,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Big Bite",
 				fr: "Grosse morsure",
+				de: "Mächtiger Biss"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 
 		},

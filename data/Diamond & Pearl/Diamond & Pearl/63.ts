@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Silcoon",
 		fr: "Armulys",
+		de: "Schaloko"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Harden",
 				fr: "Armure",
+				de: "Härtner"
 			},
 			effect: {
 				en: "During your opponent's next turn, if Silcoon would be damaged by an attack, prevent that attack's damage done to Silcoon if that damage is 30 or less.",
 				fr: "Lors du prochain tour de votre adversaire, si une attaque inflige des dégâts à Armulys, prévenez ces dégâts s'ils sont de 30 ou moins.",
+				de: "Wenn Schaloko während des nächsten Zuges deines Gegners durch einen Angriff 30 oder weniger Schadenspunkte zugefügt würden, verhindere diesen Schaden."
 			},
 
 		},
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Entangling String",
 				fr: "Fil emmêlant",
+				de: "Einschnürender Faden"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
 			},
 			damage: 20,
 

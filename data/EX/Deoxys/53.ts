@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Baltoy",
-		fr: "Balbuto"
+		fr: "Balbuto",
+		de: "Puppance"
 	},
 	illustrator: "Kenkichi Toyama",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Spinning Attack",
-				fr: "Attaque tournante"
+				fr: "Attaque tournante",
+				de: "Spinning Attack"
 			},
 
 			damage: 10,
@@ -37,16 +39,18 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fighting",
 				"Colorless",
+				"Fighting",
 			],
 			name: {
 				en: "Selfdestruct",
-				fr: "Destruction"
+				fr: "Destruction",
+				de: "Seldestruct"
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) Baltoy does 50 damage to itself.",
-				fr: "Inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Balbuto s'inflige 50 dégâts."
+				fr: "Inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Balbuto s'inflige 50 dégâts.",
+				de: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) Baltoy does 50 damage to itself."
 			},
 			damage: 40,
 

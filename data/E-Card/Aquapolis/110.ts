@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Sneasel",
-		fr: "Farfuret"
+		fr: "Farfuret",
+		de: "Sniebel"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rob",
-				fr: "Dérober"
+				fr: "Dérober",
+				de: "Räuber"
 			},
 			effect: {
 				en: "Look at your opponent's hand. Choose all Technical Machine and Pokémon Tool cards there and put them into his or her deck. Your opponent shuffles the deck afterward.",
-				fr: "Regardez la main de votre adversaire. Choisissez-y toutes les cartes Outil Pokémon et Machine technique et placez-les dans son deck. Votre adversaire mélange ensuite son deck."
+				fr: "Regardez la main de votre adversaire. Choisissez-y toutes les cartes Outil Pokémon et Machine technique et placez-les dans son deck. Votre adversaire mélange ensuite son deck.",
+				de: "Schau dir die Karten auf der Hand deines Gegners an. Wähle alle Technischen Maschinen und Pokémon-Ausrüstungskarten darunter und lege sie in das Deck deines Gegners. Dein Gegner mischt danach sein Deck."
 			},
 
 		},
@@ -45,12 +48,14 @@ const card: Card = {
 
 			name: {
 				en: "Claw",
-				fr: "Mâchoire"
+				fr: "Mâchoire",
+				de: "Klaue"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 30

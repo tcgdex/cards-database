@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Seadra",
+		de: "Seemon"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				de: "Confuse Ray"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
+				de: "The Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Trick",
+				de: "Aqua Trick"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokemon, move 1 Energy card attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon. If your opponent has no Benched Pokémon, this effect does nothing.",
+				de: "Move 1 Energy card attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon. If your opponent has no Benched Pokémon, this effect does nothing."
 			},
 			damage: 30,
 

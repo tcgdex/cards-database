@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Bronzor",
-		fr: "Archéomire"
+		fr: "Archéomire",
+		de: "Bronzel"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -36,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Gyro Swap",
 				fr: "Gyro-échange",
+				de: "Gyrotausch"
 			},
 			effect: {
 				en: "Put a number of damage counters on the Defending Pokémon equal to the number of Colorless Energy in Bronzor's Retreat Cost (after applying effects to the Retreat Cost).",
 				fr: "Placez autant de marqueurs de dégât sur le Pokémon Défenseur qu'il y a d'Énergies Colorless dans le Coût de Retraite d'Archéomire (après avoir appliqué les effets sur le Coût de Retraite).",
+				de: "Lege für jede -Energie in Bronzels Rückzugskosten (nachdem Effekte auf die Rückzugskosten verrechnet wurden) 1 Schadensmarke auf das Verteidigende Pokémon."
 			},
 
 		},
@@ -51,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Psyshock",
 				fr: "Choc psy",
+				de: "Psychoschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 

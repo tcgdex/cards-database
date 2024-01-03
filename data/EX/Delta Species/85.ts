@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Staryu",
-		fr: "Stari"
+		fr: "Stari",
+		de: "Sterndu"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Surprise Attack",
-				fr: "Attaque surprise"
+				fr: "Attaque surprise",
+				de: "Surprise Attack"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20,
 
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Recover",
-				fr: "Soin"
+				fr: "Soin",
+				de: "Recover"
 			},
 			effect: {
 				en: "Discard a Water Energy card attached to Staryu and remove 4 damage counters from Staryu (all if there are less than 4).",
-				fr: "Défaussez une carte Énergie  attachée à Stari et retirez-lui 4 marqueurs de dégât (retirez-les lui tous s'il en a moins de 4)."
+				fr: "Défaussez une carte Énergie  attachée à Stari et retirez-lui 4 marqueurs de dégât (retirez-les lui tous s'il en a moins de 4).",
+				de: "Discard a  Energy attached to Staryu and remove 4 damage counters from Staryu (all if there als less than 4)."
 			},
 
 		},

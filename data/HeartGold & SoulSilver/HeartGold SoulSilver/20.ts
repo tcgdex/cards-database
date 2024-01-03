@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Feraligatr",
 		fr: "Aligatueur",
+		de: "Impergator"
 	},
 
 	illustrator: "kawayoo",
@@ -39,10 +40,12 @@ const card: Card = {
 			name: {
 				en: "Spinning Tail",
 				fr: "Queue tournante",
+				de: "Kreisender Schweif"
 			},
 			effect: {
 				en: "This attack does 20 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à chaque Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -56,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				de: "Surfer"
 			},
 
 			damage: 80,

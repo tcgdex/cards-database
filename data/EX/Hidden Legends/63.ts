@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Jigglypuff",
-		fr: "Rondoudou"
+		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
-				fr: "Roulade"
+				fr: "Roulade",
+				de: "Rollout"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleepy Song",
-				fr: "Chanson berçante"
+				fr: "Chanson berçante",
+				de: "Sleepy Song"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Asleep.",
-				fr: "Chaque Pokémon Défenseur est maintenant Endormi."
+				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
+				de: "Each Defending Pokémon is now Asleep."
 			},
 
 		},

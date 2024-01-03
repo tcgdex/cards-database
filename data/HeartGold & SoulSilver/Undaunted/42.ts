@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aron",
 		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	illustrator: "match",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Metal Sound",
 				fr: "Strido-son",
+				de: "Metallsound"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d’boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 20,

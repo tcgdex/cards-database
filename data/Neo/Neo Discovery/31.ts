@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Tyranitar",
-		fr: "Tyranocif"
+		fr: "Tyranocif",
+		de: "Despotar"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -38,15 +39,17 @@ const card: Card = {
 
 			name: {
 				en: "Slam",
-				fr: "Souplesse"
+				fr: "Souplesse",
+				de: "Slam"
 			},
 
 			effect: {
 				en: "Flip 2 coins. This attack does 30 times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				de: "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
 
-			damage: "30×"
+			damage: "30x"
 		},
 		{
 			cost: [
@@ -57,11 +60,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Trample",
-				fr: "Bousculade"
+				fr: "Bousculade",
+				de: "Trample"
 			},
 			effect: {
 				en: "For each Benched Pokémon in play (yours and your opponent's), flip a coin. If heads, this attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Pour chaque Pokémon sur le Banc (celui de votre adversaire et le vôtre), lancez une pièce. Si c'est face, cette attaque fait 30 dégâts à ce Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				fr: "Pour chaque Pokémon sur le Banc (celui de votre adversaire et le vôtre), lancez une pièce. Si c'est face, cette attaque fait 30 dégâts à ce Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "For each Benched Pokémon in play (yours and your opponent's), flip a coin. If heads, this attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for benched Pokémon.)"
 			},
 			damage: 50,
 

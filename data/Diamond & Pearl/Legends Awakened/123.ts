@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Swinub",
 		fr: "Marcracrin",
+		de: "Quiekel"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Sniff Out",
 				fr: "Flairer",
+				de: "Rumschnüffeln"
 			},
 			effect: {
 				en: "Flip a coin. If heads, put any 1 card from your discard pile into your hand.",
 				fr: "Lancez une pièce. Si c'est face, placez n'importe quelle carte de votre pile de défausse dans votre main.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" wähle 1 Karte aus deinem Ablagestapel und nimm sie auf deine Hand."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Lunge Out",
 				fr: "Allonger",
+				de: "Sprungangriff"
 			},
 
 			damage: 30,

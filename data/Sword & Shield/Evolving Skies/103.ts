@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Zoroark"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],

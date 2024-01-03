@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti"
+		fr: "Magneti",
+		de: "Magnetilo"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,25 +30,30 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collectionner"
+				fr: "Collectionner",
+				de: "Collect"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				de: "Draw a card."
 			},
 
 		},
 		{
-			cost: [
-				"Lightning",
-			],
+			cost: ["Grass", "Colorless"],
+
 			name: {
 				en: "Magnetic Blast",
-				fr: "Explosion magnétique"
+				fr: "Explosion magnétique",
+				de: "Snapping Pincers"
 			},
 
-			damage: 10,
+			damage: "10+",
 
+			effect: {
+				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
+			}
 		},
 	],
 	weaknesses: [

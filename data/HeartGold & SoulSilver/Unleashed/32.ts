@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kakuna",
 		fr: "Coconfort",
+		de: "Kokuna"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Speed Evolution",
 				fr: "Évolution rapide",
+				de: "Tempo-Evolution"
 			},
 			effect: {
 				en: "Search your deck for a card that evolves from Kakuna and put it onto Kakuna. (This counts as evolving Kakuna.) Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck une carte Évolution de Coconfort et placez-la sur Coconfort (cela équivaut à faire évoluer Coconfort). Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach einer Karte, die aus Kokuna entsteht, und lege sie auf Kokuna. (Dies zählt als Entwickeln von Kokuna.) Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Poison Sting",
 				fr: "Dard-venin",
+				de: "Giftstachel"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},

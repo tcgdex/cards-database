@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dratini",
+		de: "Dratini"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Song",
+				de: "Dragon Song"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Asleep.",
+				de: "Each Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Strike",
+				de: "Tail Strike"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Tectass"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
@@ -67,7 +67,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	variants: {
+		"normal": false,
+		"reverse": true,
+		"holo": true
+	}
 }
 
 export default card

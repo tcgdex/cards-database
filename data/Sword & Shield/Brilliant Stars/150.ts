@@ -25,7 +25,13 @@ const card: Card = {
 		de: "Du kannst diese Karte nur verwenden, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\nDurchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

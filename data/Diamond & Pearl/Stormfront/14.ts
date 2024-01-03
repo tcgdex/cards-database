@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Cherrim",
-		fr: "Ceriflor"
+		fr: "Ceriflor",
+		de: "Kinoso"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Sunny Day",
 				fr: "Zénith",
+				de: "Sonnentag"
 			},
 			effect: {
 				en: "Each of your Grass Pokémon and Fire Pokémon's attacks does 10 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
 				fr: "Chacune des attaques de vos Pokémon Grass et Fire inflige 10 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance.",
+				de: "Alle Angriffe deiner - und -Pokémon fügen den Verteidigenden Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -43,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Salty-sweet Pollen",
 				fr: "Pollen sucré-salé",
+				de: "Salzig-süße Pollen"
 			},
 			effect: {
 				en: "Remove 2 damage counters from 1 of your Pokémon.",
 				fr: "Retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
+				de: "Entferne 2 Schadensmarken von 1 deiner Pokémon."
 			},
 			damage: 20,
 
@@ -60,6 +65,7 @@ const card: Card = {
 			name: {
 				en: "Solarbeam",
 				fr: "Lance-soleil",
+				de: "Solarstrahl"
 			},
 
 			damage: 50,

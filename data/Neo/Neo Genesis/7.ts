@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Jumpluff",
-		fr: "Cotovol"
+		fr: "Cotovol",
+		de: "Papungha"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
-				fr: "Poudre dodo"
+				fr: "Poudre dodo",
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Leech Seed",
-				fr: "Vampigraine"
+				fr: "Vampigraine",
+				de: "Egelsamen"
 			},
 			effect: {
 				en: "If this attack damages the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Jumpluff, if it has any.",
-				fr: "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégâts de Cotovol, s'il en possède."
+				fr: "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégâts de Cotovol, s'il en possède.",
+				de: "Falls dieser Angriff dem Verteidigenden Pokémon Schadenspunkte zufügt, (nachdem Schwäche und Resistenz verrechnet wurden) entferne eine Schadensmarke von Papungha, falls es mindestens eine hat."
 			},
 			damage: 20,
 

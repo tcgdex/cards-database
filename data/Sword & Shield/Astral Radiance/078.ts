@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Lucario V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Fighting"],
@@ -62,7 +62,7 @@ const card: Card = {
 
 	variants: {
 		normal: false,
-		reverse: true,
+		reverse: false,
 		holo: true,
 		firstEdition: false
 	}

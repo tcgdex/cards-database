@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Espeon 4",
 		fr: "Mentali  Niv. 55",
+		de: "Psiana 4"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Hypnosis",
 				fr: "Hypnose",
+				de: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -45,12 +48,14 @@ const card: Card = {
 			name: {
 				en: "Psywave",
 				fr: "Vague psy",
+				de: "Psywelle"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie, die am Verteidigenden Pokémon angelegt ist, zu."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

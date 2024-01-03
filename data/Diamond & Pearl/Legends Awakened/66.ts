@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mightyena",
 		fr: "Grahyena",
+		de: "Magnayen"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Bite On",
 				fr: "Morsure à répétition",
+				de: "Anbeißen"
 			},
 			effect: {
 				en: "If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon can't attack, retreat, or use any Poké-Powers during your opponent's next turn.",
 				fr: "Si le Pokémon Défenseur n'est pas un Pokémon Évolué, il ne peut pas attaquer, battre en retraite ou utiliser de Poké-Powers lors du prochain tour de votre adversaire.",
+				de: "Wenn das Verteidigende Pokémon kein entwickeltes Pokémon ist, kann es im nächsten Zug deines Gegners nicht angreifen, sich zurückziehen oder Poké-Power benutzen."
 			},
 			damage: 30,
 
@@ -53,12 +56,14 @@ const card: Card = {
 			name: {
 				en: "Harass",
 				fr: "Harcèlement",
+				de: "Schikanieren"
 			},
 			effect: {
 				en: "Does 10 damage times the number of Pokémon you have in play.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon que vous avez en jeu.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl deiner Pokémon im Spiel zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

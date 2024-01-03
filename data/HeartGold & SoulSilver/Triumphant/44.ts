@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Marowak",
 		fr: "Ossatueur",
+		de: "Knogga"
 	},
 
 	illustrator: "kawayoo",
@@ -38,12 +39,14 @@ const card: Card = {
 			name: {
 				en: "Bonemerang",
 				fr: "Osmerang",
+				de: "Knochmerang"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "60×",
+			damage: "60x",
 
 		},
 		{
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Bone Impact",
 				fr: "Impact osseux",
+				de: "Knocheneinschlag"
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 20 damage plus 60 more damage. Discard that Stadium card.",
 				fr: "Si une carte Stade est en jeu, cette attaque inflige 20 dégâts plus 60 dégâts supplémentaires. Défaussez cette carte Stade.",
+				de: "Wenn sich eine Stadion-Karte im Spiel befindet, fügt dieser Angriff 20 Schadenspunkte plus 60 weitere Schadenspunkte zu. Lege die Stadion-Karte auf den jeweiligen Ablagestapel."
 			},
 			damage: "20+",
 

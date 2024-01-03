@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Double Full Heal",
 		fr: "Double guérison totale",
+		de: "Doppel Hyperheiler"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
@@ -24,6 +25,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Retirez à chacun de vos Pokémon Actifs tous leurs États Spéciaux.",
+		de: "Alle Speziellen Zustände auf allen deinen Aktiven Pokémon verlieren ihre Wirkung."
 	},
 	trainerType: "Item",
 

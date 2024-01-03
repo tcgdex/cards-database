@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Rapidash",
 		fr: "Galopa",
+		de: "Gallopa"
 	},
 
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Fiery Spirit",
 				fr: "Esprit flamboyant",
+				de: "Flammengeist"
 			},
 			effect: {
 				en: "Rapidash can’t be Confused.",
 				fr: "Galopa ne peut pas être Confus.",
+				de: "Gallopa kann nicht verwirrt werden."
 			},
 		},
 	],
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Ring of Fire",
 				fr: "Anneau de feu",
+				de: "Feuerring"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned and can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé et ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt und kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 50,
 

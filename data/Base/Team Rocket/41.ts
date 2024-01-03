@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Muk",
-		fr: "Grotadmorv obscur"
+		fr: "Grotadmorv obscur",
+		de: "Dunkles Sleimok"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Sticky Goo",
-				fr: "Boue collante"
+				fr: "Boue collante",
+				de: "Sticky Goo"
 			},
 			effect: {
 				en: "As long as Dark Muk is your Active Pokémon, your opponent pays 2 more to retreat his or her Active Pokémon. This power stops working while Dark Muk is Asleep, Confused, or Paralyzed.",
-				fr: "Tant que Grotadmorv obscur est votre Pokémon Actif, votre adversaire paye  supplémentaires pour faire battre en retraite son Pokémon Actif. Ce pouvoir cesse de fonctionner quand Grotadmorv obscur est Endormi, Confus ou Paralysé."
+				fr: "Tant que Grotadmorv obscur est votre Pokémon Actif, votre adversaire paye  supplémentaires pour faire battre en retraite son Pokémon Actif. Ce pouvoir cesse de fonctionner quand Grotadmorv obscur est Endormi, Confus ou Paralysé.",
+				de: "As long as Dark Muk is your Active Pokémon, your opponent pays   more to retreat his or her Active Pokémon. This power stops working while Dark Muk is Asleep, Confused,or Paralyed."
 			},
 		},
 	],
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sludge Punch",
-				fr: "Point gadoue"
+				fr: "Point gadoue",
+				de: "Sludge Punch"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "The Defending Pokémon is now Poisoned."
 			},
 			damage: 20,
 

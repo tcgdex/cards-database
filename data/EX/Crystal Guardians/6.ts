@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Ludicolo δ",
-		fr: "Ludicolo δ"
+		fr: "Ludicolo δ",
+		de: "Kappalores"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Overzealous",
-				fr: "Excès de zèle"
+				fr: "Excès de zèle",
+				de: "Übereifrig"
 			},
 			effect: {
 				en: "If your opponent has any Pokémon-ex in play, each of Ludicolo's attacks does 30 more damage to the Defending Pokémon.",
-				fr: "Si votre adversaire possède des Pokémon-ex en jeu, chacune des attaques de Ludicolo inflige 30 dégâts supplémentaires au Pokémon Défenseur."
+				fr: "Si votre adversaire possède des Pokémon-ex en jeu, chacune des attaques de Ludicolo inflige 30 dégâts supplémentaires au Pokémon Défenseur.",
+				de: "Wenn dein Gegner mindestens 1 Pokémon-ex im Spiel hat, fügt jeder Angriff von Kappalores dem Verteidigenden Pokémon 30 zusätzliche Schadenspunkte zu."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Knock Off",
-				fr: "Sabotage"
+				fr: "Sabotage",
+				de: "Abschlag"
 			},
 			effect: {
 				en: "Choose 1 card from your opponent's hand without looking and discard it.",
-				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la."
+				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la.",
+				de: "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Dein Gegner legt diese Karte auf seinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -61,7 +66,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Punch",
-				fr: "Poing de feu"
+				fr: "Poing de feu",
+				de: "Feuerschlag"
 			},
 
 			damage: 60,

@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Rocket's Mewtwo ex",
+		de: "Rockets Mewtu ex"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Darkness Switch",
+				de: "Darkness Switch"
 			},
 			effect: {
 				en: "Discard an Energy card attached to Rocket's Mewtwo ex, and then switch all damage counters on Rocket's Mewtwo ex with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)",
+				de: "Discard an Energy card attached to Rockets Mewtwo ex, and then switch all damage counters on Rocket´s Mewtwo ex with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)"
 			},
 
 		},
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnoblast",
+				de: "Hypnoblast"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 			},
 			damage: 40,
 
@@ -58,6 +63,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Psyburn",
+				de: "Psyburn"
 			},
 
 			damage: 70,

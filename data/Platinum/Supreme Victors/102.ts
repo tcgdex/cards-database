@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Doduo",
 		fr: "Doduo",
+		de: "Dodu"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Doduo does 10 damage to itself.",
 				fr: "Doduo s'inflige 10 dégâts.",
+				de: "Dodu fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 

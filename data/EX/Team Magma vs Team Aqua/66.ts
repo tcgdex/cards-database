@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Poochyena",
-		fr: "Medhyena de Team Magma"
+		fr: "Medhyena de Team Magma",
+		de: "Team Magmas Fiffyen"
 	},
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Darkness Call",
-				fr: "Demande d'Obscurité"
+				fr: "Demande d'Obscurité",
+				de: "Darkness Call"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc, s'il en a."
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc, s'il en a.",
+				de: "Your opponent switches the Defending Pokémon with 1 of this or her Benched Pokémon, if any."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Fang",
-				fr: "Croc aiguisé"
+				fr: "Croc aiguisé",
+				de: "Sharp Fang"
 			},
 
 			damage: 20,

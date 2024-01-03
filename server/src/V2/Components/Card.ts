@@ -1,8 +1,8 @@
 import { objectLoop } from '@dzeio/object-util'
 import { Card as SDKCard, CardResume, SupportedLanguages } from '@tcgdex/sdk'
-import Set from './Set'
 import { Pagination } from '../../interfaces'
 import { lightCheck } from '../../util'
+import Set from './Set'
 
 type LocalCard = Omit<SDKCard, 'set'> & {set: () => Set}
 
@@ -51,7 +51,7 @@ export default class Card implements LocalCard {
 			if (key === 'set') {
 				return
 			}
-			this[key as 'id'] = it
+			this[key as 'id'] = it as string
 		})
 	}
 

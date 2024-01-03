@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lanturn",
 		fr: "Lanturn",
+		de: "Lanturn"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Strong Current",
 				fr: "Courant fort",
+				de: "Starke Strömung"
 			},
 			effect: {
 				en: "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
 				fr: "Déplacez une carte Énergie attachée au Pokémon Défenseur sur un autre des Pokémon de votre adversaire.",
+				de: "Entferne 1 an das Verteidigende Pokémon angelegte Energiekarte und lege sie an 1 anderes Pokémon deines Gegners an."
 			},
 			damage: 20,
 
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 40,
 

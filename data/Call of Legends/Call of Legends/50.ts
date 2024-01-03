@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 	illustrator: "Takashi Yamaguchi",
 	rarity: "Uncommon",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Tumble Over",
 				fr: "Culbuter",
+				de: "Umkippen"
 			},
 			effect: {
 				en: "Riolu can't attack during your next turn.",
 				fr: "Riolu ne peut pas attaquer lors de votre prochain tour.",
+				de: "Riolu kann in deinem nächsten Zug nicht angreifen."
 			},
 			damage: 20,
 

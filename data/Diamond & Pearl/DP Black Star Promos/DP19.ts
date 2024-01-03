@@ -4,7 +4,8 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Darkrai",
-		fr: "Darkrai"
+		fr: "Darkrai",
+		de: "Darkrai"
 	},
 	illustrator: "Shizurow",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dark Shadow",
-				fr: "Ombre obscure"
+				fr: "Ombre obscure",
+				de: "Dark Shadow"
 			},
 			effect: {
 				en: "Each basic Darkness Energy card attached to your Darkness Pokémon now has the effect \"If the Pokémon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pokémon (before applying Weakness and Resistance).\" You can't use more than 1 Dark Shadow Poké-Body each turn.",
-				fr: "Chaque carte Énergie de base Darkness attachée à votre Pokémon Darkness possède désormais l'effet 'Si le Pokémon auquel Énergie Obscurité est attachée attaque, cette attaque inflige 10 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).' Vous ne pouvez pas utiliser plus d'1 Poké-Body Ombre obscure par tour."
+				fr: "Chaque carte Énergie de base Darkness attachée à votre Pokémon Darkness possède désormais l'effet 'Si le Pokémon auquel Énergie Obscurité est attachée attaque, cette attaque inflige 10 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).' Vous ne pouvez pas utiliser plus d'1 Poké-Body Ombre obscure par tour.",
+				de: "Each basic  Energy card attached to your  Pokémon now has the effect. If the Pokémon Darkness Energy is attached to attachs, the attack does 10 more damage to the Active Pokémon (before applying Weakness and Resistance). You can't use more than 1 Dark Shadow Poké-Body each turn."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Endless Darkness",
-				fr: "Obscurité sans fin"
+				fr: "Obscurité sans fin",
+				de: "Unendliche Finsternis"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep. Flip 2 coins instead of 1 between turns. If either of them is tails, the Defending Pokémon is still Asleep. If both of them are tails, the Defending Pokémon is Knocked Out.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi. Lancez 2 pièces au lieu d'1 entre deux tours. Si l'une d'elle est pile, le Pokémon Défenseur est toujours Endormi. Si ce sont deux piles, le Pokémon Défenseur est mis K.O."
+				fr: "Le Pokémon Défenseur est maintenant Endormi. Lancez 2 pièces au lieu d'1 entre deux tours. Si l'une d'elle est pile, le Pokémon Défenseur est toujours Endormi. Si ce sont deux piles, le Pokémon Défenseur est mis K.O.",
+				de: "Das Verteidigende Pokémon schläft jetzt. Wirf zwischen den Zügen 2 Münzen anstelle von 1 Münze. Wenn eine Münze \"Zahl\" gezeigt hat, schläft das Verteidigende Pokémon weiter. Wenn beide \"Zahl\" gezeigt haben, ist das Verteidigende Pokémon jetzt kampfunfähig."
 			},
 			damage: 40,
 

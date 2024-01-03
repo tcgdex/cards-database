@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Wobbuffet",
 		fr: "Qulbutoke",
+		de: "Woingenau"
 	},
 
 	illustrator: "Yuka Morii",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Double Return",
 				fr: "Double retour",
+				de: "Doppelbonus"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on Wobbuffet.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts sur Qulbutoke.",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte mal der Anzahl an Schadensmarken auf Woingenau zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

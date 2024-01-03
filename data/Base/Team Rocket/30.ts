@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Vileplume",
-		fr: "Rafflesia obscur"
+		fr: "Rafflesia obscur",
+		de: "Dunkles Giflor"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Hay Fever",
-				fr: "Rhume des foins"
+				fr: "Rhume des foins",
+				de: "Heuschnupfen"
 			},
 			effect: {
 				en: "No Trainer cards can be played. This power stops working while Dark Vileplume is Asleep, Confused, or Paralyzed.",
-				fr: "Aucune carte Dresseur ne peut être jouée. Ce pouvoir cesse de fonctionner lorsque Rafflesia obscur est Endormi, Confus ou Paralysé."
+				fr: "Aucune carte Dresseur ne peut être jouée. Ce pouvoir cesse de fonctionner lorsque Rafflesia obscur est Endormi, Confus ou Paralysé.",
+				de: "Es können keine Trainerkarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Giftlor schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -51,13 +54,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Petal Whirlwind",
-				fr: "Tourbillon de pétales"
+				fr: "Tourbillon de pétales",
+				de: "Blätterwirbelsturm"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads. If you get 2 or more heads, Dark Vileplume is now Confused (after dealing damage).",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Si vous obtenez 2 faces ou plus, Rafflesia obscur est maintenant Confus (après application des dégâts)."
+				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Si vous obtenez 2 faces ou plus, Rafflesia obscur est maintenant Confus (après application des dégâts).",
+				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 30 Schadenspunkte zu. Falls du zweimal oder öfter 'Kopf' wirfst, ist Dunkles Giflor jetzt verwirrt (nach der Schadensverteilung)."
 			},
-			damage: "30×",
+			damage: "30x",
 
 		},
 	],

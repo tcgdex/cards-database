@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Nidorina",
 		fr: "Nidorina",
+		de: "Nidorina"
 	},
 
 	illustrator: "sui",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Quick Blow",
 				fr: "Coup d’poing éclair",
+				de: "Schnellschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -54,6 +57,7 @@ const card: Card = {
 			name: {
 				en: "Tail Slap",
 				fr: "Coud’keu",
+				de: "Schweifschlag"
 			},
 
 			damage: 50,

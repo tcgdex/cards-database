@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Volo"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Trainer",
 
 	effect: {

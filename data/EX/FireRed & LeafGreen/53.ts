@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Bellsprout",
-		fr: "Chétiflor"
+		fr: "Chétiflor",
+		de: "Knofensa"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Vine Whip",
-				fr: "Fouet lianes"
+				fr: "Fouet lianes",
+				de: "Vine Whip"
 			},
 
 			damage: 10,

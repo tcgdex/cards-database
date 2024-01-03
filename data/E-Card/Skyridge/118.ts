@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Zubat",
+		de: "Zubat"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
+				de: "Flügelschlag"
 			},
 
 			damage: 10,
@@ -40,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Spray",
+				de: "Giftspray"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
-			damage: 20,
+			damage: 10,
 
 		},
 	],

@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Meganium",
 		fr: "Meganium",
+		de: "Meganie"
 	},
 
 	illustrator: "Takashi Yamaguchi",
-	rarity: "Ultra Rare",
+	rarity: "Rare PRIME",
 	category: "Pokemon",
 	set: Set,
 
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Trans",
 				fr: "Transfo feuille",
+				de: "Blattverteilung"
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may move a Grass Energy attached to 1 of your Pokémon to another of your Pokémon. This power can’t be used if Meganium is affected by a Special Condition.",
 				fr: "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie Grass attachée à l’un de vos Pokémon sur un autre Pokémon. Ce pouvoir ne peut pas être utilisé si Meganium est affecté par un État spécial.",
+				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 -Energie, die an 1 deiner Pokémon angelegt ist, an 1 anderes deiner Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Meganie von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -54,6 +57,7 @@ const card: Card = {
 			name: {
 				en: "Solarbeam",
 				fr: "Lance-soleil",
+				de: "Solarstrahl"
 			},
 
 			damage: 80,

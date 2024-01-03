@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Victreebel",
 		fr: "Empiflor",
+		de: "Sarzenia"
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Tangling Tendrils",
 				fr: "Enchevêtrement végétal",
+				de: "Wirrranken"
 			},
 			effect: {
 				en: "As long as Victreebel is your Active Pokémon, your opponent’s Active Pokémon’s Retreat Cost is ColorlessColorless more.",
 				fr: "Tant qu’Empiflor est votre Pokémon Actif, le Coût de retraite du Pokémon Actif de votre adversaire est augmenté de ColorlessColorless.",
+				de: "Solange Sarzenia dein Aktives Pokémon ist, betragen die Rückzugskosten für das Aktive Pokémon deines Gegners 2  mehr."
 			},
 		},
 	],
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Acidic Drain",
 				fr: "Ponction acide",
+				de: "Säuresauger"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned and Poisoned. Remove 3 damage counters from Victreebel.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé et Empoisonné. Retirez 3 marqueurs de dégât à Empiflor.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt und vergiftet. Entferne 3 Schadensmarken von Sarzenia."
 			},
 			damage: 30,
 

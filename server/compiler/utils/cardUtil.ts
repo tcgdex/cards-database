@@ -1,10 +1,10 @@
 /* eslint-disable sort-keys */
-import { setToSetSimple } from './setUtil'
-import { cardIsLegal, DB_PATH, fetchRemoteFile, smartGlob } from './util'
-import { Set, SupportedLanguages, Card, Types } from '../../../interfaces'
-import { Card as CardSingle, CardResume } from '../../../meta/definitions/api'
 import { exec } from 'child_process'
+import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
+import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
+import { setToSetSimple } from './setUtil'
 import translate from './translationUtil'
+import { DB_PATH, cardIsLegal, fetchRemoteFile, smartGlob } from './util'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -119,7 +119,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
  * @returns [the local id, the Card object]
  */
 export async function getCard(serie: string, setName: string, id: string): Promise<Card> {
-	return (await import(`../../${DB_PATH}/data/${serie}/${setName}/${id}.js`)).default
+	return (await import(`../../${DB_PATH}/data/${serie}/${setName}/${id}.ts`)).default
 }
 
 /**
@@ -129,18 +129,21 @@ export async function getCard(serie: string, setName: string, id: string): Promi
  * @returns An array with the 0 = localId, 1 = Card Object
  */
 export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Array<[string, Card]>> {
-	const cards = await smartGlob(`${DB_PATH}/data/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.js`)
+	const cards = await smartGlob(`${DB_PATH}/data/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.ts`)
 	const list: Array<[string, Card]> = []
 	for (const path of cards) {
-		const id = path.substring(path.lastIndexOf('/') + 1, path.lastIndexOf('.'))
-		const setName = (set && set.name.en) ?? (() => {
-			const part1 = path.substr(0, path.lastIndexOf(id) - 1)
-			return part1.substr(part1.lastIndexOf('/') + 1)
-		})()
-		const serieName = (set && set.serie.name.en) ?? (() => {
-			const part1 = path.substr(0, path.lastIndexOf(setName) - 1)
-			return part1.substr(part1.lastIndexOf('/') + 1)
-		})()
+		let items = path.split('/')
+		items = items.slice(items.length - 3)
+
+		// get the card id
+		let id = items[2]
+		id = id.substring(0, id.lastIndexOf('.'))
+
+		// get it's set name
+		const setName = (set && set.name.en) ?? items[1]
+
+		// get it's serie name
+		const serieName = (set && set.serie.name.en) ?? items[0]
 		// console.log(path, id, setName)
 		const c = await getCard(serieName, setName, id)
 		if (!c.name[lang]) {

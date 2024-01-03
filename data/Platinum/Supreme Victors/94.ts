@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Buneary",
 		fr: "Laporeille",
+		de: "Haspiror"
 	},
 	illustrator: "Kanako Eo",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Bounce",
 				fr: "Faire des bonds",
+				de: "Sprungfeder"
 			},
 			effect: {
 				en: "Switch Buneary with 1 of your Benched Pokémon.",
 				fr: "Échangez Laporeille avec 1 des Pokémon de votre Banc.",
+				de: "Tausche Haspiror gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -45,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Mini Drain",
 				fr: "Mini-assèchement",
+				de: "Minisauger"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Buneary.",
 				fr: "Retirez à Laporeille 1 marqueur de dégât.",
+				de: "Entferne 1 Schadensmarke von Haspiror."
 			},
 			damage: 20,
 

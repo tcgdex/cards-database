@@ -4,9 +4,10 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Ninetales",
+		de: "Vulnona"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Roast Reveal",
+				de: "Bratblick"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten. Diese Poké-Power kann nicht benutzt werden, wenn Vulnona von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Will-o'-the-wisp",
+				de: "Irrlicht"
 			},
 
 			damage: 60,

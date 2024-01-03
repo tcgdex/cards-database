@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Spoink",
 		fr: "Spoink",
+		de: "Spoink"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Sleep Pearl",
 				fr: "Perle dodo",
+				de: "Schlafperle"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep. Switch Spoink with 1 of your Benched Pokémon.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi. Échangez Spoink avec l’un de vos Pokémon de Banc.",
+				de: "Das Verteidigende Pokémon schläft jetzt. Tausche Spoink gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},

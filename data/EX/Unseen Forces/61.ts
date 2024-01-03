@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Larvitar",
-		fr: "Embrylex"
+		fr: "Embrylex",
+		de: "Larvitar"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -29,13 +30,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Retaliate",
-				fr: "Représailles"
+				fr: "Représailles",
+				de: "Retaliate"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Larvitar.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueur de dégât sur Embrylex."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueur de dégât sur Embrylex.",
+				de: "Does 10 damage times the number of damage counters on Larvitar."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,

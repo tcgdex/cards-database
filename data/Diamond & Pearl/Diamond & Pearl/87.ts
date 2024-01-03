@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magnemite",
 		fr: "Magneti",
+		de: "Magnetilo"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Metal Sound",
 				fr: "Strido-son",
+				de: "Metallsound"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Resonance",
 				fr: "Résonance",
+				de: "Resonanz"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Confused, this attack does 20 damage plus 20 more damage.",
 				fr: "Si le Pokémon Défenseur est Confus, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon verwirrt ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

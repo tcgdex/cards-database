@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Ponyta",
+		de: "Ponita"
 	},
 	illustrator: "Kanako Eo",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ascension",
+				de: "Aufstieg"
 			},
 			effect: {
 				en: "Search your deck for a card that evolves from Ponyta and put it onto Ponyta. (This counts as evolving Ponyta.) Shuffle your deck afterward.",
+				de: "Durchsuche dein Deck nach einer Karte, die sich aus Ponita entwickelt, und lege diese auf Ponita. (Dies zählt als Entwickeln von Ponita.) Mische dein Deck danach."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
+				de: "Glühen"
 			},
 
 			damage: 20,

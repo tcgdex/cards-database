@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Squirtle",
 		fr: "Carapuce",
+		de: "Schiggy"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie éclaboussante",
+				de: "Regenplatscher"
 			},
 
 			damage: 10,
@@ -46,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Shell Attack",
 				fr: "Coquill-attaque",
+				de: "Muschelangriff"
 			},
 
 			damage: 40,

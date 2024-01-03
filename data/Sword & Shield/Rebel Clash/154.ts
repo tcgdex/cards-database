@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Trainer",
 	set: Set,
 

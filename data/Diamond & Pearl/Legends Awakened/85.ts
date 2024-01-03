@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bellsprout",
 		fr: "Chetiflor",
+		de: "Knofensa"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Vine Bind",
 				fr: "Liane enroulante",
+				de: "Fesselranke"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't use any Poké-Powers during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas utiliser de Poké-Powers lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon während des nächsten Zuges deines Gegners keine Poké-Power benutzen."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Careless Tackle",
 				fr: "Plaquage imprudent",
+				de: "Unvorsichtiger Tackle"
 			},
 			effect: {
 				en: "Bellsprout does 10 damage to itself.",
 				fr: "Chetiflor s'inflige 10 dégâts.",
+				de: "Knofensa fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 

@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Ho-Oh",
-		fr: "Ho-Oh"
+		fr: "Ho-Oh",
+		de: "Ho-oh"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -30,7 +31,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Gust",
-				fr: "Tornade"
+				fr: "Tornade",
+				de: "Gust"
 			},
 
 			damage: 20,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sacred Fire",
-				fr: "Feu sacré"
+				fr: "Feu sacré",
+				de: "Sacred Fire"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 60 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Lancez une pièce. Si c'est face, choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 60 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+				fr: "Lancez une pièce. Si c'est face, choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 60 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				de: "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 60 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance."
 			},
 
 		},

@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Electabuzz",
-		fr: "Élektek"
+		fr: "Élektek",
+		de: "Elektek"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
-				fr: "Punch"
+				fr: "Punch",
+				de: "Boxhieb"
 			},
 
 			damage: 20,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Swift",
-				fr: "Météores"
+				fr: "Météores",
+				de: "Sternschauer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoir Pokémon ou tout autre effet sur le Pokémon Défenseur."
+				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoir Pokémon ou tout autre effet sur le Pokémon Défenseur.",
+				de: "Die Schadenspunkte aus diesem Angriff werden von der Schwäche, Resistenz, Pokémon-Power oder allen anderen Effekten auf das verteidigende Pokémon nicht beeinflusst."
 			},
 			damage: 30,
 

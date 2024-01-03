@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Geodude",
-		fr: "Racaillou"
+		fr: "Racaillou",
+		de: "Kleinstein"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,13 +33,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Stone Barrage",
-				fr: "Barrage de pierre"
+				fr: "Barrage de pierre",
+				de: "Steinhagel"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Wirf eine Münze, bis du 'Zahl' wirfst. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 10 Schadenspunkte zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

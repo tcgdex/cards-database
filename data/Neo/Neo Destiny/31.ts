@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Chansey",
-		fr: "Leveinard"
+		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	illustrator: "Yuka Morii",
@@ -32,13 +33,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Slap",
-				fr: "Torgnoles"
+				fr: "Torgnoles",
+				de: "Doubleslap"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 		{
@@ -50,12 +53,14 @@ const card: Card = {
 
 			name: {
 				en: "Egg Toss",
-				fr: "Lance Œuf"
+				fr: "Lance Œuf",
+				de: "Egg Toss"
 			},
 
 			effect: {
 				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez un pile, cette attaque ne fait rien."
+				fr: "Lancez 2 pièces. Si vous obtenez un pile, cette attaque ne fait rien.",
+				de: "Flip 2 coins. If either of them is tails, this attack does nothing."
 			},
 
 			damage: 80

@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Brock's Onix",
 	},
 	illustrator: "Benimaru Itoh",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 
 	set: Set,

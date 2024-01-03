@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Shedinja",
-		fr: "Munja"
+		fr: "Munja",
+		de: "Ninjatom"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Empty Shell",
-				fr: "Coquille vide"
+				fr: "Coquille vide",
+				de: "Empty Shell"
 			},
 			effect: {
 				en: "When Shedinja is Knocked Out, your opponent doesn't take any Prize cards.",
-				fr: "Lorsque Munja est mis K.O, votre adversaire ne récolte pas de Récompense."
+				fr: "Lorsque Munja est mis K.O, votre adversaire ne récolte pas de Récompense.",
+				de: "When Shedinja is Knocked Out, your opponent doesn't take any Prize cards."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Extra Curse",
-				fr: "Malédiction supplémentaire"
+				fr: "Malédiction supplémentaire",
+				de: "Extra Curse"
 			},
 			effect: {
 				en: "Put 2 damage counters on the Defending Pokémon. If the Defending Pokémon is Pokémon-ex, put 4 damage counters instead.",
-				fr: "Placez 2 marqueurs de dégât sur le Pokémon Défenseur. Si le Pokémon Défenseur est un Pokémon-ex, placez 4 marqueurs de dégât sur ce Pokémon."
+				fr: "Placez 2 marqueurs de dégât sur le Pokémon Défenseur. Si le Pokémon Défenseur est un Pokémon-ex, placez 4 marqueurs de dégât sur ce Pokémon.",
+				de: "Put 2 damage counters on the Defending Pokémon. If the Defending Pokémon is Pokémon-ex, put 4 damage counters instead."
 			},
 
 		},

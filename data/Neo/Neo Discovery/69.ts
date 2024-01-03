@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Unown [O]",
-		fr: "Zarbi O"
+		fr: "Zarbi O",
+		de: "Icognito O"
 	},
 
 	illustrator: "CR CG gangs",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Observe",
-				fr: "[Observe]"
+				fr: "[Observe]",
+				de: "Observe"
 			},
 			effect: {
 				en: "Once during your turn (before you attack), you may look at 5 cards from the top of your opponent's deck and put them back in the same order.",
-				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez regarder les 5 premières cartes du deck de votre adversaire et les replacer dans le même ordre."
+				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez regarder les 5 premières cartes du deck de votre adversaire et les replacer dans le même ordre.",
+				de: "Du kannst dir einmal während deines Zuges (vor deinem Angriff) die obersten fünf Karten des decks deines Gegners anschauen. lege die karten in derselben Reihenfolge zurück."
 			},
 		},
 	],
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hidden Power",
-				fr: "Puissance cachée"
+				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 10,

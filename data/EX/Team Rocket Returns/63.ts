@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Larvitar",
+		de: "Larvitar"
 	},
 	illustrator: "Midroi Harada",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Light Punch",
+				de: "Light Punch"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig Drain",
+				de: "Dig Drain"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Larvitar.",
+				de: "Remove 1 damage counter from Larvitar."
 			},
 			damage: 20,
 

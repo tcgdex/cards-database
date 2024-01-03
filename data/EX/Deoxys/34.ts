@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Lombre",
-		fr: "Lombre"
+		fr: "Lombre",
+		de: "Lombrero"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Natural Cure",
-				fr: "Guérison naturelle"
+				fr: "Guérison naturelle",
+				de: "Natural Cure"
 			},
 			effect: {
 				en: "When you attach a Water Energy card from your hand to Lombre, remove all Special Conditions from Lombre.",
-				fr: "Lorsque vous attachez une carte Énergie  de votre main à Lombre, retirez-lui tous ses États Spéciaux."
+				fr: "Lorsque vous attachez une carte Énergie  de votre main à Lombre, retirez-lui tous ses États Spéciaux.",
+				de: "When you attach a  Energy card from your hand to Lombre, remove all Special Condition from Lombre."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Blot",
-				fr: "Pâté"
+				fr: "Pâté",
+				de: "Blot"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Lombre.",
-				fr: "Retirez à Lombre 2 marqueurs de dégât."
+				fr: "Retirez à Lombre 2 marqueurs de dégât.",
+				de: "Remove 2 damage counters from Lombre"
 			},
 			damage: 20,
 

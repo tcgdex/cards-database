@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Crobat",
 		fr: "Nostenfer",
+		de: "Iksbat"
 	},
 
 	illustrator: "kawayoo",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Supersonic",
 				fr: "Ultrason",
+				de: "Superschall"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -54,12 +57,14 @@ const card: Card = {
 			name: {
 				en: "Hurricane Wing",
 				fr: "Tornad’aile",
+				de: "Hurrikanschwinge"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "30×",
+			damage: "30x",
 
 		},
 	],

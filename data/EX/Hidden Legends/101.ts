@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Wigglytuff ex",
-		fr: "Grodoudou ex"
+		fr: "Grodoudou ex",
+		de: "Knuddeluff ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleepy Song",
-				fr: "Chanson berçante"
+				fr: "Chanson berçante",
+				de: "Sleepy Song"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Asleep.",
-				fr: "Chaque Pokémon Défenseur est maintenant Endormi."
+				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
+				de: "Each Defending Pokémon is now Asleep."
 			},
 			damage: 30,
 
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Do the Wave",
-				fr: "Faites la vague"
+				fr: "Faites la vague",
+				de: "Do the Wave"
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each of your Benched Pokémon.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon qui se trouve sur votre Banc."
+				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon qui se trouve sur votre Banc.",
+				de: "Does 30 damage plus 10 more damage for each of your Benched Pokémon."
 			},
 			damage: "30+",
 

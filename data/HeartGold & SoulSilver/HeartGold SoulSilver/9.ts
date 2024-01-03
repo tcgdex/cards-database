@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Quagsire",
 		fr: "Maraiste",
+		de: "Morlord"
 	},
 
 	illustrator: "match",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -39,10 +40,12 @@ const card: Card = {
 			name: {
 				en: "Muddy Water",
 				fr: "Ocroupi",
+				de: "Lehmbrühe"
 			},
 			effect: {
 				en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à l’un des Pokémon du Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Mud Shot",
 				fr: "Tir de boue",
+				de: "Lehmschuss"
 			},
 
 			damage: 60,

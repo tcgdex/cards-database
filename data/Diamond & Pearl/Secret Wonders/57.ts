@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Nidorino",
 		fr: "Nidorino",
+		de: "Nidorino"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Spirited Drill",
 				fr: "Perceuse vigoureuse",
+				de: "Energischer Bohrer"
 			},
 			effect: {
 				en: "During your next turn, each of Nidorino's attacks does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
 				fr: "Lors de votre prochain tour, les attaques de Nidorino infligent 20 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
+				de: "In deinem nächsten Zug fügen Nidorinos Angriffe dem Verteidigenden Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 20,
 
@@ -51,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Poison Horn",
 				fr: "Corne empoisonnée",
+				de: "Gifthorn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 40,
 

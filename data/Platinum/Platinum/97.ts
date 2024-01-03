@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Swablu",
 		fr: "Tylton",
+		de: "Wablu"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Sing",
 				fr: "Berceuse",
+				de: "Sing"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Run Around",
 				fr: "Courir dans tous les sens",
+				de: "Run Around"
 			},
 			effect: {
 				en: "You may switch Swablu with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Tylton avec 1 des Pokémon de votre Banc.",
+				de: "You may switch Swablu with 1 of your Benched Pokémon."
 			},
 			damage: 10,
 

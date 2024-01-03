@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Spinarak",
-		fr: "Mimigal"
+		fr: "Mimigal",
+		de: "Webarak"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Scary Face",
-				fr: "Grimace"
+				fr: "Grimace",
+				de: "Grimasse"
 			},
 			effect: {
 				en: "Flip a coin. If heads, until the end of your opponent's next turn the Defending Pokémon can't attack or retreat.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite jusqu'à la fin du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite jusqu'à la fin du prochain tour de votre adversaire.",
+				de: "Wirf eine Münze. Bei 'Kopf' kann sich das Verteidigende Pokémon biis zum Ende des nächsten Zuges weder angreifen noch sich zurückziehen."
 			},
 
 		},
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "String Shot",
-				fr: "Sécrétion"
+				fr: "Sécrétion",
+				de: "Fadenschuss"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Gligar",
-		fr: "Scorplane"
+		fr: "Scorplane",
+		de: "Skorgla"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,12 +34,14 @@ const card: Card = {
 
 			name: {
 				en: "Stun Poison",
-				fr: "Poison neural"
+				fr: "Poison neural",
+				de: "Nervengift"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt und vergiftet."
 			},
 
 			damage: 10

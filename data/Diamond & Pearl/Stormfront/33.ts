@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Budew",
-		fr: "Rozbouton"
+		fr: "Rozbouton",
+		de: "Knospi"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Uncommon",
@@ -29,10 +30,12 @@ const card: Card = {
 			name: {
 				en: "Poison Enzyme",
 				fr: "Enzyme empoisonné",
+				de: "Giftenzyme"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to Budew by your opponent's Poisoned Pokémon.",
 				fr: "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Rozbouton par les Pokémon Empoisonnés de votre adversaire.",
+				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die Knospi von vergifteten Pokémon deines Gegners zugefügt würden."
 			},
 		},
 	],
@@ -42,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Buddy-buddy",
 				fr: "Copain-copain",
+				de: "Dicke Freunde"
 			},
 			effect: {
 				en: "Search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez un Pokémon dans votre deck, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach 1 Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},

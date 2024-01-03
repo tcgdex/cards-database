@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Unown [P]",
-		fr: "Zarbi P"
+		fr: "Zarbi P",
+		de: "Icognito P"
 	},
 
 	illustrator: "CR CG gangs",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hidden Power",
-				fr: "Puissance cachée"
+				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 10,
@@ -52,11 +54,13 @@ const card: Card = {
 
 	abilities: [{
 		name: {
-			fr: "[Perform]"
+			fr: "[Perform]",
+			de: "Perform"
 		},
 
 		effect: {
-			fr: "Si une attaque a infligé des dégâts à Zarbi [P] pendant le dernier tour de votre adversaire et si Zarbi [P] était votre Pokémon Actif, l'attaque Puissance cachée de Zarbi [P] inflige le même nombre de dégâts supplémentaires au Pokémon Défenseur. Ce pouvoir fonctionne même si Zarbi (P] est Confus."
+			fr: "Si une attaque a infligé des dégâts à Zarbi [P] pendant le dernier tour de votre adversaire et si Zarbi [P] était votre Pokémon Actif, l'attaque Puissance cachée de Zarbi [P] inflige le même nombre de dégâts supplémentaires au Pokémon Défenseur. Ce pouvoir fonctionne même si Zarbi (P] est Confus.",
+			de: "Wenn ein Angriff im letzten Zug deines Gegners Icognito P Schaden zugefügt hat und icognito P dein Aktives Pokémon war, fügt Icognito Ps Angriff Kraftreserve dem verteidigenden Pokémon entsprechend viel zusätzlichen Schaden zu. Diese Power kann selbst dann verwendet werden, wenn Icognito P verwirrt ist."
 		},
 
 		type: "Pokemon Power"

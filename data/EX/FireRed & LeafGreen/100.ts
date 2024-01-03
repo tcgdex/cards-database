@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "VS Seeker",
-		fr: "Cherche VS"
+		fr: "Cherche VS",
+		de: "Kampffahnder"
 	},
 
 	illustrator: "K. Utsunomiya",
@@ -14,7 +15,8 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		fr: "Cherchez dans votre pile de défausse une carte Supporter, montrez-la à votre adversaire et placez-la dans votre main."
+		fr: "Cherchez dans votre pile de défausse une carte Supporter, montrez-la à votre adversaire et placez-la dans votre main.",
+		de: "Search your dicard pile for a Supporter card, show it to your opponent, and put it into your hand."
 	}
 }
 

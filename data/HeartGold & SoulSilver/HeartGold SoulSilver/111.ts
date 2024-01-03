@@ -5,10 +5,11 @@ const card: Card = {
 	name: {
 		en: "Ho-Oh LEGEND",
 		fr: "Ho-Oh LÉGENDAIRE",
+		de: "Ho-Oh LEGENDE"
 	},
 
 	illustrator: "Shinji Higuchi",
-	rarity: "Ultra Rare",
+	rarity: "LEGEND",
 	category: "Pokemon",
 	set: Set,
 
@@ -35,7 +36,21 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	attacks: [{
+		name: {
+			de: "Strahlenschwinge"
+		},
+
+		damage: 100,
+
+		effect: {
+			de: "Lege 1 an Ho-Oh-LEGENDE angelegte Energie auf deinen Ablagestapel."
+		},
+
+		cost: ["Fire", "Fire", "Fire", "Fire"]
+	}]
 }
 
 export default card

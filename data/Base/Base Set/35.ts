@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,13 +45,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
-				fr: "Nageoire"
+				fr: "Nageoire",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times number of damage counters on Magikarp.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Magicarpe."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Magicarpe.",
+				de: "Fügt 10 Schadenspunkte mal der Anzahl der auf Karpador abgelegten Schadensmarken zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

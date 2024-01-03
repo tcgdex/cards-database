@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Shinx",
-		fr: "Lixy"
+		fr: "Lixy",
+		de: "Sheinux"
 	},
 	illustrator: "Lee HyunJung",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Plasma",
-				fr: "Plasma"
+				fr: "Plasma",
+				de: "Plasma"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Shinx.",
-				fr: "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie Lightning et attachez-la à Lixy."
+				fr: "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie Lightning et attachez-la à Lixy.",
+				de: "Wirf 1 Münze. bei 'Kopf' durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Sheinux an."
 			},
 			damage: 10,
 

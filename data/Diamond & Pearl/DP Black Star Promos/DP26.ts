@@ -4,7 +4,8 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Dialga",
-		fr: "Dialga"
+		fr: "Dialga",
+		de: "Dialga"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Time Bellow",
-				fr: "Appel temporel"
+				fr: "Appel temporel",
+				de: "Zeitschrei"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 			damage: 10,
 
@@ -48,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flash Cannon",
-				fr: "Luminocanon"
+				fr: "Luminocanon",
+				de: "Lichtkanone"
 			},
 			effect: {
 				en: "You may return all Energy cards attached to Dialga to your hand. If you do, remove the highest Stage Evolution card from the Defending Pokémon and shuffle that card into your opponent's deck.",
-				fr: "Vous pouvez reprendre dans votre main toutes les cartes Énergies attachées à Dialga. Retirez alors au Pokémon Défenseur la carte Évolution au niveau le plus élevé et mélangez-là au deck de votre adversaire."
+				fr: "Vous pouvez reprendre dans votre main toutes les cartes Énergies attachées à Dialga. Retirez alors au Pokémon Défenseur la carte Évolution au niveau le plus élevé et mélangez-là au deck de votre adversaire.",
+				de: "Du kannst alle an Dialga angelegten Energiekarten zurück auf deine Hand nehmen. Wenn du das machst, entferne die höchste Evolutionskarte vom Verteidigenden Pokémon. Dein Gegner mischt diese Karte in sein Deck."
 			},
 			damage: 40,
 

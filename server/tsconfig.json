@@ -1,5 +1,5 @@
 {
-	"extends": "./node_modules/@dzeio/config/tsconfig.base",
+	"extends": "./node_modules/@dzeio/config/tsconfig.base.json",
 	"compilerOptions": {
 		"outDir": "dist"
 	},

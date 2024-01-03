@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Alakazam",
-		fr: "Alakazam obscur"
+		fr: "Alakazam obscur",
+		de: "Dunkles Simsala"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -37,11 +38,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Teleport Blast",
-				fr: "Téléportation instantanée"
+				fr: "Téléportation instantanée",
+				de: "Teleport Blast"
 			},
 			effect: {
 				en: "You may switch Dark Alakazam with 1 of your Benched Pokémon (Do the damage before switching the Pokémon).",
-				fr: "Vous pouvez échanger Alakazam obscur avec 1 des Pokémon de votre Banc. (Infligez les dégâts avant d'échanger les Pokémon.)"
+				fr: "Vous pouvez échanger Alakazam obscur avec 1 des Pokémon de votre Banc. (Infligez les dégâts avant d'échanger les Pokémon.)",
+				de: "You may switch Dark Alakazam with 1 of your Benched Pokémon. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 30,
 
@@ -54,11 +57,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mind Shock",
-				fr: "Choc mémoriel"
+				fr: "Choc mémoriel",
+				de: "Mind Shock"
 			},
 			effect: {
 				en: "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
-				fr: "N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et la Résistance subsistent.)"
+				fr: "N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et la Résistance subsistent.)",
+				de: "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and resistance still happen.)"
 			},
 			damage: 40,
 

@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Zapdos"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
@@ -57,7 +57,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	variants: {
+		"normal": false,
+		"reverse": true,
+		"holo": true
+	}
 }
 
 export default card

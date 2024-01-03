@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Meditite",
-		fr: "Meditikka"
+		fr: "Meditikka",
+		de: "Meditie"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "High Jump Kick",
-				fr: "Pied voltige"
+				fr: "Pied voltige",
+				de: "Hight Jump Kick"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fake Out",
-				fr: "Bluff"
+				fr: "Bluff",
+				de: "Fake Out"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
-	rarity: "Ultra Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Water"],

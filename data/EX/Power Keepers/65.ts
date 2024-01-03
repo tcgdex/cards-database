@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Spheal",
-		fr: "Obalie"
+		fr: "Obalie",
+		de: "Seemops"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Defense Curl",
-				fr: "Boul'armure"
+				fr: "Boul'armure",
+				de: "Einigler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Spheal during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Obalie lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Obalie lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere allen Schaden, der Seemops während des nächsten Zuges deines Gegners zugefügt wird."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Beam",
-				fr: "Onde boréale"
+				fr: "Onde boréale",
+				de: "Aurorastrahl"
 			},
 
 			damage: 20,

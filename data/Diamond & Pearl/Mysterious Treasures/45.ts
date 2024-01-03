@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Dewgong",
-		fr: "Lamantine LV.36"
+		fr: "Lamantine LV.36",
+		de: "Jugong"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Cold Fat",
-				fr: "Graisse froide"
+				fr: "Graisse froide",
+				de: "Fettschicht"
 			},
 			effect: {
 				en: "As long as Dewgong is Asleep, any damage done to Dewgong by attacks is reduced by 40 (after applying Weakness and Resistance).",
-				fr: "Tant que Lamantine est Endormi, tous dégâts qui lui sont infligés par des attaques sont réduits de 40 (après application de la Faiblesse et de la Résistance)."
+				fr: "Tant que Lamantine est Endormi, tous dégâts qui lui sont infligés par des attaques sont réduits de 40 (après application de la Faiblesse et de la Résistance).",
+				de: "Solange Jugong schläft, wird Schaden, der Jugong durch Angriffe zugefügt wird, um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Collapse",
-				fr: "Effondrement"
+				fr: "Effondrement",
+				de: "Kollaps"
 			},
 			effect: {
 				en: "Dewgong is now Asleep.",
-				fr: "Lamantine est maintenant Endormi."
+				fr: "Lamantine est maintenant Endormi.",
+				de: "Jugong schläft jetzt."
 			},
 			damage: 60,
 

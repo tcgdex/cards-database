@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Phanpy",
-		fr: "Phanpy"
+		fr: "Phanpy",
+		de: "Phanpy"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -29,13 +30,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
-				fr: "Fléau"
+				fr: "Fléau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Phanpy.",
-				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Phanpy."
+				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Phanpy.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Phanpy zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
-				fr: "Roulade"
+				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,

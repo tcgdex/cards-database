@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Zapdos",
-		fr: "Electhor"
+		fr: "Electhor",
+		de: "Zapdos"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Anti",
-				fr: "Anti-éclair"
+				fr: "Anti-éclair",
+				de: "Anti-Blitz"
 			},
 			effect: {
 				en: "Lightning - You can't attach Lightning Energy cards from your hand to Zapdos.",
-				fr: "Vous ne pouvez pas attacher de cartes Énergie  depuis votre main à Electhor."
+				fr: "Vous ne pouvez pas attacher de cartes Énergie  depuis votre main à Electhor.",
+				de: "Du kannst keine  - Energiekarte aus deiner Hand an Zapdos anlegen."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Plasma",
-				fr: "Plasma"
+				fr: "Plasma",
+				de: "Plasma"
 			},
 			effect: {
 				en: "If there are any Energy cards in your discard pile, flip a coin. If heads attach 1 of those Energy cards to Zapdos.",
-				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Electhor."
+				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Electhor.",
+				de: "Wenn mindestens eine  - Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" 1 davon an Zapdos an."
 			},
 			damage: 10,
 
@@ -59,11 +64,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lightning Storm",
-				fr: "Orage d'éclairs"
+				fr: "Orage d'éclairs",
+				de: "Blitzsturm"
 			},
 			effect: {
 				en: "Flip a coin. If tails, put 2 damage counters on Zapdos.",
-				fr: "Lancez une pièce. Si c'est face, placez 2 marqueurs de dégâts sur Electhor."
+				fr: "Lancez une pièce. Si c'est face, placez 2 marqueurs de dégâts sur Electhor.",
+				de: "Wirf eine Münze. Lege bei \"Zahl\" 2 Schadensmarken auf Zapdos."
 			},
 			damage: 60,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charmeleon",
 		fr: "Reptincel",
+		de: "Glutexo"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Fire Fang",
 				fr: "Crocs Feu",
+				de: "Feuerzahn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -50,12 +53,14 @@ const card: Card = {
 			name: {
 				en: "Flare Tail",
 				fr: "Queue flamboyante",
+				de: "Fackelschweif"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard a Fire Energy attached to Charmeleon and this attack does 50 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie Fire attachée à Reptincel et cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" lege eine -Energie, die an Glutexo angelegt ist, auf deinen Ablagestapel und dieser Angriff fügt 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

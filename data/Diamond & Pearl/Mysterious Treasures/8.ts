@@ -4,11 +4,12 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Feraligatr",
-		fr: "Aligatueur"
+		fr: "Aligatueur",
+		de: "Impergator"
 	},
 
 	illustrator: "Kazuyuki Kano",
-	rarity: "Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
@@ -36,13 +37,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Cyclone",
-				fr: "Énergie Tourbillon"
+				fr: "Énergie Tourbillon",
+				de: "Energie-Zyklon"
 			},
 			effect: {
 				en: "Choose as many Energy cards from your hand as you like and show them to your opponent. This attack does 20 damage times the number of Energy cards you chose. Put those Energy cards on top of your deck. Shuffle your deck afterward.",
-				fr: "Choisissez autant de cartes Énergie de votre main que vous voulez et montrez-les à votre adversaire. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Énergie choisies. Placez ces cartes au dessus de votre deck. Ensuite, mélangez votre deck."
+				fr: "Choisissez autant de cartes Énergie de votre main que vous voulez et montrez-les à votre adversaire. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Énergie choisies. Placez ces cartes au dessus de votre deck. Ensuite, mélangez votre deck.",
+				de: "Wähle beliebig viele Energiekarten von deiner Hand und zeige sie deinem Gegner. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der gewählten Energiekarten zu. Lege diese Energiekarten auf dein Deck. Mische dein Deck danach."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 		{
@@ -53,11 +56,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Breaking Tail",
-				fr: "Queue brisante"
+				fr: "Queue brisante",
+				de: "Wegschlagender Schwanz"
 			},
 			effect: {
 				en: "Choose 1 card from your opponent's hand without looking and discard it.",
-				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la."
+				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la.",
+				de: "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Dein Gegner legt diese Karte auf seinen Ablagestapel."
 			},
 			damage: 60,
 
