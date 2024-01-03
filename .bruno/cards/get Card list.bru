@@ -1,0 +1,27 @@
+meta {
+  name: get Card list
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards?sort:field=name&sort:order=DESC&pagination:page=1&pagination:itemsPerPage=4
+  body: none
+  auth: none
+}
+
+query {
+  sort:field: name
+  sort:order: DESC
+  pagination:page: 1
+  pagination:itemsPerPage: 4
+  ~name: furret
+}
+
+docs {
+  Fully describe the card list request, it also has every parameters it can
+}
+
+assert {
+  res.status: eq 200
+}

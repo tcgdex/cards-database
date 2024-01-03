@@ -1,0 +1,15 @@
+meta {
+  name: get one card
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards/swsh3-136
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+}

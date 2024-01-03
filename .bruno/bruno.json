@@ -1,0 +1,8 @@
+{
+  "version": "1",
+  "name": "TCGdex",
+  "type": "collection",
+  "presets": {
+    "requestType": "http"
+  }
+}
