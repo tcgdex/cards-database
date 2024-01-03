@@ -63,12 +63,13 @@ export function betterSorter(a: string, b: string) {
  */
 export function validateItem(validator: any | Array<any>, value: any): boolean {
 	if (typeof value === 'object') {
-		return objectLoop(value, (v) => {
+		// invert signal so that an early exit mean that a match was found!
+		return !objectLoop(value, (v) => {
 			// early exit to not infinitively loop through objects
 			if (typeof v === 'object') return true
 
-			// check for each childs
-			return validateItem(validator, v)
+			// check for each childs until one match
+			return !validateItem(validator, v)
 		})
 	}
 
@@ -104,6 +105,10 @@ export function validateItem(validator: any | Array<any>, value: any): boolean {
  * @returns the sorted data
  */
 export function handleSort(data: Array<any>, query: Query<any>) {
+	// handle when data has no entries
+	if (data.length === 0) {
+		return data
+	}
 	const firstEntry = data[0]
 	const sort: Query<any>['sort'] = query.sort ?? {field: 'releaseDate' in firstEntry ? 'releaseDate' : 'id', order: 'ASC'}
 	const field = sort.field
@@ -142,7 +147,7 @@ export function handleSort(data: Array<any>, query: Query<any>) {
  * @returns the data that is in the paginated query
  */
 export function handlePagination(data: Array<any>, query: Query<any>) {
-	if (!query.pagination) {
+	if (!query.pagination || data.length === 0) {
 		return data
 	}
 	const itemsPerPage = query.pagination.itemsPerPage ?? 100
