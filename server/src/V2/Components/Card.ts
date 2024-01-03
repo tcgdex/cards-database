@@ -1,7 +1,7 @@
 import { objectLoop } from '@dzeio/object-util'
-import { Card as SDKCard, CardResume, SupportedLanguages } from '@tcgdex/sdk'
-import { Pagination } from '../../interfaces'
-import { lightCheck } from '../../util'
+import { CardResume, Card as SDKCard, SupportedLanguages } from '@tcgdex/sdk'
+import { Query } from '../../interfaces'
+import { handlePagination, handleSort, handleValidation } from '../../util'
 import Set from './Set'
 
 type LocalCard = Omit<SDKCard, 'set'> & {set: () => Set}
@@ -55,40 +55,25 @@ export default class Card implements LocalCard {
 		})
 	}
 
-
 	public set(): Set {
-		return Set.findOne(this.lang, {id: this.card.set.id}) as Set
+		return Set.findOne(this.lang, {filters: { id: this.card.set.id }}) as Set
 	}
 
-	public static find(lang: SupportedLanguages, params: Partial<Record<keyof SDKCard, any>> = {}, pagination?: Pagination) {
-		let list : Array<SDKCard> = (require(`../../../generated/${lang}/cards.json`) as Array<SDKCard>)
-		.filter((c) => objectLoop(params, (it, key) => {
-			return lightCheck(c[key as 'localId'], it)
-		}))
-		if (pagination) {
-			list = list
-				.splice(pagination.count * pagination.page - 1, pagination.count)
-		}
-		return list.map((it) => new Card(lang, it))
-	}
-
-	public static raw(lang: SupportedLanguages): Array<SDKCard> {
+	public static getAll(lang: SupportedLanguages): Array<SDKCard> {
 		return require(`../../../generated/${lang}/cards.json`)
 	}
 
-	public static findOne(lang: SupportedLanguages, params: Partial<Record<keyof SDKCard, any>> = {}) {
-		const res = (require(`../../../generated/${lang}/cards.json`) as Array<SDKCard>).find((c) => {
-			return objectLoop(params, (it, key) => {
-				if (key === 'set' && typeof it === 'string') {
-					return (c['set'].id === it || lightCheck(c['set'].name, it))
-				}
-				return lightCheck(c[key as 'localId'], it)
-			})
-		})
-		if (!res) {
+	public static find(lang: SupportedLanguages, query: Query<SDKCard>) {
+		return handlePagination(handleSort(handleValidation(this.getAll(lang), query), query), query)
+			.map((it) => new Card(lang, it))
+	}
+
+	public static findOne(lang: SupportedLanguages, query: Query<SDKCard>) {
+		const res = handleValidation(this.getAll(lang), query)
+		if (res.length === 0) {
 			return undefined
 		}
-		return new Card(lang, res)
+		return new Card(lang, res[0])
 	}
 
 	public resume(): CardResume {

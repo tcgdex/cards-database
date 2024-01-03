@@ -1,11 +1,12 @@
-import { objectKeys } from '@dzeio/object-util'
+import { objectKeys, objectLoop } from '@dzeio/object-util'
 import { Card as SDKCard } from '@tcgdex/sdk'
+import apicache from 'apicache'
+import express from 'express'
+import { Query } from '../../interfaces'
+import { betterSorter, checkLanguage, sendError, unique } from '../../util'
 import Card from '../Components/Card'
 import Serie from '../Components/Serie'
 import Set from '../Components/Set'
-import express from 'express'
-import apicache from 'apicache'
-import { betterSorter, checkLanguage, sendError, unique } from '../../util'
 
 const server = express.Router()
 
@@ -48,6 +49,40 @@ server
 		next()
 	})
 
+	// handle Query builder
+	.use((req, _, next) => {
+		// handle no query
+		if (!req.query) {
+			next()
+			return
+		}
+
+		const items: Query = {
+			filters: undefined,
+			sort: undefined,
+			pagination: undefined
+		}
+
+		objectLoop(req.query as Record<string, string | Array<string>>, (value: string | Array<string>, key: string) => {
+			if (!key.includes(':')) {
+				key = 'filters:' + key
+			}
+			const [cat, item] = key.split(':', 2) as ['filters', string]
+			if (!items[cat]) {
+				items[cat] = {}
+			}
+			const finalValue = Array.isArray(value) ? value.map((it) => isNaN(parseInt(it)) ? it : parseInt(it)) : isNaN(parseInt(value)) ? value : parseInt(value)
+			// @ts-expect-error normal behavior
+			items[cat][item] = finalValue
+
+		})
+		console.log(items)
+		// @ts-expect-error normal behavior
+		req.advQuery = items
+
+		next()
+	})
+
 
 	/**
 	 * Listing Endpoint
@@ -55,6 +90,9 @@ server
 	 */
 	.get('/:lang/:endpoint', (req, res): void => {
 		let { lang, endpoint } = req.params
+
+		// @ts-expect-error normal behavior
+		const query: Query = req.advQuery
 
 		if (endpoint.endsWith('.json')) {
 			endpoint = endpoint.replace('.json', '')
@@ -69,18 +107,18 @@ server
 		switch (endpoint) {
 			case 'cards':
 				result = Card
-					.find(lang, req.query)
+					.find(lang, query)
 					.map((c) => c.resume())
 				break
 
 			case 'sets':
 				result = Set
-					.find(lang, req.query)
+					.find(lang, query)
 					.map((c) => c.resume())
 				break
 			case 'series':
 				result = Serie
-					.find(lang, req.query)
+					.find(lang, query)
 					.map((c) => c.resume())
 				break
 			case 'categories':
@@ -95,7 +133,7 @@ server
 			case "suffixes":
 			case "trainer-types":
 				result = unique(
-					Card.raw(lang)
+					Card.getAll(lang)
 						.map((c) => c[endpointToField[endpoint]] as string)
 						.filter((c) => c)
 				).sort(betterSorter)
@@ -103,7 +141,7 @@ server
 			case "types":
 			case "dex-ids":
 				result = unique(
-					Card.raw(lang)
+					Card.getAll(lang)
 						.map((c) => c[endpointToField[endpoint]] as Array<string>)
 						.filter((c) => c)
 						.reduce((p, c) => [...p, ...c], [] as Array<string>)
@@ -111,7 +149,7 @@ server
 				break
 			case "variants":
 				result = unique(
-					Card.raw(lang)
+					Card.getAll(lang)
 						.map((c) => objectKeys(c.variants ?? {}) as Array<string>)
 						.filter((c) => c)
 						.reduce((p, c) => [...p, ...c], [] as Array<string>)
@@ -148,23 +186,23 @@ server
 		let result: any | undefined
 		switch (endpoint) {
 			case 'cards':
-				result = Card.findOne(lang, {id})?.full()
+				result = Card.findOne(lang, { filters: { id }})?.full()
 				if (!result) {
-					result = Card.findOne(lang, {name: id})?.full()
+					result = Card.findOne(lang, { filters: { name: id }})?.full()
 				}
 				break
 
 			case 'sets':
-				result = Set.findOne(lang, {id})?.full()
+				result = Set.findOne(lang, { filters: { id }})?.full()
 				if (!result) {
-					result = Set.findOne(lang, {name: id})?.full()
+					result = Set.findOne(lang, {filters: { name: id }})?.full()
 				}
 				break
 
 			case 'series':
-				result = Serie.findOne(lang, {id})?.full()
+				result = Serie.findOne(lang, { filters: { id }})?.full()
 				if (!result) {
-					result = Serie.findOne(lang, {name: id})?.full()
+					result = Serie.findOne(lang, { filters: { name: id }})?.full()
 				}
 				break
 			default:
@@ -204,7 +242,7 @@ server
 		switch (endpoint) {
 			case 'sets':
 				result = Card
-					.findOne(lang, {localId: subid, set: id})?.full()
+					.findOne(lang, { filters: { localId: subid, set: id }})?.full()
 				break
 		}
 		if (!result) {

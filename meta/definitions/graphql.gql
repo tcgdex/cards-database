@@ -7,28 +7,62 @@ directive @locale (
 	lang: String!
 ) on FIELD
 
-# Queries to use on the DB
+"""
+Every queries available on the GraphQL API
+
+If you have more queries that you would like added, make a new issue here
+
+https://github.com/tcgdex/cards-database/issues/new/choose
+"""
 type Query {
-	cards(filters: CardsFilters, pagination: Pagination): [Card]
-	sets: [Set]
-	series: [Serie]
+	"""Find the cards"""
+	cards(filters: CardsFilters, pagination: Pagination, sort: Sort): [Card]
+
+	"""Find the sets"""
+	sets(filters: SetFilters, pagination: Pagination, sort: Sort): [Set]
+
+	"""Find the series"""
+	series(filters: SerieFilters, pagination: Pagination, sort: Sort): [Serie]
+
+	"""Find one card (using the id and set is deprecated)"""
 	card(
 		id: ID!,
-		set: String
+		set: String,
+		"""The new way to filter"""
+		filters: CardsFilters
 	): Card
+
+	"""Find one set (using the id is deprecated)"""
 	set(
-		id: ID!
+		id: ID!,
+		"""The new way to filter"""
+		filters: SetFilters
 	): Set
+
+	"""Find one serie (using the id is deprecated)"""
 	serie(
-		id: ID!
+		id: ID!,
+		"""The new way to filter"""
+		filters: SerieFilters
 	): Serie
 
 }
 
-# Pagination input
+"""Paginate the datas you fetch"""
 input Pagination {
-	page: Float!
-	count: Float!
+	"""Indicate the page number (from 1)"""
+	page: Int!
+	"""Indicate the number of items in one page"""
+	itemsPerPage: Int
+	count: Float @deprecated(reason: "use itemsPerPage instead")
+}
+
+"""Change how the data is sorted"""
+input Sort {
+	"""Indicate which field it will sort using"""
+	field: String!
+	"""Indicate how it is sorted ("ASC" or "DESC) (default: "ASC")"""
+	order: String
 }
 
 ##################
@@ -41,13 +75,13 @@ input CardsFilters {
 	description: String
 	energyType: String
 	evolveFrom: String
-	hp: Float
+	hp: Int
 	id: ID
 	localId: String
-	dexId: Float
+	dexId: Int
 	illustrator: String
 	image: String
-	level: Float
+	level: Int
 	levelId: String
 	name: String
 	rarity: String
@@ -55,7 +89,7 @@ input CardsFilters {
 	stage: String
 	suffix: String
 	trainerType: String
-	retreat: Float
+	retreat: Int
 }
 
 type Card {
@@ -63,23 +97,23 @@ type Card {
 	attacks: [AttacksListItem]
 	category: String!
 	description: String
-	dexId: [Float]
+	dexId: [Int]
 	effect: String
 	energyType: String
 	evolveFrom: String
-	hp: Float
+	hp: Int
 	id: String!
 	illustrator: String
 	image: String
 	item: Item
 	legal: Legal!
-	level: Float
+	level: Int
 	localId: String!
 	name: String!
 	rarity: String!
 	regulationMark: String
 	resistances: [WeakResListItem]
-	retreat: Float
+	retreat: Int
 	set: Set!
 	stage: String
 	suffix: String
@@ -143,13 +177,21 @@ type Set {
 	tcgOnline: String
 }
 
+input SetFilters {
+	id: String
+	name: String
+	serie: String
+	releaseDate: String
+	tcgOnline: String
+}
+
 type CardCount {
-	firstEd: Float
-	holo: Float
-	normal: Float
-	official: Float!
-	reverse: Float
-	total: Float!
+	firstEd: Int
+	holo: Int
+	normal: Int
+	official: Int!
+	reverse: Int
+	total: Int!
 }
 
 ##################
@@ -161,6 +203,11 @@ type Serie {
 	logo: String
 	name: String!
 	sets: [Set]!
+}
+
+input SerieFilters {
+	id: String
+	name: String
 }
 
 ##################

@@ -25,5 +25,8 @@ jobs:
         cd server
         bun install --frozen-lockfile
 
-    - name: Validate the data
-      run: bun run validate
+    - name: Validate the data & the server
+      run: |
+        bun run validate
+        cd server
+        bun run validate
