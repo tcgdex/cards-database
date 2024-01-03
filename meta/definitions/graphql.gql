@@ -346,11 +346,23 @@ type Set {
 	tcgOnline: String
 }
 
+"""
+Filters for the set query
+"""
 input SetFilters {
+	"""The Set id"""
 	id: String
+
+	"""The set's name"""
 	name: String
+
+	"""The Set serie"""
 	serie: String
+
+	"""The set official release date"""
 	releaseDate: String
+
+	"""The set tcgOnline code if available in the APP"""
 	tcgOnline: String
 }
 
