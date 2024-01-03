@@ -4,7 +4,8 @@ FROM docker.io/oven/bun:1-alpine as BUILD_IMAGE
 WORKDIR /usr/src/app
 
 # Add git as it is used to fetch updated times
-RUN apk add git
+RUN apk add git &&\
+git config --global safe.directory '*'
 
 ADD --chown=bun:bun package.json bun.lockb ./
 ADD --chown=bun:bun server/package.json server/bun.lockb ./server/
