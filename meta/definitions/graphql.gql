@@ -4,6 +4,7 @@
 
 # Locale Directive ex: {sets @locale(fr)}
 directive @locale (
+	"""The language to use"""
 	lang: String!
 ) on FIELD
 
@@ -69,95 +70,243 @@ input Sort {
 #      Card      #
 ##################
 
-# Filters to be used with the Card query
+"""a Card filters"""
 input CardsFilters {
+	"""Filter on the card's category (Pokemon, Trainer or Energy)"""
 	category: String
+
+	"""Filter on the card's decription"""
 	description: String
+
+	"""Filter for the card energy type (normal or special)"""
 	energyType: String
+
+	"""Filter for the previous evolution of the current pokémon"""
 	evolveFrom: String
+
+	"""Filter on the Pokémon's HPs"""
 	hp: Int
+
+	"""Filter on the card id"""
 	id: ID
+
+	"""Filter for the card's local id"""
 	localId: String
+
+	"""Filter on the pokémon national pokédex number"""
 	dexId: Int
+
+	"""Filter on the illustrator name"""
 	illustrator: String
-	image: String
+
+	image: String @deprecated(reason: "this only indicate if a file is present or not, it should not be a filter")
+
+	"""Filter on ths Pokémon's level"""
 	level: Int
-	levelId: String
+
+	"""Filter on the Card's name"""
 	name: String
+
+	"""
+	Filter on the card's rarity
+
+	see: https://api.tcgdex.net/v2/en/rarities for the full list
+	"""
 	rarity: String
+
+	"""Filter on the card's regulation mark"""
 	regulationMark: String
+
+	"""Filter on the Card evolution stage"""
 	stage: String
+
+	"""Filter on the card suffix"""
 	suffix: String
+
+	"""Filter on the trainer type"""
 	trainerType: String
+
+	"""Filter on the retreat point cost"""
 	retreat: Int
 }
 
+"""
+Define what is a card for GraphQL
+"""
 type Card {
+	"""The pokémon abilities"""
 	abilities: [AbilitiesListItem]
+
+	"""The pokémon attacks"""
 	attacks: [AttacksListItem]
+
+	"""The card category ('Pokemon' | 'Trainer' | 'Energy')"""
 	category: String!
+
+	"""The card description (mostly the Poédex description)"""
 	description: String
+
+	"""The pokémon(s) Pokédex IDs (Pokémons appearing on the card image & name)"""
 	dexId: [Int]
+
+	"""the energy/trainer effect"""
 	effect: String
+
+	"""the energy type ('Normal' | 'Special')"""
 	energyType: String
+
+	"""the previous evolution of the current pokémon"""
 	evolveFrom: String
+
+	"""the Pokémon's HPs"""
 	hp: Int
+
+	"""the card id"""
 	id: String!
+
+	"""the illustrator name"""
 	illustrator: String
+
+	"""The card's image if available (see the docs for more details)"""
 	image: String
+
+	"""The Pokémon's item"""
 	item: Item
+
+	"""The card legality in tournaments"""
 	legal: Legal!
+
+	"""The Pokémon level"""
 	level: Int
+
+	"""the card's local id"""
 	localId: String!
+
+	"""the Card's name"""
 	name: String!
+
+	"""
+	the card's rarity
+
+	see: https://api.tcgdex.net/v2/en/rarities for the full list
+	"""
 	rarity: String!
+
+	"""the card's regulation mark"""
 	regulationMark: String
+
+	"""The pokémon resistances"""
 	resistances: [WeakResListItem]
+
+	"""The Card retreat cost"""
 	retreat: Int
+
+	"The card's set"
 	set: Set!
+
+	"""the Card evolution stage"""
 	stage: String
+
+	"""the card suffix"""
 	suffix: String
+
+	"""the trainer type"""
 	trainerType: String
+
+	"""The pokémon type(s) (trivia: Even the TCG implemented at some point multiple types for a single card)"""
 	types: [String]
+
+	"""The card variants"""
 	variants: Variants
+
+	"""The pokémon weaknesses"""
 	weaknesses: [WeakResListItem]
+
 	# Currently not in any cards
 	# weight: String!
 }
 
+"""
+define a single ability
+"""
 type AbilitiesListItem {
+	"""The ability effect"""
 	effect: String
+
+	"""The ability name"""
 	name: String
+
+	"""the ability type ('Pokemon Power' | 'Poke-BODY' | 'Poke-POWER' | 'Ability' | 'Ancient Trait')"""
 	type: String
 }
 
+"""
+define a single attack
+"""
 type AttacksListItem {
+	"""The attack cost in energies (can be affected by the effect)"""
 	cost: [String]
+
+	"""The attack damage (can be affected by the effect)"""
 	damage: String
+
+	"""The attack additionnal effect"""
 	effect: String
+
+	"""The attack name"""
 	name: String!
 }
 
+"""
+Indicate the item a pokémon has on him
+"""
 type Item {
+	"""the item effect"""
 	effect: String!
+
+	"""the item name"""
 	name: String!
 }
 
+"""
+Indicate the legality of a card for official tournaments
+"""
 type Legal {
+	"""Is the card playable in expanded tournaments?"""
 	expanded: Boolean
+
+	"""Is the card playable in standard tournaments?"""
 	standard: Boolean
 }
 
+"""
+Definition for the Weakness and REsistance elements
+"""
 type WeakResListItem {
+	"""the Weakness/resistance type"""
 	type: String!
+
+	"""the Weakness/resistance modifier (can be 2x or 30+ or nothing)"""
 	value: String
 }
 
+"""
+All the card variants
+"""
 type Variants {
+	"""is the card available in a first edition version?"""
 	firstEdition: Boolean!
+
+	"""can the card be found has an holo?"""
 	holo: Boolean!
+
+	"""can the card be found without special elements?"""
 	normal: Boolean!
+
+	"""Can the card be found a a reverse holo version?"""
 	reverse: Boolean!
+
+	"""was the card a wPromo card?"""
 	wPromo: Boolean!
 }
 
@@ -165,32 +314,80 @@ type Variants {
 #      Set       #
 ##################
 
+"""
+Describe a single set
+"""
 type Set {
+	"""Indicate how much cards is in the set"""
 	cardCount: CardCount!
+
+	"""list the cards in the set"""
 	cards: [Card]!
+
+	"""The Set id"""
 	id: String!
+
+	"""The set logo if available"""
 	logo: String
+
+	"""The set's name"""
 	name: String!
+
+	"""The set's symbol if available"""
 	symbol: String
+
+	"""The Set serie"""
 	serie: Serie!
+
+	"""The set official release date"""
 	releaseDate: String!
+
+	"""The set tcgOnline code if available in the APP"""
 	tcgOnline: String
 }
 
+"""
+Filters for the set query
+"""
 input SetFilters {
+	"""The Set id"""
 	id: String
+
+	"""The set's name"""
 	name: String
+
+	"""The Set serie"""
 	serie: String
+
+	"""The set official release date"""
 	releaseDate: String
+
+	"""The set tcgOnline code if available in the APP"""
 	tcgOnline: String
 }
 
+"""
+Indicate how much cards a set contains
+
+It also indicate how much card for a specific variant
+"""
 type CardCount {
+	"""The number of first edition cards in the set"""
 	firstEd: Int
+
+	"""The number of holo cards in the set"""
 	holo: Int
+
+	"""The number of normal cards in the set"""
 	normal: Int
+
+	"""The number of cards that are not hidden (generally in the bottom left/right)"""
 	official: Int!
+
+	"""The number of reverse cards in the set"""
 	reverse: Int
+
+	"""The total number of cards in the set"""
 	total: Int!
 }
 
@@ -198,15 +395,30 @@ type CardCount {
 #     Serie      #
 ##################
 
+"""
+A Pokémon TCG serie
+"""
 type Serie {
+	"""The Serie ID"""
 	id: String!
+
+	"""The serie's logo if available"""
 	logo: String
+
+	"""the serie's name"""
 	name: String!
+	"""the list of sets that are part of the serie"""
 	sets: [Set]!
 }
 
+"""
+The Serie filters
+"""
 input SerieFilters {
+	"""the serie's id"""
 	id: String
+
+	"""The name of the serie"""
 	name: String
 }
 
@@ -214,7 +426,13 @@ input SerieFilters {
 # StringEndpoint #
 ##################
 
+"""
+currently unused but is the general endpoint for every other elements
+"""
 type StringEndpoint {
+	"""The list of cards that are available in the endpoint"""
 	cards: [Card]!
+
+	"""The endpoint element name"""
 	name: String!
 }
