@@ -109,10 +109,12 @@ export function handleSort(data: Array<any>, query: Query<any>) {
 	if (data.length === 0) {
 		return data
 	}
+
+	const defaultSortPriority = ['releaseDate', 'localId', 'id']
+
 	const firstEntry = data[0]
-	const sort: Query<any>['sort'] = query.sort ?? {field: 'releaseDate' in firstEntry ? 'releaseDate' : 'id', order: 'ASC'}
-	const field = sort.field
-	const order = sort.order ?? 'ASC'
+	const field = query.sort?.field ?? defaultSortPriority.find((it) => it in firstEntry) ?? 'id'
+	const order = query.sort?.order ?? 'ASC'
 
 	// early exit if the order is not correctly set
 	if (order !== 'ASC' && order !== 'DESC') {
@@ -121,22 +123,43 @@ export function handleSort(data: Array<any>, query: Query<any>) {
 	}
 
 	if (!(field in firstEntry)) {
+		console.warn('can\'t sort using the field', field)
 		return data
 	}
-	const sortType = typeof data[0][field]
-	if (sortType === 'number') {
-		if (order === 'ASC') {
-			return data.sort((a, b) => a[field] - b[field])
-		} else {
-			return data.sort((a, b) => b[field] - a[field])
-		}
-	} else {
-		if (order === 'ASC') {
-			return data.sort((a, b) => a[field] > b[field] ? 1 : -1)
-		} else {
-			return data.sort((a, b) => a[field] > b[field] ? -1 : 1)
-		}
+
+	return data.sort((a, b) => advSort(a[field], b[field], order))
+}
+
+/**
+ *
+ * @param order the base ordering
+ * @returns a function that is feed in the `sort` function
+ */
+const advSort = (a: string | number, b: string | number, order: 'ASC' | 'DESC' = 'ASC') => {
+	a = tryParse(a) ?? a
+	b = tryParse(b) ?? b
+
+	if (order === 'DESC') {
+		const tmp = a
+		a = b
+		b = tmp
 	}
+
+	if (typeof a === 'number' && typeof b === 'number') {
+		return a - b
+	}
+
+	return a.toString().localeCompare(b.toString())
+}
+
+function tryParse(value: string | number): number | null {
+	if (typeof value === 'number') {
+		return value
+	}
+	if (/^-?\d+$/.test(value)) {
+		return parseInt(value)
+	}
+	return null
 }
 
 /**
