@@ -76,7 +76,7 @@ server
 			items[cat][item] = finalValue
 
 		})
-		console.log(items)
+
 		// @ts-expect-error normal behavior
 		req.advQuery = items
 
