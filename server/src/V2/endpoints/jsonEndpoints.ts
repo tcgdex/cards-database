@@ -1,7 +1,8 @@
-import { objectKeys } from '@dzeio/object-util'
+import { objectKeys, objectLoop } from '@dzeio/object-util'
 import { Card as SDKCard } from '@tcgdex/sdk'
 import apicache from 'apicache'
 import express from 'express'
+import { Query } from '../../interfaces'
 import { betterSorter, checkLanguage, sendError, unique } from '../../util'
 import Card from '../Components/Card'
 import Serie from '../Components/Serie'
@@ -48,6 +49,34 @@ server
 		next()
 	})
 
+	// handle Query builder
+	.use((req, _, next) => {
+		const items: Query = {
+			filters: undefined,
+			sort: undefined,
+			pagination: undefined
+		}
+
+		objectLoop(req.query as Record<string, string | Array<string>>, (value: string | Array<string>, key: string) => {
+			if (!key.includes(':')) {
+				key = 'filters:' + key
+			}
+			const [cat, item] = key.split(':', 2) as ['filters', string]
+			if (!items[cat]) {
+				items[cat] = {}
+			}
+			const finalValue = Array.isArray(value) ? value.map((it) => isNaN(parseInt(it)) ? it : parseInt(it)) : isNaN(parseInt(value)) ? value : parseInt(value)
+			// @ts-expect-error normal behavior
+			items[cat][item] = finalValue
+
+		})
+		console.log(items)
+		// @ts-expect-error normal behavior
+		req.advQuery = items
+
+		next()
+	})
+
 
 	/**
 	 * Listing Endpoint
@@ -55,6 +84,9 @@ server
 	 */
 	.get('/:lang/:endpoint', (req, res): void => {
 		let { lang, endpoint } = req.params
+
+		// @ts-expect-error normal behavior
+		const query: Query = req.advQuery
 
 		if (endpoint.endsWith('.json')) {
 			endpoint = endpoint.replace('.json', '')
@@ -69,18 +101,18 @@ server
 		switch (endpoint) {
 			case 'cards':
 				result = Card
-					.find(lang, req.query)
+					.find(lang, query)
 					.map((c) => c.resume())
 				break
 
 			case 'sets':
 				result = Set
-					.find(lang, req.query)
+					.find(lang, query)
 					.map((c) => c.resume())
 				break
 			case 'series':
 				result = Serie
-					.find(lang, req.query)
+					.find(lang, query)
 					.map((c) => c.resume())
 				break
 			case 'categories':
