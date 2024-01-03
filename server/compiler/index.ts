@@ -1,9 +1,8 @@
 /* eslint-disable max-statements */
-import { FileFunction } from './compilerInterfaces'
 import { promises as fs } from 'fs'
-import { fetchRemoteFile } from './utils/util'
-import { objectValues } from '@dzeio/object-util'
 import { SupportedLanguages } from '../../interfaces'
+import { FileFunction } from './compilerInterfaces'
+import { fetchRemoteFile, loadLastEdits } from './utils/util'
 
 const LANGS: Array<SupportedLanguages> = ['en', 'fr', 'es', 'it', 'pt', 'de']
 
@@ -21,6 +20,8 @@ const DIST_FOLDER = './generated'
 		await fs.rm(DIST_FOLDER, {recursive: true})
 	} catch {}
 
+	console.log('Loading files last edit')
+	await loadLastEdits()
 
 	console.log('Let\'s GO !')
 

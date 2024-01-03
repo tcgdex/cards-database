@@ -4,7 +4,7 @@ import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
 import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
 import { setToSetSimple } from './setUtil'
 import translate from './translationUtil'
-import { DB_PATH, cardIsLegal, fetchRemoteFile, smartGlob } from './util'
+import { DB_PATH, cardIsLegal, fetchRemoteFile, getLastEdit, smartGlob } from './util'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -165,16 +165,5 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 
 async function getCardLastEdit(localId: string, card: Card): Promise<string> {
 	const path = `../data/${card.set.serie.name.en}/${card.set.name.en ?? card.set.name.fr}/${localId}.ts`
-	const command = `git log -1 --pretty="format:%ci" "${path}"`
-	// console.log(command)
-	return new Promise((res, rej) => {
-		exec(command, (err, out, _) => {
-			// console.log(err, out)
-			if (err) {
-				rej(err)
-				return
-			}
-			res(out)
-		})
-	})
+	return getLastEdit(path)
 }
