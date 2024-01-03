@@ -51,6 +51,13 @@ server.use((req, res, next) => {
 	next()
 })
 
+/**
+ * Handle options requests
+ */
+server.options('/*', (_, res) => {
+	res.status(200).send()
+})
+
 server.get('/', (_, res) => {
 	res.redirect('https://www.tcgdex.dev/?ref=api.tccgdex.net')
 })
