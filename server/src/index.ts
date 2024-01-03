@@ -8,21 +8,11 @@ const VERSION = 2
 // Init Express server
 const server = express()
 
-// Set CORS global headers
-server.use((_, res, next) => {
-	res
-		.setHeader('Access-Control-Allow-Origin', '*')
-		.setHeader('Access-Control-Allow-Methods', 'GET,POST,OPTIONS')
-		.setHeader('Access-Control-Allow-Headers', 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range')
-		.setHeader('Access-Control-Expose-Headers', 'Content-Length,Content-Range')
-	next()
-})
-
 // Route logging / Error logging for debugging
 server.use((req, res, next) => {
 	const now = new Date()
 	//                   Date of request              User-Agent 32 first chars                                     request Method
-	let prefix = `\x1b[2m${now.toISOString()}\x1b[22m ${req.headers['user-agent']?.slice(0, 32).padEnd(32)} ${req.method.padEnd(7)}`
+	let prefix = `\x1b[2m${now.toISOString()}\x1b[22m ${req.headers['user-agent']?.slice(0, 32).padEnd(32)} ${req.method.toUpperCase().padEnd(7)}`
 
 	const url = new URL(req.url, `http://${req.headers.host}`)
 	const fullURL = url.toString()
@@ -51,11 +41,19 @@ server.use((req, res, next) => {
 	next()
 })
 
-/**
- * Handle options requests
- */
-server.options('/*', (_, res) => {
-	res.status(200).send()
+// Set CORS global headers
+server.use((req, res, next) => {
+	res
+		.setHeader('Access-Control-Allow-Origin', '*')
+		.setHeader('Access-Control-Allow-Methods', 'GET,POST,OPTIONS')
+		.setHeader('Access-Control-Allow-Headers', 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range')
+		.setHeader('Access-Control-Expose-Headers', 'Content-Length,Content-Range')
+
+	if (req.method.toUpperCase() === 'OPTIONS') {
+		res.status(200).send('ok')
+		return
+	}
+	next()
 })
 
 server.get('/', (_, res) => {
