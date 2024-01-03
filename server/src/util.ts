@@ -104,10 +104,10 @@ export function validateItem(validator: any | Array<any>, value: any): boolean {
  * @returns the sorted data
  */
 export function handleSort(data: Array<any>, query: Query<any>) {
-	const sort: Query<any>['sort'] = query.sort ?? {field: 'id', order: 'ASC'}
+	const firstEntry = data[0]
+	const sort: Query<any>['sort'] = query.sort ?? {field: 'releaseDate' in firstEntry ? 'releaseDate' : 'id', order: 'ASC'}
 	const field = sort.field
 	const order = sort.order ?? 'ASC'
-	const firstEntry = data[0]
 
 	// early exit if the order is not correctly set
 	if (order !== 'ASC' && order !== 'DESC') {
