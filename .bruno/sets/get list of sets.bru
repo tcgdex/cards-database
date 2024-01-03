@@ -1,0 +1,23 @@
+meta {
+  name: get list of sets
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/sets?sort:field=name&sort:order=DESC&pagination:page=1&pagination:itemsPerPage=1&name=Dark
+  body: none
+  auth: none
+}
+
+query {
+  sort:field: name
+  sort:order: DESC
+  pagination:page: 1
+  pagination:itemsPerPage: 1
+  name: Dark
+}
+
+assert {
+  res.status: eq 200
+}
