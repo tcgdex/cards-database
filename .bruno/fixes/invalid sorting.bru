@@ -1,0 +1,22 @@
+meta {
+  name: invalid sorting
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/sets/swsh8/53
+  body: none
+  auth: none
+}
+
+assert {
+  res.body.id: eq swsh8-53
+  res.status: eq 200
+}
+
+docs {
+  Validate the issue seen in 
+  
+  https://github.com/tcgdex/cards-database/issues/466
+}
