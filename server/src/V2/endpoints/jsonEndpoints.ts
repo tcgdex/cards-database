@@ -51,6 +51,12 @@ server
 
 	// handle Query builder
 	.use((req, _, next) => {
+		// handle no query
+		if (!req.query) {
+			next()
+			return
+		}
+
 		const items: Query = {
 			filters: undefined,
 			sort: undefined,
