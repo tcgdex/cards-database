@@ -30,8 +30,8 @@ const endpointToField: Record<string, keyof SDKCard> = {
 }
 
 server
-	// Midleware that handle caching
-	.use(apicache.middleware('1 day', (req: Request) => req.method === 'GET', {}))
+	// Midleware that handle caching only in production and on GET requests
+	.use(apicache.middleware('1 day', (req: Request) => process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
 
 	// .get('/cache/performance', (req, res) => {
 	// 	res.json(apicache.getPerformance())
@@ -186,23 +186,23 @@ server
 		let result: any | undefined
 		switch (endpoint) {
 			case 'cards':
-				result = Card.findOne(lang, { filters: { id }})?.full()
+				result = Card.findOne(lang, { filters: { id }, strict: true })?.full()
 				if (!result) {
-					result = Card.findOne(lang, { filters: { name: id }})?.full()
+					result = Card.findOne(lang, { filters: { name: id }, strict: true })?.full()
 				}
 				break
 
 			case 'sets':
-				result = Set.findOne(lang, { filters: { id }})?.full()
+				result = Set.findOne(lang, { filters: { id }, strict: true })?.full()
 				if (!result) {
-					result = Set.findOne(lang, {filters: { name: id }})?.full()
+					result = Set.findOne(lang, {filters: { name: id }, strict: true })?.full()
 				}
 				break
 
 			case 'series':
-				result = Serie.findOne(lang, { filters: { id }})?.full()
+				result = Serie.findOne(lang, { filters: { id }, strict: true })?.full()
 				if (!result) {
-					result = Serie.findOne(lang, { filters: { name: id }})?.full()
+					result = Serie.findOne(lang, { filters: { name: id }, strict: true })?.full()
 				}
 				break
 			default:
@@ -242,7 +242,7 @@ server
 		switch (endpoint) {
 			case 'sets':
 				result = Card
-					.findOne(lang, { filters: { localId: subid, set: id }})?.full()
+					.findOne(lang, { filters: { localId: subid, set: id }, strict: true})?.full()
 				break
 		}
 		if (!result) {

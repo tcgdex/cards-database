@@ -29,6 +29,10 @@ export interface Query<T extends {} = {}> {
 	filters?: Partial<{ [Key in keyof T]: T[Key] extends object ? string | number | Array<string | number> : T[Key] | Array<T[Key]> }>
 
 	/**
+	 * instead of filtering text search it will search using the full string
+	 */
+	strict?: boolean
+	/**
 	 * data sorting
 	 *
 	 * It automatically manage numbers sorting as to not show them using alphabet sorting

@@ -1,0 +1,22 @@
+meta {
+  name: 471-invalid-set-sorting
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/sets/swsh12/10
+  body: none
+  auth: none
+}
+
+assert {
+  res.body.id: eq swsh12-010
+  res.status: eq 200
+}
+
+docs {
+  Validate the issue seen in 
+  
+  https://github.com/tcgdex/cards-database/issues/466
+}
