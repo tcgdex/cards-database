@@ -4,7 +4,7 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"compile": "bun compiler/index.ts",
-		"dev": "bun --watch --hot src/index.ts",
+		"dev": "bun --watch src/index.ts",
 		"validate": "tsc --noEmit --project ./tsconfig.json",
 		"start": "bun src/index.ts"
 	},

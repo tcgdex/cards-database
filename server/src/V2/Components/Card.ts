@@ -69,7 +69,7 @@ export default class Card implements LocalCard {
 	}
 
 	public static findOne(lang: SupportedLanguages, query: Query<SDKCard>) {
-		const res = handleValidation(this.getAll(lang), query)
+		const res = handleSort(handleValidation(this.getAll(lang), query), query)
 		if (res.length === 0) {
 			return undefined
 		}

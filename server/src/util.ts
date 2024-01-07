@@ -59,9 +59,15 @@ export function betterSorter(a: string, b: string) {
  *
  * @param validator the validation object
  * @param value the value to validate
+ * @param strict change how the results are fetched
  * @returns `true` if valid else `false`
  */
-export function validateItem(validator: any | Array<any>, value: any): boolean {
+export function validateItem(validator: any | Array<any>, value: any, strict: boolean = false): boolean {
+	// convert to number is possible
+	if (/^\d+$/.test(validator)) {
+		validator = parseInt(validator)
+	}
+
 	if (typeof value === 'object') {
 		// invert signal so that an early exit mean that a match was found!
 		return !objectLoop(value, (v) => {
@@ -69,14 +75,14 @@ export function validateItem(validator: any | Array<any>, value: any): boolean {
 			if (typeof v === 'object') return true
 
 			// check for each childs until one match
-			return !validateItem(validator, v)
+			return !validateItem(validator, v, strict)
 		})
 	}
 
 	// loop to validate for an array
 	if (Array.isArray(validator)) {
 		for (const sub of validator) {
-			const res = validateItem(sub, value)
+			const res = validateItem(sub, value, strict)
 			if (res) {
 				return true
 			}
@@ -84,8 +90,12 @@ export function validateItem(validator: any | Array<any>, value: any): boolean {
 		return false
 	}
 	if (typeof validator === 'string') {
-		// run a string validation
-		return value.toString().toLowerCase().includes(validator.toLowerCase())
+		// run a strict string validation
+		if (strict) {
+			return value.toString().toLowerCase() === validator.toLowerCase()
+		} else {
+			return value.toString().toLowerCase().includes(validator.toLowerCase())
+		}
 	} else if (typeof validator === 'number') {
 		// run a number validation
 		if (typeof value === 'number') {
@@ -197,6 +207,6 @@ export function handleValidation(data: Array<any>, query: Query) {
 	}
 
 	return data.filter((v) => objectLoop(filters, (valueToValidate, key) => {
-		return validateItem(valueToValidate, v[key])
+		return validateItem(valueToValidate, v[key], query.strict)
 	}))
 }
