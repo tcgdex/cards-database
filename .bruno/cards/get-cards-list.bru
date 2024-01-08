@@ -1,5 +1,5 @@
 meta {
-  name: get Card list
+  name: Get the cards list
   type: http
   seq: 1
 }
@@ -18,10 +18,11 @@ query {
   ~name: furret
 }
 
-docs {
-  Fully describe the card list request, it also has every parameters it can
-}
-
 assert {
   res.status: eq 200
+  res.body.length: eq 4
+}
+
+docs {
+  Fully describe the card list request, it also has every parameters it can
 }

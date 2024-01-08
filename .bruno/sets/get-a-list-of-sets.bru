@@ -1,5 +1,5 @@
 meta {
-  name: get list of sets
+  name: Get a list of sets
   type: http
   seq: 3
 }
@@ -20,4 +20,6 @@ query {
 
 assert {
   res.status: eq 200
+  res.body[0].id: eq swsh3
+  res.body.length: eq 1
 }

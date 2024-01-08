@@ -1,15 +1,16 @@
 meta {
-  name: get one card from a set
+  name: Get a set
   type: http
-  seq: 1
+  seq: 2
 }
 
 get {
-  url: {{BASE_URL}}/v2/en/cards/swsh3
+  url: {{BASE_URL}}/v2/en/sets/swsh3
   body: none
   auth: none
 }
 
 assert {
   res.status: eq 200
+  res.body.id: eq swsh3
 }
