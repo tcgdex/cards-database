@@ -1,0 +1,25 @@
+meta {
+  name: 474 - Queries crashing the server
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards?legal.standard=true
+  body: none
+  auth: none
+}
+
+query {
+  legal.standard: true
+}
+
+assert {
+  res.status: eq 200
+}
+
+docs {
+  Validate the issue seen in
+  
+  https://github.com/tcgdex/cards-database/issues/474
+}
