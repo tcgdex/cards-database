@@ -1,12 +1,23 @@
+import Sentry from '@sentry/node'
 import express from 'express'
 import jsonEndpoints from './V2/endpoints/jsonEndpoints'
 import graphql from './V2/graphql'
 import status from './status'
+
 // Current API version
 const VERSION = 2
 
 // Init Express server
 const server = express()
+
+// allow to catch servers errors
+const sentryDSN = process.env.SENTRY_DSN
+
+if (sentryDSN) {
+	Sentry.init({ dsn: sentryDSN})
+
+	server.use(Sentry.Handlers.requestHandler())
+}
 
 // Route logging / Error logging for debugging
 server.use((req, res, next) => {
@@ -70,6 +81,10 @@ server.use(`/v${VERSION}`, jsonEndpoints)
 
 // Status page
 server.use('/status', status)
+
+if (sentryDSN) {
+	server.use(Sentry.Handlers.errorHandler())
+}
 
 // Start server
 server.listen(3000)
