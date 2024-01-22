@@ -31,7 +31,7 @@ const endpointToField: Record<string, keyof SDKCard> = {
 
 server
 	// Midleware that handle caching only in production and on GET requests
-	.use(apicache.middleware('1 day', (req: Request) => process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
+	.use(apicache.middleware('1 day', (req: Request, res: Response) => res.status < 400 && process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
 
 	// .get('/cache/performance', (req, res) => {
 	// 	res.json(apicache.getPerformance())
