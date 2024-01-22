@@ -68,6 +68,11 @@ export function validateItem(validator: any | Array<any>, value: any, strict: bo
 		validator = parseInt(validator)
 	}
 
+	// do a comparaison with null values
+	if (isNull(value)) {
+		return isNull(validator)
+	}
+
 	if (typeof value === 'object') {
 		// invert signal so that an early exit mean that a match was found!
 		return !objectLoop(value, (v) => {
@@ -240,4 +245,13 @@ function objectGet(obj: object, path: Array<string | number | symbol>): any | un
 		// move pointer to new key
 		pointer = (pointer as any)[key]
 	}
+}
+
+/**
+ * validate that the value is null or undefined
+ * @param value the value the check
+ * @returns if the value is undefined or null or not
+ */
+function isNull(value: any): value is (undefined | null) {
+	return typeof value === 'undefined' || value === null
 }
