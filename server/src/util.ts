@@ -1,4 +1,4 @@
-import { objectLoop } from '@dzeio/object-util'
+import { mustBeObject, objectLoop } from '@dzeio/object-util'
 import { SupportedLanguages } from '@tcgdex/sdk'
 import { Response } from 'express'
 import { Query } from './interfaces'
@@ -211,11 +211,41 @@ export function handleValidation(data: Array<any>, query: Query) {
 		return data
 	}
 
-	return data.filter((v) => objectLoop(filters, (valueToValidate, key) => {
-		return validateItem(valueToValidate, v[key], query.strict)
+	return data.filter((v) => objectLoop(filters, (valueToValidate, key: string) => {
+		let value: any
+		// handle subfields
+		if (key.includes('.')) {
+			value = objectGet(v, key.split('.'))
+		} else {
+			value = v[key]
+		}
+		return validateItem(valueToValidate, value, query.strict)
 	}))
 }
 
+/**
+ * go through an object to get a specific value
+ * @param obj the object to go through
+ * @param path the path to follow
+ * @returns the value or undefined
+ */
+function objectGet(obj: object, path: Array<string | number | symbol>): any | undefined {
+	mustBeObject(obj)
+	let pointer: object = obj;
+	for (let index = 0; index < path.length; index++) {
+		const key = path[index];
+		const nextIndex = index + 1;
+		if (!Object.prototype.hasOwnProperty.call(pointer, key) && nextIndex < path.length) {
+			return undefined
+		}
+		// if last index
+		if (nextIndex === path.length) {
+			return (pointer as any)[key]
+		}
+		// move pointer to new key
+		pointer = (pointer as any)[key]
+	}
+}
 
 /**
  * validate that the value is null or undefined
@@ -225,4 +255,3 @@ export function handleValidation(data: Array<any>, query: Query) {
 function isNull(value: any): value is (undefined | null) {
 	return typeof value === 'undefined' || value === null
 }
-
