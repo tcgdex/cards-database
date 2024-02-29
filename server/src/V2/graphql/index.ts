@@ -19,9 +19,14 @@ function graphQLErrorHandle(error: GraphQLError) {
 		console.error(error)
 	}
 	if (error.source) {
+		const columns = (process?.stdout?.columns ?? 32) - 7
+		const dashes = ''.padEnd(columns / 2, '-')
+
+		console.error(`\x1b[91m${dashes} ERROR ${dashes}\x1b[0m`)
 		console.error('GraphQL Error')
 		console.error(error.message)
-		console.error(error.source?.body.replace(/\n/g, '\\n'))
+		console.error(error.source?.body)
+		console.error(`\x1b[91m${dashes} ERROR ${dashes}\x1b[0m`)
 	}
 	return formatError(error)
 }
