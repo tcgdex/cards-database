@@ -4,16 +4,15 @@ import express from 'express'
 import Serie from './V2/Components/Serie'
 import Set from './V2/Components/Set'
 
-const enStats = require('../generated/en/stats.json')
-const frStats = require('../generated/fr/stats.json')
-const deStats = require('../generated/de/stats.json')
-const esStats = require('../generated/es/stats.json')
-const itStats = require('../generated/it/stats.json')
-const ptStats = require('../generated/pt/stats.json')
+import deStats from '../generated/de/stats.json'
+import enStats from '../generated/en/stats.json'
+import esStats from '../generated/es/stats.json'
+import frStats from '../generated/fr/stats.json'
+import itStats from '../generated/it/stats.json'
+import ptStats from '../generated/pt/stats.json'
 
 /**
  * This file is meant to contains the TCGdex Project status page.
- *
  */
 
 /**
