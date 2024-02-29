@@ -4,6 +4,23 @@ import { Query } from '../../interfaces'
 import { handlePagination, handleSort, handleValidation } from '../../util'
 import Set from './Set'
 
+
+import deCards from '../../../generated/de/cards.json'
+import enCards from '../../../generated/en/cards.json'
+import esCards from '../../../generated/es/cards.json'
+import frCards from '../../../generated/fr/cards.json'
+import itCards from '../../../generated/it/cards.json'
+import ptCards from '../../../generated/pt/cards.json'
+
+const cards = {
+	de: deCards,
+	en: enCards,
+	es: esCards,
+	fr: frCards,
+	it: itCards,
+	pt: ptCards
+} as const
+
 type LocalCard = Omit<SDKCard, 'set'> & {set: () => Set}
 
 interface variants {
@@ -60,7 +77,7 @@ export default class Card implements LocalCard {
 	}
 
 	public static getAll(lang: SupportedLanguages): Array<SDKCard> {
-		return require(`../../../generated/${lang}/cards.json`)
+		return cards[lang]
 	}
 
 	public static find(lang: SupportedLanguages, query: Query<SDKCard>) {

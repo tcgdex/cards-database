@@ -4,6 +4,22 @@ import { Query } from '../../interfaces'
 import { handlePagination, handleSort, handleValidation } from '../../util'
 import Set from './Set'
 
+import deSeries from '../../../generated/de/series.json'
+import enSeries from '../../../generated/en/series.json'
+import esSeries from '../../../generated/es/series.json'
+import frSeries from '../../../generated/fr/series.json'
+import itSeries from '../../../generated/it/series.json'
+import ptSeries from '../../../generated/pt/series.json'
+
+const series = {
+	de: deSeries,
+	en: enSeries,
+	es: esSeries,
+	fr: frSeries,
+	it: itSeries,
+	pt: ptSeries
+} as const
+
 type LocalSerie = Omit<SDKSerie, 'sets'> & {sets: () => Array<Set>}
 
 export default class Serie implements LocalSerie {
@@ -29,7 +45,7 @@ export default class Serie implements LocalSerie {
 	}
 
 	public static getAll(lang: SupportedLanguages): Array<SDKSerie> {
-		return require(`../../../generated/${lang}/series.json`)
+		return series[lang]
 	}
 
 	public static find(lang: SupportedLanguages, query: Query<SDKSerie>) {

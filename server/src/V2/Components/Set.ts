@@ -5,11 +5,27 @@ import { handlePagination, handleSort, handleValidation } from '../../util'
 import Card from './Card'
 import Serie from './Serie'
 
+import deSets from '../../../generated/de/sets.json'
+import enSets from '../../../generated/en/sets.json'
+import esSets from '../../../generated/es/sets.json'
+import frSets from '../../../generated/fr/sets.json'
+import itSets from '../../../generated/it/sets.json'
+import ptSets from '../../../generated/pt/sets.json'
+
+const sets = {
+	de: deSets,
+	en: enSets,
+	es: esSets,
+	fr: frSets,
+	it: itSets,
+	pt: ptSets
+} as const
+
 interface variants {
-    normal?: boolean;
-    reverse?: boolean;
-    holo?: boolean;
-    firstEdition?: boolean;
+	normal?: boolean;
+	reverse?: boolean;
+	holo?: boolean;
+	firstEdition?: boolean;
 }
 
 type LocalSet = {serie: () => Serie, cards: () => Array<Card>} & Omit<SDKSet, 'serie' | 'cards'>
@@ -47,7 +63,7 @@ export default class Set implements LocalSet {
 	}
 
 	public static getAll(lang: SupportedLanguages): Array<SDKSet> {
-		return require(`../../../generated/${lang}/sets.json`)
+		return sets[lang]
 	}
 
 	public static find(lang: SupportedLanguages, query: Query<SDKSet>) {
