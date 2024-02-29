@@ -1,5 +1,5 @@
 import Sentry from '@sentry/node'
-import express from 'express'
+import express, { NextFunction } from 'express'
 import jsonEndpoints from './V2/endpoints/jsonEndpoints'
 import graphql from './V2/graphql'
 import status from './status'
@@ -85,6 +85,20 @@ server.use('/status', status)
 if (sentryDSN) {
 	server.use(Sentry.Handlers.errorHandler())
 }
+
+// error logging to the backend
+server.use((err: Error, _1: any, _2: any, next: NextFunction) => {
+	// add a full line dash to not miss it
+	const columns = (process?.stdout?.columns ?? 32) - 7
+	const dashes = ''.padEnd(columns / 2, '-')
+
+	// colorize the lines to make sur to not miss it
+	console.error(`\x1b[91m${dashes} ERROR ${dashes}\x1b[0m`)
+	console.error(err)
+	console.error(`\x1b[91m${dashes} ERROR ${dashes}\x1b[0m`)
+
+	next(err)
+})
 
 // Start server
 server.listen(3000)
