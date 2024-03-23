@@ -1,0 +1,67 @@
+import { Card } from "../../../interfaces"
+import Set from "../Paldean Fates"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Armarouge",
+		fr: "Carmadura",
+		es: "Armarouge",
+		it: "Armarouge",
+		pt: "Armarouge"
+	},
+
+	rarity: "Shiny rare",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Fire"],
+	stage: "Stage1",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			en: "Fire Off",
+			fr: "Feu Projeté",
+			es: "Pirodisparo",
+			it: "Raffica Ignea",
+			pt: "Disparada de Fogo"
+		},
+
+		effect: {
+			en: "As often as you like during your turn, you may move a Fire Energy from 1 of your Benched Pokémon to your Active Pokémon.",
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie Fire de l'un de vos Pokémon de Banc vers votre Pokémon Actif.",
+			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía Fire de uno de tus Pokémon en Banca a tu Pokémon Activo.",
+			it: "Durante il tuo turno, puoi spostare un'Energia Fire da uno dei tuoi Pokémon in panchina al tuo Pokémon attivo tutte le volte che vuoi.",
+			pt: "Quantas vezes desejar durante o seu turno, você poderá mover uma Energia Fire de 1 dos seus Pokémon no Banco para o seu Pokémon Ativo."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Fire", "Fire", "Colorless"],
+
+		name: {
+			en: "Flame Cannon",
+			fr: "Canon Flamme",
+			es: "Cañón Llama",
+			it: "Fiammacannone",
+			pt: "Canhão de Chamas"
+		},
+
+		effect: {
+			en: "Your opponent's Active Pokémon is now Burned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
+			pt: "O Pokémon Ativo do seu oponente agora está Queimado."
+		},
+
+		damage: 90
+	}],
+
+	retreat: 2,
+	regulationMark: "G"
+}
+
+export default card

@@ -1,0 +1,59 @@
+import { Card } from "../../../interfaces"
+import Set from "../Temporal Forces"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Whimsicott",
+		fr: "Farfaduvet",
+		es: "Whimsicott",
+		it: "Whimsicott",
+		pt: "Whimsicott"
+	},
+
+	rarity: "Rare",
+	category: "Pokemon",
+	hp: 100,
+	types: ["Grass"],
+	stage: "Stage1",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			en: "Wafting Heal",
+			fr: "Soin Ondoyant",
+			es: "Soplo Curativo",
+			it: "Fluttuacura",
+			pt: "Cura Esvoaçante"
+		},
+
+		effect: {
+			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may heal all damage from your Active Grass Pokémon. If you healed any damage in this way, discard all Energy from that Pokémon.",
+			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez soigner tous les dégâts de votre Pokémon Grass Actif. Si vous avez soigné des dégâts de cette façon, défaussez toutes les Énergies attachées à ce Pokémon.",
+			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, puedes curar todos los puntos de daño a tu Pokémon Grass Activo. Si has curado algún punto de daño de esta manera, descarta todas las Energías de ese Pokémon.",
+			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi curare il tuo Pokémon Grass attivo da tutti i danni. Se hai curato dei danni in questo modo, scarta tutte le Energie da quel Pokémon.",
+			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá curar todo o dano do seu Pokémon Grass Ativo. Se você curou qualquer dano desta forma, descarte todas as Energias daquele Pokémon."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Grass"],
+
+		name: {
+			en: "Seed Bomb",
+			fr: "Canon Graine",
+			es: "Bomba Germen",
+			it: "Semebomba",
+			pt: "Bomba de Sementes"
+		},
+
+		damage: 40
+	}],
+
+	retreat: 1,
+	regulationMark: "H"
+}
+
+export default card
