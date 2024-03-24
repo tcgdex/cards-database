@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Coudlangue",
 		es: "Lickilicky",
 		it: "Lickilicky",
-		pt: "Lickilicky"
+		pt: "Lickilicky",
+		de: "Schlurplek"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Plaquage",
 			es: "Golpe Cuerpo",
 			it: "Corposcontro",
-			pt: "Pancada Corporal"
+			pt: "Pancada Corporal",
+			de: "Bodyslam"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
+			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 50
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Déferlante de Langues",
 			es: "Tornado de Lametones",
 			it: "Leccaciclone",
-			pt: "Turbilíngua"
+			pt: "Turbilíngua",
+			de: "Schlecksturm"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Lancez 4 pièces. Cette attaque inflige 70 dégâts pour chaque côté face.",
 			es: "Lanza 4 monedas. Este ataque hace 70 puntos de daño por cada cara.",
 			it: "Lancia quattro volte una moneta. Questo attacco infligge 70 danni ogni volta che esce testa.",
-			pt: "Jogue 4 moedas. Este ataque causa 70 pontos de dano para cada cara."
+			pt: "Jogue 4 moedas. Este ataque causa 70 pontos de dano para cada cara.",
+			de: "Wirf 4 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "70×"

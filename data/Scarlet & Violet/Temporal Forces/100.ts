@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Abo",
 		es: "Ekans",
 		it: "Ekans",
-		pt: "Ekans"
+		pt: "Ekans",
+		de: "Rettan"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Mélange Empoisonné",
 			es: "Mezcla Venenosa",
 			it: "Miscuglio Velenoso",
-			pt: "Mistura Venenosa"
+			pt: "Mistura Venenosa",
+			de: "Giftmischung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Confuso e Envenenado."
+			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Confuso e Envenenado.",
+			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verwirrt und vergiftet."
 		}
 	}, {
 		cost: ["Darkness", "Darkness"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Morsure",
 			es: "Mordisco",
 			it: "Morso",
-			pt: "Mordida"
+			pt: "Mordida",
+			de: "Biss"
 		},
 
 		damage: 30

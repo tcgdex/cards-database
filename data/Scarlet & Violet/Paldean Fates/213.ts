@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Terracruel-ex",
 		es: "Toedscruel ex",
 		it: "Toedscruel-ex",
-		pt: "Toedscruel ex"
+		pt: "Toedscruel ex",
+		de: "Tenterra-ex"
 	},
 
 	rarity: "Shiny Ultra Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Protection Fongique",
 			es: "Micelio Protector",
 			it: "Micoprotezione",
-			pt: "Micélio Protetor"
+			pt: "Micélio Protetor",
+			de: "Schützendes Myzelium"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Évitez tous les effets infligés à tous vos Pokémon auxquels de l'Énergie est attachée et provenant des attaques utilisées par les Pokémon de votre adversaire. (Les effets déjà en action ne sont pas retirés. Les dégâts ne sont pas un effet.)",
 			es: "Se evitan todos los efectos de los ataques usados por los Pokémon de tu rival e infligidos a cada uno de tus Pokémon que tenga alguna Energía unida. (No se eliminan los efectos ya existentes. El daño no es un efecto).",
 			it: "Previeni tutti gli effetti degli attacchi usati dai Pokémon del tuo avversario inflitti ai tuoi Pokémon che hanno Energie assegnate. Gli effetti esistenti non vengono rimossi. I danni non sono un effetto.",
-			pt: "Previna todos os efeitos de ataques usados pelos Pokémon do seu oponente causados a todos os seus Pokémon que têm Energia ligada a eles. (Efeitos existentes não são removidos e dano não é um efeito.)"
+			pt: "Previna todos os efeitos de ataques usados pelos Pokémon do seu oponente causados a todos os seus Pokémon que têm Energia ligada a eles. (Efeitos existentes não são removidos e dano não é um efeito.)",
+			de: "Verhindere alle Effekte der von den Pokémon deines Gegners eingesetzten Attacken, die allen deinen Pokémon zugefügt werden, an die Energie angelegt ist. (Bestehende Effekte werden nicht entfernt. Schaden ist kein Effekt.)"
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Ruée Collective",
 			es: "Colonia al Ataque",
 			it: "Assalto della Colonia",
-			pt: "Colônia Furiosa"
+			pt: "Colônia Furiosa",
+			de: "Kolonieansturm"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chacun de vos Pokémon de Banc auxquels au moins une Énergie Grass est attachée.",
 			es: "Este ataque hace 40 puntos de daño más por cada uno de tus Pokémon en Banca que tenga alguna Energía Grass unida.",
 			it: "Questo attacco infligge 40 danni in più per ogni Pokémon nella tua panchina che ha delle Energie Grass assegnate.",
-			pt: "Este ataque causa 40 pontos de dano a mais para cada um dos seus Pokémon no Banco que tem alguma Energia Grass ligada a ele."
+			pt: "Este ataque causa 40 pontos de dano a mais para cada um dos seus Pokémon no Banco que tem alguma Energia Grass ligada a ele.",
+			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank, an das mindestens 1 Grass-Energie angelegt ist, 40 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"

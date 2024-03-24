@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Pachirisu",
 		es: "Pachirisu",
 		it: "Pachirisu",
-		pt: "Pachirisu"
+		pt: "Pachirisu",
+		de: "Pachirisu"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Joues Électrifiées",
 			es: "Mejillas Electrizantes",
 			it: "Sacche Elettriche",
-			pt: "Bolsas de Eletricidade"
+			pt: "Bolsas de Eletricidade",
+			de: "Elektrische Backentaschen"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Ce Pokémon ne peut pas être Paralysé.",
 			es: "Este Pokémon no puede pasar a estar Paralizado.",
 			it: "Questo Pokémon non può venire paralizzato.",
-			pt: "Este Pokémon não pode ser Paralisado."
+			pt: "Este Pokémon não pode ser Paralisado.",
+			de: "Dieses Pokémon kann nicht paralysiert werden."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Coup d'Jus Groupé",
 			es: "Chispazo para Todos",
 			it: "Scarica Generale",
-			pt: "Descarga em Equipe"
+			pt: "Descarga em Equipe",
+			de: "Vereinter Ladungsstoß"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon Lightning de Banc. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse.",
 			es: "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon Lightning en Banca. El daño de este ataque no se ve afectado por Debilidad.",
 			it: "Questo attacco infligge 20 danni in più per ogni Pokémon Lightning nella tua panchina. I danni di questo attacco non sono influenzati dalla debolezza.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon Lightning no seu Banco. O dano deste ataque não é afetado por Fraqueza."
+			pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon Lightning no seu Banco. O dano deste ataque não é afetado por Fraqueza.",
+			de: "Diese Attacke fügt für jedes Lightning-Pokémon auf deiner Bank 20 Schadenspunkte mehr zu. Der Schaden dieser Attacke wird durch Schwäche nicht verändert."
 		},
 
 		damage: "10+"

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Scalproie",
 		es: "Bisharp",
 		it: "Bisharp",
-		pt: "Bisharp"
+		pt: "Bisharp",
+		de: "Caesurio"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Tranch'Obscur",
 			es: "Cuchilla Oscura",
 			it: "Oscurotaglio",
-			pt: "Cortador de Escuridão"
+			pt: "Cortador de Escuridão",
+			de: "Dunkler Zerschneider"
 		},
 
 		damage: 40
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Double Tranchant",
 			es: "Cuchillada Doble Filo",
 			it: "Doppio Taglio",
-			pt: "Talho de Dois Gumes"
+			pt: "Talho de Dois Gumes",
+			de: "Zweischneidiger Schlitzer"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 120

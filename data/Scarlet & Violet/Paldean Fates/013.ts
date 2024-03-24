@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Motisma Chaleur",
 		es: "Rotom Calor",
 		it: "Rotom Calore",
-		pt: "Rotom Calor"
+		pt: "Rotom Calor",
+		de: "Hitze-Rotom"
 	},
 
 	rarity: "Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Charge Énergétique",
 			es: "Placaje Ardiente",
 			it: "Calorazione",
-			pt: "Golpe de Colisão Aquecido"
+			pt: "Golpe de Colisão Aquecido",
+			de: "Hitze-Tackle"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 40 dégâts.",
 			es: "Este Pokémon también se hace 40 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 40 danni a se stesso.",
-			pt: "Este Pokémon também causa 40 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 40 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 40 Schadenspunkte zu."
 		},
 
 		damage: 100

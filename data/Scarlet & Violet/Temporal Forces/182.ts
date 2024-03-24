@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Chinchidou",
 		es: "Minccino",
 		it: "Minccino",
-		pt: "Minccino"
+		pt: "Minccino",
+		de: "Picochilla"
 	},
 
 	rarity: "Illustration rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Bataille",
 			es: "Toque",
 			it: "Battuta",
-			pt: "Pulso"
+			pt: "Pulso",
+			de: "Verprügler"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Ménage",
 			es: "Purgar",
 			it: "Pulitura",
-			pt: "Limpar"
+			pt: "Limpar",
+			de: "Putzen"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Défaussez jusqu'à 2 Outils Pokémon des Pokémon de votre adversaire.",
 			es: "Descarta hasta 2 Herramientas Pokémon de los Pokémon de tu rival.",
 			it: "Scarta fino a due carte Oggetto Pokémon dai Pokémon del tuo avversario.",
-			pt: "Descarte até 2 Ferramentas Pokémon dos Pokémon do seu oponente."
+			pt: "Descarte até 2 Ferramentas Pokémon dos Pokémon do seu oponente.",
+			de: "Lege bis zu 2 Pokémon-Ausrüstungen von Pokémon deines Gegners auf seinen Ablagestapel."
 		}
 	}],
 

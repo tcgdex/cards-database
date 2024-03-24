@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Charmina",
 		es: "Medicham",
 		it: "Medicham",
-		pt: "Medicham"
+		pt: "Medicham",
+		de: "Meditalis"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Balayette",
 			es: "Puntapié",
 			it: "Calciobasso",
-			pt: "Movimento Baixo"
+			pt: "Movimento Baixo",
+			de: "Fußtritt"
 		},
 
 		damage: 40
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Pied Voltige",
 			es: "Patada Salto Alta",
 			it: "Calcinvolo",
-			pt: "Chute de Pulo Alto"
+			pt: "Chute de Pulo Alto",
+			de: "Turmkick"
 		},
 
 		damage: 110

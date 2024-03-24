@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Lucanon",
 		es: "Vikavolt",
 		it: "Vikavolt",
-		pt: "Vikavolt"
+		pt: "Vikavolt",
+		de: "Donarion"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Éclair Fulgurant",
 			es: "Rayo Mach",
 			it: "Fulmine Mach",
-			pt: "Raio Supersônico"
+			pt: "Raio Supersônico",
+			de: "Flotter Sprung"
 		},
 
 		damage: 50
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Canon Circuit",
 			es: "Cañón Circuito",
 			it: "Circuito Cannone",
-			pt: "Canhão Circuito"
+			pt: "Canhão Circuito",
+			de: "Stromkreiskanone"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 80 dégâts supplémentaires pour chacun de vos Chrysapile de Banc.",
 			es: "Este ataque hace 80 puntos de daño más por cada uno de tus Charjabug en Banca.",
 			it: "Questo attacco infligge 80 danni in più per ogni Charjabug nella tua panchina.",
-			pt: "Este ataque causa 80 pontos de dano a mais para cada um dos seus Charjabug no Banco."
+			pt: "Este ataque causa 80 pontos de dano a mais para cada um dos seus Charjabug no Banco.",
+			de: "Diese Attacke fügt für jedes Akkup auf deiner Bank 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "120+"

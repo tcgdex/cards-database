@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Rhinolove",
 		es: "Swoobat",
 		it: "Swoobat",
-		pt: "Swoobat"
+		pt: "Swoobat",
+		de: "Fletiamo"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Onde Attirante",
 			es: "Onda Atracción",
 			it: "Fascinonda",
-			pt: "Onda de Atração"
+			pt: "Onda de Atração",
+			de: "Anziehungswelle"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Placez 6 marqueurs de dégâts au lieu de 3 sur ce Pokémon-là pour cet État Spécial.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido. Pon 6 contadores de daño en vez de 3 en ese Pokémon por esta Condición Especial.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso. Metti sei segnalini danno invece di tre su quel Pokémon per effetto di questa condizione speciale.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso. Coloque 6 contadores de dano ao invés de 3 naquele Pokémon para esta Condição Especial."
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso. Coloque 6 contadores de dano ao invés de 3 naquele Pokémon para esta Condição Especial.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Lege für diesen Speziellen Zustand 6 Schadensmarken anstelle von 3 Schadensmarken auf jenes Pokémon."
 		},
 
 		damage: 30

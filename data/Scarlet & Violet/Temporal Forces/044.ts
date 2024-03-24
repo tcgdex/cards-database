@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Keldeo",
 		es: "Keldeo",
 		it: "Keldeo",
-		pt: "Keldeo"
+		pt: "Keldeo",
+		de: "Keldeo"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Pioche Rapide",
 			es: "Robo Rápido",
 			it: "Pescalesto",
-			pt: "Retirada Rápida"
+			pt: "Retirada Rápida",
+			de: "Schnellzieher"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Piochez 2 cartes.",
 			es: "Roba 2 cartas.",
 			it: "Pesca due carte.",
-			pt: "Compre 2 cartas."
+			pt: "Compre 2 cartas.",
+			de: "Ziehe 2 Karten."
 		},
 
 		damage: 20
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Hydrolame",
 			es: "Hoja Agua",
 			it: "Idrolama",
-			pt: "Lâmina de Água"
+			pt: "Lâmina de Água",
+			de: "Aquaklinge"
 		},
 
 		damage: 110

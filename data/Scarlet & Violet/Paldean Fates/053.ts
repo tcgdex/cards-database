@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Fort-Ivoire-ex",
 		es: "Colmilargo ex",
 		it: "Grandizanne-ex",
-		pt: "Presa Grande ex"
+		pt: "Presa Grande ex",
+		de: "Riesenzahn-ex"
 	},
 
 	rarity: "Double rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Démolition Sismique",
 			es: "Demolición Sísmica",
 			it: "Demolizione Tellurica",
-			pt: "Demolição Tremor"
+			pt: "Demolição Tremor",
+			de: "Bebende Zerstörung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Une fois à la fin de votre tour (après votre attaque), si ce Pokémon est sur le Poste Actif, vous devez défausser les 5 cartes du dessus de votre deck.",
 			es: "Una vez al final de tu turno (después de tu ataque), si este Pokémon está en el Puesto Activo, debes descartar las 5 primeras cartas de tu baraja.",
 			it: "Una sola volta alla fine del tuo turno, dopo il tuo attacco, se questo Pokémon è in posizione attiva, devi scartare le prime cinque carte del tuo mazzo.",
-			pt: "Uma vez no final do seu turno (depois do seu ataque), se este Pokémon estiver no Campo Ativo, você deverá descartar as 5 cartas de cima do seu baralho."
+			pt: "Uma vez no final do seu turno (depois do seu ataque), se este Pokémon estiver no Campo Ativo, você deverá descartar as 5 cartas de cima do seu baralho.",
+			de: "Einmal am Ende deines Zuges (nachdem du angegriffen hast), wenn dieses Pokémon in der Aktiven Position ist, musst du die obersten 5 Karten deines Decks auf deinen Ablagestapel legen."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Grand Coup",
 			es: "Golpe y Porrazo",
 			it: "Granbotta",
-			pt: "Pancada Grande"
+			pt: "Pancada Grande",
+			de: "Grandioser Stoß"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
 			it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
-			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente."
+			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 		},
 
 		damage: 260

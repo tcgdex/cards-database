@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Pâtachiot",
 		es: "Fidough",
 		it: "Fidough",
-		pt: "Fidough"
+		pt: "Fidough",
+		de: "Hefel"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Ruade",
 			es: "Patada Trasera",
 			it: "Retrocalcio",
-			pt: "Chute Traseiro"
+			pt: "Chute Traseiro",
+			de: "Rückwärtskick"
 		},
 
 		damage: 20

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Ectoplasma",
 		es: "Gengar",
 		it: "Gengar",
-		pt: "Gengar"
+		pt: "Gengar",
+		de: "Gengar"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Portail Nocturne",
 			es: "Portal Nocturno",
 			it: "Portale Notturno",
-			pt: "Portão Noturno"
+			pt: "Portão Noturno",
+			de: "Nachtpforte"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Une fois pendant votre tour, vous pouvez échanger votre Pokémon Actif contre l'un de vos Pokémon de Banc.",
 			es: "Una vez durante tu turno, puedes cambiar tu Pokémon Activo por uno de tus Pokémon en Banca.",
 			it: "Una sola volta durante il tuo turno, puoi scambiare il tuo Pokémon attivo con uno della tua panchina.",
-			pt: "Uma vez durante o seu turno, você poderá trocar o seu Pokémon Ativo por 1 dos seus Pokémon no Banco."
+			pt: "Uma vez durante o seu turno, você poderá trocar o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.",
+			de: "Einmal während deines Zuges kannst du dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Cauchemar",
 			es: "Pesadilla",
 			it: "Incubo",
-			pt: "Pesadelo"
+			pt: "Pesadelo",
+			de: "Nachtmahr"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido."
+			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 100

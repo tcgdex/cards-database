@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Compagnol",
 		es: "Tandemaus",
 		it: "Tandemaus",
-		pt: "Tandemaus"
+		pt: "Tandemaus",
+		de: "Zwieps"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Collecte",
 			es: "Coleccionar",
 			it: "Tassa",
-			pt: "Coleta"
+			pt: "Coleta",
+			de: "Sammeln"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Piochez 2 cartes.",
 			es: "Roba 2 cartas.",
 			it: "Pesca due carte.",
-			pt: "Compre 2 cartas."
+			pt: "Compre 2 cartas.",
+			de: "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Gifle Douce",
 			es: "Bofetada Gentil",
 			it: "Schiaffetto",
-			pt: "Tapinha"
+			pt: "Tapinha",
+			de: "Sanfter Hieb"
 		},
 
 		damage: 30

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Grodrive",
 		es: "Drifblim",
 		it: "Drifblim",
-		pt: "Drifblim"
+		pt: "Drifblim",
+		de: "Drifzepeli"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Tornade",
 			es: "Tornado",
 			it: "Raffica",
-			pt: "Lufada de Vento"
+			pt: "Lufada de Vento",
+			de: "Windstoß"
 		},
 
 		damage: 30
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Malédiction Disséminée",
 			es: "Maldición Dispersa",
 			it: "Spargimaledizione",
-			pt: "Maldição Alastrante"
+			pt: "Maldição Alastrante",
+			de: "Ausbreitender Fluch"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Placez 8 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
 			es: "Pon 8 contadores de daño en los Pokémon de tu rival de la manera que desees.",
 			it: "Metti otto segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
-			pt: "Coloque 8 contadores de dano nos Pokémon do seu oponente como desejar."
+			pt: "Coloque 8 contadores de dano nos Pokémon do seu oponente como desejar.",
+			de: "Lege 8 Schadensmarken beliebig auf die Pokémon deines Gegners."
 		}
 	}],
 

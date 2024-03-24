@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Delcatty",
 		es: "Delcatty",
 		it: "Delcatty",
-		pt: "Delcatty"
+		pt: "Delcatty",
+		de: "Enekoro"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Queue Étourdissante",
 			es: "Cola Engaño",
 			it: "Confondicoda",
-			pt: "Truques de Cauda"
+			pt: "Truques de Cauda",
+			de: "Schweiftrick"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso."
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 30
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Mélangeur d'Énergies",
 			es: "Batidora Energética",
 			it: "Miscelenergia",
-			pt: "Mistureba de Energia"
+			pt: "Mistureba de Energia",
+			de: "Energiemix"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Vous pouvez déplacer autant d'Énergies que vous le voulez de vos Pokémon vers vos autres Pokémon, comme il vous plaît.",
 			es: "Puedes mover cualquier cantidad de Energías de tus Pokémon a tus otros Pokémon de la manera que desees.",
 			it: "Puoi spostare un numero qualsiasi di Energie dall'uno all'altro dei tuoi Pokémon nel modo che preferisci.",
-			pt: "Você pode mover qualquer quantidade de Energia dos seus Pokémon para outros Pokémon seus como desejar."
+			pt: "Você pode mover qualquer quantidade de Energia dos seus Pokémon para outros Pokémon seus como desejar.",
+			de: "Du kannst beliebig viele Energien von deinen Pokémon beliebig auf deine anderen Pokémon verschieben."
 		},
 
 		damage: 110

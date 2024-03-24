@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Bourrinos",
 		es: "Mudsdale",
 		it: "Mudsdale",
-		pt: "Mudsdale"
+		pt: "Mudsdale",
+		de: "Pampross"
 	},
 
 	rarity: "Illustration rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Plein de Boue",
 			es: "Reserva de Lodo",
 			it: "Fangoscorta",
-			pt: "Estoque Lamacento"
+			pt: "Estoque Lamacento",
+			de: "Schlammvorrat"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Attachez une carte Énergie Fighting de base de votre pile de défausse à chacun de vos Pokémon de Banc.",
 			es: "Une 1 carta de Energía Fighting Básica de tu pila de descartes a cada uno de tus Pokémon en Banca.",
 			it: "Assegna a ciascuno dei Pokémon nella tua panchina una carta Energia base Fighting dalla tua pila degli scarti.",
-			pt: "Ligue uma carta de Energia Fighting Básica da sua pilha de descarte a cada um dos seus Pokémon no Banco."
+			pt: "Ligue uma carta de Energia Fighting Básica da sua pilha de descarte a cada um dos seus Pokémon no Banco.",
+			de: "Lege 1 Basis-Fighting-Energiekarte aus deinem Ablagestapel an jedes Pokémon auf deiner Bank an."
 		}
 	}, {
 		cost: ["Fighting", "Colorless", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Cavalerie Lourde",
 			es: "Fuerza Equina",
 			it: "Forza Equina",
-			pt: "Potência Equina"
+			pt: "Potência Equina",
+			de: "Pferdestärke"
 		},
 
 		effect: {
@@ -52,7 +56,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 40 dégâts.",
 			es: "Este Pokémon también se hace 40 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 40 danni a se stesso.",
-			pt: "Este Pokémon também causa 40 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 40 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 40 Schadenspunkte zu."
 		},
 
 		damage: 140

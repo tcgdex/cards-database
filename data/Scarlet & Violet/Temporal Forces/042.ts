@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Carvanha",
 		es: "Carvanha",
 		it: "Carvanha",
-		pt: "Carvanha"
+		pt: "Carvanha",
+		de: "Kanivanha"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Grosse Vague",
 			es: "Chapoteo Ondulante",
 			it: "Schizzi d'Onda",
-			pt: "Onda Borrifante"
+			pt: "Onda Borrifante",
+			de: "Wellenplatscher"
 		},
 
 		damage: 30

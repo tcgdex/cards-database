@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Têtes-de-Fer",
 		es: "Ferrocuello",
 		it: "Colloferreo",
-		pt: "Jugulares Férreas"
+		pt: "Jugulares Férreas",
+		de: "Eisenhals"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Combat Automatisé",
 			es: "Combate Automatizado",
 			it: "Lotta Automatizzata",
-			pt: "Combate Automatizado"
+			pt: "Combate Automatizado",
+			de: "Automatisierter Angriff"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Si ce Pokémon est sur le Poste Actif et qu'il subit les dégâts d'une attaque d'un Pokémon de votre adversaire (même si ce Pokémon est mis K.O.), placez 3 marqueurs de dégâts sur le Pokémon Attaquant.",
 			es: "Si este Pokémon está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante.",
 			it: "Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, metti tre segnalini danno sul Pokémon attaccante.",
-			pt: "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque 3 contadores de dano no Pokémon Atacante."
+			pt: "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque 3 contadores de dano no Pokémon Atacante.",
+			de: "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Vent Impitoyable",
 			es: "Vientos Explosivos",
 			it: "Vento Distruttivo",
-			pt: "Vendaval Avassalador"
+			pt: "Vendaval Avassalador",
+			de: "Peitschender Wind"
 		},
 
 		damage: 110

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Pifeuil",
 		es: "Nuzleaf",
 		it: "Nuzleaf",
-		pt: "Nuzleaf"
+		pt: "Nuzleaf",
+		de: "Blanas"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Poing Tire-Bouchon",
 			es: "Puño Tirabuzón",
 			it: "Pugno Rotante",
-			pt: "Soco Saca-rolha"
+			pt: "Soco Saca-rolha",
+			de: "Korkenzieherhieb"
 		},
 
 		damage: 20
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Gifle Comète",
 			es: "Bofetón Cometa",
 			it: "Cometasberla",
-			pt: "Tapa Cometa"
+			pt: "Tapa Cometa",
+			de: "Kometenklatscher"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
 			es: "Lanza 3 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 			it: "Lancia tre volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 30 pontos de dano para cada cara."
+			pt: "Jogue 3 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+			de: "Wirf 3 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"

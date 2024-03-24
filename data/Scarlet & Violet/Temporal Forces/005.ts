@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Tengalice",
 		es: "Shiftry",
 		it: "Shiftry",
-		pt: "Shiftry"
+		pt: "Shiftry",
+		de: "Tengulist"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Tornade Expulsante",
 			es: "Tornado Expulsor",
 			it: "Scacciatornado",
-			pt: "Tornado Repulsor"
+			pt: "Tornado Repulsor",
+			de: "Verstoßender Tornado"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Choisissez 3 des Pokémon de Banc de votre adversaire. Dans ce cas, mélangez avec son deck tous les Pokémon de Banc de votre adversaire que vous n'avez pas choisis et toutes les cartes qui leur sont attachées.",
 			es: "Elige 3 de los Pokémon en Banca de tu rival. Si lo haces, pon todos los Pokémon en Banca de tu rival que no hayas elegido y todas las cartas unidas a ellos en su baraja, y barájalas todas.",
 			it: "Scegli tre dei Pokémon nella panchina del tuo avversario. Se lo fai, rimischia i Pokémon nella panchina del tuo avversario che non hai scelto e tutte le carte a essi assegnate nel suo mazzo.",
-			pt: "Escolha 3 dos Pokémon no Banco do seu oponente. Se fizer isto, embaralhe todos os Pokémon no Banco do seu oponente que você não escolheu, e todas as cartas ligadas àqueles Pokémon, de volta no baralho dele."
+			pt: "Escolha 3 dos Pokémon no Banco do seu oponente. Se fizer isto, embaralhe todos os Pokémon no Banco do seu oponente que você não escolheu, e todas as cartas ligadas àqueles Pokémon, de volta no baralho dele.",
+			de: "Wähle 3 Pokémon auf der Bank deines Gegners. Wenn du das machst, mische alle Pokémon auf der Bank deines Gegners, die du nicht gewählt hast, und alle an jene Pokémon angelegten Karten in sein Deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Boucle d'Énergie",
 			es: "Bucle de Energía",
 			it: "Circuito Energetico",
-			pt: "Loop de Energia"
+			pt: "Loop de Energia",
+			de: "Energieschleife"
 		},
 
 		effect: {
@@ -52,7 +56,8 @@ const card: Card = {
 			fr: "Ajoutez à votre main une Énergie attachée à ce Pokémon.",
 			es: "Pon 1 Energía unida a este Pokémon en tu mano.",
 			it: "Prendi un'Energia assegnata a questo Pokémon e aggiungila alle carte che hai in mano.",
-			pt: "Coloque uma Energia ligada a este Pokémon na sua mão."
+			pt: "Coloque uma Energia ligada a este Pokémon na sua mão.",
+			de: "Nimm 1 an dieses Pokémon angelegte Energie auf deine Hand."
 		},
 
 		damage: 140

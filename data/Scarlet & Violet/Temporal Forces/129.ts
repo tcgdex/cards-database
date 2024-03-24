@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Deusolourdo",
 		es: "Dudunsparce",
 		it: "Dudunsparce",
-		pt: "Dudunsparce"
+		pt: "Dudunsparce",
+		de: "Dummimisel"
 	},
 
 	rarity: "Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Pioche Fuyante",
 			es: "Robo a la Fuga",
 			it: "Pesca Fugafacile",
-			pt: "Comprar e Dar no Pé"
+			pt: "Comprar e Dar no Pé",
+			de: "Angsthasenabzug"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Une fois pendant votre tour, vous pouvez piocher 3 cartes. Si vous piochez au moins une carte de cette façon, mélangez avec votre deck ce Pokémon et toutes les cartes qui lui sont attachées.",
 			es: "Una vez durante tu turno, puedes robar 3 cartas. Si has robado alguna carta de esta manera, pon este Pokémon y todas las cartas unidas a él en tu baraja, y baraja todas las cartas.",
 			it: "Una sola volta durante il tuo turno, puoi pescare tre carte. Se hai pescato delle carte in questo modo, rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá comprar 3 cartas. Se você comprou qualquer carta desta forma, embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho."
+			pt: "Uma vez durante o seu turno, você poderá comprar 3 cartas. Se você comprou qualquer carta desta forma, embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho.",
+			de: "Einmal während deines Zuges kannst du 3 Karten ziehen. Wenn du auf diese Weise mindestens 1 Karte gezogen hast, mische dieses Pokémon und alle angelegten Karten in dein Deck."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Écras'Terre",
 			es: "Aterrizaje",
 			it: "Schiacciaterra",
-			pt: "Aperto de Terra"
+			pt: "Aperto de Terra",
+			de: "Schollenbrecher"
 		},
 
 		damage: 90

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Éoko",
 		es: "Chimecho",
 		it: "Chimecho",
-		pt: "Chimecho"
+		pt: "Chimecho",
+		de: "Palimpalim"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Poussododo",
 			es: "Inductor de Sueño",
 			it: "Induci-Sonno",
-			pt: "Indutor de Sono"
+			pt: "Indutor de Sono",
+			de: "Schlafeinflößer"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif. Le nouveau Pokémon Actif est maintenant Endormi.",
 			es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo. El nuevo Pokémon Activo pasa a estar Dormido.",
 			it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva. Il nuovo Pokémon attivo viene addormentato.",
-			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo. O novo Pokémon Ativo agora está Adormecido."
+			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo. O novo Pokémon Ativo agora está Adormecido.",
+			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein. Das neue Aktive Pokémon schläft jetzt."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Piqûre Psy",
 			es: "Disparo Psi",
 			it: "Psicosparo",
-			pt: "Tiro Psíquico"
+			pt: "Tiro Psíquico",
+			de: "Psychoschuss"
 		},
 
 		damage: 70

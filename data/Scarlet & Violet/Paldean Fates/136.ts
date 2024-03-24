@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Luxio",
 		es: "Luxio",
 		it: "Luxio",
-		pt: "Luxio"
+		pt: "Luxio",
+		de: "Luxio"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Coup de Pied Ravageur",
 			es: "Electropatada",
 			it: "Dinamocalcio",
-			pt: "Chute Zap"
+			pt: "Chute Zap",
+			de: "Stromtritt"
 		},
 
 		damage: 30
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Éclair Frontal",
 			es: "Rayo de Cabeza",
 			it: "Zuccalampo",
-			pt: "Raio de Cabeça"
+			pt: "Raio de Cabeça",
+			de: "Kopf-Blitz"
 		},
 
 		damage: 60

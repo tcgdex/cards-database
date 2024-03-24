@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Reptincel",
 		es: "Charmeleon",
 		it: "Charmeleon",
-		pt: "Charmeleon"
+		pt: "Charmeleon",
+		de: "Glutexo"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Voile Flamboyant",
 			es: "Velo Ígneo",
 			it: "Fuocovelo",
-			pt: "Véu de Chamas"
+			pt: "Véu de Chamas",
+			de: "Flammenschleier"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Évitez tous les effets infligés à ce Pokémon provenant des attaques utilisées par les Pokémon de votre adversaire. (Les dégâts ne sont pas un effet.)",
 			es: "Se evitan todos los efectos de los ataques usados por los Pokémon de tu rival e infligidos a este Pokémon. (El daño no es un efecto).",
 			it: "Previeni tutti gli effetti inflitti a questo Pokémon dagli attacchi usati dai Pokémon del tuo avversario. I danni non sono un effetto.",
-			pt: "Previna todos os efeitos de ataques usados pelos Pokémon do seu oponente causados a este Pokémon. (Dano não é um efeito.)"
+			pt: "Previna todos os efeitos de ataques usados pelos Pokémon do seu oponente causados a este Pokémon. (Dano não é um efeito.)",
+			de: "Verhindere alle Effekte der von Pokémon deines Gegners eingesetzten Attacken, die diesem Pokémon zugefügt werden. (Schaden ist kein Effekt.)"
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Fournaise",
 			es: "Combustión",
 			it: "Fuoco Continuo",
-			pt: "Combustão"
+			pt: "Combustão",
+			de: "Glühen"
 		},
 
 		damage: 50

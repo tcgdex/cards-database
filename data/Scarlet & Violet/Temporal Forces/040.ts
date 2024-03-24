@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Crocrodil",
 		es: "Croconaw",
 		it: "Croconaw",
-		pt: "Croconaw"
+		pt: "Croconaw",
+		de: "Tyracroc"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Poussée Inverse",
 			es: "Invertir Impulso",
 			it: "Tornaindietro",
-			pt: "Impulso Reverso"
+			pt: "Impulso Reverso",
+			de: "Umkehrschub"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
 			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
+			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 30

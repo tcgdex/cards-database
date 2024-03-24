@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Scovilain-ex",
 		es: "Scovillain ex",
 		it: "Scovillain-ex",
-		pt: "Scovillain ex"
+		pt: "Scovillain ex",
+		de: "Halupenjo-ex"
 	},
 
 	rarity: "Double rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Entrave Mordante Pimentée",
 			es: "Atadura Picante a Rabiar",
 			it: "Legamorso Piccante",
-			pt: "Abocanhada Picante"
+			pt: "Abocanhada Picante",
+			de: "Fesselnder Chilibiss"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar."
+			pt: "O Pokémon Ativo do seu oponente agora está Queimado. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen."
 		}
 	}, {
 		cost: ["Grass", "Grass"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Écrasement Double Tête",
 			es: "Demolición Bicéfala",
 			it: "Distruzione Bicefala",
-			pt: "Cabeça Dupla Esmagadora"
+			pt: "Cabeça Dupla Esmagadora",
+			de: "Zweiköpfige Zermalmung"
 		},
 
 		effect: {
@@ -52,7 +56,8 @@ const card: Card = {
 			fr: "Défaussez au hasard une carte de la main de votre adversaire. Défaussez la carte du dessus du deck de votre adversaire.",
 			es: "Descarta 1 carta aleatoria de la mano de tu rival. Descarta la primera carta de la baraja de tu rival.",
 			it: "Scarta una carta a caso dalla mano del tuo avversario. Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte uma carta aleatória da mão do seu oponente. Descarte a carta de cima do baralho do seu oponente."
+			pt: "Descarte uma carta aleatória da mão do seu oponente. Descarte a carta de cima do baralho do seu oponente.",
+			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel. Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 140

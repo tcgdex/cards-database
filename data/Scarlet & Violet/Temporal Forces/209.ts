@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Dévouement de Bianca",
 		es: "Devoción de Bel",
 		it: "Dedizione di Belle",
-		pt: "Dedicação da Bianca"
+		pt: "Dedicação da Bianca",
+		de: "Bells Hingabe"
 	},
 
 	rarity: "Special illustration rare",
@@ -20,7 +21,8 @@ const card: Card = {
 		fr: "Soignez tous les dégâts de l'un de vos Pokémon auquel il reste 30 PV ou moins.",
 		es: "Cura todos los puntos de daño a uno de tus Pokémon a los que le queden 30 PS o menos.",
 		it: "Cura uno dei tuoi Pokémon che ha 30 PS o meno rimanenti da tutti i danni.",
-		pt: "Cure todo o dano de 1 dos seus Pokémon que tiver PS restante de 30 ou menos."
+		pt: "Cure todo o dano de 1 dos seus Pokémon que tiver PS restante de 30 ou menos.",
+		de: "Heile allen Schaden bei 1 deiner Pokémon, das 30 oder weniger verbleibende KP hat."
 	},
 
 	trainerType: "Supporter",

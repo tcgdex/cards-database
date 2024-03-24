@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Terhal",
 		es: "Beldum",
 		it: "Beldum",
-		pt: "Beldum"
+		pt: "Beldum",
+		de: "Tanhel"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Creusogriffes",
 			es: "Hundir Garras",
 			it: "Scavazanne",
-			pt: "Fincar Garras"
+			pt: "Fincar Garras",
+			de: "Schaufelkrallen"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Charge de Fer",
 			es: "Bloqueo de Hierro",
 			it: "Azione Ferrea",
-			pt: "Golpe de Colisão Férreo"
+			pt: "Golpe de Colisão Férreo",
+			de: "Eisentackle"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
 			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 50

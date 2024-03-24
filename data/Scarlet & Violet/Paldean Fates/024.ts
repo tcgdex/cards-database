@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Noadkoko",
 		es: "Exeggutor",
 		it: "Exeggutor",
-		pt: "Exeggutor"
+		pt: "Exeggutor",
+		de: "Kokowei"
 	},
 
 	rarity: "Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Hypnoblast",
 			es: "Hipnorrayo",
 			it: "Ipnobomba",
-			pt: "Borrifada Hipnótica"
+			pt: "Borrifada Hipnótica",
+			de: "Hypnoschuss"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido."
+			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 30
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Boucle Psy",
 			es: "Bucle Psíquico",
 			it: "Circuito Psichico",
-			pt: "Loop Psíquico"
+			pt: "Loop Psíquico",
+			de: "Psychoschleife"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Ajoutez à votre main 2 Énergies attachées à ce Pokémon.",
 			es: "Pon 2 Energías unidas a este Pokémon en tu mano.",
 			it: "Prendi due Energie assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
-			pt: "Coloque 2 Energias ligadas a este Pokémon na sua mão."
+			pt: "Coloque 2 Energias ligadas a este Pokémon na sua mão.",
+			de: "Nimm 2 an dieses Pokémon angelegte Energien auf deine Hand."
 		},
 
 		damage: 160

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Pohm",
 		es: "Pawmi",
 		it: "Pawmi",
-		pt: "Pawmi"
+		pt: "Pawmi",
+		de: "Pamo"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Poing Léger",
 			es: "Puño Ligero",
 			it: "Pugnetto",
-			pt: "Soco de Luz"
+			pt: "Soco de Luz",
+			de: "Leichter Hieb"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Coup de Pied Ravageur",
 			es: "Electropatada",
 			it: "Dinamocalcio",
-			pt: "Chute Zap"
+			pt: "Chute Zap",
+			de: "Stromtritt"
 		},
 
 		damage: 20

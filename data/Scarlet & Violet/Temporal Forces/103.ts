@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Spectrum",
 		es: "Haunter",
 		it: "Haunter",
-		pt: "Haunter"
+		pt: "Haunter",
+		de: "Alpollo"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Super Haleine Empoisonnée",
 			es: "Aliento Supervenenoso",
 			it: "Super Velenospiro",
-			pt: "Super-hálito Venenoso"
+			pt: "Super-hálito Venenoso",
+			de: "Super-Gifthauch"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado."
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 30

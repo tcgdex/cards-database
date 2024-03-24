@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Melmetal",
 		es: "Melmetal",
 		it: "Melmetal",
-		pt: "Melmetal"
+		pt: "Melmetal",
+		de: "Melmetal"
 	},
 
 	rarity: "Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Enfoncement",
 			es: "Martillear",
 			it: "Martello",
-			pt: "Martelada"
+			pt: "Martelada",
+			de: "Einhämmern"
 		},
 
 		damage: 120
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Coup de Fer",
 			es: "Ferropuño",
 			it: "Pugni Ferrei",
-			pt: "Pancada de Ferro"
+			pt: "Pancada de Ferro",
+			de: "Eisenwumme"
 		},
 
 		damage: 230

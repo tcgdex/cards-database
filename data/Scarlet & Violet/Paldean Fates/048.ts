@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Phanpy",
 		es: "Phanpy",
 		it: "Phanpy",
-		pt: "Phanpy"
+		pt: "Phanpy",
+		de: "Phanpy"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Force",
 			es: "Fuerza",
 			it: "Forza",
-			pt: "Força"
+			pt: "Força",
+			de: "Stärke"
 		},
 
 		damage: 30
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Roulé-Boulé",
 			es: "Placaje Giro",
 			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante"
+			pt: "Golpe de Colisão Rolante",
+			de: "Rolltackle"
 		},
 
 		damage: 60

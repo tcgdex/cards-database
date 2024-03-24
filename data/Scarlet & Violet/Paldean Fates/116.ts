@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Ramoloss",
 		es: "Slowpoke",
 		it: "Slowpoke",
-		pt: "Slowpoke"
+		pt: "Slowpoke",
+		de: "Flegmon"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Repos",
 			es: "Descanso",
 			it: "Riposo",
-			pt: "Descansar"
+			pt: "Descansar",
+			de: "Erholung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Ce Pokémon est maintenant Endormi. Soignez 30 dégâts de ce Pokémon.",
 			es: "Este Pokémon pasa a estar Dormido. Cúrale 30 puntos de daño.",
 			it: "Questo Pokémon viene addormentato. Curalo da 30 danni.",
-			pt: "Este Pokémon agora está Adormecido. Cure 30 pontos de dano dele."
+			pt: "Este Pokémon agora está Adormecido. Cure 30 pontos de dano dele.",
+			de: "Dieses Pokémon schläft jetzt. Heile 30 Schadenspunkte bei diesem Pokémon."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Coup d'Boule",
 			es: "Golpe Cabeza",
 			it: "Bottintesta",
-			pt: "Cabeçada"
+			pt: "Cabeçada",
+			de: "Kopfnuss"
 		},
 
 		damage: 20

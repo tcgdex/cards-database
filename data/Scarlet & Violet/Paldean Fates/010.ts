@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Maganon",
 		es: "Magmortar",
 		it: "Magmortar",
-		pt: "Magmortar"
+		pt: "Magmortar",
+		de: "Magbrant"
 	},
 
 	rarity: "Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Flamboiement",
 			es: "Llama",
 			it: "Fiammata",
-			pt: "Chama"
+			pt: "Chama",
+			de: "Flackern"
 		},
 
 		damage: 40
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Chaleur Volcanique",
 			es: "Calor Volcánico",
 			it: "Calore Vulcanico",
-			pt: "Calor Vulcânico"
+			pt: "Calor Vulcânico",
+			de: "Vulkanhitze"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 170

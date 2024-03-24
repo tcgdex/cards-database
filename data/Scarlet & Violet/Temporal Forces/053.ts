@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Élektek",
 		es: "Electabuzz",
 		it: "Electabuzz",
-		pt: "Electabuzz"
+		pt: "Electabuzz",
+		de: "Elektek"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Coup Tranchant",
 			es: "Cortar",
 			it: "Ceffone",
-			pt: "Trincar"
+			pt: "Trincar",
+			de: "Hacker"
 		},
 
 		damage: 20
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Poing Électrique",
 			es: "Puño Eléctrico",
 			it: "Pugno Elettrico",
-			pt: "Murro Elétrico"
+			pt: "Murro Elétrico",
+			de: "Elektroschlag"
 		},
 
 		damage: 50

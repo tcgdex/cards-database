@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "M. Mime",
 		es: "Mr. Mime",
 		it: "Mr. Mime",
-		pt: "Mr. Mime"
+		pt: "Mr. Mime",
+		de: "Pantimos"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Spectacle de Sosies",
 			es: "Parecidos Razonables",
 			it: "Spettacolo del Sosia",
-			pt: "Show de Imitação"
+			pt: "Show de Imitação",
+			de: "Doppelgänger-Show"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Votre adversaire montre sa main. Vous pouvez utiliser l'effet d'une carte Supporter que vous y trouvez en tant qu'effet de cette attaque.",
 			es: "Tu rival enseña las cartas de su mano. Puedes usar el efecto de una carta de Partidario que encuentres entre ellas como efecto de este ataque.",
 			it: "Il tuo avversario mostra le carte che ha in mano. Puoi usare l'effetto di una carta Aiuto presente tra esse come effetto di questo attacco.",
-			pt: "Seu oponente revela a mão dele. Você pode usar o efeito de uma carta de Apoiador que encontrar lá como o efeito deste ataque."
+			pt: "Seu oponente revela a mão dele. Você pode usar o efeito de uma carta de Apoiador que encontrar lá como o efeito deste ataque.",
+			de: "Dein Gegner zeigt dir seine Handkarten. Du kannst den Effekt von 1 Unterstützerkarte, die du dort findest, als Effekt dieser Attacke einsetzen."
 		}
 	}, {
 		cost: ["Psychic"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Vague Étrange",
 			es: "Onda Sobrecogedora",
 			it: "Ondamistero",
-			pt: "Onda Misteriosa"
+			pt: "Onda Misteriosa",
+			de: "Gespenstische Woge"
 		},
 
 		effect: {
@@ -52,7 +56,8 @@ const card: Card = {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso."
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 20

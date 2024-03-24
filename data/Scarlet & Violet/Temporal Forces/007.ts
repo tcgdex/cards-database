@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Chapignon",
 		es: "Breloom",
 		it: "Breloom",
-		pt: "Breloom"
+		pt: "Breloom",
+		de: "Kapilz"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Koud'Poing",
 			es: "Puño",
 			it: "Pugno",
-			pt: "Soco"
+			pt: "Soco",
+			de: "Boxhieb"
 		},
 
 		damage: 30
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Coup d'Articulations",
 			es: "Impacto Nudillo",
 			it: "Impatto Nocche",
-			pt: "Impacto Ossudo"
+			pt: "Impacto Ossudo",
+			de: "Knöchelprall"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 120

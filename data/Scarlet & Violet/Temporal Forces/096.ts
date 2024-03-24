@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Fort-Ivoire",
 		es: "Colmilargo",
 		it: "Grandizanne",
-		pt: "Presa Grande"
+		pt: "Presa Grande",
+		de: "Riesenzahn"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Allonger",
 			es: "Arremeter",
 			it: "Affondo Lungo",
-			pt: "Bote"
+			pt: "Bote",
+			de: "Sprungangriff"
 		},
 
 		damage: 30
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Charge Furieuse",
 			es: "Carga Iracunda",
 			it: "Carica Furibonda",
-			pt: "Colisão Enfurecida"
+			pt: "Colisão Enfurecida",
+			de: "Zorniger Ansturm"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 80 dégâts supplémentaires.",
 			es: "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 80 puntos de daño más.",
 			it: "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 80 danni in più.",
-			pt: "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 80 pontos de dano a mais."
+			pt: "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 80 pontos de dano a mais.",
+			de: "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"

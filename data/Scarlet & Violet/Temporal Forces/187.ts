@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Félinferno-ex",
 		es: "Incineroar ex",
 		it: "Incineroar-ex",
-		pt: "Incineroar ex"
+		pt: "Incineroar ex",
+		de: "Fuegro-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Jeu Pressé",
 			es: "Juego Apremiante",
 			it: "Energiocata",
-			pt: "Cair pra Dentro"
+			pt: "Cair pra Dentro",
+			de: "Ins Zeug legen"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Les attaques utilisées par ce Pokémon coûtent Colorless de moins pour chacun des Pokémon de Banc de votre adversaire.",
 			es: "Los ataques usados por este Pokémon cuestan Colorless menos por cada uno de los Pokémon en Banca de tu rival.",
 			it: "Il costo degli attacchi usati da questo Pokémon è ridotto di Colorless per ogni Pokémon nella panchina del tuo avversario.",
-			pt: "Os ataques usados por este Pokémon custam Colorless a menos para cada Pokémon no Banco do seu oponente."
+			pt: "Os ataques usados por este Pokémon custam Colorless a menos para cada Pokémon no Banco do seu oponente.",
+			de: "Die Kosten der von diesem Pokémon eingesetzten Attacken verringern sich für jedes Pokémon auf der Bank deines Gegners um Colorless."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Explosion Flamboyante",
 			es: "Explosión Llameante",
 			it: "Fiammata Esplosiva",
-			pt: "Incêndio Explosivo"
+			pt: "Incêndio Explosivo",
+			de: "Brandausbruch"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado."
+			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: 240

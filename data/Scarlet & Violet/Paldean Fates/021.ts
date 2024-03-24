@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Lanturn",
 		es: "Lanturn",
 		it: "Lanturn",
-		pt: "Lanturn"
+		pt: "Lanturn",
+		de: "Lanturn"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Boule Éclair",
 			es: "Bola Relámpago",
 			it: "Fulminpalla",
-			pt: "Bola de Raios"
+			pt: "Bola de Raios",
+			de: "Kugelblitz"
 		},
 
 		damage: 50
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Aqua-Étincelle",
 			es: "Chispa Aqua",
 			it: "Acquascintilla",
-			pt: "Faísca de Água"
+			pt: "Faísca de Água",
+			de: "Aquafunke"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Si au moins une Énergie Water est attachée à ce Pokémon, cette attaque inflige 120 dégâts supplémentaires.",
 			es: "Si este Pokémon tiene alguna Energía Water unida, este ataque hace 120 puntos de daño más.",
 			it: "Se questo Pokémon ha delle Energie Water assegnate, questo attacco infligge 120 danni in più.",
-			pt: "Se este Pokémon tiver alguma Energia Water ligada a ele, este ataque causará 120 pontos de dano a mais."
+			pt: "Se este Pokémon tiver alguma Energia Water ligada a ele, este ataque causará 120 pontos de dano a mais.",
+			de: "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"

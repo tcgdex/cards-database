@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Toutombe",
 		es: "Greavard",
 		it: "Greavard",
-		pt: "Greavard"
+		pt: "Greavard",
+		de: "Gruff"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Cabriole Funèbre",
 			es: "Jugueteo en el Cementerio",
 			it: "Saltellacimitero",
-			pt: "Cambalhotas no Cemitério"
+			pt: "Cambalhotas no Cemitério",
+			de: "Grufttollerei"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 10 dégâts pour chaque Pokémon Psychic dans votre pile de défausse.",
 			es: "Este ataque hace 10 puntos de daño por cada Pokémon Psychic en tu pila de descartes.",
 			it: "Questo attacco infligge 10 danni per ogni Pokémon Psychic nella tua pila degli scarti.",
-			pt: "Este ataque causa 10 pontos de dano para cada Pokémon Psychic na sua pilha de descarte."
+			pt: "Este ataque causa 10 pontos de dano para cada Pokémon Psychic na sua pilha de descarte.",
+			de: "Diese Attacke fügt für jedes Psychic-Pokémon in deinem Ablagestapel 10 Schadenspunkte zu."
 		},
 
 		damage: "10×"

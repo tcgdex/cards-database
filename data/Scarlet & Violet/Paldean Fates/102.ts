@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Olivini",
 		es: "Smoliv",
 		it: "Smoliv",
-		pt: "Smoliv"
+		pt: "Smoliv",
+		de: "Olini"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Nutriments",
 			es: "Nutrientes",
 			it: "Nutrienti",
-			pt: "Nutrientes"
+			pt: "Nutrientes",
+			de: "Nährstoffe"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Soignez 30 dégâts de l'un de vos Pokémon.",
 			es: "Cura 30 puntos de daño a uno de tus Pokémon.",
 			it: "Cura uno dei tuoi Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano de 1 dos seus Pokémon."
+			pt: "Cure 30 pontos de dano de 1 dos seus Pokémon.",
+			de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Fluide Éclaboussant",
 			es: "Fluido Rociado",
 			it: "Fluidospray",
-			pt: "Fluido Spray"
+			pt: "Fluido Spray",
+			de: "Sprühwasser"
 		},
 
 		damage: 20

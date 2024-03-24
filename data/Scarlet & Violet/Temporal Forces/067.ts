@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Latias",
 		es: "Latias",
 		it: "Latias",
-		pt: "Latias"
+		pt: "Latias",
+		de: "Latias"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Allure",
 			es: "Atractivo",
 			it: "Affascinante",
-			pt: "Fascinar"
+			pt: "Fascinar",
+			de: "Verlockung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Piochez 2 cartes.",
 			es: "Roba 2 cartas.",
 			it: "Pesca due carte.",
-			pt: "Compre 2 cartas."
+			pt: "Compre 2 cartas.",
+			de: "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Survol du Lagon",
 			es: "Vuelo Laguna",
 			it: "Volo Lagunare",
-			pt: "Sobrevoar a Laguna"
+			pt: "Sobrevoar a Laguna",
+			de: "Lagunenflug"
 		},
 
 		damage: 60

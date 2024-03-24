@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Galopa",
 		es: "Rapidash",
 		it: "Rapidash",
-		pt: "Rapidash"
+		pt: "Rapidash",
+		de: "Gallopa"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Fournaise",
 			es: "Combustión",
 			it: "Fuoco Continuo",
-			pt: "Combustão"
+			pt: "Combustão",
+			de: "Glühen"
 		},
 
 		damage: 20
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Torrent d'Enfer",
 			es: "Infierno Desatado",
 			it: "Assalto Infernale",
-			pt: "Investida Infernal"
+			pt: "Investida Infernal",
+			de: "Inferno-Ansturm"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 120

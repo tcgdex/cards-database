@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Spiritomb",
 		es: "Spiritomb",
 		it: "Spiritomb",
-		pt: "Spiritomb"
+		pt: "Spiritomb",
+		de: "Kryppuk"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Entrave de la Malchance",
 			es: "Atadura del Infortunio",
 			it: "Catene Sventurate",
-			pt: "Unidos por Azar"
+			pt: "Unidos por Azar",
+			de: "Fesseln des Unglücks"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Les Pokémon-V de base en jeu (les vôtres et ceux de votre adversaire) n'ont pas de talent.",
 			es: "Los Pokémon V Básicos en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
 			it: "I Pokémon-V Base in gioco, sia tuoi che del tuo avversario, non hanno abilità.",
-			pt: "Pokémon V Básicos em jogo (seus e do seu oponente) não têm Habilidades."
+			pt: "Pokémon V Básicos em jogo (seus e do seu oponente) não têm Habilidades.",
+			de: "Basis-Pokémon-V im Spiel (deine und die deines Gegners) haben keine Fähigkeiten."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Faiblir",
 			es: "Difuminar",
 			it: "Dissolvenza",
-			pt: "Desaparecer"
+			pt: "Desaparecer",
+			de: "Ausblenden"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Ajoutez à votre main ce Pokémon et toutes les cartes qui lui sont attachées.",
 			es: "Pon este Pokémon y todas las cartas unidas a él en tu mano.",
 			it: "Riprendi in mano questo Pokémon e tutte le carte a esso assegnate.",
-			pt: "Coloque este Pokémon e todas as cartas ligadas a ele na sua mão."
+			pt: "Coloque este Pokémon e todas as cartas ligadas a ele na sua mão.",
+			de: "Nimm dieses Pokémon und alle angelegten Karten auf deine Hand."
 		},
 
 		damage: 10

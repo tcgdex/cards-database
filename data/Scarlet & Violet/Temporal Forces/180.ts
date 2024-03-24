@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Excelangue",
 		es: "Lickitung",
 		it: "Lickitung",
-		pt: "Lickitung"
+		pt: "Lickitung",
+		de: "Schlurp"
 	},
 
 	rarity: "Illustration rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Langue Tireuse",
 			es: "Tiro de Lengua",
 			it: "Tiralingua",
-			pt: "Puxão de Língua"
+			pt: "Puxão de Língua",
+			de: "Ziehende Zunge"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Votre adversaire montre sa main. Placez jusqu'à 2 Pokémon de base que vous y trouvez sur le Banc de votre adversaire.",
 			es: "Tu rival enseña las cartas de su mano. Pon hasta 2 Pokémon Básicos que encuentres entre ellas en la Banca de tu rival.",
 			it: "Il tuo avversario mostra le carte che ha in mano. Prendi fino a due Pokémon Base presenti tra esse e mettili nella sua panchina.",
-			pt: "Seu oponente revela a mão dele. Coloque até 2 Pokémon Básicos que encontrar lá no Banco do seu oponente."
+			pt: "Seu oponente revela a mão dele. Coloque até 2 Pokémon Básicos que encontrar lá no Banco do seu oponente.",
+			de: "Dein Gegner zeigt dir seine Handkarten. Lege bis zu 2 Basis-Pokémon, die du dort findest, auf die Bank deines Gegners."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Force",
 			es: "Fuerza",
 			it: "Forza",
-			pt: "Força"
+			pt: "Força",
+			de: "Stärke"
 		},
 
 		damage: 50

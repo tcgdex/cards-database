@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Fantominus",
 		es: "Gastly",
 		it: "Gastly",
-		pt: "Gastly"
+		pt: "Gastly",
+		de: "Nebulak"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Allure",
 			es: "Atractivo",
 			it: "Affascinante",
-			pt: "Fascinar"
+			pt: "Fascinar",
+			de: "Verlockung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Piochez une carte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			pt: "Compre uma carta."
+			pt: "Compre uma carta.",
+			de: "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Darkness", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Feu Follet",
 			es: "Fuego Fatuo",
 			it: "Fuocofatuo",
-			pt: "Fogo Fátuo"
+			pt: "Fogo Fátuo",
+			de: "Irrlicht"
 		},
 
 		damage: 20

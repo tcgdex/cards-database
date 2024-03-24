@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Loupio",
 		es: "Chinchou",
 		it: "Chinchou",
-		pt: "Chinchou"
+		pt: "Chinchou",
+		de: "Lampi"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Brillance",
 			es: "Brilla que te Brilla",
 			it: "Fotòforo",
-			pt: "Iluminar"
+			pt: "Iluminar",
+			de: "Ans Licht bringen"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Regardez la carte du dessus de votre deck. Vous pouvez placer cette carte en dessous de votre deck.",
 			es: "Mira la primera carta de tu baraja. Puedes poner esa carta en la parte inferior de tu baraja.",
 			it: "Guarda la prima carta del tuo mazzo. Puoi mettere quella carta in fondo al tuo mazzo.",
-			pt: "Olhe a carta de cima do seu baralho. Você pode colocar aquela carta como a carta de baixo do seu baralho."
+			pt: "Olhe a carta de cima do seu baralho. Você pode colocar aquela carta como a carta de baixo do seu baralho.",
+			de: "Schau dir die oberste Karte deines Decks an. Du kannst jene Karte unter dein Deck legen."
 		}
 	}, {
 		cost: ["Lightning", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Décharge Mineure",
 			es: "Carga Diminuta",
 			it: "Sottocarica Minuscola",
-			pt: "Carga Pequenina"
+			pt: "Carga Pequenina",
+			de: "Mini-Stromstoß"
 		},
 
 		damage: 20

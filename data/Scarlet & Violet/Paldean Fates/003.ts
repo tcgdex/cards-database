@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Maracachi",
 		es: "Maractus",
 		it: "Maractus",
-		pt: "Maractus"
+		pt: "Maractus",
+		de: "Maracamba"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Double Pioche",
 			es: "Roba Doble",
 			it: "Pescata Doppia",
-			pt: "Compra Dupla"
+			pt: "Compra Dupla",
+			de: "Zweifachzug"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Piochez 2 cartes.",
 			es: "Roba 2 cartas.",
 			it: "Pesca due carte.",
-			pt: "Compre 2 cartas."
+			pt: "Compre 2 cartas.",
+			de: "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Dard-Nuée",
 			es: "Pin Misil",
 			it: "Missilspillo",
-			pt: "Míssil de Espinhos"
+			pt: "Míssil de Espinhos",
+			de: "Nadelrakete"
 		},
 
 		effect: {
@@ -52,7 +56,8 @@ const card: Card = {
 			fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
 			es: "Lanza 4 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 			it: "Lancia quattro volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue 4 moedas. Este ataque causa 30 pontos de dano para cada cara."
+			pt: "Jogue 4 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+			de: "Wirf 4 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"

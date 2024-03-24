@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Scalpereur",
 		es: "Kingambit",
 		it: "Kingambit",
-		pt: "Kingambit"
+		pt: "Kingambit",
+		de: "Gladimperio"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Leadership",
 			es: "Liderato",
 			it: "Leadership",
-			pt: "Liderança"
+			pt: "Liderança",
+			de: "Leadership"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Les attaques de vos Pokémon de base infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 			es: "Los ataques de tus Pokémon Básicos hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 			it: "Gli attacchi dei tuoi Pokémon Base infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
-			pt: "Os ataques dos seus Pokémon Básicos causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência)."
+			pt: "Os ataques dos seus Pokémon Básicos causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
+			de: "Die Attacken deiner Basis-Pokémon fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Entaillage",
 			es: "Machetear",
 			it: "Recisione",
-			pt: "Picotada"
+			pt: "Picotada",
+			de: "Zerhacken"
 		},
 
 		damage: 160

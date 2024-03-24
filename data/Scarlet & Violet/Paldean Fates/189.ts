@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Gribouraigne",
 		es: "Shroodle",
 		it: "Shroodle",
-		pt: "Shroodle"
+		pt: "Shroodle",
+		de: "Sproxi"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Recherche de Baies",
 			es: "Buscabayas",
 			it: "Cercabacche",
-			pt: "Busca de Fruta"
+			pt: "Busca de Fruta",
+			de: "Beerensuche"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Ajoutez une carte Énergie de base de votre pile de défausse à votre main.",
 			es: "Pon 1 carta de Energía Básica de tu pila de descartes en tu mano.",
 			it: "Prendi una carta Energia base dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
-			pt: "Coloque uma carta de Energia Básica da sua pilha de descarte na sua mão."
+			pt: "Coloque uma carta de Energia Básica da sua pilha de descarte na sua mão.",
+			de: "Nimm 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Darkness"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Griffe",
 			es: "Arañazo",
 			it: "Graffio",
-			pt: "Arranhão"
+			pt: "Arranhão",
+			de: "Kratzer"
 		},
 
 		damage: 10

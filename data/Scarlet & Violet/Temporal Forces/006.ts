@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Balignon",
 		es: "Shroomish",
 		it: "Shroomish",
-		pt: "Shroomish"
+		pt: "Shroomish",
+		de: "Knilz"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Double Coup d'Boule",
 			es: "Doble Cabezazo",
 			it: "Doppia Bottintesta",
-			pt: "Cabeçada Dupla"
+			pt: "Cabeçada Dupla",
+			de: "Doppelte Kopfnuss"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
 			es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 			it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara."
+			pt: "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			de: "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Canon Graine",
 			es: "Bomba Germen",
 			it: "Semebomba",
-			pt: "Bomba de Sementes"
+			pt: "Bomba de Sementes",
+			de: "Samenbomben"
 		},
 
 		damage: 20

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Oyacata",
 		es: "Dondozo",
 		it: "Dondozo",
-		pt: "Dondozo"
+		pt: "Dondozo",
+		de: "Heerashai"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Colère Libérée",
 			es: "Furia Desatada",
 			it: "Scatenafuria",
-			pt: "Irradiar Ira"
+			pt: "Irradiar Ira",
+			de: "Wut ablassen"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 50 dégâts pour chaque Nigirigon dans votre pile de défausse.",
 			es: "Este ataque hace 50 puntos de daño por cada Tatsugiri en tu pila de descartes.",
 			it: "Questo attacco infligge 50 danni per ogni Tatsugiri nella tua pila degli scarti.",
-			pt: "Este ataque causa 50 pontos de dano para cada Tatsugiri na sua pilha de descarte."
+			pt: "Este ataque causa 50 pontos de dano para cada Tatsugiri na sua pilha de descarte.",
+			de: "Diese Attacke fügt für jedes Nigiragi in deinem Ablagestapel 50 Schadenspunkte zu."
 		},
 
 		damage: "50×"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Éclaboussure Massive",
 			es: "Salpicadura Formidable",
 			it: "Grande Splash",
-			pt: "Borrifada Pesada"
+			pt: "Borrifada Pesada",
+			de: "Heftiger Platscher"
 		},
 
 		damage: 120

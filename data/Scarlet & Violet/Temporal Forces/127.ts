@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Noarfang",
 		es: "Noctowl",
 		it: "Noctowl",
-		pt: "Noctowl"
+		pt: "Noctowl",
+		de: "Noctuh"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Serres Chasseuses",
 			es: "Garra Cazadora",
 			it: "Artiglio Cacciatore",
-			pt: "Grifas de Caça"
+			pt: "Grifas de Caça",
+			de: "Klauenjagd"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
 			es: "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Você pode procurar por até 2 cartas no seu baralho e colocá-las na sua mão. Em seguida, embaralhe o seu baralho."
+			pt: "Você pode procurar por até 2 cartas no seu baralho e colocá-las na sua mão. Em seguida, embaralhe o seu baralho.",
+			de: "Du kannst dein Deck nach bis zu 2 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
 		},
 
 		damage: 70

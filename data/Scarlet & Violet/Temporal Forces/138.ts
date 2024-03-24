@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Draïeul",
 		es: "Drampa",
 		it: "Drampa",
-		pt: "Drampa"
+		pt: "Drampa",
+		de: "Sen-Long"
 	},
 
 	rarity: "Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Gifle Douce",
 			es: "Bofetada Gentil",
 			it: "Schiaffetto",
-			pt: "Tapinha"
+			pt: "Tapinha",
+			de: "Sanfter Hieb"
 		},
 
 		damage: 20
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Canon Déchaîné",
 			es: "Cañón Iracundo",
 			it: "Cannone Furioso",
-			pt: "Canhão Furioso"
+			pt: "Canhão Furioso",
+			de: "Wutkanone"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Si tous vos Pokémon de Banc ont au moins un marqueur de dégâts, cette attaque inflige 120 dégâts supplémentaires.",
 			es: "Si todos tus Pokémon en Banca tienen por lo menos un contador de daño sobre ellos, este ataque hace 120 puntos de daño más.",
 			it: "Se tutti i tuoi Pokémon in panchina hanno almeno un segnalino danno, questo attacco infligge 120 danni in più.",
-			pt: "Se todos os seus Pokémon no Banco tiverem pelo menos 1 contador de dano neles, este ataque causará 120 pontos de dano a mais."
+			pt: "Se todos os seus Pokémon no Banco tiverem pelo menos 1 contador de dano neles, este ataque causará 120 pontos de dano a mais.",
+			de: "Wenn auf allen Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+"

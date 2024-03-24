@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Bérasca",
 		es: "Rabsca",
 		it: "Rabsca",
-		pt: "Rabsca"
+		pt: "Rabsca",
+		de: "Skarabaks"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Bouclier Sphérique",
 			es: "Escudo Esférico",
 			it: "Scudo Sferico",
-			pt: "Escudo Esférico"
+			pt: "Escudo Esférico",
+			de: "Kugelförmiger Schild"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Évitez tous les dégâts et les effets d'attaques infligés à vos Pokémon de Banc par les Pokémon de votre adversaire.",
 			es: "Se evitan todo el daño y todos los efectos de los ataques de los Pokémon de tu rival infligidos a tus Pokémon en Banca.",
 			it: "Previeni sia i danni che gli effetti degli attacchi dei Pokémon del tuo avversario inflitti ai tuoi Pokémon in panchina.",
-			pt: "Previna todo o dano e os efeitos de ataques dos Pokémon do seu oponente causados aos seus Pokémon no Banco."
+			pt: "Previna todo o dano e os efeitos de ataques dos Pokémon do seu oponente causados aos seus Pokémon no Banco.",
+			de: "Verhindere allen Schaden durch und alle Effekte von Attacken von Pokémon deines Gegners, die den Pokémon auf deiner Bank zugefügt werden."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Psyko",
 			es: "Psíquico",
 			it: "Psichico",
-			pt: "Psíquico"
+			pt: "Psíquico",
+			de: "Psychokinese"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 			es: "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente."
+			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"

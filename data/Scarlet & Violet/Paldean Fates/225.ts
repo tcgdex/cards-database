@@ -8,7 +8,8 @@ const card: Card = {
 		en: "Palafin",
 		fr: "Superdofin",
 		es: "Palafin",
-		it: "Palafin"
+		it: "Palafin",
+		de: "Delfinator"
 	},
 
 	rarity: "Illustration rare",
@@ -24,14 +25,16 @@ const card: Card = {
 			en: "Jet Punch",
 			fr: "Poing Sonique",
 			es: "Puño Jet",
-			it: "Pugnojet"
+			it: "Pugnojet",
+			de: "Düsenhieb"
 		},
 
 		effect: {
 			en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			es: "Este ataque también hace 30 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			it: "Questo attacco infligge anche 30 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina."
+			it: "Questo attacco infligge anche 30 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
 		damage: 30
@@ -42,14 +45,16 @@ const card: Card = {
 			en: "Justice Kick",
 			fr: "Coup Juste",
 			es: "Patada Justiciera",
-			it: "Calcio Eroico"
+			it: "Calcio Eroico",
+			de: "Gerechtigkeitskick"
 		},
 
 		effect: {
 			en: "If this Pokémon didn't move from the Bench to the Active Spot this turn, this attack does nothing.",
 			fr: "Si ce Pokémon n'a pas été déplacé du Banc vers le Poste Actif pendant ce tour, cette attaque ne fait rien.",
 			es: "Si este Pokémon no se ha movido de la Banca al Puesto Activo en este turno, este ataque no hace nada.",
-			it: "Se questo Pokémon non si è spostato dalla panchina in posizione attiva nel turno in corso, questo attacco non ha effetto."
+			it: "Se questo Pokémon non si è spostato dalla panchina in posizione attiva nel turno in corso, questo attacco non ha effetto.",
+			de: "Wenn dieses Pokémon während dieses Zuges nicht von deiner Bank in die Aktive Position gewechselt ist, hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 210

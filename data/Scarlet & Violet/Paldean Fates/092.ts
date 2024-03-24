@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Mystherbe",
 		es: "Oddish",
 		it: "Oddish",
-		pt: "Oddish"
+		pt: "Oddish",
+		de: "Myrapla"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Tranch'Herbe",
 			es: "Hoja Afilada",
 			it: "Foglielama",
-			pt: "Folha Navalha"
+			pt: "Folha Navalha",
+			de: "Rasierblatt"
 		},
 
 		damage: 20

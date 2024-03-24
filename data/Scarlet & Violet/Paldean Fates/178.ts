@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Gigansel",
 		es: "Garganacl",
 		it: "Garganacl",
-		pt: "Garganacl"
+		pt: "Garganacl",
+		de: "Saltigant"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Sel Bienfaisant",
 			es: "Sal Bendita",
 			it: "Sale Gradito",
-			pt: "Sal Abençoado"
+			pt: "Sal Abençoado",
+			de: "Gesegnetes Salz"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Pendant le Contrôle Pokémon, soignez 20 dégâts de chacun de vos Pokémon.",
 			es: "Durante el Chequeo Pokémon, cura 20 puntos de daño a cada uno de tus Pokémon.",
 			it: "Durante il controllo Pokémon, cura ciascuno dei tuoi Pokémon da 20 danni.",
-			pt: "Durante o Checape Pokémon, cure 20 pontos de dano de cada um dos seus Pokémon."
+			pt: "Durante o Checape Pokémon, cure 20 pontos de dano de cada um dos seus Pokémon.",
+			de: "Heile beim Pokémon-Check 20 Schadenspunkte bei jedem deiner Pokémon."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Marteau Frappeur",
 			es: "Martillo Impacto",
 			it: "Martello Battente",
-			pt: "Martelo Detonador"
+			pt: "Martelo Detonador",
+			de: "Klopfender Hammer"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
 			es: "Descarta la primera carta de la baraja de tu rival.",
 			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a carta de cima do baralho do seu oponente."
+			pt: "Descarte a carta de cima do baralho do seu oponente.",
+			de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 130

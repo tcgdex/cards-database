@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Scovilain",
 		es: "Scovillain",
 		it: "Scovillain",
-		pt: "Scovillain"
+		pt: "Scovillain",
+		de: "Halupenjo"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Type Double",
 			es: "Doble Tipo",
 			it: "Doppio Tipo",
-			pt: "Tipo Duplo"
+			pt: "Tipo Duplo",
+			de: "Doppeltyp"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Tant que ce Pokémon est en jeu, il est de type Grass et Fire.",
 			es: "Mientras este Pokémon esté en juego, es de tipo Grass y Fire.",
 			it: "Fintanto che questo Pokémon è in gioco, è di tipo Grass e Fire.",
-			pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo Grass e Fire."
+			pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo Grass e Fire.",
+			de: "Solange dieses Pokémon im Spiel ist, ist es vom Typ Grass und Fire."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Coup d'Boule Pimenté",
 			es: "Cabezazo Picante",
 			it: "Testata Piccante",
-			pt: "Cabeçada Ardida"
+			pt: "Cabeçada Ardida",
+			de: "Scharfe Kopfnuss"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			es: "El daño de este ataque no se ve afectado por Resistencia.",
 			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			pt: "O dano deste ataque não é afetado por Resistência."
+			pt: "O dano deste ataque não é afetado por Resistência.",
+			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 		},
 
 		damage: 110

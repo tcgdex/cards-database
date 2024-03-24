@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Minotaupe",
 		es: "Excadrill",
 		it: "Excadrill",
-		pt: "Excadrill"
+		pt: "Excadrill",
+		de: "Stalobor"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Tir de Boue",
 			es: "Disparo Lodo",
 			it: "Colpodifango",
-			pt: "Tiro de Lama"
+			pt: "Tiro de Lama",
+			de: "Lehmschuss"
 		},
 
 		damage: 20
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Tacle Brutal",
 			es: "Placaje Salvaje",
 			it: "Azionferoce",
-			pt: "Investida Feroz"
+			pt: "Investida Feroz",
+			de: "Wilder Tackle"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
 			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
-			pt: "Este Pokémon também causa 50 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 50 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
 		},
 
 		damage: 180

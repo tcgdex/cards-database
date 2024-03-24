@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Virovent",
 		es: "Bramblin",
 		it: "Bramblin",
-		pt: "Bramblin"
+		pt: "Bramblin",
+		de: "Weherba"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Pic Piquant",
 			es: "Picotazo Púas",
 			it: "Aculeopuntura",
-			pt: "Ferroada de Espinhos"
+			pt: "Ferroada de Espinhos",
+			de: "Stachelstich"
 		},
 
 		damage: 30

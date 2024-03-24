@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Pohmarmotte",
 		es: "Pawmot",
 		it: "Pawmot",
-		pt: "Pawmot"
+		pt: "Pawmot",
+		de: "Pamomamo"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Électrogenèse",
 			es: "Electrorigen",
 			it: "Elettroproduzione",
-			pt: "Gênese Elétrica"
+			pt: "Gênese Elétrica",
+			de: "Elektrogenese"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Énergie Lightning de base, puis l'attacher à ce Pokémon. Mélangez ensuite votre deck.",
 			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía Lightning Básica y unirla a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia base Lightning e assegnarla a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Energia Lightning Básica no seu baralho e ligá-la a este Pokémon. Em seguida, embaralhe o seu baralho."
+			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Energia Lightning Básica no seu baralho e ligá-la a este Pokémon. Em seguida, embaralhe o seu baralho.",
+			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Basis-Lightning-Energiekarte durchsuchen und sie an dieses Pokémon anlegen. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Électro Pattes",
 			es: "Electropatas",
 			it: "Elettrozampe",
-			pt: "Patas Elétricas"
+			pt: "Patas Elétricas",
+			de: "Elektropfoten"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Défaussez toutes les Énergies de ce Pokémon.",
 			es: "Descarta todas las Energías de este Pokémon.",
 			it: "Scarta tutte le Energie da questo Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon."
+			pt: "Descarte todas as Energias deste Pokémon.",
+			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 230

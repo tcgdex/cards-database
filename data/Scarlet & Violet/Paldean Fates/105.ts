@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Terracool",
 		es: "Toedscool",
 		it: "Toedscool",
-		pt: "Toedscool"
+		pt: "Toedscool",
+		de: "Tentagra"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Coups de Pied Rageurs",
 			es: "Patadas Furiosas",
 			it: "Calci Furiosi",
-			pt: "Chutes de Fúria"
+			pt: "Chutes de Fúria",
+			de: "Zorntritte"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
 			es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 			it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara."
+			pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"

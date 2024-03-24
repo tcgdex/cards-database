@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Épine-de-Fer",
 		es: "Ferropúas",
 		it: "Spineferree",
-		pt: "Espinhos Férreos"
+		pt: "Espinhos Férreos",
+		de: "Eisendorn"
 	},
 
 	rarity: "Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Destructo-Pression",
 			es: "Empuje Destructor",
 			it: "Pressa Distruttrice",
-			pt: "Aperto Destrutivo"
+			pt: "Aperto Destrutivo",
+			de: "Zerstörungsdruck"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Montrez les 5 cartes du dessus de votre deck. Cette attaque inflige 70 dégâts pour chaque carte Temps futur que vous y trouvez. Défaussez ensuite ces cartes Temps futur et mélangez les autres cartes avec votre deck.",
 			es: "Enseña las 5 primeras cartas de tu baraja. Este ataque hace 70 puntos de daño por cada carta del futuro que encuentres entre ellas. Después, descarta esas cartas del futuro, pon el resto de las cartas de nuevo en tu baraja y barájalas todas.",
 			it: "Mostra le prime cinque carte del tuo mazzo. Questo attacco infligge 70 danni per ogni carta Tempo Futuro presente tra quelle carte. Poi scarta quelle carte Tempo Futuro e rimischia le altre carte nel tuo mazzo.",
-			pt: "Revele as 5 cartas de cima do seu baralho. Este ataque causa 70 pontos de dano para cada carta Futurista que encontrar lá. Em seguida, descarte aquelas cartas Futuristas e embaralhe as outras cartas de volta no seu baralho."
+			pt: "Revele as 5 cartas de cima do seu baralho. Este ataque causa 70 pontos de dano para cada carta Futurista que encontrar lá. Em seguida, descarte aquelas cartas Futuristas e embaralhe as outras cartas de volta no seu baralho.",
+			de: "Zeige deinem Gegner die obersten 5 Karten deines Decks. Diese Attacke fügt für jede Zukunftskarte, die du dort findest, 70 Schadenspunkte zu. Lege anschließend jene Zukunftskarten auf deinen Ablagestapel und mische die anderen Karten zurück in dein Deck."
 		},
 
 		damage: "70×"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Lasso Titanesque",
 			es: "Lazo Megatón",
 			it: "Lazo Megatonico",
-			pt: "Lariat Megaton"
+			pt: "Lariat Megaton",
+			de: "Megatonnenlasso"
 		},
 
 		damage: 140

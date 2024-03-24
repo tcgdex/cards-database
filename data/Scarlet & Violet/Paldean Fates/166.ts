@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Forgella",
 		es: "Tinkatuff",
 		it: "Tinkatuff",
-		pt: "Tinkatuff"
+		pt: "Tinkatuff",
+		de: "Tafforgita"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Câlinerie",
 			es: "Carantoña",
 			it: "Carineria",
-			pt: "Jogo Duro"
+			pt: "Jogo Duro",
+			de: "Knuddler"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais."
+			pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Pression Pulvérisante",
 			es: "Presión Pulverizadora",
 			it: "Pressa Polverizzante",
-			pt: "Aperto Pulverizador"
+			pt: "Aperto Pulverizador",
+			de: "Pulverisierende Presse"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
 			it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
-			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente."
+			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 		},
 
 		damage: 60

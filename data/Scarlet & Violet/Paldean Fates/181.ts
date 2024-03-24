@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Cornèbre",
 		es: "Murkrow",
 		it: "Murkrow",
-		pt: "Murkrow"
+		pt: "Murkrow",
+		de: "Kramurx"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Tournoyer",
 			es: "Giro y Vuelta",
 			it: "Girotondo",
-			pt: "Volta Giratória"
+			pt: "Volta Giratória",
+			de: "Absatzdreher"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
 			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
+			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 10
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Ailes Unies",
 			es: "Alas Unidas",
 			it: "Ali Unite",
-			pt: "União Alada"
+			pt: "União Alada",
+			de: "Vereinte Schwingen"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 20 dégâts pour chaque Pokémon dans votre pile de défausse ayant l'attaque Ailes Unies.",
 			es: "Este ataque hace 20 puntos de daño por cada Pokémon en tu pila de descartes que tenga el ataque Alas Unidas.",
 			it: "Questo attacco infligge 20 danni per ogni Pokémon nella tua pila degli scarti che ha l'attacco Ali Unite.",
-			pt: "Este ataque causa 20 pontos de dano para cada Pokémon na sua pilha de descarte que tiver o ataque União Alada."
+			pt: "Este ataque causa 20 pontos de dano para cada Pokémon na sua pilha de descarte que tiver o ataque União Alada.",
+			de: "Diese Attacke fügt für jedes Pokémon in deinem Ablagestapel, das die Attacke Vereinte Schwingen hat, 20 Schadenspunkte zu."
 		},
 
 		damage: "20×"

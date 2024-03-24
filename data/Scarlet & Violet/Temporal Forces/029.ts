@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Volcaropod",
 		es: "Magcargo",
 		it: "Magcargo",
-		pt: "Magcargo"
+		pt: "Magcargo",
+		de: "Magcargo"
 	},
 
 	rarity: "Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Zone de Lave",
 			es: "Zona de Lava",
 			it: "Area Lavica",
-			pt: "Zona de Lava"
+			pt: "Zona de Lava",
+			de: "Lavazone"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "À chaque fois que le Pokémon Actif de votre adversaire se déplace vers le Banc pendant son tour, son nouveau Pokémon Actif est maintenant Brûlé.",
 			es: "Cada vez que el Pokémon Activo de tu rival se mueva a la Banca durante su turno, su nuevo Pokémon Activo pasa a estar Quemado.",
 			it: "Ogni volta che il Pokémon attivo del tuo avversario si sposta in panchina durante il suo turno, il suo nuovo Pokémon attivo viene bruciato.",
-			pt: "Sempre que o Pokémon Ativo do seu oponente for movido para o Banco durante o turno dele, o novo Pokémon Ativo dele agora estará Queimado."
+			pt: "Sempre que o Pokémon Ativo do seu oponente for movido para o Banco durante o turno dele, o novo Pokémon Ativo dele agora estará Queimado.",
+			de: "Jedes Mal, wenn das Aktive Pokémon deines Gegners während seines Zuges auf die Bank wechselt, ist sein neues Aktives Pokémon jetzt verbrannt."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Explosion de Chaleur",
 			es: "Explosión de Calor",
 			it: "Caldobomba",
-			pt: "Raio de Calor"
+			pt: "Raio de Calor",
+			de: "Hitzestoß"
 		},
 
 		damage: 100

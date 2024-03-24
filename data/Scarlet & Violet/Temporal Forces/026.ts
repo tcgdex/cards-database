@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Ponyta",
 		es: "Ponyta",
 		it: "Ponyta",
-		pt: "Ponyta"
+		pt: "Ponyta",
+		de: "Ponita"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Recharge Énergétique",
 			es: "Cargar Energía",
 			it: "Caricaenergia",
-			pt: "Carga de Energia"
+			pt: "Carga de Energia",
+			de: "Energielader"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cherchez dans votre deck une carte Énergie de base, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja 1 carta de Energía Básica, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo una carta Energia base, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por uma carta de Energia Básica no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho."
+			pt: "Procure por uma carta de Energia Básica no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Fire", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Queue de Flammes",
 			es: "Cola de Fuego",
 			it: "Codafiamma",
-			pt: "Cauda de Chamas"
+			pt: "Cauda de Chamas",
+			de: "Flammenschweif"
 		},
 
 		damage: 20

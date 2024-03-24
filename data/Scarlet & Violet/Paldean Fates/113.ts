@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Plumeline",
 		es: "Oricorio",
 		it: "Oricorio",
-		pt: "Oricorio"
+		pt: "Oricorio",
+		de: "Choreogel"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Danse Embrasée",
 			es: "Danza Ardiente",
 			it: "Danza Ardente",
-			pt: "Dança Calorosa"
+			pt: "Dança Calorosa",
+			de: "Inbrünstiger Tanz"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de votre Pokémon Évolutif Actif.",
 			es: "Una vez durante tu turno, puedes curar 20 puntos de daño a tu Pokémon Evolución Activo.",
 			it: "Una sola volta durante il tuo turno, puoi curare il tuo Pokémon Evoluzione attivo da 20 danni.",
-			pt: "Uma vez durante o seu turno, você poderá curar 20 pontos de dano do seu Pokémon de Evolução Ativo."
+			pt: "Uma vez durante o seu turno, você poderá curar 20 pontos de dano do seu Pokémon de Evolução Ativo.",
+			de: "Einmal während deines Zuges kannst du 20 Schadenspunkte bei deinem Aktiven Entwicklungs-Pokémon heilen."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Battement",
 			es: "Aleteo",
 			it: "Alabattito",
-			pt: "Asa"
+			pt: "Asa",
+			de: "Flattern"
 		},
 
 		damage: 30

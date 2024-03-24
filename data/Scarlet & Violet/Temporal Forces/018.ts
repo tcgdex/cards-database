@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Larvibule",
 		es: "Grubbin",
 		it: "Grubbin",
-		pt: "Grubbin"
+		pt: "Grubbin",
+		de: "Mabula"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Nuée",
 			es: "Multitud",
 			it: "Frotta",
-			pt: "Bando"
+			pt: "Bando",
+			de: "Ausschwärmen"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cherchez dans votre deck jusqu'à 2 Larvibule, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja hasta 2 Grubbin y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due Grubbin e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 2 Grubbin no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho."
+			pt: "Procure por até 2 Grubbin no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach bis zu 2 Mabula und lege sie auf deine Bank. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Force Poigne",
 			es: "Agarre",
 			it: "Presa",
-			pt: "Agarramento Compressor"
+			pt: "Agarramento Compressor",
+			de: "Klammer"
 		},
 
 		damage: 10

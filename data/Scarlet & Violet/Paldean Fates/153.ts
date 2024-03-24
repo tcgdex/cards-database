@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Tarsal",
 		es: "Ralts",
 		it: "Ralts",
-		pt: "Ralts"
+		pt: "Ralts",
+		de: "Trasla"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Piqûre Psy",
 			es: "Disparo Psi",
 			it: "Psicosparo",
-			pt: "Tiro Psíquico"
+			pt: "Tiro Psíquico",
+			de: "Psychoschuss"
 		},
 
 		damage: 30

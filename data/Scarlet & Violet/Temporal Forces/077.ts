@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Hurle-Queue",
 		es: "Colagrito",
 		it: "Codaurlante",
-		pt: "Cauda Brado"
+		pt: "Cauda Brado",
+		de: "Brüllschweif"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Chant Encourageant",
 			es: "Canto de Auxilio",
 			it: "Canto Solidale",
-			pt: "Canto Encorajador"
+			pt: "Canto Encorajador",
+			de: "Unterstützender Gesang"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Soignez 100 dégâts de l'un de vos Pokémon Temps passé de Banc.",
 			es: "Cura 100 puntos de daño a uno de tus Pokémon del pasado en Banca.",
 			it: "Cura uno dei tuoi Pokémon Tempo Passato in panchina da 100 danni.",
-			pt: "Cure 100 pontos de dano de 1 dos seus Pokémon Ancestrais no Banco."
+			pt: "Cure 100 pontos de dano de 1 dos seus Pokémon Ancestrais no Banco.",
+			de: "Heile 100 Schadenspunkte bei 1 Pokémon aus der Vergangenheit auf deiner Bank."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Mégaphone",
 			es: "Vozarrón",
 			it: "Granvoce",
-			pt: "Hipervoz"
+			pt: "Hipervoz",
+			de: "Schallwelle"
 		},
 
 		damage: 40

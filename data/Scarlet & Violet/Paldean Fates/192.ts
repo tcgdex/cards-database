@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Vrombi",
 		es: "Varoom",
 		it: "Varoom",
-		pt: "Varoom"
+		pt: "Varoom",
+		de: "Knattox"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Coup d'Accélération",
 			es: "Acelerón",
 			it: "Su di Giri",
-			pt: "Pisar Fundo"
+			pt: "Pisar Fundo",
+			de: "Hochdrehen"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Ajoutez jusqu'à 2 cartes Énergie de base de votre pile de défausse à votre main.",
 			es: "Pon hasta 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
 			it: "Prendi fino a due carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-			pt: "Coloque até 2 cartas de Energia Básica da sua pilha de descarte na sua mão."
+			pt: "Coloque até 2 cartas de Energia Básica da sua pilha de descarte na sua mão.",
+			de: "Nimm bis zu 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Metal", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Coup d'Boule",
 			es: "Golpe Cabeza",
 			it: "Bottintesta",
-			pt: "Cabeçada"
+			pt: "Cabeçada",
+			de: "Kopfnuss"
 		},
 
 		damage: 20

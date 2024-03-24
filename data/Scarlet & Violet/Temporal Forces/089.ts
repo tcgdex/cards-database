@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Rocabot",
 		es: "Rockruff",
 		it: "Rockruff",
-		pt: "Rockruff"
+		pt: "Rockruff",
+		de: "Wuffels"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Coup de Patte",
 			es: "Sacudir y Dar la Patita",
 			it: "Pugno Qua la Zampa",
-			pt: "Dá Soquinho"
+			pt: "Dá Soquinho",
+			de: "Pfötchenhieb"
 		},
 
 		damage: 10
