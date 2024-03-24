@@ -18,6 +18,7 @@
 		"Special": "Speciale"
 	},
 	"rarity": {
+		"ACE SPEC Rare": "rara ASSO TATTICO",
 		"Amazing Rare": "Policrome",
 		"Classic Collection": "Collezione Classica",
 		"Common": "Comune",
@@ -40,6 +41,7 @@
 		"Shiny rare": "Shiny rare",
 		"Shiny rare V": "Shiny rare V",
 		"Shiny rare VMAX": "Shiny rare VMAX",
+		"Shiny Ultra Rare": "ultrarara cromatica",
 		"Special illustration rare": "Rara illustrazione speciale",
 		"Ultra Rare": "Ultrarara",
 		"Uncommon": "Non comune"

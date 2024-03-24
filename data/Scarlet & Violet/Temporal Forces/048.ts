@@ -1,0 +1,51 @@
+import { Card } from "../../../interfaces"
+import Set from "../Temporal Forces"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Finizen",
+		fr: "Dofin",
+		es: "Finizen",
+		it: "Finizen",
+		pt: "Finizen"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 80,
+	types: ["Water"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Water"],
+
+		name: {
+			en: "Rain Splash",
+			fr: "Pluie Éclaboussante",
+			es: "Golpe de Lluvia",
+			it: "Spruzzapioggia",
+			pt: "Chuva Borrifante"
+		},
+
+		damage: 10
+	}, {
+		cost: ["Water", "Colorless", "Colorless"],
+
+		name: {
+			en: "Sharp Fin",
+			fr: "Aileron Aiguisé",
+			es: "Cortaleta",
+			it: "Pinnaffilata",
+			pt: "Barbatana Afiada"
+		},
+
+		damage: 50
+	}],
+
+	retreat: 2,
+	regulationMark: "H"
+}
+
+export default card

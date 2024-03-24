@@ -1,0 +1,65 @@
+import { Card } from "../../../interfaces"
+import Set from "../Paldean Fates"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Grafaiai",
+		fr: "Tag-Tag",
+		es: "Grafaiai",
+		it: "Grafaiai",
+		pt: "Grafaiai"
+	},
+
+	rarity: "Shiny rare",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Darkness"],
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Darkness"],
+
+		name: {
+			en: "Spit Poison",
+			fr: "Crache-Venin",
+			es: "Escupir Veneno",
+			it: "Sputaveleno",
+			pt: "Cuspe Venenoso"
+		},
+
+		effect: {
+			en: "Your opponent's Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado."
+		}
+	}, {
+		cost: ["Darkness"],
+
+		name: {
+			en: "Colorful Graffiti",
+			fr: "Graffiti Coloré",
+			es: "Grafiti Colorido",
+			it: "Graffiti Colorati",
+			pt: "Grafite Colorido"
+		},
+
+		effect: {
+			en: "You may discard as many Basic Energy cards as you like from your hand. This attack does 40 damage for each type of Basic Energy you discarded in this way.",
+			fr: "Vous pouvez défausser le nombre voulu de cartes Énergie de base de votre main. Cette attaque inflige 40 dégâts pour chaque type d'Énergie de base défaussée de cette façon.",
+			es: "Puedes descartar tantas cartas de Energía Básica de tu mano como quieras. Este ataque hace 40 puntos de daño por cada tipo de Energía Básica que hayas descartado de esta manera.",
+			it: "Puoi scartare tutte le carte Energia base che vuoi dalla tua mano. Questo attacco infligge 40 danni per ogni tipo di Energia base che hai scartato in questo modo.",
+			pt: "Você pode descartar quantas cartas de Energia Básica desejar da sua mão. Este ataque causa 40 pontos de dano para cada tipo de Energia Básica descartado desta forma."
+		},
+
+		damage: "40×"
+	}],
+
+	retreat: 1,
+	regulationMark: "G"
+}
+
+export default card

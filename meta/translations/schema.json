@@ -64,6 +64,9 @@
 		},
 		"rarity": {
 			"properties": {
+				"ACE SPEC Rare": {
+					"type": "string"
+				},
 				"Amazing Rare": {
 					"type": "string"
 				},
@@ -130,6 +133,9 @@
 				"Shiny Rare VMAX": {
 					"type": "string"
 				},
+				"Shiny Ultra Rare": {
+					"type": "string"
+				},
 				"Special illustration rare": {
 					"type": "string"
 				},
@@ -141,6 +147,7 @@
 				}
 			},
 			"required": [
+				"ACE SPEC Rare",
 				"Amazing Rare",
 				"Classic Collection",
 				"Common",
@@ -163,6 +170,7 @@
 				"Shiny rare",
 				"Shiny rare V",
 				"Shiny rare VMAX",
+				"Shiny Ultra Rare",
 				"Special illustration rare",
 				"Ultra Rare",
 				"Uncommon"

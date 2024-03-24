@@ -1,0 +1,67 @@
+import { Card } from "../../../interfaces"
+import Set from "../Paldean Fates"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Espathra ex",
+		fr: "Cléopsytra-ex",
+		es: "Espathra ex",
+		it: "Espathra-ex",
+		pt: "Espathra ex"
+	},
+
+	rarity: "Shiny Ultra Rare",
+	category: "Pokemon",
+	hp: 260,
+	types: ["Grass"],
+	stage: "Stage1",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			en: "Dazzling Gaze",
+			fr: "Regard Éblouissant",
+			es: "Mirada Deslumbrante",
+			it: "Sguardo Accecante",
+			pt: "Olhar Deslumbrante"
+		},
+
+		effect: {
+			en: "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon cost Colorless more.",
+			fr: "Tant que ce Pokémon est sur le Poste Actif, les attaques utilisées par le Pokémon Actif de votre adversaire coûtent Colorless de plus.",
+			es: "Mientras este Pokémon esté en el Puesto Activo, los ataques usados por el Pokémon Activo de tu rival cuestan Colorless más.",
+			it: "Fintanto che questo Pokémon è in posizione attiva, il costo degli attacchi usati dal Pokémon attivo del tuo avversario aumenta di Colorless.",
+			pt: "Enquanto este Pokémon estiver no Campo Ativo, os ataques usados pelo Pokémon Ativo do seu oponente custarão Colorless a mais."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Psychic"],
+
+		name: {
+			en: "Psy Ball",
+			fr: "Balle Psy",
+			es: "Bola Psi",
+			it: "Psicopalla",
+			pt: "Bola Psíquica"
+		},
+
+		effect: {
+			en: "This attack does 30 more damage for each Energy attached to both Active Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée aux deux Pokémon Actifs.",
+			es: "Este ataque hace 30 puntos de daño más por cada Energía unida a ambos Pokémon Activos.",
+			it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata a ciascuno dei Pokémon attivi.",
+			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada a ambos os Pokémon Ativos."
+		},
+
+		damage: "30+"
+	}],
+
+	retreat: 1,
+	regulationMark: "G"
+}
+
+export default card
