@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Magmar",
 		es: "Magmar",
 		it: "Magmar",
-		pt: "Magmar"
+		pt: "Magmar",
+		de: "Magmar"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Collecte",
 			es: "Coleccionar",
 			it: "Tassa",
-			pt: "Coleta"
+			pt: "Coleta",
+			de: "Sammeln"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Piochez une carte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			pt: "Compre uma carta."
+			pt: "Compre uma carta.",
+			de: "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Fire", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Crachage de Feu Régulier",
 			es: "Lanzallamas Continuo",
 			it: "Soffiofuoco Mirato",
-			pt: "Hálito de Fogo Constante"
+			pt: "Hálito de Fogo Constante",
+			de: "Stetiger Feuerhauch"
 		},
 
 		damage: 40

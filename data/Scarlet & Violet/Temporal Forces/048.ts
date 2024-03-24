@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Dofin",
 		es: "Finizen",
 		it: "Finizen",
-		pt: "Finizen"
+		pt: "Finizen",
+		de: "Normifin"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Pluie Éclaboussante",
 			es: "Golpe de Lluvia",
 			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante"
+			pt: "Chuva Borrifante",
+			de: "Regenplatscher"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Aileron Aiguisé",
 			es: "Cortaleta",
 			it: "Pinnaffilata",
-			pt: "Barbatana Afiada"
+			pt: "Barbatana Afiada",
+			de: "Schneidige Flosse"
 		},
 
 		damage: 50

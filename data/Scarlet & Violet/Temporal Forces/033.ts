@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Matoufeu",
 		es: "Torracat",
 		it: "Torracat",
-		pt: "Torracat"
+		pt: "Torracat",
+		de: "Miezunder"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Morsure",
 			es: "Mordisco",
 			it: "Morso",
-			pt: "Mordida"
+			pt: "Mordida",
+			de: "Biss"
 		},
 
 		damage: 30
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Attaque Flamboyante",
 			es: "Impacto Ígneo",
 			it: "Colpo Fiammante",
-			pt: "Golpe de Chamas"
+			pt: "Golpe de Chamas",
+			de: "Feuergeschoss"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Attaque Flamboyante.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Impacto Ígneo.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Colpo Fiammante.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Golpe de Chamas."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Golpe de Chamas.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Feuergeschoss nicht einsetzen."
 		},
 
 		damage: 80

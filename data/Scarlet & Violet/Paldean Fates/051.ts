@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Poulpaf",
 		es: "Clobbopus",
 		it: "Clobbopus",
-		pt: "Clobbopus"
+		pt: "Clobbopus",
+		de: "Klopptopus"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Ruse",
 			es: "Amago",
 			it: "Fintoattacco",
-			pt: "Fintar"
+			pt: "Fintar",
+			de: "Offenlegung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			es: "El daño de este ataque no se ve afectado por Resistencia.",
 			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			pt: "O dano deste ataque não é afetado por Resistência."
+			pt: "O dano deste ataque não é afetado por Resistência.",
+			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 		},
 
 		damage: 20

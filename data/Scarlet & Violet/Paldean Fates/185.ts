@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Scalpion",
 		es: "Pawniard",
 		it: "Pawniard",
-		pt: "Pawniard"
+		pt: "Pawniard",
+		de: "Gladiantri"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Griffe",
 			es: "Arañazo",
 			it: "Graffio",
-			pt: "Arranhão"
+			pt: "Arranhão",
+			de: "Kratzer"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Transpercement",
 			es: "Perforar",
 			it: "Perforare",
-			pt: "Perfurar"
+			pt: "Perfurar",
+			de: "Durchbohren"
 		},
 
 		damage: 20

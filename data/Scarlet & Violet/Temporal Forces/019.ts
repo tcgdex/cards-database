@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Sinistrail",
 		es: "Dhelmise",
 		it: "Dhelmise",
-		pt: "Dhelmise"
+		pt: "Dhelmise",
+		de: "Moruda"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Attaque Tournante",
 			es: "Ataque Giratorio",
 			it: "Attacco Rotante",
-			pt: "Ataque Giratório"
+			pt: "Ataque Giratório",
+			de: "Rundumangriff"
 		},
 
 		damage: 30
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Ancre d'Acier",
 			es: "Ancla de Acero",
 			it: "Ancora d'Acciaio",
-			pt: "Âncora de Aço"
+			pt: "Âncora de Aço",
+			de: "Stahlanker"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Si vous avez au moins un Pokémon Metal sur votre Banc, cette attaque inflige 80 dégâts supplémentaires.",
 			es: "Si tienes algún Pokémon Metal en tu Banca, este ataque hace 80 puntos de daño más.",
 			it: "Se hai dei Pokémon Metal in panchina, questo attacco infligge 80 danni in più.",
-			pt: "Se você tiver algum Pokémon Metal no seu Banco, este ataque causará 80 pontos de dano a mais."
+			pt: "Se você tiver algum Pokémon Metal no seu Banco, este ataque causará 80 pontos de dano a mais.",
+			de: "Wenn du mindestens 1 Metal-Pokémon auf deiner Bank hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"

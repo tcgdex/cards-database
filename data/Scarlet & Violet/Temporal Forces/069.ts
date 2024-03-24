@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Archéodong",
 		es: "Bronzong",
 		it: "Bronzong",
-		pt: "Bronzong"
+		pt: "Bronzong",
+		de: "Bronzong"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Bloqueur d'Évolution",
 			es: "Interferente de Evolución",
 			it: "Evolviblocco",
-			pt: "Atolador de Evolução"
+			pt: "Atolador de Evolução",
+			de: "Entwicklungsstörer"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon.",
 			es: "Durante el próximo turno de tu rival, este no puede jugar ningún Pokémon de su mano para hacer evolucionar a sus Pokémon.",
 			it: "Durante il suo prossimo turno, il tuo avversario non può giocare i Pokémon che ha in mano per far evolvere i suoi Pokémon.",
-			pt: "Durante o próximo turno do seu oponente, ele não poderá jogar nenhum Pokémon da mão dele para evoluir os Pokémon dele."
+			pt: "Durante o próximo turno do seu oponente, ele não poderá jogar nenhum Pokémon da mão dele para evoluir os Pokémon dele.",
+			de: "Dein Gegner kann während seines nächsten Zuges keine Pokémon aus seiner Hand spielen, um seine Pokémon zu entwickeln."
 		},
 
 		damage: 30
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Super Psy",
 			es: "Superrayo Psi",
 			it: "Superpsico",
-			pt: "Super-raio Psíquico"
+			pt: "Super-raio Psíquico",
+			de: "Super-Psischlag"
 		},
 
 		damage: 100

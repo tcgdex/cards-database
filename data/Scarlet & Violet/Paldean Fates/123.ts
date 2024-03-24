@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Dofin",
 		es: "Finizen",
 		it: "Finizen",
-		pt: "Finizen"
+		pt: "Finizen",
+		de: "Normifin"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Évolution Vaillante",
 			es: "Evolución Valiente",
 			it: "Evoluzione Coraggiosa",
-			pt: "Evolução Destemida"
+			pt: "Evolução Destemida",
+			de: "Heldenhafte Entwicklung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc. Dans ce cas, cherchez dans votre deck une carte Évolution de ce Pokémon, puis placez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
 			es: "Cambia este Pokémon por uno de tus Pokémon en Banca. Si lo haces, busca en tu baraja 1 carta que evolucione de este Pokémon y ponla sobre este Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
 			it: "Scambia questo Pokémon con uno della tua panchina. Se lo fai, cerca nel tuo mazzo una carta che si evolve da questo Pokémon e metticela sopra per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco. Se fizer isto, procure por uma carta no seu baralho que evolua deste Pokémon e coloque-a sobre este Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho."
+			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco. Se fizer isto, procure por uma carta no seu baralho que evolua deste Pokémon e coloque-a sobre este Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho.",
+			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, durchsuche dein Deck nach 1 Karte, die sich aus diesem Pokémon entwickelt, und lege sie auf dieses Pokémon, um es zu entwickeln. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Water"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Aileron-Rasoir",
 			es: "Aleta Afilada",
 			it: "Pinnalama",
-			pt: "Barbatana Cortante"
+			pt: "Barbatana Cortante",
+			de: "Rasierflosse"
 		},
 
 		damage: 10

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Colombeau",
 		es: "Tranquill",
 		it: "Tranquill",
-		pt: "Tranquill"
+		pt: "Tranquill",
+		de: "Navitaub"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Plongée Rapide",
 			es: "Picado Rápido",
 			it: "Immersione Rapida",
-			pt: "Mergulho Veloz"
+			pt: "Mergulho Veloz",
+			de: "Tempohechtsprung"
 		},
 
 		damage: 20
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Aile Jet",
 			es: "Ala Propulsión",
 			it: "Ala Jet",
-			pt: "Asa a Jato"
+			pt: "Asa a Jato",
+			de: "Jet-Flügel"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 70

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Farfuret",
 		es: "Sneasel",
 		it: "Sneasel",
-		pt: "Sneasel"
+		pt: "Sneasel",
+		de: "Sniebel"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Creusogriffes",
 			es: "Hundir Garras",
 			it: "Scavazanne",
-			pt: "Fincar Garras"
+			pt: "Fincar Garras",
+			de: "Schaufelkrallen"
 		},
 
 		damage: 20

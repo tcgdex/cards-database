@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Marill",
 		es: "Marill",
 		it: "Marill",
-		pt: "Marill"
+		pt: "Marill",
+		de: "Marill"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Boulé-Roulade",
 			es: "Rodabola",
 			it: "Rotopalla",
-			pt: "Rolo Bola"
+			pt: "Rolo Bola",
+			de: "Ballrolle"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 10 dégâts pour chaque côté face.",
 			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 10 puntos de daño por cada cara.",
 			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 10 pontos de dano para cada cara."
+			pt: "Jogue uma moeda até sair coroa. Este ataque causa 10 pontos de dano para cada cara.",
+			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Coup Magique",
 			es: "Disparo Mágico",
 			it: "Magicolpo",
-			pt: "Tiro Mágico"
+			pt: "Tiro Mágico",
+			de: "Magischer Schuss"
 		},
 
 		damage: 40

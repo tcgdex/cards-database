@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Délestin",
 		es: "Veluza",
 		it: "Veluza",
-		pt: "Veluza"
+		pt: "Veluza",
+		de: "Agiluza"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Collision",
 			es: "Apisonar",
 			it: "Carica",
-			pt: "Aríete"
+			pt: "Aríete",
+			de: "Ramme"
 		},
 
 		damage: 20
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Vis Fine",
 			es: "Rosca Fina",
 			it: "Vite Snella",
-			pt: "Parafuso Esbelto"
+			pt: "Parafuso Esbelto",
+			de: "Schmale Schraube"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Si vous n'avez aucune carte dans votre main, cette attaque peut être utilisée pour Water.",
 			es: "Si no tienes ninguna carta en tu mano, este ataque se puede usar por Water.",
 			it: "Se non hai carte in mano, il costo di questo attacco è Water.",
-			pt: "Se você não tiver cartas na sua mão, este ataque poderá ser usado por Water."
+			pt: "Se você não tiver cartas na sua mão, este ataque poderá ser usado por Water.",
+			de: "Wenn du keine Karten auf deiner Hand hast, kann diese Attacke für Water eingesetzt werden."
 		},
 
 		damage: 120

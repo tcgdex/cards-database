@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Meltan",
 		es: "Meltan",
 		it: "Meltan",
-		pt: "Meltan"
+		pt: "Meltan",
+		de: "Meltan"
 	},
 
 	rarity: "Illustration rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Coup d'Boule",
 			es: "Golpe Cabeza",
 			it: "Bottintesta",
-			pt: "Cabeçada"
+			pt: "Cabeçada",
+			de: "Kopfnuss"
 		},
 
 		damage: 50

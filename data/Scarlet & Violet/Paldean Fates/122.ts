@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Triopikeau",
 		es: "Wugtrio",
 		it: "Wugtrio",
-		pt: "Wugtrio"
+		pt: "Wugtrio",
+		de: "Schligdri"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Coup d'Boule",
 			es: "Golpe Cabeza",
 			it: "Bottintesta",
-			pt: "Cabeçada"
+			pt: "Cabeçada",
+			de: "Kopfnuss"
 		},
 
 		damage: 30
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Tunnel Sous-Marin",
 			es: "Túnel Submarino",
 			it: "Tunnel Sommerso",
-			pt: "Túnel Subaquático"
+			pt: "Túnel Subaquático",
+			de: "Tiefseetunnel"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Lancez 3 pièces. Pour chaque côté face, défaussez les 3 cartes du dessus du deck de votre adversaire.",
 			es: "Lanza 3 monedas. Por cada cara, descarta las 3 primeras cartas de la baraja de tu rival.",
 			it: "Lancia tre volte una moneta. Ogni volta che esce testa, scarta le prime tre carte del mazzo del tuo avversario.",
-			pt: "Jogue 3 moedas. Para cada cara, descarte as 3 cartas de cima do baralho do seu oponente."
+			pt: "Jogue 3 moedas. Para cada cara, descarte as 3 cartas de cima do baralho do seu oponente.",
+			de: "Wirf 3 Münzen. Lege pro Kopf die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel."
 		}
 	}],
 

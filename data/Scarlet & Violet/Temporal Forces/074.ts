@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Neitram",
 		es: "Beheeyem",
 		it: "Beheeyem",
-		pt: "Beheeyem"
+		pt: "Beheeyem",
+		de: "Megalon"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Dérouillée Cosmique",
 			es: "Porrazo Cósmico",
 			it: "Cosmobatosta",
-			pt: "Abater Cósmico"
+			pt: "Abater Cósmico",
+			de: "Kosmischer Niederprügler"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon en jeu.",
 			es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en juego.",
 			it: "Questo attacco infligge 20 danni per ogni tuo Pokémon in gioco.",
-			pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon em jogo."
+			pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon em jogo.",
+			de: "Diese Attacke fügt für jedes deiner Pokémon im Spiel 20 Schadenspunkte zu."
 		},
 
 		damage: "20×"

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Feu-Perçant-ex",
 		es: "Flamariete ex",
 		it: "Vampeaguzze-ex",
-		pt: "Fogo Corrosão ex"
+		pt: "Fogo Corrosão ex",
+		de: "Keilflamme-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Explosion de Chaleur",
 			es: "Explosión de Calor",
 			it: "Caldobomba",
-			pt: "Raio de Calor"
+			pt: "Raio de Calor",
+			de: "Hitzestoß"
 		},
 
 		damage: 60
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Assaut Flamboyant",
 			es: "Envite Llameante",
 			it: "Carica Infuocata",
-			pt: "Avanço Incendiário"
+			pt: "Avanço Incendiário",
+			de: "Feuerblitz"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Ce Pokémon ne peut pas réutiliser Assaut Flamboyant tant qu'il ne quitte pas le Poste Actif.",
 			es: "Este Pokémon no puede usar Envite Llameante de nuevo hasta que deje el Puesto Activo.",
 			it: "Questo Pokémon non può più usare Carica Infuocata finché non lascia la posizione attiva.",
-			pt: "Este Pokémon não poderá usar Avanço Incendiário novamente até sair do Campo Ativo."
+			pt: "Este Pokémon não poderá usar Avanço Incendiário novamente até sair do Campo Ativo.",
+			de: "Dieses Pokémon kann Feuerblitz nicht wieder einsetzen, bis es die Aktive Position verlässt."
 		},
 
 		damage: 260

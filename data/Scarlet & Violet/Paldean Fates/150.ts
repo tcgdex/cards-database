@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Mélo",
 		es: "Cleffa",
 		it: "Cleffa",
-		pt: "Cleffa"
+		pt: "Cleffa",
+		de: "Pii"
 	},
 
 	rarity: "Shiny rare",
@@ -24,7 +25,8 @@ const card: Card = {
 			fr: "Pioche Happante",
 			es: "Robo Avaricioso",
 			it: "Pesca Smaniosa",
-			pt: "Compra Gananciosa"
+			pt: "Compra Gananciosa",
+			de: "Beherzt zugreifen"
 		},
 
 		effect: {
@@ -32,7 +34,8 @@ const card: Card = {
 			fr: "Piochez des cartes jusqu'à en avoir 7 en main.",
 			es: "Roba cartas hasta que tengas 7 cartas en tu mano.",
 			it: "Pesca fino ad avere sette carte in mano.",
-			pt: "Compre cartas até ter 7 cartas na sua mão."
+			pt: "Compre cartas até ter 7 cartas na sua mão.",
+			de: "Ziehe so lange Karten, bis du 7 Karten auf deiner Hand hast."
 		}
 	}],
 

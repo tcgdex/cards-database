@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Méditikka",
 		es: "Meditite",
 		it: "Meditite",
-		pt: "Meditite"
+		pt: "Meditite",
+		de: "Meditie"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Gifle",
 			es: "Bofetón",
 			it: "Sberla",
-			pt: "Tapa"
+			pt: "Tapa",
+			de: "Hieb"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Koud'Pied",
 			es: "Patada",
 			it: "Calcio",
-			pt: "Chute"
+			pt: "Chute",
+			de: "Tritt"
 		},
 
 		damage: 30

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Flagadoss",
 		es: "Slowbro",
 		it: "Slowbro",
-		pt: "Slowbro"
+		pt: "Slowbro",
+		de: "Lahmus"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Comportement Étrange",
 			es: "Comportamiento Extraño",
 			it: "Strano Comportamento",
-			pt: "Comportamento Estranho"
+			pt: "Comportamento Estranho",
+			de: "Seltsames Verhalten"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer un marqueur de dégâts de l'un de vos autres Pokémon vers ce Pokémon.",
 			es: "Todas las veces que quieras durante tu turno, puedes mover 1 contador de daño de uno de tus otros Pokémon a este Pokémon.",
 			it: "Durante il tuo turno, puoi spostare un segnalino danno da uno dei tuoi altri Pokémon a questo Pokémon tutte le volte che vuoi.",
-			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus outros Pokémon para este Pokémon."
+			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus outros Pokémon para este Pokémon.",
+			de: "Beliebig oft während deines Zuges kannst du 1 Schadensmarke von 1 deiner anderen Pokémon auf dieses Pokémon verschieben."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Vide Bulle",
 			es: "Drenaje Burbujas",
 			it: "Assorbibolla",
-			pt: "Dreno de Bolha"
+			pt: "Dreno de Bolha",
+			de: "Blasengully"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Soignez 30 dégâts de ce Pokémon.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon."
+			pt: "Cure 30 pontos de dano deste Pokémon.",
+			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 60

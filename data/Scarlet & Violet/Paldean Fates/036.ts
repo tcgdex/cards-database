@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Dedenne",
 		es: "Dedenne",
 		it: "Dedenne",
-		pt: "Dedenne"
+		pt: "Dedenne",
+		de: "Dedenne"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Rendez-Vous Mineur",
 			es: "Recado Menor",
 			it: "Lavoretto Rapido",
-			pt: "Pequena Missão"
+			pt: "Pequena Missão",
+			de: "Kleine Besorgung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja hasta 2 cartas de Energía Básica, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due carte Energia base, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 2 cartas de Energia Básica no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho."
+			pt: "Procure por até 2 cartas de Energia Básica no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Tournoyer",
 			es: "Giro y Vuelta",
 			it: "Girotondo",
-			pt: "Volta Giratória"
+			pt: "Volta Giratória",
+			de: "Absatzdreher"
 		},
 
 		effect: {
@@ -52,7 +56,8 @@ const card: Card = {
 			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
 			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
+			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 50

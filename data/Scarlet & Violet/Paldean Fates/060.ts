@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Baggiguane",
 		es: "Scraggy",
 		it: "Scraggy",
-		pt: "Scraggy"
+		pt: "Scraggy",
+		de: "Zurrokex"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Balayage",
 			es: "Patada Baja",
 			it: "Colpo Basso",
-			pt: "Rasteira"
+			pt: "Rasteira",
+			de: "Fußkick"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Coup de Tête",
 			es: "Testarada",
 			it: "Testata",
-			pt: "Golpe de Cabeça"
+			pt: "Golpe de Cabeça",
+			de: "Kopftreffer"
 		},
 
 		damage: 50

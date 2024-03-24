@@ -8,7 +8,8 @@ const card: Card = {
 		en: "Nemona",
 		fr: "Menzi",
 		es: "Mencía",
-		it: "Nemi"
+		it: "Nemi",
+		de: "Nemila"
 	},
 
 	rarity: "Ultra Rare",
@@ -18,7 +19,8 @@ const card: Card = {
 		en: "Draw 3 cards.",
 		fr: "Piochez 3 cartes.",
 		es: "Roba 3 cartas.",
-		it: "Pesca tre carte."
+		it: "Pesca tre carte.",
+		de: "Ziehe 3 Karten."
 	},
 
 	trainerType: "Supporter",

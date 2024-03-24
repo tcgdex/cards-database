@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Chrysapile",
 		es: "Charjabug",
 		it: "Charjabug",
-		pt: "Charjabug"
+		pt: "Charjabug",
+		de: "Akkup"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Choc Statique",
 			es: "Impacto Estático",
 			it: "Shock Statico",
-			pt: "Choque de Estática"
+			pt: "Choque de Estática",
+			de: "Statischer Schock"
 		},
 
 		damage: 60

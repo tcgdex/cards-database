@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Charbi",
 		es: "Rolycoly",
 		it: "Rolycoly",
-		pt: "Rolycoly"
+		pt: "Rolycoly",
+		de: "Klonkett"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Roulé-Boulé",
 			es: "Placaje Giro",
 			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante"
+			pt: "Golpe de Colisão Rolante",
+			de: "Rolltackle"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Rayon Gemme",
 			es: "Joya de Luz",
 			it: "Gemmoforza",
-			pt: "Gema Poderosa"
+			pt: "Gema Poderosa",
+			de: "Juwelenkraft"
 		},
 
 		damage: 30

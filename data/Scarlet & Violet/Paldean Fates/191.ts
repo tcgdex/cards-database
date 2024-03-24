@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Cizayox",
 		es: "Scizor",
 		it: "Scizor",
-		pt: "Scizor"
+		pt: "Scizor",
+		de: "Scherox"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Cisailles Punitives",
 			es: "Tijeras Castigadoras",
 			it: "Forbici Punitive",
-			pt: "Tesouras da Punição"
+			pt: "Tesouras da Punição",
+			de: "Strafende Scheren"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chacun des Pokémon en jeu de votre adversaire ayant un talent.",
 			es: "Este ataque hace 50 puntos de daño más por cada uno de los Pokémon en juego de tu rival que tenga una habilidad.",
 			it: "Questo attacco infligge 50 danni in più per ogni Pokémon in gioco del tuo avversario che ha un'abilità.",
-			pt: "Este ataque causa 50 pontos de dano a mais para cada Pokémon do seu oponente em jogo que tem uma Habilidade."
+			pt: "Este ataque causa 50 pontos de dano a mais para cada Pokémon do seu oponente em jogo que tem uma Habilidade.",
+			de: "Diese Attacke fügt für jedes Pokémon deines Gegners im Spiel, das eine Fähigkeit hat, 50 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Coupe",
 			es: "Corte",
 			it: "Taglio",
-			pt: "Cortar"
+			pt: "Cortar",
+			de: "Zerschneider"
 		},
 
 		damage: 70

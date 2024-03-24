@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Blizzi",
 		es: "Snover",
 		it: "Snover",
-		pt: "Snover"
+		pt: "Snover",
+		de: "Shnebedeck"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Poing Tire-Bouchon",
 			es: "Puño Tirabuzón",
 			it: "Pugno Rotante",
-			pt: "Soco Saca-rolha"
+			pt: "Soco Saca-rolha",
+			de: "Korkenzieherhieb"
 		},
 
 		damage: 30

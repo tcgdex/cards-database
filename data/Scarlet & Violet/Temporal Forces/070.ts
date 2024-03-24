@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Nucléos",
 		es: "Solosis",
 		it: "Solosis",
-		pt: "Solosis"
+		pt: "Solosis",
+		de: "Monozyto"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Attaque Surprise",
 			es: "Ataque Sorpresa",
 			it: "Attacco a Sorpresa",
-			pt: "Ataque Surpresa"
+			pt: "Ataque Surpresa",
+			de: "Überraschungsangriff"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
+			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 30

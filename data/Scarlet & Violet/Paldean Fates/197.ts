@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Roucoups",
 		es: "Pidgeotto",
 		it: "Pidgeotto",
-		pt: "Pidgeotto"
+		pt: "Pidgeotto",
+		de: "Tauboga"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Battement",
 			es: "Aleteo",
 			it: "Alabattito",
-			pt: "Asa"
+			pt: "Asa",
+			de: "Flattern"
 		},
 
 		damage: 20

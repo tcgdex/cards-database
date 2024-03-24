@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Olivado",
 		es: "Dolliv",
 		it: "Dolliv",
-		pt: "Dolliv"
+		pt: "Dolliv",
+		de: "Olivinio"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Gifle",
 			es: "Bofetón",
 			it: "Sberla",
-			pt: "Tapa"
+			pt: "Tapa",
+			de: "Hieb"
 		},
 
 		damage: 20
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Application Huileuse",
 			es: "Aplicar Aceite",
 			it: "Applicolio",
-			pt: "Colocar Azeite"
+			pt: "Colocar Azeite",
+			de: "Einölen"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d'attaquer, votre adversaire lance une pièce. Si c'est pile, l'attaque n'est pas lancée.",
 			es: "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta atacar, tu rival lanza 1 moneda. Si sale cruz, ese ataque no se lleva a cabo.",
 			it: "Durante il prossimo turno del tuo avversario, se il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha luogo.",
-			pt: "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar atacar, seu oponente jogará uma moeda. Se sair coroa, aquele ataque não acontecerá."
+			pt: "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar atacar, seu oponente jogará uma moeda. Se sair coroa, aquele ataque não acontecerá.",
+			de: "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht anzugreifen, wirft dein Gegner 1 Münze. Bei Zahl wird jene Attacke nicht ausgeführt."
 		},
 
 		damage: 40

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Riolu",
 		es: "Riolu",
 		it: "Riolu",
-		pt: "Riolu"
+		pt: "Riolu",
+		de: "Riolu"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Koud'Poing",
 			es: "Puño",
 			it: "Pugno",
-			pt: "Soco"
+			pt: "Soco",
+			de: "Boxhieb"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Attaque Imprudente",
 			es: "Carga Descuidada",
 			it: "Carica Avventata",
-			pt: "Carga Indomável"
+			pt: "Carga Indomável",
+			de: "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
 			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
 		},
 
 		damage: 50

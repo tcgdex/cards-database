@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Frigodo",
 		es: "Frigibax",
 		it: "Frigibax",
-		pt: "Frigibax"
+		pt: "Frigibax",
+		de: "Frospino"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Collecte",
 			es: "Coleccionar",
 			it: "Tassa",
-			pt: "Coleta"
+			pt: "Coleta",
+			de: "Sammeln"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Piochez une carte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			pt: "Compre uma carta."
+			pt: "Compre uma carta.",
+			de: "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Bataille",
 			es: "Toque",
 			it: "Battuta",
-			pt: "Pulso"
+			pt: "Pulso",
+			de: "Verprügler"
 		},
 
 		damage: 20

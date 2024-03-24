@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Vivaldaim",
 		es: "Deerling",
 		it: "Deerling",
-		pt: "Deerling"
+		pt: "Deerling",
+		de: "Sesokitz"
 	},
 
 	rarity: "Illustration rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Flop",
 			es: "Vuelta",
 			it: "Tonfo",
-			pt: "Baque"
+			pt: "Baque",
+			de: "Plumps"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Charge Amas de Feuilles",
 			es: "Placaje Hojarasca",
 			it: "Defogliazione",
-			pt: "Joga Folha no Lixo"
+			pt: "Joga Folha no Lixo",
+			de: "Laubstreu-Tackle"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Défaussez une Énergie Grass de ce Pokémon.",
 			es: "Descarta 1 Energía Grass de este Pokémon.",
 			it: "Scarta un'Energia Grass da questo Pokémon.",
-			pt: "Descarte uma Energia Grass deste Pokémon."
+			pt: "Descarte uma Energia Grass deste Pokémon.",
+			de: "Lege 1 Grass-Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 40

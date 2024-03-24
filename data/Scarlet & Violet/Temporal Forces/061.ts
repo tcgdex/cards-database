@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Paume-de-Fer",
 		es: "Ferropalmas",
 		it: "Manoferrea",
-		pt: "Mãos Férreas"
+		pt: "Mãos Férreas",
+		de: "Eisenhand"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Vague Survoltée",
 			es: "Onda Electrificante",
 			it: "Onda Volt",
-			pt: "Onda de Volts"
+			pt: "Onda de Volts",
+			de: "Voltwelle"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
+			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 30
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Mains Superalliage",
 			es: "Palmas de Superaleación",
 			it: "Mani Supermetalliche",
-			pt: "Mãos Supermetálicas"
+			pt: "Mãos Supermetálicas",
+			de: "Superlegierte Hände"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-ex ou un Pokémon-V, cette attaque inflige 80 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon ex o un Pokémon V, este ataque hace 80 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-ex o un Pokémon-V, questo attacco infligge 80 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex ou um Pokémon V, este ataque causará 80 pontos de dano a mais."
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex ou um Pokémon V, este ataque causará 80 pontos de dano a mais.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex oder Pokémon-V ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"

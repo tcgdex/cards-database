@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Sharpedo",
 		es: "Sharpedo",
 		it: "Sharpedo",
-		pt: "Sharpedo"
+		pt: "Sharpedo",
+		de: "Tohaido"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Dévoré Retiré",
 			es: "Desmenuzar",
 			it: "Staccamorso",
-			pt: "Mastigar e Cuspir"
+			pt: "Mastigar e Cuspir",
+			de: "Zerbeißen"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez 3 pièces. Pour chaque côté face, défaussez au hasard une carte de la main de votre adversaire.",
 			es: "Lanza 3 monedas. Por cada cara, descarta 1 carta aleatoria de la mano de tu rival.",
 			it: "Lancia tre volte una moneta. Ogni volta che esce testa, scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Jogue 3 moedas. Para cada cara, descarte uma carta aleatória da mão do seu oponente."
+			pt: "Jogue 3 moedas. Para cada cara, descarte uma carta aleatória da mão do seu oponente.",
+			de: "Wirf 3 Münzen. Lege pro Kopf 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 50
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Bélier Volant",
 			es: "Turbocabezazo",
 			it: "Zuccata Jet",
-			pt: "Cabeçada a Jato"
+			pt: "Cabeçada a Jato",
+			de: "Flinke Kopfnuss"
 		},
 
 		damage: 100

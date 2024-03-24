@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Ronflex",
 		es: "Snorlax",
 		it: "Snorlax",
-		pt: "Snorlax"
+		pt: "Snorlax",
+		de: "Relaxo"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Avidité",
 			es: "Glotonería",
 			it: "Ingordigia",
-			pt: "Esfomeado"
+			pt: "Esfomeado",
+			de: "Unersättlichkeit"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Une fois pendant votre tour, vous pouvez ajouter à votre main jusqu'à 2 cartes Restes de votre pile de défausse.",
 			es: "Una vez durante tu turno, puedes poner hasta 2 cartas de Restos de tu pila de descartes en tu mano.",
 			it: "Una sola volta durante il tuo turno, puoi prendere fino a due carte Avanzi dalla tua pila degli scarti e aggiungerle alle carte che hai in mano.",
-			pt: "Uma vez durante o seu turno, você poderá colocar até 2 cartas Sobras da sua pilha de descarte na sua mão."
+			pt: "Uma vez durante o seu turno, você poderá colocar até 2 cartas Sobras da sua pilha de descarte na sua mão.",
+			de: "Einmal während deines Zuges kannst du bis zu 2 Überreste-Karten aus deinem Ablagestapel auf deine Hand nehmen."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Pression Fracassante",
 			es: "Presión Sorda",
 			it: "Tonfopressa",
-			pt: "Compressão de Baque"
+			pt: "Compressão de Baque",
+			de: "Prallpresse"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 130

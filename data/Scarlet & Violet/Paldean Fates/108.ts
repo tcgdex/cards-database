@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Léboulérou",
 		es: "Rellor",
 		it: "Rellor",
-		pt: "Rellor"
+		pt: "Rellor",
+		de: "Relluk"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Boulé-Roulade",
 			es: "Rodabola",
 			it: "Rotopalla",
-			pt: "Rolo Bola"
+			pt: "Rolo Bola",
+			de: "Ballrolle"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face.",
 			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
 			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 30 pontos de dano para cada cara."
+			pt: "Jogue uma moeda até sair coroa. Este ataque causa 30 pontos de dano para cada cara.",
+			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"

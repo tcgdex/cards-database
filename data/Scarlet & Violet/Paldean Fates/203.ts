@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Goélise",
 		es: "Wingull",
 		it: "Wingull",
-		pt: "Wingull"
+		pt: "Wingull",
+		de: "Wingull"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Tornade",
 			es: "Tornado",
 			it: "Raffica",
-			pt: "Lufada de Vento"
+			pt: "Lufada de Vento",
+			de: "Windstoß"
 		},
 
 		damage: 30

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Pomdepik",
 		es: "Pineco",
 		it: "Pineco",
-		pt: "Pineco"
+		pt: "Pineco",
+		de: "Tannza"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Roulade",
 			es: "Rodar",
 			it: "Rotolamento",
-			pt: "Rolagem"
+			pt: "Rolagem",
+			de: "Walzer"
 		},
 
 		damage: 30

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Doduo",
 		es: "Doduo",
 		it: "Doduo",
-		pt: "Doduo"
+		pt: "Doduo",
+		de: "Dodu"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Attaque Imprudente",
 			es: "Carga Descuidada",
 			it: "Carica Avventata",
-			pt: "Carga Indomável"
+			pt: "Carga Indomável",
+			de: "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
 			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30

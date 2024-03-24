@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Sonistrelle",
 		es: "Noibat",
 		it: "Noibat",
-		pt: "Noibat"
+		pt: "Noibat",
+		de: "eF-eM"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Tornade",
 			es: "Tornado",
 			it: "Raffica",
-			pt: "Lufada de Vento"
+			pt: "Lufada de Vento",
+			de: "Windstoß"
 		},
 
 		damage: 40

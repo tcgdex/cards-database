@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Forgerette",
 		es: "Tinkatink",
 		it: "Tinkatink",
-		pt: "Tinkatink"
+		pt: "Tinkatink",
+		de: "Forgita"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Récup Rebut",
 			es: "Recogida de Chatarra",
 			it: "Raccogliscarti",
-			pt: "Catar Sucata"
+			pt: "Catar Sucata",
+			de: "Schrottverwertung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Ajoutez une carte Objet de votre pile de défausse à votre main.",
 			es: "Pon 1 carta de Objeto de tu pila de descartes en tu mano.",
 			it: "Prendi una carta Strumento dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
-			pt: "Coloque uma carta de Item da sua pilha de descarte na sua mão."
+			pt: "Coloque uma carta de Item da sua pilha de descarte na sua mão.",
+			de: "Nimm 1 Itemkarte aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Vent Féérique",
 			es: "Viento Feérico",
 			it: "Vento di Fata",
-			pt: "Vento de Fada"
+			pt: "Vento de Fada",
+			de: "Feenbrise"
 		},
 
 		damage: 30

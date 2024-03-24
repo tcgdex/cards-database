@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Colossinge",
 		es: "Primeape",
 		it: "Primeape",
-		pt: "Primeape"
+		pt: "Primeape",
+		de: "Rasaff"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Coup de Poing Furieux",
 			es: "Puño Furioso",
 			it: "Furiapugno",
-			pt: "Soco Feroz"
+			pt: "Soco Feroz",
+			de: "Wuthaken"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
 			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
 		},
 
 		damage: 70

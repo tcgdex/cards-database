@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Monthracite",
 		es: "Coalossal",
 		it: "Coalossal",
-		pt: "Coalossal"
+		pt: "Coalossal",
+		de: "Montecarbo"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Goudron Mitraillant",
 			es: "Ráfaga de Alquitrán",
 			it: "Mitragliacatrame",
-			pt: "Disparador de Piche"
+			pt: "Disparador de Piche",
+			de: "Teergeschütz"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 80 dégâts supplémentaires pour chaque Énergie Fire attachée à ce Pokémon.",
 			es: "Este ataque hace 80 puntos de daño más por cada Energía Fire unida a este Pokémon.",
 			it: "Questo attacco infligge 80 danni in più per ogni Energia Fire assegnata a questo Pokémon.",
-			pt: "Este ataque causa 80 pontos de dano a mais para cada Energia Fire ligada a este Pokémon."
+			pt: "Este ataque causa 80 pontos de dano a mais para cada Energia Fire ligada a este Pokémon.",
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Fire-Energie 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "40+"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Lapidalanche",
 			es: "Rocalud",
 			it: "Valanghiaia",
-			pt: "Rochavalanche"
+			pt: "Rochavalanche",
+			de: "Grolllawine"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
 			es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
 			it: "Scarta le prime due carte del mazzo del tuo avversario.",
-			pt: "Descarte as 2 cartas de cima do baralho do seu oponente."
+			pt: "Descarte as 2 cartas de cima do baralho do seu oponente.",
+			de: "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 150

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Brutalibré",
 		es: "Hawlucha",
 		it: "Hawlucha",
-		pt: "Hawlucha"
+		pt: "Hawlucha",
+		de: "Resladero"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Entrée Aérienne",
 			es: "Entrada Voladora",
 			it: "Entrata al Volo",
-			pt: "Entrada Voadora"
+			pt: "Entrada Voadora",
+			de: "Fliegender Auftritt"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez choisir 2 des Pokémon de Banc de votre adversaire, puis placer un marqueur de dégâts sur chacun d'eux.",
 			es: "Cuando juegas este Pokémon de tu mano a tu Banca durante tu turno, puedes elegir 2 de los Pokémon en Banca de tu rival y poner 1 contador de daño en cada uno de ellos.",
 			it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi scegliere due dei Pokémon nella panchina del tuo avversario e mettere un segnalino danno su ciascuno di essi.",
-			pt: "Quando você jogar este Pokémon da sua mão para o seu Banco durante o seu turno, você poderá escolher 2 dos Pokémon no Banco do seu oponente e colocar 1 contador de dano em cada um deles."
+			pt: "Quando você jogar este Pokémon da sua mão para o seu Banco durante o seu turno, você poderá escolher 2 dos Pokémon no Banco do seu oponente e colocar 1 contador de dano em cada um deles.",
+			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 2 Pokémon auf der Bank deines Gegners wählen und 1 Schadensmarke auf jedes von ihnen legen."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Cru-Ailes",
 			es: "Ataque Ala",
 			it: "Attacco d'Ala",
-			pt: "Ataque de Asa"
+			pt: "Ataque de Asa",
+			de: "Flügelschlag"
 		},
 
 		damage: 70

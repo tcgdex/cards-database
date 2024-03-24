@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Hoothoot",
 		es: "Hoothoot",
 		it: "Hoothoot",
-		pt: "Hoothoot"
+		pt: "Hoothoot",
+		de: "Hoothoot"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Aile Silencieuse",
 			es: "Ala Silenciosa",
 			it: "Ala Silenziosa",
-			pt: "Asa Silenciosa"
+			pt: "Asa Silenciosa",
+			de: "Lautlose Flügel"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Votre adversaire montre sa main.",
 			es: "Tu rival enseña las cartas de su mano.",
 			it: "Il tuo avversario mostra le carte che ha in mano.",
-			pt: "Seu oponente revela a mão dele."
+			pt: "Seu oponente revela a mão dele.",
+			de: "Dein Gegner zeigt dir seine Handkarten."
 		},
 
 		damage: 20

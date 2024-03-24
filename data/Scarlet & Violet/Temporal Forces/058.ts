@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Voltoutou",
 		es: "Yamper",
 		it: "Yamper",
-		pt: "Yamper"
+		pt: "Yamper",
+		de: "Voldi"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Charge Bizarre",
 			es: "Placaje Caprichoso",
 			it: "Capriccioazione",
-			pt: "Investida Fantástica"
+			pt: "Investida Fantástica",
+			de: "Launischer Tackle"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
+			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 20

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Doudouvet",
 		es: "Cottonee",
 		it: "Cottonee",
-		pt: "Cottonee"
+		pt: "Cottonee",
+		de: "Waumboll"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Triple Tour",
 			es: "Triple Giro",
 			it: "Triploturbo",
-			pt: "Giro Triplo"
+			pt: "Giro Triplo",
+			de: "Dreifachdreher"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
 			es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 			it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara."
+			pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"

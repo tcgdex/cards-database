@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Roue-de-Fer",
 		es: "Ferrodada",
 		it: "Solcoferreo",
-		pt: "Trilho Férreo"
+		pt: "Trilho Férreo",
+		de: "Eisenrad"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Double Cœur",
 			es: "Doble Núcleo",
 			it: "Dual Core",
-			pt: "Dual Core"
+			pt: "Dual Core",
+			de: "Dual-Core"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Tant qu'une Capsule Énergie Booster Temps Futur est attachée à ce Pokémon, il est de type Fighting et Metal.",
 			es: "Mientras este Pokémon tenga un Tanque de Energía Potenciadora del Futuro unido, es de tipo Fighting y Metal.",
 			it: "Fintanto che questo Pokémon ha una Capsula energetica Tempo Futuro assegnata, è di tipo Fighting e Metal.",
-			pt: "Enquanto este Pokémon tiver uma Cápsula Energética de Melhoria Futurista ligada a ele, será de tipo Fighting e Metal."
+			pt: "Enquanto este Pokémon tiver uma Cápsula Energética de Melhoria Futurista ligada a ele, será de tipo Fighting e Metal.",
+			de: "Solange 1 Energiekapsel aus der Zukunft an dieses Pokémon angelegt ist, ist es vom Typ Fighting und Metal."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Déplacement sur Roue",
 			es: "Pase Rodante",
 			it: "Traslaruota",
-			pt: "Passe de Roda"
+			pt: "Passe de Roda",
+			de: "Radtransfer"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
 			es: "Mueve 1 Energía de este Pokémon a uno de tus Pokémon en Banca.",
 			it: "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
-			pt: "Mova uma Energia deste Pokémon para 1 dos seus Pokémon no Banco."
+			pt: "Mova uma Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
+			de: "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 		},
 
 		damage: 60

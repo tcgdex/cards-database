@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Miraidon-ex",
 		es: "Miraidon ex",
 		it: "Miraidon-ex",
-		pt: "Miraidon ex"
+		pt: "Miraidon ex",
+		de: "Miraidon-ex"
 	},
 
 	rarity: "Double rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Écrou Répulsion",
 			es: "Rayo Aversión",
 			it: "Lampo Respingente",
-			pt: "Raio de Repulsão"
+			pt: "Raio de Repulsão",
+			de: "Abstoßender Blitz"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 100 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 100 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 100 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 100 pontos de dano a mais."
+			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 100 pontos de dano a mais.",
+			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Conduite Cybernétique",
 			es: "Impulso Cibernético",
 			it: "Propulsione Cibernetica",
-			pt: "Ciberdireção"
+			pt: "Ciberdireção",
+			de: "Cyber-Antrieb"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Conduite Cybernétique.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Impulso Cibernético.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Propulsione Cibernetica.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ciberdireção."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ciberdireção.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Cyber-Antrieb nicht einsetzen."
 		},
 
 		damage: 220

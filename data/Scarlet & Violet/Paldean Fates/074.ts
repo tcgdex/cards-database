@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Famignol",
 		es: "Maushold",
 		it: "Maushold",
-		pt: "Maushold"
+		pt: "Maushold",
+		de: "Famieps"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Gifle",
 			es: "Bofetón",
 			it: "Sberla",
-			pt: "Tapa"
+			pt: "Tapa",
+			de: "Hieb"
 		},
 
 		damage: 40
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Attaque en Famille",
 			es: "Ataque en Familia",
 			it: "Attacco di Famiglia",
-			pt: "Ataque em Família"
+			pt: "Ataque em Família",
+			de: "Familienangriff"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 70 dégâts pour chacun de vos Famignol en jeu.",
 			es: "Este ataque hace 70 puntos de daño por cada uno de tus Maushold en juego.",
 			it: "Questo attacco infligge 70 danni per ogni tuo Maushold in gioco.",
-			pt: "Este ataque causa 70 pontos de dano para cada um dos seus Maushold em jogo."
+			pt: "Este ataque causa 70 pontos de dano para cada um dos seus Maushold em jogo.",
+			de: "Diese Attacke fügt für jedes deiner Famieps im Spiel 70 Schadenspunkte zu."
 		},
 
 		damage: "70×"

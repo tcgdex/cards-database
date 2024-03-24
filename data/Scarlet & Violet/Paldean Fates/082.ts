@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Menzi",
 		es: "Mencía",
 		it: "Nemi",
-		pt: "Noêmia"
+		pt: "Noêmia",
+		de: "Nemila"
 	},
 
 	rarity: "Common",
@@ -20,7 +21,8 @@ const card: Card = {
 		fr: "Piochez 3 cartes.",
 		es: "Roba 3 cartas.",
 		it: "Pesca tre carte.",
-		pt: "Compre 3 cartas."
+		pt: "Compre 3 cartas.",
+		de: "Ziehe 3 Karten."
 	},
 
 	trainerType: "Supporter",

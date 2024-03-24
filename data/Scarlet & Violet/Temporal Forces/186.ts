@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Vert-de-Fer-ex",
 		es: "Ferroverdor ex",
 		it: "Fogliaferrea-ex",
-		pt: "Folhas Férreas ex"
+		pt: "Folhas Férreas ex",
+		de: "Eisenblatt-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Vernier Rapide",
 			es: "Propulsor Vernier",
 			it: "Propulsore Vernier",
-			pt: "Agilidade Vernier"
+			pt: "Agilidade Vernier",
+			de: "Schnelle Justierung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez l'échanger contre votre Pokémon Actif. Dans ce cas, vous pouvez déplacer autant d'Énergies que vous le voulez de vos autres Pokémon vers ce Pokémon.",
 			es: "Cuando juegas este Pokémon de tu mano a tu Banca durante tu turno, puedes cambiarlo por tu Pokémon Activo. Si lo haces, puedes mover cualquier cantidad de Energías de tus otros Pokémon a este Pokémon.",
 			it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi scambiarlo con il tuo Pokémon attivo. Se lo fai, puoi spostare un numero qualsiasi di Energie dai tuoi altri Pokémon su questo Pokémon.",
-			pt: "Quando você jogar este Pokémon da sua mão para o seu Banco durante o seu turno, você poderá trocá-lo pelo seu Pokémon Ativo. Se fizer isto, você poderá mover qualquer quantidade de Energia dos seus outros Pokémon para este Pokémon."
+			pt: "Quando você jogar este Pokémon da sua mão para o seu Banco durante o seu turno, você poderá trocá-lo pelo seu Pokémon Ativo. Se fizer isto, você poderá mover qualquer quantidade de Energia dos seus outros Pokémon para este Pokémon.",
+			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du es gegen dein Aktives Pokémon austauschen. Wenn du das machst, kannst du beliebig viele Energien von deinen anderen Pokémon auf dieses Pokémon verschieben."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Lame Prisme",
 			es: "Filo Prisma",
 			it: "Lama Prisma",
-			pt: "Lâmina Prisma"
+			pt: "Lâmina Prisma",
+			de: "Prismaklinge"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 180

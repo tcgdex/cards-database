@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Méios",
 		es: "Duosion",
 		it: "Duosion",
-		pt: "Duosion"
+		pt: "Duosion",
+		de: "Mitodos"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Double Ruse",
 			es: "Doble Truco",
 			it: "Doppio Trucco",
-			pt: "Travessura Dupla"
+			pt: "Travessura Dupla",
+			de: "Doppeltrick"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
 			es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 			it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara."
+			pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+			de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"

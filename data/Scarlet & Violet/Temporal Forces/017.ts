@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Haydaim",
 		es: "Sawsbuck",
 		it: "Sawsbuck",
-		pt: "Sawsbuck"
+		pt: "Sawsbuck",
+		de: "Kronjuwild"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Changement de Saison",
 			es: "Cambio de Estaciones",
 			it: "Alternastagioni",
-			pt: "Mudança de Estações"
+			pt: "Mudança de Estações",
+			de: "Wechsel der Jahreszeiten"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Stade, la montrer, puis l'ajouter à votre main. Mélangez ensuite votre deck.",
 			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Estadio, enseñarla y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Stadio, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Estádio no seu baralho, revelá-la e colocá-la na sua mão. Em seguida, embaralhe o seu baralho."
+			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Estádio no seu baralho, revelá-la e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
+			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Stadionkarte durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Cornes Surpuissantes",
 			es: "Cuernos Superpoderosos",
 			it: "Corna Superpotenziate",
-			pt: "Chifres Superpoderosos"
+			pt: "Chifres Superpoderosos",
+			de: "Superstarke Hörner"
 		},
 
 		damage: 110

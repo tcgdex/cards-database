@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Cryodo",
 		es: "Arctibax",
 		it: "Arctibax",
-		pt: "Arctibax"
+		pt: "Arctibax",
+		de: "Cryospino"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Aileron Aiguisé",
 			es: "Cortaleta",
 			it: "Pinnaffilata",
-			pt: "Barbatana Afiada"
+			pt: "Barbatana Afiada",
+			de: "Schneidige Flosse"
 		},
 
 		damage: 40
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Impact Glacial",
 			es: "Golpe Gélido",
 			it: "Gelocolpo",
-			pt: "Pancada Congelada"
+			pt: "Pancada Congelada",
+			de: "Frostschlag"
 		},
 
 		damage: 80

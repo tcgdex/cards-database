@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Grodoudou",
 		es: "Wigglytuff",
 		it: "Wigglytuff",
-		pt: "Wigglytuff"
+		pt: "Wigglytuff",
+		de: "Knuddeluff"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Thérapie Bouboule",
 			es: "Terapia Globo",
 			it: "Terapia Pallone",
-			pt: "Terapia de Balão"
+			pt: "Terapia de Balão",
+			de: "Ballontherapie"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Thérapeutique de votre main à l'un de vos Pokémon.",
 			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Terapéutica de tu mano a uno de tus Pokémon.",
 			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia Terapeutica dalla tua mano.",
-			pt: "Uma vez durante o seu turno, você poderá ligar uma carta Energia Terapêutica da sua mão a 1 dos seus Pokémon."
+			pt: "Uma vez durante o seu turno, você poderá ligar uma carta Energia Terapêutica da sua mão a 1 dos seus Pokémon.",
+			de: "Einmal während deines Zuges kannst du 1 Therapie-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Coup Magique",
 			es: "Disparo Mágico",
 			it: "Magicolpo",
-			pt: "Tiro Mágico"
+			pt: "Tiro Mágico",
+			de: "Magischer Schuss"
 		},
 
 		damage: 100

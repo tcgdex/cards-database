@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Férosinge",
 		es: "Mankey",
 		it: "Mankey",
-		pt: "Mankey"
+		pt: "Mankey",
+		de: "Menki"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Raclée Simiesque",
 			es: "Golpe Macaco",
 			it: "Batosta della Scimmia",
-			pt: "Pancada Primata"
+			pt: "Pancada Primata",
+			de: "Affenprügel"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
 			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30

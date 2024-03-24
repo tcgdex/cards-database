@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Rugit-Lune",
 		es: "Bramaluna",
 		it: "Lunaruggente",
-		pt: "Lua Estrondo"
+		pt: "Lua Estrondo",
+		de: "Donnersichel"
 	},
 
 	rarity: "Rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Plumage Vengeur",
 			es: "Venganza Emplumada",
 			it: "Piume Vendicative",
-			pt: "Flechas da Vingança"
+			pt: "Flechas da Vingança",
+			de: "Rachegefieder"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque carte Temps passé dans votre pile de défausse.",
 			es: "Este ataque hace 10 puntos de daño más por cada carta del pasado en tu pila de descartes.",
 			it: "Questo attacco infligge 10 danni in più per ogni carta Tempo Passato nella tua pila degli scarti.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada carta Ancestral na sua pilha de descarte."
+			pt: "Este ataque causa 10 pontos de dano a mais para cada carta Ancestral na sua pilha de descarte.",
+			de: "Diese Attacke fügt für jede Vergangenheitskarte in deinem Ablagestapel 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "70+"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Ailes Vives",
 			es: "Ala Veloz",
 			it: "Alaveloce",
-			pt: "Asa da Velocidade"
+			pt: "Asa da Velocidade",
+			de: "Turboschwinge"
 		},
 
 		damage: 120

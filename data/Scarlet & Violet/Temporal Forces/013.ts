@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Shaymin",
 		es: "Shaymin",
 		it: "Shaymin",
-		pt: "Shaymin"
+		pt: "Shaymin",
+		de: "Shaymin"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Plongée Ciblée",
 			es: "Picado Preciso",
 			it: "Picchiata di Precisione",
-			pt: "Mergulho Localizador"
+			pt: "Mergulho Localizador",
+			de: "Präzisionslandung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 60 dégâts à l'un des Pokémon-ex de Banc ou Pokémon-V de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			es: "Este ataque hace 60 puntos de daño a uno de los Pokémon ex en Banca o Pokémon V en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			it: "Questo attacco infligge 60 danni a uno dei Pokémon-ex o Pokémon-V nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque causa 60 pontos de dano a 1 dos Pokémon ex no Banco do seu oponente ou Pokémon V no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			pt: "Este ataque causa 60 pontos de dano a 1 dos Pokémon ex no Banco do seu oponente ou Pokémon V no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			de: "Diese Attacke fügt 1 Pokémon-ex auf der Bank deines Gegners oder 1 Pokémon-V auf der Bank deines Gegners 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Ruade",
 			es: "Patada Trasera",
 			it: "Retrocalcio",
-			pt: "Chute Traseiro"
+			pt: "Chute Traseiro",
+			de: "Rückwärtskick"
 		},
 
 		damage: 50

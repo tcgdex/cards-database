@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Frissonille",
 		es: "Snom",
 		it: "Snom",
-		pt: "Snom"
+		pt: "Snom",
+		de: "Snomnom"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Poudreuse",
 			es: "Nieve Polvo",
 			it: "Polneve",
-			pt: "Neve em Pó"
+			pt: "Neve em Pó",
+			de: "Pulverschnee"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido."
+			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 10

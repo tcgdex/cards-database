@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Tiboudet",
 		es: "Mudbray",
 		it: "Mudbray",
-		pt: "Mudbray"
+		pt: "Mudbray",
+		de: "Pampuli"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Coud'Pattes",
 			es: "Patada Destrucción",
 			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso"
+			pt: "Chute Poderoso",
+			de: "Schmetterkick"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Coud'Boue",
 			es: "Bofetón Lodo",
 			it: "Fangosberla",
-			pt: "Tapa de Lama"
+			pt: "Tapa de Lama",
+			de: "Lehmschelle"
 		},
 
 		damage: 50

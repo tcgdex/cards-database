@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Krakos",
 		es: "Grapploct",
 		it: "Grapploct",
-		pt: "Grapploct"
+		pt: "Grapploct",
+		de: "Kaocto"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Syncope à Retardement",
 			es: "Síncope de Acción Lenta",
 			it: "Sincope Differita",
-			pt: "Síncope a Conta-gotas"
+			pt: "Síncope a Conta-gotas",
+			de: "Schleichende Ohnmacht"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur sera mis K.O.",
 			es: "Al final del próximo turno de tu rival, el Pokémon Defensor quedará Fuera de Combate.",
 			it: "Alla fine del prossimo turno del tuo avversario, il Pokémon difensore verrà messo KO.",
-			pt: "No final do próximo turno do seu oponente, o Pokémon Defensor será Nocauteado."
+			pt: "No final do próximo turno do seu oponente, o Pokémon Defensor será Nocauteado.",
+			de: "Am Ende des nächsten Zuges deines Gegners wird das Verteidigende Pokémon kampfunfähig."
 		},
 
 		damage: 30
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Passage Éclair",
 			es: "Puñetazo Mach",
 			it: "Incromach",
-			pt: "Cruzado Veloz"
+			pt: "Cruzado Veloz",
+			de: "Tempo-Cross"
 		},
 
 		damage: 120

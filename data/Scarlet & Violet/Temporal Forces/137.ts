@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Pashmilla",
 		es: "Cinccino",
 		it: "Cinccino",
-		pt: "Cinccino"
+		pt: "Cinccino",
+		de: "Chillabell"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Gifle Douce",
 			es: "Bofetada Gentil",
 			it: "Schiaffetto",
-			pt: "Tapinha"
+			pt: "Tapinha",
+			de: "Sanfter Hieb"
 		},
 
 		damage: 30
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Roulade Spéciale",
 			es: "Giro Especial",
 			it: "Rotolamento Speciale",
-			pt: "Rolagem Especial"
+			pt: "Rolagem Especial",
+			de: "Spezial-Rolle"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 70 dégâts pour chaque carte Énergie spéciale attachée à ce Pokémon.",
 			es: "Este ataque hace 70 puntos de daño por cada carta de Energía Especial unida a este Pokémon.",
 			it: "Questo attacco infligge 70 danni per ogni carta Energia speciale assegnata a questo Pokémon.",
-			pt: "Este ataque causa 70 pontos de dano para cada carta de Energia Especial ligada a este Pokémon."
+			pt: "Este ataque causa 70 pontos de dano para cada carta de Energia Especial ligada a este Pokémon.",
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Spezial-Energiekarte 70 Schadenspunkte zu."
 		},
 
 		damage: "70×"

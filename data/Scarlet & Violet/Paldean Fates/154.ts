@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Kirlia",
 		es: "Kirlia",
 		it: "Kirlia",
-		pt: "Kirlia"
+		pt: "Kirlia",
+		de: "Kirlia"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Coup Magique",
 			es: "Disparo Mágico",
 			it: "Magicolpo",
-			pt: "Tiro Mágico"
+			pt: "Tiro Mágico",
+			de: "Magischer Schuss"
 		},
 
 		damage: 30
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Psyko",
 			es: "Psíquico",
 			it: "Psichico",
-			pt: "Psíquico"
+			pt: "Psíquico",
+			de: "Psychokinese"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 			es: "Este ataque hace 20 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 20 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente."
+			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"

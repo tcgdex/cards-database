@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Koraidon-ex",
 		es: "Koraidon ex",
 		it: "Koraidon-ex",
-		pt: "Koraidon ex"
+		pt: "Koraidon ex",
+		de: "Koraidon-ex"
 	},
 
 	rarity: "Double rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Frappe Représailles",
 			es: "Golpe Vengativo",
 			it: "Colpo Punitivo",
-			pt: "Golpe de Retribuição"
+			pt: "Golpe de Retribuição",
+			de: "Racheschlag"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
 			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon."
+			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Charge Impériale",
 			es: "Placaje Káiser",
 			it: "Azione Imperiale",
-			pt: "Colisão do Imperador"
+			pt: "Colisão do Imperador",
+			de: "Kaiser-Tackle"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 60 dégâts.",
 			es: "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 60 danni a se stesso.",
-			pt: "Este Pokémon também causa 60 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 60 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
 		},
 
 		damage: 280

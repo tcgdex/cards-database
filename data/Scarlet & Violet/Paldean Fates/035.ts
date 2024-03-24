@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Farfaduvet",
 		es: "Whimsicott",
 		it: "Whimsicott",
-		pt: "Whimsicott"
+		pt: "Whimsicott",
+		de: "Elfun"
 	},
 
 	rarity: "Uncommon",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Vent Féérique",
 			es: "Viento Feérico",
 			it: "Vento di Fata",
-			pt: "Vento de Fada"
+			pt: "Vento de Fada",
+			de: "Feenbrise"
 		},
 
 		damage: 50

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Pomdepik",
 		es: "Pineco",
 		it: "Pineco",
-		pt: "Pineco"
+		pt: "Pineco",
+		de: "Tannza"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Collision",
 			es: "Apisonar",
 			it: "Carica",
-			pt: "Aríete"
+			pt: "Aríete",
+			de: "Ramme"
 		},
 
 		damage: 50

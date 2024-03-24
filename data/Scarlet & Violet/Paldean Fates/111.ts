@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Tauros de Paldea",
 		es: "Tauros de Paldea",
 		it: "Tauros di Paldea",
-		pt: "Tauros de Paldea"
+		pt: "Tauros de Paldea",
+		de: "Paldea-Tauros"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Cornes Furieuses",
 			es: "Cuernos Embravecidos",
 			it: "Corna Furiose",
-			pt: "Chifres Indomáveis"
+			pt: "Chifres Indomáveis",
+			de: "Rasende Hörner"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
 			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon."
+			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Ruée Flamboyante",
 			es: "Embestida Ardiente",
 			it: "Corsa Infuocata",
-			pt: "Arremetida de Labareda"
+			pt: "Arremetida de Labareda",
+			de: "Flammenspurt"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Défaussez une Énergie de ce Pokémon.",
 			es: "Descarta 1 Energía de este Pokémon.",
 			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon."
+			pt: "Descarte uma Energia deste Pokémon.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 120

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Wagomine",
 		es: "Carkol",
 		it: "Carkol",
-		pt: "Carkol"
+		pt: "Carkol",
+		de: "Wagong"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Asticotage",
 			es: "Derribar",
 			it: "Scaraventa",
-			pt: "Jogar Longe"
+			pt: "Jogar Longe",
+			de: "Zurückschlagen"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 40 pontos de dano a mais."
+			pt: "Jogue uma moeda. Se sair cara, este ataque causará 40 pontos de dano a mais.",
+			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Rocher Écrasant",
 			es: "Alud de Rocas",
 			it: "Macignata",
-			pt: "Rocha Esmagadora"
+			pt: "Rocha Esmagadora",
+			de: "Felsenquetscher"
 		},
 
 		damage: 80

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Insécateur",
 		es: "Scyther",
 		it: "Scyther",
-		pt: "Scyther"
+		pt: "Scyther",
+		de: "Sichlor"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Découpage",
 			es: "Trocear",
 			it: "Tagliuzzamento",
-			pt: "Dilacerar"
+			pt: "Dilacerar",
+			de: "Zerhäckseln"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Coup Déchirant",
 			es: "Golpe Cuchillazo",
 			it: "Lacerattacco",
-			pt: "Ataque Cortante"
+			pt: "Ataque Cortante",
+			de: "Schlitzender Schlag"
 		},
 
 		effect: {
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen."
 		},
 
 		damage: 60

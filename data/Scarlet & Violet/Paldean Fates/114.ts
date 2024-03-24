@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Charbambin",
 		es: "Charcadet",
 		it: "Charcadet",
-		pt: "Charcadet"
+		pt: "Charcadet",
+		de: "Knarbon"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Explosion de Chaleur",
 			es: "Explosión de Calor",
 			it: "Caldobomba",
-			pt: "Raio de Calor"
+			pt: "Raio de Calor",
+			de: "Hitzestoß"
 		},
 
 		damage: 60

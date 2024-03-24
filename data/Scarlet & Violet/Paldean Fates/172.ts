@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Tauros de Paldea",
 		es: "Tauros de Paldea",
 		it: "Tauros di Paldea",
-		pt: "Tauros de Paldea"
+		pt: "Tauros de Paldea",
+		de: "Paldea-Tauros"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Cornes Furieuses",
 			es: "Cuernos Embravecidos",
 			it: "Corna Furiose",
-			pt: "Chifres Indomáveis"
+			pt: "Chifres Indomáveis",
+			de: "Rasende Hörner"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
 			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon."
+			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Offensive Combative",
 			es: "Placaje Combate",
 			it: "Azione Scontro",
-			pt: "Investida de Combate"
+			pt: "Investida de Combate",
+			de: "Gefechts-Tackle"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 130

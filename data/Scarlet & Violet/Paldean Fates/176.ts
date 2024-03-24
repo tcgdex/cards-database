@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Selutin",
 		es: "Nacli",
 		it: "Nacli",
-		pt: "Nacli"
+		pt: "Nacli",
+		de: "Geosali"
 	},
 
 	rarity: "Shiny rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Couche de Sel",
 			es: "Recubrimiento Salino",
 			it: "Copertura di Sale",
-			pt: "Camada de Sal"
+			pt: "Camada de Sal",
+			de: "Salzbeschichtung"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Soignez 20 dégâts de l'un de vos Pokémon.",
 			es: "Cura 20 puntos de daño a uno de tus Pokémon.",
 			it: "Cura uno dei tuoi Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano de 1 dos seus Pokémon."
+			pt: "Cure 20 pontos de dano de 1 dos seus Pokémon.",
+			de: "Heile 20 Schadenspunkte bei 1 deiner Pokémon."
 		}
 	}, {
 		cost: ["Fighting", "Fighting"],
@@ -44,7 +47,8 @@ const card: Card = {
 			fr: "Charge",
 			es: "Placaje",
 			it: "Azione",
-			pt: "Investida"
+			pt: "Investida",
+			de: "Tackle"
 		},
 
 		damage: 30

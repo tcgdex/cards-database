@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Beldeneige",
 		es: "Frosmoth",
 		it: "Frosmoth",
-		pt: "Frosmoth"
+		pt: "Frosmoth",
+		de: "Mottineva"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Frisson Glaçant",
 			es: "Frío Helador",
 			it: "Freddo Glaciale",
-			pt: "Frio de Arrepiar"
+			pt: "Frio de Arrepiar",
+			de: "Gefrierschock"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
 			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar.",
 			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá atacar."
+			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá atacar.",
+			de: "Während des nächsten Zuges deines Gegners kann das Verteidigende Pokémon nicht angreifen."
 		},
 
 		damage: 100
