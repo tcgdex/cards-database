@@ -1,6 +1,5 @@
-import { Card, Set } from '../../../interfaces'
 import { glob } from 'glob'
-import fetch from 'node-fetch'
+import { Card, Set } from '../../../interfaces'
 import * as legals from '../../../meta/legals'
 
 interface fileCacheInterface {
@@ -18,9 +17,16 @@ const fileCache: fileCacheInterface = {}
  */
 export async function fetchRemoteFile<T = any>(url: string): Promise<T> {
 	if (!fileCache[url]) {
+		const signal = new AbortController()
+
+		const finished = setTimeout(() => {
+			signal.abort()
+		}, 60 * 1000);
+
 		const resp = await fetch(url, {
-			timeout: 60 * 1000
+			signal: signal.signal
 		})
+		clearTimeout(finished)
 		fileCache[url] = resp.json()
 	}
 	return fileCache[url]
