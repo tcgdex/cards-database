@@ -1,5 +1,5 @@
 import { Card, Set } from '../../../interfaces'
-import glob from 'glob'
+import { glob } from 'glob'
 import fetch from 'node-fetch'
 import * as legals from '../../../meta/legals'
 
@@ -30,9 +30,7 @@ const globCache: Record<string, Array<string>> = {}
 
 export async function smartGlob(query: string): Promise<Array<string>> {
 	if (!globCache[query]) {
-		globCache[query] = await new Promise((res) => {
-			glob(query, (_, matches) => res(matches))
-		})
+		globCache[query] = await glob(query)
 	}
 	return globCache[query]
 }

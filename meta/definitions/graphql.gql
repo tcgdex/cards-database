@@ -27,7 +27,7 @@ type Query {
 
 	"""Find one card (using the id and set is deprecated)"""
 	card(
-		id: ID!,
+		id: ID,
 		set: String,
 		"""The new way to filter"""
 		filters: CardsFilters
@@ -35,14 +35,14 @@ type Query {
 
 	"""Find one set (using the id is deprecated)"""
 	set(
-		id: ID!,
+		id: ID,
 		"""The new way to filter"""
 		filters: SetFilters
 	): Set
 
 	"""Find one serie (using the id is deprecated)"""
 	serie(
-		id: ID!,
+		id: ID,
 		"""The new way to filter"""
 		filters: SerieFilters
 	): Serie
