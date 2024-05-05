@@ -1,34 +1,33 @@
 {
-	"__comment__": "Missing All :(",
 	"$schema": "./schema.json",
 	"abilityType": {
-		"Ability": "Ability",
+		"Ability": "Habilidade",
 		"Ancient Trait": "Ancient Trait",
 		"Poke-BODY": "Poke-BODY",
 		"Poke-POWER": "Poke-POWER",
 		"Pokemon Power": "Pokemon Power"
 	},
 	"category": {
-		"Energy": "Energy",
+		"Energy": "Energia",
 		"Pokemon": "Pokemon",
-		"Trainer": "Trainer"
+		"Trainer": "Treinador"
 	},
 	"energyType": {
 		"Normal": "Normal",
-		"Special": "Special"
+		"Special": "Especial"
 	},
 	"rarity": {
 		"ACE SPEC Rare": "ACE SPEC Raro",
-		"Amazing Rare": "Amazing",
-		"Classic Collection": "Colección Clásica",
+		"Amazing Rare": "Raras Incríveis",
+		"Classic Collection": "Coleção Clásica",
 		"Common": "Comum",
 		"Double rare": "Rara Dupla",
-		"Full Art Trainer": "Formador de arte completa",
+		"Full Art Trainer": "Arte Completa de Treinador",
 		"Holo Rare": "Rara Holo",
 		"Holo Rare V": "Rara Holo V",
 		"Holo Rare VMAX": "Rara Holo VMAX",
 		"Holo Rare VSTAR": "Rara Holo VSTAR",
-		"Hyper rare": "Rara Hiper",
+		"Hyper rare": "Hiper rara",
 		"Illustration rare": "Ilustração Rara",
 		"LEGEND": "LEGEND",
 		"None": "None",
@@ -37,24 +36,24 @@
 		"Rare Holo": "Rara Holo",
 		"Rare Holo LV.X": "Rara Holo LV.X",
 		"Rare PRIME": "Rara Prime",
-		"Secret Rare": "Secret Rare",
-		"Shiny rare": "Shiny rare",
-		"Shiny rare V": "Shiny rare V",
-		"Shiny rare VMAX": "Shiny rare VMAX",
-		"Shiny Ultra Rare": "Brilhante Ultra Raro",
+		"Secret Rare": "Rare Secreta",
+		"Shiny rare": "Shiny rara",
+		"Shiny rare V": "Shiny rara V",
+		"Shiny rare VMAX": "Shiny rara VMAX",
+		"Shiny Ultra Rare": "Brilhante Ultra Rara",
 		"Special illustration rare": "Ilustração Rara Especial",
-		"Ultra Rare": "Rara Ultra",
+		"Ultra Rare": "Ultra Rara",
 		"Uncommon": "Incomum"
 	},
 	"stage": {
 		"Baby": "Bebê",
-		"Basic": "Basic",
+		"Basic": "Básico",
 		"BREAK": "TURBO",
 		"LEVEL-UP": "LEVEL-UP",
 		"MEGA": "MEGA",
 		"RESTORED": "RESTORED",
-		"Stage1": "Stage 1",
-		"Stage2": "Stage 2",
+		"Stage1": "Estágio 1",
+		"Stage2": "Estágio 2",
 		"V-UNION": "V-UNION",
 		"VMAX": "VMAX",
 		"VSTAR": "V-ASTRO"
@@ -73,22 +72,22 @@
 		"Goldenrod Game Corner": "Goldenrod Game Corner",
 		"Item": "Item",
 		"Rocket's Secret Machine": "Rocket's Secret Machine",
-		"Stadium": "Stadium",
-		"Supporter": "Supporter",
+		"Stadium": "Estádio",
+		"Supporter": "Apoiador",
 		"Technical Machine": "Technical Machine",
-		"Tool": "Tool"
+		"Tool": "Ferramenta"
 	},
 	"types": {
-		"Colorless": "Colorless",
-		"Darkness": "Darkness",
-		"Dragon": "Dragon",
-		"Fairy": "Fairy",
-		"Fighting": "Fighting",
-		"Fire": "Fire",
-		"Grass": "Grass",
-		"Lightning": "Lightning",
+		"Colorless": "Incolor",
+		"Darkness": "Sombrio",
+		"Dragon": "Dragão",
+		"Fairy": "Fada",
+		"Fighting": "Lutador",
+		"Fire": "Fogo",
+		"Grass": "Planta",
+		"Lightning": "Elétrico",
 		"Metal": "Metal",
-		"Psychic": "Psychic",
-		"Water": "Water"
+		"Psychic": "Psíquico",
+		"Water": "Água"
 	}
 }
