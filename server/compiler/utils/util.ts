@@ -1,6 +1,6 @@
-import { Card, Set } from '../../../interfaces'
 import glob from 'glob'
 import fetch from 'node-fetch'
+import { Card, Set, SupportedLanguages } from '../../../interfaces'
 import * as legals from '../../../meta/legals'
 
 interface fileCacheInterface {
@@ -74,4 +74,8 @@ export function setIsLegal(type: 'standard' | 'expanded', set: Set): boolean {
 		return !legal.excludes.sets.includes(set.id)
 	}
 	return false
+}
+
+export function getDataFolder(lang: SupportedLanguages) {
+	return ['zh', 'ja'].includes(lang) ? 'data-asia' : 'data'
 }

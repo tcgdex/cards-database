@@ -4,7 +4,7 @@ import { Response } from 'express'
 import { Query } from './interfaces'
 
 export function checkLanguage(str: string): str is SupportedLanguages {
-	return ['en', 'fr', 'es', 'it', 'pt', 'de'].includes(str)
+	return ['en', 'fr', 'es', 'it', 'pt', 'de', 'ja'].includes(str)
 }
 
 export function unique(arr: Array<string>): Array<string> {

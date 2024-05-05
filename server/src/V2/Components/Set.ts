@@ -10,6 +10,7 @@ import enSets from '../../../generated/en/sets.json'
 import esSets from '../../../generated/es/sets.json'
 import frSets from '../../../generated/fr/sets.json'
 import itSets from '../../../generated/it/sets.json'
+import jaSets from '../../../generated/ja/sets.json'
 import ptSets from '../../../generated/pt/sets.json'
 
 const sets = {
@@ -18,6 +19,7 @@ const sets = {
 	es: esSets,
 	fr: frSets,
 	it: itSets,
+	ja: jaSets,
 	pt: ptSets
 } as const
 

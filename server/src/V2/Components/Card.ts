@@ -10,6 +10,7 @@ import enCards from '../../../generated/en/cards.json'
 import esCards from '../../../generated/es/cards.json'
 import frCards from '../../../generated/fr/cards.json'
 import itCards from '../../../generated/it/cards.json'
+import jaCards from '../../../generated/ja/cards.json'
 import ptCards from '../../../generated/pt/cards.json'
 
 const cards = {
@@ -18,6 +19,7 @@ const cards = {
 	es: esCards,
 	fr: frCards,
 	it: itCards,
+	ja: jaCards,
 	pt: ptCards
 } as const
 

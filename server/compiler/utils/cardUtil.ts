@@ -3,7 +3,7 @@ import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
 import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
 import { setToSetSimple } from './setUtil'
 import translate from './translationUtil'
-import { DB_PATH, cardIsLegal, fetchRemoteFile, smartGlob } from './util'
+import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, smartGlob } from './util'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -117,8 +117,8 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
  * @param id the local id of the card
  * @returns [the local id, the Card object]
  */
-export async function getCard(serie: string, setName: string, id: string): Promise<Card> {
-	return (await import(`../../${DB_PATH}/data/${serie}/${setName}/${id}.ts`)).default
+export async function getCard(serie: string, setName: string, id: string, lang: SupportedLanguages): Promise<Card> {
+	return (await import(`../../${DB_PATH}/${getDataFolder(lang)}/${serie}/${setName}/${id}.ts`)).default
 }
 
 /**
@@ -128,7 +128,8 @@ export async function getCard(serie: string, setName: string, id: string): Promi
  * @returns An array with the 0 = localId, 1 = Card Object
  */
 export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Array<[string, Card]>> {
-	const cards = await smartGlob(`${DB_PATH}/data/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.ts`)
+	const dataFolder = ['zh', 'ja'].includes(lang) ? 'data-asia' : 'data'
+	const cards = await smartGlob(`${DB_PATH}/${dataFolder}/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.ts`)
 	const list: Array<[string, Card]> = []
 	for (const path of cards) {
 		let items = path.split('/')
@@ -144,7 +145,7 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 		// get it's serie name
 		const serieName = (set && set.serie.name.en) ?? items[0]
 		// console.log(path, id, setName)
-		const c = await getCard(serieName, setName, id)
+		const c = await getCard(serieName, setName, id, lang)
 		if (!c.name[lang]) {
 			continue
 		}

@@ -1,11 +1,10 @@
 /* eslint-disable max-statements */
-import { FileFunction } from './compilerInterfaces'
 import { promises as fs } from 'fs'
-import { fetchRemoteFile } from './utils/util'
-import { objectValues } from '@dzeio/object-util'
 import { SupportedLanguages } from '../../interfaces'
+import { FileFunction } from './compilerInterfaces'
+import { fetchRemoteFile } from './utils/util'
 
-const LANGS: Array<SupportedLanguages> = ['en', 'fr', 'es', 'it', 'pt', 'de']
+const LANGS: Array<SupportedLanguages> = ['en', 'fr', 'es', 'it', 'pt', 'de', 'ja']
 
 const DIST_FOLDER = './generated'
 

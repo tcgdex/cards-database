@@ -9,6 +9,7 @@ import enSeries from '../../../generated/en/series.json'
 import esSeries from '../../../generated/es/series.json'
 import frSeries from '../../../generated/fr/series.json'
 import itSeries from '../../../generated/it/series.json'
+import jaSeries from '../../../generated/ja/series.json'
 import ptSeries from '../../../generated/pt/series.json'
 
 const series = {
@@ -17,6 +18,7 @@ const series = {
 	es: esSeries,
 	fr: frSeries,
 	it: itSeries,
+	ja: jaSeries,
 	pt: ptSeries
 } as const
 
