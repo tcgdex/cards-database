@@ -2,9 +2,9 @@ import { Serie } from '../interfaces'
 
 const serie: Serie = {
 	name: {
-		ja: 'ポケモンカード★neo'
+		ja: 'ポケットモンスターカードゲーム'
 	},
-	id: 'neo'
+	id: 'pmcg'
 }
 
 export default serie

@@ -1,0 +1,21 @@
+import { Set } from '../../interfaces'
+import serie from '../sv'
+
+const set: Set = {
+	id: 'svDs I',
+	name: {
+		id: 'Deck Ringkas ex',
+		th: 'ex คอมแพกต์เด็ค'
+	},
+
+	serie: serie,
+
+	// TODO: fill the rest
+
+	cardCount: {
+		official: 101
+	},
+	releaseDate: '2024-04-26'
+}
+
+export default set
