@@ -1,5 +1,4 @@
-import { objectLoop, objectMap, objectKeys } from '@dzeio/object-util'
-import { SupportedLanguages } from '@tcgdex/sdk'
+import { objectKeys, objectLoop, objectMap } from '@dzeio/object-util'
 import express from 'express'
 import Serie from './V2/Components/Serie'
 import Set from './V2/Components/Set'
@@ -11,23 +10,23 @@ import frStats from '../generated/fr/stats.json'
 import itStats from '../generated/it/stats.json'
 import ptStats from '../generated/pt/stats.json'
 
-import en from '../generated/en/stats.json'
-import fr from '../generated/fr/stats.json'
-import es from '../generated/es/stats.json'
-import it from '../generated/it/stats.json'
-import pt from '../generated/pt/stats.json'
-import ptbr from '../generated/pt-br/stats.json'
-import ptpt from '../generated/pt-pt/stats.json'
 import de from '../generated/de/stats.json'
-import nl from '../generated/nl/stats.json'
-import pl from '../generated/pl/stats.json'
-import ru from '../generated/ru/stats.json'
+import en from '../generated/en/stats.json'
+import es from '../generated/es/stats.json'
+import fr from '../generated/fr/stats.json'
+import id from '../generated/id/stats.json'
+import it from '../generated/it/stats.json'
 import ja from '../generated/ja/stats.json'
 import ko from '../generated/ko/stats.json'
-import zhtw from '../generated/zh-tw/stats.json'
-import id from '../generated/id/stats.json'
+import nl from '../generated/nl/stats.json'
+import pl from '../generated/pl/stats.json'
+import ptbr from '../generated/pt-br/stats.json'
+import ptpt from '../generated/pt-pt/stats.json'
+import pt from '../generated/pt/stats.json'
+import ru from '../generated/ru/stats.json'
 import th from '../generated/th/stats.json'
 import zhcn from '../generated/zh-cn/stats.json'
+import zhtw from '../generated/zh-tw/stats.json'
 
 const langs = {
 	'en': en,
@@ -90,7 +89,7 @@ const totalStats = {
  */
 const setsData: Record<string, Record<string, Array<string>>> = {}
 
-function preProcessSets(t: any, lang: SupportedLanguages) {
+function preProcessSets(t: any, lang: keyof typeof langsToName) {
 	objectLoop(t.sets, (sets, serieId: string) => {
 		if (!(serieId in setsData)) {
 			setsData[serieId] = {}
@@ -286,7 +285,7 @@ export default express.Router()
 					</tr>
 
 					<tr>
-						${objectMap(langsToName, (name) => `<th>Cards</th><th>Images</th>`).join('')}
+						${objectMap(langsToName, () => `<th>Cards</th><th>Images</th>`).join('')}
 					</tr>
 				</thead>
 				<tbody>
