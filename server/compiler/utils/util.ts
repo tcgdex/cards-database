@@ -1,5 +1,4 @@
-import glob from 'glob'
-import fetch from 'node-fetch'
+import { glob } from 'glob'
 import { Card, Set, SupportedLanguages } from '../../../interfaces'
 import * as legals from '../../../meta/legals'
 
@@ -18,9 +17,16 @@ const fileCache: fileCacheInterface = {}
  */
 export async function fetchRemoteFile<T = any>(url: string): Promise<T> {
 	if (!fileCache[url]) {
+		const signal = new AbortController()
+
+		const finished = setTimeout(() => {
+			signal.abort()
+		}, 60 * 1000);
+
 		const resp = await fetch(url, {
-			timeout: 60 * 1000
+			signal: signal.signal
 		})
+		clearTimeout(finished)
 		fileCache[url] = resp.json()
 	}
 	return fileCache[url]
@@ -30,9 +36,7 @@ const globCache: Record<string, Array<string>> = {}
 
 export async function smartGlob(query: string): Promise<Array<string>> {
 	if (!globCache[query]) {
-		globCache[query] = await new Promise((res) => {
-			glob(query, (_, matches) => res(matches))
-		})
+		globCache[query] = await glob(query)
 	}
 	return globCache[query]
 }
