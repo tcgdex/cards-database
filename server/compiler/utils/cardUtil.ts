@@ -128,8 +128,7 @@ export async function getCard(serie: string, setName: string, id: string, lang: 
  * @returns An array with the 0 = localId, 1 = Card Object
  */
 export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Array<[string, Card]>> {
-	const dataFolder = ['zh', 'ja'].includes(lang) ? 'data-asia' : 'data'
-	const cards = await smartGlob(`${DB_PATH}/${dataFolder}/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.ts`)
+	const cards = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.ts`)
 	const list: Array<[string, Card]> = []
 	for (const path of cards) {
 		let items = path.split('/')

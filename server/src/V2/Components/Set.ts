@@ -5,22 +5,42 @@ import { handlePagination, handleSort, handleValidation } from '../../util'
 import Card from './Card'
 import Serie from './Serie'
 
-import deSets from '../../../generated/de/sets.json'
-import enSets from '../../../generated/en/sets.json'
-import esSets from '../../../generated/es/sets.json'
-import frSets from '../../../generated/fr/sets.json'
-import itSets from '../../../generated/it/sets.json'
-import jaSets from '../../../generated/ja/sets.json'
-import ptSets from '../../../generated/pt/sets.json'
+import en from '../../../generated/en/sets.json'
+import fr from '../../../generated/fr/sets.json'
+import es from '../../../generated/es/sets.json'
+import it from '../../../generated/it/sets.json'
+import pt from '../../../generated/pt/sets.json'
+import ptbr from '../../../generated/pt-br/sets.json'
+import ptpt from '../../../generated/pt-pt/sets.json'
+import de from '../../../generated/de/sets.json'
+import nl from '../../../generated/nl/sets.json'
+import pl from '../../../generated/pl/sets.json'
+import ru from '../../../generated/ru/sets.json'
+import ja from '../../../generated/ja/sets.json'
+import ko from '../../../generated/ko/sets.json'
+import zhtw from '../../../generated/zh-tw/sets.json'
+import id from '../../../generated/id/sets.json'
+import th from '../../../generated/th/sets.json'
+import zhcn from '../../../generated/zh-cn/sets.json'
 
 const sets = {
-	de: deSets,
-	en: enSets,
-	es: esSets,
-	fr: frSets,
-	it: itSets,
-	ja: jaSets,
-	pt: ptSets
+	'en': en,
+	'fr': fr,
+	'es': es,
+	'it': it,
+	'pt': pt,
+	'pt-br': ptbr,
+	'pt-pt': ptpt,
+	'de': de,
+	'nl': nl,
+	'pl': pl,
+	'ru': ru,
+	'ja': ja,
+	'ko': ko,
+	'zh-tw': zhtw,
+	'id': id,
+	'th': th,
+	'zh-cn': zhcn,
 } as const
 
 interface variants {

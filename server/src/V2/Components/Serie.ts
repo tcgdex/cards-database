@@ -4,22 +4,43 @@ import { Query } from '../../interfaces'
 import { handlePagination, handleSort, handleValidation } from '../../util'
 import Set from './Set'
 
-import deSeries from '../../../generated/de/series.json'
-import enSeries from '../../../generated/en/series.json'
-import esSeries from '../../../generated/es/series.json'
-import frSeries from '../../../generated/fr/series.json'
-import itSeries from '../../../generated/it/series.json'
-import jaSeries from '../../../generated/ja/series.json'
-import ptSeries from '../../../generated/pt/series.json'
+import en from '../../../generated/en/series.json'
+import fr from '../../../generated/fr/series.json'
+import es from '../../../generated/es/series.json'
+import it from '../../../generated/it/series.json'
+import pt from '../../../generated/pt/series.json'
+import ptbr from '../../../generated/pt-br/series.json'
+import ptpt from '../../../generated/pt-pt/series.json'
+import de from '../../../generated/de/series.json'
+import nl from '../../../generated/nl/series.json'
+import pl from '../../../generated/pl/series.json'
+import ru from '../../../generated/ru/series.json'
+import ja from '../../../generated/ja/series.json'
+import ko from '../../../generated/ko/series.json'
+import zhtw from '../../../generated/zh-tw/series.json'
+import id from '../../../generated/id/series.json'
+import th from '../../../generated/th/series.json'
+import zhcn from '../../../generated/zh-cn/series.json'
+
 
 const series = {
-	de: deSeries,
-	en: enSeries,
-	es: esSeries,
-	fr: frSeries,
-	it: itSeries,
-	ja: jaSeries,
-	pt: ptSeries
+	'en': en,
+	'fr': fr,
+	'es': es,
+	'it': it,
+	'pt': pt,
+	'pt-br': ptbr,
+	'pt-pt': ptpt,
+	'de': de,
+	'nl': nl,
+	'pl': pl,
+	'ru': ru,
+	'ja': ja,
+	'ko': ko,
+	'zh-tw': zhtw,
+	'id': id,
+	'th': th,
+	'zh-cn': zhcn,
 } as const
 
 type LocalSerie = Omit<SDKSerie, 'sets'> & {sets: () => Array<Set>}

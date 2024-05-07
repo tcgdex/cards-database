@@ -77,5 +77,5 @@ export function setIsLegal(type: 'standard' | 'expanded', set: Set): boolean {
 }
 
 export function getDataFolder(lang: SupportedLanguages) {
-	return ['zh', 'ja'].includes(lang) ? 'data-asia' : 'data'
+	return ['ja', 'ko', 'zh-tw', 'id', 'th', 'zh-cn'].includes(lang) ? 'data-asia' : 'data'
 }

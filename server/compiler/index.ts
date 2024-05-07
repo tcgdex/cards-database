@@ -3,8 +3,7 @@ import { promises as fs } from 'fs'
 import { SupportedLanguages } from '../../interfaces'
 import { FileFunction } from './compilerInterfaces'
 import { fetchRemoteFile } from './utils/util'
-
-const LANGS: Array<SupportedLanguages> = ['en', 'fr', 'es', 'it', 'pt', 'de', 'ja']
+const LANGS: Array<SupportedLanguages> = ['en', 'fr', 'es', 'it', 'pt', 'pt-br', 'pt-pt', 'de', 'nl', 'pl', 'ru', 'ja', 'ko', 'zh-tw', 'id', 'th', 'zh-cn']
 
 const DIST_FOLDER = './generated'
 
