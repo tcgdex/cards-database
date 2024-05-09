@@ -1,0 +1,15 @@
+import { Card } from "../../../interfaces"
+import Set from "../sv2D"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		ja: "基本草エネルギー"
+	},
+
+	category: "Energy",
+	energyType: "Normal"
+}
+
+export default card

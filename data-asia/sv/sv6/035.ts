@@ -10,7 +10,46 @@ const card: Card = {
 	},
 
 	category: "Pokemon",
-	rarity: "Uncommon"
+	rarity: "Uncommon",
+	illustrator: "Ligton",
+	dexId: [964],
+	hp: 100,
+	types: ["Water"],
+
+	description: {
+		ja: "身体能力は ナミイルカと 変わらないが 仲間の ピンチには 変身して パワーアップするぞ。"
+	},
+
+	stage: "Stage1",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			ja: "マイティチェンジ"
+		},
+
+		effect: {
+			ja: "自分の番に、このポケモンがバトル場からベンチにもどったとき、1回使える。自分の山札から「イルカマンex」を1枚選び、このカードと入れ替える（ついているカード・ダメカン・特殊状態・効果などは、すべて引きつぐ）。入れ替えたなら、このカードは山札にもどす。そして山札を切る。"
+		}
+	}],
+
+	attacks: [{
+		cost: ["Water", "Colorless"],
+
+		name: {
+			ja: "スプラッシュ"
+		},
+
+		damage: 30
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	retreat: 1
 }
 
 export default card

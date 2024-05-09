@@ -10,7 +10,37 @@ const card: Card = {
 	},
 
 	category: "Pokemon",
-	rarity: "Common"
+	rarity: "Common",
+	illustrator: "Scav",
+	dexId: [885],
+	hp: 70,
+	types: ["Dragon"],
+
+	description: {
+		ja: "食べもしないのに ウデッポウに 食らいつくのは 生きていたころの 行動の 名残りと 言われている。"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Psychic"],
+
+		name: {
+			ja: "ちょっとうらむ"
+		},
+
+		damage: 10
+	}, {
+		cost: ["Fire", "Psychic"],
+
+		name: {
+			ja: "かみつく"
+		},
+
+		damage: 40
+	}],
+
+	retreat: 1
 }
 
 export default card

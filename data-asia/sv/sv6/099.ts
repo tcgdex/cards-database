@@ -14,7 +14,15 @@ const card: Card = {
 
 	description: {
 
-	}
+	},
+
+	illustrator: "MARINA Chikazawa",
+
+	effect: {
+		ja: "エネルギーがついているおたがいのポケモン全員は、特殊状態にならず、受けている特殊状態は、すべて回復する。"
+	},
+
+	trainerType: "Stadium"
 }
 
 export default card

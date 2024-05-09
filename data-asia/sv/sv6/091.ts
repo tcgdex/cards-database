@@ -14,7 +14,15 @@ const card: Card = {
 
 	description: {
 
-	}
+	},
+
+	illustrator: "AYUMI ODASHIMA",
+
+	effect: {
+		ja: "相手の山札を上から5枚オモテにして、その中からたねポケモンを好きなだけ選び、相手のベンチに出す。残りのカードは山札にもどして切る。"
+	},
+
+	trainerType: "Item"
 }
 
 export default card

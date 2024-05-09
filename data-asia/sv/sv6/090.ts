@@ -14,7 +14,15 @@ const card: Card = {
 
 	description: {
 
-	}
+	},
+
+	illustrator: "5ban Graphics",
+
+	effect: {
+		ja: "自分のトラッシュから、名前に「オーガポン」とつく「ポケモンex」を1枚選び、自分の場の、名前に「オーガポン」とつく「ポケモンex」1匹と入れ替える（ついているカード・ダメカン・特殊状態・効果などは、すべて引きつぐ）。入れ替えたポケモンはトラッシュする。"
+	},
+
+	trainerType: "Item"
 }
 
 export default card

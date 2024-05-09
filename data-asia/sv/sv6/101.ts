@@ -9,7 +9,14 @@ const card: Card = {
 		ja: "レガシーエネルギー"
 	},
 
-	category: "Energy"
+	category: "Energy",
+	illustrator: "5ban Graphics",
+
+	effect: {
+		ja: "このカードは、ポケモンについているかぎり、すべてのタイプのエネルギー1個ぶんとしてはたらく。\n\nこのカードをつけているポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、とられるサイドは1枚少なくなる。対戦中、自分の「レガシーエネルギー」のこの効果は、1回しかはたらかない。"
+	},
+
+	energyType: "Special"
 }
 
 export default card

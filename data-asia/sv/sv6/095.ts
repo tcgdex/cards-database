@@ -9,7 +9,14 @@ const card: Card = {
 	},
 
 	category: "Trainer",
-	rarity: "Uncommon"
+	rarity: "Uncommon",
+	illustrator: "Toyste Beach",
+
+	effect: {
+		ja: "このカードをつけているポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンについているエネルギーを1個選び、相手のベンチポケモンにつけ替える。"
+	},
+
+	trainerType: "Tool"
 }
 
 export default card

@@ -13,7 +13,15 @@ const card: Card = {
 
 	description: {
 
-	}
+	},
+
+	illustrator: "Toyste Beach",
+
+	effect: {
+		ja: "このカードは、自分の手札を3枚トラッシュしなければ使えない。\n\n自分の山札から「グッズ」「ポケモンのどうぐ」「サポート」「スタジアム」を1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。"
+	},
+
+	trainerType: "Item"
 }
 
 export default card

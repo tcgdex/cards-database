@@ -14,7 +14,15 @@ const card: Card = {
 
 	description: {
 
-	}
+	},
+
+	illustrator: "AYUMI ODASHIMA",
+
+	effect: {
+		ja: "おたがいのポケモン全員についている「ポケモンのどうぐ」の効果は、すべてなくなる。"
+	},
+
+	trainerType: "Stadium"
 }
 
 export default card

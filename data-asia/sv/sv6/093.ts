@@ -13,7 +13,15 @@ const card: Card = {
 
 	description: {
 
-	}
+	},
+
+	illustrator: "Toyste Beach",
+
+	effect: {
+		ja: "自分の場のポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。"
+	},
+
+	trainerType: "Item"
 }
 
 export default card
