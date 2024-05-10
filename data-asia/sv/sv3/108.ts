@@ -12,7 +12,7 @@ const card: Card = {
 
 	illustrator: "Oswaldo KATO",
 	rarity: "Uncommon",
-	category: "Energy",
+	category: "Trainer",
 
 	effect: {
 		ja: "おたがいの場のたねポケモンがワザを使うためのエネルギーは、それぞれエネルギー1個ぶん多くなる。",

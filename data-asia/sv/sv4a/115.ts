@@ -45,7 +45,6 @@ const card: Card = {
 			'zh-tw': "燃燒黑暗",
 			th: "เบิร์นนิงดาร์ก",
 			id: "Burning Dark"
-
 		},
 
 		effect: {

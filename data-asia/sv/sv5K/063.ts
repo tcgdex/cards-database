@@ -12,7 +12,7 @@ const card: Card = {
 
 	illustrator: "AYUMI ODASHIMA",
 	rarity: "Uncommon",
-	category: "Energy",
+	category: "Trainer",
 
 	effect: {
 		ja: "自分の山札から、HPが「70」以下のたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
@@ -21,8 +21,7 @@ const card: Card = {
 	},
 
 	trainerType: "Item",
-	regulationMark: "H",
-	energyType: "Normal"
+	regulationMark: "H"
 }
 
 export default card

@@ -37,7 +37,7 @@ const card: Card = {
 			id: "Putaran Beruntun"
 		},
 
-		damage: 50,
+		damage: "50×",
 
 		effect: {
 			ja: "ウラが出るまでコインを投げ、オモテの数×50ダメージ。",

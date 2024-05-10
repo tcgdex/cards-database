@@ -37,7 +37,7 @@ const card: Card = {
 			id: "Main di Kuburan"
 		},
 
-		damage: 10,
+		damage: "10×",
 
 		effect: {
 			ja: "自分のトラッシュにあるポケモンの枚数×10ダメージ。",

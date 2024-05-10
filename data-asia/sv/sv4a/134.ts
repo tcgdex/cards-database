@@ -8,7 +8,8 @@ const card: Card = {
 		ja: "オンバット",
 		'zh-tw': "嗡蝠",
 		th: "ออนแบท",
-		id: "Noibat"
+		id: "Noibat",
+		'zh-cn': "嗡蝠"
 	},
 
 	illustrator: "chibi",
@@ -21,7 +22,8 @@ const card: Card = {
 		ja: "大きな 耳から 超音波を 出して エサの 果物を 探す。 カジッチュを エサと 間違える。",
 		'zh-tw': "從大大的耳朵發出超音波，尋找水果來填飽肚子。 會把啃果蟲誤認成食物。",
 		th: "ปล่อยคลื่นความถี่สูงจากหูใหญ่เพื่อค้นหาผลไม้ ชอบหลงคิดว่าคาจิชชูเป็นอาหาร",
-		id: "Noibat mengeluarkan gelombang ultrasonik dari kuping besarnya untuk mencari buah makanannya. Ia keliru mengira Applin sebagai makanannya."
+		id: "Noibat mengeluarkan gelombang ultrasonik dari kuping besarnya untuk mencari buah makanannya. Ia keliru mengira Applin sebagai makanannya.",
+		'zh-cn': "從大大的耳朵發出超音波，尋找水果來填飽肚子。 會把啃果蟲誤認成食物。"
 	},
 
 	stage: "Basic",
@@ -33,7 +35,8 @@ const card: Card = {
 			ja: "かぜおこし",
 			'zh-tw': "起風",
 			th: "เรียกลม",
-			id: "Hembusan Angin"
+			id: "Hembusan Angin",
+			'zh-cn': "起風"
 		},
 
 		damage: 40

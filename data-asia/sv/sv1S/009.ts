@@ -48,7 +48,7 @@ const card: Card = {
 			id: "Tembakan Terkonsentrasi"
 		},
 
-		damage: 80,
+		damage: "80×",
 
 		effect: {
 			ja: "このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数×80ダメージ。",

@@ -8,7 +8,8 @@ const card: Card = {
 		ja: "ドードー",
 		'zh-tw': "嘟嘟",
 		th: "โดโด",
-		id: "Doduo"
+		id: "Doduo",
+		'zh-cn': "嘟嘟"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -21,7 +22,8 @@ const card: Card = {
 		ja: "２つの 頭の 脳みそは テレパシーのような 力で 気持ちを 通じ合わせているらしい。",
 		'zh-tw': "２個腦袋好像會用類似心靈感應的力量， 來傳遞彼此的想法。",
 		th: "ดูเหมือนว่าสมองในหัวทั้งสองนั้นจะสื่อความรู้สึกถึงกันได้ด้วยพลังคล้ายโทรจิต",
-		id: "Kabarnya otak pada 2 kepala Doduo saling menyalurkan perasaan dengan kekuatan yang seperti telepati."
+		id: "Kabarnya otak pada 2 kepala Doduo saling menyalurkan perasaan dengan kekuatan yang seperti telepati.",
+		'zh-cn': "２個腦袋好像會用類似心靈感應的力量， 來傳遞彼此的想法。"
 	},
 
 	stage: "Basic",
@@ -33,7 +35,8 @@ const card: Card = {
 			ja: "とつげき",
 			'zh-tw': "突擊",
 			th: "ประจัญบาน",
-			id: "Menyerang"
+			id: "Menyerang",
+			'zh-cn': "突擊"
 		},
 
 		damage: 30,
@@ -42,7 +45,8 @@ const card: Card = {
 			ja: "このポケモンにも10ダメージ。",
 			'zh-tw': "這隻寶可夢也受到10點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			id: "Pokémon ini juga menerima kerusakan sejumlah 10.",
+			'zh-cn': "這隻寶可夢也受到10點傷害。"
 		}
 	}],
 

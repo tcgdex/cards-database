@@ -55,7 +55,7 @@ const card: Card = {
 			id: "Triple Smash"
 		},
 
-		damage: 80,
+		damage: "80×",
 
 		effect: {
 			ja: "コインを3回投げ、オモテの数×80ダメージ。",

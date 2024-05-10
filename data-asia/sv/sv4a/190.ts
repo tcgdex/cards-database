@@ -20,7 +20,7 @@ const card: Card = {
 		id: "Kartu ini berlaku sebagai 1 Energi semua tipe selama dikenakan pada Pokémon. Jika Pokémon yang mengenakan kartu ini mengenakan Energi Spesial selain kartu ini, kartu ini berlaku sebagai 1 Energi {Bening}."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "G"
 }
 

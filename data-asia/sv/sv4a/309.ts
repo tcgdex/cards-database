@@ -10,7 +10,7 @@ const card: Card = {
 		id: "Ditto"
 	},
 
-	illustrator: "313",
+	illustrator: "0313",
 	category: "Pokemon",
 	dexId: [132],
 	hp: 60,

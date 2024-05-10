@@ -37,7 +37,7 @@ const card: Card = {
 			id: "Serangan Ganda"
 		},
 
-		damage: 30,
+		damage: "30×",
 
 		effect: {
 			ja: "コインを2回投げ、オモテの数×30ダメージ。",

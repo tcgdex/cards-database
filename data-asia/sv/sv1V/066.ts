@@ -48,7 +48,7 @@ const card: Card = {
 			id: "Family Attack"
 		},
 
-		damage: 70,
+		damage: "70×",
 
 		effect: {
 			ja: "自分の場の「イッカネズミ」の数×70ダメージ。",

@@ -21,8 +21,7 @@ const card: Card = {
 		id: "Kartu ini berlaku sebagai 1 Energi {Bening} selama dikenakan pada Pokémon. Saat kartu ini dikenakan dari Kartu Pegangan pada Pokémon Cadangan, tukar Pokémon yang telah dikenakan kartu ini dengan Pokémon Bertarung."
 	},
 
-	energyType: "Normal",
-	illustrator: "n/a",
+	energyType: "Special",
 	regulationMark: "G"
 }
 

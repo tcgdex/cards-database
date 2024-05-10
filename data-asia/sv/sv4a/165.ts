@@ -8,7 +8,8 @@ const card: Card = {
 		ja: "大きなふうせん",
 		'zh-tw': "大氣球",
 		th: "ลูกโป่งยักษ์",
-		id: "Balon Besar[Pokémon Tool]"
+		id: "Balon Besar[Pokémon Tool]",
+		'zh-cn': "大氣球"
 	},
 
 	illustrator: "Toyste Beach",
@@ -18,7 +19,8 @@ const card: Card = {
 		ja: "このカードをつけている2進化ポケモンのにげるためのエネルギーは、すべてなくなる。",
 		'zh-tw': "附有這張卡的【2階進化】寶可夢【撤退】所需的能量全部消除。",
 		th: "พลังงานสำหรับ[หนี]ของโปเกมอน[ร่าง2] ที่ติดการ์ดนี้อยู่ ทั้งหมดจะหายไป",
-		id: "Pokémon Stage 2 yang mengenakan kartu ini menjadi tidak membutuhkan Energi untuk Mundur."
+		id: "Pokémon Stage 2 yang mengenakan kartu ini menjadi tidak membutuhkan Energi untuk Mundur.",
+		'zh-cn': "附有這張卡的【2階進化】寶可夢【撤退】所需的能量全部消除。"
 	},
 
 	trainerType: "Tool",

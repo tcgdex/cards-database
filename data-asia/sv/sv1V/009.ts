@@ -37,7 +37,7 @@ const card: Card = {
 			id: "Tendangan Tidak Teratur"
 		},
 
-		damage: 10,
+		damage: "10×",
 
 		effect: {
 			ja: "コインを3回投げ、オモテの数×10ダメージ。",

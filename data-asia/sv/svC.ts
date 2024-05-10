@@ -4,7 +4,7 @@ import serie from '../sv'
 const set: Set = {
 	id: 'svC',
 	name: {
-		'zh-tw': '皮卡丘特別組合',
+		'zh-tw': '皮卡丘特別組合'
 	},
 
 	serie: serie,

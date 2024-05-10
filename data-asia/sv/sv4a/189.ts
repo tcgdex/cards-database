@@ -20,7 +20,7 @@ const card: Card = {
 		id: "Kartu ini berlaku sebagai 1 Energi {Bening} selama dikenakan pada Pokémon. Jika sisa Kartu Point sendiri lebih banyak dari sisa Kartu Point lawan, kartu ini berlaku sebagai 3 Energi semua tipe selama dikenakan pada Pokémon Evolusi (selain Pokémon yang memiliki Peraturan)."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "G"
 }
 

@@ -47,7 +47,7 @@ const card: Card = {
 			id: "Poltergeist"
 		},
 
-		damage: 60,
+		damage: "60×",
 
 		effect: {
 			ja: "相手の手札を見て、その中にあるトレーナーズの枚数×60ダメージ。",

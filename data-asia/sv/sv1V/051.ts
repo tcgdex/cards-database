@@ -37,7 +37,7 @@ const card: Card = {
 			id: "Tinju Amarah"
 		},
 
-		damage: 70,
+		damage: "70×",
 
 		effect: {
 			ja: "相手がすでにとったサイドの枚数×70ダメージ。",

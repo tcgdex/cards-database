@@ -8,7 +8,8 @@ const card: Card = {
 		ja: "ワッカネズミ",
 		'zh-tw': "一對鼠",
 		th: "วักคาเนซูมิ",
-		id: "Tandemaus"
+		id: "Tandemaus",
+		'zh-cn': "一對鼠"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -21,7 +22,8 @@ const card: Card = {
 		ja: "息の合った コンビネーションで 巣の 材料に なりそうなものを 前歯で 切り出して 運び去る。",
 		'zh-tw': "會以絕佳的團隊合作，把能當成巢穴建材的東西 用門牙切斷後搬走。",
 		th: "ใช้ฟันหน้าตัดวัสดุที่น่าจะนำมาทำรังได้แล้วแบกกลับไปอย่างพร้อมเพรียง",
-		id: "Dengan kombinasi yang serasi, pasangan Tandemaus memotong benda yang kelihatannya dapat dijadikan bahan-bahan untuk membuat sarang menggunakan gigi depan dan membawanya."
+		id: "Dengan kombinasi yang serasi, pasangan Tandemaus memotong benda yang kelihatannya dapat dijadikan bahan-bahan untuk membuat sarang menggunakan gigi depan dan membawanya.",
+		'zh-cn': "會以絕佳的團隊合作，把能當成巢穴建材的東西 用門牙切斷後搬走。"
 	},
 
 	stage: "Basic",
@@ -33,14 +35,16 @@ const card: Card = {
 			ja: "もってくる",
 			'zh-tw': "呼喚",
 			th: "รวบรวม",
-			id: "Mengumpulkan"
+			id: "Mengumpulkan",
+			'zh-cn': "呼喚"
 		},
 
 		effect: {
 			ja: "自分の山札を2枚引く。",
 			'zh-tw': "從自己的牌庫抽出2張卡。",
 			th: "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา",
-			id: "Ambil 2 kartu dari atas Deck sendiri."
+			id: "Ambil 2 kartu dari atas Deck sendiri.",
+			'zh-cn': "從自己的牌庫抽出2張卡。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -49,7 +53,8 @@ const card: Card = {
 			ja: "ひっぱたく",
 			'zh-tw': "重摑",
 			th: "ตบแรง",
-			id: "Menepuk"
+			id: "Menepuk",
+			'zh-cn': "重摑"
 		},
 
 		damage: 30

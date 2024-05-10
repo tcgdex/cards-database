@@ -8,7 +8,8 @@ const card: Card = {
 		ja: "オンバーンex",
 		'zh-tw': "音波龍ex",
 		th: "ออนเวิร์นex",
-		id: "Noivern ex"
+		id: "Noivern ex",
+		'zh-cn': "音波龍ex"
 	},
 
 	illustrator: "Nisota Niso",
@@ -26,7 +27,8 @@ const card: Card = {
 			ja: "おんみつひこう",
 			'zh-tw': "隱密飛行",
 			th: "บินซ่อนเร้น",
-			id: "Terbang Gaib"
+			id: "Terbang Gaib",
+			'zh-cn': "隱密飛行"
 		},
 
 		damage: 70,
@@ -35,7 +37,8 @@ const card: Card = {
 			ja: "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。",
 			'zh-tw': "在下個對手的回合，這隻寶可夢不會受到【基礎】寶可夢招式的傷害。",
 			th: "เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนนี้จะไม่ได้รับแดเมจของท่าต่อสู้จากโปเกมอน[พื้นฐาน]",
-			id: "Pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon Basic."
+			id: "Pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon Basic.",
+			'zh-cn': "在下個對手的回合，這隻寶可夢不會受到【基礎】寶可夢招式的傷害。"
 		}
 	}, {
 		cost: ["Psychic", "Darkness"],
@@ -44,7 +47,8 @@ const card: Card = {
 			ja: "ドミネートエコー",
 			'zh-tw': "制控迴響",
 			th: "ดอมิเนตเอคโค",
-			id: "Dominate Echo"
+			id: "Dominate Echo",
+			'zh-cn': "制控迴響"
 		},
 
 		damage: 140,
@@ -53,7 +57,8 @@ const card: Card = {
 			ja: "次の相手の番、相手は手札から特殊エネルギーを出してつけられず、スタジアムも出せない。",
 			'zh-tw': "在下個對手的回合，對手無法從手牌附上特殊能量卡，也無法使出競技場卡。",
 			th: "เทิร์นถัดไปของฝ่ายตรงข้าม ฝ่ายตรงข้ามไม่สามารถนำการ์ดพลังงานพิเศษจากบนมือออกมาติดได้ และไม่สามารถนำการ์ดสเตเดียมออกมาได้ด้วยเช่นกัน",
-			id: "Pada giliran lawan berikutnya, lawan tidak dapat mengenakan Energi Spesial maupun memasukkan Stadium dari Kartu Pegangan."
+			id: "Pada giliran lawan berikutnya, lawan tidak dapat mengenakan Energi Spesial maupun memasukkan Stadium dari Kartu Pegangan.",
+			'zh-cn': "在下個對手的回合，對手無法從手牌附上特殊能量卡，也無法使出競技場卡。"
 		}
 	}],
 

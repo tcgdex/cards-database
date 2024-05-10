@@ -29,7 +29,7 @@ const card: Card = {
 			id: "Energy Crush"
 		},
 
-		damage: 50,
+		damage: "50×",
 
 		effect: {
 			ja: "相手のポケモン全員についているエネルギーの数×50ダメージ。",

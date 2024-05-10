@@ -21,8 +21,7 @@ const card: Card = {
 		id: "Kartu ini berlaku sebagai 1 Energi {Bening} selama dikenakan pada Pokémon. Pokémon yang mengenakan kartu ini tidak akan menjadi Tidur, Lumpuh, atau Pusing dan jika sedang mengalami kondisi Tidur, Lumpuh, atau Pusing, pulihkan kondisi Tidur, Lumpuh, atau Pusing yang dialami Pokémon tersebut."
 	},
 
-	energyType: "Normal",
-	illustrator: "n/a",
+	energyType: "Special",
 	regulationMark: "G"
 }
 

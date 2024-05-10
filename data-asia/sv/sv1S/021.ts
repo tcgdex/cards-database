@@ -37,7 +37,7 @@ const card: Card = {
 			id: "Kemarahan Menghambur"
 		},
 
-		damage: 50,
+		damage: "50×",
 
 		effect: {
 			ja: "自分のトラッシュにある「シャリタツ」の枚数×50ダメージ。",

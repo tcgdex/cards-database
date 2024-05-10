@@ -10,7 +10,7 @@ const card: Card = {
 		th: "โจโรเนโกะ"
 	},
 
-	illustrator: "313",
+	illustrator: "0313",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [509],

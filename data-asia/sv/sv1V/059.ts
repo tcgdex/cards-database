@@ -48,7 +48,7 @@ const card: Card = {
 			id: "Menggelindingkan Telur"
 		},
 
-		damage: 60,
+		damage: "60×",
 
 		effect: {
 			ja: "ウラが出るまでコインを投げ、オモテの数×60ダメージ。",

@@ -48,7 +48,7 @@ const card: Card = {
 			id: "Balloon Bomb"
 		},
 
-		damage: 30,
+		damage: "30×",
 
 		effect: {
 			ja: "このポケモンにのっているダメカンの数×30ダメージ。",
