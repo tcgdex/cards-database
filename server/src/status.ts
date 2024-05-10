@@ -222,7 +222,7 @@ export default express.Router()
 					<td>${(100 * totalStats.count / totalStats.total).toFixed(2)}%</td>
 				</tr><tr>
 					<td>Remaining</td>
-					${objectMap(langs, (it) => `<td>${it.total} of ${it.total}</td>`).join('')}
+					${objectMap(langs, (it) => `<td>${it.total - it.count}</td>`).join('')}
 					<td>${totalStats.total - totalStats.count}</td>
 				</tr>
 
