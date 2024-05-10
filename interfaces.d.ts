@@ -58,6 +58,7 @@ export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
 'Grass' | 'Lightning' | 'Metal' |
 'Psychic' | 'Water'
 
+type ISODate = `${number}-${number}-${number}`
 
 export interface Set {
 	id: string
@@ -69,7 +70,7 @@ export interface Set {
 		official: number
 	}
 
-	releaseDate: string
+	releaseDate: ISODate | Languages<ISODate>
 }
 
 export interface Card {

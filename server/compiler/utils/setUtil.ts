@@ -1,3 +1,4 @@
+import { objectKeys } from '@dzeio/object-util'
 import { Set, SupportedLanguages } from '../../../interfaces'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
 import { cardToCardSimple, getCards } from './cardUtil'
@@ -93,7 +94,7 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 		},
 		logo: pics[0],
 		name: set.name[lang] as string,
-		releaseDate: set.releaseDate,
+		releaseDate: typeof set.releaseDate === 'object' ? set.releaseDate[lang] ?? set.releaseDate[objectKeys(set.releaseDate)[0]]! : set.releaseDate,
 		serie: {
 			id: set.serie.id,
 			name: set.serie.name[lang] as string
