@@ -1,0 +1,18 @@
+import { Set } from '../../interfaces'
+import serie from '../sv'
+
+const set: Set = {
+	id: 'sc2a',
+	name: {
+		'zh-tw': '無極力量 SET A',
+	},
+
+	serie: serie,
+
+	cardCount: {
+		official: 145
+	},
+	releaseDate: '2020-08-21'
+}
+
+export default set
