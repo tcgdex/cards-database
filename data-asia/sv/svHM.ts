@@ -2,23 +2,22 @@ import { Set } from '../../interfaces'
 import serie from '../sv'
 
 const set: Set = {
-	id: 'sv5K',
+	id: 'svHM',
 	name: {
-		ja: 'ワイルドフォース',
-		ko: '와일드포스',
-		'zh-tw': '狂野之力',
-		th: 'อำนาจอนารยะ'
+		'zh-tw': '閃色寶藏ex',
+		th: 'มิไรดอนex อนาคต',
+		id: 'Miraidon ex Futur'
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 71
+		official: 22
 	},
 	releaseDate: {
-		ja: '2024-01-26',
 		'zh-tw': '2024-02-02',
-		th: '2024-02-23'
+		id: '2024-04-26',
+		th: '2024-03-29'
 	}
 }
 

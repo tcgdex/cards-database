@@ -5,17 +5,20 @@ const set: Set = {
 	id: 'sv5a',
 	name: {
 		ja: 'クリムゾンヘイズ',
-		'zh-tw': '緋紅薄霧'
+		'zh-tw': '緋紅薄霧',
+		th: 'หมอกสีชาด'
 	},
 
 	serie: serie,
 
-	// TODO: fill the rest
-
 	cardCount: {
-		official: 101
+		official: 66
 	},
-	releaseDate: '2024-04-26'
+	releaseDate: {
+		ja: '2024-03-22',
+		'zh-tw': '2024-04-03',
+		th: '2024-04-26'
+	}
 }
 
 export default set

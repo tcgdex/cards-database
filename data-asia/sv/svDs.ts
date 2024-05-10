@@ -2,7 +2,7 @@ import { Set } from '../../interfaces'
 import serie from '../sv'
 
 const set: Set = {
-	id: 'svDs I',
+	id: 'svDs',
 	name: {
 		id: 'Deck Ringkas ex',
 		th: 'ex คอมแพกต์เด็ค'
@@ -10,12 +10,10 @@ const set: Set = {
 
 	serie: serie,
 
-	// TODO: fill the rest
-
 	cardCount: {
-		official: 101
+		official: 163
 	},
-	releaseDate: '2024-04-26'
+	releaseDate: '2023-11-10'
 }
 
 export default set

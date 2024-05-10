@@ -12,12 +12,14 @@ const set: Set = {
 
 	serie: serie,
 
-	// TODO: fill the rest
-
 	cardCount: {
-		official: 101
+		official: 108
 	},
-	releaseDate: '2024-04-26'
+	releaseDate: {
+		ja: '2023-07-28',
+		'zh-tw': '2023-08-11',
+		th: '2023-09-29'
+	}
 }
 
 export default set

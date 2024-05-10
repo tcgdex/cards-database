@@ -2,20 +2,17 @@ import { Set } from '../../interfaces'
 import serie from '../sv'
 
 const set: Set = {
-	id: 'sv6',
+	id: 'sv3s',
 	name: {
-		ja: '変幻の仮面'
+		id: 'Kilau Hitam',
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 101
+		official: 170
 	},
-	releaseDate: {
-		ja: '2024-04-26',
-		'zh-tw': '2024-05-10'
-	}
+	releaseDate: '2023-10-27'
 }
 
 export default set

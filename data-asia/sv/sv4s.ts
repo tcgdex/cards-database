@@ -2,19 +2,17 @@ import { Set } from '../../interfaces'
 import serie from '../sv'
 
 const set: Set = {
-	id: 'sv5s I',
+	id: 'sv4s',
 	name: {
-		id: 'Paradoks Andalan',
+		id: 'Pertemuan Paradoks',
 	},
 
 	serie: serie,
 
-	// TODO: fill the rest
-
 	cardCount: {
-		official: 101
+		official: 132
 	},
-	releaseDate: '2024-04-26'
+	releaseDate: '2023-12-15'
 }
 
 export default set
