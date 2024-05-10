@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "バネブー"
+		ja: "バネブー",
+		'zh-tw': "跳跳豬"
 	},
 
 	illustrator: "GOSSAN",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "飛び跳ねていないと 死んでしまう。 頭に 乗せている 真珠が サイコパワーを 増幅させるのだ。"
+		ja: "飛び跳ねていないと 死んでしまう。 頭に 乗せている 真珠が サイコパワーを 増幅させるのだ。",
+		'zh-tw': "如果不保持跳動就會死亡。戴在頭上的珍珠能讓 自己的精神力量增強。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "はねる"
+			ja: "はねる",
+			'zh-tw': "躍起"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ぶつかる"
+			ja: "ぶつかる",
+			'zh-tw': "衝撞"
 		},
 
 		damage: 20
@@ -46,10 +50,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イワパレス"
+		ja: "イワパレス",
+		'zh-tw': "岩殿居蟹"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "太い ツメが 最大の 武器。 ドサイドンの プロテクターにさえ ひびを 入れるほど 硬いぞ。"
+		ja: "太い ツメが 最大の 武器。 ドサイドンの プロテクターにさえ ひびを 入れるほど 硬いぞ。",
+		'zh-tw': "厚實的鉗子是牠最大的武器。硬度高到甚至能讓 超甲狂犀的護具裂開。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "がちんこ"
+			ja: "がちんこ",
+			'zh-tw': "正面對決"
 		},
 
 		damage: 50
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			ja: "がんぺきバッシュ"
+			ja: "がんぺきバッシュ",
+			'zh-tw': "峭壁猛擊"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "次の相手の番、このポケモンが進化ポケモンから受けるワザのダメージは「-100」される。"
+			ja: "次の相手の番、このポケモンが進化ポケモンから受けるワザのダメージは「-100」される。",
+			'zh-tw': "在下個對手的回合，這隻寶可夢受到進化寶可夢招式的傷害「-100」點。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

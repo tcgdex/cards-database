@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シビシラス"
+		ja: "シビシラス",
+		'zh-tw': "麻麻小魚"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "１匹の 電力は 小さいが たくさんの シビシラスが つながると 雷と 同じ 威力になる。"
+		ja: "１匹の 電力は 小さいが たくさんの シビシラスが つながると 雷と 同じ 威力になる。",
+		'zh-tw': "１隻的電力雖小，但只要多隻麻麻小魚聚集在一起，威力便可媲美雷電。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "バチバチ"
+			ja: "バチバチ",
+			'zh-tw': "劈哩啪啦"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "プチボルト"
+			ja: "プチボルト",
+			'zh-tw': "小伏特"
 		},
 
 		damage: 30
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

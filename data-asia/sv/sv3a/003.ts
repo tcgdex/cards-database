@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テッポウオ"
+		ja: "テッポウオ",
+		'zh-tw': "鐵炮魚"
 	},
 
 	illustrator: "Midori Harada",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "吸盤の ように 変化した 背びれで マンタインに くっつき 食べ残しを わけてもらっている。"
+		ja: "吸盤の ように 変化した 背びれで マンタインに くっつき 食べ残しを わけてもらっている。",
+		'zh-tw': "會用變成吸盤狀的背鰭吸附在巨翅飛魚身上， 吃牠平常吃剩下的東西。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "うちみず"
+			ja: "うちみず",
+			'zh-tw': "潑灑清水"
 		},
 
 		damage: 10
@@ -36,7 +39,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

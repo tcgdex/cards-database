@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ポッポ"
+		ja: "ポッポ",
+		'zh-tw': "波波"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "戦いを 好まない おとなしい 性格だが 下手に 手を 出すと 強烈に 反撃されるぞ。"
+		ja: "戦いを 好まない おとなしい 性格だが 下手に 手を 出すと 強烈に 反撃されるぞ。",
+		'zh-tw': "雖然性情溫和不愛戰鬥，但要是隨意對牠出手的話， 就會受到牠強烈的反擊。"
 	},
 
 	stage: "Basic",
@@ -24,17 +26,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "なかまをよぶ"
+			ja: "なかまをよぶ",
+			'zh-tw': "呼朋引伴"
 		},
 
 		effect: {
-			ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
+			ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+			'zh-tw': "從自己的牌庫選擇最多2張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "たいあたり"
+			ja: "たいあたり",
+			'zh-tw': "撞擊"
 		},
 
 		damage: 20
@@ -47,10 +52,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

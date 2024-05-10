@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "ユンゲラー"
+		ja: "ユンゲラー",
+		'zh-tw': "勇基拉"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "サイコパワーで 宙に 浮いたまま 眠る。 弾力に 優れた しっぽを 枕がわりに するぞ。"
+		ja: "サイコパワーで 宙に 浮いたまま 眠る。 弾力に 優れた しっぽを 枕がわりに するぞ。",
+		'zh-tw': "會用精神力量浮在空中睡覺。 牠還會把彈力十足的尾巴 當成枕頭用喔。"
 	},
 
 	stage: "Stage1",
@@ -26,13 +27,15 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "サイコキネシス"
+			ja: "サイコキネシス",
+			'zh-tw': "精神強念"
 		},
 
-		damage: "10＋",
+		damage: "10+",
 
 		effect: {
-			ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。"
+			ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+			'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×30點傷害。"
 		}
 	}],
 
@@ -43,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

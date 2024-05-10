@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マラカッチ"
+		ja: "マラカッチ",
+		'zh-tw': "沙鈴仙人掌"
 	},
 
 	illustrator: "Masako Tomii",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "１年に 一度 種を まく。 花の 種は 栄養満点で 砂漠の 貴重な 食料。"
+		ja: "１年に 一度 種を まく。 花の 種は 栄養満点で 砂漠の 貴重な 食料。",
+		'zh-tw': "一年散播一次種子。花的種子營養十足， 是沙漠中貴重的食糧。"
 	},
 
 	stage: "Basic",
@@ -25,23 +27,27 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ダブルドロー"
+			ja: "ダブルドロー",
+			'zh-tw': "雙重抽出"
 		},
 
 		effect: {
-			ja: "自分の山札を2枚引く。"
+			ja: "自分の山札を2枚引く。",
+			'zh-tw': "從自己的牌庫抽出2張卡。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ミサイルばり"
+			ja: "ミサイルばり",
+			'zh-tw': "飛彈針"
 		},
 
 		damage: "30×",
 
 		effect: {
-			ja: "コインを4回投げ、オモテの数×30ダメージ。"
+			ja: "コインを4回投げ、オモテの数×30ダメージ。",
+			'zh-tw': "擲4次硬幣，造成正面出現的次數×30點傷害。"
 		}
 	}],
 
@@ -50,7 +56,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

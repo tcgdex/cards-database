@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "フカマル"
+		ja: "フカマル",
+		'zh-tw': "圓陸鯊"
 	},
 
 	illustrator: "saino misaki",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "穴倉に 潜み 獲物や 敵が 横切ると 飛びだして 噛みつく。 勢い余り 歯が 欠けることも。"
+		ja: "穴倉に 潜み 獲物や 敵が 横切ると 飛びだして 噛みつく。 勢い余り 歯が 欠けることも。",
+		'zh-tw': "潛伏在地洞內，如果有獵物或敵人經過，就會撲出來咬住。 有時會用力過猛而咬壞牙齒。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "かみつく"
+			ja: "かみつく",
+			'zh-tw': "咬住"
 		},
 
 		damage: 20
@@ -36,7 +39,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

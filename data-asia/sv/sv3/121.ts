@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コオリッポex"
+		ja: "コオリッポex",
+		'zh-tw': "冰砌鵝ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,13 +20,15 @@ const card: Card = {
 		cost: ["Water", "Water", "Water"],
 
 		name: {
-			ja: "アツアツブロック"
+			ja: "アツアツブロック",
+			'zh-tw': "熱熱冰塊"
 		},
 
 		damage: 160,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。次の相手の番、このワザを受けたポケモンは、ワザが使えない。"
+			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
+			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。在下個對手的回合，受到這個招式的寶可夢無法使用招式。"
 		}
 	}],
 
@@ -34,7 +37,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

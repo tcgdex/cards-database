@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "エレザード"
+		ja: "エレザード",
+		'zh-tw': "光電傘蜥"
 	},
 
 	illustrator: "Atsuya Uki",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "かつて 滅びた 砂漠の 国で 大事に されていた。 財宝と ともに ガラル地方へ やってきた。"
+		ja: "かつて 滅びた 砂漠の 国で 大事に されていた。 財宝と ともに ガラル地方へ やってきた。",
+		'zh-tw': "在如今已滅亡的沙漠之國曾經是人們珍視的對象。 和財寶一起來到了伽勒爾地區。"
 	},
 
 	stage: "Stage1",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "ワイルドボルト"
+			ja: "ワイルドボルト",
+			'zh-tw': "瘋狂伏特"
 		},
 
 		damage: 70,
 
 		effect: {
-			ja: "このポケモンにも20ダメージ。"
+			ja: "このポケモンにも20ダメージ。",
+			'zh-tw': "這隻寶可夢也受到20點傷害。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

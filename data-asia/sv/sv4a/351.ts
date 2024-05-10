@@ -5,17 +5,20 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ネモ"
+		ja: "ネモ",
+		'zh-tw': "妮莫"
 	},
 
 	illustrator: "aspara",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を3枚引く。"
+		ja: "自分の山札を3枚引く。",
+		'zh-tw': "從自己的牌庫抽出3張卡。"
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "G"
 }
 
 export default card

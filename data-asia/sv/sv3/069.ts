@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パルデア ドオー"
+		ja: "パルデア ドオー",
+		'zh-tw': "帕底亞 土王"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "敵に 襲われると 太い 棘を 胴体から 突き出して 反撃。 身を切る 覚悟の 危険な 技。"
+		ja: "敵に 襲われると 太い 棘を 胴体から 突き出して 反撃。 身を切る 覚悟の 危険な 技。",
+		'zh-tw': "一旦遭到敵人襲擊，就會從胴體伸出粗壯的刺來反擊。是需有覺悟承受劇痛的危險招式。"
 	},
 
 	stage: "Stage1",
@@ -25,23 +27,27 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "とびちるどく"
+			ja: "とびちるどく",
+			'zh-tw': "噴濺毒"
 		},
 
 		effect: {
-			ja: "おたがいのバトルポケモンを、それぞれどくにする。"
+			ja: "おたがいのバトルポケモンを、それぞれどくにする。",
+			'zh-tw': "將雙方的戰鬥寶可夢【中毒】。"
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ベノムショック"
+			ja: "ベノムショック",
+			'zh-tw': "毒液衝擊"
 		},
 
-		damage: "80＋",
+		damage: "80+",
 
 		effect: {
-			ja: "相手のバトルポケモンがどくなら、120ダメージ追加。"
+			ja: "相手のバトルポケモンがどくなら、120ダメージ追加。",
+			'zh-tw': "若對手的戰鬥寶可夢【中毒】，則增加120點傷害。"
 		}
 	}],
 
@@ -50,7 +56,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

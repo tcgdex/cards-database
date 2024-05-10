@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イッカネズミ"
+		ja: "イッカネズミ",
+		'zh-tw': "一家鼠"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "寝床や エサを 食べる 場所など 用途に 合わせて いくつも 部屋が 分かれた 大きな 巣を 作る。"
+		ja: "寝床や エサを 食べる 場所など 用途に 合わせて いくつも 部屋が 分かれた 大きな 巣を 作る。",
+		'zh-tw': "在自己所建的巨大巢穴裡，會有配合睡眠和用餐等用途 所分出的多個房間。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ひっぱたく"
+			ja: "ひっぱたく",
+			'zh-tw': "重摑"
 		},
 
 		damage: 50
@@ -33,11 +36,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "かじりまくる"
+			ja: "かじりまくる",
+			'zh-tw': "狂咬"
 		},
 
 		effect: {
-			ja: "自分の場の「イッカネズミ」の数ぶんのダメカンを、相手のポケモン全員に、それぞれのせる。"
+			ja: "自分の場の「イッカネズミ」の数ぶんのダメカンを、相手のポケモン全員に、それぞれのせる。",
+			'zh-tw': "在對手的所有寶可夢身上，各放置與自己的場上「一家鼠」的數量相同數量的傷害指示物。"
 		}
 	}],
 
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

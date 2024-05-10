@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テッシード"
+		ja: "テッシード",
+		'zh-tw': "種子鐵球"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "苔むした 洞窟を 好む。 苔が 含む 酵素が 棘を 大きく 丈夫に 育むのだ。"
+		ja: "苔むした 洞窟を 好む。 苔が 含む 酵素が 棘を 大きく 丈夫に 育むのだ。",
+		'zh-tw': "偏愛長著青苔的洞窟。青苔中所含的酵素能使牠的 尖刺成長得又大又結實。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "トゲでさす"
+			ja: "トゲでさす",
+			'zh-tw': "針刺"
 		},
 
 		damage: 30
@@ -38,10 +41,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブーストエナジー 未来"
+		ja: "ブーストエナジー 未来",
+		'zh-tw': "驅勁能量 未來"
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,10 +14,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「未来」のポケモンは、にげるためのエネルギーがすべてなくなり、そのポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。"
+		ja: "このカードをつけている「未来」のポケモンは、にげるためのエネルギーがすべてなくなり、そのポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
+		'zh-tw': "附有這張卡的「未來」寶可夢【撤退】所需的能量全部消除，那隻寶可夢使用的招式，對對手的戰鬥寶可夢造成的傷害「+20」點。"
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニダンギル"
+		ja: "ニダンギル",
+		'zh-tw': "雙劍鞘"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "２本の 剣は 攻撃と 防御が 目まぐるしく 入れ替わる 戦法で 獲物を しとめる。"
+		ja: "２本の 剣は 攻撃と 防御が 目まぐるしく 入れ替わる 戦法で 獲物を しとめる。",
+		'zh-tw': "２把劍會用令人眼花繚亂的速度不斷交替攻擊和防禦，藉以制服獵物。"
 	},
 
 	stage: "Stage1",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			ja: "つるぎのまい"
+			ja: "つるぎのまい",
+			'zh-tw': "劍舞"
 		},
 
 		effect: {
-			ja: "次の自分の番、このポケモンの「スライスブレード」のダメージは「+80」される。"
+			ja: "次の自分の番、このポケモンの「スライスブレード」のダメージは「+80」される。",
+			'zh-tw': "在下個自己的回合，這隻寶可夢「利刃切割」的傷害「+80」點。"
 		}
 	}, {
 		cost: ["Metal", "Metal"],
 
 		name: {
-			ja: "スライスブレード"
+			ja: "スライスブレード",
+			'zh-tw': "利刃切割"
 		},
 
 		damage: 40
@@ -48,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

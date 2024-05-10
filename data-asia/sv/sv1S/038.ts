@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アサナン"
+		ja: "アサナン",
+		'zh-tw': "瑪沙那"
 	},
 
 	illustrator: "miki kudo",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "毎日 ヨガの 修行を 欠かさない。 瞑想を することで 精神力を 高めている。"
+		ja: "毎日 ヨガの 修行を 欠かさない。 瞑想を することで 精神力を 高めている。",
+		'zh-tw': "每天都少不了瑜珈的修行。會藉著冥想提高 自身的精神力。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "フェイント"
+			ja: "フェイント",
+			'zh-tw': "佯攻"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "このワザのダメージは抵抗力を計算しない。"
+			ja: "このワザのダメージは抵抗力を計算しない。",
+			'zh-tw': "這個招式的傷害不計算抵抗力。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

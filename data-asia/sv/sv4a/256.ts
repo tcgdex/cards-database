@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ネイティ"
+		ja: "ネイティ",
+		'zh-tw': "天然雀"
 	},
 
 	illustrator: "sowsow",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "羽が 育ちきって おらず 飛び跳ねるようにして 移動する。 いつも なにかを 見つめている。"
+		ja: "羽が 育ちきって おらず 飛び跳ねるようにして 移動する。 いつも なにかを 見つめている。",
+		'zh-tw': "翅膀還沒有完全長好，所以只能一跳一跳地移動。 一直在注視著什麼。"
 	},
 
 	stage: "Basic",
@@ -24,13 +26,15 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "さんれんづき"
+			ja: "さんれんづき",
+			'zh-tw': "三連撞"
 		},
 
 		damage: "10×",
 
 		effect: {
-			ja: "コインを3回投げ、オモテの数×10ダメージ。"
+			ja: "コインを3回投げ、オモテの数×10ダメージ。",
+			'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。"
 		}
 	}],
 
@@ -41,10 +45,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

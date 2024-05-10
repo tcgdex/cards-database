@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リーフィア"
+		ja: "リーフィア",
+		'zh-tw': "葉伊布"
 	},
 
 	illustrator: "Kuroimori",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "若い リーフィアほど ツンとくる 青臭い 匂い。 年老いると 落ち葉のような 匂いになる。"
+		ja: "若い リーフィアほど ツンとくる 青臭い 匂い。 年老いると 落ち葉のような 匂いになる。",
+		'zh-tw': "越是年幼的葉伊布， 越是有刺鼻的青草味。 年老後就會變成好像落葉的味道。"
 	},
 
 	stage: "Stage1",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "わかばのめぐみ"
+			ja: "わかばのめぐみ",
+			'zh-tw': "嫩葉之恩"
 		},
 
 		effect: {
-			ja: "自分の手札から「基本エネルギー」を1枚選び、ベンチポケモンにつける。その後、つけたポケモンのHPをすべて回復する。"
+			ja: "自分の手札から「基本エネルギー」を1枚選び、ベンチポケモンにつける。その後、つけたポケモンのHPをすべて回復する。",
+			'zh-tw': "從自己的手牌選擇1張「基本【草】能量」卡，附於備戰寶可夢身上。然後，將附上那張卡的寶可夢的HP全部恢復。"
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "ソーラービーム"
+			ja: "ソーラービーム",
+			'zh-tw': "日光束"
 		},
 
 		damage: 70
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

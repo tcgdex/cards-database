@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ザシアン"
+		ja: "ザシアン",
+		'zh-tw': "蒼響"
 	},
 
 	illustrator: "Tonji Matsuno",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "あらゆるものを 切り捨てるさまから 妖精王の剣 と 呼ばれ 敵味方に 恐れ崇められた。"
+		ja: "あらゆるものを 切り捨てるさまから 妖精王の剣 と 呼ばれ 敵味方に 恐れ崇められた。",
+		'zh-tw': "能斬斷世間萬物，因此被稱為妖精王之劍， 讓敵友都對牠敬畏不已。"
 	},
 
 	stage: "Basic",
@@ -25,25 +27,29 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			ja: "てつのほうこう"
+			ja: "てつのほうこう",
+			'zh-tw': "鐵之咆哮"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "自分のトラッシュから「基本エネルギー」を1枚選び、ベンチポケモンにつける。"
+			ja: "自分のトラッシュから「基本エネルギー」を1枚選び、ベンチポケモンにつける。",
+			'zh-tw': "從自己的棄牌區選擇1張「基本【鋼】能量」卡，附於備戰寶可夢身上。"
 		}
 	}, {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			ja: "ブレイブキャリバー"
+			ja: "ブレイブキャリバー",
+			'zh-tw': "無畏聖劍"
 		},
 
 		damage: 130,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			ja: "次の自分の番、このポケモンはワザが使えない。",
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
 		}
 	}],
 
@@ -54,10 +60,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

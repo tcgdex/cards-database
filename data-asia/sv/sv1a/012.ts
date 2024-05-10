@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "メラルバ"
+		ja: "メラルバ",
+		'zh-tw': "燃燒蟲"
 	},
 
 	illustrator: "Yuka Morii",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "太陽を 盗んだ 幼虫と 呼ばれていた。 ツノから 噴き出す 炎は 鉄板も 焼き切る。"
+		ja: "太陽を 盗んだ 幼虫と 呼ばれていた。 ツノから 噴き出す 炎は 鉄板も 焼き切る。",
+		'zh-tw': "過去被稱為盜日幼蟲。從角噴出來的火焰， 就連鐵板都能燒斷。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "ほのお"
+			ja: "ほのお",
+			'zh-tw': "火焰"
 		},
 
 		damage: 10
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "とっしん"
+			ja: "とっしん",
+			'zh-tw': "猛撞"
 		},
 
 		damage: 40,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			ja: "このポケモンにも10ダメージ。",
+			'zh-tw': "這隻寶可夢也受到10點傷害。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

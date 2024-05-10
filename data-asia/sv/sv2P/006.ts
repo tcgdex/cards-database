@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ユキノオー"
+		ja: "ユキノオー",
+		'zh-tw': "暴雪王"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "万年雪が 積もる 山脈で 静かに 暮らす。 ブリザードを 発生させて 姿を 隠す。"
+		ja: "万年雪が 積もる 山脈で 静かに 暮らす。 ブリザードを 発生させて 姿を 隠す。",
+		'zh-tw': "在萬年積雪的山脈靜靜生活。會引發 暴風雪來隱藏自己。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "いてつくわざわい"
+			ja: "いてつくわざわい",
+			'zh-tw': "嚴寒降災"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、おたがいのポケモン全員のHPは、回復しない。"
+			ja: "このポケモンがいるかぎり、おたがいのポケモン全員のHPは、回復しない。",
+			'zh-tw': "只要這隻寶可夢在場上，雙方的所有寶可夢的HP無法恢復。"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			ja: "マグナムパンチ"
+			ja: "マグナムパンチ",
+			'zh-tw': "增量拳"
 		},
 
 		damage: 110
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

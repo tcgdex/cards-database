@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "デカヌチャンex"
+		ja: "デカヌチャンex",
+		'zh-tw': "巨鍛匠ex"
 	},
 
 	illustrator: "takuyoa",
@@ -20,25 +21,29 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ビッグハンマー"
+			ja: "ビッグハンマー",
+			'zh-tw': "大錘"
 		},
 
 		damage: "30×",
 
 		effect: {
-			ja: "自分の手札の枚数×30ダメージ。"
+			ja: "自分の手札の枚数×30ダメージ。",
+			'zh-tw': "造成自己的手牌的張數×30點傷害。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ふんさいプレス"
+			ja: "ふんさいプレス",
+			'zh-tw': "粉碎壓制"
 		},
 
 		damage: 140,
 
 		effect: {
-			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
+			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+			'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

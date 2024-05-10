@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マダツボミ"
+		ja: "マダツボミ",
+		'zh-tw': "喇叭芽"
 	},
 
 	illustrator: "Jerky",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "人の 顔のような つぼみから 伝説の マンドラゴラの 一種ではないかと ささやかれている。"
+		ja: "人の 顔のような つぼみから 伝説の マンドラゴラの 一種ではないかと ささやかれている。",
+		'zh-tw': "因為花苞長得像人臉， 所以私底下有些人說牠是 傳說生物曼德拉草的一種。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "いあいぎり"
+			ja: "いあいぎり",
+			'zh-tw': "居合斬"
 		},
 
 		damage: 10
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "しばりつける"
+			ja: "しばりつける",
+			'zh-tw': "束縛"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "次の相手の番、このワザを受けたポケモンは、にげられない。"
+			ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

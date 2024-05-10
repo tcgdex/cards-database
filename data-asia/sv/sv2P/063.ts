@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ココガラ"
+		ja: "ココガラ",
+		'zh-tw': "稚山雀"
 	},
 
 	illustrator: "Naoki Saito",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "勇敢で 向こう見ずな 気質。 目の まわりの 白い 模様は 気弱な ポケモンを 怯ませる。"
+		ja: "勇敢で 向こう見ずな 気質。 目の まわりの 白い 模様は 気弱な ポケモンを 怯ませる。",
+		'zh-tw': "性情勇敢，魯莽衝動。眼睛周圍的白色花紋 會讓懦弱的寶可夢感到畏懼。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "つきかえす"
+			ja: "つきかえす",
+			'zh-tw': "送回"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］"
+			ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+			'zh-tw': "將對手的戰鬥寶可夢與備戰寶可夢互換。[由對手選擇放置於戰鬥場的寶可夢。]"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

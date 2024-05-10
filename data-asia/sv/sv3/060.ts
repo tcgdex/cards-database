@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホルード"
+		ja: "ホルード",
+		'zh-tw': "掘地兔"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "お腹の 体毛は 保温性に 優れる。 昔の 人は 抜けた 体毛で 防寒着を つくった。"
+		ja: "お腹の 体毛は 保温性に 優れる。 昔の 人は 抜けた 体毛で 防寒着を つくった。",
+		'zh-tw': "肚子上的體毛保溫性能優秀。在過去，人們會用牠掉落的毛來製作保暖服裝。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "どろかけ"
+			ja: "どろかけ",
+			'zh-tw': "擲泥"
 		},
 
 		damage: 50
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "ノックハンマー"
+			ja: "ノックハンマー",
+			'zh-tw': "敲擊之錘"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "相手の山札を上から1枚トラッシュする。"
+			ja: "相手の山札を上から1枚トラッシュする。",
+			'zh-tw': "將對手的牌庫上方1張卡丟棄。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

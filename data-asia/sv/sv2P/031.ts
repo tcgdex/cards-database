@@ -5,10 +5,11 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴチム"
+		ja: "ゴチム",
+		'zh-tw': "哥德寶寶"
 	},
 
-	illustrator: "0313",
+	illustrator: "313",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [574],
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "いつもは とっても 無邪気。 見えない なにかを 見ているときは 瞬きも せずに ずっと 無言。"
+		ja: "いつもは とっても 無邪気。 見えない なにかを 見ているときは 瞬きも せずに ずっと 無言。",
+		'zh-tw': "總是一副天真無邪的樣子。看見肉眼看不見的東西時， 就會眼都不眨地一語不發。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "はたく"
+			ja: "はたく",
+			'zh-tw': "拍擊"
 		},
 
 		damage: 10
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ぶきみなねんぱ"
+			ja: "ぶきみなねんぱ",
+			'zh-tw': "不祥波動"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。"
+			ja: "相手のバトルポケモンをこんらんにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
 		}
 	}],
 
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

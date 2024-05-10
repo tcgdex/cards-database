@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニドラン♀"
+		ja: "ニドラン♀",
+		'zh-tw': "尼多蘭"
 	},
 
 	illustrator: "Teeziro",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "硬い 前歯で 木の実を 砕いて 食べる。 ツノの 先は オスより 少し 丸みを 帯びている。"
+		ja: "硬い 前歯で 木の実を 砕いて 食べる。 ツノの 先は オスより 少し 丸みを 帯びている。",
+		'zh-tw': "會用堅硬的門牙咬碎樹果後吃下。角的尖端 會比雄性還要圓一些。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "どくのつの"
+			ja: "どくのつの",
+			'zh-tw': "毒角"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをどくにする。"
+			ja: "相手のバトルポケモンをどくにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【中毒】。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

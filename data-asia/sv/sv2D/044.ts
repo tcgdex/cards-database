@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ナゲツケサル"
+		ja: "ナゲツケサル",
+		'zh-tw': "投擲猴"
 	},
 
 	illustrator: "Jerky",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "硬い 木の実を 投げて 戦う。 ボールを 投げるのが 下手くそな トレーナーの 言うことは 聞かない。"
+		ja: "硬い 木の実を 投げて 戦う。 ボールを 投げるのが 下手くそな トレーナーの 言うことは 聞かない。",
+		'zh-tw': "會投出堅硬的樹果戰鬥。不會聽從投球技術差勁的 訓練家所下的指示。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "アシストパス"
+			ja: "アシストパス",
+			'zh-tw': "助攻"
 		},
 
 		damage: 70,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。"
+			ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
+			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，改附於備戰寶可夢身上。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

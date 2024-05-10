@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "タマタマ"
+		ja: "タマタマ",
+		'zh-tw': "蛋蛋"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "６匹で いないと 落ち着かない。 １匹でも いなくなると とたんに 逃げ腰に なるのだ。"
+		ja: "６匹で いないと 落ち着かない。 １匹でも いなくなると とたんに 逃げ腰に なるのだ。",
+		'zh-tw': "非得湊齊６隻才會有安全感。那怕只是少了１隻，都會立刻 變得很膽小，隨時想要逃跑。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "たまころがり"
+			ja: "たまころがり",
+			'zh-tw': "滾球"
 		},
 
 		damage: "30×",
 
 		effect: {
-			ja: "ウラが出るまでコインを投げ、オモテの数×30ダメージ。"
+			ja: "ウラが出るまでコインを投げ、オモテの数×30ダメージ。",
+			'zh-tw': "擲硬幣直到出現反面，造成正面出現的次數×30點傷害。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

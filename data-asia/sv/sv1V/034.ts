@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パモ"
+		ja: "パモ",
+		'zh-tw': "布撥"
 	},
 
 	illustrator: "kantaro",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "手の 肉球が 放電器官。 後ろ脚で ようやく 立ち上がると 手のひらから 電撃を 放つ。"
+		ja: "手の 肉球が 放電器官。 後ろ脚で ようやく 立ち上がると 手のひらから 電撃を 放つ。",
+		'zh-tw': "手的肉球是放電的器官。會費勁地用後腳站起來， 然後從手掌釋放出電擊。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "なぐる"
+			ja: "なぐる",
+			'zh-tw': "打擊"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "エレキック"
+			ja: "エレキック",
+			'zh-tw': "電氣踢"
 		},
 
 		damage: 20
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

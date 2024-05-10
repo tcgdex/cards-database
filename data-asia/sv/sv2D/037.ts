@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サナギラス"
+		ja: "サナギラス",
+		'zh-tw': "沙基拉斯"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "体内で 圧縮させた ガスを 勢いよく 噴出させ 飛んで 暴れまわる サナギだ。"
+		ja: "体内で 圧縮させた ガスを 勢いよく 噴出させ 飛んで 暴れまわる サナギだ。",
+		'zh-tw': "會以強勁的力道噴出在體內壓縮好的氣體，好讓自己 能飛在空中大搞破壞的蛹。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "とびだしヘッド"
+			ja: "とびだしヘッド",
+			'zh-tw': "魯莽頭擊"
 		},
 
 		damage: 50
@@ -36,7 +39,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

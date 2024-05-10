@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "クマシュン"
+		ja: "クマシュン",
+		'zh-tw': "噴嚏熊"
 	},
 
 	illustrator: "Mizue",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "寒い 地域の 海辺に 多い。 鼻水が 垂れていない ときは 病気の 可能性が ある。"
+		ja: "寒い 地域の 海辺に 多い。 鼻水が 垂れていない ときは 病気の 可能性が ある。",
+		'zh-tw': "經常出現在寒冷地帶的海邊。沒掛著一沱鼻涕的時候，就代表牠可能是生病了。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "けとばす"
+			ja: "けとばす",
+			'zh-tw': "踢飛"
 		},
 
 		damage: 10
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "ころばす"
+			ja: "ころばす",
+			'zh-tw': "打滾"
 		},
 
-		damage: "20＋",
+		damage: "20+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、20ダメージ追加。"
+			ja: "コインを1回投げオモテなら、20ダメージ追加。",
+			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

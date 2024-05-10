@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "クロバット"
+		ja: "クロバット",
+		'zh-tw': "叉字蝠"
 	},
 
 	illustrator: "Uta",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "４枚の 羽を 自在に 操り 羽ばたく。 狭い 洞窟でも スピードを 落とさず 飛びまわれる。"
+		ja: "４枚の 羽を 自在に 操り 羽ばたく。 狭い 洞窟でも スピードを 落とさず 飛びまわれる。",
+		'zh-tw': "能夠自在地控制４隻翅膀振翅飛翔。即使是在狹窄的 洞窟裡也能毫不減速地飛舞。"
 	},
 
 	stage: "Stage2",
@@ -25,19 +27,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "マッドエコー"
+			ja: "マッドエコー",
+			'zh-tw': "泥巴迴響"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "自分はグッズまたはサポートのどちらかを選ぶ。次の相手の番、相手は選ばれたトレーナーズを手札から出して使えない。"
+			ja: "自分はグッズまたはサポートのどちらかを選ぶ。次の相手の番、相手は選ばれたトレーナーズを手札から出して使えない。",
+			'zh-tw': "自己選擇物品卡或者支援者卡任一方。在下個對手的回合，對手無法從手牌使出被選擇的訓練家卡。"
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			ja: "カッターウインド"
+			ja: "カッターウインド",
+			'zh-tw': "利刃之風"
 		},
 
 		damage: 130
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	regulationMark: "G"
 }
 
 export default card

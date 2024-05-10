@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゲンガー"
+		ja: "ゲンガー",
+		'zh-tw': "耿鬼"
 	},
 
 	illustrator: "Nelnal",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "命を 奪おうと 決めた 獲物の 影に 潜り込み じっと チャンスを 狙ってる。"
+		ja: "命を 奪おうと 決めた 獲物の 影に 潜り込み じっと チャンスを 狙ってる。",
+		'zh-tw': "會潛進獵物的影子裡，然後靜靜地等待 奪取性命的機會到來。"
 	},
 
 	stage: "Stage2",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ナイトゲート"
+			ja: "ナイトゲート",
+			'zh-tw': "暗黑之門"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分のバトルポケモンをベンチポケモンと入れ替える。"
+			ja: "自分の番に1回使える。自分のバトルポケモンをベンチポケモンと入れ替える。",
+			'zh-tw': "在自己的回合時可使用1次。將自己的戰鬥寶可夢與備戰寶可夢互換。"
 		}
 	}],
 
@@ -37,13 +41,15 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "あくむ"
+			ja: "あくむ",
+			'zh-tw': "惡夢"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "相手のバトルポケモンをねむりにする。"
+			ja: "相手のバトルポケモンをねむりにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "グルトン"
+		ja: "グルトン",
+		'zh-tw': "愛吃豚[進化前分岐α]"
 	},
 
 	illustrator: "Narumi Sato",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "一日中 エサを 探す。 優れた 嗅覚を 持つが エサ探し 以外に 使わない。"
+		ja: "一日中 エサを 探す。 優れた 嗅覚を 持つが エサ探し 以外に 使わない。",
+		'zh-tw': "一整天都在覓食。 雖然擁有優秀的嗅覺， 但卻只被用在覓食上。"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "たいあたり"
+			ja: "たいあたり",
+			'zh-tw': "撞擊"
 		},
 
 		damage: 20
@@ -35,7 +38,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

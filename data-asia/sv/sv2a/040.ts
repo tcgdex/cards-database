@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "プクリンex"
+		ja: "プクリンex",
+		'zh-tw': "胖可丁ex"
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -20,11 +21,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ふくらむボディ"
+			ja: "ふくらむボディ",
+			'zh-tw': "膨脹之軀"
 		},
 
 		effect: {
-			ja: "このポケモンに特殊エネルギーがついているなら、このポケモンの最大HPは「+100」される。"
+			ja: "このポケモンに特殊エネルギーがついているなら、このポケモンの最大HPは「+100」される。",
+			'zh-tw': "若這隻寶可夢身上附有特殊能量卡，則這隻寶可夢的最大HP「+100」。"
 		}
 	}],
 
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "フレンドタックル"
+			ja: "フレンドタックル",
+			'zh-tw': "朋友衝撞"
 		},
 
-		damage: "90＋",
+		damage: "90+",
 
 		effect: {
-			ja: "この番、手札からサポートを出して使っていたなら、90ダメージ追加。"
+			ja: "この番、手札からサポートを出して使っていたなら、90ダメージ追加。",
+			'zh-tw': "在這個回合，若從手牌使出了支援者卡，則增加90點傷害。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "スリーパー"
+		ja: "スリーパー",
+		'zh-tw': "引夢貘人"
 	},
 
 	illustrator: "Mousho",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "相手と 目が 合ったときに 催眠術など 数々の 超能力を 使うという。"
+		ja: "相手と 目が 合ったときに 催眠術など 数々の 超能力を 使うという。",
+		'zh-tw': "據說牠和對手對到眼時，就會使出催眠術等 各式各樣的超能力。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "でたとこさいみん"
+			ja: "でたとこさいみん",
+			'zh-tw': "臨場催眠"
 		},
 
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンをねむりにする。"
+			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンをねむりにする。",
+			'zh-tw': "在自己的回合，從手牌使出這張卡並完成進化時，可使用1次。將對手的戰鬥寶可夢【睡眠】。"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			ja: "ちょうねんりき"
+			ja: "ちょうねんりき",
+			'zh-tw': "超念力"
 		},
 
 		damage: 110
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

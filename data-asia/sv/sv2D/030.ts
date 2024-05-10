@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シロデスナ"
+		ja: "シロデスナ",
+		'zh-tw': "噬沙堡爺"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "小さな ポケモンを 砂の体に 引きずり込み 好きなときに 生気を 吸い取る 恐ろしい ポケモン。"
+		ja: "小さな ポケモンを 砂の体に 引きずり込み 好きなときに 生気を 吸い取る 恐ろしい ポケモン。",
+		'zh-tw': "會把小型寶可夢吸進沙子構成的身體裡，任憑自己 吸取精氣的恐怖寶可夢。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ホロウショット"
+			ja: "ホロウショット",
+			'zh-tw': "陰森射擊"
 		},
 
 		damage: 40
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "グラウンドパワー"
+			ja: "グラウンドパワー",
+			'zh-tw': "大地能量"
 		},
 
-		damage: "80＋",
+		damage: "80+",
 
 		effect: {
-			ja: "場に自分のスタジアムが出ているなら、80ダメージ追加。"
+			ja: "場に自分のスタジアムが出ているなら、80ダメージ追加。",
+			'zh-tw': "若場上有自己的競技場卡，則增加80點傷害。"
 		}
 	}],
 
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

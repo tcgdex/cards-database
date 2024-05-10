@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テツノカイナex"
+		ja: "テツノカイナex",
+		'zh-tw': "鐵臂膀ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,7 +21,8 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "アームプレス"
+			ja: "アームプレス",
+			'zh-tw': "臂壓制"
 		},
 
 		damage: 160
@@ -28,13 +30,15 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ごっつあんプリファイ"
+			ja: "ごっつあんプリファイ",
+			'zh-tw': "感激放大"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを1枚多くとる。"
+			ja: "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを1枚多くとる。",
+			'zh-tw': "若對手的寶可夢因這個招式的傷害而【昏厥】了，則多獲得1張獎賞卡。"
 		}
 	}],
 
@@ -43,7 +47,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リククラゲ"
+		ja: "リククラゲ",
+		'zh-tw': "陸地水母"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "１０本の 触手で 絡みつき 養分を 吸い取って 苦しめる。 裾の ヒダは 珍味で 人気。"
+		ja: "１０本の 触手で 絡みつき 養分を 吸い取って 苦しめる。 裾の ヒダは 珍味で 人気。",
+		'zh-tw': "會用自己的１０根觸手纏住敵人，並吸取養分來折磨對方。下擺的摺皺是很受歡迎的珍味佳餚。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ねんきんコロニー"
+			ja: "ねんきんコロニー",
+			'zh-tw': "黏菌集群"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、相手のトラッシュにあるカードは、相手の特性またはトレーナーズの効果で、手札に加えられない。"
+			ja: "このポケモンがいるかぎり、相手のトラッシュにあるカードは、相手の特性またはトレーナーズの効果で、手札に加えられない。",
+			'zh-tw': "只要這隻寶可夢在場上，對手的棄牌區的卡，無法因對手的特性或者訓練家卡的效果而加入手牌。"
 		}
 	}],
 
@@ -37,13 +41,15 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			ja: "きのこドレイン"
+			ja: "きのこドレイン",
+			'zh-tw': "蘑菇吸取"
 		},
 
 		damage: 80,
 
 		effect: {
-			ja: "このポケモンのHPを「30」回復する。"
+			ja: "このポケモンのHPを「30」回復する。",
+			'zh-tw': "將這隻寶可夢恢復「30」HP。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

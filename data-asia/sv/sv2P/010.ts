@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アノクサ"
+		ja: "アノクサ",
+		'zh-tw': "納噬草"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "成仏できない 魂が 風に 吹かれているうち 枯草を 巻き込んで ポケモンになった。"
+		ja: "成仏できない 魂が 風に 吹かれているうち 枯草を 巻き込んで ポケモンになった。",
+		'zh-tw': "無法升天的靈魂在風的吹拂下被捲進枯草裡， 變成了寶可夢。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "かぜにのる"
+			ja: "かぜにのる",
+			'zh-tw': "乘風"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、このポケモンをベンチポケモンと入れ替える。"
+			ja: "コインを1回投げオモテなら、このポケモンをベンチポケモンと入れ替える。",
+			'zh-tw': "擲1次硬幣若為正面，則將這隻寶可夢與備戰寶可夢互換。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

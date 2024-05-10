@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヨクバリス"
+		ja: "ヨクバリス",
+		'zh-tw': "藏飽栗鼠"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "体の 約２倍の 長さの 尻尾で 木から 落とした 木の実を ごっそり 包んで 持ち去るぞ。"
+		ja: "体の 約２倍の 長さの 尻尾で 木から 落とした 木の実を ごっそり 包んで 持ち去るぞ。",
+		'zh-tw': "會用約有身體２倍長的尾巴把樹上掉下來的樹果 全都裹起來帶走。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "かみつく"
+			ja: "かみつく",
+			'zh-tw': "咬住"
 		},
 
 		damage: 50
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "きょうかまえば"
+			ja: "きょうかまえば",
+			'zh-tw': "強擊門牙"
 		},
 
-		damage: "80＋",
+		damage: "80+",
 
 		effect: {
-			ja: "このポケモンに「ポケモンのどうぐ」がついているなら、80ダメージ追加。"
+			ja: "このポケモンに「ポケモンのどうぐ」がついているなら、80ダメージ追加。",
+			'zh-tw': "若這隻寶可夢附有「寶可夢道具」卡，則增加80點傷害。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

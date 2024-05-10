@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コレクレー"
+		ja: "コレクレー",
+		'zh-tw': "索財靈"
 	},
 
 	illustrator: "Mizue",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "およそ１５００年前 宝箱の中で 生まれた。 宝を 盗む 不埒者の 生気を 吸い取る。"
+		ja: "およそ１５００年前 宝箱の中で 生まれた。 宝を 盗む 不埒者の 生気を 吸い取る。",
+		'zh-tw': "約１５００年前出生在寶箱裡。如果有惡棍打算偷走寶藏， 就會被牠吸走精氣。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "なかまをよぶ"
+			ja: "なかまをよぶ",
+			'zh-tw': "呼朋引伴"
 		},
 
 		effect: {
-			ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。"
+			ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+			'zh-tw': "從自己的牌庫選擇1張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "どつく"
+			ja: "どつく",
+			'zh-tw': "推擊"
 		},
 
 		damage: 20
@@ -48,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

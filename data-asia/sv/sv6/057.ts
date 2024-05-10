@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "サンド"
+		ja: "サンド",
+		'zh-tw': "穿山鼠"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "どんなに 高い ところから 落ちても 体を 丸めれば バウンドできて 助かるのだ。"
+		ja: "どんなに 高い ところから 落ちても 体を 丸めれば バウンドできて 助かるのだ。",
+		'zh-tw': "不管從多高的地方掉下， 只要把身體蜷成一團 就可以藉著反彈而得救。"
 	},
 
 	stage: "Basic",
@@ -26,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ころがる"
+			ja: "ころがる",
+			'zh-tw': "滾動"
 		},
 
 		damage: 10
@@ -34,13 +36,15 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "ダブルひっかき"
+			ja: "ダブルひっかき",
+			'zh-tw': "雙重抓"
 		},
 
 		damage: "20×",
 
 		effect: {
-			ja: "コインを2回投げ、オモテの数×20ダメージ。"
+			ja: "コインを2回投げ、オモテの数×20ダメージ。",
+			'zh-tw': "擲2次硬幣，造成正面出現的次數×20點傷害。"
 		}
 	}],
 
@@ -49,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

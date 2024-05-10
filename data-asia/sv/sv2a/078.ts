@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ギャロップ"
+		ja: "ギャロップ",
+		'zh-tw': "烈焰馬"
 	},
 
 	illustrator: "Nurikabe",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "いちばん 脚が 速い ものが リーダー。 群れが 行く 場所や 走る 速度を 決めている。"
+		ja: "いちばん 脚が 速い ものが リーダー。 群れが 行く 場所や 走る 速度を 決めている。",
+		'zh-tw': "奔跑速度最快的烈焰馬會成為首領，決定族群 前往的地點和奔跑速度。"
 	},
 
 	stage: "Stage1",
@@ -25,23 +27,27 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "こがす"
+			ja: "こがす",
+			'zh-tw': "灼熱"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。"
+			ja: "相手のバトルポケモンをやけどにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。"
 		}
 	}, {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			ja: "マッハターン"
+			ja: "マッハターン",
+			'zh-tw': "音速迴轉"
 		},
 
 		damage: 90,
 
 		effect: {
-			ja: "このポケモンをベンチポケモンと入れ替える。"
+			ja: "このポケモンをベンチポケモンと入れ替える。",
+			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。"
 		}
 	}],
 
@@ -50,7 +56,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

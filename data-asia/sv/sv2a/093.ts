@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴースト"
+		ja: "ゴースト",
+		'zh-tw': "鬼斯通"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "暗闇にまぎれ ガスの手を 伸ばし 人の肩を 叩くのが 好き。 触られると 震えが 止まらない。"
+		ja: "暗闇にまぎれ ガスの手を 伸ばし 人の肩を 叩くのが 好き。 触られると 震えが 止まらない。",
+		'zh-tw': "喜歡躲在黑暗中伸出氣體構成的手去拍人的肩膀。 一旦被接觸到，身體便會抖個不停。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ひとだまがえし"
+			ja: "ひとだまがえし",
+			'zh-tw': "孤魂返"
 		},
 
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のトラッシュからサポートを1枚選び、相手の手札にもどす。"
+			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のトラッシュからサポートを1枚選び、相手の手札にもどす。",
+			'zh-tw': "在自己的回合，從手牌使出這張卡並完成進化時，可使用1次。從對手的棄牌區選擇1張支援者卡，放回對手的手牌。"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "つぶやく"
+			ja: "つぶやく",
+			'zh-tw': "囈語"
 		},
 
 		damage: 30
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

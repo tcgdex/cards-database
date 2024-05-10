@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒヒダルマ"
+		ja: "ヒヒダルマ",
+		'zh-tw': "達摩狒狒"
 	},
 
 	illustrator: "Yuya Oka",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "体内の 炎が 燃え盛るほど パワーが 高まる。 その 温度は １４００度を 超える ことも。"
+		ja: "体内の 炎が 燃え盛るほど パワーが 高まる。 その 温度は １４００度を 超える ことも。",
+		'zh-tw': "體內的火焰燃得越旺，力量就越大。火焰的溫度有時甚至能超過１４００度。"
 	},
 
 	stage: "Stage1",
@@ -25,19 +27,22 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			ja: "カンカンパンチ"
+			ja: "カンカンパンチ",
+			'zh-tw': "鏗鏗拳"
 		},
 
-		damage: "60＋",
+		damage: "60+",
 
 		effect: {
-			ja: "このポケモンにダメカンがのっているなら、60ダメージ追加。"
+			ja: "このポケモンにダメカンがのっているなら、60ダメージ追加。",
+			'zh-tw': "若這隻寶可夢身上放置有傷害指示物，則增加60點傷害。"
 		}
 	}, {
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ヒートブラスト"
+			ja: "ヒートブラスト",
+			'zh-tw': "高溫爆破"
 		},
 
 		damage: 140
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

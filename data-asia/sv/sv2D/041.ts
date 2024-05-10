@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドクロッグ"
+		ja: "ドクロッグ",
+		'zh-tw': "毒骷蛙"
 	},
 
 	illustrator: "Yuya Oka",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "柔らかい 体で 相手の 攻撃を かわしながら ふところに 飛び込み 毒の トゲを 突き刺す。"
+		ja: "柔らかい 体で 相手の 攻撃を かわしながら ふところに 飛び込み 毒の トゲを 突き刺す。",
+		'zh-tw': "會一邊靠柔軟的身體閃避攻擊，一邊往對手的懷裡衝過去， 然後用帶毒的尖刺猛戳。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "つきさす"
+			ja: "つきさす",
+			'zh-tw': "突刺"
 		},
 
 		damage: 30
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "こぶしのトゲ"
+			ja: "こぶしのトゲ",
+			'zh-tw': "拳頭刺"
 		},
 
 		damage: 60,
 
 		effect: {
-			ja: "相手のバトルポケモンをどくにする。"
+			ja: "相手のバトルポケモンをどくにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【中毒】。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

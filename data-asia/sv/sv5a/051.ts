@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カビゴン"
+		ja: "カビゴン",
+		'zh-tw': "卡比獸"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "胃袋の 消化液は どんな 毒も 消化できる。 落ちているものを 食べても 平気。"
+		ja: "胃袋の 消化液は どんな 毒も 消化できる。 落ちているものを 食べても 平気。",
+		'zh-tw': "胃裡的消化液能夠消化掉 所有的毒。就算吃下掉在 地上的東西也沒問題。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "はらごしらえ"
+			ja: "はらごしらえ",
+			'zh-tw': "吃飽先"
 		},
 
 		effect: {
-			ja: "自分の手札からエネルギーを1枚選び、このポケモンにつける。その後、このポケモンのHPを「60」回復する。"
+			ja: "自分の手札からエネルギーを1枚選び、このポケモンにつける。その後、このポケモンのHPを「60」回復する。",
+			'zh-tw': "從自己的手牌選擇1張能量卡，附於這隻寶可夢身上。然後，將這隻寶可夢恢復「60」HP。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ヘビーインパクト"
+			ja: "ヘビーインパクト",
+			'zh-tw': "重磅衝擊"
 		},
 
 		damage: 160
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "H"
 }
 
 export default card

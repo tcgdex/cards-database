@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒラヒナ"
+		ja: "ヒラヒナ",
+		'zh-tw': "飄飄雛"
 	},
 
 	illustrator: "Mizue",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "荒れ地を 走りまわって 暮らす。 大好きな 木の実を 取られると 追いかけまわして 復讐する。"
+		ja: "荒れ地を 走りまわって 暮らす。 大好きな 木の実を 取られると 追いかけまわして 復讐する。",
+		'zh-tw': "會在荒地跑來跑去生活。如果最喜歡的樹果被搶走，就會窮追不捨地展開報復。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "でんこうせっか"
+			ja: "でんこうせっか",
+			'zh-tw': "電光一閃"
 		},
 
-		damage: "10＋",
+		damage: "10+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、20ダメージ追加。"
+			ja: "コインを1回投げオモテなら、20ダメージ追加。",
+			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

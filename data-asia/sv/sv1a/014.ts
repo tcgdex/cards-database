@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シシコ"
+		ja: "シシコ",
+		'zh-tw': "小獅獅"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "幼いうちに メスの カエンジシに 狩りを 教わるが 成長すると 群れを 離れて 独り立ちする。"
+		ja: "幼いうちに メスの カエンジシに 狩りを 教わるが 成長すると 群れを 離れて 独り立ちする。",
+		'zh-tw': "年幼時雌性的火炎獅會教導自己如何狩獵， 長大後就會離群索居。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "まるやけ"
+			ja: "まるやけ",
+			'zh-tw': "燒光"
 		},
 
 		effect: {
-			ja: "場に出ているスタジアムをトラッシュする。"
+			ja: "場に出ているスタジアムをトラッシュする。",
+			'zh-tw': "將場上的競技場卡丟棄。"
 		}
 	}, {
 		cost: ["Fire"],
 
 		name: {
-			ja: "ひだね"
+			ja: "ひだね",
+			'zh-tw': "火種"
 		},
 
 		damage: 10
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

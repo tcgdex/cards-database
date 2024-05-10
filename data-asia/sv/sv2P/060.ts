@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ナマケロ"
+		ja: "ナマケロ",
+		'zh-tw': "懶人獺"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "１日のうち ２０時間 眠る。 見ている 相手の 眠気を 誘うのも 能力の ひとつ。"
+		ja: "１日のうち ２０時間 眠る。 見ている 相手の 眠気を 誘うのも 能力の ひとつ。",
+		'zh-tw': "１天會睡上２０個小時。使看著自己的對手睡意漸濃 也是牠的能力之一。"
 	},
 
 	stage: "Basic",
@@ -25,11 +27,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "あくび"
+			ja: "あくび",
+			'zh-tw': "哈欠"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンをねむりにする。"
+			ja: "相手のバトルポケモンをねむりにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。"
 		}
 	}],
 
@@ -38,7 +42,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "改造ハンマー"
+		ja: "改造ハンマー",
+		'zh-tw': "改造之錘"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -13,10 +14,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の場のポケモンについている特殊エネルギーを1個選び、トラッシュする。"
+		ja: "相手の場のポケモンについている特殊エネルギーを1個選び、トラッシュする。",
+		'zh-tw': "選擇1個對手的場上寶可夢身上附加的特殊能量，將其丟棄。"
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "H"
 }
 
 export default card

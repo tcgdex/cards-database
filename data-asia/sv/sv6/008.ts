@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "サルノリ"
+		ja: "サルノリ",
+		'zh-tw': "敲音猴"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "特別な スティックで リズムを 刻むと 草花を 元気にする パワーが 音波になって 広がる。"
+		ja: "特別な スティックで リズムを 刻むと 草花を 元気にする パワーが 音波になって 広がる。",
+		'zh-tw': "當牠用特別的木棒敲奏時， 能夠給予花草活力的力量 就會變成音波擴散開來。"
 	},
 
 	stage: "Basic",
@@ -26,7 +27,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "けとばす"
+			ja: "けとばす",
+			'zh-tw': "踢飛"
 		},
 
 		damage: 10
@@ -34,7 +36,8 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			ja: "えだづき"
+			ja: "えだづき",
+			'zh-tw': "木枝突刺"
 		},
 
 		damage: 30
@@ -45,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

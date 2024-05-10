@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "デスマス"
+		ja: "デスマス",
+		'zh-tw': "哭哭面具"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "古代人の 魂が ポケモンに なった。 自分の 顔を 知る 人を 探し 遺跡を さまよう。"
+		ja: "古代人の 魂が ポケモンに なった。 自分の 顔を 知る 人を 探し 遺跡を さまよう。",
+		'zh-tw': "古代人的靈魂變成了寶可夢。為了尋找認得自己長相的人 而在遺跡裡徘徊。"
 	},
 
 	stage: "Basic",
@@ -25,11 +27,13 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			ja: "ふきつなめ"
+			ja: "ふきつなめ",
+			'zh-tw': "不祥之眼"
 		},
 
 		effect: {
-			ja: "相手のポケモン1匹に、ダメカンを3個のせる。"
+			ja: "相手のポケモン1匹に、ダメカンを3個のせる。",
+			'zh-tw': "在對手的1隻寶可夢身上放置3個傷害指示物。"
 		}
 	}],
 
@@ -40,10 +44,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ピッピ"
+		ja: "ピッピ",
+		'zh-tw': "皮皮"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "愛くるしい しぐさと 鳴き声で かわいいと 大人気の ポケモン。 だが めったに 見つからない。"
+		ja: "愛くるしい しぐさと 鳴き声で かわいいと 大人気の ポケモン。 だが めったに 見つからない。",
+		'zh-tw': "因可愛的舉止和叫聲而廣受歡迎的寶可夢。 不過很少被人發現。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "つきみにさそう"
+			ja: "つきみにさそう",
+			'zh-tw': "邀請月見"
 		},
 
 		effect: {
-			ja: "自分の山札から「ピッピ」を3枚まで選び、ベンチに出す。そして山札を切る。"
+			ja: "自分の山札から「ピッピ」を3枚まで選び、ベンチに出す。そして山札を切る。",
+			'zh-tw': "從自己的牌庫選擇最多3張「皮皮」，放置於備戰區。並且重洗牌庫。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ひらてうち"
+			ja: "ひらてうち",
+			'zh-tw': "掌擊"
 		},
 
 		damage: 20
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

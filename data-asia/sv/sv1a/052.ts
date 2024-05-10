@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パルデア ウパー"
+		ja: "パルデア ウパー",
+		'zh-tw': "帕底亞 烏波"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "縄張り争いに 敗れて 陸で 暮らすうちに 毒の 粘膜で 体を 保護するように 変わった。"
+		ja: "縄張り争いに 敗れて 陸で 暮らすうちに 毒の 粘膜で 体を 保護するように 変わった。",
+		'zh-tw': "因搶輸地盤而到陸地上生活，久而久之變成了是 用帶毒的黏膜來保護身體。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ふむ"
+			ja: "ふむ",
+			'zh-tw': "踩"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "やんちゃげり"
+			ja: "やんちゃげり",
+			'zh-tw': "調皮踢"
 		},
 
 		damage: 20
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

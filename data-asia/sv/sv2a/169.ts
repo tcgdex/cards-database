@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リザード"
+		ja: "リザード",
+		'zh-tw': "火恐龍"
 	},
 
 	illustrator: "miki kudo",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。"
+		ja: "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。",
+		'zh-tw': "如果牠在戰鬥中亢奮起來，就會噴出灼熱的火焰，把周圍的東西燒得一乾二淨。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "かえん"
+			ja: "かえん",
+			'zh-tw': "烈焰"
 		},
 
 		damage: 20
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Fire"],
 
 		name: {
-			ja: "だいもんじ"
+			ja: "だいもんじ",
+			'zh-tw': "大字爆炎"
 		},
 
 		damage: 90,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。"
+			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

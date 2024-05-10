@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "スナバァ"
+		ja: "スナバァ",
+		'zh-tw': "沙丘娃"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "スコップを なくすと 木の枝などを 代わりに 挿し 新たな スコップが 見つかるまで 気を 紛らわす。"
+		ja: "スコップを なくすと 木の枝などを 代わりに 挿し 新たな スコップが 見つかるまで 気を 紛らわす。",
+		'zh-tw': "萬一鏟子弄丟了，就會用樹枝等東西插著代替，好讓牠在 找到新鏟子前能分散注意力。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "つぶやく"
+			ja: "つぶやく",
+			'zh-tw': "囈語"
 		},
 
 		damage: 20
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "マッドショット"
+			ja: "マッドショット",
+			'zh-tw': "泥巴射擊"
 		},
 
 		damage: 40
@@ -46,10 +50,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

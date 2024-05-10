@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イッカネズミ"
+		ja: "イッカネズミ",
+		'zh-tw': "一家鼠"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大きな ２匹が 子どもたちを 守りながら 戦う。 強い 相手には 全員で 立ち向かう。"
+		ja: "大きな ２匹が 子どもたちを 守りながら 戦う。 強い 相手には 全員で 立ち向かう。",
+		'zh-tw': "身型大的２隻會在戰鬥的同時保護著孩子。對抗實力 強大的對手時會集體出陣。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ビンタ"
+			ja: "ビンタ",
+			'zh-tw': "巴掌"
 		},
 
 		damage: 40
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ファミリーアタック"
+			ja: "ファミリーアタック",
+			'zh-tw': "家族攻擊"
 		},
 
 		damage: "70×",
 
 		effect: {
-			ja: "自分の場の「イッカネズミ」の数×70ダメージ。"
+			ja: "自分の場の「イッカネズミ」の数×70ダメージ。",
+			'zh-tw': "造成自己的場上的「一家鼠」的數量×70點傷害。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

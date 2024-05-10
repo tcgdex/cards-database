@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハリテヤマ"
+		ja: "ハリテヤマ",
+		'zh-tw': "鐵掌力士"
 	},
 
 	illustrator: "Hasuno",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "力くらべが 大好き。 走ってくる 列車を 張り手で 止めてしまう パワーを 持つ。"
+		ja: "力くらべが 大好き。 走ってくる 列車を 張り手で 止めてしまう パワーを 持つ。",
+		'zh-tw': "最喜歡和對手比力氣。擁有的力量足以一掌擋下 迎面馳來的列車。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "つっぱりげいこ"
+			ja: "つっぱりげいこ",
+			'zh-tw': "猛推演練"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-10」される。"
+			ja: "このポケモンがいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-10」される。",
+			'zh-tw': "只要這隻寶可夢在場上，自己的所有寶可夢受到對手的寶可夢招式的傷害「-10」點。"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ロケットはりて"
+			ja: "ロケットはりて",
+			'zh-tw': "火箭巴掌"
 		},
 
 		damage: 120
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

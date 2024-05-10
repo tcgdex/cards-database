@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ディンルーex"
+		ja: "ディンルーex",
+		'zh-tw': "古鼎鹿ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,11 +21,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "じゅばくのだいち"
+			ja: "じゅばくのだいち",
+			'zh-tw': "咒縛大地"
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるかぎり、相手の場のダメカンがのっているポケモン（ポケモンexをのぞく）の特性は、すべてなくなる。"
+			ja: "このポケモンがバトル場にいるかぎり、相手の場のダメカンがのっているポケモン（ポケモンexをのぞく）の特性は、すべてなくなる。",
+			'zh-tw': "只要這隻寶可夢在戰鬥場上，對手場上的身上放置有傷害指示物的寶可夢（寶可夢【ex】除外）的特性全部消除。"
 		}
 	}],
 
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		name: {
-			ja: "ランドスクープ"
+			ja: "ランドスクープ",
+			'zh-tw': "大地掬弄"
 		},
 
 		damage: 150,
 
 		effect: {
-			ja: "相手のベンチポケモン1匹に、ダメカンを2個のせる。"
+			ja: "相手のベンチポケモン1匹に、ダメカンを2個のせる。",
+			'zh-tw': "在對手的1隻備戰寶可夢身上放置2個傷害指示物。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

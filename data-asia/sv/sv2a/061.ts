@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニョロゾ"
+		ja: "ニョロゾ",
+		'zh-tw': "蚊香君"
 	},
 
 	illustrator: "Kurata So",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ぬめぬめとした 粘液状の 汗を かく。 敵に 捕まっても ぬるりと すり抜け 逃げるのだ。"
+		ja: "ぬめぬめとした 粘液状の 汗を かく。 敵に 捕まっても ぬるりと すり抜け 逃げるのだ。",
+		'zh-tw': "流的汗是又黏又滑的黏液狀。即使被敵人捉住， 也能滑溜溜地輕易逃脫。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "スプラッシュ"
+			ja: "スプラッシュ",
+			'zh-tw': "飛濺"
 		},
 
 		damage: 20
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "かえるとび"
+			ja: "かえるとび",
+			'zh-tw': "蛙跳"
 		},
 
-		damage: "30＋",
+		damage: "30+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、60ダメージ追加。"
+			ja: "コインを1回投げオモテなら、60ダメージ追加。",
+			'zh-tw': "擲1次硬幣若為正面，則增加60點傷害。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

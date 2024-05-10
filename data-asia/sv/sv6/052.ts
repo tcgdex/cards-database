@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "ペロリーム"
+		ja: "ペロリーム",
+		'zh-tw': "胖甜妮"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体臭から 心と 体の 調子を 嗅ぎとる。 医療への 応用が 期待されている。"
+		ja: "体臭から 心と 体の 調子を 嗅ぎとる。 医療への 応用が 期待されている。",
+		'zh-tw': "能從人們身上的氣味裡 嗅出他們的身心狀態。 在醫療領域的實際應用備受矚目。"
 	},
 
 	stage: "Stage1",
@@ -26,13 +27,15 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ペロペロリン"
+			ja: "ペロペロリン",
+			'zh-tw': "甜甜你"
 		},
 
 		damage: "90×",
 
 		effect: {
-			ja: "コインを2回投げ、オモテの数×90ダメージ。すべてウラなら、相手のバトルポケモンをこんらんにする。"
+			ja: "コインを2回投げ、オモテの数×90ダメージ。すべてウラなら、相手のバトルポケモンをこんらんにする。",
+			'zh-tw': "擲2次硬幣，造成正面出現的次數×90點傷害。若全部為反面，則將對手的戰鬥寶可夢【混亂】。"
 		}
 	}],
 
@@ -41,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

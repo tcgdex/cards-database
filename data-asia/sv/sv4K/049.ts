@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヤブクロン"
+		ja: "ヤブクロン",
+		'zh-tw': "破破袋"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "不衛生な 場所が 好き。 ゴミで 汚したまま 放っておくと 部屋にも 現れて 棲みつく。"
+		ja: "不衛生な 場所が 好き。 ゴミで 汚したまま 放っておくと 部屋にも 現れて 棲みつく。",
+		'zh-tw': "喜歡不衛生的地方。如果不及時清理家裡的垃圾， 破破袋就會過來居住。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "ガスでつつむ"
+			ja: "ガスでつつむ",
+			'zh-tw': "瓦斯包圍"
 		},
 
 		damage: 10
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ベノムヒット"
+			ja: "ベノムヒット",
+			'zh-tw': "毒液一擊"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "相手のバトルポケモンをどくにする。"
+			ja: "相手のバトルポケモンをどくにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【中毒】。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

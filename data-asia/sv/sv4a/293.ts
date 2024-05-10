@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キリキザン"
+		ja: "キリキザン",
+		'zh-tw': "劈斬司令"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "コマタナを 率いて 群れを 成す。 縄張りを 賭けて 争い 負けた 群れは 吸収されていくのだ。"
+		ja: "コマタナを 率いて 群れを 成す。 縄張りを 賭けて 争い 負けた 群れは 吸収されていくのだ。",
+		'zh-tw': "率領駒刀小兵成群結隊。輸掉賭上地盤之爭的群體， 會一個接一個地遭到吸收。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "ダークカッター"
+			ja: "ダークカッター",
+			'zh-tw': "暗黑利刃"
 		},
 
 		damage: 40
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "もろはぎり"
+			ja: "もろはぎり",
+			'zh-tw': "雙刃斬"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "このポケモンにも30ダメージ。"
+			ja: "このポケモンにも30ダメージ。",
+			'zh-tw': "這隻寶可夢也受到30點傷害。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

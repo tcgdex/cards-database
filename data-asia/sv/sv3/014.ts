@@ -5,10 +5,11 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ロコン"
+		ja: "ロコン",
+		'zh-tw': "六尾"
 	},
 
-	illustrator: "0313",
+	illustrator: "313",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [37],
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "６本の しっぽは 育つごとに 毛並みが 良くなり 美しくなる。 抱きしめると ほんのり 温かい。"
+		ja: "６本の しっぽは 育つごとに 毛並みが 良くなり 美しくなる。 抱きしめると ほんのり 温かい。",
+		'zh-tw': "隨著身體的成長，６根尾巴的毛髮也會變得更漂亮。緊緊抱著牠時能感到微微的溫暖。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "かえん"
+			ja: "かえん",
+			'zh-tw': "烈焰"
 		},
 
 		damage: 10
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "あやしいひかり"
+			ja: "あやしいひかり",
+			'zh-tw': "奇異之光"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。"
+			ja: "相手のバトルポケモンをこんらんにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

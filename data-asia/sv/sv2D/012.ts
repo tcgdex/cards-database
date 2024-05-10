@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒノヤコマ"
+		ja: "ヒノヤコマ",
+		'zh-tw': "火箭雀"
 	},
 
 	illustrator: "kurumitsu",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "虫ポケモンが 潜んでいそうな 草むらに 火の粉を まき散らして 飛び出してきたところを 捕まえる。"
+		ja: "虫ポケモンが 潜んでいそうな 草むらに 火の粉を まき散らして 飛び出してきたところを 捕まえる。",
+		'zh-tw': "會朝著似乎潛伏著蟲寶可夢的草叢灑出火花， 然後趁牠們跳出來時獵捕。"
 	},
 
 	stage: "Stage1",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "ヒートダイブ"
+			ja: "ヒートダイブ",
+			'zh-tw': "高溫奇襲"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			ja: "このポケモンにも10ダメージ。",
+			'zh-tw': "這隻寶可夢也受到10點傷害。"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

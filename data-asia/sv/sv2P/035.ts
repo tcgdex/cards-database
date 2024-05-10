@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヤバチャ"
+		ja: "ヤバチャ",
+		'zh-tw': "來悲茶"
 	},
 
 	illustrator: "Yuka Morii",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "寂しく 死んだ者の 魂が 飲み残しの 紅茶に 取り憑いた。 ホテルや 民家に 現れる。"
+		ja: "寂しく 死んだ者の 魂が 飲み残しの 紅茶に 取り憑いた。 ホテルや 民家に 現れる。",
+		'zh-tw': "死於孤獨的死者之魂附在了喝剩的紅茶上。 會在旅館或民宅出現。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "さめたおちゃ"
+			ja: "さめたおちゃ",
+			'zh-tw': "冷茶"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

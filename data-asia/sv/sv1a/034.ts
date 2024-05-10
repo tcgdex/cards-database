@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ムウマ"
+		ja: "ムウマ",
+		'zh-tw': "夢妖"
 	},
 
 	illustrator: "Megumi Higuchi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "真夜中 人を 驚かせては 怖がる心を 集めて 自分の エネルギーに している ポケモン。"
+		ja: "真夜中 人を 驚かせては 怖がる心を 集めて 自分の エネルギーに している ポケモン。",
+		'zh-tw': "會在半夜嚇唬人類，然後把收集到的恐懼之心 轉化成自身能量的寶可夢。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "さいみんはどう"
+			ja: "さいみんはどう",
+			'zh-tw': "催眠波動"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "相手のバトルポケモンをねむりにする。"
+			ja: "相手のバトルポケモンをねむりにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

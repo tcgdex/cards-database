@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "モロバレル"
+		ja: "モロバレル",
+		'zh-tw': "敗露球菇"
 	},
 
 	illustrator: "Nobuhiro Imagawa",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "吹き出す 毒の胞子に 注意。 浴びた 部分から モロバレルの カサに 似た キノコが 生えてくる。"
+		ja: "吹き出す 毒の胞子に 注意。 浴びた 部分から モロバレルの カサに 似た キノコが 生えてくる。",
+		'zh-tw': "小心牠噴出的毒孢子。因為被噴到的地方會長出蘑菇， 形狀像是敗露球菇的菌傘。"
 	},
 
 	stage: "Stage1",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "あぶないほうし"
+			ja: "あぶないほうし",
+			'zh-tw': "險惡孢子"
 		},
 
 		damage: 60,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをどくとマヒにする。"
+			ja: "コインを1回投げオモテなら、相手のバトルポケモンをどくとマヒにする。",
+			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【中毒】與【麻痺】。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イワーク"
+		ja: "イワーク",
+		'zh-tw': "大岩蛇"
 	},
 
 	illustrator: "Shiburingaru",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "大きく 丈夫な 体を くねらせ よじらせ 時速８０キロで 地面を 勢いよく 掘り進む。"
+		ja: "大きく 丈夫な 体を くねらせ よじらせ 時速８０キロで 地面を 勢いよく 掘り進む。",
+		'zh-tw': "彎曲扭動巨大結實的身體，以時速８０公里的猛烈勢頭挖掘前進。"
 	},
 
 	stage: "Basic",
@@ -25,19 +27,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "かたいずつき"
+			ja: "かたいずつき",
+			'zh-tw': "堅硬頭錘"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
+			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ランドクラッシュ"
+			ja: "ランドクラッシュ",
+			'zh-tw': "大地粉碎"
 		},
 
 		damage: 80
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

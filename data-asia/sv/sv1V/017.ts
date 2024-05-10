@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "デルビル"
+		ja: "デルビル",
+		'zh-tw': "戴魯比"
 	},
 
 	illustrator: "nagimiso",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "仲間に 連絡するときと 獲物を 追いつめるときでは 鳴き声の 種類が 違うのだ。"
+		ja: "仲間に 連絡するときと 獲物を 追いつめるときでは 鳴き声の 種類が 違うのだ。",
+		'zh-tw': "聯絡夥伴和追趕獵物的時候，會分別發出 不同種類的叫聲。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "かみつく"
+			ja: "かみつく",
+			'zh-tw': "咬住"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "ほのお"
+			ja: "ほのお",
+			'zh-tw': "火焰"
 		},
 
 		damage: 30
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

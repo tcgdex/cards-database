@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "モジャンボ"
+		ja: "モジャンボ",
+		'zh-tw': "巨蔓藤"
 	},
 
 	illustrator: "LINNE",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "自在に 伸びる ２本の 腕は じつは ツルが 束になったものと 最近の 研究で わかった。"
+		ja: "自在に 伸びる ２本の 腕は じつは ツルが 束になったものと 最近の 研究で わかった。",
+		'zh-tw': "最近的研究發現，牠這雙能夠自由伸縮的手臂其實 是由成束的藤蔓形成的。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "みつりんボディ"
+			ja: "みつりんボディ",
+			'zh-tw': "密林之軀"
 		},
 
 		effect: {
-			ja: "このポケモンが受けるワザのダメージは「-30」される。"
+			ja: "このポケモンが受けるワザのダメージは「-30」される。",
+			'zh-tw': "這隻寶可夢受到招式的傷害「-30」點。"
 		}
 	}],
 
@@ -37,13 +41,15 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			ja: "おおいかぶさる"
+			ja: "おおいかぶさる",
+			'zh-tw': "覆蓋"
 		},
 
-		damage: "150－",
+		damage: "150-",
 
 		effect: {
-			ja: "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。"
+			ja: "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
+			'zh-tw': "減少這隻寶可夢身上放置的傷害指示物的數量×10點傷害。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "H"
 }
 
 export default card

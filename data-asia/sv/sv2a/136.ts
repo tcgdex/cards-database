@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブースター"
+		ja: "ブースター",
+		'zh-tw': "火伊布"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "吸いこんだ 空気を 体内の 炎袋に 送りこみ １７００度の 炎にして 吹く。"
+		ja: "吸いこんだ 空気を 体内の 炎袋に 送りこみ １７００度の 炎にして 吹く。",
+		'zh-tw': "會將吸入的空氣送進體內的火囊轉化成 １７００度的火焰後再吐出來。"
 	},
 
 	stage: "Stage1",
@@ -25,25 +27,29 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "はかいび"
+			ja: "はかいび",
+			'zh-tw': "破壞火"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。"
+			ja: "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+			'zh-tw': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。"
 		}
 	}, {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			ja: "とうしのもうか"
+			ja: "とうしのもうか",
+			'zh-tw': "鬥志猛火"
 		},
 
-		damage: "90＋",
+		damage: "90+",
 
 		effect: {
-			ja: "相手のバトルポケモンが「ポケモンex・V」なら、90ダメージ追加。"
+			ja: "相手のバトルポケモンが「ポケモンex・V」なら、90ダメージ追加。",
+			'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【ex】・【V】」，則增加90點傷害。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サッチムシ"
+		ja: "サッチムシ",
+		'zh-tw': "索偵蟲"
 	},
 
 	illustrator: "OKUBO",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "畑で よく見かける ポケモン。 体に 生えた 毛で まわりで 起きていることを 感じとる。"
+		ja: "畑で よく見かける ポケモン。 体に 生えた 毛で まわりで 起きていることを 感じとる。",
+		'zh-tw': "經常出現在田地裡的寶可夢。會透過長在身體上的毛來感應周圍發生的事。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "ふいをつく"
+			ja: "ふいをつく",
+			'zh-tw': "偷襲"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "コインを1回投げウラなら、このワザは失敗。"
+			ja: "コインを1回投げウラなら、このワザは失敗。",
+			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

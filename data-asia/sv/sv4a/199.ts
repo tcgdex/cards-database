@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ユキカブリ"
+		ja: "ユキカブリ",
+		'zh-tw': "雪笠怪"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。"
+		ja: "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。",
+		'zh-tw': "在寒冷的季節裡會移動到山腳下，一到春天就會 返回積雪尚存的山頂。"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "どつく"
+			ja: "どつく",
+			'zh-tw': "推擊"
 		},
 
 		damage: 30
@@ -35,7 +38,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アメタマ"
+		ja: "アメタマ",
+		'zh-tw': "溜溜糖球"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "普段は 池に 棲んでいるが 夕立の 後には 街中の 水たまりに 姿を 現す。"
+		ja: "普段は 池に 棲んでいるが 夕立の 後には 街中の 水たまりに 姿を 現す。",
+		'zh-tw': "平時住在池塘裡，午後下過雷陣雨時， 會出現在街上的小水窪中。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "とびかかる"
+			ja: "とびかかる",
+			'zh-tw': "猛撲"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "コインを1回投げウラなら、このワザは失敗。"
+			ja: "コインを1回投げウラなら、このワザは失敗。",
+			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

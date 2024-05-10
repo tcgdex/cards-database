@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヘイラッシャ"
+		ja: "ヘイラッシャ",
+		'zh-tw': "吃吼霸"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大食らいだが エサを 取るのは 苦手。 シャリタツと コンビを 組んで 獲物を 捕らえるのだ。"
+		ja: "大食らいだが エサを 取るのは 苦手。 シャリタツと コンビを 組んで 獲物を 捕らえるのだ。",
+		'zh-tw': "雖然是個大胃王，但不擅長捕食。 會和米立龍聯手捕捉獵物。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "まるのみほきゅう"
+			ja: "まるのみほきゅう",
+			'zh-tw': "大口吞補給"
 		},
 
 		effect: {
-			ja: "自分の山札を上から5枚見て、その中から基本エネルギーを好きなだけ選び、このポケモンにつける。残りのカードは山札にもどして切る。"
+			ja: "自分の山札を上から5枚見て、その中から基本エネルギーを好きなだけ選び、このポケモンにつける。残りのカードは山札にもどして切る。",
+			'zh-tw': "查看自己的牌庫上方5張卡，從其中選擇任意數量的基本能量卡，附於這隻寶可夢身上。將剩餘卡放回牌庫並重洗。"
 		}
 	}, {
 		cost: ["Water", "Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ハイドロスプラッシュ"
+			ja: "ハイドロスプラッシュ",
+			'zh-tw': "水炮濺射"
 		},
 
 		damage: 180
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ディンルー"
+		ja: "ディンルー",
+		'zh-tw': "古鼎鹿"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "とても 重たい 頭を ゆっくり 振り下ろし 深さ５０メートルの 長大な 地割れを 引き起こす。"
+		ja: "とても 重たい 頭を ゆっくり 振り下ろし 深さ５０メートルの 長大な 地割れを 引き起こす。",
+		'zh-tw': "當牠緩緩揮下自己笨重的 頭部時，會造成地面出現 深度達５０公尺的巨大裂縫。"
 	},
 
 	stage: "Basic",
@@ -25,19 +27,22 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "グラウンドクラック"
+			ja: "グラウンドクラック",
+			'zh-tw': "大地斷裂"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "場にスタジアムが出ているなら、相手のベンチポケモン全員にも、それぞれ30ダメージを与え、そのスタジアムをトラッシュする。［ベンチは弱点・抵抗力を計算しない。］"
+			ja: "場にスタジアムが出ているなら、相手のベンチポケモン全員にも、それぞれ30ダメージを与え、そのスタジアムをトラッシュする。［ベンチは弱点・抵抗力を計算しない。］",
+			'zh-tw': "若場上有競技場卡，則對手的所有備戰寶可夢也各受到30點傷害，並將那張競技場卡丟棄。[在備戰區不計算弱點・抵抗力。]"
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "ぶちかます"
+			ja: "ぶちかます",
+			'zh-tw': "頭突"
 		},
 
 		damage: 110
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "H"
 }
 
 export default card

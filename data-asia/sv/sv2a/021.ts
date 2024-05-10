@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オニスズメ"
+		ja: "オニスズメ",
+		'zh-tw': "烈雀"
 	},
 
 	illustrator: "Gemi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "羽が 短く 長い 距離を 飛べない。 せわしなく 動き まわって むしポケモンを ついばむ。"
+		ja: "羽が 短く 長い 距離を 飛べない。 せわしなく 動き まわって むしポケモンを ついばむ。",
+		'zh-tw': "翅膀很短，無法長距離飛行。 總是不停地四處跳來跳去， 忙著啄食蟲寶可夢。"
 	},
 
 	stage: "Basic",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ぬけがけしんか"
+			ja: "ぬけがけしんか",
+			'zh-tw': "搶先進化"
 		},
 
 		effect: {
-			ja: "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。"
+			ja: "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。",
+			'zh-tw': "若在後攻玩家的最初回合，則這隻寶可夢就算剛使出也可進化。"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "スピードひこう"
+			ja: "スピードひこう",
+			'zh-tw': "高速飛行"
 		},
 
 		damage: 10
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

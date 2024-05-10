@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ズバット"
+		ja: "ズバット",
+		'zh-tw': "超音蝠"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "陽の 当たらない 洞窟に 棲む。 朝になると 仲間で 集まり 体を 温めあいながら 寝る。"
+		ja: "陽の 当たらない 洞窟に 棲む。 朝になると 仲間で 集まり 体を 温めあいながら 寝る。",
+		'zh-tw': "棲息在陽光照射不到的洞窟裡。到了早上就會和夥伴相聚， 一邊互相取暖一邊睡覺。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "ちょうおんぱ"
+			ja: "ちょうおんぱ",
+			'zh-tw': "超音波"
 		},
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。"
+			ja: "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。",
+			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【混亂】。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "するどいはね"
+			ja: "するどいはね",
+			'zh-tw': "銳利羽"
 		},
 
 		damage: 20
@@ -48,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

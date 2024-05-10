@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "プリン"
+		ja: "プリン",
+		'zh-tw': "胖丁"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "つぶらな 瞳が 揺れるとき 眠たくなるような 不思議で 気持ちのいい 歌を 歌う。"
+		ja: "つぶらな 瞳が 揺れるとき 眠たくなるような 不思議で 気持ちのいい 歌を 歌う。",
+		'zh-tw': "當牠圓圓的大眼睛轉動時，就會唱起奇妙的歌曲， 讓人舒服地昏昏欲睡。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "うたう"
+			ja: "うたう",
+			'zh-tw': "唱歌"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンをねむりにする。"
+			ja: "相手のバトルポケモンをねむりにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ビンタ"
+			ja: "ビンタ",
+			'zh-tw': "巴掌"
 		},
 
 		damage: 20
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

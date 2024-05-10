@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "モンジャラ"
+		ja: "モンジャラ",
+		'zh-tw': "蔓藤怪"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ちぎれても 無限に 伸びる ツルの 奥の 正体は いまだ 解明されていない。"
+		ja: "ちぎれても 無限に 伸びる ツルの 奥の 正体は いまだ 解明されていない。",
+		'zh-tw': "藤蔓即使斷了也會繼續無限地生長。藤蔓下的 真面目至今仍是個謎。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ひっぱたく"
+			ja: "ひっぱたく",
+			'zh-tw': "重摑"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "つるでうつ"
+			ja: "つるでうつ",
+			'zh-tw': "藤蔓攻擊"
 		},
 
 		damage: 30
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

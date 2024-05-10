@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リキキリン"
+		ja: "リキキリン",
+		'zh-tw': "奇麒麟"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "頭と 尻尾の ２つの 脳波が 同期したことで エスパーパワーは キリンリキの １０倍 アップした。"
+		ja: "頭と 尻尾の ２つの 脳波が 同期したことで エスパーパワーは キリンリキの １０倍 アップした。",
+		'zh-tw': "透過同步頭部和尾巴的腦波，使得牠的超能力提升到了 有麒麟奇的１０倍之高。"
 	},
 
 	stage: "Stage1",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "どっちかフェイス"
+			ja: "どっちかフェイス",
+			'zh-tw': "任一頭"
 		},
 
 		effect: {
-			ja: "自分または相手のどちらかを選び、選ばれたプレイヤーは、手札をすべて山札にもどして切る。その後、選ばれたプレイヤーは山札を4枚引く。"
+			ja: "自分または相手のどちらかを選び、選ばれたプレイヤーは、手札をすべて山札にもどして切る。その後、選ばれたプレイヤーは山札を4枚引く。",
+			'zh-tw': "選擇自己或者對手任一方，被選擇的玩家將手牌全部放回牌庫並重洗。然後，被選擇的玩家從牌庫抽出4張卡。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "パワービーム"
+			ja: "パワービーム",
+			'zh-tw': "強力光束"
 		},
 
 		damage: 130
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

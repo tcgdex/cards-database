@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カゲボウズ"
+		ja: "カゲボウズ",
+		'zh-tw': "怨影娃娃"
 	},
 
 	illustrator: "Jerky",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "だれかが だれかを 恨む 暗く 哀しい 気持ちを 吸い取って じわじわ 強くなる。"
+		ja: "だれかが だれかを 恨む 暗く 哀しい 気持ちを 吸い取って じわじわ 強くなる。",
+		'zh-tw': "會吸取他人在怨恨著誰時散發出的黯淡悲傷之情， 讓自己一點一點地變強。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "かげでつつむ"
+			ja: "かげでつつむ",
+			'zh-tw': "影子包圍"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、次の相手の番、相手は手札からグッズを出して使えない。"
+			ja: "コインを1回投げオモテなら、次の相手の番、相手は手札からグッズを出して使えない。",
+			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，對手無法從手牌使出物品卡。"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

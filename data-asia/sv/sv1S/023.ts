@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カイデン"
+		ja: "カイデン",
+		'zh-tw': "電海燕"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "翼の 骨は 風を 受けると 電気を 作る。 海に 飛び込み 獲物を 感電させて 捕らえる。"
+		ja: "翼の 骨は 風を 受けると 電気を 作る。 海に 飛び込み 獲物を 感電させて 捕らえる。",
+		'zh-tw': "當翅膀的骨頭受到風吹時，就能製造出電力。會衝進 海裡讓獵物觸電後將其捕獲。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "もってくる"
+			ja: "もってくる",
+			'zh-tw': "呼喚"
 		},
 
 		effect: {
-			ja: "自分の山札を1枚引く。"
+			ja: "自分の山札を1枚引く。",
+			'zh-tw': "從自己的牌庫抽出1張卡。"
 		}
 	}, {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "かっくう"
+			ja: "かっくう",
+			'zh-tw': "滑翔"
 		},
 
 		damage: 20
@@ -48,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

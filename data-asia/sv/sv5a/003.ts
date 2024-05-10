@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カイロス"
+		ja: "カイロス",
+		'zh-tw': "凱羅斯"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ツノで 互いを 格付けする。 太く 立派な ツノを 持つ カイロスほど 異性に 人気。"
+		ja: "ツノで 互いを 格付けする。 太く 立派な ツノを 持つ カイロスほど 異性に 人気。",
+		'zh-tw': "會以角來判斷彼此的地位。凱羅斯的角越是粗壯氣派， 就越能得到異性的愛戴。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "スロークランチ"
+			ja: "スロークランチ",
+			'zh-tw': "慢嚼碎"
 		},
 
 		effect: {
-			ja: "このポケモンについているエネルギーを、すべてトラッシュする。次の相手の番の終わりに、このワザを受けたポケモンはきぜつする。"
+			ja: "このポケモンについているエネルギーを、すべてトラッシュする。次の相手の番の終わりに、このワザを受けたポケモンはきぜつする。",
+			'zh-tw': "將這隻寶可夢身上附加的能量卡全部丟棄。在下個對手的回合結束時，受到這個招式的寶可夢會【昏厥】。"
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			ja: "かいりきホーン"
+			ja: "かいりきホーン",
+			'zh-tw': "怪力角擊"
 		},
 
 		damage: 100
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

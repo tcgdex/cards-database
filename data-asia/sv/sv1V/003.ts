@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コフキムシ"
+		ja: "コフキムシ",
+		'zh-tw': "粉蝶蟲"
 	},
 
 	illustrator: "sowsow",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "毒の粉を まき散らして 敵を 追い払う。 棲んでいる 土地により エサにする 植物が 違う。"
+		ja: "毒の粉を まき散らして 敵を 追い払う。 棲んでいる 土地により エサにする 植物が 違う。",
+		'zh-tw': "會灑出毒粉趕走敵人。棲息的土地不同，作為 食糧的植物也就不同。"
 	},
 
 	stage: "Basic",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "てきおうしんか"
+			ja: "てきおうしんか",
+			'zh-tw': "適應進化"
 		},
 
 		effect: {
-			ja: "このポケモンは、最初の自分の番や、出したばかりの番でも進化できる。"
+			ja: "このポケモンは、最初の自分の番や、出したばかりの番でも進化できる。",
+			'zh-tw': "這隻寶可夢就算在自己的最初回合或者剛使出的回合，也可進化。"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "たいあたり"
+			ja: "たいあたり",
+			'zh-tw': "撞擊"
 		},
 
 		damage: 20
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

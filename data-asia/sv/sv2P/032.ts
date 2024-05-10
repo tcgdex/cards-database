@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴチミル"
+		ja: "ゴチミル",
+		'zh-tw': "哥德小童"
 	},
 
 	illustrator: "Aya Kusube",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "催眠術で 子どもを 眠らせ 連れ去ってしまう。 星明りが きらめく 夜には 注意しろ。"
+		ja: "催眠術で 子どもを 眠らせ 連れ去ってしまう。 星明りが きらめく 夜には 注意しろ。",
+		'zh-tw': "一定要小心星光閃閃的夜晚。因為牠會帶走被牠施了 催眠術而睡著的小孩。"
 	},
 
 	stage: "Stage1",
@@ -25,19 +27,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "サイコトリップ"
+			ja: "サイコトリップ",
+			'zh-tw': "精神歪曲"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。"
+			ja: "相手のバトルポケモンをこんらんにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ちょうねんりき"
+			ja: "ちょうねんりき",
+			'zh-tw': "超念力"
 		},
 
 		damage: 40
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

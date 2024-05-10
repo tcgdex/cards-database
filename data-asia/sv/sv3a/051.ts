@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オトシドリex"
+		ja: "オトシドリex",
+		'zh-tw': "下石鳥ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,23 +21,27 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ファストキャリー"
+			ja: "ファストキャリー",
+			'zh-tw': "急速輸送"
 		},
 
 		effect: {
-			ja: "このワザは、先攻プレイヤーの最初の番でも使える。自分の山札からたねポケモンを3枚まで選び、ベンチに出す。そして山札を切る。"
+			ja: "このワザは、先攻プレイヤーの最初の番でも使える。自分の山札からたねポケモンを3枚まで選び、ベンチに出す。そして山札を切る。",
+			'zh-tw': "這個招式可在先攻玩家的最初回合使用。從自己的牌庫選擇最多3張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "シャドーウインド"
+			ja: "シャドーウインド",
+			'zh-tw': "暗影之風"
 		},
 
 		damage: 130,
 
 		effect: {
-			ja: "のぞむなら、このポケモンと、ついているすべてのカードを、手札にもどす。"
+			ja: "のぞむなら、このポケモンと、ついているすべてのカードを、手札にもどす。",
+			'zh-tw': "若希望，將這隻寶可夢與附加的卡，全部放回手牌。"
 		}
 	}],
 
@@ -47,10 +52,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

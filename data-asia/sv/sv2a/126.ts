@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブーバー"
+		ja: "ブーバー",
+		'zh-tw': "鴨嘴火獸"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "全身が つねに 燃えている。 火事を 起こす 原因の ひとつとして 恐れられる。"
+		ja: "全身が つねに 燃えている。 火事を 起こす 原因の ひとつとして 恐れられる。",
+		'zh-tw': "全身時時刻刻都在燃燒。人們認為牠是引起火災的 原因之一，非常畏懼牠。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "ひだね"
+			ja: "ひだね",
+			'zh-tw': "火種"
 		},
 
 		damage: 10
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "フレアコンボ"
+			ja: "フレアコンボ",
+			'zh-tw': "閃焰合擊"
 		},
 
-		damage: "80＋",
+		damage: "80+",
 
 		effect: {
-			ja: "自分のベンチに「エレブー」がいるなら、80ダメージ追加。"
+			ja: "自分のベンチに「エレブー」がいるなら、80ダメージ追加。",
+			'zh-tw': "若自己的備戰區有「電擊獸」，則增加80點傷害。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

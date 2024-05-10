@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "ピクシー"
+		ja: "ピクシー",
+		'zh-tw': "皮可西"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "耳が 良くて １キロ 離れた ところで 落とした 針の音を 見事に 聞き分けられる。"
+		ja: "耳が 良くて １キロ 離れた ところで 落とした 針の音を 見事に 聞き分けられる。",
+		'zh-tw': "聽覺靈敏，連１公里以外 針落地的聲音都能夠 分辨得一清二楚。"
 	},
 
 	stage: "Stage1",
@@ -26,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ゆびをふる"
+			ja: "ゆびをふる",
+			'zh-tw': "揮指"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。"
+			ja: "相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。",
+			'zh-tw': "選擇1個對手的戰鬥寶可夢持有的招式，作為這個招式使用。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "マジカルショット"
+			ja: "マジカルショット",
+			'zh-tw': "魔法射擊"
 		},
 
 		damage: 100
@@ -47,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

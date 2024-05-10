@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブロロン"
+		ja: "ブロロン",
+		'zh-tw': "噗隆隆"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "スクラップ工場に 放置された エンジンに 謎の 毒ポケモンが 入り込んで 生まれたと 言われる。"
+		ja: "スクラップ工場に 放置された エンジンに 謎の 毒ポケモンが 入り込んで 生まれたと 言われる。",
+		'zh-tw': "據說牠是神秘的毒寶可夢鑽進了被放置在廢鐵工廠 的引擎裡而誕生的。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			ja: "かいてんドロー"
+			ja: "かいてんドロー",
+			'zh-tw': "迴轉抽出"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "自分の山札を1枚引く。"
+			ja: "自分の山札を1枚引く。",
+			'zh-tw': "從自己的牌庫抽出1張卡。"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

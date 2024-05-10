@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ナカヌチャン"
+		ja: "ナカヌチャン",
+		'zh-tw': "巧鍛匠"
 	},
 
 	illustrator: "Akira Komayama",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。"
+		ja: "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。",
+		'zh-tw': "為了製作又大又堅固的錘子，會去襲擊劈斬司令 的群體，藉以收集金屬。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "なぐる"
+			ja: "なぐる",
+			'zh-tw': "打擊"
 		},
 
 		damage: 30
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "そこぢから"
+			ja: "そこぢから",
+			'zh-tw': "潛力"
 		},
 
 		damage: 80,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			ja: "次の自分の番、このポケモンはワザが使えない。",
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒスイ ウインディ"
+		ja: "ヒスイ ウインディ",
+		'zh-tw': "洗翠 風速狗"
 	},
 
 	illustrator: "SIE NANAHARA",
@@ -16,34 +17,39 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "燃え盛る炎 牙に纏わせ 食らい付く。 体躯 大柄なれど 陽動 鮮やかなりて 敵 翻弄せしむる姿 演舞の如し。"
+		ja: "燃え盛る炎 牙に纏わせ 食らい付く。 体躯 大柄なれど 陽動 鮮やかなりて 敵 翻弄せしむる姿 演舞の如し。",
+		'zh-tw': "將猛烈燃燒的火焰纏繞在牙齒上撲向獵物。雖然體型很大，卻能以靈巧的假動作戲弄敵手， 那姿態就像是舞蹈一般。"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Void"],
+
 
 		name: {
-			ja: "プライドファング"
+			ja: "プライドファング",
+			'zh-tw': "驕傲獠牙"
 		},
 
-		damage: "30＋",
+		damage: "30+",
 
 		effect: {
-			ja: "自分のベンチポケモンにダメカンがのっているなら、90ダメージ追加。"
+			ja: "自分のベンチポケモンにダメカンがのっているなら、90ダメージ追加。",
+			'zh-tw': "若自己的備戰寶可夢身上放置有傷害指示物，則增加90點傷害。"
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "やきこがす"
+			ja: "やきこがす",
+			'zh-tw': "灼燒"
 		},
 
 		damage: 90,
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。"
+			ja: "相手のバトルポケモンをやけどにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

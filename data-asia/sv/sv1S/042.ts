@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "メグロコ"
+		ja: "メグロコ",
+		'zh-tw': "黑眼鱷"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "砂の中に 潜り 泳ぐように 移動。 敵に みつからないためと 体温を 下げない 知恵 なのだ。"
+		ja: "砂の中に 潜り 泳ぐように 移動。 敵に みつからないためと 体温を 下げない 知恵 なのだ。",
+		'zh-tw': "潛藏在沙中像游泳一樣移動。這是種兼具不被敵人發現和 保持體溫效果的生存智慧。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "かじる"
+			ja: "かじる",
+			'zh-tw': "咬"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "ぶつかる"
+			ja: "ぶつかる",
+			'zh-tw': "衝撞"
 		},
 
 		damage: 30
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

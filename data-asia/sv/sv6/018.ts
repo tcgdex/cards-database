@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "ヒヒダルマ"
+		ja: "ヒヒダルマ",
+		'zh-tw': "達摩狒狒"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "血気 盛んな ポケモン。 太い 腕から 繰りだす パンチは ダンプカーも 粉々に するぞ。"
+		ja: "血気 盛んな ポケモン。 太い 腕から 繰りだす パンチは ダンプカーも 粉々に するぞ。",
+		'zh-tw': "總是熱血沸騰的寶可夢。 牠厚重的手臂使出的拳擊 甚至能把砂石車打得粉碎。"
 	},
 
 	stage: "Stage1",
@@ -26,7 +27,8 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "ころがりタックル"
+			ja: "ころがりタックル",
+			'zh-tw': "滾動衝撞"
 		},
 
 		damage: 60
@@ -34,13 +36,15 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Fire"],
 
 		name: {
-			ja: "もうかのとっしん"
+			ja: "もうかのとっしん",
+			'zh-tw': "猛火猛撞"
 		},
 
 		damage: 210,
 
 		effect: {
-			ja: "このポケモンにも70ダメージ。"
+			ja: "このポケモンにも70ダメージ。",
+			'zh-tw': "這隻寶可夢也受到70點傷害。"
 		}
 	}],
 
@@ -49,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "H"
 }
 
 export default card

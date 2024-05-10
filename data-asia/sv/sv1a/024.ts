@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "デリバード"
+		ja: "デリバード",
+		'zh-tw': "信使鳥"
 	},
 
 	illustrator: "miki kudo",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "１日 ずっと エサを運んでる。 遭難した 人が デリバードの エサで 助かった 話もある。"
+		ja: "１日 ずっと エサを運んでる。 遭難した 人が デリバードの エサで 助かった 話もある。",
+		'zh-tw': "一整天都在搬運食物。據說曾經有遇難的人因為 信使鳥的食物而得救。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ダブルドロー"
+			ja: "ダブルドロー",
+			'zh-tw': "雙重抽出"
 		},
 
 		effect: {
-			ja: "自分の山札を2枚引く。"
+			ja: "自分の山札を2枚引く。",
+			'zh-tw': "從自己的牌庫抽出2張卡。"
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "アイスウイング"
+			ja: "アイスウイング",
+			'zh-tw': "冰之翼"
 		},
 
 		damage: 30
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

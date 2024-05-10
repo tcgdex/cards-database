@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラッキー"
+		ja: "ラッキー",
+		'zh-tw': "吉利蛋"
 	},
 
 	illustrator: "sui",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "持っている タマゴを 割らないように 気をつけて 歩く。 でも 逃げ足は とても 速い。"
+		ja: "持っている タマゴを 割らないように 気をつけて 歩く。 でも 逃げ足は とても 速い。",
+		'zh-tw': "為了避免蛋被打破，走起路來小心謹慎。 然而逃跑速度卻是快之無比。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "はたく"
+			ja: "はたく",
+			'zh-tw': "拍擊"
 		},
 
 		damage: 40
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "タマゴころがし"
+			ja: "タマゴころがし",
+			'zh-tw': "滾動之蛋"
 		},
 
-		damage: "60×",
+		damage: 60,
 
 		effect: {
-			ja: "ウラが出るまでコインを投げ、オモテの数×60ダメージ。"
+			ja: "ウラが出るまでコインを投げ、オモテの数×60ダメージ。",
+			'zh-tw': "擲硬幣直到出現反面，造成正面出現的次數×60點傷害。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

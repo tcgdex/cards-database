@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "ケーシィ"
+		ja: "ケーシィ",
+		'zh-tw': "凱西"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "寝ながら 超能力を 操る。 夢の 内容が 使う 力に 影響する。"
+		ja: "寝ながら 超能力を 操る。 夢の 内容が 使う 力に 影響する。",
+		'zh-tw': "會一邊睡覺一邊操控超能力。 夢的內容會影響牠使用的能力。"
 	},
 
 	stage: "Basic",
@@ -26,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "テレポーター"
+			ja: "テレポーター",
+			'zh-tw': "瞬間移動者"
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。"
+			ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+			'zh-tw': "若這隻寶可夢在戰鬥場上，則在自己的回合時可使用1次。將這隻寶可夢與附加的卡，全部放回自己的牌庫並重洗。"
 		}
 	}],
 
@@ -38,7 +41,8 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "ビーム"
+			ja: "ビーム",
+			'zh-tw': "光束"
 		},
 
 		damage: 10
@@ -51,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

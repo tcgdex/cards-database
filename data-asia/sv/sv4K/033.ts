@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コジョフー"
+		ja: "コジョフー",
+		'zh-tw': "功夫鼬"
 	},
 
 	illustrator: "Natsumi Yoshida",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "小さくても 気性は 荒い。 油断して 近づく 相手には 華麗な 連打を おみまいする。"
+		ja: "小さくても 気性は 荒い。 油断して 近づく 相手には 華麗な 連打を おみまいする。",
+		'zh-tw': "個頭雖小，個性粗暴。對於漫不經心就靠近自己 的對手會奉上華麗的連擊。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "けたぐり"
+			ja: "けたぐり",
+			'zh-tw': "踢倒"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "せいけんづき"
+			ja: "せいけんづき",
+			'zh-tw': "正拳突"
 		},
 
 		damage: 20
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "クイタラン"
+		ja: "クイタラン",
+		'zh-tw': "熔蟻獸"
 	},
 
 	illustrator: "otumami",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "炎を ベロの ように 使う。 アイアントの 硬い 外骨格を じわじわと 溶かし いただくのだ。"
+		ja: "炎を ベロの ように 使う。 アイアントの 硬い 外骨格を じわじわと 溶かし いただくのだ。",
+		'zh-tw': "將火焰當成舌頭來使用。會一點一點地熔化鐵蟻堅硬的外骨骼，然後把牠吃掉。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "エナジーバーナー"
+			ja: "エナジーバーナー",
+			'zh-tw': "能量燃燒"
 		},
 
-		damage: "30＋",
+		damage: "30+",
 
 		effect: {
-			ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。"
+			ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+			'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×30點傷害。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

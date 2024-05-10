@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヘルガー"
+		ja: "ヘルガー",
+		'zh-tw': "黑魯加"
 	},
 
 	illustrator: "hncl",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "不気味な 遠吠えを 聞いた ポケモンは 震え 一目散に 自分の 巣に 戻る。"
+		ja: "不気味な 遠吠えを 聞いた ポケモンは 震え 一目散に 自分の 巣に 戻る。",
+		'zh-tw': "聽見牠恐怖長嚎的寶可夢會渾身發抖， 一溜煙地回到自己的巢裡。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "するどいキバ"
+			ja: "するどいキバ",
+			'zh-tw': "銳利之牙"
 		},
 
 		damage: 30
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "だいもんじ"
+			ja: "だいもんじ",
+			'zh-tw': "大字爆炎"
 		},
 
 		damage: 150,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。"
+			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

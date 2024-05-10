@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "モノズ"
+		ja: "モノズ",
+		'zh-tw': "單首龍"
 	},
 
 	illustrator: "Narumi Sato",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "目が 見えないので なんでも とりあえず かじって 確かめる。 懐くまでは 傷だらけに なるぞ。"
+		ja: "目が 見えないので なんでも とりあえず かじって 確かめる。 懐くまでは 傷だらけに なるぞ。",
+		'zh-tw': "因為眼睛看不見，所以不管要確認什麼都是先咬再說。 和牠變親密前會滿身是傷。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "おそいかかる"
+			ja: "おそいかかる",
+			'zh-tw': "伏擊"
 		},
 
-		damage: "20＋",
+		damage: "20+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、20ダメージ追加。"
+			ja: "コインを1回投げオモテなら、20ダメージ追加。",
+			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

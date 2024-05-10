@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "バニプッチ"
+		ja: "バニプッチ",
+		'zh-tw': "迷你冰"
 	},
 
 	illustrator: "miki kudo",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷柱から 生まれたと いわれる。 マイナス５０度の 冷気を 吐いて あたりを 凍らせ 棲みやすくする。"
+		ja: "氷柱から 生まれたと いわれる。 マイナス５０度の 冷気を 吐いて あたりを 凍らせ 棲みやすくする。",
+		'zh-tw': "據說牠是從冰柱中誕生的。為了能讓自己生活得更舒適，會吐出零下５０度的冷氣凍住四周。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			ja: "ひんやり"
+			ja: "ひんやり",
+			'zh-tw': "寒意"
 		},
 
 		damage: 40
@@ -36,7 +39,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オコリザル"
+		ja: "オコリザル",
+		'zh-tw': "火爆猴"
 	},
 
 	illustrator: "Mina Nakai",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "だれかの 視線を 感じただけで 猛烈に 怒りだす。 そして 目が合った ものを 追いかけるのだ。"
+		ja: "だれかの 視線を 感じただけで 猛烈に 怒りだす。 そして 目が合った ものを 追いかけるのだ。",
+		'zh-tw': "光是感覺到他方的視線都會暴怒起來，然後去追 和牠對到眼的傢伙。"
 	},
 
 	stage: "Stage1",
@@ -25,25 +27,29 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "がなりたてる"
+			ja: "がなりたてる",
+			'zh-tw': "狂嗥"
 		},
 
 		damage: 40,
 
 		effect: {
-			ja: "このポケモンをこんらんにする。"
+			ja: "このポケモンをこんらんにする。",
+			'zh-tw': "將這隻寶可夢【混亂】。"
 		}
 	}, {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			ja: "げきこうスマッシュ"
+			ja: "げきこうスマッシュ",
+			'zh-tw': "盛怒粉碎"
 		},
 
 		damage: 150,
 
 		effect: {
-			ja: "このポケモンがこんらんでないなら、このワザは失敗。"
+			ja: "このポケモンがこんらんでないなら、このワザは失敗。",
+			'zh-tw': "若這隻寶可夢沒有【混亂】，則這個招式失敗。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "レドームシ"
+		ja: "レドームシ",
+		'zh-tw': "天罩蟲"
 	},
 
 	illustrator: "Haru Akasaka",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "殻の 中で 成長中。 サイコパワーで 外の 様子を うかがい 進化に 備えている。"
+		ja: "殻の 中で 成長中。 サイコパワーで 外の 様子を うかがい 進化に 備えている。",
+		'zh-tw': "正在殼裡成長著。用精神力量掌握外界的狀況，做好進化的準備。"
 	},
 
 	stage: "Stage1",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "まもる"
+			ja: "まもる",
+			'zh-tw': "守住"
 		},
 
 		effect: {
-			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
+			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "しねんのずつき"
+			ja: "しねんのずつき",
+			'zh-tw': "意念頭錘"
 		},
 
 		damage: 20
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マネネ"
+		ja: "マネネ",
+		'zh-tw': "魔尼尼"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -15,20 +16,23 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "相手の 動きを そっくりに 真似を して 戸惑わせている あいだに さっさと 逃げるのだ。"
+		ja: "相手の 動きを そっくりに 真似を して 戸惑わせている あいだに さっさと 逃げるのだ。",
+		'zh-tw': "可以分毫不差地模仿對手的動作，趁對手迷惑的時候迅速逃走。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Void"],
+
 
 		name: {
-			ja: "マネマネごっこ"
+			ja: "マネマネごっこ",
+			'zh-tw': "扮家家酒"
 		},
 
 		effect: {
-			ja: "相手は相手自身の場のポケモンが持っているワザを1つ選ぶ。選ばれたワザをこのワザとして使う。"
+			ja: "相手は相手自身の場のポケモンが持っているワザを1つ選ぶ。選ばれたワザをこのワザとして使う。",
+			'zh-tw': "對手選擇對手自己的場上寶可夢持有的1個招式。被選擇的招式作為這個招式使用。"
 		}
 	}],
 
@@ -39,10 +43,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	regulationMark: "G"
 }
 
 export default card

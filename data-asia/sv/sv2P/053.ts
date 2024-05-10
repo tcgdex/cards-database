@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゾウドウ"
+		ja: "ゾウドウ",
+		'zh-tw': "銅象"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "尖った 鼻先で 硬い 岩を 削り取って 食べる。 温厚で 人の 力仕事を 手伝う。"
+		ja: "尖った 鼻先で 硬い 岩を 削り取って 食べる。 温厚で 人の 力仕事を 手伝う。",
+		'zh-tw': "尖尖的鼻尖能削斷堅硬的岩石來作為糧食。性情溫馴， 會幫助人類做粗重的工作。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "ふむ"
+			ja: "ふむ",
+			'zh-tw': "踩"
 		},
 
 		damage: 50
@@ -38,10 +41,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴース"
+		ja: "ゴース",
+		'zh-tw': "鬼斯"
 	},
 
 	illustrator: "Nobuhiro Imagawa",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ガス状の 体で まとわりつき 獲物の 皮膚から 少しずつ 毒を 送り込んで 弱らせる。"
+		ja: "ガス状の 体で まとわりつき 獲物の 皮膚から 少しずつ 毒を 送り込んで 弱らせる。",
+		'zh-tw': "會用氣體狀的身體纏住獵物，再從皮膚緩緩地注入毒素， 使對手變得虛弱。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ひきつける"
+			ja: "ひきつける",
+			'zh-tw': "吸引"
 		},
 
 		effect: {
-			ja: "自分の山札を1枚引く。"
+			ja: "自分の山札を1枚引く。",
+			'zh-tw': "從自己的牌庫抽出1張卡。"
 		}
 	}, {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "おにび"
+			ja: "おにび",
+			'zh-tw': "鬼火"
 		},
 
 		damage: 20
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

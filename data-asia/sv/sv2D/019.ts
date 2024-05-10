@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コリンク"
+		ja: "コリンク",
+		'zh-tw': "小貓怪"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "体を 動かすたびに 筋肉が 伸び縮みして 電気が 生まれる。 ピンチになると 体が 輝く。"
+		ja: "体を 動かすたびに 筋肉が 伸び縮みして 電気が 生まれる。 ピンチになると 体が 輝く。",
+		'zh-tw': "每當活動身體時，肌肉的伸縮會產生電流。 當遇上危機時，身體會發光。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "けりつける"
+			ja: "けりつける",
+			'zh-tw': "踹"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "コインを1回投げウラなら、このワザは失敗。"
+			ja: "コインを1回投げウラなら、このワザは失敗。",
+			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

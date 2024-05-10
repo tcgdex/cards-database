@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ツボツボ"
+		ja: "ツボツボ",
+		'zh-tw': "壺壺"
 	},
 
 	illustrator: "Kurata So",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ツボのような 甲羅の 中に ためこんだ 木の実は いつの間にか ドロドロの ジュースに 変わる。"
+		ja: "ツボのような 甲羅の 中に ためこんだ 木の実は いつの間にか ドロドロの ジュースに 変わる。",
+		'zh-tw': "儲存在壺形甲殼裡的樹果會在不知不覺間變成黏糊糊的果汁。"
 	},
 
 	stage: "Basic",
@@ -25,23 +27,27 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "きのみのかおり"
+			ja: "きのみのかおり",
+			'zh-tw': "樹果香氣"
 		},
 
 		effect: {
-			ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。"
+			ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+			'zh-tw': "從自己的牌庫選擇1張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ガードプレス"
+			ja: "ガードプレス",
+			'zh-tw': "防守壓制"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。"
 		}
 	}],
 
@@ -50,7 +56,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

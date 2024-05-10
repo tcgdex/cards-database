@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドンカラス"
+		ja: "ドンカラス",
+		'zh-tw': "烏鴉頭頭"
 	},
 
 	illustrator: "Nisota Niso",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "情け容赦ない 性格。 子分の ヤミカラスの 失敗は 絶対に 許さないと 言われる。"
+		ja: "情け容赦ない 性格。 子分の ヤミカラスの 失敗は 絶対に 許さないと 言われる。",
+		'zh-tw': "性格冷酷，不留情面。據說絕不會容許手下的 黑暗鴉有任何的失敗。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "はばたく"
+			ja: "はばたく",
+			'zh-tw': "羽擊"
 		},
 
 		damage: 30
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ダーティスロー"
+			ja: "ダーティスロー",
+			'zh-tw': "惡劣投擲"
 		},
 
 		damage: 140,
 
 		effect: {
-			ja: "自分の手札を1枚トラッシュする。トラッシュできないなら、このワザは失敗。"
+			ja: "自分の手札を1枚トラッシュする。トラッシュできないなら、このワザは失敗。",
+			'zh-tw': "將自己的1張手牌丟棄。若無法丟棄，則這個招式失敗。"
 		}
 	}],
 
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

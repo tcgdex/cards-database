@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コソクムシ"
+		ja: "コソクムシ",
+		'zh-tw': "膽小蟲"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "群れで かたまり つねに まわりを 警戒している。 敵の 気配を 感じると 散り散りに 逃げ出す。"
+		ja: "群れで かたまり つねに まわりを 警戒している。 敵の 気配を 感じると 散り散りに 逃げ出す。",
+		'zh-tw': "成群聚集，隨時保持警惕。只要察覺到有敵人， 就會分散開來四處逃竄。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "かくれる"
+			ja: "かくれる",
+			'zh-tw': "躲藏"
 		},
 
 		effect: {
-			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
+			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。"
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "かじる"
+			ja: "かじる",
+			'zh-tw': "咬"
 		},
 
 		damage: 20
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

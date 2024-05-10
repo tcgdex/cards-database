@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ミモザ"
+		ja: "ミモザ",
+		'zh-tw': "米莫莎"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,10 +14,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュからポケモンを5枚まで選び、相手に見せて、山札にもどして切る。その後、山札を3枚引く。"
+		ja: "自分のトラッシュからポケモンを5枚まで選び、相手に見せて、山札にもどして切る。その後、山札を3枚引く。",
+		'zh-tw': "從自己的棄牌區選擇最多5張寶可夢卡，在給對手看過後放回牌庫並重洗。然後，從牌庫抽出3張卡。"
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "G"
 }
 
 export default card

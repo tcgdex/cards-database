@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シビビール"
+		ja: "シビビール",
+		'zh-tw': "麻麻鰻"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "丸い 模様が 発電 器官。 相手に 巻きついてから 模様を 押しつけて 電気を 流すのだ。"
+		ja: "丸い 模様が 発電 器官。 相手に 巻きついてから 模様を 押しつけて 電気を 流すのだ。",
+		'zh-tw': "圓圓的花紋是發電器官。會先纏住對手，然後把花紋壓在對手身上後放出電流。"
 	},
 
 	stage: "Stage1",
@@ -25,19 +27,22 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "ショックウェーブ"
+			ja: "ショックウェーブ",
+			'zh-tw': "衝擊波"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。"
 		}
 	}, {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ライトニングボール"
+			ja: "ライトニングボール",
+			'zh-tw': "雷電球"
 		},
 
 		damage: 60
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

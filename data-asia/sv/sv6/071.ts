@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "アラブルタケ"
+		ja: "アラブルタケ",
+		'zh-tw': "猛惡菇"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ある本の中で アラブルタケと 記されていた 生物は このポケモンの 可能性がある。"
+		ja: "ある本の中で アラブルタケと 記されていた 生物は このポケモンの 可能性がある。",
+		'zh-tw': "某本書裡記載的一種 叫做猛惡菇的生物， 有可能就是這隻寶可夢。"
 	},
 
 	stage: "Basic",
@@ -26,23 +27,27 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "どくをとばす"
+			ja: "どくをとばす",
+			'zh-tw': "噴毒"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンをどくにする。"
+			ja: "相手のバトルポケモンをどくにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【中毒】。"
 		}
 	}, {
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		name: {
-			ja: "まくしなぐる"
+			ja: "まくしなぐる",
+			'zh-tw': "爆毆"
 		},
 
-		damage: "50＋",
+		damage: "50+",
 
 		effect: {
-			ja: "相手のバトルポケモンにのっているダメカンの数×50ダメージ追加。"
+			ja: "相手のバトルポケモンにのっているダメカンの数×50ダメージ追加。",
+			'zh-tw': "增加對手的戰鬥寶可夢身上放置的傷害指示物的數量×50點傷害。"
 		}
 	}],
 
@@ -51,7 +56,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "H"
 }
 
 export default card

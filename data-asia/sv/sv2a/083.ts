@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カモネギ"
+		ja: "カモネギ",
+		'zh-tw': "大蔥鴨"
 	},
 
 	illustrator: "KG-2000",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "植物の 茎で 戦う。 茎の 振り方には いくつかの 流派の ようなものが ある。"
+		ja: "植物の 茎で 戦う。 茎の 振り方には いくつかの 流派の ようなものが ある。",
+		'zh-tw': "用植物的莖來戰鬥。莖的揮舞方式存在著 好幾種不同的流派。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "しょってくる"
+			ja: "しょってくる",
+			'zh-tw': "背來"
 		},
 
 		effect: {
-			ja: "自分の山札を2枚引く。"
+			ja: "自分の山札を2枚引く。",
+			'zh-tw': "從自己的牌庫抽出2張卡。"
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ネギでぶつ"
+			ja: "ネギでぶつ",
+			'zh-tw': "用蔥毆打"
 		},
 
 		damage: 30
@@ -48,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

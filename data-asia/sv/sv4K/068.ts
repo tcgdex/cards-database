@@ -21,7 +21,7 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Void"],
+
 
 		name: {
 			ja: "じりじりヒーター"

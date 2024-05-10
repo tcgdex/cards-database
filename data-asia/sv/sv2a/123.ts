@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ストライク"
+		ja: "ストライク",
+		'zh-tw': "飛天螳螂"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "切れ味 鋭い カマを 使って 草むらを 切り進む。 あまりに 速い 動きで 目が 追いつかない。"
+		ja: "切れ味 鋭い カマを 使って 草むらを 切り進む。 あまりに 速い 動きで 目が 追いつかない。",
+		'zh-tw': "會用鋒利的鐮刀割開草叢前進。因為動作實在太快， 甚至無法用肉眼看清。"
 	},
 
 	stage: "Basic",
@@ -25,19 +27,22 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "アシストスラッシュ"
+			ja: "アシストスラッシュ",
+			'zh-tw': "輔助斬"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "自分のトラッシュから「基本エネルギー」を1枚選び、ベンチポケモンにつける。"
+			ja: "自分のトラッシュから「基本エネルギー」を1枚選び、ベンチポケモンにつける。",
+			'zh-tw': "從自己的棄牌區選擇1張「基本【草】能量」卡，附於備戰寶可夢身上。"
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			ja: "スライスブレード"
+			ja: "スライスブレード",
+			'zh-tw': "利刃切割"
 		},
 
 		damage: 70
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	regulationMark: "G"
 }
 
 export default card

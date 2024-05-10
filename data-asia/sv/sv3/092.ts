@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ジグザグマ"
+		ja: "ジグザグマ",
+		'zh-tw': "蛇紋熊"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "好奇心 旺盛な ポケモン。 なににでも 興味を 持つので いつも ジグザグに 歩いている。"
+		ja: "好奇心 旺盛な ポケモン。 なににでも 興味を 持つので いつも ジグザグに 歩いている。",
+		'zh-tw': "好奇心旺盛的寶可夢。不論對什麼都很感興趣，所以總是呈鋸齒形行走。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "とびだしヘッド"
+			ja: "とびだしヘッド",
+			'zh-tw': "魯莽頭擊"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ツメできりさく"
+			ja: "ツメできりさく",
+			'zh-tw': "利爪劈擊"
 		},
 
 		damage: 20
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

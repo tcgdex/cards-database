@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヘイガニ"
+		ja: "ヘイガニ",
+		'zh-tw': "龍蝦小兵"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "水質が 悪くても 平気なので ほかの 水ポケモンと エサの 奪い合いがなく どんどん 増えた。"
+		ja: "水質が 悪くても 平気なので ほかの 水ポケモンと エサの 奪い合いがなく どんどん 増えた。",
+		'zh-tw': "即使水質惡劣也不以為意，因此 不會和其他水寶可夢爭奪食物， 使得牠們的數量不斷增加。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			ja: "はさむ"
+			ja: "はさむ",
+			'zh-tw': "夾住"
 		},
 
 		damage: 60
@@ -36,7 +39,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

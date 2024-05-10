@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アラブルタケ"
+		ja: "アラブルタケ",
+		'zh-tw': "猛惡菇"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ある本の中で アラブルタケと 記されていた 生物は このポケモンの 可能性がある。"
+		ja: "ある本の中で アラブルタケと 記されていた 生物は このポケモンの 可能性がある。",
+		'zh-tw': "某本書裡記載的一種叫做猛惡菇的生物， 有可能就是這隻寶可夢。"
 	},
 
 	stage: "Basic",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "もうどくふんじん"
+			ja: "もうどくふんじん",
+			'zh-tw': "劇毒粉塵"
 		},
 
 		effect: {
-			ja: "このポケモンに「ブーストエナジー 古代」がついているなら、自分の番に1回使える。おたがいのバトルポケモンを、それぞれどくにする。"
+			ja: "このポケモンに「ブーストエナジー 古代」がついているなら、自分の番に1回使える。おたがいのバトルポケモンを、それぞれどくにする。",
+			'zh-tw': "若這隻寶可夢身上附有「驅勁能量 古代」，則在自己的回合時可使用1次。將雙方的戰鬥寶可夢【中毒】。"
 		}
 	}],
 
@@ -37,13 +41,15 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			ja: "あばれハンマー"
+			ja: "あばれハンマー",
+			'zh-tw': "暴亂之錘"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			ja: "次の自分の番、このポケモンはワザが使えない。",
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

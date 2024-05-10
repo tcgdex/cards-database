@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ナッシー"
+		ja: "ナッシー",
+		'zh-tw': "椰蛋樹"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "３つの 頭が 一丸となって 撃つ サイコパワーは 強力。 空が 曇ると 動きが 鈍る。"
+		ja: "３つの 頭が 一丸となって 撃つ サイコパワーは 強力。 空が 曇ると 動きが 鈍る。",
+		'zh-tw': "３顆頭團結一致發出的精神力量威力強大。天氣 變陰時動作就會變得遲緩。"
 	},
 
 	stage: "Stage1",
@@ -25,19 +27,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "サイコキネシス"
+			ja: "サイコキネシス",
+			'zh-tw': "精神強念"
 		},
 
-		damage: "30＋",
+		damage: "30+",
 
 		effect: {
-			ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。"
+			ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+			'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×30點傷害。"
 		}
 	}, {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			ja: "ぶちかます"
+			ja: "ぶちかます",
+			'zh-tw': "頭突"
 		},
 
 		damage: 130
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カヌチャン"
+		ja: "カヌチャン",
+		'zh-tw': "小鍛匠"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "手作りの ハンマーを 振りまわして 身を 守るが 金属を 食べる ポケモンには よく 奪われる。"
+		ja: "手作りの ハンマーを 振りまわして 身を 守るが 金属を 食べる ポケモンには よく 奪われる。",
+		'zh-tw': "雖然會揮舞著手工打造的錘子來保護自己，但卻常被 以金屬為食的寶可夢搶走。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "ぶんまわす"
+			ja: "ぶんまわす",
+			'zh-tw': "狂舞揮打"
 		},
 
-		damage: "10＋",
+		damage: "10+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、20ダメージ追加。"
+			ja: "コインを1回投げオモテなら、20ダメージ追加。",
+			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

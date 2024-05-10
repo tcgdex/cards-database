@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コソクムシ"
+		ja: "コソクムシ",
+		'zh-tw': "膽小蟲"
 	},
 
 	illustrator: "sowsow",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "群れで かたまり つねに まわりを 警戒している。 敵の 気配を 感じると 散り散りに 逃げ出す。"
+		ja: "群れで かたまり つねに まわりを 警戒している。 敵の 気配を 感じると 散り散りに 逃げ出す。",
+		'zh-tw': "成群聚集，隨時保持警惕。只要察覺到有敵人， 就會分散開來四處逃竄。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "こっそりたべる"
+			ja: "こっそりたべる",
+			'zh-tw': "暗中偷吃"
 		},
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手の手札からオモテを見ないで1枚選び、トラッシュする。"
+			ja: "コインを1回投げオモテなら、相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+			'zh-tw': "擲1次硬幣若為正面，則在不看正面的情況下，從對手的手牌選擇1張，將其丟棄。"
 		}
 	}, {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ぶつかる"
+			ja: "ぶつかる",
+			'zh-tw': "衝撞"
 		},
 
 		damage: 30
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

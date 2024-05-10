@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "バクオング"
+		ja: "バクオング",
+		'zh-tw': "爆音怪"
 	},
 
 	illustrator: "LINNE",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大声だけじゃない。 体の 穴から いろいろな 音色を 出し 仲間と 意思疎通を するのだ。"
+		ja: "大声だけじゃない。 体の 穴から いろいろな 音色を 出し 仲間と 意思疎通を するのだ。",
+		'zh-tw': "不只會大吼，還會從身上的洞發出各種音色 與夥伴們彼此溝通。"
 	},
 
 	stage: "Stage2",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "サドンシャウト"
+			ja: "サドンシャウト",
+			'zh-tw': "乍然嚎叫"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンと、ついているすべてのカードを、トラッシュする。この番、このポケモンが「ドゴーム」から進化していないなら、このワザは失敗。"
+			ja: "相手のバトルポケモンと、ついているすべてのカードを、トラッシュする。この番、このポケモンが「ドゴーム」から進化していないなら、このワザは失敗。",
+			'zh-tw': "將對手的戰鬥寶可夢與附加的卡全部丟棄。在這個回合，若這隻寶可夢沒有從「吼爆彈」進化而來，則這個招式失敗。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ヘッドバング"
+			ja: "ヘッドバング",
+			'zh-tw': "鐵頭碰"
 		},
 
 		damage: 140
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

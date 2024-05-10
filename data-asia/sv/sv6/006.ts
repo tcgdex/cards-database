@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "ボクレー"
+		ja: "ボクレー",
+		'zh-tw': "小木靈"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "死んだ 子供の 魂が 切り株に 宿った ポケモン。 森を さまよい 仲間を 探す。"
+		ja: "死んだ 子供の 魂が 切り株に 宿った ポケモン。 森を さまよい 仲間を 探す。",
+		'zh-tw': "死去的孩子的靈魂附在 樹樁上，變成了寶可夢。 會徘徊在森林裡尋找夥伴。"
 	},
 
 	stage: "Basic",
@@ -26,13 +27,15 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "やどりぎのタネ"
+			ja: "やどりぎのタネ",
+			'zh-tw': "寄生種子"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "このポケモンのHPを「20」回復する。"
+			ja: "このポケモンのHPを「20」回復する。",
+			'zh-tw': "將這隻寶可夢恢復「20」HP。"
 		}
 	}],
 
@@ -41,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

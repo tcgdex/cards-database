@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "タイカイデン"
+		ja: "タイカイデン",
+		'zh-tw': "大電海燕"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "のど袋を ふくらませて 電気を 増幅させる。 風に 乗って １日で ７００キロを 飛行する。"
+		ja: "のど袋を ふくらませて 電気を 増幅させる。 風に 乗って １日で ７００キロを 飛行する。",
+		'zh-tw': "會膨脹喉囊來增強電力。可以乘著風在１天內 就飛上７００公里。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "つつく"
+			ja: "つつく",
+			'zh-tw': "啄"
 		},
 
 		damage: 20
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ジェットウイング"
+			ja: "ジェットウイング",
+			'zh-tw': "噴射之翼"
 		},
 
 		damage: 150,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			ja: "次の自分の番、このポケモンはワザが使えない。",
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
 		}
 	}],
 
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	regulationMark: "G"
 }
 
 export default card

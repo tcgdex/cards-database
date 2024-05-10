@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドガース"
+		ja: "ドガース",
+		'zh-tw': "瓦斯彈"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "毒ガスで パンパンの 体。 生ゴミの 腐った においを 求め ゴミ捨て場に やってくる。"
+		ja: "毒ガスで パンパンの 体。 生ゴミの 腐った においを 求め ゴミ捨て場に やってくる。",
+		'zh-tw': "身體裡充滿了毒氣。會為了尋求廚餘垃圾的 腐敗氣味而來到垃圾場。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "あやしいガス"
+			ja: "あやしいガス",
+			'zh-tw': "奇異瓦斯"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。"
+			ja: "相手のバトルポケモンをこんらんにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

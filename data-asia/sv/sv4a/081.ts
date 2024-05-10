@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キルリア"
+		ja: "キルリア",
+		'zh-tw': "奇魯莉安"
 	},
 
 	illustrator: "kawayoo",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "サイコパワーを 操り まわりの 空間を ねじ曲げることで 未来を 見通すことができる。"
+		ja: "サイコパワーを 操り まわりの 空間を ねじ曲げることで 未来を 見通すことができる。",
+		'zh-tw': "能夠操縱精神力量來扭曲周圍的空間， 讓自己看見未來。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "マジカルショット"
+			ja: "マジカルショット",
+			'zh-tw': "魔法射擊"
 		},
 
 		damage: 30
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			ja: "サイコキネシス"
+			ja: "サイコキネシス",
+			'zh-tw': "精神強念"
 		},
 
-		damage: "60＋",
+		damage: "60+",
 
 		effect: {
-			ja: "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。"
+			ja: "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。",
+			'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×20點傷害。"
 		}
 	}],
 
@@ -49,10 +54,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ナゾノクサ"
+		ja: "ナゾノクサ",
+		'zh-tw': "走路草"
 	},
 
 	illustrator: "Sekio",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "昼間は 太陽を 避けるため 冷たい 地面に もぐっている。 月の光を 浴びて 育つ。"
+		ja: "昼間は 太陽を 避けるため 冷たい 地面に もぐっている。 月の光を 浴びて 育つ。",
+		'zh-tw': "白天為了躲避太陽，會鑽進涼爽的地下。 藉由沐浴月光來成長。"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "はっぱカッター"
+			ja: "はっぱカッター",
+			'zh-tw': "飛葉快刀"
 		},
 
 		damage: 20
@@ -35,7 +38,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

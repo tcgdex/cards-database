@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウツボット"
+		ja: "ウツボット",
+		'zh-tw': "大食花"
 	},
 
 	illustrator: "Jerky",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "体内に 取りこまれた ものは どんなに 硬くても 溶解液で 跡形なく 溶かされてしまう。"
+		ja: "体内に 取りこまれた ものは どんなに 硬くても 溶解液で 跡形なく 溶かされてしまう。",
+		'zh-tw': "被牠吞進體內的東西不管有多硬， 都會被溶解液不留痕跡地融化掉。"
 	},
 
 	stage: "Stage2",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "はきだす"
+			ja: "はきだす",
+			'zh-tw': "噴出"
 		},
 
 		damage: 50
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "ディレイドアシッド"
+			ja: "ディレイドアシッド",
+			'zh-tw': "遲延酸液"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "次の相手の番の終わりに、このワザを受けたポケモンにダメカンを12個のせる。"
+			ja: "次の相手の番の終わりに、このワザを受けたポケモンにダメカンを12個のせる。",
+			'zh-tw': "在下個對手的回合結束時，在受到這個招式的寶可夢身上放置12個傷害指示物。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

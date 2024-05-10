@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "センリ"
+		ja: "センリ",
+		'zh-tw': "千里"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,10 +14,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を2枚引く。相手のバトルポケモンが「ポケモンex」なら、さらに2枚引く。"
+		ja: "自分の山札を2枚引く。相手のバトルポケモンが「ポケモンex」なら、さらに2枚引く。",
+		'zh-tw': "從自己的牌庫抽出2張卡。若對手的戰鬥寶可夢為「寶可夢【ex】」，則再抽出2張卡。"
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "G"
 }
 
 export default card

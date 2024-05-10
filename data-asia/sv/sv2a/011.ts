@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "トランセル"
+		ja: "トランセル",
+		'zh-tw': "鐵甲蛹"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "硬い 殻に 包まれているが 中身は 軟らかいので 強い 攻撃には 耐えられない。"
+		ja: "硬い 殻に 包まれているが 中身は 軟らかいので 強い 攻撃には 耐えられない。",
+		'zh-tw': "雖然有堅硬的外殼，但因為殼裡的身體很軟， 所以無法抵抗強力的攻擊。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "たいあたり"
+			ja: "たいあたり",
+			'zh-tw': "撞擊"
 		},
 
 		damage: 20
@@ -33,11 +36,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ぼうぎょしせい"
+			ja: "ぼうぎょしせい",
+			'zh-tw': "防禦姿勢"
 		},
 
 		effect: {
-			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。"
+			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害。"
 		}
 	}],
 
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

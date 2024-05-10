@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "ブロロン"
+		ja: "ブロロン",
+		'zh-tw': "噗隆隆"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鋼の 体が 本体。 岩に 張りつき その成分を エネルギーに 変えて 活動する。"
+		ja: "鋼の 体が 本体。 岩に 張りつき その成分を エネルギーに 変えて 活動する。",
+		'zh-tw': "鋼鐵身軀才是本體。 會貼在岩石上將其成分 轉換成活動用的能量。"
 	},
 
 	stage: "Basic",
@@ -26,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "メタルコーティング"
+			ja: "メタルコーティング",
+			'zh-tw': "金屬塗層"
 		},
 
 		effect: {
-			ja: "自分のトラッシュから「基本エネルギー」を1枚選び、このポケモンにつける。"
+			ja: "自分のトラッシュから「基本エネルギー」を1枚選び、このポケモンにつける。",
+			'zh-tw': "從自己的棄牌區選擇1張「基本【鋼】能量」卡，附於這隻寶可夢身上。"
 		}
 	}, {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ぶつかる"
+			ja: "ぶつかる",
+			'zh-tw': "衝撞"
 		},
 
 		damage: 50
@@ -49,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

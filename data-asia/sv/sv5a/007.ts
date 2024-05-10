@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テツノイサハ"
+		ja: "テツノイサハ",
+		'zh-tw': "鐵斑葉"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "わずかな 目撃談によると 光り輝く 剣で 大木や 大岩を なます切りにしたという。"
+		ja: "わずかな 目撃談によると 光り輝く 剣で 大木や 大岩を なます切りにしたという。",
+		'zh-tw': "根據極少數的目擊紀錄， 牠似乎用光輝燦爛的劍 將大樹與巨岩切成了絲。"
 	},
 
 	stage: "Basic",
@@ -25,23 +27,27 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "リカバーネット"
+			ja: "リカバーネット",
+			'zh-tw': "補全之網"
 		},
 
 		effect: {
-			ja: "自分のトラッシュからポケモンを2枚まで選び、相手に見せて、手札に加える。"
+			ja: "自分のトラッシュからポケモンを2枚まで選び、相手に見せて、手札に加える。",
+			'zh-tw': "從自己的棄牌區選擇最多2張寶可夢卡，在給對手看過後加入手牌。"
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			ja: "アベンジエッジ"
+			ja: "アベンジエッジ",
+			'zh-tw': "復仇刀鋒"
 		},
 
-		damage: "100＋",
+		damage: "100+",
 
 		effect: {
-			ja: "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、60ダメージ追加。"
+			ja: "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、60ダメージ追加。",
+			'zh-tw': "在上個對手的回合，若自己的寶可夢因招式的傷害而【昏厥】了，則增加60點傷害。"
 		}
 	}],
 
@@ -50,7 +56,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヤヤコマ"
+		ja: "ヤヤコマ",
+		'zh-tw': "小箭雀"
 	},
 
 	illustrator: "sui",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "普段は 穏やかな 気性だが 戦いになると ホルモンバランスが 変わり 攻撃的になる。"
+		ja: "普段は 穏やかな 気性だが 戦いになると ホルモンバランスが 変わり 攻撃的になる。",
+		'zh-tw': "平時性情溫和，但在戰鬥開始後，荷爾蒙的平衡會 發生變化而變得具有攻擊性。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "きゅうこうか"
+			ja: "きゅうこうか",
+			'zh-tw': "急降"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			ja: "このポケモンにも10ダメージ。",
+			'zh-tw': "這隻寶可夢也受到10點傷害。"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

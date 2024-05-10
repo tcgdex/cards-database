@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サワムラー"
+		ja: "サワムラー",
+		'zh-tw': "飛腿郎"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "脚が 自由に 伸び縮みして 遠く 離れている 場合でも 相手を 蹴り上げることが できる。"
+		ja: "脚が 自由に 伸び縮みして 遠く 離れている 場合でも 相手を 蹴り上げることが できる。",
+		'zh-tw': "雙腿能夠自由伸縮，即使離得很遠也能 把對手一腳踢飛。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "トルネードキック"
+			ja: "トルネードキック",
+			'zh-tw': "龍捲風踢腿"
 		},
 
 		effect: {
-			ja: "相手のポケモン全員に、それぞれ10ダメージ。このポケモンをベンチポケモンと入れ替える。［ベンチは弱点・抵抗力を計算しない。］"
+			ja: "相手のポケモン全員に、それぞれ10ダメージ。このポケモンをベンチポケモンと入れ替える。［ベンチは弱点・抵抗力を計算しない。］",
+			'zh-tw': "對手的所有寶可夢各受到10點傷害。將這隻寶可夢與備戰寶可夢互換。[在備戰區不計算弱點・抵抗力。]"
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		name: {
-			ja: "けたぐり"
+			ja: "けたぐり",
+			'zh-tw': "踢倒"
 		},
 
 		damage: 100
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

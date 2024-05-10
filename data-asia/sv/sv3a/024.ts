@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴマゾウ"
+		ja: "ゴマゾウ",
+		'zh-tw': "小小象"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "川辺に 巣穴を 作り 暮らす。 泥遊びをしたあとは 体を 洗わないと 落ち着かないのだ。"
+		ja: "川辺に 巣穴を 作り 暮らす。 泥遊びをしたあとは 体を 洗わないと 落ち着かないのだ。",
+		'zh-tw': "會在河邊做出巢穴棲息。玩完泥巴後如果不把身體 洗乾淨，就會渾身不自在。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "かいりき"
+			ja: "かいりき",
+			'zh-tw': "怪力"
 		},
 
 		damage: 30
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "ころがりタックル"
+			ja: "ころがりタックル",
+			'zh-tw': "滾動衝撞"
 		},
 
 		damage: 60
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

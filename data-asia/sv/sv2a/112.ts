@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サイドン"
+		ja: "サイドン",
+		'zh-tw': "鑽角犀獸"
 	},
 
 	illustrator: "GOSSAN",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "全身を よろいのような 皮膚で 守っている。 ２０００度の マグマの 中でも 生きられる。"
+		ja: "全身を よろいのような 皮膚で 守っている。 ２０００度の マグマの 中でも 生きられる。",
+		'zh-tw': "全身被鎧甲般的皮膚保護著。甚至能在 ２０００度的熔岩中生存。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "たたきつぶす"
+			ja: "たたきつぶす",
+			'zh-tw': "砸碎"
 		},
 
 		damage: 30
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "カリスマドリル"
+			ja: "カリスマドリル",
+			'zh-tw': "領導力鑽"
 		},
 
-		damage: "40＋",
+		damage: "40+",
 
 		effect: {
-			ja: "この番、手札から「サカキのカリスマ」を出して使っていたなら、140ダメージ追加。"
+			ja: "この番、手札から「サカキのカリスマ」を出して使っていたなら、140ダメージ追加。",
+			'zh-tw': "在這個回合，若從手牌使出了「坂木的領導力」，則增加140點傷害。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

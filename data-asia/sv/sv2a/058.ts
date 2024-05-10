@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ガーディ"
+		ja: "ガーディ",
+		'zh-tw': "卡蒂狗"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "自分より 強くて 大きな 相手にも 恐れずに 立ち向かう 勇敢で 頼もしい 性格。"
+		ja: "自分より 強くて 大きな 相手にも 恐れずに 立ち向かう 勇敢で 頼もしい 性格。",
+		'zh-tw': "能毫不畏懼地去對抗比自己更強更大的對手。 性格非常勇敢可靠。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "じょうはつ"
+			ja: "じょうはつ",
+			'zh-tw': "蒸發"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。"
+			ja: "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+			'zh-tw': "選擇1個對手的戰鬥寶可夢身上附加的【水】能量，將其丟棄。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

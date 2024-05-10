@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パルデア ウパー"
+		ja: "パルデア ウパー",
+		'zh-tw': "帕底亞 烏波"
 	},
 
 	illustrator: "kirisAki",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "縄張り争いに 敗れて 陸で 暮らすうちに 毒の 粘膜で 体を 保護するように 変わった。"
+		ja: "縄張り争いに 敗れて 陸で 暮らすうちに 毒の 粘膜で 体を 保護するように 変わった。",
+		'zh-tw': "因搶輸地盤而到陸地上生活，久而久之變成了是 用帶毒的黏膜來保護身體。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "とびちるどく"
+			ja: "とびちるどく",
+			'zh-tw': "噴濺毒"
 		},
 
 		effect: {
-			ja: "おたがいのバトルポケモンを、それぞれどくにする。"
+			ja: "おたがいのバトルポケモンを、それぞれどくにする。",
+			'zh-tw': "將雙方的戰鬥寶可夢【中毒】。"
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			ja: "しっぽではたく"
+			ja: "しっぽではたく",
+			'zh-tw': "擺尾拍擊"
 		},
 
 		damage: 30
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゼブライカ"
+		ja: "ゼブライカ",
+		'zh-tw': "雷電斑馬"
 	},
 
 	illustrator: "GOSSAN",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "稲妻のような 瞬発力。 ゼブライカが 全速力で 走ると 雷鳴が 響きわたる。"
+		ja: "稲妻のような 瞬発力。 ゼブライカが 全速力で 走ると 雷鳴が 響きわたる。",
+		'zh-tw': "有著閃電般的爆發力。如果雷電斑馬全速奔馳，雷聲就會響徹雲霄。"
 	},
 
 	stage: "Stage1",
@@ -25,23 +27,27 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "はじけるいななき"
+			ja: "はじけるいななき",
+			'zh-tw': "濺射嘶鳴"
 		},
 
 		effect: {
-			ja: "相手がすでにとったサイドの枚数ぶんまで、自分のトラッシュから「基本エネルギー」を選び、自分のポケモンに好きなようにつける。"
+			ja: "相手がすでにとったサイドの枚数ぶんまで、自分のトラッシュから「基本エネルギー」を選び、自分のポケモンに好きなようにつける。",
+			'zh-tw': "從自己的棄牌區選擇最多與對手已經獲得的獎賞卡的張數相同數量的「基本【雷】能量」卡，以任意方式附於自己的寶可夢身上。"
 		}
 	}, {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			ja: "かみなり"
+			ja: "かみなり",
+			'zh-tw': "打雷"
 		},
 
 		damage: 150,
 
 		effect: {
-			ja: "このポケモンにも50ダメージ。"
+			ja: "このポケモンにも50ダメージ。",
+			'zh-tw': "這隻寶可夢也受到50點傷害。"
 		}
 	}],
 
@@ -50,7 +56,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

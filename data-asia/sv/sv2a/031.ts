@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニドクイン"
+		ja: "ニドクイン",
+		'zh-tw': "尼多后"
 	},
 
 	illustrator: "Teeziro",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "背中の 棘の 隙間に 子どもを 乗せて あやす。 そのときに 毒が 出ることは けっして ないのだ。"
+		ja: "背中の 棘の 隙間に 子どもを 乗せて あやす。 そのときに 毒が 出ることは けっして ないのだ。",
+		'zh-tw': "會把孩子放在背上的刺與刺之間來哄牠們。 這時候絕對不會釋放毒素。"
 	},
 
 	stage: "Stage2",
@@ -25,19 +27,22 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "クイーンプレス"
+			ja: "クイーンプレス",
+			'zh-tw': "皇后壓制"
 		},
 
 		damage: 90,
 
 		effect: {
-			ja: "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。"
+			ja: "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。",
+			'zh-tw': "在下個對手的回合，這隻寶可夢不會受到【基礎】寶可夢招式的傷害。"
 		}
 	}, {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			ja: "つきたおし"
+			ja: "つきたおし",
+			'zh-tw': "撞倒"
 		},
 
 		damage: 160
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

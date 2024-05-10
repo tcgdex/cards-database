@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハカドッグ"
+		ja: "ハカドッグ",
+		'zh-tw': "墓揚犬"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "普段は 墓場で 眠っている。 数いる 犬ポケモンの中でも もっとも 主に 忠実だ。"
+		ja: "普段は 墓場で 眠っている。 数いる 犬ポケモンの中でも もっとも 主に 忠実だ。",
+		'zh-tw': "平時都在墳場裡睡覺。在為數眾多的犬寶可夢中，牠是對主人最為忠實的。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "うしろげり"
+			ja: "うしろげり",
+			'zh-tw': "後踢"
 		},
 
 		damage: 30
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "しにものぐるい"
+			ja: "しにものぐるい",
+			'zh-tw': "拼命"
 		},
 
-		damage: "80＋",
+		damage: "80+",
 
 		effect: {
-			ja: "相手のサイドの残り枚数が4枚・2枚なら、120ダメージ追加。"
+			ja: "相手のサイドの残り枚数が4枚・2枚なら、120ダメージ追加。",
+			'zh-tw': "若對手剩餘獎賞卡的張數為4張・2張，則增加120點傷害。"
 		}
 	}],
 
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

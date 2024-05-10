@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "トゲチック"
+		ja: "トゲチック",
+		'zh-tw': "波克基古"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "優しい人の そばに いないと 元気が でなくなってしまう。 羽を動かさずに 空に浮かべる。"
+		ja: "優しい人の そばに いないと 元気が でなくなってしまう。 羽を動かさずに 空に浮かべる。",
+		'zh-tw': "不待在溫柔的人身邊就會變得沒有精神。不揮動翅膀也能浮在空中。"
 	},
 
 	stage: "Stage1",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "シェアピース"
+			ja: "シェアピース",
+			'zh-tw': "平分和平"
 		},
 
 		effect: {
-			ja: "おたがいのプレイヤーは、それぞれ山札を3枚引く。"
+			ja: "おたがいのプレイヤーは、それぞれ山札を3枚引く。",
+			'zh-tw': "雙方玩家各從牌庫抽出3張卡。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "スピードひこう"
+			ja: "スピードひこう",
+			'zh-tw': "高速飛行"
 		},
 
 		damage: 40
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

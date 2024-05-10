@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヨーギラス"
+		ja: "ヨーギラス",
+		'zh-tw': "幼基拉斯"
 	},
 
 	illustrator: "KYUPIYAMA",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "地面 深くで 生まれ 山ほどの 土を 食べ終わると 体を つくるため サナギになる。"
+		ja: "地面 深くで 生まれ 山ほどの 土を 食べ終わると 体を つくるため サナギになる。",
+		'zh-tw': "誕生在地底深處。當牠吃完滿山的土壤後，就會為了成長而變成蛹。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "どつく"
+			ja: "どつく",
+			'zh-tw': "推擊"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "がちんこ"
+			ja: "がちんこ",
+			'zh-tw': "正面對決"
 		},
 
 		damage: 30
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

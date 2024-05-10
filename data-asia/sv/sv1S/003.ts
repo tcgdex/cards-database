@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "メェークル"
+		ja: "メェークル",
+		'zh-tw': "坐騎小羊"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "最近まで 山岳で 暮らす 人たちは メェークルの 背中に 乗って 山道を 移動していた。"
+		ja: "最近まで 山岳で 暮らす 人たちは メェークルの 背中に 乗って 山道を 移動していた。",
+		'zh-tw': "一直到最近為止，都還有山岳的住民乘在坐騎小羊 的背上，在山路上移動。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "つるのムチ"
+			ja: "つるのムチ",
+			'zh-tw': "藤鞭"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "けとばす"
+			ja: "けとばす",
+			'zh-tw': "踢飛"
 		},
 
 		damage: 20
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

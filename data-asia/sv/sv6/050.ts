@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "チリーン"
+		ja: "チリーン",
+		'zh-tw': "風鈴鈴"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "鳴き声は 体の 空洞で 響き合って きれいな 音色になり 敵を驚かせ 追いはらう。"
+		ja: "鳴き声は 体の 空洞で 響き合って きれいな 音色になり 敵を驚かせ 追いはらう。",
+		'zh-tw': "叫聲會在身體的空洞裡 迴盪出美麗的音色， 趕走被嚇到的敵人。"
 	},
 
 	stage: "Basic",
@@ -26,7 +27,8 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "ハイパーボイス"
+			ja: "ハイパーボイス",
+			'zh-tw': "巨聲"
 		},
 
 		damage: 20
@@ -34,11 +36,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "おかえりチャイム"
+			ja: "おかえりチャイム",
+			'zh-tw': "回家鐘聲"
 		},
 
 		effect: {
-			ja: "自分のベンチポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、山札にもどして切る。"
+			ja: "自分のベンチポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、山札にもどして切る。",
+			'zh-tw': "選擇1隻自己的備戰寶可夢，將那隻寶可夢與附加的卡全部放回牌庫並重洗。"
 		}
 	}],
 
@@ -49,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

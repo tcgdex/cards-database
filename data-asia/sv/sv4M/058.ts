@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テツノコウベ"
+		ja: "テツノコウベ",
+		'zh-tw': "鐵脖頸"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "古い 書物に 記された テツノコウベという 物体は このポケモンかも しれない。"
+		ja: "古い 書物に 記された テツノコウベという 物体は このポケモンかも しれない。",
+		'zh-tw': "老舊書籍所記載的叫做鐵脖頸的物體，說不定就是這隻寶可夢。"
 	},
 
 	stage: "Basic",
@@ -25,23 +27,27 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ホーミングヘッド"
+			ja: "ホーミングヘッド",
+			'zh-tw': "自動導向頭擊"
 		},
 
 		effect: {
-			ja: "ダメカンがのっている相手のポケモン3匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			ja: "ダメカンがのっている相手のポケモン3匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			'zh-tw': "對手的身上放置有傷害指示物的3隻寶可夢各受到50點傷害。[在備戰區不計算弱點・抵抗力。]"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "バリオンビーム"
+			ja: "バリオンビーム",
+			'zh-tw': "重子光束"
 		},
 
 		damage: 150,
 
 		effect: {
-			ja: "このワザは、このポケモンに「ブーストエナジー 未来」がついているなら、エネルギー3個で使える。"
+			ja: "このワザは、このポケモンに「ブーストエナジー 未来」がついているなら、エネルギー3個で使える。",
+			'zh-tw': "若這隻寶可夢身上附有「驅勁能量 未來」，則這個招式只需要3個【無】能量即可使用。"
 		}
 	}],
 
@@ -52,10 +58,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

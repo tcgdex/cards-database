@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イダイナキバex"
+		ja: "イダイナキバex",
+		'zh-tw': "雄偉牙ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,25 +21,29 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "がんばんくずし"
+			ja: "がんばんくずし",
+			'zh-tw': "岩盤崩裂"
 		},
 
 		damage: 40,
 
 		effect: {
-			ja: "場に出ているスタジアムをトラッシュする。"
+			ja: "場に出ているスタジアムをトラッシュする。",
+			'zh-tw': "將場上的競技場卡丟棄。"
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		name: {
-			ja: "ギガントタスク"
+			ja: "ギガントタスク",
+			'zh-tw': "巨烈長牙"
 		},
 
 		damage: 250,
 
 		effect: {
-			ja: "このポケモンにも50ダメージ。"
+			ja: "このポケモンにも50ダメージ。",
+			'zh-tw': "這隻寶可夢也受到50點傷害。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

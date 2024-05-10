@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アイアント"
+		ja: "アイアント",
+		'zh-tw': "鐵蟻"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "大きな顎は 岩石をも かみ砕く。 サダイジャから タマゴを 守るため 群れで 戦う。"
+		ja: "大きな顎は 岩石をも かみ砕く。 サダイジャから タマゴを 守るため 群れで 戦う。",
+		'zh-tw': "巨大的顎部能咬碎岩石。為了不讓沙螺蟒把蛋搶走，會和其他同類一起並肩戰鬥。"
 	},
 
 	stage: "Basic",
@@ -25,25 +27,29 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "むらがるいかり"
+			ja: "むらがるいかり",
+			'zh-tw': "憤怒堆積"
 		},
 
 		damage: "20×",
 
 		effect: {
-			ja: "自分の場の「アイアント」全員にのっているダメカンの数×20ダメージ。"
+			ja: "自分の場の「アイアント」全員にのっているダメカンの数×20ダメージ。",
+			'zh-tw': "造成自己的場上的所有「鐵蟻」身上放置的傷害指示物數量×20點傷害。"
 		}
 	}, {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ハードシザー"
+			ja: "ハードシザー",
+			'zh-tw': "堅硬之剪"
 		},
 
 		damage: 80,
 
 		effect: {
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。"
+			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-20」點。"
 		}
 	}],
 
@@ -54,10 +60,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ロコン"
+		ja: "ロコン",
+		'zh-tw': "六尾"
 	},
 
 	illustrator: "sowsow",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "温かい ６本の 尻尾は 体が 育つごとに 毛並みが 良くなり 美しく なっていく。"
+		ja: "温かい ６本の 尻尾は 体が 育つごとに 毛並みが 良くなり 美しく なっていく。",
+		'zh-tw': "隨著身體的成長， 溫暖的６根尾巴的 毛髮也會變得更漂亮。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "ひだね"
+			ja: "ひだね",
+			'zh-tw': "火種"
 		},
 
 		damage: 40
@@ -36,7 +39,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

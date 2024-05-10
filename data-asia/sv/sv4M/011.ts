@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "バオッキー"
+		ja: "バオッキー",
+		'zh-tw': "爆香猿"
 	},
 
 	illustrator: "Yuya Oka",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "興奮すると 頭や 尻尾から 火の粉が 舞いあがって 熱くなる。 なぜか 甘いものが 大好物。"
+		ja: "興奮すると 頭や 尻尾から 火の粉が 舞いあがって 熱くなる。 なぜか 甘いものが 大好物。",
+		'zh-tw': "興奮的時候，頭部與尾巴就會變熱並飛出火花。不知為何最喜歡吃甜的。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "モンキートリオ"
+			ja: "モンキートリオ",
+			'zh-tw': "三猴行"
 		},
 
 		effect: {
-			ja: "自分の場に「ヤナッキー」「バオッキー」「ヒヤッキー」がいるなら、このポケモンがワザを使うためのエネルギーは、すべてなくなる。"
+			ja: "自分の場に「ヤナッキー」「バオッキー」「ヒヤッキー」がいるなら、このポケモンがワザを使うためのエネルギーは、すべてなくなる。",
+			'zh-tw': "若自己的場上有「花椰猿」「爆香猿」「冷水猿」，則這隻寶可夢使用招式所需的【無】能量全部消除。"
 		}
 	}],
 
@@ -37,13 +41,15 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ヒートタックル"
+			ja: "ヒートタックル",
+			'zh-tw': "熱力衝撞"
 		},
 
 		damage: 190,
 
 		effect: {
-			ja: "このポケモンにも30ダメージ。"
+			ja: "このポケモンにも30ダメージ。",
+			'zh-tw': "這隻寶可夢也受到30點傷害。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

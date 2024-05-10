@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ノズパス"
+		ja: "ノズパス",
+		'zh-tw': "朝北鼻"
 	},
 
 	illustrator: "Nobuhiro Imagawa",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "強力な 磁力で 獲物を 引き寄せ 動かず 狩りを するが 天敵を 引き寄せることもある。"
+		ja: "強力な 磁力で 獲物を 引き寄せ 動かず 狩りを するが 天敵を 引き寄せることもある。",
+		'zh-tw': "牠會動也不動地用強大的磁力把獵物吸過來獵捕，但有時也會把天敵吸來。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "てつあつめ"
+			ja: "てつあつめ",
+			'zh-tw': "集鐵"
 		},
 
 		effect: {
-			ja: "自分のトラッシュから「基本エネルギー」を2枚まで選び、相手に見せて、手札に加える。"
+			ja: "自分のトラッシュから「基本エネルギー」を2枚まで選び、相手に見せて、手札に加える。",
+			'zh-tw': "從自己的棄牌區選擇最多2張「基本【鋼】能量」卡，在給對手看過後加入手牌。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ころがりタックル"
+			ja: "ころがりタックル",
+			'zh-tw': "滾動衝撞"
 		},
 
 		damage: 30
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

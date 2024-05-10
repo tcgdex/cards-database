@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マグカルゴex"
+		ja: "マグカルゴex",
+		'zh-tw': "熔岩蝸牛ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,25 +21,29 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "あついマグマ"
+			ja: "あついマグマ",
+			'zh-tw': "熾熱熔岩"
 		},
 
 		damage: 70,
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。"
+			ja: "相手のバトルポケモンをやけどにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。"
 		}
 	}, {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "グラウンドバーン"
+			ja: "グラウンドバーン",
+			'zh-tw': "大地灼燒"
 		},
 
-		damage: "140＋",
+		damage: "140+",
 
 		effect: {
-			ja: "おたがいの山札を上から1枚ずつトラッシュし、その中にあるエネルギーの枚数×140ダメージ追加。"
+			ja: "おたがいの山札を上から1枚ずつトラッシュし、その中にあるエネルギーの枚数×140ダメージ追加。",
+			'zh-tw': "將雙方的牌庫上方各1張卡丟棄，增加其中能量卡的張數×140點傷害。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "H"
 }
 
 export default card

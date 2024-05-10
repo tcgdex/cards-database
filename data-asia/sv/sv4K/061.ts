@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブーストエナジー 古代"
+		ja: "ブーストエナジー 古代",
+		'zh-tw': "驅勁能量 古代"
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,10 +14,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「古代」のポケモンは、最大HPが「+60」され、そのポケモンは、特殊状態にならず、受けている特殊状態は、すべて回復する。"
+		ja: "このカードをつけている「古代」のポケモンは、最大HPが「+60」され、そのポケモンは、特殊状態にならず、受けている特殊状態は、すべて回復する。",
+		'zh-tw': "附有這張卡的「古代」寶可夢的最大HP「+60」，那隻寶可夢不會陷入特殊狀態，並將受到的特殊狀態全部恢復。"
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "G"
 }
 
 export default card

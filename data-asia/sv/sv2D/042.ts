@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マケンカニ"
+		ja: "マケンカニ",
+		'zh-tw': "好勝蟹"
 	},
 
 	illustrator: "Nagomi Nijo",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "木を 殴りつけ 木の実を 落として 食べる。 トレーニングしつつ エサも 採れて 一石二鳥 なのだ。"
+		ja: "木を 殴りつけ 木の実を 落として 食べる。 トレーニングしつつ エサも 採れて 一石二鳥 なのだ。",
+		'zh-tw': "會擊落樹上的樹果來吃。訓練和覓食都能同時達成， 簡直可以說是一舉兩得。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "げんこつ"
+			ja: "げんこつ",
+			'zh-tw': "拳骨"
 		},
 
 		damage: 30
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "マグナムパンチ"
+			ja: "マグナムパンチ",
+			'zh-tw': "增量拳"
 		},
 
 		damage: 60
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

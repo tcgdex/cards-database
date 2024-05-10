@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "エレキッド"
+		ja: "エレキッド",
+		'zh-tw': "電擊怪"
 	},
 
 	illustrator: "aoki",
@@ -16,20 +17,23 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "まだ 電気を 溜めるのが 下手。 電気を 食べるために 民家に 忍びこみ コンセントを 探す。"
+		ja: "まだ 電気を 溜めるのが 下手。 電気を 食べるために 民家に 忍びこみ コンセントを 探す。",
+		'zh-tw': "還不擅長儲存電力。為了吸食電力，會偷偷潛入民宅尋找插座。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Void"],
+
 
 		name: {
-			ja: "バリバリショット"
+			ja: "バリバリショット",
+			'zh-tw': "啪啪射擊"
 		},
 
 		effect: {
-			ja: "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			ja: "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			'zh-tw': "對手的1隻寶可夢受到30點傷害。[在備戰區不計算弱點・抵抗力。]"
 		}
 	}],
 
@@ -38,7 +42,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	regulationMark: "G"
 }
 
 export default card

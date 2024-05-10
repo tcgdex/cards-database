@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カプ・コケコex"
+		ja: "カプ・コケコex",
+		'zh-tw': "卡璞・鳴鳴ex"
 	},
 
 	illustrator: "hncl",
@@ -20,25 +21,29 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "リベンジショック"
+			ja: "リベンジショック",
+			'zh-tw': "復仇衝擊"
 		},
 
-		damage: "30＋",
+		damage: "30+",
 
 		effect: {
-			ja: "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加し、相手のバトルポケモンをマヒにする。"
+			ja: "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加し、相手のバトルポケモンをマヒにする。",
+			'zh-tw': "在上個對手的回合，若自己的寶可夢因招式的傷害而【昏厥】了，則增加90點傷害，並將對手的戰鬥寶可夢【麻痺】。"
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "げきでんりゅう"
+			ja: "げきでんりゅう",
+			'zh-tw': "激電流"
 		},
 
 		damage: 180,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。"
+			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

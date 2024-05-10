@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニューラ"
+		ja: "ニューラ",
+		'zh-tw': "狃拉"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "自分が 目立たないよう 暗闇に まぎれて 獲物に 襲いかかる とても ずる賢い ポケモン。"
+		ja: "自分が 目立たないよう 暗闇に まぎれて 獲物に 襲いかかる とても ずる賢い ポケモン。",
+		'zh-tw': "會潛藏在黑暗中使自己變得不起眼，然後伺機襲擊獵物， 是非常狡詐的寶可夢。"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "ツメをたてる"
+			ja: "ツメをたてる",
+			'zh-tw': "豎爪"
 		},
 
 		damage: 20
@@ -35,7 +38,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

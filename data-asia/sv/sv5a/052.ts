@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ガチグマ アカツキex"
+		ja: "ガチグマ アカツキex",
+		'zh-tw': "月月熊 赫月 ex"
 	},
 
 	illustrator: "aky CG Works",
@@ -20,11 +21,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ろうれんのわざ"
+			ja: "ろうれんのわざ",
+			'zh-tw': "老練招式"
 		},
 
 		effect: {
-			ja: "相手がすでにとったサイドの枚数ぶん、このポケモンが「ブラッドムーン」を使うためのエネルギーは少なくなる。"
+			ja: "相手がすでにとったサイドの枚数ぶん、このポケモンが「ブラッドムーン」を使うためのエネルギーは少なくなる。",
+			'zh-tw': "這隻寶可夢使用「血月」所需的【無】能量，減少對手已經獲得的獎賞卡的張數數量。"
 		}
 	}],
 
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ブラッドムーン"
+			ja: "ブラッドムーン",
+			'zh-tw': "血月"
 		},
 
 		damage: 240,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			ja: "次の自分の番、このポケモンはワザが使えない。",
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "H"
 }
 
 export default card

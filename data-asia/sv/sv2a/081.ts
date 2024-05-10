@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コイル"
+		ja: "コイル",
+		'zh-tw': "小磁怪"
 	},
 
 	illustrator: "Yuka Morii",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "左右にある ユニットから だす 電磁波で 重力を さえぎって 空に 浮かぶのだ。"
+		ja: "左右にある ユニットから だす 電磁波で 重力を さえぎって 空に 浮かぶのだ。",
+		'zh-tw': "從左右兩邊的組件發出的電磁波能阻礙重力， 使牠浮在空中。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "プチでんき"
+			ja: "プチでんき",
+			'zh-tw': "小電氣"
 		},
 
 		damage: 10
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "ばくはつ"
+			ja: "ばくはつ",
+			'zh-tw': "爆炸"
 		},
 
 		damage: 60,
 
 		effect: {
-			ja: "このポケモンにも60ダメージ。"
+			ja: "このポケモンにも60ダメージ。",
+			'zh-tw': "這隻寶可夢也受到60點傷害。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

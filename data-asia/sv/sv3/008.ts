@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オーロット"
+		ja: "オーロット",
+		'zh-tw': "朽木妖"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "足の 先から 細い 根っこを 伸ばして 森の 木々と 結びつき 自在に 操る 力を もつ。"
+		ja: "足の 先から 細い 根っこを 伸ばして 森の 木々と 結びつき 自在に 操る 力を もつ。",
+		'zh-tw': "腳尖伸出來的根鬚能連結森林中的樹木，並且自由自在地加以操縱。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "もりのしょうき"
+			ja: "もりのしょうき",
+			'zh-tw': "森林瘴氣"
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるかぎり、ポケモンチェックのたび、相手のバトルポケモンにダメカンを1個のせる。"
+			ja: "このポケモンがバトル場にいるかぎり、ポケモンチェックのたび、相手のバトルポケモンにダメカンを1個のせる。",
+			'zh-tw': "只要這隻寶可夢在戰鬥場上，每次寶可夢檢查時，在對手的戰鬥寶可夢身上放置1個傷害指示物。"
 		}
 	}],
 
@@ -37,13 +41,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "とじこめる"
+			ja: "とじこめる",
+			'zh-tw': "禁錮"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "次の相手の番、このワザを受けたポケモンは、にげられない。"
+			ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

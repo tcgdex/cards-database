@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "ヒトモシ"
+		ja: "ヒトモシ",
+		'zh-tw': "燭光靈"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "明かりを 灯して 道案内を するように 見せかけながら 生命力を 吸い取っている。"
+		ja: "明かりを 灯して 道案内を するように 見せかけながら 生命力を 吸い取っている。",
+		'zh-tw': "點亮頭上的燭火， 假裝在指引道路。 但其實是在吸取對方的生命力。"
 	},
 
 	stage: "Basic",
@@ -26,17 +27,20 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "なかまをよぶ"
+			ja: "なかまをよぶ",
+			'zh-tw': "呼朋引伴"
 		},
 
 		effect: {
-			ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。"
+			ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+			'zh-tw': "從自己的牌庫選擇1張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。"
 		}
 	}, {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "ひだね"
+			ja: "ひだね",
+			'zh-tw': "火種"
 		},
 
 		damage: 20
@@ -47,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

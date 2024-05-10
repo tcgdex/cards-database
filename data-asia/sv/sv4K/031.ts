@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "デスカーンex"
+		ja: "デスカーンex",
+		'zh-tw': "死神棺ex"
 	},
 
 	illustrator: "kawayoo",
@@ -20,11 +21,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "こがねのひつぎ"
+			ja: "こがねのひつぎ",
+			'zh-tw': "金色棺木"
 		},
 
 		effect: {
-			ja: "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。"
+			ja: "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
+			'zh-tw': "這隻寶可夢受到對手的寶可夢招式的傷害而【昏厥】時，從自己的牌庫任意選擇1張卡加入手牌。並且重洗牌庫。"
 		}
 	}],
 
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			ja: "ホロウハンズ"
+			ja: "ホロウハンズ",
+			'zh-tw': "陰森之手"
 		},
 
 		damage: 110,
 
 		effect: {
-			ja: "ダメカン5個を、相手のベンチポケモンに好きなようにのせる。"
+			ja: "ダメカン5個を、相手のベンチポケモンに好きなようにのせる。",
+			'zh-tw': "將5個傷害指示物以任意方式放置於對手的備戰寶可夢身上。"
 		}
 	}],
 
@@ -49,10 +54,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

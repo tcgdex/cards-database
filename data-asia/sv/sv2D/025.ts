@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハラバリーex"
+		ja: "ハラバリーex",
+		'zh-tw': "電肚蛙ex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -20,23 +21,27 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ジャンププレス"
+			ja: "ジャンププレス",
+			'zh-tw': "跳躍壓制"
 		},
 
 		effect: {
-			ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			'zh-tw': "對手的1隻寶可夢受到50點傷害。[在備戰區不計算弱點・抵抗力。]"
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "パラライズボール"
+			ja: "パラライズボール",
+			'zh-tw': "麻痺球"
 		},
 
 		damage: 160,
 
 		effect: {
-			ja: "のぞむなら、このポケモンについているエネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。"
+			ja: "のぞむなら、このポケモンについているエネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。",
+			'zh-tw': "若希望，將2個這隻寶可夢身上附加的【雷】能量丟棄，將對手的戰鬥寶可夢【麻痺】。"
 		}
 	}],
 
@@ -45,7 +50,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "モトトカゲ"
+		ja: "モトトカゲ",
+		'zh-tw': "摩托蜥"
 	},
 
 	illustrator: "GIDORA",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "大昔から 人を 背中に 乗せていたらしい。 １万年前の 壁画に 様子が 描かれている。"
+		ja: "大昔から 人を 背中に 乗せていたらしい。 １万年前の 壁画に 様子が 描かれている。",
+		'zh-tw': "似乎自古就會讓人類坐在背上。１萬年前的 壁畫上描繪著該模樣。"
 	},
 
 	stage: "Basic",
@@ -24,17 +26,20 @@ const card: Card = {
 		cost: ["Grass", "Darkness", "Colorless"],
 
 		name: {
-			ja: "こうそくドライブ"
+			ja: "こうそくドライブ",
+			'zh-tw': "高速猛衝"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
+			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。"
 		}
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

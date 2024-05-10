@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イシズマイ"
+		ja: "イシズマイ",
+		'zh-tw': "石居蟹"
 	},
 
 	illustrator: "Scav",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "家に ちょうどいい 小石が 見つからないと カバルドンの 穴に 棲んでしまうことも。"
+		ja: "家に ちょうどいい 小石が 見つからないと カバルドンの 穴に 棲んでしまうことも。",
+		'zh-tw': "如果找不到大小合適的石頭來當成自己的家， 牠也會住到河馬獸的洞裡。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "たたく"
+			ja: "たたく",
+			'zh-tw': "敲擊"
 		},
 
 		damage: 20
@@ -36,7 +39,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

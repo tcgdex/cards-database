@@ -5,17 +5,20 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ビーチコート"
+		ja: "ビーチコート",
+		'zh-tw': "海灘場地"
 	},
 
 	illustrator: "Oswaldo KATO",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのたねポケモン全員のにげるためのエネルギーは、それぞれ1個ぶん少なくなる。"
+		ja: "おたがいのたねポケモン全員のにげるためのエネルギーは、それぞれ1個ぶん少なくなる。",
+		'zh-tw': "雙方的所有【基礎】寶可夢【撤退】所需的能量，各減少1個。"
 	},
 
-	trainerType: "Stadium"
+	trainerType: "Stadium",
+	regulationMark: "G"
 }
 
 export default card

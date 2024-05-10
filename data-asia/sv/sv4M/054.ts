@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "チルット"
+		ja: "チルット",
+		'zh-tw': "青綿鳥"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "自分も まわりも きれいでないと 落ち着かない 性格。 汚れを 見つけると 羽で ふき取る。"
+		ja: "自分も まわりも きれいでないと 落ち着かない 性格。 汚れを 見つけると 羽で ふき取る。",
+		'zh-tw': "如果自己和周圍不乾淨，就靜不下心來的性格。見到髒污會用羽毛擦掉。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "つつく"
+			ja: "つつく",
+			'zh-tw': "啄"
 		},
 
 		damage: 10
@@ -33,11 +36,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "きずをなおす"
+			ja: "きずをなおす",
+			'zh-tw': "療傷"
 		},
 
 		effect: {
-			ja: "自分のポケモン1匹のHPを「30」回復する。"
+			ja: "自分のポケモン1匹のHPを「30」回復する。",
+			'zh-tw': "將自己的1隻寶可夢恢復「30」HP。"
 		}
 	}],
 
@@ -48,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

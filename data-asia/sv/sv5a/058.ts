@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラブラブボール"
+		ja: "ラブラブボール",
+		'zh-tw': "甜蜜球"
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -13,10 +14,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札から、相手の場のポケモンと同じ名前のポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+		ja: "自分の山札から、相手の場のポケモンと同じ名前のポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		'zh-tw': "從自己的牌庫選擇1張與對手的場上寶可夢名稱相同的寶可夢卡，在給對手看過後加入手牌。並且重洗牌庫。"
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "H"
 }
 
 export default card

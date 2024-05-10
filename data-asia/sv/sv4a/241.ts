@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ルクシオ"
+		ja: "ルクシオ",
+		'zh-tw': "勒克貓"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "鋭い ツメの 先には 強い 電気が 流れており ほんの少し かするだけで 敵を 気絶させる。"
+		ja: "鋭い ツメの 先には 強い 電気が 流れており ほんの少し かするだけで 敵を 気絶させる。",
+		'zh-tw': "在銳利的爪子尖端有強烈的電流流過，只要稍微擦到， 就能讓敵人暈厥。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "エレキック"
+			ja: "エレキック",
+			'zh-tw': "電氣踢"
 		},
 
 		damage: 30
@@ -32,7 +35,8 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ヘッドボルト"
+			ja: "ヘッドボルト",
+			'zh-tw': "伏特頭擊"
 		},
 
 		damage: 60
@@ -43,7 +47,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

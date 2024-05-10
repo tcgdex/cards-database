@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コイル"
+		ja: "コイル",
+		'zh-tw': "小磁怪"
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "空中に 浮いたまま 移動して 左右の ユニットから 電磁波などを 放射する。"
+		ja: "空中に 浮いたまま 移動して 左右の ユニットから 電磁波などを 放射する。",
+		'zh-tw': "會浮在空中移動，從左右兩邊的組件發射 電磁波之類的東西。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "はんぱつ"
+			ja: "はんぱつ",
+			'zh-tw': "反抗"
 		},
 
 		effect: {
-			ja: "このポケモンをベンチポケモンと入れ替える。"
+			ja: "このポケモンをベンチポケモンと入れ替える。",
+			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。"
 		}
 	}, {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "エレキボール"
+			ja: "エレキボール",
+			'zh-tw': "電球"
 		},
 
 		damage: 10
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

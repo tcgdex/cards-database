@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ココロモリ"
+		ja: "ココロモリ",
+		'zh-tw': "心蝙蝠"
 	},
 
 	illustrator: "Narumi Sato",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "鼻の 形が おめでたいと 幸福を 呼ぶ シンボルとして 祭る 地域も あるという。"
+		ja: "鼻の 形が おめでたいと 幸福を 呼ぶ シンボルとして 祭る 地域も あるという。",
+		'zh-tw': "據說有些地區的人覺得牠鼻子的形狀很吉利， 而把牠當成幸福的象徵來祭拜。"
 	},
 
 	stage: "Stage1",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "メロメロウェーブ"
+			ja: "メロメロウェーブ",
+			'zh-tw': "迷人波"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。このこんらんでのせるダメカンの数は6個になる。"
+			ja: "相手のバトルポケモンをこんらんにする。このこんらんでのせるダメカンの数は6個になる。",
+			'zh-tw': "將對手的戰鬥寶可夢【混亂】。因這個【混亂】而放置的傷害指示物的數量改為6個。"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

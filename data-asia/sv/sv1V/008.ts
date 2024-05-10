@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ワナイダーex"
+		ja: "ワナイダーex",
+		'zh-tw': "操陷蛛ex"
 	},
 
 	illustrator: "takuyoa",
@@ -20,11 +21,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "トラップテリトリー"
+			ja: "トラップテリトリー",
+			'zh-tw': "陷阱地盤"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、相手のバトルポケモンのにげるためのエネルギーは、1個ぶん多くなる。"
+			ja: "このポケモンがいるかぎり、相手のバトルポケモンのにげるためのエネルギーは、1個ぶん多くなる。",
+			'zh-tw': "只要這隻寶可夢在場上，對手的戰鬥寶可夢【撤退】所需的能量增加1個。"
 		}
 	}],
 
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "ワイヤーハング"
+			ja: "ワイヤーハング",
+			'zh-tw': "吊纜"
 		},
 
-		damage: "90＋",
+		damage: "90+",
 
 		effect: {
-			ja: "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。"
+			ja: "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。",
+			'zh-tw': "增加對手的戰鬥寶可夢【撤退】所需的能量的數量×30點傷害。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

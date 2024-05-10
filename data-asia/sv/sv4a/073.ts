@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ケーシィ"
+		ja: "ケーシィ",
+		'zh-tw': "凱西"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "眠ったまま テレポート できる。 眠りが 深いほど 離れた 場所に 移動する という。"
+		ja: "眠ったまま テレポート できる。 眠りが 深いほど 離れた 場所に 移動する という。",
+		'zh-tw': "就算在睡夢中也能使用瞬間移動。據說當牠睡得越熟， 瞬間移動的距離就會越遠。"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "サイコショット"
+			ja: "サイコショット",
+			'zh-tw': "精神射擊"
 		},
 
 		damage: 20
@@ -37,10 +40,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

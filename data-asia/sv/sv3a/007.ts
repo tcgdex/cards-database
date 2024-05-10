@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "タマンタ"
+		ja: "タマンタ",
+		'zh-tw': "小球飛魚"
 	},
 
 	illustrator: "miki kudo",
@@ -16,20 +17,23 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "テッポウオの 群れに 混ざって 泳ぐ。 敵に 襲われると 群れと いっしょに 戦うよ。"
+		ja: "テッポウオの 群れに 混ざって 泳ぐ。 敵に 襲われると 群れと いっしょに 戦うよ。",
+		'zh-tw': "混在鐵炮魚的大群裡游泳。受到敵人襲擊的時候， 會和鐵炮魚們並肩作戰。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Void"],
+
 
 		name: {
-			ja: "ぷかぷかヒーリング"
+			ja: "ぷかぷかヒーリング",
+			'zh-tw': "吐泡泡治療"
 		},
 
 		effect: {
-			ja: "自分のベンチポケモン1匹のHPを「120」回復する。"
+			ja: "自分のベンチポケモン1匹のHPを「120」回復する。",
+			'zh-tw': "將自己的1隻備戰寶可夢恢復「120」HP。"
 		}
 	}],
 
@@ -38,7 +42,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	regulationMark: "G"
 }
 
 export default card

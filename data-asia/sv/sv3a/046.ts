@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニダンギル"
+		ja: "ニダンギル",
+		'zh-tw': "雙劍鞘"
 	},
 
 	illustrator: "Bun Toujo",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "２本の 剣は 攻撃と 防御が 目まぐるしく 入れ替わる 戦法で 獲物を しとめる。"
+		ja: "２本の 剣は 攻撃と 防御が 目まぐるしく 入れ替わる 戦法で 獲物を しとめる。",
+		'zh-tw': "２把劍會用令人眼花繚亂的速度不斷交替攻擊和防禦， 藉以制服獵物。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "きりさく"
+			ja: "きりさく",
+			'zh-tw': "劈開"
 		},
 
 		damage: 20
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "スラッシュダウン"
+			ja: "スラッシュダウン",
+			'zh-tw': "猛擊在地"
 		},
 
 		damage: 80,
 
 		effect: {
-			ja: "次の自分の番、このポケモンは「スラッシュダウン」が使えない。"
+			ja: "次の自分の番、このポケモンは「スラッシュダウン」が使えない。",
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「猛擊在地」。"
 		}
 	}],
 
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

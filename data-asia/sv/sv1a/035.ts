@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ムウマージ"
+		ja: "ムウマージ",
+		'zh-tw': "夢妖魔"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "呪文のような 鳴き声だが まれに 相手を 幸せにする 効果も 秘めているという。"
+		ja: "呪文のような 鳴き声だが まれに 相手を 幸せにする 効果も 秘めているという。",
+		'zh-tw': "如同咒語般的叫聲據說也蘊藏著偶而會讓 對手變得幸福的效果。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "マジカルフリック"
+			ja: "マジカルフリック",
+			'zh-tw': "魔法輕彈"
 		},
 
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンについているエネルギーを1個選び、相手のベンチポケモンにつけ替える。"
+			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンについているエネルギーを1個選び、相手のベンチポケモンにつけ替える。",
+			'zh-tw': "在自己的回合，從手牌使出這張卡並完成進化時，可使用1次。選擇1個對手的戰鬥寶可夢身上附加的能量，改附於對手的備戰寶可夢身上。"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ねんどうだん"
+			ja: "ねんどうだん",
+			'zh-tw': "念動彈"
 		},
 
 		damage: 60
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

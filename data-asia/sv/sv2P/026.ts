@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "セゴール"
+		ja: "セゴール",
+		'zh-tw': "凍脊龍"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "まわりの 空気を 凍らせて 氷のマスクで 顔を 守り 背びれを 氷の剣に 変える。"
+		ja: "まわりの 空気を 凍らせて 氷のマスクで 顔を 守り 背びれを 氷の剣に 変える。",
+		'zh-tw': "凍結周圍的空氣，以冰之面罩保護臉部， 並將背鰭變成冰劍。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "するどいひれ"
+			ja: "するどいひれ",
+			'zh-tw': "銳利鰭"
 		},
 
 		damage: 40
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			ja: "フロストスマッシュ"
+			ja: "フロストスマッシュ",
+			'zh-tw': "冰霜粉碎"
 		},
 
 		damage: 80
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

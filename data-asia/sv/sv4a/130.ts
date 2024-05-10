@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブロロン"
+		ja: "ブロロン",
+		'zh-tw': "噗隆隆"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "スクラップ工場に 放置された エンジンに 謎の 毒ポケモンが 入り込んで 生まれたと 言われる。"
+		ja: "スクラップ工場に 放置された エンジンに 謎の 毒ポケモンが 入り込んで 生まれたと 言われる。",
+		'zh-tw': "據說牠是神秘的毒寶可夢鑽進了被放置在廢鐵工廠 的引擎裡而誕生的。"
 	},
 
 	stage: "Basic",
@@ -24,17 +26,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ふかす"
+			ja: "ふかす",
+			'zh-tw': "引擎全開"
 		},
 
 		effect: {
-			ja: "自分のトラッシュから基本エネルギーを2枚まで選び、相手に見せて、手札に加える。"
+			ja: "自分のトラッシュから基本エネルギーを2枚まで選び、相手に見せて、手札に加える。",
+			'zh-tw': "從自己的棄牌區選擇最多2張基本能量卡，在給對手看過後加入手牌。"
 		}
 	}, {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "ずつき"
+			ja: "ずつき",
+			'zh-tw': "頭錘"
 		},
 
 		damage: 20
@@ -47,10 +52,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハルクジラ"
+		ja: "ハルクジラ",
+		'zh-tw': "浩大鯨"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷雪地帯を 回遊する。 強靭な 筋肉と ぶ厚い 皮下脂肪で 体を 守る。"
+		ja: "氷雪地帯を 回遊する。 強靭な 筋肉と ぶ厚い 皮下脂肪で 体を 守る。",
+		'zh-tw': "迴游在冰雪地帶的寶可夢。會用強韌的肌肉和厚實的 皮下脂肪保護自己的身體。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "つららミサイル"
+			ja: "つららミサイル",
+			'zh-tw': "冰柱飛彈"
 		},
 
 		damage: 50
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			ja: "スペシャルホーン"
+			ja: "スペシャルホーン",
+			'zh-tw': "特殊角擊"
 		},
 
-		damage: "80＋",
+		damage: "80+",
 
 		effect: {
-			ja: "このポケモンに特殊エネルギーがついているなら、140ダメージ追加。"
+			ja: "このポケモンに特殊エネルギーがついているなら、140ダメージ追加。",
+			'zh-tw': "若這隻寶可夢身上附有特殊能量卡，則增加140點傷害。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴニョニョ"
+		ja: "ゴニョニョ",
+		'zh-tw': "咕妞妞"
 	},
 
 	illustrator: "sui",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "鳴きはじめると 自分の 声に 驚いて さらに 激しく 鳴く。 鳴き疲れると 眠ってしまう。"
+		ja: "鳴きはじめると 自分の 声に 驚いて さらに 激しく 鳴く。 鳴き疲れると 眠ってしまう。",
+		'zh-tw': "一旦叫了起來，就會被自己的聲音嚇到，然後用更大的聲音 大吼大叫。叫到累了就會睡著。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "つきとばす"
+			ja: "つきとばす",
+			'zh-tw': "推倒"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］"
+			ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+			'zh-tw': "將對手的戰鬥寶可夢與備戰寶可夢互換。[由對手選擇放置於戰鬥場的寶可夢。]"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

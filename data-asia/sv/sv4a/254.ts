@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ユンゲラー"
+		ja: "ユンゲラー",
+		'zh-tw': "勇基拉"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "念力の 威力は 絶大。 進化に 備えて 額の 星に サイコパワーを 蓄えている。"
+		ja: "念力の 威力は 絶大。 進化に 備えて 額の 星に サイコパワーを 蓄えている。",
+		'zh-tw': "念力的威力大得驚人。會把精神力量儲存在額頭 的星星裡，以備進化所需。"
 	},
 
 	stage: "Stage1",
@@ -24,13 +26,15 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "テレポートアタック"
+			ja: "テレポートアタック",
+			'zh-tw': "瞬間移動攻擊"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンをベンチポケモンと入れ替える。"
+			ja: "このポケモンをベンチポケモンと入れ替える。",
+			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。"
 		}
 	}],
 
@@ -41,10 +45,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

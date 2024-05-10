@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ユキワラシ"
+		ja: "ユキワラシ",
+		'zh-tw': "雪童子"
 	},
 
 	illustrator: "satoma",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大きな 葉っぱの 下に 数匹の ユキワラシが 集まり 仲良く 暮らしているという。"
+		ja: "大きな 葉っぱの 下に 数匹の ユキワラシが 集まり 仲良く 暮らしているという。",
+		'zh-tw': "據說，好幾隻雪童子會聚集在大大的樹葉底下， 融洽地生活在一起。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "こおりのつぶて"
+			ja: "こおりのつぶて",
+			'zh-tw': "冰礫"
 		},
 
-		damage: "10＋",
+		damage: "10+",
 
 		effect: {
-			ja: "相手のバトルポケモンがポケモンなら、30ダメージ追加。"
+			ja: "相手のバトルポケモンがポケモンなら、30ダメージ追加。",
+			'zh-tw': "若對手的戰鬥寶可夢為【鬥】寶可夢，則增加30點傷害。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

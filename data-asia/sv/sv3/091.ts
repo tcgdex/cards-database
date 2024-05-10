@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イーブイ"
+		ja: "イーブイ",
+		'zh-tw': "伊布"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "環境の 変化に すぐさま 合わせられるよう いくつもの 進化の 可能性を 秘めている。"
+		ja: "環境の 変化に すぐさま 合わせられるよう いくつもの 進化の 可能性を 秘めている。",
+		'zh-tw': "為了能瞬即適應環境的變化，這種寶可夢蘊含著許多種進化的可能性。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "おうえん"
+			ja: "おうえん",
+			'zh-tw': "加油"
 		},
 
 		effect: {
-			ja: "自分の手札からエネルギーを1枚選び、自分のポケモンにつける。"
+			ja: "自分の手札からエネルギーを1枚選び、自分のポケモンにつける。",
+			'zh-tw': "從自己的手牌選擇1張能量卡，附於自己的寶可夢身上。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "キック"
+			ja: "キック",
+			'zh-tw': "踢"
 		},
 
 		damage: 20
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

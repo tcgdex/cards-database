@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドードー"
+		ja: "ドードー",
+		'zh-tw': "嘟嘟"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "２つの 頭の 脳みそは テレパシーのような 力で 気持ちを 通じ合わせているらしい。"
+		ja: "２つの 頭の 脳みそは テレパシーのような 力で 気持ちを 通じ合わせているらしい。",
+		'zh-tw': "２個腦袋好像會用類似心靈感應的力量， 來傳遞彼此的想法。"
 	},
 
 	stage: "Basic",
@@ -24,13 +26,15 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "とつげき"
+			ja: "とつげき",
+			'zh-tw': "突擊"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			ja: "このポケモンにも10ダメージ。",
+			'zh-tw': "這隻寶可夢也受到10點傷害。"
 		}
 	}],
 
@@ -41,10 +45,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

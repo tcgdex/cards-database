@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブーピッグ"
+		ja: "ブーピッグ",
+		'zh-tw': "噗噗豬"
 	},
 
 	illustrator: "Scav",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "相手を 操るときの 不思議な ステップは 昔 外国で 大流行したことが ある。"
+		ja: "相手を 操るときの 不思議な ステップは 昔 外国で 大流行したことが ある。",
+		'zh-tw': "操縱對手時跳的奇異舞步，過去曾在外國掀起過 一陣風潮。"
 	},
 
 	stage: "Stage1",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "パワーステップ"
+			ja: "パワーステップ",
+			'zh-tw': "力量舞步"
 		},
 
 		effect: {
-			ja: "自分の山札から基本エネルギーを2枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。"
+			ja: "自分の山札から基本エネルギーを2枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。",
+			'zh-tw': "從自己的牌庫選擇最多2張基本能量卡，以任意方式附於自己的寶可夢身上。並且重洗牌庫。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "しねんのずつき"
+			ja: "しねんのずつき",
+			'zh-tw': "意念頭錘"
 		},
 
 		damage: 100
@@ -48,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

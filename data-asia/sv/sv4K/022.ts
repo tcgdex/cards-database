@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "グソクムシャex"
+		ja: "グソクムシャex",
+		'zh-tw': "具甲武者ex"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -20,7 +21,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "アクアブレード"
+			ja: "アクアブレード",
+			'zh-tw': "水之利刃"
 		},
 
 		damage: 70
@@ -28,13 +30,15 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "いっとうりだつ"
+			ja: "いっとうりだつ",
+			'zh-tw': "一刀立斷"
 		},
 
 		damage: 170,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。その後、このポケモンをベンチポケモンと入れ替える。"
+			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。その後、このポケモンをベンチポケモンと入れ替える。",
+			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。然後，將這隻寶可夢與備戰寶可夢互換。"
 		}
 	}],
 
@@ -43,7 +47,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

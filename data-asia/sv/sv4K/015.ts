@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "グレンアルマex"
+		ja: "グレンアルマex",
+		'zh-tw': "紅蓮鎧騎ex"
 	},
 
 	illustrator: "takuyoa",
@@ -20,11 +21,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "グレンアーマー"
+			ja: "グレンアーマー",
+			'zh-tw': "紅蓮盔甲"
 		},
 
 		effect: {
-			ja: "このポケモンのHPがまんたんの状態なら、このポケモンが相手のポケモンから受けるワザのダメージは「-80」される。"
+			ja: "このポケモンのHPがまんたんの状態なら、このポケモンが相手のポケモンから受けるワザのダメージは「-80」される。",
+			'zh-tw': "若這隻寶可夢的HP是全滿的狀態，則這隻寶可夢受到對手的寶可夢招式的傷害「-80」點。"
 		}
 	}],
 
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "しゃくねつバズーカ"
+			ja: "しゃくねつバズーカ",
+			'zh-tw': "灼熱火箭炮"
 		},
 
-		damage: "40＋",
+		damage: "40+",
 
 		effect: {
-			ja: "このポケモンについているエネルギーの数×40ダメージ追加。"
+			ja: "このポケモンについているエネルギーの数×40ダメージ追加。",
+			'zh-tw': "增加這隻寶可夢身上附加的【火】能量的數量×40點傷害。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

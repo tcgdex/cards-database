@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブロロロームex"
+		ja: "ブロロロームex",
+		'zh-tw': "普隆隆姆ex"
 	},
 
 	illustrator: "takuyoa",
@@ -20,11 +21,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "チューンアップ"
+			ja: "チューンアップ",
+			'zh-tw': "調節"
 		},
 
 		effect: {
-			ja: "このポケモンは、「ポケモンのどうぐ」を4枚までつけられる。（この特性がなくなったとき、自分は「ポケモンのどうぐ」を1枚になるようにトラッシュする。）"
+			ja: "このポケモンは、「ポケモンのどうぐ」を4枚までつけられる。（この特性がなくなったとき、自分は「ポケモンのどうぐ」を1枚になるようにトラッシュする。）",
+			'zh-tw': "這隻寶可夢身上最多可附有4張「寶可夢道具」卡。（這個特性消除時，自己將「寶可夢道具」卡丟棄直到變為1張為止。）"
 		}
 	}],
 
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			ja: "ワイルドドリフト"
+			ja: "ワイルドドリフト",
+			'zh-tw': "瘋狂甩尾"
 		},
 
 		damage: 170,
 
 		effect: {
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。"
 		}
 	}],
 
@@ -49,10 +54,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴーリキー"
+		ja: "ゴーリキー",
+		'zh-tw': "豪力"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "疲れることのない 強靭な 肉体を もつ。 重い 荷物の 運搬などの 仕事を 手伝う。"
+		ja: "疲れることのない 強靭な 肉体を もつ。 重い 荷物の 運搬などの 仕事を 手伝う。",
+		'zh-tw': "有著不會疲勞的強韌肉體。會去幫助人類完成例如搬運沉重行李之類的工作。"
 	},
 
 	stage: "Stage1",
@@ -24,13 +26,15 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "やまどつき"
+			ja: "やまどつき",
+			'zh-tw': "推山"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "相手の山札を上から1枚トラッシュする。"
+			ja: "相手の山札を上から1枚トラッシュする。",
+			'zh-tw': "將對手的牌庫上方1張卡丟棄。"
 		}
 	}],
 
@@ -39,7 +43,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

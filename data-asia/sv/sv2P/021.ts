@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アルクジラ"
+		ja: "アルクジラ",
+		'zh-tw': "走鯨"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "遥か 昔に 海から 上がって 陸地で 暮らすようになった。 ホエルコに 近い 種類らしい。"
+		ja: "遥か 昔に 海から 上がって 陸地で 暮らすようになった。 ホエルコに 近い 種類らしい。",
+		'zh-tw': "遠古時代自大海上岸後，就開始在陸地上生活。 似乎與吼吼鯨是相近的物種。"
 	},
 
 	stage: "Basic",
@@ -25,23 +27,27 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ねむる"
+			ja: "ねむる",
+			'zh-tw': "睡覺"
 		},
 
 		effect: {
-			ja: "このポケモンをねむりにする。このポケモンのHPを「60」回復する。"
+			ja: "このポケモンをねむりにする。このポケモンのHPを「60」回復する。",
+			'zh-tw': "將這隻寶可夢【睡眠】。將這隻寶可夢恢復「60」HP。"
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "すてみタックル"
+			ja: "すてみタックル",
+			'zh-tw': "捨身衝撞"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			ja: "このポケモンにも10ダメージ。",
+			'zh-tw': "這隻寶可夢也受到10點傷害。"
 		}
 	}],
 
@@ -50,7 +56,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

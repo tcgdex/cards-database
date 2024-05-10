@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カメックスex"
+		ja: "カメックスex",
+		'zh-tw': "水箭龜ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,11 +20,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "かたいこうら"
+			ja: "かたいこうら",
+			'zh-tw': "堅硬甲殼"
 		},
 
 		effect: {
-			ja: "このポケモンが受けるワザのダメージは「-30」される。"
+			ja: "このポケモンが受けるワザのダメージは「-30」される。",
+			'zh-tw': "這隻寶可夢受到招式的傷害「-30」點。"
 		}
 	}],
 
@@ -31,13 +34,15 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			ja: "ツインカノン"
+			ja: "ツインカノン",
+			'zh-tw': "雙加農炮"
 		},
 
 		damage: "140×",
 
 		effect: {
-			ja: "自分の手札から「基本エネルギー」を2枚までトラッシュし、その枚数×140ダメージ。"
+			ja: "自分の手札から「基本エネルギー」を2枚までトラッシュし、その枚数×140ダメージ。",
+			'zh-tw': "從自己的手牌將最多2張「基本【水】能量」卡丟棄，造成其張數×140點傷害。"
 		}
 	}],
 
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

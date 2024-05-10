@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヤルキモノ"
+		ja: "ヤルキモノ",
+		'zh-tw': "過動猿"
 	},
 
 	illustrator: "GIDORA",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "体を 動かしていないと ストレスが 溜まりすぎて 具合が 悪くなってしまうのだ。"
+		ja: "体を 動かしていないと ストレスが 溜まりすぎて 具合が 悪くなってしまうのだ。",
+		'zh-tw': "如果不活動身體，就會累積過多的壓力， 使身體狀況變糟。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "がちんこ"
+			ja: "がちんこ",
+			'zh-tw': "正面對決"
 		},
 
 		damage: 40
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "するどいツメ"
+			ja: "するどいツメ",
+			'zh-tw': "銳利之爪"
 		},
 
-		damage: "60＋",
+		damage: "60+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、60ダメージ追加。"
+			ja: "コインを1回投げオモテなら、60ダメージ追加。",
+			'zh-tw': "擲1次硬幣若為正面，則增加60點傷害。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

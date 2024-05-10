@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "チョロネコ"
+		ja: "チョロネコ",
+		'zh-tw': "扒手貓"
 	},
 
 	illustrator: "0313",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "愛くるしい しぐさで 油断させ 寄ってきた 相手を いきなり ツメで ひっかいて 笑っている。"
+		ja: "愛くるしい しぐさで 油断させ 寄ってきた 相手を いきなり ツメで ひっかいて 笑っている。",
+		'zh-tw': "會用可愛的動作讓對手放下戒心，趁對方靠過來時冷不防用爪子 猛抓，然後得意地大笑。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "ふむ"
+			ja: "ふむ",
+			'zh-tw': "踩"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ねこキック"
+			ja: "ねこキック",
+			'zh-tw': "喵踢"
 		},
 
 		damage: 30
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "トゲキッス"
+		ja: "トゲキッス",
+		'zh-tw': "波克基斯"
 	},
 
 	illustrator: "Cona Nitanda",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "恵みを 与える 存在と 言われており 大昔から 縁起物に 描かれてきた。"
+		ja: "恵みを 与える 存在と 言われており 大昔から 縁起物に 描かれてきた。",
+		'zh-tw': "被稱為帶來恩惠的寶可夢，從很久很久以前開始，人們就視牠為吉祥之物。"
 	},
 
 	stage: "Stage2",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "プレシャスギフト"
+			ja: "プレシャスギフト",
+			'zh-tw': "貴重之禮"
 		},
 
 		effect: {
-			ja: "自分の番の終わりに1回使える。自分の手札が8枚になるように、山札を引く。"
+			ja: "自分の番の終わりに1回使える。自分の手札が8枚になるように、山札を引く。",
+			'zh-tw': "在自己的回合結束時可使用1次。從牌庫抽卡直到自己的手牌滿8張為止。"
 		}
 	}],
 
@@ -37,13 +41,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "パワーサイクロン"
+			ja: "パワーサイクロン",
+			'zh-tw': "能量旋風"
 		},
 
 		damage: 110,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。"
+			ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
+			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，改附於備戰寶可夢身上。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "ミロカロス"
+		ja: "ミロカロス",
+		'zh-tw': "美納斯"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "澄んだ 湖の 底に 棲む。 戦争が 起こるとき 現れ 人々の 心を いやす。"
+		ja: "澄んだ 湖の 底に 棲む。 戦争が 起こるとき 現れ 人々の 心を いやす。",
+		'zh-tw': "棲息在清澈的湖底。 在發生戰爭時出現， 治癒人們的心。"
 	},
 
 	stage: "Stage1",
@@ -26,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "なぎのきょうち"
+			ja: "なぎのきょうち",
+			'zh-tw': "平穩境地"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、相手の場のポケモンと、そのポケモンについているすべてのカードは、手札にもどせない。"
+			ja: "このポケモンがいるかぎり、相手の場のポケモンと、そのポケモンについているすべてのカードは、手札にもどせない。",
+			'zh-tw': "只要這隻寶可夢在場上，對手的場上寶可夢與那隻寶可夢身上附加的卡，全部無法放回手牌。"
 		}
 	}],
 
@@ -38,7 +41,8 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ハイドロスプラッシュ"
+			ja: "ハイドロスプラッシュ",
+			'zh-tw': "水炮濺射"
 		},
 
 		damage: 100
@@ -49,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

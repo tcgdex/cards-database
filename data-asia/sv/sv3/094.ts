@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "チルット"
+		ja: "チルット",
+		'zh-tw': "青綿鳥"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "真綿のような 翼の 手入れは 絶対に 欠かさない。 汚れると 水浴びをして きれいに 洗う。"
+		ja: "真綿のような 翼の 手入れは 絶対に 欠かさない。 汚れると 水浴びをして きれいに 洗う。",
+		'zh-tw': "從不疏於打理絲綿般的翅膀。一弄髒就會到水裡洗乾淨。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ふわふわガード"
+			ja: "ふわふわガード",
+			'zh-tw': "蓬蓬防守"
 		},
 
 		effect: {
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。"
+			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-20」點。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "はばたく"
+			ja: "はばたく",
+			'zh-tw': "羽擊"
 		},
 
 		damage: 20
@@ -48,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

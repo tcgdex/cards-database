@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "ピッピ"
+		ja: "ピッピ",
+		'zh-tw': "皮皮"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "満月の 晩に 集まって 仲間と ダンス。 その周囲は 異常な 磁場に 包まれる。"
+		ja: "満月の 晩に 集まって 仲間と ダンス。 その周囲は 異常な 磁場に 包まれる。",
+		'zh-tw': "在月圓之夜聚集， 和夥伴一起跳舞。 周圍被異常的磁場包圍著。"
 	},
 
 	stage: "Basic",
@@ -26,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ムーンキック"
+			ja: "ムーンキック",
+			'zh-tw': "月亮踢"
 		},
 
 		damage: 40
@@ -37,7 +39,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

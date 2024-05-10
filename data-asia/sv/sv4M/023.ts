@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シママ"
+		ja: "シママ",
+		'zh-tw': "斑斑馬"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。"
+		ja: "放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。",
+		'zh-tw': "放電時鬃毛會發光。利用鬃毛閃爍的次數及節奏與夥伴交談。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "うしろげり"
+			ja: "うしろげり",
+			'zh-tw': "後踢"
 		},
 
 		damage: 10
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ワイルドボルト"
+			ja: "ワイルドボルト",
+			'zh-tw': "瘋狂伏特"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "このポケモンにも20ダメージ。"
+			ja: "このポケモンにも20ダメージ。",
+			'zh-tw': "這隻寶可夢也受到20點傷害。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

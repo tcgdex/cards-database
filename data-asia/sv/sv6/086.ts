@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "エイパム"
+		ja: "エイパム",
+		'zh-tw': "長尾怪手"
 	},
 
 	category: "Pokemon",
@@ -17,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "手よりも 自由自在に 動く 尻尾を 巧みに 操りながら 高い 木の上で 暮らしている。"
+		ja: "手よりも 自由自在に 動く 尻尾を 巧みに 操りながら 高い 木の上で 暮らしている。",
+		'zh-tw': "會巧妙地操縱比雙手 還靈活的尾巴， 生活在高高的樹上。"
 	},
 
 	stage: "Basic",
@@ -26,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ぶらさがる"
+			ja: "ぶらさがる",
+			'zh-tw': "垂吊"
 		},
 
 		damage: 10
@@ -34,7 +36,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "やんちゃげり"
+			ja: "やんちゃげり",
+			'zh-tw': "調皮踢"
 		},
 
 		damage: 20
@@ -45,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ワッカネズミ"
+		ja: "ワッカネズミ",
+		'zh-tw': "一對鼠"
 	},
 
 	illustrator: "yuu",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "どんなときでも ２匹は 一緒。 見つけた エサは ぴったりと 半分こして 仲良く 食べる。"
+		ja: "どんなときでも ２匹は 一緒。 見つけた エサは ぴったりと 半分こして 仲良く 食べる。",
+		'zh-tw': "無論何時２隻都待在一起。會把尋獲的食物均分成兩半， 親密無間地一同進食。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ダブルアタック"
+			ja: "ダブルアタック",
+			'zh-tw': "二連擊"
 		},
 
-		damage: "30×",
+		damage: 30,
 
 		effect: {
-			ja: "コインを2回投げ、オモテの数×30ダメージ。"
+			ja: "コインを2回投げ、オモテの数×30ダメージ。",
+			'zh-tw': "擲2次硬幣，造成正面出現的次數×30點傷害。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

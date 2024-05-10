@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラティオス"
+		ja: "ラティオス",
+		'zh-tw': "拉帝歐斯"
 	},
 
 	illustrator: "chibi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "高い 知能を 持ち 人間の 言葉を 理解する。 争いを 嫌う 優しい ポケモンだ。"
+		ja: "高い 知能を 持ち 人間の 言葉を 理解する。 争いを 嫌う 優しい ポケモンだ。",
+		'zh-tw': "擁有很高的智慧，能理解人類的語言。 是厭惡爭鬥的溫柔寶可夢。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "かっくう"
+			ja: "かっくう",
+			'zh-tw': "滑翔"
 		},
 
 		damage: 20
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			ja: "ラスターパージ"
+			ja: "ラスターパージ",
+			'zh-tw': "潔淨光芒"
 		},
 
 		damage: 180,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを3個選び、トラッシュする。"
+			ja: "このポケモンについているエネルギーを3個選び、トラッシュする。",
+			'zh-tw': "選擇3個這隻寶可夢身上附加的能量，將其丟棄。"
 		}
 	}],
 
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

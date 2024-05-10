@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ズルッグ"
+		ja: "ズルッグ",
+		'zh-tw': "滑滑小子"
 	},
 
 	illustrator: "sowsow",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "丈夫な 皮で 身を 守る。 皮が 伸びきるとき 進化を 迎えると いわれる。"
+		ja: "丈夫な 皮で 身を 守る。 皮が 伸びきるとき 進化を 迎えると いわれる。",
+		'zh-tw': "用結實的皮保護身體。據說在皮伸展到極限時， 牠就會開始進化。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "けたぐり"
+			ja: "けたぐり",
+			'zh-tw': "踢倒"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			ja: "ヘッドバット"
+			ja: "ヘッドバット",
+			'zh-tw': "頭撞"
 		},
 
 		damage: 50
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

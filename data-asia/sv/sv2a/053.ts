@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ペルシアン"
+		ja: "ペルシアン",
+		'zh-tw': "貓老大"
 	},
 
 	illustrator: "Naoki Saito",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "毛並みが 美しく ペットにしたがる 人も 多いが すぐ ひっかいたり するので 手強いぞ。"
+		ja: "毛並みが 美しく ペットにしたがる 人も 多いが すぐ ひっかいたり するので 手強いぞ。",
+		'zh-tw': "有著漂亮的毛色，很多人想養牠當寵物， 但牠很愛亂抓，所以並不好養。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ロケットコール"
+			ja: "ロケットコール",
+			'zh-tw': "火箭呼喚"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の山札から「サカキのカリスマ」を1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+			ja: "自分の番に1回使える。自分の山札から「サカキのカリスマ」を1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+			'zh-tw': "在自己的回合時可使用1次。從自己的牌庫選擇1張「坂木的領導力」，在給對手看過後加入手牌。並且重洗牌庫。"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "きりさく"
+			ja: "きりさく",
+			'zh-tw': "劈開"
 		},
 
 		damage: 70
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

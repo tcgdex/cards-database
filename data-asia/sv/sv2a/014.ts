@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コクーン"
+		ja: "コクーン",
+		'zh-tw': "鐵殼蛹"
 	},
 
 	illustrator: "nisimono",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "天敵に 見つからないように 葉っぱの 裏や 枝の すきまに 隠れて 進化の ときを 待つ。"
+		ja: "天敵に 見つからないように 葉っぱの 裏や 枝の すきまに 隠れて 進化の ときを 待つ。",
+		'zh-tw': "為了不被天敵發現， 會躲在葉子背面或樹枝的間隙中， 等待進化的時刻到來。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "さなぎガード"
+			ja: "さなぎガード",
+			'zh-tw': "蛹之防守"
 		},
 
 		effect: {
-			ja: "このポケモンは、相手のポケモンが使うワザの効果を受けない。"
+			ja: "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
+			'zh-tw': "這隻寶可夢不會受到對手的寶可夢使用招式的效果的影響。"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "チクッ"
+			ja: "チクッ",
+			'zh-tw': "刺痛"
 		},
 
 		damage: 20
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

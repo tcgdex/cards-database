@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラブトロス"
+		ja: "ラブトロス",
+		'zh-tw': "眷戀雲"
 	},
 
 	illustrator: "DOM",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "海を越えて 飛来したらば 厳しき冬の 終わりを知る。 慈愛が ヒスイの地に 新しき命 芽吹かせるとの 伝承あり。"
+		ja: "海を越えて 飛来したらば 厳しき冬の 終わりを知る。 慈愛が ヒスイの地に 新しき命 芽吹かせるとの 伝承あり。",
+		'zh-tw': "當牠越過大海飛來，便代表嚴寒的冬季即將終結。傳說中其慈愛將使 新的生命在洗翠大地上萌芽。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ハートサイン"
+			ja: "ハートサイン",
+			'zh-tw': "愛心標誌"
 		},
 
 		damage: 30
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ラブレゾナンス"
+			ja: "ラブレゾナンス",
+			'zh-tw': "愛之同感"
 		},
 
-		damage: "80＋",
+		damage: "80+",
 
 		effect: {
-			ja: "自分の場に、相手の場のポケモンと同じタイプのポケモンがいるなら、120ダメージ追加。"
+			ja: "自分の場に、相手の場のポケモンと同じタイプのポケモンがいるなら、120ダメージ追加。",
+			'zh-tw': "若自己的場上有與對手的場上寶可夢相同屬性的寶可夢，則增加120點傷害。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

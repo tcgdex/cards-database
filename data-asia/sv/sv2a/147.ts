@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ミニリュウ"
+		ja: "ミニリュウ",
+		'zh-tw': "迷你龍"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "激しく 流れ落ちる 滝に 守られながら 脱皮を 繰り返し どんどん 大きくなる。"
+		ja: "激しく 流れ落ちる 滝に 守られながら 脱皮を 繰り返し どんどん 大きくなる。",
+		'zh-tw': "會在直瀉而下的瀑布保護下反覆蛻皮， 使身體變得越來越大。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "たたく"
+			ja: "たたく",
+			'zh-tw': "敲擊"
 		},
 
 		damage: 10
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Water", "Lightning"],
 
 		name: {
-			ja: "ドラゴンウィップ"
+			ja: "ドラゴンウィップ",
+			'zh-tw': "龍之鞭打"
 		},
 
 		damage: 40
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

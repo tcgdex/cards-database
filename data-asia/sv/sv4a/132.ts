@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テツノワダチex"
+		ja: "テツノワダチex",
+		'zh-tw': "鐵轍跡ex"
 	},
 
 	illustrator: "toriyufu",
@@ -20,13 +21,15 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			ja: "クラッドローリング"
+			ja: "クラッドローリング",
+			'zh-tw': "鍍層回轉"
 		},
 
 		damage: 150,
 
 		effect: {
-			ja: "のぞむなら、ダメージを与えたあとに、このポケモンについている「ブーストエナジー 未来」をトラッシュする。その場合、次の相手の番、このポケモンが受けるワザのダメージは「-150」される。"
+			ja: "のぞむなら、ダメージを与えたあとに、このポケモンについている「ブーストエナジー 未来」をトラッシュする。その場合、次の相手の番、このポケモンが受けるワザのダメージは「-150」される。",
+			'zh-tw': "若希望，在造成傷害後，將這隻寶可夢身上附加的「驅勁能量 未來」丟棄。這個情況下，在下個對手的回合，這隻寶可夢受到招式的傷害「-150」點。"
 		}
 	}],
 
@@ -37,10 +40,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

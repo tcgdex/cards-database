@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラプラス"
+		ja: "ラプラス",
+		'zh-tw': "拉普拉斯"
 	},
 
 	illustrator: "Gemi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "寒さに 強く 氷の 海も 平気。 皮膚は スベスベで 少しだけ ひんやり しているよ。"
+		ja: "寒さに 強く 氷の 海も 平気。 皮膚は スベスベで 少しだけ ひんやり しているよ。",
+		'zh-tw': "十分耐寒，不畏冰海。皮膚滑滑的， 摸起來會有點涼。"
 	},
 
 	stage: "Basic",
@@ -25,23 +27,27 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ふかもぐり"
+			ja: "ふかもぐり",
+			'zh-tw': "深潛"
 		},
 
 		effect: {
-			ja: "自分のトラッシュから基本エネルギーを3枚まで選び、相手に見せて、手札に加える。"
+			ja: "自分のトラッシュから基本エネルギーを3枚まで選び、相手に見せて、手札に加える。",
+			'zh-tw': "從自己的棄牌區選擇最多3張基本能量卡，在給對手看過後加入手牌。"
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "フリーズドライ"
+			ja: "フリーズドライ",
+			'zh-tw': "冷凍乾燥"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。"
 		}
 	}],
 
@@ -50,7 +56,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ポニータ"
+		ja: "ポニータ",
+		'zh-tw': "小火馬"
 	},
 
 	illustrator: "Nurikabe",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "ポニータに 認められると 燃える たてがみに 触っても 不思議と 熱くなくなるのだ。"
+		ja: "ポニータに 認められると 燃える たてがみに 触っても 不思議と 熱くなくなるのだ。",
+		'zh-tw': "得到了小火馬認可的人，在觸摸牠燃燒著的鬃毛時 不會覺得燙手，真是不可思議。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "もってくる"
+			ja: "もってくる",
+			'zh-tw': "呼喚"
 		},
 
 		effect: {
-			ja: "自分の山札を1枚引く。"
+			ja: "自分の山札を1枚引く。",
+			'zh-tw': "從自己的牌庫抽出1張卡。"
 		}
 	}, {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			ja: "はねまわる"
+			ja: "はねまわる",
+			'zh-tw': "活蹦亂跳"
 		},
 
 		damage: 30
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

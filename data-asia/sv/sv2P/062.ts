@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ケッキング"
+		ja: "ケッキング",
+		'zh-tw': "請假王"
 	},
 
 	illustrator: "Yuya Oka",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "世界一の ぐうたらだが 溜まった エネルギーを 一気に 出すことで 恐ろしい パワーを 発揮する。"
+		ja: "世界一の ぐうたらだが 溜まった エネルギーを 一気に 出すことで 恐ろしい パワーを 発揮する。",
+		'zh-tw': "雖然是世界上最懶散的寶可夢，但能藉由把積蓄的能量一次釋放， 發揮出驚人的力量。"
 	},
 
 	stage: "Stage2",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "にどね"
+			ja: "にどね",
+			'zh-tw': "回籠覺"
 		},
 
 		effect: {
-			ja: "ポケモンチェックのとき、このポケモンのねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。"
+			ja: "ポケモンチェックのとき、このポケモンのねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。",
+			'zh-tw': "在寶可夢檢查時，因這隻寶可夢的【睡眠】的擲硬幣次數改為2次，若沒有全部為正面則無法恢復。"
 		}
 	}],
 
@@ -37,13 +41,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ぐうたらヘッドバット"
+			ja: "ぐうたらヘッドバット",
+			'zh-tw': "懶散頭撞"
 		},
 
 		damage: 240,
 
 		effect: {
-			ja: "このポケモンをねむりにする。"
+			ja: "このポケモンをねむりにする。",
+			'zh-tw': "將這隻寶可夢【睡眠】。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

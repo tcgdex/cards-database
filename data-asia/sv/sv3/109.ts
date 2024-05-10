@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "クサイハナ"
+		ja: "クサイハナ",
+		'zh-tw': "臭臭花"
 	},
 
 	illustrator: "Masako Tomii",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "よだれのように 見える 甘い蜜。 とても ねばねば しており 触れると いつまでも まとわりつく。"
+		ja: "よだれのように 見える 甘い蜜。 とても ねばねば しており 触れると いつまでも まとわりつく。",
+		'zh-tw': "看似口水的東西其實是甜甜的蜜。非常黏稠， 只要碰到就會一直黏住。"
 	},
 
 	stage: "Stage1",
@@ -24,17 +26,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "さそうかおり"
+			ja: "さそうかおり",
+			'zh-tw': "誘導香氣"
 		},
 
 		effect: {
-			ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。"
+			ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+			'zh-tw': "選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。"
 		}
 	}, {
 		cost: ["Grass"],
 
 		name: {
-			ja: "リーフステップ"
+			ja: "リーフステップ",
+			'zh-tw': "綠葉舞步"
 		},
 
 		damage: 20
@@ -45,7 +50,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

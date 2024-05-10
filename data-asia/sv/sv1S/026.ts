@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラルトス"
+		ja: "ラルトス",
+		'zh-tw': "拉魯拉絲"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "人の 感情を 頭の 赤い ツノで 敏感に キャッチする 力を 持つ。"
+		ja: "人の 感情を 頭の 赤い ツノで 敏感に キャッチする 力を 持つ。",
+		'zh-tw': "擁有使用頭上的紅角就可以敏銳察覺 人類感情的能力。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "サイコショット"
+			ja: "サイコショット",
+			'zh-tw': "精神射擊"
 		},
 
 		damage: 30
@@ -38,10 +41,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

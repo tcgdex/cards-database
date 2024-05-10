@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "フワライド"
+		ja: "フワライド",
+		'zh-tw': "隨風球"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体の 中で ガスを 作ったり 吐き出したり することで 空を 飛ぶ 高さを 調節する。"
+		ja: "体の 中で ガスを 作ったり 吐き出したり することで 空を 飛ぶ 高さを 調節する。",
+		'zh-tw': "會在體內製造氣體或是吐出氣體 來調節飛在空中的高度。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "かぜおこし"
+			ja: "かぜおこし",
+			'zh-tw': "起風"
 		},
 
 		damage: 30
@@ -33,11 +36,13 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Psychic"],
 
 		name: {
-			ja: "のろいをばらまく"
+			ja: "のろいをばらまく",
+			'zh-tw': "散佈詛咒"
 		},
 
 		effect: {
-			ja: "ダメカン8個を、相手のポケモンに好きなようにのせる。"
+			ja: "ダメカン8個を、相手のポケモンに好きなようにのせる。",
+			'zh-tw': "將8個傷害指示物以任意方式放置於對手的寶可夢身上。"
 		}
 	}],
 
@@ -48,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

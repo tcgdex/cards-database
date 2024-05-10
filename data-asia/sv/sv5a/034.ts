@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キリンリキ"
+		ja: "キリンリキ",
+		'zh-tw': "麒麟奇"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "尻尾にも 小さな 頭がある。 背後から 近づく 敵がいると 本能的に 噛みついてくる。"
+		ja: "尻尾にも 小さな 頭がある。 背後から 近づく 敵がいると 本能的に 噛みついてくる。",
+		'zh-tw': "尾巴上也有小小顆的頭。 如果有敵人從背後靠近， 就會受本能驅使一咬而上。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "どっちもヘッド"
+			ja: "どっちもヘッド",
+			'zh-tw': "雙向頭擊"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "自分のベンチポケモン1匹にも、10ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			ja: "自分のベンチポケモン1匹にも、10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			'zh-tw': "自己的1隻備戰寶可夢也受到10點傷害。[在備戰區不計算弱點・抵抗力。]"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

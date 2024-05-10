@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コロモリ"
+		ja: "コロモリ",
+		'zh-tw': "滾滾蝙蝠"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "超音波を 放ちながら フラフラと 飛びまわり エサの 虫ポケモンを 探している。"
+		ja: "超音波を 放ちながら フラフラと 飛びまわり エサの 虫ポケモンを 探している。",
+		'zh-tw': "一邊發出超音波，一邊飛來飛去尋找蟲寶可夢 來填飽自己的肚子。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "とつげき"
+			ja: "とつげき",
+			'zh-tw': "突擊"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			ja: "このポケモンにも10ダメージ。",
+			'zh-tw': "這隻寶可夢也受到10點傷害。"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

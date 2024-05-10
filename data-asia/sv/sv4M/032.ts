@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒラヒナ"
+		ja: "ヒラヒナ",
+		'zh-tw': "飄飄雛"
 	},
 
 	illustrator: "kodama",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "荒れ地を 走りまわって 暮らす。 大好きな 木の実を 取られると 追いかけまわして 復讐する。"
+		ja: "荒れ地を 走りまわって 暮らす。 大好きな 木の実を 取られると 追いかけまわして 復讐する。",
+		'zh-tw': "會在荒地跑來跑去生活。如果最喜歡的樹果被搶走，就會窮追不捨地展開報復。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			ja: "サイコキネシス"
+			ja: "サイコキネシス",
+			'zh-tw': "精神強念"
 		},
 
-		damage: "10＋",
+		damage: "10+",
 
 		effect: {
-			ja: "相手のバトルポケモンについているエネルギーの数×10ダメージ追加。"
+			ja: "相手のバトルポケモンについているエネルギーの数×10ダメージ追加。",
+			'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×10點傷害。"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

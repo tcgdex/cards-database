@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ベトベトン"
+		ja: "ベトベトン",
+		'zh-tw': "臭臭泥"
 	},
 
 	illustrator: "Haru Akasaka",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "汚い ヘドロが 全身に まとわりつく。 足跡に 触っただけで 毒に 侵される。"
+		ja: "汚い ヘドロが 全身に まとわりつく。 足跡に 触っただけで 毒に 侵される。",
+		'zh-tw': "全身上下沾滿污泥。光是碰到牠的足跡， 都會受到毒素的侵襲。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "どくぶくろ"
+			ja: "どくぶくろ",
+			'zh-tw': "毒袋"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、相手のどくのポケモンは、進化・退化してもどくが回復しない。"
+			ja: "このポケモンがいるかぎり、相手のどくのポケモンは、進化・退化してもどくが回復しない。",
+			'zh-tw': "只要這隻寶可夢在場上，對手的【中毒】的寶可夢，就算進化・退化，【中毒】也不會恢復。"
 		}
 	}],
 
@@ -37,13 +41,15 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ポイズンアタック"
+			ja: "ポイズンアタック",
+			'zh-tw': "猛毒攻擊"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "相手のバトルポケモンをどくにする。"
+			ja: "相手のバトルポケモンをどくにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【中毒】。"
 		}
 	}],
 
@@ -52,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

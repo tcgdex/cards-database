@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラウドボーンex"
+		ja: "ラウドボーンex",
+		'zh-tw': "骨紋巨聲鱷ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,25 +21,29 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "かつりょくのうた"
+			ja: "かつりょくのうた",
+			'zh-tw': "活力之歌"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "自分のポケモン全員のHPを、それぞれ「30」回復する。"
+			ja: "自分のポケモン全員のHPを、それぞれ「30」回復する。",
+			'zh-tw': "將自己的所有寶可夢各恢復「30」HP。"
 		}
 	}, {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "バーニングボイス"
+			ja: "バーニングボイス",
+			'zh-tw': "燃燒之聲"
 		},
 
-		damage: "270－",
+		damage: "270-",
 
 		effect: {
-			ja: "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。"
+			ja: "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
+			'zh-tw': "減少這隻寶可夢身上放置的傷害指示物的數量×10點傷害。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

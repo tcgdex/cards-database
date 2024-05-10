@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ダイオウドウex"
+		ja: "ダイオウドウex",
+		'zh-tw': "大王銅象ex"
 	},
 
 	illustrator: "Uta",
@@ -20,11 +21,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ブロンズボディ"
+			ja: "ブロンズボディ",
+			'zh-tw': "青銅之軀"
 		},
 
 		effect: {
-			ja: "このポケモンが受けるワザのダメージは「-30」される。"
+			ja: "このポケモンが受けるワザのダメージは「-30」される。",
+			'zh-tw': "這隻寶可夢受到招式的傷害「-30」點。"
 		}
 	}],
 
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			ja: "ノーズクエイク"
+			ja: "ノーズクエイク",
+			'zh-tw': "鼻震"
 		},
 
 		damage: 260,
 
 		effect: {
-			ja: "自分のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			ja: "自分のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			'zh-tw': "自己的所有備戰寶可夢也各受到30點傷害。[在備戰區不計算弱點・抵抗力。]"
 		}
 	}],
 
@@ -49,10 +54,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

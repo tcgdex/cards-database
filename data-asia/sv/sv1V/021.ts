@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウデッポウ"
+		ja: "ウデッポウ",
+		'zh-tw': "鐵臂槍蝦"
 	},
 
 	illustrator: "miki kudo",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ハサミは 取れても 再生する。 中の 身は 食べられるが クセが 強いので 好みは 分かれる。"
+		ja: "ハサミは 取れても 再生する。 中の 身は 食べられるが クセが 強いので 好みは 分かれる。",
+		'zh-tw': "鉗子即使脫落也會再長出來。裡面的肉雖然可以食用， 但味道過於獨特而喜惡分明。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "はさむ"
+			ja: "はさむ",
+			'zh-tw': "夾住"
 		},
 
 		damage: 10
@@ -36,7 +39,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

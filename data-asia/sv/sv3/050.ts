@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ネンドール"
+		ja: "ネンドール",
+		'zh-tw': "念力土偶"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "古代人の 泥人形から 生まれたらしい。 念力を 使い 空中に 浮いて 移動する。"
+		ja: "古代人の 泥人形から 生まれたらしい。 念力を 使い 空中に 浮いて 移動する。",
+		'zh-tw': "似乎是從古代人做的泥偶誕生而來的寶可夢。能靠念力飄浮在空中移動。"
 	},
 
 	stage: "Stage1",
@@ -25,23 +27,27 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "ドッカンドール"
+			ja: "ドッカンドール",
+			'zh-tw': "轟爆土偶"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンの残りHPが「10」になるように、ダメカンをのせる。その後、このポケモンに120ダメージ。"
+			ja: "相手のバトルポケモンの残りHPが「10」になるように、ダメカンをのせる。その後、このポケモンに120ダメージ。",
+			'zh-tw': "在對手的戰鬥寶可夢身上放置傷害指示物直到剩餘HP變為「10」為止。然後，這隻寶可夢受到120點傷害。"
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "サイコトリップ"
+			ja: "サイコトリップ",
+			'zh-tw': "精神歪曲"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。"
+			ja: "相手のバトルポケモンをこんらんにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
 		}
 	}],
 
@@ -52,10 +58,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

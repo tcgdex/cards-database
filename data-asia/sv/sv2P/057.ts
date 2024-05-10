@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ノココッチ"
+		ja: "ノココッチ",
+		'zh-tw': "土龍節節"
 	},
 
 	illustrator: "Mina Nakai",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "硬い 尻尾で 地中 深くの 岩盤を くり抜き 巣を 作る。 巣穴は 長さ１０キロに およぶ。"
+		ja: "硬い 尻尾で 地中 深くの 岩盤を くり抜き 巣を 作る。 巣穴は 長さ１０キロに およぶ。",
+		'zh-tw': "會用堅硬的尾巴挖穿地下深處的岩盤來築巢。 巢穴可以長達１０公里。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "どろかけ"
+			ja: "どろかけ",
+			'zh-tw': "擲泥"
 		},
 
 		damage: 30
@@ -33,13 +36,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ほりにげフラッシュ"
+			ja: "ほりにげフラッシュ",
+			'zh-tw': "挖逃閃光"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "相手のバトルポケモンをマヒにする。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。"
+			ja: "相手のバトルポケモンをマヒにする。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+			'zh-tw': "將對手的戰鬥寶可夢【麻痺】。將這隻寶可夢與附加的卡，全部放回自己的牌庫並重洗。"
 		}
 	}],
 
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オトスパス"
+		ja: "オトスパス",
+		'zh-tw': "八爪武師"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "おのれの腕を 試すべく 陸に 上がり 対戦相手を 探す。 戦い終えると 海に 帰る。"
+		ja: "おのれの腕を 試すべく 陸に 上がり 対戦相手を 探す。 戦い終えると 海に 帰る。",
+		'zh-tw': "會為了試自己的身手而登上陸地尋找對手。 戰鬥結束後就會回到海裡。"
 	},
 
 	stage: "Stage1",
@@ -25,19 +27,22 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "じわじわおとす"
+			ja: "じわじわおとす",
+			'zh-tw': "緩緩殞落"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "次の相手の番の終わりに、このワザを受けたポケモンはきぜつする。"
+			ja: "次の相手の番の終わりに、このワザを受けたポケモンはきぜつする。",
+			'zh-tw': "在下個對手的回合結束時，受到這個招式的寶可夢會【昏厥】。"
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "マッハストレート"
+			ja: "マッハストレート",
+			'zh-tw': "音速直擊"
 		},
 
 		damage: 120
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

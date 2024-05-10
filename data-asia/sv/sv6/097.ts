@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-
-		ja: "ゼイユ"
+		ja: "ゼイユ",
+		'zh-tw': "丹瑜"
 	},
 
 	category: "Trainer",
@@ -19,10 +19,12 @@ const card: Card = {
 	illustrator: "kantaro",
 
 	effect: {
-		ja: "このカードは、先攻プレイヤーの最初の番でも使える。\n\n自分の手札をすべてトラッシュし、山札を5枚引く。"
+		ja: "このカードは、先攻プレイヤーの最初の番でも使える。\n\n自分の手札をすべてトラッシュし、山札を5枚引く。",
+		'zh-tw': "這張卡可在先攻玩家的最初回合使用。 將自己的手牌全部丟棄，從牌庫抽出5張卡。"
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "H"
 }
 
 export default card

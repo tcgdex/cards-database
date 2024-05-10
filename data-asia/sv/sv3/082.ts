@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドドゲザン"
+		ja: "ドドゲザン",
+		'zh-tw': "仆斬將軍"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ドドゲザンに 進化できるのは 大軍勢の 頂点に 立った １匹の キリキザンだけなのだ。"
+		ja: "ドドゲザンに 進化できるのは 大軍勢の 頂点に 立った １匹の キリキザンだけなのだ。",
+		'zh-tw': "在勢力浩大的軍團中，唯有站上頂點的那１隻劈斬司令，才能進化成仆斬將軍。"
 	},
 
 	stage: "Stage2",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			ja: "うちとる"
+			ja: "うちとる",
+			'zh-tw': "攻滅"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンにダメカンが4個以上のっているなら、そのポケモンをきぜつさせる。"
+			ja: "相手のバトルポケモンにダメカンが4個以上のっているなら、そのポケモンをきぜつさせる。",
+			'zh-tw': "若對手的戰鬥寶可夢身上放置有4個以上的傷害指示物，則將那隻寶可夢【昏厥】。"
 		}
 	}, {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			ja: "だいせつだん"
+			ja: "だいせつだん",
+			'zh-tw': "大切斷"
 		},
 
 		damage: 140
@@ -48,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

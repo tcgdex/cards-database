@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "トゲピー"
+		ja: "トゲピー",
+		'zh-tw': "波克比"
 	},
 
 	illustrator: "Natsumi Yoshida",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "幸運の シンボル。 殻の 中には 幸せが たくさん つまっている という。"
+		ja: "幸運の シンボル。 殻の 中には 幸せが たくさん つまっている という。",
+		'zh-tw': "好運的象徵。據說在牠的殼裡裝著滿滿的幸福。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "あまえごえ"
+			ja: "あまえごえ",
+			'zh-tw': "撒嬌聲"
 		},
 
 		effect: {
-			ja: "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見て、相手の山札にもどして切る。"
+			ja: "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見て、相手の山札にもどして切る。",
+			'zh-tw': "在不看正面的情況下，從對手的手牌選擇1張，查看那張卡的正面後放回對手的牌庫並重洗。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ころがりタックル"
+			ja: "ころがりタックル",
+			'zh-tw': "滾動衝撞"
 		},
 
 		damage: 20
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

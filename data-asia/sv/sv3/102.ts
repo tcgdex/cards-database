@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リベンジパンチ"
+		ja: "リベンジパンチ",
+		'zh-tw': "復仇拳箱"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,10 +14,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを4個のせる。"
+		ja: "このカードをつけているポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを4個のせる。",
+		'zh-tw': "附有這張卡的寶可夢受到對手的寶可夢招式的傷害而【昏厥】時，在使用招式的寶可夢身上放置4個傷害指示物。"
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "G"
 }
 
 export default card

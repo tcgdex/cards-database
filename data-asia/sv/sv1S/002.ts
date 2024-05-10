@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ノクタス"
+		ja: "ノクタス",
+		'zh-tw': "夢歌仙人掌"
 	},
 
 	illustrator: "DOM",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "砂漠の 旅人の 後ろを 集団で つきまとい 疲れて 動けなくなるのを 待つのだ。"
+		ja: "砂漠の 旅人の 後ろを 集団で つきまとい 疲れて 動けなくなるのを 待つのだ。",
+		'zh-tw': "會成群跟在沙漠中的旅人後方，等待對方 因疲累而變得無法動彈。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "はんげきばり"
+			ja: "はんげきばり",
+			'zh-tw': "反擊針"
 		},
 
 		effect: {
-			ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。"
+			ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。",
+			'zh-tw': "這隻寶可夢在戰鬥場受到對手的寶可夢招式的傷害時，在使用招式的寶可夢身上放置3個傷害指示物。"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "とげショット"
+			ja: "とげショット",
+			'zh-tw': "尖刺射擊"
 		},
 
 		damage: 110
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キラーメ"
+		ja: "キラーメ",
+		'zh-tw': "晶光芽"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "洞窟の 壁から 栄養分を 吸収。 毒の 結晶で できた 花びらを 身にまとう。"
+		ja: "洞窟の 壁から 栄養分を 吸収。 毒の 結晶で できた 花びらを 身にまとう。",
+		'zh-tw': "會從洞窟的壁上吸取養分。包覆在身上的花瓣是用毒的結晶做成的。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "てっぺき"
+			ja: "てっぺき",
+			'zh-tw': "鐵壁"
 		},
 
 		effect: {
-			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。"
+			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害。"
 		}
 	}, {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "ぶらさがる"
+			ja: "ぶらさがる",
+			'zh-tw': "垂吊"
 		},
 
 		damage: 10
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

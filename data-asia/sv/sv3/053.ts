@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ボチ"
+		ja: "ボチ",
+		'zh-tw': "墓仔狗"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "人と 関わることなく 命を 落とした 野良の 犬ポケモンが 生まれ変わったと 言われている。"
+		ja: "人と 関わることなく 命を 落とした 野良の 犬ポケモンが 生まれ変わったと 言われている。",
+		'zh-tw': "據說牠是不曾接觸過人類就死去的流浪犬寶可夢 轉生而來的。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "じゃれつく"
+			ja: "じゃれつく",
+			'zh-tw': "嬉鬧"
 		},
 
-		damage: "30＋",
+		damage: "30+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、30ダメージ追加。"
+			ja: "コインを1回投げオモテなら、30ダメージ追加。",
+			'zh-tw': "擲1次硬幣若為正面，則增加30點傷害。"
 		}
 	}],
 
@@ -42,10 +46,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

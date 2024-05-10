@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アマージョex"
+		ja: "アマージョex",
+		'zh-tw': "甜冷美后ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,23 +21,27 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "アイシクルソール"
+			ja: "アイシクルソール",
+			'zh-tw': "冰柱之踢"
 		},
 
 		effect: {
-			ja: "相手のポケモン1匹に、そのポケモンの残りHPが「30」になるように、ダメカンをのせる。"
+			ja: "相手のポケモン1匹に、そのポケモンの残りHPが「30」になるように、ダメカンをのせる。",
+			'zh-tw': "在對手的1隻寶可夢身上放置傷害指示物直到那隻寶可夢的剩餘HP變為「30」為止。"
 		}
 	}, {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			ja: "トロピカルキック"
+			ja: "トロピカルキック",
+			'zh-tw': "熱帶踢"
 		},
 
 		damage: 180,
 
 		effect: {
-			ja: "このポケモンのHPを「30」回復し、特殊状態もすべて回復する。"
+			ja: "このポケモンのHPを「30」回復し、特殊状態もすべて回復する。",
+			'zh-tw': "將這隻寶可夢恢復「30」HP，特殊狀態也全部恢復。"
 		}
 	}],
 
@@ -45,7 +50,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

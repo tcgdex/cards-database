@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ビードル"
+		ja: "ビードル",
+		'zh-tw': "獨角蟲"
 	},
 
 	illustrator: "nisimono",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "毒針は とても 強力。 目立つ 体の 色は 相手に 警戒を させるためだ。"
+		ja: "毒針は とても 強力。 目立つ 体の 色は 相手に 警戒を させるためだ。",
+		'zh-tw': "毒針非常厲害。 鮮豔的體色是用來 警告對手的。"
 	},
 
 	stage: "Basic",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "ぶつかる"
+			ja: "ぶつかる",
+			'zh-tw': "衝撞"
 		},
 
 		damage: 10
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "むしくい"
+			ja: "むしくい",
+			'zh-tw': "蟲咬"
 		},
 
 		damage: 20
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "管理人"
+		ja: "管理人",
+		'zh-tw': "管理員"
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,10 +14,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を2枚引く。その後、場に「公民館」が出ているなら、この「管理人」はトラッシュせず、山札にもどして切る。"
+		ja: "自分の山札を2枚引く。その後、場に「公民館」が出ているなら、この「管理人」はトラッシュせず、山札にもどして切る。",
+		'zh-tw': "從自己的牌庫抽出2張卡。然後，若場上有「居民會館」，則不丟棄這張「管理員」，而是放回牌庫並重洗。"
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "H"
 }
 
 export default card

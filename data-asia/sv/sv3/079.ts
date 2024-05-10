@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ダイノーズ"
+		ja: "ダイノーズ",
+		'zh-tw': "大朝北鼻"
 	},
 
 	illustrator: "takuyoa",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "３つの 小さな ユニットを 使い エサを とったり 敵と 戦う。 本体は ほぼ 命令するだけ。"
+		ja: "３つの 小さな ユニットを 使い エサを とったり 敵と 戦う。 本体は ほぼ 命令するだけ。",
+		'zh-tw': "會驅使３個小組件去獲取食物或與敵人戰鬥。本體基本上只負責下命令。"
 	},
 
 	stage: "Stage1",
@@ -25,25 +27,29 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "トリプルノーズ"
+			ja: "トリプルノーズ",
+			'zh-tw': "三重北鼻"
 		},
 
 		damage: "40×",
 
 		effect: {
-			ja: "コインを3回投げ、オモテの数×40ダメージ。"
+			ja: "コインを3回投げ、オモテの数×40ダメージ。",
+			'zh-tw': "擲3次硬幣，造成正面出現的次數×40點傷害。"
 		}
 	}, {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			ja: "アイアンバスター"
+			ja: "アイアンバスター",
+			'zh-tw': "鐵之光炮"
 		},
 
 		damage: 160,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			ja: "次の自分の番、このポケモンはワザが使えない。",
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
 		}
 	}],
 
@@ -54,10 +60,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

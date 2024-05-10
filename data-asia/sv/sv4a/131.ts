@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブロロローム"
+		ja: "ブロロローム",
+		'zh-tw': "普隆隆姆"
 	},
 
 	illustrator: "DOM",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "毒素と 岩の 成分を 混ぜた ガスを ８つに 増えた シリンダーで 爆発させ エネルギーを 作る。"
+		ja: "毒素と 岩の 成分を 混ぜた ガスを ８つに 増えた シリンダーで 爆発させ エネルギーを 作る。",
+		'zh-tw': "在增加到了８個的汽缸裡引爆混有毒素和岩石成分的 氣體來製造能量。"
 	},
 
 	stage: "Stage1",
@@ -24,11 +26,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ランブルエンジン"
+			ja: "ランブルエンジン",
+			'zh-tw': "轟鳴引擎"
 		},
 
 		effect: {
-			ja: "自分の番に、自分の手札からエネルギーを1枚トラッシュするなら、1回使える。自分の手札が6枚になるように、山札を引く。"
+			ja: "自分の番に、自分の手札からエネルギーを1枚トラッシュするなら、1回使える。自分の手札が6枚になるように、山札を引く。",
+			'zh-tw': "在自己的回合，若從自己的手牌將1張能量卡丟棄，則可使用1次。從牌庫抽卡直到自己的手牌滿6張為止。"
 		}
 	}],
 
@@ -36,13 +40,15 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "はねとばす"
+			ja: "はねとばす",
+			'zh-tw': "擊飛"
 		},
 
-		damage: "90＋",
+		damage: "90+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、90ダメージ追加。"
+			ja: "コインを1回投げオモテなら、90ダメージ追加。",
+			'zh-tw': "擲1次硬幣若為正面，則增加90點傷害。"
 		}
 	}],
 
@@ -53,10 +59,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

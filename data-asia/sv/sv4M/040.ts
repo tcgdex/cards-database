@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ストリンダーex"
+		ja: "ストリンダーex",
+		'zh-tw': "顫弦蠑螈ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,25 +21,29 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			ja: "ノックハンマー"
+			ja: "ノックハンマー",
+			'zh-tw': "敲擊之錘"
 		},
 
 		damage: 70,
 
 		effect: {
-			ja: "相手の山札を上から1枚トラッシュする。"
+			ja: "相手の山札を上から1枚トラッシュする。",
+			'zh-tw': "將對手的牌庫上方1張卡丟棄。"
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		name: {
-			ja: "ガイアパンク"
+			ja: "ガイアパンク",
+			'zh-tw': "蓋亞龐克"
 		},
 
 		damage: 270,
 
 		effect: {
-			ja: "自分の場のポケモンについているエネルギーを3個選び、トラッシュする。"
+			ja: "自分の場のポケモンについているエネルギーを3個選び、トラッシュする。",
+			'zh-tw': "選擇3個自己的場上寶可夢身上附加的【雷】能量，將其丟棄。"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

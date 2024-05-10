@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イーブイ"
+		ja: "イーブイ",
+		'zh-tw': "伊布"
 	},
 
 	illustrator: "Narumi Sato",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "環境の 変化に すぐさま 合わせられるよう いくつもの 進化の 可能性を 秘めている。"
+		ja: "環境の 変化に すぐさま 合わせられるよう いくつもの 進化の 可能性を 秘めている。",
+		'zh-tw': "為了能瞬即適應環境的變化，這種寶可夢蘊含著 許多種進化的可能性。"
 	},
 
 	stage: "Basic",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "カラフルフレンズ"
+			ja: "カラフルフレンズ",
+			'zh-tw': "鮮豔友情"
 		},
 
 		effect: {
-			ja: "自分の山札から、それぞれちがうタイプのポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。"
+			ja: "自分の山札から、それぞれちがうタイプのポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+			'zh-tw': "從自己的牌庫選擇最多3張各不同屬性的寶可夢卡，在給對手看過後加入手牌。並且重洗牌庫。"
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "スキップ"
+			ja: "スキップ",
+			'zh-tw': "小跳步"
 		},
 
 		damage: 10
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ガマガル"
+		ja: "ガマガル",
+		'zh-tw': "藍蟾蜍"
 	},
 
 	illustrator: "sowsow",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "きれいな 声で 鳴くこともある。 体の 突起が 大きいほど 広い 音域で 鳴けるのだ。"
+		ja: "きれいな 声で 鳴くこともある。 体の 突起が 大きいほど 広い 音域で 鳴けるのだ。",
+		'zh-tw': "有時也會發出悅耳的叫聲。身上突起物越大的藍蟾蜍越能以更廣的音域來鳴叫。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			ja: "みずかけ"
+			ja: "みずかけ",
+			'zh-tw': "潑水"
 		},
 
 		damage: 50
@@ -36,7 +39,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

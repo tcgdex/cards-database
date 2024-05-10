@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ダグトリオ"
+		ja: "ダグトリオ",
+		'zh-tw': "三地鼠"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "３つの 頭が 互い違いに 動くのは まわりの 土を 柔らかくして 掘りやすくするため。"
+		ja: "３つの 頭が 互い違いに 動くのは まわりの 土を 柔らかくして 掘りやすくするため。",
+		'zh-tw': "三顆頭會輪流活動，是為了讓周圍的土 變得更鬆更好挖。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +27,8 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "とびだしヘッド"
+			ja: "とびだしヘッド",
+			'zh-tw': "魯莽頭擊"
 		},
 
 		damage: 40
@@ -33,7 +36,8 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "どろばくだん"
+			ja: "どろばくだん",
+			'zh-tw': "泥巴炸彈"
 		},
 
 		damage: 80
@@ -44,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ギャラドスex"
+		ja: "ギャラドスex",
+		'zh-tw': "暴鯉龍ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +21,8 @@ const card: Card = {
 		cost: ["Water", "Water", "Water"],
 
 		name: {
-			ja: "たきのぼり"
+			ja: "たきのぼり",
+			'zh-tw': "攀瀑"
 		},
 
 		damage: 100
@@ -28,13 +30,15 @@ const card: Card = {
 		cost: ["Water", "Water", "Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "タイラントテール"
+			ja: "タイラントテール",
+			'zh-tw': "暴君尾"
 		},
 
-		damage: "180＋",
+		damage: "180+",
 
 		effect: {
-			ja: "相手のバトルポケモンにダメカンがのっているなら、180ダメージ追加。"
+			ja: "相手のバトルポケモンにダメカンがのっているなら、180ダメージ追加。",
+			'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加180點傷害。"
 		}
 	}],
 
@@ -43,7 +47,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

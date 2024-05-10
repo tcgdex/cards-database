@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キングラー"
+		ja: "キングラー",
+		'zh-tw': "巨鉗蟹"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "破壊力 抜群の 大きな ハサミだが 重すぎるので 戦わないときは じゃまになる。"
+		ja: "破壊力 抜群の 大きな ハサミだが 重すぎるので 戦わないときは じゃまになる。",
+		'zh-tw': "巨大的鉗子破壞力十足，但是因為太過沉重， 不戰鬥的時候就很礙事。"
 	},
 
 	stage: "Stage1",
@@ -25,19 +27,22 @@ const card: Card = {
 		cost: ["Water", "Water", "Water"],
 
 		name: {
-			ja: "アームハンマー"
+			ja: "アームハンマー",
+			'zh-tw': "臂錘"
 		},
 
 		damage: 90,
 
 		effect: {
-			ja: "相手の山札を上から1枚トラッシュする。"
+			ja: "相手の山札を上から1枚トラッシュする。",
+			'zh-tw': "將對手的牌庫上方1張卡丟棄。"
 		}
 	}, {
 		cost: ["Water", "Water", "Water", "Water"],
 
 		name: {
-			ja: "ハサミギロチン"
+			ja: "ハサミギロチン",
+			'zh-tw': "斷頭鉗"
 		},
 
 		damage: 220
@@ -48,7 +53,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

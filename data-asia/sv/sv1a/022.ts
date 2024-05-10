@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コイキング"
+		ja: "コイキング",
+		'zh-tw': "鯉魚王"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "力のない 情けない ポケモン。 たまに 高く 飛び跳ねても ２メートルを 超すのが やっとだ。"
+		ja: "力のない 情けない ポケモン。 たまに 高く 飛び跳ねても ２メートルを 超すのが やっとだ。",
+		'zh-tw': "沒力量的可憐寶可夢。偶爾跳得比較高時， 也只是勉強高過2公尺而已。"
 	},
 
 	stage: "Basic",
@@ -25,13 +27,15 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "はねじょうず"
+			ja: "はねじょうず",
+			'zh-tw': "跳躍高手"
 		},
 
-		damage: "10＋",
+		damage: "10+",
 
 		effect: {
-			ja: "コインを2回投げ、すべてオモテなら、20ダメージ追加。"
+			ja: "コインを2回投げ、すべてオモテなら、20ダメージ追加。",
+			'zh-tw': "擲2次硬幣，若全部為正面，則增加20點傷害。"
 		}
 	}],
 
@@ -40,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

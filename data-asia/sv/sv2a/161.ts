@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "エリカの招待"
+		ja: "エリカの招待",
+		'zh-tw': "莉佳的招待"
 	},
 
 	illustrator: "saino misaki",
@@ -13,10 +14,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の手札を見て、その中からたねポケモンを1枚選び、相手のベンチに出す。その後、そのポケモンをバトルポケモンと入れ替える。"
+		ja: "相手の手札を見て、その中からたねポケモンを1枚選び、相手のベンチに出す。その後、そのポケモンをバトルポケモンと入れ替える。",
+		'zh-tw': "查看對手的手牌，從其中選擇1張【基礎】寶可夢卡，放置於對手的備戰區。然後，將那隻寶可夢與戰鬥寶可夢互換。"
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "G"
 }
 
 export default card

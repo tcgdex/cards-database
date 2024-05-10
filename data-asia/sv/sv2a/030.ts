@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニドリーナ"
+		ja: "ニドリーナ",
+		'zh-tw': "尼多娜"
 	},
 
 	illustrator: "Teeziro",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "群れに 危険が せまると 仲間で 結束して 超音波の 大合唱を おみまいするぞ。"
+		ja: "群れに 危険が せまると 仲間で 結束して 超音波の 大合唱を おみまいするぞ。",
+		'zh-tw': "有危險逼近群體時，會與夥伴們團結一致地 用超音波的大合唱來攻擊。"
 	},
 
 	stage: "Stage1",
@@ -25,17 +27,20 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "ファミリーコール"
+			ja: "ファミリーコール",
+			'zh-tw': "家族呼喚"
 		},
 
 		effect: {
-			ja: "自分の山札からポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。"
+			ja: "自分の山札からポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+			'zh-tw': "從自己的牌庫選擇最多3張寶可夢卡，在給對手看過後加入手牌。並且重洗牌庫。"
 		}
 	}, {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "するどいキバ"
+			ja: "するどいキバ",
+			'zh-tw': "銳利之牙"
 		},
 
 		damage: 50
@@ -46,7 +51,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

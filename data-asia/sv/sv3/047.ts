@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ルナトーン"
+		ja: "ルナトーン",
+		'zh-tw': "月石"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -16,7 +17,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "４０年前に 隕石の 落ちた 場所で 初めて 見つかった。 にらむ だけで 敵を 眠らせる。"
+		ja: "４０年前に 隕石の 落ちた 場所で 初めて 見つかった。 にらむ だけで 敵を 眠らせる。",
+		'zh-tw': "在４０年前隕石墜落的地點第一次被發現。瞪一眼就能使敵人沉睡。"
 	},
 
 	stage: "Basic",
@@ -25,11 +27,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "しんげつ"
+			ja: "しんげつ",
+			'zh-tw': "新月"
 		},
 
 		effect: {
-			ja: "自分の場に「ソルロック」がいるなら、はたらく。このポケモンがいるかぎり、自分のポケモン全員は、スタジアムの効果を受けない。"
+			ja: "自分の場に「ソルロック」がいるなら、はたらく。このポケモンがいるかぎり、自分のポケモン全員は、スタジアムの効果を受けない。",
+			'zh-tw': "若自己的場上有「太陽岩」則生效。只要這隻寶可夢在場上，自己的所有寶可夢不會受到競技場卡的效果的影響。"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ムーンプレス"
+			ja: "ムーンプレス",
+			'zh-tw': "月球壓制"
 		},
 
 		damage: 100
@@ -50,10 +55,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card
