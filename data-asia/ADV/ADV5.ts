@@ -2,17 +2,17 @@ import { Set } from '../../interfaces'
 import serie from '../ADV'
 
 const set: Set = {
-	id: 'ADV4',
+	id: 'ADV5',
 	name: {
-		ja: '強化拡張パックex1マグマVSアクア ふたつの野望'
+		ja: 'とかれた封印'
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 80
+		official: 83
 	},
-	releaseDate: '2003-10-24'
+	releaseDate: '2004-01-16'
 }
 
 export default set
