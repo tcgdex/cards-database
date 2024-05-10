@@ -1,8 +1,8 @@
 import { Set } from '../../interfaces'
-import serie from '../s'
+import serie from '../S'
 
 const set: Set = {
-	id: 'Sv1a',
+	id: 'S11',
 	name: {
 		ja: 'トリプレットビート',
 		ko: '트리플렛비트',

@@ -5,7 +5,7 @@ const serie: Serie = {
 		ja: 'サン＆ムーン',
 		ko: '썬&문'
 	},
-	id: 'sm'
+	id: 'SM'
 }
 
 export default serie
