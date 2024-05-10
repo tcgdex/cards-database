@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "カイデン",
-		'zh-tw': "電海燕"
+		'zh-tw': "電海燕",
+		id: "Wattrel"
 	},
 
 	illustrator: "Scav",
@@ -17,7 +18,8 @@ const card: Card = {
 
 	description: {
 		ja: "翼の 骨は 風を 受けると 電気を 作る。 海に 飛び込み 獲物を 感電させて 捕らえる。",
-		'zh-tw': "當翅膀的骨頭受到風吹時，就能製造出電力。會衝進 海裡讓獵物觸電後將其捕獲。"
+		'zh-tw': "當翅膀的骨頭受到風吹時，就能製造出電力。會衝進 海裡讓獵物觸電後將其捕獲。",
+		id: "Kerangka sayap Wattrel menciptakan listrik jika menerima angin. Pokémon ini terjun ke laut, menyetrum mangsa, dan menangkapnya."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 
 		name: {
 			ja: "つつく",
-			'zh-tw': "啄"
+			'zh-tw': "啄",
+			id: "Mematuk"
 		},
 
 		damage: 10
@@ -36,14 +39,16 @@ const card: Card = {
 
 		name: {
 			ja: "だんけつのつばさ",
-			'zh-tw': "團結之翼"
+			'zh-tw': "團結之翼",
+			id: "Sayap Bersatu Padu"
 		},
 
 		damage: "20×",
 
 		effect: {
 			ja: "自分のトラッシュにある、ワザ「だんけつのつばさ」を持つポケモンの枚数×20ダメージ。",
-			'zh-tw': "造成自己的棄牌區的，持有「團結之翼」招式的寶可夢卡的張數×20點傷害。"
+			'zh-tw': "造成自己的棄牌區的，持有「團結之翼」招式的寶可夢卡的張數×20點傷害。",
+			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Pokémon yang memiliki serangan Sayap Bersatu Padu yang ada di Trash sendiri."
 		}
 	}],
 

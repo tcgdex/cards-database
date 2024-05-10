@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "勇気のおまもり",
-		'zh-tw': "勇氣護符"
+		'zh-tw': "勇氣護符",
+		th: "เครื่องรางแห่งความกล้า",
+		id: "Jimat Keberanian[Pokémon Tool]"
 	},
 
 	illustrator: "Toyste Beach",
@@ -14,7 +16,9 @@ const card: Card = {
 
 	effect: {
 		ja: "このカードをつけているたねポケモンの最大HPは「＋50」される。",
-		'zh-tw': "附有這張卡的【基礎】寶可夢的最大HP「+50」。"
+		'zh-tw': "附有這張卡的【基礎】寶可夢的最大HP「+50」。",
+		th: "HP สูงสุดของโปเกมอน[พื้นฐาน]ที่ติดการ์ดนี้อยู่จะถูก [+50]",
+		id: "HP maksimal Pokémon Basic yang mengenakan kartu ini bertambah sejumlah 50."
 	},
 
 	trainerType: "Tool",

@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "パルシェン",
-		'zh-tw': "刺甲貝"
+		'zh-tw': "刺甲貝",
+		th: "พาร์เชน",
+		id: "Cloyster"
 	},
 
 	illustrator: "Nelnal",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "潮の 流れが 激しい 海に 生息している パルシェンの 殻の トゲは 大きく 鋭い。",
-		'zh-tw': "刺甲貝棲息在潮流湍急的海裡， 殼上的刺又大又尖銳。"
+		'zh-tw': "刺甲貝棲息在潮流湍急的海裡， 殼上的刺又大又尖銳。",
+		th: "เปลือกของพาร์เชนที่อาศัยอยู่ในทะเลที่น้ำไหลเชี่ยวจะมีหนามที่ใหญ่และแหลมคม",
+		id: "Cangkang Cloyster yang hidup di laut bergelombang pasang deras berduri besar dan tajam."
 	},
 
 	stage: "Stage1",
@@ -28,14 +32,18 @@ const card: Card = {
 
 		name: {
 			ja: "プロテクトチャージ",
-			'zh-tw': "防護充能"
+			'zh-tw': "防護充能",
+			th: "โพรเทกชาร์จ",
+			id: "Protect Charge"
 		},
 
 		damage: 80,
 
 		effect: {
 			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-80」される。",
-			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-80」點。"
+			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-80」點。",
+			th: "เทิร์นถัดไปของฝ่ายตรงข้าม แดเมจของท่าต่อสู้ที่โปเกมอนนี้จะได้รับจะถูก [-80]",
+			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 80."
 		}
 	}],
 

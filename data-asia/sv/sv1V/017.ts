@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "デルビル",
-		'zh-tw': "戴魯比"
+		'zh-tw': "戴魯比",
+		th: "เดลวิล",
+		id: "Houndour"
 	},
 
 	illustrator: "nagimiso",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "仲間に 連絡するときと 獲物を 追いつめるときでは 鳴き声の 種類が 違うのだ。",
-		'zh-tw': "聯絡夥伴和追趕獵物的時候，會分別發出 不同種類的叫聲。"
+		'zh-tw': "聯絡夥伴和追趕獵物的時候，會分別發出 不同種類的叫聲。",
+		th: "ชนิดของเสียงร้องที่ใช้ตอนสื่อสารกับฝูงกับตอนไล่ต้อนเหยื่อจะแตกต่างกัน",
+		id: "Jenis raungan Houndour ketika berkomunikasi dengan sesamanya atau ketika memburu mangsanya berbeda-beda."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "かみつく",
-			'zh-tw': "咬住"
+			'zh-tw': "咬住",
+			th: "กัดติด",
+			id: "Menggigit"
 		},
 
 		damage: 10
@@ -37,7 +43,9 @@ const card: Card = {
 
 		name: {
 			ja: "ほのお",
-			'zh-tw': "火焰"
+			'zh-tw': "火焰",
+			th: "ไฟ",
+			id: "Api"
 		},
 
 		damage: 30

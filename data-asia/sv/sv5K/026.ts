@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マリル"
+		ja: "マリル",
+		'zh-tw': "瑪力露",
+		th: "มาริล"
 	},
 
 	illustrator: "yuu",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "全身の 体毛は 水を 弾く 性質を 持ち 水浴び しても 乾いている。"
+		ja: "全身の 体毛は 水を 弾く 性質を 持ち 水浴び しても 乾いている。",
+		'zh-tw': "全身的體毛有著能將水彈開的特性， 所以就算碰到水也不會弄濕。",
+		th: "ขนทั่วตัวมีคุณสมบัติที่ไม่ดูดซึมน้ำ ถึงอาบน้ำตัวก็ยังแห้ง"
 	},
 
 	stage: "Basic",
@@ -25,19 +29,25 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "たまころがり"
+			ja: "たまころがり",
+			'zh-tw': "滾球",
+			th: "กลิ้งบอล"
 		},
 
 		damage: "10×",
 
 		effect: {
-			ja: "ウラが出るまでコインを投げ、オモテの数×10ダメージ。"
+			ja: "ウラが出るまでコインを投げ、オモテの数×10ダメージ。",
+			'zh-tw': "擲硬幣直到出現反面，造成正面出現的次數×10點傷害。",
+			th: "ทอยเหรียญจนกว่าจะออกก้อย แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "マジカルショット"
+			ja: "マジカルショット",
+			'zh-tw': "魔法射擊",
+			th: "เมจิคัลช็อต"
 		},
 
 		damage: 40
@@ -48,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ギルガルドex"
+		ja: "ギルガルドex",
+		th: "กิลการ์ดex"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -19,25 +20,29 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			ja: "ピアレスエッジ"
+			ja: "ピアレスエッジ",
+			th: "คมดาบอดุลย์"
 		},
 
 		damage: "70×",
 
 		effect: {
-			ja: "自分がすでにとったサイドの枚数×70ダメージ。"
+			ja: "自分がすでにとったサイドの枚数×70ダメージ。",
+			th: "แดเมจจะเท่ากับจำนวนการ์ดรางวัลที่ฝ่ายเราหยิบไปแล้ว x70"
 		}
 	}, {
 		cost: ["Metal", "Metal"],
 
 		name: {
-			ja: "もろはぎり"
+			ja: "もろはぎり",
+			th: "ฟันดาบสองคม"
 		},
 
 		damage: 220,
 
 		effect: {
-			ja: "このポケモンにも30ダメージ。"
+			ja: "このポケモンにも30ダメージ。",
+			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย"
 		}
 	}],
 
@@ -48,10 +53,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

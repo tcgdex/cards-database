@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドロバンコ"
+		ja: "ドロバンコ",
+		'zh-tw': "泥驢仔",
+		th: "โดโรบังโค"
 	},
 
 	illustrator: "Narumi Sato",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "まとっている 泥は 食べた 土を 反芻したもの。 長時間 日差しを 浴びても 乾かないのだ。"
+		ja: "まとっている 泥は 食べた 土を 反芻したもの。 長時間 日差しを 浴びても 乾かないのだ。",
+		'zh-tw': "裹在身上的泥巴是吃下的土反芻而成的。就算長時間 曝曬在陽光下也不會乾掉。",
+		th: "โคลนที่ติดอยู่คือดินที่เคี้ยวซ้ำแล้วซ้ำเล่า ไม่ว่าจะตากแดดนานขนาดไหนก็ไม่แห้ง"
 	},
 
 	stage: "Basic",
@@ -25,7 +29,9 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "けとばす"
+			ja: "けとばす",
+			'zh-tw': "踢飛",
+			th: "ดีด"
 		},
 
 		damage: 10
@@ -33,7 +39,9 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			ja: "どろかけ"
+			ja: "どろかけ",
+			'zh-tw': "擲泥",
+			th: "สาดโคลน"
 		},
 
 		damage: 50
@@ -44,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

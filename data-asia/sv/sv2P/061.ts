@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ヤルキモノ",
-		'zh-tw': "過動猿"
+		'zh-tw': "過動猿",
+		th: "ยารุคิโมโนะ",
+		id: "Vigoroth"
 	},
 
 	illustrator: "GIDORA",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "体を 動かしていないと ストレスが 溜まりすぎて 具合が 悪くなってしまうのだ。",
-		'zh-tw': "如果不活動身體，就會累積過多的壓力， 使身體狀況變糟。"
+		'zh-tw': "如果不活動身體，就會累積過多的壓力， 使身體狀況變糟。",
+		th: "ถ้าไม่ได้ขยับร่างกายความเครียดจะสะสมมากเกินไปจนรู้สึกไม่สบาย",
+		id: "Jika Vigoroth tidak menggerakkan tubuhnya, Pokémon ini mengalami stres berlebihan dan kondisi tubuhnya memburuk."
 	},
 
 	stage: "Stage1",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "がちんこ",
-			'zh-tw': "正面對決"
+			'zh-tw': "正面對決",
+			th: "ตั้งใจสู้",
+			id: "Menentang"
 		},
 
 		damage: 40
@@ -37,14 +43,18 @@ const card: Card = {
 
 		name: {
 			ja: "するどいツメ",
-			'zh-tw': "銳利之爪"
+			'zh-tw': "銳利之爪",
+			th: "กรงเล็บคม",
+			id: "Cakar Tajam"
 		},
 
 		damage: "60+",
 
 		effect: {
 			ja: "コインを1回投げオモテなら、60ダメージ追加。",
-			'zh-tw': "擲1次硬幣若為正面，則增加60點傷害。"
+			'zh-tw': "擲1次硬幣若為正面，則增加60點傷害。",
+			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 60",
+			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 60."
 		}
 	}],
 

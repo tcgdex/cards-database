@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "バニリッチ"
+		ja: "バニリッチ",
+		th: "วานิริช"
 	},
 
 	illustrator: "Taiga Kayama",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "マイナス１００度の 冷気で 敵を 凍らせるが 命までは 奪わない 優しい 気質。"
+		ja: "マイナス１００度の 冷気で 敵を 凍らせるが 命までは 奪わない 優しい 気質。",
+		th: "ทำให้ศัตรูเย็นเยือกแข็งด้วยไอเย็น -100 องศา แต่ยังมีจิตใจดีไม่ทำให้ถึงแก่ชีวิต"
 	},
 
 	stage: "Stage1",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			ja: "フロストスマッシュ"
+			ja: "フロストスマッシュ",
+			th: "ฟรอสต์สแมช"
 		},
 
 		damage: 60
@@ -35,7 +38,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "G"
 }
 
 export default card

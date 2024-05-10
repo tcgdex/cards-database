@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ブイゼル",
-		'zh-tw': "泳圈鼬"
+		'zh-tw': "泳圈鼬",
+		th: "บุยเซล",
+		id: "Buizel"
 	},
 
 	illustrator: "Mizue",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "尻尾を スクリューのように まわし 水中を 泳ぐだけでなく まとわりつく 海草も 切れる。",
-		'zh-tw': "像螺旋槳一樣旋轉的尾巴除了能夠讓牠在水裡游泳， 還能切斷纏住自己的海草。"
+		'zh-tw': "像螺旋槳一樣旋轉的尾巴除了能夠讓牠在水裡游泳， 還能切斷纏住自己的海草。",
+		th: "หมุนหางต่างใบพัด ไม่ได้ใช้แค่ว่ายในน้ำได้อย่างเดียว แต่ยังใช้ตัดพวกสาหร่ายที่มาพันตัวได้ด้วย",
+		id: "Tidak hanya untuk berenang, Buizel memutar ekornya seperti baling-baling untuk memotong rumput laut yang menempel padanya."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "みずかけ",
-			'zh-tw': "潑水"
+			'zh-tw': "潑水",
+			th: "สาดน้ำ",
+			id: "Guyuran Air"
 		},
 
 		damage: 10
@@ -37,7 +43,9 @@ const card: Card = {
 
 		name: {
 			ja: "ひれカッター",
-			'zh-tw': "鰭快刀"
+			'zh-tw': "鰭快刀",
+			th: "ครีบใบมีด",
+			id: "Sirip Pemotong"
 		},
 
 		damage: 20

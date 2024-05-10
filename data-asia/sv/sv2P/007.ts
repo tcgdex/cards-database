@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "アマカジ",
-		'zh-tw': "甜竹竹"
+		'zh-tw': "甜竹竹",
+		th: "อมาคาจิ",
+		id: "Bounsweet"
 	},
 
 	illustrator: "Kurata So",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "果物を 煮詰めたような 甘い 汗を かくため 甘味の 少ない 昔は とても 重宝された。",
-		'zh-tw': "汗水帶著像是經過熬煮的水果甜味，在過去甜食尚少 的時代相當受到人們珍視。"
+		'zh-tw': "汗水帶著像是經過熬煮的水果甜味，在過去甜食尚少 的時代相當受到人們珍視。",
+		th: "เพราะเหงื่อหวานราวกับน้ำผลไม้ที่เคี่ยว เลยมีค่ามากในอดีตที่ขนมยังมีน้อย",
+		id: "Bounsweet sangat bermanfaat pada zaman dahulu ketika pemanis masih sedikit karena ia mengeluarkan keringat manis yang rasanya seperti buah yang dimasak."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "ふむ",
-			'zh-tw': "踩"
+			'zh-tw': "踩",
+			th: "เหยียบ",
+			id: "Menginjak"
 		},
 
 		damage: 10
@@ -37,14 +43,18 @@ const card: Card = {
 
 		name: {
 			ja: "とつげき",
-			'zh-tw': "突擊"
+			'zh-tw': "突擊",
+			th: "ประจัญบาน",
+			id: "Menyerang"
 		},
 
 		damage: 30,
 
 		effect: {
 			ja: "このポケモンにも10ダメージ。",
-			'zh-tw': "這隻寶可夢也受到10點傷害。"
+			'zh-tw': "這隻寶可夢也受到10點傷害。",
+			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
 		}
 	}],
 

@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ミガルーサ",
-		'zh-tw': "輕身鱈"
+		'zh-tw': "輕身鱈",
+		th: "มิกาลูซา",
+		id: "Veluza"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -17,7 +19,9 @@ const card: Card = {
 
 	description: {
 		ja: "無駄な 肉を 捨て去ると 心が 研ぎ澄まされ サイコパワーが 上がる。 贅肉は 淡白だが 美味しい。",
-		'zh-tw': "捨棄不必要的肉，能使其心靈受到磨練，精神力量得以提升。 贅肉滋味清淡，但卻相當可口。"
+		'zh-tw': "捨棄不必要的肉，能使其心靈受到磨練，精神力量得以提升。 贅肉滋味清淡，但卻相當可口。",
+		th: "จิตใจจะถูกขัดเกลาและพลังจิตจะสูงขึ้นเมื่อละทิ้งกายเนื้อที่ไม่จำเป็น ไขมันส่วนเกินสีขาวอ่อนนั้นมีรสชาติดี",
+		id: "Begitu membuang daging yang tidak dibutuhkan, hati Veluza menjadi terasah dan kekuatan psikokinesisnya meningkat. Daging berlebih Pokémon ini hambar namun lezat."
 	},
 
 	stage: "Basic",
@@ -27,7 +31,9 @@ const card: Card = {
 
 		name: {
 			ja: "ぶつかる",
-			'zh-tw': "衝撞"
+			'zh-tw': "衝撞",
+			th: "กระแทก",
+			id: "Menyeruduk"
 		},
 
 		damage: 20
@@ -36,14 +42,18 @@ const card: Card = {
 
 		name: {
 			ja: "スリムスクリュー",
-			'zh-tw': "纖細螺旋"
+			'zh-tw': "纖細螺旋",
+			th: "สลิมสกรู",
+			id: "Slim Screw"
 		},
 
 		damage: 120,
 
 		effect: {
 			ja: "このワザは、自分の手札が1枚もないなら、エネルギー1個で使える。",
-			'zh-tw': "若自己1張手牌都沒有，則這個招式只需要1個【水】能量即可使用。"
+			'zh-tw': "若自己1張手牌都沒有，則這個招式只需要1個【水】能量即可使用。",
+			th: "ท่าต่อสู้นี้ ถ้าบนมือฝ่ายเราไม่มีการ์ดเลยแม้แต่ 1 ใบ สามารถใช้ได้ด้วยพลังงาน[น้ำ] 1 ลูก",
+			id: "Jika Kartu Pegangan sendiri tidak tersisa 1 lembar pun, serangan ini dapat digunakan dengan 1 Energi {Air}."
 		}
 	}],
 

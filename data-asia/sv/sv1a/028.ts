@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "クワッス",
-		'zh-tw': "潤水鴨"
+		'zh-tw': "潤水鴨",
+		th: "แคว็กซ์",
+		id: "Quaxly"
 	},
 
 	illustrator: "Naoki Saito",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "昔 遠い 土地から やって来て 棲みついた。 羽から 分泌する ジェルは 水と 汚れを 弾く。",
-		'zh-tw': "很久以前從遠方來到了這裡棲息。羽毛分泌出的 凝膠有防水和防污的效果。"
+		'zh-tw': "很久以前從遠方來到了這裡棲息。羽毛分泌出的 凝膠有防水和防污的效果。",
+		th: "มาจากดินแดนห่างไกลตั้งแต่ในสมัยอดีต เจลที่หลั่งจากปีกจะขับน้ำและสิ่งสกปรกออก",
+		id: "Dulu, Quaxly bermigrasi dari daerah yang jauh. Gel yang disekresi dari bulunya menangkis air dan kotoran."
 	},
 
 	stage: "Basic",
@@ -28,14 +32,18 @@ const card: Card = {
 
 		name: {
 			ja: "とつげき",
-			'zh-tw': "突擊"
+			'zh-tw': "突擊",
+			th: "ประจัญบาน",
+			id: "Menyerang"
 		},
 
 		damage: 30,
 
 		effect: {
 			ja: "このポケモンにも10ダメージ。",
-			'zh-tw': "這隻寶可夢也受到10點傷害。"
+			'zh-tw': "這隻寶可夢也受到10點傷害。",
+			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
 		}
 	}],
 

@@ -6,10 +6,12 @@ const card: Card = {
 
 	name: {
 		ja: "ゴチム",
-		'zh-tw': "哥德寶寶"
+		'zh-tw': "哥德寶寶",
+		th: "โกธิมู",
+		id: "Gothita"
 	},
 
-	illustrator: "313",
+	illustrator: "0313",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [574],
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "いつもは とっても 無邪気。 見えない なにかを 見ているときは 瞬きも せずに ずっと 無言。",
-		'zh-tw': "總是一副天真無邪的樣子。看見肉眼看不見的東西時， 就會眼都不眨地一語不發。"
+		'zh-tw': "總是一副天真無邪的樣子。看見肉眼看不見的東西時， 就會眼都不眨地一語不發。",
+		th: "ปกติดูไร้เดียงสามาก ตอนที่มองดูอะไรที่มองไม่เห็นอยู่จะนิ่งเงียบ ไม่แม้แต่จะกะพริบตา",
+		id: "Biasanya Gothita bertingkah sangat polos. Pokémon ini akan terus diam tanpa berkedip saat melihat sesuatu yang tak kasat mata."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "はたく",
-			'zh-tw': "拍擊"
+			'zh-tw': "拍擊",
+			th: "ปัด",
+			id: "Tumbuk"
 		},
 
 		damage: 10
@@ -37,14 +43,18 @@ const card: Card = {
 
 		name: {
 			ja: "ぶきみなねんぱ",
-			'zh-tw': "不祥波動"
+			'zh-tw': "不祥波動",
+			th: "คลื่นแปลกประหลาด",
+			id: "Telepati Menyeramkan"
 		},
 
 		damage: 20,
 
 		effect: {
 			ja: "相手のバトルポケモンをこんらんにする。",
-			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
+			'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
+			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
+			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		}
 	}],
 

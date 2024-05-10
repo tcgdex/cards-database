@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "ルクシオ",
-		'zh-tw': "勒克貓"
+		'zh-tw': "勒克貓",
+		id: "Luxio"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,7 +18,8 @@ const card: Card = {
 
 	description: {
 		ja: "鋭い ツメの 先には 強い 電気が 流れており ほんの少し かするだけで 敵を 気絶させる。",
-		'zh-tw': "在銳利的爪子尖端有強烈的電流流過，只要稍微擦到， 就能讓敵人暈厥。"
+		'zh-tw': "在銳利的爪子尖端有強烈的電流流過，只要稍微擦到， 就能讓敵人暈厥。",
+		id: "Di ujung cakar tajam Luxio, mengalir arus listrik yang sangat kuat sehingga dapat membuat musuhnya pingsan hanya dengan sedikit goresan cakarnya."
 	},
 
 	stage: "Stage1",
@@ -27,7 +29,8 @@ const card: Card = {
 
 		name: {
 			ja: "エレキック",
-			'zh-tw': "電氣踢"
+			'zh-tw': "電氣踢",
+			id: "Electric Kick"
 		},
 
 		damage: 30
@@ -36,7 +39,8 @@ const card: Card = {
 
 		name: {
 			ja: "ヘッドボルト",
-			'zh-tw': "伏特頭擊"
+			'zh-tw': "伏特頭擊",
+			id: "Head Bolt"
 		},
 
 		damage: 60

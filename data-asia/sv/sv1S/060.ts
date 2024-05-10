@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ブロロン",
-		'zh-tw': "噗隆隆"
+		'zh-tw': "噗隆隆",
+		th: "โบรรอน",
+		id: "Varoom"
 	},
 
 	illustrator: "nagimiso",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "スクラップ工場に 放置された エンジンに 謎の 毒ポケモンが 入り込んで 生まれたと 言われる。",
-		'zh-tw': "據說牠是神秘的毒寶可夢鑽進了被放置在廢鐵工廠 的引擎裡而誕生的。"
+		'zh-tw': "據說牠是神秘的毒寶可夢鑽進了被放置在廢鐵工廠 的引擎裡而誕生的。",
+		th: "ว่ากันว่าเกิดจากการที่โปเกมอนพิษปริศนาเข้าไปในเครื่องยนต์ที่ถูกทิ้งไว้ในโรงงานเศษเหล็ก",
+		id: "Dikatakan bahwa Varoom terlahir dari Pokémon racun misterius yang masuk ke dalam mesin terbengkalai di pabrik besi bekas."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "ぶちかます",
-			'zh-tw': "頭突"
+			'zh-tw': "頭突",
+			th: "ตบหนัก",
+			id: "Hantaman Penuh Tenaga"
 		},
 
 		damage: 60

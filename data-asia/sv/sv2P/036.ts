@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ポットデス",
-		'zh-tw': "怖思壺"
+		'zh-tw': "怖思壺",
+		th: "พอตเดธ",
+		id: "Polteageist"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "紅茶で できた 体は クセは あるものの 美味しいが 飲みすぎると 死んでしまうことも。",
-		'zh-tw': "以紅茶構成的身體風味獨特卻不失美味， 但飲用過量可能致死。"
+		'zh-tw': "以紅茶構成的身體風味獨特卻不失美味， 但飲用過量可能致死。",
+		th: "ร่างกายที่เป็นชานั้นมีความเป็นเอกลักษณ์และรสชาติดี แต่หากดื่มมากไปอาจตายได้",
+		id: "Tubuh Polteageist yang terbuat dari teh yang enak namun memiliki rasa yang kuat, terkadang mematikan jika diminum terlalu banyak."
 	},
 
 	stage: "Stage1",
@@ -28,24 +32,32 @@ const card: Card = {
 
 		name: {
 			ja: "こっとうあつめ",
-			'zh-tw': "集古董"
+			'zh-tw': "集古董",
+			th: "สะสมของโบราณ",
+			id: "Mengumpulkan Barang Antik"
 		},
 
 		effect: {
 			ja: "自分のトラッシュから「グッズ」と「ポケモンのどうぐ」を合計2枚まで選び、相手に見せて、手札に加える。",
-			'zh-tw': "從自己的棄牌區選擇「物品」卡與「寶可夢道具」卡合計最多2張，在給對手看過後加入手牌。"
+			'zh-tw': "從自己的棄牌區選擇「物品」卡與「寶可夢道具」卡合計最多2張，在給對手看過後加入手牌。",
+			th: "เลือกการ์ด [ไอเท็ม] และ การ์ด [ไอเท็มติดโปเกมอน] รวมกันได้สูงสุด 2 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ",
+			id: "Pilih paling banyak total 2 lembar Item dan Pokémon Tool dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
 			ja: "おちゃをそそぐ",
-			'zh-tw': "倒茶"
+			'zh-tw': "倒茶",
+			th: "รินชา",
+			id: "Menuangkan Teh"
 		},
 
 		effect: {
 			ja: "相手のバトルポケモンに、ダメカンを5個のせる。",
-			'zh-tw': "在對手的戰鬥寶可夢身上放置5個傷害指示物。"
+			'zh-tw': "在對手的戰鬥寶可夢身上放置5個傷害指示物。",
+			th: "วางตัวนับแดเมจ 5 ตัว บนโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม",
+			id: "Letakkan 5 Token Kerusakan pada Pokémon Bertarung lawan."
 		}
 	}],
 

@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "メェークル",
-		'zh-tw': "坐騎小羊"
+		'zh-tw': "坐騎小羊",
+		th: "เมเคิล",
+		id: "Skiddo"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "最近まで 山岳で 暮らす 人たちは メェークルの 背中に 乗って 山道を 移動していた。",
-		'zh-tw': "一直到最近為止，都還有山岳的住民乘在坐騎小羊 的背上，在山路上移動。"
+		'zh-tw': "一直到最近為止，都還有山岳的住民乘在坐騎小羊 的背上，在山路上移動。",
+		th: "ผู้คนที่อาศัยบนภูเขาจะขี่หลังเมเคิลเพื่อเดินทางตามทางบนเขาจนถึงเมื่อไม่นานมานี้",
+		id: "Hingga dewasa ini, orang-orang yang hidup di pegunungan menunggangi punggung Skiddo dan menelusuri jalan gunung."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "つるのムチ",
-			'zh-tw': "藤鞭"
+			'zh-tw': "藤鞭",
+			th: "แส้เถาวัลย์",
+			id: "Cambuk Jalar"
 		},
 
 		damage: 10
@@ -37,7 +43,9 @@ const card: Card = {
 
 		name: {
 			ja: "けとばす",
-			'zh-tw': "踢飛"
+			'zh-tw': "踢飛",
+			th: "ดีด",
+			id: "Tendangan Penghempas"
 		},
 
 		damage: 20

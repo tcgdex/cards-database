@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "ナンジャモ",
-		'zh-tw': "奇樹"
+		'zh-tw': "奇樹",
+		id: "Mistika"
 	},
 
 	illustrator: "hanabushi",
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		ja: "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、それぞれ自分のサイドの残り枚数ぶん、山札を引く。",
-		'zh-tw': "雙方玩家各將自己的手牌全部翻回反面並重洗，放回牌庫下方。然後，各從牌庫抽出與自己剩餘獎賞卡的張數相同數量的卡。"
+		'zh-tw': "雙方玩家各將自己的手牌全部翻回反面並重洗，放回牌庫下方。然後，各從牌庫抽出與自己剩餘獎賞卡的張數相同數量的卡。",
+		id: "Kedua pemain masing-masing mengocok semua Kartu Pegangan sendiri dengan sisi depan menghadap ke bawah, lalu mengembalikannya ke bawah Deck. Setelah itu, kedua pemain masing-masing mengambil kartu dari atas Deck untuk tiap lembar sisa Kartu Point sendiri."
 	},
 
 	trainerType: "Supporter",

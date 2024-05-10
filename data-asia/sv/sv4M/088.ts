@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テツノカイナex"
+		ja: "テツノカイナex",
+		th: "แขนเหล็กex"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -19,7 +20,8 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "アームプレス"
+			ja: "アームプレス",
+			th: "อาร์มเพรส"
 		},
 
 		damage: 160
@@ -27,13 +29,15 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ごっつあんプリファイ"
+			ja: "ごっつあんプリファイ",
+			th: "เครื่องขยายขอบใจหลาย"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを1枚多くとる。"
+			ja: "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを1枚多くとる。",
+			th: "ถ้าโปเกมอนฝ่ายตรงข้าม[หมดสภาพ] ด้วยแดเมจของท่าต่อสู้นี้แล้ว หยิบการ์ดรางวัลเพิ่ม 1 ใบ"
 		}
 	}],
 
@@ -42,7 +46,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "G"
 }
 
 export default card

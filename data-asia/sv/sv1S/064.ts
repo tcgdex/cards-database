@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ムクバード",
-		'zh-tw': "姆克鳥"
+		'zh-tw': "姆克鳥",
+		th: "มุคูเบิร์ด",
+		id: "Staravia"
 	},
 
 	illustrator: "kantaro",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "自分の 弱さを わきまえており いつも 群れで 暮らしている。 １匹になると やかましく 鳴く。",
-		'zh-tw': "心知肚明自己的弱小，所以平時都是群體生活。 單獨行動時會發出吵鬧的叫聲。"
+		'zh-tw': "心知肚明自己的弱小，所以平時都是群體生活。 單獨行動時會發出吵鬧的叫聲。",
+		th: "เพราะรู้จุดอ่อนของตัวเองจึงอยู่เป็นฝูงเสมอ พออยู่ตัวเดียวจะส่งเสียงดังโหวกเหวก",
+		id: "Karena sadar akan kelemahannya, Staravia selalu hidup bersama kelompoknya. Pokémon ini akan berciap kencang ketika sendirian."
 	},
 
 	stage: "Stage1",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "つばさでうつ",
-			'zh-tw': "翅膀攻擊"
+			'zh-tw': "翅膀攻擊",
+			th: "โจมตีด้วยปีก",
+			id: "Pukulan Sayap"
 		},
 
 		damage: 40
@@ -37,7 +43,9 @@ const card: Card = {
 
 		name: {
 			ja: "スピードひこう",
-			'zh-tw': "高速飛行"
+			'zh-tw': "高速飛行",
+			th: "บินเร็วจี๋",
+			id: "Terbang Cepat"
 		},
 
 		damage: 80

@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドダイトスex"
+		ja: "ドダイトスex",
+		'zh-tw': "土台龜ex",
+		th: "โดไดโทสex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -20,25 +22,33 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "もりのこうしん"
+			ja: "もりのこうしん",
+			'zh-tw': "森林行進",
+			th: "ป่าเดินแถว"
 		},
 
 		damage: "30×",
 
 		effect: {
-			ja: "自分の場のポケモンの数×30ダメージ。"
+			ja: "自分の場のポケモンの数×30ダメージ。",
+			'zh-tw': "造成自己的場上【草】寶可夢的數量×30點傷害。",
+			th: "แดเมจจะเท่ากับจำนวนโปเกมอน[หญ้า]บนกระดานฝ่ายเรา x30"
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ジャングルハンマー"
+			ja: "ジャングルハンマー",
+			'zh-tw': "叢林之錘",
+			th: "จังเกิลแฮมเมอร์"
 		},
 
 		damage: 150,
 
 		effect: {
-			ja: "このポケモンのHPを「50」回復する。"
+			ja: "このポケモンのHPを「50」回復する。",
+			'zh-tw': "將這隻寶可夢恢復「50」HP。",
+			th: "ฟื้นฟู HP ของโปเกมอนนี้ [50]"
 		}
 	}],
 
@@ -47,7 +57,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "H"
 }
 
 export default card

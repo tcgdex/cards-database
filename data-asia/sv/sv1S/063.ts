@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ムックル",
-		'zh-tw': "姆克兒"
+		'zh-tw': "姆克兒",
+		th: "มุคคูรุ",
+		id: "Starly"
 	},
 
 	illustrator: "Yuka Morii",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "虫ポケモンを 狙って 野山を 大勢の 群れで 飛びまわる。 鳴き声が とても やかましい。",
-		'zh-tw': "為了獵捕蟲寶可夢，以龐大的群體在山野間飛來飛去。 叫聲非常吵鬧。"
+		'zh-tw': "為了獵捕蟲寶可夢，以龐大的群體在山野間飛來飛去。 叫聲非常吵鬧。",
+		th: "จะบินเป็นฝูงใหญ่ตามป่าเขาเพื่อหมายตาโปเกมอนแมลง เสียงร้องนั้นหนวกหูมาก",
+		id: "Starly terbang berkeliling gunung dan padang rumput secara berkelompok dalam jumlah banyak untuk memburu Pokémon serangga. Bunyi ciapnya sangat bising."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "はばたく",
-			'zh-tw': "羽擊"
+			'zh-tw': "羽擊",
+			th: "ตีปีก",
+			id: "Mengepak"
 		},
 
 		damage: 20

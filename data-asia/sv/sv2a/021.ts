@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "オニスズメ",
-		'zh-tw': "烈雀"
+		'zh-tw': "烈雀",
+		th: "โอนิสึซึเมะ",
+		id: "Spearow"
 	},
 
 	illustrator: "Gemi",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "羽が 短く 長い 距離を 飛べない。 せわしなく 動き まわって むしポケモンを ついばむ。",
-		'zh-tw': "翅膀很短，無法長距離飛行。 總是不停地四處跳來跳去， 忙著啄食蟲寶可夢。"
+		'zh-tw': "翅膀很短，無法長距離飛行。 總是不停地四處跳來跳去， 忙著啄食蟲寶可夢。",
+		th: "ด้วยปีกที่สั้นทำให้บินได้ไม่ไกล มักขยับไปมาอย่างลุกลี้ลุกลนจิกกินโปเกมอนแมลง",
+		id: "Spearow tidak dapat terbang jauh karena sayapnya pendek. Pokémon ini bergerak ke sekeliling dengan tergesa-gesa untuk mencari dan mematuk Pokémon serangga."
 	},
 
 	stage: "Basic",
@@ -28,12 +32,16 @@ const card: Card = {
 
 		name: {
 			ja: "ぬけがけしんか",
-			'zh-tw': "搶先進化"
+			'zh-tw': "搶先進化",
+			th: "ชิงวิวัฒนาการ",
+			id: "Evolusi Mencuri Start"
 		},
 
 		effect: {
 			ja: "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。",
-			'zh-tw': "若在後攻玩家的最初回合，則這隻寶可夢就算剛使出也可進化。"
+			'zh-tw': "若在後攻玩家的最初回合，則這隻寶可夢就算剛使出也可進化。",
+			th: "โปเกมอนนี้ ถ้าเป็นเทิร์นแรกสุดของผู้เล่นฝ่ายเล่นทีหลัง แม้จะเพิ่งออกมาก็สามารถวิวัฒนาการได้",
+			id: "Jika ini adalah giliran pertama Pemain Kedua, Pokémon ini dapat dievolusikan meskipun baru dimasukkan."
 		}
 	}],
 
@@ -42,7 +50,9 @@ const card: Card = {
 
 		name: {
 			ja: "スピードひこう",
-			'zh-tw': "高速飛行"
+			'zh-tw': "高速飛行",
+			th: "บินเร็วจี๋",
+			id: "Terbang Cepat"
 		},
 
 		damage: 10

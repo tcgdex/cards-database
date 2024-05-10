@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "パルデア ウパー",
-		'zh-tw': "帕底亞 烏波"
+		'zh-tw': "帕底亞 烏波",
+		th: "พัลเดีย อูปา",
+		id: "Paldean Wooper"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "縄張り争いに 敗れて 陸で 暮らすうちに 毒の 粘膜で 体を 保護するように 変わった。",
-		'zh-tw': "因搶輸地盤而到陸地上生活，久而久之變成了是 用帶毒的黏膜來保護身體。"
+		'zh-tw': "因搶輸地盤而到陸地上生活，久而久之變成了是 用帶毒的黏膜來保護身體。",
+		th: "หลังจากที่แพ้สงครามแย่งชิงอาณาเขตจนต้องมาอาศัยอยู่บนบก ก็ปรับตัวให้มีเมือกพิษปกป้องร่างกาย",
+		id: "Membran beracun melindungi tubuh Wooper yang hidup di darat setelah kalah dalam pertarungan perebutan wilayah teritorial."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "ふむ",
-			'zh-tw': "踩"
+			'zh-tw': "踩",
+			th: "เหยียบ",
+			id: "Menginjak"
 		},
 
 		damage: 10
@@ -37,7 +43,9 @@ const card: Card = {
 
 		name: {
 			ja: "やんちゃげり",
-			'zh-tw': "調皮踢"
+			'zh-tw': "調皮踢",
+			th: "เตะแกล้ง",
+			id: "Tendangan Nakal"
 		},
 
 		damage: 20

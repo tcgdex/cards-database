@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "パピモッチ",
-		'zh-tw': "狗仔包"
+		'zh-tw': "狗仔包",
+		id: "Fidough"
 	},
 
 	illustrator: "sowsow",
@@ -17,7 +18,8 @@ const card: Card = {
 
 	description: {
 		ja: "しっとり すべすべの 触り心地。 吐息に 含まれている 酵母で まわりのものを 発酵させる。",
-		'zh-tw': "摸起來既濕潤又絲滑。吐出的氣息裡含有酵母， 可以使周圍的東西發酵。"
+		'zh-tw': "摸起來既濕潤又絲滑。吐出的氣息裡含有酵母， 可以使周圍的東西發酵。",
+		id: "Tubuh Fidough empuk, halus, dan nyaman dipegang. Napasnya yang mengandung ragi dapat memfermentasikan benda-benda yang ada di sekitarnya."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 
 		name: {
 			ja: "うしろげり",
-			'zh-tw': "後踢"
+			'zh-tw': "後踢",
+			id: "Tendangan Belakang"
 		},
 
 		damage: 20

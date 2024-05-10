@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "ネモ",
-		'zh-tw': "妮莫"
+		'zh-tw': "妮莫",
+		id: "Nemola"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		ja: "自分の山札を3枚引く。",
-		'zh-tw': "從自己的牌庫抽出3張卡。"
+		'zh-tw': "從自己的牌庫抽出3張卡。",
+		id: "Ambil 3 kartu dari atas Deck sendiri."
 	},
 
 	trainerType: "Supporter",

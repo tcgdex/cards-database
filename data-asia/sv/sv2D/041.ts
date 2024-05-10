@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ドクロッグ",
-		'zh-tw': "毒骷蛙"
+		'zh-tw': "毒骷蛙",
+		th: "โดคูร็อก",
+		id: "Toxicroak"
 	},
 
 	illustrator: "Yuya Oka",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "柔らかい 体で 相手の 攻撃を かわしながら ふところに 飛び込み 毒の トゲを 突き刺す。",
-		'zh-tw': "會一邊靠柔軟的身體閃避攻擊，一邊往對手的懷裡衝過去， 然後用帶毒的尖刺猛戳。"
+		'zh-tw': "會一邊靠柔軟的身體閃避攻擊，一邊往對手的懷裡衝過去， 然後用帶毒的尖刺猛戳。",
+		th: "ใช้ความยืดหยุ่นของร่างกายในการหลบหลีกการโจมตีของศัตรูพลางหาโอกาสเข้าประชิด แล้วใช้เล็บพิษแทง",
+		id: "Toxicroak lompat mendekat sambil menghindari serangan lawan dengan tubuhnya yang fleksibel, lalu menusuk lawan dengan duri beracun."
 	},
 
 	stage: "Stage1",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "つきさす",
-			'zh-tw': "突刺"
+			'zh-tw': "突刺",
+			th: "แทง",
+			id: "Melubangi"
 		},
 
 		damage: 30
@@ -37,14 +43,18 @@ const card: Card = {
 
 		name: {
 			ja: "こぶしのトゲ",
-			'zh-tw': "拳頭刺"
+			'zh-tw': "拳頭刺",
+			th: "หมัดหนาม",
+			id: "Duri Tinju"
 		},
 
 		damage: 60,
 
 		effect: {
 			ja: "相手のバトルポケモンをどくにする。",
-			'zh-tw': "將對手的戰鬥寶可夢【中毒】。"
+			'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
+			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]",
+			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
 		}
 	}],
 

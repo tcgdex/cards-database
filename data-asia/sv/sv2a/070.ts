@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ウツドン",
-		'zh-tw': "口呆花"
+		'zh-tw': "口呆花",
+		th: "อุซึดง",
+		id: "Weepinbell"
 	},
 
 	illustrator: "Jerky",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "まず 毒の粉を 吐き 相手の 動きを 止めてしまってから 溶解液で とどめを 刺す。",
-		'zh-tw': "會先吐出有毒的粉末， 讓對手停止行動後， 再用溶解液解決對手。"
+		'zh-tw': "會先吐出有毒的粉末， 讓對手停止行動後， 再用溶解液解決對手。",
+		th: "ก่อนอื่นจะพ่นผงพิษหยุดการเคลื่อนไหวของฝ่ายตรงข้ามไว้ก่อน แล้วปิดท้ายด้วยของเหลวทำละลาย",
+		id: "Weepinbell terlebih dahulu menyemburkan bubuk beracun untuk menghentikan gerakan lawan, lalu menghabisinya menggunakan cairan pelebur."
 	},
 
 	stage: "Stage1",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "いあいぎり",
-			'zh-tw': "居合斬"
+			'zh-tw': "居合斬",
+			th: "ตัด",
+			id: "Potongan Iai"
 		},
 
 		damage: 30
@@ -37,7 +43,9 @@ const card: Card = {
 
 		name: {
 			ja: "しるをとばす",
-			'zh-tw': "噴汁"
+			'zh-tw': "噴汁",
+			th: "ฉีดพ่นน้ำ",
+			id: "Menyemprotkan Getah"
 		},
 
 		damage: 50

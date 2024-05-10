@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "スリープ",
-		'zh-tw': "催眠貘"
+		'zh-tw': "催眠貘",
+		th: "สลีป",
+		id: "Drowzee"
 	},
 
 	illustrator: "Mousho",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "食べた夢は 全部 覚えている。 子どもの 夢のほうが 美味しいので めったに 大人の 夢は食べない。",
-		'zh-tw': "能記住所有自己吃下的夢。由於小孩的夢更加美味， 因此幾乎不吃大人的夢。"
+		'zh-tw': "能記住所有自己吃下的夢。由於小孩的夢更加美味， 因此幾乎不吃大人的夢。",
+		th: "จำฝันที่กินเข้าไปได้หมด ไม่ค่อยกินฝันของผู้ใหญ่เพราะฝันของเด็กอร่อยกว่า",
+		id: "Drowzee mengingat semua mimpi yang dimakannya. Pokémon ini jarang memakan mimpi orang dewasa karena mimpi anak-anak rasanya lebih lezat."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "しねんのずつき",
-			'zh-tw': "意念頭錘"
+			'zh-tw': "意念頭錘",
+			th: "ท่าโขกหัวพลังจิต",
+			id: "Sundulan Spiritual"
 		},
 
 		damage: 30

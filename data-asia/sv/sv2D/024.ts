@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ズピカ",
-		'zh-tw': "光蚪仔"
+		'zh-tw': "光蚪仔",
+		th: "ซุพีคา",
+		id: "Tadbulb"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "尻尾を 振って 発電する。 危険を 感じると 頭を 点滅させて 仲間に 伝える。",
-		'zh-tw': "會搖尾巴來發電。感覺到有危險時， 會閃爍頭部通知夥伴。"
+		'zh-tw': "會搖尾巴來發電。感覺到有危險時， 會閃爍頭部通知夥伴。",
+		th: "แกว่งหางเพื่อผลิตไฟฟ้า เมื่อรู้สึกถึงอันตรายจะทำให้ไฟบนหัวกะพริบเพื่อแจ้งพวกพ้อง",
+		id: "Tadbulb menghasilkan listrik dengan menggoyangkan ekornya. Ketika merasakan adanya bahaya, Pokémon ini memberitahukan sesamanya dengan mengedipkan cahaya kepalanya."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "ふむ",
-			'zh-tw': "踩"
+			'zh-tw': "踩",
+			th: "เหยียบ",
+			id: "Menginjak"
 		},
 
 		damage: 10
@@ -37,7 +43,9 @@ const card: Card = {
 
 		name: {
 			ja: "バチバチ",
-			'zh-tw': "劈哩啪啦"
+			'zh-tw': "劈哩啪啦",
+			th: "ประกายไฟ",
+			id: "Berpijar-pijar"
 		},
 
 		damage: 30

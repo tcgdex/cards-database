@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ワッカネズミ",
-		'zh-tw': "一對鼠"
+		'zh-tw': "一對鼠",
+		th: "วักคาเนซูมิ",
+		id: "Tandemaus"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "どんなときでも ２匹は 一緒。 見つけた エサは ぴったりと 半分こして 仲良く 食べる。",
-		'zh-tw': "無論何時２隻都待在一起。會把尋獲的食物均分成兩半， 親密無間地一同進食。"
+		'zh-tw': "無論何時２隻都待在一起。會把尋獲的食物均分成兩半， 親密無間地一同進食。",
+		th: "ไม่ว่าเมื่อไหร่ก็จะอยู่ด้วยกัน 2 ตัว เมื่อพบอาหารก็จะแบ่งเท่า ๆ กัน และกินด้วยกันอย่างสนิทสนม",
+		id: "Tandemaus selalu berdua pada saat apa pun. Pokémon ini membagi dua dan memakan bersama makanan yang ditemukannya."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "かじる",
-			'zh-tw': "咬"
+			'zh-tw': "咬",
+			th: "แทะ",
+			id: "Menggerogot"
 		},
 
 		damage: 20

@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "ビリリダマ",
-		'zh-tw': "霹靂電球"
+		'zh-tw': "霹靂電球",
+		id: "Voltorb"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -17,7 +18,8 @@ const card: Card = {
 
 	description: {
 		ja: "転がって 移動するので 地面が デコボコだと ショックで 爆発してしまう。",
-		'zh-tw': "靠著翻滾身體來移動，如果地面凹凸不平， 就會受到衝擊而爆炸。"
+		'zh-tw': "靠著翻滾身體來移動，如果地面凹凸不平， 就會受到衝擊而爆炸。",
+		id: "Karena Voltorb berpindah-pindah dengan bergelinding, Pokémon ini akan meledak karena guncangan ketika melewati tanah yang tidak rata."
 	},
 
 	stage: "Basic",
@@ -27,14 +29,16 @@ const card: Card = {
 
 		name: {
 			ja: "ローリングアタック",
-			'zh-tw': "回轉攻擊"
+			'zh-tw': "回轉攻擊",
+			id: "Rolling Attack"
 		},
 
 		damage: "10+",
 
 		effect: {
 			ja: "コインを1回投げオモテなら、20ダメージ追加。",
-			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。"
+			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
+			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20."
 		}
 	}],
 

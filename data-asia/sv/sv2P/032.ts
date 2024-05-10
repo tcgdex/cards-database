@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ゴチミル",
-		'zh-tw': "哥德小童"
+		'zh-tw': "哥德小童",
+		th: "โกธิมิรุ",
+		id: "Gothorita"
 	},
 
 	illustrator: "Aya Kusube",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "催眠術で 子どもを 眠らせ 連れ去ってしまう。 星明りが きらめく 夜には 注意しろ。",
-		'zh-tw': "一定要小心星光閃閃的夜晚。因為牠會帶走被牠施了 催眠術而睡著的小孩。"
+		'zh-tw': "一定要小心星光閃閃的夜晚。因為牠會帶走被牠施了 催眠術而睡著的小孩。",
+		th: "จะสะกดจิตให้เด็กหลับแล้วพาตัวไป เพราะฉะนั้นให้ระวังคืนที่ดาวระยิบระยับให้ดี",
+		id: "Gothorita menghipnotis anak-anak agar tertidur lalu menculik mereka. Berhati-hatilah pada malam saat bintang bersinar."
 	},
 
 	stage: "Stage1",
@@ -28,21 +32,27 @@ const card: Card = {
 
 		name: {
 			ja: "サイコトリップ",
-			'zh-tw': "精神歪曲"
+			'zh-tw': "精神歪曲",
+			th: "ไซโคทริป",
+			id: "Psychotrip"
 		},
 
 		damage: 20,
 
 		effect: {
 			ja: "相手のバトルポケモンをこんらんにする。",
-			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
+			'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
+			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
+			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
 			ja: "ちょうねんりき",
-			'zh-tw': "超念力"
+			'zh-tw': "超念力",
+			th: "ซูเปอร์โทรจิต",
+			id: "Psikokinesis Super"
 		},
 
 		damage: 40

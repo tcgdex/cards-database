@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "グレッグル",
-		'zh-tw': "不良蛙"
+		'zh-tw': "不良蛙",
+		th: "กูเรกกรู",
+		id: "Croagunk"
 	},
 
 	illustrator: "Shiburingaru",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "毒袋を ふくらませて 鳴らし 辺りに 不気味な 音を 響かせ 相手が ひるむと どくづきをする。",
-		'zh-tw': "會鼓起毒囊鳴叫。讓四周響起詭異的聲音， 等對手畏縮，便施以毒擊。"
+		'zh-tw': "會鼓起毒囊鳴叫。讓四周響起詭異的聲音， 等對手畏縮，便施以毒擊。",
+		th: "จะทำให้ถุงพิษพองตัวแล้วส่งเสียงก้องที่น่าสะพรึงกลัวไปรอบ ๆ บริเวณ พอฝ่ายตรงข้ามรู้สึกหวาดกลัวก็จะโจมตีด้วยพิษ",
+		id: "Croagunk menggelembungkan dan membunyikan kantong racunnya untuk mengeluarkan suara mengerikan ke sekelilingnya dan ketika lawan ketakutan, Pokémon ini menyerang dengan tusukan beracun."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "たたく",
-			'zh-tw': "敲擊"
+			'zh-tw': "敲擊",
+			th: "ตี",
+			id: "Menghantam"
 		},
 
 		damage: 10
@@ -37,7 +43,9 @@ const card: Card = {
 
 		name: {
 			ja: "はりたおす",
-			'zh-tw': "擊倒"
+			'zh-tw': "擊倒",
+			th: "ผลักล้ม",
+			id: "Tumbangkan"
 		},
 
 		damage: 40

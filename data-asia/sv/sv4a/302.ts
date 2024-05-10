@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "オンバット",
-		'zh-tw': "嗡蝠"
+		'zh-tw': "嗡蝠",
+		id: "Noibat"
 	},
 
 	illustrator: "Nelnal",
@@ -17,7 +18,8 @@ const card: Card = {
 
 	description: {
 		ja: "大きな 耳から 超音波を 出して エサの 果物を 探す。 カジッチュを エサと 間違える。",
-		'zh-tw': "從大大的耳朵發出超音波，尋找水果來填飽肚子。 會把啃果蟲誤認成食物。"
+		'zh-tw': "從大大的耳朵發出超音波，尋找水果來填飽肚子。 會把啃果蟲誤認成食物。",
+		id: "Noibat mengeluarkan gelombang ultrasonik dari kuping besarnya untuk mencari buah makanannya. Ia keliru mengira Applin sebagai makanannya."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 
 		name: {
 			ja: "かぜおこし",
-			'zh-tw': "起風"
+			'zh-tw': "起風",
+			id: "Hembusan Angin"
 		},
 
 		damage: 40

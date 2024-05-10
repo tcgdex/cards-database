@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "コマタナ",
-		'zh-tw': "駒刀小兵"
+		'zh-tw': "駒刀小兵",
+		th: "โคมาทานา",
+		id: "Pawniard"
 	},
 
 	illustrator: "sowsow",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "強敵にも 恐れず 挑む。 いざとなると 相手に しがみつき 体中の 刃で 貫く。",
-		'zh-tw': "遇上強敵也是不畏挑戰。在緊要關頭時會緊緊抓住對手， 以身上的刀刃將其刺穿。"
+		'zh-tw': "遇上強敵也是不畏挑戰。在緊要關頭時會緊緊抓住對手， 以身上的刀刃將其刺穿。",
+		th: "ต่อกรกับศัตรูที่แข็งแกร่งอย่างไม่เกรงกลัว พอถึงยามคับขันจะเกาะติดศัตรูแน่นแล้วใช้ใบมีดทั่วทั้งตัวแทง",
+		id: "Pawniard tidak takut menantang lawan kuat sekalipun. Ketika waktunya tiba, Pokémon ini mencengkeram lawan dan menusuknya dengan pedang di tubuhnya."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "ひっかく",
-			'zh-tw': "抓"
+			'zh-tw': "抓",
+			th: "ข่วน",
+			id: "Menggaruk"
 		},
 
 		damage: 10
@@ -37,7 +43,9 @@ const card: Card = {
 
 		name: {
 			ja: "つきさす",
-			'zh-tw': "突刺"
+			'zh-tw': "突刺",
+			th: "แทง",
+			id: "Melubangi"
 		},
 
 		damage: 20

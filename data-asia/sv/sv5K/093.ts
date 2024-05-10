@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウガツホムラex"
+		ja: "ウガツホムラex",
+		'zh-tw': "破空焰ex",
+		th: "เพลิงทะลวงex"
 	},
 
 	illustrator: "Teeziro",
@@ -19,7 +21,9 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "ヒートブラスト"
+			ja: "ヒートブラスト",
+			'zh-tw': "高溫爆破",
+			th: "ฮีทบลาสต์"
 		},
 
 		damage: 60
@@ -27,13 +31,17 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "れっかばくしん"
+			ja: "れっかばくしん",
+			'zh-tw': "烈火爆進",
+			th: "ไฟลุกบุกทะลวง"
 		},
 
 		damage: 260,
 
 		effect: {
-			ja: "このワザを使ったなら、このポケモンは、バトル場をはなれるまで「れっかばくしん」が使えない。"
+			ja: "このワザを使ったなら、このポケモンは、バトル場をはなれるまで「れっかばくしん」が使えない。",
+			'zh-tw': "若使用了這個招式，則這隻寶可夢離開戰鬥場前無法使用「烈火爆進」。",
+			th: "ถ้าใช้ท่าต่อสู้นี้แล้ว โปเกมอนนี้ จะใช้ [ไฟลุกบุกทะลวง] ไม่ได้จนกว่าจะออกจากตำแหน่งต่อสู้"
 		}
 	}],
 
@@ -42,7 +50,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

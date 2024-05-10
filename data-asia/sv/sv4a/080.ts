@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ラルトス",
-		'zh-tw': "拉魯拉絲"
+		'zh-tw': "拉魯拉絲",
+		th: "ราลทซ์",
+		id: "Ralts"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -17,7 +19,9 @@ const card: Card = {
 
 	description: {
 		ja: "人の 感情を 頭の 赤い ツノで 敏感に キャッチする 力を 持つ。",
-		'zh-tw': "擁有使用頭上的紅角就可以敏銳察覺 人類感情的能力。"
+		'zh-tw': "擁有使用頭上的紅角就可以敏銳察覺 人類感情的能力。",
+		th: "เขาสีแดงบนหัวมีพลังในการรับรู้ความรู้สึกของคนได้อย่างละเอียดอ่อน",
+		id: "Ralts memiliki kekuatan untuk menangkap emosi manusia secara sensitif dengan menggunakan tanduk merah di kepalanya."
 	},
 
 	stage: "Basic",
@@ -27,7 +31,9 @@ const card: Card = {
 
 		name: {
 			ja: "サイコショット",
-			'zh-tw': "精神射擊"
+			'zh-tw': "精神射擊",
+			th: "ไซโคช็อต",
+			id: "Psyshot"
 		},
 
 		damage: 30

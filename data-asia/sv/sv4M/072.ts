@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シママ"
+		ja: "シママ",
+		th: "ชิมามา"
 	},
 
 	illustrator: "matazo",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。"
+		ja: "放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。",
+		th: "เมื่อปล่อยไฟฟ้าออกมาแผงขนบนหัวจะเปล่งแสง พูดคุยสื่อสารกับพวกพ้องด้วยจำนวนครั้งหรือจังหวะการเปล่งแสงของแผงขนบนหัว"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "うしろげり"
+			ja: "うしろげり",
+			th: "เตะกลับหลัง"
 		},
 
 		damage: 10
@@ -32,13 +35,15 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ワイルドボルト"
+			ja: "ワイルドボルト",
+			th: "ไวลด์โวลต์"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "このポケモンにも20ダメージ。"
+			ja: "このポケモンにも20ダメージ。",
+			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย"
 		}
 	}],
 
@@ -47,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

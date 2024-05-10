@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ナミイルカ"
+		ja: "ナミイルカ",
+		'zh-tw': "波普海豚",
+		th: "นามิอิรุกะ"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "尾びれの 水のリングで 仲間と 遊ぶのが 好き。 超音波で 生き物の 気持ちを 察知する。"
+		ja: "尾びれの 水のリングで 仲間と 遊ぶのが 好き。 超音波で 生き物の 気持ちを 察知する。",
+		'zh-tw': "喜歡用尾鰭的水環和夥伴一起玩耍。能透過 超音波察覺生物的心情。",
+		th: "ชอบเล่นสนุกกับพวกพ้องด้วยวงแหวนน้ำที่ครีบหาง ตรวจจับความรู้สึกของสิ่งมีชีวิตด้วยคลื่นความถี่สูง"
 	},
 
 	stage: "Basic",
@@ -25,7 +29,9 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "みずかけ"
+			ja: "みずかけ",
+			'zh-tw': "潑水",
+			th: "สาดน้ำ"
 		},
 
 		damage: 10
@@ -33,7 +39,9 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "するどいひれ"
+			ja: "するどいひれ",
+			'zh-tw': "銳利鰭",
+			th: "ครีบแหลมคม"
 		},
 
 		damage: 50
@@ -44,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

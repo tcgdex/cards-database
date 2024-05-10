@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ニドラン♂",
-		'zh-tw': "尼多朗"
+		'zh-tw': "尼多朗",
+		th: "นิโดรัน♂",
+		id: "Nidoran♂"
 	},
 
 	illustrator: "Shiburingaru",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "小柄だが 勇ましい 性質。 仲良しの メスを 守るため 身を ていして 果敢に 戦う。",
-		'zh-tw': "體型嬌小，但性情勇猛。為了保護感情好的雌性， 會奮不顧身地勇敢戰鬥。"
+		'zh-tw': "體型嬌小，但性情勇猛。為了保護感情好的雌性， 會奮不顧身地勇敢戰鬥。",
+		th: "แม้ตัวจะเล็กแต่มีนิสัยกล้าหาญ เพื่อปกป้องตัวเมียที่สนิทสนมด้วยจะเอาตัวเข้าแลกต่อสู้อย่างมุ่งมั่น",
+		id: "Nidoran jantan tubuhnya kecil, tapi memiliki sifat pemberani. Demi melindungi betina yang akrab dengannya, Pokémon ini mempertaruhkan nyawanya dan bertarung dengan gagah berani."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "つのでつく",
-			'zh-tw': "角撞"
+			'zh-tw': "角撞",
+			th: "เขาขวิด",
+			id: "Tusukan Tanduk"
 		},
 
 		damage: 20

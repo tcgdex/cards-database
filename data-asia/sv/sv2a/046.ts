@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "パラス",
-		'zh-tw': "派拉斯"
+		'zh-tw': "派拉斯",
+		th: "พารัส",
+		id: "Paras"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "冬虫夏草と いう キノコが 虫を 操っているのだ。 虫の 意思は 無視される。",
-		'zh-tw': "控制蟲子的是一種 叫做冬蟲夏草的蕈類。 蟲子的意志會被忽視。"
+		'zh-tw': "控制蟲子的是一種 叫做冬蟲夏草的蕈類。 蟲子的意志會被忽視。",
+		th: "เห็ดที่ชื่อโทจูคะโซจะคอยบงการแมลง โดยไม่สนใจความต้องการของแมลง",
+		id: "Jamur ulat Yarsagumba mengendalikan bagian tubuh serangga dari Paras. Kemauan serangga tidak dipedulikan."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "ふむ",
-			'zh-tw': "踩"
+			'zh-tw': "踩",
+			th: "เหยียบ",
+			id: "Menginjak"
 		},
 
 		damage: 10
@@ -37,14 +43,18 @@ const card: Card = {
 
 		name: {
 			ja: "ほうしだま",
-			'zh-tw': "孢子彈"
+			'zh-tw': "孢子彈",
+			th: "ลูกสปอร์",
+			id: "Bola Spora"
 		},
 
 		damage: 20,
 
 		effect: {
 			ja: "相手のバトルポケモンをねむりにする。",
-			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。"
+			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
+			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]",
+			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		}
 	}],
 

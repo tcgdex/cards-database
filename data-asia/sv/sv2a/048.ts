@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "コンパン",
-		'zh-tw': "毛球"
+		'zh-tw': "毛球",
+		th: "คองปัง",
+		id: "Venonat"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "全身から 毒が にじみでる。 暗くなると 灯りに 群がった 小さな 虫ポケモンを 捕らえる。",
-		'zh-tw': "全身上下都會滲出毒素。天黑後就會去捕捉聚在 燈光處的小型蟲寶可夢。"
+		'zh-tw': "全身上下都會滲出毒素。天黑後就會去捕捉聚在 燈光處的小型蟲寶可夢。",
+		th: "มีพิษไหลซึมออกจากทั่วร่างกาย พอตกค่ำจะไปจับโปเกมอนแมลงตัวเล็ก ๆ ที่มารวมตัวกันตามแสงไฟ",
+		id: "Racun bercucuran dari tubuh Venonat. Ketika hari menjadi gelap, Pokémon ini menangkap Pokémon serangga kecil yang berkumpul di sumber cahaya."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "かじる",
-			'zh-tw': "咬"
+			'zh-tw': "咬",
+			th: "แทะ",
+			id: "Menggerogot"
 		},
 
 		damage: 10
@@ -37,7 +43,9 @@ const card: Card = {
 
 		name: {
 			ja: "ビーム",
-			'zh-tw': "光束"
+			'zh-tw': "光束",
+			th: "ลำแสง",
+			id: "Beam"
 		},
 
 		damage: 40

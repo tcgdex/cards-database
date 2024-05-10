@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "ミカルゲ",
-		'zh-tw': "花岩怪"
+		'zh-tw': "花岩怪",
+		id: "Spiritomb"
 	},
 
 	illustrator: "MAHOU",
@@ -17,7 +18,8 @@ const card: Card = {
 
 	description: {
 		ja: "いつも 悪さばかり していたら 不思議な 術で 本体を 要石に 縛りつけられた。",
-		'zh-tw': "總是作惡多端，不料有一天本體被 神奇法術綁縛到了楔石上。"
+		'zh-tw': "總是作惡多端，不料有一天本體被 神奇法術綁縛到了楔石上。",
+		id: "Karena selalu melakukan kejahatan, tubuh asli Spiritomb diikat ke Batu Kunci menggunakan teknik misterius."
 	},
 
 	stage: "Basic",
@@ -27,12 +29,14 @@ const card: Card = {
 
 		name: {
 			ja: "しっこくのわざわい",
-			'zh-tw': "漆黑降災"
+			'zh-tw': "漆黑降災",
+			id: "Malapetaka Hitam Kelam"
 		},
 
 		effect: {
 			ja: "このポケモンがいるかぎり、おたがいの場のたねポケモンの「ポケモンV」の特性は、すべてなくなる。",
-			'zh-tw': "只要這隻寶可夢在場上，雙方場上【基礎】寶可夢的「寶可夢【V】」的特性全部消除。"
+			'zh-tw': "只要這隻寶可夢在場上，雙方場上【基礎】寶可夢的「寶可夢【V】」的特性全部消除。",
+			id: "Selama Pokémon ini ada di Arena, Pokémon {V} yang merupakan Pokémon Basic di Arena kedua pemain menjadi tidak memiliki Ability."
 		}
 	}],
 
@@ -41,14 +45,16 @@ const card: Card = {
 
 		name: {
 			ja: "ぱっときえる",
-			'zh-tw': "憑空消失"
+			'zh-tw': "憑空消失",
+			id: "Menghilang Mendadak"
 		},
 
 		damage: 10,
 
 		effect: {
 			ja: "このポケモンと、ついているすべてのカードを、手札にもどす。",
-			'zh-tw': "將這隻寶可夢與附加的卡，全部放回手牌。"
+			'zh-tw': "將這隻寶可夢與附加的卡，全部放回手牌。",
+			id: "Kembalikan Pokémon ini dan semua kartu yang dikenakannya ke Kartu Pegangan."
 		}
 	}],
 

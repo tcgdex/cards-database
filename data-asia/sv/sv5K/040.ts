@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "トロッゴン"
+		ja: "トロッゴン",
+		'zh-tw': "大炭車",
+		th: "โทร็อกกอน"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "感情が 昂ると 体内の 温度が 上昇。 炎を 吹きながら 忙しなく 走る。"
+		ja: "感情が 昂ると 体内の 温度が 上昇。 炎を 吹きながら 忙しなく 走る。",
+		'zh-tw': "情緒只要激昂起來，體內的溫度就會上升。 會噴著火焰忙碌地奔跑。",
+		th: "พอตื่นเต้น อุณหภูมิภายในร่างกายจะสูงขึ้น แล้ววิ่งไปมาอย่างอยู่ไม่สุขพร้อมพ่นไฟ"
 	},
 
 	stage: "Stage1",
@@ -25,19 +29,25 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "はねとばす"
+			ja: "はねとばす",
+			'zh-tw': "擊飛",
+			th: "ตบกระเด็น"
 		},
 
-		damage: "20＋",
+		damage: "20+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、40ダメージ追加。"
+			ja: "コインを1回投げオモテなら、40ダメージ追加。",
+			'zh-tw': "擲1次硬幣若為正面，則增加40點傷害。",
+			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 40"
 		}
 	}, {
 		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ロックスマッシュ"
+			ja: "ロックスマッシュ",
+			'zh-tw': "岩石粉碎",
+			th: "ร็อกสแมช"
 		},
 
 		damage: 80
@@ -48,7 +58,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "H"
 }
 
 export default card

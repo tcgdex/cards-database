@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "ガーディ",
-		'zh-tw': "卡蒂狗"
+		'zh-tw': "卡蒂狗",
+		th: "การ์ดี",
+		id: "Growlithe"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "人懐こく 誠実な 性格。 敵には ほえて かみつき 追い払おうとする。",
-		'zh-tw': "性格誠實，容易和人親近。遇到敵人時牠會吼叫追咬， 試著把敵人趕走。"
+		'zh-tw': "性格誠實，容易和人親近。遇到敵人時牠會吼叫追咬， 試著把敵人趕走。",
+		th: "เป็นมิตรและซื่อสัตย์ จะพยายามไล่ศัตรูออกไปด้วยการเห่าและไล่กัดอีกฝ่าย",
+		id: "Growlithe jinak dan berkepribadian jujur. Pokémon ini mengusir lawan dengan menggonggong dan menggigit mereka."
 	},
 
 	stage: "Basic",
@@ -28,19 +32,25 @@ const card: Card = {
 
 		name: {
 			ja: "もえあがる",
-			'zh-tw': "燃起"
+			'zh-tw': "燃起",
+			th: "ลุกโชน",
+			id: "Membara"
 		},
 
 		effect: {
 			ja: "自分の山札から「基本エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。",
-			'zh-tw': "從自己的牌庫選擇最多2張「基本【火】能量」卡，附於這隻寶可夢身上。並且重洗牌庫。"
+			'zh-tw': "從自己的牌庫選擇最多2張「基本【火】能量」卡，附於這隻寶可夢身上。並且重洗牌庫。",
+			th: "เลือกการ์ด [พลังงานพื้นฐาน[ไฟ]]ได้สูงสุด 2 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอนนี้ แล้วสับสำรับการ์ด",
+			id: "Pilih paling banyak 2 lembar Energi Dasar {Api} dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
 		}
 	}, {
 		cost: ["Fire", "Fire", "Fire"],
 
 		name: {
 			ja: "ほのおのツメ",
-			'zh-tw': "火之爪"
+			'zh-tw': "火之爪",
+			th: "กรงเล็บไฟ",
+			id: "Cakar Api"
 		},
 
 		damage: 70

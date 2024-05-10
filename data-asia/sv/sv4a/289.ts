@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "ニューラ",
-		'zh-tw': "狃拉"
+		'zh-tw': "狃拉",
+		id: "Sneasel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,7 +18,8 @@ const card: Card = {
 
 	description: {
 		ja: "自分が 目立たないよう 暗闇に まぎれて 獲物に 襲いかかる とても ずる賢い ポケモン。",
-		'zh-tw': "會潛藏在黑暗中使自己變得不起眼，然後伺機襲擊獵物， 是非常狡詐的寶可夢。"
+		'zh-tw': "會潛藏在黑暗中使自己變得不起眼，然後伺機襲擊獵物， 是非常狡詐的寶可夢。",
+		id: "Sneasel adalah Pokémon yang sangat licik. Agar tidak terlihat mencolok, Pokémon ini bersembunyi di dalam kegelapan, kemudian menyerang mangsanya."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 
 		name: {
 			ja: "ツメをたてる",
-			'zh-tw': "豎爪"
+			'zh-tw': "豎爪",
+			id: "Memasang Cakar"
 		},
 
 		damage: 20

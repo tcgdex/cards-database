@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "キラーメ",
-		'zh-tw': "晶光芽"
+		'zh-tw': "晶光芽",
+		th: "คิราเมะ",
+		id: "Glimmet"
 	},
 
 	illustrator: "Sekio",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "洞窟の 壁から 栄養分を 吸収。 毒の 結晶で できた 花びらを 身にまとう。",
-		'zh-tw': "會從洞窟的壁上吸取養分。包覆在身上的花瓣 是用毒的結晶做成的。"
+		'zh-tw': "會從洞窟的壁上吸取養分。包覆在身上的花瓣 是用毒的結晶做成的。",
+		th: "ดูดซับสารอาหารจากผนังถ้ำ ร่างกายห่อหุ้มด้วยกลีบดอกไม้ที่เป็นผลึกพิษ",
+		id: "Glimmet menyerap nutrisi dari dinding gua. Kelopak bunga yang terbuat dari kristal beracun menyelimuti tubuh Pokémon ini."
 	},
 
 	stage: "Basic",
@@ -28,7 +32,9 @@ const card: Card = {
 
 		name: {
 			ja: "いわおとし",
-			'zh-tw': "落石"
+			'zh-tw': "落石",
+			th: "หินผาถล่ม",
+			id: "Lemparan Batu"
 		},
 
 		damage: 20

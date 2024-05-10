@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "ヤドン",
-		'zh-tw': "呆呆獸"
+		'zh-tw': "呆呆獸",
+		id: "Slowpoke"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -17,7 +18,8 @@ const card: Card = {
 
 	description: {
 		ja: "いつも ボーッとしていて なにを 考えているか わからない。 尻尾で エサを 釣るのが 得意。",
-		'zh-tw': "總是一副在發呆的樣子，不知道在想些什麼。 擅長用尾巴來釣食物。"
+		'zh-tw': "總是一副在發呆的樣子，不知道在想些什麼。 擅長用尾巴來釣食物。",
+		id: "Slowpoke selalu bengong dan tidak ada yang tahu apa yang sedang dipikirkannya. Pokémon ini pandai memancing makanan menggunakan ekornya."
 	},
 
 	stage: "Basic",
@@ -27,19 +29,22 @@ const card: Card = {
 
 		name: {
 			ja: "ねむる",
-			'zh-tw': "睡覺"
+			'zh-tw': "睡覺",
+			id: "Tidur"
 		},
 
 		effect: {
 			ja: "このポケモンをねむりにする。このポケモンのHPを「30」回復する。",
-			'zh-tw': "將這隻寶可夢【睡眠】。將這隻寶可夢恢復「30」HP。"
+			'zh-tw': "將這隻寶可夢【睡眠】。將這隻寶可夢恢復「30」HP。",
+			id: "Ubah kondisi Pokémon ini menjadi Tidur. Pulihkan HP Pokémon ini sejumlah 30."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
 			ja: "ずつき",
-			'zh-tw': "頭錘"
+			'zh-tw': "頭錘",
+			id: "Tandukan Kepala"
 		},
 
 		damage: 20

@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "デリバード",
-		'zh-tw': "信使鳥"
+		'zh-tw': "信使鳥",
+		th: "เดลิเบิร์ด",
+		id: "Delibird"
 	},
 
 	illustrator: "miki kudo",
@@ -18,7 +20,9 @@ const card: Card = {
 
 	description: {
 		ja: "１日 ずっと エサを運んでる。 遭難した 人が デリバードの エサで 助かった 話もある。",
-		'zh-tw': "一整天都在搬運食物。據說曾經有遇難的人因為 信使鳥的食物而得救。"
+		'zh-tw': "一整天都在搬運食物。據說曾經有遇難的人因為 信使鳥的食物而得救。",
+		th: "ลำเลียงอาหารตลอดทั้งวัน ว่ากันว่ามีผู้ประสบภัยที่รอดตายเพราะได้อาหารจากเดลิเบิร์ดด้วย",
+		id: "Delibird terus mengangkut makanan sehari penuh. Ada kisah mengenai orang yang terdampar terselamatkan berkat makanan yang dibawa olehnya."
 	},
 
 	stage: "Basic",
@@ -28,19 +32,25 @@ const card: Card = {
 
 		name: {
 			ja: "ダブルドロー",
-			'zh-tw': "雙重抽出"
+			'zh-tw': "雙重抽出",
+			th: "ดับเบิลดรอว์",
+			id: "Double Draw"
 		},
 
 		effect: {
 			ja: "自分の山札を2枚引く。",
-			'zh-tw': "從自己的牌庫抽出2張卡。"
+			'zh-tw': "從自己的牌庫抽出2張卡。",
+			th: "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา",
+			id: "Ambil 2 kartu dari atas Deck sendiri."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
 			ja: "アイスウイング",
-			'zh-tw': "冰之翼"
+			'zh-tw': "冰之翼",
+			th: "ไอซ์วิง",
+			id: "Ice Wing"
 		},
 
 		damage: 30

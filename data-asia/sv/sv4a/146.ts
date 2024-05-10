@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "キャモメ",
-		'zh-tw': "長翅鷗"
+		'zh-tw': "長翅鷗",
+		th: "คาโมเมะ",
+		id: "Wingull"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,7 +19,9 @@ const card: Card = {
 
 	description: {
 		ja: "上昇 気流に 乗って グライダーのように 大空を 舞い くちばしに 挟んだ エサを運ぶ。",
-		'zh-tw': "會乘著上升氣流，如同滑翔機般地飛在空中 輸送鳥嘴銜著的食物。"
+		'zh-tw': "會乘著上升氣流，如同滑翔機般地飛在空中 輸送鳥嘴銜著的食物。",
+		th: "คาบอาหารไว้ในปากแล้วอาศัยกระแสลมไหลขึ้นเพื่อบินสูงขึ้นไปบนฟ้ากว้างราวเครื่องร่อน",
+		id: "Wingull menggunakan aliran angin untuk terbang ke langit layaknya pesawat luncur. Pokémon ini menjepit dan membawa makanannya dengan paruhnya."
 	},
 
 	stage: "Basic",
@@ -27,7 +31,9 @@ const card: Card = {
 
 		name: {
 			ja: "かぜおこし",
-			'zh-tw': "起風"
+			'zh-tw': "起風",
+			th: "เรียกลม",
+			id: "Hembusan Angin"
 		},
 
 		damage: 30

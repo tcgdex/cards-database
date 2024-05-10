@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "グソクムシャex"
+		ja: "グソクムシャex",
+		th: "กูโซคูมูฉะex"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +20,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "アクアブレード"
+			ja: "アクアブレード",
+			th: "อควาเบลด"
 		},
 
 		damage: 70
@@ -27,13 +29,15 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "いっとうりだつ"
+			ja: "いっとうりだつ",
+			th: "หนึ่งดาบถอยทัพ"
 		},
 
 		damage: 170,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。その後、このポケモンをベンチポケモンと入れ替える。"
+			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。その後、このポケモンをベンチポケモンと入れ替える。",
+			th: "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด หลังจากนั้น สลับโปเกมอนนี้กับโปเกมอนบนเบนช์"
 		}
 	}],
 
@@ -42,7 +46,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "G"
 }
 
 export default card

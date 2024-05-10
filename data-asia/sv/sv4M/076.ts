@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "チルット"
+		ja: "チルット",
+		th: "ทิลท์โท"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "自分も まわりも きれいでないと 落ち着かない 性格。 汚れを 見つけると 羽で ふき取る。"
+		ja: "自分も まわりも きれいでないと 落ち着かない 性格。 汚れを 見つけると 羽で ふき取る。",
+		th: "ถ้าตัวเองและรอบข้างไม่สะอาดจะรู้สึกกระสับกระส่าย พอเจอสิ่งสกปรกจะใช้ปีกเช็ด"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "つつく"
+			ja: "つつく",
+			th: "จิก"
 		},
 
 		damage: 10
@@ -32,11 +35,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "きずをなおす"
+			ja: "きずをなおす",
+			th: "รักษาบาดแผล"
 		},
 
 		effect: {
-			ja: "自分のポケモン1匹のHPを「30」回復する。"
+			ja: "自分のポケモン1匹のHPを「30」回復する。",
+			th: "ฟื้นฟู HP ของโปเกมอนฝ่ายเรา 1 ตัว [30]"
 		}
 	}],
 
@@ -47,10 +52,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "G"
 }
 
 export default card

@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "たべのこし",
-		'zh-tw': "吃剩的東西"
+		'zh-tw': "吃剩的東西",
+		th: "อาหารเหลือ",
+		id: "Sisa Makanan[Pokémon Tool]"
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -14,7 +16,9 @@ const card: Card = {
 
 	effect: {
 		ja: "自分の番の終わりに、このカードをつけているポケモンがバトル場にいるなら、そのポケモンのHPを「20」回復する。",
-		'zh-tw': "在自己的回合結束時，若附有這張卡的寶可夢在戰鬥場上，則將那隻寶可夢恢復「20」HP。"
+		'zh-tw': "在自己的回合結束時，若附有這張卡的寶可夢在戰鬥場上，則將那隻寶可夢恢復「20」HP。",
+		th: "เมื่อจบเทิร์นฝ่ายเรา ถ้าโปเกมอนที่ติดการ์ดนี้อยู่อยู่บนตำแหน่งต่อสู้ จะฟื้นฟู HP ของโปเกมอนนั้น [20]",
+		id: "Pada akhir giliran sendiri, jika Pokémon yang mengenakan kartu ini ada di Arena Bertarung, pulihkan HP Pokémon tersebut sejumlah 20."
 	},
 
 	trainerType: "Tool",

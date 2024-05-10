@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "ネイティ",
-		'zh-tw': "天然雀"
+		'zh-tw': "天然雀",
+		id: "Natu"
 	},
 
 	illustrator: "sowsow",
@@ -17,7 +18,8 @@ const card: Card = {
 
 	description: {
 		ja: "羽が 育ちきって おらず 飛び跳ねるようにして 移動する。 いつも なにかを 見つめている。",
-		'zh-tw': "翅膀還沒有完全長好，所以只能一跳一跳地移動。 一直在注視著什麼。"
+		'zh-tw': "翅膀還沒有完全長好，所以只能一跳一跳地移動。 一直在注視著什麼。",
+		id: "Karena sayapnya belum tumbuh sempurna, Natu berpindah dengan cara melompat. Pokémon ini selalu memandangi sesuatu."
 	},
 
 	stage: "Basic",
@@ -27,14 +29,16 @@ const card: Card = {
 
 		name: {
 			ja: "さんれんづき",
-			'zh-tw': "三連撞"
+			'zh-tw': "三連撞",
+			id: "Tusukan Tiga Kali"
 		},
 
 		damage: "10×",
 
 		effect: {
 			ja: "コインを3回投げ、オモテの数×10ダメージ。",
-			'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。"
+			'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。",
+			id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
 		}
 	}],
 

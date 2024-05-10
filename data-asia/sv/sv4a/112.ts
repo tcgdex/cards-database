@@ -6,7 +6,9 @@ const card: Card = {
 
 	name: {
 		ja: "イダイナキバex",
-		'zh-tw': "雄偉牙ex"
+		'zh-tw': "雄偉牙ex",
+		th: "งายักษ์ex",
+		id: "Great Tusk ex"
 	},
 
 	illustrator: "kawayoo",
@@ -22,12 +24,16 @@ const card: Card = {
 
 		name: {
 			ja: "ゆさぶりくずす",
-			'zh-tw': "搖碎"
+			'zh-tw': "搖碎",
+			th: "เขย่าให้ทลาย",
+			id: "Mengguncang Meruntuhkan"
 		},
 
 		effect: {
 			ja: "自分の番の終わりに、このポケモンがバトル場にいるなら、必ず1回使う。自分の山札を上から5枚トラッシュする。",
-			'zh-tw': "在自己的回合結束時，若這隻寶可夢在戰鬥場上，則一定要使用1次。將自己的牌庫上方5張卡丟棄。"
+			'zh-tw': "在自己的回合結束時，若這隻寶可夢在戰鬥場上，則一定要使用1次。將自己的牌庫上方5張卡丟棄。",
+			th: "เมื่อจบเทิร์นฝ่ายเรา ถ้าโปเกมอนนี้อยู่บนตำแหน่งต่อสู้ ต้องใช้ 1 ครั้ง ทิ้งการ์ด 5 ใบจากด้านบนของสำรับการ์ดฝ่ายเราที่ตำแหน่งทิ้งการ์ด",
+			id: "Harus digunakan 1 kali pada akhir giliran sendiri jika Pokémon ini ada di Arena Bertarung. Buang 5 kartu dari atas Deck sendiri ke Trash."
 		}
 	}],
 
@@ -36,14 +42,18 @@ const card: Card = {
 
 		name: {
 			ja: "グレートバッシュ",
-			'zh-tw': "偉大猛擊"
+			'zh-tw': "偉大猛擊",
+			th: "ตีถล่มใหญ่",
+			id: "Great Bash"
 		},
 
 		damage: 260,
 
 		effect: {
 			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
-			'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。"
+			'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。",
+			th: "แดเมจของท่าต่อสู้นี้ จะไม่นำเอฟเฟกต์ที่มีผลอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมาคิด",
+			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
 		}
 	}],
 

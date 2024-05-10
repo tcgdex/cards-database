@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "カルボウ",
-		'zh-tw': "炭小侍"
+		'zh-tw': "炭小侍",
+		id: "Charcadet"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,7 +18,8 @@ const card: Card = {
 
 	description: {
 		ja: "焼けた 木炭に 命が 宿り ポケモンになった。 燃える 闘志で 強敵にも 戦いを 挑む。",
-		'zh-tw': "生命寄宿在燃燒的木炭上變成了寶可夢。即使敵人再強， 也會以燃燒的鬥志迎面而戰。"
+		'zh-tw': "生命寄宿在燃燒的木炭上變成了寶可夢。即使敵人再強， 也會以燃燒的鬥志迎面而戰。",
+		id: "Jiwa bersemayam ke dalam arang terbakar, lalu berubah menjadi Pokémon. Dengan semangat bertarung yang membara, Charcadet menantang untuk bertarung meskipun melawan musuh yang kuat."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 
 		name: {
 			ja: "ヒートブラスト",
-			'zh-tw': "高溫爆破"
+			'zh-tw': "高溫爆破",
+			id: "Heat Blast"
 		},
 
 		damage: 60
