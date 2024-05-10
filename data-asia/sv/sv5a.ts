@@ -2,9 +2,9 @@ import { Set } from '../../interfaces'
 import serie from '../sv'
 
 const set: Set = {
-	id: 'sv6',
+	id: 'sv5a',
 	name: {
-		ja: '変幻の仮面',
+		ja: 'クリムゾンヘイズ',
 		'zh-tw': '緋紅薄霧'
 	},
 

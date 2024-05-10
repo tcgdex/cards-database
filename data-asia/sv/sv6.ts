@@ -2,7 +2,7 @@ import { Set } from '../../interfaces'
 import serie from '../sv'
 
 const set: Set = {
-	id: 'sv5a',
+	id: 'sv6',
 	name: {
 		ja: '変幻の仮面'
 	},
