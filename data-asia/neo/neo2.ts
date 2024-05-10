@@ -9,12 +9,10 @@ const set: Set = {
 
 	serie: serie,
 
-	// TODO: fill the rest
-
 	cardCount: {
-		official: 101
+		official: 56
 	},
-	releaseDate: '2024-04-26'
+	releaseDate: '2000-07-07'
 }
 
 export default set
