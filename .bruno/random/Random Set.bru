@@ -1,0 +1,20 @@
+meta {
+  name: Random Set
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/random/set?name=sword
+  body: none
+  auth: none
+}
+
+query {
+  name: sword
+}
+
+assert {
+  res.status: eq 200
+  res.body.name: contains Sword
+}
