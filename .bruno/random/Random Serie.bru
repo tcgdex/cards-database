@@ -1,0 +1,19 @@
+meta {
+  name: Random Serie
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/random/serie?name=p
+  body: none
+  auth: none
+}
+
+query {
+  name: p
+}
+
+assert {
+  res.status: eq 200
+}

@@ -1,11 +1,20 @@
-import { objectKeys } from '@dzeio/object-util'
+import { objectKeys, objectLoop } from '@dzeio/object-util'
 import { Card as SDKCard } from '@tcgdex/sdk'
+import apicache from 'apicache'
+import express, { Request } from 'express'
+import { Query } from '../../interfaces'
+import { betterSorter, checkLanguage, sendError, unique } from '../../util'
 import Card from '../Components/Card'
 import Serie from '../Components/Serie'
 import Set from '../Components/Set'
-import express from 'express'
-import apicache from 'apicache'
-import { betterSorter, checkLanguage, sendError, unique } from '../../util'
+
+type CustomRequest = Request & {
+	/**
+	 * disable caching
+	 */
+	DO_NOT_CACHE?: boolean
+	advQuery?: Query<any>
+}
 
 const server = express.Router()
 
@@ -29,8 +38,8 @@ const endpointToField: Record<string, keyof SDKCard> = {
 }
 
 server
-	// Midleware that handle caching
-	.use(apicache.middleware('1 day', (req: Request) => req.method === 'GET', {}))
+	// Midleware that handle caching only in production and on GET requests
+	.use(apicache.middleware('1 day', (req: CustomRequest, res: Response) => !req.DO_NOT_CACHE && res.status < 400 && process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
 
 	// .get('/cache/performance', (req, res) => {
 	// 	res.json(apicache.getPerformance())
@@ -42,10 +51,74 @@ server
 	// })
 
 	// Midleware that handle url transformation
-	.use((req, _, next) => {
+	.use((req: CustomRequest, _, next) => {
 		// this is ugly BUT it fix the problem with + not becoming spaces
 		req.url = req.url.replace(/\+/g, ' ')
 		next()
+	})
+
+	// handle Query builder
+	.use((req: CustomRequest, _, next) => {
+		// handle no query
+		if (!req.query) {
+			next()
+			return
+		}
+
+		const items: Query = {
+			filters: undefined,
+			sort: undefined,
+			pagination: undefined
+		}
+
+		objectLoop(req.query as Record<string, string | Array<string>>, (value: string | Array<string>, key: string) => {
+			if (!key.includes(':')) {
+				key = 'filters:' + key
+			}
+			const [cat, item] = key.split(':', 2) as ['filters', string]
+			if (!items[cat]) {
+				items[cat] = {}
+			}
+			const finalValue = Array.isArray(value) ? value.map((it) => isNaN(parseInt(it)) ? it : parseInt(it)) : isNaN(parseInt(value)) ? value : parseInt(value)
+			// @ts-expect-error normal behavior
+			items[cat][item] = finalValue
+
+		})
+
+		req.advQuery = items
+
+		next()
+	})
+
+	/**
+	 * Allows the user to fetch a random card/set/serie from the database
+	 */
+	.get('/:lang/random/:what', (req: CustomRequest, res): void => {
+		const { lang, what } = req.params
+
+		if (!checkLanguage(lang)) {
+			return sendError('LanguageNotFoundError', res, lang)
+		}
+
+		const query: Query = req.advQuery!
+
+		let data: Array<Card | Set | Serie> = []
+		switch (what.toLowerCase()) {
+			case 'card':
+				data = Card.find(lang, query)
+				break
+			case 'set':
+				data = Set.find(lang, query)
+				break
+			case 'serie':
+				data = Serie.find(lang, query)
+				break
+			default:
+				return sendError('EndpointNotFoundError', res, what)
+		}
+		const item = Math.min(data.length - 1, Math.max(0, Math.round(Math.random() * data.length)))
+		req.DO_NOT_CACHE = true
+		res.json(data[item])
 	})
 
 
@@ -53,8 +126,10 @@ server
 	 * Listing Endpoint
 	 * ex: /v2/en/cards
 	 */
-	.get('/:lang/:endpoint', (req, res): void => {
+	.get('/:lang/:endpoint', (req: CustomRequest, res): void => {
 		let { lang, endpoint } = req.params
+
+		const query: Query = req.advQuery!
 
 		if (endpoint.endsWith('.json')) {
 			endpoint = endpoint.replace('.json', '')
@@ -69,18 +144,18 @@ server
 		switch (endpoint) {
 			case 'cards':
 				result = Card
-					.find(lang, req.query)
+					.find(lang, query)
 					.map((c) => c.resume())
 				break
 
 			case 'sets':
 				result = Set
-					.find(lang, req.query)
+					.find(lang, query)
 					.map((c) => c.resume())
 				break
 			case 'series':
 				result = Serie
-					.find(lang, req.query)
+					.find(lang, query)
 					.map((c) => c.resume())
 				break
 			case 'categories':
@@ -95,7 +170,7 @@ server
 			case "suffixes":
 			case "trainer-types":
 				result = unique(
-					Card.raw(lang)
+					Card.getAll(lang)
 						.map((c) => c[endpointToField[endpoint]] as string)
 						.filter((c) => c)
 				).sort(betterSorter)
@@ -103,7 +178,7 @@ server
 			case "types":
 			case "dex-ids":
 				result = unique(
-					Card.raw(lang)
+					Card.getAll(lang)
 						.map((c) => c[endpointToField[endpoint]] as Array<string>)
 						.filter((c) => c)
 						.reduce((p, c) => [...p, ...c], [] as Array<string>)
@@ -111,7 +186,7 @@ server
 				break
 			case "variants":
 				result = unique(
-					Card.raw(lang)
+					Card.getAll(lang)
 						.map((c) => objectKeys(c.variants ?? {}) as Array<string>)
 						.filter((c) => c)
 						.reduce((p, c) => [...p, ...c], [] as Array<string>)
@@ -132,7 +207,7 @@ server
 	 * Listing Endpoint
 	 * ex: /v2/en/cards/base1-1
 	 */
-	.get('/:lang/:endpoint/:id', (req, res) => {
+	.get('/:lang/:endpoint/:id', (req: CustomRequest, res) => {
 		let { id, lang, endpoint } = req.params
 
 		if (id.endsWith('.json')) {
@@ -148,23 +223,23 @@ server
 		let result: any | undefined
 		switch (endpoint) {
 			case 'cards':
-				result = Card.findOne(lang, {id})?.full()
+				result = Card.findOne(lang, { filters: { id }, strict: true })?.full()
 				if (!result) {
-					result = Card.findOne(lang, {name: id})?.full()
+					result = Card.findOne(lang, { filters: { name: id }, strict: true })?.full()
 				}
 				break
 
 			case 'sets':
-				result = Set.findOne(lang, {id})?.full()
+				result = Set.findOne(lang, { filters: { id }, strict: true })?.full()
 				if (!result) {
-					result = Set.findOne(lang, {name: id})?.full()
+					result = Set.findOne(lang, {filters: { name: id }, strict: true })?.full()
 				}
 				break
 
 			case 'series':
-				result = Serie.findOne(lang, {id})?.full()
+				result = Serie.findOne(lang, { filters: { id }, strict: true })?.full()
 				if (!result) {
-					result = Serie.findOne(lang, {name: id})?.full()
+					result = Serie.findOne(lang, { filters: { name: id }, strict: true })?.full()
 				}
 				break
 			default:
@@ -185,7 +260,7 @@ server
 	 * sub id Endpoint (for the set endpoint only currently)
 	 * ex: /v2/en/sets/base1/1
 	 */
-	.get('/:lang/:endpoint/:id/:subid', (req, res) => {
+	.get('/:lang/:endpoint/:id/:subid', (req: CustomRequest, res) => {
 		let { id, lang, endpoint, subid } = req.params
 
 		if (subid.endsWith('.json')) {
@@ -204,7 +279,7 @@ server
 		switch (endpoint) {
 			case 'sets':
 				result = Card
-					.findOne(lang, {localId: subid, set: id})?.full()
+					.findOne(lang, { filters: { localId: subid, set: id }, strict: true})?.full()
 				break
 		}
 		if (!result) {

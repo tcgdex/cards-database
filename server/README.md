@@ -40,6 +40,11 @@ npm run build
 npm run start
 ```
 
+### Envs
+
+you can add environment variables to add features to the server:
+- SENTRY_DSN: the DSN to a sentry compatible server to allow to catch errors
+
 ### Using Docker
 
 Go to the parent directory and build the Dockerfile!

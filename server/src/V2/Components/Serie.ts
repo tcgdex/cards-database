@@ -1,8 +1,24 @@
 import { objectLoop } from '@dzeio/object-util'
 import { Serie as SDKSerie, SerieResume, SupportedLanguages } from '@tcgdex/sdk'
-import { Pagination } from '../../interfaces'
-import { lightCheck } from '../../util'
+import { Query } from '../../interfaces'
+import { handlePagination, handleSort, handleValidation } from '../../util'
 import Set from './Set'
+
+import deSeries from '../../../generated/de/series.json'
+import enSeries from '../../../generated/en/series.json'
+import esSeries from '../../../generated/es/series.json'
+import frSeries from '../../../generated/fr/series.json'
+import itSeries from '../../../generated/it/series.json'
+import ptSeries from '../../../generated/pt/series.json'
+
+const series = {
+	de: deSeries,
+	en: enSeries,
+	es: esSeries,
+	fr: frSeries,
+	it: itSeries,
+	pt: ptSeries
+} as const
 
 type LocalSerie = Omit<SDKSerie, 'sets'> & {sets: () => Array<Set>}
 
@@ -25,34 +41,24 @@ export default class Serie implements LocalSerie {
 	}
 
 	public sets(): Array<Set> {
-		return this.serie.sets.map((s) => Set.findOne(this.lang, {id: s.id}) as Set)
+		return this.serie.sets.map((s) => Set.findOne(this.lang, {filters: { id: s.id }}) as Set)
 	}
 
-	public static find(lang: SupportedLanguages, params: Partial<Record<keyof SDKSerie, any>> = {}, pagination?: Pagination) {
-		let list = (require(`../../../generated/${lang}/series.json`) as Array<SDKSerie>)
-			.filter((c) => objectLoop(params, (it, key) => {
-				if (key === 'id') return c[key] === it
-				return lightCheck(c[key as 'id'], it)
-			}))
-		if (pagination) {
-			list = list
-				.splice(pagination.count * pagination.page - 1, pagination.count)
-		}
-		return list.map((it) => new Serie(lang, it))
+	public static getAll(lang: SupportedLanguages): Array<SDKSerie> {
+		return series[lang]
 	}
 
-	public static findOne(lang: SupportedLanguages, params: Partial<Record<keyof Serie, any>> = {}): Serie | undefined {
-		const res = (require(`../../../generated/${lang}/series.json`) as Array<SDKSerie>)
-			.find((c) => {
-				return objectLoop(params, (it, key) => {
-					if (key === 'id') return c[key] === it
-					return lightCheck(c[key as 'id'], it)
-				})
-			})
-		if (!res) {
+	public static find(lang: SupportedLanguages, query: Query<SDKSerie>) {
+		return handlePagination(handleSort(handleValidation(this.getAll(lang), query), query), query)
+			.map((it) => new Serie(lang, it))
+	}
+
+	public static findOne(lang: SupportedLanguages, query: Query<SDKSerie>) {
+		const res = handleValidation(this.getAll(lang), query)
+		if (res.length === 0) {
 			return undefined
 		}
-		return new Serie(lang, res)
+		return new Serie(lang, res[0])
 	}
 
 	public resume(): SerieResume {

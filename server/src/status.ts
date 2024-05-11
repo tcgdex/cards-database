@@ -4,16 +4,15 @@ import express from 'express'
 import Serie from './V2/Components/Serie'
 import Set from './V2/Components/Set'
 
-const enStats = require('../generated/en/stats.json')
-const frStats = require('../generated/fr/stats.json')
-const deStats = require('../generated/de/stats.json')
-const esStats = require('../generated/es/stats.json')
-const itStats = require('../generated/it/stats.json')
-const ptStats = require('../generated/pt/stats.json')
+import deStats from '../generated/de/stats.json'
+import enStats from '../generated/en/stats.json'
+import esStats from '../generated/es/stats.json'
+import frStats from '../generated/fr/stats.json'
+import itStats from '../generated/it/stats.json'
+import ptStats from '../generated/pt/stats.json'
 
 /**
  * This file is meant to contains the TCGdex Project status page.
- *
  */
 
 /**
@@ -265,7 +264,7 @@ export default express.Router()
 	<table class="serie">
 	${objectMap(setsData, (serie, serieId) => {
 		// Loop through every series and name them
-		const name = Serie.findOne('en', {id: serieId})?.name
+		const name = Serie.findOne('en', { filters: { id: serieId }})?.name
 		return `
 			<thead>
 				<tr><th class="notop" colspan="13"><h2>${name} (${serieId})</h2></th></tr>
@@ -304,7 +303,7 @@ export default express.Router()
 					// loop through every sets
 
 					// find the set in the first available language (Should be English globally)
-					const setTotal = Set.findOne(data[0] as 'en', {id: setId})
+					const setTotal = Set.findOne(data[0] as 'en', { filters: { id: setId }})
 					let str = '<tr>' + `<td>${setTotal?.name} (${setId}) <br />${setTotal?.cardCount.total ?? 1} cards</td>`
 
 					// Loop through every languages

@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
 
     - name: Setup BunJS
@@ -24,6 +24,10 @@ jobs:
         bun install --frozen-lockfile
         cd server
         bun install --frozen-lockfile
+        bun run compile
 
-    - name: Validate the data
-      run: bun run validate
+    - name: Validate the data & the server
+      run: |
+        bun run validate
+        cd server
+        bun run validate

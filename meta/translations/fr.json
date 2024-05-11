@@ -17,6 +17,7 @@
 		"Special": "Spécial"
 	},
 	"rarity": {
+		"ACE SPEC Rare": "HIGH-TECG rare",
 		"Amazing Rare": "Magnifique",
 		"Classic Collection": "Collection Classique",
 		"Common": "Commune",
@@ -39,6 +40,7 @@
 		"Shiny rare": "Shiny rare",
 		"Shiny rare V": "Shiny rare V",
 		"Shiny rare VMAX": "Shiny rare VMAX",
+		"Shiny Ultra Rare": "chromatique ultra rare",
 		"Special illustration rare": "Illustration spéciale rare",
 		"Ultra Rare": "Ultra Rare",
 		"Uncommon": "Peu Commune"

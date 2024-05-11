@@ -1,15 +1,31 @@
 import { objectLoop } from '@dzeio/object-util'
 import { Set as SDKSet, SetResume, SupportedLanguages } from '@tcgdex/sdk'
-import { Pagination } from '../../interfaces'
-import { lightCheck } from '../../util'
+import { Query } from '../../interfaces'
+import { handlePagination, handleSort, handleValidation } from '../../util'
 import Card from './Card'
 import Serie from './Serie'
 
+import deSets from '../../../generated/de/sets.json'
+import enSets from '../../../generated/en/sets.json'
+import esSets from '../../../generated/es/sets.json'
+import frSets from '../../../generated/fr/sets.json'
+import itSets from '../../../generated/it/sets.json'
+import ptSets from '../../../generated/pt/sets.json'
+
+const sets = {
+	de: deSets,
+	en: enSets,
+	es: esSets,
+	fr: frSets,
+	it: itSets,
+	pt: ptSets
+} as const
+
 interface variants {
-    normal?: boolean;
-    reverse?: boolean;
-    holo?: boolean;
-    firstEdition?: boolean;
+	normal?: boolean;
+	reverse?: boolean;
+	holo?: boolean;
+	firstEdition?: boolean;
 }
 
 type LocalSet = {serie: () => Serie, cards: () => Array<Card>} & Omit<SDKSet, 'serie' | 'cards'>
@@ -39,45 +55,28 @@ export default class Set implements LocalSet {
 	symbol?: string | undefined
 
 	public serie(): Serie {
-		return Serie.findOne(this.lang, {id: this.set.serie.id}) as Serie
+		return Serie.findOne(this.lang, {filters: { id: this.set.serie.id }}) as Serie
 	}
 
 	public cards(): Array<Card> {
-		return this.set.cards.map((s) => Card.findOne(this.lang, {id: s.id}) as Card)
+		return this.set.cards.map((s) => Card.findOne(this.lang, { filters: { id: s.id }}) as Card)
 	}
 
-	public static find(lang: SupportedLanguages, params: Partial<Record<keyof SDKSet, any>> = {}, pagination?: Pagination) {
-		let list = (require(`../../../generated/${lang}/sets.json`) as Array<SDKSet>)
-			.filter((c) => objectLoop(params, (it, key) => {
-				if (key === 'id' || key === 'name') {
-					return c[key as 'id'].toLowerCase() === it.toLowerCase()
-				} else if (typeof it === 'string') {
-					return c[key as 'id'].toLowerCase().includes(it.toLowerCase())
-				}
-				return lightCheck(c[key as 'id'], it)
-			}))
-		if (pagination) {
-			list = list
-				.splice(pagination.count * pagination.page - 1, pagination.count)
-		}
-		return list.map((it) => new Set(lang, it))
+	public static getAll(lang: SupportedLanguages): Array<SDKSet> {
+		return sets[lang]
 	}
 
-	public static findOne(lang: SupportedLanguages, params: Partial<Record<keyof Set, any>> = {}) {
-		const res = (require(`../../../generated/${lang}/sets.json`) as Array<SDKSet>).find((c) => {
-			return objectLoop(params, (it, key) => {
-				if (key === 'id' || key === 'name') {
-					return c[key as 'id'].toLowerCase() === it.toLowerCase()
-				} else if (typeof it === 'string') {
-					return c[key as 'id'].toLowerCase().includes(it.toLowerCase())
-				}
-				return lightCheck(c[key as 'id'], it)
-			})
-		})
-		if (!res) {
+	public static find(lang: SupportedLanguages, query: Query<SDKSet>) {
+		return handlePagination(handleSort(handleValidation(this.getAll(lang), query), query), query)
+			.map((it) => new Set(lang, it))
+	}
+
+	public static findOne(lang: SupportedLanguages, query: Query<SDKSet>) {
+		const res = handleValidation(this.getAll(lang), query)
+		if (res.length === 0) {
 			return undefined
 		}
-		return new Set(lang, res)
+		return new Set(lang, res[0])
 	}
 
 	public resume(): SetResume {

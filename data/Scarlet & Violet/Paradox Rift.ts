@@ -5,12 +5,12 @@ const set: Set = {
 	id: "sv04",
 
 	name: {
-		de: "Obsidian Flammen",
+		de: "Paradoxrift",
 		en: "Paradox Rift",
-		es: "Escarlata y Púrpura",
-		fr: "Écarlate et Violet",
-		it: "Scarlatto e Violetto",
-		pt: "Escarlate e Violeta"
+		es: "Brecha Paradójica",
+		fr: "Faille Paradoxe",
+		it: "Paradosso Temporale",
+		pt: "Fenda Paradoxal"
 	},
 
 	serie: serie,

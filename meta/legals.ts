@@ -29,7 +29,7 @@ export const standard: Filter = {
 	includes: {
 		series: [],
 		sets: [],
-		regulationMark: ['D', 'E']
+		regulationMark: ['E', 'F']
 	},
 	excludes: {
 		sets: [],
