@@ -2,7 +2,7 @@
 import { promises as fs } from 'fs'
 import { SupportedLanguages } from '../../interfaces'
 import { FileFunction } from './compilerInterfaces'
-import { fetchRemoteFile } from './utils/util'
+import { fetchRemoteFile, loadLastEdits } from './utils/util'
 
 const LANGS: Array<SupportedLanguages> = [
 	'en', 'fr', 'es', 'it', 'pt', 'pt-br', 'pt-pt', 'de', 'nl', 'pl', 'ru',
@@ -23,6 +23,8 @@ const DIST_FOLDER = './generated'
 		await fs.rm(DIST_FOLDER, {recursive: true})
 	} catch {}
 
+	console.log('Loading files last edit')
+	await loadLastEdits()
 
 	console.log('Let\'s GO !')
 

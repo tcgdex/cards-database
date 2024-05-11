@@ -1,9 +1,10 @@
 /* eslint-disable sort-keys */
+import { exec } from 'child_process'
 import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
 import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
 import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
-import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, smartGlob } from './util'
+import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, smartGlob } from './util'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -106,8 +107,8 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		legal: {
 			standard: cardIsLegal('standard', card, localId),
 			expanded: cardIsLegal('expanded', card, localId)
-		}
-
+		},
+		updated: await getCardLastEdit(localId, card)
 	}
 }
 
@@ -174,4 +175,9 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 		}
 		return a >= b ? 1 : -1
 	})
+}
+
+async function getCardLastEdit(localId: string, card: Card): Promise<string> {
+	const path = `../data/${card.set.serie.name.en}/${card.set.name.en ?? card.set.name.fr}/${localId}.ts`
+	return getLastEdit(path)
 }
