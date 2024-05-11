@@ -1,0 +1,55 @@
+import { Card } from "../../../interfaces"
+import Set from "../S12"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "勒克貓",
+		th: "ลุคซิโอ"
+	},
+
+	illustrator: "Eri Yamaki",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Lightning"],
+
+	description: {
+		'zh-tw': "如果與夥伴尾巴牽尾巴，就能借用對方的電能， 然後發出更強的電擊。",
+		th: "เมื่อผูกหางและแบ่งรับพลังงานไฟฟ้ามาจากพวกพ้องแล้ว ก็จะปล่อยไฟฟ้าช็อตได้รุนแรงขึ้น"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		name: {
+			'zh-tw': "短路電光",
+			th: "ช็อตสปาร์ก"
+		},
+
+		effect: {
+			'zh-tw': "對手的所有身上附有「寶可夢道具」的寶可夢各受到90點傷害。[在備戰區不計算弱點・抵抗力。]",
+			th: "โปเกมอนฝ่ายตรงข้ามที่มี [ไอเท็มติดโปเกมอน] ติดอยู่ทุกตัว จะได้รับแดเมจตัวละ 90 {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}"
+		},
+
+		cost: ["Lightning"]
+	}, {
+		name: {
+			'zh-tw': "咬住",
+			th: "กัดติด"
+		},
+
+		damage: 40,
+		cost: ["Lightning", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	retreat: 1,
+	regulationMark: "F"
+}
+
+export default card

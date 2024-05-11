@@ -1,0 +1,48 @@
+import { Card } from "../../../interfaces"
+import Set from "../S12"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "鬃岩狼人",
+		th: "ลูกาลูกัน"
+	},
+
+	illustrator: "kodama",
+	category: "Pokemon",
+	hp: 120,
+	types: ["Fighting"],
+
+	description: {
+		'zh-tw': "生性魯莽衝動。會毫不猶豫地襲擊對手， 完全不在乎自己會受傷。",
+		th: "มีนิสัยบุ่มบ่าม จะพุ่งเข้าหาคู่ต่อสู้แล้วโจมตี ถึงแม้ตัวเองจะบาดเจ็บก็ไม่ใส่ใจเลย"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		name: {
+			'zh-tw': "子夜獠牙",
+			th: "มิดไนท์แฟงก์"
+		},
+
+		effect: {
+			'zh-tw': "減少對手的戰鬥寶可夢身上附加的能量的數量×80點傷害。",
+			th: "แดเมจของท่าต่อสู้นี้จะลดลงตามจำนวนพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม x80"
+		},
+
+		damage: "240-",
+		cost: ["Fighting", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "×2"
+	}],
+
+	retreat: 1,
+	regulationMark: "F"
+}
+
+export default card

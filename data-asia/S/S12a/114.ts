@@ -1,0 +1,52 @@
+import { Card } from "../../../interfaces"
+import Set from "../S12a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "洗翠 黏美龍",
+		th: "ฮิซุย นูเมลกอน"
+	},
+
+	illustrator: "Akira Komayama",
+	category: "Pokemon",
+	hp: 160,
+	types: ["Dragon"],
+
+	description: {
+		'zh-tw': "能自在操縱可剛可柔的金屬外殼。 性情執著且厭惡孤獨，一旦喜愛的 對象離開自己便會怒不可遏。",
+		th: "ทำให้เปลือกโลหะนุ่มหรือแข็งได้ตามใจชอบ ไม่ชอบความโดดเดี่ยว เจ้าคิดเจ้าแค้น หากผู้ที่มันรักใคร่จะตีตัวออกห่าง มันจะโกรธและอาละวาด"
+	},
+
+	stage: "Stage2",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'zh-tw': "鋼之歸宿",
+			th: "ถ้ำแห่งโลหะ"
+		},
+
+		effect: {
+			'zh-tw': "只要這隻寶可夢在場上，自己的所有身上附有【鋼】能量的【基礎】寶可夢，不會受到對手的「寶可夢【V】」招式的傷害。",
+			th: "ตราบใดที่โปเกมอนนี้ยังอยู่ โปเกมอน[พื้นฐาน]ฝ่ายเราที่มีพลังงาน[โลหะ]ติดอยู่ทุกตัว จะไม่ได้รับแดเมจจากท่าต่อสู้ของ [โปเกมอน【V】] ฝ่ายตรงข้าม"
+		}
+	}],
+
+	attacks: [{
+		name: {
+			'zh-tw': "重磅衝擊",
+			th: "เฮวี่อิมแพ็คท์"
+		},
+
+		damage: 140,
+		cost: ["Water", "Metal", "Colorless"]
+	}],
+
+	retreat: 3,
+	regulationMark: "F"
+}
+
+export default card

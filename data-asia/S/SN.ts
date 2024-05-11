@@ -2,7 +2,7 @@ import { Set } from '../../interfaces'
 import serie from '../S'
 
 const set: Set = {
-	id: 'SDM',
+	id: 'SN',
 	name: {
 		'zh-tw': '初階牌組100 特別版'
 	},
