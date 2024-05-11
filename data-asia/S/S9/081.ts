@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "大牙狸"
+		'zh-tw': "大牙狸",
+		ja: "ビッパ"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		'zh-tw': "總是啃大樹和石頭來打磨堅硬的門牙。 在水邊築巢生活。"
+		'zh-tw': "總是啃大樹和石頭來打磨堅硬的門牙。 在水邊築巢生活。",
+		ja: "いつも 大木や 石を かじって 丈夫な 前歯を 削っている。 水辺に 巣を 作り 暮らす。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "滾動"
+			'zh-tw': "滾動",
+			ja: "ころがる"
 		},
 
 		damage: 30,
@@ -34,7 +37,9 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [399]
 }
 
 export default card

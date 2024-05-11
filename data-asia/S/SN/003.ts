@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "捷拉奧拉"
+		'zh-tw': "捷拉奧拉",
+		ja: "ゼラオラ"
 	},
 
 	illustrator: "Teeziro",
@@ -14,18 +15,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		'zh-tw': "會用與落雷相同的速度急速接近敵人，然後用銳利的爪子把對手撕碎。"
+		'zh-tw': "會用與落雷相同的速度急速接近敵人，然後用銳利的爪子把對手撕碎。",
+		ja: "雷が 落ちるのと 同じ 速さで 敵に 急接近。 鋭い ツメで 八つ裂きに する。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "瘋狂伏特"
+			'zh-tw': "瘋狂伏特",
+			ja: "ワイルドボルト"
 		},
 
 		effect: {
-			'zh-tw': "這隻寶可夢也受到20點傷害。"
+			'zh-tw': "這隻寶可夢也受到20點傷害。",
+			ja: "このポケモンにも20ダメージ。"
 		},
 
 		damage: 70,
@@ -38,7 +42,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+	dexId: [807]
 }
 
 export default card

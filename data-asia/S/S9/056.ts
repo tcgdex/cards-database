@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "投摔鬼"
+		'zh-tw': "投摔鬼",
+		ja: "ナゲキ"
 	},
 
 	illustrator: "Teeziro",
@@ -14,21 +15,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "能使出一流的投摔招式。帶子被戰鬥時流下的汗水 浸濕，顏色越變越深。"
+		'zh-tw': "能使出一流的投摔招式。帶子被戰鬥時流下的汗水 浸濕，顏色越變越深。",
+		ja: "投げ技の 腕は 一流。 戦いで かいた 汗が 染み 帯の 色が 濃く 染まっていく。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "撞倒"
+			'zh-tw': "撞倒",
+			ja: "つきたおし"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			'zh-tw': "地球上投"
+			'zh-tw': "地球上投",
+			ja: "ちきゅうなげ"
 		},
 
 		damage: 110,
@@ -41,7 +45,9 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [538]
 }
 
 export default card

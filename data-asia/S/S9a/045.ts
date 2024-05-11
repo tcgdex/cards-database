@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "洗翠 狙射樹梟VSTAR"
+		'zh-tw': "洗翠 狙射樹梟VSTAR",
+		ja: "ヒスイ ジュナイパーVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -28,15 +29,29 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "筋斗羽毛"
+			'zh-tw': "筋斗羽毛",
+			ja: "サマーソルトフェザー"
 		},
 
 		effect: {
-			'zh-tw': "若希望，從自己的手牌將最多3張能量卡丟棄，增加其張數×30點傷害。"
+			'zh-tw': "若希望，從自己的手牌將最多3張能量卡丟棄，增加其張數×30點傷害。",
+			ja: "のぞむなら、自分の手札からエネルギーを3枚までトラッシュし、その枚数×30ダメージ追加。"
 		},
 
-		damage: "160+",
+		damage: "160＋",
 		cost: ["Fighting", "Colorless", "Colorless"]
+	}, {
+		name: {
+			ja: "特性"
+		}
+	}, {
+		name: {
+			ja: "フウウンスター"
+		},
+
+		effect: {
+			ja: "自分の番に使える。自分の手札が8枚になるように、山札を引く。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+		}
 	}],
 
 	weaknesses: [{

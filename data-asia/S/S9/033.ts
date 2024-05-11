@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "凍原熊"
+		'zh-tw': "凍原熊",
+		ja: "ツンベアー"
 	},
 
 	illustrator: "Rianti Hidayat",
@@ -14,25 +15,29 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "吐出的氣息凍結而成的冰牙比鋼鐵還硬。為了尋找食物， 會在寒冷的海裡游動徘徊。"
+		'zh-tw': "吐出的氣息凍結而成的冰牙比鋼鐵還硬。為了尋找食物， 會在寒冷的海裡游動徘徊。",
+		ja: "吐息を 凍らせ つくった キバは 鋼より 硬い。 寒い 海を エサを 探して 泳ぎまわる。"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			'zh-tw': "絕對零度"
+			'zh-tw': "絕對零度",
+			ja: "ぜったいれいど"
 		},
 
 		effect: {
-			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法使用招式。"
+			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法使用招式。",
+			ja: "次の相手の番、このワザを受けたポケモンは、ワザが使えない。"
 		},
 
 		damage: 40,
 		cost: ["Water", "Colorless"]
 	}, {
 		name: {
-			'zh-tw': "冰霜粉碎"
+			'zh-tw': "冰霜粉碎",
+			ja: "フロストスマッシュ"
 		},
 
 		damage: 130,
@@ -45,7 +50,9 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Uncommon",
+	dexId: [614]
 }
 
 export default card

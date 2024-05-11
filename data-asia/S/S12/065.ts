@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "可可多拉",
-		th: "โคโคโดรา"
+		th: "โคโคโดรา",
+		ja: "ココドラ"
 	},
 
 	illustrator: "sowsow",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "保護牠身體的鋼鐵盔甲，是由牠吃下的鐵礦石以及 偶爾吃下的鐵軌所製成的。",
-		th: "กินแร่เหล็กหรือบางครั้งก็รางรถไฟเพื่อสร้างเกราะเหล็กกล้าปกป้องร่างกาย"
+		th: "กินแร่เหล็กหรือบางครั้งก็รางรถไฟเพื่อสร้างเกราะเหล็กกล้าปกป้องร่างกาย",
+		ja: "鉄鉱石や たまに 鉄道の レールを 食べて 体を 守る 鋼の 鎧が つくられる。"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "衝撞",
-			th: "กระแทก"
+			th: "กระแทก",
+			ja: "ぶつかる"
 		},
 
 		damage: 10,
@@ -32,12 +35,14 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "撞一下",
-			th: "จุ้นจ้านหน่อย"
+			th: "จุ้นจ้านหน่อย",
+			ja: "ちょっとつっこむ"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到10點傷害。",
-			th: "โปเกมอนตัวนี้ก็จะได้รับแดเมจ 10 ด้วย"
+			th: "โปเกมอนตัวนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			ja: "このポケモンにも10ダメージ。"
 		},
 
 		damage: 30,
@@ -51,11 +56,13 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "-30"
+		value: "－30"
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [304]
 }
 
 export default card

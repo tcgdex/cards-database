@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "大狼犬"
+		'zh-tw': "大狼犬",
+		ja: "グラエナ"
 	},
 
 	illustrator: "otumami",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		'zh-tw': "會組成約１０隻規模的群體， 靠著有條不紊的團隊合作 追擊並解決獵物。"
+		'zh-tw': "會組成約１０隻規模的群體， 靠著有條不紊的團隊合作 追擊並解決獵物。",
+		ja: "１０匹 程度の 群れを 作って 一糸乱れぬ チームワークで 獲物を 追いつめて しとめるのだ。"
 	},
 
 	stage: "Stage1",
@@ -23,21 +25,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			'zh-tw': "喧鬧咆哮"
+			'zh-tw': "喧鬧咆哮",
+			ja: "ハッスルバーク"
 		},
 
 		effect: {
-			'zh-tw': "若對手的場上有「寶可夢【VMAX】」，則這隻寶可夢使用招式所需的能量，減少3個【無】能量。"
+			'zh-tw': "若對手的場上有「寶可夢【VMAX】」，則這隻寶可夢使用招式所需的能量，減少3個【無】能量。",
+			ja: "相手の場に「ポケモンVMAX」がいるなら、このポケモンがワザを使うためのエネルギーは、エネルギー3個ぶん少なくなる。"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			'zh-tw': "狂野衝撞"
+			'zh-tw': "狂野衝撞",
+			ja: "ワイルドタックル"
 		},
 
 		effect: {
-			'zh-tw': "這隻寶可夢也受到50點傷害。"
+			'zh-tw': "這隻寶可夢也受到50點傷害。",
+			ja: "このポケモンにも50ダメージ。"
 		},
 
 		damage: 160,
@@ -50,7 +56,9 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Uncommon",
+	dexId: [262]
 }
 
 export default card

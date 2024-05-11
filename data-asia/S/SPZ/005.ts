@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "捷拉奧拉V"
+		'zh-tw': "捷拉奧拉V",
+		ja: "ゼラオラV"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -17,18 +18,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "利爪劈擊"
+			'zh-tw': "利爪劈擊",
+			ja: "ツメできりさく"
 		},
 
 		damage: 50,
 		cost: ["Lightning", "Colorless"]
 	}, {
 		name: {
-			'zh-tw': "閃電伏特"
+			'zh-tw': "閃電伏特",
+			ja: "サンダーボルト"
 		},
 
 		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
+			ja: "次の自分の番、このポケモンはワザが使えない。"
 		},
 
 		damage: 190,

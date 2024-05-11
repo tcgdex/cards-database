@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "小灰怪",
-		th: "ลีเกรย์"
+		th: "ลีเกรย์",
+		ja: "リグレー"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "當牠站在電視機旁邊時，畫面上會出現奇怪的景色。 據說那是牠的故鄉。",
-		th: "ถ้าอยู่ข้าง ๆ ทีวีตรงมอนิเตอร์จะฉายภาพทิวทัศน์ประหลาด ว่ากันว่ามันคือภาพบ้านเกิดของลีเกรย์"
+		th: "ถ้าอยู่ข้าง ๆ ทีวีตรงมอนิเตอร์จะฉายภาพทิวทัศน์ประหลาด ว่ากันว่ามันคือภาพบ้านเกิดของลีเกรย์",
+		ja: "テレビのそばに いると モニターに 奇妙な 景色が 映る。 リグレーの 故郷だと いわれる。"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "頭錘",
-			th: "พุ่งหัวชน"
+			th: "พุ่งหัวชน",
+			ja: "ずつき"
 		},
 
 		damage: 20,
@@ -38,11 +41,13 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "-30"
+		value: "－30"
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [605]
 }
 
 export default card

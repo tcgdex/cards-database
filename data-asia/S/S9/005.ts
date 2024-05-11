@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "熱帶龍"
+		'zh-tw': "熱帶龍",
+		ja: "トロピウス"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "脖子上的美味水果很受歡迎。在溫暖的地區有很多 養殖熱帶龍的牧場。"
+		'zh-tw': "脖子上的美味水果很受歡迎。在溫暖的地區有很多 養殖熱帶龍的牧場。",
+		ja: "首の フサが 美味しくて 人気。 暖かい 土地には トロピウスを 育てる 牧場が たくさん。"
 	},
 
 	stage: "Basic",
@@ -23,17 +25,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			'zh-tw': "治癒樹蔭"
+			'zh-tw': "治癒樹蔭",
+			ja: "いやしのこかげ"
 		},
 
 		effect: {
-			'zh-tw': "只要這隻寶可夢在場上，自己的所有身上附有【草】能量的寶可夢不會【混亂】，受到的【混亂】會全部恢復。"
+			'zh-tw': "只要這隻寶可夢在場上，自己的所有身上附有【草】能量的寶可夢不會【混亂】，受到的【混亂】會全部恢復。",
+			ja: "このポケモンがいるかぎり、エネルギーがついている自分のポケモン全員は、こんらんにならず、受けているこんらんは、すべて回復する。"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			'zh-tw': "利刃切割"
+			'zh-tw': "利刃切割",
+			ja: "スライスブレード"
 		},
 
 		damage: 100,
@@ -46,7 +51,9 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Uncommon",
+	dexId: [357]
 }
 
 export default card

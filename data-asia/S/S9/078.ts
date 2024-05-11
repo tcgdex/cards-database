@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "姆克兒"
+		'zh-tw': "姆克兒",
+		ja: "ムックル"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -14,18 +15,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		'zh-tw': "為了獵捕蟲寶可夢，以龐大的群體在山野間飛來飛去。 叫聲非常吵鬧。"
+		'zh-tw': "為了獵捕蟲寶可夢，以龐大的群體在山野間飛來飛去。 叫聲非常吵鬧。",
+		ja: "むしポケモンを ねらって 野山を 大勢の 群れで 飛び回る。 鳴き声が とても やかましい。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "鉤爪"
+			'zh-tw': "鉤爪",
+			ja: "かぎづめ"
 		},
 
 		effect: {
-			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。"
+			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
+			ja: "コインを1回投げウラなら、このワザは失敗。"
 		},
 
 		damage: 30,
@@ -39,11 +43,13 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "-30"
+		value: "－30"
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [396]
 }
 
 export default card

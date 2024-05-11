@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "洗翠 大劍鬼VSTAR"
+		'zh-tw': "洗翠 大劍鬼VSTAR",
+		ja: "ヒスイ ダイケンキVSTAR"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -28,15 +29,29 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "狠心利刃"
+			'zh-tw': "狠心利刃",
+			ja: "むじひなやいば"
 		},
 
 		effect: {
-			'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加110點傷害。"
+			'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加110點傷害。",
+			ja: "相手のバトルポケモンにダメカンがのっているなら、110ダメージ追加。"
 		},
 
-		damage: "110+",
+		damage: "110＋",
 		cost: ["Darkness", "Darkness"]
+	}, {
+		name: {
+			ja: "特性"
+		}
+	}, {
+		name: {
+			ja: "ザンゲツスター"
+		},
+
+		effect: {
+			ja: "自分の番に使える。相手のポケモン1匹に、ダメカンを4個のせる。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+		}
 	}],
 
 	weaknesses: [{

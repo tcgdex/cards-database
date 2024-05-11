@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "飯匙蛇"
+		'zh-tw': "飯匙蛇",
+		ja: "ハブネーク"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -14,18 +15,21 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		'zh-tw': "總是用岩石打磨尾巴上的刀刃，所以刀刃非常鋒利。和貓鼬斬是死對頭。"
+		'zh-tw': "總是用岩石打磨尾巴上的刀刃，所以刀刃非常鋒利。和貓鼬斬是死對頭。",
+		ja: "尻尾の 刀は いつも 岩で 研いでいるので 切れ味 ばつぐん。 ザングースとは 因縁の あいだ。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "突襲迴轉"
+			'zh-tw': "突襲迴轉",
+			ja: "ふいうちターン"
 		},
 
 		effect: {
-			'zh-tw': "將這隻寶可夢與備戰區的【惡】寶可夢互換。"
+			'zh-tw': "將這隻寶可夢與備戰區的【惡】寶可夢互換。",
+			ja: "このポケモンをベンチのポケモンと入れ替える。"
 		},
 
 		damage: 60,
@@ -38,7 +42,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	dexId: [336]
 }
 
 export default card

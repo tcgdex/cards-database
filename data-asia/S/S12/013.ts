@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "燃燒蟲",
-		th: "เมลาร์วา"
+		th: "เมลาร์วา",
+		ja: "メラルバ"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "遠古時代的人們相信燃燒蟲是從 太陽上摔下來的。",
-		th: "ผู้คนในอดีตอันนานมาแล้วเชื่อว่าเมลาร์วาตกลงมาจากดวงอาทิตย์"
+		th: "ผู้คนในอดีตอันนานมาแล้วเชื่อว่าเมลาร์วาตกลงมาจากดวงอาทิตย์",
+		ja: "はるか 昔の 人々は メラルバは 太陽から 落っこちてきたと 信じていた。"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "火種",
-			th: "เชื้อไฟ"
+			th: "เชื้อไฟ",
+			ja: "ひだね"
 		},
 
 		damage: 20,
@@ -37,7 +40,9 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [636]
 }
 
 export default card

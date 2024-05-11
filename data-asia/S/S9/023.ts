@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "龍蝦小兵"
+		'zh-tw': "龍蝦小兵",
+		ja: "ヘイガニ"
 	},
 
 	illustrator: "Sekio",
@@ -14,21 +15,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "有著頑強生命力的寶可夢。不論河裡的水有多髒 都能適應並繁衍後代。"
+		'zh-tw': "有著頑強生命力的寶可夢。不論河裡的水有多髒 都能適應並繁衍後代。",
+		ja: "どんなに 水が 汚れた 川でも 適応して 増えていく タフな 生命力の 持ち主。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "水槍"
+			'zh-tw': "水槍",
+			ja: "みずでっぽう"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			'zh-tw': "蟹鉗錘"
+			'zh-tw': "蟹鉗錘",
+			ja: "クラブハンマー"
 		},
 
 		damage: 50,
@@ -41,7 +45,9 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [341]
 }
 
 export default card

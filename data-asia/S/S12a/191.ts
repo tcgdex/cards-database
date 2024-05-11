@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "阿勃梭魯"
+		'zh-tw': "阿勃梭魯",
+		ja: "アブソル"
 	},
 
 	illustrator: "Uta",
@@ -14,31 +15,36 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		'zh-tw': "如風般地奔馳在山野中。形狀如弓的角能夠敏銳感應到自然災害的預兆。"
+		'zh-tw': "如風般地奔馳在山野中。形狀如弓的角能夠敏銳感應到自然災害的預兆。",
+		ja: "風のように 野山を 駆けぬける。 弓なりの ツノは 自然災害の 予兆を 敏感に 感じとる。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "漩渦災禍"
+			'zh-tw': "漩渦災禍",
+			ja: "うずまくわざわい"
 		},
 
 		effect: {
-			'zh-tw': "對手的所有寶可夢各受到10點傷害。[在備戰區不計算弱點・抵抗力。]"
+			'zh-tw': "對手的所有寶可夢各受到10點傷害。[在備戰區不計算弱點・抵抗力。]",
+			ja: "相手のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
-			'zh-tw': "抓裂"
+			'zh-tw': "抓裂",
+			ja: "ツメでえぐる"
 		},
 
 		effect: {
-			'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加70點傷害。"
+			'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加70點傷害。",
+			ja: "相手のバトルポケモンにダメカンがのっているなら、70ダメージ追加。"
 		},
 
-		damage: "50+",
+		damage: "50＋",
 		cost: ["Darkness", "Colorless"]
 	}],
 
@@ -48,7 +54,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	dexId: [359]
 }
 
 export default card

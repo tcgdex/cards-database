@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "達克萊伊V"
+		'zh-tw': "達克萊伊V",
+		ja: "ダークライV"
 	},
 
 	illustrator: "takuyoa",
@@ -17,18 +18,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "暗之風"
+			'zh-tw': "暗之風",
+			ja: "やみのかぜ"
 		},
 
 		damage: 50,
 		cost: ["Darkness", "Colorless"]
 	}, {
 		name: {
-			'zh-tw': "暗黑洞"
+			'zh-tw': "暗黑洞",
+			ja: "ダークホール"
 		},
 
 		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。"
+			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
+			ja: "相手のバトルポケモンをねむりにする。"
 		},
 
 		damage: 130,

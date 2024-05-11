@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "伊布V"
+		'zh-tw': "伊布V",
+		ja: "イーブイV"
 	},
 
 	illustrator: "You Iribi",
@@ -17,21 +18,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "撞擊"
+			'zh-tw': "撞擊",
+			ja: "たいあたり"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			'zh-tw': "布之勇"
+			'zh-tw': "布之勇",
+			ja: "ブイブレイブ"
 		},
 
 		effect: {
-			'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【V】」，則增加80點傷害。"
+			'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【V】」，則增加80點傷害。",
+			ja: "相手のバトルポケモンが「ポケモンV」なら、80ダメージ追加。"
 		},
 
-		damage: "80+",
+		damage: "80＋",
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 

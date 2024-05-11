@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "朝北鼻"
+		'zh-tw': "朝北鼻",
+		ja: "ノズパス"
 	},
 
 	illustrator: "miki kudo",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "牠會動也不動地用強大的磁力把獵物吸過來獵捕， 但有時也會把天敵吸來。"
+		'zh-tw': "牠會動也不動地用強大的磁力把獵物吸過來獵捕， 但有時也會把天敵吸來。",
+		ja: "強力な 磁力で 獲物を 引き寄せ 動かず 狩りを するが 天敵を 引き寄せることもある。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "衝撞"
+			'zh-tw': "衝撞",
+			ja: "ぶつかる"
 		},
 
 		damage: 20,
@@ -34,7 +37,9 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [299]
 }
 
 export default card

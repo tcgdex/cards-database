@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "藏瑪然特VSTAR"
+		'zh-tw': "藏瑪然特VSTAR",
+		ja: "ザマゼンタVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -28,15 +29,29 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "終極衝擊"
+			'zh-tw': "終極衝擊",
+			ja: "ギガインパクト"
 		},
 
 		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
+			ja: "次の自分の番、このポケモンはワザが使えない。"
 		},
 
 		damage: 220,
 		cost: ["Metal", "Metal", "Colorless"]
+	}, {
+		name: {
+			ja: "特性"
+		}
+	}, {
+		name: {
+			ja: "シールドスター"
+		},
+
+		effect: {
+			ja: "自分の番に使える。次の相手の番、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-100」される。（新しく場に出したポケモンもふくむ。）［対戦中、自分はVSTARパワーを1回しか使えない。］"
+		}
 	}],
 
 	weaknesses: [{
@@ -46,7 +61,7 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "-30"
+		value: "－30"
 	}],
 
 	retreat: 2,

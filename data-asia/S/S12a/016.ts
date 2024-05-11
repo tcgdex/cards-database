@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "鴨嘴火獸",
-		th: "บูเบอร์"
+		th: "บูเบอร์",
+		ja: "ブーバー"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會用火焰解決獵物。但是一不留神就會把獵物 燒得太焦，然後才後悔。",
-		th: "จัดการเหยื่อด้วยเปลวเพลิง เผลอทีไรก็จะเผาเสียจนไหม้เกรียมและรู้สึกเสียใจภายหลัง"
+		th: "จัดการเหยื่อด้วยเปลวเพลิง เผลอทีไรก็จะเผาเสียจนไหม้เกรียมและรู้สึกเสียใจภายหลัง",
+		ja: "炎で 獲物を しとめる。 ついつい 焼きすぎて 黒コゲに してしまい 後悔する。"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "踢倒",
-			th: "เตะเลียด"
+			th: "เตะเลียด",
+			ja: "けたぐり"
 		},
 
 		damage: 20,
@@ -32,7 +35,8 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "火拳",
-			th: "หมัดอัคคี"
+			th: "หมัดอัคคี",
+			ja: "ほのおパンチ"
 		},
 
 		damage: 70,
@@ -45,7 +49,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	dexId: [126]
 }
 
 export default card

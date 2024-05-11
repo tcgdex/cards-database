@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "洛奇亞VSTAR",
-		th: "ลูเกียVSTAR"
+		th: "ลูเกียVSTAR",
+		ja: "ルギアVSTAR"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -32,16 +33,30 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "風暴俯衝",
-			th: "สตอร์มไดฟ์"
+			th: "สตอร์มไดฟ์",
+			ja: "ストームダイブ"
 		},
 
 		effect: {
 			'zh-tw': "若希望，將場上的競技場卡丟棄。",
-			th: "หากต้องการ ทิ้งการ์ดสเตเดียมบนกระดานที่ตำแหน่งทิ้งการ์ด"
+			th: "หากต้องการ ทิ้งการ์ดสเตเดียมบนกระดานที่ตำแหน่งทิ้งการ์ด",
+			ja: "のぞむなら、場に出ているスタジアムをトラッシュする。"
 		},
 
 		damage: 220,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"]
+	}, {
+		name: {
+			ja: "特性"
+		}
+	}, {
+		name: {
+			ja: "アッセンブルスター"
+		},
+
+		effect: {
+			ja: "自分の番に使える。自分のトラッシュからポケモン（「ルールを持つポケモン」をのぞく）を2枚まで選び、ベンチに出す。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+		}
 	}],
 
 	weaknesses: [{
@@ -51,7 +66,7 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "-30"
+		value: "－30"
 	}],
 
 	retreat: 2,

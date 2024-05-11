@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "布莉姆溫VMAX"
+		'zh-tw': "布莉姆溫VMAX",
+		ja: "ブリムオンVMAX"
 	},
 
 	illustrator: "sui",
@@ -18,21 +19,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			'zh-tw': "魔女的領域"
+			'zh-tw': "魔女的領域",
+			ja: "まじょのりょういき"
 		},
 
 		effect: {
-			'zh-tw': "在自己的回合時，可使用1次。選擇最多2個放置於自己的場上寶可夢身上的傷害指示物，改放於對手的戰鬥寶可夢身上。"
+			'zh-tw': "在自己的回合時，可使用1次。選擇最多2個放置於自己的場上寶可夢身上的傷害指示物，改放於對手的戰鬥寶可夢身上。",
+			ja: "自分の番に1回使える。自分の場のポケモンにのっているダメカンを2個まで選び、相手のバトルポケモンにのせ替える。"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			'zh-tw': "超極巨天譴雷誅"
+			'zh-tw': "超極巨天譴雷誅",
+			ja: "キョダイテンバツ"
 		},
 
 		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
+			'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
+			ja: "相手のバトルポケモンをこんらんにする。"
 		},
 
 		damage: 150,
@@ -46,7 +51,7 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "-30"
+		value: "－30"
 	}],
 
 	retreat: 2,

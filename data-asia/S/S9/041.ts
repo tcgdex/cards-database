@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "皮皮"
+		'zh-tw': "皮皮",
+		ja: "ピッピ"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -14,21 +15,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "據說如果在滿月的夜晚看見皮皮們聚在一起跳舞， 就能得到幸福。"
+		'zh-tw': "據說如果在滿月的夜晚看見皮皮們聚在一起跳舞， 就能得到幸福。",
+		ja: "満月の夜 ピッピが 集まって ダンスを 踊るようすを 見ると しあわせに なれると 言われている。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "拍擊"
+			'zh-tw': "拍擊",
+			ja: "はたく"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			'zh-tw': "魔法射擊"
+			'zh-tw': "魔法射擊",
+			ja: "マジカルショット"
 		},
 
 		damage: 30,
@@ -41,7 +45,9 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [35]
 }
 
 export default card

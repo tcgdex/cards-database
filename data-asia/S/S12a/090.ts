@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "索羅亞",
-		th: "โซรัว"
+		th: "โซรัว",
+		ja: "ゾロア"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "平常很愛說話的孩子如果突然變得很沉默， 就有可能是索羅亞假扮的。",
-		th: "เวลาที่เด็กช่างพูดเกิดเงียบขึ้นมา อาจเป็นเพราะโซรัวมาสลับตัวอยู่ก็เป็นได้"
+		th: "เวลาที่เด็กช่างพูดเกิดเงียบขึ้นมา อาจเป็นเพราะโซรัวมาสลับตัวอยู่ก็เป็นได้",
+		ja: "普段 おしゃべりな 子どもが 無口に なった ときは ゾロアが 入れ替わって いるかも しれないよ。"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "後踢",
-			th: "เตะกลับหลัง"
+			th: "เตะกลับหลัง",
+			ja: "うしろげり"
 		},
 
 		damage: 30,
@@ -37,7 +40,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+	dexId: [570]
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "百變怪"
+		'zh-tw': "百變怪",
+		ja: "メタモン"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		'zh-tw': "能夠藉由重組全身的細胞，變得與看到的東西一模一樣，然而一旦放鬆就會變回原形。"
+		'zh-tw': "能夠藉由重組全身的細胞，變得與看到的東西一模一樣，然而一旦放鬆就會變回原形。",
+		ja: "全身の 細胞を 組み替えて 見たもの そっくりに 変身するが 力が 抜けると もとにもどる。"
 	},
 
 	stage: "Basic",
@@ -23,11 +25,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			'zh-tw': "突然變化"
+			'zh-tw': "突然變化",
+			ja: "いきなりへんげ"
 		},
 
 		effect: {
-			'zh-tw': "這隻寶可夢可使用自己棄牌區的【基礎】寶可夢（「擁有規則的寶可夢」除外）持有的所有招式。[需要有足夠使用招式的能量。]"
+			'zh-tw': "這隻寶可夢可使用自己棄牌區的【基礎】寶可夢（「擁有規則的寶可夢」除外）持有的所有招式。[需要有足夠使用招式的能量。]",
+			ja: "このポケモンは、自分のトラッシュにあるたねポケモン（「ルールを持つポケモン」をのぞく）が持っているワザを、すべて使える。［ワザを使うためのエネルギーは必要。］"
 		}
 	}],
 
@@ -37,7 +41,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	dexId: [132]
 }
 
 export default card

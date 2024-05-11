@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "臭泥"
+		'zh-tw': "臭泥",
+		ja: "ベトベター"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -14,18 +15,21 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		'zh-tw': "最近工廠排放的廢水太乾淨，使得牠沒東西可吃。 據說就快要絕種了。"
+		'zh-tw': "最近工廠排放的廢水太乾淨，使得牠沒東西可吃。 據說就快要絕種了。",
+		ja: "最近は 工場が 流す 廃液が 綺麗で エサが ない。 じき 絶滅すると いわれている。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "毒瓦斯"
+			'zh-tw': "毒瓦斯",
+			ja: "どくガス"
 		},
 
 		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【中毒】。"
+			'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
+			ja: "相手のバトルポケモンをどくにする。"
 		},
 
 		cost: ["Darkness"]
@@ -37,7 +41,9 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [88]
 }
 
 export default card

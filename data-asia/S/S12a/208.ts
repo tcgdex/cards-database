@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "土狼犬"
+		'zh-tw': "土狼犬",
+		ja: "ポチエナ"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,25 +15,29 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		'zh-tw': "有著敏銳的嗅覺，絕對不會放過自己盯上的獵物。個性非常執著。"
+		'zh-tw': "有著敏銳的嗅覺，絕對不會放過自己盯上的獵物。個性非常執著。",
+		ja: "鋭い きゅうかくで ねらった 獲物は 絶対に 逃がさない。 とっても しつこい 性格だ。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "咬"
+			'zh-tw': "咬",
+			ja: "かじる"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			'zh-tw': "撞一下"
+			'zh-tw': "撞一下",
+			ja: "ちょっとつっこむ"
 		},
 
 		effect: {
-			'zh-tw': "這隻寶可夢也受到10點傷害。"
+			'zh-tw': "這隻寶可夢也受到10點傷害。",
+			ja: "このポケモンにも10ダメージ。"
 		},
 
 		damage: 30,
@@ -45,7 +50,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	dexId: [261]
 }
 
 export default card

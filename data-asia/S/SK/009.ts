@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "銅鏡怪"
+		'zh-tw': "銅鏡怪",
+		ja: "ドーミラー"
 	},
 
 	illustrator: "Mizue",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		'zh-tw': "雖然人們說把銅鏡怪打磨到發光，牠就能映照出真相，但其實牠非常討厭被打磨。"
+		'zh-tw': "雖然人們說把銅鏡怪打磨到發光，牠就能映照出真相，但其實牠非常討厭被打磨。",
+		ja: "磨けば 光り 真実を 映しだすとも いわれるが ドーミラーは とても 嫌がる。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "衝撞"
+			'zh-tw': "衝撞",
+			ja: "ぶつかる"
 		},
 
 		damage: 30,
@@ -35,11 +38,12 @@ const card: Card = {
 
 	resistances: [{
 		type: "Grass",
-		value: "-30"
+		value: "－30"
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+	dexId: [436]
 }
 
 export default card

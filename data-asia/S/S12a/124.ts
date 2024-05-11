@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "雷吉奇卡斯V",
-		th: "เรจิกิกัสV"
+		th: "เรจิกิกัสV",
+		ja: "レジギガスV"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,7 +20,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "頭突",
-			th: "ตบหนัก"
+			th: "ตบหนัก",
+			ja: "ぶちかます"
 		},
 
 		damage: 50,
@@ -27,15 +29,17 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "憤怒懲處",
-			th: "ค้อนฉุนเฉียว"
+			th: "ค้อนฉุนเฉียว",
+			ja: "ふんぬのてっつい"
 		},
 
 		effect: {
 			'zh-tw': "增加這隻寶可夢身上放置的傷害指示物的數量×10點傷害。將這隻寶可夢【混亂】。",
-			th: "แดเมจจะเพิ่มตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x10 ทำให้โปเกมอนนี้เป็นสภาวะ[สับสน]"
+			th: "แดเมจจะเพิ่มตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x10 ทำให้โปเกมอนนี้เป็นสภาวะ[สับสน]",
+			ja: "このポケモンにのっているダメカンの数×10ダメージ追加。このポケモンをこんらんにする。"
 		},
 
-		damage: "100+",
+		damage: "100＋",
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
@@ -45,7 +49,8 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Double rare"
 }
 
 export default card

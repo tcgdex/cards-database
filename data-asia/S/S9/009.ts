@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "結草兒"
+		'zh-tw': "結草兒",
+		ja: "ミノムッチ"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "如果蓑衣在戰鬥中壞掉了，就會用附近的材料 立刻重新做一件蓑衣。"
+		'zh-tw': "如果蓑衣在戰鬥中壞掉了，就會用附近的材料 立刻重新做一件蓑衣。",
+		ja: "戦いで ミノが 壊れてしまうと 近くにある 材料で ミノを すぐに 作り直す。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "垂吊"
+			'zh-tw': "垂吊",
+			ja: "ぶらさがる"
 		},
 
 		damage: 20,
@@ -34,7 +37,9 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [412]
 }
 
 export default card

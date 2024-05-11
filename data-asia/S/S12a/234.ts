@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "洗翠 索羅亞克VSTAR"
+		'zh-tw': "洗翠 索羅亞克VSTAR",
+		ja: "ヒスイ ゾロアークVSTAR"
 	},
 
 	illustrator: "SIE NANAHARA",
@@ -28,15 +29,29 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "牢記詛咒"
+			'zh-tw': "牢記詛咒",
+			ja: "のろいをきざむ"
 		},
 
 		effect: {
-			'zh-tw': "造成自己的場上身上放置有傷害指示物的寶可夢的數量×50點傷害。"
+			'zh-tw': "造成自己的場上身上放置有傷害指示物的寶可夢的數量×50點傷害。",
+			ja: "自分の場のダメカンがのっているポケモンの数×50ダメージ。"
 		},
 
 		damage: "50×",
 		cost: ["Colorless", "Colorless"]
+	}, {
+		name: {
+			ja: "特性"
+		}
+	}, {
+		name: {
+			ja: "ファントムスター"
+		},
+
+		effect: {
+			ja: "自分の番に使える。自分の手札をすべてトラッシュし、山札を7枚引く。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+		}
 	}],
 
 	weaknesses: [{

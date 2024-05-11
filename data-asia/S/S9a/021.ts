@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "泥泥鰍"
+		'zh-tw': "泥泥鰍",
+		ja: "ドジョッチ"
 	},
 
 	illustrator: "Mizue",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "以水質混濁的沼澤為居所，藏身於濁水之中躲避天敵的視線。 體表的黏液使得牠很難用手抓住。"
+		'zh-tw': "以水質混濁的沼澤為居所，藏身於濁水之中躲避天敵的視線。 體表的黏液使得牠很難用手抓住。",
+		ja: "水 濁りし 沼地を 棲み処とす。 視界 悪く 天敵より 姿を隠す。 体表の粘液により 手掴み 難儀なり。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "潑水"
+			'zh-tw': "潑水",
+			ja: "みずかけ"
 		},
 
 		damage: 40,
@@ -34,7 +37,9 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [339]
 }
 
 export default card

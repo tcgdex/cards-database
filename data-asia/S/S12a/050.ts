@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "超夢V",
-		th: "มิวทูV"
+		th: "มิวทูV",
+		ja: "ミュウツーV"
 	},
 
 	illustrator: "Nurikabe",
@@ -19,7 +20,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "超念力",
-			th: "ซูเปอร์โทรจิต"
+			th: "ซูเปอร์โทรจิต",
+			ja: "ちょうねんりき"
 		},
 
 		damage: 50,
@@ -27,12 +29,14 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "轉移破壞",
-			th: "ทรานส์เบรก"
+			th: "ทรานส์เบรก",
+			ja: "トランスブレイク"
 		},
 
 		effect: {
 			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，改附於備戰寶可夢身上。",
-			th: "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 1 ลูก ย้ายไปติดกับโปเกมอนบนเบนช์"
+			th: "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 1 ลูก ย้ายไปติดกับโปเกมอนบนเบนช์",
+			ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。"
 		},
 
 		damage: 160,
@@ -46,11 +50,12 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "-30"
+		value: "－30"
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Double rare"
 }
 
 export default card

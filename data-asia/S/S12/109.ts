@@ -5,10 +5,11 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "洛奇亞V"
+		'zh-tw': "洛奇亞V",
+		ja: "ルギアV"
 	},
 
-	illustrator: "Mitsuhiro Arita",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Colorless"],
@@ -17,21 +18,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "讀風"
+			'zh-tw': "讀風",
+			ja: "かぜよみ"
 		},
 
 		effect: {
-			'zh-tw': "將自己的1張手牌丟棄。然後，從自己的牌庫抽出3張卡。"
+			'zh-tw': "將自己的1張手牌丟棄。然後，從自己的牌庫抽出3張卡。",
+			ja: "自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			'zh-tw': "氣旋俯衝"
+			'zh-tw': "氣旋俯衝",
+			ja: "エアロダイブ"
 		},
 
 		effect: {
-			'zh-tw': "若希望，將場上的競技場卡丟棄。"
+			'zh-tw': "若希望，將場上的競技場卡丟棄。",
+			ja: "のぞむなら、場に出ているスタジアムをトラッシュする。"
 		},
 
 		damage: 130,
@@ -45,7 +50,7 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "-30"
+		value: "－30"
 	}],
 
 	retreat: 2,

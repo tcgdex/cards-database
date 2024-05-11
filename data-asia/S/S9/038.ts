@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "勒克貓"
+		'zh-tw': "勒克貓",
+		ja: "ルクシオ"
 	},
 
 	illustrator: "kurumitsu",
@@ -14,18 +15,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		'zh-tw': "如果與夥伴尾巴牽尾巴，就能借用對方的電能， 然後發出更強的電擊。"
+		'zh-tw': "如果與夥伴尾巴牽尾巴，就能借用對方的電能， 然後發出更強的電擊。",
+		ja: "しっぽを つなげて 仲間から 電気エネルギーを 分けてもらうと より 強い 電撃を 放てる。"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			'zh-tw': "電擊"
+			'zh-tw': "電擊",
+			ja: "でんきショック"
 		},
 
 		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。"
+			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
+			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
 		},
 
 		damage: 30,
@@ -38,7 +42,9 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [404]
 }
 
 export default card

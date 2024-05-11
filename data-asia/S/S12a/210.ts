@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "葉伊布VSTAR"
+		'zh-tw': "葉伊布VSTAR",
+		ja: "リーフィアVSTAR"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -28,15 +29,29 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "葉子防守"
+			'zh-tw': "葉子防守",
+			ja: "リーフガード"
 		},
 
 		effect: {
-			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。"
+			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。",
+			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
 		},
 
 		damage: 180,
 		cost: ["Grass", "Grass", "Colorless"]
+	}, {
+		name: {
+			ja: "特性"
+		}
+	}, {
+		name: {
+			ja: "アイビースター"
+		},
+
+		effect: {
+			ja: "自分の番に使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+		}
 	}],
 
 	weaknesses: [{

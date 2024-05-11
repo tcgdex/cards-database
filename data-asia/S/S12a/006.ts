@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "草苗龜",
-		th: "นาเอเติล"
+		th: "นาเอเติล",
+		ja: "ナエトル"
 	},
 
 	illustrator: "Narumi Sato",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "用全身進行光合作用，製造氧氣。當口渴的時候， 頭上的葉子就會枯萎。",
-		th: "ทั่วร่างกายจะสังเคราะห์แสงเพื่อสร้างออกซิเจน เมื่อคอแห้ง ใบไม้ที่หัวจะเหี่ยวเฉาลง"
+		th: "ทั่วร่างกายจะสังเคราะห์แสงเพื่อสร้างออกซิเจน เมื่อคอแห้ง ใบไม้ที่หัวจะเหี่ยวเฉาลง",
+		ja: "全身で 光合成を して 酸素を 作る。 のどが 渇くと 頭の 葉っぱが しおれてしまう。"
 	},
 
 	stage: "Basic",
@@ -24,7 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "咬住",
-			th: "กัดติด"
+			th: "กัดติด",
+			ja: "かみつく"
 		},
 
 		damage: 10,
@@ -32,7 +35,8 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "魯莽頭擊",
-			th: "กระโดดโหม่ง"
+			th: "กระโดดโหม่ง",
+			ja: "とびだしヘッド"
 		},
 
 		damage: 20,
@@ -45,7 +49,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	dexId: [387]
 }
 
 export default card

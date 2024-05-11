@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "卡比獸"
+		'zh-tw': "卡比獸",
+		ja: "カビゴン"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		'zh-tw': "擁有一個結實的胃，即使吃了發霉腐爛的東西， 也完全不會吃壞肚子。"
+		'zh-tw': "擁有一個結實的胃，即使吃了發霉腐爛的東西， 也完全不會吃壞肚子。",
+		ja: "頑丈な 胃袋は カビの 生えたものや 腐ったものを 食べても 壊れることはない。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "重磅衝擊"
+			'zh-tw': "重磅衝擊",
+			ja: "ヘビーインパクト"
 		},
 
 		damage: 80,
@@ -34,7 +37,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "E"
+	regulationMark: "E",
+	dexId: [143]
 }
 
 export default card

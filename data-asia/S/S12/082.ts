@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "始祖小鳥",
-		th: "อาเคน"
+		th: "อาเคน",
+		ja: "アーケン"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "從化石成功復原的寶可夢。正如研究所指出的，雖然 牠不會飛，但卻擅於跳躍。",
-		th: "ฟื้นสภาพจากฟอสซิลได้สำเร็จ แม้จะไม่สามารถบินได้ตามที่วิจัย แต่เป็นโปเกมอนที่ถนัดด้านการกระโดด"
+		th: "ฟื้นสภาพจากฟอสซิลได้สำเร็จ แม้จะไม่สามารถบินได้ตามที่วิจัย แต่เป็นโปเกมอนที่ถนัดด้านการกระโดด",
+		ja: "化石から 復元に 成功。 研究の とおり 飛べないが ジャンプは 得意な ポケモンだ。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "羽擊",
-			th: "ตีปีก"
+			th: "ตีปีก",
+			ja: "はばたく"
 		},
 
 		damage: 30,
@@ -32,7 +35,8 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "利爪劈擊",
-			th: "กรงเล็บฉีกร่าง"
+			th: "กรงเล็บฉีกร่าง",
+			ja: "ツメできりさく"
 		},
 
 		damage: 80,
@@ -46,11 +50,13 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "-30"
+		value: "－30"
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [566]
 }
 
 export default card

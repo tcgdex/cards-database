@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "捷拉奧拉V",
-		th: "เซราโอราV"
+		th: "เซราโอราV",
+		ja: "ゼラオラV"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +20,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "利爪劈擊",
-			th: "กรงเล็บฉีกร่าง"
+			th: "กรงเล็บฉีกร่าง",
+			ja: "ツメできりさく"
 		},
 
 		damage: 50,
@@ -27,12 +29,14 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "閃電伏特",
-			th: "ธันเดอร์โบลท์"
+			th: "ธันเดอร์โบลท์",
+			ja: "サンダーボルト"
 		},
 
 		effect: {
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้"
+			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+			ja: "次の自分の番、このポケモンはワザが使えない。"
 		},
 
 		damage: 190,
@@ -45,7 +49,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Double rare"
 }
 
 export default card

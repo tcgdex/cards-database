@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "恰雷姆"
+		'zh-tw': "恰雷姆",
+		ja: "チャーレム"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,18 +15,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "能用在瑜伽的修行中鍛鍊出來的精神力量預測對手的行動。"
+		'zh-tw': "能用在瑜伽的修行中鍛鍊出來的精神力量預測對手的行動。",
+		ja: "ヨガの 修行で 鍛えられた サイコパワーで 相手の 動きを 予測する ことが できるのだ。"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			'zh-tw': "戰鬥舞步"
+			'zh-tw': "戰鬥舞步",
+			ja: "バトルステップ"
 		},
 
 		effect: {
-			'zh-tw': "從自己的牌庫選擇最多2張【鬥】能量卡，以任意方式附於備戰寶可夢身上。並且重洗牌庫。"
+			'zh-tw': "從自己的牌庫選擇最多2張【鬥】能量卡，以任意方式附於備戰寶可夢身上。並且重洗牌庫。",
+			ja: "自分の山札からエネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。"
 		},
 
 		damage: 50,
@@ -38,7 +42,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	dexId: [308]
 }
 
 export default card

@@ -5,11 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "基本惡能量"
+		'zh-tw': "基本惡能量",
+		ja: "基本悪エネルギー"
 	},
 
 	category: "Energy",
-	energyType: "Special",
+	energyType: "Normal",
 	regulationMark: "G"
 }
 

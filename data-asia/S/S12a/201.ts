@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "利歐路"
+		'zh-tw': "利歐路",
+		ja: "リオル"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "精力充沛，可以奔跑一整夜。由於牠十分活潑，帶牠散步的人非常辛苦。"
+		'zh-tw': "精力充沛，可以奔跑一整夜。由於牠十分活潑，帶牠散步的人非常辛苦。",
+		ja: "一晩中 走っていられる スタミナを もつ。 活発で 散歩の 相手は たいへん。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "踢倒"
+			'zh-tw': "踢倒",
+			ja: "けたぐり"
 		},
 
 		damage: 50,
@@ -34,7 +37,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	dexId: [447]
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "泥偶小人"
+		'zh-tw': "泥偶小人",
+		ja: "ゴビット"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -14,21 +15,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "誕生自黏土的古代寶可夢。不知為何，有一些泥偶小人 會不斷地把大石頭排列起來。"
+		'zh-tw': "誕生自黏土的古代寶可夢。不知為何，有一些泥偶小人 會不斷地把大石頭排列起來。",
+		ja: "粘土から 生み出された 古代の ポケモン。 なぜか 大岩を 並べ続ける ものも いる。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "擲泥"
+			'zh-tw': "擲泥",
+			ja: "どろかけ"
 		},
 
 		damage: 10,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			'zh-tw': "拍擊"
+			'zh-tw': "拍擊",
+			ja: "はたく"
 		},
 
 		damage: 20,
@@ -41,7 +45,9 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [622]
 }
 
 export default card

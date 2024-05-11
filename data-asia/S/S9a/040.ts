@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "古空棘魚"
+		'zh-tw': "古空棘魚",
+		ja: "ジーランス"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -14,24 +15,28 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "如岩石般堅硬的鱗片以及裝滿了油脂的鰾囊， 讓牠能承受深海的水壓。"
+		'zh-tw': "如岩石般堅硬的鱗片以及裝滿了油脂的鰾囊， 讓牠能承受深海的水壓。",
+		ja: "岩のように 硬い ウロコと 脂の 詰まった 浮袋で 深海の 水圧に 耐える。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "深潛"
+			'zh-tw': "深潛",
+			ja: "ふかもぐり"
 		},
 
 		effect: {
-			'zh-tw': "從自己的棄牌區選擇最多2張基本能量卡，在給對手看過後加入手牌。"
+			'zh-tw': "從自己的棄牌區選擇最多2張基本能量卡，在給對手看過後加入手牌。",
+			ja: "自分のトラッシュから基本エネルギーを2枚まで選び、相手に見せて、手札に加える。"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			'zh-tw': "撞擊"
+			'zh-tw': "撞擊",
+			ja: "たいあたり"
 		},
 
 		damage: 80,
@@ -44,7 +49,9 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Uncommon",
+	dexId: [369]
 }
 
 export default card

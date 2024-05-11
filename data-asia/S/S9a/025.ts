@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "凱路迪歐"
+		'zh-tw': "凱路迪歐",
+		ja: "ケルディオ"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -14,28 +15,32 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "透過下定決心來讓全身 充滿力量並變得敏捷。 當跳躍起來的時候能看到殘影。"
+		'zh-tw': "透過下定決心來讓全身 充滿力量並變得敏捷。 當跳躍起來的時候能看到殘影。",
+		ja: "覚悟を 決めることで 全身に 力が みなぎって 素早くなり 飛び跳ねると 残像が みえる。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "踢飛"
+			'zh-tw': "踢飛",
+			ja: "けとばす"
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			'zh-tw': "隊列之力"
+			'zh-tw': "隊列之力",
+			ja: "ラインフォース"
 		},
 
 		effect: {
-			'zh-tw': "增加自己的備戰寶可夢的數量×20點傷害。"
+			'zh-tw': "增加自己的備戰寶可夢的數量×20點傷害。",
+			ja: "自分のベンチポケモンの数×20ダメージ追加。"
 		},
 
-		damage: "10+",
+		damage: "10＋",
 		cost: ["Water", "Colorless"]
 	}],
 
@@ -45,7 +50,9 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Rare",
+	dexId: [647]
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "彷徨夜靈"
+		'zh-tw': "彷徨夜靈",
+		ja: "サマヨール"
 	},
 
 	illustrator: "miki kudo",
@@ -14,18 +15,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "身體內部是空的。只要一張開嘴就會像 黑洞一樣吸入所有東西。"
+		'zh-tw': "身體內部是空的。只要一張開嘴就會像 黑洞一樣吸入所有東西。",
+		ja: "体の 中は 空っぽ。 口を 開けると ブラックホールの ように なんでも 吸いこんでしまう。"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			'zh-tw': "漆黑"
+			'zh-tw': "漆黑",
+			ja: "あんこく"
 		},
 
 		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
+			'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
+			ja: "相手のバトルポケモンをこんらんにする。"
 		},
 
 		damage: 30,
@@ -39,11 +43,13 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "-30"
+		value: "－30"
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [356]
 }
 
 export default card

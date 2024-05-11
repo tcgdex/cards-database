@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "瑪納霏"
+		'zh-tw': "瑪納霏",
+		ja: "マナフィ"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "有著能與任何寶可夢心意相通的神奇能力。"
+		'zh-tw': "有著能與任何寶可夢心意相通的神奇能力。",
+		ja: "どんな ポケモンとでも 心を 通い合わせる ことが できる 不思議な 能力を 持っている。"
 	},
 
 	stage: "Basic",
@@ -23,17 +25,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			'zh-tw': "浪之幕"
+			'zh-tw': "浪之幕",
+			ja: "なみのヴェール"
 		},
 
 		effect: {
-			'zh-tw': "只要這隻寶可夢在場上，自己的所有備戰寶可夢不會受到對手的招式的傷害。"
+			'zh-tw': "只要這隻寶可夢在場上，自己的所有備戰寶可夢不會受到對手的招式的傷害。",
+			ja: "このポケモンがいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			'zh-tw': "潑水"
+			'zh-tw': "潑水",
+			ja: "みずかけ"
 		},
 
 		damage: 20,
@@ -46,7 +51,9 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Uncommon",
+	dexId: [490]
 }
 
 export default card

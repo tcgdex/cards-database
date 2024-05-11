@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "光輝席多藍恩"
+		'zh-tw': "光輝席多藍恩",
+		ja: "かがやくヒードラン"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -14,18 +15,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		'zh-tw': "體內流著如熔岩般滾燙的血液。 棲息在火山的洞穴裡。"
+		'zh-tw': "體內流著如熔岩般滾燙的血液。 棲息在火山的洞穴裡。",
+		ja: "マグマのように 燃えたぎる 血液が 体を 流れている。 火山の 洞穴に 生息する。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "激狂轟炸"
+			'zh-tw': "激狂轟炸",
+			ja: "レイジングボンバー"
 		},
 
 		effect: {
-			'zh-tw': "造成這隻寶可夢身上放置的傷害指示物的數量×70點傷害。"
+			'zh-tw': "造成這隻寶可夢身上放置的傷害指示物的數量×70點傷害。",
+			ja: "このポケモンにのっているダメカンの数×70ダメージ。"
 		},
 
 		damage: "70×",
@@ -38,7 +42,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "F"
+	regulationMark: "F",
+	dexId: [485]
 }
 
 export default card

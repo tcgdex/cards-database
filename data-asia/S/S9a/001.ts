@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "走路草"
+		'zh-tw': "走路草",
+		ja: "ナゾノクサ"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "沐浴月光就會開始活動。為了四處散播種子， 會在夜晚到處走動。"
+		'zh-tw': "沐浴月光就會開始活動。為了四處散播種子， 會在夜晚到處走動。",
+		ja: "月の光を 浴びて 動きだす。 夜のあいだに タネを あちこちに ばらまくため 歩きまわる。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "衝撞"
+			'zh-tw': "衝撞",
+			ja: "ぶつかる"
 		},
 
 		damage: 30,
@@ -34,7 +37,9 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [43]
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "達克萊伊VSTAR"
+		'zh-tw': "達克萊伊VSTAR",
+		ja: "ダークライVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -28,15 +29,29 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "惡之波動"
+			'zh-tw': "惡之波動",
+			ja: "あくのはどう"
 		},
 
 		effect: {
-			'zh-tw': "增加自己的場上寶可夢身上附加的【惡】能量的數量×30點傷害。"
+			'zh-tw': "增加自己的場上寶可夢身上附加的【惡】能量的數量×30點傷害。",
+			ja: "自分の場のポケモンについているエネルギーの数×30ダメージ追加。"
 		},
 
-		damage: "30+",
+		damage: "30＋",
 		cost: ["Colorless", "Colorless"]
+	}, {
+		name: {
+			ja: "特性"
+		}
+	}, {
+		name: {
+			ja: "スターアビス"
+		},
+
+		effect: {
+			ja: "自分の番に使える。自分のトラッシュからグッズを2枚まで選び、相手に見せて、手札に加える。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+		}
 	}],
 
 	weaknesses: [{

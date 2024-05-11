@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "海星星"
+		'zh-tw': "海星星",
+		ja: "ヒトデマン"
 	},
 
 	illustrator: "Yuka Morii",
@@ -14,18 +15,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "在夏天快結束時到海邊，就能看見成群的海星星 有規律地一閃一閃發光。"
+		'zh-tw': "在夏天快結束時到海邊，就能看見成群的海星星 有規律地一閃一閃發光。",
+		ja: "夏の終わりの 浜辺に 行くと 規則的な リズムで 光る ヒトデマンの 群れが 見られるよ。"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			'zh-tw': "雙重旋轉"
+			'zh-tw': "雙重旋轉",
+			ja: "ダブルスピン"
 		},
 
 		effect: {
-			'zh-tw': "擲2次硬幣，造成正面出現的次數×10點傷害。"
+			'zh-tw': "擲2次硬幣，造成正面出現的次數×10點傷害。",
+			ja: "コインを2回投げ、オモテの数×10ダメージ。"
 		},
 
 		damage: "10×",
@@ -38,7 +42,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "F"
+	regulationMark: "F",
+	dexId: [120]
 }
 
 export default card

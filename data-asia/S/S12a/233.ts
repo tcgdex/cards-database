@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "雷吉奇卡斯VSTAR"
+		'zh-tw': "雷吉奇卡斯VSTAR",
+		ja: "レジギガスVSTAR"
 	},
 
 	illustrator: "Aya Kusube",
@@ -28,15 +29,29 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "終極衝擊"
+			'zh-tw': "終極衝擊",
+			ja: "ギガインパクト"
 		},
 
 		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
+			ja: "次の自分の番、このポケモンはワザが使えない。"
 		},
 
 		damage: 230,
 		cost: ["Colorless", "Colorless", "Colorless"]
+	}, {
+		name: {
+			ja: "特性"
+		}
+	}, {
+		name: {
+			ja: "スターガーディアン"
+		},
+
+		effect: {
+			ja: "相手のサイドの残り枚数が1枚なら、自分の番に使える。相手のベンチポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、トラッシュする。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+		}
 	}],
 
 	weaknesses: [{

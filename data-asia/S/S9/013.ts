@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "謝米VSTAR"
+		'zh-tw': "謝米VSTAR",
+		ja: "シェイミVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -28,15 +29,29 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			'zh-tw': "復仇暴擊"
+			'zh-tw': "復仇暴擊",
+			ja: "リベンジバースト"
 		},
 
 		effect: {
-			'zh-tw': "增加對手已經獲得的獎賞卡的張數×40點傷害。"
+			'zh-tw': "增加對手已經獲得的獎賞卡的張數×40點傷害。",
+			ja: "相手がすでにとったサイドの枚数×40ダメージ追加。"
 		},
 
-		damage: "120+",
+		damage: "120＋",
 		cost: ["Grass", "Colorless"]
+	}, {
+		name: {
+			ja: "特性"
+		}
+	}, {
+		name: {
+			ja: "スターブルーム"
+		},
+
+		effect: {
+			ja: "自分の番に使える。自分のベンチのポケモン全員のHPを、それぞれ「120」回復する。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+		}
 	}],
 
 	weaknesses: [{
