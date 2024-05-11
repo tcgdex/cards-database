@@ -1,3 +1,4 @@
+import { exec } from 'node:child_process'
 import { glob } from 'glob'
 import { Card, Set } from '../../../interfaces'
 import * as legals from '../../../meta/legals'
@@ -78,4 +79,46 @@ export function setIsLegal(type: 'standard' | 'expanded', set: Set): boolean {
 		return !legal.excludes.sets.includes(set.id)
 	}
 	return false
+}
+
+function runCommand(command: string): Promise<string> {
+	return new Promise<string>((res, rej) => {
+		exec(command, (err, out) => {
+			if (err) {
+				rej(err)
+				return
+			}
+			res(out)
+		})
+	})
+}
+
+let lastEditsCache: Record<string, string> = {}
+export async function loadLastEdits() {
+	const firstCommand = 'git ls-tree -r --name-only HEAD ../data'
+	const files = (await runCommand(firstCommand)).split('\n')
+	console.log('Loaded files tree', files.length, 'files')
+	console.log('Loading their last edit time')
+	let processed = 0
+	for (let file of files) {
+		file = file.replace(/"/g, '').replace("\\303\\251", "é")
+		try {
+			lastEditsCache[file] = await runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`)
+		} catch {
+			console.warn('could not load file', file, 'hope it does not break everything else lol')
+		}
+		processed++
+		if (processed % 1000 === 0) {
+			console.log('loaded', processed, 'out of', files.length, 'files')
+		}
+	}
+	console.log('done loading files')
+}
+
+export function getLastEdit(path: string): string {
+	const date = lastEditsCache[path]
+	if (!date) {
+		throw new Error(`edit date not found for file ${path}`)
+	}
+	return date
 }

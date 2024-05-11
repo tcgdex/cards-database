@@ -56,6 +56,20 @@ function simplify(base: ObjectExpression): ObjectField {
 	}
 }
 
+function exists(path: ObjectExpression | ArrayExpression, key: string | number) {
+	if (path.type === 'ObjectExpression') {
+		path.properties.forEach((p) => {
+			const prop = p as Property
+			if ((prop.key as Identifier).name === (key + '')) {
+				return true
+			}
+		})
+		return false
+	} else {
+
+	}
+}
+
 function set(j: JSCodeshift, path: ObjectExpression | ArrayExpression, value: Possible, key: string | number, options?: {override?: boolean}) {
 
 	let exists = false
