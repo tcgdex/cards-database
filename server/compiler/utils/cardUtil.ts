@@ -186,6 +186,7 @@ export async function getCardLastEdit(localId: string, card: Card, lang: Support
 			const path = `../${getDataFolder(lang)}/${card.set.serie.id}/${card.set.id}/${localId}.ts`
 			return getLastEdit(path)
 		} catch (e2) {
+			console.error(card)
 			console.error(e)
 			throw e2
 		}

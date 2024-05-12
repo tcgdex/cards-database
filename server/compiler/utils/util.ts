@@ -131,8 +131,7 @@ let lastEditsCache: Record<string, string> = {}
 export async function loadLastEdits() {
 	const firstCommand = 'git ls-tree -r --name-only HEAD ../data'
 	const files = (await runCommand(firstCommand)).split('\n')
-	await writeFileSync('filesa.json', JSON.stringify(files, undefined, '\t'))
-	const secondCommand = 'git ls-tree -r --name-only HEAD ../data-adia'
+	const secondCommand = 'git ls-tree -r --name-only HEAD ../data-asia'
 	files.push(...(await runCommand(secondCommand)).split('\n'))
 	console.log('Loaded files tree', files.length, 'files')
 	console.log('Loading their last edit time')
@@ -150,7 +149,6 @@ export async function loadLastEdits() {
 			console.log('loaded', processed, 'out of', files.length, 'files')
 		}
 	}
-	await writeFileSync('data.json', JSON.stringify(lastEditsCache, undefined, '\t'))
 	console.log('done loading files', objectSize(lastEditsCache))
 }
 
