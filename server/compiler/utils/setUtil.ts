@@ -20,12 +20,14 @@ export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
  */
 export async function getSet(name: string, serie = '*', lang: SupportedLanguages): Promise<Set> {
 	if (!setCache[name]) {
+		const file = `${DB_PATH}/${getDataFolder(lang)}/${serie}/${name}.ts`
 		try {
-			const [path] = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${serie}/${name}.ts`)
+			const [path] = await smartGlob(file)
+			console.log(`${DB_PATH}/${getDataFolder(lang)}/${serie}/${name}.ts`)
 			setCache[name] = (await import(`../../${path}`)).default
 		} catch (error) {
 			console.error(error)
-			console.error(`Error trying to import importing (${`db/data/${serie}/${name}.ts`})`)
+			console.error(`Error trying to import importing (${file})`)
 			process.exit(1)
 		}
 	}

@@ -1,5 +1,7 @@
-import { exec } from 'node:child_process'
+import { objectSize } from '@dzeio/object-util'
 import { glob } from 'glob'
+import { exec, spawn } from 'node:child_process'
+import { writeFileSync } from 'node:fs'
 import { Card, Set, SupportedLanguages } from '../../../interfaces'
 import * as legals from '../../../meta/legals'
 
@@ -85,11 +87,39 @@ export function getDataFolder(lang: SupportedLanguages) {
 	return ['ja', 'ko', 'zh-tw', 'id', 'th', 'zh-cn'].includes(lang) ? 'data-asia' : 'data'
 }
 
-function runCommand(command: string): Promise<string> {
+/**
+ * run a command on the OS, it uses Spawn by default because exec seems to have a bug linked to the Buffer
+ *
+ * @param command the command to run
+ * @param useSpawn select the method to use to run the command
+ * @returns a string with the stdout
+ */
+function runCommand(command: string, useSpawn = true): Promise<string> {
+	if (!useSpawn) {
+		return new Promise<string>((res, rej) => {
+			exec(command, (err, out) => {
+				if (err) {
+					rej(err)
+				}
+				res(out)
+			})
+		})
+	}
+	const splitted = command.split(' ')
+	command = splitted.shift()!
+
 	return new Promise<string>((res, rej) => {
-		exec(command, (err, out) => {
-			if (err) {
-				rej(err)
+		const cmd = spawn(command, splitted)
+		let out: string = ''
+		cmd.stdout.on('data', (data) => {
+			out += data.toString()
+			console.log(data.toString());
+		})
+
+		cmd.on('close', (code) => {
+			if (code !== 0) {
+				console.log(`grep process exited with code ${code}`);
+				rej(code)
 				return
 			}
 			res(out)
@@ -101,13 +131,17 @@ let lastEditsCache: Record<string, string> = {}
 export async function loadLastEdits() {
 	const firstCommand = 'git ls-tree -r --name-only HEAD ../data'
 	const files = (await runCommand(firstCommand)).split('\n')
+	await writeFileSync('filesa.json', JSON.stringify(files, undefined, '\t'))
+	const secondCommand = 'git ls-tree -r --name-only HEAD ../data-adia'
+	files.push(...(await runCommand(secondCommand)).split('\n'))
 	console.log('Loaded files tree', files.length, 'files')
 	console.log('Loading their last edit time')
 	let processed = 0
 	for (let file of files) {
 		file = file.replace(/"/g, '').replace("\\303\\251", "é")
 		try {
-			lastEditsCache[file] = await runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`)
+			// don't really know why but it does not correctly execute the command when using Spawn
+			lastEditsCache[file] = await runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false)
 		} catch {
 			console.warn('could not load file', file, 'hope it does not break everything else lol')
 		}
@@ -116,7 +150,8 @@ export async function loadLastEdits() {
 			console.log('loaded', processed, 'out of', files.length, 'files')
 		}
 	}
-	console.log('done loading files')
+	await writeFileSync('data.json', JSON.stringify(lastEditsCache, undefined, '\t'))
+	console.log('done loading files', objectSize(lastEditsCache))
 }
 
 export function getLastEdit(path: string): string {

@@ -108,7 +108,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			standard: cardIsLegal('standard', card, localId),
 			expanded: cardIsLegal('expanded', card, localId)
 		},
-		updated: await getCardLastEdit(localId, card)
+		updated: await getCardLastEdit(localId, card, lang)
 	}
 }
 
@@ -177,7 +177,17 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 	})
 }
 
-async function getCardLastEdit(localId: string, card: Card): Promise<string> {
-	const path = `../data/${card.set.serie.name.en}/${card.set.name.en ?? card.set.name.fr}/${localId}.ts`
-	return getLastEdit(path)
+export async function getCardLastEdit(localId: string, card: Card, lang: SupportedLanguages): Promise<string> {
+	try {
+		const path = `../${getDataFolder(lang)}/${card.set.serie.name.en}/${card.set.name.en ?? card.set.name.fr}/${localId}.ts`
+		return getLastEdit(path)
+	} catch (e) {
+		try {
+			const path = `../${getDataFolder(lang)}/${card.set.serie.id}/${card.set.id}/${localId}.ts`
+			return getLastEdit(path)
+		} catch (e2) {
+			console.error(e)
+			throw e2
+		}
+	}
 }
