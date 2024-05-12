@@ -23,7 +23,7 @@ export async function getSet(name: string, serie = '*', lang: SupportedLanguages
 		const file = `${DB_PATH}/${getDataFolder(lang)}/${serie}/${name}.ts`
 		try {
 			const [path] = await smartGlob(file)
-			console.log(`${DB_PATH}/${getDataFolder(lang)}/${serie}/${name}.ts`)
+			// console.log(`${DB_PATH}/${getDataFolder(lang)}/${serie}/${name}.ts`)
 			setCache[name] = (await import(`../../${path}`)).default
 		} catch (error) {
 			console.error(error)
