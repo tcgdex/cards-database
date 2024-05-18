@@ -1,0 +1,17 @@
+meta {
+  name: 489 - Crash When sorting with Null values
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards?name=pikachu&sort:field=hp&sort:order=DESC
+  body: none
+  auth: none
+}
+
+query {
+  name: pikachu
+  sort:field: hp
+  sort:order: DESC
+}
