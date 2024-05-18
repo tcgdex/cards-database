@@ -1,4 +1,5 @@
 import { SupportedLanguages } from '../../../interfaces'
+import { Set } from '../../../meta/definitions/api'
 import { FileFunction } from '../compilerInterfaces'
 import { getCards } from '../utils/cardUtil'
 import { getSeries } from '../utils/serieUtil'
@@ -19,7 +20,15 @@ const fn: FileFunction = async (lang: SupportedLanguages) => {
 
 	const langSets = await Promise.all(await getSets(undefined, lang).then((sets) => sets.map(async (set) => await setToSetSingle(set, lang))))
 	const englishSets = await Promise.all(await getSets(undefined, referenceLang).then((sets) => sets.map(async (set) => await setToSetSingle(set, referenceLang))))
-	stats.total = langSets.reduce((p, set) => p + (englishSets.find((s) => set.id === s.id)?.cardCount?.total ?? 0), 0)
+	function max(lSet?: Set, refSet?: Set) {
+		if (!lSet) return refSet!.cardCount.total
+		if (!refSet) return lSet.cardCount.total
+		if (lSet.cardCount.total > refSet.cardCount.total) {
+			return lSet.cardCount.total
+		}
+		return refSet.cardCount.total
+	}
+	stats.total = langSets.reduce((p, set) => p + max(set, englishSets.find((s) => set.id === s.id)), 0)
 	stats.images = langSets.reduce((p1, set) => p1 + (set.cards.reduce((p2, card) => p2 + (card.image ? 1 : 0), 0)), 0)
 	stats.sets = {}
 

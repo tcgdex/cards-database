@@ -113,12 +113,11 @@ function runCommand(command: string, useSpawn = true): Promise<string> {
 		let out: string = ''
 		cmd.stdout.on('data', (data) => {
 			out += data.toString()
-			console.log(data.toString());
 		})
 
 		cmd.on('close', (code) => {
 			if (code !== 0) {
-				console.log(`grep process exited with code ${code}`);
+				console.log(`command exited with code ${code}`);
 				rej(code)
 				return
 			}

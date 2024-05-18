@@ -266,6 +266,9 @@ export default express.Router()
 			.serie td.empty, .empty {
 				background: #ff000070;
 			}
+			.serie td.too-much, .too-much {
+				background: white;
+			}
 			h1, h2 {
 				margin: 1em 0;
 				text-align: center;
@@ -395,8 +398,8 @@ export default express.Router()
 							// const imgPercent = 100 //100 * item.images / (setTotal?.cardCount.total ?? 1)
 
 							// append to string :D
-							str +=`<td class="${percent === 100 ? '' : percent === 0 ? 'empty' : 'missing-cards'}">${percent.toFixed(2)}% <br />(${item.count})</td>
-							<td class="${imgPercent === 100 ? '' : imgPercent === 0 ? 'empty' : 'missing-img'}">${imgPercent.toFixed(2)}% <br />(${item.images})</td>`
+							str +=`<td class="${percent > 100 ? 'too-much' : percent === 100 ? '' : percent === 0 ? 'empty' : 'missing-cards'}">${percent.toFixed(2)}% <br />(${item.count})</td>
+							<td class="${imgPercent > 100 ? 'too-much' : imgPercent === 100 ? '' : imgPercent === 0 ? 'empty' : 'missing-img'}">${imgPercent.toFixed(2)}% <br />(${item.images})</td>`
 						})
 
 						// finish Row
