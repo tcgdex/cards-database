@@ -176,7 +176,7 @@ const advSort = (a?: string | number, b?: string | number, order: 'ASC' | 'DESC'
 		return a - b
 	}
 
-	return a.toString().localeCompare(b.toString())
+	return a!.toString().localeCompare(b!.toString())
 }
 
 function tryParse(value: string | number): number | null {
