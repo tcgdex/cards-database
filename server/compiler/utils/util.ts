@@ -145,7 +145,7 @@ export async function loadLastEdits() {
 		}
 		processed++
 		if (processed % 1000 === 0) {
-			console.log('loaded', processed, 'out of', files.length, 'files')
+			console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
 		}
 	}
 	console.log('done loading files', objectSize(lastEditsCache))
