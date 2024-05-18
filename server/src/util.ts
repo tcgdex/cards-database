@@ -150,9 +150,21 @@ export function handleSort(data: Array<any>, query: Query<any>) {
  * @param order the base ordering
  * @returns a function that is feed in the `sort` function
  */
-const advSort = (a: string | number, b: string | number, order: 'ASC' | 'DESC' = 'ASC') => {
-	a = tryParse(a) ?? a
-	b = tryParse(b) ?? b
+const advSort = (a?: string | number, b?: string | number, order: 'ASC' | 'DESC' = 'ASC') => {
+	const isANull = isNull(a)
+	const isBNull = isNull(b)
+	if (isANull && isBNull) {
+		return 0
+	}
+	if (isANull) {
+		return order === 'ASC' ? -1 : 1
+	}
+	if (isBNull) {
+		return order === 'ASC' ? 1 : -1
+	}
+
+	a = tryParse(a!) ?? a
+	b = tryParse(b!) ?? b
 
 	if (order === 'DESC') {
 		const tmp = a
@@ -164,7 +176,7 @@ const advSort = (a: string | number, b: string | number, order: 'ASC' | 'DESC' =
 		return a - b
 	}
 
-	return a.toString().localeCompare(b.toString())
+	return a!.toString().localeCompare(b!.toString())
 }
 
 function tryParse(value: string | number): number | null {
