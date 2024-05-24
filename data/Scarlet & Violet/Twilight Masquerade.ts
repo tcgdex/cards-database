@@ -2,7 +2,7 @@ import { Set } from '../../interfaces'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
-	id: "sv01",
+	id: "sv06",
 
 	name: {
 		de: "Maskerade im Zwielicht",
@@ -16,10 +16,10 @@ const set: Set = {
 	serie: serie,
 
 	cardCount: {
-		official: 198
+		official: 167
 	},
 
-	releaseDate: "2023-03-31"
+	releaseDate: "2024-05-24"
 }
 
 export default set
