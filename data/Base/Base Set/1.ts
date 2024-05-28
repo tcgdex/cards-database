@@ -58,7 +58,7 @@ const card: Card = {
 				de: "Konfustrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Definding Pokémon is now Confused.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon défenseur est maintenant Confus.",
 				de: "Wirf eine Münze bei \"Kopf\" ist das verteidigende Pokémon verwirrt"
 			},
