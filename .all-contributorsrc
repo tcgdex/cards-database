@@ -52,6 +52,15 @@
       "contributions": [
         "data"
       ]
+    },
+    {
+      "login": "spyworldxp",
+      "name": "Clement Yuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1112701?v=4",
+      "profile": "http://imclement.com",
+      "contributions": [
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -60,5 +69,6 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
