@@ -3,13 +3,6 @@ import express from 'express'
 import Serie from './V2/Components/Serie'
 import Set from './V2/Components/Set'
 
-import deStats from '../generated/de/stats.json'
-import enStats from '../generated/en/stats.json'
-import esStats from '../generated/es/stats.json'
-import frStats from '../generated/fr/stats.json'
-import itStats from '../generated/it/stats.json'
-import ptStats from '../generated/pt/stats.json'
-
 import de from '../generated/de/stats.json'
 import en from '../generated/en/stats.json'
 import es from '../generated/es/stats.json'
@@ -20,7 +13,7 @@ import ja from '../generated/ja/stats.json'
 import ko from '../generated/ko/stats.json'
 import nl from '../generated/nl/stats.json'
 import pl from '../generated/pl/stats.json'
-import ptbr from '../generated/pt-br/stats.json'
+// import ptbr from '../generated/pt-br/stats.json'
 import ptpt from '../generated/pt-pt/stats.json'
 import pt from '../generated/pt/stats.json'
 import ru from '../generated/ru/stats.json'
@@ -353,7 +346,7 @@ export default express.Router()
 		<table class="serie">
 		${objectMap(setsData, (serie, serieId) => {
 			// Loop through every series and name them
-			const name = Serie.findOne('en', { filters: { id: serieId }})?.name ?? Serie.findOne('ja', { filters: { id: serieId }})?.name
+			const name = Serie.findOne('en', { filters: { id: serieId }})?.name ?? Serie.findOne('ja' as any, { filters: { id: serieId }})?.name
 			return `
 				<thead>
 					<tr><th class="notop" colspan="35"><h2>${name} (${serieId})</h2></th></tr>
