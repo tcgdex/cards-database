@@ -128,6 +128,7 @@ function runCommand(command: string, useSpawn = true): Promise<string> {
 
 let lastEditsCache: Record<string, string> = {}
 export async function loadLastEdits() {
+	console.log('Loading Git File Tree...')
 	const firstCommand = 'git ls-tree -r --name-only HEAD ../data'
 	const files = (await runCommand(firstCommand)).split('\n')
 	const secondCommand = 'git ls-tree -r --name-only HEAD ../data-asia'
