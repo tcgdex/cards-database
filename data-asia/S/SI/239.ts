@@ -1,0 +1,46 @@
+import { Card } from "../../../interfaces"
+import Set from "../SI"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "大炭車"
+	},
+
+	illustrator: "Uta",
+	category: "Pokemon",
+	hp: 100,
+	types: ["Fighting"],
+	stage: "Stage1",
+
+	attacks: [{
+		name: {
+			'zh-tw': "撞擊"
+		},
+
+		damage: 50,
+		cost: ["Colorless", "Colorless", "Colorless"]
+	}, {
+		name: {
+			'zh-tw': "狂野衝撞"
+		},
+
+		effect: {
+			'zh-tw': "這隻寶可夢也受到10點傷害。"
+		},
+
+		damage: 100,
+		cost: ["Fighting", "Colorless", "Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "×2"
+	}],
+
+	retreat: 3,
+	regulationMark: "E"
+}
+
+export default card

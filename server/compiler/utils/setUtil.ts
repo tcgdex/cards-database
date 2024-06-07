@@ -1,7 +1,8 @@
+import { objectKeys } from '@dzeio/object-util'
 import { Set, SupportedLanguages } from '../../../interfaces'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
 import { cardToCardSimple, getCards } from './cardUtil'
-import { DB_PATH, fetchRemoteFile, setIsLegal, smartGlob } from './util'
+import { DB_PATH, fetchRemoteFile, getDataFolder, setIsLegal, smartGlob } from './util'
 
 interface t {
 	[key: string]: Set
@@ -17,14 +18,16 @@ export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
  * Return the set
  * @param name the name of the set
  */
-export async function getSet(name: string, serie = '*'): Promise<Set> {
+export async function getSet(name: string, serie = '*', lang: SupportedLanguages): Promise<Set> {
 	if (!setCache[name]) {
+		const file = `${DB_PATH}/${getDataFolder(lang)}/${serie}/${name}.ts`
 		try {
-			const [path] = await smartGlob(`${DB_PATH}/data/${serie}/${name}.ts`)
+			const [path] = await smartGlob(file)
+			// console.log(`${DB_PATH}/${getDataFolder(lang)}/${serie}/${name}.ts`)
 			setCache[name] = (await import(`../../${path}`)).default
 		} catch (error) {
 			console.error(error)
-			console.error(`Error trying to import importing (${`db/data/${serie}/${name}.ts`})`)
+			console.error(`Error trying to import importing (${file})`)
 			process.exit(1)
 		}
 	}
@@ -34,9 +37,9 @@ export async function getSet(name: string, serie = '*'): Promise<Set> {
 // Dont use cache as it wont necessary have them all
 export async function getSets(serie = '*', lang: SupportedLanguages): Promise<Array<Set>> {
 	// list sets names
-	const rawSets = (await smartGlob(`${DB_PATH}/data/${serie}/*.ts`)).map((set) => set.substring(set.lastIndexOf('/') + 1, set.lastIndexOf('.')))
+	const rawSets = (await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${serie}/*.ts`)).map((set) => set.substring(set.lastIndexOf('/') + 1, set.lastIndexOf('.')))
 	// Fetch sets
-	const sets = (await Promise.all(rawSets.map((set) => getSet(set, serie))))
+	const sets = (await Promise.all(rawSets.map((set) => getSet(set, serie, lang))))
 		// Filter sets
 		.filter((set) => isSetAvailable(set, lang))
 		// Sort sets by release date
@@ -93,7 +96,7 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 		},
 		logo: pics[0],
 		name: set.name[lang] as string,
-		releaseDate: set.releaseDate,
+		releaseDate: typeof set.releaseDate === 'object' ? set.releaseDate[lang] ?? set.releaseDate[objectKeys(set.releaseDate)[0]]! : set.releaseDate,
 		serie: {
 			id: set.serie.id,
 			name: set.serie.name[lang] as string

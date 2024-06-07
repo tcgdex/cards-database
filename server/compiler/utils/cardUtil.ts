@@ -2,9 +2,9 @@
 import { exec } from 'child_process'
 import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
 import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
-import { setToSetSimple } from './setUtil'
+import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
-import { DB_PATH, cardIsLegal, fetchRemoteFile, getLastEdit, smartGlob } from './util'
+import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, smartGlob } from './util'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -108,7 +108,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			standard: cardIsLegal('standard', card, localId),
 			expanded: cardIsLegal('expanded', card, localId)
 		},
-		updated: await getCardLastEdit(localId, card)
+		updated: await getCardLastEdit(localId, card, lang)
 	}
 }
 
@@ -118,8 +118,12 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
  * @param id the local id of the card
  * @returns [the local id, the Card object]
  */
-export async function getCard(serie: string, setName: string, id: string): Promise<Card> {
-	return (await import(`../../${DB_PATH}/data/${serie}/${setName}/${id}.ts`)).default
+export async function getCard(set: Set, id: string, lang: SupportedLanguages): Promise<Card> {
+	try {
+		return (await import(`../../${DB_PATH}/${getDataFolder(lang)}/${set.serie.name.en ?? set.serie.name[lang]}/${set.name.en ?? set.name[lang]}/${id}.ts`)).default
+	} catch {
+		return (await import(`../../${DB_PATH}/${getDataFolder(lang)}/${set.serie.id}/${set.id}/${id}.ts`)).default
+	}
 }
 
 /**
@@ -129,7 +133,10 @@ export async function getCard(serie: string, setName: string, id: string): Promi
  * @returns An array with the 0 = localId, 1 = Card Object
  */
 export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Array<[string, Card]>> {
-	const cards = await smartGlob(`${DB_PATH}/data/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.ts`)
+	let cards = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${(set && (set.serie.name.en ?? set.serie.name[lang])) ?? '*'}/${(set && (set.name.en ?? set.name[lang])) ?? '*'}/*.ts`)
+	if (cards.length === 0) {
+		cards = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${(set && set.serie.id) ?? '*'}/${(set && set.id) ?? '*'}/*.ts`)
+	}
 	const list: Array<[string, Card]> = []
 	for (const path of cards) {
 		let items = path.split('/')
@@ -140,12 +147,19 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 		id = id.substring(0, id.lastIndexOf('.'))
 
 		// get it's set name
-		const setName = (set && set.name.en) ?? items[1]
+		const setName = items[1]
 
 		// get it's serie name
-		const serieName = (set && set.serie.name.en) ?? items[0]
-		// console.log(path, id, setName)
-		const c = await getCard(serieName, setName, id)
+		const serieName = items[0]
+
+		const set = await getSet(setName, serieName, lang)
+
+		if (!(lang in set.name)) {
+			continue
+		}
+
+		// console.log(path, id, set, lang)
+		const c = await getCard(set, id, lang)
 		if (!c.name[lang]) {
 			continue
 		}
@@ -163,7 +177,18 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 	})
 }
 
-async function getCardLastEdit(localId: string, card: Card): Promise<string> {
-	const path = `../data/${card.set.serie.name.en}/${card.set.name.en ?? card.set.name.fr}/${localId}.ts`
-	return getLastEdit(path)
+export async function getCardLastEdit(localId: string, card: Card, lang: SupportedLanguages): Promise<string> {
+	try {
+		const path = `../${getDataFolder(lang)}/${card.set.serie.name.en}/${card.set.name.en ?? card.set.name.fr}/${localId}.ts`
+		return getLastEdit(path)
+	} catch (e) {
+		try {
+			const path = `../${getDataFolder(lang)}/${card.set.serie.id}/${card.set.id}/${localId}.ts`
+			return getLastEdit(path)
+		} catch (e2) {
+			console.error(card)
+			console.error(e)
+			throw e2
+		}
+	}
 }

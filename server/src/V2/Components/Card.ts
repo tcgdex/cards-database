@@ -4,21 +4,42 @@ import { Query } from '../../interfaces'
 import { handlePagination, handleSort, handleValidation } from '../../util'
 import Set from './Set'
 
-
-import deCards from '../../../generated/de/cards.json'
-import enCards from '../../../generated/en/cards.json'
-import esCards from '../../../generated/es/cards.json'
-import frCards from '../../../generated/fr/cards.json'
-import itCards from '../../../generated/it/cards.json'
-import ptCards from '../../../generated/pt/cards.json'
+import en from '../../../generated/en/cards.json'
+import fr from '../../../generated/fr/cards.json'
+import es from '../../../generated/es/cards.json'
+import it from '../../../generated/it/cards.json'
+import pt from '../../../generated/pt/cards.json'
+import ptbr from '../../../generated/pt-br/cards.json'
+import ptpt from '../../../generated/pt-pt/cards.json'
+import de from '../../../generated/de/cards.json'
+import nl from '../../../generated/nl/cards.json'
+import pl from '../../../generated/pl/cards.json'
+import ru from '../../../generated/ru/cards.json'
+import ja from '../../../generated/ja/cards.json'
+import ko from '../../../generated/ko/cards.json'
+import zhtw from '../../../generated/zh-tw/cards.json'
+import id from '../../../generated/id/cards.json'
+import th from '../../../generated/th/cards.json'
+import zhcn from '../../../generated/zh-cn/cards.json'
 
 const cards = {
-	de: deCards,
-	en: enCards,
-	es: esCards,
-	fr: frCards,
-	it: itCards,
-	pt: ptCards
+	'en': en,
+	'fr': fr,
+	'es': es,
+	'it': it,
+	'pt': pt,
+	'pt-br': ptbr,
+	'pt-pt': ptpt,
+	'de': de,
+	'nl': nl,
+	'pl': pl,
+	'ru': ru,
+	'ja': ja,
+	'ko': ko,
+	'zh-tw': zhtw,
+	'id': id,
+	'th': th,
+	'zh-cn': zhcn,
 } as const
 
 type LocalCard = Omit<SDKCard, 'set'> & {set: () => Set}

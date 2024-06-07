@@ -1,10 +1,10 @@
 import { Serie, Set, SupportedLanguages } from '../../../interfaces'
 import { SerieResume, Serie as SerieSingle } from '../../../meta/definitions/api'
 import { getSets, setToSetSimple } from './setUtil'
-import { DB_PATH, smartGlob } from './util'
+import { DB_PATH, getDataFolder, smartGlob } from './util'
 
-export async function getSerie(name: string): Promise<Serie> {
-	return (await import(`../../${DB_PATH}/data/${name}.ts`)).default
+export async function getSerie(name: string, lang: SupportedLanguages): Promise<Serie> {
+	return (await import(`../../${DB_PATH}/${getDataFolder(lang)}/${name}.ts`)).default
 }
 
 export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): Promise<boolean> {
@@ -16,11 +16,11 @@ export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): 
 }
 
 export async function getSeries(lang: SupportedLanguages): Promise<Array<Serie>> {
-	let series: Array<Serie> = (await Promise.all((await smartGlob(`${DB_PATH}/data/*.ts`))
+	let series: Array<Serie> = (await Promise.all((await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/*.ts`))
 		// Find Serie's name
 		.map((it) => it.substring(it.lastIndexOf('/') + 1, it.length - 3))
 		// Fetch the Serie
-		.map((it) => getSerie(it))))
+		.map((it) => getSerie(it, lang))))
 		// Filter the serie if no name's exists in the selected lang
 		.filter((serie) => Boolean(serie.name[lang]))
 

@@ -1,4 +1,4 @@
-import { ArrayExpression, Identifier, JSCodeshift, Literal, ObjectExpression, Property, Transform } from "jscodeshift";
+import { ArrayExpression, Identifier, JSCodeshift, Literal, ObjectExpression, Property, Transform } from "jscodeshift"
 
 interface ObjectField {
 	type: 'Object'
@@ -86,6 +86,11 @@ function set(j: JSCodeshift, path: ObjectExpression | ArrayExpression, value: Po
 			}
 		})
 		if (exists) {return}
+
+		if (key.toString().includes('-')) {
+			key = `'${key.toString()}'`
+		}
+
 		path.properties.push(j.property('init', j.identifier(key + ''), value))
 	} else {
 
