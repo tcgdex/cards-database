@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
+	dexId: [145],
 	name: {
 		en: "Zapdos",
 		fr: "Électhor",

@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Lost Origin"
 
 const card: Card = {
+	dexId: [315],
 	set: Set,
 
 	name: {

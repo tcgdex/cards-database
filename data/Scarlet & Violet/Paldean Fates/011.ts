@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Paldean Fates"
 
 const card: Card = {
+	dexId: [322],
 	set: Set,
 
 	name: {

@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../HS trainer Kit (Zoroark)'
 
 const card: Card = {
+	dexId: [571],
 	set: Set,
 
 	name: {

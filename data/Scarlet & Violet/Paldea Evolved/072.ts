@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
+	dexId: [871],
 	set: Set,
 
 	name: {

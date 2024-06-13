@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Best of game'
 
 const card: Card = {
+	dexId: [107],
 	set: Set,
 
 	name: {

@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Macdonald\'s Collection 2017'
 
 const card: Card = {
+	dexId: [722],
 	set: Set,
 
 	variants: {

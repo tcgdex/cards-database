@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Astral Radiance"
 
 const card: Card = {
+	dexId: [462],
 	set: Set,
 
 	name: {

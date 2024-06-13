@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../XY trainer Kit (Noivern)'
 
 const card: Card = {
+	dexId: [24],
 	set: Set,
 
 	name: {

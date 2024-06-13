@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Crown Zenith"
 
 const card: Card = {
+	dexId: [44],
 	set: Set,
 
 	name: {

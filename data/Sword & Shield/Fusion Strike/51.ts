@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Fusion Strike"
 
 const card: Card = {
+	dexId: [91],
 	set: Set,
 
 	name: {

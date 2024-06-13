@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [364],
 	set: Set,
 
 	name: {

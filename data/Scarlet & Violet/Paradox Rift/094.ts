@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Paradox Rift"
 
 const card: Card = {
+	dexId: [443],
 	set: Set,
 
 	name: {
