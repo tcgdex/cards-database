@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Pokémon GO"
 
 const card: Card = {
+	dexId: [322],
 	set: Set,
 
 	name: {

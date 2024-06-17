@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Macdonald\'s Collection 2021'
 
 const card: Card = {
+	dexId: [810],
 	name: {
 		en: "Grookey",
 		fr: "Ouistempo",

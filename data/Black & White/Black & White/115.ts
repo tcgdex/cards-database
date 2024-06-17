@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Black & White'
 
 const card: Card = {
+	dexId: [25],
 	name: {
 		fr: "Pikachu",
 		en: "Pikachu",

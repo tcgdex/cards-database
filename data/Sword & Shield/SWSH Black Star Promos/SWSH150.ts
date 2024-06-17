@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
+	dexId: [134],
 	set: Set,
 	illustrator: "5ban Graphics",
 	category: "Pokemon",

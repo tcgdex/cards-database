@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
+	dexId: [41],
 	set: Set,
 
 	name: {

@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
+	dexId: [282],
 	name: {
 		en: "Gardevoir V",
 		fr: "Gardevoir V",

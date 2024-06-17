@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Unified Minds'
 
 const card: Card = {
+	dexId: [772],
 	name: {
 		en: "Type: Null",
 		fr: "Type:0",
