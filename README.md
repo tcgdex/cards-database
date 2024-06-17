@@ -17,7 +17,7 @@
 		<img src="https://img.shields.io/github/workflow/status/tcgdex/cards-database/Compile?style=flat-square" alt="Compiler build passing" />
 	</a>
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square" alt="All Contributors Badge" /></a>
+<a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square" alt="All Contributors Badge" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
@@ -91,6 +91,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Maxopoly"><img src="https://avatars.githubusercontent.com/u/12138136?v=4?s=100" width="100px;" alt="Maxopoly"/><br /><sub><b>Maxopoly</b></sub></a><br /><a href="#data-Maxopoly" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/calli23"><img src="https://avatars.githubusercontent.com/u/24553863?v=4?s=100" width="100px;" alt="calli23"/><br /><sub><b>calli23</b></sub></a><br /><a href="#data-calli23" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://imclement.com"><img src="https://avatars.githubusercontent.com/u/1112701?v=4?s=100" width="100px;" alt="Clement Yuan"/><br /><sub><b>Clement Yuan</b></sub></a><br /><a href="#data-spyworldxp" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Reloadaxe"><img src="https://avatars.githubusercontent.com/u/44167126?v=4?s=100" width="100px;" alt="Benjamin Rousseliere"/><br /><sub><b>Benjamin Rousseliere</b></sub></a><br /><a href="#data-Reloadaxe" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
