@@ -17,7 +17,7 @@ jobs:
 
 
     - name: Setup BunJS
-      uses: oven-sh/setup-bun@v1
+      uses: oven-sh/setup-bun@v2
 
     - name: Install deps
       run: |
