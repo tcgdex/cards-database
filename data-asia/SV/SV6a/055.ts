@@ -16,7 +16,8 @@ const card: Card = {
 	},
 
 	trainerType: "Item",
-	regulationMark: "H"
+	regulationMark: "H",
+	rarity: "ACE SPEC Rare"
 }
 
 export default card

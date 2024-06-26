@@ -46,7 +46,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "H"
+	regulationMark: "H",
+	rarity: "Common"
 }
 
 export default card
