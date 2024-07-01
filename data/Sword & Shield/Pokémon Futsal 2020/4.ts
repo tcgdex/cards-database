@@ -44,7 +44,12 @@ const card: Card = {
 		}
 	}],
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		holo: false,
+		normal: false
+	}
 }
 
 export default card

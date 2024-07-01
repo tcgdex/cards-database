@@ -38,7 +38,11 @@ const card: Card = {
 		damage: 20
 	}],
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		reverse: false
+	}
 }
 
 export default card

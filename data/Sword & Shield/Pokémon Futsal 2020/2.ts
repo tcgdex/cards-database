@@ -38,7 +38,12 @@ const card: Card = {
 		damage: 20
 	}],
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		holo: false
+	}
 }
 
 export default card
