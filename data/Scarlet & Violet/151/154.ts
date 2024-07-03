@@ -57,7 +57,11 @@ const card: Card = {
 		effect: {
 			es: "Se evitan todos los efectos de las habilidades de los Pokémon de tu rival infligidos a este Pokémon."
 		}
-	}]
+	}],
+
+	variants: {
+		holo: false
+	}
 }
 
 export default card

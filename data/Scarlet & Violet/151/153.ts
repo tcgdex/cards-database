@@ -57,7 +57,11 @@ const card: Card = {
 		effect: {
 			es: "Mientras este Pokémon esté en el Puesto Activo, tu rival no puede jugar ninguna carta de Estadio de su mano."
 		}
-	}]
+	}],
+
+	variants: {
+		holo: false
+	}
 }
 
 export default card
