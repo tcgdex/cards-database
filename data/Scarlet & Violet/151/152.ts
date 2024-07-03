@@ -57,7 +57,11 @@ const card: Card = {
 		effect: {
 			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
 		}
-	}]
+	}],
+
+	variants: {
+		holo: false
+	}
 }
 
 export default card
