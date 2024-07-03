@@ -66,7 +66,11 @@ const card: Card = {
 	resistances: [{
 		type: "Fighting",
 		value: "-30"
-	}]
+	}],
+
+	variants: {
+		holo: false
+	}
 }
 
 export default card

@@ -77,7 +77,12 @@ const card: Card = {
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"
-	}]
+	}],
+
+	variants: {
+		reverse: false,
+		normal: false
+	}
 }
 
 export default card

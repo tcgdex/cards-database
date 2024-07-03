@@ -71,7 +71,11 @@ const card: Card = {
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
-	}]
+	}],
+
+	variants: {
+		holo: false
+	}
 }
 
 export default card

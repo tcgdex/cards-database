@@ -60,7 +60,12 @@ const card: Card = {
 	resistances: [{
 		type: "Fighting",
 		value: "-30"
-	}]
+	}],
+
+	variants: {
+		reverse: false,
+		normal: false
+	}
 }
 
 export default card
