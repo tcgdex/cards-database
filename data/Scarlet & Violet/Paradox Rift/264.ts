@@ -26,7 +26,12 @@ const card: Card = {
 	},
 
 	trainerType: "Item",
-	regulationMark: "G"
+	regulationMark: "G",
+
+	variants: {
+		reverse: false,
+		normal: false
+	}
 }
 
 export default card
