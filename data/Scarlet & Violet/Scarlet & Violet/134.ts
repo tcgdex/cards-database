@@ -63,7 +63,12 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "G",
-	illustrator: "Anesaki Dynamic"
+	illustrator: "Anesaki Dynamic",
+
+	variants: {
+		reverse: false,
+		normal: false
+	}
 }
 
 export default card

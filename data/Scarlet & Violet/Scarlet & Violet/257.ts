@@ -16,7 +16,12 @@ const card: Card = {
 	rarity: "Hyper rare",
 	category: "Energy",
 	energyType: "Normal",
-	types: ["Lightning"]
+	types: ["Lightning"],
+
+	variants: {
+		normal: false,
+		reverse: false
+	}
 }
 
 export default card

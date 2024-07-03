@@ -64,7 +64,11 @@ const card: Card = {
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
-	}]
+	}],
+
+	variants: {
+		holo: false
+	}
 }
 
 export default card

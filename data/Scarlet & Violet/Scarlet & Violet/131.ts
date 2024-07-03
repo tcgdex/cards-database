@@ -76,7 +76,12 @@ const card: Card = {
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
-	}]
+	}],
+
+	variants: {
+		reverse: false,
+		normal: false
+	}
 }
 
 export default card
