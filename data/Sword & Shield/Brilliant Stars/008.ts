@@ -70,9 +70,9 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 	variants: {
-		normal: true,
+		normal: false,
 		reverse: true,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	}
 }

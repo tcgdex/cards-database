@@ -55,7 +55,12 @@ const card: Card = {
 		effect: {
 			en: "When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each Water Energy attached to Dark Gyarados to the Pokémon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn't work if Dark Gyarados is Asleep, Confused, or Paralyzed."
 		}
-	}]
+	}],
+
+	variants: {
+		reverse: false,
+		normal: false
+	}
 }
 
 export default card

@@ -59,7 +59,12 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	suffix: "Prime"
+	suffix: "Prime",
+
+	variants: {
+		reverse: false,
+		normal: false
+	}
 }
 
 export default card

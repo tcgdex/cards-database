@@ -37,6 +37,11 @@ const card: Card = {
 
 	description: {
 		en: "Your Birthdate: ______________________________"
+	},
+
+	variants: {
+		reverse: false,
+		normal: false
 	}
 }
 

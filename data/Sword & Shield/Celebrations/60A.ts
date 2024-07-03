@@ -52,7 +52,12 @@ const card: Card = {
 		cost: ["Psychic"]
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	variants: {
+		normal: false,
+		reverse: false
+	}
 }
 
 export default card

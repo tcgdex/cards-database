@@ -15,6 +15,11 @@ const card: Card = {
 
 	effect: {
 		en: "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards."
+	},
+
+	variants: {
+		normal: false,
+		reverse: false
 	}
 }
 

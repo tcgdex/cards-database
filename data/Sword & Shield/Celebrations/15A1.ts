@@ -30,7 +30,12 @@ const card: Card = {
 		value: ""
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	variants: {
+		normal: false,
+		reverse: false
+	}
 }
 
 export default card
