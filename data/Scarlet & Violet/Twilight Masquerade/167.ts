@@ -26,7 +26,12 @@ const card: Card = {
 	},
 
 	energyType: "Normal",
-	regulationMark: "H"
+	regulationMark: "H",
+
+	variants: {
+		reverse: false,
+		normal: false
+	}
 }
 
 export default card
