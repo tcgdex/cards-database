@@ -49,6 +49,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity."
+	},
+
+	variants: {
+		reverse: false,
+		normal: false
 	}
 }
 

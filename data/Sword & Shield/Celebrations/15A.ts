@@ -46,7 +46,12 @@ const card: Card = {
 		effect: {
 			en: "As often as you like during your turn (before your attack), you may take 1 Grass Energy card attached to 1 of your Pokémon and attach it to a different one. This power can't be used if Venusaur is Asleep, Confused, or Paralyzed."
 		}
-	}]
+	}],
+
+	variants: {
+		normal: false,
+		reverse: false
+	}
 }
 
 export default card

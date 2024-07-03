@@ -51,7 +51,12 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	suffix: "SP"
+	suffix: "SP",
+
+	variants: {
+		reverse: false,
+		normal: false
+	}
 }
 
 export default card

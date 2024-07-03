@@ -55,7 +55,12 @@ const card: Card = {
 		effect: {
 			en: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed."
 		}
-	}]
+	}],
+
+	variants: {
+		reverse: false,
+		normal: false
+	}
 }
 
 export default card

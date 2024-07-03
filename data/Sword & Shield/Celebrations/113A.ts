@@ -49,6 +49,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it."
+	},
+
+	variants: {
+		reverse: false,
+		normal: false
 	}
 }
 

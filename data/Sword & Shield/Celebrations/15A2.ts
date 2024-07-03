@@ -11,7 +11,12 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Classic Collection",
 	category: "Trainer",
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		reverse: false,
+		normal: false
+	}
 }
 
 export default card
