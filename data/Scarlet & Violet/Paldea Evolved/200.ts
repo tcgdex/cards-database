@@ -65,7 +65,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	variants: {
+		normal: false,
+		reverse: false
+	}
 }
 
 export default card
