@@ -13,7 +13,7 @@ const swsh4: Set = {
 		pt: "Voltagem Vívida"
 	},
 
-	tcgOnline: 'VIV'
+	tcgOnline: 'VIV',
 
 	serie: serie,
 
