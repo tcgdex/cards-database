@@ -11,6 +11,9 @@ const set: Set = {
 		de: "Fusions Angriff",
 		pt: "Golpe Fusão"
 	},
+
+	tcgOnline: 'FST',
+
 	serie: serie,
 
 

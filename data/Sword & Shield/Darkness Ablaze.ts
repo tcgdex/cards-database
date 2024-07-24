@@ -13,6 +13,8 @@ const swsh3: Set = {
 		pt: "Escuridão Incandescente"
 	},
 
+	tcgOnline: 'DAA',
+
 	serie: serie,
 
 	cardCount: {

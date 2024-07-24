@@ -13,6 +13,8 @@ const swsh4: Set = {
 		pt: "Voltagem Vívida"
 	},
 
+	tcgOnline: 'VIV'
+
 	serie: serie,
 
 	cardCount: {

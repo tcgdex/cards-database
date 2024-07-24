@@ -13,6 +13,8 @@ const swsh1: Set = {
 		pt: "Destinos Brilhantes "
 	},
 
+	tcgOnline: 'SHF',
+
 	serie: serie,
 
 	cardCount: {

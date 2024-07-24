@@ -13,6 +13,8 @@ const set: Set = {
 		pt: "Pokémon GO"
 	},
 
+	tcgOnline: 'PGO',
+
 	serie: serie,
 
 	cardCount: {

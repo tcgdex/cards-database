@@ -13,6 +13,8 @@ const swsh2: Set = {
 		pt: "Rixa Rebelde"
 	},
 
+	tcgOnline: 'RCL',
+
 	serie: serie,
 
 	cardCount: {

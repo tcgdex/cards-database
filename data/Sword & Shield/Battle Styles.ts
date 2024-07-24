@@ -13,6 +13,8 @@ const swsh1: Set = {
 		pt: "Estilos de Batalha"
 	},
 
+	tcgOnline: 'BST',
+
 	serie: serie,
 
 	cardCount: {

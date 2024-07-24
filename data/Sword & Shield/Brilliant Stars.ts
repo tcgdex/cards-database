@@ -13,6 +13,8 @@ const set: Set = {
 		pt: "Astros Cintilantes"
 	},
 
+	tcgOnline: 'BRS',
+
 	serie: serie,
 
 	cardCount: {

@@ -13,6 +13,8 @@ const swsh35: Set = {
 		pt: "Caminho do Campeão"
 	},
 
+	tcgOnline: 'CPA',
+
 	serie: serie,
 
 	cardCount: {

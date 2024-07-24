@@ -13,6 +13,8 @@ const set: Set = {
 		pt: "Estrelas Radiantes"
 	},
 
+	tcgOnline: 'ASR',
+
 	serie: serie,
 
 	cardCount: {

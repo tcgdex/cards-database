@@ -11,8 +11,10 @@ const set: Set = {
 		de: "Schaurige Herrschaft",
 		pt: "Reinado Arrepiante"
 	},
-	serie: serie,
 
+	tcgOnline: 'CRE',
+
+	serie: serie,
 
 	cardCount: { // NOT confirmed
 		official: 198

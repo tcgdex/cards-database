@@ -13,6 +13,8 @@ const swsh1: Set = {
 		pt: "Espada e Escudo"
 	},
 
+	tcgOnline: 'SSH',
+
 	serie: serie,
 
 	cardCount: {

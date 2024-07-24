@@ -13,6 +13,8 @@ const set: Set = {
 		pt: "Celebrações"
 	},
 
+	tcgOnline: 'CEL',
+
 	serie: serie,
 
 	cardCount: {

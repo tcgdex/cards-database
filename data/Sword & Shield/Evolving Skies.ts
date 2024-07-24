@@ -13,6 +13,8 @@ const swsh6: Set = {
 		pt: "Céus em Evolução",
 	},
 
+	tcgOnline: 'EVS',
+
 	serie: serie,
 
 	cardCount: {
