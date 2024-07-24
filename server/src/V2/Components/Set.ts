@@ -1,45 +1,44 @@
 import { objectLoop } from '@dzeio/object-util'
-import { Set as SDKSet, SetResume, SupportedLanguages } from '@tcgdex/sdk'
-import { Query } from '../../interfaces'
-import { handlePagination, handleSort, handleValidation } from '../../util'
+import type { Set as SDKSet, SetResume, SupportedLanguages } from '@tcgdex/sdk'
+import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
 import Card from './Card'
 import Serie from './Serie'
 
-import en from '../../../generated/en/sets.json'
-import fr from '../../../generated/fr/sets.json'
-import es from '../../../generated/es/sets.json'
-import it from '../../../generated/it/sets.json'
-import pt from '../../../generated/pt/sets.json'
-import ptbr from '../../../generated/pt-br/sets.json'
-import ptpt from '../../../generated/pt-pt/sets.json'
 import de from '../../../generated/de/sets.json'
-import nl from '../../../generated/nl/sets.json'
-import pl from '../../../generated/pl/sets.json'
-import ru from '../../../generated/ru/sets.json'
+import en from '../../../generated/en/sets.json'
+import es from '../../../generated/es/sets.json'
+import fr from '../../../generated/fr/sets.json'
+import id from '../../../generated/id/sets.json'
+import it from '../../../generated/it/sets.json'
 import ja from '../../../generated/ja/sets.json'
 import ko from '../../../generated/ko/sets.json'
-import zhtw from '../../../generated/zh-tw/sets.json'
-import id from '../../../generated/id/sets.json'
+import nl from '../../../generated/nl/sets.json'
+import pl from '../../../generated/pl/sets.json'
+import ptbr from '../../../generated/pt-br/sets.json'
+import ptpt from '../../../generated/pt-pt/sets.json'
+import pt from '../../../generated/pt/sets.json'
+import ru from '../../../generated/ru/sets.json'
 import th from '../../../generated/th/sets.json'
 import zhcn from '../../../generated/zh-cn/sets.json'
+import zhtw from '../../../generated/zh-tw/sets.json'
 
 const sets = {
-	'en': en,
-	'fr': fr,
-	'es': es,
-	'it': it,
-	'pt': pt,
+	en: en,
+	fr: fr,
+	es: es,
+	it: it,
+	pt: pt,
 	'pt-br': ptbr,
 	'pt-pt': ptpt,
-	'de': de,
-	'nl': nl,
-	'pl': pl,
-	'ru': ru,
-	'ja': ja,
-	'ko': ko,
+	de: de,
+	nl: nl,
+	pl: pl,
+	ru: ru,
+	ja: ja,
+	ko: ko,
 	'zh-tw': zhtw,
-	'id': id,
-	'th': th,
+	id: id,
+	th: th,
 	'zh-cn': zhcn,
 } as const
 
@@ -77,11 +76,11 @@ export default class Set implements LocalSet {
 	symbol?: string | undefined
 
 	public serie(): Serie {
-		return Serie.findOne(this.lang, {filters: { id: this.set.serie.id }}) as Serie
+		return Serie.findOne(this.lang, { id: this.set.serie.id }) as Serie
 	}
 
 	public cards(): Array<Card> {
-		return this.set.cards.map((s) => Card.findOne(this.lang, { filters: { id: s.id }}) as Card)
+		return this.set.cards.map((s) => Card.findOne(this.lang, { id: s.id }) as Card)
 	}
 
 	public static getAll(lang: SupportedLanguages): Array<SDKSet> {
@@ -89,16 +88,15 @@ export default class Set implements LocalSet {
 	}
 
 	public static find(lang: SupportedLanguages, query: Query<SDKSet>) {
-		return handlePagination(handleSort(handleValidation(this.getAll(lang), query), query), query)
-			.map((it) => new Set(lang, it))
+		return executeQuery(Set.getAll(lang), query).data.map((it) => new Set(lang, it))
 	}
 
 	public static findOne(lang: SupportedLanguages, query: Query<SDKSet>) {
-		const res = handleValidation(this.getAll(lang), query)
+		const res = Set.find(lang, query)
 		if (res.length === 0) {
 			return undefined
 		}
-		return new Set(lang, res[0])
+		return res[0]
 	}
 
 	public resume(): SetResume {

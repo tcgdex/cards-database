@@ -282,6 +282,6 @@ function objectGet(obj: object, path: Array<string | number | symbol>): any | un
  * @param value the value the check
  * @returns if the value is undefined or null or not
  */
-function isNull(value: any): value is (undefined | null) {
+export function isNull(value: unknown): value is (undefined | null) {
 	return typeof value === 'undefined' || value === null
 }
