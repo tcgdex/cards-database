@@ -1,7 +1,7 @@
-import Sentry from '@sentry/node'
-import express, { NextFunction } from 'express'
+import express, { type Response } from 'express'
 import jsonEndpoints from './V2/endpoints/jsonEndpoints'
 import graphql from './V2/graphql'
+import { Errors, sendError } from './libs/Errors'
 import status from './status'
 
 // Current API version
@@ -10,20 +10,11 @@ const VERSION = 2
 // Init Express server
 const server = express()
 
-// allow to catch servers errors
-const sentryDSN = process.env.SENTRY_DSN
-
-if (sentryDSN) {
-	Sentry.init({ dsn: sentryDSN})
-
-	server.use(Sentry.Handlers.requestHandler())
-}
-
 // Route logging / Error logging for debugging
 server.use((req, res, next) => {
 	const now = new Date()
 	//                   Date of request              User-Agent 32 first chars                                     request Method
-	let prefix = `\x1b[2m${now.toISOString()}\x1b[22m ${req.headers['user-agent']?.slice(0, 32).padEnd(32)} ${req.method.toUpperCase().padEnd(7)}`
+	const prefix = `\x1b[2m${now.toISOString()}\x1b[22m ${req.headers['user-agent']?.slice(0, 32).padEnd(32)} ${req.method.toUpperCase().padEnd(7)}`
 
 	const url = new URL(req.url, `http://${req.headers.host}`)
 	const fullURL = url.toString()
@@ -82,12 +73,13 @@ server.use(`/v${VERSION}`, jsonEndpoints)
 // Status page
 server.use('/status', status)
 
-if (sentryDSN) {
-	server.use(Sentry.Handlers.errorHandler())
-}
+// handle 404 errors
+server.use((_, res) => {
+	sendError(Errors.NOT_FOUND, res)
+})
 
-// error logging to the backend
-server.use((err: Error, _1: any, _2: any, next: NextFunction) => {
+// General error handler
+server.use((err: Error, _1: unknown, res: Response, _2: unknown) => {
 	// add a full line dash to not miss it
 	const columns = (process?.stdout?.columns ?? 32) - 7
 	const dashes = ''.padEnd(columns / 2, '-')
@@ -97,9 +89,9 @@ server.use((err: Error, _1: any, _2: any, next: NextFunction) => {
 	console.error(err)
 	console.error(`\x1b[91m${dashes} ERROR ${dashes}\x1b[0m`)
 
-	next(err)
+	sendError(Errors.GENERAL, res, { err })
 })
 
 // Start server
 server.listen(3000)
-console.log(`🚀 Server ready at localhost:3000`);
+console.log('🚀 Server ready at localhost:3000');
