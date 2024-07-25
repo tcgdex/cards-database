@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Please note that this is for Crawlers only
+# You can logically use robots to use the API

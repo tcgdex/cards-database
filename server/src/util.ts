@@ -1,56 +1,33 @@
-import { mustBeObject, objectLoop } from '@dzeio/object-util'
-import { SupportedLanguages } from '@tcgdex/sdk'
-import { Response } from 'express'
-import { Query } from './interfaces'
+import { objectGet, objectLoop } from '@dzeio/object-util'
+import type { SupportedLanguages } from '@tcgdex/sdk'
+import type { Query } from './interfaces'
+
+export const languages = [
+	'en',
+	'fr',
+	'es',
+	'it',
+	'pt',
+	'pt-br',
+	'pt-pt',
+	'de',
+	'nl',
+	'pl',
+	'ru',
+	'ja',
+	'ko',
+	'zh-tw',
+	'id',
+	'th',
+	'zh-cn'
+] as const
 
 export function checkLanguage(str: string): str is SupportedLanguages {
-	return [
-		'en',
-		'fr',
-		'es',
-		'it',
-		'pt',
-		'pt-br',
-		'pt-pt',
-		'de',
-		'nl',
-		'pl',
-		'ru',
-		'ja',
-		'ko',
-		'zh-tw',
-		'id',
-		'th',
-		'zh-cn'
-	].includes(str)
+	return languages.includes(str as 'en')
 }
 
 export function unique(arr: Array<string>): Array<string> {
 	return arr.reduce((p, c) => p.includes(c) ? p : [...p, c], [] as Array<string>)
-}
-
-export function sendError(error: 'UnknownError' | 'NotFoundError' | 'LanguageNotFoundError' | 'EndpointNotFoundError', res: Response, v?: any) {
-	let message = ''
-	let status = 404
-	switch (error) {
-		case 'LanguageNotFoundError':
-			message = `Language not found (${v})`
-			break
-		case 'EndpointNotFoundError':
-			message = `Endpoint not found (${v})`
-			break
-		case 'NotFoundError':
-			message = 'The resource you are searching does not exists'
-			break
-		case 'UnknownError':
-		default:
-			message = `an unknown error occured (${v})`
-			status = 500
-			break
-	}
-	res.status(status).json({
-		message
-	}).end()
 }
 
 export function betterSorter(a: string, b: string) {
@@ -242,7 +219,7 @@ export function handleValidation(data: Array<any>, query: Query) {
 	}
 
 	return data.filter((v) => objectLoop(filters, (valueToValidate, key: string) => {
-		let value: any
+		let value: unknown
 		// handle subfields
 		if (key.includes('.')) {
 			value = objectGet(v, key.split('.'))
@@ -251,30 +228,6 @@ export function handleValidation(data: Array<any>, query: Query) {
 		}
 		return validateItem(valueToValidate, value, query.strict)
 	}))
-}
-
-/**
- * go through an object to get a specific value
- * @param obj the object to go through
- * @param path the path to follow
- * @returns the value or undefined
- */
-function objectGet(obj: object, path: Array<string | number | symbol>): any | undefined {
-	mustBeObject(obj)
-	let pointer: object = obj;
-	for (let index = 0; index < path.length; index++) {
-		const key = path[index];
-		const nextIndex = index + 1;
-		if (!Object.prototype.hasOwnProperty.call(pointer, key) && nextIndex < path.length) {
-			return undefined
-		}
-		// if last index
-		if (nextIndex === path.length) {
-			return (pointer as any)[key]
-		}
-		// move pointer to new key
-		pointer = (pointer as any)[key]
-	}
 }
 
 /**
