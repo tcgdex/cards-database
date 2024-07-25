@@ -37,8 +37,9 @@ export function sendError(error: Errors, res: Response, metadata?: Record<string
 		...metadata
 	}
 
-	if (details[error]) {
-		json.details = details[error](metadata)
+	const dt = details[error]
+	if (dt) {
+		json.details = dt(metadata)
 	}
 
 	res.status(json.status ?? 500).json(json).end()
