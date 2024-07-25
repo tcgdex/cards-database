@@ -3,7 +3,8 @@ import { Card as SDKCard } from '@tcgdex/sdk'
 import apicache from 'apicache'
 import express, { Request } from 'express'
 import { Query } from '../../interfaces'
-import { betterSorter, checkLanguage, sendError, unique } from '../../util'
+import { Errors, sendError } from '../../libs/Errors'
+import { betterSorter, checkLanguage, unique } from '../../util'
 import Card from '../Components/Card'
 import Serie from '../Components/Serie'
 import Set from '../Components/Set'
@@ -97,7 +98,8 @@ server
 		const { lang, what } = req.params
 
 		if (!checkLanguage(lang)) {
-			return sendError('LanguageNotFoundError', res, lang)
+			sendError(Errors.LANGUAGE_INVALID, res, { lang })
+			return
 		}
 
 		const query: Query = req.advQuery!
@@ -114,7 +116,8 @@ server
 				data = Serie.find(lang, query)
 				break
 			default:
-				return sendError('EndpointNotFoundError', res, what)
+				sendError(Errors.NOT_FOUND, res, { details: `You can only run random requests on "card", "set" or "serie" while you did on "${what}"` })
+				return
 		}
 		const item = Math.min(data.length - 1, Math.max(0, Math.round(Math.random() * data.length)))
 		req.DO_NOT_CACHE = true
@@ -136,7 +139,8 @@ server
 		}
 
 		if (!checkLanguage(lang)) {
-			return sendError('LanguageNotFoundError', res, lang)
+			sendError(Errors.LANGUAGE_INVALID, res, { lang })
+			return
 		}
 
 		let result: any
@@ -193,12 +197,12 @@ server
 				).sort()
 				break
 			default:
-				sendError('EndpointNotFoundError', res, endpoint)
+				sendError(Errors.NOT_FOUND, res, { endpoint })
 				return
 		}
 
 		if (!result) {
-			sendError('NotFoundError', res)
+			sendError(Errors.NOT_FOUND, res)
 		}
 		res.json(result)
 	})
@@ -217,7 +221,7 @@ server
 		id = id.toLowerCase()
 
 		if (!checkLanguage(lang)) {
-			return sendError('LanguageNotFoundError', res, lang)
+			return sendError(Errors.LANGUAGE_INVALID, res, { lang })
 		}
 
 		let result: any | undefined
@@ -243,6 +247,9 @@ server
 				}
 				break
 			default:
+				if (!endpointToField[endpoint]) {
+					break
+				}
 				result = {
 					name: id,
 					cards: Card.find(lang, {[endpointToField[endpoint]]: id})
@@ -250,7 +257,8 @@ server
 				}
 		}
 		if (!result) {
-			return res.status(404).send({error: "Endpoint or id not found"})
+			sendError(Errors.NOT_FOUND, res)
+			return
 		}
 		return res.send(result)
 
@@ -271,7 +279,7 @@ server
 		subid = subid.toLowerCase()
 
 		if (!checkLanguage(lang)) {
-			return sendError('LanguageNotFoundError', res, lang)
+			return sendError(Errors.LANGUAGE_INVALID, res, { lang })
 		}
 
 		let result: any | undefined
@@ -283,7 +291,7 @@ server
 				break
 		}
 		if (!result) {
-			return sendError('NotFoundError', res)
+			return sendError(Errors.NOT_FOUND, res)
 		}
 		return res.send(result)
 	})
