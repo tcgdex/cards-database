@@ -1,44 +1,54 @@
-import { SupportedLanguages } from '@tcgdex/sdk'
-import { Query } from '../../interfaces'
+import type { SupportedLanguages } from '@tcgdex/sdk'
+import { type Query, Sort } from '../../libs/QueryEngine/filter'
+import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { checkLanguage } from '../../util'
 import Card from '../Components/Card'
 import Serie from '../Components/Serie'
 import Set from '../Components/Set'
 
-const middleware = (fn: (lang: SupportedLanguages, query: Query) => any) => (
-	data: Query,
+// TODO: make a better way to find the language
+function getLang(e: any): SupportedLanguages {
+	// get the locale directive
+	const langArgument = e?.fieldNodes?.[0]?.directives?.[0]?.arguments?.[0]?.value
+
+	if (!langArgument) {
+		return 'en'
+	}
+
+	if (langArgument.kind === 'Variable') {
+		return e.variableValues[langArgument.name.value]
+	}
+	return langArgument.value
+}
+
+const middleware = (fn: (lang: SupportedLanguages, query: Query<object>) => any) => (
+	data: Record<string, any>,
 	_: any,
 	e: any
 ) => {
 	// get the locale directive
-	const langArgument = e?.fieldNodes?.[0]?.directives?.[0]?.arguments?.[0]?.value
+	const lang = getLang(e)
+
+	const query = recordToQuery(data.filters)
 
 	// Deprecated code handling
-	// @ts-expect-error count is deprectaed in the frontend
-	if (data.pagination?.count) {
-		// @ts-expect-error count is deprectaed in the frontend
-		data.pagination.itemsPerPage = data.pagination.count
+	if (data.pagination) {
+		query.$page = data.pagination.page ?? 1
+		query.$limit = data.pagination.itemsPerPage ?? 100
 	}
 
-	// if there is no locale directive
-	if (!langArgument) {
-		return fn('en', data)
-	}
 
-	// set default locale directive value
-	let lang = 'en'
-
-	// handle variable for directive value
-	if (langArgument.kind === 'Variable') {
-		lang = e.variableValues[langArgument.name.value]
-	} else {
-		lang = langArgument.value
+	if (data.sort) {
+		query.$sort = {
+			[data.sort.field]: data.sort.order === 'DESC' ? Sort.DESC : Sort.ASC
+		}
 	}
 
 	if (!checkLanguage(lang)) {
 		return undefined
 	}
-	return fn(lang, data)
+
+	return fn(lang, query)
 }
 
 export default {
