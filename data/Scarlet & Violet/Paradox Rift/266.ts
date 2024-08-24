@@ -25,7 +25,7 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie Colorless-Energie.\nWenn du mehr verbleibende Preiskarten hast als dein Gegner und diese Karte an ein Entwicklungs-Pokémon angelegt ist, das kein Regelfeld hat\n(Pokémon-ex, Pokémon-V usw. haben Regelfelder), liefert diese Karte jeden Energietyp, aber immer nur 3 Energien."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "G",
 
 	variants: {
