@@ -77,6 +77,8 @@ const card: Card = {
 		},
 	],
 
+	retreat: 3,
+
 	description: {
 		fr: "Comme possédé, il crache du feu tel un volcan, essayant de brûler tout ce qu'il voit."
 	}
