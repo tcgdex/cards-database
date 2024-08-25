@@ -13,8 +13,8 @@
 	<a href="https://github.com/tcgdex/cards-database/stargazers">
 		<img src="https://img.shields.io/github/stars/tcgdex/cards-database?style=flat-square" alt="Github stars">
 	</a>
-	<a href="https://github.com/tcgdex/compiler">
-		<img src="https://img.shields.io/github/workflow/status/tcgdex/cards-database/Compile?style=flat-square" alt="Compiler build passing" />
+	<a href="https://github.com/tcgdex/cards-database/actions">
+		<img src="https://img.shields.io/github/actions/workflow/status/TCGdex/cards-database/build.yml?style=flat-square" alt="Compiler build passing" />
 	</a>
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 <a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square" alt="All Contributors Badge" /></a>
