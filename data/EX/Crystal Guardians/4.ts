@@ -68,10 +68,7 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-
-
-
-
+	retreat: 2,
 
 }
 
