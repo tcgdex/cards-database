@@ -73,9 +73,9 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           outputs: |
-            ${{ env.REGISTRY_IMAGES }} | while read image; do
-              echo "type=image,name=$image,push-by-digest=true,name-canonical=true,push=true";
-            done
+            type=image,name=ghcr.io/tcgdex/server,push-by-digest=true,name-canonical=true,push=true
+            type=image,name=tcgdex/server,push-by-digest=true,name-canonical=true,push=true
+
 
       - name: Export digest
         run: |
