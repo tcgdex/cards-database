@@ -17,12 +17,15 @@
 		"express": "^4",
 		"graphql": "^15",
 		"graphql-http": "^1.22.1",
-		"ruru": "^2.0.0-beta.14"
+		"ruru": "^2.0.0-beta.14",
+		"swagger-ui-express": "^5.0.1",
+		"yaml": "^2.5.0"
 	},
 	"devDependencies": {
 		"@types/apicache": "^1",
 		"@types/express": "^4",
 		"@types/node": "^20",
+		"@types/swagger-ui-express": "^4.1.6",
 		"glob": "^10",
 		"typescript": "^4"
 	}
