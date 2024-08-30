@@ -19,6 +19,7 @@ jobs:
           # - linux/arm/v6
           # - linux/arm/v7
           - linux/arm64
+    name: Building TCGdex for ${{ matrix.platform }}
     steps:
 
       - name: Checkout
@@ -79,8 +80,8 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           outputs: |
-            type=image,name=ghcr.io/tcgdex/server,push-by-digest=true,name-canonical=true,push=true
-            type=image,name=tcgdex/server,push-by-digest=true,name-canonical=true,push=true
+            type=image,name=ghcr.io/tcgdex/server,push-by-digest=true,name-canonical=true
+            type=image,name=tcgdex/server,push-by-digest=true,name-canonical=true
 
 
       - name: Export digest
@@ -99,6 +100,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
+    name: Deploying TCGdex
     if: ${{ !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
     needs:
       - build
