@@ -1,4 +1,5 @@
 import { objectSize } from '@dzeio/object-util'
+import Queue from '@dzeio/queue'
 import { glob } from 'glob'
 import { exec, spawn } from 'node:child_process'
 import { writeFileSync } from 'node:fs'
@@ -126,7 +127,7 @@ function runCommand(command: string, useSpawn = true): Promise<string> {
 	})
 }
 
-let lastEditsCache: Record<string, string> = {}
+const lastEditsCache: Record<string, string> = {}
 export async function loadLastEdits() {
 	console.log('Loading Git File Tree...')
 	const firstCommand = 'git ls-tree -r --name-only HEAD ../data'
@@ -136,19 +137,35 @@ export async function loadLastEdits() {
 	console.log('Loaded files tree', files.length, 'files')
 	console.log('Loading their last edit time')
 	let processed = 0
-	for (let file of files) {
+	const queue = new Queue(1000, 10)
+	queue.start()
+
+	for await (let file of files) {
 		file = file.replace(/"/g, '').replace("\\303\\251", "é")
-		try {
-			// don't really know why but it does not correctly execute the command when using Spawn
-			lastEditsCache[file] = await runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false)
-		} catch {
+		await queue.add(runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false).then((res) => {
+			lastEditsCache[file] = res
+		})
+		.catch(() => {
 			console.warn('could not load file', file, 'hope it does not break everything else lol')
-		}
-		processed++
-		if (processed % 1000 === 0) {
-			console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
-		}
+		})
+		.finally(() => {
+			processed++
+			if (processed % 1000 === 0) {
+				console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
+			}
+		}))
+		// try {
+		// 	// don't really know why but it does not correctly execute the command when using Spawn
+		// 	lastEditsCache[file] = await runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false)
+		// } catch {
+		// 	console.warn('could not load file', file, 'hope it does not break everything else lol')
+		// }
+		// processed++
+		// if (processed % 1000 === 0) {
+		// 	console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
+		// }
 	}
+	await queue.waitEnd()
 	console.log('done loading files', objectSize(lastEditsCache))
 }
 
