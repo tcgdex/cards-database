@@ -20,6 +20,12 @@ jobs:
           # - linux/arm/v7
           - linux/arm64
     steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Prepare
         run: |
           platform=${{ matrix.platform }}
