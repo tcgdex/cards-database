@@ -1,5 +1,6 @@
 import express, { type Response } from 'express'
 import jsonEndpoints from './V2/endpoints/jsonEndpoints'
+import openapi from './V2/endpoints/openapi'
 import graphql from './V2/graphql'
 import { Errors, sendError } from './libs/Errors'
 import status from './status'
@@ -66,6 +67,7 @@ server.use(express.static('./public'))
 
 // Setup GraphQL
 server.use(`/v${VERSION}/graphql`, graphql)
+server.use(`/v${VERSION}/openapi`, openapi)
 
 // Setup JSON endpoints
 server.use(`/v${VERSION}`, jsonEndpoints)
