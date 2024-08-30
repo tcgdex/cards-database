@@ -1,6 +1,6 @@
 import express, { type Response } from 'express'
 import cluster from 'node:cluster'
-import { availableParallelism, cpus } from "node:os"
+import { availableParallelism } from "node:os"
 import { Errors, sendError } from './libs/Errors'
 import status from './status'
 import jsonEndpoints from './V2/endpoints/jsonEndpoints'
@@ -9,8 +9,6 @@ import graphql from './V2/graphql'
 if (cluster.isPrimary) {
 	console.log(`Primary ${process.pid} is running`);
 
-	// Start N workers for the number of CPUs
-	// const parallelism = cpus().length
 	const parallelism = availableParallelism()
 	console.log(`creating ${parallelism} workers...`)
 	for (let i = 0; i < parallelism; i++) {
@@ -18,11 +16,11 @@ if (cluster.isPrimary) {
 	}
 
 	cluster.on('online', (worker) => {
-		console.log('Worker online')
+		console.log('Worker', worker.id, 'online')
 	})
 
-	cluster.on("exit", (worker, code, signal) => {
-		console.log(`Worker ${worker.process.pid} exited`);
+	cluster.on("exit", (worker, code, _signal) => {
+		console.log(`Worker ${worker.id} exited with code ${code}`);
 	})
 	console.log('🚀 Server ready at localhost:3000');
 } else {
