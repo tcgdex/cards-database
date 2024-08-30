@@ -10,7 +10,7 @@ on:
       - master
 
 jobs:
-  build:
+  build_amd:
     runs-on: ubuntu-latest
 
     steps:
@@ -62,3 +62,63 @@ jobs:
         file: ./Dockerfile
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
+  build_arm:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Docker meta
+      id: meta
+      uses: docker/metadata-action@v5
+      with:
+        images: |
+          ghcr.io/tcgdex/server
+          tcgdex/server
+        tags: |
+          type=edge
+          type=ref,event=pr
+          type=ref,event=branch,prefix=branch-
+          type=semver,pattern={{version}}
+          type=semver,pattern={{major}}.{{minor}}
+          type=semver,pattern={{major}}
+          type=semver,pattern=latest
+
+    - name: Login to Docker Hub
+      uses: docker/login-action@v3
+      with:
+        username: ${{ secrets.DOCKERHUB_USER }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+      if: ${{ !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
+
+    - name: Login to Github Packages
+      uses: docker/login-action@v3
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.DOCKER_TOKEN }}
+      if: ${{ !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
+
+    
+    - name: Set up QEMU
+      uses: docker/setup-qemu-action@v3
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build and push
+      uses: docker/build-push-action@v6
+      with:
+        context: .
+        platforms: linux/arm64
+        push: ${{ !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
+        file: ./Dockerfile
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
