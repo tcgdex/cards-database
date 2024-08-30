@@ -1,35 +1,108 @@
 import express, { type Response } from 'express'
-import jsonEndpoints from './V2/endpoints/jsonEndpoints'
-import graphql from './V2/graphql'
+import cluster from 'node:cluster'
+import { availableParallelism, cpus } from "node:os"
 import { Errors, sendError } from './libs/Errors'
 import status from './status'
+import jsonEndpoints from './V2/endpoints/jsonEndpoints'
+import graphql from './V2/graphql'
 
-// Current API version
-const VERSION = 2
+if (cluster.isPrimary) {
+	console.log(`Primary ${process.pid} is running`);
 
-// Init Express server
-const server = express()
+	// Start N workers for the number of CPUs
+	// const parallelism = cpus().length
+	const parallelism = availableParallelism()
+	console.log(`creating ${parallelism} workers...`)
+	for (let i = 0; i < parallelism; i++) {
+		cluster.fork();
+	}
 
-// Route logging / Error logging for debugging
-server.use((req, res, next) => {
-	const now = new Date()
-	//                   Date of request              User-Agent 32 first chars                                     request Method
-	const prefix = `\x1b[2m${now.toISOString()}\x1b[22m ${req.headers['user-agent']?.slice(0, 32).padEnd(32)} ${req.method.toUpperCase().padEnd(7)}`
-
-	const url = new URL(req.url, `http://${req.headers.host}`)
-	const fullURL = url.toString()
-	const path = fullURL.slice(fullURL.indexOf(url.pathname, fullURL.indexOf(url.host)))
-
-	//                        HTTP Status Code     Time to run request   path of request
-	console.log(`${prefix} ${''.padStart(5, ' ')} ${''.padStart(7, ' ')} ${path}`)
-
-	res.on('close', () => {
-		console.log(`${prefix} \x1b[34m[${'statusCode' in res ? res.statusCode : '???'}]\x1b[0m \x1b[2m${(new Date().getTime() - now.getTime()).toFixed(0).padStart(5, ' ')}ms\x1b[22m ${path}`)
+	cluster.on('online', (worker) => {
+		console.log('Worker online')
 	})
-	res.on('error', (err) => {
-		// log the request
-		console.log(`${prefix} \x1b[34m[500]\x1b[0m \x1b[2m${(new Date().getTime() - now.getTime()).toFixed(0).padStart(5, ' ')}ms\x1b[22m ${path}`)
 
+	cluster.on("exit", (worker, code, signal) => {
+		console.log(`Worker ${worker.process.pid} exited`);
+	})
+	console.log('🚀 Server ready at localhost:3000');
+} else {
+
+	// Current API version
+	const VERSION = 2
+
+	// Init Express server
+	const server = express()
+
+	// Route logging / Error logging for debugging
+	server.use((req, res, next) => {
+		const now = new Date()
+		//                   Date of request              User-Agent 32 first chars                                     request Method
+		const prefix = `\x1b[2m${now.toISOString()}\x1b[22m ${req.headers['user-agent']?.slice(0, 32).padEnd(32)} ${req.method.toUpperCase().padEnd(7)}`
+
+		const url = new URL(req.url, `http://${req.headers.host}`)
+		const fullURL = url.toString()
+		const path = fullURL.slice(fullURL.indexOf(url.pathname, fullURL.indexOf(url.host)))
+
+		//                        HTTP Status Code     Time to run request   path of request
+		console.log(`${prefix} ${''.padStart(5, ' ')} ${''.padStart(7, ' ')} ${path}`)
+
+		res.on('close', () => {
+			console.log(`${prefix} \x1b[34m[${'statusCode' in res ? res.statusCode : '???'}]\x1b[0m \x1b[2m${(new Date().getTime() - now.getTime()).toFixed(0).padStart(5, ' ')}ms\x1b[22m ${path}`)
+		})
+		res.on('error', (err) => {
+			// log the request
+			console.log(`${prefix} \x1b[34m[500]\x1b[0m \x1b[2m${(new Date().getTime() - now.getTime()).toFixed(0).padStart(5, ' ')}ms\x1b[22m ${path}`)
+
+			// add a full line dash to not miss it
+			const columns = (process?.stdout?.columns ?? 32) - 7
+			const dashes = ''.padEnd(columns / 2, '-')
+
+			// colorize the lines to make sur to not miss it
+			console.error(`\x1b[91m${dashes} ERROR ${dashes}\x1b[0m`)
+			console.error(err)
+			console.error(`\x1b[91m${dashes} ERROR ${dashes}\x1b[0m`)
+		})
+
+		next()
+	})
+
+	// Set CORS global headers
+	server.use((req, res, next) => {
+		res
+			.setHeader('Access-Control-Allow-Origin', '*')
+			.setHeader('Access-Control-Allow-Methods', 'GET,POST,OPTIONS')
+			.setHeader('Access-Control-Allow-Headers', 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range')
+			.setHeader('Access-Control-Expose-Headers', 'Content-Length,Content-Range')
+
+		if (req.method.toUpperCase() === 'OPTIONS') {
+			res.status(200).send('ok')
+			return
+		}
+		next()
+	})
+
+	server.get('/', (_, res) => {
+		res.redirect('https://www.tcgdex.dev/?ref=api.tcgdex.net')
+	})
+
+	server.use(express.static('./public'))
+
+	// Setup GraphQL
+	server.use(`/v${VERSION}/graphql`, graphql)
+
+	// Setup JSON endpoints
+	server.use(`/v${VERSION}`, jsonEndpoints)
+
+	// Status page
+	server.use('/status', status)
+
+	// handle 404 errors
+	server.use((_, res) => {
+		sendError(Errors.NOT_FOUND, res)
+	})
+
+	// General error handler
+	server.use((err: Error, _1: unknown, res: Response, _2: unknown) => {
 		// add a full line dash to not miss it
 		const columns = (process?.stdout?.columns ?? 32) - 7
 		const dashes = ''.padEnd(columns / 2, '-')
@@ -38,60 +111,10 @@ server.use((req, res, next) => {
 		console.error(`\x1b[91m${dashes} ERROR ${dashes}\x1b[0m`)
 		console.error(err)
 		console.error(`\x1b[91m${dashes} ERROR ${dashes}\x1b[0m`)
+
+		sendError(Errors.GENERAL, res, { err })
 	})
 
-	next()
-})
-
-// Set CORS global headers
-server.use((req, res, next) => {
-	res
-		.setHeader('Access-Control-Allow-Origin', '*')
-		.setHeader('Access-Control-Allow-Methods', 'GET,POST,OPTIONS')
-		.setHeader('Access-Control-Allow-Headers', 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range')
-		.setHeader('Access-Control-Expose-Headers', 'Content-Length,Content-Range')
-
-	if (req.method.toUpperCase() === 'OPTIONS') {
-		res.status(200).send('ok')
-		return
-	}
-	next()
-})
-
-server.get('/', (_, res) => {
-	res.redirect('https://www.tcgdex.dev/?ref=api.tcgdex.net')
-})
-
-server.use(express.static('./public'))
-
-// Setup GraphQL
-server.use(`/v${VERSION}/graphql`, graphql)
-
-// Setup JSON endpoints
-server.use(`/v${VERSION}`, jsonEndpoints)
-
-// Status page
-server.use('/status', status)
-
-// handle 404 errors
-server.use((_, res) => {
-	sendError(Errors.NOT_FOUND, res)
-})
-
-// General error handler
-server.use((err: Error, _1: unknown, res: Response, _2: unknown) => {
-	// add a full line dash to not miss it
-	const columns = (process?.stdout?.columns ?? 32) - 7
-	const dashes = ''.padEnd(columns / 2, '-')
-
-	// colorize the lines to make sur to not miss it
-	console.error(`\x1b[91m${dashes} ERROR ${dashes}\x1b[0m`)
-	console.error(err)
-	console.error(`\x1b[91m${dashes} ERROR ${dashes}\x1b[0m`)
-
-	sendError(Errors.GENERAL, res, { err })
-})
-
-// Start server
-server.listen(3000)
-console.log('🚀 Server ready at localhost:3000');
+	// Start server
+	server.listen(3000)
+}
