@@ -12,6 +12,7 @@
 	"dependencies": {
 		"@dzeio/config": "^1",
 		"@dzeio/object-util": "^1",
+		"@dzeio/queue": "^1",
 		"@tcgdex/sdk": "^2",
 		"apicache": "^1",
 		"express": "^4",
