@@ -119,7 +119,7 @@ jobs:
         platforms: linux/arm64
         push: ${{ !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
         file: ./Dockerfile
-        tags: ${{ needs.build_amd.outputs.tags }}
-        labels: ${{ needs.build_amd.outputs.labels }}
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
