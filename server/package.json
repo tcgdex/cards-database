@@ -12,11 +12,12 @@
 	"dependencies": {
 		"@dzeio/config": "^1",
 		"@dzeio/object-util": "^1",
+		"@dzeio/queue": "^1",
 		"@tcgdex/sdk": "^2",
 		"apicache": "^1",
 		"express": "^4",
 		"graphql": "^15",
-		"graphql-http": "^1.22.1",
+		"graphql-http": "^1",
 		"ruru": "^2.0.0-beta.14"
 	},
 	"devDependencies": {

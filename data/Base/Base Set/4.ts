@@ -82,6 +82,8 @@ const card: Card = {
 		},
 	],
 
+	retreat: 3,
+
 	description: {
 		fr: "Il peut fondre la roche de son souffle brûlant. Il est souvent la cause de nombreux incendies."
 	}
