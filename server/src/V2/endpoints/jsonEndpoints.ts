@@ -267,8 +267,10 @@ server
 
 		switch (endpoint) {
 			case 'sets':
+				// allow the dev to use a non prefixed value like `10` instead of `010` for newer sets
 				result = Card
-					.findOne(lang, { localId: subid, 'set.id': id })?.full()
+				// @ts-expect-error normal behavior until the filtering is more fiable
+					.findOne(lang, { localId: { $or: [subid.padStart(3, '0'), subid]}, 'set.id': id })?.full()
 				break
 		}
 		if (!result) {

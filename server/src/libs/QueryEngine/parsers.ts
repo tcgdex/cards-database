@@ -20,8 +20,6 @@ const prefixes = [
 
 type Prefix = typeof prefixes[number]
 
-type ParamValue = string | number | boolean
-
 /**
  * indicate if the string is a prefix or not
  *
@@ -72,7 +70,7 @@ export function parseSearchParams<T extends object = object>(searchParams: URLSe
 		} else {
 			if (isObject(params)) {
 				objectLoop(params, (v, k) => {
-					query[key][k] = v
+					(query[key] as any)[k] = v
 					return
 				})
 			} else {
@@ -132,7 +130,7 @@ export function recordToQuery<T extends object = object>(input: Record<string, s
 			} else {
 				if (isObject(params)) {
 					objectLoop(params, (v, k) => {
-						query[key][k] = v
+						(query[key] as any)[k] = v
 						return
 					})
 				} else {
@@ -155,7 +153,7 @@ export function recordToQuery<T extends object = object>(input: Record<string, s
  *
  * @returns the parsed {@link Query} element to be added
  */
-function parseParam(key: string, value: string): QueryValues<unknown> {
+function parseParam(_key: string, value: string): QueryValues<unknown> {
 	const colonLocation = value.indexOf(':')
 	let filter: Prefix = 'like'
 	let compared: string | number = value

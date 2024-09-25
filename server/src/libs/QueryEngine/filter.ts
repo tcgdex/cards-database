@@ -222,6 +222,7 @@ export function executeQuery<T extends object = Record<string, unknown>>(data: A
 
 		return res
 	})
+
 	if (options?.debug) {
 		console.log('postFilters', filtered)
 	}
@@ -279,7 +280,8 @@ export function executeQuery<T extends object = Record<string, unknown>>(data: A
 			console.warn('using $page NEED a $limit too, setting limit to `10`')
 			limit = 10
 		}
-		const offset = query.$offset ?? (query.$page ? query.$page * limit : 0)
+		// when using $page, they start at 1 and not 0
+		const offset = query.$offset ?? (query.$page ? (query.$page - 1) * limit : 0)
 		filtered = filtered.slice(offset, limit >= 0 ? offset + limit : undefined)
 		page = Math.trunc(offset / limit)
 		pageCount = Math.ceil(unpaginatedLength / limit)
@@ -347,7 +349,7 @@ function filterValue<T extends AllowedValues>(value: unknown, query: QueryValues
 
 	// loop through each keys of the query
 	// eslint-disable-next-line arrow-body-style
-	return objectLoop(query, (querySubValue: unknown, queryKey: string) => {
+	return objectLoop(query as any, (querySubValue: unknown, queryKey: string) => {
 		return filterItem(value, {[queryKey]: querySubValue } as QueryValues<T>)
 	})
 }
