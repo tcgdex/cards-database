@@ -251,6 +251,7 @@ server
 	 */
 	.get('/:lang/:endpoint/:id/:subid', (req: CustomRequest, res) => {
 		let { id, lang, endpoint, subid } = req.params
+		console.log(req.params)
 
 		if (subid.endsWith('.json')) {
 			subid = subid.replace('.json', '')
@@ -270,7 +271,7 @@ server
 				// allow the dev to use a non prefixed value like `10` instead of `010` for newer sets
 				result = Card
 				// @ts-expect-error normal behavior until the filtering is more fiable
-					.findOne(lang, { localId: { $or: [subid.padStart(3, '0'), subid]}, 'set.id': id })?.full()
+					.findOne(lang, { localId: { $or: [subid.padStart(3, '0'), subid]}, $or: [{ 'set.id': id }, { 'set.name': id }] })?.full()
 				break
 		}
 		if (!result) {

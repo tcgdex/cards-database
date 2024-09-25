@@ -1,4 +1,4 @@
-FROM docker.io/oven/bun:1-alpine as BUILD_IMAGE
+FROM docker.io/oven/bun:1-alpine AS build
 
 # go to work folder
 WORKDIR /usr/src/app
@@ -28,7 +28,7 @@ rm -rf node_modules && \
 bun install --frozen-install --production
 
 # go to another VM
-FROM docker.io/oven/bun:1-alpine as PROD_IMAGE
+FROM docker.io/oven/bun:1-alpine AS prod
 
 # inform software to be in production
 ENV NODE_ENV=production
@@ -40,11 +40,11 @@ USER bun
 WORKDIR /usr/src/app
 
 # copy from build image
-COPY --chown=bun:bun --from=BUILD_IMAGE /usr/src/app/server/generated ./generated
-COPY --chown=bun:bun --from=BUILD_IMAGE /usr/src/app/server/node_modules ./node_modules
-COPY --chown=bun:bun --from=BUILD_IMAGE /usr/src/app/server/src ./src
-COPY --chown=bun:bun --from=BUILD_IMAGE /usr/src/app/server/public ./public
-COPY --chown=bun:bun --from=BUILD_IMAGE /usr/src/app/server/package.json ./package.json
+COPY --chown=bun:bun --from=build /usr/src/app/server/generated ./generated
+COPY --chown=bun:bun --from=build /usr/src/app/server/node_modules ./node_modules
+COPY --chown=bun:bun --from=build /usr/src/app/server/src ./src
+COPY --chown=bun:bun --from=build /usr/src/app/server/public ./public
+COPY --chown=bun:bun --from=build /usr/src/app/server/package.json ./package.json
 
 # Expose port
 EXPOSE 3000

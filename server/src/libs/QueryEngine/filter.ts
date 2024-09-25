@@ -384,6 +384,9 @@ function filterItem(value: any, query: QueryValues<AllowedValues>): boolean {
 	 * strict value check by default
 	 */
 	if (!(typeof query === 'object')) {
+		if (typeof query === 'string' && typeof value === 'string') {
+			return query.toLowerCase() === value.toLowerCase()
+		}
 		return query === value
 	}
 
