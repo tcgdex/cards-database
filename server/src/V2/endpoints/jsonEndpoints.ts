@@ -251,7 +251,6 @@ server
 	 */
 	.get('/:lang/:endpoint/:id/:subid', (req: CustomRequest, res) => {
 		let { id, lang, endpoint, subid } = req.params
-		console.log(req.params)
 
 		if (subid.endsWith('.json')) {
 			subid = subid.replace('.json', '')
