@@ -21,6 +21,7 @@ jobs:
 
     - name: Install deps
       run: |
+        bun install -g @usebruno/cli
         bun install --frozen-lockfile
         cd server
         bun install --frozen-lockfile
@@ -31,3 +32,10 @@ jobs:
         bun run validate
         cd server
         bun run validate
+
+    - name: Validate some requests
+      run: |
+        cd server
+        bun run start &
+        cd ../.bruno
+        bru run --env Developpement
