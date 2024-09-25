@@ -1,6 +1,6 @@
 import express from 'express'
-import fs from 'fs'
-import { buildSchema, GraphQLError } from 'graphql'
+import fs from 'node:fs'
+import { buildSchema, type GraphQLError } from 'graphql'
 import { createHandler } from 'graphql-http/lib/use/express'
 import { type ruruHTML as RuruHTML } from 'ruru/dist/server'
 /** @ts-expect-error typing is not correctly mapped (real type at ruru/dist/server.d.ts) */

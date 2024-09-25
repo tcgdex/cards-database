@@ -346,7 +346,7 @@ export default express.Router()
 		<table class="serie">
 		${objectMap(setsData, (serie, serieId) => {
 			// Loop through every series and name them
-			const name = Serie.findOne('en', { filters: { id: serieId }})?.name ?? Serie.findOne('ja' as any, { filters: { id: serieId }})?.name
+			const name = Serie.findOne('en', { id: serieId })?.name ?? Serie.findOne('ja' as any, { id: serieId })?.name
 			return `
 				<thead>
 					<tr><th class="notop" colspan="35"><h2>${name} (${serieId})</h2></th></tr>
@@ -364,7 +364,7 @@ export default express.Router()
 						// loop through every sets
 
 						// find the set in the first available language (Should be English globally)
-						const setTotal = Set.findOne(data[0] as 'en', { filters: { id: setId }})
+						const setTotal = Set.findOne(data[0] as 'en', { id: setId })
 						let str = '<tr>' + `<td>${setTotal?.name} (${setId}) <br />${setTotal?.cardCount.total ?? 1} cards</td>`
 						// let str = '<tr>' + `<td>${setId})</td>`
 
