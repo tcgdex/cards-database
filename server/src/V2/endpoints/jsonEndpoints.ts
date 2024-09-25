@@ -1,41 +1,42 @@
-import { objectKeys, objectLoop } from '@dzeio/object-util'
-import { Card as SDKCard } from '@tcgdex/sdk'
+import { objectKeys } from '@dzeio/object-util'
+import type { Card as SDKCard } from '@tcgdex/sdk'
 import apicache from 'apicache'
-import express, { Request } from 'express'
-import { Query } from '../../interfaces'
+import express, { type Request } from 'express'
 import { Errors, sendError } from '../../libs/Errors'
+import type { Query } from '../../libs/QueryEngine/filter'
+import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { betterSorter, checkLanguage, unique } from '../../util'
 import Card from '../Components/Card'
 import Serie from '../Components/Serie'
-import Set from '../Components/Set'
+import TCGSet from '../Components/Set'
 
 type CustomRequest = Request & {
 	/**
 	 * disable caching
 	 */
 	DO_NOT_CACHE?: boolean
-	advQuery?: Query<any>
+	advQuery?: Query
 }
 
 const server = express.Router()
 
 const endpointToField: Record<string, keyof SDKCard> = {
-	"categories": 'category',
+	categories: 'category',
 	'energy-types': 'energyType',
-	"hp": 'hp',
-	'illustrators': 'illustrator',
-	"rarities": 'rarity',
+	hp: 'hp',
+	illustrators: 'illustrator',
+	rarities: 'rarity',
 	'regulation-marks': 'regulationMark',
-	"retreats": 'retreat',
-	"stages": "stage",
-	"suffixes": "suffix",
+	retreats: 'retreat',
+	stages: "stage",
+	suffixes: "suffix",
 	"trainer-types": "trainerType",
 
 	// fields that need special care
 	'dex-ids': 'dexId',
-	"sets": "set",
-	"types": "types",
-	"variants": "variants",
+	sets: "set",
+	types: "types",
+	variants: "variants",
 }
 
 server
@@ -66,27 +67,7 @@ server
 			return
 		}
 
-		const items: Query = {
-			filters: undefined,
-			sort: undefined,
-			pagination: undefined
-		}
-
-		objectLoop(req.query as Record<string, string | Array<string>>, (value: string | Array<string>, key: string) => {
-			if (!key.includes(':')) {
-				key = 'filters:' + key
-			}
-			const [cat, item] = key.split(':', 2) as ['filters', string]
-			if (!items[cat]) {
-				items[cat] = {}
-			}
-			const finalValue = Array.isArray(value) ? value.map((it) => isNaN(parseInt(it)) ? it : parseInt(it)) : isNaN(parseInt(value)) ? value : parseInt(value)
-			// @ts-expect-error normal behavior
-			items[cat][item] = finalValue
-
-		})
-
-		req.advQuery = items
+		req.advQuery = recordToQuery(req.query as Record<string, string | Array<string>>)
 
 		next()
 	})
@@ -102,15 +83,16 @@ server
 			return
 		}
 
+		// biome-ignore lint/style/noNonNullAssertion: <explanation>
 		const query: Query = req.advQuery!
 
-		let data: Array<Card | Set | Serie> = []
+		let data: Array<Card | TCGSet | Serie> = []
 		switch (what.toLowerCase()) {
 			case 'card':
 				data = Card.find(lang, query)
 				break
 			case 'set':
-				data = Set.find(lang, query)
+				data = TCGSet.find(lang, query)
 				break
 			case 'serie':
 				data = Serie.find(lang, query)
@@ -132,7 +114,7 @@ server
 	.get('/:lang/:endpoint', (req: CustomRequest, res): void => {
 		let { lang, endpoint } = req.params
 
-		const query: Query = req.advQuery!
+		const query: Query = req.advQuery ?? {}
 
 		if (endpoint.endsWith('.json')) {
 			endpoint = endpoint.replace('.json', '')
@@ -143,7 +125,7 @@ server
 			return
 		}
 
-		let result: any
+		let result: unknown
 
 		switch (endpoint) {
 			case 'cards':
@@ -153,7 +135,7 @@ server
 				break
 
 			case 'sets':
-				result = Set
+				result = TCGSet
 					.find(lang, query)
 					.map((c) => c.resume())
 				break
@@ -169,7 +151,6 @@ server
 			case "rarities":
 			case "regulation-marks":
 			case "retreats":
-			case "series":
 			case "stages":
 			case "suffixes":
 			case "trainer-types":
@@ -224,26 +205,26 @@ server
 			return sendError(Errors.LANGUAGE_INVALID, res, { lang })
 		}
 
-		let result: any | undefined
+		let result: unknown
 		switch (endpoint) {
 			case 'cards':
-				result = Card.findOne(lang, { filters: { id }, strict: true })?.full()
+				result = Card.findOne(lang, { id })?.full()
 				if (!result) {
-					result = Card.findOne(lang, { filters: { name: id }, strict: true })?.full()
+					result = Card.findOne(lang, { name: id })?.full()
 				}
 				break
 
 			case 'sets':
-				result = Set.findOne(lang, { filters: { id }, strict: true })?.full()
+				result = TCGSet.findOne(lang, { id })?.full()
 				if (!result) {
-					result = Set.findOne(lang, {filters: { name: id }, strict: true })?.full()
+					result = TCGSet.findOne(lang, { name: id })?.full()
 				}
 				break
 
 			case 'series':
-				result = Serie.findOne(lang, { filters: { id }, strict: true })?.full()
+				result = Serie.findOne(lang, { id })?.full()
 				if (!result) {
-					result = Serie.findOne(lang, { filters: { name: id }, strict: true })?.full()
+					result = Serie.findOne(lang, { name: id })?.full()
 				}
 				break
 			default:
@@ -282,12 +263,14 @@ server
 			return sendError(Errors.LANGUAGE_INVALID, res, { lang })
 		}
 
-		let result: any | undefined
+		let result: unknown
 
 		switch (endpoint) {
 			case 'sets':
+				// allow the dev to use a non prefixed value like `10` instead of `010` for newer sets
 				result = Card
-					.findOne(lang, { filters: { localId: subid, set: id }, strict: true})?.full()
+				// @ts-expect-error normal behavior until the filtering is more fiable
+					.findOne(lang, { localId: { $or: [subid.padStart(3, '0'), subid]}, 'set.id': id })?.full()
 				break
 		}
 		if (!result) {
