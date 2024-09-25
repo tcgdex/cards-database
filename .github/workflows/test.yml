@@ -37,5 +37,6 @@ jobs:
       run: |
         cd server
         bun run start &
+        sleep 10
         cd ../.bruno
         bru run --env Developpement
