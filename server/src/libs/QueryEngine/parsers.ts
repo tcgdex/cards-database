@@ -80,7 +80,6 @@ export function parseSearchParams<T extends object = object>(searchParams: URLSe
 
 	}
 
-	console.log(query)
 	return query as Query<T>
 }
 
@@ -141,7 +140,6 @@ export function recordToQuery<T extends object = object>(input: Record<string, s
 
 	})
 
-	console.log(query)
 	return query as Query<T>
 }
 
