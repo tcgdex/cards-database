@@ -14,14 +14,17 @@ const swsh1: Set = {
 	},
 
 	tcgOnline: 'BST',
-
 	serie: serie,
 
 	cardCount: {
 		official: 163
 	},
 
-	releaseDate: "2021-03-19"
+	releaseDate: "2021-03-19",
+
+	abbrevation: {
+		official: "BST"
+	}
 }
 
 export default swsh1

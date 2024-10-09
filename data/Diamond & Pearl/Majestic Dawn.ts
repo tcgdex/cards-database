@@ -18,7 +18,11 @@ const dp5: Set = {
 		official: 100
 	},
 
-	releaseDate: "2008-05-01"
+	releaseDate: "2008-05-01",
+
+	abbrevation: {
+		official: "MD"
+	}
 }
 
 export default dp5

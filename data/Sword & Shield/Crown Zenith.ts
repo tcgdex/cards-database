@@ -19,7 +19,11 @@ const swsh3: Set = {
 		official: 159
 	},
 
-	releaseDate: "2023-01-20"
+	releaseDate: "2023-01-20",
+
+	abbrevation: {
+		official: "CRZ"
+	}
 }
 
 export default swsh3

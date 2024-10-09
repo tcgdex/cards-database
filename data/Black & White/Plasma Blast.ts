@@ -18,7 +18,11 @@ const bw10: Set = {
 		official: 101
 	},
 
-	releaseDate: "2013-08-14"
+	releaseDate: "2013-08-14",
+
+	abbrevation: {
+		official: "PLB"
+	}
 }
 
 export default bw10

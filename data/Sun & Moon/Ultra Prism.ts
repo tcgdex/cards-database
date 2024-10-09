@@ -20,7 +20,11 @@ const sm5: Set = {
 		official: 156
 	},
 
-	releaseDate: "2018-02-02"
+	releaseDate: "2018-02-02",
+
+	abbrevation: {
+		official: "UPR"
+	}
 }
 
 export default sm5

@@ -17,7 +17,11 @@ const bw11: Set = {
 		official: 113
 	},
 
-	releaseDate: "2013-11-06"
+	releaseDate: "2013-11-06",
+
+	abbrevation: {
+		official: "LTR"
+	}
 }
 
 export default bw11

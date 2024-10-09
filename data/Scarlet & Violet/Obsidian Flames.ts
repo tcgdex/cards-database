@@ -19,7 +19,11 @@ const set: Set = {
 		official: 197
 	},
 
-	releaseDate: "2023-08-11"
+	releaseDate: "2023-08-11",
+
+	abbrevation: {
+		official: "OBF"
+	}
 }
 
 export default set

@@ -19,7 +19,11 @@ const xy0: Set = {
 		official: 45
 	},
 
-	releaseDate: "2013-11-08"
+	releaseDate: "2013-11-08",
+
+	abbrevation: {
+		official: "KSS"
+	}
 }
 
 export default xy0

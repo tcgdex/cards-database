@@ -16,7 +16,11 @@ const s2014xy: Set = {
 		official: 12
 	},
 
-	releaseDate: "2014-05-23"
+	releaseDate: "2014-05-23",
+
+	abbrevation: {
+		official: "MCD14"
+	}
 }
 
 export default s2014xy

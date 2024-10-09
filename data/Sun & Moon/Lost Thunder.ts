@@ -20,7 +20,11 @@ const sm8: Set = {
 		official: 214
 	},
 
-	releaseDate: "2018-11-02"
+	releaseDate: "2018-11-02",
+
+	abbrevation: {
+		official: "LOT"
+	}
 }
 
 export default sm8

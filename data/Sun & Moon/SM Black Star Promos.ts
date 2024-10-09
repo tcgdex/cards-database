@@ -19,7 +19,11 @@ const smp: Set = {
 		official: 236
 	},
 
-	releaseDate: "2017-02-03"
+	releaseDate: "2017-02-03",
+
+	abbrevation: {
+		official: "SMP"
+	}
 }
 
 export default smp

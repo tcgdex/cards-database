@@ -17,7 +17,11 @@ const ex5: Set = {
 		official: 101
 	},
 
-	releaseDate: "2004-06-01"
+	releaseDate: "2004-06-01",
+
+	abbrevation: {
+		official: "HL"
+	}
 }
 
 export default ex5

@@ -17,7 +17,11 @@ const pop4: Set = {
 		official: 17
 	},
 
-	releaseDate: "2006-08-01"
+	releaseDate: "2006-08-01",
+
+	abbrevation: {
+		official: "P4"
+	}
 }
 
 export default pop4

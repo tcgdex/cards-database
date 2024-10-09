@@ -20,7 +20,11 @@ const bw8: Set = {
 		official: 135
 	},
 
-	releaseDate: "2013-02-06"
+	releaseDate: "2013-02-06",
+
+	abbrevation: {
+		official: "PLS"
+	}
 }
 
 export default bw8

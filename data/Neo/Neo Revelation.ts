@@ -18,7 +18,11 @@ const neo3: Set = {
 		official: 64
 	},
 
-	releaseDate: "2001-09-21"
+	releaseDate: "2001-09-21",
+
+	abbrevation: {
+		official: "N3"
+	}
 }
 
 export default neo3

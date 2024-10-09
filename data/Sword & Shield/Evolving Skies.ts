@@ -14,14 +14,17 @@ const swsh6: Set = {
 	},
 
 	tcgOnline: 'EVS',
-
 	serie: serie,
 
 	cardCount: {
 		official: 203
 	},
 
-	releaseDate: "2021-08-27"
+	releaseDate: "2021-08-27",
+
+	abbrevation: {
+		official: "EVS"
+	}
 }
 
 export default swsh6

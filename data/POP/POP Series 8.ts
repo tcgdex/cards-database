@@ -15,7 +15,11 @@ const pop8: Set = {
 		official: 17
 	},
 
-	releaseDate: "2008-09-01"
+	releaseDate: "2008-09-01",
+
+	abbrevation: {
+		official: "P8"
+	}
 }
 
 export default pop8

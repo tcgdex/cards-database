@@ -17,7 +17,11 @@ const set: Set = {
 		official: 30
 	},
 
-	releaseDate: "2010-05-01"
+	releaseDate: "2010-05-01",
+
+	abbrevation: {
+		official: "TK4R"
+	}
 }
 
 export default set

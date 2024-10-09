@@ -20,7 +20,11 @@ const sm12: Set = {
 		official: 236
 	},
 
-	releaseDate: "2019-11-01"
+	releaseDate: "2019-11-01",
+
+	abbrevation: {
+		official: "CEC"
+	}
 }
 
 export default sm12

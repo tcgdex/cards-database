@@ -20,7 +20,11 @@ const xy10: Set = {
 		official: 124
 	},
 
-	releaseDate: "2016-05-02"
+	releaseDate: "2016-05-02",
+
+	abbrevation: {
+		official: "FCO"
+	}
 }
 
 export default xy10

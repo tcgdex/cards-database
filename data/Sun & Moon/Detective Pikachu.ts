@@ -20,7 +20,11 @@ const det1: Set = {
 		official: 18
 	},
 
-	releaseDate: "2019-03-29"
+	releaseDate: "2019-03-29",
+
+	abbrevation: {
+		official: "DET"
+	}
 }
 
 export default det1

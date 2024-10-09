@@ -20,7 +20,11 @@ const sm75: Set = {
 		official: 70
 	},
 
-	releaseDate: "2018-09-07"
+	releaseDate: "2018-09-07",
+
+	abbrevation: {
+		official: "DRM"
+	}
 }
 
 export default sm75

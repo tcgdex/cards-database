@@ -3,6 +3,7 @@ import serie from '../Sword & Shield'
 
 const set: Set = {
 	id: "swsh6",
+
 	name: {
 		en: "Chilling Reign",
 		fr: "Règne de Glace",
@@ -13,14 +14,17 @@ const set: Set = {
 	},
 
 	tcgOnline: 'CRE',
-
 	serie: serie,
 
 	cardCount: { // NOT confirmed
 		official: 198
 	},
 
-	releaseDate: "2021-06-18"
+	releaseDate: "2021-06-18",
+
+	abbrevation: {
+		official: "CRE"
+	}
 }
 
 export default set

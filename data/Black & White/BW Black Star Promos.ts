@@ -19,7 +19,11 @@ const bwp: Set = {
 		official: 101
 	},
 
-	releaseDate: "2011-04-26"
+	releaseDate: "2011-04-26",
+
+	abbrevation: {
+		official: "BWP"
+	}
 }
 
 export default bwp

@@ -18,7 +18,11 @@ const ex12: Set = {
 		official: 92
 	},
 
-	releaseDate: "2006-02-13"
+	releaseDate: "2006-02-13",
+
+	abbrevation: {
+		official: "LM"
+	}
 }
 
 export default ex12

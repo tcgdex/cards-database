@@ -20,7 +20,11 @@ const hgss2: Set = {
 		official: 95
 	},
 
-	releaseDate: "2010-05-12"
+	releaseDate: "2010-05-12",
+
+	abbrevation: {
+		official: "UL"
+	}
 }
 
 export default hgss2

@@ -20,7 +20,11 @@ const sm1: Set = {
 		official: 149
 	},
 
-	releaseDate: "2017-02-03"
+	releaseDate: "2017-02-03",
+
+	abbrevation: {
+		official: "SUM"
+	}
 }
 
 export default sm1

@@ -17,7 +17,11 @@ const dc1: Set = {
 		official: 34
 	},
 
-	releaseDate: "2015-03-25"
+	releaseDate: "2015-03-25",
+
+	abbrevation: {
+		official: "DCR"
+	}
 }
 
 export default dc1

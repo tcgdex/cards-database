@@ -20,7 +20,11 @@ const dp1: Set = {
 		official: 130
 	},
 
-	releaseDate: "2007-05-01"
+	releaseDate: "2007-05-01",
+
+	abbrevation: {
+		official: "DP"
+	}
 }
 
 export default dp1

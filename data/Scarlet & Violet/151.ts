@@ -19,7 +19,11 @@ const set: Set = {
 		official: 165
 	},
 
-	releaseDate: "2023-09-22"
+	releaseDate: "2023-09-22",
+
+	abbrevation: {
+		official: "MEW"
+	}
 }
 
 export default set

@@ -16,7 +16,11 @@ const s2012bw: Set = {
 		official: 12
 	},
 
-	releaseDate: "2012-06-15"
+	releaseDate: "2012-06-15",
+
+	abbrevation: {
+		official: "MCD12"
+	}
 }
 
 export default s2012bw

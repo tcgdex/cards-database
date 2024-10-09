@@ -20,7 +20,11 @@ const hgss1: Set = {
 		official: 123
 	},
 
-	releaseDate: "2010-02-10"
+	releaseDate: "2010-02-10",
+
+	abbrevation: {
+		official: "HS"
+	}
 }
 
 export default hgss1
