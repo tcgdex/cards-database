@@ -20,7 +20,11 @@ const bw5: Set = {
 		official: 108
 	},
 
-	releaseDate: "2012-05-09"
+	releaseDate: "2012-05-09",
+
+	abbrevation: {
+		official: "DEX"
+	}
 }
 
 export default bw5

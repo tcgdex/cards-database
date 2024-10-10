@@ -20,7 +20,11 @@ const xy9: Set = {
 		official: 122
 	},
 
-	releaseDate: "2016-02-03"
+	releaseDate: "2016-02-03",
+
+	abbrevation: {
+		official: "BKP"
+	}
 }
 
 export default xy9

@@ -20,7 +20,11 @@ const dp2: Set = {
 		official: 122
 	},
 
-	releaseDate: "2007-08-01"
+	releaseDate: "2007-08-01",
+
+	abbrevation: {
+		official: "MT"
+	}
 }
 
 export default dp2

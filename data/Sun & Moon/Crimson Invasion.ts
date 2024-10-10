@@ -20,7 +20,11 @@ const sm4: Set = {
 		official: 111
 	},
 
-	releaseDate: "2017-11-03"
+	releaseDate: "2017-11-03",
+
+	abbrevation: {
+		official: "CIN"
+	}
 }
 
 export default sm4

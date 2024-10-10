@@ -20,7 +20,11 @@ const bw1: Set = {
 		official: 114
 	},
 
-	releaseDate: "2011-04-25"
+	releaseDate: "2011-04-25",
+
+	abbrevation: {
+		official: "BLW"
+	}
 }
 
 export default bw1

@@ -19,7 +19,11 @@ const ex9: Set = {
 		official: 106
 	},
 
-	releaseDate: "2005-05-09"
+	releaseDate: "2005-05-09",
+
+	abbrevation: {
+		official: "EM"
+	}
 }
 
 export default ex9

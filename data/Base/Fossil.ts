@@ -20,7 +20,11 @@ const base3: Set = {
 		official: 62
 	},
 
-	releaseDate: "1999-10-10"
+	releaseDate: "1999-10-10",
+
+	abbrevation: {
+		official: "FO"
+	}
 }
 
 export default base3

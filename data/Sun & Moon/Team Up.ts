@@ -20,7 +20,11 @@ const sm9: Set = {
 		official: 181
 	},
 
-	releaseDate: "2019-01-31"
+	releaseDate: "2019-01-31",
+
+	abbrevation: {
+		official: "TEU"
+	}
 }
 
 export default sm9

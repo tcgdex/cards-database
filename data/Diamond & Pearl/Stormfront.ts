@@ -19,7 +19,11 @@ const dp7: Set = {
 		official: 100
 	},
 
-	releaseDate: "2008-11-01"
+	releaseDate: "2008-11-01",
+
+	abbrevation: {
+		official: "FS"
+	}
 }
 
 export default dp7

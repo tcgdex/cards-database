@@ -19,7 +19,11 @@ const set: Set = {
 		official: 91
 	},
 
-	releaseDate: "2024-01-26"
+	releaseDate: "2024-01-26",
+
+	abbrevation: {
+		official: "PAF"
+	}
 }
 
 export default set

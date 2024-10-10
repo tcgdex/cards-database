@@ -19,7 +19,11 @@ const hgss3: Set = {
 		official: 90
 	},
 
-	releaseDate: "2010-08-18"
+	releaseDate: "2010-08-18",
+
+	abbrevation: {
+		official: "UND"
+	}
 }
 
 export default hgss3

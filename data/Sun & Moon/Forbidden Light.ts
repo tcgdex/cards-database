@@ -20,7 +20,11 @@ const sm6: Set = {
 		official: 131
 	},
 
-	releaseDate: "2018-05-04"
+	releaseDate: "2018-05-04",
+
+	abbrevation: {
+		official: "FLI"
+	}
 }
 
 export default sm6

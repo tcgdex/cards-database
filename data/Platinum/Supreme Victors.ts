@@ -17,7 +17,11 @@ const pl3: Set = {
 		official: 147
 	},
 
-	releaseDate: "2009-08-19"
+	releaseDate: "2009-08-19",
+
+	abbrevation: {
+		official: "SV"
+	}
 }
 
 export default pl3

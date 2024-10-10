@@ -20,7 +20,11 @@ const base1: Set = {
 		official: 102
 	},
 
-	releaseDate: "1999-01-09"
+	releaseDate: "1999-01-09",
+
+	abbrevation: {
+		official: "BS"
+	}
 }
 
 export default base1

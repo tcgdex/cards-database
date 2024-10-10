@@ -20,7 +20,11 @@ const bw3: Set = {
 		official: 101
 	},
 
-	releaseDate: "2011-11-16"
+	releaseDate: "2011-11-16",
+
+	abbrevation: {
+		official: "NVI"
+	}
 }
 
 export default bw3

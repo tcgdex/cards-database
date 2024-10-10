@@ -20,7 +20,11 @@ const bw9: Set = {
 		official: 116
 	},
 
-	releaseDate: "2013-05-08"
+	releaseDate: "2013-05-08",
+
+	abbrevation: {
+		official: "PLF"
+	}
 }
 
 export default bw9

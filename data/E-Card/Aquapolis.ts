@@ -18,7 +18,11 @@ const ecard2: Set = {
 		official: 147
 	},
 
-	releaseDate: "2003-01-15"
+	releaseDate: "2003-01-15",
+
+	abbrevation: {
+		official: "AQ"
+	}
 }
 
 export default ecard2
