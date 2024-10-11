@@ -2,19 +2,20 @@ import { Set } from '../../interfaces'
 import serie from '../SV'
 
 const set: Set = {
-	id: 'SV6',
+	id: 'SV7s',
 	name: {
-		ja: '変幻の仮面'
+		id: 'Bimbingan Rasi',
+		th: 'แสงนำทางแห่งสเตลลาร์'
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 101
+		official: 166
 	},
 	releaseDate: {
-		ja: '2024-04-26',
-		'zh-tw': '2024-05-10'
+		id: '2024-09-20',
+		th: '2024-09-30'
 	}
 }
 

@@ -2,19 +2,18 @@ import { Set } from '../../interfaces'
 import serie from '../SV'
 
 const set: Set = {
-	id: 'SV6',
+	id: 'SVK',
 	name: {
-		ja: '変幻の仮面'
+		ja: 'デッキビルドBOX ステラミラクル'
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 101
+		official: 44
 	},
 	releaseDate: {
-		ja: '2024-04-26',
-		'zh-tw': '2024-05-10'
+		ja: '2024-07-19'
 	}
 }
 
