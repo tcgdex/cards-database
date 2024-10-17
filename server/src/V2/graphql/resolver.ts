@@ -29,7 +29,7 @@ const middleware = (fn: (lang: SupportedLanguages, query: Query<object>) => any)
 	// get the locale directive
 	const lang = getLang(e)
 
-	const query = recordToQuery(data.filters ?? {})
+	const query = recordToQuery(data.filters ?? data)
 
 	// Deprecated code handling
 	if (data.pagination) {

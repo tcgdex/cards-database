@@ -1,0 +1,28 @@
+meta {
+  name: card
+  type: graphql
+  seq: 2
+}
+
+post {
+  url: {{BASE_URL}}/v2/graphql
+  body: graphql
+  auth: none
+}
+
+body:graphql {
+  query Pouet {
+    card(id: "{{ID}}") {
+      id
+    }
+  }
+}
+
+vars:pre-request {
+  ID: swsh1-136
+}
+
+assert {
+  res.status: eq 200
+  res.body.data.card.id: eq {{ID}}
+}

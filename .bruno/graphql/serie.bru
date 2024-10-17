@@ -1,7 +1,7 @@
 meta {
-  name: GraphQL API
+  name: serie
   type: graphql
-  seq: 1
+  seq: 5
 }
 
 post {
@@ -12,22 +12,18 @@ post {
 
 body:graphql {
   query Pouet {
-    cards {
+    serie(id: "{{ID}}") {
       id
-      localId
-      name
-      set {
-        id
-        name
-        serie {
-          id
-          name
-        }
-      }
     }
   }
+  
+}
+
+vars:pre-request {
+  ID: swsh
 }
 
 assert {
   res.status: eq 200
+  res.body.data.serie.id: eq {{ID}}
 }
