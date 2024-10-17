@@ -15,7 +15,11 @@ const ru1: Set = {
 		official: 16
 	},
 
-	releaseDate: "2009-12-02"
+	releaseDate: "2009-12-02",
+
+	abbrevation: {
+		official: "RM"
+	}
 }
 
 export default ru1

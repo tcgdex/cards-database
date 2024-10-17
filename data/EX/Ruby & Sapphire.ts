@@ -20,7 +20,11 @@ const ex1: Set = {
 		official: 109
 	},
 
-	releaseDate: "2003-07-01"
+	releaseDate: "2003-07-01",
+
+	abbrevation: {
+		official: "RS"
+	}
 }
 
 export default ex1

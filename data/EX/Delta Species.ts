@@ -18,7 +18,11 @@ const ex11: Set = {
 		official: 113
 	},
 
-	releaseDate: "2005-10-31"
+	releaseDate: "2005-10-31",
+
+	abbrevation: {
+		official: "DS"
+	}
 }
 
 export default ex11

@@ -14,14 +14,17 @@ const swsh35: Set = {
 	},
 
 	tcgOnline: 'CPA',
-
 	serie: serie,
 
 	cardCount: {
 		official: 70
 	},
 
-	releaseDate: "2020-09-25"
+	releaseDate: "2020-09-25",
+
+	abbrevation: {
+		official: "CPA"
+	}
 }
 
 export default swsh35

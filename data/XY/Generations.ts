@@ -20,7 +20,11 @@ const g1: Set = {
 		official: 83
 	},
 
-	releaseDate: "2016-02-22"
+	releaseDate: "2016-02-22",
+
+	abbrevation: {
+		official: "GEN"
+	}
 }
 
 export default g1

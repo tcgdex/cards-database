@@ -14,14 +14,17 @@ const swsh1: Set = {
 	},
 
 	tcgOnline: 'SHF',
-
 	serie: serie,
 
 	cardCount: {
 		official: 72
 	},
 
-	releaseDate: "2021-02-19"
+	releaseDate: "2021-02-19",
+
+	abbrevation: {
+		official: "SHF"
+	}
 }
 
 export default swsh1

@@ -14,14 +14,17 @@ const swsh2: Set = {
 	},
 
 	tcgOnline: 'RCL',
-
 	serie: serie,
 
 	cardCount: {
 		official: 192
 	},
 
-	releaseDate: "2020-05-01"
+	releaseDate: "2020-05-01",
+
+	abbrevation: {
+		official: "RCL"
+	}
 }
 
 export default swsh2

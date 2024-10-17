@@ -20,7 +20,11 @@ const dv1: Set = {
 		official: 20
 	},
 
-	releaseDate: "2012-10-05"
+	releaseDate: "2012-10-05",
+
+	abbrevation: {
+		official: "DRV"
+	}
 }
 
 export default dv1

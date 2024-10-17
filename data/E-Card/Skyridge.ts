@@ -17,7 +17,11 @@ const ecard3: Set = {
 		official: 144
 	},
 
-	releaseDate: "2003-05-12"
+	releaseDate: "2003-05-12",
+
+	abbrevation: {
+		official: "SK"
+	}
 }
 
 export default ecard3

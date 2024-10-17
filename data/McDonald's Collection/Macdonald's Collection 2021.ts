@@ -18,7 +18,11 @@ const s2021swsh: Set = {
 		official: 25
 	},
 
-	releaseDate: "2021-02-09"
+	releaseDate: "2021-02-09",
+
+	abbrevation: {
+		official: "MCD21"
+	}
 }
 
 export default s2021swsh

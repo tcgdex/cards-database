@@ -18,7 +18,11 @@ const ex14: Set = {
 		official: 100
 	},
 
-	releaseDate: "2006-08-30"
+	releaseDate: "2006-08-30",
+
+	abbrevation: {
+		official: "CG"
+	}
 }
 
 export default ex14

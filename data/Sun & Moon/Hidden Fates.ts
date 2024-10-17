@@ -20,7 +20,11 @@ const sm115: Set = {
 		official: 68
 	},
 
-	releaseDate: "2019-08-23"
+	releaseDate: "2019-08-23",
+
+	abbrevation: {
+		official: "HIF"
+	}
 }
 
 export default sm115

@@ -18,7 +18,11 @@ const base5: Set = {
 		official: 82
 	},
 
-	releaseDate: "2000-04-24"
+	releaseDate: "2000-04-24",
+
+	abbrevation: {
+		official: "RO"
+	}
 }
 
 export default base5

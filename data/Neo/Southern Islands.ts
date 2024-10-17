@@ -14,7 +14,11 @@ const si1: Set = {
 		official: 18
 	},
 
-	releaseDate: "2001-07-31"
+	releaseDate: "2001-07-31",
+
+	abbrevation: {
+		official: "SI"
+	}
 }
 
 export default si1
