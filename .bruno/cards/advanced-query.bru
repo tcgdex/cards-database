@@ -5,13 +5,13 @@ meta {
 }
 
 get {
-  url: {{BASE_URL}}/v2/en/cards?name=eq:Pikachu|Pichu
+  url: {{BASE_URL}}/v2/en/cards?name=eq:Pikachu&hp=gte:60&hp=lt:70&localId=5&localId=not:tg&id=neq:cel25-5
   body: none
   auth: none
 }
 
 params:query {
-  name: eq:Pikachu|Pichu
+  name: eq:Pikachu
   hp: gte:60
   hp: lt:70
   localId: 5
