@@ -49,7 +49,6 @@ export interface SetResume {
 export interface Set extends SetResume {
 	serie: SerieResume;
 	tcgOnline?: string;
-	variants?: variants;
 	releaseDate: string;
 	/**
 	 * Designate if the set is usable in tournaments
@@ -134,7 +133,7 @@ export interface Card extends CardResume {
 	 */
 	category: string;
 	/**
-	 * Card Variants (Override Set Variants)
+	 * Card Variants
 	 */
 	variants?: variants;
 	/**
