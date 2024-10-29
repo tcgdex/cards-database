@@ -163,31 +163,43 @@ function parseParam(_key: string, value: string): QueryValues<unknown> {
 		}
 	}
 
-	if (/^\d+\.?\d*$/g.test(compared)) {
-		compared = Number.parseFloat(compared)
+	function process(item: string | number) {
+		switch (filter) {
+			case 'not':
+			case 'notlike':
+				return { $not: { $inc: item } }
+			case 'eq':
+				return item
+			case 'neq':
+				return { $not: item }
+			case 'gte':
+				return { $gte: item }
+			case 'gt':
+				return { $gt: item }
+			case 'lt':
+				return { $lt: item }
+			case 'lte':
+				return { $lte: item }
+			case 'null':
+				return null
+			case 'notnull':
+				return { $not: null }
+			default:
+				return { $inc: item }
+		}
 	}
 
-	switch (filter) {
-		case 'not':
-		case 'notlike':
-			return { $not: { $inc: compared }}
-		case 'eq':
-			return compared
-		case 'neq':
-			return { $not: compared }
-		case 'gte':
-			return { $gte: compared }
-		case 'gt':
-			return { $gt: compared }
-		case 'lt':
-			return { $lt: compared }
-		case 'lte':
-			return { $lte: compared }
-		case 'null':
-			return null
-		case 'notnull':
-			return { $not: null }
-		default:
-			return { $inc: compared }
+	if (/^\d+\.?\d*$/g.test(compared)) {
+		return process(Number.parseFloat(compared))
 	}
+
+	// @deprecated the `,` separator
+	// TODO: only use the `|` separator
+	const items = compared.split(compared.includes('|') ? '|' : ',')
+
+	if (items.length === 1) {
+		return process(items[0])
+	}
+
+	return { $or: items.map((it) => process(it)) }
 }
