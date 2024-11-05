@@ -22,7 +22,7 @@ const bw8: Set = {
 
 	releaseDate: "2013-02-06",
 
-	abbrevation: {
+	abbreviations: {
 		official: "PLS"
 	}
 }

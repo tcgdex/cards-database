@@ -20,7 +20,7 @@ const s2011bw: Set = {
 
 	releaseDate: "2011-06-17",
 
-	abbrevation: {
+	abbreviations: {
 		official: "MCD11",
 		fr: "M12"
 	}

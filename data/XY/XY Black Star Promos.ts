@@ -21,7 +21,7 @@ const xyp: Set = {
 
 	releaseDate: "2013-10-12",
 
-	abbrevation: {
+	abbreviations: {
 		official: 'XYP',
 		fr: "PXY"
 	}

@@ -20,7 +20,7 @@ const pl4: Set = {
 
 	releaseDate: "2009-11-04",
 
-	abbrevation: {
+	abbreviations: {
 		official: "AR"
 	}
 }

@@ -22,7 +22,7 @@ const sm7: Set = {
 
 	releaseDate: "2018-08-03",
 
-	abbrevation: {
+	abbreviations: {
 		official: "CES",
 		fr: "TCE"
 	}

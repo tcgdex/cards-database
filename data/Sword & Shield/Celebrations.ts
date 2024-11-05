@@ -22,7 +22,7 @@ const set: Set = {
 
 	releaseDate: "2021-10-08",
 
-	abbrevation: {
+	abbreviations: {
 		official: "CEL",
 		fr: "CEL"
 	}

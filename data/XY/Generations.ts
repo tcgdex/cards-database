@@ -22,7 +22,7 @@ const g1: Set = {
 
 	releaseDate: "2016-02-22",
 
-	abbrevation: {
+	abbreviations: {
 		official: "GEN",
 		fr: "GEN"
 	}

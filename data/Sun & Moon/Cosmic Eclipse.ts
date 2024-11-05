@@ -22,7 +22,7 @@ const sm12: Set = {
 
 	releaseDate: "2019-11-01",
 
-	abbrevation: {
+	abbreviations: {
 		official: "CEC",
 		fr: "ECO"
 	}

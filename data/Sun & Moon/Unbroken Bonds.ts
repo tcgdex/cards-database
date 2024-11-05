@@ -22,7 +22,7 @@ const sm10: Set = {
 
 	releaseDate: "2019-05-03",
 
-	abbrevation: {
+	abbreviations: {
 		official: "UNB",
 		fr: "AIF"
 	}

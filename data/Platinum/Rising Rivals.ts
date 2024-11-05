@@ -20,7 +20,7 @@ const pl2: Set = {
 
 	releaseDate: "2009-05-16",
 
-	abbrevation: {
+	abbreviations: {
 		official: "RR",
 		fr: "REM"
 	}

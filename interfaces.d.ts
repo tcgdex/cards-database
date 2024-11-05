@@ -66,7 +66,7 @@ export interface Set {
 	/**
 	 * Partial list of abbreviations, this is currently a Work in Progress feature
 	 */
-	abbrevation?: Partial<Omit<Languages, 'en'> & { official?: string }>
+	abbreviations?: Partial<Omit<Languages, 'en'> & { official?: string }>
 	serie: Serie
 	tcgOnline?: string
 

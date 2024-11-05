@@ -19,7 +19,7 @@ const ecard3: Set = {
 
 	releaseDate: "2003-05-12",
 
-	abbrevation: {
+	abbreviations: {
 		official: "SK"
 	}
 }

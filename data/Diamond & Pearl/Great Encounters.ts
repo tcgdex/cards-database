@@ -21,7 +21,7 @@ const dp4: Set = {
 
 	releaseDate: "2008-02-01",
 
-	abbrevation: {
+	abbreviations: {
 		official: "GE",
 		fr: "DAS"
 	}

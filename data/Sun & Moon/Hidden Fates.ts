@@ -22,7 +22,7 @@ const sm115: Set = {
 
 	releaseDate: "2019-08-23",
 
-	abbrevation: {
+	abbreviations: {
 		official: "HIF",
 		fr: "DOC"
 	}

@@ -17,7 +17,7 @@ const gym1: Set = {
 
 	releaseDate: "2000-08-14",
 
-	abbrevation: {
+	abbreviations: {
 		official: "G1"
 	}
 }

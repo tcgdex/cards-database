@@ -18,7 +18,7 @@ const ex7: Set = {
 
 	releaseDate: "2004-11-01",
 
-	abbrevation: {
+	abbreviations: {
 		official: "TR"
 	}
 }

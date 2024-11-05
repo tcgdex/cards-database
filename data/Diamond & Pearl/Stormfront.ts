@@ -21,7 +21,7 @@ const dp7: Set = {
 
 	releaseDate: "2008-11-01",
 
-	abbrevation: {
+	abbreviations: {
 		official: "FS",
 		fr: "TEM"
 	}

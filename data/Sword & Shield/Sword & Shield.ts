@@ -22,7 +22,7 @@ const swsh1: Set = {
 
 	releaseDate: "2020-02-07",
 
-	abbrevation: {
+	abbreviations: {
 		official: "SSH",
 		fr: "E&B"
 	}

@@ -18,7 +18,7 @@ const s2019sm: Set = {
 
 	releaseDate: "2019-10-15",
 
-	abbrevation: {
+	abbreviations: {
 		official: "MCD19"
 	}
 }

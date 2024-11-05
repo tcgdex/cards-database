@@ -21,7 +21,7 @@ const set: Set = {
 
 	releaseDate: "2024-01-26",
 
-	abbrevation: {
+	abbreviations: {
 		official: "PAF",
 		fr: "DDP"
 	}

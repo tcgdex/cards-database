@@ -21,7 +21,7 @@ const hgss3: Set = {
 
 	releaseDate: "2010-08-18",
 
-	abbrevation: {
+	abbreviations: {
 		official: "UND",
 		fr: "IND"
 	}

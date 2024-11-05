@@ -22,7 +22,7 @@ const xy10: Set = {
 
 	releaseDate: "2016-05-02",
 
-	abbrevation: {
+	abbreviations: {
 		official: "FCO",
 		fr: "IDD"
 	}

@@ -22,7 +22,7 @@ const xy3: Set = {
 
 	releaseDate: "2014-08-13",
 
-	abbrevation: {
+	abbreviations: {
 		official: "FFI",
 		fr: "PFU"
 	}

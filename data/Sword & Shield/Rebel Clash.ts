@@ -22,7 +22,7 @@ const swsh2: Set = {
 
 	releaseDate: "2020-05-01",
 
-	abbrevation: {
+	abbreviations: {
 		official: "RCL",
 		fr: "CDR"
 	}

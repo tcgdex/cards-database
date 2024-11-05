@@ -22,7 +22,7 @@ const sm4: Set = {
 
 	releaseDate: "2017-11-03",
 
-	abbrevation: {
+	abbreviations: {
 		official: "CIN",
 		fr: "INC"
 	}

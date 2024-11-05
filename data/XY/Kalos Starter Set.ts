@@ -21,7 +21,7 @@ const xy0: Set = {
 
 	releaseDate: "2013-11-08",
 
-	abbrevation: {
+	abbreviations: {
 		official: "KSS",
 		fr: "BAK"
 	}

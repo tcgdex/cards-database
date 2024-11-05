@@ -17,7 +17,7 @@ const ru1: Set = {
 
 	releaseDate: "2009-12-02",
 
-	abbrevation: {
+	abbreviations: {
 		official: "RM"
 	}
 }

@@ -20,7 +20,7 @@ const ex6: Set = {
 
 	releaseDate: "2004-09-01",
 
-	abbrevation: {
+	abbreviations: {
 		official: "RG",
 		fr: "RFV"
 	}

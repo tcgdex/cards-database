@@ -20,7 +20,7 @@ const ex14: Set = {
 
 	releaseDate: "2006-08-30",
 
-	abbrevation: {
+	abbreviations: {
 		official: "CG",
 		fr: "GDC"
 	}

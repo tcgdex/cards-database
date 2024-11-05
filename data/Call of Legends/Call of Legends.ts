@@ -22,7 +22,7 @@ const col1: Set = {
 
 	releaseDate: "2011-02-09",
 
-	abbrevation: {
+	abbreviations: {
 		official: "COL",
 		fr: "LDL"
 	}

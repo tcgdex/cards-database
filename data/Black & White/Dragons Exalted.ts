@@ -22,7 +22,7 @@ const bw6: Set = {
 
 	releaseDate: "2012-08-15",
 
-	abbrevation: {
+	abbreviations: {
 		official: "DRX",
 		fr: "DEX"
 	}

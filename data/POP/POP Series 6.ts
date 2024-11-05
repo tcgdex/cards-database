@@ -17,7 +17,7 @@ const pop6: Set = {
 
 	releaseDate: "2007-09-01",
 
-	abbrevation: {
+	abbreviations: {
 		official: "P6"
 	}
 }

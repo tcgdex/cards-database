@@ -16,7 +16,7 @@ const si1: Set = {
 
 	releaseDate: "2001-07-31",
 
-	abbrevation: {
+	abbreviations: {
 		official: "SI"
 	}
 }

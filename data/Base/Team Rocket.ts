@@ -20,7 +20,7 @@ const base5: Set = {
 
 	releaseDate: "2000-04-24",
 
-	abbrevation: {
+	abbreviations: {
 		official: "RO",
 		fr: "ROC"
 	}

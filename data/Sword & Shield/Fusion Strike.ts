@@ -22,7 +22,7 @@ const set: Set = {
 
 	releaseDate: "2021-11-12",
 
-	abbrevation: {
+	abbreviations: {
 		official: "FST",
 		fr: "PDF"
 	}

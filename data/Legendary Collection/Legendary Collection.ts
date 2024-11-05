@@ -17,7 +17,7 @@ const lc: Set = {
 
 	releaseDate: "2002-05-24",
 
-	abbrevation: {
+	abbreviations: {
 		official: "LC"
 	}
 }

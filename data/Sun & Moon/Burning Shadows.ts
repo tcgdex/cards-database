@@ -22,7 +22,7 @@ const sm3: Set = {
 
 	releaseDate: "2017-08-04",
 
-	abbrevation: {
+	abbreviations: {
 		official: "BUS",
 		fr: "OAR"
 	}

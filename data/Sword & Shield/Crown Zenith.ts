@@ -21,7 +21,7 @@ const swsh3: Set = {
 
 	releaseDate: "2023-01-20",
 
-	abbrevation: {
+	abbreviations: {
 		official: "CRZ",
 		fr: "ZEN"
 	}

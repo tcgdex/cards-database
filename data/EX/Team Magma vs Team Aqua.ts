@@ -20,7 +20,7 @@ const ex4: Set = {
 
 	releaseDate: "2004-03-01",
 
-	abbrevation: {
+	abbreviations: {
 		official: "MA",
 		fr: "M&A"
 	}

@@ -21,7 +21,7 @@ const set: Set = {
 
 	releaseDate: "2023-06-09",
 
-	abbrevation: {
+	abbreviations: {
 		official: "PAL",
 		fr: "EAP"
 	}

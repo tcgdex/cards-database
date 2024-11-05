@@ -18,7 +18,7 @@ const s2015xy: Set = {
 
 	releaseDate: "2015-11-27",
 
-	abbrevation: {
+	abbreviations: {
 		official: "MCD15",
 		fr: "M15"
 	}

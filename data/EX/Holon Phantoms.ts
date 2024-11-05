@@ -20,7 +20,7 @@ const ex13: Set = {
 
 	releaseDate: "2006-05-03",
 
-	abbrevation: {
+	abbreviations: {
 		official: "HP",
 		fr: "FAN"
 	}

@@ -22,7 +22,7 @@ const bw5: Set = {
 
 	releaseDate: "2012-05-09",
 
-	abbrevation: {
+	abbreviations: {
 		official: "DEX",
 		fr: "EOB"
 	}

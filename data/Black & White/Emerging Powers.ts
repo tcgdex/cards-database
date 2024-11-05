@@ -22,7 +22,7 @@ const bw2: Set = {
 
 	releaseDate: "2011-08-31",
 
-	abbrevation: {
+	abbreviations: {
 		official: "EP",
 		fr: "PEM"
 	}

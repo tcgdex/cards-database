@@ -19,7 +19,7 @@ const bw11: Set = {
 
 	releaseDate: "2013-11-06",
 
-	abbrevation: {
+	abbreviations: {
 		official: "LTR"
 	}
 }

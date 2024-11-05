@@ -22,7 +22,7 @@ const ex10: Set = {
 
 	releaseDate: "2005-08-22",
 
-	abbrevation: {
+	abbreviations: {
 		official: "UF",
 		fr: "FCH"
 	}

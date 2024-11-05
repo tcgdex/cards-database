@@ -22,7 +22,7 @@ const hgss1: Set = {
 
 	releaseDate: "2010-02-10",
 
-	abbrevation: {
+	abbreviations: {
 		official: "HS",
 		fr: "HGS"
 	}

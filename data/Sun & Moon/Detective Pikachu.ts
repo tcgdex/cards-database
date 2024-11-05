@@ -22,7 +22,7 @@ const det1: Set = {
 
 	releaseDate: "2019-03-29",
 
-	abbrevation: {
+	abbreviations: {
 		official: "DET",
 		fr: "DPI"
 	}

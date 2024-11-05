@@ -16,7 +16,7 @@ const swshp: Set = {
 
 	releaseDate: "2020-09-11",
 
-	abbrevation: {
+	abbreviations: {
 		official: "FUT20"
 	}
 }

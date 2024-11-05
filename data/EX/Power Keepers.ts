@@ -19,7 +19,7 @@ const ex16: Set = {
 
 	releaseDate: "2007-02-17",
 
-	abbrevation: {
+	abbreviations: {
 		official: "PK",
 		fr: "GDP"
 	}

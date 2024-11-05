@@ -22,7 +22,7 @@ const sm35: Set = {
 
 	releaseDate: "2017-10-06",
 
-	abbrevation: {
+	abbreviations: {
 		official: "SLG",
 		fr: "LBR"
 	}

@@ -19,7 +19,7 @@ const pop3: Set = {
 
 	releaseDate: "2006-04-01",
 
-	abbrevation: {
+	abbreviations: {
 		official: "P3",
 		fr: "P03"
 	}

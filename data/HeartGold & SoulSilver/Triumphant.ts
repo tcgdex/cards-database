@@ -21,7 +21,7 @@ const hgss4: Set = {
 
 	releaseDate: "2010-11-03",
 
-	abbrevation: {
+	abbreviations: {
 		official: "TRI",
 		fr: "TRI"
 	}

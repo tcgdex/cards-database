@@ -20,7 +20,7 @@ const bw10: Set = {
 
 	releaseDate: "2013-08-14",
 
-	abbrevation: {
+	abbreviations: {
 		official: "PLB",
 		fr: "EPL"
 	}

@@ -22,7 +22,7 @@ const bw3: Set = {
 
 	releaseDate: "2011-11-16",
 
-	abbrevation: {
+	abbreviations: {
 		official: "NVI",
 		fr: "NVI"
 	}

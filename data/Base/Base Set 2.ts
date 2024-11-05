@@ -17,7 +17,7 @@ const base4: Set = {
 
 	releaseDate: "2000-02-24",
 
-	abbrevation: {
+	abbreviations: {
 		official: "B2"
 	}
 }

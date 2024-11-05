@@ -21,7 +21,7 @@ const set: Set = {
 
 	releaseDate: "2022-09-09",
 
-	abbrevation: {
+	abbreviations: {
 		official: "LOR",
 		fr: "ORP"
 	}

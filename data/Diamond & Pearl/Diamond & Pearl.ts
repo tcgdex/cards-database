@@ -22,7 +22,7 @@ const dp1: Set = {
 
 	releaseDate: "2007-05-01",
 
-	abbrevation: {
+	abbreviations: {
 		official: "DP",
 		fr: "D&P"
 	}

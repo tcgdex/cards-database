@@ -22,7 +22,7 @@ const hgss2: Set = {
 
 	releaseDate: "2010-05-12",
 
-	abbrevation: {
+	abbreviations: {
 		official: "UL",
 		fr: "DCH"
 	}

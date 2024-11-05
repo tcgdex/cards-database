@@ -22,7 +22,7 @@ const sm75: Set = {
 
 	releaseDate: "2018-09-07",
 
-	abbrevation: {
+	abbreviations: {
 		official: "DRM",
 		fr: "MDD"
 	}

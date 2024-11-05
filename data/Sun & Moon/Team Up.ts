@@ -22,7 +22,7 @@ const sm9: Set = {
 
 	releaseDate: "2019-01-31",
 
-	abbrevation: {
+	abbreviations: {
 		official: "TEU",
 		fr: "DDC"
 	}
