@@ -88,7 +88,7 @@ if (cluster.isPrimary) {
 
 	// Setup GraphQL
 	server.use(`/v${VERSION}/graphql`, graphql)
-  server.use(`/v${VERSION}/openapi`, openapi)
+	server.use(`/v${VERSION}/openapi`, openapi)
 
 	// Setup JSON endpoints
 	server.use(`/v${VERSION}`, jsonEndpoints)
