@@ -128,17 +128,37 @@ server
 		let result: unknown
 
 		switch (endpoint) {
-			case 'cards':
+			case 'cards': {
+				if ('set' in query) {
+					const tmp = query.set
+					delete query.set
+					query.$or = [{
+						'set.id': tmp
+					}, {
+						'set.name': tmp
+					}]
+				}
 				result = Card
 					.find(lang, query)
 					.map((c) => c.resume())
 				break
+			}
 
-			case 'sets':
+			case 'sets': {
+				if ('serie' in query) {
+					const tmp = query.serie
+					delete query.serie
+					query.$or = [{
+						'serie.id': tmp
+					}, {
+						'serie.name': tmp
+					}]
+				}
 				result = TCGSet
 					.find(lang, query)
 					.map((c) => c.resume())
 				break
+			}
 			case 'series':
 				result = Serie
 					.find(lang, query)
@@ -233,8 +253,8 @@ server
 				}
 				result = {
 					name: id,
-					cards: Card.find(lang, {[endpointToField[endpoint]]: id})
-					.map((c) => c.resume())
+					cards: Card.find(lang, { [endpointToField[endpoint]]: id })
+						.map((c) => c.resume())
 				}
 		}
 		if (!result) {
@@ -269,8 +289,8 @@ server
 			case 'sets':
 				// allow the dev to use a non prefixed value like `10` instead of `010` for newer sets
 				result = Card
-				// @ts-expect-error normal behavior until the filtering is more fiable
-					.findOne(lang, { localId: { $or: [subid.padStart(3, '0'), subid]}, $or: [{ 'set.id': id }, { 'set.name': id }] })?.full()
+					// @ts-expect-error normal behavior until the filtering is more fiable
+					.findOne(lang, { localId: { $or: [subid.padStart(3, '0'), subid] }, $or: [{ 'set.id': id }, { 'set.name': id }] })?.full()
 				break
 		}
 		if (!result) {
