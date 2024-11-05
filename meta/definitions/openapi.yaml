@@ -636,7 +636,6 @@ components:
       type: object
       properties:
         id:
-          description: test
           type: string
         name:
           type: string
@@ -702,7 +701,6 @@ components:
           example: base1
         name:
           type: string
-
           example: Base Set
         logo:
           type: string
