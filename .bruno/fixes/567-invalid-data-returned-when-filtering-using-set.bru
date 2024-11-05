@@ -14,3 +14,8 @@ params:query {
   name: umbreon
   set: evolving skies
 }
+
+assert {
+  res.status: eq 200
+  res.body.length: lt 0
+}
