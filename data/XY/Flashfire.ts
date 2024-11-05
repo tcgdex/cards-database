@@ -23,7 +23,8 @@ const xy2: Set = {
 	releaseDate: "2014-05-07",
 
 	abbrevation: {
-		official: "FLF"
+		official: "FLF",
+		fr: "ETI"
 	}
 }
 

@@ -23,7 +23,8 @@ const swsh4: Set = {
 	releaseDate: "2020-11-13",
 
 	abbrevation: {
-		official: "VIV"
+		official: "VIV",
+		fr: "VOL"
 	}
 }
 

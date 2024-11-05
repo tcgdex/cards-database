@@ -20,7 +20,8 @@ const s2017sm: Set = {
 	releaseDate: "2017-08-03",
 
 	abbrevation: {
-		official: "MCD17"
+		official: "MCD17",
+		fr: "M17"
 	}
 }
 

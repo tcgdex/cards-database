@@ -22,7 +22,8 @@ const set: Set = {
 	releaseDate: "2024-05-24",
 
 	abbrevation: {
-		official: "TWM"
+		official: "TWM",
+		fr: "MCR"
 	}
 }
 

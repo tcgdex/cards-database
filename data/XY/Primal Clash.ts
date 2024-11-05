@@ -23,7 +23,8 @@ const xy5: Set = {
 	releaseDate: "2015-02-04",
 
 	abbrevation: {
-		official: "PRC"
+		official: "PRC",
+		fr: "PRI"
 	}
 }
 

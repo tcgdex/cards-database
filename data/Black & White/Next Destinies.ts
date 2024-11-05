@@ -23,7 +23,8 @@ const bw4: Set = {
 	releaseDate: "2012-02-08",
 
 	abbrevation: {
-		official: "NEX"
+		official: "NEX",
+		fr: "DFU"
 	}
 }
 

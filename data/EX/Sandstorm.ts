@@ -21,7 +21,8 @@ const ex2: Set = {
 	releaseDate: "2003-09-18",
 
 	abbrevation: {
-		official: "SS"
+		official: "SS",
+		fr: "TES"
 	}
 }
 

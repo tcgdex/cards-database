@@ -21,7 +21,8 @@ const ex3: Set = {
 	releaseDate: "2003-11-24",
 
 	abbrevation: {
-		official: "DR"
+		official: "DR",
+		fr: "DRG"
 	}
 }
 

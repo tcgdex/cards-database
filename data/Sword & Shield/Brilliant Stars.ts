@@ -23,7 +23,8 @@ const set: Set = {
 	releaseDate: "2022-02-25",
 
 	abbrevation: {
-		official: "BRS"
+		official: "BRS",
+		fr: "STA"
 	}
 }
 

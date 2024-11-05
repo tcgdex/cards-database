@@ -22,7 +22,8 @@ const dp6: Set = {
 	releaseDate: "2008-08-01",
 
 	abbrevation: {
-		official: "LA"
+		official: "LA",
+		fr: "EDL"
 	}
 }
 

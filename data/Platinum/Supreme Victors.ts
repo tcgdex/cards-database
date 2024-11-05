@@ -20,7 +20,8 @@ const pl3: Set = {
 	releaseDate: "2009-08-19",
 
 	abbrevation: {
-		official: "SV"
+		official: "SV",
+		fr: "VSU"
 	}
 }
 

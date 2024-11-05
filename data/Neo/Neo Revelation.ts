@@ -21,7 +21,8 @@ const neo3: Set = {
 	releaseDate: "2001-09-21",
 
 	abbrevation: {
-		official: "N3"
+		official: "N3",
+		fr: "NRE"
 	}
 }
 

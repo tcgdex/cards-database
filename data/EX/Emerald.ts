@@ -22,7 +22,8 @@ const ex9: Set = {
 	releaseDate: "2005-05-09",
 
 	abbrevation: {
-		official: "EM"
+		official: "EM",
+		fr: "EME"
 	}
 }
 

@@ -23,7 +23,8 @@ const bw7: Set = {
 	releaseDate: "2012-11-07",
 
 	abbrevation: {
-		official: "BCR"
+		official: "BCR",
+		fr: "FFR"
 	}
 }
 

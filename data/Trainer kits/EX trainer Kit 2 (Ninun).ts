@@ -20,7 +20,8 @@ const set: Set = {
 	releaseDate: "2006-03-01",
 
 	abbrevation: {
-		official: "TK2M"
+		official: "TK2M",
+		fr: "NEG"
 	}
 }
 

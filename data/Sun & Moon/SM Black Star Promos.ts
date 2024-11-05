@@ -22,7 +22,8 @@ const smp: Set = {
 	releaseDate: "2017-02-03",
 
 	abbrevation: {
-		official: "SMP"
+		official: "SMP",
+		fr: "PSM"
 	}
 }
 

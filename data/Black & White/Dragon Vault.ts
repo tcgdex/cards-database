@@ -23,7 +23,8 @@ const dv1: Set = {
 	releaseDate: "2012-10-05",
 
 	abbrevation: {
-		official: "DRV"
+		official: "DRV",
+		fr: "CDR"
 	}
 }
 

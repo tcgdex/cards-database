@@ -23,7 +23,8 @@ const base1: Set = {
 	releaseDate: "1999-01-09",
 
 	abbrevation: {
-		official: "BS"
+		official: "BS",
+		fr: "BAS"
 	}
 }
 

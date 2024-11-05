@@ -23,7 +23,8 @@ const xy4: Set = {
 	releaseDate: "2014-11-05",
 
 	abbrevation: {
-		official: "PHF"
+		official: "PHF",
+		fr: "VSP"
 	}
 }
 

@@ -23,7 +23,8 @@ const xy7: Set = {
 	releaseDate: "2015-08-12",
 
 	abbrevation: {
-		official: "AOR"
+		official: "AOR",
+		fr: "ORA"
 	}
 }
 

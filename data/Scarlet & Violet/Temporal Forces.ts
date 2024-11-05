@@ -22,7 +22,8 @@ const set: Set = {
 	releaseDate: "2024-03-22",
 
 	abbrevation: {
-		official: "TEF"
+		official: "TEF",
+		fr: "FTP"
 	}
 }
 

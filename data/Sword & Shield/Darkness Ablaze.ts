@@ -23,7 +23,8 @@ const swsh3: Set = {
 	releaseDate: "2020-08-14",
 
 	abbrevation: {
-		official: "DAA"
+		official: "DAA",
+		fr: "TEM"
 	}
 }
 

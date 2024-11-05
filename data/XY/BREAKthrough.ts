@@ -23,7 +23,8 @@ const xy8: Set = {
 	releaseDate: "2015-11-04",
 
 	abbrevation: {
-		official: "BKT"
+		official: "BKT",
+		fr: "IMP"
 	}
 }
 

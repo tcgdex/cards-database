@@ -21,7 +21,8 @@ const ex12: Set = {
 	releaseDate: "2006-02-13",
 
 	abbrevation: {
-		official: "LM"
+		official: "LM",
+		fr: "CDL"
 	}
 }
 

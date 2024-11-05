@@ -20,7 +20,8 @@ const ex5: Set = {
 	releaseDate: "2004-06-01",
 
 	abbrevation: {
-		official: "HL"
+		official: "HL",
+		fr: "LOU"
 	}
 }
 

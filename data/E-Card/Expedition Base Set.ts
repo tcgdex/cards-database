@@ -21,7 +21,8 @@ const ecard1: Set = {
 	releaseDate: "2002-09-15",
 
 	abbrevation: {
-		official: "EX"
+		official: "EX",
+		fr: "EXP"
 	}
 }
 

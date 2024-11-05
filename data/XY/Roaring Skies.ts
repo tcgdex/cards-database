@@ -23,7 +23,8 @@ const xy6: Set = {
 	releaseDate: "2015-05-06",
 
 	abbrevation: {
-		official: "ROS"
+		official: "ROS",
+		fr: "CRU"
 	}
 }
 

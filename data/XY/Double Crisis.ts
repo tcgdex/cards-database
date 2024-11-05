@@ -20,7 +20,8 @@ const dc1: Set = {
 	releaseDate: "2015-03-25",
 
 	abbrevation: {
-		official: "DCR"
+		official: "DCR",
+		fr: "DBD"
 	}
 }
 

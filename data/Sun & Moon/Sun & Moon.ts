@@ -23,7 +23,8 @@ const sm1: Set = {
 	releaseDate: "2017-02-03",
 
 	abbrevation: {
-		official: "SUM"
+		official: "SUM",
+		fr: "S&L"
 	}
 }
 

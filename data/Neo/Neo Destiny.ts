@@ -21,7 +21,8 @@ const neo4: Set = {
 	releaseDate: "2002-02-28",
 
 	abbrevation: {
-		official: "N4"
+		official: "N4",
+		fr: "NDT"
 	}
 }
 

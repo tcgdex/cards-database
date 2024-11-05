@@ -23,7 +23,8 @@ const sm8: Set = {
 	releaseDate: "2018-11-02",
 
 	abbrevation: {
-		official: "LOT"
+		official: "LOT",
+		fr: "TPD"
 	}
 }
 

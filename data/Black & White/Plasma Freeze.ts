@@ -23,7 +23,8 @@ const bw9: Set = {
 	releaseDate: "2013-05-08",
 
 	abbrevation: {
-		official: "PLF"
+		official: "PLF",
+		fr: "GPL"
 	}
 }
 

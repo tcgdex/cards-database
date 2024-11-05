@@ -23,7 +23,8 @@ const swsh6: Set = {
 	releaseDate: "2021-08-27",
 
 	abbrevation: {
-		official: "EVS"
+		official: "EVS",
+		fr: "EVC"
 	}
 }
 

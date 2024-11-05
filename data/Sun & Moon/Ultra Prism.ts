@@ -23,7 +23,8 @@ const sm5: Set = {
 	releaseDate: "2018-02-02",
 
 	abbrevation: {
-		official: "UPR"
+		official: "UPR",
+		fr: "UPR"
 	}
 }
 

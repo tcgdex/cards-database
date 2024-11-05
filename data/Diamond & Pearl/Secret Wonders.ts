@@ -23,7 +23,8 @@ const dp3: Set = {
 	releaseDate: "2007-11-01",
 
 	abbrevation: {
-		official: "SW"
+		official: "SW",
+		fr: "MSQ"
 	}
 }
 

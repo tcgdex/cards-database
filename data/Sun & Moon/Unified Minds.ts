@@ -23,7 +23,8 @@ const sm11: Set = {
 	releaseDate: "2019-08-02",
 
 	abbrevation: {
-		official: "UNM"
+		official: "UNM",
+		fr: "HES"
 	}
 }
 

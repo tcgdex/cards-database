@@ -21,7 +21,8 @@ const s2021swsh: Set = {
 	releaseDate: "2021-02-09",
 
 	abbrevation: {
-		official: "MCD21"
+		official: "MCD21",
+		fr: "M21"
 	}
 }
 

@@ -23,7 +23,8 @@ const swsh35: Set = {
 	releaseDate: "2020-09-25",
 
 	abbrevation: {
-		official: "CPA"
+		official: "CPA",
+		fr: "VDM"
 	}
 }
 

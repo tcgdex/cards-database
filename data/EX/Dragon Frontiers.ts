@@ -21,7 +21,8 @@ const ex15: Set = {
 	releaseDate: "2006-11-08",
 
 	abbrevation: {
-		official: "DF"
+		official: "DF",
+		fr: "IDR"
 	}
 }
 

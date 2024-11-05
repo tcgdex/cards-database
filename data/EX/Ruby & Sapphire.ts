@@ -23,7 +23,8 @@ const ex1: Set = {
 	releaseDate: "2003-07-01",
 
 	abbrevation: {
-		official: "RS"
+		official: "RS",
+		fr: "R&S"
 	}
 }
 

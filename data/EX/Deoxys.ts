@@ -22,7 +22,8 @@ const ex8: Set = {
 	releaseDate: "2005-02-01",
 
 	abbrevation: {
-		official: "DX"
+		official: "DX",
+		fr: "DEO"
 	}
 }
 

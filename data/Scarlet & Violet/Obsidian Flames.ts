@@ -22,7 +22,8 @@ const set: Set = {
 	releaseDate: "2023-08-11",
 
 	abbrevation: {
-		official: "OBF"
+		official: "OBF",
+		fr: "FLO"
 	}
 }
 

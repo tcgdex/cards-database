@@ -23,7 +23,8 @@ const set: Set = {
 	releaseDate: "2022-07-01",
 
 	abbrevation: {
-		official: "PGO"
+		official: "PGO",
+		fr: "PGO"
 	}
 }
 

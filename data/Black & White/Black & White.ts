@@ -23,7 +23,8 @@ const bw1: Set = {
 	releaseDate: "2011-04-25",
 
 	abbrevation: {
-		official: "BLW"
+		official: "BLW",
+		fr: "N&B"
 	}
 }
 

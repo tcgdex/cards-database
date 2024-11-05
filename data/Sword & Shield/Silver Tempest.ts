@@ -22,7 +22,8 @@ const set: Set = {
 	releaseDate: "2022-11-11",
 
 	abbrevation: {
-		official: "SIT"
+		official: "SIT",
+		fr: "TAR"
 	}
 }
 

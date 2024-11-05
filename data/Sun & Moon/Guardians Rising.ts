@@ -23,7 +23,8 @@ const sm2: Set = {
 	releaseDate: "2017-05-05",
 
 	abbrevation: {
-		official: "GRI"
+		official: "GRI",
+		fr: "GAS"
 	}
 }
 

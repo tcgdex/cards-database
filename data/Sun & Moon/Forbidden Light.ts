@@ -23,7 +23,8 @@ const sm6: Set = {
 	releaseDate: "2018-05-04",
 
 	abbrevation: {
-		official: "FLI"
+		official: "FLI",
+		fr: "LUI"
 	}
 }
 

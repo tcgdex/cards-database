@@ -21,7 +21,8 @@ const dp5: Set = {
 	releaseDate: "2008-05-01",
 
 	abbrevation: {
-		official: "MD"
+		official: "MD",
+		fr: "AMJ"
 	}
 }
 
