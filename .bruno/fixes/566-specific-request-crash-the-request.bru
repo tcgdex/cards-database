@@ -1,0 +1,15 @@
+meta {
+  name: 566 - Specific request crash the request
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/cards?name=eq:Pikachu&name=eq:Pichu,Pikachu
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 403
+}
