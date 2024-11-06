@@ -20,7 +20,12 @@ const xy8: Set = {
 		official: 162
 	},
 
-	releaseDate: "2015-11-04"
+	releaseDate: "2015-11-04",
+
+	abbreviations: {
+		official: "BKT",
+		fr: "IMP"
+	}
 }
 
 export default xy8

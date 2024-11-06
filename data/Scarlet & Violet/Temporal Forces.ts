@@ -19,7 +19,12 @@ const set: Set = {
 		official: 162
 	},
 
-	releaseDate: "2024-03-22"
+	releaseDate: "2024-03-22",
+
+	abbreviations: {
+		official: "TEF",
+		fr: "FTP"
+	}
 }
 
 export default set

@@ -15,7 +15,11 @@ const gym1: Set = {
 		official: 132
 	},
 
-	releaseDate: "2000-08-14"
+	releaseDate: "2000-08-14",
+
+	abbreviations: {
+		official: "G1"
+	}
 }
 
 export default gym1

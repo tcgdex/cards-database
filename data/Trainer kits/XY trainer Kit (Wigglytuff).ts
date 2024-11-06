@@ -17,7 +17,12 @@ const set: Set = {
 		official: 30
 	},
 
-	releaseDate: "2014-11-01"
+	releaseDate: "2014-11-01",
+
+	abbreviations: {
+		official: "TK7B",
+		fr: "GRO"
+	}
 }
 
 export default set

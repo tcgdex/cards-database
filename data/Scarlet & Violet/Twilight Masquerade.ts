@@ -19,7 +19,12 @@ const set: Set = {
 		official: 167
 	},
 
-	releaseDate: "2024-05-24"
+	releaseDate: "2024-05-24",
+
+	abbreviations: {
+		official: "TWM",
+		fr: "MCR"
+	}
 }
 
 export default set

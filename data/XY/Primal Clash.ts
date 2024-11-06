@@ -20,7 +20,12 @@ const xy5: Set = {
 		official: 160
 	},
 
-	releaseDate: "2015-02-04"
+	releaseDate: "2015-02-04",
+
+	abbreviations: {
+		official: "PRC",
+		fr: "PRI"
+	}
 }
 
 export default xy5

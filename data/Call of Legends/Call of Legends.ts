@@ -20,7 +20,12 @@ const col1: Set = {
 		official: 95
 	},
 
-	releaseDate: "2011-02-09"
+	releaseDate: "2011-02-09",
+
+	abbreviations: {
+		official: "COL",
+		fr: "LDL"
+	}
 }
 
 export default col1

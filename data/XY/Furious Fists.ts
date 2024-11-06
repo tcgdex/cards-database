@@ -20,7 +20,12 @@ const xy3: Set = {
 		official: 111
 	},
 
-	releaseDate: "2014-08-13"
+	releaseDate: "2014-08-13",
+
+	abbreviations: {
+		official: "FFI",
+		fr: "PFU"
+	}
 }
 
 export default xy3

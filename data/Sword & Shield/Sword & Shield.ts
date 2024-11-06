@@ -14,14 +14,18 @@ const swsh1: Set = {
 	},
 
 	tcgOnline: 'SSH',
-
 	serie: serie,
 
 	cardCount: {
 		official: 202
 	},
 
-	releaseDate: "2020-02-07"
+	releaseDate: "2020-02-07",
+
+	abbreviations: {
+		official: "SSH",
+		fr: "E&B"
+	}
 }
 
 export default swsh1

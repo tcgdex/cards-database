@@ -63,6 +63,10 @@ type ISODate = `${number}-${number}-${number}`
 export interface Set {
 	id: string
 	name: Languages
+	/**
+	 * Partial list of abbreviations, this is currently a Work in Progress feature
+	 */
+	abbreviations?: Partial<Omit<Languages, 'en'> & { official?: string }>
 	serie: Serie
 	tcgOnline?: string
 

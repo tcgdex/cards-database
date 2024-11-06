@@ -20,7 +20,12 @@ const bw4: Set = {
 		official: 99
 	},
 
-	releaseDate: "2012-02-08"
+	releaseDate: "2012-02-08",
+
+	abbreviations: {
+		official: "NEX",
+		fr: "DFU"
+	}
 }
 
 export default bw4

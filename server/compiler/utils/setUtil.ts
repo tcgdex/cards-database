@@ -102,6 +102,10 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 			name: set.serie.name[lang] as string
 		},
 		symbol: pics[1],
-		tcgOnline: set.tcgOnline
+		tcgOnline: set.tcgOnline,
+		abbreviation: (set.abbreviations?.official || set.abbreviations?.[lang]) ? {
+			official: set.abbreviations?.official,
+			localized: set.abbreviations?.[lang]
+		} : undefined
 	}
 }

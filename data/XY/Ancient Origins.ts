@@ -20,7 +20,12 @@ const xy7: Set = {
 		official: 98
 	},
 
-	releaseDate: "2015-08-12"
+	releaseDate: "2015-08-12",
+
+	abbreviations: {
+		official: "AOR",
+		fr: "ORA"
+	}
 }
 
 export default xy7

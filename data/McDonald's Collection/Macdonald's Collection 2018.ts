@@ -15,7 +15,11 @@ const s2018sm: Set = {
 		official: 12
 	},
 
-	releaseDate: "2018-10-19"
+	releaseDate: "2018-10-19",
+
+	abbreviations: {
+		official: "MCD18"
+	}
 }
 
 export default s2018sm

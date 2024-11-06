@@ -17,7 +17,12 @@ const pop9: Set = {
 		official: 17
 	},
 
-	releaseDate: "2009-03-01"
+	releaseDate: "2009-03-01",
+
+	abbreviations: {
+		official: "P9",
+		fr: "P09"
+	}
 }
 
 export default pop9

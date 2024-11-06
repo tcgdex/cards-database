@@ -19,7 +19,12 @@ const dp4: Set = {
 		official: 106
 	},
 
-	releaseDate: "2008-02-01"
+	releaseDate: "2008-02-01",
+
+	abbreviations: {
+		official: "GE",
+		fr: "DAS"
+	}
 }
 
 export default dp4

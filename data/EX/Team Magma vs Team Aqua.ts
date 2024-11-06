@@ -18,7 +18,12 @@ const ex4: Set = {
 		official: 95
 	},
 
-	releaseDate: "2004-03-01"
+	releaseDate: "2004-03-01",
+
+	abbreviations: {
+		official: "MA",
+		fr: "M&A"
+	}
 }
 
 export default ex4

@@ -20,7 +20,12 @@ const bw7: Set = {
 		official: 149
 	},
 
-	releaseDate: "2012-11-07"
+	releaseDate: "2012-11-07",
+
+	abbreviations: {
+		official: "BCR",
+		fr: "FFR"
+	}
 }
 
 export default bw7

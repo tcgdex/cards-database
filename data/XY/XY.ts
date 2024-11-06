@@ -20,7 +20,12 @@ const xy1: Set = {
 		official: 146
 	},
 
-	releaseDate: "2014-02-05"
+	releaseDate: "2014-02-05",
+
+	abbreviations: {
+		official: "XY",
+		fr: "XY"
+	}
 }
 
 export default xy1

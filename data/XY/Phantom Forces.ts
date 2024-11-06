@@ -20,7 +20,12 @@ const xy4: Set = {
 		official: 119
 	},
 
-	releaseDate: "2014-11-05"
+	releaseDate: "2014-11-05",
+
+	abbreviations: {
+		official: "PHF",
+		fr: "VSP"
+	}
 }
 
 export default xy4

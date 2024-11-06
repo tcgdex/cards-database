@@ -18,7 +18,12 @@ const ex13: Set = {
 		official: 110
 	},
 
-	releaseDate: "2006-05-03"
+	releaseDate: "2006-05-03",
+
+	abbreviations: {
+		official: "HP",
+		fr: "FAN"
+	}
 }
 
 export default ex13

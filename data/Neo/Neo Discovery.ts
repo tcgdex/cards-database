@@ -18,7 +18,12 @@ const neo2: Set = {
 		official: 75
 	},
 
-	releaseDate: "2001-06-01"
+	releaseDate: "2001-06-01",
+
+	abbreviations: {
+		official: "N2",
+		fr: "NDS"
+	}
 }
 
 export default neo2

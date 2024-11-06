@@ -20,7 +20,12 @@ const sm2: Set = {
 		official: 145
 	},
 
-	releaseDate: "2017-05-05"
+	releaseDate: "2017-05-05",
+
+	abbreviations: {
+		official: "GRI",
+		fr: "GAS"
+	}
 }
 
 export default sm2

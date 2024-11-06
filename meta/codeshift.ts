@@ -1,5 +1,5 @@
 import { ArrayExpression, Identifier, JSCodeshift, Literal, ObjectExpression, Property, Transform } from "jscodeshift"
-
+import pathUtils from 'path/posix'
 interface ObjectField {
 	type: 'Object'
 	items: Record<string, Field>
@@ -109,6 +109,14 @@ function remove(path: ObjectExpression | ArrayExpression, key: string | number) 
 	}
 }
 
+function rename(parent: ObjectExpression, oldKey: string, newKey: string) {
+	parent.properties.forEach((p) => {
+		if (p.key.name === oldKey) {
+			p.key.name = newKey
+		}
+	})
+}
+
 /**
  * Start editing here !
  */
@@ -120,12 +128,16 @@ const transformer: Transform = (file, api) => {
 		.find(j.ObjectExpression)
 		.forEach((path, index) => {
 			if (index !== 0) return
+			const filename = pathUtils.basename(file.path, '.ts')
 			let simplified = simplify(path.node)
-			const name = simplified.items.name as ObjectField
-			name.items.fr
+
+			rename(simplified.item, 'abbrevation', 'abbreviations')
+
+			// set(j, simplified.item, j.objectExpression([j.property('init', j.identifier('fr'), j.literal(abbr))]), 'abbrevation')
+			// set(j, simplified.item, j.literal('a'), 's.official')
 
 			// Example remove field
-			remove(name.item as ObjectExpression, 'fr')
+			// remove(name.item as ObjectExpression, 'fr')
 
 			// Example Set/Add regulationMArk to cards
 			// set(j, name.items.fr, j.literal('D'), 'regulationMark')

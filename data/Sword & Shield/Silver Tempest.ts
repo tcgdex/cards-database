@@ -19,7 +19,12 @@ const set: Set = {
 		official: 195
 	},
 
-	releaseDate: "2022-11-11"
+	releaseDate: "2022-11-11",
+
+	abbreviations: {
+		official: "SIT",
+		fr: "TAR"
+	}
 }
 
 export default set

@@ -18,7 +18,12 @@ const ex15: Set = {
 		official: 101
 	},
 
-	releaseDate: "2006-11-08"
+	releaseDate: "2006-11-08",
+
+	abbreviations: {
+		official: "DF",
+		fr: "IDR"
+	}
 }
 
 export default ex15

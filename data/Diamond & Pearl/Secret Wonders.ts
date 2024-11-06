@@ -20,7 +20,12 @@ const dp3: Set = {
 		official: 132
 	},
 
-	releaseDate: "2007-11-01"
+	releaseDate: "2007-11-01",
+
+	abbreviations: {
+		official: "SW",
+		fr: "MSQ"
+	}
 }
 
 export default dp3

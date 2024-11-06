@@ -20,7 +20,12 @@ const xy6: Set = {
 		official: 108
 	},
 
-	releaseDate: "2015-05-06"
+	releaseDate: "2015-05-06",
+
+	abbreviations: {
+		official: "ROS",
+		fr: "CRU"
+	}
 }
 
 export default xy6

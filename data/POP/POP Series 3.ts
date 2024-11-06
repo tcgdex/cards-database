@@ -17,7 +17,12 @@ const pop3: Set = {
 		official: 17
 	},
 
-	releaseDate: "2006-04-01"
+	releaseDate: "2006-04-01",
+
+	abbreviations: {
+		official: "P3",
+		fr: "P03"
+	}
 }
 
 export default pop3
