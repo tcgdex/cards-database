@@ -1,0 +1,30 @@
+import { Card } from "../../../interfaces"
+import Set from "../Genetic Apex"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Dratini"
+	},
+
+	category: "Pokemon",
+	hp: 70,
+	types: ["Dragon"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Water", "Lightning"],
+
+		name: {
+			en: "Ram"
+		},
+
+		damage: "40"
+	}],
+
+	retreat: 1,
+	rarity: "None"
+}
+
+export default card
