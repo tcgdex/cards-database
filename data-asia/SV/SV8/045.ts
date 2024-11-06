@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "トゲピー"
+		ja: "トゲピー",
+		'zh-tw': "波克比",
+		'zh-cn': "波克比"
 	},
 
 	illustrator: "Yoko Hishida",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "殻の中に 幸せが たくさん つまっているらしく 優しくされると 幸運を 分け与える という。"
+		ja: "殻の中に 幸せが たくさん つまっているらしく 優しくされると 幸運を 分け与える という。",
+		'zh-tw': "殼內好像塞滿了許多幸福， 據說只要溫柔地對待牠， 牠就會把幸運分給對方。",
+		'zh-cn': "殼內好像塞滿了許多幸福， 據說只要溫柔地對待牠， 牠就會把幸運分給對方。"
 	},
 
 	stage: "Basic",
@@ -25,7 +29,9 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "はたく"
+			ja: "はたく",
+			'zh-tw': "拍擊",
+			'zh-cn': "拍擊"
 		},
 
 		damage: 30
@@ -36,7 +42,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

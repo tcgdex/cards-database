@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ミロカロスex"
+		ja: "ミロカロスex",
+		'zh-tw': "美納斯ex",
+		'zh-cn': "美納斯ex"
 	},
 
 	illustrator: "hncl",
@@ -20,11 +22,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "きらめくウロコ"
+			ja: "きらめくウロコ",
+			'zh-tw': "‌璀璨鱗片",
+			'zh-cn': "‌璀璨鱗片"
 		},
 
 		effect: {
-			ja: "このポケモンは、相手の「テラスタル」のポケモンからワザのダメージや効果を受けない。"
+			ja: "このポケモンは、相手の「テラスタル」のポケモンからワザのダメージや効果を受けない。",
+			'zh-tw': "這隻寶可夢不會受到對手的「太晶」寶可夢招式的傷害與效果的影響。",
+			'zh-cn': "這隻寶可夢不會受到對手的「太晶」寶可夢招式的傷害與效果的影響。"
 		}
 	}],
 
@@ -32,13 +38,17 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ヒプノスプラッシュ"
+			ja: "ヒプノスプラッシュ",
+			'zh-tw': "昏睡飛濺",
+			'zh-cn': "昏睡飛濺"
 		},
 
 		damage: 160,
 
 		effect: {
-			ja: "相手のバトルポケモンをねむりにする。"
+			ja: "相手のバトルポケモンをねむりにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
+			'zh-cn': "將對手的戰鬥寶可夢【睡眠】。"
 		}
 	}],
 
@@ -47,7 +57,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

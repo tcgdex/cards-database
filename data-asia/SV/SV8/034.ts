@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コイル"
+		ja: "コイル",
+		'zh-tw': "小磁怪",
+		'zh-cn': "小磁怪"
 	},
 
 	illustrator: "Hoshino KURO",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "空中に 浮いたまま 移動して 左右の ユニットから 電磁波などを 放射する。"
+		ja: "空中に 浮いたまま 移動して 左右の ユニットから 電磁波などを 放射する。",
+		'zh-tw': "會浮在空中移動， 從左右兩邊的組件發射 電磁波之類的東西。",
+		'zh-cn': "會浮在空中移動， 從左右兩邊的組件發射 電磁波之類的東西。"
 	},
 
 	stage: "Basic",
@@ -25,7 +29,9 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "ピッカリだま"
+			ja: "ピッカリだま",
+			'zh-tw': "光彈",
+			'zh-cn': "光彈"
 		},
 
 		damage: 20
@@ -36,7 +42,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

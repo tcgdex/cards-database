@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴマゾウ"
+		ja: "ゴマゾウ",
+		'zh-tw': "小小象",
+		'zh-cn': "小小象"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "見た目より ずっと 力持ち。 振りまわす 鼻に ぶつかると 腕の 骨が もっていかれる。"
+		ja: "見た目より ずっと 力持ち。 振りまわす 鼻に ぶつかると 腕の 骨が もっていかれる。",
+		'zh-tw': "有別於外表的大力士。 如果被牠甩動的鼻子揮中， 手臂的骨頭就會支離破碎。",
+		'zh-cn': "有別於外表的大力士。 如果被牠甩動的鼻子揮中， 手臂的骨頭就會支離破碎。"
 	},
 
 	stage: "Basic",
@@ -25,7 +29,9 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "ずつき"
+			ja: "ずつき",
+			'zh-tw': "頭錘",
+			'zh-cn': "頭錘"
 		},
 
 		damage: 20
@@ -36,7 +42,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

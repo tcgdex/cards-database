@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニャオニクス"
+		ja: "ニャオニクス",
+		'zh-tw': "超能妙喵",
+		'zh-cn': "超能妙喵"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "強力な サイコパワーを 出し続けていると ニャオニクスの 肉体にも ダメージが およぶ。"
+		ja: "強力な サイコパワーを 出し続けていると ニャオニクスの 肉体にも ダメージが およぶ。",
+		'zh-tw': "如果持續不斷釋放強大的 精神力量，超能妙喵的 肉體也會受到傷害。",
+		'zh-cn': "如果持續不斷釋放強大的 精神力量，超能妙喵的 肉體也會受到傷害。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +29,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "さそうしっぽ"
+			ja: "さそうしっぽ",
+			'zh-tw': "誘導之尾",
+			'zh-cn': "誘導之尾"
 		},
 
 		effect: {
-			ja: "自分の番に、自分の手札から「のんびりじゃらし」を1枚トラッシュするなら、1回使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。"
+			ja: "自分の番に、自分の手札から「のんびりじゃらし」を1枚トラッシュするなら、1回使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+			'zh-tw': "在自己的回合，若從自己的手牌將1張「悠哉尾草棒」丟棄，則可使用1次。選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。",
+			'zh-cn': "在自己的回合，若從自己的手牌將1張「悠哉尾草棒」丟棄，則可使用1次。選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。"
 		}
 	}],
 
@@ -37,7 +45,9 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "サイコショット"
+			ja: "サイコショット",
+			'zh-tw': "精神射擊",
+			'zh-cn': "精神射擊"
 		},
 
 		damage: 80
@@ -50,10 +60,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

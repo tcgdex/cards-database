@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カプサイジ"
+		ja: "カプサイジ",
+		'zh-tw': "熱辣娃",
+		'zh-cn': "熱辣娃"
 	},
 
 	illustrator: "Julie Hang",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "パルデアの 郷土料理は 抜け落ちた カプサイジの 前歯が 使われているので 激辛なのだ。"
+		ja: "パルデアの 郷土料理は 抜け落ちた カプサイジの 前歯が 使われているので 激辛なのだ。",
+		'zh-tw': "帕底亞當地會用熱辣娃 掉落的門牙來做料理， 所以超級無敵霹靂辣。",
+		'zh-cn': "帕底亞當地會用熱辣娃 掉落的門牙來做料理， 所以超級無敵霹靂辣。"
 	},
 
 	stage: "Basic",
@@ -25,7 +29,9 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "とびだしヘッド"
+			ja: "とびだしヘッド",
+			'zh-tw': "魯莽頭擊",
+			'zh-cn': "魯莽頭擊"
 		},
 
 		damage: 20
@@ -36,7 +42,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

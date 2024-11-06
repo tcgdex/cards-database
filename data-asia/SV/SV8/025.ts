@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒンバス"
+		ja: "ヒンバス",
+		'zh-tw': "醜醜魚",
+		'zh-cn': "醜醜魚"
 	},
 
 	illustrator: "Kedamahadaitai Yawarakai",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "一番 みすぼらしい ポケモン。 水草の 多い 川底で 大勢 集まって 暮らしている。"
+		ja: "一番 みすぼらしい ポケモン。 水草の 多い 川底で 大勢 集まって 暮らしている。",
+		'zh-tw': "最寒酸的寶可夢。 在有許多水草的河底 群聚而居。",
+		'zh-cn': "最寒酸的寶可夢。 在有許多水草的河底 群聚而居。"
 	},
 
 	stage: "Basic",
@@ -25,11 +29,15 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "はねにげ"
+			ja: "はねにげ",
+			'zh-tw': "躍起逃走",
+			'zh-cn': "躍起逃走"
 		},
 
 		effect: {
-			ja: "このポケモンをベンチポケモンと入れ替える。"
+			ja: "このポケモンをベンチポケモンと入れ替える。",
+			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
+			'zh-cn': "將這隻寶可夢與備戰寶可夢互換。"
 		}
 	}],
 
@@ -38,7 +46,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card
