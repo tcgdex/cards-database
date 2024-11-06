@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ワッカネズミ"
+		ja: "ワッカネズミ",
+		'zh-tw': "一對鼠",
+		'zh-cn': "一對鼠"
 	},
 
 	illustrator: "USGMEN",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "どんなときでも ２匹は 一緒。 見つけた エサは ぴったりと 半分こして 仲良く 食べる。"
+		ja: "どんなときでも ２匹は 一緒。 見つけた エサは ぴったりと 半分こして 仲良く 食べる。",
+		'zh-tw': "無論何時２隻都待在一起。 會把尋獲的食物均分成兩半， 親密無間地一同進食。",
+		'zh-cn': "無論何時２隻都待在一起。 會把尋獲的食物均分成兩半， 親密無間地一同進食。"
 	},
 
 	stage: "Basic",
@@ -25,13 +29,17 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "じゃれつく"
+			ja: "じゃれつく",
+			'zh-tw': "嬉鬧",
+			'zh-cn': "嬉鬧"
 		},
 
-		damage: "10＋",
+		damage: "10+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、10ダメージ追加。"
+			ja: "コインを1回投げオモテなら、10ダメージ追加。",
+			'zh-tw': "擲1次硬幣若為正面，則增加10點傷害。",
+			'zh-cn': "擲1次硬幣若為正面，則增加10點傷害。"
 		}
 	}],
 
@@ -40,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

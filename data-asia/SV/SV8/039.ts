@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゼブライカ"
+		ja: "ゼブライカ",
+		'zh-tw': "雷電斑馬",
+		'zh-cn': "雷電斑馬"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "雷鳴を 聞くと 群れの シママが 雷から 充電できるように 群れで 雷雲を 追いかける。"
+		ja: "雷鳴を 聞くと 群れの シママが 雷から 充電できるように 群れで 雷雲を 追いかける。",
+		'zh-tw': "為了讓群體裡的斑斑馬能 透過雷電充電，只要一聽到 雷鳴聲，就會成群追趕雷雲。",
+		'zh-cn': "為了讓群體裡的斑斑馬能 透過雷電充電，只要一聽到 雷鳴聲，就會成群追趕雷雲。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +29,9 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "キック"
+			ja: "キック",
+			'zh-tw': "踢",
+			'zh-cn': "踢"
 		},
 
 		damage: 30
@@ -33,7 +39,9 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "マッハボルト"
+			ja: "マッハボルト",
+			'zh-tw': "音速伏特",
+			'zh-cn': "音速伏特"
 		},
 
 		damage: 120
@@ -44,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

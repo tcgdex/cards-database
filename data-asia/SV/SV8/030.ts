@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カラナクシ"
+		ja: "カラナクシ",
+		'zh-tw': "無殼海兔",
+		'zh-cn': "無殼海兔"
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "磯辺で 見かけることが 多い。 ある程度の 時間であれば 陸上でも 活動できる。"
+		ja: "磯辺で 見かけることが 多い。 ある程度の 時間であれば 陸上でも 活動できる。",
+		'zh-tw': "經常能在岩岸發現牠的身影。 即使是在陸地上，也有辦法 活動上一定程度的時間。",
+		'zh-cn': "經常能在岩岸發現牠的身影。 即使是在陸地上，也有辦法 活動上一定程度的時間。"
 	},
 
 	stage: "Basic",
@@ -25,7 +29,9 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "うちみず"
+			ja: "うちみず",
+			'zh-tw': "潑灑清水",
+			'zh-cn': "潑灑清水"
 		},
 
 		damage: 30
@@ -36,7 +42,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

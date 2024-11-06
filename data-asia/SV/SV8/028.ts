@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "トドグラー"
+		ja: "トドグラー",
+		'zh-tw': "海魔獅",
+		'zh-cn': "海魔獅"
 	},
 
 	illustrator: "Mina Nakai",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "流氷の 上で 生活。 泳ぎながら 獲物の 匂いを 嗅ぎわけて 見つけだし 捕まえる。"
+		ja: "流氷の 上で 生活。 泳ぎながら 獲物の 匂いを 嗅ぎわけて 見つけだし 捕まえる。",
+		'zh-tw': "在浮冰上生活。能夠一邊 游泳一邊嗅出獵物的氣味， 把對方找出來獵捕。",
+		'zh-cn': "在浮冰上生活。能夠一邊 游泳一邊嗅出獵物的氣味， 把對方找出來獵捕。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +29,9 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "つきたおし"
+			ja: "つきたおし",
+			'zh-tw': "撞倒",
+			'zh-cn': "撞倒"
 		},
 
 		damage: 30
@@ -33,7 +39,9 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			ja: "アイスボール"
+			ja: "アイスボール",
+			'zh-tw': "冰球",
+			'zh-cn': "冰球"
 		},
 
 		damage: 60
@@ -44,7 +52,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "H"
 }
 
 export default card

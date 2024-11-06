@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホゲータ"
+		ja: "ホゲータ",
+		'zh-tw': "呆火鱷",
+		'zh-cn': "呆火鱷"
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "炎袋が 小さく あふれ出た エネルギーが 頭の くぼみから 放出され ゆらゆら 揺れる。"
+		ja: "炎袋が 小さく あふれ出た エネルギーが 頭の くぼみから 放出され ゆらゆら 揺れる。",
+		'zh-tw': "火囊很小，因此能量會 溢出來，在牠頭上的 凹槽那裡搖曳晃動。",
+		'zh-cn': "火囊很小，因此能量會 溢出來，在牠頭上的 凹槽那裡搖曳晃動。"
 	},
 
 	stage: "Basic",
@@ -25,13 +29,17 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "ねつでこがす"
+			ja: "ねつでこがす",
+			'zh-tw': "熱灼燒",
+			'zh-cn': "熱灼燒"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。"
+			ja: "相手のバトルポケモンをやけどにする。",
+			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
+			'zh-cn': "將對手的戰鬥寶可夢【灼傷】。"
 		}
 	}],
 
@@ -40,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "H"
 }
 
 export default card

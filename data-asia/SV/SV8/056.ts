@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "スナバァ"
+		ja: "スナバァ",
+		'zh-tw': "沙丘娃",
+		'zh-cn': "沙丘娃"
 	},
 
 	illustrator: "Koji Nakata",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "獲物の 目を 砂で 潰し その隙に 近づこうとするが 動きが 遅いので 逃げられる。"
+		ja: "獲物の 目を 砂で 潰し その隙に 近づこうとするが 動きが 遅いので 逃げられる。",
+		'zh-tw': "會用沙子攻擊獵物的眼睛後 趁機接近，但卻總是因為 行動緩慢而讓獵物逃走。",
+		'zh-cn': "會用沙子攻擊獵物的眼睛後 趁機接近，但卻總是因為 行動緩慢而讓獵物逃走。"
 	},
 
 	stage: "Basic",
@@ -25,7 +29,9 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "すなしぶき"
+			ja: "すなしぶき",
+			'zh-tw': "沙沫",
+			'zh-cn': "沙沫"
 		},
 
 		damage: 50
@@ -38,10 +44,11 @@ const card: Card = {
 
 	resistances: [{
 		type: "Fighting",
-		value: "－30"
+		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "H"
 }
 
 export default card

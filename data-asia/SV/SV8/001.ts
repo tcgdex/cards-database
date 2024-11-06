@@ -5,7 +5,9 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "タマタマ"
+		ja: "タマタマ",
+		'zh-tw': "蛋蛋",
+		'zh-cn': "蛋蛋"
 	},
 
 	illustrator: "OKUBO",
@@ -16,7 +18,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "タマタマだけに 伝わる テレパシーを 出し合っているので どんなときでも ６匹 集まれる。"
+		ja: "タマタマだけに 伝わる テレパシーを 出し合っているので どんなときでも ６匹 集まれる。",
+		'zh-tw': "會發出只有蛋蛋才能收到的 心靈感應，因此不論何時 都能６隻聚集在一起。",
+		'zh-cn': "會發出只有蛋蛋才能收到的 心靈感應，因此不論何時 都能６隻聚集在一起。"
 	},
 
 	stage: "Basic",
@@ -25,13 +29,17 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "すいとる"
+			ja: "すいとる",
+			'zh-tw': "吸取",
+			'zh-cn': "吸取"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "このポケモンのHPを「10」回復する。"
+			ja: "このポケモンのHPを「10」回復する。",
+			'zh-tw': "將這隻寶可夢恢復「10」HP。",
+			'zh-cn': "將這隻寶可夢恢復「10」HP。"
 		}
 	}],
 
@@ -40,7 +48,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card
