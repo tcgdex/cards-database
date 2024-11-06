@@ -1,0 +1,43 @@
+import { Card } from "../../../interfaces"
+import Set from "../Genetic Apex"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Gengar ex"
+	},
+
+	category: "Pokemon",
+	hp: 170,
+	types: ["Psychic"],
+	stage: "Stage2",
+	suffix: "EX",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			en: "Shadowy Spellbind"
+		},
+
+		effect: {
+			en: "As long as this Pokémon is in the Active Spot, your opponent can't use any Supporter cards from their hand."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Psychic", "Psychic", "Psychic"],
+
+		name: {
+			en: "Spooky Shot"
+		},
+
+		damage: "100"
+	}],
+
+	retreat: 0,
+	rarity: "None"
+}
+
+export default card

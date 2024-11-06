@@ -172,7 +172,8 @@ export async function loadLastEdits() {
 export function getLastEdit(path: string): string {
 	const date = lastEditsCache[path]
 	if (!date) {
-		throw new Error(`edit date not found for file ${path}`)
+		return new Date().toISOString()
+		// throw new Error(`edit date not found for file ${path}`)
 	}
 	return date
 }

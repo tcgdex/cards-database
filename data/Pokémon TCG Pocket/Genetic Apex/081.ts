@@ -1,0 +1,30 @@
+import { Card } from "../../../interfaces"
+import Set from "../Genetic Apex"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Omanyte"
+	},
+
+	category: "Pokemon",
+	hp: 90,
+	types: ["Water"],
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Water"],
+
+		name: {
+			en: "Water Gun"
+		},
+
+		damage: "40"
+	}],
+
+	retreat: 2,
+	rarity: "None"
+}
+
+export default card
