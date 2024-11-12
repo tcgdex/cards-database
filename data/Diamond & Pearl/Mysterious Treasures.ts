@@ -10,7 +10,8 @@ const dp2: Set = {
 		es: "Tesoros Misteriosos",
 		it: "Tesori Misteriosi",
 		de: "Geheimnisvolle Schätze",
-		pt: "Tesouros Misteriosos"
+		pt: "Tesouros Misteriosos",
+		pl: 'Tajemne Skarby'
 	},
 
 	serie: serie,
