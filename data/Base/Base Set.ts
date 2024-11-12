@@ -10,7 +10,8 @@ const base1: Set = {
 		es: "Edición Básica",
 		it: "Set Base",
 		de: "Grundset",
-		pt: "Coleção Básica"
+		pt: "Coleção Básica",
+		nl: 'Basis Set'
 	},
 
 	serie: serie,

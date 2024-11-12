@@ -10,7 +10,8 @@ const base2: Set = {
 		de: "Dschungel",
 		it: "Jungle",
 		es: "Jungla",
-		pt: "Selva"
+		pt: "Selva",
+		nl: "Jungle"
 	},
 
 	serie: serie,
