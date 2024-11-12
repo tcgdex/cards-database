@@ -10,7 +10,8 @@ const xy4: Set = {
 		es: "Fuerzas Fantasmales",
 		it: "Forze Spettrali",
 		de: "Phantomkräfte",
-		pt: "Força Fantasma"
+		pt: "Força Fantasma",
+		ru: "Призрачные Силы"
 	},
 
 	serie: serie,

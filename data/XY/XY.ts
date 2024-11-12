@@ -10,7 +10,8 @@ const xy1: Set = {
 		es: "XY",
 		it: "XY",
 		de: "XY",
-		pt: "XY"
+		pt: "XY",
+		ru: "XY"
 	},
 
 	serie: serie,
