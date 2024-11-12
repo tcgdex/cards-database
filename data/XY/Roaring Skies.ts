@@ -10,7 +10,8 @@ const xy6: Set = {
 		es: "Cielos Rugientes",
 		it: "Furie Volanti",
 		de: "Drachenleuchten",
-		pt: "Céus Estrondosos"
+		pt: "Céus Estrondosos",
+		ru: "Грохочущие Небеса"
 	},
 
 	serie: serie,

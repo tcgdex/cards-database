@@ -10,7 +10,8 @@ const xy7: Set = {
 		es: "Antiguos Orígenes",
 		it: "Antiche Origini",
 		de: "Ewiger Anfang",
-		pt: "Origens Ancestrais"
+		pt: "Origens Ancestrais",
+		ru: "Древние Истоки"
 	},
 
 	serie: serie,
