@@ -59,7 +59,7 @@ const card: Card = {
 	variants: {
 		normal: true,
 		reverse: true,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	}
 }
