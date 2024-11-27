@@ -103,7 +103,7 @@ server
 		}
 		const item = Math.min(data.length - 1, Math.max(0, Math.round(Math.random() * data.length)))
 		req.DO_NOT_CACHE = true
-		res.json(data[item])
+		res.json(data[item].full())
 	})
 
 
