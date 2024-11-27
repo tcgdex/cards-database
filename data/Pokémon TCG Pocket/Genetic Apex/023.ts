@@ -12,9 +12,22 @@ const card: Card = {
 	hp: 160,
 	types: ["Grass"],
 	stage: "Stage1",
+	attacks: [{
+		cost: ["Grass"],
+
+		name: {
+			en: "Stomp"
+		},
+
+		effect: {
+			en: "Flip a coin. If heads, this attack does 40 more damage."
+		},
+
+		damage: "40+"
+	}],
 	suffix: "EX",
 	retreat: 3,
-	rarity: "None"
+	rarity: "Four Diamond"
 }
 
 export default card

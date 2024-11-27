@@ -14,8 +14,8 @@ const card: Card = {
 		en: "Choose 1 of your W Pokémon, and flip a coin until you get tails. For each heads, take a W Energy from your Energy Zone and attach it to that Pokémon."
 	},
 
-	trainerType: "Item",
-	rarity: "None"
+	trainerType: "Supporter",
+	rarity: "Two Diamond"
 }
 
 export default card

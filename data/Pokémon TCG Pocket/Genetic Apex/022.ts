@@ -21,14 +21,14 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage."
+			en: "Flip a coin. If heads, this attack does 30 more damage."
 		},
 
 		damage: "30+"
 	}],
 
 	retreat: 3,
-	rarity: "None"
+	rarity: "Three Diamond"
 }
 
 export default card

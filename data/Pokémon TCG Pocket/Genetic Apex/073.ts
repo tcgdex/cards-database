@@ -11,7 +11,7 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
-	stage: "Stage2",
+	stage: "Stage1",
 
 	attacks: [{
 		cost: ["Water"],
@@ -28,7 +28,7 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "None"
+	rarity: "One Diamond"
 }
 
 export default card

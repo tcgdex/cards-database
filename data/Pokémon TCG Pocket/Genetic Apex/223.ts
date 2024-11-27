@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	rarity: "None"
+	rarity: "Two Diamond"
 }
 
 export default card

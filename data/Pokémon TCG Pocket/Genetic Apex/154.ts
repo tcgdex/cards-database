@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hitmonchan"
+		en: "Hitmonlee"
 	},
 
 	category: "Pokemon",
@@ -17,14 +17,16 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Jab"
+			en: "Stretch Kick"
 		},
 
-		damage: "30"
+		effect: {
+			en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon."
+		}
 	}],
 
 	retreat: 1,
-	rarity: "None"
+	rarity: "One Diamond"
 }
 
 export default card

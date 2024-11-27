@@ -13,8 +13,21 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Stage1",
 	suffix: "EX",
+	attacks: [{
+		cost: ["Grass"],
+
+		name: {
+			en: "Tropical Swing"
+		},
+
+		effect: {
+			en: "Flip a coin. If heads, this attack does 40 more damage."
+		},
+
+		damage: "40+"
+	}],
 	retreat: 3,
-	rarity: "None"
+	rarity: "Two Star"
 }
 
 export default card

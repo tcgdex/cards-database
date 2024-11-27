@@ -21,14 +21,14 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Heals 30 damage from this Pokémon."
+			en: "Heal 30 damage from this Pokémon."
 		},
 
 		damage: "60"
 	}],
 
 	retreat: 2,
-	rarity: "None"
+	rarity: "Three Diamond"
 }
 
 export default card
