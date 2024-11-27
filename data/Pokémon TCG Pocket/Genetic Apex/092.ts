@@ -5,30 +5,26 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Frosmoth"
+		en: "Snom"
 	},
 
 	category: "Pokemon",
-	hp: 90,
+	hp: 50,
 	types: ["Water"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water", "Colorless"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Powder Snow"
+			en: "Ram"
 		},
 
-		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
-		},
-
-		damage: "40"
+		damage: "10"
 	}],
 
 	retreat: 1,
-	rarity: "None"
+	rarity: "One Diamond"
 }
 
 export default card

@@ -5,30 +5,26 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eelektross"
+		en: "Eelektrik"
 	},
 
 	category: "Pokemon",
-	hp: 140,
+	hp: 80,
 	types: ["Lightning"],
-	stage: "Stage2",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
+		cost: ["Lightning"],
 
 		name: {
-			en: "Thunder Fang"
+			en: "Head Bolt"
 		},
 
-		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
-		},
-
-		damage: "80"
+		damage: "40"
 	}],
 
-	retreat: 3,
-	rarity: "None"
+	retreat: 2,
+	rarity: "Two Diamond"
 }
 
 export default card

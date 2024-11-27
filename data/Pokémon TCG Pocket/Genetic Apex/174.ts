@@ -28,7 +28,7 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	rarity: "None"
+	rarity: "One Diamond"
 }
 
 export default card

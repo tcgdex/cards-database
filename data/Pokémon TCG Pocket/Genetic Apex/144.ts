@@ -5,26 +5,26 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Machamp"
+		en: "Machoke"
 	},
 
 	category: "Pokemon",
-	hp: 150,
+	hp: 100,
 	types: ["Fighting"],
-	stage: "Stage2",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fighting", "Fighting", "Fighting"],
+		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Seismic Toss"
+			en: "Strength"
 		},
 
-		damage: "100"
+		damage: "50"
 	}],
 
-	retreat: 3,
-	rarity: "None"
+	retreat: 2,
+	rarity: "Two Diamond"
 }
 
 export default card

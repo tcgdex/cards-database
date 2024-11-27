@@ -13,6 +13,19 @@ const card: Card = {
 	types: ["Colorless"],
 	stage: "Stage1",
 	suffix: "EX",
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			en: "Sleepy Song"
+		},
+
+		effect: {
+			en: "Your opponent's Active Pokémon is now Asleep."
+		},
+
+		damage: "80"
+	}],
 	retreat: 2,
 	rarity: "None"
 }

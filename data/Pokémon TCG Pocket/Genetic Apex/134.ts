@@ -5,26 +5,26 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golett"
+		en: "Swoobat"
 	},
 
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic", "Colorless", "Colorless"],
+		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Mega Punch"
+			en: "Heart Stamp"
 		},
 
-		damage: "50"
+		damage: "60"
 	}],
 
-	retreat: 2,
-	rarity: "None"
+	retreat: 1,
+	rarity: "One Diamond"
 }
 
 export default card

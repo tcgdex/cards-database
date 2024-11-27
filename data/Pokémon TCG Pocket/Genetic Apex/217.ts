@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	trainerType: "Item",
-	rarity: "None"
+	rarity: "One Diamond"
 }
 
 export default card

@@ -5,26 +5,26 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bisharp"
+		en: "Pawniard"
 	},
 
 	category: "Pokemon",
-	hp: 90,
+	hp: 50,
 	types: ["Metal"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Metal", "Metal"],
+		cost: ["Metal"],
 
 		name: {
-			en: "Metal Claw"
+			en: "Pierce"
 		},
 
-		damage: "70"
+		damage: "30"
 	}],
 
 	retreat: 1,
-	rarity: "None"
+	rarity: "One Diamond"
 }
 
 export default card

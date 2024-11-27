@@ -5,25 +5,25 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Venonat"
+		en: "Parasect"
 	},
 
 	category: "Pokemon",
-	hp: 50,
+	hp: 120,
 	types: ["Grass"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Grass"],
+		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Tackle"
+			en: "Slash"
 		},
 
-		damage: "20"
+		damage: "80"
 	}],
 
-	retreat: 1,
+	retreat: 2,
 	rarity: "Two Diamond"
 }
 

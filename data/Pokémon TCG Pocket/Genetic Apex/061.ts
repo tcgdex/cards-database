@@ -5,26 +5,38 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tentacool"
+		en: "Poliwrath"
 	},
 
 	category: "Pokemon",
-	hp: 60,
+	hp: 150,
 	types: ["Water"],
-	stage: "Basic",
+	stage: "Stage2",
 
-	attacks: [{
-		cost: ["Water"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Gentle Slap"
+			en: "Counterattack"
 		},
 
-		damage: "20"
+		effect: {
+			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+		}
 	}],
 
-	retreat: 1,
-	rarity: "None"
+	attacks: [{
+		cost: ["Water", "Colorless", "Colorless"],
+
+		name: {
+			en: "Mega Punch"
+		},
+
+		damage: "80"
+	}],
+
+	retreat: 2,
+	rarity: "Three Diamond"
 }
 
 export default card

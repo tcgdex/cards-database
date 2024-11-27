@@ -5,30 +5,26 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golurk"
+		en: "Golett"
 	},
 
 	category: "Pokemon",
-	hp: 140,
+	hp: 90,
 	types: ["Psychic"],
-	stage: "Stage2",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic", "Psychic", "Colorless", "Colorless"],
+		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Double Lariat"
+			en: "Mega Punch"
 		},
 
-		effect: {
-			en: "Flip 2 coins. This attack does 100 damage for each heads."
-		},
-
-		damage: "100x"
+		damage: "50"
 	}],
 
-	retreat: 4,
-	rarity: "None"
+	retreat: 3,
+	rarity: "One Diamond"
 }
 
 export default card
