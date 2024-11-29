@@ -15,6 +15,8 @@ export interface SerieResume {
  * /series/:id endpoint
  */
 export interface Serie extends SerieResume {
+	firstSet: SetResume;
+	lastSet: SetResume;
 	sets: Array<SetResume>;
 }
 

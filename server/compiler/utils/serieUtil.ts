@@ -63,6 +63,8 @@ export async function serieToSerieSingle(serie: Serie, lang: SupportedLanguages)
 		id: serie.id,
 		logo,
 		name: serie.name[lang] as string,
+		firstSet: sets[0],
+		lastSet: sets[sets.length - 1],
 		sets
 	}
 }
