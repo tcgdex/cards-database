@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Kadabra"
 	},
 
+	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Machop"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fighting"],

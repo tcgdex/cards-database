@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Dubwool"
 	},
 
+	illustrator: "saino misaki",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],

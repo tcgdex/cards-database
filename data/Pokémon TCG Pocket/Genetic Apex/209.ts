@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Porygon"
 	},
 
+	illustrator: "Ayaka Yoshida",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Colorless"],

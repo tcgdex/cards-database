@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Primeape"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],

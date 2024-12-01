@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Gogoat"
 	},
 
+	illustrator: "You Iribi",
 	category: "Pokemon",
 	hp: 120,
 	stage: "Stage1",

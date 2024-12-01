@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Pidgey"
 	},
 
+	illustrator: "Scav",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

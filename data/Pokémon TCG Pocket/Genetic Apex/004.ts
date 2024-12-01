@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Venusaur ex"
 	},
 
+	illustrator: "PLANETA CG Works",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Grass"],

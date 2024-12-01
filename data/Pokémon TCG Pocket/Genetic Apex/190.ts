@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Raticate"
 	},
 
+	illustrator: "Shigenori Negishi",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Colorless"],

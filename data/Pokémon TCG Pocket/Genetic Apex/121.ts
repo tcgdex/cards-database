@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Haunter"
 	},
 
+	illustrator: "Nisota Niso",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

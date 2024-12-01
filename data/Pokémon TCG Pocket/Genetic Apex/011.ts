@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Oddish"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],

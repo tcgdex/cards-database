@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Wartortle"
 	},
 
+	illustrator: "Nelnal",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Water"],

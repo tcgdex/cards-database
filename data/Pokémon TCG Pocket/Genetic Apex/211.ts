@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Snorlax"
 	},
 
+	illustrator: "Naoki Saito",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],

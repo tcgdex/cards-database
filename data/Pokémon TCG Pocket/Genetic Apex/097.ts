@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Magnemite"
 	},
 
+	illustrator: "sowsow",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],

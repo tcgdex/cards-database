@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Frosmoth"
 	},
 
+	illustrator: "aoki",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],

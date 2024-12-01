@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Doduo"
 	},
 
+	illustrator: "Yuya Oka",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

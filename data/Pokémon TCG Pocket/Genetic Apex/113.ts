@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Clefairy"
 	},
 
+	illustrator: "kirisAki",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],

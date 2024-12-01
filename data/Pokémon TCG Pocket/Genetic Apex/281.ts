@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Pikachu ex"
 	},
 
+	illustrator: "Ryota Murayama",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],

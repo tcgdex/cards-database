@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Sabrina"
 	},
 
+	illustrator: "Yuu Nishida",
 	category: "Trainer",
 
 	effect: {

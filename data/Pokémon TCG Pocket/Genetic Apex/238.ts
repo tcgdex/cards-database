@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Diglett"
 	},
 
+	illustrator: "Shinya Komatsu",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Fighting"],

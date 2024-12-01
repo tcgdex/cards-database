@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Wooloo"
 	},
 
+	illustrator: "Yoriyuki Ikegami",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Colorless"],

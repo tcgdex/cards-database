@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Gengar"
 	},
 
+	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],

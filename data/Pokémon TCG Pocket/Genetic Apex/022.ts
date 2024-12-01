@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Exeggutor"
 	},
 
+	illustrator: "Yukiko Baba",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Grass"],

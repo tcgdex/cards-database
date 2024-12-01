@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Articuno ex"
 	},
 
+	illustrator: "PLANETA Saito",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Water"],

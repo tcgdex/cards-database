@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Heliolisk"
 	},
 
+	illustrator: "otumami",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],

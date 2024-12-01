@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Zebstrika"
 	},
 
+	illustrator: "Misa Tsutsui",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Vaporeon"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],

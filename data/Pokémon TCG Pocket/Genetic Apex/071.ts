@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Seadra"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],

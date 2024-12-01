@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Chansey"
 	},
 
+	illustrator: "MAHOU",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],

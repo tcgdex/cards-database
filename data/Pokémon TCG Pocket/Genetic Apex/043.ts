@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Rapidash"
 	},
 
+	illustrator: "Misa Tsutsui",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Sandshrew"
 	},
 
+	illustrator: "Miki Tanaka",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fighting"],

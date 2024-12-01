@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Pincurchin"
 	},
 
+	illustrator: "Tika Matsuno",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],

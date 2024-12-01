@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Sabrina"
 	},
 
+	illustrator: "GIDORA",
 	category: "Trainer",
 
 	effect: {

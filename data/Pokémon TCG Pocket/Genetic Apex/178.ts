@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Mawile"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Metal"],

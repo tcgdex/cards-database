@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Machamp"
 	},
 
+	illustrator: "Hitoshi Ariga",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],

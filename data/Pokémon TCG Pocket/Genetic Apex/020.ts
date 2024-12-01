@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Victreebel"
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Grass"],

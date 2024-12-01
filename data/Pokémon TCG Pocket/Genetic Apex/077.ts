@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Magikarp"
 	},
 
+	illustrator: "Sekio",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Water"],

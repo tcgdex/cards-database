@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Tauros"
 	},
 
+	illustrator: "kodama",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],

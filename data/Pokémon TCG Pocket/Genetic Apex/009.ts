@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Kakuna"
 	},
 
+	illustrator: "miki kudo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],

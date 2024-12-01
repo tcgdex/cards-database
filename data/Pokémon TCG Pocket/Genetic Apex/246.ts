@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Meowth"
 	},
 
+	illustrator: "Mina Nakai",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

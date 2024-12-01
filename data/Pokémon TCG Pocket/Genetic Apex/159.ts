@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Kabutops"
 	},
 
+	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],

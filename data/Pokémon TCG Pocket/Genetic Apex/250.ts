@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Snorlax"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Scyther"
 	},
 
+	illustrator: "Hasuno",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],

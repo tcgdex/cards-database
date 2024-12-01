@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Dragonite"
 	},
 
+	illustrator: "Gemi",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Dragon"],

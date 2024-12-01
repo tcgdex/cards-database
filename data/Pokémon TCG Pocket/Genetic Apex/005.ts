@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Caterpie"
 	},
 
+	illustrator: "Miki Tanaka",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Grass"],

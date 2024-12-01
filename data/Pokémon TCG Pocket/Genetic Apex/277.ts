@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Gengar ex"
 	},
 
+	illustrator: "NC Empire",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Psychic"],

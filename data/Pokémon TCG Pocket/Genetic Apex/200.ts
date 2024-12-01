@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Dodrio"
 	},
 
+	illustrator: "Miki Tanaka",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Colorless"],

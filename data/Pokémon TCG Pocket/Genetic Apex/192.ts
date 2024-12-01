@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Fearow"
 	},
 
+	illustrator: "Satoshi Shirai",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],

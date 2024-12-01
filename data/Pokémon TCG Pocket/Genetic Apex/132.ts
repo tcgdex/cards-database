@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Gardevoir"
 	},
 
+	illustrator: "Yuu Nishida",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],

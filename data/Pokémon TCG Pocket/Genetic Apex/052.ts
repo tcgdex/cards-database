@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Centiskorch"
 	},
 
+	illustrator: "GOSSAN",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],

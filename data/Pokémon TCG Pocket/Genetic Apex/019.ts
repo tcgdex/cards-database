@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Weepinbell"
 	},
 
+	illustrator: "Miki Tanaka",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],

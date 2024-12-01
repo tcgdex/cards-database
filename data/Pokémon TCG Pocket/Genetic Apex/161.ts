@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Mienshao"
 	},
 
+	illustrator: "Atsuko Nishida",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],

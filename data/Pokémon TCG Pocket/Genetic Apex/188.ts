@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Pidgeot"
 	},
 
+	illustrator: "Scav",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
@@ -21,7 +22,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent choses the new Active Pokémon.)"
+			en: "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
 		}
 	}],
 

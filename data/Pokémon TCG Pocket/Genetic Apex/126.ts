@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Mr. Mime"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

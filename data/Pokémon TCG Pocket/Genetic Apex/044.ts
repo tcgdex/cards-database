@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Magmar"
 	},
 
+	illustrator: "Ryuta Fuse",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],

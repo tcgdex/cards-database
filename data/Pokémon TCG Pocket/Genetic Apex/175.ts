@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Muk"
 	},
 
+	illustrator: "Hajime Kusajima",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],

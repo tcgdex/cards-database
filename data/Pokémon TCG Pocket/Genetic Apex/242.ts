@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Golbat"
 	},
 
+	illustrator: "Tomokazu Komiya",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],

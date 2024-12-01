@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Kingler"
 	},
 
+	illustrator: "Shigenori Negishi",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],

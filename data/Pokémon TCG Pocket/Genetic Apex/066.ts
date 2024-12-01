@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Shellder"
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],

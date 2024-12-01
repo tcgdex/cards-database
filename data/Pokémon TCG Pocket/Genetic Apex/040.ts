@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Arcanine"
 	},
 
+	illustrator: "kodama",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fire"],

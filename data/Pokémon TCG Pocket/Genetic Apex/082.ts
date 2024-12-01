@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Omastar"
 	},
 
+	illustrator: "kirisAki",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Water"],

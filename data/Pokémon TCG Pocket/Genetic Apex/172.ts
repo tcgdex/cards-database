@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Zubat"
 	},
 
+	illustrator: "match",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Darkness"],

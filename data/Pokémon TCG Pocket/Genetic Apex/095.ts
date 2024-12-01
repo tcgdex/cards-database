@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Raichu"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Lightning"],

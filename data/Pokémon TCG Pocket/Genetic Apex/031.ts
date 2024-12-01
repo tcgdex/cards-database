@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Skiddo"
 	},
 
+	illustrator: "Naoki Saito",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],

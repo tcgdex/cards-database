@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Omanyte"
 	},
 
+	illustrator: "Suwama Chiaki",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Machoke"
 	},
 
+	illustrator: "match",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],

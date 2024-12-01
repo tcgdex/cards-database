@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Koffing"
 	},
 
+	illustrator: "Saya Tsuruta",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],

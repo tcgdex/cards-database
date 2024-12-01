@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Helioptile"
 	},
 
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],

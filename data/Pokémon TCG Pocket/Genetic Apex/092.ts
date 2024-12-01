@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Snom"
 	},
 
+	illustrator: "ryoma uratsuka",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Water"],

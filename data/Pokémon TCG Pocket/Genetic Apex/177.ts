@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Weezing"
 	},
 
+	illustrator: "OOYAMA",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Dugtrio"
 	},
 
+	illustrator: "Akira Komayama",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fighting"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Golduck"
 	},
 
+	illustrator: "Naoki Saito",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],

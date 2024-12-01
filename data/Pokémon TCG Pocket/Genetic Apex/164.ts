@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Ekans"
 	},
 
+	illustrator: "MAHOU",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],

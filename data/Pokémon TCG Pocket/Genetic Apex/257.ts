@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Starmie ex"
 	},
 
+	illustrator: "PLANETA Igarashi",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],

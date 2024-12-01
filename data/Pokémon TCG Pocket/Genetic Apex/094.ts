@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Pikachu"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],

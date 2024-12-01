@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Pawniard"
 	},
 
+	illustrator: "Kouki Saitou",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Metal"],

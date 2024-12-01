@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Cinccino"
 	},
 
+	illustrator: "0313",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],

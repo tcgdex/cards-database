@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Weedle"
 	},
 
+	illustrator: "Hajime Kusajima",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Grass"],

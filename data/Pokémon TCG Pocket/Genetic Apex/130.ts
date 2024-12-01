@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Ralts"
 	},
 
+	illustrator: "Yuka Morii",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],

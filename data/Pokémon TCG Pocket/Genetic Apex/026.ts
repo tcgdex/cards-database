@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Pinsir"
 	},
 
+	illustrator: "Eri Yamaki",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Golem"
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Fighting"],

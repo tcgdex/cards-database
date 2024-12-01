@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Eelektrik"
 	},
 
+	illustrator: "Midori Harada",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Lightning"],

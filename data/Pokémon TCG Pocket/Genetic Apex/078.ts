@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Gyarados"
 	},
 
+	illustrator: "Mituhiro Arita",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Growlithe"
 	},
 
+	illustrator: "Mizue",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fire"],

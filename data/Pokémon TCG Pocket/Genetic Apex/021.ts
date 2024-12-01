@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Exeggcute"
 	},
 
+	illustrator: "kawayoo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Grass"],

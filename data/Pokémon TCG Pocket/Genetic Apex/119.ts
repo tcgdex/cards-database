@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Slowbro"
 	},
 
+	illustrator: "Kogemaru Himeno",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],

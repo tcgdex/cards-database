@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Grapploct"
 	},
 
+	illustrator: "kurumitsu",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],

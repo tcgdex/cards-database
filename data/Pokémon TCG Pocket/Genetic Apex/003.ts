@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Venusaur"
 	},
 
+	illustrator: "Ryota Murayama",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Grass"],

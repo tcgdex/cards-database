@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Eevee"
 	},
 
+	illustrator: "Hasuno",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],
