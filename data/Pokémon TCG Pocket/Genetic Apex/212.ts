@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Minccino"
 	},
 
+	illustrator: "sui",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

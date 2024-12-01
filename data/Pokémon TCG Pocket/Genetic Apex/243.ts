@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Weezing"
 	},
 
+	illustrator: "KEIICHIRO ITO",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],

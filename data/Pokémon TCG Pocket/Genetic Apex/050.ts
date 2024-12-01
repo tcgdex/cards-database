@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Salazzle"
 	},
 
+	illustrator: "hatachu",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fire"],

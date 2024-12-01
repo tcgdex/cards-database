@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Bulbasaur"
 	},
 
+	illustrator: "Narumi Sato",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Meowth"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

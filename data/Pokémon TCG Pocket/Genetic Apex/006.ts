@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Metapod"
 	},
 
+	illustrator: "Yuka Morii",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],

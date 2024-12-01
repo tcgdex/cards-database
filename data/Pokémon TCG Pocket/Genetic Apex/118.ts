@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Slowpoke"
 	},
 
+	illustrator: "Miki Tanaka",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

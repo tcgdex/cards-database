@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Ninetales"
 	},
 
+	illustrator: "You Iribi",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fire"],

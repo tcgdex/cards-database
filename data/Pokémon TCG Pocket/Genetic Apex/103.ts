@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Zapdos"
 	},
 
+	illustrator: "Hitoshi Ariga",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],

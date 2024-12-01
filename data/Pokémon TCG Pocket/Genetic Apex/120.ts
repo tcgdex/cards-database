@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Gastly"
 	},
 
+	illustrator: "Masako Yamashita",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],

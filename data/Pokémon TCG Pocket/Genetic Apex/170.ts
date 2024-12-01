@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Nidorino"
 	},
 
+	illustrator: "Kouki Saitou",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Darkness"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Cottonee"
 	},
 
+	illustrator: "Kanako Eo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Grass"],

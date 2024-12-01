@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Farfetch'd"
 	},
 
+	illustrator: "Miki Tanaka",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

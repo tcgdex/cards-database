@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Bruxish"
 	},
 
+	illustrator: "Mizue",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],

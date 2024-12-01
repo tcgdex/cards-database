@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Lapras"
 	},
 
+	illustrator: "Haru Akasaka",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],

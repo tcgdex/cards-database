@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Greninja"
 	},
 
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],

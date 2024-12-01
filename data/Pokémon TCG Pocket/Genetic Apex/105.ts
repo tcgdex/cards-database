@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Blitzle"
 	},
 
+	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],

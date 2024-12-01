@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Jynx"
 	},
 
+	illustrator: "Oswaldo KATO",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

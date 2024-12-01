@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Kirlia"
 	},
 
+	illustrator: "sowsow",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Kabuto"
 	},
 
+	illustrator: "sui",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],

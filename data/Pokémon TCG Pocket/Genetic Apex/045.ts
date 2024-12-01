@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Flareon"
 	},
 
+	illustrator: "sui",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],

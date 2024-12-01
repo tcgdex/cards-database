@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Blastoise"
 	},
 
+	illustrator: "Nurikabe",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],

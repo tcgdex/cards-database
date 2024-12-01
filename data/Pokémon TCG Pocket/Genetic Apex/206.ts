@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Eevee"
 	},
 
+	illustrator: "Atsuko Nishida",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

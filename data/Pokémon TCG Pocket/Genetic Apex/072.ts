@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Goldeen"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],

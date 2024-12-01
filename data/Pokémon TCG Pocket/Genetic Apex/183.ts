@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Dratini"
 	},
 
+	illustrator: "Ayaka Yoshida",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Dragon"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Magneton"
 	},
 
+	illustrator: "kirisAki",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Lightning"],

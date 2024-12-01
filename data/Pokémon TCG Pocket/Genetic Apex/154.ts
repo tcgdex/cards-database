@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Hitmonlee"
 	},
 
+	illustrator: "Yukiko Baba",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],

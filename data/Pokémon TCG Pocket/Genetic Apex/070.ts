@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Horsea"
 	},
 
+	illustrator: "Saya Tsuruta",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],

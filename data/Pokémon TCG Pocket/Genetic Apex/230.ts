@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Charmander"
 	},
 
+	illustrator: "GIDORA",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fire"],

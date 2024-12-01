@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Rhyhorn"
 	},
 
+	illustrator: "Midori Harada",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],

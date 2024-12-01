@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Voltorb"
 	},
 
+	illustrator: "SATOSHI NAKAI",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],

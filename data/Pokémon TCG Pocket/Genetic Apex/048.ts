@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Heatmor"
 	},
 
+	illustrator: "Suwama Chiaki",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],

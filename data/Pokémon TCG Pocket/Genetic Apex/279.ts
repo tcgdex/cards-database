@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Wigglytuff ex"
 	},
 
+	illustrator: "Shibuzoh.",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],

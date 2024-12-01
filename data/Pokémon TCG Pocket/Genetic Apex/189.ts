@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Rattata"
 	},
 
+	illustrator: "Atsushi Furusawa",
 	category: "Pokemon",
 	hp: 40,
 	types: ["Colorless"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Cloyster"
 	},
 
+	illustrator: "Saya Tsuruta",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],

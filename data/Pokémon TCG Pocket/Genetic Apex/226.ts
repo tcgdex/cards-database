@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Lt. Surge"
 	},
 
+	illustrator: "nagimiso",
 	category: "Trainer",
 
 	effect: {

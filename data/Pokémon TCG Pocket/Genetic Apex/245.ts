@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Pidgeot"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],

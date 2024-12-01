@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Kangaskhan"
 	},
 
+	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],

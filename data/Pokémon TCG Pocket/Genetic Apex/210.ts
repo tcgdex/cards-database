@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Aerodactyl"
 	},
 
+	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],

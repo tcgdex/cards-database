@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Onix"
 	},
 
+	illustrator: "otumami",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fighting"],

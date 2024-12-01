@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Tentacruel"
 	},
 
+	illustrator: "kodama",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],

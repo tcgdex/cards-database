@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Starmie"
 	},
 
+	illustrator: "Yukiko Baba",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],

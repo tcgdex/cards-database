@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Hypno"
 	},
 
+	illustrator: "Shigenori Negishi",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Psychic"],

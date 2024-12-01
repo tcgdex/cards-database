@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Lilligant"
 	},
 
+	illustrator: "You Iribi",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],

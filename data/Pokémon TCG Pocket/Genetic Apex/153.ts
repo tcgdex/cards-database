@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Marowak ex"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],

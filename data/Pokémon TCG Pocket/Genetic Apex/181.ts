@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Meltan"
 	},
 
+	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Metal"],

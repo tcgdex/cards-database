@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Persian"
 	},
 
+	illustrator: "nagimiso",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],

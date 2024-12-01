@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Grimer"
 	},
 
+	illustrator: "Pani Kobayashi",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],

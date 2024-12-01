@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Gloom"
 	},
 
+	illustrator: "OKACHEKE",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Petilil"
 	},
 
+	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],

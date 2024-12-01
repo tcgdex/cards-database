@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Vileplume"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Grass"],

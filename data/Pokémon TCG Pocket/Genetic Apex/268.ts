@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Blaine"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	category: "Trainer",
 
 	effect: {

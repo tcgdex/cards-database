@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Rhydon"
 	},
 
+	illustrator: "Masakazu Fukuda",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],

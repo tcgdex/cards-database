@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Zapdos ex"
 	},
 
+	illustrator: "PLANETA CG Works",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],

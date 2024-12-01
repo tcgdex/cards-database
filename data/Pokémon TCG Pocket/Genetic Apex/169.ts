@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Nidoran♂"
 	},
 
+	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],

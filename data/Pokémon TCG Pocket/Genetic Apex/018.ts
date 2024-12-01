@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Bellsprout"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],

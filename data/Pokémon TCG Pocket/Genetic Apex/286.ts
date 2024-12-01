@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Mewtwo ex"
 	},
 
+	illustrator: "PLANETA CG Works",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Psychic"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Wigglytuff"
 	},
 
+	illustrator: "Atsuko Nishida",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],

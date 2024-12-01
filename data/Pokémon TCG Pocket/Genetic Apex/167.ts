@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Nidorina"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Darkness"],

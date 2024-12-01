@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Ivysaur"
 	},
 
+	illustrator: "Kurata So",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],

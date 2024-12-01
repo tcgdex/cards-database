@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Hitmonchan"
 	},
 
+	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],

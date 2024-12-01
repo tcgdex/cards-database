@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Seel"
 	},
 
+	illustrator: "Masako Yamashita",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Water"],

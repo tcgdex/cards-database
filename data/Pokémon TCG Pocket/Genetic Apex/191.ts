@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Spearow"
 	},
 
+	illustrator: "Shiburingaru",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

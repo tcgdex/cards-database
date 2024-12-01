@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Venonat"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Grass"],

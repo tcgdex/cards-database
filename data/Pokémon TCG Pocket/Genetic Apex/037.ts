@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Vulpix"
 	},
 
+	illustrator: "Toshinao Aoki",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Fire"],

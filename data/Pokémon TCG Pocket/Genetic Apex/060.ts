@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Poliwhirl"
 	},
 
+	illustrator: "Yuka Morii",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Golurk"
 	},
 
+	illustrator: "match",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],

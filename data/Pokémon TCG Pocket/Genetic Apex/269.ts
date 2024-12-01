@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Koga"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	category: "Trainer",
 
 	effect: {

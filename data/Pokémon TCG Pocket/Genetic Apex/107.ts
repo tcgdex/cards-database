@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Tynamo"
 	},
 
+	illustrator: "Asako Ito",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Lightning"],

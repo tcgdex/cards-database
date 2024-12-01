@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Frogadier"
 	},
 
+	illustrator: "Akira Komayama",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Water"],

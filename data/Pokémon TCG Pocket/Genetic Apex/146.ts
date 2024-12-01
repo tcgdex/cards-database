@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Machamp ex"
 	},
 
+	illustrator: "PLANETA CG Works",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fighting"],

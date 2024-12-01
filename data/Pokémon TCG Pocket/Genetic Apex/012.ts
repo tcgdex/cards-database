@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Gloom"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Articuno"
 	},
 
+	illustrator: "Hitoshi Ariga",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],

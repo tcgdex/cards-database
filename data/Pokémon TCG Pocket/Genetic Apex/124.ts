@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Drowzee"
 	},
 
+	illustrator: "Yukiko Baba",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

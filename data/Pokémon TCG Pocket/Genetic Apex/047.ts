@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Moltres ex"
 	},
 
+	illustrator: "PLANETA Tsuji",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],

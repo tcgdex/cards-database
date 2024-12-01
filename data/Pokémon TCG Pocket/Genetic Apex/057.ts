@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Psyduck"
 	},
 
+	illustrator: "Shibuzoh.",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],

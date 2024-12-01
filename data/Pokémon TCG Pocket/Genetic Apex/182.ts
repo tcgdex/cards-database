@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Melmetal"
 	},
 
+	illustrator: "Kouki Saitou",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Metal"],

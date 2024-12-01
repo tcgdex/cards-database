@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Seaking"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],

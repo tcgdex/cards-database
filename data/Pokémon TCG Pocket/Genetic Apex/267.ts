@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Misty"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	category: "Trainer",
 
 	effect: {

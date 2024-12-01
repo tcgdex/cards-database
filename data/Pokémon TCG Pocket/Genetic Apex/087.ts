@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Froakie"
 	},
 
+	illustrator: "Aya Kusube",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],

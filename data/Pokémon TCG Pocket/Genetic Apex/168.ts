@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Nidoqueen"
 	},
 
+	illustrator: "nagimiso",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Darkness"],

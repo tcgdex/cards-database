@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Poliwrath"
 	},
 
+	illustrator: "Akira Komayama",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],

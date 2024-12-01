@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Clefable"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Psychic"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Butterfree"
 	},
 
+	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],

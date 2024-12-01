@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Electrode"
 	},
 
+	illustrator: "DOM",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Lightning"],

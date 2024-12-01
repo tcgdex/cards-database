@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Geodude"
 	},
 
+	illustrator: "Kouki Saitou",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fighting"],

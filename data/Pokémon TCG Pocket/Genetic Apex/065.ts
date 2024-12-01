@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Dewgong"
 	},
 
+	illustrator: "Kanako Eo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],

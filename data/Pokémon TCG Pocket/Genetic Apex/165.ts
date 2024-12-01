@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Arbok"
 	},
 
+	illustrator: "Naoki Saito",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],

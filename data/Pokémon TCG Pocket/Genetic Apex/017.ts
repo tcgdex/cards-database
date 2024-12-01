@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Venomoth"
 	},
 
+	illustrator: "Mina Nakai",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],

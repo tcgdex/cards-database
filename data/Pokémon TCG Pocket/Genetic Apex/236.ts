@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Alakazam"
 	},
 
+	illustrator: "Akira Egawa",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],

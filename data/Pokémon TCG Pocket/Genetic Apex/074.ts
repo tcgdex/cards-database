@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Staryu"
 	},
 
+	illustrator: "Hiroki Asanuma",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Water"],

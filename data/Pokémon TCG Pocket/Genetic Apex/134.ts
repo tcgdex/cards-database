@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Swoobat"
 	},
 
+	illustrator: "Masakazu Fukuda",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],

@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Clobbopus"
 	},
 
+	illustrator: "Yuu Nishida",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],

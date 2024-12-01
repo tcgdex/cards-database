@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Poliwag"
 	},
 
+	illustrator: "Shibuzoh.",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],

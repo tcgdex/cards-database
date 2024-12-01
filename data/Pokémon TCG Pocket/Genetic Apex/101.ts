@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Electabuzz"
 	},
 
+	illustrator: "Ryuta Fuse",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],

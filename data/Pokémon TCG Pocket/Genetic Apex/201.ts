@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Lickitung"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],

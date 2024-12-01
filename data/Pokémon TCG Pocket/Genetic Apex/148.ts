@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Graveler"
 	},
 
+	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],

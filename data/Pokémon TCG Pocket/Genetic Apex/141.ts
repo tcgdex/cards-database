@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Mankey"
 	},
 
+	illustrator: "Kanako Eo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fighting"],

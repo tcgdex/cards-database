@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Old Amber"
 	},
 
+	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {

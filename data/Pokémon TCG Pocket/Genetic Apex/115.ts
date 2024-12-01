@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Abra"
 	},
 
+	illustrator: "Aya Kusube",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],

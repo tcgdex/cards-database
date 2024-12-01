@@ -8,6 +8,7 @@ const card: Card = {
 		en: "Dragonite"
 	},
 
+	illustrator: "Hiroyuki Yamamoto",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Dragon"],
