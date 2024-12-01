@@ -94,6 +94,7 @@ export interface Set extends SetResume {
 		firstEd?: number;
 	};
 	cards: Array<CardResume>;
+	abbreviation: { official: string, localized: string };
 }
 export interface CardResume {
 	id: string;
