@@ -7,11 +7,19 @@ import jsonEndpoints from './V2/endpoints/jsonEndpoints'
 import graphql from './V2/graphql'
 
 if (cluster.isPrimary) {
-	console.log(`Primary ${process.pid} is running`);
+	console.log(`Primary ${process.pid} is running`)
 
-	const parallelism = availableParallelism()
-	console.log(`creating ${parallelism} workers...`)
-	for (let i = 0; i < parallelism; i++) {
+	// get maximum number of workers available for the software
+	let maxWorkers = availableParallelism()
+
+	// allow to override max worker count
+	if (process.env.MAX_WORKERS) {
+		maxWorkers = Math.min(parallelism, parseInt(process.env.MAX_WORKERS))
+	}
+
+	// create the workers
+	console.log(`creating ${maxWorkers} workers...`)
+	for (let i = 0; i < maxWorkers; i++) {
 		cluster.fork();
 	}
 
