@@ -14,7 +14,7 @@ if (cluster.isPrimary) {
 
 	// allow to override max worker count
 	if (process.env.MAX_WORKERS) {
-		maxWorkers = Math.min(parallelism, parseInt(process.env.MAX_WORKERS))
+		maxWorkers = Math.min(maxWorkers, parseInt(process.env.MAX_WORKERS))
 	}
 
 	// create the workers
