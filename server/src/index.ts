@@ -5,6 +5,13 @@ import { Errors, sendError } from './libs/Errors'
 import status from './status'
 import jsonEndpoints from './V2/endpoints/jsonEndpoints'
 import graphql from './V2/graphql'
+import * as Sentry from "@sentry/node"
+
+// Glitchtip will only start if the DSN is set :D
+Sentry.init({
+	dsn: process.env.GLITCHTIP_DSN,
+	environment: process.env.NODE_ENV
+})
 
 if (cluster.isPrimary) {
 	console.log(`Primary ${process.pid} is running`)
@@ -107,7 +114,8 @@ if (cluster.isPrimary) {
 		sendError(Errors.NOT_FOUND, res)
 	})
 
-	// General error handler
+	// Error handlers
+	Sentry.setupExpressErrorHandler(server)
 	server.use((err: Error, _1: unknown, res: Response, _2: unknown) => {
 		// add a full line dash to not miss it
 		const columns = (process?.stdout?.columns ?? 32) - 7
