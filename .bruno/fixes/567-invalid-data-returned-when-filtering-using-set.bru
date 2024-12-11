@@ -17,5 +17,5 @@ params:query {
 
 assert {
   res.status: eq 200
-  res.body.length: lt 0
+  res.body.length: gte 6
 }
