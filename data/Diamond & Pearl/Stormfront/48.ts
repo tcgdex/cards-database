@@ -19,9 +19,6 @@ const card: Card = {
 	types: [
 		"Darkness",
 	],
-	evolveFrom: {
-		fr: "Ténéfix",
-	},
 	stage: "Basic",
 
 	abilities: [

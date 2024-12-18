@@ -23,10 +23,6 @@ const card: Card = {
 		"Lightning",
 	],
 
-	evolveFrom: {
-		fr: "Pikachu",
-	},
-
 	stage: "Basic",
 
 	attacks: [

@@ -23,10 +23,6 @@ const card: Card = {
 		"Metal",
 	],
 
-	evolveFrom: {
-		fr: "Airmure",
-	},
-
 	stage: "Basic",
 
 	attacks: [

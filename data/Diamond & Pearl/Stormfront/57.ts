@@ -19,9 +19,6 @@ const card: Card = {
 	types: [
 		"Grass",
 	],
-	evolveFrom: {
-		fr: "Apitrini",
-	},
 	stage: "Basic",
 
 

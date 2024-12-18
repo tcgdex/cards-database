@@ -23,10 +23,6 @@ const card: Card = {
 		"Fighting",
 	],
 
-	evolveFrom: {
-		fr: "Marcacrin",
-	},
-
 	stage: "Basic",
 
 	attacks: [

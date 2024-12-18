@@ -23,10 +23,6 @@ const card: Card = {
 		"Grass",
 	],
 
-	evolveFrom: {
-		fr: "Ceribou",
-	},
-
 	stage: "Basic",
 
 	attacks: [

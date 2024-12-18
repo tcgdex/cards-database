@@ -19,9 +19,6 @@ const card: Card = {
 	types: [
 		"Water",
 	],
-	evolveFrom: {
-		fr: "Suicune",
-	},
 	stage: "Basic",
 
 	abilities: [

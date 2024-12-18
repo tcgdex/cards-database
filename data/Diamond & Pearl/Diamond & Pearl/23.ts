@@ -23,11 +23,6 @@ const card: Card = {
 		"Psychic",
 	],
 
-	evolveFrom: {
-		en: "Skorupi",
-		fr: "Drapion",
-	},
-
 	stage: "Stage1",
 
 	attacks: [

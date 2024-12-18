@@ -23,10 +23,6 @@ const card: Card = {
 		"Water",
 	],
 
-	evolveFrom: {
-		fr: "Ecayon",
-	},
-
 	stage: "Basic",
 
 	attacks: [

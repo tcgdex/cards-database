@@ -23,10 +23,6 @@ const card: Card = {
 		"Colorless",
 	],
 
-	evolveFrom: {
-		fr: "Keunotor",
-	},
-
 	stage: "Basic",
 
 	attacks: [

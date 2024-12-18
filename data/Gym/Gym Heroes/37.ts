@@ -17,9 +17,6 @@ const card: Card = {
 	types: [
 		"Fire",
 	],
-	evolveFrom: {
-		en: "Magby",
-	},
 	stage: "Basic",
 
 

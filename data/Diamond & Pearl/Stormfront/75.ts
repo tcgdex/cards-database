@@ -23,10 +23,6 @@ const card: Card = {
 		"Colorless",
 	],
 
-	evolveFrom: {
-		fr: "Etourmi",
-	},
-
 	stage: "Basic",
 
 	attacks: [
