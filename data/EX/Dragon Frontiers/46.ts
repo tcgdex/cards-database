@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Dratini δ",
-		fr: "Minidraco δ ESPÈCES DELTA",
+		fr: "Minidraco δ",
 		de: "Dratini"
 	},
 	illustrator: "Tomokazu Komiya",

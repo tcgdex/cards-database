@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Feraligatr δ",
-		fr: "Aligatueur δ ESPÈCES DELTA",
+		fr: "Aligatueur δ",
 		de: "Impergator"
 	},
 	illustrator: "Kouki Saitou",

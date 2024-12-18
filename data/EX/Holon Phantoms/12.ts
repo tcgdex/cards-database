@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Latios δ",
-		fr: "Latios δ ESPÈCES DELTA",
+		fr: "Latios δ",
 		de: "Latios"
 	},
 	illustrator: "Mitsuhiro Arita",

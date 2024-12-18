@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Carvanha δ",
-		fr: "Carvanha δ ESPÈCES DELTA",
+		fr: "Carvanha δ",
 		de: "Kanivanha"
 	},
 	illustrator: "Kouki Saitou",

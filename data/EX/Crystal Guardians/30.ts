@@ -4,7 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Charmeleon δ",
-		fr: "Reptincel δ ESPÈCES DELTA",
+		fr: "Reptincel δ",
 		de: "Glutexo"
 	},
 	illustrator: "Mitsuhiro Arita",

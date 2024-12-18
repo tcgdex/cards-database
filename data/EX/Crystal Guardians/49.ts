@@ -4,7 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Charmander δ",
-		fr: "Salamèche δ ESPÈCES DELTA",
+		fr: "Salamèche δ",
 		de: "Glumanda"
 	},
 	illustrator: "Mitsuhiro Arita",

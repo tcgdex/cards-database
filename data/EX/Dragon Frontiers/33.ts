@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Kirlia δ",
-		fr: "Kirlia δ ESPÈCES DELTA",
+		fr: "Kirlia δ",
 		de: "Kirlia"
 	},
 	illustrator: "Kyoko Umemoto",

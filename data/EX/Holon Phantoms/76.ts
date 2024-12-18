@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Pichu δ",
-		fr: "Pichu δ ESPÈCES DELTA",
+		fr: "Pichu δ",
 		de: "Pichu"
 	},
 	illustrator: "Kouki Saitou",

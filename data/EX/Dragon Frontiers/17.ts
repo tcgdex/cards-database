@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Jynx δ",
-		fr: "Lippoutou δ ESPÈCES DELTA",
+		fr: "Lippoutou δ",
 		de: "Rossana"
 	},
 	illustrator: "Ken Sugimori",

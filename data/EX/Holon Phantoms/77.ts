@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Pidgey δ",
-		fr: "Roucool δ ESPÈCES DELTA",
+		fr: "Roucool δ",
 		de: "Taubsi"
 	},
 	illustrator: "Mitsuhiro Arita",

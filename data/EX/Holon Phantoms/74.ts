@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Omanyte δ",
-		fr: "Amonita δ ESPÈCES DELTA",
+		fr: "Amonita δ",
 		de: "Amonitas"
 	},
 	illustrator: "Kagemaru Himeno",

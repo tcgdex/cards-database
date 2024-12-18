@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Psyduck δ",
-		fr: "Psykokwak δ ESPÈCES DELTA",
+		fr: "Psykokwak δ",
 		de: "Enton"
 	},
 	illustrator: "Hajime Kusajima",

@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Magikarp δ",
-		fr: "Magicarpe δ ESPÈCES DELTA",
+		fr: "Magicarpe δ",
 		de: "Karpador"
 	},
 	illustrator: "Midori Harada",
