@@ -66,6 +66,15 @@ const card: Card = {
 		reverse: false,
 		holo: false,
 		firstEdition: false
+	},
+
+	evolveFrom: {
+		en: "Pineco",
+		fr: "Pomdepik",
+		es: "Pineco",
+		it: "Pineco",
+		pt: "Pineco",
+		de: "Tannza"
 	}
 }
 

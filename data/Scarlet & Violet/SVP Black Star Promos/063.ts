@@ -66,7 +66,11 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	evolveFrom: {
+		en: "Cetoddle"
+	}
 }
 
 export default card

@@ -57,7 +57,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	evolveFrom: {
+		en: "Snorunt",
+		fr: "Stalgamin",
+		es: "Snorunt",
+		it: "Snorunt",
+		pt: "Snorunt",
+		de: "Schneppke"
+	}
 }
 
 export default card

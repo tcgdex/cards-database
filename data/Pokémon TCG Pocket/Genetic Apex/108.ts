@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Tynamo",
+		fr: "Anchwatt",
+		es: "Tynamo",
+		it: "Tynamo",
+		pt: "Tynamo",
+		de: "Zapplardin"
+	}
 }
 
 export default card

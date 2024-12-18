@@ -62,6 +62,15 @@ const card: Card = {
 
 	variants: {
 		normal: false
+	},
+
+	evolveFrom: {
+		en: "Magmar",
+		fr: "Magmar",
+		es: "Magmar",
+		it: "Magmar",
+		pt: "Magmar",
+		de: "Magmar"
 	}
 }
 

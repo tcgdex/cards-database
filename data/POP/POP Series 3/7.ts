@@ -65,6 +65,15 @@ const card: Card = {
 		reverse: false,
 		holo: false,
 		firstEdition: false
+	},
+
+	evolveFrom: {
+		en: "Torchic",
+		fr: "Poussifeu",
+		es: "Torchic",
+		it: "Torchic",
+		pt: "Torchic",
+		de: "Flemmli"
 	}
 }
 

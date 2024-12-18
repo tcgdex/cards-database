@@ -57,7 +57,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	evolveFrom: {
+		en: "Larvitar",
+		fr: "Embrylex",
+		es: "Larvitar",
+		it: "Larvitar",
+		pt: "Larvitar",
+		de: "Larvitar"
+	}
 }
 
 export default card

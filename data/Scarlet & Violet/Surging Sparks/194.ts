@@ -71,6 +71,15 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Morelull",
+		fr: "Spododo",
+		es: "Morelull",
+		it: "Morelull",
+		pt: "Morelull",
+		de: "Bubungus"
 	}
 }
 

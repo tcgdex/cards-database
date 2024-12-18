@@ -35,6 +35,15 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Ivysaur",
+		fr: "Herbizarre",
+		es: "Ivysaur",
+		it: "Ivysaur",
+		pt: "Ivysaur",
+		de: "Bisaknosp"
 	}
 }
 

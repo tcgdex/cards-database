@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Pawniard",
+		fr: "Scalpion",
+		es: "Pawniard",
+		it: "Pawniard",
+		pt: "Pawniard",
+		de: "Gladiantri"
+	}
 }
 
 export default card

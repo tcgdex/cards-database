@@ -25,7 +25,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu",
+	}
 }
 
 export default card

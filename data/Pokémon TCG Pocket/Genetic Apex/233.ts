@@ -29,7 +29,16 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	evolveFrom: {
+		en: "Magikarp",
+		fr: "Magicarpe",
+		es: "Magikarp",
+		it: "Magikarp",
+		pt: "Magikarp",
+		de: "Karpador"
+	}
 }
 
 export default card

@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Staryu",
+		fr: "Stari",
+		es: "Staryu",
+		it: "Staryu",
+		pt: "Staryu",
+		de: "Sterndu"
+	}
 }
 
 export default card

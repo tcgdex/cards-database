@@ -62,6 +62,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Floette",
+		fr: "Floette",
+		es: "Floette",
+		it: "Floette",
+		pt: "Floette",
+		de: "Floette"
 	}
 }
 

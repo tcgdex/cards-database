@@ -44,7 +44,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	evolveFrom: {
+		en: "Porygon",
+		fr: "Porygon",
+		es: "Porygon",
+		it: "Porygon",
+		pt: "Porygon",
+		de: "Porygon"
+	}
 }
 
 export default card

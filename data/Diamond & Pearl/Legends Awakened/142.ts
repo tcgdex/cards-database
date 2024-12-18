@@ -71,8 +71,14 @@ const card: Card = {
 	],
 	retreat: 4,
 
-
-
+	evolveFrom: {
+		en: "Magneton",
+		fr: "Magnéton",
+		es: "Magneton",
+		it: "Magneton",
+		pt: "Magneton",
+		de: "Magneton"
+	}
 }
 
 export default card

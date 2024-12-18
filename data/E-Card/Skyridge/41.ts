@@ -67,9 +67,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	evolveFrom: {
+		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu",
+	}
 }
 
 export default card

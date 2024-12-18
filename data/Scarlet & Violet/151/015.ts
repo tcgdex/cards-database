@@ -62,6 +62,15 @@ const card: Card = {
 
 	variants: {
 		normal: false
+	},
+
+	evolveFrom: {
+		en: "Kakuna",
+		fr: "Coconfort",
+		es: "Kakuna",
+		it: "Kakuna",
+		pt: "Kakuna",
+		de: "Kokuna"
 	}
 }
 

@@ -62,6 +62,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Vanillish",
+		fr: "Sorboul",
+		es: "Vanillish",
+		it: "Vanillish",
+		pt: "Vanillish",
+		de: "Gelatroppo"
 	}
 }
 

@@ -29,7 +29,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	evolveFrom: {
+		en: "Nidorina",
+		fr: "Nidorina",
+		es: "Nidorina",
+		it: "Nidorina",
+		pt: "Nidorina",
+		de: "Nidorina"
+	}
 }
 
 export default card

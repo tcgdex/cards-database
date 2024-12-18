@@ -72,8 +72,14 @@ const card: Card = {
 	],
 	retreat: 4,
 
-
-
+	evolveFrom: {
+		en: "Hippopotas",
+		fr: "Hippopotas",
+		es: "Hippopotas",
+		it: "Hippopotas",
+		pt: "Hippopotas",
+		de: "Hippopotas"
+	}
 }
 
 export default card

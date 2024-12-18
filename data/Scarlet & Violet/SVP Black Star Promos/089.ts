@@ -66,7 +66,16 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	evolveFrom: {
+		en: "Croconaw",
+		fr: "Crocrodil",
+		es: "Croconaw",
+		it: "Croconaw",
+		pt: "Croconaw",
+		de: "Tyracroc"
+	}
 }
 
 export default card

@@ -66,6 +66,15 @@ const card: Card = {
 		reverse: false,
 		holo: false,
 		firstEdition: false
+	},
+
+	evolveFrom: {
+		en: "Phanpy",
+		fr: "Phanpy",
+		es: "Phanpy",
+		it: "Phanpy",
+		pt: "Phanpy",
+		de: "Phanpy"
 	}
 }
 

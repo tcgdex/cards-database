@@ -44,7 +44,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	evolveFrom: {
+		en: "Drifloon",
+		fr: "Baudrive",
+		es: "Drifloon",
+		it: "Drifloon",
+		pt: "Drifloon",
+		de: "Driftlon"
+	}
 }
 
 export default card

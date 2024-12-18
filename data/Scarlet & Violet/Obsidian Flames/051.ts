@@ -40,6 +40,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Tympole",
+		fr: "Tritonde",
+		es: "Tympole",
+		it: "Tympole",
+		pt: "Tympole",
+		de: "Schallquap"
 	}
 }
 

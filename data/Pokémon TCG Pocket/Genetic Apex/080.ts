@@ -29,7 +29,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	evolveFrom: {
+		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
+		it: "Eevee",
+		pt: "Eevee",
+		de: "Evoli"
+	}
 }
 
 export default card

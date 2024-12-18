@@ -29,7 +29,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	evolveFrom: {
+		en: "Spearow",
+		fr: "Piafabec",
+		es: "Spearow",
+		it: "Spearow",
+		pt: "Spearow",
+		de: "Habitak"
+	}
 }
 
 export default card

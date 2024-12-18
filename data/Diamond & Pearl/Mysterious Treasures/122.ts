@@ -65,10 +65,14 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	evolveFrom: {
+		en: "Riolu",
+		fr: "Riolu",
+		es: "Riolu",
+		it: "Riolu",
+		pt: "Riolu",
+		de: "Riolu"
+	}
 }
 
 export default card

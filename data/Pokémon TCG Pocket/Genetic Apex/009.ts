@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	evolveFrom: {
+		en: "Weedle",
+		fr: "Aspicot",
+		es: "Weedle",
+		it: "Weedle",
+		pt: "Weedle",
+		de: "Hornliu"
+	}
 }
 
 export default card

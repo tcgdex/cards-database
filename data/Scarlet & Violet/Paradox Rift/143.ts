@@ -49,6 +49,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Porygon",
+		fr: "Porygon",
+		es: "Porygon",
+		it: "Porygon",
+		pt: "Porygon",
+		de: "Porygon"
 	}
 }
 

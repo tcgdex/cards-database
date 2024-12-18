@@ -59,6 +59,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Inkay",
+		fr: "Sepiatop",
+		es: "Inkay",
+		it: "Inkay",
+		pt: "Inkay",
+		de: "Iscalar"
 	}
 }
 

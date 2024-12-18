@@ -70,6 +70,11 @@ const card: Card = {
 
 	variants: {
 		wPromo: true
+	},
+
+	evolveFrom: {
+		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu",
 	}
 }
 

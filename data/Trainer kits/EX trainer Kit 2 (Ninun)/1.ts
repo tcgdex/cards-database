@@ -30,7 +30,16 @@ const card: Card = {
 		effect: {
 			en: "Arcanine does 10 damage to itself."
 		}
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Growlithe",
+		fr: "Caninos",
+		es: "Growlithe",
+		it: "Growlithe",
+		pt: "Growlithe",
+		de: "Fukano"
+	}
 }
 
 export default card

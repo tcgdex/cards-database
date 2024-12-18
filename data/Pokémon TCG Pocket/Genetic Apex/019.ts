@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Bellsprout",
+		fr: "Chétiflor",
+		es: "Bellsprout",
+		it: "Bellsprout",
+		pt: "Bellsprout",
+		de: "Knofensa"
+	}
 }
 
 export default card

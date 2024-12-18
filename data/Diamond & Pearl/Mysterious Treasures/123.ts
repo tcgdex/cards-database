@@ -65,10 +65,14 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	evolveFrom: {
+		en: "Magmar",
+		fr: "Magmar",
+		es: "Magmar",
+		it: "Magmar",
+		pt: "Magmar",
+		de: "Magmar"
+	}
 }
 
 export default card

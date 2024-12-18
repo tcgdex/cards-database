@@ -60,6 +60,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Oddish",
+		fr: "Mystherbe",
+		es: "Oddish",
+		it: "Oddish",
+		pt: "Oddish",
+		de: "Myrapla"
 	}
 }
 

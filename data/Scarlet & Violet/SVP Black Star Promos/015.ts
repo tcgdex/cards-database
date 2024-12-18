@@ -57,7 +57,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	evolveFrom: {
+		en: "Mareep",
+		fr: "Wattouat",
+		es: "Mareep",
+		it: "Mareep",
+		pt: "Mareep",
+		de: "Voltilamm"
+	}
 }
 
 export default card

@@ -71,6 +71,15 @@ const card: Card = {
 
 	variants: {
 		normal: false
+	},
+
+	evolveFrom: {
+		en: "Lampent",
+		fr: "Mélancolux",
+		es: "Lampent",
+		it: "Lampent",
+		pt: "Lampent",
+		de: "Laternecto"
 	}
 }
 

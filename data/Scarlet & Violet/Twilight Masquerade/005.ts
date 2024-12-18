@@ -71,6 +71,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Spinarak",
+		fr: "Mimigal",
+		es: "Spinarak",
+		it: "Spinarak",
+		pt: "Spinarak",
+		de: "Webarak"
 	}
 }
 

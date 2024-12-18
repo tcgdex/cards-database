@@ -71,6 +71,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Poliwhirl",
+		fr: "Têtarte",
+		es: "Poliwhirl",
+		it: "Poliwhirl",
+		pt: "Poliwhirl",
+		de: "Quaputzi"
 	}
 }
 

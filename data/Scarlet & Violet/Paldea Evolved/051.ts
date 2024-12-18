@@ -52,6 +52,10 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Quaxly"
 	}
 }
 

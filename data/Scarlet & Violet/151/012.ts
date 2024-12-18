@@ -69,6 +69,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Metapod",
+		fr: "Chrysacier",
+		es: "Metapod",
+		it: "Metapod",
+		pt: "Metapod",
+		de: "Safcon"
 	}
 }
 

@@ -48,7 +48,11 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	evolveFrom: {
+		en: "Bisharp"
+	}
 }
 
 export default card

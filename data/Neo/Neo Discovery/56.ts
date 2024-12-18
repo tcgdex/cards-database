@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Parfois, ces Pokémon sont devenus des fossiles en voulant se cacher au fond de l'océan."
+	},
+
+	evolveFrom: {
+		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu",
 	}
 }
 

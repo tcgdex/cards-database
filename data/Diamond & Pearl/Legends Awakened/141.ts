@@ -70,9 +70,14 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	evolveFrom: {
+		en: "Gligar",
+		fr: "Scorplane",
+		es: "Gligar",
+		it: "Gligar",
+		pt: "Gligar",
+		de: "Skorgla"
+	}
 }
 
 export default card

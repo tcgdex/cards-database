@@ -37,7 +37,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	evolveFrom: {
+		en: "Weepinbell",
+		fr: "Boustiflor",
+		es: "Weepinbell",
+		it: "Weepinbell",
+		pt: "Weepinbell",
+		de: "Ultrigaria"
+	}
 }
 
 export default card

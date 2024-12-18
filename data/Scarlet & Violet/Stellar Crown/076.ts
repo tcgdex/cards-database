@@ -70,6 +70,15 @@ const card: Card = {
 
 	variants: {
 		normal: false
+	},
+
+	evolveFrom: {
+		en: "Rhydon",
+		fr: "Rhinoféros",
+		es: "Rhydon",
+		it: "Rhydon",
+		pt: "Rhydon",
+		de: "Rizeros"
 	}
 }
 

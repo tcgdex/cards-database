@@ -50,6 +50,15 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Helioptile",
+		fr: "Galvaran",
+		es: "Helioptile",
+		it: "Helioptile",
+		pt: "Helioptile",
+		de: "Eguana"
 	}
 }
 

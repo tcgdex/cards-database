@@ -57,7 +57,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	evolveFrom: {
+		en: "Natu",
+		fr: "Natu",
+		es: "Natu",
+		it: "Natu",
+		pt: "Natu",
+		de: "Natu"
+	}
 }
 
 export default card

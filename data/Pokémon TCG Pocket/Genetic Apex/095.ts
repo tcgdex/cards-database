@@ -29,7 +29,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	evolveFrom: {
+		en: "Pikachu",
+		fr: "Pikachu",
+		es: "Pikachu",
+		it: "Pikachu",
+		pt: "Pikachu",
+		de: "Pikachu"
+	}
 }
 
 export default card

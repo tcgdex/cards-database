@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Froakie",
+		fr: "Grenousse",
+		es: "Froakie",
+		it: "Froakie",
+		pt: "Froakie",
+		de: "Froxy"
+	}
 }
 
 export default card

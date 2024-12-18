@@ -27,7 +27,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Blitzle",
+		fr: "Zébibron",
+		es: "Blitzle",
+		it: "Blitzle",
+		pt: "Blitzle",
+		de: "Elezeba"
+	}
 }
 
 export default card

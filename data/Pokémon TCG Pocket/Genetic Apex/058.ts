@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Psyduck",
+		fr: "Psykokwak",
+		es: "Psyduck",
+		it: "Psyduck",
+		pt: "Psyduck",
+		de: "Enton"
+	}
 }
 
 export default card

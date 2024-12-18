@@ -72,6 +72,15 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
+	},
+
+	evolveFrom: {
+		en: "Ferroseed",
+		fr: "Grindur",
+		es: "Ferroseed",
+		it: "Ferroseed",
+		pt: "Ferroseed",
+		de: "Kastadur"
 	}
 }
 

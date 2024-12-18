@@ -37,7 +37,16 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Shellder",
+		fr: "Kokiyas",
+		es: "Shellder",
+		it: "Shellder",
+		pt: "Shellder",
+		de: "Muschas"
+	}
 }
 
 export default card

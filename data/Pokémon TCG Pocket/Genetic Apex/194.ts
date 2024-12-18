@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	evolveFrom: {
+		en: "Jigglypuff",
+		fr: "Rondoudou",
+		es: "Jigglypuff",
+		it: "Jigglypuff",
+		pt: "Jigglypuff",
+		de: "Pummeluff"
+	}
 }
 
 export default card

@@ -68,9 +68,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	evolveFrom: {
+		en: "Team Aqua's Poochyena",
+		fr: "Medhyèna de la Team Aqua",
+	}
 }
 
 export default card

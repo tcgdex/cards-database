@@ -66,7 +66,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	evolveFrom: {
+		en: "Monferno",
+		fr: "Chimpenfeu",
+		es: "Monferno",
+		it: "Monferno",
+		pt: "Monferno",
+		de: "Panpyro"
+	}
 }
 
 export default card

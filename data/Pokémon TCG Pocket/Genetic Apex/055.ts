@@ -29,7 +29,16 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	evolveFrom: {
+		en: "Wartortle",
+		fr: "Carabaffe",
+		es: "Wartortle",
+		it: "Wartortle",
+		pt: "Wartortle",
+		de: "Schillok"
+	}
 }
 
 export default card

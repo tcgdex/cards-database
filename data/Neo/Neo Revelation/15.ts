@@ -81,6 +81,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon vicieux surgi du passé, il semble qu'il volait en étalant ses ailes et en se laissant planer."
+	},
+
+	evolveFrom: {
+		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu",
 	}
 }
 

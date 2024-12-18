@@ -39,7 +39,16 @@ const card: Card = {
 		effect: {
 			en: "Discard all Energy attached to Raichu."
 		}
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Pikachu",
+		fr: "Pikachu",
+		es: "Pikachu",
+		it: "Pikachu",
+		pt: "Pikachu",
+		de: "Pikachu"
+	}
 }
 
 export default card

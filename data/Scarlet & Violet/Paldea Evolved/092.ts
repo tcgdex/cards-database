@@ -71,6 +71,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Gothorita",
+		fr: "Mesmérella",
+		es: "Gothorita",
+		it: "Gothorita",
+		pt: "Gothorita",
+		de: "Hypnomorba"
 	}
 }
 

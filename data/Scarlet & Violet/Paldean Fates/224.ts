@@ -56,6 +56,10 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Wiglett"
 	}
 }
 

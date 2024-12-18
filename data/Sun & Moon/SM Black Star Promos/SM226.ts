@@ -70,7 +70,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Charmeleon",
+		fr: "Reptincel",
+		es: "Charmeleon",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+		de: "Glutexo"
+	}
 }
 
 export default card

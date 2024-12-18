@@ -70,6 +70,10 @@ const card: Card = {
 
 	variants: {
 		normal: false
+	},
+
+	evolveFrom: {
+		en: "Maschiff"
 	}
 }
 

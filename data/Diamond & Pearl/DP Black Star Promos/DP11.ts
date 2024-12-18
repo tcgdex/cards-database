@@ -64,10 +64,14 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	evolveFrom: {
+		en: "Prinplup",
+		fr: "Prinplouf",
+		es: "Prinplup",
+		it: "Prinplup",
+		pt: "Prinplup",
+		de: "Pliprin"
+	}
 }
 
 export default card

@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Bulbasaur",
+		fr: "Bulbizarre",
+		es: "Bulbasaur",
+		it: "Bulbasaur",
+		pt: "Bulbasaur",
+		de: "Bisasam"
+	}
 }
 
 export default card

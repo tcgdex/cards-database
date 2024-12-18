@@ -63,6 +63,15 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Bulbasaur",
+		fr: "Bulbizarre",
+		es: "Bulbasaur",
+		it: "Bulbasaur",
+		pt: "Bulbasaur",
+		de: "Bisasam"
 	}
 }
 

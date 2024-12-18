@@ -29,7 +29,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	evolveFrom: {
+		en: "Helioptile",
+		fr: "Galvaran",
+		es: "Helioptile",
+		it: "Helioptile",
+		pt: "Helioptile",
+		de: "Eguana"
+	}
 }
 
 export default card

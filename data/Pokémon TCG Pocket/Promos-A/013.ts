@@ -33,7 +33,16 @@ const card: Card = {
 
 		cost: ["Grass", "Colorless", "Colorless"],
 		damage: 60
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Metapod",
+		fr: "Chrysacier",
+		es: "Metapod",
+		it: "Metapod",
+		pt: "Metapod",
+		de: "Safcon"
+	}
 }
 
 export default card

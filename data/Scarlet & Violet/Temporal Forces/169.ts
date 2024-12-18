@@ -41,6 +41,15 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Grubbin",
+		fr: "Larvibule",
+		es: "Grubbin",
+		it: "Grubbin",
+		pt: "Grubbin",
+		de: "Mabula"
 	}
 }
 

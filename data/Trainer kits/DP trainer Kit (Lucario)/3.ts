@@ -39,7 +39,16 @@ const card: Card = {
 		effect: {
 			en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
 		}
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Riolu",
+		fr: "Riolu",
+		es: "Riolu",
+		it: "Riolu",
+		pt: "Riolu",
+		de: "Riolu"
+	}
 }
 
 export default card

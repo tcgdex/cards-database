@@ -35,7 +35,16 @@ const card: Card = {
 		effect: {
 			en: "Discard an Energy card attached to the Defending Pokémon."
 		}
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Magikarp",
+		fr: "Magicarpe",
+		es: "Magikarp",
+		it: "Magikarp",
+		pt: "Magikarp",
+		de: "Karpador"
+	}
 }
 
 export default card

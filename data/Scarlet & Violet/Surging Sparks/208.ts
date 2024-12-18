@@ -47,6 +47,11 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Alolan Diglett",
+		fr: "Taupiqueur d’Alola",
 	}
 }
 

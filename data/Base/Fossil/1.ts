@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés."
+	},
+
+	evolveFrom: {
+		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu",
 	}
 }
 

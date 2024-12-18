@@ -68,8 +68,14 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	evolveFrom: {
+		en: "Grotle",
+		fr: "Boskara",
+		es: "Grotle",
+		it: "Grotle",
+		pt: "Grotle",
+		de: "Chelcarain"
+	}
 }
 
 export default card

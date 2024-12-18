@@ -30,7 +30,16 @@ const card: Card = {
 		effect: {
 			en: "Flip 3 coins. This attack does 20 damage plus 20 more damage for each heads."
 		}
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Magnemite",
+		fr: "Magnéti",
+		es: "Magnemite",
+		it: "Magnemite",
+		pt: "Magnemite",
+		de: "Magnetilo"
+	}
 }
 
 export default card

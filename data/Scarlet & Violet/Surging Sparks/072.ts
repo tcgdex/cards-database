@@ -61,6 +61,15 @@ const card: Card = {
 
 	variants: {
 		normal: false
+	},
+
+	evolveFrom: {
+		en: "Togetic",
+		fr: "Togetic",
+		es: "Togetic",
+		it: "Togetic",
+		pt: "Togetic",
+		de: "Togetic"
 	}
 }
 

@@ -37,7 +37,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	evolveFrom: {
+		en: "Pidgeotto",
+		fr: "Roucoups",
+		es: "Pidgeotto",
+		it: "Pidgeotto",
+		pt: "Pidgeotto",
+		de: "Tauboga"
+	}
 }
 
 export default card

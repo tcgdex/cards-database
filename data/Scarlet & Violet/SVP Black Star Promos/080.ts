@@ -48,7 +48,11 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	evolveFrom: {
+		en: "Fuecoco"
+	}
 }
 
 export default card

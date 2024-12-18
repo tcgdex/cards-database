@@ -29,7 +29,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	evolveFrom: {
+		en: "Goldeen",
+		fr: "Poissirène",
+		es: "Goldeen",
+		it: "Goldeen",
+		pt: "Goldeen",
+		de: "Goldini"
+	}
 }
 
 export default card

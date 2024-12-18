@@ -27,7 +27,16 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	evolveFrom: {
+		en: "Dragonair",
+		fr: "Draco",
+		es: "Dragonair",
+		it: "Dragonair",
+		pt: "Dragonair",
+		de: "Dragonir"
+	}
 }
 
 export default card

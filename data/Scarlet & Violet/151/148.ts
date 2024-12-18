@@ -62,6 +62,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Dratini",
+		fr: "Minidraco",
+		es: "Dratini",
+		it: "Dratini",
+		pt: "Dratini",
+		de: "Dratini"
 	}
 }
 

@@ -57,7 +57,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	evolveFrom: {
+		en: "Magnemite",
+		fr: "Magnéti",
+		es: "Magnemite",
+		it: "Magnemite",
+		pt: "Magnemite",
+		de: "Magnetilo"
+	}
 }
 
 export default card

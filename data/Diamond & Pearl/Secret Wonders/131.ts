@@ -65,8 +65,14 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	evolveFrom: {
+		en: "Kirlia",
+		fr: "Kirlia",
+		es: "Kirlia",
+		it: "Kirlia",
+		pt: "Kirlia",
+		de: "Kirlia"
+	}
 }
 
 export default card

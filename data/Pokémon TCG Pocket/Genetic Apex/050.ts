@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	evolveFrom: {
+		en: "Salandit",
+		fr: "Tritox",
+		es: "Salandit",
+		it: "Salandit",
+		pt: "Salandit",
+		de: "Molunk"
+	}
 }
 
 export default card
