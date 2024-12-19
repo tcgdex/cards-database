@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Mankey δ",
-		fr: "Férosinge δ ESPÈCES DELTA",
+		fr: "Férosinge δ",
 		de: "Menki"
 	},
 	illustrator: "Atsuko Nishida",

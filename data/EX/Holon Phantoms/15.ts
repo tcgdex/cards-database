@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Raichu δ",
-		fr: "Raichu δ ESPÈCES DELTA",
+		fr: "Raichu δ",
 		de: "Raichu"
 	},
 	illustrator: "Masakazu Fukuda",

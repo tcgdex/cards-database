@@ -4,7 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Dratini δ",
-		fr: "Minidraco δ ESPÈCES DELTA",
+		fr: "Minidraco δ",
 		de: "Dratini"
 	},
 	illustrator: "Mitsuhiro Arita",

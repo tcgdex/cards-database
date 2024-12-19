@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Smoochum δ",
-		fr: "Lippouti δ ESPÈCES DELTA",
+		fr: "Lippouti δ",
 		de: "Kussilla"
 	},
 	illustrator: "Miki Tanaka",

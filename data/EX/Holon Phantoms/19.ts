@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Bellossom δ",
-		fr: "Joliflor δ ESPÈCES DELTA",
+		fr: "Joliflor δ",
 		de: "Blubella"
 	},
 	illustrator: "Kagemaru Himeno",

@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Lileep δ",
-		fr: "Lilia δ ESPÈCES DELTA",
+		fr: "Lilia δ",
 		de: "Liliep"
 	},
 	illustrator: "Kagemaru Himeno",

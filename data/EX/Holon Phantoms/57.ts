@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Anorith δ",
-		fr: "Anorith δ ESPÈCES DELTA",
+		fr: "Anorith δ",
 		de: "Anorith"
 	},
 	illustrator: "Hajime Kusajima",

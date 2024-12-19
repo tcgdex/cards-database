@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Croconaw δ",
-		fr: "Crocrodil δ ESPÈCES DELTA",
+		fr: "Crocrodil δ",
 		de: "Tyracroc"
 	},
 	illustrator: "Yuka Morii",

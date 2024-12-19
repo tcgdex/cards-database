@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Cradily δ",
-		fr: "Vacilys δ ESPÈCES DELTA",
+		fr: "Vacilys δ",
 		de: "Wielie"
 	},
 	illustrator: "Kouki Saitou",

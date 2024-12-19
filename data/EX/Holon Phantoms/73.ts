@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Oddish δ",
-		fr: "Mystherbe δ ESPÈCES DELTA",
+		fr: "Mystherbe δ",
 		de: "Myrapla"
 	},
 	illustrator: "Atsuko Nishida",

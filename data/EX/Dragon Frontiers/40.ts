@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Swellow δ",
-		fr: "Heledelle δ ESPÈCES DELTA",
+		fr: "Heledelle δ",
 		de: "Schwalboss"
 	},
 	illustrator: "Sumiyoshi Kizuki",

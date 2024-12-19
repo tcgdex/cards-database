@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Omastar δ",
-		fr: "Amonistar δ ESPÈCES DELTA",
+		fr: "Amonistar δ",
 		de: "Amoroso"
 	},
 	illustrator: "Midori Harada",

@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Cyndaquil δ",
-		fr: "Héricendre δ ESPÈCES DELTA",
+		fr: "Héricendre δ",
 		de: "Feurigel"
 	},
 	illustrator: "Atsuko Nishida",

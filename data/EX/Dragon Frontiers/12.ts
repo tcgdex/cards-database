@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Typhlosion δ",
-		fr: "Typhlosion δ ESPÈCES DELTA",
+		fr: "Typhlosion δ",
 		de: "Tornupto"
 	},
 	illustrator: "Hisao Nakamura",

@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Bayleef δ",
-		fr: "Macronium δ ESPÈCES DELTA",
+		fr: "Macronium δ",
 		de: "Lorblatt"
 	},
 	illustrator: "Kagemaru Himeno",

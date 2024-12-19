@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Mareep δ",
-		fr: "Wattouat δ ESPÈCES DELTA",
+		fr: "Wattouat δ",
 		de: "Voltilamm"
 	},
 	illustrator: "Sachiko Adachi",

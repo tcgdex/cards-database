@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Persian δ",
-		fr: "Persian δ ESPÈCES DELTA",
+		fr: "Persian δ",
 		de: "Snobilikat"
 	},
 	illustrator: "Midori Harada",
