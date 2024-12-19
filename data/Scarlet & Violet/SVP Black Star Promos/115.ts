@@ -57,7 +57,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	evolveFrom: {
+		en: "Grookey",
+		fr: "Ouistempo",
+		es: "Grookey",
+		it: "Grookey",
+		pt: "Grookey",
+		de: "Chimpep"
+	}
 }
 
 export default card

@@ -23,10 +23,6 @@ const card: Card = {
 		"Darkness",
 	],
 
-	evolveFrom: {
-		fr: "Moufouette",
-	},
-
 	stage: "Basic",
 
 	attacks: [

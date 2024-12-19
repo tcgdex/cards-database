@@ -37,7 +37,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	evolveFrom: {
+		en: "Frogadier",
+		fr: "Croâporal",
+		es: "Frogadier",
+		it: "Frogadier",
+		pt: "Frogadier",
+		de: "Amphizel"
+	}
 }
 
 export default card

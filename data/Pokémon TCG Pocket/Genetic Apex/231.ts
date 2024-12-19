@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	evolveFrom: {
+		en: "Ponyta",
+		fr: "Ponyta",
+		es: "Ponyta",
+		it: "Ponyta",
+		pt: "Ponyta",
+		de: "Ponita"
+	}
 }
 
 export default card

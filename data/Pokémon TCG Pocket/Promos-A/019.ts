@@ -33,7 +33,16 @@ const card: Card = {
 
 		cost: ["Water", "Colorless"],
 		damage: 60
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Frogadier",
+		fr: "Croâporal",
+		es: "Frogadier",
+		it: "Frogadier",
+		pt: "Frogadier",
+		de: "Amphizel"
+	}
 }
 
 export default card

@@ -30,7 +30,16 @@ const card: Card = {
 		effect: {
 			en: "Flip 2 coins. This attack does 40 damage times the number of heads."
 		}
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Torchic",
+		fr: "Poussifeu",
+		es: "Torchic",
+		it: "Torchic",
+		pt: "Torchic",
+		de: "Flemmli"
+	}
 }
 
 export default card

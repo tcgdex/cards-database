@@ -54,6 +54,15 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Shinx",
+		fr: "Lixy",
+		es: "Shinx",
+		it: "Shinx",
+		pt: "Shinx",
+		de: "Sheinux"
 	}
 }
 

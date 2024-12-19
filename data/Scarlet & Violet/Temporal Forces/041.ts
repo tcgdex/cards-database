@@ -71,6 +71,15 @@ const card: Card = {
 
 	variants: {
 		normal: false
+	},
+
+	evolveFrom: {
+		en: "Croconaw",
+		fr: "Crocrodil",
+		es: "Croconaw",
+		it: "Croconaw",
+		pt: "Croconaw",
+		de: "Tyracroc"
 	}
 }
 

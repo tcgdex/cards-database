@@ -55,10 +55,14 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	evolveFrom: {
+		en: "Fennekin",
+		fr: "Feunnec",
+		es: "Fennekin",
+		it: "Fennekin",
+		pt: "Fennekin",
+		de: "Fynx"
+	}
 }
 
 export default card

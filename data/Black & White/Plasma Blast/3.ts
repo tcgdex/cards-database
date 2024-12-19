@@ -78,8 +78,10 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
-
+	evolveFrom: {
+		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu",
+	}
 }
 
 export default card

@@ -23,11 +23,6 @@ const card: Card = {
 		"Psychic",
 	],
 
-	evolveFrom: {
-		en: "Skorupi",
-		fr: "Drapion",
-	},
-
 	stage: "Stage1",
 
 	attacks: [
@@ -81,6 +76,15 @@ const card: Card = {
 
 	description: {
 		fr: "Il peut réduire une voiture en pièces avec ses pinces. Le bout de ses pinces contient du poison."
+	},
+
+	evolveFrom: {
+		en: "Skorupi",
+		fr: "Rapion",
+		es: "Skorupi",
+		it: "Skorupi",
+		pt: "Skorupi",
+		de: "Pionskora"
 	}
 }
 

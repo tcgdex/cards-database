@@ -29,7 +29,16 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Golett",
+		fr: "Gringolem",
+		es: "Golett",
+		it: "Golett",
+		pt: "Golett",
+		de: "Golbit"
+	}
 }
 
 export default card

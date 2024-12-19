@@ -68,8 +68,14 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	evolveFrom: {
+		en: "Skorupi",
+		fr: "Rapion",
+		es: "Skorupi",
+		it: "Skorupi",
+		pt: "Skorupi",
+		de: "Pionskora"
+	}
 }
 
 export default card

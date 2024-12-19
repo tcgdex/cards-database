@@ -25,7 +25,16 @@ const card: Card = {
 		effect: {
 			en: "Heal 30 damage from this Pokémon."
 		}
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Ivysaur",
+		fr: "Herbizarre",
+		es: "Ivysaur",
+		it: "Ivysaur",
+		pt: "Ivysaur",
+		de: "Bisaknosp"
+	}
 }
 
 export default card

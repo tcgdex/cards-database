@@ -62,6 +62,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Zigzagoon",
+		fr: "Zigzaton",
+		es: "Zigzagoon",
+		it: "Zigzagoon",
+		pt: "Zigzagoon",
+		de: "Zigzachs"
 	}
 }
 

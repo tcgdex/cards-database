@@ -22,11 +22,6 @@ const card: Card = {
 		"Fire",
 	],
 
-	evolveFrom: {
-		en: "Chimchar",
-		fr: "Ouisticram",
-	},
-
 	stage: "Basic",
 
 	attacks: [

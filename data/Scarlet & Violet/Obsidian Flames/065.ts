@@ -71,6 +71,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Magneton",
+		fr: "Magnéton",
+		es: "Magneton",
+		it: "Magneton",
+		pt: "Magneton",
+		de: "Magneton"
 	}
 }
 

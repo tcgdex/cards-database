@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	evolveFrom: {
+		en: "Woobat",
+		fr: "Chovsourir",
+		es: "Woobat",
+		it: "Woobat",
+		pt: "Woobat",
+		de: "Fleknoil"
+	}
 }
 
 export default card

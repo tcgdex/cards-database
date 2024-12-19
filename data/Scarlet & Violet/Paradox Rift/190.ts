@@ -41,6 +41,15 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Vanillite",
+		fr: "Sorbébé",
+		es: "Vanillite",
+		it: "Vanillite",
+		pt: "Vanillite",
+		de: "Gelatini"
 	}
 }
 

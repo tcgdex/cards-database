@@ -72,6 +72,15 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Pupitar",
+		fr: "Ymphect",
+		es: "Pupitar",
+		it: "Pupitar",
+		pt: "Pupitar",
+		de: "Pupitar"
 	}
 }
 

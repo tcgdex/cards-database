@@ -71,6 +71,15 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Dusclops",
+		fr: "Téraclope",
+		es: "Dusclops",
+		it: "Dusclops",
+		pt: "Dusclops",
+		de: "Zwirrklop"
 	}
 }
 

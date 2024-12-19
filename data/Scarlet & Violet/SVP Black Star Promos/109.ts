@@ -35,7 +35,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	evolveFrom: {
+		en: "Flaaffy",
+		fr: "Lainergie",
+		es: "Flaaffy",
+		it: "Flaaffy",
+		pt: "Flaaffy",
+		de: "Waaty"
+	}
 }
 
 export default card

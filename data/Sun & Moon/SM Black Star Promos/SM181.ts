@@ -64,7 +64,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	evolveFrom: {
+		en: "Meltan",
+		fr: "Meltan",
+		es: "Meltan",
+		it: "Meltan",
+		pt: "Meltan",
+		de: "Meltan"
+	}
 }
 
 export default card

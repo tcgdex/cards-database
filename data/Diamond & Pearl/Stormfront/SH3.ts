@@ -19,9 +19,6 @@ const card: Card = {
 	types: [
 		"Lightning",
 	],
-	evolveFrom: {
-		fr: "Voltorbe",
-	},
 	stage: "Basic",
 
 

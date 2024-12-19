@@ -37,7 +37,16 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	evolveFrom: {
+		en: "Koffing",
+		fr: "Smogo",
+		es: "Koffing",
+		it: "Koffing",
+		pt: "Koffing",
+		de: "Smogon"
+	}
 }
 
 export default card

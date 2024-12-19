@@ -61,6 +61,11 @@ const card: Card = {
 
 	variants: {
 		normal: false
+	},
+
+	evolveFrom: {
+		en: "Tirtouga",
+		fr: "Carapagos",
 	}
 }
 

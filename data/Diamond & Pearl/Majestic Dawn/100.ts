@@ -47,8 +47,14 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	evolveFrom: {
+		en: "Porygon2",
+		fr: "Porygon2",
+		es: "Porygon2",
+		it: "Porygon2",
+		pt: "Porygon2",
+		de: "Porygon2"
+	}
 }
 
 export default card

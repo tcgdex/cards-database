@@ -74,10 +74,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	evolveFrom: {
+		en: "Team Magma's Lairon",
+		fr: "Galegon de la Team Magma",
+	}
 }
 
 export default card

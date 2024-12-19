@@ -85,6 +85,15 @@ const card: Card = {
 
 	description: {
 		en: "A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves."
+	},
+
+	evolveFrom: {
+		en: "Nincada",
+		fr: "Ningale",
+		es: "Nincada",
+		it: "Nincada",
+		pt: "Nincada",
+		de: "Nincada"
 	}
 }
 

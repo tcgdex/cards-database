@@ -49,7 +49,16 @@ const card: Card = {
 	},
 
 	hp: 150,
-	types: ["Psychic"]
+	types: ["Psychic"],
+
+	evolveFrom: {
+		en: "Drakloak",
+		fr: "Dispareptil",
+		es: "Drakloak",
+		it: "Drakloak",
+		pt: "Drakloak",
+		de: "Phandra"
+	}
 }
 
 export default card

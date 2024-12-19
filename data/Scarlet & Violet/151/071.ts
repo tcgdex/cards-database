@@ -62,6 +62,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Weepinbell",
+		fr: "Boustiflor",
+		es: "Weepinbell",
+		it: "Weepinbell",
+		pt: "Weepinbell",
+		de: "Ultrigaria"
 	}
 }
 

@@ -30,7 +30,16 @@ const card: Card = {
 		effect: {
 			en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage."
 		}
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Charmander",
+		fr: "Salamèche",
+		es: "Charmander",
+		it: "Charmander",
+		pt: "Charmander",
+		de: "Glumanda"
+	}
 }
 
 export default card

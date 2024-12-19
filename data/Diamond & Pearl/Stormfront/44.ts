@@ -19,9 +19,6 @@ const card: Card = {
 	types: [
 		"Colorless",
 	],
-	evolveFrom: {
-		fr: "Écrémeuh",
-	},
 	stage: "Basic",
 
 

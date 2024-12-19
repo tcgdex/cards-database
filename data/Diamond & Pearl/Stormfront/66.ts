@@ -19,9 +19,6 @@ const card: Card = {
 	types: [
 		"Metal",
 	],
-	evolveFrom: {
-		fr: "Magneti",
-	},
 	stage: "Basic",
 
 

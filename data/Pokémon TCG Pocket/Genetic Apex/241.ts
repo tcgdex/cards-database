@@ -29,7 +29,16 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	evolveFrom: {
+		en: "Nidorino",
+		fr: "Nidorino",
+		es: "Nidorino",
+		it: "Nidorino",
+		pt: "Nidorino",
+		de: "Nidorino"
+	}
 }
 
 export default card

@@ -49,6 +49,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Solosis",
+		fr: "Nucléos",
+		es: "Solosis",
+		it: "Solosis",
+		pt: "Solosis",
+		de: "Monozyto"
 	}
 }
 

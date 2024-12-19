@@ -66,7 +66,16 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	evolveFrom: {
+		en: "Doublade",
+		fr: "Dimoclès",
+		es: "Doublade",
+		it: "Doublade",
+		pt: "Doublade",
+		de: "Duokles"
+	}
 }
 
 export default card

@@ -23,10 +23,6 @@ const card: Card = {
 		"Fire",
 	],
 
-	evolveFrom: {
-		fr: "Ponyta",
-	},
-
 	stage: "Basic",
 
 	attacks: [

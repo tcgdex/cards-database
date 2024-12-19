@@ -30,7 +30,11 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Two Star"
+	rarity: "Two Star",
+
+	evolveFrom: {
+		en: "Growlithe"
+	}
 }
 
 export default card

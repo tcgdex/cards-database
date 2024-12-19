@@ -69,6 +69,10 @@ const card: Card = {
 
 	variants: {
 		normal: false
+	},
+
+	evolveFrom: {
+		en: "Kadabra",
 	}
 }
 

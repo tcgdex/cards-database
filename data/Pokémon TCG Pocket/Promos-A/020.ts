@@ -25,7 +25,16 @@ const card: Card = {
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing."
 		}
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Gastly",
+		fr: "Fantominus",
+		es: "Gastly",
+		it: "Gastly",
+		pt: "Gastly",
+		de: "Nebulak"
+	}
 }
 
 export default card

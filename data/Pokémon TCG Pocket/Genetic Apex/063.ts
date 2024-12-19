@@ -29,7 +29,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Tentacool",
+		fr: "Tentacool",
+		es: "Tentacool",
+		it: "Tentacool",
+		pt: "Tentacool",
+		de: "Tentacha"
+	}
 }
 
 export default card

@@ -66,7 +66,16 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	evolveFrom: {
+		en: "Ledyba",
+		fr: "Coxy",
+		es: "Ledyba",
+		it: "Ledyba",
+		pt: "Ledyba",
+		de: "Ledyba"
+	}
 }
 
 export default card

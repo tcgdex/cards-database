@@ -66,7 +66,16 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	evolveFrom: {
+		en: "Togetic",
+		fr: "Togetic",
+		es: "Togetic",
+		it: "Togetic",
+		pt: "Togetic",
+		de: "Togetic"
+	}
 }
 
 export default card

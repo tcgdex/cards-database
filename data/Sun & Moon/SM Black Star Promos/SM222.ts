@@ -75,7 +75,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	evolveFrom: {
+		en: "Misdreavus",
+		fr: "Feuforêve",
+		es: "Misdreavus",
+		it: "Misdreavus",
+		pt: "Misdreavus",
+		de: "Traunfugil"
+	}
 }
 
 export default card

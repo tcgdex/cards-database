@@ -61,6 +61,15 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	evolveFrom: {
+		en: "Duskull",
+		fr: "Skelénox",
+		es: "Duskull",
+		it: "Duskull",
+		pt: "Duskull",
+		de: "Zwirrlicht"
 	}
 }
 

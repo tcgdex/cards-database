@@ -30,7 +30,16 @@ const card: Card = {
 		effect: {
 			en: "Does 10 damage times the number of basic Energy cards attached to all of the Active Pokémon (both yours and your opponent’s)."
 		}
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Skitty",
+		fr: "Skitty",
+		es: "Skitty",
+		it: "Skitty",
+		pt: "Skitty",
+		de: "Eneco"
+	}
 }
 
 export default card

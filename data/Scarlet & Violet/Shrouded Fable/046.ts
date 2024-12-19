@@ -68,6 +68,15 @@ const card: Card = {
 
 	variants: {
 		normal: false
+	},
+
+	evolveFrom: {
+		en: "Fraxure",
+		fr: "Incisache",
+		es: "Fraxure",
+		it: "Fraxure",
+		pt: "Fraxure",
+		de: "Sharfax"
 	}
 }
 

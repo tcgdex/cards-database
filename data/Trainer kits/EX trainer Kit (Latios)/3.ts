@@ -32,7 +32,16 @@ const card: Card = {
 		effect: {
 			en: "Flip a coin until you get tails. This attack does 40 damage times the number of heads."
 		}
-	}]
+	}],
+
+	evolveFrom: {
+		en: "Zigzagoon",
+		fr: "Zigzaton",
+		es: "Zigzagoon",
+		it: "Zigzagoon",
+		pt: "Zigzagoon",
+		de: "Zigzachs"
+	}
 }
 
 export default card

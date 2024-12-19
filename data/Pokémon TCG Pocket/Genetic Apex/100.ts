@@ -25,7 +25,16 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	evolveFrom: {
+		en: "Voltorb",
+		fr: "Voltorbe",
+		es: "Voltorb",
+		it: "Voltorb",
+		pt: "Voltorb",
+		de: "Voltobal"
+	}
 }
 
 export default card

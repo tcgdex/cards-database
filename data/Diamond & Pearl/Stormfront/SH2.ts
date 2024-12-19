@@ -19,9 +19,6 @@ const card: Card = {
 	types: [
 		"Psychic",
 	],
-	evolveFrom: {
-		fr: "Skélénox",
-	},
 	stage: "Basic",
 
 

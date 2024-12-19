@@ -65,10 +65,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	evolveFrom: {
+		en: "Team Aqua's Spheal",
+		fr: "Obalie de la Team Aqua",
+	}
 }
 
 export default card

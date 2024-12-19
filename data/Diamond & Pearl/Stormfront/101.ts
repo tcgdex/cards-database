@@ -23,10 +23,6 @@ const card: Card = {
 		"Fire",
 	],
 
-	evolveFrom: {
-		fr: "Salamèche",
-	},
-
 	stage: "Basic",
 
 	attacks: [

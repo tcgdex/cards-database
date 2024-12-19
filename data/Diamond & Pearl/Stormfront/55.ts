@@ -23,10 +23,6 @@ const card: Card = {
 		"Psychic",
 	],
 
-	evolveFrom: {
-		fr: "Archéomire",
-	},
-
 	stage: "Basic",
 
 	attacks: [

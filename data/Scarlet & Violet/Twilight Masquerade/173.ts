@@ -72,6 +72,15 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	evolveFrom: {
+		en: "Monferno",
+		fr: "Chimpenfeu",
+		es: "Monferno",
+		it: "Monferno",
+		pt: "Monferno",
+		de: "Panpyro"
 	}
 }
 

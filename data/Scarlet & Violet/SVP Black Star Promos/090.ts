@@ -57,7 +57,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	evolveFrom: {
+		en: "Beldum",
+		fr: "Terhal",
+		es: "Beldum",
+		it: "Beldum",
+		pt: "Beldum",
+		de: "Tanhel"
+	}
 }
 
 export default card
