@@ -21,7 +21,20 @@ const card: Card = {
 
 		cost: ["Lightning"],
 		damage: 20
-	}]
+	}],
+
+	hp: 60,
+
+	description: {
+		en: "When it is angered, it immediately discharges the<br />energy stored in the pouches in its cheeks."
+	},
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
+	retreat: 1
 }
 
 export default card

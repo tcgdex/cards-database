@@ -25,7 +25,20 @@ const card: Card = {
 		effect: {
 			en: "Discard 2 <span class=\"pfont\" title=\"Psychic\">P</span> Energy from this Pokémon."
 		}
-	}]
+	}],
+
+	hp: 120,
+
+	description: {
+		en: "It was created by a scientist after years of horrific<br />gene-splicing and DNA-engineering experiments."
+	},
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
+	retreat: 2
 }
 
 export default card

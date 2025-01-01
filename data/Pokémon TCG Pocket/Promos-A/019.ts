@@ -33,7 +33,24 @@ const card: Card = {
 
 		cost: ["Water", "Colorless"],
 		damage: 60
-	}]
+	}],
+
+	hp: 120,
+
+	evolveFrom: {
+		en: "Frogadier"
+	},
+
+	description: {
+		en: "It creates throwing stars out of compressed water. <br />When it spins them and throws them at high speed, <br />these stars can split metal in two."
+	},
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
+	retreat: 1
 }
 
 export default card

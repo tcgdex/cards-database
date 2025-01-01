@@ -25,7 +25,24 @@ const card: Card = {
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing."
 		}
-	}]
+	}],
+
+	hp: 70,
+
+	evolveFrom: {
+		en: "Gastly"
+	},
+
+	description: {
+		en: "It likes to lurk in the dark and tap shoulders<br />with a gaseous hand. Its touch causes endless<br />shuddering."
+	},
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
+	retreat: 1
 }
 
 export default card

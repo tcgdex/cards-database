@@ -25,7 +25,24 @@ const card: Card = {
 		effect: {
 			en: "Heal 30 damage from this Pokémon."
 		}
-	}]
+	}],
+
+	hp: 160,
+
+	evolveFrom: {
+		en: "Ivysaur"
+	},
+
+	description: {
+		en: "Its plant blooms when it is absorbing solar<br />energy. It stays on the move to seek sunlight."
+	},
+
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
+	retreat: 3
 }
 
 export default card

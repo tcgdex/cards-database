@@ -21,7 +21,20 @@ const card: Card = {
 
 		cost: ["Lightning"],
 		damage: 20
-	}]
+	}],
+
+	hp: 60,
+
+	description: {
+		en: "The electromagnetic waves emitted by the units<br />at the sides of its head expel antigravity, which<br />allows it to float."
+	},
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
+	retreat: 1
 }
 
 export default card

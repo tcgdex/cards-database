@@ -5,29 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bulbasaur"
+		en: "Snivy"
 	},
 
-	illustrator: "Kouki Saitou",
-	rarity: "Three Diamond",
+	illustrator: "Yoriyuki Ikegami",
+	rarity: "One Diamond",
 	category: "Pokemon",
+	hp: 60,
 	types: ["Grass"],
+
+	description: {
+		en: "Being exposed to sunlight makes its movements<br />swifter. It uses vines more adeptly than its hands."
+	},
+
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Vine Whip"
+			en: "Tackle"
 		},
 
-		cost: ["Grass", "Colorless"],
-		damage: 40
+		damage: 20,
+		cost: ["Grass"]
 	}],
-
-	hp: 70,
-
-	description: {
-		en: "There is a plant seed on its back right from the<br />day this Pokémon is born. The seed slowly<br />grows larger."
-	},
 
 	weaknesses: [{
 		type: "Fire",

@@ -25,7 +25,20 @@ const card: Card = {
 		effect: {
 			en: "This Pokémon also does 10 damage to itself."
 		}
-	}]
+	}],
+
+	hp: 50,
+
+	description: {
+		en: "It lives in groups in the treetops. If it loses sight of<br />its group, it becomes infuriated by its loneliness."
+	},
+
+	weaknesses: [{
+		type: "Psychic",
+		value: "+20"
+	}],
+
+	retreat: 1
 }
 
 export default card

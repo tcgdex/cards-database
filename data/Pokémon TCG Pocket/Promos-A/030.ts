@@ -5,32 +5,32 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jigglypuff"
+		en: "Eevee"
 	},
 
-	illustrator: "Kurata So",
+	illustrator: "En Morikura",
 	rarity: "One Diamond",
 	category: "Pokemon",
+	hp: 60,
 	types: ["Colorless"],
+
+	description: {
+		en: "Its ability to evolve into many forms allows it to<br />adapt smoothly and perfectly to any environment."
+	},
+
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sing"
+			en: "Growl"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
+			en: "During your opponent's next turn, attacks used by the Defending Pokémon do −20 damage."
 		}
 	}],
-
-	hp: 50,
-
-	description: {
-		en: "When its huge eyes waver, it sings a mysteriously<br />soothing melody that lulls its enemies to sleep."
-	},
 
 	weaknesses: [{
 		type: "Fighting",
