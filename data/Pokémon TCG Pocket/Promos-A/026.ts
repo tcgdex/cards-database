@@ -8,10 +8,16 @@ const card: Card = {
 		en: "Pikachu"
 	},
 
-	illustrator: "Atsushi Furusawa",
+	illustrator: "Kouki Saitou",
 	rarity: "One Star",
 	category: "Pokemon",
+	hp: 60,
 	types: ["Lightning"],
+
+	description: {
+		en: "When it is angered, it immediately discharges the<br />energy stored in the pouches in its cheeks."
+	},
+
 	stage: "Basic",
 
 	attacks: [{
@@ -19,15 +25,9 @@ const card: Card = {
 			en: "Gnaw"
 		},
 
-		cost: ["Lightning"],
-		damage: 20
+		damage: 20,
+		cost: ["Lightning"]
 	}],
-
-	hp: 60,
-
-	description: {
-		en: "When it is angered, it immediately discharges the<br />energy stored in the pouches in its cheeks."
-	},
 
 	weaknesses: [{
 		type: "Fighting",

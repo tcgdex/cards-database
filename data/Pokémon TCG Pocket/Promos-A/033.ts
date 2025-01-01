@@ -5,37 +5,36 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lapras ex"
+		en: "Squirtle"
 	},
 
-	illustrator: "PLANETA CG Works",
-	rarity: "Four Diamond",
+	illustrator: "Kanako Eo",
+	rarity: "Three Diamond",
 	category: "Pokemon",
+	hp: 60,
 	types: ["Water"],
+
+	description: {
+		en: "When it retracts its long neck into its shell, it<br />squirts out water with vigorous force."
+	},
+
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bubble Drain"
+			en: "Water Gun"
 		},
 
-		cost: ["Water", "Water", "Colorless"],
-		damage: 80,
-
-		effect: {
-			en: "Heal 20 damage from this Pokémon."
-		}
+		damage: 20,
+		cost: ["Water"]
 	}],
-
-	hp: 140,
-	suffix: "EX",
 
 	weaknesses: [{
 		type: "Lightning",
 		value: "+20"
 	}],
 
-	retreat: 3
+	retreat: 1
 }
 
 export default card

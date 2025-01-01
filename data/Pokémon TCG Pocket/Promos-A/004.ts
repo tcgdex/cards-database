@@ -12,7 +12,7 @@ const card: Card = {
 	rarity: "One Diamond",
 	category: "Trainer",
 
-	description: {
+	effect: {
 		en: "Look at the top 3 cards of your deck."
 	},
 

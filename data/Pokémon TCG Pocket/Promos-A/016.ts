@@ -21,7 +21,20 @@ const card: Card = {
 
 		cost: ["Psychic"],
 		damage: 20
-	}]
+	}],
+
+	hp: 60,
+
+	description: {
+		en: "It is said that happiness will come to those who<br />see a gathering of Clefairy dancing under a<br />full moon."
+	},
+
+	weaknesses: [{
+		type: "Metal",
+		value: "+20"
+	}],
+
+	retreat: 1
 }
 
 export default card

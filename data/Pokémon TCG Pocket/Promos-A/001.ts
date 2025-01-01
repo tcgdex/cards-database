@@ -12,7 +12,7 @@ const card: Card = {
 	rarity: "One Diamond",
 	category: "Trainer",
 
-	description: {
+	effect: {
 		en: "Heal 20 damage from 1 of your Pokémon."
 	},
 

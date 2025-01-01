@@ -21,7 +21,20 @@ const card: Card = {
 
 		cost: ["Fighting", "Fighting", "Fighting"],
 		damage: 70
-	}]
+	}],
+
+	hp: 110,
+
+	description: {
+		en: "As it digs through the ground, it absorbs many<br />hard objects. This is what makes its body so solid."
+	},
+
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
+	retreat: 4
 }
 
 export default card

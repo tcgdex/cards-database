@@ -33,7 +33,24 @@ const card: Card = {
 
 		cost: ["Grass", "Colorless", "Colorless"],
 		damage: 60
-	}]
+	}],
+
+	hp: 120,
+
+	evolveFrom: {
+		en: "Metapod"
+	},
+
+	description: {
+		en: "In battle, it flaps its wings at great speed to<br />release highly toxic dust into the air."
+	},
+
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
+	retreat: 1
 }
 
 export default card

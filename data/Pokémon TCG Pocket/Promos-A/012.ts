@@ -23,9 +23,22 @@ const card: Card = {
 		damage: 10,
 
 		effect: {
-			en: "Draw 1 card."
+			en: "Draw a card."
 		}
-	}]
+	}],
+
+	hp: 60,
+
+	description: {
+		en: "All it does is sleep during the daytime. At night,<br />it patrols its territory with its eyes aglow."
+	},
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
+	retreat: 1
 }
 
 export default card

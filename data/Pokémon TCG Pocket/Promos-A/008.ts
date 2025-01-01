@@ -5,15 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poké Ball"
+		en: "Pokédex"
 	},
 
-	illustrator: "Ryo Ueda",
+	illustrator: "Yuu Nishida",
 	rarity: "One Diamond",
 	category: "Trainer",
 
 	effect: {
-		en: "Put 1 random Basic Pokémon from your deck into your hand."
+		en: "Look at the top 3 cards of your deck."
 	},
 
 	trainerType: "Item"

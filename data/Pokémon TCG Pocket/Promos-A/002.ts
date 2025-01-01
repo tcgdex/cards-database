@@ -12,8 +12,8 @@ const card: Card = {
 	rarity: "One Diamond",
 	category: "Trainer",
 
-	description: {
-		en: "During this turn, the Retreat Cost of your Active Pokémon is 1  less."
+	effect: {
+		en: "During this turn, the Retreat Cost of your Active Pokémon is 1 less."
 	},
 
 	trainerType: "Item"

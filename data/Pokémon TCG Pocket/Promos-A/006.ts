@@ -12,7 +12,7 @@ const card: Card = {
 	rarity: "One Diamond",
 	category: "Trainer",
 
-	description: {
+	effect: {
 		en: "Your opponent shuffles their hand into their deck and draws 3 cards."
 	},
 

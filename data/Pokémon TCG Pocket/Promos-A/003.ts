@@ -12,7 +12,7 @@ const card: Card = {
 	rarity: "One Diamond",
 	category: "Trainer",
 
-	description: {
+	effect: {
 		en: "Your opponent reveals their hand."
 	},
 
