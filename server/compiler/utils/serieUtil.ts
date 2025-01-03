@@ -53,10 +53,10 @@ export async function serieToSerieSimple(serie: Serie, lang: SupportedLanguages)
 
 export async function serieToSerieSingle(serie: Serie, lang: SupportedLanguages): Promise<SerieSingle> {
 	const setsTmp = await getSets(serie.name.en, lang)
-	const sets = await Promise.all(setsTmp
-		.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
-		.map((el) => setToSetSimple(el, lang)))
+	const sortedSetsTmp = setsTmp.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
+	const sets = await Promise.all(sortedSetsTmp.map((el) => setToSetSimple(el, lang)))
 	const logo = sets.find((set) => set.logo)?.logo
+	const releaseDate = sortedSetsTmp[0].releaseDate
 
 	// Final data
 	return {
@@ -65,6 +65,7 @@ export async function serieToSerieSingle(serie: Serie, lang: SupportedLanguages)
 		name: serie.name[lang] as string,
 		firstSet: sets[0],
 		lastSet: sets[sets.length - 1],
+		releaseDate: typeof releaseDate === 'object' ? releaseDate[lang] : releaseDate,
 		sets
 	}
 }
