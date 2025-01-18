@@ -20,7 +20,6 @@ ADD --chown=bun:bun . .
 
 # build
 RUN cd server && \
-	ls -la . && \
 	bun run compile
 
 # remove dev dependencies (bun do not yet support "prune")
