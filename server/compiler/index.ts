@@ -37,9 +37,9 @@ const DIST_FOLDER = './generated'
 			// final folder path
 			const folder = `${DIST_FOLDER}/${lang}`
 
-			console.log('files1:', await fs.readdir('.'))
-			console.log('files2:', await fs.readdir(DIST_FOLDER))
-			console.log('files3:', await fs.readdir(folder))
+			// console.log('files1:', await fs.readdir('.'))
+			// console.log('files2:', await fs.readdir(DIST_FOLDER))
+			// console.log('files3:', await fs.readdir(folder))
 
 			// Make the folder
 			await fs.mkdir(folder, { recursive: true })
