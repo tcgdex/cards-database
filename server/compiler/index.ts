@@ -1,5 +1,5 @@
 /* eslint-disable max-statements */
-import { promises as fs } from 'fs'
+import { existsSync, promises as fs } from 'fs'
 import { SupportedLanguages } from '../../interfaces'
 import { FileFunction } from './compilerInterfaces'
 import { fetchRemoteFile, loadLastEdits } from './utils/util'
@@ -45,7 +45,8 @@ const DIST_FOLDER = './generated'
 			try {
 				await fs.mkdir(folder, { recursive: true })
 			} catch {
-				console.log('files3:', await fs.readdir(folder))
+				// idk why it throws when file is present even if nodejs says it should not throw...
+				// maybe Bun changed how the throws works...
 			}
 
 			// Import the """Endpoint"""
