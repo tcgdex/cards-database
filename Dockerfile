@@ -5,27 +5,28 @@ WORKDIR /usr/src/app
 
 # Add git as it is used to fetch updated times
 RUN apk add git &&\
-git config --global safe.directory '*'
+	git config --global safe.directory '*'
 
 ADD --chown=bun:bun package.json bun.lockb ./
 ADD --chown=bun:bun server/package.json server/bun.lockb ./server/
 
 # install dependencies
 RUN bun install --frozen-lockfile && \
-cd server && \
-bun install --frozen-lockfile
+	cd server && \
+	bun install --frozen-lockfile
 
 # Add project files
 ADD --chown=bun:bun . .
 
 # build
 RUN cd server && \
-bun run compile
+	ls -la . && \
+	bun run compile
 
 # remove dev dependencies (bun do not yet support "prune")
 RUN cd server && \
-rm -rf node_modules && \
-bun install --frozen-install --production
+	rm -rf node_modules && \
+	bun install --frozen-install --production
 
 # go to another VM
 FROM docker.io/oven/bun:1-alpine AS prod
