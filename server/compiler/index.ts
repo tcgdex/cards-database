@@ -42,7 +42,7 @@ const DIST_FOLDER = './generated'
 			console.log('files3:', await fs.readdir(folder))
 
 			// Make the folder
-			await fs.mkdir(folder, {recursive: true })
+			await fs.mkdir(folder, { recursive: true })
 
 			// Import the """Endpoint"""
 			const fn = (await import(`./endpoints/${file}`)).default as FileFunction
