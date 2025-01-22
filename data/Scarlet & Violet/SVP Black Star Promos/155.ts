@@ -33,7 +33,7 @@ const card: Card = {
 
 		effect: {
 			en: "Shuffle up to 3 Basic Water Energy cards from your discard pile into your deck.",
-			fr: "Mélangez jusqu'à 3&nbsp;cartes Énergie&nbsp;Water de base de votre pile de défausse avec votre deck.",
+			fr: "Mélangez jusqu'à 3 cartes Énergie Water de base de votre pile de défausse avec votre deck.",
 			es: "Pon hasta 3 cartas de Energía Water Básica de tu pila de descartes en tu baraja y barájalas todas.",
 			it: "Rimischia fino a tre carte Energia base Water dalla tua pila degli scarti nel tuo mazzo.",
 			pt: "Embaralhe até 3 cartas de Energia Water Básica da sua pilha de descarte no seu baralho.",
