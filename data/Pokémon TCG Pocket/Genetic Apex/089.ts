@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Frogadier"
+	},
+
 
 	abilities: [{
 		type: "Ability",

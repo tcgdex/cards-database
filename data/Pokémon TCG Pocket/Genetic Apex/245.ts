@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 130,
 	types: ["Colorless"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Pidgeotto"
+	},
 
 	abilities: [{
 		type: "Ability",

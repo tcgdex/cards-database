@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Ekans"
+	},
+
 
 	attacks: [{
 		cost: ["Darkness", "Colorless"],

@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Fighting"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Machoke"
+	},
+
 
 	attacks: [{
 		cost: ["Fighting", "Fighting", "Fighting"],

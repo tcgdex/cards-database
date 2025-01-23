@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Nidoran♀"
+	},
+
 
 	attacks: [{
 		cost: ["Darkness"],

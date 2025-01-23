@@ -12,6 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Skiddo"
+	},
+
 
 	attacks: [{
 		cost: ["Grass", "Colorless", "Colorless"],

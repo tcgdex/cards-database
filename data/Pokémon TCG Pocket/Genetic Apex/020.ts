@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 140,
 	types: ["Grass"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Weepinbell"
+	},
 
 	abilities: [{
 		type: "Ability",

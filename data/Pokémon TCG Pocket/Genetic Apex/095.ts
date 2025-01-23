@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Lightning"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Pikachu"
+	},
+
 
 	attacks: [{
 		cost: ["Lightning", "Lightning", "Lightning"],

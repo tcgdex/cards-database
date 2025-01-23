@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 130,
 	types: ["Fighting"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Clobbopus"
+	},
+
 
 	attacks: [{
 		cost: ["Fighting", "Fighting", "Colorless"],
