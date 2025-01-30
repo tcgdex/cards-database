@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Grass"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Petilil"
+	},
+
 
 	attacks: [{
 		cost: ["Grass", "Grass"],

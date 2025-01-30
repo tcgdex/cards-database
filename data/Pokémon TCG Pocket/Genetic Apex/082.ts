@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Water"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Omanyte"
+	},
+
 
 	attacks: [{
 		cost: ["Water", "Colorless", "Colorless"],

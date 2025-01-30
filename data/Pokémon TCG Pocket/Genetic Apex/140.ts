@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Diglett"
+	},
+
 
 	attacks: [{
 		cost: ["Fighting"],

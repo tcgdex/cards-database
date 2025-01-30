@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Minccino"
+	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless", "Colorless"],

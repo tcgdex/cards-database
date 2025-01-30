@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 110,
 	types: ["Water"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Tentacool"
+	},
+
 
 	attacks: [{
 		cost: ["Water", "Colorless"],

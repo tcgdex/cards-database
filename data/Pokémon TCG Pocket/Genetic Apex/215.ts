@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Wooloo"
+	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless", "Colorless"],

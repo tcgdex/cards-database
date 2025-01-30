@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Zubat"
+	},
 
 	attacks: [{
 		cost: ["Colorless"],

@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Psychic"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Woobat"
+	},
+
 
 	attacks: [{
 		cost: ["Psychic", "Colorless"],

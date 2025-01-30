@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 80,
 	types: ["Colorless"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Pidgey"
+	},
 
 	attacks: [{
 		cost: ["Colorless"],

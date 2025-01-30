@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 150,
 	types: ["Darkness"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Nidorino"
+	},
 
 	attacks: [{
 		cost: ["Darkness", "Darkness", "Colorless"],

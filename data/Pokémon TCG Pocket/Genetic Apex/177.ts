@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 110,
 	types: ["Darkness"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Koffing"
+	},
 
 	abilities: [{
 		type: "Ability",

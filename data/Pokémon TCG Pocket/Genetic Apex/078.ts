@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Water"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Magikarp"
+	},
+
 
 	attacks: [{
 		cost: ["Water", "Water", "Water", "Water"],

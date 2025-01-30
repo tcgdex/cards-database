@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 90,
 	types: ["Metal"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Pawniard"
+	},
 
 	attacks: [{
 		cost: ["Metal", "Metal"],

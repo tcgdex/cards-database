@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 160,
 	types: ["Fighting"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Graveler"
+	},
+
 
 	attacks: [{
 		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],

@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 110,
 	types: ["Psychic"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Kirlia"
+	},
+
 
 	abilities: [{
 		type: "Ability",

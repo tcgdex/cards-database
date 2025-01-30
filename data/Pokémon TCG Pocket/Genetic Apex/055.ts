@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Water"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Wartortle"
+	},
+
 
 	attacks: [{
 		cost: ["Water", "Colorless"],
