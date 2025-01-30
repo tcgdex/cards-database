@@ -17,6 +17,7 @@ export interface SerieResume {
 export interface Serie extends SerieResume {
 	firstSet: SetResume;
 	lastSet: SetResume;
+	releaseDate: string;
 	sets: Array<SetResume>;
 }
 
