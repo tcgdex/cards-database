@@ -1,4 +1,4 @@
-import { objectKeys } from '@dzeio/object-util'
+import { objectKeys, objectMap } from '@dzeio/object-util'
 import { Set, SupportedLanguages } from '../../../interfaces'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
 import { cardToCardSimple, getCards } from './cardUtil'
@@ -101,6 +101,8 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 			id: set.serie.id,
 			name: set.serie.name[lang] as string
 		},
+		boosters: set.boosters ? objectMap(set.boosters, (v, k) => v[lang]) : undefined,
+		pullRates: set.pullRates,
 		symbol: pics[1],
 		tcgOnline: set.tcgOnline,
 		abbreviation: (set.abbreviations?.official || set.abbreviations?.[lang]) ? {

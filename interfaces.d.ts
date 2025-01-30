@@ -74,7 +74,23 @@ export interface Set {
 		official: number
 	}
 
+	/**
+	 * the names of the booster packs the set has
+	 */
+	boosters?: Record<string, Languages>
+
+	/**
+	 * list of pull rates by slot (from frontmost card to backmost card)
+	 */
+	pullRates?: Partial<Record<'normal' | 'godpack', Pull>>
+
+
 	releaseDate: ISODate | Languages<ISODate>
+}
+
+interface Pull {
+	slots: Array<Partial<Record<Card['rarity'], number>>>
+	rate: number
 }
 
 export interface Card {
@@ -87,6 +103,11 @@ export interface Card {
 	 * Card illustrator
 	 */
 	illustrator?: string
+
+	/**
+	 * indicate in which booster pack the card can be pulled
+	 */
+	boosters?: Array<string>
 
 	/**
 	 * Card Rarity

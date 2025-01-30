@@ -95,6 +95,11 @@ export interface Set extends SetResume {
 		 */
 		firstEd?: number;
 	};
+	boosters?: Array<string>
+	pullRates?: Partial<Record<'normal' | 'godpack', {
+		slots: Array<Partial<Record<Card['rarity'], number>>>
+		rate: number
+	}>>
 	cards: Array<CardResume>;
 	abbreviation: { official: string, localized: string };
 }
@@ -113,6 +118,26 @@ export interface CardResume {
  * /sets/:set/:localId
  */
 export interface Card extends CardResume {
+	/**
+	 * indicate in which booster the card is openable from
+	 *
+	 * note1: if boosters is empty (`length == 0`) the card is unobtainable from boosters (ex: `A1` Mew that is obtainable from an hidden mission)
+	 *
+	 * note2: if boosters is not set, the card is available in every boosters
+	 */
+	boosters?: Array<string>
+
+	pullRates?: Record<string, {
+		rate: number
+		/**
+		 * raw rate ignoring the type rate
+		 */
+		slots: Array<number>
+		/**
+		 * rate including the base rate
+		 */
+		total_slots: Array<number>
+	}>
 	/**
 	 * Card illustrator
 	 */
