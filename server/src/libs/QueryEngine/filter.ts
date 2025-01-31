@@ -118,7 +118,7 @@ export type QueryComparisonOperator<Value> = {
 	/**
 	 * the remote source value must be one of the proposed values
 	 */
-	$in: Array<Value>
+	$in: Array<Value> | Value
 } | {
 	/**
 	 * laxist validation of the remote value
@@ -350,7 +350,7 @@ function filterValue<T extends AllowedValues>(value: unknown, query: QueryValues
 	// loop through each keys of the query
 	// eslint-disable-next-line arrow-body-style
 	return objectLoop(query as any, (querySubValue: unknown, queryKey: string) => {
-		return filterItem(value, {[queryKey]: querySubValue } as QueryValues<T>)
+		return filterItem(value, { [queryKey]: querySubValue } as QueryValues<T>)
 	})
 }
 
@@ -388,6 +388,10 @@ function filterItem(value: any, query: QueryValues<AllowedValues>): boolean {
 			return query.toLowerCase() === value.toLowerCase()
 		}
 		return query === value
+	}
+
+	if (Array.isArray(value) && '$in' in query && !Array.isArray(query.$in)) {
+		return value.includes(query.$in)
 	}
 
 	/**

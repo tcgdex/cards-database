@@ -5,6 +5,7 @@ import type RFC7807 from './RFCs/RFC7807'
 export enum Errors {
 	LANGUAGE_INVALID = 'language-invalid',
 	NOT_FOUND = 'not-found',
+	INVALID_KEY = 'invalid-key',
 
 	GENERAL = 'general'
 }
@@ -12,6 +13,7 @@ export enum Errors {
 const titles: Record<Errors, string> = {
 	[Errors.LANGUAGE_INVALID]: 'The chosen language is not available in the database',
 	[Errors.NOT_FOUND]: 'The resource you are trying to reach does not exists',
+	[Errors.INVALID_KEY]: 'The key you used is not a valid format',
 
 	[Errors.GENERAL]: 'An unknown error occured, please contact a developper with this message'
 }
@@ -19,6 +21,7 @@ const titles: Record<Errors, string> = {
 const status: Record<Errors, number> = {
 	[Errors.LANGUAGE_INVALID]: 404,
 	[Errors.NOT_FOUND]: 404,
+	[Errors.INVALID_KEY]: 400,
 
 	[Errors.GENERAL]: 500
 }

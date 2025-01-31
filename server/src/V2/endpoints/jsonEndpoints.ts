@@ -253,7 +253,7 @@ server
 				}
 				result = {
 					name: id,
-					cards: Card.find(lang, { [endpointToField[endpoint]]: id })
+					cards: Card.find(lang, { [endpointToField[endpoint]]: { $eq: id } })
 						.map((c) => c.resume())
 				}
 		}

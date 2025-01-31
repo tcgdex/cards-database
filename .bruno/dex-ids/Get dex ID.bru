@@ -1,0 +1,16 @@
+meta {
+  name: Get dex ID
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/dex-ids/1
+  body: none
+  auth: none
+}
+
+assert {
+  res.body.cards.length: gte 18
+  res.body.name: eq '1'
+}

@@ -1,0 +1,19 @@
+meta {
+  name: Get dex ID 2
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards?dexId=eq:2
+  body: none
+  auth: none
+}
+
+params:query {
+  dexId: eq:2
+}
+
+assert {
+  res.body.length: gte 18
+}

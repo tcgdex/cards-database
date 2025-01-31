@@ -41,7 +41,7 @@ const cards = {
 	'zh-cn': zhcn,
 } as const
 
-type LocalCard = Omit<SDKCard, 'set'> & {set: () => TCGSet}
+type LocalCard = Omit<SDKCard, 'set'> & { set: () => TCGSet }
 
 interface variants {
 	normal?: boolean;
@@ -101,7 +101,10 @@ export default class Card implements LocalCard {
 	}
 
 	public static find(lang: SupportedLanguages, query: Query<SDKCard>) {
-		return executeQuery(Card.getAll(lang), query).data.map((it) => new Card(lang, it))
+		if (query.dexId) {
+			query.dexId = { $in: query.dexId }
+		}
+		return executeQuery(Card.getAll(lang), query, { debug: true }).data.map((it) => new Card(lang, it))
 	}
 
 	public static findOne(lang: SupportedLanguages, query: Query<SDKCard>) {
