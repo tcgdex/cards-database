@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
-	rarity: "Three Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fire"],

@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {

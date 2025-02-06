@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kanako Eo",
-	rarity: "Three Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],

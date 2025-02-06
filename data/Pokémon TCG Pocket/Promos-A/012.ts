@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
-	rarity: "Three Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Colorless"],
 	stage: "Basic",

@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kuroimori",
-	rarity: "One Star",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Grass"],
 	stage: "Stage2",

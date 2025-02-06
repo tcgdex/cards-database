@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Sanosuke Sakuma",
-	rarity: "Three Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Water"],
 	stage: "Stage2",

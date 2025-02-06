@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Tomokazu Komiya",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Fighting"],
 	stage: "Basic",

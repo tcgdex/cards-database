@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "En Morikura",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],
