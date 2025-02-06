@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 130,
 	types: ["Darkness"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Grimer"
+	},
 
 	attacks: [{
 		cost: ["Darkness", "Darkness", "Colorless"],

@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Tynamo"
+	},
+
 
 	attacks: [{
 		cost: ["Lightning"],

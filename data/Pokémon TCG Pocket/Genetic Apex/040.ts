@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Fire"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Growlithe"
+	},
+
 
 	attacks: [{
 		cost: ["Fire", "Fire", "Colorless"],

@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Kakuna"
+	},
 
 	attacks: [{
 		cost: ["Grass"],

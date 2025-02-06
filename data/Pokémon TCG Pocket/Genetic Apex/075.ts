@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Staryu"
+	},
+
 
 	attacks: [{
 		cost: ["Water"],

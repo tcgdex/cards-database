@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Kabuto"
+	},
+
 
 	attacks: [{
 		cost: ["Fighting"],

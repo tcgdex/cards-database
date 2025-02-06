@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 190,
 	types: ["Grass"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Ivysaur"
+	},
 	suffix: "EX",
 
 	attacks: [{

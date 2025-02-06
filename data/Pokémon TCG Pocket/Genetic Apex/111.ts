@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Lightning"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Helioptile"
+	},
+
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],

@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Fire"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Charmeleon"
+	},
+
 
 	attacks: [{
 		cost: ["Fire", "Fire", "Colorless", "Colorless"],

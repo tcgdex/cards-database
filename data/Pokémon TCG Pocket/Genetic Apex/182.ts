@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 130,
 	types: ["Metal"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Meltan"
+	},
 
 	abilities: [{
 		type: "Ability",
