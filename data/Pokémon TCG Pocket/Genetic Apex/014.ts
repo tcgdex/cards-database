@@ -11,7 +11,7 @@ const card: Card = {
 	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Fire"],
+	types: ["Grass"],
 	stage: "Basic",
 
 	attacks: [{

@@ -11,6 +11,7 @@ const card: Card = {
 	illustrator: "You Iribi",
 	category: "Pokemon",
 	hp: 120,
+	types: ["Grass"],
 	stage: "Stage1",
 	evolveFrom: {
 		en: "Skiddo"
