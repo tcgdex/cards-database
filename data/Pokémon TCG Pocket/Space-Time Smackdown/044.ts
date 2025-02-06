@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Ice Shard"
 		},
 
-		damage: 10,
+		damage: "10+",
 		cost: ["Water"],
 
 		effect: {

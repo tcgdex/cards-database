@@ -24,7 +24,7 @@ const card: Card = {
 			en: "Circle Circuit"
 		},
 
-		damage: 10,
+		damage: "10×",
 		cost: ["Lightning"],
 
 		effect: {

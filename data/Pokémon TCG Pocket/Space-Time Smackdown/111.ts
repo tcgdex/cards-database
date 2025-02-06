@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Metal Arms"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Metal"],
 
 		effect: {

@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Heat Breath"
 		},
 
-		damage: 30,
+		damage: "30+",
 		cost: ["Fire", "Colorless"],
 
 		effect: {

@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Triple Nose"
 		},
 
-		damage: 30,
+		damage: "30+",
 		cost: ["Metal", "Metal", "Metal", "Colorless"],
 
 		effect: {

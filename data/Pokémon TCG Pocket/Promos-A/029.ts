@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Hydro Pump"
 		},
 
-		damage: 80,
+		damage: "80+",
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {

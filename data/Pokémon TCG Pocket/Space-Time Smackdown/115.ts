@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Iron Head"
 		},
 
-		damage: 50,
+		damage: "50+",
 		cost: ["Metal", "Metal"],
 
 		effect: {

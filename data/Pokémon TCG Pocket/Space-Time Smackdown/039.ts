@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Jet Screw"
 		},
 
-		damage: 30,
+		damage: "30+",
 		cost: ["Water"],
 
 		effect: {

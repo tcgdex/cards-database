@@ -21,7 +21,7 @@ const card: Card = {
 			en: "Sparking Gadget"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Lightning", "Lightning"],
 
 		effect: {

@@ -24,7 +24,7 @@ const card: Card = {
 			en: "Revenge"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Fighting", "Colorless"],
 
 		effect: {

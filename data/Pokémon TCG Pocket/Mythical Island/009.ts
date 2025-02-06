@@ -24,7 +24,7 @@ const card: Card = {
 			en: "Energy Whip"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Grass"],
 
 		effect: {

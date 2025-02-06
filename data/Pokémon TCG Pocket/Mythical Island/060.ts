@@ -24,7 +24,7 @@ const card: Card = {
 			en: "Fighting Tackle"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {

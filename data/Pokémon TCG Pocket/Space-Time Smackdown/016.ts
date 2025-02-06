@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Leaf Cutter"
 		},
 
-		damage: 60,
+		damage: "60+",
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		effect: {

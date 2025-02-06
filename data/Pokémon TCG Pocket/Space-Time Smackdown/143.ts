@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Raging Hammer"
 		},
 
-		damage: 50,
+		damage: "50+",
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {

@@ -28,7 +28,7 @@ const card: Card = {
 			en: "Mind Jack"
 		},
 
-		damage: 10,
+		damage: "10+",
 		cost: ["Psychic"],
 
 		effect: {

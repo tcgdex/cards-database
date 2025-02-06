@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Double Scratch"
 		},
 
-		damage: 20,
+		damage: "20×",
 		cost: ["Darkness"],
 
 		effect: {

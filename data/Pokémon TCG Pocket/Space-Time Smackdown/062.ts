@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Assault Laser"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Colorless"],
 
 		effect: {

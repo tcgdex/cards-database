@@ -24,7 +24,7 @@ const card: Card = {
 			en: "Stomp"
 		},
 
-		damage: 10,
+		damage: "10+",
 		cost: ["Fire"],
 
 		effect: {

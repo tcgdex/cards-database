@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Double Hit"
 		},
 
-		damage: 40,
+		damage: "40×",
 		cost: ["Colorless"],
 
 		effect: {

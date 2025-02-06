@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Exciting Voltage"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Lightning", "Lightning"],
 
 		effect: {

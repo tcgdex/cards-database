@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Flog"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {

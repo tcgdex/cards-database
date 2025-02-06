@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Group Beatdown"
 		},
 
-		damage: 20,
+		damage: "20×",
 		cost: ["Darkness", "Darkness"],
 
 		effect: {

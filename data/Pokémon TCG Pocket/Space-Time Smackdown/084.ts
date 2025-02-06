@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Acrobatics"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Fighting"],
 
 		effect: {

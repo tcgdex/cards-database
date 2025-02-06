@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Cross Poison"
 		},
 
-		damage: 40,
+		damage: "40×",
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		effect: {
