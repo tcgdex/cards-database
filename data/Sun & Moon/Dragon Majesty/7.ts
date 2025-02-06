@@ -50,21 +50,7 @@ const card: Card = {
 			},
 			damage: "20×",
 
-		},
-		{
-			cost: [
-				"Fire",
-				"Fire",
-			],
-			name: {
-				fr: "Infinité",
-			},
-			effect: {
-				fr: "Cette attaque inflige 20 dégâts pour chaque carte Énergie de base dans votre pile de défausse. Mélangez ensuite ces cartes avec votre deck.",
-			},
-			damage: "20×",
-
-		},
+		}
 	],
 	weaknesses: [
 		{

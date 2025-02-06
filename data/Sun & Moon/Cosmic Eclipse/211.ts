@@ -97,19 +97,6 @@ const card: Card = {
 			damage: 50,
 
 		},
-		{
-			cost: [
-				"Grass",
-			],
-			name: {
-				fr: "Explosion Allergène-GX",
-			},
-			effect: {
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé, Empoisonné et Paralysé. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: 50,
-
-		},
 	],
 	weaknesses: [
 		{

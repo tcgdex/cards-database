@@ -87,18 +87,6 @@ const card: Card = {
 			}
 
 		},
-		{
-			cost: [
-				"Colorless",
-			],
-			name: {
-				fr: "Ordre Chaotique-GX",
-			},
-			effect: {
-				fr: "Tournez toutes vos cartes Récompense face découverte. (Ces cartes Récompense restent face découverte pour le reste de la partie.) Si au moins une Énergie Psychic supplémentaire et une Énergie Darkness supplémentaire sont attachées à ce Pokémon (en plus du coût de cette attaque), récupérez 2 cartes Récompense. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-
-		},
 	],
 	weaknesses: [
 		{
