@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Igarashi",
-	rarity: "Four Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],

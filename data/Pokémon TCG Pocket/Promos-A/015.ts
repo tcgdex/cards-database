@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Lightning"],
 	stage: "Basic",

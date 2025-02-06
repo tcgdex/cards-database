@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Krgc",
-	rarity: "One Star",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Psychic"],
 	stage: "Basic",

@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shibuzoh.",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Psychic"],
 	stage: "Basic",

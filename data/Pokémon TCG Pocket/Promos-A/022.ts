@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kurata So",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Colorless"],
 	stage: "Basic",

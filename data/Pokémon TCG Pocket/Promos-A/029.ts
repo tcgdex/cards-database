@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "danciao",
-	rarity: "One Star",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],

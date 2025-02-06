@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {

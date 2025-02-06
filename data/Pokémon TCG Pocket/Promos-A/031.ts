@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "MAHOU",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],

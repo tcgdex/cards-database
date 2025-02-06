@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "miki kudo",
-	rarity: "Three Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Grass"],
 	stage: "Stage2",

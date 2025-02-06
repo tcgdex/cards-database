@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Atsushi Furusawa",
-	rarity: "One Star",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Lightning"],
 	stage: "Basic",
