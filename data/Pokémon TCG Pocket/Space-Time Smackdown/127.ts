@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "State-of-the-art technology was used to create<br />Porygon. It was the first artificial Pokémon to be<br />created via computer programming."
+		en: "State-of-the-art technology was used to create Porygon. It was the first artificial Pokémon to be created via computer programming."
 	},
 
 	stage: "Basic",

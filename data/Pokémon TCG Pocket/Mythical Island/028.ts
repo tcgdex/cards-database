@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Joltik can be found clinging to other Pokémon.<br />It's soaking up static electricity because it can't<br />produce a charge on its own."
+		en: "Joltik can be found clinging to other Pokémon. It's soaking up static electricity because it can't produce a charge on its own."
 	},
 
 	stage: "Basic",

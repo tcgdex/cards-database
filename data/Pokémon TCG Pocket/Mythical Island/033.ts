@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Psychic power allows these Pokémon to fly. Some<br />say they were the guardians of an ancient city.<br />Others say they were the guardians' emissaries."
+		en: "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries."
 	},
 
 	stage: "Basic",

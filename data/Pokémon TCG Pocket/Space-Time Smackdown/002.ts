@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its pistils exude an incredibly foul odor.<br />The horrid stench can cause fainting at a distance<br />of 1.25 miles."
+		en: "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles."
 	},
 
 	stage: "Stage1",

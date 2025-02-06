@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Some say this Pokémon is a collection of souls<br />burdened with regrets, silently drifting through<br />the dusk."
+		en: "Some say this Pokémon is a collection of souls burdened with regrets, silently drifting through the dusk."
 	},
 
 	stage: "Stage1",

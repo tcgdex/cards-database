@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It is born with a wondrous power that lets it bond<br />with any kind of Pokémon."
+		en: "It is born with a wondrous power that lets it bond with any kind of Pokémon."
 	},
 
 	stage: "Basic",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It used to have a shell on its back long ago.<br />This species is closely related to Pokémon<br />like Shellder."
+		en: "It used to have a shell on its back long ago. This species is closely related to Pokémon like Shellder."
 	},
 
 	stage: "Basic",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "Its fiery rear end is fueled by gas made in its belly.<br />Even rain can't extinguish the fire."
+		en: "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire."
 	},
 
 	stage: "Basic",

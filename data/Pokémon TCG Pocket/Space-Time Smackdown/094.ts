@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It is surprisingly quick to anger. It holds its mouth<br />agape as a display of its strength."
+		en: "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength."
 	},
 
 	stage: "Stage1",

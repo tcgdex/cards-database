@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Known as \"The Being of Knowledge.\" It is said<br />that it can wipe out the memory of those who see<br />its eyes."
+		en: "Known as \"The Being of Knowledge.\" It is said that it can wipe out the memory of those who see its eyes."
 	},
 
 	stage: "Basic",

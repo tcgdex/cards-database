@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "The horns on its head provide a strong power<br />that enables it to sense people's emotions."
+		en: "The horns on its head provide a strong power that enables it to sense people's emotions."
 	},
 
 	stage: "Basic",

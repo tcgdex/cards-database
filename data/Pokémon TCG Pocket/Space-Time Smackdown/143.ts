@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It is said to have made Pokémon that look like<br />itself from a special ice mountain, rocks,<br />and magma."
+		en: "It is said to have made Pokémon that look like itself from a special ice mountain, rocks, and magma."
 	},
 
 	stage: "Basic",

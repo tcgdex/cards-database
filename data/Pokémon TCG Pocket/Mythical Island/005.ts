@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It moves along the ground as if sliding. Its swift<br />movements befuddle its foes, and it then attacks<br />with a vine whip."
+		en: "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip."
 	},
 
 	stage: "Stage1",

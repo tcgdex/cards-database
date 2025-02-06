@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Tangrowth has two arms that it can extend as it<br />pleases. Recent research has shown that these<br />arms are, in fact, bundles of vines."
+		en: "Tangrowth has two arms that it can extend as it pleases. Recent research has shown that these arms are, in fact, bundles of vines."
 	},
 
 	stage: "Stage1",

@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It has a psychic power that enables it to distort<br />the space around it and see into the future."
+		en: "It has a psychic power that enables it to distort the space around it and see into the future."
 	},
 
 	stage: "Stage1",

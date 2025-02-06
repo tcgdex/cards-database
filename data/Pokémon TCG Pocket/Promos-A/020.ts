@@ -34,7 +34,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It likes to lurk in the dark and tap shoulders<br />with a gaseous hand. Its touch causes endless<br />shuddering."
+		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering."
 	},
 
 	weaknesses: [{

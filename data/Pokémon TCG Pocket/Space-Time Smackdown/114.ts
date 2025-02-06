@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The bones of its face are huge and hard, so<br />they were mistaken for its spine until after this<br />Pokémon was successfully restored."
+		en: "The bones of its face are huge and hard, so they were mistaken for its spine until after this Pokémon was successfully restored."
 	},
 
 	stage: "Stage2",

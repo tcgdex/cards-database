@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It attacks by spraying a horribly smelly fluid from<br />the tip of its tail. Attacks from above confound it."
+		en: "It attacks by spraying a horribly smelly fluid from the tip of its tail. Attacks from above confound it."
 	},
 
 	stage: "Stage1",

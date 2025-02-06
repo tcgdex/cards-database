@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its appearance changes depending on where it<br />evolved. The materials on hand become a part of<br />its body."
+		en: "Its appearance changes depending on where it evolved. The materials on hand become a part of its body."
 	},
 
 	stage: "Stage1",

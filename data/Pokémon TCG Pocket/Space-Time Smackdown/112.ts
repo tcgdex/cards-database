@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "Registeel's body is made of a strange material<br />that is flexible enough to stretch and shrink but<br />also more durable than any metal."
+		en: "Registeel's body is made of a strange material that is flexible enough to stretch and shrink but also more durable than any metal."
 	},
 
 	stage: "Basic",

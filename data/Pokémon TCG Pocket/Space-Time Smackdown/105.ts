@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "After burrowing into the sand, it waits patiently<br />for prey to come near. This Pokémon and<br />Sizzlipede share common descent."
+		en: "After burrowing into the sand, it waits patiently for prey to come near. This Pokémon and Sizzlipede share common descent."
 	},
 
 	stage: "Basic",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Its legs are short. Whenever it stumbles, its stiff<br />antennae clack with a xylophone-like sound."
+		en: "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
 	},
 
 	stage: "Basic",

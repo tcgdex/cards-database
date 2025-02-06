@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "The lawn mower is one of the household<br />appliances that led to the development of<br />the Rotom Dex."
+		en: "The lawn mower is one of the household appliances that led to the development of the Rotom Dex."
 	},
 
 	stage: "Basic",

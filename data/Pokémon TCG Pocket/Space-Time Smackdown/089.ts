@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "In ancient times, people would dig up fossils of<br />this Pokémon and use its skull, which is harder<br />than steel, to make helmets."
+		en: "In ancient times, people would dig up fossils of this Pokémon and use its skull, which is harder than steel, to make helmets."
 	},
 
 	stage: "Stage2",

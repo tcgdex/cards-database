@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It steals things from people just to amuse itself<br />with their frustration. A rivalry exists between<br />this Pokémon and Nickit."
+		en: "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit."
 	},
 
 	stage: "Basic",

@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It's so strong that it can knock out some<br />opponents in a single hit, but it also may<br />forget what it's battling midfight."
+		en: "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight."
 	},
 
 	stage: "Basic",

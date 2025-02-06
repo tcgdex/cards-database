@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Lopunny is constantly monitoring its surroundings.<br />If danger approaches, this Pokémon responds<br />with superdestructive kicks."
+		en: "Lopunny is constantly monitoring its surroundings. If danger approaches, this Pokémon responds with superdestructive kicks."
 	},
 
 	stage: "Stage1",

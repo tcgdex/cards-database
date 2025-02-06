@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "An underpowered, pathetic Pokémon. It may<br />jump high on rare occasions but never more<br />than seven feet."
+		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet."
 	},
 
 	stage: "Basic",

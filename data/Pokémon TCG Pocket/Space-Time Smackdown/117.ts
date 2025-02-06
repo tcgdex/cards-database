@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "In ages past, this Pokémon was revered as a<br />bringer of rain. It was found buried in the ground."
+		en: "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground."
 	},
 
 	stage: "Stage1",

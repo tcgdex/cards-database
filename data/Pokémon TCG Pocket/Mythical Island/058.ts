@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The claws on its feet are well developed.<br />It can carry prey such as an Exeggcute<br />to its nest over 60 miles away."
+		en: "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away."
 	},
 
 	stage: "Stage1",

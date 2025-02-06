@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It sprays a foul fluid from its rear. Its stench<br />spreads over a mile radius, driving Pokémon<br />away."
+		en: "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away."
 	},
 
 	stage: "Basic",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Its eyes can see 360 degrees without moving its<br />head. It won't miss prey—even those behind it."
+		en: "Its eyes can see 360 degrees without moving its head. It won't miss prey—even those behind it."
 	},
 
 	stage: "Basic",

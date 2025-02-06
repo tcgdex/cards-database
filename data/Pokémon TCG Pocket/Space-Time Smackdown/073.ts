@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It is whispered that any child who mistakes<br />Drifloon for a balloon and holds on to it could<br />wind up missing."
+		en: "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing."
 	},
 
 	stage: "Basic",

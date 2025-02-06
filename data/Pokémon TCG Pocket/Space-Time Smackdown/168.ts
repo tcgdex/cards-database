@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Shiny particles are released from its wings like a<br />veil. It is said to represent the crescent moon."
+		en: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon."
 	},
 
 	stage: "Basic",

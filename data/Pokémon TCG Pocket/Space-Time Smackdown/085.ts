@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It launches kicks while spinning. If it spins at high<br />speed, it may bore its way into the ground."
+		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground."
 	},
 
 	stage: "Basic",

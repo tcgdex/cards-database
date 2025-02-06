@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "If exposed to moonlight, it starts to move.<br />It roams far and wide at night to scatter its seeds."
+		en: "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds."
 	},
 
 	stage: "Basic",

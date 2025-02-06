@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "These Pokémon are never seen anywhere near<br />conflict or turmoil. In recent times, they've hardly<br />been seen at all."
+		en: "These Pokémon are never seen anywhere near conflict or turmoil. In recent times, they've hardly been seen at all."
 	},
 
 	stage: "Stage2",

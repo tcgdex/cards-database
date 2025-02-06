@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its massive, jagged teeth can crush a<br />boulder in a single bite. This Pokémon<br />has an extremely vicious disposition."
+		en: "Its massive, jagged teeth can crush a boulder in a single bite. This Pokémon has an extremely vicious disposition."
 	},
 
 	stage: "Stage1",

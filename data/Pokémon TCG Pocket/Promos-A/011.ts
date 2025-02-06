@@ -26,7 +26,7 @@ const card: Card = {
 	hp: 120,
 
 	description: {
-		en: "This kindly Pokémon lays highly nutritious eggs<br />and shares them with injured Pokémon or people."
+		en: "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people."
 	},
 
 	weaknesses: [{

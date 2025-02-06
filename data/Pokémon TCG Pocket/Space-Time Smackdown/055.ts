@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The more energy it charges up, the faster<br />it gets. But this also makes it more likely<br />to explode."
+		en: "The more energy it charges up, the faster it gets. But this also makes it more likely to explode."
 	},
 
 	stage: "Stage1",

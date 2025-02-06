@@ -42,7 +42,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "In battle, it flaps its wings at great speed to<br />release highly toxic dust into the air."
+		en: "In battle, it flaps its wings at great speed to release highly toxic dust into the air."
 	},
 
 	weaknesses: [{

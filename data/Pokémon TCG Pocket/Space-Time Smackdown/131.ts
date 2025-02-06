@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It uses its tails for everything. If it wraps both<br />of its tails around you and gives you a squeeze,<br />that's proof it really likes you."
+		en: "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you."
 	},
 
 	stage: "Stage1",

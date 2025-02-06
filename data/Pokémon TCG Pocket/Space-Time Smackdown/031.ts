@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It rubs its snout on the ground to find and dig up<br />food. It sometimes discovers hot springs."
+		en: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
 	},
 
 	stage: "Basic",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Many power plants keep Ground-type Pokémon<br />around as a defense against Electabuzz that<br />come seeking electricity."
+		en: "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity."
 	},
 
 	stage: "Basic",

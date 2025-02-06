@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Although it can control its units known as<br />Mini-Noses, they sometimes get lost and don't<br />come back."
+		en: "Although it can control its units known as Mini-Noses, they sometimes get lost and don't come back."
 	},
 
 	stage: "Stage1",

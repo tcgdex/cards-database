@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It shuts its nostrils tight, then travels through sand<br />as if walking. They form colonies of around 10."
+		en: "It shuts its nostrils tight, then travels through sand as if walking. They form colonies of around 10."
 	},
 
 	stage: "Basic",

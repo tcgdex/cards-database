@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "It rolls to move. If the ground is uneven, a sudden<br />jolt from hitting a bump can cause it to explode."
+		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode."
 	},
 
 	stage: "Basic",

@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If it charges at an enemy, the hairs on its back<br />stand up straight. It is very sensitive to sound."
+		en: "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound."
 	},
 
 	stage: "Stage1",

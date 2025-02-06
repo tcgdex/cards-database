@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It chases people and Pokémon from its territory by<br />causing them to experience deep,<br />nightmarish slumbers."
+		en: "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers."
 	},
 
 	stage: "Basic",

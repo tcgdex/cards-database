@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Plentiful in the tropics. When it dances, its petals<br />rub together and make a pleasant ringing sound."
+		en: "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound."
 	},
 
 	stage: "Stage2",

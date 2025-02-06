@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Because it can use all kinds of moves, many<br />scientists believe Mew to be the ancestor<br />of Pokémon."
+		en: "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon."
 	},
 
 	stage: "Basic",

@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Its body is full of poisonous gas. It floats into<br />garbage dumps, seeking out the fumes of raw,<br />rotting trash."
+		en: "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash."
 	},
 
 	stage: "Basic",

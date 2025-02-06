@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Ancient people imagined that beneath the<br />ground dwelt a gigantic Torterra."
+		en: "Ancient people imagined that beneath the ground dwelt a gigantic Torterra."
 	},
 
 	stage: "Stage2",

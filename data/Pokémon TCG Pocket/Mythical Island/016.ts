@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Salazzle makes its opponents light-headed with<br />poisonous gas, then captivates them with alluring<br />movements to turn them into loyal servants."
+		en: "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants."
 	},
 
 	stage: "Stage1",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It can dissolve toxins in the air to instantly<br />transform ruined land into a lush field of flowers."
+		en: "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers."
 	},
 
 	stage: "Basic",

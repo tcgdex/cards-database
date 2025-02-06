@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "If it finds bad children who won't listen to their<br />parents, it will spirit them away—or so it's said."
+		en: "If it finds bad children who won't listen to their parents, it will spirit them away—or so it's said."
 	},
 
 	stage: "Basic",

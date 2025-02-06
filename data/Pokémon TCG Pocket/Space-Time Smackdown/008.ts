@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Its flowers give off a relaxing fragrance.<br />The stronger its aroma, the healthier<br />the Roselia is."
+		en: "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is."
 	},
 
 	stage: "Basic",

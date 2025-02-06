@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It observes prey while hanging inverted from<br />branches. When the chance presents itself,<br />it swoops!"
+		en: "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!"
 	},
 
 	stage: "Stage1",

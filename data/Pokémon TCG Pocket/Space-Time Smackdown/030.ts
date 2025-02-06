@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "If the convection microwave oven is not working<br />properly, then the Rotom inhabiting it will<br />become lethargic."
+		en: "If the convection microwave oven is not working properly, then the Rotom inhabiting it will become lethargic."
 	},
 
 	stage: "Basic",

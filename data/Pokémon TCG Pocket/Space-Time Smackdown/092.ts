@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It's said that no foe can remain invisible to<br />Lucario, since it can detect auras—even those<br />of foes it could not otherwise see."
+		en: "It's said that no foe can remain invisible to Lucario, since it can detect auras—even those of foes it could not otherwise see."
 	},
 
 	stage: "Stage1",

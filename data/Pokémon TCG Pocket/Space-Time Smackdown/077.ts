@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Known as \"The Being of Willpower.\" It sleeps at the<br />bottom of a lake to keep the world in balance."
+		en: "Known as \"The Being of Willpower.\" It sleeps at the bottom of a lake to keep the world in balance."
 	},
 
 	stage: "Basic",

@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Whenever a Beheeyem visits a farm,<br />a Dubwool mysteriously disappears."
+		en: "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears."
 	},
 
 	stage: "Stage1",

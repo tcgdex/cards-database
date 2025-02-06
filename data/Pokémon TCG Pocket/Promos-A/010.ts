@@ -30,7 +30,7 @@ const card: Card = {
 	hp: 120,
 
 	description: {
-		en: "It was created by a scientist after years of horrific<br />gene-splicing and DNA-engineering experiments."
+		en: "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments."
 	},
 
 	weaknesses: [{

@@ -26,7 +26,7 @@ const card: Card = {
 	hp: 70,
 
 	description: {
-		en: "There is a plant seed on its back right from the<br />day this Pokémon is born. The seed slowly<br />grows larger."
+		en: "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger."
 	},
 
 	weaknesses: [{
