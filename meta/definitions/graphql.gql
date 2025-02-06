@@ -254,7 +254,7 @@ type AttacksListItem {
 	effect: String
 
 	"""The attack name"""
-	name: String!
+	name: String
 }
 
 """
