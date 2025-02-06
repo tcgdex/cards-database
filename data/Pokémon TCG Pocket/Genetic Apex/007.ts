@@ -39,8 +39,17 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+	}
 }
 
 export default card

@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
+	}
 }
 
 export default card

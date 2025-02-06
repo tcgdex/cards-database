@@ -39,8 +39,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+	}
 }
 
 export default card

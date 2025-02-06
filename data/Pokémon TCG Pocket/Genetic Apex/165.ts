@@ -32,8 +32,17 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "The latest research has determined that there are over 20 possible arrangements of the patterns on its stomach.",
+	}
 }
 
 export default card

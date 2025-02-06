@@ -29,11 +29,20 @@ const card: Card = {
 			en: "Flip 4 coins. This attack does 40 damage for each heads."
 		},
 
-		damage: "40x"
+		damage: "40×"
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
 	}],
 
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
+	}
 }
 
 export default card

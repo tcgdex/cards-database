@@ -40,8 +40,17 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
+	}
 }
 
 export default card

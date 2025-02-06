@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "70"
 	}],
 
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
 	retreat: 4,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
+	}
 }
 
 export default card

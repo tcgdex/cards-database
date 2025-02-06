@@ -28,8 +28,18 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.",
+	}
 }
 
 export default card

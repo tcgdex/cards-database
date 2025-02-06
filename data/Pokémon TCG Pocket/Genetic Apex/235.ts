@@ -27,8 +27,17 @@ const card: Card = {
 		damage: "70"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 0,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	description: {
+		en: "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+	}
 }
 
 export default card

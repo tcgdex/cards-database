@@ -29,11 +29,20 @@ const card: Card = {
 			en: "Flip 2 coins. This attack does 100 damage for each heads."
 		},
 
-		damage: "100x"
+		damage: "100×"
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
 	}],
 
 	retreat: 4,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
+	}
 }
 
 export default card

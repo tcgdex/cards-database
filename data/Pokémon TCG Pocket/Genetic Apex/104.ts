@@ -34,7 +34,12 @@ const card: Card = {
 			en: "Flip 4 coins. This attack does 50 damage for each heads."
 		},
 
-		damage: "50x"
+		damage: "50×"
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
 	}],
 
 	retreat: 2,

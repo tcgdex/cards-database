@@ -27,8 +27,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "People say that it fled from its enemies by using its small webbed hind feet to swim from island to island in Alola.",
+	}
 }
 
 export default card

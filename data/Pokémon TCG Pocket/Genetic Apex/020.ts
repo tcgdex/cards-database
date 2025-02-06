@@ -39,8 +39,17 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+	}
 }
 
 export default card

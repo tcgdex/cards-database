@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "10"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+	}
 }
 
 export default card

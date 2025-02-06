@@ -36,8 +36,17 @@ const card: Card = {
 		damage: "20"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	description: {
+		en: "State-of-the-art technology was used to create Porygon. It was the first artificial Pokémon to be created via computer programming.",
+	}
 }
 
 export default card

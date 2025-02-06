@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+	}
 }
 
 export default card

@@ -25,11 +25,20 @@ const card: Card = {
 			en: "Flip 2 coins. This attack does 50 damage for each heads."
 		},
 
-		damage: "50x"
+		damage: "50×"
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
 	}],
 
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "These Pokémon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
+	}
 }
 
 export default card

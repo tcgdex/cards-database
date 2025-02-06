@@ -31,8 +31,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+	}
 }
 
 export default card

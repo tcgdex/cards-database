@@ -25,7 +25,11 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
+	}
 }
 
 export default card

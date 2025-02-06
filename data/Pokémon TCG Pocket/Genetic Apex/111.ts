@@ -32,8 +32,17 @@ const card: Card = {
 		damage: "40+"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "One Heliolisk basking in the sun with its frill outspread is all it would take to produce enough electricity to power a city.",
+	}
 }
 
 export default card

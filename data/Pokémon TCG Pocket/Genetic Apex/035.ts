@@ -32,8 +32,17 @@ const card: Card = {
 		damage: "150"
 	}],
 
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+	}
 }
 
 export default card

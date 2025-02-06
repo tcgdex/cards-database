@@ -26,8 +26,17 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [{
+		type: "Psychic",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "This amazing Pokémon has an awesome sense of balance. It can kick in succession from any position.",
+	}
 }
 
 export default card

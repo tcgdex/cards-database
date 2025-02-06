@@ -27,8 +27,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
+	}
 }
 
 export default card

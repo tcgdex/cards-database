@@ -26,8 +26,17 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
+	}
 }
 
 export default card

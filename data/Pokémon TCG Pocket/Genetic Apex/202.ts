@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people.",
+	}
 }
 
 export default card

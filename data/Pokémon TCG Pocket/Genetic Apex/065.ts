@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "90"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "It sunbathes on the beach after meals. The rise in its body temperature helps its digestion.",
+	}
 }
 
 export default card

@@ -32,8 +32,17 @@ const card: Card = {
 		damage: "110"
 	}],
 
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit.",
+	}
 }
 
 export default card

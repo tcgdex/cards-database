@@ -32,8 +32,17 @@ const card: Card = {
 		damage: "150"
 	}],
 
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
 	retreat: 4,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "When Golem grow old, they stop shedding their shells. Those that have lived a long, long time have shells green with moss.",
+	}
 }
 
 export default card

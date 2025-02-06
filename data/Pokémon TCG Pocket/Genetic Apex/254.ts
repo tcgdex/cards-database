@@ -32,6 +32,11 @@ const card: Card = {
 		damage: "120"
 	}],
 
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
 	retreat: 2,
 	rarity: "Two Star"
 }

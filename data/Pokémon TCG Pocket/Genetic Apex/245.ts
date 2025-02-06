@@ -39,8 +39,17 @@ const card: Card = {
 		damage: "70"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	description: {
+		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+	}
 }
 
 export default card

@@ -24,8 +24,18 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
+
 	retreat: 2,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "It remembers every dream it eats. It rarely eats the dreams of adults because children's are much tastier.",
+	}
 }
 
 export default card

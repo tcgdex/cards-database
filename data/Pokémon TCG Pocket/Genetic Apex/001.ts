@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+	}
 }
 
 export default card

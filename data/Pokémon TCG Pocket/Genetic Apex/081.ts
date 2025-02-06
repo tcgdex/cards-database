@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "Because some Omanyte manage to escape after being restored or are released into the wild by people, this species is becoming a problem.",
+	}
 }
 
 export default card

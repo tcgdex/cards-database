@@ -32,8 +32,17 @@ const card: Card = {
 		damage: "100"
 	}],
 
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+	}
 }
 
 export default card

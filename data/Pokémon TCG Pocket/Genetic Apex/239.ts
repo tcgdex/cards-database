@@ -26,8 +26,17 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	description: {
+		en: "When the memory of its departed mother brings it to tears, its cries echo mournfully within the skull it wears on its head.",
+	}
 }
 
 export default card

@@ -32,8 +32,17 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
+	}
 }
 
 export default card

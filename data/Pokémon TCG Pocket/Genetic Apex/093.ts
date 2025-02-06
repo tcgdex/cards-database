@@ -32,8 +32,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Metal",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "Frosmoth senses air currents with its antennae. It sends its scales drifting on frigid air, making them fall like snow.",
+	}
 }
 
 export default card

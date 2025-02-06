@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "100"
 	}],
 
+	weaknesses: [{
+		type: "Psychic",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+	}
 }
 
 export default card

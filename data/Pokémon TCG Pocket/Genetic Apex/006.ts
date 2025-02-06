@@ -27,8 +27,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack.",
+	}
 }
 
 export default card

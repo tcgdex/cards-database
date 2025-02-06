@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "50"
 	}],
 
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
+	}
 }
 
 export default card

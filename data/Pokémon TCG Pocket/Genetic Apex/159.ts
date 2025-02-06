@@ -32,8 +32,17 @@ const card: Card = {
 		damage: "50"
 	}],
 
+	weaknesses: [{
+		type: "Psychic",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pokémon.",
+	}
 }
 
 export default card
