@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 130,
 	types: ["Water"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Staryu"
+	},
+
 	suffix: "EX",
 
 	attacks: [{

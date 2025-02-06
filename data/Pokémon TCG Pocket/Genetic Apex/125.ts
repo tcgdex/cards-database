@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Drowzee"
+	},
+
 
 	abilities: [{
 		type: "Ability",

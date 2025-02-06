@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 100,
 	types: ["Dragon"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Dratini"
+	},
 
 	attacks: [{
 		cost: ["Water", "Lightning", "Colorless"],

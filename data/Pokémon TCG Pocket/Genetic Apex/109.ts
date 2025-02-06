@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Lightning"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Eelektrik"
+	},
+
 
 	attacks: [{
 		cost: ["Lightning", "Lightning", "Colorless"],

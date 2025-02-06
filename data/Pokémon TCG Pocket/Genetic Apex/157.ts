@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Fighting"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Rhyhorn"
+	},
+
 
 	attacks: [{
 		cost: ["Fighting", "Fighting", "Fighting", "Colorless"],

@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 180,
 	types: ["Fighting"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Machoke"
+	},
 	suffix: "EX",
 
 	attacks: [{

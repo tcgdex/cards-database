@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Krabby"
+	},
+
 
 	attacks: [{
 		cost: ["Water", "Water", "Colorless"],

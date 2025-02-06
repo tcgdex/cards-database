@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 100,
 	types: ["Fire"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Ponyta"
+	},
 
 	attacks: [{
 		cost: ["Fire"],

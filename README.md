@@ -31,7 +31,7 @@ A full documentation of the API is available at <https://tcgdex.dev>
 
 - The easiest way to interact with the database is by using one of our SDKs listed below.
 - You can also direcly use the endpoints at `api.tcgdex.net` (see the documentation).
-- You can build the API yourself by using our `Dockerfile` and using it on the port 3000
+- You can build the API yourself by using our `Dockerfile` and using it on the port 3000 (`docker-compose.yml` file included above)
 
 #### SDKs / API Wrappers
 

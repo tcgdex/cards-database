@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Paras"
+	},
 
 	attacks: [{
 		cost: ["Grass", "Grass", "Colorless"],
