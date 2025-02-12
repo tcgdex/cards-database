@@ -1,5 +1,6 @@
 import { Card } from "../../../interfaces"
 import Set from "../Genetic Apex"
+import { Pikachu } from "./boosters"
 
 const card: Card = {
 	set: Set,
@@ -30,7 +31,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Three Star"
+	rarity: "Three Star",
+	boosters: [Pikachu]
 }
 
 export default card

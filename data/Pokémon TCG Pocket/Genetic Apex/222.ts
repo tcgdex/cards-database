@@ -1,5 +1,6 @@
 import { Card } from "../../../interfaces"
 import Set from "../Genetic Apex"
+import { Mewtwo } from "./boosters"
 
 const card: Card = {
 	set: Set,
@@ -16,7 +17,8 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+	boosters: [Mewtwo]
 }
 
 export default card

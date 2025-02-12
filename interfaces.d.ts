@@ -16,6 +16,10 @@ export interface Serie {
 	energies?: Array<Types>
 }
 
+export interface Booster {
+	name: Languages
+}
+
 interface variants {
 	/**
 	 * Card base version
@@ -75,6 +79,9 @@ export interface Set {
 	}
 
 	releaseDate: ISODate | Languages<ISODate>
+
+	// Boosters of the set
+	boosters?: Array<Booster>
 }
 
 export interface Card {
@@ -292,6 +299,9 @@ export interface Card {
 	// Energy Only
 	energyType?: 'Normal' | // https://www.tcgdex.net/database/ecard/ecard1/160
 	'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
+
+	// Boosters where the card is lootable
+	boosters?: Array<Booster>
 }
 
 /**

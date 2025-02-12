@@ -1,5 +1,6 @@
 import { Card } from "../../../interfaces"
 import Set from "../Genetic Apex"
+import { Charizard } from "./boosters"
 
 const card: Card = {
 	set: Set,
@@ -28,7 +29,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+	boosters: [Charizard]
 }
 
 export default card
