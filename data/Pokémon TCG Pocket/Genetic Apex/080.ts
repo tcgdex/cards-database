@@ -1,6 +1,6 @@
 import { Card } from "../../../interfaces"
 import Set from "../Genetic Apex"
-import { Mewtwo } from "./boosters"
+import { Mewtwo } from "./Boosters"
 
 const card: Card = {
 	set: Set,

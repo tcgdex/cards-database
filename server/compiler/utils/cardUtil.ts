@@ -145,6 +145,9 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 		// get the card id
 		let id = items[2]
 		id = id.substring(0, id.lastIndexOf('.'))
+		if (id == 'Boosters') {
+			continue;
+		}
 
 		// get it's set name
 		const setName = items[1]

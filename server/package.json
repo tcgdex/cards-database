@@ -15,6 +15,7 @@
 		"@dzeio/queue": "^1",
 		"@sentry/node": "^8",
 		"@tcgdex/sdk": "^2",
+		"@tcgdex/server": "file:",
 		"apicache": "^1",
 		"express": "^4",
 		"graphql": "^15",
