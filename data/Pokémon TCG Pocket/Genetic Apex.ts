@@ -1,6 +1,6 @@
 import { Set } from '../../interfaces'
 import serie from '../Pokémon TCG Pocket'
-import { Mewtwo, Charizard, Pikachu } from './Genetic Apex/boosters'
+import { Mewtwo, Charizard, Pikachu } from './Genetic Apex/Boosters'
 
 const set: Set = {
 	id: "A1",
