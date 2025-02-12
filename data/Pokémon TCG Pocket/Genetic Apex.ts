@@ -1,5 +1,6 @@
-import { Booster, Set } from '../../interfaces'
+import { Set } from '../../interfaces'
 import serie from '../Pokémon TCG Pocket'
+import { Mewtwo, Charizard, Pikachu } from './Genetic Apex/boosters'
 
 const set: Set = {
 	id: "A1",
@@ -21,22 +22,7 @@ const set: Set = {
 
 	releaseDate: "2024-10-30",
 
-	boosters: [{
-		name: {
-			"en": "Mewtwo",
-			"fr": "Mewtwo"
-		}
-	}, {
-		name: {
-			"en": "Charizard",
-			"fr": "Dracaufeu"
-		}
-	}, {
-		name: {
-			"en": "Pikachu",
-			"fr": "Pikachu"
-		}
-	}]
+	boosters: [Mewtwo, Charizard, Pikachu]
 }
 
 export default set
