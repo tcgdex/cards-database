@@ -50,6 +50,9 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		name: card.name[lang] as string,
 
 		rarity: translate('rarity', card.rarity, lang) as any,
+		boosters: card.boosters?.map((b) => {
+			return b.name[lang] as string
+		}),
 		set: await setToSetSimple(card.set, lang),
 		variants: {
 			firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
@@ -58,7 +61,6 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : true,
 			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
 		},
-
 
 		dexId: card.dexId,
 		hp: card.hp,

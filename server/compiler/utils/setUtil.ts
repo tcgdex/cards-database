@@ -72,7 +72,8 @@ export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promis
 		id: set.id,
 		logo: pics[0],
 		name: set.name[lang] as string,
-		symbol: pics[1]
+		symbol: pics[1],
+		boosters: set.boosters?.map((booster) => booster.name[lang] as string)
 	}
 }
 
@@ -101,6 +102,7 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 			id: set.serie.id,
 			name: set.serie.name[lang] as string
 		},
+		boosters: set.boosters?.map((booster) => booster.name[lang] as string),
 		symbol: pics[1],
 		tcgOnline: set.tcgOnline,
 		abbreviation: (set.abbreviations?.official || set.abbreviations?.[lang]) ? {
