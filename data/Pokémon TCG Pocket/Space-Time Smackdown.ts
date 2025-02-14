@@ -1,5 +1,6 @@
 import { Set } from '../../interfaces'
 import serie from '../Pokémon TCG Pocket'
+import { Dialga, Palkia } from './Space-Time Smackdown/Boosters'
 
 const set: Set = {
 	id: "A2",
@@ -8,7 +9,7 @@ const set: Set = {
 		// de: "Unschlagbare Gene",
 		en: "Space-Time Smackdown",
 		// es: "Genes Formidables",
-		// fr: "Puissance Génétique",
+		fr: "Choc Spatio-Temporel",
 		// it: "Geni Supremi",
 		// pt: "Dominação Genética"
 	},
@@ -19,7 +20,9 @@ const set: Set = {
 		official: 140
 	},
 
-	releaseDate: "2025-01-30"
+	releaseDate: "2025-01-30",
+
+	boosters: [Dialga, Palkia]
 }
 
 export default set

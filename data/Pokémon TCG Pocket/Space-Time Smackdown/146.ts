@@ -1,5 +1,6 @@
 import { Card } from "../../../interfaces"
 import Set from "../Space-Time Smackdown"
+import { Dialga } from "./Boosters"
 
 const card: Card = {
 	set: Set,
@@ -16,7 +17,9 @@ const card: Card = {
 		en: "Choose a Pokémon in your hand and switch it with a random Pokémon in your deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	
+	boosters: [Dialga]
 }
 
 export default card

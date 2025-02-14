@@ -1,5 +1,6 @@
 import { Card } from "../../../interfaces"
 import Set from "../Space-Time Smackdown"
+import { Dialga, Palkia } from "./Boosters"
 
 const card: Card = {
 	set: Set,
@@ -46,7 +47,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	
+	boosters: [Dialga, Palkia]
 }
 
 export default card
