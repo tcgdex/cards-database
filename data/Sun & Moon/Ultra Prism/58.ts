@@ -72,23 +72,7 @@ const card: Card = {
 			},
 			damage: 160,
 
-		},
-		{
-			cost: [
-				"Psychic",
-				"Psychic",
-				"Psychic",
-				"Psychic",
-			],
-			name: {
-				fr: "Plongeon Critique",
-			},
-			effect: {
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
-			},
-			damage: 160,
-
-		},
+		}
 	],
 	weaknesses: [
 		{

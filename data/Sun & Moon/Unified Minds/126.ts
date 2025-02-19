@@ -80,24 +80,7 @@ const card: Card = {
 			},
 			damage: 250,
 
-		},
-		{
-			cost: [
-				"Darkness",
-				"Darkness",
-				"Darkness",
-				"Darkness",
-				"Colorless",
-			],
-			name: {
-				fr: "Chute Giga-GX",
-			},
-			effect: {
-				fr: "Si au moins 5 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), défaussez les 15 cartes du dessus du deck de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: 250,
-
-		},
+		}
 	],
 	weaknesses: [
 		{

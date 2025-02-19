@@ -71,22 +71,7 @@ const card: Card = {
 			},
 			damage: 200,
 
-		},
-		{
-			cost: [
-				"Psychic",
-				"Psychic",
-				"Colorless",
-			],
-			name: {
-				fr: "Duo Miraculeux-GX",
-			},
-			effect: {
-				fr: "Si au moins une Énergie supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), soignez tous les dégâts de vos Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: 200,
-
-		},
+		}
 	],
 	weaknesses: [
 		{

@@ -71,22 +71,7 @@ const card: Card = {
 			},
 			damage: 100,
 
-		},
-		{
-			cost: [
-				"Water",
-				"Water",
-				"Water",
-			],
-			name: {
-				fr: "Sauna Explosif",
-			},
-			effect: {
-				fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			},
-			damage: 100,
-
-		},
+		}
 	],
 	weaknesses: [
 		{
