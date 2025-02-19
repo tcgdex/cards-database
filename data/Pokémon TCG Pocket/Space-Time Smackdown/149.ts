@@ -1,5 +1,6 @@
 import { Card } from "../../../interfaces"
 import Set from "../Space-Time Smackdown"
+import { Palkia } from "./Boosters"
 
 const card: Card = {
 	set: Set,
@@ -16,7 +17,9 @@ const card: Card = {
 		en: "At the end of each turn, if the Pokémon this card is attached to is affected by any Special Conditions, it recovers from all of them, and discard this card."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+		
+	boosters: [Palkia]
 }
 
 export default card

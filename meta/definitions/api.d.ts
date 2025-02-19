@@ -44,6 +44,7 @@ export interface SetResume {
 		 */
 		official: number;
 	};
+	boosters: Array<string>;
 }
 
 /**
@@ -129,6 +130,7 @@ export interface Card extends CardResume {
 	 * - Secret Rare
 	 */
 	rarity: string;
+	boosters: Array<string>;
 	/**
 	 * Card Category
 	 *

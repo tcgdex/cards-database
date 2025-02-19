@@ -1,5 +1,6 @@
 import { Card } from "../../../interfaces"
 import Set from "../Space-Time Smackdown"
+import { Palkia } from "./Boosters"
 
 const card: Card = {
 	set: Set,
@@ -16,7 +17,9 @@ const card: Card = {
 		en: "Switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+		
+	boosters: [Palkia]
 }
 
 export default card

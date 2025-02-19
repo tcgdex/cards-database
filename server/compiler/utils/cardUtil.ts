@@ -50,6 +50,9 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		name: card.name[lang] as string,
 
 		rarity: translate('rarity', card.rarity, lang) as any,
+		boosters: card.boosters?.map((b) => {
+			return b.name[lang] as string
+		}),
 		set: await setToSetSimple(card.set, lang),
 		variants: {
 			firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
@@ -58,7 +61,6 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : true,
 			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
 		},
-
 
 		dexId: card.dexId,
 		hp: card.hp,
@@ -145,6 +147,9 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 		// get the card id
 		let id = items[2]
 		id = id.substring(0, id.lastIndexOf('.'))
+		if (id == 'Boosters') {
+			continue;
+		}
 
 		// get it's set name
 		const setName = items[1]

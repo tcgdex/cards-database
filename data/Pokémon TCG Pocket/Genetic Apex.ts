@@ -1,5 +1,6 @@
 import { Set } from '../../interfaces'
 import serie from '../Pokémon TCG Pocket'
+import { Mewtwo, Charizard, Pikachu } from './Genetic Apex/Boosters'
 
 const set: Set = {
 	id: "A1",
@@ -19,7 +20,9 @@ const set: Set = {
 		official: 226
 	},
 
-	releaseDate: "2024-10-30"
+	releaseDate: "2024-10-30",
+
+	boosters: [Mewtwo, Charizard, Pikachu]
 }
 
 export default set
