@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Psychic",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.",
+	}
 }
 
 export default card

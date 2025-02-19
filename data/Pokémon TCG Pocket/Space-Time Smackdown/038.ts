@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It spins its two tails like a screw to propel itself<br />through water. The tails also slice clinging<br />seaweed."
+		en: "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed."
 	},
 
 	stage: "Basic",

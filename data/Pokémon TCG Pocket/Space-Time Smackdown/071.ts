@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It seeks drifting will-o'-the-wisps and sucks them<br />into its empty body. What happens inside is<br />a mystery."
+		en: "It seeks drifting will-o'-the-wisps and sucks them into its empty body. What happens inside is a mystery."
 	},
 
 	stage: "Stage1",

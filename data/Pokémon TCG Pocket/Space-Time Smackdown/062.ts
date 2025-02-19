@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Its electricity-like body can enter some kinds<br />of machines and take control in order to make<br />mischief."
+		en: "Its electricity-like body can enter some kinds of machines and take control in order to make mischief."
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Assault Laser"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Colorless"],
 
 		effect: {

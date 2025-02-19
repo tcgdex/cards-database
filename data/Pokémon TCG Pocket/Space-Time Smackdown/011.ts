@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It lives along water in forests. In the daytime,<br />it leaves the forest to sunbathe its treed shell."
+		en: "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell."
 	},
 
 	stage: "Stage1",

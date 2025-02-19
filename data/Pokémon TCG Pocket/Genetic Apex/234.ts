@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	description: {
+		en: "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
+	}
 }
 
 export default card

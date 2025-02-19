@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "70"
 	}],
 
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "The drier the area Sandslash lives in, the harder and smoother the Pokémon's spikes will feel when touched.",
+	}
 }
 
 export default card

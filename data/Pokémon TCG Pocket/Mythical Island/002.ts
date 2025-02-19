@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Each of Exeggutor's three heads is thinking<br />different thoughts. The three don't seem to be<br />very interested in one another."
+		en: "Each of Exeggutor's three heads is thinking different thoughts. The three don't seem to be very interested in one another."
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 			en: "Psychic"
 		},
 
-		damage: 80,
+		damage: "80+",
 		cost: ["Grass", "Colorless", "Colorless", "Colorless"],
 
 		effect: {

@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It mimics the cries of other Pokémon to trick them<br />into thinking it's one of them. This way they won't<br />attack it."
+		en: "It mimics the cries of other Pokémon to trick them into thinking it's one of them. This way they won't attack it."
 	},
 
 	stage: "Basic",

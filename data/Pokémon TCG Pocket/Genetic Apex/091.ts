@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "It grinds its teeth with great force to stimulate its brain. It fires the psychic energy created by this process from the protuberance on its head.",
+	}
 }
 
 export default card

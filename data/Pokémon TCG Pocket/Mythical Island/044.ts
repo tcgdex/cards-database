@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It climbs up cliffs as it heads toward the peak<br />of a mountain. As soon as it reaches the summit,<br />it rolls back down the way it came."
+		en: "It climbs up cliffs as it heads toward the peak of a mountain. As soon as it reaches the summit, it rolls back down the way it came."
 	},
 
 	stage: "Stage1",

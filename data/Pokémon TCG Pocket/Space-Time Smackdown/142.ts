@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "This Rotom has entered an electric fan. It smirks<br />with satisfaction over a prank well pulled after it<br />blows away everything around it."
+		en: "This Rotom has entered an electric fan. It smirks with satisfaction over a prank well pulled after it blows away everything around it."
 	},
 
 	stage: "Basic",

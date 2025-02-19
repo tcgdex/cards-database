@@ -30,8 +30,17 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
+	}
 }
 
 export default card

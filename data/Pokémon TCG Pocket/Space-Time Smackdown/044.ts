@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "During cold seasons, it migrates to the<br />mountain's lower reaches. It returns to the<br />snow-covered summit in the spring."
+		en: "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring."
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Ice Shard"
 		},
 
-		damage: 10,
+		damage: "10+",
 		cost: ["Water"],
 
 		effect: {

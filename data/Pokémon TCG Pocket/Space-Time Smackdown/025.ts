@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "A common sight in volcanic areas, it slowly slithers<br />around in a constant search for warm places."
+		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places."
 	},
 
 	stage: "Basic",

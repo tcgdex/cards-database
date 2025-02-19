@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It crushes its foe under its heavy body to cause<br />fainting. In a pinch, it will withdraw inside its shell."
+		en: "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell."
 	},
 
 	stage: "Stage2",
@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Hydro Pump"
 		},
 
-		damage: 80,
+		damage: "80+",
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {

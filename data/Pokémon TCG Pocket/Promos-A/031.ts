@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its body secretes oil that this Pokémon spreads<br />over its nest as a coating to protect it from dust.<br />Cinccino won't tolerate even a speck of the stuff."
+		en: "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff."
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Do the Wave"
 		},
 
-		damage: 30,
+		damage: "30×",
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {

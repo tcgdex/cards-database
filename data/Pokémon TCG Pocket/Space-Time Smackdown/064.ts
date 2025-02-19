@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "They say that it will appear before kindhearted,<br />caring people and shower them with happiness."
+		en: "They say that it will appear before kindhearted, caring people and shower them with happiness."
 	},
 
 	stage: "Stage1",

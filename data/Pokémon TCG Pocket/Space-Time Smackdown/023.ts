@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "Magmar dispatches its prey with fire. But it<br />regrets this habit once it realizes that it has<br />burned its intended prey to a charred crisp."
+		en: "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp."
 	},
 
 	stage: "Basic",

@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When Magmortar inhales deeply, the fire burning<br />in its belly intensifies, rising in temperature to<br />over 3,600 degrees Fahrenheit."
+		en: "When Magmortar inhales deeply, the fire burning in its belly intensifies, rising in temperature to over 3,600 degrees Fahrenheit."
 	},
 
 	stage: "Stage1",

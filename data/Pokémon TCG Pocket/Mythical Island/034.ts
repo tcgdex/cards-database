@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "If this Pokémon stands near a TV, strange scenery<br />will appear on the screen. That scenery is said<br />to be from its home."
+		en: "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home."
 	},
 
 	stage: "Basic",

@@ -32,8 +32,17 @@ const card: Card = {
 		damage: "80"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+	}
 }
 
 export default card

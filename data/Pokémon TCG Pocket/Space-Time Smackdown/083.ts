@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It usually clings to cliffs. When it spots its prey,<br />it spreads its wings and glides down to attack."
+		en: "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack."
 	},
 
 	stage: "Basic",

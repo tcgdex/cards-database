@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "The horn on its head has atrophied. It's thought that this happens so Nidorina's children won't get poked while their mother is feeding them.",
+	}
 }
 
 export default card

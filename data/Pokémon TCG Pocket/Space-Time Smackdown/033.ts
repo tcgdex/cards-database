@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon can be spotted in wall paintings<br />from as far back as 10,000 years ago. For a<br />while, it was thought to have gone extinct."
+		en: "This Pokémon can be spotted in wall paintings from as far back as 10,000 years ago. For a while, it was thought to have gone extinct."
 	},
 
 	stage: "Stage2",

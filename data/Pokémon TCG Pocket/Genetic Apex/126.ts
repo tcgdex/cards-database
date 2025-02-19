@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "The broadness of its hands may be no coincidence—many scientists believe its palms became enlarged specifically for pantomiming.",
+	}
 }
 
 export default card

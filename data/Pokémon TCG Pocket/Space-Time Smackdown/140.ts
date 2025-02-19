@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It would claim another Pokémon's nest as its own<br />if it finds a nest sufficiently comfortable."
+		en: "It would claim another Pokémon's nest as its own if it finds a nest sufficiently comfortable."
 	},
 
 	stage: "Stage1",

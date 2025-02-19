@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Porygon-Z had a program installed to allow it to<br />move between dimensions, but the program also<br />caused instability in Porygon-Z's behavior."
+		en: "Porygon-Z had a program installed to allow it to move between dimensions, but the program also caused instability in Porygon-Z's behavior."
 	},
 
 	stage: "Stage2",

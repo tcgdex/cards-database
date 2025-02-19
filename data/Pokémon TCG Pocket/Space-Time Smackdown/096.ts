@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Feared and loathed by many, it is believed to<br />bring misfortune to all those who see it at night."
+		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night."
 	},
 
 	stage: "Basic",

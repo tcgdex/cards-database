@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "20"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "Though it may look like it's just a bunch of eggs, it's a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
+	}
 }
 
 export default card

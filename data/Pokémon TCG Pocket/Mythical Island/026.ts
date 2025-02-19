@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its tail discharges electricity into the ground,<br />protecting it from getting shocked."
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked."
 	},
 
 	stage: "Stage1",

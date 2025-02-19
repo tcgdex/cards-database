@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "To shelter itself from cold, wintry winds, it covers<br />itself with a cloak made of twigs and leaves."
+		en: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves."
 	},
 
 	stage: "Basic",

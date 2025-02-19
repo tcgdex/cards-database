@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It can control its body temperature at will.<br />This enables it to freeze the moisture in the<br />atmosphere, creating flurries of diamond dust."
+		en: "It can control its body temperature at will. This enables it to freeze the moisture in the atmosphere, creating flurries of diamond dust."
 	},
 
 	stage: "Stage1",

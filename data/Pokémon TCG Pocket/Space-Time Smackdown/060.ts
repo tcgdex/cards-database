@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It can see clearly through walls to track down its<br />prey and seek its lost young."
+		en: "It can see clearly through walls to track down its prey and seek its lost young."
 	},
 
 	stage: "Stage2",

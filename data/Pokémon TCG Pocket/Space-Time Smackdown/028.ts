@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It skillfully controls the intensity of the fire on its<br />tail to keep its foes at an ideal distance."
+		en: "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance."
 	},
 
 	stage: "Stage1",

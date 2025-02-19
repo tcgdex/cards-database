@@ -42,7 +42,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It creates throwing stars out of compressed water. <br />When it spins them and throws them at high speed, <br />these stars can split metal in two."
+		en: "It creates throwing stars out of compressed water.  When it spins them and throws them at high speed,  these stars can split metal in two."
 	},
 
 	weaknesses: [{

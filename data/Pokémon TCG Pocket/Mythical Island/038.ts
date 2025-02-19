@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon creates an impressive flower<br />garden in its territory. It draws forth the power<br />of the red flowers around its neck."
+		en: "This Pokémon creates an impressive flower garden in its territory. It draws forth the power of the red flowers around its neck."
 	},
 
 	stage: "Stage2",

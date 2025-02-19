@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "20"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	description: {
+		en: "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
+	}
 }
 
 export default card

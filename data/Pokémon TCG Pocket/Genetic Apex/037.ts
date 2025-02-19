@@ -26,8 +26,17 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
+	}
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It lives in groups in the treetops. If it loses sight of<br />its group, it becomes infuriated by its loneliness."
+		en: "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness."
 	},
 
 	stage: "Basic",

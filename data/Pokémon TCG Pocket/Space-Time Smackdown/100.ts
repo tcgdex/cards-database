@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "A Pokémon with a persistent nature, it chases its<br />chosen prey until the prey becomes exhausted."
+		en: "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted."
 	},
 
 	stage: "Basic",

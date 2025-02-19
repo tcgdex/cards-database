@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "After captivating opponents with its sweet scent,<br />it lashes them with its thorny whips."
+		en: "After captivating opponents with its sweet scent, it lashes them with its thorny whips."
 	},
 
 	stage: "Stage1",

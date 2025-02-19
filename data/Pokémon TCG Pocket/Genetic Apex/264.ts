@@ -29,7 +29,12 @@ const card: Card = {
 			en: "Flip 2 coins. This attack does 80 damage for each heads."
 		},
 
-		damage: "80x"
+		damage: "80×"
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
 	}],
 
 	retreat: 1,

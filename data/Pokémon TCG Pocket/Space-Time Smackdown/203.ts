@@ -26,7 +26,7 @@ const card: Card = {
 			en: "Licking Fury"
 		},
 
-		damage: 100,
+		damage: "100+",
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {

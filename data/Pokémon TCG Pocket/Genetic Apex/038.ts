@@ -32,8 +32,18 @@ const card: Card = {
 		damage: "90"
 	}],
 
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
+	},
+
 }
 
 export default card

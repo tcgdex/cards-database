@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon spins itself rapidly and charges into<br />its opponents. Its top speed is just over 60 mph."
+		en: "This Pokémon spins itself rapidly and charges into its opponents. Its top speed is just over 60 mph."
 	},
 
 	stage: "Stage1",

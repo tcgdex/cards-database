@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its poison is potent, but it rarely sees use. This<br />Pokémon prefers to use physical force instead,<br />going on rampages with its car-crushing strength."
+		en: "Its poison is potent, but it rarely sees use. This Pokémon prefers to use physical force instead, going on rampages with its car-crushing strength."
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Cross Poison"
 		},
 
-		damage: 40,
+		damage: "40×",
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		effect: {

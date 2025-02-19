@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "With its flotation sac inflated, it can carry people<br />on its back. It deflates the sac before it dives."
+		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives."
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Jet Screw"
 		},
 
-		damage: 30,
+		damage: "30+",
 		cost: ["Water"],
 
 		effect: {

@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It begins walking on its hind legs after evolution.<br />It can punch holes through boulders with its horn."
+		en: "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn."
 	},
 
 	stage: "Stage1",

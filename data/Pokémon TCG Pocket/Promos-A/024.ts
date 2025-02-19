@@ -26,7 +26,7 @@ const card: Card = {
 	hp: 60,
 
 	description: {
-		en: "The electromagnetic waves emitted by the units<br />at the sides of its head expel antigravity, which<br />allows it to float."
+		en: "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float."
 	},
 
 	weaknesses: [{

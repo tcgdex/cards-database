@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "As it did more and more with its tail, its hands<br />became clumsy. It makes its nest high in<br />the treetops."
+		en: "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops."
 	},
 
 	stage: "Basic",

@@ -26,7 +26,7 @@ const card: Card = {
 			en: "Energized Blade"
 		},
 
-		damage: 70,
+		damage: "70+",
 		cost: ["Fighting", "Fighting"],
 
 		effect: {

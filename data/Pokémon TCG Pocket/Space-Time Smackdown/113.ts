@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A mild-mannered, herbivorous Pokémon, it used<br />its face to dig up tree roots to eat. The skin on<br />its face was plenty tough."
+		en: "A mild-mannered, herbivorous Pokémon, it used its face to dig up tree roots to eat. The skin on its face was plenty tough."
 	},
 
 	stage: "Stage1",

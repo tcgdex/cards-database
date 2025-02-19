@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Strong, but not too bright, this Pokémon can<br />shatter even a skyscraper with its charging tackles."
+		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles."
 	},
 
 	stage: "Basic",

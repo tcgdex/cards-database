@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its appearance changes depending on where it<br />evolved. The materials on hand become a part of<br />its body."
+		en: "Its appearance changes depending on where it evolved. The materials on hand become a part of its body."
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Iron Head"
 		},
 
-		damage: 50,
+		damage: "50+",
 		cost: ["Metal", "Metal"],
 
 		effect: {

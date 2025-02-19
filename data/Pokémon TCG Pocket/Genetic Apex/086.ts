@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "70"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+	}
 }
 
 export default card

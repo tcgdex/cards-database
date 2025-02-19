@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "This Rotom has entered a refrigerator. It leaps<br />around gleefully after it uses cold air to freeze<br />the area around it."
+		en: "This Rotom has entered a refrigerator. It leaps around gleefully after it uses cold air to freeze the area around it."
 	},
 
 	stage: "Basic",

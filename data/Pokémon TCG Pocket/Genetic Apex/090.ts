@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "It lives in warm, shallow waters. If it encounters a foe, it will spit out its internal organs as a means to punch them.",
+	}
 }
 
 export default card

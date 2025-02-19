@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "With nerves of steel, nothing can perturb it. It is<br />more agile and active than it appears."
+		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears."
 	},
 
 	stage: "Basic",

@@ -26,7 +26,7 @@ const card: Card = {
 			en: "Scratching Nails"
 		},
 
-		damage: 30,
+		damage: "30+",
 		cost: ["Darkness"],
 
 		effect: {

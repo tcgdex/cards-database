@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It uses its whole body to photosynthesize when<br />exposed to sunlight. Its shell is made from<br />hardened soil."
+		en: "It uses its whole body to photosynthesize when exposed to sunlight. Its shell is made from hardened soil."
 	},
 
 	stage: "Basic",

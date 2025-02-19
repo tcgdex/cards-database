@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "After a piece of seaweed merged with debris<br />from a sunken ship, it was reborn as this<br />ghost Pokémon."
+		en: "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon."
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			en: "Energy Whip"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Grass"],
 
 		effect: {

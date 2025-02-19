@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It will always obey the commands of a skilled<br />Trainer. Its behavior arises from its living in packs<br />in ancient times."
+		en: "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times."
 	},
 
 	stage: "Stage1",

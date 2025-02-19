@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "They normally inhabit rocky seashores, but in<br />times of continuous rain, they can sometimes be<br />found in the mountains, far from the sea."
+		en: "They normally inhabit rocky seashores, but in times of continuous rain, they can sometimes be found in the mountains, far from the sea."
 	},
 
 	stage: "Stage1",

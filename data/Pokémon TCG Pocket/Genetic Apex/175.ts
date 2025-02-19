@@ -31,8 +31,17 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+	}
 }
 
 export default card

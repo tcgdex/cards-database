@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Inflating its poison sacs, it fills the area with an<br />odd sound and hits flinching opponents with a<br />poison jab."
+		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab."
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Group Beatdown"
 		},
 
-		damage: 20,
+		damage: "20×",
 		cost: ["Darkness", "Darkness"],
 
 		effect: {

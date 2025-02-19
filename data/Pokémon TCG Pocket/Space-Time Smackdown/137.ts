@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "If both of Buneary's ears are rolled up, something<br />is wrong with its body or mind. It's a sure sign the<br />Pokémon is in need of care."
+		en: "If both of Buneary's ears are rolled up, something is wrong with its body or mind. It's a sure sign the Pokémon is in need of care."
 	},
 
 	stage: "Basic",

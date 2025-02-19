@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "Staring at the swirl on its belly causes drowsiness. This trait of Poliwhirl's has been used in place of lullabies to get children to go to sleep.",
+	}
 }
 
 export default card

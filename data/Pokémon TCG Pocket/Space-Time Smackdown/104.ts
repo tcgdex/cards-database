@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Its constant mischief and misdeeds resulted<br />in it being bound to an Odd Keystone by a<br />mysterious spell."
+		en: "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell."
 	},
 
 	stage: "Basic",

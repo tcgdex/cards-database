@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "20"
 	}],
 
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "Geodude that have lived a long life have had all their edges smoothed out until they're totally round. They also have a calm, quiet disposition.",
+	}
 }
 
 export default card

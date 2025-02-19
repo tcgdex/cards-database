@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its flickering spores lure in prey and put them to<br />sleep. Once this Pokémon has its prey snoozing,<br />it drains their vitality with its fingertips."
+		en: "Its flickering spores lure in prey and put them to sleep. Once this Pokémon has its prey snoozing, it drains their vitality with its fingertips."
 	},
 
 	stage: "Stage1",

@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The amount of electrical energy this Pokémon<br />produces is proportional to the rate of its pulse.<br />The voltage jumps while Electivire is battling."
+		en: "The amount of electrical energy this Pokémon produces is proportional to the rate of its pulse. The voltage jumps while Electivire is battling."
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Exciting Voltage"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Lightning", "Lightning"],
 
 		effect: {

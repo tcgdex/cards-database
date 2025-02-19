@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It claws if displeased and purrs when affectionate.<br />Its fickleness is very popular among some."
+		en: "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some."
 	},
 
 	stage: "Basic",

@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Psychic",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles.",
+	}
 }
 
 export default card

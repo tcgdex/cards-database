@@ -29,7 +29,7 @@ const card: Card = {
 	hp: 50,
 
 	description: {
-		en: "When its huge eyes waver, it sings a mysteriously<br />soothing melody that lulls its enemies to sleep."
+		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep."
 	},
 
 	weaknesses: [{

@@ -20,7 +20,7 @@ const card: Card = {
 			en: "Powerful Bloom"
 		},
 
-		damage: 50,
+		damage: "50×",
 		cost: ["Grass", "Colorless"],
 
 		effect: {

@@ -31,8 +31,17 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "Each of Exeggutor's three heads is thinking different thoughts. The three don't seem to be very interested in one another.",
+	}
 }
 
 export default card

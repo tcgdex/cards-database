@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
+	}
 }
 
 export default card

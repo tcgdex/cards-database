@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Though it may look like it's just a bunch of eggs,<br />it's a proper Pokémon. Exeggcute communicates<br />with others of its kind via telepathy, apparently."
+		en: "Though it may look like it's just a bunch of eggs, it's a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently."
 	},
 
 	stage: "Basic",

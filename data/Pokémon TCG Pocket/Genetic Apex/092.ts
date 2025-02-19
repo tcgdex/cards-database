@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "10"
 	}],
 
+	weaknesses: [{
+		type: "Metal",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "It eats snow that has accumulated on the ground. It prefers soft, freshly fallen snow, so it will eat its way up a mountain, aiming for the peak.",
+	}
 }
 
 export default card

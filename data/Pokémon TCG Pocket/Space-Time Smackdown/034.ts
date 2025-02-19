@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "With cold air that can reach temperatures as low<br />as −328 degrees Fahrenheit, Regice instantly<br />freezes any creature that approaches it."
+		en: "With cold air that can reach temperatures as low as −328 degrees Fahrenheit, Regice instantly freezes any creature that approaches it."
 	},
 
 	stage: "Basic",

@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "By allowing its cry to resonate in the hollow of its<br />belly, it produces a captivating sound."
+		en: "By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound."
 	},
 
 	stage: "Stage1",

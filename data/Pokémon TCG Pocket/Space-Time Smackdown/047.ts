@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "This Rotom has entered a washing machine.<br />It nods with satisfaction after it floods the<br />surrounding area."
+		en: "This Rotom has entered a washing machine. It nods with satisfaction after it floods the surrounding area."
 	},
 
 	stage: "Basic",

@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "20"
 	}],
 
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	description: {
+		en: "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
+	}
 }
 
 export default card

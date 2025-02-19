@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It lives alone, away from others. Apparently, every<br />one of them believes it is the most important."
+		en: "It lives alone, away from others. Apparently, every one of them believes it is the most important."
 	},
 
 	stage: "Stage1",

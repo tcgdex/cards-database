@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "At the bidding of transmissions from the spirit<br />world, it steals people and Pokémon away.<br />No one knows whether it has a will of its own."
+		en: "At the bidding of transmissions from the spirit world, it steals people and Pokémon away. No one knows whether it has a will of its own."
 	},
 
 	stage: "Stage2",

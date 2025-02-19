@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "This Pokémon is said to live in a world on the<br />reverse side of ours, where common knowledge is<br />distorted and strange."
+		en: "This Pokémon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange."
 	},
 
 	stage: "Basic",

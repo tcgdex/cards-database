@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It can load up to three projectiles per arm into<br />the holes in its hands. What launches out of those<br />holes could be either rocks or Roggenrola."
+		en: "It can load up to three projectiles per arm into the holes in its hands. What launches out of those holes could be either rocks or Roggenrola."
 	},
 
 	stage: "Stage2",

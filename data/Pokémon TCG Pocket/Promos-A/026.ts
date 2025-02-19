@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "When it is angered, it immediately discharges the<br />energy stored in the pouches in its cheeks."
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks."
 	},
 
 	stage: "Basic",

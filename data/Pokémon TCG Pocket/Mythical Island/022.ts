@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Its large front tooth is still growing in. When the<br />tooth itches, this Pokémon will bite another<br />Chewtle's horn, and the two Pokémon will tussle."
+		en: "Its large front tooth is still growing in. When the tooth itches, this Pokémon will bite another Chewtle's horn, and the two Pokémon will tussle."
 	},
 
 	stage: "Basic",

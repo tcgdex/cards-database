@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It is merciless by nature. It is said that it never<br />forgives the mistakes of its Murkrow followers."
+		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers."
 	},
 
 	stage: "Stage1",

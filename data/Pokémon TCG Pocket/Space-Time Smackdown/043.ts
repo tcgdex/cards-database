@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "With its shining light, it lures its prey close.<br />However, the light also happens to attract<br />ferocious fish Pokémon—its natural predators."
+		en: "With its shining light, it lures its prey close. However, the light also happens to attract ferocious fish Pokémon—its natural predators."
 	},
 
 	stage: "Stage1",

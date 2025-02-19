@@ -25,11 +25,20 @@ const card: Card = {
 			en: "Flip a coin until you get tails. This attack does 60 damage for each heads."
 		},
 
-		damage: "60x"
+		damage: "60×"
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
 	}],
 
 	retreat: 3,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "If this Pokémon's sticky saliva gets on you and you don't clean it off, an intense itch will set in. The itch won't go away, either.",
+	}
 }
 
 export default card

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It doesn't like to be taken care of. It's difficult to<br />bond with since it won't listen to its Trainer."
+		en: "It doesn't like to be taken care of. It's difficult to bond with since it won't listen to its Trainer."
 	},
 
 	stage: "Basic",

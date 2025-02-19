@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Hidden beneath a tangle of vines that grows<br />nonstop even if the vines are torn off, this<br />Pokémon's true appearance remains a mystery."
+		en: "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon's true appearance remains a mystery."
 	},
 
 	stage: "Basic",

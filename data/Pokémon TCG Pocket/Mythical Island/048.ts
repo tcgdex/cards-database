@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "The elemental composition of the rocks that<br />form its body were found to match the bedrock<br />of a land far away from this Pokémon's habitat."
+		en: "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon's habitat."
 	},
 
 	stage: "Basic",

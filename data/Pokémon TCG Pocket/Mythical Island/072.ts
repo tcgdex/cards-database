@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It lives close to water. Its long tail is ridged with<br />a fin, which is often mistaken for a mermaid's."
+		en: "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid's."
 	},
 
 	stage: "Stage1",

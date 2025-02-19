@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "The extension and contraction of its muscles<br />generates electricity. It glows when in trouble."
+		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble."
 	},
 
 	stage: "Basic",

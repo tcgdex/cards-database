@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "20"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light.",
+	}
 }
 
 export default card

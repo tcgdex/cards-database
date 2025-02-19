@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A primeval Pokémon, it possesses a hard and<br />sturdy skull, lacking any intelligence within."
+		en: "A primeval Pokémon, it possesses a hard and sturdy skull, lacking any intelligence within."
 	},
 
 	stage: "Stage1",

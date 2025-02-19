@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This is a Porygon that was updated with special<br />data. Porygon2 develops itself by learning about<br />many different subjects all on its own."
+		en: "This is a Porygon that was updated with special data. Porygon2 develops itself by learning about many different subjects all on its own."
 	},
 
 	stage: "Stage1",

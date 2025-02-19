@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It attracts prey with its sweet-smelling saliva, then<br />chomps down. It takes a whole day to eat prey."
+		en: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey."
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Flog"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {

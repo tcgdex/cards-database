@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "The line running down its side can store sunlight.<br />It shines vividly at night."
+		en: "The line running down its side can store sunlight. It shines vividly at night."
 	},
 
 	stage: "Basic",

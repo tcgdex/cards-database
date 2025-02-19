@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "The shell seems to be filled with joy. It is said<br />that it will share good luck when treated kindly."
+		en: "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly."
 	},
 
 	stage: "Basic",

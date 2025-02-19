@@ -28,11 +28,20 @@ const card: Card = {
 			en: "This attack does 30 damage for each of your Benched Pokémon."
 		},
 
-		damage: "30x"
+		damage: "30×"
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
 	}],
 
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
+	}
 }
 
 export default card

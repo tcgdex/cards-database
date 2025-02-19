@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "This cunning Pokémon hides under the cover of<br />darkness, waiting to attack its prey."
+		en: "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey."
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Double Scratch"
 		},
 
-		damage: 20,
+		damage: "20×",
 		cost: ["Darkness"],
 
 		effect: {

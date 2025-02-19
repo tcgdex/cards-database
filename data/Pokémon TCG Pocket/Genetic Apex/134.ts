@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "Emitting powerful sound waves tires it out. Afterward, it won't be able to fly for a little while.",
+	}
 }
 
 export default card

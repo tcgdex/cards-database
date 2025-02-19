@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "People fashion swords from Skarmory's shed<br />feathers, so this Pokémon is a popular element<br />in heraldic designs."
+		en: "People fashion swords from Skarmory's shed feathers, so this Pokémon is a popular element in heraldic designs."
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Metal Arms"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Metal"],
 
 		effect: {

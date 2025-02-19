@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+	}
 }
 
 export default card

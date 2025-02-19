@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "10"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 0,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+	}
 }
 
 export default card

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Known as \"The Being of Emotion.\" It taught<br />humans the nobility of sorrow, pain, and joy."
+		en: "Known as \"The Being of Emotion.\" It taught humans the nobility of sorrow, pain, and joy."
 	},
 
 	stage: "Basic",

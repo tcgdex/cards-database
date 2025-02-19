@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "It can be found near the sea. The large pincers grow back if they are torn out of their sockets.",
+	}
 }
 
 export default card

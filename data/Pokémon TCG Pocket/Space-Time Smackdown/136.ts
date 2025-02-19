@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It busily makes its nest with stacks of branches and<br />roots it has cut up with its sharp incisors."
+		en: "It busily makes its nest with stacks of branches and roots it has cut up with its sharp incisors."
 	},
 
 	stage: "Stage1",

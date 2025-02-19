@@ -27,8 +27,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "With a horn that's harder than diamond, this Pokémon goes around shattering boulders as it searches for a moon stone.",
+	}
 }
 
 export default card

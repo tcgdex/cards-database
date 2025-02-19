@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "If this Pokémon's sticky saliva gets on you and<br />you don't clean it off, an intense itch will set in.<br />The itch won't go away, either."
+		en: "If this Pokémon's sticky saliva gets on you and you don't clean it off, an intense itch will set in. The itch won't go away, either."
 	},
 
 	stage: "Basic",

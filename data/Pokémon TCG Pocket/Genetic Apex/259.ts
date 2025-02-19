@@ -26,7 +26,12 @@ const card: Card = {
 			en: "This attack does 30 damage for each of your Benched L Pokémon."
 		},
 
-		damage: "30x"
+		damage: "30×"
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
 	}],
 
 	retreat: 1,

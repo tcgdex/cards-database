@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It dwells in volcanic caves. It digs in with its<br />cross-shaped feet to crawl on ceilings and walls."
+		en: "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls."
 	},
 
 	stage: "Basic",

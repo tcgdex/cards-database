@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It swims as fast as a jet boat. The edges of its<br />wings are sharp and can slice apart drifting ice."
+		en: "It swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice."
 	},
 
 	stage: "Stage2",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "This Pokémon startles people in the middle of<br />the night. It gathers fear as its energy."
+		en: "This Pokémon startles people in the middle of the night. It gathers fear as its energy."
 	},
 
 	stage: "Basic",

@@ -11,7 +11,7 @@ const card: Card = {
 	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Fire"],
+	types: ["Grass"],
 	stage: "Basic",
 
 	attacks: [{
@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
+	}
 }
 
 export default card

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Every bit of Regirock's body is made of stone.<br />As parts of its body erode, this Pokémon sticks<br />rocks to itself to repair what's been lost."
+		en: "Every bit of Regirock's body is made of stone. As parts of its body erode, this Pokémon sticks rocks to itself to repair what's been lost."
 	},
 
 	stage: "Basic",

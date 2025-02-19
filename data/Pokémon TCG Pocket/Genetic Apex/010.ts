@@ -27,8 +27,17 @@ const card: Card = {
 		damage: "70"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+	}
 }
 
 export default card

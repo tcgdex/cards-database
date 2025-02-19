@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "100"
 	}],
 
+	weaknesses: [{
+		type: "Psychic",
+		value: "+20"
+	}],
+
 	retreat: 4,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
+	}
 }
 
 export default card

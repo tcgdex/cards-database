@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "This Pokémon can draw forth the power hidden<br />within blooming wild flowers. It is particularly<br />fond of red flowers."
+		en: "This Pokémon can draw forth the power hidden within blooming wild flowers. It is particularly fond of red flowers."
 	},
 
 	stage: "Basic",

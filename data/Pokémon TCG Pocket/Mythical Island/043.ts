@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Geodude that have lived a long life have had all<br />their edges smoothed out until they're totally<br />round. They also have a calm, quiet disposition."
+		en: "Geodude that have lived a long life have had all their edges smoothed out until they're totally round. They also have a calm, quiet disposition."
 	},
 
 	stage: "Basic",

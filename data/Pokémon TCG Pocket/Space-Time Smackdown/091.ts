@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "They communicate with one another using their<br />auras. They are able to run all through the night."
+		en: "They communicate with one another using their auras. They are able to run all through the night."
 	},
 
 	stage: "Basic",
