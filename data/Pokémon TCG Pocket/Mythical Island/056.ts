@@ -40,11 +40,6 @@ const card: Card = {
 		cost: ["Fire", "Water", "Colorless"]
 	}],
 
-	weaknesses: [{
-		type: "Colorless",
-		value: "+20"
-	}],
-
 	retreat: 2,
 	rarity: "Two Diamond"
 }
