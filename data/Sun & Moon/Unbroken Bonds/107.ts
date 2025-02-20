@@ -74,20 +74,7 @@ const card: Card = {
 			},
 			damage: "30+",
 
-		},
-		{
-			cost: [
-				"Darkness",
-				"Colorless",
-			],
-			name: {
-				fr: "Union Ténébreuse-GX",
-			},
-			effect: {
-				fr: "Ajoutez de votre pile de défausse à votre Banc une combinaison de 2 cartes choisies parmi des Pokémon-GX Darkness et des Pokémon-EX Darkness. Si au moins une Énergie supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), attachez 2 cartes Énergie de votre pile de défausse à chacun des Pokémon que vous avez placés sur votre Banc de cette façon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-
-		},
+		}
 	],
 	weaknesses: [
 		{

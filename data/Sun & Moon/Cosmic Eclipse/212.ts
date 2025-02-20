@@ -75,18 +75,6 @@ const card: Card = {
 			},
 
 		},
-		{
-			cost: [
-				"Fire",
-			],
-			name: {
-				fr: "Colonne de Flamme Écarlate-GX",
-			},
-			effect: {
-				fr: "Attachez 5 cartes Énergie de base de votre pile de défausse à vos Pokémon, de la manière que vous voulez. Si au moins une Énergie supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), le Pokémon Actif de votre adversaire est maintenant Brûlé et Confus. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-
-		},
 	],
 	weaknesses: [
 		{

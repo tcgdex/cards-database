@@ -25,10 +25,12 @@ const card: Card = {
 			en: "Helical Swell",
 			it: "Helixonda",
 			pt: "Maré Espiralada",
-			de: "Helixschwall"
+			de: "Helixschwall",
+			es: "Oleaje Helicoidal",
 		},
 
 		effect: {
+			es: "Mientras este Pokémon esté en el Puesto Activo, tu rival no puede jugar ninguna carta de Estadio de su mano.",
 			fr: "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de cartes Stade de sa main.",
 			en: "As long as this Pokémon is in the Active Spot, your opponent can't play any Stadium cards from their hand.",
 			it: "Fintanto che questo Pokémon è in posizione attiva, il tuo avversario non può giocare le carte Stadio che ha in mano.",
@@ -48,16 +50,6 @@ const card: Card = {
 
 	trainerType: "Item",
 	regulationMark: "G",
-
-	attacks: [{
-		name: {
-			es: "Oleaje Helicoidal"
-		},
-
-		effect: {
-			es: "Mientras este Pokémon esté en el Puesto Activo, tu rival no puede jugar ninguna carta de Estadio de su mano."
-		}
-	}],
 
 	variants: {
 		holo: false
