@@ -75,20 +75,6 @@ const card: Card = {
 			damage: "10+",
 
 		},
-		{
-			cost: [
-				"Water",
-				"Water",
-			],
-			name: {
-				fr: "Temps Heureux-GX",
-			},
-			effect: {
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 100 dégâts supplémentaires. Si au moins 6 Énergies Water supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), lancez 10 pièces à la place, et cette attaque inflige 100 dégâts supplémentaires pour chaque côté face. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: "10+",
-
-		},
 	],
 	weaknesses: [
 		{

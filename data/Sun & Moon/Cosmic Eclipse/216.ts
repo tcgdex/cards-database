@@ -78,21 +78,6 @@ const card: Card = {
 			damage: 200,
 
 		},
-		{
-			cost: [
-				"Psychic",
-				"Psychic",
-				"Colorless",
-			],
-			name: {
-				fr: "Lumière de la Protectrice-GX",
-			},
-			effect: {
-				fr: "Si vous avez joué Pleine Puissance de Lilie de votre main pendant ce tour, évitez tous les effets d’attaques, y compris les dégâts, infligés à chacun de vos Pokémon pendant le prochain tour de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: 200,
-
-		},
 	],
 	weaknesses: [
 		{

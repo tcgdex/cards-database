@@ -71,22 +71,7 @@ const card: Card = {
 			},
 			damage: 90,
 
-		},
-		{
-			cost: [
-				"Fighting",
-				"Fighting",
-				"Fighting",
-			],
-			name: {
-				fr: "Pluie de Diamants",
-			},
-			effect: {
-				fr: "Soignez 30 dégâts à chacun de vos Pokémon de Banc.",
-			},
-			damage: 90,
-
-		},
+		}
 	],
 	weaknesses: [
 		{
