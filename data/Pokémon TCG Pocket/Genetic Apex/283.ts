@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "20"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Three Star"
+	rarity: "Three Star",
+
+	description: {
+		en: "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
+	}
 }
 
 export default card

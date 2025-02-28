@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 70,
 	types: ["Water"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Horsea"
+	},
+
 
 	attacks: [{
 		cost: ["Water", "Water", "Colorless"],
@@ -26,8 +30,17 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "It's the males that raise the offspring. While Seadra are raising young, the spines on their backs secrete thicker and stronger poison.",
+	}
 }
 
 export default card

@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Old Amber"
+	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
@@ -26,8 +29,17 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "This is a ferocious Pokémon from ancient times. Apparently even modern technology is incapable of producing a perfectly restored specimen.",
+	}
 }
 
 export default card

@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
-	rarity: "Three Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its burning body causes it to be unpopular in hot<br />parts of the world, but in cold ones, Volcarona is<br />revered as an embodiment of the sun."
+		en: "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun."
 	},
 
 	stage: "Stage1",

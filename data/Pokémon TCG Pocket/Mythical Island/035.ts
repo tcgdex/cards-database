@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Whenever a Beheeyem visits a farm,<br />a Dubwool mysteriously disappears."
+		en: "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears."
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 			en: "Mind Jack"
 		},
 
-		damage: 10,
+		damage: "10+",
 		cost: ["Psychic"],
 
 		effect: {

@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Fire"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Charmander"
+	},
+
 
 	attacks: [{
 		cost: ["Fire", "Colorless", "Colorless"],
@@ -24,8 +28,17 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+	}
 }
 
 export default card

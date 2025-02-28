@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Scolipede latches on to its prey with the claws on<br />its neck before slamming them into the ground<br />and jabbing them with its claws' toxic spikes."
+		en: "Scolipede latches on to its prey with the claws on its neck before slamming them into the ground and jabbing them with its claws' toxic spikes."
 	},
 
 	stage: "Stage2",
@@ -28,7 +28,7 @@ const card: Card = {
 			en: "Venoshock"
 		},
 
-		damage: 70,
+		damage: "70+",
 		cost: ["Darkness", "Colorless"],
 
 		effect: {

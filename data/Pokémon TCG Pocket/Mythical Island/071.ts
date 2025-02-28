@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It taunts its prey and lures them into narrow,<br />rocky areas where it then sprays them with toxic<br />gas to make them dizzy and take them down."
+		en: "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down."
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			en: "Venoshock"
 		},
 
-		damage: 10,
+		damage: "10+",
 		cost: ["Colorless"],
 
 		effect: {

@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 160,
 	types: ["Dragon"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Dragonair"
+	},
 
 	attacks: [{
 		cost: ["Water", "Lightning", "Colorless", "Colorless"],
@@ -27,7 +30,11 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "It is said that somewhere in the ocean lies an island where these gather. Only they live there.",
+	}
 }
 
 export default card

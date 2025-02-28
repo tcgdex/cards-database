@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Lightning"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Pikachu"
+	},
+
 
 	attacks: [{
 		cost: ["Lightning", "Lightning", "Lightning"],
@@ -28,8 +32,17 @@ const card: Card = {
 		damage: "140"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+	}
 }
 
 export default card

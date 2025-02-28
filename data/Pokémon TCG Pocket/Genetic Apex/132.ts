@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 110,
 	types: ["Psychic"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Kirlia"
+	},
+
 
 	abilities: [{
 		type: "Ability",
@@ -36,8 +40,17 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
+	}
 }
 
 export default card

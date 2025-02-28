@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It only gives its all against strong opponents who<br />are not fazed by the glare from Serperior's<br />noble eyes."
+		en: "It only gives its all against strong opponents who are not fazed by the glare from Serperior's noble eyes."
 	},
 
 	stage: "Stage2",

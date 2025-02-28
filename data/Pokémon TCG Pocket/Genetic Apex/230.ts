@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	description: {
+		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+	}
 }
 
 export default card

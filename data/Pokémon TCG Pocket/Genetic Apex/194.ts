@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Jigglypuff"
+	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
@@ -24,8 +27,17 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+	}
 }
 
 export default card

@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Venonat"
+	},
 
 	attacks: [{
 		cost: ["Grass"],
@@ -28,8 +31,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
+	}
 }
 
 export default card

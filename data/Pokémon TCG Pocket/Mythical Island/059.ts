@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Scattering Cyclone"
 		},
 
-		damage: 80,
+		damage: "80+",
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {

@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 140,
 	types: ["Colorless"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Jigglypuff"
+	},
 	suffix: "EX",
 	attacks: [{
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -27,6 +30,12 @@ const card: Card = {
 
 		damage: "80"
 	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 2,
 	rarity: "None"
 }

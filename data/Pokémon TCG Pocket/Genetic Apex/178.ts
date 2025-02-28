@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "20"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
+	}
 }
 
 export default card

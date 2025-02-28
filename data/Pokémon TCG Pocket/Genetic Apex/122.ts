@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Haunter"
+	},
+
 
 	attacks: [{
 		cost: ["Psychic"],
@@ -28,8 +32,17 @@ const card: Card = {
 		damage: "50"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.",
+	}
 }
 
 export default card

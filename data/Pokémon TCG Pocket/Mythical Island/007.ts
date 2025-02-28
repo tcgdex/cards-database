@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Pokémon living in the forest eat the<br />delicious caps on Morelull's head.<br />The caps regrow overnight."
+		en: "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight."
 	},
 
 	stage: "Basic",

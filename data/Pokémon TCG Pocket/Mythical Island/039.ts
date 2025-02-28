@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It eats its own weight in sugar every day.<br />If it doesn't get enough sugar, it becomes<br />incredibly grumpy."
+		en: "It eats its own weight in sugar every day. If it doesn't get enough sugar, it becomes incredibly grumpy."
 	},
 
 	stage: "Basic",

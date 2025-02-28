@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Psyduck"
+	},
+
 
 	attacks: [{
 		cost: ["Water", "Water"],
@@ -24,8 +28,17 @@ const card: Card = {
 		damage: "70"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
+	}
 }
 
 export default card

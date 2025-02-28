@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It becomes wildly furious if it even senses<br />someone looking at it. It chases anyone<br />that meets its glare."
+		en: "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare."
 	},
 
 	stage: "Stage1",

@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	description: {
+		en: "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
+	}
 }
 
 export default card

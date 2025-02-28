@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Being exposed to sunlight makes its movements<br />swifter. It uses vines more adeptly than its hands."
+		en: "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands."
 	},
 
 	stage: "Basic",

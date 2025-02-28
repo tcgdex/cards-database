@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 130,
 	types: ["Colorless"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Pidgeotto"
+	},
 
 	abilities: [{
 		type: "Ability",
@@ -36,8 +39,17 @@ const card: Card = {
 		damage: "70"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+	}
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It slips into the shadows of others and mimics<br />their powers and movements. As it improves, it<br />becomes stronger than those it's imitating."
+		en: "It slips into the shadows of others and mimics their powers and movements. As it improves, it becomes stronger than those it's imitating."
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			en: "Revenge"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Fighting", "Colorless"],
 
 		effect: {

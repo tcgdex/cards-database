@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 100,
 	types: ["Dragon"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Dratini"
+	},
 
 	attacks: [{
 		cost: ["Water", "Lightning", "Colorless"],
@@ -25,7 +28,11 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
+	}
 }
 
 export default card

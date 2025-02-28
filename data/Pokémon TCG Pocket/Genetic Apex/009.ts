@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Weedle"
+	},
 
 	attacks: [{
 		cost: ["Grass"],
@@ -24,8 +27,17 @@ const card: Card = {
 		damage: "30"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+	}
 }
 
 export default card

@@ -9,13 +9,13 @@ const card: Card = {
 	},
 
 	illustrator: "Kanako Eo",
-	rarity: "Three Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],
 
 	description: {
-		en: "When it retracts its long neck into its shell, it<br />squirts out water with vigorous force."
+		en: "When it retracts its long neck into its shell, it squirts out water with vigorous force."
 	},
 
 	stage: "Basic",

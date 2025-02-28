@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Frogadier"
+	},
+
 
 	abilities: [{
 		type: "Ability",
@@ -36,8 +40,17 @@ const card: Card = {
 		damage: "60"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+	}
 }
 
 export default card

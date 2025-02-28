@@ -9,13 +9,13 @@ const card: Card = {
 	},
 
 	illustrator: "Yoriyuki Ikegami",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],
 
 	description: {
-		en: "Being exposed to sunlight makes its movements<br />swifter. It uses vines more adeptly than its hands."
+		en: "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands."
 	},
 
 	stage: "Basic",

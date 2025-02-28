@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Fighting"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Mankey"
+	},
+
 
 	attacks: [{
 		cost: ["Fighting", "Fighting"],
@@ -28,8 +32,17 @@ const card: Card = {
 		damage: "40+"
 	}],
 
+	weaknesses: [{
+		type: "Psychic",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
+	}
 }
 
 export default card

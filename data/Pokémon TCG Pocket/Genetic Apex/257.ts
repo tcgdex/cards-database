@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 130,
 	types: ["Water"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Staryu"
+	},
 	suffix: "EX",
 
 	attacks: [{
@@ -23,6 +26,11 @@ const card: Card = {
 		},
 
 		damage: "90"
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
 	}],
 
 	retreat: 0,

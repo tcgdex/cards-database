@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Clefairy"
+	},
+
 
 	attacks: [{
 		cost: ["Psychic"],
@@ -24,8 +28,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Metal",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+	}
 }
 
 export default card

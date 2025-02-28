@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 180,
 	types: ["Fighting"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Machoke"
+	},
+
 	suffix: "EX",
 
 	attacks: [{
@@ -23,6 +27,11 @@ const card: Card = {
 		},
 
 		damage: "120"
+	}],
+
+	weaknesses: [{
+		type: "Psychic",
+		value: "+20"
 	}],
 
 	retreat: 3,

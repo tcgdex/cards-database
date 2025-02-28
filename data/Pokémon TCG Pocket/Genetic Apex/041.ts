@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Fire"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Growlithe"
+	},
+
 	suffix: "EX",
 
 	attacks: [{
@@ -27,6 +31,11 @@ const card: Card = {
 		},
 
 		damage: "120"
+	}],
+
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
 	}],
 
 	retreat: 2,

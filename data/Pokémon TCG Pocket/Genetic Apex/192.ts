@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Spearow"
+	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
@@ -28,8 +31,17 @@ const card: Card = {
 		damage: "50"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
+	}
 }
 
 export default card

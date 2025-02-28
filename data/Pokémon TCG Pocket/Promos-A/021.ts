@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Tomokazu Komiya",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Fighting"],
 	stage: "Basic",
@@ -26,7 +26,7 @@ const card: Card = {
 	hp: 110,
 
 	description: {
-		en: "As it digs through the ground, it absorbs many<br />hard objects. This is what makes its body so solid."
+		en: "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid."
 	},
 
 	weaknesses: [{

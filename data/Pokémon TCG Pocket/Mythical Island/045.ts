@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When Golem grow old, they stop shedding their<br />shells. Those that have lived a long, long time<br />have shells green with moss."
+		en: "When Golem grow old, they stop shedding their shells. Those that have lived a long, long time have shells green with moss."
 	},
 
 	stage: "Stage2",

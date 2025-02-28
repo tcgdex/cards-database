@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon draws forth what power is left in<br />withered flowers to make them healthy again.<br />It holds a red flower."
+		en: "This Pokémon draws forth what power is left in withered flowers to make them healthy again. It holds a red flower."
 	},
 
 	stage: "Stage1",

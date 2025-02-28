@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 160,
 	types: ["Grass"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Ivysaur"
+	},
 
 	attacks: [{
 		cost: ["Grass", "Grass", "Colorless", "Colorless"],
@@ -28,8 +31,17 @@ const card: Card = {
 		damage: "80"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+	}
 }
 
 export default card

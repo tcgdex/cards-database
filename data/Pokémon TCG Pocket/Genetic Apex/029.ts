@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "10"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them.",
+	}
 }
 
 export default card

@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Shellder"
+	},
+
 
 	abilities: [{
 		type: "Ability",
@@ -36,8 +40,17 @@ const card: Card = {
 		damage: "70"
 	}],
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
+	}
 }
 
 export default card

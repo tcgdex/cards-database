@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing.",
+	}
 }
 
 export default card

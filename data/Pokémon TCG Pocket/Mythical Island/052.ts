@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Don't be fooled by its gorgeous fur and elegant<br />figure. This is a moody and vicious Pokémon."
+		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
 	},
 
 	stage: "Stage1",

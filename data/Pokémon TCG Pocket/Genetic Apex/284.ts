@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 180,
 	types: ["Fire"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Charmeleon"
+	},
 	suffix: "EX",
 
 	attacks: [{
@@ -35,6 +38,11 @@ const card: Card = {
 		},
 
 		damage: "200"
+	}],
+
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
 	}],
 
 	retreat: 2,

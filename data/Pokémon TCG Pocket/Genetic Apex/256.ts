@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 180,
 	types: ["Water"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Wartortle"
+	},
 	suffix: "EX",
 
 	attacks: [{
@@ -35,6 +38,11 @@ const card: Card = {
 		},
 
 		damage: "100+"
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "+20"
 	}],
 
 	retreat: 3,

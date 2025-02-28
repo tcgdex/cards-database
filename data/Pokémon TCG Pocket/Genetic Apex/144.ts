@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Machop"
+	},
+
 
 	attacks: [{
 		cost: ["Fighting", "Fighting"],
@@ -24,8 +28,17 @@ const card: Card = {
 		damage: "50"
 	}],
 
+	weaknesses: [{
+		type: "Psychic",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+	}
 }
 
 export default card

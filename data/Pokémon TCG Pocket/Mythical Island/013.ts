@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "This Pokémon was called the Larva That Stole<br />the Sun. The fire Larvesta spouts from its horns<br />can cut right through a sheet of iron."
+		en: "This Pokémon was called the Larva That Stole the Sun. The fire Larvesta spouts from its horns can cut right through a sheet of iron."
 	},
 
 	stage: "Basic",

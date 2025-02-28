@@ -25,11 +25,20 @@ const card: Card = {
 			en: "Flip 2 coins. This attack does 30 damage times the number of heads."
 		},
 
-		damage: "30x"
+		damage: "30×"
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
 	}],
 
 	retreat: 3,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "Although it's carrying its baby in a pouch on its belly, Kangaskhan is swift on its feet. It intimidates its opponents with quick jabs.",
+	}
 }
 
 export default card

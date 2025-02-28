@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Venipede and Sizzlipede are similar species,<br />but when the two meet, a huge fight ensues."
+		en: "Venipede and Sizzlipede are similar species, but when the two meet, a huge fight ensues."
 	},
 
 	stage: "Basic",

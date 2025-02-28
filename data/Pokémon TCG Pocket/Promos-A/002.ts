@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Toyste Beach",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {

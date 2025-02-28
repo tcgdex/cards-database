@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "By taking in a person's scent, it can sniff out their<br />mental and physical condition. It's hoped that<br />this skill will have many medical applications."
+		en: "By taking in a person's scent, it can sniff out their mental and physical condition. It's hoped that this skill will have many medical applications."
 	},
 
 	stage: "Stage1",

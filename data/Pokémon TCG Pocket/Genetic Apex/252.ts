@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 160,
 	types: ["Grass"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Exeggcute"
+	},
 	suffix: "EX",
 	attacks: [{
 		cost: ["Grass"],
@@ -27,6 +30,12 @@ const card: Card = {
 
 		damage: "40+"
 	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 3,
 	rarity: "Two Star"
 }

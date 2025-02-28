@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 140,
 	types: ["Grass"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Gloom"
+	},
 
 	attacks: [{
 		cost: ["Grass", "Grass", "Colorless"],
@@ -28,8 +31,17 @@ const card: Card = {
 		damage: "80"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "It has the world's largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+	}
 }
 
 export default card

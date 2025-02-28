@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Kadabra"
+	},
 
 	attacks: [{
 		cost: ["Psychic", "Colorless", "Colorless"],
@@ -28,8 +31,17 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "One Star"
+	rarity: "One Star",
+
+	description: {
+		en: "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
+	}
 }
 
 export default card

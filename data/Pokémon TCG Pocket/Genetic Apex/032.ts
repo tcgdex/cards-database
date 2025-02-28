@@ -11,7 +11,12 @@ const card: Card = {
 	illustrator: "You Iribi",
 	category: "Pokemon",
 	hp: 120,
+	types: ["Grass"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Skiddo"
+	},
+
 
 	attacks: [{
 		cost: ["Grass", "Colorless", "Colorless"],
@@ -23,8 +28,17 @@ const card: Card = {
 		damage: "70"
 	}],
 
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "It can sense the feelings of others by touching them with its horns. This species has assisted people with their work since 5,000 years ago.",
+	}
 }
 
 export default card

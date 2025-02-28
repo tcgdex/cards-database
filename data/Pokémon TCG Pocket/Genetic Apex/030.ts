@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Grass"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Petilil"
+	},
+
 
 	attacks: [{
 		cost: ["Grass", "Grass"],
@@ -28,8 +32,18 @@ const card: Card = {
 		damage: "50"
 	}],
 
+
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
+	}
 }
 
 export default card

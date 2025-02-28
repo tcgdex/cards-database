@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "When Tauros begins whipping itself with its tails,<br />it's a warning that the Pokémon is about to<br />charge with astounding speed."
+		en: "When Tauros begins whipping itself with its tails, it's a warning that the Pokémon is about to charge with astounding speed."
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			en: "Fighting Tackle"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {

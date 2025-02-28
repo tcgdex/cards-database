@@ -25,8 +25,17 @@ const card: Card = {
 
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+	}
 }
 
 export default card

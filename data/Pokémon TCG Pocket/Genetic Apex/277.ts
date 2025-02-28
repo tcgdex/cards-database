@@ -13,6 +13,9 @@ const card: Card = {
 	hp: 170,
 	types: ["Psychic"],
 	stage: "Stage2",
+	evolveFrom: {
+		en: "Haunter"
+	},
 	suffix: "EX",
 
 	abilities: [{
@@ -35,6 +38,11 @@ const card: Card = {
 		},
 
 		damage: "100"
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
 	}],
 
 	retreat: 2,

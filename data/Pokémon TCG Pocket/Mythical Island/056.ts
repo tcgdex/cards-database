@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		en: "Druddigon lives in caves, but it never skips<br />sunbathing—it won't be able to move if its body<br />gets too cold."
+		en: "Druddigon lives in caves, but it never skips sunbathing—it won't be able to move if its body gets too cold."
 	},
 
 	stage: "Basic",
@@ -38,11 +38,6 @@ const card: Card = {
 
 		damage: 90,
 		cost: ["Fire", "Water", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Colorless",
-		value: "+20"
 	}],
 
 	retreat: 2,

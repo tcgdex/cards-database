@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Fighting"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Dome Fossil"
+	},
+
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -24,8 +28,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Psychic",
+		value: "+20"
+	}],
+
 	retreat: 1,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "This species is almost entirely extinct. Kabuto molt every three days, making their shells harder and harder.",
+	}
 }
 
 export default card

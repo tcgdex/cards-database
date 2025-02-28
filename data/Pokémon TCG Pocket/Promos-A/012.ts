@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
-	rarity: "Three Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Colorless"],
 	stage: "Basic",
@@ -30,7 +30,7 @@ const card: Card = {
 	hp: 60,
 
 	description: {
-		en: "All it does is sleep during the daytime. At night,<br />it patrols its territory with its eyes aglow."
+		en: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow."
 	},
 
 	weaknesses: [{

@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It can't run properly when it's newly born.<br />As it races around with others of its kind,<br />its legs grow stronger."
+		en: "It can't run properly when it's newly born. As it races around with others of its kind, its legs grow stronger."
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			en: "Stomp"
 		},
 
-		damage: 10,
+		damage: "10+",
 		cost: ["Fire"],
 
 		effect: {

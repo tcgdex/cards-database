@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If one of the twin Koffing inflates, the other one<br />deflates. It constantly mixes its poisonous gases."
+		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases."
 	},
 
 	stage: "Stage1",

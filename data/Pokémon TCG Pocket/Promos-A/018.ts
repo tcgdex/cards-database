@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kuroimori",
-	rarity: "One Star",
+	rarity: "None",
 	category: "Pokemon",
 	types: ["Grass"],
 	stage: "Stage2",
@@ -34,7 +34,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its plant blooms when it is absorbing solar<br />energy. It stays on the move to seek sunlight."
+		en: "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."
 	},
 
 	weaknesses: [{

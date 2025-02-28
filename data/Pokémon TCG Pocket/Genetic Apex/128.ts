@@ -28,8 +28,17 @@ const card: Card = {
 		damage: "120"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Three Diamond"
+	rarity: "Three Diamond",
+
+	description: {
+		en: "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments.",
+	}
 }
 
 export default card

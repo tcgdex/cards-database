@@ -48,7 +48,9 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: {
-		holo: false
+		normal: true,
+		reverse: true,
+		holo: true,
 	}
 }
 

@@ -9,13 +9,13 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "One Star",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
 
 	description: {
-		en: "When it is angered, it immediately discharges the<br />energy stored in the pouches in its cheeks."
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks."
 	},
 
 	stage: "Basic",

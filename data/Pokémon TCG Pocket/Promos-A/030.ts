@@ -9,13 +9,13 @@ const card: Card = {
 	},
 
 	illustrator: "En Morikura",
-	rarity: "One Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],
 
 	description: {
-		en: "Its ability to evolve into many forms allows it to<br />adapt smoothly and perfectly to any environment."
+		en: "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment."
 	},
 
 	stage: "Basic",

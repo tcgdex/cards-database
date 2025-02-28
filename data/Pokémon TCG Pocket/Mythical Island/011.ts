@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon can be seen galloping through<br />fields at speeds of up to 150 mph, its fiery mane<br />fluttering in the wind."
+		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind."
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 			en: "Rising Lunge"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Fire", "Colorless"],
 
 		effect: {

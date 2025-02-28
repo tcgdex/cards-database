@@ -24,8 +24,17 @@ const card: Card = {
 		damage: "50"
 	}],
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
 	retreat: 3,
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+
+	description: {
+		en: "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
+	}
 }
 
 export default card

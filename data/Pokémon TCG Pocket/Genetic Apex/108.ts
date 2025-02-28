@@ -13,6 +13,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Tynamo"
+	},
+
 
 	attacks: [{
 		cost: ["Lightning"],
@@ -24,8 +28,17 @@ const card: Card = {
 		damage: "40"
 	}],
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
 	retreat: 2,
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+
+	description: {
+		en: "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+	}
 }
 
 export default card
