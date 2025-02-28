@@ -55,7 +55,14 @@ export async function serieToSerieSingle(serie: Serie, lang: SupportedLanguages)
 	const setsTmp = await getSets(serie.name.en, lang)
 	const sortedSetsTmp = setsTmp.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
 	const sets = await Promise.all(sortedSetsTmp.map((el) => setToSetSimple(el, lang)))
-	const logo = sets.find((set) => set.logo)?.logo
+	const logo = (
+		// find the set named after the serie
+		sets.find((set) => set.name === serie.name[lang]) ??
+		// find the first non promo set
+		sets.find((set) => !set.name.toLowerCase().includes('promo') && set.logo) ??
+		// get the first set that contains a logo
+		sets.find((set) => set.logo)
+	)?.logo
 	const releaseDate = sortedSetsTmp[0].releaseDate
 
 	// Final data
