@@ -28,7 +28,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If you have <a class=\"localized-string__link\" href=\"/pokemon/arceus/\">Arceus</a> or <a class=\"localized-string__link\" href=\"/pokemon/arceus-ex/\">Arceus ex</a> in play, this Pokémon has no Retreat Cost."
+			en: "If you have Arceus or Arceus ex in play, this Pokémon has no Retreat Cost."
 		}
 	}],
 

@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Take a <span class=\"energy-text energy-text--type-psychic\"></span> Energy from your Energy Zone and attach it to <a class=\"localized-string__link\" href=\"/pokemon/mesprit/\">Mesprit</a> or <a class=\"localized-string__link\" href=\"/pokemon/azelf/\">Azelf</a>."
+			en: "Take a <span class=\"energy-text energy-text--type-psychic\"></span> Energy from your Energy Zone and attach it to Mesprit or Azelf."
 		}
 	}],
 
