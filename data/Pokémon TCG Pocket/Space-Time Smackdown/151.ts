@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Put 1 random <a class=\"localized-string__link\" href=\"/pokemon/glameow/\">Glameow</a>, <a class=\"localized-string__link\" href=\"/pokemon/stunky/\">Stunky</a>, or <a class=\"localized-string__link\" href=\"/pokemon/croagunk/\">Croagunk</a> from your deck into your hand."
+		en: "Put 1 random Glameow, Stunky, or Croagunk from your deck into your hand."
 	},
 
 	trainerType: "Supporter"
