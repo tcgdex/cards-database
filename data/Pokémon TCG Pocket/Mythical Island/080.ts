@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Put your <a class=\"localized-string__link\" href=\"/pokemon/mew-ex/\">Mew ex</a> in the Active Spot into your hand."
+		en: "Put your Mew ex in the Active Spot into your hand."
 	},
 
 	trainerType: "Supporter",

@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Through yoga training, it gained the psychic<br />power to predict its foe's next move."
+		en: "Through yoga training, it gained the psychic power to predict its foe's next move."
 	},
 
 	stage: "Stage1",

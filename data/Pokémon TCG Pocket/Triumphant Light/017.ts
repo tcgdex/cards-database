@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It is extremely protective of its territory. If any<br />foe approaches, it attacks using vicious tremors."
+		en: "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors."
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Thrash"
 		},
 
-		damage: 80,
+		damage: "80+",
 		cost: ["Water", "Water", "Colorless", "Colorless"],
 
 		effect: {

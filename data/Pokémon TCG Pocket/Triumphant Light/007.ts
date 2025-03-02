@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "As a bud, it barely moves. It sits still, placidly<br />waiting for sunlight to appear."
+		en: "As a bud, it barely moves. It sits still, placidly waiting for sunlight to appear."
 	},
 
 	stage: "Stage1",

@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Recognizing their own weakness, they always live<br />in a group. When alone, a Staravia cries noisily."
+		en: "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily."
 	},
 
 	stage: "Stage1",

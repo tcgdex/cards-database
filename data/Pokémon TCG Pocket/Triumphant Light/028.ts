@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It stimulates its own muscles with electricity, so<br />it can move quickly. It eases its soreness with<br />electricity, too, so it can recover quickly as well."
+		en: "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well."
 	},
 
 	stage: "Stage1",

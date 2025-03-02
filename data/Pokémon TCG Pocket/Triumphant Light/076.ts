@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If you are burned by the flames it shoots from its<br />mouth, the pain will never go away."
+		en: "If you are burned by the flames it shoots from its mouth, the pain will never go away."
 	},
 
 	stage: "Stage1",

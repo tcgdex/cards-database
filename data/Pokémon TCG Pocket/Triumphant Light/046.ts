@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "In rare cases, it molts and sheds its scales.<br />Medicine containing its scales as an ingredient<br />will make a weary body feel invigorated."
+		en: "In rare cases, it molts and sheds its scales. Medicine containing its scales as an ingredient will make a weary body feel invigorated."
 	},
 
 	stage: "Stage1",

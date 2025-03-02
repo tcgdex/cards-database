@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Swaying and dodging the attacks of its foes, it<br />weaves its flexible body in close, then lunges<br />out with its poisonous claws."
+		en: "Swaying and dodging the attacks of its foes, it weaves its flexible body in close, then lunges out with its poisonous claws."
 	},
 
 	stage: "Stage1",

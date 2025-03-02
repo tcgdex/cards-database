@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It loves the honey of flowers and steals honey<br />collected by Combee."
+		en: "It loves the honey of flowers and steals honey collected by Combee."
 	},
 
 	stage: "Stage1",

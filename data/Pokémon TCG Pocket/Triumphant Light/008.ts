@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "After absorbing plenty of sunlight, Cherrim takes<br />this form. It's full of energy while it's like this,<br />and its liveliness will go on until sundown."
+		en: "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown."
 	},
 
 	stage: "Stage1",

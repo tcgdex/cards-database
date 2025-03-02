@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its long ears are superb sensors. It can distinguish<br />the movements of things in water and tell what<br />they are."
+		en: "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are."
 	},
 
 	stage: "Stage1",
