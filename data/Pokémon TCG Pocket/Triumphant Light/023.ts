@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Palkia"
+		en: "Origin Forme Palkia"
 	},
 
 	illustrator: "toriyufu",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It soars across the sky in a form that greatly resembles the<br />creator of all things. Perhaps this imitation of appearance is<br />Palkia's strategy for gaining Arceus's powers."
+		en: "It soars across the sky in a form that greatly resembles the creator of all things. Perhaps this imitation of appearance is Palkia's strategy for gaining Arceus's powers."
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Zone Smash"
 		},
 
-		damage: 60,
+		damage: "60+",
 		cost: ["Water", "Water", "Water"],
 
 		effect: {

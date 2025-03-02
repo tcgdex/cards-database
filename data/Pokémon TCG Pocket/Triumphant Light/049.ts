@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It loves to drink other creatures' blood. It's said<br />that if it finds others of its kind going hungry,<br />it sometimes shares the blood it's gathered."
+		en: "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered."
 	},
 
 	stage: "Stage1",

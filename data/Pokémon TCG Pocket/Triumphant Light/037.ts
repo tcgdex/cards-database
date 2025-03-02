@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "This Pokémon lives and nests on a riverbank.<br />After playing in the mud, it won't be able to<br />settle down unless it washes its body."
+		en: "This Pokémon lives and nests on a riverbank. After playing in the mud, it won't be able to settle down unless it washes its body."
 	},
 
 	stage: "Basic",

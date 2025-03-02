@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It always stands on one foot. It changes feet so<br />fast, the movement can rarely be seen."
+		en: "It always stands on one foot. It changes feet so fast, the movement can rarely be seen."
 	},
 
 	stage: "Basic",

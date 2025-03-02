@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It lives a quiet life on mountains that are<br />perpetually covered in snow. It hides itself<br />by whipping up blizzards."
+		en: "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards."
 	},
 
 	stage: "Stage1",

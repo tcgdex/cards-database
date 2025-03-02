@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It is smart enough to hunt in packs. It uses a<br />variety of cries for communicating with others."
+		en: "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others."
 	},
 
 	stage: "Basic",
