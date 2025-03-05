@@ -20,7 +20,7 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Stomp"
+			en: "Tropical Swing"
 		},
 
 		effect: {
