@@ -24,6 +24,7 @@ const card: Card = {
 			fr: "Protection Ambre",
 			en: "Amber Protection",
 			it: "Ambradifesa",
+			es: "Protección Ámbar",
 			pt: "Proteção Âmbar",
 			de: "Bernsteinschutz"
 		},
@@ -33,6 +34,7 @@ const card: Card = {
 			en: "Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.",
 			it: "Previeni tutti gli effetti delle abilità dei Pokémon del tuo avversario inflitti a questo Pokémon.",
 			pt: "Previna todos os efeitos de Habilidades dos Pokémon do seu oponente causados a este Pokémon.",
+			es: "Se evitan todos los efectos de las habilidades de los Pokémon de tu rival infligidos a este Pokémon.",
 			de: "Verhindere alle Effekte von Fähigkeiten der Pokémon deines Gegners, die diesem Pokémon zugefügt werden."
 		}
 	}],
@@ -48,16 +50,6 @@ const card: Card = {
 
 	trainerType: "Item",
 	regulationMark: "G",
-
-	attacks: [{
-		name: {
-			es: "Protección Ámbar"
-		},
-
-		effect: {
-			es: "Se evitan todos los efectos de las habilidades de los Pokémon de tu rival infligidos a este Pokémon."
-		}
-	}],
 
 	variants: {
 		holo: false

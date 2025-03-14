@@ -98,22 +98,7 @@ const card: Card = {
 			},
 			damage: 200,
 
-		},
-		{
-			cost: [
-				"Fairy",
-				"Fairy",
-				"Fairy",
-			],
-			name: {
-				fr: "Miracle Magique-GX",
-			},
-			effect: {
-				fr: "Si au moins 3 Énergies Fairy supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), votre adversaire mélange sa main avec son deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: 200,
-
-		},
+		}
 	],
 	weaknesses: [
 		{

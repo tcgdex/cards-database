@@ -77,21 +77,6 @@ const card: Card = {
 			damage: "100+",
 
 		},
-		{
-			cost: [
-				"Water",
-				"Water",
-				"Colorless",
-			],
-			name: {
-				fr: "Lance-Bulles-GX",
-			},
-			effect: {
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Paralysé. Si au moins 3 Énergies Water supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), cette attaque inflige 150 dégâts supplémentaires. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: "100+",
-
-		},
 	],
 	weaknesses: [
 		{

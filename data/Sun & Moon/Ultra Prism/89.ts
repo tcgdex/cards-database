@@ -74,23 +74,7 @@ const card: Card = {
 			},
 			damage: 160,
 
-		},
-		{
-			cost: [
-				"Metal",
-				"Metal",
-				"Metal",
-				"Metal",
-			],
-			name: {
-				fr: "Impact de Couronne",
-			},
-			effect: {
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
-			},
-			damage: 160,
-
-		},
+		}
 	],
 	weaknesses: [
 		{
