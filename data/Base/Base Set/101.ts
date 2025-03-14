@@ -13,20 +13,9 @@ const card: Card = {
 	category: "Energy",
 
 	set: Set,
-
-
-
-
+	
 	stage: "Basic",
-
-
-
-
-
-
-
-
-energyType: "Normal",
+	energyType: "Normal",
 }
 
 export default card
