@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Machoke",
+		pt: "Machoke",
 		fr: "Machopeur",
 		de: "Maschock"
 	},
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machop",
+		pt: "Machop",
 	},
 
 	stage: "Stage1",
@@ -38,11 +40,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Karate Chop",
+				pt: "Karate Chop",
 				fr: "Poing-Karaté",
 				de: "Karateschlag"
 			},
 			effect: {
 				en: "Does 50 damage minus 10 for each damage counter on Machoke.",
+				pt: "Does 50 damage minus 10 for each damage counter on Machoke.",
 				fr: "Inflige 50 dégâts moins 10 dégâts pour chaque marqueur de dégâts sur Machopeur.",
 				de: "Fügt 50 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Maschock zu."
 			},
@@ -63,6 +67,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Machoke does 20 damage to itself.",
+				pt: "Machoke does 20 damage to itself.",
 				fr: "Machopeur s'inflige 20 dégâts.",
 				de: "Maschock fügt sich selbst 20 Schadenspunkte zu."
 			},

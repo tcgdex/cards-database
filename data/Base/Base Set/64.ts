@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Starmie",
+		pt: "Starmie",
 		fr: "Staross",
 		de: "Starmie"
 	},
@@ -37,11 +38,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Recover",
+				pt: "Recover",
 				fr: "Soin",
 				de: "Erholung"
 			},
 			effect: {
 				en: "Discard 1 Energy card to Starmie in order to use this attack. Remove all damage counters from Starmie.",
+				pt: "Discard 1 Energy card to Starmie in order to use this attack. Remove all damage counters from Starmie.",
 				fr: "Défaussez 1 carte Énergie  attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross.",
 				de: "Entferne eine auf Starmie abgelegte  Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Starmie."
 			},

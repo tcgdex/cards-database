@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Double Colorless Energy",
+		pt: "Energia Dupla Incolor",
 		fr: "Double Énergie Incolore",
 		de: "Doppelte farblose Energie"
 	},
@@ -15,6 +16,8 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
+		en: "Provides Colorless Colorless energy. Doesn't count as a basic Energy card.",
+		pt: "Fornece 2 Energias Incolor. Não conta como uma carta de Energia básica.",
 		de: "Liefert   Energie. Zählt nicht als Basis-Energiekarte."
 	}
 }

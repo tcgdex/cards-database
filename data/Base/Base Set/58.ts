@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Pikachu",
+		pt: "Pikachu",
 		fr: "Pikachu",
 		de: "Pikachu"
 	},
@@ -46,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
+				pt: "Thunder Jolt",
 				fr: "Secousse Tonnerre",
 				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
+				pt: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts.",
 				de: "Wirf eine Münze. Bei \"Zahl\" fügt Pikachu sich selbst 10 Schadenspunkte zu."
 			},

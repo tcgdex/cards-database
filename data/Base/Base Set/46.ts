@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Charmander",
+		pt: "Charmander",
 		fr: "Salamèche",
 		de: "Glumanda"
 	},
@@ -32,6 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
+				pt: "Scratch",
 				fr: "Griffe",
 				de: "Kratzer"
 			},
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
+				pt: "Ember",
 				fr: "Flammèche",
 				de: "Glut"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Charmander in order to use this attack.",
+				pt: "Discard 1 Energy card attached to Charmander in order to use this attack.",
 				fr: "Défaussez 1 carte Énergie  attachée à Salamèche pour pouvoir utiliser cette attaque.",
 				de: "Entferne eine auf Glumanda abgelegte  Energiekarte, um diesen Angriff auszuführen."
 			},

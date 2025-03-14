@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Dragonair",
+		pt: "Dragonair",
 		fr: "Draco",
 		de: "Dragonir"
 	},
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dratini",
+		pt: "Dratini",
 	},
 
 	stage: "Stage1",
@@ -38,11 +40,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Slam",
+				pt: "Slam",
 				fr: "Souplesse",
 				de: "Slam"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				pt: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 30 Schadenspunkte zu."
 			},
@@ -58,11 +62,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Beam",
+				pt: "Hyper Beam",
 				fr: "Ultralaser",
 				de: "Hyperstrahl"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
+				pt: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
 				fr: "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
 				de: "Sind auf dem verteidigenden Ppkemon Energiekarten abgelegt, wähle eine von ihnen und entferne sie."
 			},
