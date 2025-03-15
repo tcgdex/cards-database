@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Nidoran♂",
+		pt: "Nidoran♂",
 		fr: "Nidoran ♂",
 		de: "Nidoran M"
 	},
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Hazard",
+				pt: "Horn Hazard",
 				fr: "Chanc' Korne",
 				de: "Gefährliches Horn"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				pt: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
 				de: "Wirf eine Münze. Bei 'Zahl' zeigt dieser Angriff keine Wirkung."
 			},

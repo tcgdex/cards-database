@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Gastly",
+		pt: "Gastly",
 		fr: "Fantominus",
 		de: "Nebulak"
 	},
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleeping Gas",
+				pt: "Sleeping Gas",
 				fr: "Gaz Soporifique",
 				de: "Schlafgas"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				pt: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon schlafend."
 			},
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Destiny Bond",
+				pt: "Destiny Bond",
 				fr: "Prélèvement du Destin",
 				de: "Schicksalsband"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon.",
+				pt: "Discard 1 Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon.",
 				fr: "Défaussez 1 carte Énergie  attachée à Fantominus pour pouvoir utiliser cette attaque. Si un Pokémon met Fantominus K.O. pendant le prochain tour de votre adversaire, mettez ce Pokémon K.O.",
 				de: "Entferne eine auf Nebulak abgelegte  Energiekarte, um diesen Angriff auzuführen. Falls ein Pokémon Nebulak während des nächsten gegnerischen Zugs kampufunfähig macht, mache dieses Pokémon kampfunfähig."
 			},

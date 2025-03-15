@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Weedle",
+		pt: "Weedle",
 		fr: "Aspicot",
 		de: "Hornliu"
 	},
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Sting",
+				pt: "Poison Sting",
 				fr: "Dard-Venin",
 				de: "Giftstachel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, Defending Pokémon is now Poisoned.",
+				pt: "Flip a coin. If heads, Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet."
 			},
