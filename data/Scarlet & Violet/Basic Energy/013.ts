@@ -4,16 +4,28 @@ import Set from '../Basic Energy'
 const card: Card = {
 	name: {
 		en: "Psychic Energy",
-		pt: "Energia Psíquica",
 		fr: "Énergie Psy",
-		de: "Psychoenergie"
+		es: "Energía Psíquica",
+		it: "Energia Psiche",
+		pt: "Energia Psíquica",
+		de: "Psycho-Energie"
 	},
-	illustrator: "",
+
+	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
+
+	effect: {
+		en: "",
+		fr: "",
+		es: "",
+		it: "",
+		pt: "",
+		de: ""
+	}
 }
 
 export default card

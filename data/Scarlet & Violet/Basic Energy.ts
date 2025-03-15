@@ -5,8 +5,8 @@ const set: Set = {
 	id: "sve",
 
 	name: {
-		en: "sve",
-		pt: "sve"
+		en: "Scarlet & Violet Energy",
+		pt: "Energias Escarlate e Violeta"
 	},
 
 	serie: serie,
