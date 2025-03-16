@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Its two whiskers provide a sensitive radar. Even in<br />muddy waters, it can detect its prey's location."
+		en: "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location."
 	},
 
 	stage: "Basic",

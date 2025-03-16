@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It attracts prey with its sweet-smelling saliva, then<br />chomps down. It takes a whole day to eat prey."
+		en: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey."
 	},
 
 	stage: "Basic",
@@ -28,7 +28,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If you have <a class=\"localized-string__link\" href=\"/pokemon/arceus/\">Arceus</a> or <a class=\"localized-string__link\" href=\"/pokemon/arceus-ex/\">Arceus ex</a> in play, attacks used by this Pokémon do +30 damage to your opponent's Active Pokémon."
+			en: "If you have Arceus or Arceus ex in play, attacks used by this Pokémon do +30 damage to your opponent's Active Pokémon."
 		}
 	}],
 

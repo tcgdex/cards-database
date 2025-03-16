@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It wraps its opponent in its gas-like body,<br />slowly weakening its prey by poisoning it<br />through the skin."
+		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin."
 	},
 
 	stage: "Basic",

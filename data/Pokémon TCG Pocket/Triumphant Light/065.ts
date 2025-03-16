@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its eyes are specially developed to enable it to<br />see clearly even in murky darkness and minimal light."
+		en: "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light."
 	},
 
 	stage: "Stage1",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "At night, Combee sleep in a group of about a<br />hundred, packed closely together in a lump."
+		en: "At night, Combee sleep in a group of about a hundred, packed closely together in a lump."
 	},
 
 	stage: "Basic",

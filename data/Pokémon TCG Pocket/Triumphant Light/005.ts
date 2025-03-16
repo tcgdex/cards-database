@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It houses its colony in cells in its body and<br />releases various pheromones to make those<br />grubs do its bidding."
+		en: "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding."
 	},
 
 	stage: "Stage1",

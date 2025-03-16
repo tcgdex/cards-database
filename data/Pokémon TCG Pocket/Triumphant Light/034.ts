@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Its flat, thin body is always stuck on walls. Its shape<br />appears to have some meaning."
+		en: "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning."
 	},
 
 	stage: "Basic",

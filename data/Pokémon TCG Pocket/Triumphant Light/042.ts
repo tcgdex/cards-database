@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It moves less than an inch a year, but when<br />it's in a jam, it will spin and drill down into the<br />ground in a split second."
+		en: "It moves less than an inch a year, but when it's in a jam, it will spin and drill down into the ground in a split second."
 	},
 
 	stage: "Basic",

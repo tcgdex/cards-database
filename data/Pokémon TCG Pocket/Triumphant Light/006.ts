@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It nimbly dashes about to avoid getting pecked<br />by bird Pokémon that would love to make off<br />with its small, nutrient-rich storage ball."
+		en: "It nimbly dashes about to avoid getting pecked by bird Pokémon that would love to make off with its small, nutrient-rich storage ball."
 	},
 
 	stage: "Basic",

@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its shell is as hard as bedrock, and it is also very<br />strong. Its thrashing can topple a mountain."
+		en: "Its shell is as hard as bedrock, and it is also very strong. Its thrashing can topple a mountain."
 	},
 
 	stage: "Stage1",
