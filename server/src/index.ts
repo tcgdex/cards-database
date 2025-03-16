@@ -27,15 +27,16 @@ if (cluster.isPrimary) {
 	// create the workers
 	console.log(`creating ${maxWorkers} workers...`)
 	for (let i = 0; i < maxWorkers; i++) {
-		cluster.fork();
+		cluster.fork()
 	}
 
 	cluster.on('online', (worker) => {
 		console.log('Worker', worker.id, 'online')
 	})
 
-	cluster.on("exit", (worker, code, _signal) => {
-		console.log(`Worker ${worker.id} exited with code ${code}`);
+	cluster.on("exit", (worker, code, signal) => {
+		console.log(`Worker ${worker.id} exited with code ${code} and signal ${signal}`);
+		cluster.fork()
 	})
 	console.log('🚀 Server ready at localhost:3000');
 } else {

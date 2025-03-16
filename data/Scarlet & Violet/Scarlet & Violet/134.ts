@@ -66,7 +66,6 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 
 	variants: {
-		reverse: false,
 		normal: false
 	}
 }
