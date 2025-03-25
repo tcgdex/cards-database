@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skiddo"
+		en: "Skiddo",
+		fr: "Cabriolaine"
 	},
 
 	illustrator: "Naoki Saito",
@@ -18,11 +19,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Surprise Attack"
+			en: "Surprise Attack",
+			fr: "Attaque Surprise"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		},
 
 		damage: "40"
@@ -38,6 +41,7 @@ const card: Card = {
 
 	description: {
 		en: "Until recently, people living in the mountains would ride on the backs of these Pokémon to traverse the mountain paths.",
+		fr: "Il y a encore peu, les personnes vivant dans les zones montagneuses se déplaçaient à dos de Cabriolaine."
 	}
 }
 

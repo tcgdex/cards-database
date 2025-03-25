@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lilligant"
+		en: "Lilligant",
+		fr: "Fragilady"
 	},
 
 	illustrator: "You Iribi",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Petilil"
+		en: "Petilil",
+		fr: "Chlorobule"
 	},
 
 
@@ -22,11 +24,13 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Leaf Supply"
+			en: "Leaf Supply",
+			fr: "Provision de Feuillage"
 		},
 
 		effect: {
-			en: "Take a G Energy from your Energy Zone and attach it to 1 of your Benched G Pokémon."
+			en: "Take a G Energy from your Energy Zone and attach it to 1 of your Benched G Pokémon.",
+			fr: "Prenez une Énergie G de votre zone Énergie et attachez-la à l'un de vos Pokémon G de Banc."
 		},
 
 		damage: "50"
@@ -43,6 +47,7 @@ const card: Card = {
 
 	description: {
 		en: "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
+		fr: "La fleur sur sa tête émet un parfum qui apaise instantanément, mais elle est très difficile à entretenir."
 	}
 }
 

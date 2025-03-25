@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ivysaur"
+		en: "Ivysaur",
+		fr: "Herbizarre"
 	},
 
 	illustrator: "Kurata So",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Bulbasaur"
-	}, 
+		en: "Bulbasaur",
+		fr: "Bulbizarre"
+	},
 
 	attacks: [{
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Razor Leaf"
+			en: "Razor Leaf",
+			fr: "Tranch'Herbe"
 		},
 
 		damage: "60"
@@ -37,6 +40,7 @@ const card: Card = {
 
 	description: {
 		en: "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+		fr: "Son bulbe dorsal est devenu si gros qu'il ne peut plus se tenir sur ses pattes postérieures."
 	}
 }
 

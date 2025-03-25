@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Venonat"
+		en: "Venonat",
+		fr: "Mimitoss"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 
 		damage: "20"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light.",
+		fr: "Son corps sécrète un poison redoutable. La nuit il capture de petits Pokémon insectes attirés par la lumière."
 	}
 }
 

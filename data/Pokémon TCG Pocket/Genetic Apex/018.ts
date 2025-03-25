@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bellsprout"
+		en: "Bellsprout",
+		fr: "Chétiflor"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Vine Whip"
+			en: "Vine Whip",
+			fr: "Fouet Lianes"
 		},
 
 		damage: "20"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+		fr: "Même si son coprs est très frêle, ce Pokémon est extrêmement rapide quand il attaque ses adversaires."
 	}
 }
 
