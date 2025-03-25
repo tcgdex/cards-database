@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Moltres ex"
+		en: "Moltres ex",
+		fr: "Sulfura ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -19,17 +20,20 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Inferno Dance"
+			en: "Inferno Dance",
+			fr: "Danse Infernale"
 		},
 
 		effect: {
-			en: "Flip 3 coins. Take an amount of R Energy from your Energy Zone equal to the number of heads and attach it to your Benched R Pokémon in any way you like."
+			en: "Flip 3 coins. Take an amount of R Energy from your Energy Zone equal to the number of heads and attach it to your Benched R Pokémon in any way you like.",
+			fr: "Lancez 3 pièces. Prenez le même nombre d'Énergie R de votre zone Énergie que le nombres de côté face obtenu et attachez-les à vos Pokémon R de Banc comme il vous plaît."
 		}
 	}, {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heat Blast"
+			en: "Heat Blast",
+			fr: "Explosion de Chaleur"
 		},
 
 		damage: "70"

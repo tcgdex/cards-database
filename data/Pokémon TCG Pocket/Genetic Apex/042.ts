@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ponyta"
+		en: "Ponyta",
+		fr: "Ponyta"
 	},
 
 	illustrator: "Uta",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Flare"
+			en: "Flare",
+			fr: "Flamboiement"
 		},
 
 		damage: "20"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "It can't run properly when it's newly born. As it races around with others of its kind, its legs grow stronger.",
+		fr: "A la naissance, il ne court pas très vite. C'est en faisant la course avec ses camarades qu'il se muscle les jambes."
 	}
 }
 

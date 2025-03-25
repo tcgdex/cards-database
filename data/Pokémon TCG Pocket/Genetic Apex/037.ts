@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vulpix"
+		en: "Vulpix",
+		fr: "Goupix"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -18,11 +19,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tail Whip"
+			en: "Tail Whip",
+			fr: "Mimi-Queue"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon can't attack during your opponent's next turn."
+			en: "Flip a coin. If heads, your opponent's Active Pokémon can't attack during your opponent's next turn.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire."
 		}
 	}],
 
@@ -36,6 +39,7 @@ const card: Card = {
 
 	description: {
 		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
+		fr: "Quand il est jeune, ce Pokémon a six queues magnifiques. De nouvelles queues apparaissent tout au long de sa croissance."
 	}
 }
 

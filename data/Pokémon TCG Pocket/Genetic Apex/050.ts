@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Salazzle"
+		en: "Salazzle",
+		fr: "Malamandre"
 	},
 
 	illustrator: "hatachu",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Fire Claws"
+			en: "Fire Claws",
+			fr: "Griffes Enflammées"
 		},
 
 		damage: "60"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
+		fr: "Il étourdit ses adversaires avec son gaz toxique, puis il les asservit en exécutant une danse envoûtante."
 	}
 }
 

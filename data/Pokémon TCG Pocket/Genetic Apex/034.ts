@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmeleon"
+		en: "Charmeleon",
+		fr: "Reptincel"
 	},
 
 	illustrator: "kantaro",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Charmander"
+		en: "Charmander",
+		fr: "Salamèche"
 	},
 
 
@@ -22,7 +24,8 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Fire Claws"
+			en: "Fire Claws",
+			fr: "Griffes Enflammées"
 		},
 
 		damage: "60"
@@ -38,6 +41,7 @@ const card: Card = {
 
 	description: {
 		en: "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+		fr: "Il est très brutal. En combat, il se sert de ses griffes acérées et de sa queue enflammée pour mettre en pièces ses adversaires."
 	}
 }
 

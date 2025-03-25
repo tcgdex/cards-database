@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ninetales"
+		en: "Ninetales",
+		fr: "Feunard"
 	},
 
 	illustrator: "You Iribi",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Vulpix"
+		en: "Vulpix",
+		fr: "Goupix"
 	},
 
 
@@ -22,11 +24,13 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Flamethrower"
+			en: "Flamethrower",
+			fr: "Lance-Flammes"
 		},
 
 		effect: {
-			en: "Discard 1 R Energy from this Pokémon."
+			en: "Discard 1 R Energy from this Pokémon.",
+			fr: "Défaussez une Énergie R de ce Pokémon."
 		},
 
 		damage: "90"
@@ -42,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
+		fr: "On dit qu'il vit 1 000 ans et que chacune de ses queues a un pouvoir magique."
 	},
 
 }

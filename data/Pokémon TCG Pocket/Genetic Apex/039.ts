@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe"
+		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	illustrator: "Mizue",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 
 		damage: "20"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+		fr: "Courageux et fidèle, il se dresse vaillament devant ses ennemis mêmes s'ils sont plus puissants que lui."
 	}
 }
 
