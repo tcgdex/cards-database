@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Scintillating Surfing"
 		},
 
-		damage: 50,
+		damage: "50x",
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		effect: {
