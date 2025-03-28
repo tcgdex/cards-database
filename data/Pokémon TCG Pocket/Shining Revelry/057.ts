@@ -33,7 +33,7 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin for each  Energy attached to this Pokémon. This attack does 50 damage for each heads."
+			en: "Flip a coin for each [Metal] Energy attached to this Pokémon. This attack does 50 damage for each heads."
 		}
 	}],
 
