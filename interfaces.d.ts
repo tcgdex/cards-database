@@ -132,7 +132,7 @@ export interface Card {
 			'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
 			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon' |
 			// Pokémon TCG Pocket Rarities
-			'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown'
+			'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 
 	/**
 	 * Card Category
