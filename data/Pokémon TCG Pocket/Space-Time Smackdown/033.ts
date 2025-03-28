@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This Pokémon takes −30 damage from attacks from <span class=\"energy-text energy-text--type-fire\"></span> or <span class=\"energy-text energy-text--type-water\"></span> Pokémon."
+			en: "This Pokémon takes −30 damage from attacks from [Fire] or <span class=\"energy-text energy-text--type-water\"></span> Pokémon."
 		}
 	}],
 
