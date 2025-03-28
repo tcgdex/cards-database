@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Water"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a <span class=\"energy-text energy-text--type-fighting\"></span> Pokémon, this attack does 30 more damage."
+			en: "If your opponent's Active Pokémon is a [Fighting] Pokémon, this attack does 30 more damage."
 		}
 	}],
 
