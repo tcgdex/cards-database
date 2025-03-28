@@ -31,7 +31,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "As often as you like during your turn, you may move a <span class=\"energy-text energy-text--type-water\"></span> Energy from 1 of your Benched <span class=\"energy-text energy-text--type-water\"></span> Pokémon to your Active <span class=\"energy-text energy-text--type-water\"></span> Pokémon."
+			en: "As often as you like during your turn, you may move a [Water] Energy from 1 of your Benched [Water] Pokémon to your Active [Water] Pokémon."
 		}
 	}],
 

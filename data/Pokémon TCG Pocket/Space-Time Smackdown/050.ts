@@ -28,7 +28,7 @@ const card: Card = {
 		cost: ["Water"],
 
 		effect: {
-			en: "Choose 2 of your Benched Pokémon. For each of those Pokémon, take a <span class=\"energy-text energy-text--type-water\"></span> Energy from your Energy Zone and attach it to that Pokémon."
+			en: "Choose 2 of your Benched Pokémon. For each of those Pokémon, take a [Water] Energy from your Energy Zone and attach it to that Pokémon."
 		}
 	}],
 
