@@ -76,6 +76,13 @@ jobs:
           rm -rf node_modules
           cd ..
           rm -rf node_modules
+          
+      - name: Print Folder Tree
+        uses: jaywcjlove/github-action-folder-tree@main
+        with:
+          exclude: "node_modules|dist|.git|.husky|data|data-asia"
+          path: .
+          depth: 4
 
       - name: Build and push
         id: build
