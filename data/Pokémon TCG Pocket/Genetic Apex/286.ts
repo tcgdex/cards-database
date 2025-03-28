@@ -31,7 +31,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard 2 P Energy from this Pokémon."
+			en: "Discard 2 [Psychic] Energy from this Pokémon."
 		},
 
 		damage: "150"

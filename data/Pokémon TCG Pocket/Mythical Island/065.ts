@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Look at the top card of your deck. If that card is a <span class=\"energy-text energy-text--type-psychic\"></span> Pokémon, put it into your hand. If it is not a <span class=\"energy-text energy-text--type-psychic\"></span> Pokémon, put it on the bottom of your deck."
+		en: "Look at the top card of your deck. If that card is a [Psychic] Pokémon, put it into your hand. If it is not a [Psychic] Pokémon, put it on the bottom of your deck."
 	},
 
 	trainerType: "Item",

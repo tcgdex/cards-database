@@ -24,7 +24,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Whenever you attach a <span class=\"energy-text energy-text--type-psychic\"></span> Energy from your Energy Zone to this Pokémon, heal 20 damage from this Pokémon."
+			en: "Whenever you attach a [Psychic] Energy from your Energy Zone to this Pokémon, heal 20 damage from this Pokémon."
 		}
 	}],
 
