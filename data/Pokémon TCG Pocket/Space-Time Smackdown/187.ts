@@ -24,7 +24,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Whenever you attach a <span class=\"energy-text energy-text--type-darkness\"></span> Energy from your Energy Zone to this Pokémon, do 20 damage to your opponent's Active Pokémon."
+			en: "Whenever you attach a [Darkness] Energy from your Energy Zone to this Pokémon, do 20 damage to your opponent's Active Pokémon."
 		}
 	}],
 
