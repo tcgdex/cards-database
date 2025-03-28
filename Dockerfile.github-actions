@@ -27,11 +27,11 @@ USER bun
 WORKDIR /usr/src/app
 
 # copy from build image
-COPY --chown=bun:bun /usr/src/app/server/public ./public
-COPY --chown=bun:bun /usr/src/app/server/package.json ./package.json
+COPY --chown=bun:bun ./server/public ./public
+COPY --chown=bun:bun ./server/package.json ./package.json
 COPY --chown=bun:bun --from=build /usr/src/app/server/node_modules ./node_modules
-COPY --chown=bun:bun /usr/src/app/server/src ./src
-COPY --chown=bun:bun /usr/src/app/server/generated ./generated
+COPY --chown=bun:bun ./server/src ./src
+COPY --chown=bun:bun ./server/generated ./generated
 
 # Expose port
 EXPOSE 3000
