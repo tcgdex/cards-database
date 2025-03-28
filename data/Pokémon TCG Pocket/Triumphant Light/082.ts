@@ -29,7 +29,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is in the Active Spot, you may take a <span class=\"energy-text energy-text--type-grass\"></span> Energy from your Energy Zone and attach it to 1 of your <span class=\"energy-text energy-text--type-grass\"></span> Pokémon."
+			en: "Once during your turn, if this Pokémon is in the Active Spot, you may take a [Grass] Energy from your Energy Zone and attach it to 1 of your [Grass] Pokémon."
 		}
 	}],
 

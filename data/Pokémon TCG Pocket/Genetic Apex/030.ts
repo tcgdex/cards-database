@@ -26,7 +26,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Take a G Energy from your Energy Zone and attach it to 1 of your Benched G Pokémon."
+			en: "Take a [Grass] Energy from your Energy Zone and attach it to 1 of your Benched [Grass] Pokémon."
 		},
 
 		damage: "50"

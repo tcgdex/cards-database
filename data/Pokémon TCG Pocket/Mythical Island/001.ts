@@ -27,7 +27,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Take a <span class=\"energy-text energy-text--type-grass\"></span> Energy from your Energy Zone and attach it to this Pokémon."
+			en: "Take a [Grass] Energy from your Energy Zone and attach it to this Pokémon."
 		}
 	}],
 
