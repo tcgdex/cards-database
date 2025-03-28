@@ -9,7 +9,8 @@ const xy0: Set = {
 		fr: "Bienvenue à Kalos",
 		it: "Benvenuti a Kalos",
 		de: "Willkommen in Kalos",
-		pt: "Conjunto para Iniciantes Kalos"
+		pt: "Conjunto para Iniciantes Kalos",
+		ru: 'Стартовый Набор Калоса'
 	},
 
 	serie: serie,
@@ -19,7 +20,12 @@ const xy0: Set = {
 		official: 45
 	},
 
-	releaseDate: "2013-11-08"
+	releaseDate: "2013-11-08",
+
+	abbreviations: {
+		official: "KSS",
+		fr: "BAK"
+	}
 }
 
 export default xy0

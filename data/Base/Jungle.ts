@@ -10,7 +10,8 @@ const base2: Set = {
 		de: "Dschungel",
 		it: "Jungle",
 		es: "Jungla",
-		pt: "Selva"
+		pt: "Selva",
+		nl: "Jungle"
 	},
 
 	serie: serie,
@@ -20,7 +21,12 @@ const base2: Set = {
 		official: 64
 	},
 
-	releaseDate: "1999-06-16"
+	releaseDate: "1999-06-16",
+
+	abbreviations: {
+		official: "JU",
+		fr: "JUN"
+	}
 }
 
 export default base2

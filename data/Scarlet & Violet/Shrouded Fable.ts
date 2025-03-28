@@ -19,7 +19,12 @@ const set: Set = {
 		official: 64
 	},
 
-	releaseDate: "2024-08-02"
+	releaseDate: "2024-08-02",
+
+	abbreviations: {
+		official: "SFA",
+		fr: "FNE"
+	}
 }
 
 export default set

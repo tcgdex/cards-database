@@ -18,7 +18,12 @@ const s2011bw: Set = {
 		official: 12
 	},
 
-	releaseDate: "2011-06-17"
+	releaseDate: "2011-06-17",
+
+	abbreviations: {
+		official: "MCD11",
+		fr: "M12"
+	}
 }
 
 export default s2011bw

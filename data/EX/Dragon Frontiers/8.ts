@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Ninetales δ",
-		fr: "Feunard δ ESPÈCES DELTA",
+		fr: "Feunard δ",
 		de: "Vulnona"
 	},
 	illustrator: "Hajime Kusajima",

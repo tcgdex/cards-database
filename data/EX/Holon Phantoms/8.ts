@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Gyarados δ",
-		fr: "Leviator δ ESPÈCES DELTA",
+		fr: "Leviator δ",
 		de: "Garados"
 	},
 	illustrator: "Hajime Kusajima",

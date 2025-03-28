@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Nidoran♀ δ",
-		fr: "Nidoran ♀ δ ESPÈCES DELTA",
+		fr: "Nidoran ♀ δ",
 		de: "Nidoran W"
 	},
 	illustrator: "Hajime Kusajima",

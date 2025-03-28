@@ -20,7 +20,12 @@ const sm3: Set = {
 		official: 147
 	},
 
-	releaseDate: "2017-08-04"
+	releaseDate: "2017-08-04",
+
+	abbreviations: {
+		official: "BUS",
+		fr: "OAR"
+	}
 }
 
 export default sm3

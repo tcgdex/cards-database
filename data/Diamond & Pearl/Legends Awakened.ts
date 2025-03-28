@@ -19,7 +19,12 @@ const dp6: Set = {
 		official: 146
 	},
 
-	releaseDate: "2008-08-01"
+	releaseDate: "2008-08-01",
+
+	abbreviations: {
+		official: "LA",
+		fr: "EDL"
+	}
 }
 
 export default dp6

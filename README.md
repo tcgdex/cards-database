@@ -27,15 +27,11 @@ A Multilanguage Pokémon TCG Database with Cards Pictures and most of the inform
 
 ## Getting Started
 
-_If you need help for using/editing the database, [join us on Discord](https://discord.gg/NehYTAhsZE)!_
-
-### Using the Database
-
-_The full documentation is available at <https://www.tcgdex.dev>_
+A full documentation of the API is available at <https://tcgdex.dev>
 
 - The easiest way to interact with the database is by using one of our SDKs listed below.
 - You can also direcly use the endpoints at `api.tcgdex.net` (see the documentation).
-- You can build the API yourself by using our `Dockerfile` and using it on the port 3000
+- You can build the API yourself by using our `Dockerfile` and using it on the port 3000 (`docker-compose.yml` file included above)
 
 #### SDKs / API Wrappers
 
@@ -44,14 +40,6 @@ We currently officially support theses SDKs
 - [Javascript/Typescript SDK](https://github.com/tcgdex/javascript-sdk)
 - [PHP SDK](https://github.com/tcgdex/php-sdk)
 - [Java SDK](https://github.com/tcgdex/java-sdk)
-
-### Editing the Database
-
-There is three sub folders that will allow you to edit some faces of the database
-
-- `/data`: Contains Cards Data architectured around `SerieName/SetName/CardLocalId` folders
-- `/meta`: Contains informations for the project (definitions files, Translations for some fields)
-- `/server`: The server that allow to communicate with the database
 
 ## Status
 
@@ -62,18 +50,19 @@ We are making sure to make every cards available for every languages they were a
 _want to help translating? each object fields on cards that have at least en,fr,es,de,it or pt can have the others!,_
 _Also we have another translation files located at `meta/translations`_
 
-## Contributing
+## Sponsors 💕
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md)
+_[Support us as a sponsor](https://github.com/sponsors/tcgdex) and have your logo featured on our GitHub README, complete with a link to your website._
 
-TL::DR
-- Fork
-- make your changes
-- pull request
+<p align="center">
+  <a href="https://dzeio.com" target="_blank" title="Dzeio">
+    <img height="128" width="32%" src="./.github/sponsors/dzeio.svg" alt="TCGdex Sponsor Dzeio" />
+  </a>
+</p>
 
-## Deprecation
-
-As of February 2021, the v1 API is no longer supported.
+<p align="center">
+  <!-- <a href="https://dzeio.com" target="_blank" title="Dzeio"><img height="80" width="19%" src="./.github/sponsors/dzeio.svg" alt="TCGdex Sponsor Dzeio" /></a> -->
+</p>
 
 ## Contributors ✨
 
@@ -102,6 +91,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Deprecation
+
+As of February 2021, the v1 API is no longer supported.
 
 ## Licenses
 

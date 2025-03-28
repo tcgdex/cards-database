@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Flygon δ",
-		fr: "Libegon δ ESPÈCES DELTA",
+		fr: "Libegon δ",
 		de: "Libelldra"
 	},
 	illustrator: "Kagemaru Himeno",

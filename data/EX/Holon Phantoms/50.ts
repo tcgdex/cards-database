@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Primeape δ",
-		fr: "Colossinge δ ESPÈCES DELTA",
+		fr: "Colossinge δ",
 		de: "Rasaff"
 	},
 	illustrator: "Hajime Kusajima",

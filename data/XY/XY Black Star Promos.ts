@@ -19,7 +19,12 @@ const xyp: Set = {
 		official: 211
 	},
 
-	releaseDate: "2013-10-12"
+	releaseDate: "2013-10-12",
+
+	abbreviations: {
+		official: 'XYP',
+		fr: "PXY"
+	}
 }
 
 export default xyp

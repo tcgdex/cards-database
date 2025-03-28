@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Trapinch δ",
-		fr: "Kraknoix δ ESPÈCES DELTA",
+		fr: "Kraknoix δ",
 		de: "Knacklion"
 	},
 	illustrator: "Midori Harada",

@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Aerodactyl δ",
-		fr: "Ptera δ ESPÈCES DELTA",
+		fr: "Ptera δ",
 		de: "Aerodactyl"
 	},
 	illustrator: "Mitsuhiro Arita",

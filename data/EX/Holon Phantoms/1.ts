@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Armaldo δ",
-		fr: "Armaldo δ ESPÈCES DELTA",
+		fr: "Armaldo δ",
 		de: "Armaldo"
 	},
 	illustrator: "Masakazu Fukuda",

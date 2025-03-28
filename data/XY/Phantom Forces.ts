@@ -10,7 +10,8 @@ const xy4: Set = {
 		es: "Fuerzas Fantasmales",
 		it: "Forze Spettrali",
 		de: "Phantomkräfte",
-		pt: "Força Fantasma"
+		pt: "Força Fantasma",
+		ru: "Призрачные Силы"
 	},
 
 	serie: serie,
@@ -20,7 +21,12 @@ const xy4: Set = {
 		official: 119
 	},
 
-	releaseDate: "2014-11-05"
+	releaseDate: "2014-11-05",
+
+	abbreviations: {
+		official: "PHF",
+		fr: "VSP"
+	}
 }
 
 export default xy4

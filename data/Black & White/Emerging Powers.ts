@@ -20,7 +20,12 @@ const bw2: Set = {
 		official: 98
 	},
 
-	releaseDate: "2011-08-31"
+	releaseDate: "2011-08-31",
+
+	abbreviations: {
+		official: "EP",
+		fr: "PEM"
+	}
 }
 
 export default bw2

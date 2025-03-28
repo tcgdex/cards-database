@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Rayquaza δ",
-		fr: "Rayquaza δ ESPÈCES DELTA",
+		fr: "Rayquaza δ",
 		de: "Rayquaza"
 	},
 	illustrator: "Mitsuhiro Arita",

@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Totodile δ",
-		fr: "Kaiminus δ ESPÈCES DELTA",
+		fr: "Kaiminus δ",
 		de: "Karnimani"
 	},
 	illustrator: "Hisao Nakamura",

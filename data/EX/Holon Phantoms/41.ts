@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Exeggutor δ",
-		fr: "Noadkoko δ ESPÈCES DELTA",
+		fr: "Noadkoko δ",
 		de: "Kokowei"
 	},
 	illustrator: "Midori Harada",

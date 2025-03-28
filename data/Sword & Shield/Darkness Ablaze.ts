@@ -14,14 +14,18 @@ const swsh3: Set = {
 	},
 
 	tcgOnline: 'DAA',
-
 	serie: serie,
 
 	cardCount: {
 		official: 189
 	},
 
-	releaseDate: "2020-08-14"
+	releaseDate: "2020-08-14",
+
+	abbreviations: {
+		official: "DAA",
+		fr: "TEM"
+	}
 }
 
 export default swsh3

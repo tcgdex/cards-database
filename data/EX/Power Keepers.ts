@@ -17,7 +17,12 @@ const ex16: Set = {
 		official: 108
 	},
 
-	releaseDate: "2007-02-17"
+	releaseDate: "2007-02-17",
+
+	abbreviations: {
+		official: "PK",
+		fr: "GDP"
+	}
 }
 
 export default ex16

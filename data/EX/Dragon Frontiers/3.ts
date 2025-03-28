@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Heracross δ",
-		fr: "Scarhino δ ESPÈCES DELTA",
+		fr: "Scarhino δ",
 		de: "Skaraborn"
 	},
 	illustrator: "Mitsuhiro Arita",

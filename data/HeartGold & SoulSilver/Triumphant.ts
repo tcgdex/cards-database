@@ -19,7 +19,12 @@ const hgss4: Set = {
 		official: 102
 	},
 
-	releaseDate: "2010-11-03"
+	releaseDate: "2010-11-03",
+
+	abbreviations: {
+		official: "TRI",
+		fr: "TRI"
+	}
 }
 
 export default hgss4

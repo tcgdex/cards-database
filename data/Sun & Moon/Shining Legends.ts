@@ -20,7 +20,12 @@ const sm35: Set = {
 		official: 73
 	},
 
-	releaseDate: "2017-10-06"
+	releaseDate: "2017-10-06",
+
+	abbreviations: {
+		official: "SLG",
+		fr: "LBR"
+	}
 }
 
 export default sm35

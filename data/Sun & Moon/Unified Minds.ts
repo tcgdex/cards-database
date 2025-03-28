@@ -20,7 +20,12 @@ const sm11: Set = {
 		official: 236
 	},
 
-	releaseDate: "2019-08-02"
+	releaseDate: "2019-08-02",
+
+	abbreviations: {
+		official: "UNM",
+		fr: "HES"
+	}
 }
 
 export default sm11

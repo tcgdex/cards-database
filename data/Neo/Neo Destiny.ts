@@ -18,7 +18,12 @@ const neo4: Set = {
 		official: 105
 	},
 
-	releaseDate: "2002-02-28"
+	releaseDate: "2002-02-28",
+
+	abbreviations: {
+		official: "N4",
+		fr: "NDT"
+	}
 }
 
 export default neo4

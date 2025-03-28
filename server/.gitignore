@@ -4,3 +4,5 @@
 /public/**/graphql.gql
 /public/**/api.d.ts
 /public/**/openapi.yaml
+.env
+.env.*

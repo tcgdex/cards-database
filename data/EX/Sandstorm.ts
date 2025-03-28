@@ -18,7 +18,12 @@ const ex2: Set = {
 		official: 100
 	},
 
-	releaseDate: "2003-09-18"
+	releaseDate: "2003-09-18",
+
+	abbreviations: {
+		official: "SS",
+		fr: "TES"
+	}
 }
 
 export default ex2

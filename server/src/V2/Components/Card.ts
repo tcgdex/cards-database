@@ -1,48 +1,47 @@
 import { objectLoop } from '@dzeio/object-util'
-import { CardResume, Card as SDKCard, SupportedLanguages } from '@tcgdex/sdk'
-import { Query } from '../../interfaces'
-import { handlePagination, handleSort, handleValidation } from '../../util'
-import Set from './Set'
+import type { CardResume, Card as SDKCard, SupportedLanguages } from '@tcgdex/sdk'
+import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
+import TCGSet from './Set'
 
-import en from '../../../generated/en/cards.json'
-import fr from '../../../generated/fr/cards.json'
-import es from '../../../generated/es/cards.json'
-import it from '../../../generated/it/cards.json'
-import pt from '../../../generated/pt/cards.json'
-import ptbr from '../../../generated/pt-br/cards.json'
-import ptpt from '../../../generated/pt-pt/cards.json'
 import de from '../../../generated/de/cards.json'
-import nl from '../../../generated/nl/cards.json'
-import pl from '../../../generated/pl/cards.json'
-import ru from '../../../generated/ru/cards.json'
+import en from '../../../generated/en/cards.json'
+import es from '../../../generated/es/cards.json'
+import fr from '../../../generated/fr/cards.json'
+import id from '../../../generated/id/cards.json'
+import it from '../../../generated/it/cards.json'
 import ja from '../../../generated/ja/cards.json'
 import ko from '../../../generated/ko/cards.json'
-import zhtw from '../../../generated/zh-tw/cards.json'
-import id from '../../../generated/id/cards.json'
+import nl from '../../../generated/nl/cards.json'
+import pl from '../../../generated/pl/cards.json'
+import ptbr from '../../../generated/pt-br/cards.json'
+import ptpt from '../../../generated/pt-pt/cards.json'
+import pt from '../../../generated/pt/cards.json'
+import ru from '../../../generated/ru/cards.json'
 import th from '../../../generated/th/cards.json'
 import zhcn from '../../../generated/zh-cn/cards.json'
+import zhtw from '../../../generated/zh-tw/cards.json'
 
 const cards = {
-	'en': en,
-	'fr': fr,
-	'es': es,
-	'it': it,
-	'pt': pt,
+	en: en,
+	fr: fr,
+	es: es,
+	it: it,
+	pt: pt,
 	'pt-br': ptbr,
 	'pt-pt': ptpt,
-	'de': de,
-	'nl': nl,
-	'pl': pl,
-	'ru': ru,
-	'ja': ja,
-	'ko': ko,
+	de: de,
+	nl: nl,
+	pl: pl,
+	ru: ru,
+	ja: ja,
+	ko: ko,
 	'zh-tw': zhtw,
-	'id': id,
-	'th': th,
+	id: id,
+	th: th,
 	'zh-cn': zhcn,
 } as const
 
-type LocalCard = Omit<SDKCard, 'set'> & {set: () => Set}
+type LocalCard = Omit<SDKCard, 'set'> & {set: () => TCGSet}
 
 interface variants {
 	normal?: boolean;
@@ -93,8 +92,8 @@ export default class Card implements LocalCard {
 		})
 	}
 
-	public set(): Set {
-		return Set.findOne(this.lang, {filters: { id: this.card.set.id }}) as Set
+	public set(): TCGSet {
+		return TCGSet.findOne(this.lang, { id: this.card.set.id }) as TCGSet
 	}
 
 	public static getAll(lang: SupportedLanguages): Array<SDKCard> {
@@ -102,16 +101,15 @@ export default class Card implements LocalCard {
 	}
 
 	public static find(lang: SupportedLanguages, query: Query<SDKCard>) {
-		return handlePagination(handleSort(handleValidation(this.getAll(lang), query), query), query)
-			.map((it) => new Card(lang, it))
+		return executeQuery(Card.getAll(lang), query).data.map((it) => new Card(lang, it))
 	}
 
 	public static findOne(lang: SupportedLanguages, query: Query<SDKCard>) {
-		const res = handleSort(handleValidation(this.getAll(lang), query), query)
+		const res = Card.find(lang, query)
 		if (res.length === 0) {
 			return undefined
 		}
-		return new Card(lang, res[0])
+		return res[0]
 	}
 
 	public resume(): CardResume {

@@ -18,7 +18,12 @@ const pl2: Set = {
 		official: 111
 	},
 
-	releaseDate: "2009-05-16"
+	releaseDate: "2009-05-16",
+
+	abbreviations: {
+		official: "RR",
+		fr: "REM"
+	}
 }
 
 export default pl2

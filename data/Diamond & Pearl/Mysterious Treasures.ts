@@ -10,7 +10,8 @@ const dp2: Set = {
 		es: "Tesoros Misteriosos",
 		it: "Tesori Misteriosi",
 		de: "Geheimnisvolle Schätze",
-		pt: "Tesouros Misteriosos"
+		pt: "Tesouros Misteriosos",
+		pl: 'Tajemne Skarby'
 	},
 
 	serie: serie,
@@ -20,7 +21,12 @@ const dp2: Set = {
 		official: 122
 	},
 
-	releaseDate: "2007-08-01"
+	releaseDate: "2007-08-01",
+
+	abbreviations: {
+		official: "MT",
+		fr: "TMY"
+	}
 }
 
 export default dp2

@@ -18,7 +18,12 @@ const ex6: Set = {
 		official: 112
 	},
 
-	releaseDate: "2004-09-01"
+	releaseDate: "2004-09-01",
+
+	abbreviations: {
+		official: "RG",
+		fr: "RFV"
+	}
 }
 
 export default ex6

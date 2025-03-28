@@ -20,7 +20,12 @@ const ex10: Set = {
 		official: 115
 	},
 
-	releaseDate: "2005-08-22"
+	releaseDate: "2005-08-22",
+
+	abbreviations: {
+		official: "UF",
+		fr: "FCH"
+	}
 }
 
 export default ex10

@@ -10,7 +10,8 @@ const base3: Set = {
 		es: "Fósil",
 		it: "Fossil",
 		de: "Fossil",
-		pt: "Fóssil"
+		pt: "Fóssil",
+		nl: "Fossiel"
 	},
 
 	serie: serie,
@@ -20,7 +21,12 @@ const base3: Set = {
 		official: 62
 	},
 
-	releaseDate: "1999-10-10"
+	releaseDate: "1999-10-10",
+
+	abbreviations: {
+		official: "FO",
+		fr: "FOS"
+	}
 }
 
 export default base3

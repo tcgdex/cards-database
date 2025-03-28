@@ -20,7 +20,12 @@ const det1: Set = {
 		official: 18
 	},
 
-	releaseDate: "2019-03-29"
+	releaseDate: "2019-03-29",
+
+	abbreviations: {
+		official: "DET",
+		fr: "DPI"
+	}
 }
 
 export default det1

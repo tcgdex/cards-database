@@ -10,7 +10,8 @@ const xy7: Set = {
 		es: "Antiguos Orígenes",
 		it: "Antiche Origini",
 		de: "Ewiger Anfang",
-		pt: "Origens Ancestrais"
+		pt: "Origens Ancestrais",
+		ru: "Древние Истоки"
 	},
 
 	serie: serie,
@@ -20,7 +21,12 @@ const xy7: Set = {
 		official: 98
 	},
 
-	releaseDate: "2015-08-12"
+	releaseDate: "2015-08-12",
+
+	abbreviations: {
+		official: "AOR",
+		fr: "ORA"
+	}
 }
 
 export default xy7

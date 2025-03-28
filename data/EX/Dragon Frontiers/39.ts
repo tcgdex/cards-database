@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Smeargle δ",
-		fr: "Queulorior δ ESPÈCES DELTA",
+		fr: "Queulorior δ",
 		de: "Farbeagle"
 	},
 	illustrator: "Kagemaru Himeno",

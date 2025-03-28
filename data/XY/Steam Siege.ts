@@ -20,7 +20,12 @@ const xy11: Set = {
 		official: 114
 	},
 
-	releaseDate: "2016-08-03"
+	releaseDate: "2016-08-03",
+
+	abbreviations: {
+		official: "STS",
+		fr: "OFV"
+	}
 }
 
 export default xy11

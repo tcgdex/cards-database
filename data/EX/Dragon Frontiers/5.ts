@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Milotic δ",
-		fr: "Milobellus δ ESPÈCES DELTA",
+		fr: "Milobellus δ",
 		de: "Milotic"
 	},
 	illustrator: "Midori Harada",

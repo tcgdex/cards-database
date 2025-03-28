@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Vulpix δ",
-		fr: "Goupix δ ESPÈCES DELTA",
+		fr: "Goupix δ",
 		de: "Vulpix"
 	},
 	illustrator: "Sachiko Adachi",

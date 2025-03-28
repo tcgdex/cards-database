@@ -14,7 +14,11 @@ const swshp: Set = {
 		official: 5
 	},
 
-	releaseDate: "2020-09-11"
+	releaseDate: "2020-09-11",
+
+	abbreviations: {
+		official: "FUT20"
+	}
 }
 
 export default swshp

@@ -5,22 +5,38 @@ import { Errors, sendError } from './libs/Errors'
 import status from './status'
 import jsonEndpoints from './V2/endpoints/jsonEndpoints'
 import graphql from './V2/graphql'
+import * as Sentry from "@sentry/node"
+
+// Glitchtip will only start if the DSN is set :D
+Sentry.init({
+	dsn: process.env.GLITCHTIP_DSN,
+	environment: process.env.NODE_ENV
+})
 
 if (cluster.isPrimary) {
-	console.log(`Primary ${process.pid} is running`);
+	console.log(`Primary ${process.pid} is running`)
 
-	const parallelism = availableParallelism()
-	console.log(`creating ${parallelism} workers...`)
-	for (let i = 0; i < parallelism; i++) {
-		cluster.fork();
+	// get maximum number of workers available for the software
+	let maxWorkers = availableParallelism()
+
+	// allow to override max worker count
+	if (process.env.MAX_WORKERS) {
+		maxWorkers = Math.min(maxWorkers, parseInt(process.env.MAX_WORKERS))
+	}
+
+	// create the workers
+	console.log(`creating ${maxWorkers} workers...`)
+	for (let i = 0; i < maxWorkers; i++) {
+		cluster.fork()
 	}
 
 	cluster.on('online', (worker) => {
 		console.log('Worker', worker.id, 'online')
 	})
 
-	cluster.on("exit", (worker, code, _signal) => {
-		console.log(`Worker ${worker.id} exited with code ${code}`);
+	cluster.on("exit", (worker, code, signal) => {
+		console.log(`Worker ${worker.id} exited with code ${code} and signal ${signal}`);
+		cluster.fork()
 	})
 	console.log('🚀 Server ready at localhost:3000');
 } else {
@@ -99,7 +115,8 @@ if (cluster.isPrimary) {
 		sendError(Errors.NOT_FOUND, res)
 	})
 
-	// General error handler
+	// Error handlers
+	Sentry.setupExpressErrorHandler(server)
 	server.use((err: Error, _1: unknown, res: Response, _2: unknown) => {
 		// add a full line dash to not miss it
 		const columns = (process?.stdout?.columns ?? 32) - 7

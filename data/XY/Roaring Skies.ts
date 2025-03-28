@@ -10,7 +10,8 @@ const xy6: Set = {
 		es: "Cielos Rugientes",
 		it: "Furie Volanti",
 		de: "Drachenleuchten",
-		pt: "Céus Estrondosos"
+		pt: "Céus Estrondosos",
+		ru: "Грохочущие Небеса"
 	},
 
 	serie: serie,
@@ -20,7 +21,12 @@ const xy6: Set = {
 		official: 108
 	},
 
-	releaseDate: "2015-05-06"
+	releaseDate: "2015-05-06",
+
+	abbreviations: {
+		official: "ROS",
+		fr: "CRU"
+	}
 }
 
 export default xy6

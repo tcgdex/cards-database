@@ -3,6 +3,7 @@ import serie from '../Sword & Shield'
 
 const set: Set = {
 	id: "swsh8",
+
 	name: {
 		en: "Fusion Strike",
 		fr: "Poing de Fusion",
@@ -13,15 +14,18 @@ const set: Set = {
 	},
 
 	tcgOnline: 'FST',
-
 	serie: serie,
-
 
 	cardCount: {
 		official: 264
 	},
 
-	releaseDate: "2021-11-12"
+	releaseDate: "2021-11-12",
+
+	abbreviations: {
+		official: "FST",
+		fr: "PDF"
+	}
 }
 
 export default set

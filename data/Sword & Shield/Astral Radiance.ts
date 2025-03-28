@@ -14,14 +14,18 @@ const set: Set = {
 	},
 
 	tcgOnline: 'ASR',
-
 	serie: serie,
 
 	cardCount: {
 		official: 189
 	},
 
-	releaseDate: "2022-05-27"
+	releaseDate: "2022-05-27",
+
+	abbreviations: {
+		official: "ASR",
+		fr: "ASR"
+	}
 }
 
 export default set

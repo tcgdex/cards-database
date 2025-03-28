@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Taillow δ",
-		fr: "Nirondelle δ ESPÈCES DELTA",
+		fr: "Nirondelle δ",
 		de: "Schwalbini"
 	},
 	illustrator: "Miki Tanaka",

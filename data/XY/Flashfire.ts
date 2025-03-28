@@ -10,7 +10,8 @@ const xy2: Set = {
 		es: "Destellos de Fuego",
 		it: "Fuoco Infernale",
 		de: "Flammenmeer",
-		pt: "Flash de Fogo"
+		pt: "Flash de Fogo",
+		ru: "Огненная Вспышка"
 	},
 
 	serie: serie,
@@ -20,7 +21,12 @@ const xy2: Set = {
 		official: 106
 	},
 
-	releaseDate: "2014-05-07"
+	releaseDate: "2014-05-07",
+
+	abbreviations: {
+		official: "FLF",
+		fr: "ETI"
+	}
 }
 
 export default xy2

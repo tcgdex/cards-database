@@ -15,6 +15,9 @@ export interface SerieResume {
  * /series/:id endpoint
  */
 export interface Serie extends SerieResume {
+	firstSet: SetResume;
+	lastSet: SetResume;
+	releaseDate: string;
 	sets: Array<SetResume>;
 }
 
@@ -94,6 +97,7 @@ export interface Set extends SetResume {
 		firstEd?: number;
 	};
 	cards: Array<CardResume>;
+	abbreviation: { official: string, localized: string };
 }
 export interface CardResume {
 	id: string;

@@ -4,7 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Metagross δ",
-		fr: "Metalosse δ ESPÈCES DELTA",
+		fr: "Metalosse δ",
 		de: "Metagross"
 	},
 	illustrator: "Masakazu Fukuda",

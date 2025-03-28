@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Vileplume δ",
-		fr: "Rafflesia δ ESPÈCES DELTA",
+		fr: "Rafflesia δ",
 		de: "Giflor"
 	},
 	illustrator: "Mitsuhiro Arita",
