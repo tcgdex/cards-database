@@ -32,7 +32,7 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		effect: {
-			en: "Discard all <span class=\"energy-text energy-text--type-lightning\"></span> Energy from this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon."
+			en: "Discard all [Lightning] Energy from this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon."
 		}
 	}],
 

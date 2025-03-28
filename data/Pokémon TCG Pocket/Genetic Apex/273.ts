@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Move all L Energy from your Benched Pokémon to your Raichu, Electrode or Electabuzz in the Active Spot."
+		en: "Move all [Lightning] Energy from your Benched Pokémon to your Raichu, Electrode or Electabuzz in the Active Spot."
 	},
 
 	trainerType: "Supporter",

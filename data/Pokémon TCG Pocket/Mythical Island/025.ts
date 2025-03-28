@@ -28,7 +28,7 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		effect: {
-			en: "This attack does 10 damage for each of your Benched <span class=\"energy-text energy-text--type-lightning\"></span> Pokémon."
+			en: "This attack does 10 damage for each of your Benched [Lightning] Pokémon."
 		}
 	}],
 

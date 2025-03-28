@@ -23,7 +23,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each of your Benched L Pokémon."
+			en: "This attack does 30 damage for each of your Benched [Lightning] Pokémon."
 		},
 
 		damage: "30×"
