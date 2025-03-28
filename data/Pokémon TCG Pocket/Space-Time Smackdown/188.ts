@@ -25,7 +25,7 @@ const card: Card = {
 		cost: ["Metal", "Metal"],
 
 		effect: {
-			en: "Take 2 <span class=\"energy-text energy-text--type-metal\"></span> Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
+			en: "Take 2 [Metal] Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
 		}
 	}, {
 		name: {

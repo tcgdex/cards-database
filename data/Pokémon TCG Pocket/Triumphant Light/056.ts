@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a <span class=\"energy-text energy-text--type-metal\"></span> Pokémon, this attack does 30 more damage."
+			en: "If your opponent's Active Pokémon is a [Metal] Pokémon, this attack does 30 more damage."
 		}
 	}],
 

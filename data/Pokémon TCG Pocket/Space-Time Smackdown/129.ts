@@ -33,7 +33,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Change the type of the next Energy that will be generated for your opponent to 1 of the following at random: [Grass], [Fire], [Water], [Lightning], [Psychic], [Fighting], [Darkness], or <span class=\"energy-text energy-text--type-metal\"></span>."
+			en: "Change the type of the next Energy that will be generated for your opponent to 1 of the following at random: [Grass], [Fire], [Water], [Lightning], [Psychic], [Fighting], [Darkness], or [Metal]"
 		}
 	}],
 
