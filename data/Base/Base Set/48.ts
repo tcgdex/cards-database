@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Doduo",
+		pt: "Doduo",
 		fr: "Doduo",
 		de: "Dodu"
 	},
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Attack",
+				pt: "Fury Attack",
 				fr: "Furie",
 				de: "Furienschlag"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				pt: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 10 Schadenspunkte zu."
 			},
