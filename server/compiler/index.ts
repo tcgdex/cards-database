@@ -5,7 +5,7 @@ import { FileFunction } from './compilerInterfaces'
 import { fetchRemoteFile, loadLastEdits } from './utils/util'
 
 const LANGS: Array<SupportedLanguages> = [
-	'en', 'fr', 'es', 'it', 'pt', 'pt-br', 'pt-pt', 'de', 'nl', 'pl', 'ru',
+	'en', 'fr', 'es', 'es-mx', 'it', 'pt', 'pt-br', 'pt-pt', 'de', 'nl', 'pl', 'ru',
 	'ja', 'ko', 'zh-tw', 'id', 'th', 'zh-cn'
 ]
 
@@ -24,7 +24,7 @@ const DIST_FOLDER = './generated'
 	} catch {}
 
 	console.log('\n2. Loading informations from GIT')
-	await loadLastEdits()
+	// await loadLastEdits()
 
 	console.log('\n3. Compiling Files')
 
