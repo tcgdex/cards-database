@@ -6,6 +6,7 @@ import TCGSet from './Set'
 import de from '../../../generated/de/cards.json'
 import en from '../../../generated/en/cards.json'
 import es from '../../../generated/es/cards.json'
+import esmx from '../../../generated/es-mx/cards.json'
 import fr from '../../../generated/fr/cards.json'
 import id from '../../../generated/id/cards.json'
 import it from '../../../generated/it/cards.json'
@@ -25,6 +26,7 @@ const cards = {
 	en: en,
 	fr: fr,
 	es: es,
+	'es-mx': esmx,
 	it: it,
 	pt: pt,
 	'pt-br': ptbr,
