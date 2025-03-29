@@ -8,23 +8,22 @@ const set: Set = {
 		de: "Reisegefährten",
 		en: "Journey Together",
 		es: "Juntos de Aventuras",
-		fr: "151",
-		it: "151",
-		pt: "151",
+		fr: "Aventures Ensemble",
+		it: "Avventure Insieme",
+		pt: "Amigos de Jornada",
 		"es-mx": 'Aventuras Compartidas'
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 165
+		official: 159
 	},
 
-	releaseDate: "2023-09-22",
+	releaseDate: "2025-03-28",
 
 	abbreviations: {
-		official: "MEW",
-		fr: "151"
+		official: "JTG"
 	}
 }
 
