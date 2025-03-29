@@ -6,6 +6,7 @@ const serie: Serie = {
 		de: "Karmesin & Purpur",
 		en: "Scarlet & Violet",
 		es: "Escarlata y Púrpura",
+		"es-mx": "Escarlata y Púrpura",
 		fr: "Écarlate et Violet",
 		it: "Scarlatto e Violetto",
 		pt: "Escarlate e Violeta"

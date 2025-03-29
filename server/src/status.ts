@@ -6,6 +6,7 @@ import Set from './V2/Components/Set'
 import de from '../generated/de/stats.json'
 import en from '../generated/en/stats.json'
 import es from '../generated/es/stats.json'
+import esMX from '../generated/es-mx/stats.json'
 import fr from '../generated/fr/stats.json'
 import id from '../generated/id/stats.json'
 import it from '../generated/it/stats.json'
@@ -39,6 +40,7 @@ const langs = {
 	'ru': ru,
 	'es': es,
 	'th': th,
+	'es-mx': esMX
 } as const
 
 const langsToName = {
@@ -59,6 +61,7 @@ const langsToName = {
 	'ru': 'Russian',
 	'es': 'Spanish',
 	'th': 'Thai',
+	'es-mx': 'Spanish (Latin America)'
 
 } as const
 
