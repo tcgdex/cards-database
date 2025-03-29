@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magmar"
+		en: "Magmar",
+		fr: "Magmar"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Magma Punch"
+			en: "Magma Punch",
+			fr: "Poing Magma"
 		},
 
 		damage: "50"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
+		fr: "Il achève ses proies avec ses flammes, mais il lui arrive de les calciner accidentellement, à son plus grand regret."
 	}
 }
 

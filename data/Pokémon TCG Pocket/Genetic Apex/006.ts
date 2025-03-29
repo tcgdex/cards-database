@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Metapod"
+		en: "Metapod",
+		fr: "Chrysacier"
 	},
 
 	illustrator: "Yuka Morii",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Caterpie"
+		en: "Caterpie",
+		fr: "Chenipan"
 	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Bug Bite"
+			en: "Bug Bite",
+			fr: "Piqûre"
 		},
 
 		damage: "30"
@@ -37,6 +40,7 @@ const card: Card = {
 
 	description: {
 		en: "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack.",
+		fr: "En attendant sa prochaine évolution, il ne peut que durcir sa carapace et rester immobile pour éviter de se faire attaquer."
 	}
 }
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Petilil"
+		en: "Petilil",
+		fr: "Chlorobule"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,11 +19,13 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Blot"
+			en: "Blot",
+			fr: "Pâté"
 		},
 
 		effect: {
-			en: "Heal 10 damage from this Pokémon."
+			en: "Heal 10 damage from this Pokémon.",
+			fr: "Soignez 10 dégâts de ce Pokémon."
 		},
 
 		damage: "10"
@@ -38,6 +41,7 @@ const card: Card = {
 
 	description: {
 		en: "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them.",
+		fr: "Les feuilles sur sa tête repoussent très vite. Elles sont fort amères, mais elles revigorent les corps les plus éreintés."
 	}
 }
 

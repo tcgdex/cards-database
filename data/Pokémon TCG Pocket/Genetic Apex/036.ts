@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charizard ex"
+		en: "Charizard ex",
+		fr: "Dracaufeu ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Stage2",
 	evolveFrom: {
-		en: "Charmeleon"
+		en: "Charmeleon",
+		fr: "Reptincel"
 	},
 
 	suffix: "EX",
@@ -23,7 +25,8 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Slash"
+			en: "Slash",
+			fr: "Tranche"
 		},
 
 		damage: "60"
@@ -31,11 +34,13 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Crimson Storm"
+			en: "Crimson Storm",
+			fr: "Tempête Écarlate"
 		},
 
 		effect: {
-			en: "Discard 2 R Energy from this Pokémon."
+			en: "Discard 2 R Energy from this Pokémon.",
+			fr: "Défaussez 2 Énergies R de ce Pokémon."
 		},
 
 		damage: "200"

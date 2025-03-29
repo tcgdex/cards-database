@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Venusaur ex"
+		en: "Venusaur ex",
+		fr: "Florizarre ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Stage2",
 	evolveFrom: {
-		en: "Ivysaur"
+		en: "Ivysaur",
+		fr: "Herbizarre"
 	},
 	suffix: "EX",
 
@@ -22,7 +24,8 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Razor Leaf"
+			en: "Razor Leaf",
+			fr: "Tranch'Herbe"
 		},
 
 		damage: "60"
@@ -30,11 +33,13 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Giant Bloom"
+			en: "Giant Bloom",
+			fr: "Pousse Géante"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon."
+			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon."
 		},
 
 		damage: "100"

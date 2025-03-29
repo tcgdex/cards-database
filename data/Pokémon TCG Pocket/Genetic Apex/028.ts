@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Whimsicott"
+		en: "Whimsicott",
+		fr: "Farfaduvet"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Cottonee"
+		en: "Cottonee",
+		fr: "Doudouvet"
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rolling Tackle"
+			en: "Rolling Tackle",
+			fr: "Roulé-Boulé"
 		},
 
 		damage: "40"
@@ -37,6 +40,7 @@ const card: Card = {
 
 	description: {
 		en: "It scatters cotton all over the place as a prank. If it gets wet, it'll become too heavy to move and have no choice but to answer for its mischief.",
+		fr: "Il joue de mauvais tours en répendant son coton. Si on le mouille. Il s'alourdit et ne peut plus bouger, ce qui l'oblige à s'avouer vaincu."
 	}
 }
 

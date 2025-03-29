@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Paras"
+		en: "Paras",
+		fr: "Paras"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Scratch"
+			en: "Scratch",
+			fr: "Griffe"
 		},
 
 		damage: "30"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
+		fr: "Les champignons, appelés tochukaso, contrôlent l'insecte contre sa volonté."
 	}
 }
 

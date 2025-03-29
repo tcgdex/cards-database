@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rapidash"
+		en: "Rapidash",
+		fr: "Galopa"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Ponyta"
+		en: "Ponyta",
+		fr: "Ponyta"
 	},
 
 
@@ -22,7 +24,8 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Fire Mane"
+			en: "Fire Mane",
+			fr: "Crinière de Feu"
 		},
 
 		damage: "40"
@@ -38,6 +41,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
+		fr: "Ce Pokémon traverse les plaines à plus de 240 km/h, sa crinière flamboyante frottant au vent."
 	}
 }
 
