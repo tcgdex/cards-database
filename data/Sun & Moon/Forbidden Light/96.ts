@@ -69,20 +69,7 @@ const card: Card = {
 			},
 			damage: 30,
 
-		},
-		{
-			cost: [
-				"Colorless",
-			],
-			name: {
-				fr: "Étoile Triptyque",
-			},
-			effect: {
-				fr: "Vous ne pouvez utiliser cette attaque que si vous avez des Pokémon Grass, Water et Lightning sur votre Banc. Cherchez jusqu’à 3 cartes Énergie de base dans votre deck et attachez-les à vos Pokémon, de la manière que vous voulez. Mélangez ensuite votre deck.",
-			},
-			damage: 30,
-
-		},
+		}
 	],
 	weaknesses: [
 		{

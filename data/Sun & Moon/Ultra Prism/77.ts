@@ -72,23 +72,7 @@ const card: Card = {
 			},
 			damage: 120,
 
-		},
-		{
-			cost: [
-				"Darkness",
-				"Darkness",
-				"Darkness",
-				"Darkness",
-			],
-			name: {
-				fr: "Sommeil Abyssal",
-			},
-			effect: {
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi. Votre adversaire lance 2 pièces au lieu d’une entre chaque tour. S’il obtient au moins un côté pile, le Pokémon reste Endormi.",
-			},
-			damage: 120,
-
-		},
+		}
 	],
 	weaknesses: [
 		{

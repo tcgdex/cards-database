@@ -49,23 +49,6 @@ const card: Card = {
 			damage: 160,
 
 		},
-		{
-			cost: [
-				"Fire",
-				"Fire",
-				"Fire",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Flamme Brillante",
-			},
-			effect: {
-				fr: "Ce Pokémon ne peut pas utiliser Flamme Brillante pendant votre prochain tour.",
-			},
-			damage: 160,
-
-		},
 	],
 
 	retreat: 0
