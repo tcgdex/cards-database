@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Fire"],
 
 		effect: {
-			en: "Flip 3 coins. Take an amount of <span class=\"energy-text energy-text--type-fire\"></span> Energy from your Energy Zone equal to the number of heads and attach it to your Benched <span class=\"energy-text energy-text--type-fire\"></span> Pokémon in any way you like."
+			en: "Flip 3 coins. Take an amount of [Fire] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [Fire] Pokémon in any way you like."
 		}
 	}, {
 		name: {

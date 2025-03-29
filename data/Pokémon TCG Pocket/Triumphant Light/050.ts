@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, if you have <a class=\"localized-string__link\" href=\"/pokemon/arceus/\">Arceus</a> or <a class=\"localized-string__link\" href=\"/pokemon/arceus-ex/\">Arceus ex</a> in play, you may do 30 damage to your opponent's Active Pokémon."
+			en: "Once during your turn, if you have Arceus or Arceus ex in play, you may do 30 damage to your opponent's Active Pokémon."
 		}
 	}],
 

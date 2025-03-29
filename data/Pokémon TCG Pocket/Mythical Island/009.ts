@@ -28,7 +28,7 @@ const card: Card = {
 		cost: ["Grass"],
 
 		effect: {
-			en: "If this Pokémon has at least 3 extra <span class=\"energy-text energy-text--type-grass\"></span> Energy attached, this attack does 70 more damage."
+			en: "If this Pokémon has at least 3 extra [Grass] Energy attached, this attack does 70 more damage."
 		}
 	}],
 

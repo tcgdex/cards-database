@@ -31,7 +31,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Each <span class=\"energy-text energy-text--type-grass\"></span> Energy attached to your <span class=\"energy-text energy-text--type-grass\"></span> Pokémon provides 2 <span class=\"energy-text energy-text--type-grass\"></span> Energy. This effect doesn't stack."
+			en: "Each [Grass] Energy attached to your [Grass] Pokémon provides 2 [Grass] Energy. This effect doesn't stack."
 		}
 	}],
 

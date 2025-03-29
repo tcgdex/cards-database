@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Psychic"],
 
 		effect: {
-			en: "You can use this attack only if you have <a class=\"localized-string__link\" href=\"/pokemon/uxie/\">Uxie</a> and <a class=\"localized-string__link\" href=\"/pokemon/azelf/\">Azelf</a> on your Bench. Discard all Energy from this Pokémon."
+			en: "You can use this attack only if you have Uxie and Azelf on your Bench. Discard all Energy from this Pokémon."
 		}
 	}],
 

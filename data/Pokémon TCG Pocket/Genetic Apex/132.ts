@@ -26,7 +26,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may take 1 P Energy from your Energy Zone and attach it to the P Pokémon in the Active Spot."
+			en: "Once during your turn, you may take 1 [Psychic] Energy from your Energy Zone and attach it to the [Psychic] Pokémon in the Active Spot."
 		}
 	}],
 

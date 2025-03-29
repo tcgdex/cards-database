@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Take 1 F Energy from your Energy Zone and attach it to your Golem or Onix."
+		en: "Take 1 [Fire] Energy from your Energy Zone and attach it to your Golem or Onix."
 	},
 
 	trainerType: "Supporter",

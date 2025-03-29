@@ -23,7 +23,7 @@ const card: Card = {
 		damage: 120,
 
 		effect: {
-			en: "Discard 2 <span class=\"pfont\" title=\"Psychic\">P</span> Energy from this Pokémon."
+			en: "Discard 2 [Psychic] Energy from this Pokémon."
 		}
 	}],
 

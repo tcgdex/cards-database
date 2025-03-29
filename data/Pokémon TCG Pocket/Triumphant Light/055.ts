@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If you have <a class=\"localized-string__link\" href=\"/pokemon/arceus/\">Arceus</a> or <a class=\"localized-string__link\" href=\"/pokemon/arceus-ex/\">Arceus ex</a> in play, this Pokémon takes −30 damage from attacks."
+			en: "If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks."
 		}
 	}],
 
