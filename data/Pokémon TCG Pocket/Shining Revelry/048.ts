@@ -26,7 +26,7 @@ const card: Card = {
 			en: "Venoshock"
 		},
 
-		damage: 60,
+		damage: "60+",
 		cost: ["Darkness", "Darkness"],
 
 		effect: {

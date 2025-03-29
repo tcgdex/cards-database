@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Pummel"
 		},
 
-		damage: 30,
+		damage: "30+",
 		cost: ["Fighting", "Fighting"],
 
 		effect: {

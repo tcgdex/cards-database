@@ -26,7 +26,7 @@ const card: Card = {
 			en: "Terrific Thumping"
 		},
 
-		damage: 80,
+		damage: "80+",
 		cost: ["Metal", "Metal", "Colorless"],
 
 		effect: {

@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Juggling"
 		},
 
-		damage: 20,
+		damage: "20x",
 		cost: ["Psychic", "Colorless"],
 
 		effect: {

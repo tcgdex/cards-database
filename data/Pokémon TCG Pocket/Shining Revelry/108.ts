@@ -28,7 +28,7 @@ const card: Card = {
 		cost: ["Fire"],
 
 		effect: {
-			en: "Take 3  Energy from your Energy Zone and attach it to this Pokémon."
+			en: "Take 3 [Fire] Energy from your Energy Zone and attach it to this Pokémon."
 		}
 	}, {
 		name: {

@@ -5,18 +5,18 @@ const set: Set = {
 	id: "A2b",
 
 	name: {
-		// de: "Unschlagbare Gene",
+		de: "Glänzendes Festival",
 		en: "Shining Revelry",
-		// es: "Genes Formidables",
-		// fr: "Puissance Génétique",
-		// it: "Geni Supremi",
-		// pt: "Dominação Genética"
+		es: "Festival Brillante",
+		fr: "Réjouissances Rayonnantes",
+		it: "Tripudio Splendente",
+		pt: "Festival Brilhante"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 78
+		official: 72
 	},
 
 	releaseDate: "2025-03-27"

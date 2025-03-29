@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Tenacious Hammer"
 		},
 
-		damage: 30,
+		damage: "30+",
 		cost: ["Metal", "Metal"],
 
 		effect: {

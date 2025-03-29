@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Tumbling Attack"
 		},
 
-		damage: 50,
+		damage: "50+",
 		cost: ["Lightning", "Lightning"],
 
 		effect: {
