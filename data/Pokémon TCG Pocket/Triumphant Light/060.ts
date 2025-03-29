@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dialga"
+		en: "Origin Forme Dialga"
 	},
 
 	illustrator: "akagi",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "Radiant light caused Dialga to take on a form bearing a striking<br />resemblance to the creator Pokémon. Dialga now wields such<br />colossal strength that one must conclude this is its true form."
+		en: "Radiant light caused Dialga to take on a form bearing a striking resemblance to the creator Pokémon. Dialga now wields such colossal strength that one must conclude this is its true form."
 	},
 
 	stage: "Basic",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "They flock around mountains and fields, chasing<br />after bug Pokémon. Their singing is noisy and<br />annoying."
+		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying."
 	},
 
 	stage: "Basic",

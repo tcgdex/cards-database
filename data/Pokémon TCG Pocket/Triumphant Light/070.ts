@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "According to the legends of Sinnoh, this Pokémon<br />emerged from an egg and shaped all there is in<br />this world."
+		en: "According to the legends of Sinnoh, this Pokémon emerged from an egg and shaped all there is in this world."
 	},
 
 	stage: "Basic",

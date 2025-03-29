@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "Ancient people believed that the pattern on<br />Bronzor's back contained a mysterious power."
+		en: "Ancient people believed that the pattern on Bronzor's back contained a mysterious power."
 	},
 
 	stage: "Basic",

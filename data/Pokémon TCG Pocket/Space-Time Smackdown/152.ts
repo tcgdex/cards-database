@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "During this turn, attacks used by your <a class=\"localized-string__link\" href=\"/pokemon/garchomp/\">Garchomp</a> or <a class=\"localized-string__link\" href=\"/pokemon/togekiss/\">Togekiss</a> do +50 damage to your opponent's Active Pokémon."
+		en: "During this turn, attacks used by your Garchomp or Togekiss do +50 damage to your opponent's Active Pokémon."
 	},
 
 	trainerType: "Supporter"

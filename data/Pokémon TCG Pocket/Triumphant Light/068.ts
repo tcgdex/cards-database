@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When Staravia evolve into Staraptor, they leave<br />the flock to live alone. They have sturdy wings."
+		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings."
 	},
 
 	stage: "Stage2",

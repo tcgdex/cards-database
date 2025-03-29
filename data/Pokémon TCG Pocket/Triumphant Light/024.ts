@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "When the water warms, they inflate the flotation sac<br />on their heads and drift languidly on the sea<br />in packs."
+		en: "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs."
 	},
 
 	stage: "Basic",

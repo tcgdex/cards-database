@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "The fur on its body naturally repels water. It can<br />stay dry even when it plays in the water."
+		en: "The fur on its body naturally repels water. It can stay dry even when it plays in the water."
 	},
 
 	stage: "Basic",
