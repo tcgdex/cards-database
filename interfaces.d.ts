@@ -1,6 +1,6 @@
 export type SupportedLanguages =
 	// inter languages
-	'en' | 'fr' | 'es' | 'it' | 'pt' | 'pt-br' | 'pt-pt' | 'de' | 'nl' | 'pl' | 'ru' |
+	'en' | 'fr' | 'es' | 'es-mx' | 'it' | 'pt' | 'pt-br' | 'pt-pt' | 'de' | 'nl' | 'pl' | 'ru' |
 	// Asian languages
 	'ja' | 'ko' | 'zh-tw' | 'id' | 'th' | 'zh-cn'
 
