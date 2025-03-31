@@ -7,7 +7,7 @@ const set: Set = {
 	name: {
 		de: "Prismatische Entwicklungen",
 		en: "Prismatic Evolutions",
-		es: "Evolucionnes Prismáticas",
+		es: "Evoluciones Prismáticas",
 		fr: "Évolutions Prismatiques",
 		it: "Evoluzioni Prismatiche",
 		pt: "Evoluções Prismáticas"
