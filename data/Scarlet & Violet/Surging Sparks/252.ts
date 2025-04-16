@@ -25,7 +25,7 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie Colorless-Energie.\n\nWenn du diese Karte aus deiner Hand an 1 Pokémon auf deiner Bank anlegst, tausche jenes Pokémon gegen dein Aktives Pokémon aus."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "G",
 
 	variants: {

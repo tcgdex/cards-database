@@ -27,7 +27,7 @@ const card: Card = {
 		'es-mx': "Mientras esta carta esté unida a un Pokémon, proporciona Energía Colorless.\n\nSi el Pokémon al que está unida esta carta está en el Puesto Activo y recibe daño de un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), pon 2 contadores de daño en el Pokémon Atacante."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "I"
 }
 
