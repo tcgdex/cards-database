@@ -28,7 +28,15 @@ const card: Card = {
 	},
 
 	trainerType: "Item",
-	regulationMark: "I"
+	regulationMark: "I",
+
+	variants: {
+		"firstEdition": false,
+		"holo": false,
+		"normal": true
+		"reverse": true,
+		"wPromo": false,
+		}
 }
 
 export default card
