@@ -29,11 +29,11 @@ const card: Card = {
 			en: "Scintillating Surfing"
 		},
 
-		damage: 50,
+		damage: "50x",
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin for each  Energy attached to this Pokémon. This attack does 50 damage for each heads."
+			en: "Flip a coin for each [Metal] Energy attached to this Pokémon. This attack does 50 damage for each heads."
 		}
 	}],
 

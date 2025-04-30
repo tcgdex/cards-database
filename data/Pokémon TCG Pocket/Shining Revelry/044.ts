@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Double Kick"
 		},
 
-		damage: 50,
+		damage: "50x",
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
