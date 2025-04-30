@@ -26,7 +26,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may take a L Energy from your Energy Zone and attach it to this Pokémon."
+			en: "Once during your turn, you may take a [Lightning] Energy from your Energy Zone and attach it to this Pokémon."
 		}
 	}],
 

@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attacks used by your <span class=\"energy-text energy-text--type-fighting\"></span> Pokémon do +20 damage to your opponent's Active Pokémon."
+			en: "Attacks used by your [Fighting] Pokémon do +20 damage to your opponent's Active Pokémon."
 		}
 	}],
 

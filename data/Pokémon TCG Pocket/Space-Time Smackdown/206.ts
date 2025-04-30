@@ -32,7 +32,7 @@ const card: Card = {
 		cost: ["Water", "Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Discard 3 <span class=\"energy-text energy-text--type-water\"></span> Energy from this Pokémon. This attack also does 20 damage to each of your opponent's Benched Pokémon."
+			en: "Discard 3 [Water] Energy from this Pokémon. This attack also does 20 damage to each of your opponent's Benched Pokémon."
 		}
 	}],
 

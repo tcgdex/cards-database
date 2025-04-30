@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Choose 1 of your W Pokémon, and flip a coin until you get tails. For each heads, take a W Energy from your Energy Zone and attach it to that Pokémon."
+		en: "Choose 1 of your [Water] Pokémon, and flip a coin until you get tails. For each heads, take a [Water] Energy from your Energy Zone and attach it to that Pokémon."
 	},
 
 	trainerType: "Supporter",

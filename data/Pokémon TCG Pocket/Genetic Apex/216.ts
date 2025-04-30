@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Play this card as if it were a 40-HP Basic C Pokémon.\nAt any time during your turn, you may discard this card from play.\nThis card can't retreat."
+		en: "Play this card as if it were a 40-HP Basic [Colorless] Pokémon.\nAt any time during your turn, you may discard this card from play.\nThis card can't retreat."
 	},
 
 	trainerType: "Item",

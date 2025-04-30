@@ -22,7 +22,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Take 1 M Energy from your Energy Zone and attach it to this Pokémon."
+			en: "Take 1 [Metal] Energy from your Energy Zone and attach it to this Pokémon."
 		}
 	}],
 

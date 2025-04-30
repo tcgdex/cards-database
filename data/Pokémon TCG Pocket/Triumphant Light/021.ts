@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If you have Arceus or Arceus ex in play, attacks used by this Pokémon cost 1 less <span class=\"energy-text energy-text--type-colorless\"></span> Energy."
+			en: "If you have Arceus or Arceus ex in play, attacks used by this Pokémon cost 1 less [Colorless] Energy."
 		}
 	}],
 

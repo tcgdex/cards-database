@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Heal 50 damage from 1 of your G Pokémon."
+		en: "Heal 50 damage from 1 of your [Grass] Pokémon."
 	},
 
 	trainerType: "Supporter",

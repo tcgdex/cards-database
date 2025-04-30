@@ -22,7 +22,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon has at least 3 extra W Energy attached, this attack does 70 more damage."
+			en: "If this Pokémon has at least 3 extra [Water] Energy attached, this attack does 70 more damage."
 		},
 
 		damage: "20+"

@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Choose 1 of your Electivire or Luxray. Attach 2 <span class=\"energy-text energy-text--type-lightning\"></span> Energy from your discard pile to that Pokémon."
+		en: "Choose 1 of your Electivire or Luxray. Attach 2 [Lightning] Energy from your discard pile to that Pokémon."
 	},
 
 	trainerType: "Supporter"
