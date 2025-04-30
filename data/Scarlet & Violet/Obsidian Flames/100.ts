@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces";
-import Set from "../Obsidian Flames";
+import { Card } from "../../../interfaces"
+import Set from "../Obsidian Flames"
 
 const card: Card = {
 	set: Set,
@@ -10,7 +10,7 @@ const card: Card = {
 		es: "Greavard",
 		it: "Greavard",
 		pt: "Greavard",
-		de: "Gruff",
+		de: "Gruff"
 	},
 
 	rarity: "Common",
@@ -19,31 +19,29 @@ const card: Card = {
 	types: ["Psychic"],
 	stage: "Basic",
 
-	attacks: [
-		{
-			cost: ["Colorless", "Colorless", "Colorless"],
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless"],
 
-			name: {
-				fr: "Câlinerie",
-				en: "Play Rough",
-				es: "Carantoña",
-				it: "Carineria",
-				pt: "Jogo Duro",
-				de: "Knuddler",
-			},
-
-			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu.",
-			},
-
-			damage: "30+",
+		name: {
+			fr: "Câlinerie",
+			en: "Play Rough",
+			es: "Carantoña",
+			it: "Carineria",
+			pt: "Jogo Duro",
+			de: "Knuddler"
 		},
-	],
+
+		effect: {
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			en: "Flip a coin. If heads, this attack does 30 more damage.",
+			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+			pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+		},
+
+		damage: "30+"
+	}],
 
 	retreat: 3,
 	regulationMark: "G",
@@ -51,8 +49,8 @@ const card: Card = {
 	variants: {
 		normal: true,
 		holo: true,
-		reverse: true,
-	},
+		reverse: true
+	}
 };
 
-export default card;
+export default card
