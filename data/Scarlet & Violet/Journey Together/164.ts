@@ -61,15 +61,7 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	regulationMark: "I",
-
-	variants: {
-		"firstEdition": false,
-		"holo": true,
-		"normal": false
-		"reverse": false,
-		"wPromo": false,
-		}
+	regulationMark: "I"
 }
 
 export default card

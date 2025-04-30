@@ -28,15 +28,7 @@ const card: Card = {
 	},
 
 	trainerType: "Tool",
-	regulationMark: "I",
-
-	variants: {
-		"firstEdition": false,
-		"holo": false,
-		"normal": true
-		"reverse": true,
-		"wPromo": false,
-		}
+	regulationMark: "I"
 }
 
 export default card
