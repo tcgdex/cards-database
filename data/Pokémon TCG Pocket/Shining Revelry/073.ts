@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Fighting Claws"
 		},
 
-		damage: 60,
+		damage: "60+",
 		cost: ["Grass", "Grass"],
 
 		effect: {

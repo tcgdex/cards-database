@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "As it zooms through the sky, this Pokémon seems<br />to be receiving signals of unknown origin while<br />transmitting signals of unknown purpose."
+		en: "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose."
 	},
 
 	stage: "Stage2",

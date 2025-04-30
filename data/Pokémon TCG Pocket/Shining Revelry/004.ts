@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Guillotine Rush"
 		},
 
-		damage: 50,
+		damage: "50+",
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		effect: {

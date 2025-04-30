@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Three Magnemite are linked by a strong magnetic<br />force. Earaches will occur if you get too close."
+		en: "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close."
 	},
 
 	stage: "Stage1",

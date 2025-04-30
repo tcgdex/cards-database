@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Extremely strong, it can change the landscape.<br />It is so insolent that it doesn't care about others."
+		en: "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others."
 	},
 
 	stage: "Stage2",

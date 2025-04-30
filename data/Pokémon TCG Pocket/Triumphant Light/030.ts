@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A timid fairy Pokémon that is rarely seen, it will<br />run and hide the moment it senses people."
+		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people."
 	},
 
 	stage: "Stage1",

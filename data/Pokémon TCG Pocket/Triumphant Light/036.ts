@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Although it always pretends to be a tree,<br />its composition appears more similar to<br />rock than to vegetation."
+		en: "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation."
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Pokémon <strong>ex</strong>, this attack does 30 more damage."
+			en: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 30 more damage."
 		}
 	}],
 

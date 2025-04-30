@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It emits ultrasonic waves from its mouth to check<br />its surroundings. Even in tight caves, Zubat flies<br />around with skill."
+		en: "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill."
 	},
 
 	stage: "Basic",
