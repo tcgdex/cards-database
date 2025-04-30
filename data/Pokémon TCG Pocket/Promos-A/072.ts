@@ -5,30 +5,30 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ekans"
+		en: "Alolan Grimer"
 	},
 
-	illustrator: "Krgc",
-	rarity: "None",
+	illustrator: "Naoki Saito",
+	rarity: "One Diamond",
 	category: "Pokemon",
-	hp: 60,
+	hp: 70,
 	types: ["Darkness"],
 
 	description: {
-		en: "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests."
+		en: "There are a hundred or so of them living in Alola's waste-disposal site. They're all hard workers who eat a lot of trash."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Poison Sting"
+			en: "Poison Gas"
 		},
 
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Poisoned."
+			en: "Your opponent's Active Pokémon is now Poisoned."
 		}
 	}],
 
@@ -37,7 +37,7 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 2
 }
 
 export default card

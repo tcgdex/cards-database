@@ -25,6 +25,10 @@ const card: Card = {
 		},
 
 		cost: ["Psychic"],
+
+		effect: {
+			en: "Your opponent's Active Pokémon is now Confused."
+		}
 	}],
 
 	weaknesses: [{

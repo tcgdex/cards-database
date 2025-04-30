@@ -23,7 +23,7 @@ const card: Card = {
 			en: "Psychic Sphere"
 		},
 
-		damage: "50"
+		damage: 50
 	}, {
 		cost: ["Psychic", "Psychic", "Colorless", "Colorless"],
 
@@ -35,7 +35,7 @@ const card: Card = {
 			en: "Discard 2 [Psychic] Energy from this Pokémon."
 		},
 
-		damage: "150"
+		damage: 150
 	}],
 
 	weaknesses: [{

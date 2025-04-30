@@ -33,7 +33,7 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon has at least 2 extra <span class=\"energy-text energy-text--type-water\"></span> Energy attached, this attack does 60 more damage."
+			en: "If this Pokémon has at least 2 extra Water Energy attached, this attack does 60 more damage."
 		}
 	}],
 

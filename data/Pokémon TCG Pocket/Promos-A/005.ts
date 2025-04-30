@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Put 1 random Basic Pokémon from your deck into your hand."
+		en: "Put a random Basic Pokémon from your deck into your hand."
 	},
 
 	trainerType: "Item"

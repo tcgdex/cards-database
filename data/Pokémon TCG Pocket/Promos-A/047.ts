@@ -38,7 +38,19 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			en: "Defensive Whirlwind"
+		},
+
+		effect: {
+			en: "This Pokémon takes −30 damage from attacks from  Pokémon."
+		}
+	}]
 }
 
 export default card

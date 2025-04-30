@@ -33,7 +33,7 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		effect: {
-			en: "If this Pokémon has at least 2 extra <span class=\"energy-text energy-text--type-lightning\"></span> Energy attached, this attack does 80 more damage."
+			en: "If this Pokémon has at least 2 extra Lightning Energy attached, this attack does 80 more damage."
 		}
 	}],
 

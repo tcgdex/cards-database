@@ -26,7 +26,6 @@ const card: Card = {
 		},
 
 		cost: ["Grass"],
-		damage: 60,
 
 		effect: {
 			en: "Put 1 random [Grass] Pokémon from your deck into your hand."
