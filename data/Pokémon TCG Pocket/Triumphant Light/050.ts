@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Both of its legs have turned into wings. Without a<br />sound, Crobat flies swiftly toward its prey and<br />sinks its fangs into the nape of its target's neck."
+		en: "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck."
 	},
 
 	stage: "Stage2",
@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, if you have <a class=\"localized-string__link\" href=\"/pokemon/arceus/\">Arceus</a> or <a class=\"localized-string__link\" href=\"/pokemon/arceus-ex/\">Arceus ex</a> in play, you may do 30 damage to your opponent's Active Pokémon."
+			en: "Once during your turn, if you have Arceus or Arceus ex in play, you may do 30 damage to your opponent's Active Pokémon."
 		}
 	}],
 

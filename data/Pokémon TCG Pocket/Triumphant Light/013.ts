@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It dwells in volcanic caves. It digs in with its<br />cross-shaped feet to crawl on ceilings and walls."
+		en: "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls."
 	},
 
 	stage: "Basic",
@@ -28,7 +28,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If you have <a class=\"localized-string__link\" href=\"/pokemon/arceus/\">Arceus</a> or <a class=\"localized-string__link\" href=\"/pokemon/arceus-ex/\">Arceus ex</a> in play, this Pokémon has no Retreat Cost."
+			en: "If you have Arceus or Arceus ex in play, this Pokémon has no Retreat Cost."
 		}
 	}],
 
@@ -37,7 +37,7 @@ const card: Card = {
 			en: "Ragin' Mad Strike"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Fire", "Fire"],
 
 		effect: {

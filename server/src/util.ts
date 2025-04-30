@@ -6,6 +6,7 @@ export const languages = [
 	'en',
 	'fr',
 	'es',
+	'es-mx',
 	'it',
 	'pt',
 	'pt-br',

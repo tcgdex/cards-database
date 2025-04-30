@@ -27,7 +27,7 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Put 1 random <a class=\"localized-string__link\" href=\"/pokemon/koffing/\">Koffing</a> from your deck onto your Bench."
+			en: "Put 1 random Koffing from your deck onto your Bench."
 		}
 	}],
 

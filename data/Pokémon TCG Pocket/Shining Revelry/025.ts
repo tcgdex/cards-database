@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Take a  Energy from your Energy Zone and attach it to 1 of your Benched  Pokémon."
+			en: "Take a [Lightning] Energy from your Energy Zone and attach it to 1 of your Benched  Pokémon."
 		}
 	}],
 

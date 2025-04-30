@@ -6,6 +6,7 @@ import TCGSet from './Set'
 import de from '../../../generated/de/series.json'
 import en from '../../../generated/en/series.json'
 import es from '../../../generated/es/series.json'
+import esmx from '../../../generated/es-mx/series.json'
 import fr from '../../../generated/fr/series.json'
 import id from '../../../generated/id/series.json'
 import it from '../../../generated/it/series.json'
@@ -26,6 +27,7 @@ const series = {
 	en: en,
 	fr: fr,
 	es: es,
+	'es-mx': esmx,
 	it: it,
 	pt: pt,
 	'pt-br': ptbr,

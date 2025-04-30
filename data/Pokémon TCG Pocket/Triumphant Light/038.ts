@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Donphan is covered in tough hide, so even being<br />hit by a car won't faze this Pokémon. However, it<br />is extremely susceptible to rain."
+		en: "Donphan is covered in tough hide, so even being hit by a car won't faze this Pokémon. However, it is extremely susceptible to rain."
 	},
 
 	stage: "Stage1",
