@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It is said that several Snorunt gather under giant<br />leaves and live together in harmony."
+		en: "It is said that several Snorunt gather under giant leaves and live together in harmony."
 	},
 
 	stage: "Basic",

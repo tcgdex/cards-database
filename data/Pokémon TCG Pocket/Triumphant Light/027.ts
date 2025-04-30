@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "It stores static electricity in its fur for discharging.<br />It gives off sparks if a storm approaches."
+		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
 	},
 
 	stage: "Basic",

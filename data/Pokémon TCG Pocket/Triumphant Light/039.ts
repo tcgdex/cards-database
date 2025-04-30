@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Born deep underground, this Pokémon becomes<br />a pupa after eating enough dirt to make a<br />mountain."
+		en: "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain."
 	},
 
 	stage: "Basic",

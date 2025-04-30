@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It loves sweet nectar. To keep all the nectar to<br />itself, it hurls rivals away with its prized horn."
+		en: "It loves sweet nectar. To keep all the nectar to itself, it hurls rivals away with its prized horn."
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Single-Horn Throw"
 		},
 
-		damage: 50,
+		damage: "50+",
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		effect: {

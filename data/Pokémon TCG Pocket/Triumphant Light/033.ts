@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "To steal the life of its target, it slips into<br />the prey's shadow and silently waits for<br />an opportunity."
+		en: "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity."
 	},
 
 	stage: "Stage2",

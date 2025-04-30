@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its tail discharges electricity into the ground,<br />protecting it from getting shocked."
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked."
 	},
 
 	stage: "Stage1",
@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If you have <a class=\"localized-string__link\" href=\"/pokemon/arceus/\">Arceus</a> or <a class=\"localized-string__link\" href=\"/pokemon/arceus-ex/\">Arceus ex</a> in play, this Pokémon takes −30 damage from attacks."
+			en: "If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks."
 		}
 	}],
 

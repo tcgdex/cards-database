@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When it finds humans or Pokémon it likes,<br />it freezes them and takes them to its chilly<br />den, where they become decorations."
+		en: "When it finds humans or Pokémon it likes, it freezes them and takes them to its chilly den, where they become decorations."
 	},
 
 	stage: "Stage1",

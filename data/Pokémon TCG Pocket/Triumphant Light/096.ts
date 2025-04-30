@@ -33,7 +33,7 @@ const card: Card = {
 			en: "Ultimate Force"
 		},
 
-		damage: 70,
+		damage: "70+",
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {

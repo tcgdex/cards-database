@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "As it zooms through the sky, this Pokémon seems<br />to be receiving signals of unknown origin while<br />transmitting signals of unknown purpose."
+		en: "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose."
 	},
 
 	stage: "Stage2",
@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If you have <a class=\"localized-string__link\" href=\"/pokemon/arceus/\">Arceus</a> or <a class=\"localized-string__link\" href=\"/pokemon/arceus-ex/\">Arceus ex</a> in play, this Pokémon takes −30 damage from attacks."
+			en: "If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks."
 		}
 	}],
 

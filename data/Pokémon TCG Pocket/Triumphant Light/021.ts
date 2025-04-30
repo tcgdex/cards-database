@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It lives a quiet life on mountains that are<br />perpetually covered in snow. It hides itself<br />by whipping up blizzards."
+		en: "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards."
 	},
 
 	stage: "Stage1",
@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If you have <a class=\"localized-string__link\" href=\"/pokemon/arceus/\">Arceus</a> or <a class=\"localized-string__link\" href=\"/pokemon/arceus-ex/\">Arceus ex</a> in play, attacks used by this Pokémon cost 1 less <span class=\"energy-text energy-text--type-colorless\"></span> Energy."
+			en: "If you have Arceus or Arceus ex in play, attacks used by this Pokémon cost 1 less <span class=\"energy-text energy-text--type-colorless\"></span> Energy."
 		}
 	}],
 

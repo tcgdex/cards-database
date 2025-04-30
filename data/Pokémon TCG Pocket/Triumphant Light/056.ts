@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It uses its docile-looking face to lull foes into<br />complacency, then bites with its huge,<br />relentless jaws."
+		en: "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws."
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Iron Beam Breaker"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Colorless"],
 
 		effect: {
