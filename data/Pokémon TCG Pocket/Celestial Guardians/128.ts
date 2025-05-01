@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Rising Lunge"
 		},
 
-		damage: 50,
+		damage: "50+",
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {

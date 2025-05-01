@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Three Kick Combo"
 		},
 
-		damage: 50,
+		damage: "50x",
 		cost: ["Grass"],
 
 		effect: {

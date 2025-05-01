@@ -29,7 +29,7 @@ const card: Card = {
 			en: "First Impression"
 		},
 
-		damage: 60,
+		damage: "60+",
 		cost: ["Grass", "Grass", "Grass"],
 
 		effect: {

@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Electrosmash"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Lightning"],
 
 		effect: {

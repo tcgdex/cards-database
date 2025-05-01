@@ -26,7 +26,7 @@ const card: Card = {
 			en: "Bonemerang"
 		},
 
-		damage: 80,
+		damage: "80x",
 		cost: ["Fighting", "Fighting"],
 
 		effect: {

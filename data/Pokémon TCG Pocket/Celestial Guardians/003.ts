@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Quick Attack"
 		},
 
-		damage: 10,
+		damage: "10+",
 		cost: ["Colorless"],
 
 		effect: {

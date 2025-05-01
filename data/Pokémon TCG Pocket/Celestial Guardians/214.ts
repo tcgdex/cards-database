@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Psychic"
 		},
 
-		damage: 80,
+		damage: "80+",
 		cost: ["Grass", "Colorless", "Colorless", "Colorless"],
 
 		effect: {

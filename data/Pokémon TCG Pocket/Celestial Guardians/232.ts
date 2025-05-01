@@ -33,7 +33,7 @@ const card: Card = {
 			en: "Hydro Bazooka"
 		},
 
-		damage: 100,
+		damage: "100+",
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {

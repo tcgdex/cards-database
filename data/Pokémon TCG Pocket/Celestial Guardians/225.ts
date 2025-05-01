@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Power Press"
 		},
 
-		damage: 70,
+		damage: "70+",
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
