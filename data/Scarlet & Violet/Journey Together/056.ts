@@ -62,18 +62,6 @@ const card: Card = {
 		},
 
 		damage: "20+"
-	}, {
-		cost: ["Psychic", "Colorless"],
-
-		name: {
-			fr: "Rondo Pleine Lune"
-		},
-
-		effect: {
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire)."
-		},
-
-		damage: "20+"
 	}],
 
 	retreat: 1,
