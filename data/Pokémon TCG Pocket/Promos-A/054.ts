@@ -29,7 +29,28 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 0
+	retreat: 0,
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			en: "Counterattack"
+		},
+
+		effect: {
+			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+		}
+	}],
+
+	attacks: [{
+		name: {
+			en: "Electric Punch"
+		},
+
+		damage: 70,
+		cost: ["Lightning", "Lightning"]
+	}]
 }
 
 export default card

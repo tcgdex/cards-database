@@ -32,7 +32,7 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "Discard 2 <span class=\"energy-text energy-text--type-fire\"></span> Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon."
+			en: "Discard 2 Fire Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon."
 		}
 	}],
 

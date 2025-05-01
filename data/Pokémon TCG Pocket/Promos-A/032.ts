@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Fire"],
 
 		effect: {
-			en: "Discard a <span class=\"energy-text energy-text--type-fire\"></span> Energy from this Pokémon."
+			en: "Discard a Fire Energy from this Pokémon."
 		}
 	}],
 
