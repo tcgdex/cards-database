@@ -37,14 +37,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "10+"
-		},
-	],
-
-	resistances: [
-		{
-			type: "Lightning",
-			value: "-20"
+			value: "×2"
 		},
 	],
 
