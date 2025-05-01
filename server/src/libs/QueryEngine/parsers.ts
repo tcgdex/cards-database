@@ -164,7 +164,7 @@ function parseParam(_key: string, value: string): QueryValues<unknown> {
 			case 'notlike':
 				return { $not: { $inc: item } }
 			case 'eq':
-				return item
+				return { $eq: item }
 			case 'neq':
 				return { $not: item }
 			case 'gte':
@@ -179,6 +179,7 @@ function parseParam(_key: string, value: string): QueryValues<unknown> {
 				return null
 			case 'notnull':
 				return { $not: null }
+			case 'like':
 			default:
 				return { $inc: item }
 		}

@@ -387,6 +387,10 @@ function filterItem(value: any, query: QueryValues<AllowedValues>): boolean {
 		if (typeof query === 'string' && typeof value === 'string') {
 			return query.toLowerCase() === value.toLowerCase()
 		}
+
+		if (Array.isArray(value)) {
+			return value.includes(query)
+		}
 		return query === value
 	}
 
@@ -402,10 +406,27 @@ function filterItem(value: any, query: QueryValues<AllowedValues>): boolean {
 		if (typeof value === 'number' && typeof query.$inc === 'number') {
 			return value === query.$inc
 		}
-		return (value.toString() as string).toLowerCase().includes(query.$inc!.toString()!.toLowerCase())
+
+		const valueTmp = value.toString().toLowerCase()
+		const comp = query.$inc!.toString().toLowerCase()
+		const ignoreStars = comp.startsWith('*') && comp.endsWith('*')
+
+		if (!ignoreStars && comp.startsWith('*')) {
+			return valueTmp.endsWith(comp.slice(1))
+		} else if (!ignoreStars && comp.endsWith('*')) {
+			return valueTmp.startsWith(comp.slice(0, -1))
+		} else if (ignoreStars) {
+			return valueTmp.includes(comp.slice(1, -1))
+		}
+		return valueTmp.includes(comp)
 	}
 
 	if ('$eq' in query) {
+		// handle searching using an array
+		if (Array.isArray(value)) {
+			return value.includes(query.$eq)
+		}
+
 		return query.$eq === value
 	}
 
