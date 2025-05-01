@@ -362,7 +362,6 @@ function filterValue<T extends AllowedValues>(value: unknown, query: QueryValues
  */
 // eslint-disable-next-line complexity
 function filterItem(value: any, query: QueryValues<AllowedValues>): boolean {
-	console.log(value, query)
 	/**
 	 * check if the value is null
 	 */
