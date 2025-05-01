@@ -28,7 +28,7 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Take a  Energy from your Energy Zone and attach it to this Pokémon."
+			en: "Take a Psychic Energy from your Energy Zone and attach it to this Pokémon."
 		}
 	}],
 

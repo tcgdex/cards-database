@@ -33,7 +33,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Take a  Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
+			en: "Take a Colorless Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
 		}
 	}],
 

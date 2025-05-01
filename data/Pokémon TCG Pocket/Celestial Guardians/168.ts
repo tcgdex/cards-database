@@ -28,7 +28,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Each of your Pokémon that has any  Energy attached recovers from all Special Conditions and can't be affected by any Special Conditions."
+			en: "Each of your Pokémon that has any Psychic Energy attached recovers from all Special Conditions and can't be affected by any Special Conditions."
 		}
 	}],
 
