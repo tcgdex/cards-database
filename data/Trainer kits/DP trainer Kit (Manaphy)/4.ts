@@ -12,32 +12,47 @@ const card: Card = {
 	illustrator: "Daisuke Ito",
 	rarity: "None",
 	category: "Pokemon",
+	stage: "Basic",
+
+	hp: 70,
+
+	attacks: [{
+		cost: [
+			"Colorless",
+		],
+		name: {
+			en: "Call for Family"
+		},
+		effect: {
+			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+		}
+	}, {
+		cost: [
+			"Water",
+			"Water"
+		],
+		name: {
+			en: "Aqua Ring"
+		},
+		effect: {
+			en: "Switch Manaphy with 1 of your Benched Pokémon."
+		},
+		damage: 30
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "20+"
+		}
+	],
 
 	description: {
 		en: "Born on a cold seafloor, it will swim great distances to return to its birthplace."
 	},
 
-	stage: "Basic",
+	retreat: 1
 
-	attacks: [{
-		name: {
-			en: "Call for Family"
-		},
-
-		effect: {
-			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
-		}
-	}, {
-		name: {
-			en: "Aqua Ring"
-		},
-
-		damage: 30,
-
-		effect: {
-			en: "Switch Manaphy with 1 of your Benched Pokémon."
-		}
-	}]
 }
 
 export default card
