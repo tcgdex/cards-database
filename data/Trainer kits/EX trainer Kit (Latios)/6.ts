@@ -14,19 +14,40 @@ const card: Card = {
 	category: "Pokemon",
 	stage: "Basic",
 
+	hp: 50,
+
+	types: [
+		"Lightning",
+	],
+
 	attacks: [{
+		cost: [
+			"Colorless",
+		],
 		name: {
 			en: "Scratch"
 		},
-
 		damage: 10
 	}, {
+		cost: [
+			"Lightning",
+			"Colorless",
+			"Colorless"
+		],
 		name: {
 			en: "Pika Bolt"
 		},
-
 		damage: 40
-	}]
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "2x"
+		},
+	],
+
+	retreat: 1,
 }
 
 export default card

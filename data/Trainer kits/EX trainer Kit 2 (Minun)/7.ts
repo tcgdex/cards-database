@@ -1,23 +1,23 @@
 import { Card } from '../../../interfaces'
-import Set from '../EX trainer Kit (Latias)'
+import Set from '../EX trainer Kit 2 (Minun).ts'
 
 const card: Card = {
-	dexId: [371],
+	dexId: [37],
 	set: Set,
 
 	name: {
-		en: "Bagon"
+		en: "Vulpix"
 	},
 
-	illustrator: "Ken Sugimori",
+	illustrator: "Midori Harada",
 	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
 
-	hp: 40,
+	hp: 50,
 
 	types: [
-		"Colorless",
+		"Fire",
 	],
 
 	attacks: [{
@@ -25,7 +25,7 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Headbutt"
+			en: "Bite"
 		},
 		damage: 10
 	}, {
@@ -34,10 +34,20 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Flare"
+			en: "Firebreathing"
 		},
-		damage: 20
+		effect: {
+			en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+		},
+		damage: "20+"
 	}],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "2x"
+		},
+	],
 
 	retreat: 1,
 }

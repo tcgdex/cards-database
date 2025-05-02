@@ -2,14 +2,14 @@ import { Card } from '../../../interfaces'
 import Set from '../EX trainer Kit 2 (Plusle)'
 
 const card: Card = {
-	dexId: [374],
+	dexId: [309],
 	set: Set,
 
 	name: {
-		en: "Beldum"
+		en: "Electrike"
 	},
 
-	illustrator: "Kouki Saitou",
+	illustrator: "Hiroki Fuchino",
 	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
@@ -17,34 +17,36 @@ const card: Card = {
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Lightning",
 	],
 
 	attacks: [{
 		cost: [
-			"Colorless",
+			"Lightning",
 		],
 		name: {
-			en: "Call for Family"
+			en: "Recharge"
 		},
 		effect: {
-			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+			en: "Search your deck for a Lightning Energy card and attach it to Electrike. Shuffle your deck afterward."
 		}
 	}, {
 		cost: [
-			"Psychic",
+			"Colorless",
+			"Colorless"
 		],
 		name: {
-			en: "Metal Ball"
+			en: "Quick Attack"
 		},
 		effect: {
-			en: "Put 1 damage counter on the Defending Pokémon."
-		}
+			en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+		},
+		damage: "10+"
 	}],
 
 	weaknesses: [
 		{
-			type: "Psychic",
+			type: "Fighting",
 			value: "2x"
 		},
 	],

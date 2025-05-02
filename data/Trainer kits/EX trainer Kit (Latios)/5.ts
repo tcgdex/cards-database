@@ -14,23 +14,48 @@ const card: Card = {
 	category: "Pokemon",
 	stage: "Stage1",
 
+	hp: 80,
+
+	types: [
+		"Lightning",
+	],
+
+	evolveFrom: {
+		en: "Magnemite",
+	},
+
 	attacks: [{
+		cost: [
+			"Colorless",
+			"Colorless"
+		],
 		name: {
 			en: "Ram"
 		},
-
 		damage: 20
 	}, {
+		cost: [
+			"Lightning",
+			"Colorless",
+			"Colorless"
+		],
 		name: {
 			en: "Triple Smash"
 		},
-
-		damage: "20+",
-
 		effect: {
 			en: "Flip 3 coins. This attack does 20 damage plus 20 more damage for each heads."
-		}
-	}]
+		},
+		damage: "20+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "2x"
+		},
+	],
+
+	retreat: 1,
 }
 
 export default card

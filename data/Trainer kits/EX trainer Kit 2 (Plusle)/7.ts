@@ -1,50 +1,41 @@
 import { Card } from '../../../interfaces'
-import Set from '../EX trainer Kit (Latias)'
+import Set from '../EX trainer Kit 2 (Plusle)'
 
 const card: Card = {
-	dexId: [322],
+	dexId: [325],
 	set: Set,
 
 	name: {
-		en: "Numel"
+		en: "Spoink"
 	},
 
-	illustrator: "Yuka Morii",
+	illustrator: "Ken Sugimori",
 	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
 
-	hp: 40,
+	hp: 50,
 
 	types: [
-		"Fire",
+		"Psychic",
 	],
 
 	attacks: [{
 		cost: [
-			"Fire",
+			"Psychic",
 		],
 		name: {
-			en: "Firebreathing"
+			en: "Knock Away"
 		},
 		effect: {
 			en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
 		},
 		damage: "10+"
-	}, {
-		cost: [
-			"Colorless",
-			"Colorless"
-		],
-		name: {
-			en: "Tackle"
-		},
-		damage: 20
 	}],
 
 	weaknesses: [
 		{
-			type: "Water",
+			type: "Psychic",
 			value: "2x"
 		},
 	],

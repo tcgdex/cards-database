@@ -2,44 +2,47 @@ import { Card } from '../../../interfaces'
 import Set from '../EX trainer Kit 2 (Plusle)'
 
 const card: Card = {
-	dexId: [374],
+	dexId: [326],
 	set: Set,
 
 	name: {
-		en: "Beldum"
+		en: "Grumpig"
 	},
 
-	illustrator: "Kouki Saitou",
+	illustrator: "Ken Sugimori",
 	rarity: "None",
 	category: "Pokemon",
-	stage: "Basic",
+	stage: "Stage1",
 
-	hp: 50,
+	hp: 70,
 
 	types: [
 		"Psychic",
 	],
+
+	evolveFrom: {
+		en: "Spoink",
+	},
 
 	attacks: [{
 		cost: [
 			"Colorless",
 		],
 		name: {
-			en: "Call for Family"
+			en: "Snap Tail"
 		},
 		effect: {
-			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
-		}
+			en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+		},
 	}, {
 		cost: [
 			"Psychic",
+			"Colorless"
 		],
 		name: {
-			en: "Metal Ball"
+			en: "Psypunch"
 		},
-		effect: {
-			en: "Put 1 damage counter on the Defending Pokémon."
-		}
+		damage: 40
 	}],
 
 	weaknesses: [

@@ -1,5 +1,5 @@
 import { Card } from '../../../interfaces'
-import Set from '../EX trainer Kit 2 (Ninun)'
+import Set from '../EX trainer Kit 2 (Minun).ts'
 
 const card: Card = {
 	dexId: [5],
@@ -14,23 +14,48 @@ const card: Card = {
 	category: "Pokemon",
 	stage: "Stage1",
 
+	hp: 70,
+
+	types: [
+		"Fire",
+	],
+
+	evolveFrom: {
+		en: "Charmander",
+	},
+
 	attacks: [{
+		cost: [
+			"Fire",
+			"Colorless"
+		],
 		name: {
 			en: "Flare"
 		},
-
 		damage: 30
 	}, {
+		cost: [
+			"Fire",
+			"Colorless",
+			"Colorless"
+		],
 		name: {
 			en: "Damage Burn"
 		},
-
-		damage: "40+",
-
 		effect: {
 			en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage."
-		}
-	}]
+		},
+		damage: "40+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "2x"
+		},
+	],
+
+	retreat: 1,
 }
 
 export default card
