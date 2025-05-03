@@ -31,3 +31,5 @@ jobs:
       - name: Run load-cards script
         id: load-cards
         run: bun load-cards.js
+        env:
+          INPUT_GITHUB-TOKEN: ${{ secrets.GITHUB_TOKEN }}
