@@ -14,23 +14,43 @@ const card: Card = {
 	category: "Pokemon",
 	stage: "Basic",
 
+	hp: 50,
+
+	types: [
+		"Colorless",
+	],
+
 	attacks: [{
+		cost: [
+			"Colorless",
+		],
 		name: {
 			en: "Tackle"
 		},
-
 		damage: 10
 	}, {
+		cost: [
+			"Colorless",
+			"Colorless"
+		],
 		name: {
 			en: "Lunge"
 		},
-
-		damage: 30,
-
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing."
-		}
-	}]
+		},
+		damage: 30
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "2x"
+		},
+	],
+
+	retreat: 1,
+
 }
 
 export default card

@@ -14,25 +14,48 @@ const card: Card = {
 	category: "Pokemon",
 	stage: "Stage1",
 
+	hp: 70,
+
+	types: [
+		"Colorless",
+	],
+
+	evolveFrom: {
+		en: "Zigzagoon",
+	},
+
 	attacks: [{
+		cost: [
+			"Colorless",
+		],
 		name: {
 			en: "Seek Out"
 		},
-
 		effect: {
 			en: "Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward."
 		}
 	}, {
+		cost: [
+			"Colorless",
+			"Colorless"
+		],
 		name: {
 			en: "Continuous Headbutt"
 		},
-
-		damage: "40×",
-
 		effect: {
 			en: "Flip a coin until you get tails. This attack does 40 damage times the number of heads."
-		}
-	}]
+		},
+		damage: "40×"
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "2x"
+		},
+	],
+
+	retreat: 1,
 }
 
 export default card
