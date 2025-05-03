@@ -19,6 +19,7 @@ type CardResult = {
 	isAsian?: boolean;
 	usedLanguage?: string;
 	hasImage?: boolean;
+	status?: "added" | "removed" | "modified";
 };
 
 type CardFetchResult = {
@@ -124,7 +125,7 @@ async function tryFetchCardWithFallback(
 async function getChangedFiles(
 	context: typeof github.context,
 	octokit: ReturnType<typeof github.getOctokit>,
-): Promise<string[]> {
+): Promise<{ filename: string; status: string }[]> {
 	if (context.payload.pull_request) {
 		const { owner, repo } = context.repo;
 		const prNumber = context.payload.pull_request.number;
@@ -133,63 +134,95 @@ async function getChangedFiles(
 			repo,
 			pull_number: prNumber,
 		});
-		return response.data.map((file) => file.filename);
+		return response.data.map((file) => ({ filename: file.filename, status: file.status }));
 	} else if (context.payload.commits) {
-		const filesSet = new Set<string>();
+		const files: { filename: string; status: string }[] = [];
 		for (const commit of context.payload.commits) {
-			["added", "modified", "removed"].forEach((type) => {
-				if (commit[type]) commit[type].forEach((file: string) => filesSet.add(file));
-			});
+			if (commit.added) {
+				commit.added.forEach((file: string) => files.push({ filename: file, status: "added" }));
+			}
+			if (commit.modified) {
+				commit.modified.forEach((file: string) => files.push({ filename: file, status: "modified" }));
+			}
+			if (commit.removed) {
+				commit.removed.forEach((file: string) => files.push({ filename: file, status: "removed" }));
+			}
 		}
-		return Array.from(filesSet);
+		return files;
 	}
 	return [];
 }
 
 // Process a single card file
-async function processCardFile(file: string): Promise<CardResult | null> {
-	console.log(` - ${file}`);
-	let match = file.match(DATA_REGEX);
+async function processCardFile(file: { filename: string; status: string }): Promise<CardResult | null> {
+	console.log(` - ${file.filename} (${file.status})`);
+	let match = file.filename.match(DATA_REGEX);
+	const isCardFile = !!(match || file.filename.match(DATA_ASIA_REGEX));
 
+	if (!isCardFile) {
+		return null;
+	}
+
+	// For added files, just return the file info without fetching
+	if (file.status === "added") {
+		return {
+			file: file.filename,
+			status: "added",
+		};
+	}
+
+	// For removed files, just return the file info without fetching
+	if (file.status === "removed") {
+		return {
+			file: file.filename,
+			status: "removed",
+		};
+	}
+
+	// Only process modified files normally
 	if (match) {
 		const [_, , setName, cardLocalId] = match;
 		const result = await tryFetchCardWithFallback(setName!, cardLocalId!, "en", INTERNATIONAL_LANGUAGES, false);
 
 		if (result) {
 			return {
-				file,
+				file: file.filename,
 				card: sanitizeCardData(result.card),
 				isAsian: false,
 				usedLanguage: result.usedLanguage,
 				hasImage: result.hasImage,
+				status: "modified",
 			};
 		} else {
 			return {
-				file,
+				file: file.filename,
 				error: "Failed to fetch card information in all available languages",
 				isAsian: false,
+				status: "modified",
 			};
 		}
 	}
 
-	match = file.match(DATA_ASIA_REGEX);
+	match = file.filename.match(DATA_ASIA_REGEX);
 	if (match) {
 		const [_, , setId, cardLocalId] = match;
 		const result = await tryFetchCardWithFallback(setId!, cardLocalId!, "ja", ASIAN_LANGUAGES, true);
 
 		if (result) {
 			return {
-				file,
+				file: file.filename,
 				card: sanitizeCardData(result.card),
 				isAsian: true,
 				usedLanguage: result.usedLanguage,
 				hasImage: result.hasImage,
+				status: "modified",
 			};
 		} else {
 			return {
-				file,
+				file: file.filename,
 				error: "Failed to fetch card information in all available languages",
 				isAsian: true,
+				status: "modified",
 			};
 		}
 	}
@@ -200,15 +233,17 @@ async function processCardFile(file: string): Promise<CardResult | null> {
 // Generate comment body for PR
 function generateCommentBody(
 	cardResults: CardResult[],
-	changedFiles: string[],
+	changedFiles: { filename: string; status: string }[],
 	repoFullName: string,
 	contextSha: string,
 ): string {
-	const successfulCards = cardResults.filter((r) => r.card).length;
-	const errorCards = cardResults.filter((r) => r.error).length;
+	const newCards = cardResults.filter((r) => r.status === "added").length;
+	const deletedCards = cardResults.filter((r) => r.status === "removed").length;
+	const modifiedCards = cardResults.filter((r) => r.status === "modified" && r.card).length;
+	const errorCards = cardResults.filter((r) => r.status === "modified" && r.error).length;
 	const cardsWithoutImages = cardResults.filter((r) => r.card && !r.hasImage).length;
 
-	let commentBody = `## 🃏 ${successfulCards + errorCards} Card${successfulCards + errorCards !== 1 ? "s" : ""} Changed\n\n`;
+	let commentBody = `## 🃏 ${cardResults.length} Card${cardResults.length !== 1 ? "s" : ""} Changed\n\n`;
 
 	if (cardResults.length === 0) {
 		commentBody +=
@@ -218,23 +253,42 @@ function generateCommentBody(
 		return commentBody;
 	}
 
-	// Add summary if there are errors or cards without images
-	if (errorCards > 0 || cardsWithoutImages > 0) {
-		commentBody += `**Details:** ${successfulCards} processed successfully`;
-		if (cardsWithoutImages > 0) {
-			commentBody += ` (${cardsWithoutImages} without images)`;
-		}
-		if (errorCards > 0) {
-			commentBody += `, ${errorCards} with errors`;
-		}
-		commentBody += `\n\n`;
+	// Add summary
+	commentBody += `**Details:** `;
+
+	const details = [];
+	if (newCards > 0) {
+		details.push(`${newCards} new`);
 	}
+	if (deletedCards > 0) {
+		details.push(`${deletedCards} deleted`);
+	}
+	if (modifiedCards > 0) {
+		details.push(`${modifiedCards} modified`);
+	}
+	if (errorCards > 0) {
+		details.push(`${errorCards} with errors`);
+	}
+	if (cardsWithoutImages > 0) {
+		details.push(`${cardsWithoutImages} without images`);
+	}
+
+	commentBody += details.join(", ") + "\n\n";
 
 	// Generate detailed card information
 	for (const item of cardResults) {
 		const fileUrl = `https://github.com/${repoFullName}/blob/${contextSha}/${item.file}`;
+		const fileName = item.file.split("/").pop();
 
-		if (item.card) {
+		if (item.status === "added") {
+			commentBody += `<details><summary>➕ <strong>New card: ${fileName}</strong></summary>\n\n`;
+			commentBody += `**File:** [${item.file}](${fileUrl})  \n\n`;
+			commentBody += "</details>\n\n";
+		} else if (item.status === "removed") {
+			commentBody += `<details><summary>🗑️ <strong>Deleted card: ${fileName}</strong></summary>\n\n`;
+			commentBody += `**File:** [${item.file}](${fileUrl})  \n\n`;
+			commentBody += "</details>\n\n";
+		} else if (item.card) {
 			const langInfo = item.usedLanguage ? ` (found using ${item.usedLanguage})` : "";
 			const imageStatus = !item.hasImage ? ` <em>(no images)</em>` : "";
 
@@ -252,7 +306,7 @@ function generateCommentBody(
 			commentBody += `**Rarity:** ${item.card.rarity || "Unknown"}\n\n`;
 			commentBody += "</details>\n\n";
 		} else if (item.error) {
-			commentBody += `<details><summary>⚠️ <strong>Error processing ${item.file.split("/").pop()}</strong></summary>\n\n`;
+			commentBody += `<details><summary>⚠️ <strong>Error processing ${fileName}</strong></summary>\n\n`;
 			commentBody += `**File:** [${item.file}](${fileUrl})  \n`;
 			commentBody += `**Error:** ${item.error}\n\n`;
 			commentBody += "</details>\n\n";
@@ -357,7 +411,7 @@ async function run() {
 
 		// Store the generated comment for the workflow
 		core.setOutput("pr_comment", commentBody);
-		core.setOutput("files", changedFiles.join(","));
+		core.setOutput("files", changedFiles.map(f => f.filename).join(","));
 		core.setOutput("cardFiles", JSON.stringify(cardResults));
 	} catch (error) {
 		if (error instanceof Error) {
