@@ -33,4 +33,4 @@ jobs:
         id: load-cards
         run: bun load-cards.js
         env:
-          INPUT_GITHUB-TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INPUT_GITHUB-TOKEN: ${{ secrets.TCGDEX_BOT }}
