@@ -231,7 +231,7 @@ async function run() {
 				if (item.card) {
 					let langInfo = item.usedLanguage ? ` (found using ${item.usedLanguage})` : "";
 					if (!item.hasImage) {
-						langInfo += ` ⚠️ NO IMAGES FOUND`;
+						langInfo += ` <em>(no images)</em>`;
 					}
 					commentBody += `<details><summary><strong>${item.card.name}</strong> (${item.card.id})${langInfo}</summary>\n\n`;
 
@@ -273,7 +273,7 @@ async function run() {
 
 						commentBody += `\n</div>\n\n`;
 					} else {
-						commentBody += `\n⚠️ **No images available for this card**\n\n`;
+						commentBody += `<p align="center"><em>No images available for this card</em></p>\n\n`;
 					}
 
 					commentBody += `**File:** [${item.file}](${fileUrl})  \n`;
