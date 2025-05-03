@@ -21,7 +21,7 @@ const card: Card = {
 			en: "School Storm"
 		},
 
-		damage: 30,
+		damage: "30+",
 		cost: ["Water", "Water", "Water"],
 
 		effect: {

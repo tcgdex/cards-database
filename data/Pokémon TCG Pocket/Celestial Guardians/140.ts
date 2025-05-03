@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, attacks used by the Defending Pokémon cost 1  more, and its Retreat Cost is 1  more."
+			en: "During your opponent's next turn, attacks used by the Defending Pokémon cost 1 Colorless more, and its Retreat Cost is 1 Colorless more."
 		}
 	}],
 

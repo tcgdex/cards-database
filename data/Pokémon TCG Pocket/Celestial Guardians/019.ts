@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Double Spin"
 		},
 
-		damage: 30,
+		damage: "30x",
 		cost: ["Grass"],
 
 		effect: {

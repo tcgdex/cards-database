@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "The  Pokémon this card is attached to gets +30 HP."
+		en: "The Grass Pokémon this card is attached to gets +30 HP."
 	},
 
 	trainerType: "Tool"

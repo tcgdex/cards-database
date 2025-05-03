@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Blood Fang"
 		},
 
-		damage: 50,
+		damage: "50+",
 		cost: ["Fighting", "Fighting"],
 
 		effect: {

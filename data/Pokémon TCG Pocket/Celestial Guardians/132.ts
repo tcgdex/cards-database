@@ -25,11 +25,11 @@ const card: Card = {
 			en: "Justified Press"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a  Pokémon, this attack does 30 more damage."
+			en: "If your opponent's Active Pokémon is a Darkness Pokémon, this attack does 30 more damage."
 		}
 	}],
 

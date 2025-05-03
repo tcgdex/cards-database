@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Heal 60 damage from 1 of your Two Pokémon."
+		en: "Heal 60 damage from 1 of your Stage 2 Pokémon."
 	},
 
 	trainerType: "Supporter"

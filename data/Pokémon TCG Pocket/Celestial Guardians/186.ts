@@ -29,7 +29,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may move all  Energy from 1 of your Benched  Pokémon to your Active Pokémon."
+			en: "Once during your turn, you may move all Psychic Energy from 1 of your Benched Psychic Pokémon to your Active Pokémon."
 		}
 	}],
 

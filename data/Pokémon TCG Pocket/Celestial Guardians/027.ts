@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Burning Bonemerang"
 		},
 
-		damage: 70,
+		damage: "70x",
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {

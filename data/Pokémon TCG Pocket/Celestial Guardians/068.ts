@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched  Pokémon."
+			en: "Switch this Pokémon with 1 of your Benched Lightning Pokémon."
 		}
 	}],
 

@@ -24,7 +24,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move all  Energy from this Pokémon to 1 of your Benched Pokémon."
+			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move all Fighting Energy from this Pokémon to 1 of your Benched Pokémon."
 		}
 	}],
 
