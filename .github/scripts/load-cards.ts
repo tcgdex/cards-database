@@ -21,135 +21,146 @@ function sanitizeCardData(card: any) {
 
 async function run() {
   try {
-    // Get GitHub token
+    // Get GitHub token and init client
     const token = core.getInput('github-token', { required: true });
     const octokit = github.getOctokit(token);
-
-    // Get the current context
     const context = github.context;
     const { owner, repo } = context.repo;
     const repoFullName = `${owner}/${repo}`;
 
+    // Get changed files
     let changedFiles: string[] = [];
-    let prNumber: number | undefined;
 
-    // Check if this is a pull request
     if (context.payload.pull_request) {
-      prNumber = context.payload.pull_request.number;
-
-      // Get list of files changed in the PR
+      const prNumber = context.payload.pull_request.number;
       const response = await octokit.rest.pulls.listFiles({
-        owner,
-        repo,
-        pull_number: prNumber,
+        owner, repo, pull_number: prNumber,
       });
-
       changedFiles = response.data.map(file => file.filename);
-    }
-    // Check if this is a push event
-    else if (context.payload.commits) {
-      // For push events, the list of changed files comes directly in the payload
-      const commits = context.payload.commits;
-
-      // Collect all unique files from all commits
+    } else if (context.payload.commits) {
       const filesSet = new Set<string>();
-
-      for (const commit of commits) {
-        if (commit.added) commit.added.forEach((file: string) => filesSet.add(file));
-        if (commit.modified) commit.modified.forEach((file: string) => filesSet.add(file));
-        if (commit.removed) commit.removed.forEach((file: string) => filesSet.add(file));
+      for (const commit of context.payload.commits) {
+        ['added', 'modified', 'removed'].forEach(type => {
+          if (commit[type]) commit[type].forEach((file: string) => filesSet.add(file));
+        });
       }
-
       changedFiles = Array.from(filesSet);
     }
 
-    // Prepare the PR comment
-    let commentBody = '## 🃏 Pokémon Card Changes\n\n';
+    // Process card files
     const cardResults: Array<{file: string, card?: any, error?: string}> = [];
 
-    if (changedFiles.length === 0) {
-      commentBody += 'No card files were changed in this PR.\n';
-    } else {
-      console.log('Files changed in this event:');
+    for (const file of changedFiles) {
+      console.log(` - ${file}`);
+      let match = file.match(DATA_REGEX);
+      let cardInfo = null;
 
-      for (const file of changedFiles) {
-        console.log(` - ${file}`);
-
-        // Check if the file follows one of our patterns
-        let match = file.match(DATA_REGEX);
-        let cardInfo = null;
-
-        if (match) {
-          const tcgdex = new TCGdex();
-          const [_, serieName, setName, cardLocalId] = match;
-          try {
-            // Get card information using the TCGdex SDK
-            const set = (await tcgdex.set.get(setName!))!
-            const card = await tcgdex.card.get(`${set.id}-${cardLocalId}`)
-            console.log(`   Card: ${card!.name} (${card!.id})`);
-
-            // Sanitize card data to prevent circular references
-            const sanitizedCard = sanitizeCardData(card);
-            cardInfo = { file, card: sanitizedCard };
-          } catch (error) {
-            console.log(`   Failed to fetch card information: ${error instanceof Error ? error.message : 'Unknown error'}`);
-            cardInfo = { file, error: 'Failed to fetch card information' };
-          }
-        } else {
-          // Check if it's an Asia file
-          match = file.match(DATA_ASIA_REGEX);
-          if (match) {
-            const [_, serieId, setId, cardLocalId] = match;
-            // Using 'jp' instead of 'ja' for Japanese
-            const tcgdex = new TCGdex('ja');
-            try {
-              // Get card information using the TCGdex SDK
-              const card = (await tcgdex.card.get(`${setId}-${cardLocalId}`))!
-              console.log(`   Card: ${card.name} (${card.id})`);
-
-              // Sanitize card data to prevent circular references
-              const sanitizedCard = sanitizeCardData(card);
-              cardInfo = { file, card: sanitizedCard };
-            } catch (error) {
-              console.log(`   Failed to fetch card information: ${error instanceof Error ? error.message : 'Unknown error'}`);
-              cardInfo = { file, error: 'Failed to fetch card information' };
-            }
-          }
+      // Process according to file pattern
+      if (match) {
+        const tcgdex = new TCGdex();
+        const [_, , setName, cardLocalId] = match;
+        try {
+          const set = (await tcgdex.set.get(setName!))!;
+          const card = await tcgdex.card.get(`${set.id}-${cardLocalId}`);
+          console.log(`   Card: ${card!.name} (${card!.id})`);
+          cardInfo = { file, card: sanitizeCardData(card) };
+        } catch (error) {
+          console.log(`   Failed to fetch card: ${error instanceof Error ? error.message : 'Unknown error'}`);
+          cardInfo = { file, error: 'Failed to fetch card information' };
         }
-
-        if (cardInfo) {
-          cardResults.push(cardInfo);
+      } else if ((match = file.match(DATA_ASIA_REGEX))) {
+        const [_, , setId, cardLocalId] = match;
+        const tcgdex = new TCGdex('ja' as any); // Using 'ja' for Japanese
+        try {
+          const card = (await tcgdex.card.get(`${setId}-${cardLocalId}`))!;
+          console.log(`   Card: ${card.name} (${card.id})`);
+          cardInfo = { file, card: sanitizeCardData(card) };
+        } catch (error) {
+          console.log(`   Failed to fetch card: ${error instanceof Error ? error.message : 'Unknown error'}`);
+          cardInfo = { file, error: 'Failed to fetch card information' };
         }
       }
 
-      // Build the comment body with card details
-      if (cardResults.length > 0) {
-        commentBody += 'The following card files were modified:\n\n';
+      if (cardInfo) cardResults.push(cardInfo);
+    }
 
-        for (const item of cardResults) {
-          const fileUrl = `https://github.com/${repoFullName}/blob/${context.sha}/${item.file}`;
+    // Create the PR comment with a summary at the top
+    const successfulCards = cardResults.filter(r => r.card).length;
+    const errorCards = cardResults.filter(r => r.error).length;
 
-          if (item.card) {
-            commentBody += `### ${item.card.name} (${item.card.id})\n`;
-            commentBody += `- **File:** [${item.file}](${fileUrl})\n`;
+    let commentBody = '## 🃏 Pokémon Card Changes\n\n';
 
-            // Add image if available
-            if (item.card.image) {
-              commentBody += `- **Image:** \n\n<img src="${item.card.image}/high.webp" alt="${item.card.name}" width="240"/>\n\n`;
-            }
+    // Brief summary at the top
+    if (cardResults.length > 0) {
+      commentBody += `**Summary:** ${successfulCards} card${successfulCards !== 1 ? 's' : ''} processed successfully`;
+      if (errorCards > 0) commentBody += `, ${errorCards} with errors`;
+      commentBody += '.\n\n';
 
-            commentBody += `- **Set:** ${item.card.set?.name || 'Unknown'}\n`;
-            commentBody += `- **Rarity:** ${item.card.rarity || 'Unknown'}\n\n`;
-            commentBody += '---\n\n';
-          } else if (item.error) {
-            commentBody += `### ⚠️ Error processing ${item.file}\n`;
-            commentBody += `- **File:** [${item.file}](${fileUrl})\n`;
-            commentBody += `- **Error:** ${item.error}\n\n`;
-            commentBody += '---\n\n';
+      // Detailed card information
+      for (const item of cardResults) {
+        const fileUrl = `https://github.com/${repoFullName}/blob/${context.sha}/${item.file}`;
+
+        if (item.card) {
+          commentBody += `<details><summary><strong>${item.card.name}</strong> (${item.card.id})</summary>\n\n`;
+
+          // Display image more prominently
+          if (item.card.image) {
+            commentBody += `<div align="center">\n<img src="${item.card.image}/high.webp" alt="${item.card.name}" width="300"/>\n</div>\n\n`;
           }
+
+          commentBody += `**File:** [${item.file}](${fileUrl})  \n`;
+          commentBody += `**Set:** ${item.card.set?.name || 'Unknown'}  \n`;
+          commentBody += `**Rarity:** ${item.card.rarity || 'Unknown'}\n\n`;
+          commentBody += '</details>\n\n';
+        } else if (item.error) {
+          commentBody += `<details><summary>⚠️ <strong>Error processing ${item.file.split('/').pop()}</strong></summary>\n\n`;
+          commentBody += `**File:** [${item.file}](${fileUrl})  \n`;
+          commentBody += `**Error:** ${item.error}\n\n`;
+          commentBody += '</details>\n\n';
         }
+      }
+    } else if (changedFiles.length > 0) {
+      commentBody += 'No recognized card files were changed in this PR.\n';
+    } else {
+      commentBody += 'No files were changed in this PR.\n';
+    }
+
+    // Post or update the comment in the PR if in a PR context
+    if (context.payload.pull_request) {
+      const prNumber = context.payload.pull_request.number;
+
+      // Get all comments on the PR
+      const commentsResponse = await octokit.rest.issues.listComments({
+        owner,
+        repo,
+        issue_number: prNumber,
+      });
+
+      // Look for our bot's comment with the Pokémon Card Changes header
+      const botLogin = 'github-actions[bot]'; // GitHub Actions bot username
+      const existingComment = commentsResponse.data.find(comment =>
+        comment.user?.login === botLogin &&
+        comment.body?.includes('## 🃏 Pokémon Card Changes')
+      );
+
+      if (existingComment) {
+        // Update the existing comment
+        await octokit.rest.issues.updateComment({
+          owner,
+          repo,
+          comment_id: existingComment.id,
+          body: commentBody
+        });
+        console.log(`Updated existing comment #${existingComment.id} on PR #${prNumber}`);
       } else {
-        commentBody += 'No recognized card files were changed in this PR.\n';
+        // Create a new comment if none exists
+        await octokit.rest.issues.createComment({
+          owner,
+          repo,
+          issue_number: prNumber,
+          body: commentBody
+        });
+        console.log(`Posted new comment to PR #${prNumber}`);
       }
     }
 
