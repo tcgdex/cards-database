@@ -2,7 +2,11 @@ name: Build Docker image
 
 on:
   push:
+    branches:
+      - '*'
   pull_request:
+    branches:
+      - master
 
 env:
   REGISTRY_IMAGE: |
