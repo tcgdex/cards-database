@@ -10,6 +10,28 @@ const DATA_ASIA_REGEX = /^data-asia\/([^\/]+)\/([^\/]+)\/([^\/]+)\.ts$/;
 const INTERNATIONAL_LANGUAGES = ['en', 'fr', 'es', 'es-mx', 'it', 'pt', 'pt-br', 'pt-pt', 'de', 'nl', 'pl', 'ru'];
 const ASIAN_LANGUAGES = ['ja', 'ko', 'zh-tw', 'id', 'th', 'zh-cn'];
 
+// Language names mapping
+const LANGUAGE_NAMES: Record<string, string> = {
+  'en': 'English',
+  'fr': 'French',
+  'es': 'Spanish',
+  'es-mx': 'Spanish (Mexico)',
+  'it': 'Italian',
+  'pt': 'Portuguese',
+  'pt-br': 'Portuguese (Brazil)',
+  'pt-pt': 'Portuguese (Portugal)',
+  'de': 'German',
+  'nl': 'Dutch',
+  'pl': 'Polish',
+  'ru': 'Russian',
+  'ja': 'Japanese',
+  'ko': 'Korean',
+  'zh-tw': 'Chinese (Taiwan)',
+  'id': 'Indonesian',
+  'th': 'Thai',
+  'zh-cn': 'Chinese (China)'
+};
+
 // Helper function to sanitize card data to prevent circular references
 function sanitizeCardData(card: any) {
   if (!card) return null;
@@ -25,8 +47,8 @@ function sanitizeCardData(card: any) {
 
 // Helper function to try fetching a card with fallback to other languages
 async function tryFetchCardWithFallback(
-  setIdentifier: string, 
-  cardLocalId: string, 
+  setIdentifier: string,
+  cardLocalId: string,
   primaryLanguage: string,
   allLanguages: string[],
   isAsianRegion: boolean
@@ -107,49 +129,49 @@ async function run() {
       if (match) {
         const [_, , setName, cardLocalId] = match;
         const result = await tryFetchCardWithFallback(
-          setName!, 
-          cardLocalId, 
+          setName!,
+          cardLocalId!,
           'en', // Primary language for international cards
-          INTERNATIONAL_LANGUAGES, 
+          INTERNATIONAL_LANGUAGES,
           false
         );
 
         if (result) {
-          cardInfo = { 
-            file, 
-            card: sanitizeCardData(result.card), 
-            isAsian: false, 
-            usedLanguage: result.usedLanguage 
+          cardInfo = {
+            file,
+            card: sanitizeCardData(result.card),
+            isAsian: false,
+            usedLanguage: result.usedLanguage
           };
         } else {
-          cardInfo = { 
-            file, 
-            error: 'Failed to fetch card information in all available languages', 
-            isAsian: false 
+          cardInfo = {
+            file,
+            error: 'Failed to fetch card information in all available languages',
+            isAsian: false
           };
         }
       } else if ((match = file.match(DATA_ASIA_REGEX))) {
         const [_, , setId, cardLocalId] = match;
         const result = await tryFetchCardWithFallback(
-          setId!, 
-          cardLocalId, 
+          setId!,
+          cardLocalId!,
           'ja', // Primary language for Asian cards
-          ASIAN_LANGUAGES, 
+          ASIAN_LANGUAGES,
           true
         );
 
         if (result) {
-          cardInfo = { 
-            file, 
-            card: sanitizeCardData(result.card), 
-            isAsian: true, 
-            usedLanguage: result.usedLanguage 
+          cardInfo = {
+            file,
+            card: sanitizeCardData(result.card),
+            isAsian: true,
+            usedLanguage: result.usedLanguage
           };
         } else {
-          cardInfo = { 
-            file, 
-            error: 'Failed to fetch card information in all available languages', 
-            isAsian: true 
+          cardInfo = {
+            file,
+            error: 'Failed to fetch card information in all available languages',
+            isAsian: true
           };
         }
       }
@@ -201,8 +223,9 @@ async function run() {
                 // Check if we still have languages to process
                 if (langIndex < languages.length) {
                   const lang = languages[langIndex];
+                  const langName = LANGUAGE_NAMES[lang] || lang;
                   const localizedImageUrl = item.card.image.replace(/\/[a-z]{2}(-[a-z]{2})?\//, `/${lang}/`);
-                  commentBody += ` <strong>${lang}</strong><br><img src="${localizedImageUrl}/high.webp" alt="${item.card.name} (${lang})" width="200"/> |`;
+                  commentBody += ` <strong>${langName} (${lang})</strong><br><img src="${localizedImageUrl}/high.webp" alt="${item.card.name} (${langName})" width="200"/> |`;
                 } else {
                   // Empty cell if no more languages
                   commentBody += ` |`;
