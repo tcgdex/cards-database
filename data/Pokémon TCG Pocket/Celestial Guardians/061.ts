@@ -33,7 +33,7 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Discard 2  Energy from this Pokémon."
+			en: "Discard 2 Lightning Energy from this Pokémon."
 		}
 	}],
 

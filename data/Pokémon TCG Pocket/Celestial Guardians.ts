@@ -5,12 +5,12 @@ const set: Set = {
 	id: "A3",
 
 	name: {
-		// de: "Unschlagbare Gene",
+		de: "Hüter des Firmaments",
 		en: "Celestial Guardians",
-		// es: "Genes Formidables",
-		// fr: "Puissance Génétique",
-		// it: "Geni Supremi",
-		// pt: "Dominação Genética"
+		es: "Guardianes Celestiales",
+		fr: "Gardiens Astraux",
+		it: "Guardiani Astrali",
+		pt: "Guardiões Celestiais"
 	},
 
 	serie: serie,

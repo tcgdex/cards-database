@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may heal 30 damage from each of your  Pokémon."
+			en: "Once during your turn, you may heal 30 damage from each of your Water Pokémon."
 		}
 	}],
 

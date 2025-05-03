@@ -25,17 +25,12 @@ const card: Card = {
 			en: "Berserk"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
 			en: "If any of your Benched Pokémon have damage on them, this attack does 50 more damage."
 		}
-	}],
-
-	weaknesses: [{
-		type: "Colorless",
-		value: "+20"
 	}],
 
 	retreat: 2

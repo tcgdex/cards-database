@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Put 1 of your  Pokémon that has damage on it into your hand."
+		en: "Put 1 of your Colorless Pokémon that has damage on it into your hand."
 	},
 
 	trainerType: "Supporter"

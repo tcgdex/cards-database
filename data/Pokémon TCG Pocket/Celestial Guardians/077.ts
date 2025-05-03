@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Spiteful Dance"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Psychic"],
 
 		effect: {

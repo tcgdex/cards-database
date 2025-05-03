@@ -26,7 +26,7 @@ const card: Card = {
 			en: "Tropical Swing"
 		},
 
-		damage: 40,
+		damage: "40+",
 		cost: ["Grass"],
 
 		effect: {

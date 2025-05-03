@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Spike Cannon"
 		},
 
-		damage: 20,
+		damage: "20x",
 		cost: ["Darkness"],
 
 		effect: {

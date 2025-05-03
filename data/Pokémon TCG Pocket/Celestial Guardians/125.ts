@@ -29,11 +29,6 @@ const card: Card = {
 		cost: ["Colorless"]
 	}],
 
-	weaknesses: [{
-		type: "Colorless",
-		value: "+20"
-	}],
-
 	retreat: 1
 }
 

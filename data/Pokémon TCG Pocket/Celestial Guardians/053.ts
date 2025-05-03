@@ -29,7 +29,7 @@ const card: Card = {
 			en: "Dangerous Claws"
 		},
 
-		damage: 60,
+		damage: "60+",
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {

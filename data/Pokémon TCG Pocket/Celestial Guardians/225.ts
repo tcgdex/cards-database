@@ -29,11 +29,11 @@ const card: Card = {
 			en: "Power Press"
 		},
 
-		damage: 70,
+		damage: "70+",
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
-			en: "If this Pokémon has at least 2 extra  Energy attached, this attack does 50 more damage."
+			en: "If this Pokémon has at least 2 extra Fighting Energy attached, this attack does 50 more damage."
 		}
 	}],
 

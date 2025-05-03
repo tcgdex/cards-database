@@ -37,7 +37,7 @@ const card: Card = {
 			en: "Scar-Charged Smash"
 		},
 
-		damage: 80,
+		damage: "80+",
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {

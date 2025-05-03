@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Unseen Claw"
 		},
 
-		damage: 20,
+		damage: "20+",
 		cost: ["Darkness", "Colorless"],
 
 		effect: {
