@@ -282,11 +282,11 @@ function generateCommentBody(
 
 		if (item.status === "added") {
 			commentBody += `<details><summary>➕ <strong>New card: ${fileName}</strong></summary>\n\n`;
-			commentBody += `**File:** [${item.file}](${fileUrl})  \n\n`;
+			commentBody += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
 			commentBody += "</details>\n\n";
 		} else if (item.status === "removed") {
 			commentBody += `<details><summary>🗑️ <strong>Deleted card: ${fileName}</strong></summary>\n\n`;
-			commentBody += `**File:** [${item.file}](${fileUrl})  \n\n`;
+			commentBody += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
 			commentBody += "</details>\n\n";
 		} else if (item.card) {
 			const langInfo = item.usedLanguage ? ` (found using ${item.usedLanguage})` : "";
@@ -307,7 +307,7 @@ function generateCommentBody(
 			commentBody += "</details>\n\n";
 		} else if (item.error) {
 			commentBody += `<details><summary>⚠️ <strong>Error processing ${fileName}</strong></summary>\n\n`;
-			commentBody += `**File:** [${item.file}](${fileUrl})  \n`;
+			commentBody += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
 			commentBody += `**Error:** ${item.error}\n\n`;
 			commentBody += "</details>\n\n";
 		}
