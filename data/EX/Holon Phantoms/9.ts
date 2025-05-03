@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Kabutops δ",
-		fr: "Kabutops δ ESPÈCES DELTA",
+		fr: "Kabutops δ",
 		de: "Kabutops"
 	},
 	illustrator: "Masakazu Fukuda",

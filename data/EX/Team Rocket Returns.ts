@@ -16,7 +16,11 @@ const ex7: Set = {
 		official: 109
 	},
 
-	releaseDate: "2004-11-01"
+	releaseDate: "2004-11-01",
+
+	abbreviations: {
+		official: "TR"
+	}
 }
 
 export default ex7

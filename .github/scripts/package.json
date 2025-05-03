@@ -1,0 +1,15 @@
+{
+  "name": "scripts",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "@tcgdex/sdk": "^2.6.0"
+  }
+}

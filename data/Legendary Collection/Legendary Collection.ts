@@ -15,7 +15,11 @@ const lc: Set = {
 		official: 110
 	},
 
-	releaseDate: "2002-05-24"
+	releaseDate: "2002-05-24",
+
+	abbreviations: {
+		official: "LC"
+	}
 }
 
 export default lc

@@ -10,7 +10,8 @@ const xy8: Set = {
 		es: "Turbo Impulso",
 		it: "Turbo Blitz",
 		de: "TURBOstart",
-		pt: "Turbo Revolução"
+		pt: "Turbo Revolução",
+		ru: "Турбо Импульс"
 	},
 
 	serie: serie,
@@ -20,7 +21,12 @@ const xy8: Set = {
 		official: 162
 	},
 
-	releaseDate: "2015-11-04"
+	releaseDate: "2015-11-04",
+
+	abbreviations: {
+		official: "BKT",
+		fr: "IMP"
+	}
 }
 
 export default xy8

@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Bagon δ",
-		fr: "Draby δ ESPÈCES DELTA",
+		fr: "Draby δ",
 		de: "Kindwurm"
 	},
 	illustrator: "Hajime Kusajima",

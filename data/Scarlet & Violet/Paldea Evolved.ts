@@ -19,7 +19,12 @@ const set: Set = {
 		official: 193
 	},
 
-	releaseDate: "2023-06-09"
+	releaseDate: "2023-06-09",
+
+	abbreviations: {
+		official: "PAL",
+		fr: "EAP"
+	}
 }
 
 export default set

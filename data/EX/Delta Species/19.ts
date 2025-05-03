@@ -4,7 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Azumarill δ",
-		fr: "Azumarill δ ESPÈCES DELTA",
+		fr: "Azumarill δ",
 		de: "Azumarill"
 	},
 	illustrator: "Atsuko Nishida",

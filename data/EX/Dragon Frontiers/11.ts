@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Togetic δ",
-		fr: "Togetic δ ESPÈCES DELTA",
+		fr: "Togetic δ",
 		de: "Togetic"
 	},
 	illustrator: "Kouki Saitou",

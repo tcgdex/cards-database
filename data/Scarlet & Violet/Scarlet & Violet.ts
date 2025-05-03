@@ -19,7 +19,12 @@ const set: Set = {
 		official: 198
 	},
 
-	releaseDate: "2023-03-31"
+	releaseDate: "2023-03-31",
+
+	abbreviations: {
+		official: "SV",
+		fr: "E&V"
+	}
 }
 
 export default set

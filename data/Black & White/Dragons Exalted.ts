@@ -20,7 +20,12 @@ const bw6: Set = {
 		official: 124
 	},
 
-	releaseDate: "2012-08-15"
+	releaseDate: "2012-08-15",
+
+	abbreviations: {
+		official: "DRX",
+		fr: "DEX"
+	}
 }
 
 export default bw6

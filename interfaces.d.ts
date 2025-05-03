@@ -1,6 +1,6 @@
 export type SupportedLanguages =
 	// inter languages
-	'en' | 'fr' | 'es' | 'it' | 'pt' | 'pt-br' | 'pt-pt' | 'de' | 'nl' | 'pl' | 'ru' |
+	'en' | 'fr' | 'es' | 'es-mx' | 'it' | 'pt' | 'pt-br' | 'pt-pt' | 'de' | 'nl' | 'pl' | 'ru' |
 	// Asian languages
 	'ja' | 'ko' | 'zh-tw' | 'id' | 'th' | 'zh-cn'
 
@@ -63,6 +63,10 @@ type ISODate = `${number}-${number}-${number}`
 export interface Set {
 	id: string
 	name: Languages
+	/**
+	 * Partial list of abbreviations, this is currently a Work in Progress feature
+	 */
+	abbreviations?: Partial<Omit<Languages, 'en'> & { official?: string }>
 	serie: Serie
 	tcgOnline?: string
 
@@ -126,7 +130,9 @@ export interface Card {
 			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
 			'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
 			'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
-			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
+			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon' |
+			// Pokémon TCG Pocket Rarities
+			'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 
 	/**
 	 * Card Category

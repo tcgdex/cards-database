@@ -14,13 +14,38 @@ const card: Card = {
 	category: "Pokemon",
 	stage: "Basic",
 
+	hp: 50,
+
+	types: [
+		"Lightning",
+	],
+
 	attacks: [{
+		cost: [
+			"Colorless",
+		],
 		name: {
 			en: "Headbutt"
 		},
-
 		damage: 10
-	}]
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "2x"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Metal",
+			value: "-30"
+		},
+	],
+
+	retreat: 1,
+
 }
 
 export default card

@@ -124,20 +124,15 @@ export function recordToQuery<T extends object = object>(input: Record<string, s
 
 		for (const it of value) {
 			const params = parseParam(key, it)
-			if (!query[key]) {
-				query[key] = params
-			} else {
-				if (isObject(params)) {
-					objectLoop(params, (v, k) => {
-						(query[key] as any)[k] = v
-						return
-					})
-				} else {
-					query[key] = params
-				}
-			}
+			query[key] = query[key]
+				? {
+						"$and": [
+							query[key],
+							params
+						]
+					}
+				: params
 		}
-
 	})
 
 	return query as Query<T>
@@ -169,7 +164,7 @@ function parseParam(_key: string, value: string): QueryValues<unknown> {
 			case 'notlike':
 				return { $not: { $inc: item } }
 			case 'eq':
-				return item
+				return { $eq: item }
 			case 'neq':
 				return { $not: item }
 			case 'gte':
@@ -184,6 +179,7 @@ function parseParam(_key: string, value: string): QueryValues<unknown> {
 				return null
 			case 'notnull':
 				return { $not: null }
+			case 'like':
 			default:
 				return { $inc: item }
 		}

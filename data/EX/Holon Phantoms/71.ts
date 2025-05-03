@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Meowth δ",
-		fr: "Miaouss δ ESPÈCES DELTA",
+		fr: "Miaouss δ",
 		de: "Mauzi"
 	},
 	illustrator: "Kagemaru Himeno",

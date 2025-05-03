@@ -7,6 +7,7 @@ import Serie from './Serie'
 import de from '../../../generated/de/sets.json'
 import en from '../../../generated/en/sets.json'
 import es from '../../../generated/es/sets.json'
+import esmx from '../../../generated/es-mx/sets.json'
 import fr from '../../../generated/fr/sets.json'
 import id from '../../../generated/id/sets.json'
 import it from '../../../generated/it/sets.json'
@@ -26,6 +27,7 @@ const sets = {
 	en: en,
 	fr: fr,
 	es: es,
+	'es-mx': esmx,
 	it: it,
 	pt: pt,
 	'pt-br': ptbr,

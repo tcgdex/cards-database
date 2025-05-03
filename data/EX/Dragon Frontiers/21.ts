@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Quagsire δ",
-		fr: "Maraiste δ ESPÈCES DELTA",
+		fr: "Maraiste δ",
 		de: "Morlord"
 	},
 	illustrator: "Sachiko Adachi",

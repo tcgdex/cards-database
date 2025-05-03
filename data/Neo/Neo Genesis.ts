@@ -19,7 +19,12 @@ const neo1: Set = {
 		official: 111
 	},
 
-	releaseDate: "2000-12-16"
+	releaseDate: "2000-12-16",
+
+	abbreviations: {
+		official: "N1",
+		fr: "NGS"
+	}
 }
 
 export default neo1

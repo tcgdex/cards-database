@@ -14,14 +14,18 @@ const set: Set = {
 	},
 
 	tcgOnline: 'PGO',
-
 	serie: serie,
 
 	cardCount: {
 		official: 78
 	},
 
-	releaseDate: "2022-07-01"
+	releaseDate: "2022-07-01",
+
+	abbreviations: {
+		official: "PGO",
+		fr: "PGO"
+	}
 }
 
 export default set

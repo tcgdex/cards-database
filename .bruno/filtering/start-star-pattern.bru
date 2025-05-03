@@ -1,0 +1,20 @@
+meta {
+  name: Start star Pattern
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards?name=fu*
+  body: none
+  auth: inherit
+}
+
+params:query {
+  name: fu*
+}
+
+assert {
+  res.body.length: gt 3
+  res.body[1].name: neq Stufful
+}

@@ -10,7 +10,8 @@ const xy5: Set = {
 		es: "Duelos Primigenios",
 		it: "Scontro Primordiale",
 		de: "Protoshock",
-		pt: "Conflito Primitivo"
+		pt: "Conflito Primitivo",
+		ru: "Первобытная Дуэль"
 	},
 
 	serie: serie,
@@ -20,7 +21,12 @@ const xy5: Set = {
 		official: 160
 	},
 
-	releaseDate: "2015-02-04"
+	releaseDate: "2015-02-04",
+
+	abbreviations: {
+		official: "PRC",
+		fr: "PRI"
+	}
 }
 
 export default xy5

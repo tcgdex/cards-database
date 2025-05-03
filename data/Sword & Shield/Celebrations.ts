@@ -14,14 +14,18 @@ const set: Set = {
 	},
 
 	tcgOnline: 'CEL',
-
 	serie: serie,
 
 	cardCount: {
 		official: 25
 	},
 
-	releaseDate: "2021-10-08"
+	releaseDate: "2021-10-08",
+
+	abbreviations: {
+		official: "CEL",
+		fr: "CEL"
+	}
 }
 
 export default set

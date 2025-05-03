@@ -20,7 +20,12 @@ const sm10: Set = {
 		official: 214
 	},
 
-	releaseDate: "2019-05-03"
+	releaseDate: "2019-05-03",
+
+	abbreviations: {
+		official: "UNB",
+		fr: "AIF"
+	}
 }
 
 export default sm10

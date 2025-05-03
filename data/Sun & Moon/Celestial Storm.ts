@@ -20,7 +20,12 @@ const sm7: Set = {
 		official: 168
 	},
 
-	releaseDate: "2018-08-03"
+	releaseDate: "2018-08-03",
+
+	abbreviations: {
+		official: "CES",
+		fr: "TCE"
+	}
 }
 
 export default sm7

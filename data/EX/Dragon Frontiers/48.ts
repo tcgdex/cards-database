@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Elekid δ",
-		fr: "Elekid δ ESPÈCES DELTA",
+		fr: "Elekid δ",
 		de: "Elekid"
 	},
 	illustrator: "Ken Sugimori",

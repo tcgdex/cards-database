@@ -15,7 +15,11 @@ const base4: Set = {
 		official: 130
 	},
 
-	releaseDate: "2000-02-24"
+	releaseDate: "2000-02-24",
+
+	abbreviations: {
+		official: "B2"
+	}
 }
 
 export default base4

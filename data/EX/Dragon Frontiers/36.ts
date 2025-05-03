@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Quilava δ",
-		fr: "Feurisson δ ESPÈCES DELTA",
+		fr: "Feurisson δ",
 		de: "Igelavar"
 	},
 	illustrator: "Midori Harada",

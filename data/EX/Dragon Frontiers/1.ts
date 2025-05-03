@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Ampharos δ",
-		fr: "Pharamp δ ESPÈCES DELTA",
+		fr: "Pharamp δ",
 		de: "Ampharos"
 	},
 	illustrator: "Kagemaru Himeno",

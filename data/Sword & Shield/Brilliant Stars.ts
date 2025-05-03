@@ -14,14 +14,18 @@ const set: Set = {
 	},
 
 	tcgOnline: 'BRS',
-
 	serie: serie,
 
 	cardCount: {
 		official: 172
 	},
 
-	releaseDate: "2022-02-25"
+	releaseDate: "2022-02-25",
+
+	abbreviations: {
+		official: "BRS",
+		fr: "STA"
+	}
 }
 
 export default set

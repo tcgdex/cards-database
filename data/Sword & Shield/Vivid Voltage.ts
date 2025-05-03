@@ -14,14 +14,18 @@ const swsh4: Set = {
 	},
 
 	tcgOnline: 'VIV',
-
 	serie: serie,
 
 	cardCount: {
 		official: 185
 	},
 
-	releaseDate: "2020-11-13"
+	releaseDate: "2020-11-13",
+
+	abbreviations: {
+		official: "VIV",
+		fr: "VOL"
+	}
 }
 
 export default swsh4

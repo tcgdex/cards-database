@@ -47,8 +47,10 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: {
-		holo: false
+		normal: true,
+		holo: true,
+		reverse: true
 	}
-}
+};
 
 export default card

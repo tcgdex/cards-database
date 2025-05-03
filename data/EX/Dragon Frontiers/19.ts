@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Lickitung δ",
-		fr: "Excelangue δ ESPÈCES DELTA",
+		fr: "Excelangue δ",
 		de: "Schlurp"
 	},
 	illustrator: "Masakazu Fukuda",

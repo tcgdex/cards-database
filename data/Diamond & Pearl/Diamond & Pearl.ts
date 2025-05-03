@@ -10,7 +10,8 @@ const dp1: Set = {
 		es: "Diamante & Perla",
 		it: "Diamante & Perla",
 		de: "Diamant & Perl",
-		pt: "Diamante & Pérola"
+		pt: "Diamante & Pérola",
+		pl: 'Diament i Perla'
 	},
 
 	serie: serie,
@@ -20,7 +21,12 @@ const dp1: Set = {
 		official: 130
 	},
 
-	releaseDate: "2007-05-01"
+	releaseDate: "2007-05-01",
+
+	abbreviations: {
+		official: "DP",
+		fr: "D&P"
+	}
 }
 
 export default dp1

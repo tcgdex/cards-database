@@ -15,7 +15,11 @@ const pop6: Set = {
 		official: 17
 	},
 
-	releaseDate: "2007-09-01"
+	releaseDate: "2007-09-01",
+
+	abbreviations: {
+		official: "P6"
+	}
 }
 
 export default pop6

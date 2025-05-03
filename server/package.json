@@ -13,6 +13,7 @@
 		"@dzeio/config": "^1",
 		"@dzeio/object-util": "^1",
 		"@dzeio/queue": "^1",
+		"@sentry/node": "^8",
 		"@tcgdex/sdk": "^2",
 		"apicache": "^1",
 		"express": "^4",

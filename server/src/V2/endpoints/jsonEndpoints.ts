@@ -103,7 +103,7 @@ server
 		}
 		const item = Math.min(data.length - 1, Math.max(0, Math.round(Math.random() * data.length)))
 		req.DO_NOT_CACHE = true
-		res.json(data[item])
+		res.json(data[item].full())
 	})
 
 
@@ -247,6 +247,15 @@ server
 					result = Serie.findOne(lang, { name: id })?.full()
 				}
 				break
+			case 'dex-ids': {
+				result = {
+					name: parseInt(id, 10),
+					// @ts-expect-error current behavior is normal
+					cards: Card.find(lang, { dexId: { $eq: parseInt(id, 10) }})
+						.map((c) => c.resume())
+				}
+				break
+			}
 			default:
 				if (!endpointToField[endpoint]) {
 					break

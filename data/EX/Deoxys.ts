@@ -19,7 +19,12 @@ const ex8: Set = {
 		official: 107
 	},
 
-	releaseDate: "2005-02-01"
+	releaseDate: "2005-02-01",
+
+	abbreviations: {
+		official: "DX",
+		fr: "DEO"
+	}
 }
 
 export default ex8

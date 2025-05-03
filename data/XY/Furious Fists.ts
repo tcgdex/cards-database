@@ -10,7 +10,8 @@ const xy3: Set = {
 		es: "Puños Furiosos",
 		it: "Colpi Furiosi",
 		de: "Fliegende Fäuste",
-		pt: "Punhos Furiosos"
+		pt: "Punhos Furiosos",
+		ru: "Яростный Кулак"
 	},
 
 	serie: serie,
@@ -20,7 +21,12 @@ const xy3: Set = {
 		official: 111
 	},
 
-	releaseDate: "2014-08-13"
+	releaseDate: "2014-08-13",
+
+	abbreviations: {
+		official: "FFI",
+		fr: "PFU"
+	}
 }
 
 export default xy3

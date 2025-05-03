@@ -19,7 +19,12 @@ const pl1: Set = {
 		official: 127
 	},
 
-	releaseDate: "2009-02-11"
+	releaseDate: "2009-02-11",
+
+	abbreviations: {
+		official: "PL",
+		fr: "PLA"
+	}
 }
 
 export default pl1

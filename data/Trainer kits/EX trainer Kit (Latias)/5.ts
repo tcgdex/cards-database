@@ -14,23 +14,42 @@ const card: Card = {
 	category: "Pokemon",
 	stage: "Basic",
 
+	hp: 40,
+
+	types: [
+		"Fire",
+	],
+
 	attacks: [{
+		cost: [
+			"Fire",
+		],
 		name: {
 			en: "Firebreathing"
 		},
-
-		damage: "10+",
-
 		effect: {
 			en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
-		}
+		},
+		damage: "10+"
 	}, {
+		cost: [
+			"Colorless",
+			"Colorless"
+		],
 		name: {
 			en: "Tackle"
 		},
-
 		damage: 20
-	}]
+	}],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "2x"
+		},
+	],
+
+	retreat: 1,
 }
 
 export default card

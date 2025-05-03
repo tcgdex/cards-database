@@ -20,7 +20,12 @@ const xy12: Set = {
 		official: 108
 	},
 
-	releaseDate: "2016-11-02"
+	releaseDate: "2016-11-02",
+
+	abbreviations: {
+		official: "EVO",
+		fr: "EVO"
+	}
 }
 
 export default xy12

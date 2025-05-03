@@ -4,7 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Swablu δ",
-		fr: "Tylton δ ESPÈCES DELTA",
+		fr: "Tylton δ",
 		de: "Wablu"
 	},
 	illustrator: "Miki Tanaka",

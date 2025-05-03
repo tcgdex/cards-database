@@ -1,0 +1,10 @@
+services:
+  stable:
+    image: tcgdex/server:edge # You can choose between using the hub.docker.com one or the github one
+    # image: ghcr.io/tcgdex/server:edge
+    restart: unless-stopped
+      # by default the server will start a worker for each threads available
+      # You downgrade the max number of workers by changing this value
+      - MAX_WORKERS=2
+    ports:
+      - 3000:3000 # You can choose any port you want

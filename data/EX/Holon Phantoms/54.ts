@@ -4,7 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Vibrava δ",
-		fr: "Vibraninf δ ESPÈCES DELTA",
+		fr: "Vibraninf δ",
 		de: "Vibrava"
 	},
 	illustrator: "Masakazu Fukuda",

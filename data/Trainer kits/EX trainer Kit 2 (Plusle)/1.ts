@@ -14,23 +14,42 @@ const card: Card = {
 	category: "Pokemon",
 	stage: "Basic",
 
+	hp: 50,
+
+	types: [
+		"Psychic",
+	],
+
 	attacks: [{
+		cost: [
+			"Colorless",
+		],
 		name: {
 			en: "Call for Family"
 		},
-
 		effect: {
 			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
 		}
 	}, {
+		cost: [
+			"Psychic",
+		],
 		name: {
 			en: "Metal Ball"
 		},
-
 		effect: {
 			en: "Put 1 damage counter on the Defending Pokémon."
 		}
-	}]
+	}],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "2x"
+		},
+	],
+
+	retreat: 1,
 }
 
 export default card

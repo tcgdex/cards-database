@@ -18,7 +18,11 @@ const pl4: Set = {
 		official: 99
 	},
 
-	releaseDate: "2009-11-04"
+	releaseDate: "2009-11-04",
+
+	abbreviations: {
+		official: "AR"
+	}
 }
 
 export default pl4
