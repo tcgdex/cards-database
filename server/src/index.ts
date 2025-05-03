@@ -1,10 +1,11 @@
 import express, { type Response } from 'express'
+import jsonEndpoints from './V2/endpoints/jsonEndpoints'
+import openapi from './V2/endpoints/openapi'
+import graphql from './V2/graphql'
 import cluster from 'node:cluster'
 import { availableParallelism } from "node:os"
 import { Errors, sendError } from './libs/Errors'
 import status from './status'
-import jsonEndpoints from './V2/endpoints/jsonEndpoints'
-import graphql from './V2/graphql'
 import * as Sentry from "@sentry/node"
 
 // Glitchtip will only start if the DSN is set :D
@@ -103,6 +104,7 @@ if (cluster.isPrimary) {
 
 	// Setup GraphQL
 	server.use(`/v${VERSION}/graphql`, graphql)
+	server.use(`/v${VERSION}/openapi`, openapi)
 
 	// Setup JSON endpoints
 	server.use(`/v${VERSION}`, jsonEndpoints)

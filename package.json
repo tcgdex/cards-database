@@ -4,8 +4,6 @@
 		"validate": "tsc --noEmit --project tsconfig.json"
 	},
 	"devDependencies": {
-		"@types/bun": "^1",
-		"@types/node": "^20",
 		"typescript": "^5"
 	}
 }

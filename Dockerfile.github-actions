@@ -8,7 +8,7 @@ RUN chown -R bun:bun .
 
 USER bun
 
-ADD --chown=bun:bun server/package.json server/bun.lockb ./server/
+ADD --chown=bun:bun server/package.json server/bun.lock ./server/
 
 # install prod deps dependencies
 RUN cd server && \
