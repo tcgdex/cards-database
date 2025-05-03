@@ -282,11 +282,11 @@ function generateCommentBody(
 
 		if (item.status === "added") {
 			commentBody += `<details><summary>➕ <strong>New card: ${fileName}</strong></summary>\n\n`;
-			commentBody += `**File:** [${item.file}](${fileUrl})  \n\n`;
+			commentBody += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
 			commentBody += "</details>\n\n";
 		} else if (item.status === "removed") {
 			commentBody += `<details><summary>🗑️ <strong>Deleted card: ${fileName}</strong></summary>\n\n`;
-			commentBody += `**File:** [${item.file}](${fileUrl})  \n\n`;
+			commentBody += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
 			commentBody += "</details>\n\n";
 		} else if (item.card) {
 			const langInfo = item.usedLanguage ? ` (found using ${item.usedLanguage})` : "";
@@ -307,7 +307,7 @@ function generateCommentBody(
 			commentBody += "</details>\n\n";
 		} else if (item.error) {
 			commentBody += `<details><summary>⚠️ <strong>Error processing ${fileName}</strong></summary>\n\n`;
-			commentBody += `**File:** [${item.file}](${fileUrl})  \n`;
+			commentBody += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
 			commentBody += `**Error:** ${item.error}\n\n`;
 			commentBody += "</details>\n\n";
 		}
@@ -351,15 +351,19 @@ async function postOrUpdatePRComment(
 	prNumber: number,
 	commentBody: string,
 ): Promise<void> {
+	// Get authenticated user info to identify our bot
+	const { data: authenticatedUser } = await octokit.rest.users.getAuthenticated();
+	console.log(`Authenticated as user: ${authenticatedUser.login}`);
+
 	const commentsResponse = await octokit.rest.issues.listComments({
 		owner,
 		repo,
 		issue_number: prNumber,
 	});
 
-	const botLogin = "github-actions[bot]";
+	// Look for existing comments from our authenticated bot user
 	const existingComment = commentsResponse.data.find(
-		(comment) => comment.user?.login === botLogin && comment.body?.includes("## 🃏"),
+		(comment) => comment.user?.login === authenticatedUser.login && comment.body?.includes("## 🃏"),
 	);
 
 	if (existingComment) {
@@ -369,7 +373,7 @@ async function postOrUpdatePRComment(
 			comment_id: existingComment.id,
 			body: commentBody,
 		});
-		console.log(`Updated existing comment #${existingComment.id} on PR #${prNumber}`);
+		console.log(`Updated existing comment #${existingComment.id} on PR #${prNumber} as ${authenticatedUser.login}`);
 	} else {
 		await octokit.rest.issues.createComment({
 			owner,
@@ -377,7 +381,7 @@ async function postOrUpdatePRComment(
 			issue_number: prNumber,
 			body: commentBody,
 		});
-		console.log(`Posted new comment to PR #${prNumber}`);
+		console.log(`Posted new comment to PR #${prNumber} as ${authenticatedUser.login}`);
 	}
 }
 
