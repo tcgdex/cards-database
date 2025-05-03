@@ -23,6 +23,50 @@ function sanitizeCardData(card: any) {
   };
 }
 
+// Helper function to try fetching a card with fallback to other languages
+async function tryFetchCardWithFallback(
+  setIdentifier: string, 
+  cardLocalId: string, 
+  primaryLanguage: string,
+  allLanguages: string[],
+  isAsianRegion: boolean
+): Promise<{card: any, usedLanguage: string} | null> {
+  let lastError: any = null;
+
+  // Try primary language first, then others
+  const languagesToTry = [primaryLanguage, ...allLanguages.filter(lang => lang !== primaryLanguage)];
+
+  for (const lang of languagesToTry) {
+    try {
+      console.log(`   Trying language: ${lang}`);
+      const tcgdex = new TCGdex(lang as any);
+      let card;
+
+      if (!isAsianRegion) {
+        // For international cards, we need to get the set ID first
+        const set = (await tcgdex.set.get(setIdentifier))!;
+        card = await tcgdex.card.get(`${set.id}-${cardLocalId}`);
+      } else {
+        // For Asian cards, we already have the set ID
+        card = await tcgdex.card.get(`${setIdentifier}-${cardLocalId}`);
+      }
+
+      if (card) {
+        console.log(`   Card: ${card.name} (${card.id}) - Found using language: ${lang}`);
+        return { card, usedLanguage: lang };
+      }
+    } catch (error) {
+      lastError = error;
+      console.log(`   Failed with language ${lang}: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      // Continue to next language
+    }
+  }
+
+  // If we get here, all languages failed
+  console.log(`   All languages failed. Last error: ${lastError instanceof Error ? lastError.message : 'Unknown error'}`);
+  return null;
+}
+
 async function run() {
   try {
     // Get GitHub token and init client
@@ -52,37 +96,61 @@ async function run() {
     }
 
     // Process card files
-    const cardResults: Array<{file: string, card?: any, error?: string, isAsian?: boolean}> = [];
+    const cardResults: Array<{file: string, card?: any, error?: string, isAsian?: boolean, usedLanguage?: string}> = [];
 
     for (const file of changedFiles) {
       console.log(` - ${file}`);
       let match = file.match(DATA_REGEX);
       let cardInfo = null;
-      let isAsian = false;
 
       // Process according to file pattern
       if (match) {
-        const tcgdex = new TCGdex();
         const [_, , setName, cardLocalId] = match;
-        try {
-          const set = (await tcgdex.set.get(setName!))!;
-          const card = await tcgdex.card.get(`${set.id}-${cardLocalId}`);
-          console.log(`   Card: ${card!.name} (${card!.id})`);
-          cardInfo = { file, card: sanitizeCardData(card), isAsian: false };
-        } catch (error) {
-          console.log(`   Failed to fetch card: ${error instanceof Error ? error.message : 'Unknown error'}`);
-          cardInfo = { file, error: 'Failed to fetch card information', isAsian: false };
+        const result = await tryFetchCardWithFallback(
+          setName!, 
+          cardLocalId, 
+          'en', // Primary language for international cards
+          INTERNATIONAL_LANGUAGES, 
+          false
+        );
+
+        if (result) {
+          cardInfo = { 
+            file, 
+            card: sanitizeCardData(result.card), 
+            isAsian: false, 
+            usedLanguage: result.usedLanguage 
+          };
+        } else {
+          cardInfo = { 
+            file, 
+            error: 'Failed to fetch card information in all available languages', 
+            isAsian: false 
+          };
         }
       } else if ((match = file.match(DATA_ASIA_REGEX))) {
         const [_, , setId, cardLocalId] = match;
-        const tcgdex = new TCGdex('ja' as any); // Using 'ja' for Japanese
-        try {
-          const card = (await tcgdex.card.get(`${setId}-${cardLocalId}`))!;
-          console.log(`   Card: ${card.name} (${card.id})`);
-          cardInfo = { file, card: sanitizeCardData(card), isAsian: true };
-        } catch (error) {
-          console.log(`   Failed to fetch card: ${error instanceof Error ? error.message : 'Unknown error'}`);
-          cardInfo = { file, error: 'Failed to fetch card information', isAsian: true };
+        const result = await tryFetchCardWithFallback(
+          setId!, 
+          cardLocalId, 
+          'ja', // Primary language for Asian cards
+          ASIAN_LANGUAGES, 
+          true
+        );
+
+        if (result) {
+          cardInfo = { 
+            file, 
+            card: sanitizeCardData(result.card), 
+            isAsian: true, 
+            usedLanguage: result.usedLanguage 
+          };
+        } else {
+          cardInfo = { 
+            file, 
+            error: 'Failed to fetch card information in all available languages', 
+            isAsian: true 
+          };
         }
       }
 
@@ -107,17 +175,15 @@ async function run() {
         const fileUrl = `https://github.com/${repoFullName}/blob/${context.sha}/${item.file}`;
 
         if (item.card) {
-          commentBody += `<details><summary><strong>${item.card.name}</strong> (${item.card.id})</summary>\n\n`;
+          const langInfo = item.usedLanguage ? ` (found using ${item.usedLanguage})` : '';
+          commentBody += `<details><summary><strong>${item.card.name}</strong> (${item.card.id})${langInfo}</summary>\n\n`;
 
           // Display image more prominently in multiple languages
           if (item.card.image) {
-            // Display the original image first
-            commentBody += `<div align="center">\n<img src="${item.card.image}/high.webp" alt="${item.card.name}" width="300"/>\n</div>\n\n`;
 
             // Show images in different languages
             const languages = item.isAsian ? ASIAN_LANGUAGES : INTERNATIONAL_LANGUAGES;
 
-            commentBody += `<details><summary>View in other languages</summary>\n\n`;
             commentBody += `<div align="center">\n\n`;
 
             // Create a table with languages in 3 columns
@@ -135,7 +201,7 @@ async function run() {
                 // Check if we still have languages to process
                 if (langIndex < languages.length) {
                   const lang = languages[langIndex];
-                  const localizedImageUrl = item.card.image.replace(/\/en\//, `/${lang}/`);
+                  const localizedImageUrl = item.card.image.replace(/\/[a-z]{2}(-[a-z]{2})?\//, `/${lang}/`);
                   commentBody += ` <strong>${lang}</strong><br><img src="${localizedImageUrl}/high.webp" alt="${item.card.name} (${lang})" width="200"/> |`;
                 } else {
                   // Empty cell if no more languages
@@ -145,7 +211,7 @@ async function run() {
               commentBody += `\n`;
             }
 
-            commentBody += `\n</div>\n</details>\n\n`;
+            commentBody += `\n</div>\n\n`;
           }
 
           commentBody += `**File:** [${item.file}](${fileUrl})  \n`;
@@ -180,7 +246,7 @@ async function run() {
       const botLogin = 'github-actions[bot]'; // GitHub Actions bot username
       const existingComment = commentsResponse.data.find(comment =>
         comment.user?.login === botLogin &&
-        comment.body?.includes('## 🃏 Pokémon Card Changes')
+        comment.body?.includes('## 🃏')
       );
 
       if (existingComment) {
