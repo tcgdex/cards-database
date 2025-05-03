@@ -45,7 +45,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USER }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-        if: ${{ !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
+        if: ${{ secrets.DOCKERHUB_TOKEN && !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
 
       - name: Login to Github Packages
         uses: docker/login-action@v3
@@ -53,7 +53,7 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.DOCKER_TOKEN }}
-        if: ${{ !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
+        if: ${{ secrets.DOCKER_TOKEN && !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -65,7 +65,7 @@ jobs:
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-        
+
       - name: Pre build server
         run: |
           bun install --frozen-lockfile
@@ -86,6 +86,5 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
-          push: ${{ !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
+          push: ${{ (secrets.DOCKERHUB_TOKEN || secrets.DOCKER_TOKEN) && !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
           cache-to: type=gha,mode=max
-
