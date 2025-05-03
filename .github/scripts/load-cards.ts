@@ -6,6 +6,19 @@ import TCGdex from '@tcgdex/sdk'
 const DATA_REGEX = /^data\/([^\/]+)\/([^\/]+)\/([^\/]+)\.ts$/;
 const DATA_ASIA_REGEX = /^data-asia\/([^\/]+)\/([^\/]+)\/([^\/]+)\.ts$/;
 
+// Helper function to sanitize card data to prevent circular references
+function sanitizeCardData(card: any) {
+  if (!card) return null;
+
+  return {
+    id: card.id,
+    name: card.name,
+    image: card.image,
+    rarity: card.rarity,
+    set: card.set ? { name: card.set.name } : { name: 'Unknown' }
+  };
+}
+
 async function run() {
   try {
     // Get GitHub token
@@ -52,7 +65,7 @@ async function run() {
 
     // Prepare the PR comment
     let commentBody = '## 🃏 Pokémon Card Changes\n\n';
-    const cardResults = [];
+    const cardResults: Array<{file: string, card?: any, error?: string}> = [];
 
     if (changedFiles.length === 0) {
       commentBody += 'No card files were changed in this PR.\n';
@@ -74,7 +87,10 @@ async function run() {
             const set = (await tcgdex.set.get(setName!))!
             const card = await tcgdex.card.get(`${set.id}-${cardLocalId}`)
             console.log(`   Card: ${card!.name} (${card!.id})`);
-            cardInfo = { file, card };
+
+            // Sanitize card data to prevent circular references
+            const sanitizedCard = sanitizeCardData(card);
+            cardInfo = { file, card: sanitizedCard };
           } catch (error) {
             console.log(`   Failed to fetch card information: ${error instanceof Error ? error.message : 'Unknown error'}`);
             cardInfo = { file, error: 'Failed to fetch card information' };
@@ -84,12 +100,16 @@ async function run() {
           match = file.match(DATA_ASIA_REGEX);
           if (match) {
             const [_, serieId, setId, cardLocalId] = match;
+            // Using 'jp' instead of 'ja' for Japanese
             const tcgdex = new TCGdex('ja');
             try {
               // Get card information using the TCGdex SDK
               const card = (await tcgdex.card.get(`${setId}-${cardLocalId}`))!
               console.log(`   Card: ${card.name} (${card.id})`);
-              cardInfo = { file, card };
+
+              // Sanitize card data to prevent circular references
+              const sanitizedCard = sanitizeCardData(card);
+              cardInfo = { file, card: sanitizedCard };
             } catch (error) {
               console.log(`   Failed to fetch card information: ${error instanceof Error ? error.message : 'Unknown error'}`);
               cardInfo = { file, error: 'Failed to fetch card information' };
