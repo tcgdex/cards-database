@@ -57,6 +57,7 @@ async function tryFetchCardWithFallback(
 
   // Try primary language first, then others
   const languagesToTry = [primaryLanguage, ...allLanguages.filter(lang => lang !== primaryLanguage)];
+	let foundWithoutImage: {lang: string, card: any} | undefined;
 
   for (const lang of languagesToTry) {
     try {
@@ -73,7 +74,11 @@ async function tryFetchCardWithFallback(
         card = await tcgdex.card.get(`${setIdentifier}-${cardLocalId}`);
       }
 
-      if (card) {
+      if (card && !card.image) {
+          foundWithoutImage = { lang, card };
+      }
+
+      if (card && card.image) {
         console.log(`   Card: ${card.name} (${card.id}) - Found using language: ${lang}`);
         return { card, usedLanguage: lang };
       }
@@ -82,6 +87,11 @@ async function tryFetchCardWithFallback(
       console.log(`   Failed with language ${lang}: ${error instanceof Error ? error.message : 'Unknown error'}`);
       // Continue to next language
     }
+  }
+
+  if (foundWithoutImage) {
+    console.log(`   Card: ${foundWithoutImage.card.name} (${foundWithoutImage.card.id}) - Found without image`);
+    return { card: foundWithoutImage.card, usedLanguage: 'en' };
   }
 
   // If we get here, all languages failed
