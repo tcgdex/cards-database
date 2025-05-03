@@ -10,8 +10,8 @@ RUN apk add git\
 
 USER bun
 
-ADD --chown=bun:bun package.json bun.lockb ./
-ADD --chown=bun:bun server/package.json server/bun.lockb ./server/
+ADD --chown=bun:bun package.json bun.lock ./
+ADD --chown=bun:bun server/package.json server/bun.lock ./server/
 
 # install dependencies
 RUN bun install --frozen-lockfile && \
