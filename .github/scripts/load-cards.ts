@@ -6,6 +6,10 @@ import TCGdex from '@tcgdex/sdk'
 const DATA_REGEX = /^data\/([^\/]+)\/([^\/]+)\/([^\/]+)\.ts$/;
 const DATA_ASIA_REGEX = /^data-asia\/([^\/]+)\/([^\/]+)\/([^\/]+)\.ts$/;
 
+// Languages supported
+const INTERNATIONAL_LANGUAGES = ['en', 'fr', 'es', 'es-mx', 'it', 'pt', 'pt-br', 'pt-pt', 'de', 'nl', 'pl', 'ru'];
+const ASIAN_LANGUAGES = ['ja', 'ko', 'zh-tw', 'id', 'th', 'zh-cn'];
+
 // Helper function to sanitize card data to prevent circular references
 function sanitizeCardData(card: any) {
   if (!card) return null;
@@ -48,12 +52,13 @@ async function run() {
     }
 
     // Process card files
-    const cardResults: Array<{file: string, card?: any, error?: string}> = [];
+    const cardResults: Array<{file: string, card?: any, error?: string, isAsian?: boolean}> = [];
 
     for (const file of changedFiles) {
       console.log(` - ${file}`);
       let match = file.match(DATA_REGEX);
       let cardInfo = null;
+      let isAsian = false;
 
       // Process according to file pattern
       if (match) {
@@ -63,10 +68,10 @@ async function run() {
           const set = (await tcgdex.set.get(setName!))!;
           const card = await tcgdex.card.get(`${set.id}-${cardLocalId}`);
           console.log(`   Card: ${card!.name} (${card!.id})`);
-          cardInfo = { file, card: sanitizeCardData(card) };
+          cardInfo = { file, card: sanitizeCardData(card), isAsian: false };
         } catch (error) {
           console.log(`   Failed to fetch card: ${error instanceof Error ? error.message : 'Unknown error'}`);
-          cardInfo = { file, error: 'Failed to fetch card information' };
+          cardInfo = { file, error: 'Failed to fetch card information', isAsian: false };
         }
       } else if ((match = file.match(DATA_ASIA_REGEX))) {
         const [_, , setId, cardLocalId] = match;
@@ -74,10 +79,10 @@ async function run() {
         try {
           const card = (await tcgdex.card.get(`${setId}-${cardLocalId}`))!;
           console.log(`   Card: ${card.name} (${card.id})`);
-          cardInfo = { file, card: sanitizeCardData(card) };
+          cardInfo = { file, card: sanitizeCardData(card), isAsian: true };
         } catch (error) {
           console.log(`   Failed to fetch card: ${error instanceof Error ? error.message : 'Unknown error'}`);
-          cardInfo = { file, error: 'Failed to fetch card information' };
+          cardInfo = { file, error: 'Failed to fetch card information', isAsian: true };
         }
       }
 
@@ -88,13 +93,14 @@ async function run() {
     const successfulCards = cardResults.filter(r => r.card).length;
     const errorCards = cardResults.filter(r => r.error).length;
 
-    let commentBody = '## 🃏 Pokémon Card Changes\n\n';
+    let commentBody = `## 🃏 ${successfulCards + errorCards} Card${(successfulCards + errorCards) !== 1 ? 's' : ''} Changed\n\n`;
 
     // Brief summary at the top
     if (cardResults.length > 0) {
-      commentBody += `**Summary:** ${successfulCards} card${successfulCards !== 1 ? 's' : ''} processed successfully`;
-      if (errorCards > 0) commentBody += `, ${errorCards} with errors`;
-      commentBody += '.\n\n';
+      // Add a more detailed summary if there are errors
+      if (errorCards > 0) {
+        commentBody += `**Details:** ${successfulCards} processed successfully, ${errorCards} with errors\n\n`;
+      }
 
       // Detailed card information
       for (const item of cardResults) {
@@ -103,9 +109,43 @@ async function run() {
         if (item.card) {
           commentBody += `<details><summary><strong>${item.card.name}</strong> (${item.card.id})</summary>\n\n`;
 
-          // Display image more prominently
+          // Display image more prominently in multiple languages
           if (item.card.image) {
+            // Display the original image first
             commentBody += `<div align="center">\n<img src="${item.card.image}/high.webp" alt="${item.card.name}" width="300"/>\n</div>\n\n`;
+
+            // Show images in different languages
+            const languages = item.isAsian ? ASIAN_LANGUAGES : INTERNATIONAL_LANGUAGES;
+
+            commentBody += `<details><summary>View in other languages</summary>\n\n`;
+            commentBody += `<div align="center">\n\n`;
+
+            // Create a table with languages in 3 columns
+            commentBody += `| Language | Language | Language |\n`;
+            commentBody += `|:-------:|:-------:|:-------:|\n`;
+
+            // Process languages in groups of 3
+            for (let i = 0; i < languages.length; i += 3) {
+              commentBody += `|`;
+
+              // Loop through each column in the current row
+              for (let j = 0; j < 3; j++) {
+                const langIndex = i + j;
+
+                // Check if we still have languages to process
+                if (langIndex < languages.length) {
+                  const lang = languages[langIndex];
+                  const localizedImageUrl = item.card.image.replace(/\/en\//, `/${lang}/`);
+                  commentBody += ` <strong>${lang}</strong><br><img src="${localizedImageUrl}/high.webp" alt="${item.card.name} (${lang})" width="200"/> |`;
+                } else {
+                  // Empty cell if no more languages
+                  commentBody += ` |`;
+                }
+              }
+              commentBody += `\n`;
+            }
+
+            commentBody += `\n</div>\n</details>\n\n`;
           }
 
           commentBody += `**File:** [${item.file}](${fileUrl})  \n`;
