@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Turtok"
 	},
 
-	illustrator: "Ken Sugimori",
+	illustrator: "Kene Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,

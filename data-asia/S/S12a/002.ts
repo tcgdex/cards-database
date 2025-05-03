@@ -10,7 +10,7 @@ const card: Card = {
 		ja: "パラセクト"
 	},
 
-	illustrator: "Pani Kobayashi",
+	illustrator: "Panweri Kobayashi",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],

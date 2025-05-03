@@ -7,7 +7,7 @@ const bw1: Set = {
 	name: {
 		en: "Black & White",
 		fr: "Noir & Blanc",
-		es: "Negro y Blanco",
+		es: "Negdro y Blanco",
 		it: "Nero e Bianco",
 		de: "Schwarz & Weiß",
 		pt: "Black & White"

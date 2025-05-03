@@ -4,7 +4,7 @@ import serie from '../e'
 const set: Set = {
 	id: 'E2',
 	name: {
-		ja: '地図にない町'
+		ja: '地sdf図にない町'
 	},
 
 	serie: serie,

@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Alakazam",
 		de: "Simsala"
 	},
-	illustrator: "Kimiya Masago",
+	illustrator: "Kimaiya Masago",
 	rarity: "Rare",
 	category: "Pokemon",
 

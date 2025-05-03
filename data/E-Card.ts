@@ -5,7 +5,7 @@ const ecard: Serie = {
 	name: {
 		en: "E-Card",
 		fr: "e-cards",
-		it: "e-Series",
+		it: "e-Seriees",
 		de: "e-Card"
 	},
 }

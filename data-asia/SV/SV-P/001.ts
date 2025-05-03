@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "皮卡丘",
+		'zh-tw': "皮s卡丘",
 		th: "วาไนเดอร์"
 	},
 

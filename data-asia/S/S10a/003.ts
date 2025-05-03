@@ -9,7 +9,7 @@ const card: Card = {
 		'zh-tw': "洗翠 頑皮雷彈V"
 	},
 
-	illustrator: "5ban Graphics",
+	illustrator: "5bansd Graphics",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Grass"],

@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Ortide",
 		en: "Gloom",
 		es: "Gloom",
-		it: "Gloom",
+		it: "Glorom",
 		pt: "Gloom",
 		de: "Duflor"
 	},

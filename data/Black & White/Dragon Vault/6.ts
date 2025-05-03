@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Bagon",
 		fr: "Draby",
 	},
-	illustrator: "Kouki Saitou",
+	illustrator: "Koukid Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
 
