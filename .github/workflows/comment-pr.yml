@@ -31,26 +31,3 @@ jobs:
       - name: Run load-cards script
         id: load-cards
         run: bun load-cards.js
-        env:
-          INPUT_GITHUB-TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Create PR comment
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            try {
-              const commentBody = `${{ steps.load-cards.outputs.pr_comment }}`;
-
-              github.rest.issues.createComment({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                body: commentBody
-              });
-
-              console.log('PR comment created successfully');
-            } catch (error) {
-              console.error('Error creating PR comment:', error);
-              core.setFailed(error.message);
-            }
