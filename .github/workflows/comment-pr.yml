@@ -1,0 +1,54 @@
+name: Card Info Comment
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - 'data/**/*.ts'
+      - 'data-asia/**/*.ts'
+
+jobs:
+  card-info-comment:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run load-cards script
+        id: load-cards
+        run: node .github/scripts/load-cards.js
+        env:
+          INPUT_GITHUB-TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create PR comment
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            try {
+              const commentBody = `${{ steps.load-cards.outputs.pr_comment }}`;
+
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: commentBody
+              });
+
+              console.log('PR comment created successfully');
+            } catch (error) {
+              console.error('Error creating PR comment:', error);
+              core.setFailed(error.message);
+            }
