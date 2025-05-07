@@ -15,8 +15,8 @@ const card: Card = {
 
 	rarity: "Double rare",
 	category: "Pokemon",
-	hp: 260,
-	types: ["Grass"],
+	hp: 24,
+	types: "lightning",
 
 	evolveFrom: {
 		en: "Tarountula"
