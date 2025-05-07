@@ -35,7 +35,13 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "Uninori",
+
+	weaknesses: [{
+		type: "Fire",
+		value: "x2"
+	}]
 }
 
 export default card
