@@ -10,21 +10,27 @@ const card: Card = {
 
 	illustrator: "\"Big Mama\" Tagawa",
 	rarity: "Uncommon",
+	trainerType: 'Technical Machine',
 	category: "Trainer",
 	set: Set,
 
 	effect: {
-		fr: "Attachez cette carte à l'un de vos Pokémon  en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne. À la fin de votre tour, défaussez-vous de Cube de feu 01.",
+		en: "Attach this card to 1 of your {R} Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Fire Cube 01.",
+		fr: "Attachez cette carte à l'un de vos Pokémon {R} en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne. À la fin de votre tour, défaussez-vous de Cube de feu 01.",
 		de: "Lege diese Karte an 1 deiner -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Feuer-Würfel 01 auf deinen Ablagestapel."
 	},
 
 	attacks: [{
 		name: {
-			de: "Versengung"
+			de: "Versengung",
+			en: "Singe",
+			fr: "Rousir"
 		},
 
 		effect: {
-			de: "Das Verteidigende Pokémon ist jetzt verbrannt."
+			de: "Das Verteidigende Pokémon ist jetzt verbrannt.",
+			en: "The Defending Pokémon is now Burned.",
+			fr: "Le Pokémon Defenseur est maintenant Brûlé."
 		},
 
 		cost: ["Fire"]

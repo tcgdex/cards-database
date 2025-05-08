@@ -77,21 +77,6 @@ const card: Card = {
 			damage: "150+",
 
 		},
-		{
-			cost: [
-				"Lightning",
-				"Lightning",
-				"Colorless",
-			],
-			name: {
-				fr: "Tour d’Éclair-GX",
-			},
-			effect: {
-				fr: "Échangez ce Pokémon avec l’un de vos Pokémon de Banc. Si au moins 2 Énergies Lightning supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), cette attaque inflige 100 dégâts supplémentaires. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: "150+",
-
-		},
 	],
 	weaknesses: [
 		{

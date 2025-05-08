@@ -73,22 +73,7 @@ const card: Card = {
 			},
 			damage: 200,
 
-		},
-		{
-			cost: [
-				"Lightning",
-				"Lightning",
-				"Lightning",
-			],
-			name: {
-				fr: "Escouade Foudroyante-GX",
-			},
-			effect: {
-				fr: "Si au moins 3 Énergies Lightning supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), cette attaque inflige 170 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: 200,
-
-		},
+		}
 	],
 	weaknesses: [
 		{
