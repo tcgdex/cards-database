@@ -25,7 +25,7 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie Colorless-Energie.\nVerhindere alle Effekte der von den Pokémon deines Gegners eingesetzten Attacken, die dem Pokémon zugefügt werden, an das diese Karte angelegt ist.\n(Bestehende Effekte werden nicht entfernt. Schaden ist kein Effekt.)"
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "H",
 
 	variants: {
