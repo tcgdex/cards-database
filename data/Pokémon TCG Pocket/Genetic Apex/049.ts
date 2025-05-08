@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Salandit"
+		en: "Salandit",
+		fr: "Tritox"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Scratch"
+			en: "Scratch",
+			fr: "Griffe"
 		},
 
 		damage: "20"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
+		fr: "Il provoque ses proies afin de les attirer dans d'étoites zones rocheuses, puis il les étourdit avec son gaz tocique avant de les achever."
 	}
 }
 

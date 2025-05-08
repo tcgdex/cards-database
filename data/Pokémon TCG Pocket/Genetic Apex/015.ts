@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Parasect"
+		en: "Parasect",
+		fr: "Parasect"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Paras"
+		en: "Paras",
+		fr: "Paras"
 	},
 
 	attacks: [{
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Slash"
+			en: "Slash",
+			fr: "Tranche"
 		},
 
 		damage: "80"
@@ -37,6 +40,7 @@ const card: Card = {
 
 	description: {
 		en: "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving.",
+		fr: "L'insecte est quasiment mort, à ce stade, et le champignon est devenu le véritable cerveau. Si on l'ôte de seon dos, il ne peut plus bouger."
 	}
 }
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vileplume"
+		en: "Vileplume",
+		fr: "Rafflesia"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -14,18 +15,21 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Stage2",
 	evolveFrom: {
-		en: "Gloom"
+		en: "Gloom",
+		fr: "Ortide"
 	},
 
 	attacks: [{
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Soothing Scent"
+			en: "Soothing Scent",
+			fr: "Senteur Apaisante"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep"
+			en: "Your opponent's Active Pokémon is now Asleep",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi"
 		},
 
 		damage: "80"
@@ -41,6 +45,7 @@ const card: Card = {
 
 	description: {
 		en: "It has the world's largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+		fr: "Il possède les plus gros pétales du monde qui sèment d'épais nuages de pollen toxique à chacun de ses pas."
 	}
 }
 

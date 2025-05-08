@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmander"
+		en: "Charmander",
+		fr: "Salamèche"
 	},
 
 	illustrator: "Teeziro",
@@ -18,11 +19,13 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Ember"
+			en: "Ember",
+			fr: "Flammèche"
 		},
 
 		effect: {
-			en: "Discard a R Energy from this Pokémon."
+			en: "Discard a R Energy from this Pokémon.",
+			fr: "Défaussez une Énergie R de ce Pokémon."
 		},
 
 		damage: "30"
@@ -38,6 +41,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+		fr: "Il préfère ce qui est chaud. En cas de pluie, de la vapeur se forme autour de queue."
 	}
 }
 

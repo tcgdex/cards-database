@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bulbasaur"
+		en: "Bulbasaur",
+		fr: "Bulbizarre"
 	},
 
 	illustrator: "Narumi Sato",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Vine Whip"
+			en: "Vine Whip",
+			fr: "Fouet Lianes"
 		},
 
 		damage: "40"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+		fr: "Il a une graine sur son dos depuis sa naissance. Elle grossit un peu chaque jour."
 	}
 }
 

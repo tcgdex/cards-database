@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine ex"
+		en: "Arcanine ex",
+		fr: "Arcanin ex"
 	},
 
 	illustrator: "PLANETA Saito",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Growlithe"
+		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	suffix: "EX",
@@ -27,7 +29,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself."
+			en: "This Pokémon also does 20 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 20 dégâts."
 		},
 
 		damage: "120"

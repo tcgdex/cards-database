@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oddish"
+		en: "Oddish",
+		fr: "Mystherbe"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Ram"
+			en: "Ram",
+			fr: "Collision"
 		},
 
 		damage: "20"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
+		fr: "Il ne bouge que lorsqu'il est exposé aux rayons de la lune. Il se déplace alors pour disséminer ses graines."
 	}
 }
 

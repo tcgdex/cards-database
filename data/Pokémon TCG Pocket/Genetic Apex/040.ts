@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine"
+		en: "Arcanine",
+		fr: "Arcanin"
 	},
 
 	illustrator: "kodama",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Growlithe"
+		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 
@@ -22,11 +24,13 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Heat Tackle"
+			en: "Heat Tackle",
+			fr: "Charge Énergétique"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself."
+			en: "This Pokémon also does 20 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 20 dégâts."
 		},
 
 		damage: "100"
@@ -42,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+		fr: "Une veille estampe montre que les êtres humains étaient fascinés par ses mouvements lorsqu'il courait dans les champs."
 	}
 }
 

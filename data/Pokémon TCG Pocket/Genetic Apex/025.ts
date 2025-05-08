@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scyther"
+		en: "Scyther",
+		fr: "Insécateur"
 	},
 
 	illustrator: "Hasuno",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Sharp Scythe"
+			en: "Sharp Scythe",
+			fr: "Faucille Acérée"
 		},
 
 		damage: "30"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+		fr: "Il fauche les herbes avec ses lames acérées. Ses mouvements sont si rapides qu'ils sont imperceptibles à l'oeil nu."
 	}
 }
 

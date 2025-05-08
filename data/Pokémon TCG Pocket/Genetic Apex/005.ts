@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Caterpie"
+		en: "Caterpie",
+		fr: "Chenipan"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -18,11 +19,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Find a Friend"
+			en: "Find a Friend",
+			fr: "Trouver un Ami"
 		},
 
 		effect: {
-			en: "Put 1 random G Pokémon from your deck into your hand."
+			en: "Put 1 random G Pokémon from your deck into your hand.",
+			fr: "Ajoutez au hasard un Pokémon G de votre deck à votre main."
 		}
 	}],
 
@@ -36,6 +39,7 @@ const card: Card = {
 
 	description: {
 		en: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
+		fr: "Pour se protéger, il émet par ses antennes une odeur nauséabonde qui fait fuir ses ennemis."
 	}
 }
 

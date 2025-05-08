@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cottonee"
+		en: "Cottonee",
+		fr: "Doudouvet"
 	},
 
 	illustrator: "Kanako Eo",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Attach"
+			en: "Attach",
+			fr: "Accrochage"
 		},
 
 		damage: "10"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth.",
+		fr: "Il sème du coton pour se protéger. Il lui arrive d'être emporté par une tempête à l'autre bout du monde."
 	}
 }
 

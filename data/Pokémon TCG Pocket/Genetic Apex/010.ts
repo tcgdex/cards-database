@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Beedrill"
+		en: "Beedrill",
+		fr: "Dardargnan"
 	},
 
 	illustrator: "You Iribi",
@@ -21,7 +22,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Sharp Sting"
+			en: "Sharp Sting",
+			fr: "Piqûre Pointue"
 		},
 
 		damage: "70"
@@ -37,6 +39,7 @@ const card: Card = {
 
 	description: {
 		en: "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+		fr: "Il se sert de ses trois aiguillons empoisonnés pour attaquer sans relâche ses adversaires."
 	}
 }
 
