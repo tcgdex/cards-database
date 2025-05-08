@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Psychic Energy",
+		pt: "Energia Psíquica",
 		fr: "Énergie Psy",
 		de: "Psychoenergie"
 	},
@@ -12,20 +13,9 @@ const card: Card = {
 	category: "Energy",
 
 	set: Set,
-
-
-
-
+	
 	stage: "Basic",
-
-
-
-
-
-
-
-
-energyType: "Normal",
+	energyType: "Normal",
 }
 
 export default card

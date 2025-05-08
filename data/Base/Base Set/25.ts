@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Dewgong",
+		pt: "Dewgong",
 		fr: "Lamantine",
 		de: "Jugong"
 	},
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seel",
+		pt: "Seel",
 	},
 
 	stage: "Stage1",
@@ -38,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Beam",
+				pt: "Raio Aurora",
 				fr: "Onde Boréale",
 				de: "Aurorastrahl"
 			},
@@ -54,11 +57,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ice Beam",
+				pt: "Raio Congelante",
 				fr: "Laser Glace",
 				de: "Ice Beam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				pt: "Tire 'cara ou coroa'. Se der 'cara', o Pokémon Defensor agora está Paralisado.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},

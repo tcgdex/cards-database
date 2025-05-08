@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Raticate",
+		pt: "Raticate",
 		fr: "Rattatac",
 		de: "Rattikarl"
 	},
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poochyena",
+		pt: "Rattata",
 	},
 
 	stage: "Stage1",
@@ -36,6 +38,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				pt: "Mordida",
 				fr: "Morsure",
 				de: "Biss"
 			},
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Fang",
+				pt: "Super Mordida",
 				fr: "Croc Fatal",
 				de: "Superzahn"
 			},
 			effect: {
 				en: "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10).",
+				pt: "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10).",
 				fr: "Inflige une quantité de dégâts au Pokémon Défenseur égale à la moitié de ses PV restants (arrondis à la dizaine la plus proche).",
 				de: "Fügt dem verteidigenden Pokémon Schadenspunkte in Höhe der Hälfte seiner verbleibenden KP (auf die nächste Zehnerstelle aufgerundet) zu."
 			},

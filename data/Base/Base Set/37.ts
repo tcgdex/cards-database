@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Nidorino",
+		pt: "Nidorino",
 		fr: "Nidorino",
 		de: "Nidorino"
 	},
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidoran♂",
+		pt: "Nidoran♂",
 	},
 
 	stage: "Stage1",
@@ -38,11 +40,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Kick",
+				pt: "Double Kick",
 				fr: "Double Pied",
 				de: "Doppelkick"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				pt: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 30 Schadenspunkte zu."
 			},
@@ -58,6 +62,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Drill",
+				pt: "Horn Drill",
 				fr: "Empal' Korne",
 				de: "Hornbohrer"
 			},

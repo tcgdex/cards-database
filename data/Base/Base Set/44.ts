@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Bulbasaur",
+		pt: "Bulbasaur",
 		fr: "Bulbizarre",
 		de: "Bisasam"
 	},
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Leech Seed",
+				pt: "Leech Seed",
 				fr: "Vampigraine",
 				de: "Schmarotzer"
 			},
 			effect: {
 				en: "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.",
+				pt: "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.",
 				fr: "À moins que tous les dégâts infligés par cette attaque ne soient prévenus, vous pouvez retirer 1 marqueur de dégâts de Bulbizarre.",
 				de: "Falls das verteidigende Pokémon den Schaden dieses Angriffs nicht abwehren kann, kannst du eine Schadensmarke von Bisasam entfernen."
 			},
