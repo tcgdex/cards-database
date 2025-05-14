@@ -129,12 +129,33 @@ async function getChangedFiles(
 	if (context.payload.pull_request) {
 		const { owner, repo } = context.repo;
 		const prNumber = context.payload.pull_request.number;
-		const response = await octokit.rest.pulls.listFiles({
-			owner,
-			repo,
-			pull_number: prNumber,
-		});
-		return response.data.map((file) => ({ filename: file.filename, status: file.status }));
+
+		// Get all files with pagination
+		const files: { filename: string; status: string }[] = [];
+		let page = 1;
+		let hasMorePages = true;
+
+		while (hasMorePages) {
+			const response = await octokit.rest.pulls.listFiles({
+				owner,
+				repo,
+				pull_number: prNumber,
+				per_page: 100, // Get maximum allowed per page
+				page: page,
+			});
+
+			if (response.data.length === 0) {
+				hasMorePages = false;
+			} else {
+				files.push(...response.data.map((file) => ({
+					filename: file.filename,
+					status: file.status
+				})));
+				page++;
+			}
+		}
+
+		return files;
 	} else if (context.payload.commits) {
 		const files: { filename: string; status: string }[] = [];
 		for (const commit of context.payload.commits) {
@@ -237,6 +258,7 @@ function generateCommentBody(
 	repoFullName: string,
 	contextSha: string,
 ): string {
+	const maxCommentLength = 65500;
 	const newCards = cardResults.filter((r) => r.status === "added").length;
 	const deletedCards = cardResults.filter((r) => r.status === "removed").length;
 	const modifiedCards = cardResults.filter((r) => r.status === "modified" && r.card).length;
@@ -276,41 +298,62 @@ function generateCommentBody(
 	commentBody += details.join(", ") + "\n\n";
 
 	// Generate detailed card information
+	let truncated = false;
+	const truncationMessage = "\n\n> **Note:** Comment truncated due to GitHub size limitations. Some cards were omitted.\n";
+	const truncationLimit = maxCommentLength - truncationMessage.length - 100; // Buffer for safety
+
 	for (const item of cardResults) {
 		const fileUrl = `https://github.com/${repoFullName}/blob/${contextSha}/${item.file}`;
 		const fileName = item.file.split("/").pop();
 
+		// Create a temporary version of what we're about to add to check the length
+		let cardSection = "";
+
 		if (item.status === "added") {
-			commentBody += `<details><summary>➕ <strong>New card: ${fileName}</strong></summary>\n\n`;
-			commentBody += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
-			commentBody += "</details>\n\n";
+			cardSection += `<details><summary>➕ <strong>New card: ${fileName}</strong></summary>\n\n`;
+			cardSection += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
+			cardSection += "</details>\n\n";
 		} else if (item.status === "removed") {
-			commentBody += `<details><summary>🗑️ <strong>Deleted card: ${fileName}</strong></summary>\n\n`;
-			commentBody += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
-			commentBody += "</details>\n\n";
+			cardSection += `<details><summary>🗑️ <strong>Deleted card: ${fileName}</strong></summary>\n\n`;
+			cardSection += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
+			cardSection += "</details>\n\n";
 		} else if (item.card) {
 			const langInfo = item.usedLanguage ? ` (found using ${item.usedLanguage})` : "";
 			const imageStatus = !item.hasImage ? ` <em>(no images)</em>` : "";
 
-			commentBody += `<details><summary><strong>${item.card.name}</strong> (${item.card.id})${langInfo}${imageStatus}</summary>\n\n`;
+			cardSection += `<details><summary><strong>${item.card.name}</strong> (${item.card.id})${langInfo}${imageStatus}</summary>\n\n`;
 
 			if (item.card.image) {
 				const languages = item.isAsian ? ASIAN_LANGUAGES : INTERNATIONAL_LANGUAGES;
-				commentBody += renderCardImageTable(item.card, languages);
+				cardSection += renderCardImageTable(item.card, languages);
 			} else {
-				commentBody += `<p align="center"><em>No images available for this card</em></p>\n\n`;
+				cardSection += `<p align="center"><em>No images available for this card</em></p>\n\n`;
 			}
 
-			commentBody += `**File:** [${item.file}](${fileUrl})  \n`;
-			commentBody += `**Set:** ${item.card.set?.name || "Unknown"}  \n`;
-			commentBody += `**Rarity:** ${item.card.rarity || "Unknown"}\n\n`;
-			commentBody += "</details>\n\n";
+			cardSection += `**File:** [${item.file}](${fileUrl})  \n`;
+			cardSection += `**Set:** ${item.card.set?.name || "Unknown"}  \n`;
+			cardSection += `**Rarity:** ${item.card.rarity || "Unknown"}\n\n`;
+			cardSection += "</details>\n\n";
 		} else if (item.error) {
-			commentBody += `<details><summary>⚠️ <strong>Error processing ${fileName}</strong></summary>\n\n`;
-			commentBody += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
-			commentBody += `**Error:** ${item.error}\n\n`;
-			commentBody += "</details>\n\n";
+			cardSection += `<details><summary>⚠️ <strong>Error processing ${fileName}</strong></summary>\n\n`;
+			cardSection += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
+			cardSection += `**Error:** ${item.error}\n\n`;
+			cardSection += "</details>\n\n";
 		}
+
+		// Check if adding this section would exceed the limit
+		if (commentBody.length + cardSection.length > truncationLimit) {
+			truncated = true;
+			break;
+		}
+
+		// If not exceeding, add it to the main comment body
+		commentBody += cardSection;
+	}
+
+	// Add truncation message if needed
+	if (truncated) {
+		commentBody += truncationMessage;
 	}
 
 	return commentBody;
