@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Celestic Town Elder"
+		en: "Celestic Town Elder",
+		fr: "Doyenne de Célestia",
+		es: "Anciana de Pueblo Caelestis",
+		it: "Anziana di Memoride",
+		de: "Älteste von Elyses",
+		'pt-br': "Anciã da Cidade Celestic",
+		ko: "봉신마을의 장로"
 	},
 
 	illustrator: "Yuu Nishida",

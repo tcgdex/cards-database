@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Starmie ex"
+		en: "Starmie ex",
+		fr: "Staross-ex",
+		es: "Starmie ex",
+		it: "Starmie-ex",
+		de: "Starmie-ex",
+		'pt-br': "Starmie ex",
+		ko: "아쿠스타 ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -22,7 +28,13 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Hydro Splash"
+			en: "Hydro Splash",
+			fr: "Hydro-Éclaboussure",
+			es: "Hidroestallido",
+			it: "Idrosplash",
+			de: "Hydroplatscher",
+			'pt-br': "Hidroborrifada",
+			ko: "하이드로 스플래시"
 		},
 
 		damage: "90"

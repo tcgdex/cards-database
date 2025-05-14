@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jigglypuff"
+		en: "Jigglypuff",
+		fr: "Rondoudou",
+		es: "Jigglypuff",
+		it: "Jigglypuff",
+		de: "Pummeluff",
+		'pt-br': "Jigglypuff",
+		ko: "푸린"
 	},
 
 	illustrator: "Kurata So",
@@ -16,20 +22,38 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sing"
+			en: "Sing",
+			fr: "Berceuse",
+			es: "Canto",
+			it: "Canto",
+			de: "Gesang",
+			'pt-br': "Canção",
+			ko: "노래하기"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
+			en: "Your opponent's Active Pokémon is now Asleep.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			es: "El Pokémon Activo de tu rival pasa a estar Asleep.",
+			it: "Il Pokémon attivo del tuo avversario viene Asleep.",
+			de: "Das Aktive Pokémon deines Gegners [Text:SpecialCondition v0=\"ist jetzt {}\" v1=\"{} jetzt\" ].",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Asleep.",
+			ko: "상대의 배틀 포켓몬을 Asleep[Gr:Patchim v=\"으로/로\" ] 만든다."
 		}
 	}],
 
 	hp: 50,
 
 	description: {
-		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep."
+		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+		fr: "Quand ses grands yeux luisent, il chante\nune berceuse mystérieuse et agréable\nqui pousse ses ennemis à s'endormir.",
+		es: "Cuando le tiemblan sus redondos y adorables\nojos, entona una melodía agradable y misteriosa\ncon la que duerme a sus enemigos.",
+		it: "Quando i suoi occhioni rotondi tremolano, canta\nuna misteriosa melodia che fa addormentare.",
+		de: "Wenn seine Kulleraugen zu flackern beginnen,\nsingt es ein mysteriöses, wohlklingendes Lied,\ndas Zuhörer in Schlaf versetzt.",
+		'pt-br': "Quando seus enormes olhos ficam pesados,\ncanta uma melodia misteriosa e relaxante,\nfazendo com que os inimigos adormeçam.",
+		ko: "초롱초롱한 눈동자가 흔들릴 때\n졸음이 쏟아지게 하는 이상하고\n기분 좋은 노래를 부른다."
 	},
 
 	weaknesses: [{

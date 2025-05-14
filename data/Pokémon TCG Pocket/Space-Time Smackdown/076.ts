@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mesprit"
+		en: "Mesprit",
+		fr: "Créfollet",
+		es: "Mesprit",
+		it: "Mesprit",
+		de: "Vesprit",
+		'pt-br': "Mesprit",
+		ko: "엠라이트"
 	},
 
 	illustrator: "AKIRA EGAWA",

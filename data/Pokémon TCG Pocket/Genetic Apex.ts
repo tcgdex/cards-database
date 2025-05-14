@@ -5,12 +5,12 @@ const set: Set = {
 	id: "A1",
 
 	name: {
-		// de: "Unschlagbare Gene",
+		de: "Unschlagbare Gene",
 		en: "Genetic Apex",
-		// es: "Genes Formidables",
-		// fr: "Puissance Génétique",
-		// it: "Geni Supremi",
-		// pt: "Dominação Genética"
+		es: "Genes Formidables",
+		fr: "Puissance Génétique",
+		it: "Geni Supremi",
+		pt: "Dominação Genética"
 	},
 
 	serie: serie,

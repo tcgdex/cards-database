@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tentacruel"
+		en: "Tentacruel",
+		fr: "Tentacruel",
+		es: "Tentacruel",
+		it: "Tentacruel",
+		de: "Tentoxa",
+		'pt-br': "Tentacruel",
+		ko: "독파리"
 	},
 
 	illustrator: "kodama",
@@ -22,11 +28,23 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Poison Tentacles"
+			en: "Poison Tentacles",
+			fr: "Tentacules Empoisonnés",
+			es: "Tentáculos Venenosos",
+			it: "Tentacoli Velenosi",
+			de: "Giftige Tentakel",
+			'pt-br': "Tentáculos Venenosos",
+			ko: "독촉수"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			en: "Your opponent's Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			es: "El Pokémon Activo de tu rival pasa a estar Poisoned.",
+			it: "Il Pokémon attivo del tuo avversario viene Poisoned.",
+			de: "Das Aktive Pokémon deines Gegners [Text:SpecialCondition v0=\"ist jetzt {}\" v1=\"{} jetzt\" ].",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Poisoned.",
+			ko: "상대의 배틀 포켓몬을 Poisoned[Gr:Patchim v=\"으로/로\" ] 만든다."
 		},
 
 		damage: "50"
@@ -42,6 +60,12 @@ const card: Card = {
 
 	description: {
 		en: "When the red orbs on Tentacruel's head glow brightly, watch out. The Pokémon is about to fire off a burst of ultrasonic waves.",
+		fr: "Il faut faire attention lorsque les globes rouges\nsur sa tête se mettent à briller intensément,\ncar c'est qu'il s'apprête à émettre des ultrasons.",
+		es: "Si las esferas rojas que tiene a ambos lados\nde la cabeza brillan con intensidad, indica que\nestá a punto de lanzar ondas ultrasónicas.",
+		it: "Meglio fare attenzione quando le sfere rosse\nche ha sulla testa brillano intensamente, perché\nvuol dire che sta per emettere ultrasuoni.",
+		de: "Leuchten die roten Kugeln auf seinem Kopf stark\nauf, ist Vorsicht geboten, da es kurz danach\nUltraschallwellen ausstoßen wird.",
+		'pt-br': "Quando o orbe vermelho na cabeça de Tantacruel\nbrilha intensamente, cuidado: este Pokémon está\nprestes a disparar uma rajada de ondas ultrassônicas.",
+		ko: "머리의 빨간 구슬이\n밝게 빛나면 주의가 필요하다.\n초음파를 발산하려는 전조다."
 	}
 }
 

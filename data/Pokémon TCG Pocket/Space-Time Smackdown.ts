@@ -5,12 +5,12 @@ const set: Set = {
 	id: "A2",
 
 	name: {
-		// de: "Unschlagbare Gene",
+		de: "Unschlagbare Gene",
 		en: "Space-Time Smackdown",
-		// es: "Genes Formidables",
-		// fr: "Puissance Génétique",
-		// it: "Geni Supremi",
-		// pt: "Dominação Genética"
+		es: "Genes Formidables",
+		fr: "Puissance Génétique",
+		it: "Geni Supremi",
+		pt: "Dominação Genética"
 	},
 
 	serie: serie,

@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ditto"
+		en: "Ditto",
+		fr: "Métamorph",
+		es: "Ditto",
+		it: "Ditto",
+		de: "Ditto",
+		'pt-br': "Ditto",
+		ko: "메타몽"
 	},
 
 	illustrator: "Jerky",
@@ -36,6 +42,12 @@ const card: Card = {
 
 	description: {
 		en: "Its transformation ability is perfect. However, if made to laugh, it can't maintain its disguise.",
+		fr: "Il excelle dans l'art de la métamorphose, mais\nsi on le fait rire, il ne pourra rester déguisé.",
+		es: "Su habilidad para transformarse es perfecta,\npero, si se le hace reír, perderá la fuerza\ny no podrá mantenerse transformado.",
+		it: "Sa trasformarsi in maniera perfetta, ma se\nlo si fa ridere perde subito il travestimento.",
+		de: "Seine Verwandlungskunst ist perfekt. Bringt man\nes jedoch zum Lachen, fliegt seine Tarnung auf.",
+		'pt-br': "Sua capacidade de transformação é perfeita.\nNo entanto, se o fizerem rir, ele não poderá\nmanter seu disfarce.",
+		ko: "변신은 완벽하지만\n웃는 바람에 힘이 빠지면\n변신이 풀려 버리고 만다."
 	}
 }
 

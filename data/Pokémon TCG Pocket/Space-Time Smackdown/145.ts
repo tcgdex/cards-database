@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Armor Fossil"
+		en: "Armor Fossil",
+		fr: "Fossile Armure",
+		es: "Fósil Coraza",
+		it: "Fossilscudo",
+		de: "Panzerfossil",
+		'pt-br': "Fóssil Armadura",
+		ko: "방패의화석"
 	},
 
 	illustrator: "Toyste Beach",

@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Palkia ex"
+		en: "Palkia ex",
+		fr: "Palkia-ex",
+		es: "Palkia ex",
+		it: "Palkia-ex",
+		de: "Palkia-ex",
+		'pt-br': "Palkia ex",
+		ko: "펄기아 ex"
 	},
 
 	illustrator: "PLANETA CG Works",

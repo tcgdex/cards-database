@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgeot"
+		en: "Pidgeot",
+		fr: "Roucarnage",
+		es: "Pidgeot",
+		it: "Pidgeot",
+		de: "Tauboss",
+		'pt-br': "Pidgeot",
+		ko: "피죤투"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -49,6 +55,12 @@ const card: Card = {
 
 	description: {
 		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+		fr: "Il survole la surface de l'eau pour repérer\nune proie et plonge en piqué pour l'attraper.",
+		es: "Cuando caza, vuela muy deprisa a ras del agua\ny sorprende a inocentes presas como Magikarp.",
+		it: "Quando caccia, vola velocissimo sul pelo dell'acqua\ne cattura ignare prede come Magikarp.",
+		de: "Dieses Pokémon schnellt bei der Jagd blitzschnell\nunter Wasser, um seine ahnungslose Beute zu fangen.",
+		'pt-br': "Quando caça, bate na superfície da água em\nalta velocidade para capturar presas desavisadas,\ncomo Magikarp.",
+		ko: "먹이를 찾을 때 수면을\n아슬아슬하게 미끄러지듯 날아\n잉어킹 등을 움켜잡는다."
 	}
 }
 

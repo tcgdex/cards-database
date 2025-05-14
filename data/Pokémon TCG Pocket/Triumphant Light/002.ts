@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Burmy"
+		en: "Burmy",
+		fr: "Cheniti",
+		es: "Burmy",
+		it: "Burmy",
+		de: "Burmy",
+		'pt-br': "Burmy",
+		ko: "도롱충이"
 	},
 
 	illustrator: "miki kudo",

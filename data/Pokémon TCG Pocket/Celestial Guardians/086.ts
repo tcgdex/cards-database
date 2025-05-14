@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cosmoem"
+		en: "Cosmoem",
+		fr: "Cosmovum",
+		es: "Cosmoem",
+		it: "Cosmoem",
+		de: "Cosmovum",
+		'pt-br': "Cosmoem",
+		ko: "코스모움"
 	},
 
 	illustrator: "Aya Kusube",

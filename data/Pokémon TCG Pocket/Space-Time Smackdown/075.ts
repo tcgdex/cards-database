@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Uxie"
+		en: "Uxie",
+		fr: "Créhelf",
+		es: "Uxie",
+		it: "Uxie",
+		de: "Selfe",
+		'pt-br': "Uxie",
+		ko: "유크시"
 	},
 
 	illustrator: "AKIRA EGAWA",

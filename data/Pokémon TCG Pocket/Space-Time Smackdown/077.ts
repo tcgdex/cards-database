@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Azelf"
+		en: "Azelf",
+		fr: "Créfadet",
+		es: "Azelf",
+		it: "Azelf",
+		de: "Tobutz",
+		'pt-br': "Azelf",
+		ko: "아그놈"
 	},
 
 	illustrator: "AKIRA EGAWA",

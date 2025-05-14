@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lillie"
+		en: "Lillie",
+		fr: "Lilie",
+		es: "Lylia",
+		it: "Lylia",
+		de: "Lilly",
+		'pt-br': "Lílian",
+		ko: "릴리에"
 	},
 
 	illustrator: "hechima",

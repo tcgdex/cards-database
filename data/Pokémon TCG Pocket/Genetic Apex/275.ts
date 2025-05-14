@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Articuno ex"
+		en: "Articuno ex",
+		fr: "Artikodin-ex",
+		es: "Articuno ex",
+		it: "Articuno-ex",
+		de: "Arktos-ex",
+		'pt-br': "Articuno ex",
+		ko: "프리져 ex"
 	},
 
 	illustrator: "kodama",

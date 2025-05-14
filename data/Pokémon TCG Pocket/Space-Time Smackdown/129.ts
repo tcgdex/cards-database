@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Porygon-Z"
+		en: "Porygon-Z",
+		fr: "Porygon-Z",
+		es: "Porygon-Z",
+		it: "Porygon-Z",
+		de: "Porygon-Z",
+		'pt-br': "Porygon-Z",
+		ko: "폴리곤Z"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,7 +25,13 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Porygon-Z had a program installed to allow it to move between dimensions, but the program also caused instability in Porygon-Z's behavior."
+		en: "Porygon-Z had a program installed to allow it to move between dimensions, but the program also caused instability in Porygon-Z's behavior.",
+		fr: "Depuis qu'on lui a ajouté un programme\npermettant de voyager entre les dimensions,\nson comportement est devenu instable.",
+		es: "Se le instaló un software que le permite entrar\ny salir de otras dimensiones, pero que provocó\nque su comportamiento se volviese inestable.",
+		it: "Da quando gli è stato installato un programma che gli permette\ndi viaggiare in altre dimensioni, mostra un comportamento instabile.",
+		de: "Seit eine neue Software installiert wurde, die es\nzu interdimensionalen Reisen befähigen sollte,\nwurde sein Verhalten instabil.",
+		'pt-br': "Porygon-Z tem um programa instalado permitindo\nque se desloque entre dimensões. Porém, este programa\ncausou uma certa instabilidade em seu comportamento.",
+		ko: "다른 공간에 드나들 수 있는\n프로그램을 추가한 결과\n움직임이 불안정해졌다."
 	},
 
 	stage: "Stage2",

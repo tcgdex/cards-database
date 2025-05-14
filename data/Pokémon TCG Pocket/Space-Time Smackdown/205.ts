@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dialga ex"
+		en: "Dialga ex",
+		fr: "Dialga-ex",
+		es: "Dialga ex",
+		it: "Dialga-ex",
+		de: "Dialga-ex",
+		'pt-br': "Dialga ex",
+		ko: "디아루가 ex"
 	},
 
 	illustrator: "N-DESIGN Inc.",

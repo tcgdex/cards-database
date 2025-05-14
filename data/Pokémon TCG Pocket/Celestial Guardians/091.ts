@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hariyama"
+		en: "Hariyama",
+		fr: "Hariyama",
+		es: "Hariyama",
+		it: "Hariyama",
+		de: "Hariyama",
+		'pt-br': "Hariyama",
+		ko: "하리뭉"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -19,7 +25,13 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It loves challenging others to tests of strength. It has the power to stop a train with a slap."
+		en: "It loves challenging others to tests of strength. It has the power to stop a train with a slap.",
+		fr: "Il aime s'adonner à des concours de force et\nil est capable d'arrêter un train lancé à pleine\nvitesse d'un simple coup du plat de la main.",
+		es: "Le encanta medir sus fuerzas. Es tan fuerte que\npuede detener un tren en marcha de un manotazo.",
+		it: "Adora le gare di forza. Sarebbe capace di fermare\nun treno in corsa con un colpo della mano.",
+		de: "Dieses Pokémon liebt ein ordentliches Kräftemessen.\nEs ist stark genug, um mit der flachen Hand einen\nrasenden Zug aufzuhalten.",
+		'pt-br': "Ele adora desafiar os outros em testes de força.\nEle tem o poder de parar um trem com um tapa.",
+		ko: "힘겨루기를 매우 좋아한다.\n달리는 열차를 손바닥치기로\n멈추게 하는 파워를 가졌다."
 	},
 
 	stage: "Stage1",

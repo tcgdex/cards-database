@@ -5,14 +5,20 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Brock"
+		en: "Brock",
+		fr: "Pierre",
+		es: "Brock",
+		it: "Brock",
+		de: "Rocko",
+		'pt-br': "Brock",
+		ko: "웅"
 	},
 
 	illustrator: "Taira Akitsu",
 	category: "Trainer",
 
 	effect: {
-		en: "Take 1 F Energy from your Energy Zone and attach it to your Golem or Onix."
+		en: "Take 1 {F} Energy from your Energy Zone and attach it to your Golem or Onix."
 	},
 
 	trainerType: "Supporter",

@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Doduo"
+		en: "Doduo",
+		fr: "Doduo",
+		es: "Doduo",
+		it: "Doduo",
+		de: "Dodu",
+		'pt-br': "Doduo",
+		ko: "두두"
 	},
 
 	illustrator: "Yuya Oka",
@@ -18,7 +24,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Peck"
+			en: "Peck",
+			fr: "Picpic"
 		},
 
 		damage: "20"
@@ -34,6 +41,7 @@ const card: Card = {
 
 	description: {
 		en: "A two-headed Pokémon that was discovered as a sudden mutation. It runs at a pace of over 60 miles per hour.",
+		fr: "Ce Pokémon à deux têtes est le résultat d'une\nsoudaine mutation. Il peut courir jusqu'à 100 km/h."
 	}
 }
 

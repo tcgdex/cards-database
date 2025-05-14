@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dugtrio"
+		en: "Dugtrio",
+		fr: "Triopikeur",
+		es: "Dugtrio",
+		it: "Dugtrio",
+		de: "Digdri",
+		'pt-br': "Dugtrio",
+		ko: "닥트리오"
 	},
 
 	illustrator: "Akira Komayama",
@@ -22,11 +28,13 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Dig"
+			en: "Dig",
+			fr: "Tunnel"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from -and effects of- attacks done to this Pokémon."
+			en: "Flip a coin. If heads, during your opponent’s next turn, prevent all damage from—and effects of—attacks done to this Pokémon.",
+			fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon."
 		},
 
 		damage: "40"
@@ -42,6 +50,12 @@ const card: Card = {
 
 	description: {
 		en: "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
+		fr: "Ses trois têtes pilonnent le sol pour le rendre\nfriable et ainsi faciliter l'excavation.",
+		es: "Sus tres cabezas suben y bajan para remover\nla tierra cercana y facilitar así la excavación.",
+		it: "Le tre teste si muovono alternativamente per ammorbidire\nil terreno e renderlo così più facile da scavare.",
+		de: "Seine drei Köpfe bewegen sich abwechselnd\nhinauf und hinunter, um das Erdreich um sich\nherum zu lockern und leichter graben zu können.",
+		'pt-br': "Suas três cabeças movem-se separadamente\npra cima e pra baixo para amaciarem o solo\nao redor, facilitando a escavação.",
+		ko: "3개의 머리가 교차하며\n움직이는 것은 주변의 흙을\n부드럽게 해 파기 쉽게 하기 위해서다."
 	}
 }
 

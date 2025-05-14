@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skull Fossil"
+		en: "Skull Fossil",
+		fr: "Fossile Crâne",
+		es: "Fósil Cráneo",
+		it: "Fossilcranio",
+		de: "Kopffossil",
+		'pt-br': "Fóssil Crânio",
+		ko: "두개의화석"
 	},
 
 	illustrator: "Toyste Beach",

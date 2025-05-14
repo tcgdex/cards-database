@@ -5,12 +5,12 @@ const set: Set = {
 	id: "P-A",
 
 	name: {
-		// de: "Unschlagbare Gene",
+		de: "Unschlagbare Gene",
 		en: "Promos-A",
-		// es: "Genes Formidables",
-		// fr: "Puissance Génétique",
-		// it: "Geni Supremi",
-		// pt: "Dominação Genética"
+		es: "Genes Formidables",
+		fr: "Puissance Génétique",
+		it: "Geni Supremi",
+		pt: "Dominação Genética"
 	},
 
 	serie: serie,

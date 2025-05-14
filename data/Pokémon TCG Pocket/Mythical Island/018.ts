@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gyarados ex"
+		en: "Gyarados ex",
+		fr: "Léviator-ex",
+		es: "Gyarados ex",
+		it: "Gyarados-ex",
+		de: "Garados-ex",
+		'pt-br': "Gyarados ex",
+		ko: "갸라도스 ex"
 	},
 
 	illustrator: "PLANETA CG Works",

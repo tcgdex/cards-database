@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blaine"
+		en: "Blaine",
+		fr: "Auguste",
+		es: "Blaine",
+		it: "Blaine",
+		de: "Pyro",
+		'pt-br': "Blaine",
+		ko: "강연"
 	},
 
 	illustrator: "Hideki Ishikawa",

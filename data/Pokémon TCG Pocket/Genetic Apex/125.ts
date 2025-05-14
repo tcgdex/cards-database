@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hypno"
+		en: "Hypno",
+		fr: "Hypnomade",
+		es: "Hypno",
+		it: "Hypno",
+		de: "Hypno",
+		'pt-br': "Hypno",
+		ko: "슬리퍼"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -22,11 +28,23 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sleep Pendulum"
+			en: "Sleep Pendulum",
+			fr: "Pendulo Dodo",
+			es: "Péndulo de sueño",
+			it: "Ipnopendolo",
+			de: "Schlafpendel",
+			'pt-br': "Pêndulo do Sono",
+			ko: "잠듦의 추"
 		},
 
 		effect: {
-			en: "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Asleep."
+			en: "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Asleep.",
+			fr: "Une fois pendant votre tour, vous pouvez lancer une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			es: "Una vez durante tu turno, puedes lanzar 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Asleep.",
+			it: "Una sola volta durante il tuo turno, puoi lanciare una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene Asleep.",
+			de: "Einmal während deines Zuges kannst du 1 Münze werfen. Bei Kopf [Text:SpecialCondition v0=\"ist das Aktive Pokémon jetzt {}\" v1=\"{} das Aktive Pokémon jetzt\" ].",
+			'pt-br': "Uma vez durante o seu turno, você poderá jogar uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Asleep.",
+			ko: "자신의 차례에 1번 사용할 수 있다. 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 Asleep[Gr:Patchim v=\"으/\" ]로 만든다."
 		}
 	}],
 
@@ -34,7 +52,13 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Psypunch"
+			en: "Psypunch",
+			fr: "Coup de Poing Psy",
+			es: "Psicopuño",
+			it: "Psicopugno",
+			de: "Psyhieb",
+			'pt-br': "Soco Psíquico",
+			ko: "사이코펀치"
 		},
 
 		damage: "50"
@@ -51,6 +75,12 @@ const card: Card = {
 
 	description: {
 		en: "When it locks eyes with an enemy, it will use a mix of psi moves, such as Hypnosis and Confusion.",
+		fr: "Lorsqu'il croise le regard de son adversaire, il utilise\nde nombreux pouvoirs surnaturels comme l'hypnose.",
+		es: "Cuando mira al enemigo, usa diversos\npoderes psíquicos como la hipnosis.",
+		it: "Quando cattura lo sguardo del\nnemico, usa una varietà di poteri\npsichici come, ad esempio, l'ipnosi.",
+		de: "Es heißt, wenn dieses Pokémon einem Gegner\nins Auge blicke, setze es zahlreiche Psycho-Kräfte\nwie beispielsweise Hypnose ein.",
+		'pt-br': "Quando encara um inimigo, usa uma mistura de\nmovimentos psíquicos, como Hipnose e Confusão.",
+		ko: "상대와 눈이 마주쳤을 때\n최면술 등의 다양한 초능력을\n사용한다고 전해진다."
 	}
 }
 

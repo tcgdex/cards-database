@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Irida"
+		en: "Irida",
+		fr: "Nacchara",
+		es: "Nákara",
+		it: "Perula",
+		de: "Perla",
+		'pt-br': "Irida",
+		ko: "주혜"
 	},
 
 	illustrator: "Atsushi Furusawa",

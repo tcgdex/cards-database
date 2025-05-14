@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mythical Slab"
+		en: "Mythical Slab",
+		fr: "Dalle Fabuleuse",
+		es: "Losa Singular",
+		it: "Pietra Misteriosa",
+		de: "Mythische Tafel",
+		'pt-br': "Placa Mística",
+		ko: "환상의 석판"
 	},
 
 	illustrator: "AYUMI ODASHIMA",

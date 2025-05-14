@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Infernape ex"
+		en: "Infernape ex",
+		fr: "Simiabraz-ex",
+		es: "Infernape ex",
+		it: "Infernape-ex",
+		de: "Panferno-ex",
+		'pt-br': "Infernape ex",
+		ko: "초염몽 ex"
 	},
 
 	illustrator: "PLANETA CG Works",

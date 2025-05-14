@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Graveler"
+		en: "Alolan Graveler",
+		fr: "Gravalanchd'Alola",
+		es: "Gravelerde Alola",
+		it: "Gravelerdi Alola",
+		de: "Alola-Georok",
+		'pt-br': "Gravelerde Alola",
+		ko: "알로라데구리"
 	},
 
 	illustrator: "match",

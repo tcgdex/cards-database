@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meowth"
+		en: "Meowth",
+		fr: "Miaouss",
+		es: "Meowth",
+		it: "Meowth",
+		de: "Mauzi",
+		'pt-br': "Meowth",
+		ko: "나옹"
 	},
 
 	illustrator: "Mina Nakai",
@@ -22,7 +28,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Draw 1 card."
+			en: "Draw a card."
 		},
 
 		damage: "10"
@@ -38,6 +44,12 @@ const card: Card = {
 
 	description: {
 		en: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
+		fr: "Il passe ses journées à dormir. La nuit venue,\nil patrouille sur son territoire, les yeux brillants.",
+		es: "Durante el día, se dedica a dormir.\nDe noche, vigila su territorio con un brillo en los ojos.",
+		it: "Di giorno non fa che dormire, mentre la notte\nperlustra il suo territorio con gli occhi luccicanti.",
+		de: "Es schläft den ganzen Tag. Nachts patrouilliert es\nsein Revier mit glühenden Augen.",
+		'pt-br': "Tudo o que este Pokémon faz é dormir\ndurante o dia. À noite, patrulha seu\nterritório com seus olhos brilhantes.",
+		ko: "낮에는 거의 잠만 잔다.\n밤이 되면 눈을 반짝이며\n영역을 돌아다닌다."
 	}
 }
 

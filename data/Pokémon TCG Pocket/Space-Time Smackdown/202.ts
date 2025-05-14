@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darkrai ex"
+		en: "Darkrai ex",
+		fr: "Darkrai-ex",
+		es: "Darkrai ex",
+		it: "Darkrai-ex",
+		de: "Darkrai-ex",
+		'pt-br': "Darkrai ex",
+		ko: "다크라이 ex"
 	},
 
 	illustrator: "Oswaldo KATO",

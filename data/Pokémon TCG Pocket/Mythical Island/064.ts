@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pokémon Flute"
+		en: "Pokémon Flute",
+		fr: "Flûte Pokémon",
+		es: "Pokéflauta",
+		it: "Pokéflauto",
+		de: "Pokémon-Flöte",
+		'pt-br': "Flauta Pokémon",
+		ko: "포켓몬피리"
 	},
 
 	illustrator: "Toyste Beach",
