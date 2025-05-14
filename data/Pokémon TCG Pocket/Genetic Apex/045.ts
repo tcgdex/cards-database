@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flareon"
+		en: "Flareon",
+		fr: "Pyroli"
 	},
 
 	illustrator: "sui",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli"
 	},
 
 
@@ -22,11 +24,13 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Flamethrower"
+			en: "Flamethrower",
+			fr: "Lance-Flammes"
 		},
 
 		effect: {
-			en: "Discard 1 R Energy from this Pokémon."
+			en: "Discard 1 R Energy from this Pokémon.",
+			fr: "Défaussez une Énergie R de ce Pokémon."
 		},
 
 		damage: "110"
@@ -42,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit.",
+		fr: "Sa glande enflammée chauffe l'air qu'il inspire. Il l'exhale ensuite sous forme de flamme atteignant les 1 700 °C."
 	}
 }
 

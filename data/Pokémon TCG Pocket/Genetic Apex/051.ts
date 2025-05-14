@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sizzlipede"
+		en: "Sizzlipede",
+		fr: "Grillepattes"
 	},
 
 	illustrator: "Teeziro",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Gnaw"
+			en: "Gnaw",
+			fr: "Ronge"
 		},
 
 		damage: "10"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
+		fr: "Il produit de la chaleur grâce au gaz inflammable qu'il emmagasine dans son corps. La partie jaune de son abdomen est particulièrement brûlante."
 	}
 }
 

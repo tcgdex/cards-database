@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Exeggutor ex"
+		en: "Exeggutor ex",
+		fr: "Noadkoko ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -20,11 +21,13 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Tropical Swing"
+			en: "Tropical Swing",
+			fr: "Coup Tropical"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 40 more damage."
+			en: "Flip a coin. If heads, this attack does 40 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts de plus."
 		},
 
 		damage: "40+"

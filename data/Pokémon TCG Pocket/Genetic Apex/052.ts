@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Centiskorch"
+		en: "Centiskorch",
+		fr: "Scolocendre"
 	},
 
 	illustrator: "GOSSAN",
@@ -14,7 +15,8 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Stage1",
 	evolveFrom: {
-		en: "Sizzlipede"
+		en: "Sizzlipede",
+		fr: "Grillepattes"
 	},
 
 
@@ -22,11 +24,13 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Fire Blast"
+			en: "Fire Blast",
+			fr: "Déflagration"
 		},
 
 		effect: {
-			en: "Discard a R Energy from this Pokémon."
+			en: "Discard a R Energy from this Pokémon.",
+			fr: "Défaussez une Énergie R de ce Pokémon."
 		},
 
 		damage: "130"
@@ -37,6 +41,7 @@ const card: Card = {
 
 	description: {
 		en: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
+		fr: "Quand il génère de la chaleur, sa températeur est d'environ 800 °C. Il se sert de son corps comme d'un fouet pour sauter sur ses ennemis."
 	}
 }
 

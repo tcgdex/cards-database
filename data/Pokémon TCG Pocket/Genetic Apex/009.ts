@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kakuna"
+		en: "Kakuna",
+		fr: "Coconfort"
 	},
 
 	illustrator: "miki kudo",
@@ -21,7 +22,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Bug Bite"
+			en: "Bug Bite",
+			fr: "Piqûre"
 		},
 
 		damage: "30"
@@ -37,6 +39,7 @@ const card: Card = {
 
 	description: {
 		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+		fr: "Incapable de se déplacer de lui-même, il se défend en durcissant sa carapace."
 	}
 }
 

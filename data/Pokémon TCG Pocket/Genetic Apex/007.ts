@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Butterfree"
+		en: "Butterfree",
+		fr: "Papilusion"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -14,18 +15,21 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Stage2",
 	evolveFrom: {
-		en: "Metapod"
+		en: "Metapod",
+		fr: "Chrysacier"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Powder Heal"
+			en: "Powder Heal",
+			fr: "Soin Poudre"
 		},
 
 		effect: {
-			en: "Once during your turn, you may heal 20 damage from each of your Pokémon."
+			en: "Once during your turn, you may heal 20 damage from each of your Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de chacun de vos Pokémon."
 		}
 	}],
 
@@ -49,6 +53,7 @@ const card: Card = {
 
 	description: {
 		en: "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+		fr: "En combat, il bat des ailes très rapidement pour projeter de la poudre toxique sur ses ennemis."
 	}
 }
 

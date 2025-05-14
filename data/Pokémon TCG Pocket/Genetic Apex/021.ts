@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Exeggcute"
+		en: "Exeggcute",
+		fr: "Noeunoeuf"
 	},
 
 	illustrator: "kawayoo",
@@ -18,7 +19,8 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Seed Bomb"
+			en: "Seed Bomb",
+			fr: "Canon Graine"
 		},
 
 		damage: "20"
@@ -34,6 +36,7 @@ const card: Card = {
 
 	description: {
 		en: "Though it may look like it's just a bunch of eggs, it's a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
+		fr: "Même s'il ressemble à un tas d'oeufs, il s'agit bien d'un Pokémon. Il parait qu'ils communiquent entre eux par télépathie."
 	}
 }
 
