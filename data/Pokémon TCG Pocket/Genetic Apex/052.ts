@@ -1,19 +1,15 @@
 import { Card } from "../../../interfaces"
 import Set from "../Genetic Apex"
-
 const card: Card = {
 	set: Set,
-
 	name: {
 		en: "Centiskorch",
 		fr: "Scolocendre",
 		es: "Centiskorch",
 		it: "Centiskorch",
 		de: "Infernopod",
-		'pt-br': "Centiskorch",
 		ko: "다태우지네"
 	},
-
 	illustrator: "GOSSAN",
 	category: "Pokemon",
 	hp: 130,
@@ -22,38 +18,28 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sizzlipede"
 	},
-
-
 	attacks: [{
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
-
 		name: {
 			en: "Fire Blast",
 			fr: "Déflagration",
 			es: "Llamarada",
 			it: "Fuocobomba",
 			de: "Feuersturm",
-			'pt-br': "Rajada de Fogo",
 			ko: "불대문자"
 		},
-
 		effect: {
 			en: "Discard a {R} Energy from this Pokémon.",
 			fr: "Défaussez une Énergie {R} de ce Pokémon.",
 			es: "Descarta 1 Energía {R} de este Pokémon.",
 			it: "Rimuovi un'Energia {R} da questo Pokémon.",
 			de: "Lege 1 {R}-Energie von diesem Pokémon ab.",
-			'pt-br': "Descarte Energia {R} deste Pokémon.",
 			ko: "이 포켓몬에서 {R}에너지를 1개 트래쉬한다.",
-			'pt-br': "Descarte 1 Energia {R} deste Pokémon."
 		},
-
 		damage: "130"
 	}],
-
 	retreat: 3,
 	rarity: "Two Diamond",
-
 	description: {
 		en: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
 		fr: "Quand il génère de la chaleur, sa température\nest d'environ 800 °C. Il se sert de son corps\ncomme d'un fouet pour sauter sur ses ennemis.",
@@ -64,5 +50,4 @@ const card: Card = {
 		ko: "발열 시의 체온은 약 800도.\n몸을 채찍처럼 휘면서\n덤벼든다."
 	}
 }
-
 export default card

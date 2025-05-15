@@ -56,7 +56,7 @@ const card: Card = {
 			es: "Descarta las 3 primeras cartas de tu baraja.",
 			it: "Scarta le prime 3 carte del tuo mazzo.",
 			de: "Lege die obersten 3 Karten deines Decks ab.",
-			'pt-br': "Descarte a carta de cima do seu baralho.",
+			
 			ko: "자신의 덱을 위에서부터 3장 트래쉬한다.",
 			'pt-br': "Descarte as 3 cartas de cima do seu baralho."
 		}

@@ -52,7 +52,7 @@ const card: Card = {
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso.",
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
-			'pt-br': "O Pokémon Ativo do seu oponente agora está Confused.",
+			
 			ko: "상대의 배틀 포켓몬을 혼란으로 만든다.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso."
 		}

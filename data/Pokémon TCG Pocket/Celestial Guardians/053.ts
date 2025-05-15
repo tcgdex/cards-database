@@ -56,7 +56,7 @@ const card: Card = {
 			es: "Si el Pokémon Activo de tu rival es un Pokémon Básico, este ataque hace 60 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Base, questo attacco infligge 60 danni in più.",
 			de: "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, fügt diese Attacke 60 Schadenspunkte mehr zu.",
-			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Basic, este ataque causará 60 pontos de dano a mais.",
+			
 			ko: "상대의 배틀 포켓몬이 기본 포켓몬i_라면 60데미지를 추가한다.",
 			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, este ataque causará 60 pontos de dano a mais."
 		}

@@ -51,7 +51,7 @@ const card: Card = {
 			es: "Lanza 1 moneda. Si sale cara, tu rival enseña 1 carta aleatoria de su mano, la pone de nuevo en su baraja y las baraja todas.",
 			it: "Lancia una moneta. Se esce testa, il tuo avversario mostra una carta a caso dalla sua mano e la rimischia nel suo mazzo.",
 			de: "Wirf 1 Münze. Bei Kopf zeigt dein Gegner dir 1 zufällige Karte aus seiner Hand und mischt sie in sein Deck.",
-			'pt-br': "Jogue uma moeda. Se sair cara, seu oponente revelará card cartas aleatórias da mão dele e as embaralhará no baralho dele.",
+			
 			ko: "동전을 1번 던져서 앞면이 나오면 상대의 패를 랜덤으로 1장 앞면을 보고 상대의 덱으로 되돌린다.",
 			'pt-br': "Jogue uma moeda. Se sair cara, seu oponente revelará 1 carta aleatória da mão dele e a embaralhará no baralho dele."
 		}

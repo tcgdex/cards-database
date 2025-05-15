@@ -56,7 +56,7 @@ const card: Card = {
 			es: "Lanza 4 monedas. Este ataque hace 40 puntos de daño por cada cara. Si sale cara en por lo menos 2 de ellas, el Pokémon Activo de tu rival pasa a estar Envenenado.",
 			it: "Lancia una moneta 4 volte. Questo attacco infligge 40 danni ogni volta che esce testa. Se esce testa almeno 2 volte, il Pokémon attivo del tuo avversario viene avvelenato.",
 			de: "Wirf 4 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu. Wenn mindestens 2 Münzen Kopf zeigen, ist das Aktive Pokémon deines Gegners jetzt vergiftet.",
-			'pt-br': "Jogue 4 moedas. Este ataque causa 40 pontos de dano para cada cara. Se pelo menos 2 delas saírem cara, o Pokémon Ativo do seu oponente agora estará Poisoned.",
+			
 			ko: "동전을 4번 던져서 앞면이 나온 수 × 40데미지를 준다. 앞면이 2번 이상 나오면 상대의 배틀 포켓몬을 독으로 만든다.",
 			'pt-br': "Jogue 4 moedas. Este ataque causa 40 pontos de dano para cada cara. Se pelo menos 2 delas saírem cara, o Pokémon Ativo do seu oponente agora estará Envenenado."
 		}

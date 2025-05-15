@@ -55,7 +55,7 @@ const card: Card = {
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Ese Pokémon sufre 20 puntos de daño en vez de la cantidad habitual por esta Condición Especial.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Infliggi 20 danni a quel Pokémon invece della quantità normalmente prevista per questa condizione speciale.",
 			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Füge dem Pokémon 20 Schadenspunkte zu anstelle der für diesen Speziellen Zustand üblichen Menge an Schadenspunkten.",
-			'pt-br': "O Pokémon Ativo do seu oponente agora está Poisoned. Cause 20 pontos de dano a este Pokémon em vez da quantidade normal desta Condição Especial.",
+			
 			ko: "상대의 배틀 포켓몬을 독으로 만든다. 이 독의 데미지는 20이 된다.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado. Cause 20 pontos de dano a este Pokémon em vez da quantidade normal desta Condição Especial."
 		}

@@ -56,7 +56,7 @@ const card: Card = {
 			es: "Este Pokémon pasa a estar Confundido.",
 			it: "Questo Pokémon viene confuso.",
 			de: "Dieses Pokémon ist jetzt verwirrt.",
-			'pt-br': "Este Pokémon agora está Confused.",
+			
 			ko: "이 포켓몬을 혼란으로 만든다.",
 			'pt-br': "Este Pokémon agora está Confuso."
 		}

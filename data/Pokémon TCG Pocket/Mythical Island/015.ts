@@ -51,7 +51,7 @@ const card: Card = {
 			es: "Si el Pokémon Activo de tu rival está Envenenado, este ataque hace 40 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è avvelenato, questo attacco infligge 40 danni in più.",
 			de: "Wenn das Aktive Pokémon deines Gegners vergiftet ist, fügt diese Attacke 40 Schadenspunkte mehr zu.",
-			'pt-br': "Se o Pokémon Ativo do seu oponente estiver Poisoned, este ataque causará 40 pontos de dano a mais.",
+			
 			ko: "상대의 배틀 포켓몬이 독이라면 40데미지를 추가한다.",
 			'pt-br': "Se o Pokémon Ativo do seu oponente estiver Envenenado, este ataque causará 40 pontos de dano a mais."
 		}

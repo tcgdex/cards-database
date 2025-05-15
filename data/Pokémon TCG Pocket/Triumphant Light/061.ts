@@ -52,7 +52,7 @@ const card: Card = {
 			es: "Descarta 2 Energías aleatorias de este Pokémon.",
 			it: "Rimuovi 2 Energie a caso da questo Pokémon.",
 			de: "Lege 2 zufällige Energien von diesem Pokémon ab.",
-			'pt-br': "Descarte 2 Energias random deste Pokémon.",
+			
 			ko: "이 포켓몬에서 에너지를 랜덤으로 2개 트래쉬한다.",
 			'pt-br': "Descarte 2 Energias aleatórias deste Pokémon."
 		}

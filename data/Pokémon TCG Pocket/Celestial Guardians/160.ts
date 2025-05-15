@@ -56,7 +56,7 @@ const card: Card = {
 			es: "Lanza 2 monedas. Este ataque hace 70 puntos de daño por cada cara. Si sale cara en por lo menos 1 de ellas, el Pokémon Activo de tu rival pasa a estar Quemado.",
 			it: "Lancia una moneta 2 volte. Questo attacco infligge 70 danni ogni volta che esce testa. Se esce testa almeno volte, il Pokémon attivo del tuo avversario viene bruciato.",
 			de: "Wirf 2 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu. Wenn mindestens 1 Münze Kopf zeigt, ist das Aktive Pokémon deines Gegners jetzt verbrannt.",
-			'pt-br': "Jogue 2 moedas. Este ataque causa 70 pontos de dano para cada cara. Se pelo menos 1 delas sair cara, o Pokémon Ativo do seu oponente agora estará Burned.",
+			
 			ko: "동전을 2번 던져서 앞면이 나온 수 × 70데미지를 준다. 앞면이 1번 이상 나오면 상대의 배틀 포켓몬을 화상으로 만든다.",
 			'pt-br': "Jogue 2 moedas. Este ataque causa 70 pontos de dano para cada cara. Se pelo menos 1 delas sair cara, o Pokémon Ativo do seu oponente agora estará Queimado."
 		}

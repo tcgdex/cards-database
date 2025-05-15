@@ -56,7 +56,7 @@ const card: Card = {
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado y Quemado.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato e bruciato.",
 			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet und ist verbrannt.",
-			'pt-br': "O Pokémon Ativo do seu oponente agora está Poisoned e Burned.",
+			
 			ko: "상대의 배틀 포켓몬을 독과 화상으로 만든다.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado e Queimado."
 		}

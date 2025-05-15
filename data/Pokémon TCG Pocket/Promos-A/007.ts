@@ -24,7 +24,7 @@ const card: Card = {
 		es: "Roba 2 cartas.",
 		it: "Pesca 2 carte.",
 		de: "Ziehe 2 Karten.",
-		'pt-br': "Compre 1 carta.",
+		
 		ko: "자신의 덱을 2장 뽑는다.",
 		'pt-br': "Compre 2 cartas."
 	},

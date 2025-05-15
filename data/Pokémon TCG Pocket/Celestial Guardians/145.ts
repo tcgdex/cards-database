@@ -24,7 +24,7 @@ const card: Card = {
 		es: "Mira la primera carta de tu baraja. Después, puedes barajar las cartas de tu baraja.",
 		it: "Guarda la prima carta del tuo mazzo. Poi, puoi rimischiare le carte del tuo mazzo.",
 		de: "Schau dir die oberste Karte deines Decks an. Anschließend kannst du dein Deck mischen.",
-		'pt-br': "Olhe ascard cartas de cima do seu baralho. Em seguida, você pode embaralhar o seu baralho.",
+		
 		ko: "자신의 덱을 위에서부터 1장 보고 원래대로 되돌린다. 원한다면 자신의 덱을 섞는다.",
 		'pt-br': "Olhe 1 carta de cima do seu baralho. Em seguida, você pode embaralhar o seu baralho."
 	},

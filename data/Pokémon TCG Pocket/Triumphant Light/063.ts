@@ -52,7 +52,7 @@ const card: Card = {
 			es: "Este Pokémon pasa a estar Dormido.",
 			it: "Questo Pokémon viene addormentato.",
 			de: "Dieses Pokémon ist jetzt schläft.",
-			'pt-br': "Este Pokémon agora está Asleep.",
+			
 			ko: "이 포켓몬을 잠듦으로 만든다.",
 			'pt-br': "Este Pokémon agora está Adormecido."
 		}

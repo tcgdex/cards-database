@@ -51,7 +51,7 @@ const card: Card = {
 			es: "Pon 1 carta aleatoria que evolucione de Rockruff de tu baraja en tu mano.",
 			it: "Prendi una carta a caso dal tuo mazzo che si evolve da Rockruff e aggiungila alle carte che hai in mano.",
 			de: "Nimm 1 zufällige Karte, die sich aus Wuffels entwickelt, aus deinem Deck auf deine Hand.",
-			'pt-br': "Coloque carta aleatória que evolua de Rockruff do seu baralho na sua mão.",
+			
 			ko: "「암멍이」에서 진화하는 카드를 자신의 덱에서 랜덤으로 1장 패로 가져온다.",
 			'pt-br': "Coloque 1 carta aleatória que evolua de Rockruff do seu baralho na sua mão."
 		}

@@ -24,7 +24,7 @@ const card: Card = {
 		es: "Pon 1 Pokémon Básico aleatorio de tu baraja en tu mano.",
 		it: "Prendi un Pokémon Base a caso dal tuo mazzo e aggiungilo alle carte che hai in mano.",
 		de: "Nimm 1 zufälliges Basis-Pokémon aus deinem Deck auf deine Hand.",
-		'pt-br': "Coloque Pokémon Básico aleatório do seu baralho na sua mão.",
+		
 		ko: "자신의 덱에서 기본 포켓몬을 랜덤으로 1장 패로 가져온다.",
 		'pt-br': "Coloque 1 Pokémon Básico aleatório do seu baralho na sua mão."
 	},
