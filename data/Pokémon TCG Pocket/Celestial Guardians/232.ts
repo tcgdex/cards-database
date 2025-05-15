@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Blastoise ex",
 		it: "Blastoise-ex",
 		de: "Turtok-ex",
-		ko: "거북왕 ex"
+		ko: "거북왕 ex",
+		'pt-br': "Blastoise ex"
 	},
 	illustrator: "PLANETA CG Works",
 	rarity: "Two Shiny",
@@ -27,7 +28,8 @@ const card: Card = {
 			es: "Surf",
 			it: "Surf",
 			de: "Surfer",
-			ko: "파도타기"
+			ko: "파도타기",
+			'pt-br': "Surfar"
 		},
 		damage: 40,
 		cost: ["Water", "Colorless"]
@@ -38,7 +40,8 @@ const card: Card = {
 			es: "Hidrobazuca",
 			it: "Idrobazooka",
 			de: "Hydro-Bazooka",
-			ko: "하이드로 바주카"
+			ko: "하이드로 바주카",
+			'pt-br': "Bazuca d'Água"
 		},
 		damage: "100+",
 		cost: ["Water", "Water", "Colorless"],

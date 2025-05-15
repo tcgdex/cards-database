@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Turtonator",
 		it: "Turtonator",
 		de: "Tortunator",
-		ko: "폭거북스"
+		ko: "폭거북스",
+		'pt-br': "Turtonator"
 	},
 	illustrator: "akagi",
 	rarity: "One Star",
@@ -21,7 +22,8 @@ const card: Card = {
 		es: "Su caparazón está recubierto de un material explosivo.\nResponde con un gran estallido a todo aquel que lo ataque.",
 		it: "Il carapace sulla schiena è rivestito di esplosivo.\nRespinge gli attacchi nemici con un potente scoppio.",
 		de: "Sein Panzer ist mit einer explosiven Schicht überzogen.\nGegnerische Angriffe quittiert es mit gewaltigen Explosionen.",
-		ko: "폭약으로 코팅된 등껍질을\n짊어지고 있다. 공격하는\n상대에게 대폭발로 반격한다."
+		ko: "폭약으로 코팅된 등껍질을\n짊어지고 있다. 공격하는\n상대에게 대폭발로 반격한다.",
+		'pt-br': "Sua carapaça é coberta por substâncias explosivas.\nOs inimigos que ousarem atacar este Pokémon\nserão lançados longe por uma explosão imensa."
 	},
 	stage: "Basic",
 	attacks: [{
@@ -31,7 +33,8 @@ const card: Card = {
 			es: "Giro Fuego",
 			it: "Turbofuoco",
 			de: "Feuerwirbel",
-			ko: "회오리불꽃"
+			ko: "회오리불꽃",
+			'pt-br': "Chama Furacão"
 		},
 		damage: 90,
 		cost: ["Fire", "Fire", "Colorless"],

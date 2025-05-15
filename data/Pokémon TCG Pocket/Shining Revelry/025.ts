@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Pachirisu",
 		it: "Pachirisu",
 		de: "Pachirisu",
-		ko: "파치리스"
+		ko: "파치리스",
+		'pt-br': "Pachirisu"
 	},
 	illustrator: "imoniii",
 	rarity: "Two Diamond",
@@ -21,7 +22,8 @@ const card: Card = {
 		es: "Forma parte del grupo de Pokémon que\nposee bolsas de electricidad en las mejillas.\nDescarga por la cola la electricidad que acumula.",
 		it: "Appartiene alla tipologia di Pokémon\nmuniti di sacche elettriche sulle guance.\nRilascia dalla coda l'elettricità accumulata.",
 		de: "Pachirisu ist eines der Pokémon, die mit ihren\nBackentaschen Elektrizität erzeugen. Den so\ngesammelten Strom gibt es über den Schweif ab.",
-		ko: "볼에 전기 주머니를 가진 포켓몬의 일종.\n꼬리에 모인 전기를 방출한다."
+		ko: "볼에 전기 주머니를 가진 포켓몬의 일종.\n꼬리에 모인 전기를 방출한다.",
+		'pt-br': "É um dos tipos de Pokémon com bolsas elétricas\nnas bochechas. Ele dispara cargas de sua cauda."
 	},
 	stage: "Basic",
 	attacks: [{
@@ -31,7 +33,8 @@ const card: Card = {
 			es: "Plasma",
 			it: "Plasma",
 			de: "Plasma",
-			ko: "플라스마"
+			ko: "플라스마",
+			'pt-br': "Plasma"
 		},
 		damage: 10,
 		cost: ["Lightning"],

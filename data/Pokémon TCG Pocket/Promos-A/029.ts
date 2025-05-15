@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Blastoise",
 		it: "Blastoise",
 		de: "Turtok",
-		ko: "거북왕"
+		ko: "거북왕",
+		'pt-br': "Blastoise"
 	},
 	illustrator: "danciao",
 	rarity: "None",
@@ -24,7 +25,8 @@ const card: Card = {
 		es: "Para acabar con su enemigo, lo aplasta\ncon el peso de su cuerpo. En momentos\nde apuro, se esconde en el caparazón.",
 		it: "Mette KO gli avversari schiacciandoli sotto il corpo\npossente. Se è in difficoltà, può ritrarsi nella corazza.",
 		de: "Es begräbt seine Gegner mit seinem enormen\nKörpergewicht. Wenn es in einer aussichtslosen\nLage steckt, zieht es sich in seinen Panzer zurück.",
-		ko: "무거운 몸으로 상대를\n덮쳐서 기절시킨다.\n위기에 처하면 등껍질에 숨는다."
+		ko: "무거운 몸으로 상대를\n덮쳐서 기절시킨다.\n위기에 처하면 등껍질에 숨는다.",
+		'pt-br': "Esmaga seus inimigos com seu corpo pesado\naté que desmaiem. Quando está em apuros,\nse esconde dentro do seu casco."
 	},
 	stage: "Stage2",
 	attacks: [{
@@ -34,7 +36,8 @@ const card: Card = {
 			es: "Hidrobomba",
 			it: "Idropompa",
 			de: "Hydropumpe",
-			ko: "하이드로펌프"
+			ko: "하이드로펌프",
+			'pt-br': "Jato d'Água"
 		},
 		damage: "80+",
 		cost: ["Water", "Water", "Colorless"],

@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Spoink",
 		it: "Spoink",
 		de: "Spoink",
-		ko: "피그점프"
+		ko: "피그점프",
+		'pt-br': "Spoink"
 	},
 	illustrator: "Sekio",
 	rarity: "One Diamond",
@@ -21,7 +22,8 @@ const card: Card = {
 		es: "Si dejara de saltar, se debilitaría. La perla que lleva\nen la cabeza amplifica sus poderes psíquicos.",
 		it: "Se dovesse smettere di saltellare, morirebbe. La perla\nche porta sul capo amplifica i suoi poteri psichici.",
 		de: "Hört es je auf umherzuspringen, stirbt es.\nDie Perle auf seinem Kopf verstärkt seine\nPsycho-Kräfte.",
-		ko: "뛰어오르는 것을 멈추면 죽는다고 한다.\n머리에 이고 있는 진주가\n사이코 파워를 증폭시켜 준다."
+		ko: "뛰어오르는 것을 멈추면 죽는다고 한다.\n머리에 이고 있는 진주가\n사이코 파워를 증폭시켜 준다.",
+		'pt-br': "Spoink morrerá se parar de pular. A pérola em sua cabeça\naumenta seus poderes psíquicos."
 	},
 	stage: "Basic",
 	attacks: [{
@@ -31,7 +33,8 @@ const card: Card = {
 			es: "Psicarga",
 			it: "Carica Psichica",
 			de: "Psycholadung",
-			ko: "사이코차지"
+			ko: "사이코차지",
+			'pt-br': "Carregamento Psíquico"
 		},
 		cost: ["Psychic"],
 		effect: {

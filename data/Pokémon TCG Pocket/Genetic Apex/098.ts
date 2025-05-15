@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Magneton",
 		it: "Magneton",
 		de: "Magneton",
-		ko: "레어코일"
+		ko: "레어코일",
+		'pt-br': "Magneton"
 	},
 	illustrator: "kirisAki",
 	category: "Pokemon",
@@ -26,7 +27,8 @@ const card: Card = {
 			es: "Carga Voltio",
 			it: "Carica Volt",
 			de: "Voltladung",
-			ko: "볼트 차지"
+			ko: "볼트 차지",
+			'pt-br': "Carga Voltaica"
 		},
 		effect: {
 			en: "Once during your turn, you may take a {L} Energy from your Energy Zone and attach it to this Pokémon.",
@@ -35,6 +37,7 @@ const card: Card = {
 			it: "Una sola volta durante il tuo turno, puoi prendere un'Energia {L} dalla tua Zona Energia e assegnarla a questo Pokémon.",
 			de: "Einmal während deines Zuges kannst du 1 {L}-Energie aus deinem Energiebereich an dieses Pokémon anlegen.",
 			ko: "자신의 차례에 1번 사용할 수 있다. 자신의 에너지존에서 {L}에너지를 1개 내보내 이 포켓몬에게 붙인다.",
+			'pt-br': "Uma vez durante o seu turno, você poderá pegar 1 Energia {L} da sua Zona de Energia e a este Pokémon."
 		}
 	}],
 	attacks: [{
@@ -45,7 +48,8 @@ const card: Card = {
 			es: "Ataque Giratorio",
 			it: "Attacco Rotante",
 			de: "Rundumangriff",
-			ko: "회전어택"
+			ko: "회전어택",
+			'pt-br': "Ataque Giratório"
 		},
 		damage: "60"
 	}],

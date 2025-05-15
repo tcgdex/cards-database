@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Giratina ex",
 		it: "Giratina-ex",
 		de: "Giratina-ex",
-		ko: "기라티나 ex"
+		ko: "기라티나 ex",
+		'pt-br': "Giratina ex"
 	},
 	illustrator: "PLANETA Yamashita",
 	rarity: "Two Star",
@@ -25,7 +26,8 @@ const card: Card = {
 			es: "Bramido de Espacio Fracturado",
 			it: "Ruggito Altera-spazio",
 			de: "Raumzerfetzender Schrei",
-			ko: "파공의 외침"
+			ko: "파공의 외침",
+			'pt-br': "Grito do Espaço Rompido"
 		},
 		effect: {
 			en: "Once during your turn, you may take a {P} Energy from your Energy Zone and attach it to this Pokémon. If you use this Ability, your turn ends.",
@@ -34,6 +36,7 @@ const card: Card = {
 			it: "Una sola volta durante il tuo turno, puoi prendere un'Energia {P} dalla tua Zona Energia e assegnarla a questo Pokémon. Se usi questa abilità, il tuo turno finisce.",
 			de: "Einmal während deines Zuges kannst du 1 {P}-Energie aus deinem Energiebereich an dieses Pokémon anlegen. Wenn du diese Fähigkeit einsetzt, endet dein Zug.",
 			ko: "자신의 차례에 1번 사용할 수 있으며, 사용하면 차례는 끝난다. 자신의 에너지존에서 {P}에너지를 1개 내보내 이 포켓몬에게 붙인다.",
+			'pt-br': "Uma vez durante o seu turno, você poderá pegar 1 Energia {P} da sua Zona de Energia e a este Pokémon. Se você usar esta Habilidade, o seu turno acabará."
 		}
 	}],
 	attacks: [{
@@ -43,7 +46,8 @@ const card: Card = {
 			es: "Impacto Caótico",
 			it: "Impatto Caotico",
 			de: "Chaoseinschlag",
-			ko: "카오스임팩트"
+			ko: "카오스임팩트",
+			'pt-br': "Impacto Caótico"
 		},
 		damage: 130,
 		cost: ["Psychic", "Psychic", "Psychic", "Colorless"],

@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Blastoise",
 		it: "Blastoise",
 		de: "Turtok",
-		ko: "거북왕"
+		ko: "거북왕",
+		'pt-br': "Blastoise"
 	},
 	illustrator: "Nurikabe",
 	category: "Pokemon",
@@ -26,7 +27,8 @@ const card: Card = {
 			es: "Hidrobomba",
 			it: "Idropompa",
 			de: "Hydropumpe",
-			ko: "하이드로펌프"
+			ko: "하이드로펌프",
+			'pt-br': "Jato d'Água"
 		},
 		effect: {
 			en: "If this Pokémon has at least 2 extra {W} Energy attached, this attack does 60 more damage.",
@@ -35,6 +37,7 @@ const card: Card = {
 			it: "Se questo Pokémon ha almeno 2 Energie {W} extra assegnate, questo attacco infligge 60 danni in più.",
 			de: "Wenn an dieses Pokémon mindestens 2 extra {W}-Energien angelegt sind, fügt diese Attacke 60 Schadenspunkte mehr zu.",
 			ko: "{W}에너지 2개가 추가로 붙어 있다면 60데미지를 추가한다.",
+			'pt-br': "Se este Pokémon tiver pelo menos 2 Energia {W} extra ligada a ele, este ataque causará 60 pontos de dano a mais."
 		},
 		damage: "80+"
 	}],

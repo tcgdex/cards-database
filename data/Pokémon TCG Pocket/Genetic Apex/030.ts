@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Lilligant",
 		it: "Lilligant",
 		de: "Dressella",
-		ko: "드레디어"
+		ko: "드레디어",
+		'pt-br': "Lilligant"
 	},
 	illustrator: "You Iribi",
 	category: "Pokemon",
@@ -26,7 +27,8 @@ const card: Card = {
 			es: "Aprovisionamiento Hoja",
 			it: "Fogliascorta",
 			de: "Blättervorrat",
-			ko: "리프서플라이"
+			ko: "리프서플라이",
+			'pt-br': "Estoque de Folha"
 		},
 		effect: {
 			en: "Take a {G} Energy from your Energy Zone and attach it to 1 of your Benched {G} Pokémon.",
@@ -35,6 +37,7 @@ const card: Card = {
 			it: "Prendi un'Energia {G} dalla tua Zona Energia e assegnala a uno dei tuoi Pokémon {G} in panchina.",
 			de: "Lege 1 {G}-Energie aus deinem Energiebereich an 1 {G}-Pokémon auf deiner Bank an.",
 			ko: "자신의 에너지존에서 {G}에너지를 1개 내보내 벤치의 {G} 포켓몬에게 붙인다.",
+			'pt-br': "Pegue 1 Energia {G} da sua Zona de Energia e a 1 dos seus Pokémon {G} no Banco."
 		},
 		damage: "50"
 	}],

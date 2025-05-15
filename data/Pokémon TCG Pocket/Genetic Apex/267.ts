@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Misty",
 		it: "Misty",
 		de: "Misty",
-		ko: "이슬"
+		ko: "이슬",
+		'pt-br': "Misty"
 	},
 	illustrator: "Sanosuke Sakuma",
 	category: "Trainer",

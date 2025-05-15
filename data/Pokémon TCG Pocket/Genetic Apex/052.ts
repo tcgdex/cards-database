@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Centiskorch",
 		it: "Centiskorch",
 		de: "Infernopod",
-		ko: "다태우지네"
+		ko: "다태우지네",
+		'pt-br': "Centiskorch"
 	},
 	illustrator: "GOSSAN",
 	category: "Pokemon",
@@ -26,7 +27,8 @@ const card: Card = {
 			es: "Llamarada",
 			it: "Fuocobomba",
 			de: "Feuersturm",
-			ko: "불대문자"
+			ko: "불대문자",
+			'pt-br': "Rajada de Fogo"
 		},
 		effect: {
 			en: "Discard a {R} Energy from this Pokémon.",
@@ -35,6 +37,7 @@ const card: Card = {
 			it: "Rimuovi un'Energia {R} da questo Pokémon.",
 			de: "Lege 1 {R}-Energie von diesem Pokémon ab.",
 			ko: "이 포켓몬에서 {R}에너지를 1개 트래쉬한다.",
+			'pt-br': "Descarte 1 Energia {R} deste Pokémon."
 		},
 		damage: "130"
 	}],

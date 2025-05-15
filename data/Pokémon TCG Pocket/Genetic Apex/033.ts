@@ -8,7 +8,8 @@ const card: Card = {
 		es: "Charmander",
 		it: "Charmander",
 		de: "Glumanda",
-		ko: "파이리"
+		ko: "파이리",
+		'pt-br': "Charmander"
 	},
 	illustrator: "Teeziro",
 	category: "Pokemon",
@@ -23,7 +24,8 @@ const card: Card = {
 			es: "Ascuas",
 			it: "Braciere",
 			de: "Glut",
-			ko: "불꽃세례"
+			ko: "불꽃세례",
+			'pt-br': "Brasa"
 		},
 		effect: {
 			en: "Discard a {R} Energy from this Pokémon.",
@@ -32,6 +34,7 @@ const card: Card = {
 			it: "Rimuovi un'Energia {R} da questo Pokémon.",
 			de: "Lege 1 {R}-Energie von diesem Pokémon ab.",
 			ko: "이 포켓몬에서 {R}에너지를 1개 트래쉬한다.",
+			'pt-br': "Descarte 1 Energia {R} deste Pokémon."
 		},
 		damage: "30"
 	}],
