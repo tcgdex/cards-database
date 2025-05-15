@@ -24,7 +24,7 @@ const card: Card = {
 		it: "Riprendi in mano il tuo Muk o Weezing in posizione attiva.",
 		de: "Nimm dein Sleimok oder Smogmog in der Aktiven Position auf deine Hand.",
 		'pt-br': "Coloque seu Muk ou Weezing do Campo Ativo na sua mão.",
-		ko: "자신의 배틀필드의 「질뻐기」「또도가스」[Gr:Patchim v=\"을/를\" ] 패로 되돌린다."
+		ko: "자신의 배틀필드의 「질뻐기」「또도가스」를 패로 되돌린다."
 	},
 
 	trainerType: "Supporter",

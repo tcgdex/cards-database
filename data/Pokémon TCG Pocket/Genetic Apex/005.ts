@@ -38,9 +38,9 @@ const card: Card = {
 			fr: "Ajoutez au hasard un Pokémon {G} de votre deck à votre main.",
 			es: "Pon 1 Pokémon {G} aleatorio de tu baraja en tu mano.",
 			it: "Prendi un Pokémon {G} a caso dal tuo mazzo e aggiungilo alle carte che hai in mano.",
-			de: "Nimm 1 zufälliges G-Pokémon aus deinem Deck auf deine Hand.",
+			de: "Nimm 1 zufälliges {G}-Pokémon aus deinem Deck auf deine Hand.",
 			'pt-br': "Coloque 1 Pokémon {G} aleatório do seu baralho na sua mão.",
-			ko: "자신의 덱에서 G포켓몬을 랜덤으로 1장 패로 가져온다."
+			ko: "자신의 덱에서 {G}포켓몬을 랜덤으로 1장 패로 가져온다."
 		}
 	}],
 

@@ -40,11 +40,12 @@ const card: Card = {
 		effect: {
 			en: "Take a {G} Energy from your Energy Zone and attach it to 1 of your Benched {G} Pokémon.",
 			fr: "Prenez une Énergie {G} de votre zone Énergie et attachez-la à l'un de vos Pokémon {G} de Banc.",
-			es: "Une Energía {G} de tu área de Energía a 1 de tus Pokémon {G} en Banca.",
+			es: "Une 1 Energía {G} de tu área de Energía a 1 de tus Pokémon {G} en Banca.",
 			it: "Prendi un'Energia {G} dalla tua Zona Energia e assegnala a uno dei tuoi Pokémon {G} in panchina.",
-			de: "Lege G-Energie aus deinem Energiebereich an 1 {G} Pokémon auf deiner Bank an.",
+			de: "Lege 1 {G}-Energie aus deinem Energiebereich an 1 {G}-Pokémon auf deiner Bank an.",
 			'pt-br': "Pegue Energia {G} da sua Zona de Energia e a 1 dos seus Pokémon {G} no Banco.",
-			ko: "자신의 에너지존에서 G에너지를 개 내보내 벤치의 {G} 포켓몬에게 붙인다."
+			ko: "자신의 에너지존에서 {G}에너지를 1개 내보내 벤치의 {G} 포켓몬에게 붙인다.",
+			'pt-br': "Pegue 1 Energia {G} da sua Zona de Energia e a 1 dos seus Pokémon {G} no Banco."
 		},
 
 		damage: "50"

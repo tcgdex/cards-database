@@ -28,12 +28,22 @@ const card: Card = {
 
 		name: {
 			en: "Hard Coat",
-			fr: "Strate Dure"
+			fr: "Strate Dure",
+			es: "Capa Resistente",
+			it: "Patina Dura",
+			de: "Schutzschicht",
+			'pt-br': "Camada Resistente",
+			ko: "하드코트"
 		},
 
 		effect: {
 			en: "This Pokémon takes -20 damage from attacks.",
-			fr: "Ce Pokémon subit − 20 dégâts provenant des attaques."
+			fr: "Ce Pokémon subit − 20 dégâts provenant des attaques.",
+			es: "Los ataques hacen -20 puntos de daño a este Pokémon.",
+			it: "Questo Pokémon subisce -20 danni dagli attacchi.",
+			de: "Diesem Pokémon werden durch Attacken − 20 Schadenspunkte zugefügt.",
+			'pt-br': "Este Pokémon recebe −20 pontos de dano de ataques.",
+			ko: "이 포켓몬이 받는 기술의 데미지를 -20한다."
 		}
 	}],
 
@@ -42,7 +52,12 @@ const card: Card = {
 
 		name: {
 			en: "Heavy Impact",
-			fr: "Gros Impact"
+			fr: "Gros Impact",
+			es: "Impacto Pesado",
+			it: "Impatto Pesante",
+			de: "Schwerer Einschlag",
+			'pt-br': "Impacto Pesado",
+			ko: "헤비임팩트"
 		},
 
 		damage: "120"

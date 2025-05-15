@@ -52,12 +52,13 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon is now Confused.",
-			fr: "Ce Pokémon est maintenant Confused.",
-			es: "Este Pokémon pasa a estar Confused.",
-			it: "Questo Pokémon viene Confused.",
-			de: "Dieses Pokémon [Text:SpecialCondition v0=\"ist jetzt {}\" v1=\"{} jetzt\" ].",
+			fr: "Ce Pokémon est maintenant Confus.",
+			es: "Este Pokémon pasa a estar Confundido.",
+			it: "Questo Pokémon viene confuso.",
+			de: "Dieses Pokémon ist jetzt verwirrt.",
 			'pt-br': "Este Pokémon agora está Confused.",
-			ko: "이 포켓몬을 ConfusedConfused로 만든다."
+			ko: "이 포켓몬을 혼란으로 만든다.",
+			'pt-br': "Este Pokémon agora está Confuso."
 		}
 	}],
 

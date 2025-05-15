@@ -53,11 +53,12 @@ const card: Card = {
 		effect: {
 			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Burned.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene Burned.",
-			de: "Wirf 1 Münze. Bei Kopf [Text:SpecialCondition v0=\"ist das Aktive Pokémon deines Gegners jetzt {}\" v1=\"{} das Aktive Pokémon deines Gegners jetzt\" ].",
+			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Quemado.",
+			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene bruciato.",
+			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt.",
 			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Burned.",
-			ko: "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 Burned[Gr:Patchim v=\"으로/로\" ] 만든다."
+			ko: "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 화상으로 만든다.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Queimado."
 		}
 	}],
 

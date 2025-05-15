@@ -29,12 +29,22 @@ const card: Card = {
 
 		name: {
 			en: "Shell Armor",
-			fr: "Coque Armure"
+			fr: "Coque Armure",
+			es: "Caparazón",
+			it: "Guscioscudo",
+			de: "Panzerhaut",
+			'pt-br': "Armadura de Concha",
+			ko: "조가비갑옷"
 		},
 
 		effect: {
 			en: "This Pokémon takes -10 damage from attacks.",
-			fr: "Ce Pokémon subit − 10 dégâts provenant des attaques."
+			fr: "Ce Pokémon subit − 10 dégâts provenant des attaques.",
+			es: "Los ataques hacen -10 puntos de daño a este Pokémon.",
+			it: "Questo Pokémon subisce -10 danni dagli attacchi.",
+			de: "Diesem Pokémon werden durch Attacken − 10 Schadenspunkte zugefügt.",
+			'pt-br': "Este Pokémon recebe −10 pontos de dano de ataques.",
+			ko: "이 포켓몬이 받는 기술의 데미지를 -10한다."
 		}
 	}],
 
@@ -43,7 +53,12 @@ const card: Card = {
 
 		name: {
 			en: "Surf",
-			fr: "Surf"
+			fr: "Surf",
+			es: "Surf",
+			it: "Surf",
+			de: "Surfer",
+			'pt-br': "Surfar",
+			ko: "파도타기"
 		},
 
 		damage: "70"

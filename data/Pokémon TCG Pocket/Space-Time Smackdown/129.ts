@@ -38,14 +38,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Buggy Beam"
+			en: "Buggy Beam",
+			fr: "Rayon Bogué",
+			es: "Rayo Errático",
+			it: "Raggio Glitch",
+			de: "Glitch-Strahl",
+			'pt-br': "Raio Bugado",
+			ko: "버그빔"
 		},
 
 		damage: 80,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Change the type of the next Energy that will be generated for your opponent to 1 of the following at random: <span class=\"energy-text energy-text--type-grass\"></span>, <span class=\"energy-text energy-text--type-fire\"></span>, <span class=\"energy-text energy-text--type-water\"></span>, <span class=\"energy-text energy-text--type-lightning\"></span>, <span class=\"energy-text energy-text--type-psychic\"></span>, <span class=\"energy-text energy-text--type-fighting\"></span>, <span class=\"energy-text energy-text--type-darkness\"></span>, or <span class=\"energy-text energy-text--type-metal\"></span>."
+			en: "Change the type of the next Energy that will be generated for your opponent to 1 of the following at random: {G}, {R}, {W}, {L}, {P}, {F}, {D}, or {M}.",
+			fr: "Le type de la prochaine Énergie générée pour votre adversaire est remplacé au hasard par l'un des suivants : , , , , , , , ou .",
+			es: "Cambia el tipo de la próxima Energía que se generará para tu rival a 1 de las siguientes al azar: , , , , , , o .",
+			it: "Cambia il tipo della prossima Energia generata per il tuo avversario con uno a caso fra quelli elencati di seguito: , , , , , , o .",
+			de: "Ändere den Typ der Energie, die für deinen Gegner als Nächstes generiert wird, zufällig zu 1 der folgenden: , , , , , , oder .",
+			'pt-br': "Mude o tipo da próxima Energia que será gerada para seu oponente para 1 das seguintes Energias aleatoriamente: , , , , , , ou .",
+			ko: "상대의 다음에 발생하는 에너지의 타입을 중에서 1가지로 랜덤하게 바꾼다."
 		}
 	}],
 

@@ -36,11 +36,12 @@ const card: Card = {
 		effect: {
 			en: "Discard a {R} Energy from this Pokémon.",
 			fr: "Défaussez une Énergie {R} de ce Pokémon.",
-			es: "Descarta Energía {R} de este Pokémon.",
+			es: "Descarta 1 Energía {R} de este Pokémon.",
 			it: "Rimuovi un'Energia {R} da questo Pokémon.",
-			de: "Lege R-Energie von diesem Pokémon ab.",
+			de: "Lege 1 {R}-Energie von diesem Pokémon ab.",
 			'pt-br': "Descarte Energia {R} deste Pokémon.",
-			ko: "이 포켓몬에서 R에너지를 개 트래쉬한다."
+			ko: "이 포켓몬에서 {R}에너지를 1개 트래쉬한다.",
+			'pt-br': "Descarte 1 Energia {R} deste Pokémon."
 		},
 
 		damage: "30"

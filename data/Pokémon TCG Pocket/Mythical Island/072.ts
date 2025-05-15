@@ -39,17 +39,35 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Wash Out"
+			en: "Wash Out",
+			fr: "Surlavage",
+			es: "Hacer Limpieza",
+			it: "Sciacquare",
+			de: "Wegspülen",
+			'pt-br': "Lavagem",
+			ko: "흘려보내기"
 		},
 
 		effect: {
-			en: "As often as you like during your turn, you may move a <span class=\"energy-text energy-text--type-water\"></span> Energy from 1 of your Benched <span class=\"energy-text energy-text--type-water\"></span> Pokémon to your Active <span class=\"energy-text energy-text--type-water\"></span> Pokémon."
+			en: "As often as you like during your turn, you may move a {W} Energy from 1 of your Benched {W} Pokémon to your Active {W} Pokémon.",
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie {W} de l'un de vos Pokémon {W} de Banc vers votre Pokémon {W} Actif.",
+			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía {W} de 1 de tus Pokémon {W} en Banca a tu Pokémon {W} Activo.",
+			it: "Durante il tuo turno, puoi spostare un'Energia {W} da uno dei tuoi Pokémon {W} in panchina al tuo Pokémon {W} in posizione attiva tutte le volte che vuoi.",
+			de: "Beliebig oft während deines Zuges kannst du 1 {W}-Energie von 1 {W}-Pokémon auf deiner Bank auf dein Aktives {W}-Pokémon verschieben.",
+			'pt-br': "Quantas vezes desejar durante o seu turno, você poderá mover uma Energia {W} de 1 dos seus Pokémon {W} no Banco para o seu Pokémon {W} Ativo.",
+			ko: "자신의 차례에 몇 번이라도 사용할 수 있다. 자신의 벤치의 {W}포켓몬에서 {W}에너지를 1개 배틀필드의 {W}포켓몬에게 바꿔 붙인다."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Wave Splash"
+			en: "Wave Splash",
+			fr: "Grosse Vague",
+			es: "Chapoteo Ondulante",
+			it: "Schizzi d'Onda",
+			de: "Wellenplatscher",
+			'pt-br': "Onda Borrifante",
+			ko: "스플래시"
 		},
 
 		damage: 60,

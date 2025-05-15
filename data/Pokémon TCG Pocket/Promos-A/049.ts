@@ -49,11 +49,12 @@ const card: Card = {
 		effect: {
 			en: "This Pokémon is now Asleep.",
 			fr: "Ce Pokémon est maintenant Endormi.",
-			es: "Este Pokémon pasa a estar Asleep.",
-			it: "Questo Pokémon viene Asleep.",
-			de: "Dieses Pokémon [Text:SpecialCondition v0=\"ist jetzt {}\" v1=\"{} jetzt\" ].",
+			es: "Este Pokémon pasa a estar Dormido.",
+			it: "Questo Pokémon viene addormentato.",
+			de: "Dieses Pokémon ist jetzt schläft.",
 			'pt-br': "Este Pokémon agora está Asleep.",
-			ko: "이 포켓몬을 AsleepAsleep로 만든다."
+			ko: "이 포켓몬을 잠듦으로 만든다.",
+			'pt-br': "Este Pokémon agora está Adormecido."
 		}
 	}],
 

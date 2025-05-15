@@ -51,7 +51,7 @@ const card: Card = {
 			fr: "Prenez une Énergie {L} de votre zone Énergie et attachez-la à l'un de vos Pokémon {L} de Banc.",
 			es: "Une 1 Energía {L} de tu área de Energía a 1 de tus Pokémon {L} en Banca.",
 			it: "Prendi un'Energia {L} dalla tua Zona Energia e assegnala a uno dei tuoi Pokémon {L} in panchina.",
-			de: "Lege 1 {L}-Energie aus deinem Energiebereich an 1 {L} Pokémon auf deiner Bank an.",
+			de: "Lege 1 {L}-Energie aus deinem Energiebereich an 1 {L}-Pokémon auf deiner Bank an.",
 			'pt-br': "Pegue 1 Energia {L} da sua Zona de Energia e a 1 dos seus Pokémon {L} no Banco.",
 			ko: "자신의 에너지존에서 {L}에너지를 1개 내보내 벤치의 {L} 포켓몬에게 붙인다."
 		}

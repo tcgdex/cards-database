@@ -25,12 +25,22 @@ const card: Card = {
 
 		name: {
 			en: "Sky Attack",
-			fr: "Piqué"
+			fr: "Piqué",
+			es: "Ataque Aéreo",
+			it: "Aeroattacco",
+			de: "Himmelsfeger",
+			'pt-br': "Ataque do Céu",
+			ko: "불새"
 		},
 
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			ko: "동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다."
 		},
 
 		damage: "130"

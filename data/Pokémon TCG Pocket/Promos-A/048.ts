@@ -50,7 +50,7 @@ const card: Card = {
 			fr: "Choisissez 2 de vos Pokémon de Banc. Pour chacun de ces Pokémon, prenez une Énergie {W} de votre zone Énergie et attachez-la à ce Pokémon.",
 			es: "Elige 2 de tus Pokémon en Banca. Para cada uno de ellos, une 1 Energía {W} de tu área de Energía a ese Pokémon.",
 			it: "Scegli 2 dei tuoi Pokémon in panchina e assegna un'Energia {W} dalla tua Zona Energia a ognuno di essi.",
-			de: "Wähle 2 Pokémon auf deiner Bank. Lege für jedes jener Pokémon 1 {W} Energie aus deinem Energiebereich an jene Pokémon an.",
+			de: "Wähle 2 Pokémon auf deiner Bank. Lege für jedes jener Pokémon 1 {W}-Energie aus deinem Energiebereich an jene Pokémon an.",
 			'pt-br': "Escolha 2 dos seus Pokémon no Banco. Para cada um daqueles Pokémon, pegue 1 Energia {W} da sua Zona de Energia e ligue-a àquele Pokémon.",
 			ko: "자신의 벤치 포켓몬을 2마리 선택해서 에너지존에서 {W}에너지를 내보내 1개씩 붙인다."
 		}

@@ -34,13 +34,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Call for Family"
+			en: "Call for Family",
+			fr: "Appel à la Famille",
+			es: "Llamar a la Familia",
+			it: "Cerca Famiglia",
+			de: "Familienruf",
+			'pt-br': "Chamar a Família",
+			ko: "동료부르기"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Put 1 random  from your deck onto your Bench."
+			en: "Put 1 random Basic Pokémon from your deck onto your Bench.",
+			fr: "Placez un Pokémon de base au hasard de votre deck sur votre Banc.",
+			es: "Pon 1 Pokémon Básico aleatorio de tu baraja en tu Banca.",
+			it: "Prendi un Pokémon Base a caso dal tuo mazzo e mettilo nella tua panchina.",
+			de: "Lege 1 zufälliges Basis-Pokémon aus deinem Deck auf deine Bank.",
+			'pt-br': "Coloque 1 Pokémon Básico aleatório do seu baralho no seu Banco.",
+			ko: "자신의 덱에서 기본 포켓몬eul_reul 랜덤으로 1장 벤치로 내보낸다."
 		}
 	}],
 

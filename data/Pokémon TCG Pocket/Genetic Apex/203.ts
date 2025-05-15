@@ -25,12 +25,22 @@ const card: Card = {
 
 		name: {
 			en: "Dizzy Punch",
-			fr: "Uppercut"
+			fr: "Uppercut",
+			es: "Puño Mareo",
+			it: "Stordipugno",
+			de: "Irrschlag",
+			'pt-br': "Soco Estonteante",
+			ko: "잼잼펀치"
 		},
 
 		effect: {
 			en: "Flip 2 coins. This attack does 30 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face."
+			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+			it: "Lancia 2 volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+			de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+			ko: "동전을 2번 던져서 앞면이 나온 수 × 30데미지를 준다."
 		},
 
 		damage: "30×"

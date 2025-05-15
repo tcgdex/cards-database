@@ -25,12 +25,22 @@ const card: Card = {
 
 		name: {
 			en: "Call for Family",
-			fr: "Appel à la Famille"
+			fr: "Appel à la Famille",
+			es: "Llamar a la Familia",
+			it: "Cerca Famiglia",
+			de: "Familienruf",
+			'pt-br': "Chamar a Família",
+			ko: "동료부르기"
 		},
 
 		effect: {
 			en: "Put 1 random Nidoran♂ from your deck onto your Bench.",
-			fr: "Placez une carte Nidoran♂ au hasard de votre deck sur votre Banc."
+			fr: "Placez une carte Nidoran♂ au hasard de votre deck sur votre Banc.",
+			es: "Pon 1 Nidoran♂ aleatorio de tu baraja en tu Banca.",
+			it: "Prendi un Nidoran ♂ a caso dal tuo mazzo e mettilo nella tua panchina.",
+			de: "Lege 1 zufälliges Nidoran♂ aus deinem Deck auf deine Bank.",
+			'pt-br': "Coloque 1 Nidoran♂ aleatório do seu baralho no seu Banco.",
+			ko: "자신의 덱에서 「니드런♂」를 랜덤으로 1장 벤치로 내보낸다."
 		}
 	}],
 

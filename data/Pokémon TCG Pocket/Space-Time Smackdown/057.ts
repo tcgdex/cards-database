@@ -38,14 +38,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Exciting Voltage"
+			en: "Exciting Voltage",
+			fr: "Voltage Amplifié",
+			es: "Voltaje Exaltado",
+			it: "Ipervoltaggio",
+			de: "Knisternde Spannung",
+			'pt-br': "Voltagem Empolgante",
+			ko: "익사이팅볼트"
 		},
 
 		damage: "40+",
 		cost: ["Lightning", "Lightning"],
 
 		effect: {
-			en: "If this Pokémon has at least 2 extra <span class=\"energy-text energy-text--type-lightning\"></span> Energy attached, this attack does 80 more damage."
+			en: "If this Pokémon has at least 2 extra {L} Energy attached, this attack does 80 more damage.",
+			fr: "Si ce Pokémon a au moins 2 Énergies {L} de plus, cette attaque inflige 80 dégâts supplémentaires.",
+			es: "Si este Pokémon tiene por lo menos 2 Energías {L} adicionales unidas a él, este ataque hace 80 puntos de daño más.",
+			it: "Se questo Pokémon ha almeno 2 Energie {L} extra assegnate, questo attacco infligge 80 danni in più.",
+			de: "Wenn an dieses Pokémon mindestens 2 extra {L}-Energien angelegt sind, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			'pt-br': "Se este Pokémon tiver pelo menos 2 Energia {L} extra ligada a ele, este ataque causará 80 pontos de dano a mais.",
+			ko: "{L}에너지 2개가 추가로 붙어 있다면 80데미지를 추가한다."
 		}
 	}],
 

@@ -24,11 +24,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Pay Day"
+			en: "Pay Day",
+			fr: "Jackpot",
+			es: "Día de Pago",
+			it: "Giornopaga",
+			de: "Zahltag",
+			'pt-br': "Dia de Pagamento",
+			ko: "고양이돈받기"
 		},
 
 		effect: {
-			en: "Draw a card."
+			en: "Draw a card.",
+			fr: "Piochez une carte.",
+			es: "Roba 1 carta.",
+			it: "Pesca una carta.",
+			de: "Ziehe 1 Karte.",
+			'pt-br': "Compre 1 carta.",
+			ko: "자신의 덱을 1장 뽑는다."
 		},
 
 		damage: "10"

@@ -39,11 +39,12 @@ const card: Card = {
 		effect: {
 			en: "If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage.",
 			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 50 dégâts de plus.",
-			es: "Si el Pokémon Activo de tu rival está Poisoned, este ataque hace 50 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è Poisoned, questo attacco infligge 50 danni in più.",
-			de: "Wenn das Aktive Pokémon deines Gegners [Text:SpecialCondition v0=\"{} ist\" v1=\"{}\" ], fügt diese Attacke 50 Schadenspunkte mehr zu.",
+			es: "Si el Pokémon Activo de tu rival está Envenenado, este ataque hace 50 puntos de daño más.",
+			it: "Se il Pokémon attivo del tuo avversario è avvelenato, questo attacco infligge 50 danni in più.",
+			de: "Wenn das Aktive Pokémon deines Gegners vergiftet ist, fügt diese Attacke 50 Schadenspunkte mehr zu.",
 			'pt-br': "Se o Pokémon Ativo do seu oponente estiver Poisoned, este ataque causará 50 pontos de dano a mais.",
-			ko: "상대의 배틀 포켓몬이 Poisoned[Gr:Patchim v=\"이/가\" ]라면 50데미지를 추가한다."
+			ko: "상대의 배틀 포켓몬이 독이라면 50데미지를 추가한다.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente estiver Envenenado, este ataque causará 50 pontos de dano a mais."
 		},
 
 		damage: "70+"

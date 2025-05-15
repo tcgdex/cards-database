@@ -25,7 +25,12 @@ const card: Card = {
 
 		name: {
 			en: "Peck",
-			fr: "Picpic"
+			fr: "Picpic",
+			es: "Picotazo",
+			it: "Beccata",
+			de: "Pikser",
+			'pt-br': "Bicada",
+			ko: "쪼기"
 		},
 
 		damage: "20"
@@ -41,7 +46,12 @@ const card: Card = {
 
 	description: {
 		en: "A two-headed Pokémon that was discovered as a sudden mutation. It runs at a pace of over 60 miles per hour.",
-		fr: "Ce Pokémon à deux têtes est le résultat d'une\nsoudaine mutation. Il peut courir jusqu'à 100 km/h."
+		fr: "Ce Pokémon à deux têtes est le résultat d'une\nsoudaine mutation. Il peut courir jusqu'à 100 km/h.",
+		es: "Este Pokémon de dos cabezas es el\nresultado de una mutación. Cuando corre,\npuede alcanzar casi 100 km por hora.",
+		it: "Pokémon a due teste, scoperto a seguito di\nun'improvvisa mutazione. Può correre a 100 km/h.",
+		de: "Dieses zweiköpfige Pokémon gilt als plötzliche\nMutation. Es rennt bis zu 100 km/h schnell.",
+		'pt-br': "Um Pokémon com duas cabeças que foi\ndescoberto como uma mutação repentina.\nEle corre a mais de 100 km/h.",
+		ko: "돌연변이로 발견된\n두 개의 머리를 지닌 포켓몬이다.\n시속 100km로 달린다."
 	}
 }
 

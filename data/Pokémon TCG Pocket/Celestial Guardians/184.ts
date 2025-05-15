@@ -43,7 +43,7 @@ const card: Card = {
 			it: "Questo attacco infligge 40 danni in più per ogni Wishiwashi e Wishiwashi-ex nella tua panchina.",
 			de: "Diese Attacke fügt für jedes Lusardin und Lusardin-ex auf deiner Bank 40 Schadenspunkte mehr zu.",
 			'pt-br': "Este ataque causa 40 pontos de dano a mais para cada um dos seus Wishiwashi e Wishiwashi ex no Banco.",
-			ko: "자신의 벤치의 「약어리」Wishiwashi 「약어리 ex」의 수 × 40데미지를 추가한다."
+			ko: "자신의 벤치의 「약어리」 「약어리 ex」의 수 × 40데미지를 추가한다."
 		}
 	}],
 

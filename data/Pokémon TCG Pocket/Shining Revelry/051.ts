@@ -51,12 +51,13 @@ const card: Card = {
 
 		effect: {
 			en: "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
-			fr: "Une fois pendant votre tour, vous pouvez lancer une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Poisoned.",
-			es: "Una vez durante tu turno, puedes lanzar 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Poisoned.",
-			it: "Una sola volta durante il tuo turno, puoi lanciare una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene Poisoned.",
-			de: "Einmal während deines Zuges kannst du 1 Münze werfen. Bei Kopf [Text:SpecialCondition v0=\"ist das Aktive Pokémon jetzt {}\" v1=\"{} das Aktive Pokémon jetzt\" ].",
+			fr: "Une fois pendant votre tour, vous pouvez lancer une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			es: "Una vez durante tu turno, puedes lanzar 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
+			it: "Una sola volta durante il tuo turno, puoi lanciare una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
+			de: "Einmal während deines Zuges kannst du 1 Münze werfen. Bei Kopf ist das Aktive Pokémon jetzt vergiftet.",
 			'pt-br': "Uma vez durante o seu turno, você poderá jogar uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Poisoned.",
-			ko: "자신의 차례에 1번 사용할 수 있다. 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 Poisoned[Gr:Patchim v=\"으/\" ]로 만든다."
+			ko: "자신의 차례에 1번 사용할 수 있다. 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 독으로 만든다.",
+			'pt-br': "Uma vez durante o seu turno, você poderá jogar uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Envenenado."
 		}
 	}],
 

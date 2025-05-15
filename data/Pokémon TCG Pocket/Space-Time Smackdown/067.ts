@@ -43,12 +43,13 @@ const card: Card = {
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confused.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confused.",
-			it: "Il Pokémon attivo del tuo avversario viene Confused.",
-			de: "Das Aktive Pokémon deines Gegners [Text:SpecialCondition v0=\"ist jetzt {}\" v1=\"{} jetzt\" ].",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			it: "Il Pokémon attivo del tuo avversario viene confuso.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Confused.",
-			ko: "상대의 배틀 포켓몬을 Confused[Gr:Patchim v=\"으로/로\" ] 만든다."
+			ko: "상대의 배틀 포켓몬을 혼란으로 만든다.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso."
 		}
 	}],
 

@@ -52,12 +52,13 @@ const card: Card = {
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Poisoned and Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Poisoned et Burned.",
-			es: "El Pokémon Activo de tu rival pasa a estar Poisoned y Burned.",
-			it: "Il Pokémon attivo del tuo avversario viene Poisoned e Burned.",
-			de: "Das Aktive Pokémon deines Gegners [Text:SpecialCondition v0=\"ist jetzt {}\" v1=\"{} jetzt\" ] und [Text:SpecialCondition id=\"1\" v0=\"ist {}\" v1=\"{}\" ].",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné et Brûlé.",
+			es: "El Pokémon Activo de tu rival pasa a estar Envenenado y Quemado.",
+			it: "Il Pokémon attivo del tuo avversario viene avvelenato e bruciato.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet und ist verbrannt.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Poisoned e Burned.",
-			ko: "상대의 배틀 포켓몬을 PoisonedPoisoned BurnedPoisoned로 만든다."
+			ko: "상대의 배틀 포켓몬을 독과 화상으로 만든다.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado e Queimado."
 		}
 	}],
 

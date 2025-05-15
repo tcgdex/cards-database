@@ -25,7 +25,7 @@ const card: Card = {
 		it: "Prendi una carta a caso dal tuo mazzo fra le seguenti: Glameow, Stunky e Croagunk. Poi aggiungila alle carte che hai in mano.",
 		de: "Nimm von den Karten Charmian, Skunkapuh und Glibunkel 1 zufällige aus deinem Deck auf deine Hand.",
 		'pt-br': "Coloque aleatoriamente 1 carta dentre Glameow, Stunky e Croagunk do seu baralho na sua mão.",
-		ko: "자신의 덱에서 「나옹마」「스컹뿡」「삐딱구리」Glameow 랜덤으로 1장 패로 가져온다."
+		ko: "자신의 덱에서 「나옹마」「스컹뿡」「삐딱구리」 랜덤으로 1장 패로 가져온다."
 	},
 
 	trainerType: "Supporter"

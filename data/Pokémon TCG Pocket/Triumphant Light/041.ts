@@ -56,7 +56,7 @@ const card: Card = {
 			it: "Se hai in gioco Arceus o Arceus-ex, gli attacchi usati da questo Pokémon infliggono +30 danni al Pokémon attivo del tuo avversario.",
 			de: "Wenn du Arceus oder Arceus-ex im Spiel hast, fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners + 30 Schadenspunkte zu.",
 			'pt-br': "Se você tiver Arceus ou Arceus ex em jogo, os ataques usados por este Pokémon causarão +30 pontos de dano ao Pokémon Ativo do seu oponente.",
-			ko: "자신의 필드에 「아르세우스」 또는 「아르세우스 ex」Arceus 있다면 이 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지를 Arceus+30[/Ctrl:NoBreak]한다."
+			ko: "자신의 필드에 「아르세우스」 또는 「아르세우스 ex」 있다면 이 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지를 Arceus+30[/Ctrl:NoBreak]한다."
 		}
 	}],
 

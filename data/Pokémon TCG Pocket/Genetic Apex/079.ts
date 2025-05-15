@@ -38,9 +38,10 @@ const card: Card = {
 			fr: "Si ce Pokémon a au moins 3 Énergies {W} de plus, cette attaque inflige 70 dégâts supplémentaires.",
 			es: "Si este Pokémon tiene por lo menos 3 Energías {W} adicionales unidas a él, este ataque hace 70 puntos de daño más.",
 			it: "Se questo Pokémon ha almeno 3 Energie {W} extra assegnate, questo attacco infligge 70 danni in più.",
-			de: "Wenn an dieses Pokémon mindestens 3 extra {W} Energien angelegt sind, fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			de: "Wenn an dieses Pokémon mindestens 3 extra {W}-Energien angelegt sind, fügt diese Attacke 70 Schadenspunkte mehr zu.",
 			'pt-br': "Se este Pokémon tiver pelo menos 3 Energias {W} extras ligada a ele, este ataque causará 70 pontos de dano a mais.",
-			ko: "W에너지 3개가 추가로 붙어 있다면 70데미지를 추가한다."
+			ko: "{W}에너지 3개가 추가로 붙어 있다면 70데미지를 추가한다.",
+			'pt-br': "Se este Pokémon tiver pelo menos 3 Energia {W} extra ligada a ele, este ataque causará 70 pontos de dano a mais."
 		},
 
 		damage: "20+"

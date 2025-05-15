@@ -36,17 +36,35 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Safeguard"
+			en: "Safeguard",
+			fr: "Rune Protect",
+			es: "Velo Sagrado",
+			it: "Salvaguardia",
+			de: "Bodyguard",
+			'pt-br': "Salvaguarda",
+			ko: "신비의부적"
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex."
+			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex.",
+			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon-{ex} de votre adversaire.",
+			es: "Se evita todo el daño infligido a este Pokémon por ataques de los Pokémon {ex} de tu rival.",
+			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon-{ex} del tuo avversario.",
+			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon-{ex} deines Gegners zugefügt wird.",
+			'pt-br': "Previna todo o dano causado a este Pokémon por ataques dos Pokémon {ex} do seu oponente.",
+			ko: "이 포켓몬은 상대의 「포켓몬 {ex}」로부터 기술의 데미지를 받지 않는다."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Zzzap"
+			en: "Zzzap",
+			fr: "Zzzap",
+			es: "Zumbar",
+			it: "Zzzap",
+			de: "Zzzapp!",
+			'pt-br': "Zzzap",
+			ko: "톡톡"
 		},
 
 		damage: 50,

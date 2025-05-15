@@ -51,7 +51,7 @@ const card: Card = {
 			it: "Prendi un Koffing a caso dal tuo mazzo e mettilo nella tua panchina.",
 			de: "Lege 1 zufälliges Smogon aus deinem Deck auf deine Bank.",
 			'pt-br': "Coloque 1 Koffing aleatório do seu baralho no seu Banco.",
-			ko: "자신의 덱에서 「또가스」[Gr:Patchim v=\"을/를\" ] 랜덤으로 1장 벤치로 내보낸다."
+			ko: "자신의 덱에서 「또가스」를 랜덤으로 1장 벤치로 내보낸다."
 		}
 	}],
 

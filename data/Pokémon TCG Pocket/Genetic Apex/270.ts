@@ -20,7 +20,7 @@ const card: Card = {
 	effect: {
 		en: "During this turn, attacks used by your Pokémon do +10 damage to your opponent's Active Pokémon.",
 		fr: "Pendant ce tour, les attaques de vos Pokémon infligent + 10 dégâts au Pokémon Actif de votre adversaire.",
-		es: "Durante este turno, los ataques de tus Pokémon hacen 10+10 puntos[/Ctrl:NoBreak] de daño al Pokémon Activo de tu rival.",
+		es: "Durante este turno, los ataques de tus Pokémon hacen 10+10 puntos de daño al Pokémon Activo de tu rival.",
 		it: "Durante questo turno, gli attacchi usati dai tuoi Pokémon infliggono +10 danni al Pokémon attivo del tuo avversario.",
 		de: "Während dieses Zuges fügen die Attacken deiner Pokémon dem Aktiven Pokémon deines Gegners + 10 Schadenspunkte zu.",
 		'pt-br': "Durante este turno, os ataques usados pelos seus Pokémon causam +10 pontos de dano ao Pokémon Ativo do seu oponente.",

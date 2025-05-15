@@ -25,7 +25,7 @@ const card: Card = {
 		it: "Puoi usare questa carta solo se hai Araquanid in gioco. Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 		de: "Du kannst diese Karte nur einsetzen, wenn du Aranestro im Spiel hast. Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
 		'pt-br': "Você só pode usar esta carta se tiver Araquanid em jogo.\nMande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo.",
-		ko: "이 카드는 자신의 필드에 「깨비물거미」Araquanid 있을 때만 사용할 수 있다.\n상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다."
+		ko: "이 카드는 자신의 필드에 「깨비물거미」 있을 때만 사용할 수 있다.\n상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다."
 	},
 
 	trainerType: "Supporter"

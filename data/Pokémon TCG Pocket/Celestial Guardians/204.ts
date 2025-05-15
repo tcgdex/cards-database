@@ -45,7 +45,7 @@ const card: Card = {
 			fr: "Une fois pendant votre tour, vous pouvez déplacer toute l'Énergie {P} de l'un de vos Pokémon {P} de Banc vers votre Pokémon Actif.",
 			es: "Una vez durante tu turno, puedes mover todas las Energías {P} de 1 de tus Pokémon {P} en Banca a tu Pokémon Activo.",
 			it: "Una sola volta durante il tuo turno, puoi spostare tutte le Energie {P} da uno dei tuoi Pokémon {P} in panchina al tuo Pokémon attivo.",
-			de: "Einmal während deines Zuges kannst du alle {P} Energien von 1 {P} Pokémon auf deiner Bank auf dein Aktives Pokémon verschieben.",
+			de: "Einmal während deines Zuges kannst du alle {P}-Energien von 1 {P}-Pokémon auf deiner Bank auf dein Aktives Pokémon verschieben.",
 			'pt-br': "Uma vez durante o seu turno, você pode mover todas as Energias {P} de 1 dos seus Pokémon {P} no Banco para o seu Pokémon Ativo.",
 			ko: "자신의 차례에 1번 사용할 수 있다. 자신의 벤치의 {P}포켓몬 1마리로부터 {P}에너지를 모두 배틀 포켓몬에게 바꿔 붙인다."
 		}

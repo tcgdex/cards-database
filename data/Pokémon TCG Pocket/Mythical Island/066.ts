@@ -24,7 +24,7 @@ const card: Card = {
 		it: "Riprendi in mano il tuo Mew-ex in posizione attiva.",
 		de: "Nimm dein Mew-ex in der Aktiven Position auf deine Hand.",
 		'pt-br': "Coloque seu Mew ex do Campo Ativo na sua mão.",
-		ko: "자신의 배틀필드의 「뮤 ex」Mew ex 패로 되돌린다."
+		ko: "자신의 배틀필드의 「뮤 ex」 패로 되돌린다."
 	},
 
 	trainerType: "Supporter",

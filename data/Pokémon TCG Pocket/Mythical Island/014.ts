@@ -37,13 +37,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Volcanic Ash"
+			en: "Volcanic Ash",
+			fr: "Cendres volcaniques",
+			es: "Ceniza Volcánica",
+			it: "Vulcanocenere",
+			de: "Vulkanasche",
+			'pt-br': "Cinza Vulcânica",
+			ko: "화쇄류"
 		},
 
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "Discard 2 <span class=\"energy-text energy-text--type-fire\"></span> Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon."
+			en: "Discard 2 {R} Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon.",
+			fr: "Défaussez 2 Énergie {R} de ce Pokémon. Cette attaque inflige 80 dégâts à l'un des Pokémon de votre adversaire.",
+			es: "Descarta 2 Energías {R} de este Pokémon. Este ataque hace 80 puntos de daño a 1 de los Pokémon de tu rival.",
+			it: "Rimuovi 2 Energie {R} da questo Pokémon. Questo attacco infligge 80 danni a uno dei Pokémon del tuo avversario.",
+			de: "Lege 2 {R}-Energien von diesem Pokémon ab. Diese Attacke fügt 1 Pokémon deines Gegners 80 Schadenspunkte zu.",
+			'pt-br': "Descarte 2 Energias de {R} deste Pokémon. Este ataque causa 80 pontos de dano a 1 dos Pokémon do seu oponente.",
+			ko: "이 포켓몬에서 {R}에너지를 2개 트래쉬하고 상대의 포켓몬 1마리에게 80데미지를 준다."
 		}
 	}],
 

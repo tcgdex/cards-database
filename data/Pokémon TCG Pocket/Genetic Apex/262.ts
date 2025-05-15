@@ -53,7 +53,7 @@ const card: Card = {
 			fr: "Défaussez 2 Énergies {P} de ce Pokémon.",
 			es: "Descarta 2 Energías {P} de este Pokémon.",
 			it: "Rimuovi 2 Energie {P} da questo Pokémon.",
-			de: "Lege 2 P-Energien von diesem Pokémon ab.",
+			de: "Lege 2 {P}-Energien von diesem Pokémon ab.",
 			'pt-br': "Descarte 2 Energias {P} deste Pokémon.",
 			ko: "이 포켓몬에서 {P}에너지를 2개 트래쉬한다."
 		},

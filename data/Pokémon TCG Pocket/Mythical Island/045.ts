@@ -52,7 +52,7 @@ const card: Card = {
 		effect: {
 			en: "During your opponent's next turn, this Pokémon takes −30 damage from attacks.",
 			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit − 30 dégâts provenant des attaques.",
-			es: "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño a este Pokémon.",
+			es: "Durante el próximo turno de tu rival, los ataques hacen -30 puntos de daño a este Pokémon.",
 			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce -30 danni dagli attacchi.",
 			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken − 30 Schadenspunkte zugefügt.",
 			'pt-br': "Durante o próximo turno do seu oponente, este Pokémon receberá −30 pontos de dano de ataques.",

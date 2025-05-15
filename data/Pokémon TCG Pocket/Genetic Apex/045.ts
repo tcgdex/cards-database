@@ -42,9 +42,9 @@ const card: Card = {
 			fr: "Défaussez une Énergie {R} de ce Pokémon.",
 			es: "Descarta 1 Energía {R} de este Pokémon.",
 			it: "Rimuovi un'Energia {R} da questo Pokémon.",
-			de: "Lege 1 R-Energie von diesem Pokémon ab.",
+			de: "Lege 1 {R}-Energie von diesem Pokémon ab.",
 			'pt-br': "Descarte 1 Energia {R} deste Pokémon.",
-			ko: "이 포켓몬에서 R에너지를 1개 트래쉬한다."
+			ko: "이 포켓몬에서 {R}에너지를 1개 트래쉬한다."
 		},
 
 		damage: "110"

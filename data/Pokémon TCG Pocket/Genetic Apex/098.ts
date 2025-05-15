@@ -40,11 +40,12 @@ const card: Card = {
 		effect: {
 			en: "Once during your turn, you may take a {L} Energy from your Energy Zone and attach it to this Pokémon.",
 			fr: "Une fois pendant votre tour, vous pouvez prendre une Énergie {L} de votre zone Énergie et l'attacher à ce Pokémon.",
-			es: "Una vez durante tu turno, puedes unir Energía {L} de tu área de Energía a este Pokémon.",
+			es: "Una vez durante tu turno, puedes unir 1 Energía {L} de tu área de Energía a este Pokémon.",
 			it: "Una sola volta durante il tuo turno, puoi prendere un'Energia {L} dalla tua Zona Energia e assegnarla a questo Pokémon.",
-			de: "Einmal während deines Zuges kannst du {L}-Energie aus deinem Energiebereich an dieses Pokémon anlegen.",
+			de: "Einmal während deines Zuges kannst du 1 {L}-Energie aus deinem Energiebereich an dieses Pokémon anlegen.",
 			'pt-br': "Uma vez durante o seu turno, você poderá pegar Energia {L} da sua Zona de Energia e a este Pokémon.",
-			ko: "자신의 차례에 1번 사용할 수 있다. 자신의 에너지존에서 {L}에너지를 개 내보내 이 포켓몬에게 붙인다."
+			ko: "자신의 차례에 1번 사용할 수 있다. 자신의 에너지존에서 {L}에너지를 1개 내보내 이 포켓몬에게 붙인다.",
+			'pt-br': "Uma vez durante o seu turno, você poderá pegar 1 Energia {L} da sua Zona de Energia e a este Pokémon."
 		}
 	}],
 

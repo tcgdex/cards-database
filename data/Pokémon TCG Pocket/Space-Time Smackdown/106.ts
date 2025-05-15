@@ -52,12 +52,13 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 4 coins. This attack does 40 damage for each heads. If at least 2 of them are heads, your opponent's Active Pokémon is now Poisoned.",
-			fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts pour chaque côté face. Si vous obtenez au moins 2 côtés face, le Pokémon Actif de votre adversaire est maintenant Poisoned.",
-			es: "Lanza 4 monedas. Este ataque hace 40 puntos de daño por cada cara. Si sale cara en por lo menos 2 de ellas, el Pokémon Activo de tu rival pasa a estar Poisoned.",
-			it: "Lancia una moneta 4 volte. Questo attacco infligge 40 danni ogni volta che esce testa. Se esce testa almeno 2 volte, il Pokémon attivo del tuo avversario viene Poisoned.",
-			de: "Wirf 4 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu. Wenn mindestens 2 Münzen Kopf zeigen, [Text:SpecialCondition id=\"3\" v0=\"ist das Aktive Pokémon deines Gegners jetzt {}\" v1=\"{} das Aktive Pokémon deines Gegners jetzt\" ].",
+			fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts pour chaque côté face. Si vous obtenez au moins 2 côtés face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			es: "Lanza 4 monedas. Este ataque hace 40 puntos de daño por cada cara. Si sale cara en por lo menos 2 de ellas, el Pokémon Activo de tu rival pasa a estar Envenenado.",
+			it: "Lancia una moneta 4 volte. Questo attacco infligge 40 danni ogni volta che esce testa. Se esce testa almeno 2 volte, il Pokémon attivo del tuo avversario viene avvelenato.",
+			de: "Wirf 4 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu. Wenn mindestens 2 Münzen Kopf zeigen, ist das Aktive Pokémon deines Gegners jetzt vergiftet.",
 			'pt-br': "Jogue 4 moedas. Este ataque causa 40 pontos de dano para cada cara. Se pelo menos 2 delas saírem cara, o Pokémon Ativo do seu oponente agora estará Poisoned.",
-			ko: "동전을 4번 던져서 앞면이 나온 수 × 40데미지를 준다. 앞면이 2번 이상 나오면 상대의 배틀 포켓몬을 Poisoned4로 만든다."
+			ko: "동전을 4번 던져서 앞면이 나온 수 × 40데미지를 준다. 앞면이 2번 이상 나오면 상대의 배틀 포켓몬을 독으로 만든다.",
+			'pt-br': "Jogue 4 moedas. Este ataque causa 40 pontos de dano para cada cara. Se pelo menos 2 delas saírem cara, o Pokémon Ativo do seu oponente agora estará Envenenado."
 		}
 	}],
 

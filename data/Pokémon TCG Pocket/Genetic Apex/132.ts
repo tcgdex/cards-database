@@ -42,9 +42,9 @@ const card: Card = {
 			fr: "Une fois pendant votre tour, vous pouvez prendre une Énergie {P} de votre zone Énergie et l'attacher au Pokémon {P} sur le Poste Actif.",
 			es: "Una vez durante tu turno, puedes unir 1 Energía {P} de tu área de Energía al Pokémon {P} en el Puesto Activo.",
 			it: "Una sola volta durante il tuo turno, puoi prendere un'Energia {P} dalla tua Zona Energia e assegnarla al Pokémon {P} in posizione attiva.",
-			de: "Einmal während deines Zuges kannst du 1 P-Energie aus deinem Energiebereich an dein Aktives {P}-Pokémon anlegen.",
+			de: "Einmal während deines Zuges kannst du 1 {P}-Energie aus deinem Energiebereich an dein Aktives {P}-Pokémon anlegen.",
 			'pt-br': "Uma vez durante o seu turno, você poderá pegar 1 Energia {P} da sua Zona de Energia e ligá-la ao Pokémon {P} no Campo Ativo.",
-			ko: "자신의 차례에 1번 사용할 수 있다. 자신의 에너지존에서 P에너지를 1개 내보내 배틀필드의 {P}포켓몬에게 붙인다."
+			ko: "자신의 차례에 1번 사용할 수 있다. 자신의 에너지존에서 {P}에너지를 1개 내보내 배틀필드의 {P}포켓몬에게 붙인다."
 		}
 	}],
 

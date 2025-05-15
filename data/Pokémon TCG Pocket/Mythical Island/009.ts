@@ -33,14 +33,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Energy Whip"
+			en: "Energy Whip",
+			fr: "Fouet d'Énergie",
+			es: "Látigo Energético",
+			it: "Frustata Energetica",
+			de: "Energiepeitsche",
+			'pt-br': "Chicote Energético",
+			ko: "에너지휩"
 		},
 
 		damage: "20+",
 		cost: ["Grass"],
 
 		effect: {
-			en: "If this Pokémon has at least 3 extra <span class=\"energy-text energy-text--type-grass\"></span> Energy attached, this attack does 70 more damage."
+			en: "If this Pokémon has at least 3 extra {G} Energy attached, this attack does 70 more damage.",
+			fr: "Si ce Pokémon a au moins 3 Énergies {G} de plus, cette attaque inflige 70 dégâts supplémentaires.",
+			es: "Si este Pokémon tiene por lo menos 3 Energías {G} adicionales unidas a él, este ataque hace 70 puntos de daño más.",
+			it: "Se questo Pokémon ha almeno 3 Energie {G} extra assegnate, questo attacco infligge 70 danni in più.",
+			de: "Wenn an dieses Pokémon mindestens 3 extra {G}-Energien angelegt sind, fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			'pt-br': "Se este Pokémon tiver pelo menos 3 Energia {G} extra ligada a ele, este ataque causará 70 pontos de dano a mais.",
+			ko: "{G}에너지 3개가 추가로 붙어 있다면 70데미지를 추가한다."
 		}
 	}],
 

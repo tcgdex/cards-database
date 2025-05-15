@@ -24,7 +24,13 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Mud-Slap"
+			en: "Mud-Slap",
+			fr: "Coud'Boue",
+			es: "Bofetón Lodo",
+			it: "Fangosberla",
+			de: "Lehmschelle",
+			'pt-br': "Tapa de Lama",
+			ko: "진흙뿌리기"
 		},
 
 		damage: "20"

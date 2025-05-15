@@ -47,12 +47,13 @@ const card: Card = {
 
 		effect: {
 			en: "As long as this Pokémon is in the Active Spot, whenever you attach an Energy from your Energy Zone to it, it is now Asleep.",
-			fr: "Tant que ce Pokémon est sur le Poste Actif, lorsque vous lui attachez une Énergie de votre zone Énergie, il est désormais Asleep.",
-			es: "Mientras este Pokémon esté en el Puesto Activo, cada vez que le unas 1 Energía de tu área de Energía, pasa a estar Asleep.",
-			it: "Fintanto che questo Pokémon è in posizione attiva, ogni volta che gli assegni un'Energia dalla tua Zona Energia, il Pokémon viene Asleep.",
-			de: "Jedes Mal, wenn du 1 Energie aus dem Energiebereich an dieses Pokémon anlegst und es sich in der Aktiven Position befindet, [Text:SpecialCondition v0=\"ist dieses Pokémon jetzt {}\" v1=\"{} dieses Pokémon jetzt\" ].",
+			fr: "Tant que ce Pokémon est sur le Poste Actif, lorsque vous lui attachez une Énergie de votre zone Énergie, il est désormais Endormi.",
+			es: "Mientras este Pokémon esté en el Puesto Activo, cada vez que le unas 1 Energía de tu área de Energía, pasa a estar Dormido.",
+			it: "Fintanto che questo Pokémon è in posizione attiva, ogni volta che gli assegni un'Energia dalla tua Zona Energia, il Pokémon viene addormentato.",
+			de: "Jedes Mal, wenn du 1 Energie aus dem Energiebereich an dieses Pokémon anlegst und es sich in der Aktiven Position befindet, ist dieses Pokémon jetzt schläft.",
 			'pt-br': "Enquanto este Pokémon estiver no Campo Ativo, sempre que você ligar uma Energia da sua Zona de Energia a ele, ele agora estará Asleep.",
-			ko: "이 포켓몬이 배틀필드에 있는 한, 자신의 에너지존에서 이 포켓몬에게 에너지를 붙일 때마다 이 포켓몬을 AsleepAsleep로 만든다."
+			ko: "이 포켓몬이 배틀필드에 있는 한, 자신의 에너지존에서 이 포켓몬에게 에너지를 붙일 때마다 이 포켓몬을 잠듦으로 만든다.",
+			'pt-br': "Enquanto este Pokémon estiver no Campo Ativo, sempre que você ligar uma Energia da sua Zona de Energia a ele, ele agora estará Adormecido."
 		}
 	}],
 

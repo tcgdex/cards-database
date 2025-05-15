@@ -33,13 +33,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Growth Spurt"
+			en: "Growth Spurt",
+			fr: "Jaillissement",
+			es: "Crecimiento Repentino",
+			it: "Crescita Inaspettata",
+			de: "Wachstumsschub",
+			'pt-br': "Estirão",
+			ko: "조금성장"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Take a <span class=\"energy-text energy-text--type-grass\"></span> Energy from your Energy Zone and attach it to this Pokémon."
+			en: "Take a {G} Energy from your Energy Zone and attach it to this Pokémon.",
+			fr: "Prenez une Énergie {G} de votre zone Énergie et attachez-la à ce Pokémon.",
+			es: "Une 1 Energía {G} de tu área de Energía a este Pokémon.",
+			it: "Prendi un'Energia {G} dalla tua Zona Energia e assegnala a questo Pokémon.",
+			de: "Lege 1 {G}-Energie aus deinem Energiebereich an dieses Pokémon an.",
+			'pt-br': "Pegue 1 Energia {G} da sua Zona de Energia e ligue-a a este Pokémon.",
+			ko: "자신의 에너지존에서 {G}에너지를 1개 내보내 이 포켓몬에게 붙인다."
 		}
 	}],
 

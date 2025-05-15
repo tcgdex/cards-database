@@ -56,7 +56,7 @@ const card: Card = {
 			it: "Una sola volta durante il tuo turno, se hai in gioco Arceus o Arceus-ex, puoi infliggere 30 danni al Pokémon attivo del tuo avversario.",
 			de: "Wenn du Arceus oder Arceus-ex im Spiel hast, kannst du einmal während deines Zuges dem Aktiven Pokémon deines Gegners 30 Schadenspunkte zufügen.",
 			'pt-br': "Uma vez durante o seu turno, se você tiver Arceus ou Arceus ex em jogo, você poderá causar 30 pontos de dano ao Pokémon Ativo do seu oponente.",
-			ko: "자신의 필드에 「아르세우스」 또는 「아르세우스 ex」Arceus 있다면 자신의 차례에 1번 사용할 수 있다. 상대의 배틀 포켓몬에게 30데미지를 준다."
+			ko: "자신의 필드에 「아르세우스」 또는 「아르세우스 ex」 있다면 자신의 차례에 1번 사용할 수 있다. 상대의 배틀 포켓몬에게 30데미지를 준다."
 		}
 	}],
 

@@ -52,7 +52,7 @@ const card: Card = {
 		effect: {
 			en: "If any damage is done to this Pokémon by attacks, flip a coin. If heads, this Pokémon takes −100 damage from that attack.",
 			fr: "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c'est face, ce Pokémon subit − 100 dégâts provenant de cette attaque.",
-			es: "Si se inflige cualquier daño a este Pokémon por ataques, lanza 1 moneda. Si sale cara, dicho ataque hace 100 puntos de daño.",
+			es: "Si se inflige cualquier daño a este Pokémon por ataques, lanza 1 moneda. Si sale cara, dicho ataque hace -100 puntos de daño.",
 			it: "Se questo Pokémon subisce danni da qualsiasi attacco, lancia una moneta. Se esce testa, questo Pokémon subisce -100 danni da quell'attacco.",
 			de: "Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1 Münze. Bei Kopf werden diesem Pokémon durch diese Attacke − 100 Schadenspunkte zugefügt.",
 			'pt-br': "Se qualquer dano for causado a este Pokémon por ataques, jogue uma moeda. Se sair cara, este Pokémon receberá −100 pontos de dano daquele ataque.",

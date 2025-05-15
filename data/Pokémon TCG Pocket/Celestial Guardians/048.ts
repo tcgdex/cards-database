@@ -54,7 +54,7 @@ const card: Card = {
 			fr: "Une fois pendant votre tour, vous pouvez soigner 30 dégâts de chacun de vos Pokémon {W}.",
 			es: "Una vez durante tu turno, puedes curar 30 puntos de daño a cada uno de tus Pokémon {W}.",
 			it: "Una sola volta durante il tuo turno, puoi curare ciascuno dei tuoi Pokémon {W} da 30 danni.",
-			de: "Einmal während deines Zuges kannst du 30 Schadenspunkte bei jedem deiner {W} Pokémon heilen.",
+			de: "Einmal während deines Zuges kannst du 30 Schadenspunkte bei jedem deiner {W}-Pokémon heilen.",
 			'pt-br': "Uma vez durante o seu turno, você poderá curar 30 pontos de dano de cada um dos seus Pokémon {W}.",
 			ko: "자신의 차례에 1번 사용할 수 있다. 자신의 {W}포켓몬 전원의 HP를 30회복."
 		}

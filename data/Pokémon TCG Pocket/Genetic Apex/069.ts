@@ -29,12 +29,22 @@ const card: Card = {
 
 		name: {
 			en: "KO Crab",
-			fr: "Crabe Fatal"
+			fr: "Crabe Fatal",
+			es: "Pinza Letal",
+			it: "Chela Micidiale",
+			de: "K.O.-Krabbe",
+			'pt-br': "Nocaute Caranguejo",
+			ko: "필살크랩"
 		},
 
 		effect: {
 			en: "Flip 2 coins. If both of them are heads, this attack does 80 more damage.",
-			fr: "Lancez 2 pièces. Si toutes sont côté face, cette attaque inflige 80 dégâts de plus."
+			fr: "Lancez 2 pièces. Si toutes sont côté face, cette attaque inflige 80 dégâts de plus.",
+			es: "Lanza 2 monedas. Si en las dos sale cara, este ataque hace 80 puntos de daño más.",
+			it: "Lancia 2 volte una moneta. Se esce testa entrambe le volte, questo attacco infligge 80 danni in più.",
+			de: "Wirf 2 Münzen. Zeigen beide Münzen Kopf, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			'pt-br': "Jogue 2 moedas. Se as duas saírem cara, este ataque causará 80 pontos de dano a mais.",
+			ko: "동전을 2번 던져서 모두 앞면이 나오면 80데미지를 추가한다."
 		},
 
 		damage: "80+"

@@ -51,7 +51,7 @@ const card: Card = {
 			fr: "Échangez ce Pokémon avec un de vos Pokémon {L} de Banc.",
 			es: "Cambia este Pokémon por 1 de tus Pokémon {L} en Banca.",
 			it: "Scambia questo Pokémon con un Pokémon {L} della tua panchina.",
-			de: "Tausche dieses Pokémon gegen 1 {L} Pokémon auf deiner Bank aus.",
+			de: "Tausche dieses Pokémon gegen 1 {L}-Pokémon auf deiner Bank aus.",
 			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon {L} no Banco.",
 			ko: "이 포켓몬을 벤치의 {L}포켓몬과 교체한다."
 		}

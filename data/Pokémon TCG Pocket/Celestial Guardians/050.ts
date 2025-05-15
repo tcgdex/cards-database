@@ -52,7 +52,7 @@ const card: Card = {
 			it: "Prendi un Wishiwashi o Wishiwashi-ex a caso dal tuo mazzo e mettilo nella tua panchina.",
 			de: "Lege von den Karten Lusardin und Lusardin-ex 1 zufällige aus deinem Deck auf deine Bank.",
 			'pt-br': "Coloque 1 carta aleatória dentre Wishiwashi ou Wishiwashi ex do seu baralho no seu Banco.",
-			ko: "자신의 덱에서 「약어리」 또는 「약어리 ex」Wishiwashi 랜덤으로 1장 벤치로 내보낸다."
+			ko: "자신의 덱에서 「약어리」 또는 「약어리 ex」 랜덤으로 1장 벤치로 내보낸다."
 		}
 	}],
 

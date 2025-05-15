@@ -40,7 +40,7 @@ const card: Card = {
 			fr: "Si ce Pokémon est sur le Poste Actif et qu'il est mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire, déplacez toute l'Énergie {F} de ce Pokémon vers l'un de vos Pokémon de Banc.",
 			es: "Si este Pokémon está en el Puesto Activo y queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, mueve todas las Energías {F} de este Pokémon a 1 de tus Pokémon en Banca.",
 			it: "Se questo Pokémon è in posizione attiva e viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, sposta tutte le Energie {F} da questo Pokémon a uno di quelli nella tua panchina.",
-			de: "Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, verschiebe alle {F} Energien von diesem Pokémon auf 1 Pokémon auf deiner Bank.",
+			de: "Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, verschiebe alle {F}-Energien von diesem Pokémon auf 1 Pokémon auf deiner Bank.",
 			'pt-br': "Se este Pokémon estiver no Campo Ativo e for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, mova todas as Energias {F} deste Pokémon para 1 dos seus Pokémon no Banco.",
 			ko: "이 포켓몬이 배틀필드에서 상대의 포켓몬으로부터 기술의 데미지를 받아 기절했을 때 이 포켓몬에서 {F}에너지를 모두 벤치 포켓몬 1마리에게 바꿔 붙인다."
 		}

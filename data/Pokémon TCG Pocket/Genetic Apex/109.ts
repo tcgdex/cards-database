@@ -40,11 +40,12 @@ const card: Card = {
 		effect: {
 			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralyzed.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene Paralyzed.",
-			de: "Wirf 1 Münze. Bei Kopf [Text:SpecialCondition v0=\"ist das Aktive Pokémon deines Gegners jetzt {}\" v1=\"{} das Aktive Pokémon deines Gegners jetzt\" ].",
+			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
 			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralyzed.",
-			ko: "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 Paralyzed[Gr:Patchim v=\"으로/로\" ] 만든다."
+			ko: "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
 		},
 
 		damage: "80"

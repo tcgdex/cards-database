@@ -34,14 +34,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ice Shard"
+			en: "Ice Shard",
+			fr: "Éclats Glace",
+			es: "Esquirla Helada",
+			it: "Geloscheggia",
+			de: "Eissplitter",
+			'pt-br': "Caco de Gelo",
+			ko: "얼음뭉치"
 		},
 
 		damage: "10+",
 		cost: ["Water"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a <span class=\"energy-text energy-text--type-fighting\"></span> Pokémon, this attack does 30 more damage."
+			en: "If your opponent's Active Pokémon is a {F} Pokémon, this attack does 30 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon {F}, cette attaque inflige 30 dégâts supplémentaires.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon {F}, este ataque hace 30 puntos de daño más.",
+			it: "Se il Pokémon attivo del tuo avversario è un Pokémon {F}, questo attacco infligge 30 danni in più.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein {F}-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon {F}, este ataque causará 30 pontos de dano a mais.",
+			ko: "상대의 배틀 포켓몬이 {F}포켓몬이라면 30데미지를 추가한다."
 		}
 	}],
 

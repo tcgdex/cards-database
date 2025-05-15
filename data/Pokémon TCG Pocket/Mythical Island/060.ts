@@ -33,14 +33,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fighting Tackle"
+			en: "Fighting Tackle",
+			fr: "Charge Combative",
+			es: "Placaje Lucha",
+			it: "Azione da Combattente",
+			de: "Kampf-Tackle",
+			'pt-br': "Investida de Luta",
+			ko: "투지의태클"
 		},
 
 		damage: "40+",
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Pokémon  more damage."
+			en: "If your opponent’s Active Pokémon is a Pokémon {ex}, this attack does 80 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-{ex}, cette attaque inflige 80 dégâts supplémentaires.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon {ex}, este ataque hace 80 puntos de daño más.",
+			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-{ex}, questo attacco infligge 80 danni in più.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-{ex} ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon {ex}, este ataque causará 80 pontos de dano a mais.",
+			ko: "상대의 배틀 포켓몬이 「포켓몬 {ex}」라면 80데미지를 추가한다."
 		}
 	}],
 

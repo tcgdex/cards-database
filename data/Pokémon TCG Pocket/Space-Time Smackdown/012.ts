@@ -38,14 +38,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Frenzy Plant"
+			en: "Frenzy Plant",
+			fr: "Végé-Attaque",
+			es: "Planta Feroz",
+			it: "Radicalbero",
+			de: "Flora-Statue",
+			'pt-br': "Planta Mortal",
+			ko: "하드플랜트"
 		},
 
 		damage: 150,
 		cost: ["Grass", "Grass", "Colorless", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use ."
+			en: "During your next turn, this Pokémon can't use Frenzy Plant.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Végé-Attaque.",
+			es: "Durante tu próximo turno, este Pokémon no puede usar Planta Feroz.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Radicalbero.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Flora-Statue nicht einsetzen.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Planta Mortal.",
+			ko: "자신의 다음 차례에 이 포켓몬은 「하드플랜트」 사용할 수 없다."
 		}
 	}],
 

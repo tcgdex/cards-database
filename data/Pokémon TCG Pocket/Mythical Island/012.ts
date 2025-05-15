@@ -33,14 +33,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fire Blast"
+			en: "Fire Blast",
+			fr: "Déflagration",
+			es: "Llamarada",
+			it: "Fuocobomba",
+			de: "Feuersturm",
+			'pt-br': "Rajada de Fogo",
+			ko: "불대문자"
 		},
 
 		damage: 80,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "Discard 2 <span class=\"energy-text energy-text--type-fire\"></span> Energy from this Pokémon."
+			en: "Discard 2 {R} Energy from this Pokémon.",
+			fr: "Défaussez 2 Énergies {R} de ce Pokémon.",
+			es: "Descarta 2 Energías {R} de este Pokémon.",
+			it: "Rimuovi 2 Energie {R} da questo Pokémon.",
+			de: "Lege 2 {R}-Energien von diesem Pokémon ab.",
+			'pt-br': "Descarte 2 Energias {R} deste Pokémon.",
+			ko: "이 포켓몬에서 {R}에너지를 2개 트래쉬한다."
 		}
 	}],
 

@@ -43,12 +43,13 @@ const card: Card = {
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Burned.",
-			es: "El Pokémon Activo de tu rival pasa a estar Burned.",
-			it: "Il Pokémon attivo del tuo avversario viene Burned.",
-			de: "Das Aktive Pokémon deines Gegners [Text:SpecialCondition v0=\"ist jetzt {}\" v1=\"{} jetzt\" ].",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Burned.",
-			ko: "상대의 배틀 포켓몬을 Burned[Gr:Patchim v=\"으로/로\" ] 만든다."
+			ko: "상대의 배틀 포켓몬을 화상으로 만든다.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado."
 		}
 	}, {
 		name: {

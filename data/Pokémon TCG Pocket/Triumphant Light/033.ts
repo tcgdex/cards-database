@@ -52,12 +52,13 @@ const card: Card = {
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Asleep.",
-			es: "El Pokémon Activo de tu rival pasa a estar Asleep.",
-			it: "Il Pokémon attivo del tuo avversario viene Asleep.",
-			de: "Das Aktive Pokémon deines Gegners [Text:SpecialCondition v0=\"ist jetzt {}\" v1=\"{} jetzt\" ].",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt schläft.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Asleep.",
-			ko: "상대의 배틀 포켓몬을 Asleep[Gr:Patchim v=\"으로/로\" ] 만든다."
+			ko: "상대의 배틀 포켓몬을 잠듦으로 만든다.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido."
 		}
 	}],
 

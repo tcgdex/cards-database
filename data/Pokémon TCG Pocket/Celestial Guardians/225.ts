@@ -55,7 +55,7 @@ const card: Card = {
 			fr: "Si ce Pokémon a au moins 2 Énergies {F} de plus, cette attaque inflige 50 dégâts supplémentaires.",
 			es: "Si este Pokémon tiene por lo menos 2 Energías {F} adicionales unidas a él, este ataque hace 50 puntos de daño más.",
 			it: "Se questo Pokémon ha almeno 2 Energie {F} extra assegnate, questo attacco infligge 50 danni in più.",
-			de: "Wenn an dieses Pokémon mindestens 2 extra {F} Energien angelegt sind, fügt diese Attacke 50 Schadenspunkte mehr zu.",
+			de: "Wenn an dieses Pokémon mindestens 2 extra {F}-Energien angelegt sind, fügt diese Attacke 50 Schadenspunkte mehr zu.",
 			'pt-br': "Se este Pokémon tiver pelo menos 2 Energias {F} extras ligada a ele, este ataque causará 50 pontos de dano a mais.",
 			ko: "{F}에너지 2개가 추가로 붙어 있다면 50데미지를 추가한다.",
 			'pt-br': "Se este Pokémon tiver pelo menos 2 Energia {F} extra ligada a ele, este ataque causará 50 pontos de dano a mais."

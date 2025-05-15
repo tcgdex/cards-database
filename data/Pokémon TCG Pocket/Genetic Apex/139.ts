@@ -25,7 +25,12 @@ const card: Card = {
 
 		name: {
 			en: "Mud-Slap",
-			fr: "Coud'Boue"
+			fr: "Coud'Boue",
+			es: "Bofetón Lodo",
+			it: "Fangosberla",
+			de: "Lehmschelle",
+			'pt-br': "Tapa de Lama",
+			ko: "진흙뿌리기"
 		},
 
 		damage: "20"

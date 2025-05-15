@@ -74,9 +74,9 @@ const card: Card = {
 		effect: {
 			en: "This Pokémon takes −30 damage from attacks from {F} Pokémon.",
 			fr: "Ce Pokémon subit − 30 dégâts provenant des attaques des Pokémon {F}.",
-			es: "Los ataques de Pokémon {F} hacen 30 puntos de daño a este Pokémon.",
+			es: "Los ataques de Pokémon {F} hacen -30 puntos de daño a este Pokémon.",
 			it: "Questo Pokémon subisce -30 danni dagli attacchi dei Pokémon {F}.",
-			de: "Diesem Pokémon werden durch Attacken von {F} Pokémon − 30 Schadenspunkte zugefügt.",
+			de: "Diesem Pokémon werden durch Attacken von {F}-Pokémon − 30 Schadenspunkte zugefügt.",
 			'pt-br': "Este Pokémon recebe −30 pontos de dano de ataques de Pokémon .",
 			ko: "이 포켓몬이 {F}포켓몬으로부터 받는 기술의 데미지를 -30한다.",
 			'pt-br': "Este Pokémon recebe −30 pontos de dano de ataques de Pokémon {F}."

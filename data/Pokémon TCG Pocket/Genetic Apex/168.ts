@@ -28,12 +28,22 @@ const card: Card = {
 
 		name: {
 			en: "Lovestrike",
-			fr: "Coup de Foudre"
+			fr: "Coup de Foudre",
+			es: "Flechazo",
+			it: "Colpo di Fulmine",
+			de: "Liebestaumel",
+			'pt-br': "Ataque de Amor",
+			ko: "러브러브어택"
 		},
 
 		effect: {
 			en: "This attack does 50 more damage for each of your Benched Nidoking.",
-			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque Nidoking sur votre Banc."
+			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque Nidoking sur votre Banc.",
+			es: "Este ataque hace 50 puntos de daño más por cada uno de tus Nidoking en Banca.",
+			it: "Questo attacco infligge 50 danni in più per ogni Nidoking nella tua panchina.",
+			de: "Diese Attacke fügt für jedes Nidoking auf deiner Bank 50 Schadenspunkte mehr zu.",
+			'pt-br': "Este ataque causa 50 pontos de dano a mais para cada um dos seus Nidoking no Banco.",
+			ko: "자신의 벤치의 「니드킹」의 수 × 50데미지를 추가한다."
 		},
 
 		damage: "80+"

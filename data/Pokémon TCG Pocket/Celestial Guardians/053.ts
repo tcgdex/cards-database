@@ -52,12 +52,13 @@ const card: Card = {
 
 		effect: {
 			en: "If your opponent's Active Pokémon is a Basic Pokémon, this attack does 60 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Basic, cette attaque inflige 60 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Basic, este ataque hace 60 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Basic, questo attacco infligge 60 danni in più.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Basic Pokémon ist, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de base, cette attaque inflige 60 dégâts supplémentaires.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon Básico, este ataque hace 60 puntos de daño más.",
+			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Base, questo attacco infligge 60 danni in più.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, fügt diese Attacke 60 Schadenspunkte mehr zu.",
 			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Basic, este ataque causará 60 pontos de dano a mais.",
-			ko: "상대의 배틀 포켓몬이 Basic포켓몬이라면 60데미지를 추가한다."
+			ko: "상대의 배틀 포켓몬이 기본 포켓몬i_라면 60데미지를 추가한다.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, este ataque causará 60 pontos de dano a mais."
 		}
 	}],
 

@@ -28,12 +28,22 @@ const card: Card = {
 
 		name: {
 			en: "Primal Wingbeat",
-			fr: "Aile Primitive"
+			fr: "Aile Primitive",
+			es: "Aleteo Primigenio",
+			it: "Folata Primordiale",
+			de: "Antikschwinge",
+			'pt-br': "Ataque de Asa Primitivo",
+			ko: "원시의날갯짓"
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, your opponent shuffles their Active Pokémon into their deck.",
-			fr: "Lancez une pièce. Si c'est face, votre adversaire mélange son Pokémon Actif avec son deck."
+			fr: "Lancez une pièce. Si c'est face, votre adversaire mélange son Pokémon Actif avec son deck.",
+			es: "Lanza 1 moneda. Si sale cara, tu rival pone su Pokémon Activo de nuevo en su baraja y baraja todas las cartas.",
+			it: "Lancia una moneta. Se esce testa, il tuo avversario rimischia il suo Pokémon attivo nel suo mazzo.",
+			de: "Wirf 1 Münze. Bei Kopf mischt dein Gegner sein Aktives Pokémon in sein Deck.",
+			'pt-br': "Jogue uma moeda. Se sair cara, seu oponente embaralhará o Pokémon Ativo dele no baralho dele.",
+			ko: "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 덱으로 되돌린다."
 		}
 	}],
 

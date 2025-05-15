@@ -38,14 +38,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Overdrive Smash"
+			en: "Overdrive Smash",
+			fr: "Boost Atomisant",
+			es: "Sacudida Superdirecta",
+			it: "Devastacolpo",
+			de: "Turbosmash",
+			'pt-br': "Golpe Exaustivo",
+			ko: "오버스매시"
 		},
 
 		damage: 60,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "During your next turn, this Pokémon's  attack does +60 damage."
+			en: "During your next turn, this Pokémon's Overdrive Smash attack does +60 damage.",
+			fr: "Pendant votre prochain tour, l'attaque Boost Atomisant de ce Pokémon inflige + 60 dégâts.",
+			es: "Durante tu próximo turno, el ataque Sacudida Superdirecta de este Pokémon hace Overdrive Smash+60 puntos[/Ctrl:NoBreak] de daño.",
+			it: "Durante il tuo prossimo turno, l'attacco Devastacolpo di questo Pokémon infligge +60 danni.",
+			de: "Während deines nächsten Zuges fügt die Attacke Turbosmash von diesem Pokémon + 60 Schadenspunkte zu.",
+			'pt-br': "Durante o seu próximo turno, o ataque Golpe Exaustivo deste Pokémon causará + 60 pontos de dano.",
+			ko: "자신의 다음 차례에 이 포켓몬의 「오버스매시」의 데미지를 +60한다."
 		}
 	}],
 

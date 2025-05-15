@@ -52,7 +52,7 @@ const card: Card = {
 			it: "Se hai in gioco Arceus o Arceus-ex, questo Pokémon non ha costo di ritirata.",
 			de: "Wenn du Arceus oder Arceus-ex im Spiel hast, hat dieses Pokémon keine Rückzugskosten.",
 			'pt-br': "Se você tiver Arceus ou Arceus ex em jogo, este Pokémon não terá custo de Recuo.",
-			ko: "자신의 필드에 「아르세우스」 또는 「아르세우스 ex」Arceus 있다면 이 포켓몬의 후퇴에 필요한 에너지를 모두 없앤다."
+			ko: "자신의 필드에 「아르세우스」 또는 「아르세우스 ex」 있다면 이 포켓몬의 후퇴에 필요한 에너지를 모두 없앤다."
 		}
 	}],
 

@@ -34,14 +34,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Iron Beam Breaker"
+			en: "Iron Beam Breaker",
+			fr: "Broyeur d'Acier",
+			es: "Acerañicos",
+			it: "Spaccametallo",
+			de: "Stahlgerüstbrecher",
+			'pt-br': "Quebrador de Viga Férrea",
+			ko: "철골깨기"
 		},
 
 		damage: "20+",
 		cost: ["Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a <span class=\"energy-text energy-text--type-metal\"></span> Pokémon, this attack does 30 more damage."
+			en: "If your opponent's Active Pokémon is a {M} Pokémon, this attack does 30 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon {M}, cette attaque inflige 30 dégâts supplémentaires.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon {M}, este ataque hace 30 puntos de daño más.",
+			it: "Se il Pokémon attivo del tuo avversario è un Pokémon {M}, questo attacco infligge 30 danni in più.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein {M}-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon {M}, este ataque causará 30 pontos de dano a mais.",
+			ko: "상대의 배틀 포켓몬이 {M}포켓몬이라면 30데미지를 추가한다."
 		}
 	}],
 

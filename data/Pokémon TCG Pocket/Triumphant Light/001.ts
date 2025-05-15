@@ -34,14 +34,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Single-Horn Throw"
+			en: "Single-Horn Throw",
+			fr: "Lancer Unicorne",
+			es: "Lanzamiento Cuerno",
+			it: "Lancio Monocorno",
+			de: "Einzelhornwurf",
+			'pt-br': "Arremesso Unicórnio",
+			ko: "한판던지기"
 		},
 
 		damage: "50+",
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. If both of them are heads, this attack does 70 more damage."
+			en: "Flip 2 coins. If both of them are heads, this attack does 70 more damage.",
+			fr: "Lancez 2 pièces. Si toutes sont côté face, cette attaque inflige 70 dégâts de plus.",
+			es: "Lanza 2 monedas. Si en las dos sale cara, este ataque hace 70 puntos de daño más.",
+			it: "Lancia 2 volte una moneta. Se esce testa entrambe le volte, questo attacco infligge 70 danni in più.",
+			de: "Wirf 2 Münzen. [Gr:Count p=\"Zeigen alle Münzen Kopf,\" one=\"Bei Kopf\" two=\"Zeigen beide Münzen Kopf,\" ] fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			'pt-br': "Jogue 2 moedas. Se as duas saírem cara, este ataque causará 70 pontos de dano a mais.",
+			ko: "동전을 2번 던져서 모두 앞면이 나오면 70데미지를 추가한다."
 		}
 	}],
 

@@ -38,9 +38,9 @@ const card: Card = {
 			fr: "Prenez une Énergie {M} de votre zone Énergie et attachez-la à ce Pokémon.",
 			es: "Une 1 Energía {M} de tu área de Energía a este Pokémon.",
 			it: "Prendi un'Energia {M} dalla tua Zona Energia e assegnala a questo Pokémon.",
-			de: "Lege 1 M-Energie aus deinem Energiebereich an dieses Pokémon an.",
+			de: "Lege 1 {M}-Energie aus deinem Energiebereich an dieses Pokémon an.",
 			'pt-br': "Pegue 1 Energia {M} da sua Zona de Energia e ligue-a a este Pokémon.",
-			ko: "자신의 에너지존에서 M에너지를 1개 내보내 이 포켓몬에게 붙인다."
+			ko: "자신의 에너지존에서 {M}에너지를 1개 내보내 이 포켓몬에게 붙인다."
 		}
 	}],
 

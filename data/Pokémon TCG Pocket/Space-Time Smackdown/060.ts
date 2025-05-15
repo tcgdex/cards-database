@@ -38,13 +38,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Volt Bolt"
+			en: "Volt Bolt",
+			fr: "Flèche Survoltée",
+			es: "Flecha Eléctrica",
+			it: "Lampovolt",
+			de: "Strombolzen",
+			'pt-br': "Raio de Energia",
+			ko: "볼티지애로"
 		},
 
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		effect: {
-			en: "Discard all <span class=\"energy-text energy-text--type-lightning\"></span> Energy from this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon."
+			en: "Discard all {L} Energy from this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon.",
+			fr: "Défaussez toutes les Énergies {L} de ce Pokémon. Cette attaque inflige 120 dégâts à l'un des Pokémon de votre adversaire.",
+			es: "Descarta todas las Energías {L} de este Pokémon. Este ataque hace 120 puntos de daño a 1 de los Pokémon de tu rival.",
+			it: "Rimuovi tutte le Energie {L} da questo Pokémon. Questo attacco infligge 120 danni a uno dei Pokémon del tuo avversario.",
+			de: "Lege alle {L}-Energien von diesem Pokémon ab. Diese Attacke fügt 1 Pokémon deines Gegners 120 Schadenspunkte zu.",
+			'pt-br': "Descarte todas as Energias {L} deste Pokémon. Este ataque causa 120 pontos de dano a 1 dos Pokémon do seu oponente.",
+			ko: "이 포켓몬에서 {L}에너지를 모두 트래쉬하고 상대의 포켓몬 1마리에게 120데미지를 준다."
 		}
 	}],
 

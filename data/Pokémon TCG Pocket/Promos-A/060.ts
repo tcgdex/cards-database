@@ -48,12 +48,13 @@ const card: Card = {
 		effect: {
 			en: "Take a {G} Energy from your Energy Zone and attach it to this Pokémon.",
 			fr: "Prenez une Énergie {G} de votre zone Énergie et attachez-la à ce Pokémon.",
-			es: "Une 1 Energía de tu área de Energía a este Pokémon.",
-			it: "Prendi un'Energia dalla tua Zona Energia e assegnala a questo Pokémon.",
-			de: "Lege 1 -Energie aus deinem Energiebereich an dieses Pokémon an.",
+			es: "Une 1 Energía {G} de tu área de Energía a este Pokémon.",
+			it: "Prendi un'Energia {G} dalla tua Zona Energia e assegnala a questo Pokémon.",
+			de: "Lege 1 {G}-Energie aus deinem Energiebereich an dieses Pokémon an.",
 			'pt-br': "Pegue Energia da sua Zona de Energia e ligue-a a este Pokémon.",
-			ko: "자신의 에너지존에서 에너지를 1개 내보내 이 포켓몬에게 붙인다.",
-			'pt-br': "Pegue 1 Energia da sua Zona de Energia e ligue-a a este Pokémon."
+			ko: "자신의 에너지존에서 {G}에너지를 1개 내보내 이 포켓몬에게 붙인다.",
+			'pt-br': "Pegue 1 Energia da sua Zona de Energia e ligue-a a este Pokémon.",
+			'pt-br': "Pegue 1 Energia {G} da sua Zona de Energia e ligue-a a este Pokémon."
 		}
 	}],
 

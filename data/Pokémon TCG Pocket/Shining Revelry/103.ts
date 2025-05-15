@@ -52,7 +52,8 @@ const card: Card = {
 			it: "Prendi un'Energia {L} dalla tua Zona Energia e assegnala a uno dei tuoi Pokémon in panchina.",
 			de: "Lege 1 {L}-Energie aus deinem Energiebereich an 1 Pokémon auf deiner Bank an.",
 			'pt-br': "Pegue 1 Energia {L} da sua Zona de Energia e a 1 dos seus Pokémon no Banco.",
-			ko: "자신의 에너지존에서 {L}에너지를 1개 내보내 벤치의 포켓몬에게 붙인다."
+			ko: "자신의 에너지존에서 {L}에너지를 1개 내보내 벤치 포켓몬에게 붙인다.",
+			'pt-br': "Pegue uma Energia {L} da sua Zona de Energia e ligue-a 1 dos seus Pokémon no Banco."
 		}
 	}],
 

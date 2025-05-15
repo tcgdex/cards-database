@@ -52,7 +52,7 @@ const card: Card = {
 			it: "Prendi un Weedle a caso dal tuo mazzo e mettilo nella tua panchina.",
 			de: "Lege 1 zufälliges Hornliu aus deinem Deck auf deine Bank.",
 			'pt-br': "Coloque 1 Weedle aleatório do seu baralho no seu Banco.",
-			ko: "자신의 덱에서 「뿔충이」[Gr:Patchim v=\"을/를\" ] 랜덤으로 1장 벤치로 내보낸다."
+			ko: "자신의 덱에서 「뿔충이」를 랜덤으로 1장 벤치로 내보낸다."
 		}
 	}],
 

@@ -25,7 +25,7 @@ const card: Card = {
 		it: "Durante questo turno, gli attacchi usati dal tuo Garchomp o Togekiss infliggono +50 danni al Pokémon attivo del tuo avversario.",
 		de: "Während dieses Zuges fügen die Attacken deines Knakrack oder Togekiss dem Aktiven Pokémon deines Gegners + 50 Schadenspunkte zu.",
 		'pt-br': "Durante este turno, os ataques usados pelo seu Garchomp ou Togekiss causarão +50 pontos de dano ao Pokémon Ativo do seu oponente.",
-		ko: "이 차례에 자신의 「한카리아스」「토게키스」Garchomp 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지를 +50한다."
+		ko: "이 차례에 자신의 「한카리아스」「토게키스」 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지를 +50한다."
 	},
 
 	trainerType: "Supporter"

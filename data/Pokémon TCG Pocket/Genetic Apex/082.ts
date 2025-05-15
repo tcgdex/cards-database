@@ -29,12 +29,22 @@ const card: Card = {
 
 		name: {
 			en: "Ancient Whirlpool",
-			fr: "Siphon Antique"
+			fr: "Siphon Antique",
+			es: "Torbellino Ancestral",
+			it: "Gorgo Antico",
+			de: "Urzeitsog",
+			'pt-br': "Redemoinho Ancestral",
+			ko: "고대의 바다회오리"
 		},
 
 		effect: {
 			en: "During your opponent's next turn, the Defending Pokémon can't attack.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer."
+			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
+			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar.",
+			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare.",
+			de: "Während des nächsten Zuges deines Gegners kann das Verteidigende Pokémon nicht angreifen.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá atacar.",
+			ko: "상대의 다음 차례에 이 기술을 받은 포켓몬은 기술을 사용할 수 없다."
 		},
 
 		damage: "70"

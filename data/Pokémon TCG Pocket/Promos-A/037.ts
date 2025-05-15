@@ -40,7 +40,7 @@ const card: Card = {
 			fr: "Chaque fois que vous attachez une Énergie {P} de votre zone Énergie à ce Pokémon, soignez 20 dégâts de ce Pokémon.",
 			es: "Cada vez que unas una Energía {P} de tu área de Energía a este Pokémon, cúrale 20 puntos de daño.",
 			it: "Ogni volta che assegni un'Energia {P} a questo Pokémon dalla tua Zona Energia, curalo da 20 danni.",
-			de: "Heile jedes Mal, wenn du 1 {P} Energie aus dem Energiebereich an dieses Pokémon anlegst, 20 Schadenspunkte bei diesem Pokémon.",
+			de: "Heile jedes Mal, wenn du 1 {P}-Energie aus dem Energiebereich an dieses Pokémon anlegst, 20 Schadenspunkte bei diesem Pokémon.",
 			'pt-br': "Sempre que você ligar uma Energia {P} da sua Zona de Energia a este Pokémon, cure 20 pontos de dano deste Pokémon.",
 			ko: "자신의 에너지존에서 이 포켓몬에게 {P}에너지를 붙일 때마다 이 포켓몬의 HP를 20회복."
 		}

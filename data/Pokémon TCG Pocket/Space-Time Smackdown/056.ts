@@ -34,13 +34,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Charge"
+			en: "Charge",
+			fr: "Chargeur",
+			es: "Carga",
+			it: "Sottocarica",
+			de: "Ladevorgang",
+			'pt-br': "Carga",
+			ko: "충전"
 		},
 
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Take a <span class=\"energy-text energy-text--type-lightning\"></span> Energy from your Energy Zone and attach it to this Pokémon."
+			en: "Take a {L} Energy from your Energy Zone and attach it to this Pokémon.",
+			fr: "Prenez une Énergie {L} de votre zone Énergie et attachez-la à ce Pokémon.",
+			es: "Une 1 Energía {L} de tu área de Energía a este Pokémon.",
+			it: "Prendi un'Energia {L} dalla tua Zona Energia e assegnala a questo Pokémon.",
+			de: "Lege 1 {L}-Energie aus deinem Energiebereich an dieses Pokémon an.",
+			'pt-br': "Pegue 1 Energia {L} da sua Zona de Energia e ligue-a a este Pokémon.",
+			ko: "자신의 에너지존에서 {L}에너지를 1개 내보내 이 포켓몬에게 붙인다."
 		}
 	}],
 

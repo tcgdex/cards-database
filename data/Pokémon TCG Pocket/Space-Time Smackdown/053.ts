@@ -38,14 +38,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Thunder Blast"
+			en: "Thunder Blast",
+			fr: "Grondement de Tonnerre",
+			es: "Estallido Trueno",
+			it: "Tuonobomba",
+			de: "Donnerkeil",
+			'pt-br': "Explosão de Trovões",
+			ko: "썬더블라스트"
 		},
 
 		damage: 110,
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Discard a <span class=\"energy-text energy-text--type-lightning\"></span> Energy from this Pokémon."
+			en: "Discard a {L} Energy from this Pokémon.",
+			fr: "Défaussez une Énergie {L} de ce Pokémon.",
+			es: "Descarta 1 Energía {L} de este Pokémon.",
+			it: "Rimuovi un'Energia {L} da questo Pokémon.",
+			de: "Lege 1 {L}-Energie von diesem Pokémon ab.",
+			'pt-br': "Descarte 1 Energia {L} deste Pokémon.",
+			ko: "이 포켓몬에서 {L}에너지를 1개 트래쉬한다."
 		}
 	}],
 

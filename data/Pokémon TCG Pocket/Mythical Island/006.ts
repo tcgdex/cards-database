@@ -39,17 +39,35 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Jungle Totem"
+			en: "Jungle Totem",
+			fr: "Jungle Dominante",
+			es: "Dominio de la Selva",
+			it: "Signore della Giungla",
+			de: "Dschungelherrschaft",
+			'pt-br': "Totem da Selva",
+			ko: "밀림의 주인"
 		},
 
 		effect: {
-			en: "Each <span class=\"energy-text energy-text--type-grass\"></span> Energy attached to your <span class=\"energy-text energy-text--type-grass\"></span> Pokémon provides 2 <span class=\"energy-text energy-text--type-grass\"></span> Energy. This effect doesn't stack."
+			en: "Each {G} Energy attached to your {G} Pokémon provides 2 {G} Energy. This effect doesn't stack.",
+			fr: "Chaque Énergie {G} attachée à vos Pokémon {G} fournit 2 Énergies {G}. Cet effet est non cumulable.",
+			es: "Cada Energía {G} unida a tus Pokémon {G} proporciona 2 Energías {G}. Este efecto no se acumula.",
+			it: "Ogni Energia {G} assegnata ai tuoi Pokémon {G} fornisce due Energie {G}. Questo effetto non è cumulabile.",
+			de: "Jede an deine {G}-Pokémon angelegte {G}-Energie liefert 2 {G}-Energien. Der Effekt stapelt sich nicht.",
+			'pt-br': "Cada Energia {G} ligada aos seus Pokémon {G} fornecerá 2 Energias {G}. Este efeito não acumula.",
+			ko: "이 포켓몬이 있는 한, 자신의 필드의 {G}포켓몬에게 붙어 있는 모든 {G}에너지는 각각 {G}에너지 2개분으로 작용한다. 이 특성은 중복되지 않는다."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Solar Beam"
+			en: "Solar Beam",
+			fr: "Lance-Soleil",
+			es: "Rayo Solar",
+			it: "Solarraggio",
+			de: "Solarstrahl",
+			'pt-br': "Raio Solar",
+			ko: "솔라빔"
 		},
 
 		damage: 70,

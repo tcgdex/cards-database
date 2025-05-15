@@ -48,12 +48,13 @@ const card: Card = {
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Poisoned.",
-			es: "El Pokémon Activo de tu rival pasa a estar Poisoned.",
-			it: "Il Pokémon attivo del tuo avversario viene Poisoned.",
-			de: "Das Aktive Pokémon deines Gegners [Text:SpecialCondition v0=\"ist jetzt {}\" v1=\"{} jetzt\" ].",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Poisoned.",
-			ko: "상대의 배틀 포켓몬을 Poisoned[Gr:Patchim v=\"으로/로\" ] 만든다."
+			ko: "상대의 배틀 포켓몬을 독으로 만든다.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado."
 		}
 	}],
 
