@@ -4,6 +4,8 @@ on:
   pull_request_target:
     types: [opened, synchronize]
     paths:
+      - '.github/workflows/comment-pr.yml'
+      - '.github/scripts/*'
       - 'data/**/*.ts'
       - 'data-asia/**/*.ts'
 
