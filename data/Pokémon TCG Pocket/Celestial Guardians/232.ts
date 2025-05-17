@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Celestial Guardians"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Blastoise ex",
 		fr: "Tortank-ex",
@@ -11,16 +12,20 @@ const card: Card = {
 		ko: "거북왕 ex",
 		'pt-br': "Blastoise ex"
 	},
+
 	illustrator: "PLANETA CG Works",
 	rarity: "Two Shiny",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],
+
 	evolveFrom: {
 		en: "Wartortle"
 	},
+
 	stage: "Stage2",
 	suffix: "EX",
+
 	attacks: [{
 		name: {
 			en: "Surf",
@@ -55,10 +60,13 @@ const card: Card = {
 			'pt-br': "Se este Pokémon tiver pelo menos 2 Energia {W} extra ligada a ele, este ataque causará 60 pontos de dano a mais."
 		}
 	}],
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "+20"
 	}],
-	retreat: 3
+
+	retreat: 3,
+	boosters: ["lunala"]
 }
 export default card

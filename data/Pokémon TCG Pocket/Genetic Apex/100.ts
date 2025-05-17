@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Voltorb"
 	},
-
 
 	attacks: [{
 		cost: ["Lightning", "Lightning"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Je mehr elektrische Energie es speichert, desto\nschneller ist es. Allerdings steigt dabei auch das\nRisiko, dass es explodiert.",
 		'pt-br': "Quanto mais energia carrega, mais\nvelocidade ganha. Mas também aumenta\na sua probabilidade de explodir.",
 		ko: "전기 에너지를 모을수록\n고속으로 이동할 수 있게 되나\n그만큼 폭발하기도 쉬워진다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

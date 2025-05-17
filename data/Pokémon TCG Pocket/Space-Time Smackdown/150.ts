@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "상대 벤치의 데미지를 받고 있는 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["palkia"]
 }
 
 export default card

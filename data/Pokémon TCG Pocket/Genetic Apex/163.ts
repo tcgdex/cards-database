@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 130,
 	types: ["Fighting"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Clobbopus"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting", "Fighting", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Sein Körper besteht gänzlich aus Muskeln.\nDie schiere Stärke seines Würgegriffs, bei dem\nes seine Tentakel einsetzt, ist sagenhaft.",
 		'pt-br': "O corpo composto unicamente de músculos deste\nPokémon torna os seus movimentos de chave com\nos tentáculos incrivelmente poderosos.",
 		ko: "온몸이 근육덩어리다.\n촉수를 사용해서 펼치는\n조르기 기술의 위력은 무시무시하다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

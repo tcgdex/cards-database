@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es lebt bevorzugt in Wäldern und in hohem Gras.\nAuf dem Kopf trägt es einen circa 5 cm langen,\nspitzen, giftigen Stachel.",
 		'pt-br': "Encontrado frequentemente em florestas e\npradarias. Possui uma farpa afiada e tóxica\nde cerca de 5 cm em cima da cabeça.",
 		ko: "숲이나 풀밭에 많이 서식한다.\n머리끝에 5cm 정도의\n작고 날카로운 독침을 지니고 있다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

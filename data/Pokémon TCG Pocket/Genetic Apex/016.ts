@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Aus seinem ganzen Körper tritt Gift aus.\nEs fängt und frisst nachts kleine Käfer-Pokémon,\ndie von Licht angelockt wurden.",
 		'pt-br': "Veneno escorre de todo o seu corpo. Durante a\nnoite, captura pequenos Pokémon inseto que são\natraídos pela luz.",
 		ko: "전신에서 독이 스며 나온다.\n어두워지면 밝은 곳에 모인\n작은 벌레포켓몬을 잡아먹는다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

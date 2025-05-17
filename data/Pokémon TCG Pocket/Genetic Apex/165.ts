@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Ekans"
 	},
-
 
 	attacks: [{
 		cost: ["Darkness", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Jüngsten Forschungsergebnissen zufolge gibt\nes mehr als 20 verschiedene Musterungen,\ndie Arboks Bauch aufweisen kann.",
 		'pt-br': "Segundo as pesquisas mais recentes,\nexistem mais de 20 variações dos\npadrões em sua barriga.",
 		ko: "최근 연구에서 배 모양은\n20종류 이상의\n패턴이 있다고 판명되었다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

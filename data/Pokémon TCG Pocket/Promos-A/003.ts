@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "상대의 패의 앞면을 모두 본다."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: []
 }
 
 export default card

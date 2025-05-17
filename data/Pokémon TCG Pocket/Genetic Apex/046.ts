@@ -62,7 +62,9 @@ const card: Card = {
 		de: "Schlägt dieses Legendäre Vogel-Pokémon mit\nden Flügeln, so leuchten die Flammen an seinen\nSchwingen in einem bezaubernden Rot.",
 		'pt-br': "É um dos lendários Pokémon pássaro.\nQuando Moltres bate suas asas em chamas,\nsolta faíscas vermelhas brilhantes.",
 		ko: "날갯짓을 하면 날개의 불꽃이\n빨갛고 아름답게 빛나는\n전설의 새포켓몬 중 1마리다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Kakuna"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Dieses Pokémon verfügt über drei Giftstachel.\nEs kann seine Gegner damit wiederholt stechen.",
 		'pt-br': "Ele possui três ferrões venenosos nas patas\ndianteiras e na cauda. Eles são usados para\npicar repetidamente o inimigo.",
 		ko: "양손과 엉덩이에 있는 3개의\n독침으로 상대를 찌르고 찌르고\n또 찌르며 공격한다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

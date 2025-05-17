@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Kabuto"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Kabutops schlitzt seine Beute auf und saugt ihre\nKörpersäfte aus. Die Überreste dienen als\nNahrung für andere Pokémon.",
 		'pt-br': "Kabutops despedaça sua presa e drena seus\nfluidos. As partes do corpo descartadas se\ntornam comida para outros Pokémon.",
 		ko: "먹이를 베어 갈라 체액을\n빨아먹는다. 남은 몸은\n다른 포켓몬의 먹이가 된다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

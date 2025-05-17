@@ -60,7 +60,9 @@ const card: Card = {
 		de: "Seine Verwandlungskunst ist perfekt. Bringt man\nes jedoch zum Lachen, fliegt seine Tarnung auf.",
 		'pt-br': "Sua capacidade de transformação é perfeita.\nNo entanto, se o fizerem rir, ele não poderá\nmanter seu disfarce.",
 		ko: "변신은 완벽하지만\n웃는 바람에 힘이 빠지면\n변신이 풀려 버리고 만다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

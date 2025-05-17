@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 110,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Tentacool"
 	},
-
 
 	attacks: [{
 		cost: ["Water", "Colorless"],
@@ -67,7 +67,9 @@ const card: Card = {
 		de: "Leuchten die roten Kugeln auf seinem Kopf stark\nauf, ist Vorsicht geboten, da es kurz danach\nUltraschallwellen ausstoßen wird.",
 		'pt-br': "Quando o orbe vermelho na cabeça de Tantacruel\nbrilha intensamente, cuidado: este Pokémon está\nprestes a disparar uma rajada de ondas ultrassônicas.",
 		ko: "머리의 빨간 구슬이\n밝게 빛나면 주의가 필요하다.\n초음파를 발산하려는 전조다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

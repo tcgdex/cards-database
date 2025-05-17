@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Das Horn auf seiner Stirn enthält ein starkes Gift.\nDieses Pokémon ist sehr vorsichtig und stellt\nseine großen Ohren stets wachsam auf.",
 		'pt-br': "O chifre na testa dos Nidoran machos contém\num veneno poderoso. Trata-se de um Pokémon\ncauteloso, sempre esticando suas grandes orelhas.",
 		ko: "이마의 뿔에는 맹독이 있다.\n경계심이 강해서 커다란\n귀를 늘 쫑긋 세우고 있다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

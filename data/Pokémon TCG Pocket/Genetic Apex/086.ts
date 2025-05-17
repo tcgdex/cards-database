@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Ducklett"
 	},
-
 
 	attacks: [{
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Sie wirken zerbrechlich, aber ihre starken Schwingen\ntragen sie in einem Stück bis zu 1000 km weit.",
 		'pt-br': "Apesar de sua aparência elegante, podem bater\nas asas com vigor e voar por milhares de quilômetros.",
 		ko: "우아한 외모와 다르게\n날개로 힘차게 날개 치며\n수천 km를 계속 날 수 있다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Ein unglaublich träges und einfältiges Pokémon.\nWenn es angegriffen wird, bemerkt es den\nSchmerz erst fünf Sekunden später.",
 		'pt-br': "É extremamente lento e tonto. Demora uns cinco\nsegundos para sentir dor após sofrer um ataque.",
 		ko: "움직임이 둔하고 멍청하다.\n맞아도 5초는 지나야\n아픔을 느낄 정도다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

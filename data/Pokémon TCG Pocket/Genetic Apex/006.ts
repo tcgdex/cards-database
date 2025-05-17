@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Caterpie"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "In diesem Zustand wartet es auf die Entwicklung.\nEs kann nur seinen Panzer erhärten, daher bewegt\nes sich nicht, um nicht angegriffen zu werden.",
 		'pt-br': "Metapod está aguardando o momento certo para\nevoluir. Neste estágio, só consegue endurecer,\nentão permanece imóvel para evitar ataques.",
 		ko: "진화를 기다리고 있는 상태다.\n단단해지는 것밖에 할 수 없어서\n공격받지 않도록 꿈쩍 않고 있다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

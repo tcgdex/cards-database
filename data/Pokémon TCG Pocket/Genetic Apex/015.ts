@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Paras"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Der Pilz auf seinem Rücken ist sein wichtigstes\nKörperteil. Der Rest ist quasi leblos und kann\nsich ohne den Pilz nicht bewegen.",
 		'pt-br': "A maior parte do seu corpo está morta, exceto pelo cogumelo\nque está nas suas costas e que controla o resto. Se o cogumelo\nse desprender do corpo, este Pokémon não conseguirá se mover.",
 		ko: "벌레는 거의 죽은 상태이고\n본체는 등의 버섯이다.\n떨어지면 더는 움직일 수 없다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

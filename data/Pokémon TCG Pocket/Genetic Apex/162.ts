@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Zur Futtersuche kommt es an Land. Es ist sehr\nneugierig, weshalb es alles, was es sieht,\nzunächst einmal mit seinen Tentakeln haut.",
 		'pt-br': "Este Pokémon é muito curioso, mas seu método de\ninvestigar as coisas é socando-as com seus tentáculos.\nSó vem para a terra firme à procura de comida.",
 		ko: "먹이를 찾아 지상으로 올라온다.\n호기심이 왕성해서 눈에 들어오는 것은\n일단 촉수로 때리고 본다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

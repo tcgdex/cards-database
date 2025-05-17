@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Lightning"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Eevee"
 	},
-
 
 	attacks: [{
 		cost: ["Lightning", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Es sammelt die schwache elektrische\nEnergie, die von seinen Zellen ausgeht,\nund feuert starke Blitze ab.",
 		'pt-br': "Ele concentra as cargas elétricas fracas emitidas\npor suas células e lança raios elétricos enfeitiçados.",
 		ko: "세포가 내고 있는 약한\n전기를 하나로 모아서\n강력한 전기를 발산한다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

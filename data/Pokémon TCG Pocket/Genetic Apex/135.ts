@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Sie bestehen aus Lehm und existieren schon sehr\nlange. Einige von ihnen haben den unerklärlichen\nDrang, große Felsen aneinanderzureihen.",
 		'pt-br': "Antigamente, eram esculpidos de argila.\nNinguém sabe a razão, mas alguns deles\nsão determinados a alinhar rochas sem parar.",
 		ko: "점토에서 만들어진 고대의\n포켓몬. 어째선지 큰 바위를\n늘어놓기만 하는 녀석도 있다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

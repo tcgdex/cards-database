@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Golett"
 	},
-
 
 	attacks: [{
 		cost: ["Psychic", "Psychic", "Colorless", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "In uralten Festungen finden sich heute noch\nSockel, die Golgantes beim Abfeuern seiner\nStrahlen wohl als Halt dienen sollten.",
 		'pt-br': "Plataformas de artilharia construídas nas paredes\nde castelos antigos eram usadas por Golurk como\npoleiros, de onde disparavam seus feixes de energia.",
 		ko: "고대인의 성벽에는\n골루그가 빔을 쏘기 위한\n포대와 같은 대좌가 있다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

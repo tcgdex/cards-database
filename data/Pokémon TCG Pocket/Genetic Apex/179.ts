@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Furchtlos stellt es sich selbst starken Gegnern.\nIm Ernstfall hält es sich an ihnen fest und sticht\nmit den vielen Klingen an seinem Körper zu.",
 		'pt-br': "Pawniard desafiará bravamente até oponentes mais\npoderosos. Num piscar de olhos, aproxima-se de sua\nvítima e a perfura com as lâminas que cobrem o seu corpo.",
 		ko: "강한 상대에게도 겁먹지 않고 덤빈다.\n여차하면 상대에게 달라붙어서\n몸에 달린 칼날로 찌른다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

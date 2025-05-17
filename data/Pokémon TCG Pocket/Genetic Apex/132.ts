@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 110,
 	types: ["Psychic"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Kirlia"
 	},
-
 
 	abilities: [{
 		type: "Ability",
@@ -80,7 +80,9 @@ const card: Card = {
 		de: "Wenn es seinen Trainer schützen will, nimmt es all\nseine Psycho-Kräfte zusammen, um so ein kleines\nschwarzes Loch zu erzeugen.",
 		'pt-br': "Para proteger seu Treinador, gasta todo seu poder\npsíquico para criar um pequeno buraco negro.",
 		ko: "트레이너를 지키기 위해서라면\n사이코 파워를 모두 써서\n작은 블랙홀을 만들어 낸다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

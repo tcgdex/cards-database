@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Celestial Guardians"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Machamp",
 		fr: "Mackogneur",
@@ -11,14 +12,17 @@ const card: Card = {
 		ko: "괴력몬",
 		'pt-br': "Machamp"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "One Shiny",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+
 	evolveFrom: {
 		en: "Machoke"
 	},
+
 	description: {
 		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
 		fr: "Il peut bouger ses quatre bras à grande vitesse\net frapper du poing ou du tranchant de la main\ndans toutes les directions sans se fatiguer.",
@@ -28,7 +32,9 @@ const card: Card = {
 		ko: "4개의 팔을 재빠르게 움직여서\n모든 각도에서 쉬지 않고\n펀치와 당수를 날린다.",
 		'pt-br': "Ele balança velozmente seus quatro braços para\natingir seus oponentes com socos e pancadas\nincessantes de todos os ângulos."
 	},
+
 	stage: "Stage2",
+
 	attacks: [{
 		name: {
 			en: "Power Press",
@@ -51,10 +57,13 @@ const card: Card = {
 			'pt-br': "Se este Pokémon tiver pelo menos 2 Energia {F} extra ligada a ele, este ataque causará 50 pontos de dano a mais."
 		}
 	}],
+
 	weaknesses: [{
 		type: "Psychic",
 		value: "+20"
 	}],
-	retreat: 2
+
+	retreat: 2,
+	boosters: ["solgaleo"]
 }
 export default card

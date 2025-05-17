@@ -19,10 +19,13 @@ const card: Card = {
 	hp: 160,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Exeggcute"
 	},
+
 	suffix: "EX",
+
 	attacks: [{
 		cost: ["Grass"],
 
@@ -55,7 +58,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	rarity: "Two Star"
+	rarity: "Two Star",
+	boosters: ["charizard"]
 }
 
 export default card

@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Sein ganzer Körper besteht aus Muskeln. Auch\nwenn es nur so groß wie ein Menschenkind ist,\nkann es 100 Erwachsene jonglieren.",
 		'pt-br': "Seu corpo é inteiramente composto por músculos.\nApesar de ter o tamanho de uma criança humana,\nconsegue arremessar 100 adultos.",
 		ko: "몸집은 어린아이만 하지만\n온몸이 근육으로 되어 있어서\n어른 100명은 날려 버릴 수 있다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

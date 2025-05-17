@@ -51,7 +51,6 @@ const card: Card = {
 		value: "+20"
 	}],
 
-
 	retreat: 1,
 	rarity: "One Diamond",
 
@@ -63,7 +62,9 @@ const card: Card = {
 		de: "In vielen Elektrizitätswerken werden Pokémon\nvom Typ Boden eingesetzt, um Elektek davon\nabzuhalten, den dortigen Strom anzuzapfen.",
 		'pt-br': "Muitas usinas mantêm Pokémon de tipo Terrestre\npor perto. Fazem isso para protegê-las de Electabuzz\nque aparecem em busca de eletricidade.",
 		ko: "전기를 노리는 에레브를\n퇴치하고자 땅포켓몬을 두는\n발전소도 많다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

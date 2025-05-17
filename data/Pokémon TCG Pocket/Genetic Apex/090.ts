@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es lebt in warmen Küstengewässern. Trifft es auf\neinen Gegner, öffnet es den Mund und lässt zum\nAngriff seine Organe hervorschnellen.",
 		'pt-br': "Vive em águas rasas e quentes. Se encontra\num inimigo, cospe seus órgãos internos\npara enchê-lo de socos.",
 		ko: "따뜻하고 얕은 여울에 산다.\n상대와 마주치면 체내 기관을\n입으로 뿜어서 때려눕힌다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

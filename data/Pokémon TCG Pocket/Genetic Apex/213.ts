@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Minccino"
 	},
@@ -65,7 +66,9 @@ const card: Card = {
 		de: "Es ist sehr reinlich und duldet nicht mal das\nkleinste Staubkorn. Es beschichtet sein Nest\nmit dem Öl, das sein Körper absondert.",
 		'pt-br': "Seu corpo secreta um óleo que este Pokémon\nespalha sobre seu ninho para protegê-lo de poeira.\nCinccino não suporta nem um grãozinho de sujeira.",
 		ko: "먼지 한 톨도 용납하지 않는 결벽증.\n몸에서 나오는 기름을\n둥지에 발라서 코팅한다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

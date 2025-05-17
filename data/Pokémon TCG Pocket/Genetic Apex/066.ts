@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Seine Schale ist härter als Diamant. Im Inneren ist\nes jedoch überraschend weich.",
 		'pt-br': "Este Pokémon é envolto em uma concha\nmais dura que diamante. O seu interior,\nporém, é surpreendentemente macio.",
 		ko: "다이아몬드보다 단단한\n껍데기에 싸여 있지만\n속은 의외로 말랑하다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

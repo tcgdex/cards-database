@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Goldeen"
 	},
-
 
 	attacks: [{
 		cost: ["Water"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Im Herbst legt es an Gewicht zu\nund erscheint in prächtigen Farben,\num so einen Partner anzulocken.",
 		'pt-br': "No outono, ganha peso para atrair\npossíveis companheiros. Adorna-se\nem lindas cores.",
 		ko: "가을이 되면 짝짓기를 위해\n몸에 윤기가 돌게 되며\n매우 아름다운 색으로 변화한다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

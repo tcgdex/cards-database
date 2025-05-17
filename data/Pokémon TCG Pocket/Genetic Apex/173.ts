@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Zubat"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Das Blut anderer Lebewesen ist seine Leibspeise.\nMan sagt, dass es das abgesaugte Blut manchmal\nmit hungrigen Artgenossen teilt.",
 		'pt-br': "Ama beber o sangue de outras criaturas. Dizem que,\nse encontra outros de sua espécie passando fome,\nàs vezes compartilha o sangue que recolheu.",
 		ko: "살아 있는 생물의 혈액을 좋아한다.\n굶주린 동료에게 빨아들인 피를\n나눠주기도 한다고 한다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

@@ -60,7 +60,9 @@ const card: Card = {
 		de: "Es setzt seine Psycho-Kräfte selbst im\nSchlaf ein. Der Inhalt seiner Träume hat\nEinfluss auf die Kräfte, die es verwendet.",
 		'pt-br': "Usa seus poderes psíquicos enquanto dorme.\nO conteúdo dos sonhos de Abra afeta os\npoderes que este Pokémon possui.",
 		ko: "자면서 초능력을 구사한다.\n꿈의 내용이\n사용하는 힘에 영향을 준다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

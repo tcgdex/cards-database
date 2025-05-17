@@ -5,6 +5,7 @@ import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
 import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
+import { objectMap, objectPick } from '@dzeio/object-util'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -108,6 +109,11 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			standard: cardIsLegal('standard', card, localId),
 			expanded: cardIsLegal('expanded', card, localId)
 		},
+		boosters: card.boosters ? objectMap(objectPick(card.set.boosters, ...card.boosters), (booster, id) => ({
+			id: `boo_${card.set.id}-${id}`,
+			name: resolveText(booster.name, lang),
+			// images will be coming soon...
+		})) : undefined,
 		updated: await getCardLastEdit(localId, card, lang)
 	}
 }

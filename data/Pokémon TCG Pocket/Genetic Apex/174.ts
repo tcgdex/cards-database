@@ -63,7 +63,9 @@ const card: Card = {
 		de: "Diese aus Schlamm entstandenen Pokémon\nscharen sich an dreckigen Orten, um ihre\nkörpereigenen Bakterien zu kultivieren.",
 		'pt-br': "Nascidos no lodo, esses Pokémon agora\nreúnem-se em locais poluídos e aumentam\na quantidade de bactérias em seus corpos.",
 		ko: "오물이 포켓몬이 되었다.\n더러운 장소에 모여\n몸의 세균을 번식시킨다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

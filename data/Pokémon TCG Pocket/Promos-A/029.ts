@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Promos-A"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Blastoise",
 		fr: "Tortank",
@@ -11,14 +12,17 @@ const card: Card = {
 		ko: "거북왕",
 		'pt-br': "Blastoise"
 	},
+
 	illustrator: "danciao",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
+
 	evolveFrom: {
 		en: "Wartortle"
 	},
+
 	description: {
 		en: "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
 		fr: "Il écrase ses adversaires de tout son poids\npour leur faire perdre connaissance.\nIl rentre dans sa carapace s'il se sent en danger.",
@@ -28,7 +32,9 @@ const card: Card = {
 		ko: "무거운 몸으로 상대를\n덮쳐서 기절시킨다.\n위기에 처하면 등껍질에 숨는다.",
 		'pt-br': "Esmaga seus inimigos com seu corpo pesado\naté que desmaiem. Quando está em apuros,\nse esconde dentro do seu casco."
 	},
+
 	stage: "Stage2",
+
 	attacks: [{
 		name: {
 			en: "Hydro Pump",
@@ -51,10 +57,13 @@ const card: Card = {
 			'pt-br': "Se este Pokémon tiver pelo menos 2 Energia {W} extra ligada a ele, este ataque causará 60 pontos de dano a mais."
 		}
 	}],
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "+20"
 	}],
-	retreat: 3
+
+	retreat: 3,
+	boosters: ["vol3"]
 }
 export default card

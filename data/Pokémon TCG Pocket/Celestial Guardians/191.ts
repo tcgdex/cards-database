@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "데미지를 받고 있는 자신의 {C}포켓몬을 1마리 선택해서 패로 되돌린다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["lunala"]
 }
 
 export default card

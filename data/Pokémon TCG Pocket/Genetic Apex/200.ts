@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Colorless"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Doduo"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Lässt ein Feind auch nur einen der\ndrei Köpfe für nur eine Sekunde aus\nden Augen, wird er sofort gepickt.",
 		'pt-br': "Um inimigo que tire os olhos de qualquer uma\ndas três cabeças, mesmo que por apenas um\nsegundo, será bicado gravemente.",
 		ko: "3개의 머리가 보고 있는 앞에서\n조금이라도 빈틈을 보이면\n부리로 격렬하게 쪼아댄다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

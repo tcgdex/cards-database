@@ -20,6 +20,19 @@ const set: Set = {
 		official: 140
 	},
 
+	boosters: {
+		palkia: {
+			name: {
+				en: 'Palkia'
+			}
+		},
+		dialga: {
+			name: {
+				en: 'Dialga'
+			}
+		}
+	},
+
 	releaseDate: "2025-01-30"
 }
 

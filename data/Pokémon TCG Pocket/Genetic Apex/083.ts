@@ -63,7 +63,9 @@ const card: Card = {
 		de: "Seine wunderschönen blauen Flügel sollen aus Eis\nbestehen. Es fliegt über schneebedeckte Berge,\nwährend sein langer Schweif hinter ihm flattert.",
 		'pt-br': "Dizem que as lindas asas azuis deste Pokémon\nsão feitas de gelo. Articuno sobrevoa montanhas\ncom sua longa cauda balançando atrás de si.",
 		ko: "푸르고 아름다운 날개는 얼음으로\n되어 있다고 전해진다. 긴 꼬리를\n나부끼며 설산 위를 난다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

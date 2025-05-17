@@ -29,7 +29,8 @@ const card: Card = {
 		'pt-br': "Coloque 1 Pokémon Básico aleatório do seu baralho na sua mão."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: []
 }
 
 export default card

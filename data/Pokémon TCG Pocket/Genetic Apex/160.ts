@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Ein gut trainiertes Lin-Fu kann in einer Minute\nüber 100 Schläge ausführen.",
 		'pt-br': "Um Mienfoo bem treinado é capaz de usar seus braços\npara dar mais de 100 golpes por minuto.",
 		ko: "잘 단련된 비조푸는\n1분에 100회 이상\n촙 공격을 할 수 있다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

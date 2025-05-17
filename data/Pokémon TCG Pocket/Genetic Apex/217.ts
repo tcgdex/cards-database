@@ -28,7 +28,8 @@ const card: Card = {
 	},
 
 	trainerType: "Item",
-	rarity: "One Diamond"
+	rarity: "One Diamond",
+	boosters: ["charizard"]
 }
 
 export default card

@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Clefairy"
 	},
-
 
 	attacks: [{
 		cost: ["Psychic"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Ein feenhaftes und scheues Pokémon,\ndas sofort die Flucht ergreift, wenn es\nMenschen wahrnimmt.",
 		'pt-br': "Um tímido Pokémon fada raramente visto,\ncorre e esconde-se assim que percebe\na presença de pessoas.",
 		ko: "요정의 동료로 좀처럼\n사람 앞에 나타나지 않는다. 기척을\n느끼면 바로 도망가는 듯하다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

@@ -19,9 +19,11 @@ const card: Card = {
 	hp: 190,
 	types: ["Grass"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Ivysaur"
 	},
+
 	suffix: "EX",
 
 	attacks: [{
@@ -70,7 +72,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	rarity: "Two Star"
+	rarity: "Two Star",
+	boosters: ["mewtwo"]
 }
 
 export default card

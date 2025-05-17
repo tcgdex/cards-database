@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 150,
 	types: ["Darkness"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Nidorino"
 	},
@@ -66,7 +67,9 @@ const card: Card = {
 		de: "Gerät es in Rage, ist es nur schwer aufzuhalten.\nDoch vor einem Nidoqueen, mit dem es schon\nviele Jahre verbracht hat, zeigt es sich friedlich.",
 		'pt-br': "É impossível controlar Nidoking quando fica\nenfurecido. Porém, a presença de uma Nidoqueen\ncom quem viveu por muito tempo o acalmará.",
 		ko: "날뛰기 시작하면 손쓸 수 없게 되지만\n긴 세월 함께 지낸 니드퀸\n앞에서는 온순해진다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

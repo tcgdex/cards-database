@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Genetic Apex"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Blastoise ex",
 		fr: "Tortank-ex",
@@ -11,15 +12,19 @@ const card: Card = {
 		ko: "거북왕 ex",
 		'pt-br': "Blastoise ex"
 	},
+
 	illustrator: "PLANETA Tsuji",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Wartortle"
 	},
+
 	suffix: "EX",
+
 	attacks: [{
 		cost: ["Water", "Colorless"],
 		name: {
@@ -54,11 +59,14 @@ const card: Card = {
 		},
 		damage: "100+"
 	}],
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "+20"
 	}],
+
 	retreat: 3,
-	rarity: "Four Diamond"
+	rarity: "Four Diamond",
+	boosters: ["pikachu"]
 }
 export default card

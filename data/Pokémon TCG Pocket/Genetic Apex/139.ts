@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Dieses Pokémon lebt 1 m unter der\nErde. Es frisst Wurzeln und kommt\nhin und wieder an die Oberfläche.",
 		'pt-br': "Vive cerca de 1 metro embaixo da terra,\nonde se alimenta de raízes de plantas.\nAlgumas vezes, são vistos acima da terra.",
 		ko: "지하 1m 정도를 파고들어 가서\n나무뿌리 등을 씹어 먹고 산다.\n가끔 지상으로 얼굴을 내민다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

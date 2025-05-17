@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Cottonee"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Es verstreut Watte, um Leute zu ärgern. Es hört\ndamit auf, wenn es nass wird, weil es dann zu\nschwer ist und sich nicht mehr bewegen kann.",
 		'pt-br': "Gosta de pregar peças, espalhando algodão por todo canto.\nSe este Pokémon se molhar, ficará pesado demais para se mover\ne será obrigado a lidar com as consequências das suas traquinagens.",
 		ko: "솜을 흩뿌리며 장난을 친다.\n물을 끼얹으면 무거워져서\n움직일 수 없게 되어 포기한다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

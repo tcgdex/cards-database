@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Seine Brust-, Rücken- und Schwanzflossen\nbewegen sich anmutig. Daher nennt man es\nden \"Wassertänzer\".",
 		'pt-br': "As suas barbatanas nas costas, peito e cauda\nagitam-se com elegância na água. É por isso que\neste Pokémon é conhecido como o bailarino das águas.",
 		ko: "등, 가슴, 꼬리지느러미가\n우아하게 나부끼기 때문에\n물의 무희라고 불린다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

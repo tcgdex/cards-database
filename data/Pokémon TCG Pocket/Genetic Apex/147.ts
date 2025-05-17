@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Mit dem Alter verliert es zunehmend seine\nKantigkeit, bis es vollkommen rund und auch\ncharakterlich immer ausgeglichener wird.",
 		'pt-br': "Geodude que já viveram muito são completamente\nredondos, porque todas as irregularidades foram polidas\npelo tempo. Sua natureza também se torna calma e tranquila.",
 		ko: "오래 산 꼬마돌은 모가 없이\n동그랗다. 성격도 매우\n차분하고 온화하다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

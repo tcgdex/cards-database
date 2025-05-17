@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Frogadier"
 	},
-
 
 	abilities: [{
 		type: "Ability",
@@ -80,7 +80,9 @@ const card: Card = {
 		de: "Es stellt Wurfsterne aus komprimiertem Wasser\nher, die durch ihre hohe Drehgeschwindigkeit\nbeim Werfen sogar Metall durchtrennen.",
 		'pt-br': "Cria estrelas ninja de água comprimida.\nAo girá-las e atirá-las em alta velocidade,\nas estrelas podem dividir metais ao meio.",
 		ko: "물을 압축시켜 수리검을\n만들어 낸다. 고속으로 회전시키며\n던지면 금속도 두 동강이 난다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

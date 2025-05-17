@@ -62,7 +62,9 @@ const card: Card = {
 		de: "Sein sonderbarer Ruf klingt fast wie die Sprache\nder Menschen. Manche Musiker schreiben sogar\neigens Lieder, damit Rossana sie singen kann.",
 		'pt-br': "Seu grito estranho soa como fala humana.\nCertos músicos compõem canções\nespecificamente para Jynx cantar.",
 		ko: "인간의 언어를 닮은 이상한\n울음소리를 가졌다. 루주라가 부르는\n곡을 만드는 음악가도 있다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

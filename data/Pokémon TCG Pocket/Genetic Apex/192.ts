@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Spearow"
 	},
@@ -65,7 +66,9 @@ const card: Card = {
 		de: "Wer Essbares dabeihat, sollte sich nicht in\nIbitaks Revier begeben, da sonst ein Überfall\naus heiterem Himmel droht.",
 		'pt-br': "Transportar alimento através do território\nde Fearow é perigoso, porque este Pokémon\nroubará a comida em um instante!",
 		ko: "깨비드릴조 영역에서 음식을\n갖고 다니는 것은 위험하다.\n순식간에 빼앗긴다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

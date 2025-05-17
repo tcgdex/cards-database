@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "이 카드를 붙이고 있는 포켓몬의 최대 HP를 +20한다."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	boosters: ["dialga"]
 }
 
 export default card

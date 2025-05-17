@@ -62,7 +62,9 @@ const card: Card = {
 		de: "Zapdos kann Elektrizität manipulieren.\nÜberlieferungen nach soll sein Nest inmitten\npechschwarzer Gewitterwolken liegen.",
 		'pt-br': "Este Pokémon tem controle absoluto da eletricidade.\nCertas lendas afirmam que Zapdos faz seu ninho nas\nprofundezas escuras de nuvens de tempestades.",
 		ko: "전기를 자유로이 조종한다.\n새까만 번개 구름 안에\n거처가 있다고 전해지고 있다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

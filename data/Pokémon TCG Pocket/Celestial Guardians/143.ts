@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "자신의 트래쉬에서 {W}타입의 기본 포켓몬을 랜덤으로 1장 패로 가져온다."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: ["lunala"]
 }
 
 export default card

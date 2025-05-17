@@ -52,7 +52,8 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	boosters: ["vol6"]
 }
 
 export default card

@@ -53,7 +53,9 @@ const card: Card = {
 		de: "Es erscheint, wenn Gewitterwolken den\nHimmel verdunkeln. Es fängt mit seiner\nMähne Blitze und hortet ihre Energie.",
 		'pt-br': "Surge quando nuvens de tempestade cobrem\no céu. Pode capturar raios com sua crina e\narmazenar a eletricidade.",
 		ko: "번개 구름이 하늘을 뒤덮으면\n나타난다. 갈기로 번개를\n붙잡아 전기를 모은다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Unter seinem Flügel trägt es eine Lauchstange,\ndie es wie ein Schwert gegen Feinde einsetzt und\nwelche ihm im Bedarfsfall auch als Nahrung dient.",
 		'pt-br': "O caule que este Pokémon carrega em suas asas\nserve como uma espada para cortar seus oponentes.\nEm situações difíceis, ele também pode servir como alimento.",
 		ko: "날개로 쥐고 있는 파 줄기를\n칼처럼 휘둘러 상대를 베어버린다.\n몹시 허기질 때는 먹기도 한다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

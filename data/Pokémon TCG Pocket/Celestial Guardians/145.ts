@@ -29,7 +29,8 @@ const card: Card = {
 		'pt-br': "Olhe 1 carta de cima do seu baralho. Em seguida, você pode embaralhar o seu baralho."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: ["solgaleo"]
 }
 
 export default card

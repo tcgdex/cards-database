@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es saugt über das Loch in seinem Schweif Luft für\nseine Flammen ein. Eine Verstopfung des Lochs\nschlägt Furnifraß sofort auf die Gesundheit.",
 		'pt-br': "O buraco em sua cauda permite que absorva\no ar necessário para manter seu fogo aceso.\nSe o buraco for tampado, este Pokémon ficará doente.",
 		ko: "꼬리의 구멍을 통해 공기를\n빨아들여 불꽃을 태운다.\n구멍이 막히면 상태가 나빠진다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

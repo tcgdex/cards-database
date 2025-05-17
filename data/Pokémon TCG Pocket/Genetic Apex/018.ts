@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Obwohl sein Körper sehr schmal ist,\nschnappt es blitzschnell nach Beute.",
 		'pt-br': "Mesmo tendo um corpo extremamente magro,\né estupidamente rápido para pegar suas presas.",
 		ko: "홀쭉한 체격이지만\n먹이를 잡을 때의 움직임은\n눈에 보이지 않을 정도로 빠르다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

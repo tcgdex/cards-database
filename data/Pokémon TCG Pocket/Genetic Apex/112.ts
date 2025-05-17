@@ -63,7 +63,9 @@ const card: Card = {
 		de: "Bei der Verdauung erzeugt es Elektrizität.\nMit seinen fünf harten Zähnen schabt es\nAlgen von Oberflächen ab und frisst sie.",
 		'pt-br': "Este Pokémon gera eletricidade ao digerir comida.\nUsa seus cinco dentes rígidos para raspar alga\nmarinha de superfícies e se alimentar.",
 		ko: "먹이를 소화시킬 때 전기를 만들어 낸다.\n5개의 단단한 이빨로\n해초를 갉아 먹는다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "이 카드를 붙이고 있는 포켓몬이 배틀필드에서 상대의 포켓몬으로부터 기술의 데미지를 받았을 때 기술을 사용한 포켓몬에게 20데미지를 준다."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	boosters: ["palkia"]
 }
 
 export default card

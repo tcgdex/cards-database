@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 140,
 	types: ["Grass"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Weepinbell"
 	},
@@ -79,7 +80,9 @@ const card: Card = {
 		de: "Dieses Pokémon soll in großen Kolonien\ntief im Dschungel leben, doch niemand\nkann dies bestätigen.",
 		'pt-br': "Diz-se que vivem em enormes colônias nas\nprofundezas das florestas, embora ninguém\njamais tenha conseguido voltar de lá.",
 		ko: "정글의 안쪽에 우츠보트만\n있는 지대가 있어서\n한 번 가면 두 번 다시 돌아올 수 없다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

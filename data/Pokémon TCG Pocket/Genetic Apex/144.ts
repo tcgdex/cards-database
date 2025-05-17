@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Machop"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting", "Fighting"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Dieses Pokémon ist superstark. Es kann sich nur\nmit einem kraftregulierenden Gürtel bewegen.",
 		'pt-br': "Sua massa muscular é tão poderosa que ele\nprecisa usar um cinto de economia de energia\npara controlar seus movimentos.",
 		ko: "엄청나게 강한 육체를 지녔기 때문에\n파워 세이브 벨트를 차서\n힘을 제어하고 있다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

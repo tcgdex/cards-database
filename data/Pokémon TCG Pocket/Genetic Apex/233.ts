@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 150,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Magikarp"
 	},
@@ -65,7 +66,9 @@ const card: Card = {
 		de: "Taucht es auf, randaliert es. Es beruhigt sich erst,\nwenn es alles um sich zerstört hat.",
 		'pt-br': "Assim que aparece, ele causa tumulto\ne fica enfurecido até destruir tudo em volta.",
 		ko: "한번 모습을 나타내면\n주변 전체를 태워 버리지 않고는\n분노가 가라앉지 않는다고 전해진다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

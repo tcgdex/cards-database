@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "자신의 「에레키블」 또는 「렌트라」 1마리 선택한다. 자신의 트래쉬에서 {L}에너지를 2개 그 포켓몬에게 붙인다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["dialga"]
 }
 
 export default card

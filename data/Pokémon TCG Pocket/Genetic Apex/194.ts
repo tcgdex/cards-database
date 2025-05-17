@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Jigglypuff"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Es hat sehr feines Fell. Doch Vorsicht: Verärgert\nman Knuddeluff, bläst es sich stark auf und stürzt\nsich mit seinem ganzen Körper auf einen.",
 		'pt-br': "Ele tem a pele muito fina. Tome cuidado para\nnão zangá-lo ou ele pode inflar permanentemente\ne golpear com uma pancada de corpo.",
 		ko: "얇고 고운 털을 지니고 있다.\n화나게 하면 몸을 점점 부풀리며\n덮쳐 오기 때문에 주의가 필요하다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

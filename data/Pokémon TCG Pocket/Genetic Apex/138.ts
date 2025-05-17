@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Sandshrew"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting", "Fighting"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Je trockener das Gebiet ist, in dem Sandamer\nlebt, desto härter und glatter fühlen sich die\nStacheln an seinem Rücken an.",
 		'pt-br': "Quanto mais seca for a área onde Sandslash vive,\nmais duros e lisos serão os espinhos deste Pokémon.",
 		ko: "습도가 낮은 땅에서 사는\n고지일수록 등에 난 가시의\n감촉은 단단하고 매끄럽다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 170,
 	types: ["Psychic"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Haunter"
 	},
@@ -71,7 +72,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Four Diamond"
+	rarity: "Four Diamond",
+	boosters: ["mewtwo"]
 }
 
 export default card

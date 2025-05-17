@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 180,
 	types: ["Fire"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Charmeleon"
 	},
@@ -71,7 +72,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Four Diamond"
+	rarity: "Four Diamond",
+	boosters: ["charizard"]
 }
 
 export default card

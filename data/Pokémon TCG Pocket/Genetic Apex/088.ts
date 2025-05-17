@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Froakie"
 	},
-
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Es kann kleine in Blasen gehüllte Steine mit\nsolcher Präzision werfen, dass es selbst\n30 m entfernte Dosen problemlos trifft.",
 		'pt-br': "Pode atirar seixos cobertos em bolhas com\ncontrole preciso, atingindo latas vazias a\n30 metros de distância.",
 		ko: "거품으로 싸인 돌멩이를 던지는\n기술을 쓴다. 30m 앞에 있는\n빈 캔을 맞출 정도로 컨트롤이 좋다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

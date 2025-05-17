@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Genetic Apex"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Centiskorch",
 		fr: "Scolocendre",
@@ -11,14 +12,17 @@ const card: Card = {
 		ko: "다태우지네",
 		'pt-br': "Centiskorch"
 	},
+
 	illustrator: "GOSSAN",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Sizzlipede"
 	},
+
 	attacks: [{
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 		name: {
@@ -41,8 +45,10 @@ const card: Card = {
 		},
 		damage: "130"
 	}],
+
 	retreat: 3,
 	rarity: "Two Diamond",
+
 	description: {
 		en: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
 		fr: "Quand il génère de la chaleur, sa température\nest d'environ 800 °C. Il se sert de son corps\ncomme d'un fouet pour sauter sur ses ennemis.",
@@ -51,6 +57,8 @@ const card: Card = {
 		de: "Wenn es Hitze erzeugt, beträgt seine Temperatur\netwa 800 °C. Es bewegt seinen Körper wie eine\nPeitsche, um dann den Gegner anzuspringen.",
 		'pt-br': "Ao se aquecer, seu corpo atinge temperaturas de\ncerca de 800 ºC. Usa seu corpo como um chicote,\nlançando-se contra seus inimigos.",
 		ko: "발열 시의 체온은 약 800도.\n몸을 채찍처럼 휘면서\n덤벼든다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 export default card

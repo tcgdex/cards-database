@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Sein stark gelocktes Fell hat eine sehr polsternde\nWirkung. Selbst eine Klippe hinunterzufallen\nmacht ihm nichts aus.",
 		'pt-br': "Sua lã cacheada é um amortecedor tão eficaz\nque este Pokémon pode desabar de um precipício\ne se levantar em seguida, completamente ileso.",
 		ko: "곱슬곱슬한 털은\n훌륭한 쿠션 역할을 한다.\n절벽에서 떨어져도 아무렇지도 않다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

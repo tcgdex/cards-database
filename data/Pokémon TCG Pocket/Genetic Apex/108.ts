@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Tynamo"
 	},
-
 
 	attacks: [{
 		cost: ["Lightning"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Die runden Flecken sind Organe, die Strom\nerzeugen. Es schlingt sich um seinen Gegner,\npresst sie gegen ihn und aktiviert sie.",
 		'pt-br': "Eles se enrolam nos adversários e disparam choques\ncom órgãos geradores de eletricidade que parecem\nsimplesmente ser padrões circulares.",
 		ko: "둥근 무늬가 발전 기관이다.\n상대를 휘감은 후 무늬를\n딱 붙여서 전기를 흘려보낸다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

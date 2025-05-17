@@ -19,9 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Bulbasaur"
-	}, 
+	},
 
 	attacks: [{
 		cost: ["Grass", "Colorless", "Colorless"],
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Sobald die Knospe auf seinem Rücken\ngroß wird, kann Bisaknosp nicht mehr\nauf zwei Beinen stehen.",
 		'pt-br': "À medida que o bulbo nas costas deste Pokémon\ncresce, ele parece perder a capacidade de se sustentar\napenas nas pernas de trás.",
 		ko: "등에 있는 봉오리가 크게\n자라면 두 다리로\n설 수 없게 되는 듯하다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

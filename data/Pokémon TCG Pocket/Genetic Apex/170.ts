@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 90,
 	types: ["Darkness"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Nidoran♂"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Auf der Suche nach einem Mondstein\nzerstört es Felsen mit seinem Horn,\ndas härter ist als ein Diamant.",
 		'pt-br': "Com um chifre mais duro que um diamente,\neste Pokémon sai por aí destruindo rochas\nenquanto busca por uma Pedra da Lua.",
 		ko: "다이아몬드보다 단단한 뿔로\n암석을 부수며 다닌다.\n달의돌을 찾고 있는 것이다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

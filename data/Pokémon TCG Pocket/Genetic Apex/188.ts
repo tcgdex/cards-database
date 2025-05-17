@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Colorless"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Pidgeotto"
 	},
@@ -79,7 +80,9 @@ const card: Card = {
 		de: "Dieses Pokémon schnellt bei der Jagd blitzschnell\nunter Wasser, um seine ahnungslose Beute zu fangen.",
 		'pt-br': "Quando caça, bate na superfície da água em\nalta velocidade para capturar presas desavisadas,\ncomo Magikarp.",
 		ko: "먹이를 찾을 때 수면을\n아슬아슬하게 미끄러지듯 날아\n잉어킹 등을 움켜잡는다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

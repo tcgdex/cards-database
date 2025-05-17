@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "자신의 배틀 포켓몬의 HP를 10회복하고 특수 상태도 랜덤으로 1가지 회복."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: ["solgaleo", "lunala"]
 }
 
 export default card

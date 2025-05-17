@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Squirtle"
 	},
-
 
 	attacks: [{
 		cost: ["Water", "Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Es gilt als Symbol für Langlebigkeit.\nSehr alte Exemplare erkennt man daran,\ndass ihr Panzer mit Algen übersät ist.",
 		'pt-br': "É um símbolo estabelecido de longevidade.\nSe seu casco possui algas, Wartortle é muito velho.",
 		ko: "장수의 상징으로 여겨진다.\n등껍질에 이끼가 붙어 있는 것은\n특히 장수한 어니부기다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

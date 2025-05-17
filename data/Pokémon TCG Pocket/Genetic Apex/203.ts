@@ -62,7 +62,9 @@ const card: Card = {
 		de: "Obwohl es sein Junges im Beutel trägt, bewegt\nsich dieses Pokémon äußerst leichtfüßig. Gegner\nschreckt Kangama mit blitzschnellen Schlägen ab.",
 		'pt-br': "Apesar de carregar seu bebê na bolsa em\nsua barriga, Kangaskhan é veloz. Intimida\nseus oponentes com golpes rápidos.",
 		ko: "배의 주머니에 새끼가 있지만\n발놀림은 매우 가볍다.\n재빠른 잽으로 상대를 위협한다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

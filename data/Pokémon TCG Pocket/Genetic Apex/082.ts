@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Water"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Omanyte"
 	},
-
 
 	attacks: [{
 		cost: ["Water", "Colorless", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Es starb wohl aus, weil seine Bewegungen durch\ndas große, schwere Gehäuse so langsam wurden,\ndass es keine Beute mehr fangen konnte.",
 		'pt-br': "Por conta de seu grande casco, Omastar é\npesado e não se move rápido. Dizem que entrou\nem extinção porque era incapaz de conseguir comida.",
 		ko: "크고 무거운 껍질 때문에\n움직임이 둔해져서\n먹이를 잡지 못해 멸종했다고 한다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

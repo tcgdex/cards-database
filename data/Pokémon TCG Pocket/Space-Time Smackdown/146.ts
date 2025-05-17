@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "자신의 패에서 포켓몬을 1장 선택해서 덱에서 랜덤하게 포켓몬 1장과 교체한다."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: ["dialga"]
 }
 
 export default card

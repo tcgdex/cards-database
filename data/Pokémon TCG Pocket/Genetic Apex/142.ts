@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Fighting"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Mankey"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting", "Fighting"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Spürt Rasaff, dass jemand es anblickt, wird es\nrasend vor Wut. Es verfolgt jeden, der es wagt,\nseinen Blick zu erwidern.",
 		'pt-br': "Fica incrivelmente furioso se perceber que\nestá sendo observado. Persegue qualquer\num que o encarar.",
 		ko: "누군가의 시선을 느끼기만 해도\n대단히 화를 낸다. 그리고\n눈이 마주친 상대를 쫓아다닌다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

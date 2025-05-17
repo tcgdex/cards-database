@@ -61,7 +61,8 @@ const card: Card = {
 		}
 	}],
 
-	retreat: 2
+	retreat: 2,
+	boosters: ["lunala"]
 }
 
 export default card

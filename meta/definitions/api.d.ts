@@ -3,6 +3,34 @@
  */
 
 /**
+* Booster interface
+*/
+export interface Booster {
+	/**
+	 * the booster ID
+	 *
+	 * boo_<set_id>-<booster_name>
+	 */
+	id: `boo_${string}-${string}`
+	/**
+	* the name of the booster
+	*/
+	name: string
+	/**
+	* the logo of the booster
+	*/
+	logo?: string
+	/**
+	* the front of the booster pack
+	*/
+	artwork_front?: string
+	/**
+	* the back of the booster pack
+	*/
+	artwork_back?: string
+}
+
+/**
  * /series endpoint
  */
 export interface SerieResume {
@@ -54,6 +82,11 @@ export interface Set extends SetResume {
 	tcgOnline?: string;
 	variants?: variants;
 	releaseDate: string;
+
+	/**
+	 * The boosters available in this set
+	 */
+	boosters?: Array<Booster>
 	/**
 	 * Designate if the set is usable in tournaments
 	 *
@@ -266,6 +299,11 @@ export interface Card extends CardResume {
 		 */
 		expanded: boolean;
 	}
+
+	/**
+	 * the boosters in which the card is available
+	 */
+	boosters?: Array<Booster>
 
 	updated: string
 }

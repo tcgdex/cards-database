@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 160,
 	types: ["Grass"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Ivysaur"
 	},
@@ -65,7 +66,9 @@ const card: Card = {
 		de: "Es nutzt Solarenergie als Nahrung und\nbringt so seine große Blume zum Blühen.\nEs geht dorthin, wo die Sonne scheint.",
 		'pt-br': "Sua planta floresce ao absorver energia solar,\npor isso este Pokémon vive em busca da luz do sol.",
 		ko: "태양에너지를 양분으로\n큰 꽃을 피운다. 양지를 향해\n이끌려가듯이 이동한다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

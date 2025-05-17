@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "이 카드는 HP40의 {C}타입의 기본 포켓몬으로서 필드에 내보낼 수 있다.\n자신의 차례라면 필드에 나와 있는 이 카드를 트래쉬해도 좋다.\n이 카드는 후퇴할 수 없다."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: ["palkia"]
 }
 
 export default card

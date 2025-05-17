@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 160,
 	types: ["Fighting"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Graveler"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Im Alter hört es auf, sich zu häuten.\nDer Panzer betagter Geowaz ist mit\ndichtem, grünem Moos bewachsen.",
 		'pt-br': "Ao envelhecer, Golem param de mudar de\ncarapaça. Os que viveram muitos e muitos\nanos têm carapaças cobertas de musgo verde.",
 		ko: "나이가 들면 탈피를 하지 않는다.\n긴 세월을 산 딱구리의 껍질은\n이끼가 끼어 초록색이다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

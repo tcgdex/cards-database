@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Psyduck"
 	},
-
 
 	attacks: [{
 		cost: ["Water", "Water"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Wenn es mit den Schwimmflossen an seinen\nlangen Gliedmaßen schnell durchs Wasser\nschwimmt, beginnt seine Stirn zu glühen.",
 		'pt-br': "Quando nada o mais rápido possível usando suas\nlongas membranas, a testa deste Pokémon\nde alguma forma começa a brilhar.",
 		ko: "물갈퀴가 달린 긴 손발을 써서\n전력으로 헤엄치면\n왠지 이마에서 빛이 반짝인다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

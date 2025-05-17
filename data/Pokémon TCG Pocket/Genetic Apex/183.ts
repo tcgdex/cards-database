@@ -47,7 +47,9 @@ const card: Card = {
 		de: "Es häutet sich, um zu wachsen. Dabei wird es von\neinem tosenden Wasserfall beschützt.",
 		'pt-br': "Troca de pele várias vezes à medida que cresce. Durante\neste processo, é protegido por uma cachoeira agitada.",
 		ko: "세차게 떨어지는 폭포의 보호를 받으며\n탈피를 거듭해 점점 크게 자란다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

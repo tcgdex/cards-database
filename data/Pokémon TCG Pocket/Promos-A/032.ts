@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Promos-A"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Charmander",
 		fr: "Salamèche",
@@ -11,11 +12,13 @@ const card: Card = {
 		ko: "파이리",
 		'pt-br': "Charmander"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fire"],
+
 	description: {
 		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
 		fr: "Il préfère ce qui est chaud. En cas de pluie,\nde la vapeur se forme autour de sa queue.",
@@ -25,7 +28,9 @@ const card: Card = {
 		ko: "뜨거운 것을 좋아하는 성격이다.\n비에 젖으면 꼬리 끝에서\n연기가 난다고 한다.",
 		'pt-br': "Prefere coisas quentes. Quando chove, dizem\nque solta vapor pela ponta de sua cauda."
 	},
+
 	stage: "Basic",
+
 	attacks: [{
 		name: {
 			en: "Ember",
@@ -48,10 +53,13 @@ const card: Card = {
 			'pt-br': "Descarte 1 Energia {R} deste Pokémon."
 		}
 	}],
+
 	weaknesses: [{
 		type: "Water",
 		value: "+20"
 	}],
-	retreat: 1
+
+	retreat: 1,
+	boosters: []
 }
 export default card

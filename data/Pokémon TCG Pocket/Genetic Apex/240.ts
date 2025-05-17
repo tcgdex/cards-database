@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 140,
 	types: ["Darkness"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Nidorina"
 	},
@@ -65,7 +66,9 @@ const card: Card = {
 		de: "Sie sind eher defensiv als offensiv veranlagt.\nMit ihren panzerartigen Schuppen schützen sie\nihre Jungen vor jeglichen Angriffen.",
 		'pt-br': "Nidoqueen é melhor na defensiva. Com suas\nescamas parecidas com uma armadura,\nprotege seus filhotes de qualquer ataque.",
 		ko: "공격보다는 방어가 특기다.\n갑옷 같은 비늘로 어떠한\n공격에도 새끼를 지킨다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

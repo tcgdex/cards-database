@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es badet sehr gern im trockenen Sand.\nDadurch befreit es seinen Körper von\nSchmutz und Feuchtigkeit.",
 		'pt-br': "Adora banhar-se na areia ressecada. Ao\nfazer isso, este Pokémon se livra da sujeira\ne da umidade grudadas em seu corpo.",
 		ko: "건조한 모래땅에서 모래를 끼얹는 것을\n좋아한다. 몸에 붙은 지저분한 것들을\n떨어뜨리고 물기를 없애는 것이다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

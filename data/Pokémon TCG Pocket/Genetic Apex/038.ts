@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Fire"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Vulpix"
 	},
-
 
 	attacks: [{
 		cost: ["Fire", "Fire"],
@@ -68,6 +68,7 @@ const card: Card = {
 		ko: "꼬리 하나하나에\n신통력이 담겨 있다.\n1000년을 산다고 한다."
 	},
 
+	boosters: ["charizard"]
 }
 
 export default card

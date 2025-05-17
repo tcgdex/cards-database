@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Fighting"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Machoke"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting", "Fighting", "Fighting"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Es verwendet seine vier Arme, um seine\nGegner unermüdlich mit schnellen Schlägen\naus allen Winkeln einzudecken.",
 		'pt-br': "Ele balança velozmente seus quatro braços para\natingir seus oponentes com socos e pancadas\nincessantes de todos os ângulos.",
 		ko: "4개의 팔을 재빠르게 움직여서\n모든 각도에서 쉬지 않고\n펀치와 당수를 날린다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

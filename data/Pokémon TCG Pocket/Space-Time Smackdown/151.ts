@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "자신의 덱에서 「나옹마」「스컹뿡」「삐딱구리」 랜덤으로 1장 패로 가져온다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["dialga"]
 }
 
 export default card

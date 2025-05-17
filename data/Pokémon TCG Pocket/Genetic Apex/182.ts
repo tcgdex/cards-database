@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Metal"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Meltan"
 	},
@@ -79,7 +80,9 @@ const card: Card = {
 		de: "Geht sein Leben dem Ende zu, rostet sein Körper\nund fällt auseinander. Kurz darauf erwachen die\nverbliebenen Fragmente als Meltan zum Leben.",
 		'pt-br': "No fim de sua vida, Melmetal enferrujará e se\ndespedaçará. Os pequenos cacos que ficarem\npara trás eventualmente renascerão como Meltan.",
 		ko: "수명이 다하면 몸이 녹슬고\n붕괴한다. 이윽고 작은 파편이\n멜탄으로 부활한다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Bei spätsommerlichen Strandbesuchen kann man\nGruppen von Sterndu begegnen, deren Kerne in\ngleichmäßigem Rhythmus aufblinken.",
 		'pt-br': "Se for à praia perto do fim do verão, você\nverá grupos de Staryu iluminados em um\nritmo contínuo.",
 		ko: "늦여름 해변에 가면\n규칙적인 리듬으로 빛나는\n별가사리의 무리를 볼 수 있다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

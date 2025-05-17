@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 90,
 	types: ["Metal"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Pawniard"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Es dient als Anführer einer Schar Gladiantri.\nNach Revierkämpfen werden die Verlierer in\ndie Gewinnerschar assimiliert.",
 		'pt-br': "Este Pokémon lidera um grupo de Pawniard.\nOs grupos que são derrotados em disputas\nterritoriais são incorporados ao lado vencedor.",
 		ko: "자망칼을 거느리며 무리를 만든다.\n영역을 건 싸움에서 진 무리는\n이긴 쪽에 흡수된다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

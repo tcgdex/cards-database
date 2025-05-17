@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Krabby"
 	},
-
 
 	attacks: [{
 		cost: ["Water", "Water", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Die Kraft seiner großen und harten Schere\nentspricht 10 000 PS. Durch die Größe ist sie\naber auch äußerst unhandlich und sperrig.",
 		'pt-br': "Sua pinça grande e dura possui a força de\n10.000 cavalos-vapor. No entanto, por ser\ntão grande, movê-la é um incômodo.",
 		ko: "단단한 집게는 1만 마력의\n파워를 지녔지만\n너무 커서 움직임이 둔하다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

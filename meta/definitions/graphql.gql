@@ -72,6 +72,9 @@ input Sort {
 
 """a Card filters"""
 input CardsFilters {
+	"""Filter on the booster in which the card is available"""
+	# booster: String
+
 	"""Filter on the card's category (Pokemon, Trainer or Energy)"""
 	category: String
 
@@ -219,6 +222,9 @@ type Card {
 	"""The card variants"""
 	variants: Variants
 
+	"""The boosters in which the card is available"""
+	boosters: [Booster]
+
 	"""The pokémon weaknesses"""
 	weaknesses: [WeakResListItem]
 
@@ -310,6 +316,33 @@ type Variants {
 	wPromo: Boolean!
 }
 
+"""
+A booster pack for Pokémon TCG cards
+
+Boosters represent the different pack designs that cards can be obtained from within a set.
+Each set may have multiple booster pack designs (e.g., themed around specific Pokémon).
+"""
+type Booster {
+	"""
+	The booster unique identifier
+
+	Format: boo_<set_id>-<booster_id>
+	"""
+	id: String!
+
+	"""The display name of the booster pack"""
+	name: String!
+
+	"""The booster pack logo image URL if available"""
+	logo: String
+
+	"""The front artwork image URL of the booster pack if available"""
+	artwork_front: String
+
+	"""The back artwork image URL of the booster pack if available"""
+	artwork_back: String
+}
+
 ##################
 #      Set       #
 ##################
@@ -344,6 +377,13 @@ type Set {
 
 	"""The set tcgOnline code if available in the APP"""
 	tcgOnline: String
+
+	"""
+	The booster pack designs available for this set
+
+	A set may have multiple booster pack designs, often themed around different Pokémon
+	"""
+	boosters: [Booster]
 }
 
 """

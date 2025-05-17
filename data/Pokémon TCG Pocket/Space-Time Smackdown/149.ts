@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "서로의 차례의 마지막에 이 카드를 붙이고 있는 포켓몬이 특수 상태라면 그 포켓몬의 특수 상태를 모두 회복. 그 뒤, 이 카드를 트래쉬한다."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	boosters: ["palkia"]
 }
 
 export default card

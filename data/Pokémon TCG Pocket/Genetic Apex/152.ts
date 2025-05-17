@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Cubone"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Als es seine Trauer überwand, entwickelte es sich\nund wurde stärker. Mit seinem Knochen als Waffe\nstellt sich Knogga mutig seinen Feinden.",
 		'pt-br': "Lidou com sua tristeza para evoluir um\ncorpo novo e forte. Enfrenta seus oponentes\ncom bravura, empunhando um osso como arma.",
 		ko: "슬픔을 극복하고 늠름하게\n진화했다. 뼈를 무기 삼아\n용감하게 적과 맞서 싸운다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

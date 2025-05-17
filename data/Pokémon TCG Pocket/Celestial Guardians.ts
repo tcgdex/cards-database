@@ -20,6 +20,19 @@ const set: Set = {
 		official: 155
 	},
 
+	boosters: {
+		solgaleo: {
+			name: {
+				en: 'Solgaleo'
+			}
+		},
+		lunala: {
+			name: {
+				en: 'Lunala'
+			}
+		}
+	},
+
 	releaseDate: "2025-04-30"
 }
 

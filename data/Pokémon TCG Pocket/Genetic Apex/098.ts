@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Genetic Apex"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Magneton",
 		fr: "Magnéton",
@@ -11,14 +12,17 @@ const card: Card = {
 		ko: "레어코일",
 		'pt-br': "Magneton"
 	},
+
 	illustrator: "kirisAki",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Magnemite"
 	},
+
 	abilities: [{
 		type: "Ability",
 		name: {
@@ -40,6 +44,7 @@ const card: Card = {
 			'pt-br': "Uma vez durante o seu turno, você poderá pegar 1 Energia {L} da sua Zona de Energia e a este Pokémon."
 		}
 	}],
+
 	attacks: [{
 		cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 		name: {
@@ -53,12 +58,15 @@ const card: Card = {
 		},
 		damage: "60"
 	}],
+
 	weaknesses: [{
 		type: "Fighting",
 		value: "+20"
 	}],
+
 	retreat: 2,
 	rarity: "Three Diamond",
+
 	description: {
 		en: "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
 		fr: "Le lien magnétique qui rattache ces trois Magnéti est si puissant\nqu'il fait mal aux oreilles si on s'en approche trop.",
@@ -67,6 +75,8 @@ const card: Card = {
 		de: "Drei Magnetilo sind durch ein starkes\nMagnetfeld verbunden. In seiner Nähe\nbekommt man Ohrensausen.",
 		'pt-br': "Três Magnemite estão vinculados por uma força\nmagnética muito poderosa. Se você chegar\nmuito perto, ficará com dor de ouvido.",
 		ko: "3개의 코일은 강한 자력으로\n연결되어 있다. 가까이 다가가면\n강한 귀울림에 시달리게 된다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 export default card

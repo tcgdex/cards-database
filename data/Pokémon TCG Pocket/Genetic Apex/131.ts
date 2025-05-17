@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Psychic"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Ralts"
 	},
-
 
 	attacks: [{
 		cost: ["Psychic", "Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Seine Psycho-Kräfte erlauben es ihm,\nden Raum um sich selbst zu verformen\nund so in die Zukunft zu sehen.",
 		'pt-br': "Possui um poder psíquico que lhe permite distorcer\no espaço ao seu redor e ver o futuro.",
 		ko: "사이코 파워를 조작해\n주변의 공간을 일그러뜨려\n미래를 내다볼 수 있다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

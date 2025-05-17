@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Celestial Guardians"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Turtonator",
 		fr: "Boumata",
@@ -11,11 +12,13 @@ const card: Card = {
 		ko: "폭거북스",
 		'pt-br': "Turtonator"
 	},
+
 	illustrator: "akagi",
 	rarity: "One Star",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
+
 	description: {
 		en: "Explosive substances coat the shell on its back. Enemies that dare attack it will be blown away by an immense detonation.",
 		fr: "Il s'abrite derrière une carapace couverte\nd'explosifs. Lorsqu'un ennemi l'attaque,\nil riposte à grands coups de déflagrations.",
@@ -25,7 +28,9 @@ const card: Card = {
 		ko: "폭약으로 코팅된 등껍질을\n짊어지고 있다. 공격하는\n상대에게 대폭발로 반격한다.",
 		'pt-br': "Sua carapaça é coberta por substâncias explosivas.\nOs inimigos que ousarem atacar este Pokémon\nserão lançados longe por uma explosão imensa."
 	},
+
 	stage: "Basic",
+
 	attacks: [{
 		name: {
 			en: "Fire Spin",
@@ -48,10 +53,13 @@ const card: Card = {
 			'pt-br': "Descarte 1 Energia {R} deste Pokémon."
 		}
 	}],
+
 	weaknesses: [{
 		type: "Water",
 		value: "+20"
 	}],
-	retreat: 4
+
+	retreat: 4,
+	boosters: ["lunala"]
 }
 export default card

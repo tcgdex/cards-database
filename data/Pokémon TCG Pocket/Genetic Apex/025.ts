@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es bahnt sich mit seinen scharfen Sicheln so\nschnell einen Weg durch das Gras, dass es dabei\nfür das menschliche Auge unsichtbar ist.",
 		'pt-br': "Corta a grama com suas foices afiadas\ne se move tão rápido que o olho humano\nnão consegue enxergá-lo.",
 		ko: "아주 예리한 낫을 이용해\n풀숲을 베며 나아간다.\n매우 빠른 움직임에 눈이 따라가지 못한다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

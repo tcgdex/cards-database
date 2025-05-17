@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Wenn es um die Verteidigung seines Reviers\ngeht, schreckt das draufgängerische Habitak\nselbst vor großen Pokémon nicht zurück.",
 		'pt-br': "Sua natureza descuidada leva Spearow a\nencarar até Pokémon maiores quando\nprecisa proteger o seu território.",
 		ko: "자신의 영역을 지키기 위해서라면\n상대가 큰 포켓몬이라도\n덤벼드는 무모한 성질을 가졌다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

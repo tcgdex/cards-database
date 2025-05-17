@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es breitet die Hautlappen an seinem Kopf aus,\num mithilfe des Sonnenlichts Strom zu erzeugen\nund mächtige Elektro-Attacken einzusetzen.",
 		'pt-br': "Quando abertas, as extensões na sua cabeça\nservem como painéis solares, gerando a energia\nusada em seus movimentos elétricos.",
 		ko: "머리에 있는 주름을 펼쳐서\n태양의 빛으로 발전하면 파워풀한\n전기 기술을 쓸 수 있게 된다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "이 차례에 자신의 배틀 포켓몬의 후퇴에 필요한 에너지를 1개 적게 만든다."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: []
 }
 
 export default card

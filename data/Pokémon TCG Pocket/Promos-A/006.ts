@@ -29,7 +29,8 @@ const card: Card = {
 		'pt-br': "Seu oponente embaralha a mão dele no baralho dele e compra 3 cartas."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: []
 }
 
 export default card

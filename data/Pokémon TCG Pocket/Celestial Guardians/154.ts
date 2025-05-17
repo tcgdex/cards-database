@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "자신의 「마셰이드」 또는 「달코퀸」 1마리의 HP를 모두 회복. 그 뒤, 그 포켓몬에서 에너지를 모두 트래쉬한다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["solgaleo"]
 }
 
 export default card

@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Nidoran♀"
 	},
-
 
 	attacks: [{
 		cost: ["Darkness"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Man geht davon aus, dass sich das Horn auf\nihrem Kopf zurückgebildet hat, damit sie ihre\nJungen nicht beim Füttern verletzen.",
 		'pt-br': "O chifre em sua cabeça atrofiou. Acredita-se que\nisso aconteceu para que os filhotes de Nidorina\nnão fossem espetados enquanto a mãe os alimenta.",
 		ko: "이마의 뿔은 새끼에게 먹이를\n줄 때 찌르지 않도록\n퇴화했다고 추측되고 있다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

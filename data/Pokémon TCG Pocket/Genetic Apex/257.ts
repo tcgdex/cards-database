@@ -19,9 +19,11 @@ const card: Card = {
 	hp: 130,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Staryu"
 	},
+
 	suffix: "EX",
 
 	attacks: [{
@@ -46,7 +48,8 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	rarity: "Two Star"
+	rarity: "Two Star",
+	boosters: ["charizard"]
 }
 
 export default card
