@@ -1,4 +1,4 @@
-import { objectKeys } from '@dzeio/object-util'
+import { objectKeys, objectMap } from '@dzeio/object-util'
 import { Set, SupportedLanguages } from '../../../interfaces'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
 import { cardToCardSimple, getCards } from './cardUtil'
@@ -106,6 +106,11 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 		abbreviation: (set.abbreviations?.official || resolveText(set.abbreviations, lang)) ? {
 			official: set.abbreviations?.official,
 			localized: resolveText(set.abbreviations, lang)
-		} : undefined
+		} : undefined,
+		boosters: set.boosters ? objectMap(set.boosters, (booster, id) => ({
+			id: `boo_${set.id}-${id}`,
+			name: resolveText(booster.name, lang),
+			// images will be coming soon...
+		})) : undefined,
 	}
 }

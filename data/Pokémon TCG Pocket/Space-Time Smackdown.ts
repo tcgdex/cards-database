@@ -21,9 +21,9 @@ const set: Set = {
 	},
 
 	boosters: {
-		dialga: {
+		palkia: {
 			name: {
-				en: 'Dialga'
+				en: 'Palkia'
 			}
 		},
 		dialga: {
@@ -31,7 +31,7 @@ const set: Set = {
 				en: 'Dialga'
 			}
 		}
-	}
+	},
 
 	releaseDate: "2025-01-30"
 }
