@@ -25,7 +25,7 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie Colorless-Energie.\nWenn diese Karte durch einen Effekt einer von dem Pokémon, an das diese Karte angelegt ist, eingesetzten Attacke auf deinen Ablagestapel gelegt wird, lege diese Karte aus deinem Ablagestapel an jenes Pokémon an, nachdem du angegriffen hast."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "H",
 
 	variants: {
