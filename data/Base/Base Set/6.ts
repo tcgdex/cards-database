@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Gyarados",
 		fr: "Léviator",
-		de: "Garados"
+		de: "Garados",
+		pt: "Gyarados"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -39,7 +40,8 @@ const card: Card = {
 			name: {
 				en: "Dragon Rage",
 				fr: "Draco-Rage",
-				de: "Drachenwut"
+				de: "Drachenwut",
+				pt: "Raiva do Dragão"
 			},
 
 			damage: 50,
@@ -55,12 +57,14 @@ const card: Card = {
 			name: {
 				en: "Bubblebeam",
 				fr: "Bulles d'O",
-				de: "Blubbstrahl"
+				de: "Blubbstrahl",
+				pt: "Raio de Bolhas"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon gelähmt."
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon gelähmt.",
+				pt: "Jogue uma moeda. Se sair cara, o Pokémon Defensor está Paralisado."
 			},
 			damage: 40,
 
@@ -82,7 +86,9 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Gigantesque et maléfique, il est capable de raser une ville dans un accès de rage terrifiante."
+		fr: "Gigantesque et maléfique, il est capable de raser une ville dans un accès de rage terrifiante.",
+		pt: "Gigantesco e maléfico, ele é capaz de rasar uma cidade em um ataque de raiva terrível.",
+		en: "Huge and malevolent, it is capable of razing a city in a terrifying rage attack."
 	}
 }
 

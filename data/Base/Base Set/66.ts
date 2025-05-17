@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Tangela",
+		pt: "Tangela",
 		fr: "Saquedeneu",
 		de: "Tangela"
 	},
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bind",
+				pt: "Bind",
 				fr: "Étreinte",
 				de: "Klammergriff"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				pt: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt."
 			},

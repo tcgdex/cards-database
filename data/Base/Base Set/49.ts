@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Drowzee",
+		pt: "Drowzee",
 		fr: "Soporifik",
 		de: "Traumato"
 	},
@@ -32,6 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
+				pt: "Pound",
 				fr: "Écras' Face",
 				de: "Pfund"
 			},
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				pt: "Confuse Ray",
 				fr: "Onde Folie",
 				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				pt: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon verwirrt."
 			},

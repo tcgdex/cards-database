@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
+		pt: "Energia de Raios",
 		fr: "Énergie Électrique",
 		de: "Elektroenergie"
 	},

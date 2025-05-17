@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Poliwrath",
+		pt: "Poliwrath",
 		fr: "Tartard",
 		de: "Quappo"
 	},
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwhirl",
+		pt: "Poliwhirl",
 	},
 
 	stage: "Stage2",
@@ -38,11 +40,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Gun",
+				pt: "Water Gun",
 				fr: "Pistolet à O",
 				de: "Aquaknarre"
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
+				pt: "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
 				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Tartard en plus du coût en Énergie de cette attaque. Les Énergies  supplémentaires après la seconde ne comptent pas.",
 				de: "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Quappo abgelegte  Energiekarte zu, die nicht zum Zahlen der Energiekosten füür diesen Angriff verwendet wurde. Du kannst nicht mehr als 20 Schadenspunkte auf diese Weise hinzufügen."
 			},
