@@ -1,14 +1,14 @@
 import { Serie, Set, SupportedLanguages } from '../../../interfaces'
 import { SerieResume, Serie as SerieSingle } from '../../../meta/definitions/api'
 import { getSets, setToSetSimple } from './setUtil'
-import { DB_PATH, getDataFolder, smartGlob } from './util'
+import { DB_PATH, getDataFolder, resolveText, smartGlob } from './util'
 
 export async function getSerie(name: string, lang: SupportedLanguages): Promise<Serie> {
 	return (await import(`../../${DB_PATH}/${getDataFolder(lang)}/${name}.ts`)).default
 }
 
 export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): Promise<boolean> {
-	if (!serie.name[lang]) {
+	if (!resolveText(serie.name, lang)) {
 		return false
 	}
 	const sets = await getSets(serie.name.en, lang)
@@ -22,7 +22,7 @@ export async function getSeries(lang: SupportedLanguages): Promise<Array<Serie>>
 		// Fetch the Serie
 		.map((it) => getSerie(it, lang))))
 		// Filter the serie if no name's exists in the selected lang
-		.filter((serie) => Boolean(serie.name[lang]))
+		.filter((serie) => Boolean(resolveText(serie.name, lang)))
 
 	// Filter available series
 	const isAvailable = await Promise.all(series.map((serie) => isSerieAvailable(serie, lang)))
@@ -69,7 +69,7 @@ export async function serieToSerieSingle(serie: Serie, lang: SupportedLanguages)
 	return {
 		id: serie.id,
 		logo,
-		name: serie.name[lang] as string,
+		name: resolveText(serie.name, lang) as string,
 		firstSet: sets[0],
 		lastSet: sets[sets.length - 1],
 		releaseDate: typeof releaseDate === 'object' ? releaseDate[lang] : releaseDate,

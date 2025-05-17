@@ -4,7 +4,7 @@ import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
 import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
 import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
-import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, smartGlob } from './util'
+import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -20,7 +20,7 @@ export async function getCardPictures(cardId: string, card: Card, lang: Supporte
 }
 
 export async function cardToCardSimple(id: string, card: Card, lang: SupportedLanguages): Promise<CardResume> {
-	const cardName = card.name[lang]
+	const cardName = resolveText(card.name, lang)
 	if (!cardName) {
 		throw new Error(`Card (${card.set.id}-${id}) has no name in (${lang})`)
 	}
@@ -47,7 +47,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		illustrator: card.illustrator,
 		image,
 		localId,
-		name: card.name[lang] as string,
+		name: resolveText(card.name, lang) as string,
 
 		rarity: translate('rarity', card.rarity, lang) as any,
 		set: await setToSetSimple(card.set, lang),
@@ -63,27 +63,27 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		dexId: card.dexId,
 		hp: card.hp,
 		types: card.types?.map((t) => translate('types', t, lang)) as Array<Types>,
-		evolveFrom: card.evolveFrom && card.evolveFrom[lang],
+		evolveFrom: card.evolveFrom && resolveText(card.evolveFrom, lang),
 		weight: card.weight,
-		description: card.description ? card.description[lang] as string : undefined,
+		description: card.description ? resolveText(card.description, lang) as string : undefined,
 		level: card.level,
 		stage: translate('stage', card.stage, lang) as any,
 		suffix: translate('suffix', card.suffix, lang) as any,
 		item: card.item ? {
-			name: card.item.name[lang] as string,
-			effect: card.item.effect[lang] as string
+			name: resolveText(card.item.name, lang),
+			effect: resolveText(card.item.effect, lang)
 		} : undefined,
 
 		abilities: card.abilities?.map((el) => ({
 			type: translate('abilityType', el.type, lang) as any,
-			name: el.name[lang] as string,
-			effect: el.effect[lang] as string
+			name: resolveText(el.name, lang),
+			effect: resolveText(el.effect, lang)
 		})),
 
 		attacks: card.attacks?.map((el) => ({
 			cost: el.cost?.map((t) => translate('types', t, lang)) as Array<Types>,
-			name: el.name[lang] as string,
-			effect: el.effect ? el.effect[lang] : undefined,
+			name: resolveText(el.name, lang) as string,
+			effect: el.effect ? resolveText(el.effect, lang) : undefined,
 			damage: el.damage
 		})),
 		weaknesses: card.weaknesses?.map((el) => ({
@@ -98,7 +98,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 
 		retreat: card.retreat,
 
-		effect: card.effect ? card.effect[lang] : undefined,
+		effect: card.effect ? resolveText(card.effect, lang) : undefined,
 
 		trainerType: translate('trainerType', card.trainerType, lang) as any,
 		energyType: translate('energyType', card.energyType, lang) as any,

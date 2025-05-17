@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Machamp ex"
+		en: "Machamp ex",
+		fr: "Mackogneur-ex",
+		es: "Machamp ex",
+		it: "Machamp-ex",
+		de: "Machomei-ex",
+		'pt-br': "Machamp ex",
+		ko: "괴력몬 ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -23,7 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mega Punch"
+			en: "Mega Punch",
+			fr: "Ultimapoing",
+			es: "Megapuño",
+			it: "Megapugno",
+			de: "Megahieb",
+			'pt-br': "Megassoco",
+			ko: "메가톤펀치"
 		},
 
 		damage: 120,

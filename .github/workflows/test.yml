@@ -31,7 +31,7 @@ jobs:
       run: |
         bun run validate
         cd server
-        bun run validate
+        bun run --bun validate
 
     - name: Validate some requests
       run: |

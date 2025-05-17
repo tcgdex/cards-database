@@ -5,12 +5,13 @@ const set: Set = {
 	id: "A2a",
 
 	name: {
-		// de: "Unschlagbare Gene",
+		de: "Licht des Triumphs",
 		en: "Triumphant Light",
-		// es: "Genes Formidables",
-		// fr: "Puissance Génétique",
-		// it: "Geni Supremi",
-		// pt: "Dominação Genética"
+		es: "Luz Triunfal",
+		fr: "Lumière Triomphale",
+		it: "Luce Trionfale",
+		'pt-br': "Luz Triunfante",
+		ko: '초극의 빛'
 	},
 
 	serie: serie,

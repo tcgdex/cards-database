@@ -44,7 +44,18 @@
 		"Shiny Ultra Rare": "Rara Ultra Variocolor",
 		"Special illustration rare": "Rara Ilustración Especial",
 		"Ultra Rare": "Rara Ultra",
-		"Uncommon": "Uncommon"
+		"Uncommon": "Uncommon",
+		"One Star": "Une Étoile",
+		"Two Star": "deux Étoiles",
+		"Three Star": "Trois Étoiles",
+		"Crown": "Couronne",
+		"One Diamond": "Une Diamant",
+		"Two Diamond": "deux Diamant",
+		"Three Diamond": "Trois Diamant",
+		"Four Diamond": "Quatre Diamant",
+		"One Shiny": "Un Chromatique",
+		"Two Shiny": "Deux Chromatique",
+		"Three Shiny": "Un Chromatique"
 	},
 	"stage": {
 		"Baby": "Bebé",

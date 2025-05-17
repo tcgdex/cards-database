@@ -10,7 +10,8 @@ const set: Set = {
 		es: "Festival Brillante",
 		fr: "Réjouissances Rayonnantes",
 		it: "Tripudio Splendente",
-		pt: "Festival Brilhante"
+		'pt-br': "Festival Brilhante",
+		ko: '샤이닝 하이'
 	},
 
 	serie: serie,

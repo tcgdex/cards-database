@@ -5,7 +5,13 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Popplio"
+		en: "Popplio",
+		fr: "Otaquin",
+		es: "Popplio",
+		it: "Popplio",
+		de: "Robball",
+		'pt-br': "Popplio",
+		ko: "누리공"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -15,14 +21,26 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "The balloons it inflates with its nose grow larger and larger as it practices day by day."
+		en: "The balloons it inflates with its nose grow larger and larger as it practices day by day.",
+		fr: "Grâce à son entraînement quotidien, les ballons\nqu'il gonfle avec son nez sont de plus en plus gros.",
+		es: "Gracias al entrenamiento diario al que se somete, es capaz\nde inflar globos cada vez más grandes a través de la nariz.",
+		it: "Grazie all'allenamento quotidiano, i palloncini che gonfia\ncon il naso diventano a poco a poco sempre più grandi.",
+		de: "Dank seines täglichen Trainings gelingt es ihm,\nmit seiner Nase immer größere Blasen zu erzeugen.",
+		'pt-br': "Os balões que cria com seu nariz ficam cada vez\nmaiores à medida que pratica dia após dia.",
+		ko: "코로 부풀리는 벌룬은\n매일 연습을 반복하면서\n조금씩 커진다."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Gun"
+			en: "Water Gun",
+			fr: "Pistolet à O",
+			es: "Pistola Agua",
+			it: "Pistolacqua",
+			de: "Aquaknarre",
+			'pt-br': "Revólver d'Água",
+			ko: "물대포"
 		},
 
 		damage: 20,
