@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Gerät es in Gefahr, versprüht es Wasser aus\nseinem Federkleid und nutzt den Sprühregen,\num Reißaus zu nehmen.",
 		'pt-br': "Quando atacado, usa as penas para\nespirrar água e foge protegido pelo spray.",
 		ko: "상대에게 공격당하면 전신의\n깃털에서 물보라를 내뿜는다.\n물안개에 숨어들어 도망친다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

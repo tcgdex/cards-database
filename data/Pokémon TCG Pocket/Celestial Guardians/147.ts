@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "이 카드를 붙이고 있는 {G}포켓몬의 최대 HP를 +30한다."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	boosters: ["solgaleo"]
 }
 
 export default card

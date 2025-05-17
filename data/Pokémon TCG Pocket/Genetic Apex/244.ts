@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 160,
 	types: ["Dragon"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Dragonair"
 	},
@@ -58,7 +59,9 @@ const card: Card = {
 		de: "Man sagt, dass es irgendwo im Meer\neine Insel gibt, auf der sie sich\nversammeln. Nur sie leben dort.",
 		'pt-br': "Acredita-se que em algum lugar no oceano\né possível encontrar uma ilha onde estes\nPokémon se reúnem. Só eles moram lá.",
 		ko: "드넓은 바다 어딘가에는\n망나뇽만이 모여 사는\n섬이 있다고 한다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

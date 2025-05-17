@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "자신의 덱을 위에서부터 1장 보고 원래대로 되돌린다."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: []
 }
 
 export default card

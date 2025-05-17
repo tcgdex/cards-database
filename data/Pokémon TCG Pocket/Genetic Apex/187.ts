@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Colorless"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Pidgey"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Die Krallen an seinen Füßen sind sehr ausgeprägt.\nEs kann sogar ein Owei zu seinem Nest\nin 100 km Entfernung tragen.",
 		'pt-br': "As garras nos seus pés são bem desenvolvidas.\nEle pode levar presas como Exeggcute para seu\nninho a mais de 100 km de distância.",
 		ko: "발톱이 발달해 있다.\n먹이인 아라리를 잡아\n100km 떨어져 있는 둥지까지 나른다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

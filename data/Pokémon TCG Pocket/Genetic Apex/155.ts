@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Seine Fäuste zerschneiden regelrecht die Luft.\nSie sind so schnell, dass selbst die geringste\nBerührung Verbrennungen verursacht.",
 		'pt-br': "Seus murros cortam o ar. São tão\nvelozes que um simples toque pode\ncausar uma queimadura.",
 		ko: "주변의 공기를 가르는 펀치.\n스치기만 해도 화상을 입을 정도로\n펀치 스피드가 매우 빠르다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

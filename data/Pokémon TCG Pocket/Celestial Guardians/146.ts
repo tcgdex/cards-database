@@ -29,7 +29,8 @@ const card: Card = {
 		'pt-br': "Se o Pokémon ao qual esta carta está ligada for o seu Pokémon Ativo e for danificado por um ataque dos Pokémon do seu oponente, o Pokémon Atacante agora estará Envenenado."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	boosters: ["lunala"]
 }
 
 export default card

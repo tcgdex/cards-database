@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Psychic"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Gastly"
 	},
-
 
 	attacks: [{
 		cost: ["Psychic"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Es lauert gern im Dunkeln und tippt Leuten mit\nseiner gasförmigen Hand auf die Schulter.\nSeine Berührung erzeugt endloses Schaudern.",
 		'pt-br': "Gosta de se esconder no escuro e bater nos\nombros dos outros com sua mão gasosa.\nSeu toque causa arrepios que não acabam mais.",
 		ko: "어둠을 틈타 가스로 된 손을 뻗쳐\n사람의 어깨를 두드리기 좋아한다.\n그 손에 닿으면 떨림이 멈추지 않는다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

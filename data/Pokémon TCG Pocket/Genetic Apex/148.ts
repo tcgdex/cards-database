@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Geodude"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting", "Colorless", "Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Es klettert Berghänge bis zum Gipfel empor.\nEinmal oben angekommen, rollt es über den\nBergpfad sogleich wieder hinunter.",
 		'pt-br': "Escala penhascos em direção ao cume\nda montanha. Assim que atinge o topo,\nrola para baixo pelo mesmo caminho que veio.",
 		ko: "정상을 목표로 절벽을 오른다.\n정상에 도착하면 곧바로\n올라온 산길을 굴러 내려간다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

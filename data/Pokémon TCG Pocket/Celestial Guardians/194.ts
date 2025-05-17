@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "이 카드는 자신의 필드에 「깨비물거미」 있을 때만 사용할 수 있다.\n상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["solgaleo"]
 }
 
 export default card

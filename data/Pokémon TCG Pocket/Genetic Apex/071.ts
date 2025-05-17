@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 70,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Horsea"
 	},
-
 
 	attacks: [{
 		cost: ["Water", "Water", "Colorless"],
@@ -64,7 +64,9 @@ const card: Card = {
 		de: "Männlichen Seemon obliegt es, den Nachwuchs\ngroßzuziehen. In diesem Zeitraum ist das Gift in\nihren Rückenstacheln stärker und dickflüssiger.",
 		'pt-br': "São os machos que cuidam das crias. Enquanto\nSeadra criam os mais jovens, os espinhos em suas\ncostas secretam um veneno mais grosso e potente.",
 		ko: "수컷이 새끼를 기른다.\n새끼를 기르는 동안 등에 난\n가시의 독소는 강해지고 짙어진다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

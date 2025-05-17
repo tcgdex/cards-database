@@ -53,7 +53,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Crown"
+	rarity: "Crown",
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

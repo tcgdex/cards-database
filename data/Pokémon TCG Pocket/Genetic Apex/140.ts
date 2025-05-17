@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Diglett"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Seine drei Köpfe bewegen sich abwechselnd\nhinauf und hinunter, um das Erdreich um sich\nherum zu lockern und leichter graben zu können.",
 		'pt-br': "Suas três cabeças movem-se separadamente\npra cima e pra baixo para amaciarem o solo\nao redor, facilitando a escavação.",
 		ko: "3개의 머리가 교차하며\n움직이는 것은 주변의 흙을\n부드럽게 해 파기 쉽게 하기 위해서다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Venonat"
 	},
@@ -66,7 +67,9 @@ const card: Card = {
 		de: "Seine Flügel sind mit staubähnlichen Schuppen\nüberzogen. Mit jedem Flügelschlag verstreut es\nhochgiftigen Puder.",
 		'pt-br': "As suas asas são cobertas por escamas\nsemelhantes a poeira. Toda vez que bate\nas asas, libera uma poeira altamente tóxica.",
 		ko: "날개에 가루가 묻어 있어\n팔락팔락 날갯짓을 할 때마다\n맹독 가루를 흩뿌린다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

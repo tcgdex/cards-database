@@ -80,7 +80,9 @@ const card: Card = {
 
 		damage: 70,
 		cost: ["Lightning", "Lightning"]
-	}]
+	}],
+
+	boosters: ["vol6"]
 }
 
 export default card

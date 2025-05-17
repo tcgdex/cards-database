@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Kalte Meere machen ihm dank seiner dicken\nFettschicht nichts aus. Wärmere Gewässer\nsetzen ihm hingegen sehr zu.",
 		'pt-br': "Graças a sua gordura, os mares gelados não\nincomodam este Pokémon, mas ele fica cansado\nfacilmente em águas mornas.",
 		ko: "두꺼운 지방 덕분에\n추운 바다는 문제없지만\n따뜻한 바다에서 쉽게 지친다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Fire"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Charmeleon"
 	},
-
 
 	attacks: [{
 		cost: ["Fire", "Fire", "Colorless", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Es ist brutal veranlagt. Im Kampf schlägt es mit\nseinem brennenden Schweif um sich und schlitzt\nGegner mit seinen scharfen Klauen auf.",
 		'pt-br': "Possui uma natureza bárbara. Em batalha, chicoteia\ncom sua cauda de fogo e corta com suas garras afiadas.",
 		ko: "불타는 꼬리를 휘두르며\n날카로운 발톱으로 상대를\n베어 가르는 몹시 거친 성격이다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

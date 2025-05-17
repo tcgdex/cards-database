@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Lightning"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Eelektrik"
 	},
-
 
 	attacks: [{
 		cost: ["Lightning", "Lightning", "Colorless"],
@@ -67,7 +67,9 @@ const card: Card = {
 		de: "Es kriecht mithilfe seiner Arme an Land,\nstürzt sich auf seine Beute und zerrt sie\naugenblicklich ins Meer.",
 		'pt-br': "Rastejam para fora do oceano usando seus braços.\nEles atacam as presas na costa e as arrastam\nimediatamente para a água.",
 		ko: "팔 힘으로 바다에서 기어 나와\n물가에 있는 먹이를 덮친다.\n한순간에 바다로 끌고 들어간다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

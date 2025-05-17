@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Wird es vom Mondschein getroffen, bewegt es\nsich. Nachts wandert es weite Wege, um seine\nSamen zu verstreuen.",
 		'pt-br': "Ao ser exposto à luz da lua, começa\na se mover. Aventura-se por aí durante\na noite para espalhar suas sementes.",
 		ko: "달빛을 받아 움직인다.\n밤중에 씨앗을 여기저기\n뿌리기 위해 돌아다닌다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Fire"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Growlithe"
 	},
-
 
 	attacks: [{
 		cost: ["Fire", "Fire", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Eine alte Bildrolle zeigt, dass die Menschen\nvon dem Anblick über Wiesen rennender\nArkani verzaubert waren.",
 		'pt-br': "Um antigo pergaminho mostra que pessoas eram\ncativadas por seu movimento enquanto este\nPokémon corria pelas pradarias.",
 		ko: "초원을 내달리는 모습은\n사람들의 마음을 사로잡았다고\n옛날 그림에 묘사되어 있다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

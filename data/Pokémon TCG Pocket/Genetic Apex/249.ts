@@ -76,7 +76,9 @@ const card: Card = {
 		de: "Es ist weltweit das erste künstliche Pokémon,\ndas dank neuester Technologien mittels\nComputerprogrammen erschaffen wurde.",
 		'pt-br': "Tecnologia de ponta foi usada na criação\nde Porygon. Foi o primeiro Pokémon artificial\ncriado por meio de um programa de computador.",
 		ko: "최고의 과학 기술을 사용해\n세계에서 처음으로 프로그래밍되어\n만들어진 인공 포켓몬이다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

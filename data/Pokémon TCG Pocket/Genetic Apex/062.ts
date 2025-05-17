@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Da Tentacha kein besonders guter Schwimmer ist,\ntreibt es in seichten Gewässern an der\nWasseroberfläche und sucht nach Beute.",
 		'pt-br': "Tentacool não nada particularmente bem.\nFlutua pela superfície de águas rasas\nenquanto procura por sua presa.",
 		ko: "헤엄치는 힘은 강하지 않다.\n얕은 바다 수면을 떠다니면서\n먹이를 찾는다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Shellder"
 	},
-
 
 	abilities: [{
 		type: "Ability",
@@ -80,7 +80,9 @@ const card: Card = {
 		de: "Austos, die in Meeren mit starker\nStrömung leben, entwickeln große\nund scharfe Stacheln an ihrer Schale.",
 		'pt-br': "Cloyster que vivem em mares com correntes\nintensas desenvolvem espinhos grandes\ne afiados em suas conchas.",
 		ko: "조수의 흐름이 격한 바다에 서식하는\n파르셀의 껍데기에 붙은 가시는\n크고 날카롭다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

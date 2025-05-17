@@ -19,9 +19,11 @@ const card: Card = {
 	hp: 140,
 	types: ["Colorless"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Jigglypuff"
 	},
+
 	suffix: "EX",
 
 	attacks: [{
@@ -57,7 +59,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Four Diamond"
+	rarity: "Four Diamond",
+	boosters: ["pikachu"]
 }
 
 export default card

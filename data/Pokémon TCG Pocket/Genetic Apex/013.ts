@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 140,
 	types: ["Grass"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Gloom"
 	},
@@ -66,7 +67,9 @@ const card: Card = {
 		de: "Es besitzt die größten Blütenblätter\nder Welt. Bei jedem Schritt streut es\ngroße Mengen an Giftpollen zu Boden.",
 		'pt-br': "Tem as maiores pétalas do mundo.\nA cada passo, as pétalas se agitam\ne liberam pesadas nuvens de pólen tóxico.",
 		ko: "세계에서 제일 큰 꽃잎은\n걸을 때마다 흔들려 대량의\n독 꽃가루를 흩뿌린다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

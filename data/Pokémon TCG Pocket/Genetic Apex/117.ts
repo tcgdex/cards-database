@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Kadabra"
 	},
-
 
 	attacks: [{
 		cost: ["Psychic", "Colorless", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Es verfügt über extrem hohe Intelligenz und soll\nsich an alles erinnern können, was zwischen seiner\nGeburt und seinem Tod passiert.",
 		'pt-br': "Tem um nível de inteligência incrivelmente alto.\nAlguns dizem que Alakazam se lembra de tudo\nque acontece na sua vida, do nascimento até a morte.",
 		ko: "매우 높은 지능을 지녔다.\n태어나서 죽을 때까지 일어나는 일을\n모두 기억한다고 한다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

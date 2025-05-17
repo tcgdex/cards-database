@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "자신의 포켓몬 1마리의 HP를 20회복."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: []
 }
 
 export default card

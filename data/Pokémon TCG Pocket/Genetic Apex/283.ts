@@ -62,7 +62,9 @@ const card: Card = {
 		de: "Es beherrscht alle möglichen Attacken, daher sieht\nman in ihm den Vorfahren aller Pokémon.",
 		'pt-br': "Como pode usar todos os tipos de movimentos,\nmuitos cientistas acreditam que Mew seja\no ancestral dos Pokémon.",
 		ko: "모든 기술을 사용하기 때문에\n포켓몬의 조상이라고 생각하는\n학자가 많다."
-	}
+	},
+
+	boosters: []
 }
 
 export default card

@@ -57,7 +57,8 @@ const card: Card = {
 		}
 	}],
 
-	retreat: 2
+	retreat: 2,
+	boosters: ["solgaleo"]
 }
 
 export default card

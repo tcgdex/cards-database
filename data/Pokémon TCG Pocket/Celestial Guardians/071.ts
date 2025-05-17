@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Celestial Guardians"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Spoink",
 		fr: "Spoink",
@@ -11,11 +12,13 @@ const card: Card = {
 		ko: "피그점프",
 		'pt-br': "Spoink"
 	},
+
 	illustrator: "Sekio",
 	rarity: "One Diamond",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],
+
 	description: {
 		en: "Spoink will die if it stops bouncing. The pearl on its head amplifies its psychic powers.",
 		fr: "Si Spoink arrêtait de sauter partout,\nil mourrait. La perle sur sa tête\namplifie ses pouvoirs psychiques.",
@@ -25,7 +28,9 @@ const card: Card = {
 		ko: "뛰어오르는 것을 멈추면 죽는다고 한다.\n머리에 이고 있는 진주가\n사이코 파워를 증폭시켜 준다.",
 		'pt-br': "Spoink morrerá se parar de pular. A pérola em sua cabeça\naumenta seus poderes psíquicos."
 	},
+
 	stage: "Basic",
+
 	attacks: [{
 		name: {
 			en: "Psycharge",
@@ -47,10 +52,13 @@ const card: Card = {
 			'pt-br': "Pegue 1 Energia {P} da sua Zona de Energia e ligue-a a este Pokémon."
 		}
 	}],
+
 	weaknesses: [{
 		type: "Darkness",
 		value: "+20"
 	}],
-	retreat: 1
+
+	retreat: 1,
+	boosters: ["solgaleo", "lunala"]
 }
 export default card

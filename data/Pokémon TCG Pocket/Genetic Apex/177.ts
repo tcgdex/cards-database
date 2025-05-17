@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 110,
 	types: ["Darkness"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Koffing"
 	},
@@ -79,7 +80,9 @@ const card: Card = {
 		de: "Pumpt sich eines der zwei Smogon auf, lässt das\nandere Luft ab. So findet ein Giftgasaustausch statt.",
 		'pt-br': "Se um dos gêmeos Koffing inflar, o outro\nesvazia, misturando constantemente\nseus gases venenosos.",
 		ko: "한쪽이 부풀어 오르면 다른 한쪽은\n오그라드는 쌍둥이 또가스. 항상\n체내의 독가스를 섞고 있다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Slowpoke"
 	},
-
 
 	attacks: [{
 		cost: ["Psychic", "Psychic", "Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Als Flegmon im Meer jagen ging,\nbiss ein Muschas in seine Rute.\nDadurch entwickelte es sich zu Lahmus.",
 		'pt-br': "Quando um Slowpoke foi caçar no mar, sua cauda\nfoi mordida por um Shellder. Isso fez com que evoluísse\npara um Slowbro.",
 		ko: "야돈이 바다로 먹이를\n잡으러 갔다가 셀러에게\n꼬리를 물려 야도란이 되었다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

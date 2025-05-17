@@ -19,9 +19,11 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Cubone"
 	},
+
 	suffix: "EX",
 
 	attacks: [{
@@ -56,7 +58,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Two Star"
+	rarity: "Two Star",
+	boosters: ["mewtwo"]
 }
 
 export default card

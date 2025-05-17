@@ -53,7 +53,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	rarity: "Three Star"
+	rarity: "Three Star",
+	boosters: ["pikachu"]
 }
 
 export default card

@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Wenn es sich durch die Erde gräbt,\nnimmt es viele harte Gegenstände auf,\ndie seinen Körper erhärten.",
 		'pt-br': "Ao cavar o chão, absorve vários objetos rígidos,\ntornando o seu corpo extremamente sólido.",
 		ko: "땅속을 파고들면서 여러 가지\n단단한 것들을 집어삼켜서\n튼튼한 몸을 만든다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

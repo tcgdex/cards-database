@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es ernährt sich von am Boden angesammeltem\nSchnee. Da es weichen Neuschnee bevorzugt,\nfrisst es sich bergauf bis zum Gipfel vor.",
 		'pt-br': "Alimenta-se da neve acumulada no chão. Prefere\nneve fofa que acabou de cair, então comerá a\nneve no caminho até o topo da montanha.",
 		ko: "땅에 쌓인 눈이 먹이다.\n새로 내린 부드러운 눈을 좋아해서\n산꼭대기를 향해 먹으며 움직인다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

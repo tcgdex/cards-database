@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Ein schwaches und jämmerliches Pokémon.\nManchmal gelingen ihm hohe Sprünge,\naber über 2 m kommt es selten hinaus.",
 		'pt-br': "Este Pokémon é patético e nem um pouco\npoderoso. Às vezes, até pula bem alto,\nmas nunca mais de dois metros.",
 		ko: "힘없는 한심한 포켓몬이다.\n가끔 높이 뛰어오르지만\n2m를 겨우 넘기는 게 고작이다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

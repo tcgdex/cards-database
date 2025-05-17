@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Fighting"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Rhyhorn"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Nach seiner Entwicklung geht es aufrecht auf\nseinen Hinterbeinen. Mit seinem Horn kann es\nLöcher in Felsen bohren.",
 		'pt-br': "Após evoluir, começa a andar com\nsuas pernas traseiras. Consegue furar\nrochedos com seu chifre.",
 		ko: "진화하여 뒷다리만으로\n서게 되었다. 뿔로 찌르면\n암석에도 구멍이 뚫리고 만다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

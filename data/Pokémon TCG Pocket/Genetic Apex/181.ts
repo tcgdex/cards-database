@@ -60,7 +60,9 @@ const card: Card = {
 		de: "Es schmilzt Metall ein und frisst es.\nIn seinem Körper wandelt es das flüssig\ngewordene Metall in Energie um.",
 		'pt-br': "Dissolve e come metal. Este Pokémon gera energia\nquando metal líquido corre pelo seu corpo.",
 		ko: "금속을 녹여서 먹어버린다.\n액체 금속을 순환시켜서\n체내에서 에너지를 만든다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

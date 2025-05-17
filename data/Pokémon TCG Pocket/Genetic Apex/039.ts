@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es ist von Natur aus tapfer und vertrauenswürdig\nund scheut auch vor Gegnern nicht zurück,\ndie größer und stärker sind als es selbst.",
 		'pt-br': "Tem uma natureza corajosa e leal e enfrenta\nsem medo adversários maiores e mais fortes.",
 		ko: "자신보다 강하고\n큰 상대라도 겁 없이 맞서는\n용감하고 믿음직스런 성격이다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

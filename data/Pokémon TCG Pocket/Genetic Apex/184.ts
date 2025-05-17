@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 100,
 	types: ["Dragon"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Dratini"
 	},
@@ -50,7 +51,9 @@ const card: Card = {
 		de: "Man sagt, wenn sein ganzer Körper eine\nAura ausstrahle, ändere sich augenblicklich\ndas Wetter in seiner Umgebung.",
 		'pt-br': "Dizem que, se o seu corpo inteiro emitir uma aura,\no clima começará a mudar instantaneamente.",
 		ko: "전신에서 오라를 발산하면\n주변 날씨가 순식간에\n변한다고 한다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

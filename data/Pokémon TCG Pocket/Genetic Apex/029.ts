@@ -62,7 +62,9 @@ const card: Card = {
 		de: "Die Blätter auf seinem Kopf schmecken äußerst\nbitter, wirken aber erfrischend. Fallen sie aus,\nwachsen sie sofort nach.",
 		'pt-br': "As folhas em sua cabeça crescem imediatamente\nde volta mesmo quando caem. Essas folhas amargas\nrefrescam aqueles que as comem.",
 		ko: "빠져도 바로 자라나는\n머리의 잎사귀는 아주 쓰지만\n갉아 먹으면 바로 기운이 난다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

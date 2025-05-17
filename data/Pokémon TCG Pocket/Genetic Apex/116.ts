@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Psychic"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Abra"
 	},
-
 
 	attacks: [{
 		cost: ["Psychic", "Colorless", "Colorless"],
@@ -45,7 +45,6 @@ const card: Card = {
 		value: "+20"
 	}],
 
-
 	retreat: 1,
 	rarity: "Two Diamond",
 
@@ -57,7 +56,9 @@ const card: Card = {
 		de: "Kadabras Psycho-Kräfte ermöglichen es ihm,\nschwebend zu schlafen. Seinen äußerst\nelastischen Schweif nutzt es dabei als Kissen.",
 		'pt-br': "Usando seu poder psíquico, Kadabra levita\nenquanto dorme. Usa sua cauda elástica\ncomo um travesseiro.",
 		ko: "사이코 파워로 공중에 떠서 잠든다.\n탄력이 뛰어난 꼬리를\n베개 대신으로 사용한다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

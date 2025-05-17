@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "상대의 포켓몬 전원으로부터 「포켓몬의 도구」를 모두 트래쉬한다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["lunala"]
 }
 
 export default card

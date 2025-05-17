@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Snom"
 	},
-
 
 	attacks: [{
 		cost: ["Water", "Colorless"],
@@ -67,7 +67,9 @@ const card: Card = {
 		de: "Mit seinen Fühlern kann es Veränderungen in der\nAtmosphäre wahrnehmen. Seinen mit Kälte\nversetzten Flügelstaub lässt es wie Schnee rieseln.",
 		'pt-br': "Frosmoth sente as correntes de ar com suas\nantenas. Arremessa suas escamas no ar gélido,\nfazendo com que caiam como neve.",
 		ko: "더듬이로 대기의 흐름을 감지한다.\n날개 가루에 냉기를 섞어서\n눈처럼 내리게 한다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

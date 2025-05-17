@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Metapod"
 	},
@@ -79,7 +80,9 @@ const card: Card = {
 		de: "Wenn es sehr schnell mit den Flügeln schlägt,\nsetzt es hochgiftigen Flügelstaub frei.",
 		'pt-br': "Durante as batalhas, bate as asas muito rápido\npara liberar uma poeira altamente tóxica no ar.",
 		ko: "매우 빠르게 날갯짓하면\n맹독성의 인분이\n바람을 타고 날아간다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

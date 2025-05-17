@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Poliwag"
 	},
-
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Wer länger auf seine Bauchspirale blickt, wird\nschläfrig. Manche Leute nutzen dies anstelle\neines Schlaflieds, damit ihre Kinder einschlafen.",
 		'pt-br': "Olhar para a espiral em sua barriga causa sonolência.\nEsta característica de Poliwhirl tem sido usada no lugar\nde canções de ninar para ajudar crianças a dormir.",
 		ko: "배의 소용돌이를 계속 보다 보면\n잠이 온다. 자장가 대용으로\n아이를 재울 때도 사용한다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

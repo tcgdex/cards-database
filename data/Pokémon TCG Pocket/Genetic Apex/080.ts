@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 130,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Eevee"
 	},
-
 
 	attacks: [{
 		cost: ["Water", "Colorless", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Dieses Pokémon lebt nahe an Gewässern.\nWegen seiner fischähnlichen Schwanzflosse wird\nes manchmal für eine Meerjungfrau gehalten.",
 		'pt-br': "Este Pokémon vive perto da água. A sua longa\ncauda é coberta por uma barbatana e muitas\nvezes é confundida com a de uma sereia.",
 		ko: "물가에 살지만 꼬리에\n물고기처럼 지느러미가 남아 있어서\n인어로 착각하는 사람도 있다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

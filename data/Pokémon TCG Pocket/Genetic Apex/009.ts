@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Weedle"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Dieses Pokémon kann sich kaum bewegen.\nBei drohender Gefahr verhärtet es seinen Panzer.",
 		'pt-br': "Quase incapaz de se mover, esse Pokémon\npode apenas endurecer sua carapaça para\nse proteger quando está em perigo.",
 		ko: "스스로는 거의 움직일 수 없지만\n위험할 때는 단단해져서\n몸을 보호하고 있는 것 같다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

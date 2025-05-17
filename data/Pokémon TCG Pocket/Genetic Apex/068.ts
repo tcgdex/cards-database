@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es kommt vor allem nahe dem Meer vor.\nDie großen Scheren wachsen nach, wenn\nsie vom Körper abgetrennt wurden.",
 		'pt-br': "Estes Pokémon vivem perto do mar e\nsuas grandes pinças crescem de volta\nse forem arrancadas.",
 		ko: "바다 근처에서 발견된다.\n커다란 집게는 뜯겨도\n나중에 다시 자라난다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

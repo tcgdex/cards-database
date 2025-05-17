@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Darkness"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Grimer"
 	},
@@ -66,7 +67,9 @@ const card: Card = {
 		de: "Der schmutzige Schleim dieses Pokémon\nist extrem toxisch. Selbst die Spuren,\ndie es hinterlässt, enthalten Gift.",
 		'pt-br': "É coberto por uma camada grossa\nde lodo nojento. É tão tóxica que até\nseus rastros são venenosos.",
 		ko: "더러운 오물이 온몸에 달라붙었다.\n지나간 자리를 건드리기만 해도\n독이 퍼져 버린다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

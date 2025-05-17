@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Dieses Pokémon ist zwar nicht besonders klug,\naber dafür so stark, dass es durch Rammen sogar\nHochhäuser zum Einsturz bringen kann.",
 		'pt-br': "Forte, mas não muito brilhante, este Pokémon\npode estilhaçar até mesmo um arranha-céu\ncom suas investidas poderosas.",
 		ko: "머리는 나쁘지만 힘이 세서\n고층 빌딩도 몸통박치기로\n산산조각 낸다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

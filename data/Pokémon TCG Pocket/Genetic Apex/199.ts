@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Dieses zweiköpfige Pokémon gilt als plötzliche\nMutation. Es rennt bis zu 100 km/h schnell.",
 		'pt-br': "Um Pokémon com duas cabeças que foi\ndescoberto como uma mutação repentina.\nEle corre a mais de 100 km/h.",
 		ko: "돌연변이로 발견된\n두 개의 머리를 지닌 포켓몬이다.\n시속 100km로 달린다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

@@ -62,7 +62,9 @@ const card: Card = {
 		de: "Dieses Pokémon ist das Resultat eines jahrelangen\nund skrupellosen Experimentes.",
 		'pt-br': "Foi criado por cientistas através de anos\nde experimentos genéticos terríveis com\nmanipulação de DNA.",
 		ko: "한 과학자가 몇 년에 걸쳐\n무서운 유전자의 연구를\n계속한 결과 탄생했다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

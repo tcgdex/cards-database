@@ -60,7 +60,9 @@ const card: Card = {
 		de: "Denkt Tragosso an seine verstorbene Mutter,\nso weint es. Sein Schluchzen hallt dabei in dem\nSchädel auf seinem Kopf klagend wider.",
 		'pt-br': "Quando a memória de sua falecida mãe traz\nlágrimas aos seus olhos, seu choro ecoa com\ntristeza pelo crânio que usa em sua cabeça.",
 		ko: "죽은 어머니를 떠올리며 울면\n머리에 쓴 뼈 안에서\n울음소리가 구슬프게 퍼진다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "자신의 벤치 포켓몬에서 에너지를 1개 선택해서 배틀 포켓몬에게 바꿔 붙인다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["dialga"]
 }
 
 export default card

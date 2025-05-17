@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Fighting"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Dome Fossil"
 	},
-
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Dieses Pokémon ist so gut wie ausgestorben.\nSein Panzer wird immer härter, indem es sich\nalle drei Tage häutet.",
 		'pt-br': "Esta espécie está quase extinta. Kabuto\nmudam seus cascos a cada três dias,\ntornando-os cada vez mais rígidos.",
 		ko: "거의 멸종된 포켓몬이다.\n3일에 1번 탈피하여\n껍질을 점점 단단하게 만든다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Haunter"
 	},
-
 
 	attacks: [{
 		cost: ["Psychic"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Um Beute zu erlegen, versteckt es sich\nin deren Schatten und wartet still auf\neine günstige Gelegenheit.",
 		'pt-br': "Este Pokémon aguarda pela oportunidade\nperfeita para se esconder na sombra de sua\npresa e roubar a vida dela.",
 		ko: "생명을 빼앗기로 정한 먹잇감의\n그림자에 숨어들어\n꼼짝하지 않고 기회를 노린다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

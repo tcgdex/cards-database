@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Promos-A"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
@@ -11,11 +12,13 @@ const card: Card = {
 		ko: "아라리",
 		'pt-br': "Exeggcute"
 	},
+
 	illustrator: "0313",
 	rarity: "One Diamond",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Grass"],
+
 	description: {
 		en: "Though it may look like it's just a bunch of eggs, it's a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
 		fr: "Même s'il ressemble à un tas d'œufs,\nil s'agit bien d'un Pokémon. Il paraît qu'ils\ncommuniquent entre eux par télépathie.",
@@ -25,7 +28,9 @@ const card: Card = {
 		ko: "알처럼 보이지만 엄연한\n포켓몬이다. 텔레파시로\n동료와 교신하는 듯하다.",
 		'pt-br': "Apesar de parecer só um monte de ovos, é um Pokémon\nde verdade. Exeggcute se comunica com outros de sua\nespécie por meio de telepatia."
 	},
+
 	stage: "Basic",
+
 	attacks: [{
 		name: {
 			en: "Growth Spurt",
@@ -47,10 +52,13 @@ const card: Card = {
 			'pt-br': "Pegue 1 Energia {G} da sua Zona de Energia e ligue-a a este Pokémon."
 		}
 	}],
+
 	weaknesses: [{
 		type: "Fire",
 		value: "+20"
 	}],
-	retreat: 1
+
+	retreat: 1,
+	boosters: ["vol7"]
 }
 export default card

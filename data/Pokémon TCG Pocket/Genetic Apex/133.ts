@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Herzförmige Flecken an der Decke einer Höhle\nsind ein sicheres Zeichen dafür, dass sie von\nFleknoil behaust wird.",
 		'pt-br': "Se você estiver em uma caverna e vir várias\nmarcas com formato de coração nas paredes,\né sinal de que Woobat vivem ali.",
 		ko: "동굴을 올려다봤을 때 벽에\n하트 모양 자국이 있다면\n또르박쥐가 살고 있다는 증거다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

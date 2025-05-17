@@ -57,13 +57,13 @@ const card: Card = {
 		}
 	}],
 
-
 	weaknesses: [{
 		type: "Fighting",
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	boosters: []
 }
 
 export default card

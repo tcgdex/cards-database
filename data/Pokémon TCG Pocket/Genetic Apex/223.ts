@@ -28,7 +28,8 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	rarity: "Two Diamond"
+	rarity: "Two Diamond",
+	boosters: ["mewtwo"]
 }
 
 export default card

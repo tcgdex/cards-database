@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Genetic Apex"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Lilligant",
 		fr: "Fragilady",
@@ -11,14 +12,17 @@ const card: Card = {
 		ko: "드레디어",
 		'pt-br': "Lilligant"
 	},
+
 	illustrator: "You Iribi",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Petilil"
 	},
+
 	attacks: [{
 		cost: ["Grass", "Grass"],
 		name: {
@@ -41,12 +45,15 @@ const card: Card = {
 		},
 		damage: "50"
 	}],
+
 	weaknesses: [{
 		type: "Fire",
 		value: "+20"
 	}],
+
 	retreat: 1,
 	rarity: "Two Diamond",
+
 	description: {
 		en: "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
 		fr: "La fleur sur sa tête émet un parfum\nqui apaise instantanément, mais\nelle est très difficile à entretenir.",
@@ -55,6 +62,8 @@ const card: Card = {
 		de: "Der Blumenschmuck auf seinem Kopf\nsondert einen beruhigenden Duft ab,\nist jedoch nicht gerade pflegeleicht.",
 		'pt-br': "A fragrância da guirlanda em sua cabeça possui um\nefeito relaxante. Ela murcha quando não é bem\ncuidada por um Treinador.",
 		ko: "머리의 꽃 장식에서 나는\n향기를 맡으면 편안해지나\n손질이 아주 까다롭다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 export default card

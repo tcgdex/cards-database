@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Oddish"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Sein Stempel sondert einen unglaublich faulen\nGestank ab. Dieser stechende Geruch kann selbst\nbis zu 2 km entfernte Gegner bewusstlos machen.",
 		'pt-br': "Seus pistilos exalam um odor incrivelmente\ndesagradável. Este mau cheiro pode causar\ndesmaios a 2 km de distância.",
 		ko: "암술에서 내뿜는 지독하게\n구린 냄새는 2km 떨어진 곳까지\n퍼져 정신을 잃게 만든다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

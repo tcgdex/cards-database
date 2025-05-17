@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 90,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Bellsprout"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Die Blätter werden eingesetzt, um Gegner\naufzuschlitzen. Dieses Pokémon spuckt eine\nFlüssigkeit, die alles auflöst.",
 		'pt-br': "As partes folhosas funcionam como cortadores\npara dilacerar inimigos. Ele cospe um fluido\ncapaz de dissolver qualquer coisa.",
 		ko: "잎사귀 부분은 칼날이 되어\n상대를 베어버린다. 입에서는\n무엇이든 녹이는 액체를 뿜어낸다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

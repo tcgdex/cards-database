@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Helix Fossil"
 	},
-
 
 	attacks: [{
 		cost: ["Water"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Diese Pokémon entwickeln sich allmählich zu\neinem Problem, da einige wiederbelebte\nExemplare fliehen oder freigelassen werden.",
 		'pt-br': "Alguns Omanyte escapam após serem restaurados\nou são soltos por pessoas na natureza. Por conta\ndisso, esta espécie está se tornando um problema.",
 		ko: "복원된 후 도망치거나\n놓쳐버리는 경우가 생겨서\n문제시되고 있다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

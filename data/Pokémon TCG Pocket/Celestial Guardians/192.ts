@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "이 카드를 사용하면 자신의 차례는 끝난다.\n자신의 「[Text:AdditionalName v=\"ADDITIONAL_NAME_Alora\" type=\"region\" ][Text:Char v=\"FOUR-PER-EM-SPACE\" ]텅구리」 또는 「폭거북스」 1마리 선택한다. 자신의 에너지존에서 {R}에너지를 2개 내보내 그 포켓몬에게 붙인다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["lunala"]
 }
 
 export default card

@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Quapsel kann besser schwimmen als laufen.\nDas Spiralmuster auf seinem Bauch ist ein Teil\nseiner Innereien, der durch die Haut sichtbar ist.",
 		'pt-br': "Para Poliwag, nadar é mais fácil do que andar.\nA espiral em sua barriga é, na verdade, parte dos órgãos\ndeste Pokémon que pode ser vista através de sua pele.",
 		ko: "걷기보다 헤엄치기가 특기다.\n배의 소용돌이 모양은\n내장의 일부가 비쳐 보이는 것이다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

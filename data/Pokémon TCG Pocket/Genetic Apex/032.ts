@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Skiddo"
 	},
-
 
 	attacks: [{
 		cost: ["Grass", "Colorless", "Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Berührt es sein Gegenüber mit den Hörnern, kann\nes dessen Gefühle erspüren. Seit 5000 Jahren\ngeht es den Menschen bei der Arbeit zur Hand.",
 		'pt-br': "É capaz de saber o que os outros estão sentindo só\nde tocá-los com seus chifres. Esta espécie tem ajudado\nas pessoas com suas tarefas há mais de 5.000 anos.",
 		ko: "뿔에 닿으면 상대의 기분을 느낄 수 있다.\n5천 년 전부터 인간의 일을 도왔다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

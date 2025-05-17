@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "자신의 패에서 2진화 포켓몬을 1장 선택해서 그 포켓몬으로 진화하는 자신의 필드의 기본 포켓몬 위에 올려 1진화를 건너뛰어 진화시킨다. (자신의 첫 번째 차례와 이번 차례에 내보낸 포켓몬에게는 사용할 수 없다.)"
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: ["solgaleo", "lunala"]
 }
 
 export default card

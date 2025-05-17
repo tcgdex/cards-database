@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Eine Ansammlung von Piepi bei Vollmond tanzen\nzu sehen, soll ein glückliches Leben verheißen.",
 		'pt-br': "Acredita-se que a felicidade virá para aqueles\nque virem um grupo de Clefairy dançando sob\na lua cheia.",
 		ko: "보름달 밤에 삐삐가 모여\n춤을 추는 모습을 보면\n행복해진다고 전해진다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

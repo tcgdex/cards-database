@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Paras' Körper kann nicht nach seinem eigenen\nWillen handeln, da er von Tochukaso, den Pilzen\nauf seinem Rücken, kontrolliert wird.",
 		'pt-br': "Os cogumelos, conhecidos como tochukaso,\ncontrolam o inseto. Quando o inseto perturba\nos cogumelos, eles o mandam catar coquinho.",
 		ko: "동충하초라고 불리는 버섯이\n벌레를 조종하고 있다.\n벌레의 의사는 무시된다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

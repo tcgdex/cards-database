@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "이 차례에 자신의 「한카리아스」「토게키스」 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지를 +50한다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["palkia"]
 }
 
 export default card

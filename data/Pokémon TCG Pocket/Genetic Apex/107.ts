@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Allein erzeugt es nur wenig Strom, doch wenn\nsich viele Zapplardin miteinander verbinden,\ngleicht ihre Kraft der eines Blitzes.",
 		'pt-br': "Enquanto um sozinho não é tão poderoso, uma corrente\nde vários Tynamo pode ser tão forte quanto um raio.",
 		ko: "한 마리의 전력은 적지만\n많은 저리어가 연결되면\n번개와 같은 위력이 된다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

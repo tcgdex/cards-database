@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Mit dem entzündlichen Gas in seinem Körper\nerzeugt es Hitze. Die gelben Stellen an seinem\nBauch werden besonders heiß.",
 		'pt-br': "Seu corpo armazena gás inflamável, que usa para\ngerar calor. As marcas amarelas na sua barriga\nficam especialmente quentes.",
 		ko: "몸속에 모아둔 가연성 가스로\n열을 낸다. 특히 배 쪽의\n노란 부분이 뜨겁다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

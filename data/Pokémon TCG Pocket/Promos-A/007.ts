@@ -29,7 +29,8 @@ const card: Card = {
 		'pt-br': "Compre 2 cartas."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: []
 }
 
 export default card

@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "데미지를 받고 있는 자신의 「모래성이당」 또는 「따라큐」 1마리 선택해서 선택한 포켓몬이 받고 있는 데미지를 40 상대의 배틀 포켓몬에게 옮긴다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["lunala"]
 }
 
 export default card

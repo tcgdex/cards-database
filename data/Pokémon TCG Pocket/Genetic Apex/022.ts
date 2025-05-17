@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 160,
 	types: ["Grass"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Exeggcute"
 	},
@@ -65,7 +66,9 @@ const card: Card = {
 		de: "Jeder der drei Köpfe hat einen\neigenen Willen und scheint sich\nnur für sich selbst zu interessieren.",
 		'pt-br': "Cada uma das três cabeças de Exeggutor está\npensando em coisas diferentes. Elas não parecem\nse interessar umas pelas outras.",
 		ko: "3개의 머리는 서로 다른\n생각을 하고 있다. 자신 외에는\n별로 흥미가 없는 듯하다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Staryu"
 	},
-
 
 	attacks: [{
 		cost: ["Water"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Das als Kern bezeichnete Organ dieses Pokémon\nerstrahlt in den sieben Farben des Regenbogens,\nwenn Starmie mächtige Psycho-Kräfte entfesselt.",
 		'pt-br': "Este Pokémon tem um órgão que é conhecido como\nseu núcleo. Este órgão brilha em sete cores diferentes\nquando Starmie libera seus poderes psíquicos intensos.",
 		ko: "강렬한 사이코 파워를 발산할 때\n코어라고 불리는 기관이\n일곱 색깔로 빛난다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

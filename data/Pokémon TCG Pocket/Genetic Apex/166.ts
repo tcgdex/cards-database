@@ -60,7 +60,9 @@ const card: Card = {
 		de: "Sie sind geruchsempfindlicher als Nidoran♂.\nAuf Nahrungssuche folgen sie der Windrichtung,\ndie sie mit ihren Tasthaaren ermitteln.",
 		'pt-br': "As fêmeas possuem um olfato mais aguçado.\nAo procurar por comida, usam seus bigodes para\nchecar a direção do vento e evitar predadores.",
 		ko: "수컷보다 냄새에 민감하다.\n수염으로 바람의 방향을 확인하면서\n흘러온 냄새로 먹이를 찾는다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

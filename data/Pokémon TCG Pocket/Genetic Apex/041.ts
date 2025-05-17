@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 150,
 	types: ["Fire"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Growlithe"
 	},
@@ -57,7 +58,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Four Diamond"
+	rarity: "Four Diamond",
+	boosters: ["pikachu"]
 }
 
 export default card

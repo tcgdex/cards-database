@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Psychic"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Woobat"
 	},
-
 
 	attacks: [{
 		cost: ["Psychic", "Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Hat es besonders starke Ultraschallwellen\nausgestoßen, wird es so müde, dass es für\neine Weile nicht fliegen kann.",
 		'pt-br': "Emitir ondas sonoras poderosas faz com\nque fique cansado. Depois, não consegue\nvoar por um tempo.",
 		ko: "아주 강력한 음파를\n내보낸 후에는 지쳐서\n당분간 날 수 없게 된다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

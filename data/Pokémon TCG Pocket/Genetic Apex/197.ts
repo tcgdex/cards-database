@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Meowth"
 	},
@@ -65,7 +66,9 @@ const card: Card = {
 		de: "Aufgrund seines schönen Fells wollen viele ein\nSnobilikat im Haus haben. Es ist jedoch schwer\nerziehbar, da es sehr schnell kratzt.",
 		'pt-br': "Apesar de sua pelugem ser admirada por muitos,\né difícil criá-lo como um Pokémon de estimação\npor causa de sua maldade inconstante.",
 		ko: "털의 결이 아름다워 애완용으로\n기르려는 사람이 많지만,\n곧잘 할퀴려 들기 때문에 쉽지 않다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

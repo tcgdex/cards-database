@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "상대의 패를 모두 덱으로 되돌린다. 상대는 상대 자신이 이기기 위해 필요한 남은 포인트의 수만큼 덱을 뽑는다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["palkia"]
 }
 
 export default card

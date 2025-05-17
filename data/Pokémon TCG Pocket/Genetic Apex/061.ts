@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Water"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Poliwhirl"
 	},
-
 
 	abilities: [{
 		type: "Ability",
@@ -80,7 +80,9 @@ const card: Card = {
 		de: "Sein ganzer Körper besteht fast nur aus Muskeln.\nIn kalten Meeren zerschlägt es mit seinen starken\nArmen Treibeis, um voranzukommen.",
 		'pt-br': "Seu corpo é puro músculo. Quando nada por mares\ngelados, Poliwrath usa seus braços incríveis para\nesmagar o gelo à frente e abrir caminho.",
 		ko: "전신이 근육 덩어리다.\n추운 바다에서도 늠름한 팔로\n유빙을 부수며 힘차게 나아간다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

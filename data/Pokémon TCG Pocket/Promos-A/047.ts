@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Promos-A"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Staraptor",
 		fr: "Étouraptor",
@@ -11,14 +12,17 @@ const card: Card = {
 		ko: "찌르호크",
 		'pt-br': "Staraptor"
 	},
+
 	illustrator: "Hasuno",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],
+
 	evolveFrom: {
 		en: "Staravia"
 	},
+
 	description: {
 		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
 		fr: "Quand Étourvol évolue en Étouraptor, il quitte son groupe\npour vivre seul. Ses ailes sont très souples et puissantes.",
@@ -28,7 +32,9 @@ const card: Card = {
 		ko: "찌르호크가 되면 무리에서\n떨어져 혼자서 살아간다.\n강인한 날개를 가지고 있다.",
 		'pt-br': "Quando um Staravia evolui para Staraptor,\ndeixa o bando para viver sozinho. Têm asas robustas."
 	},
+
 	stage: "Stage2",
+
 	attacks: [{
 		name: {
 			en: "Wing Attack",
@@ -42,11 +48,14 @@ const card: Card = {
 		damage: 90,
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "+20"
 	}],
+
 	retreat: 1,
+
 	abilities: [{
 		type: "Ability",
 		name: {
@@ -67,6 +76,8 @@ const card: Card = {
 			ko: "이 포켓몬이 {F}포켓몬으로부터 받는 기술의 데미지를 -30한다.",
 			'pt-br': "Este Pokémon recebe −30 pontos de dano de ataques de Pokémon {F}."
 		}
-	}]
+	}],
+
+	boosters: ["vol5"]
 }
 export default card

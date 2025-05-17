@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es stößt aus Brust und Rücken elastische Blasen aus,\nmit denen es gegnerische Angriffe abfängt und so\nden erlittenen Schaden verringert.",
 		'pt-br': "Liberam bolhas flexíveis do peito e das costas.\nAs bolhas reduzem os danos que sofreriam\nao serem atacados.",
 		ko: "가슴과 등에서 거품을 내뿜는다.\n탄력 있는 거품으로 공격을\n막아내고 데미지를 줄인다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

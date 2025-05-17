@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Dieses Pokémon trägt von Geburt an einen\nSamen auf dem Rücken, der im Laufe der Zeit\nkeimt und wächst.",
 		'pt-br': "Este Pokémon já nasce com uma semente\nnas costas. Aos poucos, a semente cresce.",
 		ko: "태어났을 때부터 등에\n식물의 씨앗이 있으며\n조금씩 크게 자란다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

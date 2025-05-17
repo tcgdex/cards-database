@@ -62,7 +62,9 @@ const card: Card = {
 		de: "Bis vor Kurzem ritten die in den Bergen lebenden\nMenschen auf dem Rücken dieses Pokémon, um\nsich auf den Bergpfaden fortzubewegen.",
 		'pt-br': "Até pouco tempo, as pessoas vivendo em montanhas\nmontavam nas costas deste Pokémon para atravessá-las.",
 		ko: "최근까지도 산악 지대에 사는 사람들은\n메이클의 등에 올라타서\n산길을 이동했다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

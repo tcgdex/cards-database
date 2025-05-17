@@ -19,9 +19,11 @@ const card: Card = {
 	hp: 170,
 	types: ["Psychic"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Haunter"
 	},
+
 	suffix: "EX",
 
 	abilities: [{
@@ -70,7 +72,8 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	rarity: "Two Star"
+	rarity: "Two Star",
+	boosters: ["mewtwo"]
 }
 
 export default card

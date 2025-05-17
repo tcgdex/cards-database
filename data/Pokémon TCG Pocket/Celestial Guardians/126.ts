@@ -51,7 +51,8 @@ const card: Card = {
 		cost: ["Lightning", "Fighting"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	boosters: ["lunala"]
 }
 
 export default card

@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "자신의 2진화 포켓몬 1마리의 HP를 60회복."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["solgaleo"]
 }
 
 export default card

@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 180,
 	types: ["Fighting"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Machoke"
 	},
@@ -47,7 +48,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	rarity: "Four Diamond"
+	rarity: "Four Diamond",
+	boosters: ["charizard"]
 }
 
 export default card

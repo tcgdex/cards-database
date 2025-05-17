@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Promos-A"
 const card: Card = {
 	set: Set,
+
 	name: {
 		en: "Electivire",
 		fr: "Élekable",
@@ -11,14 +12,17 @@ const card: Card = {
 		ko: "에레키블",
 		'pt-br': "Electivire"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
+
 	evolveFrom: {
 		en: "Electabuzz"
 	},
+
 	description: {
 		en: "The amount of electrical energy this Pokémon produces is proportional to the rate of its pulse. The voltage jumps while Electivire is battling.",
 		fr: "La quantité d'électricité qu'il génère est\nproportionnelle à son pouls. Quand il livre\nun combat, son voltage augmente aussitôt.",
@@ -28,7 +32,9 @@ const card: Card = {
 		ko: "발전량은 심박 수에 비례한다.\n싸움이 시작되면\n단숨에 전압이 올라간다.",
 		'pt-br': "A quantidade de energia elétrica que este Pokémon\nproduz é proporcional à sua pulsação. A voltagem\naumenta drasticamente quando Electivire está batalhando."
 	},
+
 	stage: "Stage1",
+
 	attacks: [{
 		name: {
 			en: "Exciting Voltage",
@@ -51,10 +57,13 @@ const card: Card = {
 			'pt-br': "Se este Pokémon tiver pelo menos 2 Energia {L} extra ligada a ele, este ataque causará 80 pontos de dano a mais."
 		}
 	}],
+
 	weaknesses: [{
 		type: "Fighting",
 		value: "+20"
 	}],
-	retreat: 3
+
+	retreat: 3,
+	boosters: ["vol4"]
 }
 export default card

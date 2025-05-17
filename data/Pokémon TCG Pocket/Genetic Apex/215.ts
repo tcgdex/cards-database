@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Wooloo"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Spannt man einen aus den elastischen Haaren\nvon Zwollock gewobenen Teppich auf, kann man\ndarauf hüpfen wie auf einem Trampolin.",
 		'pt-br': "Tece um tapete feito de sua lã elástica, e o resultado\né algo semelhante a um trampolim. Você começará\na pular assim que pisar nele.",
 		ko: "탄력 있는 털로 짜낸\n카펫은 트램펄린 같아서\n올라가면 통통 튀어 오르게 된다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

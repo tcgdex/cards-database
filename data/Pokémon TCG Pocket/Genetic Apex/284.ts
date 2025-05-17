@@ -19,9 +19,11 @@ const card: Card = {
 	hp: 180,
 	types: ["Fire"],
 	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Charmeleon"
 	},
+
 	suffix: "EX",
 
 	attacks: [{
@@ -70,7 +72,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	rarity: "Crown"
+	rarity: "Crown",
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

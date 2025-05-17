@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es entfernt Schmutz mit seinem Schweif. Beim\nHausputz ist es eine große Hilfe, aber sein\nPutzfimmel kann auch anstrengend werden.",
 		'pt-br': "A maneira como este Pokémon varre a sujeira com\na cauda pode ser útil na hora de fazer uma faxina, mas\nsua obsessão por limpeza pode tornar o processo uma chatice.",
 		ko: "꼬리로 더러운 것을 떨어낸다.\n청소를 할 때는 도움이 되지만\n결벽증이 있어서 힘들기도 하다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

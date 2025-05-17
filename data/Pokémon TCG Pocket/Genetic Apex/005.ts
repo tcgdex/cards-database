@@ -60,7 +60,9 @@ const card: Card = {
 		de: "Als Schutz vor Feinden sondert es einen übel\nriechenden Gestank mit seinen Antennen ab.",
 		'pt-br': "Para se proteger, libera um fedor horrível das\nantenas na cabeça para afastar seus inimigos.",
 		ko: "머리의 더듬이로부터\n강렬한 냄새를 내어\n적을 물리치고 몸을 보호한다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

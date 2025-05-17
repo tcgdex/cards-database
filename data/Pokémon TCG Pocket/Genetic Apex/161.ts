@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Fighting"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Mienfoo"
 	},
-
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Begegnet es einem wahrhaft starken Gegner,\nbeißt es das Fell an seinen Armen ab, um an\nBeweglichkeit zu gewinnen.",
 		'pt-br': "Quando Mienshao se depara com um oponente\nrealmente desafiante, torna-se mais leve ao\narrancar o pelo de seus braços com a boca.",
 		ko: "진정한 강적과 만나면\n몸을 가볍게 하기 위해\n양손의 털을 물어뜯어 버린다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

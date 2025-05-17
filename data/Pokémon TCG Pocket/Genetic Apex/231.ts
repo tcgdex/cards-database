@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 100,
 	types: ["Fire"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Ponyta"
 	},
@@ -55,7 +56,9 @@ const card: Card = {
 		de: "Die lodernde Mähne dieses Pokémon flattert im\nWind, wenn es mit einer Geschwindigkeit von\n240 km/h über Felder und Wiesen galoppiert.",
 		'pt-br': "Este Pokémon pode ser encontrado galopando\nnas pradarias, com sua crina de fogo ao vento,\na velocidades de até 240 km/h.",
 		ko: "불타는 갈기를 휘날리며\n시속 240km의 속도로\n넓은 초원을 달려나간다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

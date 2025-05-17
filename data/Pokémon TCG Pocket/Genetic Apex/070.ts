@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es lebt in Meeren mit ruhigem Gezeitenstrom.\nWird es angegriffen, versprüht es tiefschwarze\nTinte und ergreift daraufhin die Flucht.",
 		'pt-br': "Horsea vive em oceanos com correntezas\ntranquilas. Quando está sob ataque, este\nPokémon cospe tinta preta e escapa.",
 		ko: "잔잔하게 흐르는 고요한 바다에\n산다. 습격당하면 새까만\n먹물을 내뿜고 그 틈에 도망친다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

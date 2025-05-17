@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Lightning"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Pikachu"
 	},
-
 
 	attacks: [{
 		cost: ["Lightning", "Lightning", "Lightning"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Mithilfe seines Schweifs entlädt es Elektrizität\nin den Boden, um sich auf diese Weise vor\nelektrischen Schlägen zu schützen.",
 		'pt-br': "Sua cauda descarrega a eletricidade\nno solo, protegendo-o contra choques.",
 		ko: "꼬리가 어스 역할을 하여\n전기를 지면으로 흘려보내므로\n자신은 감전되거나 하지 않는다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

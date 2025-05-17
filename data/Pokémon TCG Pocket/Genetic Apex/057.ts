@@ -62,7 +62,9 @@ const card: Card = {
 		de: "Es wird permanent von Kopfschmerzen\ngeplagt. Wird der Schmerz stärker,\nsetzt es geheimnisvolle Kräfte ein.",
 		'pt-br': "Sofre constantemente de dor de cabeça.\nQuando ela se intensifica, este Pokémon\ncomeça a usar poderes misteriosos.",
 		ko: "항상 두통에 시달리고 있다.\n이 두통이 심해지면\n이상한 힘을 쓰기 시작한다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

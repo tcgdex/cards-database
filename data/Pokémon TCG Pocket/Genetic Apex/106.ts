@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Lightning"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Blitzle"
 	},
-
 
 	attacks: [{
 		cost: ["Lightning"],
@@ -64,7 +64,9 @@ const card: Card = {
 		de: "Ein stürmischer Geselle. Wenn es\nwütend ist, feuert es über seine Mähne\nin alle Richtungen Stromsalven ab.",
 		'pt-br': "Quando esse Pokémon mal-humorado fica\nnervoso, dispara raios de sua crina em\ntodas as direções.",
 		ko: "격렬한 기질의 소유자.\n날뛰면 갈기에서 번개를\n사방팔방으로 방전한다."
-	}
+	},
+
+	boosters: ["charizard", "mewtwo", "pikachu"]
 }
 
 export default card

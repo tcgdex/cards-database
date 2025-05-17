@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Drowzee"
 	},
-
 
 	abilities: [{
 		type: "Ability",
@@ -70,7 +70,6 @@ const card: Card = {
 		value: "+20"
 	}],
 
-
 	retreat: 2,
 	rarity: "Three Diamond",
 
@@ -82,7 +81,9 @@ const card: Card = {
 		de: "Es heißt, wenn dieses Pokémon einem Gegner\nins Auge blicke, setze es zahlreiche Psycho-Kräfte\nwie beispielsweise Hypnose ein.",
 		'pt-br': "Quando encara um inimigo, usa uma mistura de\nmovimentos psíquicos, como Hipnose e Confusão.",
 		ko: "상대와 눈이 마주쳤을 때\n최면술 등의 다양한 초능력을\n사용한다고 전해진다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

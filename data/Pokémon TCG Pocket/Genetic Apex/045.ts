@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Fire"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Eevee"
 	},
-
 
 	attacks: [{
 		cost: ["Fire", "Colorless", "Colorless"],
@@ -66,7 +66,9 @@ const card: Card = {
 		de: "Es speichert Atemluft in einem Flammensack.\nDort erhitzt es sie auf 1700 °C, um sie als\nFlammen auszuspucken.",
 		'pt-br': "O ar inalado é transportado para sua bolsa\nde chamas, aquecido e exalado quando\no fogo atinge mais de 1600 ºC.",
 		ko: "들이마신 공기를 체내의\n불꽃 주머니에 보내\n1700도의 불꽃으로 내뿜는다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

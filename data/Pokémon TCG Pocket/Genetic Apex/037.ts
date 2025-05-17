@@ -60,7 +60,9 @@ const card: Card = {
 		de: "In seiner Jugend hat es sechs hinreißende\nSchweife. Während es wächst, kommen noch\nweitere neue Schweife hinzu.",
 		'pt-br': "Quando é jovem, tem seis belas caudas.\nQuando cresce, várias novas caudas brotam.",
 		ko: "어리지만 6개의 꼬리가\n아름답다. 성장하면\n한층 꼬리 수가 늘어난다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

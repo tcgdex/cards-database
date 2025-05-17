@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Fire"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Charmander"
 	},
-
 
 	attacks: [{
 		cost: ["Fire", "Colorless", "Colorless"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Dieses Pokémon kann mit seinem\nFeueratem Felsen schmelzen.\nEs verursacht ab und zu Waldbrände.",
 		'pt-br': "Cospe chamas quentes o bastante para\nderreter rochedos. Estas chamas podem\ncausar incêndios florestais.",
 		ko: "암석도 태워버릴 정도로\n작열하는 화염을 뿜어\n산불을 일으킬 때가 있다."
-	}
+	},
+
+	boosters: ["charizard"]
 }
 
 export default card

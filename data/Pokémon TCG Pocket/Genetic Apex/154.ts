@@ -60,7 +60,9 @@ const card: Card = {
 		de: "Dieses Pokémon besitzt einen formidablen\nGleichgewichtssinn. Es kann in jeder Position\npausenlos zutreten.",
 		'pt-br': "Este incrível Pokémon possui um ótimo equilíbrio.\nConsegue chutar repetidamente de qualquer posição.",
 		ko: "훌륭한 밸런스 감각으로\n어떤 자세라도 연속\n킥을 날리는 대단한 녀석이다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card

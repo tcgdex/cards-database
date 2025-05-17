@@ -19,10 +19,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Seel"
 	},
-
 
 	attacks: [{
 		cost: ["Water", "Water", "Water"],
@@ -56,7 +56,9 @@ const card: Card = {
 		de: "Nach einer Mahlzeit genießt es ein Sonnenbad\nam Strand. Durch die erhöhte Körpertemperatur\nwird seine Verdauung unterstützt.",
 		'pt-br': "Toma sol na praia após as refeições.\nO aumento em sua temperatura\ncorporal ajuda na digestão.",
 		ko: "식사 후에는 모래 해변에서\n일광욕을 하고 있다. 체온을\n높여서 소화를 돕기 위함이다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

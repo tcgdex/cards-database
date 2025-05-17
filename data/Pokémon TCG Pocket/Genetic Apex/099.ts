@@ -52,7 +52,9 @@ const card: Card = {
 		de: "Es bewegt sich rollend fort. Rollt es über\nunebenen Boden, kann es plötzlich explodieren.",
 		'pt-br': "Ele rola para se mover. Quando o solo está\ndesnivelado, um solavanco repentino após\num baque pode fazê-lo explodir.",
 		ko: "굴러서 이동하기 때문에\n땅이 울퉁불퉁하면\n충격으로 폭발해 버린다."
-	}
+	},
+
+	boosters: ["pikachu"]
 }
 
 export default card

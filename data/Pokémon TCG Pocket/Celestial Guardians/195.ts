@@ -28,7 +28,8 @@ const card: Card = {
 		ko: "이 차례에 자신의 「[Text:AdditionalName v=\"ADDITIONAL_NAME_Alora\" type=\"region\" ][Text:Char v=\"FOUR-PER-EM-SPACE\" ]딱구리」「투구뿌논」「토게데마루」가 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지를 +30한다."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["solgaleo"]
 }
 
 export default card

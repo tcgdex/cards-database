@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",
+
 	evolveFrom: {
 		en: "Old Amber"
 	},
@@ -63,7 +64,9 @@ const card: Card = {
 		de: "Selbst mit moderner Technologie scheint es\nunmöglich, ein perfektes Exemplar von diesem\nwilden urzeitlichen Pokémon zu reproduzieren.",
 		'pt-br': "Um Pokémon feroz de tempos antigos.\nPelo visto, nem a tecnologia moderna conseguiu\nproduzir um espécime restaurado com perfeição.",
 		ko: "고대의 거칠고 사나운 포켓몬이다.\n완벽한 복원은 현대의\n과학으로도 불가능하다고 한다."
-	}
+	},
+
+	boosters: ["mewtwo"]
 }
 
 export default card
