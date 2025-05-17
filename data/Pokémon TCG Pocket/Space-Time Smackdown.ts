@@ -10,7 +10,8 @@ const set: Set = {
 		es: "Pugna Espaciotemporal",
 		fr: "Choc Spatio-Temporel",
 		it: "Scontro Spaziotemporale",
-		pt: "Embate do Tempo e Espaço"
+		'pt-br': "Embate do Tempo e Espaço",
+		ko: '시공의 격투'
 	},
 
 	serie: serie,

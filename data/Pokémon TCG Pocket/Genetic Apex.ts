@@ -10,7 +10,8 @@ const set: Set = {
 		es: "Genes Formidables",
 		fr: "Puissance Génétique",
 		it: "Geni Supremi",
-		pt: "Dominação Genética"
+		'pt-br': "Dominação Genética",
+		ko: '최강의 유전자'
 	},
 
 	serie: serie,

@@ -10,6 +10,7 @@ const set: Set = {
 		es: "Promo-A",
 		fr: "Promo-A",
 		it: "Promo-A",
+		ko: "Promo-A",
 		'pt-br': "Promo-A"
 	},
 

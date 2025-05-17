@@ -10,7 +10,8 @@ const set: Set = {
 		es: "Guardianes Celestiales",
 		fr: "Gardiens Astraux",
 		it: "Guardiani Astrali",
-		pt: "Guardiões Celestiais"
+		'pt-br': "Guardiões Celestiais",
+		ko: '쌍천의 수호자'
 	},
 
 	serie: serie,

@@ -3,7 +3,7 @@ import Queue from '@dzeio/queue'
 import { glob } from 'glob'
 import { exec, spawn } from 'node:child_process'
 import { writeFileSync } from 'node:fs'
-import { Card, Set, SupportedLanguages } from '../../../interfaces'
+import { Card, Languages, Set, SupportedLanguages } from '../../../interfaces'
 import * as legals from '../../../meta/legals'
 
 interface fileCacheInterface {
@@ -176,4 +176,14 @@ export function getLastEdit(path: string): string {
 		// throw new Error(`edit date not found for file ${path}`)
 	}
 	return date
+}
+
+export function resolveText<T>(text: Languages<T> | undefined, lang: SupportedLanguages): T | undefined {
+	if (!text) return text as undefined
+	let res: T | undefined = text[lang]
+	if (typeof res === 'undefined' && !lang.includes('-')) {
+		const key = Object.keys(text).find(key => key.startsWith(lang))
+		return text[key as keyof Languages<T>]
+	}
+	return res
 }

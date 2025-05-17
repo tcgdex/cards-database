@@ -10,7 +10,8 @@ const set: Set = {
 		es: "Luz Triunfal",
 		fr: "Lumière Triomphale",
 		it: "Luce Trionfale",
-		'pt-br': "Luz Triunfante"
+		'pt-br': "Luz Triunfante",
+		ko: '초극의 빛'
 	},
 
 	serie: serie,

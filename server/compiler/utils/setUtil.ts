@@ -2,7 +2,7 @@ import { objectKeys } from '@dzeio/object-util'
 import { Set, SupportedLanguages } from '../../../interfaces'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
 import { cardToCardSimple, getCards } from './cardUtil'
-import { DB_PATH, fetchRemoteFile, getDataFolder, setIsLegal, smartGlob } from './util'
+import { DB_PATH, fetchRemoteFile, getDataFolder, resolveText, setIsLegal, smartGlob } from './util'
 
 interface t {
 	[key: string]: Set
@@ -11,7 +11,7 @@ interface t {
 const setCache: t = {}
 
 export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
-	return lang in set.name && lang in set.serie.name
+	return !!resolveText(set.name, lang) && !!resolveText(set.serie.name, lang)
 }
 
 /**
@@ -71,7 +71,7 @@ export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promis
 		},
 		id: set.id,
 		logo: pics[0],
-		name: set.name[lang] as string,
+		name: resolveText(set.name, lang),
 		symbol: pics[1]
 	}
 }
@@ -95,17 +95,17 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 			standard: setIsLegal('standard', set)
 		},
 		logo: pics[0],
-		name: set.name[lang] as string,
+		name: resolveText(set.name, lang),
 		releaseDate: typeof set.releaseDate === 'object' ? set.releaseDate[lang] ?? set.releaseDate[objectKeys(set.releaseDate)[0]]! : set.releaseDate,
 		serie: {
 			id: set.serie.id,
-			name: set.serie.name[lang] as string
+			name: resolveText(set.serie.name, lang)
 		},
 		symbol: pics[1],
 		tcgOnline: set.tcgOnline,
-		abbreviation: (set.abbreviations?.official || set.abbreviations?.[lang]) ? {
+		abbreviation: (set.abbreviations?.official || resolveText(set.abbreviations, lang)) ? {
 			official: set.abbreviations?.official,
-			localized: set.abbreviations?.[lang]
+			localized: resolveText(set.abbreviations, lang)
 		} : undefined
 	}
 }
