@@ -20,6 +20,24 @@ const set: Set = {
 		official: 226
 	},
 
+	boosters: {
+		mewtwo: {
+			name: {
+				en: 'Mewtwo'
+			}
+		},
+		charizard: {
+			name: {
+				en: 'Charizard'
+			}
+		},
+		pikachu: {
+			name: {
+				en: 'Pikachu'
+			}
+		}
+	},
+
 	releaseDate: "2024-10-30"
 }
 

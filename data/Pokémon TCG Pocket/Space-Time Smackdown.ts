@@ -20,6 +20,19 @@ const set: Set = {
 		official: 140
 	},
 
+	boosters: {
+		dialga: {
+			name: {
+				en: 'Dialga'
+			}
+		},
+		dialga: {
+			name: {
+				en: 'Dialga'
+			}
+		}
+	}
+
 	releaseDate: "2025-01-30"
 }
 

@@ -74,6 +74,10 @@ export interface Set {
 		official: number
 	}
 
+	boosters?: Record<string, {
+		name: Languages<string>
+	}>
+
 	releaseDate: ISODate | Languages<ISODate>
 }
 
@@ -87,6 +91,11 @@ export interface Card {
 	 * Card illustrator
 	 */
 	illustrator?: string
+
+	/**
+	 * indicate in which boosters the card is available
+	 */
+	boosters?: Array<string>
 
 	/**
 	 * Card Rarity
