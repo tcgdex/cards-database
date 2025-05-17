@@ -62,20 +62,7 @@ const card: Card = {
 
 			damage: 120,
 
-		},
-		{
-			cost: [
-				"Lightning",
-				"Lightning",
-				"Colorless",
-			],
-			name: {
-				fr: "Éclair Fulgurant",
-			},
-
-			damage: 120,
-
-		},
+		}
 	],
 	weaknesses: [
 		{
