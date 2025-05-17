@@ -5,12 +5,12 @@ const set: Set = {
 	id: "A1a",
 
 	name: {
-		de: "Unschlagbare Gene",
+		de: "Mysteriöse Insel",
 		en: "Mythical Island",
-		es: "Genes Formidables",
-		fr: "Puissance Génétique",
-		it: "Geni Supremi",
-		pt: "Dominação Genética"
+		es: "La Isla Singular",
+		fr: "L’Île Fabuleuse",
+		it: "L'Isola Misteriosa",
+		'pt-br': "Ilha Mítica"
 	},
 
 	serie: serie,
