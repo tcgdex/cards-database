@@ -72,9 +72,6 @@ input Sort {
 
 """a Card filters"""
 input CardsFilters {
-	"""Filter on the booster in which the card is available"""
-	# booster: String
-
 	"""Filter on the card's category (Pokemon, Trainer or Energy)"""
 	category: String
 
