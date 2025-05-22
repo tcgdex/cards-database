@@ -1,11 +1,100 @@
 export type SupportedLanguages =
 	// inter languages
-	'en' | 'fr' | 'es' | 'es-mx' | 'it' | 'pt' | 'pt-br' | 'pt-pt' | 'de' | 'nl' | 'pl' | 'ru' |
-	// Asian languages
-	'ja' | 'ko' | 'zh-tw' | 'id' | 'th' | 'zh-cn'
+	| 'en' // English					en-US
+	| 'fr' // French					fr-FR
+	| 'es' // Spanish					es-ES
+	| 'es-mx' // Latin America Spanish	es-MX
+	| 'it' // Italian					it-IT
+	| 'pt' // a merge of `pt-br` & `pt-pt`
+	| 'pt-br' // Brazilian Portuguese	pt-BR
+	| 'pt-pt' // Portugal Portuguese	pt-PT
+	| 'de' // German					de-DE
+	| 'nl' // Dutch						nl-NL
+	| 'pl' // Polish					pl-PL
+	| 'ru' // Russian					ru-RU
 
+	// Asian languages
+	| 'ja' // Japanese					ja-JP
+	| 'ko' // korean					ko-KO
+	| 'zh-tw' // Traditionnal Chinese	zh-TW
+	| 'id' // Indonesian				id-ID
+	| 'th' // Thai						th-TH
+	| 'zh-cn' // Simplified Chinese		zh-CN
+
+/**
+ * The list of Pokémon types
+ */
+export type Types =
+	| 'Grass'
+	| 'Fire'
+	| 'Water'
+	| 'Lightning'
+	| 'Psychic'
+	| 'Fighting'
+	| 'Darkness'
+	| 'Metal'
+	| 'Dragon'
+	| 'Fairy'
+	| 'Colorless'
+
+export type Rarity =
+	| 'ACE SPEC Rare'
+	| 'Amazing Rare'
+	| 'Classic Collection'
+	| 'Common'
+
+	| 'Double rare'
+	| 'Full Art Trainer'
+	| 'Holo Rare'
+	| 'Holo Rare V'
+
+	| 'Holo Rare VMAX'
+	| 'Holo Rare VSTAR'
+	| 'Hyper rare'
+	| 'Illustration rare'
+
+	| 'LEGEND'
+	| 'None'
+	| 'Radiant Rare'
+	| 'Rare'
+	| 'Rare Holo'
+	| 'Rare Holo LV.X'
+
+	| 'Rare PRIME'
+	| 'Secret Rare'
+	| 'Shiny Ultra Rare'
+	| 'Shiny rare'
+	| 'Shiny rare V'
+
+	| 'Shiny rare VMAX'
+	| 'Special illustration rare'
+	| 'Ultra Rare'
+	| 'Uncommon'
+
+	// Pokémon TCG Pocket Rarities
+	| 'One Diamond'
+	| 'Two Diamond'
+	| 'Three Diamond'
+	| 'Four Diamond'
+	| 'One Star'
+	| 'Two Star'
+	| 'Three Star'
+	| 'Crown'
+	| 'One Shiny'
+	| 'Two Shiny'
+/**
+ * utility to help in multi language strings
+ */
 export type Languages<T = string> = Partial<Record<SupportedLanguages, T>>
 
+/**
+ * Helper to define an ISO date
+ */
+type ISODate = `${number}-${number}-${number}`
+
+/**
+ * Definition of a serie
+ */
 export interface Serie {
 	id: string
 	name: Languages
@@ -16,49 +105,6 @@ export interface Serie {
 	energies?: Array<Types>
 }
 
-interface variants {
-	/**
-	 * Card base version
-	 */
-	normal?: boolean
-	/**
-	 * Holo Reverse
-	 * (colored Background holographic)
-	 */
-	reverse?: boolean
-	/**
-	 * Holo Card
-	 * (illustration holographic)
-	 */
-	holo?: boolean
-
-	/**
-	 * can have a first Edition stamp
-	 */
-	firstEdition?: boolean
-
-	/**
-	 * Can be found in Jumob Format
-	 */
-	jumbo?: boolean
-
-	/**
-	 * Card has a pre-release stamp
-	 */
-	preRelease?: boolean
-
-	/**
-	 * Card has a W stamp
-	 */
-	wPromo?: true
-}
-
-export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
-'Fairy' | 'Fighting' | 'Fire' |
-'Grass' | 'Lightning' | 'Metal' |
-'Psychic' | 'Water'
-
-type ISODate = `${number}-${number}-${number}`
 
 export interface Set {
 	id: string
@@ -81,16 +127,54 @@ export interface Set {
 	releaseDate: ISODate | Languages<ISODate>
 }
 
-export interface Card {
+type VariantShortcut =
+	| 'normal' // = { type: 'normal' }
+	| 'foil'
+	| 'reverse'
+
+type VariantDefinition = {
+	/**
+	 * if not set it is `normal`
+	 */
+	type?: 'normal' | 'holo' | 'reverse'
+	size?:
+	| 'jumbo'
+	| 'standard'
+	stamp?: '1st edition' | 'w-promo' | 'pre-release'
+} & ({
+	type: 'holo'
+	foil?: string
+} | {
+	type: 'reverse'
+	foil?: 'pokeball' | 'hyperball'
+})
+
+type Variant = VariantShortcut | VariantDefinition
+
+/**
+* base interface with everything in common between cards
+*/
+interface BaseCard {
 	/**
 	 * Card Name (Including the suffix if next to card name)
 	 */
 	name: Languages
+	subtitle?: Languages
+
+	/**
+	 * the card number
+	 */
+	number?: string
 
 	/**
 	 * Card illustrator
 	 */
 	illustrator?: string
+
+	copyright?: {
+		text: Language
+		year?: number
+	}
 
 	/**
 	 * indicate in which boosters the card is available
@@ -134,28 +218,12 @@ export interface Card {
 	 * - Ultra Rare: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/18-Cinderace-V
 	 * - Uncommon: https://www.tcgdex.net/database/Sword-&-Shield/Darkness-Ablaze/136-Furret
 	 */
-	rarity: 'ACE SPEC Rare' | 'Amazing Rare' | 'Classic Collection' | 'Common' |
-			'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
-			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
-			'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
-			'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
-			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon' |
-			// Pokémon TCG Pocket Rarities
-			'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
+	rarity?: Rarity
 
 	/**
-	 * Card Category
-	 *
-	 * - Pokemon
-	 * - Trainer
-	 * - Energy
+	 * Card Variants
 	 */
-	category: 'Pokemon' | 'Trainer' | 'Energy'
-
-	/**
-	 * Card Variants (Override Set Variants)
-	 */
-	variants?: variants
+	variants?: Array<Variant>
 
 	/**
 	 * Card Set
@@ -170,45 +238,17 @@ export interface Card {
 	regulationMark?: string
 
 	/**
-	 * Pokemon only elements
+	 * indicate the pokémons that are present on the card graphic
 	 */
+	pokemons?: Array<string | {
+		name: string
+		isShiny?: boolean
+	}>
+}
 
-	/**
-	 * Pokemon Pokedex ID
-	 */
-	dexId?: Array<number>
 
-	/**
-	 * Pokemon HP
-	 */
-	hp?: number
-
-	/**
-	 * Pokemon Types
-	 */
-	types?: Array<Types> // ex for multiple https://www.tcgdex.net/database/ex/ex13/17
-
-	/**
-	 * Pokemon Sub Evolution
-	 */
-	evolveFrom?: Languages
-
-	/**
-	 * Pokemon Weight
-	 */
-	weight?: string
-
-	/**
-	 * Pokemon Description
-	 */
-	description?: Languages
-
-	/**
-	 * Level of the Pokemon
-	 *
-	 * NOTE: can be equal to 'X' when the pokemon is a LEVEL-UP one
-	 */
-	level?: number | string
+export interface PokemonCard extends BaseCard {
+	category: 'Pokemon'
 
 	/**
 	 * Pokemon Stage
@@ -238,6 +278,43 @@ export interface Card {
 	 * - TAG TEAM-GX https://www.tcgdex.net/database/sm/sm12/226
 	 */
 	suffix?: 'EX' | 'GX' | 'V' | 'Legend' | 'Prime' | 'SP' | 'TAG TEAM-GX'
+
+	/**
+	 * Pokemon HP
+	 */
+	hp?: number
+
+	/**
+	 * Pokemon Types
+	 */
+	types?: Array<Types> // ex for multiple https://www.tcgdex.net/database/ex/ex13/17
+
+	/**
+	 * Pokemon Pokedex ID
+	 */
+	dexId?: Array<number>
+
+	/**
+	 * Pokemon Sub Evolution
+	 */
+	evolveFrom?: Languages
+
+	/**
+	 * Pokemon Weight
+	 */
+	weight?: string
+
+	/**
+	 * Pokemon Description
+	 */
+	description?: Languages
+
+	/**
+	 * Level of the Pokemon
+	 *
+	 * NOTE: can be equal to 'X' when the pokemon is a LEVEL-UP one
+	 */
+	level?: number | string
 
 	/**
 	 * Pokemon Held Item
@@ -271,38 +348,63 @@ export interface Card {
 	}>
 
 	/**
-	 * Pokemon Weaknesses
+	 * The Pokémon Weakness
+	 *
+	 * Old cards don't have text with their weakness, but the rules indicate that it does `x2`
 	 */
-	weaknesses?: Array<{
-		type: Types
-		value?: string
-	}>
+	weakness?: {
+		/**
+		 * the list of types the pokemon is weak to
+		*/
+		types: Array<Types>
+		/**
+		 * the full line text of the weakness (exlucding types)
+		*/
+		text?: string
+	}
 
-	resistances?: Array<{
-		type: Types
-		value?: string
-	}>
+	resistance?: {
+		types: Array<Types>
+		text: string
+	}
 
+	/**
+	* The retreat count of the card
+	*/
 	retreat?: number
-
-	//Trainer/Energy
-	effect?: Languages
-
-	// Trainer Only
-	trainerType?: 'Supporter' | // https://www.tcgdex.net/database/ex/ex7/83
-	'Item' | // https://www.tcgdex.net/database/ex/ex7/89
-	'Stadium' | // https://www.tcgdex.net/database/ex/ex7/87
-	'Tool' | // https://www.tcgdex.net/database/neo/neo1/93
-	'Ace Spec' | // https://www.tcgdex.net/database/bw/bw7/139
-	'Technical Machine' | // https://www.tcgdex.net/database/ecard/ecard1/144
-	'Goldenrod Game Corner' | // https://www.tcgdex.net/database/neo/neo1/83
-	'Rocket\'s Secret Machine' // https://www.tcgdex.net/database/ex/ex7/84
-
-	// Energy Only
-	energyType?: 'Normal' | // https://www.tcgdex.net/database/ecard/ecard1/160
-	'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
 }
 
+export interface TrainerCard extends BaseCard {
+	category: 'Trainer'
+	effect?: Languages
+
+	/**
+	 * Pokemon HP
+	 */
+	hp?: number
+
+	// Trainer Only
+	trainerType?: 'Supporter' // https://www.tcgdex.net/database/ex/ex7/83
+	| 'Item' // https://www.tcgdex.net/database/ex/ex7/89
+	| 'Stadium' // https://www.tcgdex.net/database/ex/ex7/87
+	| 'Tool' // https://www.tcgdex.net/database/neo/neo1/93
+	| 'Ace Spec' // https://www.tcgdex.net/database/bw/bw7/139
+	| 'Technical Machine' // https://www.tcgdex.net/database/ecard/ecard1/144
+	| 'Goldenrod Game Corner' // https://www.tcgdex.net/database/neo/neo1/83
+	| 'Rocket\'s Secret Machine' // https://www.tcgdex.net/database/ex/ex7/84
+
+}
+
+export interface EnergyCard extends BaseCard {
+	category: 'Energy'
+	effect?: Languages
+
+	// Energy Only
+	energyType?: 'Normal' // https://www.tcgdex.net/database/ecard/ecard1/160
+	| 'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
+}
+
+export type Card = PokemonCard | TrainerCard | EnergyCard
 /**
  * Filter for cards legality
  */

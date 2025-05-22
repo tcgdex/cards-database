@@ -162,6 +162,7 @@ export interface Card extends CardResume {
 	 * - Secret Rare
 	 */
 	rarity: string;
+	// rarity: { icon: string, designation: string }
 	/**
 	 * Card Category
 	 *
@@ -169,11 +170,44 @@ export interface Card extends CardResume {
 	 * - Trainer
 	 * - Energy
 	 */
-	category: string;
+	category: string
+
 	/**
-	 * Card Variants (Override Set Variants)
+	 * Card Variants
+	 * @deprecated `variants` is deprecated in favor of the current `variants_detailed` that contains more informations & is WAY more precise
 	 */
-	variants?: variants;
+	variants?: variants
+
+	/**
+	* define the list of variants the card is available in
+	*/
+	variants_detailed?: Array<{
+		/**
+		 * define the variant type
+		 * - normal: no holographic elements
+		 * - holo: the illustration has a foil
+		 * - reverse: everything but the illustration is foiled
+		 */
+		type: 'normal' | 'holo' | 'reverse'
+		/**
+		 * define the size of the card
+		 * - standard: the classic size of a card
+		 * - jumbo: also said oversized, big card.
+		 */
+		size?: 'standard' | 'jumbo'
+		/**
+		 * indicate that this variant has a stamp
+		 * - 1st edition: a 1st edition card (mostly for the first serie of the game)
+		 * - w-promo:
+		 * - pre-release:
+		 */
+		stamp?: '1st edition' | 'w-promo' | 'pre-release'
+		/**
+		 * for the holo & reverse, **optionnnal** indicate which foil is used on the card
+		 */
+		foil?: 'pokeball' | 'hyperball'
+	}>
+
 	/**
 	 * Card Set
 	 */
@@ -260,22 +294,71 @@ export interface Card extends CardResume {
 	 * Pokemon Attacks
 	 */
 	attacks?: Array<{
-		cost?: Array<string>;
-		name: string;
-		effect?: string;
-		damage?: string | number;
+		cost?: Array<string>
+		/**
+		 * the attack name
+		 */
+		name: string
+		/**
+		 * the attack effect
+		 */
+		effect?: string
+		/**
+		 * The damage text or number
+		 */
+		damage?: string | number
+		/**
+		 * the damage amount as a number
+		 */
+		amount?: number
+		/**
+		 * the damage operator as a standardized character
+		 */
+		operator?: '+' | 'x' | '-'
 	}>;
 	/**
 	 * Pokemon Weaknesses
 	 */
 	weaknesses?: Array<{
-		type: string;
-		value?: string;
-	}>;
+		/**
+		 * Indicate the type the Pokémon is weak to
+		 */
+		type: string
+		/**
+		 * the full line text of the weakness (excluding the type)
+		*/
+		value?: string
+		/**
+		 * the amount as a number
+		 * note: not set for old card but it is a `2`
+		*/
+		amount?: number
+		/**
+		 * the operator
+		 * note: not set for old cards, but it is a `x`
+		*/
+		operator?: '+' | 'x'
+	}>
+
 	resistances?: Array<{
-		type: string;
-		value?: string;
-	}>;
+		/**
+		 * Indicate the type the Pokémon resist
+		 */
+		type: string
+		/**
+		 * the full line text of the resistance (excluding the type)
+		 */
+		value: string
+		/**
+		 * the amount as a number
+		*/
+		amount: number
+		/**
+		 * the operator, currently always a `-`
+		*/
+		operator: '-'
+	}>
+
 	retreat?: number;
 	effect?: string;
 	trainerType?: string;
@@ -293,17 +376,63 @@ export interface Card extends CardResume {
 		/**
 		 * Ability to play in standard tournaments
 		 */
-		standard: boolean;
+		standard: boolean
 		/**
 		 * Ability to play in expanded tournaments
 		 */
-		expanded: boolean;
+		expanded: boolean
 	}
 
 	/**
 	 * the boosters in which the card is available
 	 */
 	boosters?: Array<Booster>
+
+	/**
+	 * the list of Pokémons that appear on the card
+	 */
+	pokemons?: Array<{
+		/**
+		 * the National Pokédex ID of the Pokémon
+		 *
+		 * note: you can then fetch aditionnal infos thorugh pokeapi.co like https://pokeapi.co/api/v2/pokemon/{id}
+		 */
+		id: number
+		/**
+		 * The Pokémon name
+		 */
+		name: string
+		/**
+		 * indicate if the pokémon is shiny or not
+		 */
+		isShiny?: true
+	}>
+
+	/**
+	 * get the copyright informations about the card
+	 */
+	copyright?: {
+		text: string
+		year?: number
+	}
+
+	/**
+	 * The card no.
+	 */
+	number: {
+		/**
+		 * the first part of the no. (if there is no `/` it will include everything)
+		 */
+		nominator: string
+		/**
+		 * a parseable area as a number (ex: 065 = 65, GG55 = 55)
+		 */
+		numeric: number
+		/**
+		 * The second part of the no (skipped if there is no `/`)
+		 */
+		denominator?: string
+	}
 
 	updated: string
 }
