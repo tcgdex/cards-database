@@ -8,7 +8,9 @@ const card: Card = {
 		en: "Mantine",
 		es: "Mantine",
 		pt: "Mantine",
-		de: "Mantax"
+		de: "Mantax",
+		fr: "Démanta",
+		it: "Mantine"
 	},
 
 	illustrator: "0313",
@@ -21,15 +23,19 @@ const card: Card = {
 		name: {
 			en: "Water Reserve",
 			es: "Reserva de Agua",
-			pt: "Water Reserve",
-			de: "Wasserreserve"
+			pt: "Reservatório de Água",
+			de: "Wasserreserve",
+			fr: "Réserve d'Eau",
+			it: "Riserva Idrica"
 		},
 
 		effect: {
-			en: "Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-			es: "Busca en tu baraja hasta 3 cartas de Energía Water, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-			de: "Durchsuche dein Deck nach bis zu 3 Water-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			en: "Search your deck for up to 3 {W} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+			es: "Busca en tu baraja hasta 3 cartas de Energía {W}, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por até 3 cartas de Energia {W} no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach bis zu 3 {W}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie {W}, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			it: "Cerca nel tuo mazzo fino a tre carte Energia {W}, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo."
 		},
 
 		cost: ["Water"]
@@ -37,8 +43,10 @@ const card: Card = {
 		name: {
 			en: "Wave Splash",
 			es: "Chapoteo Ondulante",
-			pt: "Wave Splash",
-			de: "Wellenplatscher"
+			pt: "Onda Borrifante",
+			de: "Wellenplatscher",
+			fr: "Grosse Vague",
+			it: "Schizzi d'Onda"
 		},
 
 		damage: 60,

@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Flambino",
 		es: "Scorbunny",
 		pt: "Scorbunny",
-		de: "Hopplo"
+		de: "Hopplo",
+		it: "Scorbunny"
 	},
 
 	illustrator: "Akira Komayama",
@@ -23,16 +24,18 @@ const card: Card = {
 			en: "Me First",
 			fr: "Moi d'Abord",
 			es: "Yo Primero",
-			pt: "Me First",
-			de: "Egotrip"
+			pt: "Primeiro Eu",
+			de: "Egotrip",
+			it: "Precedenza"
 		},
 
 		effect: {
 			en: "Draw a card.",
 			fr: "Piochez une carte.",
 			es: "Roba 1 carta.",
-			pt: "Draw a card.",
-			de: "Ziehe 1 Karte."
+			pt: "Compre 1 carta.",
+			de: "Ziehe 1 Karte.",
+			it: "Pesca una carta."
 		},
 
 		cost: ["Colorless"]
@@ -41,8 +44,9 @@ const card: Card = {
 			en: "Live Coal",
 			fr: "Charbon Mutant",
 			es: "Carbón Activado",
-			pt: "Live Coal",
-			de: "Glühende Kohlen"
+			pt: "Carvão Vivo",
+			de: "Glühende Kohlen",
+			it: "Carboni Ardenti"
 		},
 
 		damage: 20,

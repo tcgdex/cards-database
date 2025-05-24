@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Roulé-Boulé",
 			es: "Placaje Giro",
 			it: "Rollazione",
-			pt: "Rolling Tackle",
+			pt: "Golpe de Colisão Rolante",
 			de: "Rolltackle"
 		},
 
@@ -37,7 +37,7 @@ const card: Card = {
 			fr: "Gros Impact",
 			es: "Impacto Pesado",
 			it: "Impatto Pesante",
-			pt: "Heavy Impact",
+			pt: "Impacto Pesado",
 			de: "Schwerer Einschlag"
 		},
 

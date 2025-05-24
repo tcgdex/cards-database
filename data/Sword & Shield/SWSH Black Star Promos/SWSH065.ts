@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Collecte",
 			es: "Coleccionar",
 			it: "Tassa",
-			pt: "Collect",
+			pt: "Coleta",
 			de: "Sammeln"
 		},
 
@@ -34,7 +34,7 @@ const card: Card = {
 			fr: "Piochez 3 cartes.",
 			es: "Roba 3 cartas.",
 			it: "Pesca tre carte.",
-			pt: "Draw 3 cards.",
+			pt: "Compre 3 cartas.",
 			de: "Ziehe 3 Karten."
 		},
 
@@ -45,7 +45,7 @@ const card: Card = {
 			fr: "Copains Courageux",
 			es: "Colegas Osados",
 			it: "Amici Coraggiosi",
-			pt: "Brave Buddies",
+			pt: "Bravos Amigos",
 			de: "Kühne Kumpel"
 		},
 
@@ -54,7 +54,7 @@ const card: Card = {
 			fr: "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
 			es: "Si has jugado 1 carta de Partidario de tu mano durante este turno, este ataque hace 80 puntos de daño más.",
 			it: "Se hai giocato una carta Aiuto dalla tua mano durante questo turno, questo attacco infligge 80 danni in più.",
-			pt: "If you played a Supporter card from your hand during this turn, this attack does 80 more damage.",
+			pt: "Se você jogou 1 carta de Apoiador da sua mão durante este turno, este ataque causará 80 pontos de dano a mais.",
 			de: "Wenn du eine Unterstützerkarte während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 

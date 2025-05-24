@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Shifours Poing Final V",
 		es: "Urshifu Golpe Brusco V",
 		it: "Urshifu Singolcolpo V",
-		pt: "Single Strike Urshifu V",
+		pt: "Urshifu Golpe Decisivo V",
 		de: "Fokussierter-Angriff-Wulaosu V"
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Balayage",
 			es: "Patada Baja",
 			it: "Colpo Basso",
-			pt: "Low Kick",
+			pt: "Rasteira",
 			de: "Fußkick"
 		},
 
@@ -37,7 +37,7 @@ const card: Card = {
 			fr: "Poing Batailleur",
 			es: "Nudillo Fornido",
 			it: "Pugno Vigoroso",
-			pt: "Brawny Knuckle",
+			pt: "Punho Musculoso",
 			de: "Muskelfaust"
 		},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			es: "El daño de este ataque no se ve afectado por Resistencia.",
 			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			pt: "This attack's damage isn't affected by Resistance.",
+			pt: "O dano deste ataque não é afetado por Resistência.",
 			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 		},
 

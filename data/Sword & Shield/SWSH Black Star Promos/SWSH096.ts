@@ -8,7 +8,12 @@ const card: Card = {
 	stage: "Basic",
 
 	name: {
-		en: "Dragapult V"
+		en: "Dragapult V",
+		fr: "Lanssorien V",
+		de: "Katapuldra V",
+		es: "Dragapult V",
+		pt: "Dragapult V",
+		it: "Dragapult V"
 	},
 
 	rarity: "None",
@@ -20,7 +25,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure",
+			de: "Biss",
+			es: "Mordisco",
+			pt: "Mordida",
+			it: "Morso"
 		},
 
 		damage: 30
@@ -28,11 +38,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Jet Assault"
+			en: "Jet Assault",
+			fr: "Assaut Propulsé",
+			de: "Jet-Angriff",
+			es: "Asalto Propulsión",
+			pt: "Ofensiva a Jato",
+			it: "Assalto Jet"
 		},
 
 		effect: {
-			en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 80 more damage."
+			en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 80 more damage.",
+			fr: "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
+			de: "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			es: "Si este Pokémon se ha movido de tu Banca al Puesto Activo en este turno, este ataque hace 80 puntos de daño más.",
+			pt: "Se este Pokémon foi movido do seu Banco para o Campo Ativo durante este turno, este ataque causará 80 pontos de dano a mais.",
+			it: "Se questo Pokémon si è spostato dalla tua panchina in posizione attiva nel turno in corso, questo attacco infligge 80 danni in più."
 		},
 
 		damage: "60+"

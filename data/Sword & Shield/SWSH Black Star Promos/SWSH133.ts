@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lance's Charizard V"
+		en: "Lance's Charizard V",
+		fr: "Dracaufeu V de Peter",
+		de: "Siegfrieds Glurak V",
+		es: "Charizard V de Lance",
+		pt: "Charizard V do Lance",
+		it: "Charizard V di Lance"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -17,13 +22,23 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Flamethrower"
+			en: "Flamethrower",
+			fr: "Lance-Flammes",
+			de: "Flammenwurf",
+			es: "Lanzallamas",
+			pt: "Lança-chamas",
+			it: "Lanciafiamme"
 		},
 
 		damage: 200,
 
 		effect: {
-			en: "Discard an Energy from this Pokémon."
+			en: "Discard an Energy from this Pokémon.",
+			fr: "Défaussez une Énergie de ce Pokémon.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			es: "Descarta 1 Energía de este Pokémon.",
+			pt: "Descarte 1 Energia deste Pokémon.",
+			it: "Scarta un'Energia da questo Pokémon."
 		}
 	}],
 
@@ -38,7 +53,8 @@ const card: Card = {
 	},
 
 	hp: 220,
-	types: ["Fire"]
+	types: ["Fire"],
+	retreat: 3
 }
 
 export default card

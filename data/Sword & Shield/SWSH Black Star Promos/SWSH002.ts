@@ -33,7 +33,7 @@ const card: Card = {
 				en: "Super Singe",
 				es: "Superquemadura",
 				it: "Super Scottata",
-				pt: "Super Singe",
+				pt: "Superchamuscada",
 				de: "Super-Versengung"
 			},
 			effect: {
@@ -41,7 +41,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Quemado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
+				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Queimado.",
 				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt."
 			},
 			damage: 10,

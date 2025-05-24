@@ -15,7 +15,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Zacian V-UNION"
+		en: "Zacian V-UNION",
+		fr: "Zacian V-UNION",
+		de: "Zacian V-UNION",
+		es: "Zacian V-UNIÓN",
+		pt: "Zacian V-UNIÃO",
+		it: "Zacian V UNIONE"
 	},
 
 	rarity: "None",
@@ -67,7 +72,8 @@ const card: Card = {
 	}],
 
 	regulationMark: "E",
-	suffix: "V"
+	suffix: "V",
+	retreat: 0
 }
 
 export default card

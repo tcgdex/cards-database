@@ -15,7 +15,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Greninja V-UNION"
+		en: "Greninja V-UNION",
+		fr: "Amphinobi V-UNION",
+		de: "Quajutsu V-UNION",
+		es: "Greninja V-UNIÓN",
+		pt: "Greninja V-UNIÃO",
+		it: "Greninja V UNIONE"
 	},
 
 	rarity: "None",
@@ -97,7 +102,8 @@ const card: Card = {
 	}],
 
 	regulationMark: "E",
-	suffix: "V"
+	suffix: "V",
+	retreat: 0
 }
 
 export default card

@@ -25,17 +25,17 @@ const card: Card = {
 			fr: "Énergisant",
 			es: "Vigorizar",
 			it: "Energizza",
-			pt: "Energize",
+			pt: "Energizar",
 			de: "Energiezufuhr"
 		},
 
 		effect: {
-			en: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
-			fr: "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
-			es: "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
-			pt: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
-			de: "Lege 1 Lightning-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			en: "Attach a {L} Energy card from your discard pile to this Pokémon.",
+			fr: "Attachez une carte Énergie {L} de votre pile de défausse à ce Pokémon.",
+			es: "Une 1 carta de Energía {L} de tu pila de descartes a este Pokémon.",
+			it: "Assegna a questo Pokémon una carta Energia {L} dalla tua pila degli scarti.",
+			pt: "Ligue 1 carta de Energia {L} da sua pilha de descarte a este Pokémon.",
+			de: "Lege 1 {L}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		},
 
 		cost: ["Colorless"]
@@ -45,7 +45,7 @@ const card: Card = {
 			fr: "Gifle Envenimée",
 			es: "Bofetón Venenoso",
 			it: "Velensberla",
-			pt: "Venom Slap",
+			pt: "Tapão Venenoso",
 			de: "Gifttreffer"
 		},
 
@@ -54,7 +54,7 @@ const card: Card = {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "Your opponent's Active Pokémon is now Poisoned.",
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
 			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 

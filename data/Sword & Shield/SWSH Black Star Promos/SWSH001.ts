@@ -34,7 +34,7 @@ const card: Card = {
 				fr: "Tapotige",
 				es: "Punzada Rama",
 				it: "Ramostoccata",
-				pt: "Branch Poke",
+				pt: "Cutucada com Galho",
 				de: "Zweigstoß"
 			},
 

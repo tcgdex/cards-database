@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli",
+		de: "Evoli",
+		es: "Eevee",
+		pt: "Eevee",
+		it: "Eevee"
 	},
 
 	attacks: [{
@@ -29,17 +34,17 @@ const card: Card = {
 			fr: "Énergisant",
 			es: "Vigorizar",
 			it: "Energizza",
-			pt: "Energize",
+			pt: "Energizar",
 			de: "Energiezufuhr"
 		},
 
 		effect: {
-			en: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
-			fr: "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
-			es: "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
-			pt: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
-			de: "Lege 1 Lightning-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			en: "Attach a {L} Energy card from your discard pile to this Pokémon.",
+			fr: "Attachez une carte Énergie {L} de votre pile de défausse à ce Pokémon.",
+			es: "Une 1 carta de Energía {L} de tu pila de descartes a este Pokémon.",
+			it: "Assegna a questo Pokémon una carta Energia {L} dalla tua pila degli scarti.",
+			pt: "Ligue 1 carta de Energia {L} da sua pilha de descarte a este Pokémon.",
+			de: "Lege 1 {L}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		},
 
 		cost: ["Lightning"]
@@ -49,7 +54,7 @@ const card: Card = {
 			fr: "Fatal-Foudre",
 			es: "Trueno",
 			it: "Tuono",
-			pt: "Thunder",
+			pt: "Trovão",
 			de: "Donner"
 		},
 
@@ -58,7 +63,7 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "This Pokémon also does 30 damage to itself.",
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
 			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 

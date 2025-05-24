@@ -31,16 +31,16 @@ const card: Card = {
 				en: "Ice Dance",
 				es: "Danza Helada",
 				it: "Danza del Ghiaccio",
-				pt: "Ice Dance",
+				pt: "Dança de Gelo",
 				de: "Eistanz"
 			},
 			effect: {
-				fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Water de votre main à l'un de vos Pokémon Water de Banc.",
-				en: "As often as you like during your turn, you may attach a Water Energy card from your hand to 1 of your Benched Water Pokémon.",
-				es: "Todas las veces que quieras durante tu turno, puedes unir 1 carta de Energía Water de tu mano a 1 de tus Pokémon Water en Banca.",
-				it: "Durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon Water in panchina una carta Energia Water dalla tua mano tutte le volte che vuoi.",
-				pt: "As often as you like during your turn, you may attach a Water Energy card from your hand to 1 of your Benched Water Pokémon.",
-				de: "Beliebig oft während deines Zuges kannst du 1 Water-Energiekarte aus deiner Hand an 1 Water-Pokémon auf deiner Bank anlegen."
+				fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie {W} de votre main à l'un de vos Pokémon {W} de Banc.",
+				en: "As often as you like during your turn, you may attach a {W} Energy card from your hand to 1 of your Benched {W} Pokémon.",
+				es: "Todas las veces que quieras durante tu turno, puedes unir 1 carta de Energía {W} de tu mano a 1 de tus Pokémon {W} en Banca.",
+				it: "Durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon {W} in panchina una carta Energia {W} dalla tua mano tutte le volte che vuoi.",
+				pt: "Quantas vezes desejar durante o seu turno, você poderá ligar 1 carta de Energia {W} da sua mão a 1 dos seus Pokémon {W} no Banco.",
+				de: "Beliebig oft während deines Zuges kannst du 1 {W}-Energiekarte aus deiner Hand an 1 {W}-Pokémon auf deiner Bank anlegen."
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 				en: "Aurora Beam",
 				es: "Rayo Aurora",
 				it: "Raggiaurora",
-				pt: "Aurora Beam",
+				pt: "Raio Aurora",
 				de: "Aurorastrahl"
 			},
 
@@ -76,7 +76,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Snom",
-		fr: "Frissonille"
+		fr: "Frissonille",
+		de: "Snomnom",
+		es: "Snom",
+		pt: "Snom",
+		it: "Snom"
 	},
 
 	description: {

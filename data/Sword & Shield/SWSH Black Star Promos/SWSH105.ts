@@ -11,7 +11,9 @@ const card: Card = {
 		en: "Gardevoir V",
 		fr: "Gardevoir V",
 		es: "Gardevoir V",
-		pt: "Gardevoir V"
+		pt: "Gardevoir V",
+		de: "Guardevoir V",
+		it: "Gardevoir V"
 	},
 
 	rarity: "None",
@@ -23,7 +25,9 @@ const card: Card = {
 			en: "Magical Shot",
 			fr: "Coup Magique",
 			es: "Disparo Mágico",
-			pt: "Magical Shot"
+			pt: "Tiro Mágico",
+			de: "Magischer Schuss",
+			it: "Magicolpo"
 		},
 
 		damage: 30,
@@ -33,14 +37,18 @@ const card: Card = {
 			en: "Swelling Pulse",
 			fr: "Pulsation Grandissante",
 			es: "Pulso Creciente",
-			pt: "Swelling Pulse"
+			pt: "Pulso Crescente",
+			de: "Quellende Woge",
+			it: "Pulsazioni Amplificate"
 		},
 
 		effect: {
 			en: "If this Pokémon was healed during this turn, this attack does 80 more damage.",
 			fr: "Si ce Pokémon a été soigné pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
 			es: "Si este Pokémon ha sido curado durante este turno, este ataque hace 80 puntos de daño más.",
-			pt: "If this Pokémon was healed during this turn, this attack does 80 more damage."
+			pt: "Se este Pokémon tiver sido curado durante este turno, este ataque causará 80 pontos de dano a mais.",
+			de: "Wenn dieses Pokémon während dieses Zuges geheilt wurde, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			it: "Se questo Pokémon è stato curato durante questo turno, questo attacco infligge 80 danni in più."
 		},
 
 		damage: "120+",

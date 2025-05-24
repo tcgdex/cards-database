@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Tranch'Griffe",
 			es: "Cuchillada Garra",
 			it: "Lacerartiglio",
-			pt: "Claw Slash",
+			pt: "Golpe de Garra",
 			de: "Klauenschlitzer"
 		},
 
@@ -37,7 +37,7 @@ const card: Card = {
 			fr: "Danse Flammes",
 			es: "Giro Fuego",
 			it: "Turbofuoco",
-			pt: "Fire Spin",
+			pt: "Chama Furacão",
 			de: "Feuerwirbel"
 		},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			fr: "Défaussez 2 Énergies de ce Pokémon.",
 			es: "Descarta 2 Energías de este Pokémon.",
 			it: "Scarta due Energie da questo Pokémon.",
-			pt: "Discard 2 Energy from this Pokémon.",
+			pt: "Descarte 2 Energias deste Pokémon.",
 			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 

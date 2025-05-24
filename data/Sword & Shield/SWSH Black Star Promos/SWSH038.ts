@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Répercussions",
 			es: "Apoyo Vengativo",
 			it: "Radunata Rinforzi",
-			pt: "Rally Back",
+			pt: "Responder à Altura",
 			de: "Aufholjagd"
 		},
 
@@ -34,7 +34,7 @@ const card: Card = {
 			fr: "Si au moins l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire pendant son dernier tour, cette attaque inflige 90 dégâts supplémentaires.",
 			es: "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque de los Pokémon de tu rival durante su último turno, este ataque hace 90 puntos de daño más.",
 			it: "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario durante il suo ultimo turno, questo attacco infligge 90 danni in più.",
-			pt: "If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, this attack does 90 more damage.",
+			pt: "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque dos Pokémon do seu oponente durante o último turno dele(a), este ataque causará 90 pontos de dano a mais.",
 			de: "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wurde, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			fr: "Enfoncement",
 			es: "Martillear",
 			it: "Martello",
-			pt: "Hammer In",
+			pt: "Martelada",
 			de: "Einhämmern"
 		},
 

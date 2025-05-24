@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Luxio",
-		fr: "Luxio"
+		fr: "Luxio",
+		de: "Luxio",
+		es: "Luxio",
+		pt: "Luxio",
+		it: "Luxio"
 	},
 
 	attacks: [{
@@ -30,7 +34,7 @@ const card: Card = {
 			fr: "Razzia Obscure",
 			es: "Raid Oscuro",
 			it: "Raid",
-			pt: "Raid",
+			pt: "Reide",
 			de: "Überfall"
 		},
 
@@ -39,7 +43,7 @@ const card: Card = {
 			fr: "Si ce Pokémon a évolué de Luxio pendant ce tour, cette attaque inflige 100 dégâts supplémentaires.",
 			es: "Si este Pokémon ha evolucionado de Luxio durante este turno, este ataque hace 100 puntos de daño más.",
 			it: "Se questo Pokémon si è evoluto da Luxio durante questo turno, questo attacco infligge 100 danni in più.",
-			pt: "If this Pokémon evolved from Luxio during this turn, this attack does 100 more damage.",
+			pt: "Se este Pokémon evoluiu de Luxio durante este turno, este ataque causará 100 pontos de dano a mais.",
 			de: "Wenn sich dieses Pokémon während dieses Zuges aus Luxio entwickelt hat, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
@@ -51,7 +55,7 @@ const card: Card = {
 			fr: "Éclair Frontal",
 			es: "Rayo de Cabeza",
 			it: "Zuccalampo",
-			pt: "Head Bolt",
+			pt: "Raio de Cabeça",
 			de: "Kopf-Blitz"
 		},
 

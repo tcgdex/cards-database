@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Mâchouille",
 			es: "Triturar",
 			it: "Sgranocchio",
-			pt: "Crunch",
+			pt: "Mastigada",
 			de: "Knirscher"
 		},
 
@@ -34,7 +34,7 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
 			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
 			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			pt: "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
 			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			fr: "Lame de Métal",
 			es: "Cuchilla Metal",
 			it: "Lama Metallica",
-			pt: "Metal Blade",
+			pt: "Lâmina Metálica",
 			de: "Metallklinge"
 		},
 
@@ -55,7 +55,7 @@ const card: Card = {
 			fr: "Défaussez 3 Énergies de ce Pokémon.",
 			es: "Descarta 3 Energías de este Pokémon.",
 			it: "Scarta tre Energie da questo Pokémon.",
-			pt: "Discard 3 Energy from this Pokémon.",
+			pt: "Descarte 3 Energias deste Pokémon.",
 			de: "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 

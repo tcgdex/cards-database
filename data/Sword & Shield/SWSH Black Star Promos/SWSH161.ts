@@ -15,7 +15,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Mewtwo V-UNION"
+		en: "Mewtwo V-UNION",
+		fr: "Mewtwo V-UNION",
+		de: "Mewtu V-UNION",
+		es: "Mewtwo V-UNIÓN",
+		pt: "Mewtwo V-UNIÃO",
+		it: "Mewtwo V UNIONE"
 	},
 
 	rarity: "None",
@@ -75,7 +80,8 @@ const card: Card = {
 	}],
 
 	regulationMark: "E",
-	suffix: "V"
+	suffix: "V",
+	retreat: 0
 }
 
 export default card

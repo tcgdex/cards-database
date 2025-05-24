@@ -13,7 +13,12 @@ const card: Card = {
 	stage: "Basic",
 
 	name: {
-		en: "Phanpy"
+		en: "Phanpy",
+		fr: "Phanpy",
+		de: "Phanpy",
+		es: "Phanpy",
+		pt: "Phanpy",
+		it: "Phanpy"
 	},
 
 	rarity: "None",
@@ -25,7 +30,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Stampede"
+			en: "Stampede",
+			fr: "Ruée",
+			de: "Zertrampeln",
+			es: "Estampida",
+			pt: "Estouro",
+			it: "Fuggi Fuggi"
 		},
 
 		damage: 10
@@ -33,11 +43,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Strike Back"
+			en: "Strike Back",
+			fr: "Vengeur",
+			de: "Kontern",
+			es: "Contraimpacto",
+			pt: "Revidar",
+			it: "Risposta"
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each damage counter on this Pokémon."
+			en: "This attack does 30 damage for each damage counter on this Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 30 Schadenspunkte zu.",
+			es: "Este ataque hace 30 puntos de daño por cada contador de daño en este Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano para cada contador de dano neste Pokémon.",
+			it: "Questo attacco infligge 30 danni per ogni segnalino danno presente su questo Pokémon."
 		},
 
 		damage: "30×"

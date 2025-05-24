@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu V-UNION"
+		en: "Pikachu V-UNION",
+		fr: "Pikachu V-UNION",
+		de: "Pikachu V-UNION",
+		es: "Pikachu V-UNIÓN",
+		pt: "Pikachu V-UNIÃO",
+		it: "Pikachu V UNIONE"
 	},
 
 	rarity: "None",
@@ -67,7 +72,8 @@ const card: Card = {
 	},
 
 	hp: 300,
-	types: ["Lightning"]
+	types: ["Lightning"],
+	retreat: 0
 }
 
 export default card

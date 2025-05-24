@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Rayquaza",
 		es: "Rayquaza",
 		pt: "Rayquaza",
-		de: "Rayquaza"
+		de: "Rayquaza",
+		it: "Rayquaza"
 	},
 
 	illustrator: "so-taro",
@@ -23,16 +24,18 @@ const card: Card = {
 			en: "Jaw Lock",
 			fr: "Croque Fort",
 			es: "Presa Maxilar",
-			pt: "Jaw Lock",
-			de: "Fesselbiss"
+			pt: "Trava de Mandíbula",
+			de: "Fesselbiss",
+			it: "Morsostretto"
 		},
 
 		effect: {
 			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			pt: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
+			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
+			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi."
 		},
 
 		damage: 30,
@@ -42,16 +45,18 @@ const card: Card = {
 			en: "Power Blast",
 			fr: "Violente Déflagration",
 			es: "Estallido Vigoroso",
-			pt: "Power Blast",
-			de: "Powerschuss"
+			pt: "Explosão Poderosa",
+			de: "Powerschuss",
+			it: "Forzacolpo"
 		},
 
 		effect: {
 			en: "Discard an Energy from this Pokémon.",
 			fr: "Défaussez une Énergie de ce Pokémon.",
 			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Discard an Energy from this Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			pt: "Descarte 1 Energia deste Pokémon.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta un'Energia da questo Pokémon."
 		},
 
 		damage: 120,

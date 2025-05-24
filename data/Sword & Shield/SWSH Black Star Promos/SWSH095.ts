@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Premier Pas",
 			es: "Primer Paso",
 			it: "Primo Passo",
-			pt: "First Step",
+			pt: "Primeiro Passo",
 			de: "Erster Schritt"
 		},
 
@@ -34,7 +34,7 @@ const card: Card = {
 			fr: "Piochez une carte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			pt: "Draw a card.",
+			pt: "Compre 1 carta.",
 			de: "Ziehe 1 Karte."
 		},
 
@@ -45,7 +45,7 @@ const card: Card = {
 			fr: "Queue Battoir",
 			es: "Coletón",
 			it: "Codabotta",
-			pt: "Tail Whap",
+			pt: "Surra de Cauda",
 			de: "Schweifvertrimmer"
 		},
 

@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Miaouss-V",
-		en: "Meowth V"
+		en: "Meowth V",
+		de: "Mauzi-V",
+		es: "Meowth V",
+		pt: "Meowth V",
+		it: "Meowth-V"
 	},
 
 	stage: "VMAX",
@@ -41,7 +45,7 @@ const card: Card = {
 				en: "G-Max Gold Rush",
 				es: "Gigamonedas",
 				it: "Gigamonete",
-				pt: "G-Max Gold Rush",
+				pt: "Corrida do Ouro G-Max",
 				de: "Giga-Münzregen"
 			},
 			effect: {
@@ -49,7 +53,7 @@ const card: Card = {
 				en: "Draw 3 cards.",
 				es: "Roba 3 cartas.",
 				it: "Pesca tre carte.",
-				pt: "Draw 3 cards.",
+				pt: "Compre 3 cartas.",
 				de: "Ziehe 3 Karten."
 			},
 			damage: 200,

@@ -12,7 +12,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Greninja Star"
+		en: "Greninja {star}",
+		fr: "Amphinobi {star}",
+		de: "Quajutsu {star}",
+		es: "Greninja {star}",
+		pt: "Greninja {star}",
+		it: "Greninja {star}"
 	},
 
 	rarity: "None",
@@ -38,15 +43,27 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Mist Slash"
+			en: "Mist Slash",
+			fr: "Tranche-Brume",
+			de: "Schleierschlitzer",
+			es: "Golpe Niebla",
+			pt: "Golpe de Névoa",
+			it: "Squarcianebbia"
 		},
 
 		damage: 100,
 
 		effect: {
-			en: "This attack's damage isn't affected by Weakness or Resistance, or by any effects on your opponent's Active Pokémon."
+			en: "This attack's damage isn't affected by Weakness or Resistance, or by any effects on your opponent's Active Pokémon.",
+			fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire.",
+			de: "Der Schaden dieser Attacke wird durch Schwäche, Resistenz oder Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+			es: "El daño de este ataque no se ve afectado por Debilidad o Resistencia, o por ningún efecto en el Pokémon Activo de tu rival.",
+			pt: "O dano deste ataque não é afetado por Fraqueza ou Resistência, ou por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+			it: "I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza, o da alcun effetto presente sul Pokémon attivo del tuo avversario."
 		}
-	}]
+	}],
+
+	retreat: 1
 }
 
 export default card
