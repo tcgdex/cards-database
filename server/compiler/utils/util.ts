@@ -57,14 +57,17 @@ export function cardIsLegal(type: 'standard' | 'expanded', card: Card, localId: 
 	if (
 		legal.includes.series.includes(card.set.serie.id) ||
 		legal.includes.sets.includes(card.set.id) ||
+		card.energyType === "Normal" ||
 		card.regulationMark && legal.includes.regulationMark.includes(card.regulationMark)
 	) {
 		return !(
 			legal.excludes.sets.includes(card.set.id) ||
+			(type === 'standard' && card.types?.includes("Fairy")) ||
 			legal.excludes.cards.includes(`${card.set.id}-${localId}`)
 		)
 	}
-	return false
+
+    return false;
 }
 
 /**
