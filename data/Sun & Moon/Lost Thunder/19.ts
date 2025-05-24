@@ -71,20 +71,7 @@ const card: Card = {
 			},
 			damage: 20,
 
-		},
-		{
-			cost: [
-				"Grass",
-			],
-			name: {
-				fr: "Vampigraine",
-			},
-			effect: {
-				fr: "Soignez 20 dégâts à ce Pokémon.",
-			},
-			damage: 20,
-
-		},
+		}
 	],
 	weaknesses: [
 		{

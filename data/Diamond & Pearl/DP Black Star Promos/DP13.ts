@@ -37,12 +37,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
+			en: 'Splash About',
 			de: "Herumspritzen"
 		},
 
 		damage: "10+",
 
 		effect: {
+			en: 'If buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.',
 			de: "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Bamelin, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 		},
 

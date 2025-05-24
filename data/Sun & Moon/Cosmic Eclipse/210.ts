@@ -90,20 +90,6 @@ const card: Card = {
 			}
 
 		},
-		{
-			cost: [
-				"Colorless",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Plante Solaire-GX",
-			},
-			effect: {
-				fr: "Cette attaque inflige 50 dégâts à chacun des Pokémon de votre adversaire. Si au moins 2 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), soignez tous les dégâts de vos Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-
-		},
 	],
 	weaknesses: [
 		{

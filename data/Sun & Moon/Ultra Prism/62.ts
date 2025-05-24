@@ -74,23 +74,7 @@ const card: Card = {
 			},
 			damage: "20×",
 
-		},
-		{
-			cost: [
-				"Psychic",
-				"Psychic",
-				"Psychic",
-				"Psychic",
-			],
-			name: {
-				fr: "Tempête Psy",
-			},
-			effect: {
-				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre d’Énergies attachées aux Pokémon.",
-			},
-			damage: "20×",
-
-		},
+		}
 	],
 	weaknesses: [
 		{

@@ -98,19 +98,6 @@ const card: Card = {
 			damage: 50,
 
 		},
-		{
-			cost: [
-				"Grass",
-			],
-			name: {
-				fr: "Jeu Chimérique-GX",
-			},
-			effect: {
-				fr: "Si le Pokémon de votre adversaire est mis K.O. par les dégâts de cette attaque, récupérez une carte Récompense supplémentaire. Si au moins 7 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), récupérez 3 cartes Récompense supplémentaires au lieu d’une. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: 50,
-
-		},
 	],
 	weaknesses: [
 		{

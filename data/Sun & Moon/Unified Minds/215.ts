@@ -97,21 +97,6 @@ const card: Card = {
 			damage: 200,
 
 		},
-		{
-			cost: [
-				"Grass",
-				"Grass",
-				"Grass",
-			],
-			name: {
-				fr: "Pause Tropicale-GX",
-			},
-			effect: {
-				fr: "Si au moins 3 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), votre adversaire mélange toutes les Énergies de tous ses Pokémon avec son deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: 200,
-
-		},
 	],
 	weaknesses: [
 		{

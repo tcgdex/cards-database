@@ -72,21 +72,6 @@ const card: Card = {
 			damage: 160,
 
 		},
-		{
-			cost: [
-				"Fairy",
-				"Fairy",
-				"Fairy",
-			],
-			name: {
-				fr: "Cornes Lumineuses",
-			},
-			effect: {
-				fr: "Ce Pokémon ne peut pas utiliser Cornes Lumineuses pendant votre prochain tour.",
-			},
-			damage: 160,
-
-		},
 	],
 	weaknesses: [
 		{
