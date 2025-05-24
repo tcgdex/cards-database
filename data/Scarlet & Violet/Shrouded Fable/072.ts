@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon has any Darkness Energy attached, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent's Pokémon.",
-			fr: "Une fois pendant votre tour, si ce Pokémon a au moins une Énergie Darkness attachée, vous pouvez déplacer jusqu'à 3 marqueurs de dégâts de l'un de vos Pokémon vers l'un des Pokémon de votre adversaire.",
-			es: "Una vez durante tu turno, si este Pokémon tiene alguna Energía Darkness unida, puedes mover hasta 3 contadores de daño de uno de tus Pokémon a uno de los Pokémon de tu rival.",
-			it: "Una sola volta durante il tuo turno, se questo Pokémon ha delle Energie Darkness assegnate, puoi spostare fino a tre segnalini danno da uno dei tuoi Pokémon a un Pokémon del tuo avversario.",
-			pt: "Uma vez durante o seu turno, se este Pokémon tiver alguma Energia Darkness ligada a ele, você poderá mover até 3 contadores de dano de 1 dos seus Pokémon para 1 dos Pokémon do seu oponente.",
-			de: "Einmal während deines Zuges, wenn an dieses Pokémon mindestens 1 Darkness-Energie angelegt ist, kannst du bis zu 3 Schadensmarken von 1 deiner Pokémon auf 1 Pokémon deines Gegners verschieben."
+			en: "Once during your turn, if this Pokémon has any {D} Energy attached, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent's Pokémon.",
+			fr: "Une fois pendant votre tour, si ce Pokémon a au moins une Énergie {D} attachée, vous pouvez déplacer jusqu'à 3 marqueurs de dégâts de l'un de vos Pokémon vers l'un des Pokémon de votre adversaire.",
+			es: "Una vez durante tu turno, si este Pokémon tiene alguna Energía {D} unida, puedes mover hasta 3 contadores de daño de uno de tus Pokémon a uno de los Pokémon de tu rival.",
+			it: "Una sola volta durante il tuo turno, se questo Pokémon ha delle Energie {D} assegnate, puoi spostare fino a tre segnalini danno da uno dei tuoi Pokémon a un Pokémon del tuo avversario.",
+			pt: "Uma vez durante o seu turno, se este Pokémon tiver alguma Energia {D} ligada a ele, você poderá mover até 3 contadores de dano de 1 dos seus Pokémon para 1 dos Pokémon do seu oponente.",
+			de: "Einmal während deines Zuges, wenn an dieses Pokémon mindestens 1 {D}-Energie angelegt ist, kannst du bis zu 3 Schadensmarken von 1 deiner Pokémon auf 1 Pokémon deines Gegners verschieben."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Teeziro"
 }
 
 export default card

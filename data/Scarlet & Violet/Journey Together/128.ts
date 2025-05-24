@@ -71,7 +71,8 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "Anesaki Dynamic"
 }
 
 export default card

@@ -31,7 +31,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "Atsushi Furusawa"
 }
 
 export default card

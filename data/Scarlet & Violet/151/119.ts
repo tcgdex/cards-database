@@ -55,12 +55,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
-			en: "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
-			es: "Este ataque hace 30 puntos de daño más por cada Energía Water unida a este Pokémon.",
-			it: "Questo attacco infligge 30 danni in più per ogni Energia Water assegnata a questo Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 30 Schadenspunkte mehr zu."
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie {W} attachée à ce Pokémon.",
+			en: "This attack does 30 more damage for each {W} Energy attached to this Pokémon.",
+			es: "Este ataque hace 30 puntos de daño más por cada Energía {W} unida a este Pokémon.",
+			it: "Questo attacco infligge 30 danni in più per ogni Energia {W} assegnata a questo Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia {W} ligada a este Pokémon.",
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"
@@ -71,7 +71,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "SIE NANAHARA"
 }
 
 export default card

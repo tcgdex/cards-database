@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "All of your Pokémon that have Metal Energy attached have no Retreat Cost.",
-			fr: "Vos Pokémon auxquels de l'Énergie Metal est attachée n'ont pas de Coût de Retraite.",
-			es: "Ninguno de tus Pokémon que tenga alguna Energía Metal unida tiene Coste de Retirada.",
-			it: "Tutti i tuoi Pokémon che hanno delle Energie Metal assegnate non hanno costo di ritirata.",
-			pt: "Todos os seus Pokémon que têm Energia Metal ligada a eles não têm custo de Recuo.",
-			de: "Alle deine Pokémon, an die Metal-Energie angelegt ist, haben keine Rückzugskosten."
+			en: "All of your Pokémon that have {M} Energy attached have no Retreat Cost.",
+			fr: "Vos Pokémon auxquels de l'Énergie {M} est attachée n'ont pas de Coût de Retraite.",
+			es: "Ninguno de tus Pokémon que tenga alguna Energía {M} unida tiene Coste de Retirada.",
+			it: "Tutti i tuoi Pokémon che hanno delle Energie {M} assegnate non hanno costo di ritirata.",
+			pt: "Todos os seus Pokémon que têm Energia {M} ligada a eles não têm custo de Recuo.",
+			de: "Alle deine Pokémon, an die {M}-Energie angelegt ist, haben keine Rückzugskosten."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Toshinao Aoki"
 }
 
 export default card

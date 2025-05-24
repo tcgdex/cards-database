@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Dragon Pokémon, it is now Paralyzed.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Dragon, il est maintenant Paralysé.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Dragon, pasa a estar Paralizado.",
-			it: "Se il Pokémon attivo del tuo avversario è di tipo Dragon, viene paralizzato.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Dragon, ele agora estará Paralisado.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Dragon-Pokémon ist, ist es jetzt paralysiert."
+			en: "If your opponent's Active Pokémon is a {N} Pokémon, it is now Paralyzed.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon {N}, il est maintenant Paralysé.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon {N}, pasa a estar Paralizado.",
+			it: "Se il Pokémon attivo del tuo avversario è di tipo {N}, viene paralizzato.",
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon {N}, ele agora estará Paralisado.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein {N}-Pokémon ist, ist es jetzt paralysiert."
 		},
 
 		damage: 90
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "kawayoo"
 }
 
 export default card

@@ -62,7 +62,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "N-DESIGN Inc."
 }
 
 export default card

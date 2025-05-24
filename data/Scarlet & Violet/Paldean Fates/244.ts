@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Dinglu-ex",
 		es: "Ting-Lu ex",
 		it: "Ting-Lu-ex",
-		de: "Dinglu-ex"
+		de: "Dinglu-ex",
+		pt: "Ting-Lu ex"
 	},
 
 	rarity: "Hyper rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Terre Maudite",
 			es: "Tierra Maldita",
 			it: "Terra Maledetta",
-			de: "Verfluchtes Land"
+			de: "Verfluchtes Land",
+			pt: "Terra Amaldiçoada"
 		},
 
 		effect: {
@@ -34,7 +36,8 @@ const card: Card = {
 			fr: "Tant que ce Pokémon est sur le Poste Actif, les Pokémon en jeu de votre adversaire ayant au moins un marqueur de dégâts n'ont pas de talent, à l'exception des Pokémon-ex.",
 			es: "Mientras este Pokémon esté en el Puesto Activo, los Pokémon en juego de tu rival que tengan algún contador de daño sobre ellos no tienen ninguna habilidad, excepto los Pokémon ex.",
 			it: "Fintanto che questo Pokémon è in posizione attiva, i Pokémon in gioco del tuo avversario che hanno dei segnalini danno non hanno abilità, a eccezione dei Pokémon-ex.",
-			de: "Solange dieses Pokémon in der Aktiven Position ist, haben die Pokémon deines Gegners im Spiel, auf denen mindestens 1 Schadensmarke liegt, keine Fähigkeiten, außer Pokémon-ex."
+			de: "Solange dieses Pokémon in der Aktiven Position ist, haben die Pokémon deines Gegners im Spiel, auf denen mindestens 1 Schadensmarke liegt, keine Fähigkeiten, außer Pokémon-ex.",
+			pt: "Enquanto este Pokémon estiver no Campo Ativo, os Pokémon do seu oponente em jogo que tiverem algum contador de dano neles não têm Habilidades, exceto por Pokémon ex."
 		}
 	}],
 
@@ -46,7 +49,8 @@ const card: Card = {
 			fr: "Rafle Terrestre",
 			es: "Palada de Tierra",
 			it: "Raccolta di Terra",
-			de: "Landschaufel"
+			de: "Landschaufel",
+			pt: "Escavar a Terra"
 		},
 
 		effect: {
@@ -54,7 +58,8 @@ const card: Card = {
 			fr: "Placez 2 marqueurs de dégâts sur l'un des Pokémon de Banc de votre adversaire.",
 			es: "Pon 2 contadores de daño en uno de los Pokémon en Banca de tu rival.",
 			it: "Metti due segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
-			de: "Lege 2 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners."
+			de: "Lege 2 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners.",
+			pt: "Coloque 2 contadores de dano em 1 dos Pokémon no Banco do seu oponente."
 		},
 
 		damage: 150
@@ -66,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

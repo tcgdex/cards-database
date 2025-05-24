@@ -45,12 +45,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon has any damage counters on it, this attack can be used for Fighting.",
-			fr: "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque peut être utilisée pour Fighting.",
-			es: "Si este Pokémon tiene algún contador de daño sobre él, este ataque se puede usar por Fighting.",
-			it: "Se questo Pokémon ha dei segnalini danno, il costo di questo attacco è Fighting.",
-			pt: "Se este Pokémon tiver algum contador de dano nele, este ataque poderá ser usado por Fighting.",
-			de: "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, kann diese Attacke für Fighting eingesetzt werden."
+			en: "If this Pokémon has any damage counters on it, this attack can be used for {F}.",
+			fr: "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque peut être utilisée pour {F}.",
+			es: "Si este Pokémon tiene algún contador de daño sobre él, este ataque se puede usar por {F}.",
+			it: "Se questo Pokémon ha dei segnalini danno, il costo di questo attacco è {F}.",
+			pt: "Se este Pokémon tiver algum contador de dano nele, este ataque poderá ser usado por {F}.",
+			de: "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, kann diese Attacke für {F} eingesetzt werden."
 		},
 
 		damage: 130
@@ -61,7 +61,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "KEIICHIRO ITO"
 }
 
 export default card

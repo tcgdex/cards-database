@@ -61,7 +61,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "matazo"
 }
 
 export default card

@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Choose Basic Lightning Energy cards from your discard pile up to the number of Prize cards your opponent has taken and attach them to your Pokémon in any way you like.",
-			fr: "Choisissez dans votre pile de défausse un nombre de cartes Énergie Lightning de base inférieur ou égal au nombre de cartes Récompense que votre adversaire a récupérées, puis attachez-les à vos Pokémon comme il vous plaît.",
-			es: "Elige una cantidad de cartas de Energía Lightning Básica de tu pila de descartes igual o inferior al número de cartas de Premio que haya cogido tu rival, y únelas a tus Pokémon de la manera que desees.",
-			it: "Scegli un numero di carte Energia base Lightning dalla tua pila degli scarti uguale o inferiore al numero di carte Premio prese dal tuo avversario e assegnale ai tuoi Pokémon nel modo che preferisci.",
-			pt: "Escolha cartas de Energia Lightning Básica da sua pilha de descarte até o número de cartas de Prêmio que o seu oponente pegou e ligue-as aos seus Pokémon como desejar.",
-			de: "Wähle bis zu so viele Basis-Lightning-Energiekarten aus deinem Ablagestapel, wie dein Gegner Preiskarten genommen hat, und lege sie beliebig an deine Pokémon an."
+			en: "Choose Basic {L} Energy cards from your discard pile up to the number of Prize cards your opponent has taken and attach them to your Pokémon in any way you like.",
+			fr: "Choisissez dans votre pile de défausse un nombre de cartes Énergie {L} de base inférieur ou égal au nombre de cartes Récompense que votre adversaire a récupérées, puis attachez-les à vos Pokémon comme il vous plaît.",
+			es: "Elige una cantidad de cartas de Energía {L} Básica de tu pila de descartes igual o inferior al número de cartas de Premio que haya cogido tu rival, y únelas a tus Pokémon de la manera que desees.",
+			it: "Scegli un numero di carte Energia base {L} dalla tua pila degli scarti uguale o inferiore al numero di carte Premio prese dal tuo avversario e assegnale ai tuoi Pokémon nel modo che preferisci.",
+			pt: "Escolha cartas de Energia {L} Básica da sua pilha de descarte até o número de cartas de Prêmio que o seu oponente pegou e ligue-as aos seus Pokémon como desejar.",
+			de: "Wähle bis zu so viele Basis-{L}-Energiekarten aus deinem Ablagestapel, wie dein Gegner Preiskarten genommen hat, und lege sie beliebig an deine Pokémon an."
 		}
 	}, {
 		cost: ["Lightning", "Colorless", "Colorless"],
@@ -69,7 +69,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "GOSSAN"
 }
 
 export default card

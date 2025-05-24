@@ -62,7 +62,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "satoma"
 }
 
 export default card

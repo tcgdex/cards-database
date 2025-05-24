@@ -31,7 +31,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Toyste Beach"
 }
 
 export default card

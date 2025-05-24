@@ -32,19 +32,20 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard a Fire Energy from this Pokémon.",
-			fr: "Défaussez une Énergie Fire de ce Pokémon.",
-			es: "Descarta 1 Energía Fire de este Pokémon.",
-			it: "Scarta un'Energia Fire da questo Pokémon.",
-			pt: "Descarte uma Energia Fire deste Pokémon.",
-			de: "Lege 1 Fire-Energie von diesem Pokémon auf deinen Ablagestapel."
+			en: "Discard a {R} Energy from this Pokémon.",
+			fr: "Défaussez une Énergie {R} de ce Pokémon.",
+			es: "Descarta 1 Energía {R} de este Pokémon.",
+			it: "Scarta un'Energia {R} da questo Pokémon.",
+			pt: "Descarte uma Energia {R} deste Pokémon.",
+			de: "Lege 1 {R}-Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 200
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "PLANETA Tsuji"
 }
 
 export default card

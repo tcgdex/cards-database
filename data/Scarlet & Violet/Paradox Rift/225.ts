@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "aky CG Works"
 }
 
 export default card

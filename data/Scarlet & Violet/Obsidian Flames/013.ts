@@ -39,7 +39,9 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: {
-	}
+	},
+
+	illustrator: "Tomokazu Komiya"
 }
 
 export default card

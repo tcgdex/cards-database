@@ -50,7 +50,9 @@ const card: Card = {
 		normal: true,
 		holo: true,
 		reverse: true
-	}
+	},
+
+	illustrator: "Pani Kobayashi"
 };
 
 export default card

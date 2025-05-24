@@ -62,7 +62,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "rika"
 }
 
 export default card

@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Si au moins une Énergie Water est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
-			en: "If this Pokémon has any Water Energy attached, it has no Retreat Cost.",
-			es: "Si este Pokémon tiene alguna Energía Water unida, no tiene ningún Coste de Retirada.",
-			it: "Se questo Pokémon ha delle Energie Water assegnate, non ha costo di ritirata.",
-			pt: "Se este Pokémon tiver alguma Energia Water ligada a ele, não terá custo de Recuo.",
-			de: "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, hat es keine Rückzugskosten."
+			fr: "Si au moins une Énergie {W} est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
+			en: "If this Pokémon has any {W} Energy attached, it has no Retreat Cost.",
+			es: "Si este Pokémon tiene alguna Energía {W} unida, no tiene ningún Coste de Retirada.",
+			it: "Se questo Pokémon ha delle Energie {W} assegnate, non ha costo di ritirata.",
+			pt: "Se este Pokémon tiver alguma Energia {W} ligada a ele, não terá custo de Recuo.",
+			de: "Wenn an dieses Pokémon mindestens 1 {W}-Energie angelegt ist, hat es keine Rückzugskosten."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "chibi"
 }
 
 export default card

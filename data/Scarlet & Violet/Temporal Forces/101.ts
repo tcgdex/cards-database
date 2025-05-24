@@ -60,7 +60,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Minato"
 }
 
 export default card

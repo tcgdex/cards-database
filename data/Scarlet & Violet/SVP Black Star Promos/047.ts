@@ -44,7 +44,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "NC Empire"
 }
 
 export default card

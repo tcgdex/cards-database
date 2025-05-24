@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Lightning Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon Lightning de Banc.",
-			es: "Cambia este Pokémon por uno de tus Pokémon Lightning en Banca.",
-			it: "Scambia questo Pokémon con un Pokémon Lightning della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon Lightning no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Lightning-Pokémon auf deiner Bank aus."
+			en: "Switch this Pokémon with 1 of your Benched {L} Pokémon.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon {L} de Banc.",
+			es: "Cambia este Pokémon por uno de tus Pokémon {L} en Banca.",
+			it: "Scambia questo Pokémon con un Pokémon {L} della tua panchina.",
+			pt: "Troque este Pokémon por 1 dos seus Pokémon {L} no Banco.",
+			de: "Tausche dieses Pokémon gegen 1 {L}-Pokémon auf deiner Bank aus."
 		},
 
 		damage: 90
@@ -61,7 +61,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Shiburingaru"
 }
 
 export default card

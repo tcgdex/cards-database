@@ -72,7 +72,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "kawayoo"
 }
 
 export default card

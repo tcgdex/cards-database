@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent has any Water Pokémon in play, this attack does 120 more damage.",
-			fr: "Si votre adversaire a au moins un Pokémon Water en jeu, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Si tu rival tiene algún Pokémon Water en juego, este ataque hace 120 puntos de daño más.",
-			it: "Se il tuo avversario ha dei Pokémon Water in gioco, questo attacco infligge 120 danni in più.",
-			pt: "Se o seu oponente tiver algum Pokémon Water em jogo, este ataque causará 120 pontos de dano a mais.",
-			de: "Wenn dein Gegner mindestens 1 Water-Pokémon im Spiel hat, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			en: "If your opponent has any {W} Pokémon in play, this attack does 120 more damage.",
+			fr: "Si votre adversaire a au moins un Pokémon {W} en jeu, cette attaque inflige 120 dégâts supplémentaires.",
+			es: "Si tu rival tiene algún Pokémon {W} en juego, este ataque hace 120 puntos de daño más.",
+			it: "Se il tuo avversario ha dei Pokémon {W} in gioco, questo attacco infligge 120 danni in più.",
+			pt: "Se o seu oponente tiver algum Pokémon {W} em jogo, este ataque causará 120 pontos de dano a mais.",
+			de: "Wenn dein Gegner mindestens 1 {W}-Pokémon im Spiel hat, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "40+"
@@ -62,7 +62,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Yuya Oka"
 }
 
 export default card

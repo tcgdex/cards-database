@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may move any amount of Fire Energy from your other Pokémon to it.",
-			fr: "Une fois pendant votre tour, lorsque ce Pokémon se déplace de votre Banc vers le Poste Actif, vous pouvez déplacer autant d'Énergies Fire que vous le voulez de vos autres Pokémon vers celui-ci.",
-			es: "Una vez durante tu turno, cuando este Pokémon se mueve de tu Banca al Puesto Activo, puedes mover cualquier cantidad de Energías Fire de tus otros Pokémon a este Pokémon.",
-			it: "Una sola volta durante il tuo turno, quando questo Pokémon si sposta dalla tua panchina in posizione attiva, puoi spostare un numero qualsiasi di Energie Fire dai tuoi altri Pokémon su questo Pokémon.",
-			pt: "Uma vez durante o seu turno, quando este Pokémon for movido do seu Banco para o Campo Ativo, você poderá mover qualquer quantidade de Energia Fire dos seus outros Pokémon para este Pokémon.",
-			de: "Einmal während deines Zuges, wenn dieses Pokémon von deiner Bank in die Aktive Position wechselt, kannst du beliebig viele Fire-Energien von deinen anderen Pokémon auf dieses Pokémon verschieben."
+			en: "Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may move any amount of {R} Energy from your other Pokémon to it.",
+			fr: "Une fois pendant votre tour, lorsque ce Pokémon se déplace de votre Banc vers le Poste Actif, vous pouvez déplacer autant d'Énergies {R} que vous le voulez de vos autres Pokémon vers celui-ci.",
+			es: "Una vez durante tu turno, cuando este Pokémon se mueve de tu Banca al Puesto Activo, puedes mover cualquier cantidad de Energías {R} de tus otros Pokémon a este Pokémon.",
+			it: "Una sola volta durante il tuo turno, quando questo Pokémon si sposta dalla tua panchina in posizione attiva, puoi spostare un numero qualsiasi di Energie {R} dai tuoi altri Pokémon su questo Pokémon.",
+			pt: "Uma vez durante o seu turno, quando este Pokémon for movido do seu Banco para o Campo Ativo, você poderá mover qualquer quantidade de Energia {R} dos seus outros Pokémon para este Pokémon.",
+			de: "Einmal während deines Zuges, wenn dieses Pokémon von deiner Bank in die Aktive Position wechselt, kannst du beliebig viele {R}-Energien von deinen anderen Pokémon auf dieses Pokémon verschieben."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Takeshi Nakamura"
 }
 
 export default card

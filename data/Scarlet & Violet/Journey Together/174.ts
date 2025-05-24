@@ -71,7 +71,8 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "N-DESIGN Inc."
 }
 
 export default card

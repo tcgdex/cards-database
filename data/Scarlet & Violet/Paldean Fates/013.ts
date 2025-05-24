@@ -49,7 +49,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "Scav"
 }
 
 export default card

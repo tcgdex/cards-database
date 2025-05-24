@@ -70,7 +70,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "nagimiso"
 }
 
 export default card

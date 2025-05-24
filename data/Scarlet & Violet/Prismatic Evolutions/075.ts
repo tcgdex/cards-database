@@ -58,10 +58,13 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "aky CG Works"
 }
 
 export default card

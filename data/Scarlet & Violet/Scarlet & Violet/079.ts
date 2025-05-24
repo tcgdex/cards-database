@@ -57,12 +57,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard a Lightning Energy from this Pokémon.",
-			fr: "Défaussez une Énergie Lightning de ce Pokémon.",
-			es: "Descarta 1 Energía Lightning de este Pokémon.",
-			it: "Scarta un'Energia Lightning da questo Pokémon.",
-			pt: "Descarte uma Energia Lightning deste Pokémon.",
-			de: "Lege 1 Lightning-Energie von diesem Pokémon auf deinen Ablagestapel."
+			en: "Discard a {L} Energy from this Pokémon.",
+			fr: "Défaussez une Énergie {L} de ce Pokémon.",
+			es: "Descarta 1 Energía {L} de este Pokémon.",
+			it: "Scarta un'Energia {L} da questo Pokémon.",
+			pt: "Descarte uma Energia {L} deste Pokémon.",
+			de: "Lege 1 {L}-Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 140
@@ -73,7 +73,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Kouki Saitou"
 }
 
 export default card

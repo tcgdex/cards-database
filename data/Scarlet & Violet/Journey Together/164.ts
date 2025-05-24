@@ -61,7 +61,8 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "saino misaki"
 }
 
 export default card

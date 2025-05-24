@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach up to 2 Basic Fighting Energy cards from your discard pile to your Benched Pokémon in any way you like.",
-			fr: "Attachez jusqu'à 2 cartes Énergie Fighting de base de votre pile de défausse à vos Pokémon de Banc comme il vous plaît.",
-			es: "Une hasta 2 cartas de Energía Fighting Básica de tu pila de descartes a tus Pokémon en Banca de la manera que desees.",
-			it: "Assegna ai tuoi Pokémon in panchina fino a due carte Energia base Fighting dalla tua pila degli scarti nel modo che preferisci.",
-			pt: "Ligue até 2 cartas de Energia Fighting Básica da sua pilha de descarte aos seus Pokémon no Banco como desejar.",
-			de: "Lege bis zu 2 Basis-Fighting-Energiekarten aus deinem Ablagestapel beliebig an die Pokémon auf deiner Bank an."
+			en: "Attach up to 2 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.",
+			fr: "Attachez jusqu'à 2 cartes Énergie {F} de base de votre pile de défausse à vos Pokémon de Banc comme il vous plaît.",
+			es: "Une hasta 2 cartas de Energía {F} Básica de tu pila de descartes a tus Pokémon en Banca de la manera que desees.",
+			it: "Assegna ai tuoi Pokémon in panchina fino a due carte Energia base {F} dalla tua pila degli scarti nel modo che preferisci.",
+			pt: "Ligue até 2 cartas de Energia {F} Básica da sua pilha de descarte aos seus Pokémon no Banco como desejar.",
+			de: "Lege bis zu 2 Basis-{F}-Energiekarten aus deinem Ablagestapel beliebig an die Pokémon auf deiner Bank an."
 		},
 
 		damage: 50
@@ -49,7 +49,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Yoshioka"
 }
 
 export default card

@@ -17,12 +17,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Le Coût de Retraite de chacun des Pokémon non-Fighting de base en jeu (les vôtres et ceux de votre adversaire) est augmenté de Colorless.",
-		en: "The Retreat Cost of each Basic non-Fighting Pokémon in play (both yours and your opponent's) is Colorless more.",
-		es: "El Coste de Retirada de cada Pokémon no Fighting Básico en juego (tanto tuyos como de tu rival) es de Colorless más.",
-		it: "Il costo di ritirata di ciascun Pokémon Base non di tipo Fighting in gioco, sia tuo che del tuo avversario, aumenta di Colorless.",
-		pt: "O custo de Recuo de cada Pokémon Básico em jogo que não seja de tipo Fighting (seus e do seu oponente) é Colorless a mais.",
-		de: "Die Rückzugskosten aller Basis-Pokémon im Spiel (deiner und der deines Gegners), die keine Fighting-Pokémon sind, erhöhen sich um Colorless."
+		fr: "Le Coût de Retraite de chacun des Pokémon non-{F} de base en jeu (les vôtres et ceux de votre adversaire) est augmenté de {C}.",
+		en: "The Retreat Cost of each Basic non-{F} Pokémon in play (both yours and your opponent's) is {C} more.",
+		es: "El Coste de Retirada de cada Pokémon no {F} Básico en juego (tanto tuyos como de tu rival) es de {C} más.",
+		it: "Il costo di ritirata di ciascun Pokémon Base non di tipo {F} in gioco, sia tuo che del tuo avversario, aumenta di {C}.",
+		pt: "O custo de Recuo de cada Pokémon Básico em jogo que não seja de tipo {F} (seus e do seu oponente) é {C} a mais.",
+		de: "Die Rückzugskosten aller Basis-Pokémon im Spiel (deiner und der deines Gegners), die keine {F}-Pokémon sind, erhöhen sich um {C}."
 	},
 
 	trainerType: "Stadium",
@@ -30,7 +30,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "AYUMI ODASHIMA"
 }
 
 export default card

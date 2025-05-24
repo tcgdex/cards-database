@@ -42,7 +42,8 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "Yoriyuki Ikegami"
 }
 
 export default card

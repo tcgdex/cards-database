@@ -55,12 +55,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard up to 2 Metal Energy from this Pokémon. This attack does 120 damage for each card you discarded in this way.",
-			fr: "Défaussez jusqu'à 2 Énergies Metal de ce Pokémon. Cette attaque inflige 120 dégâts pour chaque carte défaussée de cette façon.",
-			es: "Descarta hasta 2 Energías Metal de este Pokémon. Este ataque hace 120 puntos de daño por cada carta que hayas descartado de esta manera.",
-			it: "Scarta fino a due Energie Metal da questo Pokémon. Questo attacco infligge 120 danni per ogni carta che hai scartato in questo modo.",
-			pt: "Descarte até 2 Energias Metal deste Pokémon. Este ataque causa 120 pontos de dano para cada carta descartada desta forma.",
-			de: "Lege bis zu 2 Metal-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 120 Schadenspunkte zu."
+			en: "Discard up to 2 {M} Energy from this Pokémon. This attack does 120 damage for each card you discarded in this way.",
+			fr: "Défaussez jusqu'à 2 Énergies {M} de ce Pokémon. Cette attaque inflige 120 dégâts pour chaque carte défaussée de cette façon.",
+			es: "Descarta hasta 2 Energías {M} de este Pokémon. Este ataque hace 120 puntos de daño por cada carta que hayas descartado de esta manera.",
+			it: "Scarta fino a due Energie {M} da questo Pokémon. Questo attacco infligge 120 danni per ogni carta che hai scartato in questo modo.",
+			pt: "Descarte até 2 Energias {M} deste Pokémon. Este ataque causa 120 pontos de dano para cada carta descartada desta forma.",
+			de: "Lege bis zu 2 {M}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 120 Schadenspunkte zu."
 		},
 
 		damage: "120×"
@@ -72,7 +72,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Eske Yoshinob"
 }
 
 export default card

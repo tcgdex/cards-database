@@ -55,12 +55,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Défaussez jusqu'à 2 cartes Énergie Water de base de votre main. Cette attaque inflige 140 dégâts pour chaque carte défaussée de cette façon.",
-			en: "Discard up to 2 Basic Water Energy cards from your hand. This attack does 140 damage for each card you discarded in this way.",
-			es: "Descarta hasta 2 cartas de Energía Water Básica de tu mano. Este ataque hace 140 puntos de daño por cada carta que hayas descartado de esta manera.",
-			it: "Scarta fino a due carte Energia base Water dalla tua mano. Questo attacco infligge 140 danni per ogni carta che hai scartato in questo modo.",
-			pt: "Descarte até 2 cartas de Energia Water Básica da sua mão. Este ataque causa 140 pontos de dano para cada carta descartada desta forma.",
-			de: "Lege bis zu 2 Basis-Water-Energiekarten aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 140 Schadenspunkte zu."
+			fr: "Défaussez jusqu'à 2 cartes Énergie {W} de base de votre main. Cette attaque inflige 140 dégâts pour chaque carte défaussée de cette façon.",
+			en: "Discard up to 2 Basic {W} Energy cards from your hand. This attack does 140 damage for each card you discarded in this way.",
+			es: "Descarta hasta 2 cartas de Energía {W} Básica de tu mano. Este ataque hace 140 puntos de daño por cada carta que hayas descartado de esta manera.",
+			it: "Scarta fino a due carte Energia base {W} dalla tua mano. Questo attacco infligge 140 danni per ogni carta che hai scartato in questo modo.",
+			pt: "Descarte até 2 cartas de Energia {W} Básica da sua mão. Este ataque causa 140 pontos de dano para cada carta descartada desta forma.",
+			de: "Lege bis zu 2 Basis-{W}-Energiekarten aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 140 Schadenspunkte zu."
 		},
 
 		damage: "140×"
@@ -72,7 +72,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "Mitsuhiro Arita"
 }
 
 export default card

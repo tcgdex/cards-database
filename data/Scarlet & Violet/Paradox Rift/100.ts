@@ -54,12 +54,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard 3 Lightning Energy from your Pokémon.",
-			fr: "Défaussez 3 Énergies Lightning de vos Pokémon.",
-			es: "Descarta 3 Energías Lightning de tus Pokémon.",
-			it: "Scarta tre Energie Lightning dai tuoi Pokémon.",
-			pt: "Descarte 3 Energias Lightning dos seus Pokémon.",
-			de: "Lege 3 Lightning-Energien von deinen Pokémon auf deinen Ablagestapel."
+			en: "Discard 3 {L} Energy from your Pokémon.",
+			fr: "Défaussez 3 Énergies {L} de vos Pokémon.",
+			es: "Descarta 3 Energías {L} de tus Pokémon.",
+			it: "Scarta tre Energie {L} dai tuoi Pokémon.",
+			pt: "Descarte 3 Energias {L} dos seus Pokémon.",
+			de: "Lege 3 {L}-Energien von deinen Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 270
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

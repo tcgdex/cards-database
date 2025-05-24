@@ -30,7 +30,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

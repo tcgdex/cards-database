@@ -55,12 +55,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each of your Benched Lightning Pokémon. This attack's damage isn't affected by Weakness.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon Lightning de Banc. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse.",
-			es: "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon Lightning en Banca. El daño de este ataque no se ve afectado por Debilidad.",
-			it: "Questo attacco infligge 20 danni in più per ogni Pokémon Lightning nella tua panchina. I danni di questo attacco non sono influenzati dalla debolezza.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon Lightning no seu Banco. O dano deste ataque não é afetado por Fraqueza.",
-			de: "Diese Attacke fügt für jedes Lightning-Pokémon auf deiner Bank 20 Schadenspunkte mehr zu. Der Schaden dieser Attacke wird durch Schwäche nicht verändert."
+			en: "This attack does 20 more damage for each of your Benched {L} Pokémon. This attack's damage isn't affected by Weakness.",
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon {L} de Banc. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse.",
+			es: "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon {L} en Banca. El daño de este ataque no se ve afectado por Debilidad.",
+			it: "Questo attacco infligge 20 danni in più per ogni Pokémon {L} nella tua panchina. I danni di questo attacco non sono influenzati dalla debolezza.",
+			pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon {L} no seu Banco. O dano deste ataque não é afetado por Fraqueza.",
+			de: "Diese Attacke fügt für jedes {L}-Pokémon auf deiner Bank 20 Schadenspunkte mehr zu. Der Schaden dieser Attacke wird durch Schwäche nicht verändert."
 		},
 
 		damage: "10+"
@@ -71,7 +71,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Naoki Saito"
 }
 
 export default card

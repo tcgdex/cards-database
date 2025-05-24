@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon has any Darkness Energy attached and is damaged by an attack, flip a coin. If heads, prevent that damage.",
-			fr: "Si ce Pokémon a au moins une Énergie Darkness attachée et qu'il subit les dégâts d'une attaque, lancez une pièce. Si c'est face, évitez ces dégâts.",
-			es: "Si este Pokémon tiene alguna Energía Darkness unida y resulta dañado por un ataque, lanza 1 moneda. Si sale cara, se evita ese daño.",
-			it: "Se questo Pokémon ha delle Energie Darkness assegnate e viene danneggiato da un attacco, lancia una moneta. Se esce testa, previeni quei danni.",
-			pt: "Se este Pokémon tiver alguma Energia Darkness ligada a ele e for danificado por um ataque, jogue uma moeda. Se sair cara, previna aquele dano.",
-			de: "Wenn an dieses Pokémon mindestens 1 Darkness-Energie angelegt ist und es durch eine Attacke Schaden erhält, wirf 1 Münze. Verhindere bei Kopf jenen Schaden."
+			en: "If this Pokémon has any {D} Energy attached and is damaged by an attack, flip a coin. If heads, prevent that damage.",
+			fr: "Si ce Pokémon a au moins une Énergie {D} attachée et qu'il subit les dégâts d'une attaque, lancez une pièce. Si c'est face, évitez ces dégâts.",
+			es: "Si este Pokémon tiene alguna Energía {D} unida y resulta dañado por un ataque, lanza 1 moneda. Si sale cara, se evita ese daño.",
+			it: "Se questo Pokémon ha delle Energie {D} assegnate e viene danneggiato da un attacco, lancia una moneta. Se esce testa, previeni quei danni.",
+			pt: "Se este Pokémon tiver alguma Energia {D} ligada a ele e for danificado por um ataque, jogue uma moeda. Se sair cara, previna aquele dano.",
+			de: "Wenn an dieses Pokémon mindestens 1 {D}-Energie angelegt ist und es durch eine Attacke Schaden erhält, wirf 1 Münze. Verhindere bei Kopf jenen Schaden."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "KEIICHIRO ITO"
 }
 
 export default card

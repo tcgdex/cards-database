@@ -66,7 +66,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Whisker"
 }
 
 export default card

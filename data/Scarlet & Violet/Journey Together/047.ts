@@ -34,12 +34,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each Lightning Energy attached to all of your Iono's Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Lightning attachée à tous vos Pokémon de Mashynn.",
-			es: "Este ataque hace 20 puntos de daño más por cada Energía Lightning unida a cada uno de tus Pokémon de e-Nigma.",
-			de: "Diese Attacke fügt für jede an alle deine Enigmaras Pokémon angelegte Lightning-Energie 20 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 20 danni in più per ogni Energia Lightning assegnata ai tuoi Pokémon di Kissara.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia Lightning ligada a todos os seus Pokémon da Kissera.",
+			en: "This attack does 20 more damage for each {L} Energy attached to all of your Iono's Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie {L} attachée à tous vos Pokémon de Mashynn.",
+			es: "Este ataque hace 20 puntos de daño más por cada Energía {L} unida a cada uno de tus Pokémon de e-Nigma.",
+			de: "Diese Attacke fügt für jede an alle deine Enigmaras Pokémon angelegte {L}-Energie 20 Schadenspunkte mehr zu.",
+			it: "Questo attacco infligge 20 danni in più per ogni Energia {L} assegnata ai tuoi Pokémon di Kissara.",
+			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia {L} ligada a todos os seus Pokémon da Kissera.",
 			'es-mx': "Este ataque hace 20 puntos de daño más por cada Energía Lightning unida a cada uno de tus Pokémon de e-Nigma."
 		},
 
@@ -47,7 +47,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "Kazumasa Yasukuni"
 }
 
 export default card

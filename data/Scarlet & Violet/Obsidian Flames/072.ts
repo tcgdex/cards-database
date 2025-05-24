@@ -70,7 +70,9 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: true,
-	}
+	},
+
+	illustrator: "Anesaki Dynamic"
 }
 
 export default card

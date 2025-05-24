@@ -76,7 +76,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Lee HyunJung"
 }
 
 export default card

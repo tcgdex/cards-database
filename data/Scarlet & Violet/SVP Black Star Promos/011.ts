@@ -57,7 +57,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "Ryuta Fuse"
 }
 
 export default card

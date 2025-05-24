@@ -59,7 +59,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Yuka Tanaka"
 }
 
 export default card

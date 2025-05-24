@@ -71,7 +71,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "SATOSHI NAKAI"
 }
 
 export default card

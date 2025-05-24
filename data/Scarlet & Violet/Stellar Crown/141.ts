@@ -17,12 +17,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "If the Pokémon this card is attached to is damaged by an attack from your opponent's Psychic Pokémon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card.",
-		fr: "Si le Pokémon auquel cette carte est attachée subit les dégâts d'une attaque de l'un des Pokémon Psychic de votre adversaire, il subit 60 dégâts de moins (après application de la Faiblesse et de la Résistance), et vous défaussez cette carte.",
-		es: "Si el Pokémon al que está unida esta carta resulta dañado por un ataque de los Pokémon Psychic de tu rival, ese ataque le hace 60 puntos de daño menos (después de aplicar Debilidad y Resistencia), y descartas esta carta.",
-		it: "Se il Pokémon a cui è assegnata questa carta viene danneggiato da un attacco di un Pokémon Psychic del tuo avversario, subisce 60 danni in meno, dopo aver applicato debolezza e resistenza, e tu scarti questa carta.",
-		pt: "Se o Pokémon ao qual esta carta está ligada for danificado por um ataque dos Pokémon Psychic do seu oponente, ele receberá 60 pontos de dano a menos (depois de aplicar Fraqueza e Resistência), e descarte esta carta.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch eine Attacke von Psychic-Pokémon deines Gegners Schaden erhält, werden ihm 60 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden), und du legst diese Karte auf deinen Ablagestapel."
+		en: "If the Pokémon this card is attached to is damaged by an attack from your opponent's {P} Pokémon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card.",
+		fr: "Si le Pokémon auquel cette carte est attachée subit les dégâts d'une attaque de l'un des Pokémon {P} de votre adversaire, il subit 60 dégâts de moins (après application de la Faiblesse et de la Résistance), et vous défaussez cette carte.",
+		es: "Si el Pokémon al que está unida esta carta resulta dañado por un ataque de los Pokémon {P} de tu rival, ese ataque le hace 60 puntos de daño menos (después de aplicar Debilidad y Resistencia), y descartas esta carta.",
+		it: "Se il Pokémon a cui è assegnata questa carta viene danneggiato da un attacco di un Pokémon {P} del tuo avversario, subisce 60 danni in meno, dopo aver applicato debolezza e resistenza, e tu scarti questa carta.",
+		pt: "Se o Pokémon ao qual esta carta está ligada for danificado por um ataque dos Pokémon {P} do seu oponente, ele receberá 60 pontos de dano a menos (depois de aplicar Fraqueza e Resistência), e descarte esta carta.",
+		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch eine Attacke von {P}-Pokémon deines Gegners Schaden erhält, werden ihm 60 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden), und du legst diese Karte auf deinen Ablagestapel."
 	},
 
 	trainerType: "Tool",
@@ -30,7 +30,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Studio Bora Inc."
 }
 
 export default card

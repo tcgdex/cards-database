@@ -50,7 +50,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Tetsu Kayama"
 }
 
 export default card

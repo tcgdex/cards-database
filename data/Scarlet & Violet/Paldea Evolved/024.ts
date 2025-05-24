@@ -54,12 +54,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, les attaques que le Pokémon Défenseur utilise coûtent ColorlessColorless de plus.",
-			en: "During your opponent's next turn, attacks that the Defending Pokémon uses cost ColorlessColorless more.",
-			es: "Durante el próximo turno de tu rival, los ataques que use el Pokémon Defensor cuestan ColorlessColorless más.",
-			it: "Durante il prossimo turno del tuo avversario, il costo degli attacchi che usa il Pokémon difensore aumenta di ColorlessColorless.",
-			pt: "Durante o próximo turno do seu oponente, os ataques usados pelo Pokémon Defensor custarão ColorlessColorless a mais.",
-			de: "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken, die das Verteidigende Pokémon einsetzt, um ColorlessColorless."
+			fr: "Pendant le prochain tour de votre adversaire, les attaques que le Pokémon Défenseur utilise coûtent {C}{C} de plus.",
+			en: "During your opponent's next turn, attacks that the Defending Pokémon uses cost {C}{C} more.",
+			es: "Durante el próximo turno de tu rival, los ataques que use el Pokémon Defensor cuestan {C}{C} más.",
+			it: "Durante il prossimo turno del tuo avversario, il costo degli attacchi che usa il Pokémon difensore aumenta di {C}{C}.",
+			pt: "Durante o próximo turno do seu oponente, os ataques usados pelo Pokémon Defensor custarão {C}{C} a mais.",
+			de: "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken, die das Verteidigende Pokémon einsetzt, um {C}{C}."
 		},
 
 		damage: 80
@@ -70,7 +70,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "KEIICHIRO ITO"
 }
 
 export default card

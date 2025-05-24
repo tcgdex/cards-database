@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon has any Lightning Energy attached, it has no Retreat Cost.",
-			fr: "Si au moins une Énergie Lightning est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
-			es: "Si este Pokémon tiene alguna Energía Lightning unida, no tiene ningún Coste de Retirada.",
-			it: "Se questo Pokémon ha delle Energie Lightning assegnate, non ha costo di ritirata.",
-			pt: "Se este Pokémon tiver alguma Energia Lightning ligada a ele, não terá custo de Recuo.",
-			de: "Wenn an dieses Pokémon mindestens 1 Lightning-Energie angelegt ist, hat es keine Rückzugskosten."
+			en: "If this Pokémon has any {L} Energy attached, it has no Retreat Cost.",
+			fr: "Si au moins une Énergie {L} est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
+			es: "Si este Pokémon tiene alguna Energía {L} unida, no tiene ningún Coste de Retirada.",
+			it: "Se questo Pokémon ha delle Energie {L} assegnate, non ha costo di ritirata.",
+			pt: "Se este Pokémon tiver alguma Energia {L} ligada a ele, não terá custo de Recuo.",
+			de: "Wenn an dieses Pokémon mindestens 1 {L}-Energie angelegt ist, hat es keine Rückzugskosten."
 		}
 	}],
 
@@ -66,7 +66,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "takuyoa"
 }
 
 export default card

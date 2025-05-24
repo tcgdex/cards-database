@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon has any Metal Energy attached, this attack does 40 more damage.",
-			fr: "Si au moins une Énergie Metal est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
-			es: "Si este Pokémon tiene alguna Energía Metal unida, este ataque hace 40 puntos de daño más.",
-			it: "Se questo Pokémon ha delle Energie Metal assegnate, questo attacco infligge 40 danni in più.",
-			pt: "Se este Pokémon tiver alguma Energia Metal ligada a ele, este ataque causará 40 pontos de dano a mais.",
-			de: "Wenn an dieses Pokémon mindestens 1 Metal-Energie angelegt ist, fügt diese Attacke 40 Schadenspunkte mehr zu."
+			en: "If this Pokémon has any {M} Energy attached, this attack does 40 more damage.",
+			fr: "Si au moins une Énergie {M} est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
+			es: "Si este Pokémon tiene alguna Energía {M} unida, este ataque hace 40 puntos de daño más.",
+			it: "Se questo Pokémon ha delle Energie {M} assegnate, questo attacco infligge 40 danni in più.",
+			pt: "Se este Pokémon tiver alguma Energia {M} ligada a ele, este ataque causará 40 pontos de dano a mais.",
+			de: "Wenn an dieses Pokémon mindestens 1 {M}-Energie angelegt ist, fügt diese Attacke 40 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -48,7 +48,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Souichirou Gunjima"
 }
 
 export default card

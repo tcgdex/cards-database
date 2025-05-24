@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Technical Machine: Crisis Punch",
-		fr: "Machine Technique : Poing de Crise",
+		fr: "Capsule Technique : Poing de Crise",
 		es: "Máquina Técnica: Puñetazo Crítico",
 		it: "Macchinario Tecnico: Pugno Disperato",
 		pt: "Máquina Técnica: Socão Crítico",
@@ -54,7 +54,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Studio Bora Inc."
 }
 
 export default card

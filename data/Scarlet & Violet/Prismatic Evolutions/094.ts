@@ -26,7 +26,8 @@ const card: Card = {
 	},
 
 	trainerType: "Stadium",
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "MARINA Chikazawa"
 }
 
 export default card

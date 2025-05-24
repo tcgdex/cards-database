@@ -52,7 +52,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Shibuzoh."
 }
 
 export default card

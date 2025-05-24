@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Put a Basic Grass Energy card from your discard pile into your hand.",
-			fr: "Ajoutez une carte Énergie Grass de base de votre pile de défausse à votre main.",
-			es: "Pon 1 carta de Energía Grass Básica de tu pila de descartes en tu mano.",
-			it: "Prendi una carta Energia base Grass dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
-			pt: "Coloque uma carta de Energia Grass Básica da sua pilha de descarte na sua mão.",
-			de: "Nimm 1 Basis-Grass-Energiekarte aus deinem Ablagestapel auf deine Hand."
+			en: "Put a Basic {G} Energy card from your discard pile into your hand.",
+			fr: "Ajoutez une carte Énergie {G} de base de votre pile de défausse à votre main.",
+			es: "Pon 1 carta de Energía {G} Básica de tu pila de descartes en tu mano.",
+			it: "Prendi una carta Energia base {G} dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
+			pt: "Coloque uma carta de Energia {G} Básica da sua pilha de descarte na sua mão.",
+			de: "Nimm 1 Basis-{G}-Energiekarte aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Grass"],
@@ -68,7 +68,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Souichirou Gunjima"
 }
 
 export default card

@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Blood Moon used by this Pokémon costs Colorless less for each Prize card your opponent has taken.",
-			fr: "Lune Rouge utilisée par ce Pokémon coûte Colorless de moins pour chaque carte Récompense que votre adversaire a récupérée.",
-			es: "El ataque Luna Roja usado por este Pokémon cuesta Colorless menos por cada carta de Premio que haya cogido tu rival.",
-			it: "Il costo dell'attacco Luna Rossa usato da questo Pokémon è ridotto di Colorless per ogni carta Premio presa dal tuo avversario.",
-			pt: "O ataque Luar de Sangue usado por este Pokémon custa Colorless a menos para cada carta de Prêmio que seu oponente pegou.",
-			de: "Die Kosten der von diesem Pokémon eingesetzten Attacke Blutmond verringern sich für jede von deinem Gegner genommene Preiskarte um Colorless."
+			en: "Blood Moon used by this Pokémon costs {C} less for each Prize card your opponent has taken.",
+			fr: "Lune Rouge utilisée par ce Pokémon coûte {C} de moins pour chaque carte Récompense que votre adversaire a récupérée.",
+			es: "El ataque Luna Roja usado por este Pokémon cuesta {C} menos por cada carta de Premio que haya cogido tu rival.",
+			it: "Il costo dell'attacco Luna Rossa usato da questo Pokémon è ridotto di {C} per ogni carta Premio presa dal tuo avversario.",
+			pt: "O ataque Luar de Sangue usado por este Pokémon custa {C} a menos para cada carta de Prêmio que seu oponente pegou.",
+			de: "Die Kosten der von diesem Pokémon eingesetzten Attacke Blutmond verringern sich für jede von deinem Gegner genommene Preiskarte um {C}."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "MINAMINAMI Take"
 }
 
 export default card

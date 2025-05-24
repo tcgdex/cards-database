@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may search your deck for up to 2 Basic Lightning Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 Pokémon Lightning de base, puis les placer sur votre Banc. Mélangez ensuite votre deck.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 Pokémon Lightning Básicos y ponerlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due Pokémon Base Lightning e metterli nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por até 2 Pokémon Lightning Básicos no seu baralho e colocá-los no seu Banco. Em seguida, embaralhe o seu baralho.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Basis-Lightning-Pokémon durchsuchen und sie auf deine Bank legen. Mische anschließend dein Deck."
+			en: "Once during your turn, you may search your deck for up to 2 Basic {L} Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 Pokémon {L} de base, puis les placer sur votre Banc. Mélangez ensuite votre deck.",
+			es: "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 Pokémon {L} Básicos y ponerlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due Pokémon Base {L} e metterli nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			pt: "Uma vez durante o seu turno, você poderá procurar por até 2 Pokémon {L} Básicos no seu baralho e colocá-los no seu Banco. Em seguida, embaralhe o seu baralho.",
+			de: "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Basis-{L}-Pokémon durchsuchen und sie auf deine Bank legen. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

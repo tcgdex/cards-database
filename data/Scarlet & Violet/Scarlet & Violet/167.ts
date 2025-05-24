@@ -17,12 +17,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "The Retreat Cost of each Basic Pokémon in play (both yours and your opponent's) is Colorless less.",
-		fr: "Le Coût de Retraite de chacun des Pokémon de base en jeu (les vôtres et ceux de votre adversaire) est diminué de Colorless.",
-		es: "El Coste de Retirada de cada Pokémon Básico en juego (tanto tuyos como de tu rival) es de Colorless menos.",
-		it: "Il costo di ritirata di ciascun Pokémon Base in gioco, sia tuo che del tuo avversario, è ridotto di Colorless.",
-		pt: "O custo de Recuo de cada Pokémon Básico em jogo (seus e do seu oponente) é Colorless a menos.",
-		de: "Die Rückzugskosten aller Basis-Pokémon im Spiel (deiner und der deines Gegners) verringern sich um Colorless."
+		en: "The Retreat Cost of each Basic Pokémon in play (both yours and your opponent's) is {C} less.",
+		fr: "Le Coût de Retraite de chacun des Pokémon de base en jeu (les vôtres et ceux de votre adversaire) est diminué de {C}.",
+		es: "El Coste de Retirada de cada Pokémon Básico en juego (tanto tuyos como de tu rival) es de {C} menos.",
+		it: "Il costo di ritirata di ciascun Pokémon Base in gioco, sia tuo che del tuo avversario, è ridotto di {C}.",
+		pt: "O custo de Recuo de cada Pokémon Básico em jogo (seus e do seu oponente) é {C} a menos.",
+		de: "Die Rückzugskosten aller Basis-Pokémon im Spiel (deiner und der deines Gegners) verringern sich um {C}."
 	},
 
 	trainerType: "Stadium",
@@ -30,7 +30,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Oswaldo KATO"
 }
 
 export default card

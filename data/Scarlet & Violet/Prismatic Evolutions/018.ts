@@ -48,7 +48,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "Natsumi Yoshida"
 }
 
 export default card

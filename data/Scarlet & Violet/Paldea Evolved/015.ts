@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Vous devez défausser une carte Énergie Grass de base de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez placer 3 marqueurs de dégâts sur l'un des Pokémon de Banc de votre adversaire.",
-			en: "You must discard a Basic Grass Energy card from your hand in order to use this Ability. Once during your turn, you may put 3 damage counters on 1 of your opponent's Benched Pokémon.",
-			es: "Debes descartar 1 carta de Energía Grass Básica de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes poner 3 contadores de daño en uno de los Pokémon en Banca de tu rival.",
-			it: "Devi scartare una carta Energia base Grass che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi mettere tre segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
-			pt: "Você deve descartar uma carta de Energia Grass Básica da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá colocar 3 contadores de dano em 1 dos Pokémon no Banco do seu oponente.",
-			de: "Du musst 1 Basis-Grass-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 3 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners legen."
+			fr: "Vous devez défausser une carte Énergie {G} de base de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez placer 3 marqueurs de dégâts sur l'un des Pokémon de Banc de votre adversaire.",
+			en: "You must discard a Basic {G} Energy card from your hand in order to use this Ability. Once during your turn, you may put 3 damage counters on 1 of your opponent's Benched Pokémon.",
+			es: "Debes descartar 1 carta de Energía {G} Básica de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes poner 3 contadores de daño en uno de los Pokémon en Banca de tu rival.",
+			it: "Devi scartare una carta Energia base {G} che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi mettere tre segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
+			pt: "Você deve descartar uma carta de Energia {G} Básica da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá colocar 3 contadores de dano em 1 dos Pokémon no Banco do seu oponente.",
+			de: "Du musst 1 Basis-{G}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 3 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners legen."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

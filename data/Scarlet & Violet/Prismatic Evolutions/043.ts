@@ -67,10 +67,13 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "kodama"
 }
 
 export default card

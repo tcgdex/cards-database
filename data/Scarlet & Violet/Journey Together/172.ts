@@ -34,12 +34,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "As often as you like during your turn, you may attach a Basic Lightning Energy card from your hand to 1 of your Iono's Pokémon.",
-			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Lightning de base de votre main à l'un de vos Pokémon de Mashynn.",
-			es: "Todas las veces que quieras durante tu turno, puedes unir 1 carta de Energía Lightning Básica de tu mano a uno de tus Pokémon de e-Nigma.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Basis-Lightning-Energiekarte aus deiner Hand an 1 deiner Enigmaras Pokémon anlegen.",
-			it: "Durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon di Kissara una carta Energia base Lightning dalla tua mano tutte le volte che vuoi.",
-			pt: "Quantas vezes desejar durante o seu turno, você poderá ligar uma carta de Energia Lightning Básica da sua mão a 1 dos seus Pokémon da Kissera.",
+			en: "As often as you like during your turn, you may attach a Basic {L} Energy card from your hand to 1 of your Iono's Pokémon.",
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie {L} de base de votre main à l'un de vos Pokémon de Mashynn.",
+			es: "Todas las veces que quieras durante tu turno, puedes unir 1 carta de Energía {L} Básica de tu mano a uno de tus Pokémon de e-Nigma.",
+			de: "Beliebig oft während deines Zuges kannst du 1 Basis-{L}-Energiekarte aus deiner Hand an 1 deiner Enigmaras Pokémon anlegen.",
+			it: "Durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon di Kissara una carta Energia base {L} dalla tua mano tutte le volte che vuoi.",
+			pt: "Quantas vezes desejar durante o seu turno, você poderá ligar uma carta de Energia {L} Básica da sua mão a 1 dos seus Pokémon da Kissera.",
 			'es-mx': "Cuantas veces quieras durante tu turno, puedes unir 1 carta de Energía Lightning Básica de tu mano a 1 de tus Pokémon de e-Nigma."
 		}
 	}],
@@ -71,7 +71,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "5ban Graphics"
 }
 
 export default card

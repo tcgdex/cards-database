@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach up to 2 Basic Psychic Energy cards from your discard pile to your Pokémon in any way you like.",
-			fr: "Attachez jusqu'à 2 cartes Énergie Psychic de base de votre pile de défausse à vos Pokémon comme il vous plaît.",
-			es: "Une hasta 2 cartas de Energía Psychic Básica de tu pila de descartes a tus Pokémon de la manera que desees.",
-			it: "Assegna ai tuoi Pokémon fino a due carte Energia base Psychic dalla tua pila degli scarti nel modo che preferisci.",
-			pt: "Ligue até 2 cartas de Energia Psychic Básica da sua pilha de descarte aos seus Pokémon como desejar.",
-			de: "Lege bis zu 2 Basis-Psychic-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
+			en: "Attach up to 2 Basic {P} Energy cards from your discard pile to your Pokémon in any way you like.",
+			fr: "Attachez jusqu'à 2 cartes Énergie {P} de base de votre pile de défausse à vos Pokémon comme il vous plaît.",
+			es: "Une hasta 2 cartas de Energía {P} Básica de tu pila de descartes a tus Pokémon de la manera que desees.",
+			it: "Assegna ai tuoi Pokémon fino a due carte Energia base {P} dalla tua pila degli scarti nel modo che preferisci.",
+			pt: "Ligue até 2 cartas de Energia {P} Básica da sua pilha de descarte aos seus Pokémon como desejar.",
+			de: "Lege bis zu 2 Basis-{P}-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
@@ -53,12 +53,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 30 more damage for each Psychic Energy attached to all of your Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Psychic attachée à tous vos Pokémon.",
-			es: "Este ataque hace 30 puntos de daño más por cada Energía Psychic unida a cada uno de tus Pokémon.",
-			it: "Questo attacco infligge 30 danni in più per ogni Energia Psychic assegnata ai tuoi Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Psychic ligada a todos os seus Pokémon.",
-			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Psychic-Energie 30 Schadenspunkte mehr zu."
+			en: "This attack does 30 more damage for each {P} Energy attached to all of your Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie {P} attachée à tous vos Pokémon.",
+			es: "Este ataque hace 30 puntos de daño más por cada Energía {P} unida a cada uno de tus Pokémon.",
+			it: "Questo attacco infligge 30 danni in più per ogni Energia {P} assegnata ai tuoi Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia {P} ligada a todos os seus Pokémon.",
+			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte {P}-Energie 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -70,7 +70,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "aky CG Works"
 }
 
 export default card

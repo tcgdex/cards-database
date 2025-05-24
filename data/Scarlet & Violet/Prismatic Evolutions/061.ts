@@ -35,7 +35,8 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "Kurata So"
 }
 
 export default card

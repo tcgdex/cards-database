@@ -59,7 +59,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "Asako Ito"
 }
 
 export default card

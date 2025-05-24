@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Pour chaque Énergie Fighting attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
-			en: "For each Fighting Energy attached to this Pokémon, discard the top card of your opponent's deck.",
-			es: "Por cada Energía Fighting unida a este Pokémon, descarta la primera carta de la baraja de tu rival.",
-			it: "Per ogni Energia Fighting assegnata a questo Pokémon, scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Para cada Energia Fighting ligada a este Pokémon, descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege für jede an dieses Pokémon angelegte Fighting-Energie die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+			fr: "Pour chaque Énergie {F} attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
+			en: "For each {F} Energy attached to this Pokémon, discard the top card of your opponent's deck.",
+			es: "Por cada Energía {F} unida a este Pokémon, descarta la primera carta de la baraja de tu rival.",
+			it: "Per ogni Energia {F} assegnata a questo Pokémon, scarta la prima carta del mazzo del tuo avversario.",
+			pt: "Para cada Energia {F} ligada a este Pokémon, descarte a carta de cima do baralho do seu oponente.",
+			de: "Lege für jede an dieses Pokémon angelegte {F}-Energie die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
@@ -60,7 +60,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "0313"
 }
 
 export default card

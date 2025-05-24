@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "As long as this Pokémon has a Future Booster Energy Capsule attached, it is Fighting and Metal type.",
-			fr: "Tant qu'une Capsule Énergie Booster Temps Futur est attachée à ce Pokémon, il est de type Fighting et Metal.",
-			es: "Mientras este Pokémon tenga un Tanque de Energía Potenciadora del Futuro unido, es de tipo Fighting y Metal.",
-			it: "Fintanto che questo Pokémon ha una Capsula energetica Tempo Futuro assegnata, è di tipo Fighting e Metal.",
-			pt: "Enquanto este Pokémon tiver uma Cápsula Energética de Melhoria Futurista ligada a ele, será de tipo Fighting e Metal.",
-			de: "Solange 1 Energiekapsel aus der Zukunft an dieses Pokémon angelegt ist, ist es vom Typ Fighting und Metal."
+			en: "As long as this Pokémon has a Future Booster Energy Capsule attached, it is {F} and {M} type.",
+			fr: "Tant qu'une Capsule Énergie Booster Temps Futur est attachée à ce Pokémon, il est de type {F} et {M}.",
+			es: "Mientras este Pokémon tenga un Tanque de Energía Potenciadora del Futuro unido, es de tipo {F} y {M}.",
+			it: "Fintanto che questo Pokémon ha una Capsula energetica Tempo Futuro assegnata, è di tipo {F} e {M}.",
+			pt: "Enquanto este Pokémon tiver uma Cápsula Energética de Melhoria Futurista ligada a ele, será de tipo {F} e {M}.",
+			de: "Solange 1 Energiekapsel aus der Zukunft an dieses Pokémon angelegt ist, ist es vom Typ {F} und {M}."
 		}
 	}],
 
@@ -70,7 +70,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Tonji Matsuno"
 }
 
 export default card

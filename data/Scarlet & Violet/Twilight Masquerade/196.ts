@@ -33,7 +33,7 @@ const card: Card = {
 
 		effect: {
 			en: "As long as this Pokémon is in the Active Spot, Pokémon with a Rule Box in play (both yours and your opponent's) have no Abilities, except for Future Pokémon. (Pokémon ex, Pokémon V, etc. have Rule Boxes.)",
-			fr: "Tant que ce Pokémon est sur le Poste Actif, les Pokémon ayant un encadré Règle (les vôtres et ceux de votre adversaire) n'ont pas de talent, à l'exception des Pokémon Temps futur. (Les Pokémon-ex, Pokémon-V, etc. ont des encadrés Règle.)",
+			fr: "Tant que ce Pokémon est sur le Poste Actif, les Pokémon ayant un encadré Règle en jeu (les vôtres et ceux de votre adversaire) n'ont pas de talent, à l'exception des Pokémon Temps futur. (Les Pokémon-ex, Pokémon-V, etc. ont des encadrés Règle.)",
 			es: "Mientras este Pokémon esté en el Puesto Activo, los Pokémon con un recuadro de regla en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad, excepto los Pokémon del futuro. (Pokémon ex, Pokémon V, etc. tienen recuadros de regla).",
 			it: "Fintanto che questo Pokémon è in posizione attiva, i Pokémon in gioco che hanno una regola speciale, sia tuoi che del tuo avversario, non hanno abilità, a eccezione dei Pokémon Tempo Futuro. I Pokémon-ex, i Pokémon-V, ecc. hanno regole speciali.",
 			pt: "Enquanto este Pokémon estiver no Campo Ativo, Pokémon em jogo que tiverem uma Caixa de Regras (seus e do seu oponente) não terão Habilidades, exceto por Pokémon Futuristas. (Pokémon ex, Pokémon V, etc. têm Caixas de Regras.)",
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "PLANETA Mochizuki"
 }
 
 export default card

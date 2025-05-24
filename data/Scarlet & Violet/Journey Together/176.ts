@@ -71,7 +71,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "aky CG Works"
 }
 
 export default card

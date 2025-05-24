@@ -55,7 +55,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "Pani Kobayashi"
 }
 
 export default card

@@ -62,7 +62,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Teeziro"
 }
 
 export default card

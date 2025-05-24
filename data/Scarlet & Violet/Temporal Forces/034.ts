@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attacks used by this Pokémon cost Colorless less for each of your opponent's Benched Pokémon.",
-			fr: "Les attaques utilisées par ce Pokémon coûtent Colorless de moins pour chacun des Pokémon de Banc de votre adversaire.",
-			es: "Los ataques usados por este Pokémon cuestan Colorless menos por cada uno de los Pokémon en Banca de tu rival.",
-			it: "Il costo degli attacchi usati da questo Pokémon è ridotto di Colorless per ogni Pokémon nella panchina del tuo avversario.",
-			pt: "Os ataques usados por este Pokémon custam Colorless a menos para cada Pokémon no Banco do seu oponente.",
-			de: "Die Kosten der von diesem Pokémon eingesetzten Attacken verringern sich für jedes Pokémon auf der Bank deines Gegners um Colorless."
+			en: "Attacks used by this Pokémon cost {C} less for each of your opponent's Benched Pokémon.",
+			fr: "Les attaques utilisées par ce Pokémon coûtent {C} de moins pour chacun des Pokémon de Banc de votre adversaire.",
+			es: "Los ataques usados por este Pokémon cuestan {C} menos por cada uno de los Pokémon en Banca de tu rival.",
+			it: "Il costo degli attacchi usati da questo Pokémon è ridotto di {C} per ogni Pokémon nella panchina del tuo avversario.",
+			pt: "Os ataques usados por este Pokémon custam {C} a menos para cada Pokémon no Banco do seu oponente.",
+			de: "Die Kosten der von diesem Pokémon eingesetzten Attacken verringern sich für jedes Pokémon auf der Bank deines Gegners um {C}."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "N-DESIGN Inc."
 }
 
 export default card

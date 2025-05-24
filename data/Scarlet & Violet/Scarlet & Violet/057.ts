@@ -64,7 +64,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "KIYOTAKA OSHIYAMA"
 }
 
 export default card

@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach up to 2 Basic Fire Energy cards from your discard pile to 1 of your Pokémon.",
-			fr: "Attachez jusqu'à 2 cartes Énergie Fire de base de votre pile de défausse à l'un de vos Pokémon.",
-			es: "Une hasta 2 cartas de Energía Fire Básica de tu pila de descartes a uno de tus Pokémon.",
-			it: "Assegna a uno dei tuoi Pokémon fino a due carte Energia base Fire dalla tua pila degli scarti.",
-			pt: "Ligue até 2 cartas de Energia Fire Básica da sua pilha de descarte a 1 dos seus Pokémon.",
-			de: "Lege bis zu 2 Basis-Fire-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
+			en: "Attach up to 2 Basic {R} Energy cards from your discard pile to 1 of your Pokémon.",
+			fr: "Attachez jusqu'à 2 cartes Énergie {R} de base de votre pile de défausse à l'un de vos Pokémon.",
+			es: "Une hasta 2 cartas de Energía {R} Básica de tu pila de descartes a uno de tus Pokémon.",
+			it: "Assegna a uno dei tuoi Pokémon fino a due carte Energia base {R} dalla tua pila degli scarti.",
+			pt: "Ligue até 2 cartas de Energia {R} Básica da sua pilha de descarte a 1 dos seus Pokémon.",
+			de: "Lege bis zu 2 Basis-{R}-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
 		}
 	}, {
 		cost: ["Fire", "Fire"],
@@ -64,7 +64,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "Dsuke"
 }
 
 export default card

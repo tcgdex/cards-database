@@ -54,7 +54,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Nurikabe"
 }
 
 export default card

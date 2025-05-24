@@ -71,7 +71,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "Akira Komayama"
 }
 
 export default card

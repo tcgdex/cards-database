@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Until the end of your next turn, the Defending Pokémon's Weakness is now Colorless. (The amount of Weakness doesn't change.)",
-			fr: "Jusqu'à la fin de votre prochain tour, la Faiblesse du Pokémon Défenseur est maintenant de type Colorless. (La valeur de la Faiblesse ne change pas.)",
-			es: "Hasta el final de tu próximo turno, la Debilidad del Pokémon Defensor pasa a ser Colorless. (La cantidad de Debilidad no cambia).",
-			it: "Fino alla fine del tuo prossimo turno, la debolezza del Pokémon difensore diventa Colorless. Quanto è debole non cambia.",
-			pt: "Até o final do seu próximo turno, a Fraqueza do Pokémon Defensor será Colorless. (A quantidade de Fraqueza não muda.)",
-			de: "Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt Colorless. (Die Höhe der Schwäche ändert sich nicht.)"
+			en: "Until the end of your next turn, the Defending Pokémon's Weakness is now {C}. (The amount of Weakness doesn't change.)",
+			fr: "Jusqu'à la fin de votre prochain tour, la Faiblesse du Pokémon Défenseur est maintenant de type {C}. (La valeur de la Faiblesse ne change pas.)",
+			es: "Hasta el final de tu próximo turno, la Debilidad del Pokémon Defensor pasa a ser {C}. (La cantidad de Debilidad no cambia).",
+			it: "Fino alla fine del tuo prossimo turno, la debolezza del Pokémon difensore diventa {C}. Quanto è debole non cambia.",
+			pt: "Até o final do seu próximo turno, a Fraqueza do Pokémon Defensor será {C}. (A quantidade de Fraqueza não muda.)",
+			de: "Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt {C}. (Die Höhe der Schwäche ändert sich nicht.)"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -59,7 +59,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Saboteri"
 }
 
 export default card

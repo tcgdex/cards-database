@@ -62,7 +62,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "James Turner"
 }
 
 export default card

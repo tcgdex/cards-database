@@ -62,7 +62,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

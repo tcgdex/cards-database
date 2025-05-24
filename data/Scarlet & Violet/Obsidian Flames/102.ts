@@ -54,12 +54,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon Psychic dans votre pile de défausse.",
-			en: "This attack does 10 more damage for each Psychic Pokémon in your discard pile.",
-			es: "Este ataque hace 10 puntos de daño más por cada Pokémon Psychic en tu pila de descartes.",
-			it: "Questo attacco infligge 10 danni in più per ogni Pokémon Psychic nella tua pila degli scarti.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada Pokémon Psychic na sua pilha de descarte.",
-			de: "Diese Attacke fügt für jedes Psychic-Pokémon in deinem Ablagestapel 10 Schadenspunkte mehr zu."
+			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon {P} dans votre pile de défausse.",
+			en: "This attack does 10 more damage for each {P} Pokémon in your discard pile.",
+			es: "Este ataque hace 10 puntos de daño más por cada Pokémon {P} en tu pila de descartes.",
+			it: "Questo attacco infligge 10 danni in più per ogni Pokémon {P} nella tua pila degli scarti.",
+			pt: "Este ataque causa 10 pontos de dano a mais para cada Pokémon {P} na sua pilha de descarte.",
+			de: "Diese Attacke fügt für jedes {P}-Pokémon in deinem Ablagestapel 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "160+"
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

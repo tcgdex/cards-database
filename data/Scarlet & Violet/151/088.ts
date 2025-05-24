@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, le Coût de Retraite du Pokémon Défenseur est augmenté de Colorless.",
-			en: "During your opponent's next turn, the Defending Pokémon's Retreat Cost is Colorless more.",
-			es: "Durante el próximo turno de tu rival, el Coste de Retirada del Pokémon Defensor es de Colorless más.",
-			it: "Durante il prossimo turno del tuo avversario, il costo di ritirata del Pokémon difensore aumenta di Colorless.",
-			pt: "Durante o próximo turno do seu oponente, o custo de Recuo do Pokémon Defensor será Colorless a mais.",
-			de: "Während des nächsten Zuges deines Gegners erhöhen sich die Rückzugskosten des Verteidigenden Pokémon um Colorless."
+			fr: "Pendant le prochain tour de votre adversaire, le Coût de Retraite du Pokémon Défenseur est augmenté de {C}.",
+			en: "During your opponent's next turn, the Defending Pokémon's Retreat Cost is {C} more.",
+			es: "Durante el próximo turno de tu rival, el Coste de Retirada del Pokémon Defensor es de {C} más.",
+			it: "Durante il prossimo turno del tuo avversario, il costo di ritirata del Pokémon difensore aumenta di {C}.",
+			pt: "Durante o próximo turno do seu oponente, o custo de Recuo do Pokémon Defensor será {C} a mais.",
+			de: "Während des nächsten Zuges deines Gegners erhöhen sich die Rückzugskosten des Verteidigenden Pokémon um {C}."
 		},
 
 		damage: 10
@@ -49,7 +49,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Nisota Niso"
 }
 
 export default card

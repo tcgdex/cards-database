@@ -53,12 +53,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "You may discard a Fighting Energy from this Pokémon. If you do, this attack does 120 more damage.",
-			fr: "Vous pouvez défausser une Énergie Fighting de ce Pokémon. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Puedes descartar 1 Energía Fighting de este Pokémon. Si lo haces, este ataque hace 120 puntos de daño más.",
-			it: "Puoi scartare un'Energia Fighting da questo Pokémon. Se lo fai, questo attacco infligge 120 danni in più.",
-			pt: "Você pode descartar uma Energia Fighting deste Pokémon. Se fizer isto, este ataque causará 120 pontos de dano a mais.",
-			de: "Du kannst 1 Fighting-Energie von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			en: "You may discard a {F} Energy from this Pokémon. If you do, this attack does 120 more damage.",
+			fr: "Vous pouvez défausser une Énergie {F} de ce Pokémon. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires.",
+			es: "Puedes descartar 1 Energía {F} de este Pokémon. Si lo haces, este ataque hace 120 puntos de daño más.",
+			it: "Puoi scartare un'Energia {F} da questo Pokémon. Se lo fai, questo attacco infligge 120 danni in più.",
+			pt: "Você pode descartar uma Energia {F} deste Pokémon. Se fizer isto, este ataque causará 120 pontos de dano a mais.",
+			de: "Du kannst 1 {F}-Energie von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "120+"
@@ -69,7 +69,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "satoma"
 }
 
 export default card

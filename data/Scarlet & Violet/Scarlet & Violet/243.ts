@@ -37,12 +37,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon's Retreat Cost is Colorless more.",
-			fr: "Le Coût de Retraite du Pokémon Actif de votre adversaire est augmenté de Colorless.",
-			es: "El Coste de Retirada del Pokémon Activo de tu rival es de Colorless más.",
-			it: "Il costo di ritirata del Pokémon attivo del tuo avversario aumenta di Colorless.",
-			pt: "O custo de Recuo do Pokémon Ativo do seu oponente é Colorless a mais.",
-			de: "Die Rückzugskosten des Aktiven Pokémon deines Gegners erhöhen sich um Colorless."
+			en: "Your opponent's Active Pokémon's Retreat Cost is {C} more.",
+			fr: "Le Coût de Retraite du Pokémon Actif de votre adversaire est augmenté de {C}.",
+			es: "El Coste de Retirada del Pokémon Activo de tu rival es de {C} más.",
+			it: "Il costo di ritirata del Pokémon attivo del tuo avversario aumenta di {C}.",
+			pt: "O custo de Recuo do Pokémon Ativo do seu oponente é {C} a mais.",
+			de: "Die Rückzugskosten des Aktiven Pokémon deines Gegners erhöhen sich um {C}."
 		}
 	}],
 
@@ -59,12 +59,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 30 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 30 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 30 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu."
+			en: "This attack does 30 more damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+			es: "Este ataque hace 30 puntos de daño más por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival.",
+			it: "Questo attacco infligge 30 danni in più per ogni {C} nel costo di ritirata del Pokémon attivo del tuo avversario.",
+			pt: "Este ataque causa 30 pontos de dano a mais para cada {C} no custo de Recuo do Pokémon Ativo do seu oponente.",
+			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"
@@ -76,7 +76,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Miki Tanaka"
 }
 
 export default card

@@ -59,7 +59,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "aspara"
 }
 
 export default card

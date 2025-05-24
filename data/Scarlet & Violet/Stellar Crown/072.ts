@@ -48,7 +48,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "svlt"
 }
 
 export default card

@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck un Pokémon Grass de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
-			en: "Search your deck for a Basic Grass Pokémon and put it onto your Bench. Then, shuffle your deck.",
-			es: "Busca en tu baraja 1 Pokémon Grass Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo un Pokémon Base Grass e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por um Pokémon Grass Básico no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Basis-Grass-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
+			fr: "Cherchez dans votre deck un Pokémon {G} de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+			en: "Search your deck for a Basic {G} Pokémon and put it onto your Bench. Then, shuffle your deck.",
+			es: "Busca en tu baraja 1 Pokémon {G} Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+			it: "Cerca nel tuo mazzo un Pokémon Base {G} e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			pt: "Procure por um Pokémon {G} Básico no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach 1 Basis-{G}-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
@@ -60,7 +60,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "You Iribi"
 }
 
 export default card

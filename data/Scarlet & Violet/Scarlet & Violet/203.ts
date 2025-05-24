@@ -37,12 +37,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "As often as you like during your turn, you may move a Fire Energy from 1 of your Benched Pokémon to your Active Pokémon.",
-			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie Fire de l'un de vos Pokémon de Banc vers votre Pokémon Actif.",
-			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía Fire de uno de tus Pokémon en Banca a tu Pokémon Activo.",
-			it: "Durante il tuo turno, puoi spostare un'Energia Fire da uno dei tuoi Pokémon in panchina al tuo Pokémon attivo tutte le volte che vuoi.",
-			pt: "Quantas vezes desejar durante o seu turno, você poderá mover uma Energia Fire de 1 dos seus Pokémon no Banco para o seu Pokémon Ativo.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Fire-Energie von 1 Pokémon auf deiner Bank auf dein Aktives Pokémon verschieben."
+			en: "As often as you like during your turn, you may move a {R} Energy from 1 of your Benched Pokémon to your Active Pokémon.",
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie {R} de l'un de vos Pokémon de Banc vers votre Pokémon Actif.",
+			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía {R} de uno de tus Pokémon en Banca a tu Pokémon Activo.",
+			it: "Durante il tuo turno, puoi spostare un'Energia {R} da uno dei tuoi Pokémon in panchina al tuo Pokémon attivo tutte le volte che vuoi.",
+			pt: "Quantas vezes desejar durante o seu turno, você poderá mover uma Energia {R} de 1 dos seus Pokémon no Banco para o seu Pokémon Ativo.",
+			de: "Beliebig oft während deines Zuges kannst du 1 {R}-Energie von 1 Pokémon auf deiner Bank auf dein Aktives Pokémon verschieben."
 		}
 	}],
 
@@ -76,7 +76,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "nagimiso"
 }
 
 export default card

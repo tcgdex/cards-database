@@ -52,12 +52,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Vous pouvez défausser 2 Énergies Lightning de ce Pokémon pour laisser le Pokémon Actif de votre adversaire Paralysé.",
-			en: "You may discard 2 Lightning Energy from this Pokémon to make your opponent's Active Pokémon Paralyzed.",
-			es: "Puedes descartar 2 Energías Lightning de este Pokémon para dejar al Pokémon Activo de tu rival Paralizado.",
-			it: "Puoi scartare due Energie Lightning da questo Pokémon per lasciare il Pokémon attivo del tuo avversario paralizzato.",
-			pt: "Você pode descartar 2 Energias Lightning deste Pokémon para deixar o Pokémon Ativo do seu oponente Paralisado.",
-			de: "Du kannst 2 Lightning-Energien von diesem Pokémon auf deinen Ablagestapel legen, um das Aktive Pokémon deines Gegners zu paralysieren."
+			fr: "Vous pouvez défausser 2 Énergies {L} de ce Pokémon pour laisser le Pokémon Actif de votre adversaire Paralysé.",
+			en: "You may discard 2 {L} Energy from this Pokémon to make your opponent's Active Pokémon Paralyzed.",
+			es: "Puedes descartar 2 Energías {L} de este Pokémon para dejar al Pokémon Activo de tu rival Paralizado.",
+			it: "Puoi scartare due Energie {L} da questo Pokémon per lasciare il Pokémon attivo del tuo avversario paralizzato.",
+			pt: "Você pode descartar 2 Energias {L} deste Pokémon para deixar o Pokémon Ativo do seu oponente Paralisado.",
+			de: "Du kannst 2 {L}-Energien von diesem Pokémon auf deinen Ablagestapel legen, um das Aktive Pokémon deines Gegners zu paralysieren."
 		},
 
 		damage: 160
@@ -69,7 +69,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "PLANETA Yamashita"
 }
 
 export default card

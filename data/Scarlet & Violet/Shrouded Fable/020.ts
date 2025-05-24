@@ -70,7 +70,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "danciao"
 }
 
 export default card

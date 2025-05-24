@@ -71,7 +71,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "AKIRA EGAWA"
 }
 
 export default card

@@ -59,7 +59,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "Nakamura Ippan"
 }
 
 export default card

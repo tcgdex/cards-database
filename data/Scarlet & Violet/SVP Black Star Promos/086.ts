@@ -66,7 +66,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "PLANETA Mochizuki"
 }
 
 export default card

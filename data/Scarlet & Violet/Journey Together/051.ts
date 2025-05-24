@@ -47,7 +47,8 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "PLANETA Igarashi"
 }
 
 export default card

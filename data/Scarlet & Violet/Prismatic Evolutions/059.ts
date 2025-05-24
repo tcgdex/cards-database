@@ -65,10 +65,13 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "G",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "matazo"
 }
 
 export default card

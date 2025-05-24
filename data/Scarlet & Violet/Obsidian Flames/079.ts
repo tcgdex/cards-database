@@ -54,12 +54,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Attachez une carte Énergie Lightning de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
-			en: "Attach a Basic Lightning Energy card from your discard pile to 1 of your Benched Pokémon.",
-			es: "Une 1 carta de Energía Lightning Básica de tu pila de descartes a uno de tus Pokémon en Banca.",
-			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base Lightning dalla tua pila degli scarti.",
-			pt: "Ligue uma carta de Energia Lightning Básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-			de: "Lege 1 Basis-Lightning-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+			fr: "Attachez une carte Énergie {L} de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
+			en: "Attach a Basic {L} Energy card from your discard pile to 1 of your Benched Pokémon.",
+			es: "Une 1 carta de Energía {L} Básica de tu pila de descartes a uno de tus Pokémon en Banca.",
+			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base {L} dalla tua pila degli scarti.",
+			pt: "Ligue uma carta de Energia {L} Básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
+			de: "Lege 1 Basis-{L}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 		},
 
 		damage: 150
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

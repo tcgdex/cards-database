@@ -54,12 +54,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 40 more damage for each of your Benched Pokémon that has any Grass Energy attached.",
-			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chacun de vos Pokémon de Banc auxquels au moins une Énergie Grass est attachée.",
-			es: "Este ataque hace 40 puntos de daño más por cada uno de tus Pokémon en Banca que tenga alguna Energía Grass unida.",
-			it: "Questo attacco infligge 40 danni in più per ogni Pokémon nella tua panchina che ha delle Energie Grass assegnate.",
-			pt: "Este ataque causa 40 pontos de dano a mais para cada um dos seus Pokémon no Banco que tem alguma Energia Grass ligada a ele.",
-			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank, an das mindestens 1 Grass-Energie angelegt ist, 40 Schadenspunkte mehr zu."
+			en: "This attack does 40 more damage for each of your Benched Pokémon that has any {G} Energy attached.",
+			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chacun de vos Pokémon de Banc auxquels au moins une Énergie {G} est attachée.",
+			es: "Este ataque hace 40 puntos de daño más por cada uno de tus Pokémon en Banca que tenga alguna Energía {G} unida.",
+			it: "Questo attacco infligge 40 danni in più per ogni Pokémon nella tua panchina che ha delle Energie {G} assegnate.",
+			pt: "Este ataque causa 40 pontos de dano a mais para cada um dos seus Pokémon no Banco que tem alguma Energia {G} ligada a ele.",
+			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank, an das mindestens 1 {G}-Energie angelegt ist, 40 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

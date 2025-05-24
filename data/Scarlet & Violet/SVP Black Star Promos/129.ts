@@ -33,7 +33,7 @@ const card: Card = {
 
 		effect: {
 			en: "As long as this Pokémon is in the Active Spot, put 5 more damage counters on your opponent's Poisoned Pokémon during Pokémon Checkup.",
-			fr: "Tant que ce Pokémon est sur le Poste Actif, placez 5&nbsp;marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés de votre adversaire pendant le Contrôle Pokémon.",
+			fr: "Tant que ce Pokémon est sur le Poste Actif, placez 5 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés de votre adversaire pendant le Contrôle Pokémon.",
 			es: "Mientras este Pokémon esté en el Puesto Activo, pon 5 contadores de daño más en los Pokémon Envenenados de tu rival durante el Chequeo Pokémon.",
 			it: "Fintanto che questo Pokémon è in posizione attiva, metti altri cinque segnalini danno sui Pokémon avvelenati del tuo avversario durante il controllo Pokémon.",
 			pt: "Enquanto este Pokémon estiver no Campo Ativo, coloque 5 contadores de dano a mais nos Pokémon Envenenados do seu oponente durante o Checape Pokémon.",
@@ -66,7 +66,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "nagimiso"
 }
 
 export default card

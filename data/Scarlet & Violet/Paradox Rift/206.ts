@@ -55,12 +55,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Move 2 Darkness Energy from this Pokémon to 1 of your Benched Pokémon.",
-			fr: "Déplacez 2 Énergies Darkness de ce Pokémon vers l'un de vos Pokémon de Banc.",
-			es: "Mueve 2 Energías Darkness de este Pokémon a uno de tus Pokémon en Banca.",
-			it: "Sposta due Energie Darkness da questo Pokémon a uno di quelli nella tua panchina.",
-			pt: "Mova 2 Energias Darkness deste Pokémon para 1 dos seus Pokémon no Banco.",
-			de: "Verschiebe 2 Darkness-Energien von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+			en: "Move 2 {D} Energy from this Pokémon to 1 of your Benched Pokémon.",
+			fr: "Déplacez 2 Énergies {D} de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			es: "Mueve 2 Energías {D} de este Pokémon a uno de tus Pokémon en Banca.",
+			it: "Sposta due Energie {D} da questo Pokémon a uno di quelli nella tua panchina.",
+			pt: "Mova 2 Energias {D} deste Pokémon para 1 dos seus Pokémon no Banco.",
+			de: "Verschiebe 2 {D}-Energien von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 		},
 
 		damage: 70
@@ -72,7 +72,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "Yuu Nishida"
 }
 
 export default card

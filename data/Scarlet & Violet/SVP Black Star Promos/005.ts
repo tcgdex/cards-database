@@ -57,7 +57,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "kodama"
 }
 
 export default card

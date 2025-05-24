@@ -41,7 +41,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "Jerky"
 }
 
 export default card

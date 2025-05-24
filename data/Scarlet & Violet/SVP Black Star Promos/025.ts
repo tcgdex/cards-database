@@ -44,7 +44,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "Kouki Saitou"
 }
 
 export default card

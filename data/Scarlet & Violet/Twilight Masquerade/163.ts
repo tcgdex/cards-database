@@ -18,7 +18,7 @@ const card: Card = {
 
 	effect: {
 		en: "You can use this card only if you discard 3 other cards from your hand.\n\nSearch your deck for an Item card, a Pokémon Tool card, a Supporter card, and a Stadium card, reveal them, and put them into your hand. Then, shuffle your deck.",
-		fr: "Vous ne pouvez utiliser cette carte que si vous défaussez 3 autres cartes de votre main.\nCherchez dans votre deck une carte Objet, une carte Outil Pokémon, une carte Supporter et une carte Stade, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		fr: "Vous ne pouvez utiliser cette carte que si vous défaussez 3 autres cartes de votre main.\n\nCherchez dans votre deck une carte Objet, une carte Outil Pokémon, une carte Supporter et une carte Stade, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		es: "Puedes usar esta carta solo si descartas otras 3 cartas de tu mano.\nBusca en tu baraja 1 carta de Objeto, 1 carta de Herramienta Pokémon, 1 carta de Partidario y 1 carta de Estadio, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi usare questa carta solo se scarti altre tre carte che hai in mano.\n\nCerca nel tuo mazzo una carta Strumento, una carta Oggetto Pokémon, una carta Aiuto e una carta Stadio, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode usar esta carta se descartar outras 3 cartas da sua mão.\nProcure por uma carta de Item, uma carta de Ferramenta Pokémon, uma carta de Apoiador e uma carta de Estádio no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
@@ -31,7 +31,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Toyste Beach"
 }
 
 export default card

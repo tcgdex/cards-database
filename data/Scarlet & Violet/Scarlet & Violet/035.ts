@@ -46,12 +46,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 80 damage for each heads.",
-			fr: "Lancez une pièce pour chaque Énergie Fire attachée à ce Pokémon. Cette attaque inflige 80 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda por cada Energía Fire unida a este Pokémon. Este ataque hace 80 puntos de daño por cada cara.",
-			it: "Lancia una moneta per ogni Energia Fire assegnata a questo Pokémon. Questo attacco infligge 80 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda para cada Energia Fire ligada a este Pokémon. Este ataque causa 80 pontos de dano para cada cara.",
-			de: "Wirf 1 Münze für jede an dieses Pokémon angelegte Fire-Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+			en: "Flip a coin for each {R} Energy attached to this Pokémon. This attack does 80 damage for each heads.",
+			fr: "Lancez une pièce pour chaque Énergie {R} attachée à ce Pokémon. Cette attaque inflige 80 dégâts pour chaque côté face.",
+			es: "Lanza 1 moneda por cada Energía {R} unida a este Pokémon. Este ataque hace 80 puntos de daño por cada cara.",
+			it: "Lancia una moneta per ogni Energia {R} assegnata a questo Pokémon. Questo attacco infligge 80 danni ogni volta che esce testa.",
+			pt: "Jogue uma moeda para cada Energia {R} ligada a este Pokémon. Este ataque causa 80 pontos de dano para cada cara.",
+			de: "Wirf 1 Münze für jede an dieses Pokémon angelegte {R}-Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "80×"
@@ -62,7 +62,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Kurata So"
 }
 
 export default card

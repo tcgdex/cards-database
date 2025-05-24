@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Ajoutez jusqu'à 3 cartes Énergie Water de base de votre pile de défausse à votre main.",
-			en: "Put up to 3 Basic Water Energy cards from your discard pile into your hand.",
-			es: "Pon hasta 3 cartas de Energía Water Básica de tu pila de descartes en tu mano.",
-			it: "Prendi fino a tre carte Energia base Water dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-			pt: "Coloque até 3 cartas de Energia Water Básica da sua pilha de descarte na sua mão.",
-			de: "Nimm bis zu 3 Basis-Water-Energiekarten aus deinem Ablagestapel auf deine Hand."
+			fr: "Ajoutez jusqu'à 3 cartes Énergie {W} de base de votre pile de défausse à votre main.",
+			en: "Put up to 3 Basic {W} Energy cards from your discard pile into your hand.",
+			es: "Pon hasta 3 cartas de Energía {W} Básica de tu pila de descartes en tu mano.",
+			it: "Prendi fino a tre carte Energia base {W} dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
+			pt: "Coloque até 3 cartas de Energia {W} Básica da sua pilha de descarte na sua mão.",
+			de: "Nimm bis zu 3 Basis-{W}-Energiekarten aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Water", "Water"],
@@ -61,7 +61,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Mitsuhiro Arita"
 }
 
 export default card

@@ -67,10 +67,13 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "H",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

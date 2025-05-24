@@ -46,7 +46,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Makura Tami"
 }
 
 export default card

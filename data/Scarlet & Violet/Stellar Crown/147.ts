@@ -53,7 +53,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "rika"
 }
 
 export default card

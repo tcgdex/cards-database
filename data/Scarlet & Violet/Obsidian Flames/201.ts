@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon Lightning de votre adversaire.",
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Lightning Pokémon.",
-			es: "Se evita todo el daño infligido a este Pokémon por ataques de los Pokémon Lightning de tu rival.",
-			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Lightning del tuo avversario.",
-			pt: "Previna todo o dano causado a este Pokémon por ataques dos Pokémon Lightning do seu oponente.",
-			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Lightning-Pokémon deines Gegners zugefügt wird."
+			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon {L} de votre adversaire.",
+			en: "Prevent all damage done to this Pokémon by attacks from your opponent's {L} Pokémon.",
+			es: "Se evita todo el daño infligido a este Pokémon por ataques de los Pokémon {L} de tu rival.",
+			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon {L} del tuo avversario.",
+			pt: "Previna todo o dano causado a este Pokémon por ataques dos Pokémon {L} do seu oponente.",
+			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von {L}-Pokémon deines Gegners zugefügt wird."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "KEIICHIRO ITO"
 }
 
 export default card

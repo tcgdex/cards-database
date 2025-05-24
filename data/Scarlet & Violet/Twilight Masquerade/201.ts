@@ -72,7 +72,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "PLANETA Tsuji"
 }
 
 export default card

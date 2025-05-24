@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Menzi",
 		es: "Mencía",
 		it: "Nemi",
-		de: "Nemila"
+		de: "Nemila",
+		pt: "Noêmia"
 	},
 
 	rarity: "Ultra Rare",
@@ -20,7 +21,8 @@ const card: Card = {
 		fr: "Piochez 3 cartes.",
 		es: "Roba 3 cartas.",
 		it: "Pesca tre carte.",
-		de: "Ziehe 3 Karten."
+		de: "Ziehe 3 Karten.",
+		pt: "Compre 3 cartas."
 	},
 
 	trainerType: "Supporter",
@@ -29,7 +31,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Sanosuke Sakuma"
 }
 
 export default card

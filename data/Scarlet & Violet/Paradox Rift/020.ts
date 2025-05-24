@@ -69,7 +69,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "LINNE"
 }
 
 export default card

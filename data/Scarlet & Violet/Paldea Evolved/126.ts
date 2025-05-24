@@ -68,7 +68,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "Shin Nagasawa"
 }
 
 export default card

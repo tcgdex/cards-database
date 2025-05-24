@@ -50,7 +50,8 @@ const card: Card = {
 			fr: "Charge Amie",
 			es: "Placaje Amigo",
 			it: "Amicazione",
-			de: "Tacklefreund"
+			de: "Tacklefreund",
+			pt: "Investida Amistosa"
 		},
 
 		effect: {
@@ -58,7 +59,8 @@ const card: Card = {
 			fr: "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 90 dégâts supplémentaires.",
 			es: "Si has jugado una carta de Partidario de tu mano durante este turno, este ataque hace 90 puntos de daño más.",
 			it: "Se hai giocato una carta Aiuto dalla tua mano durante questo turno, questo attacco infligge 90 danni in più.",
-			de: "Wenn du eine Unterstützerkarte während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			de: "Wenn du eine Unterstützerkarte während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 90 Schadenspunkte mehr zu.",
+			pt: "Se você jogou uma carta de Apoiador da sua mão durante este turno, este ataque causará 90 pontos de dano a mais."
 		},
 
 		damage: "90+"
@@ -70,7 +72,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Saki Hayashiro"
 }
 
 export default card

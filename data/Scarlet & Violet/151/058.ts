@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie Water du Pokémon Actif de votre adversaire.",
-			en: "Discard a Water Energy from your opponent's Active Pokémon.",
-			es: "Descarta 1 Energía Water del Pokémon Activo de tu rival.",
-			it: "Scarta un'Energia Water dal Pokémon attivo del tuo avversario.",
-			pt: "Descarte uma Energia Water do Pokémon Ativo do seu oponente.",
-			de: "Lege 1 Water-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			fr: "Défaussez une Énergie {W} du Pokémon Actif de votre adversaire.",
+			en: "Discard a {W} Energy from your opponent's Active Pokémon.",
+			es: "Descarta 1 Energía {W} del Pokémon Activo de tu rival.",
+			it: "Scarta un'Energia {W} dal Pokémon attivo del tuo avversario.",
+			pt: "Descarte uma Energia {W} do Pokémon Ativo do seu oponente.",
+			de: "Lege 1 {W}-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 10
@@ -49,7 +49,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Atsushi Furusawa"
 }
 
 export default card

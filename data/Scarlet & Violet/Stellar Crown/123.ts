@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If the Retreat Cost of your opponent's Active Pokémon is ColorlessColorless or more, this attack does 110 more damage.",
-			fr: "Si le Coût de Retraite du Pokémon Actif de votre adversaire est de ColorlessColorless ou plus, cette attaque inflige 110 dégâts supplémentaires.",
-			es: "Si el Coste de Retirada del Pokémon Activo de tu rival es de ColorlessColorless o más, este ataque hace 110 puntos de daño más.",
-			it: "Se il costo di ritirata del Pokémon attivo del tuo avversario è ColorlessColorless o più, questo attacco infligge 110 danni in più.",
-			pt: "Se o custo de Recuo do Pokémon Ativo do seu oponente for ColorlessColorless ou mais, este ataque causará 110 pontos de dano a mais.",
-			de: "Wenn die Rückzugskosten des Aktiven Pokémon deines Gegners ColorlessColorless oder mehr betragen, fügt diese Attacke 110 Schadenspunkte mehr zu."
+			en: "If the Retreat Cost of your opponent's Active Pokémon is {C}{C} or more, this attack does 110 more damage.",
+			fr: "Si le Coût de Retraite du Pokémon Actif de votre adversaire est de {C}{C} ou plus, cette attaque inflige 110 dégâts supplémentaires.",
+			es: "Si el Coste de Retirada del Pokémon Activo de tu rival es de {C}{C} o más, este ataque hace 110 puntos de daño más.",
+			it: "Se il costo di ritirata del Pokémon attivo del tuo avversario è {C}{C} o più, questo attacco infligge 110 danni in più.",
+			pt: "Se o custo de Recuo do Pokémon Ativo do seu oponente for {C}{C} ou mais, este ataque causará 110 pontos de dano a mais.",
+			de: "Wenn die Rückzugskosten des Aktiven Pokémon deines Gegners {C}{C} oder mehr betragen, fügt diese Attacke 110 Schadenspunkte mehr zu."
 		},
 
 		damage: "110+"
@@ -48,7 +48,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Nurikabe"
 }
 
 export default card

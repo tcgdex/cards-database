@@ -70,7 +70,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "Tonji Matsuno"
 }
 
 export default card

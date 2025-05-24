@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may attach a Basic Grass Energy card from your hand to this Pokémon. If you attached Energy to a Pokémon in this way, draw a card.",
-			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Grass de base de votre main à ce Pokémon. Si vous avez attaché de l'Énergie à un Pokémon de cette façon, piochez une carte.",
-			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Grass Básica de tu mano a este Pokémon. Si has unido Energía a un Pokémon de esta manera, roba 1 carta.",
-			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia Grass Básica da sua mão a este Pokémon. Se você ligou Energia a um Pokémon desta forma, compre uma carta.",
-			it: "Una sola volta durante il tuo turno, puoi assegnare a questo Pokémon una carta Energia base Grass dalla tua mano. Se hai assegnato dell'Energia a un Pokémon in questo modo, pesca una carta.",
-			de: "Einmal während deines Zuges kannst du 1 Basis-Grass-Energiekarte aus deiner Hand an dieses Pokémon anlegen. Wenn du auf diese Weise Energie an ein Pokémon angelegt hast, ziehe 1 Karte."
+			en: "Once during your turn, you may attach a Basic {G} Energy card from your hand to this Pokémon. If you attached Energy to a Pokémon in this way, draw a card.",
+			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie {G} de base de votre main à ce Pokémon. Si vous avez attaché de l'Énergie à un Pokémon de cette façon, piochez une carte.",
+			es: "Una vez durante tu turno, puedes unir 1 carta de Energía {G} Básica de tu mano a este Pokémon. Si has unido Energía a un Pokémon de esta manera, roba 1 carta.",
+			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia {G} Básica da sua mão a este Pokémon. Se você ligou Energia a um Pokémon desta forma, compre uma carta.",
+			it: "Una sola volta durante il tuo turno, puoi assegnare a questo Pokémon una carta Energia base {G} dalla tua mano. Se hai assegnato dell'Energia a un Pokémon in questo modo, pesca una carta.",
+			de: "Einmal während deines Zuges kannst du 1 Basis-{G}-Energiekarte aus deiner Hand an dieses Pokémon anlegen. Wenn du auf diese Weise Energie an ein Pokémon angelegt hast, ziehe 1 Karte."
 		}
 	}],
 
@@ -67,10 +67,13 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "Yukihiro Tada"
 }
 
 export default card

@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon has any Psychic Energy attached, it has no Retreat Cost.",
-			fr: "Si au moins une Énergie Psychic est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
-			es: "Si este Pokémon tiene alguna Energía Psychic unida, no tiene ningún Coste de Retirada.",
-			it: "Se questo Pokémon ha delle Energie Psychic assegnate, non ha costo di ritirata.",
-			pt: "Se este Pokémon tiver alguma Energia Psychic ligada a ele, não terá custo de Recuo.",
-			de: "Wenn an dieses Pokémon mindestens 1 Psychic-Energie angelegt ist, hat es keine Rückzugskosten."
+			en: "If this Pokémon has any {P} Energy attached, it has no Retreat Cost.",
+			fr: "Si au moins une Énergie {P} est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
+			es: "Si este Pokémon tiene alguna Energía {P} unida, no tiene ningún Coste de Retirada.",
+			it: "Se questo Pokémon ha delle Energie {P} assegnate, non ha costo di ritirata.",
+			pt: "Se este Pokémon tiver alguma Energia {P} ligada a ele, não terá custo de Recuo.",
+			de: "Wenn an dieses Pokémon mindestens 1 {P}-Energie angelegt ist, hat es keine Rückzugskosten."
 		}
 	}],
 
@@ -57,7 +57,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "hncl"
 }
 
 export default card

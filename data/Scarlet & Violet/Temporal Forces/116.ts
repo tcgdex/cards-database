@@ -40,7 +40,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Taiga Kayama"
 }
 
 export default card

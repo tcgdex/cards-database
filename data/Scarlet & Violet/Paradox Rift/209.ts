@@ -72,7 +72,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "Kurata So"
 }
 
 export default card

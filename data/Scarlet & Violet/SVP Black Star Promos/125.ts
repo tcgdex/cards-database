@@ -54,19 +54,20 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 40 more damage for each Fire Energy attached to this Pokémon.",
-			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie Fire attachée à ce Pokémon.",
-			es: "Este ataque hace 40 puntos de daño más por cada Energía Fire unida a este Pokémon.",
-			it: "Questo attacco infligge 40 danni in più per ogni Energia Fire assegnata a questo Pokémon.",
-			pt: "Este ataque causa 40 pontos de dano a mais para cada Energia Fire ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Fire-Energie 40 Schadenspunkte mehr zu."
+			en: "This attack does 40 more damage for each {R} Energy attached to this Pokémon.",
+			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie {R} attachée à ce Pokémon.",
+			es: "Este ataque hace 40 puntos de daño más por cada Energía {R} unida a este Pokémon.",
+			it: "Questo attacco infligge 40 danni in più per ogni Energia {R} assegnata a questo Pokémon.",
+			pt: "Este ataque causa 40 pontos de dano a mais para cada Energia {R} ligada a este Pokémon.",
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {R}-Energie 40 Schadenspunkte mehr zu."
 		},
 
 		damage: "40+"
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "5ban Graphics"
 }
 
 export default card

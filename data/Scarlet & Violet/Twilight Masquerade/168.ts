@@ -61,7 +61,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "Yukihiro Tada"
 }
 
 export default card

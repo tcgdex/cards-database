@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 5 cartes Énergie Grass de base et les attacher à vos Pokémon, comme il vous plaît. Mélangez ensuite votre deck. Si vous avez cherché dans votre deck de cette façon, ce Pokémon est mis K.O.",
-			en: "Once during your turn, you may search your deck for up to 5 Basic Grass Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck. If you searched your deck in this way, this Pokémon is Knocked Out.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja hasta 5 cartas de Energía Grass Básica y unirlas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja. Si has buscado en tu baraja de esta manera, este Pokémon queda Fuera de Combate.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a cinque carte Energia base Grass e assegnarle ai tuoi Pokémon nel modo che preferisci. Poi rimischia le carte del tuo mazzo. Se hai cercato nel tuo mazzo in questo modo, questo Pokémon viene messo KO.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por até 5 cartas de Energia Grass Básica no seu baralho e ligá-las aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho. Se você procurar no seu baralho desta forma, este Pokémon será Nocauteado.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach bis zu 5 Basis-Grass-Energiekarten durchsuchen und sie beliebig an deine Pokémon anlegen. Mische anschließend dein Deck. Wenn du auf diese Weise dein Deck durchsucht hast, ist dieses Pokémon kampfunfähig."
+			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 5 cartes Énergie {G} de base et les attacher à vos Pokémon, comme il vous plaît. Mélangez ensuite votre deck. Si vous avez cherché dans votre deck de cette façon, ce Pokémon est mis K.O.",
+			en: "Once during your turn, you may search your deck for up to 5 Basic {G} Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck. If you searched your deck in this way, this Pokémon is Knocked Out.",
+			es: "Una vez durante tu turno, puedes buscar en tu baraja hasta 5 cartas de Energía {G} Básica y unirlas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja. Si has buscado en tu baraja de esta manera, este Pokémon queda Fuera de Combate.",
+			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a cinque carte Energia base {G} e assegnarle ai tuoi Pokémon nel modo che preferisci. Poi rimischia le carte del tuo mazzo. Se hai cercato nel tuo mazzo in questo modo, questo Pokémon viene messo KO.",
+			pt: "Uma vez durante o seu turno, você poderá procurar por até 5 cartas de Energia {G} Básica no seu baralho e ligá-las aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho. Se você procurar no seu baralho desta forma, este Pokémon será Nocauteado.",
+			de: "Einmal während deines Zuges kannst du dein Deck nach bis zu 5 Basis-{G}-Energiekarten durchsuchen und sie beliebig an deine Pokémon anlegen. Mische anschließend dein Deck. Wenn du auf diese Weise dein Deck durchsucht hast, ist dieses Pokémon kampfunfähig."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

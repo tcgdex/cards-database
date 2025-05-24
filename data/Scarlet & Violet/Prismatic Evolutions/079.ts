@@ -57,7 +57,8 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "Sanosuke Sakuma"
 }
 
 export default card

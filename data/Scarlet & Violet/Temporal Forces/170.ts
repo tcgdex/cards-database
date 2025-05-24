@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Psychic Pokémon, this attack does 30 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Psychic, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Psychic, este ataque hace 30 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Psychic, questo attacco infligge 30 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Psychic, este ataque causará 30 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Psychic-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+			en: "If your opponent's Active Pokémon is a {P} Pokémon, this attack does 30 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon {P}, cette attaque inflige 30 dégâts supplémentaires.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon {P}, este ataque hace 30 puntos de daño más.",
+			it: "Se il Pokémon attivo del tuo avversario è un Pokémon {P}, questo attacco infligge 30 danni in più.",
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon {P}, este ataque causará 30 pontos de dano a mais.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein {P}-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -50,7 +50,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "sowsow"
 }
 
 export default card

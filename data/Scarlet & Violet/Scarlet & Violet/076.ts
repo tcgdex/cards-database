@@ -37,12 +37,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Énergie Lightning de base, puis l'attacher à ce Pokémon. Mélangez ensuite votre deck.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía Lightning Básica y unirla a este Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia base Lightning e assegnarla a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Energia Lightning Básica no seu baralho e ligá-la a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Basis-Lightning-Energiekarte durchsuchen und sie an dieses Pokémon anlegen. Mische anschließend dein Deck."
+			en: "Once during your turn, you may search your deck for a Basic {L} Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Énergie {L} de base, puis l'attacher à ce Pokémon. Mélangez ensuite votre deck.",
+			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía {L} Básica y unirla a este Pokémon. Después, baraja las cartas de tu baraja.",
+			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia base {L} e assegnarla a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Energia {L} Básica no seu baralho e ligá-la a este Pokémon. Em seguida, embaralhe o seu baralho.",
+			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Basis-{L}-Energiekarte durchsuchen und sie an dieses Pokémon anlegen. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -76,7 +76,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Mizue"
 }
 
 export default card
