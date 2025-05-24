@@ -23,17 +23,34 @@ const set: Set = {
 	boosters: {
 		mewtwo: {
 			name: {
-				en: 'Mewtwo'
+				de: 'Mewtu',
+				en: 'Mewtwo',
+				fr: 'Mewtwo',
+				es: 'Mewtwo',
+				it: 'Mewtwo',
+				'pt-br': 'Mewtwo',
+				ko: '뮤츠'
 			}
 		},
 		charizard: {
 			name: {
-				en: 'Charizard'
+				de: 'Glurak',
+				en: 'Charizard',
+				fr: 'Dracaufeu',
+				es: 'Charizard',
+				it: 'Charizard',
+				'pt-br': 'Charizard',
+				ko: '리자몽'
 			}
 		},
 		pikachu: {
 			name: {
-				en: 'Pikachu'
+				en: 'Pikachu',
+				fr: 'Pikachu',
+				es: 'Pikachu',
+				it: 'Pikachu',
+				'pt-br': 'Pikachu',
+				ko: '피카츄'
 			}
 		}
 	},

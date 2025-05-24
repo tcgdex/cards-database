@@ -23,12 +23,24 @@ const set: Set = {
 	boosters: {
 		solgaleo: {
 			name: {
-				en: 'Solgaleo'
+				de: "Solgaleo",
+				en: 'Solgaleo',
+				fr: 'Solgaleo',
+				es: 'Solgaleo',
+				it: 'Solgaleo',
+				'pt-br': 'Solgaleo',
+				ko: '솔가레오'
 			}
 		},
 		lunala: {
 			name: {
-				en: 'Lunala'
+				de: "Lunala",
+				en: 'Lunala',
+				fr: 'Lunala',
+				es: 'Lunala',
+				it: 'Lunala',
+				'pt-br': 'Lunala',
+				ko: '루나아라'
 			}
 		}
 	},

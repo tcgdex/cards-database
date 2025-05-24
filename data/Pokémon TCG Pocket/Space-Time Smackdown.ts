@@ -1,5 +1,5 @@
-import { Set } from '../../interfaces'
-import serie from '../Pokémon TCG Pocket'
+import { Set } from "../../interfaces";
+import serie from "../Pokémon TCG Pocket";
 
 const set: Set = {
 	id: "A2",
@@ -10,30 +10,42 @@ const set: Set = {
 		es: "Pugna Espaciotemporal",
 		fr: "Choc Spatio-Temporel",
 		it: "Scontro Spaziotemporale",
-		'pt-br': "Embate do Tempo e Espaço",
-		ko: '시공의 격투'
+		"pt-br": "Embate do Tempo e Espaço",
+		ko: "시공의 격투",
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 140
+		official: 140,
 	},
 
 	boosters: {
 		palkia: {
 			name: {
-				en: 'Palkia'
-			}
+				de: "Palkia",
+				en: "Palkia",
+				fr: "Palkia",
+				es: "Palkia",
+				it: "Palkia",
+				"pt-br": "Palkia",
+				ko: "펄기아",
+			},
 		},
 		dialga: {
 			name: {
-				en: 'Dialga'
-			}
-		}
+				de: "Dialga",
+				en: "Dialga",
+				fr: "Dialga",
+				es: "Dialga",
+				it: "Dialga",
+				"pt-br": "Dialga",
+				ko: "디아루가",
+			},
+		},
 	},
 
-	releaseDate: "2025-01-30"
-}
+	releaseDate: "2025-01-30",
+};
 
-export default set
+export default set;
