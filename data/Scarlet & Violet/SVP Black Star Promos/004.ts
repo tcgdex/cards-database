@@ -66,7 +66,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "PLANETA Yamashita"
 }
 
 export default card

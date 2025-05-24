@@ -50,7 +50,7 @@ const card: Card = {
 			es: "Tajo Ondulante",
 			it: "Taglio Ondulante",
 			pt: "Corte Ondulado",
-			de: "Wellenschnittt"
+			de: "Wellenschnitt"
 		},
 
 		effect: {
@@ -70,7 +70,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "kawayoo"
 }
 
 export default card

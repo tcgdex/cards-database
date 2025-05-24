@@ -59,7 +59,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "Takumi Wada"
 }
 
 export default card

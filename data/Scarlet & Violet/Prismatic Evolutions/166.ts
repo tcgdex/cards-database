@@ -65,10 +65,13 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "H",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "Uninori"
 }
 
 export default card

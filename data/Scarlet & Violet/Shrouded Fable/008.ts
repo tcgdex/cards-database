@@ -61,7 +61,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "burari"
 }
 
 export default card

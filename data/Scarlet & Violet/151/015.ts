@@ -62,7 +62,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "nisimono"
 }
 
 export default card

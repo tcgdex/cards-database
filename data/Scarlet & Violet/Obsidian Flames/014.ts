@@ -48,7 +48,9 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: {
-	}
+	},
+
+	illustrator: "sui"
 }
 
 export default card

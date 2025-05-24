@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Attachez une carte Énergie Grass de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
-			en: "Attach a Basic Grass Energy card from your discard pile to 1 of your Benched Pokémon.",
-			es: "Une 1 carta de Energía Grass Básica de tu pila de descartes a uno de tus Pokémon en Banca.",
-			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base Grass dalla tua pila degli scarti.",
-			pt: "Ligue uma carta de Energia Grass Básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-			de: "Lege 1 Basis-Grass-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+			fr: "Attachez une carte Énergie {G} de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
+			en: "Attach a Basic {G} Energy card from your discard pile to 1 of your Benched Pokémon.",
+			es: "Une 1 carta de Energía {G} Básica de tu pila de descartes a uno de tus Pokémon en Banca.",
+			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base {G} dalla tua pila degli scarti.",
+			pt: "Ligue uma carta de Energia {G} Básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
+			de: "Lege 1 Basis-{G}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 		},
 
 		damage: 20
@@ -62,7 +62,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Hideki Ishikawa"
 }
 
 export default card

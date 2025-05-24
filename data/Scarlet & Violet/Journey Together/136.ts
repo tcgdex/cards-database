@@ -61,7 +61,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "Ryota Murayama"
 }
 
 export default card

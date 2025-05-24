@@ -59,7 +59,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "Shinya Komatsu"
 }
 
 export default card

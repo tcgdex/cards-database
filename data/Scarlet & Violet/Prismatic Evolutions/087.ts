@@ -44,7 +44,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "Amelicart"
 }
 
 export default card

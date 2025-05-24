@@ -38,12 +38,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each Water Energy attached to this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
-			es: "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
-			it: "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata a questo Pokémon.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 20 Schadenspunkte mehr zu."
+			en: "This attack does 20 more damage for each {W} Energy attached to this Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie {W} attachée à ce Pokémon.",
+			es: "Este ataque hace 20 puntos de daño más por cada Energía {W} unida a este Pokémon.",
+			it: "Questo attacco infligge 20 danni in più per ogni Energia {W} assegnata a questo Pokémon.",
+			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia {W} ligada a este Pokémon.",
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "50+"
@@ -54,7 +54,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Gemi"
 }
 
 export default card

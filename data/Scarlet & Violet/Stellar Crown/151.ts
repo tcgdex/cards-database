@@ -49,7 +49,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Kazumasa Yasukuni"
 }
 
 export default card

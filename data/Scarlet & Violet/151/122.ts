@@ -69,7 +69,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "OOYAMA"
 }
 
 export default card

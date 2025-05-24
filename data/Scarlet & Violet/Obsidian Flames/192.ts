@@ -17,12 +17,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Les attaques utilisées par chacun des Pokémon de base en jeu (les vôtres et ceux de votre adversaire) coûtent Colorless de plus.",
-		en: "Attacks used by each Basic Pokémon in play (both yours and your opponent's) cost Colorless more.",
-		es: "Los ataques usados por cada Pokémon Básico en juego (tanto tuyos como de tu rival) cuestan Colorless más.",
-		it: "Il costo degli attacchi usati da ciascun Pokémon Base in gioco, sia tuo che del tuo avversario, aumenta di Colorless.",
-		pt: "Os ataques usados por cada Pokémon Básico em jogo (seus e do seu oponente) custam Colorless a mais.",
-		de: "Die Kosten der von allen Basis-Pokémon im Spiel (deinen und denen deines Gegners) eingesetzten Attacken erhöhen sich um Colorless."
+		fr: "Les attaques utilisées par chacun des Pokémon de base en jeu (les vôtres et ceux de votre adversaire) coûtent {C} de plus.",
+		en: "Attacks used by each Basic Pokémon in play (both yours and your opponent's) cost {C} more.",
+		es: "Los ataques usados por cada Pokémon Básico en juego (tanto tuyos como de tu rival) cuestan {C} más.",
+		it: "Il costo degli attacchi usati da ciascun Pokémon Base in gioco, sia tuo che del tuo avversario, aumenta di {C}.",
+		pt: "Os ataques usados por cada Pokémon Básico em jogo (seus e do seu oponente) custam {C} a mais.",
+		de: "Die Kosten der von allen Basis-Pokémon im Spiel (deinen und denen deines Gegners) eingesetzten Attacken erhöhen sich um {C}."
 	},
 
 	trainerType: "Stadium",
@@ -30,7 +30,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Oswaldo KATO"
 }
 
 export default card

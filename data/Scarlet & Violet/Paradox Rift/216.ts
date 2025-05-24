@@ -52,12 +52,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon has a Future Booster Energy Capsule attached, this attack can be used for ColorlessColorlessColorless.",
-			fr: "Si Capsule Énergie Booster Temps Futur est attachée à ce Pokémon, cette attaque peut être utilisée pour ColorlessColorlessColorless.",
-			es: "Si este Pokémon tiene un Tanque de Energía Potenciadora del Futuro unido, este ataque se puede usar por ColorlessColorlessColorless.",
-			it: "Se questo Pokémon ha una Capsula energetica Tempo Futuro assegnata, il costo di questo attacco è ColorlessColorlessColorless.",
-			pt: "Se este Pokémon tiver uma Cápsula Energética de Melhoria Futurista ligada a ele, este ataque poderá ser usado por ColorlessColorlessColorless.",
-			de: "Wenn an dieses Pokémon 1 Energiekapsel aus der Zukunft angelegt ist, kann diese Attacke für ColorlessColorlessColorless eingesetzt werden."
+			en: "If this Pokémon has a Future Booster Energy Capsule attached, this attack can be used for {C}{C}{C}.",
+			fr: "Si Capsule Énergie Booster Temps Futur est attachée à ce Pokémon, cette attaque peut être utilisée pour {C}{C}{C}.",
+			es: "Si este Pokémon tiene un Tanque de Energía Potenciadora del Futuro unido, este ataque se puede usar por {C}{C}{C}.",
+			it: "Se questo Pokémon ha una Capsula energetica Tempo Futuro assegnata, il costo di questo attacco è {C}{C}{C}.",
+			pt: "Se este Pokémon tiver uma Cápsula Energética de Melhoria Futurista ligada a ele, este ataque poderá ser usado por {C}{C}{C}.",
+			de: "Wenn an dieses Pokémon 1 Energiekapsel aus der Zukunft angelegt ist, kann diese Attacke für {C}{C}{C} eingesetzt werden."
 		},
 
 		damage: 150
@@ -69,7 +69,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "GIDORA"
 }
 
 export default card

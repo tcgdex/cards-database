@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach up to 2 Basic Metal Energy cards from your discard pile to your Metal Pokémon in any way you like.",
-			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez attacher jusqu'à 2 cartes Énergie Metal de base de votre pile de défausse à vos Pokémon Metal, comme il vous plaît.",
-			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, puedes unir hasta 2 cartas de Energía Metal Básica de tu pila de descartes a tus Pokémon Metal de la manera que desees.",
-			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi assegnare ai tuoi Pokémon Metal fino a due carte Energia base Metal dalla tua pila degli scarti nel modo che preferisci.",
-			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá ligar até 2 cartas de Energia Metal Básica da sua pilha de descarte aos seus Pokémon Metal como desejar.",
-			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du bis zu 2 Basis-Metal-Energiekarten aus deinem Ablagestapel beliebig an deine Metal-Pokémon anlegen."
+			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach up to 2 Basic {M} Energy cards from your discard pile to your {M} Pokémon in any way you like.",
+			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez attacher jusqu'à 2 cartes Énergie {M} de base de votre pile de défausse à vos Pokémon {M}, comme il vous plaît.",
+			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, puedes unir hasta 2 cartas de Energía {M} Básica de tu pila de descartes a tus Pokémon {M} de la manera que desees.",
+			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi assegnare ai tuoi Pokémon {M} fino a due carte Energia base {M} dalla tua pila degli scarti nel modo che preferisci.",
+			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá ligar até 2 cartas de Energia {M} Básica da sua pilha de descarte aos seus Pokémon {M} como desejar.",
+			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du bis zu 2 Basis-{M}-Energiekarten aus deinem Ablagestapel beliebig an deine {M}-Pokémon anlegen."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

@@ -17,7 +17,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Vous ne pouvez utiliser cette carte que si vous défaussez 2 autres cartes de votre main.\nAjoutez jusqu'à 4 cartes Énergie de base de votre pile de défausse à votre main.\n(Vous ne pouvez pas choisir une carte que vous avez défaussée du fait de l'effet de cette carte.)",
+		fr: "Vous ne pouvez utiliser cette carte que si vous défaussez 2 autres cartes de votre main.\n\nAjoutez jusqu'à 4 cartes Énergie de base de votre pile de défausse à votre main.\n(Vous ne pouvez pas choisir une carte que vous avez défaussée du fait de l'effet de cette carte.)",
 		en: "You can use this card only if you discard 2 other cards from your hand.\n\nPut up to 4 Basic Energy cards from your discard pile into your hand. (You can't choose a card you discarded with the effect of this card.)",
 		es: "Puedes usar esta carta solo si descartas otras 2 cartas de tu mano.\nPon hasta 4 cartas de Energía Básica de tu pila de descartes en tu mano.\n(No puedes elegir una carta que hayas descartado con el efecto de esta carta).",
 		it: "Puoi usare questa carta solo se scarti altre due carte che hai in mano.\n\nPrendi fino a quattro carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano. Non puoi scegliere una carta che hai scartato per effetto di questa carta.",
@@ -30,7 +30,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Studio Bora Inc."
 }
 
 export default card

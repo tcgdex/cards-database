@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Pour chacun de vos Malosse de Banc, cherchez dans votre deck une carte Énergie Darkness de base, puis attachez-la à ce Malosse-là. Mélangez ensuite votre deck.",
-			en: "For each of your Benched Houndour, search your deck for a Basic Darkness Energy card and attach it to that Houndour. Then, shuffle your deck.",
-			es: "Por cada uno de tus Houndour en Banca, busca en tu baraja 1 carta de Energía Darkness Básica y únela a ese Houndour. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo una carta Energia base Darkness per ogni Houndour nella tua panchina e assegnala a quell'Houndour. Poi rimischia le carte del tuo mazzo.",
-			pt: "Para cada um dos seus Houndour no Banco, procure por uma carta de Energia Darkness Básica no seu baralho e ligue-a àquele Houndour. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche für jedes Hunduster auf deiner Bank dein Deck nach 1 Basis-Darkness-Energiekarte und lege sie an jenes Hunduster an. Mische anschließend dein Deck."
+			fr: "Pour chacun de vos Malosse de Banc, cherchez dans votre deck une carte Énergie {D} de base, puis attachez-la à ce Malosse-là. Mélangez ensuite votre deck.",
+			en: "For each of your Benched Houndour, search your deck for a Basic {D} Energy card and attach it to that Houndour. Then, shuffle your deck.",
+			es: "Por cada uno de tus Houndour en Banca, busca en tu baraja 1 carta de Energía {D} Básica y únela a ese Houndour. Después, baraja las cartas de tu baraja.",
+			it: "Cerca nel tuo mazzo una carta Energia base {D} per ogni Houndour nella tua panchina e assegnala a quell'Houndour. Poi rimischia le carte del tuo mazzo.",
+			pt: "Para cada um dos seus Houndour no Banco, procure por uma carta de Energia {D} Básica no seu baralho e ligue-a àquele Houndour. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche für jedes Hunduster auf deiner Bank dein Deck nach 1 Basis-{D}-Energiekarte und lege sie an jenes Hunduster an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Darkness", "Colorless"],
@@ -69,7 +69,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Scav"
 }
 
 export default card

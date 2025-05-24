@@ -60,7 +60,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Gapao"
 }
 
 export default card

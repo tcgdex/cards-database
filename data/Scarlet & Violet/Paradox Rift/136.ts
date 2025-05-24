@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach a Basic Metal Energy card from your discard pile to 1 of your Benched Pokémon.",
-			fr: "Attachez une carte Énergie Metal de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
-			es: "Une 1 carta de Energía Metal Básica de tu pila de descartes a uno de tus Pokémon en Banca.",
-			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base Metal dalla tua pila degli scarti.",
-			pt: "Ligue uma carta de Energia Metal Básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-			de: "Lege 1 Basis-Metal-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+			en: "Attach a Basic {M} Energy card from your discard pile to 1 of your Benched Pokémon.",
+			fr: "Attachez une carte Énergie {M} de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
+			es: "Une 1 carta de Energía {M} Básica de tu pila de descartes a uno de tus Pokémon en Banca.",
+			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base {M} dalla tua pila degli scarti.",
+			pt: "Ligue uma carta de Energia {M} Básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
+			de: "Lege 1 Basis-{M}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 		},
 
 		damage: 30
@@ -72,7 +72,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "Tonji Matsuno"
 }
 
 export default card

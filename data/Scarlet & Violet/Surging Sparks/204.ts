@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach up to 2 Basic Psychic Energy cards from your hand to your Pokémon in any way you like.",
-			fr: "Attachez jusqu'à 2 cartes Énergie Psychic de base de votre main à vos Pokémon comme il vous plaît.",
-			es: "Une hasta 2 cartas de Energía Psychic Básica de tu mano a tus Pokémon de la manera que desees.",
-			it: "Assegna ai tuoi Pokémon fino a due carte Energia base Psychic dalla tua mano nel modo che preferisci.",
-			pt: "Ligue até 2 cartas de Energia Psychic Básica da sua mão aos seus Pokémon como desejar.",
-			de: "Lege bis zu 2 Basis-Psychic-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
+			en: "Attach up to 2 Basic {P} Energy cards from your hand to your Pokémon in any way you like.",
+			fr: "Attachez jusqu'à 2 cartes Énergie {P} de base de votre main à vos Pokémon comme il vous plaît.",
+			es: "Une hasta 2 cartas de Energía {P} Básica de tu mano a tus Pokémon de la manera que desees.",
+			it: "Assegna ai tuoi Pokémon fino a due carte Energia base {P} dalla tua mano nel modo che preferisci.",
+			pt: "Ligue até 2 cartas de Energia {P} Básica da sua mão aos seus Pokémon como desejar.",
+			de: "Lege bis zu 2 Basis-{P}-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
@@ -69,7 +69,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "HYOGONOSUKE"
 }
 
 export default card

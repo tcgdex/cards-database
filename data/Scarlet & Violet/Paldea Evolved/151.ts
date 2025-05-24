@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Si au moins 3 Énergies Metal sont attachées à ce Pokémon, il reçoit +100 PV.",
-			en: "If this Pokémon has 3 or more Metal Energy attached, it gets +100 HP.",
-			es: "Si este Pokémon tiene 3 Energías Metal o más unidas, obtiene 100 PS más.",
-			it: "Se questo Pokémon ha tre o più Energie Metal assegnate, ha 100 PS in più.",
-			pt: "Se este Pokémon tiver 3 ou mais Energias Metal ligadas a ele, receberá 100 PS a mais.",
-			de: "Wenn an dieses Pokémon 3 oder mehr Metal-Energien angelegt sind, erhält es +100 KP."
+			fr: "Si au moins 3 Énergies {M} sont attachées à ce Pokémon, il reçoit +100 PV.",
+			en: "If this Pokémon has 3 or more {M} Energy attached, it gets +100 HP.",
+			es: "Si este Pokémon tiene 3 Energías {M} o más unidas, obtiene 100 PS más.",
+			it: "Se questo Pokémon ha tre o più Energie {M} assegnate, ha 100 PS in più.",
+			pt: "Se este Pokémon tiver 3 ou mais Energias {M} ligadas a ele, receberá 100 PS a mais.",
+			de: "Wenn an dieses Pokémon 3 oder mehr {M}-Energien angelegt sind, erhält es +100 KP."
 		}
 	}],
 
@@ -70,7 +70,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "Hitoshi Ariga"
 }
 
 export default card

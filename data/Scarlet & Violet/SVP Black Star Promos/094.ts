@@ -52,19 +52,20 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "You may discard up to 2 Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.",
-			fr: "Vous pouvez défausser jusqu'à 2 Énergies Lightning de ce Pokémon. Cette attaque inflige 80 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
-			es: "Puedes descartar hasta 2 Energías Lightning de este Pokémon. Este ataque hace 80 puntos de daño más por cada carta que hayas descartado de esta manera.",
-			it: "Puoi scartare fino a due Energie Lightning da questo Pokémon. Questo attacco infligge 80 danni in più per ogni carta che hai scartato in questo modo.",
-			pt: "Você pode descartar até 2 Energias Lightning deste Pokémon. Este ataque causa 80 pontos de dano a mais para cada carta descartada desta forma.",
-			de: "Du kannst bis zu 2 Lightning-Energien von diesem Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 80 Schadenspunkte mehr zu."
+			en: "You may discard up to 2 {L} Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.",
+			fr: "Vous pouvez défausser jusqu'à 2 Énergies {L} de ce Pokémon. Cette attaque inflige 80 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			es: "Puedes descartar hasta 2 Energías {L} de este Pokémon. Este ataque hace 80 puntos de daño más por cada carta que hayas descartado de esta manera.",
+			it: "Puoi scartare fino a due Energie {L} da questo Pokémon. Questo attacco infligge 80 danni in più per ogni carta che hai scartato in questo modo.",
+			pt: "Você pode descartar até 2 Energias {L} deste Pokémon. Este ataque causa 80 pontos de dano a mais para cada carta descartada desta forma.",
+			de: "Du kannst bis zu 2 {L}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
 	}],
 
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "Mizue"
 }
 
 export default card

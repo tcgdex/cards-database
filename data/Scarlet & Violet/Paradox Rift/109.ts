@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach up to 2 Basic Fighting Energy cards from your discard pile to 1 of your Pokémon.",
-			fr: "Attachez jusqu'à 2 cartes Énergie Fighting de base de votre pile de défausse à l'un de vos Pokémon.",
-			es: "Une hasta 2 cartas de Energía Fighting Básica de tu pila de descartes a uno de tus Pokémon.",
-			it: "Assegna a uno dei tuoi Pokémon fino a due carte Energia base Fighting dalla tua pila degli scarti.",
-			pt: "Ligue até 2 cartas de Energia Fighting Básica da sua pilha de descarte a 1 dos seus Pokémon.",
-			de: "Lege bis zu 2 Basis-Fighting-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
+			en: "Attach up to 2 Basic {F} Energy cards from your discard pile to 1 of your Pokémon.",
+			fr: "Attachez jusqu'à 2 cartes Énergie {F} de base de votre pile de défausse à l'un de vos Pokémon.",
+			es: "Une hasta 2 cartas de Energía {F} Básica de tu pila de descartes a uno de tus Pokémon.",
+			it: "Assegna a uno dei tuoi Pokémon fino a due carte Energia base {F} dalla tua pila degli scarti.",
+			pt: "Ligue até 2 cartas de Energia {F} Básica da sua pilha de descarte a 1 dos seus Pokémon.",
+			de: "Lege bis zu 2 Basis-{F}-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Fighting"],
@@ -69,7 +69,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "AKIRA EGAWA"
 }
 
 export default card

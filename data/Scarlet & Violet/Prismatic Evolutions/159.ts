@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, if your opponent has 4 or fewer Prize cards remaining, you may attach a Basic Fighting Energy card from your discard pile to this Pokémon.",
-			fr: "Une fois pendant votre tour, s'il reste 4 cartes Récompense ou moins à votre adversaire, vous pouvez attacher une carte Énergie Fighting de base de votre pile de défausse à ce Pokémon.",
-			es: "Una vez durante tu turno, si a tu rival le quedan 4 cartas de Premio o menos, puedes unir 1 carta de Energía Fighting Básica de tu pila de descartes a este Pokémon.",
-			pt: "Uma vez durante o seu turno, se o seu oponente tiver 4 ou menos cartas de Prêmio restantes, você poderá ligar uma carta de Energia Fighting Básica da sua pilha de descarte a este Pokémon.",
-			it: "Una sola volta durante il tuo turno, se il tuo avversario ha quattro o meno carte Premio rimanenti, puoi assegnare a questo Pokémon una carta Energia base Fighting dalla tua pila degli scarti.",
-			de: "Einmal während deines Zuges, wenn dein Gegner 4 oder weniger verbleibende Preiskarten hat, kannst du 1 Basis-Fighting-Energiekarte aus deinem Ablagestapel an dieses Pokémon anlegen."
+			en: "Once during your turn, if your opponent has 4 or fewer Prize cards remaining, you may attach a Basic {F} Energy card from your discard pile to this Pokémon.",
+			fr: "Une fois pendant votre tour, s'il reste 4 cartes Récompense ou moins à votre adversaire, vous pouvez attacher une carte Énergie {F} de base de votre pile de défausse à ce Pokémon.",
+			es: "Una vez durante tu turno, si a tu rival le quedan 4 cartas de Premio o menos, puedes unir 1 carta de Energía {F} Básica de tu pila de descartes a este Pokémon.",
+			pt: "Uma vez durante o seu turno, se o seu oponente tiver 4 ou menos cartas de Prêmio restantes, você poderá ligar uma carta de Energia {F} Básica da sua pilha de descarte a este Pokémon.",
+			it: "Una sola volta durante il tuo turno, se il tuo avversario ha quattro o meno carte Premio rimanenti, puoi assegnare a questo Pokémon una carta Energia base {F} dalla tua pila degli scarti.",
+			de: "Einmal während deines Zuges, wenn dein Gegner 4 oder weniger verbleibende Preiskarten hat, kannst du 1 Basis-{F}-Energiekarte aus deinem Ablagestapel an dieses Pokémon anlegen."
 		}
 	}],
 
@@ -67,10 +67,13 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "G",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "Tetsu Kayama"
 }
 
 export default card

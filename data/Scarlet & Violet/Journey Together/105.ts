@@ -61,7 +61,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "matazo"
 }
 
 export default card

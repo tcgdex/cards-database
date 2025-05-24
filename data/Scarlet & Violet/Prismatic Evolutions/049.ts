@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach a Basic Fighting Energy card from your hand to 1 of your Pokémon.",
-			fr: "Attachez une carte Énergie Fighting de base de votre main à l'un de vos Pokémon.",
-			es: "Une 1 carta de Energía Fighting Básica de tu mano a uno de tus Pokémon.",
-			pt: "Ligue uma carta de Energia Fighting Básica da sua mão a 1 dos seus Pokémon.",
-			it: "Assegna a uno dei tuoi Pokémon una carta Energia base Fighting dalla tua mano.",
-			de: "Lege 1 Basis-Fighting-Energiekarte aus deiner Hand an 1 deiner Pokémon an."
+			en: "Attach a Basic {F} Energy card from your hand to 1 of your Pokémon.",
+			fr: "Attachez une carte Énergie {F} de base de votre main à l'un de vos Pokémon.",
+			es: "Une 1 carta de Energía {F} Básica de tu mano a uno de tus Pokémon.",
+			pt: "Ligue uma carta de Energia {F} Básica da sua mão a 1 dos seus Pokémon.",
+			it: "Assegna a uno dei tuoi Pokémon una carta Energia base {F} dalla tua mano.",
+			de: "Lege 1 Basis-{F}-Energiekarte aus deiner Hand an 1 deiner Pokémon an."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
@@ -65,10 +65,13 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "G",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "Uta"
 }
 
 export default card

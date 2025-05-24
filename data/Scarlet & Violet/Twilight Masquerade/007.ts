@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 60 damage for each Fire Energy attached to all of your opponent's Pokémon.",
-			fr: "Cette attaque inflige 60 dégâts pour chaque Énergie Fire attachée à tous les Pokémon de votre adversaire.",
-			es: "Este ataque hace 60 puntos de daño por cada Energía Fire unida a cada uno de los Pokémon de tu rival.",
-			it: "Questo attacco infligge 60 danni per ogni Energia Fire assegnata ai Pokémon del tuo avversario.",
-			pt: "Este ataque causa 60 pontos de dano para cada Energia Fire ligada a todos os Pokémon do seu oponente.",
-			de: "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte Fire-Energie 60 Schadenspunkte zu."
+			en: "This attack does 60 damage for each {R} Energy attached to all of your opponent's Pokémon.",
+			fr: "Cette attaque inflige 60 dégâts pour chaque Énergie {R} attachée à tous les Pokémon de votre adversaire.",
+			es: "Este ataque hace 60 puntos de daño por cada Energía {R} unida a cada uno de los Pokémon de tu rival.",
+			it: "Questo attacco infligge 60 danni per ogni Energia {R} assegnata ai Pokémon del tuo avversario.",
+			pt: "Este ataque causa 60 pontos de dano para cada Energia {R} ligada a todos os Pokémon do seu oponente.",
+			de: "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte {R}-Energie 60 Schadenspunkte zu."
 		},
 
 		damage: "60×"
@@ -71,7 +71,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Ounishi"
 }
 
 export default card

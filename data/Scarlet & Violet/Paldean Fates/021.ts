@@ -46,12 +46,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon has any Water Energy attached, this attack does 120 more damage.",
-			fr: "Si au moins une Énergie Water est attachée à ce Pokémon, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Si este Pokémon tiene alguna Energía Water unida, este ataque hace 120 puntos de daño más.",
-			it: "Se questo Pokémon ha delle Energie Water assegnate, questo attacco infligge 120 danni in più.",
-			pt: "Se este Pokémon tiver alguma Energia Water ligada a ele, este ataque causará 120 pontos de dano a mais.",
-			de: "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			en: "If this Pokémon has any {W} Energy attached, this attack does 120 more damage.",
+			fr: "Si au moins une Énergie {W} est attachée à ce Pokémon, cette attaque inflige 120 dégâts supplémentaires.",
+			es: "Si este Pokémon tiene alguna Energía {W} unida, este ataque hace 120 puntos de daño más.",
+			it: "Se questo Pokémon ha delle Energie {W} assegnate, questo attacco infligge 120 danni in più.",
+			pt: "Se este Pokémon tiver alguma Energia {W} ligada a ele, este ataque causará 120 pontos de dano a mais.",
+			de: "Wenn an dieses Pokémon mindestens 1 {W}-Energie angelegt ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"
@@ -62,7 +62,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "aspara"
 }
 
 export default card

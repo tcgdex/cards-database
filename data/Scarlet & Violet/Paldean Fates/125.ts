@@ -45,12 +45,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If you have no cards in your hand, this attack can be used for Water.",
-			fr: "Si vous n'avez aucune carte dans votre main, cette attaque peut être utilisée pour Water.",
-			es: "Si no tienes ninguna carta en tu mano, este ataque se puede usar por Water.",
-			it: "Se non hai carte in mano, il costo di questo attacco è Water.",
-			pt: "Se você não tiver cartas na sua mão, este ataque poderá ser usado por Water.",
-			de: "Wenn du keine Karten auf deiner Hand hast, kann diese Attacke für Water eingesetzt werden."
+			en: "If you have no cards in your hand, this attack can be used for {W}.",
+			fr: "Si vous n'avez aucune carte dans votre main, cette attaque peut être utilisée pour {W}.",
+			es: "Si no tienes ninguna carta en tu mano, este ataque se puede usar por {W}.",
+			it: "Se non hai carte in mano, il costo di questo attacco è {W}.",
+			pt: "Se você não tiver cartas na sua mão, este ataque poderá ser usado por {W}.",
+			de: "Wenn du keine Karten auf deiner Hand hast, kann diese Attacke für {W} eingesetzt werden."
 		},
 
 		damage: 120
@@ -62,7 +62,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Nelnal"
 }
 
 export default card

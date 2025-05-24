@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Pohm",
 		es: "Pawmi",
 		it: "Pawmi",
-		de: "Pamo"
+		de: "Pamo",
+		pt: "Pawmi"
 	},
 
 	rarity: "Illustration rare",
@@ -26,7 +27,8 @@ const card: Card = {
 			fr: "Poing Léger",
 			es: "Puño Ligero",
 			it: "Pugnetto",
-			de: "Leichter Hieb"
+			de: "Leichter Hieb",
+			pt: "Soco de Luz"
 		},
 
 		damage: 10
@@ -38,7 +40,8 @@ const card: Card = {
 			fr: "Coup de Pied Ravageur",
 			es: "Electropatada",
 			it: "Dinamocalcio",
-			de: "Stromtritt"
+			de: "Stromtritt",
+			pt: "Chute Zap"
 		},
 
 		damage: 20
@@ -50,7 +53,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "REND"
 }
 
 export default card

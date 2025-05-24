@@ -26,7 +26,8 @@ const card: Card = {
 	},
 
 	trainerType: "Item",
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "5ban Graphics"
 }
 
 export default card

@@ -74,7 +74,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "PLANETA Hiiragi"
 }
 
 export default card

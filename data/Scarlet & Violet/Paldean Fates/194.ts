@@ -41,7 +41,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Nelnal"
 }
 
 export default card

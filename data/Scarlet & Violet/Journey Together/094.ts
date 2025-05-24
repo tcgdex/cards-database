@@ -71,7 +71,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "PLANETA Tsuji"
 }
 
 export default card

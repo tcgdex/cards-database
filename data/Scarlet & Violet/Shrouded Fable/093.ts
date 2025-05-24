@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch 1 of your Benched Darkness Pokémon, except any Pecharunt ex, with your Active Pokémon. If you do, the new Active Pokémon is now Poisoned. You can't use more than 1 Subjugating Chains Ability each turn.",
-			fr: "Une fois pendant votre tour, vous pouvez échanger l'un de vos Pokémon Darkness de Banc, à l'exception de Pêchaminus-ex, contre votre Pokémon Actif. Dans ce cas, le nouveau Pokémon Actif est maintenant Empoisonné. Vous ne pouvez utiliser qu'un talent Chaînes Emprise par tour.",
-			es: "Una vez durante tu turno, puedes cambiar 1 de tus Pokémon Darkness en Banca, excepto Pecharunt ex, por tu Pokémon Activo. Si lo haces, el nuevo Pokémon Activo pasa a estar Envenenado. No puedes usar más de una habilidad Cadenas Controladoras en cada turno.",
-			it: "Una sola volta durante il tuo turno, puoi scambiare uno dei tuoi Pokémon Darkness in panchina, a eccezione di qualsiasi Pecharunt-ex, con il tuo Pokémon attivo. Se lo fai, il nuovo Pokémon attivo viene avvelenato. Puoi usare l'abilità Catene Dominanti solo una volta per turno.",
-			pt: "Uma vez durante o seu turno, você poderá trocar 1 dos seus Pokémon Darkness no Banco, exceto por quaisquer Pecharunt ex, pelo seu Pokémon Ativo. Se fizer isto, o novo Pokémon Ativo agora estará Envenenado. Você não pode usar mais de 1 Habilidade Correntes da Submissão por turno.",
-			de: "Einmal während deines Zuges kannst du 1 Darkness-Pokémon auf deiner Bank, außer Infamomo-ex, gegen dein Aktives Pokémon austauschen. Wenn du das machst, ist das neue Aktive Pokémon jetzt vergiftet. Du kannst die Fähigkeit Knechtende Ketten nur einmal pro Zug einsetzen."
+			en: "Once during your turn, you may switch 1 of your Benched {D} Pokémon, except any Pecharunt ex, with your Active Pokémon. If you do, the new Active Pokémon is now Poisoned. You can't use more than 1 Subjugating Chains Ability each turn.",
+			fr: "Une fois pendant votre tour, vous pouvez échanger l'un de vos Pokémon {D} de Banc, à l'exception de Pêchaminus-ex, contre votre Pokémon Actif. Dans ce cas, le nouveau Pokémon Actif est maintenant Empoisonné. Vous ne pouvez utiliser qu'un talent Chaînes Emprise par tour.",
+			es: "Una vez durante tu turno, puedes cambiar 1 de tus Pokémon {D} en Banca, excepto Pecharunt ex, por tu Pokémon Activo. Si lo haces, el nuevo Pokémon Activo pasa a estar Envenenado. No puedes usar más de una habilidad Cadenas Controladoras en cada turno.",
+			it: "Una sola volta durante il tuo turno, puoi scambiare uno dei tuoi Pokémon {D} in panchina, a eccezione di qualsiasi Pecharunt-ex, con il tuo Pokémon attivo. Se lo fai, il nuovo Pokémon attivo viene avvelenato. Puoi usare l'abilità Catene Dominanti solo una volta per turno.",
+			pt: "Uma vez durante o seu turno, você poderá trocar 1 dos seus Pokémon {D} no Banco, exceto por quaisquer Pecharunt ex, pelo seu Pokémon Ativo. Se fizer isto, o novo Pokémon Ativo agora estará Envenenado. Você não pode usar mais de 1 Habilidade Correntes da Submissão por turno.",
+			de: "Einmal während deines Zuges kannst du 1 {D}-Pokémon auf deiner Bank, außer Infamomo-ex, gegen dein Aktives Pokémon austauschen. Wenn du das machst, ist das neue Aktive Pokémon jetzt vergiftet. Du kannst die Fähigkeit Knechtende Ketten nur einmal pro Zug einsetzen."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "kantaro"
 }
 
 export default card

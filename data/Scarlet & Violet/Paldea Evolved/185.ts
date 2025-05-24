@@ -26,7 +26,8 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "Sanosuke Sakuma"
 }
 
 export default card

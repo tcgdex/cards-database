@@ -60,12 +60,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard 2 Fire Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies Fire de ce Pokémon.",
-			es: "Descarta 2 Energías Fire de este Pokémon.",
-			it: "Scarta due Energie Fire da questo Pokémon.",
-			pt: "Descarte 2 Energias Fire deste Pokémon.",
-			de: "Lege 2 Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+			en: "Discard 2 {R} Energy from this Pokémon.",
+			fr: "Défaussez 2 Énergies {R} de ce Pokémon.",
+			es: "Descarta 2 Energías {R} de este Pokémon.",
+			it: "Scarta due Energie {R} da questo Pokémon.",
+			pt: "Descarte 2 Energias {R} deste Pokémon.",
+			de: "Lege 2 {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 250
@@ -77,7 +77,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

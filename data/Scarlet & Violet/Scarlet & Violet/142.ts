@@ -76,7 +76,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "Anesaki Dynamic"
 }
 
 export default card

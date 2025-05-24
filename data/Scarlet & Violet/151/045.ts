@@ -62,7 +62,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "Sekio"
 }
 
 export default card

@@ -76,7 +76,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "hncl"
 }
 
 export default card

@@ -61,7 +61,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "5ban Graphics"
 }
 
 export default card

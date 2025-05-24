@@ -49,7 +49,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "You Iribi"
 }
 
 export default card

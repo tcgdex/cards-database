@@ -44,7 +44,8 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "chibi"
 }
 
 export default card

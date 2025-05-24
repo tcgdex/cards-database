@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 Basic Water Energy cards and attach them to 1 of your Basic Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie Water de base, puis attachez-les à l'un de vos Pokémon de base. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 2 cartas de Energía Water Básica y únelas a uno de tus Pokémon Básicos. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a due carte Energia base Water e assegnale a uno dei tuoi Pokémon Base. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 2 cartas de Energia Water Básica no seu baralho e ligue-as a 1 dos seus Pokémon Básicos. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 2 Basis-Water-Energiekarten und lege sie an 1 deiner Basis-Pokémon an. Mische anschließend dein Deck."
+			en: "Search your deck for up to 2 Basic {W} Energy cards and attach them to 1 of your Basic Pokémon. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie {W} de base, puis attachez-les à l'un de vos Pokémon de base. Mélangez ensuite votre deck.",
+			es: "Busca en tu baraja hasta 2 cartas de Energía {W} Básica y únelas a uno de tus Pokémon Básicos. Después, baraja las cartas de tu baraja.",
+			it: "Cerca nel tuo mazzo fino a due carte Energia base {W} e assegnale a uno dei tuoi Pokémon Base. Poi rimischia le carte del tuo mazzo.",
+			pt: "Procure por até 2 cartas de Energia {W} Básica no seu baralho e ligue-as a 1 dos seus Pokémon Básicos. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach bis zu 2 Basis-{W}-Energiekarten und lege sie an 1 deiner Basis-Pokémon an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Water"],
@@ -68,7 +68,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "OKACHEKE"
 }
 
 export default card

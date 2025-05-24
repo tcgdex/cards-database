@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts pour chaque Énergie Psychic attachée à ce Pokémon.",
-			en: "This attack does 30 damage for each Psychic Energy attached to this Pokémon.",
-			es: "Este ataque hace 30 puntos de daño por cada Energía Psychic unida a este Pokémon.",
-			it: "Questo attacco infligge 30 danni per ogni Energia Psychic assegnata a questo Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada Energia Psychic ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Psychic-Energie 30 Schadenspunkte zu."
+			fr: "Cette attaque inflige 30 dégâts pour chaque Énergie {P} attachée à ce Pokémon.",
+			en: "This attack does 30 damage for each {P} Energy attached to this Pokémon.",
+			es: "Este ataque hace 30 puntos de daño por cada Energía {P} unida a este Pokémon.",
+			it: "Questo attacco infligge 30 danni per ogni Energia {P} assegnata a questo Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano para cada Energia {P} ligada a este Pokémon.",
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {P}-Energie 30 Schadenspunkte zu."
 		},
 
 		damage: "30×"
@@ -49,7 +49,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "0313"
 }
 
 export default card

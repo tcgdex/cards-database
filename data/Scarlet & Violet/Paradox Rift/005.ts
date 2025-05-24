@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If you have Simisage, Simisear, and Simipour in play, ignore all Colorless Energy in the costs of attacks used by this Pokémon.",
-			fr: "Si vous avez Feuiloutan, Flamoutan et Flotoutan en jeu, ignorez toutes les Énergies Colorless dans le coût des attaques utilisées par ce Pokémon.",
-			es: "Si tienes a Simisage, Simisear y Simipour en juego, ignora todas las Energías Colorless en los costes de los ataques usados por este Pokémon.",
-			it: "Se hai in gioco Simisage, Simisear e Simipour, ignora tutte le Energie Colorless necessarie per gli attacchi usati da questo Pokémon.",
-			pt: "Se você tiver Simisage, Simisear e Simipour em jogo, ignore todas as Energias Colorless nos custos dos ataques usados por este Pokémon.",
-			de: "Wenn du Vegichita, Grillchita und Sodachita im Spiel hast, ignoriere alle Colorless-Energien in den Kosten der von diesem Pokémon eingesetzten Attacken."
+			en: "If you have Simisage, Simisear, and Simipour in play, ignore all {C} Energy in the costs of attacks used by this Pokémon.",
+			fr: "Si vous avez Feuiloutan, Flamoutan et Flotoutan en jeu, ignorez toutes les Énergies {C} dans le coût des attaques utilisées par ce Pokémon.",
+			es: "Si tienes a Simisage, Simisear y Simipour en juego, ignora todas las Energías {C} en los costes de los ataques usados por este Pokémon.",
+			it: "Se hai in gioco Simisage, Simisear e Simipour, ignora tutte le Energie {C} necessarie per gli attacchi usati da questo Pokémon.",
+			pt: "Se você tiver Simisage, Simisear e Simipour em jogo, ignore todas as Energias {C} nos custos dos ataques usados por este Pokémon.",
+			de: "Wenn du Vegichita, Grillchita und Sodachita im Spiel hast, ignoriere alle {C}-Energien in den Kosten der von diesem Pokémon eingesetzten Attacken."
 		}
 	}],
 
@@ -71,7 +71,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Kurata So"
 }
 
 export default card

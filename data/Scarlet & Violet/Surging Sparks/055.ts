@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 50 less damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
-			fr: "Cette attaque inflige 50 dégâts de moins pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 50 puntos de daño menos por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 50 danni in meno per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 50 pontos de dano a menos para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte weniger zu."
+			en: "This attack does 50 less damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
+			fr: "Cette attaque inflige 50 dégâts de moins pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+			es: "Este ataque hace 50 puntos de daño menos por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival.",
+			it: "Questo attacco infligge 50 danni in meno per ogni {C} nel costo di ritirata del Pokémon attivo del tuo avversario.",
+			pt: "Este ataque causa 50 pontos de dano a menos para cada {C} no custo de Recuo do Pokémon Ativo do seu oponente.",
+			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte weniger zu."
 		},
 
 		damage: "200-"
@@ -48,7 +48,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "rika"
 }
 
 export default card

@@ -17,12 +17,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "If you have more Prize cards remaining than your opponent, attacks used by the Pokémon this card is attached to cost Colorless less.",
-		fr: "S'il vous reste plus de cartes Récompense qu'à votre adversaire, les attaques utilisées par le Pokémon auquel cette carte est attachée coûtent Colorless de moins.",
-		es: "Si te quedan más cartas de Premio que a tu rival, los ataques usados por el Pokémon al que esté unida esta carta cuestan Colorless menos.",
-		it: "Se hai più carte Premio rimanenti del tuo avversario, il costo degli attacchi usati dal Pokémon a cui è assegnata questa carta è ridotto di Colorless.",
-		pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, os ataques usados pelo Pokémon ao qual esta carta está ligada custarão Colorless a menos.",
-		de: "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, verringern sich die Kosten der eingesetzten Attacken von dem Pokémon, an das diese Karte angelegt ist, um Colorless."
+		en: "If you have more Prize cards remaining than your opponent, attacks used by the Pokémon this card is attached to cost {C} less.",
+		fr: "S'il vous reste plus de cartes Récompense qu'à votre adversaire, les attaques utilisées par le Pokémon auquel cette carte est attachée coûtent {C} de moins.",
+		es: "Si te quedan más cartas de Premio que a tu rival, los ataques usados por el Pokémon al que esté unida esta carta cuestan {C} menos.",
+		it: "Se hai più carte Premio rimanenti del tuo avversario, il costo degli attacchi usati dal Pokémon a cui è assegnata questa carta è ridotto di {C}.",
+		pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, os ataques usados pelo Pokémon ao qual esta carta está ligada custarão {C} a menos.",
+		de: "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, verringern sich die Kosten der eingesetzten Attacken von dem Pokémon, an das diese Karte angelegt ist, um {C}."
 	},
 
 	trainerType: "Tool",
@@ -31,7 +31,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Toyste Beach"
 }
 
 export default card

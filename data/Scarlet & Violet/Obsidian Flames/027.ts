@@ -51,7 +51,9 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: true,
-	}
+	},
+
+	illustrator: "Ryota Murayama"
 }
 
 export default card

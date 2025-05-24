@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Attachez une carte Énergie Fire de base de votre pile de défausse à ce Pokémon.",
-			en: "Attach a Basic Fire Energy card from your discard pile to this Pokémon.",
-			es: "Une 1 carta de Energía Fire Básica de tu pila de descartes a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia base Fire dalla tua pila degli scarti.",
-			pt: "Ligue uma carta de Energia Fire Básica da sua pilha de descarte a este Pokémon.",
-			de: "Lege 1 Basis-Fire-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			fr: "Attachez une carte Énergie {R} de base de votre pile de défausse à ce Pokémon.",
+			en: "Attach a Basic {R} Energy card from your discard pile to this Pokémon.",
+			es: "Une 1 carta de Energía {R} Básica de tu pila de descartes a este Pokémon.",
+			it: "Assegna a questo Pokémon una carta Energia base {R} dalla tua pila degli scarti.",
+			pt: "Ligue uma carta de Energia {R} Básica da sua pilha de descarte a este Pokémon.",
+			de: "Lege 1 Basis-{R}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		},
 
 		damage: 30
@@ -62,7 +62,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Yukiko Baba"
 }
 
 export default card

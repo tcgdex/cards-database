@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach up to 2 Basic Water Energy cards from your discard pile to 1 of your Pokémon.",
-			fr: "Attachez jusqu'à 2 cartes Énergie Water de base de votre pile de défausse à l'un de vos Pokémon.",
-			es: "Une hasta 2 cartas de Energía Water Básica de tu pila de descartes a uno de tus Pokémon.",
-			it: "Assegna a uno dei tuoi Pokémon fino a due carte Energia base Water dalla tua pila degli scarti.",
-			pt: "Ligue até 2 cartas de Energia Water Básica da sua pilha de descarte a 1 dos seus Pokémon.",
-			de: "Lege bis zu 2 Basis-Water-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
+			en: "Attach up to 2 Basic {W} Energy cards from your discard pile to 1 of your Pokémon.",
+			fr: "Attachez jusqu'à 2 cartes Énergie {W} de base de votre pile de défausse à l'un de vos Pokémon.",
+			es: "Une hasta 2 cartas de Energía {W} Básica de tu pila de descartes a uno de tus Pokémon.",
+			it: "Assegna a uno dei tuoi Pokémon fino a due carte Energia base {W} dalla tua pila degli scarti.",
+			pt: "Ligue até 2 cartas de Energia {W} Básica da sua pilha de descarte a 1 dos seus Pokémon.",
+			de: "Lege bis zu 2 Basis-{W}-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
 		}
 	}, {
 		cost: ["Water", "Water", "Colorless"],
@@ -69,7 +69,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "Anesaki Dynamic"
 }
 
 export default card

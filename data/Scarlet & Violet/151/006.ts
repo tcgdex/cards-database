@@ -72,13 +72,16 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
 	retreat: 2,
 	regulationMark: "G",
 
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "PLANETA Mochizuki"
 }
 
 export default card

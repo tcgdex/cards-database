@@ -48,7 +48,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "Atsushi Furusawa"
 }
 
 export default card

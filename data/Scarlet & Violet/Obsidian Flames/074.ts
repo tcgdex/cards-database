@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Attachez une carte Énergie Lightning de base de votre pile de défausse à ce Pokémon.",
-			en: "Attach a Basic Lightning Energy card from your discard pile to this Pokémon.",
-			es: "Une 1 carta de Energía Lightning Básica de tu pila de descartes a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia base Lightning dalla tua pila degli scarti.",
-			pt: "Ligue uma carta de Energia Lightning Básica da sua pilha de descarte a este Pokémon.",
-			de: "Lege 1 Basis-Lightning-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			fr: "Attachez une carte Énergie {L} de base de votre pile de défausse à ce Pokémon.",
+			en: "Attach a Basic {L} Energy card from your discard pile to this Pokémon.",
+			es: "Une 1 carta de Energía {L} Básica de tu pila de descartes a este Pokémon.",
+			it: "Assegna a questo Pokémon una carta Energia base {L} dalla tua pila degli scarti.",
+			pt: "Ligue uma carta de Energia {L} Básica da sua pilha de descarte a este Pokémon.",
+			de: "Lege 1 Basis-{L}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		}
 	}, {
 		cost: ["Lightning", "Colorless", "Colorless"],
@@ -59,7 +59,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "kirisAki"
 }
 
 export default card

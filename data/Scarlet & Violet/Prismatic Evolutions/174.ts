@@ -27,10 +27,13 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "H",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "Iori Suzuki"
 }
 
 export default card

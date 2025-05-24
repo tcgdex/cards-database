@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach a Basic Fighting Energy card from your discard pile to each of your Benched Pokémon.",
-			fr: "Attachez une carte Énergie Fighting de base de votre pile de défausse à chacun de vos Pokémon de Banc.",
-			es: "Une 1 carta de Energía Fighting Básica de tu pila de descartes a cada uno de tus Pokémon en Banca.",
-			it: "Assegna a ciascuno dei Pokémon nella tua panchina una carta Energia base Fighting dalla tua pila degli scarti.",
-			pt: "Ligue uma carta de Energia Fighting Básica da sua pilha de descarte a cada um dos seus Pokémon no Banco.",
-			de: "Lege 1 Basis-Fighting-Energiekarte aus deinem Ablagestapel an jedes Pokémon auf deiner Bank an."
+			en: "Attach a Basic {F} Energy card from your discard pile to each of your Benched Pokémon.",
+			fr: "Attachez une carte Énergie {F} de base de votre pile de défausse à chacun de vos Pokémon de Banc.",
+			es: "Une 1 carta de Energía {F} Básica de tu pila de descartes a cada uno de tus Pokémon en Banca.",
+			it: "Assegna a ciascuno dei Pokémon nella tua panchina una carta Energia base {F} dalla tua pila degli scarti.",
+			pt: "Ligue uma carta de Energia {F} Básica da sua pilha de descarte a cada um dos seus Pokémon no Banco.",
+			de: "Lege 1 Basis-{F}-Energiekarte aus deinem Ablagestapel an jedes Pokémon auf deiner Bank an."
 		}
 	}, {
 		cost: ["Fighting", "Colorless", "Colorless"],
@@ -70,7 +70,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "MINAMINAMI Take"
 }
 
 export default card

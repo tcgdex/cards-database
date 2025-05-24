@@ -33,12 +33,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie Lightning de base, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
-			en: "Search your deck for up to 2 Basic Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
-			es: "Busca en tu baraja hasta 2 cartas de Energía Lightning Básica y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a due carte Energia base Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 2 cartas de Energia Lightning Básica no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 2 Basis-Lightning-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie {L} de base, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+			en: "Search your deck for up to 2 Basic {L} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+			es: "Busca en tu baraja hasta 2 cartas de Energía {L} Básica y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
+			it: "Cerca nel tuo mazzo fino a due carte Energia base {L} e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			pt: "Procure por até 2 cartas de Energia {L} Básica no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach bis zu 2 Basis-{L}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
@@ -70,7 +70,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Toshinao Aoki"
 }
 
 export default card

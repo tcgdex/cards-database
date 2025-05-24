@@ -49,7 +49,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "takuyoa"
 }
 
 export default card

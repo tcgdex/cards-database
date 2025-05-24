@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If you have any Tera Pokémon in play, this Pokémon can use the Double-Edge attack for Psychic.",
-			fr: "Si vous avez au moins un Pokémon Téracristal en jeu, ce Pokémon peut utiliser l'attaque Damoclès pour Psychic.",
-			es: "Si tienes algún Pokémon Teracristal en juego, este Pokémon puede usar el ataque Doble Filo por Psychic.",
-			it: "Se hai dei Pokémon Teracristal in gioco, questo Pokémon può usare l'attacco Sdoppiatore al costo di Psychic.",
-			pt: "Se você tiver algum Pokémon Tera em jogo, este Pokémon poderá usar o ataque Faca de Dois Gumes por Psychic.",
-			de: "Wenn du mindestens 1 Terakristall-Pokémon im Spiel hast, kann dieses Pokémon die Attacke Risikotackle für Psychic einsetzen."
+			en: "If you have any Tera Pokémon in play, this Pokémon can use the Double-Edge attack for {P}.",
+			fr: "Si vous avez au moins un Pokémon Téracristal en jeu, ce Pokémon peut utiliser l'attaque Damoclès pour {P}.",
+			es: "Si tienes algún Pokémon Teracristal en juego, este Pokémon puede usar el ataque Doble Filo por {P}.",
+			it: "Se hai dei Pokémon Teracristal in gioco, questo Pokémon può usare l'attacco Sdoppiatore al costo di {P}.",
+			pt: "Se você tiver algum Pokémon Tera em jogo, este Pokémon poderá usar o ataque Faca de Dois Gumes por {P}.",
+			de: "Wenn du mindestens 1 Terakristall-Pokémon im Spiel hast, kann dieses Pokémon die Attacke Risikotackle für {P} einsetzen."
 		}
 	}],
 
@@ -70,7 +70,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Orca"
 }
 
 export default card

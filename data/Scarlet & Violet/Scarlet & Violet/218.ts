@@ -76,7 +76,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "OKACHEKE"
 }
 
 export default card

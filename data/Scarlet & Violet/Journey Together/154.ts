@@ -28,7 +28,8 @@ const card: Card = {
 	},
 
 	trainerType: "Stadium",
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "AYUMI ODASHIMA"
 }
 
 export default card

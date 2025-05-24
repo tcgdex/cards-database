@@ -27,10 +27,13 @@ const card: Card = {
 
 	trainerType: "Item",
 	regulationMark: "H",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "Toyste Beach"
 }
 
 export default card

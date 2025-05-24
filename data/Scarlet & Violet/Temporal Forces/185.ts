@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each of your Grass Pokémon in play.",
-			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Grass en jeu.",
-			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon Grass en juego.",
-			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon Grass in gioco.",
-			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Grass em jogo.",
-			de: "Diese Attacke fügt für jedes deiner Grass-Pokémon im Spiel 30 Schadenspunkte zu."
+			en: "This attack does 30 damage for each of your {G} Pokémon in play.",
+			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon {G} en jeu.",
+			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon {G} en juego.",
+			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon {G} in gioco.",
+			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon {G} em jogo.",
+			de: "Diese Attacke fügt für jedes deiner {G}-Pokémon im Spiel 30 Schadenspunkte zu."
 		},
 
 		damage: "30×"
@@ -71,7 +71,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "PLANETA Tsuji"
 }
 
 export default card

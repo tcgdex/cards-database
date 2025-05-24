@@ -61,7 +61,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "Mina Nakai"
 }
 
 export default card

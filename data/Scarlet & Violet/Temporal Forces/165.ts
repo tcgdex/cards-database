@@ -46,12 +46,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard a Grass Energy from this Pokémon.",
-			fr: "Défaussez une Énergie Grass de ce Pokémon.",
-			es: "Descarta 1 Energía Grass de este Pokémon.",
-			it: "Scarta un'Energia Grass da questo Pokémon.",
-			pt: "Descarte uma Energia Grass deste Pokémon.",
-			de: "Lege 1 Grass-Energie von diesem Pokémon auf deinen Ablagestapel."
+			en: "Discard a {G} Energy from this Pokémon.",
+			fr: "Défaussez une Énergie {G} de ce Pokémon.",
+			es: "Descarta 1 Energía {G} de este Pokémon.",
+			it: "Scarta un'Energia {G} da questo Pokémon.",
+			pt: "Descarte uma Energia {G} deste Pokémon.",
+			de: "Lege 1 {G}-Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 40
@@ -63,7 +63,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Susumu Maeya"
 }
 
 export default card

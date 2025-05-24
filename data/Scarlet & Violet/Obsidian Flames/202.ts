@@ -46,7 +46,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "HYOGONOSUKE"
 }
 
 export default card

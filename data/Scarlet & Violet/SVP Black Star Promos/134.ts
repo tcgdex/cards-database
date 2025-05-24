@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attacks used by this Pokémon cost Colorless less for each Kofu card in your discard pile.",
-			fr: "Les attaques utilisées par ce Pokémon coûtent Colorless de moins pour chaque carte Kombu dans votre pile de défausse.",
-			es: "Los ataques usados por este Pokémon cuestan Colorless menos por cada carta de Fuco en tu pila de descartes.",
-			it: "Il costo degli attacchi usati da questo Pokémon è ridotto di Colorless per ogni carta Algaro nella tua pila degli scarti.",
-			pt: "Os ataques usados por este Pokémon custam Colorless a menos para cada carta Álgaro na sua pilha de descarte.",
-			de: "Die Kosten der von diesem Pokémon eingesetzten Attacken verringern sich für jede Kombu-Karte in deinem Ablagestapel um Colorless."
+			en: "Attacks used by this Pokémon cost {C} less for each Kofu card in your discard pile.",
+			fr: "Les attaques utilisées par ce Pokémon coûtent {C} de moins pour chaque carte Kombu dans votre pile de défausse.",
+			es: "Los ataques usados por este Pokémon cuestan {C} menos por cada carta de Fuco en tu pila de descartes.",
+			it: "Il costo degli attacchi usati da questo Pokémon è ridotto di {C} per ogni carta Algaro nella tua pila degli scarti.",
+			pt: "Os ataques usados por este Pokémon custam {C} a menos para cada carta Álgaro na sua pilha de descarte.",
+			de: "Die Kosten der von diesem Pokémon eingesetzten Attacken verringern sich für jede Kombu-Karte in deinem Ablagestapel um {C}."
 		}
 	}],
 
@@ -66,7 +66,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "KEIICHIRO ITO"
 }
 
 export default card

@@ -65,10 +65,13 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "G",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "sui"
 }
 
 export default card

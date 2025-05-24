@@ -52,12 +52,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard a Basic Grass Energy card from your hand. If you can't, this attack does nothing.",
-			fr: "Défaussez une carte Énergie Grass de base de votre main. Si vous ne le pouvez pas, cette attaque ne fait rien.",
-			es: "Descarta 1 carta de Energía Grass Básica de tu mano. Si no puedes, este ataque no hace nada.",
-			it: "Scarta una carta Energia base Grass che hai in mano. Se non puoi, questo attacco non ha effetto.",
-			pt: "Descarte uma carta de Energia Grass Básica da sua mão. Se não puder fazer isto, este ataque não fará nada.",
-			de: "Lege 1 Basis-Grass-Energiekarte aus deiner Hand auf deinen Ablagestapel. Wenn du das nicht machen kannst, hat diese Attacke keine Auswirkungen."
+			en: "Discard a Basic {G} Energy card from your hand. If you can't, this attack does nothing.",
+			fr: "Défaussez une carte Énergie {G} de base de votre main. Si vous ne le pouvez pas, cette attaque ne fait rien.",
+			es: "Descarta 1 carta de Energía {G} Básica de tu mano. Si no puedes, este ataque no hace nada.",
+			it: "Scarta una carta Energia base {G} che hai in mano. Se non puoi, questo attacco non ha effetto.",
+			pt: "Descarte uma carta de Energia {G} Básica da sua mão. Se não puder fazer isto, este ataque não fará nada.",
+			de: "Lege 1 Basis-{G}-Energiekarte aus deiner Hand auf deinen Ablagestapel. Wenn du das nicht machen kannst, hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 170
@@ -68,7 +68,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "DOM"
 }
 
 export default card

@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 Basic Grass Energy cards and up to 2 Basic Lightning Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie Grass de base et jusqu'à 2 cartes Énergie Lightning de base, puis attachez-les à vos Pokémon comme il vous plaît. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 2 cartas de Energía Grass Básica y hasta 2 cartas de Energía Lightning Básica y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a due carte Energia base Grass e fino a due carte Energia base Lightning e assegnale ai tuoi Pokémon nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 2 cartas de Energia Grass Básica e até 2 cartas de Energia Lightning Básica no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 2 Basis-Grass-Energiekarten und bis zu 2 Basis-Lightning-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+			en: "Search your deck for up to 2 Basic {G} Energy cards and up to 2 Basic {L} Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie {G} de base et jusqu'à 2 cartes Énergie {L} de base, puis attachez-les à vos Pokémon comme il vous plaît. Mélangez ensuite votre deck.",
+			es: "Busca en tu baraja hasta 2 cartas de Energía {G} Básica y hasta 2 cartas de Energía {L} Básica y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
+			it: "Cerca nel tuo mazzo fino a due carte Energia base {G} e fino a due carte Energia base {L} e assegnale ai tuoi Pokémon nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
+			pt: "Procure por até 2 cartas de Energia {G} Básica e até 2 cartas de Energia {L} Básica no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach bis zu 2 Basis-{G}-Energiekarten und bis zu 2 Basis-{L}-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -46,7 +46,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Nisota Niso"
 }
 
 export default card

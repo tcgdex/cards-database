@@ -18,7 +18,7 @@ const card: Card = {
 
 	effect: {
 		en: "You can use this card only if you have more Prize cards remaining than your opponent.\n\nSwitch in 1 of your opponent's Benched Pokémon to the Active Spot.",
-		fr: "Vous pouvez utiliser cette carte seulement s'il vous reste plus de cartes Récompense qu'à votre adversaire.\nEnvoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+		fr: "Vous pouvez utiliser cette carte seulement s'il vous reste plus de cartes Récompense qu'à votre adversaire.\n\nEnvoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
 		es: "Puedes usar esta carta solo si te quedan más cartas de Premio que a tu rival.\nCambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
 		it: "Puoi usare questa carta solo se hai più carte Premio rimanenti del tuo avversario.\n\nSostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
 		pt: "Você só pode usar esta carta se tiver mais cartas de Prêmio restantes do que seu oponente.\nMande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo.",
@@ -31,7 +31,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "Toyste Beach"
 }
 
 export default card

@@ -44,7 +44,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "Narumi Sato"
 }
 
 export default card

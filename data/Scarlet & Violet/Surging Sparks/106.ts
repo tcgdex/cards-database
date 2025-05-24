@@ -70,7 +70,9 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-	}
+	},
+
+	illustrator: "5ban Graphics"
 }
 
 export default card

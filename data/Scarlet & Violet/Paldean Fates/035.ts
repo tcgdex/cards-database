@@ -40,7 +40,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "KYUPIYAMA"
 }
 
 export default card

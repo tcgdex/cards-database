@@ -55,12 +55,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard all Metal Energy from this Pokémon. This attack does 50 damage for each card you discarded in this way.",
-			fr: "Défaussez toutes les Énergies Metal de ce Pokémon. Cette attaque inflige 50 dégâts pour chaque carte défaussée de cette façon.",
-			es: "Descarta todas las Energías Metal de este Pokémon. Este ataque hace 50 puntos de daño por cada carta que hayas descartado de esta manera.",
-			it: "Scarta tutte le Energie Metal da questo Pokémon. Questo attacco infligge 50 danni per ogni carta che hai scartato in questo modo.",
-			pt: "Descarte todas as Energias Metal deste Pokémon. Este ataque causa 50 pontos de dano para cada carta descartada desta forma.",
-			de: "Lege alle Metal-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 50 Schadenspunkte zu."
+			en: "Discard all {M} Energy from this Pokémon. This attack does 50 damage for each card you discarded in this way.",
+			fr: "Défaussez toutes les Énergies {M} de ce Pokémon. Cette attaque inflige 50 dégâts pour chaque carte défaussée de cette façon.",
+			es: "Descarta todas las Energías {M} de este Pokémon. Este ataque hace 50 puntos de daño por cada carta que hayas descartado de esta manera.",
+			it: "Scarta tutte le Energie {M} da questo Pokémon. Questo attacco infligge 50 danni per ogni carta che hai scartato in questo modo.",
+			pt: "Descarte todas as Energias {M} deste Pokémon. Este ataque causa 50 pontos de dano para cada carta descartada desta forma.",
+			de: "Lege alle {M}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 50 Schadenspunkte zu."
 		},
 
 		damage: "50×"
@@ -71,7 +71,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "AKIRA EGAWA"
 }
 
 export default card

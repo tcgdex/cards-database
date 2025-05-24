@@ -34,12 +34,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach a Basic Fire Energy card from your discard pile to 1 of your Dragon Pokémon.",
-			fr: "Attachez une carte Énergie Fire de base de votre pile de défausse à l'un de vos Pokémon Dragon.",
-			es: "Une 1 carta de Energía Fire Básica de tu pila de descartes a uno de tus Pokémon Dragon.",
-			de: "Lege 1 Basis-Fire-Energiekarte aus deinem Ablagestapel an 1 deiner Dragon-Pokémon an.",
-			it: "Assegna a uno dei tuoi Pokémon Dragon una carta Energia base Fire dalla tua pila degli scarti.",
-			pt: "Ligue uma carta de Energia Fire Básica da sua pilha de descarte a 1 dos seus Pokémon Dragon.",
+			en: "Attach a Basic {R} Energy card from your discard pile to 1 of your {N} Pokémon.",
+			fr: "Attachez une carte Énergie {R} de base de votre pile de défausse à l'un de vos Pokémon {N}.",
+			es: "Une 1 carta de Energía {R} Básica de tu pila de descartes a uno de tus Pokémon {N}.",
+			de: "Lege 1 Basis-{R}-Energiekarte aus deinem Ablagestapel an 1 deiner {N}-Pokémon an.",
+			it: "Assegna a uno dei tuoi Pokémon {N} una carta Energia base {R} dalla tua pila degli scarti.",
+			pt: "Ligue uma carta de Energia {R} Básica da sua pilha de descarte a 1 dos seus Pokémon {N}.",
 			'es-mx': "Une 1 carta de Energía Fire Básica de tu pila de descartes a 1 de tus Pokémon Dragon."
 		},
 
@@ -61,7 +61,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "kawayoo"
 }
 
 export default card

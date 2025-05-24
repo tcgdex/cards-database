@@ -27,10 +27,13 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "G",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "GOSSAN"
 }
 
 export default card

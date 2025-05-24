@@ -57,7 +57,8 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "G"
+	regulationMark: "G",
+	illustrator: "Shin Nagasawa"
 }
 
 export default card

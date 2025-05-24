@@ -60,7 +60,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "Ryota Murayama"
 }
 
 export default card

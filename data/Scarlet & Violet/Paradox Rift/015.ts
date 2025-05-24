@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach a Basic Grass Energy card from your hand to 1 of your Benched Pokémon.",
-			fr: "Attachez une carte Énergie Grass de base de votre main à l'un de vos Pokémon de Banc.",
-			es: "Une 1 carta de Energía Grass Básica de tu mano a uno de tus Pokémon en Banca.",
-			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base Grass dalla tua mano.",
-			pt: "Ligue uma carta de Energia Grass Básica da sua mão a 1 dos seus Pokémon no Banco.",
-			de: "Lege 1 Basis-Grass-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank an."
+			en: "Attach a Basic {G} Energy card from your hand to 1 of your Benched Pokémon.",
+			fr: "Attachez une carte Énergie {G} de base de votre main à l'un de vos Pokémon de Banc.",
+			es: "Une 1 carta de Energía {G} Básica de tu mano a uno de tus Pokémon en Banca.",
+			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base {G} dalla tua mano.",
+			pt: "Ligue uma carta de Energia {G} Básica da sua mão a 1 dos seus Pokémon no Banco.",
+			de: "Lege 1 Basis-{G}-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank an."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
@@ -59,7 +59,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Tomokazu Komiya"
 }
 
 export default card

@@ -51,7 +51,8 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "Mugi Hamada"
 }
 
 export default card

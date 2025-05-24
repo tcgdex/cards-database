@@ -52,12 +52,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Choisissez jusqu'à 3 de vos Pokémon de Banc. Pour chacun de ces Pokémon, cherchez dans votre deck une carte Énergie Fire de base, puis attachez-la à ce Pokémon-là. Mélangez ensuite votre deck.",
-			en: "Choose up to 3 of your Benched Pokémon. For each of those Pokémon, search your deck for a Basic Fire Energy card and attach it to that Pokémon. Then, shuffle your deck.",
-			es: "Elige hasta 3 de tus Pokémon en Banca. Para cada uno de esos Pokémon, busca en tu baraja 1 carta de Energía Fire Básica y únela a ese Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Scegli fino a tre dei tuoi Pokémon in panchina. Per ognuno di essi, cerca nel tuo mazzo una carta Energia base Fire e assegnala a quel Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Escolha até 3 dos seus Pokémon no Banco. Para cada um daqueles Pokémon, procure por uma carta de Energia Fire Básica no seu baralho e ligue-a àquele Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Wähle bis zu 3 Pokémon auf deiner Bank. Durchsuche für jedes jener Pokémon dein Deck nach 1 Basis-Fire-Energiekarte und lege sie an jenes Pokémon an. Mische anschließend dein Deck."
+			fr: "Choisissez jusqu'à 3 de vos Pokémon de Banc. Pour chacun de ces Pokémon, cherchez dans votre deck une carte Énergie {R} de base, puis attachez-la à ce Pokémon-là. Mélangez ensuite votre deck.",
+			en: "Choose up to 3 of your Benched Pokémon. For each of those Pokémon, search your deck for a Basic {R} Energy card and attach it to that Pokémon. Then, shuffle your deck.",
+			es: "Elige hasta 3 de tus Pokémon en Banca. Para cada uno de esos Pokémon, busca en tu baraja 1 carta de Energía {R} Básica y únela a ese Pokémon. Después, baraja las cartas de tu baraja.",
+			it: "Scegli fino a tre dei tuoi Pokémon in panchina. Per ognuno di essi, cerca nel tuo mazzo una carta Energia base {R} e assegnala a quel Pokémon. Poi rimischia le carte del tuo mazzo.",
+			pt: "Escolha até 3 dos seus Pokémon no Banco. Para cada um daqueles Pokémon, procure por uma carta de Energia {R} Básica no seu baralho e ligue-a àquele Pokémon. Em seguida, embaralhe o seu baralho.",
+			de: "Wähle bis zu 3 Pokémon auf deiner Bank. Durchsuche für jedes jener Pokémon dein Deck nach 1 Basis-{R}-Energiekarte und lege sie an jenes Pokémon an. Mische anschließend dein Deck."
 		},
 
 		damage: 100
@@ -69,7 +69,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "AKIRA EGAWA"
 }
 
 export default card

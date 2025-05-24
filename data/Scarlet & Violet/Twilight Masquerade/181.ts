@@ -67,7 +67,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "GIDORA"
 }
 
 export default card

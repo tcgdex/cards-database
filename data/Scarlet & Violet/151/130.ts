@@ -37,7 +37,7 @@ const card: Card = {
 			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you must discard the top 5 cards of your deck.",
 			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, debes descartar las 5 primeras cartas de tu baraja.",
 			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, devi scartare le prime cinque carte del tuo mazzo.",
-			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá descartar as 5 cartas de cima do seu baralho.",
+			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você deverá descartar as 5 cartas de cima do seu baralho.",
 			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, musst du die obersten 5 Karten deines Decks auf deinen Ablagestapel legen."
 		}
 	}],
@@ -71,7 +71,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "Kouki Saitou"
 }
 
 export default card

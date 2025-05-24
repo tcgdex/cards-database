@@ -59,12 +59,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon has any Fire Energy attached, this attack does 90 more damage.",
-			fr: "Si au moins une Énergie Fire est attachée à ce Pokémon, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si este Pokémon tiene alguna Energía Fire unida, este ataque hace 90 puntos de daño más.",
-			it: "Se questo Pokémon ha delle Energie Fire assegnate, questo attacco infligge 90 danni in più.",
-			pt: "Se este Pokémon tiver alguma Energia Fire ligada a ele, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn an dieses Pokémon mindestens 1 Fire-Energie angelegt ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			en: "If this Pokémon has any {R} Energy attached, this attack does 90 more damage.",
+			fr: "Si au moins une Énergie {R} est attachée à ce Pokémon, cette attaque inflige 90 dégâts supplémentaires.",
+			es: "Si este Pokémon tiene alguna Energía {R} unida, este ataque hace 90 puntos de daño más.",
+			it: "Se questo Pokémon ha delle Energie {R} assegnate, questo attacco infligge 90 danni in più.",
+			pt: "Se este Pokémon tiver alguma Energia {R} ligada a ele, este ataque causará 90 pontos de dano a mais.",
+			de: "Wenn an dieses Pokémon mindestens 1 {R}-Energie angelegt ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"
@@ -76,7 +76,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "KIYOTAKA OSHIYAMA"
 }
 
 export default card

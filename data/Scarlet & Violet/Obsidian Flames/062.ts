@@ -72,7 +72,9 @@ const card: Card = {
 		normal: true,
 		holo: true,
 		reverse: true,
-	}
+	},
+
+	illustrator: "Souichirou Gunjima"
 }
 
 export default card

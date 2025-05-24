@@ -65,10 +65,13 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "G",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "Shinji Kanda"
 }
 
 export default card

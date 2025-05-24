@@ -32,12 +32,12 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Tant que ce Pokémon est en jeu, il est de type Grass et Fire.",
-			en: "As long as this Pokémon is in play, it is Grass and Fire type.",
-			es: "Mientras este Pokémon esté en juego, es de tipo Grass y Fire.",
-			it: "Fintanto che questo Pokémon è in gioco, è di tipo Grass e Fire.",
-			pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo Grass e Fire.",
-			de: "Solange dieses Pokémon im Spiel ist, ist es vom Typ Grass und Fire."
+			fr: "Tant que ce Pokémon est en jeu, il est de type {G} et {R}.",
+			en: "As long as this Pokémon is in play, it is {G} and {R} type.",
+			es: "Mientras este Pokémon esté en juego, es de tipo {G} y {R}.",
+			it: "Fintanto che questo Pokémon è in gioco, è di tipo {G} e {R}.",
+			pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo {G} e {R}.",
+			de: "Solange dieses Pokémon im Spiel ist, ist es vom Typ {G} und {R}."
 		}
 	}],
 
@@ -70,7 +70,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "kodama"
 }
 
 export default card

@@ -28,6 +28,7 @@ const card: Card = {
 			fr: "Vol à la Volée",
 			es: "Robo y Huida",
 			it: "Frega e Fuggi",
+			de: "Rauben und rennen",
 			pt: "Surrupiar e Sumir"
 		},
 
@@ -36,7 +37,8 @@ const card: Card = {
 			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez demander à votre adversaire de montrer sa main. Choisissez ensuite 2 cartes Énergie que vous y trouvez et mélangez-les avec le deck de votre adversaire.",
 			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, puedes hacer que tu rival enseñe las cartas de su mano. Después, elige 2 cartas de Energía que encuentres entre ellas, ponlas en la baraja de tu rival y barájalas todas.",
 			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi far mostrare al tuo avversario le carte che ha in mano, poi scegli due carte Energia presenti tra esse e le rimischi nel suo mazzo.",
-			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá fazer com que o seu oponente revele a mão dele e, em seguida, você escolhe 2 cartas de Energia que encontrar lá e as embaralha no baralho do seu oponente."
+			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá fazer com que o seu oponente revele a mão dele e, em seguida, você escolhe 2 cartas de Energia que encontrar lá e as embaralha no baralho do seu oponente.",
+			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du deinen Gegner dazu veranlassen, dir seine Handkarten zu zeigen. Wähle anschließend 2 Energiekarten, die du dort findest, und mische sie in das Deck deines Gegners."
 		}
 	}],
 
@@ -45,23 +47,11 @@ const card: Card = {
 
 		name: {
 			en: "Claw Slash",
+			de: "Klauenschlitzer",
 			fr: "Tranch'Griffe",
 			es: "Cuchillada Garra",
 			it: "Lacerartiglio",
 			pt: "Golpe de Garra",
-			de: "Rauben und rennen"
-		},
-
-		damage: 60,
-
-		effect: {
-			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du deinen Gegner dazu veranlassen, dir seine Handkarten zu zeigen. Wähle anschließend 2 Energiekarten, die du dort findest, und mische sie in das Deck deines Gegners."
-		}
-	}, {
-		cost: ["Colorless", "Colorless"],
-
-		name: {
-			de: "Klauenschlitzer"
 		},
 
 		damage: 60
@@ -73,7 +63,9 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
-	}
+	},
+
+	illustrator: "SIE NANAHARA"
 }
 
 export default card

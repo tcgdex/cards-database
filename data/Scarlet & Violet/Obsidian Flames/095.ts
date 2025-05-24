@@ -69,7 +69,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "Shigenori Negishi"
 }
 
 export default card

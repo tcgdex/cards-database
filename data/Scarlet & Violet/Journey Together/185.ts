@@ -69,7 +69,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+	illustrator: "Megumi Mizutani"
 }
 
 export default card

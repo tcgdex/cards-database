@@ -52,7 +52,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "Atsuko Nishida"
 }
 
 export default card

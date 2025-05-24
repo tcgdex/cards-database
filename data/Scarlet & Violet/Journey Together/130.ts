@@ -51,7 +51,8 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+	illustrator: "Tetsu Kayama"
 }
 
 export default card

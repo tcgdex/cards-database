@@ -54,12 +54,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon has any Lightning Energy attached, this attack does 80 more damage.",
-			fr: "Si au moins une Énergie Lightning est attachée à ce Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si este Pokémon tiene alguna Energía Lightning unida, este ataque hace 80 puntos de daño más.",
-			it: "Se questo Pokémon ha delle Energie Lightning assegnate, questo attacco infligge 80 danni in più.",
-			pt: "Se este Pokémon tiver alguma Energia Lightning ligada a ele, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn an dieses Pokémon mindestens 1 Lightning-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			en: "If this Pokémon has any {L} Energy attached, this attack does 80 more damage.",
+			fr: "Si au moins une Énergie {L} est attachée à ce Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
+			es: "Si este Pokémon tiene alguna Energía {L} unida, este ataque hace 80 puntos de daño más.",
+			it: "Se questo Pokémon ha delle Energie {L} assegnate, questo attacco infligge 80 danni in più.",
+			pt: "Se este Pokémon tiver alguma Energia {L} ligada a ele, este ataque causará 80 pontos de dano a mais.",
+			de: "Wenn an dieses Pokémon mindestens 1 {L}-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "50+"
@@ -70,7 +70,9 @@ const card: Card = {
 
 	variants: {
 		holo: false
-	}
+	},
+
+	illustrator: "mashu"
 }
 
 export default card

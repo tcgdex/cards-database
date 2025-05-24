@@ -38,12 +38,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If any of your Fighting Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 120 more damage.",
-			fr: "Si au moins l'un de vos Pokémon Fighting a été mis K.O. par les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Si alguno de tus Pokémon Fighting quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 120 puntos de daño más.",
-			it: "Se uno qualsiasi dei tuoi Pokémon Fighting è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 120 danni in più.",
-			pt: "Se algum dos seus Pokémon Fighting tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 120 pontos de dano a mais.",
-			de: "Wenn mindestens 1 deiner Fighting-Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			en: "If any of your {F} Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 120 more damage.",
+			fr: "Si au moins l'un de vos Pokémon {F} a été mis K.O. par les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige 120 dégâts supplémentaires.",
+			es: "Si alguno de tus Pokémon {F} quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 120 puntos de daño más.",
+			it: "Se uno qualsiasi dei tuoi Pokémon {F} è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 120 danni in più.",
+			pt: "Se algum dos seus Pokémon {F} tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 120 pontos de dano a mais.",
+			de: "Wenn mindestens 1 deiner {F}-Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"

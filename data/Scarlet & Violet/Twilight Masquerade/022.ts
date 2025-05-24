@@ -52,12 +52,12 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard up to 3 Grass Energy cards from your Pokémon. This attack does 70 damage for each card you discarded in this way.",
-			fr: "Défaussez jusqu'à 3 cartes Énergie Grass de vos Pokémon. Cette attaque inflige 70 dégâts pour chaque carte défaussée de cette façon.",
-			es: "Descarta hasta 3 cartas de Energía Grass de tus Pokémon. Este ataque hace 70 puntos de daño por cada carta que hayas descartado de esta manera.",
-			it: "Scarta fino a tre carte Energia Grass dai tuoi Pokémon. Questo attacco infligge 70 danni per ogni carta che hai scartato in questo modo.",
-			pt: "Descarte até 3 cartas de Energia Grass dos seus Pokémon. Este ataque causa 70 pontos de dano para cada carta descartada desta forma.",
-			de: "Lege bis zu 3 Grass-Energiekarten von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 70 Schadenspunkte zu."
+			en: "Discard up to 3 {G} Energy cards from your Pokémon. This attack does 70 damage for each card you discarded in this way.",
+			fr: "Défaussez jusqu'à 3 cartes Énergie {G} de vos Pokémon. Cette attaque inflige 70 dégâts pour chaque carte défaussée de cette façon.",
+			es: "Descarta hasta 3 cartas de Energía {G} de tus Pokémon. Este ataque hace 70 puntos de daño por cada carta que hayas descartado de esta manera.",
+			it: "Scarta fino a tre carte Energia {G} dai tuoi Pokémon. Questo attacco infligge 70 danni per ogni carta che hai scartato in questo modo.",
+			pt: "Descarte até 3 cartas de Energia {G} dos seus Pokémon. Este ataque causa 70 pontos de dano para cada carta descartada desta forma.",
+			de: "Lege bis zu 3 {G}-Energiekarten von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 70 Schadenspunkte zu."
 		},
 
 		damage: "70×"
@@ -68,7 +68,9 @@ const card: Card = {
 
 	variants: {
 		normal: false
-	}
+	},
+
+	illustrator: "Kouki Saitou"
 }
 
 export default card

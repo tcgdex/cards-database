@@ -65,10 +65,13 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "H",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "YASHIRO Nanaco"
 }
 
 export default card

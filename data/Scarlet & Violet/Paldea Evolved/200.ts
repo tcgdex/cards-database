@@ -70,7 +70,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "Po-Suzuki"
 }
 
 export default card

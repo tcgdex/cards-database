@@ -58,10 +58,13 @@ const card: Card = {
 
 	retreat: 4,
 	regulationMark: "H",
+
 	variants: {
 		holo: true,
 		normal: false
-	}
+	},
+
+	illustrator: "N-DESIGN Inc."
 }
 
 export default card

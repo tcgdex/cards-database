@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Clove",
 		es: "Cael",
 		it: "Garoff",
-		de: "Leval"
+		de: "Leval",
+		pt: "Clive"
 	},
 
 	rarity: "Ultra Rare",
@@ -20,7 +21,8 @@ const card: Card = {
 		fr: "Votre adversaire montre sa main et vous piochez 2 cartes pour chaque carte Supporter que vous y trouvez.",
 		es: "Tu rival enseña las cartas de su mano, y tú robas 2 cartas por cada carta de Partidario que encuentres entre ellas.",
 		it: "Il tuo avversario mostra le carte che ha in mano e tu peschi due carte per ogni carta Aiuto presente tra quelle carte.",
-		de: "Dein Gegner zeigt dir seine Handkarten und du ziehst 2 Karten für jede Unterstützerkarte, die du dort findest."
+		de: "Dein Gegner zeigt dir seine Handkarten und du ziehst 2 Karten für jede Unterstützerkarte, die du dort findest.",
+		pt: "Seu oponente revela a mão dele e você compra 2 cartas para cada carta de Apoiador que encontrar lá."
 	},
 
 	trainerType: "Supporter",
@@ -29,7 +31,9 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
-	}
+	},
+
+	illustrator: "GOSSAN"
 }
 
 export default card
