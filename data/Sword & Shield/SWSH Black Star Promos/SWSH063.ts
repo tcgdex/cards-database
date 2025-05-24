@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Pika Ball",
 			es: "Pika Ball",
 			it: "Pikasfera",
-			pt: "Pika Ball",
+			pt: "Bola Pikachu",
 			de: "Pikaball"
 		},
 
@@ -37,7 +37,7 @@ const card: Card = {
 			fr: "Cercle Électrik",
 			es: "Circuito Circular",
 			it: "Elettroruota",
-			pt: "Circle Circuit",
+			pt: "Circuito Circular",
 			de: "Rundparcours"
 		},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon de Banc.",
 			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en Banca.",
 			it: "Questo attacco infligge 30 danni per ogni Pokémon nella tua panchina.",
-			pt: "This attack does 30 damage for each of your Benched Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano para cada Pokémon no seu Banco.",
 			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank 30 Schadenspunkte zu."
 		},
 

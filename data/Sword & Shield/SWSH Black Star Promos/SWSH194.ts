@@ -1,0 +1,73 @@
+import { Card } from "../../../interfaces"
+import Set from "../SWSH Black Star Promos"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		fr: "Phyllali V",
+		de: "Folipurba V",
+		es: "Leafeon V",
+		pt: "Leafeon V",
+		it: "Leafeon V",
+		en: "Leafeon V"
+	},
+
+	rarity: "None",
+	category: "Pokemon",
+	hp: 210,
+	types: ["Grass"],
+	stage: "Basic",
+	suffix: "V",
+
+	attacks: [{
+		cost: ["Grass"],
+
+		name: {
+			fr: "Feuille Garde",
+			de: "Floraschild",
+			es: "Defensa Hoja",
+			pt: "Guarda Folha",
+			it: "Fogliamanto",
+			en: "Leaf Guard"
+		},
+
+		effect: {
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			es: "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			en: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+		},
+
+		damage: 30
+	}, {
+		cost: ["Grass", "Grass", "Colorless"],
+
+		name: {
+			fr: "Coup Déchirant",
+			de: "Schlitzender Schlag",
+			es: "Golpe Cuchillazo",
+			pt: "Ataque Cortante",
+			it: "Lacerattacco",
+			en: "Slashing Strike"
+		},
+
+		effect: {
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen.",
+			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
+			en: "During your next turn, this Pokémon can't use Slashing Strike."
+		},
+
+		damage: 180
+	}],
+
+	retreat: 2,
+	regulationMark: "F"
+}
+
+export default card

@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Milcery",
-		fr: "Crèmy"
+		fr: "Crèmy",
+		de: "Hokumil",
+		es: "Milcery",
+		pt: "Milcery",
+		it: "Milcery"
 	},
 
 	attacks: [{
@@ -30,7 +34,7 @@ const card: Card = {
 			fr: "Nappage",
 			es: "Decoración",
 			it: "Decorazione",
-			pt: "Decorate",
+			pt: "Decorar",
 			de: "Verzierung"
 		},
 
@@ -39,7 +43,7 @@ const card: Card = {
 			fr: "Attachez le nombre de cartes Énergie de base voulues de votre main à vos Pokémon comme il vous plaît.",
 			es: "Une cualquier cantidad de cartas de Energía Básica de tu mano a tus Pokémon de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon un numero qualsiasi di carte Energia base dalla tua mano nel modo che preferisci.",
-			pt: "Attach as many basic Energy cards as you like from your hand to your Pokémon in any way you like.",
+			pt: "Ligue qualquer número de cartas de Energia básica da sua mão aos seus Pokémon como desejar.",
 			de: "Lege beliebig viele Basis-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
 		},
 
@@ -50,7 +54,7 @@ const card: Card = {
 			fr: "Vampibaiser",
 			es: "Beso Drenaje",
 			it: "Assorbibacio",
-			pt: "Draining Kiss",
+			pt: "Beijo Drenante",
 			de: "Diebeskuss"
 		},
 
@@ -59,7 +63,7 @@ const card: Card = {
 			fr: "Soignez 30 dégâts de ce Pokémon.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Heal 30 damage from this Pokémon.",
+			pt: "Cure 30 pontos de dano deste Pokémon.",
 			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 

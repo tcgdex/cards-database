@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Bronzor"
+		en: "Bronzor",
+		fr: "Archéomire",
+		de: "Bronzel",
+		es: "Bronzor",
+		pt: "Bronzor",
+		it: "Bronzor"
 	},
 
 	abilities: [{
@@ -30,16 +35,18 @@ const card: Card = {
 			en: "Metal Transfer",
 			es: "Traspaso Metálico",
 			it: "Spostametallo",
-			pt: "Metal Transfer",
-			de: "Metalltransfer"
+			pt: "Transferência de Metal",
+			de: "Metalltransfer",
+			fr: "Transfert de Métal"
 		},
 
 		effect: {
-			en: "As often as you like during your turn, you may move a Metal Energy from 1 of your Pokémon to another of your Pokémon.",
-			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía Metal de 1 de tus Pokémon a otro de tus Pokémon.",
-			it: "Durante il tuo turno, puoi spostare un'Energia Metal da uno a un altro dei tuoi Pokémon tutte le volte che vuoi.",
-			pt: "As often as you like during your turn, you may move a Metal Energy from 1 of your Pokémon to another of your Pokémon.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Metal-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
+			en: "As often as you like during your turn, you may move a {M} Energy from 1 of your Pokémon to another of your Pokémon.",
+			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía {M} de 1 de tus Pokémon a otro de tus Pokémon.",
+			it: "Durante il tuo turno, puoi spostare un'Energia {M} da uno a un altro dei tuoi Pokémon tutte le volte che vuoi.",
+			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 Energia {M} de 1 dos seus Pokémon para outro Pokémon seu.",
+			de: "Beliebig oft während deines Zuges kannst du 1 {M}-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben.",
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie {M} de l'un de vos Pokémon vers un autre de vos Pokémon."
 		}
 	}],
 
@@ -49,7 +56,7 @@ const card: Card = {
 			fr: "Psykoud'Boul",
 			es: "Cabezazo Zen",
 			it: "Cozzata Zen",
-			pt: "Zen Headbutt",
+			pt: "Cabeçada Zen",
 			de: "Zen-Kopfstoß"
 		},
 

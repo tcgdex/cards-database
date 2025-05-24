@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Zweilous",
-		fr: "Diamat"
+		fr: "Diamat",
+		de: "Duodino",
+		es: "Zweilous",
+		pt: "Zweilous",
+		it: "Zweilous"
 	},
 
 	abilities: [{
@@ -32,17 +36,17 @@ const card: Card = {
 			fr: "Rafale Obscure",
 			es: "Ráfaga Oscura",
 			it: "Burrasca Oscura",
-			pt: "Dark Squall",
+			pt: "Ventania Sombria",
 			de: "Finsterböe"
 		},
 
 		effect: {
-			en: "As often as you like during your turn, you may attach a Darkness Energy card from your hand to 1 of your Pokémon.",
-			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Darkness de votre main à l'un de vos Pokémon.",
-			es: "Todas las veces que quieras durante tu turno, puedes unir 1 carta de Energía Darkness de tu mano a 1 de tus Pokémon.",
-			it: "Durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia Darkness dalla tua mano tutte le volte che vuoi.",
-			pt: "As often as you like during your turn, you may attach a Darkness Energy card from your hand to 1 of your Pokémon.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Darkness-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
+			en: "As often as you like during your turn, you may attach a {D} Energy card from your hand to 1 of your Pokémon.",
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie {D} de votre main à l'un de vos Pokémon.",
+			es: "Todas las veces que quieras durante tu turno, puedes unir 1 carta de Energía {D} de tu mano a 1 de tus Pokémon.",
+			it: "Durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia {D} dalla tua mano tutte le volte che vuoi.",
+			pt: "Quantas vezes desejar durante o seu turno, você poderá ligar 1 carta de Energia {D} da sua mão a 1 dos seus Pokémon.",
+			de: "Beliebig oft während deines Zuges kannst du 1 {D}-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
 		}
 	}],
 
@@ -52,7 +56,7 @@ const card: Card = {
 			fr: "Crocs Nuit Noire",
 			es: "Colmillos Azabaches",
 			it: "Zanne Buiopesto",
-			pt: "Pitch-Black Fangs",
+			pt: "Presas do Breu",
 			de: "Pechschwarze Fänge"
 		},
 

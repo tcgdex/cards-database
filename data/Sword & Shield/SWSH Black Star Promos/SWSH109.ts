@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Lapidalanche",
 			es: "Rocalud",
 			it: "Valanghiaia",
-			pt: "Cragalanche",
+			pt: "Rochavalanche",
 			de: "Grolllawine"
 		},
 
@@ -34,7 +34,7 @@ const card: Card = {
 			fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
 			es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
 			it: "Scarta le prime due carte del mazzo del tuo avversario.",
-			pt: "Discard the top 2 cards of your opponent's deck.",
+			pt: "Descarte as 2 cartas de cima do baralho do seu oponente.",
 			de: "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
 		},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			fr: "Écrasement Poing Final",
 			es: "Aplastamiento Golpe Brusco",
 			it: "Schianto Colpo Singolo",
-			pt: "Single Strike Crush",
+			pt: "Esmagamento Golpe Decisivo",
 			de: "Fokussierter-Angriff-Zermalmer"
 		},
 
@@ -55,7 +55,7 @@ const card: Card = {
 			fr: "Défaussez les 4 cartes du dessus de votre deck.",
 			es: "Descarta las 4 primeras cartas de tu baraja.",
 			it: "Scarta le prime quattro carte del tuo mazzo.",
-			pt: "Discard the top 4 cards of your deck.",
+			pt: "Descarte as 4 cartas de cima do seu baralho.",
 			de: "Lege die obersten 4 Karten deines Decks auf deinen Ablagestapel."
 		},
 

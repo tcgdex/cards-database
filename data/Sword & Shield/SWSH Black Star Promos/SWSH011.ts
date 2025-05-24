@@ -33,7 +33,7 @@ const card: Card = {
 				en: "Defense Curl",
 				es: "Rizo Defensa",
 				it: "Ricciolscudo",
-				pt: "Defense Curl",
+				pt: "Espiral de Defesa",
 				de: "Einigler"
 			},
 			effect: {
@@ -41,7 +41,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.",
 				es: "Lanza 1 moneda. Si sale cara, evita todo el daño infligido a este Pokémon por ataques durante el próximo turno de tu rival.",
 				it: "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a questo Pokémon da qualsiasi attacco durante il prossimo turno del tuo avversario.",
-				pt: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.",
+				pt: "Jogue 1 moeda. Se sair cara, previna todo o dano causado a este Pokémon por ataques durante o próximo turno do seu oponente.",
 				de: "Wirf 1 Münze. Verhindere bei Kopf allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Attacken zugefügt wird."
 			},
 
@@ -56,7 +56,7 @@ const card: Card = {
 				en: "Headbutt",
 				es: "Golpe Cabeza",
 				it: "Bottintesta",
-				pt: "Headbutt",
+				pt: "Cabeçada",
 				de: "Kopfnuss"
 			},
 

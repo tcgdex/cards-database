@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Aquali",
 		es: "Vaporeon",
 		pt: "Vaporeon",
-		de: "Aquana"
+		de: "Aquana",
+		it: "Vaporeon"
 	},
 
 	illustrator: "so-taro",
@@ -20,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli",
+		es: "Eevee",
+		pt: "Eevee",
+		it: "Eevee"
 	},
 
 	abilities: [{
@@ -30,16 +35,18 @@ const card: Card = {
 			en: "Watery Shroud",
 			fr: "Voile Aquatique",
 			es: "Manto Acuoso",
-			pt: "Watery Shroud",
-			de: "Wasservorhang"
+			pt: "Manto d'Água",
+			de: "Wasservorhang",
+			it: "Velo Acqueo"
 		},
 
 		effect: {
 			en: "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
 			fr: "Tant que ce Pokémon est sur votre Banc, évitez tous les dégâts infligés à ce Pokémon par des attaques (les vôtres et celles de votre adversaire).",
-			es: "Mientras este Pokémon esté en tu Banca, evita todo el daño infligido a este Pokémon por ataques (tanto tuyos como los de tu rival).",
-			pt: "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
-			de: "Solange sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Attacken (deine und die deines Gegners) zugefügt wird."
+			es: "Mientras este Pokémon esté en tu Banca, evita todo el daño infligido a este Pokémon por ataques (tanto tuyos como de tu rival).",
+			pt: "Enquanto este Pokémon estiver no seu Banco, previna todo o dano causado a este Pokémon por ataques (seus e do seu oponente).",
+			de: "Solange sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Attacken (deine und die deines Gegners) zugefügt wird.",
+			it: "Fintanto che questo Pokémon è nella tua panchina, previeni tutti i danni inflitti a questo Pokémon da qualsiasi attacco, sia tuo che del tuo avversario."
 		}
 	}],
 
@@ -48,16 +55,18 @@ const card: Card = {
 			en: "Hydro Pump",
 			fr: "Hydrocanon",
 			es: "Hidrobomba",
-			pt: "Hydro Pump",
-			de: "Hydropumpe"
+			pt: "Jato d'Água",
+			de: "Hydropumpe",
+			it: "Idropompa"
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each Water Energy attached to this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
-			es: "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
-			pt: "This attack does 20 more damage for each Water Energy attached to this Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 20 Schadenspunkte mehr zu."
+			en: "This attack does 20 more damage for each {W} Energy attached to this Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie {W} attachée à ce Pokémon.",
+			es: "Este ataque hace 20 puntos de daño más por cada Energía {W} unida a este Pokémon.",
+			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia {W} ligada a este Pokémon.",
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 20 Schadenspunkte mehr zu.",
+			it: "Questo attacco infligge 20 danni in più per ogni Energia {W} assegnata a questo Pokémon."
 		},
 
 		damage: "60+",

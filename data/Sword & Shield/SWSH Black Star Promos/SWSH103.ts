@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Blastoise V"
+		en: "Blastoise V",
+		fr: "Tortank-V",
+		de: "Turtok-V",
+		es: "Blastoise V",
+		pt: "Blastoise V",
+		it: "Blastoise-V"
 	},
 
 	attacks: [{
@@ -29,17 +34,17 @@ const card: Card = {
 			fr: "Cascade Grandiose",
 			es: "Gran Cascada",
 			it: "Cascata Maestosa",
-			pt: "Grand Falls",
+			pt: "Grande Catarata",
 			de: "Gewaltige Fälle"
 		},
 
 		effect: {
-			en: "Search your deck for up to 3 Water Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie Water, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 3 cartas de Energía Water y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a tre carte Energia Water e assegnale ai tuoi Pokémon in panchina nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
-			pt: "Search your deck for up to 3 Water Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
-			de: "Durchsuche dein Deck nach bis zu 3 Water-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+			en: "Search your deck for up to 3 {W} Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie {W}, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
+			es: "Busca en tu baraja hasta 3 cartas de Energía {W} y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
+			it: "Cerca nel tuo mazzo fino a tre carte Energia {W} e assegnale ai tuoi Pokémon in panchina nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
+			pt: "Procure por até 3 cartas de Energia {W} no seu baralho e ligue-as aos seus Pokémon no Banco como desejar. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach bis zu 3 {W}-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
 		},
 
 		damage: 120,
@@ -50,7 +55,7 @@ const card: Card = {
 			fr: "Bombardement G-Max",
 			es: "Gigabombardeo",
 			it: "Gigabombardamento",
-			pt: "G-Max Bombard",
+			pt: "Bombardeio G-Max",
 			de: "Giga-Kanone"
 		},
 
@@ -59,7 +64,7 @@ const card: Card = {
 			fr: "Cette attaque inflige aussi 30 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			es: "Este ataque también hace 30 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			it: "Questo attacco infligge anche 30 danni a due dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "This attack also does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			pt: "Este ataque também causa 30 pontos de dano a 2 dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
 			de: "Diese Attacke fügt auch 2 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 

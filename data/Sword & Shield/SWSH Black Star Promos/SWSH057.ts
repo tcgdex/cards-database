@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Morsure",
 			es: "Mordisco",
 			it: "Morso",
-			pt: "Bite",
+			pt: "Mordida",
 			de: "Biss"
 		},
 
@@ -37,17 +37,17 @@ const card: Card = {
 			fr: "Poing Piquant",
 			es: "Nudillo Puntiagudo",
 			it: "Noccaspina",
-			pt: "Spiky Knuckle",
+			pt: "Punho Espinhoso",
 			de: "Stachelfaust"
 		},
 
 		effect: {
-			en: "Put 2 Darkness Energy attached to this Pokémon into your hand.",
-			fr: "Ajoutez à votre main 2 Énergies Darkness attachées à ce Pokémon.",
-			es: "Pon 2 Energías Darkness unidas a este Pokémon en tu mano.",
-			it: "Prendi due Energie Darkness assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
-			pt: "Put 2 Darkness Energy attached to this Pokémon into your hand.",
-			de: "Nimm 2 an dieses Pokémon angelegte Darkness-Energien auf deine Hand."
+			en: "Put 2 {D} Energy attached to this Pokémon into your hand.",
+			fr: "Ajoutez à votre main 2 Énergies {D} attachées à ce Pokémon.",
+			es: "Pon 2 Energías {D} unidas a este Pokémon en tu mano.",
+			it: "Prendi due Energie {D} assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
+			pt: "Coloque 2 Energias {D} ligadas a este Pokémon na sua mão.",
+			de: "Nimm 2 an dieses Pokémon angelegte {D}-Energien auf deine Hand."
 		},
 
 		damage: 200,

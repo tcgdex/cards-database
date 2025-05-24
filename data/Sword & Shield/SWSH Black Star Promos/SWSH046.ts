@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gossifleur",
-		fr: "Tournicoton"
+		fr: "Tournicoton",
+		de: "Cottini",
+		es: "Gossifleur",
+		pt: "Gossifleur",
+		it: "Gossifleur"
 	},
 
 	attacks: [{
@@ -30,17 +34,17 @@ const card: Card = {
 			fr: "Bénédiction Douillette",
 			es: "Bendición Sedosa",
 			it: "Preghiera della Morbidezza",
-			pt: "Blessing of Fluff",
+			pt: "Benção da Fofura",
 			de: "Flauschsegen"
 		},
 
 		effect: {
-			en: "Search your deck for up to 3 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie Grass, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 3 cartas de Energía Grass y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a tre carte Energia Grass e assegnale ai tuoi Pokémon in panchina nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
-			pt: "Search your deck for up to 3 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
-			de: "Durchsuche dein Deck nach bis zu 3 Grass-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+			en: "Search your deck for up to 3 {G} Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie {G}, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
+			es: "Busca en tu baraja hasta 3 cartas de Energía {G} y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
+			it: "Cerca nel tuo mazzo fino a tre carte Energia {G} e assegnale ai tuoi Pokémon in panchina nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
+			pt: "Procure por até 3 cartas de Energia {G} no seu baralho e ligue-as aos seus Pokémon no Banco como desejar. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach bis zu 3 {G}-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless"]
@@ -50,7 +54,7 @@ const card: Card = {
 			fr: "Feuillage",
 			es: "Follaje",
 			it: "Fogliame",
-			pt: "Leafage",
+			pt: "Folhagem",
 			de: "Blattwerk"
 		},
 

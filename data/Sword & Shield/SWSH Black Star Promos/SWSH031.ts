@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Glouton",
 			es: "Hambriento",
 			it: "Famelico",
-			pt: "Famished",
+			pt: "Faminto",
 			de: "Ausgehungert"
 		},
 
@@ -34,7 +34,7 @@ const card: Card = {
 			fr: "Piochez une carte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			pt: "Draw a card.",
+			pt: "Compre 1 carta.",
 			de: "Ziehe 1 Karte."
 		},
 
@@ -45,7 +45,7 @@ const card: Card = {
 			fr: "Éclair",
 			es: "Impactrueno",
 			it: "Tuonoshock",
-			pt: "Thunder Shock",
+			pt: "Trovoada de Choques",
 			de: "Donnerschock"
 		},
 
@@ -54,7 +54,7 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
 			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 

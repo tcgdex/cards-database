@@ -13,7 +13,12 @@ const card: Card = {
 	stage: "Basic",
 
 	name: {
-		en: "Charmander"
+		en: "Charmander",
+		fr: "Salamèche",
+		de: "Glumanda",
+		es: "Charmander",
+		pt: "Charmander",
+		it: "Charmander"
 	},
 
 	rarity: "None",
@@ -25,17 +30,32 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Collect"
+			en: "Collect",
+			fr: "Collecte",
+			de: "Sammeln",
+			es: "Coleccionar",
+			pt: "Coleta",
+			it: "Tassa"
 		},
 
 		effect: {
-			en: "Draw a card."
+			en: "Draw a card.",
+			fr: "Piochez une carte.",
+			de: "Ziehe 1 Karte.",
+			es: "Roba 1 carta.",
+			pt: "Compre 1 carta.",
+			it: "Pesca una carta."
 		}
 	}, {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Flare"
+			en: "Flare",
+			fr: "Flamboiement",
+			de: "Flackern",
+			es: "Llama",
+			pt: "Chama",
+			it: "Fiammata"
 		},
 
 		damage: 30

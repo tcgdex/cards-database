@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Évoli",
 		es: "Eevee",
 		pt: "Eevee",
-		de: "Evoli"
+		de: "Evoli",
+		it: "Eevee"
 	},
 
 	illustrator: "You Iribi",
@@ -23,16 +24,18 @@ const card: Card = {
 			en: "Signs of Evolution",
 			fr: "Signes d'Évolution",
 			es: "Indicios de Evolución",
-			pt: "Signs of Evolution",
-			de: "Spuren der Evolution"
+			pt: "Sinais de Evolução",
+			de: "Spuren der Evolution",
+			it: "Evolvisegni"
 		},
 
 		effect: {
 			en: "Search your deck for a card that evolves from Eevee, reveal it, and put it into your hand. Then, shuffle your deck.",
 			fr: "Cherchez dans votre deck une carte Évolution d'Évoli, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja 1 carta que evolucione de Eevee, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Search your deck for a card that evolves from Eevee, reveal it, and put it into your hand. Then, shuffle your deck.",
-			de: "Durchsuche dein Deck nach 1 Karte, die sich aus Evoli entwickelt, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			pt: "Procure por 1 carta no seu baralho que evolua de Eevee, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach 1 Karte, die sich aus Evoli entwickelt, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo una carta che si evolve da Eevee, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo."
 		},
 
 		cost: ["Colorless"]
@@ -41,16 +44,18 @@ const card: Card = {
 			en: "Wild Kick",
 			fr: "Coup Déchaîné",
 			es: "Patada Salvaje",
-			pt: "Wild Kick",
-			de: "Stürmischer Kick"
+			pt: "Chute sem Pontaria",
+			de: "Stürmischer Kick",
+			it: "Calcio Selvaggio"
 		},
 
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
 			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			pt: "Flip a coin. If tails, this attack does nothing.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto."
 		},
 
 		damage: 30,

@@ -33,7 +33,7 @@ const card: Card = {
 				en: "Sing",
 				es: "Canto",
 				it: "Canto",
-				pt: "Sing",
+				pt: "Canção",
 				de: "Gesang"
 			},
 			effect: {
@@ -41,7 +41,7 @@ const card: Card = {
 				en: "Your opponent's Active Pokémon is now Asleep.",
 				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "Your opponent's Active Pokémon is now Asleep.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
 				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 

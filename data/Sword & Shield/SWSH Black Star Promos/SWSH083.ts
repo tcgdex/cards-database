@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Cuillère Zen",
 			es: "Cuchara Zen",
 			it: "Cucchiaio Zen",
-			pt: "Zen Spoon",
+			pt: "Colher Zen",
 			de: "Zen-Löffel"
 		},
 
@@ -34,7 +34,7 @@ const card: Card = {
 			fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
 			es: "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
 			it: "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
-			pt: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
+			pt: "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
 			de: "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
 		},
 
@@ -45,7 +45,7 @@ const card: Card = {
 			fr: "Contrôle Mental",
 			es: "Jefe Mental",
 			it: "Signore della Mente",
-			pt: "Mind Ruler",
+			pt: "Comando Mental",
 			de: "Gedankenherrscher"
 		},
 
@@ -54,7 +54,7 @@ const card: Card = {
 			fr: "Cette attaque inflige 30 dégâts pour chaque carte dans la main de votre adversaire.",
 			es: "Este ataque hace 30 puntos de daño por cada carta en la mano de tu rival.",
 			it: "Questo attacco infligge 30 danni per ogni carta nella mano del tuo avversario.",
-			pt: "This attack does 30 damage for each card in your opponent's hand.",
+			pt: "Este ataque causa 30 pontos de dano para cada carta na mão do seu oponente.",
 			de: "Diese Attacke fügt für jede Karte auf der Hand deines Gegners 30 Schadenspunkte zu."
 		},
 

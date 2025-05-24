@@ -34,7 +34,7 @@ const card: Card = {
 				en: "Bind",
 				es: "Atadura",
 				it: "Legatutto",
-				pt: "Bind",
+				pt: "Ligação",
 				de: "Klammergriff"
 			},
 			effect: {
@@ -42,7 +42,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
 				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,

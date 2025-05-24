@@ -25,17 +25,17 @@ const card: Card = {
 			fr: "Affuteur de Métal",
 			es: "Afilador de Metales",
 			it: "Affilametallo",
-			pt: "Metal Sharpener",
+			pt: "Amolador de Metal",
 			de: "Metallschleifer"
 		},
 
 		effect: {
-			en: "Attach a Metal Energy card from your discard pile to 1 of your Pokémon.",
-			fr: "Attachez une carte Énergie Metal de votre pile de défausse à l'un de vos Pokémon.",
-			es: "Une 1 carta de Energía Metal de tu pila de descartes a 1 de tus Pokémon.",
-			it: "Assegna a uno dei tuoi Pokémon una carta Energia Metal dalla tua pila degli scarti.",
-			pt: "Attach a Metal Energy card from your discard pile to 1 of your Pokémon.",
-			de: "Lege 1 Metal-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
+			en: "Attach a {M} Energy card from your discard pile to 1 of your Pokémon.",
+			fr: "Attachez une carte Énergie {M} de votre pile de défausse à l'un de vos Pokémon.",
+			es: "Une 1 carta de Energía {M} de tu pila de descartes a 1 de tus Pokémon.",
+			it: "Assegna a uno dei tuoi Pokémon una carta Energia {M} dalla tua pila degli scarti.",
+			pt: "Ligue 1 carta de Energia {M} da sua pilha de descarte a 1 dos seus Pokémon.",
+			de: "Lege 1 {M}-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
 		},
 
 		damage: 30,
@@ -46,7 +46,7 @@ const card: Card = {
 			fr: "Puissant Rayon",
 			es: "Rayo de Luz Poderoso",
 			it: "Raggiopotenza",
-			pt: "Power Beam",
+			pt: "Raio de Poder",
 			de: "Power-Strahl"
 		},
 
