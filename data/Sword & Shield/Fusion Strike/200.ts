@@ -41,19 +41,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Pay Day"
+			en: "Pay Day",
+			fr: "Jackpot",
+			de: "Zahltag",
+			es: "Día de Pago",
+			pt: "Dia de Pagamento",
+			it: "Giornopaga"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Draw a card."
+			en: "Draw a card.",
+			fr: "Piochez une carte.",
+			de: "Ziehe 1 Karte.",
+			es: "Roba 1 carta.",
+			pt: "Compre 1 carta.",
+			it: "Pesca una carta."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure",
+			de: "Biss",
+			es: "Mordisco",
+			pt: "Mordida",
+			it: "Morso"
 		},
 
 		damage: 70

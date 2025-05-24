@@ -31,17 +31,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Soak in Water"
+			en: "Soak in Water",
+			fr: "Barbotage",
+			de: "Einweichen",
+			es: "En Remojo",
+			pt: "Deixar de Molho",
+			it: "Bagnato Fradicio"
 		},
 
 		effect: {
-			en: "Attach a Water Energy card from your hand to this Pokémon."
+			en: "Attach a {W} Energy card from your hand to this Pokémon.",
+			fr: "Attachez une carte Énergie {W} de votre main à ce Pokémon.",
+			de: "Lege 1 {W}-Energiekarte aus deiner Hand an dieses Pokémon an.",
+			es: "Une 1 carta de Energía {W} de tu mano a este Pokémon.",
+			pt: "Ligue 1 carta de Energia {W} da sua mão a este Pokémon.",
+			it: "Assegna a questo Pokémon una carta Energia {W} dalla tua mano."
 		}
 	}, {
 		cost: ["Water"],
 
 		name: {
-			en: "Spinning Attack"
+			en: "Spinning Attack",
+			fr: "Attaque Tournante",
+			de: "Rundumangriff",
+			es: "Ataque Giratorio",
+			pt: "Ataque Giratório",
+			it: "Attacco Rotante"
 		},
 
 		damage: 10

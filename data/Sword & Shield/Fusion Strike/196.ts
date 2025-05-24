@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Melt"
+			en: "Melt",
+			fr: "Dissolution",
+			de: "Schmelzen",
+			es: "Derretir",
+			pt: "Derreter",
+			it: "Liquefazione"
 		},
 
 		damage: 20
@@ -49,13 +54,23 @@ const card: Card = {
 		cost: ["Water", "Psychic"],
 
 		name: {
-			en: "Body Slam"
+			en: "Body Slam",
+			fr: "Plaquage",
+			de: "Bodyslam",
+			es: "Golpe Cuerpo",
+			pt: "Pancada Corporal",
+			it: "Corposcontro"
 		},
 
 		damage: 50,
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
 		}
 	}],
 

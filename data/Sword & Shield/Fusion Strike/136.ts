@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge",
+			de: "Tackle",
+			es: "Placaje",
+			pt: "Investida",
+			it: "Azione"
 		},
 
 		damage: 30
@@ -49,7 +54,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Boulder Crush"
+			en: "Boulder Crush",
+			fr: "Rocher Écrasant",
+			de: "Felsenquetscher",
+			es: "Alud de Rocas",
+			pt: "Rocha Esmagadora",
+			it: "Macignata"
 		},
 
 		damage: 70

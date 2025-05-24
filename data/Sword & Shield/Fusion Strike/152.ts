@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Beat"
+			en: "Beat",
+			fr: "Bataille",
+			de: "Verprügler",
+			es: "Toque",
+			pt: "Pulso",
+			it: "Battuta"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Knuckle Punch"
+			en: "Knuckle Punch",
+			fr: "Coud'Phalange",
+			de: "Knöchelhieb",
+			es: "Puño con Nudillos",
+			pt: "Soco com Punho",
+			it: "Noccapugno"
 		},
 
 		damage: 20

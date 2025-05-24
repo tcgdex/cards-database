@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Steady Firebreathing"
+			en: "Steady Firebreathing",
+			fr: "Crachage de Feu Régulier",
+			de: "Stetiger Feuerhauch",
+			es: "Lanzallamas Continuo",
+			pt: "Hálito de Fogo Constante",
+			it: "Soffiofuoco Mirato"
 		},
 
 		damage: 30
@@ -49,7 +54,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Heat Blast"
+			en: "Heat Blast",
+			fr: "Explosion de Chaleur",
+			de: "Hitzestoß",
+			es: "Explosión de Calor",
+			pt: "Raio de Calor",
+			it: "Caldobomba"
 		},
 
 		damage: 100

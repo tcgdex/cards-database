@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Lunge Out"
+			en: "Lunge Out",
+			fr: "Allonger",
+			de: "Sprungangriff",
+			es: "Arremeter",
+			pt: "Bote",
+			it: "Affondo Lungo"
 		},
 
 		damage: 40
@@ -49,7 +54,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Magnum Punch"
+			en: "Magnum Punch",
+			fr: "Poing Magnum",
+			de: "Magnum-Schlag",
+			es: "Puño Magnum",
+			pt: "Soco Magnum",
+			it: "Superpugno"
 		},
 
 		damage: 90

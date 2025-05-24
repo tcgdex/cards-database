@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Fire Claws"
+			en: "Fire Claws",
+			fr: "Griffes Enflammées",
+			de: "Feuerkrallen",
+			es: "Garras de Fuego",
+			pt: "Garras de Fogo",
+			it: "Artigli Infuocati"
 		},
 
 		damage: 40
@@ -49,13 +54,23 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Heat Tackle"
+			en: "Heat Tackle",
+			fr: "Charge Énergétique",
+			de: "Hitze-Tackle",
+			es: "Placaje Ardiente",
+			pt: "Golpe de Colisão Aquecido",
+			it: "Calorazione"
 		},
 
 		damage: 160,
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself."
+			en: "This Pokémon also does 30 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
+			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			it: "Questo Pokémon infligge anche 30 danni a se stesso."
 		}
 	}],
 

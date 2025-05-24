@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Spit Beam"
+			en: "Spit Beam",
+			fr: "Rayon Cracheur",
+			de: "Spuckstrahl",
+			es: "Rayo Escupitajo",
+			pt: "Raio de Cuspe",
+			it: "Raggiosputo"
 		},
 
 		damage: 20

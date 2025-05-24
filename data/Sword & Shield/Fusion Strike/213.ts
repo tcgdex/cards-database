@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Hopping Shot"
+			en: "Hopping Shot",
+			fr: "Tir Sauteur",
+			de: "Hüpfkick",
+			es: "Disparo Salto",
+			pt: "Disparada Saltitante",
+			it: "Colpo Salterino"
 		},
 
 		damage: 70

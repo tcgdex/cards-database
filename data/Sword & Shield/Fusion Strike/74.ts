@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Water Gun"
+			en: "Water Gun",
+			fr: "Pistolet à O",
+			de: "Aquaknarre",
+			es: "Pistola Agua",
+			pt: "Revólver d'Água",
+			it: "Pistolacqua"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Vise Grip"
+			en: "Vise Grip",
+			fr: "Force Poigne",
+			de: "Klammer",
+			es: "Agarre",
+			pt: "Agarramento Compressor",
+			it: "Presa"
 		},
 
 		damage: 20

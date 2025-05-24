@@ -36,13 +36,23 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "G-Max Fireball"
+			en: "G-Max Fireball",
+			fr: "Pyroball G-Max",
+			de: "Giga-Brandball",
+			es: "Gigaesfera Ígnea",
+			pt: "Bola de Chamas G-Max",
+			it: "Gigafiammopalla"
 		},
 
 		damage: 230,
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned. During your next turn, this Pokémon can't attack."
+			en: "Your opponent's Active Pokémon is now Burned. During your next turn, this Pokémon can't attack.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé. Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt. Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			es: "El Pokémon Activo de tu rival pasa a estar Quemado. Durante tu próximo turno, este Pokémon no puede atacar.",
+			pt: "O Pokémon Ativo do seu oponente agora está Queimado. Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			it: "Il Pokémon attivo del tuo avversario viene bruciato. Durante il tuo prossimo turno, questo Pokémon non può attaccare."
 		}
 	}],
 

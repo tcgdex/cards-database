@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Mud-Slap"
+			en: "Mud-Slap",
+			fr: "Coud'Boue",
+			de: "Lehmschelle",
+			es: "Bofetón Lodo",
+			pt: "Tapa de Lama",
+			it: "Fangosberla"
 		},
 
 		damage: 20
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Playful Kick"
+			en: "Playful Kick",
+			fr: "Coup de Pied de Garnement",
+			de: "Verspielter Kick",
+			es: "Patada Juguetona",
+			pt: "Chute Brincalhão",
+			it: "Calcio Briccone"
 		},
 
 		damage: 30

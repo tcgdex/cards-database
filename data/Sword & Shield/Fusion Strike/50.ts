@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Tongue Slap"
+			en: "Tongue Slap",
+			fr: "Gros Coup de Langue",
+			de: "Zungenschelle",
+			es: "Bofetón Lengua",
+			pt: "Tapa de Língua",
+			it: "Linguasberla"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Wave Splash"
+			en: "Wave Splash",
+			fr: "Grosse Vague",
+			de: "Wellenplatscher",
+			es: "Chapoteo Ondulante",
+			pt: "Onda Borrifante",
+			it: "Schizzi d'Onda"
 		},
 
 		damage: 20

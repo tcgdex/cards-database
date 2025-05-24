@@ -40,7 +40,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Pierce"
+			en: "Pierce",
+			fr: "Transpercement",
+			de: "Durchbohren",
+			es: "Perforar",
+			pt: "Perfurar",
+			it: "Perforare"
 		},
 
 		damage: 50

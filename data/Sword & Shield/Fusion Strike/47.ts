@@ -31,11 +31,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Singe"
+			en: "Singe",
+			fr: "Roussi",
+			de: "Versengung",
+			es: "Quemadura",
+			pt: "Chamuscada",
+			it: "Scottata"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned."
+			en: "Your opponent's Active Pokémon is now Burned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
+			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
+			it: "Il Pokémon attivo del tuo avversario viene bruciato."
 		}
 	}],
 

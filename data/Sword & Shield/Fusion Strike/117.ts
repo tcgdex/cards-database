@@ -30,7 +30,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge",
+			de: "Tackle",
+			es: "Placaje",
+			pt: "Investida",
+			it: "Azione"
 		},
 
 		damage: 30

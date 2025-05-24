@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Rollout"
+			en: "Rollout",
+			fr: "Roulade",
+			de: "Walzer",
+			es: "Rodar",
+			pt: "Rolagem",
+			it: "Rotolamento"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Light Punch"
+			en: "Light Punch",
+			fr: "Poing Léger",
+			de: "Leichter Hieb",
+			es: "Puño Ligero",
+			pt: "Soco de Luz",
+			it: "Pugnetto"
 		},
 
 		damage: 20

@@ -41,19 +41,34 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Split Spiral Punch"
+			en: "Split Spiral Punch",
+			fr: "Coup d'Poing en Demi Spirale",
+			de: "Spiralhieb",
+			es: "Puño en Espiral Cortante",
+			pt: "Soco Espiral Dividido",
+			it: "Spiralpugno Squarciante"
 		},
 
 		damage: 40,
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused."
+			en: "Your opponent's Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+			it: "Il Pokémon attivo del tuo avversario viene confuso."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Strength"
+			en: "Strength",
+			fr: "Force",
+			de: "Stärke",
+			es: "Fuerza",
+			pt: "Força",
+			it: "Forza"
 		},
 
 		damage: 130

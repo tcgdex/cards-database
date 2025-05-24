@@ -41,25 +41,45 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Water Pulse"
+			en: "Water Pulse",
+			fr: "Vibraqua",
+			de: "Aquawelle",
+			es: "Hidropulso",
+			pt: "Pulso d'Água",
+			it: "Idropulsar"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
+			en: "Your opponent's Active Pokémon is now Asleep.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
+			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			it: "Il Pokémon attivo del tuo avversario viene addormentato."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Circus Soaking"
+			en: "Circus Soaking",
+			fr: "Cirque Trempé",
+			de: "Klatschnasser Zirkus",
+			es: "Circo Anegador",
+			pt: "Encharcar o Circo",
+			it: "Inondacirco"
 		},
 
 		damage: "60×",
 
 		effect: {
-			en: "Your opponent reveals their hand. This attack does 60 damage for each Supporter card you find there."
+			en: "Your opponent reveals their hand. This attack does 60 damage for each Supporter card you find there.",
+			fr: "Votre adversaire dévoile sa main. Cette attaque inflige 60 dégâts pour chaque carte Supporter que vous y trouvez.",
+			de: "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Unterstützerkarte, die du dort findest, 60 Schadenspunkte zu.",
+			es: "Tu rival enseña las cartas de su mano. Este ataque hace 60 puntos de daño por cada carta de Partidario que encuentres entre ellas.",
+			pt: "Seu oponente revela a própria mão. Este ataque causa 60 pontos de dano para cada carta de Apoiador que encontrar lá.",
+			it: "Il tuo avversario mostra le carte che ha in mano. Questo attacco infligge 60 danni per ogni carta Aiuto presente tra quelle carte."
 		}
 	}],
 

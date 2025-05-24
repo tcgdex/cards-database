@@ -28,7 +28,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In"
+			en: "Hammer In",
+			fr: "Enfoncement",
+			de: "Einhämmern",
+			es: "Martillear",
+			pt: "Martelada",
+			it: "Martello"
 		},
 
 		damage: 80
@@ -36,7 +41,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Land Crush"
+			en: "Land Crush",
+			fr: "Écras'Terre",
+			de: "Schollenbrecher",
+			es: "Aterrizaje",
+			pt: "Aperto de Terra",
+			it: "Schiacciaterra"
 		},
 
 		damage: 150

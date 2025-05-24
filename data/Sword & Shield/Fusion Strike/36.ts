@@ -31,17 +31,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Fiery Cheering"
+			en: "Fiery Cheering",
+			fr: "Soutien Fougueux",
+			de: "Feuriges Anfeuern",
+			es: "Ovación Ardiente",
+			pt: "Torcida Flamejante",
+			it: "Incitamento Ardente"
 		},
 
 		effect: {
-			en: "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon."
+			en: "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
+			fr: "Attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
+			de: "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an.",
+			es: "Une 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon en Banca.",
+			pt: "Ligue 1 carta de Energia básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
+			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base dalla tua pila degli scarti."
 		}
 	}, {
 		cost: ["Fire"],
 
 		name: {
-			en: "Flare"
+			en: "Flare",
+			fr: "Flamboiement",
+			de: "Flackern",
+			es: "Llama",
+			pt: "Chama",
+			it: "Fiammata"
 		},
 
 		damage: 20

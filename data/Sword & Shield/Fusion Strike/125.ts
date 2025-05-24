@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Vibration"
+			en: "Vibration",
+			fr: "Vibration",
+			de: "Schwingung",
+			es: "Vibración",
+			pt: "Vibração",
+			it: "Vibrazione"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Spooky Shot"
+			en: "Spooky Shot",
+			fr: "Tir Effrayant",
+			de: "Spukschuss",
+			es: "Disparo Embrujado",
+			pt: "Tiro Assustador",
+			it: "Colpomistero"
 		},
 
 		damage: 30

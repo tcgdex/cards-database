@@ -40,17 +40,19 @@ const card: Card = {
 			fr: "Tempête Éclair",
 			es: "Tormenta de Relámpagos",
 			it: "Fulmintempesta",
-			de: "Elektrosturm"
+			de: "Elektrosturm",
+			pt: "Tempestade Relampejante"
 		},
 
 		damage: "30+",
 
 		effect: {
-			en: "This attack does 30 more damage for each Lightning Energy attached to all of your Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Lightning attachée à tous vos Pokémon.",
-			es: "Este ataque hace 30 puntos de daño más por cada Energía Lightning unida a todos tus Pokémon.",
-			it: "Questo attacco infligge 30 danni in più per ogni Energia Lightning assegnata ai tuoi Pokémon.",
-			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Lightning-Energie 30 Schadenspunkte mehr zu."
+			en: "This attack does 30 more damage for each {L} Energy attached to all of your Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie {L} attachée à tous vos Pokémon.",
+			es: "Este ataque hace 30 puntos de daño más por cada Energía {L} unida a todos tus Pokémon.",
+			it: "Questo attacco infligge 30 danni in più per ogni Energia {L} assegnata ai tuoi Pokémon.",
+			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte {L}-Energie 30 Schadenspunkte mehr zu.",
+			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia {L} ligada a todos os seus Pokémon."
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
@@ -60,7 +62,8 @@ const card: Card = {
 			fr: "Foudromax",
 			es: "Maxirrelámpago",
 			it: "Dynafulmine",
-			de: "Dyna-Elektroblitz"
+			de: "Dyna-Elektroblitz",
+			pt: "Corisco Max"
 		},
 
 		damage: 230,
@@ -70,7 +73,8 @@ const card: Card = {
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Foudromax.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Maxirrelámpago.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Dynafulmine.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Dyna-Elektroblitz nicht einsetzen."
+			de: "Während deines nächsten Zuges kann dieses Pokémon Dyna-Elektroblitz nicht einsetzen.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Corisco Max."
 		}
 	}],
 

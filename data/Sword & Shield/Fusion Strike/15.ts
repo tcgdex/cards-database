@@ -31,17 +31,32 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Bail Out"
+			en: "Bail Out",
+			fr: "Renflouage",
+			de: "Freilassen",
+			es: "Sacar de Apuros",
+			pt: "Salvamento",
+			it: "Soccorso"
 		},
 
 		effect: {
-			en: "Put up to 2 Pokémon from your discard pile into your hand."
+			en: "Put up to 2 Pokémon from your discard pile into your hand.",
+			fr: "Ajoutez jusqu'à 2 Pokémon de votre pile de défausse à votre main.",
+			de: "Nimm bis zu 2 Pokémon aus deinem Ablagestapel auf deine Hand.",
+			es: "Pon hasta 2 Pokémon de tu pila de descartes en tu mano.",
+			pt: "Coloque até 2 Pokémon da sua pilha de descarte na sua mão.",
+			it: "Prendi fino a due Pokémon dalla tua pila degli scarti e aggiungili alle carte che hai in mano."
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Solar Beam"
+			en: "Solar Beam",
+			fr: "Lance-Soleil",
+			de: "Solarstrahl",
+			es: "Rayo Solar",
+			pt: "Raio Solar",
+			it: "Solarraggio"
 		},
 
 		damage: 90

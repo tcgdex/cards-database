@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Dark Cutter"
+			en: "Dark Cutter",
+			fr: "Tranch'Obscur",
+			de: "Dunkler Zerschneider",
+			es: "Cuchilla Oscura",
+			pt: "Cortador de Escuridão",
+			it: "Oscurotaglio"
 		},
 
 		damage: 50
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		name: {
-			en: "Single Strike Wings"
+			en: "Single Strike Wings",
+			fr: "Ailes Poing Final",
+			de: "Fokussierter-Angriff-Flügel",
+			es: "Alas Golpe Brusco",
+			pt: "Asas Golpe Decisivo",
+			it: "Ali Colpo Singolo"
 		},
 
 		damage: 110

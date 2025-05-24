@@ -41,19 +41,34 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Return"
+			en: "Return",
+			fr: "Retour",
+			de: "Rückkehr",
+			es: "Retribución",
+			pt: "Retorno",
+			it: "Ritorno"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "You may draw cards until you have 6 cards in your hand."
+			en: "You may draw cards until you have 6 cards in your hand.",
+			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
+			de: "Du kannst so viele Karten ziehen, bis du 6 Karten auf der Hand hast.",
+			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
+			pt: "Você pode comprar cartas até ter 6 cartas na sua mão.",
+			it: "Puoi pescare fino ad avere sei carte in mano."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Whip Smash"
+			en: "Whip Smash",
+			fr: "Frappe Fouet",
+			de: "Peitschenschlag",
+			es: "Golpe Látigo",
+			pt: "Chicote Esmagador",
+			it: "Frustata Devastante"
 		},
 
 		damage: 70

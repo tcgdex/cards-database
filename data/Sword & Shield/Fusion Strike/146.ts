@@ -27,7 +27,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Aura Sphere"
+			en: "Aura Sphere",
+			fr: "Aurasphère",
+			de: "Aurasphäre",
+			es: "Esfera Aural",
+			pt: "Aura Esférica",
+			it: "Forzasfera"
 		},
 
 		damage: 120

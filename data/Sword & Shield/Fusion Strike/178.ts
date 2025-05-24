@@ -44,7 +44,8 @@ const card: Card = {
 			fr: "Morsure",
 			es: "Mordisco",
 			it: "Morso",
-			de: "Biss"
+			de: "Biss",
+			pt: "Mordida"
 		},
 
 		damage: 60
@@ -56,7 +57,8 @@ const card: Card = {
 			fr: "Attaque Arrière",
 			es: "Ataque por la Retaguardia",
 			it: "Retroattacco",
-			de: "Rückenstärkung"
+			de: "Rückenstärkung",
+			pt: "Retaguarda"
 		},
 
 		damage: "100+",
@@ -66,7 +68,8 @@ const card: Card = {
 			fr: "Si vous avez 2 Pokémon de Banc ou moins, cette attaque inflige 140 dégâts supplémentaires.",
 			es: "Si tienes 2 o menos Pokémon en Banca, este ataque hace 140 puntos de daño más.",
 			it: "Se hai due o meno Pokémon in panchina, questo attacco infligge 140 danni in più.",
-			de: "Wenn du 2 oder weniger Pokémon auf deiner Bank hast, fügt diese Attacke 140 Schadenspunkte mehr zu."
+			de: "Wenn du 2 oder weniger Pokémon auf deiner Bank hast, fügt diese Attacke 140 Schadenspunkte mehr zu.",
+			pt: "Se você tiver 2 ou menos Pokémon no seu Banco, este ataque causará 140 pontos de dano a mais."
 		}
 	}],
 

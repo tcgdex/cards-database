@@ -31,13 +31,23 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Pry"
+			en: "Pry",
+			fr: "Fouineur",
+			de: "Herumschnuppern",
+			es: "Fisgonear",
+			pt: "Bisbilhotar",
+			it: "Impiccione"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Your opponent reveals their hand."
+			en: "Your opponent reveals their hand.",
+			fr: "Votre adversaire dévoile sa main.",
+			de: "Dein Gegner zeigt dir seine Handkarten.",
+			es: "Tu rival enseña las cartas de su mano.",
+			pt: "Seu oponente revela a própria mão.",
+			it: "Il tuo avversario mostra le carte che ha in mano."
 		}
 	}],
 

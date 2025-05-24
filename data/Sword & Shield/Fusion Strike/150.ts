@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Beat"
+			en: "Beat",
+			fr: "Bataille",
+			de: "Verprügler",
+			es: "Toque",
+			pt: "Pulso",
+			it: "Battuta"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Rollout"
+			en: "Rollout",
+			fr: "Roulade",
+			de: "Walzer",
+			es: "Rodar",
+			pt: "Rolagem",
+			it: "Rotolamento"
 		},
 
 		damage: 30

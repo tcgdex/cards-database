@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Pound"
+			en: "Pound",
+			fr: "Écras'Face",
+			de: "Klaps",
+			es: "Destructor",
+			pt: "Pancada",
+			it: "Botta"
 		},
 
 		damage: 30
@@ -39,13 +44,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Coordinated One-Two Punch"
+			en: "Coordinated One-Two Punch",
+			fr: "En Deux Punch Coordonnés",
+			de: "Koordinierter Doppelschubser",
+			es: "Puñetazo Uno-Dos Coordinado",
+			pt: "Soco em Dois Tempos Coordenado",
+			it: "Pugni Rapidi Coordinati"
 		},
 
 		damage: "60+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 100 more damage."
+			en: "Flip a coin. If heads, this attack does 100 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts supplémentaires.",
+			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 100 Schadenspunkte mehr zu.",
+			es: "Lanza 1 moneda. Si sale cara, este ataque hace 100 puntos de daño más.",
+			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 100 pontos de dano a mais.",
+			it: "Lancia una moneta. Se esce testa, questo attacco infligge 100 danni in più."
 		}
 	}],
 

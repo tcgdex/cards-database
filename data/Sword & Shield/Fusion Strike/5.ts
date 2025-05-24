@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule",
+			de: "Kopfnuss",
+			es: "Golpe Cabeza",
+			pt: "Cabeçada",
+			it: "Bottintesta"
 		},
 
 		damage: 30
@@ -49,13 +54,23 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Impact Blow"
+			en: "Impact Blow",
+			fr: "Coup à Impact",
+			de: "Einschlag",
+			es: "Golpe Impactante",
+			pt: "Golpe Impactante",
+			it: "Colpoimpatto"
 		},
 
 		damage: 150,
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Impact Blow."
+			en: "During your next turn, this Pokémon can't use Impact Blow.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup à Impact.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Einschlag nicht einsetzen.",
+			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Impactante.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Golpe Impactante.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Colpoimpatto."
 		}
 	}],
 

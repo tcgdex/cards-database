@@ -31,7 +31,8 @@ const card: Card = {
 			fr: "Système Poing de Fusion",
 			es: "Sistema Golpe Fusión",
 			it: "Sistema Colpo Fusione",
-			de: "Fusionsangriff-System"
+			de: "Fusionsangriff-System",
+			pt: "Sistema Golpe Fusão"
 		},
 
 		effect: {
@@ -39,7 +40,8 @@ const card: Card = {
 			fr: "Une fois pendant votre tour, vous pouvez piocher des cartes jusqu'à en avoir autant en main que vous avez de Pokémon Poing de Fusion en jeu.",
 			es: "Una vez durante tu turno, puedes robar cartas hasta que tengas tantas cartas en tu mano como Pokémon Golpe Fusión tengas en juego.",
 			it: "Una sola volta durante il tuo turno, puoi pescare fino ad avere in mano un numero di carte uguale a quello dei tuoi Pokémon Colpo Fusione in gioco.",
-			de: "Einmal während deines Zuges kannst du so lange Karten ziehen, bis du so viele Karten auf deiner Hand hast, wie du Fusionsangriff-Pokémon im Spiel hast."
+			de: "Einmal während deines Zuges kannst du so lange Karten ziehen, bis du so viele Karten auf deiner Hand hast, wie du Fusionsangriff-Pokémon im Spiel hast.",
+			pt: "Uma vez durante o seu turno, você poderá comprar cartas até ter o mesmo número de cartas na sua mão do que os Pokémon Golpe Fusão que você tem em jogo."
 		}
 	}],
 
@@ -51,7 +53,8 @@ const card: Card = {
 			fr: "Techno-Buster",
 			es: "Tecno Shock",
 			it: "Tecnobotto",
-			de: "Techblaster"
+			de: "Techblaster",
+			pt: "Rajada Tecnológica"
 		},
 
 		damage: 210,
@@ -61,7 +64,8 @@ const card: Card = {
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
 		}
 	}],
 

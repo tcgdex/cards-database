@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ram"
+			en: "Ram",
+			fr: "Collision",
+			de: "Ramme",
+			es: "Apisonar",
+			pt: "Aríete",
+			it: "Carica"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Rear Kick"
+			en: "Rear Kick",
+			fr: "Ruade",
+			de: "Rückwärtskick",
+			es: "Patada Trasera",
+			pt: "Chute Traseiro",
+			it: "Retrocalcio"
 		},
 
 		damage: 20

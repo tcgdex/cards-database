@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Dark Cutter"
+			en: "Dark Cutter",
+			fr: "Tranch'Obscur",
+			de: "Dunkler Zerschneider",
+			es: "Cuchilla Oscura",
+			pt: "Cortador de Escuridão",
+			it: "Oscurotaglio"
 		},
 
 		damage: 90

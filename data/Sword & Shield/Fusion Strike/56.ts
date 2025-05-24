@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Wave Splash"
+			en: "Wave Splash",
+			fr: "Grosse Vague",
+			de: "Wellenplatscher",
+			es: "Chapoteo Ondulante",
+			pt: "Onda Borrifante",
+			it: "Schizzi d'Onda"
 		},
 
 		damage: 30
@@ -49,7 +54,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Surf"
+			en: "Surf",
+			fr: "Surf",
+			de: "Surfer",
+			es: "Surf",
+			pt: "Surfar",
+			it: "Surf"
 		},
 
 		damage: 60

@@ -31,13 +31,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Photon Boost"
+			en: "Photon Boost",
+			fr: "Boost à Photons",
+			de: "Photonen-Boost",
+			es: "Impulso Fotónico",
+			pt: "Impulso de Fótons",
+			it: "Carica Fotonica"
 		},
 
 		damage: "80+",
 
 		effect: {
-			en: "If this Pokémon has any Fusion Strike Energy attached, this attack does 80 more damage."
+			en: "If this Pokémon has any Fusion Strike Energy attached, this attack does 80 more damage.",
+			fr: "Si de l'Énergie Poing de Fusion est attachée à ce Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
+			de: "Wenn an dieses Pokémon mindestens 1 Fusionsangriff-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			es: "Si este Pokémon tiene alguna Energía Golpe Fusión unida a él, este ataque hace 80 puntos de daño más.",
+			pt: "Se este Pokémon tiver alguma Energia Golpe Fusão ligada a ele, este ataque causará 80 pontos de dano a mais.",
+			it: "Se questo Pokémon ha delle Energie Colpo Fusione assegnate, questo attacco infligge 80 danni in più."
 		}
 	}],
 

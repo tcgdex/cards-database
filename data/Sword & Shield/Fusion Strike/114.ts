@@ -40,7 +40,8 @@ const card: Card = {
 			fr: "Poing de Fusion Croisé",
 			es: "Golpe Fusión Cruzado",
 			it: "Colpo Fusione Incrociato",
-			de: "Cross-Fusionsangriff"
+			de: "Cross-Fusionsangriff",
+			pt: "Golpe Fusão Cruzado"
 		},
 
 		effect: {
@@ -48,7 +49,8 @@ const card: Card = {
 			fr: "Choisissez l'une des attaques de vos Pokémon Poing de Fusion de Banc et utilisez-la en tant que cette attaque.",
 			es: "Elige 1 de los ataques de tus Pokémon Golpe Fusión en Banca y úsalo para este ataque.",
 			it: "Scegli un attacco di un Pokémon Colpo Fusione nella tua panchina e usalo al posto di questo attacco.",
-			de: "Wähle 1 Attacke der Fusionsangriff-Pokémon auf deiner Bank und setze sie als diese Attacke ein."
+			de: "Wähle 1 Attacke der Fusionsangriff-Pokémon auf deiner Bank und setze sie als diese Attacke ein.",
+			pt: "Escolha 1 dos ataques dos seus Pokémon Golpe Fusão no Banco e use-o como este ataque."
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
@@ -58,7 +60,8 @@ const card: Card = {
 			fr: "Miraclomax",
 			es: "Maximilagro",
 			it: "Dynaprodigio",
-			de: "Dyna-Wunder"
+			de: "Dyna-Wunder",
+			pt: "Milagre Max"
 		},
 
 		damage: 130,
@@ -68,7 +71,8 @@ const card: Card = {
 			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
 			it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
-			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente."
 		}
 	}],
 

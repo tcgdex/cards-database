@@ -28,7 +28,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Flare"
+			en: "Flare",
+			fr: "Flamboiement",
+			de: "Flackern",
+			es: "Llama",
+			pt: "Chama",
+			it: "Fiammata"
 		},
 
 		damage: 50
@@ -36,13 +41,23 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "All-Out Shot"
+			en: "All-Out Shot",
+			fr: "Tir Extrême",
+			de: "Wuchtiger Schuss",
+			es: "Disparo Demoledor",
+			pt: "Disparo Demolidor",
+			it: "Colpo Tutto-per-Tutto"
 		},
 
 		damage: 210,
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack."
+			en: "During your next turn, this Pokémon can't attack.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare."
 		}
 	}],
 

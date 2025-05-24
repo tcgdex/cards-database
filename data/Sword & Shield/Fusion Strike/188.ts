@@ -31,17 +31,32 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Iron Intake"
+			en: "Iron Intake",
+			fr: "Apport en Fer",
+			de: "Eisenaufnahme",
+			es: "Ingesta de Hierro",
+			pt: "Ingestão de Ferro",
+			it: "Fabbisogno di Ferro"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon."
+			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
+			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			es: "Cura 30 puntos de daño a este Pokémon.",
+			pt: "Cure 30 pontos de dano deste Pokémon.",
+			it: "Cura questo Pokémon da 30 danni."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule",
+			de: "Kopfnuss",
+			es: "Golpe Cabeza",
+			pt: "Cabeçada",
+			it: "Bottintesta"
 		},
 
 		damage: 20

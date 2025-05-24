@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Rain Splash"
+			en: "Rain Splash",
+			fr: "Pluie Éclaboussante",
+			de: "Regenplatscher",
+			es: "Golpe de Lluvia",
+			pt: "Chuva Borrifante",
+			it: "Spruzzapioggia"
 		},
 
 		damage: 20

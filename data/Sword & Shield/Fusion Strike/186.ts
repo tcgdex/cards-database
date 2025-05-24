@@ -31,13 +31,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Unlock"
+			en: "Unlock",
+			fr: "Déverrouillage",
+			de: "Aufschließen",
+			es: "Abrir el Cerrojo",
+			pt: "Destrancar",
+			it: "Apertura"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Draw 2 cards."
+			en: "Draw 2 cards.",
+			fr: "Piochez 2 cartes.",
+			de: "Ziehe 2 Karten.",
+			es: "Roba 2 cartas.",
+			pt: "Compre 2 cartas.",
+			it: "Pesca due carte."
 		}
 	}],
 

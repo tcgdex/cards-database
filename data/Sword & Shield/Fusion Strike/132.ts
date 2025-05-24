@@ -41,13 +41,23 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Dig Uppercut"
+			en: "Dig Uppercut",
+			fr: "Poing Excavateur",
+			de: "Schaufelhaken",
+			es: "Gancho Excavador",
+			pt: "Cavar para Cima",
+			it: "Scavalesto"
 		},
 
 		damage: 60,
 
 		effect: {
-			en: "Put a card from your discard pile into your hand."
+			en: "Put a card from your discard pile into your hand.",
+			fr: "Ajoutez à votre main une carte de votre pile de défausse.",
+			de: "Nimm 1 Karte aus deinem Ablagestapel auf deine Hand.",
+			es: "Pon 1 carta de tu pila de descartes en tu mano.",
+			pt: "Coloque 1 carta da sua pilha de descarte na sua mão.",
+			it: "Prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano."
 		}
 	}],
 

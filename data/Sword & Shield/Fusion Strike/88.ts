@@ -41,25 +41,45 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Sonic Boom"
+			en: "Sonic Boom",
+			fr: "Sonic Boom",
+			de: "Ultraschall",
+			es: "Bomba Sónica",
+			pt: "Explosão Sônica",
+			it: "Sonicboom"
 		},
 
 		damage: 40,
 
 		effect: {
-			en: "This attack's damage isn't affected by Weakness or Resistance."
+			en: "This attack's damage isn't affected by Weakness or Resistance.",
+			fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+			de: "Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert.",
+			es: "El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
+			pt: "O dano deste ataque não é afetado por Fraqueza ou Resistência.",
+			it: "I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza."
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Explosion"
+			en: "Explosion",
+			fr: "Explosion",
+			de: "Explosion",
+			es: "Explosión",
+			pt: "Explosão",
+			it: "Esplosione"
 		},
 
 		damage: 120,
 
 		effect: {
-			en: "This Pokémon also does 90 damage to itself."
+			en: "This Pokémon also does 90 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 90 dégâts.",
+			de: "Dieses Pokémon fügt auch sich selbst 90 Schadenspunkte zu.",
+			es: "Este Pokémon también se hace 90 puntos de daño a sí mismo.",
+			pt: "Este Pokémon também causa 90 pontos de dano a si mesmo.",
+			it: "Questo Pokémon infligge anche 90 danni a se stesso."
 		}
 	}],
 

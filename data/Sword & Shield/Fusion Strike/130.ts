@@ -44,7 +44,8 @@ const card: Card = {
 			fr: "Assaut Poing de Fusion",
 			es: "Asalto Golpe Fusión",
 			it: "Assalto Colpo Fusione",
-			de: "Fusionsangriff-Offensive"
+			de: "Fusionsangriff-Offensive",
+			pt: "Ofensiva Golpe Fusão"
 		},
 
 		damage: "30×",
@@ -54,7 +55,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Poing de Fusion en jeu.",
 			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon Golpe Fusión en juego.",
 			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon Colpo Fusione in gioco.",
-			de: "Diese Attacke fügt für jedes deiner Fusionsangriff-Pokémon im Spiel 30 Schadenspunkte zu."
+			de: "Diese Attacke fügt für jedes deiner Fusionsangriff-Pokémon im Spiel 30 Schadenspunkte zu.",
+			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Golpe Fusão em jogo."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
@@ -64,7 +66,8 @@ const card: Card = {
 			fr: "Attaque Rapide",
 			es: "Ataque Fugaz",
 			it: "Attacco Veloce",
-			de: "Tempoangriff"
+			de: "Tempoangriff",
+			pt: "Ataque em Velocidade"
 		},
 
 		damage: 120

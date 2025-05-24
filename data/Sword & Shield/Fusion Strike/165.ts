@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Corkscrew Punch"
+			en: "Corkscrew Punch",
+			fr: "Poing Tire-Bouchon",
+			de: "Korkenzieherhieb",
+			es: "Puño Tirabuzón",
+			pt: "Soco Saca-rolha",
+			it: "Pugno Rotante"
 		},
 
 		damage: 20

@@ -40,7 +40,8 @@ const card: Card = {
 			fr: "Peur Panique",
 			es: "Temor y Pánico",
 			it: "Paura e Ansia",
-			de: "Angst und Bange"
+			de: "Angst und Bange",
+			pt: "Terror e Pânico"
 		},
 
 		damage: "60×",
@@ -50,7 +51,8 @@ const card: Card = {
 			fr: "Cette attaque inflige 60 dégâts pour chacun des Pokémon-V et Pokémon-GX en jeu de votre adversaire.",
 			es: "Este ataque hace 60 puntos de daño por cada uno de los Pokémon V y Pokémon-GX en juego de tu rival.",
 			it: "Questo attacco infligge 60 danni per ogni Pokémon-V e ogni Pokémon-GX in gioco del tuo avversario.",
-			de: "Diese Attacke fügt für jedes Pokémon-V und Pokémon-GX deines Gegners im Spiel 60 Schadenspunkte zu."
+			de: "Diese Attacke fügt für jedes Pokémon-V und Pokémon-GX deines Gegners im Spiel 60 Schadenspunkte zu.",
+			pt: "Este ataque causa 60 pontos de dano para cada Pokémon V e Pokémon-GX do seu oponente em jogo."
 		}
 	}, {
 		cost: ["Darkness", "Darkness", "Darkness"],
@@ -60,7 +62,8 @@ const card: Card = {
 			fr: "Engloutissement G-Max",
 			es: "Gigaengullir",
 			it: "Gigainghiottire",
-			de: "Giga-Runterschlucken"
+			de: "Giga-Runterschlucken",
+			pt: "Engolir por Inteiro G-Max"
 		},
 
 		damage: 250,
@@ -70,7 +73,8 @@ const card: Card = {
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
 		}
 	}],
 

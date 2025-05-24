@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heavy Impact"
+			en: "Heavy Impact",
+			fr: "Gros Impact",
+			de: "Schwerer Einschlag",
+			es: "Impacto Pesado",
+			pt: "Impacto Pesado",
+			it: "Impatto Pesante"
 		},
 
 		damage: 80

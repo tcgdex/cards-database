@@ -45,15 +45,17 @@ const card: Card = {
 			fr: "Bloqueur de Poing Final",
 			es: "Inhibidor de Golpe Brusco",
 			it: "Blocco Colpo Singolo",
-			de: "Fokussierter-Angriff-Störer"
+			de: "Fokussierter-Angriff-Störer",
+			pt: "Bloqueador Golpe Decisivo"
 		},
 
 		effect: {
-			en: "Your opponent's Single Strike Pokémon's attacks cost Colorless more.",
-			fr: "Les attaques des Pokémon Poing Final de votre adversaire coûtent Colorless de plus.",
-			es: "Los ataques de los Pokémon Golpe Brusco de tu rival cuestan Colorless más.",
-			it: "Il costo degli attacchi dei Pokémon Colpo Singolo del tuo avversario aumenta di Colorless.",
-			de: "Die Kosten der Attacken der Fokussierter-Angriff-Pokémon deines Gegners erhöhen sich um Colorless."
+			en: "Your opponent's Single Strike Pokémon's attacks cost {C} more.",
+			fr: "Les attaques des Pokémon Poing Final de votre adversaire coûtent {C} de plus.",
+			es: "Los ataques de los Pokémon Golpe Brusco de tu rival cuestan {C} más.",
+			it: "Il costo degli attacchi dei Pokémon Colpo Singolo del tuo avversario aumenta di {C}.",
+			de: "Die Kosten der Attacken der Fokussierter-Angriff-Pokémon deines Gegners erhöhen sich um {C}.",
+			pt: "Os ataques dos Pokémon Golpe Decisivo do seu oponente custam {C} a mais."
 		}
 	}],
 
@@ -65,7 +67,8 @@ const card: Card = {
 			fr: "Mâchoire Caverneuse",
 			es: "Mordisco Cavernoso",
 			it: "Mandibola Cavernosa",
-			de: "Riesiger Biss"
+			de: "Riesiger Biss",
+			pt: "Mastigada Cavernosa"
 		},
 
 		damage: 80

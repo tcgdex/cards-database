@@ -31,23 +31,43 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Energize"
+			en: "Energize",
+			fr: "Énergisant",
+			de: "Energiezufuhr",
+			es: "Vigorizar",
+			pt: "Energizar",
+			it: "Energizza"
 		},
 
 		effect: {
-			en: "Attach a Lightning Energy card from your discard pile to this Pokémon."
+			en: "Attach a {L} Energy card from your discard pile to this Pokémon.",
+			fr: "Attachez une carte Énergie {L} de votre pile de défausse à ce Pokémon.",
+			de: "Lege 1 {L}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an.",
+			es: "Une 1 carta de Energía {L} de tu pila de descartes a este Pokémon.",
+			pt: "Ligue 1 carta de Energia {L} da sua pilha de descarte a este Pokémon.",
+			it: "Assegna a questo Pokémon una carta Energia {L} dalla tua pila degli scarti."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Surprise Attack"
+			en: "Surprise Attack",
+			fr: "Attaque Surprise",
+			de: "Überraschungsangriff",
+			es: "Ataque Sorpresa",
+			pt: "Ataque Surpresa",
+			it: "Attacco a Sorpresa"
 		},
 
 		damage: 50,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto."
 		}
 	}],
 

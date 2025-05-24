@@ -30,7 +30,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Scratch"
+			en: "Scratch",
+			fr: "Griffe",
+			de: "Kratzer",
+			es: "Arañazo",
+			pt: "Arranhão",
+			it: "Graffio"
 		},
 
 		damage: 20
@@ -38,13 +43,23 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Wild Whip"
+			en: "Wild Whip",
+			fr: "Fouet Sauvage",
+			de: "Wilde Peitsche",
+			es: "Látigo Salvaje",
+			pt: "Chicote Selvagem",
+			it: "Frustata Selvaggia"
 		},
 
 		damage: "40+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			en: "Flip a coin. If heads, this attack does 30 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu.",
+			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più."
 		}
 	}],
 
