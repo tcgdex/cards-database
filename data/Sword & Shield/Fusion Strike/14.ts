@@ -45,17 +45,19 @@ const card: Card = {
 			fr: "Tornade Ninja",
 			es: "Tornado Ninja",
 			it: "Tornado Ninja",
-			de: "Ninjatornado"
+			de: "Ninjatornado",
+			pt: "Tornado Ninja"
 		},
 
 		damage: 120,
 
 		effect: {
-			en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack can be used for Grass.",
-			fr: "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque peut être utilisée pour Grass.",
-			es: "Si este Pokémon se ha movido de tu Banca al Puesto Activo en este turno, este ataque se puede usar por 1 Energía Grass.",
-			it: "Se questo Pokémon si è spostato dalla tua panchina in posizione attiva nel turno in corso, il costo di questo attacco è Grass.",
-			de: "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, kann diese Attacke für Grass eingesetzt werden."
+			en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack can be used for {G}.",
+			fr: "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque peut être utilisée pour {G}.",
+			es: "Si este Pokémon se ha movido de tu Banca al Puesto Activo en este turno, este ataque se puede usar por 1 Energía {G}.",
+			it: "Se questo Pokémon si è spostato dalla tua panchina in posizione attiva nel turno in corso, il costo di questo attacco è {G}.",
+			de: "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, kann diese Attacke für {G} eingesetzt werden.",
+			pt: "Se este Pokémon foi movido do seu Banco para o Campo Ativo durante este turno, este ataque poderá ser usado por {G}."
 		}
 	}],
 

@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Gnaw"
+			en: "Gnaw",
+			fr: "Ronge",
+			de: "Nagen",
+			es: "Roer",
+			pt: "Roída",
+			it: "Rosicchiamento"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Electro Ball"
+			en: "Electro Ball",
+			fr: "Boule Élek",
+			de: "Elektroball",
+			es: "Bola Voltio",
+			pt: "Bola Elétrica",
+			it: "Energisfera"
 		},
 
 		damage: 20

@@ -41,11 +41,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Byway of the Nine-Tailed Fox"
+			en: "Byway of the Nine-Tailed Fox",
+			fr: "Sentier du Renard à Neuf Queues",
+			de: "Weg des neunschweifigen Fuchses",
+			es: "Senda del Zorro de Nueve Colas",
+			pt: "Atalho da Raposa de Nove Caudas",
+			it: "Scorciatoia della Volpe a Nove Code"
 		},
 
 		effect: {
-			en: "The Retreat Cost of each of your Pokémon that has any Fire Energy attached is ColorlessColorless less."
+			en: "The Retreat Cost of each of your Pokémon that has any {R} Energy attached is {C}{C} less.",
+			fr: "Le Coût de Retraite de chacun de vos Pokémon auquel de l'Énergie {R} est attachée est diminué de {C}{C}.",
+			de: "Die Rückzugskosten jedes deiner Pokémon, an das mindestens 1 {R}-Energie angelegt ist, verringern sich um {C}{C}.",
+			es: "El Coste de Retirada de cada uno de tus Pokémon que tenga alguna Energía {R} unida a él es de {C}{C} menos.",
+			pt: "O custo de Recuo de cada um dos seus Pokémon que tiver alguma Energia {R} ligada a ele é {C}{C} a menos.",
+			it: "Il costo di ritirata di ciascuno dei tuoi Pokémon che ha delle Energie {R} assegnate è ridotto di {C}{C}."
 		}
 	}],
 
@@ -53,7 +63,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Flame Tail"
+			en: "Flame Tail",
+			fr: "Queue de Flammes",
+			de: "Flammenschweif",
+			es: "Cola de Fuego",
+			pt: "Cauda de Chamas",
+			it: "Codafiamma"
 		},
 
 		damage: 60

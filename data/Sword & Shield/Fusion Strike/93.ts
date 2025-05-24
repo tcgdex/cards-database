@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Thunder Claws"
+			en: "Thunder Claws",
+			fr: "Griffes Tonnerre",
+			de: "Donnerkrallen",
+			es: "Garras Trueno",
+			pt: "Garras Trovejantes",
+			it: "Artigli Tonanti"
 		},
 
 		damage: 90

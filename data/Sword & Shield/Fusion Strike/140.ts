@@ -31,17 +31,32 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Poison Sting"
+			en: "Poison Sting",
+			fr: "Dard-Venin",
+			de: "Giftstachel",
+			es: "Picotazo Veneno",
+			pt: "Ferrão Venenoso",
+			it: "Velenospina"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			en: "Your opponent's Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			it: "Il Pokémon attivo del tuo avversario viene avvelenato."
 		}
 	}, {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Pierce"
+			en: "Pierce",
+			fr: "Transpercement",
+			de: "Durchbohren",
+			es: "Perforar",
+			pt: "Perfurar",
+			it: "Perforare"
 		},
 
 		damage: 30

@@ -41,17 +41,32 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Dive and Rescue"
+			en: "Dive and Rescue",
+			fr: "Plongée Rescousse",
+			de: "Tauchen und Retten",
+			es: "Zambullida y Rescate",
+			pt: "Mergulhar e Resgatar",
+			it: "Tuffo e Salvataggio"
 		},
 
 		effect: {
-			en: "Put up to 3 in any combination of Pokémon and Supporter cards from your discard pile into your hand."
+			en: "Put up to 3 in any combination of Pokémon and Supporter cards from your discard pile into your hand.",
+			fr: "Ajoutez à votre main une combinaison d'un maximum de 3 cartes Pokémon et Supporter de votre pile de défausse.",
+			de: "Nimm eine beliebige Kombination aus bis zu 3 Pokémon und Unterstützerkarten aus deinem Ablagestapel auf deine Hand.",
+			es: "Pon hasta 3 cartas de Pokémon y de Partidario, en cualquier combinación, de tu pila de descartes en tu mano.",
+			pt: "Coloque até 3 cartas de Pokémon e de Apoiador da sua pilha de descarte na sua mão em qualquer combinação.",
+			it: "Prendi fino a tre Pokémon e carte Aiuto in qualsiasi combinazione dalla tua pila degli scarti e aggiungili alle carte che hai in mano."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Surf"
+			en: "Surf",
+			fr: "Surf",
+			de: "Surfer",
+			es: "Surf",
+			pt: "Surfar",
+			it: "Surf"
 		},
 
 		damage: 90

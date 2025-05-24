@@ -41,17 +41,32 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Snipe Shot"
+			en: "Snipe Shot",
+			fr: "Tir de Précision",
+			de: "Präzisionsschuss",
+			es: "Disparo Certero",
+			pt: "Tiro Certeiro",
+			it: "Tiromirato"
 		},
 
 		effect: {
-			en: "This attack does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			en: "This attack does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige 50 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			de: "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			es: "Este ataque hace 50 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			pt: "Este ataque causa 50 pontos de dano a 1 dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+			it: "Questo attacco infligge 50 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina."
 		}
 	}, {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Crabhammer"
+			en: "Crabhammer",
+			fr: "Pince-Masse",
+			de: "Krabbhammer",
+			es: "Martillazo",
+			pt: "Martelo Caranguejo",
+			it: "Martellata"
 		},
 
 		damage: 110

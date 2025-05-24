@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Bursting Bubble"
+			en: "Bursting Bubble",
+			fr: "Bulle Éclatante",
+			de: "Platzende Blase",
+			es: "Burbuja Explosiva",
+			pt: "Estouro de Bolha",
+			it: "Scoppiobolla"
 		},
 
 		damage: 10

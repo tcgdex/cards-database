@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Rear Kick"
+			en: "Rear Kick",
+			fr: "Ruade",
+			de: "Rückwärtskick",
+			es: "Patada Trasera",
+			pt: "Chute Traseiro",
+			it: "Retrocalcio"
 		},
 
 		damage: 30

@@ -30,7 +30,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Invade"
+			en: "Invade",
+			fr: "Envahissement",
+			de: "Einmarschieren",
+			es: "Invadir",
+			pt: "Invadir",
+			it: "Scorreria"
 		},
 
 		damage: 30

@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule",
+			de: "Kopfnuss",
+			es: "Golpe Cabeza",
+			pt: "Cabeçada",
+			it: "Bottintesta"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure",
+			de: "Biss",
+			es: "Mordisco",
+			pt: "Mordida",
+			it: "Morso"
 		},
 
 		damage: 30

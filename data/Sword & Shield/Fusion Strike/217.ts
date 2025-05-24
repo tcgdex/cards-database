@@ -27,25 +27,45 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Body Slam"
+			en: "Body Slam",
+			fr: "Plaquage",
+			de: "Bodyslam",
+			es: "Golpe Cuerpo",
+			pt: "Pancada Corporal",
+			it: "Corposcontro"
 		},
 
 		damage: 40,
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Nom-Nom-Nom Incisors"
+			en: "Nom-Nom-Nom Incisors",
+			fr: "Triple Incisive",
+			de: "Mjam-Mjam-Mjam-Nager",
+			es: "Incisivos Ñam-Ñam-Ñam",
+			pt: "Incisivos Nham-nham-nham",
+			it: "Incisivi Masticanti"
 		},
 
 		damage: 120,
 
 		effect: {
-			en: "Draw 3 cards."
+			en: "Draw 3 cards.",
+			fr: "Piochez 3 cartes.",
+			de: "Ziehe 3 Karten.",
+			es: "Roba 3 cartas.",
+			pt: "Compre 3 cartas.",
+			it: "Pesca tre carte."
 		}
 	}],
 

@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge",
+			de: "Tackle",
+			es: "Placaje",
+			pt: "Investida",
+			it: "Azione"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Seed Bomb"
+			en: "Seed Bomb",
+			fr: "Canon Graine",
+			de: "Samenbomben",
+			es: "Bomba Germen",
+			pt: "Bomba de Sementes",
+			it: "Semebomba"
 		},
 
 		damage: 20

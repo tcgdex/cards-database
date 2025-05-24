@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Peck"
+			en: "Peck",
+			fr: "Picpic",
+			de: "Pikser",
+			es: "Picotazo",
+			pt: "Bicada",
+			it: "Beccata"
 		},
 
 		damage: 10

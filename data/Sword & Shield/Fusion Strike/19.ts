@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Bug Bite"
+			en: "Bug Bite",
+			fr: "Piqûre",
+			de: "Käferbiss",
+			es: "Picadura",
+			pt: "Picada",
+			it: "Coleomorso"
 		},
 
 		damage: 20

@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Sharp Fang"
+			en: "Sharp Fang",
+			fr: "Croc Aiguisé",
+			de: "Scharfe Fänge",
+			es: "Colmillo Afilado",
+			pt: "Presa Afiada",
+			it: "Zannaffilata"
 		},
 
 		damage: 70

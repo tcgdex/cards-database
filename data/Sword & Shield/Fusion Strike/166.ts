@@ -41,17 +41,32 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Severe Poison"
+			en: "Severe Poison",
+			fr: "Poison Violent",
+			de: "Pures Gift",
+			es: "Veneno Grave",
+			pt: "Veneno Forte",
+			it: "Maloveleno"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 4 damage counters on that Pokémon instead of 1."
+			en: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 4 damage counters on that Pokémon instead of 1.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 4 marqueurs de dégâts sur ce Pokémon-là au lieu d'un.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege beim Pokémon-Check 4 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon.",
+			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el Chequeo Pokémon, pon 4 contadores de daño en ese Pokémon en vez de 1.",
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o Checape Pokémon, coloque 4 contadores de dano ao invés de 1 naquele Pokémon.",
+			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Metti quattro segnalini danno invece di uno su quel Pokémon durante il controllo Pokémon."
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Magnum Punch"
+			en: "Magnum Punch",
+			fr: "Poing Magnum",
+			de: "Magnum-Schlag",
+			es: "Puño Magnum",
+			pt: "Soco Magnum",
+			it: "Superpugno"
 		},
 
 		damage: 90

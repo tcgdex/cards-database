@@ -31,17 +31,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Surprise Short"
+			en: "Surprise Short",
+			fr: "Court-Circuit Surprise",
+			de: "Überraschender Kurzschluss",
+			es: "Cortocircuito Sorpresa",
+			pt: "Curto-circuito Surpresa",
+			it: "Cortocircuito a Sorpresa"
 		},
 
 		effect: {
-			en: "Discard all Pokémon Tools from all of your opponent's Pokémon."
+			en: "Discard all Pokémon Tools from all of your opponent's Pokémon.",
+			fr: "Défaussez tous les Outils Pokémon de tous les Pokémon de votre adversaire.",
+			de: "Lege alle Pokémon-Ausrüstungen von allen Pokémon deines Gegners auf den Ablagestapel.",
+			es: "Descarta todas las Herramientas Pokémon de todos los Pokémon de tu rival.",
+			pt: "Descarte todas as Ferramentas Pokémon de todos os Pokémon do seu oponente.",
+			it: "Scarta tutte le carte Oggetto Pokémon da tutti i Pokémon del tuo avversario."
 		}
 	}, {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Static Shock"
+			en: "Static Shock",
+			fr: "Choc Statique",
+			de: "Statischer Schock",
+			es: "Impacto Estático",
+			pt: "Choque de Estática",
+			it: "Shock Statico"
 		},
 
 		damage: 30

@@ -28,7 +28,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tail Whap"
+			en: "Tail Whap",
+			fr: "Queue Battoir",
+			de: "Schweifvertrimmer",
+			es: "Coletón",
+			pt: "Surra de Cauda",
+			it: "Codabotta"
 		},
 
 		damage: 20
@@ -36,7 +41,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Thunderbolt"
+			en: "Thunderbolt",
+			fr: "Tonnerre",
+			de: "Donnerblitz",
+			es: "Rayo",
+			pt: "Relâmpago",
+			it: "Fulmine"
 		},
 
 		damage: 100

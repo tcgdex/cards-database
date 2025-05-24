@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Supernatural Flames"
+			en: "Supernatural Flames",
+			fr: "Flammes Surnaturelles",
+			de: "Übernatürliche Flammen",
+			es: "Llamas Sobrenaturales",
+			pt: "Chamas Sobrenaturais",
+			it: "Fiamme Soprannaturali"
 		},
 
 		damage: 70

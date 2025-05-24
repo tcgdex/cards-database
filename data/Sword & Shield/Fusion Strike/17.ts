@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Gentle Slap"
+			en: "Gentle Slap",
+			fr: "Gifle Douce",
+			de: "Sanfter Hieb",
+			es: "Bofetada Gentil",
+			pt: "Tapinha",
+			it: "Schiaffetto"
 		},
 
 		damage: 40
@@ -49,7 +54,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Wood Hammer"
+			en: "Wood Hammer",
+			fr: "Martobois",
+			de: "Holzhammer",
+			es: "Mazazo",
+			pt: "Martelo de Madeira",
+			it: "Mazzuolegno"
 		},
 
 		damage: 90

@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In"
+			en: "Hammer In",
+			fr: "Enfoncement",
+			de: "Einhämmern",
+			es: "Martillear",
+			pt: "Martelada",
+			it: "Martello"
 		},
 
 		damage: 80
@@ -49,13 +54,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Take Down"
+			en: "Take Down",
+			fr: "Bélier",
+			de: "Bodycheck",
+			es: "Derribo",
+			pt: "Desmantelar",
+			it: "Riduttore"
 		},
 
 		damage: 150,
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself."
+			en: "This Pokémon also does 30 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
+			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			it: "Questo Pokémon infligge anche 30 danni a se stesso."
 		}
 	}],
 

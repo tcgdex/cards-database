@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Gnaw"
+			en: "Gnaw",
+			fr: "Ronge",
+			de: "Nagen",
+			es: "Roer",
+			pt: "Roída",
+			it: "Rosicchiamento"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Ember"
+			en: "Ember",
+			fr: "Flammèche",
+			de: "Glut",
+			es: "Ascuas",
+			pt: "Brasa",
+			it: "Braciere"
 		},
 
 		damage: 20

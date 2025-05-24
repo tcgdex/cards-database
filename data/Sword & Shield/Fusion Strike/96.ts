@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Lightning Ball"
+			en: "Lightning Ball",
+			fr: "Boule Éclair",
+			de: "Kugelblitz",
+			es: "Bola Relámpago",
+			pt: "Bola de Raios",
+			it: "Fulminpalla"
 		},
 
 		damage: 20
@@ -49,13 +54,23 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Thunder"
+			en: "Thunder",
+			fr: "Fatal-Foudre",
+			de: "Donner",
+			es: "Trueno",
+			pt: "Trovão",
+			it: "Tuono"
 		},
 
 		damage: 80,
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself."
+			en: "This Pokémon also does 20 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
+			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu.",
+			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			it: "Questo Pokémon infligge anche 20 danni a se stesso."
 		}
 	}],
 

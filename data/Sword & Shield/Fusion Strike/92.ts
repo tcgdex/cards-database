@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Electric Claws"
+			en: "Electric Claws",
+			fr: "Griffes Électriques",
+			de: "Elektrokrallen",
+			es: "Garras Eléctricas",
+			pt: "Garras Elétricas",
+			it: "Artigli Elettrici"
 		},
 
 		damage: 50

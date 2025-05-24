@@ -41,7 +41,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Vise Grip"
+			en: "Vise Grip",
+			fr: "Force Poigne",
+			de: "Klammer",
+			es: "Agarre",
+			pt: "Agarramento Compressor",
+			it: "Presa"
 		},
 
 		damage: 30
@@ -49,7 +54,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Head Bolt"
+			en: "Head Bolt",
+			fr: "Éclair Frontal",
+			de: "Kopf-Blitz",
+			es: "Rayo de Cabeza",
+			pt: "Raio de Cabeça",
+			it: "Zuccalampo"
 		},
 
 		damage: 60

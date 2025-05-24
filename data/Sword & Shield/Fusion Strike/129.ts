@@ -40,7 +40,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Spooky Shot"
+			en: "Spooky Shot",
+			fr: "Tir Effrayant",
+			de: "Spukschuss",
+			es: "Disparo Embrujado",
+			pt: "Tiro Assustador",
+			it: "Colpomistero"
 		},
 
 		damage: 20
@@ -48,13 +53,23 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "U-turn"
+			en: "U-turn",
+			fr: "Demi-Tour",
+			de: "Kehrtwende",
+			es: "Ida y Vuelta",
+			pt: "Fazer Retorno",
+			it: "Retromarcia"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon."
+			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
+			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			it: "Scambia questo Pokémon con uno della tua panchina."
 		}
 	}],
 

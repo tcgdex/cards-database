@@ -31,17 +31,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect"
+			en: "Collect",
+			fr: "Collecte",
+			de: "Sammeln",
+			es: "Coleccionar",
+			pt: "Coleta",
+			it: "Tassa"
 		},
 
 		effect: {
-			en: "Draw a card."
+			en: "Draw a card.",
+			fr: "Piochez une carte.",
+			de: "Ziehe 1 Karte.",
+			es: "Roba 1 carta.",
+			pt: "Compre 1 carta.",
+			it: "Pesca una carta."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Spike Sting"
+			en: "Spike Sting",
+			fr: "Pic Piquant",
+			de: "Stachelstich",
+			es: "Picotazo Púas",
+			pt: "Ferroada de Espinhos",
+			it: "Aculeopuntura"
 		},
 
 		damage: 30

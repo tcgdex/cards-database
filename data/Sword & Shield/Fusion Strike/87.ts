@@ -31,13 +31,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Single Shot Blast"
+			en: "Single Shot Blast",
+			fr: "Explosion Unique",
+			de: "Einzelschussballern",
+			es: "Disparo Único Explosivo",
+			pt: "Explosão Única",
+			it: "Tiro a Scoppio Singolo"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto."
 		}
 	}],
 

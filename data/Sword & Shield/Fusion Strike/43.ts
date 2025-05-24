@@ -28,13 +28,23 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Blaze Kick"
+			en: "Blaze Kick",
+			fr: "Pied Brûleur",
+			de: "Feuerfeger",
+			es: "Patada Ígnea",
+			pt: "Chute Labareda",
+			it: "Calciardente"
 		},
 
 		damage: 210,
 
 		effect: {
-			en: "Discard 2 Fire Energy from this Pokémon."
+			en: "Discard 2 {R} Energy from this Pokémon.",
+			fr: "Défaussez 2 Énergies {R} de ce Pokémon.",
+			de: "Lege 2 {R}-Energien von diesem Pokémon auf deinen Ablagestapel.",
+			es: "Descarta 2 Energías {R} de este Pokémon.",
+			pt: "Descarte 2 Energias {R} deste Pokémon.",
+			it: "Scarta due Energie {R} da questo Pokémon."
 		}
 	}],
 

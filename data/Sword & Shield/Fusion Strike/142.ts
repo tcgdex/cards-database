@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Lunge Out"
+			en: "Lunge Out",
+			fr: "Allonger",
+			de: "Sprungangriff",
+			es: "Arremeter",
+			pt: "Bote",
+			it: "Affondo Lungo"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In"
+			en: "Hammer In",
+			fr: "Enfoncement",
+			de: "Einhämmern",
+			es: "Martillear",
+			pt: "Martelada",
+			it: "Martello"
 		},
 
 		damage: 60

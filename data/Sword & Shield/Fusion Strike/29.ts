@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Smash Kick"
+			en: "Smash Kick",
+			fr: "Coud'Pattes",
+			de: "Schmetterkick",
+			es: "Patada Destrucción",
+			pt: "Chute Poderoso",
+			it: "Calcio Esplosivo"
 		},
 
 		damage: 10

@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge",
+			de: "Tackle",
+			es: "Placaje",
+			pt: "Investida",
+			it: "Azione"
 		},
 
 		damage: 10
@@ -39,7 +44,12 @@ const card: Card = {
 		cost: ["Water", "Psychic"],
 
 		name: {
-			en: "Melt"
+			en: "Melt",
+			fr: "Dissolution",
+			de: "Schmelzen",
+			es: "Derretir",
+			pt: "Derreter",
+			it: "Liquefazione"
 		},
 
 		damage: 20

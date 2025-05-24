@@ -31,13 +31,23 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Grass Munch"
+			en: "Grass Munch",
+			fr: "Plantivore",
+			de: "Grasmampfer",
+			es: "Mascaplantas",
+			pt: "Papa-grama",
+			it: "Sgranocchiaerba"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Discard a Grass Energy from your opponent's Active Pokémon."
+			en: "Discard a {G} Energy from your opponent's Active Pokémon.",
+			fr: "Défaussez une Énergie {G} du Pokémon Actif de votre adversaire.",
+			de: "Lege 1 {G}-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			es: "Descarta 1 Energía {G} del Pokémon Activo de tu rival.",
+			pt: "Descarte 1 Energia {G} do Pokémon Ativo do seu oponente.",
+			it: "Scarta un'Energia {G} dal Pokémon attivo del tuo avversario."
 		}
 	}],
 

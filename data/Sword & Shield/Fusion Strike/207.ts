@@ -31,11 +31,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Mysterious Nest"
+			en: "Mysterious Nest",
+			fr: "Nid Mystérieux",
+			de: "Geheimnisvolles Nest",
+			es: "Nido Misterioso",
+			pt: "Ninho Misterioso",
+			it: "Nido Enigmatico"
 		},
 
 		effect: {
-			en: "Colorless → Pokémon in play (both yours and your opponent's) have no Weakness :"
+			en: "{C} Pokémon in play (both yours and your opponent's) have no Weakness.",
+			fr: "Les Pokémon {C} en jeu (les vôtres et ceux de votre adversaire) n'ont pas de Faiblesse.",
+			de: "{C}-Pokémon im Spiel (deine und die deines Gegners) haben keine Schwäche.",
+			es: "Los Pokémon {C} en juego (tanto tuyos como de tu rival) no tienen Debilidad.",
+			pt: "Pokémon {C} em jogo (seus e do seu oponente) não têm Fraqueza.",
+			it: "I Pokémon {C} in gioco, sia tuoi che del tuo avversario, non hanno debolezza."
 		}
 	}],
 
@@ -43,7 +53,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rollout"
+			en: "Rollout",
+			fr: "Roulade",
+			de: "Walzer",
+			es: "Rodar",
+			pt: "Rolagem",
+			it: "Rotolamento"
 		},
 
 		damage: 30

@@ -45,7 +45,8 @@ const card: Card = {
 			fr: "Inhibiteur de Mille Poings",
 			es: "Cancelador de Golpe Fluido",
 			it: "Annientamento Colpo Rapido",
-			de: "Fließender-Angriff-Abwehr"
+			de: "Fließender-Angriff-Abwehr",
+			pt: "Cancelador Golpe Fluido"
 		},
 
 		effect: {
@@ -53,7 +54,8 @@ const card: Card = {
 			fr: "Les Pokémon Mille Poings en jeu de votre adversaire n'ont pas de talent.",
 			es: "Los Pokémon Golpe Fluido en juego de tu rival no tienen ninguna habilidad.",
 			it: "I Pokémon Colpo Rapido in gioco del tuo avversario non hanno abilità.",
-			de: "Die Fließender-Angriff-Pokémon deines Gegners im Spiel haben keine Fähigkeiten."
+			de: "Die Fließender-Angriff-Pokémon deines Gegners im Spiel haben keine Fähigkeiten.",
+			pt: "Os Pokémon Golpe Fluido em jogo do seu oponente não têm Habilidades."
 		}
 	}],
 
@@ -65,7 +67,8 @@ const card: Card = {
 			fr: "Vampibaiser",
 			es: "Beso Drenaje",
 			it: "Assorbibacio",
-			de: "Diebeskuss"
+			de: "Diebeskuss",
+			pt: "Beijo Drenante"
 		},
 
 		damage: 50,
@@ -75,7 +78,8 @@ const card: Card = {
 			fr: "Soignez 30 dégâts de ce Pokémon.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			pt: "Cure 30 pontos de dano deste Pokémon."
 		}
 	}],
 

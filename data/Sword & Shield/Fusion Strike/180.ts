@@ -31,17 +31,32 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Growl"
+			en: "Growl",
+			fr: "Rugissement",
+			de: "Heuler",
+			es: "Gruñido",
+			pt: "Rosnadura",
+			it: "Ruggito"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance)."
+			en: "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance).",
+			fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 20 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
+			de: "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden).",
+			es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor hacen 20 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
+			pt: "Durante o próximo turno do seu oponente, os ataques do Pokémon Defensor causarão 20 pontos de dano a menos (antes de aplicar Fraqueza e Resistência).",
+			it: "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore infliggono 20 danni in meno, prima di aver applicato debolezza e resistenza."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Slash"
+			en: "Slash",
+			fr: "Tranche",
+			de: "Schlitzer",
+			es: "Cuchillada",
+			pt: "Talho",
+			it: "Lacerazione"
 		},
 
 		damage: 20

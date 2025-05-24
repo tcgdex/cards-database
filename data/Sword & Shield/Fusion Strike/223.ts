@@ -41,19 +41,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Bounce"
+			en: "Bounce",
+			fr: "Rebond",
+			de: "Sprungfeder",
+			es: "Bote",
+			pt: "Ricochete",
+			it: "Rimbalzo"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "You may switch this Pokémon with 1 of your Benched Pokémon."
+			en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
+			fr: "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
+			de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen.",
+			es: "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
+			pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+			it: "Puoi scambiare questo Pokémon con uno della tua panchina."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rolling Tackle"
+			en: "Rolling Tackle",
+			fr: "Roulé-Boulé",
+			de: "Rolltackle",
+			es: "Placaje Giro",
+			pt: "Golpe de Colisão Rolante",
+			it: "Rollazione"
 		},
 
 		damage: 70

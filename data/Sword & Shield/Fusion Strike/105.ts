@@ -30,7 +30,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Ram"
+			en: "Ram",
+			fr: "Collision",
+			de: "Ramme",
+			es: "Apisonar",
+			pt: "Aríete",
+			it: "Carica"
 		},
 
 		damage: 20

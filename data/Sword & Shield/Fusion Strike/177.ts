@@ -40,7 +40,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure",
+			de: "Biss",
+			es: "Mordisco",
+			pt: "Mordida",
+			it: "Morso"
 		},
 
 		damage: 20
@@ -48,13 +53,23 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Crushing Blow"
+			en: "Crushing Blow",
+			fr: "Coup Écrasant",
+			de: "Brechschlag",
+			es: "Demoler",
+			pt: "Golpe Esmagador",
+			it: "Assalto Sbaragliante"
 		},
 
 		damage: 40,
 
 		effect: {
-			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			pt: "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
+			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario."
 		}
 	}],
 

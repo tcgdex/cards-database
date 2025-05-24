@@ -30,7 +30,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule",
+			de: "Kopfnuss",
+			es: "Golpe Cabeza",
+			pt: "Cabeçada",
+			it: "Bottintesta"
 		},
 
 		damage: 30
@@ -38,13 +43,23 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Cliff Edge Formation"
+			en: "Cliff Edge Formation",
+			fr: "Escadron Ultime",
+			de: "Klippenrandformation",
+			es: "Formación Peligrosa",
+			pt: "Formação Penhasco",
+			it: "Schieramento Dirupo"
 		},
 
 		damage: "60+",
 
 		effect: {
-			en: "If your opponent has exactly 1 Prize card remaining, this attack does 160 more damage."
+			en: "If your opponent has exactly 1 Prize card remaining, this attack does 160 more damage.",
+			fr: "S'il reste exactement une carte Récompense à votre adversaire, cette attaque inflige 160 dégâts supplémentaires.",
+			de: "Wenn dein Gegner genau 1 verbleibende Preiskarte hat, fügt diese Attacke 160 Schadenspunkte mehr zu.",
+			es: "Si a tu rival le queda exactamente 1 carta de Premio, este ataque hace 160 puntos de daño más.",
+			pt: "Se o seu oponente tiver exatamente 1 carta de Prêmio restante, este ataque causará 160 pontos de dano a mais.",
+			it: "Se il tuo avversario ha esattamente una carta Premio rimanente, questo attacco infligge 160 danni in più."
 		}
 	}],
 

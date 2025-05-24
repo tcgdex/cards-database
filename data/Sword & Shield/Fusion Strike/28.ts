@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Live Coal"
+			en: "Live Coal",
+			fr: "Charbon Mutant",
+			de: "Glühende Kohlen",
+			es: "Carbón Activado",
+			pt: "Carvão Vivo",
+			it: "Carboni Ardenti"
 		},
 
 		damage: 30

@@ -31,13 +31,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Knock Away"
+			en: "Knock Away",
+			fr: "Asticotage",
+			de: "Zurückschlagen",
+			es: "Derribar",
+			pt: "Jogar Longe",
+			it: "Scaraventa"
 		},
 
 		damage: "20+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 40 more damage."
+			en: "Flip a coin. If heads, this attack does 40 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu.",
+			es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
+			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 40 pontos de dano a mais.",
+			it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più."
 		}
 	}],
 

@@ -41,13 +41,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Sunny Wind"
+			en: "Sunny Wind",
+			fr: "Vent Ensoleillé",
+			de: "Sonnige Brise",
+			es: "Viento Soleado",
+			pt: "Vento Ensolarado",
+			it: "Vento Solare"
 		},
 
 		damage: 50,
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon."
+			en: "Heal 20 damage from this Pokémon.",
+			fr: "Soignez 20 dégâts de ce Pokémon.",
+			de: "Heile 20 Schadenspunkte bei diesem Pokémon.",
+			es: "Cura 20 puntos de daño a este Pokémon.",
+			pt: "Cure 20 pontos de dano deste Pokémon.",
+			it: "Cura questo Pokémon da 20 danni."
 		}
 	}],
 

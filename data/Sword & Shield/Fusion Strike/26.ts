@@ -27,7 +27,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule",
+			de: "Kopfnuss",
+			es: "Golpe Cabeza",
+			pt: "Cabeçada",
+			it: "Bottintesta"
 		},
 
 		damage: 30
@@ -35,13 +40,23 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Sweet Impact"
+			en: "Sweet Impact",
+			fr: "Impact Douceur",
+			de: "Süßer Einschlag",
+			es: "Dulce Impacto",
+			pt: "Impacto Doce",
+			it: "Impatto Dolce"
 		},
 
 		damage: 100,
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon."
+			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
+			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			es: "Cura 30 puntos de daño a este Pokémon.",
+			pt: "Cure 30 pontos de dano deste Pokémon.",
+			it: "Cura questo Pokémon da 30 danni."
 		}
 	}],
 

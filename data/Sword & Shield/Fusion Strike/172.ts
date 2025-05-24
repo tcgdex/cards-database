@@ -31,7 +31,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Razor Wing"
+			en: "Razor Wing",
+			fr: "Aile Tranchante",
+			de: "Rasierflügel",
+			es: "Ala Cortante",
+			pt: "Asa Cortante",
+			it: "Ala Tagliente"
 		},
 
 		damage: 10
@@ -39,13 +44,23 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Air Slash"
+			en: "Air Slash",
+			fr: "Lame d'Air",
+			de: "Luftschnitt",
+			es: "Tajo Aéreo",
+			pt: "Golpe de Ar",
+			it: "Eterelama"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Discard an Energy from this Pokémon."
+			en: "Discard an Energy from this Pokémon.",
+			fr: "Défaussez une Énergie de ce Pokémon.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			es: "Descarta 1 Energía de este Pokémon.",
+			pt: "Descarte 1 Energia deste Pokémon.",
+			it: "Scarta un'Energia da questo Pokémon."
 		}
 	}],
 
