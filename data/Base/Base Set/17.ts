@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Beedrill",
+		pt: "Beedrill",
 		fr: "Dardargnan",
 		de: "Bibor"
 	},
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kakuna",
+		pt: "Kakuna",
 	},
 
 	stage: "Stage2",
@@ -38,11 +40,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Twineedle",
+				pt: "Twineedle",
 				fr: "Double-Dard",
 				de: "Duonadel"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				pt: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 30 Schadenspunkte zu."
 			},
@@ -57,11 +61,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Sting",
+				pt: "Poison Sting",
 				fr: "Dard-Venin",
 				de: "Giftstachel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				pt: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon vergiftet."
 			},

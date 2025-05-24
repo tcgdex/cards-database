@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Farfetch'd",
+		pt: "Farfetch'd",
 		fr: "Canarticho",
 		de: "Porenta"
 	},
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Leek Slap",
+				pt: "Leek Slap",
 				fr: "Coup d'oignon",
 				de: "Lauchschlag"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again.)",
+				pt: "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again.)",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Quel que soit le résultat, vous ne pouvez plus utiliser cette attaque aussi longtemps que Canarticho reste en jeu (même renvoyer Canarticho sur le Banc ne vous permet pas de l'utiliser à nouveau).",
 				de: "Wir 1 Münze. Bei Zahl hat dieser Angriff keine Auswirkung. In jedem Fall kannst du diesen Angriff solange nicht mehr einsetzen, wie Porenta im Spiel bleibt (sogar wenn Porenta auf de Bank gesetzt wird, kan dieser Angriff nicht mehr eingesetzt werden.)"
 			},
@@ -51,6 +54,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pot Smash",
+				pt: "Pot Smash",
 				fr: "Coup de casserole",
 				de: "Topfschmetterer"
 			},

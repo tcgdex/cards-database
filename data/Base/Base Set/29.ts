@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Haunter",
+		pt: "Haunter",
 		fr: "Spectrum",
 		de: "Alpollo"
 	},
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gastly",
+		pt: "Gastly",
 	},
 
 	stage: "Stage1",
@@ -36,11 +38,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnosis",
+				pt: "Hipnose",
 				fr: "Hypnose",
 				de: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				pt: "O Pokémon Defensor agora está Dormindo.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
 				de: "Das verteidigende Pokémon schläft jetzt."
 			},
@@ -53,11 +57,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dream Eater",
+				pt: "Dream Eater",
 				fr: "Dévorêve",
 				de: "Traumfresser"
 			},
 			effect: {
 				en: "You can't this attack unless the Defending Pokémon is Asleep.",
+				pt: "You can't this attack unless the Defending Pokémon is Asleep.",
 				fr: "Vous ne pouvez utiliser cette attaque que si le Pokémon Défenseur est Endormi.",
 				de: "Du kannst diesen Angriff nur einsetzen, wenn das verteidigende Pokémon schlafend ist."
 			},

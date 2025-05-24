@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Growlithe",
+		pt: "Growlithe",
 		fr: "Caninos",
 		de: "Fukano"
 	},
@@ -33,6 +34,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				pt: "Flare",
 				fr: "Intimidation",
 				de: "Flackern"
 			},

@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Koffing",
+		pt: "Koffing",
 		fr: "Smogo",
 		de: "Smogon"
 	},
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Foul Gas",
+				pt: "Foul Gas",
 				fr: "Gaz infect",
 				de: "Fäulnisgas"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, it is now Confused.",
+				pt: "Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, it is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné ; si c'est pile, il est maintenant Confus.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet; bei 'Zahl' verwirrt."
 			},
