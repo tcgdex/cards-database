@@ -7,7 +7,7 @@ const card: Card = {
 		en: "Galarian Ponyta",
 		es: "Ponyta de Galar",
 		it: "Ponyta di Galar",
-		pt: "Galarian Ponyta",
+		pt: "Ponyta de Galar",
 		de: "Galar-Ponita"
 	},
 
@@ -33,7 +33,7 @@ const card: Card = {
 				en: "Heal Pulse",
 				es: "Pulso Cura",
 				it: "Ondasana",
-				pt: "Heal Pulse",
+				pt: "Pulso da Cura",
 				de: "Heilwoge"
 			},
 			effect: {
@@ -41,7 +41,7 @@ const card: Card = {
 				en: "Heal 30 damage from 1 of your Pokémon.",
 				es: "Cura 30 puntos de daño a 1 de tus Pokémon.",
 				it: "Cura uno dei tuoi Pokémon da 30 danni.",
-				pt: "Heal 30 damage from 1 of your Pokémon.",
+				pt: "Cure 30 pontos de dano de 1 dos seus Pokémon.",
 				de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
 			},
 
@@ -56,7 +56,7 @@ const card: Card = {
 				en: "Flop",
 				es: "Vuelta",
 				it: "Tonfo",
-				pt: "Flop",
+				pt: "Baque",
 				de: "Plumps"
 			},
 

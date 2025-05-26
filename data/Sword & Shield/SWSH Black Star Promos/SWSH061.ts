@@ -9,7 +9,8 @@ const card: Card = {
 		en: "Pikachu V",
 		es: "Pikachu V",
 		it: "Pikachu V",
-		de: "Pikachu V"
+		de: "Pikachu V",
+		pt: "Pikachu V"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -24,15 +25,17 @@ const card: Card = {
 			en: "Charge",
 			es: "Carga",
 			it: "Sottocarica",
-			de: "Ladevorgang"
+			de: "Ladevorgang",
+			pt: "Carga"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie Lightning, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
-			en: "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
-			es: "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			de: "Durchsuche dein Deck nach bis zu 2 Lightning-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie {L}, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+			en: "Search your deck for up to 2 {L} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+			es: "Busca en tu baraja hasta 2 cartas de Energía {L} y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
+			it: "Cerca nel tuo mazzo fino a due carte Energia {L} e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			de: "Durchsuche dein Deck nach bis zu 2 {L}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck.",
+			pt: "Procure por até 2 cartas de Energia {L} no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho."
 		},
 
 		cost: ["Lightning"]
@@ -42,7 +45,8 @@ const card: Card = {
 			en: "Thunderbolt",
 			es: "Rayo",
 			it: "Fulmine",
-			de: "Donnerblitz"
+			de: "Donnerblitz",
+			pt: "Relâmpago"
 		},
 
 		effect: {
@@ -50,7 +54,8 @@ const card: Card = {
 			en: "Discard all Energy from this Pokémon.",
 			es: "Descarta todas las Energías de este Pokémon.",
 			it: "Scarta tutte le Energie da questo Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+			pt: "Descarte todas as Energias deste Pokémon."
 		},
 
 		damage: 200,

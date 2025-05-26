@@ -25,17 +25,17 @@ const card: Card = {
 			fr: "Festin Forestier",
 			es: "Festín Forestal",
 			it: "Festa del Bosco",
-			pt: "Forest Feast",
+			pt: "Banquete Florestal",
 			de: "Waldschmaus"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 Basic Grass Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 Pokémon Grass de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 2 Pokémon Grass Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a due Pokémon Base Grass e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Search your deck for up to 2 Basic Grass Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			de: "Durchsuche dein Deck nach bis zu 2 Basis-Grass-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+			en: "Search your deck for up to 2 Basic {G} Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 Pokémon {G} de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			es: "Busca en tu baraja hasta 2 Pokémon {G} Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			it: "Cerca nel tuo mazzo fino a due Pokémon Base {G} e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			pt: "Procure por até 2 Pokémon {G} Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach bis zu 2 Basis-{G}-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 		},
 
 		cost: ["Grass"]
@@ -45,7 +45,7 @@ const card: Card = {
 			fr: "Martobois",
 			es: "Mazazo",
 			it: "Mazzuolegno",
-			pt: "Wood Hammer",
+			pt: "Martelo de Madeira",
 			de: "Holzhammer"
 		},
 
@@ -54,7 +54,7 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "This Pokémon also does 30 damage to itself.",
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
 			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 

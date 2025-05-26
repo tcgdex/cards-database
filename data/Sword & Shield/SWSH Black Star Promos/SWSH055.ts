@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Onde Troublante",
 			es: "Pulso Desconcertante",
 			it: "Confondimpulso",
-			pt: "Confounding Pulse",
+			pt: "Pulso Caótico",
 			de: "Verwirrender Impuls"
 		},
 
@@ -34,7 +34,7 @@ const card: Card = {
 			fr: "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif. Le nouveau Pokémon Actif est maintenant Confus.",
 			es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo. El nuevo Pokémon Activo pasa a estar Confundido.",
 			it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo. Il nuovo Pokémon attivo viene confuso.",
-			pt: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Confused.",
+			pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a). O novo Pokémon Ativo agora está Confuso.",
 			de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Das neue Aktive Pokémon ist jetzt verwirrt."
 		},
 
@@ -45,7 +45,7 @@ const card: Card = {
 			fr: "Écrasement Mental",
 			es: "Aplastamiento Mental",
 			it: "Sbriciolamente",
-			pt: "Mental Crush",
+			pt: "Esmagamento Mental",
 			de: "Mentaler Zermalmer"
 		},
 
@@ -54,7 +54,7 @@ const card: Card = {
 			fr: "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 90 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival está Confundido, este ataque hace 90 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è confuso, questo attacco infligge 90 danni in più.",
-			pt: "If your opponent's Active Pokémon is Confused, this attack does 90 more damage.",
+			pt: "Se o Pokémon Ativo do seu oponente estiver Confuso, este ataque causará 90 pontos de dano a mais.",
 			de: "Wenn das Aktive Pokémon deines Gegners verwirrt ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 

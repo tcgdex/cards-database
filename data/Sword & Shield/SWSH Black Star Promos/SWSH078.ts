@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Bombarder",
 			es: "Pasada de Ataque",
 			it: "Mitragliare",
-			pt: "Strafe",
+			pt: "Bombardear",
 			de: "Beharken"
 		},
 
@@ -34,7 +34,7 @@ const card: Card = {
 			fr: "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
 			es: "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
 			it: "Puoi scambiare questo Pokémon con uno della tua panchina.",
-			pt: "You may switch this Pokémon with 1 of your Benched Pokémon.",
+			pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
 			de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 		},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			fr: "Onde Mystérieuse",
 			es: "Onda Misteriosa",
 			it: "Onda Enigmatica",
-			pt: "Mysterious Wave",
+			pt: "Onda Oculta",
 			de: "Geheimnisvolle Welle"
 		},
 
@@ -55,7 +55,7 @@ const card: Card = {
 			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 			es: "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			pt: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
 			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu."
 		},
 

@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Tornade",
 			es: "Tornado",
 			it: "Raffica",
-			pt: "Gust",
+			pt: "Lufada de Vento",
 			de: "Windstoß"
 		},
 
@@ -37,7 +37,7 @@ const card: Card = {
 			fr: "Pression Éolienne",
 			es: "Presión Eólica",
 			it: "Pressione Ventosa",
-			pt: "Wind Pressure",
+			pt: "Pressão do Vento",
 			de: "Winddruck"
 		},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			fr: "Si votre adversaire a 5 cartes ou moins dans sa main, cette attaque ne fait rien.",
 			es: "Si tu rival tiene 5 o menos cartas en su mano, este ataque no hace nada.",
 			it: "Se il tuo avversario ha cinque o meno carte in mano, questo attacco non ha effetto.",
-			pt: "If your opponent has 5 or fewer cards in their hand, this attack does nothing.",
+			pt: "Se o seu oponente tiver 5 ou menos cartas na própria mão, este ataque não fará nada.",
 			de: "Wenn dein Gegner 5 oder weniger Karten auf seiner Hand hat, hat diese Attacke keine Auswirkungen."
 		},
 

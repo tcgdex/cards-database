@@ -13,7 +13,12 @@ const card: Card = {
 	stage: "Basic",
 
 	name: {
-		en: "Galarian Slowpoke"
+		en: "Galarian Slowpoke",
+		fr: "Ramoloss de Galar",
+		de: "Galar-Flegmon",
+		es: "Slowpoke de Galar",
+		pt: "Slowpoke de Galar",
+		it: "Slowpoke di Galar"
 	},
 
 	rarity: "None",
@@ -25,17 +30,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Everyone Laze Around"
+			en: "Everyone Laze Around",
+			fr: "Flânerie Générale",
+			de: "Faules Rumhängen",
+			es: "Todos a Vaguear",
+			pt: "Preguiça Coletiva",
+			it: "Dolce Far Nulla"
 		},
 
 		effect: {
-			en: "Heal 10 damage from each of your Pokémon."
+			en: "Heal 10 damage from each of your Pokémon.",
+			fr: "Soignez 10 dégâts de chacun de vos Pokémon.",
+			de: "Heile 10 Schadenspunkte bei jedem deiner Pokémon.",
+			es: "Cura 10 puntos de daño a cada uno de tus Pokémon.",
+			pt: "Cure 10 pontos de dano de cada um dos seus Pokémon.",
+			it: "Cura ciascuno dei tuoi Pokémon da 10 danni."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Tail Whap"
+			en: "Tail Whap",
+			fr: "Queue Battoir",
+			de: "Schweifvertrimmer",
+			es: "Coletón",
+			pt: "Surra de Cauda",
+			it: "Codabotta"
 		},
 
 		damage: 30

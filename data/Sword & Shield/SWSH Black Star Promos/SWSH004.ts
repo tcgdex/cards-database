@@ -33,15 +33,15 @@ const card: Card = {
 				en: "Pay Day",
 				es: "Día de Pago",
 				it: "Giornopaga",
-				pt: "Pay Day",
+				pt: "Dia de Pagamento",
 				de: "Zahltag"
 			},
 			effect: {
 				fr: "Piochez une carte.",
 				en: "Draw a card.",
-				es: "Roba 1 carta.",
+				es: "Roba una carta.",
 				it: "Pesca una carta.",
-				pt: "Draw a card.",
+				pt: "Compre um card.",
 				de: "Ziehe 1 Karte."
 			},
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 				en: "Slashing Claw",
 				es: "Garra Cuchillazo",
 				it: "Artigli Laceranti",
-				pt: "Slashing Claw",
+				pt: "Garra Cortadora",
 				de: "Schlitzende Klaue"
 			},
 

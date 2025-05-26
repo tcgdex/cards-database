@@ -25,7 +25,7 @@ const card: Card = {
 			fr: "Queue de Fer",
 			es: "Cola Férrea",
 			it: "Codacciaio",
-			pt: "Iron Tail",
+			pt: "Cauda de Ferro",
 			de: "Eisenschweif"
 		},
 
@@ -34,7 +34,7 @@ const card: Card = {
 			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face.",
 			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
 			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Flip a coin until you get tails. This attack does 30 damage for each heads.",
+			pt: "Jogue 1 moeda até sair coroa. Este ataque causa 30 pontos de dano para cada cara.",
 			de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			fr: "Boule Élek",
 			es: "Bola Voltio",
 			it: "Energisfera",
-			pt: "Electro Ball",
+			pt: "Bola Elétrica",
 			de: "Elektroball"
 		},
 

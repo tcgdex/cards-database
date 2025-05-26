@@ -9,7 +9,8 @@ const card: Card = {
 		fr: "Pyroli",
 		es: "Flareon",
 		pt: "Flareon",
-		de: "Flamara"
+		de: "Flamara",
+		it: "Flareon"
 	},
 
 	illustrator: "You Iribi",
@@ -20,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli",
+		es: "Eevee",
+		pt: "Eevee",
+		it: "Eevee"
 	},
 
 	attacks: [{
@@ -28,16 +33,18 @@ const card: Card = {
 			en: "Singe",
 			fr: "Roussi",
 			es: "Quemadura",
-			pt: "Singe",
-			de: "Versengung"
+			pt: "Chamuscada",
+			de: "Versengung",
+			it: "Scottata"
 		},
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Burned.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			pt: "Your opponent's Active Pokémon is now Burned.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
+			it: "Il Pokémon attivo del tuo avversario viene bruciato."
 		},
 
 		cost: ["Fire"]
@@ -46,16 +53,18 @@ const card: Card = {
 			en: "Kindle",
 			fr: "Enflammer",
 			es: "Encendido",
-			pt: "Kindle",
-			de: "Anzünden"
+			pt: "Inflamar",
+			de: "Anzünden",
+			it: "Infiammare"
 		},
 
 		effect: {
 			en: "Discard an Energy from this Pokémon. If you do, discard an Energy from your opponent's Active Pokémon.",
 			fr: "Défaussez une Énergie de ce Pokémon. Dans ce cas, défaussez une Énergie du Pokémon Actif de votre adversaire.",
 			es: "Descarta 1 Energía de este Pokémon. Si lo haces, descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Discard an Energy from this Pokémon. If you do, discard an Energy from your opponent's Active Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel. Wenn du das machst, lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			pt: "Descarte 1 Energia deste Pokémon. Se fizer isto, descarte 1 Energia do Pokémon Ativo do seu oponente.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel. Wenn du das machst, lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			it: "Scarta un'Energia da questo Pokémon. Se lo fai, scarta un'Energia dal Pokémon attivo del tuo avversario."
 		},
 
 		damage: 120,

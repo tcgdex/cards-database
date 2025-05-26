@@ -27,7 +27,7 @@ const card: Card = {
 			fr: "Bouclier Solide",
 			es: "Escudo Robusto",
 			it: "Scudo Robusto",
-			pt: "Sturdy Shield",
+			pt: "Escudo Robusto",
 			de: "Robuster Schild"
 		},
 
@@ -36,7 +36,7 @@ const card: Card = {
 			fr: "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 			es: "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 			it: "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+			pt: "Este Pokémon recebe 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
 			de: "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
@@ -47,7 +47,7 @@ const card: Card = {
 			fr: "Frappe de Tête",
 			es: "Cabecear",
 			it: "Scuotitesta",
-			pt: "Headbang",
+			pt: "Baque de Cabeça",
 			de: "Headbangen"
 		},
 

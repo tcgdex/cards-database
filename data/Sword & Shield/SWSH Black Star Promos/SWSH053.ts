@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
-		fr: "Machopeur"
+		fr: "Machopeur",
+		de: "Maschock",
+		es: "Machoke",
+		pt: "Machoke",
+		it: "Machoke"
 	},
 
 	attacks: [{
@@ -30,17 +34,17 @@ const card: Card = {
 			fr: "Revanche Macho",
 			es: "Machovenganza",
 			it: "Vendetta Bellimbusto",
-			pt: "Macho Revenge",
+			pt: "Machocante",
 			de: "Macho-Vergeltung"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each Fighting Pokémon in your discard pile.",
-			fr: "Cette attaque inflige 20 dégâts pour chaque Pokémon Fighting dans votre pile de défausse.",
-			es: "Este ataque hace 20 puntos de daño por cada Pokémon Fighting en tu pila de descartes.",
-			it: "Questo attacco infligge 20 danni per ogni Pokémon Fighting nella tua pila degli scarti.",
-			pt: "This attack does 20 damage for each Fighting Pokémon in your discard pile.",
-			de: "Diese Attacke fügt für jedes Fighting-Pokémon in deinem Ablagestapel 20 Schadenspunkte zu."
+			en: "This attack does 20 damage for each {F} Pokémon in your discard pile.",
+			fr: "Cette attaque inflige 20 dégâts pour chaque Pokémon {F} dans votre pile de défausse.",
+			es: "Este ataque hace 20 puntos de daño por cada Pokémon {F} en tu pila de descartes.",
+			it: "Questo attacco infligge 20 danni per ogni Pokémon {F} nella tua pila degli scarti.",
+			pt: "Este ataque causa 20 pontos de dano para cada Pokémon {F} na sua pilha de descarte.",
+			de: "Diese Attacke fügt für jedes {F}-Pokémon in deinem Ablagestapel 20 Schadenspunkte zu."
 		},
 
 		damage: "20×",
@@ -51,7 +55,7 @@ const card: Card = {
 			fr: "Poing Dynamite",
 			es: "Puño Dinamita",
 			it: "Pugno Dinamite",
-			pt: "Dynamite Punch",
+			pt: "Soco Dinamite",
 			de: "Dynamitstoß"
 		},
 
@@ -60,7 +64,7 @@ const card: Card = {
 			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
 			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
-			pt: "This Pokémon also does 50 damage to itself.",
+			pt: "Este Pokémon também causa 50 pontos de dano a si mesmo.",
 			de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
 		},
 

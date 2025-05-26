@@ -13,7 +13,12 @@ const card: Card = {
 	stage: "Basic",
 
 	name: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli",
+		de: "Evoli",
+		es: "Eevee",
+		pt: "Eevee",
+		it: "Eevee"
 	},
 
 	rarity: "None",
@@ -25,17 +30,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Be Prepared"
+			en: "Be Prepared",
+			fr: "Prêt à Tout",
+			de: "Vorbereitungen treffen",
+			es: "Prepárate",
+			pt: "Planejamento",
+			it: "Pronti a Tutto"
 		},
 
 		effect: {
-			en: "Attach a basic Energy card from your hand to this Pokémon."
+			en: "Attach a basic Energy card from your hand to this Pokémon.",
+			fr: "Attachez une carte Énergie de base de votre main à ce Pokémon.",
+			de: "Lege 1 Basis-Energiekarte aus deiner Hand an dieses Pokémon an.",
+			es: "Une 1 carta de Energía Básica de tu mano a este Pokémon.",
+			pt: "Ligue 1 carta de Energia básica da sua mão a este Pokémon.",
+			it: "Assegna a questo Pokémon una carta Energia base dalla tua mano."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure",
+			de: "Biss",
+			es: "Mordisco",
+			pt: "Mordida",
+			it: "Morso"
 		},
 
 		damage: 30
