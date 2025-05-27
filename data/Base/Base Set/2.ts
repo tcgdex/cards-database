@@ -76,7 +76,9 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon brutal armé de canons hydrauliques. Ses puissants jets d'eau sont dévastateurs."
-	}
+	},
+
+	retreat: "3"
 }
 
 export default card
