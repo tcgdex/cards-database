@@ -17,7 +17,7 @@ const set: Set = {
 	serie: serie,
 
 	cardCount: {
-		official: 999 // ???
+		official: 69 // ???
 	},
 
 	// boosters: {
