@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It has a brave and trustworthy nature. It fearlessly<br />stands up to bigger and stronger foes."
+		en: "It has a brave and trustworthy nature. It fearlessly\nstands up to bigger and stronger foes."
 	},
 
 	stage: "Basic",

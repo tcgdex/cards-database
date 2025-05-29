@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "A Pokémon weapon developed for a specific<br />mission, it went berserk during an experiment,<br />so it was cryogenically frozen."
+		en: "A Pokémon weapon developed for a specific\nmission, it went berserk during an experiment,\nso it was cryogenically frozen."
 	},
 
 	stage: "Basic",

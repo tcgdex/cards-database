@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "This Pokémon battles by throwing hard berries.<br />It won't obey a Trainer who throws Poké Balls<br />without skill."
+		en: "This Pokémon battles by throwing hard berries.\nIt won't obey a Trainer who throws Poké Balls\nwithout skill."
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
-			en: "If <a class=\"localized-string__link\" href=\"/pokemon/passimian/\">Passimian</a> is on your Bench, this attack does 40 more damage."
+			en: "If Passimian is on your Bench, this attack does 40 more damage."
 		}
 	}],
 

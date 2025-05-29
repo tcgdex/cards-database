@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon scrapes its spikes across rocks,<br />and then uses the tips of its feelers to absorb<br />the nutrients it finds within the stone."
+		en: "This Pokémon scrapes its spikes across rocks,\nand then uses the tips of its feelers to absorb\nthe nutrients it finds within the stone."
 	},
 
 	stage: "Stage1",

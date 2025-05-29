@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It appeared from an Ultra Wormhole. Each one<br />appears to be made up of many life-forms<br />stacked one on top of each other."
+		en: "It appeared from an Ultra Wormhole. Each one\nappears to be made up of many life-forms\nstacked one on top of each other."
 	},
 
 	stage: "Basic",

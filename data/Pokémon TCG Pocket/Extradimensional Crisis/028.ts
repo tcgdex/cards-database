@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It never skips its daily yoga training. It heightens<br />its inner strength through meditation."
+		en: "It never skips its daily yoga training. It heightens\nits inner strength through meditation."
 	},
 
 	stage: "Basic",

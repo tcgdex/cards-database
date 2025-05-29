@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Although it's alien to this world and a danger here, it's apparently<br />a common organism in the world where it normally lives."
+		en: "Although it's alien to this world and a danger here, it's apparently\na common organism in the world where it normally lives."
 	},
 
 	stage: "Basic",

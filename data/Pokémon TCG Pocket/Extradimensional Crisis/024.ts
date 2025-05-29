@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "With a voice like a human child's, it cries out to<br />lure adults deep into the forest, getting them lost<br />among the trees."
+		en: "With a voice like a human child's, it cries out to\nlure adults deep into the forest, getting them lost\namong the trees."
 	},
 
 	stage: "Basic",

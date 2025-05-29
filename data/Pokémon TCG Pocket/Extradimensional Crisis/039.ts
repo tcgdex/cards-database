@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It submerges itself in sand and moves as if<br />swimming. This wise behavior keeps its enemies<br />from finding it and maintains its temperature."
+		en: "It submerges itself in sand and moves as if\nswimming. This wise behavior keeps its enemies\nfrom finding it and maintains its temperature."
 	},
 
 	stage: "Basic",

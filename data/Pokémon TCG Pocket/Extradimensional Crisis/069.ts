@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "You can use this card only if your opponent has gotten at least 1 point.<br /><br />Choose 1 of your Ultra Beasts. Attach 2 random Energy from your discard pile to that Pokémon."
+		en: "You can use this card only if your opponent has gotten at least 1 point.\n\nChoose 1 of your Ultra Beasts. Attach 2 random Energy from your discard pile to that Pokémon."
 	},
 
 	trainerType: "Supporter"

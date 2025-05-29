@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It's accustomed to luxury because it<br />used to live with Alolan royalty. As a<br />result, it's very picky about food."
+		en: "It's accustomed to luxury because it\nused to live with Alolan royalty. As a\nresult, it's very picky about food."
 	},
 
 	stage: "Basic",

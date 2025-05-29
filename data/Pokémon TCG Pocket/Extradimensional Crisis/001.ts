@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "The leaves on its head grow right back even if<br />they fall out. These bitter leaves refresh those<br />who eat them."
+		en: "The leaves on its head grow right back even if\nthey fall out. These bitter leaves refresh those\nwho eat them."
 	},
 
 	stage: "Basic",

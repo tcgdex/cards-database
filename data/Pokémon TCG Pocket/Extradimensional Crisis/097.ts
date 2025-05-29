@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When hunting, it skims the surface of water<br />at high speed to pick off unwary prey such<br />as Magikarp."
+		en: "When hunting, it skims the surface of water\nat high speed to pick off unwary prey such\nas Magikarp."
 	},
 
 	stage: "Stage2",
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. <em>(Your opponent chooses the new Active Pokémon.)</em>"
+			en: "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
 		}
 	}],
 

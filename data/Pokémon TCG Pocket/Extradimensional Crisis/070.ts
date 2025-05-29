@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It sends its feathers, which are as sharp<br />as blades, flying in attack. Its legs are strong,<br />so its kicks are also formidable."
+		en: "It sends its feathers, which are as sharp\nas blades, flying in attack. Its legs are strong,\nso its kicks are also formidable."
 	},
 
 	stage: "Basic",

@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This is its form once it has awakened and<br />evolved. Freed from its heavy mask, its speed is<br />greatly increased."
+		en: "This is its form once it has awakened and\nevolved. Freed from its heavy mask, its speed is\ngreatly increased."
 	},
 
 	stage: "Stage1",

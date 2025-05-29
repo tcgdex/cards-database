@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This narcissistic Pokémon is a clean freak. If you<br />don't groom it diligently, it may stop listening to you."
+		en: "This narcissistic Pokémon is a clean freak. If you\ndon't groom it diligently, it may stop listening to you."
 	},
 
 	stage: "Stage1",

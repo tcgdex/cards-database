@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Protected by thin membranes, their eyes can see<br />even in the dead of night. They live in groups of<br />a few individuals."
+		en: "Protected by thin membranes, their eyes can see\neven in the dead of night. They live in groups of\na few individuals."
 	},
 
 	stage: "Stage1",

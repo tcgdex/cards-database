@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "If it loses its shovel, it will stick something<br />else—like a branch—in its head to make<br />do until it finds another shovel."
+		en: "If it loses its shovel, it will stick something\nelse—like a branch—in its head to make\ndo until it finds another shovel."
 	},
 
 	stage: "Basic",

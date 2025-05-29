@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It won't attack while it's alone—not even if it<br />spots prey. Instead, it waits for other Carvanha to<br />join it, and then the Pokémon attack as a group."
+		en: "It won't attack while it's alone—not even if it\nspots prey. Instead, it waits for other Carvanha to\njoin it, and then the Pokémon attack as a group."
 	},
 
 	stage: "Basic",

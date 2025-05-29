@@ -25,7 +25,7 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Take a <span class=\"energy-text energy-text--type-lightning\"></span> Energy from your Energy Zone and attach it to this Pokémon."
+			en: "Take a {L} Energy from your Energy Zone and attach it to this Pokémon."
 		}
 	}, {
 		name: {

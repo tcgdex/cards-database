@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "After clamping down with its powerful jaws, it<br />twists its body around to rip its prey in half."
+		en: "After clamping down with its powerful jaws, it\ntwists its body around to rip its prey in half."
 	},
 
 	stage: "Stage2",

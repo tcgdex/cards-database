@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "These Pokémon seem to enjoy living with humans.<br />Even a Stoutland caught in the wild will warm up<br />to people in about three days."
+		en: "These Pokémon seem to enjoy living with humans.\nEven a Stoutland caught in the wild will warm up\nto people in about three days."
 	},
 
 	stage: "Stage2",
@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon cost 1 <span class=\"energy-text energy-text--type-colorless\"></span> more."
+			en: "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon cost 1 {C} more."
 		}
 	}],
 

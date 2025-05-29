@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "One of the dangerous UBs, high energy readings<br />can be detected coming from both of its<br />huge arms."
+		en: "One of the dangerous UBs, high energy readings\ncan be detected coming from both of its\nhuge arms."
 	},
 
 	stage: "Basic",

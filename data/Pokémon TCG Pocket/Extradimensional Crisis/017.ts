@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When this ill-tempered Pokémon runs wild, it<br />shoots lightning from its mane in all directions."
+		en: "When this ill-tempered Pokémon runs wild, it\nshoots lightning from its mane in all directions."
 	},
 
 	stage: "Stage1",

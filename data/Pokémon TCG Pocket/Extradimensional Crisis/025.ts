@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "People fear it due to a belief that it devours any<br />who try to cut down trees in its forest, but to the<br />Pokémon it shares its woods with, it's kind."
+		en: "People fear it due to a belief that it devours any\nwho try to cut down trees in its forest, but to the\nPokémon it shares its woods with, it's kind."
 	},
 
 	stage: "Stage1",

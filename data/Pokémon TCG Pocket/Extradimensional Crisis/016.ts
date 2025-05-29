@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "When thunderclouds cover the sky, it will appear.<br />It can catch lightning with its mane and store<br />the electricity."
+		en: "When thunderclouds cover the sky, it will appear.\nIt can catch lightning with its mane and store\nthe electricity."
 	},
 
 	stage: "Basic",

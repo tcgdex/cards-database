@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It is said that happiness will come to those who<br />see a gathering of Clefairy dancing under a<br />full moon."
+		en: "It is said that happiness will come to those who\nsee a gathering of Clefairy dancing under a\nfull moon."
 	},
 
 	stage: "Basic",

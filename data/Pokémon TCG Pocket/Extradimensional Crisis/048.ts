@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It eats iron ore—and sometimes railroad tracks—<br />to build up the steel armor that protects its body."
+		en: "It eats iron ore—and sometimes railroad tracks—\nto build up the steel armor that protects its body."
 	},
 
 	stage: "Basic",

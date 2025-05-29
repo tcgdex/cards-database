@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "As soon as it catches the scent of prey, Sharpedo<br />will jet seawater from its backside, hurtling<br />toward the target to attack at 75 mph."
+		en: "As soon as it catches the scent of prey, Sharpedo\nwill jet seawater from its backside, hurtling\ntoward the target to attack at 75 mph."
 	},
 
 	stage: "Stage1",

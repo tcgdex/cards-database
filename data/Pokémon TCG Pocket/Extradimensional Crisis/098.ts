@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This is a ferocious Pokémon from ancient times.<br />Apparently even modern technology is incapable<br />of producing a perfectly restored specimen."
+		en: "This is a ferocious Pokémon from ancient times.\nApparently even modern technology is incapable\nof producing a perfectly restored specimen."
 	},
 
 	stage: "Stage1",

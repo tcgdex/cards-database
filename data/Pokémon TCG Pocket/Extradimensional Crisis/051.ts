@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It absorbs the iron it finds in the rock while clinging<br />to the ceiling. It shoots spikes when in danger."
+		en: "It absorbs the iron it finds in the rock while clinging\nto the ceiling. It shoots spikes when in danger."
 	},
 
 	stage: "Basic",

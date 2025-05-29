@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "The metal-rich geology of this Pokémon's habitat<br />caused it to develop steel whiskers on its head."
+		en: "The metal-rich geology of this Pokémon's habitat\ncaused it to develop steel whiskers on its head."
 	},
 
 	stage: "Basic",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "It electrifies its claws and tears its opponents<br />apart with them. Even if they dodge its attack,<br />they'll be electrocuted by the flying sparks."
+		en: "It electrifies its claws and tears its opponents\napart with them. Even if they dodge its attack,\nthey'll be electrocuted by the flying sparks."
 	},
 
 	stage: "Basic",
@@ -28,7 +28,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "At the end of your first turn, take a <span class=\"energy-text energy-text--type-lightning\"></span> Energy from your Energy Zone and attach it to this Pokémon."
+			en: "At the end of your first turn, take a {L} Energy from your Energy Zone and attach it to this Pokémon."
 		}
 	}],
 

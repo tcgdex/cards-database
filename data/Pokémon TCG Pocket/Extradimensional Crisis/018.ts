@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "As Emolga flutters through the air, it crackles<br />with electricity. This Pokémon is cute, but it can<br />cause a lot of trouble."
+		en: "As Emolga flutters through the air, it crackles\nwith electricity. This Pokémon is cute, but it can\ncause a lot of trouble."
 	},
 
 	stage: "Basic",

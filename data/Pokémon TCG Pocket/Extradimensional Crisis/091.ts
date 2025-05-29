@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It secretes flexible bubbles from its chest and back.<br />The bubbles reduce the damage it would otherwise<br />take when attacked."
+		en: "It secretes flexible bubbles from its chest and back.\nThe bubbles reduce the damage it would otherwise\ntake when attacked."
 	},
 
 	stage: "Basic",

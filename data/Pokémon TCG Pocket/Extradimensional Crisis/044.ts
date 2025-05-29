@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "This Ultra Beast is well enough liked to be<br />chosen as a first partner in its own world."
+		en: "This Ultra Beast is well enough liked to be\nchosen as a first partner in its own world."
 	},
 
 	stage: "Basic",

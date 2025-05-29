@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The terrifying Palossand drags smaller Pokémon<br />into its sandy body. Once its victims are trapped,<br />it drains them of their vitality whenever it pleases."
+		en: "The terrifying Palossand drags smaller Pokémon\ninto its sandy body. Once its victims are trapped,\nit drains them of their vitality whenever it pleases."
 	},
 
 	stage: "Stage1",

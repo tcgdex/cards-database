@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Aggron has a horn sharp enough to perforate<br />thick iron sheets. It brings down its opponents by<br />ramming into them horn first."
+		en: "Aggron has a horn sharp enough to perforate\nthick iron sheets. It brings down its opponents by\nramming into them horn first."
 	},
 
 	stage: "Stage2",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its fluffy fur is a delight to pet, but carelessly reaching out<br />to touch this Pokémon could result in painful retaliation."
+		en: "Its fluffy fur is a delight to pet, but carelessly reaching out\nto touch this Pokémon could result in painful retaliation."
 	},
 
 	stage: "Basic",

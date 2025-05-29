@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It stores hundreds of liters of poisonous liquid<br />inside its body. It is one of the organisms known<br />as UBs."
+		en: "It stores hundreds of liters of poisonous liquid\ninside its body. It is one of the organisms known\nas UBs."
 	},
 
 	stage: "Stage1",

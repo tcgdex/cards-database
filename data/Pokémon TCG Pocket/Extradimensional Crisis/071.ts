@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "A life-form that lives in another world, its body<br />is thin and supple, but it also possesses<br />great power."
+		en: "A life-form that lives in another world, its body\nis thin and supple, but it also possesses\ngreat power."
 	},
 
 	stage: "Basic",

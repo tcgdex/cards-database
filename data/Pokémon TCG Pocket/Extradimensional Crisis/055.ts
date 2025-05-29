@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Herdier is a very smart and friendly Pokémon.<br />So much so that there's a theory that Herdier was<br />the first Pokémon to partner with people."
+		en: "Herdier is a very smart and friendly Pokémon.\nSo much so that there's a theory that Herdier was\nthe first Pokémon to partner with people."
 	},
 
 	stage: "Stage1",

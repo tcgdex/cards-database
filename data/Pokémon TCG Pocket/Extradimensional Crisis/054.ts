@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "This Pokémon is courageous but also cautious.<br />It uses the soft fur covering its face to collect<br />information about its surroundings."
+		en: "This Pokémon is courageous but also cautious.\nIt uses the soft fur covering its face to collect\ninformation about its surroundings."
 	},
 
 	stage: "Basic",

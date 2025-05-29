@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It nocks its arrow quills and shoots them at<br />opponents. When it simply can't afford to miss,<br />it tugs the vine on its head to improve its focus."
+		en: "It nocks its arrow quills and shoots them at\nopponents. When it simply can't afford to miss,\nit tugs the vine on its head to improve its focus."
 	},
 
 	stage: "Stage2",

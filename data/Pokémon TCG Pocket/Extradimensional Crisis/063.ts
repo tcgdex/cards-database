@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "You can use this card only if your opponent hasn't gotten any points.<br /><br />During your opponent's next turn, all of your Ultra Beasts take −20 damage from attacks from your opponent's Pokémon."
+		en: "You can use this card only if your opponent hasn't gotten any points.\n\nDuring your opponent's next turn, all of your Ultra Beasts take −20 damage from attacks from your opponent's Pokémon."
 	},
 
 	trainerType: "Item"

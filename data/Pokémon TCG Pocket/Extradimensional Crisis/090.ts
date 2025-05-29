@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "An ancient picture scroll shows that people<br />were captivated by its movement as it ran<br />through prairies."
+		en: "An ancient picture scroll shows that people\nwere captivated by its movement as it ran\nthrough prairies."
 	},
 
 	stage: "Stage1",

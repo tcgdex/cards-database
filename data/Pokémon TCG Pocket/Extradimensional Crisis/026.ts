@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It scatters spores that flicker and glow. Anyone<br />seeing these lights falls into a deep slumber."
+		en: "It scatters spores that flicker and glow. Anyone\nseeing these lights falls into a deep slumber."
 	},
 
 	stage: "Basic",

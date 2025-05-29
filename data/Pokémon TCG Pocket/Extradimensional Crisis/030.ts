@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It moves while spinning around on its single foot.<br />Some Baltoy have been seen spinning on<br />their heads."
+		en: "It moves while spinning around on its single foot.\nSome Baltoy have been seen spinning on\ntheir heads."
 	},
 
 	stage: "Basic",

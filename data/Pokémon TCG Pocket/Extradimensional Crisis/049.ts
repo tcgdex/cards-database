@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It loves iron ore. Groups of them fight for territory<br />by bashing one another with their steel bodies."
+		en: "It loves iron ore. Groups of them fight for territory\nby bashing one another with their steel bodies."
 	},
 
 	stage: "Stage1",

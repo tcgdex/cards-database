@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The fragrance of the garland on its head has<br />a relaxing effect, but taking care of it is very<br />difficult."
+		en: "The fragrance of the garland on its head has\na relaxing effect, but taking care of it is very\ndifficult."
 	},
 
 	stage: "Stage1",

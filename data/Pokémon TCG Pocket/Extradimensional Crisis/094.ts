@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Its strange cries sound like human language.<br />There are some musicians who compose songs<br />for Jynx to sing."
+		en: "Its strange cries sound like human language.\nThere are some musicians who compose songs\nfor Jynx to sing."
 	},
 
 	stage: "Basic",

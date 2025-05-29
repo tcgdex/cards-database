@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Once it accepts you as a friend, it tries to show<br />its affection with a hug. Letting it do that is<br />dangerous—it could easily shatter your bones."
+		en: "Once it accepts you as a friend, it tries to show\nits affection with a hug. Letting it do that is\ndangerous—it could easily shatter your bones."
 	},
 
 	stage: "Stage1",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It normally spends its time meditating in the<br />treetops. It throws Poké Balls and gives other<br />Pokémon orders as it pleases."
+		en: "It normally spends its time meditating in the\ntreetops. It throws Poké Balls and gives other\nPokémon orders as it pleases."
 	},
 
 	stage: "Basic",

@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "If it builds up enough speed swimming, it<br />can jump out above the waves and glide<br />for over 300 feet."
+		en: "If it builds up enough speed swimming, it\ncan jump out above the waves and glide\nfor over 300 feet."
 	},
 
 	stage: "Basic",

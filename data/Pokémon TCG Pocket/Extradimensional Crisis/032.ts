@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "This Pokémon is very friendly when it's young.<br />Its disposition becomes vicious once it matures,<br />but it never forgets the kindness of its master."
+		en: "This Pokémon is very friendly when it's young.\nIts disposition becomes vicious once it matures,\nbut it never forgets the kindness of its master."
 	},
 
 	stage: "Basic",

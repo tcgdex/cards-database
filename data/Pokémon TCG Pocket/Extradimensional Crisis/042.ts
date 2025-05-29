@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "A life-form from another world, it was dubbed<br />a UB and is thought to produce a<br />strong neurotoxin."
+		en: "A life-form from another world, it was dubbed\na UB and is thought to produce a\nstrong neurotoxin."
 	},
 
 	stage: "Basic",

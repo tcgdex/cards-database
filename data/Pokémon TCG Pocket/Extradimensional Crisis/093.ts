@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It creates throwing stars out of compressed water. <br />When it spins them and throws them at high speed, <br />these stars can split metal in two."
+		en: "It creates throwing stars out of compressed water.\nWhen it spins them and throws them at high speed,\nthese stars can split metal in two."
 	},
 
 	stage: "Stage2",

@@ -18,7 +18,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It can throw bubble-covered pebbles with precise <br />control, hitting empty cans up to a hundred feet away."
+		en: "It can throw bubble-covered pebbles with precise\ncontrol, hitting empty cans up to a hundred feet away."
 	},
 
 	stage: "Stage1",

@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The round face of Alolan Persian is considered<br />to be a symbol of prosperity in the Alola region,<br />so these Pokémon are very well cared for."
+		en: "The round face of Alolan Persian is considered\nto be a symbol of prosperity in the Alola region,\nso these Pokémon are very well cared for."
 	},
 
 	stage: "Stage1",

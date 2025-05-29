@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It slithers toward people. Then, without warning, it triggers the<br />explosion of its own head. It's apparently one kind of Ultra Beast."
+		en: "It slithers toward people. Then, without warning, it triggers the\nexplosion of its own head. It's apparently one kind of Ultra Beast."
 	},
 
 	stage: "Basic",
