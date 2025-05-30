@@ -28,7 +28,12 @@ const card: Card = {
 	},
 
 	trainerType: "Stadium",
-	regulationMark: "H"
+	regulationMark: "H",
+
+	variants: {
+		normal: false,
+		reverse: false
+	}
 }
 
 export default card
