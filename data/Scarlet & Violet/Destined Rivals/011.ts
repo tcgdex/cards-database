@@ -5,51 +5,44 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skiddo",
-		fr: "Cabriolaine",
-		de: "Mähikel",
-		it: "Skiddo",
-		es: "Skiddo",
-		pt: "Skiddo"
+		en: "Dwebble",
+		fr: "Crabicoque",
+		de: "Lithomith",
+		it: "Dwebble",
+		es: "Dwebble",
+		pt: "Dwebble"
 	},
 
-	illustrator: "Tika Matsuno",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 60,
+	hp: 70,
 	types: ["Grass"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Vine Whip",
-			fr: "Fouet Lianes",
-			de: "Rankenhieb",
-			it: "Frustata",
-			es: "Látigo Cepa",
-			pt: "Chicote de Vinha"
+			en: "Ascension",
+			fr: "Ascension",
+			de: "Aufstieg",
+			it: "Ascensione",
+			es: "Ascensión",
+			pt: "Ascensão"
 		},
 
-		damage: 10
-	}, {
-		cost: ["Colorless", "Colorless"],
-
-		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			de: "Schmetterkick",
-			it: "Calcio Esplosivo",
-			es: "Patada Destrucción",
-			pt: "Chute Poderoso"
-		},
-
-		damage: 20
+		effect: {
+			en: "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck une carte Évolution de ce Pokémon, puis placez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
+			de: "Durchsuche dein Deck nach 1 Karte, die sich aus diesem Pokémon entwickelt, und lege sie auf dieses Pokémon, um es zu entwickeln. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo una carta che si evolve da questo Pokémon e metticela sopra per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
+			es: "Busca en tu baraja 1 carta que evolucione de este Pokémon y ponla sobre este Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por uma carta no seu baralho que evolua deste Pokémon e coloque-a sobre este Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho."
+		}
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

@@ -5,47 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pineco",
-		fr: "Pomdepik",
-		de: "Tannza",
-		it: "Pineco",
-		es: "Pineco",
-		pt: "Pineco"
+		en: "Ethan's Pinsir",
+		fr: "Scarabrute de Luth",
+		de: "Klarins Pinsir",
+		it: "Pinsir di Armonio",
+		es: "Pinsir de Eco",
+		pt: "Pinsir do Ethan"
 	},
 
-	illustrator: "Shigenori Negishi",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 60,
+	hp: 120,
 	types: ["Grass"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
+		cost: ["Grass"],
 
 		name: {
-			en: "Guard Press",
-			fr: "Pression de Garde",
-			de: "Schutzdruck",
-			it: "Pressadifesa",
-			es: "Presión de Guardia",
-			pt: "Aperto Protetor"
+			en: "Vise Grip",
+			fr: "Force Poigne",
+			de: "Klammer",
+			it: "Presa",
+			es: "Agarre",
+			pt: "Agarramento Compressor"
+		},
+
+		damage: 20
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			en: "Rallying Horn",
+			fr: "Corne de Ralliement",
+			de: "Anspornhorn",
+			it: "Incitacorno",
+			es: "Cuerno de Apoyo",
+			pt: "Chifre Fortificante"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
-			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			es: "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+			en: "If any of your Ethan's Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 100 more damage.",
+			fr: "Si au moins l'un de vos Pokémon de Luth a été mis K.O. par les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige 100 dégâts supplémentaires.",
+			de: "Wenn mindestens 1 deiner Klarins Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+			it: "Se uno qualsiasi dei tuoi Pokémon di Armonio è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 100 danni in più.",
+			es: "Si alguno de tus Pokémon de Eco quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 100 puntos de daño más.",
+			pt: "Se algum dos seus Pokémon do Ethan tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 100 pontos de dano a mais."
 		},
 
-		damage: 10
+		damage: "70+"
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

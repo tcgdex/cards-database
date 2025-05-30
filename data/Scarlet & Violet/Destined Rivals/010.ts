@@ -5,60 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vivillon",
-		fr: "Prismillon",
-		de: "Vivillon",
-		it: "Vivillon",
-		es: "Vivillon",
-		pt: "Vivillon"
+		en: "Shaymin",
+		fr: "Shaymin",
+		de: "Shaymin",
+		it: "Shaymin",
+		es: "Shaymin",
+		pt: "Shaymin"
 	},
 
-	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 120,
+	hp: 80,
 	types: ["Grass"],
-	stage: "Stage2",
+	stage: "Basic",
 
-	attacks: [{
-		cost: ["Grass"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Miracle Powder",
-			fr: "Poudre Miracle",
-			de: "Wunderstaub",
-			it: "Miracolpolvere",
-			es: "Polvo Milagroso",
-			pt: "Pó Milagroso"
+			en: "Flower Curtain",
+			fr: "Rideau de Fleurs",
+			de: "Blumenschleier",
+			it: "Cortina Floreale",
+			es: "Cortina Floral",
+			pt: "Cortina de Flores"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, choose a Special Condition. Your opponent's Active Pokémon is now affected by that Special Condition.",
-			fr: "Lancez une pièce. Si c'est face, choisissez un État Spécial. Le Pokémon Actif de votre adversaire est maintenant affecté par cet État Spécial.",
-			de: "Wirf 1 Münze. Wähle bei Kopf 1 Speziellen Zustand. Das Aktive Pokémon deines Gegners ist jetzt von jenem Speziellen Zustand betroffen.",
-			it: "Lancia una moneta. Se esce testa, scegli una condizione speciale. Il Pokémon attivo del tuo avversario è influenzato da quella condizione speciale.",
-			es: "Lanza 1 moneda. Si sale cara, elige una Condición Especial. El Pokémon Activo de tu rival pasa a estar afectado por esa Condición Especial.",
-			pt: "Jogue uma moeda. Se sair cara, escolha uma Condição Especial. O Pokémon Ativo do seu oponente agora está afetado por aquela Condição Especial."
-		},
+			en: "Prevent all damage done to your Benched Pokémon that don't have a Rule Box by attacks from your opponent's Pokémon. (Pokémon ex, Pokémon V, etc. have Rule Boxes.)",
+			fr: "Évitez tous les dégâts infligés à vos Pokémon de Banc sans encadré Règle par les attaques des Pokémon de votre adversaire. (Les Pokémon-ex, Pokémon-V, etc. ont des encadrés Règle.)",
+			de: "Verhindere allen Schaden, der den Pokémon auf deiner Bank, die kein Regelfeld haben, durch Attacken von Pokémon deines Gegners zugefügt wird. (Pokémon-ex, Pokémon-V usw. haben Regelfelder.)",
+			it: "Previeni tutti i danni inflitti ai tuoi Pokémon in panchina che non hanno una regola speciale dagli attacchi dei Pokémon del tuo avversario. I Pokémon-ex, i Pokémon-V, ecc. hanno regole speciali.",
+			es: "Se evita todo el daño infligido a tus Pokémon en Banca que no tengan un recuadro de regla por ataques de los Pokémon de tu rival. (Pokémon ex, Pokémon V, etc. tienen recuadros de regla).",
+			pt: "Previna todo o dano causado aos seus Pokémon no Banco que não têm uma Caixa de Regras por ataques dos Pokémon do seu oponente. (Pokémon ex, Pokémon V, etc. têm Caixas de Regras.)"
+		}
+	}],
 
-		damage: 50
-	}, {
-		cost: ["Grass", "Colorless"],
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Bug Buzz",
-			fr: "Bourdon",
-			de: "Käfergebrumm",
-			it: "Ronzio",
-			es: "Zumbido",
-			pt: "Zumbido de Inseto"
+			en: "Smash Kick",
+			fr: "Coud'Pattes",
+			de: "Schmetterkick",
+			it: "Calcio Esplosivo",
+			es: "Patada Destrucción",
+			pt: "Chute Poderoso"
 		},
 
-		damage: 110
+		damage: 30
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

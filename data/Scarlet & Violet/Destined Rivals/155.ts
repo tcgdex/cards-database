@@ -5,58 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lechonk",
-		fr: "Gourmelet",
-		de: "Ferkuli",
-		it: "Lechonk",
-		es: "Lechonk",
-		pt: "Lechonk"
+		en: "Team Rocket's Porygon-Z",
+		fr: "Porygon-Z de la Team Rocket",
+		de: "Team Rockets Porygon-Z",
+		it: "Porygon-Z del Team Rocket",
+		es: "Porygon-Z del Team Rocket",
+		pt: "Porygon-Z da Equipe Rocket"
 	},
 
-	illustrator: "kodama",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 60,
+	hp: 140,
 	types: ["Colorless"],
-	stage: "Basic",
+	stage: "Stage2",
 
-	attacks: [{
-		cost: ["Colorless"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			de: "Sammeln",
-			it: "Tassa",
-			es: "Coleccionar",
-			pt: "Coleta"
+			en: "Reconstitute",
+			fr: "Reconstitution",
+			de: "Rekonfigurieren",
+			it: "Ricostituzione",
+			es: "Reconstitución",
+			pt: "Reconstituição"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			es: "Roba 1 carta.",
-			pt: "Compre uma carta."
+			en: "You must discard 2 cards from your hand in order to use this Ability. Once during your turn, you may draw a card.",
+			fr: "Vous devez défausser 2 cartes de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher une carte.",
+			de: "Du musst 2 Karten aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 1 Karte ziehen.",
+			it: "Devi scartare due carte che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi pescare una carta.",
+			es: "Debes descartar 2 cartas de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes robar 1 carta.",
+			pt: "Você deve descartar 2 cartas da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá comprar uma carta."
 		}
-	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
+	}],
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			it: "Azione",
-			es: "Placaje",
-			pt: "Investida"
+			en: "R Command",
+			fr: "Commande R",
+			de: "R-Befehl",
+			it: "Comando R",
+			es: "Comando R",
+			pt: "Comando R"
 		},
 
-		damage: 30
+		effect: {
+			en: "This attack does 20 damage for each Supporter card that has \"Team Rocket\" in its name in your discard pile.",
+			fr: "Cette attaque inflige 20 dégâts pour chaque carte Supporter dans votre pile de défausse ayant \" Team Rocket \" dans son nom.",
+			de: "Diese Attacke fügt für jede Unterstützerkarte in deinem Ablagestapel, bei der \"Team Rocket\" zum Namen gehört, 20 Schadenspunkte zu.",
+			it: "Questo attacco infligge 20 danni per ogni carta Aiuto nella tua pila degli scarti che ha \"Team Rocket\" nel nome.",
+			es: "Este ataque hace 20 puntos de daño por cada carta de Partidario en tu pila de descartes que tenga \"Team Rocket\" en su nombre.",
+			pt: "Este ataque causa 20 pontos de dano para cada carta de Apoiador que tenha \"Equipe Rocket\" em seu nome na sua pilha de descarte."
+		},
+
+		damage: "20×"
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

@@ -5,15 +5,14 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charcadet",
-		fr: "Charbambin",
-		de: "Knarbon",
-		it: "Charcadet",
-		es: "Charcadet",
-		pt: "Charcadet"
+		en: "Torchic",
+		fr: "Poussifeu",
+		de: "Flemmli",
+		it: "Torchic",
+		es: "Torchic",
+		pt: "Torchic"
 	},
 
-	illustrator: "nagimiso",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -21,22 +20,42 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fire", "Fire", "Colorless"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur",
-			de: "Hitzestoß",
-			it: "Caldobomba",
-			es: "Explosión de Calor",
-			pt: "Raio de Calor"
+			en: "Collect",
+			fr: "Collecte",
+			de: "Sammeln",
+			it: "Tassa",
+			es: "Coleccionar",
+			pt: "Coleta"
 		},
 
-		damage: 60
+		effect: {
+			en: "Draw a card.",
+			fr: "Piochez une carte.",
+			de: "Ziehe 1 Karte.",
+			it: "Pesca una carta.",
+			es: "Roba 1 carta.",
+			pt: "Compre uma carta."
+		}
+	}, {
+		cost: ["Fire"],
+
+		name: {
+			en: "Combustion",
+			fr: "Fournaise",
+			de: "Glühen",
+			it: "Fuoco Continuo",
+			es: "Combustión",
+			pt: "Combustão"
+		},
+
+		damage: 10
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

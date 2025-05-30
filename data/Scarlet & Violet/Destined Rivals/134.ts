@@ -5,60 +5,57 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kingambit",
-		fr: "Scalpereur",
-		de: "Gladimperio",
-		it: "Kingambit",
-		es: "Kingambit",
-		pt: "Kingambit"
+		en: "Marnie's Impidimp",
+		fr: "Grimalin de Rosemary",
+		de: "Marys Bähmon",
+		it: "Impidimp di Mary",
+		es: "Impidimp de Roxy",
+		pt: "Impidimp da Marine"
 	},
 
-	illustrator: "Anesaki Dynamic",
-	rarity: "Rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 170,
+	hp: 70,
 	types: ["Darkness"],
-	stage: "Stage2",
+	stage: "Basic",
 
-	abilities: [{
-		type: "Ability",
+	attacks: [{
+		cost: ["Colorless"],
 
 		name: {
-			en: "Leadership",
-			fr: "Leadership",
-			de: "Leadership",
-			it: "Leadership",
-			es: "Liderato",
-			pt: "Liderança"
+			en: "Filch",
+			fr: "Maraudage",
+			de: "Mopsen",
+			it: "Furtarello",
+			es: "Birlar",
+			pt: "Furtar"
 		},
 
 		effect: {
-			en: "Your Basic Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-			fr: "Les attaques de vos Pokémon de base infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
-			de: "Die Attacken deiner Basis-Pokémon fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
-			it: "Gli attacchi dei tuoi Pokémon Base infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
-			es: "Los ataques de tus Pokémon Básicos hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
-			pt: "Os ataques dos seus Pokémon Básicos causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência)."
+			en: "Draw a card.",
+			fr: "Piochez une carte.",
+			de: "Ziehe 1 Karte.",
+			it: "Pesca una carta.",
+			es: "Roba 1 carta.",
+			pt: "Compre uma carta."
 		}
-	}],
-
-	attacks: [{
-		cost: ["Darkness", "Colorless", "Colorless"],
+	}, {
+		cost: ["Darkness"],
 
 		name: {
-			en: "Hack At",
-			fr: "Entaillage",
-			de: "Zerhacken",
-			it: "Recisione",
-			es: "Machetear",
-			pt: "Picotada"
+			en: "Corkscrew Punch",
+			fr: "Poing Tire-Bouchon",
+			de: "Korkenzieherhieb",
+			it: "Pugno Rotante",
+			es: "Puño Tirabuzón",
+			pt: "Soco Saca-rolha"
 		},
 
-		damage: 160
+		damage: 10
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

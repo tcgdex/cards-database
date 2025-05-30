@@ -5,47 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meditite",
-		fr: "Méditikka",
-		de: "Meditie",
-		it: "Meditite",
-		es: "Meditite",
-		pt: "Meditite"
+		en: "Arven's Toedscruel",
+		fr: "Terracruel de Pepper",
+		de: "Peppers Tenterra",
+		it: "Toedscruel di Pepe",
+		es: "Toedscruel de Damián",
+		pt: "Toedscruel do Arven"
 	},
 
-	illustrator: "miki kudo",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 60,
+	hp: 140,
 	types: ["Fighting"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fighting"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Feint",
-			fr: "Ruse",
-			de: "Offenlegung",
-			it: "Fintoattacco",
-			es: "Amago",
-			pt: "Fintar"
+			en: "Pull",
+			fr: "Tirer",
+			de: "Ziehen",
+			it: "Tira",
+			es: "Tirar",
+			pt: "Puxar"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by Resistance.",
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
-			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			es: "El daño de este ataque no se ve afectado por Resistencia.",
-			pt: "O dano deste ataque não é afetado por Resistência."
+			en: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+			fr: "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+			it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
+			es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
+			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
+		}
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			en: "Reckless Charge",
+			fr: "Attaque Imprudente",
+			de: "Waghalsiger Sturmangriff",
+			it: "Carica Avventata",
+			es: "Carga Descuidada",
+			pt: "Carga Indomável"
 		},
 
-		damage: 10
+		effect: {
+			en: "This Pokémon also does 30 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
+			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
+			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+		},
+
+		damage: 120
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

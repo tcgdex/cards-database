@@ -5,47 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dedenne",
-		fr: "Dedenne",
-		de: "Dedenne",
-		it: "Dedenne",
-		es: "Dedenne",
-		pt: "Dedenne"
+		en: "Team Rocket's Pupitar",
+		fr: "Ymphect de la Team Rocket",
+		de: "Team Rockets Pupitar",
+		it: "Pupitar del Team Rocket",
+		es: "Pupitar del Team Rocket",
+		pt: "Pupitar da Equipe Rocket"
 	},
 
-	illustrator: "Nelnal",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Psychic"],
-	stage: "Basic",
+	hp: 100,
+	types: ["Fighting"],
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Second Bite",
-			fr: "Double Morsure",
-			de: "Zweiter Biss",
-			it: "Secondo Morso",
-			es: "Segundo Mordisco",
-			pt: "Segunda Mordida"
+			en: "Explosive Ascension",
+			fr: "Ascension Explosive",
+			de: "Explosiver Aufstieg",
+			it: "Ascensione Esplosiva",
+			es: "Ascensión Explosiva",
+			pt: "Ascensão Explosiva"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
-			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente."
+			en: "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck une carte Évolution de ce Pokémon, puis placez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
+			de: "Durchsuche dein Deck nach 1 Karte, die sich aus diesem Pokémon entwickelt, und lege sie auf dieses Pokémon, um es zu entwickeln. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo una carta che si evolve da questo Pokémon e metticela sopra per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
+			es: "Busca en tu baraja 1 carta que evolucione de este Pokémon y ponla sobre este Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por uma carta no seu baralho que evolua deste Pokémon e coloque-a sobre este Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho."
 		},
 
-		damage: "30+"
+		damage: 30
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

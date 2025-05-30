@@ -5,58 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fidough",
-		fr: "Pâtachiot",
-		de: "Hefel",
-		it: "Fidough",
-		es: "Fidough",
-		pt: "Fidough"
+		en: "Probopass",
+		fr: "Tarinorme",
+		de: "Voluminas",
+		it: "Probopass",
+		es: "Probopass",
+		pt: "Probopass"
 	},
 
-	illustrator: "Saya Tsuruta",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 60,
-	types: ["Psychic"],
-	stage: "Basic",
+	hp: 140,
+	types: ["Fighting"],
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic"],
+		cost: ["Fighting"],
 
 		name: {
-			en: "Springy",
-			fr: "Malléable",
-			de: "Abfedern",
-			it: "Elastico",
-			es: "Tiernecito",
-			pt: "Elástico"
+			en: "Power Gem",
+			fr: "Rayon Gemme",
+			de: "Juwelenkraft",
+			it: "Gemmoforza",
+			es: "Joya de Luz",
+			pt: "Gema Poderosa"
+		},
+
+		damage: 40
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			en: "Mountain Drop",
+			fr: "Montagne Écrasante",
+			de: "Gebirgssturz",
+			it: "Smottamento",
+			es: "Caída Montaña Abajo",
+			pt: "Queda da Montanha"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
-			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			es: "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
-		}
-	}, {
-		cost: ["Psychic", "Colorless", "Colorless"],
-
-		name: {
-			en: "Flop",
-			fr: "Flop",
-			de: "Plumps",
-			it: "Tonfo",
-			es: "Vuelta",
-			pt: "Baque"
+			en: "If a Stadium is in play, this attack does 70 more damage.",
+			fr: "Si un Stade est en jeu, cette attaque inflige 70 dégâts supplémentaires.",
+			de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			it: "Se c'è in gioco una carta Stadio, questo attacco infligge 70 danni in più.",
+			es: "Si hay un Estadio en juego, este ataque hace 70 puntos de daño más.",
+			pt: "Se um Estádio estiver em jogo, este ataque causará 70 pontos de dano a mais."
 		},
 
-		damage: 30
+		damage: "70+"
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

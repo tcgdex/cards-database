@@ -5,28 +5,27 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Beach Court",
-		fr: "Terrain de Plage",
-		de: "Strandplatz",
-		it: "Campo in Spiaggia",
-		es: "Cancha en la Playa",
-		pt: "Quadra de Praia"
+		en: "Judge",
+		fr: "Juge",
+		de: "Richter",
+		it: "Arbitro",
+		es: "Juez",
+		pt: "Juiz"
 	},
 
-	illustrator: "Oswaldo KATO",
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "The Retreat Cost of each Basic Pokémon in play (both yours and your opponent's) is {C} less.",
-		fr: "Le Coût de Retraite de chacun des Pokémon de base en jeu (les vôtres et ceux de votre adversaire) est diminué de {C}.",
-		de: "Die Rückzugskosten aller Basis-Pokémon im Spiel (deiner und der deines Gegners) verringern sich um {C}.",
-		it: "Il costo di ritirata di ciascun Pokémon Base in gioco, sia tuo che del tuo avversario, è ridotto di {C}.",
-		es: "El Coste de Retirada de cada Pokémon Básico en juego (tanto tuyos como de tu rival) es de {C} menos.",
-		pt: "O custo de Recuo de cada Pokémon Básico em jogo (seus e do seu oponente) é {C} a menos."
+		en: "Each player shuffles their hand into their deck and draws 4 cards.",
+		fr: "Chaque joueur mélange sa main avec son deck et pioche 4 cartes.",
+		de: "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten.",
+		it: "Ciascun giocatore rimischia le carte che ha in mano nel proprio mazzo e pesca quattro carte.",
+		es: "Cada jugador pone las cartas de su mano en su baraja, las baraja todas y roba 4 cartas.",
+		pt: "Cada jogador embaralha a própria mão no próprio baralho e compra 4 cartas."
 	},
 
-	trainerType: "Stadium",
+	trainerType: "Supporter",
 	regulationMark: "G"
 }
 

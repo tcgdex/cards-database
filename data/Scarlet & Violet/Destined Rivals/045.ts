@@ -5,60 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gyarados ex",
-		fr: "Léviator-ex",
-		de: "Garados-ex",
-		it: "Gyarados-ex",
-		es: "Gyarados ex",
-		pt: "Gyarados ex"
+		en: "Misty's Psyduck",
+		fr: "Psykokwak d'Ondine",
+		de: "Mistys Enton",
+		it: "Psyduck di Misty",
+		es: "Psyduck de Misty",
+		pt: "Psyduck da Misty"
 	},
 
-	illustrator: "5ban Graphics",
-	rarity: "Double rare",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 300,
+	hp: 70,
 	types: ["Water"],
-	stage: "Stage1",
+	stage: "Basic",
 
-	attacks: [{
-		cost: ["Water", "Water", "Water"],
-
-		name: {
-			en: "Waterfall",
-			fr: "Cascade",
-			de: "Kaskade",
-			it: "Cascata",
-			es: "Cascada",
-			pt: "Cachoeira"
-		},
-
-		damage: 100
-	}, {
-		cost: ["Water", "Water", "Water", "Colorless", "Colorless"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Tyrannical Tail",
-			fr: "Queue Tyrannique",
-			de: "Tyrannischer Schweif",
-			it: "Coda Tirannica",
-			es: "Cola Tiránica",
-			pt: "Cauda Tirânica"
+			en: "Flustered Leap",
+			fr: "Saut Agité",
+			de: "Zerfahrener Sprung",
+			it: "Balzo Agitato",
+			es: "Salto Aturullado",
+			pt: "Salto Afobado"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 180 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 180 dégâts supplémentaires.",
-			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 180 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 180 danni in più.",
-			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 180 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 180 pontos de dano a mais."
-		},
-
-		damage: "180+"
+			en: "Once during your turn, if this Pokémon is on your Bench, you may discard the bottom card of your deck. If you do, discard all cards from this Pokémon and put this Pokémon on top of your deck.",
+			fr: "Une fois pendant votre tour, si ce Pokémon est sur votre Banc, vous pouvez défausser la carte du dessous de votre deck. Dans ce cas, défaussez toutes les cartes attachées à ce Pokémon et placez ce Pokémon sur le dessus de votre deck.",
+			de: "Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du die unterste Karte deines Decks auf deinen Ablagestapel legen. Wenn du das machst, lege alle Karten von diesem Pokémon auf deinen Ablagestapel und lege dieses Pokémon auf dein Deck.",
+			it: "Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi scartare la carta in fondo al tuo mazzo. Se lo fai, scarta tutte le carte da questo Pokémon e mettilo in cima al tuo mazzo.",
+			es: "Una vez durante tu turno, si este Pokémon está en tu Banca, puedes descartar la última carta de tu baraja. Si lo haces, descarta todas las cartas de este Pokémon y pon este Pokémon en la parte superior de tu baraja.",
+			pt: "Uma vez durante o seu turno, se este Pokémon estiver no seu Banco, você poderá descartar a carta de baixo do seu baralho. Se fizer isto, descarte todas as cartas deste Pokémon e coloque este Pokémon como a carta de cima do seu baralho."
+		}
 	}],
 
-	retreat: 4,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Water"],
+
+		name: {
+			en: "Sprinkle Water",
+			fr: "Eau Aspergeante",
+			de: "Wassersprüher",
+			it: "Goccioline",
+			es: "Esparcir Agua",
+			pt: "Aspergir Água"
+		},
+
+		damage: 30
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

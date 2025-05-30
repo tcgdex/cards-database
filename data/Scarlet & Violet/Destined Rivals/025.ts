@@ -5,58 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toedscool",
-		fr: "Terracool",
-		de: "Tentagra",
-		it: "Toedscool",
-		es: "Toedscool",
-		pt: "Toedscool"
+		en: "Rabsca ex",
+		fr: "Bérasca-ex",
+		de: "Skarabaks-ex",
+		it: "Rabsca-ex",
+		es: "Rabsca ex",
+		pt: "Rabsca ex"
 	},
 
-	illustrator: "Tika Matsuno",
-	rarity: "Common",
+	rarity: "Double rare",
 	category: "Pokemon",
-	hp: 60,
+	hp: 250,
 	types: ["Grass"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Grass"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Spore",
-			fr: "Spore",
-			de: "Pilzspore",
-			it: "Spora",
-			es: "Espora",
-			pt: "Esporos"
+			en: "Upside-Down Draw",
+			fr: "Pioche Inversée",
+			de: "Kopfüber-Zug",
+			it: "Pesca Sottosopra",
+			es: "Robo al Revés",
+			pt: "Compra às Avessas"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido."
+			en: "Draw 3 cards from the bottom of your deck.",
+			fr: "Piochez 3 cartes du dessous de votre deck.",
+			de: "Ziehe die 3 untersten Karten deines Decks.",
+			it: "Pesca tre carte dal fondo del tuo mazzo.",
+			es: "Roba las 3 cartas de la parte inferior de tu baraja.",
+			pt: "Compre as 3 cartas de baixo do seu baralho."
 		}
 	}, {
-		cost: ["Colorless", "Colorless"],
+		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			de: "Ramme",
-			it: "Carica",
-			es: "Apisonar",
-			pt: "Aríete"
+			en: "Psychic",
+			fr: "Psyko",
+			de: "Psychokinese",
+			it: "Psichico",
+			es: "Psíquico",
+			pt: "Psíquico"
 		},
 
-		damage: 10
+		effect: {
+			en: "This attack does 90 more damage for each Energy attached to your opponent's Active Pokémon.",
+			fr: "Cette attaque inflige 90 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 90 Schadenspunkte mehr zu.",
+			it: "Questo attacco infligge 90 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+			es: "Este ataque hace 90 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+			pt: "Este ataque causa 90 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente."
+		},
+
+		damage: "20+"
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "H"
 }
 
 export default card

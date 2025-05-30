@@ -5,69 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oinkologne ex",
-		fr: "Fragroin-ex",
-		de: "Fragrunz-ex",
-		it: "Oinkologne-ex",
-		es: "Oinkologne ex",
-		pt: "Oinkologne ex"
+		en: "Team Rocket's Crobat ex",
+		fr: "Nostenfer-ex de la Team Rocket",
+		de: "Team Rockets Iksbat-ex",
+		it: "Crobat-ex del Team Rocket",
+		es: "Crobat ex del Team Rocket",
+		pt: "Crobat ex da Equipe Rocket"
 	},
 
-	illustrator: "aky CG Works",
-	rarity: "Ultra Rare",
+	rarity: "Special illustration rare",
 	category: "Pokemon",
-	hp: 260,
-	types: ["Colorless"],
-	stage: "Stage1",
+	hp: 310,
+	types: ["Darkness"],
+	stage: "Stage2",
 
-	attacks: [{
-		cost: ["Colorless"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Maddening Scent",
-			fr: "Senteur Affolante",
-			de: "Wahnsinniger Geruch",
-			it: "Aroma Esasperante",
-			es: "Fragancia Exasperante",
-			pt: "Aroma Enlouquecedor"
+			en: "Biting Spree",
+			fr: "Morsures Effrénées",
+			de: "Bissiger Rausch",
+			it: "Mordi Mordi",
+			es: "Festival de Mordiscos",
+			pt: "Mordidas Frenéticas"
 		},
 
 		effect: {
-			en: "This attack does 30 more damage for each of your opponent's Benched Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
-			de: "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 30 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 30 danni in più per ogni Pokémon nella panchina del tuo avversario.",
-			es: "Este ataque hace 30 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Pokémon no Banco do seu oponente."
-		},
-
-		damage: "10+"
-	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
-
-		name: {
-			en: "Heavy Stomp",
-			fr: "Jambes de Plomb",
-			de: "Schwerer Stampfer",
-			it: "Gran Pestone",
-			es: "Fuerte Pisotón",
-			pt: "Pisoteada Pesada"
-		},
-
-		effect: {
-			en: "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
-			fr: "Lancez une pièce. Si c'est pile, pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Wirf 1 Münze. Bei Zahl kann dieses Pokémon während deines nächsten Zuges nicht angreifen.",
-			it: "Lancia una moneta. Se esce croce, durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			es: "Lanza 1 moneda. Si sale cruz, este Pokémon no puede atacar durante tu próximo turno.",
-			pt: "Jogue uma moeda. Se sair coroa, durante o seu próximo turno, este Pokémon não poderá atacar."
-		},
-
-		damage: 210
+			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may choose 2 of your opponent's Pokémon and put 2 damage counters on each of them.",
+			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez choisir 2 des Pokémon de votre adversaire, puis placer 2 marqueurs de dégâts sur chacun d'eux.",
+			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 2 Pokémon deines Gegners wählen und 2 Schadensmarken auf jedes von ihnen legen.",
+			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi scegliere due dei Pokémon del tuo avversario e mettere due segnalini danno su ciascuno di essi.",
+			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, puedes elegir 2 de los Pokémon de tu rival y poner 2 contadores de daño en cada uno de ellos.",
+			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá escolher 2 dos Pokémon do seu oponente e colocar 2 contadores de dano em cada um deles."
+		}
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Darkness", "Darkness"],
+
+		name: {
+			en: "Assassin's Return",
+			fr: "Retour de l'Assassin",
+			de: "Meuchelrückkehr",
+			it: "Ritorno dell'Assassino",
+			es: "Retorno del Asesino",
+			pt: "Retorno do Assassino"
+		},
+
+		effect: {
+			en: "You may put this Pokémon into your hand. (Discard all cards attached to this Pokémon.)",
+			fr: "Vous pouvez ajouter ce Pokémon à votre main. (Défaussez toutes les cartes attachées à ce Pokémon.)",
+			de: "Du kannst dieses Pokémon auf deine Hand nehmen. (Lege alle an dieses Pokémon angelegten Karten auf deinen Ablagestapel.)",
+			it: "Puoi riprendere in mano questo Pokémon. Scarta tutte le carte assegnate a questo Pokémon.",
+			es: "Puedes poner este Pokémon en tu mano. (Descarta todas las cartas unidas a este Pokémon).",
+			pt: "Você pode colocar este Pokémon na sua mão. (Descarte todas as cartas ligadas a este Pokémon.)"
+		},
+
+		damage: 120
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

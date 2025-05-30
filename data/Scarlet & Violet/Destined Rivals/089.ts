@@ -5,60 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drifloon",
-		fr: "Baudrive",
-		de: "Driftlon",
-		it: "Drifloon",
-		es: "Drifloon",
-		pt: "Drifloon"
+		en: "Team Rocket's Orbeetle",
+		fr: "Astronelle de la Team Rocket",
+		de: "Team Rockets Maritellit",
+		it: "Orbeetle del Team Rocket",
+		es: "Orbeetle del Team Rocket",
+		pt: "Orbeetle da Equipe Rocket"
 	},
 
-	illustrator: "Taira Akitsu",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 70,
+	hp: 130,
 	types: ["Psychic"],
-	stage: "Basic",
+	stage: "Stage2",
 
-	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
-		name: {
-			en: "Gust",
-			fr: "Tornade",
-			de: "Windstoß",
-			it: "Raffica",
-			es: "Tornado",
-			pt: "Lufada de Vento"
-		},
-
-		damage: 10
-	}, {
-		cost: ["Psychic", "Psychic"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Balloon Blast",
-			fr: "Explosion Ballon",
-			de: "Ballonexplosion",
-			it: "Pallonesplosione",
-			es: "Explosión Globo",
-			pt: "Explosão de Balão"
+			en: "Rocket Brain",
+			fr: "Cerveau Rocket",
+			de: "Rocket-Hirn",
+			it: "Cervello Rocket",
+			es: "Cerebro Rocket",
+			pt: "Cérebro Rocket"
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 30 Schadenspunkte zu.",
-			it: "Questo attacco infligge 30 danni per ogni segnalino danno presente su questo Pokémon.",
-			es: "Este ataque hace 30 puntos de daño por cada contador de daño en este Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada contador de dano neste Pokémon."
-		},
-
-		damage: "30×"
+			en: "As often as you like during your turn, you may move 1 damage counter from 1 of your Team Rocket's Pokémon to another of your Pokémon.",
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer un marqueur de dégâts de l'un de vos Pokémon de la Team Rocket vers un autre de vos Pokémon.",
+			de: "Beliebig oft während deines Zuges kannst du 1 Schadensmarke von 1 deiner Team Rockets Pokémon auf 1 anderes deiner Pokémon verschieben.",
+			it: "Durante il tuo turno, puoi spostare un segnalino danno da uno dei tuoi Pokémon del Team Rocket a un altro dei tuoi Pokémon tutte le volte che vuoi.",
+			es: "Todas las veces que quieras durante tu turno, puedes mover 1 contador de daño de uno de tus Pokémon del Team Rocket a otro de tus Pokémon.",
+			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus Pokémon da Equipe Rocket para outro Pokémon seu."
+		}
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Psychic", "Colorless", "Colorless"],
+
+		name: {
+			en: "Psychic",
+			fr: "Psyko",
+			de: "Psychokinese",
+			it: "Psichico",
+			es: "Psíquico",
+			pt: "Psíquico"
+		},
+
+		effect: {
+			en: "This attack does 40 more damage for each Energy attached to your opponent's Active Pokémon.",
+			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 40 Schadenspunkte mehr zu.",
+			it: "Questo attacco infligge 40 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+			es: "Este ataque hace 40 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+			pt: "Este ataque causa 40 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente."
+		},
+
+		damage: "40+"
+	}],
+
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

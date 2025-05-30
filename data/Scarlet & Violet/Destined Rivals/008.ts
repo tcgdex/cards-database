@@ -5,60 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scatterbug",
-		fr: "Lépidonille",
-		de: "Purmel",
-		it: "Scatterbug",
-		es: "Scatterbug",
-		pt: "Scatterbug"
+		en: "Cynthia's Roserade",
+		fr: "Roserade de Cynthia",
+		de: "Cynthias Roserade",
+		it: "Roserade di Camilla",
+		es: "Roserade de Cintia",
+		pt: "Roserade da Cíntia"
 	},
 
-	illustrator: "sowsow",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
-	hp: 30,
+	hp: 130,
 	types: ["Grass"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Adaptive Evolution",
-			fr: "Évolution Adaptative",
-			de: "Anpassungsfähige Entwicklung",
-			it: "Evoluzione Adattiva",
-			es: "Evolución Adaptable",
-			pt: "Evolução Adaptativa"
+			en: "Cheer On to Glory",
+			fr: "Encouragement pour la Gloire",
+			de: "Ruhmesbeifall",
+			it: "Tifo Esaltante",
+			es: "Ovación de Gloria",
+			pt: "Grito de Glória"
 		},
 
 		effect: {
-			en: "This Pokémon can evolve during your first turn or the turn you play it.",
-			fr: "Ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
-			de: "Dieses Pokémon kann sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, entwickeln.",
-			it: "Questo Pokémon può evolversi durante il tuo primo turno o il turno in cui lo giochi.",
-			es: "Este Pokémon puede evolucionar durante tu primer turno o durante el turno en que lo pongas en juego.",
-			pt: "Este Pokémon poderá evoluir durante o seu primeiro turno ou durante o turno em que for colocado em jogo."
+			en: "Attacks used by your Cynthia's Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+			fr: "Les attaques utilisées par vos Pokémon de Cynthia infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+			de: "Die von deinen Cynthias Pokémon eingesetzten Attacken fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
+			it: "Gli attacchi usati dai tuoi Pokémon di Camilla infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
+			es: "Los ataques usados por tus Pokémon de Cintia hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+			pt: "Os ataques usados pelos seus Pokémon da Cíntia causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência)."
 		}
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Colorless"],
+		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			it: "Azione",
-			es: "Placaje",
-			pt: "Investida"
+			en: "Leaf Step",
+			fr: "Enjambée de Feuillage",
+			de: "Blattschritt",
+			it: "Passofoglia",
+			es: "Paso Hoja",
+			pt: "Passo de Folha"
 		},
 
-		damage: 20
+		damage: 80
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

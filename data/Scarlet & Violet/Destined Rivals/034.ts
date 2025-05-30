@@ -5,60 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndoom",
-		fr: "Démolosse",
-		de: "Hundemon",
-		it: "Houndoom",
-		es: "Houndoom",
-		pt: "Houndoom"
+		en: "Ethan's Typhlosion",
+		fr: "Typhlosion de Luth",
+		de: "Klarins Tornupto",
+		it: "Typhlosion di Armonio",
+		es: "Typhlosion de Eco",
+		pt: "Typhlosion do Ethan"
 	},
 
-	illustrator: "hncl",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
-	hp: 120,
+	hp: 170,
 	types: ["Fire"],
-	stage: "Stage1",
+	stage: "Stage2",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Fire"],
 
 		name: {
-			en: "Sharp Fang",
-			fr: "Croc Aiguisé",
-			de: "Scharfe Fänge",
-			it: "Zannaffilata",
-			es: "Colmillo Afilado",
-			pt: "Presa Afiada"
+			en: "Buddy Blast",
+			fr: "Explosion Partenaire",
+			de: "Kumpel-Explosion",
+			it: "Esplosione Amica",
+			es: "Amistad Explosiva",
+			pt: "Rajada Amiga"
 		},
 
-		damage: 30
+		effect: {
+			en: "This attack does 60 more damage for each Ethan's Adventure card in your discard pile.",
+			fr: "Cette attaque inflige 60 dégâts supplémentaires pour chaque carte Aventure de Luth dans votre pile de défausse.",
+			de: "Diese Attacke fügt für jede Klarins Abenteuer-Karte in deinem Ablagestapel 60 Schadenspunkte mehr zu.",
+			it: "Questo attacco infligge 60 danni in più per ogni carta Avventura di Armonio nella tua pila degli scarti.",
+			es: "Este ataque hace 60 puntos de daño más por cada carta de Aventura de Eco en tu pila de descartes.",
+			pt: "Este ataque causa 60 pontos de dano a mais para cada carta Aventura do Ethan na sua pilha de descarte."
+		},
+
+		damage: "40+"
 	}, {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Fire Blast",
-			fr: "Déflagration",
-			de: "Feuersturm",
-			it: "Fuocobomba",
-			es: "Llamarada",
-			pt: "Rajada de Fogo"
+			en: "Steam Artillery",
+			fr: "Artillerie Vapeur",
+			de: "Dampfgeschütz",
+			it: "Artiglieria Vapore",
+			es: "Artillería de Vapor",
+			pt: "Artilharia de Vapor"
 		},
 
-		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon."
-		},
-
-		damage: 150
+		damage: 160
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

@@ -5,69 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowbro",
-		fr: "Flagadoss",
-		de: "Lahmus",
-		it: "Slowbro",
-		es: "Slowbro",
-		pt: "Slowbro"
+		en: "Heat Rotom",
+		fr: "Motisma Chaleur",
+		de: "Hitze-Rotom",
+		it: "Rotom Calore",
+		es: "Rotom Calor",
+		pt: "Rotom Calor"
 	},
 
-	illustrator: "Shinji Kanda",
-	rarity: "Rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 100,
-	types: ["Water"],
-	stage: "Stage1",
-
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			en: "Strange Behavior",
-			fr: "Comportement Étrange",
-			de: "Seltsames Verhalten",
-			it: "Strano Comportamento",
-			es: "Comportamiento Extraño",
-			pt: "Comportamento Estranho"
-		},
-
-		effect: {
-			en: "As often as you like during your turn, you may move 1 damage counter from 1 of your other Pokémon to this Pokémon.",
-			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer un marqueur de dégâts de l'un de vos autres Pokémon vers ce Pokémon.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Schadensmarke von 1 deiner anderen Pokémon auf dieses Pokémon verschieben.",
-			it: "Durante il tuo turno, puoi spostare un segnalino danno da uno dei tuoi altri Pokémon a questo Pokémon tutte le volte che vuoi.",
-			es: "Todas las veces que quieras durante tu turno, puedes mover 1 contador de daño de uno de tus otros Pokémon a este Pokémon.",
-			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus outros Pokémon para este Pokémon."
-		}
-	}],
+	hp: 80,
+	types: ["Fire"],
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water", "Colorless"],
+		cost: ["Fire"],
 
 		name: {
-			en: "Bubble Drain",
-			fr: "Vide Bulle",
-			de: "Blasengully",
-			it: "Assorbibolla",
-			es: "Drenaje Burbujas",
-			pt: "Dreno de Bolha"
+			en: "Singe",
+			fr: "Roussi",
+			de: "Versengung",
+			it: "Scottata",
+			es: "Quemadura",
+			pt: "Chamuscada"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			pt: "Cure 30 pontos de dano deste Pokémon."
+			en: "Your opponent's Active Pokémon is now Burned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
+			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
+			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			pt: "O Pokémon Ativo do seu oponente agora está Queimado."
+		}
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			en: "Gadget Show",
+			fr: "Démonstration de Gadgets",
+			de: "Gadget-Show",
+			it: "Mostra di Gadget",
+			es: "Espectáculo de Utensilios",
+			pt: "Show de Bugigangas"
 		},
 
-		damage: 60
+		effect: {
+			en: "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts pour chaque Outil Pokémon attaché à tous vos Pokémon.",
+			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
+			it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
+			es: "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon."
+		},
+
+		damage: "30×"
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

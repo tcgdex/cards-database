@@ -5,60 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spewpa",
-		fr: "Pérégrain",
-		de: "Puponcho",
-		it: "Spewpa",
-		es: "Spewpa",
-		pt: "Spewpa"
+		en: "Mow Rotom",
+		fr: "Motisma Tonte",
+		de: "Schneid-Rotom",
+		it: "Rotom Taglio",
+		es: "Rotom Corte",
+		pt: "Rotom Corte"
 	},
 
-	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
-	stage: "Stage1",
+	stage: "Basic",
 
-	abilities: [{
-		type: "Ability",
+	attacks: [{
+		cost: ["Grass"],
 
 		name: {
-			en: "Adaptive Evolution",
-			fr: "Évolution Adaptative",
-			de: "Anpassungsfähige Entwicklung",
-			it: "Evoluzione Adattiva",
-			es: "Evolución Adaptable",
-			pt: "Evolução Adaptativa"
+			en: "Trimming Mower",
+			fr: "Tondeuse Tondante",
+			de: "Stutzende Schneide",
+			it: "Falciatrice",
+			es: "Cortacésped",
+			pt: "Cortador de Grama"
 		},
 
 		effect: {
-			en: "This Pokémon can evolve during your first turn or the turn you play it.",
-			fr: "Ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
-			de: "Dieses Pokémon kann sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, entwickeln.",
-			it: "Questo Pokémon può evolversi durante il tuo primo turno o il turno in cui lo giochi.",
-			es: "Este Pokémon puede evolucionar durante tu primer turno o durante el turno en que lo pongas en juego.",
-			pt: "Este Pokémon poderá evoluir durante o seu primeiro turno ou durante o turno em que for colocado em jogo."
-		}
-	}],
-
-	attacks: [{
-		cost: ["Grass", "Colorless"],
-
-		name: {
-			en: "Bug Bite",
-			fr: "Piqûre",
-			de: "Käferbiss",
-			it: "Coleomorso",
-			es: "Picadura",
-			pt: "Picada"
+			en: "Discard a Stadium in play.",
+			fr: "Défaussez un Stade en jeu.",
+			de: "Lege 1 Stadionkarte im Spiel auf den Ablagestapel.",
+			it: "Scarta una carta Stadio in gioco.",
+			es: "Descarta 1 Estadio en juego.",
+			pt: "Descarte um Estádio em jogo."
 		},
 
-		damage: 30
+		damage: 20
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			en: "Gadget Show",
+			fr: "Démonstration de Gadgets",
+			de: "Gadget-Show",
+			it: "Mostra di Gadget",
+			es: "Espectáculo de Utensilios",
+			pt: "Show de Bugigangas"
+		},
+
+		effect: {
+			en: "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts pour chaque Outil Pokémon attaché à tous vos Pokémon.",
+			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
+			it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
+			es: "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon."
+		},
+
+		damage: "30×"
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

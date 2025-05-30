@@ -5,69 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Forretress",
-		fr: "Foretress",
-		de: "Forstellka",
-		it: "Forretress",
-		es: "Forretress",
-		pt: "Forretress"
+		en: "Arven's Mabosstiff ex",
+		fr: "Dogrino-ex de Pepper",
+		de: "Peppers Mastifioso-ex",
+		it: "Mabosstiff-ex di Pepe",
+		es: "Mabosstiff ex de Damián",
+		pt: "Mabosstiff ex do Arven"
 	},
 
-	illustrator: "Lee HyunJung",
-	rarity: "Uncommon",
+	rarity: "Double rare",
 	category: "Pokemon",
-	hp: 120,
-	types: ["Metal"],
+	hp: 270,
+	types: ["Darkness"],
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Metal"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Continuous Spin",
-			fr: "Rotation Continue",
-			de: "Dauerdrehung",
-			it: "Eternogiro",
-			es: "Giro Continuo",
-			pt: "Giro Contínuo"
+			en: "Vigorous Tackle",
+			fr: "Charge Vigoureuse",
+			de: "Energischer Tackle",
+			it: "Azione Vigorosa",
+			es: "Placaje Rotundo",
+			pt: "Investida Vigorosa"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 50 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 50 dégâts pour chaque côté face.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 50 danni ogni volta che esce testa.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 50 puntos de daño por cada cara.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 50 pontos de dano para cada cara."
+			en: "If this Pokémon has no damage counters on it, this attack does 120 more damage.",
+			fr: "Si ce Pokémon n'a aucun marqueur de dégâts, cette attaque inflige 120 dégâts supplémentaires.",
+			de: "Wenn auf diesem Pokémon keine Schadensmarken liegen, fügt diese Attacke 120 Schadenspunkte mehr zu.",
+			it: "Se questo Pokémon non ha segnalini danno, questo attacco infligge 120 danni in più.",
+			es: "Si este Pokémon no tiene ningún contador de daño sobre él, este ataque hace 120 puntos de daño más.",
+			pt: "Se este Pokémon não tiver nenhum contador de dano nele, este ataque causará 120 pontos de dano a mais."
 		},
 
-		damage: "50×"
+		damage: "30+"
 	}, {
-		cost: ["Metal", "Colorless", "Colorless"],
+		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Rolling Shell",
-			fr: "Coquille Roulante",
-			de: "Rollende Schale",
-			it: "Guscio Rotolante",
-			es: "Caparazón Rodante",
-			pt: "Concha Rolante"
+			en: "Boss Headbutt",
+			fr: "Coup d'Boule du Boss",
+			de: "Kopfnuss vom Boss",
+			it: "Bottintesta del Boss",
+			es: "Cabezazo del Jefazo",
+			pt: "Cabeçada do Chefão"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 50 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 50 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
-			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 50 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			es: "Durante el próximo turno de tu rival, los ataques hacen 50 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 50 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+			en: "During your next turn, this Pokémon can't use Boss Headbutt.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup d'Boule du Boss.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Kopfnuss vom Boss nicht einsetzen.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Bottintesta del Boss.",
+			es: "Durante tu próximo turno, este Pokémon no puede usar Cabezazo del Jefazo.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Cabeçada do Chefão."
 		},
 
-		damage: 90
+		damage: 210
 	}],
 
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

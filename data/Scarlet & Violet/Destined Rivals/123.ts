@@ -5,69 +5,44 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Great Tusk ex",
-		fr: "Fort-Ivoire-ex",
-		de: "Riesenzahn-ex",
-		it: "Grandizanne-ex",
-		es: "Colmilargo ex",
-		pt: "Presa Grande ex"
+		en: "Team Rocket's Grimer",
+		fr: "Tadmorv de la Team Rocket",
+		de: "Team Rockets Sleima",
+		it: "Grimer del Team Rocket",
+		es: "Grimer del Team Rocket",
+		pt: "Grimer da Equipe Rocket"
 	},
 
-	illustrator: "5ban Graphics",
-	rarity: "Double rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 250,
-	types: ["Fighting"],
+	hp: 80,
+	types: ["Darkness"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fighting"],
+		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Bedrock Breaker",
-			fr: "Brise Fondation",
-			de: "Felsgrundbrecher",
-			it: "Infrangiroccia",
-			es: "Rompecimientos",
-			pt: "Quebrador de Alicerce"
+			en: "Corrosive Sludge",
+			fr: "Détritus Dégueu",
+			de: "Zersetzender Schlamm",
+			it: "Melma Corrosiva",
+			es: "Lodo Corrosivo",
+			pt: "Lodo Corrosivo"
 		},
 
 		effect: {
-			en: "Discard a Stadium in play.",
-			fr: "Défaussez un Stade en jeu.",
-			de: "Lege 1 Stadionkarte im Spiel auf den Ablagestapel.",
-			it: "Scarta una carta Stadio in gioco.",
-			es: "Descarta 1 Estadio en juego.",
-			pt: "Descarte um Estádio em jogo."
-		},
-
-		damage: 40
-	}, {
-		cost: ["Fighting", "Fighting", "Fighting"],
-
-		name: {
-			en: "Gigantic Tusks",
-			fr: "Défenses Gigantesques",
-			de: "Gigantische Stoßzähne",
-			it: "Zanne Mastodontiche",
-			es: "Colmillos Gigantescos",
-			pt: "Presas Colossais"
-		},
-
-		effect: {
-			en: "This Pokémon also does 50 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
-			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 50 pontos de dano a si mesmo."
-		},
-
-		damage: 250
+			en: "At the end of your opponent's next turn, discard the Defending Pokémon and all attached cards.",
+			fr: "À la fin du prochain tour de votre adversaire, défaussez le Pokémon Défenseur et toutes les cartes qui lui sont attachées.",
+			de: "Lege am Ende des nächsten Zuges deines Gegners das Verteidigende Pokémon und alle angelegten Karten auf seinen Ablagestapel.",
+			it: "Alla fine del prossimo turno del tuo avversario, scarta il Pokémon difensore e tutte le carte a esso assegnate.",
+			es: "Al final del próximo turno de tu rival, descarta el Pokémon Defensor y todas las cartas unidas a él.",
+			pt: "No final do próximo turno do seu oponente, descarte o Pokémon Defensor e todas as cartas ligadas a ele."
+		}
 	}],
 
-	retreat: 4,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

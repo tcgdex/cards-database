@@ -5,67 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bombirdier",
-		fr: "Lestombaile",
-		de: "Adebom",
-		it: "Bombirdier",
-		es: "Bombirdier",
-		pt: "Bombirdier"
+		en: "Team Rocket's Persian ex",
+		fr: "Persian-ex de la Team Rocket",
+		de: "Team Rockets Snobilikat-ex",
+		it: "Persian-ex del Team Rocket",
+		es: "Persian ex del Team Rocket",
+		pt: "Persian ex da Equipe Rocket"
 	},
 
-	illustrator: "Shibuzoh.",
-	rarity: "Illustration rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
-	hp: 110,
-	types: ["Darkness"],
-	stage: "Basic",
+	hp: 260,
+	types: ["Colorless"],
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Knickknack Carrying",
-			fr: "Trimballe Bricoles",
-			de: "Klimbimtransport",
-			it: "Trasporto di Cianfrusaglie",
-			es: "Transporte de Chatarra",
-			pt: "Carregando Tranqueira"
+			en: "Haughty Order",
+			fr: "Ordre Hautain",
+			de: "Anmaßender Befehl",
+			it: "Ordine Altezzoso",
+			es: "Orden Arrogante",
+			pt: "Ordem Arrogante"
 		},
 
 		effect: {
-			en: "Search your deck for up to 3 Pokémon Tool cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 3 cartes Outil Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			de: "Durchsuche dein Deck nach bis zu 3 Pokémon-Ausrüstungen, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
-			it: "Cerca nel tuo mazzo fino a tre carte Oggetto Pokémon, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			es: "Busca en tu baraja hasta 3 cartas de Herramienta Pokémon, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por até 3 cartas de Ferramenta Pokémon no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho."
+			en: "Reveal the top 10 cards of your opponent's deck. You may choose an attack from a Pokémon you find there and use it as this attack. Shuffle the revealed cards into your opponent's deck.",
+			fr: "Montrez les 10 cartes du dessus du deck de votre adversaire. Vous pouvez choisir une attaque d'un Pokémon que vous y trouvez et l'utiliser en tant que cette attaque. Mélangez les cartes montrées avec le deck de votre adversaire.",
+			de: "Decke die obersten 10 Karten des Decks deines Gegners auf. Du kannst 1 Attacke von 1 Pokémon, das du dort findest, wählen und sie als diese Attacke einsetzen. Mische die aufgedeckten Karten in das Deck deines Gegners.",
+			it: "Mostra le prime 10 carte del mazzo del tuo avversario. Puoi scegliere un attacco di un Pokémon presente tra esse e usarlo al posto di questo attacco. Rimischia le carte mostrate nel mazzo del tuo avversario.",
+			es: "Enseña las 10 primeras cartas de la baraja de tu rival. Puedes elegir un ataque de algún Pokémon que encuentres entre ellas y usarlo para este ataque. Pon las cartas que has enseñado en la baraja de tu rival y barájalas todas.",
+			pt: "Revele as 10 cartas de cima do baralho do seu oponente. Você pode escolher um ataque de um Pokémon que encontrar lá e usá-lo como este ataque. Embaralhe as cartas reveladas no baralho do seu oponente."
 		}
 	}, {
-		cost: ["Darkness", "Colorless"],
+		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Clutch",
-			fr: "Serre",
-			de: "Greifer",
-			it: "Grinfie",
-			es: "Embrague",
-			pt: "Agarramento"
+			en: "Cruel Slash",
+			fr: "Tranche Cruelle",
+			de: "Grausamer Schlitzer",
+			it: "Lacerazione Crudele",
+			es: "Tajo Cruel",
+			pt: "Talho Cruel"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar."
+			en: "Your opponent's Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			it: "Il Pokémon attivo del tuo avversario viene confuso.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso."
 		},
 
-		damage: 60
+		damage: 140
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

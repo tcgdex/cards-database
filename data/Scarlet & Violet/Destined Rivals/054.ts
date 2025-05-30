@@ -5,60 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Quaquaval",
-		fr: "Palmaval",
-		de: "Bailonda",
-		it: "Quaquaval",
-		es: "Quaquaval",
-		pt: "Quaquaval"
+		en: "Clamperl",
+		fr: "Coquiperl",
+		de: "Perlu",
+		it: "Clamperl",
+		es: "Clamperl",
+		pt: "Clamperl"
 	},
 
-	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 170,
+	hp: 60,
 	types: ["Water"],
-	stage: "Stage2",
+	stage: "Basic",
 
-	abilities: [{
-		type: "Ability",
+	attacks: [{
+		cost: ["Water"],
 
 		name: {
-			en: "Energy Carnival",
-			fr: "Carnaval Énergétique",
-			de: "Karneval der Energie",
-			it: "Carnevale Energetico",
-			es: "Carnaval de Energía",
-			pt: "Carnaval de Energia"
+			en: "Shell Press",
+			fr: "Pression Coquille",
+			de: "Schalendruck",
+			it: "Gusciopressa",
+			es: "Presión Caparazón",
+			pt: "Compressão de Concha"
 		},
 
 		effect: {
-			en: "Once during your turn, you may attach a Basic Energy card from your hand to 1 of your Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie de base de votre main à l'un de vos Pokémon.",
-			de: "Einmal während deines Zuges kannst du 1 Basis-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen.",
-			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia base dalla tua mano.",
-			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Básica de tu mano a uno de tus Pokémon.",
-			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia Básica da sua mão a 1 dos seus Pokémon."
-		}
-	}],
-
-	attacks: [{
-		cost: ["Water", "Colorless", "Colorless"],
-
-		name: {
-			en: "Hydro Kick",
-			fr: "Pied Hydro",
-			de: "Hydrokick",
-			it: "Idrocalcio",
-			es: "Hidropatada",
-			pt: "Chute d'Água"
+			en: "During your opponent's next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 10 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 10 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 10 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			es: "Durante el próximo turno de tu rival, los ataques hacen 10 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 10 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
 		},
 
-		damage: 140
+		damage: 10
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

@@ -5,58 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		de: "Flegmon",
-		it: "Slowpoke",
-		es: "Slowpoke",
-		pt: "Slowpoke"
+		en: "Kangaskhan",
+		fr: "Kangourex",
+		de: "Kangama",
+		it: "Kangaskhan",
+		es: "Kangaskhan",
+		pt: "Kangaskhan"
 	},
 
-	illustrator: "Toshinao Aoki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Water"],
+	hp: 120,
+	types: ["Colorless"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rest",
-			fr: "Repos",
-			de: "Erholung",
-			it: "Riposo",
-			es: "Descanso",
-			pt: "Descansar"
+			en: "Gentle Slap",
+			fr: "Gifle Douce",
+			de: "Sanfter Hieb",
+			it: "Schiaffetto",
+			es: "Bofetada Gentil",
+			pt: "Tapinha"
+		},
+
+		damage: 50
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			en: "Dizzy Punch",
+			fr: "Uppercut",
+			de: "Irrschlag",
+			it: "Stordipugno",
+			es: "Puño Mareo",
+			pt: "Soco Estonteante"
 		},
 
 		effect: {
-			en: "This Pokémon is now Asleep. Heal 30 damage from it.",
-			fr: "Ce Pokémon est maintenant Endormi. Soignez 30 dégâts de ce Pokémon.",
-			de: "Dieses Pokémon schläft jetzt. Heile 30 Schadenspunkte bei diesem Pokémon.",
-			it: "Questo Pokémon viene addormentato. Curalo da 30 danni.",
-			es: "Este Pokémon pasa a estar Dormido. Cúrale 30 puntos de daño.",
-			pt: "Este Pokémon agora está Adormecido. Cure 30 pontos de dano dele."
-		}
-	}, {
-		cost: ["Water", "Colorless"],
-
-		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			de: "Kopfnuss",
-			it: "Bottintesta",
-			es: "Golpe Cabeza",
-			pt: "Cabeçada"
+			en: "Flip 2 coins. This attack does 90 damage for each heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face.",
+			de: "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu.",
+			it: "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa.",
+			es: "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara.",
+			pt: "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara."
 		},
 
-		damage: 20
+		damage: "90×"
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

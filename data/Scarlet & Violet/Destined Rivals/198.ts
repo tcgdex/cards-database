@@ -5,29 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Youngster",
-		fr: "Gamin",
-		de: "Knirps",
-		it: "Marmocchio",
-		es: "Joven",
-		pt: "Jovem"
+		en: "Team Rocket's Orbeetle",
+		fr: "Astronelle de la Team Rocket",
+		de: "Team Rockets Maritellit",
+		it: "Orbeetle del Team Rocket",
+		es: "Orbeetle del Team Rocket",
+		pt: "Orbeetle da Equipe Rocket"
 	},
 
-	illustrator: "Hitoshi Ariga",
-	rarity: "Uncommon",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Psychic"],
+	stage: "Stage2",
 
-	effect: {
-		en: "Shuffle your hand into your deck. Then, draw 5 cards.",
-		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
-		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 5 Karten.",
-		it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca cinque carte.",
-		es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 5 cartas.",
-		pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 5 cartas."
-	},
+	abilities: [{
+		type: "Ability",
 
-	trainerType: "Supporter",
-	regulationMark: "G"
+		name: {
+			en: "Rocket Brain",
+			fr: "Cerveau Rocket",
+			de: "Rocket-Hirn",
+			it: "Cervello Rocket",
+			es: "Cerebro Rocket",
+			pt: "Cérebro Rocket"
+		},
+
+		effect: {
+			en: "As often as you like during your turn, you may move 1 damage counter from 1 of your Team Rocket's Pokémon to another of your Pokémon.",
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer un marqueur de dégâts de l'un de vos Pokémon de la Team Rocket vers un autre de vos Pokémon.",
+			de: "Beliebig oft während deines Zuges kannst du 1 Schadensmarke von 1 deiner Team Rockets Pokémon auf 1 anderes deiner Pokémon verschieben.",
+			it: "Durante il tuo turno, puoi spostare un segnalino danno da uno dei tuoi Pokémon del Team Rocket a un altro dei tuoi Pokémon tutte le volte che vuoi.",
+			es: "Todas las veces que quieras durante tu turno, puedes mover 1 contador de daño de uno de tus Pokémon del Team Rocket a otro de tus Pokémon.",
+			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus Pokémon da Equipe Rocket para outro Pokémon seu."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Psychic", "Colorless", "Colorless"],
+
+		name: {
+			en: "Psychic",
+			fr: "Psyko",
+			de: "Psychokinese",
+			it: "Psichico",
+			es: "Psíquico",
+			pt: "Psíquico"
+		},
+
+		effect: {
+			en: "This attack does 40 more damage for each Energy attached to your opponent's Active Pokémon.",
+			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 40 Schadenspunkte mehr zu.",
+			it: "Questo attacco infligge 40 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+			es: "Este ataque hace 40 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+			pt: "Este ataque causa 40 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente."
+		},
+
+		damage: "40+"
+	}],
+
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

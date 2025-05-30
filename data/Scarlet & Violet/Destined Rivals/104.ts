@@ -5,47 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Greavard",
-		fr: "Toutombe",
-		de: "Gruff",
-		it: "Greavard",
-		es: "Greavard",
-		pt: "Greavard"
+		en: "Cynthia's Garchomp ex",
+		fr: "Carchacrok-ex de Cynthia",
+		de: "Cynthias Knakrack-ex",
+		it: "Garchomp-ex di Camilla",
+		es: "Garchomp ex de Cintia",
+		pt: "Garchomp ex da Cíntia"
 	},
 
-	illustrator: "yuu",
-	rarity: "Common",
+	rarity: "Double rare",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Psychic"],
-	stage: "Basic",
+	hp: 330,
+	types: ["Fighting"],
+	stage: "Stage2",
 
 	attacks: [{
-		cost: ["Psychic"],
+		cost: ["Fighting"],
 
 		name: {
-			en: "Graveyard Gamboling",
-			fr: "Cabriole Funèbre",
-			de: "Grufttollerei",
-			it: "Saltellacimitero",
-			es: "Jugueteo en el Cementerio",
-			pt: "Cambalhotas no Cemitério"
+			en: "Corkscrew Dive",
+			fr: "Plongée Tire-Bouchon",
+			de: "Spiralsturzflug",
+			it: "Picchiata Rotante",
+			es: "Picado Tirabuzón",
+			pt: "Mergulho Parafuso"
 		},
 
 		effect: {
-			en: "This attack does 10 damage for each {P} Pokémon in your discard pile.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque Pokémon {P} dans votre pile de défausse.",
-			de: "Diese Attacke fügt für jedes {P}-Pokémon in deinem Ablagestapel 10 Schadenspunkte zu.",
-			it: "Questo attacco infligge 10 danni per ogni Pokémon {P} nella tua pila degli scarti.",
-			es: "Este ataque hace 10 puntos de daño por cada Pokémon {P} en tu pila de descartes.",
-			pt: "Este ataque causa 10 pontos de dano para cada Pokémon {P} na sua pilha de descarte."
+			en: "You may draw cards until you have 6 cards in your hand.",
+			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
+			de: "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast.",
+			it: "Puoi pescare fino ad avere sei carte in mano.",
+			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
+			pt: "Você pode comprar cartas até ter 6 cartas na sua mão."
 		},
 
-		damage: "10×"
+		damage: 100
+	}, {
+		cost: ["Fighting", "Fighting"],
+
+		name: {
+			en: "Draconic Buster",
+			fr: "Buster Draconien",
+			de: "Drachensprenger",
+			it: "Distruzione del Drago",
+			es: "Destrucción Dracónica",
+			pt: "Aniquilação Dracônica"
+		},
+
+		effect: {
+			en: "Discard all Energy from this Pokémon.",
+			fr: "Défaussez toutes les Énergies de ce Pokémon.",
+			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta tutte le Energie da questo Pokémon.",
+			es: "Descarta todas las Energías de este Pokémon.",
+			pt: "Descarte todas as Energias deste Pokémon."
+		},
+
+		damage: 260
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 0,
+	regulationMark: "I"
 }
 
 export default card

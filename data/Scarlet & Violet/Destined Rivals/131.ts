@@ -5,67 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toxicroak ex",
-		fr: "Coatox-ex",
-		de: "Toxiquak-ex",
-		it: "Toxicroak-ex",
-		es: "Toxicroak ex",
-		pt: "Toxicroak ex"
+		en: "Marnie's Liepard",
+		fr: "Léopardus de Rosemary",
+		de: "Marys Kleoparda",
+		it: "Liepard di Mary",
+		es: "Liepard de Roxy",
+		pt: "Liepard da Marine"
 	},
 
-	illustrator: "Nisota Niso",
-	rarity: "Double rare",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 250,
+	hp: 100,
 	types: ["Darkness"],
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Darkness"],
+		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Nasty Plot",
-			fr: "Machination",
-			de: "Ränkeschmied",
-			it: "Congiura",
-			es: "Maquinación",
-			pt: "Trama Maldosa"
+			en: "Pointy Claws",
+			fr: "Griffes Pointues",
+			de: "Spitze Krallen",
+			it: "Artigli Appuntiti",
+			es: "Garras Puntiagudas",
+			pt: "Garras Pontiagudas"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			de: "Durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck.",
-			it: "Cerca nel tuo mazzo fino a due carte e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			es: "Busca en tu baraja hasta 2 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por até 2 cartas no seu baralho e coloque-as na sua mão. Em seguida, embaralhe o seu baralho."
-		}
-	}, {
-		cost: ["Darkness", "Colorless", "Colorless"],
-
-		name: {
-			en: "Toxic Ripper",
-			fr: "Étripage Toxique",
-			de: "Giftiger Reißer",
-			it: "Squarciatossina",
-			es: "Destrucción Tóxica",
-			pt: "Rasgo Tóxico"
+			en: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-ex, cette attaque inflige 70 dégâts supplémentaires.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo attacco infligge 70 danni in più.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 70 puntos de daño más.",
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 70 pontos de dano a mais."
 		},
 
-		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 6 damage counters on that Pokémon instead of 1.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 6 marqueurs de dégâts sur ce Pokémon-là au lieu d'un.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege beim Pokémon-Check 6 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Metti sei segnalini danno invece di uno su quel Pokémon durante il controllo Pokémon.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el Chequeo Pokémon, pon 6 contadores de daño en vez de uno en ese Pokémon.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o Checape Pokémon, coloque 6 contadores de dano ao invés de 1 naquele Pokémon."
-		},
-
-		damage: 120
+		damage: "70+"
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

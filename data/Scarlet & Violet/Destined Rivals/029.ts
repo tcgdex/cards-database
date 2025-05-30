@@ -5,69 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scovillain",
-		fr: "Scovilain",
-		de: "Halupenjo",
-		it: "Scovillain",
-		es: "Scovillain",
-		pt: "Scovillain"
+		en: "Ponyta",
+		fr: "Ponyta",
+		de: "Ponita",
+		it: "Ponyta",
+		es: "Ponyta",
+		pt: "Ponyta"
 	},
 
-	illustrator: "KEIICHIRO ITO",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 110,
-	types: ["Grass"],
-	stage: "Stage1",
+	hp: 70,
+	types: ["Fire"],
+	stage: "Basic",
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Hot Bite",
-			fr: "Morsure Brûlante",
-			de: "Heißer Biss",
-			it: "Morso Piccante",
-			es: "Mordisco Picante",
-			pt: "Mordida Picante"
+			en: "Double Headbutt",
+			fr: "Double Coup d'Boule",
+			de: "Doppelte Kopfnuss",
+			it: "Doppia Bottintesta",
+			es: "Doble Cabezazo",
+			pt: "Cabeçada Dupla"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado."
+			en: "Flip 2 coins. This attack does 10 damage for each heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			de: "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
+			it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			pt: "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara."
 		},
 
-		damage: 20
-	}, {
-		cost: ["Grass", "Colorless", "Colorless"],
-
-		name: {
-			en: "Super Spicy Breath",
-			fr: "Souffle Super Pimenté",
-			de: "Superscharfer Atem",
-			it: "Alito Super Piccante",
-			es: "Aliento Superpicante",
-			pt: "Baforada Superapimentada"
-		},
-
-		effect: {
-			en: "If this Pokémon has any {R} Energy attached, this attack does 90 more damage.",
-			fr: "Si au moins une Énergie {R} est attachée à ce Pokémon, cette attaque inflige 90 dégâts supplémentaires.",
-			de: "Wenn an dieses Pokémon mindestens 1 {R}-Energie angelegt ist, fügt diese Attacke 90 Schadenspunkte mehr zu.",
-			it: "Se questo Pokémon ha delle Energie {R} assegnate, questo attacco infligge 90 danni in più.",
-			es: "Si este Pokémon tiene alguna Energía {R} unida, este ataque hace 90 puntos de daño más.",
-			pt: "Se este Pokémon tiver alguma Energia {R} ligada a ele, este ataque causará 90 pontos de dano a mais."
-		},
-
-		damage: "90+"
+		damage: "10×"
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

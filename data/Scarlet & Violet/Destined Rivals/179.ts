@@ -5,29 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miriam",
-		fr: "Mimosa",
-		de: "Mimi",
-		it: "Mimosa",
-		es: "Mimí",
-		pt: "Miriam"
+		en: "Team Rocket's Venture Bomb",
+		fr: "Bombe Risquée de la Team Rocket",
+		de: "Team Rockets Wagnisbombe",
+		it: "Bomba Azzardata del Team Rocket",
+		es: "Bomba Arriesgada del Team Rocket",
+		pt: "Bomba de Risco da Equipe Rocket"
 	},
 
-	illustrator: "Sanosuke Sakuma",
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Shuffle up to 5 Pokémon from your discard pile into your deck. If you shuffled any cards into your deck in this way, draw 3 cards.",
-		fr: "Mélangez avec votre deck jusqu'à 5 Pokémon de votre pile de défausse. Si vous avez mélangé au moins une carte avec votre deck de cette façon, piochez 3 cartes.",
-		de: "Mische bis zu 5 Pokémon aus deinem Ablagestapel in dein Deck. Wenn du auf diese Weise mindestens 1 Karte in dein Deck gemischt hast, ziehe 3 Karten.",
-		it: "Rimischia fino a cinque Pokémon dalla tua pila degli scarti nel tuo mazzo. Se hai rimischiato delle carte nel tuo mazzo in questo modo, pesca tre carte.",
-		es: "Pon hasta 5 Pokémon de tu pila de descartes en tu baraja y baraja todas las cartas. Si has puesto alguna carta en tu baraja de esta manera, roba 3 cartas.",
-		pt: "Embaralhe até 5 Pokémon da sua pilha de descarte no seu baralho. Se você embaralhou qualquer carta no seu baralho desta forma, compre 3 cartas."
+		en: "Flip a coin. If heads, put 2 damage counters on 1 of your opponent's Pokémon. If tails, put 2 damage counters on your Active Pokémon.",
+		fr: "Lancez une pièce. Si c'est face, placez 2 marqueurs de dégâts sur l'un des Pokémon de votre adversaire. Si c'est pile, placez 2 marqueurs de dégâts sur votre Pokémon Actif.",
+		de: "Wirf 1 Münze. Lege bei Kopf 2 Schadensmarken auf 1 Pokémon deines Gegners. Lege bei Zahl 2 Schadensmarken auf dein Aktives Pokémon.",
+		it: "Lancia una moneta. Se esce testa, metti due segnalini danno su uno dei Pokémon del tuo avversario. Se esce croce, metti due segnalini danno sul tuo Pokémon attivo.",
+		es: "Lanza 1 moneda. Si sale cara, pon 2 contadores de daño en uno de los Pokémon de tu rival. Si sale cruz, pon 2 contadores de daño en tu Pokémon Activo.",
+		pt: "Jogue uma moeda. Se sair cara, coloque 2 contadores de dano em 1 dos Pokémon do seu oponente. Se sair coroa, coloque 2 contadores de dano no seu Pokémon Ativo."
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "G"
+	trainerType: "Item",
+	regulationMark: "I"
 }
 
 export default card

@@ -5,15 +5,14 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawniard",
-		fr: "Scalpion",
-		de: "Gladiantri",
-		it: "Pawniard",
-		es: "Pawniard",
-		pt: "Pawniard"
+		en: "Marnie's Scraggy",
+		fr: "Baggiguane de Rosemary",
+		de: "Marys Zurrokex",
+		it: "Scraggy di Mary",
+		es: "Scraggy de Roxy",
+		pt: "Scraggy da Marine"
 	},
 
-	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -21,35 +20,31 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			de: "Kratzer",
-			it: "Graffio",
-			es: "Arañazo",
-			pt: "Arranhão"
+			en: "Crunch",
+			fr: "Mâchouille",
+			de: "Knirscher",
+			it: "Sgranocchio",
+			es: "Triturar",
+			pt: "Mastigada"
 		},
 
-		damage: 10
-	}, {
-		cost: ["Darkness", "Colorless"],
-
-		name: {
-			en: "Pierce",
-			fr: "Transpercement",
-			de: "Durchbohren",
-			it: "Perforare",
-			es: "Perforar",
-			pt: "Perfurar"
+		effect: {
+			en: "Discard an Energy from your opponent's Active Pokémon.",
+			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente."
 		},
 
-		damage: 20
+		damage: 50
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

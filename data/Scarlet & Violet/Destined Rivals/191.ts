@@ -5,29 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rare Candy",
-		fr: "Super Bonbon",
-		de: "Sonderbonbon",
-		it: "Caramella Rara",
-		es: "Caramelo Raro",
-		pt: "Doce Raro"
+		en: "Team Rocket's Houndoom",
+		fr: "Démolosse de la Team Rocket",
+		de: "Team Rockets Hundemon",
+		it: "Houndoom del Team Rocket",
+		es: "Houndoom del Team Rocket",
+		pt: "Houndoom da Equipe Rocket"
 	},
 
-	illustrator: "Studio Bora Inc.",
-	rarity: "Common",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Fire"],
+	stage: "Stage1",
 
-	effect: {
-		en: "Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pokémon that was put into play this turn.",
-		fr: "Choisissez l'un de vos Pokémon de base en jeu. Si vous avez dans votre main une carte Évolution de Niveau 2 de ce Pokémon-là, placez celle-ci sur le Pokémon de base pour le faire évoluer, sans passer par le Niveau 1. Vous ne pouvez utiliser cette carte ni pendant votre premier tour ni sur un Pokémon de base qui a été mis en jeu pendant ce tour.",
-		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Wenn du eine Phase-2-Karte auf deiner Hand hast, die sich aus jenem Pokémon entwickelt, lege jene Karte auf das Basis-Pokémon, um es zu entwickeln und Phase 1 zu überspringen. Du kannst diese Karte nicht während deines ersten Zuges oder für ein Basis-Pokémon, das während dieses Zuges ins Spiel gebracht wurde, einsetzen.",
-		it: "Scegli uno dei tuoi Pokémon Base in gioco. Se hai in mano una carta di Fase 2 che si evolve da quel Pokémon, metticela sopra per farlo evolvere, saltando la Fase 1. Non puoi usare questa carta durante il tuo primo turno o su un Pokémon Base che hai messo in gioco nel turno in corso.",
-		es: "Elige 1 de tus Pokémon Básicos en juego. Si tienes en tu mano una carta de Fase 2 que evolucione de ese Pokémon, pon esa carta sobre el Pokémon Básico para hacerlo evolucionar, saltándote la Fase 1. No puedes usar esta carta durante tu primer turno o sobre un Pokémon Básico que se haya puesto en juego en este turno.",
-		pt: "Escolha 1 dos seus Pokémon Básicos em jogo. Se você tiver uma carta de Estágio 2 na sua mão que evolua daquele Pokémon, coloque-a sobre o Pokémon Básico para evoluí-lo, pulando o Estágio 1. Você não pode usar esta carta durante o seu primeiro turno ou em um Pokémon Básico que foi colocado em jogo neste turno."
-	},
+	attacks: [{
+		cost: ["Fire"],
 
-	trainerType: "Item",
-	regulationMark: "G"
+		name: {
+			en: "Cruel Coal",
+			fr: "Charbon Cruel",
+			de: "Krude Kohle",
+			it: "Carboni Crudeli",
+			es: "Carbón Cruel",
+			pt: "Carvão Cruel"
+		},
+
+		effect: {
+			en: "Your opponent's Active Pokémon is now Burned and Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé et Confus.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt.",
+			it: "Il Pokémon attivo del tuo avversario viene bruciato e confuso.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido y Quemado.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso e Queimado."
+		}
+	}, {
+		cost: ["Fire", "Colorless"],
+
+		name: {
+			en: "Scorching Fire",
+			fr: "Feu Infernal",
+			de: "Versengendes Feuer",
+			it: "Fuoco Ustionante",
+			es: "Fuego Abrasador",
+			pt: "Fogo Ardente"
+		},
+
+		effect: {
+			en: "Discard an Energy from this Pokémon.",
+			fr: "Défaussez une Énergie de ce Pokémon.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta un'Energia da questo Pokémon.",
+			es: "Descarta 1 Energía de este Pokémon.",
+			pt: "Descarte uma Energia deste Pokémon."
+		},
+
+		damage: 120
+	}],
+
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

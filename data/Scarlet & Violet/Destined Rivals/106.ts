@@ -5,47 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndstone",
-		fr: "Tomberro",
-		de: "Friedwuff",
-		it: "Houndstone",
-		es: "Houndstone",
-		pt: "Houndstone"
+		en: "Hippowdon",
+		fr: "Hippodocus",
+		de: "Hippoterus",
+		it: "Hippowdon",
+		es: "Hippowdon",
+		pt: "Hippowdon"
 	},
 
-	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 140,
-	types: ["Psychic"],
+	hp: 160,
+	types: ["Fighting"],
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic", "Psychic"],
+		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Last Respects",
-			fr: "Hommage Posthume",
-			de: "Letzte Ehre",
-			it: "Omaggio ai KO",
-			es: "Homenaje Póstumo",
-			pt: "Último Adeus"
+			en: "Ram",
+			fr: "Collision",
+			de: "Ramme",
+			it: "Carica",
+			es: "Apisonar",
+			pt: "Aríete"
+		},
+
+		damage: 60
+	}, {
+		cost: ["Fighting", "Fighting", "Colorless"],
+
+		name: {
+			en: "Super Sandstorm",
+			fr: "Super Tempête de Sable",
+			de: "Super-Sandsturm",
+			it: "Super Terrempesta",
+			es: "Supertormenta de Arena",
+			pt: "Supertempestade de Areia"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each {P} Pokémon in your discard pile.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon {P} dans votre pile de défausse.",
-			de: "Diese Attacke fügt für jedes {P}-Pokémon in deinem Ablagestapel 10 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 10 danni in più per ogni Pokémon {P} nella tua pila degli scarti.",
-			es: "Este ataque hace 10 puntos de daño más por cada Pokémon {P} en tu pila de descartes.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada Pokémon {P} na sua pilha de descarte."
+			en: "This attack also does 40 damage to each Benched Pokémon that has any damage counters on it (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige aussi 40 dégâts à chacun des Pokémon de Banc ayant au moins un marqueur de dégâts (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			de: "Diese Attacke fügt auch jedem Pokémon auf der Bank (deiner und der deines Gegners), auf dem mindestens 1 Schadensmarke liegt, 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			it: "Questo attacco infligge anche 40 danni a ciascuno dei Pokémon in panchina che ha dei segnalini danno, sia tuo che del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			es: "Este ataque también hace 40 puntos de daño a cada Pokémon en Banca (tanto tuyos como de tu rival) que tenga algún contador de daño sobre él. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			pt: "Este ataque também causa 40 pontos de dano a cada um dos Pokémon no Banco que tiver algum contador de dano nele (seus e do seu oponente). (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		},
 
-		damage: "80+"
+		damage: 150
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	retreat: 4,
+	regulationMark: "H"
 }
 
 export default card

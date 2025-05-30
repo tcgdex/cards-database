@@ -5,29 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arven",
-		fr: "Pepper",
-		de: "Pepper",
-		it: "Pepe",
-		es: "Damián",
-		pt: "Arven"
+		en: "Granite Cave",
+		fr: "Grotte Granite",
+		de: "Granithöhle",
+		it: "Grotta Pietrosa",
+		es: "Cueva Granito",
+		pt: "Caverna de Granito"
 	},
 
-	illustrator: "GIDORA",
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Search your deck for an Item card and a Pokémon Tool card, reveal them, and put them into your hand. Then, shuffle your deck.",
-		fr: "Cherchez dans votre deck une carte Objet et une carte Outil Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-		de: "Durchsuche dein Deck nach 1 Itemkarte und 1 Pokémon-Ausrüstung, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
-		it: "Cerca nel tuo mazzo una carta Strumento e una carta Oggetto Pokémon, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-		es: "Busca en tu baraja 1 carta de Objeto y 1 carta de Herramienta Pokémon, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-		pt: "Procure por uma carta de Item e uma carta de Ferramenta Pokémon no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho."
+		en: "Steven's Pokémon (both yours and your opponent's) take 30 less damage from attacks from the opponent's Pokémon (after applying Weakness and Resistance).",
+		fr: "Les Pokémon de Pierre (les vôtres et ceux de votre adversaire) subissent 30 dégâts de moins provenant des attaques des Pokémon de l'adversaire (après application de la Faiblesse et de la Résistance).",
+		de: "Troys Pokémon (deinen und denen deines Gegners) werden durch Attacken von Pokémon des Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+		it: "I Pokémon di Rocco, sia tuoi che del tuo avversario, subiscono 30 danni in meno dagli attacchi dei Pokémon dell'avversario, dopo aver applicato debolezza e resistenza.",
+		es: "Los ataques de los Pokémon del rival hacen 30 puntos de daño menos a los Pokémon de Máximo (tanto tuyos como de tu rival) (después de aplicar Debilidad y Resistencia).",
+		pt: "Os Pokémon do Steven (seus e do seu oponente) recebem 30 pontos de dano a menos de ataques dos Pokémon do oponente (depois de aplicar Fraqueza e Resistência)."
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "G"
+	trainerType: "Stadium",
+	regulationMark: "I"
 }
 
 export default card

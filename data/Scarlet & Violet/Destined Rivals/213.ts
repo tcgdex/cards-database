@@ -5,58 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fidough",
-		fr: "Pâtachiot",
-		de: "Hefel",
-		it: "Fidough",
-		es: "Fidough",
-		pt: "Fidough"
+		en: "Team Rocket's Mewtwo ex",
+		fr: "Mewtwo-ex de la Team Rocket",
+		de: "Team Rockets Mewtu-ex",
+		it: "Mewtwo-ex del Team Rocket",
+		es: "Mewtwo ex del Team Rocket",
+		pt: "Mewtwo ex da Equipe Rocket"
 	},
 
-	illustrator: "Tika Matsuno",
-	rarity: "Illustration rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
-	hp: 60,
+	hp: 280,
 	types: ["Psychic"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Psychic"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Springy",
-			fr: "Malléable",
-			de: "Abfedern",
-			it: "Elastico",
-			es: "Tiernecito",
-			pt: "Elástico"
+			en: "Power Saver",
+			fr: "Économie de Puissance",
+			de: "Sparpower",
+			it: "Serbaforza",
+			es: "Ahorro de Poder",
+			pt: "Economizador de Energia"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
-			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			es: "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+			en: "This Pokémon can't attack unless you have 4 or more Team Rocket's Pokémon in play.",
+			fr: "Ce Pokémon ne peut attaquer que si vous avez 4 Pokémon de la Team Rocket ou plus en jeu.",
+			de: "Dieses Pokémon kann nicht angreifen, es sei denn, du hast 4 oder mehr Team Rockets Pokémon im Spiel.",
+			it: "Questo Pokémon non può attaccare a meno che tu non abbia quattro o più Pokémon del Team Rocket in gioco.",
+			es: "Este Pokémon no puede atacar a menos que tengas 4 Pokémon del Team Rocket o más en juego.",
+			pt: "Este Pokémon não pode atacar a não ser que você tenha 4 ou mais Pokémon da Equipe Rocket em jogo."
 		}
-	}, {
-		cost: ["Psychic", "Colorless", "Colorless"],
-
-		name: {
-			en: "Flop",
-			fr: "Flop",
-			de: "Plumps",
-			it: "Tonfo",
-			es: "Vuelta",
-			pt: "Baque"
-		},
-
-		damage: 30
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Psychic", "Psychic", "Colorless"],
+
+		name: {
+			en: "Erasure Ball",
+			fr: "Boule Effacement",
+			de: "Löschball",
+			it: "Annientapalla",
+			es: "Bola Correctora",
+			pt: "Bola de Supressão"
+		},
+
+		effect: {
+			en: "You may discard up to 2 Energy from your Benched Pokémon. This attack does 60 more damage for each card you discarded in this way.",
+			fr: "Vous pouvez défausser jusqu'à 2 Énergies de vos Pokémon de Banc. Cette attaque inflige 60 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			de: "Du kannst bis zu 2 Energien von Pokémon auf deiner Bank auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte mehr zu.",
+			it: "Puoi scartare fino a due Energie dai tuoi Pokémon in panchina. Questo attacco infligge 60 danni in più per ogni carta che hai scartato in questo modo.",
+			es: "Puedes descartar hasta 2 Energías de tus Pokémon en Banca. Este ataque hace 60 puntos de daño más por cada carta que hayas descartado de esta manera.",
+			pt: "Você pode descartar até 2 Energias dos seus Pokémon no Banco. Este ataque causa 60 pontos de dano a mais para cada carta descartada desta forma."
+		},
+
+		damage: "160+"
+	}],
+
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

@@ -5,58 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lechonk",
-		fr: "Gourmelet",
-		de: "Ferkuli",
-		it: "Lechonk",
-		es: "Lechonk",
-		pt: "Lechonk"
+		en: "Team Rocket's Porygon2",
+		fr: "Porygon2 de la Team Rocket",
+		de: "Team Rockets Porygon2",
+		it: "Porygon2 del Team Rocket",
+		es: "Porygon2 del Team Rocket",
+		pt: "Porygon2 da Equipe Rocket"
 	},
 
-	illustrator: "Teeziro",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 60,
+	hp: 90,
 	types: ["Colorless"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Repelling Odor",
-			fr: "Odeur Repoussante",
-			de: "Abstoßender Gestank",
-			it: "Odore Repellente",
-			es: "Olor Repelente",
-			pt: "Odor Repelente"
+			en: "R Command",
+			fr: "Commande R",
+			de: "R-Befehl",
+			it: "Comando R",
+			es: "Comando R",
+			pt: "Comando R"
 		},
 
 		effect: {
-			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			fr: "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
-			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
-		}
-	}, {
-		cost: ["Colorless", "Colorless"],
-
-		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			de: "Zertrampeln",
-			it: "Fuggi Fuggi",
-			es: "Estampida",
-			pt: "Estouro"
+			en: "This attack does 20 damage for each Supporter card that has \"Team Rocket\" in its name in your discard pile.",
+			fr: "Cette attaque inflige 20 dégâts pour chaque carte Supporter dans votre pile de défausse ayant \" Team Rocket \" dans son nom.",
+			de: "Diese Attacke fügt für jede Unterstützerkarte in deinem Ablagestapel, bei der \"Team Rocket\" zum Namen gehört, 20 Schadenspunkte zu.",
+			it: "Questo attacco infligge 20 danni per ogni carta Aiuto nella tua pila degli scarti che ha \"Team Rocket\" nel nome.",
+			es: "Este ataque hace 20 puntos de daño por cada carta de Partidario en tu pila de descartes que tenga \"Team Rocket\" en su nombre.",
+			pt: "Este ataque causa 20 pontos de dano para cada carta de Apoiador que tenha \"Equipe Rocket\" em seu nome na sua pilha de descarte."
 		},
 
-		damage: 20
+		damage: "20×"
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

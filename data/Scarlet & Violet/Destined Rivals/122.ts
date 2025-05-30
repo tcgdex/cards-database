@@ -5,60 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klawf",
-		fr: "Craparoi",
-		de: "Klibbe",
-		it: "Klawf",
-		es: "Klawf",
-		pt: "Klawf"
+		en: "Team Rocket's Crobat ex",
+		fr: "Nostenfer-ex de la Team Rocket",
+		de: "Team Rockets Iksbat-ex",
+		it: "Crobat-ex del Team Rocket",
+		es: "Crobat ex del Team Rocket",
+		pt: "Crobat ex da Equipe Rocket"
 	},
 
-	illustrator: "nagimiso",
-	rarity: "Rare",
+	rarity: "Double rare",
 	category: "Pokemon",
-	hp: 130,
-	types: ["Fighting"],
-	stage: "Basic",
+	hp: 310,
+	types: ["Darkness"],
+	stage: "Stage2",
 
-	attacks: [{
-		cost: ["Fighting", "Fighting"],
-
-		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne",
-			de: "Klammer",
-			it: "Presa",
-			es: "Agarre",
-			pt: "Agarramento Compressor"
-		},
-
-		damage: 50
-	}, {
-		cost: ["Fighting", "Fighting", "Fighting"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Adrenaline Hammer",
-			fr: "Marteau Adrénaline",
-			de: "Adrenalinhammer",
-			it: "Martello Adrenalinico",
-			es: "Martillo Adrenalina",
-			pt: "Martelo de Adrenalina"
+			en: "Biting Spree",
+			fr: "Morsures Effrénées",
+			de: "Bissiger Rausch",
+			it: "Mordi Mordi",
+			es: "Festival de Mordiscos",
+			pt: "Mordidas Frenéticas"
 		},
 
 		effect: {
-			en: "This Pokémon is now Confused.",
-			fr: "Ce Pokémon est maintenant Confus.",
-			de: "Dieses Pokémon ist jetzt verwirrt.",
-			it: "Questo Pokémon viene confuso.",
-			es: "Este Pokémon pasa a estar Confundido.",
-			pt: "Este Pokémon agora está Confuso."
-		},
-
-		damage: 130
+			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may choose 2 of your opponent's Pokémon and put 2 damage counters on each of them.",
+			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez choisir 2 des Pokémon de votre adversaire, puis placer 2 marqueurs de dégâts sur chacun d'eux.",
+			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 2 Pokémon deines Gegners wählen und 2 Schadensmarken auf jedes von ihnen legen.",
+			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi scegliere due dei Pokémon del tuo avversario e mettere due segnalini danno su ciascuno di essi.",
+			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, puedes elegir 2 de los Pokémon de tu rival y poner 2 contadores de daño en cada uno de ellos.",
+			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá escolher 2 dos Pokémon do seu oponente e colocar 2 contadores de dano em cada um deles."
+		}
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Darkness", "Darkness"],
+
+		name: {
+			en: "Assassin's Return",
+			fr: "Retour de l'Assassin",
+			de: "Meuchelrückkehr",
+			it: "Ritorno dell'Assassino",
+			es: "Retorno del Asesino",
+			pt: "Retorno do Assassino"
+		},
+
+		effect: {
+			en: "You may put this Pokémon into your hand. (Discard all cards attached to this Pokémon.)",
+			fr: "Vous pouvez ajouter ce Pokémon à votre main. (Défaussez toutes les cartes attachées à ce Pokémon.)",
+			de: "Du kannst dieses Pokémon auf deine Hand nehmen. (Lege alle an dieses Pokémon angelegten Karten auf deinen Ablagestapel.)",
+			it: "Puoi riprendere in mano questo Pokémon. Scarta tutte le carte assegnate a questo Pokémon.",
+			es: "Puedes poner este Pokémon en tu mano. (Descarta todas las cartas unidas a este Pokémon).",
+			pt: "Você pode colocar este Pokémon na sua mão. (Descarte todas as cartas ligadas a este Pokémon.)"
+		},
+
+		damage: 120
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

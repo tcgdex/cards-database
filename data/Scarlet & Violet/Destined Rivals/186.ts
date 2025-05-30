@@ -5,29 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pokégear 3.0",
-		fr: "Pokématos 3.0",
-		de: "Pokécom 3.0",
-		it: "Pokégear 3.0",
-		es: "Pokégear 3.0",
-		pt: "Pokégear 3.0"
+		en: "Crustle",
+		fr: "Crabaraque",
+		de: "Castellith",
+		it: "Crustle",
+		es: "Crustle",
+		pt: "Crustle"
 	},
 
-	illustrator: "Toyste Beach",
-	rarity: "Common",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 150,
+	types: ["Grass"],
+	stage: "Stage1",
 
-	effect: {
-		en: "Look at the top 7 cards of your deck. You may reveal a Supporter card you find there and put it into your hand. Shuffle the other cards back into your deck.",
-		fr: "Regardez les 7 cartes du dessus de votre deck. Vous pouvez montrer une carte Supporter que vous y trouvez, puis l'ajouter à votre main. Mélangez les autres cartes avec votre deck.",
-		de: "Schau dir die obersten 7 Karten deines Decks an. Du kannst 1 Unterstützerkarte, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck.",
-		it: "Guarda le prime sette carte del tuo mazzo. Puoi mostrare una carta Aiuto presente tra esse e aggiungerla alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
-		es: "Mira las 7 primeras cartas de tu baraja. Puedes enseñar 1 carta de Partidario que encuentres entre ellas y ponerla en tu mano. Pon el resto de las cartas de nuevo en tu baraja y barájalas todas.",
-		pt: "Olhe as 7 cartas de cima do seu baralho. Você poderá revelar uma carta de Apoiador que encontrar lá e colocá-la na sua mão. Embaralhe as outras cartas de volta no seu baralho."
-	},
+	abilities: [{
+		type: "Ability",
 
-	trainerType: "Item",
-	regulationMark: "G"
+		name: {
+			en: "Mysterious Rock Inn",
+			fr: "Mystère Lithicole",
+			de: "Geheimnisvolles Steinhaus",
+			it: "Pietracasa Misteriosa",
+			es: "Casapiedra Misteriosa",
+			pt: "Rocha Misteriosa"
+		},
+
+		effect: {
+			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex.",
+			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon-ex de votre adversaire.",
+			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon-ex deines Gegners zugefügt wird.",
+			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon-ex del tuo avversario.",
+			es: "Se evita todo el daño infligido a este Pokémon por ataques de los Pokémon ex de tu rival.",
+			pt: "Previna todo o dano causado a este Pokémon por ataques dos Pokémon ex do seu oponente."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Grass", "Colorless", "Colorless"],
+
+		name: {
+			en: "Superb Scissors",
+			fr: "Superbes Ciseaux",
+			de: "Süperbe Scheren",
+			it: "Forbici Formidabili",
+			es: "Tijeras Espléndidas",
+			pt: "Tremendas Tesouras"
+		},
+
+		effect: {
+			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+			it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
+			es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
+			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente."
+		},
+
+		damage: 120
+	}],
+
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

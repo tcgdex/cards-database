@@ -5,47 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Floette",
-		fr: "Floette",
-		de: "Floette",
-		it: "Floette",
-		es: "Floette",
-		pt: "Floette"
+		en: "Annihilape",
+		fr: "Courrousinge",
+		de: "Epitaff",
+		it: "Annihilape",
+		es: "Annihilape",
+		pt: "Annihilape"
 	},
 
-	illustrator: "saino misaki",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Psychic"],
-	stage: "Stage1",
+	hp: 150,
+	types: ["Fighting"],
+	stage: "Stage2",
 
-	attacks: [{
-		cost: ["Psychic", "Colorless"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Magical Leaf",
-			fr: "Feuille Magik",
-			de: "Zauberblatt",
-			it: "Fogliamagica",
-			es: "Hoja Mágica",
-			pt: "Folha Mágica"
+			en: "Lose Cool",
+			fr: "Perte de Sang-Froid",
+			de: "Fassung verlieren",
+			it: "Perdicalma",
+			es: "Perder la Calma",
+			pt: "Com a Macaca"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage, and heal 30 damage from this Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts de ce Pokémon.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu, und du heilst 30 Schadenspunkte bei diesem Pokémon.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più e curi questo Pokémon da 30 danni.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más y cura 30 puntos de daño a este Pokémon.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais, e cure 30 pontos de dano deste Pokémon."
-		},
-
-		damage: "30+"
+			en: "If this Pokémon has 2 or more damage counters on it, attacks used by this Pokémon do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+			fr: "Si ce Pokémon a au moins 2 marqueurs de dégâts, les attaques utilisées par ce Pokémon infligent 120 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+			de: "Wenn auf diesem Pokémon 2 oder mehr Schadensmarken liegen, fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners 120 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
+			it: "Se questo Pokémon ha due o più segnalini danno, gli attacchi usati da questo Pokémon infliggono 120 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
+			es: "Si este Pokémon tiene 2 contadores de daño o más sobre él, los ataques usados por este Pokémon hacen 120 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+			pt: "Se este Pokémon tiver 2 ou mais contadores de dano nele, os ataques usados por este Pokémon causarão 120 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência)."
+		}
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Fighting", "Fighting"],
+
+		name: {
+			en: "Impact Blow",
+			fr: "Coup à Impact",
+			de: "Einschlag",
+			it: "Colpoimpatto",
+			es: "Golpe Impactante",
+			pt: "Golpe Impactante"
+		},
+
+		effect: {
+			en: "During your next turn, this Pokémon can't use Impact Blow.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup à Impact.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Einschlag nicht einsetzen.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Colpoimpatto.",
+			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Impactante.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Golpe Impactante."
+		},
+
+		damage: 160
+	}],
+
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

@@ -5,29 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Judge",
-		fr: "Juge",
-		de: "Richter",
-		it: "Arbitro",
-		es: "Juez",
-		pt: "Juiz"
+		en: "Team Rocket's Petrel",
+		fr: "Lambda de la Team Rocket",
+		de: "Team Rockets Lambda",
+		it: "Maxus del Team Rocket",
+		es: "Petrel del Team Rocket",
+		pt: "Petrel da Equipe Rocket"
 	},
 
-	illustrator: "Hideki Ishikawa",
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Each player shuffles their hand into their deck and draws 4 cards.",
-		fr: "Chaque joueur mélange sa main avec son deck et pioche 4 cartes.",
-		de: "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten.",
-		it: "Ciascun giocatore rimischia le carte che ha in mano nel proprio mazzo e pesca quattro carte.",
-		es: "Cada jugador pone las cartas de su mano en su baraja, las baraja todas y roba 4 cartas.",
-		pt: "Cada jogador embaralha a própria mão no próprio baralho e compra 4 cartas."
+		en: "Search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck.",
+		fr: "Cherchez dans votre deck une carte Supporter, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+		de: "Durchsuche dein Deck nach 1 Trainerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+		it: "Cerca nel tuo mazzo una carta Allenatore, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+		es: "Busca en tu baraja 1 carta de Entrenador, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+		pt: "Procure por uma carta de Treinador no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho."
 	},
 
 	trainerType: "Supporter",
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

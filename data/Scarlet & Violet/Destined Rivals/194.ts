@@ -5,29 +5,57 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Switch",
-		fr: "Échange",
-		de: "Tausch",
-		it: "Scambio",
-		es: "Cambio",
-		pt: "Substituição"
+		en: "Misty's Lapras",
+		fr: "Lokhlass d'Ondine",
+		de: "Mistys Lapras",
+		it: "Lapras di Misty",
+		es: "Lapras de Misty",
+		pt: "Lapras da Misty"
 	},
 
-	illustrator: "Studio Bora Inc.",
-	rarity: "Common",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 110,
+	types: ["Water"],
+	stage: "Basic",
 
-	effect: {
-		en: "Switch your Active Pokémon with 1 of your Benched Pokémon.",
-		fr: "Échangez votre Pokémon Actif contre l'un de vos Pokémon de Banc.",
-		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus.",
-		it: "Scambia il tuo Pokémon attivo con uno della tua panchina.",
-		es: "Cambia tu Pokémon Activo por uno de tus Pokémon en Banca.",
-		pt: "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco."
-	},
+	attacks: [{
+		cost: ["Water"],
 
-	trainerType: "Item",
-	regulationMark: "G"
+		name: {
+			en: "Swim Together",
+			fr: "Nageons Ensemble",
+			de: "Gemeinsames Schwimmen",
+			it: "Nuotata in Compagnia",
+			es: "Nadar Juntos",
+			pt: "Nadar Juntos"
+		},
+
+		effect: {
+			en: "Search your deck for up to 3 Misty's Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 3 Pokémon d'Ondine, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			de: "Durchsuche dein Deck nach bis zu 3 Mistys Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo fino a tre Pokémon di Misty, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			es: "Busca en tu baraja hasta 3 Pokémon de Misty, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por até 3 Pokémon da Misty no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho."
+		}
+	}, {
+		cost: ["Water", "Colorless"],
+
+		name: {
+			en: "Surf",
+			fr: "Surf",
+			de: "Surfer",
+			it: "Surf",
+			es: "Surf",
+			pt: "Surfar"
+		},
+
+		damage: 60
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

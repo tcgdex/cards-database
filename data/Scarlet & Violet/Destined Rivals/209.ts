@@ -5,69 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawmot",
-		fr: "Pohmarmotte",
-		de: "Pamomamo",
-		it: "Pawmot",
-		es: "Pawmot",
-		pt: "Pawmot"
+		en: "Ethan's Ho-Oh ex",
+		fr: "Ho-Oh-ex de Luth",
+		de: "Klarins Ho-Oh-ex",
+		it: "Ho-Oh-ex di Armonio",
+		es: "Ho-Oh ex de Eco",
+		pt: "Ho-Oh ex do Ethan"
 	},
 
-	illustrator: "Kouki Saitou",
-	rarity: "Illustration rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
-	hp: 130,
-	types: ["Lightning"],
-	stage: "Stage2",
+	hp: 230,
+	types: ["Fire"],
+	stage: "Basic",
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Electrogenesis",
-			fr: "Électrogenèse",
-			de: "Elektrogenese",
-			it: "Elettroproduzione",
-			es: "Electrorigen",
-			pt: "Gênese Elétrica"
+			en: "Golden Flame",
+			fr: "Flamme Dorée",
+			de: "Goldene Flamme",
+			it: "Fiamma Dorata",
+			es: "Llama Dorada",
+			pt: "Chama Dourada"
 		},
 
 		effect: {
-			en: "Once during your turn, you may search your deck for a Basic {L} Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Énergie {L} de base, puis l'attacher à ce Pokémon. Mélangez ensuite votre deck.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Basis-{L}-Energiekarte durchsuchen und sie an dieses Pokémon anlegen. Mische anschließend dein Deck.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia base {L} e assegnarla a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía {L} Básica y unirla a este Pokémon. Después, baraja las cartas de tu baraja.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Energia {L} Básica no seu baralho e ligá-la a este Pokémon. Em seguida, embaralhe o seu baralho."
+			en: "Once during your turn, you may attach up to 2 Basic {R} Energy cards from your hand to 1 of your Benched Ethan's Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez attacher jusqu'à 2 cartes Énergie {R} de base de votre main à l'un de vos Pokémon de Luth de Banc.",
+			de: "Einmal während deines Zuges kannst du bis zu 2 Basis-{R}-Energiekarten aus deiner Hand an 1 Klarins Pokémon auf deiner Bank anlegen.",
+			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon di Armonio in panchina fino a due carte Energia base {R} dalla tua mano.",
+			es: "Una vez durante tu turno, puedes unir hasta 2 cartas de Energía {R} Básica de tu mano a uno de tus Pokémon de Eco en Banca.",
+			pt: "Uma vez durante o seu turno, você poderá ligar até 2 cartas de Energia {R} Básica da sua mão a 1 dos seus Pokémon do Ethan no Banco."
 		}
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
+		cost: ["Fire", "Fire", "Fire", "Fire"],
 
 		name: {
-			en: "Electro Paws",
-			fr: "Électro Pattes",
-			de: "Elektropfoten",
-			it: "Elettrozampe",
-			es: "Electropatas",
-			pt: "Patas Elétricas"
+			en: "Shining Feathers",
+			fr: "Plumes Brillantes",
+			de: "Schimmernde Federn",
+			it: "Piume Lucenti",
+			es: "Plumas Radiantes",
+			pt: "Plumas Brilhantes"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta tutte le Energie da questo Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon."
+			en: "Heal 50 damage from each of your Pokémon.",
+			fr: "Soignez 50 dégâts de chacun de vos Pokémon.",
+			de: "Heile 50 Schadenspunkte bei jedem deiner Pokémon.",
+			it: "Cura ciascuno dei tuoi Pokémon da 50 danni.",
+			es: "Cura 50 puntos de daño a cada uno de tus Pokémon.",
+			pt: "Cure 50 pontos de dano de cada um dos seus Pokémon."
 		},
 
-		damage: 230
+		damage: 160
 	}],
 
-	retreat: 0,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

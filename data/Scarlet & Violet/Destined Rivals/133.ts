@@ -5,16 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bisharp",
-		fr: "Scalproie",
-		de: "Caesurio",
-		it: "Bisharp",
-		es: "Bisharp",
-		pt: "Bisharp"
+		en: "Marnie's Scrafty",
+		fr: "Baggaïd de Rosemary",
+		de: "Marys Irokex",
+		it: "Scrafty di Mary",
+		es: "Scrafty de Roxy",
+		pt: "Scrafty da Marine"
 	},
 
-	illustrator: "Hideki Ishikawa",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
@@ -24,25 +23,25 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Dark Cutter",
-			fr: "Tranch'Obscur",
-			de: "Dunkler Zerschneider",
-			it: "Oscurotaglio",
-			es: "Cuchilla Oscura",
-			pt: "Cortador de Escuridão"
+			en: "Rear Kick",
+			fr: "Ruade",
+			de: "Rückwärtskick",
+			it: "Retrocalcio",
+			es: "Patada Trasera",
+			pt: "Chute Traseiro"
 		},
 
 		damage: 40
 	}, {
-		cost: ["Darkness", "Colorless"],
+		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Double-Edged Slash",
-			fr: "Double Tranchant",
-			de: "Zweischneidiger Schlitzer",
-			it: "Doppio Taglio",
-			es: "Cuchillada Doble Filo",
-			pt: "Talho de Dois Gumes"
+			en: "Wild Tackle",
+			fr: "Tacle Brutal",
+			de: "Wilder Tackle",
+			it: "Azionferoce",
+			es: "Placaje Salvaje",
+			pt: "Investida Feroz"
 		},
 
 		effect: {
@@ -54,11 +53,11 @@ const card: Card = {
 			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
 		},
 
-		damage: 120
+		damage: 160
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

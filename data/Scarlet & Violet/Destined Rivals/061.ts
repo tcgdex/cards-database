@@ -5,60 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dondozo",
-		fr: "Oyacata",
-		de: "Heerashai",
-		it: "Dondozo",
-		es: "Dondozo",
-		pt: "Dondozo"
+		en: "Wash Rotom",
+		fr: "Motisma Lavage",
+		de: "Wasch-Rotom",
+		it: "Rotom Lavaggio",
+		es: "Rotom Lavado",
+		pt: "Rotom Lavagem"
 	},
 
-	illustrator: "Souichirou Gunjima",
-	rarity: "Rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 160,
+	hp: 80,
 	types: ["Water"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
+		cost: ["Water"],
 
 		name: {
-			en: "Release Rage",
-			fr: "Colère Libérée",
-			de: "Wut ablassen",
-			it: "Scatenafuria",
-			es: "Furia Desatada",
-			pt: "Irradiar Ira"
+			en: "Manual Wash",
+			fr: "Lavage à la Main",
+			de: "Handwäsche",
+			it: "Lavaggio a Mano",
+			es: "Lavado a Mano",
+			pt: "Lavagem Manual"
 		},
 
 		effect: {
-			en: "This attack does 50 damage for each Tatsugiri in your discard pile.",
-			fr: "Cette attaque inflige 50 dégâts pour chaque Nigirigon dans votre pile de défausse.",
-			de: "Diese Attacke fügt für jedes Nigiragi in deinem Ablagestapel 50 Schadenspunkte zu.",
-			it: "Questo attacco infligge 50 danni per ogni Tatsugiri nella tua pila degli scarti.",
-			es: "Este ataque hace 50 puntos de daño por cada Tatsugiri en tu pila de descartes.",
-			pt: "Este ataque causa 50 pontos de dano para cada Tatsugiri na sua pilha de descarte."
+			en: "Heal 10 damage from each of your Pokémon.",
+			fr: "Soignez 10 dégâts de chacun de vos Pokémon.",
+			de: "Heile 10 Schadenspunkte bei jedem deiner Pokémon.",
+			it: "Cura ciascuno dei tuoi Pokémon da 10 danni.",
+			es: "Cura 10 puntos de daño a cada uno de tus Pokémon.",
+			pt: "Cure 10 pontos de dano de cada um dos seus Pokémon."
 		},
 
-		damage: "50×"
+		damage: 20
 	}, {
-		cost: ["Water", "Water", "Colorless", "Colorless"],
+		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Heavy Splash",
-			fr: "Éclaboussure Massive",
-			de: "Heftiger Platscher",
-			it: "Grande Splash",
-			es: "Salpicadura Formidable",
-			pt: "Borrifada Pesada"
+			en: "Gadget Show",
+			fr: "Démonstration de Gadgets",
+			de: "Gadget-Show",
+			it: "Mostra di Gadget",
+			es: "Espectáculo de Utensilios",
+			pt: "Show de Bugigangas"
 		},
 
-		damage: 120
+		effect: {
+			en: "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts pour chaque Outil Pokémon attaché à tous vos Pokémon.",
+			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
+			it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
+			es: "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon."
+		},
+
+		damage: "30×"
 	}],
 
-	retreat: 4,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

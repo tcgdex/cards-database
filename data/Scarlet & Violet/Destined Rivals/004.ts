@@ -5,38 +5,37 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Breloom",
-		fr: "Chapignon",
-		de: "Kapilz",
-		it: "Breloom",
-		es: "Breloom",
-		pt: "Breloom"
+		en: "Pineco",
+		fr: "Pomdepik",
+		de: "Tannza",
+		it: "Pineco",
+		es: "Pineco",
+		pt: "Pineco"
 	},
 
-	illustrator: "Ryuta Fuse",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 110,
+	hp: 70,
 	types: ["Grass"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Mach Cross",
-			fr: "Passage Éclair",
-			de: "Tempo-Cross",
-			it: "Incromach",
-			es: "Puñetazo Mach",
-			pt: "Cruzado Veloz"
+			en: "Hang Down",
+			fr: "Suspension",
+			de: "Herunterhängen",
+			it: "Tirar Giù",
+			es: "Prender",
+			pt: "Dependurar"
 		},
 
-		damage: 60
+		damage: 10
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

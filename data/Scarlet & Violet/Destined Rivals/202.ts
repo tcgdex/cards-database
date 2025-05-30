@@ -5,69 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scovillain",
-		fr: "Scovilain",
-		de: "Halupenjo",
-		it: "Scovillain",
-		es: "Scovillain",
-		pt: "Scovillain"
+		en: "Team Rocket's Raticate",
+		fr: "Rattatac de la Team Rocket",
+		de: "Team Rockets Rattikarl",
+		it: "Raticate del Team Rocket",
+		es: "Raticate del Team Rocket",
+		pt: "Raticate da Equipe Rocket"
 	},
 
-	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Illustration rare",
 	category: "Pokemon",
-	hp: 110,
-	types: ["Grass"],
+	hp: 90,
+	types: ["Colorless"],
 	stage: "Stage1",
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Hot Bite",
-			fr: "Morsure Brûlante",
-			de: "Heißer Biss",
-			it: "Morso Piccante",
-			es: "Mordisco Picante",
-			pt: "Mordida Picante"
+			en: "Reckless Abandon",
+			fr: "Abandon Désinvolte",
+			de: "Absolute Hingabe",
+			it: "Impeto Avventato",
+			es: "Abandono Temerario",
+			pt: "Abandono Imprudente"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado."
+			en: "Flip 2 coins. If both of them are tails, this Pokémon also does 90 damage to itself.",
+			fr: "Lancez 2 pièces. Si vous obtenez 2 côtés pile, ce Pokémon s'inflige aussi 90 dégâts.",
+			de: "Wirf 2 Münzen. Zeigen beide Münzen Zahl, fügt dieses Pokémon auch sich selbst 90 Schadenspunkte zu.",
+			it: "Lancia due volte una moneta. Se esce entrambe le volte croce, questo Pokémon infligge anche 90 danni a se stesso.",
+			es: "Lanza 2 monedas. Si sale cruz en ambas, este Pokémon también se hace 90 puntos de daño a sí mismo.",
+			pt: "Jogue 2 moedas. Se as duas saírem coroa, este Pokémon também causará 90 pontos de dano a si mesmo."
 		},
 
-		damage: 20
-	}, {
-		cost: ["Grass", "Colorless", "Colorless"],
-
-		name: {
-			en: "Super Spicy Breath",
-			fr: "Souffle Super Pimenté",
-			de: "Superscharfer Atem",
-			it: "Alito Super Piccante",
-			es: "Aliento Superpicante",
-			pt: "Baforada Superapimentada"
-		},
-
-		effect: {
-			en: "If this Pokémon has any {R} Energy attached, this attack does 90 more damage.",
-			fr: "Si au moins une Énergie {R} est attachée à ce Pokémon, cette attaque inflige 90 dégâts supplémentaires.",
-			de: "Wenn an dieses Pokémon mindestens 1 {R}-Energie angelegt ist, fügt diese Attacke 90 Schadenspunkte mehr zu.",
-			it: "Se questo Pokémon ha delle Energie {R} assegnate, questo attacco infligge 90 danni in più.",
-			es: "Si este Pokémon tiene alguna Energía {R} unida, este ataque hace 90 puntos de daño más.",
-			pt: "Se este Pokémon tiver alguma Energia {R} ligada a ele, este ataque causará 90 pontos de dano a mais."
-		},
-
-		damage: "90+"
+		damage: 90
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

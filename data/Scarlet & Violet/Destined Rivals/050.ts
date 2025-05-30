@@ -5,60 +5,57 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clawitzer",
-		fr: "Gamblast",
-		de: "Wummer",
-		it: "Clawitzer",
-		es: "Clawitzer",
-		pt: "Clawitzer"
+		en: "Misty's Lapras",
+		fr: "Lokhlass d'Ondine",
+		de: "Mistys Lapras",
+		it: "Lapras di Misty",
+		es: "Lapras de Misty",
+		pt: "Lapras da Misty"
 	},
 
-	illustrator: "Souichirou Gunjima",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 120,
+	hp: 110,
 	types: ["Water"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water", "Colorless"],
+		cost: ["Water"],
 
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			de: "Aquaknarre",
-			it: "Pistolacqua",
-			es: "Pistola Agua",
-			pt: "Revólver d'Água"
-		},
-
-		damage: 50
-	}, {
-		cost: ["Water", "Water", "Colorless"],
-
-		name: {
-			en: "Aqua Cannon",
-			fr: "Aqua-Canon",
-			de: "Wasserkanone",
-			it: "Cannone Acquatico",
-			es: "Cañón Aqua",
-			pt: "Aqua Canhão"
+			en: "Swim Together",
+			fr: "Nageons Ensemble",
+			de: "Gemeinsames Schwimmen",
+			it: "Nuotata in Compagnia",
+			es: "Nadar Juntos",
+			pt: "Nadar Juntos"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
+			en: "Search your deck for up to 3 Misty's Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 3 Pokémon d'Ondine, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			de: "Durchsuche dein Deck nach bis zu 3 Mistys Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo fino a tre Pokémon di Misty, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			es: "Busca en tu baraja hasta 3 Pokémon de Misty, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por até 3 Pokémon da Misty no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho."
+		}
+	}, {
+		cost: ["Water", "Colorless"],
+
+		name: {
+			en: "Surf",
+			fr: "Surf",
+			de: "Surfer",
+			it: "Surf",
+			es: "Surf",
+			pt: "Surfar"
 		},
 
-		damage: 160
+		damage: 60
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

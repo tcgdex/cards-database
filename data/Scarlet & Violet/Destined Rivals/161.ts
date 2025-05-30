@@ -5,60 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Maushold",
-		fr: "Famignol",
-		de: "Famieps",
-		it: "Maushold",
-		es: "Maushold",
-		pt: "Maushold"
+		en: "Arven's Sandwich",
+		fr: "Sandwich de Pepper",
+		de: "Peppers Sandwich",
+		it: "Panino di Pepe",
+		es: "Bocadillo de Damián",
+		pt: "Sanduíche do Arven"
 	},
 
-	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Uncommon",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Colorless"],
-	stage: "Stage1",
+	category: "Trainer",
 
-	attacks: [{
-		cost: ["Colorless"],
+	effect: {
+		en: "Heal 30 damage from your Active Pokémon. If that Pokémon is an Arven's Pokémon, heal 100 damage from it instead.",
+		fr: "Soignez 30 dégâts de votre Pokémon Actif. Si ce Pokémon est un Pokémon de Pepper, soignez-le de 100 dégâts à la place.",
+		de: "Heile 30 Schadenspunkte bei deinem Aktiven Pokémon. Wenn jenes Pokémon ein Peppers Pokémon ist, heile bei ihm stattdessen 100 Schadenspunkte.",
+		it: "Cura il tuo Pokémon attivo da 30 danni. Se quel Pokémon è un Pokémon di Pepe, invece curalo da 100 danni.",
+		es: "Cura 30 puntos de daño a tu Pokémon Activo. Si ese Pokémon es un Pokémon de Damián, cúrale 100 puntos de daño en vez de 30.",
+		pt: "Cure 30 pontos de dano do seu Pokémon Ativo. Se aquele Pokémon for um Pokémon do Arven, cure 100 pontos de dano dele ao invés de 30."
+	},
 
-		name: {
-			en: "Slap",
-			fr: "Gifle",
-			de: "Hieb",
-			it: "Sberla",
-			es: "Bofetón",
-			pt: "Tapa"
-		},
-
-		damage: 40
-	}, {
-		cost: ["Colorless", "Colorless"],
-
-		name: {
-			en: "Family Attack",
-			fr: "Attaque en Famille",
-			de: "Familienangriff",
-			it: "Attacco di Famiglia",
-			es: "Ataque en Familia",
-			pt: "Ataque em Família"
-		},
-
-		effect: {
-			en: "This attack does 70 damage for each of your Maushold in play.",
-			fr: "Cette attaque inflige 70 dégâts pour chacun de vos Famignol en jeu.",
-			de: "Diese Attacke fügt für jedes deiner Famieps im Spiel 70 Schadenspunkte zu.",
-			it: "Questo attacco infligge 70 danni per ogni tuo Maushold in gioco.",
-			es: "Este ataque hace 70 puntos de daño por cada uno de tus Maushold en juego.",
-			pt: "Este ataque causa 70 pontos de dano para cada um dos seus Maushold em jogo."
-		},
-
-		damage: "70×"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
+	trainerType: "Item",
+	regulationMark: "I"
 }
 
 export default card

@@ -5,69 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toedscruel",
-		fr: "Terracruel",
-		de: "Tenterra",
-		it: "Toedscruel",
-		es: "Toedscruel",
-		pt: "Toedscruel"
+		en: "Teal Mask Ogerpon",
+		fr: "Ogerpon Masque Turquoise",
+		de: "Türkisgrüne-Maske-Ogerpon",
+		it: "Ogerpon Maschera Turchese",
+		es: "Ogerpon Máscara Turquesa",
+		pt: "Ogerpon Máscara Turquesa"
 	},
 
-	illustrator: "nagimiso",
 	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 120,
+	hp: 110,
 	types: ["Grass"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Eerie Tentacles",
-			fr: "Tentacules Inquiétants",
-			de: "Schaurige Tentakel",
-			it: "Tentacoli Inquietanti",
-			es: "Tentáculos Inquietantes",
-			pt: "Tentáculos Perturbadores"
+			en: "Grass Kagura",
+			fr: "Kagura Plante",
+			de: "Pflanzen-Kagura",
+			it: "Kagura dell'Erba",
+			es: "Kagura Planta",
+			pt: "Kagura de Planta"
 		},
 
 		effect: {
-			en: "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
-			fr: "Vous pouvez déplacer une Énergie du Pokémon Actif de votre adversaire vers l'un de ses Pokémon de Banc.",
-			de: "Du kannst 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank verschieben.",
-			it: "Puoi spostare un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
-			es: "Puedes mover 1 Energía del Pokémon Activo de tu rival a uno de sus Pokémon en Banca.",
-			pt: "Você pode mover uma Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele."
-		},
-
-		damage: 30
+			en: "Search your deck for a Basic {G} Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck une carte Énergie {G} de base, puis attachez-la à l'un de vos Pokémon. Mélangez ensuite votre deck.",
+			de: "Durchsuche dein Deck nach 1 Basis-{G}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo una carta Energia base {G} e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
+			es: "Busca en tu baraja 1 carta de Energía {G} Básica y únela a uno de tus Pokémon. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por uma carta de Energia {G} Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho."
+		}
 	}, {
-		cost: ["Grass", "Colorless", "Colorless"],
+		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Triple Smash",
-			fr: "Triple Éclate",
-			de: "Dreifachschmetterer",
-			it: "Tripla Schiacciata",
-			es: "Golpe Triple",
-			pt: "Pancada Tripla"
+			en: "Ogre's Hammer",
+			fr: "Marteau de Monstre",
+			de: "Onis Hammer",
+			it: "Martello dell'Orco",
+			es: "Martillo del Ogro",
+			pt: "Martelo do Ogro"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 80 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
-			es: "Lanza 3 monedas. Este ataque hace 80 puntos de daño por cada cara.",
-			pt: "Jogue 3 moedas. Este ataque causa 80 pontos de dano para cada cara."
+			en: "During your next turn, this Pokémon can't use Ogre's Hammer.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Marteau de Monstre.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Onis Hammer nicht einsetzen.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Martello dell'Orco.",
+			es: "Durante tu próximo turno, este Pokémon no puede usar Martillo del Ogro.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Martelo do Ogro."
 		},
 
-		damage: "80×"
+		damage: 120
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

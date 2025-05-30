@@ -5,60 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hawlucha",
-		fr: "Brutalibré",
-		de: "Resladero",
-		it: "Hawlucha",
-		es: "Hawlucha",
-		pt: "Hawlucha"
+		en: "Team Rocket's Nidorino",
+		fr: "Nidorino de la Team Rocket",
+		de: "Team Rockets Nidorino",
+		it: "Nidorino del Team Rocket",
+		es: "Nidorino del Team Rocket",
+		pt: "Nidorino da Equipe Rocket"
 	},
 
-	illustrator: "GOSSAN",
-	rarity: "Rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Fighting"],
-	stage: "Basic",
+	hp: 100,
+	types: ["Darkness"],
+	stage: "Stage1",
 
-	abilities: [{
-		type: "Ability",
+	attacks: [{
+		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Flying Entry",
-			fr: "Entrée Aérienne",
-			de: "Fliegender Auftritt",
-			it: "Entrata al Volo",
-			es: "Entrada Voladora",
-			pt: "Entrada Voadora"
+			en: "Hammer In",
+			fr: "Enfoncement",
+			de: "Einhämmern",
+			it: "Martello",
+			es: "Martillear",
+			pt: "Martelada"
+		},
+
+		damage: 30
+	}, {
+		cost: ["Darkness", "Darkness", "Colorless"],
+
+		name: {
+			en: "Horn Rend",
+			fr: "Corne Déchiquetante",
+			de: "Hornreißer",
+			it: "Cornilaceranti",
+			es: "Quebrar",
+			pt: "Laceração de Chifres"
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand onto your Bench during your turn, you may choose 2 of your opponent's Benched Pokémon and put 1 damage counter on each of them.",
-			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez choisir 2 des Pokémon de Banc de votre adversaire, puis placer un marqueur de dégâts sur chacun d'eux.",
-			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 2 Pokémon auf der Bank deines Gegners wählen und 1 Schadensmarke auf jedes von ihnen legen.",
-			it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi scegliere due dei Pokémon nella panchina del tuo avversario e mettere un segnalino danno su ciascuno di essi.",
-			es: "Cuando juegas este Pokémon de tu mano a tu Banca durante tu turno, puedes elegir 2 de los Pokémon en Banca de tu rival y poner 1 contador de daño en cada uno de ellos.",
-			pt: "Quando você jogar este Pokémon da sua mão para o seu Banco durante o seu turno, você poderá escolher 2 dos Pokémon no Banco do seu oponente e colocar 1 contador de dano em cada um deles."
-		}
-	}],
-
-	attacks: [{
-		cost: ["Fighting", "Colorless", "Colorless"],
-
-		name: {
-			en: "Wing Attack",
-			fr: "Cru-Ailes",
-			de: "Flügelschlag",
-			it: "Attacco d'Ala",
-			es: "Ataque Ala",
-			pt: "Ataque de Asa"
+			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 60 dégâts supplémentaires.",
+			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 60 danni in più.",
+			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 60 puntos de daño más.",
+			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 60 pontos de dano a mais."
 		},
 
-		damage: 70
+		damage: "60+"
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

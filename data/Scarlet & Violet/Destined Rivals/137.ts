@@ -5,69 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mabosstiff",
-		fr: "Dogrino",
-		de: "Mastifioso",
-		it: "Mabosstiff",
-		es: "Mabosstiff",
-		pt: "Mabosstiff"
+		en: "Marnie's Morpeko",
+		fr: "Morpeko de Rosemary",
+		de: "Marys Morpeko",
+		it: "Morpeko di Mary",
+		es: "Morpeko de Roxy",
+		pt: "Morpeko da Marine"
 	},
 
-	illustrator: "KIYOTAKA OSHIYAMA",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 130,
+	hp: 70,
 	types: ["Darkness"],
-	stage: "Stage1",
-
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			en: "Intimidating Howl",
-			fr: "Hurlement Intimidant",
-			de: "Angsteinflößender Jauler",
-			it: "Gridodilotta Spaventoso",
-			es: "Aullido Intimidatorio",
-			pt: "Uivo Intimidante"
-		},
-
-		effect: {
-			en: "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			fr: "Une fois pendant votre tour, vous pouvez envoyer le Pokémon Actif de votre adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			de: "Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.)",
-			it: "Una sola volta durante il tuo turno, puoi spostare il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			es: "Una vez durante tu turno, puedes mover el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			pt: "Uma vez durante o seu turno, você poderá mandar o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
-		}
-	}],
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Darkness", "Darkness", "Colorless"],
+		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Wild Tackle",
-			fr: "Tacle Brutal",
-			de: "Wilder Tackle",
-			it: "Azionferoce",
-			es: "Placaje Salvaje",
-			pt: "Investida Feroz"
+			en: "Spiky Wheel",
+			fr: "Roue Piquante",
+			de: "Stachelrad",
+			it: "Ruota Appuntita",
+			es: "Rueda Espinosa",
+			pt: "Roda Espinhosa"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			en: "This attack does 40 more damage for each {D} Energy attached to this Pokémon.",
+			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie {D} attachée à ce Pokémon.",
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {D}-Energie 40 Schadenspunkte mehr zu.",
+			it: "Questo attacco infligge 40 danni in più per ogni Energia {D} assegnata a questo Pokémon.",
+			es: "Este ataque hace 40 puntos de daño más por cada Energía {D} unida a este Pokémon.",
+			pt: "Este ataque causa 40 pontos de dano a mais para cada Energia {D} ligada a este Pokémon."
 		},
 
-		damage: 160
+		damage: "20+"
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	retreat: 0,
+	regulationMark: "I"
 }
 
 export default card

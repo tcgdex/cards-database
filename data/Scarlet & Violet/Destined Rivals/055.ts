@@ -5,47 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wiglett",
-		fr: "Taupikeau",
-		de: "Schligda",
-		it: "Wiglett",
-		es: "Wiglett",
-		pt: "Wiglett"
+		en: "Huntail",
+		fr: "Serpang",
+		de: "Aalabyss",
+		it: "Huntail",
+		es: "Huntail",
+		pt: "Huntail"
 	},
 
-	illustrator: "Shin Nagasawa",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 50,
+	hp: 110,
 	types: ["Water"],
-	stage: "Basic",
+	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Water"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Twisting Strike",
-			fr: "Frappe Sinueuse",
-			de: "Drehstoß",
-			it: "Torcicolpo",
-			es: "Golpe Retorcido",
-			pt: "Golpe Entrelaçado"
+			en: "Diver's Catch",
+			fr: "Prise de Plongée",
+			de: "Fang des Tauchers",
+			it: "Cattura Subacquea",
+			es: "Captura Submarina",
+			pt: "Tesouro do Mergulhador"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon.",
-			de: "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden.",
-			it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni sia i danni che gli effetti degli attacchi inflitti a questo Pokémon.",
-			es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon.",
-			pt: "Jogue uma moeda. Se sair cara, durante o próximo turno do seu oponente, previna todo o dano e os efeitos de ataques causados a este Pokémon."
+			en: "When 1 of your {W} Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, you may put all Basic {W} Energy attached to that Pokémon into your hand instead of the discard pile.",
+			fr: "Lorsque l'un de vos Pokémon {W} est mis K.O. par les dégâts d'une attaque de l'un des Pokémon de votre adversaire, vous pouvez ajouter à votre main toutes les Énergies {W} de base attachées à ce Pokémon-là, plutôt que de les placer dans votre pile de défausse.",
+			de: "Wenn 1 deiner {W}-Pokémon durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, kannst du alle an jenes Pokémon angelegten Basis-{W}-Energien auf deine Hand nehmen, anstatt sie auf deinen Ablagestapel zu legen.",
+			it: "Quando uno dei tuoi Pokémon {W} viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, puoi prendere tutte le carte Energia base {W} assegnate a quel Pokémon e aggiungerle alle carte che hai in mano invece di metterle nella pila degli scarti.",
+			es: "Cuando uno de tus Pokémon {W} queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, puedes poner todas las Energías {W} Básicas unidas a ese Pokémon en tu mano en vez de en la pila de descartes.",
+			pt: "Quando 1 dos seus Pokémon {W} for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, você poderá colocar todas as Energias {W} Básicas ligadas àquele Pokémon na sua mão ao invés da pilha de descarte."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Water", "Colorless", "Colorless"],
+
+		name: {
+			en: "Wave Splash",
+			fr: "Grosse Vague",
+			de: "Wellenplatscher",
+			it: "Schizzi d'Onda",
+			es: "Chapoteo Ondulante",
+			pt: "Onda Borrifante"
 		},
 
-		damage: 10
+		damage: 80
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

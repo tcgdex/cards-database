@@ -5,47 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tandemaus",
-		fr: "Compagnol",
-		de: "Zwieps",
-		it: "Tandemaus",
-		es: "Tandemaus",
-		pt: "Tandemaus"
+		en: "Squawkabilly",
+		fr: "Tapatoès",
+		de: "Krawalloro",
+		it: "Squawkabilly",
+		es: "Squawkabilly",
+		pt: "Squawkabilly"
 	},
 
-	illustrator: "yuu",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 40,
+	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Double Hit",
-			fr: "Coup Double",
-			de: "Doppelschlag",
-			it: "Doppiosmash",
-			es: "Doble Golpe",
-			pt: "Golpe Duplo"
+			en: "Push Down",
+			fr: "Recul",
+			de: "Runterdrücken",
+			it: "Spintonare",
+			es: "Oprimir",
+			pt: "Rebaixar"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 30 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-			pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara."
+			en: "You may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			fr: "Vous pouvez envoyer le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			de: "Du kannst das Aktive Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.)",
+			it: "Puoi spostare il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			es: "Puedes mover el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			pt: "Você pode mandar o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
 		},
 
-		damage: "30×"
+		damage: 20
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

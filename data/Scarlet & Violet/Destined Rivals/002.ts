@@ -5,60 +5,57 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heracross",
-		fr: "Scarhino",
-		de: "Skaraborn",
-		it: "Heracross",
-		es: "Heracross",
-		pt: "Heracross"
+		en: "Yanma",
+		fr: "Yanma",
+		de: "Yanma",
+		it: "Yanma",
+		es: "Yanma",
+		pt: "Yanma"
 	},
 
-	illustrator: "Taira Akitsu",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 120,
+	hp: 70,
 	types: ["Grass"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass", "Colorless"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Superpowered Throw",
-			fr: "Lancer Surpuissant",
-			de: "Superstarker Wurf",
-			it: "Lancio Superpotenziato",
-			es: "Lanzamiento Superpoderoso",
-			pt: "Jogada Superpoderosa"
+			en: "Whirlwind",
+			fr: "Cyclone",
+			de: "Wirbelwind",
+			it: "Turbine",
+			es: "Remolino",
+			pt: "Ataque de Vento"
 		},
 
 		effect: {
-			en: "This attack does 30 more damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 30 danni in più per ogni {C} nel costo di ritirata del Pokémon attivo del tuo avversario.",
-			es: "Este ataque hace 30 puntos de daño más por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada {C} no custo de Recuo do Pokémon Ativo do seu oponente."
-		},
-
-		damage: "10+"
+			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			fr: "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
+			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
+		}
 	}, {
-		cost: ["Grass", "Grass", "Colorless"],
+		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Horn Attack",
-			fr: "Koud'Korne",
-			de: "Hornattacke",
-			it: "Incornata",
-			es: "Cornada",
-			pt: "Ataque de Chifre"
+			en: "Razor Wing",
+			fr: "Aile Tranchante",
+			de: "Rasierflügel",
+			it: "Ala Tagliente",
+			es: "Ala Cortante",
+			pt: "Asa Cortante"
 		},
 
-		damage: 90
+		damage: 30
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

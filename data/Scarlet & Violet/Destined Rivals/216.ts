@@ -5,51 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		de: "Ganovil",
-		it: "Sandile",
-		es: "Sandile",
-		pt: "Sandile"
+		en: "Team Rocket's Nidoking ex",
+		fr: "Nidoking-ex de la Team Rocket",
+		de: "Team Rockets Nidoking-ex",
+		it: "Nidoking-ex del Team Rocket",
+		es: "Nidoking ex del Team Rocket",
+		pt: "Nidoking ex da Equipe Rocket"
 	},
 
-	illustrator: "Nurikabe",
-	rarity: "Illustration rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Fighting"],
-	stage: "Basic",
+	hp: 330,
+	types: ["Darkness"],
+	stage: "Stage2",
 
 	attacks: [{
-		cost: ["Fighting"],
+		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			de: "Nagen",
-			it: "Rosicchiamento",
-			es: "Roer",
-			pt: "Roída"
+			en: "Tainted Horn",
+			fr: "Corne Contaminante",
+			de: "Vergiftetes Horn",
+			it: "Corno Contaminato",
+			es: "Cuerno Contaminado",
+			pt: "Chifre Contaminado"
 		},
 
-		damage: 10
+		effect: {
+			en: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 8 damage counters on that Pokémon instead of 1.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 8 marqueurs de dégâts sur ce Pokémon-là au lieu d'un.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege beim Pokémon-Check 8 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon.",
+			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Metti otto segnalini danno invece di uno su quel Pokémon durante il controllo Pokémon.",
+			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el Chequeo Pokémon, pon 8 contadores de daño en vez de uno en ese Pokémon.",
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o Checape Pokémon, coloque 8 contadores de dano ao invés de 1 naquele Pokémon."
+		},
+
+		damage: 100
 	}, {
-		cost: ["Fighting", "Fighting"],
+		cost: ["Darkness", "Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			de: "Ramme",
-			it: "Carica",
-			es: "Apisonar",
-			pt: "Aríete"
+			en: "Kingly Impact",
+			fr: "Impact Royal",
+			de: "Königlicher Einschlag",
+			it: "Impatto Regale",
+			es: "Impacto Regio",
+			pt: "Impacto Majestoso"
 		},
 
-		damage: 30
+		damage: 240
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

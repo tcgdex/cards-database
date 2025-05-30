@@ -5,29 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arven",
-		fr: "Pepper",
-		de: "Pepper",
-		it: "Pepe",
-		es: "Damián",
-		pt: "Arven"
+		en: "Arven's Mabosstiff ex",
+		fr: "Dogrino-ex de Pepper",
+		de: "Peppers Mastifioso-ex",
+		it: "Mabosstiff-ex di Pepe",
+		es: "Mabosstiff ex de Damián",
+		pt: "Mabosstiff ex do Arven"
 	},
 
-	illustrator: "GIDORA",
-	rarity: "Ultra Rare",
-	category: "Trainer",
+	rarity: "Special illustration rare",
+	category: "Pokemon",
+	hp: 270,
+	types: ["Darkness"],
+	stage: "Stage1",
 
-	effect: {
-		en: "Search your deck for an Item card and a Pokémon Tool card, reveal them, and put them into your hand. Then, shuffle your deck.",
-		fr: "Cherchez dans votre deck une carte Objet et une carte Outil Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-		de: "Durchsuche dein Deck nach 1 Itemkarte und 1 Pokémon-Ausrüstung, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
-		it: "Cerca nel tuo mazzo una carta Strumento e una carta Oggetto Pokémon, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-		es: "Busca en tu baraja 1 carta de Objeto y 1 carta de Herramienta Pokémon, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-		pt: "Procure por uma carta de Item e uma carta de Ferramenta Pokémon no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho."
-	},
+	attacks: [{
+		cost: ["Colorless"],
 
-	trainerType: "Supporter",
-	regulationMark: "G"
+		name: {
+			en: "Vigorous Tackle",
+			fr: "Charge Vigoureuse",
+			de: "Energischer Tackle",
+			it: "Azione Vigorosa",
+			es: "Placaje Rotundo",
+			pt: "Investida Vigorosa"
+		},
+
+		effect: {
+			en: "If this Pokémon has no damage counters on it, this attack does 120 more damage.",
+			fr: "Si ce Pokémon n'a aucun marqueur de dégâts, cette attaque inflige 120 dégâts supplémentaires.",
+			de: "Wenn auf diesem Pokémon keine Schadensmarken liegen, fügt diese Attacke 120 Schadenspunkte mehr zu.",
+			it: "Se questo Pokémon non ha segnalini danno, questo attacco infligge 120 danni in più.",
+			es: "Si este Pokémon no tiene ningún contador de daño sobre él, este ataque hace 120 puntos de daño más.",
+			pt: "Se este Pokémon não tiver nenhum contador de dano nele, este ataque causará 120 pontos de dano a mais."
+		},
+
+		damage: "30+"
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			en: "Boss Headbutt",
+			fr: "Coup d'Boule du Boss",
+			de: "Kopfnuss vom Boss",
+			it: "Bottintesta del Boss",
+			es: "Cabezazo del Jefazo",
+			pt: "Cabeçada do Chefão"
+		},
+
+		effect: {
+			en: "During your next turn, this Pokémon can't use Boss Headbutt.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup d'Boule du Boss.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Kopfnuss vom Boss nicht einsetzen.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Bottintesta del Boss.",
+			es: "Durante tu próximo turno, este Pokémon no puede usar Cabezazo del Jefazo.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Cabeçada do Chefão."
+		},
+
+		damage: 210
+	}],
+
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

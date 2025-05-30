@@ -5,47 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grimer",
-		fr: "Tadmorv",
-		de: "Sleima",
-		it: "Grimer",
-		es: "Grimer",
-		pt: "Grimer"
+		en: "Team Rocket's Weezing",
+		fr: "Smogogo de la Team Rocket",
+		de: "Team Rockets Smogmog",
+		it: "Weezing del Team Rocket",
+		es: "Weezing del Team Rocket",
+		pt: "Weezing da Equipe Rocket"
 	},
 
-	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 80,
+	hp: 130,
 	types: ["Darkness"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Darkness", "Colorless", "Colorless"],
+		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Super Poison Breath",
-			fr: "Super Haleine Empoisonnée",
-			de: "Super-Gifthauch",
-			it: "Super Velenospiro",
-			es: "Aliento Supervenenoso",
-			pt: "Super-hálito Venenoso"
+			en: "Explode Together Now",
+			fr: "Explosion Groupée",
+			de: "Gemeinsam explodieren – jetzt!",
+			it: "Esplosione Congiunta",
+			es: "Explotemos Juntos",
+			pt: "Explodir Juntos Agora"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado."
+			en: "This attack does 40 damage for each Pokémon in play that has \"Koffing\" or \"Weezing\" in its name (both yours and your opponent's).",
+			fr: "Cette attaque inflige 40 dégâts pour chaque Pokémon en jeu ayant \" Smogo \" ou \" Smogogo \" dans son nom (les vôtres et ceux de votre adversaire).",
+			de: "Diese Attacke fügt für jedes Pokémon im Spiel (deine und die deines Gegners), bei dem \"Smogon\" oder \"Smogmog\" zum Namen gehört, 40 Schadenspunkte zu.",
+			it: "Questo attacco infligge 40 danni per ogni Pokémon in gioco che ha \"Koffing\" o \"Weezing\" nel nome, sia tuo che del tuo avversario.",
+			es: "Este ataque hace 40 puntos de daño por cada Pokémon en juego que tenga \"Koffing\" o \"Weezing\" en su nombre (tanto tuyos como de tu rival).",
+			pt: "Este ataque causa 40 pontos de dano para cada Pokémon em jogo que tenha \"Koffing\" ou \"Weezing\" em seu nome (seus e do seu oponente)."
 		},
 
-		damage: 50
+		damage: "40×"
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

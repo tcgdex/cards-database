@@ -5,69 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawmot",
-		fr: "Pohmarmotte",
-		de: "Pamomamo",
-		it: "Pawmot",
-		es: "Pawmot",
-		pt: "Pawmot"
+		en: "Manectric",
+		fr: "Élecsprint",
+		de: "Voltenso",
+		it: "Manectric",
+		es: "Manectric",
+		pt: "Manectric"
 	},
 
-	illustrator: "Mizue",
-	rarity: "Rare",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 130,
+	hp: 120,
 	types: ["Lightning"],
-	stage: "Stage2",
-
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			en: "Electrogenesis",
-			fr: "Électrogenèse",
-			de: "Elektrogenese",
-			it: "Elettroproduzione",
-			es: "Electrorigen",
-			pt: "Gênese Elétrica"
-		},
-
-		effect: {
-			en: "Once during your turn, you may search your deck for a Basic {L} Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Énergie {L} de base, puis l'attacher à ce Pokémon. Mélangez ensuite votre deck.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Basis-{L}-Energiekarte durchsuchen und sie an dieses Pokémon anlegen. Mische anschließend dein Deck.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia base {L} e assegnarla a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía {L} Básica y unirla a este Pokémon. Después, baraja las cartas de tu baraja.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Energia {L} Básica no seu baralho e ligá-la a este Pokémon. Em seguida, embaralhe o seu baralho."
-		}
-	}],
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Electro Paws",
-			fr: "Électro Pattes",
-			de: "Elektropfoten",
-			it: "Elettrozampe",
-			es: "Electropatas",
-			pt: "Patas Elétricas"
+			en: "Zap Kick",
+			fr: "Coup de Pied Ravageur",
+			de: "Stromtritt",
+			it: "Dinamocalcio",
+			es: "Electropatada",
+			pt: "Chute Zap"
+		},
+
+		damage: 30
+	}, {
+		cost: ["Lightning", "Colorless"],
+
+		name: {
+			en: "Flash Impact",
+			fr: "Impact-Flash",
+			de: "Blitzeinschlag",
+			it: "Impattoflash",
+			es: "Impacto Resplandor",
+			pt: "Impacto Lampejante"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta tutte le Energie da questo Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon."
+			en: "This attack also does 40 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige aussi 40 dégâts à l'un de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			de: "Diese Attacke fügt auch 1 Pokémon auf deiner Bank 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			it: "Questo attacco infligge anche 40 danni a uno dei Pokémon nella tua panchina. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			es: "Este ataque también hace 40 puntos de daño a uno de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			pt: "Este ataque também causa 40 pontos de dano a 1 dos seus Pokémon no Banco. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		},
 
-		damage: 230
+		damage: 120
 	}],
 
-	retreat: 0,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

@@ -5,29 +5,57 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Penny",
-		fr: "Pania",
-		de: "Cosima",
-		it: "Penny",
-		es: "Noa",
-		pt: "Penélope"
+		en: "Yanma",
+		fr: "Yanma",
+		de: "Yanma",
+		it: "Yanma",
+		es: "Yanma",
+		pt: "Yanma"
 	},
 
-	illustrator: "yuu",
-	rarity: "Uncommon",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Grass"],
+	stage: "Basic",
 
-	effect: {
-		en: "Put 1 of your Basic Pokémon and all attached cards into your hand.",
-		fr: "Ajoutez à votre main l'un de vos Pokémon de base et toutes les cartes qui lui sont attachées.",
-		de: "Nimm 1 deiner Basis-Pokémon und alle angelegten Karten auf deine Hand.",
-		it: "Riprendi in mano uno dei tuoi Pokémon Base e tutte le carte a esso assegnate.",
-		es: "Pon 1 de tus Pokémon Básicos y todas las cartas unidas a él en tu mano.",
-		pt: "Coloque 1 dos seus Pokémon Básicos e todas as cartas ligadas a ele na sua mão."
-	},
+	attacks: [{
+		cost: ["Colorless"],
 
-	trainerType: "Supporter",
-	regulationMark: "G"
+		name: {
+			en: "Whirlwind",
+			fr: "Cyclone",
+			de: "Wirbelwind",
+			it: "Turbine",
+			es: "Remolino",
+			pt: "Ataque de Vento"
+		},
+
+		effect: {
+			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			fr: "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
+			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
+		}
+	}, {
+		cost: ["Grass", "Colorless"],
+
+		name: {
+			en: "Razor Wing",
+			fr: "Aile Tranchante",
+			de: "Rasierflügel",
+			it: "Ala Tagliente",
+			es: "Ala Cortante",
+			pt: "Asa Cortante"
+		},
+
+		damage: 30
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

@@ -5,60 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flaaffy",
-		fr: "Lainergie",
-		de: "Waaty",
-		it: "Flaaffy",
-		es: "Flaaffy",
-		pt: "Flaaffy"
+		en: "Wellspring Mask Ogerpon",
+		fr: "Ogerpon Masque du Puits",
+		de: "Brunnenmaske-Ogerpon",
+		it: "Ogerpon Maschera Pozzo",
+		es: "Ogerpon Máscara Fuente",
+		pt: "Ogerpon Máscara Nascente"
 	},
 
-	illustrator: "Kurata So",
 	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 90,
-	types: ["Lightning"],
-	stage: "Stage1",
+	hp: 110,
+	types: ["Water"],
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Lightning"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Thunder Shock",
-			fr: "Éclair",
-			de: "Donnerschock",
-			it: "Tuonoshock",
-			es: "Impactrueno",
-			pt: "Trovoada de Choques"
+			en: "Water Kagura",
+			fr: "Kagura Eau",
+			de: "Wasser-Kagura",
+			it: "Kagura dell'Acqua",
+			es: "Kagura Agua",
+			pt: "Kagura de Água"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
-		},
-
-		damage: 20
+			en: "Search your deck for a Basic {W} Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck une carte Énergie {W} de base, puis attachez-la à l'un de vos Pokémon. Mélangez ensuite votre deck.",
+			de: "Durchsuche dein Deck nach 1 Basis-{W}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo una carta Energia base {W} e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
+			es: "Busca en tu baraja 1 carta de Energía {W} Básica y únela a uno de tus Pokémon. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por uma carta de Energia {W} Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho."
+		}
 	}, {
-		cost: ["Lightning", "Colorless", "Colorless"],
+		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Electro Ball",
-			fr: "Boule Élek",
-			de: "Elektroball",
-			it: "Energisfera",
-			es: "Bola Voltio",
-			pt: "Bola Elétrica"
+			en: "Bubble Drain",
+			fr: "Vide Bulle",
+			de: "Blasengully",
+			it: "Assorbibolla",
+			es: "Drenaje Burbujas",
+			pt: "Dreno de Bolha"
 		},
 
-		damage: 60
+		effect: {
+			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
+			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			it: "Cura questo Pokémon da 30 danni.",
+			es: "Cura 30 puntos de daño a este Pokémon.",
+			pt: "Cure 30 pontos de dano deste Pokémon."
+		},
+
+		damage: 100
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

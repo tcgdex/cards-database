@@ -13,7 +13,6 @@ const card: Card = {
 		pt: "Dolliv"
 	},
 
-	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -21,44 +20,42 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Grass"],
 
 		name: {
-			en: "Slap",
-			fr: "Gifle",
-			de: "Hieb",
-			it: "Sberla",
-			es: "Bofetón",
-			pt: "Tapa"
-		},
-
-		damage: 20
-	}, {
-		cost: ["Grass", "Colorless"],
-
-		name: {
-			en: "Apply Oil",
-			fr: "Application Huileuse",
-			de: "Einölen",
-			it: "Applicolio",
-			es: "Aplicar Aceite",
-			pt: "Colocar Azeite"
+			en: "Nutrients",
+			fr: "Nutriments",
+			de: "Nährstoffe",
+			it: "Nutrienti",
+			es: "Nutrientes",
+			pt: "Nutrientes"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn't happen.",
-			fr: "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d'attaquer, votre adversaire lance une pièce. Si c'est pile, l'attaque n'est pas lancée.",
-			de: "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht anzugreifen, wirft dein Gegner 1 Münze. Bei Zahl wird jene Attacke nicht ausgeführt.",
-			it: "Durante il prossimo turno del tuo avversario, se il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha luogo.",
-			es: "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta atacar, tu rival lanza 1 moneda. Si sale cruz, ese ataque no se lleva a cabo.",
-			pt: "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar atacar, seu oponente jogará uma moeda. Se sair coroa, aquele ataque não acontecerá."
+			en: "Heal 40 damage from 1 of your Pokémon.",
+			fr: "Soignez 40 dégâts de l'un de vos Pokémon.",
+			de: "Heile 40 Schadenspunkte bei 1 deiner Pokémon.",
+			it: "Cura uno dei tuoi Pokémon da 40 danni.",
+			es: "Cura 40 puntos de daño a uno de tus Pokémon.",
+			pt: "Cure 40 pontos de dano de 1 dos seus Pokémon."
+		}
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			en: "Tackle",
+			fr: "Charge",
+			de: "Tackle",
+			it: "Azione",
+			es: "Placaje",
+			pt: "Investida"
 		},
 
 		damage: 40
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

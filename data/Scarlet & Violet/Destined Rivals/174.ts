@@ -5,29 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Exp. Share",
-		fr: "Multi Exp",
-		de: "EP-Teiler",
-		it: "Condividi Esperienza",
-		es: "Repartir Experiencia",
-		pt: "Compart. Exp."
+		en: "Team Rocket's Giovanni",
+		fr: "Giovanni de la Team Rocket",
+		de: "Team Rockets Giovanni",
+		it: "Giovanni del Team Rocket",
+		es: "Giovanni del Team Rocket",
+		pt: "Giovanni da Equipe Rocket"
 	},
 
-	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "When your Active Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, you may move a Basic Energy from that Pokémon to the Pokémon this card is attached to.",
-		fr: "Lorsque votre Pokémon Actif est mis K.O. par les dégâts d'une attaque de l'un des Pokémon de votre adversaire, vous pouvez déplacer une Énergie de base de ce Pokémon-là vers le Pokémon auquel cette carte est attachée.",
-		de: "Wenn dein Aktives Pokémon durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, kannst du 1 Basis-Energie von jenem Pokémon auf das Pokémon verschieben, an das diese Karte angelegt ist.",
-		it: "Quando il tuo Pokémon attivo viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, puoi spostare un'Energia base da quel Pokémon a quello a cui è assegnata questa carta.",
-		es: "Cuando tu Pokémon Activo queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, puedes mover 1 Energía Básica de ese Pokémon al Pokémon al que esté unida esta carta.",
-		pt: "Quando o seu Pokémon Ativo for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, você poderá mover uma Energia Básica daquele Pokémon para o Pokémon ao qual esta carta está ligada."
+		en: "Switch your Active Team Rocket's Pokémon with 1 of your Benched Team Rocket's Pokémon. If you do, switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+		fr: "Échangez votre Pokémon de la Team Rocket Actif contre l'un de vos Pokémon de la Team Rocket de Banc. Dans ce cas, envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+		de: "Tausche dein Aktives Team Rockets Pokémon gegen 1 Team Rockets Pokémon auf deiner Bank aus. Wenn du das machst, wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+		it: "Scambia il tuo Pokémon del Team Rocket attivo con un Pokémon del Team Rocket della tua panchina. Se lo fai, sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
+		es: "Cambia tu Pokémon del Team Rocket Activo por uno de tus Pokémon del Team Rocket en Banca. Si lo haces, cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
+		pt: "Troque o seu Pokémon da Equipe Rocket Ativo por 1 dos seus Pokémon da Equipe Rocket no Banco. Se fizer isto, mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
 	},
 
-	trainerType: "Tool",
-	regulationMark: "G"
+	trainerType: "Supporter",
+	regulationMark: "I"
 }
 
 export default card

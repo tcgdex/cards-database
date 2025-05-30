@@ -5,29 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rocky Helmet",
-		fr: "Casque Brut",
-		de: "Beulenhelm",
-		it: "Bitorzolelmo",
-		es: "Casco Dentado",
-		pt: "Capacete de Pedra"
+		en: "Misty's Psyduck",
+		fr: "Psykokwak d'Ondine",
+		de: "Mistys Enton",
+		it: "Psyduck di Misty",
+		es: "Psyduck de Misty",
+		pt: "Psyduck da Misty"
 	},
 
-	illustrator: "Ayaka Yoshida",
-	rarity: "Uncommon",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Water"],
+	stage: "Basic",
 
-	effect: {
-		en: "If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if it is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
-		fr: "Si le Pokémon auquel cette carte est attachée est sur le Poste Actif et qu'il subit les dégâts d'une attaque d'un Pokémon de votre adversaire (même s'il est mis K.O.), placez 2 marqueurs de dégâts sur le Pokémon Attaquant.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn es dadurch kampfunfähig wird), lege 2 Schadensmarken auf das Angreifende Pokémon.",
-		it: "Se il Pokémon a cui è assegnata questa carta è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, metti due segnalini danno sul Pokémon attaccante.",
-		es: "Si el Pokémon al que está unida esta carta está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si queda Fuera de Combate), pon 2 contadores de daño en el Pokémon Atacante.",
-		pt: "Se o Pokémon ao qual esta carta está ligada estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que ele seja Nocauteado), coloque 2 contadores de dano no Pokémon Atacante."
-	},
+	abilities: [{
+		type: "Ability",
 
-	trainerType: "Tool",
-	regulationMark: "G"
+		name: {
+			en: "Flustered Leap",
+			fr: "Saut Agité",
+			de: "Zerfahrener Sprung",
+			it: "Balzo Agitato",
+			es: "Salto Aturullado",
+			pt: "Salto Afobado"
+		},
+
+		effect: {
+			en: "Once during your turn, if this Pokémon is on your Bench, you may discard the bottom card of your deck. If you do, discard all cards from this Pokémon and put this Pokémon on top of your deck.",
+			fr: "Une fois pendant votre tour, si ce Pokémon est sur votre Banc, vous pouvez défausser la carte du dessous de votre deck. Dans ce cas, défaussez toutes les cartes attachées à ce Pokémon et placez ce Pokémon sur le dessus de votre deck.",
+			de: "Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du die unterste Karte deines Decks auf deinen Ablagestapel legen. Wenn du das machst, lege alle Karten von diesem Pokémon auf deinen Ablagestapel und lege dieses Pokémon auf dein Deck.",
+			it: "Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi scartare la carta in fondo al tuo mazzo. Se lo fai, scarta tutte le carte da questo Pokémon e mettilo in cima al tuo mazzo.",
+			es: "Una vez durante tu turno, si este Pokémon está en tu Banca, puedes descartar la última carta de tu baraja. Si lo haces, descarta todas las cartas de este Pokémon y pon este Pokémon en la parte superior de tu baraja.",
+			pt: "Uma vez durante o seu turno, se este Pokémon estiver no seu Banco, você poderá descartar a carta de baixo do seu baralho. Se fizer isto, descarte todas as cartas deste Pokémon e coloque este Pokémon como a carta de cima do seu baralho."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Water"],
+
+		name: {
+			en: "Sprinkle Water",
+			fr: "Eau Aspergeante",
+			de: "Wassersprüher",
+			it: "Goccioline",
+			es: "Esparcir Agua",
+			pt: "Aspergir Água"
+		},
+
+		damage: 30
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

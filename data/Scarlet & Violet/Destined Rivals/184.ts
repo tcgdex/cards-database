@@ -5,29 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Picnic Basket",
-		fr: "Panier de Pique-Nique",
-		de: "Picknickkorb",
-		it: "Cestino da Picnic",
-		es: "Cesta de Pícnic",
-		pt: "Cesta de Piquenique"
+		en: "Cynthia's Roserade",
+		fr: "Roserade de Cynthia",
+		de: "Cynthias Roserade",
+		it: "Roserade di Camilla",
+		es: "Roserade de Cintia",
+		pt: "Roserade da Cíntia"
 	},
 
-	illustrator: "OKACHEKE",
-	rarity: "Uncommon",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Grass"],
+	stage: "Stage1",
 
-	effect: {
-		en: "Heal 30 damage from each Pokémon (both yours and your opponent's).",
-		fr: "Soignez 30 dégâts de chacun des Pokémon (les vôtres et ceux de votre adversaire).",
-		de: "Heile 30 Schadenspunkte bei jedem Pokémon (deinen und denen deines Gegners).",
-		it: "Cura tutti i Pokémon, sia tuoi che del tuo avversario, da 30 danni.",
-		es: "Cura 30 puntos de daño a cada Pokémon (tanto tuyos como de tu rival).",
-		pt: "Cure 30 pontos de dano de cada Pokémon (seus e do seu oponente)."
-	},
+	abilities: [{
+		type: "Ability",
 
-	trainerType: "Item",
-	regulationMark: "G"
+		name: {
+			en: "Cheer On to Glory",
+			fr: "Encouragement pour la Gloire",
+			de: "Ruhmesbeifall",
+			it: "Tifo Esaltante",
+			es: "Ovación de Gloria",
+			pt: "Grito de Glória"
+		},
+
+		effect: {
+			en: "Attacks used by your Cynthia's Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+			fr: "Les attaques utilisées par vos Pokémon de Cynthia infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+			de: "Die von deinen Cynthias Pokémon eingesetzten Attacken fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
+			it: "Gli attacchi usati dai tuoi Pokémon di Camilla infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
+			es: "Los ataques usados por tus Pokémon de Cintia hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+			pt: "Os ataques usados pelos seus Pokémon da Cíntia causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência)."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Grass", "Colorless", "Colorless"],
+
+		name: {
+			en: "Leaf Step",
+			fr: "Enjambée de Feuillage",
+			de: "Blattschritt",
+			it: "Passofoglia",
+			es: "Paso Hoja",
+			pt: "Passo de Folha"
+		},
+
+		damage: 80
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

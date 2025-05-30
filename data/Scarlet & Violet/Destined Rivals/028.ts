@@ -5,58 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Capsakid",
-		fr: "Pimito",
-		de: "Chilingel",
-		it: "Capsakid",
-		es: "Capsakid",
-		pt: "Capsakid"
+		en: "Arcanine",
+		fr: "Arcanin",
+		de: "Arkani",
+		it: "Arcanine",
+		es: "Arcanine",
+		pt: "Arcanine"
 	},
 
-	illustrator: "GIDORA",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Grass"],
-	stage: "Basic",
+	hp: 140,
+	types: ["Fire"],
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Increasing Spice",
-			fr: "Piment Progressif",
-			de: "Nachwürzen",
-			it: "Più Piccante",
-			es: "Picantón",
-			pt: "Mais Apimentado"
-		},
-
-		effect: {
-			en: "Search your deck for a Basic {R} Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Énergie {R} de base, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
-			de: "Durchsuche dein Deck nach 1 Basis-{R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck.",
-			it: "Cerca nel tuo mazzo una carta Energia base {R} e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			es: "Busca en tu baraja 1 carta de Energía {R} Básica y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por uma carta de Energia {R} Básica no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho."
-		}
-	}, {
-		cost: ["Grass", "Colorless", "Colorless"],
-
-		name: {
-			en: "Playful Kick",
-			fr: "Coup de Pied de Garnement",
-			de: "Verspielter Kick",
-			it: "Calcio Briccone",
-			es: "Patada Juguetona",
-			pt: "Chute Brincalhão"
+			en: "Flare",
+			fr: "Flamboiement",
+			de: "Flackern",
+			it: "Fiammata",
+			es: "Llama",
+			pt: "Chama"
 		},
 
 		damage: 50
+	}, {
+		cost: ["Fire", "Colorless", "Colorless"],
+
+		name: {
+			en: "Punishing Fang",
+			fr: "Croc Punitif",
+			de: "Strafende Fänge",
+			it: "Zanna Punitiva",
+			es: "Colmillo Castigador",
+			pt: "Caninos Punitivos"
+		},
+
+		effect: {
+			en: "If your opponent's Active Pokémon is a {D} Pokémon, this attack does 100 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon {D}, cette attaque inflige 100 dégâts supplémentaires.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein {D}-Pokémon ist, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+			it: "Se il Pokémon attivo del tuo avversario è un Pokémon {D}, questo attacco infligge 100 danni in più.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon {D}, este ataque hace 100 puntos de daño más.",
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon {D}, este ataque causará 100 pontos de dano a mais."
+		},
+
+		damage: "100+"
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

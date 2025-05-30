@@ -5,69 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
-		de: "Lucario",
-		it: "Lucario",
-		es: "Lucario",
-		pt: "Lucario"
+		en: "Team Rocket's Nidoran♀",
+		fr: "Nidoran♀ de la Team Rocket",
+		de: "Team Rockets Nidoran♀",
+		it: "Nidoran♀ del Team Rocket",
+		es: "Nidoran♀ del Team Rocket",
+		pt: "Nidoran♀ da Equipe Rocket"
 	},
 
-	illustrator: "Nurikabe",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 130,
-	types: ["Fighting"],
-	stage: "Stage1",
+	hp: 70,
+	types: ["Darkness"],
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fighting"],
+		cost: ["Darkness"],
 
 		name: {
-			en: "Avenging Knuckle",
-			fr: "Poing Vengeur",
-			de: "Racheknöchel",
-			it: "Pugno Vendicativo",
-			es: "Nudillo Vengador",
-			pt: "Punho Vingativo"
+			en: "Surprise Attack",
+			fr: "Attaque Surprise",
+			de: "Überraschungsangriff",
+			it: "Attacco a Sorpresa",
+			es: "Ataque Sorpresa",
+			pt: "Ataque Surpresa"
 		},
 
 		effect: {
-			en: "If any of your {F} Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 120 more damage.",
-			fr: "Si au moins l'un de vos Pokémon {F} a été mis K.O. par les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige 120 dégâts supplémentaires.",
-			de: "Wenn mindestens 1 deiner {F}-Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 120 Schadenspunkte mehr zu.",
-			it: "Se uno qualsiasi dei tuoi Pokémon {F} è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 120 danni in più.",
-			es: "Si alguno de tus Pokémon {F} quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 120 puntos de daño más.",
-			pt: "Se algum dos seus Pokémon {F} tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 120 pontos de dano a mais."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
 		},
 
-		damage: "30+"
-	}, {
-		cost: ["Fighting", "Colorless", "Colorless"],
-
-		name: {
-			en: "Accelerating Stab",
-			fr: "Poignard Accélérateur",
-			de: "Beschleunigter Stich",
-			it: "Pugnalata Rapida",
-			es: "Puñalada Aceleradora",
-			pt: "Estocada Aceleratória"
-		},
-
-		effect: {
-			en: "During your next turn, this Pokémon can't use Accelerating Stab.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Poignard Accélérateur.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Beschleunigter Stich nicht einsetzen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Pugnalata Rapida.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Puñalada Aceleradora.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Estocada Aceleratória."
-		},
-
-		damage: 120
+		damage: 30
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

@@ -5,60 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cetitan",
-		fr: "Balbalèze",
-		de: "Kolowal",
-		it: "Cetitan",
-		es: "Cetitan",
-		pt: "Cetitan"
+		en: "Abomasnow",
+		fr: "Blizzaroi",
+		de: "Rexblisar",
+		it: "Abomasnow",
+		es: "Abomasnow",
+		pt: "Abomasnow"
 	},
 
-	illustrator: "Anesaki Dynamic",
 	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 180,
+	hp: 150,
 	types: ["Water"],
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
+		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			de: "Einhämmern",
-			it: "Martello",
-			es: "Martillear",
-			pt: "Martelada"
+			en: "Lunge Out",
+			fr: "Allonger",
+			de: "Sprungangriff",
+			it: "Affondo Lungo",
+			es: "Arremeter",
+			pt: "Bote"
 		},
 
-		damage: 50
+		damage: 90
 	}, {
-		cost: ["Water", "Colorless", "Colorless"],
+		cost: ["Water", "Water", "Water", "Colorless"],
 
 		name: {
-			en: "Sweeping Tackle",
-			fr: "Charge Balayante",
-			de: "Fege-Tackle",
-			it: "Spazzazione",
-			es: "Placaje Barrido",
-			pt: "Investida Esmagadora"
+			en: "Frozen Wood",
+			fr: "Bois Glacé",
+			de: "Frostiges Holz",
+			it: "Legno Ghiacciato",
+			es: "Madera Congelada",
+			pt: "Madeira Congelada"
 		},
 
 		effect: {
-			en: "This attack does 20 less damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte weniger zu.",
-			it: "Questo attacco infligge 20 danni in meno per ogni segnalino danno presente su questo Pokémon.",
-			es: "Este ataque hace 20 puntos de daño menos por cada contador de daño en este Pokémon.",
-			pt: "Este ataque causa 20 pontos de dano a menos para cada contador de dano neste Pokémon."
+			en: "If this Pokémon has 2 or more {G} Energy attached, this attack does 120 more damage.",
+			fr: "Si 2 Énergies {G} ou plus sont attachées à ce Pokémon, cette attaque inflige 120 dégâts supplémentaires.",
+			de: "Wenn an dieses Pokémon mindestens 2 {G}-Energien angelegt sind, fügt diese Attacke 120 Schadenspunkte mehr zu.",
+			it: "Se questo Pokémon ha due o più Energie {G} assegnate, questo attacco infligge 120 danni in più.",
+			es: "Si este Pokémon tiene 2 Energías {G} o más unidas, este ataque hace 120 puntos de daño más.",
+			pt: "Se este Pokémon tiver 2 ou mais Energias {G} ligadas a ele, este ataque causará 120 pontos de dano a mais."
 		},
 
-		damage: "200-"
+		damage: "120+"
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	retreat: 4,
+	regulationMark: "I"
 }
 
 export default card

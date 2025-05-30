@@ -5,67 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Iron Treads ex",
-		fr: "Roue-de-Fer-ex",
-		de: "Eisenrad-ex",
-		it: "Solcoferreo-ex",
-		es: "Ferrodada ex",
-		pt: "Trilho Férreo ex"
+		en: "Team Rocket's Nidoking ex",
+		fr: "Nidoking-ex de la Team Rocket",
+		de: "Team Rockets Nidoking-ex",
+		it: "Nidoking-ex del Team Rocket",
+		es: "Nidoking ex del Team Rocket",
+		pt: "Nidoking ex da Equipe Rocket"
 	},
 
-	illustrator: "5ban Graphics",
-	rarity: "Ultra Rare",
+	rarity: "Special illustration rare",
 	category: "Pokemon",
-	hp: 220,
-	types: ["Metal"],
-	stage: "Basic",
+	hp: 330,
+	types: ["Darkness"],
+	stage: "Stage2",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
+		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Triple Laser",
-			fr: "Triple Laser",
-			de: "Dreifachlaser",
-			it: "Triplolaser",
-			es: "Láser Triple",
-			pt: "Laser Triplo"
+			en: "Tainted Horn",
+			fr: "Corne Contaminante",
+			de: "Vergiftetes Horn",
+			it: "Corno Contaminato",
+			es: "Cuerno Contaminado",
+			pt: "Chifre Contaminado"
 		},
 
 		effect: {
-			en: "This attack does 30 damage to 3 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige 30 dégâts à 3 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			de: "Diese Attacke fügt 3 Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
-			it: "Questo attacco infligge 30 danni a tre dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			es: "Este ataque hace 30 puntos de daño a 3 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			pt: "Este ataque causa 30 pontos de dano a 3 dos Pokémon do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
-		}
+			en: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 8 damage counters on that Pokémon instead of 1.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 8 marqueurs de dégâts sur ce Pokémon-là au lieu d'un.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege beim Pokémon-Check 8 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon.",
+			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Metti otto segnalini danno invece di uno su quel Pokémon durante il controllo Pokémon.",
+			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el Chequeo Pokémon, pon 8 contadores de daño en vez de uno en ese Pokémon.",
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o Checape Pokémon, coloque 8 contadores de dano ao invés de 1 naquele Pokémon."
+		},
+
+		damage: 100
 	}, {
-		cost: ["Metal", "Metal", "Metal", "Colorless"],
+		cost: ["Darkness", "Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Cybernetic Wheels",
-			fr: "Roues Cybernétiques",
-			de: "Kybernetische Räder",
-			it: "Ruote Cibernetiche",
-			es: "Ruedas Cibernéticas",
-			pt: "Rodas Cibernéticas"
+			en: "Kingly Impact",
+			fr: "Impact Royal",
+			de: "Königlicher Einschlag",
+			it: "Impatto Regale",
+			es: "Impacto Regio",
+			pt: "Impacto Majestoso"
 		},
 
-		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
-		},
-
-		damage: 160
+		damage: 240
 	}],
 
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

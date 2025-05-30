@@ -5,69 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klefki",
-		fr: "Trousselin",
-		de: "Clavion",
-		it: "Klefki",
-		es: "Klefki",
-		pt: "Klefki"
+		en: "Team Rocket's Tyranitar",
+		fr: "Tyranocif de la Team Rocket",
+		de: "Team Rockets Despotar",
+		it: "Tyranitar del Team Rocket",
+		es: "Tyranitar del Team Rocket",
+		pt: "Tyranitar da Equipe Rocket"
 	},
 
-	illustrator: "GOSSAN",
 	rarity: "Rare",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Psychic"],
-	stage: "Basic",
+	hp: 180,
+	types: ["Fighting"],
+	stage: "Stage2",
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Mischievous Lock",
-			fr: "Verrou Malicieux",
-			de: "Dreistes Schloss",
-			it: "Blocco Birichino",
-			es: "Bloqueo Travieso",
-			pt: "Fechadura Maliciosa"
+			en: "Sand Stream",
+			fr: "Sable Volant",
+			de: "Sandsturm",
+			it: "Sabbiafiume",
+			es: "Chorro Arena",
+			pt: "Fluxo de Areia"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, Basic Pokémon in play (both yours and your opponent's) have no Abilities, except for Mischievous Lock.",
-			fr: "Tant que ce Pokémon est sur le Poste Actif, les Pokémon de base en jeu (les vôtres et ceux de votre adversaire) n'ont pas de talent, à l'exception de Verrou Malicieux.",
-			de: "Solange dieses Pokémon in der Aktiven Position ist, haben Basis-Pokémon im Spiel (deine und die deines Gegners) keine Fähigkeiten, außer Dreistes Schloss.",
-			it: "Fintanto che questo Pokémon è in posizione attiva, i Pokémon Base in gioco, sia tuoi che del tuo avversario, non hanno abilità, a eccezione di Blocco Birichino.",
-			es: "Mientras este Pokémon esté en el Puesto Activo, los Pokémon Básicos en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad, excepto Bloqueo Travieso.",
-			pt: "Enquanto este Pokémon estiver no Campo Ativo, os Pokémon Básicos em jogo (seus e do seu oponente) não têm Habilidades, exceto por Fechadura Maliciosa."
+			en: "During Pokémon Checkup, if this Pokémon is in the Active Spot, put 2 damage counters on each of your opponent's Basic Pokémon.",
+			fr: "Pendant le Contrôle Pokémon, si ce Pokémon est sur le Poste Actif, placez 2 marqueurs de dégâts sur chacun des Pokémon de base de votre adversaire.",
+			de: "Lege beim Pokémon-Check, wenn dieses Pokémon in der Aktiven Position ist, 2 Schadensmarken auf jedes Basis-Pokémon deines Gegners.",
+			it: "Durante il controllo Pokémon, se questo Pokémon è in posizione attiva, metti due segnalini danno su ciascuno dei Pokémon Base del tuo avversario.",
+			es: "Durante el Chequeo Pokémon, si este Pokémon está en el Puesto Activo, pon 2 contadores de daño en cada uno de los Pokémon Básicos de tu rival.",
+			pt: "Durante o Checape Pokémon, se este Pokémon estiver no Campo Ativo, coloque 2 contadores de dano em cada um dos Pokémon Básicos do seu oponente."
 		}
 	}],
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Joust",
-			fr: "Joute",
-			de: "Lanzenstich",
-			it: "Giostra",
-			es: "Justa",
-			pt: "Justar"
+			en: "Demolition Tackle",
+			fr: "Tacle Démolition",
+			de: "Zerstörungstackle",
+			it: "Azione Demolitiva",
+			es: "Placaje Demolición",
+			pt: "Investida Demolidora"
 		},
 
 		effect: {
-			en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
-			fr: "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
-			de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
-			es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
-			pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente."
+			en: "Discard an Energy from your opponent's Active Pokémon.",
+			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente."
 		},
 
-		damage: 10
+		damage: 180
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

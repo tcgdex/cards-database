@@ -5,47 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dedenne",
-		fr: "Dedenne",
-		de: "Dedenne",
-		it: "Dedenne",
-		es: "Dedenne",
-		pt: "Dedenne"
+		en: "Team Rocket's Larvitar",
+		fr: "Embrylex de la Team Rocket",
+		de: "Team Rockets Larvitar",
+		it: "Larvitar del Team Rocket",
+		es: "Larvitar del Team Rocket",
+		pt: "Larvitar da Equipe Rocket"
 	},
 
-	illustrator: "zig",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Psychic"],
+	types: ["Fighting"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Energy Munch",
-			fr: "Énergivore",
-			de: "Energiemampfer",
-			it: "Sgranocchia Energia",
-			es: "Mascaenergía",
-			pt: "Papa-energia"
+			en: "Mountain Munch",
+			fr: "Dévore-Montagne",
+			de: "Gipfelmampfer",
+			it: "Sgranocchiacime",
+			es: "Mascamontañas",
+			pt: "Masca-montanhas"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente."
+			en: "Discard the top card of your opponent's deck.",
+			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel.",
+			it: "Scarta la prima carta del mazzo del tuo avversario.",
+			es: "Descarta la primera carta de la baraja de tu rival.",
+			pt: "Descarte a carta de cima do baralho do seu oponente."
 		},
 
-		damage: 30
+		damage: 10
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

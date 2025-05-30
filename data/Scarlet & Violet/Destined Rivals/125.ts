@@ -5,69 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Koraidon ex",
-		fr: "Koraidon-ex",
-		de: "Koraidon-ex",
-		it: "Koraidon-ex",
-		es: "Koraidon ex",
-		pt: "Koraidon ex"
+		en: "Team Rocket's Koffing",
+		fr: "Smogo de la Team Rocket",
+		de: "Team Rockets Smogon",
+		it: "Koffing del Team Rocket",
+		es: "Koffing del Team Rocket",
+		pt: "Koffing da Equipe Rocket"
 	},
 
-	illustrator: "aky CG Works",
-	rarity: "Double rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 230,
-	types: ["Fighting"],
+	hp: 70,
+	types: ["Darkness"],
 	stage: "Basic",
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Dino Cry",
-			fr: "Cri Dino",
-			de: "Dino-Ruf",
-			it: "Dinogrido",
-			es: "Dinoalarido",
-			pt: "Brado Dino"
+			en: "Smog Signals",
+			fr: "Signaux de Purédpois",
+			de: "Smogsignale",
+			it: "Segnali di Smog",
+			es: "Señales de Polución",
+			pt: "Sinais de Fumaça"
 		},
 
 		effect: {
-			en: "Once during your turn, you may attach up to 2 Basic {F} Energy cards from your discard pile to your Basic {F} Pokémon in any way you like. If you use this Ability, your turn ends.",
-			fr: "Une fois pendant votre tour, vous pouvez attacher jusqu'à 2 cartes Énergie {F} de base de votre pile de défausse à vos Pokémon {F} de base, comme il vous plaît. Si vous utilisez ce talent, votre tour se termine.",
-			de: "Einmal während deines Zuges kannst du bis zu 2 Basis-{F}-Energiekarten aus deinem Ablagestapel beliebig an deine Basis-{F}-Pokémon anlegen. Wenn du diese Fähigkeit einsetzt, endet dein Zug.",
-			it: "Una sola volta durante il tuo turno, puoi assegnare ai tuoi Pokémon Base {F} fino a due carte Energia base {F} dalla tua pila degli scarti nel modo che preferisci. Se usi questa abilità, il tuo turno finisce.",
-			es: "Una vez durante tu turno, puedes unir hasta 2 cartas de Energía {F} Básica de tu pila de descartes a tus Pokémon {F} Básicos de la manera que desees. Si usas esta habilidad, tu turno termina.",
-			pt: "Uma vez durante o seu turno, você poderá ligar até 2 cartas de Energia {F} Básica da sua pilha de descarte aos seus Pokémon {F} Básicos como desejar. Se você usar esta Habilidade, o seu turno acabará."
+			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), search your deck for up to 2 Pokémon that have \"Koffing\" in their name and put them onto your Bench. Then, shuffle your deck.",
+			fr: "Si ce Pokémon est sur le Poste Actif et qu'il subit les dégâts d'une attaque de l'un des Pokémon de votre adversaire (même si ce Pokémon est mis K.O.), cherchez dans votre deck jusqu'à 2 Pokémon ayant \" Smogo \" dans leur nom, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			de: "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), durchsuche dein Deck nach bis zu 2 Pokémon, bei denen \"Smogon\" zum Namen gehört, und lege sie auf deine Bank. Mische anschließend dein Deck.",
+			it: "Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, cerca nel tuo mazzo fino a due Pokémon che hanno \"Koffing\" nel nome e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			es: "Si este Pokémon está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), busca en tu baraja hasta 2 Pokémon que tengan \"Koffing\" en su nombre y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			pt: "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), procure por até 2 Pokémon no seu baralho que tenham \"Koffing\" em seu nome e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho."
 		}
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Fighting", "Colorless"],
+		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Wild Impact",
-			fr: "Impact Sauvage",
-			de: "Wilde Erschütterung",
-			it: "Impatto Selvaggio",
-			es: "Impacto Brutal",
-			pt: "Impacto Selvagem"
+			en: "Leaking Gas",
+			fr: "Échappée de Gaz",
+			de: "Austretendes Gas",
+			it: "Fuoriuscita di Gas",
+			es: "Fuga de Gas",
+			pt: "Escape de Gás"
 		},
 
-		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
-		},
-
-		damage: 220
+		damage: 30
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

@@ -5,18 +5,17 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Croagunk",
-		fr: "Cradopaud",
-		de: "Glibunkel",
-		it: "Croagunk",
-		es: "Croagunk",
-		pt: "Croagunk"
+		en: "Marnie's Purrloin",
+		fr: "Chacripan de Rosemary",
+		de: "Marys Felilou",
+		it: "Purrloin di Mary",
+		es: "Purrloin de Roxy",
+		pt: "Purrloin da Marine"
 	},
 
-	illustrator: "Shiburingaru",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 70,
+	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",
 
@@ -24,32 +23,28 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			de: "Verprügler",
-			it: "Battuta",
-			es: "Toque",
-			pt: "Pulso"
+			en: "Pointy Nails",
+			fr: "Ongles Pointus",
+			de: "Spitze Nägel",
+			it: "Unghie Appuntite",
+			es: "Uñas Puntiagudas",
+			pt: "Unhas Pontiagudas"
 		},
 
-		damage: 10
-	}, {
-		cost: ["Darkness", "Colorless", "Colorless"],
-
-		name: {
-			en: "Whap Down",
-			fr: "Assommer",
-			de: "Verdreschen",
-			it: "Bastonata",
-			es: "Zurrar",
-			pt: "Golpe Ligeiro"
+		effect: {
+			en: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 40 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-ex, cette attaque inflige 40 dégâts supplémentaires.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 40 Schadenspunkte mehr zu.",
+			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo attacco infligge 40 danni in più.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 40 puntos de daño más.",
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 40 pontos de dano a mais."
 		},
 
-		damage: 40
+		damage: "20+"
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

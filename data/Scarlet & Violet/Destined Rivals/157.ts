@@ -5,60 +5,57 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oinkologne",
-		fr: "Fragroin",
-		de: "Fragrunz",
-		it: "Oinkologne",
-		es: "Oinkologne",
-		pt: "Oinkologne"
+		en: "Swellow",
+		fr: "Hélédelle",
+		de: "Schwalboss",
+		it: "Swellow",
+		es: "Swellow",
+		pt: "Swellow"
 	},
 
-	illustrator: "kirisAki",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 120,
+	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			de: "Ramme",
-			it: "Carica",
-			es: "Apisonar",
-			pt: "Aríete"
-		},
-
-		damage: 50
-	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
-
-		name: {
-			en: "Leg Stomp",
-			fr: "Jambes Lourdes",
-			de: "Beinstampfer",
-			it: "Artopestone",
-			es: "Patada Pisotón",
-			pt: "Pisoteada de Pernas"
+			en: "Add On",
+			fr: "Ajout",
+			de: "Hinzufügen",
+			it: "Supplemento",
+			es: "Sumar",
+			pt: "Adicionar"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
-			fr: "Lancez une pièce. Si c'est pile, pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Wirf 1 Münze. Bei Zahl kann dieses Pokémon während deines nächsten Zuges nicht angreifen.",
-			it: "Lancia una moneta. Se esce croce, durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			es: "Lanza 1 moneda. Si sale cruz, este Pokémon no puede atacar durante tu próximo turno.",
-			pt: "Jogue uma moeda. Se sair coroa, durante o seu próximo turno, este Pokémon não poderá atacar."
+			en: "Draw 3 cards.",
+			fr: "Piochez 3 cartes.",
+			de: "Ziehe 3 Karten.",
+			it: "Pesca tre carte.",
+			es: "Roba 3 cartas.",
+			pt: "Compre 3 cartas."
+		}
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			en: "Speed Wing",
+			fr: "Ailes Vives",
+			de: "Turboschwinge",
+			it: "Alaveloce",
+			es: "Ala Veloz",
+			pt: "Asa da Velocidade"
 		},
 
-		damage: 130
+		damage: 70
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 0,
+	regulationMark: "I"
 }
 
 export default card

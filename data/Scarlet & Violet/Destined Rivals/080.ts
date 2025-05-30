@@ -5,60 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miraidon",
-		fr: "Miraidon",
-		de: "Miraidon",
-		it: "Miraidon",
-		es: "Miraidon",
-		pt: "Miraidon"
+		en: "Team Rocket's Hypno",
+		fr: "Hypnomade de la Team Rocket",
+		de: "Team Rockets Hypno",
+		it: "Hypno del Team Rocket",
+		es: "Hypno del Team Rocket",
+		pt: "Hypno da Equipe Rocket"
 	},
 
-	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 120,
-	types: ["Lightning"],
-	stage: "Basic",
+	hp: 130,
+	types: ["Psychic"],
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
+		cost: ["Psychic"],
 
 		name: {
-			en: "Sharp Fang",
-			fr: "Croc Aiguisé",
-			de: "Scharfe Fänge",
-			it: "Zannaffilata",
-			es: "Colmillo Afilado",
-			pt: "Presa Afiada"
+			en: "Psyshot",
+			fr: "Piqûre Psy",
+			de: "Psychoschuss",
+			it: "Psicosparo",
+			es: "Disparo Psi",
+			pt: "Tiro Psíquico"
 		},
 
-		damage: 30
+		damage: 40
 	}, {
-		cost: ["Lightning", "Lightning", "Colorless"],
+		cost: ["Psychic", "Psychic", "Psychic"],
 
 		name: {
-			en: "Lightning Laser",
-			fr: "Laser Éclair",
-			de: "Blitzlaser",
-			it: "Laser Fulminante",
-			es: "Láser Relámpago",
-			pt: "Laser Relampejante"
+			en: "Bench Manipulation",
+			fr: "Manipulation de Banc",
+			de: "Bankmanipulation",
+			it: "Psicomanipolazione",
+			es: "Manipulación de Banca",
+			pt: "Manipulação de Banco"
 		},
 
 		effect: {
-			en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
-			it: "Questo attacco infligge anche 30 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			es: "Este ataque también hace 30 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			pt: "Este ataque também causa 30 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			en: "Your opponent flips a coin for each of their Benched Pokémon. This attack does 80 damage to your opponent's Active Pokémon for each tails. This attack's damage isn't affected by Weakness or Resistance.",
+			fr: "Votre adversaire lance une pièce pour chacun de ses Pokémon de Banc. Cette attaque inflige 80 dégâts au Pokémon Actif de votre adversaire pour chaque côté pile. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+			de: "Dein Gegner wirft 1 Münze für jedes Pokémon auf seiner Bank. Diese Attacke fügt dem Aktiven Pokémon deines Gegners 80 Schadenspunkte pro Zahl zu. Der Schaden dieser Attacke wird durch Schwäche oder Resistenz nicht verändert.",
+			it: "Il tuo avversario lancia una moneta per ogni Pokémon nella sua panchina. Questo attacco infligge 80 danni al Pokémon attivo del tuo avversario ogni volta che esce croce. I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
+			es: "Tu rival lanza 1 moneda por cada uno de sus Pokémon en Banca. Este ataque hace 80 puntos de daño al Pokémon Activo de tu rival por cada cruz. El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
+			pt: "Seu oponente joga uma moeda para cada um dos Pokémon no Banco dele. Este ataque causa 80 pontos de dano ao Pokémon Ativo do seu oponente para cada coroa. O dano deste ataque não é afetado por Fraqueza ou Resistência."
 		},
 
-		damage: 90
+		damage: "80×"
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

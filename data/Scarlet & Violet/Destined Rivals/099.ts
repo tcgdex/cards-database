@@ -5,60 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dachsbun",
-		fr: "Briochien",
-		de: "Backel",
-		it: "Dachsbun",
-		es: "Dachsbun",
-		pt: "Dachsbun"
+		en: "Meditite",
+		fr: "Méditikka",
+		de: "Meditie",
+		it: "Meditite",
+		es: "Meditite",
+		pt: "Meditite"
 	},
 
-	illustrator: "You Iribi",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 90,
-	types: ["Psychic"],
-	stage: "Stage1",
+	hp: 70,
+	types: ["Fighting"],
+	stage: "Basic",
 
-	abilities: [{
-		type: "Ability",
+	attacks: [{
+		cost: ["Fighting"],
 
 		name: {
-			en: "Well-Baked Body",
-			fr: "Bien Cuit",
-			de: "Knusperkruste",
-			it: "Bentostato",
-			es: "Cuerpo Horneado",
-			pt: "Corpo Bem-passado"
+			en: "Steady Punch",
+			fr: "Poing Énergétique",
+			de: "Ruhiger Schlag",
+			it: "Pugnosecco",
+			es: "Puño Firme",
+			pt: "Soco Firme"
 		},
 
 		effect: {
-			en: "This Pokémon can't be Burned. Prevent all damage done to this Pokémon by attacks from your opponent's {R} Pokémon.",
-			fr: "Ce Pokémon ne peut pas être Brûlé. Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon {R} de votre adversaire.",
-			de: "Dieses Pokémon kann nicht verbrannt werden. Verhindere allen Schaden, der diesem Pokémon durch Attacken von {R}-Pokémon deines Gegners zugefügt wird.",
-			it: "Questo Pokémon non può venire bruciato. Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon {R} del tuo avversario.",
-			es: "Este Pokémon no puede pasar a estar Quemado. Se evita todo el daño infligido a este Pokémon por ataques de los Pokémon {R} de tu rival.",
-			pt: "Este Pokémon não pode ser Queimado. Previna todo o dano causado a este Pokémon por ataques dos Pokémon {R} do seu oponente."
-		}
-	}],
-
-	attacks: [{
-		cost: ["Psychic", "Colorless", "Colorless"],
-
-		name: {
-			en: "Headbutt Bounce",
-			fr: "Culbute Surprise",
-			de: "Abrupter Kopfstoß",
-			it: "Rimbalzo Bottintesta",
-			es: "Bote Cabezazo",
-			pt: "Cabeçada Ricochete"
+			en: "Flip a coin. If heads, this attack does 20 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
+			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais."
 		},
 
-		damage: 100
+		damage: "10+"
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

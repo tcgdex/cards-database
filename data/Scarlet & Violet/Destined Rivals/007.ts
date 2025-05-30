@@ -5,58 +5,37 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tropius",
-		fr: "Tropius",
-		de: "Tropius",
-		it: "Tropius",
-		es: "Tropius",
-		pt: "Tropius"
+		en: "Cynthia's Roselia",
+		fr: "Rosélia de Cynthia",
+		de: "Cynthias Roselia",
+		it: "Roselia di Camilla",
+		es: "Roselia de Cintia",
+		pt: "Roselia da Cíntia"
 	},
 
-	illustrator: "aoki",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 100,
+	hp: 70,
 	types: ["Grass"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Fresh-Picked Fruit",
-			fr: "Fruit Frais",
-			de: "Frisches Obst",
-			it: "Frutto Appena Colto",
-			es: "Fruta Fresca",
-			pt: "Fruta Fresca"
+			en: "Spike Sting",
+			fr: "Pic Piquant",
+			de: "Stachelstich",
+			it: "Aculeopuntura",
+			es: "Picotazo Púas",
+			pt: "Ferroada de Espinhos"
 		},
 
-		effect: {
-			en: "Heal 60 damage from 1 of your Benched Pokémon.",
-			fr: "Soignez 60 dégâts de l'un de vos Pokémon de Banc.",
-			de: "Heile 60 Schadenspunkte bei 1 Pokémon auf deiner Bank.",
-			it: "Cura uno dei tuoi Pokémon in panchina da 60 danni.",
-			es: "Cura 60 puntos de daño a uno de tus Pokémon en Banca.",
-			pt: "Cure 60 pontos de dano de 1 dos seus Pokémon no Banco."
-		}
-	}, {
-		cost: ["Grass", "Colorless"],
-
-		name: {
-			en: "Razor Leaf",
-			fr: "Tranch'Herbe",
-			de: "Rasierblatt",
-			it: "Foglielama",
-			es: "Hoja Afilada",
-			pt: "Folha Navalha"
-		},
-
-		damage: 50
+		damage: 20
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

@@ -5,69 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Espathra",
-		fr: "Cléopsytra",
-		de: "Psiopatra",
-		it: "Espathra",
-		es: "Espathra",
-		pt: "Espathra"
+		en: "Cynthia's Gabite",
+		fr: "Carmache de Cynthia",
+		de: "Cynthias Knarksel",
+		it: "Gabite di Camilla",
+		es: "Gabite de Cintia",
+		pt: "Gabite da Cíntia"
 	},
 
-	illustrator: "Hitoshi Ariga",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 110,
-	types: ["Psychic"],
+	hp: 100,
+	types: ["Fighting"],
 	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Psychic"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Eye Strength",
-			fr: "Œil Inflexible",
-			de: "Augenkraft",
-			it: "Occhioforza",
-			es: "Fuerza Ocular",
-			pt: "Olhar Poderoso"
+			en: "Champion's Call",
+			fr: "Appel de la Maîtresse",
+			de: "Ruf des Champs",
+			it: "Richiamo della Campionessa",
+			es: "Llamada de Campeones",
+			pt: "Chamado de Campeão"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar."
-		},
-
-		damage: 20
-	}, {
-		cost: ["Psychic", "Colorless", "Colorless"],
-
-		name: {
-			en: "Psychic",
-			fr: "Psyko",
-			de: "Psychokinese",
-			it: "Psichico",
-			es: "Psíquico",
-			pt: "Psíquico"
-		},
-
-		effect: {
-			en: "This attack does 50 more damage for each Energy attached to your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 50 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 50 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			es: "Este ataque hace 50 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-			pt: "Este ataque causa 50 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente."
-		},
-
-		damage: "30+"
+			en: "Once during your turn, you may search your deck for a Cynthia's Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck un Pokémon de Cynthia, le montrer, puis l'ajouter à votre main. Mélangez ensuite votre deck.",
+			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Cynthias Pokémon durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck.",
+			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo un Pokémon di Camilla, mostrarlo e aggiungerlo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 Pokémon de Cintia, enseñarlo y ponerlo en tu mano. Después, baraja las cartas de tu baraja.",
+			pt: "Uma vez durante o seu turno, você poderá procurar por um Pokémon da Cíntia no seu baralho, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe o seu baralho."
+		}
 	}],
 
-	retreat: 0,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Fighting"],
+
+		name: {
+			en: "Dragonslice",
+			fr: "Draco-Tranche",
+			de: "Drachenschnetzler",
+			it: "Dragotrancia",
+			es: "Tajo Dragón",
+			pt: "Talhada do Dragão"
+		},
+
+		damage: 40
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

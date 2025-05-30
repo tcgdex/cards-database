@@ -5,51 +5,37 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crocalor",
-		fr: "Crocogril",
-		de: "Lokroko",
-		it: "Crocalor",
-		es: "Crocalor",
-		pt: "Crocalor"
+		en: "Team Rocket's Houndour",
+		fr: "Malosse de la Team Rocket",
+		de: "Team Rockets Hunduster",
+		it: "Houndour del Team Rocket",
+		es: "Houndour del Team Rocket",
+		pt: "Houndour da Equipe Rocket"
 	},
 
-	illustrator: "kantaro",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 100,
+	hp: 70,
 	types: ["Fire"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fire", "Colorless"],
+		cost: ["Fire"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			de: "Biss",
-			it: "Morso",
-			es: "Mordisco",
-			pt: "Mordida"
+			en: "Steady Firebreathing",
+			fr: "Crachage de Feu Régulier",
+			de: "Stetiger Feuerhauch",
+			it: "Soffiofuoco Mirato",
+			es: "Lanzallamas Continuo",
+			pt: "Hálito de Fogo Constante"
 		},
 
-		damage: 50
-	}, {
-		cost: ["Fire", "Fire", "Colorless"],
-
-		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			de: "Rolltackle",
-			it: "Rollazione",
-			es: "Placaje Giro",
-			pt: "Golpe de Colisão Rolante"
-		},
-
-		damage: 100
+		damage: 20
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

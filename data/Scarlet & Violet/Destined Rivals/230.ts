@@ -5,69 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Great Tusk ex",
-		fr: "Fort-Ivoire-ex",
-		de: "Riesenzahn-ex",
-		it: "Grandizanne-ex",
-		es: "Colmilargo ex",
-		pt: "Presa Grande ex"
+		en: "Ethan's Ho-Oh ex",
+		fr: "Ho-Oh-ex de Luth",
+		de: "Klarins Ho-Oh-ex",
+		it: "Ho-Oh-ex di Armonio",
+		es: "Ho-Oh ex de Eco",
+		pt: "Ho-Oh ex do Ethan"
 	},
 
-	illustrator: "5ban Graphics",
-	rarity: "Ultra Rare",
+	rarity: "Special illustration rare",
 	category: "Pokemon",
-	hp: 250,
-	types: ["Fighting"],
+	hp: 230,
+	types: ["Fire"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Fighting"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Bedrock Breaker",
-			fr: "Brise Fondation",
-			de: "Felsgrundbrecher",
-			it: "Infrangiroccia",
-			es: "Rompecimientos",
-			pt: "Quebrador de Alicerce"
+			en: "Golden Flame",
+			fr: "Flamme Dorée",
+			de: "Goldene Flamme",
+			it: "Fiamma Dorata",
+			es: "Llama Dorada",
+			pt: "Chama Dourada"
 		},
 
 		effect: {
-			en: "Discard a Stadium in play.",
-			fr: "Défaussez un Stade en jeu.",
-			de: "Lege 1 Stadionkarte im Spiel auf den Ablagestapel.",
-			it: "Scarta una carta Stadio in gioco.",
-			es: "Descarta 1 Estadio en juego.",
-			pt: "Descarte um Estádio em jogo."
-		},
-
-		damage: 40
-	}, {
-		cost: ["Fighting", "Fighting", "Fighting"],
-
-		name: {
-			en: "Gigantic Tusks",
-			fr: "Défenses Gigantesques",
-			de: "Gigantische Stoßzähne",
-			it: "Zanne Mastodontiche",
-			es: "Colmillos Gigantescos",
-			pt: "Presas Colossais"
-		},
-
-		effect: {
-			en: "This Pokémon also does 50 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
-			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 50 pontos de dano a si mesmo."
-		},
-
-		damage: 250
+			en: "Once during your turn, you may attach up to 2 Basic {R} Energy cards from your hand to 1 of your Benched Ethan's Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez attacher jusqu'à 2 cartes Énergie {R} de base de votre main à l'un de vos Pokémon de Luth de Banc.",
+			de: "Einmal während deines Zuges kannst du bis zu 2 Basis-{R}-Energiekarten aus deiner Hand an 1 Klarins Pokémon auf deiner Bank anlegen.",
+			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon di Armonio in panchina fino a due carte Energia base {R} dalla tua mano.",
+			es: "Una vez durante tu turno, puedes unir hasta 2 cartas de Energía {R} Básica de tu mano a uno de tus Pokémon de Eco en Banca.",
+			pt: "Uma vez durante o seu turno, você poderá ligar até 2 cartas de Energia {R} Básica da sua mão a 1 dos seus Pokémon do Ethan no Banco."
+		}
 	}],
 
-	retreat: 4,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Fire", "Fire", "Fire", "Fire"],
+
+		name: {
+			en: "Shining Feathers",
+			fr: "Plumes Brillantes",
+			de: "Schimmernde Federn",
+			it: "Piume Lucenti",
+			es: "Plumas Radiantes",
+			pt: "Plumas Brilhantes"
+		},
+
+		effect: {
+			en: "Heal 50 damage from each of your Pokémon.",
+			fr: "Soignez 50 dégâts de chacun de vos Pokémon.",
+			de: "Heile 50 Schadenspunkte bei jedem deiner Pokémon.",
+			it: "Cura ciascuno dei tuoi Pokémon da 50 danni.",
+			es: "Cura 50 puntos de daño a cada uno de tus Pokémon.",
+			pt: "Cure 50 pontos de dano de cada um dos seus Pokémon."
+		},
+
+		damage: 160
+	}],
+
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

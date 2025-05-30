@@ -5,69 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skeledirge",
-		fr: "Flâmigator",
-		de: "Skelokrok",
-		it: "Skeledirge",
-		es: "Skeledirge",
-		pt: "Skeledirge"
+		en: "Team Rocket's Houndoom",
+		fr: "Démolosse de la Team Rocket",
+		de: "Team Rockets Hundemon",
+		it: "Houndoom del Team Rocket",
+		es: "Houndoom del Team Rocket",
+		pt: "Houndoom da Equipe Rocket"
 	},
 
-	illustrator: "nagimiso",
-	rarity: "Rare",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 180,
+	hp: 130,
 	types: ["Fire"],
-	stage: "Stage2",
+	stage: "Stage1",
 
 	attacks: [{
 		cost: ["Fire"],
 
 		name: {
-			en: "Passionate Singing",
-			fr: "Chant Passionné",
-			de: "Feuriger Gesang",
-			it: "Canto Appassionato",
-			es: "Canto Apasionado",
-			pt: "Cantoria Acalorada"
+			en: "Cruel Coal",
+			fr: "Charbon Cruel",
+			de: "Krude Kohle",
+			it: "Carboni Crudeli",
+			es: "Carbón Cruel",
+			pt: "Carvão Cruel"
 		},
 
 		effect: {
-			en: "Attach up to 2 Basic Energy cards from your discard pile to your Pokémon in any way you like.",
-			fr: "Attachez jusqu'à 2 cartes Énergie de base de votre pile de défausse à vos Pokémon comme il vous plaît.",
-			de: "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an.",
-			it: "Assegna ai tuoi Pokémon fino a due carte Energia base dalla tua pila degli scarti nel modo che preferisci.",
-			es: "Une hasta 2 cartas de Energía Básica de tu pila de descartes a tus Pokémon de la manera que desees.",
-			pt: "Ligue até 2 cartas de Energia Básica da sua pilha de descarte aos seus Pokémon como desejar."
-		},
-
-		damage: 50
+			en: "Your opponent's Active Pokémon is now Burned and Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé et Confus.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt.",
+			it: "Il Pokémon attivo del tuo avversario viene bruciato e confuso.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido y Quemado.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso e Queimado."
+		}
 	}, {
-		cost: ["Fire", "Fire", "Colorless"],
+		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Blazing Shout",
-			fr: "Cri Ardent",
-			de: "Lodernder Schrei",
-			it: "Urlo Rovente",
-			es: "Grito Abrasador",
-			pt: "Grito Flamejante"
+			en: "Scorching Fire",
+			fr: "Feu Infernal",
+			de: "Versengendes Feuer",
+			it: "Fuoco Ustionante",
+			es: "Fuego Abrasador",
+			pt: "Fogo Ardente"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			en: "Discard an Energy from this Pokémon.",
+			fr: "Défaussez une Énergie de ce Pokémon.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta un'Energia da questo Pokémon.",
+			es: "Descarta 1 Energía de este Pokémon.",
+			pt: "Descarte uma Energia deste Pokémon."
 		},
 
-		damage: 190
+		damage: 120
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

@@ -5,51 +5,57 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		de: "Ganovil",
-		it: "Sandile",
-		es: "Sandile",
-		pt: "Sandile"
+		en: "Team Rocket's Nidorina",
+		fr: "Nidorina de la Team Rocket",
+		de: "Team Rockets Nidorina",
+		it: "Nidorina del Team Rocket",
+		es: "Nidorina del Team Rocket",
+		pt: "Nidorina da Equipe Rocket"
 	},
 
-	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Fighting"],
-	stage: "Basic",
+	hp: 90,
+	types: ["Darkness"],
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fighting"],
+		cost: ["Darkness"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			de: "Nagen",
-			it: "Rosicchiamento",
-			es: "Roer",
-			pt: "Roída"
+			en: "Dark Awakening",
+			fr: "Éveil Obscur",
+			de: "Dunkles Erwachen",
+			it: "Risveglio Oscuro",
+			es: "Despertar Oscuro",
+			pt: "Despertar Maligno"
 		},
 
-		damage: 10
+		effect: {
+			en: "Choose up to 2 of your {D} Pokémon. For each of those Pokémon, search your deck for a card that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.",
+			fr: "Choisissez jusqu'à 2 de vos Pokémon {D}. Pour chacun de ces Pokémon, cherchez dans votre deck une carte Évolution de ce Pokémon-là, puis placez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
+			de: "Wähle bis zu 2 deiner {D}-Pokémon. Durchsuche für jedes jener Pokémon dein Deck nach 1 Karte, die sich aus jenem Pokémon entwickelt, und lege sie auf jenes Pokémon, um es zu entwickeln. Mische anschließend dein Deck.",
+			it: "Scegli fino a due dei tuoi Pokémon {D}. Per ognuno di essi, cerca nel tuo mazzo una carta che si evolve da quel Pokémon e metticela sopra per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
+			es: "Elige hasta 2 de tus Pokémon {D}. Para cada uno de esos Pokémon, busca en tu baraja 1 carta que evolucione de ese Pokémon y ponla sobre ese Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
+			pt: "Escolha até 2 dos seus Pokémon {D}. Para cada um daqueles Pokémon, procure por uma carta no seu baralho que evolua daquele Pokémon e coloque-a sobre aquele Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho."
+		}
 	}, {
-		cost: ["Fighting", "Fighting"],
+		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			de: "Ramme",
-			it: "Carica",
-			es: "Apisonar",
-			pt: "Aríete"
+			en: "Scratch",
+			fr: "Griffe",
+			de: "Kratzer",
+			it: "Graffio",
+			es: "Arañazo",
+			pt: "Arranhão"
 		},
 
-		damage: 30
+		damage: 50
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

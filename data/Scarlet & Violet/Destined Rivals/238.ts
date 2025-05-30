@@ -5,29 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miriam",
-		fr: "Mimosa",
-		de: "Mimi",
-		it: "Mimosa",
-		es: "Mimí",
-		pt: "Miriam"
+		en: "Team Rocket's Giovanni",
+		fr: "Giovanni de la Team Rocket",
+		de: "Team Rockets Giovanni",
+		it: "Giovanni del Team Rocket",
+		es: "Giovanni del Team Rocket",
+		pt: "Giovanni da Equipe Rocket"
 	},
 
-	illustrator: "Sanosuke Sakuma",
-	rarity: "Ultra Rare",
+	rarity: "Special illustration rare",
 	category: "Trainer",
 
 	effect: {
-		en: "Shuffle up to 5 Pokémon from your discard pile into your deck. If you shuffled any cards into your deck in this way, draw 3 cards.",
-		fr: "Mélangez avec votre deck jusqu'à 5 Pokémon de votre pile de défausse. Si vous avez mélangé au moins une carte avec votre deck de cette façon, piochez 3 cartes.",
-		de: "Mische bis zu 5 Pokémon aus deinem Ablagestapel in dein Deck. Wenn du auf diese Weise mindestens 1 Karte in dein Deck gemischt hast, ziehe 3 Karten.",
-		it: "Rimischia fino a cinque Pokémon dalla tua pila degli scarti nel tuo mazzo. Se hai rimischiato delle carte nel tuo mazzo in questo modo, pesca tre carte.",
-		es: "Pon hasta 5 Pokémon de tu pila de descartes en tu baraja y baraja todas las cartas. Si has puesto alguna carta en tu baraja de esta manera, roba 3 cartas.",
-		pt: "Embaralhe até 5 Pokémon da sua pilha de descarte no seu baralho. Se você embaralhou qualquer carta no seu baralho desta forma, compre 3 cartas."
+		en: "Switch your Active Team Rocket's Pokémon with 1 of your Benched Team Rocket's Pokémon. If you do, switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+		fr: "Échangez votre Pokémon de la Team Rocket Actif contre l'un de vos Pokémon de la Team Rocket de Banc. Dans ce cas, envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+		de: "Tausche dein Aktives Team Rockets Pokémon gegen 1 Team Rockets Pokémon auf deiner Bank aus. Wenn du das machst, wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+		it: "Scambia il tuo Pokémon del Team Rocket attivo con un Pokémon del Team Rocket della tua panchina. Se lo fai, sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
+		es: "Cambia tu Pokémon del Team Rocket Activo por uno de tus Pokémon del Team Rocket en Banca. Si lo haces, cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
+		pt: "Troque o seu Pokémon da Equipe Rocket Ativo por 1 dos seus Pokémon da Equipe Rocket no Banco. Se fizer isto, mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
 	},
 
 	trainerType: "Supporter",
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

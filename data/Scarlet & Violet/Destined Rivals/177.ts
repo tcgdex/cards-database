@@ -5,29 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Katy",
-		fr: "Éra",
-		de: "Ronah",
-		it: "Aceria",
-		es: "Araceli",
-		pt: "Catarina"
+		en: "Team Rocket's Proton",
+		fr: "Lance de la Team Rocket",
+		de: "Team Rockets Lance",
+		it: "Milas del Team Rocket",
+		es: "Protón del Team Rocket",
+		pt: "Próton da Equipe Rocket"
 	},
 
-	illustrator: "Akira Komayama",
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Shuffle your hand into your deck. Then, draw 8 cards. Your turn ends.",
-		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 8 cartes. Votre tour se termine.",
-		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 8 Karten. Dein Zug endet.",
-		it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca otto carte. Il tuo turno finisce.",
-		es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 8 cartas. Tu turno termina.",
-		pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 8 cartas. O seu turno acaba."
+		en: "If you go first, you may use this card during your first turn.\n\nSearch your deck for up to 3 Basic Team Rocket's Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+		fr: "Si vous jouez en premier, vous pouvez utiliser cette carte pendant votre premier tour.\n\nCherchez dans votre deck jusqu'à 3 Pokémon de la Team Rocket de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		de: "Wenn du als Erster am Zug bist, kannst du diese Karte während deines ersten Zuges einsetzen.\n\nDurchsuche dein Deck nach bis zu 3 Basis-Team-Rockets-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+		it: "Se inizi per primo, puoi usare questa carta durante il tuo primo turno.\n\nCerca nel tuo mazzo fino a tre Pokémon del Team Rocket Base, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+		es: "Si sales en primer lugar, puedes usar esta carta durante tu primer turno.\n\nBusca en tu baraja hasta 3 Pokémon del Team Rocket Básicos, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+		pt: "Se você for o primeiro a jogar, poderá usar esta carta durante o seu primeiro turno.\n\nProcure por até 3 Pokémon da Equipe Rocket Básicos no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho."
 	},
 
 	trainerType: "Supporter",
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

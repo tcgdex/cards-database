@@ -5,58 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magnemite",
-		fr: "Magnéti",
-		de: "Magnetilo",
-		it: "Magnemite",
-		es: "Magnemite",
-		pt: "Magnemite"
+		en: "Barraskewda",
+		fr: "Hastacuda",
+		de: "Barrakiefa",
+		it: "Barraskewda",
+		es: "Barraskewda",
+		pt: "Barraskewda"
 	},
 
-	illustrator: "KIYOTAKA OSHIYAMA",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 60,
-	types: ["Lightning"],
-	stage: "Basic",
+	hp: 130,
+	types: ["Water"],
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Water"],
 
 		name: {
-			en: "Magnetic Switch",
-			fr: "Échange Magnétique",
-			de: "Magnettausch",
-			it: "Scambio Magnetico",
-			es: "Cambio Magnético",
-			pt: "Chave Magnética"
+			en: "Sharp Fin",
+			fr: "Aileron Aiguisé",
+			de: "Schneidige Flosse",
+			it: "Pinnaffilata",
+			es: "Cortaleta",
+			pt: "Barbatana Afiada"
+		},
+
+		damage: 40
+	}, {
+		cost: ["Water", "Water"],
+
+		name: {
+			en: "Dive",
+			fr: "Plongée",
+			de: "Taucher",
+			it: "Sub",
+			es: "Buceo",
+			pt: "Mergulho"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
-		}
-	}, {
-		cost: ["Lightning"],
-
-		name: {
-			en: "Electro Ball",
-			fr: "Boule Élek",
-			de: "Elektroball",
-			it: "Energisfera",
-			es: "Bola Voltio",
-			pt: "Bola Elétrica"
+			en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+			fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon.",
+			de: "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden.",
+			it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni sia i danni che gli effetti degli attacchi inflitti a questo Pokémon.",
+			es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon.",
+			pt: "Jogue uma moeda. Se sair cara, durante o próximo turno do seu oponente, previna todo o dano e os efeitos de ataques causados a este Pokémon."
 		},
 
-		damage: 10
+		damage: 60
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

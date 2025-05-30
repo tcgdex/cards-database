@@ -5,69 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Banette ex",
-		fr: "Branette-ex",
-		de: "Banette-ex",
-		it: "Banette-ex",
-		es: "Banette ex",
-		pt: "Banette ex"
+		en: "Team Rocket's Moltres ex",
+		fr: "Sulfura-ex de la Team Rocket",
+		de: "Team Rockets Lavados-ex",
+		it: "Moltres-ex del Team Rocket",
+		es: "Moltres ex del Team Rocket",
+		pt: "Moltres ex da Equipe Rocket"
 	},
 
-	illustrator: "PLANETA Mochizuki",
-	rarity: "Ultra Rare",
+	rarity: "Special illustration rare",
 	category: "Pokemon",
-	hp: 250,
-	types: ["Psychic"],
-	stage: "Stage1",
+	hp: 220,
+	types: ["Fire"],
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic"],
+		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Everlasting Darkness",
-			fr: "Obscurité Éternelle",
-			de: "Ewige Finsternis",
-			it: "Oscurità Perpetua",
-			es: "Oscuridad Eterna",
-			pt: "Escuridão Eterna"
+			en: "Flame Screen",
+			fr: "Barrière de Flammes",
+			de: "Flammenschirm",
+			it: "Muro di Fuoco",
+			es: "Pantallama",
+			pt: "Cortina de Chamas"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Item cards from their hand.",
-			fr: "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Objet de sa main.",
-			de: "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen.",
-			it: "Durante il suo prossimo turno, il tuo avversario non può giocare le carte Strumento che ha in mano.",
-			es: "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
-			pt: "Durante o próximo turno do seu oponente, ele não poderá jogar nenhuma carta de Item da mão dele."
+			en: "During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 50 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 50 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 50 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			es: "Durante el próximo turno de tu rival, los ataques hacen 50 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 50 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
 		},
 
-		damage: 30
+		damage: 110
 	}, {
-		cost: ["Psychic", "Colorless"],
+		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Poltergeist",
-			fr: "Esprit Frappeur",
-			de: "Poltergeist",
-			it: "Poltergeist",
-			es: "Poltergeist",
-			pt: "Poltergeist"
+			en: "Evil Incineration",
+			fr: "Calcination Maléfique",
+			de: "Boshafte Einäscherung",
+			it: "Incenerimento Maligno",
+			es: "Calcinación Malvada",
+			pt: "Incineração do Mal"
 		},
 
 		effect: {
-			en: "Your opponent reveals their hand. This attack does 60 damage for each Trainer card you find there.",
-			fr: "Votre adversaire montre sa main. Cette attaque inflige 60 dégâts pour chaque carte Dresseur que vous y trouvez.",
-			de: "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 60 Schadenspunkte zu.",
-			it: "Il tuo avversario mostra le carte che ha in mano. Questo attacco infligge 60 danni per ogni carta Allenatore presente tra quelle carte.",
-			es: "Tu rival enseña las cartas de su mano. Este ataque hace 60 puntos de daño por cada carta de Entrenador que encuentres entre ellas.",
-			pt: "Seu oponente revela a mão dele. Este ataque causa 60 pontos de dano para cada carta de Treinador que encontrar lá."
-		},
-
-		damage: "60×"
+			en: "Discard a Team Rocket's Energy from this Pokémon. If you do, discard your opponent's Active Pokémon and all attached cards.",
+			fr: "Défaussez une Énergie de la Team Rocket de ce Pokémon. Dans ce cas, défaussez le Pokémon Actif de votre adversaire et toutes les cartes qui lui sont attachées.",
+			de: "Lege 1 Team Rockets Energie von diesem Pokémon auf deinen Ablagestapel. Wenn du das machst, lege das Aktive Pokémon deines Gegners und alle angelegten Karten auf seinen Ablagestapel.",
+			it: "Scarta un'Energia del Team Rocket da questo Pokémon. Se lo fai, scarta il Pokémon attivo del tuo avversario e tutte le carte a esso assegnate.",
+			es: "Descarta 1 Energía del Team Rocket de este Pokémon. Si lo haces, descarta el Pokémon Activo de tu rival y todas las cartas unidas a él.",
+			pt: "Descarte uma Energia da Equipe Rocket deste Pokémon. Se fizer isto, descarte o Pokémon Ativo do seu oponente e todas as cartas ligadas a ele."
+		}
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

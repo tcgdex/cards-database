@@ -5,60 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		de: "Riolu",
-		it: "Riolu",
-		es: "Riolu",
-		pt: "Riolu"
+		en: "Cynthia's Garchomp ex",
+		fr: "Carchacrok-ex de Cynthia",
+		de: "Cynthias Knakrack-ex",
+		it: "Garchomp-ex di Camilla",
+		es: "Garchomp ex de Cintia",
+		pt: "Garchomp ex da Cíntia"
 	},
 
-	illustrator: "Nelnal",
-	rarity: "Illustration rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
-	hp: 70,
+	hp: 330,
 	types: ["Fighting"],
-	stage: "Basic",
+	stage: "Stage2",
 
 	attacks: [{
 		cost: ["Fighting"],
 
 		name: {
-			en: "Punch",
-			fr: "Koud'Poing",
-			de: "Boxhieb",
-			it: "Pugno",
-			es: "Puño",
-			pt: "Soco"
-		},
-
-		damage: 10
-	}, {
-		cost: ["Fighting", "Colorless"],
-
-		name: {
-			en: "Reckless Charge",
-			fr: "Attaque Imprudente",
-			de: "Waghalsiger Sturmangriff",
-			it: "Carica Avventata",
-			es: "Carga Descuidada",
-			pt: "Carga Indomável"
+			en: "Corkscrew Dive",
+			fr: "Plongée Tire-Bouchon",
+			de: "Spiralsturzflug",
+			it: "Picchiata Rotante",
+			es: "Picado Tirabuzón",
+			pt: "Mergulho Parafuso"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo."
+			en: "You may draw cards until you have 6 cards in your hand.",
+			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
+			de: "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast.",
+			it: "Puoi pescare fino ad avere sei carte in mano.",
+			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
+			pt: "Você pode comprar cartas até ter 6 cartas na sua mão."
 		},
 
-		damage: 50
+		damage: 100
+	}, {
+		cost: ["Fighting", "Fighting"],
+
+		name: {
+			en: "Draconic Buster",
+			fr: "Buster Draconien",
+			de: "Drachensprenger",
+			it: "Distruzione del Drago",
+			es: "Destrucción Dracónica",
+			pt: "Aniquilação Dracônica"
+		},
+
+		effect: {
+			en: "Discard all Energy from this Pokémon.",
+			fr: "Défaussez toutes les Énergies de ce Pokémon.",
+			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta tutte le Energie da questo Pokémon.",
+			es: "Descarta todas las Energías de este Pokémon.",
+			pt: "Descarte todas as Energias deste Pokémon."
+		},
+
+		damage: 260
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 0,
+	regulationMark: "I"
 }
 
 export default card

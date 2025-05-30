@@ -5,47 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wiglett",
-		fr: "Taupikeau",
-		de: "Schligda",
-		it: "Wiglett",
-		es: "Wiglett",
-		pt: "Wiglett"
+		en: "Yanmega ex",
+		fr: "Yanmega-ex",
+		de: "Yanmega-ex",
+		it: "Yanmega-ex",
+		es: "Yanmega ex",
+		pt: "Yanmega ex"
 	},
 
-	illustrator: "You Iribi",
-	rarity: "Illustration rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
-	hp: 50,
-	types: ["Water"],
-	stage: "Basic",
+	hp: 280,
+	types: ["Grass"],
+	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Water"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Twisting Strike",
-			fr: "Frappe Sinueuse",
-			de: "Drehstoß",
-			it: "Torcicolpo",
-			es: "Golpe Retorcido",
-			pt: "Golpe Entrelaçado"
+			en: "Buzzing Boost",
+			fr: "Boost Bourdonnant",
+			de: "Summboost",
+			it: "Ronzio Energizzante",
+			es: "Zumbido Impulso",
+			pt: "Zumbido Impulsor"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon.",
-			de: "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden.",
-			it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni sia i danni che gli effetti degli attacchi inflitti a questo Pokémon.",
-			es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon.",
-			pt: "Jogue uma moeda. Se sair cara, durante o próximo turno do seu oponente, previna todo o dano e os efeitos de ataques causados a este Pokémon."
+			en: "Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may search your deck for up to 3 Basic {G} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+			fr: "Une fois pendant votre tour, lorsque ce Pokémon se déplace de votre Banc vers le Poste Actif, vous pouvez chercher dans votre deck jusqu'à 3 cartes Énergie {G} de base, puis les attacher à ce Pokémon. Mélangez ensuite votre deck.",
+			de: "Einmal während deines Zuges, wenn dieses Pokémon von deiner Bank in die Aktive Position wechselt, kannst du dein Deck nach bis zu 3 Basis-{G}-Energiekarten durchsuchen und sie an dieses Pokémon anlegen. Mische anschließend dein Deck.",
+			it: "Una sola volta durante il tuo turno, quando questo Pokémon si sposta dalla tua panchina in posizione attiva, puoi cercare nel tuo mazzo fino a tre carte Energia base {G} e assegnarle a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			es: "Una vez durante tu turno, cuando este Pokémon se mueve de tu Banca al Puesto Activo, puedes buscar en tu baraja hasta 3 cartas de Energía {G} Básica y unirlas a este Pokémon. Después, baraja las cartas de tu baraja.",
+			pt: "Uma vez durante o seu turno, quando este Pokémon for movido do seu Banco para o Campo Ativo, você poderá procurar por até 3 cartas de Energia {G} Básica no seu baralho e ligá-las a este Pokémon. Em seguida, embaralhe o seu baralho."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Grass", "Grass", "Grass", "Colorless"],
+
+		name: {
+			en: "Jet Cyclone",
+			fr: "Cyclone Propulsé",
+			de: "Düsensturm",
+			it: "Ciclone Jet",
+			es: "Ciclón Propulsión",
+			pt: "Jato Ciclone"
 		},
 
-		damage: 10
+		effect: {
+			en: "Move 3 Energy from this Pokémon to 1 of your Benched Pokémon.",
+			fr: "Déplacez 3 Énergies de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			de: "Verschiebe 3 Energien von diesem Pokémon auf 1 Pokémon auf deiner Bank.",
+			it: "Sposta tre Energie da questo Pokémon a uno di quelli nella tua panchina.",
+			es: "Mueve 3 Energías de este Pokémon a uno de tus Pokémon en Banca.",
+			pt: "Mova 3 Energias deste Pokémon para 1 dos seus Pokémon no Banco."
+		},
+
+		damage: 210
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

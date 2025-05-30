@@ -5,60 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Krokorok",
-		fr: "Escroco",
-		de: "Rokkaiman",
-		it: "Krokorok",
-		es: "Krokorok",
-		pt: "Krokorok"
+		en: "Team Rocket's Nidoqueen",
+		fr: "Nidoqueen de la Team Rocket",
+		de: "Team Rockets Nidoqueen",
+		it: "Nidoqueen del Team Rocket",
+		es: "Nidoqueen del Team Rocket",
+		pt: "Nidoqueen da Equipe Rocket"
 	},
 
-	illustrator: "kantaro",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 100,
-	types: ["Fighting"],
-	stage: "Stage1",
+	hp: 170,
+	types: ["Darkness"],
+	stage: "Stage2",
 
 	attacks: [{
-		cost: ["Fighting"],
+		cost: ["Darkness"],
 
 		name: {
-			en: "Payback",
-			fr: "Représailles",
-			de: "Gegenstoß",
-			it: "Rivincita",
-			es: "Vendetta",
-			pt: "Revide"
+			en: "Love Impact",
+			fr: "Impact de l'Amour",
+			de: "Einschlag der Liebe",
+			it: "Impatto Amoroso",
+			es: "Impacto Amoroso",
+			pt: "Impacto de Amor"
 		},
 
 		effect: {
-			en: "If your opponent has exactly 1 Prize card remaining, this attack does 90 more damage.",
-			fr: "S'il reste exactement une carte Récompense à votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
-			de: "Wenn dein Gegner genau 1 verbleibende Preiskarte hat, fügt diese Attacke 90 Schadenspunkte mehr zu.",
-			it: "Se il tuo avversario ha esattamente una carta Premio rimanente, questo attacco infligge 90 danni in più.",
-			es: "Si a tu rival le queda exactamente una carta de Premio, este ataque hace 90 puntos de daño más.",
-			pt: "Se o seu oponente tiver exatamente 1 carta de Prêmio restante, este ataque causará 90 pontos de dano a mais."
+			en: "If a Pokémon that has \"Nidoking\" in its name is on your Bench, this attack does 120 more damage.",
+			fr: "Si un Pokémon ayant \" Nidoking \" dans son nom est sur votre Banc, cette attaque inflige 120 dégâts supplémentaires.",
+			de: "Wenn sich ein Pokémon auf deiner Bank befindet, bei dem \"Nidoking\" zum Namen gehört, fügt diese Attacke 120 Schadenspunkte mehr zu.",
+			it: "Se un Pokémon che ha \"Nidoking\" nel nome è nella tua panchina, questo attacco infligge 120 danni in più.",
+			es: "Si hay un Pokémon en tu Banca que tenga \"Nidoking\" en su nombre, este ataque hace 120 puntos de daño más.",
+			pt: "Se um Pokémon que tiver \"Nidoking\" em seu nome estiver no seu Banco, este ataque causará 120 pontos de dano a mais."
 		},
 
-		damage: "30+"
+		damage: "60+"
 	}, {
-		cost: ["Fighting", "Fighting"],
+		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
-			de: "Korkenzieherhieb",
-			it: "Pugno Rotante",
-			es: "Puño Tirabuzón",
-			pt: "Soco Saca-rolha"
+			en: "Mega Kick",
+			fr: "Ultimawashi",
+			de: "Megakick",
+			it: "Megacalcio",
+			es: "Megapatada",
+			pt: "Megachute"
 		},
 
-		damage: 60
+		damage: 130
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

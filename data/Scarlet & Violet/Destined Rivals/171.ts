@@ -5,29 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Energy Retrieval",
-		fr: "Récupération d'Énergie",
-		de: "Energie-Zugewinn",
-		it: "Recupero di Energia",
-		es: "Recuperación de Energía",
-		pt: "Recuperação de Energia"
+		en: "Team Rocket's Ariana",
+		fr: "Ariane de la Team Rocket",
+		de: "Team Rockets Athena",
+		it: "Atena del Team Rocket",
+		es: "Atenea del Team Rocket",
+		pt: "Athena da Equipe Rocket"
 	},
 
-	illustrator: "Studio Bora Inc.",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Put up to 2 Basic Energy cards from your discard pile into your hand.",
-		fr: "Ajoutez jusqu'à 2 cartes Énergie de base de votre pile de défausse à votre main.",
-		de: "Nimm bis zu 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand.",
-		it: "Prendi fino a due carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-		es: "Pon hasta 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
-		pt: "Coloque até 2 cartas de Energia Básica da sua pilha de descarte na sua mão."
+		en: "Draw cards until you have 5 cards in your hand. If all of your Pokémon in play are Team Rocket's Pokémon, draw cards until you have 8 cards in your hand instead.",
+		fr: "Piochez des cartes jusqu'à en avoir 5 en main. Si tous vos Pokémon en jeu sont des Pokémon de la Team Rocket, piochez des cartes jusqu'à en avoir 8 en main à la place.",
+		de: "Ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast. Wenn alle deine Pokémon im Spiel Team Rockets Pokémon sind, ziehe stattdessen so lange Karten, bis du 8 Karten auf deiner Hand hast.",
+		it: "Pesca fino ad avere cinque carte in mano. Se tutti i tuoi Pokémon in gioco sono Pokémon del Team Rocket, invece pesca fino ad avere otto carte in mano.",
+		es: "Roba cartas hasta que tengas 5 cartas en tu mano. Si todos tus Pokémon en juego son Pokémon del Team Rocket, roba cartas hasta que tengas 8 cartas en tu mano en vez de 5.",
+		pt: "Compre cartas até ter 5 cartas na sua mão. Se todos os seus Pokémon em jogo forem Pokémon da Equipe Rocket, compre cartas até ter 8 cartas na sua mão ao invés de 5."
 	},
 
-	trainerType: "Item",
-	regulationMark: "G"
+	trainerType: "Supporter",
+	regulationMark: "I"
 }
 
 export default card

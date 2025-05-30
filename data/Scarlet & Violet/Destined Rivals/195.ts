@@ -5,29 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Star Grunt",
-		fr: "Sbire de la Team Star",
-		de: "Rüpel von Team Star",
-		it: "Recluta del Team Star",
-		es: "Recluta del Team Star",
-		pt: "Recruta da Equipe Star"
+		en: "Clamperl",
+		fr: "Coquiperl",
+		de: "Perlu",
+		it: "Clamperl",
+		es: "Clamperl",
+		pt: "Clamperl"
 	},
 
-	illustrator: "nagimiso",
-	rarity: "Uncommon",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Water"],
+	stage: "Basic",
 
-	effect: {
-		en: "Put an Energy attached to your opponent's Active Pokémon on top of their deck.",
-		fr: "Placez une Énergie attachée au Pokémon Actif de votre adversaire sur le dessus de son deck.",
-		de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf sein Deck.",
-		it: "Prendi un'Energia assegnata al Pokémon attivo del tuo avversario e mettila in cima al suo mazzo.",
-		es: "Pon 1 Energía unida al Pokémon Activo de tu rival en la parte superior de su baraja.",
-		pt: "Coloque uma Energia ligada ao Pokémon Ativo do seu oponente como a carta de cima do baralho dele."
-	},
+	attacks: [{
+		cost: ["Water"],
 
-	trainerType: "Supporter",
-	regulationMark: "G"
+		name: {
+			en: "Shell Press",
+			fr: "Pression Coquille",
+			de: "Schalendruck",
+			it: "Gusciopressa",
+			es: "Presión Caparazón",
+			pt: "Compressão de Concha"
+		},
+
+		effect: {
+			en: "During your opponent's next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 10 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 10 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 10 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			es: "Durante el próximo turno de tu rival, los ataques hacen 10 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 10 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+		},
+
+		damage: 10
+	}],
+
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

@@ -5,69 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Medicham",
-		fr: "Charmina",
-		de: "Meditalis",
-		it: "Medicham",
-		es: "Medicham",
-		pt: "Medicham"
+		en: "Cornerstone Mask Ogerpon",
+		fr: "Ogerpon Masque de la Pierre",
+		de: "Fundamentmaske-Ogerpon",
+		it: "Ogerpon Maschera Fondamenta",
+		es: "Ogerpon Máscara Cimiento",
+		pt: "Ogerpon Máscara Alicerce"
 	},
 
-	illustrator: "Jerky",
 	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 90,
+	hp: 110,
 	types: ["Fighting"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fighting"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Acu-Punch-Ture",
-			fr: "Acu-Poing-Ture",
-			de: "Aku-Punch-Tur",
-			it: "Pugnopressione",
-			es: "Acupuñura",
-			pt: "Acupuntura Violenta"
+			en: "Rock Kagura",
+			fr: "Kagura Roche",
+			de: "Gesteins-Kagura",
+			it: "Kagura della Roccia",
+			es: "Kagura Roca",
+			pt: "Kagura de Pedra"
 		},
 
 		effect: {
-			en: "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.",
-			fr: "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas utiliser cette attaque.",
-			de: "Wähle 1 Attacke des Aktiven Pokémon deines Gegners. Während des nächsten Zuges deines Gegners kann jenes Pokémon jene Attacke nicht einsetzen.",
-			it: "Scegli un attacco del Pokémon attivo del tuo avversario. Durante il prossimo turno del tuo avversario, quel Pokémon non potrà utilizzarlo.",
-			es: "Elige uno de los ataques del Pokémon Activo de tu rival. Durante el próximo turno de tu rival, dicho Pokémon no puede usar ese ataque.",
-			pt: "Escolha 1 dos ataques do Pokémon Ativo do seu oponente. Durante o próximo turno do seu oponente, aquele Pokémon não poderá usar aquele ataque."
-		},
-
-		damage: 30
+			en: "Search your deck for a Basic {F} Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck une carte Énergie {F} de base, puis attachez-la à l'un de vos Pokémon. Mélangez ensuite votre deck.",
+			de: "Durchsuche dein Deck nach 1 Basis-{F}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo una carta Energia base {F} e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
+			es: "Busca en tu baraja 1 carta de Energía {F} Básica y únela a uno de tus Pokémon. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por uma carta de Energia {F} Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho."
+		}
 	}, {
-		cost: ["Fighting"],
+		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Kick Shot",
-			fr: "Coup d'Ergots",
-			de: "Kickschuss",
-			it: "Colpocalcio",
-			es: "Disparo Patada",
-			pt: "Chute Tiro"
+			en: "Mountain Ramming",
+			fr: "Pousse-Montagnes",
+			de: "Bergramme",
+			it: "Speronamonte",
+			es: "Empuje Montaña",
+			pt: "Colisão Montanhosa"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
+			en: "Discard the top card of your opponent's deck.",
+			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel.",
+			it: "Scarta la prima carta del mazzo del tuo avversario.",
+			es: "Descarta la primera carta de la baraja de tu rival.",
+			pt: "Descarte a carta de cima do baralho do seu oponente."
 		},
 
-		damage: 90
+		damage: 100
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

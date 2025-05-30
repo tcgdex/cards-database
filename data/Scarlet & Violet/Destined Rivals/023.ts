@@ -5,60 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arboliva",
-		fr: "Arboliva",
-		de: "Olithena",
-		it: "Arboliva",
-		es: "Arboliva",
-		pt: "Arboliva"
+		en: "Arboliva ex",
+		fr: "Arboliva-ex",
+		de: "Olithena-ex",
+		it: "Arboliva-ex",
+		es: "Arboliva ex",
+		pt: "Arboliva ex"
 	},
 
-	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Double rare",
 	category: "Pokemon",
-	hp: 150,
+	hp: 310,
 	types: ["Grass"],
 	stage: "Stage2",
 
-	abilities: [{
-		type: "Ability",
+	attacks: [{
+		cost: ["Grass"],
 
 		name: {
-			en: "Enriching Oil",
-			fr: "Huile Enrichissante",
-			de: "Anreicherndes Öl",
-			it: "Olio Nutriente",
-			es: "Aceite Nutritivo",
-			pt: "Azeite Enriquecedor"
+			en: "Oil Salvo",
+			fr: "Salve d'Huile",
+			de: "Ölsalve",
+			it: "Oliomitraglia",
+			es: "Salva Aceitosa",
+			pt: "Saraivada de Óleo"
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may heal all damage from 1 of your Pokémon.",
-			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez soigner tous les dégâts de l'un de vos Pokémon.",
-			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du allen Schaden bei 1 deiner Pokémon heilen.",
-			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi curare uno dei tuoi Pokémon da tutti i danni.",
-			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, puedes curar todos los puntos de daño a uno de tus Pokémon.",
-			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá curar todo o dano de 1 dos seus Pokémon."
+			en: "Choose 1 of your opponent's Pokémon 6 times. (You can choose the same Pokémon more than once.) For each time you chose a Pokémon, do 20 damage to it. This damage isn't affected by Weakness or Resistance.",
+			fr: "Choisissez 6 fois l'un des Pokémon de votre adversaire. (Vous pouvez choisir le même Pokémon plusieurs fois.) Chaque fois que vous choisissez un Pokémon, infligez-lui 20 dégâts. Ces dégâts ne sont pas affectés par la Faiblesse ou la Résistance.",
+			de: "Wähle 6-mal 1 Pokémon deines Gegners. (Du kannst dasselbe Pokémon mehr als einmal wählen.) Jedes Mal, wenn du ein Pokémon wählst, füge ihm 20 Schadenspunkte zu. Dieser Schaden wird durch Schwäche oder Resistenz nicht verändert.",
+			it: "Scegli sei volte uno dei Pokémon del tuo avversario. Puoi scegliere lo stesso Pokémon più di una volta. Ogni volta che scegli un Pokémon, infliggigli 20 danni. Questi danni non sono influenzati dalla debolezza o dalla resistenza.",
+			es: "Elige 1 de los Pokémon de tu rival 6 veces. (Puedes elegir el mismo Pokémon más de una vez). Cada vez que elijas un Pokémon, hazle 20 puntos de daño a ese Pokémon. Este daño no se ve afectado por Debilidad o Resistencia.",
+			pt: "Escolha 1 dos Pokémon do seu oponente 6 vezes. (Você pode escolher o mesmo Pokémon mais de uma vez). Para cada vez que você escolher um Pokémon, cause 20 pontos de dano a ele. Este dano não é afetado por Fraqueza ou Resistência."
 		}
-	}],
-
-	attacks: [{
-		cost: ["Grass", "Grass", "Colorless"],
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Solar Beam",
-			fr: "Lance-Soleil",
-			de: "Solarstrahl",
-			it: "Solarraggio",
-			es: "Rayo Solar",
-			pt: "Raio Solar"
+			en: "Aroma Shot",
+			fr: "Tir Arôme",
+			de: "Aromaschuss",
+			it: "Colpo Aroma",
+			es: "Disparo Aromático",
+			pt: "Disparo Aromático"
 		},
 
-		damage: 150
+		effect: {
+			en: "This Pokémon recovers from all Special Conditions.",
+			fr: "Ce Pokémon guérit de tous les États Spéciaux.",
+			de: "Dieses Pokémon erholt sich von allen Speziellen Zuständen.",
+			it: "Questo Pokémon guarisce da tutte le condizioni speciali.",
+			es: "Este Pokémon se recupera de todas las Condiciones Especiales.",
+			pt: "Este Pokémon se recupera de todas as Condições Especiais."
+		},
+
+		damage: 160
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

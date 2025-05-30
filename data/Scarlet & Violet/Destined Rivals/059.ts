@@ -5,23 +5,35 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cetoddle",
-		fr: "Piétacé",
-		de: "Flaniwal",
-		it: "Cetoddle",
-		es: "Cetoddle",
-		pt: "Cetoddle"
+		en: "Snover",
+		fr: "Blizzi",
+		de: "Shnebedeck",
+		it: "Snover",
+		es: "Snover",
+		pt: "Snover"
 	},
 
-	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 100,
+	hp: 90,
 	types: ["Water"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water"],
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			en: "Light Punch",
+			fr: "Poing Léger",
+			de: "Leichter Hieb",
+			it: "Pugnetto",
+			es: "Puño Ligero",
+			pt: "Soco de Luz"
+		},
+
+		damage: 20
+	}, {
+		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
 			en: "Icicle",
@@ -32,24 +44,11 @@ const card: Card = {
 			pt: "Pingente de Gelo"
 		},
 
-		damage: 10
-	}, {
-		cost: ["Water", "Colorless", "Colorless"],
-
-		name: {
-			en: "Sharp Fin",
-			fr: "Aileron Aiguisé",
-			de: "Schneidige Flosse",
-			it: "Pinnaffilata",
-			es: "Cortaleta",
-			pt: "Barbatana Afiada"
-		},
-
-		damage: 60
+		damage: 50
 	}],
 
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

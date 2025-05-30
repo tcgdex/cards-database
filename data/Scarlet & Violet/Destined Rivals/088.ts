@@ -5,69 +5,57 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Banette ex",
-		fr: "Branette-ex",
-		de: "Banette-ex",
-		it: "Banette-ex",
-		es: "Banette ex",
-		pt: "Banette ex"
+		en: "Team Rocket's Dottler",
+		fr: "Coléodôme de la Team Rocket",
+		de: "Team Rockets Keradar",
+		it: "Dottler del Team Rocket",
+		es: "Dottler del Team Rocket",
+		pt: "Dottler da Equipe Rocket"
 	},
 
-	illustrator: "PLANETA Mochizuki",
-	rarity: "Double rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 250,
+	hp: 80,
 	types: ["Psychic"],
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Everlasting Darkness",
-			fr: "Obscurité Éternelle",
-			de: "Ewige Finsternis",
-			it: "Oscurità Perpetua",
-			es: "Oscuridad Eterna",
-			pt: "Escuridão Eterna"
+			en: "Disruptive Radar",
+			fr: "Radar Perturbateur",
+			de: "Störradar",
+			it: "Radar Destabilizzante",
+			es: "Radar Disruptivo",
+			pt: "Radar Disruptivo"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Item cards from their hand.",
-			fr: "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Objet de sa main.",
-			de: "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen.",
-			it: "Durante il suo prossimo turno, il tuo avversario non può giocare le carte Strumento che ha in mano.",
-			es: "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
-			pt: "Durante o próximo turno do seu oponente, ele não poderá jogar nenhuma carta de Item da mão dele."
-		},
-
-		damage: 30
+			en: "Look at the top 5 cards of your opponent's deck and put them back in any order.",
+			fr: "Regardez les 5 cartes du dessus du deck de votre adversaire, puis replacez-les dans l'ordre de votre choix.",
+			de: "Schau dir die obersten 5 Karten des Decks deines Gegners an und lege sie in beliebiger Reihenfolge zurück auf sein Deck.",
+			it: "Guarda le prime cinque carte del mazzo del tuo avversario e rimettile a posto nell'ordine che preferisci.",
+			es: "Mira las 5 primeras cartas de la baraja de tu rival y vuelve a ponerlas en la parte superior de su baraja en el orden que quieras.",
+			pt: "Olhe as 5 cartas de cima do baralho do seu oponente e coloque-as de volta em qualquer ordem."
+		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Poltergeist",
-			fr: "Esprit Frappeur",
-			de: "Poltergeist",
-			it: "Poltergeist",
-			es: "Poltergeist",
-			pt: "Poltergeist"
+			en: "Super Psy Bolt",
+			fr: "Super Psy",
+			de: "Super-Psischlag",
+			it: "Superpsico",
+			es: "Superrayo Psi",
+			pt: "Super-raio Psíquico"
 		},
 
-		effect: {
-			en: "Your opponent reveals their hand. This attack does 60 damage for each Trainer card you find there.",
-			fr: "Votre adversaire montre sa main. Cette attaque inflige 60 dégâts pour chaque carte Dresseur que vous y trouvez.",
-			de: "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 60 Schadenspunkte zu.",
-			it: "Il tuo avversario mostra le carte che ha in mano. Questo attacco infligge 60 danni per ogni carta Allenatore presente tra quelle carte.",
-			es: "Tu rival enseña las cartas de su mano. Este ataque hace 60 puntos de daño por cada carta de Entrenador que encuentres entre ellas.",
-			pt: "Seu oponente revela a mão dele. Este ataque causa 60 pontos de dano para cada carta de Treinador que encontrar lá."
-		},
-
-		damage: "60×"
+		damage: 30
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

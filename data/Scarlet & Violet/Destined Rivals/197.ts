@@ -5,29 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vitality Band",
-		fr: "Bandeau Vitalité",
-		de: "Vitalitätsband",
-		it: "Bendavitale",
-		es: "Cinta Vitalidad",
-		pt: "Faixa de Vitalidade"
+		en: "Rotom",
+		fr: "Motisma",
+		de: "Rotom",
+		it: "Rotom",
+		es: "Rotom",
+		pt: "Rotom"
 	},
 
-	illustrator: "Studio Bora Inc.",
-	rarity: "Uncommon",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Lightning"],
+	stage: "Basic",
 
-	effect: {
-		en: "The attacks of the Pokémon this card is attached to do 10 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-		fr: "Les attaques du Pokémon auquel cette carte est attachée infligent 10 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
-		de: "Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
-		it: "Gli attacchi del Pokémon a cui è assegnata questa carta infliggono 10 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
-		es: "Los ataques del Pokémon al que esté unida esta carta hacen 10 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
-		pt: "Os ataques do Pokémon ao qual esta carta está ligada causam 10 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência)."
-	},
+	attacks: [{
+		cost: ["Lightning"],
 
-	trainerType: "Tool",
-	regulationMark: "G"
+		name: {
+			en: "Astonish",
+			fr: "Étonnement",
+			de: "Erstauner",
+			it: "Sgomento",
+			es: "Impresionar",
+			pt: "Abismar"
+		},
+
+		effect: {
+			en: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.",
+			fr: "Choisissez une carte au hasard dans la main de votre adversaire. Votre adversaire montre cette carte, puis la mélange avec son deck.",
+			de: "Wähle 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt dir jene Karte und mischt sie in sein Deck.",
+			it: "Scegli una carta a caso dalla mano del tuo avversario. Il tuo avversario mostra quella carta e la rimischia nel suo mazzo.",
+			es: "Elige 1 carta aleatoria de la mano de tu rival. Tu rival enseña esa carta, la pone en su baraja y las baraja todas.",
+			pt: "Escolha uma carta aleatória da mão do seu oponente. Seu oponente revela aquela carta e a embaralha no baralho dele."
+		},
+
+		damage: 20
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			en: "Gadget Show",
+			fr: "Démonstration de Gadgets",
+			de: "Gadget-Show",
+			it: "Mostra di Gadget",
+			es: "Espectáculo de Utensilios",
+			pt: "Show de Bugigangas"
+		},
+
+		effect: {
+			en: "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts pour chaque Outil Pokémon attaché à tous vos Pokémon.",
+			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
+			it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
+			es: "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon."
+		},
+
+		damage: "30×"
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

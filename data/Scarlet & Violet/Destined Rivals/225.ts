@@ -5,60 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gyarados ex",
-		fr: "Léviator-ex",
-		de: "Garados-ex",
-		it: "Gyarados-ex",
-		es: "Gyarados ex",
-		pt: "Gyarados ex"
+		en: "Team Rocket's Giovanni",
+		fr: "Giovanni de la Team Rocket",
+		de: "Team Rockets Giovanni",
+		it: "Giovanni del Team Rocket",
+		es: "Giovanni del Team Rocket",
+		pt: "Giovanni da Equipe Rocket"
 	},
 
-	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
-	category: "Pokemon",
-	hp: 300,
-	types: ["Water"],
-	stage: "Stage1",
+	category: "Trainer",
 
-	attacks: [{
-		cost: ["Water", "Water", "Water"],
+	effect: {
+		en: "Switch your Active Team Rocket's Pokémon with 1 of your Benched Team Rocket's Pokémon. If you do, switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+		fr: "Échangez votre Pokémon de la Team Rocket Actif contre l'un de vos Pokémon de la Team Rocket de Banc. Dans ce cas, envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+		de: "Tausche dein Aktives Team Rockets Pokémon gegen 1 Team Rockets Pokémon auf deiner Bank aus. Wenn du das machst, wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+		it: "Scambia il tuo Pokémon del Team Rocket attivo con un Pokémon del Team Rocket della tua panchina. Se lo fai, sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
+		es: "Cambia tu Pokémon del Team Rocket Activo por uno de tus Pokémon del Team Rocket en Banca. Si lo haces, cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
+		pt: "Troque o seu Pokémon da Equipe Rocket Ativo por 1 dos seus Pokémon da Equipe Rocket no Banco. Se fizer isto, mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
+	},
 
-		name: {
-			en: "Waterfall",
-			fr: "Cascade",
-			de: "Kaskade",
-			it: "Cascata",
-			es: "Cascada",
-			pt: "Cachoeira"
-		},
-
-		damage: 100
-	}, {
-		cost: ["Water", "Water", "Water", "Colorless", "Colorless"],
-
-		name: {
-			en: "Tyrannical Tail",
-			fr: "Queue Tyrannique",
-			de: "Tyrannischer Schweif",
-			it: "Coda Tirannica",
-			es: "Cola Tiránica",
-			pt: "Cauda Tirânica"
-		},
-
-		effect: {
-			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 180 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 180 dégâts supplémentaires.",
-			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 180 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 180 danni in più.",
-			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 180 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 180 pontos de dano a mais."
-		},
-
-		damage: "180+"
-	}],
-
-	retreat: 4,
-	regulationMark: "G"
+	trainerType: "Supporter",
+	regulationMark: "I"
 }
 
 export default card

@@ -5,59 +5,27 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skwovet",
-		fr: "Rongourmand",
-		de: "Raffel",
-		it: "Skwovet",
-		es: "Skwovet",
-		pt: "Skwovet"
+		en: "Judge",
+		fr: "Juge",
+		de: "Richter",
+		it: "Arbitro",
+		es: "Juez",
+		pt: "Juiz"
 	},
 
-	illustrator: "Teeziro",
-	rarity: "Illustration rare",
-	category: "Pokemon",
-	hp: 60,
-	types: ["Colorless"],
-	stage: "Basic",
+	rarity: "Ultra Rare",
+	category: "Trainer",
 
-	abilities: [{
-		type: "Ability",
+	effect: {
+		en: "Each player shuffles their hand into their deck and draws 4 cards.",
+		fr: "Chaque joueur mélange sa main avec son deck et pioche 4 cartes.",
+		de: "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten.",
+		it: "Ciascun giocatore rimischia le carte che ha in mano nel proprio mazzo e pesca quattro carte.",
+		es: "Cada jugador pone las cartas de su mano en su baraja, las baraja todas y roba 4 cartas.",
+		pt: "Cada jogador embaralha a própria mão no próprio baralho e compra 4 cartas."
+	},
 
-		name: {
-			en: "Nest Stash",
-			fr: "Cache Nichée",
-			de: "Nestreserve",
-			it: "Tanascorta",
-			es: "Nido de Provisiones",
-			pt: "Esconder no Ninho"
-		},
-
-		effect: {
-			en: "Once during your turn, you may shuffle your hand and put it on the bottom of your deck. If you put any cards on the bottom of your deck in this way, draw a card.",
-			fr: "Une fois pendant votre tour, vous pouvez mélanger votre main, puis la placer en dessous de votre deck. Si vous placez au moins une carte en dessous de votre deck de cette façon, piochez une carte.",
-			de: "Einmal während deines Zuges kannst du deine Handkarten mischen und sie unter dein Deck legen. Wenn du auf diese Weise mindestens 1 Karte unter dein Deck gelegt hast, ziehe 1 Karte.",
-			it: "Una sola volta durante il tuo turno, puoi rimischiare le carte che hai in mano e metterle in fondo al tuo mazzo. Se hai messo delle carte in fondo al tuo mazzo in questo modo, pesca una carta.",
-			es: "Una vez durante tu turno, puedes barajar las cartas de tu mano y ponerlas en la parte inferior de tu baraja. Si pones alguna carta en la parte inferior de tu baraja de esta manera, roba 1 carta.",
-			pt: "Uma vez durante o seu turno, você poderá embaralhar a sua mão e colocá-la como as cartas de baixo do seu baralho. Se você colocou qualquer carta como a carta de baixo do seu baralho desta forma, compre uma carta."
-		}
-	}],
-
-	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
-		name: {
-			en: "Bite",
-			fr: "Morsure",
-			de: "Biss",
-			it: "Morso",
-			es: "Mordisco",
-			pt: "Mordida"
-		},
-
-		damage: 20
-	}],
-
-	retreat: 1,
+	trainerType: "Supporter",
 	regulationMark: "G"
 }
 

@@ -5,69 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pachirisu",
-		fr: "Pachirisu",
-		de: "Pachirisu",
-		it: "Pachirisu",
-		es: "Pachirisu",
-		pt: "Pachirisu"
+		en: "Team Rocket's Moltres ex",
+		fr: "Sulfura-ex de la Team Rocket",
+		de: "Team Rockets Lavados-ex",
+		it: "Moltres-ex del Team Rocket",
+		es: "Moltres ex del Team Rocket",
+		pt: "Moltres ex da Equipe Rocket"
 	},
 
-	illustrator: "zig",
-	rarity: "Illustration rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Lightning"],
+	hp: 220,
+	types: ["Fire"],
 	stage: "Basic",
 
-	abilities: [{
-		type: "Ability",
+	attacks: [{
+		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Electricity Pouches",
-			fr: "Joues Électrifiées",
-			de: "Elektrische Backentaschen",
-			it: "Sacche Elettriche",
-			es: "Mejillas Electrizantes",
-			pt: "Bolsas de Eletricidade"
+			en: "Flame Screen",
+			fr: "Barrière de Flammes",
+			de: "Flammenschirm",
+			it: "Muro di Fuoco",
+			es: "Pantallama",
+			pt: "Cortina de Chamas"
 		},
 
 		effect: {
-			en: "This Pokémon can't be Paralyzed.",
-			fr: "Ce Pokémon ne peut pas être Paralysé.",
-			de: "Dieses Pokémon kann nicht paralysiert werden.",
-			it: "Questo Pokémon non può venire paralizzato.",
-			es: "Este Pokémon no puede pasar a estar Paralizado.",
-			pt: "Este Pokémon não pode ser Paralisado."
+			en: "During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 50 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 50 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 50 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			es: "Durante el próximo turno de tu rival, los ataques hacen 50 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 50 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+		},
+
+		damage: 110
+	}, {
+		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
+
+		name: {
+			en: "Evil Incineration",
+			fr: "Calcination Maléfique",
+			de: "Boshafte Einäscherung",
+			it: "Incenerimento Maligno",
+			es: "Calcinación Malvada",
+			pt: "Incineração do Mal"
+		},
+
+		effect: {
+			en: "Discard a Team Rocket's Energy from this Pokémon. If you do, discard your opponent's Active Pokémon and all attached cards.",
+			fr: "Défaussez une Énergie de la Team Rocket de ce Pokémon. Dans ce cas, défaussez le Pokémon Actif de votre adversaire et toutes les cartes qui lui sont attachées.",
+			de: "Lege 1 Team Rockets Energie von diesem Pokémon auf deinen Ablagestapel. Wenn du das machst, lege das Aktive Pokémon deines Gegners und alle angelegten Karten auf seinen Ablagestapel.",
+			it: "Scarta un'Energia del Team Rocket da questo Pokémon. Se lo fai, scarta il Pokémon attivo del tuo avversario e tutte le carte a esso assegnate.",
+			es: "Descarta 1 Energía del Team Rocket de este Pokémon. Si lo haces, descarta el Pokémon Activo de tu rival y todas las cartas unidas a él.",
+			pt: "Descarte uma Energia da Equipe Rocket deste Pokémon. Se fizer isto, descarte o Pokémon Ativo do seu oponente e todas as cartas ligadas a ele."
 		}
 	}],
 
-	attacks: [{
-		cost: ["Lightning", "Colorless"],
-
-		name: {
-			en: "Everyone Discharge",
-			fr: "Coup d'Jus Groupé",
-			de: "Vereinter Ladungsstoß",
-			it: "Scarica Generale",
-			es: "Chispazo para Todos",
-			pt: "Descarga em Equipe"
-		},
-
-		effect: {
-			en: "This attack does 20 more damage for each of your Benched {L} Pokémon. This attack's damage isn't affected by Weakness.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon {L} de Banc. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse.",
-			de: "Diese Attacke fügt für jedes {L}-Pokémon auf deiner Bank 20 Schadenspunkte mehr zu. Der Schaden dieser Attacke wird durch Schwäche nicht verändert.",
-			it: "Questo attacco infligge 20 danni in più per ogni Pokémon {L} nella tua panchina. I danni di questo attacco non sono influenzati dalla debolezza.",
-			es: "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon {L} en Banca. El daño de este ataque no se ve afectado por Debilidad.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon {L} no seu Banco. O dano deste ataque não é afetado por Fraqueza."
-		},
-
-		damage: "10+"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

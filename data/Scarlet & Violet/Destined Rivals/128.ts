@@ -5,18 +5,17 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seviper",
-		fr: "Séviper",
-		de: "Vipitis",
-		it: "Seviper",
-		es: "Seviper",
-		pt: "Seviper"
+		en: "Team Rocket's Sneasel",
+		fr: "Farfuret de la Team Rocket",
+		de: "Team Rockets Sniebel",
+		it: "Sneasel del Team Rocket",
+		es: "Sneasel del Team Rocket",
+		pt: "Sneasel da Equipe Rocket"
 	},
 
-	illustrator: "sui",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
-	hp: 120,
+	hp: 80,
 	types: ["Darkness"],
 	stage: "Basic",
 
@@ -24,48 +23,39 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Spit Poison",
-			fr: "Crache-Venin",
-			de: "Giftspucke",
-			it: "Sputaveleno",
-			es: "Escupir Veneno",
-			pt: "Cuspe Venenoso"
+			en: "Scratch",
+			fr: "Griffe",
+			de: "Kratzer",
+			it: "Graffio",
+			es: "Arañazo",
+			pt: "Arranhão"
 		},
 
-		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado."
-		}
+		damage: 20
 	}, {
-		cost: ["Darkness", "Colorless", "Colorless"],
+		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Venoshock",
-			fr: "Choc Venin",
-			de: "Giftschock",
-			it: "Velenoshock",
-			es: "Carga Tóxica",
-			pt: "Venochoque"
+			en: "Strike the Sleeper",
+			fr: "Frappe en Plein Sommeil",
+			de: "Schlag den Schläfer",
+			it: "Carognata",
+			es: "Golpea al Dormilón",
+			pt: "Passar a Perna"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is Poisoned, this attack does 120 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 120 dégâts supplémentaires.",
-			de: "Wenn das Aktive Pokémon deines Gegners vergiftet ist, fügt diese Attacke 120 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario è avvelenato, questo attacco infligge 120 danni in più.",
-			es: "Si el Pokémon Activo de tu rival está Envenenado, este ataque hace 120 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente estiver Envenenado, este ataque causará 120 pontos de dano a mais."
-		},
-
-		damage: "60+"
+			en: "This attack does 20 damage to 1 of your opponent's Benched Pokémon for each damage counter on that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire pour chaque marqueur de dégâts sur ce Pokémon-là. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			de: "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners für jede Schadensmarke auf jenem Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			it: "Questo attacco infligge 20 danni a uno dei Pokémon nella panchina del tuo avversario per ogni segnalino danno presente su quel Pokémon. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			es: "Este ataque hace 20 puntos de daño a uno de los Pokémon en Banca de tu rival por cada contador de daño en ese Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			pt: "Este ataque causa 20 pontos de dano a 1 dos Pokémon no Banco do seu oponente para cada contador de dano naquele Pokémon. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+		}
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

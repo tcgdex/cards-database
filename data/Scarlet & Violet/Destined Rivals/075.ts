@@ -5,60 +5,50 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawmo",
-		fr: "Pohmotte",
-		de: "Pamamo",
-		it: "Pawmo",
-		es: "Pawmo",
-		pt: "Pawmo"
+		en: "Electrike",
+		fr: "Dynavolt",
+		de: "Frizelbliz",
+		it: "Electrike",
+		es: "Electrike",
+		pt: "Electrike"
 	},
 
-	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 90,
+	hp: 60,
 	types: ["Lightning"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Lightning"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Thunder Shock",
-			fr: "Éclair",
-			de: "Donnerschock",
-			it: "Tuonoshock",
-			es: "Impactrueno",
-			pt: "Trovoada de Choques"
+			en: "Rear Kick",
+			fr: "Ruade",
+			de: "Rückwärtskick",
+			it: "Retrocalcio",
+			es: "Patada Trasera",
+			pt: "Chute Traseiro"
 		},
 
-		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
+		damage: 10
+	}, {
+		cost: ["Lightning", "Colorless"],
+
+		name: {
+			en: "Tiny Bolt",
+			fr: "Foudre Minuscule",
+			de: "Mini-Blitz",
+			it: "Minifulmine",
+			es: "Relampaguito",
+			pt: "Corisquinho"
 		},
 
 		damage: 30
-	}, {
-		cost: ["Lightning", "Lightning", "Colorless"],
-
-		name: {
-			en: "Head Bolt",
-			fr: "Éclair Frontal",
-			de: "Kopf-Blitz",
-			it: "Zuccalampo",
-			es: "Rayo de Cabeza",
-			pt: "Raio de Cabeça"
-		},
-
-		damage: 70
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

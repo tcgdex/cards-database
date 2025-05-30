@@ -5,69 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mabosstiff",
-		fr: "Dogrino",
-		de: "Mastifioso",
-		it: "Mabosstiff",
-		es: "Mabosstiff",
-		pt: "Mabosstiff"
+		en: "Arven's Mabosstiff ex",
+		fr: "Dogrino-ex de Pepper",
+		de: "Peppers Mastifioso-ex",
+		it: "Mabosstiff-ex di Pepe",
+		es: "Mabosstiff ex de Damián",
+		pt: "Mabosstiff ex do Arven"
 	},
 
-	illustrator: "OKACHEKE",
-	rarity: "Illustration rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
-	hp: 130,
+	hp: 270,
 	types: ["Darkness"],
 	stage: "Stage1",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			en: "Intimidating Howl",
-			fr: "Hurlement Intimidant",
-			de: "Angsteinflößender Jauler",
-			it: "Gridodilotta Spaventoso",
-			es: "Aullido Intimidatorio",
-			pt: "Uivo Intimidante"
-		},
-
-		effect: {
-			en: "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			fr: "Une fois pendant votre tour, vous pouvez envoyer le Pokémon Actif de votre adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			de: "Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.)",
-			it: "Una sola volta durante il tuo turno, puoi spostare il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			es: "Una vez durante tu turno, puedes mover el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			pt: "Uma vez durante o seu turno, você poderá mandar o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
-		}
-	}],
-
 	attacks: [{
-		cost: ["Darkness", "Darkness", "Colorless"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Wild Tackle",
-			fr: "Tacle Brutal",
-			de: "Wilder Tackle",
-			it: "Azionferoce",
-			es: "Placaje Salvaje",
-			pt: "Investida Feroz"
+			en: "Vigorous Tackle",
+			fr: "Charge Vigoureuse",
+			de: "Energischer Tackle",
+			it: "Azione Vigorosa",
+			es: "Placaje Rotundo",
+			pt: "Investida Vigorosa"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			en: "If this Pokémon has no damage counters on it, this attack does 120 more damage.",
+			fr: "Si ce Pokémon n'a aucun marqueur de dégâts, cette attaque inflige 120 dégâts supplémentaires.",
+			de: "Wenn auf diesem Pokémon keine Schadensmarken liegen, fügt diese Attacke 120 Schadenspunkte mehr zu.",
+			it: "Se questo Pokémon non ha segnalini danno, questo attacco infligge 120 danni in più.",
+			es: "Si este Pokémon no tiene ningún contador de daño sobre él, este ataque hace 120 puntos de daño más.",
+			pt: "Se este Pokémon não tiver nenhum contador de dano nele, este ataque causará 120 pontos de dano a mais."
 		},
 
-		damage: 160
+		damage: "30+"
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			en: "Boss Headbutt",
+			fr: "Coup d'Boule du Boss",
+			de: "Kopfnuss vom Boss",
+			it: "Bottintesta del Boss",
+			es: "Cabezazo del Jefazo",
+			pt: "Cabeçada do Chefão"
+		},
+
+		effect: {
+			en: "During your next turn, this Pokémon can't use Boss Headbutt.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup d'Boule du Boss.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Kopfnuss vom Boss nicht einsetzen.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Bottintesta del Boss.",
+			es: "Durante tu próximo turno, este Pokémon no puede usar Cabezazo del Jefazo.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Cabeçada do Chefão."
+		},
+
+		damage: 210
 	}],
 
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

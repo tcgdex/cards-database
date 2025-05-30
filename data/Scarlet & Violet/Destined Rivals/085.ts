@@ -5,60 +5,42 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		de: "Kirlia",
-		it: "Kirlia",
-		es: "Kirlia",
-		pt: "Kirlia"
+		en: "Team Rocket's Chingling",
+		fr: "Korillon de la Team Rocket",
+		de: "Team Rockets Klingplim",
+		it: "Chingling del Team Rocket",
+		es: "Chingling del Team Rocket",
+		pt: "Chingling da Equipe Rocket"
 	},
 
-	illustrator: "kawayoo",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 90,
+	hp: 30,
 	types: ["Psychic"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
-			en: "Magical Shot",
-			fr: "Coup Magique",
-			de: "Magischer Schuss",
-			it: "Magicolpo",
-			es: "Disparo Mágico",
-			pt: "Tiro Mágico"
-		},
-
-		damage: 30
-	}, {
-		cost: ["Psychic", "Psychic", "Colorless"],
-
-		name: {
-			en: "Psychic",
-			fr: "Psyko",
-			de: "Psychokinese",
-			it: "Psichico",
-			es: "Psíquico",
-			pt: "Psíquico"
+			en: "Chiming Commotion",
+			fr: "Tapage Tintant",
+			de: "Tönender Tumult",
+			it: "Tintinnio Frastornante",
+			es: "Conmoción Tintineante",
+			pt: "Badalo Barulhento"
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 20 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 20 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			es: "Este ataque hace 20 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente."
-		},
-
-		damage: "60+"
+			en: "Discard a random card from your opponent's hand.",
+			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel.",
+			it: "Scarta una carta a caso dalla mano del tuo avversario.",
+			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
+			pt: "Descarte uma carta aleatória da mão do seu oponente."
+		}
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 0,
+	regulationMark: "I"
 }
 
 export default card

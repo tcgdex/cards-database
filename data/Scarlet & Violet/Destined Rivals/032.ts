@@ -5,69 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine ex",
-		fr: "Arcanin-ex",
-		de: "Arkani-ex",
-		it: "Arcanine-ex",
-		es: "Arcanine ex",
-		pt: "Arcanine ex"
+		en: "Ethan's Cyndaquil",
+		fr: "Héricendre de Luth",
+		de: "Klarins Feurigel",
+		it: "Cyndaquil di Armonio",
+		es: "Cyndaquil de Eco",
+		pt: "Cyndaquil do Ethan"
 	},
 
-	illustrator: "5ban Graphics",
-	rarity: "Double rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 280,
+	hp: 70,
 	types: ["Fire"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fire", "Fire"],
+		cost: ["Fire"],
 
 		name: {
-			en: "Raging Claws",
-			fr: "Griffes Enragées",
-			de: "Wutklauen",
-			it: "Furiartigli",
-			es: "Garras Furiosas",
-			pt: "Garras Devastadoras"
+			en: "Ember",
+			fr: "Flammèche",
+			de: "Glut",
+			it: "Braciere",
+			es: "Ascuas",
+			pt: "Brasa"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon."
+			en: "Discard an Energy from this Pokémon.",
+			fr: "Défaussez une Énergie de ce Pokémon.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta un'Energia da questo Pokémon.",
+			es: "Descarta 1 Energía de este Pokémon.",
+			pt: "Descarte uma Energia deste Pokémon."
 		},
 
-		damage: "30+"
-	}, {
-		cost: ["Fire", "Fire", "Fire"],
-
-		name: {
-			en: "Bright Flame",
-			fr: "Flamme Éclatante",
-			de: "Helle Flamme",
-			it: "Splendifiamma",
-			es: "Llama Viva",
-			pt: "Chama Reluzente"
-		},
-
-		effect: {
-			en: "Discard 2 {R} Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies {R} de ce Pokémon.",
-			de: "Lege 2 {R}-Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta due Energie {R} da questo Pokémon.",
-			es: "Descarta 2 Energías {R} de este Pokémon.",
-			pt: "Descarte 2 Energias {R} deste Pokémon."
-		},
-
-		damage: 250
+		damage: 30
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

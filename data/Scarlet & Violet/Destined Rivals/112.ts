@@ -5,51 +5,57 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		de: "Riolu",
-		it: "Riolu",
-		es: "Riolu",
-		pt: "Riolu"
+		en: "Team Rocket's Ekans",
+		fr: "Abo de la Team Rocket",
+		de: "Team Rockets Rettan",
+		it: "Ekans del Team Rocket",
+		es: "Ekans del Team Rocket",
+		pt: "Ekans da Equipe Rocket"
 	},
 
-	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Fighting"],
+	types: ["Darkness"],
 	stage: "Basic",
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Jab",
-			fr: "Taquet",
-			de: "Boxschlag",
-			it: "Stoccata",
-			es: "Puya",
-			pt: "Murro"
+			en: "Drag Down",
+			fr: "Traction",
+			de: "Herabziehen",
+			it: "Trascina Giù",
+			es: "Arrastrar al Fondo",
+			pt: "Arrastar pra Baixo"
+		},
+
+		effect: {
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
+		}
+	}, {
+		cost: ["Darkness"],
+
+		name: {
+			en: "Gnaw",
+			fr: "Ronge",
+			de: "Nagen",
+			it: "Rosicchiamento",
+			es: "Roer",
+			pt: "Roída"
 		},
 
 		damage: 10
-	}, {
-		cost: ["Fighting", "Colorless"],
-
-		name: {
-			en: "Low Kick",
-			fr: "Balayage",
-			de: "Fußkick",
-			it: "Colpo Basso",
-			es: "Patada Baja",
-			pt: "Rasteira"
-		},
-
-		damage: 20
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

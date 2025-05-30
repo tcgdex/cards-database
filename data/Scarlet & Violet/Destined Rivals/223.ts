@@ -5,69 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spidops ex",
-		fr: "Filentrappe-ex",
-		de: "Spinsidias-ex",
-		it: "Spidops-ex",
-		es: "Spidops ex",
-		pt: "Spidops ex"
+		en: "Team Rocket's Archer",
+		fr: "Amos de la Team Rocket",
+		de: "Team Rockets Atlas",
+		it: "Archer del Team Rocket",
+		es: "Atlas del Team Rocket",
+		pt: "Apollo da Equipe Rocket"
 	},
 
-	illustrator: "takuyoa",
 	rarity: "Ultra Rare",
-	category: "Pokemon",
-	hp: 260,
-	types: ["Grass"],
-	stage: "Stage1",
+	category: "Trainer",
 
-	abilities: [{
-		type: "Ability",
+	effect: {
+		en: "You can use this card only if any of your Team Rocket's Pokémon were Knocked Out during your opponent's last turn.\n\nEach player shuffles their hand into their deck. Then, you draw 5 cards, and your opponent draws 3 cards.",
+		fr: "Vous ne pouvez utiliser cette carte que si au moins l'un de vos Pokémon de la Team Rocket a été mis K.O. pendant le dernier tour de votre adversaire.\n\nChaque joueur mélange sa main avec son deck. Ensuite, vous piochez 5 cartes et votre adversaire pioche 3 cartes.",
+		de: "Du kannst diese Karte nur einsetzen, wenn mindestens 1 deiner Team Rockets Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\n\nJeder Spieler mischt seine Handkarten in sein Deck. Anschließend ziehst du 5 Karten und dein Gegner zieht 3 Karten.",
+		it: "Puoi usare questa carta solo se uno dei tuoi Pokémon del Team Rocket è stato messo KO durante l'ultimo turno del tuo avversario.\n\nCiascun giocatore rimischia le carte che ha in mano nel proprio mazzo. Poi tu peschi cinque carte e il tuo avversario ne pesca tre.",
+		es: "Puedes usar esta carta solo si alguno de tus Pokémon del Team Rocket quedó Fuera de Combate durante el último turno de tu rival.\n\nCada jugador pone las cartas de su mano en su baraja y las baraja todas. Después, robas 5 cartas, y tu rival roba 3 cartas.",
+		pt: "Você só pode usar esta carta se algum dos seus Pokémon da Equipe Rocket tiver sido Nocauteado durante o último turno do seu oponente.\n\nCada jogador embaralha a própria mão no próprio baralho. Em seguida, você compra 5 cartas e o seu oponente compra 3 cartas."
+	},
 
-		name: {
-			en: "Trap Territory",
-			fr: "Territoire Piégé",
-			de: "Fallenrevier",
-			it: "Territorio Trappola",
-			es: "Territorio Trampa",
-			pt: "Armadilha Territorial"
-		},
-
-		effect: {
-			en: "Your opponent's Active Pokémon's Retreat Cost is {C} more.",
-			fr: "Le Coût de Retraite du Pokémon Actif de votre adversaire est augmenté de {C}.",
-			de: "Die Rückzugskosten des Aktiven Pokémon deines Gegners erhöhen sich um {C}.",
-			it: "Il costo di ritirata del Pokémon attivo del tuo avversario aumenta di {C}.",
-			es: "El Coste de Retirada del Pokémon Activo de tu rival es de {C} más.",
-			pt: "O custo de Recuo do Pokémon Ativo do seu oponente é {C} a mais."
-		}
-	}],
-
-	attacks: [{
-		cost: ["Grass", "Colorless"],
-
-		name: {
-			en: "Wire Hang",
-			fr: "Attache Filaire",
-			de: "Drahthänger",
-			it: "Filoappiglio",
-			es: "Colgar de un Hilo",
-			pt: "Por Um Fio"
-		},
-
-		effect: {
-			en: "This attack does 30 more damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 30 danni in più per ogni {C} nel costo di ritirata del Pokémon attivo del tuo avversario.",
-			es: "Este ataque hace 30 puntos de daño más por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada {C} no custo de Recuo do Pokémon Ativo do seu oponente."
-		},
-
-		damage: "90+"
-	}],
-
-	retreat: 2,
-	regulationMark: "G"
+	trainerType: "Supporter",
+	regulationMark: "I"
 }
 
 export default card

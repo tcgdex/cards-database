@@ -5,69 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miraidon ex",
-		fr: "Miraidon-ex",
-		de: "Miraidon-ex",
-		it: "Miraidon-ex",
-		es: "Miraidon ex",
-		pt: "Miraidon ex"
+		en: "Team Rocket's Mewtwo ex",
+		fr: "Mewtwo-ex de la Team Rocket",
+		de: "Team Rockets Mewtu-ex",
+		it: "Mewtwo-ex del Team Rocket",
+		es: "Mewtwo ex del Team Rocket",
+		pt: "Mewtwo ex da Equipe Rocket"
 	},
 
-	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
-	hp: 220,
-	types: ["Lightning"],
+	hp: 280,
+	types: ["Psychic"],
 	stage: "Basic",
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Tandem Unit",
-			fr: "Unité Tandem",
-			de: "Tandem-Aggregat",
-			it: "Unità Duplice",
-			es: "Unidad Tándem",
-			pt: "Unidade Tandem"
+			en: "Power Saver",
+			fr: "Économie de Puissance",
+			de: "Sparpower",
+			it: "Serbaforza",
+			es: "Ahorro de Poder",
+			pt: "Economizador de Energia"
 		},
 
 		effect: {
-			en: "Once during your turn, you may search your deck for up to 2 Basic {L} Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 Pokémon {L} de base, puis les placer sur votre Banc. Mélangez ensuite votre deck.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Basis-{L}-Pokémon durchsuchen und sie auf deine Bank legen. Mische anschließend dein Deck.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due Pokémon Base {L} e metterli nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 Pokémon {L} Básicos y ponerlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por até 2 Pokémon {L} Básicos no seu baralho e colocá-los no seu Banco. Em seguida, embaralhe o seu baralho."
+			en: "This Pokémon can't attack unless you have 4 or more Team Rocket's Pokémon in play.",
+			fr: "Ce Pokémon ne peut attaquer que si vous avez 4 Pokémon de la Team Rocket ou plus en jeu.",
+			de: "Dieses Pokémon kann nicht angreifen, es sei denn, du hast 4 oder mehr Team Rockets Pokémon im Spiel.",
+			it: "Questo Pokémon non può attaccare a meno che tu non abbia quattro o più Pokémon del Team Rocket in gioco.",
+			es: "Este Pokémon no puede atacar a menos que tengas 4 Pokémon del Team Rocket o más en juego.",
+			pt: "Este Pokémon não pode atacar a não ser que você tenha 4 ou mais Pokémon da Equipe Rocket em jogo."
 		}
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
+		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Photon Blaster",
-			fr: "Réacteur à Photons",
-			de: "Photonenblaster",
-			it: "Esplosione Fotonica",
-			es: "Cohete Fotónico",
-			pt: "Detonador de Fótons"
+			en: "Erasure Ball",
+			fr: "Boule Effacement",
+			de: "Löschball",
+			it: "Annientapalla",
+			es: "Bola Correctora",
+			pt: "Bola de Supressão"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
+			en: "You may discard up to 2 Energy from your Benched Pokémon. This attack does 60 more damage for each card you discarded in this way.",
+			fr: "Vous pouvez défausser jusqu'à 2 Énergies de vos Pokémon de Banc. Cette attaque inflige 60 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			de: "Du kannst bis zu 2 Energien von Pokémon auf deiner Bank auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte mehr zu.",
+			it: "Puoi scartare fino a due Energie dai tuoi Pokémon in panchina. Questo attacco infligge 60 danni in più per ogni carta che hai scartato in questo modo.",
+			es: "Puedes descartar hasta 2 Energías de tus Pokémon en Banca. Este ataque hace 60 puntos de daño más por cada carta que hayas descartado de esta manera.",
+			pt: "Você pode descartar até 2 Energias dos seus Pokémon no Banco. Este ataque causa 60 pontos de dano a mais para cada carta descartada desta forma."
 		},
 
-		damage: 220
+		damage: "160+"
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

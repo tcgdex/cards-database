@@ -5,38 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		de: "Trasla",
-		it: "Ralts",
-		es: "Ralts",
-		pt: "Ralts"
+		en: "Steven's Claydol",
+		fr: "Kaorine de Pierre",
+		de: "Troys Lepumentas",
+		it: "Claydol di Rocco",
+		es: "Claydol de Máximo",
+		pt: "Claydol do Steven"
 	},
 
-	illustrator: "Tika Matsuno",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 70,
+	hp: 120,
 	types: ["Psychic"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
+		cost: ["Psychic"],
 
 		name: {
-			en: "Psyshot",
-			fr: "Piqûre Psy",
-			de: "Psychoschuss",
-			it: "Psicosparo",
-			es: "Disparo Psi",
-			pt: "Tiro Psíquico"
+			en: "Eerie Light",
+			fr: "Lumière Étrange",
+			de: "Gespenstisches Licht",
+			it: "Luci Inquietanti",
+			es: "Luz Lúgubre",
+			pt: "Luz Misteriosa"
 		},
 
-		damage: 30
+		effect: {
+			en: "Your opponent's Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			it: "Il Pokémon attivo del tuo avversario viene confuso.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso."
+		},
+
+		damage: 20
+	}, {
+		cost: ["Psychic", "Psychic", "Colorless"],
+
+		name: {
+			en: "Clay Blast",
+			fr: "Explosion d'Argile",
+			de: "Lehmdetonation",
+			it: "Esplosione d'Argilla",
+			es: "Explosión de Barro",
+			pt: "Explosão de Argila"
+		},
+
+		effect: {
+			en: "Discard all Energy from this Pokémon.",
+			fr: "Défaussez toutes les Énergies de ce Pokémon.",
+			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta tutte le Energie da questo Pokémon.",
+			es: "Descarta todas las Energías de este Pokémon.",
+			pt: "Descarte todas as Energias deste Pokémon."
+		},
+
+		damage: 220
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

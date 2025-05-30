@@ -5,58 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drifblim",
-		fr: "Grodrive",
-		de: "Drifzepeli",
-		it: "Drifblim",
-		es: "Drifblim",
-		pt: "Drifblim"
+		en: "Mankey",
+		fr: "Férosinge",
+		de: "Menki",
+		it: "Mankey",
+		es: "Mankey",
+		pt: "Mankey"
 	},
 
-	illustrator: "Yuu Nishida",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 110,
-	types: ["Psychic"],
-	stage: "Stage1",
+	hp: 70,
+	types: ["Fighting"],
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
+		cost: ["Fighting"],
 
 		name: {
-			en: "Gust",
-			fr: "Tornade",
-			de: "Windstoß",
-			it: "Raffica",
-			es: "Tornado",
-			pt: "Lufada de Vento"
-		},
-
-		damage: 30
-	}, {
-		cost: ["Psychic", "Psychic", "Psychic"],
-
-		name: {
-			en: "Curse Spreading",
-			fr: "Malédiction Disséminée",
-			de: "Ausbreitender Fluch",
-			it: "Spargimaledizione",
-			es: "Maldición Dispersa",
-			pt: "Maldição Alastrante"
+			en: "Wild Kick",
+			fr: "Coup Déchaîné",
+			de: "Stürmischer Kick",
+			it: "Calcio Selvaggio",
+			es: "Patada Salvaje",
+			pt: "Chute sem Pontaria"
 		},
 
 		effect: {
-			en: "Put 8 damage counters on your opponent's Pokémon in any way you like.",
-			fr: "Placez 8 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
-			de: "Lege 8 Schadensmarken beliebig auf die Pokémon deines Gegners.",
-			it: "Metti otto segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
-			es: "Pon 8 contadores de daño en los Pokémon de tu rival de la manera que desees.",
-			pt: "Coloque 8 contadores de dano nos Pokémon do seu oponente como desejar."
-		}
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
+		},
+
+		damage: 30
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

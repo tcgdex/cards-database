@@ -5,60 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Greedent",
-		fr: "Rongrigou",
-		de: "Schlaraffel",
-		it: "Greedent",
-		es: "Greedent",
-		pt: "Greedent"
+		en: "Tauros",
+		fr: "Tauros",
+		de: "Tauros",
+		it: "Tauros",
+		es: "Tauros",
+		pt: "Tauros"
 	},
 
-	illustrator: "kantaro",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 120,
+	hp: 130,
 	types: ["Colorless"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			en: "Horn Attack",
+			fr: "Koud'Korne",
+			de: "Hornattacke",
+			it: "Incornata",
+			es: "Cornada",
+			pt: "Ataque de Chifre"
+		},
+
+		damage: 30
+	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			de: "Biss",
-			it: "Morso",
-			es: "Mordisco",
-			pt: "Mordida"
-		},
-
-		damage: 50
-	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
-
-		name: {
-			en: "Enhanced Fang",
-			fr: "Croc Amélioré",
-			de: "Spezial-Zahn",
-			it: "Zanne Super",
-			es: "Incisivos Mejorados",
-			pt: "Presa Acentuada"
+			en: "Clean Hit",
+			fr: "Coup Net",
+			de: "Sauberer Treffer",
+			it: "Colpo Pulito",
+			es: "Impacto Limpio",
+			pt: "Golpe Certeiro"
 		},
 
 		effect: {
-			en: "If this Pokémon has a Pokémon Tool attached, this attack does 80 more damage.",
-			fr: "Si un Outil Pokémon est attaché à ce Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
-			de: "Wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
-			it: "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, questo attacco infligge 80 danni in più.",
-			es: "Si este Pokémon tiene una Herramienta Pokémon unida, este ataque hace 80 puntos de daño más.",
-			pt: "Se este Pokémon tiver uma Ferramenta Pokémon ligada a ele, este ataque causará 80 pontos de dano a mais."
+			en: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 50 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 50 dégâts supplémentaires.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 50 Schadenspunkte mehr zu.",
+			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 50 danni in più.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 50 puntos de daño más.",
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 50 pontos de dano a mais."
 		},
 
-		damage: "80+"
+		damage: "50+"
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

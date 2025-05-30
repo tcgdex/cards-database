@@ -5,47 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tarountula",
-		fr: "Tissenboule",
-		de: "Tarundel",
-		it: "Tarountula",
-		es: "Tarountula",
-		pt: "Tarountula"
+		en: "Team Rocket's Weezing",
+		fr: "Smogogo de la Team Rocket",
+		de: "Team Rockets Smogmog",
+		it: "Weezing del Team Rocket",
+		es: "Weezing del Team Rocket",
+		pt: "Weezing da Equipe Rocket"
 	},
 
-	illustrator: "Miki Tanaka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
-	hp: 40,
-	types: ["Grass"],
-	stage: "Basic",
+	hp: 130,
+	types: ["Darkness"],
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Grass", "Colorless"],
+		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "String Shot",
-			fr: "Sécrétion",
-			de: "Fadenschuss",
-			it: "Millebave",
-			es: "Disparo Demora",
-			pt: "Estilingada"
+			en: "Explode Together Now",
+			fr: "Explosion Groupée",
+			de: "Gemeinsam explodieren – jetzt!",
+			it: "Esplosione Congiunta",
+			es: "Explotemos Juntos",
+			pt: "Explodir Juntos Agora"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
+			en: "This attack does 40 damage for each Pokémon in play that has \"Koffing\" or \"Weezing\" in its name (both yours and your opponent's).",
+			fr: "Cette attaque inflige 40 dégâts pour chaque Pokémon en jeu ayant \" Smogo \" ou \" Smogogo \" dans son nom (les vôtres et ceux de votre adversaire).",
+			de: "Diese Attacke fügt für jedes Pokémon im Spiel (deine und die deines Gegners), bei dem \"Smogon\" oder \"Smogmog\" zum Namen gehört, 40 Schadenspunkte zu.",
+			it: "Questo attacco infligge 40 danni per ogni Pokémon in gioco che ha \"Koffing\" o \"Weezing\" nel nome, sia tuo che del tuo avversario.",
+			es: "Este ataque hace 40 puntos de daño por cada Pokémon en juego que tenga \"Koffing\" o \"Weezing\" en su nombre (tanto tuyos como de tu rival).",
+			pt: "Este ataque causa 40 pontos de dano para cada Pokémon em jogo que tenha \"Koffing\" ou \"Weezing\" em seu nome (seus e do seu oponente)."
 		},
 
-		damage: 20
+		damage: "40×"
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

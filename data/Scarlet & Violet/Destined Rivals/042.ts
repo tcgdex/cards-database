@@ -5,58 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		de: "Flegmon",
-		it: "Slowpoke",
-		es: "Slowpoke",
-		pt: "Slowpoke"
+		en: "Blaziken",
+		fr: "Braségali",
+		de: "Lohgock",
+		it: "Blaziken",
+		es: "Blaziken",
+		pt: "Blaziken"
 	},
 
-	illustrator: "Narumi Sato",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Water"],
-	stage: "Basic",
+	hp: 170,
+	types: ["Fire"],
+	stage: "Stage2",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rest",
-			fr: "Repos",
-			de: "Erholung",
-			it: "Riposo",
-			es: "Descanso",
-			pt: "Descansar"
+			en: "Heat Blast",
+			fr: "Explosion de Chaleur",
+			de: "Hitzestoß",
+			it: "Caldobomba",
+			es: "Explosión de Calor",
+			pt: "Raio de Calor"
+		},
+
+		damage: 70
+	}, {
+		cost: ["Fire", "Fire", "Colorless"],
+
+		name: {
+			en: "Inferno Kick Flurry",
+			fr: "Rafale de Coups de Pied Infernale",
+			de: "Inferno-Trittschauer",
+			it: "Calcioturbine Infernale",
+			es: "Ráfaga de Patadas Infernales",
+			pt: "Enxurrada de Chutes Infernais"
 		},
 
 		effect: {
-			en: "This Pokémon is now Asleep. Heal 30 damage from it.",
-			fr: "Ce Pokémon est maintenant Endormi. Soignez 30 dégâts de ce Pokémon.",
-			de: "Dieses Pokémon schläft jetzt. Heile 30 Schadenspunkte bei diesem Pokémon.",
-			it: "Questo Pokémon viene addormentato. Curalo da 30 danni.",
-			es: "Este Pokémon pasa a estar Dormido. Cúrale 30 puntos de daño.",
-			pt: "Este Pokémon agora está Adormecido. Cure 30 pontos de dano dele."
-		}
-	}, {
-		cost: ["Water", "Colorless"],
-
-		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			de: "Kopfnuss",
-			it: "Bottintesta",
-			es: "Golpe Cabeza",
-			pt: "Cabeçada"
+			en: "Discard 2 Energy from this Pokémon. This attack also does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Défaussez 2 Énergies de ce Pokémon. Cette attaque inflige aussi 120 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 120 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			it: "Scarta due Energie da questo Pokémon. Questo attacco infligge anche 120 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			es: "Descarta 2 Energías de este Pokémon. Este ataque también hace 120 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			pt: "Descarte 2 Energias deste Pokémon. Este ataque também causa 120 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		},
 
-		damage: 20
+		damage: 120
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

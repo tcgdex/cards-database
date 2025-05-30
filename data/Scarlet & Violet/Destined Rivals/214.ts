@@ -5,47 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Greavard",
-		fr: "Toutombe",
-		de: "Gruff",
-		it: "Greavard",
-		es: "Greavard",
-		pt: "Greavard"
+		en: "Regirock ex",
+		fr: "Regirock-ex",
+		de: "Regirock-ex",
+		it: "Regirock-ex",
+		es: "Regirock ex",
+		pt: "Regirock ex"
 	},
 
-	illustrator: "sowsow",
-	rarity: "Illustration rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Psychic"],
+	hp: 230,
+	types: ["Fighting"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Graveyard Gamboling",
-			fr: "Cabriole Funèbre",
-			de: "Grufttollerei",
-			it: "Saltellacimitero",
-			es: "Jugueteo en el Cementerio",
-			pt: "Cambalhotas no Cemitério"
+			en: "Regi Charge",
+			fr: "Regi-Charge",
+			de: "Regi-Ladung",
+			it: "Carica Regi",
+			es: "Regi Carga",
+			pt: "Carga Regi"
 		},
 
 		effect: {
-			en: "This attack does 10 damage for each {P} Pokémon in your discard pile.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque Pokémon {P} dans votre pile de défausse.",
-			de: "Diese Attacke fügt für jedes {P}-Pokémon in deinem Ablagestapel 10 Schadenspunkte zu.",
-			it: "Questo attacco infligge 10 danni per ogni Pokémon {P} nella tua pila degli scarti.",
-			es: "Este ataque hace 10 puntos de daño por cada Pokémon {P} en tu pila de descartes.",
-			pt: "Este ataque causa 10 pontos de dano para cada Pokémon {P} na sua pilha de descarte."
+			en: "Attach up to 2 Basic {F} Energy cards from your discard pile to this Pokémon.",
+			fr: "Attachez jusqu'à 2 cartes Énergie {F} de base de votre pile de défausse à ce Pokémon.",
+			de: "Lege bis zu 2 Basis-{F}-Energiekarten aus deinem Ablagestapel an dieses Pokémon an.",
+			it: "Assegna a questo Pokémon fino a due carte Energia base {F} dalla tua pila degli scarti.",
+			es: "Une hasta 2 cartas de Energía {F} Básica de tu pila de descartes a este Pokémon.",
+			pt: "Ligue até 2 cartas de Energia {F} Básica da sua pilha de descarte a este Pokémon."
+		}
+	}, {
+		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+
+		name: {
+			en: "Giant Rock",
+			fr: "Roc Géant",
+			de: "Gigantischer Felsen",
+			it: "Roccia Gigante",
+			es: "Roca Gigante",
+			pt: "Pedregulho"
 		},
 
-		damage: "10×"
+		effect: {
+			en: "If your opponent's Active Pokémon is a Stage 2 Pokémon, this attack does 140 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de Niveau 2, cette attaque inflige 140 dégâts supplémentaires.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein Phase-2-Pokémon ist, fügt diese Attacke 140 Schadenspunkte mehr zu.",
+			it: "Se il Pokémon attivo del tuo avversario è un Pokémon di Fase 2, questo attacco infligge 140 danni in più.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon de Fase 2, este ataque hace 140 puntos de daño más.",
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Estágio 2, este ataque causará 140 pontos de dano a mais."
+		},
+
+		damage: "140+"
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

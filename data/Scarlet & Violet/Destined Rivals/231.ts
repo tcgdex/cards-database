@@ -5,69 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Koraidon ex",
-		fr: "Koraidon-ex",
-		de: "Koraidon-ex",
-		it: "Koraidon-ex",
-		es: "Koraidon ex",
-		pt: "Koraidon ex"
+		en: "Team Rocket's Mewtwo ex",
+		fr: "Mewtwo-ex de la Team Rocket",
+		de: "Team Rockets Mewtu-ex",
+		it: "Mewtwo-ex del Team Rocket",
+		es: "Mewtwo ex del Team Rocket",
+		pt: "Mewtwo ex da Equipe Rocket"
 	},
 
-	illustrator: "aky CG Works",
-	rarity: "Ultra Rare",
+	rarity: "Special illustration rare",
 	category: "Pokemon",
-	hp: 230,
-	types: ["Fighting"],
+	hp: 280,
+	types: ["Psychic"],
 	stage: "Basic",
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Dino Cry",
-			fr: "Cri Dino",
-			de: "Dino-Ruf",
-			it: "Dinogrido",
-			es: "Dinoalarido",
-			pt: "Brado Dino"
+			en: "Power Saver",
+			fr: "Économie de Puissance",
+			de: "Sparpower",
+			it: "Serbaforza",
+			es: "Ahorro de Poder",
+			pt: "Economizador de Energia"
 		},
 
 		effect: {
-			en: "Once during your turn, you may attach up to 2 Basic {F} Energy cards from your discard pile to your Basic {F} Pokémon in any way you like. If you use this Ability, your turn ends.",
-			fr: "Une fois pendant votre tour, vous pouvez attacher jusqu'à 2 cartes Énergie {F} de base de votre pile de défausse à vos Pokémon {F} de base, comme il vous plaît. Si vous utilisez ce talent, votre tour se termine.",
-			de: "Einmal während deines Zuges kannst du bis zu 2 Basis-{F}-Energiekarten aus deinem Ablagestapel beliebig an deine Basis-{F}-Pokémon anlegen. Wenn du diese Fähigkeit einsetzt, endet dein Zug.",
-			it: "Una sola volta durante il tuo turno, puoi assegnare ai tuoi Pokémon Base {F} fino a due carte Energia base {F} dalla tua pila degli scarti nel modo che preferisci. Se usi questa abilità, il tuo turno finisce.",
-			es: "Una vez durante tu turno, puedes unir hasta 2 cartas de Energía {F} Básica de tu pila de descartes a tus Pokémon {F} Básicos de la manera que desees. Si usas esta habilidad, tu turno termina.",
-			pt: "Uma vez durante o seu turno, você poderá ligar até 2 cartas de Energia {F} Básica da sua pilha de descarte aos seus Pokémon {F} Básicos como desejar. Se você usar esta Habilidade, o seu turno acabará."
+			en: "This Pokémon can't attack unless you have 4 or more Team Rocket's Pokémon in play.",
+			fr: "Ce Pokémon ne peut attaquer que si vous avez 4 Pokémon de la Team Rocket ou plus en jeu.",
+			de: "Dieses Pokémon kann nicht angreifen, es sei denn, du hast 4 oder mehr Team Rockets Pokémon im Spiel.",
+			it: "Questo Pokémon non può attaccare a meno che tu non abbia quattro o più Pokémon del Team Rocket in gioco.",
+			es: "Este Pokémon no puede atacar a menos que tengas 4 Pokémon del Team Rocket o más en juego.",
+			pt: "Este Pokémon não pode atacar a não ser que você tenha 4 ou mais Pokémon da Equipe Rocket em jogo."
 		}
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Fighting", "Colorless"],
+		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Wild Impact",
-			fr: "Impact Sauvage",
-			de: "Wilde Erschütterung",
-			it: "Impatto Selvaggio",
-			es: "Impacto Brutal",
-			pt: "Impacto Selvagem"
+			en: "Erasure Ball",
+			fr: "Boule Effacement",
+			de: "Löschball",
+			it: "Annientapalla",
+			es: "Bola Correctora",
+			pt: "Bola de Supressão"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
+			en: "You may discard up to 2 Energy from your Benched Pokémon. This attack does 60 more damage for each card you discarded in this way.",
+			fr: "Vous pouvez défausser jusqu'à 2 Énergies de vos Pokémon de Banc. Cette attaque inflige 60 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			de: "Du kannst bis zu 2 Energien von Pokémon auf deiner Bank auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte mehr zu.",
+			it: "Puoi scartare fino a due Energie dai tuoi Pokémon in panchina. Questo attacco infligge 60 danni in più per ogni carta che hai scartato in questo modo.",
+			es: "Puedes descartar hasta 2 Energías de tus Pokémon en Banca. Este ataque hace 60 puntos de daño más por cada carta que hayas descartado de esta manera.",
+			pt: "Você pode descartar até 2 Energias dos seus Pokémon no Banco. Este ataque causa 60 pontos de dano a mais para cada carta descartada desta forma."
 		},
 
-		damage: 220
+		damage: "160+"
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

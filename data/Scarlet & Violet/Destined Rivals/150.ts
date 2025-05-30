@@ -5,69 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Staraptor",
-		fr: "Étouraptor",
-		de: "Staraptor",
-		it: "Staraptor",
-		es: "Staraptor",
-		pt: "Staraptor"
+		en: "Team Rocket's Persian ex",
+		fr: "Persian-ex de la Team Rocket",
+		de: "Team Rockets Snobilikat-ex",
+		it: "Persian-ex del Team Rocket",
+		es: "Persian ex del Team Rocket",
+		pt: "Persian ex da Equipe Rocket"
 	},
 
-	illustrator: "Atsushi Furusawa",
-	rarity: "Uncommon",
+	rarity: "Double rare",
 	category: "Pokemon",
-	hp: 150,
+	hp: 260,
 	types: ["Colorless"],
-	stage: "Stage2",
+	stage: "Stage1",
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tailspin Away",
-			fr: "Départ en Vrille",
-			de: "Entfliegen",
-			it: "Avvitamento Evasivo",
-			es: "Caída en Picado",
-			pt: "Escapada Parafuso"
+			en: "Haughty Order",
+			fr: "Ordre Hautain",
+			de: "Anmaßender Befehl",
+			it: "Ordine Altezzoso",
+			es: "Orden Arrogante",
+			pt: "Ordem Arrogante"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
-			fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base.",
-			de: "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Basis-Pokémon zugefügt wird.",
-			it: "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Base.",
-			es: "Durante el próximo turno de tu rival, se evita todo el daño infligido a este Pokémon por ataques de Pokémon Básicos.",
-			pt: "Durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques de Pokémon Básicos."
-		},
-
-		damage: 60
+			en: "Reveal the top 10 cards of your opponent's deck. You may choose an attack from a Pokémon you find there and use it as this attack. Shuffle the revealed cards into your opponent's deck.",
+			fr: "Montrez les 10 cartes du dessus du deck de votre adversaire. Vous pouvez choisir une attaque d'un Pokémon que vous y trouvez et l'utiliser en tant que cette attaque. Mélangez les cartes montrées avec le deck de votre adversaire.",
+			de: "Decke die obersten 10 Karten des Decks deines Gegners auf. Du kannst 1 Attacke von 1 Pokémon, das du dort findest, wählen und sie als diese Attacke einsetzen. Mische die aufgedeckten Karten in das Deck deines Gegners.",
+			it: "Mostra le prime 10 carte del mazzo del tuo avversario. Puoi scegliere un attacco di un Pokémon presente tra esse e usarlo al posto di questo attacco. Rimischia le carte mostrate nel mazzo del tuo avversario.",
+			es: "Enseña las 10 primeras cartas de la baraja de tu rival. Puedes elegir un ataque de algún Pokémon que encuentres entre ellas y usarlo para este ataque. Pon las cartas que has enseñado en la baraja de tu rival y barájalas todas.",
+			pt: "Revele as 10 cartas de cima do baralho do seu oponente. Você pode escolher um ataque de um Pokémon que encontrar lá e usá-lo como este ataque. Embaralhe as cartas reveladas no baralho do seu oponente."
+		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Power Blast",
-			fr: "Violente Déflagration",
-			de: "Powerschuss",
-			it: "Forzacolpo",
-			es: "Estallido Vigoroso",
-			pt: "Explosão Poderosa"
+			en: "Cruel Slash",
+			fr: "Tranche Cruelle",
+			de: "Grausamer Schlitzer",
+			it: "Lacerazione Crudele",
+			es: "Tajo Cruel",
+			pt: "Talho Cruel"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon."
+			en: "Your opponent's Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			it: "Il Pokémon attivo del tuo avversario viene confuso.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso."
 		},
 
-		damage: 180
+		damage: 140
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

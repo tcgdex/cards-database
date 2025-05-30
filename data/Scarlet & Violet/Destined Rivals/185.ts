@@ -5,29 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poké Ball",
-		fr: "Poké Ball",
-		de: "Pokéball",
-		it: "Poké Ball",
-		es: "Poké Ball",
-		pt: "Poké Bola"
+		en: "Shaymin",
+		fr: "Shaymin",
+		de: "Shaymin",
+		it: "Shaymin",
+		es: "Shaymin",
+		pt: "Shaymin"
 	},
 
-	illustrator: "Studio Bora Inc.",
-	rarity: "Common",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 80,
+	types: ["Grass"],
+	stage: "Basic",
 
-	effect: {
-		en: "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-		fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-		de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
-		it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-		es: "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
-		pt: "Jogue uma moeda. Se sair cara, procure por um Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho."
-	},
+	abilities: [{
+		type: "Ability",
 
-	trainerType: "Item",
-	regulationMark: "G"
+		name: {
+			en: "Flower Curtain",
+			fr: "Rideau de Fleurs",
+			de: "Blumenschleier",
+			it: "Cortina Floreale",
+			es: "Cortina Floral",
+			pt: "Cortina de Flores"
+		},
+
+		effect: {
+			en: "Prevent all damage done to your Benched Pokémon that don't have a Rule Box by attacks from your opponent's Pokémon. (Pokémon ex, Pokémon V, etc. have Rule Boxes.)",
+			fr: "Évitez tous les dégâts infligés à vos Pokémon de Banc sans encadré Règle par les attaques des Pokémon de votre adversaire. (Les Pokémon-ex, Pokémon-V, etc. ont des encadrés Règle.)",
+			de: "Verhindere allen Schaden, der den Pokémon auf deiner Bank, die kein Regelfeld haben, durch Attacken von Pokémon deines Gegners zugefügt wird. (Pokémon-ex, Pokémon-V usw. haben Regelfelder.)",
+			it: "Previeni tutti i danni inflitti ai tuoi Pokémon in panchina che non hanno una regola speciale dagli attacchi dei Pokémon del tuo avversario. I Pokémon-ex, i Pokémon-V, ecc. hanno regole speciali.",
+			es: "Se evita todo el daño infligido a tus Pokémon en Banca que no tengan un recuadro de regla por ataques de los Pokémon de tu rival. (Pokémon ex, Pokémon V, etc. tienen recuadros de regla).",
+			pt: "Previna todo o dano causado aos seus Pokémon no Banco que não têm uma Caixa de Regras por ataques dos Pokémon do seu oponente. (Pokémon ex, Pokémon V, etc. têm Caixas de Regras.)"
+		}
+	}],
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			en: "Smash Kick",
+			fr: "Coud'Pattes",
+			de: "Schmetterkick",
+			it: "Calcio Esplosivo",
+			es: "Patada Destrucción",
+			pt: "Chute Poderoso"
+		},
+
+		damage: 30
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

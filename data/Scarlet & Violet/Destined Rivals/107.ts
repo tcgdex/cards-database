@@ -5,47 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mankey",
-		fr: "Férosinge",
-		de: "Menki",
-		it: "Mankey",
-		es: "Mankey",
-		pt: "Mankey"
+		en: "Mudbray",
+		fr: "Tiboudet",
+		de: "Pampuli",
+		it: "Mudbray",
+		es: "Mudbray",
+		pt: "Mudbray"
 	},
 
-	illustrator: "nagimiso",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 60,
+	hp: 90,
 	types: ["Fighting"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fighting"],
+		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Monkey Beatdown",
-			fr: "Raclée Simiesque",
-			de: "Affenprügel",
-			it: "Batosta della Scimmia",
-			es: "Golpe Macaco",
-			pt: "Pancada Primata"
+			en: "Running Charge",
+			fr: "Assaut Élancé",
+			de: "Sturmangriff",
+			it: "Carica Scattante",
+			es: "Carga Impulso",
+			pt: "Carga em Disparada"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo."
+			en: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
+			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu.",
+			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
+			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
+			pt: "Jogue uma moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara."
 		},
 
-		damage: 30
+		damage: "40×"
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

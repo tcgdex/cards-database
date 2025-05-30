@@ -5,58 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cyclizar",
-		fr: "Motorizard",
-		de: "Mopex",
-		it: "Cyclizar",
-		es: "Cyclizar",
-		pt: "Cyclizar"
+		en: "Energy Recycler",
+		fr: "Recycleur d'Énergie",
+		de: "Energieaufbereitung",
+		it: "Riciclaggio di Energia",
+		es: "Reciclaje de Energía",
+		pt: "Reciclador de Energia"
 	},
 
-	illustrator: "Ryota Murayama",
-	rarity: "Rare",
-	category: "Pokemon",
-	hp: 110,
-	types: ["Colorless"],
-	stage: "Basic",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-	attacks: [{
-		cost: ["Colorless"],
+	effect: {
+		en: "Shuffle up to 5 Basic Energy cards from your discard pile into your deck.",
+		fr: "Mélangez jusqu'à 5 cartes Énergie de base de votre pile de défausse avec votre deck.",
+		de: "Mische bis zu 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck.",
+		it: "Rimischia fino a cinque carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
+		es: "Pon hasta 5 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
+		pt: "Embaralhe até 5 cartas de Energia Básica da sua pilha de descarte no seu baralho."
+	},
 
-		name: {
-			en: "Touring",
-			fr: "Virée Touristique",
-			de: "Spritztour",
-			it: "Granturismo",
-			es: "De Gira",
-			pt: "Turistando"
-		},
-
-		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			de: "Ziehe 2 Karten.",
-			it: "Pesca due carte.",
-			es: "Roba 2 cartas.",
-			pt: "Compre 2 cartas."
-		}
-	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
-
-		name: {
-			en: "Speed Attack",
-			fr: "Attaque Rapide",
-			de: "Tempoangriff",
-			it: "Attacco Veloce",
-			es: "Ataque Fugaz",
-			pt: "Ataque em Velocidade"
-		},
-
-		damage: 100
-	}],
-
-	retreat: 0,
-	regulationMark: "G"
+	trainerType: "Item",
+	regulationMark: "I"
 }
 
 export default card

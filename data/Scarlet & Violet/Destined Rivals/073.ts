@@ -5,31 +5,30 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawmi",
-		fr: "Pohm",
-		de: "Pamo",
-		it: "Pawmi",
-		es: "Pawmi",
-		pt: "Pawmi"
+		en: "Team Rocket's Flaaffy",
+		fr: "Lainergie de la Team Rocket",
+		de: "Team Rockets Waaty",
+		it: "Flaaffy del Team Rocket",
+		es: "Flaaffy del Team Rocket",
+		pt: "Flaaffy da Equipe Rocket"
 	},
 
-	illustrator: "Tika Matsuno",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 50,
+	hp: 90,
 	types: ["Lightning"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Lightning"],
+		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Jolt",
-			fr: "Secousse",
-			de: "Durchrütteln",
-			it: "Sobbalzo",
-			es: "Calambre",
-			pt: "Choque"
+			en: "Thunder Shock",
+			fr: "Éclair",
+			de: "Donnerschock",
+			it: "Tuonoshock",
+			es: "Impactrueno",
+			pt: "Trovoada de Choques"
 		},
 
 		effect: {
@@ -39,11 +38,13 @@ const card: Card = {
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
-		}
+		},
+
+		damage: 50
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

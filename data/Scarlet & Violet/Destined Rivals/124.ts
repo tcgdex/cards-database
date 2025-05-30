@@ -5,60 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Koraidon",
-		fr: "Koraidon",
-		de: "Koraidon",
-		it: "Koraidon",
-		es: "Koraidon",
-		pt: "Koraidon"
+		en: "Team Rocket's Muk",
+		fr: "Grotadmorv de la Team Rocket",
+		de: "Team Rockets Sleimok",
+		it: "Muk del Team Rocket",
+		es: "Muk del Team Rocket",
+		pt: "Muk da Equipe Rocket"
 	},
 
-	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 130,
-	types: ["Fighting"],
-	stage: "Basic",
+	hp: 150,
+	types: ["Darkness"],
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
+		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			de: "Klauenschlitzer",
-			it: "Lacerartiglio",
-			es: "Cuchillada Garra",
-			pt: "Golpe de Garra"
-		},
-
-		damage: 70
-	}, {
-		cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
-
-		name: {
-			en: "Rampaging Fang",
-			fr: "Croc Furieux",
-			de: "Tobende Fänge",
-			it: "Zanna Infuriata",
-			es: "Colmillo Furioso",
-			pt: "Canino Feroz"
+			en: "Gooped Up",
+			fr: "Engluement",
+			de: "Verklebt",
+			it: "Invischiato",
+			es: "Pringue",
+			pt: "Melecado"
 		},
 
 		effect: {
-			en: "Discard 3 Energy from this Pokémon.",
-			fr: "Défaussez 3 Énergies de ce Pokémon.",
-			de: "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta tre Energie da questo Pokémon.",
-			es: "Descarta 3 Energías de este Pokémon.",
-			pt: "Descarte 3 Energias deste Pokémon."
+			en: "Your opponent's Active Pokémon is now Confused. During your opponent's next turn, that Pokémon can't retreat.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen.",
+			it: "Il Pokémon attivo del tuo avversario viene confuso. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar."
 		},
 
-		damage: 190
+		damage: 40
+	}, {
+		cost: ["Darkness", "Darkness", "Colorless"],
+
+		name: {
+			en: "Hazardous Venom",
+			fr: "Venin Nocif",
+			de: "Bedrohliches Gift",
+			it: "Veleno Pericoloso",
+			es: "Veneno Nocivo",
+			pt: "Veneno Periculoso"
+		},
+
+		effect: {
+			en: "This attack does 100 damage for each Special Condition affecting your opponent's Active Pokémon.",
+			fr: "Cette attaque inflige 100 dégâts pour chaque État Spécial affectant le Pokémon Actif de votre adversaire.",
+			de: "Diese Attacke fügt für jeden Speziellen Zustand, von dem das Aktive Pokémon deines Gegners betroffen ist, 100 Schadenspunkte zu.",
+			it: "Questo attacco infligge 100 danni per ogni condizione speciale che influenza il Pokémon attivo del tuo avversario.",
+			es: "Este ataque hace 100 puntos de daño por cada Condición Especial que afecte al Pokémon Activo de tu rival.",
+			pt: "Este ataque causa 100 pontos de dano para cada Condição Especial afetando o Pokémon Ativo do seu oponente."
+		},
+
+		damage: "100×"
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 4,
+	regulationMark: "I"
 }
 
 export default card

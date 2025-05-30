@@ -5,58 +5,44 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandaconda",
-		fr: "Dunaconda",
-		de: "Sanaconda",
-		it: "Sandaconda",
-		es: "Sandaconda",
-		pt: "Sandaconda"
+		en: "Team Rocket's Zubat",
+		fr: "Nosferapti de la Team Rocket",
+		de: "Team Rockets Zubat",
+		it: "Zubat del Team Rocket",
+		es: "Zubat del Team Rocket",
+		pt: "Zubat da Equipe Rocket"
 	},
 
-	illustrator: "Yuya Oka",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 140,
-	types: ["Fighting"],
-	stage: "Stage1",
+	hp: 50,
+	types: ["Darkness"],
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fighting", "Fighting", "Colorless"],
+		cost: ["Darkness"],
 
 		name: {
-			en: "Skull Bash",
-			fr: "Coud'Krâne",
-			de: "Schädelwumme",
-			it: "Capocciata",
-			es: "Cabezazo",
-			pt: "Quebra-crânio"
-		},
-
-		damage: 120
-	}, {
-		cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
-
-		name: {
-			en: "Sandstorm Spray",
-			fr: "Jet Sirocco",
-			de: "Sandsturmspray",
-			it: "Spruzzo Terrempesta",
-			es: "Tormenta de Arena Pulverizada",
-			pt: "Spray Arenoso"
+			en: "Poison Spray",
+			fr: "Pulvérisation Toxique",
+			de: "Giftspray",
+			it: "Spruzzo Velenoso",
+			es: "Aerosol Venenoso",
+			pt: "Spray de Veneno"
 		},
 
 		effect: {
-			en: "Discard 2 Energy from this Pokémon. If you discarded any Energy in this way, your opponent shuffles their Active Pokémon and all attached cards into their deck.",
-			fr: "Défaussez 2 Énergies de ce Pokémon. Si vous avez défaussé au moins une Énergie de cette façon, votre adversaire mélange son Pokémon Actif et toutes les cartes qui lui sont attachées avec son deck.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Wenn du auf diese Weise mindestens 1 Energie auf deinen Ablagestapel gelegt hast, mischt dein Gegner sein Aktives Pokémon und alle angelegten Karten in sein Deck.",
-			it: "Scarta due Energie da questo Pokémon. Se hai scartato delle Energie in questo modo, il tuo avversario rimischia il suo Pokémon attivo e tutte le carte a esso assegnate nel suo mazzo.",
-			es: "Descarta 2 Energías de este Pokémon. Si has descartado alguna Energía de esta manera, tu rival pone su Pokémon Activo y todas las cartas unidas a él en su baraja, y baraja todas las cartas.",
-			pt: "Descarte 2 Energias deste Pokémon. Se você descartou qualquer Energia desta forma, seu oponente embaralha o Pokémon Ativo dele e todas as cartas ligadas a ele no baralho dele."
+			en: "Your opponent's Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado."
 		}
 	}],
 
-	retreat: 3,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

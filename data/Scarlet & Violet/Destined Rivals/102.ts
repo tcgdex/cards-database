@@ -5,47 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flittle",
-		fr: "Flotillon",
-		de: "Flattutu",
-		it: "Flittle",
-		es: "Flittle",
-		pt: "Flittle"
+		en: "Cynthia's Gible",
+		fr: "Griknot de Cynthia",
+		de: "Cynthias Kaumalat",
+		it: "Gible di Camilla",
+		es: "Gible de Cintia",
+		pt: "Gible da Cíntia"
 	},
 
-	illustrator: "Pani Kobayashi",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 40,
-	types: ["Psychic"],
+	hp: 70,
+	types: ["Fighting"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic"],
+		cost: ["Fighting"],
 
 		name: {
-			en: "Dash Off",
-			fr: "Déguerpissement",
-			de: "Wegflitzen",
-			it: "Affrettarsi",
-			es: "Salir Volando",
-			pt: "Corridela"
+			en: "Rock Hurl",
+			fr: "Lance-Pierre",
+			de: "Steinschleuderer",
+			it: "Scaglia Pietre",
+			es: "Lanzamiento de Rocas",
+			pt: "Lançamento de Pedras"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
+			en: "This attack's damage isn't affected by Resistance.",
+			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
+			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
+			es: "El daño de este ataque no se ve afectado por Resistencia.",
+			pt: "O dano deste ataque não é afetado por Resistência."
 		},
 
-		damage: 10
+		damage: 20
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

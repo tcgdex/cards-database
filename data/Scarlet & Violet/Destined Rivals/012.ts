@@ -5,60 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gogoat",
-		fr: "Chevroum",
-		de: "Chevrumm",
-		it: "Gogoat",
-		es: "Gogoat",
-		pt: "Gogoat"
+		en: "Crustle",
+		fr: "Crabaraque",
+		de: "Castellith",
+		it: "Crustle",
+		es: "Crustle",
+		pt: "Crustle"
 	},
 
-	illustrator: "Gemi",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
-	hp: 130,
+	hp: 150,
 	types: ["Grass"],
 	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Colorless", "Colorless"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Rising Lunge",
-			fr: "Botte Secrète",
-			de: "Aufwärtsstoß",
-			it: "Elevazione",
-			es: "Embestida Ascendente",
-			pt: "Investida Ascendente"
+			en: "Mysterious Rock Inn",
+			fr: "Mystère Lithicole",
+			de: "Geheimnisvolles Steinhaus",
+			it: "Pietracasa Misteriosa",
+			es: "Casapiedra Misteriosa",
+			pt: "Rocha Misteriosa"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais."
-		},
+			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex.",
+			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon-ex de votre adversaire.",
+			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon-ex deines Gegners zugefügt wird.",
+			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon-ex del tuo avversario.",
+			es: "Se evita todo el daño infligido a este Pokémon por ataques de los Pokémon ex de tu rival.",
+			pt: "Previna todo o dano causado a este Pokémon por ataques dos Pokémon ex do seu oponente."
+		}
+	}],
 
-		damage: "30+"
-	}, {
+	attacks: [{
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Solar Beam",
-			fr: "Lance-Soleil",
-			de: "Solarstrahl",
-			it: "Solarraggio",
-			es: "Rayo Solar",
-			pt: "Raio Solar"
+			en: "Superb Scissors",
+			fr: "Superbes Ciseaux",
+			de: "Süperbe Scheren",
+			it: "Forbici Formidabili",
+			es: "Tijeras Espléndidas",
+			pt: "Tremendas Tesouras"
 		},
 
-		damage: 110
+		effect: {
+			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+			it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
+			es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
+			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente."
+		},
+
+		damage: 120
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

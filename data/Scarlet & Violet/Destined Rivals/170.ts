@@ -5,29 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electric Generator",
-		fr: "Générateur Électrique",
-		de: "Elektrischer Generator",
-		it: "Generatore di Elettricità",
-		es: "Generador Eléctrico",
-		pt: "Gerador Elétrico"
+		en: "Team Rocket's Archer",
+		fr: "Amos de la Team Rocket",
+		de: "Team Rockets Atlas",
+		it: "Archer del Team Rocket",
+		es: "Atlas del Team Rocket",
+		pt: "Apollo da Equipe Rocket"
 	},
 
-	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Look at the top 5 cards of your deck and attach up to 2 Basic {L} Energy cards you find there to your Benched {L} Pokémon in any way you like. Shuffle the other cards back into your deck.",
-		fr: "Regardez les 5 cartes du dessus de votre deck, puis attachez jusqu'à 2 cartes Énergie {L} de base que vous y trouvez à vos Pokémon {L} de Banc, comme il vous plaît. Mélangez les autres cartes avec votre deck.",
-		de: "Schau dir die obersten 5 Karten deines Decks an und lege bis zu 2 Basis-{L}-Energiekarten, die du dort findest, beliebig an die {L}-Pokémon auf deiner Bank an. Mische die anderen Karten zurück in dein Deck.",
-		it: "Guarda le prime cinque carte del tuo mazzo e assegna fino a due carte Energia base {L} presenti tra esse ai tuoi Pokémon {L} in panchina nel modo che preferisci. Poi rimischia le altre carte nel tuo mazzo.",
-		es: "Mira las 5 primeras cartas de tu baraja y une hasta 2 cartas de Energía {L} Básica que encuentres entre ellas a tus Pokémon {L} en Banca de la manera que desees. Pon el resto de las cartas de nuevo en tu baraja y barájalas todas.",
-		pt: "Olhe as 5 cartas de cima do seu baralho e ligue até 2 cartas de Energia {L} Básica que encontrar lá aos seus Pokémon {L} no Banco como desejar. Embaralhe as outras cartas de volta no seu baralho."
+		en: "You can use this card only if any of your Team Rocket's Pokémon were Knocked Out during your opponent's last turn.\n\nEach player shuffles their hand into their deck. Then, you draw 5 cards, and your opponent draws 3 cards.",
+		fr: "Vous ne pouvez utiliser cette carte que si au moins l'un de vos Pokémon de la Team Rocket a été mis K.O. pendant le dernier tour de votre adversaire.\n\nChaque joueur mélange sa main avec son deck. Ensuite, vous piochez 5 cartes et votre adversaire pioche 3 cartes.",
+		de: "Du kannst diese Karte nur einsetzen, wenn mindestens 1 deiner Team Rockets Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\n\nJeder Spieler mischt seine Handkarten in sein Deck. Anschließend ziehst du 5 Karten und dein Gegner zieht 3 Karten.",
+		it: "Puoi usare questa carta solo se uno dei tuoi Pokémon del Team Rocket è stato messo KO durante l'ultimo turno del tuo avversario.\n\nCiascun giocatore rimischia le carte che ha in mano nel proprio mazzo. Poi tu peschi cinque carte e il tuo avversario ne pesca tre.",
+		es: "Puedes usar esta carta solo si alguno de tus Pokémon del Team Rocket quedó Fuera de Combate durante el último turno de tu rival.\n\nCada jugador pone las cartas de su mano en su baraja y las baraja todas. Después, robas 5 cartas, y tu rival roba 3 cartas.",
+		pt: "Você só pode usar esta carta se algum dos seus Pokémon da Equipe Rocket tiver sido Nocauteado durante o último turno do seu oponente.\n\nCada jogador embaralha a própria mão no próprio baralho. Em seguida, você compra 5 cartas e o seu oponente compra 3 cartas."
 	},
 
-	trainerType: "Item",
-	regulationMark: "G"
+	trainerType: "Supporter",
+	regulationMark: "I"
 }
 
 export default card

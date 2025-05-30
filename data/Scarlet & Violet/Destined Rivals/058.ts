@@ -5,38 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cetoddle",
-		fr: "Piétacé",
-		de: "Flaniwal",
-		it: "Cetoddle",
-		es: "Cetoddle",
-		pt: "Cetoddle"
+		en: "Floatzel",
+		fr: "Mustéflott",
+		de: "Bojelin",
+		it: "Floatzel",
+		es: "Floatzel",
+		pt: "Floatzel"
 	},
 
-	illustrator: "Shin Nagasawa",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 80,
+	hp: 120,
 	types: ["Water"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			it: "Azione",
-			es: "Placaje",
-			pt: "Investida"
+			en: "Whirlpool",
+			fr: "Siphon",
+			de: "Whirlpool",
+			it: "Mulinello",
+			es: "Torbellino",
+			pt: "Redemoinho"
+		},
+
+		effect: {
+			en: "Discard an Energy from your opponent's Active Pokémon.",
+			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente."
 		},
 
 		damage: 30
+	}, {
+		cost: ["Water", "Colorless", "Colorless"],
+
+		name: {
+			en: "Aqua Slash",
+			fr: "Aqua Slash",
+			de: "Aquaschlag",
+			it: "Idrosquarcio",
+			es: "Cuchillada Acuática",
+			pt: "Aqua Corte"
+		},
+
+		effect: {
+			en: "During your next turn, this Pokémon can't attack.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
+		},
+
+		damage: 140
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

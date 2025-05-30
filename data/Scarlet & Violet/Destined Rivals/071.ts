@@ -5,38 +5,44 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toxel",
-		fr: "Toxizap",
-		de: "Toxel",
-		it: "Toxel",
-		es: "Toxel",
-		pt: "Toxel"
+		en: "Ethan's Pichu",
+		fr: "Pichu de Luth",
+		de: "Klarins Pichu",
+		it: "Pichu di Armonio",
+		es: "Pichu de Eco",
+		pt: "Pichu do Ethan"
 	},
 
-	illustrator: "Yuu Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 70,
+	hp: 30,
 	types: ["Lightning"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			de: "Nagen",
-			it: "Rosicchiamento",
-			es: "Roer",
-			pt: "Roída"
+			en: "Zapping Draw",
+			fr: "Pioche Électrocutante",
+			de: "Kurzschlusszug",
+			it: "Pesca Fulminante",
+			es: "Robo Aturdidor",
+			pt: "Compra Eletrizante"
 		},
 
-		damage: 20
+		effect: {
+			en: "Draw a card.",
+			fr: "Piochez une carte.",
+			de: "Ziehe 1 Karte.",
+			it: "Pesca una carta.",
+			es: "Roba 1 carta.",
+			pt: "Compre uma carta."
+		},
+
+		damage: 30
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 0,
+	regulationMark: "I"
 }
 
 export default card

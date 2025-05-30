@@ -5,29 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rock Chestplate",
-		fr: "Plastron Roc",
-		de: "Steinbrustpanzer",
-		it: "Pettorale di Roccia",
-		es: "Coraza Roca",
-		pt: "Peitoral de Pedra"
+		en: "Blaziken",
+		fr: "Braségali",
+		de: "Lohgock",
+		it: "Blaziken",
+		es: "Blaziken",
+		pt: "Blaziken"
 	},
 
-	illustrator: "Toyste Beach",
-	rarity: "Uncommon",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 170,
+	types: ["Fire"],
+	stage: "Stage2",
 
-	effect: {
-		en: "The {F} Pokémon this card is attached to takes 30 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance).",
-		fr: "Le Pokémon {F} auquel cette carte est attachée subit 30 dégâts de moins provenant des attaques des Pokémon de votre adversaire (après application de la Faiblesse et de la Résistance).",
-		de: "Dem {F}-Pokémon, an das diese Karte angelegt ist, werden durch Attacken von Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
-		it: "Il Pokémon {F} a cui è assegnata questa carta subisce 30 danni in meno dagli attacchi dei Pokémon del tuo avversario, dopo aver applicato debolezza e resistenza.",
-		es: "Los ataques de los Pokémon de tu rival hacen 30 puntos de daño menos al Pokémon {F} al que esté unida esta carta (después de aplicar Debilidad y Resistencia).",
-		pt: "O Pokémon {F} ao qual esta carta está ligada recebe 30 pontos de dano a menos de ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência)."
-	},
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
 
-	trainerType: "Tool",
-	regulationMark: "G"
+		name: {
+			en: "Heat Blast",
+			fr: "Explosion de Chaleur",
+			de: "Hitzestoß",
+			it: "Caldobomba",
+			es: "Explosión de Calor",
+			pt: "Raio de Calor"
+		},
+
+		damage: 70
+	}, {
+		cost: ["Fire", "Fire", "Colorless"],
+
+		name: {
+			en: "Inferno Kick Flurry",
+			fr: "Rafale de Coups de Pied Infernale",
+			de: "Inferno-Trittschauer",
+			it: "Calcioturbine Infernale",
+			es: "Ráfaga de Patadas Infernales",
+			pt: "Enxurrada de Chutes Infernais"
+		},
+
+		effect: {
+			en: "Discard 2 Energy from this Pokémon. This attack also does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Défaussez 2 Énergies de ce Pokémon. Cette attaque inflige aussi 120 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 120 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			it: "Scarta due Energie da questo Pokémon. Questo attacco infligge anche 120 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			es: "Descarta 2 Energías de este Pokémon. Este ataque también hace 120 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			pt: "Descarte 2 Energias deste Pokémon. Este ataque também causa 120 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+		},
+
+		damage: 120
+	}],
+
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

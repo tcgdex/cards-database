@@ -5,60 +5,44 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meowscarada",
-		fr: "Miascarade",
-		de: "Maskagato",
-		it: "Meowscarada",
-		es: "Meowscarada",
-		pt: "Meowscarada"
+		en: "Team Rocket's Blipbug",
+		fr: "Larvadar de la Team Rocket",
+		de: "Team Rockets Sensect",
+		it: "Blipbug del Team Rocket",
+		es: "Blipbug del Team Rocket",
+		pt: "Blipbug da Equipe Rocket"
 	},
 
-	illustrator: "Ryota Murayama",
-	rarity: "Rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 160,
+	hp: 60,
 	types: ["Grass"],
-	stage: "Stage2",
+	stage: "Basic",
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Trick Cape",
-			fr: "Cape de Prestidigitation",
-			de: "Trickumhang",
-			it: "Manteltrucco",
-			es: "Truquicapa",
-			pt: "Capa da Travessura"
+			en: "Searching Eyes",
+			fr: "Yeux Scrutateurs",
+			de: "Suchende Augen",
+			it: "Sguardo Inquisitorio",
+			es: "Ojos Escrutadores",
+			pt: "Olhar Minucioso"
 		},
 
 		effect: {
-			en: "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
-			fr: "Vous pouvez ajouter à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
-			de: "Du kannst deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand geben.",
-			it: "Puoi prendere un'Energia assegnata al Pokémon attivo del tuo avversario e aggiungerla alle carte che ha in mano.",
-			es: "Puedes poner 1 Energía unida al Pokémon Activo de tu rival en su mano.",
-			pt: "Você pode colocar uma Energia ligada ao Pokémon Ativo do seu oponente na mão dele."
-		},
-
-		damage: 40
-	}, {
-		cost: ["Grass", "Colorless"],
-
-		name: {
-			en: "Flower Blast",
-			fr: "Explosion Florale",
-			de: "Blumenexplosion",
-			it: "Esplosione Floreale",
-			es: "Explosión Floral",
-			pt: "Flor Explosiva"
-		},
-
-		damage: 130
+			en: "Look at 1 of your opponent's face-down Prize cards.",
+			fr: "Regardez l'une des cartes Récompense de votre adversaire (actuellement face cachée).",
+			de: "Schau dir 1 der verdeckten Preiskarten deines Gegners an.",
+			it: "Guarda una delle carte Premio coperte del tuo avversario.",
+			es: "Mira 1 de las cartas de Premio de tu rival que están boca abajo.",
+			pt: "Olhe 1 das cartas de Prêmio viradas para baixo do seu oponente."
+		}
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

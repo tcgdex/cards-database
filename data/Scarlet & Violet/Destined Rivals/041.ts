@@ -5,69 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Armarouge",
-		fr: "Carmadura",
-		de: "Crimanzo",
-		it: "Armarouge",
-		es: "Armarouge",
-		pt: "Armarouge"
+		en: "Combusken",
+		fr: "Galifeu",
+		de: "Jungglut",
+		it: "Combusken",
+		es: "Combusken",
+		pt: "Combusken"
 	},
 
-	illustrator: "AKIRA EGAWA",
-	rarity: "Rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 130,
+	hp: 100,
 	types: ["Fire"],
 	stage: "Stage1",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			en: "Fire Off",
-			fr: "Feu Projeté",
-			de: "Abfeuern",
-			it: "Raffica Ignea",
-			es: "Pirodisparo",
-			pt: "Disparada de Fogo"
-		},
-
-		effect: {
-			en: "As often as you like during your turn, you may move a {R} Energy from 1 of your Benched Pokémon to your Active Pokémon.",
-			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie {R} de l'un de vos Pokémon de Banc vers votre Pokémon Actif.",
-			de: "Beliebig oft während deines Zuges kannst du 1 {R}-Energie von 1 Pokémon auf deiner Bank auf dein Aktives Pokémon verschieben.",
-			it: "Durante il tuo turno, puoi spostare un'Energia {R} da uno dei tuoi Pokémon in panchina al tuo Pokémon attivo tutte le volte che vuoi.",
-			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía {R} de uno de tus Pokémon en Banca a tu Pokémon Activo.",
-			pt: "Quantas vezes desejar durante o seu turno, você poderá mover uma Energia {R} de 1 dos seus Pokémon no Banco para o seu Pokémon Ativo."
-		}
-	}],
-
 	attacks: [{
-		cost: ["Fire", "Fire", "Colorless"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Flame Cannon",
-			fr: "Canon Flamme",
-			de: "Flammenkanone",
-			it: "Fiammacannone",
-			es: "Cañón Llama",
-			pt: "Canhão de Chamas"
+			en: "Combustion",
+			fr: "Fournaise",
+			de: "Glühen",
+			it: "Fuoco Continuo",
+			es: "Combustión",
+			pt: "Combustão"
+		},
+
+		damage: 20
+	}, {
+		cost: ["Fire", "Colorless"],
+
+		name: {
+			en: "Double Kick",
+			fr: "Double Pied",
+			de: "Doppelkick",
+			it: "Doppiocalcio",
+			es: "Doble Patada",
+			pt: "Chute Duplo"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado."
+			en: "Flip 2 coins. This attack does 40 damage for each heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			de: "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu.",
+			it: "Lancia due volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
+			es: "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+			pt: "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara."
 		},
 
-		damage: 90
+		damage: "40×"
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

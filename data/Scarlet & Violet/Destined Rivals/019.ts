@@ -5,69 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spidops ex",
-		fr: "Filentrappe-ex",
-		de: "Spinsidias-ex",
-		it: "Spidops-ex",
-		es: "Spidops ex",
-		pt: "Spidops ex"
+		en: "Team Rocket's Tarountula",
+		fr: "Tissenboule de la Team Rocket",
+		de: "Team Rockets Tarundel",
+		it: "Tarountula del Team Rocket",
+		es: "Tarountula del Team Rocket",
+		pt: "Tarountula da Equipe Rocket"
 	},
 
-	illustrator: "takuyoa",
-	rarity: "Double rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 260,
+	hp: 50,
 	types: ["Grass"],
-	stage: "Stage1",
-
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			en: "Trap Territory",
-			fr: "Territoire Piégé",
-			de: "Fallenrevier",
-			it: "Territorio Trappola",
-			es: "Territorio Trampa",
-			pt: "Armadilha Territorial"
-		},
-
-		effect: {
-			en: "Your opponent's Active Pokémon's Retreat Cost is {C} more.",
-			fr: "Le Coût de Retraite du Pokémon Actif de votre adversaire est augmenté de {C}.",
-			de: "Die Rückzugskosten des Aktiven Pokémon deines Gegners erhöhen sich um {C}.",
-			it: "Il costo di ritirata del Pokémon attivo del tuo avversario aumenta di {C}.",
-			es: "El Coste de Retirada del Pokémon Activo de tu rival es de {C} más.",
-			pt: "O custo de Recuo do Pokémon Ativo do seu oponente é {C} a mais."
-		}
-	}],
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass", "Colorless"],
+		cost: ["Grass"],
 
 		name: {
-			en: "Wire Hang",
-			fr: "Attache Filaire",
-			de: "Drahthänger",
-			it: "Filoappiglio",
-			es: "Colgar de un Hilo",
-			pt: "Por Um Fio"
+			en: "Take Down",
+			fr: "Bélier",
+			de: "Bodycheck",
+			it: "Riduttore",
+			es: "Derribo",
+			pt: "Desmantelar"
 		},
 
 		effect: {
-			en: "This attack does 30 more damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 30 danni in più per ogni {C} nel costo di ritirata del Pokémon attivo del tuo avversario.",
-			es: "Este ataque hace 30 puntos de daño más por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada {C} no custo de Recuo do Pokémon Ativo do seu oponente."
+			en: "This Pokémon also does 10 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
+			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
+			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo."
 		},
 
-		damage: "90+"
+		damage: 30
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

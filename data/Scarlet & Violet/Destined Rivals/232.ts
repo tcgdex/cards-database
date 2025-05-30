@@ -5,67 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toxicroak ex",
-		fr: "Coatox-ex",
-		de: "Toxiquak-ex",
-		it: "Toxicroak-ex",
-		es: "Toxicroak ex",
-		pt: "Toxicroak ex"
+		en: "Cynthia's Garchomp ex",
+		fr: "Carchacrok-ex de Cynthia",
+		de: "Cynthias Knakrack-ex",
+		it: "Garchomp-ex di Camilla",
+		es: "Garchomp ex de Cintia",
+		pt: "Garchomp ex da Cíntia"
 	},
 
-	illustrator: "PLANETA Hiiragi",
-	rarity: "Ultra Rare",
+	rarity: "Special illustration rare",
 	category: "Pokemon",
-	hp: 250,
-	types: ["Darkness"],
-	stage: "Stage1",
+	hp: 330,
+	types: ["Fighting"],
+	stage: "Stage2",
 
 	attacks: [{
-		cost: ["Darkness"],
+		cost: ["Fighting"],
 
 		name: {
-			en: "Nasty Plot",
-			fr: "Machination",
-			de: "Ränkeschmied",
-			it: "Congiura",
-			es: "Maquinación",
-			pt: "Trama Maldosa"
+			en: "Corkscrew Dive",
+			fr: "Plongée Tire-Bouchon",
+			de: "Spiralsturzflug",
+			it: "Picchiata Rotante",
+			es: "Picado Tirabuzón",
+			pt: "Mergulho Parafuso"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			de: "Durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck.",
-			it: "Cerca nel tuo mazzo fino a due carte e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			es: "Busca en tu baraja hasta 2 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por até 2 cartas no seu baralho e coloque-as na sua mão. Em seguida, embaralhe o seu baralho."
-		}
+			en: "You may draw cards until you have 6 cards in your hand.",
+			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
+			de: "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast.",
+			it: "Puoi pescare fino ad avere sei carte in mano.",
+			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
+			pt: "Você pode comprar cartas até ter 6 cartas na sua mão."
+		},
+
+		damage: 100
 	}, {
-		cost: ["Darkness", "Colorless", "Colorless"],
+		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Toxic Ripper",
-			fr: "Étripage Toxique",
-			de: "Giftiger Reißer",
-			it: "Squarciatossina",
-			es: "Destrucción Tóxica",
-			pt: "Rasgo Tóxico"
+			en: "Draconic Buster",
+			fr: "Buster Draconien",
+			de: "Drachensprenger",
+			it: "Distruzione del Drago",
+			es: "Destrucción Dracónica",
+			pt: "Aniquilação Dracônica"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 6 damage counters on that Pokémon instead of 1.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 6 marqueurs de dégâts sur ce Pokémon-là au lieu d'un.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege beim Pokémon-Check 6 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Metti sei segnalini danno invece di uno su quel Pokémon durante il controllo Pokémon.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el Chequeo Pokémon, pon 6 contadores de daño en vez de uno en ese Pokémon.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o Checape Pokémon, coloque 6 contadores de dano ao invés de 1 naquele Pokémon."
+			en: "Discard all Energy from this Pokémon.",
+			fr: "Défaussez toutes les Énergies de ce Pokémon.",
+			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta tutte le Energie da questo Pokémon.",
+			es: "Descarta todas las Energías de este Pokémon.",
+			pt: "Descarte todas as Energias deste Pokémon."
 		},
 
-		damage: 120
+		damage: 260
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 0,
+	regulationMark: "I"
 }
 
 export default card

@@ -5,29 +5,57 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Potion",
-		fr: "Potion",
-		de: "Trank",
-		it: "Pozione",
-		es: "Poción",
-		pt: "Poção"
+		en: "Hydrapple",
+		fr: "Pomdorochi",
+		de: "Hydrapfel",
+		it: "Hydrapple",
+		es: "Hydrapple",
+		pt: "Hydrapple"
 	},
 
-	illustrator: "Ayaka Yoshida",
-	rarity: "Common",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 170,
+	types: ["Grass"],
+	stage: "Stage2",
 
-	effect: {
-		en: "Heal 30 damage from 1 of your Pokémon.",
-		fr: "Soignez 30 dégâts de l'un de vos Pokémon.",
-		de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon.",
-		it: "Cura uno dei tuoi Pokémon da 30 danni.",
-		es: "Cura 30 puntos de daño a uno de tus Pokémon.",
-		pt: "Cure 30 pontos de dano de 1 dos seus Pokémon."
-	},
+	attacks: [{
+		cost: ["Grass"],
 
-	trainerType: "Item",
-	regulationMark: "G"
+		name: {
+			en: "Hydra Breath",
+			fr: "Soufflorochi",
+			de: "Hydrahauch",
+			it: "Idraspiro",
+			es: "Hidraliento",
+			pt: "Hálito da Hidra"
+		},
+
+		effect: {
+			en: "Discard 6 Basic {G} Energy cards from your hand, and Knock Out your opponent's Active Pokémon. If you can't discard 6 cards in this way, this attack does nothing.",
+			fr: "Défaussez 6 cartes Énergie {G} de base de votre main, puis mettez K.O. le Pokémon Actif de votre adversaire. Si vous ne pouvez pas défausser 6 cartes de cette façon, cette attaque ne fait rien.",
+			de: "Lege 6 Basis-{G}-Energiekarten aus deiner Hand auf deinen Ablagestapel und mache das Aktive Pokémon deines Gegners kampfunfähig. Wenn du auf diese Weise nicht 6 Karten auf deinen Ablagestapel legen kannst, hat diese Attacke keine Auswirkungen.",
+			it: "Scarta sei carte Energia base {G} che hai in mano e metti KO il Pokémon attivo del tuo avversario. Se non puoi scartare sei carte in questo modo, questo attacco non ha effetto.",
+			es: "Descarta 6 cartas de Energía {G} Básica de tu mano y deja Fuera de Combate al Pokémon Activo de tu rival. Si no puedes descartar 6 cartas de esta manera, este ataque no hace nada.",
+			pt: "Descarte 6 cartas de Energia {G} Básica da sua mão e Nocauteie o Pokémon Ativo do seu oponente. Se não puder descartar 6 cartas desta forma, este ataque não fará nada."
+		}
+	}, {
+		cost: ["Grass", "Colorless", "Colorless"],
+
+		name: {
+			en: "Whip Smash",
+			fr: "Frappe Fouet",
+			de: "Peitschenschlag",
+			it: "Frustata Devastante",
+			es: "Golpe Látigo",
+			pt: "Chicote Esmagador"
+		},
+
+		damage: 140
+	}],
+
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

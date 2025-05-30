@@ -5,47 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		de: "Fukano",
-		it: "Growlithe",
-		es: "Growlithe",
-		pt: "Growlithe"
+		en: "Rapidash",
+		fr: "Galopa",
+		de: "Gallopa",
+		it: "Rapidash",
+		es: "Rapidash",
+		pt: "Rapidash"
 	},
 
-	illustrator: "kawayoo",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 70,
+	hp: 110,
 	types: ["Fire"],
-	stage: "Basic",
+	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Fire"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Relentless Flames",
-			fr: "Flammes Incessantes",
-			de: "Unermüdliche Flammen",
-			it: "Fiammeperenni",
-			es: "Llamas Implacables",
-			pt: "Chamas Incansáveis"
+			en: "Hurried Gait",
+			fr: "Allure Pressée",
+			de: "Eiliger Gang",
+			it: "Andatura Frettolosa",
+			es: "Marcha Apresurada",
+			pt: "Marcha Apressada"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 30 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 30 pontos de dano para cada cara."
-		},
-
-		damage: "30×"
+			en: "Once during your turn, you may draw a card.",
+			fr: "Une fois pendant votre tour, vous pouvez piocher une carte.",
+			de: "Einmal während deines Zuges kannst du 1 Karte ziehen.",
+			it: "Una sola volta durante il tuo turno, puoi pescare una carta.",
+			es: "Una vez durante tu turno, puedes robar 1 carta.",
+			pt: "Uma vez durante o seu turno, você poderá comprar uma carta."
+		}
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Fire", "Colorless"],
+
+		name: {
+			en: "Fire Mane",
+			fr: "Crinière de Feu",
+			de: "Flammenmähne",
+			it: "Criniera di Fuoco",
+			es: "Crin de Fuego",
+			pt: "Crina de Fogo"
+		},
+
+		damage: 60
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

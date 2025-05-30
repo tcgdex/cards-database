@@ -5,38 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Smoliv",
-		fr: "Olivini",
-		de: "Olini",
-		it: "Smoliv",
-		es: "Smoliv",
-		pt: "Smoliv"
+		en: "Team Rocket's Spidops",
+		fr: "Filentrappe de la Team Rocket",
+		de: "Team Rockets Spinsidias",
+		it: "Spidops del Team Rocket",
+		es: "Spidops del Team Rocket",
+		pt: "Spidops da Equipe Rocket"
 	},
 
-	illustrator: "yuu",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
-	hp: 50,
+	hp: 130,
 	types: ["Grass"],
-	stage: "Basic",
+	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Colorless", "Colorless"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			it: "Azione",
-			es: "Placaje",
-			pt: "Investida"
+			en: "Charging Up",
+			fr: "Recharge",
+			de: "Aufladen",
+			it: "Caricamento",
+			es: "Cargando",
+			pt: "Carregando"
 		},
 
-		damage: 30
+		effect: {
+			en: "Once during your turn, you may attach a Basic Energy card from your discard pile to this Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie de base de votre pile de défausse à ce Pokémon.",
+			de: "Einmal während deines Zuges kannst du 1 Basis-Energiekarte aus deinem Ablagestapel an dieses Pokémon anlegen.",
+			it: "Una sola volta durante il tuo turno, puoi assegnare a questo Pokémon una carta Energia base dalla tua pila degli scarti.",
+			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Básica de tu pila de descartes a este Pokémon.",
+			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia Básica da sua pilha de descarte a este Pokémon."
+		}
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Grass", "Colorless"],
+
+		name: {
+			en: "Rocket Rush",
+			fr: "Ruée Rocket",
+			de: "Rocket-Ansturm",
+			it: "Raffica Rocket",
+			es: "Embestida Rocket",
+			pt: "Raiva Rocket"
+		},
+
+		effect: {
+			en: "This attack does 30 damage for each of your Team Rocket's Pokémon in play.",
+			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon de la Team Rocket en jeu.",
+			de: "Diese Attacke fügt für jedes deiner Team Rockets Pokémon im Spiel 30 Schadenspunkte zu.",
+			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon del Team Rocket in gioco.",
+			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon del Team Rocket en juego.",
+			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon da Equipe Rocket em jogo."
+		},
+
+		damage: "30×"
+	}],
+
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

@@ -5,69 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miraidon ex",
-		fr: "Miraidon-ex",
-		de: "Miraidon-ex",
-		it: "Miraidon-ex",
-		es: "Miraidon ex",
-		pt: "Miraidon ex"
+		en: "Levincia",
+		fr: "Levalendura",
+		de: "Fermanca City",
+		it: "Leudapoli",
+		es: "Ciudad Leudal",
+		pt: "Levincia"
 	},
 
-	illustrator: "kantaro",
-	rarity: "Special illustration rare",
-	category: "Pokemon",
-	hp: 220,
-	types: ["Lightning"],
-	stage: "Basic",
+	rarity: "Hyper rare",
+	category: "Trainer",
 
-	abilities: [{
-		type: "Ability",
+	effect: {
+		en: "Once during each player's turn, that player may put up to 2 Basic {L} Energy cards from their discard pile into their hand.",
+		fr: "Une fois pendant le tour de chaque joueur, ce joueur peut ajouter à sa main jusqu'à 2 cartes Énergie {L} de base de sa pile de défausse.",
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler bis zu 2 Basis-{L}-Energiekarten aus seinem Ablagestapel auf seine Hand nehmen.",
+		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può prendere fino a due carte Energia base {L} dalla propria pila degli scarti e aggiungerle alle carte che ha in mano.",
+		es: "Una vez durante el turno de cada jugador, ese jugador puede poner hasta 2 cartas de Energía {L} Básica de su pila de descartes en su mano.",
+		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá colocar até 2 cartas de Energia {L} Básica da própria pilha de descarte na própria mão."
+	},
 
-		name: {
-			en: "Tandem Unit",
-			fr: "Unité Tandem",
-			de: "Tandem-Aggregat",
-			it: "Unità Duplice",
-			es: "Unidad Tándem",
-			pt: "Unidade Tandem"
-		},
-
-		effect: {
-			en: "Once during your turn, you may search your deck for up to 2 Basic {L} Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 Pokémon {L} de base, puis les placer sur votre Banc. Mélangez ensuite votre deck.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Basis-{L}-Pokémon durchsuchen und sie auf deine Bank legen. Mische anschließend dein Deck.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due Pokémon Base {L} e metterli nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 Pokémon {L} Básicos y ponerlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por até 2 Pokémon {L} Básicos no seu baralho e colocá-los no seu Banco. Em seguida, embaralhe o seu baralho."
-		}
-	}],
-
-	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
-
-		name: {
-			en: "Photon Blaster",
-			fr: "Réacteur à Photons",
-			de: "Photonenblaster",
-			it: "Esplosione Fotonica",
-			es: "Cohete Fotónico",
-			pt: "Detonador de Fótons"
-		},
-
-		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
-		},
-
-		damage: 220
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
+	trainerType: "Stadium",
+	regulationMark: "I"
 }
 
 export default card

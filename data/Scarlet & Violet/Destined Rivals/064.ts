@@ -5,60 +5,50 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magneton",
-		fr: "Magnéton",
-		de: "Magneton",
-		it: "Magneton",
-		es: "Magneton",
-		pt: "Magneton"
+		en: "Cetoddle",
+		fr: "Piétacé",
+		de: "Flaniwal",
+		it: "Cetoddle",
+		es: "Cetoddle",
+		pt: "Cetoddle"
 	},
 
-	illustrator: "Shiburingaru",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 90,
-	types: ["Lightning"],
-	stage: "Stage1",
+	hp: 100,
+	types: ["Water"],
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Lightning"],
+		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Lightning Ball",
-			fr: "Boule Éclair",
-			de: "Kugelblitz",
-			it: "Fulminpalla",
-			es: "Bola Relámpago",
-			pt: "Bola de Raios"
+			en: "Gentle Slap",
+			fr: "Gifle Douce",
+			de: "Sanfter Hieb",
+			it: "Schiaffetto",
+			es: "Bofetada Gentil",
+			pt: "Tapinha"
 		},
 
-		damage: 20
+		damage: 30
 	}, {
-		cost: ["Lightning", "Lightning"],
+		cost: ["Water", "Water", "Water", "Colorless"],
 
 		name: {
-			en: "Explosion",
-			fr: "Explosion",
-			de: "Explosion",
-			it: "Esplosione",
-			es: "Explosión",
-			pt: "Explosão"
+			en: "Frost Smash",
+			fr: "Impact Glacial",
+			de: "Frostschlag",
+			it: "Gelocolpo",
+			es: "Golpe Gélido",
+			pt: "Pancada Congelada"
 		},
 
-		effect: {
-			en: "This Pokémon also does 90 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 90 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 90 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 90 danni a se stesso.",
-			es: "Este Pokémon también se hace 90 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 90 pontos de dano a si mesmo."
-		},
-
-		damage: 90
+		damage: 80
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

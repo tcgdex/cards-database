@@ -5,47 +5,50 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Capsakid",
-		fr: "Pimito",
-		de: "Chilingel",
-		it: "Capsakid",
-		es: "Capsakid",
-		pt: "Capsakid"
+		en: "Growlithe",
+		fr: "Caninos",
+		de: "Fukano",
+		it: "Growlithe",
+		es: "Growlithe",
+		pt: "Growlithe"
 	},
 
-	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 60,
-	types: ["Grass"],
+	hp: 80,
+	types: ["Fire"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Fire"],
 
 		name: {
-			en: "Slightly Spicy",
-			fr: "Légèrement Pimenté",
-			de: "Leicht gewürzt",
-			it: "Piccantino",
-			es: "Picantito",
-			pt: "Levemente Apimentado"
-		},
-
-		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene bruciato.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Quemado.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Queimado."
+			en: "Live Coal",
+			fr: "Charbon Mutant",
+			de: "Glühende Kohlen",
+			it: "Carboni Ardenti",
+			es: "Carbón Activado",
+			pt: "Carvão Vivo"
 		},
 
 		damage: 10
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			en: "Dig Claws",
+			fr: "Creusogriffes",
+			de: "Schaufelkrallen",
+			it: "Scavazanne",
+			es: "Hundir Garras",
+			pt: "Fincar Garras"
+		},
+
+		damage: 20
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

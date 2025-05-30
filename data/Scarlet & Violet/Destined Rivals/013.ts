@@ -5,51 +5,37 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sprigatito",
-		fr: "Poussacha",
-		de: "Felori",
-		it: "Sprigatito",
-		es: "Sprigatito",
-		pt: "Sprigatito"
+		en: "Fomantis",
+		fr: "Mimantis",
+		de: "Imantis",
+		it: "Fomantis",
+		es: "Fomantis",
+		pt: "Fomantis"
 	},
 
-	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 70,
+	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Grass"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			de: "Kratzer",
-			it: "Graffio",
-			es: "Arañazo",
-			pt: "Arranhão"
-		},
-
-		damage: 10
-	}, {
-		cost: ["Grass", "Colorless"],
-
-		name: {
-			en: "Leafage",
-			fr: "Feuillage",
-			de: "Blattwerk",
-			it: "Fogliame",
-			es: "Follaje",
-			pt: "Folhagem"
+			en: "Cut Up",
+			fr: "Découpage",
+			de: "Zerhäckseln",
+			it: "Tagliuzzamento",
+			es: "Trocear",
+			pt: "Dilacerar"
 		},
 
 		damage: 20
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

@@ -5,60 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cacturne",
-		fr: "Cacturne",
-		de: "Noktuska",
-		it: "Cacturne",
-		es: "Cacturne",
-		pt: "Cacturne"
+		en: "Breloom",
+		fr: "Chapignon",
+		de: "Kapilz",
+		it: "Breloom",
+		es: "Breloom",
+		pt: "Breloom"
 	},
 
-	illustrator: "DOM",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 130,
+	hp: 120,
 	types: ["Grass"],
 	stage: "Stage1",
 
-	abilities: [{
-		type: "Ability",
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Counterattack Quills",
-			fr: "Contre-Piquants",
-			de: "Konterstacheln",
-			it: "Contrappunto",
-			es: "Contraataque Púas",
-			pt: "Penas de Contra-ataque"
+			en: "Damage Rush",
+			fr: "Charge Destructrice",
+			de: "Schadensrausch",
+			it: "Sfuriadanni",
+			es: "Embestida Dañina",
+			pt: "Fúria Destruidora"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.",
-			fr: "Si ce Pokémon est sur le Poste Actif et qu'il subit les dégâts d'une attaque d'un Pokémon de votre adversaire (même si ce Pokémon est mis K.O.), placez 3 marqueurs de dégâts sur le Pokémon Attaquant.",
-			de: "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon.",
-			it: "Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, metti tre segnalini danno sul Pokémon attaccante.",
-			es: "Si este Pokémon está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante.",
-			pt: "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque 3 contadores de dano no Pokémon Atacante."
-		}
-	}],
-
-	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
-
-		name: {
-			en: "Spike Shot",
-			fr: "Tir d'Épines",
-			de: "Dornensalve",
-			it: "Sparaculeo",
-			es: "Disparo Púas",
-			pt: "Disparo de Espinhos"
+			en: "Flip a coin until you get tails. This attack does 50 more damage for each heads.",
+			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 50 dégâts supplémentaires pour chaque côté face.",
+			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 50 Schadenspunkte mehr pro Kopf zu.",
+			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 50 danni in più ogni volta che esce testa.",
+			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 50 puntos de daño más por cada cara.",
+			pt: "Jogue uma moeda até sair coroa. Este ataque causa 50 pontos de dano a mais para cada cara."
 		},
 
-		damage: 110
+		damage: "30+"
+	}, {
+		cost: ["Grass", "Colorless", "Colorless"],
+
+		name: {
+			en: "Mega Drain",
+			fr: "Méga-Sangsue",
+			de: "Megasauger",
+			it: "Megassorbimento",
+			es: "Megaagotar",
+			pt: "Megadreno"
+		},
+
+		effect: {
+			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
+			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			it: "Cura questo Pokémon da 30 danni.",
+			es: "Cura 30 puntos de daño a este Pokémon.",
+			pt: "Cure 30 pontos de dano deste Pokémon."
+		},
+
+		damage: 90
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

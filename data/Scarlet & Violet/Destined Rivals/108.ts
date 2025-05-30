@@ -5,47 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		de: "Rasaff",
-		it: "Primeape",
-		es: "Primeape",
-		pt: "Primeape"
+		en: "Mudsdale",
+		fr: "Bourrinos",
+		de: "Pampross",
+		it: "Mudsdale",
+		es: "Mudsdale",
+		pt: "Mudsdale"
 	},
 
-	illustrator: "Ryuta Fuse",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 90,
+	hp: 150,
 	types: ["Fighting"],
 	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Fighting"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Raging Punch",
-			fr: "Coup de Poing Furieux",
-			de: "Wuthaken",
-			it: "Furiapugno",
-			es: "Puño Furioso",
-			pt: "Soco Feroz"
+			en: "Mud Coat",
+			fr: "Toison Boueuse",
+			de: "Schlammschicht",
+			it: "Manto Fangoso",
+			es: "Pelaje Lodo",
+			pt: "Camada de Lama"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo."
-		},
-
-		damage: 70
+			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+		}
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Fighting", "Fighting", "Colorless"],
+
+		name: {
+			en: "Heavy Impact",
+			fr: "Gros Impact",
+			de: "Schwerer Einschlag",
+			it: "Impatto Pesante",
+			es: "Impacto Pesado",
+			pt: "Impacto Pesado"
+		},
+
+		damage: 130
+	}],
+
+	retreat: 3,
+	regulationMark: "I"
 }
 
 export default card

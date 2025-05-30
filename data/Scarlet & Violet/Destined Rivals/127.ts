@@ -5,69 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Muk",
-		fr: "Grotadmorv",
-		de: "Sleimok",
-		it: "Muk",
-		es: "Muk",
-		pt: "Muk"
+		en: "Team Rocket's Murkrow",
+		fr: "Cornèbre de la Team Rocket",
+		de: "Team Rockets Kramurx",
+		it: "Murkrow del Team Rocket",
+		es: "Murkrow del Team Rocket",
+		pt: "Murkrow da Equipe Rocket"
 	},
 
-	illustrator: "Haru Akasaka",
 	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 140,
+	hp: 80,
 	types: ["Darkness"],
-	stage: "Stage1",
-
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			en: "Poison Sacs",
-			fr: "Sacs de Poison",
-			de: "Gifttaschen",
-			it: "Sacche Velenose",
-			es: "Sacos de Veneno",
-			pt: "Bolsas de Veneno"
-		},
-
-		effect: {
-			en: "Your opponent's Poisoned Pokémon don't recover from that Special Condition when they evolve or devolve.",
-			fr: "Les Pokémon Empoisonnés de votre adversaire ne guérissent pas de cet État Spécial lorsqu'ils évoluent ou dés-évoluent.",
-			de: "Die vergifteten Pokémon deines Gegners erholen sich nicht von jenem Speziellen Zustand, wenn sie sich entwickeln oder rückentwickeln.",
-			it: "I Pokémon avvelenati del tuo avversario non guariscono da quella condizione speciale quando si evolvono o se ne annulla l'evoluzione.",
-			es: "Los Pokémon Envenenados de tu rival no se recuperan de esa Condición Especial cuando evolucionan o involucionan.",
-			pt: "Os Pokémon Envenenados do seu oponente não se recuperarão daquela Condição Especial quando eles evoluírem ou suas evoluções forem revertidas."
-		}
-	}],
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Toxic Strike",
-			fr: "Frappe Toxique",
-			de: "Giftschlag",
-			it: "Attacco Tossico",
-			es: "Golpe Tóxico",
-			pt: "Golpe Tóxico"
+			en: "Deceit",
+			fr: "Tromperie",
+			de: "Tücke",
+			it: "Sotterfugio",
+			es: "Engaño",
+			pt: "Traição"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado."
+			en: "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck une carte Supporter, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+			de: "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo una carta Aiuto, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			es: "Busca en tu baraja 1 carta de Partidario, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por uma carta de Apoiador no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho."
+		}
+	}, {
+		cost: ["Darkness", "Colorless"],
+
+		name: {
+			en: "Torment",
+			fr: "Tourmente",
+			de: "Folterknecht",
+			it: "Attaccalite",
+			es: "Tormento",
+			pt: "Atormentar"
 		},
 
-		damage: 100
+		effect: {
+			en: "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.",
+			fr: "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas utiliser cette attaque.",
+			de: "Wähle 1 Attacke des Aktiven Pokémon deines Gegners. Während des nächsten Zuges deines Gegners kann jenes Pokémon jene Attacke nicht einsetzen.",
+			it: "Scegli un attacco del Pokémon attivo del tuo avversario. Durante il prossimo turno del tuo avversario, quel Pokémon non potrà utilizzarlo.",
+			es: "Elige uno de los ataques del Pokémon Activo de tu rival. Durante el próximo turno de tu rival, dicho Pokémon no puede usar ese ataque.",
+			pt: "Escolha 1 dos ataques do Pokémon Ativo do seu oponente. Durante o próximo turno do seu oponente, aquele Pokémon não poderá usar aquele ataque."
+		},
+
+		damage: 30
 	}],
 
-	retreat: 4,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

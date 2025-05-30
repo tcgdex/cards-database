@@ -5,69 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miraidon ex",
-		fr: "Miraidon-ex",
-		de: "Miraidon-ex",
-		it: "Miraidon-ex",
-		es: "Miraidon ex",
-		pt: "Miraidon ex"
+		en: "Team Rocket's Proton",
+		fr: "Lance de la Team Rocket",
+		de: "Team Rockets Lance",
+		it: "Milas del Team Rocket",
+		es: "Protón del Team Rocket",
+		pt: "Próton da Equipe Rocket"
 	},
 
-	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
-	category: "Pokemon",
-	hp: 220,
-	types: ["Lightning"],
-	stage: "Basic",
+	category: "Trainer",
 
-	abilities: [{
-		type: "Ability",
+	effect: {
+		en: "If you go first, you may use this card during your first turn.\n\nSearch your deck for up to 3 Basic Team Rocket's Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+		fr: "Si vous jouez en premier, vous pouvez utiliser cette carte pendant votre premier tour.\n\nCherchez dans votre deck jusqu'à 3 Pokémon de la Team Rocket de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		de: "Wenn du als Erster am Zug bist, kannst du diese Karte während deines ersten Zuges einsetzen.\n\nDurchsuche dein Deck nach bis zu 3 Basis-Team-Rockets-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+		it: "Se inizi per primo, puoi usare questa carta durante il tuo primo turno.\n\nCerca nel tuo mazzo fino a tre Pokémon del Team Rocket Base, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+		es: "Si sales en primer lugar, puedes usar esta carta durante tu primer turno.\n\nBusca en tu baraja hasta 3 Pokémon del Team Rocket Básicos, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+		pt: "Se você for o primeiro a jogar, poderá usar esta carta durante o seu primeiro turno.\n\nProcure por até 3 Pokémon da Equipe Rocket Básicos no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho."
+	},
 
-		name: {
-			en: "Tandem Unit",
-			fr: "Unité Tandem",
-			de: "Tandem-Aggregat",
-			it: "Unità Duplice",
-			es: "Unidad Tándem",
-			pt: "Unidade Tandem"
-		},
-
-		effect: {
-			en: "Once during your turn, you may search your deck for up to 2 Basic {L} Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 Pokémon {L} de base, puis les placer sur votre Banc. Mélangez ensuite votre deck.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Basis-{L}-Pokémon durchsuchen und sie auf deine Bank legen. Mische anschließend dein Deck.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due Pokémon Base {L} e metterli nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 Pokémon {L} Básicos y ponerlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por até 2 Pokémon {L} Básicos no seu baralho e colocá-los no seu Banco. Em seguida, embaralhe o seu baralho."
-		}
-	}],
-
-	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
-
-		name: {
-			en: "Photon Blaster",
-			fr: "Réacteur à Photons",
-			de: "Photonenblaster",
-			it: "Esplosione Fotonica",
-			es: "Cohete Fotónico",
-			pt: "Detonador de Fótons"
-		},
-
-		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
-		},
-
-		damage: 220
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
+	trainerType: "Supporter",
+	regulationMark: "I"
 }
 
 export default card

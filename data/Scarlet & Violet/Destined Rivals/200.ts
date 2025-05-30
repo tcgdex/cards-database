@@ -5,60 +5,66 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dolliv",
-		fr: "Olivado",
-		de: "Olivinio",
-		it: "Dolliv",
-		es: "Dolliv",
-		pt: "Dolliv"
+		en: "Team Rocket's Murkrow",
+		fr: "Cornèbre de la Team Rocket",
+		de: "Team Rockets Kramurx",
+		it: "Murkrow del Team Rocket",
+		es: "Murkrow del Team Rocket",
+		pt: "Murkrow da Equipe Rocket"
 	},
 
-	illustrator: "Oswaldo KATO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
-	hp: 90,
-	types: ["Grass"],
-	stage: "Stage1",
+	hp: 80,
+	types: ["Darkness"],
+	stage: "Basic",
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Slap",
-			fr: "Gifle",
-			de: "Hieb",
-			it: "Sberla",
-			es: "Bofetón",
-			pt: "Tapa"
-		},
-
-		damage: 20
-	}, {
-		cost: ["Grass", "Colorless"],
-
-		name: {
-			en: "Apply Oil",
-			fr: "Application Huileuse",
-			de: "Einölen",
-			it: "Applicolio",
-			es: "Aplicar Aceite",
-			pt: "Colocar Azeite"
+			en: "Deceit",
+			fr: "Tromperie",
+			de: "Tücke",
+			it: "Sotterfugio",
+			es: "Engaño",
+			pt: "Traição"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn't happen.",
-			fr: "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d'attaquer, votre adversaire lance une pièce. Si c'est pile, l'attaque n'est pas lancée.",
-			de: "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht anzugreifen, wirft dein Gegner 1 Münze. Bei Zahl wird jene Attacke nicht ausgeführt.",
-			it: "Durante il prossimo turno del tuo avversario, se il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha luogo.",
-			es: "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta atacar, tu rival lanza 1 moneda. Si sale cruz, ese ataque no se lleva a cabo.",
-			pt: "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar atacar, seu oponente jogará uma moeda. Se sair coroa, aquele ataque não acontecerá."
+			en: "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck une carte Supporter, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+			de: "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo una carta Aiuto, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			es: "Busca en tu baraja 1 carta de Partidario, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por uma carta de Apoiador no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho."
+		}
+	}, {
+		cost: ["Darkness", "Colorless"],
+
+		name: {
+			en: "Torment",
+			fr: "Tourmente",
+			de: "Folterknecht",
+			it: "Attaccalite",
+			es: "Tormento",
+			pt: "Atormentar"
 		},
 
-		damage: 40
+		effect: {
+			en: "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.",
+			fr: "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas utiliser cette attaque.",
+			de: "Wähle 1 Attacke des Aktiven Pokémon deines Gegners. Während des nächsten Zuges deines Gegners kann jenes Pokémon jene Attacke nicht einsetzen.",
+			it: "Scegli un attacco del Pokémon attivo del tuo avversario. Durante il prossimo turno del tuo avversario, quel Pokémon non potrà utilizzarlo.",
+			es: "Elige uno de los ataques del Pokémon Activo de tu rival. Durante el próximo turno de tu rival, dicho Pokémon no puede usar ese ataque.",
+			pt: "Escolha 1 dos ataques do Pokémon Ativo do seu oponente. Durante o próximo turno do seu oponente, aquele Pokémon não poderá usar aquele ataque."
+		},
+
+		damage: 30
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

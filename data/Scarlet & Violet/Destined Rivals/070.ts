@@ -5,67 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rotom",
-		fr: "Motisma",
-		de: "Rotom",
-		it: "Rotom",
-		es: "Rotom",
-		pt: "Rotom"
+		en: "Team Rocket's Zapdos",
+		fr: "Électhor de la Team Rocket",
+		de: "Team Rockets Zapdos",
+		it: "Zapdos del Team Rocket",
+		es: "Zapdos del Team Rocket",
+		pt: "Zapdos da Equipe Rocket"
 	},
 
-	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
-	hp: 80,
+	hp: 120,
 	types: ["Lightning"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Junk Hunt",
-			fr: "Marché aux Puces",
-			de: "Müllsammler",
-			it: "Spulciascarti",
-			es: "Buscachatarra",
-			pt: "Caçada no Lixo"
+			en: "Jamming Wing",
+			fr: "Aile Encombrante",
+			de: "Störflügel",
+			it: "Ala di Interferenza",
+			es: "Ala Fastidiosa",
+			pt: "Asa Bloqueadora"
 		},
 
 		effect: {
-			en: "Put an Item card from your discard pile into your hand.",
-			fr: "Ajoutez une carte Objet de votre pile de défausse à votre main.",
-			de: "Nimm 1 Itemkarte aus deinem Ablagestapel auf deine Hand.",
-			it: "Prendi una carta Strumento dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
-			es: "Pon 1 carta de Objeto de tu pila de descartes en tu mano.",
-			pt: "Coloque uma carta de Item da sua pilha de descarte na sua mão."
-		}
+			en: "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+			fr: "Vous pouvez déplacer une Énergie du Pokémon Actif de votre adversaire vers l'un de ses Pokémon de Banc.",
+			de: "Du kannst 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank verschieben.",
+			it: "Puoi spostare un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
+			es: "Puedes mover 1 Energía del Pokémon Activo de tu rival a uno de sus Pokémon en Banca.",
+			pt: "Você pode mover uma Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele."
+		},
+
+		damage: 30
 	}, {
-		cost: ["Lightning"],
+		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Thunder Shock",
-			fr: "Éclair",
-			de: "Donnerschock",
-			it: "Tuonoshock",
-			es: "Impactrueno",
-			pt: "Trovoada de Choques"
+			en: "Wicked Thunder",
+			fr: "Tonnerre Malveillant",
+			de: "Arglistiger Donner",
+			it: "Tuono Malvagio",
+			es: "Trueno Malvado",
+			pt: "Trovão Traiçoeiro"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
+			en: "If this Pokémon has any Team Rocket's Energy attached, this attack does 60 more damage.",
+			fr: "Si au moins une Énergie de la Team Rocket est attachée à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires.",
+			de: "Wenn an dieses Pokémon mindestens 1 Team Rockets Energie angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+			it: "Se questo Pokémon ha delle Energie del Team Rocket assegnate, questo attacco infligge 60 danni in più.",
+			es: "Si este Pokémon tiene alguna Energía del Team Rocket unida, este ataque hace 60 puntos de daño más.",
+			pt: "Se este Pokémon tiver alguma Energia da Equipe Rocket ligada a ele, este ataque causará 60 pontos de dano a mais."
 		},
 
-		damage: 20
+		damage: "60+"
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

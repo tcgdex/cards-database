@@ -5,58 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drowzee",
-		fr: "Soporifik",
-		de: "Traumato",
-		it: "Drowzee",
-		es: "Drowzee",
-		pt: "Drowzee"
+		en: "Cetitan ex",
+		fr: "Balbalèze-ex",
+		de: "Kolowal-ex",
+		it: "Cetitan-ex",
+		es: "Cetitan ex",
+		pt: "Cetitan ex"
 	},
 
-	illustrator: "Tomokazu Komiya",
-	rarity: "Illustration rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Psychic"],
-	stage: "Basic",
+	hp: 300,
+	types: ["Water"],
+	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Psychic"],
+	abilities: [{
+		type: "Ability",
 
 		name: {
-			en: "Forced Sleep",
-			fr: "Sommeil Forcé",
-			de: "Ungewollter Schlummer",
-			it: "Sonno Forzato",
-			es: "Sueño Obligado",
-			pt: "Dormir à Força"
+			en: "Snow Camouflage",
+			fr: "Camouflage Neige",
+			de: "Schneetarnung",
+			it: "Camuffaneve",
+			es: "Camuflaje de Nieve",
+			pt: "Camuflagem de Neve"
 		},
 
 		effect: {
-			en: "Your opponent chooses 1 of their Benched Pokémon and switches it with their Active Pokémon. The new Active Pokémon is now Asleep.",
-			fr: "Votre adversaire choisit l'un de ses Pokémon de Banc et l'échange contre son Pokémon Actif. Le nouveau Pokémon Actif est maintenant Endormi.",
-			de: "Dein Gegner wählt 1 Pokémon auf seiner Bank und tauscht es gegen sein Aktives Pokémon aus. Das neue Aktive Pokémon schläft jetzt.",
-			it: "Il tuo avversario sceglie uno dei suoi Pokémon in panchina e lo scambia con il suo Pokémon attivo. Il nuovo Pokémon attivo viene addormentato.",
-			es: "Tu rival elige 1 de sus Pokémon en Banca y lo cambia por su Pokémon Activo. El nuevo Pokémon Activo pasa a estar Dormido.",
-			pt: "Seu oponente escolhe 1 dos Pokémon no Banco dele e troca-o pelo Pokémon Ativo dele. O novo Pokémon Ativo agora está Adormecido."
+			en: "Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon.",
+			fr: "Chaque fois que votre adversaire joue une carte Objet ou Supporter de sa main, évitez tous les effets de cette carte sur ce Pokémon.",
+			de: "Verhindere jedes Mal, wenn dein Gegner 1 Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die diesem Pokémon zugefügt werden.",
+			it: "Ogni volta che il tuo avversario gioca una carta Strumento o Aiuto che ha in mano, previeni tutti gli effetti di quella carta su questo Pokémon.",
+			es: "Cada vez que tu rival juegue una carta de Objeto o de Partidario de su mano, se evitan todos los efectos de esa carta infligidos a este Pokémon.",
+			pt: "Sempre que seu oponente jogar uma carta de Item ou de Apoiador da mão dele, previna todos os efeitos daquela carta causados a este Pokémon."
 		}
-	}, {
-		cost: ["Psychic", "Colorless", "Colorless"],
-
-		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			de: "Sanfter Hieb",
-			it: "Schiaffetto",
-			es: "Bofetada Gentil",
-			pt: "Tapinha"
-		},
-
-		damage: 30
 	}],
 
-	retreat: 1,
-	regulationMark: "G"
+	attacks: [{
+		cost: ["Water", "Water", "Water", "Colorless"],
+
+		name: {
+			en: "Crushing Press",
+			fr: "Pression Écrasante",
+			de: "Quetschende Presse",
+			it: "Pressa Dirompente",
+			es: "Presión Demoledora",
+			pt: "Compressão Esmagadora"
+		},
+
+		effect: {
+			en: "You may discard a Stadium in play. If you do, this attack does 140 more damage.",
+			fr: "Vous pouvez défausser un Stade en jeu. Dans ce cas, cette attaque inflige 140 dégâts supplémentaires.",
+			de: "Du kannst 1 Stadionkarte im Spiel auf den Ablagestapel legen. Wenn du das machst, fügt diese Attacke 140 Schadenspunkte mehr zu.",
+			it: "Puoi scartare una carta Stadio in gioco. Se lo fai, questo attacco infligge 140 danni in più.",
+			es: "Puedes descartar 1 Estadio en juego. Si lo haces, este ataque hace 140 puntos de daño más.",
+			pt: "Você pode descartar um Estádio em jogo. Se fizer isto, este ataque causará 140 pontos de dano a mais."
+		},
+
+		damage: "140+"
+	}],
+
+	retreat: 4,
+	regulationMark: "I"
 }
 
 export default card

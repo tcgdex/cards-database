@@ -5,29 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nemona",
-		fr: "Menzi",
-		de: "Nemila",
-		it: "Nemi",
-		es: "Mencía",
-		pt: "Noêmia"
+		en: "Team Rocket's Watchtower",
+		fr: "Tour d'Observation de la Team Rocket",
+		de: "Team Rockets Wachturm",
+		it: "Torre di Guardia del Team Rocket",
+		es: "Torre de Defensa del Team Rocket",
+		pt: "Torre de Vigia da Equipe Rocket"
 	},
 
-	illustrator: "Sanosuke Sakuma",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Draw 3 cards.",
-		fr: "Piochez 3 cartes.",
-		de: "Ziehe 3 Karten.",
-		it: "Pesca tre carte.",
-		es: "Roba 3 cartas.",
-		pt: "Compre 3 cartas."
+		en: "{C} Pokémon in play (both yours and your opponent's) have no Abilities.",
+		fr: "Les Pokémon {C} en jeu (les vôtres et ceux de votre adversaire) n'ont pas de talent.",
+		de: "{C}-Pokémon im Spiel (deine und die deines Gegners) haben keine Fähigkeiten.",
+		it: "I Pokémon {C} in gioco, sia tuoi che del tuo avversario, non hanno abilità.",
+		es: "Los Pokémon {C} en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
+		pt: "Pokémon {C} em jogo (seus e do seu oponente) não têm Habilidades."
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "G"
+	trainerType: "Stadium",
+	regulationMark: "I"
 }
 
 export default card

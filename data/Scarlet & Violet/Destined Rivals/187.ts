@@ -5,29 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pokémon Catcher",
-		fr: "Attrape-Pokémon",
-		de: "Pokémon-Fänger",
-		it: "Acchiappa-Pokémon",
-		es: "Capturapokémon",
-		pt: "Pegador de Pokémon"
+		en: "Team Rocket's Spidops",
+		fr: "Filentrappe de la Team Rocket",
+		de: "Team Rockets Spinsidias",
+		it: "Spidops del Team Rocket",
+		es: "Spidops del Team Rocket",
+		pt: "Spidops da Equipe Rocket"
 	},
 
-	illustrator: "Studio Bora Inc.",
-	rarity: "Common",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Grass"],
+	stage: "Stage1",
 
-	effect: {
-		en: "Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
-		fr: "Lancez une pièce. Si c'est face, envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
-		de: "Wirf 1 Münze. Wechsle bei Kopf 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
-		it: "Lancia una moneta. Se esce testa, sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
-		es: "Lanza 1 moneda. Si sale cara, cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
-		pt: "Jogue uma moeda. Se sair cara, mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
-	},
+	abilities: [{
+		type: "Ability",
 
-	trainerType: "Item",
-	regulationMark: "G"
+		name: {
+			en: "Charging Up",
+			fr: "Recharge",
+			de: "Aufladen",
+			it: "Caricamento",
+			es: "Cargando",
+			pt: "Carregando"
+		},
+
+		effect: {
+			en: "Once during your turn, you may attach a Basic Energy card from your discard pile to this Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie de base de votre pile de défausse à ce Pokémon.",
+			de: "Einmal während deines Zuges kannst du 1 Basis-Energiekarte aus deinem Ablagestapel an dieses Pokémon anlegen.",
+			it: "Una sola volta durante il tuo turno, puoi assegnare a questo Pokémon una carta Energia base dalla tua pila degli scarti.",
+			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Básica de tu pila de descartes a este Pokémon.",
+			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia Básica da sua pilha de descarte a este Pokémon."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Grass", "Colorless"],
+
+		name: {
+			en: "Rocket Rush",
+			fr: "Ruée Rocket",
+			de: "Rocket-Ansturm",
+			it: "Raffica Rocket",
+			es: "Embestida Rocket",
+			pt: "Raiva Rocket"
+		},
+
+		effect: {
+			en: "This attack does 30 damage for each of your Team Rocket's Pokémon in play.",
+			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon de la Team Rocket en jeu.",
+			de: "Diese Attacke fügt für jedes deiner Team Rockets Pokémon im Spiel 30 Schadenspunkte zu.",
+			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon del Team Rocket in gioco.",
+			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon del Team Rocket en juego.",
+			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon da Equipe Rocket em jogo."
+		},
+
+		damage: "30×"
+	}],
+
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

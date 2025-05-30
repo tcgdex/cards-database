@@ -5,51 +5,37 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Maschiff",
-		fr: "Grondogue",
-		de: "Mobtiff",
-		it: "Maschiff",
-		es: "Maschiff",
-		pt: "Maschiff"
+		en: "Marnie's Morgrem",
+		fr: "Fourbelin de Rosemary",
+		de: "Marys Pelzebub",
+		it: "Morgrem di Mary",
+		es: "Morgrem de Roxy",
+		pt: "Morgrem da Marine"
 	},
 
-	illustrator: "kantaro",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 70,
+	hp: 100,
 	types: ["Darkness"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Darkness"],
+		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			de: "Rückwärtskick",
-			it: "Retrocalcio",
-			es: "Patada Trasera",
-			pt: "Chute Traseiro"
+			en: "Corkscrew Punch",
+			fr: "Poing Tire-Bouchon",
+			de: "Korkenzieherhieb",
+			it: "Pugno Rotante",
+			es: "Puño Tirabuzón",
+			pt: "Soco Saca-rolha"
 		},
 
-		damage: 10
-	}, {
-		cost: ["Darkness", "Colorless"],
-
-		name: {
-			en: "Darkness Fang",
-			fr: "Croc Obscur",
-			de: "Fänge der Dunkelheit",
-			it: "Oscurizanna",
-			es: "Colmillo de Oscuridad",
-			pt: "Presa Sombria"
-		},
-
-		damage: 20
+		damage: 60
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

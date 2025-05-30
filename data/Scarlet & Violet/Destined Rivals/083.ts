@@ -5,43 +5,42 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hypno",
-		fr: "Hypnomade",
-		de: "Hypno",
-		it: "Hypno",
-		es: "Hypno",
-		pt: "Hypno"
+		en: "Steven's Baltoy",
+		fr: "Balbuto de Pierre",
+		de: "Troys Puppance",
+		it: "Baltoy di Rocco",
+		es: "Baltoy de Máximo",
+		pt: "Baltoy do Steven"
 	},
 
-	illustrator: "Toshinao Aoki",
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 110,
+	hp: 60,
 	types: ["Psychic"],
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Pendulum Influence",
-			fr: "Influence Pendulaire",
-			de: "Pendeleinfluss",
-			it: "Influenzapendolo",
-			es: "Influencia Pendular",
-			pt: "Influência Pendular"
+			en: "Summoning Sign",
+			fr: "Signe Invocatoire",
+			de: "Beschwörendes Zeichen",
+			it: "Segno Evocativo",
+			es: "Señal de Invocación",
+			pt: "Sinal Invocador"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, choose an attack from 1 of your opponent's Pokémon in play and use it as this attack.",
-			fr: "Lancez une pièce. Si c'est face, choisissez une attaque de l'un des Pokémon en jeu de votre adversaire, et utilisez-la en tant que cette attaque.",
-			de: "Wirf 1 Münze. Wähle bei Kopf 1 Attacke von 1 Pokémon deines Gegners im Spiel und setze sie als diese Attacke ein.",
-			it: "Lancia una moneta. Se esce testa, scegli un attacco di uno dei Pokémon in gioco del tuo avversario e usalo al posto di questo attacco.",
-			es: "Lanza 1 moneda. Si sale cara, elige un ataque de uno de los Pokémon en juego de tu rival y úsalo para este ataque.",
-			pt: "Jogue uma moeda. Se sair cara, escolha um ataque de 1 dos Pokémon do seu oponente em jogo e use-o como este ataque."
+			en: "Search your deck for up to 2 Basic Steven's Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de Pierre de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			de: "Durchsuche dein Deck nach bis zu 2 Basis-Troys-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo fino a due Pokémon di Rocco Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			es: "Busca en tu baraja hasta 2 Pokémon de Máximo Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por até 2 Pokémon do Steven Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho."
 		}
 	}, {
-		cost: ["Psychic", "Colorless", "Colorless"],
+		cost: ["Psychic"],
 
 		name: {
 			en: "Psychic Sphere",
@@ -52,11 +51,11 @@ const card: Card = {
 			pt: "Esfera Psíquica"
 		},
 
-		damage: 100
+		damage: 20
 	}],
 
-	retreat: 2,
-	regulationMark: "G"
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card

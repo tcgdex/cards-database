@@ -5,15 +5,14 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spiritomb",
-		fr: "Spiritomb",
-		de: "Kryppuk",
-		it: "Spiritomb",
-		es: "Spiritomb",
-		pt: "Spiritomb"
+		en: "Cynthia's Spiritomb",
+		fr: "Spiritomb de Cynthia",
+		de: "Cynthias Kryppuk",
+		it: "Spiritomb di Camilla",
+		es: "Spiritomb de Cintia",
+		pt: "Spiritomb da Cíntia"
 	},
 
-	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,
@@ -21,49 +20,31 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Darkness"],
+		cost: ["Colorless"],
 
 		name: {
-			en: "Taunt",
-			fr: "Provoc",
-			de: "Verhöhner",
-			it: "Provocazione",
-			es: "Mofa",
-			pt: "Insulto"
+			en: "Raging Curse",
+			fr: "Malédiction Furieuse",
+			de: "Wütender Fluch",
+			it: "Maledizione Furiosa",
+			es: "Maldición Furiosa",
+			pt: "Maldição Devastadora"
 		},
 
 		effect: {
-			en: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
-			fr: "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
-			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
-			it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
-			es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
-			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
-		}
-	}, {
-		cost: ["Darkness", "Darkness"],
-
-		name: {
-			en: "Doom Decree",
-			fr: "Verdict Fatal",
-			de: "Urteil",
-			it: "Sentenza",
-			es: "Trágico Veredicto",
-			pt: "Sentença do Destino"
+			en: "This attack does 10 damage for each damage counter on all of your Benched Cynthia's Pokémon. This attack's damage isn't affected by Weakness.",
+			fr: "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts sur tous vos Pokémon de Cynthia de Banc. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse.",
+			de: "Diese Attacke fügt für jede Schadensmarke auf allen Cynthias Pokémon auf deiner Bank 10 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche nicht verändert.",
+			it: "Questo attacco infligge 10 danni per ogni segnalino danno presente sui tuoi Pokémon di Camilla in panchina. I danni di questo attacco non sono influenzati dalla debolezza.",
+			es: "Este ataque hace 10 puntos de daño por cada contador de daño en cada uno de tus Pokémon de Cintia en Banca. El daño de este ataque no se ve afectado por Debilidad.",
+			pt: "Este ataque causa 10 pontos de dano para cada contador de dano em todos os seus Pokémon da Cíntia no Banco. O dano deste ataque não é afetado por Fraqueza."
 		},
 
-		effect: {
-			en: "Flip 2 coins. If both of them are heads, your opponent's Active Pokémon is Knocked Out.",
-			fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, le Pokémon Actif de votre adversaire est mis K.O.",
-			de: "Wirf 2 Münzen. Zeigen beide Münzen Kopf, ist das Aktive Pokémon deines Gegners kampfunfähig.",
-			it: "Lancia due volte una moneta. Se esce entrambe le volte testa, il Pokémon attivo del tuo avversario viene messo KO.",
-			es: "Lanza 2 monedas. Si sale cara en ambas, el Pokémon Activo de tu rival queda Fuera de Combate.",
-			pt: "Jogue 2 moedas. Se as duas saírem cara, o Pokémon Ativo do seu oponente será Nocauteado."
-		}
+		damage: "10×"
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

@@ -5,18 +5,17 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Floragato",
-		fr: "Matourgeon",
-		de: "Feliospa",
-		it: "Floragato",
-		es: "Floragato",
-		pt: "Floragato"
+		en: "Lurantis",
+		fr: "Floramantis",
+		de: "Mantidea",
+		it: "Lurantis",
+		es: "Lurantis",
+		pt: "Lurantis"
 	},
 
-	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
-	hp: 90,
+	hp: 120,
 	types: ["Grass"],
 	stage: "Stage1",
 
@@ -24,32 +23,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			de: "Schlitzer",
-			it: "Lacerazione",
-			es: "Cuchillada",
-			pt: "Talho"
+			en: "Razor Leaf",
+			fr: "Tranch'Herbe",
+			de: "Rasierblatt",
+			it: "Foglielama",
+			es: "Hoja Afilada",
+			pt: "Folha Navalha"
 		},
 
-		damage: 20
+		damage: 30
 	}, {
-		cost: ["Grass", "Colorless"],
+		cost: ["Grass"],
 
 		name: {
-			en: "Leaf Step",
-			fr: "Enjambée de Feuillage",
-			de: "Blattschritt",
-			it: "Passofoglia",
-			es: "Paso Hoja",
-			pt: "Passo de Folha"
+			en: "Petal Blade Dance",
+			fr: "Danse Lame Pétale",
+			de: "Blütenschwerttanz",
+			it: "Lame di Petali Danzanti",
+			es: "Danza de Pétalos Cortantes",
+			pt: "Dança Cortante de Pétalas"
 		},
 
-		damage: 60
+		effect: {
+			en: "Discard 2 Basic {G} Energy cards from your hand. If you can't discard 2 cards in this way, this attack does nothing.",
+			fr: "Défaussez 2 cartes Énergie {G} de base de votre main. Si vous ne pouvez pas défausser 2 cartes de cette façon, cette attaque ne fait rien.",
+			de: "Lege 2 Basis-{G}-Energiekarten aus deiner Hand auf deinen Ablagestapel. Wenn du auf diese Weise nicht 2 Karten auf deinen Ablagestapel legen kannst, hat diese Attacke keine Auswirkungen.",
+			it: "Scarta due carte Energia base {G} che hai in mano. Se non puoi scartare due carte in questo modo, questo attacco non ha effetto.",
+			es: "Descarta 2 cartas de Energía {G} Básica de tu mano. Si no puedes descartar 2 cartas de esta manera, este ataque no hace nada.",
+			pt: "Descarte 2 cartas de Energia {G} Básica da sua mão. Se não puder descartar 2 cartas desta forma, este ataque não fará nada."
+		},
+
+		damage: 130
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

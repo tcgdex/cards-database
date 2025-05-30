@@ -5,29 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Penny",
-		fr: "Pania",
-		de: "Cosima",
-		it: "Penny",
-		es: "Noa",
-		pt: "Penélope"
+		en: "Ethan's Ho-Oh ex",
+		fr: "Ho-Oh-ex de Luth",
+		de: "Klarins Ho-Oh-ex",
+		it: "Ho-Oh-ex di Armonio",
+		es: "Ho-Oh ex de Eco",
+		pt: "Ho-Oh ex do Ethan"
 	},
 
-	illustrator: "yuu",
-	rarity: "Ultra Rare",
-	category: "Trainer",
+	rarity: "Hyper rare",
+	category: "Pokemon",
+	hp: 230,
+	types: ["Fire"],
+	stage: "Basic",
 
-	effect: {
-		en: "Put 1 of your Basic Pokémon and all attached cards into your hand.",
-		fr: "Ajoutez à votre main l'un de vos Pokémon de base et toutes les cartes qui lui sont attachées.",
-		de: "Nimm 1 deiner Basis-Pokémon und alle angelegten Karten auf deine Hand.",
-		it: "Riprendi in mano uno dei tuoi Pokémon Base e tutte le carte a esso assegnate.",
-		es: "Pon 1 de tus Pokémon Básicos y todas las cartas unidas a él en tu mano.",
-		pt: "Coloque 1 dos seus Pokémon Básicos e todas as cartas ligadas a ele na sua mão."
-	},
+	abilities: [{
+		type: "Ability",
 
-	trainerType: "Supporter",
-	regulationMark: "G"
+		name: {
+			en: "Golden Flame",
+			fr: "Flamme Dorée",
+			de: "Goldene Flamme",
+			it: "Fiamma Dorata",
+			es: "Llama Dorada",
+			pt: "Chama Dourada"
+		},
+
+		effect: {
+			en: "Once during your turn, you may attach up to 2 Basic {R} Energy cards from your hand to 1 of your Benched Ethan's Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez attacher jusqu'à 2 cartes Énergie {R} de base de votre main à l'un de vos Pokémon de Luth de Banc.",
+			de: "Einmal während deines Zuges kannst du bis zu 2 Basis-{R}-Energiekarten aus deiner Hand an 1 Klarins Pokémon auf deiner Bank anlegen.",
+			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon di Armonio in panchina fino a due carte Energia base {R} dalla tua mano.",
+			es: "Una vez durante tu turno, puedes unir hasta 2 cartas de Energía {R} Básica de tu mano a uno de tus Pokémon de Eco en Banca.",
+			pt: "Uma vez durante o seu turno, você poderá ligar até 2 cartas de Energia {R} Básica da sua mão a 1 dos seus Pokémon do Ethan no Banco."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Fire", "Fire", "Fire", "Fire"],
+
+		name: {
+			en: "Shining Feathers",
+			fr: "Plumes Brillantes",
+			de: "Schimmernde Federn",
+			it: "Piume Lucenti",
+			es: "Plumas Radiantes",
+			pt: "Plumas Brilhantes"
+		},
+
+		effect: {
+			en: "Heal 50 damage from each of your Pokémon.",
+			fr: "Soignez 50 dégâts de chacun de vos Pokémon.",
+			de: "Heile 50 Schadenspunkte bei jedem deiner Pokémon.",
+			it: "Cura ciascuno dei tuoi Pokémon da 50 danni.",
+			es: "Cura 50 puntos de daño a cada uno de tus Pokémon.",
+			pt: "Cure 50 pontos de dano de cada um dos seus Pokémon."
+		},
+
+		damage: 160
+	}],
+
+	retreat: 2,
+	regulationMark: "I"
 }
 
 export default card

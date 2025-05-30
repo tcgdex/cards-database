@@ -5,29 +5,68 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Professor's Research",
-		fr: "Recherches Professorales",
-		de: "Forschung des Professors",
-		it: "Ricerca Accademica",
-		es: "Investigación de Profesores",
-		pt: "Pesquisa de Professores"
+		en: "Cynthia's Garchomp ex",
+		fr: "Carchacrok-ex de Cynthia",
+		de: "Cynthias Knakrack-ex",
+		it: "Garchomp-ex di Camilla",
+		es: "Garchomp ex de Cintia",
+		pt: "Garchomp ex da Cíntia"
 	},
 
-	illustrator: "kirisAki",
-	rarity: "Ultra Rare",
-	category: "Trainer",
+	rarity: "Hyper rare",
+	category: "Pokemon",
+	hp: 330,
+	types: ["Fighting"],
+	stage: "Stage2",
 
-	effect: {
-		en: "Discard your hand and draw 7 cards.",
-		fr: "Défaussez votre main, puis piochez 7 cartes.",
-		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten.",
-		it: "Scarta le carte che hai in mano e pesca sette carte.",
-		es: "Descarta las cartas de tu mano y roba 7 cartas.",
-		pt: "Descarte a sua mão e compre 7 cartas."
-	},
+	attacks: [{
+		cost: ["Fighting"],
 
-	trainerType: "Supporter",
-	regulationMark: "G"
+		name: {
+			en: "Corkscrew Dive",
+			fr: "Plongée Tire-Bouchon",
+			de: "Spiralsturzflug",
+			it: "Picchiata Rotante",
+			es: "Picado Tirabuzón",
+			pt: "Mergulho Parafuso"
+		},
+
+		effect: {
+			en: "You may draw cards until you have 6 cards in your hand.",
+			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
+			de: "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast.",
+			it: "Puoi pescare fino ad avere sei carte in mano.",
+			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
+			pt: "Você pode comprar cartas até ter 6 cartas na sua mão."
+		},
+
+		damage: 100
+	}, {
+		cost: ["Fighting", "Fighting"],
+
+		name: {
+			en: "Draconic Buster",
+			fr: "Buster Draconien",
+			de: "Drachensprenger",
+			it: "Distruzione del Drago",
+			es: "Destrucción Dracónica",
+			pt: "Aniquilação Dracônica"
+		},
+
+		effect: {
+			en: "Discard all Energy from this Pokémon.",
+			fr: "Défaussez toutes les Énergies de ce Pokémon.",
+			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta tutte le Energie da questo Pokémon.",
+			es: "Descarta todas las Energías de este Pokémon.",
+			pt: "Descarte todas as Energias deste Pokémon."
+		},
+
+		damage: 260
+	}],
+
+	retreat: 0,
+	regulationMark: "I"
 }
 
 export default card

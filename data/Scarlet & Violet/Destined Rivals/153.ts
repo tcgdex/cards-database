@@ -5,18 +5,17 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Indeedee",
-		fr: "Wimessir",
-		de: "Servol",
-		it: "Indeedee",
-		es: "Indeedee",
-		pt: "Indeedee"
+		en: "Team Rocket's Porygon",
+		fr: "Porygon de la Team Rocket",
+		de: "Team Rockets Porygon",
+		it: "Porygon del Team Rocket",
+		es: "Porygon del Team Rocket",
+		pt: "Porygon da Equipe Rocket"
 	},
 
-	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 90,
+	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
 
@@ -24,48 +23,26 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Expert Nurturer",
-			fr: "Nourricier Expert",
-			de: "Pflegeprofi",
-			it: "Specialista della Crescita",
-			es: "Cuidados Expertos",
-			pt: "Especialista em Cuidados"
+			en: "Hacking",
+			fr: "Piratage de Données",
+			de: "Hacking",
+			it: "Hacking",
+			es: "Hackear",
+			pt: "Hackeamento"
 		},
 
 		effect: {
-			en: "Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Évolution de l'un de vos Pokémon, puis placez-la sur ce dernier pour le faire évoluer. Mélangez ensuite votre deck.",
-			de: "Durchsuche dein Deck nach 1 Karte, die sich aus 1 deiner Pokémon entwickelt, und lege sie auf jenes Pokémon, um es zu entwickeln. Mische anschließend dein Deck.",
-			it: "Cerca nel tuo mazzo una carta che si evolve da uno dei tuoi Pokémon e metticela sopra per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
-			es: "Busca en tu baraja 1 carta que evolucione de uno de tus Pokémon y ponla sobre ese Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por uma carta no seu baralho que evolua de 1 dos seus Pokémon e coloque-a sobre aquele Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho."
+			en: "Discard a card from your hand. If you do, your opponent discards a card from their hand.",
+			fr: "Défaussez une carte de votre main. Dans ce cas, votre adversaire défausse une carte de sa main.",
+			de: "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, legt dein Gegner 1 Karte aus seiner Hand auf seinen Ablagestapel.",
+			it: "Scarta una carta che hai in mano. Se lo fai, il tuo avversario scarta una carta che ha in mano.",
+			es: "Descarta 1 carta de tu mano. Si lo haces, tu rival descarta 1 carta de su mano.",
+			pt: "Descarte uma carta da sua mão. Se fizer isto, seu oponente descartará uma carta da mão dele."
 		}
-	}, {
-		cost: ["Colorless", "Colorless"],
-
-		name: {
-			en: "Hypnoblast",
-			fr: "Hypnoblast",
-			de: "Hypnoschuss",
-			it: "Ipnobomba",
-			es: "Hipnorrayo",
-			pt: "Borrifada Hipnótica"
-		},
-
-		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido."
-		},
-
-		damage: 30
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "I"
 }
 
 export default card

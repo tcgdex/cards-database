@@ -5,29 +5,59 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Professor's Research",
-		fr: "Recherches Professorales",
-		de: "Forschung des Professors",
-		it: "Ricerca Accademica",
-		es: "Investigación de Profesores",
-		pt: "Pesquisa de Professores"
+		en: "Rapidash",
+		fr: "Galopa",
+		de: "Gallopa",
+		it: "Rapidash",
+		es: "Rapidash",
+		pt: "Rapidash"
 	},
 
-	illustrator: "kirisAki",
-	rarity: "Rare",
-	category: "Trainer",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 110,
+	types: ["Fire"],
+	stage: "Stage1",
 
-	effect: {
-		en: "Discard your hand and draw 7 cards.",
-		fr: "Défaussez votre main, puis piochez 7 cartes.",
-		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten.",
-		it: "Scarta le carte che hai in mano e pesca sette carte.",
-		es: "Descarta las cartas de tu mano y roba 7 cartas.",
-		pt: "Descarte a sua mão e compre 7 cartas."
-	},
+	abilities: [{
+		type: "Ability",
 
-	trainerType: "Supporter",
-	regulationMark: "G"
+		name: {
+			en: "Hurried Gait",
+			fr: "Allure Pressée",
+			de: "Eiliger Gang",
+			it: "Andatura Frettolosa",
+			es: "Marcha Apresurada",
+			pt: "Marcha Apressada"
+		},
+
+		effect: {
+			en: "Once during your turn, you may draw a card.",
+			fr: "Une fois pendant votre tour, vous pouvez piocher une carte.",
+			de: "Einmal während deines Zuges kannst du 1 Karte ziehen.",
+			it: "Una sola volta durante il tuo turno, puoi pescare una carta.",
+			es: "Una vez durante tu turno, puedes robar 1 carta.",
+			pt: "Uma vez durante o seu turno, você poderá comprar uma carta."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Fire", "Colorless"],
+
+		name: {
+			en: "Fire Mane",
+			fr: "Crinière de Feu",
+			de: "Flammenmähne",
+			it: "Criniera di Fuoco",
+			es: "Crin de Fuego",
+			pt: "Crina de Fogo"
+		},
+
+		damage: 60
+	}],
+
+	retreat: 1,
+	regulationMark: "I"
 }
 
 export default card
