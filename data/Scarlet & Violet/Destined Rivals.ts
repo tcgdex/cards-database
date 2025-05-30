@@ -20,7 +20,7 @@ const set: Set = {
 		official: 182
 	},
 
-	releaseDate: "2023-05-30",
+	releaseDate: "2025-05-30",
 
 	abbreviations: {
 		official: "DRI",
