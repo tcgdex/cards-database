@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Relluk",
 		it: "Rellor",
 		es: "Rellor",
-		pt: "Rellor"
+		pt: "Rellor",
+		'es-mx': "Rellor"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Sammeln",
 			it: "Tassa",
 			es: "Coleccionar",
-			pt: "Coleta"
+			pt: "Coleta",
+			'es-mx': "Recolectar"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Ziehe 1 Karte.",
 			it: "Pesca una carta.",
 			es: "Roba 1 carta.",
-			pt: "Compre uma carta."
+			pt: "Compre uma carta.",
+			'es-mx': "Roba 1 carta."
 		}
 	}, {
 		cost: ["Grass"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Walzer",
 			it: "Rotolamento",
 			es: "Rodar",
-			pt: "Rolagem"
+			pt: "Rolagem",
+			'es-mx': "Rodada"
 		},
 
 		damage: 10

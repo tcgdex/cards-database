@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Sleimok",
 		it: "Muk del Team Rocket",
 		es: "Muk del Team Rocket",
-		pt: "Muk da Equipe Rocket"
+		pt: "Muk da Equipe Rocket",
+		'es-mx': "Muk del Equipo Rocket"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Verklebt",
 			it: "Invischiato",
 			es: "Pringue",
-			pt: "Melecado"
+			pt: "Melecado",
+			'es-mx': "Viscosidad Total"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar."
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse."
 		},
 
 		damage: 40
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Bedrohliches Gift",
 			it: "Veleno Pericoloso",
 			es: "Veneno Nocivo",
-			pt: "Veneno Periculoso"
+			pt: "Veneno Periculoso",
+			'es-mx': "Veneno Nocivo"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jeden Speziellen Zustand, von dem das Aktive Pokémon deines Gegners betroffen ist, 100 Schadenspunkte zu.",
 			it: "Questo attacco infligge 100 danni per ogni condizione speciale che influenza il Pokémon attivo del tuo avversario.",
 			es: "Este ataque hace 100 puntos de daño por cada Condición Especial que afecte al Pokémon Activo de tu rival.",
-			pt: "Este ataque causa 100 pontos de dano para cada Condição Especial afetando o Pokémon Ativo do seu oponente."
+			pt: "Este ataque causa 100 pontos de dano para cada Condição Especial afetando o Pokémon Ativo do seu oponente.",
+			'es-mx': "Este ataque hace 100 puntos de daño por cada Condición Especial que afecte al Pokémon Activo de tu rival."
 		},
 
 		damage: "100×"

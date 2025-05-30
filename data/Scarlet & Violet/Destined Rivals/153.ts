@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Porygon",
 		it: "Porygon del Team Rocket",
 		es: "Porygon del Team Rocket",
-		pt: "Porygon da Equipe Rocket"
+		pt: "Porygon da Equipe Rocket",
+		'es-mx': "Porygon del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Hacking",
 			it: "Hacking",
 			es: "Hackear",
-			pt: "Hackeamento"
+			pt: "Hackeamento",
+			'es-mx': "Hackeo"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, legt dein Gegner 1 Karte aus seiner Hand auf seinen Ablagestapel.",
 			it: "Scarta una carta che hai in mano. Se lo fai, il tuo avversario scarta una carta che ha in mano.",
 			es: "Descarta 1 carta de tu mano. Si lo haces, tu rival descarta 1 carta de su mano.",
-			pt: "Descarte uma carta da sua mão. Se fizer isto, seu oponente descartará uma carta da mão dele."
+			pt: "Descarte uma carta da sua mão. Se fizer isto, seu oponente descartará uma carta da mão dele.",
+			'es-mx': "Descarta 1 carta de tu mano. Si lo haces, tu rival descarta 1 carta de su mano."
 		}
 	}],
 

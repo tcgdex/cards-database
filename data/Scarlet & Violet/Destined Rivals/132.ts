@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Marys Zurrokex",
 		it: "Scraggy di Mary",
 		es: "Scraggy de Roxy",
-		pt: "Scraggy da Marine"
+		pt: "Scraggy da Marine",
+		'es-mx': "Scraggy de Marnie"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Knirscher",
 			it: "Sgranocchio",
 			es: "Triturar",
-			pt: "Mastigada"
+			pt: "Mastigada",
+			'es-mx': "Triturar"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
 			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
 			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente."
+			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'es-mx': "Descarta 1 Energía del Pokémon Activo de tu rival."
 		},
 
 		damage: 50

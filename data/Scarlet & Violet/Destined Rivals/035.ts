@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Klarins Schneckmag",
 		it: "Slugma di Armonio",
 		es: "Slugma de Eco",
-		pt: "Slugma do Ethan"
+		pt: "Slugma do Ethan",
+		'es-mx': "Slugma de Ethan"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Stetiger Feuerhauch",
 			it: "Soffiofuoco Mirato",
 			es: "Lanzallamas Continuo",
-			pt: "Hálito de Fogo Constante"
+			pt: "Hálito de Fogo Constante",
+			'es-mx': "Escupefuego"
 		},
 
 		damage: 20

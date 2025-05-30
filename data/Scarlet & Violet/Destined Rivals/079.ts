@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Traumato",
 		it: "Drowzee del Team Rocket",
 		es: "Drowzee del Team Rocket",
-		pt: "Drowzee da Equipe Rocket"
+		pt: "Drowzee da Equipe Rocket",
+		'es-mx': "Drowzee del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Hypnotischer Strahl",
 			it: "Ipnoraggio",
 			es: "Rayo Hipnótico",
-			pt: "Raio Hipnótico"
+			pt: "Raio Hipnótico",
+			'es-mx': "Rayo Hipnótico"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
 			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
 			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido."
+			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Dormido."
 		},
 
 		damage: 10

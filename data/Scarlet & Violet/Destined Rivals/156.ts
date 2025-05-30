@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Schwalbini",
 		it: "Taillow",
 		es: "Taillow",
-		pt: "Taillow"
+		pt: "Taillow",
+		'es-mx': "Taillow"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Flügelschlag",
 			it: "Attacco d'Ala",
 			es: "Ataque Ala",
-			pt: "Ataque de Asa"
+			pt: "Ataque de Asa",
+			'es-mx': "Ataque de Ala"
 		},
 
 		damage: 20

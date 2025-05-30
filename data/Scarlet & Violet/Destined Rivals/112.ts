@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Rettan",
 		it: "Ekans del Team Rocket",
 		es: "Ekans del Team Rocket",
-		pt: "Ekans da Equipe Rocket"
+		pt: "Ekans da Equipe Rocket",
+		'es-mx': "Ekans del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Herabziehen",
 			it: "Trascina Giù",
 			es: "Arrastrar al Fondo",
-			pt: "Arrastar pra Baixo"
+			pt: "Arrastar pra Baixo",
+			'es-mx': "Arrastre Inmovilizador"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
+			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado."
 		}
 	}, {
 		cost: ["Darkness"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Nagen",
 			it: "Rosicchiamento",
 			es: "Roer",
-			pt: "Roída"
+			pt: "Roída",
+			'es-mx': "Mordisquear"
 		},
 
 		damage: 10

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Shnebedeck",
 		it: "Snover",
 		es: "Snover",
-		pt: "Snover"
+		pt: "Snover",
+		'es-mx': "Snover"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Leichter Hieb",
 			it: "Pugnetto",
 			es: "Puño Ligero",
-			pt: "Soco de Luz"
+			pt: "Soco de Luz",
+			'es-mx': "Puño Ligero"
 		},
 
 		damage: 20
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Eiszapfen",
 			it: "Stalattite",
 			es: "Témpano",
-			pt: "Pingente de Gelo"
+			pt: "Pingente de Gelo",
+			'es-mx': "Témpano de Hielo"
 		},
 
 		damage: 50

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Meditie",
 		it: "Meditite",
 		es: "Meditite",
-		pt: "Meditite"
+		pt: "Meditite",
+		'es-mx': "Meditite"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Ruhiger Schlag",
 			it: "Pugnosecco",
 			es: "Puño Firme",
-			pt: "Soco Firme"
+			pt: "Soco Firme",
+			'es-mx': "Puño Firme"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais."
+			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más."
 		},
 
 		damage: "10+"

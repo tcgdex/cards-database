@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Troys Tanhel",
 		it: "Beldum di Rocco",
 		es: "Beldum de Máximo",
-		pt: "Beldum do Steven"
+		pt: "Beldum do Steven",
+		'es-mx': "Beldum de Steven"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Ramme",
 			it: "Carica",
 			es: "Apisonar",
-			pt: "Aríete"
+			pt: "Aríete",
+			'es-mx': "Colisión"
 		},
 
 		damage: 30

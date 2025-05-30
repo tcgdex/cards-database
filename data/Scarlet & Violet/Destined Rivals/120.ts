@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Zubat",
 		it: "Zubat del Team Rocket",
 		es: "Zubat del Team Rocket",
-		pt: "Zubat da Equipe Rocket"
+		pt: "Zubat da Equipe Rocket",
+		'es-mx': "Zubat del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Giftspray",
 			it: "Spruzzo Velenoso",
 			es: "Aerosol Venenoso",
-			pt: "Spray de Veneno"
+			pt: "Spray de Veneno",
+			'es-mx': "Aerosol Venenoso"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado."
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Envenenado."
 		}
 	}],
 

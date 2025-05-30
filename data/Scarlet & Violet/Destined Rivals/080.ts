@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Hypno",
 		it: "Hypno del Team Rocket",
 		es: "Hypno del Team Rocket",
-		pt: "Hypno da Equipe Rocket"
+		pt: "Hypno da Equipe Rocket",
+		'es-mx': "Hypno del Equipo Rocket"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Psychoschuss",
 			it: "Psicosparo",
 			es: "Disparo Psi",
-			pt: "Tiro Psíquico"
+			pt: "Tiro Psíquico",
+			'es-mx': "Psicodisparo"
 		},
 
 		damage: 40
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Bankmanipulation",
 			it: "Psicomanipolazione",
 			es: "Manipulación de Banca",
-			pt: "Manipulação de Banco"
+			pt: "Manipulação de Banco",
+			'es-mx': "Manipulación de Banca"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Dein Gegner wirft 1 Münze für jedes Pokémon auf seiner Bank. Diese Attacke fügt dem Aktiven Pokémon deines Gegners 80 Schadenspunkte pro Zahl zu. Der Schaden dieser Attacke wird durch Schwäche oder Resistenz nicht verändert.",
 			it: "Il tuo avversario lancia una moneta per ogni Pokémon nella sua panchina. Questo attacco infligge 80 danni al Pokémon attivo del tuo avversario ogni volta che esce croce. I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
 			es: "Tu rival lanza 1 moneda por cada uno de sus Pokémon en Banca. Este ataque hace 80 puntos de daño al Pokémon Activo de tu rival por cada cruz. El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
-			pt: "Seu oponente joga uma moeda para cada um dos Pokémon no Banco dele. Este ataque causa 80 pontos de dano ao Pokémon Ativo do seu oponente para cada coroa. O dano deste ataque não é afetado por Fraqueza ou Resistência."
+			pt: "Seu oponente joga uma moeda para cada um dos Pokémon no Banco dele. Este ataque causa 80 pontos de dano ao Pokémon Ativo do seu oponente para cada coroa. O dano deste ataque não é afetado por Fraqueza ou Resistência.",
+			'es-mx': "Tu rival lanza 1 moneda por cada uno de sus Pokémon en Banca. Este ataque hace 80 puntos de daño al Pokémon Activo de tu rival por cada cruz. El daño de este ataque no se ve afectado por Debilidad o Resistencia."
 		},
 
 		damage: "80×"

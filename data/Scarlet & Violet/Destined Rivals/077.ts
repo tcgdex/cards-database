@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Rotom",
 		it: "Rotom",
 		es: "Rotom",
-		pt: "Rotom"
+		pt: "Rotom",
+		'es-mx': "Rotom"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Erstauner",
 			it: "Sgomento",
 			es: "Impresionar",
-			pt: "Abismar"
+			pt: "Abismar",
+			'es-mx': "Impresión"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wähle 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt dir jene Karte und mischt sie in sein Deck.",
 			it: "Scegli una carta a caso dalla mano del tuo avversario. Il tuo avversario mostra quella carta e la rimischia nel suo mazzo.",
 			es: "Elige 1 carta aleatoria de la mano de tu rival. Tu rival enseña esa carta, la pone en su baraja y las baraja todas.",
-			pt: "Escolha uma carta aleatória da mão do seu oponente. Seu oponente revela aquela carta e a embaralha no baralho dele."
+			pt: "Escolha uma carta aleatória da mão do seu oponente. Seu oponente revela aquela carta e a embaralha no baralho dele.",
+			'es-mx': "Elige 1 carta aleatoria de la mano de tu rival. Tu rival muestra esa carta, la pone en su mazo y las baraja todas."
 		},
 
 		damage: 20
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Gadget-Show",
 			it: "Mostra di Gadget",
 			es: "Espectáculo de Utensilios",
-			pt: "Show de Bugigangas"
+			pt: "Show de Bugigangas",
+			'es-mx': "Show de Artefactos"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
 			it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
 			es: "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon."
+			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon.",
+			'es-mx': "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon."
 		},
 
 		damage: "30×"

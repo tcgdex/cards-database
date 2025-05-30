@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Nidoking-ex",
 		it: "Nidoking-ex del Team Rocket",
 		es: "Nidoking ex del Team Rocket",
-		pt: "Nidoking ex da Equipe Rocket"
+		pt: "Nidoking ex da Equipe Rocket",
+		'es-mx': "Nidoking ex del Equipo Rocket"
 	},
 
 	rarity: "Ultra Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Vergiftetes Horn",
 			it: "Corno Contaminato",
 			es: "Cuerno Contaminado",
-			pt: "Chifre Contaminado"
+			pt: "Chifre Contaminado",
+			'es-mx': "Cuerno Contaminado"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege beim Pokémon-Check 8 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Metti otto segnalini danno invece di uno su quel Pokémon durante il controllo Pokémon.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el Chequeo Pokémon, pon 8 contadores de daño en vez de uno en ese Pokémon.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o Checape Pokémon, coloque 8 contadores de dano ao invés de 1 naquele Pokémon."
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o Checape Pokémon, coloque 8 contadores de dano ao invés de 1 naquele Pokémon.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Envenenado. Durante el Chequeo Pokémon, pon 8 contadores de daño en lugar de 1 en ese Pokémon."
 		},
 
 		damage: 100
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Königlicher Einschlag",
 			it: "Impatto Regale",
 			es: "Impacto Regio",
-			pt: "Impacto Majestoso"
+			pt: "Impacto Majestoso",
+			'es-mx': "Impacto Real"
 		},
 
 		damage: 240

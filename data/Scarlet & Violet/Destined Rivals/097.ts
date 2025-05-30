@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Nasgnet",
 		it: "Nosepass",
 		es: "Nosepass",
-		pt: "Nosepass"
+		pt: "Nosepass",
+		'es-mx': "Nosepass"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Kopfnuss",
 			it: "Bottintesta",
 			es: "Golpe Cabeza",
-			pt: "Cabeçada"
+			pt: "Cabeçada",
+			'es-mx': "Golpe Cabeza"
 		},
 
 		damage: 20
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Steinwurf",
 			it: "Sassata",
 			es: "Lanzarrocas",
-			pt: "Lançamento de Rocha"
+			pt: "Lançamento de Rocha",
+			'es-mx': "Lanzarrocas"
 		},
 
 		damage: 40

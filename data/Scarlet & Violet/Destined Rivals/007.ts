@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Cynthias Roselia",
 		it: "Roselia di Camilla",
 		es: "Roselia de Cintia",
-		pt: "Roselia da Cíntia"
+		pt: "Roselia da Cíntia",
+		'es-mx': "Roselia de Cynthia"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Stachelstich",
 			it: "Aculeopuntura",
 			es: "Picotazo Púas",
-			pt: "Ferroada de Espinhos"
+			pt: "Ferroada de Espinhos",
+			'es-mx': "Piquete de Púas"
 		},
 
 		damage: 20

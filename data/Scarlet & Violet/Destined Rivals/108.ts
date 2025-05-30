@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Pampross",
 		it: "Mudsdale",
 		es: "Mudsdale",
-		pt: "Mudsdale"
+		pt: "Mudsdale",
+		'es-mx': "Mudsdale"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Schlammschicht",
 			it: "Manto Fangoso",
 			es: "Pelaje Lodo",
-			pt: "Camada de Lama"
+			pt: "Camada de Lama",
+			'es-mx': "Capa de Lodo"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
 			it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+			pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'es-mx': "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Schwerer Einschlag",
 			it: "Impatto Pesante",
 			es: "Impacto Pesado",
-			pt: "Impacto Pesado"
+			pt: "Impacto Pesado",
+			'es-mx': "Impacto Pesado"
 		},
 
 		damage: 130

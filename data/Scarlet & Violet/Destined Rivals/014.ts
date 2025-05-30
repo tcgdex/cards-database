@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Mantidea",
 		it: "Lurantis",
 		es: "Lurantis",
-		pt: "Lurantis"
+		pt: "Lurantis",
+		'es-mx': "Lurantis"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Rasierblatt",
 			it: "Foglielama",
 			es: "Hoja Afilada",
-			pt: "Folha Navalha"
+			pt: "Folha Navalha",
+			'es-mx': "Hojas Navaja"
 		},
 
 		damage: 30
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Blütenschwerttanz",
 			it: "Lame di Petali Danzanti",
 			es: "Danza de Pétalos Cortantes",
-			pt: "Dança Cortante de Pétalas"
+			pt: "Dança Cortante de Pétalas",
+			'es-mx': "Danza de Pétalos Cortantes"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Lege 2 Basis-{G}-Energiekarten aus deiner Hand auf deinen Ablagestapel. Wenn du auf diese Weise nicht 2 Karten auf deinen Ablagestapel legen kannst, hat diese Attacke keine Auswirkungen.",
 			it: "Scarta due carte Energia base {G} che hai in mano. Se non puoi scartare due carte in questo modo, questo attacco non ha effetto.",
 			es: "Descarta 2 cartas de Energía {G} Básica de tu mano. Si no puedes descartar 2 cartas de esta manera, este ataque no hace nada.",
-			pt: "Descarte 2 cartas de Energia {G} Básica da sua mão. Se não puder descartar 2 cartas desta forma, este ataque não fará nada."
+			pt: "Descarte 2 cartas de Energia {G} Básica da sua mão. Se não puder descartar 2 cartas desta forma, este ataque não fará nada.",
+			'es-mx': "Descarta 2 cartas de Energía {G} Básica de tu mano. Si no puedes descartar 2 cartas de esta manera, este ataque no hace nada."
 		},
 
 		damage: 130

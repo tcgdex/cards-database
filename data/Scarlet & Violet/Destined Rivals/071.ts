@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Klarins Pichu",
 		it: "Pichu di Armonio",
 		es: "Pichu de Eco",
-		pt: "Pichu do Ethan"
+		pt: "Pichu do Ethan",
+		'es-mx': "Pichu de Ethan"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			de: "Kurzschlusszug",
 			it: "Pesca Fulminante",
 			es: "Robo Aturdidor",
-			pt: "Compra Eletrizante"
+			pt: "Compra Eletrizante",
+			'es-mx': "Robochispazo"
 		},
 
 		effect: {
@@ -35,7 +37,8 @@ const card: Card = {
 			de: "Ziehe 1 Karte.",
 			it: "Pesca una carta.",
 			es: "Roba 1 carta.",
-			pt: "Compre uma carta."
+			pt: "Compre uma carta.",
+			'es-mx': "Roba 1 carta."
 		},
 
 		damage: 30

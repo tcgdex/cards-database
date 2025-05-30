@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Shaymin",
 		it: "Shaymin",
 		es: "Shaymin",
-		pt: "Shaymin"
+		pt: "Shaymin",
+		'es-mx': "Shaymin"
 	},
 
 	rarity: "Illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Blumenschleier",
 			it: "Cortina Floreale",
 			es: "Cortina Floral",
-			pt: "Cortina de Flores"
+			pt: "Cortina de Flores",
+			'es-mx': "Cortina Floral"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Verhindere allen Schaden, der den Pokémon auf deiner Bank, die kein Regelfeld haben, durch Attacken von Pokémon deines Gegners zugefügt wird. (Pokémon-ex, Pokémon-V usw. haben Regelfelder.)",
 			it: "Previeni tutti i danni inflitti ai tuoi Pokémon in panchina che non hanno una regola speciale dagli attacchi dei Pokémon del tuo avversario. I Pokémon-ex, i Pokémon-V, ecc. hanno regole speciali.",
 			es: "Se evita todo el daño infligido a tus Pokémon en Banca que no tengan un recuadro de regla por ataques de los Pokémon de tu rival. (Pokémon ex, Pokémon V, etc. tienen recuadros de regla).",
-			pt: "Previna todo o dano causado aos seus Pokémon no Banco que não têm uma Caixa de Regras por ataques dos Pokémon do seu oponente. (Pokémon ex, Pokémon V, etc. têm Caixas de Regras.)"
+			pt: "Previna todo o dano causado aos seus Pokémon no Banco que não têm uma Caixa de Regras por ataques dos Pokémon do seu oponente. (Pokémon ex, Pokémon V, etc. têm Caixas de Regras.)",
+			'es-mx': "Se evita todo el daño infligido por ataques de los Pokémon de tu rival a tus Pokémon en Banca que no tengan un recuadro de regla. (Los Pokémon ex, los Pokémon V, etc., tienen recuadros de regla)."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Schmetterkick",
 			it: "Calcio Esplosivo",
 			es: "Patada Destrucción",
-			pt: "Chute Poderoso"
+			pt: "Chute Poderoso",
+			'es-mx': "Patada Devastadora"
 		},
 
 		damage: 30

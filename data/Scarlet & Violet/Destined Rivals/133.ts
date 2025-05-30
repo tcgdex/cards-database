@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Marys Irokex",
 		it: "Scrafty di Mary",
 		es: "Scrafty de Roxy",
-		pt: "Scrafty da Marine"
+		pt: "Scrafty da Marine",
+		'es-mx': "Scrafty de Marnie"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Rückwärtskick",
 			it: "Retrocalcio",
 			es: "Patada Trasera",
-			pt: "Chute Traseiro"
+			pt: "Chute Traseiro",
+			'es-mx': "Patada Trasera"
 		},
 
 		damage: 40
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Wilder Tackle",
 			it: "Azionferoce",
 			es: "Placaje Salvaje",
-			pt: "Investida Feroz"
+			pt: "Investida Feroz",
+			'es-mx': "Tacleada Salvaje"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo."
 		},
 
 		damage: 160

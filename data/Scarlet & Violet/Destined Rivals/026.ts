@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Türkisgrüne-Maske-Ogerpon",
 		it: "Ogerpon Maschera Turchese",
 		es: "Ogerpon Máscara Turquesa",
-		pt: "Ogerpon Máscara Turquesa"
+		pt: "Ogerpon Máscara Turquesa",
+		'es-mx': "Ogerpon Máscara Turquesa"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Pflanzen-Kagura",
 			it: "Kagura dell'Erba",
 			es: "Kagura Planta",
-			pt: "Kagura de Planta"
+			pt: "Kagura de Planta",
+			'es-mx': "Kagura de Planta"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach 1 Basis-{G}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck.",
 			it: "Cerca nel tuo mazzo una carta Energia base {G} e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 			es: "Busca en tu baraja 1 carta de Energía {G} Básica y únela a uno de tus Pokémon. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por uma carta de Energia {G} Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho."
+			pt: "Procure por uma carta de Energia {G} Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Busca en tu mazo 1 carta de Energía {G} Básica y únela a 1 de tus Pokémon. Después, baraja las cartas de tu mazo."
 		}
 	}, {
 		cost: ["Grass", "Grass", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Onis Hammer",
 			it: "Martello dell'Orco",
 			es: "Martillo del Ogro",
-			pt: "Martelo do Ogro"
+			pt: "Martelo do Ogro",
+			'es-mx': "Martillo del Ogro"
 		},
 
 		effect: {
@@ -57,7 +61,8 @@ const card: Card = {
 			de: "Während deines nächsten Zuges kann dieses Pokémon Onis Hammer nicht einsetzen.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Martello dell'Orco.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Martillo del Ogro.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Martelo do Ogro."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Martelo do Ogro.",
+			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar Martillo del Ogro."
 		},
 
 		damage: 120

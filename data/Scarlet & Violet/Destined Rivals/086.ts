@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Troys Rocara",
 		it: "Carbink di Rocco",
 		es: "Carbink de Máximo",
-		pt: "Carbink do Steven"
+		pt: "Carbink do Steven",
+		'es-mx': "Carbink de Steven"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Palast aus Stein",
 			it: "Palazzo di Pietra",
 			es: "Palacio de Peñas",
-			pt: "Palácio de Pedra"
+			pt: "Palácio de Pedra",
+			'es-mx': "Palacio de Piedra"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Solange sich dieses Pokémon auf deiner Bank befindet, werden allen deinen Troys Pokémon durch Attacken von Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Der Effekt von Palast aus Stein stapelt sich nicht.",
 			it: "Fintanto che questo Pokémon è nella tua panchina, i tuoi Pokémon di Rocco subiscono 30 danni in meno dagli attacchi dei Pokémon del tuo avversario, dopo aver applicato debolezza e resistenza. L'effetto di Palazzo di Pietra non è cumulabile.",
 			es: "Mientras este Pokémon esté en tu Banca, los ataques de los Pokémon de tu rival hacen 30 puntos de daño menos a todos tus Pokémon de Máximo (después de aplicar Debilidad y Resistencia). El efecto de Palacio de Peñas no se acumula.",
-			pt: "Enquanto este Pokémon estiver no seu Banco, todos os seus Pokémon do Steven receberão 30 pontos de dano a menos de ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência). O efeito de Palácio de Pedra não acumula."
+			pt: "Enquanto este Pokémon estiver no seu Banco, todos os seus Pokémon do Steven receberão 30 pontos de dano a menos de ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência). O efeito de Palácio de Pedra não acumula.",
+			'es-mx': "Mientras este Pokémon esté en tu Banca, los ataques de los Pokémon de tu rival hacen 30 puntos de daño menos a todos tus Pokémon de Steven (después de aplicar Debilidad y Resistencia). El efecto de Palacio de Piedra no se acumula."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Magischer Schuss",
 			it: "Magicolpo",
 			es: "Disparo Mágico",
-			pt: "Tiro Mágico"
+			pt: "Tiro Mágico",
+			'es-mx': "Disparo Mágico"
 		},
 
 		damage: 80

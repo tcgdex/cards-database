@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Nidorina",
 		it: "Nidorina del Team Rocket",
 		es: "Nidorina del Team Rocket",
-		pt: "Nidorina da Equipe Rocket"
+		pt: "Nidorina da Equipe Rocket",
+		'es-mx': "Nidorina del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Dunkles Erwachen",
 			it: "Risveglio Oscuro",
 			es: "Despertar Oscuro",
-			pt: "Despertar Maligno"
+			pt: "Despertar Maligno",
+			'es-mx': "Despertar Oscuro"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wähle bis zu 2 deiner {D}-Pokémon. Durchsuche für jedes jener Pokémon dein Deck nach 1 Karte, die sich aus jenem Pokémon entwickelt, und lege sie auf jenes Pokémon, um es zu entwickeln. Mische anschließend dein Deck.",
 			it: "Scegli fino a due dei tuoi Pokémon {D}. Per ognuno di essi, cerca nel tuo mazzo una carta che si evolve da quel Pokémon e metticela sopra per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
 			es: "Elige hasta 2 de tus Pokémon {D}. Para cada uno de esos Pokémon, busca en tu baraja 1 carta que evolucione de ese Pokémon y ponla sobre ese Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
-			pt: "Escolha até 2 dos seus Pokémon {D}. Para cada um daqueles Pokémon, procure por uma carta no seu baralho que evolua daquele Pokémon e coloque-a sobre aquele Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho."
+			pt: "Escolha até 2 dos seus Pokémon {D}. Para cada um daqueles Pokémon, procure por uma carta no seu baralho que evolua daquele Pokémon e coloque-a sobre aquele Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Elige hasta 2 de tus Pokémon {D}. Por cada uno de esos Pokémon, busca en tu mazo 1 carta que evolucione de ese Pokémon y ponla sobre ese Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu mazo."
 		}
 	}, {
 		cost: ["Darkness", "Darkness"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Kratzer",
 			it: "Graffio",
 			es: "Arañazo",
-			pt: "Arranhão"
+			pt: "Arranhão",
+			'es-mx': "Arañazo"
 		},
 
 		damage: 50

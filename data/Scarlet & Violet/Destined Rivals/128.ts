@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Sniebel",
 		it: "Sneasel del Team Rocket",
 		es: "Sneasel del Team Rocket",
-		pt: "Sneasel da Equipe Rocket"
+		pt: "Sneasel da Equipe Rocket",
+		'es-mx': "Sneasel del Equipo Rocket"
 	},
 
 	rarity: "Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Kratzer",
 			it: "Graffio",
 			es: "Arañazo",
-			pt: "Arranhão"
+			pt: "Arranhão",
+			'es-mx': "Arañazo"
 		},
 
 		damage: 20
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Schlag den Schläfer",
 			it: "Carognata",
 			es: "Golpea al Dormilón",
-			pt: "Passar a Perna"
+			pt: "Passar a Perna",
+			'es-mx': "Golpe Inesperado"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners für jede Schadensmarke auf jenem Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
 			it: "Questo attacco infligge 20 danni a uno dei Pokémon nella panchina del tuo avversario per ogni segnalino danno presente su quel Pokémon. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 			es: "Este ataque hace 20 puntos de daño a uno de los Pokémon en Banca de tu rival por cada contador de daño en ese Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			pt: "Este ataque causa 20 pontos de dano a 1 dos Pokémon no Banco do seu oponente para cada contador de dano naquele Pokémon. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			pt: "Este ataque causa 20 pontos de dano a 1 dos Pokémon no Banco do seu oponente para cada contador de dano naquele Pokémon. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'es-mx': "Este ataque hace 20 puntos de daño a 1 de los Pokémon en Banca de tu rival por cada contador de daño en ese Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
 		}
 	}],
 

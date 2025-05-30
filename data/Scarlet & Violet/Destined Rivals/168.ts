@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Zauberasche",
 		it: "Cenere magica",
 		es: "Ceniza Sagrada",
-		pt: "Cinza Sagrada"
+		pt: "Cinza Sagrada",
+		'es-mx': "Ceniza Sagrada"
 	},
 
 	rarity: "Uncommon",
@@ -22,7 +23,8 @@ const card: Card = {
 		de: "Mische bis zu 5 Pokémon aus deinem Ablagestapel in dein Deck.",
 		it: "Rimischia fino a cinque Pokémon dalla tua pila degli scarti nel tuo mazzo.",
 		es: "Pon hasta 5 Pokémon de tu pila de descartes en tu baraja y baraja todas las cartas.",
-		pt: "Embaralhe até 5 Pokémon da sua pilha de descarte no seu baralho."
+		pt: "Embaralhe até 5 Pokémon da sua pilha de descarte no seu baralho.",
+		'es-mx': "Pon hasta 5 Pokémon de tu pila de descartes en tu mazo y baraja todas las cartas."
 	},
 
 	trainerType: "Item",

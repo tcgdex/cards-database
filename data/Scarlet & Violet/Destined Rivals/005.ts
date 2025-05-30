@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Knilz",
 		it: "Shroomish",
 		es: "Shroomish",
-		pt: "Shroomish"
+		pt: "Shroomish",
+		'es-mx': "Shroomish"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Rolltackle",
 			it: "Rollazione",
 			es: "Placaje Giro",
-			pt: "Golpe de Colisão Rolante"
+			pt: "Golpe de Colisão Rolante",
+			'es-mx': "Tacleada Rodante"
 		},
 
 		damage: 30

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Peppers Schlaraffel",
 		it: "Greedent di Pepe",
 		es: "Greedent de Damián",
-		pt: "Greedent do Arven"
+		pt: "Greedent do Arven",
+		'es-mx': "Greedent de Damián"
 	},
 
 	rarity: "Illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Gierige Bestellung",
 			it: "Ordine Ingordo",
 			es: "Pedido Codicioso",
-			pt: "Pedido Ganancioso"
+			pt: "Pedido Ganancioso",
+			'es-mx': "Pedido Codicioso"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du bis zu 2 Peppers Sandwich-Karten aus deinem Ablagestapel auf deine Hand nehmen.",
 			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi prendere fino a due carte Panino di Pepe dalla tua pila degli scarti e aggiungerle alle carte che hai in mano.",
 			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, puedes poner hasta 2 cartas de Bocadillo de Damián de tu pila de descartes en tu mano.",
-			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá colocar até 2 cartas Sanduíche do Arven da sua pilha de descarte na sua mão."
+			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá colocar até 2 cartas Sanduíche do Arven da sua pilha de descarte na sua mão.",
+			'es-mx': "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes poner hasta 2 cartas de Sándwich de Damián de tu pila de descartes en tu mano."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Rolltackle",
 			it: "Rollazione",
 			es: "Placaje Giro",
-			pt: "Golpe de Colisão Rolante"
+			pt: "Golpe de Colisão Rolante",
+			'es-mx': "Tacleada Rodante"
 		},
 
 		damage: 50

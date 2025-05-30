@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Wasch-Rotom",
 		it: "Rotom Lavaggio",
 		es: "Rotom Lavado",
-		pt: "Rotom Lavagem"
+		pt: "Rotom Lavagem",
+		'es-mx': "Rotom Lavado"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Handwäsche",
 			it: "Lavaggio a Mano",
 			es: "Lavado a Mano",
-			pt: "Lavagem Manual"
+			pt: "Lavagem Manual",
+			'es-mx': "Lavado a Mano"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Heile 10 Schadenspunkte bei jedem deiner Pokémon.",
 			it: "Cura ciascuno dei tuoi Pokémon da 10 danni.",
 			es: "Cura 10 puntos de daño a cada uno de tus Pokémon.",
-			pt: "Cure 10 pontos de dano de cada um dos seus Pokémon."
+			pt: "Cure 10 pontos de dano de cada um dos seus Pokémon.",
+			'es-mx': "Cura 10 puntos de daño a cada uno de tus Pokémon."
 		},
 
 		damage: 20
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Gadget-Show",
 			it: "Mostra di Gadget",
 			es: "Espectáculo de Utensilios",
-			pt: "Show de Bugigangas"
+			pt: "Show de Bugigangas",
+			'es-mx': "Show de Artefactos"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
 			it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
 			es: "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon."
+			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon.",
+			'es-mx': "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon."
 		},
 
 		damage: "30×"

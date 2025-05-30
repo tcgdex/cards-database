@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Cynthias Kryppuk",
 		it: "Spiritomb di Camilla",
 		es: "Spiritomb de Cintia",
-		pt: "Spiritomb da Cíntia"
+		pt: "Spiritomb da Cíntia",
+		'es-mx': "Spiritomb de Cynthia"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Wütender Fluch",
 			it: "Maledizione Furiosa",
 			es: "Maldición Furiosa",
-			pt: "Maldição Devastadora"
+			pt: "Maldição Devastadora",
+			'es-mx': "Maldición Iracunda"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede Schadensmarke auf allen Cynthias Pokémon auf deiner Bank 10 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche nicht verändert.",
 			it: "Questo attacco infligge 10 danni per ogni segnalino danno presente sui tuoi Pokémon di Camilla in panchina. I danni di questo attacco non sono influenzati dalla debolezza.",
 			es: "Este ataque hace 10 puntos de daño por cada contador de daño en cada uno de tus Pokémon de Cintia en Banca. El daño de este ataque no se ve afectado por Debilidad.",
-			pt: "Este ataque causa 10 pontos de dano para cada contador de dano em todos os seus Pokémon da Cíntia no Banco. O dano deste ataque não é afetado por Fraqueza."
+			pt: "Este ataque causa 10 pontos de dano para cada contador de dano em todos os seus Pokémon da Cíntia no Banco. O dano deste ataque não é afetado por Fraqueza.",
+			'es-mx': "Este ataque hace 10 puntos de daño por cada contador de daño en cada uno de tus Pokémon de Cynthia en Banca. El daño de este ataque no se ve afectado por Debilidad."
 		},
 
 		damage: "10×"

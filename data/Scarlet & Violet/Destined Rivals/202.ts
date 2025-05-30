@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Rattikarl",
 		it: "Raticate del Team Rocket",
 		es: "Raticate del Team Rocket",
-		pt: "Raticate da Equipe Rocket"
+		pt: "Raticate da Equipe Rocket",
+		'es-mx': "Raticate del Equipo Rocket"
 	},
 
 	rarity: "Illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Absolute Hingabe",
 			it: "Impeto Avventato",
 			es: "Abandono Temerario",
-			pt: "Abandono Imprudente"
+			pt: "Abandono Imprudente",
+			'es-mx': "Abandono Temerario"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wirf 2 Münzen. Zeigen beide Münzen Zahl, fügt dieses Pokémon auch sich selbst 90 Schadenspunkte zu.",
 			it: "Lancia due volte una moneta. Se esce entrambe le volte croce, questo Pokémon infligge anche 90 danni a se stesso.",
 			es: "Lanza 2 monedas. Si sale cruz en ambas, este Pokémon también se hace 90 puntos de daño a sí mismo.",
-			pt: "Jogue 2 moedas. Se as duas saírem coroa, este Pokémon também causará 90 pontos de dano a si mesmo."
+			pt: "Jogue 2 moedas. Se as duas saírem coroa, este Pokémon também causará 90 pontos de dano a si mesmo.",
+			'es-mx': "Lanza 2 monedas. Si sale cruz en ambas, este Pokémon también se hace 90 puntos de daño a sí mismo."
 		},
 
 		damage: 90

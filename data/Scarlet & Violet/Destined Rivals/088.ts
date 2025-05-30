@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Keradar",
 		it: "Dottler del Team Rocket",
 		es: "Dottler del Team Rocket",
-		pt: "Dottler da Equipe Rocket"
+		pt: "Dottler da Equipe Rocket",
+		'es-mx': "Dottler del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Störradar",
 			it: "Radar Destabilizzante",
 			es: "Radar Disruptivo",
-			pt: "Radar Disruptivo"
+			pt: "Radar Disruptivo",
+			'es-mx': "Radar Disruptivo"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Schau dir die obersten 5 Karten des Decks deines Gegners an und lege sie in beliebiger Reihenfolge zurück auf sein Deck.",
 			it: "Guarda le prime cinque carte del mazzo del tuo avversario e rimettile a posto nell'ordine che preferisci.",
 			es: "Mira las 5 primeras cartas de la baraja de tu rival y vuelve a ponerlas en la parte superior de su baraja en el orden que quieras.",
-			pt: "Olhe as 5 cartas de cima do baralho do seu oponente e coloque-as de volta em qualquer ordem."
+			pt: "Olhe as 5 cartas de cima do baralho do seu oponente e coloque-as de volta em qualquer ordem.",
+			'es-mx': "Mira las primeras 5 cartas del mazo de tu rival y vuelve a ponerlas en la parte superior de su mazo en el orden que quieras."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Super-Psischlag",
 			it: "Superpsico",
 			es: "Superrayo Psi",
-			pt: "Super-raio Psíquico"
+			pt: "Super-raio Psíquico",
+			'es-mx': "Superpsicotrueno"
 		},
 
 		damage: 30

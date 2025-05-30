@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Hunduster",
 		it: "Houndour del Team Rocket",
 		es: "Houndour del Team Rocket",
-		pt: "Houndour da Equipe Rocket"
+		pt: "Houndour da Equipe Rocket",
+		'es-mx': "Houndour del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Stetiger Feuerhauch",
 			it: "Soffiofuoco Mirato",
 			es: "Lanzallamas Continuo",
-			pt: "Hálito de Fogo Constante"
+			pt: "Hálito de Fogo Constante",
+			'es-mx': "Escupefuego"
 		},
 
 		damage: 20

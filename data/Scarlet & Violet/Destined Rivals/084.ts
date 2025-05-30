@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Troys Lepumentas",
 		it: "Claydol di Rocco",
 		es: "Claydol de Máximo",
-		pt: "Claydol do Steven"
+		pt: "Claydol do Steven",
+		'es-mx': "Claydol de Steven"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Gespenstisches Licht",
 			it: "Luci Inquietanti",
 			es: "Luz Lúgubre",
-			pt: "Luz Misteriosa"
+			pt: "Luz Misteriosa",
+			'es-mx': "Luz Inquietante"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso."
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido."
 		},
 
 		damage: 20
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Lehmdetonation",
 			it: "Esplosione d'Argilla",
 			es: "Explosión de Barro",
-			pt: "Explosão de Argila"
+			pt: "Explosão de Argila",
+			'es-mx': "Explosión de Barro"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
 			it: "Scarta tutte le Energie da questo Pokémon.",
 			es: "Descarta todas las Energías de este Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon."
+			pt: "Descarte todas as Energias deste Pokémon.",
+			'es-mx': "Descarta todas las Energías de este Pokémon."
 		},
 
 		damage: 220

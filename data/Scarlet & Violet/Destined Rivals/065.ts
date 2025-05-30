@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Kolowal-ex",
 		it: "Cetitan-ex",
 		es: "Cetitan ex",
-		pt: "Cetitan ex"
+		pt: "Cetitan ex",
+		'es-mx': "Cetitan ex"
 	},
 
 	rarity: "Double rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Schneetarnung",
 			it: "Camuffaneve",
 			es: "Camuflaje de Nieve",
-			pt: "Camuflagem de Neve"
+			pt: "Camuflagem de Neve",
+			'es-mx': "Camuflaje de Nieve"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Verhindere jedes Mal, wenn dein Gegner 1 Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die diesem Pokémon zugefügt werden.",
 			it: "Ogni volta che il tuo avversario gioca una carta Strumento o Aiuto che ha in mano, previeni tutti gli effetti di quella carta su questo Pokémon.",
 			es: "Cada vez que tu rival juegue una carta de Objeto o de Partidario de su mano, se evitan todos los efectos de esa carta infligidos a este Pokémon.",
-			pt: "Sempre que seu oponente jogar uma carta de Item ou de Apoiador da mão dele, previna todos os efeitos daquela carta causados a este Pokémon."
+			pt: "Sempre que seu oponente jogar uma carta de Item ou de Apoiador da mão dele, previna todos os efeitos daquela carta causados a este Pokémon.",
+			'es-mx': "Cada vez que tu rival juegue 1 carta de Objeto o de Partidario de su mano, se evitan todos los efectos de esa carta infligidos a este Pokémon."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Quetschende Presse",
 			it: "Pressa Dirompente",
 			es: "Presión Demoledora",
-			pt: "Compressão Esmagadora"
+			pt: "Compressão Esmagadora",
+			'es-mx': "Plancha Demoledora"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Du kannst 1 Stadionkarte im Spiel auf den Ablagestapel legen. Wenn du das machst, fügt diese Attacke 140 Schadenspunkte mehr zu.",
 			it: "Puoi scartare una carta Stadio in gioco. Se lo fai, questo attacco infligge 140 danni in più.",
 			es: "Puedes descartar 1 Estadio en juego. Si lo haces, este ataque hace 140 puntos de daño más.",
-			pt: "Você pode descartar um Estádio em jogo. Se fizer isto, este ataque causará 140 pontos de dano a mais."
+			pt: "Você pode descartar um Estádio em jogo. Se fizer isto, este ataque causará 140 pontos de dano a mais.",
+			'es-mx': "Puedes descartar 1 Estadio en juego. Si lo haces, este ataque hace 140 puntos de daño más."
 		},
 
 		damage: "140+"

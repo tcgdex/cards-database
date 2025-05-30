@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Mistys Starmie",
 		it: "Starmie di Misty",
 		es: "Starmie de Misty",
-		pt: "Starmie da Misty"
+		pt: "Starmie da Misty",
+		'es-mx': "Starmie de Misty"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Abrupter Blitz",
 			it: "Flash Inaspettato",
 			es: "Destello Súbito",
-			pt: "Clarão Abrupto"
+			pt: "Clarão Abrupto",
+			'es-mx': "Destello Súbito"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wenn sich dieses Pokémon während dieses Zuges aus Mistys Sterndu entwickelt hat, fügt diese Attacke 80 Schadenspunkte mehr zu.",
 			it: "Se questo Pokémon si è evoluto da Staryu di Misty durante questo turno, questo attacco infligge 80 danni in più.",
 			es: "Si este Pokémon ha evolucionado de Staryu de Misty durante este turno, este ataque hace 80 puntos de daño más.",
-			pt: "Se este Pokémon evoluiu de Staryu da Misty durante este turno, este ataque causará 80 pontos de dano a mais."
+			pt: "Se este Pokémon evoluiu de Staryu da Misty durante este turno, este ataque causará 80 pontos de dano a mais.",
+			'es-mx': "Si este Pokémon evolucionó de Staryu de Misty durante este turno, este ataque hace 80 puntos de daño más."
 		},
 
 		damage: "60+"

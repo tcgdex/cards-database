@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Klarins Tornupto",
 		it: "Typhlosion di Armonio",
 		es: "Typhlosion de Eco",
-		pt: "Typhlosion do Ethan"
+		pt: "Typhlosion do Ethan",
+		'es-mx': "Typhlosion de Ethan"
 	},
 
 	rarity: "Illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Kumpel-Explosion",
 			it: "Esplosione Amica",
 			es: "Amistad Explosiva",
-			pt: "Rajada Amiga"
+			pt: "Rajada Amiga",
+			'es-mx': "Explosión Amistosa"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede Klarins Abenteuer-Karte in deinem Ablagestapel 60 Schadenspunkte mehr zu.",
 			it: "Questo attacco infligge 60 danni in più per ogni carta Avventura di Armonio nella tua pila degli scarti.",
 			es: "Este ataque hace 60 puntos de daño más por cada carta de Aventura de Eco en tu pila de descartes.",
-			pt: "Este ataque causa 60 pontos de dano a mais para cada carta Aventura do Ethan na sua pilha de descarte."
+			pt: "Este ataque causa 60 pontos de dano a mais para cada carta Aventura do Ethan na sua pilha de descarte.",
+			'es-mx': "Este ataque hace 60 puntos de daño más por cada carta de Aventura de Ethan en tu pila de descartes."
 		},
 
 		damage: "40+"
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Dampfgeschütz",
 			it: "Artiglieria Vapore",
 			es: "Artillería de Vapor",
-			pt: "Artilharia de Vapor"
+			pt: "Artilharia de Vapor",
+			'es-mx': "Artillería de Vapor"
 		},
 
 		damage: 160

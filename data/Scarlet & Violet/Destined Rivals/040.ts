@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Flemmli",
 		it: "Torchic",
 		es: "Torchic",
-		pt: "Torchic"
+		pt: "Torchic",
+		'es-mx': "Torchic"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Sammeln",
 			it: "Tassa",
 			es: "Coleccionar",
-			pt: "Coleta"
+			pt: "Coleta",
+			'es-mx': "Recolectar"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Ziehe 1 Karte.",
 			it: "Pesca una carta.",
 			es: "Roba 1 carta.",
-			pt: "Compre uma carta."
+			pt: "Compre uma carta.",
+			'es-mx': "Roba 1 carta."
 		}
 	}, {
 		cost: ["Fire"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Glühen",
 			it: "Fuoco Continuo",
 			es: "Combustión",
-			pt: "Combustão"
+			pt: "Combustão",
+			'es-mx': "Combustión"
 		},
 
 		damage: 10

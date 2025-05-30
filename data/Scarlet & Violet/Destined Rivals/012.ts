@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Castellith",
 		it: "Crustle",
 		es: "Crustle",
-		pt: "Crustle"
+		pt: "Crustle",
+		'es-mx': "Crustle"
 	},
 
 	rarity: "Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Geheimnisvolles Steinhaus",
 			it: "Pietracasa Misteriosa",
 			es: "Casapiedra Misteriosa",
-			pt: "Rocha Misteriosa"
+			pt: "Rocha Misteriosa",
+			'es-mx': "Casapiedra Misteriosa"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon-ex deines Gegners zugefügt wird.",
 			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon-ex del tuo avversario.",
 			es: "Se evita todo el daño infligido a este Pokémon por ataques de los Pokémon ex de tu rival.",
-			pt: "Previna todo o dano causado a este Pokémon por ataques dos Pokémon ex do seu oponente."
+			pt: "Previna todo o dano causado a este Pokémon por ataques dos Pokémon ex do seu oponente.",
+			'es-mx': "Se evita todo el daño infligido por ataques de los Pokémon ex de tu rival a este Pokémon."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Süperbe Scheren",
 			it: "Forbici Formidabili",
 			es: "Tijeras Espléndidas",
-			pt: "Tremendas Tesouras"
+			pt: "Tremendas Tesouras",
+			'es-mx': "Tijeras Espléndidas"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
 			it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
 			es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
-			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente."
+			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+			'es-mx': "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival."
 		},
 
 		damage: 120

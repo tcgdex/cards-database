@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Porygon-Z",
 		it: "Porygon-Z del Team Rocket",
 		es: "Porygon-Z del Team Rocket",
-		pt: "Porygon-Z da Equipe Rocket"
+		pt: "Porygon-Z da Equipe Rocket",
+		'es-mx': "Porygon-Z del Equipo Rocket"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Rekonfigurieren",
 			it: "Ricostituzione",
 			es: "Reconstitución",
-			pt: "Reconstituição"
+			pt: "Reconstituição",
+			'es-mx': "Reconstitución"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Du musst 2 Karten aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 1 Karte ziehen.",
 			it: "Devi scartare due carte che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi pescare una carta.",
 			es: "Debes descartar 2 cartas de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes robar 1 carta.",
-			pt: "Você deve descartar 2 cartas da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá comprar uma carta."
+			pt: "Você deve descartar 2 cartas da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá comprar uma carta.",
+			'es-mx': "Debes descartar 2 cartas de tu mano para poder usar esta Habilidad. Una vez durante tu turno, puedes robar 1 carta."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "R-Befehl",
 			it: "Comando R",
 			es: "Comando R",
-			pt: "Comando R"
+			pt: "Comando R",
+			'es-mx': "Comando R"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede Unterstützerkarte in deinem Ablagestapel, bei der \"Team Rocket\" zum Namen gehört, 20 Schadenspunkte zu.",
 			it: "Questo attacco infligge 20 danni per ogni carta Aiuto nella tua pila degli scarti che ha \"Team Rocket\" nel nome.",
 			es: "Este ataque hace 20 puntos de daño por cada carta de Partidario en tu pila de descartes que tenga \"Team Rocket\" en su nombre.",
-			pt: "Este ataque causa 20 pontos de dano para cada carta de Apoiador que tenha \"Equipe Rocket\" em seu nome na sua pilha de descarte."
+			pt: "Este ataque causa 20 pontos de dano para cada carta de Apoiador que tenha \"Equipe Rocket\" em seu nome na sua pilha de descarte.",
+			'es-mx': "Este ataque hace 20 puntos de daño por cada carta de Partidario en tu pila de descartes que tenga \"Equipo Rocket\" en su nombre."
 		},
 
 		damage: "20×"

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Hitze-Rotom",
 		it: "Rotom Calore",
 		es: "Rotom Calor",
-		pt: "Rotom Calor"
+		pt: "Rotom Calor",
+		'es-mx': "Rotom Calor"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Versengung",
 			it: "Scottata",
 			es: "Quemadura",
-			pt: "Chamuscada"
+			pt: "Chamuscada",
+			'es-mx': "Quemadura"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado."
+			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Quemado."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Gadget-Show",
 			it: "Mostra di Gadget",
 			es: "Espectáculo de Utensilios",
-			pt: "Show de Bugigangas"
+			pt: "Show de Bugigangas",
+			'es-mx': "Show de Artefactos"
 		},
 
 		effect: {
@@ -57,7 +61,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
 			it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
 			es: "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon."
+			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon.",
+			'es-mx': "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon."
 		},
 
 		damage: "30×"

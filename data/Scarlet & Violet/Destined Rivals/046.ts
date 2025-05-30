@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Mistys Sterndu",
 		it: "Staryu di Misty",
 		es: "Staryu de Misty",
-		pt: "Staryu da Misty"
+		pt: "Staryu da Misty",
+		'es-mx': "Staryu de Misty"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Blubbstrahl",
 			it: "Bollaraggio",
 			es: "Rayo Burbuja",
-			pt: "Jato de Bolhas"
+			pt: "Jato de Bolhas",
+			'es-mx': "Rayo Burbuja"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
+			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado."
 		},
 
 		damage: 20

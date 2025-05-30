@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Lavados-ex",
 		it: "Moltres-ex del Team Rocket",
 		es: "Moltres ex del Team Rocket",
-		pt: "Moltres ex da Equipe Rocket"
+		pt: "Moltres ex da Equipe Rocket",
+		'es-mx': "Moltres ex del Equipo Rocket"
 	},
 
 	rarity: "Ultra Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Flammenschirm",
 			it: "Muro di Fuoco",
 			es: "Pantallama",
-			pt: "Cortina de Chamas"
+			pt: "Cortina de Chamas",
+			'es-mx': "Pantallama"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 50 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
 			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 50 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 			es: "Durante el próximo turno de tu rival, los ataques hacen 50 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 50 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 50 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'es-mx': "Durante el próximo turno de tu rival, los ataques hacen 50 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
 		},
 
 		damage: 110
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Boshafte Einäscherung",
 			it: "Incenerimento Maligno",
 			es: "Calcinación Malvada",
-			pt: "Incineração do Mal"
+			pt: "Incineração do Mal",
+			'es-mx': "Calcinación Malvada"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Lege 1 Team Rockets Energie von diesem Pokémon auf deinen Ablagestapel. Wenn du das machst, lege das Aktive Pokémon deines Gegners und alle angelegten Karten auf seinen Ablagestapel.",
 			it: "Scarta un'Energia del Team Rocket da questo Pokémon. Se lo fai, scarta il Pokémon attivo del tuo avversario e tutte le carte a esso assegnate.",
 			es: "Descarta 1 Energía del Team Rocket de este Pokémon. Si lo haces, descarta el Pokémon Activo de tu rival y todas las cartas unidas a él.",
-			pt: "Descarte uma Energia da Equipe Rocket deste Pokémon. Se fizer isto, descarte o Pokémon Ativo do seu oponente e todas as cartas ligadas a ele."
+			pt: "Descarte uma Energia da Equipe Rocket deste Pokémon. Se fizer isto, descarte o Pokémon Ativo do seu oponente e todas as cartas ligadas a ele.",
+			'es-mx': "Descarta 1 Energía del Equipo Rocket de este Pokémon. Si lo haces, descarta el Pokémon Activo de tu rival y todas las cartas unidas a él."
 		}
 	}],
 

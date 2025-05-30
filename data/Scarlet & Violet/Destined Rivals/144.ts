@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Troys Metang",
 		it: "Metang di Rocco",
 		es: "Metang de Máximo",
-		pt: "Metang do Steven"
+		pt: "Metang do Steven",
+		'es-mx': "Metang de Steven"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Metallschlitzer",
 			it: "Lacerametallo",
 			es: "Tajo Metálico",
-			pt: "Talho de Metal"
+			pt: "Talho de Metal",
+			'es-mx': "Cuchillada Metálica"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'es-mx': "Durante tu próximo turno, este Pokémon no puede atacar."
 		},
 
 		damage: 70

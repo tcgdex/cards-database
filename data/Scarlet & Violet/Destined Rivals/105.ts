@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Hippopotas",
 		it: "Hippopotas",
 		es: "Hippopotas",
-		pt: "Hippopotas"
+		pt: "Hippopotas",
+		'es-mx': "Hippopotas"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Runterdrücken",
 			it: "Spintonare",
 			es: "Oprimir",
-			pt: "Rebaixar"
+			pt: "Rebaixar",
+			'es-mx': "Oprimir"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
 			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
 			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
+			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
+			'es-mx': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo)."
 		},
 
 		damage: 10

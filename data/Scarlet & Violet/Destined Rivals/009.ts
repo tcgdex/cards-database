@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Schneid-Rotom",
 		it: "Rotom Taglio",
 		es: "Rotom Corte",
-		pt: "Rotom Corte"
+		pt: "Rotom Corte",
+		'es-mx': "Rotom Podadora"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Stutzende Schneide",
 			it: "Falciatrice",
 			es: "Cortacésped",
-			pt: "Cortador de Grama"
+			pt: "Cortador de Grama",
+			'es-mx': "Cortacésped"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Lege 1 Stadionkarte im Spiel auf den Ablagestapel.",
 			it: "Scarta una carta Stadio in gioco.",
 			es: "Descarta 1 Estadio en juego.",
-			pt: "Descarte um Estádio em jogo."
+			pt: "Descarte um Estádio em jogo.",
+			'es-mx': "Descarta 1 Estadio en juego."
 		},
 
 		damage: 20
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Gadget-Show",
 			it: "Mostra di Gadget",
 			es: "Espectáculo de Utensilios",
-			pt: "Show de Bugigangas"
+			pt: "Show de Bugigangas",
+			'es-mx': "Show de Artefactos"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
 			it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
 			es: "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon."
+			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon.",
+			'es-mx': "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon."
 		},
 
 		damage: "30×"

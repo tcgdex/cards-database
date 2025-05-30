@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Klarins Ho-Oh-ex",
 		it: "Ho-Oh-ex di Armonio",
 		es: "Ho-Oh ex de Eco",
-		pt: "Ho-Oh ex do Ethan"
+		pt: "Ho-Oh ex do Ethan",
+		'es-mx': "Ho-Oh ex de Ethan"
 	},
 
 	rarity: "Double rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Goldene Flamme",
 			it: "Fiamma Dorata",
 			es: "Llama Dorada",
-			pt: "Chama Dourada"
+			pt: "Chama Dourada",
+			'es-mx': "Llama Dorada"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Einmal während deines Zuges kannst du bis zu 2 Basis-{R}-Energiekarten aus deiner Hand an 1 Klarins Pokémon auf deiner Bank anlegen.",
 			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon di Armonio in panchina fino a due carte Energia base {R} dalla tua mano.",
 			es: "Una vez durante tu turno, puedes unir hasta 2 cartas de Energía {R} Básica de tu mano a uno de tus Pokémon de Eco en Banca.",
-			pt: "Uma vez durante o seu turno, você poderá ligar até 2 cartas de Energia {R} Básica da sua mão a 1 dos seus Pokémon do Ethan no Banco."
+			pt: "Uma vez durante o seu turno, você poderá ligar até 2 cartas de Energia {R} Básica da sua mão a 1 dos seus Pokémon do Ethan no Banco.",
+			'es-mx': "Una vez durante tu turno, puedes unir hasta 2 cartas de Energía {R} Básica de tu mano a 1 de tus Pokémon de Ethan en Banca."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Schimmernde Federn",
 			it: "Piume Lucenti",
 			es: "Plumas Radiantes",
-			pt: "Plumas Brilhantes"
+			pt: "Plumas Brilhantes",
+			'es-mx': "Plumas Radiantes"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Heile 50 Schadenspunkte bei jedem deiner Pokémon.",
 			it: "Cura ciascuno dei tuoi Pokémon da 50 danni.",
 			es: "Cura 50 puntos de daño a cada uno de tus Pokémon.",
-			pt: "Cure 50 pontos de dano de cada um dos seus Pokémon."
+			pt: "Cure 50 pontos de dano de cada um dos seus Pokémon.",
+			'es-mx': "Cura 50 puntos de daño a cada uno de tus Pokémon."
 		},
 
 		damage: 160

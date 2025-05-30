@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Yanma",
 		it: "Yanma",
 		es: "Yanma",
-		pt: "Yanma"
+		pt: "Yanma",
+		'es-mx': "Yanma"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Wirbelwind",
 			it: "Turbine",
 			es: "Remolino",
-			pt: "Ataque de Vento"
+			pt: "Ataque de Vento",
+			'es-mx': "Torbellino"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
 			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
 			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
+			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
+			'es-mx': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo)."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Rasierflügel",
 			it: "Ala Tagliente",
 			es: "Ala Cortante",
-			pt: "Asa Cortante"
+			pt: "Asa Cortante",
+			'es-mx': "Ala Cortante"
 		},
 
 		damage: 30

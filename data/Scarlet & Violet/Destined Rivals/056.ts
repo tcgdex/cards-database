@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Saganabyss",
 		it: "Gorebyss",
 		es: "Gorebyss",
-		pt: "Gorebyss"
+		pt: "Gorebyss",
+		'es-mx': "Gorebyss"
 	},
 
 	rarity: "Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Crescendowelle",
 			it: "Onda Crescente",
 			es: "Ola Creciente",
-			pt: "Onda Crescente"
+			pt: "Onda Crescente",
+			'es-mx': "Ola Creciente"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 30 Schadenspunkte zu. Bevor du Schaden zufügst, kannst du beliebig viele Basis-{W}-Energiekarten aus deiner Hand an dieses Pokémon anlegen.",
 			it: "Questo attacco infligge 30 danni per ogni Energia {W} assegnata a questo Pokémon. Prima di infliggere danni, puoi assegnare a questo Pokémon un numero qualsiasi di carte Energia base {W} dalla tua mano.",
 			es: "Este ataque hace 30 puntos de daño por cada Energía {W} unida a este Pokémon. Antes de infligir daño, puedes unir cualquier cantidad de cartas de Energía {W} Básica de tu mano a este Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada Energia {W} ligada a este Pokémon. Antes de causar dano, você poderá ligar qualquer número de cartas de Energia {W} Básica da sua mão a este Pokémon."
+			pt: "Este ataque causa 30 pontos de dano para cada Energia {W} ligada a este Pokémon. Antes de causar dano, você poderá ligar qualquer número de cartas de Energia {W} Básica da sua mão a este Pokémon.",
+			'es-mx': "Este ataque hace 30 puntos de daño por cada Energía {W} unida a este Pokémon. Antes de infligir daño, puedes unir cualquier cantidad de cartas de Energía {W} Básica de tu mano a este Pokémon."
 		},
 
 		damage: "30×"

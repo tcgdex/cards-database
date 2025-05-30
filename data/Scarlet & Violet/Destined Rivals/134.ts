@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Marys Bähmon",
 		it: "Impidimp di Mary",
 		es: "Impidimp de Roxy",
-		pt: "Impidimp da Marine"
+		pt: "Impidimp da Marine",
+		'es-mx': "Impidimp de Marnie"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Mopsen",
 			it: "Furtarello",
 			es: "Birlar",
-			pt: "Furtar"
+			pt: "Furtar",
+			'es-mx': "Hurtar"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Ziehe 1 Karte.",
 			it: "Pesca una carta.",
 			es: "Roba 1 carta.",
-			pt: "Compre uma carta."
+			pt: "Compre uma carta.",
+			'es-mx': "Roba 1 carta."
 		}
 	}, {
 		cost: ["Darkness"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Korkenzieherhieb",
 			it: "Pugno Rotante",
 			es: "Puño Tirabuzón",
-			pt: "Soco Saca-rolha"
+			pt: "Soco Saca-rolha",
+			'es-mx': "Puño Sacacorchos"
 		},
 
 		damage: 10

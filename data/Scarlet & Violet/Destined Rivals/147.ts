@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Rattfratz",
 		it: "Rattata del Team Rocket",
 		es: "Rattata del Team Rocket",
-		pt: "Rattata da Equipe Rocket"
+		pt: "Rattata da Equipe Rocket",
+		'es-mx': "Rattata del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Gefährliche Nagerei",
 			it: "Incisivi Pericolosi",
 			es: "Incisivos Peligrosos",
-			pt: "Incisivos Perigosos"
+			pt: "Incisivos Perigosos",
+			'es-mx': "Incisivos Peligrosos"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado."
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Envenenado."
 		},
 
 		damage: 10

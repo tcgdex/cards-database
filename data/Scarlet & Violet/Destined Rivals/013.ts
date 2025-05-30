@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Imantis",
 		it: "Fomantis",
 		es: "Fomantis",
-		pt: "Fomantis"
+		pt: "Fomantis",
+		'es-mx': "Fomantis"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Zerhäckseln",
 			it: "Tagliuzzamento",
 			es: "Trocear",
-			pt: "Dilacerar"
+			pt: "Dilacerar",
+			'es-mx': "Trozar"
 		},
 
 		damage: 20

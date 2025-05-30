@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Panzaeron",
 		it: "Skarmory",
 		es: "Skarmory",
-		pt: "Skarmory"
+		pt: "Skarmory",
+		'es-mx': "Skarmory"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Ruheort",
 			it: "Trespolo",
 			es: "Respiro",
-			pt: "Poleiro"
+			pt: "Poleiro",
+			'es-mx': "Respiro"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Heile 50 Schadenspunkte bei diesem Pokémon. Während deines nächsten Zuges kann sich dieses Pokémon nicht zurückziehen.",
 			it: "Cura questo Pokémon da 50 danni. Durante il tuo prossimo turno, questo Pokémon non può ritirarsi.",
 			es: "Cura 50 puntos de daño a este Pokémon. Durante tu próximo turno, este Pokémon no puede retirarse.",
-			pt: "Cure 50 pontos de dano deste Pokémon. Durante o seu próximo turno, este Pokémon não poderá recuar."
+			pt: "Cure 50 pontos de dano deste Pokémon. Durante o seu próximo turno, este Pokémon não poderá recuar.",
+			'es-mx': "Cura 50 puntos de daño a este Pokémon. Durante tu próximo turno, este Pokémon no puede retirarse."
 		}
 	}, {
 		cost: ["Metal", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Metallklaue",
 			it: "Ferrartigli",
 			es: "Garra Metal",
-			pt: "Garra de Metal"
+			pt: "Garra de Metal",
+			'es-mx': "Garra de Metal"
 		},
 
 		damage: 60

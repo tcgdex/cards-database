@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Flaniwal",
 		it: "Cetoddle",
 		es: "Cetoddle",
-		pt: "Cetoddle"
+		pt: "Cetoddle",
+		'es-mx': "Cetoddle"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Sanfter Hieb",
 			it: "Schiaffetto",
 			es: "Bofetada Gentil",
-			pt: "Tapinha"
+			pt: "Tapinha",
+			'es-mx': "Cachetadita"
 		},
 
 		damage: 30
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Frostschlag",
 			it: "Gelocolpo",
 			es: "Golpe Gélido",
-			pt: "Pancada Congelada"
+			pt: "Pancada Congelada",
+			'es-mx': "Golpazo Gélido"
 		},
 
 		damage: 80

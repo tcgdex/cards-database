@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Tarundel",
 		it: "Tarountula del Team Rocket",
 		es: "Tarountula del Team Rocket",
-		pt: "Tarountula da Equipe Rocket"
+		pt: "Tarountula da Equipe Rocket",
+		'es-mx': "Tarountula del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Bodycheck",
 			it: "Riduttore",
 			es: "Derribo",
-			pt: "Desmantelar"
+			pt: "Desmantelar",
+			'es-mx': "Derribo"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
 			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
 			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'es-mx': "Este Pokémon también se hace 10 puntos de daño a sí mismo."
 		},
 
 		damage: 30

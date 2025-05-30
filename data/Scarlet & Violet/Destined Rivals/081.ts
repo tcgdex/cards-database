@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Mewtu-ex",
 		it: "Mewtwo-ex del Team Rocket",
 		es: "Mewtwo ex del Team Rocket",
-		pt: "Mewtwo ex da Equipe Rocket"
+		pt: "Mewtwo ex da Equipe Rocket",
+		'es-mx': "Mewtwo ex del Equipo Rocket"
 	},
 
 	rarity: "Double rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Sparpower",
 			it: "Serbaforza",
 			es: "Ahorro de Poder",
-			pt: "Economizador de Energia"
+			pt: "Economizador de Energia",
+			'es-mx': "Ahorro de Poder"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Dieses Pokémon kann nicht angreifen, es sei denn, du hast 4 oder mehr Team Rockets Pokémon im Spiel.",
 			it: "Questo Pokémon non può attaccare a meno che tu non abbia quattro o più Pokémon del Team Rocket in gioco.",
 			es: "Este Pokémon no puede atacar a menos que tengas 4 Pokémon del Team Rocket o más en juego.",
-			pt: "Este Pokémon não pode atacar a não ser que você tenha 4 ou mais Pokémon da Equipe Rocket em jogo."
+			pt: "Este Pokémon não pode atacar a não ser que você tenha 4 ou mais Pokémon da Equipe Rocket em jogo.",
+			'es-mx': "Este Pokémon no puede atacar a menos que tengas 4 Pokémon del Equipo Rocket o más en juego."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Löschball",
 			it: "Annientapalla",
 			es: "Bola Correctora",
-			pt: "Bola de Supressão"
+			pt: "Bola de Supressão",
+			'es-mx': "Bola Aniquiladora"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Du kannst bis zu 2 Energien von Pokémon auf deiner Bank auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte mehr zu.",
 			it: "Puoi scartare fino a due Energie dai tuoi Pokémon in panchina. Questo attacco infligge 60 danni in più per ogni carta che hai scartato in questo modo.",
 			es: "Puedes descartar hasta 2 Energías de tus Pokémon en Banca. Este ataque hace 60 puntos de daño más por cada carta que hayas descartado de esta manera.",
-			pt: "Você pode descartar até 2 Energias dos seus Pokémon no Banco. Este ataque causa 60 pontos de dano a mais para cada carta descartada desta forma."
+			pt: "Você pode descartar até 2 Energias dos seus Pokémon no Banco. Este ataque causa 60 pontos de dano a mais para cada carta descartada desta forma.",
+			'es-mx': "Puedes descartar hasta 2 Energías de tus Pokémon en Banca. Este ataque hace 60 puntos de daño más por cada carta que descartaste de esta manera."
 		},
 
 		damage: "160+"

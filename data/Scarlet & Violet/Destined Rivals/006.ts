@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Kapilz",
 		it: "Breloom",
 		es: "Breloom",
-		pt: "Breloom"
+		pt: "Breloom",
+		'es-mx': "Breloom"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Schadensrausch",
 			it: "Sfuriadanni",
 			es: "Embestida Dañina",
-			pt: "Fúria Destruidora"
+			pt: "Fúria Destruidora",
+			'es-mx': "Embestida Dañina"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 50 Schadenspunkte mehr pro Kopf zu.",
 			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 50 danni in più ogni volta che esce testa.",
 			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 50 puntos de daño más por cada cara.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 50 pontos de dano a mais para cada cara."
+			pt: "Jogue uma moeda até sair coroa. Este ataque causa 50 pontos de dano a mais para cada cara.",
+			'es-mx': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 50 puntos de daño más por cada cara."
 		},
 
 		damage: "30+"
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Megasauger",
 			it: "Megassorbimento",
 			es: "Megaagotar",
-			pt: "Megadreno"
+			pt: "Megadreno",
+			'es-mx': "Megadrenado"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
-			pt: "Cure 30 pontos de dano deste Pokémon."
+			pt: "Cure 30 pontos de dano deste Pokémon.",
+			'es-mx': "Cura 30 puntos de daño a este Pokémon."
 		},
 
 		damage: 90

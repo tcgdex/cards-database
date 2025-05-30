@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Nidorino",
 		it: "Nidorino del Team Rocket",
 		es: "Nidorino del Team Rocket",
-		pt: "Nidorino da Equipe Rocket"
+		pt: "Nidorino da Equipe Rocket",
+		'es-mx': "Nidorino del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Einhämmern",
 			it: "Martello",
 			es: "Martillear",
-			pt: "Martelada"
+			pt: "Martelada",
+			'es-mx': "Martillar"
 		},
 
 		damage: 30
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Hornreißer",
 			it: "Cornilaceranti",
 			es: "Quebrar",
-			pt: "Laceração de Chifres"
+			pt: "Laceração de Chifres",
+			'es-mx': "Cuerno Desgarrador"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 60 Schadenspunkte mehr zu.",
 			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 60 danni in più.",
 			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 60 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 60 pontos de dano a mais."
+			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 60 pontos de dano a mais.",
+			'es-mx': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 60 puntos de daño más."
 		},
 
 		damage: "60+"

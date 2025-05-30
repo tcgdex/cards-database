@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Arbok",
 		it: "Arbok del Team Rocket",
 		es: "Arbok del Team Rocket",
-		pt: "Arbok da Equipe Rocket"
+		pt: "Arbok da Equipe Rocket",
+		'es-mx': "Arbok del Equipo Rocket"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Starker Blick",
 			it: "Sguardo Potente",
 			es: "Mirada Potente",
-			pt: "Olhar Imponente"
+			pt: "Olhar Imponente",
+			'es-mx': "Mirada Imponente"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Solange dieses Pokémon in der Aktiven Position ist, kann dein Gegner kein Pokémon, das eine Fähigkeit hat, aus seiner Hand spielen, außer Team Rockets Pokémon.",
 			it: "Fintanto che questo Pokémon è in posizione attiva, il tuo avversario non può giocare nessun Pokémon che ha un'abilità dalla sua mano, a eccezione dei Pokémon del Team Rocket.",
 			es: "Mientras este Pokémon esté en el Puesto Activo, tu rival no puede jugar ningún Pokémon de su mano que tenga una habilidad, excepto los Pokémon del Team Rocket.",
-			pt: "Enquanto este Pokémon estiver no Campo Ativo, seu oponente não poderá jogar nenhum Pokémon que tem uma Habilidade da mão dele, exceto por Pokémon da Equipe Rocket."
+			pt: "Enquanto este Pokémon estiver no Campo Ativo, seu oponente não poderá jogar nenhum Pokémon que tem uma Habilidade da mão dele, exceto por Pokémon da Equipe Rocket.",
+			'es-mx': "Mientras este Pokémon esté en el Puesto Activo, tu rival no puede jugar ningún Pokémon de su mano que tenga una Habilidad, excepto los Pokémon del Equipo Rocket."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Kreisender Schweif",
 			it: "Coda Rotante",
 			es: "Cola Giratoria",
-			pt: "Cauda Giratória"
+			pt: "Cauda Giratória",
+			'es-mx': "Cola Giratoria"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Diese Attacke fügt jedem Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
 			it: "Questo attacco infligge 30 danni a ciascuno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 			es: "Este ataque hace 30 puntos de daño a cada uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			pt: "Este ataque causa 30 pontos de dano a cada um dos Pokémon do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			pt: "Este ataque causa 30 pontos de dano a cada um dos Pokémon do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'es-mx': "Este ataque hace 30 puntos de daño a cada uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
 		}
 	}],
 

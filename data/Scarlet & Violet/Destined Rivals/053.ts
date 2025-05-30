@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Cynthias Milotic",
 		it: "Milotic di Camilla",
 		es: "Milotic de Cintia",
-		pt: "Milotic da Cíntia"
+		pt: "Milotic da Cíntia",
+		'es-mx': "Milotic de Cynthia"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Wasserteiler",
 			it: "Spartiacque",
 			es: "Isoaqua",
-			pt: "Divisão Aquática"
+			pt: "Divisão Aquática",
+			'es-mx': "Acuapartición"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Diese Attacke fügt auch 2 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
 			it: "Questo attacco infligge anche 30 danni a due dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 			es: "Este ataque también hace 30 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			pt: "Este ataque também causa 30 pontos de dano a 2 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			pt: "Este ataque também causa 30 pontos de dano a 2 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'es-mx': "Este ataque también hace 30 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
 		},
 
 		damage: 60

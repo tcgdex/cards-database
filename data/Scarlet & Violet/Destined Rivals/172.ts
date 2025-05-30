@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Stör-Bot",
 		it: "Disturbot del Team Rocket",
 		es: "Robot Incordio del Team Rocket",
-		pt: "Azucrinabot da Equipe Rocket"
+		pt: "Azucrinabot da Equipe Rocket",
+		'es-mx': "Metichobot del Equipo Rocket"
 	},
 
 	rarity: "Uncommon",
@@ -22,7 +23,8 @@ const card: Card = {
 		de: "Decke 1 verdeckte Preiskarte deines Gegners auf und wähle 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt dir jene Karte. Du kannst deinen Gegner dazu veranlassen, jene Karten gegeneinander auszutauschen. (Jene Preiskarte bleibt für den Rest des Spiels aufgedeckt.)",
 		it: "Gira a faccia in su una delle carte Premio coperte del tuo avversario e scegli una carta a caso dalla sua mano. Il tuo avversario mostra quella carta. Puoi far scambiare al tuo avversario quelle carte tra loro. Quella carta Premio resta a faccia in su per il resto della partita.",
 		es: "Pon boca arriba 1 de las cartas de Premio de tu rival que están boca abajo y elige 1 carta aleatoria de la mano de tu rival. Tu rival enseña esa carta. Puedes hacer que tu rival intercambie esas cartas. (Esa carta de Premio permanecerá boca arriba durante el resto de la partida).",
-		pt: "Vire para cima 1 das cartas de Prêmio viradas para baixo do seu oponente e escolha uma carta aleatória da mão do seu oponente. Seu oponente revela aquela carta. Você pode fazer com que o seu oponente troque aquelas cartas. (Aquela carta de Prêmio permanecerá virada para cima pelo resto do jogo.)"
+		pt: "Vire para cima 1 das cartas de Prêmio viradas para baixo do seu oponente e escolha uma carta aleatória da mão do seu oponente. Seu oponente revela aquela carta. Você pode fazer com que o seu oponente troque aquelas cartas. (Aquela carta de Prêmio permanecerá virada para cima pelo resto do jogo.)",
+		'es-mx': "Pon boca arriba 1 de las cartas de Premio de tu rival que están boca abajo y elige 1 carta aleatoria de la mano de tu rival. Tu rival muestra esa carta. Puedes hacer que tu rival intercambie esas cartas. (Esa carta de Premio permanecerá boca arriba durante el resto de la partida)."
 	},
 
 	trainerType: "Item",

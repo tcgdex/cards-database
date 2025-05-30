@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Heerashai-ex",
 		it: "Dondozo-ex",
 		es: "Dondozo ex",
-		pt: "Dondozo ex"
+		pt: "Dondozo ex",
+		'es-mx': "Dondozo ex"
 	},
 
 	rarity: "Double rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Racheschwaden",
 			it: "Ondata Vendicativa",
 			es: "Ola Vengativa",
-			pt: "Maremoto Vingativo"
+			pt: "Maremoto Vingativo",
+			'es-mx': "Ola Vengadora"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu.",
 			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
 			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon."
+			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+			'es-mx': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon."
 		},
 
 		damage: "30+"
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Dynamischer Taucher",
 			it: "Tuffo Dinamico",
 			es: "Picado Dinámico",
-			pt: "Mergulho Dinâmico"
+			pt: "Mergulho Dinâmico",
+			'es-mx': "Buceo Dinámico"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Du kannst 120 Schadenspunkte mehr zufügen. Wenn du das machst, fügt dieses Pokémon auch sich selbst 50 Schadenspunkte zu.",
 			it: "Puoi infliggere 120 danni in più. Se lo fai, questo Pokémon infligge anche 50 danni a se stesso.",
 			es: "Puedes hacer 120 puntos de daño más. Si lo haces, este Pokémon también se hace 50 puntos de daño a sí mismo.",
-			pt: "Você pode causar 120 pontos de dano a mais. Se fizer isto, este Pokémon também causará 50 pontos de dano a si mesmo."
+			pt: "Você pode causar 120 pontos de dano a mais. Se fizer isto, este Pokémon também causará 50 pontos de dano a si mesmo.",
+			'es-mx': "Puedes hacer 120 puntos de daño más. Si lo haces, este Pokémon también se hace 50 puntos de daño a sí mismo."
 		},
 
 		damage: "120+"

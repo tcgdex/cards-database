@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Rexblisar",
 		it: "Abomasnow",
 		es: "Abomasnow",
-		pt: "Abomasnow"
+		pt: "Abomasnow",
+		'es-mx': "Abomasnow"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Sprungangriff",
 			it: "Affondo Lungo",
 			es: "Arremeter",
-			pt: "Bote"
+			pt: "Bote",
+			'es-mx': "Embestida Brusca"
 		},
 
 		damage: 90
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Frostiges Holz",
 			it: "Legno Ghiacciato",
 			es: "Madera Congelada",
-			pt: "Madeira Congelada"
+			pt: "Madeira Congelada",
+			'es-mx': "Madera Congelada"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Wenn an dieses Pokémon mindestens 2 {G}-Energien angelegt sind, fügt diese Attacke 120 Schadenspunkte mehr zu.",
 			it: "Se questo Pokémon ha due o più Energie {G} assegnate, questo attacco infligge 120 danni in più.",
 			es: "Si este Pokémon tiene 2 Energías {G} o más unidas, este ataque hace 120 puntos de daño más.",
-			pt: "Se este Pokémon tiver 2 ou mais Energias {G} ligadas a ele, este ataque causará 120 pontos de dano a mais."
+			pt: "Se este Pokémon tiver 2 ou mais Energias {G} ligadas a ele, este ataque causará 120 pontos de dano a mais.",
+			'es-mx': "Si este Pokémon tiene 2 Energías {G} o más unidas, este ataque hace 120 puntos de daño más."
 		},
 
 		damage: "120+"

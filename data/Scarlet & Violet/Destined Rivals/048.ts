@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Mistys Karpador",
 		it: "Magikarp di Misty",
 		es: "Magikarp de Misty",
-		pt: "Magikarp da Misty"
+		pt: "Magikarp da Misty",
+		'es-mx': "Magikarp de Misty"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Total abgetaucht",
 			it: "Immersione Totale",
 			es: "Inmersión Asombrosa",
-			pt: "Submergidaço"
+			pt: "Submergidaço",
+			'es-mx': "Sumersión a Todo Dar"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Solange sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden durch und alle Effekte von Attacken von Pokémon deines Gegners, die diesem Pokémon zugefügt werden.",
 			it: "Fintanto che questo Pokémon è nella tua panchina, previeni sia i danni che gli effetti degli attacchi dei Pokémon del tuo avversario inflitti a questo Pokémon.",
 			es: "Mientras este Pokémon esté en tu Banca, se evitan todo el daño y todos los efectos de los ataques de los Pokémon de tu rival infligidos a este Pokémon.",
-			pt: "Enquanto este Pokémon estiver no seu Banco, previna todo o dano e os efeitos de ataques dos Pokémon do seu oponente causados a este Pokémon."
+			pt: "Enquanto este Pokémon estiver no seu Banco, previna todo o dano e os efeitos de ataques dos Pokémon do seu oponente causados a este Pokémon.",
+			'es-mx': "Mientras este Pokémon esté en tu Banca, se evitan todo el daño y todos los efectos de los ataques de los Pokémon de tu rival infligidos a este Pokémon."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Platscher",
 			it: "Splash",
 			es: "Salpicadura",
-			pt: "Borrifada"
+			pt: "Borrifada",
+			'es-mx': "Salpicadura"
 		},
 
 		damage: 10

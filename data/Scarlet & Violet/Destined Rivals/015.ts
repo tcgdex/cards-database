@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Sensect",
 		it: "Blipbug del Team Rocket",
 		es: "Blipbug del Team Rocket",
-		pt: "Blipbug da Equipe Rocket"
+		pt: "Blipbug da Equipe Rocket",
+		'es-mx': "Blipbug del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Suchende Augen",
 			it: "Sguardo Inquisitorio",
 			es: "Ojos Escrutadores",
-			pt: "Olhar Minucioso"
+			pt: "Olhar Minucioso",
+			'es-mx': "Ojos Fisgones"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Schau dir 1 der verdeckten Preiskarten deines Gegners an.",
 			it: "Guarda una delle carte Premio coperte del tuo avversario.",
 			es: "Mira 1 de las cartas de Premio de tu rival que están boca abajo.",
-			pt: "Olhe 1 das cartas de Prêmio viradas para baixo do seu oponente."
+			pt: "Olhe 1 das cartas de Prêmio viradas para baixo do seu oponente.",
+			'es-mx': "Mira 1 de las cartas de Premio de tu rival que están boca abajo."
 		}
 	}],
 

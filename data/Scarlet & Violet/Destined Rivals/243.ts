@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Störturm",
 		it: "Torre di Interferenza",
 		es: "Torre de Interferencia",
-		pt: "Torre de Interferência"
+		pt: "Torre de Interferência",
+		'es-mx': "Torre de Interferencia"
 	},
 
 	rarity: "Hyper rare",
@@ -22,7 +23,8 @@ const card: Card = {
 		de: "Die an jedes Pokémon (deine und die deines Gegners) angelegten Pokémon-Ausrüstungen haben keinen Effekt.",
 		it: "Le carte Oggetto Pokémon assegnate a ciascun Pokémon, sia tuo che del tuo avversario, non hanno effetto.",
 		es: "Las Herramientas Pokémon unidas a cada Pokémon (tanto tuyos como de tu rival) no tienen ningún efecto.",
-		pt: "Ferramentas Pokémon ligadas a cada Pokémon (seus e do seu oponente) não têm efeito."
+		pt: "Ferramentas Pokémon ligadas a cada Pokémon (seus e do seu oponente) não têm efeito.",
+		'es-mx': "Las Herramientas Pokémon unidas a cada Pokémon (tanto tuyos como de tu rival) no tienen ningún efecto."
 	},
 
 	trainerType: "Stadium",

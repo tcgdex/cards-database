@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Mimigma",
 		it: "Mimikyu del Team Rocket",
 		es: "Mimikyu del Team Rocket",
-		pt: "Mimikyu da Equipe Rocket"
+		pt: "Mimikyu da Equipe Rocket",
+		'es-mx': "Mimikyu del Equipo Rocket"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Edelstein-Imitation",
 			it: "Imitagemma",
 			es: "Mimetismo Gema",
-			pt: "Mimetismo de Joias"
+			pt: "Mimetismo de Joias",
+			'es-mx': "Gema de Imitación"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wähle 1 Attacke des Aktiven Terakristall-Pokémon deines Gegners und setze sie als diese Attacke ein.",
 			it: "Scegli un attacco del Pokémon Teracristal attivo del tuo avversario e usalo al posto di questo attacco.",
 			es: "Elige uno de los ataques del Pokémon Teracristal Activo de tu rival y úsalo para este ataque.",
-			pt: "Escolha 1 dos ataques do Pokémon Tera Ativo do seu oponente e use-o como este ataque."
+			pt: "Escolha 1 dos ataques do Pokémon Tera Ativo do seu oponente e use-o como este ataque.",
+			'es-mx': "Elige 1 de los ataques del Pokémon Teracristal Activo de tu rival y úsalo como este ataque."
 		}
 	}],
 

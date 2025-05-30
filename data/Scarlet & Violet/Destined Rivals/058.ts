@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Bojelin",
 		it: "Floatzel",
 		es: "Floatzel",
-		pt: "Floatzel"
+		pt: "Floatzel",
+		'es-mx': "Floatzel"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Whirlpool",
 			it: "Mulinello",
 			es: "Torbellino",
-			pt: "Redemoinho"
+			pt: "Redemoinho",
+			'es-mx': "Remolino"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
 			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
 			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente."
+			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'es-mx': "Descarta 1 Energía del Pokémon Activo de tu rival."
 		},
 
 		damage: 30
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Aquaschlag",
 			it: "Idrosquarcio",
 			es: "Cuchillada Acuática",
-			pt: "Aqua Corte"
+			pt: "Aqua Corte",
+			'es-mx': "Cuchillada Acuática"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'es-mx': "Durante tu próximo turno, este Pokémon no puede atacar."
 		},
 
 		damage: 140

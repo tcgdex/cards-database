@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Klingplim",
 		it: "Chingling del Team Rocket",
 		es: "Chingling del Team Rocket",
-		pt: "Chingling da Equipe Rocket"
+		pt: "Chingling da Equipe Rocket",
+		'es-mx': "Chingling del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -26,7 +27,8 @@ const card: Card = {
 			de: "Tönender Tumult",
 			it: "Tintinnio Frastornante",
 			es: "Conmoción Tintineante",
-			pt: "Badalo Barulhento"
+			pt: "Badalo Barulhento",
+			'es-mx': "Conmoción Tintineante"
 		},
 
 		effect: {
@@ -35,7 +37,8 @@ const card: Card = {
 			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel.",
 			it: "Scarta una carta a caso dalla mano del tuo avversario.",
 			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-			pt: "Descarte uma carta aleatória da mão do seu oponente."
+			pt: "Descarte uma carta aleatória da mão do seu oponente.",
+			'es-mx': "Descarta 1 carta aleatoria de la mano de tu rival."
 		}
 	}],
 

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Klarins Igelavar",
 		it: "Quilava di Armonio",
 		es: "Quilava de Eco",
-		pt: "Quilava do Ethan"
+		pt: "Quilava do Ethan",
+		'es-mx': "Quilava de Ethan"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Reisen verbindet",
 			it: "Compagni di Viaggio",
 			es: "Unidos por la Aventura",
-			pt: "Unidos pela Jornada"
+			pt: "Unidos pela Jornada",
+			'es-mx': "Vínculo Aventurero"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Klarins Abenteuer-Karte durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck.",
 			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Avventura di Armonio, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Aventura de Eco, enseñarla y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta Aventura do Ethan no seu baralho, revelá-la e colocá-la na sua mão. Em seguida, embaralhe o seu baralho."
+			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta Aventura do Ethan no seu baralho, revelá-la e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Una vez durante tu turno, puedes buscar en tu mazo 1 carta de Aventura de Ethan, mostrarla y ponerla en tu mano. Después, baraja las cartas de tu mazo."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Glühen",
 			it: "Fuoco Continuo",
 			es: "Combustión",
-			pt: "Combustão"
+			pt: "Combustão",
+			'es-mx': "Combustión"
 		},
 
 		damage: 40

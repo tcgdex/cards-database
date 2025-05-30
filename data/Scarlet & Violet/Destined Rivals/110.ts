@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Peppers Tenterra",
 		it: "Toedscruel di Pepe",
 		es: "Toedscruel de Damián",
-		pt: "Toedscruel do Arven"
+		pt: "Toedscruel do Arven",
+		'es-mx': "Toedscruel de Damián"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Ziehen",
 			it: "Tira",
 			es: "Tirar",
-			pt: "Puxar"
+			pt: "Puxar",
+			'es-mx': "Jalar"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
 			it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
 			es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
-			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
+			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo.",
+			'es-mx': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Waghalsiger Sturmangriff",
 			it: "Carica Avventata",
 			es: "Carga Descuidada",
-			pt: "Carga Indomável"
+			pt: "Carga Indomável",
+			'es-mx': "Carga Temeraria"
 		},
 
 		effect: {
@@ -57,7 +61,8 @@ const card: Card = {
 			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo."
 		},
 
 		damage: 120

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Troys Puppance",
 		it: "Baltoy di Rocco",
 		es: "Baltoy de Máximo",
-		pt: "Baltoy do Steven"
+		pt: "Baltoy do Steven",
+		'es-mx': "Baltoy de Steven"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Beschwörendes Zeichen",
 			it: "Segno Evocativo",
 			es: "Señal de Invocación",
-			pt: "Sinal Invocador"
+			pt: "Sinal Invocador",
+			'es-mx': "Señal de Invocación"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach bis zu 2 Basis-Troys-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck.",
 			it: "Cerca nel tuo mazzo fino a due Pokémon di Rocco Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 			es: "Busca en tu baraja hasta 2 Pokémon de Máximo Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por até 2 Pokémon do Steven Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho."
+			pt: "Procure por até 2 Pokémon do Steven Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Busca en tu mazo hasta 2 Pokémon de Steven Básicos y ponlos en tu Banca. Después, baraja las cartas de tu mazo."
 		}
 	}, {
 		cost: ["Psychic"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Psychosphäre",
 			it: "Psicosfera",
 			es: "Esfera Psíquica",
-			pt: "Esfera Psíquica"
+			pt: "Esfera Psíquica",
+			'es-mx': "Esfera Psíquica"
 		},
 
 		damage: 20

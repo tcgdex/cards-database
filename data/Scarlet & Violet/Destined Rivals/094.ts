@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Larvitar",
 		it: "Larvitar del Team Rocket",
 		es: "Larvitar del Team Rocket",
-		pt: "Larvitar da Equipe Rocket"
+		pt: "Larvitar da Equipe Rocket",
+		'es-mx': "Larvitar del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Gipfelmampfer",
 			it: "Sgranocchiacime",
 			es: "Mascamontañas",
-			pt: "Masca-montanhas"
+			pt: "Masca-montanhas",
+			'es-mx': "Mascamontañas"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel.",
 			it: "Scarta la prima carta del mazzo del tuo avversario.",
 			es: "Descarta la primera carta de la baraja de tu rival.",
-			pt: "Descarte a carta de cima do baralho do seu oponente."
+			pt: "Descarte a carta de cima do baralho do seu oponente.",
+			'es-mx': "Descarta la primera carta del mazo de tu rival."
 		},
 
 		damage: 10

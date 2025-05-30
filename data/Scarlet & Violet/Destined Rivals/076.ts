@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Voltenso",
 		it: "Manectric",
 		es: "Manectric",
-		pt: "Manectric"
+		pt: "Manectric",
+		'es-mx': "Manectric"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Stromtritt",
 			it: "Dinamocalcio",
 			es: "Electropatada",
-			pt: "Chute Zap"
+			pt: "Chute Zap",
+			'es-mx': "Electropatada"
 		},
 
 		damage: 30
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Blitzeinschlag",
 			it: "Impattoflash",
 			es: "Impacto Resplandor",
-			pt: "Impacto Lampejante"
+			pt: "Impacto Lampejante",
+			'es-mx': "Impacto Destello"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Diese Attacke fügt auch 1 Pokémon auf deiner Bank 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
 			it: "Questo attacco infligge anche 40 danni a uno dei Pokémon nella tua panchina. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 			es: "Este ataque también hace 40 puntos de daño a uno de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			pt: "Este ataque também causa 40 pontos de dano a 1 dos seus Pokémon no Banco. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			pt: "Este ataque também causa 40 pontos de dano a 1 dos seus Pokémon no Banco. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'es-mx': "Este ataque también hace 40 puntos de daño a 1 de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
 		},
 
 		damage: 120

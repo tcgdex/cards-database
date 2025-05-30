@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Smogon",
 		it: "Koffing del Team Rocket",
 		es: "Koffing del Team Rocket",
-		pt: "Koffing da Equipe Rocket"
+		pt: "Koffing da Equipe Rocket",
+		'es-mx': "Koffing del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Smogsignale",
 			it: "Segnali di Smog",
 			es: "Señales de Polución",
-			pt: "Sinais de Fumaça"
+			pt: "Sinais de Fumaça",
+			'es-mx': "Señales de Humo"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), durchsuche dein Deck nach bis zu 2 Pokémon, bei denen \"Smogon\" zum Namen gehört, und lege sie auf deine Bank. Mische anschließend dein Deck.",
 			it: "Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, cerca nel tuo mazzo fino a due Pokémon che hanno \"Koffing\" nel nome e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 			es: "Si este Pokémon está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), busca en tu baraja hasta 2 Pokémon que tengan \"Koffing\" en su nombre y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			pt: "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), procure por até 2 Pokémon no seu baralho que tenham \"Koffing\" em seu nome e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho."
+			pt: "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), procure por até 2 Pokémon no seu baralho que tenham \"Koffing\" em seu nome e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Si este Pokémon está en el Puesto Activo y recibe daño de un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), busca en tu mazo hasta 2 Pokémon que tengan \"Koffing\" en su nombre y ponlos en tu Banca. Después, baraja las cartas de tu mazo."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Austretendes Gas",
 			it: "Fuoriuscita di Gas",
 			es: "Fuga de Gas",
-			pt: "Escape de Gás"
+			pt: "Escape de Gás",
+			'es-mx': "Fuga de Gas"
 		},
 
 		damage: 30

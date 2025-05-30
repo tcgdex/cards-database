@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Olivinio",
 		it: "Dolliv",
 		es: "Dolliv",
-		pt: "Dolliv"
+		pt: "Dolliv",
+		'es-mx': "Dolliv"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Nährstoffe",
 			it: "Nutrienti",
 			es: "Nutrientes",
-			pt: "Nutrientes"
+			pt: "Nutrientes",
+			'es-mx': "Nutrientes"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Heile 40 Schadenspunkte bei 1 deiner Pokémon.",
 			it: "Cura uno dei tuoi Pokémon da 40 danni.",
 			es: "Cura 40 puntos de daño a uno de tus Pokémon.",
-			pt: "Cure 40 pontos de dano de 1 dos seus Pokémon."
+			pt: "Cure 40 pontos de dano de 1 dos seus Pokémon.",
+			'es-mx': "Cura 40 puntos de daño a 1 de tus Pokémon."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Tackle",
 			it: "Azione",
 			es: "Placaje",
-			pt: "Investida"
+			pt: "Investida",
+			'es-mx': "Tacleada"
 		},
 
 		damage: 40

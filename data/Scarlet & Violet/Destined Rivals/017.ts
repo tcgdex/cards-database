@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Sirapfel",
 		it: "Dipplin",
 		es: "Dipplin",
-		pt: "Dipplin"
+		pt: "Dipplin",
+		'es-mx': "Dipplin"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Energieschleife",
 			it: "Circuito Energetico",
 			es: "Bucle de Energía",
-			pt: "Loop de Energia"
+			pt: "Loop de Energia",
+			'es-mx': "Circuito de Energía"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Nimm 1 an dieses Pokémon angelegte Energie auf deine Hand.",
 			it: "Prendi un'Energia assegnata a questo Pokémon e aggiungila alle carte che hai in mano.",
 			es: "Pon 1 Energía unida a este Pokémon en tu mano.",
-			pt: "Coloque uma Energia ligada a este Pokémon na sua mão."
+			pt: "Coloque uma Energia ligada a este Pokémon na sua mão.",
+			'es-mx': "Pon 1 Energía unida a este Pokémon en tu mano."
 		},
 
 		damage: 50

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Regirock-ex",
 		it: "Regirock-ex",
 		es: "Regirock ex",
-		pt: "Regirock ex"
+		pt: "Regirock ex",
+		'es-mx': "Regirock ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Regi-Ladung",
 			it: "Carica Regi",
 			es: "Regi Carga",
-			pt: "Carga Regi"
+			pt: "Carga Regi",
+			'es-mx': "Regicarga"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Lege bis zu 2 Basis-{F}-Energiekarten aus deinem Ablagestapel an dieses Pokémon an.",
 			it: "Assegna a questo Pokémon fino a due carte Energia base {F} dalla tua pila degli scarti.",
 			es: "Une hasta 2 cartas de Energía {F} Básica de tu pila de descartes a este Pokémon.",
-			pt: "Ligue até 2 cartas de Energia {F} Básica da sua pilha de descarte a este Pokémon."
+			pt: "Ligue até 2 cartas de Energia {F} Básica da sua pilha de descarte a este Pokémon.",
+			'es-mx': "Une hasta 2 cartas de Energía {F} Básica de tu pila de descartes a este Pokémon."
 		}
 	}, {
 		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Gigantischer Felsen",
 			it: "Roccia Gigante",
 			es: "Roca Gigante",
-			pt: "Pedregulho"
+			pt: "Pedregulho",
+			'es-mx': "Roca Gigante"
 		},
 
 		effect: {
@@ -57,7 +61,8 @@ const card: Card = {
 			de: "Wenn das Aktive Pokémon deines Gegners ein Phase-2-Pokémon ist, fügt diese Attacke 140 Schadenspunkte mehr zu.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon di Fase 2, questo attacco infligge 140 danni in più.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon de Fase 2, este ataque hace 140 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Estágio 2, este ataque causará 140 pontos de dano a mais."
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Estágio 2, este ataque causará 140 pontos de dano a mais.",
+			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon de Fase 2, este ataque hace 140 puntos de daño más."
 		},
 
 		damage: "140+"

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Klarins Pinsir",
 		it: "Pinsir di Armonio",
 		es: "Pinsir de Eco",
-		pt: "Pinsir do Ethan"
+		pt: "Pinsir do Ethan",
+		'es-mx': "Pinsir de Ethan"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Klammer",
 			it: "Presa",
 			es: "Agarre",
-			pt: "Agarramento Compressor"
+			pt: "Agarramento Compressor",
+			'es-mx': "Fuerza de Garra"
 		},
 
 		damage: 20
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Anspornhorn",
 			it: "Incitacorno",
 			es: "Cuerno de Apoyo",
-			pt: "Chifre Fortificante"
+			pt: "Chifre Fortificante",
+			'es-mx': "Cuerno Solidario"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Wenn mindestens 1 deiner Klarins Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 100 Schadenspunkte mehr zu.",
 			it: "Se uno qualsiasi dei tuoi Pokémon di Armonio è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 100 danni in più.",
 			es: "Si alguno de tus Pokémon de Eco quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 100 puntos de daño más.",
-			pt: "Se algum dos seus Pokémon do Ethan tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 100 pontos de dano a mais."
+			pt: "Se algum dos seus Pokémon do Ethan tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 100 pontos de dano a mais.",
+			'es-mx': "Si alguno de tus Pokémon de Ethan quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 100 puntos de daño más."
 		},
 
 		damage: "70+"

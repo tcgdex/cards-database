@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Woingenau",
 		it: "Wobbuffet del Team Rocket",
 		es: "Wobbuffet del Team Rocket",
-		pt: "Wobbuffet da Equipe Rocket"
+		pt: "Wobbuffet da Equipe Rocket",
+		'es-mx': "Wobbuffet del Equipo Rocket"
 	},
 
 	rarity: "Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Rocket-Spiegel",
 			it: "Specchio Rocket",
 			es: "Espejo Rocket",
-			pt: "Espelho Rocket"
+			pt: "Espelho Rocket",
+			'es-mx': "Espejo Rocket"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Verschiebe alle Schadensmarken von 1 Team Rockets Pokémon auf deiner Bank auf das Aktive Pokémon deines Gegners.",
 			it: "Sposta tutti i segnalini danno da uno dei tuoi Pokémon del Team Rocket in panchina al Pokémon attivo del tuo avversario.",
 			es: "Mueve todos los contadores de daño de uno de tus Pokémon del Team Rocket en Banca al Pokémon Activo de tu rival.",
-			pt: "Mova todos os contadores de dano de 1 dos seus Pokémon da Equipe Rocket no Banco para o Pokémon Ativo do seu oponente."
+			pt: "Mova todos os contadores de dano de 1 dos seus Pokémon da Equipe Rocket no Banco para o Pokémon Ativo do seu oponente.",
+			'es-mx': "Mueve todos los contadores de daño de 1 de tus Pokémon del Equipo Rocket en Banca al Pokémon Activo de tu rival."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Abrupter Kopfstoß",
 			it: "Rimbalzo Bottintesta",
 			es: "Bote Cabezazo",
-			pt: "Cabeçada Ricochete"
+			pt: "Cabeçada Ricochete",
+			'es-mx': "Cabezazo Rebotante"
 		},
 
 		damage: 70

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Klarins Magcargo",
 		it: "Magcargo di Armonio",
 		es: "Magcargo de Eco",
-		pt: "Magcargo do Ethan"
+		pt: "Magcargo do Ethan",
+		'es-mx': "Magcargo de Ethan"
 	},
 
 	rarity: "Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Wegschmelzen",
 			it: "Squagliarsela",
 			es: "Fundir",
-			pt: "Chega Derrete"
+			pt: "Chega Derrete",
+			'es-mx': "Escape Fundido"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wenn an dieses Pokémon keine Energie angelegt ist, hat es keine Rückzugskosten.",
 			it: "Se questo Pokémon non ha Energie assegnate, non ha costo di ritirata.",
 			es: "Si este Pokémon no tiene ninguna Energía unida, no tiene ningún Coste de Retirada.",
-			pt: "Se este Pokémon não tiver nenhuma Energia ligada a ele, não terá custo de Recuo."
+			pt: "Se este Pokémon não tiver nenhuma Energia ligada a ele, não terá custo de Recuo.",
+			'es-mx': "Si este Pokémon no tiene ninguna Energía unida, no tiene ningún Costo de Retirada."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Lava-Ausbruch",
 			it: "Lavascoppio",
 			es: "Explosión de Lava",
-			pt: "Erupção de Lava"
+			pt: "Erupção de Lava",
+			'es-mx': "Estallido de Lava"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Lege bis zu 5 {R}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 70 Schadenspunkte zu.",
 			it: "Scarta fino a cinque Energie {R} da questo Pokémon. Questo attacco infligge 70 danni per ogni carta che hai scartato in questo modo.",
 			es: "Descarta hasta 5 Energías {R} de este Pokémon. Este ataque hace 70 puntos de daño por cada carta que hayas descartado de esta manera.",
-			pt: "Descarte até 5 Energias {R} deste Pokémon. Este ataque causa 70 pontos de dano para cada carta descartada desta forma."
+			pt: "Descarte até 5 Energias {R} deste Pokémon. Este ataque causa 70 pontos de dano para cada carta descartada desta forma.",
+			'es-mx': "Descarta hasta 5 Energías {R} de este Pokémon. Este ataque hace 70 puntos de daño por cada carta que descartaste de esta manera."
 		},
 
 		damage: "70×"

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Nidoran♂",
 		it: "Nidoran♂ del Team Rocket",
 		es: "Nidoran♂ del Team Rocket",
-		pt: "Nidoran♂ da Equipe Rocket"
+		pt: "Nidoran♂ da Equipe Rocket",
+		'es-mx': "Nidoran♂ del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Durchbohren",
 			it: "Perforare",
 			es: "Perforar",
-			pt: "Perfurar"
+			pt: "Perfurar",
+			'es-mx': "Perforar"
 		},
 
 		damage: 10
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Einhämmern",
 			it: "Martello",
 			es: "Martillear",
-			pt: "Martelada"
+			pt: "Martelada",
+			'es-mx': "Martillar"
 		},
 
 		damage: 30

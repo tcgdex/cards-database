@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Fundamentmaske-Ogerpon",
 		it: "Ogerpon Maschera Fondamenta",
 		es: "Ogerpon Máscara Cimiento",
-		pt: "Ogerpon Máscara Alicerce"
+		pt: "Ogerpon Máscara Alicerce",
+		'es-mx': "Ogerpon Máscara Cimiento"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Gesteins-Kagura",
 			it: "Kagura della Roccia",
 			es: "Kagura Roca",
-			pt: "Kagura de Pedra"
+			pt: "Kagura de Pedra",
+			'es-mx': "Kagura de Roca"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach 1 Basis-{F}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck.",
 			it: "Cerca nel tuo mazzo una carta Energia base {F} e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 			es: "Busca en tu baraja 1 carta de Energía {F} Básica y únela a uno de tus Pokémon. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por uma carta de Energia {F} Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho."
+			pt: "Procure por uma carta de Energia {F} Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Busca en tu mazo 1 carta de Energía {F} Básica y únela a 1 de tus Pokémon. Después, baraja las cartas de tu mazo."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Bergramme",
 			it: "Speronamonte",
 			es: "Empuje Montaña",
-			pt: "Colisão Montanhosa"
+			pt: "Colisão Montanhosa",
+			'es-mx': "Empuje Montañoso"
 		},
 
 		effect: {
@@ -57,7 +61,8 @@ const card: Card = {
 			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel.",
 			it: "Scarta la prima carta del mazzo del tuo avversario.",
 			es: "Descarta la primera carta de la baraja de tu rival.",
-			pt: "Descarte a carta de cima do baralho do seu oponente."
+			pt: "Descarte a carta de cima do baralho do seu oponente.",
+			'es-mx': "Descarta la primera carta del mazo de tu rival."
 		},
 
 		damage: 100

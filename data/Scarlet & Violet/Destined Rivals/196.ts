@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Frizelbliz",
 		it: "Electrike",
 		es: "Electrike",
-		pt: "Electrike"
+		pt: "Electrike",
+		'es-mx': "Electrike"
 	},
 
 	rarity: "Illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Rückwärtskick",
 			it: "Retrocalcio",
 			es: "Patada Trasera",
-			pt: "Chute Traseiro"
+			pt: "Chute Traseiro",
+			'es-mx': "Patada Trasera"
 		},
 
 		damage: 10
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Mini-Blitz",
 			it: "Minifulmine",
 			es: "Relampaguito",
-			pt: "Corisquinho"
+			pt: "Corisquinho",
+			'es-mx': "Minirrayo"
 		},
 
 		damage: 30

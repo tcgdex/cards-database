@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Brunnenmaske-Ogerpon",
 		it: "Ogerpon Maschera Pozzo",
 		es: "Ogerpon Máscara Fuente",
-		pt: "Ogerpon Máscara Nascente"
+		pt: "Ogerpon Máscara Nascente",
+		'es-mx': "Ogerpon Máscara Fuente"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Wasser-Kagura",
 			it: "Kagura dell'Acqua",
 			es: "Kagura Agua",
-			pt: "Kagura de Água"
+			pt: "Kagura de Água",
+			'es-mx': "Kagura de Agua"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach 1 Basis-{W}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck.",
 			it: "Cerca nel tuo mazzo una carta Energia base {W} e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 			es: "Busca en tu baraja 1 carta de Energía {W} Básica y únela a uno de tus Pokémon. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por uma carta de Energia {W} Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho."
+			pt: "Procure por uma carta de Energia {W} Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Busca en tu mazo 1 carta de Energía {W} Básica y únela a 1 de tus Pokémon. Después, baraja las cartas de tu mazo."
 		}
 	}, {
 		cost: ["Water", "Water", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Blasengully",
 			it: "Assorbibolla",
 			es: "Drenaje Burbujas",
-			pt: "Dreno de Bolha"
+			pt: "Dreno de Bolha",
+			'es-mx': "Drenado Burbujeante"
 		},
 
 		effect: {
@@ -57,7 +61,8 @@ const card: Card = {
 			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
-			pt: "Cure 30 pontos de dano deste Pokémon."
+			pt: "Cure 30 pontos de dano deste Pokémon.",
+			'es-mx': "Cura 30 puntos de daño a este Pokémon."
 		},
 
 		damage: 100

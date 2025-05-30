@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Bamelin",
 		it: "Buizel",
 		es: "Buizel",
-		pt: "Buizel"
+		pt: "Buizel",
+		'es-mx': "Buizel"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Schweifvertrimmer",
 			it: "Codabotta",
 			es: "Coletón",
-			pt: "Surra de Cauda"
+			pt: "Surra de Cauda",
+			'es-mx': "Coletón"
 		},
 
 		damage: 10
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Wellenplatscher",
 			it: "Schizzi d'Onda",
 			es: "Chapoteo Ondulante",
-			pt: "Onda Borrifante"
+			pt: "Onda Borrifante",
+			'es-mx': "Acuasalpicadura"
 		},
 
 		damage: 30

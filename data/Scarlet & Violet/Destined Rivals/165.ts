@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Klarins Abenteuer",
 		it: "Avventura di Armonio",
 		es: "Aventura de Eco",
-		pt: "Aventura do Ethan"
+		pt: "Aventura do Ethan",
+		'es-mx': "Aventura de Ethan"
 	},
 
 	rarity: "Uncommon",
@@ -22,7 +23,8 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 3 Klarins Pokémon und Basis-{R}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
 		it: "Cerca nel tuo mazzo fino a tre Pokémon di Armonio e carte Energia base {R} in qualsiasi combinazione, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		es: "Busca en tu baraja, en cualquier combinación, hasta 3 cartas de Pokémon de Eco y de Energía {R} Básica, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-		pt: "Procure por até 3 cartas de Pokémon do Ethan e de Energia {R} Básica no seu baralho em qualquer combinação, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho."
+		pt: "Procure por até 3 cartas de Pokémon do Ethan e de Energia {R} Básica no seu baralho em qualquer combinação, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+		'es-mx': "Busca en tu mazo, en cualquier combinación, hasta 3 cartas de Pokémon de Ethan y de Energía {R} Básica, muéstralas y ponlas en tu mano. Después, baraja las cartas de tu mazo."
 	},
 
 	trainerType: "Supporter",

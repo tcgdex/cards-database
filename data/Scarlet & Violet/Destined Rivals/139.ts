@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Peppers Mastifioso-ex",
 		it: "Mabosstiff-ex di Pepe",
 		es: "Mabosstiff ex de Damián",
-		pt: "Mabosstiff ex do Arven"
+		pt: "Mabosstiff ex do Arven",
+		'es-mx': "Mabosstiff ex de Damián"
 	},
 
 	rarity: "Double rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Energischer Tackle",
 			it: "Azione Vigorosa",
 			es: "Placaje Rotundo",
-			pt: "Investida Vigorosa"
+			pt: "Investida Vigorosa",
+			'es-mx': "Tacleada Vigorosa"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wenn auf diesem Pokémon keine Schadensmarken liegen, fügt diese Attacke 120 Schadenspunkte mehr zu.",
 			it: "Se questo Pokémon non ha segnalini danno, questo attacco infligge 120 danni in più.",
 			es: "Si este Pokémon no tiene ningún contador de daño sobre él, este ataque hace 120 puntos de daño más.",
-			pt: "Se este Pokémon não tiver nenhum contador de dano nele, este ataque causará 120 pontos de dano a mais."
+			pt: "Se este Pokémon não tiver nenhum contador de dano nele, este ataque causará 120 pontos de dano a mais.",
+			'es-mx': "Si este Pokémon no tiene ningún contador de daño sobre él, este ataque hace 120 puntos de daño más."
 		},
 
 		damage: "30+"
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Kopfnuss vom Boss",
 			it: "Bottintesta del Boss",
 			es: "Cabezazo del Jefazo",
-			pt: "Cabeçada do Chefão"
+			pt: "Cabeçada do Chefão",
+			'es-mx': "Cabezazo del Jefe"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Während deines nächsten Zuges kann dieses Pokémon Kopfnuss vom Boss nicht einsetzen.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Bottintesta del Boss.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Cabezazo del Jefazo.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Cabeçada do Chefão."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Cabeçada do Chefão.",
+			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar Cabezazo del Jefe."
 		},
 
 		damage: 210

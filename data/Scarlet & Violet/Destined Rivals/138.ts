@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Peppers Mobtiff",
 		it: "Maschiff di Pepe",
 		es: "Maschiff de Damián",
-		pt: "Maschiff do Arven"
+		pt: "Maschiff do Arven",
+		'es-mx': "Maschiff de Damián"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Zertrampeln",
 			it: "Fuggi Fuggi",
 			es: "Estampida",
-			pt: "Estouro"
+			pt: "Estouro",
+			'es-mx': "Estampida"
 		},
 
 		damage: 10
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Konfrontieren",
 			it: "Confronto",
 			es: "Confrontar",
-			pt: "Confrontar"
+			pt: "Confrontar",
+			'es-mx': "Confrontar"
 		},
 
 		damage: 50

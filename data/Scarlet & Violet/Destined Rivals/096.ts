@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Despotar",
 		it: "Tyranitar del Team Rocket",
 		es: "Tyranitar del Team Rocket",
-		pt: "Tyranitar da Equipe Rocket"
+		pt: "Tyranitar da Equipe Rocket",
+		'es-mx': "Tyranitar del Equipo Rocket"
 	},
 
 	rarity: "Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Sandsturm",
 			it: "Sabbiafiume",
 			es: "Chorro Arena",
-			pt: "Fluxo de Areia"
+			pt: "Fluxo de Areia",
+			'es-mx': "Chorro de Arena"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Lege beim Pokémon-Check, wenn dieses Pokémon in der Aktiven Position ist, 2 Schadensmarken auf jedes Basis-Pokémon deines Gegners.",
 			it: "Durante il controllo Pokémon, se questo Pokémon è in posizione attiva, metti due segnalini danno su ciascuno dei Pokémon Base del tuo avversario.",
 			es: "Durante el Chequeo Pokémon, si este Pokémon está en el Puesto Activo, pon 2 contadores de daño en cada uno de los Pokémon Básicos de tu rival.",
-			pt: "Durante o Checape Pokémon, se este Pokémon estiver no Campo Ativo, coloque 2 contadores de dano em cada um dos Pokémon Básicos do seu oponente."
+			pt: "Durante o Checape Pokémon, se este Pokémon estiver no Campo Ativo, coloque 2 contadores de dano em cada um dos Pokémon Básicos do seu oponente.",
+			'es-mx': "Durante el Chequeo Pokémon, si este Pokémon está en el Puesto Activo, pon 2 contadores de daño en cada uno de los Pokémon Básicos de tu rival."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Zerstörungstackle",
 			it: "Azione Demolitiva",
 			es: "Placaje Demolición",
-			pt: "Investida Demolidora"
+			pt: "Investida Demolidora",
+			'es-mx': "Tacleada Demoledora"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
 			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
 			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente."
+			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'es-mx': "Descarta 1 Energía del Pokémon Activo de tu rival."
 		},
 
 		damage: 180

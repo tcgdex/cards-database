@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Pampuli",
 		it: "Mudbray",
 		es: "Mudbray",
-		pt: "Mudbray"
+		pt: "Mudbray",
+		'es-mx': "Mudbray"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Sturmangriff",
 			it: "Carica Scattante",
 			es: "Carga Impulso",
-			pt: "Carga em Disparada"
+			pt: "Carga em Disparada",
+			'es-mx': "Carga Encarrerada"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu.",
 			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
 			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara."
+			pt: "Jogue uma moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara.",
+			'es-mx': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara."
 		},
 
 		damage: "40×"

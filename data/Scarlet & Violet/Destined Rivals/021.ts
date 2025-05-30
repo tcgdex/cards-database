@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Olini",
 		it: "Smoliv",
 		es: "Smoliv",
-		pt: "Smoliv"
+		pt: "Smoliv",
+		'es-mx': "Smoliv"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Ramme",
 			it: "Carica",
 			es: "Apisonar",
-			pt: "Aríete"
+			pt: "Aríete",
+			'es-mx': "Colisión"
 		},
 
 		damage: 10

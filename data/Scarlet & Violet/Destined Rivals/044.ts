@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Ofenmaske-Ogerpon",
 		it: "Ogerpon Maschera Focolare",
 		es: "Ogerpon Máscara Horno",
-		pt: "Ogerpon Máscara Fornalha"
+		pt: "Ogerpon Máscara Fornalha",
+		'es-mx': "Ogerpon Máscara Horno"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Feuer-Kagura",
 			it: "Kagura del Fuoco",
 			es: "Kagura Fuego",
-			pt: "Kagura de Fogo"
+			pt: "Kagura de Fogo",
+			'es-mx': "Kagura de Fuego"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach 1 Basis-{R}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck.",
 			it: "Cerca nel tuo mazzo una carta Energia base {R} e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 			es: "Busca en tu baraja 1 carta de Energía {R} Básica y únela a uno de tus Pokémon. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por uma carta de Energia {R} Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho."
+			pt: "Procure por uma carta de Energia {R} Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Busca en tu mazo 1 carta de Energía {R} Básica y únela a 1 de tus Pokémon. Después, baraja las cartas de tu mazo."
 		}
 	}, {
 		cost: ["Fire", "Fire", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Sengende Flammen",
 			it: "Fiamme Ustionanti",
 			es: "Llama Abrasadora",
-			pt: "Chama Cauterizante"
+			pt: "Chama Cauterizante",
+			'es-mx': "Llama Abrasadora"
 		},
 
 		effect: {
@@ -57,7 +61,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado."
+			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Quemado."
 		},
 
 		damage: 80

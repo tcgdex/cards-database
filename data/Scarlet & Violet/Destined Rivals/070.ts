@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Zapdos",
 		it: "Zapdos del Team Rocket",
 		es: "Zapdos del Team Rocket",
-		pt: "Zapdos da Equipe Rocket"
+		pt: "Zapdos da Equipe Rocket",
+		'es-mx': "Zapdos del Equipo Rocket"
 	},
 
 	rarity: "Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Störflügel",
 			it: "Ala di Interferenza",
 			es: "Ala Fastidiosa",
-			pt: "Asa Bloqueadora"
+			pt: "Asa Bloqueadora",
+			'es-mx': "Ala Fastidiosa"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Du kannst 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank verschieben.",
 			it: "Puoi spostare un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
 			es: "Puedes mover 1 Energía del Pokémon Activo de tu rival a uno de sus Pokémon en Banca.",
-			pt: "Você pode mover uma Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele."
+			pt: "Você pode mover uma Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele.",
+			'es-mx': "Puedes mover 1 Energía del Pokémon Activo de tu rival a 1 de sus Pokémon en Banca."
 		},
 
 		damage: 30
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Arglistiger Donner",
 			it: "Tuono Malvagio",
 			es: "Trueno Malvado",
-			pt: "Trovão Traiçoeiro"
+			pt: "Trovão Traiçoeiro",
+			'es-mx': "Trueno Malvado"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Wenn an dieses Pokémon mindestens 1 Team Rockets Energie angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu.",
 			it: "Se questo Pokémon ha delle Energie del Team Rocket assegnate, questo attacco infligge 60 danni in più.",
 			es: "Si este Pokémon tiene alguna Energía del Team Rocket unida, este ataque hace 60 puntos de daño más.",
-			pt: "Se este Pokémon tiver alguma Energia da Equipe Rocket ligada a ele, este ataque causará 60 pontos de dano a mais."
+			pt: "Se este Pokémon tiver alguma Energia da Equipe Rocket ligada a ele, este ataque causará 60 pontos de dano a mais.",
+			'es-mx': "Si este Pokémon tiene alguna Energía del Equipo Rocket unida, este ataque hace 60 puntos de daño más."
 		},
 
 		damage: "60+"

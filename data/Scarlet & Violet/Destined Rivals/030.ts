@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Gallopa",
 		it: "Rapidash",
 		es: "Rapidash",
-		pt: "Rapidash"
+		pt: "Rapidash",
+		'es-mx': "Rapidash"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Eiliger Gang",
 			it: "Andatura Frettolosa",
 			es: "Marcha Apresurada",
-			pt: "Marcha Apressada"
+			pt: "Marcha Apressada",
+			'es-mx': "Marcha Apresurada"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Einmal während deines Zuges kannst du 1 Karte ziehen.",
 			it: "Una sola volta durante il tuo turno, puoi pescare una carta.",
 			es: "Una vez durante tu turno, puedes robar 1 carta.",
-			pt: "Uma vez durante o seu turno, você poderá comprar uma carta."
+			pt: "Uma vez durante o seu turno, você poderá comprar uma carta.",
+			'es-mx': "Una vez durante tu turno, puedes robar 1 carta."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Flammenmähne",
 			it: "Criniera di Fuoco",
 			es: "Crin de Fuego",
-			pt: "Crina de Fogo"
+			pt: "Crina de Fogo",
+			'es-mx': "Melena de Fuego"
 		},
 
 		damage: 60

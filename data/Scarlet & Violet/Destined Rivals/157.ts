@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Schwalboss",
 		it: "Swellow",
 		es: "Swellow",
-		pt: "Swellow"
+		pt: "Swellow",
+		'es-mx': "Swellow"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Hinzufügen",
 			it: "Supplemento",
 			es: "Sumar",
-			pt: "Adicionar"
+			pt: "Adicionar",
+			'es-mx': "Acarrear"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Ziehe 3 Karten.",
 			it: "Pesca tre carte.",
 			es: "Roba 3 cartas.",
-			pt: "Compre 3 cartas."
+			pt: "Compre 3 cartas.",
+			'es-mx': "Roba 3 cartas."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Turboschwinge",
 			it: "Alaveloce",
 			es: "Ala Veloz",
-			pt: "Asa da Velocidade"
+			pt: "Asa da Velocidade",
+			'es-mx': "Ala Veloz"
 		},
 
 		damage: 70

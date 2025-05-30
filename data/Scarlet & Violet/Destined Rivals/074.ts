@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Ampharos",
 		it: "Ampharos del Team Rocket",
 		es: "Ampharos del Team Rocket",
-		pt: "Ampharos da Equipe Rocket"
+		pt: "Ampharos da Equipe Rocket",
+		'es-mx': "Ampharos del Equipo Rocket"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Dunkelster Impuls",
 			it: "Impulso Oscuro",
 			es: "Impulso Sombrío",
-			pt: "Impulso Mais Sombrio"
+			pt: "Impulso Mais Sombrio",
+			'es-mx': "Impulso Oscuro"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Lege jedes Mal, wenn dein Gegner 1 Pokémon aus seiner Hand spielt, um 1 seiner Pokémon zu entwickeln, 4 Schadensmarken auf jenes Pokémon. Der Effekt von Dunkelster Impuls stapelt sich nicht.",
 			it: "Ogni volta che il tuo avversario gioca un Pokémon dalla sua mano per far evolvere uno dei suoi Pokémon, metti quattro segnalini danno su quel Pokémon. L'effetto di Impulso Oscuro non è cumulabile.",
 			es: "Cada vez que tu rival juegue un Pokémon de su mano para hacer evolucionar a uno de sus Pokémon, pon 4 contadores de daño en ese Pokémon. El efecto de Impulso Sombrío no se acumula.",
-			pt: "Sempre que seu oponente jogar um Pokémon da mão dele para evoluir 1 dos Pokémon dele, coloque 4 contadores de dano naquele Pokémon. O efeito de Impulso Mais Sombrio não acumula."
+			pt: "Sempre que seu oponente jogar um Pokémon da mão dele para evoluir 1 dos Pokémon dele, coloque 4 contadores de dano naquele Pokémon. O efeito de Impulso Mais Sombrio não acumula.",
+			'es-mx': "Cada vez que tu rival juegue 1 Pokémon de su mano para hacer evolucionar a 1 de sus Pokémon, pon 4 contadores de daño en ese Pokémon. El efecto de Impulso Oscuro no se acumula."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Kopf-Blitz",
 			it: "Zuccalampo",
 			es: "Rayo de Cabeza",
-			pt: "Raio de Cabeça"
+			pt: "Raio de Cabeça",
+			'es-mx': "Rayo Capital"
 		},
 
 		damage: 140

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Hippoterus",
 		it: "Hippowdon",
 		es: "Hippowdon",
-		pt: "Hippowdon"
+		pt: "Hippowdon",
+		'es-mx': "Hippowdon"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Ramme",
 			it: "Carica",
 			es: "Apisonar",
-			pt: "Aríete"
+			pt: "Aríete",
+			'es-mx': "Colisión"
 		},
 
 		damage: 60
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Super-Sandsturm",
 			it: "Super Terrempesta",
 			es: "Supertormenta de Arena",
-			pt: "Supertempestade de Areia"
+			pt: "Supertempestade de Areia",
+			'es-mx': "Supertormenta de Arena"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Diese Attacke fügt auch jedem Pokémon auf der Bank (deiner und der deines Gegners), auf dem mindestens 1 Schadensmarke liegt, 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
 			it: "Questo attacco infligge anche 40 danni a ciascuno dei Pokémon in panchina che ha dei segnalini danno, sia tuo che del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 			es: "Este ataque también hace 40 puntos de daño a cada Pokémon en Banca (tanto tuyos como de tu rival) que tenga algún contador de daño sobre él. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			pt: "Este ataque também causa 40 pontos de dano a cada um dos Pokémon no Banco que tiver algum contador de dano nele (seus e do seu oponente). (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			pt: "Este ataque também causa 40 pontos de dano a cada um dos Pokémon no Banco que tiver algum contador de dano nele (seus e do seu oponente). (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'es-mx': "Este ataque también hace 40 puntos de daño a cada Pokémon en Banca que tenga algún contador de daño sobre él (tanto tuyos como de tu rival). (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
 		},
 
 		damage: 150

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Peppers Tentagra",
 		it: "Toedscool di Pepe",
 		es: "Toedscool de Damián",
-		pt: "Toedscool do Arven"
+		pt: "Toedscool do Arven",
+		'es-mx': "Toedscool de Damián"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Vorwagen",
 			it: "Coinvolgimento",
 			es: "Ligera Intromisión",
-			pt: "Leve Invasão"
+			pt: "Leve Invasão",
+			'es-mx': "Algo Metiche"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
 			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
 			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo."
+			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'es-mx': "Este Pokémon también se hace 10 puntos de daño a sí mismo."
 		},
 
 		damage: 30

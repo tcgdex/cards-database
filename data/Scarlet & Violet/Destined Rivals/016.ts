@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Knapfel",
 		it: "Applin",
 		es: "Applin",
-		pt: "Applin"
+		pt: "Applin",
+		'es-mx': "Applin"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Minisauger",
 			it: "Miniassorbimento",
 			es: "Minidrenaje",
-			pt: "Minidreno"
+			pt: "Minidreno",
+			'es-mx': "Minidrenado"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Heile 10 Schadenspunkte bei diesem Pokémon.",
 			it: "Cura questo Pokémon da 10 danni.",
 			es: "Cura 10 puntos de daño a este Pokémon.",
-			pt: "Cure 10 pontos de dano deste Pokémon."
+			pt: "Cure 10 pontos de dano deste Pokémon.",
+			'es-mx': "Cura 10 puntos de daño a este Pokémon."
 		},
 
 		damage: 10

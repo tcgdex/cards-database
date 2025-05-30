@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Cynthias Knakrack-ex",
 		it: "Garchomp-ex di Camilla",
 		es: "Garchomp ex de Cintia",
-		pt: "Garchomp ex da Cíntia"
+		pt: "Garchomp ex da Cíntia",
+		'es-mx': "Garchomp ex de Cynthia"
 	},
 
 	rarity: "Ultra Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Spiralsturzflug",
 			it: "Picchiata Rotante",
 			es: "Picado Tirabuzón",
-			pt: "Mergulho Parafuso"
+			pt: "Mergulho Parafuso",
+			'es-mx': "Descenso Sacacorchos"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast.",
 			it: "Puoi pescare fino ad avere sei carte in mano.",
 			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
-			pt: "Você pode comprar cartas até ter 6 cartas na sua mão."
+			pt: "Você pode comprar cartas até ter 6 cartas na sua mão.",
+			'es-mx': "Puedes robar cartas hasta que tengas 6 cartas en tu mano."
 		},
 
 		damage: 100
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Drachensprenger",
 			it: "Distruzione del Drago",
 			es: "Destrucción Dracónica",
-			pt: "Aniquilação Dracônica"
+			pt: "Aniquilação Dracônica",
+			'es-mx': "Destructor Dracónico"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
 			it: "Scarta tutte le Energie da questo Pokémon.",
 			es: "Descarta todas las Energías de este Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon."
+			pt: "Descarte todas as Energias deste Pokémon.",
+			'es-mx': "Descarta todas las Energías de este Pokémon."
 		},
 
 		damage: 260

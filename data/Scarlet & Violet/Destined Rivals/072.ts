@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Voltilamm",
 		it: "Mareep del Team Rocket",
 		es: "Mareep del Team Rocket",
-		pt: "Mareep da Equipe Rocket"
+		pt: "Mareep da Equipe Rocket",
+		'es-mx': "Mareep del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Besorgung",
 			it: "Rifornimento",
 			es: "Adquisición",
-			pt: "Suprimentos"
+			pt: "Suprimentos",
+			'es-mx': "Adquisición"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
 			it: "Cerca nel tuo mazzo una carta Strumento, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 			es: "Busca en tu baraja 1 carta de Objeto, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por uma carta de Item no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho."
+			pt: "Procure por uma carta de Item no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Busca en tu mazo 1 carta de Objeto, muéstrala y ponla en tu mano. Después, baraja las cartas de tu mazo."
 		}
 	}, {
 		cost: ["Lightning"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Mini-Blitz",
 			it: "Minifulmine",
 			es: "Relampaguito",
-			pt: "Corisquinho"
+			pt: "Corisquinho",
+			'es-mx': "Minirrayo"
 		},
 
 		damage: 10

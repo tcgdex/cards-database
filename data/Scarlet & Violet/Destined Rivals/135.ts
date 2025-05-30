@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Marys Pelzebub",
 		it: "Morgrem di Mary",
 		es: "Morgrem de Roxy",
-		pt: "Morgrem da Marine"
+		pt: "Morgrem da Marine",
+		'es-mx': "Morgrem de Marnie"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Korkenzieherhieb",
 			it: "Pugno Rotante",
 			es: "Puño Tirabuzón",
-			pt: "Soco Saca-rolha"
+			pt: "Soco Saca-rolha",
+			'es-mx': "Puño Sacacorchos"
 		},
 
 		damage: 60

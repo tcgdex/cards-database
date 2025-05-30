@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Epitaff",
 		it: "Annihilape",
 		es: "Annihilape",
-		pt: "Annihilape"
+		pt: "Annihilape",
+		'es-mx': "Annihilape"
 	},
 
 	rarity: "Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Fassung verlieren",
 			it: "Perdicalma",
 			es: "Perder la Calma",
-			pt: "Com a Macaca"
+			pt: "Com a Macaca",
+			'es-mx': "Fuera de Quicio"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wenn auf diesem Pokémon 2 oder mehr Schadensmarken liegen, fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners 120 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
 			it: "Se questo Pokémon ha due o più segnalini danno, gli attacchi usati da questo Pokémon infliggono 120 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 			es: "Si este Pokémon tiene 2 contadores de daño o más sobre él, los ataques usados por este Pokémon hacen 120 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
-			pt: "Se este Pokémon tiver 2 ou mais contadores de dano nele, os ataques usados por este Pokémon causarão 120 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência)."
+			pt: "Se este Pokémon tiver 2 ou mais contadores de dano nele, os ataques usados por este Pokémon causarão 120 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
+			'es-mx': "Si este Pokémon tiene 2 contadores de daño o más sobre él, los ataques usados por este Pokémon hacen 120 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia)."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Einschlag",
 			it: "Colpoimpatto",
 			es: "Golpe Impactante",
-			pt: "Golpe Impactante"
+			pt: "Golpe Impactante",
+			'es-mx': "Golpe Impactante"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Während deines nächsten Zuges kann dieses Pokémon Einschlag nicht einsetzen.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Colpoimpatto.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Impactante.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Golpe Impactante."
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Golpe Impactante.",
+			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar Golpe Impactante."
 		},
 
 		damage: 160

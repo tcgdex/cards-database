@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Marys Felilou",
 		it: "Purrloin di Mary",
 		es: "Purrloin de Roxy",
-		pt: "Purrloin da Marine"
+		pt: "Purrloin da Marine",
+		'es-mx': "Purrloin de Marnie"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Spitze Nägel",
 			it: "Unghie Appuntite",
 			es: "Uñas Puntiagudas",
-			pt: "Unhas Pontiagudas"
+			pt: "Unhas Pontiagudas",
+			'es-mx': "Uñas Puntiagudas"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 40 Schadenspunkte mehr zu.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo attacco infligge 40 danni in più.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 40 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 40 pontos de dano a mais."
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 40 pontos de dano a mais.",
+			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 40 puntos de daño más."
 		},
 
 		damage: "20+"

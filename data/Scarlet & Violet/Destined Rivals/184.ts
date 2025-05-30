@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Cynthias Roserade",
 		it: "Roserade di Camilla",
 		es: "Roserade de Cintia",
-		pt: "Roserade da Cíntia"
+		pt: "Roserade da Cíntia",
+		'es-mx': "Roserade de Cynthia"
 	},
 
 	rarity: "Illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Ruhmesbeifall",
 			it: "Tifo Esaltante",
 			es: "Ovación de Gloria",
-			pt: "Grito de Glória"
+			pt: "Grito de Glória",
+			'es-mx': "Canto de Gloria"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Die von deinen Cynthias Pokémon eingesetzten Attacken fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
 			it: "Gli attacchi usati dai tuoi Pokémon di Camilla infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 			es: "Los ataques usados por tus Pokémon de Cintia hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
-			pt: "Os ataques usados pelos seus Pokémon da Cíntia causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência)."
+			pt: "Os ataques usados pelos seus Pokémon da Cíntia causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
+			'es-mx': "Los ataques usados por tus Pokémon de Cynthia hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia)."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Blattschritt",
 			it: "Passofoglia",
 			es: "Paso Hoja",
-			pt: "Passo de Folha"
+			pt: "Passo de Folha",
+			'es-mx': "Paso de Hoja"
 		},
 
 		damage: 80

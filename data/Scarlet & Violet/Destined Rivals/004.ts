@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Tannza",
 		it: "Pineco",
 		es: "Pineco",
-		pt: "Pineco"
+		pt: "Pineco",
+		'es-mx': "Pineco"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Herunterhängen",
 			it: "Tirar Giù",
 			es: "Prender",
-			pt: "Dependurar"
+			pt: "Dependurar",
+			'es-mx': "Colgadera"
 		},
 
 		damage: 10

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Troys Panzaeron",
 		it: "Skarmory di Rocco",
 		es: "Skarmory de Máximo",
-		pt: "Skarmory do Steven"
+		pt: "Skarmory do Steven",
+		'es-mx': "Skarmory de Steven"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Rasierflügel",
 			it: "Ala Tagliente",
 			es: "Ala Cortante",
-			pt: "Asa Cortante"
+			pt: "Asa Cortante",
+			'es-mx': "Ala Cortante"
 		},
 
 		damage: 30
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Doppelschall",
 			it: "Doppiosonico",
 			es: "Doble Sónico",
-			pt: "Dupla Sônica"
+			pt: "Dupla Sônica",
+			'es-mx': "Doble Sónico"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Diese Attacke fügt 2 Pokémon deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
 			it: "Questo attacco infligge 50 danni a due dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 			es: "Este ataque hace 50 puntos de daño a 2 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			pt: "Este ataque causa 50 pontos de dano a 2 dos Pokémon do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			pt: "Este ataque causa 50 pontos de dano a 2 dos Pokémon do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'es-mx': "Este ataque hace 50 puntos de daño a 2 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
 		}
 	}],
 

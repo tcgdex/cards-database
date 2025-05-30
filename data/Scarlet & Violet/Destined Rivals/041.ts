@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Jungglut",
 		it: "Combusken",
 		es: "Combusken",
-		pt: "Combusken"
+		pt: "Combusken",
+		'es-mx': "Combusken"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Glühen",
 			it: "Fuoco Continuo",
 			es: "Combustión",
-			pt: "Combustão"
+			pt: "Combustão",
+			'es-mx': "Combustión"
 		},
 
 		damage: 20
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Doppelkick",
 			it: "Doppiocalcio",
 			es: "Doble Patada",
-			pt: "Chute Duplo"
+			pt: "Chute Duplo",
+			'es-mx': "Doble Patada"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu.",
 			it: "Lancia due volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
 			es: "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara.",
-			pt: "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara."
+			pt: "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara.",
+			'es-mx': "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara."
 		},
 
 		damage: "40×"

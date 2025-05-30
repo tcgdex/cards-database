@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Cynthias Knarksel",
 		it: "Gabite di Camilla",
 		es: "Gabite de Cintia",
-		pt: "Gabite da Cíntia"
+		pt: "Gabite da Cíntia",
+		'es-mx': "Gabite de Cynthia"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Ruf des Champs",
 			it: "Richiamo della Campionessa",
 			es: "Llamada de Campeones",
-			pt: "Chamado de Campeão"
+			pt: "Chamado de Campeão",
+			'es-mx': "Llamado de Campeones"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Cynthias Pokémon durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck.",
 			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo un Pokémon di Camilla, mostrarlo e aggiungerlo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 Pokémon de Cintia, enseñarlo y ponerlo en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por um Pokémon da Cíntia no seu baralho, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe o seu baralho."
+			pt: "Uma vez durante o seu turno, você poderá procurar por um Pokémon da Cíntia no seu baralho, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Una vez durante tu turno, puedes buscar en tu mazo 1 Pokémon de Cynthia, mostrarlo y ponerlo en tu mano. Después, baraja las cartas de tu mazo."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Drachenschnetzler",
 			it: "Dragotrancia",
 			es: "Tajo Dragón",
-			pt: "Talhada do Dragão"
+			pt: "Talhada do Dragão",
+			'es-mx': "Corte Dracónico"
 		},
 
 		damage: 40

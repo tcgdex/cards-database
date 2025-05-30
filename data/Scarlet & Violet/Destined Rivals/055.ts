@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Aalabyss",
 		it: "Huntail",
 		es: "Huntail",
-		pt: "Huntail"
+		pt: "Huntail",
+		'es-mx': "Huntail"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Fang des Tauchers",
 			it: "Cattura Subacquea",
 			es: "Captura Submarina",
-			pt: "Tesouro do Mergulhador"
+			pt: "Tesouro do Mergulhador",
+			'es-mx': "Captura Submarina"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wenn 1 deiner {W}-Pokémon durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, kannst du alle an jenes Pokémon angelegten Basis-{W}-Energien auf deine Hand nehmen, anstatt sie auf deinen Ablagestapel zu legen.",
 			it: "Quando uno dei tuoi Pokémon {W} viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, puoi prendere tutte le carte Energia base {W} assegnate a quel Pokémon e aggiungerle alle carte che hai in mano invece di metterle nella pila degli scarti.",
 			es: "Cuando uno de tus Pokémon {W} queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, puedes poner todas las Energías {W} Básicas unidas a ese Pokémon en tu mano en vez de en la pila de descartes.",
-			pt: "Quando 1 dos seus Pokémon {W} for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, você poderá colocar todas as Energias {W} Básicas ligadas àquele Pokémon na sua mão ao invés da pilha de descarte."
+			pt: "Quando 1 dos seus Pokémon {W} for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, você poderá colocar todas as Energias {W} Básicas ligadas àquele Pokémon na sua mão ao invés da pilha de descarte.",
+			'es-mx': "Cuando 1 de tus Pokémon {W} queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, puedes poner todas las Energías {W} Básicas unidas a ese Pokémon en tu mano en lugar de en la pila de descartes."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Wellenplatscher",
 			it: "Schizzi d'Onda",
 			es: "Chapoteo Ondulante",
-			pt: "Onda Borrifante"
+			pt: "Onda Borrifante",
+			'es-mx': "Acuasalpicadura"
 		},
 
 		damage: 80

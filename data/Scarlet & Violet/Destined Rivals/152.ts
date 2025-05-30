@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Tauros",
 		it: "Tauros",
 		es: "Tauros",
-		pt: "Tauros"
+		pt: "Tauros",
+		'es-mx': "Tauros"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Hornattacke",
 			it: "Incornata",
 			es: "Cornada",
-			pt: "Ataque de Chifre"
+			pt: "Ataque de Chifre",
+			'es-mx': "Ataque Cuerno"
 		},
 
 		damage: 30
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Sauberer Treffer",
 			it: "Colpo Pulito",
 			es: "Impacto Limpio",
-			pt: "Golpe Certeiro"
+			pt: "Golpe Certeiro",
+			'es-mx': "Golpe Limpio"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 50 Schadenspunkte mehr zu.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 50 danni in più.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 50 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 50 pontos de dano a mais."
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 50 pontos de dano a mais.",
+			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 50 puntos de daño más."
 		},
 
 		damage: "50+"

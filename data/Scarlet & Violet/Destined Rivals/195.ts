@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Perlu",
 		it: "Clamperl",
 		es: "Clamperl",
-		pt: "Clamperl"
+		pt: "Clamperl",
+		'es-mx': "Clamperl"
 	},
 
 	rarity: "Illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Schalendruck",
 			it: "Gusciopressa",
 			es: "Presión Caparazón",
-			pt: "Compressão de Concha"
+			pt: "Compressão de Concha",
+			'es-mx': "Prensa Acorazada"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 10 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
 			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 10 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 			es: "Durante el próximo turno de tu rival, los ataques hacen 10 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 10 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 10 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'es-mx': "Durante el próximo turno de tu rival, los ataques hacen 10 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
 		},
 
 		damage: 10

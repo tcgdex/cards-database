@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Klarins Feurigel",
 		it: "Cyndaquil di Armonio",
 		es: "Cyndaquil de Eco",
-		pt: "Cyndaquil do Ethan"
+		pt: "Cyndaquil do Ethan",
+		'es-mx': "Cyndaquil de Ethan"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Glut",
 			it: "Braciere",
 			es: "Ascuas",
-			pt: "Brasa"
+			pt: "Brasa",
+			'es-mx': "Brasas"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
 			it: "Scarta un'Energia da questo Pokémon.",
 			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon."
+			pt: "Descarte uma Energia deste Pokémon.",
+			'es-mx': "Descarta 1 Energía de este Pokémon."
 		},
 
 		damage: 30

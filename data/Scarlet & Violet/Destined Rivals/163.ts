@@ -10,7 +10,8 @@ const card: Card = {
 		de: "MCs Hype",
 		it: "Entusiasmo di Emcee",
 		es: "Entusiasmo de Emcee",
-		pt: "Hype da Emcee"
+		pt: "Hype da Emcee",
+		'es-mx': "Emoción de Comentarista"
 	},
 
 	rarity: "Common",
@@ -22,7 +23,8 @@ const card: Card = {
 		de: "Ziehe 2 Karten. Wenn dein Gegner 3 oder weniger verbleibende Preiskarten hat, ziehe 2 Karten mehr.",
 		it: "Pesca due carte. Se il tuo avversario ha tre o meno carte Premio rimanenti, pesca altre due carte.",
 		es: "Roba 2 cartas. Si a tu rival le quedan 3 cartas de Premio o menos, roba 2 cartas más.",
-		pt: "Compre 2 cartas. Se o seu oponente tiver 3 ou menos cartas de Prêmio restantes, compre 2 cartas a mais."
+		pt: "Compre 2 cartas. Se o seu oponente tiver 3 ou menos cartas de Prêmio restantes, compre 2 cartas a mais.",
+		'es-mx': "Roba 2 cartas. Si a tu rival le quedan 3 cartas de Premio o menos, roba 2 cartas más."
 	},
 
 	trainerType: "Supporter",

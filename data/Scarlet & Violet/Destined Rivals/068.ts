@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Elektek",
 		it: "Electabuzz",
 		es: "Electabuzz",
-		pt: "Electabuzz"
+		pt: "Electabuzz",
+		'es-mx': "Electabuzz"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Elektroschuss",
 			it: "Elettropugno",
 			es: "Electropuñetazo",
-			pt: "Soco Elétrico"
+			pt: "Soco Elétrico",
+			'es-mx': "Electropuñetazo"
 		},
 
 		damage: 50

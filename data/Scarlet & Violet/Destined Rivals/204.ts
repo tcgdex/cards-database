@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Kangama",
 		it: "Kangaskhan",
 		es: "Kangaskhan",
-		pt: "Kangaskhan"
+		pt: "Kangaskhan",
+		'es-mx': "Kangaskhan"
 	},
 
 	rarity: "Illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Sanfter Hieb",
 			it: "Schiaffetto",
 			es: "Bofetada Gentil",
-			pt: "Tapinha"
+			pt: "Tapinha",
+			'es-mx': "Cachetadita"
 		},
 
 		damage: 50
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Irrschlag",
 			it: "Stordipugno",
 			es: "Puño Mareo",
-			pt: "Soco Estonteante"
+			pt: "Soco Estonteante",
+			'es-mx': "Puño Mareador"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu.",
 			it: "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa.",
 			es: "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara.",
-			pt: "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara."
+			pt: "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara.",
+			'es-mx': "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara."
 		},
 
 		damage: "90×"

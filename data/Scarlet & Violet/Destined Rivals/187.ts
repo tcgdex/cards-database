@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Spinsidias",
 		it: "Spidops del Team Rocket",
 		es: "Spidops del Team Rocket",
-		pt: "Spidops da Equipe Rocket"
+		pt: "Spidops da Equipe Rocket",
+		'es-mx': "Spidops del Equipo Rocket"
 	},
 
 	rarity: "Illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Aufladen",
 			it: "Caricamento",
 			es: "Cargando",
-			pt: "Carregando"
+			pt: "Carregando",
+			'es-mx': "Cargando"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Einmal während deines Zuges kannst du 1 Basis-Energiekarte aus deinem Ablagestapel an dieses Pokémon anlegen.",
 			it: "Una sola volta durante il tuo turno, puoi assegnare a questo Pokémon una carta Energia base dalla tua pila degli scarti.",
 			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Básica de tu pila de descartes a este Pokémon.",
-			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia Básica da sua pilha de descarte a este Pokémon."
+			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia Básica da sua pilha de descarte a este Pokémon.",
+			'es-mx': "Una vez durante tu turno, puedes unir 1 carta de Energía Básica de tu pila de descartes a este Pokémon."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Rocket-Ansturm",
 			it: "Raffica Rocket",
 			es: "Embestida Rocket",
-			pt: "Raiva Rocket"
+			pt: "Raiva Rocket",
+			'es-mx': "Asalto Rocket"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jedes deiner Team Rockets Pokémon im Spiel 30 Schadenspunkte zu.",
 			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon del Team Rocket in gioco.",
 			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon del Team Rocket en juego.",
-			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon da Equipe Rocket em jogo."
+			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon da Equipe Rocket em jogo.",
+			'es-mx': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon del Equipo Rocket en juego."
 		},
 
 		damage: "30×"

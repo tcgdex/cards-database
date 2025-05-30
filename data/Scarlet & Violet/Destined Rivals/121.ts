@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Golbat",
 		it: "Golbat del Team Rocket",
 		es: "Golbat del Team Rocket",
-		pt: "Golbat da Equipe Rocket"
+		pt: "Golbat da Equipe Rocket",
+		'es-mx': "Golbat del Equipo Rocket"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Hinterhältiger Biss",
 			it: "Morso Furtivo",
 			es: "Mordisco Furtivo",
-			pt: "Mordida Traiçoeira"
+			pt: "Mordida Traiçoeira",
+			'es-mx': "Mordida Furtiva"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 2 Schadensmarken auf 1 Pokémon deines Gegners legen.",
 			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi mettere due segnalini danno su uno dei Pokémon del tuo avversario.",
 			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, puedes poner 2 contadores de daño en uno de los Pokémon de tu rival.",
-			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá colocar 2 contadores de dano em 1 dos Pokémon do seu oponente."
+			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá colocar 2 contadores de dano em 1 dos Pokémon do seu oponente.",
+			'es-mx': "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes poner 2 contadores de daño en 1 de los Pokémon de tu rival."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Konfusstrahl",
 			it: "Stordiraggio",
 			es: "Rayo Confuso",
-			pt: "Raio da Confusão"
+			pt: "Raio da Confusão",
+			'es-mx': "Rayo de Confusión"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso."
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido."
 		},
 
 		damage: 30

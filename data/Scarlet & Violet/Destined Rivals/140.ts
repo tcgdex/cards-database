@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Forstellka",
 		it: "Forretress",
 		es: "Forretress",
-		pt: "Forretress"
+		pt: "Forretress",
+		'es-mx': "Forretress"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Eisernes Schütteln",
 			it: "Rimpasto Metallico",
 			es: "Sacudida Férrea",
-			pt: "Sacudida de Ferro"
+			pt: "Sacudida de Ferro",
+			'es-mx': "Sacudida Férrea"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Du kannst beliebig viele {M}-Energien von deinen Pokémon beliebig auf deine anderen Pokémon verschieben.",
 			it: "Puoi spostare un numero qualsiasi di Energie {M} dall'uno all'altro dei tuoi Pokémon nel modo che preferisci.",
 			es: "Puedes mover cualquier cantidad de Energías {M} de tus Pokémon a tus otros Pokémon de la manera que desees.",
-			pt: "Você pode mover qualquer quantidade de Energia {M} dos seus Pokémon para outros Pokémon seus como desejar."
+			pt: "Você pode mover qualquer quantidade de Energia {M} dos seus Pokémon para outros Pokémon seus como desejar.",
+			'es-mx': "Puedes mover cualquier cantidad de Energías {M} de tus Pokémon a tus otros Pokémon de la manera que quieras."
 		},
 
 		damage: 20
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Nadelorkan",
 			it: "Tifone di Aghi",
 			es: "Huracán de Púas",
-			pt: "Furacão de Agulhas"
+			pt: "Furacão de Agulhas",
+			'es-mx': "Huracán de Púas"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Wirf 4 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu.",
 			it: "Lancia quattro volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
 			es: "Lanza 4 monedas. Este ataque hace 80 puntos de daño por cada cara.",
-			pt: "Jogue 4 moedas. Este ataque causa 80 pontos de dano para cada cara."
+			pt: "Jogue 4 moedas. Este ataque causa 80 pontos de dano para cada cara.",
+			'es-mx': "Lanza 4 monedas. Este ataque hace 80 puntos de daño por cada cara."
 		},
 
 		damage: "80×"

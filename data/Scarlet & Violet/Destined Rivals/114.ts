@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Nidoran♀",
 		it: "Nidoran♀ del Team Rocket",
 		es: "Nidoran♀ del Team Rocket",
-		pt: "Nidoran♀ da Equipe Rocket"
+		pt: "Nidoran♀ da Equipe Rocket",
+		'es-mx': "Nidoran♀ del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Überraschungsangriff",
 			it: "Attacco a Sorpresa",
 			es: "Ataque Sorpresa",
-			pt: "Ataque Surpresa"
+			pt: "Ataque Surpresa",
+			'es-mx': "Ataque Sorpresa"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
 			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
+			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			'es-mx': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada."
 		},
 
 		damage: 30

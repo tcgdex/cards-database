@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Lohgock",
 		it: "Blaziken",
 		es: "Blaziken",
-		pt: "Blaziken"
+		pt: "Blaziken",
+		'es-mx': "Blaziken"
 	},
 
 	rarity: "Rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Hitzestoß",
 			it: "Caldobomba",
 			es: "Explosión de Calor",
-			pt: "Raio de Calor"
+			pt: "Raio de Calor",
+			'es-mx': "Explosión Ígnea"
 		},
 
 		damage: 70
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Inferno-Trittschauer",
 			it: "Calcioturbine Infernale",
 			es: "Ráfaga de Patadas Infernales",
-			pt: "Enxurrada de Chutes Infernais"
+			pt: "Enxurrada de Chutes Infernais",
+			'es-mx': "Ráfaga de Piropatadas"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 120 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
 			it: "Scarta due Energie da questo Pokémon. Questo attacco infligge anche 120 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 			es: "Descarta 2 Energías de este Pokémon. Este ataque también hace 120 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			pt: "Descarte 2 Energias deste Pokémon. Este ataque também causa 120 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			pt: "Descarte 2 Energias deste Pokémon. Este ataque também causa 120 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'es-mx': "Descarta 2 Energías de este Pokémon. Este ataque también hace 120 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
 		},
 
 		damage: 120

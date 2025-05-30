@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Mistys Lapras",
 		it: "Lapras di Misty",
 		es: "Lapras de Misty",
-		pt: "Lapras da Misty"
+		pt: "Lapras da Misty",
+		'es-mx': "Lapras de Misty"
 	},
 
 	rarity: "Illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Gemeinsames Schwimmen",
 			it: "Nuotata in Compagnia",
 			es: "Nadar Juntos",
-			pt: "Nadar Juntos"
+			pt: "Nadar Juntos",
+			'es-mx': "Nado en Compañía"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach bis zu 3 Mistys Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
 			it: "Cerca nel tuo mazzo fino a tre Pokémon di Misty, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 			es: "Busca en tu baraja hasta 3 Pokémon de Misty, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por até 3 Pokémon da Misty no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho."
+			pt: "Procure por até 3 Pokémon da Misty no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Busca en tu mazo hasta 3 Pokémon de Misty, muéstralos y ponlos en tu mano. Después, baraja las cartas de tu mazo."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Surfer",
 			it: "Surf",
 			es: "Surf",
-			pt: "Surfar"
+			pt: "Surfar",
+			'es-mx': "Surf"
 		},
 
 		damage: 60

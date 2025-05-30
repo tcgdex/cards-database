@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Hundemon",
 		it: "Houndoom del Team Rocket",
 		es: "Houndoom del Team Rocket",
-		pt: "Houndoom da Equipe Rocket"
+		pt: "Houndoom da Equipe Rocket",
+		'es-mx': "Houndoom del Equipo Rocket"
 	},
 
 	rarity: "Illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Krude Kohle",
 			it: "Carboni Crudeli",
 			es: "Carbón Cruel",
-			pt: "Carvão Cruel"
+			pt: "Carvão Cruel",
+			'es-mx': "Carbón Cruel"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato e confuso.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido y Quemado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso e Queimado."
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso e Queimado.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido y Quemado."
 		}
 	}, {
 		cost: ["Fire", "Colorless"],
@@ -48,7 +51,8 @@ const card: Card = {
 			de: "Versengendes Feuer",
 			it: "Fuoco Ustionante",
 			es: "Fuego Abrasador",
-			pt: "Fogo Ardente"
+			pt: "Fogo Ardente",
+			'es-mx': "Fuego Ardiente"
 		},
 
 		effect: {
@@ -57,7 +61,8 @@ const card: Card = {
 			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
 			it: "Scarta un'Energia da questo Pokémon.",
 			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon."
+			pt: "Descarte uma Energia deste Pokémon.",
+			'es-mx': "Descarta 1 Energía de este Pokémon."
 		},
 
 		damage: 120

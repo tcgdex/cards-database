@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Peppers Raffel",
 		it: "Skwovet di Pepe",
 		es: "Skwovet de Damián",
-		pt: "Skwovet do Arven"
+		pt: "Skwovet do Arven",
+		'es-mx': "Skwovet de Damián"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Durchnagen",
 			it: "Rosicchiadentro",
 			es: "Roedura Perforante",
-			pt: "Roída Interrupta"
+			pt: "Roída Interrupta",
+			'es-mx': "Roedura Perforante"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
 			it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
 			es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
-			pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente."
+			pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
+			'es-mx': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival."
 		},
 
 		damage: 10

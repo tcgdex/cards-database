@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Porygon2",
 		it: "Porygon2 del Team Rocket",
 		es: "Porygon2 del Team Rocket",
-		pt: "Porygon2 da Equipe Rocket"
+		pt: "Porygon2 da Equipe Rocket",
+		'es-mx': "Porygon2 del Equipo Rocket"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "R-Befehl",
 			it: "Comando R",
 			es: "Comando R",
-			pt: "Comando R"
+			pt: "Comando R",
+			'es-mx': "Comando R"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede Unterstützerkarte in deinem Ablagestapel, bei der \"Team Rocket\" zum Namen gehört, 20 Schadenspunkte zu.",
 			it: "Questo attacco infligge 20 danni per ogni carta Aiuto nella tua pila degli scarti che ha \"Team Rocket\" nel nome.",
 			es: "Este ataque hace 20 puntos de daño por cada carta de Partidario en tu pila de descartes que tenga \"Team Rocket\" en su nombre.",
-			pt: "Este ataque causa 20 pontos de dano para cada carta de Apoiador que tenha \"Equipe Rocket\" em seu nome na sua pilha de descarte."
+			pt: "Este ataque causa 20 pontos de dano para cada carta de Apoiador que tenha \"Equipe Rocket\" em seu nome na sua pilha de descarte.",
+			'es-mx': "Este ataque hace 20 puntos de daño por cada carta de Partidario en tu pila de descartes que tenga \"Equipo Rocket\" en su nombre."
 		},
 
 		damage: "20×"

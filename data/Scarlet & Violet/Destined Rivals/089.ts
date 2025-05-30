@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Maritellit",
 		it: "Orbeetle del Team Rocket",
 		es: "Orbeetle del Team Rocket",
-		pt: "Orbeetle da Equipe Rocket"
+		pt: "Orbeetle da Equipe Rocket",
+		'es-mx': "Orbeetle del Equipo Rocket"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Rocket-Hirn",
 			it: "Cervello Rocket",
 			es: "Cerebro Rocket",
-			pt: "Cérebro Rocket"
+			pt: "Cérebro Rocket",
+			'es-mx': "Cerebro Rocket"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Beliebig oft während deines Zuges kannst du 1 Schadensmarke von 1 deiner Team Rockets Pokémon auf 1 anderes deiner Pokémon verschieben.",
 			it: "Durante il tuo turno, puoi spostare un segnalino danno da uno dei tuoi Pokémon del Team Rocket a un altro dei tuoi Pokémon tutte le volte che vuoi.",
 			es: "Todas las veces que quieras durante tu turno, puedes mover 1 contador de daño de uno de tus Pokémon del Team Rocket a otro de tus Pokémon.",
-			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus Pokémon da Equipe Rocket para outro Pokémon seu."
+			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus Pokémon da Equipe Rocket para outro Pokémon seu.",
+			'es-mx': "Cuantas veces quieras durante tu turno, puedes mover 1 contador de daño de 1 de tus Pokémon del Equipo Rocket a otro de tus Pokémon."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Psychokinese",
 			it: "Psichico",
 			es: "Psíquico",
-			pt: "Psíquico"
+			pt: "Psíquico",
+			'es-mx': "Fuerza Psíquica"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 40 Schadenspunkte mehr zu.",
 			it: "Questo attacco infligge 40 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
 			es: "Este ataque hace 40 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-			pt: "Este ataque causa 40 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente."
+			pt: "Este ataque causa 40 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+			'es-mx': "Este ataque hace 40 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival."
 		},
 
 		damage: "40+"

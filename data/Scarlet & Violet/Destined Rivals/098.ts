@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Voluminas",
 		it: "Probopass",
 		es: "Probopass",
-		pt: "Probopass"
+		pt: "Probopass",
+		'es-mx': "Probopass"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Juwelenkraft",
 			it: "Gemmoforza",
 			es: "Joya de Luz",
-			pt: "Gema Poderosa"
+			pt: "Gema Poderosa",
+			'es-mx': "Joya de Luz"
 		},
 
 		damage: 40
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Gebirgssturz",
 			it: "Smottamento",
 			es: "Caída Montaña Abajo",
-			pt: "Queda da Montanha"
+			pt: "Queda da Montanha",
+			'es-mx': "Caída Montañosa"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
 			it: "Se c'è in gioco una carta Stadio, questo attacco infligge 70 danni in più.",
 			es: "Si hay un Estadio en juego, este ataque hace 70 puntos de daño más.",
-			pt: "Se um Estádio estiver em jogo, este ataque causará 70 pontos de dano a mais."
+			pt: "Se um Estádio estiver em jogo, este ataque causará 70 pontos de dano a mais.",
+			'es-mx': "Si hay un Estadio en juego, este ataque hace 70 puntos de daño más."
 		},
 
 		damage: "70+"

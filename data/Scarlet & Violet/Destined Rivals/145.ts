@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Troys Metagross-ex",
 		it: "Metagross-ex di Rocco",
 		es: "Metagross ex de Máximo",
-		pt: "Metagross ex do Steven"
+		pt: "Metagross ex do Steven",
+		'es-mx': "Metagross ex de Steven"
 	},
 
 	rarity: "Double rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "X-Booten",
 			it: "Avvio X",
 			es: "Arranque X",
-			pt: "Inicialização X"
+			pt: "Inicialização X",
+			'es-mx': "Arranque X"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Basis-{P}-Energiekarte, 1 Basis-{M}-Energiekarte oder 1 von beiden durchsuchen und sie beliebig an deine {P}-Pokémon und {M}-Pokémon anlegen. Mische anschließend dein Deck.",
 			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia base {P}, una carta Energia base {M} o entrambe e assegnarle ai tuoi Pokémon {P} e Pokémon {M} nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
 			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía {P} Básica, 1 carta de Energía {M} Básica o 1 de cada una y unirlas a tus Pokémon {P} y Pokémon {M} de la manera que desees. Después, baraja las cartas de tu baraja.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Energia {P} Básica, uma carta de Energia {M} Básica ou 1 de cada no seu baralho e ligá-las aos seus Pokémon {P} e Pokémon {M} como desejar. Em seguida, embaralhe o seu baralho."
+			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Energia {P} Básica, uma carta de Energia {M} Básica ou 1 de cada no seu baralho e ligá-las aos seus Pokémon {P} e Pokémon {M} como desejar. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Una vez durante tu turno, puedes buscar en tu mazo 1 carta de Energía {P} Básica, 1 carta de Energía {M} Básica o 1 de cada una y unirlas a tus Pokémon {P} y Pokémon {M} de la manera que quieras. Después, baraja las cartas de tu mazo."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Metallstampfer",
 			it: "Metalpestone",
 			es: "Pisotón Metálico",
-			pt: "Pisada Metálica"
+			pt: "Pisada Metálica",
+			'es-mx': "Pisotón Metálico"
 		},
 
 		damage: 200

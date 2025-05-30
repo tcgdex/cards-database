@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Team Rockets Iksbat-ex",
 		it: "Crobat-ex del Team Rocket",
 		es: "Crobat ex del Team Rocket",
-		pt: "Crobat ex da Equipe Rocket"
+		pt: "Crobat ex da Equipe Rocket",
+		'es-mx': "Crobat ex del Equipo Rocket"
 	},
 
 	rarity: "Special illustration rare",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Bissiger Rausch",
 			it: "Mordi Mordi",
 			es: "Festival de Mordiscos",
-			pt: "Mordidas Frenéticas"
+			pt: "Mordidas Frenéticas",
+			'es-mx': "Mordidas Seriales"
 		},
 
 		effect: {
@@ -37,7 +39,8 @@ const card: Card = {
 			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 2 Pokémon deines Gegners wählen und 2 Schadensmarken auf jedes von ihnen legen.",
 			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi scegliere due dei Pokémon del tuo avversario e mettere due segnalini danno su ciascuno di essi.",
 			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, puedes elegir 2 de los Pokémon de tu rival y poner 2 contadores de daño en cada uno de ellos.",
-			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá escolher 2 dos Pokémon do seu oponente e colocar 2 contadores de dano em cada um deles."
+			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá escolher 2 dos Pokémon do seu oponente e colocar 2 contadores de dano em cada um deles.",
+			'es-mx': "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes elegir 2 de los Pokémon de tu rival y poner 2 contadores de daño en cada uno de ellos."
 		}
 	}],
 
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Meuchelrückkehr",
 			it: "Ritorno dell'Assassino",
 			es: "Retorno del Asesino",
-			pt: "Retorno do Assassino"
+			pt: "Retorno do Assassino",
+			'es-mx': "Retorno del Asesino"
 		},
 
 		effect: {
@@ -59,7 +63,8 @@ const card: Card = {
 			de: "Du kannst dieses Pokémon auf deine Hand nehmen. (Lege alle an dieses Pokémon angelegten Karten auf deinen Ablagestapel.)",
 			it: "Puoi riprendere in mano questo Pokémon. Scarta tutte le carte assegnate a questo Pokémon.",
 			es: "Puedes poner este Pokémon en tu mano. (Descarta todas las cartas unidas a este Pokémon).",
-			pt: "Você pode colocar este Pokémon na sua mão. (Descarte todas as cartas ligadas a este Pokémon.)"
+			pt: "Você pode colocar este Pokémon na sua mão. (Descarte todas as cartas ligadas a este Pokémon.)",
+			'es-mx': "Puedes poner este Pokémon en tu mano. (Descarta todas las cartas unidas a este Pokémon)."
 		},
 
 		damage: 120

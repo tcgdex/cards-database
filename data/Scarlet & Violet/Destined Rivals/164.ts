@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Energieaufbereitung",
 		it: "Riciclaggio di Energia",
 		es: "Reciclaje de Energía",
-		pt: "Reciclador de Energia"
+		pt: "Reciclador de Energia",
+		'es-mx': "Reciclaje de Energía"
 	},
 
 	rarity: "Uncommon",
@@ -22,7 +23,8 @@ const card: Card = {
 		de: "Mische bis zu 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck.",
 		it: "Rimischia fino a cinque carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
 		es: "Pon hasta 5 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
-		pt: "Embaralhe até 5 cartas de Energia Básica da sua pilha de descarte no seu baralho."
+		pt: "Embaralhe até 5 cartas de Energia Básica da sua pilha de descarte no seu baralho.",
+		'es-mx': "Pon hasta 5 cartas de Energía Básica de tu pila de descartes en tu mazo y barájalas todas."
 	},
 
 	trainerType: "Item",

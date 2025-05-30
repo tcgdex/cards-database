@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Fukano",
 		it: "Growlithe",
 		es: "Growlithe",
-		pt: "Growlithe"
+		pt: "Growlithe",
+		'es-mx': "Growlithe"
 	},
 
 	rarity: "Common",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Glühende Kohlen",
 			it: "Carboni Ardenti",
 			es: "Carbón Activado",
-			pt: "Carvão Vivo"
+			pt: "Carvão Vivo",
+			'es-mx': "Carbón Activado"
 		},
 
 		damage: 10
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Schaufelkrallen",
 			it: "Scavazanne",
 			es: "Hundir Garras",
-			pt: "Fincar Garras"
+			pt: "Fincar Garras",
+			'es-mx': "Clavar Garras"
 		},
 
 		damage: 20

@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Arkani",
 		it: "Arcanine",
 		es: "Arcanine",
-		pt: "Arcanine"
+		pt: "Arcanine",
+		'es-mx': "Arcanine"
 	},
 
 	rarity: "Uncommon",
@@ -28,7 +29,8 @@ const card: Card = {
 			de: "Flackern",
 			it: "Fiammata",
 			es: "Llama",
-			pt: "Chama"
+			pt: "Chama",
+			'es-mx': "Llama"
 		},
 
 		damage: 50
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Strafende Fänge",
 			it: "Zanna Punitiva",
 			es: "Colmillo Castigador",
-			pt: "Caninos Punitivos"
+			pt: "Caninos Punitivos",
+			'es-mx': "Colmillo Castigador"
 		},
 
 		effect: {
@@ -50,7 +53,8 @@ const card: Card = {
 			de: "Wenn das Aktive Pokémon deines Gegners ein {D}-Pokémon ist, fügt diese Attacke 100 Schadenspunkte mehr zu.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon {D}, questo attacco infligge 100 danni in più.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon {D}, este ataque hace 100 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon {D}, este ataque causará 100 pontos de dano a mais."
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon {D}, este ataque causará 100 pontos de dano a mais.",
+			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon {D}, este ataque hace 100 puntos de daño más."
 		},
 
 		damage: "100+"
