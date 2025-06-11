@@ -17,6 +17,7 @@ const card: Card = {
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
+	types: ["Fairy"],
 
 	effect: {
 		en: "",

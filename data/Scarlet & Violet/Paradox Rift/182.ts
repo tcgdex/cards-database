@@ -25,7 +25,7 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}-Energie.\nWenn du diese Karte aus deiner Hand an 1 deiner Pokémon anlegst, heile 30 Schadenspunkte bei jenem Pokémon."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "G",
 
 	variants: {

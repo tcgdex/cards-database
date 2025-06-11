@@ -10,6 +10,7 @@ const card: Card = {
 		pt: "Energia de Fada",
 		de: "Feen-Energie"
 	},
+	types: ["Fairy"],
 
 	rarity: "Common",
 	category: "Energy",
