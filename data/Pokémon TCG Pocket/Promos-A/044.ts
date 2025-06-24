@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kazumasa Yasukuni",
-	rarity: "None",
+	rarity: "Three Diamond",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],

@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Krgc",
-	rarity: "None",
+	rarity: "One Diamond",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],

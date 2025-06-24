@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
-	rarity: "None",
+	rarity: "Three Diamond",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Psychic"],

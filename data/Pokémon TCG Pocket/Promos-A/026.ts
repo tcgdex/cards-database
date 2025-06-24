@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "One Star",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],

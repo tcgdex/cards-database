@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mékayu",
-	rarity: "None",
+	rarity: "One Diamond",
 	category: "Pokemon",
 	types: ["Psychic"],
 	stage: "Stage1",

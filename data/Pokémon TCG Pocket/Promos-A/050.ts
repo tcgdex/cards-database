@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Mochizuki",
-	rarity: "None",
+	rarity: "Two Shiny",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Psychic"],

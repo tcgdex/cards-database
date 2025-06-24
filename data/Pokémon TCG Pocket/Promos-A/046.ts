@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Uninori",
-	rarity: "None",
+	rarity: "One Star",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fighting"],

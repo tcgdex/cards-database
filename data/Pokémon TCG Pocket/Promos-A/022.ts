@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kurata So",
-	rarity: "None",
+	rarity: "One Diamond",
 	category: "Pokemon",
 	types: ["Colorless"],
 	stage: "Basic",

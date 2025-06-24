@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "danciao",
-	rarity: "None",
+	rarity: "One Star",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],

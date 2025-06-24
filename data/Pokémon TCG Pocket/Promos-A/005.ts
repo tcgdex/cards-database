@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "None",
+	rarity: "One Diamond",
 	category: "Trainer",
 
 	effect: {

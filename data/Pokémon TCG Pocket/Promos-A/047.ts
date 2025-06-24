@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hasuno",
-	rarity: "None",
+	rarity: "One Diamond",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],

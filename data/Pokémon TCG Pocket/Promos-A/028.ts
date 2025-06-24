@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
-	rarity: "None",
+	rarity: "Three Diamond",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],

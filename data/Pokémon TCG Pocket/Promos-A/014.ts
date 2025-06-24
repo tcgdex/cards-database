@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA CG Works",
-	rarity: "None",
+	rarity: "Four Diamond",
 	category: "Pokemon",
 	types: ["Water"],
 	stage: "Basic",

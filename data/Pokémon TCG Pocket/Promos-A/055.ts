@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "None",
+	rarity: "Three Diamond",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],

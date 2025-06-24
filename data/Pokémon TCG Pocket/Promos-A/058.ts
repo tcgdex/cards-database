@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "OOYAMA",
-	rarity: "None",
+	rarity: "Three Diamond",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
