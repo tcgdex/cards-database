@@ -16,7 +16,7 @@ const card: Card = {
 
 	illustrator: "Yukiko Baba",
 	category: "Pokemon",
-	hp: 160,
+	hp: 130,
 	types: ["Grass"],
 	stage: "Stage1",
 

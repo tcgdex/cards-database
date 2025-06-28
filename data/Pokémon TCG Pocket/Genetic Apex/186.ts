@@ -41,7 +41,7 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 0,
+	retreat: 1,
 	rarity: "One Diamond",
 
 	description: {

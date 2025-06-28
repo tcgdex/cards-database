@@ -48,7 +48,7 @@ const card: Card = {
 	}],
 
 	weaknesses: [{
-		type: "Fighting",
+		type: "Lightning",
 		value: "+20"
 	}],
 
