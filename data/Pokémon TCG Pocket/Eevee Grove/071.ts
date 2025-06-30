@@ -1,0 +1,48 @@
+import { Card } from "../../../interfaces"
+import Set from "../Eevee Grove"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Flareon"
+	},
+
+	illustrator: "Teeziro",
+	rarity: "One Star",
+	category: "Pokemon",
+	hp: 110,
+	types: ["Fire"],
+
+	evolveFrom: {
+		en: "Eevee"
+	},
+
+	description: {
+		en: "Inhaled air is carried to its flame sac, heated, and\nexhaled as fire that reaches over 3,000 degrees\nFahrenheit."
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		name: {
+			en: "Assisting Heater"
+		},
+
+		damage: 40,
+		cost: ["Fire", "Colorless"],
+
+		effect: {
+			en: "Take a {R} Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
+	retreat: 2
+}
+
+export default card
