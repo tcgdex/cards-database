@@ -64,8 +64,18 @@ const card: Card = {
 	regulationMark: "I",
 
 	variants: {
-		holo: false
-	}
+		normal: true,
+		reverse: true,
+	},
+
+	variants_detailed: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

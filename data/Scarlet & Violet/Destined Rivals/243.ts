@@ -31,9 +31,15 @@ const card: Card = {
 	regulationMark: "H",
 
 	variants: {
-		normal: false,
-		reverse: false
-	}
+		holo: true,
+	},
+
+	variants_detailed: [
+		{
+			type: 'holo',
+			foil: 'gold'
+		},
+	]
 }
 
 export default card
