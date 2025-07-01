@@ -50,8 +50,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	variants: {
-		normal: true,
-		reverse: true,
+		holo: false
 	},
 
 	variants_detailed: [
