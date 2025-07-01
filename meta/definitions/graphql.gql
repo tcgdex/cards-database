@@ -219,6 +219,9 @@ type Card {
 	"""The card variants"""
 	variants: Variants
 
+	"""Detailed card variants, including type, size, and stamps"""
+	variants_detailed: [DetailedVariants]
+
 	"""The boosters in which the card is available"""
 	boosters: [Booster]
 

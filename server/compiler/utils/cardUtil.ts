@@ -6,6 +6,7 @@ import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
+import {variant_detailed} from "../../public/v2/api";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
