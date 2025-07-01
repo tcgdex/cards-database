@@ -1,6 +1,6 @@
-import { objectLoop } from '@dzeio/object-util'
-import type { CardResume, Card as SDKCard, SupportedLanguages } from '@tcgdex/sdk'
-import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
+import {objectLoop} from '@dzeio/object-util'
+import type {CardResume, Card as SDKCard, SupportedLanguages} from '@tcgdex/sdk'
+import {executeQuery, type Query} from '../../libs/QueryEngine/filter'
 import TCGSet from './Set'
 
 import de from '../../../generated/de/cards.json'
@@ -43,7 +43,7 @@ const cards = {
 	'zh-cn': zhcn,
 } as const
 
-type LocalCard = Omit<SDKCard, 'set'> & {set: () => TCGSet}
+type LocalCard = Omit<SDKCard, 'set'> & { set: () => TCGSet }
 
 interface variants {
 	normal?: boolean;
@@ -52,11 +52,18 @@ interface variants {
 	firstEdition?: boolean;
 }
 
+interface variant_detailed {
+	type: string;
+	size: string;
+	stamp?: string[] | undefined
+}
+
 export default class Card implements LocalCard {
 	illustrator?: string | undefined
 	rarity!: string
 	category!: string
 	variants?: variants | undefined
+	variants_detailed?: variant_detailed[] | undefined
 	dexId?: number[] | undefined
 	hp?: number | undefined
 	types?: string[] | undefined
@@ -68,7 +75,12 @@ export default class Card implements LocalCard {
 	suffix?: string | undefined
 	item?: { name: string; effect: string } | undefined
 	abilities?: { type: string; name: string; effect: string }[] | undefined
-	attacks?: { cost?: string[] | undefined; name: string; effect?: string | undefined; damage?: string | number | undefined }[] | undefined
+	attacks?: {
+		cost?: string[] | undefined;
+		name: string;
+		effect?: string | undefined;
+		damage?: string | number | undefined
+	}[] | undefined
 	weaknesses?: { type: string; value?: string | undefined }[] | undefined
 	resistances?: { type: string; value?: string | undefined }[] | undefined
 	retreat?: number | undefined
@@ -95,7 +107,7 @@ export default class Card implements LocalCard {
 	}
 
 	public set(): TCGSet {
-		return TCGSet.findOne(this.lang, { id: this.card.set.id }) as TCGSet
+		return TCGSet.findOne(this.lang, {id: this.card.set.id}) as TCGSet
 	}
 
 	public static getAll(lang: SupportedLanguages): Array<SDKCard> {

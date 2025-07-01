@@ -100,5 +100,29 @@
 		"Metal": "Metal",
 		"Psychic": "Psíquico",
 		"Water": "Água"
+	},
+	"variantType": {
+		"normal": "Normal",
+		"holo": "Holo",
+		"reverse": "Reverse",
+		"metal": "Metal"
+	},
+	"variantSize": {
+		"standard": "Padrão",
+		"jumbo": "Jumbo"
+	},
+	"variantFoil": {
+		"pokeball": "Poké Bola",
+		"ultraball": "Ultra Bola",
+		"masterball": "Master Bola",
+		"gold": "Ouro"
+	},
+	"variantStamp": {
+		"1st Edition": "1ª Edição",
+		"w-promo": "w-promo",
+		"pre-release": "Pré-lançamento",
+		"set-logo": "Logo da coleção",
+		"pokemon-center": "Pokémon Center",
+		"staff": "Staff"
 	}
 }

@@ -60,6 +60,16 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
 		},
 
+		variants_detailed: card.variants_detailed?.map((variant)=> {
+			return {
+				type: translate('variantType', variant.type, lang) as any,
+				size: variant.size ? translate('variantSize', variant.size, lang) as any : translate('variantSize','standard', lang) as any,
+				stamp: variant.stamp ? variant.stamp.map((stamp) => {
+					return translate('variantStamp', stamp, lang)
+				}) : undefined,
+				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
+			}
+		}),
 
 		dexId: card.dexId,
 		hp: card.hp,

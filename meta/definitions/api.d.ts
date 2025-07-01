@@ -57,6 +57,13 @@ interface variants {
 	wPromo?: boolean
 }
 
+interface variant_detailed {
+	type: string
+	size?: string
+	stamp?: Array<string>
+	foil?: string
+}
+
 export interface SetResume {
 	id: string;
 	name: string;
@@ -174,6 +181,17 @@ export interface Card extends CardResume {
 	 * Card Variants (Override Set Variants)
 	 */
 	variants?: variants;
+
+	/**
+	 * Card Variants Detailed
+	 *
+	 * - type: the type of variant (normal, reverse, holo, etc)
+	 * - size: the size of the variant (normal, jumbo, etc)
+	 * - stamp: the stamps of the variant (ex: 'Staff', 'Pre-release', etc)
+	 * - foil: the foil of the variant (ex: 'Holo', 'Reverse Holo', etc)
+	 */
+	variants_detailed?: Array<variant_detailed>
+
 	/**
 	 * Card Set
 	 */

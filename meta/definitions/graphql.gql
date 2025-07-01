@@ -314,6 +314,19 @@ type Variants {
 }
 
 """
+Detailed card variants
+"""
+type DetailedVariants {
+	"""The type of card, e.g., 'normal', 'reverse', 'holo', etc."""
+	type: String!
+	"""The size of the card, e.g., 'standard', 'jumbo', etc."""
+	size: String!
+	"""Any stamps the variant may have, e.g., '1st Edition', 'Staff', etc."""
+	stamps: [String]
+	"""The type of foil"""
+	foil: String
+}
+"""
 A booster pack for Pokémon TCG cards
 
 Boosters represent the different pack designs that cards can be obtained from within a set.
