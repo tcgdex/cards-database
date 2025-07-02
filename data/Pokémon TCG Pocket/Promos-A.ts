@@ -60,6 +60,16 @@ const set: Set = {
 			name : {
 				en: 'Vol. 8'
 			}
+		},
+		vol9: {
+			name : {
+				en: 'Vol. 9'
+			}
+		},
+		vol10: {
+			name : {
+				en: 'Vol. 10'
+			}
 		}
 	},
 
