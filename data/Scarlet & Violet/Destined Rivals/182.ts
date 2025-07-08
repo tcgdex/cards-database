@@ -27,7 +27,7 @@ const card: Card = {
 		'es-mx': "Esta carta solo puede unirse a un Pokémon del Equipo Rocket. Si esta carta está unida a cualquier otra carta que no sea un Pokémon del Equipo Rocket, descarta esta carta.\n\nMientras esta carta esté unida a un Pokémon, proporciona 2 Energías en cualquier combinación de Energía {P} y {D}."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "I",
 
 	variants: {
