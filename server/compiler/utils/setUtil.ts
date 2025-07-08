@@ -1,8 +1,9 @@
 import { objectKeys, objectMap } from '@dzeio/object-util'
-import { Set, SupportedLanguages } from '../../../interfaces'
+import {Card, Set, SupportedLanguages} from '../../../interfaces'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
 import { cardToCardSimple, getCards } from './cardUtil'
 import { DB_PATH, fetchRemoteFile, getDataFolder, resolveText, setIsLegal, smartGlob } from './util'
+
 
 interface t {
 	[key: string]: Set
@@ -76,16 +77,34 @@ export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promis
 	}
 }
 
+function getVariantCountForType(card: Card, type: 'normal' | 'reverse' | 'holo' | 'firstEdition'): number {
+	if( card.variants === undefined || card.variants === null) {
+		return 0;
+	}
+
+	if (!Array.isArray(card.variants)) {
+		return card.variants[type] ? 1 : 0;
+	}
+
+	if (type === 'firstEdition') {
+		return card.variants.reduce((count, variant) =>
+			count + (variant.stamp?.some((stamp) => stamp === '1st edition') ? 1 : 0), 0);
+	}
+
+	return card.variants.reduce((count, variant) => count + (variant.type === type ? 1 : 0), 0);
+}
+
+
 export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promise<SetSingle> {
 	const cards = await getCards(lang, set)
 	const pics = await getSetPictures(set, lang)
 	return {
 		cardCount: {
-			firstEd: cards.reduce((count, card) => count + (card[1].variants?.firstEdition ? 1 : 0), 0),
-			holo: cards.reduce((count, card) => count + (card[1].variants?.holo ? 1 : 0), 0),
-			normal: cards.reduce((count, card) => count + (card[1].variants?.normal ? 1 : 0), 0),
+			firstEd: cards.reduce((count, card) => count + getVariantCountForType(card[1],"firstEdition"), 0),
+			holo: cards.reduce((count, card) => count + getVariantCountForType(card[1],"holo"), 0),
+			normal: cards.reduce((count, card) => count + getVariantCountForType(card[1],"normal"), 0),
 			official: set.cardCount.official,
-			reverse: cards.reduce((count, card) => count + (card[1].variants?.reverse ? 1 : 0), 0),
+			reverse: cards.reduce((count, card) => count + getVariantCountForType(card[1],"reverse"), 0),
 			total: Math.max(set.cardCount.official, cards.length)
 		},
 		cards: await Promise.all(cards.map(([id, card]) => cardToCardSimple(id, card, lang))),
