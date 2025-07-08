@@ -16,7 +16,7 @@ const card: Card = {
 
 	illustrator: "HYOGONOSUKE",
 	category: "Pokemon",
-	hp: 50,
+	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
 

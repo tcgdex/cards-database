@@ -14,7 +14,7 @@ const card: Card = {
 		ko: "강연"
 	},
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "GOSSAN",
 	category: "Trainer",
 
 	effect: {

@@ -16,7 +16,7 @@ const card: Card = {
 
 	illustrator: "Hitoshi Ariga",
 	category: "Pokemon",
-	hp: 130,
+	hp: 100,
 	types: ["Lightning"],
 	stage: "Basic",
 

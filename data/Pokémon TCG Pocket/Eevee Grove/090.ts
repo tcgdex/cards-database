@@ -34,11 +34,6 @@ const card: Card = {
 		}
 	}],
 
-	weaknesses: [{
-		type: "Colorless",
-		value: "+20"
-	}],
-
 	retreat: 2
 }
 

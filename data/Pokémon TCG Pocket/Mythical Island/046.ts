@@ -19,6 +19,11 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Stage1",
+
+	evolveFrom: {
+		en: "Old Amber"
+	},
+
 	suffix: "EX",
 
 	abilities: [{

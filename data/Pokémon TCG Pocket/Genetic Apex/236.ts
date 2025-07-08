@@ -14,7 +14,7 @@ const card: Card = {
 		ko: "후딘"
 	},
 
-	illustrator: "Akira Egawa",
+	illustrator: "AKIRA EGAWA",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],

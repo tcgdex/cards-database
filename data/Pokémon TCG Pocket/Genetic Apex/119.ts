@@ -14,7 +14,7 @@ const card: Card = {
 		ko: "야도란"
 	},
 
-	illustrator: "Kogemaru Himeno",
+	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],

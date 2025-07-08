@@ -16,7 +16,7 @@ const card: Card = {
 
 	illustrator: "kodama",
 	category: "Pokemon",
-	hp: 150,
+	hp: 130,
 	types: ["Fire"],
 	stage: "Stage1",
 
