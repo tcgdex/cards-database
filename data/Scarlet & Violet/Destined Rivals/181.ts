@@ -29,11 +29,6 @@ const card: Card = {
 
 	trainerType: "Item",
 	regulationMark: "H",
-
-	variants: {
-		holo: false
-	},
-
 	variants_detailed: [
 		{
 			type: 'normal'

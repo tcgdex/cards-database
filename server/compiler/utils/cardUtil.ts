@@ -1,11 +1,11 @@
 /* eslint-disable sort-keys */
-import { exec } from 'child_process'
-import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
-import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
-import { getSet, setToSetSimple } from './setUtil'
+import {exec} from 'child_process'
+import {Card, Set, SupportedLanguages, Types} from '../../../interfaces'
+import {CardResume, Card as CardSingle} from '../../../meta/definitions/api'
+import {getSet, setToSetSimple} from './setUtil'
 import translate from './translationUtil'
-import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
-import { objectMap, objectPick } from '@dzeio/object-util'
+import {DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob} from './util'
+import {objectMap, objectPick} from '@dzeio/object-util'
 import {variant_detailed} from "../../public/v2/api";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
@@ -35,6 +35,16 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 	}
 }
 
+function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
+	return {
+		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === '1st edition')) ?? false,
+		holo: variants_detailed?.some((variant) => variant.type === 'holo') ?? false,
+		normal: variants_detailed?.some((variant) => variant.type === 'normal') ?? false,
+		reverse: variants_detailed?.some((variant) => variant.type === 'reverse') ?? false,
+		wPromo: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === 'w-Promo')) ?? false
+	}
+}
+
 // eslint-disable-next-line max-lines-per-function
 export async function cardToCardSingle(localId: string, card: Card, lang: SupportedLanguages): Promise<CardSingle> {
 	const image = await getCardPictures(localId, card, lang)
@@ -53,18 +63,19 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 
 		rarity: translate('rarity', card.rarity, lang) as any,
 		set: await setToSetSimple(card.set, lang),
-		variants: {
+
+		variants: card.variants ? {
 			firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
 			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : true,
 			normal: typeof card.variants?.normal === 'boolean' ? card.variants.normal : true,
 			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : true,
 			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
-		},
+		} : variantsDetailedToVariants(card.variants_detailed),
 
-		variants_detailed: card.variants_detailed?.map((variant)=> {
+		variants_detailed: card.variants_detailed?.map((variant) => {
 			return {
 				type: translate('variantType', variant.type, lang) as any,
-				size: variant.size ? translate('variantSize', variant.size, lang) as any : translate('variantSize','standard', lang) as any,
+				size: variant.size ? translate('variantSize', variant.size, lang) as any : translate('variantSize', 'standard', lang) as any,
 				stamp: variant.stamp ? variant.stamp.map((stamp) => {
 					return translate('variantStamp', stamp, lang)
 				}) : undefined,

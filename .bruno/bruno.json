@@ -3,6 +3,11 @@
   "name": "TCGdex",
   "type": "collection",
   "presets": {
-    "requestType": "http"
-  }
+    "requestType": "http",
+    "requestUrl": "127.0.0.1:3000"
+  },
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
 }

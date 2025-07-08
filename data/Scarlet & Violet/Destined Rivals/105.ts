@@ -48,11 +48,6 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "H",
-
-	variants: {
-		holo: false
-	},
-
 	variants_detailed: [
 		{
 			type: 'normal'

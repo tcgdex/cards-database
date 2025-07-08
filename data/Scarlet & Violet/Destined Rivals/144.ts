@@ -49,10 +49,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	variants: {
-		normal:false
-	},
-
 	variants_detailed: [
 		{
 			type: 'reverse'

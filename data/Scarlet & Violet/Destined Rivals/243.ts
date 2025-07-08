@@ -29,12 +29,6 @@ const card: Card = {
 
 	trainerType: "Stadium",
 	regulationMark: "H",
-
-	variants: {
-		normal: false,
-		reverse: false
-	},
-
 	variants_detailed: [
 		{
 			type: 'holo',

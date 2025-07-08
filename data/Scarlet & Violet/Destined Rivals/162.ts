@@ -30,10 +30,6 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "I",
 
-	variants: {
-		holo: false
-	},
-
 	variants_detailed: [
 		{
 			type: 'normal'

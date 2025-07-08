@@ -73,10 +73,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
-	variants: {
-		holo: false
-	},
-
 	variants_detailed: [
 		{
 			type: 'normal'

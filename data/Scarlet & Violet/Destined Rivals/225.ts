@@ -30,11 +30,6 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
-
 	variants_detailed: [
 		{
 			type: 'holo'

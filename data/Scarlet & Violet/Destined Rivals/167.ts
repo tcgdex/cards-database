@@ -29,11 +29,6 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "G",
-
-	variants: {
-		holo: false
-	},
-
 	variants_detailed: [
 		{
 			type: 'normal'

@@ -179,6 +179,7 @@ export interface Card extends CardResume {
 	category: string;
 	/**
 	 * Card Variants (Override Set Variants)
+	 * To be deprecated in V3
 	 */
 	variants?: variants;
 
@@ -189,8 +190,9 @@ export interface Card extends CardResume {
 	 * - size: the size of the variant (normal, jumbo, etc)
 	 * - stamp: the stamps of the variant (ex: 'Staff', 'Pre-release', etc)
 	 * - foil: the foil of the variant (ex: 'Holo', 'Reverse Holo', etc)
+
 	 */
-	variants_detailed?: Array<variant_detailed>
+	variants_detailed?: Array<variant_detailed>;
 
 	/**
 	 * Card Set

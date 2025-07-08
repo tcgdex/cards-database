@@ -74,7 +74,6 @@ const card: Card = {
 	variants: {
 		normal: false,
 	},
-
 	variants_detailed: [
 		{
 			type: 'holo'
