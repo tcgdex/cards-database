@@ -187,13 +187,7 @@ export interface Card {
 	/**
 	 * Card Variants (Override Set Variants)
 	 */
-	variants?: variants
-
-	/**
-	 * Card Variants Detailed.
-	 * detailed information about card variants, to replace the variants field in V3
-	 */
-	variants_detailed?: Array<variant_detailed>
+	variants?: variants | Array<variant_detailed>
 
 	/**
 	 * Card Set

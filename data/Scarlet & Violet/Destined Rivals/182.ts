@@ -30,7 +30,7 @@ const card: Card = {
 	energyType: "Special",
 	regulationMark: "I",
 
-	variants_detailed: [
+	variants: [
 		{
 			type: 'normal'
 		},

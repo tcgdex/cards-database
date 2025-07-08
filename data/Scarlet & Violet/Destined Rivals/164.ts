@@ -30,7 +30,7 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "I",
 
-	variants_detailed: [
+	variants: [
 		{
 			type: 'normal'
 		},

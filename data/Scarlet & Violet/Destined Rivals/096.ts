@@ -75,7 +75,7 @@ const card: Card = {
 
 	variants: {
 	},
-	variants_detailed: [
+	variants: [
 		{
 			type: 'normal'
 		},

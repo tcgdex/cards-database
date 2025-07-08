@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
-	variants_detailed: [
+	variants: [
 		{
 			type: 'reverse'
 		},

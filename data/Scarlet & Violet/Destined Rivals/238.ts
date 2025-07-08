@@ -33,7 +33,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 	},
-	variants_detailed: [
+	variants: [
 		{
 			type: 'holo'
 		},

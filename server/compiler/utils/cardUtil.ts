@@ -64,15 +64,16 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		rarity: translate('rarity', card.rarity, lang) as any,
 		set: await setToSetSimple(card.set, lang),
 
-		variants: card.variants ? {
+		variants : Array.isArray(card.variants) ?
+			variantsDetailedToVariants(card.variants) : {
 			firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
 			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : true,
 			normal: typeof card.variants?.normal === 'boolean' ? card.variants.normal : true,
 			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : true,
 			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
-		} : variantsDetailedToVariants(card.variants_detailed),
+		},
 
-		variants_detailed: card.variants_detailed?.map((variant) => {
+		variants_detailed: Array.isArray(card.variants) ? card.variants?.map((variant) => {
 			return {
 				type: translate('variantType', variant.type, lang) as any,
 				size: variant.size ? translate('variantSize', variant.size, lang) as any : translate('variantSize', 'standard', lang) as any,
@@ -81,7 +82,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 				}) : undefined,
 				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
 			}
-		}),
+		}) : undefined,
 
 		dexId: card.dexId,
 		hp: card.hp,

@@ -30,7 +30,7 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "I",
 
-	variants_detailed: [
+	variants: [
 		{
 			type: 'holo',
 			foil: 'gold'
