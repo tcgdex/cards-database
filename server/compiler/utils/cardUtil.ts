@@ -4,9 +4,9 @@ import {Card, Set, SupportedLanguages, Types} from '../../../interfaces'
 import {CardResume, Card as CardSingle} from '../../../meta/definitions/api'
 import {getSet, setToSetSimple} from './setUtil'
 import translate from './translationUtil'
-import {DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob} from './util'
-import {objectMap, objectPick} from '@dzeio/object-util'
-import {variant_detailed} from "../../public/v2/api";
+import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
+import { objectMap, objectPick } from '@dzeio/object-util'
+import { variant_detailed } from "../../public/v2/api";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -43,6 +43,33 @@ function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>):
 		reverse: variants_detailed?.some((variant) => variant.type === 'reverse') ?? false,
 		wPromo: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === 'w-Promo')) ?? false
 	}
+}
+
+function variantsToVariantsDetailed(variants: CardSingle['variants']): Array<variant_detailed> {
+	const result: Array<variant_detailed> = [];
+	const addVariant = (type: string, stamps: string[] = []) => {
+		result.push({
+			type,
+			size: 'standard',
+			stamp: stamps.length > 0 ? stamps : undefined
+		});
+	};
+
+	if (typeof variants?.normal === 'boolean' ? variants.normal : true) {
+		addVariant('normal');
+		if (variants?.firstEdition) addVariant('normal', ['1st edition']);
+		if (variants?.wPromo) addVariant('normal', ['w-Promo']);
+	}
+	if (typeof variants?.reverse === 'boolean' ? variants.reverse : true) {
+		addVariant('reverse');
+		if (variants?.firstEdition) addVariant('reverse', ['1st edition']);
+	}
+	if (typeof variants?.holo === 'boolean' ? variants.holo : true) {
+		addVariant('holo');
+		if (variants?.firstEdition) addVariant('holo', ['1st edition']);
+	}
+
+	return result.length > 0 ? result : undefined;
 }
 
 // eslint-disable-next-line max-lines-per-function
@@ -82,7 +109,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 				}) : undefined,
 				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
 			}
-		}) : undefined,
+		}) : variantsToVariantsDetailed(card.variants),
 
 		dexId: card.dexId,
 		hp: card.hp,
