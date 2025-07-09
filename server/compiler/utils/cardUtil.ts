@@ -1,8 +1,8 @@
 /* eslint-disable sort-keys */
-import {exec} from 'child_process'
-import {Card, Set, SupportedLanguages, Types} from '../../../interfaces'
-import {CardResume, Card as CardSingle} from '../../../meta/definitions/api'
-import {getSet, setToSetSimple} from './setUtil'
+import { exec } from 'child_process'
+import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
+import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
+import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
