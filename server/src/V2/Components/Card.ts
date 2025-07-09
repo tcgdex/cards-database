@@ -1,6 +1,6 @@
-import {objectLoop} from '@dzeio/object-util'
-import type {CardResume, Card as SDKCard, SupportedLanguages} from '@tcgdex/sdk'
-import {executeQuery, type Query} from '../../libs/QueryEngine/filter'
+import { objectLoop } from '@dzeio/object-util'
+import type { CardResume, Card as SDKCard, SupportedLanguages } from '@tcgdex/sdk'
+import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
 import TCGSet from './Set'
 
 import de from '../../../generated/de/cards.json'

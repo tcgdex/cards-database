@@ -1,5 +1,5 @@
 import { objectKeys, objectMap } from '@dzeio/object-util'
-import {Card, Set, SupportedLanguages} from '../../../interfaces'
+import { Card, Set, SupportedLanguages } from '../../../interfaces'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
 import { cardToCardSimple, getCards } from './cardUtil'
 import { DB_PATH, fetchRemoteFile, getDataFolder, resolveText, setIsLegal, smartGlob } from './util'
