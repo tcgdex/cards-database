@@ -124,5 +124,9 @@
 		"set-logo": "Logo de la série",
 		"pokemon-center": "Pokémon Center",
 		"staff": "Staff"
+	},
+	"variantSubtype": {
+		"shadowless": "sans ombre",
+		"unlimited": "illimité"
 	}
 }

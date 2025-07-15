@@ -103,6 +103,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		variants_detailed: Array.isArray(card.variants) ? card.variants?.map((variant) => {
 			return {
 				type: translate('variantType', variant.type, lang) as any,
+				subtype: translate('variantSubtype', variant.subtype, lang) as any,
 				size: variant.size ? translate('variantSize', variant.size, lang) as any : translate('variantSize', 'standard', lang) as any,
 				stamp: variant.stamp ? variant.stamp.map((stamp) => {
 					return translate('variantStamp', stamp, lang)

@@ -54,6 +54,7 @@ interface variants {
 
 interface variant_detailed {
 	type: string;
+	subtype?: string | undefined;
 	size: string;
 	stamp?: string[] | undefined
 }

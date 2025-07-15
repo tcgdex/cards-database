@@ -24,6 +24,13 @@ interface variant_detailed {
 	 * - reverse: everything but the illustration is foiled
 	 */
 	type: 'normal' | 'holo' | 'reverse' | 'metal'
+
+	/**
+	 * Some older sets had specific subtypes for the cards
+	 * i.e Base Set had shadowless with and without a 1st edition stamp.
+	 * and the Unlimited version of the set had no shadow.
+	 */
+	subtype?: 'shadowless' | 'unlimited'
 	/**
 	 * define the size of the card
 	 * - standard: the classic size of a card
