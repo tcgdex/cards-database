@@ -219,6 +219,9 @@ type Card {
 	"""The card variants"""
 	variants: Variants
 
+	"""Detailed card variants, including type, size, and stamps"""
+	variants_detailed: [DetailedVariants]
+
 	"""The boosters in which the card is available"""
 	boosters: [Booster]
 
@@ -313,6 +316,19 @@ type Variants {
 	wPromo: Boolean!
 }
 
+"""
+Detailed card variants
+"""
+type DetailedVariants {
+	"""The type of card, e.g., 'normal', 'reverse', 'holo', etc."""
+	type: String!
+	"""The size of the card, e.g., 'standard', 'jumbo', etc."""
+	size: String!
+	"""Any stamps the variant may have, e.g., '1st Edition', 'Staff', etc."""
+	stamps: [String]
+	"""The type of foil"""
+	foil: String
+}
 """
 A booster pack for Pokémon TCG cards
 

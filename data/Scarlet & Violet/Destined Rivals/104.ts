@@ -73,10 +73,11 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
-	variants: {
-		reverse: false,
-		normal: false
-	}
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card
