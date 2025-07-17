@@ -41,7 +41,7 @@ const card: Card = {
             it: "Scegli 1 degli attacchi del Pokemon in carica. Quel Pokemon non può usare quell'attacco durante il prossimo turno del tuo avversario.",
             pt: "Escolha 1 dos ataques de Pokémon em defesa. Esse Pokémon não pode usar esse ataque durante o próximo turno do seu oponente.",
           },
-          damage: None,
+
         },
         {
           cost: ["Water", "Water", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Flip 2 monete. Questo attacco fa 30 danni volte al numero di teste.",
             pt: "Flip 2 moedas. Este ataque causa 30 danos vezes o número de cabeças.",
           },
-          damage: None,
+
         },
       ],
 

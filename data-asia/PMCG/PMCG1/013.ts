@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, questo attacco infligge 30 danni più 10 danni in più; Se le code, questo attacco infligge 30 danni e Nidoking fa 10 danni a se stesso.",
             pt: "Vire uma moeda. Se as cabeças, esse ataque causará 30 danos mais 10 mais danos; Se as caudas, esse ataque causam 30 danos e Nidoking causa 10 danos a si mesmo.",
           },
-          damage: None,
+
         },
         {
           cost: ["Grass", "Grass", "Grass"],

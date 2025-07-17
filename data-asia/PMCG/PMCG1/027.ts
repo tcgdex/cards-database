@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se le teste, durante il prossimo turno dell'avversario, impediscono tutti i danni arrecati a questo Pokemon dagli attacchi.",
             pt: "Vire uma moeda. Se as cabeças, durante o próximo turno do seu oponente, impedem todos os danos causados a este Pokémon por ataques.",
           },
-          damage: None,
+
         },
         {
           cost: ["Water", "Colorless", "Colorless"],

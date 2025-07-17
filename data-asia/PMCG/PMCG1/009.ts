@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se le teste, impediscono tutti i danni arrecati a Kakuna durante il prossimo turno dell'avversario. (Qualsiasi altro effetto degli attacchi si verifica ancora.)",
             pt: "Vire uma moeda. Se as cabeças, impedem todos os danos causados a Kakuna durante o próximo turno do seu oponente. (Quaisquer outros efeitos dos ataques ainda acontecem.)",
           },
-          damage: None,
+
         },
         {
           cost: ["Grass", "Grass"],

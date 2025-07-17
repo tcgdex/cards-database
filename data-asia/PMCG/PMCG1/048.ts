@@ -41,7 +41,7 @@ const card: Card = {
             it: "Flip 2 monete. Questo attacco fa 10 danni volte il numero di teste.",
             pt: "Flip 2 moedas. Este ataque causa 10 danos ao número do número de cabeças.",
           },
-          damage: None,
+
         },
         {
           cost: ["Psychic", "Psychic", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Fa 20 danni più 10 danni in più per ciascun contatore del danno sul Pokemon in difesa.",
             pt: "Causa 20 danos mais 10 mais danos para cada contador de danos no Pokémon atual.",
           },
-          damage: None,
+
         },
       ],
 

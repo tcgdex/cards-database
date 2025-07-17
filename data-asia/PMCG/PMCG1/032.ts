@@ -64,7 +64,7 @@ const card: Card = {
             it: "Questo attacco infligge altri 10 danni per ogni energia dell'acqua extra attaccata a questo Pokemon (oltre al costo di questo attacco). Non puoi aggiungere più di 20 danni in questo modo.",
             pt: "Este ataque causa mais 10 danos a cada energia hídrica extra ligada a este Pokémon (além do custo deste ataque). Você não pode adicionar mais de 20 danos dessa maneira.",
           },
-          damage: None,
+
         },
       ],
 

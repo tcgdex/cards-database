@@ -63,7 +63,7 @@ const card: Card = {
             it: "Se Pidgeotto è stato attaccato all'ultimo turno, fai il risultato finale di quell'attacco a Pidgeotto al Pokemon in carica.",
             pt: "Se Pidgeotto foi atacado na última curva, faça o resultado final desse ataque a Pidgeotto ao Pokémon atual.",
           },
-          damage: None,
+
         },
       ],
 

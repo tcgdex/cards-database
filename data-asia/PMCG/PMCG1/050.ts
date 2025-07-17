@@ -41,7 +41,7 @@ const card: Card = {
             it: "Fa 10 danni più 10 danni in più per ogni carta di energia collegata al Pokemon in difesa.",
             pt: "10 danos mais 10 mais danos para cada cartão de energia ligado ao Pokémon atual.",
           },
-          damage: None,
+
         },
         {
           cost: ["Psychic", "Psychic"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Scartare 1 carta di energia psichica collegata a mewtwo per usare questo attacco. Durante il prossimo turno del tuo avversario, prevenire tutti gli effetti degli attacchi, inclusi i danni, fatti a Mewtwo.",
             pt: "Descarte 1 cartão de energia psíquica anexada a mewtwo para usar esse ataque. Durante o próximo turno do seu oponente, evite todos os efeitos dos ataques, incluindo danos, causados a Mewtwo.",
           },
-          damage: None,
+
         },
       ],
 

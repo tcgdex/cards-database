@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, il Pokemon in carica è ora addormentato.",
             pt: "Vire uma moeda. Se as cabeças, o pokemon defensor agora está dormindo.",
           },
-          damage: None,
+
         },
         {
           cost: ["Psychic", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Scartare 1 carta di energia psichica collegata a gastly per usare questo attacco. Se un Pokemon elimina Gastly durante il prossimo turno del tuo avversario, elimina quel Pokemon.",
             pt: "Descarte 1 cartão de energia psíquica ligada a Gastly para usar esse ataque. Se um Pokémon derruba Gastly durante o próximo turno do seu oponente, nocauteia aquele Pokémon.",
           },
-          damage: None,
+
         },
       ],
 
