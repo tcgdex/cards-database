@@ -41,7 +41,7 @@ const card: Card = {
             it: "Se il Pokemon difensore attacca Cubone durante il prossimo turno dell'avversario, qualsiasi danno causato dall'attacco viene ridotto di 20 (dopo aver applicato la debolezza e la resistenza). (Benching uno dei pokemon termina questo effetto.)",
             pt: "Se o pokemon atual atacar Cubone durante o próximo turno do seu oponente, qualquer dano causado pelo ataque será reduzido em 20 (após aplicar fraqueza e resistência). (Becada de Pokemon termina esse efeito.)",
           },
-          damage: None,
+
         },
         {
           cost: ["Fighting", "Fighting"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Fa 10 danni più 10 danni in più per ciascun contatore di danni su Cubone.",
             pt: "10 danos mais 10 mais danos para cada contador de danos em Cubone.",
           },
-          damage: None,
+
         },
       ],
 

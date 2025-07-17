@@ -64,7 +64,7 @@ const card: Card = {
             it: "Fa 10 danni più 10 danni in più per ciascun contatore di danni su Dodrio.",
             pt: "10 danos mais 10 mais danos para cada contador de danos no Dodrio.",
           },
-          damage: None,
+
         },
       ],
 

@@ -64,7 +64,7 @@ const card: Card = {
             it: "Flip 3 monete. Questo attacco fa 40 danni il numero di teste. Vileplume è ora confuso (dopo aver fatto danni).",
             pt: "Flip 3 moedas. Este ataque causa 40 danos vezes o número de cabeças. O vileplume agora está confuso (depois de causar danos).",
           },
-          damage: None,
+
         },
       ],
 

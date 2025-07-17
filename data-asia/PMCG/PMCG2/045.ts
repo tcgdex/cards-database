@@ -41,7 +41,7 @@ const card: Card = {
             it: "Il Pokemon in carica è ora addormentato.",
             pt: "O Pokémon atual está agora dormindo.",
           },
-          damage: None,
+
         },
         {
           cost: ["Colorless", "Colorless", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Fa 10 danni più 10 danni in più per ciascuno dei pokemon in panchina.",
             pt: "10 danos mais 10 mais danos para cada um dos seus Pokémon em banco.",
           },
-          damage: None,
+
         },
       ],
 

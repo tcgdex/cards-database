@@ -41,7 +41,7 @@ const card: Card = {
             it: "Disegna una carta.",
             pt: "Desenhe uma carta.",
           },
-          damage: None,
+
         },
         {
           cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Flip 4 monete. Questo attacco fa 20 danni il numero di teste.",
             pt: "Flip 4 moedas. Este ataque causa 20 danos vezes o número de cabeças.",
           },
-          damage: None,
+
         },
       ],
 

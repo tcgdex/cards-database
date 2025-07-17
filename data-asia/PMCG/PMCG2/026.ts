@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, questo attacco infligge 10 danni più 20 danni in più; Se le code, questo attacco infligge 10 danni.",
             pt: "Vire uma moeda. Se as cabeças, esse ataque causará 10 danos mais 20 mais danos; Se caudas, esse ataque causa 10 danos.",
           },
-          damage: None,
+
         },
         {
           cost: ["Lightning", "Lightning", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Flip 4 monete. Questo attacco fa 20 danni il numero di teste.",
             pt: "Flip 4 moedas. Este ataque causa 20 danos vezes o número de cabeças.",
           },
-          damage: None,
+
         },
       ],
 

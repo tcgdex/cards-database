@@ -41,7 +41,7 @@ const card: Card = {
             it: "Se il tuo avversario ha dei Pokemon in panchina, scegli uno di loro e cambialo con il suo Pokemon attivo.",
             pt: "Se o seu oponente tiver algum Pokémon em banco, escolha 1 deles e mude -o com seu Pokémon ativo.",
           },
-          damage: None,
+
         },
         {
           cost: ["Grass", "Grass"],

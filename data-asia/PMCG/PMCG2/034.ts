@@ -54,7 +54,7 @@ const card: Card = {
             it: "Se Sperow è stato attaccato all'ultimo turno, esegui il risultato finale di quell'attacco a Spearow al Pokemon in carica.",
             pt: "Se Spearow foi atacado na última curva, faça o resultado final desse ataque a Spearow ao Pokémon atual.",
           },
-          damage: None,
+
         },
       ],
 
