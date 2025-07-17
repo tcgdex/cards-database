@@ -41,7 +41,7 @@ const card: Card = {
             it: "Il Pokemon in carica è ora addormentato.",
             pt: "O Pokémon atual está agora dormindo.",
           },
-          damage: None,
+
         },
         {
           cost: ["Grass", "Grass"],

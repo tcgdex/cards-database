@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, il Pokemon in carica non può attaccare durante il prossimo turno del tuo avversario. (Benching uno dei pokemon termina questo effetto.)",
             pt: "Vire uma moeda. Se as cabeças, o pokemon atual não pode atacar durante o próximo turno do seu oponente. (Becada de Pokemon termina esse efeito.)",
           },
-          damage: None,
+
         },
         {
           cost: ["Fighting", "Colorless", "Colorless"],

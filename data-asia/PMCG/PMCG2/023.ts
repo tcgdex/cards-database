@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, questo attacco infligge 10 danni più 20 danni in più; Se le code, questo attacco infligge 10 danni.",
             pt: "Vire uma moeda. Se as cabeças, esse ataque causará 10 danos mais 20 mais danos; Se caudas, esse ataque causa 10 danos.",
           },
-          damage: None,
+
         },
         {
           cost: ["Water", "Water", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Fa 30 danni più 10 danni per ogni energia idrica attaccata al vaporeone ma non è usato per pagare il costo energetico di questo attacco. L'energia dell'acqua extra dopo il 2 ° non conta.",
             pt: "Os 30 danos mais 10 mais danos para cada energia da água ligados ao Vaporeon, mas não são usados para pagar pelo custo de energia desse ataque. Energia hídrica extra após o 2º não conta.",
           },
-          damage: None,
+
         },
       ],
 

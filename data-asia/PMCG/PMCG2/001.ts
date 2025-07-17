@@ -41,7 +41,7 @@ const card: Card = {
             it: "Flip 3 monete. Questo attacco fa 10 danni volte il numero di teste.",
             pt: "Flip 3 moedas. Este ataque causa 10 danos ao número do número de cabeças.",
           },
-          damage: None,
+
         },
         {
           cost: ["Grass", "Grass"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Cerca nel tuo mazzo un Pokemon di base di nome Nidoran? o Nidoran? E mettilo in panchina. Shuffle il tuo mazzo in seguito. (Non puoi usare questo attacco se la tua panchina è piena.)",
             pt: "Pesquise seu baralho por um Pokémon básico chamado Nidoran? ou nidoran? E coloque -o em seu banco. Afaste seu baralho depois. (Você não pode usar este ataque se o seu banco estiver cheio.)",
           },
-          damage: None,
+
         },
       ],
 

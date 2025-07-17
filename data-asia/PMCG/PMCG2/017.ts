@@ -41,7 +41,7 @@ const card: Card = {
             it: "Durante il tuo prossimo turno, l'attacco a taglio di questo Pokemon infligge altri 30 danni (prima di applicare debolezza e resistenza).",
             pt: "Durante o seu próximo turno, o ataque de Slash do Pokemon causa mais 30 danos (antes de aplicar fraqueza e resistência).",
           },
-          damage: None,
+
         },
         {
           cost: ["Colorless", "Colorless", "Colorless"],

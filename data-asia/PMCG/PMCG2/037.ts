@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se le teste, il Pokemon in carica non può attaccare Eevee durante il prossimo turno del tuo avversario. (Benching uno dei pokemon termina questo effetto.)",
             pt: "Vire uma moeda. Se as cabeças, o Pokémon atual não pode atacar Eevee durante o próximo turno do seu oponente. (Becada de Pokemon termina esse efeito.)",
           },
-          damage: None,
+
         },
         {
           cost: ["Colorless", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, questo attacco infligge 10 danni più 20 danni in più; Se le code, questo attacco infligge 10 danni.",
             pt: "Vire uma moeda. Se as cabeças, esse ataque causará 10 danos mais 20 mais danos; Se caudas, esse ataque causa 10 danos.",
           },
-          damage: None,
+
         },
       ],
 

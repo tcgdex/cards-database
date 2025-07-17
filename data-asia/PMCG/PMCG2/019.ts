@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, questo attacco infligge 20 danni più 10 danni in più; Se le code, questo attacco infligge 20 danni.",
             pt: "Vire uma moeda. Se as cabeças, esse ataque causará 20 danos mais 10 mais danos; Se as caudas, esse ataque causam 20 danos.",
           },
-          damage: None,
+
         },
         {
           cost: ["Fire", "Fire", "Colorless"],

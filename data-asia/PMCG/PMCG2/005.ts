@@ -54,7 +54,7 @@ const card: Card = {
             it: "Cerca nel tuo mazzo un Pokemon di base di nome Bellsprout e mettilo sulla panchina. Shuffle il tuo mazzo in seguito. (Non puoi usare questo attacco se la tua panchina è piena.)",
             pt: "Pesquise seu baralho por um Pokémon básico chamado Bellsprout e coloque -o em seu banco. Afaste seu baralho depois. (Você não pode usar este ataque se o seu banco estiver cheio.)",
           },
-          damage: None,
+
         },
       ],
 

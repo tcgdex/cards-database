@@ -63,7 +63,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, il Pokemon in carica è ora confuso.",
             pt: "Vire uma moeda. Se as cabeças, o pokemon atual agora está confuso.",
           },
-          damage: None,
+
         },
       ],
 

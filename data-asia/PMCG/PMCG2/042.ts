@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, questo attacco infligge 20 danni più 10 danni in più; Se le code, questo attacco infligge 20 danni.",
             pt: "Vire uma moeda. Se as cabeças, esse ataque causará 20 danos mais 10 mais danos; Se as caudas, esse ataque causam 20 danos.",
           },
-          damage: None,
+
         },
         {
           cost: ["Colorless", "Colorless", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Fa 20 danni più 10 danni in più per ciascun contatore di danni su Tauros. Capovolgi una moneta. Se le code, Tauros è ora confusa (dopo aver fatto danni).",
             pt: "Causa 20 danos mais 10 mais danos para cada contador de danos em Tauros. Vire uma moeda. Se caudas, Tauros agora está confuso (depois de causar danos).",
           },
-          damage: None,
+
         },
       ],
 

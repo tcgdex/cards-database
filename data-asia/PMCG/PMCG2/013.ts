@@ -41,7 +41,7 @@ const card: Card = {
             it: "Fa 20 danni più 20 danni in più per ogni nidoking che hai in gioco.",
             pt: "20 danos mais 20 mais danos para cada uma que você tem em jogo.",
           },
-          damage: None,
+
         },
         {
           cost: ["Grass", "Grass", "Colorless", "Colorless"],

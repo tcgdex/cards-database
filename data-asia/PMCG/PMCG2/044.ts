@@ -41,7 +41,7 @@ const card: Card = {
             it: "Scegli 1 degli attacchi di Pokemon attivi del tuo avversario e usalo come questo attacco.",
             pt: "Escolha 1 dos ataques de Pokémon ativos do seu oponente e use -o como esse ataque.",
           },
-          damage: None,
+
         },
         {
           cost: ["Colorless", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Durante il prossimo turno del tuo avversario, questo Pokemon subisce 20 danni in meno dagli attacchi (dopo aver applicato la debolezza e la resistenza).",
             pt: "Durante o próximo turno do seu oponente, este Pokemon recebe 20 menos danos causados por ataques (após aplicar fraqueza e resistência).",
           },
-          damage: None,
+
         },
       ],
 
