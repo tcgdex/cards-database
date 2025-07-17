@@ -41,7 +41,7 @@ const card: Card = {
             it: "Flip 2 monete. Questo attacco fa 30 danni volte al numero di teste.",
             pt: "Flip 2 moedas. Este ataque causa 30 danos vezes o número de cabeças.",
           },
-          damage: None,
+
         },
         {
           cost: ["Fighting", "Fighting", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Cerca nel tuo mazzo una carta Pokemon di base che combatte e mettila in panchina. Shuffle il tuo mazzo in seguito. (Non puoi usare questo attacco se la tua panchina è piena.)",
             pt: "Procure seu baralho por um cartão de Pokémon básico de luta e coloque -o em seu banco. Afaste seu baralho depois. (Você não pode usar este ataque se o seu banco estiver cheio.)",
           },
-          damage: None,
+
         },
       ],
 

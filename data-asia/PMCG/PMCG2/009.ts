@@ -41,7 +41,7 @@ const card: Card = {
             it: "Il Pokemon in carica è ora avvelenato.",
             pt: "O Pokémon atual agora está envenenado.",
           },
-          damage: None,
+
         },
         {
           cost: ["Grass", "Grass"],

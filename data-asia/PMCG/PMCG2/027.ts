@@ -64,7 +64,7 @@ const card: Card = {
             it: "Fa 10 danni più 10 danni in più per ciascun contatore del danno sul Pokemon in difesa.",
             pt: "10 danos mais 10 mais danos para cada contador de danos no pokemon atual.",
           },
-          damage: None,
+
         },
       ],
 

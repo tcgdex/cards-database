@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, il Pokemon in carica è ora confuso.",
             pt: "Vire uma moeda. Se as cabeças, o pokemon atual agora está confuso.",
           },
-          damage: None,
+
         },
         {
           cost: ["Grass", "Colorless", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Flip 2 monete. Questo attacco fa 30 danni volte al numero di teste.",
             pt: "Flip 2 moedas. Este ataque causa 30 danos vezes o número de cabeças.",
           },
-          damage: None,
+
         },
       ],
 

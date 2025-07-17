@@ -41,7 +41,7 @@ const card: Card = {
             it: "Switch Exeggutor con 1 del tuo Pokemon in panchina.",
             pt: "Switch Exeggutor com 1 do seu Pokémon em banco.",
           },
-          damage: None,
+
         },
         {
           cost: ["Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Capolare una serie di monete pari al numero di energia allegata a Exeggutor. Questo attacco fa 20 danni il numero di teste.",
             pt: "Vire uma série de moedas iguais ao número de energia anexada ao exeggutor. Este ataque causa 20 danos vezes o número de cabeças.",
           },
-          damage: None,
+
         },
       ],
 
