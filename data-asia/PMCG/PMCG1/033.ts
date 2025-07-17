@@ -41,7 +41,7 @@ const card: Card = {
             it: "Fa 30 danni più 10 danni per ogni energia idrica attaccata a Poliwrath ma non è usata per pagare il costo energetico di questo attacco. Non puoi aggiungere più di 20 danni in questo modo.",
             pt: "Os 30 danos mais 10 mais danos para cada energia da água ligados a Poliwrath, mas não costumavam pagar pelo custo de energia desse ataque. Você não pode adicionar mais de 20 danos dessa maneira.",
           },
-          damage: None,
+
         },
         {
           cost: ["Water", "Water", "Colorless", "Colorless"],

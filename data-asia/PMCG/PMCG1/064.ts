@@ -41,7 +41,7 @@ const card: Card = {
             it: "Se il Pokemon in difesa ha una debolezza, puoi cambiarlo in un tipo di scelta diversa da incolore.",
             pt: "Se o Pokémon atual tiver uma fraqueza, você poderá alterá -lo para um tipo de sua escolha que não seja incolor.",
           },
-          damage: None,
+
         },
         {
           cost: ["Colorless", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Cambia la resistenza di Porygon a un tipo di scelta diversa da incolore.",
             pt: "Mude a resistência de Porygon a um tipo de sua escolha que não seja incolor.",
           },
-          damage: None,
+
         },
       ],
 

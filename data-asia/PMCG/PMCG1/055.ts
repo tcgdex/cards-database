@@ -41,7 +41,7 @@ const card: Card = {
             it: "Fa 50 danni meno 10 danni per ciascun contatore di danni su Machoke.",
             pt: "50 danos menos 10 danos para cada contador de danos em Machoke.",
           },
-          damage: None,
+
         },
         {
           cost: ["Fighting", "Fighting", "Colorless", "Colorless"],

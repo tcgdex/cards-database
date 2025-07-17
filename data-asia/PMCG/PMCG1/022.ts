@@ -41,7 +41,7 @@ const card: Card = {
             it: "Se il tuo avversario ha dei Pokemon in panchina, scegline 1 e cambialo con il Pokemon in difesa.",
             pt: "Se o seu oponente tiver algum Pokémon em banco, escolha 1 deles e mude -o com o Pokémon defensivo.",
           },
-          damage: None,
+
         },
         {
           cost: ["Fire", "Fire", "Fire", "Fire"],

@@ -41,7 +41,7 @@ const card: Card = {
             it: "Scartare 1 carta di energia psichica attaccata a Kadabra o questo attacco non fa nulla. Rimuovere tutti i contatori di danno da Kadabra.",
             pt: "Descarte 1 cartão de energia psíquica ligada a Kadabra ou este ataque não faz nada. Remova todos os contadores de danos de Kadabra.",
           },
-          damage: None,
+
         },
         {
           cost: ["Psychic", "Psychic", "Colorless"],

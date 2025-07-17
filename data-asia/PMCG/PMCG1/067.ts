@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, i Pokemon attivi del tuo avversario ora dormono.",
             pt: "Vire uma moeda. Se as cabeças, o Pokémon ativo do seu oponente está agora dormindo.",
           },
-          damage: None,
+
         },
         {
           cost: ["Colorless", "Colorless", "Colorless"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Scegli 1 degli attacchi di Pokemon attivi del tuo avversario e usalo come questo attacco.",
             pt: "Escolha 1 dos ataques de Pokémon ativos do seu oponente e use -o como esse ataque.",
           },
-          damage: None,
+
         },
       ],
 

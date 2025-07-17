@@ -41,7 +41,7 @@ const card: Card = {
             it: "Flip 2 monete. Questo attacco fa 10 danni volte il numero di teste.",
             pt: "Flip 2 moedas. Este ataque causa 10 danos ao número do número de cabeças.",
           },
-          damage: None,
+
         },
       ],
 

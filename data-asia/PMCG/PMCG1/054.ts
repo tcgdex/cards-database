@@ -54,7 +54,7 @@ const card: Card = {
             it: "Durante il prossimo turno dell'avversario, ogni volta che vengono fatti 30 o meno danni a Onix (dopo aver applicato la debolezza e la resistenza), prevenire tali danni. (Qualsiasi altro effetto degli attacchi si verifica ancora.)",
             pt: "Durante o próximo turno do seu oponente, sempre que 30 ou menos danos são causados ao Onix (depois de aplicar fraqueza e resistência), evite esse dano. (Quaisquer outros efeitos dos ataques ainda acontecem.)",
           },
-          damage: None,
+
         },
       ],
 

@@ -54,7 +54,7 @@ const card: Card = {
             it: "Danni al Pokemon in difesa pari alla metà del restante HP rimanente del Pokemon (arrotondato fino ai 10 più vicini).",
             pt: "Danos ao Pokémon atual igual a metade do HP restante do Pokemon atual (arredondado para os 10 mais próximos).",
           },
-          damage: None,
+
         },
       ],
 

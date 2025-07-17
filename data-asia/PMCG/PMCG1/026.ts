@@ -41,7 +41,7 @@ const card: Card = {
             it: "Scartare 1 carta di energia idrica attaccata a Starmie per usare questo attacco. Rimuovere tutti i contatori di danno da Starmie.",
             pt: "Descarte 1 cartão de energia da água anexada a Starmie para usar esse ataque. Remova todos os contadores de danos da Starmie.",
           },
-          damage: None,
+
         },
         {
           cost: ["Water", "Colorless", "Colorless"],
