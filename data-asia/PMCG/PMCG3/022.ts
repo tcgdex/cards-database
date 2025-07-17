@@ -41,7 +41,7 @@ const card: Card = {
             it: "Fa 10 danni più 10 danni per ogni energia idrica attaccata a Lapras ma non utilizzata per pagare il costo energetico di questo attacco. Non puoi aggiungere più di 20 danni in questo modo.",
             pt: "10 danos mais 10 mais danos para cada energia da água anexada a LaPras, mas não costumava pagar pelo custo de energia desse ataque. Você não pode adicionar mais de 20 danos dessa maneira.",
           },
-          damage: None,
+
         },
         {
           cost: ["Water", "Water"],

@@ -41,7 +41,7 @@ const card: Card = {
             it: "Il tuo avversario non può giocare a carte di allenatore durante il suo prossimo turno.",
             pt: "Seu oponente não pode jogar cartas de treinador durante o próximo turno.",
           },
-          damage: None,
+
         },
         {
           cost: ["Water"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Flip 3 monete. Questo attacco fa 10 danni volte il numero di teste.",
             pt: "Flip 3 moedas. Este ataque causa 10 danos ao número do número de cabeças.",
           },
-          damage: None,
+
         },
       ],
 

@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, il Pokemon in carica è ora confuso.",
             pt: "Vire uma moeda. Se as cabeças, o pokemon atual agora está confuso.",
           },
-          damage: None,
+
         },
         {
           cost: ["Water"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se le teste, impediscono tutti i danni arrecati a Shellder durante il turno successivo dell'avversario. (Qualsiasi altro effetto degli attacchi si verifica ancora.)",
             pt: "Vire uma moeda. Se as cabeças, impedem todos os danos causados a Shellder durante o próximo turno do seu oponente. (Quaisquer outros efeitos dos ataques ainda acontecem.)",
           },
-          damage: None,
+
         },
       ],
 

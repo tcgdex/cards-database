@@ -41,7 +41,7 @@ const card: Card = {
             it: "Fa 10 danni volte il numero di contatori di danno su Kingler.",
             pt: "10 danos vezes o número de contadores de danos a Kingler.",
           },
-          damage: None,
+
         },
         {
           cost: ["Water", "Water", "Colorless"],

@@ -41,7 +41,7 @@ const card: Card = {
             it: "Cerca nel tuo mazzo un Pokemon di base di nome Krabby e mettilo in panchina. Shuffle il tuo mazzo in seguito. (Non puoi usare questo attacco se la tua panchina è piena.)",
             pt: "Pesquise seu baralho por um Pokémon básico chamado Krabby e coloque -o em seu banco. Afaste seu baralho depois. (Você não pode usar este ataque se o seu banco estiver cheio.)",
           },
-          damage: None,
+
         },
         {
           cost: ["Water", "Colorless"],
