@@ -41,7 +41,7 @@ const card: Card = {
             it: "Fa 20 danni più 10 danni per ogni energia idrica attaccata a Seadra ma non è abituata a pagare per il costo energetico di questo attacco. Non puoi aggiungere più di 20 danni in questo modo.",
             pt: "20 danos mais 10 mais danos para cada energia da água anexada a Seadra, mas não costumava pagar pelo custo de energia desse ataque. Você não pode adicionar mais de 20 danos dessa maneira.",
           },
-          damage: None,
+
         },
         {
           cost: ["Water", "Colorless", "Colorless"],

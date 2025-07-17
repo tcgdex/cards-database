@@ -41,7 +41,7 @@ const card: Card = {
             it: "Guarda fino a 3 carte dalla parte superiore del mazzo di entrambi i giocatori e riorganizzarle come preferisci.",
             pt: "Olhe até 3 cartas do topo do deck dos jogadores e reorganize -as como quiser.",
           },
-          damage: None,
+
         },
         {
           cost: ["Psychic", "Psychic", "Psychic"],

@@ -63,7 +63,7 @@ const card: Card = {
             it: "Tutti i danni arrecati dagli attacchi a Grimer durante il prossimo turno dell'avversario sono ridotti di 20 (dopo aver applicato la debolezza e la resistenza).",
             pt: "Todos os danos causados por ataques a Grimer durante o próximo turno do seu oponente são reduzidos em 20 (após aplicar fraqueza e resistência).",
           },
-          damage: None,
+
         },
       ],
 

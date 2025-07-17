@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta fino a quando non ricevi la coda. Questo attacco fa 10 danni volte il numero di teste.",
             pt: "Vire uma moeda até obter caudas. Este ataque causa 10 danos ao número do número de cabeças.",
           },
-          damage: None,
+
         },
       ],
 
