@@ -41,7 +41,7 @@ const card: Card = {
             it: "Capovolgi una moneta. Se la testa, rimuovere un contatore di danni da Slowpoke. Questo attacco non può essere usato se Slowpoke non ha contatori di danni su di esso.",
             pt: "Vire uma moeda. Se as cabeças, remova um balcão de danos do Slowpoke. Esse ataque não pode ser usado se o SlowPoke não tiver contadores de danos.",
           },
-          damage: None,
+
         },
         {
           cost: ["Psychic", "Psychic"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Scartare 1 carta di energia psichica collegata a Slowpoke per usare questo attacco. Metti in mano una carta dell'allenatore dalla tua pila di scarti.",
             pt: "Descarte 1 cartão de energia psíquica anexada ao SlowPoke para usar esse ataque. Coloque um cartão de treinador da sua pilha de descarte em sua mão.",
           },
-          damage: None,
+
         },
       ],
 

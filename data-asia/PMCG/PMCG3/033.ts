@@ -41,7 +41,7 @@ const card: Card = {
             it: "Fa 10 danni volte il numero di carte di energia collegate al Pokemon in difesa.",
             pt: "10 danos vezes o número de cartões de energia ligados ao pokemon defensor.",
           },
-          damage: None,
+
         },
         {
           cost: ["Psychic", "Psychic"],
@@ -63,7 +63,7 @@ const card: Card = {
             it: "Scegli un Pokemon evoluto (il tuo o il tuo avversario). Restituisce la carta Evolution più alta su quel Pokemon sulla mano del suo giocatore. Quel Pokemon non è più addormentato, confuso, paralizzato o avvelenato, o qualsiasi altra cosa che potrebbe essere il risultato di un attacco (proprio come se lo avessi evoluto).",
             pt: "Escolha um Pokémon evoluído (o seu ou o de seu oponente). Retorne a maior carta de evolução do palco naquele pokemon à mão do jogador. Esse Pokémon não está mais dormindo, confuso, paralisado ou envenenado, ou qualquer outra coisa que possa ser o resultado de um ataque (como se você o tivesse evoluído).",
           },
-          damage: None,
+
         },
       ],
 

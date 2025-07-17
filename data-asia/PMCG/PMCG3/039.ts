@@ -41,7 +41,7 @@ const card: Card = {
             it: "Scegli 1 dei Pokemon in panchina del tuo avversario e questo attacco fa 20 danni ad esso. (Non applicare debolezza e resistenza per i Pokemon in panchina.)",
             pt: "Escolha 1 do Pokémon com bancada do seu oponente, e esse ataque causa 20 danos a ele. (Não aplique fraqueza e resistência a Pokemon com bancada.)",
           },
-          damage: None,
+
         },
         {
           cost: ["Fighting", "Fighting", "Fighting"],

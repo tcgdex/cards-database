@@ -63,7 +63,7 @@ const card: Card = {
             it: "Metti fino a 2 carte energetiche dalla tua pila di scarto in mano. Gastly fa 10 danni a se stesso.",
             pt: "Coloque até 2 cartões de energia da sua pilha de descarte em sua mão. Gastly causa 10 danos a si mesmo.",
           },
-          damage: None,
+
         },
       ],
 

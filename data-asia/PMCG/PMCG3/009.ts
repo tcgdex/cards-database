@@ -41,7 +41,7 @@ const card: Card = {
             it: "È possibile scartare qualsiasi numero di carte di energia del fuoco collegate ai moltres quando si utilizza questo attacco. Se lo fai, scartare quelle carte dalla parte superiore del mazzo del tuo avversario.",
             pt: "Você pode descartar qualquer número de cartões de energia de incêndio anexados a Moltres quando usa esse ataque. Se o fizer, descarte muitas cartas do topo do baralho do seu oponente.",
           },
-          damage: None,
+
         },
         {
           cost: ["Fire", "Fire", "Fire", "Fire"],
