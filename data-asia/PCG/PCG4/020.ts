@@ -70,10 +70,10 @@ const card: Card = {
 
       variants: [
         {
-          type: "normal",
+          type: "holo",
         },
         {
-          type: "normal",
+          type: "holo",
           stamp: ["1st edition"],
         },
       ],
