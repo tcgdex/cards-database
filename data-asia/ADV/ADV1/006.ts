@@ -32,13 +32,13 @@ const card: Card = {
             pt: "Pó murmura",
           },
           effect: {
-            en: "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon.",
-            ja: "Beautiflyが機能している限り、すべてのアクティブなポケモンに抵抗を適用しないでください。",
-            fr: "Tant qu'il est en jeu, n'appliquez pas la résistance à tous les Pokémon actifs.",
+            en: "As long as Beautifly is in play, do not apply Resistance for all Active PokÃ©mon.",
+            ja: "Beautiflyが機能している限り、すべてのアクティブなPokã©Monに抵抗を適用しないでください。",
+            fr: "Tant qu'il est en jeu, n'appliquez pas la résistance à tous les poké actifs.",
             de: "Solange schön im Spiel ist, wenden Sie keinen Widerstand für alle aktiven Pokémon an.",
-            es: "Mientras Beautifly esté en juego, no aplique resistencia para todos los Pokémon activos.",
-            it: "Finché è in gioco benissimo, non applicare resistenza a tutti i Pokémon attivi.",
-            pt: "Enquanto Beautifly estiver em jogo, não aplique resistência a todos os Pokémon ativos.",
+            es: "Mientras Beautifly esté en juego, no aplique resistencia para todos los Poké activos.",
+            it: "Finché è in gioco, non applicare resistenza a tutti i poké attivo.",
+            pt: "Enquanto Beautifly estiver em jogo, não aplique resistência a todos os pontos ativos.",
           },
       }],
 
@@ -89,5 +89,13 @@ const card: Card = {
         },
       ],
 
-
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["1st edition"]
+		},
+	],
 };

@@ -68,4 +68,13 @@ const card: Card = {
 
       retreat: 2,
 
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"]
+		},
+	],
 };

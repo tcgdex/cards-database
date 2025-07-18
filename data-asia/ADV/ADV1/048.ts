@@ -32,13 +32,13 @@ const card: Card = {
             pt: "Fang intimidante",
           },
           effect: {
-            en: "As long as Mightyena is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 <em>(before applying Weakness and Resistance)</em>.",
-            ja: "Mightyenaがアクティブなポケモンである限り、相手の攻撃によってポケモンに与えられた損害は10 <em>（脱力感と抵抗を適用する前に）</em>に減少します。",
-            fr: "Tant que Mightyena est votre Pokémon actif, tout dommage causé à votre Pokémon par l'attaque d'un adversaire est réduit de 10 <em> (avant d'appliquer une faiblesse et une résistance) </em>.",
-            de: "Solange Mightyena Ihr aktives Pokémon ist, wird alle Schäden, die Ihr Pokémon durch den Angriff eines Gegners angerichtet haben, um 10 <em> (vor Anwendung von Schwäche und Widerstand) </em> reduziert.",
-            es: "Mientras Mightyena sea tu Pokémon activo, cualquier daño hecho a tu Pokémon por el ataque de un oponente se reduce en 10 <em> (antes de aplicar debilidad y resistencia) </em>.",
-            it: "Fintanto che Mightyena è il tuo Pokémon attivo, qualsiasi danno arrecato al tuo Pokémon dall'attacco di un avversario è ridotto di 10 <em> (prima di applicare debolezza e resistenza) </em>.",
-            pt: "Enquanto Mightyena for o seu Pokémon ativo, qualquer dano causado ao seu Pokémon pelo ataque de um oponente é reduzido em 10 <em> (antes de aplicar fraqueza e resistência) </em>.",
+            en: "As long as Mightyena is your Active PokÃ©mon, any damage done to your PokÃ©mon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
+            ja: "MightyenaがあなたのアクティブなPokã©Monである限り、相手の攻撃によってPokã©Monに与えられた損害は10増加します（脱力感と抵抗を適用する前に）。",
+            fr: "Tant que Mightyena est votre poké actif, tout dommage causé à votre poké par l'attaque d'un adversaire est réduit de 10 (avant d'appliquer une faiblesse et une résistance).",
+            de: "Solange Mightyena Ihr aktiver Pokémon ist, wird jeder Schaden, der durch den Angriff eines Gegners an Ihrem Poké Mon mon angerichtet wird, um 10 reduziert (bevor Schwäche und Widerstand angewendet werden).",
+            es: "Mientras Mightyena sea tu Poké Mon activo, cualquier daño hecho a tu Poké Mon por el ataque de un oponente se reduce en 10 (antes de aplicar debilidad y resistencia).",
+            it: "Finché Mightyena è il tuo poké attivo, qualsiasi danno fatto al tuo poké dall'attacco di un avversario è ridotto di 10 (prima di applicare debolezza e resistenza).",
+            pt: "Enquanto Mightyena for o seu Poké Mon ativo, qualquer dano causado ao seu Poké Mon pelo ataque de um oponente é reduzido em 10 (antes de aplicar fraqueza e resistência).",
           },
       }],
 
@@ -69,4 +69,13 @@ const card: Card = {
 
       retreat: 1,
 
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["1st edition"]
+		},
+	],
 };
