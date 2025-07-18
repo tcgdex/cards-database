@@ -32,13 +32,13 @@ const card: Card = {
             pt: "Vento de cura",
           },
           effect: {
-            en: "Once during your turn <em>(before your attack)</em>, you may remove 1 damage counter from each of your Active Pokémon. This power can't be used if Xatu is affected by a Special Condition.",
-            ja: "順番<em>（攻撃の前）</em>中に、アクティブなポケモンのそれぞれから1つのダメージカウンターを削除できます。 Xatuが特別な状態の影響を受けている場合、このパワーは使用できません。",
-            fr: "Une fois pendant votre tour <em> (avant votre attaque) </em>, vous pouvez supprimer 1 compteur de dégâts de chacun de vos Pokémon actifs. Cette puissance ne peut pas être utilisée si Xatu est affecté par une condition spéciale.",
-            de: "Sobald Sie in Ihrem Zug <em> (vor Ihrem Angriff) </em> sind, können Sie 1 Schadenschalter von jedem Ihrer aktiven Pokémon entfernen. Diese Leistung kann nicht verwendet werden, wenn Xatu von einem besonderen Zustand betroffen ist.",
-            es: "Una vez durante su turno <em> (antes de su ataque) </em>, puede eliminar 1 contador de daño de cada uno de sus Pokémon activos. Esta potencia no se puede usar si Xatu se ve afectado por una condición especial.",
-            it: "Una volta durante il tuo turno <em> (prima dell'attacco) </em>, puoi rimuovere 1 contatore di danni da ciascuno dei tuoi Pokémon attivi. Questa potenza non può essere utilizzata se Xatu è influenzato da una condizione speciale.",
-            pt: "Uma vez durante o seu turno <em> (antes do seu ataque) </em>, você pode remover 1 contador de danos de cada um dos seus Pokémon ativos. Esse poder não pode ser usado se o Xatu for afetado por uma condição especial.",
+            en: "Once during your turn (before your attack), you may remove 1 damage counter from each of your Active PokÃ©mon. This power can't be used if Xatu is affected by a Special Condition.",
+            ja: "ターン中に（攻撃の前）、アクティブなPokã©Monから1つのダメージカウンターを削除できます。 Xatuが特別な状態の影響を受けている場合、このパワーは使用できません。",
+            fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez supprimer 1 compteur de dégâts de chacun de vos poké actifs. Cette puissance ne peut pas être utilisée si Xatu est affecté par une condition spéciale.",
+            de: "Sobald Sie während Ihres Kurses (vor Ihrem Angriff) sind, können Sie 1 Schadenschalter von jedem Ihrer aktiven Pokémon entfernen. Diese Leistung kann nicht verwendet werden, wenn Xatu von einem besonderen Zustand betroffen ist.",
+            es: "Una vez durante su turno (antes de su ataque), puede eliminar 1 contador de daño de cada uno de sus Poké Mon activo. Esta potencia no se puede usar si Xatu se ve afectado por una condición especial.",
+            it: "Una volta durante il tuo turno (prima dell'attacco), puoi rimuovere 1 contatore di danni da ciascuno dei tuoi poké attivo. Questa potenza non può essere utilizzata se Xatu è influenzato da una condizione speciale.",
+            pt: "Uma vez durante o seu turno (antes do seu ataque), você pode remover 1 contador de danos de cada um dos seus Poké de Mon ativos. Esse poder não pode ser usado se o Xatu for afetado por uma condição especial.",
           },
       }],
 
@@ -50,7 +50,7 @@ const card: Card = {
             ja: "psyimpact",
             fr: "Pyimpact",
             de: "Psyimpact",
-            es: "Psíquico",
+            es: "Psíquica",
             it: "Psyimpact",
             pt: "Psyimpact",
           },
@@ -68,9 +68,6 @@ const card: Card = {
 
 
       variants: [
-        {
-          type: "normal",
-        },
         {
           type: "normal",
           stamp: ["1st edition"],

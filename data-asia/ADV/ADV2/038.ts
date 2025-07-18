@@ -62,10 +62,7 @@ const card: Card = {
       variants: [
         {
           type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
+          subtype: "unlimited",
         },
       ],
 };

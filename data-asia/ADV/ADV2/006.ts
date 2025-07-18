@@ -32,13 +32,13 @@ const card: Card = {
             pt: "Payback de veneno",
           },
           effect: {
-            en: "If Cacnea is your Active Pokémon and is damaged by an opponent's attack <em>(even if Cacnea is Knocked Out)</em>, the Attacking Pokémon is now Poisoned.",
-            ja: "カクネアがあなたのアクティブなポケモンであり、相手の攻撃<em>によって損傷している場合（カクネアがノックアウトされたとしても）</em>、攻撃するポケモンが毒されるようになりました。",
-            fr: "Si la cacnée est votre Pokémon actif et est endommagé par l'attaque d'un adversaire <em> (même si la cacnée est éliminée) </em>, le Pokémon attaquant est maintenant empoisonné.",
-            de: "Wenn Kaknoe Ihr aktives Pokémon ist und durch den Angriff eines Gegners (auch wenn Kaknoe ausgeschlagen wird) </em> beschädigt wird, wird das angreifende Pokémon jetzt vergiftet.",
-            es: "Si Cacnea es tu Pokémon activo y está dañado por el ataque de un oponente <em> (incluso si Cacnea es noqueada) </em>, el Pokémon atacante ahora está envenenado.",
-            it: "Se Cacnea è il tuo Pokémon attivo ed è danneggiata dall'attacco di un avversario <em> (anche se la cacnea viene eliminata) </em>, il Pokémon attaccante è ora avvelenato.",
-            pt: "Se a cacnea é o seu Pokémon ativo e é danificada pelo ataque de um oponente <em> (mesmo que a cacnea seja nocauteada) </em>, o Pokémon de ataque agora está envenenado.",
+            en: "If Cacnea is your Active PokÃ©mon and is damaged by an opponent's attack (even if Cacnea is Knocked Out), the Attacking PokÃ©mon is now Poisoned.",
+            ja: "カクネアがあなたの活動的なポケモンであり、相手の攻撃によって損傷を受けている場合（カクネアがノックアウトされたとしても）、攻撃するポカモンは現在毒されます。",
+            fr: "Si la cacnée est votre poké active et est endommagée par l'attaque d'un adversaire (même si la cacnée est éliminée), le poké attaquant est maintenant empoisonné.",
+            de: "Wenn Kaknoe Ihr aktiver Poké Mon Mon ist und durch den Angriff eines Gegners beschädigt wird (auch wenn Kaknoe ausgeschlagen wird), ist der angreifende Poké Mon Montag vergiftet.",
+            es: "Si Cacnea es tu Poké Mon activo y está dañado por el ataque de un oponente (incluso si Cacnea es noqueada), el Poké Mon atacante ahora está envenenado.",
+            it: "Se la cacnea è il tuo poké attivo ed è danneggiato dall'attacco di un avversario (anche se la cacnea viene eliminata), il poké -luneding attaccante è ora avvelenato.",
+            pt: "Se a cacnea é o seu Poké Mon ativo e é danificado pelo ataque de um oponente (mesmo que a cacnea seja nocauteada), o Poké -Mon atacante está agora envenenado.",
           },
       }],
 
@@ -63,13 +63,7 @@ const card: Card = {
       variants: [
         {
           type: "normal",
-        },
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
+          subtype: "unlimited",
         },
         {
           type: "normal",

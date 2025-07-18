@@ -49,7 +49,7 @@ const card: Card = {
             en: "Split Blast",
             ja: "スプリットブラスト",
             fr: "Explosion",
-            de: "Split Blast",
+            de: "Split Explosion",
             es: "Explosión dividida",
             it: "Esplosione divisa",
             pt: "Blasta dividida",
@@ -69,4 +69,13 @@ const card: Card = {
 
       retreat: 2,
 
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["1st edition"],
+		},
+	],
 };

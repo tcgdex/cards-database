@@ -32,13 +32,13 @@ const card: Card = {
             pt: "Payback de veneno",
           },
           effect: {
-            en: "If Cacturne is your Active Pokémon and is damaged by an opponent's attack <em>(even if Cacturne is Knocked Out)</em>, the Attacking Pokémon is now Poisoned.",
-            ja: "Cacturneがアクティブなポケモンであり、対戦相手の攻撃<em>によって損傷を受けた場合（サボテンがノックアウトされたとしても）</em>、攻撃するポケモンが毒されます。",
-            fr: "Si Cacurne est votre Pokémon actif et est endommagé par l'attaque d'un adversaire <em> (même si Cacurne est éliminée) </em>, le Pokémon attaquant est maintenant empoisonné.",
-            de: "Wenn Kakturne Ihr aktives Pokémon ist und durch den Angriff eines Gegners (auch wenn Kakturne ausgeschlagen wird) </em> beschädigt wird, wird das angreifende Pokémon jetzt vergiftet.",
-            es: "Si Cacturne es tu Pokémon activo y está dañado por el ataque de un oponente <em> (incluso si Cacturne es noqueado) </em>, el Pokémon atacante ahora está envenenado.",
-            it: "Se Cacturne è il tuo Pokémon attivo ed è danneggiato dall'attacco di un avversario <em> (anche se Cacturne viene eliminato) </em>, il Pokémon attaccante è ora avvelenato.",
-            pt: "Se Cacturne é o seu Pokémon ativo e for danificado pelo ataque de um oponente <em> (mesmo que Cacturne seja nocauteado) </em>, o Pokémon de ataque agora está envenenado.",
+            en: "If Cacturne is your Active PokÃ©mon and is damaged by an opponent's attack (even if Cacturne is Knocked Out), the Attacking PokÃ©mon is now Poisoned.",
+            ja: "Cacturneがアクティブなポカモンであり、対戦相手の攻撃によって損傷を受けている場合（サボテンがノックアウトされたとしても）、攻撃するポカモンは現在毒されます。",
+            fr: "Si Cacurne est votre poké actif et est endommagé par l'attaque d'un adversaire (même si Cacurne est éliminée), le poké attaquant est maintenant empoisonné.",
+            de: "Wenn Kakturne Ihr aktiver Poké Mon Mon ist und durch den Angriff eines Gegners beschädigt wird (auch wenn Kakturne ausgeschlagen wird), wird der angreifende Poké Mon Montag vergiftet.",
+            es: "Si Cacturne es tu Poké Mon activo y está dañado por el ataque de un oponente (incluso si Cacturne es noqueado), el Poké Mon atacante ahora está envenenado.",
+            it: "Se CacTurne è il tuo poké attivo e è danneggiato dall'attacco di un avversario (anche se Cacturne viene eliminato), il poké -luneding attaccante è ora avvelenato.",
+            pt: "Se o cacturne é o seu Poké de Mon ativo e for danificado pelo ataque de um oponente (mesmo que o cacturne seja nocauteado), o Poké -Mon atacante está agora envenenado.",
           },
       }],
 
@@ -69,9 +69,6 @@ const card: Card = {
       retreat: 1,
 
       variants: [
-        {
-          type: "holo",
-        },
         {
           type: "holo",
           stamp: ["1st edition"],

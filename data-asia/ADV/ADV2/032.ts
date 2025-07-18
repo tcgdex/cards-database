@@ -32,13 +32,13 @@ const card: Card = {
             pt: "Evolução do bebê",
           },
           effect: {
-            en: "Once during your turn <em>(before your attack)</em>, you may put Wobbuffet from your hand onto Wynaut (this counts as evolving Wynaut), and remove all damage counters from Wynaut.",
-            ja: "ターン<em>（攻撃の前）</em> </em>、Wobbuffetを手からWynautに置くことができます（これは進化するWynautとしてカウントされます）。",
-            fr: "Une fois pendant votre tour <em> (avant votre attaque) </em>, vous pouvez mettre Wobbuffet de votre main sur Wynaut (cela compte comme en évolution de Wynaut) et retirer tous les compteurs de dégâts de Wynaut.",
-            de: "Einmal in Ihrem Zug <em> (vor Ihrem Angriff) </em> können Sie Wobbuffet aus Ihrer Hand auf Wynaut legen (dies zählt als sich entwickelnde Wynaut) und entfernen alle Schadenszähler von Wynaut.",
-            es: "Una vez durante su turno <em> (antes de su ataque) </em>, puede colocar Wobbuffet de su mano en Wynaut (esto cuenta como Wynaut en evolución) y eliminar todos los contadores de daño de Wynaut.",
-            it: "Una volta durante il tuo turno <em> (prima del tuo attacco) </em>, puoi mettere Wobbuffet dalla mano su Wynaut (questo conta come Wynaut in evoluzione) e rimuovere tutti i contatori di danno da Wynaut.",
-            pt: "Uma vez durante o seu turno <em> (antes do seu ataque) </em>, você pode colocar Wobbuffet da sua mão em Wynaut (isso conta como evoluindo Wynaut) e remover todos os contadores de danos de Wynaut.",
+            en: "Once during your turn (before your attack), you may put Wobbuffet from your hand onto Wynaut (this counts as evolving Wynaut), and remove all damage counters from Wynaut.",
+            ja: "ターン中に（攻撃の前に）、Wobbuffetを手からWynaut（これは進化するWynautとしてカウント）に置き、Wynautからすべてのダメージカウンターを削除することができます。",
+            fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez mettre Wobbuffet de votre main sur Wynaut (cela compte comme en évolution de Wynaut) et retirer tous les compteurs de dégâts de Wynaut.",
+            de: "Sobald Sie während Ihres Zuges (vor Ihrem Angriff) sind, können Sie Wobbuffet aus Ihrer Hand auf Wynaut legen (dies zählt als sich entwickelnde Wynaut) und entfernen alle Schadenszähler von Wynaut.",
+            es: "Una vez durante su turno (antes de su ataque), puede colocar Wobbuffet de su mano en Wynaut (esto cuenta como Wynaut en evolución) y eliminar todos los contadores de daño de Wynaut.",
+            it: "Una volta durante il tuo turno (prima del tuo attacco), puoi mettere Wobbuffet dalla tua mano su Wynaut (questo conta come Wynaut in evoluzione) e rimuovere tutti i contatori di danno da Wynaut.",
+            pt: "Uma vez durante o seu turno (antes do seu ataque), você pode colocar Wobbuffet da sua mão em Wynaut (isso conta como evoluindo Wynaut) e remover todos os contadores de danos de Wynaut.",
           },
       }],
 
@@ -68,4 +68,13 @@ const card: Card = {
 
       retreat: 1,
 
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };

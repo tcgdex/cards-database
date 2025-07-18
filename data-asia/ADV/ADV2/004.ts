@@ -49,7 +49,7 @@ const card: Card = {
             en: "Toxic Vibration",
             ja: "有毒な振動",
             fr: "Vibration toxique",
-            de: "Toxic Vibration",
+            de: "Toxische Schwingung",
             es: "Vibración tóxica",
             it: "Vibrazione tossica",
             pt: "Vibração tóxica",
@@ -89,13 +89,13 @@ const card: Card = {
 
       retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };

@@ -32,13 +32,13 @@ const card: Card = {
             pt: "Salvaguarda",
           },
           effect: {
-            en: "Prevent all effects of attacks, including damage, done to Wobbuffet by your opponent's Pokémon-ex.",
-            ja: "対戦相手のポケモンエクスによるウォブバッフェットに行われたダメージを含む攻撃のすべての影響を防ぎます。",
-            fr: "Empêchez tous les effets des attaques, y compris les dégâts, causés à Wobbuffet par Pokémon-EX de votre adversaire.",
-            de: "Verhindern Sie alle Auswirkungen von Angriffen, einschließlich Schäden, die Wobbuffet durch das Pokémon-ex Ihres Gegners angerichtet haben.",
-            es: "Evite todos los efectos de los ataques, incluido el daño, realizado a Wobbuffet por Pokémon-Ex de tu oponente.",
-            it: "Prevenire tutti gli effetti degli attacchi, incluso il danno, fatto a Wobbuffet dal Pokémon-Ex del tuo avversario.",
-            pt: "Evite todos os efeitos dos ataques, incluindo danos, causados a Wobbuffet pelo Pokémon-Ex do seu oponente.",
+            en: "Prevent all effects of attacks, including damage, done to Wobbuffet by your opponent's PokÃ©mon-ex.",
+            ja: "対戦相手のPokã©Mon-ExによってWobbuffetに行われた損害を含む攻撃のすべての影響を防ぎます。",
+            fr: "Empêchez tous les effets des attaques, y compris les dégâts, causés à Wobbuffet par le poké de votre adversaire.",
+            de: "Verhindern Sie alle Auswirkungen von Angriffen, einschließlich Schäden, die Wobbuffet durch die Poké-Mon-ex Ihres Gegners angerichtet haben.",
+            es: "Evite todos los efectos de los ataques, incluido el daño, realizado a Wobbuffet por el Poké de su oponente Mon-Ex.",
+            it: "Prevenire tutti gli effetti degli attacchi, incluso il danno, fatto a Wobbuffet dal Poké Mon-ex dell'avversario.",
+            pt: "Evite todos os efeitos dos ataques, incluindo danos, causados a Wobbuffet pelo Poké Mon-Ex do seu oponente.",
           },
       }],
 
@@ -69,4 +69,13 @@ const card: Card = {
 
       retreat: 2,
 
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };

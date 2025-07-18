@@ -32,13 +32,13 @@ const card: Card = {
             pt: "Evolução do bebê",
           },
           effect: {
-            en: "Once during your turn <em>(before your attack)</em>, you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.",
-            ja: "順番<em>（攻撃の前に）</em> </em>、ピカチュウを手からピチュに置き（これは進化するピチュとしてカウントされる）、ピチュからすべてのダメージカウンターを削除することができます。",
-            fr: "Une fois pendant votre tour <em> (avant votre attaque) </em>, vous pouvez mettre Pikachu de votre main sur Pichu (cela compte comme Pichu en évolution) et retirer tous les compteurs de dégâts de Pichu.",
-            de: "Einmal in Ihrem Zug <em> (vor Ihrem Angriff) </em> können Sie Pikachu von Ihrer Hand auf Pichu stellen (dies zählt als sich entwickelnde Pichu) und alle Schadenszähler von Pichu entfernen.",
-            es: "Una vez durante su turno <em> (antes de su ataque) </em>, puede colocar a Pikachu de su mano en Pichu (esto cuenta como Pichu en evolución) y eliminar todos los contadores de daño de Pichu.",
-            it: "Una volta durante il tuo turno <em> (prima del tuo attacco) </em>, puoi mettere Pikachu dalla mano a Pichu (questo conta come Pichu in evoluzione) e rimuovere tutti i contatori di danno da Pichu.",
-            pt: "Uma vez durante o seu turno <em> (antes do seu ataque) </em>, você pode colocar Pikachu da sua mão no Pichu (isso conta como evoluindo Pichu) e remover todos os contadores de danos do Pichu.",
+            en: "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.",
+            ja: "ターン中（攻撃の前に）一度、ピカチュウをピチュに手から置いて（これは進化するピチュとしてカウントされます）、ピチュからすべてのダメージカウンターを削除することができます。",
+            fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez mettre Pikachu de votre main sur Pichu (cela compte comme Pichu en évolution) et retirer tous les compteurs de dégâts de Pichu.",
+            de: "Sobald Sie während Ihres Zuges (vor Ihrem Angriff) Pikachu aus Ihrer Hand auf Pichu stellen können (dies zählt als sich entwickelnde Pichu) und alle Schadenszähler von Pichu entfernen.",
+            es: "Una vez durante su turno (antes de su ataque), puede colocar a Pikachu de su mano en Pichu (esto cuenta como Pichu en evolución) y eliminar todos los contadores de daño de Pichu.",
+            it: "Una volta durante il tuo turno (prima del tuo attacco), puoi mettere Pikachu dalla tua mano a Pichu (questo conta come Pichu in evoluzione) e rimuovere tutti i contatori di danno da Pichu.",
+            pt: "Uma vez durante o seu turno (antes do seu ataque), você pode colocar Pikachu da sua mão no Pichu (isso conta como evoluindo o Pichu) e remover todos os contadores de danos de Pichu.",
           },
       }],
 
@@ -71,13 +71,7 @@ const card: Card = {
       variants: [
         {
           type: "normal",
-        },
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
+          subtype: "unlimited",
         },
         {
           type: "normal",
