@@ -62,7 +62,6 @@ const card: Card = {
       variants: [
         {
           type: "holo",
-          subtype: "unlimited",
         },
       ],
 };
