@@ -4,6 +4,7 @@ import serie from '../web'
 const set: Set = {
 	id: 'web1',
 	name: {
+		en: 'Pokémon Card★web',
 		ja: 'ポケモンカード★web'
 	},
 
