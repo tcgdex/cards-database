@@ -91,6 +91,9 @@ const card: Card = {
       variants: [
         {
           type: "holo",
+        },
+        {
+          type: "holo",
           stamp: ["1st edition"],
         },
       ],
