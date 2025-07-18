@@ -4,6 +4,7 @@ import serie from '../neo'
 const set: Set = {
 	id: 'neo4',
 	name: {
+		en: 'Darkness, and to Light...',
 		ja: '闇、そして光へ...'
 	},
 
