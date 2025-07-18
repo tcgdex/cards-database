@@ -64,9 +64,5 @@ const card: Card = {
         {
           type: "normal",
         },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
       ],
 };
