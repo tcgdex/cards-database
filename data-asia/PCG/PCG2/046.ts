@@ -4,13 +4,13 @@ import Set from "../PCG2"
 const card: Card = {
       set: Set,
       name: {
-         en: "Deoxys ex - 046/082",
-         ja: "Deoxys ex -046/082",
-         fr: "Deoxys ex - 046/082",
-         de: "Deoxys ex - 046/082",
-         es: "DEOXYS EX - 046/082",
-         it: "Deoxys Ex - 046/082",
-         pt: "DEOXYS EX - 046/082",
+         en: "Deoxys ex",
+         ja: "Deoxys ex",
+         fr: "Deoxys ex",
+         de: "Deoxys ex",
+         es: "DEOXYS EX",
+         it: "Deoxys Ex",
+         pt: "DEOXYS EX",
       },
 
       rarity: "Holo Rare",
@@ -71,7 +71,11 @@ const card: Card = {
 
       variants: [
         {
-          type: "normal",
+          type: "holo",
+        },
+        {
+          type: "holo",
+          stamp: ["1st edition"],
         },
       ],
 };
