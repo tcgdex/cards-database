@@ -32,13 +32,13 @@ const card: Card = {
             pt: "Evolução do bebê",
           },
           effect: {
-            en: "Once during your turn <em>(before your attack)</em>, you may put Marill from your hand onto Azurill (this counts as evolving Azurill), and remove all damage counters from Azurill.",
-            ja: "ターン中に（攻撃の前）</em> </em>、マリルを手から置くことができます（これは進化するアズリルとしてカウントされます）。",
-            fr: "Une fois pendant votre tour <em> (avant votre attaque) </em>, vous pouvez mettre Marill de votre main sur Azurill (cela compte comme Azurill en évolution) et retirer tous les compteurs de dégâts d'Azurill.",
-            de: "Einmal in Ihrem Zug <em> (vor Ihrem Angriff) </em> können Sie Marill von Ihrer Hand auf Azurill stellen (dies zählt als sich entwickelnde Azurill) und entfernen alle Schadenszähler von Azurill.",
-            es: "Una vez durante su turno <em> (antes de su ataque) </em>, puede poner a Marill de su mano en Azurill (esto cuenta como Azurill en evolución) y eliminar todos los contadores de daño de Azurill.",
-            it: "Una volta durante il tuo turno <em> (prima del tuo attacco) </em>, puoi mettere Marill dalla tua mano su Azurill (questo conta come Azurill in evoluzione) e rimuovere tutti i contatori di danno da Azurill.",
-            pt: "Uma vez durante o seu turno <em> (antes do seu ataque) </em>, você pode colocar Marill da sua mão no Azurill (isso conta como Azurill em evolução) e remover todos os contadores de danos do Azurill.",
+            en: "Once during your turn (before your attack), you may put Marill from your hand onto Azurill (this counts as evolving Azurill), and remove all damage counters from Azurill.",
+            ja: "ターン中に（攻撃の前に）、マリルを手からアズリルに置くことができます（これは進化するアズリルとしてカウントされます）。",
+            fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez mettre Marill de votre main sur Azurill (cela compte comme Azurill en évolution) et retirer tous les compteurs de dégâts d'Azurill.",
+            de: "Sobald Sie während Ihres Zuges (vor Ihrem Angriff) sind, können Sie Marill von Ihrer Hand auf Azurill stellen (dies zählt als weiterentwickelnde Azurill) und entfernen alle Schadenszähler von Azurill.",
+            es: "Una vez durante su turno (antes de su ataque), puede poner a Marill de su mano en Azurill (esto cuenta como Azurill en evolución) y eliminar todos los contadores de daño de Azurill.",
+            it: "Una volta durante il tuo turno (prima del tuo attacco), puoi mettere Marill dalla tua mano su Azurill (questo conta come Azurill in evoluzione) e rimuovere tutti i contatori di danno da Azurill.",
+            pt: "Uma vez durante o seu turno (antes do seu ataque), você pode colocar Marill da sua mão no Azurill (isso conta como evoluindo Azurill) e remover todos os contadores de danos de Azurill.",
           },
       }],
 
@@ -69,9 +69,6 @@ const card: Card = {
       retreat: 1,
 
       variants: [
-        {
-          type: "normal",
-        },
         {
           type: "normal",
           stamp: ["1st edition"],

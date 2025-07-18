@@ -32,13 +32,13 @@ const card: Card = {
             pt: "Super Cups de sucção",
           },
           effect: {
-            en: "As long as Cradily is your Active Pokémon, your opponent's Pokémon can't retreat.",
-            ja: "ゆっくりとあなたのアクティブなポケモンである限り、相手のポケモンは退却できません。",
-            fr: "Tant que Cradily est votre Pokémon actif, le Pokémon de votre adversaire ne peut pas se retirer.",
-            de: "Solange so lange Ihr aktives Pokémon ist, kann sich das Pokémon Ihres Gegners nicht zurückziehen.",
-            es: "Mientras cradio sea tu Pokémon activo, el Pokémon de tu oponente no puede retirarse.",
-            it: "Fintanto che è schifoso il tuo Pokémon attivo, i Pokémon del tuo avversario non possono ritirarsi.",
-            pt: "Enquanto isso é o seu Pokémon ativo, o Pokémon do seu oponente não pode recuar.",
+            en: "As long as Cradily is your Active PokÃ©mon, your opponent's PokÃ©mon can't retreat.",
+            ja: "ゆっくりとあなたのアクティブなポカモンである限り、あなたの相手のポカモンは退却することはできません。",
+            fr: "Tant que Cradily est votre poké actif, le poké de votre adversaire ne peut pas se retirer.",
+            de: "Solange so lange Ihr aktiver Poké Mon Mon ist, kann sich der Poké -Mong Ihres Gegners nicht zurückziehen.",
+            es: "Mientras cradio sea tu Poké Mon activo, el Poké de tu oponente no puede retirarse.",
+            it: "Fintanto che è fermo il tuo poké attivo, il poké del tuo avversario non può ritirarsi.",
+            pt: "Enquanto isso, o seu Poké Mon ativo, o Poké Mon do seu oponente não pode recuar.",
           },
       }],
 
@@ -91,9 +91,6 @@ const card: Card = {
       retreat: 2,
 
       variants: [
-        {
-          type: "holo",
-        },
         {
           type: "holo",
           stamp: ["1st edition"],
