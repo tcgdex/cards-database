@@ -72,5 +72,9 @@ const card: Card = {
         {
           type: "holo",
         },
+        {
+          type: "holo",
+          stamp: ["1st edition"],
+        },
       ],
 };
