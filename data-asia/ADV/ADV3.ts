@@ -4,6 +4,7 @@ import serie from '../ADV'
 const set: Set = {
 	id: 'ADV3',
 	name: {
+		en: 'Rulers of the Heavens',
 		ja: '天空の覇者'
 	},
 
