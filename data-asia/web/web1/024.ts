@@ -55,7 +55,7 @@ const card: Card = {
           },
           effect: {
             en: "If an attack does damage to Dark Wartortle during your opponent's next turn (even if Dark Wartortle is Knocked Out), Dark Wartortle does an equal amount of damage to the Defending Pokemon.",
-            ja: "攻撃が相手の次のターン中にダークワルトルートにダメージを与えた場合（ダークワルトルがノックアウトされたとしても）、ダークワルトルートルは防御ポケモンに同量のダメージを与えます。",
+            ja: "攻撃が相手の次のターン中にダークワルトルートにダメージを与えた場合（ダークワルトルがノックアウトされたとしても）、ダークワルトルートルはディフェンディングポケモンに同量のダメージを与えます。",
             fr: "Si une attaque endommage à Dark Wartortle lors du prochain tour de votre adversaire (même si Dark Wartort est éliminé), Dark Wartortle fait une quantité égale de dégâts au Pokémon en défense.",
             de: "Wenn ein Angriff in der nächsten Runde Ihres Gegners in der nächsten Runde Ihres Gegners beschädigt wird (auch wenn Dark Wartortle ausgeschaltet wird), verursacht Dark Wartortle den verteidigenden Pokemon gleich.",
             es: "Si un ataque da daño a la verrugada oscura durante el próximo turno de tu oponente (incluso si Dark Wartortle es noqueada), Dark Wartortle hace una cantidad igual de daño al Pokémon defensor.",
@@ -67,13 +67,13 @@ const card: Card = {
 
       retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };

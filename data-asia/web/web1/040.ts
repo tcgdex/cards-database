@@ -16,4 +16,13 @@ const card: Card = {
       rarity: "Rare",
       category: "Trainer",
 
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
