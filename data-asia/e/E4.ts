@@ -4,6 +4,7 @@ import serie from '../e'
 const set: Set = {
 	id: 'E4',
 	name: {
+		en: 'Split Earth',
 		ja: '裂けた大地'
 	},
 
