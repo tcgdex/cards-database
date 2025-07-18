@@ -51,11 +51,6 @@ const card: Card = {
       variants: [
         {
           type: "holo",
-          subtype: "unlimited",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
         },
       ],
 };
