@@ -18,6 +18,15 @@ const card: Card = {
 	hp: 160,
 	types: ["Water"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Crabrawler",
+		fr: "Crabagarre",
+		es: "Crabrawler",
+		it: "Crabrawler",
+		de: "Krabbox",
+		'pt-br': "Crabrawler",
+		ko: "오기지게"
+	},
 
 	abilities: [{
 		type: "Ability",
@@ -65,9 +74,19 @@ const card: Card = {
 		damage: 250
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "H",
-	illustrator: "KEIICHIRO ITO"
+	illustrator: "KEIICHIRO ITO",
+	description: {
+		en: "Though its punches are powerful, this Pokémone's movements are sluggish. It blows icy bubbles from its mouth to immobilize its opponents."
+	}
 }
 
 export default card
