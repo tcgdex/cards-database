@@ -35,7 +35,7 @@ const card: Card = {
             en: "Once during your turn <em>(before your attack)</em>, you may draw a card. If you do, choose a card from your hand and put it on top of your deck. This power can't be used if Dragonite is Asleep, Confused, or Paralyzed.",
             ja: "順番<em>（攻撃の前）</em>中に、カードを描くことができます。そうした場合は、手からカードを選択して、デッキの上に置いてください。ドラゴナイトが眠っている、混乱し、麻痺している場合、この力は使用できません。",
             fr: "Une fois pendant votre tour <em> (avant votre attaque) </em>, vous pouvez dessiner une carte. Si vous le faites, choisissez une carte dans votre main et mettez-la sur votre jeu. Ce pouvoir ne peut pas être utilisé si la dragonite est endormie, confuse ou paralysée.",
-            de: "Sobald Sie in Ihrem Zug <em> (vor Ihrem Angriff) </em> sind, können Sie eine Karte zeichnen. Wenn Sie dies tun, wählen Sie eine Karte von Ihrer Hand aus und legen Sie sie auf Ihr Deck. Diese Kraft kann nicht verwendet werden, wenn Dragonit schläft, verwirrt oder gelähmt ist.",
+            de: "Sobald Sie in Ihrem Zug <em> (vor Ihrem Angriff) </em> sind, können Sie eine Karte zeichnen. If you do, choose a card from your hand and put it on top of your deck. Diese Kraft kann nicht verwendet werden, wenn Dragonit schläft, verwirrt oder gelähmt ist.",
             es: "Una vez durante su turno <em> (antes de su ataque) </em>, puede dibujar una carta. Si lo hace, elija una carta de su mano y póngala encima de su mazo. Este poder no se puede usar si Dragonite está dormido, confundido o paralizado.",
             it: "Una volta durante il tuo turno <em> (prima del tuo attacco) </em>, puoi disegnare una carta. Se lo fai, scegli una carta dalla tua mano e mettila sopra il mazzo. Questa potenza non può essere usata se Dragonite è addormentato, confuso o paralizzato.",
             pt: "Uma vez durante o seu turno <em> (antes do seu ataque) </em>, você pode desenhar um cartão. Se o fizer, escolha uma carta da sua mão e coloque -a em cima do seu baralho. Esse poder não pode ser usado se a Dragonite estiver dormindo, confusa ou paralisada.",
@@ -69,4 +69,13 @@ const card: Card = {
 
       retreat: 2,
 
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };

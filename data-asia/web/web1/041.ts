@@ -47,4 +47,13 @@ const card: Card = {
 
       retreat: 2,
 
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["1st edition"],
+		},
+	],
 };
