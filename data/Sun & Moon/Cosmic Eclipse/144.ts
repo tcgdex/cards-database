@@ -66,9 +66,9 @@ const card: Card = {
 		},
 	],
 	retreat: 1,
-
-
-
+	description: {
+		en: "They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves."
+	}
 }
 
 export default card
