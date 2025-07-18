@@ -32,13 +32,13 @@ const card: Card = {
             pt: "Desenho de energia",
           },
           effect: {
-            en: "Once during your turn <em>(before your attack)</em>, you may discard 1 Energy card from your hand.  Then draw up to 3 cards from your deck.  This power can't be used if Delcatty is affected by a Special Condition.",
-            ja: "順番<em>（攻撃の前）</em>中に、1つのエネルギーカードを手から捨てることができます。  次に、デッキから最大3枚のカードを作成します。  Delcattyが特別な状態の影響を受ける場合、このパワーは使用できません。",
-            fr: "Une fois pendant votre tour <em> (avant votre attaque) </em>, vous pouvez jeter 1 carte d'énergie de votre main.  Ensuite, tirez jusqu'à 3 cartes de votre deck.  Cette puissance ne peut pas être utilisée si Delcatty est affectée par une condition spéciale.",
-            de: "Sobald Sie in Ihrem Zug <em> (vor Ihrem Angriff) </em> sind, können Sie 1 Energiekarte von Ihrer Hand wegwerfen.  Zeichnen Sie dann bis zu 3 Karten von Ihrem Deck.  Diese Leistung kann nicht angewendet werden, wenn Delcatty von einem besonderen Zustand betroffen ist.",
-            es: "Una vez durante su turno <em> (antes de su ataque) </em>, puede descartar 1 tarjeta de energía de su mano.  Luego extraiga a 3 cartas desde su mazo.  Esta potencia no se puede usar si DelCatty se ve afectada por una condición especial.",
-            it: "Una volta durante il tuo turno <em> (prima del tuo attacco) </em>, puoi scartare 1 carta energetica dalla tua mano.  Quindi disegna fino a 3 carte dal tuo mazzo.  Questa potenza non può essere utilizzata se Delcatty è influenzata da una condizione speciale.",
-            pt: "Uma vez durante o seu turno <em> (antes do seu ataque) </em>, você pode descartar 1 cartão de energia da sua mão.  Em seguida, desenhe até 3 cartas do seu baralho.  Esse poder não pode ser usado se Delcatty for afetado por uma condição especial.",
+            en: "Once during your turn (before your attack), you may discard 1 Energy card from your hand.  Then draw up to 3 cards from your deck.  This power can't be used if Delcatty is affected by a Special Condition.",
+            ja: "ターン中に（攻撃の前に）、手から1枚のエネルギーカードを捨てることができます。  次に、デッキから最大3枚のカードを作成します。  Delcattyが特別な状態の影響を受ける場合、このパワーは使用できません。",
+            fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez jeter 1 carte d'énergie de votre main.  Ensuite, tirez jusqu'à 3 cartes de votre deck.  Cette puissance ne peut pas être utilisée si Delcatty est affectée par une condition spéciale.",
+            de: "Sobald Sie während Ihres Zuges (vor Ihrem Angriff) sind, können Sie 1 Energieberichtungskarte von Ihrer Hand entsorgen.  Zeichnen Sie dann bis zu 3 Karten von Ihrem Deck.  Diese Leistung kann nicht angewendet werden, wenn Delcatty von einem besonderen Zustand betroffen ist.",
+            es: "Una vez durante su turno (antes de su ataque), puede descartar 1 tarjeta de energía de su mano.  Luego extraiga a 3 cartas desde su mazo.  Esta potencia no se puede usar si DelCatty se ve afectada por una condición especial.",
+            it: "Una volta durante il tuo turno (prima del tuo attacco), puoi scartare 1 carta energetica dalla tua mano.  Quindi disegna fino a 3 carte dal tuo mazzo.  Questa potenza non può essere utilizzata se Delcatty è influenzata da una condizione speciale.",
+            pt: "Uma vez durante o seu turno (antes do seu ataque), você pode descartar 1 cartão de energia da sua mão.  Em seguida, desenhe até 3 cartas do seu baralho.  Esse poder não pode ser usado se Delcatty for afetado por uma condição especial.",
           },
       }],
 
@@ -68,4 +68,13 @@ const card: Card = {
 
       retreat: 1,
 
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["1st edition"]
+		},
+	],
 };

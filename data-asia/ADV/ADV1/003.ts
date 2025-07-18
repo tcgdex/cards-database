@@ -60,4 +60,13 @@ const card: Card = {
 
       retreat: 3,
 
+      variants: [
+        {
+          type: "holo",
+        },
+		  {
+			  type: "holo",
+			  stamp: ["1st edition"]
+		  },
+      ],
 };
