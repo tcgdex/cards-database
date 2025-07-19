@@ -73,6 +73,9 @@
 				"Classic Collection": {
 					"type": "string"
 				},
+				"Black White Rare": {
+					"type": "string"
+				},
 				"Common": {
 					"type": "string"
 				},

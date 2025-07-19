@@ -139,9 +139,11 @@ export interface Card {
 			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
 			'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
 			'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
-			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon' |
+			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
+			// Black White rare
+			| 'Black White Rare'
 			// Pokémon TCG Pocket Rarities
-			'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
+			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 
 	/**
 	 * Card Category
