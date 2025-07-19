@@ -1,0 +1,24 @@
+import {Card} from "../../../interfaces"
+import Set from "../PCG9"
+
+const card: Card = {
+      set: Set,
+      name: {
+         en: "Holon Legacy",
+         ja: "ホロンの遺産",
+         fr: "Héritage holon",
+         de: "Holon Erbe",
+         es: "Legado de holón",
+         it: "Holon Legacy",
+         pt: "Holon Legacy",
+      },
+
+      rarity: "Uncommon",
+      category: "Trainer",
+
+      variants: [
+        {
+          type: "normal",
+        },
+      ],
+};
