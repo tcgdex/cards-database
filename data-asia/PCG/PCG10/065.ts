@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Aggron",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [306],
       hp: 110,
@@ -85,6 +85,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

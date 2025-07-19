@@ -13,12 +13,17 @@ const card: Card = {
          pt: "Sistema de reciclagem de energia",
       },
 
-      rarity: "Unknown",
+
       category: "Trainer",
 
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

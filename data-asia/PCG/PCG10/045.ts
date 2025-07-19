@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Machamp",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [68],
       hp: 120,
@@ -93,6 +93,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Charmeleon",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [5],
       hp: 70,
@@ -60,6 +60,10 @@ const card: Card = {
       retreat: 1,
 
       variants: [
+        {
+          type: "normal",
+          subtype: "unlimited',
+        },
         {
           type: "normal",
           stamp: ["1st edition"],
