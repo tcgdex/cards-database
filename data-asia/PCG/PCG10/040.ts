@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Duskull",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [355],
       hp: 50,
@@ -50,6 +50,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

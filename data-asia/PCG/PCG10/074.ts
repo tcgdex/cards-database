@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Vibrava",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [329],
       hp: 80,
@@ -63,6 +63,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

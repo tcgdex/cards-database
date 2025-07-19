@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Cacnea",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [331],
       hp: 50,
@@ -49,6 +49,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

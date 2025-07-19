@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Swablu",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [333],
       hp: 40,
@@ -49,6 +49,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

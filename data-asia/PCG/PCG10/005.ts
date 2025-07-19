@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Infelizmente",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [346],
       hp: 100,
@@ -72,6 +72,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

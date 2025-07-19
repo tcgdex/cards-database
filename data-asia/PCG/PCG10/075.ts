@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Flygon Ex",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [330],
       hp: 150,
@@ -70,7 +70,12 @@ const card: Card = {
 
       variants: [
         {
-          type: "normal",
+          type: "holo",
+          subtype: "unlimited',
+        },
+        {
+          type: "holo",
+          stamp: ["1st edition"],
         },
       ],
 };

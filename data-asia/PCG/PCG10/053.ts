@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Poochyena",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [261],
       hp: 50,
@@ -49,6 +49,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

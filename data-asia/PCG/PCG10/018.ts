@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Snorunt",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [361],
       hp: 50,
@@ -70,6 +70,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

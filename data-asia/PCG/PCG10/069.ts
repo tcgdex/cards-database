@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Slakoth",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [287],
       hp: 40,
@@ -62,6 +62,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

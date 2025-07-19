@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Glalie",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [362],
       hp: 80,
@@ -94,6 +94,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

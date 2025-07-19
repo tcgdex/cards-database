@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Absol Ex",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [359],
       hp: 100,
@@ -71,7 +71,12 @@ const card: Card = {
 
       variants: [
         {
-          type: "normal",
+          type: "holo",
+          subtype: "unlimited',
+        },
+        {
+          type: "holo",
+          stamp: ["1st edition"],
         },
       ],
 };

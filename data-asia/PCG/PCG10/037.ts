@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Claydol Ex",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [344],
       hp: 120,
@@ -92,7 +92,12 @@ const card: Card = {
 
       variants: [
         {
-          type: "normal",
+          type: "holo",
+          subtype: "unlimited',
+        },
+        {
+          type: "holo",
+          stamp: ["1st edition"],
         },
       ],
 };

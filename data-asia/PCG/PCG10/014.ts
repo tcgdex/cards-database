@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Blaziken",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [257],
       hp: 100,
@@ -71,7 +71,12 @@ const card: Card = {
 
       variants: [
         {
-          type: "normal",
+          type: "holo",
+          subtype: "unlimited',
+        },
+        {
+          type: "holo",
+          stamp: ["1st edition"],
         },
       ],
 };

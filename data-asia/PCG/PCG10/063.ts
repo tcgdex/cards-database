@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Aron",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [304],
       hp: 50,
@@ -62,6 +62,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };
