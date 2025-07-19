@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Seedot",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [273],
       hp: 40,
@@ -70,6 +70,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

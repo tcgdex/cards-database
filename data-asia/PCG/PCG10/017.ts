@@ -13,7 +13,7 @@ const card: Card = {
          pt: "OMASTAR",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [139],
       hp: 110,
@@ -70,6 +70,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

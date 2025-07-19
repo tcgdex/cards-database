@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Raichu",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [26],
       hp: 70,
@@ -71,7 +71,12 @@ const card: Card = {
 
       variants: [
         {
-          type: "normal",
+          type: "holo",
+          subtype: "unlimited',
+        },
+        {
+          type: "holo",
+          stamp: ["1st edition"],
         },
       ],
 };

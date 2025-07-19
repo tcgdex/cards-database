@@ -13,12 +13,17 @@ const card: Card = {
          pt: "Sidney's Stadium",
       },
 
-      rarity: "Unknown",
+
       category: "Trainer",
 
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

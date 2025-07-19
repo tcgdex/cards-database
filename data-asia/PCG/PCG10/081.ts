@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Salamence Ex",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [373],
       hp: 160,
@@ -70,7 +70,12 @@ const card: Card = {
 
       variants: [
         {
-          type: "normal",
+          type: "holo",
+          subtype: "unlimited',
+        },
+        {
+          type: "holo",
+          stamp: ["1st edition"],
         },
       ],
 };

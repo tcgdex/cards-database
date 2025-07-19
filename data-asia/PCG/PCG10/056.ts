@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Shiftry Ex",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [275],
       hp: 140,
@@ -70,7 +70,12 @@ const card: Card = {
 
       variants: [
         {
-          type: "normal",
+          type: "holo",
+          subtype: "unlimited',
+        },
+        {
+          type: "holo",
+          stamp: ["1st edition"],
         },
       ],
 };

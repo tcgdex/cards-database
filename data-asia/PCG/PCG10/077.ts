@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Altaria",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [334],
       hp: 80,
@@ -85,6 +85,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

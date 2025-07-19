@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Metang",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [375],
       hp: 80,
@@ -71,6 +71,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

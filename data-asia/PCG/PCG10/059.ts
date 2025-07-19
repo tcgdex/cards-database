@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Cacturne",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [332],
       hp: 70,
@@ -71,6 +71,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };

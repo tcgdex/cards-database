@@ -13,7 +13,7 @@ const card: Card = {
          pt: "Ninetales",
       },
 
-      rarity: "Unknown",
+
       category: "Pokemon",
       dexId: [38],
       hp: 70,
@@ -84,6 +84,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };
