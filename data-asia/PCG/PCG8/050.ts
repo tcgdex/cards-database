@@ -49,7 +49,11 @@ const card: Card = {
       variants: [
         {
           type: "normal",
-          subtype: "unlimited",
+          subtype: "unlimited',
+        },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
         },
       ],
 };
