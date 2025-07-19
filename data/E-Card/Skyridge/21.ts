@@ -4,6 +4,10 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Moltres",
+		fr: "Sulfura",
+		es: "Moltres",
+		it: "Moltres",
+		pt: "Moltres",
 		de: "Lavados"
 	},
 	illustrator: "Kouki Saitou",
@@ -18,7 +22,6 @@ const card: Card = {
 	types: [
 		"Fire",
 	],
-
 	stage: "Basic",
 
 	abilities: [
@@ -44,11 +47,10 @@ const card: Card = {
 				de: "Feuersammeln"
 			},
 			effect: {
-				en: "If there are any Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Moltres.",
-				de: "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" eine davon an Lavados an."
+				en: "If there are any Fire Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Moltres.",
+				de: "Wenn mindestens eine Feuer-Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" eine davon an Lavados an."
 			},
 			damage: 10,
-
 		},
 		{
 			cost: [
@@ -62,13 +64,13 @@ const card: Card = {
 				de: "Brennender Schweif"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Energy card attached to Moltres.",
-				de: "Wirf eine Münze. Lege bei \"Zahl\" eine an Lavados angelegte -Energiekarte auf deinen Ablagestapel."
+				en: "Flip a coin. If tails, discard a Fire Energy card attached to Moltres.",
+				de: "Wirf eine Münze. Lege bei \"Zahl\" eine an Lavados angelegte Feuer-Energiekarte auf deinen Ablagestapel."
 			},
-			damage: 60,
-
+			damage: 60
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -81,10 +83,7 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
-
-
-
+	retreat: 2
 }
 
 export default card
