@@ -93,11 +93,11 @@ const card: Card = {
 
       variants: [
         {
-          type: "normal",
+          type: "holo",
           subtype: "unlimited',
         },
         {
-          type: "normal",
+          type: "holo",
           stamp: ["1st edition"],
         },
       ],
