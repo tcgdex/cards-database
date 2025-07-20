@@ -4,7 +4,6 @@ import serie from '../PCG'
 const set: Set = {
 	id: 'PCG10',
 	name: {
-		en: 'World Champions Pack',
 		ja: 'ワールドチャンピオンズパック'
 	},
 

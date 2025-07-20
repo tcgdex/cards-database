@@ -2,28 +2,22 @@ import {Card} from "../../../interfaces"
 import Set from "../PCG10"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Battle Frontier",
-         ja: "バトルフロンティア",
-         fr: "Frontière de combat",
-         de: "Kampfgrenze",
-         es: "Frontera de batalla",
-         it: "Battle Frontier",
-         pt: "Fronteira de batalha",
-      },
+	set: Set,
+	name: {
+		ja: "バトルフロンティア",
+	},
 
 
-      category: "Trainer",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-          subtype: "unlimited',
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };

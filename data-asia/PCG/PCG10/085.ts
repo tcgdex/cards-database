@@ -2,28 +2,22 @@ import {Card} from "../../../interfaces"
 import Set from "../PCG10"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Great Ball",
-         ja: "素晴らしいボール",
-         fr: "Grande balle",
-         de: "Toller Ball",
-         es: "Gran bola",
-         it: "Ottima palla",
-         pt: "Ótima bola",
-      },
+	set: Set,
+	name: {
+		ja: "素晴らしいボール",
+	},
 
 
-      category: "Trainer",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-          subtype: "unlimited',
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
