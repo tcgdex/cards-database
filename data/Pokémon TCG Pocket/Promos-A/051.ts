@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
-	rarity: "None",
+	rarity: "One Shiny",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Colorless"],

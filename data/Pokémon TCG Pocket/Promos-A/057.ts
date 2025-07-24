@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "One Diamond",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Colorless"],

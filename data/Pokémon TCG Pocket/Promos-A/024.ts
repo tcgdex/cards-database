@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Miki Tanaka",
-	rarity: "None",
+	rarity: "Three Diamond",
 	category: "Pokemon",
 	types: ["Lightning"],
 	stage: "Basic",
