@@ -11,7 +11,11 @@ export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): 
 	if (!resolveText(serie.name, lang)) {
 		return false
 	}
-	const sets = await getSets(serie.name[lang], lang)
+
+	//TODO: this is a workaround for the data-asia as it uses id as the folder name where as the international uses the name
+	const seriesIdentifier = getDataFolder(lang) === 'data' ? serie.name.en : serie.id;
+
+	const sets = await getSets(seriesIdentifier, lang)
 	return sets.length > 0
 }
 
