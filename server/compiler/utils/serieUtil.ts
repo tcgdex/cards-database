@@ -7,15 +7,17 @@ export async function getSerie(name: string, lang: SupportedLanguages): Promise<
 	return (await import(`../../${DB_PATH}/${getDataFolder(lang)}/${name}.ts`)).default
 }
 
+//TODO: FIXTHIS this is a workaround for the data-asia as it uses id as the folder name where as the international uses the name
+function getSerieIdenti(serie: Serie, lang: SupportedLanguages): string {
+	return getDataFolder(lang) === 'data' ? serie.name.en : serie.id;
+}
+
 export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): Promise<boolean> {
 	if (!resolveText(serie.name, lang)) {
 		return false
 	}
 
-	//TODO: this is a workaround for the data-asia as it uses id as the folder name where as the international uses the name
-	const seriesIdentifier = getDataFolder(lang) === 'data' ? serie.name.en : serie.id;
-
-	const sets = await getSets(seriesIdentifier, lang)
+	const sets = await getSets(getSerieIdenti(serie,lang), lang)
 	return sets.length > 0
 }
 
@@ -35,7 +37,8 @@ export async function getSeries(lang: SupportedLanguages): Promise<Array<Serie>>
 	// Sort series by the first set release date
 	const tmp: Array<[Serie, Set | undefined]> = await Promise.all(series.map(async (it) => [
 		it,
-		(await getSets(it.name[lang], lang))
+		(
+			await getSets(getSerieIdenti(it,lang), lang))
 			.reduce<Set | undefined>((p, c) => p ? p.releaseDate < c.releaseDate ? p : c : c, undefined) as Set
 	] as [Serie, Set]))
 
@@ -43,7 +46,7 @@ export async function getSeries(lang: SupportedLanguages): Promise<Array<Serie>>
 }
 
 export async function serieToSerieSimple(serie: Serie, lang: SupportedLanguages): Promise<SerieResume> {
-	const setsTmp = await getSets(serie.name[lang], lang)
+	const setsTmp = await getSets(getSerieIdenti(serie,lang), lang)
 	const sets = await Promise.all(setsTmp
 		.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
 		.map((el) => setToSetSimple(el, lang)))
@@ -56,7 +59,7 @@ export async function serieToSerieSimple(serie: Serie, lang: SupportedLanguages)
 }
 
 export async function serieToSerieSingle(serie: Serie, lang: SupportedLanguages): Promise<SerieSingle> {
-	const setsTmp = await getSets(serie.name[lang], lang)
+	const setsTmp = await getSets(getSerieIdenti(serie,lang), lang)
 	const sortedSetsTmp = setsTmp.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
 	const sets = await Promise.all(sortedSetsTmp.map((el) => setToSetSimple(el, lang)))
 	const logo = (
