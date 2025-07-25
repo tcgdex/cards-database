@@ -4,11 +4,7 @@ import serie from '../S'
 const set: Set = {
 	id: 'CS2a',
 	name: {
-		ja: 'トリプレットビート',
-		ko: '트리플렛비트',
-		'zh-tw': '三連音爆',
-		id: 'Hantaman Triplet',
-		th: 'ทริปเปิลบีต'
+		'zh-tw': 'CS2a',
 	},
 
 	serie: serie,
