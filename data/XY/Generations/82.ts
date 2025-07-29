@@ -6,25 +6,17 @@ const card: Card = {
 		en: "Metal Energy",
 		fr: "Énergie Metal de base",
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 288419
+	}
 }
 
 export default card

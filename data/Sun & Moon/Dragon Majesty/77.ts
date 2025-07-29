@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Boia de Substituição",
 		de: "Rettungsring"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Échangez votre Pokémon Actif Water avec l’un de vos Pokémon de Banc. Dans ce cas, soignez 30 dégâts au Pokémon que vous avez déplacé vers votre Banc.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Troque o seu Pokémon Water Ativo por 1 dos seus Pokémon no Banco. Se fizer isto, cure 30 pontos de dano do Pokémon que você moveu para o seu Banco.",
 		de: "Tausche dein Aktives Water-Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, heile 30 Schadenspunkte bei dem Pokémon, das du auf deine Bank verschoben hast."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 363533
+	}
 }
 
 export default card

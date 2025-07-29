@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les ondes de choc qu'il génère en battant des ailes infligent de graves blessures internes."
+	},
+
+	thirdParty: {
+		cardmarket: 278166
 	}
 }
 

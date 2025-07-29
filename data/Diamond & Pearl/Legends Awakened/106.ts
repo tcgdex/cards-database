@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son regard s'anime à la vue d'un objet brillant. C'est un Pokémon nocturne."
+	},
+
+	thirdParty: {
+		cardmarket: 278255
 	}
 }
 

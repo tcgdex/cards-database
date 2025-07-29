@@ -65,6 +65,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il broie tout ce qu'il trouve avec ses mâchoires puissantes. Même son dresseur doit s'en méfier."
+	},
+
+	thirdParty: {
+		cardmarket: 277735
 	}
 }
 

@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Scambia il tuo Pokémon attivo con uno dei tuoi Pokémon in panchina.",
 		pt: "Substitua seu Pokémon Ativo por 1 dos Pokémon do seu Banco.",
 		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
+	},
+
+	thirdParty: {
+		cardmarket: 273694
 	}
 }
 

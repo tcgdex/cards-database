@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "En cas de danger, il gonfle d'air son corps doux et potelé dans des proportions gigantesques."
+	},
+
+	thirdParty: {
+		cardmarket: 273813
 	}
 }
 

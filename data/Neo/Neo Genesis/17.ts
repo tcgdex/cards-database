@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Dans ses moments de rage, il devient tellement chaud que tout ce qu'il touche prend feu."
+	},
+
+	thirdParty: {
+		cardmarket: 274417
 	}
 }
 

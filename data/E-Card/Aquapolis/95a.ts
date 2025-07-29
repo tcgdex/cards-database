@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "M.Mime",
 		de: "Pantimos"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		122,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
@@ -35,7 +38,6 @@ const card: Card = {
 
 		type: "Poke-BODY"
 	}],
-
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,10 +67,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275169
+	}
 }
 
 export default card

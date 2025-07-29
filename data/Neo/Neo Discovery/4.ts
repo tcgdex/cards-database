@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand ils entendent ses hurlements sinistres, les autres Pokémon ont un frisson dans le dos et ils retournent au nid."
+	},
+
+	thirdParty: {
+		cardmarket: 274515
 	}
 }
 

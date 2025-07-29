@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Granbull",
 		de: "Granbull"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		210,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Snubbull",
 		fr: "Snubbull",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Snubbull",
 		de: "Snubbull"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,22 +87,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 286345
+	}
 }
 
 export default card

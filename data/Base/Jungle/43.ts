@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Agressif et teigneux, il poursuit son gibier jusqu'à épuisement complet."
+	},
+
+	thirdParty: {
+		cardmarket: 273840
 	}
 }
 

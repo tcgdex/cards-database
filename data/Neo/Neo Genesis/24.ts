@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "On prétend que lorsqu'il est poursuivi, il attire son attaquant sur de sombres pistes de montagne où le traqueur se perd."
+	},
+
+	thirdParty: {
+		cardmarket: 274424
 	}
 }
 

@@ -55,6 +55,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il n'a qu'une seule queue à la naissance. Sa queue se divise à la pointe au fil des ans."
+	},
+
+	thirdParty: {
+		cardmarket: 273763
 	}
 }
 

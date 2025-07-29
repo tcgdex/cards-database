@@ -50,6 +50,10 @@ const card: Card = {
 
 	description: {
 		fr: "La corne sur son front est très résistante. Elle lui sert à percer des blocs de glace."
+	},
+
+	thirdParty: {
+		cardmarket: 273736
 	}
 }
 

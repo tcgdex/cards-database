@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce légendaire Pokémon chinois est facilement reconnaissable de par sa grande crinière."
+	},
+
+	thirdParty: {
+		cardmarket: 274664
 	}
 }
 

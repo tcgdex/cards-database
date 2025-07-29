@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il rassemble ses pairs pour les commander. Il utilise son cri pour diriger Ptitard."
+	},
+
+	thirdParty: {
+		cardmarket: 278161
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Recuperação de Energia Superior",
 		de: "Überragender Energie-Zugewinn"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez 2 cartes de votre main. (Si vous ne pouvez pas défausser 2 cartes, vous ne pouvez pas jouer cette carte.) Ajoutez 4 cartes Énergie de base de votre pile de défausse à votre main. (Vous ne pouvez pas choisir une carte que vous avez défaussée du fait de l'effet de cette carte.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Descarte 2 cards da sua mão. (Se você não puder descartar 2 cards, não poderá jogar esse card.) Coloque 4 cards de Energia básica da sua pilha de descarte em sua mão. (Não é possível escolher um card que foi descartado com o efeito deste card.)",
 		de: "Lege 2 Karten von deiner Hand auf deinen Ablagestapel. (Wenn du keine 2 Karten von der Hand auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Nimm 4 Basis-Energiekarten von deinem Ablagestapel auf deine Hand. (Du darfst keine Karte nehmen, die du aufgrund dieser Karte auf den Ablagestapel gelegt hast.)"
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280981
+	}
 }
 
 export default card

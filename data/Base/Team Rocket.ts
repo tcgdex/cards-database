@@ -23,6 +23,10 @@ const base5: Set = {
 	abbreviations: {
 		official: "RO",
 		fr: "ROC"
+	},
+
+	thirdParty: {
+		cardmarket: 1528
 	}
 }
 

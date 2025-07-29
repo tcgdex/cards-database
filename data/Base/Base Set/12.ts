@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Très intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans."
+	},
+
+	thirdParty: {
+		cardmarket: 273707
 	}
 }
 

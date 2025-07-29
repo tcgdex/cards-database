@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Probopass",
 		de: "Voluminas"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		476,
 	],
@@ -18,9 +19,11 @@ const card: Card = {
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Nosepass",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -36,6 +39,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,22 +75,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278879
+	}
 }
 
 export default card

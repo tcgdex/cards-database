@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon marin extrêmement rare. On dit qu'il est aussi intelligent que l'homme."
+	},
+
+	thirdParty: {
+		cardmarket: 273865
 	}
 }
 

@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Heatran",
 		de: "Heatran"
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		485,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		fr: "Heatran LV.X",
 	},
+
 	stage: "LEVEL-UP",
 
 	abilities: [
@@ -49,8 +54,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 278395
+	}
 }
 
 export default card

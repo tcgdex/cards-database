@@ -23,6 +23,10 @@ const bw10: Set = {
 	abbreviations: {
 		official: "PLB",
 		fr: "EPL"
+	},
+
+	thirdParty: {
+		cardmarket: 1580
 	}
 }
 

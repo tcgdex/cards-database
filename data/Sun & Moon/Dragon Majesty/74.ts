@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Kyurem Branco GX",
 		de: "Weißes Kyurem GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		646,
 	],
+
 	hp: 190,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "GX",
 
@@ -102,6 +104,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -111,8 +114,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 363519
+	}
 }
 
 export default card

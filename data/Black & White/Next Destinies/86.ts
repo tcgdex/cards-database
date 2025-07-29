@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cilan",
 		de: "Benny"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez 3 cartes Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure em seu baralho 3 cards de Energia básica, revele-os e coloque-os na sua mão. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach 3 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 280311
+	}
 }
 
 export default card

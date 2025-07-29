@@ -55,6 +55,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit dans les plaines et les montagnes. On le confond souvent avec un petit caillou."
+	},
+
+	thirdParty: {
+		cardmarket: 273908
 	}
 }
 

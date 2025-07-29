@@ -54,6 +54,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses petites pattes sont équipées de ventouses, lui permettant de grimper aux murs."
+	},
+
+	thirdParty: {
+		cardmarket: 273740
 	}
 }
 

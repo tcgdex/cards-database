@@ -67,6 +67,10 @@ const card: Card = {
 
 	description: {
 		fr: "La nuit, le centre de son corps clignote doucement au rythme d'un cœur humain."
+	},
+
+	thirdParty: {
+		cardmarket: 274642
 	}
 }
 

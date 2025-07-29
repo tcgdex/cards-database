@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il aime dormir dans les cavernes sous-marines et il lui arrive même de voler le nid d'un autre Octillery."
+	},
+
+	thirdParty: {
+		cardmarket: 274714
 	}
 }
 

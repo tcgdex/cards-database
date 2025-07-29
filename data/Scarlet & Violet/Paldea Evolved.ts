@@ -24,6 +24,10 @@ const set: Set = {
 	abbreviations: {
 		official: "PAL",
 		fr: "EAP"
+	},
+
+	thirdParty: {
+		cardmarket: 5318
 	}
 }
 

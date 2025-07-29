@@ -59,6 +59,10 @@ const card: Card = {
 
 	description: {
 		fr: "La chaleur de ses flammes intimide l'ennemi. Elles s'intensifient lorsqu'il se prépare à combattre."
+	},
+
+	thirdParty: {
+		cardmarket: 277689
 	}
 }
 

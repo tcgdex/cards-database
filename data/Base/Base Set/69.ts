@@ -54,6 +54,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il se nourrit de feuilles dans les forêts. L'aiguillon sur son front est empoisonné."
+	},
+
+	thirdParty: {
+		cardmarket: 273764
 	}
 }
 

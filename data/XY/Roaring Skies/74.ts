@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Altaria",
 		de: "Altaria"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		334,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Swablu",
 		de: "Wablu"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -54,6 +59,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,22 +79,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 282721
+	}
 }
 
 export default card

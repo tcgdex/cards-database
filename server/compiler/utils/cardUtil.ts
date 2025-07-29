@@ -114,7 +114,9 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			name: resolveText(booster.name, lang),
 			// images will be coming soon...
 		})) : undefined,
-		updated: await getCardLastEdit(localId, card, lang)
+		updated: await getCardLastEdit(localId, card, lang),
+
+		thirdParty: card.thirdParty
 	}
 }
 

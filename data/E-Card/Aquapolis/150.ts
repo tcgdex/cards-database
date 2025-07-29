@@ -90,7 +90,11 @@ const card: Card = {
 		},
 
 		type: "Poke-BODY"
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 275043
+	}
 }
 
 export default card

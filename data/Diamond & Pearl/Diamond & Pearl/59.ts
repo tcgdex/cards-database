@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son galop dépasse les 240 km/h. Il file comme une flèche, laissant flotter sa crinière ardente."
+	},
+
+	thirdParty: {
+		cardmarket: 277558
 	}
 }
 

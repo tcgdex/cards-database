@@ -16,6 +16,9 @@ const card: Card = {
 	set: Set,
 	energyType: "Normal",
 
+	thirdParty: {
+		cardmarket: 293460
+	}
 }
 
 export default card

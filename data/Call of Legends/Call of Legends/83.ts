@@ -15,6 +15,10 @@ const card: Card = {
 
 	effect: {
 		de: "Mische deine Handkarten in dein Deck. Ziehe danach 6 Karten."
+	},
+
+	thirdParty: {
+		cardmarket: 279726
 	}
 }
 

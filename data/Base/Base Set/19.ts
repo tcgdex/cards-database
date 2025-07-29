@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un groupe de Taupiqueur. Ils créent des séismes en creusant à plus de 100 km de profondeur."
+	},
+
+	thirdParty: {
+		cardmarket: 273714
 	}
 }
 

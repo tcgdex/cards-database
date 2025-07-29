@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Rapidash",
 		de: "Gallopa"
 	},
+
 	illustrator: "Lee HyunJung",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		78,
 	],
@@ -18,9 +19,11 @@ const card: Card = {
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Ponyta",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -36,6 +39,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -67,6 +71,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -74,10 +79,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 278900
+	}
 }
 
 export default card

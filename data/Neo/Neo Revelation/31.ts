@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il fait onduler son corps en rythme. Celui-ci semble changer selon son humeur."
+	},
+
+	thirdParty: {
+		cardmarket: 274617
 	}
 }
 

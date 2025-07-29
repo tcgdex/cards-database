@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		fr: "Comme il est très insouciant et peu attentif, il se cogne dans les rochers ou les quilles des bateaux quand il nage."
+	},
+
+	thirdParty: {
+		cardmarket: 274634
 	}
 }
 

@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps émet des ondes alpha provoquant des migraines à ceux qui se trouvent à proximité."
+	},
+
+	thirdParty: {
+		cardmarket: 273727
 	}
 }
 

@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Vivant dans les tas d'ordures, il se nourrit des déchets polluants rejetés par les usines."
+	},
+
+	thirdParty: {
+		cardmarket: 273909
 	}
 }
 

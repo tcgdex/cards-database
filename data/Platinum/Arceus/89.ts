@@ -28,7 +28,11 @@ const card: Card = {
 		effect: {
 			de: "Solange sich Altbernstein auf deiner Bank befindet, verhindere allen Schaden, der Altbernstein durch Angriffe von Pokémon (deinen oder denen deines Gegners) zugefügt würde."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 278961
+	}
 }
 
 export default card

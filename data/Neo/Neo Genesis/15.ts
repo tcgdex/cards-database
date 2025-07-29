@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps a été compressé à une profondeur incroyable. Il en résulte qu'il est plus dur que le diamant."
+	},
+
+	thirdParty: {
+		cardmarket: 274415
 	}
 }
 

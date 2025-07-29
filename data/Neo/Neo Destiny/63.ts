@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Grand dès sa naissance, ce Pokémon augmente de taille durant sa vie en changeant régulièrement de peau."
+	},
+
+	thirdParty: {
+		cardmarket: 274715
 	}
 }
 

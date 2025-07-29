@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Azumarill",
 		de: "Azumarill"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		184,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Marill",
 		fr: "Marill",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Marill",
 		de: "Marill"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -104,22 +110,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 273634
+	}
 }
 
 export default card

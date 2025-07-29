@@ -54,6 +54,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il niche dans les petits trous horizontaux des murs des grottes. Il bondit pour saisir sa proie."
+	},
+
+	thirdParty: {
+		cardmarket: 277714
 	}
 }
 

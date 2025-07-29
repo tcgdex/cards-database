@@ -23,6 +23,10 @@ const neo4: Set = {
 	abbreviations: {
 		official: "N4",
 		fr: "NDT"
+	},
+
+	thirdParty: {
+		cardmarket: 1534
 	}
 }
 

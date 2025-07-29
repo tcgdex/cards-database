@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		fr: "Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant."
+	},
+
+	thirdParty: {
+		cardmarket: 273808
 	}
 }
 

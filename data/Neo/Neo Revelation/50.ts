@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il sait particulièrement bien viser. L'eau qu'il projette peut frapper une proie en mouvement à plus de 100 mètres."
+	},
+
+	thirdParty: {
+		cardmarket: 274636
 	}
 }
 

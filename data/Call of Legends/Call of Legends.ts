@@ -25,6 +25,10 @@ const col1: Set = {
 	abbreviations: {
 		official: "COL",
 		fr: "LDL"
+	},
+
+	thirdParty: {
+		cardmarket: 1570
 	}
 }
 

@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Craint et détesté de tous, on raconte qu'il apporte le malheur à ceux qui l'aperçoivent la nuit."
+	},
+
+	thirdParty: {
+		cardmarket: 274632
 	}
 }
 

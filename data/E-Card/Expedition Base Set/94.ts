@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Bulbizarre",
 		de: "Bisasam"
 	},
+
 	illustrator: "Sachi Matoba",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		1,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,6 +60,7 @@ const card: Card = {
 			damage: 10
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -65,10 +68,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274969
+	}
 }
 
 export default card

@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Gengar e Mimikyu GX",
 		de: "Gengar & Mimigma GX"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		94,
 	],
+
 	hp: 240,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -74,22 +76,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 367141
+	}
 }
 
 export default card

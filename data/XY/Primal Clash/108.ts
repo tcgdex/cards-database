@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Kingdra",
 		de: "Seedraking"
 	},
+
 	illustrator: "hatachu",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		230,
 	],
+
 	hp: 130,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Seadra",
 		fr: "Hypocéan",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Seadra",
 		de: "Seemon"
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -102,6 +108,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -111,8 +118,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273638
+	}
 }
 
 export default card

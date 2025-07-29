@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Faixa da Escolha",
 		de: "Wahlband"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les attaques du Pokémon auquel cette carte est attachée infligent 30 dégâts supplémentaires au Pokémon-GX Actif ou au Pokémon-EX Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Os ataques do Pokémon ao qual esta carta está ligada causam 30 pontos de dano a mais ao Pokémon-GX Ativo ou ao Pokémon-EX Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		de: "Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon-GX oder Aktiven Pokémon-EX deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 297573
+	}
 }
 
 export default card

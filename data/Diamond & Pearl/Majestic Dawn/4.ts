@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Dialga",
 		de: "Dialga"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		483,
 	],
+
 	hp: 100,
+
 	types: [
 		"Metal",
 	],
@@ -32,7 +35,6 @@ const card: Card = {
 			de: 'Wenn ein Aktives Pokémon eine Schwäche gegen -Pokémon hat, fügen Dialgas Angriffe diesem Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden).'
 		}
 	},
-
 
 	attacks: [
 		{
@@ -72,22 +74,26 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278053
+	}
 }
 
 export default card

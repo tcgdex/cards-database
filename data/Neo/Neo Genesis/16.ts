@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "On prétend qu'il se manifeste auprès des gens généreux et bienfaisants, et les couvre de bonheur."
+	},
+
+	thirdParty: {
+		cardmarket: 274416
 	}
 }
 

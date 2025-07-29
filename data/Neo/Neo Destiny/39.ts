@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "S'il tourne le dos à son adversaire, c'est signe qu'il se prépare à attaquer."
+	},
+
+	thirdParty: {
+		cardmarket: 274691
 	}
 }
 

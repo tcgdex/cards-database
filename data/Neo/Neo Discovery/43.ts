@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Apparemment, il a brisé la coquille de Kokiyas avec ses crocs acérés et il a mangé ce qui était à l'intérieur."
+	},
+
+	thirdParty: {
+		cardmarket: 274554
 	}
 }
 

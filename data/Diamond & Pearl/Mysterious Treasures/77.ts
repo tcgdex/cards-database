@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il jauge la température et l'humidité grâce à la feuille sur sa tête. Il raffole des bains de soleil."
+	},
+
+	thirdParty: {
+		cardmarket: 277706
 	}
 }
 

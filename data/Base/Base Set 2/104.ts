@@ -5,25 +5,15 @@ const card: Card = {
 	name: {
 		en: "Lass",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274027
+	}
 }
 
 export default card

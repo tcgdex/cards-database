@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia de Compra",
 		de: "Zug-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte fournit de l’Énergie Colorless. \n\nLorsque vous attachez cette carte de votre main à un Pokémon, piochez une carte.",
@@ -35,7 +25,11 @@ const card: Card = {
 		de: "Diese Karte liefert Colorless-Energie.\n\nWenn du diese Karte aus deiner Hand an ein Pokémon anlegst, ziehe 1 Karte."
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 408639
+	}
 }
 
 export default card

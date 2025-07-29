@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Mapa da Cidade",
 		de: "Karte"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Tournez toutes vos cartes Récompense face découverte. (Ces cartes Récompense restent face découverte pour le reste de la partie.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Vire todos os seus cards de Prêmio com a face para cima. (Os cards de Prêmio permanecerão virados para cima pelo resto do jogo.)",
 		de: "Decke all deine Preiskarten auf. (Diese Preiskarten bleiben für den Rest des Spiels aufgedeckt.)"
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280723
+	}
 }
 
 export default card

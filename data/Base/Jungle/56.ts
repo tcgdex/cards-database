@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants."
+	},
+
+	thirdParty: {
+		cardmarket: 273853
 	}
 }
 

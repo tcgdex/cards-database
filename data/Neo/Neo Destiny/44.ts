@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il gonfle son corps comme un ballon et chante une berceuse qui fait sombrer tous ceux qui l'entendent dans un profond sommeil."
+	},
+
+	thirdParty: {
+		cardmarket: 274696
 	}
 }
 

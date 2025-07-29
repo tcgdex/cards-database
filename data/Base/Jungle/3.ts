@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il peut accumuler suffisamment de chaleur pour atteindre des températures de 1600 degrés."
+	},
+
+	thirdParty: {
+		cardmarket: 273800
 	}
 }
 

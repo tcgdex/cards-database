@@ -54,6 +54,10 @@ const card: Card = {
 
 	description: {
 		fr: "Pour se protéger, une horrible puanteur émane de ses antennes pour repousser ses ennemis."
+	},
+
+	thirdParty: {
+		cardmarket: 274564
 	}
 }
 

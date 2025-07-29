@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Obra da Equipe Rocket",
 		de: "Team Rockets Machenschaften"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez 2 pièces. Pour chaque côté face, défaussez 2 cartes du dessus du deck de votre adversaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Jogue 2 moedas. Para cada cara, descarte 2 cards de cima do baralho do seu oponente.",
 		de: "Wirf 2 Münzen. Lege pro \"Kopf\" 2 Karten vom Deck deines Gegners auf seinen Ablagestapel."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 289932
+	}
 }
 
 export default card

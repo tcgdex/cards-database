@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pochete Corredora",
 		de: "Flotte Hüfttasche"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée défausse de l’Énergie pour son Coût de Retraite, placez cette Énergie dans votre main plutôt que dans votre pile de défausse.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Se o Pokémon ao qual esta carta está ligada descartar Energia para cobrir seu custo de Recuo, coloque aquelas Energias na sua mão ao invés de colocá-las na pilha de descarte.",
 		de: "Wenn du für das Pokémon, an das diese Karte angelegt ist, Energie für seine Rückzugskosten auf deinen Ablagestapel legst, nimm jene Energie stattdessen auf deine Hand."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 311939
+	}
 }
 
 export default card

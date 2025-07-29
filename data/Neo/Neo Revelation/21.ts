@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Si les poches électriques de ses joues sont complètement chargées, ses deux oreilles se dressent sur sa tête."
+	},
+
+	thirdParty: {
+		cardmarket: 274607
 	}
 }
 

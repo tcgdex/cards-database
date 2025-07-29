@@ -25,6 +25,10 @@ const set: Set = {
 	abbreviations: {
 		official: "ASR",
 		fr: "ASR"
+	},
+
+	thirdParty: {
+		cardmarket: 4979
 	}
 }
 

@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "Gigantesque et maléfique, il est capable de raser une ville dans un accès de rage terrifiante."
+	},
+
+	thirdParty: {
+		cardmarket: 273701
 	}
 }
 

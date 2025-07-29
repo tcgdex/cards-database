@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa queue contient un minuscule cerveau. Elle mord l'ennemi qui essaie de le frapper dans le dos."
+	},
+
+	thirdParty: {
+		cardmarket: 277678
 	}
 }
 

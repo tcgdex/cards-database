@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Fã Clube Pokémon",
 		de: "Pokémon Fan Club"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez jusqu'à 2 Pokémon de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure em seu baralho até 2 Pokémon Básicos, revele-os e coloque-os na sua mão. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 289927
+	}
 }
 
 export default card

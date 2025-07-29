@@ -69,6 +69,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa nature robuste lui permet de vivre sur n'importe quel terrain. Ses pinces ne lâchent jamais prise."
+	},
+
+	thirdParty: {
+		cardmarket: 278238
 	}
 }
 

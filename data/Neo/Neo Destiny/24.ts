@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "Le nombre de taches sur son dos augmente ou diminue en fonction du nombre d'étoiles visibles dans le ciel nocturne."
+	},
+
+	thirdParty: {
+		cardmarket: 274676
 	}
 }
 

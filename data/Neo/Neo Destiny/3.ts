@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Plus ses défenses sont grosses, plus c'est un membre important du troupeau."
+	},
+
+	thirdParty: {
+		cardmarket: 274655
 	}
 }
 

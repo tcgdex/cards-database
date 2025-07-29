@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Cresselia",
 		de: "Cresselia"
 	},
+
 	illustrator: "chibi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		488,
 	],
+
 	hp: 120,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -75,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -84,8 +87,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 315989
+	}
 }
 
 export default card

@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il est né dans les profondeurs de la terre et il doit creuser pour sortir à l'air libre."
+	},
+
+	thirdParty: {
+		cardmarket: 274722
 	}
 }
 

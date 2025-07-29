@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il attire ses proies avec son doux parfum et les achève grâce aux fouets d'épines de ses bras."
+	},
+
+	thirdParty: {
+		cardmarket: 277512
 	}
 }
 

@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il se déguise en arbre pour éviter les attaques. Il déteste l'eau, aussi il disparaît dès qu'il se met à pleuvoir."
+	},
+
+	thirdParty: {
+		cardmarket: 274612
 	}
 }
 

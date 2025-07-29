@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Ponte Flecha Celeste",
 		de: "Himmelspfeilbrücke"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le coût de Retraite de chaque Pokémon de base en jeu est diminué de Colorless.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "O Custo para Recuar de cada Pokémon Básico em jogo é de um Colorless a menos.",
 		de: "Die Rückzugskosten aller Basis-Pokémon im Spiel verringern sich um Colorless."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 280316
+	}
 }
 
 export default card

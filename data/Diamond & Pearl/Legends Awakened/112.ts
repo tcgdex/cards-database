@@ -69,6 +69,10 @@ const card: Card = {
 
 	description: {
 		fr: "En journée, il plante ses piedsracines dans le sol. La nuit, il se promène en semant des graines."
+	},
+
+	thirdParty: {
+		cardmarket: 278260
 	}
 }
 

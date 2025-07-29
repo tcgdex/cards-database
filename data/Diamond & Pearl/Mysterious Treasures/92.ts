@@ -68,6 +68,10 @@ const card: Card = {
 
 	description: {
 		fr: "Des champignons appelés \"tochukaso\" poussent sur son dos. Ils évoluent avec le Paras hôte."
+	},
+
+	thirdParty: {
+		cardmarket: 277687
 	}
 }
 

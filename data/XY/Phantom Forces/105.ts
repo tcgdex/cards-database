@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Abrigo de Aço",
 		de: "Stahlbunker"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque Pokémon Metal (les vôtres et ceux de votre adversaire) ne peut être affecté par aucun État Spécial. (Retirez tous les États Spéciaux affectant les Pokémon concernés.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Nenhum Pokémon Metal (seus e do seu oponente) poderá ser afetado por Condições Especiais. (Remova todas as Condições Especiais que afetam esses Pokémon.)",
 		de: "Kein Metal-Pokémon (deine und die deines Gegners) kann von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesen Pokémon verlieren ihre Wirkung.)"
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 281912
+	}
 }
 
 export default card

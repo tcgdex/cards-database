@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Dado Ganancioso",
 		de: "Gierige Würfel"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si vous l'avez récupérée en tant que carte Récompense face cachée, avant de l'ajouter à votre main.\n\nLancez une pièce. Si c'est face, récupérez 1 carte Récompense supplémentaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Você pode jogar este card somente se o pegou dos seus cards de Prêmio virados para baixo, antes de colocá-lo na sua mão.Jogue uma moeda. Se sair cara, pegue mais 1 card de Prêmio.",
 		de: "Du kannst diese Karte nur spielen, wenn du sie als verdeckte Preiskarte auf deine Hand genommen hast.Wirf 1 Münze. Nimm bei \"Kopf\" 1 zusätzliche Preiskarte."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 291482
+	}
 }
 
 export default card

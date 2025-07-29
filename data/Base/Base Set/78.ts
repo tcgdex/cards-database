@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Choisissez 1 de vos Pokémon en jeu et reprenez sa carte Pokémon de base dans votre main. (Défaussez toutes les cartes attachées à cette carte.)",
 		de: "Wähle eines Deiner Pokémon im Spiel und nimm seine Basis-Karte auf Deine Hand zurück (Entferne alle auf dieser Karte abgelegte Karten.)"
+	},
+
+	thirdParty: {
+		cardmarket: 273773
 	}
 }
 

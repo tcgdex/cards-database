@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il est recouvert d'une épaisse couche toxique. Il laisse une trace empoisonnée."
+	},
+
+	thirdParty: {
+		cardmarket: 273874
 	}
 }
 

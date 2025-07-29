@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon légendaire plein de charme. Il peut contrôler les variations climatiques."
+	},
+
+	thirdParty: {
+		cardmarket: 273713
 	}
 }
 

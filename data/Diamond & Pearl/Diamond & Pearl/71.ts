@@ -69,6 +69,10 @@ const card: Card = {
 
 	description: {
 		fr: "On dirait qu'il pleure constamment. En fait, il régule ses fluides corporels en éliminant le surplus."
+	},
+
+	thirdParty: {
+		cardmarket: 277570
 	}
 }
 

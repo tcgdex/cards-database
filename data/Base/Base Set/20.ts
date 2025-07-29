@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Vivant dans les centrales, il provoque des pannes de courant en s'aventurant en ville."
+	},
+
+	thirdParty: {
+		cardmarket: 273715
 	}
 }
 

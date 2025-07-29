@@ -88,6 +88,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son cerveau s'est développé depuis qu'il tient debout. Sa corne peut traverser la pierre la plus dure."
+	},
+
+	thirdParty: {
+		cardmarket: 277559
 	}
 }
 

@@ -88,6 +88,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il peut vaincre ses adversaires avec ses puissants dards empoisonnés. Parfois, il attaque avec le reste de l'essaim."
+	},
+
+	thirdParty: {
+		cardmarket: 274529
 	}
 }
 

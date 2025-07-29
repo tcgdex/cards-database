@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bonnie",
 		de: "Heureka"
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que s’il y a une carte Stade en jeu.\n\nDéfaussez la carte Stade. Pendant ce tour, votre Zygarde-GX peut utiliser son attaque GX même si vous avez déjà utilisé votre attaque GX.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se houver alguma carta de Estádio em jogo.\n\nDescarte aquela carta de Estádio. Durante esta vez de jogar, seu Zygarde-GX pode usar seu ataque GX mesmo se você já tiver usado um ataque GX.",
 		de: "Du kannst diese Karte nur spielen, wenn 1 Stadionkarte im Spiel ist.\n\nLege jene Stadionkarte auf den Ablagestapel. Während dieses Zuges kann dein Zygarde-GX seine GX-Attacke einsetzen, auch wenn du deine GX-Attacke eingesetzt hast."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 327209
+	}
 }
 
 export default card

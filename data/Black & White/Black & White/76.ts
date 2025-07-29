@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Klinklang",
 		de: "Klikdiklak"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		601,
 	],
+
 	hp: 140,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Klang",
 		fr: "Clic",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -68,22 +74,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 279814
+	}
 }
 
 export default card

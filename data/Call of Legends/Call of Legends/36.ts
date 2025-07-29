@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Tyrogue",
 		de: "Rabauz"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		236,
 	],
+
 	hp: 30,
+
 	types: [
 		"Fighting",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -50,11 +54,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 279679
+	}
 }
 
 export default card

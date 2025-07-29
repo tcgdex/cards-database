@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Anita",
 		de: "Nuit"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si le Pokémon Actif de votre adversaire est un Pokémon de base.\n\nPlacez une Énergie du Pokémon Actif de votre adversaire sur le dessus de son deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se o Pokémon Ativo do seu oponente for um Pokémon Básico.\n\nColoque 1 Energia do Pokémon Ativo do seu oponente como a primeira carta do baralho dele(a).",
 		de: "Du kannst diese Karte nur spielen, wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist.\n\nLege 1 Energie vom Aktiven Pokémon deines Gegners oben auf sein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 369077
+	}
 }
 
 export default card

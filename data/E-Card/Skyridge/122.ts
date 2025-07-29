@@ -14,6 +14,10 @@ const card: Card = {
 
 	effect: {
 		de: "So lange diese Karte an ein Pokémon angelegt ist, ist der Typ (Farbe) dieses Pokémon . Greift das Pokémon an, lege diese Karte am Ende des Zuges auf deinen Ablagestapel."
+	},
+
+	thirdParty: {
+		cardmarket: 275380
 	}
 }
 

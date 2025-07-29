@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Vigoroth",
 		de: "Muntier"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		288,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Slakoth",
 		fr: "Parecool",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Slakoth",
 		de: "Bummelz"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -85,8 +90,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281746
+	}
 }
 
 export default card

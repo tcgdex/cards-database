@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "À cause des énormes quantités d'électricité qu'il stocke, sa laine ne pousse plus à certains endroits de son corps."
+	},
+
+	thirdParty: {
+		cardmarket: 274686
 	}
 }
 

@@ -85,6 +85,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il vole en cercle en quête d'une proie. Dès qu'il l'a repérée, il fond sur elle en un éclair."
+	},
+
+	thirdParty: {
+		cardmarket: 278222
 	}
 }
 

@@ -67,6 +67,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses feuilles au parfum agréable lui permettent de vérifier l'humidité et la température."
+	},
+
+	thirdParty: {
+		cardmarket: 274453
 	}
 }
 

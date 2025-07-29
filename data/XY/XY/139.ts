@@ -10,18 +10,16 @@ const card: Card = {
 		pt: "Energia de Metal",
 		de: "Metall-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Normal",
 
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 281476
+	}
 }
 
 export default card

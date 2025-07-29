@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Excadrill",
 		de: "Stalobor"
 	},
+
 	illustrator: "PLANETA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		530,
 	],
+
 	hp: 110,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Drilbur",
 		fr: "Rototaupe",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Drilbur",
 		de: "Rotomurf"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -102,22 +108,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 273627
+	}
 }
 
 export default card

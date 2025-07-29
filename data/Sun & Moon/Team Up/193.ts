@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Eletrocarregador",
 		de: "Elektro-Ladegerät"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez 2 pièces. Pour chaque côté face, mélangez une carte Électropuissance de votre pile de défausse avec votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Jogue 2 moedas. Para cada cara, embaralhe 1 carta Eletropoder da sua pilha de descarte no seu baralho.",
 		de: "Wirf 2 Münzen. Mische pro Kopf 1 Elektrokraft-Karte aus deinem Ablagestapel in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 369066
+	}
 }
 
 export default card

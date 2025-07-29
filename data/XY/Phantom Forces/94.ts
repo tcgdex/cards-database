@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Martelo Avançado",
 		de: "SpezialHammer"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez une Énergie spéciale attachée à l'un des Pokémon de votre adversaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Descarte uma Energia Especial ligada a 1 dos Pokémon do seu oponente.",
 		de: "Lege 1 an ein gegnerisches Pokémon angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281900
+	}
 }
 
 export default card

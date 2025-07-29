@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il est principalement composé d'un estomac dont les sucs digestifs dissolvent tout ce qu'il avale."
+	},
+
+	thirdParty: {
+		cardmarket: 278247
 	}
 }
 

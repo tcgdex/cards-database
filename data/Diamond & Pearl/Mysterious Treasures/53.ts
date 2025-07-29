@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il se nourrit du minéral de fer qu'il fore. Il défend son territoire en chargeant avec son corps d'acier."
+	},
+
+	thirdParty: {
+		cardmarket: 277682
 	}
 }
 

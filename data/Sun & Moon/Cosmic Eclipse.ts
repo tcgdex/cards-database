@@ -25,6 +25,10 @@ const sm12: Set = {
 	abbreviations: {
 		official: "CEC",
 		fr: "ECO"
+	},
+
+	thirdParty: {
+		cardmarket: 2644
 	}
 }
 

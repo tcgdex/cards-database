@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "La corne de la femelle grandit lentement. Elle préfère attaquer avec ses griffes et sa gueule."
+	},
+
+	thirdParty: {
+		cardmarket: 273837
 	}
 }
 

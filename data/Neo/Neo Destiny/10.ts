@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand il se bat, l'air autour de lui scintille et semble s'enflammer à cause de l'intense chaleur émanant de lui."
+	},
+
+	thirdParty: {
+		cardmarket: 274662
 	}
 }
 

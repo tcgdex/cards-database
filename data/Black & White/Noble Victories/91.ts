@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Eviolite",
 		de: "Evolith"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée est un Pokémon de base, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Se este card estiver ligado a um Pokémon Básico, qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
 		de: "Wenn das Pokémon, an das diese Karte angelegt ist, ein Basis-Pokémon ist, wird der diesem Pokémon durch Angriffe zugefügte Schaden um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 280214
+	}
 }
 
 export default card

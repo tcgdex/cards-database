@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Votre Pokémon actif n'est plus Endormi, Confus, Paralysé ou Empoisonné.",
 		de: "Dein aktives Pokémon ist nicht mehr schlafend, verwirrt, gelähmt oder vergiftet."
+	},
+
+	thirdParty: {
+		cardmarket: 273777
 	}
 }
 

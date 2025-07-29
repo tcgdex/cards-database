@@ -29,7 +29,11 @@ const card: Card = {
 		},
 
 		cost: ["Water"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 282534
+	}
 }
 
 export default card

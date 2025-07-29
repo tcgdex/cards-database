@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Excellent nageur, il pratique le crawl ou la nage papillon mieux qu'un champion olympique."
+	},
+
+	thirdParty: {
+		cardmarket: 273708
 	}
 }
 

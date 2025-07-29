@@ -7,28 +7,22 @@ const card: Card = {
 		fr: "Herbe sauveuse",
 		de: "Lebenskräuter"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c'est face, choisissez 1 de vos Pokémon et retirez-lui tous ses États Spéciaux ainsi que 6 marqueurs de dégât (retirez-les lui tous s'il en a moins de 6).",
 		de: "Flip a coin. If heads, choose 1 of your Pokémon, and remove all Special Conditions and 6 damage counters from that Pokémon (all if there are less than 6)."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 278529
+	}
 }
 
 export default card

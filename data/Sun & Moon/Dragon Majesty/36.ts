@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Dragonair",
 		de: "Dragonir"
 	},
+
 	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		148,
 	],
+
 	hp: 100,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Dratini",
 		fr: "Minidraco",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -84,8 +89,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 363508
+	}
 }
 
 export default card

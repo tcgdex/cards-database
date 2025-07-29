@@ -67,6 +67,10 @@ const card: Card = {
 
 	description: {
 		fr: "Une carapace d'insecte laissée à l'abandon. On dit qu'il vole l'âme de celui qui regarde à l'intérieur."
+	},
+
+	thirdParty: {
+		cardmarket: 278189
 	}
 }
 

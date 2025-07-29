@@ -25,6 +25,10 @@ const bw4: Set = {
 	abbreviations: {
 		official: "NEX",
 		fr: "DFU"
+	},
+
+	thirdParty: {
+		cardmarket: 1574
 	}
 }
 

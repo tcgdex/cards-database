@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Au fond de l'océan, il fait clignoter ses lumières constamment pour communiquer."
+	},
+
+	thirdParty: {
+		cardmarket: 274628
 	}
 }
 

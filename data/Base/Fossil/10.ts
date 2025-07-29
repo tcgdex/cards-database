@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon en voie d'extinction peut transporter des passagers sur son dos par-delà les océans."
+	},
+
+	thirdParty: {
+		cardmarket: 273871
 	}
 }
 

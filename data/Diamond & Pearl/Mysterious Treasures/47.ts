@@ -66,6 +66,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son nid est un véritable labyrinthe qu'il creuse à l'aide de sa queue. Il sait à peine voler."
+	},
+
+	thirdParty: {
+		cardmarket: 277676
 	}
 }
 

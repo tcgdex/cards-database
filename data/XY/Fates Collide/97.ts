@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bolsa de Energia",
 		de: "Energietasche"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée est mis K.O. par les dégâts d'une attaque de votre adversaire, placez toutes les Énergies de base lui étant attachées dans votre main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Se o Pokémon ao qual este card está ligado for Nocauteado por danos causados pelo ataque de um oponente, coloque todas as Energias básicas ligadas a aquele Pokémon em sua mão.",
 		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden eines gegnerischen Angriffs kampfunfähig wird, nimm alle an jenes Pokémon angelegten Basis-Energien auf deine Hand."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 289917
+	}
 }
 
 export default card

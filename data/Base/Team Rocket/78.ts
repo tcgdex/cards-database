@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Tous les Pouvoirs Pokémon cessent de fonctionner jusqu'à la fin du prochain tour de votre adversaire.",
 		de: "All Pokémon Powers stop working until end of your opponent's next turn."
+	},
+
+	thirdParty: {
+		cardmarket: 274131
 	}
 }
 

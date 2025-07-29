@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand il marche sur le sol, il recouvre son corps d'un film visqueux et empoisonné."
+	},
+
+	thirdParty: {
+		cardmarket: 274582
 	}
 }
 

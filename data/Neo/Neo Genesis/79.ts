@@ -61,6 +61,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il frotte sa truffe sur le sol pour trouver et déterrer sa nourriture. Il découvre parfois des sources d'eau chaude."
+	},
+
+	thirdParty: {
+		cardmarket: 274479
 	}
 }
 

@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Wormadam Trash Cloak",
 		de: "Burmadame Lumpenumhang"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		413,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Burmy Trash Cloak",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -56,22 +58,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278923
+	}
 }
 
 export default card

@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Parce qu'il stocke trop d'électricité, il développe des plaques où sa laine ne pousse plus."
+	},
+
+	thirdParty: {
+		cardmarket: 274434
 	}
 }
 

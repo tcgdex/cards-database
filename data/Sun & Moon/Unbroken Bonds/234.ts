@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Questa carta può essere assegnata solo a Pokémon Evoluzione. Se questa carta è assegnata a uno dei tuoi Pokémon, scartala alla fine del turno.\n\nQuesta carta fornisce Energia ColorlessColorlessColorless solo quando è assegnata a un Pokémon Evoluzione.\n\nScarta questa carta se è assegnata a un Pokémon che non è un Pokémon Evoluzione.",
 		pt: "Esta carta só pode ser ligada a Pokémon de Evolução. Se esta carta estiver ligada a 1 dos seus Pokémon, descarte-a no final da vez de jogar.\n\nEsta carta fornece Energia ColorlessColorlessColorless apenas enquanto estiver ligada a um Pokémon de Evolução.\n\nSe esta carta estiver ligada a um Pokémon que não seja um Pokémon de Evolução, descarte esta carta.",
 		de: "Diese Karte kann nur an Entwicklungs-Pokémon angelegt werden. Wenn diese Karte an 1 deiner Pokémon angelegt ist, lege sie am Ende des Zuges auf deinen Ablagestapel.\n\nDiese Karte liefert ColorlessColorlessColorless-Energie, aber nur solang sie an ein Entwicklungs-Pokémon angelegt ist.\n\nLege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Entwicklungs-Pokémon angelegt ist."
+	},
+
+	thirdParty: {
+		cardmarket: 372261
 	}
 }
 

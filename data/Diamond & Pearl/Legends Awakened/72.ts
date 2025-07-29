@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il avale tout en une bouchée. Ses follicules sécrètent des fluides toxiques qui endorment l'ennemi."
+	},
+
+	thirdParty: {
+		cardmarket: 278221
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Vila Pô",
 		de: "Po’u"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque fois qu’un joueur joue un Pokémon de sa main pour faire évoluer l’un de ses Pokémon, placez 3 marqueurs de dégâts sur ce Pokémon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Sempre que algum jogador jogar 1 Pokémon da própria mão para evoluir 1 dos próprios Pokémon, coloque 3 contadores de dano naquele Pokémon.",
 		de: "Lege jedes Mal, wenn ein Spieler 1 Pokémon aus seiner Hand spielt, um 1 seiner Pokémon zu entwickeln, 3 Schadensmarken auf jenes Pokémon."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 299521
+	}
 }
 
 export default card

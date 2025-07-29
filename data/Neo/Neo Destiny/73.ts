@@ -64,6 +64,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand il s'ennuie, ce Pokémon super fort s'entraîne en soulevant des rochers."
+	},
+
+	thirdParty: {
+		cardmarket: 274725
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Simisear",
 		de: "Grillchita"
 	},
+
 	illustrator: "sui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		514,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Pansear",
 		fr: "Flamajou",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Pansear",
 		de: "Grillmak"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -91,8 +96,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281360
+	}
 }
 
 export default card

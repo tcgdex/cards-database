@@ -10,19 +10,23 @@ const card: Card = {
 		pt: "Bisharp",
 		de: "Caesurio"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		625,
 	],
+
 	hp: 100,
+
 	types: [
 		"Darkness",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Pawniard",
 		fr: "Scalpion",
@@ -31,8 +35,8 @@ const card: Card = {
 		pt: "Pawniard",
 		de: "Gladiantri"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,22 +87,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 290991
+	}
 }
 
 export default card

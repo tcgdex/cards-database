@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il reste immobile dans sa toile pendant des jours, à l'affût d'une proie vulnérable."
+	},
+
+	thirdParty: {
+		cardmarket: 274475
 	}
 }
 

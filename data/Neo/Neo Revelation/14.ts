@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "On dit de lui qu'il est la réincarnation des vents boréals. Il peut instantanément purifier l'eau sale et boueuse."
+	},
+
+	thirdParty: {
+		cardmarket: 274600
 	}
 }
 

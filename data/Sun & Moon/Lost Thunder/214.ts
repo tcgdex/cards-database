@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Whitney",
 		de: "Bianka"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez une carte. Ensuite, piochez 2 cartes pour chaque autre Blanche dans votre pile de défausse.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Compre 1 carta. Em seguida, compre 2 cartas para cada uma das outras Whitney na sua pilha de descarte.",
 		de: "Ziehe 1 Karte. Ziehe anschließend 2 Karten für jede andere Bianka-Karte in deinem Ablagestapel."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 365826
+	}
 }
 
 export default card

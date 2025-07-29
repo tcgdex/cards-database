@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "On raconte que sa coquille est pleine de bonheur, qu'il partage avec tous ceux qui sont gentils avec lui."
+	},
+
+	thirdParty: {
+		cardmarket: 274708
 	}
 }
 

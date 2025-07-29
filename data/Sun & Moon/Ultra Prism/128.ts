@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Marte",
 		de: "Mars"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 2 cartes. Dans ce cas, défaussez au hasard une carte de la main de votre adversaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Compre 2 cartas. Se fizer isto, descarte 1 carta aleatória da mão do seu oponente.",
 		de: "Ziehe 2 Karten. Wenn du das machst, lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 316053
+	}
 }
 
 export default card

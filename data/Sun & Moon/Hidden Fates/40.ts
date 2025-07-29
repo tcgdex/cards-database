@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Clefable",
 		fr: "Mélodelfe",
 	},
+
 	illustrator: "sui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		36,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Clefairy",
 		fr: "Mélofée",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,22 +58,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 394667
+	}
 }
 
 export default card

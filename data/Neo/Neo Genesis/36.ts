@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce qui semble être de la bave est en fait un miel sucré. Il est très collant et adhère obstinément si on le touche."
+	},
+
+	thirdParty: {
+		cardmarket: 274436
 	}
 }
 

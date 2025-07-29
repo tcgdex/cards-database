@@ -66,6 +66,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa queue a sa vie propre. Elle réagit à ce qui l'entoure. Bon nombre de personnes ne se méfiant pas se sont fait mordre."
+	},
+
+	thirdParty: {
+		cardmarket: 274718
 	}
 }
 

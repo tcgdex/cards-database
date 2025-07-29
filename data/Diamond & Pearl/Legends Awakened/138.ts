@@ -30,7 +30,11 @@ const card: Card = {
 		effect: {
 			de: "Wenn Klauenfossil dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Klauenfossil dadurch kampfunfähig wird), lege 1 Schadensmarke auf das Angreifende Pokémon."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 278287
+	}
 }
 
 export default card

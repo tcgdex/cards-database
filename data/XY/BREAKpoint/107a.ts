@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Scarta la tua mano e pesca sette carte.",
 		pt: "Descarte sua mão e compre 7 cards.",
 		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten."
+	},
+
+	thirdParty: {
+		cardmarket: 288282
 	}
 }
 

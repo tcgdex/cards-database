@@ -61,6 +61,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il s'enterre dans les régions arides et désertiques. Il émerge seulement pour chasser."
+	},
+
+	thirdParty: {
+		cardmarket: 273757
 	}
 }
 

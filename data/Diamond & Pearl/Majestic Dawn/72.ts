@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Tiplouf",
 		de: "Plinfa"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		393,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
@@ -33,7 +36,6 @@ const card: Card = {
 			de: 'Wenn Plinfa vergiftet ist, entferne am Ende jedes Zuges den Speziellen Zustand \'vergiftet\' von Plinfa.'
 		}
 	},
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -62,8 +65,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278120
+	}
 }
 
 export default card

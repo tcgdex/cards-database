@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		fr: "Une fois sa cible en vue, il la charge furieusement en fouettant l'air de sa queue."
+	},
+
+	thirdParty: {
+		cardmarket: 273844
 	}
 }
 

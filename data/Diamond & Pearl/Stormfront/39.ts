@@ -87,6 +87,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit dans les jungles denses. Il saute de branche en branche pour approcher de sa proie."
+	},
+
+	thirdParty: {
+		cardmarket: 278337
 	}
 }
 

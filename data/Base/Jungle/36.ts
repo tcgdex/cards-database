@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement."
+	},
+
+	thirdParty: {
+		cardmarket: 273833
 	}
 }
 

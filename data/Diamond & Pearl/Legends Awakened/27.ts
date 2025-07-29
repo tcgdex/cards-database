@@ -52,6 +52,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il a la capacité de modifier sa structure cellulaire pour prendre l'apparence de ce qu'il voit."
+	},
+
+	thirdParty: {
+		cardmarket: 278176
 	}
 }
 

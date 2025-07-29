@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les nuages gorgés de pluie qui l'accompagnent lui permettent de lancer des éclairs à volonté. On raconte qu'il est issu de la foudre."
+	},
+
+	thirdParty: {
+		cardmarket: 274599
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia Perigoso",
 		de: "GefahrEnergie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ne peut être attachée qu'à un Pokémon Darkness. Cette carte ne fournit de l'Énergie Darkness que pendant qu'elle est attachée à un Pokémon Darkness.\n\nChaque fois que le Pokémon Darkness auquel cette carte est attachée est votre Pokémon Actif et qu'il subit les dégâts d'une attaque du Pokémon-EX de votre adversaire (même si le Pokémon est mis K.O.), placez 2 marqueurs de dégâts sur le Pokémon-EX Attaquant.\n\n(Si cette carte est attachée à autre chose qu'un Pokémon Darkness, défaussez cette carte.)",
@@ -35,7 +25,11 @@ const card: Card = {
 		de: "Diese Karte kann nur an Darkness-Pokémon angelegt werden. Diese Karte liefert nur dann Darkness-Energie, wenn sie an ein Darkness-Pokémon angelegt ist.\n\nLege jedes Mal 2 Schadensmarken auf das Angreifende Pokémon-EX, wenn das Darkness-Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und durch einen Angriff des Pokémon-EX deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird).\n\n(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Darkness-Pokémon angelegt ist.)"
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 284263
+	}
 }
 
 export default card

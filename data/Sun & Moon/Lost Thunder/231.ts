@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pegador Personalizado",
 		de: "Flexfänger"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous pouvez jouer 2 cartes Attrape-Perso à la fois.\n\n• Si vous avez joué une carte, piochez des cartes jusqu’à ce que vous ayez 3 cartes en main.\n• Si vous avez joué 2 cartes, échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. (Cet effet agit une fois pour 2 cartes.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Você pode jogar 2 cartas Pegador Personalizado de uma vez.\n\n• Se você jogou 1 carta, compre cartas até ter 3 cartas na sua mão.\n• Se você jogou 2 cartas, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a) (este efeito funciona uma vez para 2 cartas).",
 		de: "Du kannst 2 Flexfänger-Karten gleichzeitig spielen.\n\n• Wenn du 1 Karte gespielt hast, ziehe so lang Karten, bis du 3 Karten auf deiner Hand hast.\n• Wenn du 2 Karten gespielt hast, tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. (Dieser Effekt funktioniert einmal für 2 Karten.)"
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 365807
+	}
 }
 
 export default card

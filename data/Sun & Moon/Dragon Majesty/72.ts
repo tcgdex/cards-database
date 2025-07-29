@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Altaria GX",
 		de: "Altaria GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		334,
 	],
+
 	hp: 200,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton",
@@ -103,6 +107,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -112,8 +117,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 363512
+	}
 }
 
 export default card

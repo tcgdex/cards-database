@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Lélia",
 		de: "Hapu’u"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 6 cartes du dessus de votre deck, puis ajoutez 2 d’entre elles à votre main. Défaussez les autres cartes.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe as 6 primeiras cartas do seu baralho e coloque 2 delas na sua mão. Descarte as outras cartas.",
 		de: "Schau dir die obersten 6 Karten deines Decks an und nimm 2 von ihnen auf deine Hand. Lege die anderen Karten auf deinen Ablagestapel."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 388787
+	}
 }
 
 export default card

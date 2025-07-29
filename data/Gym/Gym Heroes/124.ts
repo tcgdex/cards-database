@@ -5,25 +5,15 @@ const card: Card = {
 	name: {
 		en: "Narrow Gym",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274260
+	}
 }
 
 export default card

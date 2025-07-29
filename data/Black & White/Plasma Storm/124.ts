@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Fragata de Plasma",
 		de: "Plasma-Fregatte"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chacun des Pokémon auquel de l’Énergie Plasma est attachée (les vôtres et ceux de votre adversaire) n’a pas de Faiblesse.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Qualquer Pokémon que possuir alguma Energia de Plasma ligada a ele (seu e do seu oponente) não terá Fraquezas.",
 		de: "Jedes Pokémon (deine und die deines Gegners), an dem Plasma-Energie angelegt ist, hat keine Schwäche."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 280864
+	}
 }
 
 export default card

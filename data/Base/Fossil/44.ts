@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses tentacules sont rétractés au repos. En situation de chasse, ils s'allongent."
+	},
+
+	thirdParty: {
+		cardmarket: 273905
 	}
 }
 

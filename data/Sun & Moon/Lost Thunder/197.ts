@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Virizion GX",
 		de: "Viridium GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		640,
 	],
+
 	hp: 170,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "GX",
 
@@ -96,6 +98,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -105,8 +108,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365674
+	}
 }
 
 export default card

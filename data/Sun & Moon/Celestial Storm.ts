@@ -25,6 +25,10 @@ const sm7: Set = {
 	abbreviations: {
 		official: "CES",
 		fr: "TCE"
+	},
+
+	thirdParty: {
+		cardmarket: 2320
 	}
 }
 

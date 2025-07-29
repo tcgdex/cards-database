@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon est entièrement recouvert de fourrure ininflammable. Il peut résister à n'importe quel type d'attaque par le feu."
+	},
+
+	thirdParty: {
+		cardmarket: 274446
 	}
 }
 

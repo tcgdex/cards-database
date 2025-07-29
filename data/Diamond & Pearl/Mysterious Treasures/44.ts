@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand il mord, il ne lâche pas prise avant que ses crocs se brisent. Ils repoussent par la suite."
+	},
+
+	thirdParty: {
+		cardmarket: 277673
 	}
 }
 

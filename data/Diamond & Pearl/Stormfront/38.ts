@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il ne peut pas vivre sans son légume, c'est pourquoi il le protégera au péril de sa vie."
+	},
+
+	thirdParty: {
+		cardmarket: 278336
 	}
 }
 

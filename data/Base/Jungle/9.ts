@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand il ne peut écraser sa proie avec sa pince, il la secoue et l'envoie dans les airs."
+	},
+
+	thirdParty: {
+		cardmarket: 273806
 	}
 }
 

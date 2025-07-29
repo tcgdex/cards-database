@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite."
+	},
+
+	thirdParty: {
+		cardmarket: 273897
 	}
 }
 

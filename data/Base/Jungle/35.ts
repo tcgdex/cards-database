@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "On raconte que si une de ses têtes se détache, elle se transforme en un Nœunœuf."
+	},
+
+	thirdParty: {
+		cardmarket: 273832
 	}
 }
 

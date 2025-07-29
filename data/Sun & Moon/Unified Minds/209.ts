@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Substituição de Aliados",
 		de: "Team-Wechsel"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Déplacez jusqu’à 2 Énergies de l’un de vos Pokémon ESCOUADE vers un autre de vos Pokémon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Mova até 2 Energias de 1 dos seus Pokémon ALIADOS para outro Pokémon seu.",
 		de: "Verschiebe bis zu 2 Energien von 1 deiner TAG TEAM Pokémon auf 1 anderes deiner Pokémon."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 388832
+	}
 }
 
 export default card

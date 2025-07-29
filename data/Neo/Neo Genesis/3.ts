@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il pullule sous les tropiques. Lorsqu'il danse, ses pétales se frottent en faisant un agréable son de cloches."
+	},
+
+	thirdParty: {
+		cardmarket: 274403
 	}
 }
 

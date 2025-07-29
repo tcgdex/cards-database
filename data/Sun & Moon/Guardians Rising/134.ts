@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Vikavolt GX",
 		de: "Donarion GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		738,
 	],
+
 	hp: 240,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Charjabug",
 		fr: "Chrysapile",
@@ -105,22 +109,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 297507
+	}
 }
 
 export default card

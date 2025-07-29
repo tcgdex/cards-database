@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Estádio de Combate",
 		de: "Kampfhalle"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les attaques de chaque Pokémon Fighting en jeu (les vôtres et ceux de votre adversaire) infligent 20 dégâts supplémentaires aux Pokémon-EX Défenseurs (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Os ataques de cada Pokémon Fighting em jogo (seus e do seu oponente) causam 20 de danos adicionais ao Pokémon -EX Defensor (antes da aplicação de Fraqueza e Resistência).",
 		de: "Die Angriffe jedes Fighting-Pokémon im Spiel (deiner und der deines Gegners)fügen dem Verteidigenden Pokémon-EX 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 281754
+	}
 }
 
 export default card

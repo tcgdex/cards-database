@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Trevo Perdido",
 		de: "Fehlendes Kleeblatt"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous pouvez jouer 4 cartes Trèfle Manquant à la fois.\n\n• Si vous avez joué une carte, regardez la carte du dessus de votre deck.\n• Si vous avez joué 4 cartes, récupérez une carte Récompense. (Cet effet agit une fois pour 4 cartes.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Você pode jogar 4 cartas Trevo Perdido de uma vez.\n\n• Se você jogou 1 carta, olhe a primeira carta do seu baralho.\n• Se você jogou 4 cartas, pegue 1 carta de Prêmio (este efeito funciona uma vez para 4 cartas).",
 		de: "Du kannst 4 Fehlendes Kleeblatt-Karten gleichzeitig spielen.\n\n• Wenn du 1 Karte gespielt hast, schau dir die oberste Karte deines Decks an.\n• Wenn du 4 Karten gespielt hast, nimm 1 Preiskarte. (Dieser Effekt funktioniert einmal für 4 Karten.)"
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 316054
+	}
 }
 
 export default card

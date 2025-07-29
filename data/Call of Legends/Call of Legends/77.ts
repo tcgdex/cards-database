@@ -15,6 +15,10 @@ const card: Card = {
 
 	effect: {
 		de: "Mische deine Handkarten in dein Deck. Zähle danach die Anzahl der Karten auf der Hand deines Gegners. Ziehe ebenso viele Karten."
+	},
+
+	thirdParty: {
+		cardmarket: 279720
 	}
 }
 

@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Bastiodon",
 	},
+
 	illustrator: undefined,
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		411,
 	],
+
 	hp: 120,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Shieldon",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -38,12 +42,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -51,9 +57,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 278855
+	}
 }
 
 export default card

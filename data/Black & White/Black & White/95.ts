@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Água Fresca",
 		de: "Hyperheiler"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Retirez tous les États Spéciaux de votre Pokémon Actif.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Remova todas as Condições Especiais do seu Pokémon Ativo.",
 		de: "Alle Speziellen Zustände auf deinem Aktiven Pokémon verlieren ihre Wirkung."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 279833
+	}
 }
 
 export default card

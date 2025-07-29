@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "On le trouve dans le coeur des volcans où il est très difficile à repérer. On compte très peu de captures de ce Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 273900
 	}
 }
 

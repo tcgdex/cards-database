@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Golurk",
 		de: "Golgantes"
 	},
+
 	illustrator: "PLANETA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		623,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Golett",
 		fr: "Gringolem",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Golett",
 		de: "Golbit"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -79,22 +83,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 281707
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Kirlia",
 		de: "Kirlia"
 	},
+
 	illustrator: "match",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		281,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Ralts",
 		fr: "Tarsal",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Ralts",
 		de: "Trasla"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,22 +79,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 284234
+	}
 }
 
 export default card

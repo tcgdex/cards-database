@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Lurantis GX",
 		de: "Mantidea GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		754,
 	],
+
 	hp: 210,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Fomantis",
 		fr: "Mimantis",
@@ -102,6 +106,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -111,8 +116,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 295322
+	}
 }
 
 export default card

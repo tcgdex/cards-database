@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il est très timide. Il a peur de se déplacer seul, mais il est très actif lorsqu'il est en groupe."
+	},
+
+	thirdParty: {
+		cardmarket: 274463
 	}
 }
 

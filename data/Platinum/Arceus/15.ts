@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Cherrim",
 		de: "Kinoso"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		421,
 	],
@@ -18,9 +19,11 @@ const card: Card = {
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Cherubi",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -36,6 +39,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,22 +58,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278887
+	}
 }
 
 export default card

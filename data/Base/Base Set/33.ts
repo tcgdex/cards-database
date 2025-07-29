@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Incapable de se déplacer de lui-même, il se défend en durcissant sa carapace."
+	},
+
+	thirdParty: {
+		cardmarket: 273728
 	}
 }
 

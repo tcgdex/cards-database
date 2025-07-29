@@ -68,6 +68,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il préfère les endroits chauds. En cas de pluie, de la vapeur se forme autour de sa queue."
+	},
+
+	thirdParty: {
+		cardmarket: 273741
 	}
 }
 

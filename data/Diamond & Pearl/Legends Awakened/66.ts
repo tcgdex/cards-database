@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il traque ses proies en groupe. Il ne désobéira jamais aux ordres d'un bon Dresseur."
+	},
+
+	thirdParty: {
+		cardmarket: 278215
 	}
 }
 

@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "On dit que chacune de ses neuf queues renferme un pouvoir magique différent."
+	},
+
+	thirdParty: {
+		cardmarket: 274702
 	}
 }
 

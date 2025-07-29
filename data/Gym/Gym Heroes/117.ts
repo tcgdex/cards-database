@@ -5,25 +5,15 @@ const card: Card = {
 	name: {
 		en: "Sabrina's ESP",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274253
+	}
 }
 
 export default card

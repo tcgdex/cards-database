@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Chaque joueur joue avec ses cartes Récompenses découvertes jusqu'à la fin de la partie.",
 		de: "Each player plays with his or her Prize cards face up for the rest of the game."
+	},
+
+	thirdParty: {
+		cardmarket: 274068
 	}
 }
 

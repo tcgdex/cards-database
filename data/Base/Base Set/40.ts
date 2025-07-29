@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Si ses moustaches sont coupées, il perd le sens de l'équilibre et devient moins rapide."
+	},
+
+	thirdParty: {
+		cardmarket: 273735
 	}
 }
 

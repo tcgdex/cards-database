@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon qui fonce à travers le monde. On raconte qu'il en naît un nouveau à chaque fois qu'un volcan apparaît à la surface de la Terre."
+	},
+
+	thirdParty: {
+		cardmarket: 274592
 	}
 }
 

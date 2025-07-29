@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Orvalho da Vida",
 		de: "Lebenstau"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée est mis K.O., votre adversaire récupère 1 carte Récompense de moins.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Se o Pokémon ao qual este card está ligado for Nocauteado, seu oponente levará 1 card de Prêmio a menos.",
 		de: "Wenn das Pokémon, an das diese Karte angelegt ist, kampfunfähig wird, darf dein Gegner dafür 1 Preiskarte weniger als üblich nehmen."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 280985
+	}
 }
 
 export default card

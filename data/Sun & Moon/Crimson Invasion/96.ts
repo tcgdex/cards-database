@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Samina",
 		de: "Samantha"
 	},
+
 	illustrator: "take",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Placez une combinaison de 2 cartes Supporter et cartes Stade de votre pile de défausse dans votre main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Coloque 2 cartas de Apoiador e de Estádio da sua pilha de descarte na sua mão em qualquer combinação.",
 		de: "Nimm eine beliebige Kombination aus 2 Unterstützer- und Stadionkarten aus deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 311943
+	}
 }
 
 export default card

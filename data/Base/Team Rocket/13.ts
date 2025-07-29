@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les autres Pokémon restent à l'écart des endroits où vivent les Rafflesia, peut être en raison du fort parfum de leur pollen."
+	},
+
+	thirdParty: {
+		cardmarket: 274066
 	}
 }
 

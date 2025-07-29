@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia de Contra-ataque",
 		de: "Konter-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Secret Rare",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte fournit de l’Énergie Colorless. \n\nS’il vous reste plus de cartes Récompense que votre adversaire et que cette carte est attachée à un Pokémon qui n’est pas un Pokémon-GX ou un Pokémon-EX, cette carte fournit tout type d’Énergie mais seulement 2 Énergies à la fois.",
@@ -35,7 +25,11 @@ const card: Card = {
 		de: "Diese Karte liefert Colorless-Energie.\n\nWenn du mehr verbleibende Preiskarten als dein Gegner hast und wenn diese Karte an ein Pokémon angelegt ist, das kein Pokémon-GX oder Pokémon-EX ist, liefert diese Karte jeden beliebigen Energietyp, aber immer nur jeweils 2 Energien."
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 311947
+	}
 }
 
 export default card

@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il contrôle la gravité pour pouvoir voler. Il attaque avec des Cages-Éclair."
+	},
+
+	thirdParty: {
+		cardmarket: 273748
 	}
 }
 

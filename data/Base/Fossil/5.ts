@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les nuits de pleine lune, il imite l'ombre des passants et se moque de leur effroi."
+	},
+
+	thirdParty: {
+		cardmarket: 273866
 	}
 }
 

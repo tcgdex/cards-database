@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il a une forme aérodynamique qui lui permet de nager à de grandes vitesses. Plus l'eau est froide, plus il est actif."
+	},
+
+	thirdParty: {
+		cardmarket: 274697
 	}
 }
 

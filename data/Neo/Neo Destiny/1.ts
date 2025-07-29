@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "La nuit, la pointe de sa queue est visible à des kilomètres à la ronde, même pour les bateaux qui naviguent au large."
+	},
+
+	thirdParty: {
+		cardmarket: 274653
 	}
 }
 

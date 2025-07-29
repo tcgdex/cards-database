@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il a un sens parfait de l'équilibre et peut donner des coups puissants dans n'importe quelle position."
+	},
+
+	thirdParty: {
+		cardmarket: 274694
 	}
 }
 

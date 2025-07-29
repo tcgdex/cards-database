@@ -7,25 +7,17 @@ const card: Card = {
 		fr: "Énergie Électrique",
 		de: "Elektroenergie"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 274509
+	}
 }
 
 export default card

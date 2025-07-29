@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia Arco-Íris",
 		de: "Regenbogen-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte fournit de l’Énergie Colorless. Tant que cette carte est en jeu, elle fournit n’importe quel type d’Énergie mais ne fournit qu’une Énergie à la fois. Lorsque vous attachez cette carte de votre main à l’un de vos Pokémon, placez 1 marqueur de dégâts sur ce Pokémon.",
@@ -35,7 +25,11 @@ const card: Card = {
 		de: "Diese Karte liefert Colorless-Energie. Ist sie im Spiel, zählt sie als jeder beliebige Energietyp, spendet aber immer nur jeweils 1 Energie. Wenn du diese Karte aus deiner Hand an 1 deiner Pokémon anlegst, lege 1 Schadensmarke auf jenes Pokémon."
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 361388
+	}
 }
 
 export default card

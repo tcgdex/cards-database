@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Pour traquer leur proie, ils se localisent mutuellement avec des aboiements compris par eux seuls."
+	},
+
+	thirdParty: {
+		cardmarket: 274516
 	}
 }
 

@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les bois courbés changent le flot d'air afin de créer un espace étrange où la réalité est déformée."
+	},
+
+	thirdParty: {
+		cardmarket: 274476
 	}
 }
 

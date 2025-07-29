@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Super Recolhida",
 		de: "Super-Anziehungskraft"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c'est face, placez l'un de vos Pokémon ainsi que toutes les cartes qui lui sont attachées dans votre main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Jogue uma moeda. Se sair cara, coloque 1 dos seus Pokémon e todas as cards ligadas a ele em sua mão.",
 		de: "Wirf 1 Münze. Nimm bei \"Kopf\" 1 deiner Pokémon und alle daran angelegten Karten zurück auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281764
+	}
 }
 
 export default card

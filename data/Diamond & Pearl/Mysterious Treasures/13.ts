@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son souffle a l'incroyable capacité de ranimer les plantes et les fleurs flétries."
+	},
+
+	thirdParty: {
+		cardmarket: 277642
 	}
 }
 

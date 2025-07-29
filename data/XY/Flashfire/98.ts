@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pá Travessa",
 		de: "Trickschaufel"
 	},
+
 	illustrator: "PLANETA",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez la carte du dessus du deck de l'un des joueurs. Vous pouvez défausser la carte regardée ou la remettre sur le dessus du deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe o card de cima do baralho de cada jogador. Você pode descartá-lo ou devolvê-lo para cima do baralho.",
 		de: "Schau dir die oberste Karte des Decks eines Spielers an. Du kannst diese Karte auf den Ablagestapel oder zurück auf das Deck legen."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281581
+	}
 }
 
 export default card

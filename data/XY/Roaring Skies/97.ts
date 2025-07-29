@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia Dragão Dupla",
 		de: "DoppelDrachenEnergie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ne peut être attachée qu'à un Pokémon Dragon. Cette carte fournit n'importe quel type d'Énergie, mais ne fournit que 2 Énergies à la fois, uniquement pendant qu'elle est attachée à un Pokémon Dragon.\n\n(Si cette carte est attachée à autre chose qu'un Pokémon Dragon, défaussez cette carte.)",
@@ -35,7 +25,11 @@ const card: Card = {
 		de: "Diese Karte kann nur an Dragon-Pokémon angelegt werden. Diese Karte liefert Energie jeden Typs, aber immer nur jeweils 2 Energien, wenn sie an ein Dragon-Pokémon angelegt ist.\n\n(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Dragon-Pokémon angelegt ist.)"
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 282765
+	}
 }
 
 export default card

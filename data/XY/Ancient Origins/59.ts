@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Sliggoo",
 		de: "Viscargot"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		705,
 	],
+
 	hp: 70,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Goomy",
 		fr: "Mucuscule",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Goomy",
 		de: "Viscora"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -74,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -83,8 +88,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 284240
+	}
 }
 
 export default card

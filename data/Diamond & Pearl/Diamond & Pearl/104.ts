@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il adore manger des feuilles. Si un Etourmi l'attaque, il riposte avec les piquants de son postérieur."
+	},
+
+	thirdParty: {
+		cardmarket: 277603
 	}
 }
 

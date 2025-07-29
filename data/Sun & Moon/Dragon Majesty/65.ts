@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Reshiram GX",
 		de: "Reshiram GX"
 	},
+
 	illustrator: "PLANETA Igarashi",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		643,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "GX",
 
@@ -102,6 +104,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -111,8 +114,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 363483
+	}
 }
 
 export default card

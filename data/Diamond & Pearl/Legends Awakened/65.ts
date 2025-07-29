@@ -88,6 +88,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il est formé de deux Terhal soudés. Son corps de fer résiste à un choc avec un avion à réaction."
+	},
+
+	thirdParty: {
+		cardmarket: 278213
 	}
 }
 

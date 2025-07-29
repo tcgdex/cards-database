@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Janine",
 		de: "Janina"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 4 cartes du dessus de votre deck, puis ajoutez 2 d’entre elles à votre main. Mélangez les autres cartes avec votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe as 4 primeiras cartas do seu baralho e coloque 2 delas na sua mão. Embaralhe as demais cartas de volta no seu baralho.",
 		de: "Schau dir die obersten 4 Karten deines Decks an und nimm 2 von ihnen auf deine Hand. Mische die anderen Karten zurück in dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 372461
+	}
 }
 
 export default card

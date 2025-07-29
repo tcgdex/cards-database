@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Mapa de Escavar Fósseis",
 		de: "Fossilausgrabungskarte"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez l’une de ces options :\n\n• Cherchez une carte Fossile Inconnu dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.\n• Ajoutez une carte Fossile Inconnu de votre pile de défausse à votre main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Escolha 1:\n\n• Procure por 1 carta de Fóssil Não Identificado no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.\n• Coloque 1 carta de Fóssil Não Identificado da sua pilha de descarte na sua mão.",
 		de: "Wähle 1 aus:\n\n•Durchsuche dein Deck nach 1 Unbekanntes Fossil-Karte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.\n•Nimm 1 Unbekanntes Fossil-Karte aus deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 355620
+	}
 }
 
 export default card

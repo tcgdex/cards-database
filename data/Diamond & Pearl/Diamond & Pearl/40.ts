@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ils vivent par groupe de 4 ou 5 en région froide et chassent de façon très organisée."
+	},
+
+	thirdParty: {
+		cardmarket: 277539
 	}
 }
 

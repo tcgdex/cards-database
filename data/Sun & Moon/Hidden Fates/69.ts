@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Moltres & Zapdos & Articuno GX",
 		fr: "Sulfura, Électhor et Artikodin-GX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		144,
 	],
+
 	hp: 300,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -52,22 +54,26 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 381222
+	}
 }
 
 export default card

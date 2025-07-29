@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Compart. Exp.",
 		de: "EP-Teiler"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lorsque votre Pokémon Actif est mis K.O. par les dégâts d’une attaque de votre adversaire, vous pouvez déplacer 1 carte d’Énergie de base de ce Pokémon vers le Pokémon auquel cette carte est attachée.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Quando o seu Pokémon Ativo é Nocauteado pelo dano de um ataque do seu oponente, você pode mover 1 carta de Energia básica daquele Pokémon para o Pokémon ao qual esta carta está ligada.",
 		de: "Wenn dein Aktives Pokémon durch den Schaden einer Attacke deines Gegners kampfunfähig wird, kannst du 1 an jenes Pokémon angelegte Basis-Energiekarte auf das Pokémon verschieben, an das diese Karte angelegt ist."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 295431
+	}
 }
 
 export default card

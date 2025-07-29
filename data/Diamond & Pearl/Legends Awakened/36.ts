@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps est fait de glace datant de l'ère glaciaire. Il contrôle un air gelé de -200 °C."
+	},
+
+	thirdParty: {
+		cardmarket: 278185
 	}
 }
 

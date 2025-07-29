@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Grovyle",
 		de: "Reptain"
 	},
+
 	illustrator: "Tomoaki Imakuni",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		253,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Treecko",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -53,22 +55,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278910
+	}
 }
 
 export default card

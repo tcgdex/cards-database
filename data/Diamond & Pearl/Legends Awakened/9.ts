@@ -90,6 +90,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses défenses spectaculaires sont glacées. Il a failli disparaître dans la canicule suivant l'ère glaciaire."
+	},
+
+	thirdParty: {
+		cardmarket: 278158
 	}
 }
 

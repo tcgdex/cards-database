@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Jumpluff",
 		de: "Papungha"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		189,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Skiploom",
 		fr: "Floravol",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Skiploom",
 		de: "Hubelupf"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -80,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -89,8 +94,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 291512
+	}
 }
 
 export default card

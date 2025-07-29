@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia de Reciclagem",
 		de: "Wiederverwertungsenergie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte fournit de l’Énergie Colorless.\n\nSi cette carte est défaussée du jeu, placez-la dans votre main plutôt que dans la pile de défausse.",
@@ -35,7 +25,11 @@ const card: Card = {
 		de: "Diese Karte liefert Colorless-Energie.\n\nWenn diese Karte aus dem Spiel genommen wird und auf deinen Ablagestapel gelegt würde, nimm sie stattdessen auf deine Hand."
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 388847
+	}
 }
 
 export default card

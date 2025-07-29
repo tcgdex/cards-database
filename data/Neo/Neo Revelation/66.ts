@@ -69,6 +69,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon faible et pathétique. Il lui arrive de temps en temps de parvenir à sauter assez haut, mais il ne monte jamais au-delà de 2m."
+	},
+
+	thirdParty: {
+		cardmarket: 274652
 	}
 }
 

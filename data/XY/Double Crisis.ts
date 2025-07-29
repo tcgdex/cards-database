@@ -22,6 +22,10 @@ const dc1: Set = {
 	abbreviations: {
 		official: "DCR",
 		fr: "DBD"
+	},
+
+	thirdParty: {
+		cardmarket: 1648
 	}
 }
 

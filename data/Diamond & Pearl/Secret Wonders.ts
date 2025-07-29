@@ -25,6 +25,10 @@ const dp3: Set = {
 	abbreviations: {
 		official: "SW",
 		fr: "MSQ"
+	},
+
+	thirdParty: {
+		cardmarket: 1557
 	}
 }
 

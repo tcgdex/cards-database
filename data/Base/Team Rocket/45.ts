@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon est capable de contrôler l'eau, il est de ce fait capable de créer des tourbillons géants."
+	},
+
+	thirdParty: {
+		cardmarket: 274098
 	}
 }
 

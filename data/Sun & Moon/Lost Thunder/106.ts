@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Nihilego",
 		de: "Anego"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		793,
 	],
+
 	hp: 110,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -72,6 +74,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -81,8 +84,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365743
+	}
 }
 
 export default card

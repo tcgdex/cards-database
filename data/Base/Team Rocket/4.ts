@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		fr: "Comme possédé, il crache du feu tel un volcan, essayant de brûler tout ce qu'il voit."
+	},
+
+	thirdParty: {
+		cardmarket: 274057
 	}
 }
 

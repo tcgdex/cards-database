@@ -68,6 +68,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde."
+	},
+
+	thirdParty: {
+		cardmarket: 273838
 	}
 }
 

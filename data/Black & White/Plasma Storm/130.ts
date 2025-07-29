@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Peça da Vitória",
 		de: "TriumVant"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si cette carte est attachée à Victini-EX, Victini-EX peut utiliser ses attaques indépendamment de la quantité ou du type d’Énergie qui lui est attachée.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Se este card estiver ligado a Victini-EX, Victini-EX poderá usar seus ataques independentemente da quantidade ou do tipo de Energia ligada a ele.",
 		de: "Wenn diese Karte an Victini-EX angelegt ist, kann Victini-EX seine Angriffe ungeachtet der Anzahl oder des Typs der angelegten Energien einsetzen."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 280870
+	}
 }
 
 export default card

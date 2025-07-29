@@ -61,6 +61,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il doit garder sa queue en contact avec le sol pour éviter toute électrocution."
+	},
+
+	thirdParty: {
+		cardmarket: 273875
 	}
 }
 

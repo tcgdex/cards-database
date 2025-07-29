@@ -68,6 +68,10 @@ const card: Card = {
 
 	description: {
 		fr: "Bien qu'il prétende être un arbre, il ressemble plus à un rock qu'à une plante."
+	},
+
+	thirdParty: {
+		cardmarket: 274477
 	}
 }
 

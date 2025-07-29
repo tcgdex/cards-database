@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Retirez tous les États spéciaux de votre Pokémon Actif.",
 		de: "Entferne alle Speziellen Zustände von deinem Aktiven Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 275029
 	}
 }
 

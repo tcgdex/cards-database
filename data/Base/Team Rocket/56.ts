@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un carnivore qui avale ses proies en entier. Roucool et Piafabec sont ses plats favoris."
+	},
+
+	thirdParty: {
+		cardmarket: 274109
 	}
 }
 

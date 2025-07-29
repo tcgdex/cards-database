@@ -24,6 +24,10 @@ const dp6: Set = {
 	abbreviations: {
 		official: "LA",
 		fr: "EDL"
+	},
+
+	thirdParty: {
+		cardmarket: 1560
 	}
 }
 

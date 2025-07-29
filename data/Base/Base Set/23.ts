@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon très recherché pour sa grâce légendaire. Son pas élégant semble glisser sur le vent."
+	},
+
+	thirdParty: {
+		cardmarket: 273718
 	}
 }
 

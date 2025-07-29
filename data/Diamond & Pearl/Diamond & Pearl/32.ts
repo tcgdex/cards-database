@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il a développé son sixième sens grâce au yoga. Ses mouvements sont gracieux."
+	},
+
+	thirdParty: {
+		cardmarket: 277531
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Tierno",
 		de: "Tierno"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 3 cartes.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Compre 3 cards.",
 		de: "Ziehe 3 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 288287
+	}
 }
 
 export default card

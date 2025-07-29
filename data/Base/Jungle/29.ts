@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les motifs ocres de ses ailes changent en fonction de son type de poison."
+	},
+
+	thirdParty: {
+		cardmarket: 273810
 	}
 }
 

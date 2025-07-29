@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les motifs féroces peints sur son corps changent selon son environnement."
+	},
+
+	thirdParty: {
+		cardmarket: 273892
 	}
 }
 

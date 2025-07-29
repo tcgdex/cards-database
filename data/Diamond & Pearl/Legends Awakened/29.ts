@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il dormait dans le magma souterrain depuis sa lutte féroce contre Kyogre, il a longtemps de cela."
+	},
+
+	thirdParty: {
+		cardmarket: 278178
 	}
 }
 

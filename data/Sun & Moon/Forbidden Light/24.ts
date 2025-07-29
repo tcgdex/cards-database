@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Greninja GX",
 		de: "Quajutsu GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		658,
 	],
+
 	hp: 230,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Frogadier",
 		fr: "Croâporal",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -100,6 +106,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -109,8 +116,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 355358
+	}
 }
 
 export default card

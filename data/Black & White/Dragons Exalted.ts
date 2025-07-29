@@ -25,6 +25,10 @@ const bw6: Set = {
 	abbreviations: {
 		official: "DRX",
 		fr: "DEX"
+	},
+
+	thirdParty: {
+		cardmarket: 1576
 	}
 }
 

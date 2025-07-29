@@ -25,6 +25,10 @@ const sm1: Set = {
 	abbreviations: {
 		official: "SUM",
 		fr: "S&L"
+	},
+
+	thirdParty: {
+		cardmarket: 1745
 	}
 }
 

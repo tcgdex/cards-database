@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "De nature libre et peu souciante, il se moque de perdre des fragments de pierre en roulant sur les pentes des montagnes."
+	},
+
+	thirdParty: {
+		cardmarket: 274616
 	}
 }
 

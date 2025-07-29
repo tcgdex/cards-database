@@ -14,6 +14,10 @@ const card: Card = {
 
 	effect: {
 		de: "Decke Karten aus deinem deck auf, bis du eine Entwicklungskarte aufdeckst. Zeige diese Karte deinem Gegner und nimm sie auf deine Hand. Mische die anderen aufgedeckten Karten in dein Deck. (Ist unter den aufgedeckten Karten keine Entwicklungskarte, mische alle aufgedeckten karten zurück in dein Deck.)"
+	},
+
+	thirdParty: {
+		cardmarket: 275382
 	}
 }
 

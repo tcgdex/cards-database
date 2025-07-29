@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son cœur bat dix fois plus vite que la normale, c'est pourquoi il ne tient pas en place."
+	},
+
+	thirdParty: {
+		cardmarket: 277697
 	}
 }
 

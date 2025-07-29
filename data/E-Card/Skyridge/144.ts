@@ -15,6 +15,10 @@ const card: Card = {
 
 	effect: {
 		de: "Diese Karte erzeugt  - Energie. Wenn du diese Karte aus deiner Hand spielst und an 1 deiner entwickelten Pokémon anlegst, kannst du bis zu 2 Schadensmarken von diesem Pokémon entfernen und dann seine oberste Karte auf deinen Ablagestapel legen. (Dies zählt als Rückentwicklung dieses Pokémon)"
+	},
+
+	thirdParty: {
+		cardmarket: 275402
 	}
 }
 

@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il crache un puissant jet d'eau pour abattre les proies volantes."
+	},
+
+	thirdParty: {
+		cardmarket: 277724
 	}
 }
 

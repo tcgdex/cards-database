@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il dresse sa queue pour observer les alentours. Parfois les éclairs frappent sa queue quand elle est en l'air."
+	},
+
+	thirdParty: {
+		cardmarket: 274470
 	}
 }
 

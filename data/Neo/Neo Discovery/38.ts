@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son ADN instable est affecté par son environnement. Il évolue en fonction des changements de son habitat."
+	},
+
+	thirdParty: {
+		cardmarket: 274549
 	}
 }
 

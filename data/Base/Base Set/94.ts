@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Retirez jusqu'à 2 marqueurs de dégâts d'1 de vos Pokémon.",
 		de: "Entferne bis zu 2 Schadensmarken von einem Deiner Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 273789
 	}
 }
 

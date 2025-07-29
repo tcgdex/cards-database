@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il balance sa longue trompe pour s'amuser, mais il est si fort que cela peut être dangereux."
+	},
+
+	thirdParty: {
+		cardmarket: 274443
 	}
 }
 

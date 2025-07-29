@@ -28,7 +28,11 @@ const card: Card = {
 		},
 
 		cost: ["Psychic"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 275208
+	}
 }
 
 export default card

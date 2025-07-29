@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Swellow",
 		de: "Schwalboss"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		277,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Taillow",
 		fr: "Nirondelle",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Taillow",
 		de: "Schwalbini"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,22 +87,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 282739
+	}
 }
 
 export default card

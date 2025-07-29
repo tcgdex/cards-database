@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Elo Espiritual de Manectric",
 		de: "Voltensos Geistesbund"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Votre tour ne se termine pas si le Pokémon auquel cette carte est attachée devient M-Élecsprint-EX.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Sua vez de jogar não terminará se o Pokémon ao qual este card está ligado tornar-se M-Manectric-EX.",
 		de: "Dein Zug endet nicht, wenn das Pokémon, an das diese Karte angelegt ist, zu M-Voltenso-EX wird."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 281907
+	}
 }
 
 export default card

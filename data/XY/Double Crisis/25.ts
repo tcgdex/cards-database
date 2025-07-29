@@ -6,28 +6,22 @@ const card: Card = {
 		en: "Team Aqua Admin",
 		fr: "Admin Team Aqua",
 	},
+
 	illustrator: "GAME FREAK inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Attachez une carte Énergie de base de votre pile de défausse à votre Pokémon Actif de la Team Aqua.",
 		en: "Attach a basic Energy card from your discard pile to your Active Team Aqua Pokémon."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 282536
+	}
 }
 
 export default card

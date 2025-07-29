@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Gume de Cristal",
 		de: "Kristallklinge"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si cette carte est attachée à Kyurem Blanc-EX, chacune de ses attaques inflige 50 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Se este card estiver ligado a Kyurem Branco-EX, cada um de seus ataques causará 50 de danos adicionais ao Pokémon Ativo (antes da aplicação de Fraqueza e Resistência) .",
 		de: "Wenn diese Karte an ein Weißes Kyurem-EX angelegt ist, fügen alle seine Angriffe den Aktiven Pokémon 50 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 280725
+	}
 }
 
 export default card

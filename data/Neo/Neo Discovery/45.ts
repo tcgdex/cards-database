@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa carapace est dure comme de la pierre, et elle le rend très fort. Ses coups peuvent renverser une montagne."
+	},
+
+	thirdParty: {
+		cardmarket: 274556
 	}
 }
 

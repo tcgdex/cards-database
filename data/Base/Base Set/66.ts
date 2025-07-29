@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps est recouvert de lianes similaires à des algues. Elles bougent quand il marche."
+	},
+
+	thirdParty: {
+		cardmarket: 273761
 	}
 }
 

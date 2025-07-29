@@ -60,6 +60,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il convertit la lumière solaire en énergie. Dans l'obscurité après le coucher du soleil, il ferme ses pétales et demeure immobile."
+	},
+
+	thirdParty: {
+		cardmarket: 274450
 	}
 }
 

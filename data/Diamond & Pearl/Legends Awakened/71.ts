@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un noyau rouge trône en son centre. Il envoie des signaux radio mystérieux vers le ciel nocturne."
+	},
+
+	thirdParty: {
+		cardmarket: 278220
 	}
 }
 

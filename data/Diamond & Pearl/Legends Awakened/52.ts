@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		fr: "La météo change brusquement lorsqu'il est entouré d'une aura. On dit qu'il peuple les mers et les lacs."
+	},
+
+	thirdParty: {
+		cardmarket: 278201
 	}
 }
 

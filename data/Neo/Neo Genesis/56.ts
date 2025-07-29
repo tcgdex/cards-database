@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il demeure habituellement courbé en avant. S'il est en colère ou surpris, il lance des flammes depuis son dos."
+	},
+
+	thirdParty: {
+		cardmarket: 274456
 	}
 }
 

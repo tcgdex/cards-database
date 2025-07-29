@@ -6,28 +6,22 @@ const card: Card = {
 		en: "Shauna",
 		fr: "Sannah",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
 		en: "Shuffle your hand into your deck. Then, draw 5 cards."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 288507
+	}
 }
 
 export default card

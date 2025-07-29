@@ -63,6 +63,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il accélère la vitesse à laquelle il pense en tournant sa tête à 180 degrés."
+	},
+
+	thirdParty: {
+		cardmarket: 274762
 	}
 }
 

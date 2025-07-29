@@ -24,6 +24,10 @@ const set: Set = {
 	abbreviations: {
 		official: "TEF",
 		fr: "FTP"
+	},
+
+	thirdParty: {
+		cardmarket: 5589
 	}
 }
 

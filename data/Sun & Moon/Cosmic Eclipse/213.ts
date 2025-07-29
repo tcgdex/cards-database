@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Volcarona GX",
 		de: "Ramoth GX"
 	},
+
 	illustrator: "PLANETA Tsuji",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		637,
 	],
+
 	hp: 210,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Larvesta",
 		fr: "Pyronille",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -98,6 +104,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -107,8 +114,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 407824
+	}
 }
 
 export default card

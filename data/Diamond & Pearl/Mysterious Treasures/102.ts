@@ -66,6 +66,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il gagne la côte en roulant sur les blocs de glace car sa morphologie n'est pas adaptée à la nage."
+	},
+
+	thirdParty: {
+		cardmarket: 277731
 	}
 }
 

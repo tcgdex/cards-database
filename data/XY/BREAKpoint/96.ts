@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Festa a Noite Toda",
 		de: "Durchfeiern"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Une seule fois pendant le tour de chaque joueur, si le Pokémon Actif de ce joueur est Endormi, il peut retirer cet État Spécial et soigner 30 dégâts au Pokémon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Uma vez durante a vez de jogar de cada jogador, se o Pokémon Ativo daquele jogador estiver Adormecido, o jogador pode remover aquela Condição Especial e curar 30 de danos daquele Pokémon.",
 		de: "Einmal während seines Zuges kann jeder Spieler, wenn sein Aktives Pokémon schläft, diesen Speziellen Zustand entfernen und 30 Schadenspunkte bei diesem Pokémon heilen."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 288271
+	}
 }
 
 export default card

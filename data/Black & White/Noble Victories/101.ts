@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "N",
 		de: "N"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque joueur mélange sa main avec son deck. Ensuite, chaque joueur pioche une carte pour chacune des cartes Récompense qu’il lui reste.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cada jogador embaralha sua mão em seu próprio baralho. Cada jogador então compra um card para cada um de seus cards de Prêmio restantes.",
 		de: "Jeder Spieler mischt seine Hand zurück in sein Deck. Anschließend zieht jeder Spieler eine Karte für jede seiner noch übrigen Preiskarten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 280215
+	}
 }
 
 export default card

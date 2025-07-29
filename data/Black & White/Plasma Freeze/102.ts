@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Tríade das Sombras",
 		de: "Finstrio"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Ajoutez une carte de la Team Plasma de votre pile de défausse à votre main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Coloque um card da Equipe Plasma da sua pilha de descarte em sua mão.",
 		de: "Nimm 1 Team-Plasma-Karte von deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 280980
+	}
 }
 
 export default card

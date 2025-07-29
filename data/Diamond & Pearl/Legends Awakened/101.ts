@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il combat en tournoyant comme une toupie. La force centrifuge décuple sa puissance destructrice."
+	},
+
+	thirdParty: {
+		cardmarket: 278250
 	}
 }
 

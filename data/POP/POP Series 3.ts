@@ -22,6 +22,10 @@ const pop3: Set = {
 	abbreviations: {
 		official: "P3",
 		fr: "P03"
+	},
+
+	thirdParty: {
+		cardmarket: 1615
 	}
 }
 

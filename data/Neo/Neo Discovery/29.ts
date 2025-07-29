@@ -88,6 +88,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il brandit ses pinces décorées d'yeux pour effrayer ses ennemis, qui ont l'impression qu'il a trois têtes."
+	},
+
+	thirdParty: {
+		cardmarket: 274521
 	}
 }
 

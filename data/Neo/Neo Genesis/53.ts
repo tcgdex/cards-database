@@ -66,6 +66,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un doux parfum s'élève des feuilles du sommet de sa tête. Il est doux et adore absorber les rayons du soleil."
+	},
+
+	thirdParty: {
+		cardmarket: 274453
 	}
 }
 

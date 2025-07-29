@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Bien qu'excellent nageur qui utilise tous ses muscles, il vit sur la terre ferme."
+	},
+
+	thirdParty: {
+		cardmarket: 274520
 	}
 }
 

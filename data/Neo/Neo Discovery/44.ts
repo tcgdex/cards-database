@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "La spirale sur son ventre ondule subtilement. A force de la regarder, on risque de s'assoupir."
+	},
+
+	thirdParty: {
+		cardmarket: 274555
 	}
 }
 

@@ -25,6 +25,10 @@ const hgss2: Set = {
 	abbreviations: {
 		official: "UL",
 		fr: "DCH"
+	},
+
+	thirdParty: {
+		cardmarket: 1567
 	}
 }
 

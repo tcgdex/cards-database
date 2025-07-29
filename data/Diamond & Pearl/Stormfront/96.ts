@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Noctunoir",
 		de: "Zwirrfinst"
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		477,
 	],
+
 	hp: 140,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		fr: "Noctunoir LV.X",
 	},
+
 	stage: "LEVEL-UP",
 
 	abilities: [
@@ -46,16 +51,19 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278299
+	}
 }
 
 export default card

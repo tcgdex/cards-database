@@ -69,6 +69,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il est né au milieu d'un volcan. Son corps est couvert de flammes qui flambent comme un soleil."
+	},
+
+	thirdParty: {
+		cardmarket: 277683
 	}
 }
 

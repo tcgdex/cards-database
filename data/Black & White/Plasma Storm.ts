@@ -24,6 +24,10 @@ const bw8: Set = {
 
 	abbreviations: {
 		official: "PLS"
+	},
+
+	thirdParty: {
+		cardmarket: 1578
 	}
 }
 

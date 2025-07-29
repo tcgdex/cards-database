@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Généralement, il est pacifique, mais il attaquera tous ceux qui s'interposeront entre lui et son miel, sa nourriture préférée."
+	},
+
+	thirdParty: {
+		cardmarket: 274693
 	}
 }
 

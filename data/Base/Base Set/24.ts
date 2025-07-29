@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "En agitant sa queue, il peut élever le niveau de la température à un degré incroyable."
+	},
+
+	thirdParty: {
+		cardmarket: 273719
 	}
 }
 

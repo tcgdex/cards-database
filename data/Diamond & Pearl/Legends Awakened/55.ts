@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion."
+	},
+
+	thirdParty: {
+		cardmarket: 278154
 	}
 }
 

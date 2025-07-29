@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Arceus, Dialga e Palkia GX",
 		de: "Arceus & Dialga & Palkia GX"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		483,
 	],
+
 	hp: 280,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -75,6 +77,7 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -84,8 +87,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 398469
+	}
 }
 
 export default card

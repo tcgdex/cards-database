@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Puoi giocare questa carta solo se il tuo avversario ha esattamente tre carte Premio rimanenti.\n\nPrevieni tutti i danni inflitti alle tue Ultracreature da qualsiasi attacco durante il prossimo turno del tuo avversario.",
 		pt: "Você só pode jogar esta carta se seu oponente tiver exatamente 3 cartas de Prêmio restantes.\n\nPrevenirá todo o dano causado às suas Ultracriaturas por ataques durante a próxima vez de jogar do seu oponente.",
 		de: "Du kannst diese Karte nur spielen, wenn dein Gegner genau 3 verbleibende Preiskarten hat.\n\nVerhindere allen Schaden, der deinen Ultrabestien während des nächsten Zuges deines Gegners durch Attacken zugefügt wird."
+	},
+
+	thirdParty: {
+		cardmarket: 365816
 	}
 }
 

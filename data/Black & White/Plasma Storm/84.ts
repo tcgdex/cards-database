@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Liepard",
 		de: "Kleoparda"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		510,
 	],
+
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Purrloin",
 		fr: "Chacripan",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -61,22 +65,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280824
+	}
 }
 
 export default card

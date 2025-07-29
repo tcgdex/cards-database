@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il utilise ses pouvoirs psychiques surdéveloppés pour vaincre ses ennemis avant qu'ils n'aient le temps de réfléchir."
+	},
+
+	thirdParty: {
+		cardmarket: 274761
 	}
 }
 

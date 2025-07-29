@@ -10,24 +10,30 @@ const card: Card = {
 		pt: "Vileplume GX",
 		de: "Giflor GX"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		45,
 	],
+
 	hp: 240,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Gloom",
 		fr: "Ortide",
 	},
+
 	stage: "Stage2",
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +55,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -100,6 +107,7 @@ const card: Card = {
 			damage: 50
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -109,8 +117,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 407674
+	}
 }
 
 export default card

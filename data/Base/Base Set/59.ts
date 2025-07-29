@@ -54,6 +54,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il court mal avec ses petites pattes. Il préfère nager que de se tenir debout."
+	},
+
+	thirdParty: {
+		cardmarket: 273754
 	}
 }
 

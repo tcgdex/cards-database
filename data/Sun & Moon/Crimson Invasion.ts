@@ -25,6 +25,10 @@ const sm4: Set = {
 	abbreviations: {
 		official: "CIN",
 		fr: "INC"
+	},
+
+	thirdParty: {
+		cardmarket: 1843
 	}
 }
 

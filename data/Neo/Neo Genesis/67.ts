@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Comme ses ailes ne sont pas complètement développées, il doit sauter pour se déplacer. Il observe toujours quelque chose."
+	},
+
+	thirdParty: {
+		cardmarket: 274467
 	}
 }
 

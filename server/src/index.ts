@@ -7,6 +7,7 @@ import { availableParallelism } from "node:os"
 import { Errors, sendError } from './libs/Errors'
 import status from './status'
 import * as Sentry from "@sentry/node"
+import { updateDatas } from './libs/providers/cardmarket'
 
 // Glitchtip will only start if the DSN is set :D
 Sentry.init({
@@ -44,6 +45,9 @@ if (cluster.isPrimary) {
 
 	// Current API version
 	const VERSION = 2
+
+	// fetch cardmarket data
+	await updateDatas()
 
 	// Init Express server
 	const server = express()

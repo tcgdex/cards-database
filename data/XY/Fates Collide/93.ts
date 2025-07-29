@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Colher Torcida",
 		de: "Verbogener Löffel"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Évitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés au Pokémon auquel cette carte est attachée. (Les effets déjà en action ne sont pas retirés.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Previne todos os efeitos dos ataques do seu oponente, exceto danos, causados ao Pokémon ao qual este card está ligado. (Efeitos existentes não são removidos.)",
 		de: "Verhindere alle Effekte von gegnerischen Angriffen, außer Schaden, die dem Pokémon, an das diese Karte angelegt ist, zugefügt werden. (Bestehende Effekte werden nicht entfernt.)"
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 289913
+	}
 }
 
 export default card

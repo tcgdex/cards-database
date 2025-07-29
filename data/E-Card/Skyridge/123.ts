@@ -14,6 +14,10 @@ const card: Card = {
 
 	effect: {
 		de: "Mische die Karte auf deiner Hand in dein Deck und ziehe bis zu 4 Karten. Dein Gegner geht genau so vor."
+	},
+
+	thirdParty: {
+		cardmarket: 275381
 	}
 }
 

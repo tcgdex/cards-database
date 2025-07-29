@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Omanyte",
 		de: "Amonitas"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		138,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Helix Fossil",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -65,8 +68,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278942
+	}
 }
 
 export default card

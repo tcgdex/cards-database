@@ -50,6 +50,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa douce laine capture l'air ambiant, ce qui lui permet de rester frais en été et chaud en hiver."
+	},
+
+	thirdParty: {
+		cardmarket: 274727
 	}
 }
 

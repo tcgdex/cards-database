@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Érica",
 		de: "Erika"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque joueur peut piocher jusqu’à 3 cartes. Vous piochez en premier.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cada jogador pode comprar até 3 cartas. Você compra primeiro.",
 		de: "Jeder Spieler kann bis zu 3 Karten ziehen. Du ziehst als Erster."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 408569
+	}
 }
 
 export default card

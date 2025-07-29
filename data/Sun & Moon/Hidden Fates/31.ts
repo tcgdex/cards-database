@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Mewtwo GX",
 		fr: "Mewtwo-GX",
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 180,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "GX",
 
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,8 +67,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 381234
+	}
 }
 
 export default card

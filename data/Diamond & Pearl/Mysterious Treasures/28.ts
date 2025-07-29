@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il libère l'électricité par sa crinière. Il crée un nuage d'orage pour appeler la foudre."
+	},
+
+	thirdParty: {
+		cardmarket: 277657
 	}
 }
 

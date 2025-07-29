@@ -25,6 +25,10 @@ const sm2: Set = {
 	abbreviations: {
 		official: "GRI",
 		fr: "GAS"
+	},
+
+	thirdParty: {
+		cardmarket: 1800
 	}
 }
 

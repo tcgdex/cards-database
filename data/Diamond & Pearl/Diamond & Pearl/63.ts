@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il s'accroche en enroulant sa soie autour des branches. Il reste immobile en attendant d'évoluer."
+	},
+
+	thirdParty: {
+		cardmarket: 277562
 	}
 }
 

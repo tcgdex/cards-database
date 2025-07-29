@@ -69,6 +69,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il a le pouvoir de voyager dans le temps. Cependant, on dit qu'il n'apparaît qu'en temps de paix."
+	},
+
+	thirdParty: {
+		cardmarket: 277636
 	}
 }
 

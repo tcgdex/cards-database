@@ -28,7 +28,11 @@ const card: Card = {
 		effect: {
 			de: "Durchsuche dein Deck nach 1 Karte, die sich aus 1 deiner Pokémon entwickelt, und lege sie auf dieses Pokémon. (Dies zählt als Entwickeln von diesem Pokémon.) Mische dein Deck danach."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 278285
+	}
 }
 
 export default card

@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il exprime ses émotions en modulant son cri. Ce Pokémon rusé chasse en meute pour abattre ses proies."
+	},
+
+	thirdParty: {
+		cardmarket: 278252
 	}
 }
 

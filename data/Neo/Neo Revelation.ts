@@ -23,6 +23,10 @@ const neo3: Set = {
 	abbreviations: {
 		official: "N3",
 		fr: "NRE"
+	},
+
+	thirdParty: {
+		cardmarket: 1533
 	}
 }
 

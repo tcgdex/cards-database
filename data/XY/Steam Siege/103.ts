@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Menino Ninja",
 		de: "Ninjajunge"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez l'un de vos Pokémon de base en jeu. Cherchez un Pokémon de base dans votre deck et échangez-le avec le Pokémon choisi. (Les cartes attachées, les marqueurs de dégâts, les États Spéciaux, le nombre de tours de jeu, et tous les autres effets restent sur le nouveau Pokémon.) Mélangez le premier Pokémon avec votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Escolha 1 dos seus Pokémon Básicos em jogo. Procure em seu baralho 1 Pokémon Básico e troque-o com aquele Pokémon. (Quaisquer cards ligados, contadores de danos, Condições Especiais, vezes em jogo e quaisquer outros efeitos permanecem no novo Pokémon.) Embaralhe o primeiro Pokémon de volta no seu baralho.",
 		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Durchsuche dein Deck nach 1 Basis-Pokémon und tausche es gegen jenes Pokémon aus. (Alle angelegten Karten sowie alle Schadensmarken, Speziellen Zustände, Spielzüge und alle anderen Effekte verbleiben auf dem neuen Pokémon.) Mische das erste Pokémon in dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 291481
+	}
 }
 
 export default card

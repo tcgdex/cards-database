@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa queue est si puissante qu'il peut s'en servir pour attraper une branche d'arbre et se suspendre en l'air."
+	},
+
+	thirdParty: {
+		cardmarket: 274426
 	}
 }
 

@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son pollen sent si fort qu'il s'étourdit parfois lui-même."
+	},
+
+	thirdParty: {
+		cardmarket: 274089
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Braço de Eco",
 		de: "ÖkoArm"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Mélangez 3 cartes Outil Pokémon de votre pile de défausse avec votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Embaralhe 3 cards de Ferramenta Pokémon da sua pilha de descarte no seu baralho.",
 		de: "Mische 3 Pokémon-Ausrüstungen aus deinem Ablagestapel in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 284252
+	}
 }
 
 export default card

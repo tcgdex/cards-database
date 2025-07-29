@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pincel Arco-íris",
 		de: "Regenbogenpinsel"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez une carte Énergie attachée à l’un de vos Pokémon. Cherchez une carte Énergie de base dans votre deck et échangez-la avec cette carte. Mélangez la première carte Énergie avec votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Escolha 1 carta de Energia que está ligada a 1 dos seus Pokémon. Procure por 1 carta de Energia básica no seu baralho e troque-a por aquela carta. Embaralhe a primeira carta de Energia no seu baralho.",
 		de: "Wähle 1 Energiekarte, die an 1 deiner Pokémon angelegt ist. Durchsuche dein Deck nach 1 Basis-Energiekarte und tausche sie gegen jene Karte aus. Mische die erste Energiekarte in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 361379
+	}
 }
 
 export default card

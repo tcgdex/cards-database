@@ -49,6 +49,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il déborde toujours d'énergie. Pour devenir plus fort, il continue de se battre même s'il perd."
+	},
+
+	thirdParty: {
+		cardmarket: 274577
 	}
 }
 

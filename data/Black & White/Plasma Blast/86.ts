@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Gatilho Reverso",
 		de: "Rückauslöser"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lorsque le Pokémon de la Team Plasma auquel cette carte est attachée est mis K.O. par les dégâts d’une attaque de votre adversaire, cherchez une carte dans votre deck puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Quando o Pokémon da Equipe Plasma que este card está ligado for Nocauteado por danos causados pelo ataque do oponente, procure um card em seu baralho e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
 		de: "Wenn das Team Plasma-Pokémon, an das diese Karte angelegt ist, durch Schaden eines gegnerischen Angriffs kampfunfähig wird, durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 281107
+	}
 }
 
 export default card

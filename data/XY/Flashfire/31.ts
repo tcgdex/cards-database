@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Avalugg",
 		de: "Arktilas"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		713,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Bergmite",
 		fr: "Grelaçon",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Bergmite",
 		de: "Arktip"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -86,6 +90,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -95,8 +100,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 281514
+	}
 }
 
 export default card

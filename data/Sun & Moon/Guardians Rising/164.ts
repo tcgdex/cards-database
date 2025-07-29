@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Poção Máxima",
 		de: "Top-Trank"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez tous les dégâts de l’un de vos Pokémon. Dans ce cas, défaussez toutes les Énergies attachées à ce Pokémon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cure todo o dano de 1 dos seus Pokémon. Se fizer isto, descarte todas as Energias ligadas àquele Pokémon.",
 		de: "Heile allen Schaden bei 1 deiner Pokémon. Wenn du das machst, lege alle Energien von jenem Pokémon auf deinen Ablagestapel."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 297580
+	}
 }
 
 export default card

@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Mime Jr.",
 		de: "Pantimimi"
 	},
+
 	illustrator: "Noriko Hotta",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		439,
 	],
+
 	hp: 30,
+
 	types: [
 		"Psychic",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -54,11 +58,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 279690
+	}
 }
 
 export default card

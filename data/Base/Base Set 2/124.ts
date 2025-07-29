@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Double Colorless Energy",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Special",
 
-
-
-
-
-
-
-
-
-
-
-
-
-energyType: "Special",
+	thirdParty: {
+		cardmarket: 274047
+	}
 }
 
 export default card

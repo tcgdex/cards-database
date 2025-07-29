@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cidade de Lavender",
 		de: "Lavandia"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Une seule fois pendant le tour de chaque joueur, ce joueur peut demander à son adversaire de dévoiler sa main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode fazer com que o oponente dele(a) revele a própria mão.",
 		de: "Einmal während des Zuges jedes Spielers kann der Spieler seinen Gegner dazu veranlassen, seine Handkarten zu zeigen."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 369073
+	}
 }
 
 export default card

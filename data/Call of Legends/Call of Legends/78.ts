@@ -15,6 +15,10 @@ const card: Card = {
 
 	effect: {
 		de: "Wirf 2 Münzen. Durchsuche pro \"Kopf\" dein Deck nach einer Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck, falls du nach Karten gesucht hast."
+	},
+
+	thirdParty: {
+		cardmarket: 279721
 	}
 }
 

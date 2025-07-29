@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Serperior",
 		de: "Serpiroyal"
 	},
+
 	illustrator: "You Iribi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		497,
 	],
+
 	hp: 140,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Servine",
 		fr: "Lianaja",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Servine",
 		de: "Efoserp"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -90,8 +95,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289833
+	}
 }
 
 export default card

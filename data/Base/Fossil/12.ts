@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "L'oiseau légendaire du feu. Une pluie de flammes surgit à chaque battement de ses ailes."
+	},
+
+	thirdParty: {
+		cardmarket: 273873
 	}
 }
 

@@ -60,6 +60,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il enduit son corps d'une substance visqueuse pour glisser et se libérer quand on l'agrippe."
+	},
+
+	thirdParty: {
+		cardmarket: 277701
 	}
 }
 

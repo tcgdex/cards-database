@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		fr: "À la fin de la saison des pluies, il sort danser en plein air, attiré par la chaleur du soleil."
+	},
+
+	thirdParty: {
+		cardmarket: 278169
 	}
 }
 

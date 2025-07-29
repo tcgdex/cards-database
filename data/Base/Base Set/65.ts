@@ -50,6 +50,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon bien curieux qui peut régénérer ses appendices sectionnés lors d'un combat."
+	},
+
+	thirdParty: {
+		cardmarket: 273760
 	}
 }
 

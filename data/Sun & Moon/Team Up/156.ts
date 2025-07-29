@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Floresta de Viridian",
 		de: "Vertania-Wald"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Une seule fois pendant le tour de chaque joueur, ce joueur peut défausser une carte de sa main. Dans ce cas, ce joueur cherche une carte Énergie de base dans son deck, la montre, puis l’ajoute à sa main. Ce joueur mélange ensuite son deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode descartar 1 carta da própria mão. Se fizer isto, aquele jogador irá procurar por 1 carta de Energia básica no próprio baralho, revelá-la e colocá-la na própria mão. Em seguida, aquele jogador embaralha o próprio baralho.",
 		de: "Einmal während des Zuges jedes Spielers kann der Spieler 1 Karte aus seiner Hand auf seinen Ablagestapel legen. Wenn er das macht, durchsucht jener Spieler sein Deck nach 1 Basis-Energiekarte, zeigt sie seinem Gegner und nimmt sie auf seine Hand. Anschließend mischt jener Spieler sein Deck."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 369081
+	}
 }
 
 export default card

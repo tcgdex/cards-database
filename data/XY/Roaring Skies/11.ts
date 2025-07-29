@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Shedinja",
 		de: "Ninjatom"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		292,
 	],
+
 	hp: 30,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Nincada",
 		fr: "Ningale",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Nincada",
 		de: "Nincada"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,11 +85,11 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 282679
+	}
 }
 
 export default card

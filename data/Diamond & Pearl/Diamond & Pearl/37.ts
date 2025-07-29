@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son estomac peut digérer n'importe quel type de nourriture, même quand elle est moisie ou pourrie."
+	},
+
+	thirdParty: {
+		cardmarket: 277536
 	}
 }
 

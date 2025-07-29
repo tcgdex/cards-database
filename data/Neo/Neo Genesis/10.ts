@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Le souffle de Meganium peut redonner vie aux plantes mortes."
+	},
+
+	thirdParty: {
+		cardmarket: 274410
 	}
 }
 

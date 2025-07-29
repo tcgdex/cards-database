@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les progrès de la technologie lui ont permis d'évoluer. Parfois, il affiche un comportement qui n'a pas été inclus dans sa programmation."
+	},
+
+	thirdParty: {
+		cardmarket: 274660
 	}
 }
 

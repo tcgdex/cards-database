@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il se tient dressé sur sa queue pour voir les ennemis arriver de loin. A ce moment, il avertit ses amis."
+	},
+
+	thirdParty: {
+		cardmarket: 274574
 	}
 }
 

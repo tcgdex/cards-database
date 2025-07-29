@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "On l'appelle \"jungle sur pattes\". Si une tête devient trop grosse, elle tombe et produit un NOEUNOEUF."
+	},
+
+	thirdParty: {
+		cardmarket: 278203
 	}
 }
 

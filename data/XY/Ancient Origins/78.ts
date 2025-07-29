@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Lysandre",
 		de: "Flordelis"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo desse oponente.",
 		de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 284259
+	}
 }
 
 export default card

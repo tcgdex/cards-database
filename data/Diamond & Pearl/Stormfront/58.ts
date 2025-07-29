@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon né de l'esprit des gens et des Pokémon. Il aime les saisons chaudes et humides."
+	},
+
+	thirdParty: {
+		cardmarket: 278297
 	}
 }
 

@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon est parfaitement adapté au milieu océanique. Il peut accumuler suffisamment de vitesse pour bondir hors de l'eau comme une baleine."
+	},
+
+	thirdParty: {
+		cardmarket: 274726
 	}
 }
 

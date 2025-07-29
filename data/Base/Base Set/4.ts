@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il peut fondre la roche de son souffle brûlant. Il est souvent la cause de nombreux incendies."
+	},
+
+	thirdParty: {
+		cardmarket: 273699
 	}
 }
 

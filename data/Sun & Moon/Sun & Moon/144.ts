@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Tauros GX",
 		de: "Tauros GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		128,
 	],
+
 	hp: 180,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "GX",
 
@@ -93,6 +95,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -102,8 +105,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 295412
+	}
 }
 
 export default card

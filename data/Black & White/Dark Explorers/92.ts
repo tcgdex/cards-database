@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Se questa carta è assegnata a un Pokémon Darkness, tutti gli attacchi di quel Pokémon infliggono 20 danni in più al Pokémon attivo, prima di aver applicato debolezza e resistenza,.",
 		pt: "Se este card estiver ligado a um Pokémon Darkness, cada um dos ataques desse Pokémon causará 20 de danos adicionais ao Pokémon Ativo (antes de aplicar Fraqueza e Resistência).",
 		de: "Wenn diese Karte an ein Darkness Pokémon angelegt ist, fügen alle Angriffe dieses Pokémon den Aktiven Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+	},
+
+	thirdParty: {
+		cardmarket: 280420
 	}
 }
 

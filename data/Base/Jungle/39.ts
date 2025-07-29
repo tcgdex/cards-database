@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		fr: "L'os qu'il tient dans sa main est une arme. Il peut le lancer avec adresse pour assommer sa proie."
+	},
+
+	thirdParty: {
+		cardmarket: 273836
 	}
 }
 

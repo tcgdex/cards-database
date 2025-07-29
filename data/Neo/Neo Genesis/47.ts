@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Prenez garde s'il vous tourne le dos pendant un combat : cela signifie qu'il va attaquer avec le feu de son dos."
+	},
+
+	thirdParty: {
+		cardmarket: 274446
 	}
 }
 

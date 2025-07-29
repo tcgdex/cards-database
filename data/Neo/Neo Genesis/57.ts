@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il est timide et se roule toujours en boule. Quand on l'attaque, il enflamme son dos pour se protéger."
+	},
+
+	thirdParty: {
+		cardmarket: 274456
 	}
 }
 

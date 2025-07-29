@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "La double extrémité de sa queue s'agite quand il utilise ses pouvoirs psychiques pour deviner quelle sera la prochaine action de son adversaire."
+	},
+
+	thirdParty: {
+		cardmarket: 274656
 	}
 }
 

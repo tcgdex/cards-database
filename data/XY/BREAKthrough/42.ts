@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Simipour",
 		de: "Sodachita"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		516,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Panpour",
 		fr: "Flotajou",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Panpour",
 		de: "Sodamak"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -90,8 +95,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286288
+	}
 }
 
 export default card

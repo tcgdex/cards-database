@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Pheromosa e Buzzwole GX",
 		de: "Schabelle & Masskito GX"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		794,
 	],
+
 	hp: 260,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -112,6 +114,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -121,8 +124,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 370785
+	}
 }
 
 export default card

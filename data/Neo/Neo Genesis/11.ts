@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les arômes qui s'élèvent de ses pétales contiennent des substances qui effacent les sentiments agressifs."
+	},
+
+	thirdParty: {
+		cardmarket: 274410
 	}
 }
 

@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il tire sa force de la lumière des étoiles. Plus il y en a et plus ses motifs dorsaux sont grands."
+	},
+
+	thirdParty: {
+		cardmarket: 278209
 	}
 }
 

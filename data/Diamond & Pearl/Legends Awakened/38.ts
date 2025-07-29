@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Tout son corps est fait de roche. S'il s'ébrèche au combat, il utilise des pierres pour le réparer."
+	},
+
+	thirdParty: {
+		cardmarket: 278187
 	}
 }
 

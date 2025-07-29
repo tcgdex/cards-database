@@ -26,6 +26,10 @@ const xy8: Set = {
 	abbreviations: {
 		official: "BKT",
 		fr: "IMP"
+	},
+
+	thirdParty: {
+		cardmarket: 1678
 	}
 }
 

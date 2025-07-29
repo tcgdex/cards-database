@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa mâchoire super développée est puissante et capable de broyer n'importe quoi. Même ses dresseurs doivent être prudents."
+	},
+
+	thirdParty: {
+		cardmarket: 274480
 	}
 }
 

@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Questa carta fornisce Energia Colorless.\n\nIl Pokémon a cui è assegnata questa carta non ha debolezza.",
 		pt: "Esta carta fornece Energia Colorless.\n\nO Pokémon ao qual esta carta está ligada não possui Fraqueza.",
 		de: "Diese Karte liefert Colorless-Energie.\n\nDas Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
+	},
+
+	thirdParty: {
+		cardmarket: 388852
 	}
 }
 

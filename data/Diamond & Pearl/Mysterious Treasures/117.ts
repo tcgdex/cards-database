@@ -29,7 +29,11 @@ const card: Card = {
 		effect: {
 			de: "Wenn Kopffossil im Zug deines Gegners durch Schaden eines Angriffs deines Gegners kampfunfähig würde, wirf 1 Münze, bis zum ersten Mal das Ergebnis 'Zahl' kommt. Lege für jedes Mal, wenn die Münze 'Kopf' gezeigt hat, 1 Schadensmarke auf das Angreifende Pokémon."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 277746
+	}
 }
 
 export default card

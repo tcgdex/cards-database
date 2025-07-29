@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pegador de Contra-ataque",
 		de: "Konterfänger"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "",
 		de: ""
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 311938
+	}
 }
 
 export default card

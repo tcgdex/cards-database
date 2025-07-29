@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il suit les Onix dans leurs tunnels, à la recherche des restes de nourriture qu'ils ont laissé derrière eux."
+	},
+
+	thirdParty: {
+		cardmarket: 274105
 	}
 }
 

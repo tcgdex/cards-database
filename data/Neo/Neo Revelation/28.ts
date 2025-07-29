@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son épaisse toison stocke l'électricité. Sa peau caoutchouteuse le sauve de l'électrocution."
+	},
+
+	thirdParty: {
+		cardmarket: 274614
 	}
 }
 

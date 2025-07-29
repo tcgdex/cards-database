@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pilar Celeste",
 		de: "Himmelturm"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Évitez tous les effets des attaques de votre adversaire, y compris les dégâts, infligés aux Pokémon de Banc (les vôtres et ceux de votre adversaire).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Previne todos os efeitos dos ataques do oponente, incluindo dano, causados aos Pokémon no Banco (seus e do seu oponente).",
 		de: "Verhindere alle Effekte von Attacken deines Gegners, einschließlich Schaden, die Pokémon auf der Bank (deiner und der deines Gegners) zugefügt werden."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 361382
+	}
 }
 
 export default card

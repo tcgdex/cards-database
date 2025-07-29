@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cristal Ancestral",
 		de: "Ewiger Kristall"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Regirock, Regice, Registeel ou Regigigas auquel cette carte est attachée subit 30 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "O Pokémon Regirock, Regice, Registeel ou Regigigas ao qual esta carta está ligada recebe 30 pontos de dano a menos dos ataques do seu oponente (após a aplicação de Fraqueza e Resistência).",
 		de: "Dem Regirock, Regice, Registeel oder Regigigas, an das diese Karte angelegt ist, werden durch Attacken des Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 316044
+	}
 }
 
 export default card

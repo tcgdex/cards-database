@@ -67,6 +67,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa température corporelle avoisine les 600°C. Son souffle est jaune quand il est en bonne santé."
+	},
+
+	thirdParty: {
+		cardmarket: 277717
 	}
 }
 

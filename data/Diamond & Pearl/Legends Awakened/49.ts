@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son aspect change avec la météo. On a récemment découvert que ses molécules étaient pareilles à l'eau."
+	},
+
+	thirdParty: {
+		cardmarket: 278198
 	}
 }
 

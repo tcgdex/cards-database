@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bola da Equipe Plasma",
 		de: "Team-Plasma-Ball"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez un Pokémon de la Team Plasma dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure um Pokémon da Equipe Plasma em seu baralho, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach 1 Team-Plasma-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280983
+	}
 }
 
 export default card

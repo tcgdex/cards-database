@@ -55,6 +55,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps, constitué de gaz toxiques et instables, peut exploser soudainement."
+	},
+
+	thirdParty: {
+		cardmarket: 273746
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bola Pesada",
 		de: "Schwerball"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez dans votre deck un Pokémon avec un coût de Retraite de 3 ou plus, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure em seu baralho um Pokémon com Custo para Recuar maior ou igual a 3, revele-o e coloque-o na sua mão. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach 1 Pokémon mit Rückzugskosten von 3 oder mehr, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280313
+	}
 }
 
 export default card

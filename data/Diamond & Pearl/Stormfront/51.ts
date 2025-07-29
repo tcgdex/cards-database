@@ -85,6 +85,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps est prisonnier d'une armure dure comme l'acier, mais il vole à plus de 300 km/h."
+	},
+
+	thirdParty: {
+		cardmarket: 278349
 	}
 }
 

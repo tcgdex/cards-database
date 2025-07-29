@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps invulnérable fut forgé par la pression souterraine durant des dizaines de milliers d'années."
+	},
+
+	thirdParty: {
+		cardmarket: 278188
 	}
 }
 

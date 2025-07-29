@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Corboss",
 		de: "Kramshef"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		430,
 	],
+
 	hp: 110,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "LEVEL-UP",
-
 
 	attacks: [
 		{
@@ -61,12 +63,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -74,9 +78,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 277885
+	}
 }
 
 export default card

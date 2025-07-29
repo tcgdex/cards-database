@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son langage comporte sept cris. Il les utilise pour faire vibrer l'air et projeter son ennemi."
+	},
+
+	thirdParty: {
+		cardmarket: 277651
 	}
 }
 

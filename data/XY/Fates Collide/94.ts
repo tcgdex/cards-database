@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Torre do Caos",
 		de: "Chaosturm"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez l'orientation de cette carte avant de la jouer. Les Pokémon de ce ↓ joueur ne peuvent être ni Endormis ni Paralysés. (Si ces Pokémon sont déjà Endormis ou Paralysés, retirez ces États Spéciaux.)\n\nLes Pokémon de ce ↓ joueur ne peuvent être ni Confus ni Empoisonnés. (Si ces Pokémon sont déjà Confus ou Empoisonnés, retirez ces États Spéciaux.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Escolha para onde este card ficará voltado antes de jogá-lo. O Pokémon deste jogador ↓ não pode ficar Adormecido ou Paralisado. (Se estes Pokémon já estiverem Adormecidos ou Paralisados, remova estas Condições Especiais.)\n\nO Pokémon deste jogador ↓ não pode ficar Confuso ou Envenenado. (Se estes Pokémon já estiverem Confusos ou Envenenados, remova estas Condições Especiais.)",
 		de: "Entscheide dich vor dem Spielen dieser Karte, auf welchen Spieler \"↓\" zeigen soll. Die Pokémon des angezeigten Spielers können nicht von Schlaf oder Paralyse betroffen werden. (Wenn diese Pokémon schon von Schlaf oder Paralyse betroffen sind, entferne verlieren diese Speziellen Zustände ihre Wirkung.)\n\nDie Pokémon des angezeigten Spielers können nicht von Verwirrung oder Vergiftung betroffen werden. (Wenn diese Pokémon schon von Verwirrung oder Vergiftung betroffen sind, verlieren diese Speziellen Zustände ihre Wirkung.)"
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 289914
+	}
 }
 
 export default card

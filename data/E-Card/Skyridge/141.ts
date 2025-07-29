@@ -14,6 +14,10 @@ const card: Card = {
 
 	effect: {
 		de: "Einmal während jedes Zugs eines Spielers kann dieser Spieler eine Amonitas- oder Kabuto-Karte aus seinem Ablagestapel auf seine Bank legen. (Karten, die auf diese Weise auf die Bank gelegt werden, gelten als Basis-Pokémon.)"
+	},
+
+	thirdParty: {
+		cardmarket: 275399
 	}
 }
 

@@ -79,6 +79,10 @@ export interface Set {
 	}>
 
 	releaseDate: ISODate | Languages<ISODate>
+
+	thirdParty?: {
+		cardmarket?: number
+	}
 }
 
 export interface Card {
@@ -301,6 +305,10 @@ export interface Card {
 	// Energy Only
 	energyType?: 'Normal' | // https://www.tcgdex.net/database/ecard/ecard1/160
 	'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
+
+	thirdParty?: {
+		cardmarket?: number
+	}
 }
 
 /**

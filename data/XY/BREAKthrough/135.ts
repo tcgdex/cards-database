@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Resgate de Colega",
 		de: "Vetternhilfe"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque joueur place un Pokémon de sa pile de défausse dans sa main. (Votre adversaire choisit en premier.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cada jogador coloca um Pokémon da sua pilha de descarte na sua mão. (Seu oponente escolhe primeiro.)",
 		de: "Jeder Spieler nimmt 1 Pokémon aus seinem Ablagestapel auf seine Hand. (Dein Gegner beginnt.)"
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 286381
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Gliscor",
 		de: "Skorgro"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		472,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Gligar",
 		fr: "Scorplane",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Gligar",
 		de: "Skorgla"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -84,8 +89,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 282705
+	}
 }
 
 export default card

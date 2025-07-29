@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Deux Smogo peuvent se combiner en un Smogogo en combinant leurs gaz."
+	},
+
+	thirdParty: {
+		cardmarket: 273906
 	}
 }
 

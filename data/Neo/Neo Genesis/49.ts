@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		fr: "La fleur du sommet de sa tête s'ouvre et se ferme en fonction des fluctuations de températures."
+	},
+
+	thirdParty: {
+		cardmarket: 274449
 	}
 }
 

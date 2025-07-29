@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il ne cesse de grandir et de changer de peau. La pointe de sa tête est très recherchée à cause de sa beauté."
+	},
+
+	thirdParty: {
+		cardmarket: 274548
 	}
 }
 

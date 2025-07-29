@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Omastar",
 		de: "Amoroso"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		139,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Omanyte",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -66,8 +69,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278895
+	}
 }
 
 export default card

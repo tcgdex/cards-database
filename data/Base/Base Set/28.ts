@@ -51,6 +51,10 @@ const card: Card = {
 
 	description: {
 		fr: "Pour protéger son territoire, il aboie et mord jusqu'à ce que les intrus s'enfuient."
+	},
+
+	thirdParty: {
+		cardmarket: 273723
 	}
 }
 

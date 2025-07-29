@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Whiscash",
 		de: "Welsar"
 	},
+
 	illustrator: "PLANETA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		340,
 	],
+
 	hp: 110,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Barboach",
 		fr: "Barloche",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Barboach",
 		de: "Schmerbe"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -99,6 +105,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -108,8 +115,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 273571
+	}
 }
 
 export default card

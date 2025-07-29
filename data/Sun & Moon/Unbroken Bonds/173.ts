@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cristal de Fogo",
 		de: "Feuerkristall"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Ajoutez 3 cartes Énergie Fire de votre pile de défausse à votre main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Coloque 3 cartas de Energia Fire da sua pilha de descarte na sua mão.",
 		de: "Nimm 3 Fire-Energiekarten aus deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 372458
+	}
 }
 
 export default card

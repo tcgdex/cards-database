@@ -64,6 +64,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il passe ses journées accroché aux falaises, attendant de fondre sur sa proie depuis son poste d'observation."
+	},
+
+	thirdParty: {
+		cardmarket: 274719
 	}
 }
 

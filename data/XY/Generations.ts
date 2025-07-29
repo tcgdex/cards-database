@@ -25,6 +25,10 @@ const g1: Set = {
 	abbreviations: {
 		official: "GEN",
 		fr: "GEN"
+	},
+
+	thirdParty: {
+		cardmarket: 1693
 	}
 }
 

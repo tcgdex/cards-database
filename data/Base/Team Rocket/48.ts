@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "De plus en plus de gens tentent leur chance au jackpot quotidiennement pour essayer de gagner un Porygon."
+	},
+
+	thirdParty: {
+		cardmarket: 274101
 	}
 }
 

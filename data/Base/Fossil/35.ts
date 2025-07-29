@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il nage avec élégance le long des côtes. Il est souvent confondu avec le monstre japonais: Kappa."
+	},
+
+	thirdParty: {
+		cardmarket: 273896
 	}
 }
 

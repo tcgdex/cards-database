@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un ancien fossile ramené à la vie, ce Pokémon utilise l'air conservé dans sa carapace pour plonger dans l'eau et refaire surface."
+	},
+
+	thirdParty: {
+		cardmarket: 274571
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Técnicos de Treinador",
 		de: "Trainercoach"
 	},
+
 	illustrator: "nagimiso",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 2 cartes. Si votre Pokémon Actif est un Pokémon ESCOUADE, piochez 2 cartes supplémentaires.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Compre 2 cartas. Se o seu Pokémon Ativo for um Pokémon ALIADOS, compre 2 cartas a mais.",
 		de: "Ziehe 2 Karten. Wenn dein Aktives Pokémon ein TAG TEAM Pokémon ist, ziehe 2 Karten mehr."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 388757
+	}
 }
 
 export default card

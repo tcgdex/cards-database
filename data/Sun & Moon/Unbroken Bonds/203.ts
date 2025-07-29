@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Lucario e Melmetal GX",
 		de: "Lucario & Melmetal GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		448,
 	],
+
 	hp: 260,
+
 	types: [
 		"Metal",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -92,22 +94,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 370789
+	}
 }
 
 export default card

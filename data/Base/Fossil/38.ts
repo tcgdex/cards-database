@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son énorme pince peut déployer une pression de 1000 Kg. Mais elle est très encombrante."
+	},
+
+	thirdParty: {
+		cardmarket: 273899
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Substituição",
 		de: "Tausch"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Échangez votre Pokémon Actif avec l'un de vos Pokémon de Banc.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Substitua seu Pokémon Ativo por 1 dos Pokémon do seu Banco.",
 		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 282759
+	}
 }
 
 export default card

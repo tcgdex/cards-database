@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Electivire",
 		de: "Elevoltek"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		466,
 	],
+
 	hp: 110,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Electabuzz",
 		fr: "Élektek",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Electabuzz",
 		de: "Elektek"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -70,6 +74,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -79,8 +84,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 288218
+	}
 }
 
 export default card

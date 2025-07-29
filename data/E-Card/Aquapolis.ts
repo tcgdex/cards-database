@@ -23,6 +23,10 @@ const ecard2: Set = {
 	abbreviations: {
 		official: "AQ",
 		fr: "AQU"
+	},
+
+	thirdParty: {
+		cardmarket: 1537
 	}
 }
 

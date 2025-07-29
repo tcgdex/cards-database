@@ -61,7 +61,11 @@ const card: Card = {
 		},
 
 		cost: ["Colorless", "Colorless"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 278114
+	}
 }
 
 export default card

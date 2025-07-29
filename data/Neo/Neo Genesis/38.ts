@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "La lumière qu'il produit est si brillante qu'elle atteint la surface de la mer depuis plus de 5 kilomètres de profondeur."
+	},
+
+	thirdParty: {
+		cardmarket: 274438
 	}
 }
 

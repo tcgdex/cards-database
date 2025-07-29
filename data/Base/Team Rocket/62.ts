@@ -61,6 +61,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon très apprécié gagne ses gages de son propriétaire grâce à sa faculté \"Jour de paye\"."
+	},
+
+	thirdParty: {
+		cardmarket: 274115
 	}
 }
 

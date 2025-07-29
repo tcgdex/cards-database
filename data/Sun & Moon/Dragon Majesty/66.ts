@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Kingdra GX",
 		de: "Seedraking GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		230,
 	],
+
 	hp: 230,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Seadra",
 		fr: "Hypocéan",
@@ -99,6 +103,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -108,8 +113,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 363490
+	}
 }
 
 export default card

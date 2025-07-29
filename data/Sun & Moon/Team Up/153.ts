@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Etiqueta de Retorno",
 		de: "Rücksendeetikett"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Placez une carte de la pile de défausse de votre adversaire en dessous de son deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Coloque 1 carta da pilha de descarte do seu oponente como a última carta do baralho dele(a).",
 		de: "Lege 1 Karte aus dem Ablagestapel deines Gegners unter sein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 369078
+	}
 }
 
 export default card

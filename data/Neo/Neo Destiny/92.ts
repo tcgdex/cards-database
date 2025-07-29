@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-vous de cette carte si une autre carte Stade arrive en jeu.\n\nChaque joueur paie  supplémentaire pour faire battre en retraite un Bébé Pokémon ou un Pokémon de base.",
 		de: "Each player pays  more to retreat a Baby Pokémon or Basic Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 274744
 	}
 }
 

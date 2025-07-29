@@ -6,21 +6,26 @@ const card: Card = {
 		en: "Wigglytuff",
 		de: "Knuddeluff"
 	},
+
 	illustrator: "Hizuki Misono",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		40,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Jigglypuff",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -36,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,12 +60,17 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
+	thirdParty: {
+		cardmarket: 275292
+	}
 }
 
 export default card

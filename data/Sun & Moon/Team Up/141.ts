@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Véspera",
 		de: "Soir"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si le Pokémon Actif de votre adversaire est un Pokémon de Niveau 1.\n\nPiochez 4 cartes.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se o Pokémon Ativo do seu oponente for um Pokémon Estágio 1.\n\nCompre 4 cartas.",
 		de: "Du kannst diese Karte nur spielen, wenn das Aktive Pokémon deines Gegners ein Phase-1-Pokémon ist.\n\nZiehe 4 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 369067
+	}
 }
 
 export default card

@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Swalot",
 		de: "Schlukwech"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		317,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gulpin",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -66,8 +69,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278881
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Coringa de Lysandre",
 		de: "Flordelis' Trumpfkarte"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque joueur mélange toutes les cartes de sa pile de défausse avec son deck (à part Atout de Lysandre).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cada jogador embaralha todos os cards da própria pilha de descarte em seu próprio baralho (exceto o Coringa de Lysandre).",
 		de: "Jeder Spieler mischt die Karten seines Ablagestapels zurück in sein Deck (außer Flordelis' Trumpfkarte)."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 281906
+	}
 }
 
 export default card

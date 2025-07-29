@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bola Isca",
 		de: "Köderball"
 	},
+
 	illustrator: "Katsura Tabata",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez 3 pièces. Pour chaque côté face, ajoutez un Pokémon Évolutif de votre pile de défausse à votre main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Jogue 3 moedas. Para cada cara, coloque 1 Pokémon de Evolução da sua pilha de descarte na sua mão.",
 		de: "Wirf 3 Münzen. Nimm pro Kopf 1 Entwicklungs-Pokémon aus deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 361376
+	}
 }
 
 export default card

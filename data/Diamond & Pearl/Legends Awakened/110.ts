@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son dos bosse renferme une lave bouillonnante. Elle refroidit par temps de pluie, ce qui le ralentit."
+	},
+
+	thirdParty: {
+		cardmarket: 278259
 	}
 }
 

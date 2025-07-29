@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cidade Desvanecida",
 		de: "Verblasstes Dorf"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "N'importe quand entre chaque tour, placez 2 marqueurs de dégâts sur chacun des Pokémon Méga-Évolution.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "A qualquer momento entre as vezes de jogar, coloque 2 contadores de danos em cada um dos Pokémon Megaevolução.",
 		de: "Lege zu einem beliebigen Zeitpunkt zwischen den Zügen 2 Schadensmarken auf jedes Mega-Entwicklungs-Pokémon."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 284254
+	}
 }
 
 export default card

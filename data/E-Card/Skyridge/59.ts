@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Gligar",
 		de: "Skorgla"
 	},
+
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		207,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 			damage: 10
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -61,10 +64,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275317
+	}
 }
 
 export default card

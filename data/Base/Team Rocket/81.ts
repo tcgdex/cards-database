@@ -16,6 +16,10 @@ const card: Card = {
 
 	effect: {
 		de: "If you play this card from your hand, the Pokémon your attach it to is no longer Asleep, Confused, Paralyzed, or Poisoned. Full Heal Energy provide  energy. (Doesn't count as a basic Energy card.)"
+	},
+
+	thirdParty: {
+		cardmarket: 274134
 	}
 }
 

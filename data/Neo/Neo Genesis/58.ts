@@ -66,6 +66,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa queue possède son propre cerveau. Prenez garde ! Si vous vous approchez, elle peut réagir à votre odeur et vous mordre."
+	},
+
+	thirdParty: {
+		cardmarket: 274458
 	}
 }
 

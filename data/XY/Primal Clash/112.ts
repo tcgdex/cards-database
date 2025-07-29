@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Linoone",
 		de: "Geradaks"
 	},
+
 	illustrator: "match",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		264,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Zigzagoon",
 		fr: "Zigzaton",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Zigzagoon",
 		de: "Zigzachs"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -91,8 +96,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273643
+	}
 }
 
 export default card

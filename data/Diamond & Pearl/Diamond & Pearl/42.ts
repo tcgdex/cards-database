@@ -69,6 +69,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il se muscle en bousculant ses semblables lors de mêlées. Il raffole des fruits sucrés."
+	},
+
+	thirdParty: {
+		cardmarket: 277541
 	}
 }
 

@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses cellules ont commencé à changer dans sa robuste coquille. Il la perd en évoluant."
+	},
+
+	thirdParty: {
+		cardmarket: 278348
 	}
 }
 

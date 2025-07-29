@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Terra Queimada",
 		de: "Verbrannte Erde"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Une seule fois pendant le tour de chaque joueur, ce joueur peut défausser une carte Énergie Fire ou Fighting de sa main. Dans ce cas, le joueur pioche 2 cartes.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Uma vez durante a vez de jogar de cada jogador, esse jogador pode descartar um card de Energia Fire ou Fighting da própria mão. Se fizer isso, esse jogador deverá comprar 2 cards.",
 		de: "Einmal während seines Zuges darf jeder Spieler 1 Fire- oder 1 Fighting-Energiekarte von seiner Hand auf seinen Ablagestapel legen. Wenn ein Spieler das tut, zieht er 2 Karten."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 289930
+	}
 }
 
 export default card

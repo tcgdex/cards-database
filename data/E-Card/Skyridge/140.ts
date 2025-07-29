@@ -14,6 +14,10 @@ const card: Card = {
 
 	effect: {
 		de: "Schaue dir die 4 untersten Karten deines Decks an. Nimm 2 dieser Karten auf deine Hand und lege die übrigen Karten in beliebiger Reihenfolge unter dein Deck zurück."
+	},
+
+	thirdParty: {
+		cardmarket: 275398
 	}
 }
 

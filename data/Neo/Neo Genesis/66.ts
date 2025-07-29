@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "L'extrémité de sa queue lui sert de bouée et lui évite de couler, même dans les courants les plus sournois."
+	},
+
+	thirdParty: {
+		cardmarket: 274466
 	}
 }
 

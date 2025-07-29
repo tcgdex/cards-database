@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Après avoir choisi sa cible, il fonce dessus tête baissée. Il est réputé pour sa nature violente."
+	},
+
+	thirdParty: {
+		cardmarket: 278223
 	}
 }
 

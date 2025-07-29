@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Whimsicott",
 		de: "Elfun"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		547,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Cottonee",
 		fr: "Doudouvet",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Cottonee",
 		de: "Waumboll"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -74,22 +78,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 284237
+	}
 }
 
 export default card

@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il poursuit assidûment sa proie, où qu'elle aille. Il n'abandonne sa traque qu'au lever du soleil."
+	},
+
+	thirdParty: {
+		cardmarket: 278298
 	}
 }
 

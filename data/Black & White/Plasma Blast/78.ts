@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Caitlin",
 		de: "Kattlea"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Placez autant de cartes de votre main que vous voulez en dessous de votre deck dans l’ordre de votre choix. Ensuite, piochez une carte pour chaque carte placée en dessous de votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Coloque quantos cards da sua mão quiser na base de seu baralho, em qualquer ordem. A seguir, compre um card para cada card descartado.",
 		de: "Lege beliebig viele Karten von deiner Hand in beliebiger Reihenfolge unter dein Deck. Ziehe anschließend 1 Karte für jede Karte, die du unter dein Deck gelegt hast."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 281099
+	}
 }
 
 export default card

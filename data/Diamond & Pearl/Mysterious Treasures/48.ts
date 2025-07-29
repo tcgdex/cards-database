@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Selon une croyance ancienne, on peut utiliser ses écailles pour guérir les maladies incurables."
+	},
+
+	thirdParty: {
+		cardmarket: 277677
 	}
 }
 

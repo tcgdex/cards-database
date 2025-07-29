@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Parasect",
 		de: "Parasek"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		47,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Paras",
 		fr: "Paras",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Paras",
 		de: "Paras"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -90,8 +95,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 286248
+	}
 }
 
 export default card

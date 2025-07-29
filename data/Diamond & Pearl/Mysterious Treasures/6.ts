@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "La découverte d'un de ces Pokémon sur un site de fouilles après 2 000 ans de sommeil a fait sensation."
+	},
+
+	thirdParty: {
+		cardmarket: 277635
 	}
 }
 

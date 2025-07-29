@@ -30,7 +30,11 @@ const card: Card = {
 		effect: {
 			de: "During your opponent's turn, if Skull Fossil would be Knocked Out by damage from an opponent's attack, flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pokémon."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 278541
+	}
 }
 
 export default card

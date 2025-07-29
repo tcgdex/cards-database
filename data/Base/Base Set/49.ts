@@ -68,6 +68,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il endort ses ennemis et dévore leurs songes. En mangeant de mauvais rêves, il devient malade."
+	},
+
+	thirdParty: {
+		cardmarket: 273744
 	}
 }
 

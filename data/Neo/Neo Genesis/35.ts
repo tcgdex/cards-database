@@ -85,6 +85,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il fait son nid de façon à pouvoir loger son corps mince. Les autres Pokémon ne peuvent pas rentrer dans le nid."
+	},
+
+	thirdParty: {
+		cardmarket: 274435
 	}
 }
 

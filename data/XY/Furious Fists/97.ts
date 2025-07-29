@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Anel de Montanhas",
 		de: "Gebirgsring"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Évitez tous les dégâts infligés à des Pokémon de Banc par des attaques (les vôtres et ceux de votre adversaire).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Previne todos os danos causados a Pokémon no Banco por ataques (seus e do seu oponente).",
 		de: "Verhindere allen Schaden, der Pokémon auf der Bank durch Angriffe zugefügt würde (deinen und denen deines Gegners)."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 281761
+	}
 }
 
 export default card

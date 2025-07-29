@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Zínia",
 		de: "Amalia"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si l’un de vos Pokémon a été mis K.O. pendant le dernier tour de votre adversaire.\n\nAttachez jusqu’à 2 cartes Énergie de base de votre main à l’un de vos Pokémon Dragon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se 1 dos seus Pokémon tiver sido Nocauteado durante a última vez de jogar do seu oponente.\n\nLigue até 2 cartas de Energia básica da sua mão a 1 dos seus Pokémon Dragon.",
 		de: "Du kannst diese Karte nur spielen, wenn 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\n\nLege bis zu 2 Basis-Energiekarten aus deiner Hand an 1 deiner Dragon-Pokémon an."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 363535
+	}
 }
 
 export default card

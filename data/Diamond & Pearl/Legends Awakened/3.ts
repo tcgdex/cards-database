@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Momartik gèle ses ennemis grâce à son souffle à -50°C. Ça ne se voit pas, mais son corps est creux."
+	},
+
+	thirdParty: {
+		cardmarket: 278152
 	}
 }
 

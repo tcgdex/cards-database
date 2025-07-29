@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pingente de Fada UC",
 		de: "Feenschmuck UB"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Évitez tous les dégâts infligés au Pokémon Fairy auquel cette carte est attachée par les attaques des Pokémon-GX Ultra-Chimères ou des Pokémon-EX Ultra-Chimères de votre adversaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Previne todo o dano causado ao Pokémon Fairy ao qual esta carta está ligada por ataques dos Pokémon-GX Ultracriaturas e Pokémon-EX Ultracriaturas do seu oponente.",
 		de: "Verhindere allen Schaden, der dem Fairy-Pokémon, an das diese Karte angelegt ist, durch Attacken von Ultrabestien-Pokémon-GX und Ultrabestien-Pokémon-EX deines Gegners zugefügt wird."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 369068
+	}
 }
 
 export default card

@@ -68,6 +68,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses coups sont super rapides, mais il ne peut se battre que pendant trois minutes avant qu'il ne soit fatigué et qu'il ne soit obligé de se reposer."
+	},
+
+	thirdParty: {
+		cardmarket: 274721
 	}
 }
 

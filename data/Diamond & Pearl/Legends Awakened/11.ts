@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon conçu en réorganisant les gènes de Mew. On raconte qu'il s'agit du Pokémon le plus féroce."
+	},
+
+	thirdParty: {
+		cardmarket: 278160
 	}
 }
 

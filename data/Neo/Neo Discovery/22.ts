@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Si vous vous laissez ensorceler par l'élégance de ses coups de pieds, vous risquez de vous faire perforer."
+	},
+
+	thirdParty: {
+		cardmarket: 274514
 	}
 }
 

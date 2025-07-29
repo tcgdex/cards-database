@@ -10,18 +10,16 @@ const card: Card = {
 		pt: "Energia Psíquica",
 		de: "Psycho-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Normal",
 
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 281473
+	}
 }
 
 export default card

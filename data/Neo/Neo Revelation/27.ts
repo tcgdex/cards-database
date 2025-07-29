@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon qui court de par le monde. On raconte que les vents du Nord se mettent à souffler quand il apparaît."
+	},
+
+	thirdParty: {
+		cardmarket: 274600
 	}
 }
 

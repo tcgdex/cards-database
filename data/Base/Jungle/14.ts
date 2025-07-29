@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit en colonie dans la jungle mais personne n'en est jamais revenu vivant."
+	},
+
+	thirdParty: {
+		cardmarket: 273811
 	}
 }
 

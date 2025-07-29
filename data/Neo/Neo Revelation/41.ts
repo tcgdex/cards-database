@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit à la cime des arbres. Quand il saute de branche en branche, il utilise habilement sa queue pour assurer son équilibre."
+	},
+
+	thirdParty: {
+		cardmarket: 274627
 	}
 }
 

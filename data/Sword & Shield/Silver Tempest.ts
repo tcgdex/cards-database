@@ -24,6 +24,10 @@ const set: Set = {
 	abbreviations: {
 		official: "SIT",
 		fr: "TAR"
+	},
+
+	thirdParty: {
+		cardmarket: 5142
 	}
 }
 

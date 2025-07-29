@@ -68,6 +68,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il ne dort jamais. Il doit bouger sans cesse sinon son corps de magma refroidirait et durcirait."
+	},
+
+	thirdParty: {
+		cardmarket: 274639
 	}
 }
 

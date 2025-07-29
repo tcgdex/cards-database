@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses muscles surpuissants lui permettent de se déplacer très vite et ce, malgré sa forte corpulence."
+	},
+
+	thirdParty: {
+		cardmarket: 274657
 	}
 }
 

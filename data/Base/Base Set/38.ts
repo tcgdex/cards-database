@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Amphibie, il peut vivre à l'air libre mais il doit rester mouillé pour survivre."
+	},
+
+	thirdParty: {
+		cardmarket: 273733
 	}
 }
 

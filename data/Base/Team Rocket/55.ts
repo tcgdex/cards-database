@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "On ne sait pas grand chose sur ce Pokémon rare et unique, car très peu ont été capturés."
+	},
+
+	thirdParty: {
+		cardmarket: 274108
 	}
 }
 

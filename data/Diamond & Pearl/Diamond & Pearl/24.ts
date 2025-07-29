@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il somnole la journée et s'envole en grands groupes le soir venu. Nul ne sait où ils vont."
+	},
+
+	thirdParty: {
+		cardmarket: 277523
 	}
 }
 

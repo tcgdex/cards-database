@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon antique possédait 10 tentacules, qu'il utilisait pour nager dans l'océan."
+	},
+
+	thirdParty: {
+		cardmarket: 274689
 	}
 }
 

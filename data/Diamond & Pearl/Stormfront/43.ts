@@ -88,6 +88,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il est formé de trois MAGNETI liés par magnétisme. En groupe, ils déclenchent un orage magnétique"
+	},
+
+	thirdParty: {
+		cardmarket: 278340
 	}
 }
 

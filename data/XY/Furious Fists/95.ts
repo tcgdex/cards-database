@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Korrina",
 		de: "Connie"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez un Pokémon Fighting et une carte Objet dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure em seu deck um Pokémon Fighting e um card de Item, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach 1 Fighting-Pokémon und 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 281759
+	}
 }
 
 export default card

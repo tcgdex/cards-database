@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Capacete da Escolha",
 		de: "Wahlhelm"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Pokémon auquel cette carte est attachée subit 30 dégâts de moins provenant des attaques des Pokémon-GX et des Pokémon-EX de votre adversaire (après application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "O Pokémon ao qual esta carta está ligada recebe 30 pontos de dano a menos dos ataques dos Pokémon-GX e Pokémon-EX do seu oponente (após a aplicação de Fraqueza e Resistência).",
 		de: "Dem Pokémon, an das diese Karte angelegt ist, werden durch Attacken der Pokémon-GX und Pokémon-EX deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 365805
+	}
 }
 
 export default card

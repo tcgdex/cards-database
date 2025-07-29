@@ -26,6 +26,10 @@ const base1: Set = {
 	abbreviations: {
 		official: "BS",
 		fr: "BAS"
+	},
+
+	thirdParty: {
+		cardmarket: 1523
 	}
 }
 

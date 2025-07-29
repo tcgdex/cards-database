@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Juiz",
 		de: "Richter"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque joueur mélange sa main avec son deck, puis pioche 4 cartes.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cada jogador embaralha sua mão em seu baralho e compra 4 cards.",
 		de: "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 286389
+	}
 }
 
 export default card

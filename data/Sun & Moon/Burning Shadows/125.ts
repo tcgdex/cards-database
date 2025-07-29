@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Spray Atormentador",
 		de: "Quälendes Spray"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez une carte au hasard de la main de votre adversaire. Votre adversaire vous montre cette carte. Si c’est une carte Supporter, défaussez-la.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Escolha 1 carta aleatória da mão do seu oponente. Seu oponente revela aquela carta. Se for uma carta de Apoiador, descarte-a.",
 		de: "Wähle 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt dir jene Karte. Wenn es eine Unterstützerkarte ist, lege sie auf seinen Ablagestapel."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 299525
+	}
 }
 
 export default card

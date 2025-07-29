@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa coquille est très solide. Elle lui permet de survivre même si elle est fissurée."
+	},
+
+	thirdParty: {
+		cardmarket: 274716
 	}
 }
 

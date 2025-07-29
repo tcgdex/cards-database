@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "Cette version améliorée de Porygon est conçue pour l'exploration spatiale. Cependant, elle ne peut pas voler."
+	},
+
+	thirdParty: {
+		cardmarket: 274598
 	}
 }
 

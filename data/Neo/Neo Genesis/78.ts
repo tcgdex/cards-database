@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il tombe parfois du ciel sans prévenir. Quand un Piafabec l'attaque, il secoue violemment ses feuilles."
+	},
+
+	thirdParty: {
+		cardmarket: 274478
 	}
 }
 

@@ -61,6 +61,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon très prudent, il se dresse sur sa queue pour avoir une meilleure vue des alentours."
+	},
+
+	thirdParty: {
+		cardmarket: 274471
 	}
 }
 

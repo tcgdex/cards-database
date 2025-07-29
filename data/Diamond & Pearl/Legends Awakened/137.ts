@@ -28,7 +28,11 @@ const card: Card = {
 		effect: {
 			de: "Wähle 1 entwickeltes Pokémon deines Gegners (außer Pokémon LV.X). Entferne die höchste Evolutionskarte vom gewählten Pokémon, dein Gegner nimmt diese Karte auf seine Hand zurück."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 278286
+	}
 }
 
 export default card

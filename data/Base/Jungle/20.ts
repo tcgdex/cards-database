@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il se charge d'électricité statique pour envoyer des décharges de 10000 volts."
+	},
+
+	thirdParty: {
+		cardmarket: 273801
 	}
 }
 

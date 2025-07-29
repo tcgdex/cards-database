@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Mr. Mime GX",
 		de: "Pantimos GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		122,
 	],
+
 	hp: 150,
+
 	types: [
 		"Psychic",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -94,11 +98,11 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 360409
+	}
 }
 
 export default card

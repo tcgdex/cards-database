@@ -70,6 +70,10 @@ const card: Card = {
 
 	variants: {
 		wPromo: true
+	},
+
+	thirdParty: {
+		cardmarket: 273870
 	}
 }
 

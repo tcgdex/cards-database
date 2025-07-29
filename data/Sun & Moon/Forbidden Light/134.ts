@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Naganadel GX",
 		de: "Agoyon GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		804,
 	],
+
 	hp: 210,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Poipole",
 		fr: "Vémini",
@@ -103,6 +107,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -112,8 +117,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 319907
+	}
 }
 
 export default card

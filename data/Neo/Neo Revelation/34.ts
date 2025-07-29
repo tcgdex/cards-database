@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il attrape ses ennemis avec les ventouses de ses tentacules et les écrase d'un coup de sa tête dure."
+	},
+
+	thirdParty: {
+		cardmarket: 274620
 	}
 }
 

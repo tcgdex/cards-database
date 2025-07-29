@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il se téléporte hors du danger, rendant sa capture difficile."
+	},
+
+	thirdParty: {
+		cardmarket: 274102
 	}
 }
 

@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Decidueye GX",
 		de: "Silvarro GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		724,
 	],
+
 	hp: 240,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Dartrix",
 		fr: "Efflèche",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -91,6 +97,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -100,8 +107,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 295319
+	}
 }
 
 export default card

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Rhinastoc",
 		de: "Rihornior"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		464,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "LEVEL-UP",
-
 
 	attacks: [
 		{
@@ -59,22 +61,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 278294
+	}
 }
 
 export default card

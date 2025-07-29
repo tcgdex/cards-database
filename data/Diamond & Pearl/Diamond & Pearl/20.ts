@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il construit des barrages de boue et d'écorce le long des fleuves. C'est un ouvrier de renom."
+	},
+
+	thirdParty: {
+		cardmarket: 277519
 	}
 }
 

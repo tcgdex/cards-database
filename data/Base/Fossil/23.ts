@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "En fixant son adversaire, il l'assaille avec les attaques Psy Hypnose et Convulsion."
+	},
+
+	thirdParty: {
+		cardmarket: 273869
 	}
 }
 

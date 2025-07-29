@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Questa carta fornisce Energia Colorless.\n\nSe questa carta viene scartata dal gioco, aggiungila a quelle che hai in mano invece che alla pila degli scarti.",
 		pt: "Esta carta fornece Energia Colorless.\n\nSe esta carta for descartada do jogo, coloque-a na sua mão ao invés de colocá-la na pilha de descarte.",
 		de: "Diese Karte liefert Colorless-Energie.\n\nWenn diese Karte aus dem Spiel genommen wird und auf deinen Ablagestapel gelegt würde, nimm sie stattdessen auf deine Hand."
+	},
+
+	thirdParty: {
+		cardmarket: 388847
 	}
 }
 

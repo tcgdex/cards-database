@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Quilava",
 		de: "Igelavar"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		156,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Cyndaquil",
 		fr: "Héricendre",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Cyndaquil",
 		de: "Feurigel"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -68,8 +73,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286265
+	}
 }
 
 export default card

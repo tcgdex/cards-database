@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon gazeux plonge ses victimes dans un profond sommeil sans qu'elles s'en aperçoivent."
+	},
+
+	thirdParty: {
+		cardmarket: 273745
 	}
 }
 

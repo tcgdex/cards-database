@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Kartanista da Ultrafloresta",
 		de: "Ultrawald Katagami-Ass"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Pendant ce tour, les dégâts des attaques de vos Ultra-Chimères ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Durante esta rodada, o dano dos ataques das suas Ultracriaturas não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
 		de: "Während dieses Zuges wird der Schaden der Attacken deiner Ultrabestien durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 372472
+	}
 }
 
 export default card

@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il crée ses flammes en inspirant l'air dans une poche spéciale de son corps et en le chauffant à plus de 3000 degrés."
+	},
+
+	thirdParty: {
+		cardmarket: 274698
 	}
 }
 

@@ -66,6 +66,10 @@ const card: Card = {
 
 	description: {
 		fr: "On prétend qu'il est le gardien des mers. La rumeur veut qu'il apparaisse les nuits de tempête."
+	},
+
+	thirdParty: {
+		cardmarket: 274606
 	}
 }
 

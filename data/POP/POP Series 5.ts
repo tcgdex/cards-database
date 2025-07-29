@@ -20,6 +20,10 @@ const pop5: Set = {
 
 	abbreviations: {
 		official: "P5"
+	},
+
+	thirdParty: {
+		cardmarket: 1617
 	}
 }
 

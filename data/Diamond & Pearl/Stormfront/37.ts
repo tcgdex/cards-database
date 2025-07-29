@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il se laisse porter par les vents lorsque son corps est gonflé d'électricité à en éclater."
+	},
+
+	thirdParty: {
+		cardmarket: 278334
 	}
 }
 

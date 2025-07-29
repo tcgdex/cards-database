@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Lancia una moneta. Se esce testa, scegli tre carte a caso dalla mano del tuo avversario. Il tuo avversario mostra quelle carte e le rimischia nel suo mazzo.",
 		pt: "Jogue uma moeda. Se sair cara, escolha 3 cards aleatórios na mão do seu oponente. Seu oponente revela esses cards e os embaralha no baralho dele ou dela.",
 		de: "Wirf 1 Münze. Wähle bei „Kopf“ 3 zufällige Karten aus der verdeckten Hand deines Gegners. Dein Gegner zeigt diese Karten und mischt sie zurück in sein Deck."
+	},
+
+	thirdParty: {
+		cardmarket: 280423
 	}
 }
 

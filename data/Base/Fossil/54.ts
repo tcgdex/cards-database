@@ -69,6 +69,10 @@ const card: Card = {
 
 	description: {
 		fr: "Protégé par une carapace très résistante, il est vulnérable quand celle-ci s'ouvre."
+	},
+
+	thirdParty: {
+		cardmarket: 273915
 	}
 }
 

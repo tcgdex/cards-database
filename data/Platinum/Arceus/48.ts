@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Shelgon",
 		de: "Draschel"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		372,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Bagon",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
@@ -66,8 +69,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278920
+	}
 }
 
 export default card

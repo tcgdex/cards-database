@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit à l'ombre des grands arbres où il mange des insectes. Il est attiré par la lumière."
+	},
+
+	thirdParty: {
+		cardmarket: 273860
 	}
 }
 

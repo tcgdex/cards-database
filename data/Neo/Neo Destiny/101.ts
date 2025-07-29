@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Attachez Loupe à un de vos Pokémon. A la fin de votre tour, défaussez-vous de Loupe. Si le Pokémon auquel Loupe est attachée attaque, n'appliquez pas la Résistance pour cette attaque.",
 		de: "Attach Magnifier to 1 of your Pokémon. At he end of your turn, discard Magnifier. If the Pokémon Magnifier is attached to attcks, don't apply Resistance for this attack."
+	},
+
+	thirdParty: {
+		cardmarket: 274753
 	}
 }
 

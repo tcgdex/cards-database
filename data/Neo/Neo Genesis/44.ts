@@ -85,6 +85,10 @@ const card: Card = {
 
 	description: {
 		fr: "Comme il ne voit rien à cause des longs poils qui recouvrent son corps, il passe son temps à charger tout ce qui bouge."
+	},
+
+	thirdParty: {
+		cardmarket: 274444
 	}
 }
 

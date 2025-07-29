@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		fr: "Le collier de bourgeons à son cou répand un arôme épicé qui vous donne du tonus."
+	},
+
+	thirdParty: {
+		cardmarket: 277670
 	}
 }
 

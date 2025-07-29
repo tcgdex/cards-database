@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il transporte des baies dans sa coquille. Pour éviter les attaques, il se cache sous les pierres et reste immobile."
+	},
+
+	thirdParty: {
+		cardmarket: 274637
 	}
 }
 

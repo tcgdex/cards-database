@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il se nourrit d'œufs volés dans des nids. Ses griffes crochues percent les défenses de l'ennemi."
+	},
+
+	thirdParty: {
+		cardmarket: 277599
 	}
 }
 

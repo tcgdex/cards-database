@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Plus ses pétales sont grands, plus ils contiennent de pollen toxique."
+	},
+
+	thirdParty: {
+		cardmarket: 273812
 	}
 }
 

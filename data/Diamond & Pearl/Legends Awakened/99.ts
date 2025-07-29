@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Même le béton cède sous ses poings dévastateurs. Au combat, il s'essouffle au bout de 3 minutes."
+	},
+
+	thirdParty: {
+		cardmarket: 278248
 	}
 }
 

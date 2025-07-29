@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il chevauche les vents en tendant ses membres pour frapper depuis le ciel. Il vise toujours au visage."
+	},
+
+	thirdParty: {
+		cardmarket: 278243
 	}
 }
 

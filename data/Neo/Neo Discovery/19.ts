@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il ramasse du miel tous les jours en le frottant contre les poils de ses pattes pour le rapporter dans son nid."
+	},
+
+	thirdParty: {
+		cardmarket: 274530
 	}
 }
 

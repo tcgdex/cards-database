@@ -89,6 +89,10 @@ const card: Card = {
 		it: "Fossilmascella",
 		pt: "Fóssil de Mandíbula",
 		de: "Kieferfossil"
+	},
+
+	thirdParty: {
+		cardmarket: 281725
 	}
 }
 

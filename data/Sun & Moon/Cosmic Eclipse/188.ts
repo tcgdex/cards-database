@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Clay",
 		de: "Turner"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez les 7 cartes du dessus de votre deck. Si l’une de ces cartes est une carte Objet, placez-la dans votre main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Descarte as 7 primeiras cartas do seu baralho. Se houver cartas de Item entre elas, coloque-as na sua mão.",
 		de: "Lege die obersten 7 Karten deines Decks auf deinen Ablagestapel. Wenn unter jenen Karten Itemkarten sind, nimm sie auf deine Hand."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 408559
+	}
 }
 
 export default card

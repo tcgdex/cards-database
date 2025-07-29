@@ -89,6 +89,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il est très agressif. Il pique sa proie avec son long museau étroit et absorbe sa vitalité."
+	},
+
+	thirdParty: {
+		cardmarket: 277518
 	}
 }
 

@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un expert de la pantomime dont les gestes façonnent de solides murs invisibles."
+	},
+
+	thirdParty: {
+		cardmarket: 277659
 	}
 }
 

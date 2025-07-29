@@ -87,6 +87,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa puissance est telle que même les montagnes ne lui résistent pas."
+	},
+
+	thirdParty: {
+		cardmarket: 274663
 	}
 }
 

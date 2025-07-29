@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Lá vem a Equipe Rocket!",
 		de: "Hier kommt Team Rocket!"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque joueur tourne toutes ses cartes Récompense face découverte. (Ces cartes Récompense restent face découverte pour le reste de la partie.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cada jogador vira seus cards de Prêmio com a face voltada para cima. (Os cards de Prêmio permanecerão virados para cima pelo resto do jogo.)",
 		de: "Beide Spieler decken alle ihre Preiskarten auf. (Diese Preiskarten bleiben für den Rest des Spiels aufgedeckt.)"
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 293475
+	}
 }
 
 export default card

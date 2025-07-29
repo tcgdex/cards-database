@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand la nuit tombe, les hurlements sinistres de ce Pokémon retentissent dans le silence tandis qu'il chasse sur son territoire."
+	},
+
+	thirdParty: {
+		cardmarket: 274695
 	}
 }
 

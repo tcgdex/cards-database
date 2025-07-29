@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il se tient toujours sur un pied. Il ne prend jamais appui sur les deux, même en cas d'attaque."
+	},
+
+	thirdParty: {
+		cardmarket: 277584
 	}
 }
 

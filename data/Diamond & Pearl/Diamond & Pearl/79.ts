@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon qui en regroupe trois autres. Il est toujours occupé à apporter du nectar à Apireine."
+	},
+
+	thirdParty: {
+		cardmarket: 277578
 	}
 }
 

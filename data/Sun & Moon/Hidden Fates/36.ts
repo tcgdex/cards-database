@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Onix GX",
 		fr: "Onix-GX",
 	},
+
 	illustrator: "PLANETA Igarashi",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		95,
 	],
+
 	hp: 200,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "GX",
 
@@ -74,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -83,8 +86,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 396627
+	}
 }
 
 export default card

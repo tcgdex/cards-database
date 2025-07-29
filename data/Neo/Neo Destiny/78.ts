@@ -58,6 +58,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon est le résultat de recherches informatiques. Son programme n'est capable que d'actions et de réactions simples."
+	},
+
+	thirdParty: {
+		cardmarket: 274730
 	}
 }
 

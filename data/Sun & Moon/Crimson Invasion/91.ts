@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pegador de Contra-ataque",
 		de: "Konterfänger"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous pouvez jouer cette carte seulement s’il vous reste plus de cartes Récompense que votre adversaire.\n\nÉchangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se tiver mais cartas de Prêmio restantes do que seu oponente.\n\nTroque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
 		de: "Du kannst diese Karte nur spielen, wenn du mehr verbleibende Preiskarten hast als dein Gegner.\n\nTausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 311938
+	}
 }
 
 export default card

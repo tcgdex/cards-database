@@ -67,6 +67,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il utilise sa queue pour cueillir les fruits inaccessibles. Elle est plus agile que ses mains."
+	},
+
+	thirdParty: {
+		cardmarket: 277699
 	}
 }
 

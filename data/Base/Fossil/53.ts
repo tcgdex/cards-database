@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il distrait ses ennemis avec des grimaces débiles et les attaque ensuite avec ses pouvoirs psy."
+	},
+
+	thirdParty: {
+		cardmarket: 273914
 	}
 }
 

@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "On raconte qu'il vole constamment au-dessus des mers, à la recherche de personnes ayant besoin d'aide."
+	},
+
+	thirdParty: {
+		cardmarket: 274666
 	}
 }
 

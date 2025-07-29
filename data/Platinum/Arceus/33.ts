@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Bronzong",
 		de: "Bronzong"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		437,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Bronzor",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,22 +59,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278886
+	}
 }
 
 export default card

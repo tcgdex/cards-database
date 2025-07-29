@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Watchog",
 		de: "Kukmarda"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		505,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Patrat",
 		fr: "Ratentif",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Patrat",
 		de: "Nagelotz"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -90,8 +95,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281749
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Floette",
 		de: "Floette"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		670,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Flabébé",
 		fr: "Flabébé",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Flabébé",
 		de: "Flabébé"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,22 +77,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281547
+	}
 }
 
 export default card

@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les griffes de ses poings sécrètent une toxine si atroce qu'une simple égratignure peut s'avérer fatale."
+	},
+
+	thirdParty: {
+		cardmarket: 277665
 	}
 }
 

@@ -90,6 +90,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il sait monter aux arbres, mais il préfère casser les troncs avec ses pattes avant pour manger les baies qui sont tombées."
+	},
+
+	thirdParty: {
+		cardmarket: 274526
 	}
 }
 

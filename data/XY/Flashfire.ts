@@ -26,6 +26,10 @@ const xy2: Set = {
 	abbreviations: {
 		official: "FLF",
 		fr: "ETI"
+	},
+
+	thirdParty: {
+		cardmarket: 1583
 	}
 }
 

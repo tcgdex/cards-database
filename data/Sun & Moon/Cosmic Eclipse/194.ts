@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Amuleto de Desafio da Ilha",
 		de: "Inselwanderschafts-Abzeichen"
 	},
+
 	illustrator: "sadaji",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Pokémon-GX ou Pokémon-EX auquel cette carte est attachée a -100 PV, et lorsqu’il est mis K.O. par les dégâts de l’attaque d’un adversaire, ce joueur-là prend une carte Récompense de moins.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "O Pokémon-GX ou Pokémon-EX ao qual esta carta está ligada recebe 100 PS a menos, e quando ele for Nocauteado pelo dano de um ataque do seu oponente, aquele jogador pegará 1 carta de Prêmio a menos.",
 		de: "Das Pokémon-GX oder Pokémon-EX, an das diese Karte angelegt ist, erhält 100 KP weniger, und wenn es durch Schaden einer Attacke des Gegners kampfunfähig wird, nimmt jener Spieler 1 Preiskarte weniger."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 408579
+	}
 }
 
 export default card

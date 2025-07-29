@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il peut stocker l'énergie électrique ambiante dans ses cellules et l'expulser sous forme d'explosions massives."
+	},
+
+	thirdParty: {
+		cardmarket: 274700
 	}
 }
 

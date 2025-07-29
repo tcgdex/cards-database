@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Gumshoos GX",
 		de: "Manguspektor GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		735,
 	],
+
 	hp: 210,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Yungoos",
 		fr: "Manglouton",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -92,6 +98,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -101,8 +108,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 295422
+	}
 }
 
 export default card

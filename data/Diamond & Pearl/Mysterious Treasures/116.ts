@@ -29,7 +29,11 @@ const card: Card = {
 		effect: {
 			de: "Wenn Panzerfossil durch einen gegnerischen Angriff Schaden zugefügt würde, wirf 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Reduziere den Schaden dieses Angriffs um 10 Schadenspunkte mal der Anzahl \"Kopf\"."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 277745
+	}
 }
 
 export default card

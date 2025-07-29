@@ -5,21 +5,24 @@ const card: Card = {
 	name: {
 		en: "Mudkip"
 	},
+
 	illustrator: "Rowan Laidlaw",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		258,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
+
 	stage: "Basic",
 	retreat: 1,
-
 
 	attacks: [
 		{
@@ -51,11 +54,16 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning"
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 605995
+	}
 }
 
 export default card

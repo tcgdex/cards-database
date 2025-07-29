@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Martelo Esmagador",
 		de: "Schmetterhammer"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée à 1 des Pokémon de votre adversaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Você pode jogar tantos cards de Item quanto desejar na sua vez (antes de atacar).",
 		de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an ein gegnerisches Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280057
+	}
 }
 
 export default card

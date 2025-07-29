@@ -87,6 +87,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il attaque en projetant un liquide fétide du bout de sa queue. Il peut tirer à 50 mètres."
+	},
+
+	thirdParty: {
+		cardmarket: 277514
 	}
 }
 

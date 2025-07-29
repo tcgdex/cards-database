@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il serre précautionneusement son œuf pour ne pas le casser quand il bouge. Cependant, il reste assez rapide pour disparaître en un clin d'œil."
+	},
+
+	thirdParty: {
+		cardmarket: 274683
 	}
 }
 

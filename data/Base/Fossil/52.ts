@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		fr: "Disparu depuis longtemps, il peut être réanimé génétiquement à partir d'anciens fossiles."
+	},
+
+	thirdParty: {
+		cardmarket: 273913
 	}
 }
 

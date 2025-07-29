@@ -85,6 +85,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon qui vivait dans la jungle il y a 100 millions d'années. Son visage est très dur."
+	},
+
+	thirdParty: {
+		cardmarket: 277692
 	}
 }
 

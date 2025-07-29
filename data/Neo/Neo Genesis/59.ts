@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il vole droit sur le visage de sa cible, et s'accroche ensuite à sa victime effrayée pour lui injecter du poison."
+	},
+
+	thirdParty: {
+		cardmarket: 274459
 	}
 }
 

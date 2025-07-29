@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "On dit qu'il a fait monter les eaux en causant des pluies diluviennes. Il somnolait dans une fosse marine."
+	},
+
+	thirdParty: {
+		cardmarket: 278181
 	}
 }
 

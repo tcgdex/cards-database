@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses 80 tentacules ligotent ses proies et les retiennent jusqu'à ce que son poison fasse effet."
+	},
+
+	thirdParty: {
+		cardmarket: 278224
 	}
 }
 

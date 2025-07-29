@@ -19,6 +19,10 @@ const lc: Set = {
 
 	abbreviations: {
 		official: "LC"
+	},
+
+	thirdParty: {
+		cardmarket: 1535
 	}
 }
 

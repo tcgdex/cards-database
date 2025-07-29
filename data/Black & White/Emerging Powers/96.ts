@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Reciclagem",
 		de: "Aufbereitung"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, placez une carte de votre pile de défausse sur le dessus de votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Jogue uma moeda. Se sair cara, coloque um card da sua pilha de descarte em cima do seu baralho.",
 		de: "Wirf 1 Münze. Lege bei „Kopf“ 1 Karte von deinem Ablagestapel auf dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280061
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Will",
 		de: "Willi"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "La prochaine fois que vous lancez des pièces en raison de l’effet d’une attaque, d’un talent ou d’une carte Dresseur pendant ce tour, choisissez pile ou face pour le premier lancer de pièce.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Na próxima vez que jogar qualquer quantidade de moedas para o efeito de um ataque, Habilidade ou carta de Treinador durante esta rodada, escolha se o resultado é cara ou coroa para a primeira jogada de moeda.",
 		de: "Wenn du während dieses Zuges das nächste Mal für den Effekt einer Attacke, Fähigkeit oder Trainerkarte 1 oder mehr Münzen wirfst, wähle Kopf oder Zahl für den ersten Münzwurf."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 408634
+	}
 }
 
 export default card

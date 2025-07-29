@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les ailes supplémentaires qui ornent ses pattes lui permettent de voler très vite, mais elles lui compliquent la vie quand il veut se percher."
+	},
+
+	thirdParty: {
+		cardmarket: 274654
 	}
 }
 

@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse."
+	},
+
+	thirdParty: {
+		cardmarket: 273851
 	}
 }
 

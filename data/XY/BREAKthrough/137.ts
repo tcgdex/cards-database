@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pedra Flutuante",
 		de: "Leichtstein"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Pokémon auquel cette carte est attachée n'a pas de Coût de Retraite.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "O Pokémon ao qual este card está ligado não tem Custo para Recuar.",
 		de: "Das Pokémon, an das diese Karte angelegt ist, hat keine Rückzugskosten."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 286383
+	}
 }
 
 export default card

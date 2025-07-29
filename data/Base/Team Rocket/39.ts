@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Certaines personnes disent que les Kadabra sont responsables de bon nombre des mystérieux événements rapportés par les médias."
+	},
+
+	thirdParty: {
+		cardmarket: 274092
 	}
 }
 

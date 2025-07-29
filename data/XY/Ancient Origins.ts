@@ -26,6 +26,10 @@ const xy7: Set = {
 	abbreviations: {
 		official: "AOR",
 		fr: "ORA"
+	},
+
+	thirdParty: {
+		cardmarket: 1660
 	}
 }
 

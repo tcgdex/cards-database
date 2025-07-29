@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il tisse une toile fine mais solide pour poser des pièges et se poste dans l'attente d'une proie."
+	},
+
+	thirdParty: {
+		cardmarket: 277732
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Chesnaught",
 		de: "Brigaron"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		652,
 	],
+
 	hp: 160,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Quilladin",
 		fr: "Boguérisse",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Quilladin",
 		de: "Igastarnish"
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -81,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -90,8 +97,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 281351
+	}
 }
 
 export default card

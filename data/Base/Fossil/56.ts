@@ -66,6 +66,10 @@ const card: Card = {
 
 	description: {
 		fr: "Flottant au bord des côtes, les pêcheurs se font souvent arroser d'acide quand ils en accrochent un."
+	},
+
+	thirdParty: {
+		cardmarket: 273917
 	}
 }
 

@@ -67,6 +67,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses pinces ne sont pas seulenent de puissante armes, elles lui servent à conserver son équilibre quand il narche de travers."
+	},
+
+	thirdParty: {
+		cardmarket: 273912
 	}
 }
 

@@ -63,6 +63,10 @@ const card: Card = {
 
 	description: {
 		fr: "On prétend qu'il passe le plus clair de son temps au fond des mers, car ses pouvoirs sont trop puissants."
+	},
+
+	thirdParty: {
+		cardmarket: 274409
 	}
 }
 

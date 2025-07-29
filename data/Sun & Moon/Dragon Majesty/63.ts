@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Vulcão Wela",
 		de: "Wela Vulkanpark"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lorsqu’un joueur lance une pièce pour l’État Spécial Brûlé entre chaque tour, cet État Spécial n’est pas ôté, même si le résultat est face.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Sempre que um jogador jogar uma moeda para a Condição Especial de Queimado entre as vezes de jogar, aquela Condição Especial não é removida, mesmo que o resultado seja cara.",
 		de: "Jedes Mal, wenn ein Spieler zwischen den Zügen eine Münze für den Speziellen Zustand Verbrennung wirft, verliert jener Spezielle Zustand seine Wirkung nicht, auch wenn das Ergebnis Kopf ist."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 363534
+	}
 }
 
 export default card

@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son violent coup de tête est assez puissant pour pulvériser les matériaux les plus résistants"
+	},
+
+	thirdParty: {
+		cardmarket: 277662
 	}
 }
 

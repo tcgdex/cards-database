@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "S'il perd un croc, un nouveau poussera pour le remplacer. Il y a toujours 48 crocs dans sa bouche."
+	},
+
+	thirdParty: {
+		cardmarket: 274431
 	}
 }
 

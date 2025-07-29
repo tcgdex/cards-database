@@ -10,12 +10,16 @@ const card: Card = {
 		pt: "Energia de Grama",
 		de: "Pflanze-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
 	energyType: "Normal",
+
+	thirdParty: {
+		cardmarket: 281469
+	}
 }
 
 export default card

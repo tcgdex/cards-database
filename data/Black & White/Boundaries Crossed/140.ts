@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Poção de Ouro",
 		de: "Goldtrank"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez 90 dégâts à votre Pokémon Actif.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cure 90 de danos do seu Pokémon Ativo.",
 		de: "Heile 90 Schadenspunkte bei deinem Aktiven Pokémon."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280727
+	}
 }
 
 export default card

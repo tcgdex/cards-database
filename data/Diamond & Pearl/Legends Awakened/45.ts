@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses pétales sont les plus grands du monde. Il marche en répandant un pollen extrêmement allergène."
+	},
+
+	thirdParty: {
+		cardmarket: 278194
 	}
 }
 

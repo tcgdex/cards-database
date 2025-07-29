@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Se questa carta è assegnata a uno dei tuoi Pokémon, scartala alla fine del turno del tuo avversario.\n\nIl Pokémon Metal a cui è assegnata questa carta subisce 70 danni in meno dagli attacchi del tuo avversario, dopo aver applicato debolezza e resistenza.",
 		pt: "Se esta carta estiver ligada a 1 dos seus Pokémon, descarte-a no final da próxima vez de jogar do seu oponente.\n\nO Pokémon Metal ao qual esta carta está ligada recebe 70 pontos de dano a menos dos ataques do seu oponente (após a aplicação de Fraqueza e Resistência).",
 		de: "Wenn diese Karte an 1 deiner Pokémon angelegt ist, lege sie am Ende des Zuges deines Gegners auf deinen Ablagestapel.\n\nDem Metal-Pokémon, an das diese Karte angelegt ist, werden durch Attacken deines Gegners 70 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+	},
+
+	thirdParty: {
+		cardmarket: 372464
 	}
 }
 

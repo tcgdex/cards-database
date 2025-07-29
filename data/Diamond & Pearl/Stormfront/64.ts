@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il muscle son corps en soulevant régulièrement un Gravalanch. Il est rompu à tous les arts martiaux."
+	},
+
+	thirdParty: {
+		cardmarket: 278362
 	}
 }
 

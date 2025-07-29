@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Solgaleo",
 		de: "Solgaleo"
 	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		791,
 	],
+
 	hp: 170,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,22 +83,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 398464
+	}
 }
 
 export default card

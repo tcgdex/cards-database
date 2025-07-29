@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Repórter de Batalha",
 		de: "Kampfreporter"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez des cartes jusqu'à ce que vous ayez le même nombre de cartes dans votre main que votre adversaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Compre cards até ter em sua mão o mesmo número de cards do seu oponente.",
 		de: "Ziehe so lang Karten, bis du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 281752
+	}
 }
 
 export default card

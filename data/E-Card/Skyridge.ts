@@ -21,6 +21,10 @@ const ecard3: Set = {
 
 	abbreviations: {
 		official: "SK"
+	},
+
+	thirdParty: {
+		cardmarket: 1538
 	}
 }
 

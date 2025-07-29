@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		fr: "En Amérique du Sud, on dit que son œil droit voit l'avenir et le gauche, le passé."
+	},
+
+	thirdParty: {
+		cardmarket: 274563
 	}
 }
 

@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Full Heal Energy",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Special",
 
-
-
-
-
-
-
-
-
-
-
-
-
-energyType: "Special",
+	thirdParty: {
+		cardmarket: 274865
+	}
 }
 
 export default card

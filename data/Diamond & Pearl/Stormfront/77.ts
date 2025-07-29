@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il adore les champignons qui poussent sous l'herbe morte. Il trouve aussi des sources chaudes."
+	},
+
+	thirdParty: {
+		cardmarket: 278375
 	}
 }
 

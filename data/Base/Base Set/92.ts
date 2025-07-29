@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Choisissez 1 carte Énergie attachée à 1 des Pokémon de votre adversaire et défaussez-la.",
 		de: "Wähle eine auf einem Pokémon Deines gegners abgelegte Energiekarte und entferne sie."
+	},
+
+	thirdParty: {
+		cardmarket: 273787
 	}
 }
 

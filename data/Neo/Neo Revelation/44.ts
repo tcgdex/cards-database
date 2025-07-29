@@ -50,6 +50,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il s'aide de ses bras pour gravir les pentes des montagnes les plus raides. Il fait tourner ses poings s'il est en colère."
+	},
+
+	thirdParty: {
+		cardmarket: 274630
 	}
 }
 

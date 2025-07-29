@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Leafeon EX",
 		fr: "Phyllali-EX",
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		470,
 	],
+
 	hp: 170,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "EX",
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -66,8 +69,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 288452
+	}
 }
 
 export default card

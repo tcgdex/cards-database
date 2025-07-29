@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cinto de Luta Furiosa",
 		de: "Kampfgeistgürtel"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Ajoutez 40 PV au Pokémon de base auquel cette carte est attachée et ses attaques infligent 10 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "O Pokémon Básico ao qual este card está ligado recebe +40 PS e os seus ataques causam 10 de danos adicionais ao Pokémon Ativo do seu oponente (antes da aplicação de Fraqueza e Resistência)",
 		de: "Das Basis-Pokémon, an das diese Karte angelegt ist, erhält 40 zusätzliche KP und seine Angriffe fügen dem Aktiven Pokémon deines Gegners 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 288274
+	}
 }
 
 export default card

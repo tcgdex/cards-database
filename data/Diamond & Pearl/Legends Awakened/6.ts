@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il hante les grottes volcaniques. Il rampe au mur et au plafond grâce à ses pieds en formes de croix."
+	},
+
+	thirdParty: {
+		cardmarket: 278155
 	}
 }
 

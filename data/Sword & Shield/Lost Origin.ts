@@ -24,6 +24,10 @@ const set: Set = {
 	abbreviations: {
 		official: "LOR",
 		fr: "ORP"
+	},
+
+	thirdParty: {
+		cardmarket: 5093
 	}
 }
 

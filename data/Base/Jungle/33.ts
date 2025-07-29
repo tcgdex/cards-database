@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		fr: "En combat, il bat des ailes très rapidement pour projeter des poudres toxiques sur ses ennemis."
+	},
+
+	thirdParty: {
+		cardmarket: 273830
 	}
 }
 

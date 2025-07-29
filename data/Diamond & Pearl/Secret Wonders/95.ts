@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Cornèbre",
 		de: "Kramurx"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		198,
 	],
+
 	hp: 50,
+
 	types: [
 		"Darkness",
 	],
@@ -32,7 +35,6 @@ const card: Card = {
 			de: 'Kramurx kann in dem Zug entwickelt werden, in dem du es gespielt hast.'
 		}
 	},
-
 
 	attacks: [
 		{
@@ -53,22 +55,26 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277848
+	}
 }
 
 export default card

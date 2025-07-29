@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		fr: "Très apprécié pour sa fourrure, il est difficile à apprivoiser en raison de son caractère rétif."
+	},
+
+	thirdParty: {
+		cardmarket: 273839
 	}
 }
 

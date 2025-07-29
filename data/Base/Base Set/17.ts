@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il vole à très grande vitesse. Il se bat avec les dards empoisonnés de ses bras."
+	},
+
+	thirdParty: {
+		cardmarket: 273712
 	}
 }
 

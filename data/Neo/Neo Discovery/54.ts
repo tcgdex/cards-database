@@ -61,6 +61,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand il se fait remarquer, ce Pokémon fuit à reculons en plantant furieusement sa queue dans le sol."
+	},
+
+	thirdParty: {
+		cardmarket: 274565
 	}
 }
 

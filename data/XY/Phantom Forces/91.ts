@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "AZ",
 		de: "Azett"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Placez l'un de vos Pokémon dans votre main. (Défaussez toutes les cartes attachées au Pokémon.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Coloque 1 dos seus Pokémon na sua mão. (Descarte todos os cards ligados a esse Pokémon.)",
 		de: "Nimm 1 deiner Pokémon im Spiel auf deine Hand. (Lege alle an dieses Pokémon angelegten Karten auf deinen Ablagestapel.)"
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 281897
+	}
 }
 
 export default card

@@ -10,18 +10,16 @@ const card: Card = {
 		pt: "Energia de Água",
 		de: "Wasser-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Normal",
 
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 281471
+	}
 }
 
 export default card

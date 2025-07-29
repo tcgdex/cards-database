@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il écarte ses pétales pour absorber la lumière du soleil. Il flotte aussi dans les airs pour se rapprocher de l'astre du jour."
+	},
+
+	thirdParty: {
+		cardmarket: 274638
 	}
 }
 

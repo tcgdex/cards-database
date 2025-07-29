@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Altaria",
 		de: "Altaria"
 	},
+
 	illustrator: "HiRON",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		334,
 	],
+
 	hp: 70,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -65,6 +71,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Dragon",
@@ -74,8 +81,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280523
+	}
 }
 
 export default card

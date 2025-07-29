@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon a des poils fins et soyeux. Quand il se met en colère, il grossit et il n'est pas impossible qu'il charge ceux qu'il considère comme une menace."
+	},
+
+	thirdParty: {
+		cardmarket: 274692
 	}
 }
 

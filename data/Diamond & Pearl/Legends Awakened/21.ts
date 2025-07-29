@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit dans les hauts-fonds des mers chaudes. Il déterre sa proie du sable quand la marée se retire."
+	},
+
+	thirdParty: {
+		cardmarket: 278170
 	}
 }
 

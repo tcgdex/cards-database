@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "On dit que rencontrer un Cornèbre la nuit est signe de mauvais augure."
+	},
+
+	thirdParty: {
+		cardmarket: 277719
 	}
 }
 

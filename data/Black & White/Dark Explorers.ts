@@ -25,6 +25,10 @@ const bw5: Set = {
 	abbreviations: {
 		official: "DEX",
 		fr: "EOB"
+	},
+
+	thirdParty: {
+		cardmarket: 1575
 	}
 }
 

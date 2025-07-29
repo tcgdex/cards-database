@@ -89,6 +89,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il ne voit rien à cause de sa fourrure touffue et se repère à l'aide de son nez délicat."
+	},
+
+	thirdParty: {
+		cardmarket: 278218
 	}
 }
 

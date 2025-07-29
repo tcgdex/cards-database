@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Ultraesquadrão de Reconhecimento",
 		de: "Ultraforschungsteam"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez jusqu’à 2 cartes Ultra-Chimère de votre main. Piochez 3 cartes pour chaque carte défaussée de cette façon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Descarte até 2 cartas de Ultracriatura da sua mão. Compre 3 cartas para cada carta descartada desta forma.",
 		de: "Lege bis zu 2 Ultrabestien aus deiner Hand auf deinen Ablagestapel. Ziehe 3 Karten für jede auf diese Weise auf deinen Ablagestapel gelegte Karte."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 355627
+	}
 }
 
 export default card

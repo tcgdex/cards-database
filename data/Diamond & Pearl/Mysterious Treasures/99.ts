@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il passe le plus clair de son temps affalé. Rien qu'à le voir, on a envie de bâiller."
+	},
+
+	thirdParty: {
+		cardmarket: 277728
 	}
 }
 

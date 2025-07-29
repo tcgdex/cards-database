@@ -5,25 +5,17 @@ const card: Card = {
 	name: {
 		en: "Fairy Energy",
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 295669
+	}
 }
 
 export default card

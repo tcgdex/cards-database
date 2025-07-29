@@ -61,6 +61,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il picore souvent le sol à la recherche de nourriture mais, de temps en temps, il saute sur les branches pour picorer des pousses."
+	},
+
+	thirdParty: {
+		cardmarket: 274570
 	}
 }
 

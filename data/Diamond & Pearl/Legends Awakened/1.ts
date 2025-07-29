@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il vient d'un virus extraterrestre arrivé avec une météorite et ayant subi une mutation génétique."
+	},
+
+	thirdParty: {
+		cardmarket: 278150
 	}
 }
 

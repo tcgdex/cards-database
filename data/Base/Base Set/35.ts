@@ -67,6 +67,10 @@ const card: Card = {
 
 	description: {
 		fr: "Autrefois, il était beaucoup plus puissant que cette créature minablement faible."
+	},
+
+	thirdParty: {
+		cardmarket: 273730
 	}
 }
 

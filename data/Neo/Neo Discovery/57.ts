@@ -57,6 +57,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il se nourrit de terre. Après avoir mangé une grosse montagne, il s'endort pour pouvoir grandir."
+	},
+
+	thirdParty: {
+		cardmarket: 274568
 	}
 }
 

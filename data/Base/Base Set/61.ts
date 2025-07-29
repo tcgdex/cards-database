@@ -57,6 +57,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa morsure est très puissante. Petit et rapide, on en voit un peu partout."
+	},
+
+	thirdParty: {
+		cardmarket: 273756
 	}
 }
 

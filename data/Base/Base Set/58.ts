@@ -68,6 +68,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages."
+	},
+
+	thirdParty: {
+		cardmarket: 273753
 	}
 }
 

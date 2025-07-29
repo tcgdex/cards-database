@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon préhistorique qui disparut quand sa coquille devint trop lourde à déplacer."
+	},
+
+	thirdParty: {
+		cardmarket: 273901
 	}
 }
 

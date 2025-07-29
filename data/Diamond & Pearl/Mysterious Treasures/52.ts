@@ -67,6 +67,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon aime ce qui est rond et blanc et transporte un caillou en forme d'œuf pour imiter Leveinard."
+	},
+
+	thirdParty: {
+		cardmarket: 277681
 	}
 }
 

@@ -54,6 +54,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il est très timide et il est souvent sur la défensive. Quand il se sent menacé, il se protège avec les flammes de son dos."
+	},
+
+	thirdParty: {
+		cardmarket: 274713
 	}
 }
 

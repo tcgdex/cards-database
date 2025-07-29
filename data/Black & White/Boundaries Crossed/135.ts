@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Substituição",
 		de: "Tausch"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Common",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Échangez votre Pokémon Actif avec 1 de vos Pokémon de Banc.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Troque seu Pokémon Ativo por 1 dos Pokémon no seu Banco.",
 		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280722
+	}
 }
 
 export default card

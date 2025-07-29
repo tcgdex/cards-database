@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Vibrava",
 		de: "Vibrava"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		329,
 	],
+
 	hp: 80,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Trapinch",
 		fr: "Kraknoix",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Trapinch",
 		de: "Knacklion"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -85,8 +90,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273640
+	}
 }
 
 export default card

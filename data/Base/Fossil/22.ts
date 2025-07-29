@@ -69,6 +69,10 @@ const card: Card = {
 
 	description: {
 		fr: "S'il est pressé, ses jambes s'allongent progressivement. Il court alors très rapidement."
+	},
+
+	thirdParty: {
+		cardmarket: 273868
 	}
 }
 

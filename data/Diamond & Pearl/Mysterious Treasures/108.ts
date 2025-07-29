@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		fr: "Bien que dépourvu d'yeux, il repère les obstacles grâce aux ultrasons émis par sa gueule."
+	},
+
+	thirdParty: {
+		cardmarket: 277737
 	}
 }
 

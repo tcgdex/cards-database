@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon très snob. La taille du joyau qui orne son front alimente bien des débats parmi ses fans."
+	},
+
+	thirdParty: {
+		cardmarket: 278217
 	}
 }
 

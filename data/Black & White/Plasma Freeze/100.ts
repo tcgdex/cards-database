@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cidade Congelada",
 		de: "Starrstadt"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque fois qu'un joueur attache une Énergie de sa main à 1 de ses Pokémon (excepté les Pokémon de la Team Plasma), placez 2 marqueurs de dégâts sur le Pokémon auquel l'Énergie a été attachée.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Sempre que qualquer jogador ligar uma Energia de sua própria mão a 1 dos Pokémon desse mesmo jogador (exceto Pokémon da Equipe Plasma), coloque 2 marcadores de danos nesse Pokémon.",
 		de: "Lege jedes Mal, wenn ein Spieler eine Energie von seiner Hand an 1 seiner Pokémon (ausgenommen Team-Plasma-Pokémon) anlegt, 2 Schadensmarken auf das Pokémon."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 280978
+	}
 }
 
 export default card

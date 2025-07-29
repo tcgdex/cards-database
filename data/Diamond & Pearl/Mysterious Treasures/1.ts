@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il creuse des galeries à travers la pierre avec ses cornes d'acier pour trouver le fer qu'il apprécie."
+	},
+
+	thirdParty: {
+		cardmarket: 277630
 	}
 }
 

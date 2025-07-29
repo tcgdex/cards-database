@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Walrein",
 		de: "Walraisa"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		365,
 	],
+
 	hp: 150,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Sealeo",
 		fr: "Phogleur",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Sealeo",
 		de: "Seejong"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -86,6 +90,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -95,8 +100,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 281509
+	}
 }
 
 export default card

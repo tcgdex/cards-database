@@ -55,6 +55,10 @@ const card: Card = {
 
 	description: {
 		fr: "Bien que peu doué pour marcher sur la terre ferme, il se déplace avec aisance dans ses eaux natales de l'Arctique."
+	},
+
+	thirdParty: {
+		cardmarket: 274733
 	}
 }
 

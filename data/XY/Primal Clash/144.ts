@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia Encantada",
 		de: "WunderEnergie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ne peut être attachée qu'à un Pokémon Fairy. Cette carte ne fournit de l'Énergie Fairy que pendant qu'elle est attachée à un Pokémon Fairy.\n\nÉvitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés au Pokémon Fairy auquel cette carte est attachée. (Les effets déjà en action ne sont pas retirés.)\n\n(Si cette carte est attachée à autre chose qu'un Pokémon Fairy, défaussez cette carte.)",
@@ -35,7 +25,11 @@ const card: Card = {
 		de: "Diese Karte kann nur an Fairy-Pokémon angelegt werden. Diese Karte liefert nur dann Fairy-Energie, wenn sie an ein Fairy-Pokémon angelegt ist.\n\nVerhindere alle Effekte von gegnerischen Angriffen, außer Schaden, die dem Fairy-Pokémon, an das diese Karte angelegt ist, zugefügt werden. (Bestehende Effekte werden nicht entfernt.)\n\n(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Fairy-Pokémon angelegt ist.)"
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 273675
+	}
 }
 
 export default card

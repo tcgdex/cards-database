@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Yasmin",
 		de: "Matsurika"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez une carte Énergie Fairy dans votre deck et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure por 1 carta de Energia Fairy no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach 1 Fairy-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 365817
+	}
 }
 
 export default card

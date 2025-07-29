@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Multissubstituição",
 		de: "Multitausch"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Déplacez une Énergie de l’un de vos Pokémon de Banc vers votre Pokémon Actif.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Mova 1 Energia de 1 dos seus Pokémon no Banco para o seu Pokémon Ativo.",
 		de: "Verschiebe 1 Energie von 1 Pokémon auf deiner Bank auf dein Aktives Pokémon."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 297581
+	}
 }
 
 export default card

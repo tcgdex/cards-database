@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "S'il agite ses ailes très vite, il peut provoquer des ondes de choc qui font exploser toutes les vitres du voisinage."
+	},
+
+	thirdParty: {
+		cardmarket: 274528
 	}
 }
 

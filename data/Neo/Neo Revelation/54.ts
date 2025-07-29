@@ -46,6 +46,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il remue toujours la tête d'avant en arrière comme s'il essayait de faire des bisous."
+	},
+
+	thirdParty: {
+		cardmarket: 274640
 	}
 }
 

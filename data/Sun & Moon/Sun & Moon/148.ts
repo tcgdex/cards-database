@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Professor Nogueira",
 		de: "Prof. Kukui"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 2 cartes. Pendant ce tour, les attaques de vos Pokémon infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Compre 2 cartas. Durante esta rodada, os ataques dos seus Pokémon causam 20 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		de: "Ziehe 2 Karten. Während dieses Zuges fügen die Attacken deiner Pokémon dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 295441
+	}
 }
 
 export default card

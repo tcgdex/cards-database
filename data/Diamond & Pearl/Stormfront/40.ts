@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il peut traverser n'importe quel obstacle. Il rôde dans les murs pour surveiller ses ennemis."
+	},
+
+	thirdParty: {
+		cardmarket: 278338
 	}
 }
 

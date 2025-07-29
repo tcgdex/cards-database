@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements."
+	},
+
+	thirdParty: {
+		cardmarket: 273729
 	}
 }
 

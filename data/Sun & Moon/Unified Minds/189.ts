@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Caça-inseto",
 		de: "Käfersammler"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 2 cartes. Lancez une pièce. Si c’est face, piochez 2 cartes supplémentaires.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Compre 2 cartas. Jogue 1 moeda. Se sair cara, compre 2 cartas a mais.",
 		de: "Ziehe 2 Karten. Wirf 1 Münze. Ziehe bei Kopf 2 Karten mehr."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 388732
+	}
 }
 
 export default card

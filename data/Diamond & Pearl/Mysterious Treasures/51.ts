@@ -85,6 +85,10 @@ const card: Card = {
 
 	description: {
 		fr: "Gravalanch creuse son terrier à flanc de montagne en perçant des galeries horizontales."
+	},
+
+	thirdParty: {
+		cardmarket: 277680
 	}
 }
 

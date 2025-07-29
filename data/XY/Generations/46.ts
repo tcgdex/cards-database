@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Golem EX",
 		fr: "Grolem-EX",
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		76,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "EX",
 
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -65,8 +68,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 288484
+	}
 }
 
 export default card

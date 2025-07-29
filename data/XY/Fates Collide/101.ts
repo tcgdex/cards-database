@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Kit de Escavação de Fósseis",
 		de: "Fossilausgrabungsset"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Ajoutez de votre pile de défausse à votre main une combinaison de 2 cartes choisies parmi Fossile Nautile Amonita, Fossile Dôme Kabuto et Vieil Ambre Ptéra.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Coloque 2 cards de Fóssil Espiral de Omanyte, Fóssil Cúpula de Kabuto ou Âmbar Velho de Aerodactyl da sua pilha de descarte em sua mão.",
 		de: "Nimm eine beliebige Kombination aus 2 der folgenden Karten von deinem Ablagestapel auf deine Hand: Helixfossil Amonitas, Domfossil Kabuto oder Altbernstein Aerodactyl."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 289921
+	}
 }
 
 export default card

@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon censé vivre dans un monde à l'opposé du nôtre. Il apparaît dans un cimetière ancien."
+	},
+
+	thirdParty: {
+		cardmarket: 278153
 	}
 }
 

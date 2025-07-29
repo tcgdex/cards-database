@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Elékid",
 		de: "Elekid"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		239,
 	],
+
 	hp: 30,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,11 +44,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 275081
+	}
 }
 
 export default card

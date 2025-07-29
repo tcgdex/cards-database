@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cidade Escura",
 		de: "Dunkelstadt"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les Pokémon Darkness de base en jeu (les vôtres et ceux de votre adversaire) n’ont pas de Coût de Retraite.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Pokémon Darkness Básicos em jogo (seus e do seu oponente) não têm custo de Recuo.",
 		de: "Darkness-Basis-Pokémon im Spiel (deine und die deines Gegners) haben keine Rückzugskosten."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 388747
+	}
 }
 
 export default card

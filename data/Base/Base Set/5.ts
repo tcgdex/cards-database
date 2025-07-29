@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		fr: "Très recherché pour son aura mystique, il est très rare et ne vit que dans des endroits précis."
+	},
+
+	thirdParty: {
+		cardmarket: 273700
 	}
 }
 

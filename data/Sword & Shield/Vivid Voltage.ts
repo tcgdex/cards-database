@@ -25,6 +25,10 @@ const swsh4: Set = {
 	abbreviations: {
 		official: "VIV",
 		fr: "VOL"
+	},
+
+	thirdParty: {
+		cardmarket: 3484
 	}
 }
 

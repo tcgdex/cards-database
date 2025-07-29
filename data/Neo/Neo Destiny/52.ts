@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Si sa nageoire commence à vibrer, c'est signe qu'il va bientôt pleuvoir."
+	},
+
+	thirdParty: {
+		cardmarket: 274704
 	}
 }
 

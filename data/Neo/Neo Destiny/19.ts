@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		fr: "Rien ne peut lui échapper une fois dans ses tentacules, qu'il utilise pour se défendre, mais aussi pour se nourrir."
+	},
+
+	thirdParty: {
+		cardmarket: 274671
 	}
 }
 

@@ -55,6 +55,10 @@ const card: Card = {
 
 	description: {
 		fr: "Tandis qu'il vieillit, sa queue blanche change de couleur et se sépare en six. Il émane de son corps une faible chaleur."
+	},
+
+	thirdParty: {
+		cardmarket: 274743
 	}
 }
 

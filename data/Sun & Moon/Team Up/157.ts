@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Memória de Água",
 		de: "Wasser-Disc"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Silvallié-GX auquel cette carte est attachée est un Pokémon Water.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "O Pokémon Silvally-GX ao qual esta carta está ligada é um Pokémon Water.",
 		de: "Das Amigento-GX, an das diese Karte angelegt ist, ist ein Water-Pokémon."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 369082
+	}
 }
 
 export default card
