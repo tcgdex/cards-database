@@ -4,14 +4,8 @@ import Set from "../ADV1"
 const card: Card = {
       set: Set,
       name: {
-         en: "PokeNav",
-         ja: "pokenav",
-         fr: "Poker",
-         de: "Pokenav",
-         es: "Pavimento",
-         it: "PEKENAV",
-         pt: "Pokenav",
-      },
+                  ja: "pokenav",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
