@@ -4,14 +4,8 @@ import Set from "../PCG6"
 const card: Card = {
       set: Set,
       name: {
-         en: "Holon Farmer",
-         ja: "ホロン農家",
-         fr: "Holon",
-         de: "Holon Farmer",
-         es: "Agricultor",
-         it: "Holon Farmer",
-         pt: "Agricultor de Holon",
-      },
+                  ja: "ホロン農家",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
