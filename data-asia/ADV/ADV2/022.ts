@@ -4,14 +4,8 @@ import Set from "../ADV2"
 const card: Card = {
       set: Set,
       name: {
-         en: "Pikachu",
-         ja: "ピカチュウ",
-         fr: "Pikachu",
-         de: "Pikachu",
-         es: "Pikachu",
-         it: "Pikachu",
-         pt: "Pikachu",
-      },
+                  ja: "ピカチュウ",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,27 +18,15 @@ const card: Card = {
         {
           cost: ["Colorless"],
           name: {
-            en: "Scratch",
-            ja: "傷",
-            fr: "Gratter",
-            de: "Kratzen",
-            es: "Rascar",
-            it: "Graffio",
-            pt: "Arranhar",
-          },
+                        ja: "傷",
+                                                                      },
           damage: 10,
         },
         {
           cost: ["Lightning", "Colorless", "Colorless"],
           name: {
-            en: "Pika Bolt",
-            ja: "ピカ・ボルト",
-            fr: "Boulon pika",
-            de: "Pika Bolt",
-            es: "Perno de pika",
-            it: "Pika Bolt",
-            pt: "Parafuso de pika",
-          },
+                        ja: "ピカ・ボルト",
+                                                                      },
           damage: 40,
         },
       ],
