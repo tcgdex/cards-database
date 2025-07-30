@@ -4,14 +4,8 @@ import Set from "../PCG3"
 const card: Card = {
       set: Set,
       name: {
-         en: "Boost Energy",
-         ja: "エネルギーを高めます",
-         fr: "Stimuler l'énergie",
-         de: "Energie steigern",
-         es: "Aumentar la energía",
-         it: "Aumenta l'energia",
-         pt: "Aumentar a energia",
-      },
+                  ja: "エネルギーを高めます",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

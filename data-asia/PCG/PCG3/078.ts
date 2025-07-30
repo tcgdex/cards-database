@@ -4,14 +4,8 @@ import Set from "../PCG3"
 const card: Card = {
       set: Set,
       name: {
-         en: "Space Center",
-         ja: "宇宙センター",
-         fr: "Centre spatial",
-         de: "Space Center",
-         es: "Centro espacial",
-         it: "Centro spaziale",
-         pt: "Centro espacial",
-      },
+                  ja: "宇宙センター",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
