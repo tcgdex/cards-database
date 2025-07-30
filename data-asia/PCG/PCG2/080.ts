@@ -4,14 +4,8 @@ import Set from "../PCG2"
 const card: Card = {
       set: Set,
       name: {
-         en: "Scramble Energy",
-         ja: "スクランブルエネルギー",
-         fr: "Bouffée d'énergie",
-         de: "Energie krabbeln",
-         es: "Energía de lucha",
-         it: "Energia di scramble",
-         pt: "Energia de embaralhamento",
-      },
+                  ja: "スクランブルエネルギー",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

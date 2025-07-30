@@ -4,14 +4,8 @@ import Set from "../PCG2"
 const card: Card = {
       set: Set,
       name: {
-         en: "Koffing",
-         ja: "Koffing",
-         fr: "Koffing",
-         de: "Koffing",
-         es: "Koffing",
-         it: "Koffing",
-         pt: "Koffing",
-      },
+                  ja: "Koffing",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,23 +18,11 @@ const card: Card = {
         {
           cost: ["Grass"],
           name: {
-            en: "Smog",
-            ja: "スモッグ",
-            fr: "Smog",
-            de: "SMOG",
-            es: "Niebla tóxica",
-            it: "Smog",
-            pt: "Fumaça",
-          },
+                        ja: "スモッグ",
+                                                                      },
           effect: {
-            en: "The Defending Pokemon is now Poisoned.",
-            ja: "防御ポケモンは現在中毒になっています。",
-            fr: "Le Pokémon en défense est maintenant empoisonné.",
-            de: "Das verteidigende Pokemon ist jetzt vergiftet.",
-            es: "El Pokémon defensor ahora está envenenado.",
-            it: "Il Pokemon in carica è ora avvelenato.",
-            pt: "O Pokémon atual agora está envenenado.",
-          },
+                        ja: "防御ポケモンは現在中毒になっています。",
+                                                                      },
         },
       ],
 
