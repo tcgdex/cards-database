@@ -4,7 +4,6 @@ import serie from '../PCG'
 const set: Set = {
 	id: 'PCG9',
 	name: {
-		en: 'Offence and Defense of the Furthest Ends',
 		ja: 'さいはての攻防'
 	},
 
