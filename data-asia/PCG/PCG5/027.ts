@@ -4,14 +4,8 @@ import Set from "../PCG5"
 const card: Card = {
       set: Set,
       name: {
-         en: "Spheal",
-         ja: "スフィアル",
-         fr: "Sphoal",
-         de: "Spheal",
-         es: "Esfera",
-         it: "Sfeal",
-         pt: "Speal",
-      },
+                  ja: "スフィアル",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,14 +18,8 @@ const card: Card = {
         {
           cost: ["Colorless", "Colorless"],
           name: {
-            en: "Ram",
-            ja: "ラム",
-            fr: "Bélier",
-            de: "RAM",
-            es: "RAM",
-            it: "RAM",
-            pt: "Bater",
-          },
+                        ja: "ラム",
+                                                                      },
           damage: 20,
         },
       ],

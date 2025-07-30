@@ -4,14 +4,8 @@ import Set from "../PCG5"
 const card: Card = {
       set: Set,
       name: {
-         en: "Strange Cave",
-         ja: "奇妙な洞窟",
-         fr: "Strange Cave",
-         de: "Seltsame Höhle",
-         es: "Cueva extraña",
-         it: "Strana grotta",
-         pt: "Caverna estranha",
-      },
+                  ja: "奇妙な洞窟",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

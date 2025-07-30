@@ -4,14 +4,8 @@ import Set from "../PCG5"
 const card: Card = {
       set: Set,
       name: {
-         en: "Power Tree",
-         ja: "パワーツリー",
-         fr: "Arbre électrique",
-         de: "Powerbaum",
-         es: "Árbol eléctrico",
-         it: "Power Tree",
-         pt: "Árvore de energia",
-      },
+                  ja: "パワーツリー",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
