@@ -2,37 +2,40 @@ import {Card} from "../../../interfaces"
 import Set from "../E5"
 
 const card: Card = {
-      set: Set,
-      name: {
-         ja: "ニドランf",
-      },
+    set: Set,
+    name: {
+        ja: "ニドランf",
+    },
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [29],
-      hp: 50,
-      types: ["Grass"],
-      stage: "Basic",
+    rarity: "Common",
+    category: "Pokemon",
+    dexId: [29],
+    hp: 50,
+    types: ["Grass"],
+    stage: "Basic",
 
-      attacks: [
+    attacks: [
         {
-          cost: ["Colorless", "Colorless"],
-          name: {
-            ja: "毒物",
-          },
-          effect: {
-            ja: "防御ポケモンは現在中毒になっています。",
-          },
-          damage: 10,
+            cost: ["Colorless", "Colorless"],
+            name: {
+                ja: "毒物",
+            },
+            effect: {
+                ja: "防御ポケモンは現在中毒になっています。",
+            },
+            damage: 10,
         },
-      ],
+    ],
 
-      retreat: 1,
+    retreat: 1,
 
-      variants: [
+    variants: [
         {
-          type: "normal",
-          stamp: ["1st edition"],
+            type: "normal",
         },
-      ],
+        {
+            type: "normal",
+            stamps: ["1st Edition"],
+        },
+    ],
 };
