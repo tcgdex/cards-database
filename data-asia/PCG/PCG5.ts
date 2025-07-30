@@ -4,7 +4,6 @@ import serie from '../PCG'
 const set: Set = {
 	id: 'PCG5',
 	name: {
-		en: 'Mirage Forest',
 		ja: 'まぼろしの森'
 	},
 
