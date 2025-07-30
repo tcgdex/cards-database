@@ -4,14 +4,8 @@ import Set from "../PCG8"
 const card: Card = {
       set: Set,
       name: {
-         en: "Cessation Crystal",
-         ja: "停止クリスタル",
-         fr: "Crystal de cessation",
-         de: "Abbruchkristall",
-         es: "Cesación de cristal",
-         it: "Cristallo di cessazione",
-         pt: "Cessação Cristal",
-      },
+                  ja: "停止クリスタル",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

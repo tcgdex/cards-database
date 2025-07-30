@@ -4,14 +4,8 @@ import Set from "../PCG8"
 const card: Card = {
       set: Set,
       name: {
-         en: "Windstorm",
-         ja: "暴風",
-         fr: "Tempête de vent",
-         de: "Sturm",
-         es: "Tormenta de viento",
-         it: "Tempesta di vento",
-         pt: "Tempestade de vento",
-      },
+                  ja: "暴風",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
