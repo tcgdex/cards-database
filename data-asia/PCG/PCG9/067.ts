@@ -4,14 +4,8 @@ import Set from "../PCG9"
 const card: Card = {
       set: Set,
       name: {
-         en: "Holon Legacy",
-         ja: "ホロンの遺産",
-         fr: "Héritage holon",
-         de: "Holon Erbe",
-         es: "Legado de holón",
-         it: "Holon Legacy",
-         pt: "Holon Legacy",
-      },
+                  ja: "ホロンの遺産",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

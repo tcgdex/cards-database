@@ -4,14 +4,8 @@ import Set from "../PCG9"
 const card: Card = {
       set: Set,
       name: {
-         en: "Seel (Delta Species)",
-         ja: "SEEL（デルタ種）",
-         fr: "Seel (espèce delta)",
-         de: "Seel (Delta -Arten)",
-         es: "Seel (especie delta)",
-         it: "Seel (specie delta)",
-         pt: "Seel (espécie Delta)",
-      },
+                  ja: "SEEL（デルタ種）",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,27 +18,15 @@ const card: Card = {
         {
           cost: ["Colorless"],
           name: {
-            en: "Pound",
-            ja: "ポンド",
-            fr: "Livre",
-            de: "Pfund",
-            es: "Libra",
-            it: "Libbra",
-            pt: "Libra",
-          },
+                        ja: "ポンド",
+                                                                      },
           damage: 10,
         },
         {
           cost: ["Colorless", "Colorless"],
           name: {
-            en: "Aurora Beam",
-            ja: "オーロラビーム",
-            fr: "Faisceau auroré",
-            de: "Aurora Strahl",
-            es: "Haz de aurora",
-            it: "Raggio di aurora",
-            pt: "Feixe de aurora",
-          },
+                        ja: "オーロラビーム",
+                                                                      },
           damage: 20,
         },
       ],

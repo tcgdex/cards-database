@@ -4,14 +4,8 @@ import Set from "../PCG9"
 const card: Card = {
       set: Set,
       name: {
-         en: "Dratini (Delta Species)",
-         ja: "ドラチーニ（デルタ種）",
-         fr: "Dratini (espèces delta)",
-         de: "Dratini (Delta -Arten)",
-         es: "Dratini (especie delta)",
-         it: "Dratini (Delta Species)",
-         pt: "Dratini (espécie Delta)",
-      },
+                  ja: "ドラチーニ（デルタ種）",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,14 +18,8 @@ const card: Card = {
         {
           cost: ["Colorless"],
           name: {
-            en: "Ram",
-            ja: "ラム",
-            fr: "Bélier",
-            de: "RAM",
-            es: "RAM",
-            it: "RAM",
-            pt: "Bater",
-          },
+                        ja: "ラム",
+                                                                      },
           damage: 10,
         },
       ],
