@@ -4,14 +4,8 @@ import Set from "../PCG4"
 const card: Card = {
       set: Set,
       name: {
-         en: "Pineco",
-         ja: "Pineco",
-         fr: "Pignon",
-         de: "Pineco",
-         es: "Pineco",
-         it: "Pineco",
-         pt: "Pineco",
-      },
+                  ja: "Pineco",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,14 +18,8 @@ const card: Card = {
         {
           cost: ["Colorless"],
           name: {
-            en: "Ram",
-            ja: "ラム",
-            fr: "Bélier",
-            de: "RAM",
-            es: "RAM",
-            it: "RAM",
-            pt: "Bater",
-          },
+                        ja: "ラム",
+                                                                      },
           damage: 10,
         },
       ],

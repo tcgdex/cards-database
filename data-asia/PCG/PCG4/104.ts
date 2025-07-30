@@ -4,14 +4,8 @@ import Set from "../PCG4"
 const card: Card = {
       set: Set,
       name: {
-         en: "Protective Orb",
-         ja: "保護オーブ",
-         fr: "Orbe protecteur",
-         de: "Schutzkugel",
-         es: "Orbe protector",
-         it: "Sfera protettiva",
-         pt: "Orb protetor",
-      },
+                  ja: "保護オーブ",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
