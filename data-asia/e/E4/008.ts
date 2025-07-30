@@ -43,5 +43,9 @@ const card: Card = {
           type: "normal",
           subtype: "unlimited",
         },
+        {
+          type: "normal",
+          stamp: ["1st edition"],
+        },
       ],
 };
