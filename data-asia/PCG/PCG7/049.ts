@@ -4,14 +4,8 @@ import Set from "../PCG7"
 const card: Card = {
       set: Set,
       name: {
-         en: "Holon Fossil",
-         ja: "ホロン化石",
-         fr: "Holon fossile",
-         de: "Holon Fossil",
-         es: "Holón fósil",
-         it: "Fossile di holon",
-         pt: "Holon Fossil",
-      },
+                  ja: "ホロン化石",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

@@ -4,14 +4,8 @@ import Set from "../PCG7"
 const card: Card = {
       set: Set,
       name: {
-         en: "Horsea (Delta Species)",
-         ja: "ホース（デルタ種）",
-         fr: "Horsea (espèce delta)",
-         de: "Pferdesee (Delta -Arten)",
-         es: "Horsea (especie delta)",
-         it: "Horsea (Delta Species)",
-         pt: "Horsea (espécie Delta)",
-      },
+                  ja: "ホース（デルタ種）",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,27 +18,15 @@ const card: Card = {
         {
           cost: ["Colorless"],
           name: {
-            en: "Ram",
-            ja: "ラム",
-            fr: "Bélier",
-            de: "RAM",
-            es: "RAM",
-            it: "RAM",
-            pt: "Bater",
-          },
+                        ja: "ラム",
+                                                                      },
           damage: 10,
         },
         {
           cost: ["Fire", "Colorless"],
           name: {
-            en: "Steady Firebreathing",
-            ja: "安定した火の侵食",
-            fr: "Incendie constant",
-            de: "Stetige Feuerbrechung",
-            es: "Respiración de fuego constante",
-            it: "Fireshinging costante",
-            pt: "Remação de fogo constante",
-          },
+                        ja: "安定した火の侵食",
+                                                                      },
           damage: 20,
         },
       ],

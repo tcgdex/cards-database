@@ -4,14 +4,8 @@ import Set from "../PCG7"
 const card: Card = {
       set: Set,
       name: {
-         en: "Holon Adventurer",
-         ja: "ホロンアドベンチャー",
-         fr: "Aventurier holon",
-         de: "Holon Abenteurer",
-         es: "Holon Adventurer",
-         it: "Holon Adventurer",
-         pt: "Aventureiro de Holon",
-      },
+                  ja: "ホロンアドベンチャー",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

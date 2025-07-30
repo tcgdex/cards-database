@@ -4,14 +4,8 @@ import Set from "../PCG7"
 const card: Card = {
       set: Set,
       name: {
-         en: "Holon Lake",
-         ja: "ホロン湖",
-         fr: "Lac Holon",
-         de: "Holon Lake",
-         es: "Lago Holón",
-         it: "Lago di Holon",
-         pt: "Lago Holon",
-      },
+                  ja: "ホロン湖",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
