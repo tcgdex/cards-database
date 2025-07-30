@@ -4,14 +4,8 @@ import Set from "../PCG3"
 const card: Card = {
       set: Set,
       name: {
-         en: "Meteor Falls",
-         ja: "流星滝",
-         fr: "Les météores tombent",
-         de: "Meteor fällt",
-         es: "Meteorito cae",
-         it: "Meteor cade",
-         pt: "Meteor Falls",
-      },
+                  ja: "流星滝",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
