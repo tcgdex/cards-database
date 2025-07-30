@@ -4,14 +4,8 @@ import Set from "../ADV2"
 const card: Card = {
       set: Set,
       name: {
-         en: "Root Fossil",
-         ja: "根の化石",
-         fr: "Fossile des racines",
-         de: "Wurzelfossil",
-         es: "Fósil de raíz",
-         it: "Fossile radicale",
-         pt: "Raiz fóssil",
-      },
+                  ja: "根の化石",
+                                                   },
 
       rarity: "Common",
       category: "Trainer",

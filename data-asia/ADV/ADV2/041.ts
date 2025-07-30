@@ -4,14 +4,8 @@ import Set from "../ADV2"
 const card: Card = {
       set: Set,
       name: {
-         en: "Azurill",
-         ja: "アズリル",
-         fr: "Azurill",
-         de: "Azurill",
-         es: "Azurill",
-         it: "Azurill",
-         pt: "Azurill",
-      },
+                  ja: "アズリル",
+                                                   },
 
       rarity: "Uncommon",
       category: "Pokemon",
@@ -23,46 +17,22 @@ const card: Card = {
       abilities: [
         {
           name: {
-            en: "Baby Evolution",
-            ja: "赤ちゃんの進化",
-            fr: "Évolution de bébé",
-            de: "Babyentwicklung",
-            es: "Evolución del bebé",
-            it: "Evoluzione del bambino",
-            pt: "Evolução do bebê",
-          },
+                        ja: "赤ちゃんの進化",
+                                                                      },
           effect: {
-            en: "Once during your turn (before your attack), you may put Marill from your hand onto Azurill (this counts as evolving Azurill), and remove all damage counters from Azurill.",
-            ja: "ターン中に（攻撃の前に）、マリルを手からアズリルに置くことができます（これは進化するアズリルとしてカウントされます）。",
-            fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez mettre Marill de votre main sur Azurill (cela compte comme Azurill en évolution) et retirer tous les compteurs de dégâts d'Azurill.",
-            de: "Sobald Sie während Ihres Zuges (vor Ihrem Angriff) sind, können Sie Marill von Ihrer Hand auf Azurill stellen (dies zählt als weiterentwickelnde Azurill) und entfernen alle Schadenszähler von Azurill.",
-            es: "Una vez durante su turno (antes de su ataque), puede poner a Marill de su mano en Azurill (esto cuenta como Azurill en evolución) y eliminar todos los contadores de daño de Azurill.",
-            it: "Una volta durante il tuo turno (prima del tuo attacco), puoi mettere Marill dalla tua mano su Azurill (questo conta come Azurill in evoluzione) e rimuovere tutti i contatori di danno da Azurill.",
-            pt: "Uma vez durante o seu turno (antes do seu ataque), você pode colocar Marill da sua mão no Azurill (isso conta como evoluindo Azurill) e remover todos os contadores de danos de Azurill.",
-          },
+                        ja: "ターン中に（攻撃の前に）、マリルを手からアズリルに置くことができます（これは進化するアズリルとしてカウントされます）。",
+                                                                      },
       }],
 
       attacks: [
         {
           cost: ["Colorless"],
           name: {
-            en: "Jump Catch",
-            ja: "ジャンプキャッチ",
-            fr: "Prier",
-            de: "Sprungfang",
-            es: "Captura de salto",
-            it: "Salta cattura",
-            pt: "Pular captura",
-          },
+                        ja: "ジャンプキャッチ",
+                                                                      },
           effect: {
-            en: "Search your deck for a Trainer card, show it to your opponent, and put it into your hand.  Shuffle your deck afterward.",
-            ja: "デッキを検索して、トレーナーカードを検索し、相手に見せて、手に入れてください。  その後、デッキをシャッフルします。",
-            fr: "Recherchez votre jeu pour une carte d'entraînement, montrez-la à votre adversaire et mettez-la dans votre main.  Mélanger votre deck par la suite.",
-            de: "Suchen Sie Ihr Deck nach einer Trainerkarte, zeigen Sie es Ihrem Gegner und geben Sie sie in Ihre Hand.  Mischen Sie anschließend Ihr Deck.",
-            es: "Busque en su mazo una tarjeta de entrenador, muéstrelo a su oponente y póngalo en su mano.  Baraja tu mazo después.",
-            it: "Cerca nel tuo mazzo una carta dell'allenatore, mostralo al tuo avversario e mettilo in mano.  Shuffle il tuo mazzo in seguito.",
-            pt: "Pesquise seu baralho em busca de uma carta de treinador, mostre -a ao seu oponente e coloque -o em sua mão.  Afaste seu baralho depois.",
-          },
+                        ja: "デッキを検索して、トレーナーカードを検索し、相手に見せて、手に入れてください。  その後、デッキをシャッフルします。",
+                                                                      },
         },
       ],
 

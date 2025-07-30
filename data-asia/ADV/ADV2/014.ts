@@ -4,14 +4,8 @@ import Set from "../ADV2"
 const card: Card = {
       set: Set,
       name: {
-         en: "Psyduck",
-         ja: "Psyduck",
-         fr: "Psyde",
-         de: "Psyduck",
-         es: "Psíquico",
-         it: "Psyduck",
-         pt: "Psyduck",
-      },
+                  ja: "Psyduck",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,23 +18,11 @@ const card: Card = {
         {
           cost: ["Colorless"],
           name: {
-            en: "Confusion Wave",
-            ja: "混乱波",
-            fr: "Vague de confusion",
-            de: "Verwirrungswelle",
-            es: "Ola de confusión",
-            it: "Onda di confusione",
-            pt: "Onda de confusão",
-          },
+                        ja: "混乱波",
+                                                                      },
           effect: {
-            en: "Both Psyduck and the Defending Pokemon are now Confused.",
-            ja: "Psyduckと防御ポケモンの両方が混乱しています。",
-            fr: "Psyduck et le Pokémon en défense sont maintenant confus.",
-            de: "Sowohl Psyduck als auch das verteidigende Pokemon sind jetzt verwirrt.",
-            es: "Tanto Psyduck como el Pokémon defensor ahora están confundidos.",
-            it: "Sia Psyduck che i Pokemon in carica sono ora confusi.",
-            pt: "Tanto o Psyduck quanto o Pokémon atual agora estão confusos.",
-          },
+                        ja: "Psyduckと防御ポケモンの両方が混乱しています。",
+                                                                      },
         },
       ],
 
