@@ -4,14 +4,8 @@ import Set from "../PCG3"
 const card: Card = {
       set: Set,
       name: {
-         en: "Heal Energy",
-         ja: "エネルギーを癒します",
-         fr: "Guérir",
-         de: "Energie heilen",
-         es: "Sanar energía",
-         it: "Guarire energia",
-         pt: "Cura energia",
-      },
+                  ja: "エネルギーを癒します",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
