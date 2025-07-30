@@ -4,7 +4,6 @@ import serie from '../PCG'
 const set: Set = {
 	id: 'PCG2',
 	name: {
-		en: 'Clash of the blue Sky',
 		ja: '蒼空の激突'
 	},
 
