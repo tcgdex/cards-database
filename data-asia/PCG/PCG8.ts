@@ -4,7 +4,6 @@ import serie from '../PCG'
 const set: Set = {
 	id: 'PCG8',
 	name: {
-		en: 'Miracle Crystal',
 		ja: 'きせきの結晶'
 	},
 
