@@ -4,7 +4,6 @@ import serie from '../PCG'
 const set: Set = {
 	id: 'PCG1',
 	name: {
-		en: 'Flight of Legends',
 		ja: '伝説の飛翔'
 	},
 
