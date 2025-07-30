@@ -2,27 +2,21 @@ import {Card} from "../../../interfaces"
 import Set from "../ADV4"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Ancient Tomb",
-         ja: "古墳",
-         fr: "Tombe ancienne",
-         de: "Altes Grab",
-         es: "Tumba antigua",
-         it: "Antica tomba",
-         pt: "Túmulo antigo",
-      },
+	set: Set,
+	name: {
+		ja: "古墳",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
