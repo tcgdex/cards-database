@@ -1,5 +1,4 @@
 import { objectOmit } from '@dzeio/object-util'
-import type { Card as SDKCard } from '@tcgdex/sdk'
 
 interface Root {
   version: number
@@ -38,17 +37,18 @@ export async function updateDatas(): Promise<boolean> {
 		return false
 	}
 
-	await fetch('https://downloads.s3.cardmarket.com/productCatalog/priceGuide/price_guide_6.json')
-		.then((res) => res.json())
-		.then((data) => {
-			if (data.version !== SUPPORTED_VERSION) {
-				console.error(`Unsupported version: ${data.version}`)
-				return false
-			}
-			dataCache = new Map(data.priceGuides.map((pg) => [pg.idProduct, pg]))
-			lastUpdate = new Date(data.createdAt)
-			lastFetch = new Date()
-		})
+	const data = await fetch('https://downloads.s3.cardmarket.com/productCatalog/priceGuide/price_guide_6.json')
+		.then((res) => res.json() as Promise<Root>)
+
+	if (data.version !== SUPPORTED_VERSION) {
+		console.error(`Unsupported version: ${data.version}`)
+		return false
+	}
+
+	dataCache = new Map(data.priceGuides.map((pg) => [pg.idProduct, pg]))
+	lastUpdate = new Date(data.createdAt)
+	lastFetch = new Date()
+
 	return true
 }
 

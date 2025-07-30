@@ -103,6 +103,10 @@ const card: Card = {
 
 	description: {
 		en: "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan."
+	},
+
+	thirdParty: {
+		cardmarket: 483529
 	}
 }
 

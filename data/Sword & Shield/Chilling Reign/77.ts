@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		en: "These Diglett triplets dig over 60 miles below sea level. No one knows what it's like underground."
+	},
+
+	thirdParty: {
+		cardmarket: 567185
 	}
 }
 

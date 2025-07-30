@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [304],
+
 	name: {
 		en: "Aron",
 		fr: "Galekid",
@@ -86,6 +87,10 @@ const card: Card = {
 
 	description: {
 		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
+	},
+
+	thirdParty: {
+		cardmarket: 483484
 	}
 }
 

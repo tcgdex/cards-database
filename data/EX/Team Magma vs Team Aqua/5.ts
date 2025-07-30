@@ -7,22 +7,24 @@ const card: Card = {
 		fr: "Sharpedo de Team Aqua",
 		de: "Team Aquas Tohaido"
 	},
+
 	illustrator: "Katsura Tabata",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		319,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 		"Darkness",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -63,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -70,10 +73,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275982
+	}
 }
 
 export default card

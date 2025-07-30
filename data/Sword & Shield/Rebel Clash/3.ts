@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [12],
+
 	name: {
 		en: "Butterfree",
 		fr: "Papilusion",
@@ -92,6 +93,10 @@ const card: Card = {
 
 	description: {
 		en: "In battle, it flaps its wings at great speed to release highly toxic dust into the air."
+	},
+
+	thirdParty: {
+		cardmarket: 457393
 	}
 }
 

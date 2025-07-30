@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [455],
+
 	name: {
 		en: "Carnivine",
 		fr: "Vortente",
@@ -93,6 +94,10 @@ const card: Card = {
 
 	description: {
 		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
+	},
+
+	thirdParty: {
+		cardmarket: 482899
 	}
 }
 

@@ -88,7 +88,11 @@ const card: Card = {
 		de: "Victini-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545016
+	}
 }
 
 export default card

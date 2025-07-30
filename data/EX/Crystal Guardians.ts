@@ -23,6 +23,10 @@ const ex14: Set = {
 	abbreviations: {
 		official: "CG",
 		fr: "GDC"
+	},
+
+	thirdParty: {
+		cardmarket: 1552
 	}
 }
 

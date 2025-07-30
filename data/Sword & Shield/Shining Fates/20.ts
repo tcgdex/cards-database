@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
+	},
+
+	thirdParty: {
+		cardmarket: 539123
 	}
 }
 

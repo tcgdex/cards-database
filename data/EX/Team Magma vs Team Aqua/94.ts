@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Suicune ex",
 		de: "Suicune ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		245,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -67,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276071
+	}
 }
 
 export default card

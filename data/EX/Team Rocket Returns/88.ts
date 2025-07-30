@@ -15,6 +15,10 @@ const card: Card = {
 
 	effect: {
 		de: "Discard a card from your hand. Then, draw 3 cards. If you dicard a Pokémon that has Dark or Rocket's in its name, draw 4 cards instead."
+	},
+
+	thirdParty: {
+		cardmarket: 276380
 	}
 }
 

@@ -67,7 +67,11 @@ const card: Card = {
 		en: "A combative Pokémon, it's ready to pick a fight with anyone. It has talons that can crush hard berries."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574194
+	}
 }
 
 export default card

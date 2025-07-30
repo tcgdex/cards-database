@@ -97,7 +97,11 @@ const card: Card = {
 		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
 	},
 
-	dexId: [264]
+	dexId: [264],
+
+	thirdParty: {
+		cardmarket: 436699
+	}
 }
 
 export default card

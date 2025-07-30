@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [14],
+
 	name: {
 		en: "Kakuna",
 		fr: "Coconfort",
@@ -67,6 +68,10 @@ const card: Card = {
 
 	description: {
 		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
+	},
+
+	thirdParty: {
+		cardmarket: 499870
 	}
 }
 

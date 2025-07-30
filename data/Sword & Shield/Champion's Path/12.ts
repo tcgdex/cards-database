@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [319],
+
 	name: {
 		en: "Sharpedo",
 		fr: "Sharpedo",
@@ -74,6 +75,10 @@ const card: Card = {
 
 	description: {
 		en: "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood."
+	},
+
+	thirdParty: {
+		cardmarket: 499915
 	}
 }
 

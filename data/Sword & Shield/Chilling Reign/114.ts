@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		en: "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 567222
 	}
 }
 

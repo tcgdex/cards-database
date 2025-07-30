@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		en: "It is said that when it roars, a volcano erupts somewhere around the globe."
+	},
+
+	thirdParty: {
+		cardmarket: 545006
 	}
 }
 

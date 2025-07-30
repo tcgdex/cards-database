@@ -85,7 +85,11 @@ const card: Card = {
 		de: "Remoraid"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 527640
+	}
 }
 
 export default card

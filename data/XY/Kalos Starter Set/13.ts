@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Frogadier",
 		de: "Amphizel"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		657,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Froakie",
 		fr: "Grenousse",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Froakie",
 		de: "Froxy"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -85,8 +90,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281279
+	}
 }
 
 export default card

@@ -16,6 +16,10 @@ const card: Card = {
 
 	effect: {
 		de: "Lege Multi-Energie an 1 deiner Pokémon an. Während Multi-Energie im Spiel ist, zählt sie als jeder beliebige Basis-Energietyp, spendet aber immer nur eine Energie auf einmal. (Sie hat keinen Effekt, außer dass sie Energie spendet.) Multi-Energie zählt als -Energie, falls sie an ein Pokémon angelegt wird, an dem bereits eine Spezialenergiekarte angelegt ist."
+	},
+
+	thirdParty: {
+		cardmarket: 277395
 	}
 }
 

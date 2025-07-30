@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [292],
+
 	name: {
 		en: "Shedinja",
 		fr: "Munja",
@@ -85,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves."
+	},
+
+	thirdParty: {
+		cardmarket: 511750
 	}
 }
 

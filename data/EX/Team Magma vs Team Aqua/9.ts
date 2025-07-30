@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Groudon de Team Magma",
 		de: "Team Magmas Groudon"
 	},
+
 	illustrator: "Kazuo Yazawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		383,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 		"Darkness",
@@ -38,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -83,10 +88,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275986
+	}
 }
 
 export default card

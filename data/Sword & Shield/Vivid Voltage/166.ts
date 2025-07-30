@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [826],
+
 	name: {
 		en: "Orbeetle V",
 		fr: "Astronelle V",
@@ -90,7 +91,11 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 511520
+	}
 }
 
 export default card

@@ -16,6 +16,10 @@ const card: Card = {
 
 	effect: {
 		de: "Holon-Energie FK spendet -Energie.\nWenn an dem Pokémon, an dem Holon-Energie FK angelegt ist, auch eine -Basis-Energiekarte angelegt ist, hat dieses Pokémon keine Schwächen. Wenn an dem Pokémon, an dem Holon-Energie FK angelegt ist, auch eine -Basis-Energiekarte angelegt ist, werden die Schadenspunkte, die dieses Pokémon zufügt, nicht von Resistenzen betroffen. Ignoriere diese Effekte, wenn Holon-Energie FK an ein Pokémon-ex angelegt ist."
+	},
+
+	thirdParty: {
+		cardmarket: 277289
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [755],
+
 	name: {
 		en: "Morelull",
 		fr: "Spododo",
@@ -85,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight."
+	},
+
+	thirdParty: {
+		cardmarket: 483274
 	}
 }
 

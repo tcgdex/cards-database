@@ -25,11 +25,15 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie jeden Energietyp, aber immer nur 1 Energie.\nWenn an das Pokémon, an das diese Karte angelegt ist, mindestens 1 andere Spezial-Energie angelegt ist, liefert diese Karte stattdessen {C}-Energie."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "G",
 
 	variants: {
 		holo: false
+	},
+
+	thirdParty: {
+		cardmarket: 715666
 	}
 }
 

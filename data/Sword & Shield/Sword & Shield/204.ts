@@ -77,7 +77,11 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	dexId: [877]
+	dexId: [877],
+
+	thirdParty: {
+		cardmarket: 436529
+	}
 }
 
 export default card

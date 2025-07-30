@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [359],
+
 	name: {
 		en: "Absol",
 		fr: "Absol",
@@ -63,6 +64,10 @@ const card: Card = {
 
 	description: {
 		en: "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise."
+	},
+
+	thirdParty: {
+		cardmarket: 500045
 	}
 }
 

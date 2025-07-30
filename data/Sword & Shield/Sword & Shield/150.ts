@@ -87,7 +87,11 @@ const card: Card = {
 		en: "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit."
 	},
 
-	dexId: [821]
+	dexId: [821],
+
+	thirdParty: {
+		cardmarket: 436844
+	}
 }
 
 export default card

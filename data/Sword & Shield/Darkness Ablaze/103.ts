@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [168],
+
 	name: {
 		en: "Ariados",
 		fr: "Migalos",
@@ -101,6 +102,10 @@ const card: Card = {
 
 	description: {
 		en: "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively."
+	},
+
+	thirdParty: {
+		cardmarket: 483394
 	}
 }
 

@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		en: "It has a generous habit of sharing its food with people and Pokémon, so it's always scrounging around for more food."
+	},
+
+	thirdParty: {
+		cardmarket: 567112
 	}
 }
 

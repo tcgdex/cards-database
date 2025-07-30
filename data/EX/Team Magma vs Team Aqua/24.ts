@@ -7,22 +7,24 @@ const card: Card = {
 		fr: "Cacnea de Team Aqua",
 		de: "Team Aquas Tuska"
 	},
+
 	illustrator: "K. Utsunomiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		331,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -67,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276001
+	}
 }
 
 export default card

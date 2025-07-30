@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [509],
+
 	name: {
 		en: "Purrloin",
 		fr: "Chacripan",
@@ -86,6 +87,10 @@ const card: Card = {
 
 	description: {
 		en: "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit."
+	},
+
+	thirdParty: {
+		cardmarket: 500050
 	}
 }
 

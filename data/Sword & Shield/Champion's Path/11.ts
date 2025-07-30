@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [318],
+
 	name: {
 		en: "Carvanha",
 		fr: "Carvanha",
@@ -62,6 +63,10 @@ const card: Card = {
 
 	description: {
 		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
+	},
+
+	thirdParty: {
+		cardmarket: 499910
 	}
 }
 

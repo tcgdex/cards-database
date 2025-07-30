@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		en: "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear."
+	},
+
+	thirdParty: {
+		cardmarket: 545321
 	}
 }
 

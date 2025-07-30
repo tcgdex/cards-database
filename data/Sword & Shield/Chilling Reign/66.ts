@@ -97,6 +97,10 @@ const card: Card = {
 
 	description: {
 		en: "There's a theory that inside Golurk is a perpetual motion machine that produces limitless energy, but this belief hasn't been proven."
+	},
+
+	thirdParty: {
+		cardmarket: 567174
 	}
 }
 

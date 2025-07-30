@@ -1,9 +1,17 @@
 {
 	"private": true,
 	"scripts": {
-		"validate": "tsc --noEmit --project tsconfig.json"
+		"validate": "tsc --noEmit --project tsconfig.json",
+		"check-missing": "ts-node meta/scripts/check-missing.ts",
+		"check-missing:help": "echo 'Usage: npm run check-missing \"<pattern>\" \"<property>\" [output-file]'",
+		"link-cardmarket": "ts-node meta/scripts/linkCardToCardmarket.ts"
 	},
 	"devDependencies": {
-		"typescript": "^5"
+		"@dzeio/object-util": "^1.9.2",
+		"@types/jscodeshift": "^17.3.0",
+		"@types/node": "^20.0.0",
+		"glob": "^10.0.0",
+		"ts-node": "^10.0.0",
+		"typescript": "^5.0.0"
 	}
 }

@@ -17,6 +17,10 @@ const card: Card = {
 	effect: {
 		fr: "Cherchez dans votre pile de défausse une carte Supporter, montrez-la à votre adversaire et placez-la dans votre main.",
 		de: "Search your dicard pile for a Supporter card, show it to your opponent, and put it into your hand."
+	},
+
+	thirdParty: {
+		cardmarket: 276276
 	}
 }
 

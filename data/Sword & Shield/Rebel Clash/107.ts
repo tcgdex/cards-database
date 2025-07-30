@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [839],
+
 	name: {
 		en: "Coalossal",
 		fr: "Monthracite",
@@ -93,6 +94,10 @@ const card: Card = {
 
 	description: {
 		en: "It's usually peaceful, but the vandalism of mines enrages it. Offenders will be incinerated with flames that reach 2,700 degrees Fahrenheit."
+	},
+
+	thirdParty: {
+		cardmarket: 457948
 	}
 }
 

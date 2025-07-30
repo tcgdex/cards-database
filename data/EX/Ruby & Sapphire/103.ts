@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Farfuret ex",
 		de: "Sniebel ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		215,
 	],
+
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "EX",
 
@@ -61,12 +63,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -74,9 +78,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275751
+	}
 }
 
 export default card

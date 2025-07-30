@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		en: "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is."
+	},
+
+	thirdParty: {
+		cardmarket: 436189
 	}
 }
 

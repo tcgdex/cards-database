@@ -17,6 +17,10 @@ const card: Card = {
 	effect: {
 		fr: "Échangez votre Pokémon Actif avec 1 des Pokémon de votre Banc.",
 		de: "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 276278
 	}
 }
 

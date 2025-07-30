@@ -97,6 +97,10 @@ const card: Card = {
 
 	description: {
 		en: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
+	},
+
+	thirdParty: {
+		cardmarket: 457868
 	}
 }
 

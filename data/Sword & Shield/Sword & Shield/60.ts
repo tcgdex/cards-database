@@ -82,7 +82,11 @@ const card: Card = {
 		en: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go."
 	},
 
-	dexId: [833]
+	dexId: [833],
+
+	thirdParty: {
+		cardmarket: 436434
+	}
 }
 
 export default card

@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		en: "The powder that covers its body regulates its temperature, so it can live in any region or climate."
+	},
+
+	thirdParty: {
+		cardmarket: 544951
 	}
 }
 

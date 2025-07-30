@@ -86,7 +86,11 @@ const card: Card = {
 		en: "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them."
 	},
 
-	dexId: [170]
+	dexId: [170],
+
+	thirdParty: {
+		cardmarket: 436469
+	}
 }
 
 export default card

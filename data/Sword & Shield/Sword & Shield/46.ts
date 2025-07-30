@@ -89,6 +89,10 @@ const card: Card = {
 
 	description: {
 		en: "Its dorsal, pectoral, and tail fins wave elegantly in water. That is why it is known as the Water Dancer."
+	},
+
+	thirdParty: {
+		cardmarket: 436379
 	}
 }
 

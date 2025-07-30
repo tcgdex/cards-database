@@ -98,6 +98,10 @@ const card: Card = {
 
 	description: {
 		en: "Its potent spectral powers allow it to manipulate others. It once used its powers to force people and Pokémon to build a kingdom to its liking."
+	},
+
+	thirdParty: {
+		cardmarket: 545616
 	}
 }
 

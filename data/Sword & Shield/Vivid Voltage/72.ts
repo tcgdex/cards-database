@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [358],
+
 	name: {
 		en: "Chimecho",
 		fr: "Éoko",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "Emitting ultrasonic cries, it floats on winds to travel great distances."
+	},
+
+	thirdParty: {
+		cardmarket: 511780
 	}
 }
 

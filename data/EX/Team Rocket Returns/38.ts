@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dark Magcargo",
 		de: "Dunkles Magcargo"
 	},
+
 	illustrator: "Nakaoka",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		219,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Slugma",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276330
+	}
 }
 
 export default card

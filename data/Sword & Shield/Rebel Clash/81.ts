@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [769],
+
 	name: {
 		en: "Sandygast",
 		fr: "Bacabouh",
@@ -72,6 +73,10 @@ const card: Card = {
 
 	description: {
 		en: "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast."
+	},
+
+	thirdParty: {
+		cardmarket: 457823
 	}
 }
 

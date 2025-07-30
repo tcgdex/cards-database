@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [718],
+
 	name: {
 		en: "Zygarde",
 		fr: "Zygarde",
@@ -88,6 +89,10 @@ const card: Card = {
 
 	description: {
 		en: "Some say it can change to an even more powerful form when battling those who threaten the ecosystem."
+	},
+
+	thirdParty: {
+		cardmarket: 499995
 	}
 }
 

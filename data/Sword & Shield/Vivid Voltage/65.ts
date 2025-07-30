@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [203],
+
 	name: {
 		en: "Girafarig",
 		fr: "Girafarig",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent by biting."
+	},
+
+	thirdParty: {
+		cardmarket: 511745
 	}
 }
 

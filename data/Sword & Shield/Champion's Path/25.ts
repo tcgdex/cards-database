@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [67],
+
 	name: {
 		en: "Machoke",
 		fr: "Machopeur",
@@ -92,6 +93,10 @@ const card: Card = {
 
 	description: {
 		en: "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions."
+	},
+
+	thirdParty: {
+		cardmarket: 499980
 	}
 }
 

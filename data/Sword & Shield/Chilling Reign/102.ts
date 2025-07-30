@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		en: "Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival."
+	},
+
+	thirdParty: {
+		cardmarket: 567210
 	}
 }
 

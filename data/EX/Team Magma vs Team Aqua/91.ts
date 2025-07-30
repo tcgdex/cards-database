@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Entei ex",
 		de: "Entei ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		244,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -68,10 +71,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276068
+	}
 }
 
 export default card

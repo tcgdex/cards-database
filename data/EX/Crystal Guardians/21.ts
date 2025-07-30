@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Toudoudou",
 		de: "Fluffeluff"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		174,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
@@ -45,10 +48,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277102
+	}
 }
 
 export default card

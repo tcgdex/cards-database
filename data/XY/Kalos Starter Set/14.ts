@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Greninja",
 		de: "Quajutsu"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		658,
 	],
+
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Frogadier",
 		fr: "Croâporal",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Frogadier",
 		de: "Amphizel"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -85,8 +90,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281280
+	}
 }
 
 export default card

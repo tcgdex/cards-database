@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [737],
+
 	name: {
 		en: "Charjabug",
 		fr: "Chrysapile",
@@ -92,6 +93,10 @@ const card: Card = {
 
 	description: {
 		en: "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws."
+	},
+
+	thirdParty: {
+		cardmarket: 457758
 	}
 }
 

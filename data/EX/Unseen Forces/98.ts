@@ -16,6 +16,10 @@ const card: Card = {
 
 	effect: {
 		de: "Boost Energy can be attached only to an Evolved Pokémon. Discard Boost Energy at the end of the turn it was attached. Boost Energy provides	Energy. The Pokémon Boost Energy is attached to can't retreat. If the Pokémon Boost Energy is attached to isn't an Evolved Pokémon, discard Boost Energy."
+	},
+
+	thirdParty: {
+		cardmarket: 276744
 	}
 }
 

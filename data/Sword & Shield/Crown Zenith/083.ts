@@ -46,11 +46,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "D",
+
 	variants: {
 		normal: false,
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 691801
 	}
 }
 

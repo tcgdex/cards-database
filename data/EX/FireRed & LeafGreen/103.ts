@@ -16,6 +16,10 @@ const card: Card = {
 
 	effect: {
 		de: "Lege die Multienergiekarte an eines deiner Pokémon an. Die Multienergiekarte liefert jeden Typ von Energie, solange sie im Spiel ist, liefert aber nur eine Energie auf einmal. (Zählt außerhalb des Spiels nicht als Basaisenergiekarte.) Die Multienergiekarte liefert 1 Energie, wenn sie an ein Pokémon angelegt wird, das schon Spezialenergiekarten hat."
+	},
+
+	thirdParty: {
+		cardmarket: 276279
 	}
 }
 

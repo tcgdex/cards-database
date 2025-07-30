@@ -7,22 +7,24 @@ const card: Card = {
 		fr: "Celebi Obscur",
 		de: "Dunkles Celebi"
 	},
+
 	illustrator: "Ken Ikuji",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		251,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -67,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276078
+	}
 }
 
 export default card

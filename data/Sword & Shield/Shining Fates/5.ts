@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius."
+	},
+
+	thirdParty: {
+		cardmarket: 539048
 	}
 }
 

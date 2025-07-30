@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [334],
+
 	name: {
 		en: "Altaria",
 		fr: "Altaria",
@@ -97,6 +98,10 @@ const card: Card = {
 
 	description: {
 		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano."
+	},
+
+	thirdParty: {
+		cardmarket: 500100
 	}
 }
 

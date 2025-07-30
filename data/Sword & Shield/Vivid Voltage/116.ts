@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [374],
+
 	name: {
 		en: "Beldum",
 		fr: "Terhal",
@@ -92,6 +93,10 @@ const card: Card = {
 
 	description: {
 		en: "If you anger it, it will do more than rampage. It will also burst out strong magnetism, causing nearby machines to break."
+	},
+
+	thirdParty: {
+		cardmarket: 512290
 	}
 }
 

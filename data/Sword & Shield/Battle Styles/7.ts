@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		en: "The deeper a Cherubi's red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!"
+	},
+
+	thirdParty: {
+		cardmarket: 544931
 	}
 }
 

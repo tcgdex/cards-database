@@ -17,6 +17,10 @@ const card: Card = {
 	effect: {
 		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.\n\nPiochez 3 cartes. Votre adversaire peut également piocher une carte.",
 		de: "Ziehe 3 Karten. Dein Gegner kann dann ebenfalls 1 Karte ziehen."
+	},
+
+	thirdParty: {
+		cardmarket: 276950
 	}
 }
 

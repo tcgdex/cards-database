@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		en: "As it slashes into its enemies, it looks like it's dancing. Its elegant appearance has led some to call it the most glamorous Grass Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 544976
 	}
 }
 

@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Papinox ex",
 		de: "Pudox ex"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		269,
 	],
+
 	hp: 140,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Cascoon",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -67,11 +73,9 @@ const card: Card = {
 		}
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 276963
+	}
 }
 
 export default card

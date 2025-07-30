@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Kaimorse ex",
 		de: "Walraisa ex"
 	},
+
 	illustrator: "Kimiya Masago",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		365,
 	],
+
 	hp: 150,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Sealeo",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,11 +77,9 @@ const card: Card = {
 		}
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 276966
+	}
 }
 
 export default card

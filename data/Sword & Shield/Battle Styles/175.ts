@@ -35,7 +35,11 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545931
+	}
 }
 
 export default card

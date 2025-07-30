@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [217],
+
 	name: {
 		en: "Ursaring",
 		fr: "Ursaring",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
+	},
+
+	thirdParty: {
+		cardmarket: 483574
 	}
 }
 

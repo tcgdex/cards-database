@@ -70,7 +70,11 @@ const card: Card = {
 		en: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity."
 	},
 
-	dexId: [877]
+	dexId: [877],
+
+	thirdParty: {
+		cardmarket: 436519
+	}
 }
 
 export default card

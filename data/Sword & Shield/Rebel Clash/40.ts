@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [130],
+
 	name: {
 		en: "Gyarados",
 		fr: "Léviator",
@@ -97,6 +98,10 @@ const card: Card = {
 
 	description: {
 		en: "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets."
+	},
+
+	thirdParty: {
+		cardmarket: 457643
 	}
 }
 

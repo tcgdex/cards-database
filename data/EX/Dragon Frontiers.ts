@@ -23,6 +23,10 @@ const ex15: Set = {
 	abbreviations: {
 		official: "DF",
 		fr: "IDR"
+	},
+
+	thirdParty: {
+		cardmarket: 1553
 	}
 }
 

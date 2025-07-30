@@ -67,6 +67,10 @@ const card: Card = {
 
 	description: {
 		en: "There's enough psychic power in Espurr to send a wrestler flying, but because this power can't be controlled, Espurr finds it troublesome."
+	},
+
+	thirdParty: {
+		cardmarket: 545411
 	}
 }
 

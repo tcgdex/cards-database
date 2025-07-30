@@ -93,7 +93,11 @@ const card: Card = {
 		de: "Metagross-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567221
+	}
 }
 
 export default card

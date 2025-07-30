@@ -95,6 +95,10 @@ const card: Card = {
 
 	description: {
 		en: "The small spikes covering its body developed from scales. They inject a toxin that causes fainting."
+	},
+
+	thirdParty: {
+		cardmarket: 436404
 	}
 }
 

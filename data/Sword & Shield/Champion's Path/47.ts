@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [884],
+
 	name: {
 		en: "Duraludon V",
 		fr: "Duralugon V",
@@ -93,7 +94,11 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 500090
+	}
 }
 
 export default card

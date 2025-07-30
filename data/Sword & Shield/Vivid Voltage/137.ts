@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [295],
+
 	name: {
 		en: "Exploud",
 		fr: "Brouhabam",
@@ -97,6 +98,10 @@ const card: Card = {
 
 	description: {
 		en: "Its roar in battle shakes the ground like a tremor—or like an earthquake has struck."
+	},
+
+	thirdParty: {
+		cardmarket: 512395
 	}
 }
 

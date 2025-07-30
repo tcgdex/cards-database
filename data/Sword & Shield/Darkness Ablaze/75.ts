@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [576],
+
 	name: {
 		en: "Gothitelle",
 		fr: "Sidérella",
@@ -109,6 +110,10 @@ const card: Card = {
 
 	description: {
 		en: "It has tremendous psychic power, but it dislikes conflict. It's also able to predict the future based on the movement of the stars."
+	},
+
+	thirdParty: {
+		cardmarket: 483254
 	}
 }
 

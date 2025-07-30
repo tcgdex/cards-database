@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [720],
+
 	name: {
 		en: "Hoopa",
 		fr: "Hoopa",
@@ -69,6 +70,10 @@ const card: Card = {
 
 	description: {
 		en: "It gathers things it likes and passes them through its loop to teleport them to a secret place."
+	},
+
+	thirdParty: {
+		cardmarket: 483434
 	}
 }
 

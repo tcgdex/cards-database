@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [766],
+
 	name: {
 		en: "Passimian",
 		fr: "Quartermac",
@@ -93,6 +94,10 @@ const card: Card = {
 
 	description: {
 		en: "Displaying amazing teamwork, they follow the orders of their boss as they all help out in the search for their favorite berries."
+	},
+
+	thirdParty: {
+		cardmarket: 483364
 	}
 }
 

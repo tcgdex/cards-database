@@ -70,7 +70,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "SIE NANAHARA"
+	illustrator: "SIE NANAHARA",
+
+	thirdParty: {
+		cardmarket: 794416
+	}
 }
 
 export default card

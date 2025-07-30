@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [23],
+
 	name: {
 		en: "Ekans",
 		fr: "Abo",
@@ -79,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "The eggs of bird Pokémon are its favorite food. It swallows eggs whole, so sometimes an egg gets stuck, and Ekans faints."
+	},
+
+	thirdParty: {
+		cardmarket: 500020
 	}
 }
 

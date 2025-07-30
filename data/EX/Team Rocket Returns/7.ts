@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dark Marowak",
 		de: "Dunkles Knogga"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		105,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Cubone",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -67,10 +72,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276299
+	}
 }
 
 export default card

@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body."
+	},
+
+	thirdParty: {
+		cardmarket: 545456
 	}
 }
 

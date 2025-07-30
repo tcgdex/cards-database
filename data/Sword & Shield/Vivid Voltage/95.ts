@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [745],
+
 	name: {
 		en: "Lycanroc",
 		fr: "Lougaroc",
@@ -88,6 +89,10 @@ const card: Card = {
 
 	description: {
 		en: "They live alone without forming packs. They will only listen to orders from Trainers who can draw out their true power."
+	},
+
+	thirdParty: {
+		cardmarket: 511895
 	}
 }
 

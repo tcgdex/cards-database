@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		en: "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke."
+	},
+
+	thirdParty: {
+		cardmarket: 545026
 	}
 }
 

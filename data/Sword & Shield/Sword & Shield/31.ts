@@ -80,7 +80,11 @@ const card: Card = {
 		en: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
 	},
 
-	dexId: [813]
+	dexId: [813],
+
+	thirdParty: {
+		cardmarket: 427161
+	}
 }
 
 export default card

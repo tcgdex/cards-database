@@ -93,6 +93,10 @@ const card: Card = {
 
 	description: {
 		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea."
+	},
+
+	thirdParty: {
+		cardmarket: 567200
 	}
 }
 

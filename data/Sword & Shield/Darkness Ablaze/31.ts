@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [662],
+
 	name: {
 		en: "Fletchinder",
 		fr: "Braisillon",
@@ -85,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 483029
 	}
 }
 

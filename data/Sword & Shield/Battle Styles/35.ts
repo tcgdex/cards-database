@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		en: "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly."
+	},
+
+	thirdParty: {
+		cardmarket: 545176
 	}
 }
 

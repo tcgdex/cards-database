@@ -52,7 +52,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Yano Keiji"
+	illustrator: "Yano Keiji",
+
+	thirdParty: {
+		cardmarket: 733733
+	}
 }
 
 export default card

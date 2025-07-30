@@ -65,6 +65,10 @@ const card: Card = {
 
 	description: {
 		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web."
+	},
+
+	thirdParty: {
+		cardmarket: 539238
 	}
 }
 

@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		en: "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape."
+	},
+
+	thirdParty: {
+		cardmarket: 539223
 	}
 }
 

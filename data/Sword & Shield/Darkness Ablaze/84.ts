@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [50],
+
 	name: {
 		en: "Diglett",
 		fr: "Taupiqueur",
@@ -62,6 +63,10 @@ const card: Card = {
 
 	description: {
 		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
+	},
+
+	thirdParty: {
+		cardmarket: 483299
 	}
 }
 

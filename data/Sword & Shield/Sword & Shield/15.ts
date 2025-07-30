@@ -107,7 +107,11 @@ const card: Card = {
 		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
 	},
 
-	dexId: [812]
+	dexId: [812],
+
+	thirdParty: {
+		cardmarket: 427196
+	}
 }
 
 export default card

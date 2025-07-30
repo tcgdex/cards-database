@@ -88,7 +88,11 @@ const card: Card = {
 		de: "Fließender-Angriff-Wulaosu-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 527665
+	}
 }
 
 export default card

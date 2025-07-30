@@ -89,7 +89,11 @@ const card: Card = {
 		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick."
 	},
 
-	dexId: [106]
+	dexId: [106],
+
+	thirdParty: {
+		cardmarket: 436589
+	}
 }
 
 export default card

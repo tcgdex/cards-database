@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [337],
+
 	name: {
 		en: "Lunatone",
 		fr: "Séléroc",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "The phase of the moon apparently has some effect on its power. It's active on the night of a full moon."
+	},
+
+	thirdParty: {
+		cardmarket: 483239
 	}
 }
 

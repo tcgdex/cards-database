@@ -103,7 +103,11 @@ const card: Card = {
 		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
 	},
 
-	dexId: [815]
+	dexId: [815],
+
+	thirdParty: {
+		cardmarket: 427226
+	}
 }
 
 export default card

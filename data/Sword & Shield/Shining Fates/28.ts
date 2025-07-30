@@ -61,6 +61,10 @@ const card: Card = {
 
 	description: {
 		en: "This hungry Pokémon swallows Arrokuda whole. Occasionally, it makes a mistake and tries to swallow a Pokémon other than its preferred prey."
+	},
+
+	thirdParty: {
+		cardmarket: 539163
 	}
 }
 

@@ -87,7 +87,11 @@ const card: Card = {
 		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
 	},
 
-	dexId: [483]
+	dexId: [483],
+
+	thirdParty: {
+		cardmarket: 576765
+	}
 }
 
 export default card

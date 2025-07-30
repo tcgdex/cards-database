@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [247],
+
 	name: {
 		en: "Pupitar",
 		fr: "Ymphect",
@@ -96,6 +97,10 @@ const card: Card = {
 
 	description: {
 		en: "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power."
+	},
+
+	thirdParty: {
+		cardmarket: 483314
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [442],
+
 	name: {
 		en: "Spiritomb",
 		fr: "Spiritomb",
@@ -88,6 +89,10 @@ const card: Card = {
 
 	description: {
 		en: "It was bound to a fissure in an Odd Keystone as punishment for misdeeds 500 years ago."
+	},
+
+	thirdParty: {
+		cardmarket: 457988
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [744],
+
 	name: {
 		en: "Rockruff",
 		fr: "Rocabot",
@@ -85,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "When it rubs the rocks on its neck against you, that's proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!"
+	},
+
+	thirdParty: {
+		cardmarket: 500000
 	}
 }
 

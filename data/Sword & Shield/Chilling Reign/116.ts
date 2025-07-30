@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		en: "It was built 20 years ago by scientists who dreamed of exploring space. Their dreams have yet to come true."
+	},
+
+	thirdParty: {
+		cardmarket: 567224
 	}
 }
 

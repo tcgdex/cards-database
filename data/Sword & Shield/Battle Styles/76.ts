@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		en: "They seclude themselves in the mountains and devote themselves to training. The form of their kicks and chops differs from pack to pack."
+	},
+
+	thirdParty: {
+		cardmarket: 545496
 	}
 }
 

@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		en: "It has mastered fast and powerful fighting moves. It grows a beard of fire."
+	},
+
+	thirdParty: {
+		cardmarket: 527635
 	}
 }
 

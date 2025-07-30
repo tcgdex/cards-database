@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Rocket's Mewtwo ex",
 		de: "Rockets Mewtu ex"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "EX",
 
@@ -70,6 +72,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -77,10 +80,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276391
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [884],
+
 	name: {
 		en: "Duraludon",
 		fr: "Duralugon",
@@ -91,6 +92,10 @@ const card: Card = {
 
 	description: {
 		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
+	},
+
+	thirdParty: {
+		cardmarket: 458083
 	}
 }
 

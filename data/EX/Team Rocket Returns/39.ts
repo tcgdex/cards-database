@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dark Magneton",
 		de: "Dunkles Magneton"
 	},
+
 	illustrator: "Emi Miwa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		82,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Magnemite",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -67,10 +72,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276331
+	}
 }
 
 export default card

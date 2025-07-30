@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [264],
+
 	name: {
 		en: "Galarian Linoone",
 		fr: "Linéon de Galar",
@@ -75,6 +76,10 @@ const card: Card = {
 
 	description: {
 		en: "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully."
+	},
+
+	thirdParty: {
+		cardmarket: 500035
 	}
 }
 

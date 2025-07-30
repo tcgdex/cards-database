@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [271],
+
 	name: {
 		en: "Lombre",
 		fr: "Lombre",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "It is nocturnal and becomes active at nightfall. It feeds on aquatic mosses that grow in the riverbed."
+	},
+
+	thirdParty: {
+		cardmarket: 457433
 	}
 }
 

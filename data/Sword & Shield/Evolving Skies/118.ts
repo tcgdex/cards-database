@@ -68,7 +68,11 @@ const card: Card = {
 		en: "Some say it can change to an even more powerful form when battling those who threaten the ecosystem."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574166
+	}
 }
 
 export default card

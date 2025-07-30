@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		en: "It was originally a Pokémon from afar that escaped to the wild. It can adapt to the dirtiest river."
+	},
+
+	thirdParty: {
+		cardmarket: 545306
 	}
 }
 

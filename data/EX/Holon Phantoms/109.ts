@@ -7,25 +7,17 @@ const card: Card = {
 		fr: "Énergie Psy",
 		de: "Psychoenergie"
 	},
+
 	illustrator: undefined,
 	rarity: "Rare",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 277079
+	}
 }
 
 export default card

@@ -91,7 +91,11 @@ const card: Card = {
 		de: "Schimmelreiter-Coronospa-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567126
+	}
 }
 
 export default card

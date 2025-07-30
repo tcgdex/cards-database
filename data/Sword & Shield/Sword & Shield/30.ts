@@ -70,7 +70,11 @@ const card: Card = {
 		en: "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat."
 	},
 
-	dexId: [813]
+	dexId: [813],
+
+	thirdParty: {
+		cardmarket: 427161
+	}
 }
 
 export default card

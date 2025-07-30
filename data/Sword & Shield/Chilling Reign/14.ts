@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		en: "Any Corvisquire that pecks at this Pokémon will be greeted with a smack from its sepals followed by a sharp kick."
+	},
+
+	thirdParty: {
+		cardmarket: 567094
 	}
 }
 

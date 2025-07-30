@@ -87,6 +87,10 @@ const card: Card = {
 
 	description: {
 		en: "It emits psychic energy to observe and study what's around it—and what's around it can include things over six miles away."
+	},
+
+	thirdParty: {
+		cardmarket: 545441
 	}
 }
 

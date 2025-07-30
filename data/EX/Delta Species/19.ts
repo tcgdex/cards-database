@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Azumarill δ",
 		de: "Azumarill"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		184,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Marill",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -61,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -68,10 +73,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276782
+	}
 }
 
 export default card

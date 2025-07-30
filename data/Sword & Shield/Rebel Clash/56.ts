@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [100],
+
 	name: {
 		en: "Voltorb",
 		fr: "Voltorbe",
@@ -66,6 +67,10 @@ const card: Card = {
 
 	description: {
 		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
+	},
+
+	thirdParty: {
+		cardmarket: 457713
 	}
 }
 

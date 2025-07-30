@@ -71,7 +71,11 @@ const card: Card = {
 	},
 
 	dexId: [549],
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574034
+	}
 }
 
 export default card

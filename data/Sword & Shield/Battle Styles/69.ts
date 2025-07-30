@@ -65,6 +65,10 @@ const card: Card = {
 
 	description: {
 		en: "It wears its mother's skull on its head, so no one knows what its bare face looks like. However, it's clear that it's always crying."
+	},
+
+	thirdParty: {
+		cardmarket: 545461
 	}
 }
 

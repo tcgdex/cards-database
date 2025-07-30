@@ -78,7 +78,11 @@ const card: Card = {
 		en: "The three heads take turns sinking their teeth into the opponent. Their attacks won't slow until their target goes down."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574163
+	}
 }
 
 export default card

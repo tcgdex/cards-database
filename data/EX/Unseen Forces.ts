@@ -25,6 +25,10 @@ const ex10: Set = {
 	abbreviations: {
 		official: "UF",
 		fr: "FCH"
+	},
+
+	thirdParty: {
+		cardmarket: 1548
 	}
 }
 

@@ -16,6 +16,10 @@ const card: Card = {
 
 	effect: {
 		de: "Cyclone Energy provides  Energy. When you attach this card from your hand to your Active Pokémon, switch 1 of the Defending Pokémon with 1 of your opponent's Benched Pokémon. Your opponent chooses the Defending Pokémon to switch."
+	},
+
+	thirdParty: {
+		cardmarket: 276745
 	}
 }
 

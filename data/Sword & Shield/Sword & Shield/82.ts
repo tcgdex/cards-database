@@ -109,7 +109,11 @@ const card: Card = {
 		en: "Brave and prideful, this Pokémon dashes airily through the forest, its steps aided by the psychic power stored in the fur on its fetlocks."
 	},
 
-	dexId: [78]
+	dexId: [78],
+
+	thirdParty: {
+		cardmarket: 436534
+	}
 }
 
 export default card

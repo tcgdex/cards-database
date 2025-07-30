@@ -25,12 +25,16 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}-Energie.\n\nWenn du diese Karte aus deiner Hand an ein Pokémon anlegst, ziehe 4 Karten."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "H",
 
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	thirdParty: {
+		cardmarket: 794564
 	}
 }
 

@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Laggron ex",
 		de: "Sumpex ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		260,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "EX",
 
@@ -63,6 +65,7 @@ const card: Card = {
 			damage: "20+"
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -70,10 +73,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276072
+	}
 }
 
 export default card

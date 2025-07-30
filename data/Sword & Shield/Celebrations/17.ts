@@ -74,7 +74,11 @@ const card: Card = {
 		en: "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre."
 	},
 
-	dexId: [383]
+	dexId: [383],
+
+	thirdParty: {
+		cardmarket: 576762
+	}
 }
 
 export default card

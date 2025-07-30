@@ -7,22 +7,24 @@ const card: Card = {
 		fr: "Chartor de Team Magma",
 		de: "Team Magmas Qurtel"
 	},
+
 	illustrator: "K. Hoshiba",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		324,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -68,10 +71,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275989
+	}
 }
 
 export default card

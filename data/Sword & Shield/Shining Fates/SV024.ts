@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		en: "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later."
+	},
+
+	thirdParty: {
+		cardmarket: 539508
 	}
 }
 

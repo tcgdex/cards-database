@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Dark Houndoom",
 		de: "Dunkles Hundemon"
 	},
+
 	illustrator: "Nakaoka",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		229,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Houndour",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -63,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276297
+	}
 }
 
 export default card

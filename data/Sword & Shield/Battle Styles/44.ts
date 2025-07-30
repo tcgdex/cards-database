@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		en: "While it's often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company."
+	},
+
+	thirdParty: {
+		cardmarket: 545331
 	}
 }
 

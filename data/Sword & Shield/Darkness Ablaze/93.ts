@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [449],
+
 	name: {
 		en: "Hippopotas",
 		fr: "Hippopotas",
@@ -88,6 +89,10 @@ const card: Card = {
 
 	description: {
 		en: "It moves through the sands with its mouth open, swallowing sand along with its prey. It gets rid of the sand by spouting it from its nose."
+	},
+
+	thirdParty: {
+		cardmarket: 483344
 	}
 }
 

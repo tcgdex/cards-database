@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Mightyena",
 		de: "Magnayen"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		262,
 	],
+
 	hp: 90,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Poochyena",
 		fr: "Medhyèna",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Poochyena",
 		de: "Fiffyen"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,22 +63,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281283
+	}
 }
 
 export default card

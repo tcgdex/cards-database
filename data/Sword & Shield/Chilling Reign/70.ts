@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events."
+	},
+
+	thirdParty: {
+		cardmarket: 567178
 	}
 }
 

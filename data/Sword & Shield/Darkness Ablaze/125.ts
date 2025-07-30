@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [599],
+
 	name: {
 		en: "Klink",
 		fr: "Tic",
@@ -75,6 +76,10 @@ const card: Card = {
 
 	description: {
 		en: "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other."
+	},
+
+	thirdParty: {
+		cardmarket: 483504
 	}
 }
 

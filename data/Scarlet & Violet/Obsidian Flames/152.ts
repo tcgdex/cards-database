@@ -42,7 +42,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Nobuhiro Imagawa"
+	illustrator: "Nobuhiro Imagawa",
+
+	thirdParty: {
+		cardmarket: 725232
+	}
 }
 
 export default card

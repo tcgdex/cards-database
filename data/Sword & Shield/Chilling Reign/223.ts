@@ -90,7 +90,11 @@ const card: Card = {
 		de: "Bronzel"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567331
+	}
 }
 
 export default card

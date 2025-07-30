@@ -15,6 +15,10 @@ const card: Card = {
 
 	effect: {
 		de: "Search your deck for a Pokémon with Dark in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+	},
+
+	thirdParty: {
+		cardmarket: 276381
 	}
 }
 

@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		en: "Slurpuff's fur contains a lot of air, making it soft to the touch and lighter than it looks."
+	},
+
+	thirdParty: {
+		cardmarket: 567176
 	}
 }
 

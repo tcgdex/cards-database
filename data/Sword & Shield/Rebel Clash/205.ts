@@ -89,6 +89,10 @@ const card: Card = {
 
 	description: {
 		en: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle."
+	},
+
+	thirdParty: {
+		cardmarket: 457308
 	}
 }
 

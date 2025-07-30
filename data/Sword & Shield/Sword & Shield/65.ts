@@ -86,7 +86,11 @@ const card: Card = {
 		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
 	},
 
-	dexId: [25]
+	dexId: [25],
+
+	thirdParty: {
+		cardmarket: 436459
+	}
 }
 
 export default card

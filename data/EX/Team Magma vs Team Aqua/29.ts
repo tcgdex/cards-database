@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Elecsprint de Team Aqua",
 		de: "Team Aquas Voltenso"
 	},
+
 	illustrator: "K. Utsunomiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		310,
 	],
+
 	hp: 80,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -62,12 +64,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -75,9 +79,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275981
+	}
 }
 
 export default card

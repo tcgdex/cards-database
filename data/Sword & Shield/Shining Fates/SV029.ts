@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
+	},
+
+	thirdParty: {
+		cardmarket: 539158
 	}
 }
 

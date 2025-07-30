@@ -61,6 +61,10 @@ const card: Card = {
 
 	description: {
 		en: "The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form."
+	},
+
+	thirdParty: {
+		cardmarket: 567186
 	}
 }
 

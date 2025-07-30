@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [6],
+
 	name: {
 		en: "Charizard",
 		fr: "Dracaufeu",
@@ -101,6 +102,10 @@ const card: Card = {
 
 	description: {
 		en: "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames."
+	},
+
+	thirdParty: {
+		cardmarket: 511545
 	}
 }
 

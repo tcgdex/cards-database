@@ -55,7 +55,11 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
 			de: "Flip a coin. If heads, the defending Pokémon is now Poisoned."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 276129
+	}
 }
 
 export default card

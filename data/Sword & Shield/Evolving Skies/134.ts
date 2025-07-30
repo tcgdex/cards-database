@@ -83,7 +83,11 @@ const card: Card = {
 		en: "It has been living with people for so long that portrayals of it can be found on the walls of caves from long, long ago."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574192
+	}
 }
 
 export default card

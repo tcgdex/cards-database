@@ -111,7 +111,11 @@ const card: Card = {
 		en: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone."
 	},
 
-	dexId: [598]
+	dexId: [598],
+
+	thirdParty: {
+		cardmarket: 436764
+	}
 }
 
 export default card

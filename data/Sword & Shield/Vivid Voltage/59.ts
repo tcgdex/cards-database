@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [604],
+
 	name: {
 		en: "Eelektross",
 		fr: "Ohmassacre",
@@ -103,6 +104,10 @@ const card: Card = {
 
 	description: {
 		en: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean."
+	},
+
+	thirdParty: {
+		cardmarket: 511715
 	}
 }
 

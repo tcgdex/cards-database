@@ -106,6 +106,10 @@ const card: Card = {
 
 	description: {
 		en: "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit."
+	},
+
+	thirdParty: {
+		cardmarket: 436304
 	}
 }
 

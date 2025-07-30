@@ -15,6 +15,10 @@ const card: Card = {
 
 	effect: {
 		de: "Flip a coin. If heads, put 1 damage counter on 1 of your opponent's Pokémon. If tails, put 1 damage counter on 1 of your Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 276385
 	}
 }
 

@@ -15,6 +15,10 @@ const card: Card = {
 
 	effect: {
 		de: "Each Pokémon with Dark of Rocket's in its name (both yours an your opponent's) gets +20 HP."
+	},
+
+	thirdParty: {
+		cardmarket: 276379
 	}
 }
 

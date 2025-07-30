@@ -93,7 +93,11 @@ const card: Card = {
 		en: "It is the world's most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574187
+	}
 }
 
 export default card

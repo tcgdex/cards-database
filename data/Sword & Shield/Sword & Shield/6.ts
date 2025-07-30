@@ -97,6 +97,10 @@ const card: Card = {
 
 	description: {
 		en: "It scatters cotton all over the place as a prank. If it gets wet, it'll become too heavy to move and have no choice but to answer for its mischief."
+	},
+
+	thirdParty: {
+		cardmarket: 436209
 	}
 }
 

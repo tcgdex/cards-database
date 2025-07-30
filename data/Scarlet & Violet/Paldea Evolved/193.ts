@@ -25,11 +25,15 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}-Energie.\nDas Pokémon, an das diese Karte angelegt ist, erholt sich von Schlaf, Verwirrung oder Paralyse und kann nicht von jenen Speziellen Zuständen betroffen werden."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "G",
 
 	variants: {
 		holo: false
+	},
+
+	thirdParty: {
+		cardmarket: 715668
 	}
 }
 

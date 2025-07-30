@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Brasegali ex",
 		de: "Lohgock ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		257,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -62,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -73,10 +76,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276066
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [738],
+
 	name: {
 		en: "Vikavolt",
 		fr: "Lucanon",
@@ -103,6 +104,10 @@ const card: Card = {
 
 	description: {
 		en: "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams."
+	},
+
+	thirdParty: {
+		cardmarket: 457763
 	}
 }
 

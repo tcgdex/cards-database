@@ -107,7 +107,11 @@ const card: Card = {
 		en: "It's so vicious that it's called the Sand Demon. Yet when confronted by Hippowdon, Drapion keeps a low profile and will never pick a fight."
 	},
 
-	dexId: [452]
+	dexId: [452],
+
+	thirdParty: {
+		cardmarket: 436719
+	}
 }
 
 export default card

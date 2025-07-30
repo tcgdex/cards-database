@@ -90,7 +90,11 @@ const card: Card = {
 		de: "Lohgock-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567101
+	}
 }
 
 export default card

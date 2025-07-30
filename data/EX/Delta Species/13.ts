@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Rayquaza δ",
 		de: "Rayquaza"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		384,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 		"Metal",
@@ -38,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -79,12 +83,14 @@ const card: Card = {
 			damage: 70
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -96,9 +102,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276776
+	}
 }
 
 export default card

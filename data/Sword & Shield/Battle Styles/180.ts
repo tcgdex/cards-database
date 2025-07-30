@@ -35,7 +35,11 @@ const card: Card = {
 	},
 
 	illustrator: "Toyste Beach",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545861
+	}
 }
 
 export default card

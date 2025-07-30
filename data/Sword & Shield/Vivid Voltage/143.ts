@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [731],
+
 	name: {
 		en: "Pikipek",
 		fr: "Picassaut",
@@ -69,6 +70,10 @@ const card: Card = {
 
 	description: {
 		en: "It may look spindly, but its neck muscles are heavy-duty. It can peck at a tree 16 times per second!"
+	},
+
+	thirdParty: {
+		cardmarket: 512425
 	}
 }
 

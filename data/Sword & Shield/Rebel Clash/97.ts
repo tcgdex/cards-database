@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [307],
+
 	name: {
 		en: "Meditite",
 		fr: "Méditikka",
@@ -66,6 +67,10 @@ const card: Card = {
 
 	description: {
 		en: "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper."
+	},
+
+	thirdParty: {
+		cardmarket: 457898
 	}
 }
 

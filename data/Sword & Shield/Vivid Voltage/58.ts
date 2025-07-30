@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [603],
+
 	name: {
 		en: "Eelektrik",
 		fr: "Lampéroie",
@@ -95,6 +96,10 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity."
+	},
+
+	thirdParty: {
+		cardmarket: 511710
 	}
 }
 

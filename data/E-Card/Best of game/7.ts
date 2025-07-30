@@ -25,7 +25,11 @@ const card: Card = {
 		effect: {
 			en: "Flip 2 coins. If 1 is heads, the Defending Pokémon is now Asleep and Poisoned. If both are heads, the Defending Pokémon is now Confused and Poisoned. If both are tails, the Defending Pokémon is now Paralyzed and Poisoned."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 275417
+	}
 }
 
 export default card

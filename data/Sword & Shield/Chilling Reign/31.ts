@@ -90,6 +90,10 @@ const card: Card = {
 
 	description: {
 		en: "With its claws, it leaves behind signs for its friends to find. The number of distinct signs is said to be over 500."
+	},
+
+	thirdParty: {
+		cardmarket: 567111
 	}
 }
 

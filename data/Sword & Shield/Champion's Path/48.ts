@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [333],
+
 	name: {
 		en: "Swablu",
 		fr: "Tylton",
@@ -69,6 +70,10 @@ const card: Card = {
 
 	description: {
 		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty."
+	},
+
+	thirdParty: {
+		cardmarket: 500095
 	}
 }
 

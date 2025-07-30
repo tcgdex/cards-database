@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Goupix",
 		de: "Vulpix"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		37,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 			cost: ["Fire"]
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -60,10 +63,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276155
+	}
 }
 
 export default card

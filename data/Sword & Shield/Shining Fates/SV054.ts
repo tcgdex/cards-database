@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		en: "Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you."
+	},
+
+	thirdParty: {
+		cardmarket: 539658
 	}
 }
 

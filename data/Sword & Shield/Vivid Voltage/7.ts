@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [469],
+
 	name: {
 		en: "Yanmega",
 		fr: "Yanmega",
@@ -98,6 +99,10 @@ const card: Card = {
 
 	description: {
 		en: "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced."
+	},
+
+	thirdParty: {
+		cardmarket: 511455
 	}
 }
 

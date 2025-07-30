@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [162],
+
 	name: {
 		en: "Furret",
 		fr: "Fouinar",
@@ -100,6 +101,10 @@ const card: Card = {
 
 	description: {
 		en: "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
+	},
+
+	thirdParty: {
+		cardmarket: 483559
 	}
 }
 

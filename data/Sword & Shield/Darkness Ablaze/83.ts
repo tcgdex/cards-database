@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [855],
+
 	name: {
 		en: "Polteageist",
 		fr: "Polthégeist",
@@ -108,6 +109,10 @@ const card: Card = {
 
 	description: {
 		en: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found."
+	},
+
+	thirdParty: {
+		cardmarket: 483294
 	}
 }
 

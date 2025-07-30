@@ -27,11 +27,16 @@ const card: Card = {
 
 	trainerType: "Item",
 	regulationMark: "E",
+
 	variants: {
 		normal: true,
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 691861
 	}
 }
 

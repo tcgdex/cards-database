@@ -7,22 +7,24 @@ const card: Card = {
 		fr: "Rhinoféros de Team Magma",
 		de: "Team Magmas Rizeros"
 	},
+
 	illustrator: "T. Honda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		112,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 		"Darkness",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -63,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -70,10 +73,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275988
+	}
 }
 
 export default card

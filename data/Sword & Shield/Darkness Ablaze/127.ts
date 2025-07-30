@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [601],
+
 	name: {
 		en: "Klinklang",
 		fr: "Cliticlic",
@@ -104,6 +105,10 @@ const card: Card = {
 
 	description: {
 		en: "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy."
+	},
+
+	thirdParty: {
+		cardmarket: 483514
 	}
 }
 

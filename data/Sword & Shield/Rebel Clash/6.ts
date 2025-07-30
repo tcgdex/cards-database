@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [214],
+
 	name: {
 		en: "Heracross",
 		fr: "Scarhino",
@@ -85,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying."
+	},
+
+	thirdParty: {
+		cardmarket: 457408
 	}
 }
 

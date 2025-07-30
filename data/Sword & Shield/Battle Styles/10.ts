@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		en: "With their large mandibles, these Pokémon can crunch their way through rock. They work together to protect their eggs from Sandaconda."
+	},
+
+	thirdParty: {
+		cardmarket: 544946
 	}
 }
 

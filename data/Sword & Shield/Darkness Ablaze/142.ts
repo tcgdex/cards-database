@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [301],
+
 	name: {
 		en: "Delcatty",
 		fr: "Delcatty",
@@ -95,6 +96,10 @@ const card: Card = {
 
 	description: {
 		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest."
+	},
+
+	thirdParty: {
+		cardmarket: 483589
 	}
 }
 

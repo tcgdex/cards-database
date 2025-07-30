@@ -65,6 +65,10 @@ const card: Card = {
 
 	description: {
 		en: "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide."
+	},
+
+	thirdParty: {
+		cardmarket: 545516
 	}
 }
 

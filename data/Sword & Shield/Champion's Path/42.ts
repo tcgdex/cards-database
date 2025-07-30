@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [560],
+
 	name: {
 		en: "Scrafty",
 		fr: "Baggaïd",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "As halfhearted as this Pokémon's kicks may seem, they pack enough power to shatter Conkeldurr's concrete pillars."
+	},
+
+	thirdParty: {
+		cardmarket: 500065
 	}
 }
 

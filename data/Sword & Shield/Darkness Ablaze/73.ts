@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [574],
+
 	name: {
 		en: "Gothita",
 		fr: "Scrutella",
@@ -92,6 +93,10 @@ const card: Card = {
 
 	description: {
 		en: "Though they're still only babies, there's psychic power stored in their ribbonlike feelers, and sometimes they use that power to fight."
+	},
+
+	thirdParty: {
+		cardmarket: 483244
 	}
 }
 

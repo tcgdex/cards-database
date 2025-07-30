@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [51],
+
 	name: {
 		en: "Dugtrio",
 		fr: "Triopikeur",
@@ -95,6 +96,10 @@ const card: Card = {
 
 	description: {
 		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
+	},
+
+	thirdParty: {
+		cardmarket: 483304
 	}
 }
 

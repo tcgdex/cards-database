@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [283],
+
 	name: {
 		en: "Surskit",
 		fr: "Arakdo",
@@ -66,6 +67,10 @@ const card: Card = {
 
 	description: {
 		en: "It lives in ponds and marshes that feature lots of plant life. It often fights with Dewpider, whose habitat and diet are similar."
+	},
+
+	thirdParty: {
+		cardmarket: 457443
 	}
 }
 

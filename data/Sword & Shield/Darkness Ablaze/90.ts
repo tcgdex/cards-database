@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [329],
+
 	name: {
 		en: "Vibrava",
 		fr: "Vibraninf",
@@ -78,6 +79,10 @@ const card: Card = {
 
 	description: {
 		en: "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches."
+	},
+
+	thirdParty: {
+		cardmarket: 483329
 	}
 }
 

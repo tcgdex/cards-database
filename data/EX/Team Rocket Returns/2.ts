@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Dark Ampharos",
 		de: "Dunkles Ampharos"
 	},
+
 	illustrator: "Emi Miwa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		181,
 	],
+
 	hp: 120,
+
 	types: [
 		"Lightning",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Dark Flaaffy",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -69,6 +75,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -76,10 +83,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276294
+	}
 }
 
 export default card

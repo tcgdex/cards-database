@@ -87,7 +87,11 @@ const card: Card = {
 		en: "It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings."
 	},
 
-	dexId: [250]
+	dexId: [250],
+
+	thirdParty: {
+		cardmarket: 576746
+	}
 }
 
 export default card

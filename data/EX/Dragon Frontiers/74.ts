@@ -17,6 +17,10 @@ const card: Card = {
 	effect: {
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.\n\nChaque Pokémon en jeu possédant le symbole δ (les vôtres et ceux de votre adversaire) ne possède pas de Faiblesse et ne peut pas utiliser de Poké-Powers.",
 		de: "Alle im Spiel befindlichen Pokémon, auf denen δ zu sehen ist (deine und die deines Gegners), haben keine Schwäche mehr und können keine Poké-Power einsetzen."
+	},
+
+	thirdParty: {
+		cardmarket: 277279
 	}
 }
 

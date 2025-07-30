@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dark Hypno",
 		de: "Dunkles Hypno"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		97,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Drowzee",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,10 +69,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276298
+	}
 }
 
 export default card

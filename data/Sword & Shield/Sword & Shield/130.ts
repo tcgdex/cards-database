@@ -70,7 +70,11 @@ const card: Card = {
 		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve."
 	},
 
-	dexId: [597]
+	dexId: [597],
+
+	thirdParty: {
+		cardmarket: 436759
+	}
 }
 
 export default card

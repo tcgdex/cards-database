@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
+	},
+
+	thirdParty: {
+		cardmarket: 544941
 	}
 }
 

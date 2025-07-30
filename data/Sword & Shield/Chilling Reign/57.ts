@@ -98,6 +98,10 @@ const card: Card = {
 
 	description: {
 		en: "It is said to emerge from darkness to steal the lives of those who become lost in mountains."
+	},
+
+	thirdParty: {
+		cardmarket: 567137
 	}
 }
 

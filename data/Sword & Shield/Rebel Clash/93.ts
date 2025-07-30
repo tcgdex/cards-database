@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [887],
+
 	name: {
 		en: "Dragapult VMAX",
 		fr: "Lanssorien VMAX",
@@ -104,6 +105,9 @@ const card: Card = {
 
 	stage: "VMAX",
 
+	thirdParty: {
+		cardmarket: 456498
+	}
 }
 
 export default card

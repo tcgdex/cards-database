@@ -25,6 +25,10 @@ const xy0: Set = {
 	abbreviations: {
 		official: "KSS",
 		fr: "BAK"
+	},
+
+	thirdParty: {
+		cardmarket: 1637
 	}
 }
 

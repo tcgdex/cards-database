@@ -72,7 +72,11 @@ const card: Card = {
 		},
 
 		damage: 50
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 583041
+	}
 }
 
 export default card

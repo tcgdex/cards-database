@@ -16,6 +16,10 @@ const card: Card = {
 
 	effect: {
 		de: "Reaktions-Energie liefert  Energie."
+	},
+
+	thirdParty: {
+		cardmarket: 276959
 	}
 }
 

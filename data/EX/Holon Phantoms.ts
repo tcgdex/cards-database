@@ -23,6 +23,10 @@ const ex13: Set = {
 	abbreviations: {
 		official: "HP",
 		fr: "FAN"
+	},
+
+	thirdParty: {
+		cardmarket: 1551
 	}
 }
 

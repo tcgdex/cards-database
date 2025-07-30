@@ -48,7 +48,11 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-	illustrator: "Felicia Chen"
+	illustrator: "Felicia Chen",
+
+	thirdParty: {
+		cardmarket: 817169
+	}
 }
 
 export default card

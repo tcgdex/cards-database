@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [749],
+
 	name: {
 		en: "Mudbray",
 		fr: "Tiboudet",
@@ -80,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "Loads weighing up to 50 times as much as its own body weight pose no issue for this Pokémon. It's skilled at making use of mud."
+	},
+
+	thirdParty: {
+		cardmarket: 511900
 	}
 }
 

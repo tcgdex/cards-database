@@ -14,6 +14,10 @@ const card: Card = {
 
 	effect: {
 		en: "Shuffle your hand into your deck. Then, draw 7 cards. You can’t play any more Trainer cards this turn."
+	},
+
+	thirdParty: {
+		cardmarket: 275413
 	}
 }
 

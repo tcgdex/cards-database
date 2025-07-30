@@ -25,12 +25,16 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}-Energie.\nWenn diese Karte an ein Phase-2-Pokémon angelegt ist, liefert diese Karte jeden Energietyp, aber immer nur 2 Energien."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "H",
 
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	thirdParty: {
+		cardmarket: 760792
 	}
 }
 

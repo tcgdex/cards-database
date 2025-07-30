@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Arcanin ex",
 		de: "Arkani ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		59,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Growlithe",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			name: {
@@ -69,6 +75,7 @@ const card: Card = {
 			damage: 100
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -76,10 +83,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276960
+	}
 }
 
 export default card

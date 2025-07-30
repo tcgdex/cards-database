@@ -1,7 +1,8 @@
 import { ArrayExpression, Identifier, JSCodeshift, Literal, ObjectExpression, Property, Transform } from "jscodeshift"
-import expansionsJSON from '../../products_nonsingles_6.json'
 import cardsJSON from '../../products_singles_6.json'
 import pathUtils from 'path/posix'
+import { extractFile } from './ts-extract-utils'
+import { Card, Set } from '../../interfaces'
 
 interface ObjectField {
 	type: 'Object'
@@ -125,13 +126,17 @@ function rename(parent: ObjectExpression, oldKey: string, newKey: string) {
  */
 const transformer: Transform = (file, api) => {
 	const j = api.jscodeshift
+	console.log(file.path)
 
 	const root = j(file.source)
 		// extract the file name from `import Set from '../Hidden Fates'`
 	const setName = root.find(j.ImportDeclaration).filter((path) => {
-		const source = path.node.source.value
+		const source = path.node.source.value! as string
 		return source.startsWith('../') && !source.startsWith('../../')
-	}).get('source').value.value.replace('../', '')
+	}).get('source').value.value
+	const setPath = pathUtils.resolve(file.path, '../', setName)
+	const setData: Omit<Set, 'serie'> = extractFile(setPath + '.ts')
+	const cardData: Omit<Card, 'set'> = extractFile(file.path)
 
 	return root
 		.find(j.ObjectExpression)
@@ -139,48 +144,18 @@ const transformer: Transform = (file, api) => {
 			if (index !== 0) return
 			const filename = pathUtils.basename(file.path, '.ts')
 			let simplified = simplify(path.node)
-			const name = simplified.items.name.items.en?.item?.value
+			const name = cardData.name.en
 			if (!name) return
 
-			// console.log(setName)
-
-			const expansion = expansionsJSON.products.find((it) => it.name.startsWith(setName))
-				?.idExpansion
-			const card = cardsJSON.products.find((it) => it.name.startsWith(name) && it.idExpansion === expansion)
+			const card = cardsJSON.products.find((it) => {
+				return it.name.startsWith(name) && it.idExpansion === setData.thirdParty.cardmarket
+			})
 			// console.log(json.products.find((it) => it.name.startsWith(name)))
-			console.log(name, card)
+			// console.log(name, card)
 
 			set(j, simplified.item, j.objectExpression([
 				j.property('init', j.identifier('cardmarket'), j.literal(card.idProduct))
 			]), 'thirdParty')
-
-
-			// rename(simplified.item, 'abbrevation', 'abbreviations')
-
-			// set(j, simplified.item, j.objectExpression([
-			// 	j.property('init', j.identifier('fr'), j.literal(abbr))
-			// ]), 'abbrevation')
-			// set(j, simplified.item, j.literal('a'), 's.official')
-
-			// Example remove field
-			// remove(name.item as ObjectExpression, 'fr')
-
-			// Example Set/Add regulationMArk to cards
-			// set(j, name.items.fr, j.literal('D'), 'regulationMark')
-			// console.log(filename)
-			// const ids = [
-			// 	5,6,8,11,12,13,14,17,22,23,25,26,27,28,29,30,31,32,33,34,37,41,43,44,45,46,49,51,54,56,57,58,59,60,64,65,70,73,75,76,78,80,82,91,92,116,117,119,128,129
-			// ]
-			// const id = parseInt(filename)
-			// const isHolo = ids.includes(id) || id >= 131
-			// const isNormal = !isHolo
-			// if (isHolo) {
-			// 	set(j, simplified.items.variants.item as ObjectExpression, j.literal(true), 'holo')
-			// 	set(j, simplified.items.variants.item as ObjectExpression, j.literal(false), 'normal')
-			// } else {
-			// 	remove(simplified.item, 'variants')
-			// }
-
 		})
 		.toSource({useTabs: true, lineTerminator: '\n'}).replace(/    /g, '	')
 }

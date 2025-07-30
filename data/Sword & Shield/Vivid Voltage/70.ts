@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [356],
+
 	name: {
 		en: "Dusclops",
 		fr: "Téraclope",
@@ -102,6 +103,10 @@ const card: Card = {
 
 	description: {
 		en: "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole."
+	},
+
+	thirdParty: {
+		cardmarket: 511770
 	}
 }
 

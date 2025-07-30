@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [845],
+
 	name: {
 		en: "Cramorant",
 		fr: "Nigosier",
@@ -98,6 +99,10 @@ const card: Card = {
 
 	description: {
 		en: "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight."
+	},
+
+	thirdParty: {
+		cardmarket: 457693
 	}
 }
 

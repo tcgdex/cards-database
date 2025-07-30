@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
+	},
+
+	thirdParty: {
+		cardmarket: 539183
 	}
 }
 

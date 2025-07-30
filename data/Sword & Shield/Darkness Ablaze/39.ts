@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [350],
+
 	name: {
 		en: "Milotic",
 		fr: "Milobellus",
@@ -95,6 +96,10 @@ const card: Card = {
 
 	description: {
 		en: "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all."
+	},
+
+	thirdParty: {
+		cardmarket: 483069
 	}
 }
 

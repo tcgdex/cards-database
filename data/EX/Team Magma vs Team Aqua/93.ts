@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Jungko ex",
 		de: "Gewaldro ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		254,
 	],
+
 	hp: 150,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "EX",
 
@@ -81,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -91,6 +94,7 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -98,9 +102,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276070
+	}
 }
 
 export default card

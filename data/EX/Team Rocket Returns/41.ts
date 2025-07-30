@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dark Pupitar",
 		de: "Dunkles Pupitar"
 	},
+
 	illustrator: "Emi Miwa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		247,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Larvitar",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -67,10 +72,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276332
+	}
 }
 
 export default card

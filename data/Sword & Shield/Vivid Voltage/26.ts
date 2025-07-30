@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [136],
+
 	name: {
 		en: "Flareon",
 		fr: "Pyroli",
@@ -95,6 +96,10 @@ const card: Card = {
 
 	description: {
 		en: "Once it has stored up enough heat, this Pokémon's body temperature can reach up to 1,700 degrees Fahrenheit."
+	},
+
+	thirdParty: {
+		cardmarket: 511550
 	}
 }
 

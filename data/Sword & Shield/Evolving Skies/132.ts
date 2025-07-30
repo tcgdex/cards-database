@@ -67,7 +67,11 @@ const card: Card = {
 		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574188
+	}
 }
 
 export default card

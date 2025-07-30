@@ -87,7 +87,11 @@ const card: Card = {
 		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
 	},
 
-	dexId: [107]
+	dexId: [107],
+
+	thirdParty: {
+		cardmarket: 436594
+	}
 }
 
 export default card

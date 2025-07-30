@@ -7,22 +7,24 @@ const card: Card = {
 		fr: "Kaimorse de Team Aqua",
 		de: "Team Aquas Walraisa"
 	},
+
 	illustrator: "Ken Ikuji",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		365,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 		"Darkness",
 	],
 
 	stage: "Stage2",
-
 
 	attacks: [
 		{
@@ -63,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -74,10 +77,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275983
+	}
 }
 
 export default card

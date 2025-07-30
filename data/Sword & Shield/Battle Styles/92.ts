@@ -90,6 +90,10 @@ const card: Card = {
 
 	description: {
 		en: "If this Pokémon squeezes the tongue of the Shellder biting it, the Shellder will launch a toxic liquid from the tip of its shell."
+	},
+
+	thirdParty: {
+		cardmarket: 545551
 	}
 }
 

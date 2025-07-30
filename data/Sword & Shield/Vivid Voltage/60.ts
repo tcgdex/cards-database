@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [644],
+
 	name: {
 		en: "Zekrom",
 		fr: "Zekrom",
@@ -88,6 +89,10 @@ const card: Card = {
 
 	description: {
 		en: "When the interior part of its tail spins like a motor, Zekrom can generate many bolts of lightning to blast its surroundings."
+	},
+
+	thirdParty: {
+		cardmarket: 511720
 	}
 }
 

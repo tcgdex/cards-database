@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [135],
+
 	name: {
 		en: "Jolteon",
 		fr: "Voltali",
@@ -95,6 +96,10 @@ const card: Card = {
 
 	description: {
 		en: "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes."
+	},
+
+	thirdParty: {
+		cardmarket: 511655
 	}
 }
 

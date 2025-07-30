@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		en: "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier."
+	},
+
+	thirdParty: {
+		cardmarket: 483049
 	}
 }
 

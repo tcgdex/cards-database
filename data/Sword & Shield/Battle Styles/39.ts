@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		en: "A brutish Pokémon that loves to battle. It will crash itself into any foe that approaches its nest."
+	},
+
+	thirdParty: {
+		cardmarket: 545311
 	}
 }
 

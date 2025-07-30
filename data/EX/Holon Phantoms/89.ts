@@ -17,6 +17,10 @@ const card: Card = {
 	effect: {
 		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.\n\nLancez une pièce. Si c'est face, piochez les 3 cartes du dessous de votre deck. Si c'est pile, piochez les 2 cartes du dessus de votre deck.",
 		de: "Wirf 1 Münze. Ziehe bei \"Kopf\" die untersten 3 Karten deines Decks. Ziehe bei \"Zahl\" die obersten 2 Karten deines Decks."
+	},
+
+	thirdParty: {
+		cardmarket: 277059
 	}
 }
 

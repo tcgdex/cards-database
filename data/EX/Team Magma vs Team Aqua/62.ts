@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Malosse de Team Magma",
 		de: "Team Magmas Hunduster"
 	},
+
 	illustrator: "Atsuko Ujiie",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		228,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -63,10 +66,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276012
+	}
 }
 
 export default card

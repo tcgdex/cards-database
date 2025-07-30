@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [339],
+
 	name: {
 		en: "Barboach",
 		fr: "Barloche",
@@ -59,6 +60,10 @@ const card: Card = {
 
 	description: {
 		en: "Its slimy body is hard to grasp. In one region, it is said to have been born from hardened mud."
+	},
+
+	thirdParty: {
+		cardmarket: 457908
 	}
 }
 

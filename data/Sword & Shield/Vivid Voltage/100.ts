@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [852],
+
 	name: {
 		en: "Clobbopus",
 		fr: "Poulpaf",
@@ -79,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land."
+	},
+
+	thirdParty: {
+		cardmarket: 511920
 	}
 }
 

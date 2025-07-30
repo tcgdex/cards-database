@@ -63,7 +63,11 @@ const card: Card = {
 		en: "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow."
 	},
 
-	dexId: [872]
+	dexId: [872],
+
+	thirdParty: {
+		cardmarket: 436449
+	}
 }
 
 export default card

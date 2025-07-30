@@ -25,12 +25,16 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie jeden Energietyp, aber immer nur 1 Energie.\nWenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, nimmt jener Spieler 1 Preiskarte weniger. Dieser Effekt deiner Vermächtnis-Energie kann nur einmal pro Spiel angewandt werden."
 	},
 
-	energyType: "Normal",
+	energyType: "Special",
 	regulationMark: "H",
 
 	variants: {
 		reverse: false,
 		normal: false
+	},
+
+	thirdParty: {
+		cardmarket: 769341
 	}
 }
 

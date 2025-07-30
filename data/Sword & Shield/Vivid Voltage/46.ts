@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [101],
+
 	name: {
 		en: "Electrode",
 		fr: "Électrode",
@@ -95,6 +96,10 @@ const card: Card = {
 
 	description: {
 		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
+	},
+
+	thirdParty: {
+		cardmarket: 511650
 	}
 }
 

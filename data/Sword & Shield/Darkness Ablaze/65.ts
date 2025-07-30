@@ -103,6 +103,10 @@ const card: Card = {
 
 	description: {
 		en: "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources."
+	},
+
+	thirdParty: {
+		cardmarket: 483204
 	}
 }
 

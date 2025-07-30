@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [193],
+
 	name: {
 		en: "Yanma",
 		fr: "Yanma",
@@ -87,6 +88,10 @@ const card: Card = {
 
 	description: {
 		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
+	},
+
+	thirdParty: {
+		cardmarket: 511450
 	}
 }
 

@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		en: "The faint scent that emanates from its full blossom entices bug Pokémon to it."
+	},
+
+	thirdParty: {
+		cardmarket: 544936
 	}
 }
 

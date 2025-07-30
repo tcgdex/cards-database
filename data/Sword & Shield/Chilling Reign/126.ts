@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		en: "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it."
+	},
+
+	thirdParty: {
+		cardmarket: 567234
 	}
 }
 
