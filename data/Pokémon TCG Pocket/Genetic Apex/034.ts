@@ -49,13 +49,13 @@ const card: Card = {
 	rarity: "Two Diamond",
 
 	description: {
-		en: "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
-		fr: "Son souffle brûlant peut faire fondre la roche.\nIl est parfois la cause d'incendies de forêt.",
-		es: "Escupe un fuego tan caliente que funde las\nrocas. Causa incendios forestales sin querer.",
-		it: "Sputa fiamme incandescenti in grado di fondere\nle rocce. A volte causa incendi boschivi.",
-		de: "Dieses Pokémon kann mit seinem\nFeueratem Felsen schmelzen.\nEs verursacht ab und zu Waldbrände.",
-		'pt-br': "Cospe chamas quentes o bastante para\nderreter rochedos. Estas chamas podem\ncausar incêndios florestais.",
-		ko: "암석도 태워버릴 정도로\n작열하는 화염을 뿜어\n산불을 일으킬 때가 있다."
+		en: "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+		fr: "Il est très brutal. En combat, il se sert de ses griffes acérées\net de sa queue enflammée pour mettre en pièces ses adversaires.",
+		es: "Este Pokémon de naturaleza agresiva\nataca en combate con su cola llameante\ny hace trizas al rival con sus afiladas garras.",
+		it: "Ha un'indole feroce. Usa la coda fiammeggiante come\nuna frusta e lacera l'avversario con gli artigli affilati.",
+		de: "Es ist brutal veranlagt. Im Kampf schlägt es mit\nseinem brennenden Schweif um sich und schlitzt\nGegner mit seinen scharfen Klauen auf.",
+		'pt-br': "Possui uma natureza bárbara. Em batalha, chicoteia\ncom sua cauda de fogo e corta com suas garras afiadas.",
+		ko: "불타는 꼬리를 휘두르며\n날카로운 발톱으로 상대를\n베어 가르는 몹시 거친 성격이다."
 	},
 
 	boosters: ["charizard"]

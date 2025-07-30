@@ -14,7 +14,7 @@ const card: Card = {
 		ko: "뮤츠 ex"
 	},
 
-	illustrator: "PLANETA CG Works",
+	illustrator: "PLANETA Mochizuki",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Psychic"],

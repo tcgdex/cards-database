@@ -14,7 +14,7 @@ const card: Card = {
 		ko: "리자몽 ex"
 	},
 
-	illustrator: "",
+	illustrator: "PLANETA CG Works",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fire"],

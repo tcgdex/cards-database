@@ -14,7 +14,7 @@ const card: Card = {
 		ko: "갸라도스"
 	},
 
-	illustrator: "Mituhiro Arita",
+	illustrator: "Mitsuhiro Arita",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],

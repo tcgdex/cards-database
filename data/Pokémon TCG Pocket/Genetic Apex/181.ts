@@ -16,7 +16,7 @@ const card: Card = {
 
 	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
-	hp: 70,
+	hp: 60,
 	types: ["Metal"],
 	stage: "Basic",
 

@@ -10,6 +10,8 @@ const card: Card = {
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
+	types: ["Fairy"],
+
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
