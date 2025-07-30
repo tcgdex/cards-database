@@ -4,14 +4,8 @@ import Set from "../PCG8"
 const card: Card = {
       set: Set,
       name: {
-         en: "Spearow",
-         ja: "槍",
-         fr: "Landeur",
-         de: "Spearow",
-         es: "Lanza",
-         it: "Lancia",
-         pt: "Spearow",
-      },
+                  ja: "槍",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,23 +18,11 @@ const card: Card = {
         {
           cost: ["Colorless"],
           name: {
-            en: "Spearhead",
-            ja: "スピアヘッド",
-            fr: "Fer de lance",
-            de: "Speerspitze",
-            es: "Punta de lanza",
-            it: "Lancia",
-            pt: "Ponta de lança",
-          },
+                        ja: "スピアヘッド",
+                                                                      },
           effect: {
-            en: "Draw a card.",
-            ja: "カードを描きます。",
-            fr: "Dessinez une carte.",
-            de: "Zeichnen Sie eine Karte.",
-            es: "Dibuja una carta.",
-            it: "Disegna una carta.",
-            pt: "Desenhe uma carta.",
-          },
+                        ja: "カードを描きます。",
+                                                                      },
         },
       ],
 
