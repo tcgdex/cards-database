@@ -4,14 +4,8 @@ import Set from "../PCG9"
 const card: Card = {
       set: Set,
       name: {
-         en: "Mareep (Delta Species)",
-         ja: "Mareep（デルタ種）",
-         fr: "MAREEP (espèce delta)",
-         de: "Mareep (Delta -Arten)",
-         es: "Mareep (especie delta)",
-         it: "Mareep (Delta Species)",
-         pt: "Marep (espécie Delta)",
-      },
+                  ja: "Mareep（デルタ種）",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,14 +18,8 @@ const card: Card = {
         {
           cost: ["Colorless"],
           name: {
-            en: "Tail Whap",
-            ja: "尾のwhap",
-            fr: "Bap",
-            de: "Schwanzpeak",
-            es: "Cola whap",
-            it: "Coda whap",
-            pt: "Tail Whap",
-          },
+                        ja: "尾のwhap",
+                                                                      },
           damage: 10,
         },
       ],

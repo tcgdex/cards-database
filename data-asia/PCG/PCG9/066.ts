@@ -4,14 +4,8 @@ import Set from "../PCG9"
 const card: Card = {
       set: Set,
       name: {
-         en: "Strength Charm",
-         ja: "強さの魅力",
-         fr: "Charme de force",
-         de: "Stärke Charme",
-         es: "Encanto de fuerza",
-         it: "Fascino della forza",
-         pt: "Charme de força",
-      },
+                  ja: "強さの魅力",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

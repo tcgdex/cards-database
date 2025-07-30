@@ -4,14 +4,8 @@ import Set from "../PCG9"
 const card: Card = {
       set: Set,
       name: {
-         en: "Island Hermit",
-         ja: "島の隠者",
-         fr: "Ermite de l'île",
-         de: "Insel Einsiedler",
-         es: "Ermitaño de la isla",
-         it: "Eremita dell'isola",
-         pt: "Ilha eremita",
-      },
+                  ja: "島の隠者",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
