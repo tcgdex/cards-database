@@ -4,14 +4,8 @@ import Set from "../PCG6"
 const card: Card = {
       set: Set,
       name: {
-         en: "Holon Ruins",
-         ja: "ホロン遺跡",
-         fr: "Holon Ruines",
-         de: "Holon -Ruinen",
-         es: "Ruinas de Holón",
-         it: "Rovine di holon",
-         pt: "Ruínas de Holon",
-      },
+                  ja: "ホロン遺跡",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

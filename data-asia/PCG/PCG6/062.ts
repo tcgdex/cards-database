@@ -4,14 +4,8 @@ import Set from "../PCG6"
 const card: Card = {
       set: Set,
       name: {
-         en: "Porygon",
-         ja: "ポリゴン",
-         fr: "Purygon",
-         de: "Porygon",
-         es: "Fisgón",
-         it: "Porygon",
-         pt: "Porygon",
-      },
+                  ja: "ポリゴン",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,14 +18,8 @@ const card: Card = {
         {
           cost: ["Colorless", "Colorless"],
           name: {
-            en: "Sharpen",
-            ja: "シャープ",
-            fr: "Aiguiser",
-            de: "Schärfen",
-            es: "Afilar",
-            it: "Affilare",
-            pt: "Afiado",
-          },
+                        ja: "シャープ",
+                                                                      },
           damage: 30,
         },
       ],
