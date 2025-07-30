@@ -4,13 +4,7 @@ import Set from "../E4"
 const card: Card = {
       set: Set,
       name: {
-         en: "Mystery Plate o",
          ja: "ミステリープレートo",
-         fr: "Plaque mystère o",
-         de: "Mystery Plate o",
-         es: "Placa misteriosa O",
-         it: "Mystery Plate o",
-         pt: "Placa misteriosa o",
       },
 
       rarity: "Uncommon",
@@ -19,6 +13,7 @@ const card: Card = {
       variants: [
         {
           type: "normal",
+          subtype: "unlimited",
         },
         {
           type: "normal",
