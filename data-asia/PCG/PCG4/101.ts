@@ -4,14 +4,8 @@ import Set from "../PCG4"
 const card: Card = {
       set: Set,
       name: {
-         en: "Energy Root",
-         ja: "エネルギー根",
-         fr: "Racine d'énergie",
-         de: "Energiewurzel",
-         es: "Raíz de energía",
-         it: "Radice di energia",
-         pt: "Raiz de energia",
-      },
+                  ja: "エネルギー根",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

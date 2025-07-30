@@ -4,14 +4,8 @@ import Set from "../PCG4"
 const card: Card = {
       set: Set,
       name: {
-         en: "Cyclone Energy",
-         ja: "サイクロンエネルギー",
-         fr: "Énergie cyclone",
-         de: "Zyklonenergie",
-         es: "Energía del ciclón",
-         it: "Energia ciclone",
-         pt: "Energia do ciclone",
-      },
+                  ja: "サイクロンエネルギー",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

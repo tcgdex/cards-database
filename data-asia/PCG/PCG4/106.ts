@@ -4,14 +4,8 @@ import Set from "../PCG4"
 const card: Card = {
       set: Set,
       name: {
-         en: "Warp Energy",
-         ja: "ワープエネルギー",
-         fr: "Énergie de déformation",
-         de: "Energieverzerrung",
-         es: "Energía de deformación",
-         it: "Erganizzazione dell'ordito",
-         pt: "Energia de urdidura",
-      },
+                  ja: "ワープエネルギー",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

@@ -4,14 +4,8 @@ import Set from "../PCG4"
 const card: Card = {
       set: Set,
       name: {
-         en: "Pupitar",
-         ja: "Pupitar",
-         fr: "Norme",
-         de: "Pupitar",
-         es: "Pupitar",
-         it: "PUPITAR",
-         pt: "Filhote",
-      },
+                  ja: "Pupitar",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,27 +18,15 @@ const card: Card = {
         {
           cost: ["Colorless", "Colorless"],
           name: {
-            en: "Slash",
-            ja: "スラッシュ",
-            fr: "Sabrer",
-            de: "Schrägstrich",
-            es: "Barra oblicua",
-            it: "Barra",
-            pt: "Slash",
-          },
+                        ja: "スラッシュ",
+                                                                      },
           damage: 20,
         },
         {
           cost: ["Fighting", "Fighting", "Colorless"],
           name: {
-            en: "Rock Throw",
-            ja: "ロックスロー",
-            fr: "Lancer du roche",
-            de: "Felswurf",
-            es: "Lanzamiento de roca",
-            it: "Lancio di roccia",
-            pt: "Arremesso de rochas",
-          },
+                        ja: "ロックスロー",
+                                                                      },
           damage: 40,
         },
       ],

@@ -4,14 +4,8 @@ import Set from "../PCG4"
 const card: Card = {
       set: Set,
       name: {
-         en: "Curse Powder",
-         ja: "呪いパウダー",
-         fr: "Poudre de malédiction",
-         de: "Fluchpulver",
-         es: "Polvo de maldición",
-         it: "Maledizione in polvere",
-         pt: "Maldição em pó",
-      },
+                  ja: "呪いパウダー",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
