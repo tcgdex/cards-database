@@ -4,14 +4,8 @@ import Set from "../PCG5"
 const card: Card = {
       set: Set,
       name: {
-         en: "Tentacool",
-         ja: "Tentacool",
-         fr: "Tentacool",
-         de: "Tentacool",
-         es: "Tentacool",
-         it: "Tentacool",
-         pt: "Tentacool",
-      },
+                  ja: "Tentacool",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,23 +18,11 @@ const card: Card = {
         {
           cost: ["Water"],
           name: {
-            en: "Poison Sting",
-            ja: "毒物",
-            fr: "Piqûre de poison",
-            de: "Giftstich",
-            es: "Picadura de veneno",
-            it: "Sting veleno",
-            pt: "Picada de veneno",
-          },
+                        ja: "毒物",
+                                                                      },
           effect: {
-            en: "The Defending Pokemon is now Poisoned.",
-            ja: "防御ポケモンは現在中毒になっています。",
-            fr: "Le Pokémon en défense est maintenant empoisonné.",
-            de: "Das verteidigende Pokemon ist jetzt vergiftet.",
-            es: "El Pokémon defensor ahora está envenenado.",
-            it: "Il Pokemon in carica è ora avvelenato.",
-            pt: "O Pokémon atual agora está envenenado.",
-          },
+                        ja: "防御ポケモンは現在中毒になっています。",
+                                                                      },
         },
       ],
 

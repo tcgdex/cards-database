@@ -4,14 +4,8 @@ import Set from "../PCG5"
 const card: Card = {
       set: Set,
       name: {
-         en: "React Energy",
-         ja: "エネルギーを反応させます",
-         fr: "Réagir l'énergie",
-         de: "Energie reagieren",
-         es: "Reaccionar energía",
-         it: "Reagire l'energia",
-         pt: "Reaja energia",
-      },
+                  ja: "エネルギーを反応させます",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",

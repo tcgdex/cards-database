@@ -4,14 +4,8 @@ import Set from "../PCG5"
 const card: Card = {
       set: Set,
       name: {
-         en: "Fieldworker",
-         ja: "フィールドワーカー",
-         fr: "Employeur sur le terrain",
-         de: "Feldarbeiter",
-         es: "Trabajador de campo",
-         it: "Operaio",
-         pt: "Fieldworker",
-      },
+                  ja: "フィールドワーカー",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
