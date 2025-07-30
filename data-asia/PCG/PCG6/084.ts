@@ -4,14 +4,8 @@ import Set from "../PCG6"
 const card: Card = {
       set: Set,
       name: {
-         en: "Holon Energy GL",
-         ja: "ホロンエネルギーGL",
-         fr: "Holon Energy GL",
-         de: "Holon Energy GL",
-         es: "Holon Energy GL",
-         it: "Holon Energy GL",
-         pt: "Holon Energy GL",
-      },
+                  ja: "ホロンエネルギーGL",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
