@@ -4,14 +4,8 @@ import Set from "../PCG4"
 const card: Card = {
       set: Set,
       name: {
-         en: "Mareep",
-         ja: "Mareep",
-         fr: "Marin",
-         de: "Mareep",
-         es: "Marino",
-         it: "Mareep",
-         pt: "Marep",
-      },
+                  ja: "Mareep",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,14 +18,8 @@ const card: Card = {
         {
           cost: ["Lightning"],
           name: {
-            en: "Tackle",
-            ja: "取り組む",
-            fr: "Tacle",
-            de: "Tackle",
-            es: "Abordar",
-            it: "Attrezzatura",
-            pt: "Enfrentar",
-          },
+                        ja: "取り組む",
+                                                                      },
           damage: 10,
         },
       ],

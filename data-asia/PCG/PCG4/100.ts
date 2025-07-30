@@ -4,14 +4,8 @@ import Set from "../PCG4"
 const card: Card = {
       set: Set,
       name: {
-         en: "Sitrus Berry",
-         ja: "シトラスベリー",
-         fr: "Sitrus",
-         de: "Sitrus Berry",
-         es: "Sitrus Berry",
-         it: "Sitrus Berry",
-         pt: "Sitrus Berry",
-      },
+                  ja: "シトラスベリー",
+                                                   },
 
       rarity: "Uncommon",
       category: "Trainer",
