@@ -4,14 +4,8 @@ import Set from "../PCG7"
 const card: Card = {
       set: Set,
       name: {
-         en: "Magikarp (Delta Species)",
-         ja: "Magikarp（デルタ種）",
-         fr: "Magikarp (espèce delta)",
-         de: "Magikarp (Delta -Arten)",
-         es: "Magikarp (especie delta)",
-         it: "Magikarp (Delta Species)",
-         pt: "Magikarp (espécie Delta)",
-      },
+                  ja: "Magikarp（デルタ種）",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,14 +18,8 @@ const card: Card = {
         {
           cost: ["Metal"],
           name: {
-            en: "Splash",
-            ja: "スプラッシュ",
-            fr: "Éclabousser",
-            de: "Spritzen",
-            es: "Chapoteo",
-            it: "Spruzzare",
-            pt: "Respingo",
-          },
+                        ja: "スプラッシュ",
+                                                                      },
           damage: 10,
         },
       ],
