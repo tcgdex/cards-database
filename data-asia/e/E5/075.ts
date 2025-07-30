@@ -2,18 +2,23 @@ import {Card} from "../../../interfaces"
 import Set from "../E5"
 
 const card: Card = {
-      set: Set,
-      name: {
-         ja: "高速ボール",
-      },
+	set: Set,
+	name: {
+		ja: "高速ボール",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+
+		},
+		{
+			type: "normal",
+			stamps: ["1st Edition"],
+		},
+	],
 };
