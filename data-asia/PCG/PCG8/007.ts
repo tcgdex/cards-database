@@ -4,14 +4,8 @@ import Set from "../PCG8"
 const card: Card = {
       set: Set,
       name: {
-         en: "Seedot",
-         ja: "種子",
-         fr: "Graine",
-         de: "Seedot",
-         es: "Seedot",
-         it: "Seedot",
-         pt: "Seedot",
-      },
+                  ja: "種子",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,14 +18,8 @@ const card: Card = {
         {
           cost: ["Colorless"],
           name: {
-            en: "Headbutt",
-            ja: "ヘッドバット",
-            fr: "Coup de tête",
-            de: "Headbutt",
-            es: "Cabezal",
-            it: "Headbutt",
-            pt: "Cabeça",
-          },
+                        ja: "ヘッドバット",
+                                                                      },
           damage: 10,
         },
       ],
