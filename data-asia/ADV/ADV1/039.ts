@@ -4,14 +4,8 @@ import Set from "../ADV1"
 const card: Card = {
       set: Set,
       name: {
-         en: "Taillow",
-         ja: "テイロウ",
-         fr: "Se frayer",
-         de: "Rücksperrung",
-         es: "Platillo",
-         it: "Coillow",
-         pt: "Taillow",
-      },
+                  ja: "テイロウ",
+                                                   },
 
       rarity: "Common",
       category: "Pokemon",
@@ -24,27 +18,15 @@ const card: Card = {
         {
           cost: ["Colorless"],
           name: {
-            en: "Peck",
-            ja: "ペック",
-            fr: "Picorer",
-            de: "Picken",
-            es: "Picotear",
-            it: "Peck",
-            pt: "Peck",
-          },
+                        ja: "ペック",
+                                                                      },
           damage: 10,
         },
         {
           cost: ["Colorless", "Colorless"],
           name: {
-            en: "Wing Attack",
-            ja: "翼攻撃",
-            fr: "Attaque d'aile",
-            de: "Flügelangriff",
-            es: "Ataque del ala",
-            it: "Attacco dell'ala",
-            pt: "Ataque de asa",
-          },
+                        ja: "翼攻撃",
+                                                                      },
           damage: 20,
         },
       ],
