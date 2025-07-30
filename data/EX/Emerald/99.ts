@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Regirock ex",
 		de: "Regirock ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		377,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "EX",
 
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -67,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 88675
+	}
 }
 
 export default card

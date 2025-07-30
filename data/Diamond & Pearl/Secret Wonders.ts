@@ -28,7 +28,8 @@ const dp3: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 1557
+		cardmarket: 1557,
+		tcgplayer: 1380
 	}
 }
 

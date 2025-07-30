@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { glob } from 'glob'
 import { objectGet } from '@dzeio/object-util'
-import { extractFile } from './ts-extract-utils'
+import { extractFile } from './utils/ts-extract-utils'
 
 /**
  * Example usage : `bun meta/scripts/check-missing.ts "data/*\/*\/*.ts" thirdParty.cardmarket`

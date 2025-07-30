@@ -25,7 +25,8 @@ const ex5: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 1543
+		cardmarket: 1543,
+		tcgplayer: 1416
 	}
 }
 

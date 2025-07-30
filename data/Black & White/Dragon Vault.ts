@@ -28,7 +28,8 @@ const dv1: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 1636
+		cardmarket: 1636,
+		tcgplayer: 1426
 	}
 }
 

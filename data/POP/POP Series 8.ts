@@ -22,7 +22,8 @@ const pop8: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 1620
+		cardmarket: 1620,
+		tcgplayer: 1450
 	}
 }
 

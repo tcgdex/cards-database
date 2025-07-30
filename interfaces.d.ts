@@ -309,6 +309,7 @@ export interface Card {
 	'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
 
 	thirdParty?: {
+		tcgplayer?: number
 		cardmarket?: number
 	}
 }

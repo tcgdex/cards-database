@@ -26,7 +26,8 @@ const neo4: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 1534
+		cardmarket: 1534,
+		tcgplayer: 1444
 	}
 }
 

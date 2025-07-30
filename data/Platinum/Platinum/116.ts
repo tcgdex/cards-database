@@ -21,7 +21,8 @@ const card: Card = {
 	trainerType: "Tool",
 
 	thirdParty: {
-		cardmarket: 278537
+		cardmarket: 278537,
+		tcgplayer: 89805
 	}
 }
 

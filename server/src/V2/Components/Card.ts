@@ -21,6 +21,7 @@ import type { CardResume, Card as SDKCard } from '@tcgdex/sdk'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
 import { objectOmit } from '@dzeio/object-util'
 import { getCardMarketPrice } from '../../libs/providers/cardmarket'
+import { getTCGPlayerPrice } from '../../libs/providers/tcgplayer'
 
 const cards = {
 	en: en,
@@ -55,7 +56,8 @@ async function transformCard(card: MappedCard): Promise<SDKCard> {
 	return {
 		...objectOmit(card, 'thirdParty'),
 		pricing: {
-			cardmarket: await getCardMarketPrice(card)
+			cardmarket: await getCardMarketPrice(card),
+			tcgplayer: await getTCGPlayerPrice(card)
 		}
 	}
 }

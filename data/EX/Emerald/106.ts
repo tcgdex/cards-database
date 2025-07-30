@@ -7,25 +7,17 @@ const card: Card = {
 		fr: "Énergie Combat",
 		de: "Kampfenergie"
 	},
+
 	illustrator: undefined,
 	rarity: "Rare",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		tcgplayer: 85439
+	}
 }
 
 export default card

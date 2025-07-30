@@ -22,7 +22,8 @@ const gym2: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 1530
+		cardmarket: 1530,
+		tcgplayer: 1440
 	}
 }
 

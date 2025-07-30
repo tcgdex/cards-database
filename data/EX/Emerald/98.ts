@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Regice ex",
 		de: "Regice ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		378,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -68,10 +71,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 88660
+	}
 }
 
 export default card

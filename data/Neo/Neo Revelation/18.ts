@@ -64,6 +64,10 @@ const card: Card = {
 
 	description: {
 		fr: "D'après la légende, son corps luirait de sept couleurs. Un arc-en-ciel apparaît toujours dans son sillage."
+	},
+
+	thirdParty: {
+		tcgplayer: 86119
 	}
 }
 

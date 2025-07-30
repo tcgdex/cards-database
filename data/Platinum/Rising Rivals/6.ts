@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Momartik  Niv. 44",
 		de: "Frosdeje GL"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		478,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -68,8 +71,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		tcgplayer: 85575
+	}
 }
 
 export default card

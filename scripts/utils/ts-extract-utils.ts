@@ -1,6 +1,14 @@
 import ts from 'typescript'
 import fs from 'fs'
 
+const cache: Map<string, any> = new Map()
+export async function extractCached(file: string): Promise<any> {
+	if (!cache.has(file)) {
+		cache.set(file, await extractFile(file))
+	}
+	return cache.get(file)
+}
+
 /**
  * Extract the default export object from a TypeScript file
  * @param filePath Path to the TypeScript file

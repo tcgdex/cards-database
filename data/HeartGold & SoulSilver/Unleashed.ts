@@ -28,7 +28,8 @@ const hgss2: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 1567
+		cardmarket: 1567,
+		tcgplayer: 1399
 	}
 }
 

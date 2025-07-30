@@ -8,9 +8,12 @@
 	},
 	"devDependencies": {
 		"@dzeio/object-util": "^1.9.2",
+		"@dzeio/queue": "^1.2.1",
+		"@types/glob": "^9.0.0",
 		"@types/jscodeshift": "^17.3.0",
 		"@types/node": "^20.0.0",
 		"glob": "^10.0.0",
+		"jscodeshift": "^17.3.0",
 		"ts-node": "^10.0.0",
 		"typescript": "^5.0.0"
 	}

@@ -23,7 +23,7 @@ import th from '../../../generated/th/sets.json'
 import zhcn from '../../../generated/zh-cn/sets.json'
 import zhtw from '../../../generated/zh-tw/sets.json'
 
-const sets = {
+export const sets = {
 	en: en,
 	fr: fr,
 	es: es,

@@ -22,7 +22,8 @@ const base4: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 1527
+		cardmarket: 1527,
+		tcgplayer: 605
 	}
 }
 

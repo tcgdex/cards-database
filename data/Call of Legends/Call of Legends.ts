@@ -28,7 +28,8 @@ const col1: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 1570
+		cardmarket: 1570,
+		tcgplayer: 1415
 	}
 }
 
