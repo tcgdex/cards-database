@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "REND",
-	rarity: "None",
+	rarity: "One Star",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Lightning"],

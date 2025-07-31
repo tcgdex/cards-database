@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
-	rarity: "None",
+	rarity: "One Diamond",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],

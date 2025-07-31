@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kuroimori",
-	rarity: "None",
+	rarity: "One Star",
 	category: "Pokemon",
 	types: ["Grass"],
 	stage: "Stage2",
