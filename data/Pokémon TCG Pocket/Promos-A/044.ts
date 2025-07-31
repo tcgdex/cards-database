@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+		en: "Its tail discharges electricity into the ground,\nprotecting it from getting shocked.",
 		fr: "Il se protège des décharges grâce à sa queue,\nqui dissipe l'électricité dans le sol.",
 		es: "Su cola actúa como toma de tierra\ny descarga electricidad al suelo, lo\nque le protege de los calambrazos.",
 		it: "La sua coda scarica elettricità a terra,\nproteggendolo dalle scosse elettriche.",

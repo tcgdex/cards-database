@@ -16,7 +16,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Unable to survive in hot areas, it makes itselft\ncomfortable bt breathing out air cold enough to\ncause snow. It burrows into the snow to sleep.",
+		en: "Unable to survive in hot areas, it makes itself\ncomfortable by breathing out air cold enough to\ncause snow. It burrows into the snow to sleep.",
 		es: "No puede vivir en lugares muy cálidos. Provoca\nnevadas exhalando un vaho gélido y luego se\nacurruca en la nieve acumulada para dormir."
 	},
 

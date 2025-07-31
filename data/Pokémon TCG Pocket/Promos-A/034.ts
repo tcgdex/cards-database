@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It doesn't like to be taken care of. It's difficult to bond with since it won't listen to its Trainer.",
+		en: "It doesn't like to be taken care of. It's difficult to\nbond with since it won't listen to its Trainer.",
 		fr: "Ce Pokémon est difficile à entraîner car il est très\ndésobéissant et déteste qu'on lui rende service.",
 		es: "No le gusta que lo cuiden. Como no aprecia el apoyo\nde su Entrenador, le cuesta coger confianza con él.",
 		it: "Molto orgoglioso. Difficile farci amicizia\nperché non ascolta mai i consigli dell'Allenatore.",

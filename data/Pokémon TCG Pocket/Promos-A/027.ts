@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
+		en: "Being exposed to sunlight makes its movements\nswifter. It uses vines more adeptly than its hands.",
 		fr: "La lumière du soleil augmente fortement son agilité.\nSes lianes sont plus habiles que ses mains.",
 		es: "Cuando recibe los rayos de sol, se mueve\nmucho más rápido que de costumbre.\nUsa mejor sus lianas que sus manos.",
 		it: "Quando è esposto alla luce solare può muoversi più\nvelocemente. Usa le sue liane meglio dei suoi stessi arti.",

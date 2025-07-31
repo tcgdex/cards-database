@@ -48,7 +48,7 @@ const card: Card = {
 	hp: 120,
 
 	description: {
-		en: "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments.",
+		en: "It was created by a scientist after years of horrific\ngene-splicing and DNA-engineering experiments.",
 		fr: "Il est le fruit de nombreuses expériences\ngénétiques horribles et malsaines.",
 		es: "Fue creado por un científico tras años de\nhorribles experimentos de ingeniería genética.",
 		it: "Creato da uno scienziato dopo anni di\norribili esperimenti di ingegneria genetica.",

@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Take a {L} Energy from your Energy Zone and attach it to his Pokémon.",
+			en: "Take a {L} Energy from your Energy Zone and attach it to this Pokémon.",
 			es: "Une 1 Energía {L} de tu área de Energía a este Pokémon."
 		}
 	},
 	{
 		name: {
-			en: "Match Bolt",
+			en: "Mach Bolt",
 			es: "Rayo Mach"
 		},
 

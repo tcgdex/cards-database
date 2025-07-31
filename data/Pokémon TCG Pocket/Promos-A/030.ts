@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
+		en: "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment.",
 		fr: "Ses multiples évolutions lui permettent\nde s'adapter à tout type de milieu naturel.",
 		es: "Es capaz de evolucionar de muchas maneras\npara adaptarse sin problemas a cualquier medio.",
 		it: "La capacità di evolversi in diverse specie gli permette\ndi adattarsi perfettamente a qualsiasi tipo di ambiente.",

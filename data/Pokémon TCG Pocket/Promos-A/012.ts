@@ -48,7 +48,7 @@ const card: Card = {
 	hp: 60,
 
 	description: {
-		en: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
+		en: "All it does is sleep during the daytime. At night,\nit patrols its territory with its eyes aglow.",
 		fr: "Il passe ses journées à dormir. La nuit venue,\nil patrouille sur son territoire, les yeux brillants.",
 		es: "Durante el día, se dedica a dormir.\nDe noche, vigila su territorio con un brillo en los ojos.",
 		it: "Di giorno non fa che dormire, mentre la notte\nperlustra il suo territorio con gli occhi luccicanti.",

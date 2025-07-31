@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+		en: "It secretes flexible bubbles from its chest and back.\nThe bubbles reduce the damage it would otherwise\ntake when attacked.",
 		fr: "Sa poitrine et son dos sécrètent une mousse\nqui lui permet de subir moins de dégâts en\namortissant le choc des attaques.",
 		es: "Secreta burbujas tanto por la espalda como\npor el pecho. Gracias a la elasticidad de estas,\npuede parar ataques y reducir el daño recibido.",
 		it: "Dal petto e dalla schiena secerne una schiuma che gli\npermette di attutire i danni causati dagli attacchi nemici.",

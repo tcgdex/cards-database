@@ -22,7 +22,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
+		en: "This Pokémon startles people in the middle of\nthe night. It gathers fear as its energy.",
 		fr: "Il fait peur aux gens en pleine nuit et se nourrit de leur frayeur.",
 		es: "Sorprende a la gente en mitad de la noche\ny acumula su miedo como energía.",
 		it: "Un Pokémon che terrorizza la gente nel cuore della\nnotte. Assorbe la paura per usarla come energia.",

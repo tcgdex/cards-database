@@ -38,7 +38,7 @@ const card: Card = {
 	hp: 120,
 
 	description: {
-		en: "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people.",
+		en: "This kindly Pokémon lays highly nutritious eggs\nand shares them with injured Pokémon or people.",
 		fr: "Ce Pokémon très serviable distribue ses œufs hautement\nnutritifs aux êtres humains et aux Pokémon blessés.",
 		es: "Un generoso Pokémon que pone huevos muy\nnutritivos y se los da a personas o Pokémon heridos.",
 		it: "Un Pokémon altruista che depone\nuova molto nutrienti e le condivide\ncon persone o Pokémon feriti.",

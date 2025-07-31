@@ -10,7 +10,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
-	rarity: "Two Diamond",
+	rarity: "One Diamond",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Metal"],
@@ -32,7 +32,7 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes -20 damage from attacks.",
+			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
 			es: "Durante el próximo turno de tu rival, los ataques hacen -20 puntos de daño a este Pokémon."
 		}
 	}],

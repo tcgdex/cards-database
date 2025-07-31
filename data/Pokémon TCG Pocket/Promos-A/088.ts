@@ -42,7 +42,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	boosters: ["vol10"]
+	boosters: ["vol10"],
+
+	weaknesses: [{
+		type: "Colorless",
+		value: "+20"
+	}]
 }
 
 export default card

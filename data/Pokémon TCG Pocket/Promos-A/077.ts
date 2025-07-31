@@ -10,13 +10,13 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
-	rarity: "Two Diamond",
+	rarity: "One Diamond",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Lightning"],
 
 	description: {
-		en: "Although it's alien to this world and a danger here. It's apparently\na common organism in the world where it normally lives.",
+		en: "Although it's alien to this world and a danger here, it's apparently\na common organism in the world where it normally lives.",
 		es: "Para los seres de este mundo resulta extraño y peligroso, pero\nen el mundo del que procede es una criatura muy común."
 	},
 

@@ -10,13 +10,13 @@ const card: Card = {
 	},
 
 	illustrator: "Hasuno",
-	rarity: "Two Diamond",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
 
 	description: {
-		en: "It slithers toward people. Then, without warning, it triggers the\nexplosion of its own head. It's apparently one kind of Ultra Beast",
+		en: "It slithers toward people. Then, without warning, it triggers the\nexplosion of its own head. It's apparently one kind of Ultra Beast.",
 		es: "Parece ser uno de los temibles Ultraentes. Se acerca a la gente\ncontoneándose y hace explotar su propia cabeza súbitamente",
 
 	},

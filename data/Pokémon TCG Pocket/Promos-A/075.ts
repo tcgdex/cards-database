@@ -16,7 +16,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "This Ultra Beast's body, which is thin\nas paper, is like a sharpened sword.",
+		en: "This Ultra Beast's body, which is as thin\nas paper, is like a sharpened sword.",
 		es: "El cuerpo de este Ultraente es fino como el papel\ny tan cortante como una espada recién afilada",
 	},
 

@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "They communicate with one another using their auras. They are able to run all through the night.",
+		en: "They communicate with one another using their\nauras. They are able to run all through the night.",
 		fr: "Les Riolu communiquent entre eux à l'aide de\nleur aura. Ils sont capables de courir toute la nuit.",
 		es: "Se comunica con los suyos emitiendo ondas.\nPuede pasarse toda una noche corriendo.",
 		it: "Comunica con i suoi simili tramite l'aura.\nPuò correre un'intera notte senza stancarsi.",
