@@ -20,23 +20,13 @@ const set: Set = {
 		official: 69 // ???
 	},
 
-	// boosters: {
-	// 	mewtwo: {
-	// 		name: {
-	// 			en: 'Mewtwo'
-	// 		}
-	// 	},
-	// 	charizard: {
-	// 		name: {
-	// 			en: 'Charizard'
-	// 		}
-	// 	},
-	// 	pikachu: {
-	// 		name: {
-	// 			en: 'Pikachu'
-	// 		}
-	// 	}
-	// },
+	boosters: {
+		extradimensional: {
+			name: {
+				en: "Extradimensional"
+			}
+		}
+	},
 
 	releaseDate: "2025-05-29"
 }
