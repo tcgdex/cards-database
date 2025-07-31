@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn't seem to care.",
+		en: "Even though its helpless, gaseous body can be blown\naway by the slightest breeze, it doesn't seem to care.",
 		fr: "Son corps est composé d'un gaz très instable.\nIl se fait emporter par la moindre brise, mais\nn'a pas l'air de s'en soucier pour autant.",
 		es: "Hasta la brisa más leve es capaz de arrastrar\nsu cuerpo, compuesto de una materia gaseosa\ninestable, pero no parece que eso le moleste.",
 		it: "Il suo corpo è formato da un gas instabile. Potrebbe volare via\nal minimo soffio di vento, ma non sembra preoccuparsene.",

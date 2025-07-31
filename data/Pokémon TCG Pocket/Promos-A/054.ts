@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+		en: "This Pokémon normally is slow to react, but once\nit enters battle, it will strike down its enemies\nwith lightning-fast movements.",
 		fr: "D'ordinaire, ce Pokémon est plutôt calme,\nmais lorsqu'il se bat, il élimine ses adversaires\navec des mouvements rapides comme l'éclair.",
 		es: "Este Pokémon es normalmente bastante calmado,\npero, una vez en combate, derriba a sus rivales\ncon movimientos de una velocidad vertiginosa.",
 		it: "Di solito è piuttosto flemmatico, ma\nquando si trova a lottare atterra il\nnemico con movimenti fulminei.",

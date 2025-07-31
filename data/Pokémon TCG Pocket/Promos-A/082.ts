@@ -16,7 +16,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "This Ultra Beast is well enough liked to be\nchosen as first partner in its own world.",
+		en: "This Ultra Beast is well enough liked to be\nchosen as a first partner in its own world.",
 		es: "En su mundo, este Ultraente se considera tan entrañable\ncomo para ser elegido compañero de viaje."
 	},
 

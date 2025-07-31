@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire.",
+		en: "Its fiery rear end is fueled by gas made in its belly.\nEven rain can't extinguish the fire.",
 		fr: "La flamme de sa queue est alimentée par un gaz de\nson estomac. Même la pluie ne saurait l'éteindre.",
 		es: "El gas de su panza alimenta el fuego de su\nparte trasera, que ni la lluvia puede extinguir.",
 		it: "Le fiamme sulla coda, alimentate dai gas della\npancia, non si spengono neppure quando piove.",

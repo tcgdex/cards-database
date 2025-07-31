@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+		en: "By dislocating its jaw, it can swallow prey larger\nthan itself. After a meal, it curls up and rests.",
 		fr: "Il peut se déboîter la mâchoire pour avaler tout rond des proies\nplus grosses que lui. Il se replie ensuite sur lui-même pour digérer.",
 		es: "Es capaz de desencajar la mandíbula para\nengullir presas enteras mayores que él mismo,\ntras lo cual se enrosca para descansar.",
 		it: "Può sganciare la mandibola per ingoiare\nintere prede più grosse di lui. Dopo il pasto,\nsi arrotola su se stesso per riposarsi.",
@@ -46,7 +46,7 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Poisoned.",
+			en: "Your opponent's Active Pokémon is now Poisoned.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",

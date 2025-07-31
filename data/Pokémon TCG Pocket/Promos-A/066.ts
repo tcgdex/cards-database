@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
+		en: "This Pokémon lives in dark places untouched by\nsunlight. When it appears before humans, it hides\nitself under a cloth that resembles a Pikachu.",
 		fr: "Il vit dans les lieux sombres, à l'abri du soleil.\nLorsqu'il se montre, il dissimule tout son corps\nsous un déguisement qui rappelle Pikachu.",
 		es: "Vive en lugares oscuros donde no llega el sol.\nCuando se deja ver por la gente, oculta todo\nsu cuerpo bajo un saco con aspecto de Pikachu.",
 		it: "Vive nell'ombra, lontano dalla luce del sole. Quando appare davanti\nalle persone si nasconde sotto un panno che somiglia a un Pikachu.",

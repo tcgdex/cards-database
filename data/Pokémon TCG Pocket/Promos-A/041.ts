@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+		en: "The shell seems to be filled with joy. It is said\nthat it will share good luck when treated kindly.",
 		fr: "Sa coquille est remplie de joie.\nOn dit que s'il est bien traité, il porte chance.",
 		es: "El cascarón parece estar lleno de alegría.\nDicen que trae buena suerte si se le trata con cariño.",
 		it: "Sembra che il suo guscio sia ricolmo di felicità.\nSi dice che porti fortuna se lo si tratta bene.",

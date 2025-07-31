@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+		en: "With nerves of steel, nothing can perturb it. It is\nmore agile and active than it appears.",
 		fr: "Rien ne peut perturber ses nerfs d'acier.\nIl est plus agile et énergique qu'il n'y paraît.",
 		es: "Tiene nervios de acero y nada puede perturbarlo.\nEs más ágil y activo de lo que aparenta.",
 		it: "Ha i nervi d'acciaio e niente può turbarlo.\nÈ più agile e attivo di quanto sembri.",

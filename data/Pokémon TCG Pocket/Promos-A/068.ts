@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Lycanroc attacks its prey with its sharp claws and fangs. It loyally obeys the instructions of a Trainer it trusts.",
+		en: "Lycanroc attacks its prey with its\nsharp claws and fangs. It loyally obeys\nthe instructions of a Trainer it trusts.",
 		fr: "Il attaque ses proies à l'aide de ses griffes\net de ses crocs acérés. Il obéira toujours\nà son Dresseur s'il lui fait confiance.",
 		es: "Ataca a sus presas con sus afilados colmillos y\ngarras. Solo obedece las órdenes de aquellos\nEntrenadores que logran ganarse su confianza.",
 		it: "Caccia la sua preda usando le zanne e gli artigli affilatissimi.\nAscolta fedelmente le indicazioni degli Allenatori di cui si fida.",

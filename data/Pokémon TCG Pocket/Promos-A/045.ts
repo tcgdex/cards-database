@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It moves less than an inch a year, but when it's in a jam, it will spin and drill down into the ground in a split second.",
+		en: "It moves less than an inch a year, but when\nit's in a jam, it will spin and drill down into the\nground in a split second.",
 		fr: "Il ne se déplace que d'un centimètre\npar an, mais s'il se sent menacé, il virevolte\net s'enfonce dans le sol en un instant.",
 		es: "Solo se desplaza un centímetro al año, pero,\nsi se siente amenazado, gira sobre sí mismo\ny se hunde bajo tierra en un abrir y cerrar de ojos.",
 		it: "Si sposta di 1 cm all'anno, ma quando si trova in difficoltà\nruota su se stesso e in un attimo si nasconde sottoterra.",

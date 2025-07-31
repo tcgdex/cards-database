@@ -66,7 +66,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+		en: "In battle, it flaps its wings at great speed to\nrelease highly toxic dust into the air.",
 		fr: "En combat, il bat des ailes très rapidement pour\nprojeter de la poudre toxique sur ses ennemis.",
 		es: "Aletea a gran velocidad para lanzar al aire\nsus escamas extremadamente tóxicas.",
 		it: "Sbatte le ali a gran velocità per liberare\nle sue polveri tossiche nell'aria.",

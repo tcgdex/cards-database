@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+		en: "It lives in the ozone layer far above the clouds and\ncannot be seen from the ground.",
 		fr: "Il vit dans la couche d'ozone, au-dessus\ndes nuages. Il est invisible depuis le sol.",
 		es: "Vive en la capa de ozono sobre las nubes\ny no puede ser visto desde el suelo.",
 		it: "Vive nello strato di ozono oltre le nuvole\ne non può essere avvistato da terra.",

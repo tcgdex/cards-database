@@ -38,7 +38,7 @@ const card: Card = {
 	hp: 110,
 
 	description: {
-		en: "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
+		en: "As it digs through the ground, it absorbs many\nhard objects. This is what makes its body so solid.",
 		fr: "Il absorbe des éléments solides en creusant le sol,\nce qui le rend plus robuste.",
 		es: "Al abrirse paso bajo tierra, va absorbiendo todo lo que\nencuentra. Eso hace que su cuerpo sea así de sólido.",
 		it: "Scava nel terreno assorbendo gli oggetti\npiù duri per irrobustire il suo corpo.",

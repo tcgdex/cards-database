@@ -38,7 +38,7 @@ const card: Card = {
 	hp: 70,
 
 	description: {
-		en: "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+		en: "There is a plant seed on its back right from the\nday this Pokémon is born. The seed slowly\ngrows larger.",
 		fr: "Il y a une graine sur son dos depuis sa naissance.\nElle grossit un peu chaque jour.",
 		es: "Este Pokémon nace con una semilla en el\nlomo, que brota con el paso del tiempo.",
 		it: "Fin dalla nascita questo Pokémon ha sulla\nschiena un seme che cresce lentamente.",
