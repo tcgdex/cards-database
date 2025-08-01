@@ -61,6 +61,10 @@ const card: Card = {
 
 	description: {
 		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
+	},
+
+	thirdParty: {
+		cardmarket: 567130
 	}
 }
 

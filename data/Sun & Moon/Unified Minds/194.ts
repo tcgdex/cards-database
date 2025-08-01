@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Sino Ensurdecedor",
 		de: "Ohrenbetäubende Glocke"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée est votre Pokémon Actif et qu’il subit les dégâts d’une attaque de votre adversaire (même si le Pokémon est mis K.O.), le Pokémon Attaquant est maintenant Confus.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Se o Pokémon ao qual esta carta está ligada for o seu Pokémon Ativo e ele for danificado por um ataque do seu oponente (mesmo que aquele Pokémon seja Nocauteado), o Pokémon Atacante será Confundido.",
 		de: "Wenn das Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und durch eine Attacke deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt verwirrt."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 388752
+	}
 }
 
 export default card

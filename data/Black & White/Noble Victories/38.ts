@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Tynamo",
 		de: "Zapplardin"
 	},
+
 	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		602,
 	],
+
 	hp: 40,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -43,6 +45,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -52,8 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280161,
+		tcgplayer: 90093
+	}
 }
 
 export default card

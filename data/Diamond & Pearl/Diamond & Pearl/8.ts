@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Magnézone",
 		de: "Magnezone"
 	},
+
 	illustrator: "Nakaoka",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		462,
 	],
+
 	hp: 120,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Magneton",
 		fr: "Magneton",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,22 +67,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 277507
+	}
 }
 
 export default card

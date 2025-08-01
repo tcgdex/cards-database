@@ -72,6 +72,11 @@ const card: Card = {
 
 	description: {
 		fr: "Quand il se recroqueville et étend ses ailes, on dirait un chasseur. Sa vitesse est supersonique."
+	},
+
+	thirdParty: {
+		cardmarket: 277638,
+		tcgplayer: 85621
 	}
 }
 

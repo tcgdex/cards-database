@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Swinub",
 		de: "Quiekel"
 	},
+
 	illustrator: "Eri Yamaki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		220,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -54,8 +57,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 311869
+	}
 }
 
 export default card

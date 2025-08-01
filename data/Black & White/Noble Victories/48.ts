@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Trubbish",
 		de: "Unratütox"
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		568,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,8 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280171,
+		tcgplayer: 90065
+	}
 }
 
 export default card

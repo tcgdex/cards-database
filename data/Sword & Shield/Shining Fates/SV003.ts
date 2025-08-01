@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "As if wielding a bow, it launches the arrow quills hidden among the feathers of its wings. Decidueye's shots never miss."
+	},
+
+	thirdParty: {
+		cardmarket: 539063
 	}
 }
 

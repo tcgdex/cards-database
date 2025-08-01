@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Skorupi",
 		de: "Pionskora"
 	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		451,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -67,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -76,8 +79,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 315984
+	}
 }
 
 export default card

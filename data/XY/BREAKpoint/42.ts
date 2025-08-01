@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Electabuzz",
 		de: "Elektek"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		125,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -54,8 +57,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 288217
+	}
 }
 
 export default card

@@ -79,7 +79,11 @@ const card: Card = {
 		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574154
+	}
 }
 
 export default card

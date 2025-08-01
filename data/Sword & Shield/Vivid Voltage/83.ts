@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [194],
+
 	name: {
 		en: "Wooper",
 		fr: "Axoloto",
@@ -79,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside."
+	},
+
+	thirdParty: {
+		cardmarket: 511835
 	}
 }
 

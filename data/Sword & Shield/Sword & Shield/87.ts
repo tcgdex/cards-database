@@ -93,7 +93,11 @@ const card: Card = {
 		en: "It eats dreams and releases mist. The mist is pink when it's eating a good dream, and black when it's eating a nightmare."
 	},
 
-	dexId: [517]
+	dexId: [517],
+
+	thirdParty: {
+		cardmarket: 436559
+	}
 }
 
 export default card

@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		en: "Long ago, during a time when droves of factories fouled the air with pollution, Weezing changed into this form for some reason."
+	},
+
+	thirdParty: {
+		cardmarket: 567204
 	}
 }
 

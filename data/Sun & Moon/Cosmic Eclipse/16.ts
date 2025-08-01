@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Sawsbuck",
 		de: "Kronjuwild"
 	},
+
 	illustrator: "sui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		586,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Deerling",
 		fr: "Vivaldaim",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -84,8 +91,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 407734
+	}
 }
 
 export default card

@@ -77,7 +77,11 @@ const card: Card = {
 		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
 	},
 
-	dexId: [92]
+	dexId: [92],
+
+	thirdParty: {
+		cardmarket: 436539
+	}
 }
 
 export default card

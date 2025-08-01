@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Servine",
 		de: "Efoserp"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		496,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Snivy",
 		fr: "Vipélierre",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Snivy",
 		de: "Serpifeu"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -80,8 +87,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289832
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [195],
+
 	name: {
 		en: "Quagsire",
 		fr: "Maraiste",
@@ -97,6 +98,10 @@ const card: Card = {
 
 	description: {
 		en: "It has an easygoing nature. It doesn't care if it bumps its head on boats and boulders while swimming."
+	},
+
+	thirdParty: {
+		cardmarket: 511840
 	}
 }
 

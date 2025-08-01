@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Grolem",
 		de: "Geowaz"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		76,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Graveler",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -68,10 +75,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274889
+	}
 }
 
 export default card

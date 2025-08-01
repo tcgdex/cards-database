@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Tirtouga",
 		de: "Galapaflos"
 	},
+
 	illustrator: "HYOGONOSUKE",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		564,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -74,8 +79,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 388047
+	}
 }
 
 export default card

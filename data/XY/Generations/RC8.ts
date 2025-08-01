@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Froslass",
 		fr: "Momartik",
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		478,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Snorunt",
 		fr: "Stalgamin",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -64,8 +71,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 288517
+	}
 }
 
 export default card

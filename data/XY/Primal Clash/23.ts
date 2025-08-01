@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Magcargo",
 		de: "Magcargo"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		219,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Slugma",
 		fr: "Limagma",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Slugma",
 		de: "Schneckmag"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -92,8 +97,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 273554
+	}
 }
 
 export default card

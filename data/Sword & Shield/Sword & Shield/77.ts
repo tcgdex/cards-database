@@ -71,7 +71,11 @@ const card: Card = {
 		en: "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines."
 	},
 
-	dexId: [871]
+	dexId: [871],
+
+	thirdParty: {
+		cardmarket: 436514
+	}
 }
 
 export default card

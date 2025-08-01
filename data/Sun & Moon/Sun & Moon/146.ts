@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Luan",
 		de: "Elima"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque joueur mélange sa main avec son deck et lance une pièce. Si c’est face, ce joueur pioche 6 cartes. Si c’est pile, il pioche 3 cartes.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cada jogador embaralha a própria mão no próprio baralho e joga 1 moeda. Se sair cara, o jogador comprará 6 cartas. Se sair coroa, o jogador comprará 3 cartas.",
 		de: "Jeder Spieler mischt seine Handkarten in sein Deck und wirft 1 Münze. Bei Kopf zieht der Spieler 6 Karten. Bei Zahl zieht der Spieler 3 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 295434
+	}
 }
 
 export default card

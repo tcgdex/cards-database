@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Marowak",
 		de: "Knogga"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		105,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Cubone",
 		fr: "Osselait",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -63,22 +67,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280500,
+		tcgplayer: 87229
+	}
 }
 
 export default card

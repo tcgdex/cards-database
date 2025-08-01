@@ -70,6 +70,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps en fusion brûle d'une flamme orangée, le rendant invisible dans le feu."
+	},
+
+	thirdParty: {
+		cardmarket: 273731,
+		tcgplayer: 42378
 	}
 }
 

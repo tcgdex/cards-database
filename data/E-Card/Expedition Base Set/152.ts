@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Votre adversaire échange le Pokémon Défenseur contre l'un des Pokémon de son Banc, s'il en possède. Vous échangez ensuite votre Pokémon Actif contre l'un des Pokémon de votre Banc, si vous en possédez.",
 		de: "Dein Gegner tauscht das Verteidigende Pokémon mit 1 der Pokémon auf seiner Bank, falls er dort mindestens eins hat, und danach tauscht du dein Aktives Pokémon mit 1 der Pokémon auf deiner Bank, falls du dort mindestens eins hast."
+	},
+
+	thirdParty: {
+		cardmarket: 275027
 	}
 }
 

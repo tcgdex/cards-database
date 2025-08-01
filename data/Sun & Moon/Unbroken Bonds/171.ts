@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pingente de Fada de Habilidade",
 		de: "Feenschmuck Fähigkeit"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Évitez tous les dégâts infligés au Pokémon Fairy auquel cette carte est attachée par les attaques des Pokémon-GX ou Pokémon-EX de votre adversaire qui ont un talent.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Previne todo o dano causado ao Pokémon Fairy ao qual esta carta está ligada por ataques dos Pokémon-GX e Pokémon-EX do seu oponente que tenham Habilidades.",
 		de: "Verhindere allen Schaden, der dem Fairy-Pokémon, an das diese Karte angelegt ist, durch Attacken von Pokémon-GX und Pokémon-EX deines Gegners, die Fähigkeiten haben, zugefügt wird."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 372456
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	dexId: [788],
+
 	name: {
 		en: "Tapu Fini",
 		fr: "Tokopisco",
@@ -11,19 +12,18 @@ const card: Card = {
 		pt: "Tapu Fini",
 		de: "Kapu-Kime"
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -77,8 +78,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388092
+	}
 }
 
 export default card

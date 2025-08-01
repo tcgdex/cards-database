@@ -84,6 +84,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il possède des défenses aiguisées et une peau épaisse. Ses charges sont suffisamment puissantes pour abattre une maison."
+	},
+
+	thirdParty: {
+		cardmarket: 274421,
+		tcgplayer: 84872
 	}
 }
 

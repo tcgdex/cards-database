@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon amical qui analyse les mouvements subtils de l'eau de mer grâce à ses deux antennes."
+	},
+
+	thirdParty: {
+		cardmarket: 277554
 	}
 }
 

@@ -25,6 +25,10 @@ const card: Card = {
 		it: "",
 		pt: "",
 		de: ""
+	},
+
+	thirdParty: {
+		cardmarket: 297616
 	}
 }
 

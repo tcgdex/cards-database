@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Marill",
 		de: "Marill"
 	},
+
 	illustrator: "Shibuzoh.",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		183,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fairy",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,22 +53,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 291641
+	}
 }
 
 export default card

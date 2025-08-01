@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Meowstic",
 		de: "Psiaugon"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		678,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Espurr",
 		fr: "Psystigri",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Espurr",
 		de: "Psiau"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -74,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -83,8 +88,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 288234
+	}
 }
 
 export default card

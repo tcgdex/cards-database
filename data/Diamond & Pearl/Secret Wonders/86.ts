@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Skélénox",
 		de: "Zwirrlicht"
 	},
+
 	illustrator: "Hiroki Fuchino",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		355,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
@@ -32,7 +35,6 @@ const card: Card = {
 			de: 'Zwirrlicht kann in dem Zug entwickelt werden, in dem du es gespielt hast.'
 		}
 	},
-
 
 	attacks: [
 		{
@@ -52,22 +54,27 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277839,
+		tcgplayer: 85051
+	}
 }
 
 export default card

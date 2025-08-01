@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		en: "Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches."
+	},
+
+	thirdParty: {
+		cardmarket: 567193
 	}
 }
 

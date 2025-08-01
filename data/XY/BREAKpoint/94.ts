@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Purugly",
 		de: "Shnurgarst"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		432,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Glameow",
 		fr: "Chaglam",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Glameow",
 		de: "Charmian"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -86,8 +91,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 288269
+	}
 }
 
 export default card

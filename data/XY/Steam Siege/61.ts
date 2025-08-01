@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Weavile",
 		de: "Snibunna"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		461,
 	],
+
 	hp: 90,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Sneasel",
 		fr: "Farfuret",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Sneasel",
 		de: "Sniebel"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,22 +78,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 291631
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [485],
+
 	name: {
 		en: "Heatran",
 		fr: "Heatran",
@@ -95,6 +96,10 @@ const card: Card = {
 
 	description: {
 		en: "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves."
+	},
+
+	thirdParty: {
+		cardmarket: 482999
 	}
 }
 

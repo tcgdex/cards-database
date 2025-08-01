@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Carvanha de Team Aqua",
 		de: "Team Aquas Kanivanha"
 	},
+
 	illustrator: "Yosuke Da Silva",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		318,
 	],
+
 	hp: 40,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -67,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276002,
+		tcgplayer: 89777
+	}
 }
 
 export default card

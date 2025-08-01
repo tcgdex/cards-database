@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Tapu Fini GX",
 		de: "Kapu-Kime GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		788,
 	],
+
 	hp: 170,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "GX",
 
@@ -98,11 +100,11 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 298780
+	}
 }
 
 export default card

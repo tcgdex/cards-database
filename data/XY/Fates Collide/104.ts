@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Megapegador",
 		de: "Mega-Fänger"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Échangez l'un des Pokémon Méga-Évolution du Banc de votre adversaire avec son Pokémon Actif.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Troque 1 dos Pokémon de Megaevolução no Banco do seu oponente pelo Pokémon Ativo desse oponente.",
 		de: "Tausche 1 Mega-Entwicklungs-Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 289924
+	}
 }
 
 export default card

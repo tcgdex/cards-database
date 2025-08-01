@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Nidoking",
 		de: "Nidoking"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		34,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Nidorino",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,12 +67,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -74,9 +82,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275043,
+		tcgplayer: 87693
+	}
 }
 
 export default card

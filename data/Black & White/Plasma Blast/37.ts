@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Mesprit",
 		de: "Vesprit"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		481,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -62,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -71,8 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281058,
+		tcgplayer: 87333
+	}
 }
 
 export default card

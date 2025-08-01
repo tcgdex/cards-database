@@ -90,7 +90,11 @@ const card: Card = {
 		de: "Sanaconda-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567198
+	}
 }
 
 export default card

@@ -33,7 +33,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Souichirou Gunjima"
+	illustrator: "Souichirou Gunjima",
+
+	thirdParty: {
+		cardmarket: 785993
+	}
 }
 
 export default card

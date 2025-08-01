@@ -69,7 +69,11 @@ const card: Card = {
 		en: "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains."
 	},
 
-	dexId: [827]
+	dexId: [827],
+
+	thirdParty: {
+		cardmarket: 436734
+	}
 }
 
 export default card

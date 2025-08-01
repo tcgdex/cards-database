@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Gengar",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		94,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Haunter",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -33,6 +38,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,9 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274776,
+		tcgplayer: 85670
+	}
 }
 
 export default card

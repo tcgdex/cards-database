@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Jigglypuff",
 		de: "Pummeluff"
 	},
+
 	illustrator: "Yumi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		39,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fairy",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,22 +54,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 372421
+	}
 }
 
 export default card

@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Scarabrute",
 		de: "Pinsir"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		127,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -80,10 +85,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276901,
+		tcgplayer: 88136
+	}
 }
 
 export default card

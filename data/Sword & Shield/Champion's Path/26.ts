@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [68],
+
 	name: {
 		en: "Machamp",
 		fr: "Mackogneur",
@@ -100,6 +101,11 @@ const card: Card = {
 
 	description: {
 		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
+	},
+
+	thirdParty: {
+		cardmarket: 499985,
+		tcgplayer: 223019
 	}
 }
 

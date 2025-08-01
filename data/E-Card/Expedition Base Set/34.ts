@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Pharamp",
 		de: "Ampharos"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		181,
 	],
+
 	hp: 100,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Flaaffy",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -63,6 +69,7 @@ const card: Card = {
 			damage: 40
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -70,10 +77,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274877
+	}
 }
 
 export default card

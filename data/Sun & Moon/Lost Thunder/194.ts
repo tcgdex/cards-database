@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia de Memória",
 		de: "Gedächtnis-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte fournit de l’Énergie Colorless.\n\nLe Pokémon auquel cette carte est attachée peut utiliser les attaques de ses précédentes Évolutions. (Vous avez toujours besoin de l’Énergie nécessaire pour utiliser chaque attaque.)",
@@ -35,7 +25,11 @@ const card: Card = {
 		de: "Diese Karte liefert Colorless-Energie.\n\nDas Pokémon, an das diese Karte angelegt ist, kann die Attacken aus vorangegangenen Entwicklungen einsetzen. (Du benötigst jedoch die jeweils für die Attacke notwendige Energie.)"
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 365827
+	}
 }
 
 export default card

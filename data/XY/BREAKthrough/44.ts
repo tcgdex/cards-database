@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Vanillish",
 		de: "Gelatroppo"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		583,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Vanillite",
 		fr: "Sorbébé",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Vanillite",
 		de: "Gelatini"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -91,8 +96,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 286290
+	}
 }
 
 export default card

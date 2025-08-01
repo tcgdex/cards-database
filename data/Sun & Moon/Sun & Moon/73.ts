@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Passimian",
 		de: "Quartermak"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		766,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -74,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -83,8 +86,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 295384
+	}
 }
 
 export default card

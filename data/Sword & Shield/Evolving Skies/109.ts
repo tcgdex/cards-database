@@ -88,7 +88,11 @@ const card: Card = {
 		en: "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart's desire—wings."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574157
+	}
 }
 
 export default card

@@ -5,25 +5,18 @@ const card: Card = {
 	name: {
 		en: "Psychic Energy",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 274267,
+		tcgplayer: 88415
+	}
 }
 
 export default card

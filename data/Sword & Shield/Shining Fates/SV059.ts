@@ -78,6 +78,10 @@ const card: Card = {
 
 	description: {
 		en: "These intelligent Pokémon touch horns with each other to share information between them."
+	},
+
+	thirdParty: {
+		cardmarket: 539218
 	}
 }
 

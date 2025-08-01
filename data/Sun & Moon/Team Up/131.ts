@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Lugia",
 		de: "Lugia"
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		249,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -70,22 +72,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 369058
+	}
 }
 
 export default card

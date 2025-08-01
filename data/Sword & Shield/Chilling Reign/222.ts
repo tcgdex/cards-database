@@ -85,7 +85,11 @@ const card: Card = {
 		de: "Voltobal"
 	},
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	thirdParty: {
+		cardmarket: 567330
+	}
 }
 
 export default card

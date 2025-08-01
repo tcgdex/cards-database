@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		en: "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons."
+	},
+
+	thirdParty: {
+		cardmarket: 567091
 	}
 }
 

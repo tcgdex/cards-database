@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Incineroar GX",
 		de: "Fuegro GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		727,
 	],
+
 	hp: 250,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Torracat",
 		fr: "Matoufeu",
@@ -104,6 +108,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -113,8 +118,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 297696
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Maníaco de Feitiços",
 		de: "Hexe"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Jusqu'à la fin du prochain tour de votre adversaire, chacun des Pokémon en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n'a pas de talent. (Cela comprend les cartes qui sont en jeu pendant ce tour.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Até ao final da próxima vez de jogar do seu oponente, cada Pokémon em jogo, na mão de cada jogador e na pilha de descarte de cada jogador não possui Habilidades. (Isso inclui os cards que entram em jogo nessa rodada).",
 		de: "Bis zum Ende des nächsten Zuges deines Gegners hat jedes Pokémon im Spiel, auf den Händen jedes Spielers und im Ablagestapel jedes Spielers keine Fähigkeiten. (Dazu gehören Karten, die während des Zuges ins Spiel kommen.)"
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 284256
+	}
 }
 
 export default card

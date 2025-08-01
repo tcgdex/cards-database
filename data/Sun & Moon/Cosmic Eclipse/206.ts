@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Apito de Aliados",
 		de: "Team-Ruf"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez jusqu’à 2 cartes ESCOUADE dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure por até 2 cartas ALIADOS no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach bis zu 2 {TAG TEAM} Karten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 408624
+	}
 }
 
 export default card

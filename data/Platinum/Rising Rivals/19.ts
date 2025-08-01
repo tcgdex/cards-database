@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Pyroli Niv. 38",
 		de: "Flamara"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		136,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Evoli",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -82,8 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278593,
+		tcgplayer: 85497
+	}
 }
 
 export default card

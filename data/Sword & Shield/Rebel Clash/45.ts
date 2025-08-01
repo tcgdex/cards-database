@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [536],
+
 	name: {
 		en: "Palpitoad",
 		fr: "Batracné",
@@ -76,6 +77,10 @@ const card: Card = {
 
 	description: {
 		en: "It weakens its prey with sound waves intense enough to cause headaches, then entangles them with its sticky tongue."
+	},
+
+	thirdParty: {
+		cardmarket: 457668
 	}
 }
 

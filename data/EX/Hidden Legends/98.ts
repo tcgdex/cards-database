@@ -7,21 +7,24 @@ const card: Card = {
 		fr: "Regirock ex",
 		de: "Regirock ex"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		377,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276172,
+		tcgplayer: 88674
+	}
 }
 
 export default card

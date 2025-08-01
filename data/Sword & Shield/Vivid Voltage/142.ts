@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [641],
+
 	name: {
 		en: "Tornadus",
 		fr: "Boréas",
@@ -101,6 +102,10 @@ const card: Card = {
 
 	description: {
 		en: "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away."
+	},
+
+	thirdParty: {
+		cardmarket: 512420
 	}
 }
 

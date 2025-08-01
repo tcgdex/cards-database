@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Morpheo",
 		de: "Formeo"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		351,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -62,10 +67,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276797,
+		tcgplayer: 84127
+	}
 }
 
 export default card

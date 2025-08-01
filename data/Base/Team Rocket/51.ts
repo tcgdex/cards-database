@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les incisives d'un Rattatac sont incroyablement puissantes ; grâce à elle, il est capable de détruire une maison de 2 étages en 5 minutes."
+	},
+
+	thirdParty: {
+		cardmarket: 274104
 	}
 }
 

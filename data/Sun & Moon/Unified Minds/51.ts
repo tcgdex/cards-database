@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Golisopod",
 		de: "Tectass"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		768,
 	],
+
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Wimpod",
 		fr: "Sovkipou",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -86,8 +93,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 388082
+	}
 }
 
 export default card

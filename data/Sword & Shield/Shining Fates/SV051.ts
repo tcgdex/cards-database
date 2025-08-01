@@ -54,6 +54,10 @@ const card: Card = {
 
 	description: {
 		en: "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity."
+	},
+
+	thirdParty: {
+		cardmarket: 539643
 	}
 }
 

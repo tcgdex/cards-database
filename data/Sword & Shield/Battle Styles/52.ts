@@ -75,6 +75,10 @@ const card: Card = {
 
 	description: {
 		en: "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity."
+	},
+
+	thirdParty: {
+		cardmarket: 545371
 	}
 }
 

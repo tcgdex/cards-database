@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Kaorine de Team Magma",
 		de: "Team Magmas Lepumentas"
 	},
+
 	illustrator: "Zu-Ka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		344,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 		"Darkness",
@@ -38,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -66,10 +71,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275985,
+		tcgplayer: 89825
+	}
 }
 
 export default card

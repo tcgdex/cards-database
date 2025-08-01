@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Poliwag",
 		de: "Quapsel"
 	},
+
 	illustrator: "Shibuzoh.",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		60,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -59,8 +62,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 372327
+	}
 }
 
 export default card

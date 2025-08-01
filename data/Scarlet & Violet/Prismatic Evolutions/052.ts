@@ -36,7 +36,11 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "H",
-	illustrator: "HYOGONOSUKE"
+	illustrator: "HYOGONOSUKE",
+
+	thirdParty: {
+		cardmarket: 805441
+	}
 }
 
 export default card

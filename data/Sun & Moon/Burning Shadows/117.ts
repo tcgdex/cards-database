@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Vitória",
 		de: "Tracy"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez 50 dégâts à chacun de vos Pokémon auquel de l’Énergie Water est attachée.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cure 50 pontos de dano de cada um dos seus Pokémon que tiver alguma Energia Water ligada a ele.",
 		de: "Heile 50 Schadenspunkte bei jedem deiner Pokémon, an das mindestens 1 Water-Energie angelegt ist."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 299517
+	}
 }
 
 export default card

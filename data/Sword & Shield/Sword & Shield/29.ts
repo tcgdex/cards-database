@@ -93,6 +93,10 @@ const card: Card = {
 
 	description: {
 		en: "Explosive substances coat the shell on its back. Enemies that dare attack it will be blown away by an immense detonation."
+	},
+
+	thirdParty: {
+		cardmarket: 436309
 	}
 }
 

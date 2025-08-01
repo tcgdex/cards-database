@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Cacturne",
 		de: "Noktuska"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		332,
 	],
+
 	hp: 110,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Cacnea",
 		fr: "Cacnea",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -86,8 +91,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 311856
+	}
 }
 
 export default card

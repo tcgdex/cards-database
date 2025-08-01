@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Sandile",
 		de: "Ganovil"
 	},
+
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		551,
 	],
+
 	hp: 60,
+
 	types: [
 		"Darkness",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -64,22 +68,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 372403
+	}
 }
 
 export default card

@@ -7,21 +7,24 @@ const card: Card = {
 		fr: "Jirachi ex",
 		de: "Jirachi ex"
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		385,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,11 +77,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 277175,
+		tcgplayer: 86332
+	}
 }
 
 export default card

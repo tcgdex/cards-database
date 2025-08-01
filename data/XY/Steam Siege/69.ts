@@ -96,6 +96,10 @@ const card: Card = {
 		it: "Fossilscudo di Shieldon",
 		pt: "Fóssil Armadura de Shieldon",
 		de: "Schilterus' Panzerfossil"
+	},
+
+	thirdParty: {
+		cardmarket: 291635
 	}
 }
 

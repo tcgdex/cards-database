@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Erika's Gloom",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		44,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Oddish",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -51,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -58,10 +63,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274181,
+		tcgplayer: 85295
+	}
 }
 
 export default card

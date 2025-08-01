@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Hitmonlee",
 		de: "Kicklee"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		106,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -77,8 +80,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 369003
+	}
 }
 
 export default card

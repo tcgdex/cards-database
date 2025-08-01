@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Tropius",
 		de: "Tropius"
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		357,
 	],
+
 	hp: 110,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -72,6 +74,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -81,8 +84,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 282680
+	}
 }
 
 export default card

@@ -92,6 +92,10 @@ const card: Card = {
 
 	description: {
 		en: "Never touch its shadowlike body, or you'll be shown the horrific memories behind the picture carved into it."
+	},
+
+	thirdParty: {
+		cardmarket: 567191
 	}
 }
 

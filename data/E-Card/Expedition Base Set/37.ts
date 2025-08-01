@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Tortank",
 		de: "Turtok"
 	},
+
 	illustrator: "Kimiya Masago",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		9,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -65,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274879
+	}
 }
 
 export default card

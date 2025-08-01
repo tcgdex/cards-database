@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Scizor",
 		de: "Scherox"
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		212,
 	],
+
 	hp: 120,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Scyther",
 		fr: "Insécateur",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,22 +81,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365763
+	}
 }
 
 export default card

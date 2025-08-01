@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Venomoth",
 		de: "Omot"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		49,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Venonat",
 		fr: "Mimitoss",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Venonat",
 		de: "Bluzuk"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -91,8 +96,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281803
+	}
 }
 
 export default card

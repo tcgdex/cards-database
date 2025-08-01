@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [237],
+
 	name: {
 		en: "Hitmontop",
 		fr: "Kapoera",
@@ -93,6 +94,10 @@ const card: Card = {
 
 	description: {
 		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground."
+	},
+
+	thirdParty: {
+		cardmarket: 511860
 	}
 }
 

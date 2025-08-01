@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Nenupiot",
 		de: "Loturzel"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		270,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -60,10 +65,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277136,
+		tcgplayer: 86835
+	}
 }
 
 export default card

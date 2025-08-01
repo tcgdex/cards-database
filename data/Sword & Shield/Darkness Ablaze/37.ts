@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [245],
+
 	name: {
 		en: "Suicune",
 		fr: "Suicune",
@@ -87,6 +88,10 @@ const card: Card = {
 
 	description: {
 		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
+	},
+
+	thirdParty: {
+		cardmarket: 483059
 	}
 }
 

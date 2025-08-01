@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Joliflor δ",
 		de: "Blubella"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		182,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Gloom",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,12 +65,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -72,9 +80,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276989
+	}
 }
 
 export default card

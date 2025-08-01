@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Weepinbell",
 		de: "Ultrigaria"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		70,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Bellsprout",
 		fr: "Chétiflor",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Bellsprout",
 		de: "Knofensa"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -86,8 +91,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281666
+	}
 }
 
 export default card

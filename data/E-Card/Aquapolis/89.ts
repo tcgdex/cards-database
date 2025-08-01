@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Embrylex",
 		de: "Larvitar"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		246,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,10 +68,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275163,
+		tcgplayer: 86634
+	}
 }
 
 export default card

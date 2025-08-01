@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Porygon2",
 		de: "Porygon2"
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		233,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Porygon",
 		fr: "Porygon",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Porygon",
 		de: "Porygon"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -85,8 +90,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 284246
+	}
 }
 
 export default card

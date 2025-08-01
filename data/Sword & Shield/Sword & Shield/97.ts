@@ -88,7 +88,11 @@ const card: Card = {
 		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles."
 	},
 
-	dexId: [111]
+	dexId: [111],
+
+	thirdParty: {
+		cardmarket: 436599
+	}
 }
 
 export default card

@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Xurkitree GX",
 		de: "Voltriant GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		796,
 	],
+
 	hp: 180,
+
 	types: [
 		"Lightning",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -95,22 +99,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 316066
+	}
 }
 
 export default card

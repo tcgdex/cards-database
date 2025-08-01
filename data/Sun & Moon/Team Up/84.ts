@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Muk de Alola",
 		de: "Alola-Sleimok"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		89,
 	],
+
 	hp: 120,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Alolan Grimer",
 		fr: "Tadmorv d’Alola",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,22 +82,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 369014
+	}
 }
 
 export default card

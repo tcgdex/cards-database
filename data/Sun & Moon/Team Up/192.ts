@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Broca Perigosa",
 		de: "Gefährlicher Bohrer"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si vous défaussez un Pokémon Darkness de votre main.\n\nDéfaussez une carte Outil Pokémon ou une carte Énergie spéciale de l’un des Pokémon de votre adversaire, ou défaussez toute carte Stade en jeu.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se descartar 1 Pokémon Darkness da sua mão.\n\nDescarte 1 carta de Ferramenta Pokémon ou de Energia Especial de 1 dos Pokémon do seu oponente ou descarte qualquer carta de Estádio em jogo.",
 		de: "Du kannst diese Karte nur spielen, wenn du 1 Darkness-Pokémon aus deiner Hand auf deinen Ablagestapel legst.\n\nLege 1 Pokémon-Ausrüstung oder Spezial-Energiekarte von 1 Pokémon deines Gegners auf seinen Ablagestapel oder lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 369065
+	}
 }
 
 export default card

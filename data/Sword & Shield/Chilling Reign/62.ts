@@ -58,6 +58,10 @@ const card: Card = {
 
 	description: {
 		en: "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
+	},
+
+	thirdParty: {
+		cardmarket: 567170
 	}
 }
 

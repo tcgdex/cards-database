@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Golett",
 		de: "Golbit"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		622,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
@@ -66,8 +69,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 280497,
+		tcgplayer: 85833
+	}
 }
 
 export default card

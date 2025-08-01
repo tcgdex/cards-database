@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Volcanion ◇",
 		de: "Volcanion ◇"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		721,
 	],
+
 	hp: 160,
+
 	types: [
 		"Water",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -88,6 +92,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -97,8 +102,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 355550
+	}
 }
 
 export default card

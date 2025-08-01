@@ -93,6 +93,10 @@ const card: Card = {
 
 	description: {
 		en: "They thump their bones rhythmically to communicate among themselves. There are nearly 50 different rhythmic patterns."
+	},
+
+	thirdParty: {
+		cardmarket: 545466
 	}
 }
 

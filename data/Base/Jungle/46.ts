@@ -68,6 +68,11 @@ const card: Card = {
 
 	description: {
 		fr: "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs."
+	},
+
+	thirdParty: {
+		cardmarket: 273843,
+		tcgplayer: 45149
 	}
 }
 

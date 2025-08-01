@@ -78,7 +78,11 @@ const card: Card = {
 		en: "If a job requires serious strength, this Pokémon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color."
 	},
 
-	dexId: [878]
+	dexId: [878],
+
+	thirdParty: {
+		cardmarket: 436789
+	}
 }
 
 export default card

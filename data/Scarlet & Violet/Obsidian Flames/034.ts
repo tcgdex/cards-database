@@ -64,7 +64,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Miki Tanaka"
+	illustrator: "Miki Tanaka",
+
+	thirdParty: {
+		cardmarket: 725114
+	}
 }
 
 export default card

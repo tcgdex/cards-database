@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Dewott",
 		de: "Zwottronin"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		502,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Oshawott",
 		fr: "Moustillon",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Oshawott",
 		de: "Ottaro"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -68,8 +73,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 291566
+	}
 }
 
 export default card

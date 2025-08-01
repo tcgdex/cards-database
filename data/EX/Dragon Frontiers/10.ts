@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Ronflex δ",
 		de: "Relaxo"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		143,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
@@ -45,10 +48,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277215
+	}
 }
 
 export default card

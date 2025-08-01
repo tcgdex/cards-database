@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Loupio",
 		de: "Lampi"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		170,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,10 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276698,
+		tcgplayer: 84305
+	}
 }
 
 export default card

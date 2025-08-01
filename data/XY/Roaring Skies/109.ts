@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Substituição de Energia",
 		de: "EnergieUmschalter"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Déplacez une Énergie de base de l'un de vos Pokémon vers un autre de vos Pokémon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Mova uma Energia básica de 1 dos seus Pokémon para outro dos seus Pokémon.",
 		de: "Verschiebe 1 an 1 deiner Pokémon angelegte Basis-Energie auf ein anderes deiner Pokémon."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 282777
+	}
 }
 
 export default card

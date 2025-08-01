@@ -24,6 +24,10 @@ const set: Set = {
 	abbreviations: {
 		official: "PAF",
 		fr: "DDP"
+	},
+
+	thirdParty: {
+		cardmarket: 5546
 	}
 }
 

@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Écrapince",
 		de: "Krebscorps"
 	},
+
 	illustrator: "Takao Unno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		341,
 	],
+
 	hp: 40,
+
 	types: [
 		"Water",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -63,10 +68,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 84432
+	}
 }
 
 export default card

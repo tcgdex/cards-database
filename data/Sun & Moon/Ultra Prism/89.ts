@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Solgaleo ◇",
 		de: "Solgaleo ◇"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		791,
 	],
+
 	hp: 160,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -92,22 +94,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 316016
+	}
 }
 
 export default card

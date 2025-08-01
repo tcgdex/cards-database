@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Stantler",
 		de: "Damhirplex"
 	},
+
 	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		234,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -74,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -83,8 +86,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 288266
+	}
 }
 
 export default card

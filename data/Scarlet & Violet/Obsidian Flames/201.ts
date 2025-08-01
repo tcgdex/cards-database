@@ -73,7 +73,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "KEIICHIRO ITO"
+	illustrator: "KEIICHIRO ITO",
+
+	thirdParty: {
+		cardmarket: 725157
+	}
 }
 
 export default card

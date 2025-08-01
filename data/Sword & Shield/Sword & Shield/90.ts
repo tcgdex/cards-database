@@ -109,7 +109,11 @@ const card: Card = {
 		en: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found."
 	},
 
-	dexId: [855]
+	dexId: [855],
+
+	thirdParty: {
+		cardmarket: 436574
+	}
 }
 
 export default card

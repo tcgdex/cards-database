@@ -19,6 +19,10 @@ const ru1: Set = {
 
 	abbreviations: {
 		official: "RM"
+	},
+
+	thirdParty: {
+		cardmarket: 1634
 	}
 }
 

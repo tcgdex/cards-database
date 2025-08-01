@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Persian GX",
 		de: "Snobilikat GX"
 	},
+
 	illustrator: "PLANETA Igarashi",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		53,
 	],
+
 	hp: 200,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Meowth",
 		fr: "Miaouss",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -101,6 +107,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -110,8 +117,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 372435
+	}
 }
 
 export default card

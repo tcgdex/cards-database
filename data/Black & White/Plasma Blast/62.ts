@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Bagon",
 		de: "Kindwurm"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		371,
 	],
+
 	hp: 50,
+
 	types: [
 		"Dragon",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Dragon",
@@ -62,8 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281083,
+		tcgplayer: 83702
+	}
 }
 
 export default card

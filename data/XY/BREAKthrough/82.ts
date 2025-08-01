@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Mamoswine",
 		de: "Mamutel"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		473,
 	],
+
 	hp: 160,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Piloswine",
 		fr: "Cochignon",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Piloswine",
 		de: "Keifel"
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -81,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -90,8 +97,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 286328
+	}
 }
 
 export default card

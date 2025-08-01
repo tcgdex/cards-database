@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Cosmog",
 		de: "Cosmog"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		789,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -59,8 +62,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 295375
+	}
 }
 
 export default card

@@ -57,7 +57,11 @@ const card: Card = {
 		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574164
+	}
 }
 
 export default card

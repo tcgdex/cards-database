@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		en: "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it."
+	},
+
+	thirdParty: {
+		cardmarket: 427241
 	}
 }
 

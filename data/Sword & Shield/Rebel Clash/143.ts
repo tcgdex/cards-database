@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [519],
+
 	name: {
 		en: "Pidove",
 		fr: "Poichigeon",
@@ -89,6 +90,10 @@ const card: Card = {
 
 	description: {
 		en: "Where people go, these Pokémon follow. If you're scattering food for them, be careful—several hundred of them can gather at once."
+	},
+
+	thirdParty: {
+		cardmarket: 458103
 	}
 }
 

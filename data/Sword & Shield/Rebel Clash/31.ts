@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [607],
+
 	name: {
 		en: "Litwick",
 		fr: "Funécire",
@@ -65,6 +66,10 @@ const card: Card = {
 
 	description: {
 		en: "The flame on its head keeps its body slightly warm. This Pokémon takes lost children by the hand to guide them to the spirit world."
+	},
+
+	thirdParty: {
+		cardmarket: 457613
 	}
 }
 

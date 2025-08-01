@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Victini",
 		de: "Victini"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		494,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -64,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -73,8 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280137,
+		tcgplayer: 90343
+	}
 }
 
 export default card

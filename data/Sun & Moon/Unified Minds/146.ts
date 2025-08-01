@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Garchomp e Giratina GX",
 		de: "Knakrack & Giratina GX"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		445,
 	],
+
 	hp: 270,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -99,6 +101,7 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -108,8 +111,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 377496
+	}
 }
 
 export default card

@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		en: "After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food."
+	},
+
+	thirdParty: {
+		cardmarket: 567187
 	}
 }
 

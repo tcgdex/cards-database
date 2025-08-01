@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Kraknoix",
 		de: "Knacklion"
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		328,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -49,10 +52,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277374,
+		tcgplayer: 90022
+	}
 }
 
 export default card

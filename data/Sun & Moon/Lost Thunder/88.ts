@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Xatu",
 		de: "Xatu"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		178,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Natu",
 		fr: "Natu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -73,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -82,8 +87,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365725
+	}
 }
 
 export default card

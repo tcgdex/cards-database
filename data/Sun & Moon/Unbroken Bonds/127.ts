@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Genesect",
 		de: "Genesect"
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		649,
 	],
+
 	hp: 130,
+
 	types: [
 		"Metal",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,22 +77,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 372416
+	}
 }
 
 export default card

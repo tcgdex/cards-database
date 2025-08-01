@@ -50,7 +50,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Kamome Shirahama"
+	illustrator: "Kamome Shirahama",
+
+	thirdParty: {
+		cardmarket: 794272
+	}
 }
 
 export default card

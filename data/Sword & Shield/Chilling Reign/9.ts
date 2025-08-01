@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		en: "The berries that grow around its belly are like ice pops. Galarian Darumaka absolutely love these berries."
+	},
+
+	thirdParty: {
+		cardmarket: 567089
 	}
 }
 

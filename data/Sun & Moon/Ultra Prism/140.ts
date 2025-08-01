@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Pheromosa GX",
 		de: "Schabelle GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		795,
 	],
+
 	hp: 170,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "GX",
 
@@ -99,6 +101,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -108,8 +111,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 316064
+	}
 }
 
 export default card

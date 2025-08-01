@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "La section centrale de son corps est appelée \"cœur\". Elle luit d'une couleur différente à chaque fois qu'on la contemple."
+	},
+
+	thirdParty: {
+		cardmarket: 274611,
+		tcgplayer: 89527
 	}
 }
 

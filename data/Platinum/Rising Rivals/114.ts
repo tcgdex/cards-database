@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Pikachu surfeur Niv. 13",
 		de: "Surfendes Pikachu"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		25,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -39,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -48,8 +51,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278688,
+		tcgplayer: 89644
+	}
 }
 
 export default card

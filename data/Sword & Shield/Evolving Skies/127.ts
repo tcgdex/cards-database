@@ -74,7 +74,11 @@ const card: Card = {
 		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574181
+	}
 }
 
 export default card

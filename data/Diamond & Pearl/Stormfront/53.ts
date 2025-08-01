@@ -80,6 +80,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il rêve de pouvoir voler un jour. Pour l'heure, il s'entraîne en sautant du haut des falaises."
+	},
+
+	thirdParty: {
+		cardmarket: 278351,
+		tcgplayer: 83698
 	}
 }
 

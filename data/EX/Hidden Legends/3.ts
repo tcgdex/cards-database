@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Nostenfer",
 		de: "Iksbat"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		169,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Golbat",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -62,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -69,10 +74,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276077,
+		tcgplayer: 84486
+	}
 }
 
 export default card

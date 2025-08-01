@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon nocturne est attiré par les lueurs de la ville et aime les feuilles des arbres urbains."
+	},
+
+	thirdParty: {
+		cardmarket: 277524
 	}
 }
 

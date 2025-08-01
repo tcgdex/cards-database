@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns."
+	},
+
+	thirdParty: {
+		cardmarket: 567092
 	}
 }
 

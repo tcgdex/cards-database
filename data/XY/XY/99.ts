@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Dodrio",
 		de: "Dodri"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		85,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Doduo",
 		fr: "Doduo",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Doduo",
 		de: "Dodu"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,22 +87,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281436
+	}
 }
 
 export default card

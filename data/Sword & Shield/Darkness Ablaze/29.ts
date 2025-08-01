@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [636],
+
 	name: {
 		en: "Larvesta",
 		fr: "Pyronille",
@@ -68,6 +69,10 @@ const card: Card = {
 
 	description: {
 		en: "It protects itself with flame. Long years ago, people believed Larvesta had a nest on the sun."
+	},
+
+	thirdParty: {
+		cardmarket: 483019
 	}
 }
 

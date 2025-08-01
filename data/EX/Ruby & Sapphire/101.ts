@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Mewtwo ex",
 		de: "Mewtu ex"
 	},
+
 	illustrator: "Katsura Tabata",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "EX",
 
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,10 +66,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275749
+	}
 }
 
 export default card

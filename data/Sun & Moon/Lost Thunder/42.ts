@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Typhlosion",
 		de: "Tornupto"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		157,
 	],
+
 	hp: 160,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Quilava",
 		fr: "Feurisson",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -86,8 +93,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 365682
+	}
 }
 
 export default card

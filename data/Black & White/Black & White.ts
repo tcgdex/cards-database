@@ -25,6 +25,10 @@ const bw1: Set = {
 	abbreviations: {
 		official: "BLW",
 		fr: "N&B"
+	},
+
+	thirdParty: {
+		cardmarket: 1571
 	}
 }
 

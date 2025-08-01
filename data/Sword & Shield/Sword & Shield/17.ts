@@ -69,7 +69,11 @@ const card: Card = {
 		en: "A constant collector of information, this Pokémon is very smart. Very strong is what it isn't."
 	},
 
-	dexId: [824]
+	dexId: [824],
+
+	thirdParty: {
+		cardmarket: 436249
+	}
 }
 
 export default card

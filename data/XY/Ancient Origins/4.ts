@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Bellossom",
 		de: "Blubella"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		182,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Gloom",
 		fr: "Ortide",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Gloom",
 		de: "Duflor"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -91,8 +96,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 284185
+	}
 }
 
 export default card

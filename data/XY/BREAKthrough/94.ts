@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Yveltal",
 		de: "Yveltal"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		717,
 	],
+
 	hp: 130,
+
 	types: [
 		"Darkness",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,22 +77,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 286340
+	}
 }
 
 export default card

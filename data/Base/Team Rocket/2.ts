@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il paralyse ses proies d'un regard. Si vous en rencontrez un, gardez-vous de le regarder dans les yeux ."
+	},
+
+	thirdParty: {
+		cardmarket: 274055
 	}
 }
 

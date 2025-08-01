@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Palossand",
 		de: "Colossand"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		770,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Sandygast",
 		fr: "Bacabouh",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,22 +86,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 299466
+	}
 }
 
 export default card

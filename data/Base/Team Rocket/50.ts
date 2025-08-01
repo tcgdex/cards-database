@@ -64,6 +64,10 @@ const card: Card = {
 
 	description: {
 		fr: "De nombreuses personnes le trouvent mignon et essaient de l'attraper. Leur seule récompense est de se brûler sur sa queue."
+	},
+
+	thirdParty: {
+		cardmarket: 274103
 	}
 }
 

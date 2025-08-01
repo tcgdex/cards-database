@@ -65,7 +65,11 @@ const card: Card = {
 
 		damage: "10×",
 		cost: ["Colorless"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 293429
+	}
 }
 
 export default card

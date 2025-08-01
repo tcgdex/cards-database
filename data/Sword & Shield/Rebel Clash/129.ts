@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [436],
+
 	name: {
 		en: "Bronzor",
 		fr: "Archéomire",
@@ -83,6 +84,10 @@ const card: Card = {
 
 	description: {
 		en: "It appears in ancient ruins. The pattern on its body doesn't come from any culture in the Galar region, so it remains shrouded in mystery."
+	},
+
+	thirdParty: {
+		cardmarket: 458043
 	}
 }
 

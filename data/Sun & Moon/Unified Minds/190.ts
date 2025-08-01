@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Exorcista",
 		de: "Exorzistin"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Retirez tous les effets d’attaques sur vous et sur chacun de vos Pokémon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Remova todos os efeitos de ataques em você e em cada um dos seus Pokémon.",
 		de: "Entferne alle Effekte von Attacken auf dir und jedem deiner Pokémon."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 388737
+	}
 }
 
 export default card

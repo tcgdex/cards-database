@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Poliwhirl",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		61,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Poliwag",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -53,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -60,10 +65,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 273980,
+		tcgplayer: 42520
+	}
 }
 
 export default card

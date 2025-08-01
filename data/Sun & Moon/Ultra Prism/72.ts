@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Honchkrow",
 		de: "Kramshef"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		430,
 	],
+
 	hp: 110,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Murkrow",
 		fr: "Cornèbre",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -71,22 +75,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 316000
+	}
 }
 
 export default card

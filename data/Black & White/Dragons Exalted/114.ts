@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Capa Gigante",
 		de: "Riesige Robe"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ajoute 20 PV au Pokémon auquel elle est attachée.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Pokémon ao qual este card está ligado recebe +20 PS.",
 		de: "Das Pokémon, an das diese Karte angelegt ist, erhält +20 KP."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 280553,
+		tcgplayer: 85696
+	}
 }
 
 export default card

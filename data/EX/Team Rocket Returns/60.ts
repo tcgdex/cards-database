@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Houndour",
 		de: "Hunduster"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		228,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -51,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -58,10 +63,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276351,
+		tcgplayer: 86226
+	}
 }
 
 export default card

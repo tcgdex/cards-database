@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Muk",
 		de: "Sleimok"
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		89,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Grimer",
 		fr: "Tadmorv",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -74,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -83,8 +90,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 368993
+	}
 }
 
 export default card

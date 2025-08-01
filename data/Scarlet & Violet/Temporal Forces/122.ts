@@ -73,7 +73,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "PLANETA Mochizuki"
+	illustrator: "PLANETA Mochizuki",
+
+	thirdParty: {
+		cardmarket: 760752
+	}
 }
 
 export default card

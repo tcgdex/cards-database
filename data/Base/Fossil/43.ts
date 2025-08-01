@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Le Kokiyas accroché à la queue du Ramoloss se nourrit des restes de son hôte."
+	},
+
+	thirdParty: {
+		cardmarket: 273904,
+		tcgplayer: 44445
 	}
 }
 

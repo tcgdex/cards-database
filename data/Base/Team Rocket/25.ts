@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		fr: "On le trouvait habituellement dans les profondeurs de l'océan, mais il a été vu récemment dans des eaux peu profondes."
+	},
+
+	thirdParty: {
+		cardmarket: 274061
 	}
 }
 

@@ -77,7 +77,11 @@ const card: Card = {
 		en: "This Pokémon will look into your eyes and read the contents of your heart. If it finds evil there, it promptly hides away."
 	},
 
-	dexId: [77]
+	dexId: [77],
+
+	thirdParty: {
+		cardmarket: 427206
+	}
 }
 
 export default card

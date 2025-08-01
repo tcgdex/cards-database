@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [385],
+
 	name: {
 		en: "Jirachi",
 		fr: "Jirachi",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "Once every 1,000 years, the singing of a pure voice will rouse this Pokémon from its near-perpetual slumber. It wakes for only seven days."
+	},
+
+	thirdParty: {
+		cardmarket: 512305
 	}
 }
 

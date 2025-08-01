@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Avec une ossature 1000 fois plus résistante que celle de l'homme, ses charges sont dévastatrices."
+	},
+
+	thirdParty: {
+		cardmarket: 273858,
+		tcgplayer: 45164
 	}
 }
 

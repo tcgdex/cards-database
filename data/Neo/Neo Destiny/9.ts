@@ -80,6 +80,11 @@ const card: Card = {
 
 	description: {
 		fr: "Rien ne peut résister à la pression des griffes d'acier de ce Pokémon, aussi puissantes qu'un étau."
+	},
+
+	thirdParty: {
+		cardmarket: 274661,
+		tcgplayer: 84652
 	}
 }
 

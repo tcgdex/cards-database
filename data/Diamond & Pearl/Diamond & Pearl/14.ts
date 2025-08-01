@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		fr: "D'un coup de sa feuille éventail, il génère des bourrasques de 30 m/s capables de souffler une maison."
+	},
+
+	thirdParty: {
+		cardmarket: 277513
 	}
 }
 

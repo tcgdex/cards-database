@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Sceptile",
 		de: "Gewaldro"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		254,
 	],
+
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Grovyle",
 		fr: "Massko",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -64,22 +68,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280886,
+		tcgplayer: 88953
+	}
 }
 
 export default card

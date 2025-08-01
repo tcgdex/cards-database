@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Colress",
 		de: "Achromas"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Mélangez votre main avec votre deck. Ensuite, piochez un nombre de cartes égal au nombre de Pokémon de Banc (les vôtres et ceux de votre adversaire).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Embaralhe sua mão no seu baralho. Em seguida, compre um número de cards igual ao número de Pokémon no Banco (tanto seus quanto do seu oponente).",
 		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend genauso viele Karten, wie sich Pokémon auf der Bank befinden (deiner und der deines Gegners)."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 280858,
+		tcgplayer: 84390
+	}
 }
 
 export default card

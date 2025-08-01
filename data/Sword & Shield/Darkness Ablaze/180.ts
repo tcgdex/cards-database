@@ -91,7 +91,11 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 483174
+	}
 }
 
 export default card

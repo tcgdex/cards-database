@@ -35,7 +35,11 @@ const card: Card = {
 	},
 
 	illustrator: "Yuu Nishida",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545826
+	}
 }
 
 export default card

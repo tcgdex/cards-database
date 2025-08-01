@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Zapdos",
 		de: "Zapdos"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		145,
 	],
+
 	hp: 120,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -69,22 +71,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 282691
+	}
 }
 
 export default card

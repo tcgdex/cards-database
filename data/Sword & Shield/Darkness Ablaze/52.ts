@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [748],
+
 	name: {
 		en: "Toxapex",
 		fr: "Prédastérie",
@@ -102,6 +103,10 @@ const card: Card = {
 
 	description: {
 		en: "To survive in the cold waters of Galar, this Pokémon forms a dome with its legs, enclosing its body so it can capture its own body heat."
+	},
+
+	thirdParty: {
+		cardmarket: 483134
 	}
 }
 

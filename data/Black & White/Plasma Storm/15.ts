@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Chimchar",
 		de: "Panflam"
 	},
+
 	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		390,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -40,6 +42,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -49,8 +52,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280755,
+		tcgplayer: 84291
+	}
 }
 
 export default card

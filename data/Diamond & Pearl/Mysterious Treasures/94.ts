@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit en forêt avec ses pairs. Il accumule l'électricité dans les poches de ses joues."
+	},
+
+	thirdParty: {
+		cardmarket: 277723,
+		tcgplayer: 88086
 	}
 }
 

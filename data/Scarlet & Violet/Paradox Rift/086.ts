@@ -61,7 +61,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Ryota Murayama"
+	illustrator: "Ryota Murayama",
+
+	thirdParty: {
+		cardmarket: 740578
+	}
 }
 
 export default card

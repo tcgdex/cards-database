@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Rolo de Pintura",
 		de: "Farbroller"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez toute carte Stade en jeu. Ensuite, piochez une carte.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Descarte qualquer card de Estádio em jogo. Em seguida, compre um card.",
 		de: "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel. Ziehe anschließend 1 Karte."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 284260
+	}
 }
 
 export default card

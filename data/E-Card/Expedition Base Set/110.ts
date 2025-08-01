@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Racaillou",
 		de: "Kleinstein"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		74,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -49,10 +52,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274985
+	}
 }
 
 export default card

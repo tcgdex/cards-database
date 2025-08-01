@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Galegon de Team Magma",
 		de: "Team Magmas Stollrak"
 	},
+
 	illustrator: "Hiromichi Sugiyama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		305,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -64,10 +67,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275997,
+		tcgplayer: 89833
+	}
 }
 
 export default card

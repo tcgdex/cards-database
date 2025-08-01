@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Golem",
 		fr: "Grolem",
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		76,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Graveler",
 		fr: "Gravalanch",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -62,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -71,8 +76,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 288483,
+		tcgplayer: 113703
+	}
 }
 
 export default card

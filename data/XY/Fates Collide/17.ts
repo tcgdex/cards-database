@@ -63,6 +63,10 @@ const card: Card = {
 		it: "Helixfossile di Omanyte",
 		pt: "Fóssil Espiral de Omanyte",
 		de: "Helixfossil Amonitas"
+	},
+
+	thirdParty: {
+		cardmarket: 289843
 	}
 }
 

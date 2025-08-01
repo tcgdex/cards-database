@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Vibraninf δ",
 		de: "Vibrava"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		329,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Trapinch",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,11 +63,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 277229
+	}
 }
 
 export default card

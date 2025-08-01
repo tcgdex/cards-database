@@ -6,21 +6,24 @@ const card: Card = {
 		en: "Flareon EX",
 		fr: "Pyroli-EX",
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		136,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fire",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,8 +67,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 288515
+	}
 }
 
 export default card

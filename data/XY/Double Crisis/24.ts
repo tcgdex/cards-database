@@ -29,7 +29,12 @@ const card: Card = {
 		},
 
 		cost: ["Fighting"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 282535,
+		tcgplayer: 97070
+	}
 }
 
 export default card

@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Aipom",
 		de: "Griffel"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		190,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -74,8 +79,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 408469
+	}
 }
 
 export default card

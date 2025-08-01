@@ -52,7 +52,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Yuriko Akase"
+	illustrator: "Yuriko Akase",
+
+	thirdParty: {
+		cardmarket: 769277
+	}
 }
 
 export default card

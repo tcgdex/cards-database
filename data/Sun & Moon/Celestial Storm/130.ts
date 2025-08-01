@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pescador",
 		de: "Angler"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Ajoutez 4 cartes Énergie de base de votre pile de défausse à votre main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Coloque 4 cartas de Energia básica da sua pilha de descarte na sua mão.",
 		de: "Nimm 4 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 361368
+	}
 }
 
 export default card

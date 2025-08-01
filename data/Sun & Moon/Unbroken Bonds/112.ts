@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Spiritomb",
 		de: "Kryppuk"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		442,
 	],
+
 	hp: 60,
+
 	types: [
 		"Darkness",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,11 +76,11 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 372402
+	}
 }
 
 export default card

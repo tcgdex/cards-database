@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Il Pokémon a cui è assegnata questa carta non ha debolezza.",
 		pt: "O Pokémon ao qual este card está ligado não tem Fraqueza.",
 		de: "Das Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
+	},
+
+	thirdParty: {
+		cardmarket: 273673
 	}
 }
 

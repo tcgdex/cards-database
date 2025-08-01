@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Insécateur ex",
 		de: "Sichlor ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		123,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "EX",
 
@@ -57,12 +59,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -70,9 +74,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275750
+	}
 }
 
 export default card

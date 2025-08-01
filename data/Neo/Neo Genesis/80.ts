@@ -68,6 +68,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est petit mais costaud. Il n'hésite pas à mordre tout ce qui bouge."
+	},
+
+	thirdParty: {
+		cardmarket: 274480,
+		tcgplayer: 89991
 	}
 }
 

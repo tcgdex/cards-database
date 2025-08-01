@@ -16,6 +16,11 @@ const card: Card = {
 	effect: {
 		fr: "Défaussez-vous de votre main, puis piochez 7 cartes.",
 		de: "Entferne alle Karten aus Deiner Hand und ziehe sieben neue Karten."
+	},
+
+	thirdParty: {
+		cardmarket: 273783,
+		tcgplayer: 42431
 	}
 }
 

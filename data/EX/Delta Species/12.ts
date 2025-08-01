@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Mewtwo δ",
 		de: "Mewtu"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 		"Metal",
@@ -38,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -65,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276775
+	}
 }
 
 export default card

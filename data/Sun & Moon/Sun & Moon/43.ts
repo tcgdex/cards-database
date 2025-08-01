@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Crabominable",
 		de: "Krawell"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		740,
 	],
+
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Crabrawler",
 		fr: "Crabagarre",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -84,8 +89,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 295354
+	}
 }
 
 export default card

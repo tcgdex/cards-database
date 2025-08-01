@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Torkoal",
 		de: "Qurtel"
 	},
+
 	illustrator: "0313",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		324,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -75,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -84,8 +87,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 398524
+	}
 }
 
 export default card

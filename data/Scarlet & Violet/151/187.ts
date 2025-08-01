@@ -74,7 +74,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Saki Hayashiro"
+	illustrator: "Saki Hayashiro",
+
+	thirdParty: {
+		cardmarket: 733635
+	}
 }
 
 export default card

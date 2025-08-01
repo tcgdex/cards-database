@@ -80,6 +80,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un arôme épicé émane de son tour de cou. Cet arôme agit comme un stimulant réjuvénateur."
+	},
+
+	thirdParty: {
+		cardmarket: 274428,
+		tcgplayer: 83743
 	}
 }
 

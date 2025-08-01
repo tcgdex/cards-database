@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Dark Sandslash",
 		de: "Dunkles Sandamer"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		28,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Sandshrew",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276310,
+		tcgplayer: 84651
+	}
 }
 
 export default card

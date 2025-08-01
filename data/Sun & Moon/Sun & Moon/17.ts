@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Shiinotic",
 		de: "Lamellux"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		756,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Morelull",
 		fr: "Spododo",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -84,8 +91,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 295324
+	}
 }
 
 export default card

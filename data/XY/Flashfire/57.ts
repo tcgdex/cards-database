@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Krokorok",
 		de: "Rokkaiman"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		552,
 	],
+
 	hp: 90,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Sandile",
 		fr: "Mascaïman",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Sandile",
 		de: "Ganovil"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,22 +87,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281540
+	}
 }
 
 export default card

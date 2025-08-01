@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [659],
+
 	name: {
 		en: "Bunnelby",
 		fr: "Sapereau",
@@ -70,6 +71,10 @@ const card: Card = {
 
 	description: {
 		en: "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
+	},
+
+	thirdParty: {
+		cardmarket: 483629
 	}
 }
 

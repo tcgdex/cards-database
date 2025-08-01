@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Défaussez une carte de votre main pour pouvoir jouer cette carte. Votre adversaire mélange sa main avec son deck, puis pioche 4 cartes.",
 		de: "Lege eine Karte von deiner hand ab, um diese Karte zu spielen. Dein gegner mischt seine oder ihre hand in sein oder ihr Deck und zieht dann vier Karten."
+	},
+
+	thirdParty: {
+		cardmarket: 274129
 	}
 }
 

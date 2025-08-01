@@ -87,6 +87,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il place le bout de ses deux queues sur son ennemi et libère une décharge de 20 000 volts."
+	},
+
+	thirdParty: {
+		cardmarket: 277502
 	}
 }
 

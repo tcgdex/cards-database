@@ -6,23 +6,27 @@ const card: Card = {
 		en: "Forretress",
 		de: "Forstellka"
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		205,
 	],
+
 	hp: 90,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Pineco",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,12 +63,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -72,9 +78,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 279648,
+		tcgplayer: 85553
+	}
 }
 
 export default card

@@ -24,6 +24,11 @@ const ex9: Set = {
 	abbreviations: {
 		official: "EM",
 		fr: "EME"
+	},
+
+	thirdParty: {
+		cardmarket: 4029,
+		tcgplayer: 1410
 	}
 }
 

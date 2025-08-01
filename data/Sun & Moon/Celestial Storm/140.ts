@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "PokéNav",
 		de: "PokéNav"
 	},
+
 	illustrator: "Katsura Tabata",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 3 cartes du dessus de votre deck. Vous pouvez montrer un Pokémon ou une carte Énergie que vous y trouvez et l’ajouter à votre main. Replacez les autres cartes dans l’ordre de votre choix.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe as 3 primeiras cartas do seu baralho. Você poderá revelar 1 carta de Pokémon ou Energia que encontrar lá e colocá-la na sua mão. Coloque as demais cartas de volta em qualquer ordem.",
 		de: "Schau dir die obersten 3 Karten deines Decks an. Du kannst 1 Pokémon oder 1 Energiekarte, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Lege die anderen Karten in beliebiger Reihenfolge zurück auf dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 361378
+	}
 }
 
 export default card

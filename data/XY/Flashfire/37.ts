@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Heliolisk",
 		de: "Elezard"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		695,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Helioptile",
 		fr: "Galvaran",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Helioptile",
 		de: "Eguana"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,22 +86,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281520
+	}
 }
 
 export default card

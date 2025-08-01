@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Laggron",
 		de: "Sumpex"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		260,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Marshtomp",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -79,10 +86,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275661
+	}
 }
 
 export default card

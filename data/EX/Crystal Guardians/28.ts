@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Florizarre",
 		de: "Bisaflor"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
 	],
+
 	hp: 110,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Ivysaur",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -84,10 +91,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277109,
+		tcgplayer: 90318
+	}
 }
 
 export default card

@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Gardevoir",
 		de: "Guardevoir"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		282,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Kirlia",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -65,10 +72,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275655
+	}
 }
 
 export default card

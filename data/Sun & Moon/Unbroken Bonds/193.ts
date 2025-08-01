@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Venomoth GX",
 		de: "Omot GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		49,
 	],
+
 	hp: 200,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Venonat",
 		fr: "Mimitoss",
@@ -79,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -88,8 +93,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 372305
+	}
 }
 
 export default card

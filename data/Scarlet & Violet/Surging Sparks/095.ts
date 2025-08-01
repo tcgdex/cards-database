@@ -70,7 +70,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Anesaki Dynamic"
+	illustrator: "Anesaki Dynamic",
+
+	thirdParty: {
+		cardmarket: 794405
+	}
 }
 
 export default card

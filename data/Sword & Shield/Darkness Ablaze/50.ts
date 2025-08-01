@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [746],
+
 	name: {
 		en: "Wishiwashi",
 		fr: "Froussardine",
@@ -84,6 +85,10 @@ const card: Card = {
 
 	description: {
 		en: "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents."
+	},
+
+	thirdParty: {
+		cardmarket: 483124
 	}
 }
 

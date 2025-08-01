@@ -96,7 +96,11 @@ const card: Card = {
 		de: "Rappenreiter-Coronospa-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567183
+	}
 }
 
 export default card

@@ -27,10 +27,15 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "F",
+
 	variants: {
 		"normal": true,
 		"reverse": true,
 		"holo": false
+	},
+
+	thirdParty: {
+		cardmarket: 664661
 	}
 }
 

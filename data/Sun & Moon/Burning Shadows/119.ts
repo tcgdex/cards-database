@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Olívia",
 		de: "Mayla"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez jusqu’à 2 Pokémon-GX dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure por até 2 Pokémon-GX no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach bis zu 2 Pokémon-GX, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 299519
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [584],
+
 	name: {
 		en: "Vanilluxe",
 		fr: "Sorbouboul",
@@ -94,6 +95,10 @@ const card: Card = {
 
 	description: {
 		en: "When its anger reaches a breaking point, this Pokémon unleashes a fierce blizzard that freezes every creature around it, be they friend or foe."
+	},
+
+	thirdParty: {
+		cardmarket: 483114
 	}
 }
 

@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Grahyena",
 		de: "Magnayen"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		262,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Poochyena",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -60,12 +66,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -73,9 +81,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275658
+	}
 }
 
 export default card

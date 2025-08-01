@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Reserva Paraíso Aether",
 		de: "Schutzzone des Æther-Paradieses"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les Pokémon Grass de base et les Pokémon Lightning de base (les vôtres et ceux de votre adversaire) reçoivent 30 dégâts de moins des attaques de l’adversaire (après application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Os Pokémon Grass Básicos e os Pokémon Lightning Básicos (seus e do seu oponente) recebem 30 pontos de dano a menos de ataques do oponente (após a aplicação de Fraqueza e Resistência).",
 		de: "Grass-Basis-Pokémon und Lightning-Basis-Pokémon (deine und die deines Gegners) werden durch Attacken des Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 297568
+	}
 }
 
 export default card

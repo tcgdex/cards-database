@@ -3,6 +3,7 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	dexId: [772],
+
 	name: {
 		en: "Type: Null",
 		fr: "Type:0",
@@ -11,19 +12,18 @@ const card: Card = {
 		pt: "Tipo Nulo",
 		de: "Typ:Null"
 	},
+
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -60,8 +61,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 408539
+	}
 }
 
 export default card

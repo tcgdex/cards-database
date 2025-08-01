@@ -89,7 +89,11 @@ const card: Card = {
 		en: "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves."
 	},
 
-	dexId: [814]
+	dexId: [814],
+
+	thirdParty: {
+		cardmarket: 436319
+	}
 }
 
 export default card

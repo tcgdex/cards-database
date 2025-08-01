@@ -100,7 +100,11 @@ const card: Card = {
 		en: "Living in mud with a high iron content has given it a strong steel body."
 	},
 
-	dexId: [618]
+	dexId: [618],
+
+	thirdParty: {
+		cardmarket: 436769
+	}
 }
 
 export default card

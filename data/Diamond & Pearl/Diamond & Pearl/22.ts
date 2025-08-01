@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il joue au bord des lacs déserts les soirs de pleine lune. Rares sont ceux qui l'ont aperçu."
+	},
+
+	thirdParty: {
+		cardmarket: 277521
 	}
 }
 

@@ -80,7 +80,11 @@ const card: Card = {
 		en: "It makes frightening noises with its poison-filled cheek sacs. When opponents flinch, Croagunk hits them with a poison jab."
 	},
 
-	dexId: [453]
+	dexId: [453],
+
+	thirdParty: {
+		cardmarket: 436724
+	}
 }
 
 export default card

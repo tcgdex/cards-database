@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pokédex Rotom",
 		de: "Rotom-Pokédex"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Après avoir compté vos cartes Récompense, mélangez-les avec votre deck. Prenez alors le même nombre de cartes du dessus de votre deck et placez-les faces cachées comme cartes Récompense.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Após contar as suas cartas de Prêmio, embaralhe-as no seu baralho. Em seguida, pegue aquele mesmo número de cartas de cima do seu baralho e coloque-as viradas para baixo como as suas cartas de Prêmio.",
 		de: "Mische deine Preiskarten in dein Deck, nachdem du sie gezählt hast. Nimm anschließend dieselbe Anzahl Karten von deinem Deck und lege sie als deine verdeckten Preiskarten ab."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 295444
+	}
 }
 
 export default card

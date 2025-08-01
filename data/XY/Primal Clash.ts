@@ -26,6 +26,10 @@ const xy5: Set = {
 	abbreviations: {
 		official: "PRC",
 		fr: "PRI"
+	},
+
+	thirdParty: {
+		cardmarket: 1585
 	}
 }
 

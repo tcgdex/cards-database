@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Tauros",
 		de: "Tauros"
 	},
+
 	illustrator: "kodama",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		128,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,8 +64,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 369056
+	}
 }
 
 export default card

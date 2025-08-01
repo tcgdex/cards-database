@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Elo Espiritual de Altaria",
 		de: "Altarias Geistesbund"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Votre tour ne se termine pas si le Pokémon auquel cette carte est attachée devient M-Altaria-EX.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Sua vez de jogar não terminará se o Pokémon ao qual este card está ligado tornar-se M-Altaria-EX.",
 		de: "Dein Zug endet nicht, wenn das Pokémon, an das diese Karte angelegt ist, zu M-Altaria-EX wird."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 289911
+	}
 }
 
 export default card

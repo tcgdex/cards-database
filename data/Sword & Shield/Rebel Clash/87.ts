@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [869],
+
 	name: {
 		en: "Alcremie",
 		fr: "Charmilly",
@@ -98,6 +99,10 @@ const card: Card = {
 
 	description: {
 		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream."
+	},
+
+	thirdParty: {
+		cardmarket: 457853
 	}
 }
 

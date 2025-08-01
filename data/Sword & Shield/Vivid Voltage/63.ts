@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [35],
+
 	name: {
 		en: "Clefairy",
 		fr: "Mélofée",
@@ -85,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon."
+	},
+
+	thirdParty: {
+		cardmarket: 511735
 	}
 }
 

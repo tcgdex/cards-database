@@ -85,6 +85,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il survole les forêts et les champs en quête de Pokémon Insecte. Ils forment de grandes volées."
+	},
+
+	thirdParty: {
+		cardmarket: 277563
 	}
 }
 

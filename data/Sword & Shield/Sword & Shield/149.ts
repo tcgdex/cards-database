@@ -71,7 +71,11 @@ const card: Card = {
 		en: "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below."
 	},
 
-	dexId: [780]
+	dexId: [780],
+
+	thirdParty: {
+		cardmarket: 436839
+	}
 }
 
 export default card

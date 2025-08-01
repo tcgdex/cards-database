@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Se questa carta è assegnata a uno dei tuoi Pokémon, scartala alla fine del turno del tuo avversario.\n\nSe il Pokémon a cui è assegnata questa carta è il tuo Pokémon attivo e subisce 180 o più danni inflitti da un attacco del tuo avversario, anche se viene messo KO, metti 10 segnalini danno sul Pokémon attaccante.",
 		pt: "Se esta carta estiver ligada a 1 dos seus Pokémon, descarte-a no final da próxima vez de jogar do seu oponente.\n\nSe o Pokémon ao qual esta carta está ligada for o seu Pokémon Ativo e receber 180 pontos de dano ou mais de um ataque do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque 10 contadores de dano no Pokémon Atacante.",
 		de: "Wenn diese Karte an 1 deiner Pokémon angelegt ist, lege sie am Ende des Zuges deines Gegners auf deinen Ablagestapel.\n\nWenn das Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und ihm durch eine Attacke deines Gegners 180 oder mehr Schadenspunkte zugefügt werden (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 10 Schadensmarken auf das Angreifende Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 388767
 	}
 }
 

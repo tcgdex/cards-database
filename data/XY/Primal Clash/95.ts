@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Probopass",
 		de: "Voluminas"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		476,
 	],
+
 	hp: 110,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Nosepass",
 		fr: "Tarinor",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Nosepass",
 		de: "Nasgnet"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,22 +87,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 273626
+	}
 }
 
 export default card

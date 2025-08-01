@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Diggersby",
 		de: "Grebbit"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		660,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Bunnelby",
 		fr: "Sapereau",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -91,8 +96,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 355611
+	}
 }
 
 export default card

@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Dragonite",
 		de: "Dragoran"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		149,
 	],
+
 	hp: 160,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Dragonair",
 		fr: "Draco",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -69,6 +75,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -78,8 +85,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 369047
+	}
 }
 
 export default card

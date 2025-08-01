@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Palkia ",
 		de: "Palkia G"
 	},
+
 	illustrator: "Yusuke Ishikawa",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		484,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
@@ -62,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -71,8 +75,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		tcgplayer: 87917
+	}
 }
 
 export default card

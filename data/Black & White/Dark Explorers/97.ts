@@ -24,6 +24,11 @@ const card: Card = {
 		it: "Guarda le ultime sette carte del tuo mazzo. Puoi mostrare un Aerodactyl che hai trovato e aggiungerlo alla tua panchina. Poi rimischia le altre carte nel tuo mazzo.",
 		pt: "Olhe os 7 cards de baixo do seu baralho. Você poderá revelar um Aerodactyl que encontrar lá e colocá-lo em seu Banco. Embaralhe os demais cards de volta.",
 		de: "Schau dir die untersten 7 Karten deines Decks an. Falls du dort ein Aerodactyl findest, kannst du es deinem Gegner zeigen und auf deine Bank legen. Mische die anderen Karten anschließend in dein Deck."
+	},
+
+	thirdParty: {
+		cardmarket: 280425,
+		tcgplayer: 87850
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [634],
+
 	name: {
 		en: "Zweilous",
 		fr: "Diamat",
@@ -90,6 +91,10 @@ const card: Card = {
 
 	description: {
 		en: "While hunting for prey, Zweilous wanders its territory, its two heads often bickering over which way to go."
+	},
+
+	thirdParty: {
+		cardmarket: 483424
 	}
 }
 

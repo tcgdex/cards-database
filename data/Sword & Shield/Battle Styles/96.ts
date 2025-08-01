@@ -84,6 +84,10 @@ const card: Card = {
 
 	description: {
 		en: "Identifiable by its eerie howls, people a long time ago thought it was the grim reaper and feared it."
+	},
+
+	thirdParty: {
+		cardmarket: 527675
 	}
 }
 

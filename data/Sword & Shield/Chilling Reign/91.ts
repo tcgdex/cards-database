@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		en: "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old."
+	},
+
+	thirdParty: {
+		cardmarket: 567199
 	}
 }
 

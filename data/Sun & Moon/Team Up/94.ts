@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Pangoro",
 		de: "Pandagro"
 	},
+
 	illustrator: "Satoshi Shirai",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		675,
 	],
+
 	hp: 140,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Pancham",
 		fr: "Pandespiègle",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,22 +86,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 369024
+	}
 }
 
 export default card

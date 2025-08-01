@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [302],
+
 	name: {
 		en: "Sableye",
 		fr: "Ténéfix",
@@ -92,6 +93,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is feared. When its gemstone eyes begin to glow with a sinister shine, it's believed that Sableye will steal people's spirits away."
+	},
+
+	thirdParty: {
+		cardmarket: 511945
 	}
 }
 

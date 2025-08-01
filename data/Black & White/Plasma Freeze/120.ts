@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Garchomp",
 		de: "Knakrack"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		445,
 	],
+
 	hp: 140,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Gabite",
 		fr: "Carmache",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -62,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Dragon",
@@ -71,8 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280998,
+		tcgplayer: 85626
+	}
 }
 
 export default card

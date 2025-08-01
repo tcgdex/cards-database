@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns."
+	},
+
+	thirdParty: {
+		cardmarket: 539453
 	}
 }
 

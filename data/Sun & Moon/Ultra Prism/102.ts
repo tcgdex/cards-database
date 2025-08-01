@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Lickitung",
 		de: "Schlurp"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		108,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -76,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -85,8 +88,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 316028
+	}
 }
 
 export default card

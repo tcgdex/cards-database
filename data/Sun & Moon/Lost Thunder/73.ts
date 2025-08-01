@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Chinchou",
 		de: "Lampi"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		170,
 	],
+
 	hp: 60,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -67,22 +69,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365711
+	}
 }
 
 export default card

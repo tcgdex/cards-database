@@ -6,23 +6,27 @@ const card: Card = {
 		en: "Houndoom",
 		de: "Hundemon"
 	},
+
 	illustrator: "Kimiya Masago",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		229,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Houndour",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,12 +63,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -72,9 +78,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275236,
+		tcgplayer: 86201
+	}
 }
 
 export default card

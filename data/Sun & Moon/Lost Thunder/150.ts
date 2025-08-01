@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Tapu Lele",
 		de: "Kapu-Fala"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		786,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fairy",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -66,22 +70,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365787
+	}
 }
 
 export default card

@@ -89,6 +89,9 @@ const card: Card = {
 
 	stage: "VMAX",
 
+	thirdParty: {
+		cardmarket: 456423
+	}
 }
 
 export default card

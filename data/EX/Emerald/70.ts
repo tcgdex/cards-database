@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Arcko",
 		de: "Geckarbor"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		252,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,12 +44,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -55,9 +59,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		tcgplayer: 90037
+	}
 }
 
 export default card

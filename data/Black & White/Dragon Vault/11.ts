@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Rayquaza",
 		fr: "Rayquaza",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		384,
 	],
+
 	hp: 120,
+
 	types: [
 		"Dragon",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Dragon",
@@ -65,8 +68,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281011,
+		tcgplayer: 88631
+	}
 }
 
 export default card

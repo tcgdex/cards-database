@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Pichu",
 		de: "Pichu"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		172,
 	],
+
 	hp: 30,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,11 +44,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274897
+	}
 }
 
 export default card

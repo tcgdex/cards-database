@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Galvantula",
 		de: "Voltula"
 	},
+
 	illustrator: "SATOSHI NAKAI",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		596,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Joltik",
 		fr: "Statitik",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -74,22 +80,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 368979
+	}
 }
 
 export default card

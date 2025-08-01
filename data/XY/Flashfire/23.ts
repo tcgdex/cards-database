@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Milotic",
 		de: "Milotic"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		350,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Feebas",
 		fr: "Barpau",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Feebas",
 		de: "Barschwa"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -82,8 +89,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281506
+	}
 }
 
 export default card

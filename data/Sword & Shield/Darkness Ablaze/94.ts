@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [450],
+
 	name: {
 		en: "Hippowdon",
 		fr: "Hippodocus",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 483349
 	}
 }
 

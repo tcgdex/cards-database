@@ -80,7 +80,11 @@ const card: Card = {
 		en: "It can remember only one thing at a time. Once it starts rushing, it forgets why it started."
 	},
 
-	dexId: [111]
+	dexId: [111],
+
+	thirdParty: {
+		cardmarket: 436599
+	}
 }
 
 export default card

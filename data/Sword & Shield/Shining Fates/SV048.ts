@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "Brave and prideful, this Pokémon dashes airily through the forest, its steps aided by the psychic power stored in the fur on its fetlocks."
+	},
+
+	thirdParty: {
+		cardmarket: 539623
 	}
 }
 

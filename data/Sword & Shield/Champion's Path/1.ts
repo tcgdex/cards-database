@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [3],
+
 	name: {
 		en: "Venusaur V",
 		fr: "Florizarre V",
@@ -94,7 +95,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 499860,
+		tcgplayer: 222990
+	}
 }
 
 export default card

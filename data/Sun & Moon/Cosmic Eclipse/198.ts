@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Lulú e Vitória",
 		de: "Maho & Tracy"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Échangez votre Pokémon Actif avec l’un de vos Pokémon de Banc. \n\nLorsque vous jouez cette carte, vous pouvez défausser 2 autres cartes de votre main. Dans ce cas, soignez 120 dégâts au Pokémon que vous avez déplacé vers votre Banc.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.\n\nQuando você joga esta carta, você pode descartar outras 2 cartas da sua mão. Se fizer isto, cure 120 pontos de dano do Pokémon que você moveu para o seu Banco.",
 		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus.\n\nWenn du diese Karte spielst, kannst du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, heile 120 Schadenspunkte bei dem Pokémon, das du auf deine Bank verschoben hast."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 398574
+	}
 }
 
 export default card

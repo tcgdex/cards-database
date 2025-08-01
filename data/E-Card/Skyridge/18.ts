@@ -6,21 +6,26 @@ const card: Card = {
 		en: "Magcargo",
 		de: "Magcargo"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		219,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Slugma",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -36,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275234,
+		tcgplayer: 87011
+	}
 }
 
 export default card

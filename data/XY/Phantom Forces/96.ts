@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Luneta",
 		de: "Handperiskop"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Votre adversaire montre sa main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Seu oponente revela a própria mão.",
 		de: "Dein Gegner deckt seine Handkarten auf."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281903
+	}
 }
 
 export default card

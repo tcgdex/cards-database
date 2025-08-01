@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Lt. Surge's Electrode",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		101,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Voltorb",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -33,6 +38,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -57,10 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274320,
+		tcgplayer: 86853
+	}
 }
 
 export default card

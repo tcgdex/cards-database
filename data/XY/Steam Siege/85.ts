@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Zweilous",
 		de: "Duodino"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		634,
 	],
+
 	hp: 90,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Deino",
 		fr: "Solochi",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Deino",
 		de: "Kapuno"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -92,8 +97,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 291646
+	}
 }
 
 export default card

@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Muk e Muk de Alola GX",
 		de: "Sleimok & Alola-Sleimok GX"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		89,
 	],
+
 	hp: 270,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -98,6 +100,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -107,8 +110,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 370786
+	}
 }
 
 export default card

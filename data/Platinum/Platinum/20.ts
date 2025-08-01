@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Bastiodon",
 		de: "Bollterus"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		411,
 	],
+
 	hp: 130,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Shieldon",
 		fr: "Dinoclier",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -81,22 +87,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 278441,
+		tcgplayer: 83736
+	}
 }
 
 export default card

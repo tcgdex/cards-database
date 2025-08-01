@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Persian de Alola",
 		de: "Alola-Snobilikat"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		53,
 	],
+
 	hp: 90,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Alolan Meowth",
 		fr: "Miaouss d’Alola",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -74,22 +78,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 295390
+	}
 }
 
 export default card

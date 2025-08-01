@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [889],
+
 	name: {
 		en: "Zamazenta",
 		fr: "Zamazenta",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all."
+	},
+
+	thirdParty: {
+		cardmarket: 453303
 	}
 }
 

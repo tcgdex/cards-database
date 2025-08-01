@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Morty",
 		de: "Jens"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si l’un de vos Pokémon Psychic a été mis K.O. pendant le dernier tour de votre adversaire.\n\nVotre adversaire dévoile sa main. Choisissez 2 cartes que vous y trouvez. Votre adversaire mélange ces cartes avec son deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se 1 dos seus Pokémon Psychic tiver sido Nocauteado durante a última vez de jogar do seu oponente.\n\nSeu oponente revela a própria mão. Escolha 2 cartas que encontrar lá. Seu oponente embaralha aquelas cartas no próprio baralho.",
 		de: "Du kannst diese Karte nur spielen, wenn 1 deiner Psychic-Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\n\nDein Gegner zeigt dir seine Handkarten. Wähle 2 Karten, die du dort findest. Dein Gegner mischt jene Karten in sein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 365820
+	}
 }
 
 export default card

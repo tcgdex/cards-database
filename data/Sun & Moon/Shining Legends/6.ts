@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Carnivine",
 		de: "Venuflibis"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		455,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -74,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -83,8 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 302144,
+		tcgplayer: 146658
+	}
 }
 
 export default card

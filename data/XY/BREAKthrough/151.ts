@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia Ardente",
 		de: "Brand-Energie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ne peut être attachée qu'à un Pokémon Fire. Cette carte ne fournit de l'Énergie Fire que pendant qu'elle est attachée à un Pokémon Fire.\n\nSi cette carte est défaussée par une attaque du Pokémon Fire auquel cette carte est attachée, attachez cette carte de votre pile de défausse au Pokémon après votre attaque.\n\n(Si cette carte est attachée à autre chose qu'un Pokémon Fire, défaussez cette carte.)",
@@ -35,7 +25,11 @@ const card: Card = {
 		de: "Diese Karte kann nur an Fire-Pokémon angelegt werden. Diese Karte liefert nur dann Fire-Energie, wenn sie an ein Fire-Pokémon angelegt ist.Wenn diese Karte aufgrund eines Angriffs des Fire-Pokémon, an das diese Karte angelegt ist, auf den Ablagestapel gelegt wird, lege diese Karte von deinem Ablagestapel wieder an jenes Pokémon an.(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Fire-Pokémon angelegt ist.)"
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 286397
+	}
 }
 
 export default card

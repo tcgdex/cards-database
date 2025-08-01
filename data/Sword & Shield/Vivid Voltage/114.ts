@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [205],
+
 	name: {
 		en: "Forretress",
 		fr: "Foretress",
@@ -112,6 +113,10 @@ const card: Card = {
 
 	description: {
 		en: "In the moment that it gulps down its prey, the inside of its shell is exposed, but to this day, no one has ever seen that sight."
+	},
+
+	thirdParty: {
+		cardmarket: 512280
 	}
 }
 

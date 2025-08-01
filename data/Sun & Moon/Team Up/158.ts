@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Gli attacchi dei Pokémon non di tipo Fairy, sia tuoi che del tuo avversario, costano Colorless in più.\n\nOgni volta che un giocatore gioca una delle carte Strumento o Aiuto che ha in mano, previeni tutti gli effetti di quella carta su questa carta Stadio.",
 		pt: "Os ataques dos Pokémon que não são Pokémon Fairy (seus e do seu oponente) custam Colorless a mais.\n\nSempre que algum jogador jogar uma carta de Item ou de Apoiador da própria mão, prevenirá todos os efeitos daquela carta causados a esta carta de Estádio.",
 		de: "Die Kosten der Attacken der Pokémon (deiner und der deines Gegners), die keine Fairy-Pokémon sind, erhöhen sich um Colorless.\n\nVerhindere jedes Mal, wenn ein Spieler eine Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die dieser Stadionkarte zugefügt werden."
+	},
+
+	thirdParty: {
+		cardmarket: 369083
 	}
 }
 

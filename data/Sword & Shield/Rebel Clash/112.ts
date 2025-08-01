@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [109],
+
 	name: {
 		en: "Koffing",
 		fr: "Smogo",
@@ -59,6 +60,10 @@ const card: Card = {
 
 	description: {
 		en: "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash."
+	},
+
+	thirdParty: {
+		cardmarket: 457968
 	}
 }
 

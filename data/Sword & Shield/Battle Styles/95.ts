@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		en: "They make repeated eerie howls before dawn to call attention to their pack."
+	},
+
+	thirdParty: {
+		cardmarket: 545566
 	}
 }
 

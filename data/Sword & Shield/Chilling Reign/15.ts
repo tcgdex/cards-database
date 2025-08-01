@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		en: "A kick from the hardened tips of this Pokémon's legs leaves a wound in the opponent's body and soul that will never heal."
+	},
+
+	thirdParty: {
+		cardmarket: 567095
 	}
 }
 

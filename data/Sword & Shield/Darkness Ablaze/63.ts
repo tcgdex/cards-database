@@ -102,6 +102,10 @@ const card: Card = {
 
 	description: {
 		en: "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it."
+	},
+
+	thirdParty: {
+		cardmarket: 483194
 	}
 }
 

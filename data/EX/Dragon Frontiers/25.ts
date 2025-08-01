@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Xatu δ",
 		de: "Xatu"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		178,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Natu",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -66,10 +73,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277230
+	}
 }
 
 export default card

@@ -24,6 +24,11 @@ const dp4: Set = {
 	abbreviations: {
 		official: "GE",
 		fr: "DAS"
+	},
+
+	thirdParty: {
+		cardmarket: 1558,
+		tcgplayer: 1405
 	}
 }
 

@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Tapu Bulu GX",
 		de: "Kapu-Toro GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		787,
 	],
+
 	hp: 180,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "GX",
 
@@ -95,11 +97,11 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 299530
+	}
 }
 
 export default card

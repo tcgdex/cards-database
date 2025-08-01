@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Grumpig",
 		de: "Groink"
 	},
+
 	illustrator: "sui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		326,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Spoink",
 		fr: "Spoink",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Spoink",
 		de: "Spoink"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -93,8 +98,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281387
+	}
 }
 
 export default card

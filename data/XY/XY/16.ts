@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Spewpa",
 		de: "Puponcho"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		665,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Scatterbug",
 		fr: "Lépidonille",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Scatterbug",
 		de: "Purmel"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -85,8 +90,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281353
+	}
 }
 
 export default card

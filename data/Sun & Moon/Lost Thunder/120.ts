@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Umbreon",
 		de: "Nachtara"
 	},
+
 	illustrator: "Ryota Murayama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		197,
 	],
+
 	hp: 110,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -71,22 +75,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365757
+	}
 }
 
 export default card

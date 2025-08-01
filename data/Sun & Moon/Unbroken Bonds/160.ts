@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Purugly",
 		de: "Shnurgarst"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		432,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Glameow",
 		fr: "Chaglam",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -73,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -82,8 +87,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 372448
+	}
 }
 
 export default card

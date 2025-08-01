@@ -66,6 +66,10 @@ const card: Card = {
 
 	description: {
 		fr: "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance."
+	},
+
+	thirdParty: {
+		cardmarket: 277593
 	}
 }
 

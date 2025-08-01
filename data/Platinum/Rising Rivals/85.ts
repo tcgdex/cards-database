@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Tortipouss  Niv. 20",
 		de: "Chelast GL"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		387,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,22 +62,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		tcgplayer: 90082
+	}
 }
 
 export default card

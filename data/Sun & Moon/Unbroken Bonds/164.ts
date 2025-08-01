@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Condutor de Criatura",
 		de: "Bestienbringer"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "S’il vous reste exactement 6 cartes Récompense et si le Pokémon-GX ou le Pokémon-EX Actif de votre adversaire est mis K.O. par les dégâts d’une attaque de l’Ultra-Chimère à laquelle cette carte est attachée, récupérez une carte Récompense supplémentaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Se você tiver exatamente 6 cartas de Prêmio restantes e o Pokémon-GX ou Pokémon-EX Ativo do seu oponente for Nocauteado pelo dano de um ataque da Ultracriatura à qual esta carta está ligada, pegue 1 carta de Prêmio a mais.",
 		de: "Wenn du genau 6 verbleibende Preiskarten hast und wenn das Aktive Pokémon-GX oder Pokémon-EX deines Gegners durch eine Attacke der Ultrabestie, an die diese Karte angelegt ist, kampfunfähig wird, nimm 1 Preiskarte mehr."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 371928
+	}
 }
 
 export default card

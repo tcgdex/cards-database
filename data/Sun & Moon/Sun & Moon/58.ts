@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Muk de Alola",
 		de: "Alola-Sleimok"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		89,
 	],
+
 	hp: 120,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Alolan Grimer",
 		fr: "Tadmorv d’Alola",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -86,8 +93,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 295369
+	}
 }
 
 export default card

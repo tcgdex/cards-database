@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Des chercheurs ont observé ces Pokémon se reproduisant dans des sites de traitement des déchets industriels."
+	},
+
+	thirdParty: {
+		cardmarket: 274067
 	}
 }
 

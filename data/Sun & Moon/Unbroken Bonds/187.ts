@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Caixa Surpresa",
 		de: "Überraschungskiste"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Placez une carte de la pile de défausse de votre adversaire dans sa main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Coloque 1 carta da pilha de descarte do seu oponente na mão dele(a).",
 		de: "Gib deinem Gegner 1 Karte aus seinem Ablagestapel auf seine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 372471
+	}
 }
 
 export default card

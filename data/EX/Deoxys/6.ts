@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Colhomard",
 		de: "Krebutack"
 	},
+
 	illustrator: "Tomoko Wakai",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		342,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Corphish",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -78,12 +84,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -91,9 +99,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		tcgplayer: 84463
+	}
 }
 
 export default card

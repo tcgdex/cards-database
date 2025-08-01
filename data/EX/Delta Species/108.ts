@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Pyroli ex",
 		de: "Flamara ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		136,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -78,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -85,10 +92,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276871,
+		tcgplayer: 85505
+	}
 }
 
 export default card

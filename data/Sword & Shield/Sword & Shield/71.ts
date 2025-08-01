@@ -80,7 +80,11 @@ const card: Card = {
 		en: "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis."
 	},
 
-	dexId: [596]
+	dexId: [596],
+
+	thirdParty: {
+		cardmarket: 436489
+	}
 }
 
 export default card

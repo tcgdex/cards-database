@@ -25,6 +25,10 @@ const sm3: Set = {
 	abbreviations: {
 		official: "BUS",
 		fr: "OAR"
+	},
+
+	thirdParty: {
+		cardmarket: 1824
 	}
 }
 

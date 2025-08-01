@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est capable de copier le code génétique d'un ennemi pour se transformer en son double."
+	},
+
+	thirdParty: {
+		cardmarket: 273848,
+		tcgplayer: 45154
 	}
 }
 

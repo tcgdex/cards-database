@@ -101,6 +101,10 @@ const card: Card = {
 
 	description: {
 		fr: "Selon la légende, ce Pokémon traverse constamment le ciel, porté par ses magnifiques ailes aux couleurs de l'arc-en-ciel."
+	},
+
+	thirdParty: {
+		tcgplayer: 86118
 	}
 }
 

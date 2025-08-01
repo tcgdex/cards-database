@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Spectrum",
 		de: "Alpollo"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		93,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gastly",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,12 +65,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -72,9 +80,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276210,
+		tcgplayer: 86025
+	}
 }
 
 export default card

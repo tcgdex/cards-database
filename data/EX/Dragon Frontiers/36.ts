@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Feurisson δ",
 		de: "Igelavar"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		156,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Cyndaquil",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -67,10 +72,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277241
+	}
 }
 
 export default card

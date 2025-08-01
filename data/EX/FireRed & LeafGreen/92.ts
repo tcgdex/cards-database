@@ -17,6 +17,11 @@ const card: Card = {
 	effect: {
 		fr: "Cherchez dans votre deck un Pokémon de base (sauf les Pokémon-ex) et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
 		de: "Durchsuche dein Deck nach einem Basis-Pokémon (kein Pokémon-ex) und lege es auf deine Bank. Mische dein Deck danach."
+	},
+
+	thirdParty: {
+		cardmarket: 276268,
+		tcgplayer: 85895
 	}
 }
 

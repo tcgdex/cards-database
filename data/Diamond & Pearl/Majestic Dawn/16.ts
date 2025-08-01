@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Archéodong",
 		de: "Bronzong"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		437,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Bronzor",
 		fr: "Archéomire",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -75,22 +81,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fire",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278065,
+		tcgplayer: 83993
+	}
 }
 
 export default card

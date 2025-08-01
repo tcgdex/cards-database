@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Meowth",
 		de: "Mauzi"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		52,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -60,8 +63,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289895
+	}
 }
 
 export default card

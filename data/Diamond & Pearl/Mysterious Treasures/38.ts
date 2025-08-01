@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il marque de ses griffes les arbres de son territoire qui portent des Baies ou des fruits."
+	},
+
+	thirdParty: {
+		cardmarket: 277667,
+		tcgplayer: 90253
 	}
 }
 

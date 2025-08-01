@@ -54,6 +54,11 @@ const card: Card = {
 
 	description: {
 		fr: "Réputé pour tirer avec précision un jet d'encre sur des insectes volants depuis la surface de l'eau."
+	},
+
+	thirdParty: {
+		cardmarket: 273910,
+		tcgplayer: 44451
 	}
 }
 

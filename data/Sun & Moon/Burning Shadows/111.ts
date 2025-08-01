@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Bewear",
 		de: "Kosturso"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		760,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Stufful",
 		fr: "Nounourson",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -79,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -88,8 +93,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 299512
+	}
 }
 
 export default card

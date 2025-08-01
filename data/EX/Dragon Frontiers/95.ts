@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Latias ex δ",
 		de: "Latias ex"
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		380,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -65,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277300
+	}
 }
 
 export default card

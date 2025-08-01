@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Recolhida Ciclone",
 		de: "Aufwisch-Zyklon"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Placez 1 de vos Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Coloque 1 dos seus Pokémon e todas as cards ligadas a ele em sua mão.",
 		de: "Nimm 1 deiner Pokémon und alle an es angelegten Karten zurück auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281116,
+		tcgplayer: 88974
+	}
 }
 
 export default card

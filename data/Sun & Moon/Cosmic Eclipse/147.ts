@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Cottonee",
 		de: "Waumboll"
 	},
+
 	illustrator: "Pani Kobayashi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		546,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fairy",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,22 +54,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 408379
+	}
 }
 
 export default card

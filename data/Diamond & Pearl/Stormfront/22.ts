@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Galopa",
 		de: "Gallopa"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		78,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Ponyta",
 		fr: "Ponyta",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -80,10 +87,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 278320,
+		tcgplayer: 88584
+	}
 }
 
 export default card

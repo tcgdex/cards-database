@@ -92,6 +92,10 @@ const card: Card = {
 
 	description: {
 		en: "A single Electivire can provide enough electricity for all the buildings in a big city for a year."
+	},
+
+	thirdParty: {
+		cardmarket: 545336
 	}
 }
 

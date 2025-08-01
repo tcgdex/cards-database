@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il se la coule douce au bord de l'eau. Si quelque chose mord sa queue, il ne le remarquera pas de la journée."
+	},
+
+	thirdParty: {
+		cardmarket: 274473,
+		tcgplayer: 89323
 	}
 }
 

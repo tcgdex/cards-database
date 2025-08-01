@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il attire sa proie avec sa salive odorante avant de la croquer. Il lui faut une journée pour l'avaler."
+	},
+
+	thirdParty: {
+		cardmarket: 277520
 	}
 }
 

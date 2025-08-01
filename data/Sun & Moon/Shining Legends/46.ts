@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Stunfisk",
 		de: "Flunschlik"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		618,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -70,6 +72,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -79,8 +82,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 302184,
+		tcgplayer: 147026
+	}
 }
 
 export default card

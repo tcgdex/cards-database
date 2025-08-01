@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Weavile GX",
 		de: "Snibunna GX"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		461,
 	],
+
 	hp: 200,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Sneasel",
 		fr: "Farfuret",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -91,22 +97,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388457
+	}
 }
 
 export default card

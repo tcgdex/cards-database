@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Mega Turbo",
 		de: "MegaTurbo"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon Méga-Évolution.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Ligue um card de Energia básica da sua pilha de descarte a 1 dos seus Pokémon de Megaevolução.",
 		de: "Lege 1 Basis-Energiekarte von deinem Ablagestapel an 1 deiner Mega-Entwicklungs-Pokémon an."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 282754
+	}
 }
 
 export default card

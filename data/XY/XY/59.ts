@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Dugtrio",
 		de: "Digdri"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		51,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Diglett",
 		fr: "Taupiqueur",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Diglett",
 		de: "Digda"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -92,8 +97,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281396
+	}
 }
 
 export default card

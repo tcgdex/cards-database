@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Clefairy",
 		de: "Piepi"
 	},
+
 	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		35,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -57,10 +60,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 279697,
+		tcgplayer: 84359
+	}
 }
 
 export default card

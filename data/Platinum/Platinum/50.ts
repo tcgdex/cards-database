@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Demolosse ",
 		de: "Hundemon G"
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		229,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
@@ -62,22 +65,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		tcgplayer: 86215
+	}
 }
 
 export default card

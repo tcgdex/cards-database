@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Vanilluxe",
 		de: "Gelatwino"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		584,
 	],
+
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Vanillish",
 		fr: "Sorboul",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -78,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -87,8 +92,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 297497
+	}
 }
 
 export default card

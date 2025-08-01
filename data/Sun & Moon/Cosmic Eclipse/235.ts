@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Patinadora",
 		de: "Rollerskaterin"
 	},
+
 	illustrator: "nagimiso",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez une carte de votre main. Dans ce cas, piochez 2 cartes. Si vous avez défaussé une carte Énergie de cette façon, piochez 2 cartes supplémentaires.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Descarte 1 carta da sua mão. Se fizer isto, compre 2 cartas. Se você descartou uma carta de Energia desta forma, compre 2 cartas a mais.",
 		de: "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 2 Karten. Wenn du auf diese Weise eine Energiekarte auf den Ablagestapel gelegt hast, ziehe 2 Karten mehr."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 408609
+	}
 }
 
 export default card

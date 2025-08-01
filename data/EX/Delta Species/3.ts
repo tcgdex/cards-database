@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Dracolosse δ",
 		de: "Dragoran"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		149,
 	],
+
 	hp: 100,
+
 	types: [
 		"Lightning",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Dragonair",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,12 +82,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
@@ -93,9 +101,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276766
+	}
 }
 
 export default card

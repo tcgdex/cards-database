@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand les Psykokwak évoluent, leurs maux de tête disparaissent et ils se retrouvent en possession d'un formidable pouvoir mental."
+	},
+
+	thirdParty: {
+		cardmarket: 274090
 	}
 }
 

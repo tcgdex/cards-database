@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Dratini",
 		de: "Dratini"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		147,
 	],
+
 	hp: 50,
+
 	types: [
 		"Dragon",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -77,8 +80,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 282717
+	}
 }
 
 export default card

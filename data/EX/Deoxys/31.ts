@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Nosferalto",
 		de: "Golbat"
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		42,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Zubat",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,6 +67,7 @@ const card: Card = {
 			damage: 20
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -68,10 +75,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 85794
+	}
 }
 
 export default card

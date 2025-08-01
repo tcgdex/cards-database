@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [59],
+
 	name: {
 		en: "Arcanine",
 		fr: "Arcanin",
@@ -92,6 +93,10 @@ const card: Card = {
 
 	description: {
 		en: "The sight of it running over 6,200 miles in a single day and night has captivated many people."
+	},
+
+	thirdParty: {
+		cardmarket: 457593
 	}
 }
 

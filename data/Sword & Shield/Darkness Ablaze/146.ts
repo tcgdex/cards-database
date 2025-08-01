@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [397],
+
 	name: {
 		en: "Staravia",
 		fr: "Étourvol",
@@ -102,6 +103,10 @@ const card: Card = {
 
 	description: {
 		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide."
+	},
+
+	thirdParty: {
+		cardmarket: 483609
 	}
 }
 

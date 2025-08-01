@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Ventilador de Campo",
 		de: "Feldgebläse"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez jusqu’à 2 cartes Outil Pokémon ou cartes Stade en jeu, (les vôtres ou celles de votre adversaire), quelle que soit la combinaison, et défaussez-les.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Escolha até 2 cartas de Ferramenta Pokémon e de Estádio em jogo em qualquer combinação (suas e do seu oponente) e descarte-as.",
 		de: "Wähle eine beliebige Kombination aus bis zu 2 Pokémon-Ausrüstungen und Stadionkarten im Spiel (deine oder die deines Gegners) und lege sie auf den Ablagestapel."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 297577
+	}
 }
 
 export default card

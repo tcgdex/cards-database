@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Nosepass",
 		de: "Nasgnet"
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		299,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -76,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -85,8 +88,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 408174
+	}
 }
 
 export default card

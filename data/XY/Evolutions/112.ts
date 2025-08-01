@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Doduo de Imakuni?",
 		de: "Imakuni?s Dodu"
 	},
+
 	illustrator: "Imakuni?",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		84,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,12 +76,14 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -85,9 +91,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 293474
+	}
 }
 
 export default card

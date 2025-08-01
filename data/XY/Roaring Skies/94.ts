@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Wally",
 		de: "Heiko"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez dans votre deck une carte Évolution de l'un de vos Pokémon (excepté les Pokémon-EX) et placez-la sur ce dernier. (Cela équivaut à faire évoluer le Pokémon.) Mélangez ensuite votre deck. Vous pouvez utiliser cette carte pendant votre premier tour ou sur un Pokémon qui a été joué pendant ce tour.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure em seu baralho um Pokémon que evolua de 1 dos seus Pokémon (exceto Pokémon-EX) e coloque-o naquele Pokémon. (Isso conta como evoluir aquele Pokémon.) Em seguida, embaralhe seus cards. Você poderá usar este card durante sua primeira vez de jogar ou em um Pokémon que foi colocado em jogo na vez de jogar atual.",
 		de: "Durchsuche dein Deck nach 1 Karte, zu der sich 1 deiner Pokémon (außer Pokémon-EX) entwickelt, und lege sie auf das entsprechende Pokémon. (Dies zählt als Entwicklung des Pokémon.) Mische anschließend dein Deck. Du kannst diese Karte während deines ersten Zuges oder für ein Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 282762
+	}
 }
 
 export default card

@@ -88,7 +88,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	stage: "Basic"
+	stage: "Basic",
+
+	thirdParty: {
+		cardmarket: 282726
+	}
 }
 
 export default card

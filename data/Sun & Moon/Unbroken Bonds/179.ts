@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Dojo de Artes Marciais",
 		de: "Kampfkunstschule"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les attaques des Pokémon non Ultra-Chimères auxquels est attachée de l’Énergie Fighting de base (les vôtres et ceux de votre adversaire) infligent 10 dégâts supplémentaires au Pokémon Actif de l’adversaire (avant application de la Faiblesse et de la Résistance). S’il reste plus de cartes Récompense au joueur attaquant qu’à son adversaire, ces attaques infligent 40 dégâts supplémentaires au lieu de 10.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Os ataques dos Pokémon que não são Ultracriaturas e que tenham alguma Energia Fighting básica ligada a eles (seus e do seu oponente) causam 10 pontos de dano a mais ao Pokémon Ativo do oponente (antes de aplicar Fraqueza e Resistência). Se o jogador atacante tiver mais cartas de Prêmio restantes do que seu oponente, aqueles ataques causarão 40 pontos de dano a mais ao invés de 10.",
 		de: "Die Attacken der Pokémon (deiner und der deines Gegners), die keine Ultrabestien sind und an die mindestens 1 Fighting-Basis-Energie angelegt ist, fügen dem Aktiven Pokémon des Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Wenn der angreifende Spieler mehr verbleibende Preiskarten hat als sein Gegner, fügen jene Attacken stattdessen 40 Schadenspunkte mehr zu."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 372259
+	}
 }
 
 export default card

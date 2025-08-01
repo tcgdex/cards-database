@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [694],
+
 	name: {
 		en: "Helioptile",
 		fr: "Galvaran",
@@ -66,6 +67,10 @@ const card: Card = {
 
 	description: {
 		en: "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon's electric moves."
+	},
+
+	thirdParty: {
+		cardmarket: 457748
 	}
 }
 

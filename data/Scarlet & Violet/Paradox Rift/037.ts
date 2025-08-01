@@ -51,7 +51,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "satoma"
+	illustrator: "satoma",
+
+	thirdParty: {
+		cardmarket: 740513
+	}
 }
 
 export default card

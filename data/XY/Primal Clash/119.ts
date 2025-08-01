@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Bouffalant",
 		de: "Bisofank"
 	},
+
 	illustrator: "Hiroki Asanuma",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		626,
 	],
+
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -82,8 +87,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 273650
+	}
 }
 
 export default card

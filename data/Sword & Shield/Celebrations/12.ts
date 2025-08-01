@@ -73,7 +73,12 @@ const card: Card = {
 		en: "When the horns on its head shine in seven different colors, it is said to be sharing everlasting life."
 	},
 
-	dexId: [716]
+	dexId: [716],
+
+	thirdParty: {
+		cardmarket: 576757,
+		tcgplayer: 250310
+	}
 }
 
 export default card

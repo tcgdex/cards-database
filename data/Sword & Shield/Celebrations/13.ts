@@ -66,7 +66,12 @@ const card: Card = {
 		en: "Whether or not it's a Pokémon from this world is a mystery. When it's in a jam, it warps away to a safe place to hide."
 	},
 
-	dexId: [789]
+	dexId: [789],
+
+	thirdParty: {
+		cardmarket: 576758,
+		tcgplayer: 250311
+	}
 }
 
 export default card

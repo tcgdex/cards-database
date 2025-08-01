@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Vulpix",
 		de: "Vulpix"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		37,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -61,10 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 279718,
+		tcgplayer: 90446
+	}
 }
 
 export default card

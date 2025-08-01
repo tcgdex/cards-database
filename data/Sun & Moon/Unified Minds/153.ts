@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Latias",
 		de: "Latias"
 	},
+
 	illustrator: "chibi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		380,
 	],
+
 	hp: 120,
+
 	types: [
 		"Dragon",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -69,6 +71,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -78,8 +81,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388557
+	}
 }
 
 export default card

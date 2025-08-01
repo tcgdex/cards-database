@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		en: "Timburr that have started carrying logs that are about three times their size are nearly ready to evolve."
+	},
+
+	thirdParty: {
+		cardmarket: 545481
 	}
 }
 

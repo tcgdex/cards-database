@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il ressemble à un gland pendu à une branche. Il adore effrayer les autres Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 277596
 	}
 }
 

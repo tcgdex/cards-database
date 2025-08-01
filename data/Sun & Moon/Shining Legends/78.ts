@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Mewtwo GX",
 		de: "Mewtu GX"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 190,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "GX",
 
@@ -100,6 +102,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -109,8 +112,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 301167,
+		tcgplayer: 146698
+	}
 }
 
 export default card

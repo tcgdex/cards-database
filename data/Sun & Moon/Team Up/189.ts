@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Cobalion GX",
 		de: "Kobalium GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		638,
 	],
+
 	hp: 170,
+
 	types: [
 		"Metal",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -94,22 +98,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 369035
+	}
 }
 
 export default card

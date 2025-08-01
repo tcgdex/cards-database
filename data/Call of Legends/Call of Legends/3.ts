@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Dialga",
 		de: "Dialga"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		483,
 	],
+
 	hp: 100,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,22 +47,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 279640,
+		tcgplayer: 84806
+	}
 }
 
 export default card

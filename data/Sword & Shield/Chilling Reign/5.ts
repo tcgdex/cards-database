@@ -92,6 +92,10 @@ const card: Card = {
 
 	description: {
 		en: "It flies through the night sky, sprinkling sparkly dust. According to some, if that dust sticks to you, good things will happen to you."
+	},
+
+	thirdParty: {
+		cardmarket: 567085
 	}
 }
 

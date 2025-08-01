@@ -69,6 +69,10 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon qui vit près de l'eau. Au sol, il se déplace rapidement en rebondissant sur sa grosse queue"
+	},
+
+	thirdParty: {
+		cardmarket: 277568
 	}
 }
 

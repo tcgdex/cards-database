@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Rattata",
 		de: "Rattfratz"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		19,
 	],
+
 	hp: 40,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -64,6 +68,7 @@ const card: Card = {
 			damage: 10
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -73,8 +78,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 293419
+	}
 }
 
 export default card

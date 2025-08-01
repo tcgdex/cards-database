@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Ninetales",
 		de: "Vulnona"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		38,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Vulpix",
 		fr: "Goupix",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Vulpix",
 		de: "Vulpix"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -80,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -89,8 +96,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273552
+	}
 }
 
 export default card

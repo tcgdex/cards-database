@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Machoke",
 		de: "Maschock"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		67,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Machop",
 		fr: "Machoc",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -84,8 +91,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 297525
+	}
 }
 
 export default card

@@ -23,6 +23,11 @@ const neo2: Set = {
 	abbreviations: {
 		official: "N2",
 		fr: "NDS"
+	},
+
+	thirdParty: {
+		cardmarket: 1532,
+		tcgplayer: 1434
 	}
 }
 

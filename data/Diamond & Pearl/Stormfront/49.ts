@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ses coups de faux sont pratiquement imparables. Il se déplace comme un ninja."
+	},
+
+	thirdParty: {
+		cardmarket: 278347,
+		tcgplayer: 89001
 	}
 }
 

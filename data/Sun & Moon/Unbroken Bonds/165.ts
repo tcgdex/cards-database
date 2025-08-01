@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Machadinha de Gelo",
 		de: "Hackender Eispickel"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 3 cartes du dessus du deck de votre adversaire et choisissez-en une. Votre adversaire mélange les autres cartes avec son deck. Ensuite, placez la carte choisie sur le dessus de son deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe as 3 primeiras cartas do baralho do seu oponente e escolha 1 delas. Seu oponente embaralha as demais cartas de volta no próprio baralho. Em seguida, coloque a carta escolhida como a primeira carta do baralho dele(a).",
 		de: "Schau dir die obersten 3 Karten des Decks deines Gegners an und wähle 1 Karte. Dein Gegner mischt die anderen Karten zurück in sein Deck. Lege anschließend die von dir gewählte Karte oben auf sein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 372451
+	}
 }
 
 export default card

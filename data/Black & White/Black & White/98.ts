@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pokédex",
 		de: "Pokédex"
 	},
+
 	illustrator: "Noriko Hotta",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 5 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l’ordre de votre choix.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe os 5 cards de cima do seu baralho e coloque-os de volta em cima do seu baralho em qualquer ordem.",
 		de: "Schau dir die obersten 5 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 279836
+	}
 }
 
 export default card

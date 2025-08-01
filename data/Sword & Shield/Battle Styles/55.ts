@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
+	},
+
+	thirdParty: {
+		cardmarket: 545386
 	}
 }
 

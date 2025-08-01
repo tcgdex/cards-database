@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Gourgeist",
 		de: "Pumpdjinn"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		711,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Pumpkaboo",
 		fr: "Pitrouille",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Pumpkaboo",
 		de: "Irrbis"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -80,22 +84,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281394
+	}
 }
 
 export default card

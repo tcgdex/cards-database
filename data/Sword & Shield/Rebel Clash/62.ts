@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [405],
+
 	name: {
 		en: "Luxray",
 		fr: "Luxray",
@@ -92,6 +93,10 @@ const card: Card = {
 
 	description: {
 		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger."
+	},
+
+	thirdParty: {
+		cardmarket: 457743
 	}
 }
 

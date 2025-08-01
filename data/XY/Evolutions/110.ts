@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Pikachu Voador",
 		de: "Fliegendes Pikachu"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		25,
 	],
+
 	hp: 40,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -83,10 +85,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 293472
+	}
 }
 
 export default card

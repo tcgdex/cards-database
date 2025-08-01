@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [128],
+
 	name: {
 		en: "Tauros",
 		fr: "Tauros",
@@ -63,6 +64,10 @@ const card: Card = {
 
 	description: {
 		en: "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd."
+	},
+
+	thirdParty: {
+		cardmarket: 483549
 	}
 }
 

@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Colossinge δ",
 		de: "Rasaff"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		57,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Mankey",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -64,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -71,10 +76,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277020
+	}
 }
 
 export default card

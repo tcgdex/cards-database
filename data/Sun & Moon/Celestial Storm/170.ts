@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Blaziken GX",
 		de: "Lohgock GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		257,
 	],
+
 	hp: 240,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Combusken",
 		fr: "Galifeu",
@@ -95,6 +99,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -104,8 +109,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 361275
+	}
 }
 
 export default card

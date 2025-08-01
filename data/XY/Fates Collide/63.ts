@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Lucario",
 		de: "Lucario"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		448,
 	],
+
 	hp: 110,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Riolu",
 		de: "Riolu"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,22 +86,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289869
+	}
 }
 
 export default card

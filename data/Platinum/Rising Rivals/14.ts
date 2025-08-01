@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Galeking Niv. 53",
 		de: "Stolloss"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		306,
 	],
+
 	hp: 130,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Lairon",
 		fr: "Galegon",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -80,22 +84,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278588,
+		tcgplayer: 83479
+	}
 }
 
 export default card

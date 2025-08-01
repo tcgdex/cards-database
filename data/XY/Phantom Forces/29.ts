@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Helioptile",
 		de: "Eguana"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		694,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -69,22 +71,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281833
+	}
 }
 
 export default card

@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Lunatone",
 		de: "Lunastein"
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		337,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,6 +75,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -80,8 +85,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 361306
+	}
 }
 
 export default card

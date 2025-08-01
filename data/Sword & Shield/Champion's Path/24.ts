@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [66],
+
 	name: {
 		en: "Machop",
 		fr: "Machoc",
@@ -86,6 +87,11 @@ const card: Card = {
 
 	description: {
 		en: "Its whole body is composed of muscles. Even though it's the size of a human child, it can hurl 100 grown-ups."
+	},
+
+	thirdParty: {
+		cardmarket: 499975,
+		tcgplayer: 223017
 	}
 }
 

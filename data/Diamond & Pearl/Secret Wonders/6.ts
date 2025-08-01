@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Gallame",
 		de: "Galagladi"
 	},
+
 	illustrator: "Daisuke Ito",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		475,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Kirlia",
 		fr: "Kirlia",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -64,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -73,8 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 277759,
+		tcgplayer: 85604
+	}
 }
 
 export default card

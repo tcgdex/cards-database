@@ -92,6 +92,10 @@ const card: Card = {
 
 	description: {
 		en: "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group."
+	},
+
+	thirdParty: {
+		cardmarket: 567098
 	}
 }
 

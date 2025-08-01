@@ -43,6 +43,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il fait des moulinets avec ses bras pour générer de l'électricité, mais il se fatigue vite, il ne se recharge donc pas beaucoup."
+	},
+
+	thirdParty: {
+		cardmarket: 274422,
+		tcgplayer: 85168
 	}
 }
 

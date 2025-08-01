@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Combusken",
 		de: "Jungglut"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		256,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Torchic",
 		fr: "Poussifeu",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -84,8 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 363477,
+		tcgplayer: 175273
+	}
 }
 
 export default card

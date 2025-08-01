@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		fr: "Les trois cornes de son bec sont le symbole de sa force. Celles du chef sont plus grosses que les autres."
+	},
+
+	thirdParty: {
+		cardmarket: 277503
 	}
 }
 

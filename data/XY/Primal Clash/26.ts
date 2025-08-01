@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Torchic",
 		de: "Flemmli"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		255,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -93,6 +97,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -102,8 +107,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273556
+	}
 }
 
 export default card

@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Grâce à sa mémoire exceptionnelle, il n'a rien oublié depuis sa naissance. Il a un Q.I. de 5 000."
+	},
+
+	thirdParty: {
+		cardmarket: 277631,
+		tcgplayer: 83501
 	}
 }
 

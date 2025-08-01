@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Non puoi giocare questa carta se non hai alcun Pokémon Water o Metal in gioco.\n\nIl tuo avversario sceglie due Pokémon in panchina e rimischia gli altri nel proprio mazzo insieme a tutte le carte loro assegnate.",
 		pt: "Você não pode jogar esta carta se não tiver nenhum Pokémon Water ou Metal em jogo.\n\nSeu oponente escolhe 2 Pokémon no Banco e embaralha os outros e todas as cartas ligadas a eles no próprio baralho.",
 		de: "Du kannst diese Karte nicht spielen, wenn du nicht mindestens 1 Water- oder Metal-Pokémon im Spiel hast.\n\nDein Gegner wählt 2 Pokémon auf seiner Bank und mischt die anderen sowie alle an sie angelegten Karten in sein Deck."
+	},
+
+	thirdParty: {
+		cardmarket: 315827
 	}
 }
 

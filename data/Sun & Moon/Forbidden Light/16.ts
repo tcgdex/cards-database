@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Braixen",
 		de: "Rutena"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		654,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Fennekin",
 		fr: "Feunnec",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -72,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -81,8 +86,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 355536
+	}
 }
 
 export default card

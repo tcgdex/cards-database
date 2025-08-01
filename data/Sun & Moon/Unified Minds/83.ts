@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Uxie",
 		de: "Selfe"
 	},
+
 	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		480,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -66,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -75,8 +80,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388227
+	}
 }
 
 export default card

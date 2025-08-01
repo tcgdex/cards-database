@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Haunter",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		93,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gastly",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -58,9 +62,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 273966,
+		tcgplayer: 42506
+	}
 }
 
 export default card

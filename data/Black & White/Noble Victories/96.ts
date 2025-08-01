@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Tranceptor X",
 		de: "Viso-Caster"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, cherchez une carte Supporter dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Jogue uma moeda. Se sair cara, procure um card de Apoiador em seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe seus cards.",
 		de: "Wirf 1 Münze. Durchsuche bei „Kopf“ dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280219,
+		tcgplayer: 90674
+	}
 }
 
 export default card

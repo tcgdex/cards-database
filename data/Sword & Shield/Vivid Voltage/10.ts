@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [273],
+
 	name: {
 		en: "Seedot",
 		fr: "Grainipiot",
@@ -62,6 +63,10 @@ const card: Card = {
 
 	description: {
 		en: "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 511470
 	}
 }
 

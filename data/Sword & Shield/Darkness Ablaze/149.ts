@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [581],
+
 	name: {
 		en: "Swanna",
 		fr: "Lakmécygne",
@@ -109,6 +110,10 @@ const card: Card = {
 
 	description: {
 		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock."
+	},
+
+	thirdParty: {
+		cardmarket: 483624
 	}
 }
 

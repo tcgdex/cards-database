@@ -25,6 +25,10 @@ const swsh1: Set = {
 	abbreviations: {
 		official: "BST",
 		fr: "STC"
+	},
+
+	thirdParty: {
+		cardmarket: 3675
 	}
 }
 

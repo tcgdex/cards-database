@@ -35,7 +35,11 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545981
+	}
 }
 
 export default card

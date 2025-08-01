@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Correio de Treinadores",
 		de: "TrainerPost"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 4 cartes du dessus de votre deck. Vous pouvez montrer une carte Dresseur que vous y trouvez (à part Courrier du Dresseur) et l'ajouter à votre main. Mélangez les autres cartes avec votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe os 4 cards de cima do seu baralho. Você poderá revelar um card de Treinador que encontrar (exceto Correio de Treinadores) e colocá-lo em sua mão. Embaralhe os demais cards de volta.",
 		de: "Schau dir die obersten 4 Karten deines Decks an. Falls du dort 1 Trainerkarte (außer Trainer-Post) findest, kannst du sie deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 284281
+	}
 }
 
 export default card

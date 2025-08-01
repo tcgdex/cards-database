@@ -10,10 +10,10 @@ const card: Card = {
 		pt: "Energia de Plasma",
 		de: "Plasma-Energie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
 
 	effect: {
@@ -24,7 +24,13 @@ const card: Card = {
 		pt: "Este card fornece Energia Colorless.",
 		de: "Diese Karte liefert Colorless-Energie."
 	},
+
 	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 280867,
+		tcgplayer: 88155
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Reuniclus",
 		de: "Zytomega"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		579,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Duosion",
 		fr: "Méios",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Duosion",
 		de: "Mitodos"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -68,8 +73,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289861
+	}
 }
 
 export default card

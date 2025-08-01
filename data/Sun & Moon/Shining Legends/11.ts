@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Torkoal",
 		de: "Qurtel"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		324,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -77,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -86,8 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 302149,
+		tcgplayer: 146664
+	}
 }
 
 export default card

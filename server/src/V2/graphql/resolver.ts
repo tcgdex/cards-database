@@ -2,7 +2,7 @@ import type { SupportedLanguages } from '@tcgdex/sdk'
 import { type Query, Sort } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { checkLanguage } from '../../util'
-import Card from '../Components/Card'
+import { findCards, findOneCard } from '../Components/Card'
 import Serie from '../Components/Serie'
 import Set from '../Components/Set'
 
@@ -54,10 +54,10 @@ const middleware = (fn: (lang: SupportedLanguages, query: Query<object>) => any)
 export default {
 	// Cards Endpoints
 	cards: middleware((lang, query) => {
-		return Card.find(lang, query)
+		return findCards(lang, query)
 	}),
 	card: middleware((lang, query) => {
-		return Card.findOne(lang, query)
+		return findOneCard(lang, query)
 	}),
 
 	// Set Endpoints

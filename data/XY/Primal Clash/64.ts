@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Eelektrik",
 		de: "Zapplalek"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		603,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Tynamo",
 		fr: "Anchwatt",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Tynamo",
 		de: "Zapplardin"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -80,22 +86,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 273594
+	}
 }
 
 export default card

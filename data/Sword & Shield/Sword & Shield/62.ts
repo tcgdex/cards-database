@@ -86,7 +86,11 @@ const card: Card = {
 		en: "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight."
 	},
 
-	dexId: [845]
+	dexId: [845],
+
+	thirdParty: {
+		cardmarket: 436444
+	}
 }
 
 export default card

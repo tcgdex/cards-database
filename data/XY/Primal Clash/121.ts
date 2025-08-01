@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Bunnelby",
 		de: "Scoppel"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		659,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -92,6 +96,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -101,8 +106,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 273651
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [708],
+
 	name: {
 		en: "Phantump",
 		fr: "Brocélôme",
@@ -82,6 +83,10 @@ const card: Card = {
 
 	description: {
 		en: "After a lost child perished in the forest, their spirit possessed a tree stump, causing the spirit's rebirth as this Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 457463
 	}
 }
 

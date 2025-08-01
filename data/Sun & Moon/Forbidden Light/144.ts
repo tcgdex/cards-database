@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Frigideira de Metal",
 		de: "Metall-Bratpfanne"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Pokémon Metal auquel cette carte est attachée subit 30 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance), et il n’a pas de Faiblesse.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "O Pokémon Metal ao qual esta carta está ligada recebe 30 pontos de dano a menos dos ataques do seu oponente (após a aplicação de Fraqueza e Resistência) e não possui Fraqueza.",
 		de: "Dem Metal-Pokémon, an das diese Karte angelegt ist, werden durch Attacken deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden) und es hat keine Schwäche."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 355625
+	}
 }
 
 export default card

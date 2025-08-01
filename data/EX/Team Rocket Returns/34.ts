@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dark Golbat",
 		de: "Dunkles Golbat"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		42,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Zubat",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -41,6 +45,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -48,10 +53,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276326,
+		tcgplayer: 84603
+	}
 }
 
 export default card

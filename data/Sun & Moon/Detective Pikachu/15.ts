@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Snubbull",
 		de: "Snubbull"
 	},
+
 	illustrator: "Framestore",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		209,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fairy",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,22 +54,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 370777,
+		tcgplayer: 186023
+	}
 }
 
 export default card

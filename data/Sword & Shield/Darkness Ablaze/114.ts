@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [861],
+
 	name: {
 		en: "Grimmsnarl V",
 		fr: "Angoliath V",
@@ -84,7 +85,11 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 483449
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [483],
+
 	name: {
 		en: "Dialga",
 		fr: "Dialga",
@@ -100,6 +101,10 @@ const card: Card = {
 
 	description: {
 		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
+	},
+
+	thirdParty: {
+		cardmarket: 512315
 	}
 }
 

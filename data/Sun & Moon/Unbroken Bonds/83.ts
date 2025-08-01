@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Sandshrew",
 		de: "Sandan"
 	},
+
 	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		27,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -77,8 +80,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 372374
+	}
 }
 
 export default card

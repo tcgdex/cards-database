@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Tyranocif δ",
 		de: "Despotar"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		248,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fire",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Pupitar",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -68,10 +75,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276779
+	}
 }
 
 export default card

@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Milobellus ex",
 		de: "Milotic ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		350,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Feebas",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -84,10 +91,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 87460
+	}
 }
 
 export default card

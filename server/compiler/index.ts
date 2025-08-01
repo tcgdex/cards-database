@@ -15,7 +15,7 @@ const DIST_FOLDER = './generated'
 	const paths = (await fs.readdir('./compiler/endpoints')).filter((p) => p.endsWith('.ts'))
 
 	// Prefetch the pictures at the start as it can bug because of bad connection
-	console.log('1. Prefetching pictures datas')
+	console.log('1. Loading remote sources')
 	await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
 
 	// Delete dist folder to be sure to have a clean base

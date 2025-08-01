@@ -89,6 +89,10 @@ const card: Card = {
 
 	description: {
 		en: "Many scientists suspect that this Pokémon originated outside the Galar region, based on the patterns on its body."
+	},
+
+	thirdParty: {
+		cardmarket: 545591
 	}
 }
 

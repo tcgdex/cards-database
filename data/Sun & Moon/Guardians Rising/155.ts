@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Tapu Lele GX",
 		de: "Kapu-Fala GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		786,
 	],
+
 	hp: 170,
+
 	types: [
 		"Psychic",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -95,11 +99,11 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 296843
+	}
 }
 
 export default card

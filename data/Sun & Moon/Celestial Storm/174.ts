@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Banette GX",
 		de: "Banette GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		354,
 	],
+
 	hp: 190,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Shuppet",
 		fr: "Polichombr",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -96,22 +102,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 361311
+	}
 }
 
 export default card

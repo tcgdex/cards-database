@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		fr: "Dès qu'il apparaît, il devient violent. Il reste enragé jusqu'à ce que tout ce qui l'entoure soit détruit."
+	},
+
+	thirdParty: {
+		cardmarket: 274651,
+		tcgplayer: 89164
 	}
 }
 

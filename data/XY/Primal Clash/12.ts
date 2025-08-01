@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Ludicolo",
 		de: "Kappalores"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		272,
 	],
+
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Lombre",
 		fr: "Lombre",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Lombre",
 		de: "Lombrero"
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -80,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -89,8 +96,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 273543
+	}
 }
 
 export default card

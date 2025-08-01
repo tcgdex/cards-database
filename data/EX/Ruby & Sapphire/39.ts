@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Elecsprint",
 		de: "Voltenso"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		310,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Electrike",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -64,12 +68,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -77,9 +83,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275657
+	}
 }
 
 export default card

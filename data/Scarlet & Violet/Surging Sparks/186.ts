@@ -33,7 +33,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Ayaka Yoshida"
+	illustrator: "Ayaka Yoshida",
+
+	thirdParty: {
+		cardmarket: 794559
+	}
 }
 
 export default card

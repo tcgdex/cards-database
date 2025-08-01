@@ -97,7 +97,11 @@ const card: Card = {
 		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
 	},
 
-	dexId: [844]
+	dexId: [844],
+
+	thirdParty: {
+		cardmarket: 436664
+	}
 }
 
 export default card

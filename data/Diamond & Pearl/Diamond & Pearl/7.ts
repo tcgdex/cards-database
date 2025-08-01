@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Luxray",
 		de: "Luxtra"
 	},
+
 	illustrator: "Mikiko Takeda",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		405,
 	],
+
 	hp: 120,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Luxio",
 		fr: "Luxio",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -62,22 +68,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277506
+	}
 }
 
 export default card

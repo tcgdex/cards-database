@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Solrock",
 		de: "Sonnfel"
 	},
+
 	illustrator: "Kouji Tajima",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		338,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -70,8 +73,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 280814,
+		tcgplayer: 89431
+	}
 }
 
 export default card

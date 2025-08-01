@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Ladeira Brooklet",
 		de: "Plätscherhügel"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Une seule fois pendant le tour de chaque joueur, ce joueur peut chercher un Pokémon Water de base ou un Pokémon Fighting de base dans son deck, le placer sur son Banc, puis mélanger son deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode procurar por 1 Pokémon Water Básico ou por 1 Pokémon Fighting Básico no próprio baralho, colocá-lo no próprio Banco e embaralhar o próprio baralho.",
 		de: "Einmal während des Zuges jedes Spielers kann der Spieler sein Deck nach 1 Water-Basis-Pokémon oder 1 Fighting-Basis-Pokémon durchsuchen, es auf seine Bank legen und sein Deck mischen."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 297572
+	}
 }
 
 export default card

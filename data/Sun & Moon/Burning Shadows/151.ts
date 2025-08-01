@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Salazzle GX",
 		de: "Amfira GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		758,
 	],
+
 	hp: 200,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Salandit",
 		fr: "Tritox",
@@ -95,6 +99,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -104,8 +109,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 299431
+	}
 }
 
 export default card

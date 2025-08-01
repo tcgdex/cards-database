@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Mareanie",
 		de: "Garstella"
 	},
+
 	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		747,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -53,8 +56,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 388287
+	}
 }
 
 export default card

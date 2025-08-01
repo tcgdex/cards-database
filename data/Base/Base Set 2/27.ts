@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Mr. Mime",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		122,
 	],
+
 	hp: 40,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Mime Jr.",
 	},
+
 	stage: "Basic",
 
 	abilities: [
@@ -33,6 +38,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -56,10 +63,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 273950,
+		tcgplayer: 42499
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [232],
+
 	name: {
 		en: "Donphan",
 		fr: "Donphan",
@@ -96,6 +97,10 @@ const card: Card = {
 
 	description: {
 		en: "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow."
+	},
+
+	thirdParty: {
+		cardmarket: 511855
 	}
 }
 

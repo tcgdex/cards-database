@@ -80,7 +80,11 @@ const card: Card = {
 		de: "Fokussierter-Angriff-Wulaosu-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 527655
+	}
 }
 
 export default card

@@ -72,6 +72,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est le fruit de nombreuses expériences génétiques horribles et malsaines."
+	},
+
+	thirdParty: {
+		cardmarket: 273705,
+		tcgplayer: 42347
 	}
 }
 

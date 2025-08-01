@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Gardevoir ex δ",
 		de: "Guardevoir ex"
 	},
+
 	illustrator: "Masahiko Ishii",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		282,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Kirlia",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -60,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -67,10 +74,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277298
+	}
 }
 
 export default card

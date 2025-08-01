@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Sigilyph GX",
 		de: "Symvolara GX"
 	},
+
 	illustrator: "PLANETA Otani",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		561,
 	],
+
 	hp: 170,
+
 	types: [
 		"Psychic",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -98,22 +102,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 365735
+	}
 }
 
 export default card

@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Jolteon",
 		de: "Blitza"
 	},
+
 	illustrator: "Uta",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		135,
 	],
+
 	hp: 100,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -68,22 +74,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 407999
+	}
 }
 
 export default card

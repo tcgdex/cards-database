@@ -107,6 +107,10 @@ const card: Card = {
 
 	description: {
 		en: "After captivating opponents with its sweet scent, it lashes them with its thorny whips."
+	},
+
+	thirdParty: {
+		cardmarket: 436199
 	}
 }
 

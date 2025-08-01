@@ -27,7 +27,11 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "E",
-	illustrator: "Hideki Ishikawa"
+	illustrator: "Hideki Ishikawa",
+
+	thirdParty: {
+		cardmarket: 582974
+	}
 }
 
 export default card

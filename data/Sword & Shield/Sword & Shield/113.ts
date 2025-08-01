@@ -104,7 +104,11 @@ const card: Card = {
 		en: "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful."
 	},
 
-	dexId: [853]
+	dexId: [853],
+
+	thirdParty: {
+		cardmarket: 436684
+	}
 }
 
 export default card

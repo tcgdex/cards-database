@@ -25,6 +25,10 @@ const ex1: Set = {
 	abbreviations: {
 		official: "RS",
 		fr: "R&S"
+	},
+
+	thirdParty: {
+		cardmarket: 1539
 	}
 }
 

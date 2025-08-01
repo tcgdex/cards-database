@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Ghetsis",
 		de: "G-Cis"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Votre adversaire montre sa main et mélange toutes les cartes Objet qui s'y trouvent avec son deck. Ensuite, piochez un nombre de cartes égal au nombre de cartes Objet que votre adversaire a mélangées avec son deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Seu oponente revela a mão e embaralha todos os cards de Item encontrados em sua mão no próprio baralho. Em seguida, compre um número de cards igual ao número de cards de Item que seu oponente embaralhou em seu deck.",
 		de: "Dein Gegner deckt seine Handkarten auf und mischt alle dort gefundenen Itemkarten in sein Deck. Ziehe anschließend genauso viele Karten, wie dein Gegner Itemkarten in sein Deck gemischt hat."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 280979,
+		tcgplayer: 85695
+	}
 }
 
 export default card

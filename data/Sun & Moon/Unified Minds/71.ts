@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Mewtwo e Mew GX",
 		de: "Mewtu & Mew GX"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 270,
+
 	types: [
 		"Psychic",
 	],
 
-
 	suffix: "TAG TEAM-GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -88,6 +92,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -97,8 +102,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 377499
+	}
 }
 
 export default card

@@ -85,7 +85,11 @@ const card: Card = {
 		de: "Boreos-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567233
+	}
 }
 
 export default card

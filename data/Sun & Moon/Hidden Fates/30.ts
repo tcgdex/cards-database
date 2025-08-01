@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Jynx",
 		fr: "Lippoutou",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		124,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -58,8 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 394677,
+		tcgplayer: 197674
+	}
 }
 
 export default card

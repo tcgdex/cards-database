@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Gyarados GX",
 		de: "Garados GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		130,
 	],
+
 	hp: 240,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Magikarp",
 		fr: "Magicarpe",
@@ -98,6 +102,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -107,8 +112,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 311215
+	}
 }
 
 export default card

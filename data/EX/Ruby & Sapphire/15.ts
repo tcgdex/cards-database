@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Brasegali",
 		de: "Lohgock"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		257,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Combusken",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -72,10 +77,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275651
+	}
 }
 
 export default card

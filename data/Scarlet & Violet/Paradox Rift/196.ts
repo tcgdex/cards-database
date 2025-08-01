@@ -52,7 +52,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Atsushi Furusawa"
+	illustrator: "Atsushi Furusawa",
+
+	thirdParty: {
+		cardmarket: 740555
+	}
 }
 
 export default card

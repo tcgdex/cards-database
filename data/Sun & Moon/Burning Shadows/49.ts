@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Wobbuffet",
 		de: "Woingenau"
 	},
+
 	illustrator: "nagimiso",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		202,
 	],
+
 	hp: 120,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -62,8 +65,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 299453
+	}
 }
 
 export default card

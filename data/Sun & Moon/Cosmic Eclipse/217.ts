@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Oricorio GX",
 		de: "Choreogel GX"
 	},
+
 	illustrator: "PLANETA Tsuji",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		741,
 	],
+
 	hp: 170,
+
 	types: [
 		"Psychic",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -91,22 +95,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 408119
+	}
 }
 
 export default card

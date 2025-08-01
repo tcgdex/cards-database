@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Tesouro Misterioso",
 		de: "Geheimnisvoller Schatz"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez une carte de votre main. Dans ce cas, cherchez un Pokémon Psychic ou Dragon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Descarte 1 carta da sua mão. Se fizer isto, procure por 1 Pokémon Psychic ou Pokémon Dragon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, durchsuche dein Deck nach 1 Psychic- oder Dragon-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 355626
+	}
 }
 
 export default card

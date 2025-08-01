@@ -83,6 +83,10 @@ const card: Card = {
 
 	description: {
 		en: "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd."
+	},
+
+	thirdParty: {
+		cardmarket: 567223
 	}
 }
 

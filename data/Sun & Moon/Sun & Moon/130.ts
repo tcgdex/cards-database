@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Repelente",
 		de: "Schutz"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
 		de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 295443
+	}
 }
 
 export default card

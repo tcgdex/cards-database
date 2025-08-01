@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Acochoamento Poderoso",
 		de: "Dicke Polster"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée a un Coût de Retraite d’exactement 4, il reçoit +50 PV.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Se o Pokémon ao qual esta carta está ligada tiver um custo de Recuo de exatamente 4, receberá 50 PS a mais.",
 		de: "Wenn das Pokémon, an das diese Karte angelegt ist, Rückzugskosten von genau 4 hat, erhält es 50 KP mehr."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 369063
+	}
 }
 
 export default card

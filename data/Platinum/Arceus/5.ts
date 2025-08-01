@@ -6,23 +6,27 @@ const card: Card = {
 		en: "Luxray",
 		de: "Luxtra"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		405,
 	],
+
 	hp: 120,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Luxio",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -58,12 +62,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -71,9 +77,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 278877,
+		tcgplayer: 86949
+	}
 }
 
 export default card

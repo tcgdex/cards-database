@@ -63,6 +63,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa fourrure étincelle en cas de danger. Il profite du fait que l'ennemi est aveuglé pour s'enfuir."
+	},
+
+	thirdParty: {
+		cardmarket: 277597
 	}
 }
 

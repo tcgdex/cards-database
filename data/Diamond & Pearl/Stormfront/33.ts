@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Rozbouton",
 		de: "Knospi"
 	},
+
 	illustrator: "Yuka Morii",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		406,
 	],
+
 	hp: 40,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		fr: "Rozbouton",
 	},
+
 	stage: "Basic",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -55,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -64,8 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278331,
+		tcgplayer: 84011
+	}
 }
 
 export default card

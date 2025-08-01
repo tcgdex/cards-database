@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Abomasnow",
 		de: "Rexblisar"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		460,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Snover",
 		fr: "Blizzi",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -86,8 +93,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 315969
+	}
 }
 
 export default card

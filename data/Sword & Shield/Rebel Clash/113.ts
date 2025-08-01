@@ -95,6 +95,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air."
+	},
+
+	thirdParty: {
+		cardmarket: 457973
 	}
 }
 

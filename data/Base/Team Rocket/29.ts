@@ -77,6 +77,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa principale volonté est qu'on le laisse tranquille, il en vient parfois à être manipulé par des gens sans scrupules."
+	},
+
+	thirdParty: {
+		cardmarket: 274065
 	}
 }
 

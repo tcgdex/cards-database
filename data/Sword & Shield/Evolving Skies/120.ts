@@ -87,7 +87,11 @@ const card: Card = {
 		en: "It flies on wings of apple skin and spits a powerful acid. It can also change its shape into that of an apple."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574168
+	}
 }
 
 export default card

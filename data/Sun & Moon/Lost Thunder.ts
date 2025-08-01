@@ -25,6 +25,10 @@ const sm8: Set = {
 	abbreviations: {
 		official: "LOT",
 		fr: "TPD"
+	},
+
+	thirdParty: {
+		cardmarket: 2370
 	}
 }
 

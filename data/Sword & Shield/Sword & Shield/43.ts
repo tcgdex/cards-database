@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		en: "It can be found near the sea. The large pincers grow back if they are torn out of their sockets."
+	},
+
+	thirdParty: {
+		cardmarket: 436364
 	}
 }
 

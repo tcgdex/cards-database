@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [338],
+
 	name: {
 		en: "Solrock",
 		fr: "Solaroc",
@@ -85,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes."
+	},
+
+	thirdParty: {
+		cardmarket: 483339
 	}
 }
 

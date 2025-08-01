@@ -22,6 +22,11 @@ const ex16: Set = {
 	abbreviations: {
 		official: "PK",
 		fr: "GDP"
+	},
+
+	thirdParty: {
+		cardmarket: 1554,
+		tcgplayer: 1383
 	}
 }
 

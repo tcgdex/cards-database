@@ -81,7 +81,11 @@ const card: Card = {
 		en: "Mud that hardens around a Mudsdale's legs sets harder than stone. It's so hard that it allows this Pokémon to scrap a truck with a single kick."
 	},
 
-	dexId: [750]
+	dexId: [750],
+
+	thirdParty: {
+		cardmarket: 436649
+	}
 }
 
 export default card

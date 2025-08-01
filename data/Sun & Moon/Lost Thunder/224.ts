@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Genesect GX",
 		de: "Genesect GX"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		649,
 	],
+
 	hp: 180,
+
 	types: [
 		"Metal",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -91,22 +95,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 365767
+	}
 }
 
 export default card

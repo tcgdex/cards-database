@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Marshadow",
 		de: "Marshadow"
 	},
+
 	illustrator: "Emi Ando",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		802,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,22 +76,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 302183,
+		tcgplayer: 146702
+	}
 }
 
 export default card

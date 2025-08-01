@@ -91,6 +91,10 @@ const card: Card = {
 
 	description: {
 		en: "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing."
+	},
+
+	thirdParty: {
+		cardmarket: 567203
 	}
 }
 

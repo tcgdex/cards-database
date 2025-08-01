@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Honchkrow GX",
 		de: "Kramshef GX"
 	},
+
 	illustrator: "sadaji",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		430,
 	],
+
 	hp: 210,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Murkrow",
 		fr: "Cornèbre",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -99,22 +105,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 372399
+	}
 }
 
 export default card

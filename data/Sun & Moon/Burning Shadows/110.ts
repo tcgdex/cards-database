@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Stufful",
 		de: "Velursi"
 	},
+
 	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		759,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -67,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -76,8 +79,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 299511
+	}
 }
 
 export default card

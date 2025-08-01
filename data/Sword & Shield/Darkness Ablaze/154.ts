@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [821],
+
 	name: {
 		en: "Rookidee",
 		fr: "Minisange",
@@ -76,6 +77,10 @@ const card: Card = {
 
 	description: {
 		en: "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit."
+	},
+
+	thirdParty: {
+		cardmarket: 483649
 	}
 }
 

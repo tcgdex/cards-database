@@ -26,6 +26,10 @@ const xy3: Set = {
 	abbreviations: {
 		official: "FFI",
 		fr: "PFU"
+	},
+
+	thirdParty: {
+		cardmarket: 1584
 	}
 }
 

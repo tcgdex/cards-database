@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		fr: "Sensibles au froid, les Coxy se rassemblent en groupes pour partager leur chaleur quand la température descend dangereusement."
+	},
+
+	thirdParty: {
+		cardmarket: 274723,
+		tcgplayer: 86700
 	}
 }
 

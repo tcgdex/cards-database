@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Tapu Koko GX",
 		de: "Kapu-Riki GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		785,
 	],
+
 	hp: 170,
+
 	types: [
 		"Lightning",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -92,11 +96,11 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 297509
+	}
 }
 
 export default card

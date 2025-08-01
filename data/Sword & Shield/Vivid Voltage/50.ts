@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [243],
+
 	name: {
 		en: "Raikou",
 		fr: "Raikou",
@@ -71,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "This rough Pokémon stores energy inside its body, then sweeps across the land, shooting off electricity."
+	},
+
+	thirdParty: {
+		cardmarket: 511670
 	}
 }
 

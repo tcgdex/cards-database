@@ -82,6 +82,10 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit en forêt près de l'eau. En journée, il la quitte pour dorer sa carapace feuillue au soleil."
+	},
+
+	thirdParty: {
+		cardmarket: 277548
 	}
 }
 

@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Audino",
 		de: "Ohrdoch"
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		531,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -53,8 +56,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 279825
+	}
 }
 
 export default card

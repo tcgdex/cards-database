@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Capuz Furtivo",
 		de: "Tarnkappe"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Évitez tous les effets des talents de votre adversaire infligés au Pokémon auquel cette carte est attachée. Retirez tous les effets déjà en action.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Previne todos os efeitos das Habilidades do seu oponente causados ao Pokémon ao qual esta carta está ligada. Remova todos os efeitos existentes destas Habilidades.",
 		de: "Verhindere alle Effekte der Fähigkeiten deines Gegners, die dem Pokémon, an das diese Karte angelegt ist, zugefügt werden. Entferne alle solche bestehenden Effekte."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 372470
+	}
 }
 
 export default card

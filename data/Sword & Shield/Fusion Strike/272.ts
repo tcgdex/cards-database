@@ -76,7 +76,11 @@ const card: Card = {
 			pt: "Compre 3 cartas.",
 			it: "Pesca tre carte."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 582954
+	}
 }
 
 export default card

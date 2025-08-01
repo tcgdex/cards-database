@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Samurott",
 		de: "Admurai"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		503,
 	],
+
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Dewott",
 		fr: "Mateloutre",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Dewott",
 		de: "Zwottronin"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -93,8 +98,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 291567
+	}
 }
 
 export default card

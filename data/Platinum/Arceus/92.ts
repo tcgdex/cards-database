@@ -28,7 +28,12 @@ const card: Card = {
 		effect: {
 			de: "Wenn du 1 -Energiekarte von deiner Hand an Domfossil anlegst (ausgenommen durch Effekte von Angriffen oder Poké-Powern), durchsuche dein Deck nach einer Karte, die sich aus Domfossil entwickelt, und lege diese auf Domfossil (dies zählt als Entwickeln von Domfossil). Mische dein Deck danach"
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 278964,
+		tcgplayer: 84869
+	}
 }
 
 export default card

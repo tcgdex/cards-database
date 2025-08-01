@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Dusknoir",
 		de: "Zwirrfinst"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		477,
 	],
+
 	hp: 160,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Dusclops",
 		fr: "Téraclope",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -74,22 +80,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 408069
+	}
 }
 
 export default card

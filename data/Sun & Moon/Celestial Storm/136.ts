@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Erva da Vida",
 		de: "Lebenskräuter"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, soignez 60 dégâts et retirez tous les États Spéciaux de l’un de vos Pokémon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Jogue 1 moeda. Se sair cara, cure 60 pontos de dano e remova todas as Condições Especiais de 1 dos seus Pokémon.",
 		de: "Wirf 1 Münze. Heile bei Kopf 60 Schadenspunkte und entferne alle Speziellen Zustände von 1 deiner Pokémon."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 361374
+	}
 }
 
 export default card

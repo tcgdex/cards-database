@@ -23,6 +23,11 @@ const ex6: Set = {
 	abbreviations: {
 		official: "RG",
 		fr: "RFV"
+	},
+
+	thirdParty: {
+		cardmarket: 1544,
+		tcgplayer: 1419
 	}
 }
 

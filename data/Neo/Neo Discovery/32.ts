@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Quand il est énervé, ce Pokémon se protège avec une sueur empoisonnée émise par ses pores."
+	},
+
+	thirdParty: {
+		cardmarket: 274524,
+		tcgplayer: 90142
 	}
 }
 

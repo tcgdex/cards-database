@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Slowbro",
 		de: "Lahmus"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		80,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -78,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -87,8 +92,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 372334
+	}
 }
 
 export default card

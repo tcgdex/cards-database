@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Raichu ex",
 		de: "Raichu ex"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		26,
 	],
+
 	hp: 100,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Pikachu",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -74,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -81,10 +88,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 88526
+	}
 }
 
 export default card

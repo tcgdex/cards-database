@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [219],
+
 	name: {
 		en: "Magcargo",
 		fr: "Volcaropod",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell."
+	},
+
+	thirdParty: {
+		cardmarket: 511560
 	}
 }
 

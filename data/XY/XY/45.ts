@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Electrode",
 		de: "Lektrobal"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		101,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Voltorb",
 		fr: "Voltorbe",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Voltorb",
 		de: "Voltobal"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -74,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -83,8 +88,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281382
+	}
 }
 
 export default card

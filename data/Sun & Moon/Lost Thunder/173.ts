@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Fábio",
 		de: "Fabian"
 	},
+
 	illustrator: "take",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez une carte Outil Pokémon ou une carte Énergie spéciale attachée à l’un des Pokémon de votre adversaire, ou une carte Stade en jeu, et placez-la dans la Zone Perdue.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Escolha 1 carta de Ferramenta Pokémon ou Energia Especial ligada a 1 dos Pokémon do seu oponente, ou qualquer carta de Estádio em jogo, e coloque-a na Zona Perdida.",
 		de: "Wähle 1 Pokémon-Ausrüstung oder Spezial-Energiekarte, die an 1 Pokémon deines Gegners angelegt ist, oder 1 beliebige Stadionkarte im Spiel und lege sie ins Nirgendwo."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 365809
+	}
 }
 
 export default card

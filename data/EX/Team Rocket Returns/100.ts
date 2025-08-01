@@ -6,21 +6,24 @@ const card: Card = {
 		en: "Rocket's Moltres ex",
 		de: "Rockets Lavados ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		146,
 	],
+
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -66,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -73,10 +78,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276392,
+		tcgplayer: 88782
+	}
 }
 
 export default card

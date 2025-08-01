@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
+	},
+
+	thirdParty: {
+		cardmarket: 539743
 	}
 }
 

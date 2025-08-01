@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Granivol",
 		de: "Hoppspross"
 	},
+
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		187,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,12 +60,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -69,9 +75,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275157,
+		tcgplayer: 86178
+	}
 }
 
 export default card

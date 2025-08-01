@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Altar Lunar",
 		de: "Mondscheiben-Podium"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Coût de Retraite de chaque Pokémon (les vôtres et ceux de votre adversaire) auquel de l’Énergie Psychic ou Darkness est attachée est diminué de ColorlessColorless.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "O custo de Recuo de cada Pokémon (seus e do seu oponente) que tiver alguma Energia Psychic ou Darkness ligada a ele será ColorlessColorless a menos.",
 		de: "Die Rückzugskosten jedes Pokémon (deine und die deines Gegners), an das mindestens 1 Psychic- oder 1 Darkness-Energie angelegt ist, verringern sich um ColorlessColorless."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 297569
+	}
 }
 
 export default card

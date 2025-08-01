@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Aegislash",
 		de: "Durengard"
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		681,
 	],
+
 	hp: 150,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Doublade",
 		fr: "Dimoclès",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -78,22 +82,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 355568
+	}
 }
 
 export default card

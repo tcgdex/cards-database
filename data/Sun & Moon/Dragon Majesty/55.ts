@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Kangaskhan",
 		de: "Kangama"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		115,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -92,6 +94,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -101,8 +104,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 363526,
+		tcgplayer: 175485
+	}
 }
 
 export default card

@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Ralts",
 		de: "Trasla"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		280,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -51,8 +54,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280799,
+		tcgplayer: 88565
+	}
 }
 
 export default card

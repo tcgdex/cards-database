@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Barpau δ",
 		de: "Barschwa"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		349,
 	],
+
 	hp: 30,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -49,10 +52,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277254
+	}
 }
 
 export default card

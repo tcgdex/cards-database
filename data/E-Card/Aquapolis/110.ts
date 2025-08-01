@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Farfuret",
 		de: "Sniebel"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		215,
 	],
+
 	hp: 60,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,12 +63,14 @@ const card: Card = {
 			damage: 30
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -74,9 +78,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275186,
+		tcgplayer: 89368
+	}
 }
 
 export default card

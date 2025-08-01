@@ -43,7 +43,11 @@ const card: Card = {
 		effect: {
 			en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, the attack does 30 damage and Electabuzz does 10 damage to itself."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 275411
+	}
 }
 
 export default card

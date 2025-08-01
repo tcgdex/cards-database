@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		en: "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey."
+	},
+
+	thirdParty: {
+		cardmarket: 545446
 	}
 }
 

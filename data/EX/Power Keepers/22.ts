@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Tenefix",
 		de: "Zobiris"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		302,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -80,9 +84,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 277328,
+		tcgplayer: 88851
+	}
 }
 
 export default card

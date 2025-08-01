@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [719],
+
 	name: {
 		en: "Diancie",
 		fr: "Diancie",
@@ -93,6 +94,10 @@ const card: Card = {
 
 	description: {
 		en: "It can instantly create many diamonds by compressing the carbon in the air between its hands."
+	},
+
+	thirdParty: {
+		cardmarket: 511815
 	}
 }
 

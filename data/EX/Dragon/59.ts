@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Malosse",
 		de: "Hunduster"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		228,
 	],
+
 	hp: 50,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,12 +57,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -68,9 +72,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 280513
+	}
 }
 
 export default card

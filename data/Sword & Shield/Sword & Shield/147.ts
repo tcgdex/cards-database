@@ -101,7 +101,11 @@ const card: Card = {
 		en: "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff."
 	},
 
-	dexId: [573]
+	dexId: [573],
+
+	thirdParty: {
+		cardmarket: 436829
+	}
 }
 
 export default card

@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Cerca nel tuo mazzo un Pokémon-GX, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por 1 Pokémon-GX no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach 1 Pokémon-GX, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+	},
+
+	thirdParty: {
+		cardmarket: 388742
 	}
 }
 

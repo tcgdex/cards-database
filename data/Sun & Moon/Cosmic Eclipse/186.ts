@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bellelba e Brycen-Man",
 		de: "Cursilla & Super Sandro"
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez 3 cartes du dessus du deck de chaque joueur.\n\nLorsque vous jouez cette carte, vous pouvez défausser 3 autres cartes de votre main. Dans ce cas, chaque joueur défausse ses Pokémon de Banc jusqu’à avoir 3 Pokémon de Banc. Votre adversaire défausse en premier.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Descarte as 3 primeiras cartas do baralho de cada jogador.\n\nQuando você joga esta carta, você pode descartar 3 outras cartas da sua mão. Se fizer isto, cada jogador descarta os próprios Pokémon no Banco até ter 3 Pokémon no Banco. Seu oponente descarta primeiro.",
 		de: "Lege 3 Karten vom Deck jedes Spielers auf seinen Ablagestapel.\n\nWenn du diese Karte spielst, kannst du 3 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, legt jeder Spieler so lang Pokémon von seiner Bank auf seinen Ablagestapel, bis er 3 Pokémon auf seiner Bank hat. Dein Gegner legt als Erster ab."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 398564
+	}
 }
 
 export default card

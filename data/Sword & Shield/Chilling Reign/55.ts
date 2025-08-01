@@ -67,6 +67,10 @@ const card: Card = {
 
 	description: {
 		en: "With its gas-like body, it can sneak into any place it desires. However, it can be blown away by wind."
+	},
+
+	thirdParty: {
+		cardmarket: 567135
 	}
 }
 

@@ -84,6 +84,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il rappelle les objets trouvés dans des sépultures anciennes. Nul ne sait s'ils sont liés."
+	},
+
+	thirdParty: {
+		cardmarket: 278353,
+		tcgplayer: 84003
 	}
 }
 

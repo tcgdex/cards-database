@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Raichu de Alola",
 		de: "Alola-Raichu"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		26,
 	],
+
 	hp: 110,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -71,22 +75,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388107
+	}
 }
 
 export default card

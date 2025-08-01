@@ -7,21 +7,24 @@ const card: Card = {
 		fr: "Rayquaza ex",
 		de: "Rayquaza ex"
 	},
+
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		384,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,12 +61,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -74,9 +80,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		tcgplayer: 88643
+	}
 }
 
 export default card

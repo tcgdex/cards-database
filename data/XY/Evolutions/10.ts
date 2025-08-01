@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Charmeleon",
 		de: "Glutexo"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		5,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charmander",
 		fr: "Salamèche",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Charmander",
 		de: "Glumanda"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -78,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -87,8 +92,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 293367
+	}
 }
 
 export default card

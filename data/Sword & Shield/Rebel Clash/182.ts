@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [849],
+
 	name: {
 		en: "Toxtricity V",
 		fr: "Salarsen V",
@@ -88,7 +89,11 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 456468
+	}
 }
 
 export default card

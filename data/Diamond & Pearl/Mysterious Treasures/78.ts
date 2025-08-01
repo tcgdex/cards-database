@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ses joues contiennent des glandes toxiques. Il attaque par surprise et utilise son toucher empoisonné."
+	},
+
+	thirdParty: {
+		cardmarket: 277707,
+		tcgplayer: 84473
 	}
 }
 

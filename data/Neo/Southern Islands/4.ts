@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Togepi",
 	},
+
 	illustrator: "Keiko Fukuyama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		175,
 	],
+
 	hp: 40,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,9 +46,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275634,
+		tcgplayer: 46478
+	}
 }
 
 export default card

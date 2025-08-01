@@ -65,7 +65,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Masakazu Fukuda"
+	illustrator: "Masakazu Fukuda",
+
+	thirdParty: {
+		cardmarket: 751743
+	}
 }
 
 export default card

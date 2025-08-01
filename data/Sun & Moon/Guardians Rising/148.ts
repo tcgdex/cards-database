@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Turtonator GX",
 		de: "Tortunator GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		776,
 	],
+
 	hp: 190,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "GX",
 
@@ -99,6 +101,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -108,8 +111,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 297482
+	}
 }
 
 export default card

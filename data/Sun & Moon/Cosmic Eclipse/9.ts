@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Heracross",
 		de: "Skaraborn"
 	},
+
 	illustrator: "Satoshi Shirai",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		214,
 	],
+
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -69,6 +71,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -78,8 +81,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 407699
+	}
 }
 
 export default card

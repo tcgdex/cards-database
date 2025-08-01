@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Groudon",
 		de: "Groudon"
 	},
+
 	illustrator: "Yuri Umemura",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		383,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -54,8 +57,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 279643
+	}
 }
 
 export default card

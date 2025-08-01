@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Tepig",
 		de: "Floink"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		498,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -62,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -71,8 +74,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 407804
+	}
 }
 
 export default card

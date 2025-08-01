@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Gothitelle",
 		de: "Morbitesse"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		576,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gothorita",
 		fr: "Mesmérella",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -63,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -72,8 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280496,
+		tcgplayer: 85853
+	}
 }
 
 export default card

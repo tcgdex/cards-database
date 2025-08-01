@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Gardevoir",
 		de: "Guardevoir"
 	},
+
 	illustrator: "Ryota Murayama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		282,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Kirlia",
 		fr: "Kirlia",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -78,22 +82,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 365778
+	}
 }
 
 export default card

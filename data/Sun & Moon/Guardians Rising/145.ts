@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Lulú",
 		de: "Maho"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez 2 cartes dans votre deck. Mélangez votre deck, puis placez ces cartes, dans n’importe quel ordre, sur le dessus de votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure por 2 cartas no seu baralho, embaralhe-o e então coloque-as no topo em qualquer ordem.",
 		de: "Durchsuche dein Deck nach 2 Karten, mische dein Deck und lege jene Karten anschließend in beliebiger Reihenfolge auf dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 297579
+	}
 }
 
 export default card

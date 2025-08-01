@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Recruta da Equipe Skull",
 		de: "Team Skull-Rüpel"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Votre adversaire dévoile sa main. Défaussez-en 2 cartes Énergie.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Seu oponente revela a própria mão. Descarte 2 cartas de Energia da mão dele(a).",
 		de: "Dein Gegner zeigt dir seine Handkarten. Lege 2 Energiekarten aus der Hand deines Gegners auf seinen Ablagestapel."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 295446
+	}
 }
 
 export default card

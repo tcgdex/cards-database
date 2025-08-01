@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [687],
+
 	name: {
 		en: "Malamar",
 		fr: "Sepiatroce",
@@ -100,6 +101,11 @@ const card: Card = {
 
 	description: {
 		en: "Gazing at its luminescent spots will quickly induce a hypnotic state, putting the observer under Malamar's control."
+	},
+
+	thirdParty: {
+		cardmarket: 500080,
+		tcgplayer: 223045
 	}
 }
 

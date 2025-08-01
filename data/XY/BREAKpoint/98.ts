@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Delinquente",
 		de: "Halbstarke"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez toute carte Stade en jeu. Dans ce cas, votre adversaire défausse 3 cartes de sa main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Descarte algum card de Estádio em jogo. Se fizer isso, o seu oponente descarta 3 cards da própria mão.",
 		de: "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel. Wenn du das machst, legt dein Gegner 3 seiner Handkarten auf seinen Ablagestapel."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 288273
+	}
 }
 
 export default card

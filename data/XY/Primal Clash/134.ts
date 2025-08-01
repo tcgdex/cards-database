@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Observações do Professor Birch",
 		de: "Prof. Birks Beobachtungen"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Mélangez votre main avec votre deck et lancez une pièce. Si c'est face, piochez 7 cartes. Si c'est pile, piochez 4 cartes.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Embaralhe a mão no seu baralho e jogue uma moeda. Se sair cara, compre 7 cards. Se sair coroa, compre 4 cards.",
 		de: "Mische deine Handkarten in dein Deck und wirf 1 Münze. Ziehe bei \"Kopf\" 7 Karten. Ziehe bei \"Zahl\" 4 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 273665
+	}
 }
 
 export default card

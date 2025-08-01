@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [760],
+
 	name: {
 		en: "Bewear",
 		fr: "Chelours",
@@ -102,6 +103,10 @@ const card: Card = {
 
 	description: {
 		en: "Once it accepts you as a friend, it tries to show its affection with a hug. Letting it do that is dangerous—it could easily shatter your bones."
+	},
+
+	thirdParty: {
+		cardmarket: 458148
 	}
 }
 

@@ -93,7 +93,11 @@ const card: Card = {
 		en: "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings."
 	},
 
-	dexId: [263]
+	dexId: [263],
+
+	thirdParty: {
+		cardmarket: 436694
+	}
 }
 
 export default card

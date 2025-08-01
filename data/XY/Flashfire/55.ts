@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Skuntank",
 		de: "Skuntank"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		435,
 	],
+
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Stunky",
 		fr: "Moufouette",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Stunky",
 		de: "Skunkapuh"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -84,22 +88,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281538
+	}
 }
 
 export default card

@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Rotom Lavagem",
 		de: "Wasch-Rotom"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		479,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -81,8 +86,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 315970
+	}
 }
 
 export default card

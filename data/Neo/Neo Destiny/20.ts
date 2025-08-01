@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "À chaque fois qu'il baille, le Kokiyas qu'il porte sur la tête projette une enzyme qui le rend encore plus intelligent."
+	},
+
+	thirdParty: {
+		cardmarket: 274672,
+		tcgplayer: 84656
 	}
 }
 

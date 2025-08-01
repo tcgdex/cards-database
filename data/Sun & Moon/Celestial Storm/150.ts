@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Expedição Subterrânea",
 		de: "Expedition ins Unterirdische"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 4 cartes du dessous de votre deck et ajoutez 2 d’entre elles à votre main. Placez les autres cartes en dessous de votre deck dans l’ordre de votre choix.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe as 4 últimas cartas do seu baralho e coloque 2 delas na sua mão. Coloque as demais cartas de volta como as últimas cartas do seu baralho em qualquer ordem.",
 		de: "Schau dir die untersten 4 Karten deines Decks an und nimm 2 von ihnen auf deine Hand. Lege die anderen Karten in beliebiger Reihenfolge zurück unter dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 361387
+	}
 }
 
 export default card

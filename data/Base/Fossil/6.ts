@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il peut se glisser à travers les murs comme une créature d'une autre dimension."
+	},
+
+	thirdParty: {
+		cardmarket: 273867,
+		tcgplayer: 106522
 	}
 }
 

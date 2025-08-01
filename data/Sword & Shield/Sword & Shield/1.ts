@@ -94,7 +94,11 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 427231
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Metagross",
 		de: "Metagross"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		376,
 	],
+
 	hp: 150,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Metang",
 		fr: "Métang",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Metang",
 		de: "Metang"
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -81,22 +87,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 284230
+	}
 }
 
 export default card

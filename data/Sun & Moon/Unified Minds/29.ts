@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Lampent",
 		de: "Laternecto"
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		608,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Litwick",
 		fr: "Funécire",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -63,8 +68,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 387977
+	}
 }
 
 export default card

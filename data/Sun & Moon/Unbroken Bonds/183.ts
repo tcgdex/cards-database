@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Usina Elétrica",
 		de: "Kraftwerk"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les Pokémon-GX et Pokémon-EX en jeu (les vôtres et ceux de votre adversaire) n’ont pas de talent.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Os Pokémon-GX e Pokémon-EX em jogo (seus e do seu oponente) não têm Habilidades.",
 		de: "Pokémon-GX und Pokémon-EX im Spiel (deine und die deines Gegners) haben keine Fähigkeiten."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 372467
+	}
 }
 
 export default card

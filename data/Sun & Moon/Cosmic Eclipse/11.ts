@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Cradily",
 		de: "Wielie"
 	},
+
 	illustrator: "otumami",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		346,
 	],
+
 	hp: 150,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Lileep",
 		fr: "Lilia",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -85,8 +92,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 407709
+	}
 }
 
 export default card

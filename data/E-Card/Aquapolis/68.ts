@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Chétiflor",
 		de: "Knofensa"
 	},
+
 	illustrator: "Keiko Fukuyama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		69,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -65,10 +68,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275117,
+		tcgplayer: 83806
+	}
 }
 
 export default card

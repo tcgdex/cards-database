@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Wormadam",
 		de: "Burmadame"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		413,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Burmy",
 		fr: "Cheniti",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Burmy",
 		de: "Burmy"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -92,8 +97,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289829
+	}
 }
 
 export default card

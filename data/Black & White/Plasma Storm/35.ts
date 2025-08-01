@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Vanillite",
 		de: "Gelatini"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		582,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -43,6 +45,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -52,8 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280775,
+		tcgplayer: 90271
+	}
 }
 
 export default card

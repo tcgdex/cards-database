@@ -27,7 +27,11 @@ const card: Card = {
 
 	trainerType: "Stadium",
 	regulationMark: "D",
-	illustrator: "5ban Graphics"
+	illustrator: "5ban Graphics",
+
+	thirdParty: {
+		cardmarket: 583046
+	}
 }
 
 export default card

@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Squirtle",
 		de: "Schiggy"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		7,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -64,8 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281035,
+		tcgplayer: 89499
+	}
 }
 
 export default card

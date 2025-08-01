@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Sylveon",
 		de: "Feelinara"
 	},
+
 	illustrator: "0313",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		700,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -70,22 +74,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 355601
+	}
 }
 
 export default card

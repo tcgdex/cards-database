@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		en: "It can only survive in cold areas. It bounces happily around, even in environments as cold as −150 degrees Fahrenheit."
+	},
+
+	thirdParty: {
+		cardmarket: 567115
 	}
 }
 

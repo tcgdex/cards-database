@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Yanmega",
 		de: "Yanmega"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		469,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Yanma",
 		fr: "Yanma",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,12 +82,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -89,9 +97,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 278705
+	}
 }
 
 export default card

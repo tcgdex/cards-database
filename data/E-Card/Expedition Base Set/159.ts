@@ -16,6 +16,10 @@ const card: Card = {
 
 	effect: {
 		de: "Schaden, der dem Pokémon, an das Metall-Energie angelegt ist, durch Angriffe zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden). Falls das Pokémon, an das Metall-Energie angelegt ist, nicht vom Typ  ist, reduziere den Schaden jedesmal um 10, wenn es einem Pokémon mit einem Angriff Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden). Metall-Energie liefert -Energie. (Zählt nicht als Basis-Energiekarte.)"
+	},
+
+	thirdParty: {
+		cardmarket: 275034
 	}
 }
 

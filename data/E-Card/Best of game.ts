@@ -14,7 +14,11 @@ const bog: Set = {
 		official: 9
 	},
 
-	releaseDate: "2002-12-01"
+	releaseDate: "2002-12-01",
+
+	thirdParty: {
+		cardmarket: 1605
+	}
 }
 
 export default bog

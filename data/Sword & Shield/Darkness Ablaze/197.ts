@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [812],
+
 	name: {
 		en: "Rillaboom",
 		fr: "Gorythmic",
@@ -96,6 +97,10 @@ const card: Card = {
 
 	description: {
 		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
+	},
+
+	thirdParty: {
+		cardmarket: 483874
 	}
 }
 

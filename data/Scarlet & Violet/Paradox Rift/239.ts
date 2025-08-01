@@ -33,7 +33,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Megumi Mizutani"
+	illustrator: "Megumi Mizutani",
+
+	thirdParty: {
+		cardmarket: 740712
+	}
 }
 
 export default card

@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Où qu'il aille, il tisse un fil qui le ramène à sa toile."
+	},
+
+	thirdParty: {
+		cardmarket: 274669,
+		tcgplayer: 84566
 	}
 }
 

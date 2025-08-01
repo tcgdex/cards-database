@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Embrylex δ",
 		de: "Larvitar"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		246,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 			cost: ["Fire", "Colorless"]
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -61,10 +64,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276836
+	}
 }
 
 export default card

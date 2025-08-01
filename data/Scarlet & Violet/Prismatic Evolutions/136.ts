@@ -33,7 +33,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Ryuta Fuse"
+	illustrator: "Ryuta Fuse",
+
+	thirdParty: {
+		cardmarket: 805530
+	}
 }
 
 export default card

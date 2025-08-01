@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Recuperação de Energia",
 		de: "EnergieZugewinn"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Prenez 2 cartes Énergie de base dans votre pile de défausse et ajoutez-les à votre main.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Coloque 2 cards de Energias básicas da pilha de descarte em sua mão.",
 		de: "Nimm 2 Basis-Energiekarten von deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 284280
+	}
 }
 
 export default card

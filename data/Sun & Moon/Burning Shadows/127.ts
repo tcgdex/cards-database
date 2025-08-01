@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Lara",
 		de: "Pia"
 	},
+
 	illustrator: "take",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque joueur compte les cartes qu’il a en main, les mélange dans son deck, puis pioche ce même nombre de cartes.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cada jogador conta as cartas nas próprias mãos, embaralha-as no próprio baralho e em seguida compra aquele mesmo número de cartas.",
 		de: "Jeder Spieler zählt die Karten auf seiner Hand, mischt jene Karten in sein Deck und zieht anschließend dieselbe Anzahl Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 299527
+	}
 }
 
 export default card

@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Druddigon",
 		de: "Shardrago"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		621,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -66,11 +70,12 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280212,
+		tcgplayer: 84978
+	}
 }
 
 export default card

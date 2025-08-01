@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Campo Celeste",
 		de: "Himmelsfeld"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque joueur peut avoir 8 Pokémon sur son Banc.\n\n(Lorsque cette carte n'est plus en jeu, chaque joueur défausse des Pokémon de Banc jusqu'à en avoir 5 sur le Banc. Le propriétaire de cette carte défausse en premier.)",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cada jogador pode ter 8 Pokémon no Banco.",
 		de: "Jeder Spieler kann 8 Pokémon auf seiner Bank haben."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 282757
+	}
 }
 
 export default card

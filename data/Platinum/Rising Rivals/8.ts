@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Lucario  Niv. 32",
 		de: "Lucario GL"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		448,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -67,8 +72,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		tcgplayer: 86888
+	}
 }
 
 export default card

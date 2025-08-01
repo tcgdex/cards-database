@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il file sa toile non seulement depuis son derrière, mais aussi depuis sa bouche. Il est difficile de différencier l'avant de l'arrière."
+	},
+
+	thirdParty: {
+		cardmarket: 274427,
+		tcgplayer: 83615
 	}
 }
 

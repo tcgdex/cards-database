@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Chaffreux ",
 		de: "Shnurgarst G"
 	},
+
 	illustrator: "Ryota Saito",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		432,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
@@ -62,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -71,8 +75,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		tcgplayer: 88466
+	}
 }
 
 export default card

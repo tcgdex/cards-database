@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Umbreon GX",
 		de: "Nachtara GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		197,
 	],
+
 	hp: 200,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
@@ -102,22 +106,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 295391
+	}
 }
 
 export default card

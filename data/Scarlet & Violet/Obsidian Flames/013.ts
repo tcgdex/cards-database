@@ -41,7 +41,11 @@ const card: Card = {
 	variants: {
 	},
 
-	illustrator: "Tomokazu Komiya"
+	illustrator: "Tomokazu Komiya",
+
+	thirdParty: {
+		cardmarket: 725093
+	}
 }
 
 export default card

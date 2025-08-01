@@ -23,6 +23,11 @@ const ex4: Set = {
 	abbreviations: {
 		official: "MA",
 		fr: "M&A"
+	},
+
+	thirdParty: {
+		cardmarket: 1542,
+		tcgplayer: 1377
 	}
 }
 

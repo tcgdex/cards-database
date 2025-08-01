@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Mantine",
 		de: "Mantax"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		226,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -66,22 +70,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 365697
+	}
 }
 
 export default card

@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Stoutland",
 		de: "Bissbark"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		508,
 	],
+
 	hp: 150,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Herdier",
 		fr: "Ponchien",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -85,8 +92,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 398519
+	}
 }
 
 export default card

@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Leafeon GX",
 		de: "Folipurba GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		470,
 	],
+
 	hp: 200,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -91,6 +97,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -100,8 +107,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 315503
+	}
 }
 
 export default card

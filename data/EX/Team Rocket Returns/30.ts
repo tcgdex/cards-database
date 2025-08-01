@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dark Ariados",
 		de: "Dunkles Ariados"
 	},
+
 	illustrator: "Kyoko Koizumi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		168,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Spinarak",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -64,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276322,
+		tcgplayer: 84567
+	}
 }
 
 export default card

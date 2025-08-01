@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [216],
+
 	name: {
 		en: "Teddiursa",
 		fr: "Teddiursa",
@@ -85,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
+	},
+
+	thirdParty: {
+		cardmarket: 483569
 	}
 }
 

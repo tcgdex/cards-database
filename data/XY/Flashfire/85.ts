@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Lopunny",
 		de: "Schlapor"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		428,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Buneary",
 		fr: "Laporeille",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Buneary",
 		de: "Haspiror"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -80,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -89,8 +96,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281568
+	}
 }
 
 export default card

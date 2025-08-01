@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Espeon GX",
 		de: "Psiana GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		196,
 	],
+
 	hp: 200,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
@@ -103,6 +107,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -112,8 +117,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 295372
+	}
 }
 
 export default card

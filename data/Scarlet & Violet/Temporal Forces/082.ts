@@ -55,7 +55,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Natsumi Miyanose"
+	illustrator: "Natsumi Miyanose",
+
+	thirdParty: {
+		cardmarket: 760712
+	}
 }
 
 export default card

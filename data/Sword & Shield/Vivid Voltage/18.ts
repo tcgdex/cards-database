@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [673],
+
 	name: {
 		en: "Gogoat",
 		fr: "Chevroum",
@@ -97,6 +98,10 @@ const card: Card = {
 
 	description: {
 		en: "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns."
+	},
+
+	thirdParty: {
+		cardmarket: 511510
 	}
 }
 

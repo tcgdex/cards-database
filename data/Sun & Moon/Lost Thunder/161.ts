@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Kecleon",
 		de: "Kecleon"
 	},
+
 	illustrator: "OOYAMA",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		352,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,6 +75,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -80,8 +85,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365797
+	}
 }
 
 export default card

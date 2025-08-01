@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [834],
+
 	name: {
 		en: "Drednaw",
 		fr: "Torgamord",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "With jaws that can shear through steel rods, this highly aggressive Pokémon chomps down on its unfortunate prey."
+	},
+
+	thirdParty: {
+		cardmarket: 511615
 	}
 }
 

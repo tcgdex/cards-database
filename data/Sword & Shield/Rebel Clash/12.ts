@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [459],
+
 	name: {
 		en: "Snover",
 		fr: "Blizzi",
@@ -78,6 +79,10 @@ const card: Card = {
 
 	description: {
 		en: "It lives on snowy mountains. It sinks its legs into the snow to absorb water and keep its own temperature down."
+	},
+
+	thirdParty: {
+		cardmarket: 457453
 	}
 }
 

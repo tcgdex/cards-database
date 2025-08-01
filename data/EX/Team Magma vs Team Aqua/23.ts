@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Mangriff de Team Magma",
 		de: "Team Magmas Sengo"
 	},
+
 	illustrator: "Zu-Ka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		335,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -67,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276000,
+		tcgplayer: 89846
+	}
 }
 
 export default card

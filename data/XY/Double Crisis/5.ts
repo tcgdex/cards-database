@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Team Aqua's Walrein",
 		fr: "Kaimorse de la Team Aqua",
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		365,
 	],
+
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Team Aqua's Sealeo",
 		fr: "Phogleur de la Team Aqua",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -68,8 +73,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 282516,
+		tcgplayer: 97051
+	}
 }
 
 export default card

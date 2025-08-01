@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Skiploom",
 		de: "Hubelupf"
 	},
+
 	illustrator: "Eri Yamaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		188,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Hoppip",
 		fr: "Granivol",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Hoppip",
 		de: "Hoppspross"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -51,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -60,8 +65,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 291511
+	}
 }
 
 export default card

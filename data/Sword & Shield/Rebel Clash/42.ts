@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [279],
+
 	name: {
 		en: "Pelipper",
 		fr: "Bekipan",
@@ -101,6 +102,10 @@ const card: Card = {
 
 	description: {
 		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
+	},
+
+	thirdParty: {
+		cardmarket: 457653
 	}
 }
 

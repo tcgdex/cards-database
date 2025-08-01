@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Mienshao",
 		de: "Wie-Shu"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		620,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Mienfoo",
 		fr: "Kungfouine",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Mienfoo",
 		de: "Lin-Fu"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -84,8 +89,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281721
+	}
 }
 
 export default card

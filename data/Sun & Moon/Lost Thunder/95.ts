@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Shedinja",
 		de: "Ninjatom"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		292,
 	],
+
 	hp: 40,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Nincada",
 		fr: "Ningale",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -74,11 +80,11 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365732
+	}
 }
 
 export default card

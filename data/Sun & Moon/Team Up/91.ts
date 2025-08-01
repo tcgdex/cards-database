@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Zoroark",
 		de: "Zoroark"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		571,
 	],
+
 	hp: 110,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Zorua",
 		fr: "Zorua",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -78,22 +82,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 369021
+	}
 }
 
 export default card

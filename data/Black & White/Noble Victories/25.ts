@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Tirtouga",
 		de: "Galapaflos"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		564,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
 
 	stage: "RESTORED",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -64,8 +67,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 280148,
+		tcgplayer: 89921
+	}
 }
 
 export default card

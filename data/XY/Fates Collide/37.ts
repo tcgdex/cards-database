@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Marowak",
 		de: "Knogga"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		105,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Cubone",
 		fr: "Osselait",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Cubone",
 		de: "Tragosso"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -79,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -88,8 +95,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289863
+	}
 }
 
 export default card

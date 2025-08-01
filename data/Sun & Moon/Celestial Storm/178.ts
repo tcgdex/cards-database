@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bicicleta Acro",
 		de: "Kunstrad"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 2 cartes du dessus de votre deck et ajoutez l’une d’entre elles à votre main. Défaussez l’autre carte.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe as 2 primeiras cartas do seu baralho e coloque 1 delas na sua mão. Descarte a outra carta.",
 		de: "Schau dir die obersten 2 Karten deines Decks an und nimm 1 von ihnen auf deine Hand. Lege die andere Karte auf deinen Ablagestapel."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 361362
+	}
 }
 
 export default card

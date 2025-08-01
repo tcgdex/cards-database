@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Boldore",
 		de: "Sedimantur"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		525,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Roggenrola",
 		fr: "Nodulithe",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Roggenrola",
 		de: "Kiesling"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -84,8 +89,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281855
+	}
 }
 
 export default card

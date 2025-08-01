@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Komala",
 		de: "Koalelu"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		775,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -70,6 +74,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -79,8 +84,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388712
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Ingo e Emmet",
 		de: "Hin & Her"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez la carte du dessus de votre deck, puis choisissez l’une de ces options :\n\n• Défaussez votre main et piochez 5 cartes.\n• Défaussez votre main et piochez 5 cartes du dessous de votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe a primeira carta do seu baralho e escolha 1:\n\n• Descarte a sua mão e compre 5 cartas.\n• Descarte a sua mão e compre as 5 últimas cartas do seu baralho.",
 		de: "Schau dir die oberste Karte deines Decks an und wähle 1 aus:\n\n• Lege deine Handkarten auf deinen Ablagestapel und ziehe 5 Karten.\n• Lege deine Handkarten auf deinen Ablagestapel und ziehe 5 Karten von unten aus deinem Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 369070
+	}
 }
 
 export default card

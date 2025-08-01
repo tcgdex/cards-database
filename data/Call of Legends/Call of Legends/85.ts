@@ -15,6 +15,11 @@ const card: Card = {
 
 	effect: {
 		de: "Schau dir die obersten 5 Karten deines Decks an. Wähle 2 beliebige der gefundenen Karten und nimm sie auf die Hand. Lege die anderen Karten auf deinen Ablagestapel."
+	},
+
+	thirdParty: {
+		cardmarket: 279728,
+		tcgplayer: 88894
 	}
 }
 

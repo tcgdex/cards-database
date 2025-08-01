@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Wailord",
 		de: "Wailord"
 	},
+
 	illustrator: "OOYAMA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		321,
 	],
+
 	hp: 200,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Wailmer",
 		fr: "Wailmer",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -91,8 +96,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 297492
+	}
 }
 
 export default card

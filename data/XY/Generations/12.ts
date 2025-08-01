@@ -6,24 +6,28 @@ const card: Card = {
 		en: "M Charizard EX",
 		fr: "M-Dracaufeu-EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 220,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charizard-EX",
 		fr: "Dracaufeu-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -45,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -54,8 +59,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		tcgplayer: 113670
+	}
 }
 
 export default card

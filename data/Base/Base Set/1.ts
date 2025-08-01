@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son super cerveau peut effectuer des opérations plus rapidement qu'un super ordinateur. Il a un Q.I. de 5000."
+	},
+
+	thirdParty: {
+		cardmarket: 273696,
+		tcgplayer: 42346
 	}
 }
 

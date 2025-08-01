@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Forretress  Niv. 35",
 		de: "Forstellka G"
 	},
+
 	illustrator: "Ryota Saito",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		205,
 	],
+
 	hp: 80,
+
 	types: [
 		"Metal",
 	],
@@ -60,22 +63,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		tcgplayer: 85554
+	}
 }
 
 export default card

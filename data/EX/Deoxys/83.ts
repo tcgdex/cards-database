@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Nosferapti",
 		de: "Zubat"
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		41,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -59,10 +64,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 90772
+	}
 }
 
 export default card

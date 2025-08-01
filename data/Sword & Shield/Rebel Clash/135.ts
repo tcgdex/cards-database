@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [681],
+
 	name: {
 		en: "Aegislash",
 		fr: "Exagide",
@@ -99,6 +100,10 @@ const card: Card = {
 
 	description: {
 		en: "In this defensive stance, Aegislash uses its steel body and a force field of spectral power to reduce the damage of any attack."
+	},
+
+	thirdParty: {
+		cardmarket: 458073
 	}
 }
 

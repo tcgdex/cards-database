@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Grunhido da Equipe Flare",
 		de: "Team Flare-Rüpel"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
 		de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 281466
+	}
 }
 
 export default card

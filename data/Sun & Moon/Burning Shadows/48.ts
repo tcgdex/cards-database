@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Slowking",
 		de: "Laschoking"
 	},
+
 	illustrator: "Eri Yamaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		199,
 	],
+
 	hp: 120,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -78,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -87,8 +92,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 299452
+	}
 }
 
 export default card

@@ -96,7 +96,11 @@ const card: Card = {
 
 	stage: "Basic",
 	suffix: "V",
-	dexId: [845]
+	dexId: [845],
+
+	thirdParty: {
+		cardmarket: 436869
+	}
 }
 
 export default card

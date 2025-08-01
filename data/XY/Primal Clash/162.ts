@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Scarta un'Energia speciale assegnata a uno dei Pokémon del tuo avversario.",
 		pt: "Descarte uma Energia Especial ligada a 1 dos Pokémon do seu oponente.",
 		de: "Lege 1 an ein gegnerisches Pokémon angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
+	},
+
+	thirdParty: {
+		cardmarket: 273693
 	}
 }
 

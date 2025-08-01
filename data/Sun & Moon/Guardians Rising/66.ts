@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Sudowoodo",
 		de: "Mogelbaum"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		185,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -74,8 +79,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 297527
+	}
 }
 
 export default card

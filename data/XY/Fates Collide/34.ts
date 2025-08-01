@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Duosion",
 		de: "Mitodos"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		578,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Solosis",
 		fr: "Nucléos",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Solosis",
 		de: "Monozyto"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -68,8 +73,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289860
+	}
 }
 
 export default card

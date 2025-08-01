@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Onix",
 		de: "Onix"
 	},
+
 	illustrator: "otumami",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		95,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -75,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -84,8 +87,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 408169
+	}
 }
 
 export default card

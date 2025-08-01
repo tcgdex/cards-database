@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Loto Energia",
 		de: "Energielotterie"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 7 cartes du dessus de votre deck. Vous pouvez montrer une carte Énergie que vous y trouvez et l’ajouter à votre main. Mélangez les autres cartes avec votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe as 7 primeiras cartas do seu baralho. Você poderá revelar 1 carta de Energia que encontrar lá e colocá-la na sua mão. Embaralhe as demais cartas de volta no seu baralho.",
 		de: "Schau dir die obersten 7 Karten deines Decks an. Du kannst 1 Energiekarte, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 297574
+	}
 }
 
 export default card

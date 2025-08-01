@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Oricorio",
 		de: "Choreogel"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		741,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -66,22 +68,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 297478
+	}
 }
 
 export default card

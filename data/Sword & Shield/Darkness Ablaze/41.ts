@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [515],
+
 	name: {
 		en: "Panpour",
 		fr: "Flotajou",
@@ -79,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large."
+	},
+
+	thirdParty: {
+		cardmarket: 483084
 	}
 }
 

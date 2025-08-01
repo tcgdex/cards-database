@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Mudsdale",
 		de: "Pampross"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		750,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Mudbray",
 		fr: "Tiboudet",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -91,8 +96,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 299480
+	}
 }
 
 export default card

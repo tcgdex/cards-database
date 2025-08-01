@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Reshiram e Zekrom GX",
 		de: "Reshiram & Zekrom GX"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		643,
 	],
+
 	hp: 270,
+
 	types: [
 		"Dragon",
 	],
@@ -77,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -86,8 +90,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 398474
+	}
 }
 
 export default card

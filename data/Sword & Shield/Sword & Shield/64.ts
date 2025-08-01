@@ -95,7 +95,11 @@ const card: Card = {
 		en: "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away."
 	},
 
-	dexId: [873]
+	dexId: [873],
+
+	thirdParty: {
+		cardmarket: 436454
+	}
 }
 
 export default card

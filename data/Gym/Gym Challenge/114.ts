@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Fuchsia City Gym",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274382,
+		tcgplayer: 85578
+	}
 }
 
 export default card

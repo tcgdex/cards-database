@@ -16,6 +16,11 @@ const card: Card = {
 
 	effect: {
 		de: "Verkrümmungs-Energie liefert -Energie.\nWenn du die Verkrümmungs-Energie von der Hand an dein Aktives Pokémon anlegst, tausche dieses Pokémon mit 1 Pokémon auf deiner Bank aus."
+	},
+
+	thirdParty: {
+		cardmarket: 277397,
+		tcgplayer: 90474
 	}
 }
 

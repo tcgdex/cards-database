@@ -23,6 +23,11 @@ const ex3: Set = {
 	abbreviations: {
 		official: "DR",
 		fr: "DRG"
+	},
+
+	thirdParty: {
+		cardmarket: 1576,
+		tcgplayer: 2295
 	}
 }
 

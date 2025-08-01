@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [320],
+
 	name: {
 		en: "Wailmer",
 		fr: "Wailmer",
@@ -71,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day."
+	},
+
+	thirdParty: {
+		cardmarket: 511575
 	}
 }
 

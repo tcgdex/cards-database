@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Fóssil Garra de Anorith",
 		de: "Anoriths Klauenfossil"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 7 cartes du dessous de votre deck. Vous pouvez montrer un Anorith que vous y trouvez et le placer sur votre Banc. Mélangez les autres cartes avec votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe os 7 cards debaixo do seu baralho. Você poderá revelar um Anorith que encontrar lá e colocá-lo no seu Banco. Embaralhe os demais cards de volta no seu baralho.",
 		de: "Schau dir die untersten 7 Karten deines Decks an. Falls du dort ein Anorith findest, kannst du es deinem Gegner zeigen und auf deine Bank legen. Mische die anderen Karten zurück in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 291549
+	}
 }
 
 export default card

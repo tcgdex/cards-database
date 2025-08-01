@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		en: "Crabrawler has been known to mistake Exeggutor for a coconut tree and climb it. The enraged Exeggutor shakes it off and stomps it."
+	},
+
+	thirdParty: {
+		cardmarket: 567192
 	}
 }
 

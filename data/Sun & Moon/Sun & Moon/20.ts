@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Tsareena",
 		de: "Fruyal"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		763,
 	],
+
 	hp: 140,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Steenee",
 		fr: "Candine",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -85,8 +92,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 295328
+	}
 }
 
 export default card

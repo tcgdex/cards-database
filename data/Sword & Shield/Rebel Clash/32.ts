@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [608],
+
 	name: {
 		en: "Lampent",
 		fr: "Mélancolux",
@@ -97,6 +98,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon appears just before someone passes away, so it's feared as an emissary of death."
+	},
+
+	thirdParty: {
+		cardmarket: 457618
 	}
 }
 

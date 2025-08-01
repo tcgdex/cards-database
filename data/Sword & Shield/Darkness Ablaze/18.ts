@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [768],
+
 	name: {
 		en: "Golisopod",
 		fr: "Sarmuraï",
@@ -104,6 +105,10 @@ const card: Card = {
 
 	description: {
 		en: "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs."
+	},
+
+	thirdParty: {
+		cardmarket: 482964
 	}
 }
 

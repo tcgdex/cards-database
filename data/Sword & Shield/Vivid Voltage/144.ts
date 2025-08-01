@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [732],
+
 	name: {
 		en: "Trumbeak",
 		fr: "Piclairon",
@@ -102,6 +103,10 @@ const card: Card = {
 
 	description: {
 		en: "From its mouth, it fires the seeds of berries it has eaten. The scattered seeds give rise to new plants."
+	},
+
+	thirdParty: {
+		cardmarket: 512430
 	}
 }
 

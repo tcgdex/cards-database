@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cinta de Foco",
 		de: "Fokusgurt"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon Fighting auquel cette carte est attachée a tous ses PV et doit être mis K.O. par les dégâts d'une attaque de l'adversaire, le Pokémon n'est pas mis K.O. mais il ne lui reste que 10 PV. Ensuite, défaussez cette carte.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Se o Pokémon Fighting ao qual este card está ligado possuir PS cheio e estiver prestes a ser Nocauteado por danos causados por um ataque do oponente, ele não será Nocauteado e seu PS restante se tornará 10. Em seguida descarte este card.",
 		de: "Wenn das Fighting-Pokémon, an das diese Karte angelegt ist, volle KP hat und durch Schaden eines gegnerischen Angriffs kampfunfähig würde, wird dieses Pokémon nicht kampfunfähig und behält stattdessen 10 KP. Lege diese Karte anschließend auf deinen Ablagestapel."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 281755
+	}
 }
 
 export default card

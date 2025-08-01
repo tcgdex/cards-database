@@ -20,6 +20,11 @@ const ex7: Set = {
 
 	abbreviations: {
 		official: "TR"
+	},
+
+	thirdParty: {
+		cardmarket: 1545,
+		tcgplayer: 1428
 	}
 }
 

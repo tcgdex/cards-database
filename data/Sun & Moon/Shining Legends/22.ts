@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Buizel",
 		de: "Bamelin"
 	},
+
 	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		418,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -62,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -71,8 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 302160,
+		tcgplayer: 146675
+	}
 }
 
 export default card

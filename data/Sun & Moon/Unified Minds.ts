@@ -25,6 +25,10 @@ const sm11: Set = {
 	abbreviations: {
 		official: "UNM",
 		fr: "HES"
+	},
+
+	thirdParty: {
+		cardmarket: 2487
 	}
 }
 

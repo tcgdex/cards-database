@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [523],
+
 	name: {
 		en: "Zebstrika",
 		fr: "Zéblitz",
@@ -88,6 +89,10 @@ const card: Card = {
 
 	description: {
 		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates."
+	},
+
+	thirdParty: {
+		cardmarket: 511690
 	}
 }
 

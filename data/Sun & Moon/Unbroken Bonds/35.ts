@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Blastoise GX",
 		de: "Turtok GX"
 	},
+
 	illustrator: "sadaji",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		9,
 	],
+
 	hp: 240,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Wartortle",
 		fr: "Carabaffe",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -97,6 +103,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -106,8 +113,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 372255
+	}
 }
 
 export default card

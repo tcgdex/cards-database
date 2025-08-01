@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Eevee e Snorlax GX",
 		de: "Evoli & Relaxo GX"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		133,
 	],
+
 	hp: 270,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -104,6 +106,7 @@ const card: Card = {
 			damage: 210
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -113,8 +116,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 367096
+	}
 }
 
 export default card

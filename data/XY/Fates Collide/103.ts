@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Especialidade da Garota",
 		de: "Görentalent"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez une carte pour chaque Pokémon de base du Banc de votre adversaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Compre um card para cada Pokémon Básico no Banco do seu oponente.",
 		de: "Ziehe 1 Karte für jedes Basis-Pokémon auf der Bank deines Gegners."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 289923
+	}
 }
 
 export default card

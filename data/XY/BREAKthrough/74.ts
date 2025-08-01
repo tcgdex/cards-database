@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Beheeyem",
 		de: "Megalon"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		606,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Elgyem",
 		fr: "Lewsor",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Elgyem",
 		de: "Pygraulon"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -90,8 +95,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286320
+	}
 }
 
 export default card

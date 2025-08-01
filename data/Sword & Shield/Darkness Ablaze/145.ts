@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [396],
+
 	name: {
 		en: "Starly",
 		fr: "Étourmi",
@@ -98,6 +99,10 @@ const card: Card = {
 
 	description: {
 		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying."
+	},
+
+	thirdParty: {
+		cardmarket: 483604
 	}
 }
 

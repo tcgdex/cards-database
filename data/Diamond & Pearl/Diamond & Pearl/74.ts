@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		fr: "On peut lui enseigner quelques mots. S'il s'agit d'un groupe, ils retiendront les mêmes phrases."
+	},
+
+	thirdParty: {
+		cardmarket: 277573
 	}
 }
 

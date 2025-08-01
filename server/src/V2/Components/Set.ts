@@ -1,7 +1,7 @@
 import { objectLoop } from '@dzeio/object-util'
 import type { Set as SDKSet, SetResume, SupportedLanguages } from '@tcgdex/sdk'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
-import Card from './Card'
+import { findOneCard, type Card } from './Card'
 import Serie from './Serie'
 
 import de from '../../../generated/de/sets.json'
@@ -23,7 +23,7 @@ import th from '../../../generated/th/sets.json'
 import zhcn from '../../../generated/zh-cn/sets.json'
 import zhtw from '../../../generated/zh-tw/sets.json'
 
-const sets = {
+export const sets = {
 	en: en,
 	fr: fr,
 	es: es,
@@ -82,7 +82,7 @@ export default class Set implements LocalSet {
 	}
 
 	public cards(): Array<Card> {
-		return this.set.cards.map((s) => Card.findOne(this.lang, { id: s.id }) as Card)
+		return this.set.cards.map((s) => findOneCard(this.lang, { id: s.id }) as Card)
 	}
 
 	public static getAll(lang: SupportedLanguages): Array<SDKSet> {

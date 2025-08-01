@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Magmar",
 		de: "Magmar"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		126,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -62,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -69,10 +72,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274961
+	}
 }
 
 export default card

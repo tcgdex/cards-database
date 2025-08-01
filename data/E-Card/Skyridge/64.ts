@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Heracross",
 		de: "Skaraborn"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		214,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 			damage: 30
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -63,10 +66,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275322,
+		tcgplayer: 86061
+	}
 }
 
 export default card

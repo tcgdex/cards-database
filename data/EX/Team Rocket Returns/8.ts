@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dark Octillery",
 		de: "Dunkles Octillery"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		224,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Remoraid",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -64,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276300,
+		tcgplayer: 84633
+	}
 }
 
 export default card

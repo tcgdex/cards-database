@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [661],
+
 	name: {
 		en: "Fletchling",
 		fr: "Passerouge",
@@ -69,6 +70,10 @@ const card: Card = {
 
 	description: {
 		en: "Its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed."
+	},
+
+	thirdParty: {
+		cardmarket: 483634
 	}
 }
 

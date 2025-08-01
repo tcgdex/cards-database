@@ -25,6 +25,10 @@ const sm6: Set = {
 	abbreviations: {
 		official: "FLI",
 		fr: "LUI"
+	},
+
+	thirdParty: {
+		cardmarket: 2075
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Grande Poção",
 		de: "Großartiger Trank"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez 50 dégâts à votre Pokémon-GX Actif.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cure 50 pontos de dano do seu Pokémon-GX Ativo.",
 		de: "Heile 50 Schadenspunkte bei deinem Aktiven Pokémon-GX."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 388777
+	}
 }
 
 export default card

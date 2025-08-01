@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [785],
+
 	name: {
 		en: "Tapu Koko",
 		fr: "Tokorico",
@@ -86,6 +87,10 @@ const card: Card = {
 
 	description: {
 		en: "The lightning-wielding guardian deity of Melemele, Tapu Koko is brimming with curiosity and appears before people from time to time."
+	},
+
+	thirdParty: {
+		cardmarket: 483179
 	}
 }
 

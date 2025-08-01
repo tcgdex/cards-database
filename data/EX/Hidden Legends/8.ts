@@ -7,22 +7,24 @@ const card: Card = {
 		fr: "Jirachi",
 		de: "Jirachi"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		385,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -67,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276082,
+		tcgplayer: 86325
+	}
 }
 
 export default card

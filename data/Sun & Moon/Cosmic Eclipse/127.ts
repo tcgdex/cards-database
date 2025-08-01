@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Palossand",
 		de: "Colossand"
 	},
+
 	illustrator: "OOYAMA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		770,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Sandygast",
 		fr: "Bacabouh",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -91,8 +96,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 408284
+	}
 }
 
 export default card

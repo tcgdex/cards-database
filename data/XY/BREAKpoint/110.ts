@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Vale Invertido",
 		de: "Umgekehrtes Tal"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez l'orientation de cette carte avant de la jouer. Les attaques des Pokémon Darkness de ce ↓ joueur infligent 10 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).\n\nTous les dégâts infligés aux Pokémon Metal de ce ↓ joueur par une attaque de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Escolha para onde este card ficará voltado antes de jogá-lo. Os ataques dos Pokémon Darkness deste ↓ jogador causam 10 de danos adicionais ao Pokémon Ativo do seu oponente (antes da aplicação de Fraqueza e Resistência).\n\nQualquer dano causado aos Pokémon Metal deste ↓ jogador pelo ataque de um oponente será reduzido em 10 (após a aplicação de Fraqueza e Resistência).",
 		de: "Entscheide dich vor dem Spielen dieser Karte, auf welchen Spieler \"↓\" zeigen soll. Die Angriffe der Darkness-Pokémon des angezeigten Spielers fügen dem Aktiven Pokémon deines Gegners 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden).\n\nSchaden, der den Metal-Pokémon des angezeigten Spielers durch einen gegnerischen Angriff zugefügt wird, wird um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 288285
+	}
 }
 
 export default card

@@ -25,6 +25,11 @@ const swsh1: Set = {
 	abbreviations: {
 		official: "SHF",
 		fr: "DRA"
+	},
+
+	thirdParty: {
+		cardmarket: 3630,
+		tcgplayer: 2754
 	}
 }
 

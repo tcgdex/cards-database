@@ -92,6 +92,10 @@ const card: Card = {
 
 	description: {
 		en: "While it's engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area."
+	},
+
+	thirdParty: {
+		cardmarket: 545511
 	}
 }
 

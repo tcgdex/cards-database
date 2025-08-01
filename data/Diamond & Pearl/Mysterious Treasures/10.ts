@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		fr: ": Ce Pokémon nocturne évolue en grandes volées escortées par des Cornèbre."
+	},
+
+	thirdParty: {
+		cardmarket: 277639,
+		tcgplayer: 86159
 	}
 }
 

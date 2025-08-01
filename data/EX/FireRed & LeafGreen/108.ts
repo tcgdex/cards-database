@@ -7,18 +7,22 @@ const card: Card = {
 		fr: "Ectoplasma ex",
 		de: "Gengar ex"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		94,
 	],
+
 	hp: 150,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Haunter",
 	},
@@ -64,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -74,6 +79,7 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -85,9 +91,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276284,
+		tcgplayer: 85680
+	}
 }
 
 export default card

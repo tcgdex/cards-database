@@ -92,6 +92,10 @@ const card: Card = {
 
 	description: {
 		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates."
+	},
+
+	thirdParty: {
+		cardmarket: 567131
 	}
 }
 

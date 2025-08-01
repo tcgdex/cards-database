@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Cubone",
 		fr: "Osselait",
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		104,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -39,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -48,8 +51,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 394657,
+		tcgplayer: 197681
+	}
 }
 
 export default card

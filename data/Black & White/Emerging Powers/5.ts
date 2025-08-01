@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Swadloon",
 		de: "Folikon"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		541,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Sewaddle",
 		fr: "Larveyette",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -69,8 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 279970,
+		tcgplayer: 89665
+	}
 }
 
 export default card

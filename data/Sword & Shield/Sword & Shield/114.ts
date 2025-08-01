@@ -71,7 +71,11 @@ const card: Card = {
 		en: "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
 	},
 
-	dexId: [874]
+	dexId: [874],
+
+	thirdParty: {
+		cardmarket: 427191
+	}
 }
 
 export default card

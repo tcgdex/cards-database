@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Electrike",
 		de: "Frizelbliz"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		309,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,22 +75,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273590
+	}
 }
 
 export default card

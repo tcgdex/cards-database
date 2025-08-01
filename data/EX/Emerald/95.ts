@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Charmina ex",
 		de: "Meditalis ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		308,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Meditite",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -84,10 +91,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 87277
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Fragmento Aquático",
 		de: "Wasserpflaster"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Attachez une carte Énergie Water de votre pile de défausse à l’un de vos Pokémon Water de Banc.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Ligue 1 carta de Energia Water da sua pilha de descarte a 1 dos seus Pokémon Water no Banco.",
 		de: "Lege 1 Water-Energiekarte aus deinem Ablagestapel an 1 Water-Pokémon auf deiner Bank an."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 297571
+	}
 }
 
 export default card

@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Guarda le prime quattro carte del tuo mazzo. Puoi mostrare una carta Allenatore presente tra quelle carte (a eccezione di XXX) e aggiungerla alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
 		pt: "Olhe os 4 cards de cima do seu baralho. Você poderá revelar um card de Treinador que encontrar (exceto Correio de Treinadores) e colocá-lo em sua mão. Embaralhe os demais cards de volta.",
 		de: "Schau dir die obersten 4 Karten deines Decks an. Falls du dort 1 Trainerkarte (außer Trainer-Post) findest, kannst du sie deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck."
+	},
+
+	thirdParty: {
+		cardmarket: 282760
 	}
 }
 

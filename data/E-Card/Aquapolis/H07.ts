@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Électrode",
 		de: "Lektrobal"
 	},
+
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		101,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Voltorb",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -66,10 +73,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275063,
+		tcgplayer: 85147
+	}
 }
 
 export default card

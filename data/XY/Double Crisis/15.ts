@@ -6,21 +6,24 @@ const card: Card = {
 		en: "Team Magma's Groudon EX",
 		fr: "Groudon-EX de la Team Magma",
 	},
+
 	illustrator: "nagimiso",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		383,
 	],
+
 	hp: 190,
+
 	types: [
 		"Fighting",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,8 +68,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 282526,
+		tcgplayer: 97061
+	}
 }
 
 export default card

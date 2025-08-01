@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
+	},
+
+	thirdParty: {
+		cardmarket: 567082
 	}
 }
 

@@ -95,7 +95,11 @@ const card: Card = {
 		de: "Krarmor-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545631
+	}
 }
 
 export default card

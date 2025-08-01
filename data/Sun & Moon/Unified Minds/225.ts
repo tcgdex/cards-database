@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Mega Sableye e Tyranitar GX",
 		de: "Mega-Zobiris & Despotar GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		248,
 	],
+
 	hp: 280,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -99,22 +101,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 377502
+	}
 }
 
 export default card

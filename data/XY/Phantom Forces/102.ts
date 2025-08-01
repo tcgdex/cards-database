@@ -10,12 +10,11 @@ const card: Card = {
 		pt: "Robô Substituto – Equipamento da Equipe Flare",
 		de: "Robo-Ersatz Team Flare-Zubehör"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
 
 	effect: {
 		fr: "Jouez cette carte comme si c'était un Pokémon Colorless de base avec 30 PV. N'importe quand pendant votre tour (avant votre attaque), vous pouvez défausser cette carte du jeu. Cette carte ne peut pas battre en retraite. Si cette carte est mise K.O., votre adversaire ne peut pas récupérer de carte Récompense pour cette carte.",
@@ -25,8 +24,12 @@ const card: Card = {
 		pt: "Jogue esse card como se ele fosse um Pokémon Básico Colorless com 30 de PS. A qualquer momento durante sua vez de jogar (antes de atacar), você pode descartar esse card do jogo. Esse card não pode recuar. Se este card for Nocauteado, seu oponente não poderá receber cards de Prêmio por ele.",
 		de: "Spiele diese Karte, als sei sie ein Colorless-Basis-Pokémon mit 30 KP. Du kannst diese Karte zu einem beliebigen Zeitpunkt während deines Zuges (vor deinem Angriff) aus dem Spiel nehmen und auf den Ablagestapel legen. Diese Karte kann sich nicht zurückziehen. Wenn diese Karte kampfunfähig wird, darf dein Gegner dafür keine Preiskarte nehmen."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281909
+	}
 }
 
 export default card

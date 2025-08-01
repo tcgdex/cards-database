@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [206],
+
 	name: {
 		en: "Dunsparce",
 		fr: "Insolourdo",
@@ -84,6 +85,10 @@ const card: Card = {
 
 	description: {
 		en: "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky."
+	},
+
+	thirdParty: {
+		cardmarket: 483564
 	}
 }
 

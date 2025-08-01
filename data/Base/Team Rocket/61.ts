@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		fr: "De nature amicale, il se met très vite en colère s'il n'obtient pas ce qu'il veut."
+	},
+
+	thirdParty: {
+		cardmarket: 274114
 	}
 }
 

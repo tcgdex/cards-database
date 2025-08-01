@@ -15,6 +15,11 @@ const card: Card = {
 
 	effect: {
 		de: "Each player plays with his or her Prize cards face up for the rest of the game."
+	},
+
+	thirdParty: {
+		cardmarket: 276403,
+		tcgplayer: 86075
 	}
 }
 

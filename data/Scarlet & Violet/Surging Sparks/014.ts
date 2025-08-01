@@ -70,7 +70,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Masako Tomii"
+	illustrator: "Masako Tomii",
+
+	thirdParty: {
+		cardmarket: 794269
+	}
 }
 
 export default card

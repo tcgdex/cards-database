@@ -65,7 +65,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Nelnal"
+	illustrator: "Nelnal",
+
+	thirdParty: {
+		cardmarket: 715522
+	}
 }
 
 export default card

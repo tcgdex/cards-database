@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [841],
+
 	name: {
 		en: "Flapple",
 		fr: "Pomdrapi",
@@ -98,6 +99,10 @@ const card: Card = {
 
 	description: {
 		en: "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns."
+	},
+
+	thirdParty: {
+		cardmarket: 456413
 	}
 }
 

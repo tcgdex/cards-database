@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Totodile",
 		de: "Karnimani"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		158,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -70,8 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 302156,
+		tcgplayer: 146671
+	}
 }
 
 export default card

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Ningale",
 		de: "Nincada"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		290,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -41,6 +43,7 @@ const card: Card = {
 			damage: 10
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -48,10 +51,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 280449
+	}
 }
 
 export default card

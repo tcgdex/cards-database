@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Scraggy",
 		de: "Zurrokex"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		559,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,22 +60,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280298,
+		tcgplayer: 88983
+	}
 }
 
 export default card

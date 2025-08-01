@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Florges",
 		de: "Florges"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		671,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Floette",
 		fr: "Floette",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Floette",
 		de: "Floette"
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -80,22 +86,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286349
+	}
 }
 
 export default card

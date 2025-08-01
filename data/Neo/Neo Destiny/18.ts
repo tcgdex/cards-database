@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "La carapace qui couvre son dos s'enlève facilement, exposant à l'air son corps enflammé."
+	},
+
+	thirdParty: {
+		cardmarket: 274670,
+		tcgplayer: 84622
 	}
 }
 

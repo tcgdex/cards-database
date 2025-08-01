@@ -26,7 +26,11 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	illustrator: "Yuu Nishida"
+	illustrator: "Yuu Nishida",
+
+	thirdParty: {
+		cardmarket: 582976
+	}
 }
 
 export default card

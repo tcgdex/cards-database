@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Raichu",
 		de: "Raichu"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		26,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Pikachu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -58,22 +60,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278899,
+		tcgplayer: 88516
+	}
 }
 
 export default card

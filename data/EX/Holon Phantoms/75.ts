@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Phanpy",
 		de: "Phanpy"
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		231,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -61,10 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277045,
+		tcgplayer: 88001
+	}
 }
 
 export default card

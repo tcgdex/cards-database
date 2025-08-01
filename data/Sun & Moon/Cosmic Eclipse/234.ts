@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Red e Blue",
 		de: "Rot & Blau"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez dans votre deck un Pokémon-GX qui évolue de l’un de vos Pokémon et placez-le sur ce dernier pour le faire évoluer. Mélangez ensuite votre deck. (Vous ne pouvez utiliser cette carte ni pendant votre premier tour ni sur un Pokémon qui a été joué pendant ce tour.)\n\nLorsque vous jouez cette carte, vous pouvez défausser 2 autres cartes de votre main. Dans ce cas, cherchez jusqu’à 2 cartes Énergie de base dans votre deck et attachez-les au Pokémon que vous avez fait évoluer de cette façon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure por 1 Pokémon-GX no seu baralho que evolua de 1 dos seus Pokémon e coloque-o sobre aquele Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho (você não pode usar esta carta durante a sua primeira vez de jogar ou em um Pokémon que foi colocado em jogo nesta rodada).\n\nQuando você joga esta carta, você pode descartar outras 2 cartas da sua mão. Se fizer isto, procure por até 2 cartas de Energia básica no seu baralho e ligue-as ao Pokémon que evoluiu desta forma.",
 		de: "Durchsuche dein Deck nach 1 Pokémon-GX, das sich aus 1 deiner Pokémon entwickelt, und lege es auf jenes Pokémon, um es zu entwickeln. Mische anschließend dein Deck. (Du kannst diese Karte nicht während deines ersten Zuges oder für ein Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden.)\n\nWenn du diese Karte spielst, kannst du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, durchsuche dein Deck nach bis zu 2 Basis-Energiekarten und lege sie an das Pokémon, das du auf diese Weise entwickelt hast, an."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 398499
+	}
 }
 
 export default card

@@ -63,7 +63,11 @@ const card: Card = {
 		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
 	},
 
-	dexId: [50]
+	dexId: [50],
+
+	thirdParty: {
+		cardmarket: 436579
+	}
 }
 
 export default card

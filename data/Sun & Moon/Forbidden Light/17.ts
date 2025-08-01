@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Delphox",
 		de: "Fennexis"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		655,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Braixen",
 		fr: "Roussil",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -86,8 +93,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 355537
+	}
 }
 
 export default card

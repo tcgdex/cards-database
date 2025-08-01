@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Dark Wartortle",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		8,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Squirtle",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -51,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -58,10 +63,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274804,
+		tcgplayer: 84669
+	}
 }
 
 export default card

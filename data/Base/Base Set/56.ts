@@ -67,6 +67,11 @@ const card: Card = {
 
 	description: {
 		fr: "Les parties en pierre de son corps durcissent pour devenir comme un diamant de couleur noire."
+	},
+
+	thirdParty: {
+		cardmarket: 273751,
+		tcgplayer: 42400
 	}
 }
 

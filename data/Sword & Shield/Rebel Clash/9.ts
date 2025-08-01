@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [272],
+
 	name: {
 		en: "Ludicolo",
 		fr: "Ludicolo",
@@ -101,6 +102,10 @@ const card: Card = {
 
 	description: {
 		en: "The rhythm of bright, festive music activates Ludicolo's cells, making it more powerful."
+	},
+
+	thirdParty: {
+		cardmarket: 457438
 	}
 }
 

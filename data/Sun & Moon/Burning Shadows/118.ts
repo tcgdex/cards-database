@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Monte Lanakila",
 		de: "Mount Lanakila"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Coût de Retraite de chaque Pokémon de base en jeu (les vôtres et ceux de votre adversaire) est augmenté de Colorless.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "O custo de Recuo de cada Pokémon Básico em jogo (seus e do seu oponente) será Colorless a mais.",
 		de: "Die Rückzugskosten jedes Basis-Pokémon im Spiel (deiner und der deines Gegners) erhöhen sich um Colorless."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 299518
+	}
 }
 
 export default card

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Graveler de Alola",
 		de: "Alola-Georok"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		75,
 	],
+
 	hp: 100,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Alolan Geodude",
 		fr: "Racaillou d’Alola",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -73,22 +77,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 311883
+	}
 }
 
 export default card

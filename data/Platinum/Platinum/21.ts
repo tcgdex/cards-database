@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Charmillon",
 		de: "Papinella"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		267,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Silcoon",
 		fr: "Armulys",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -62,12 +66,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -75,9 +81,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 278442,
+		tcgplayer: 83759
+	}
 }
 
 export default card

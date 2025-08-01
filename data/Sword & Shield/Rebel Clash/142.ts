@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [441],
+
 	name: {
 		en: "Chatot",
 		fr: "Pijako",
@@ -89,6 +90,10 @@ const card: Card = {
 
 	description: {
 		en: "It can learn and speak human words. If they gather, they all learn the same saying."
+	},
+
+	thirdParty: {
+		cardmarket: 458098
 	}
 }
 

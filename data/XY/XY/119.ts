@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Encanto Severo",
 		de: "Unverwüstliches Amulett"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Tous les dégâts infligés au Pokémon auquel cette carte est attachée par une attaque de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Qualquer dano causado ao Pokémon ao qual esse card está ligado pelo ataque de um oponente será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
 		de: "Schaden, der dem Pokémon, an das diese Karte angelegt ist, durch einen gegnerischen Angriff zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 281456
+	}
 }
 
 export default card

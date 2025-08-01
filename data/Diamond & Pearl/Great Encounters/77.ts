@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Lovdisc",
 		de: "Liebiskus"
 	},
+
 	illustrator: "Motofumi Fujiwara",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		370,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -67,8 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277979,
+		tcgplayer: 86936
+	}
 }
 
 export default card

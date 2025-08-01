@@ -17,6 +17,11 @@ const card: Card = {
 	effect: {
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu.\n\nN'importe quand entre deux tours, chaque Joueur place 1 marqueur de dégât sur son Pokémon-ex possédant un maximum de Points de Vie d'au moins 100.",
 		de: "At any time between turns, each player puts 1 damage counter on his or her Pokémon-ex with maximum HP of at least 100."
+	},
+
+	thirdParty: {
+		cardmarket: 276162,
+		tcgplayer: 84781
 	}
 }
 

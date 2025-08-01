@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [40],
+
 	name: {
 		en: "Wigglytuff",
 		fr: "Grodoudou",
@@ -103,6 +104,10 @@ const card: Card = {
 
 	description: {
 		en: "When it gets angry, it inhales with all its might, and its body gradually inflates. Sometimes they can grow 20 times larger!"
+	},
+
+	thirdParty: {
+		cardmarket: 483219
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Starmie",
 		de: "Starmie"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		121,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Staryu",
 		fr: "Stari",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Staryu",
 		de: "Sterndu"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -79,6 +85,7 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -88,8 +95,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 293388
+	}
 }
 
 export default card

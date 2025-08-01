@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Brock's Diglett",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		50,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,12 +51,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -62,9 +66,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274335,
+		tcgplayer: 83961
+	}
 }
 
 export default card

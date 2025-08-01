@@ -95,7 +95,11 @@ const card: Card = {
 		en: "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution."
 	},
 
-	dexId: [825]
+	dexId: [825],
+
+	thirdParty: {
+		cardmarket: 436259
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bicicleta",
 		de: "Fahrrad"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez des cartes jusqu'à ce que vous ayez 4 cartes en main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Compre cards até ter 4 cards em sua mão.",
 		de: "Ziehe so viele Karten, bis du 4 Karten auf der Hand hast."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280857,
+		tcgplayer: 83823
+	}
 }
 
 export default card

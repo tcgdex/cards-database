@@ -35,7 +35,11 @@ const card: Card = {
 	},
 
 	illustrator: "kirisAki",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567257
+	}
 }
 
 export default card

@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Gallade",
 		de: "Galagladi"
 	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		475,
 	],
+
 	hp: 160,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Kirlia",
 		fr: "Kirlia",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -84,8 +91,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 398549
+	}
 }
 
 export default card

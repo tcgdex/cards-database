@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Floatzel",
 		de: "Bojelin"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		419,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Buizel",
 		fr: "Mustébouée",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Buizel",
 		de: "Bamelin"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -90,8 +95,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281512
+	}
 }
 
 export default card

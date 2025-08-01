@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Skate de Fuga",
 		de: "Fluchtboard"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Coût de Retraite du Pokémon auquel cette carte est attachée est diminué de Colorless et il peut battre en retraite même s’il est Endormi ou Paralysé.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "O custo de Recuo do Pokémon ao qual esta carta está ligada é Colorless a menos e ele poderá recuar mesmo que esteja Adormecido ou Paralisado.",
 		de: "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um Colorless und es kann sich zurückziehen, auch wenn es schläft oder paralysiert ist."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 316047
+	}
 }
 
 export default card

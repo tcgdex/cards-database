@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "No Removal Gym",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274239,
+		tcgplayer: 87789
+	}
 }
 
 export default card

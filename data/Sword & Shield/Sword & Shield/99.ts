@@ -107,7 +107,11 @@ const card: Card = {
 		en: "It relies on its carapace to deflect incoming attacks and throw its enemy off balance. As soon as that happens, it drives its drill into the foe."
 	},
 
-	dexId: [464]
+	dexId: [464],
+
+	thirdParty: {
+		cardmarket: 436614
+	}
 }
 
 export default card

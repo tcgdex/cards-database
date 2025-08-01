@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Il tuo avversario rimischia le carte che ha in mano nel proprio mazzo e pesca una carta per ciascuna delle sue carte Premio rimanenti.",
 		pt: "Seu oponente embaralha a própria mão no baralho dele(a) e compra 1 carta para cada uma das cartas de Prêmio restantes dele(a).",
 		de: "Dein Gegner mischt seine Handkarten in sein Deck und zieht 1 Karte für jede seiner verbleibenden Preiskarten."
+	},
+
+	thirdParty: {
+		cardmarket: 388817
 	}
 }
 

@@ -7,18 +7,22 @@ const card: Card = {
 		fr: "Sharpedo ex",
 		de: "Tohaido ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		319,
 	],
+
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Carvanha",
 	},
@@ -64,12 +68,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -77,9 +83,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		tcgplayer: 89104
+	}
 }
 
 export default card

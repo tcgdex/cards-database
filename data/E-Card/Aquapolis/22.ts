@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Magneton",
 		de: "Magneton"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		82,
 	],
+
 	hp: 70,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Magnemite",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -60,12 +66,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
@@ -73,9 +81,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275049,
+		tcgplayer: 87097
+	}
 }
 
 export default card

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Archéomire",
 		de: "Bronzel"
 	},
+
 	illustrator: "Daisuke Ito",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		436,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,22 +60,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fire",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278101,
+		tcgplayer: 84002
+	}
 }
 
 export default card

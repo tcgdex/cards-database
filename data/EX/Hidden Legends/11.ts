@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Metalosse",
 		de: "Metagross"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		376,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Metang",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,12 +67,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -74,9 +82,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276085,
+		tcgplayer: 87335
+	}
 }
 
 export default card

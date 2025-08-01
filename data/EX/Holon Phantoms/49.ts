@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Roucoups δ",
 		de: "Tauboga"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		17,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Pidgey",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -45,12 +49,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -58,9 +64,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 277019
+	}
 }
 
 export default card

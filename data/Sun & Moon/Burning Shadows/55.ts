@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Toxicroak",
 		de: "Toxiquak"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		454,
 	],
+
 	hp: 110,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Croagunk",
 		fr: "Cradopaud",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -80,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -89,8 +94,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 299459
+	}
 }
 
 export default card
