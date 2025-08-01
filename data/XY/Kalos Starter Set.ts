@@ -17,7 +17,7 @@ const xy0: Set = {
 	tcgOnline: "KSS",
 
 	cardCount: {
-		official: 45
+		official: 39
 	},
 
 	releaseDate: "2013-11-08",
