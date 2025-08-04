@@ -38,7 +38,7 @@ const card: Card = {
 	hp: 60,
 
 	description: {
-		en: "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+		en: "The electromagnetic waves emitted by the units\nat the sides of its head expel antigravity, which\nallows it to float.",
 		fr: "Les ondes électromagnétiques émises par ses extrémités\nlui permettent de défier les lois de la gravité et de flotter.",
 		es: "Las unidades laterales crean ondas\nelectromagnéticas que contrarrestan\nla gravedad y le permiten flotar.",
 		it: "Le onde elettromagnetiche generate dagli\nelementi laterali neutralizzano la gravità\npermettendogli di levitare a mezz'aria.",

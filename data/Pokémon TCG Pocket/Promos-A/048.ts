@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It is born with a wondrous power that lets it bond with any kind of Pokémon.",
+		en: "It is born with a wondrous power that lets it bond\nwith any kind of Pokémon.",
 		fr: "Il est né avec le pouvoir incroyable de créer\ndes liens avec n'importe quel Pokémon.",
 		es: "Nace con un maravilloso poder que le permite\nestablecer vínculos con cualquier tipo de Pokémon.",
 		it: "Dispone di un potere innato che lo fa\nlegare con qualsiasi specie di Pokémon.",

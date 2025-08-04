@@ -48,7 +48,7 @@ const card: Card = {
 	hp: 50,
 
 	description: {
-		en: "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
+		en: "It lives in groups in the treetops. If it loses sight of\nits group, it becomes infuriated by its loneliness.",
 		fr: "Il vit en groupe au sommet des arbres. S'il perd\nses congénères de vue, la solitude le rend furieux.",
 		es: "Vive en grupos en las copas de\nlos árboles. Si pierde de vista a su\nmanada, se siente solo y se enfada.",
 		it: "Vivono in branchi in cima agli alberi. Se perdono\nil contatto con il gruppo s'infuriano per la solitudine.",

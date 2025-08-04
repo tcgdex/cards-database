@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+		en: "Its fluffy fur is similar in composition to plants.\nThis Pokémon frequently washes its face to keep\nit from drying out.",
 		fr: "Ce Pokémon lave assidûment son visage pour\néviter qu'il ne s'assèche. La composition de son\npelage soyeux est proche de celle des plantes.",
 		es: "Su sedoso pelaje se asemeja en composición a las plantas.\nSe lava la cara con diligencia para que no se le seque.",
 		it: "Il suo pelo vellutato ha una composizione simile a quella delle\npiante. Si lava il muso di frequente per evitare che si disidrati.",

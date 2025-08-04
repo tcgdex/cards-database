@@ -5,7 +5,6 @@ import { exec, spawn } from 'node:child_process'
 import { writeFileSync } from 'node:fs'
 import { Card, Languages, Set, SupportedLanguages } from '../../../interfaces'
 import * as legals from '../../../meta/legals'
-
 interface fileCacheInterface {
 	[key: string]: any
 }
@@ -140,7 +139,8 @@ export async function loadLastEdits() {
 	console.log('Loaded files tree', files.length, 'files')
 	console.log('Loading their last edit time')
 	let processed = 0
-	const queue = new Queue(1000, 10)
+	const concurrent = process.platform === 'win32' ? 10 : 1000
+	const queue = new Queue(concurrent, 10)
 	queue.start()
 
 	for await (let file of files) {

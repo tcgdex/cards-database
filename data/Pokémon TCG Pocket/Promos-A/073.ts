@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "They smack beaks with others of their kind to communicate. The strength and number of hits tell each other how they feel.",
+		en: "They smack beaks with others of their kind to communicate.\nThe strength and number of hits tell each other how they feel.",
 		fr: "Ils communiquent entre eux en se frappant\nmutuellement sur le bec. La force et la cadence\ndes coups en disent long sur leur état d'esprit.",
 		es: "Se comunican con sus compañeros chocando los\npicos. El número de veces y la fuerza con la que\nlo hacen transmiten sus distintos sentimientos.",
 		it: "I Toucannon comunicano tra di loro sbattendo i becchi. La forza\ne il numero dei colpi indicano i sentimenti che vogliono esprimere.",

@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "There are a hundred or so of them living in Alola's waste-disposal site. They're all hard workers who eat a lot of trash.",
+		en: "There are a hundred or so of them living in\nAlola's waste-disposal site. They're all hard\nworkers who eat a lot of trash.",
 		fr: "Dans les décharges d'Alola, une centaine d'entre\neux dévorent les immondices avec diligence.",
 		es: "En los vertederos de Alola habitan unos 100\nejemplares que devoran la basura con diligencia.",
 		it: "Negli impianti di smaltimento rifiuti di Alola ne vivono circa\n100 esemplari che lavorano sodo mangiando rifiuti in quantità.",

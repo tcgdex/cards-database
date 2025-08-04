@@ -1,3 +1,4 @@
+import path from 'node:path'
 import { Serie, Set, SupportedLanguages } from '../../../interfaces'
 import { SerieResume, Serie as SerieSingle } from '../../../meta/definitions/api'
 import { getSets, setToSetSimple } from './setUtil'
@@ -17,6 +18,7 @@ export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): 
 
 export async function getSeries(lang: SupportedLanguages): Promise<Array<Serie>> {
 	let series: Array<Serie> = (await Promise.all((await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/*.ts`))
+		.map((it) => it.replaceAll(path.sep, '/'))
 		// Find Serie's name
 		.map((it) => it.substring(it.lastIndexOf('/') + 1, it.length - 3))
 		// Fetch the Serie

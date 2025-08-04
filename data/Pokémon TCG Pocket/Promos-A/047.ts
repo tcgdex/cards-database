@@ -24,7 +24,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+		en: "When Staravia evolve into Staraptor, they leave\nthe flock to live alone. They have sturdy wings.",
 		fr: "Quand Étourvol évolue en Étouraptor, il quitte son groupe\npour vivre seul. Ses ailes sont très souples et puissantes.",
 		es: "Al evolucionar a Staraptor, deja su bandada y\npasa a vivir en soledad. Sus alas son inmensas.",
 		it: "Non appena si evolve, lascia lo stormo e affronta la\nvita da solo. Le sue ali sono estremamente robuste.",

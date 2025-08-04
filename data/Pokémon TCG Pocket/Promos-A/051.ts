@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+		en: "Apparently Cyclizar has been allowing people to\nride on its back since ancient times. Depictions of\nthis have been found in 10,000-year-old murals.",
 		fr: "Des fresques vieilles de 10 000 ans laissent penser\nque ce Pokémon transporte des êtres humains\nsur son dos depuis les temps anciens.",
 		es: "Según parece, ha permitido que los humanos\nmonten en él desde tiempos remotos. Aparece\nen pinturas rupestres de hace diez mil años.",
 		it: "Sembra che trasportasse esseri umani sul\ndorso già nell'antichità. È rappresentato in\npitture rupestri risalenti a 10.000 anni fa.",
@@ -47,7 +47,7 @@ const card: Card = {
 		damage: 20,
 
 		effect: {
-			en: "During your next turn, this Pokémon’s Overacceleration attack does +20 damage.",
+			en: "During your next turn, this Pokémon's Overacceleration attack does +20 damage.",
 			fr: "Pendant votre prochain tour, l'attaque Hyperaccélération de ce Pokémon inflige + 20 dégâts.",
 			es: "Durante tu próximo turno, el ataque Alta Aceleración de este Pokémon hace Overacceleration+20 puntos[/Ctrl:NoBreak] de daño.",
 			it: "Durante il tuo prossimo turno, l'attacco Iperaccelerazione di questo Pokémon infligge +20 danni.",

@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
+		en: "Its burning body causes it to be unpopular in hot\nparts of the world, but in cold ones, Volcarona is\nrevered as an embodiment of the sun.",
 		fr: "Son corps brûlant le rend impopulaire dans les\nrégions chaudes. Toutefois, on le vénère comme\nl'incarnation du soleil dans les régions froides.",
 		es: "El calor que irradia le granjea pocas simpatías en\ntierras cálidas. Por el contrario, en las regiones\nmás frías lo veneran como encarnación del sol.",
 		it: "Chi vive in regioni calde odia il suo corpo\ninfuocato, ma nelle terre più fredde viene\nvenerato come l'incarnazione stessa del sole.",

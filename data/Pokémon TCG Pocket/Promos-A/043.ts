@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.",
+		en: "After absorbing plenty of sunlight, Cherrim takes\nthis form. It's full of energy while it's like this,\nand its liveliness will go on until sundown.",
 		fr: "Il prend cette forme lorsqu'il a fait le plein de soleil.\nIl déborde alors d'énergie et reste très actif jusqu'au crépuscule.",
 		es: "Adopta esta forma cuando lo bañan los rayos del sol. Siempre\nestá rebosante de energía y se mantiene activo hasta el ocaso.",
 		it: "Assume questa forma dopo essersi esposto\nalla luce solare e aver fatto il pieno di energia.\nResta vivace fino al crepuscolo.",
