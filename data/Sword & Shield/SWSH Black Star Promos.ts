@@ -19,7 +19,11 @@ const swshp: Set = {
 		official: 107
 	},
 
-	releaseDate: "2019-11-15"
+	releaseDate: "2019-11-15",
+
+	thirdParty: {
+		tcgplayer: 2545
+	}
 }
 
 export default swshp

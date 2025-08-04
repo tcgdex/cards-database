@@ -17,7 +17,8 @@ const bog: Set = {
 	releaseDate: "2002-12-01",
 
 	thirdParty: {
-		cardmarket: 1605
+		cardmarket: 1605,
+		tcgplayer: 1455
 	}
 }
 

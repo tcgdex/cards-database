@@ -28,7 +28,8 @@ const sm8: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 2370
+		cardmarket: 2370,
+		tcgplayer: 2328
 	}
 }
 

@@ -28,7 +28,8 @@ const card: Card = {
 	energyType: "Special",
 
 	thirdParty: {
-		cardmarket: 286398
+		cardmarket: 286398,
+		tcgplayer: 107271
 	}
 }
 

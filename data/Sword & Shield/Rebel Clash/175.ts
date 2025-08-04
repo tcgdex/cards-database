@@ -92,7 +92,8 @@ const card: Card = {
 	suffix: "V",
 
 	thirdParty: {
-		cardmarket: 456408
+		cardmarket: 456408,
+		tcgplayer: 213088
 	}
 }
 

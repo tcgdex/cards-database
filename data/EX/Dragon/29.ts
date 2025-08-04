@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Gravalanch",
 		de: "Georok"
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		75,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Geodude",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -66,6 +70,7 @@ const card: Card = {
 			damage: "10x"
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -73,10 +78,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 85889
+	}
 }
 
 export default card

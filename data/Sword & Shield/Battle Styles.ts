@@ -28,7 +28,8 @@ const swsh1: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 3675
+		cardmarket: 3675,
+		tcgplayer: 2765
 	}
 }
 

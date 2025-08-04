@@ -1,5 +1,4 @@
 import { Transform } from "jscodeshift"
-import expansionsJSON from '../groups.json'
 import pathUtils from 'path/posix'
 import type { Card as DBCard, Set as DBSet } from '../interfaces'
 import { extractFile } from './utils/ts-extract-utils'
@@ -91,9 +90,9 @@ const transformer: Transform = async (file, api) => {
 			if (!item || item.type !== 'ObjectExpression') {
 				set(j, simplified.item, j.objectExpression([
 					j.property('init', j.identifier('tcgplayer'), j.literal(expansion))
-				]), 'thirdParty')
+				]), 'thirdParty', { override: true })
 			} else {
-				set(j, item, j.literal(expansion), 'tcgplayer')
+				set(j, item, j.literal(expansion), 'tcgplayer', { override: true })
 			}
 		})
 		.toSource({ useTabs: true, lineTerminator: '\n' }).replace(/    /g, '	')

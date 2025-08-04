@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Rayquaza ex",
 		de: "Rayquaza ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		384,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "EX",
 
@@ -59,12 +61,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -76,9 +80,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		tcgplayer: 88642
+	}
 }
 
 export default card

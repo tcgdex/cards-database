@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Latios ex",
 		de: "Latios ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		381,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "EX",
 
@@ -61,12 +63,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
@@ -78,9 +82,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		tcgplayer: 86673
+	}
 }
 
 export default card

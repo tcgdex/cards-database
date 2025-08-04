@@ -95,7 +95,8 @@ const card: Card = {
 	stage: "VMAX",
 
 	thirdParty: {
-		cardmarket: 511915
+		cardmarket: 511915,
+		tcgplayer: 226551
 	}
 }
 

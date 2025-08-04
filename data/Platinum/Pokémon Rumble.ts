@@ -22,7 +22,8 @@ const ru1: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 1634
+		cardmarket: 1634,
+		tcgplayer: 1433
 	}
 }
 

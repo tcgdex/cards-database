@@ -102,7 +102,11 @@ const card: Card = {
 			pt: "{title}: Quando 1 dos seus Pokémon se tornar este Pokémon, cure todos os danos dele.",
 			de: "{title}: Wenn 1 deiner Pokémon zu diesem Pokémon wird, heile allen Schaden bei diesem Pokémon."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 101520
+	}
 }
 
 export default card

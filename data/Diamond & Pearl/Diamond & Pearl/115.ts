@@ -21,7 +21,8 @@ const card: Card = {
 	trainerType: "Item",
 
 	thirdParty: {
-		cardmarket: 277614
+		cardmarket: 277614,
+		tcgplayer: 89638
 	}
 }
 

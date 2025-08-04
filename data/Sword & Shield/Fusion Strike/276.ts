@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Hideki Ishikawa",
 
 	thirdParty: {
-		cardmarket: 582974
+		cardmarket: 582974,
+		tcgplayer: 253277
 	}
 }
 

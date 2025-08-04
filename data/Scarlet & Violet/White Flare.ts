@@ -23,6 +23,10 @@ const set: Set = {
 
 	abbreviations: {
 		official: "WHT"
+	},
+
+	thirdParty: {
+		tcgplayer: 24326
 	}
 }
 

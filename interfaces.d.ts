@@ -82,6 +82,7 @@ export interface Set {
 
 	thirdParty?: {
 		cardmarket?: number
+		tcgplayer?: number
 	}
 }
 

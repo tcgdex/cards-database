@@ -107,7 +107,8 @@ const card: Card = {
 	dexId: [832],
 
 	thirdParty: {
-		cardmarket: 436864
+		cardmarket: 436864,
+		tcgplayer: 208476
 	}
 }
 

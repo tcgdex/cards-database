@@ -28,7 +28,8 @@ const sm2: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 1800
+		cardmarket: 1800,
+		tcgplayer: 1919
 	}
 }
 

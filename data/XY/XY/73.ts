@@ -105,7 +105,8 @@ const card: Card = {
 	retreat: 1,
 
 	thirdParty: {
-		cardmarket: 281410
+		cardmarket: 281410,
+		tcgplayer: 90756
 	}
 }
 

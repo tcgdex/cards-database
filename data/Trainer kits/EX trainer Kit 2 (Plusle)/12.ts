@@ -9,10 +9,13 @@ const card: Card = {
 	illustrator: "",
 	rarity: "None",
 	category: "Energy",
-
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
+
+	thirdParty: {
+		tcgplayer: 88420
+	}
 }
 
 export default card
