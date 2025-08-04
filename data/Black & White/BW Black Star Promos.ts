@@ -27,7 +27,7 @@ const bwp: Set = {
 	},
 
 	thirdParty: {
-		tcgplauer: 1407
+		tcgplayer: 1407
 	}
 }
 
