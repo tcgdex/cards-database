@@ -7,8 +7,8 @@ import type { Query } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { betterSorter, checkLanguage, unique } from '../../util'
 import { getAllCards, findOneCard, findCards, toBrief } from '../Components/Card'
+import { getAllSets, findOneSet, findSets, setToBrief } from '../Components/Set'
 import Serie from '../Components/Serie'
-import TCGSet from '../Components/Set'
 
 type CustomRequest = Request & {
 	/**
@@ -86,13 +86,13 @@ server
 		// biome-ignore lint/style/noNonNullAssertion: <explanation>
 		const query: Query = req.advQuery!
 
-		let data: Array<SDKCard | TCGSet | Serie> = []
+		let data: Array<SDKCard | any | Serie> = []
 		switch (what.toLowerCase()) {
 			case 'card':
 				data = await findCards(lang, query)
 				break
 			case 'set':
-				data = TCGSet.find(lang, query)
+				data = findSets(lang, query)
 				break
 			case 'serie':
 				data = Serie.find(lang, query)
@@ -153,9 +153,7 @@ server
 						'serie.name': tmp
 					}]
 				}
-				result = TCGSet
-					.find(lang, query)
-					.map((c) => c.resume())
+				result = await findSets(lang, query).map(setToBrief)
 				break
 			}
 			case 'series':
@@ -234,9 +232,9 @@ server
 				break
 
 			case 'sets':
-				result = TCGSet.findOne(lang, { id })?.full()
+				result = await findOneset(lang, { id })
 				if (!result) {
-					result = TCGSet.findOne(lang, { name: id })?.full()
+					result = await findOneset(lang, { name: id })
 				}
 				break
 

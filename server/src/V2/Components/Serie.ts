@@ -1,7 +1,7 @@
 import { objectLoop } from '@dzeio/object-util'
 import type { Serie as SDKSerie, SerieResume, SupportedLanguages } from '@tcgdex/sdk'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
-import TCGSet from './Set'
+import { findOneSet } from './Set'
 
 import de from '../../../generated/de/series.json'
 import en from '../../../generated/en/series.json'
@@ -64,8 +64,8 @@ export default class Serie implements LocalSerie {
 		})
 	}
 
-	public sets(): Array<TCGSet> {
-		return this.serie.sets.map((s) => TCGSet.findOne(this.lang, { id: s.id }) as TCGSet)
+	public async sets(): Array<TCGSet> {
+		return Promise.all(this.serie.sets.map((s) => findOneSet(this.lang, { id: s.id })))
 	}
 
 	public static getAll(lang: SupportedLanguages): Array<SDKSerie> {

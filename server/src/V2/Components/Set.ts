@@ -44,78 +44,43 @@ export const sets = {
 	'zh-cn': zhcn,
 } as const
 
-interface variants {
-	normal?: boolean;
-	reverse?: boolean;
-	holo?: boolean;
-	firstEdition?: boolean;
+type MappedSet = any // (typeof en)[number]
+
+export async function getAllSets(lang: SupportedLanguages): Promise<Array<SDKSet>> {
+	return Promise.all((sets[lang] as Array<MappedSet>).map(transformSet))
 }
 
-type LocalSet = {serie: () => Serie, cards: () => Array<Card>} & Omit<SDKSet, 'serie' | 'cards'>
-
-export default class Set implements LocalSet {
-
-	public constructor(
-		private lang: SupportedLanguages,
-		private set: SDKSet
-	) {
-		objectLoop(set, (it, key) => {
-			if (key === 'serie' || key === 'cards') {
-				return
-			}
-			this[key as 'tcgOnline'] = it as string
-		})
+async function transformSet(set: MappedSet): Promise<SDKSet> {
+	return {
+		...objectOmit(card, 'thirdParty'),
+		// pricing: {
+		// 	cardmarket: await getCardMarketPrice(card),
+		// 	tcgplayer: await getTCGPlayerPrice(card)
+		// }
 	}
+}
 
-	tcgOnline?: string | undefined
-	variants?: variants | undefined
-	releaseDate!: string
-	legal!: { standard: boolean; expanded: boolean }
-	cardCount!: { total: number; official: number; normal: number; reverse: number; holo: number; firstEd?: number | undefined }
-	id!: string
-	name!: string
-	logo?: string | undefined
-	symbol?: string | undefined
+export async function findSets(lang: SupportedLanguages, query: Query<SDKSet>) {
+	return executeQuery(await getAllSets(lang), query).data
+}
 
-	public serie(): Serie {
-		return Serie.findOne(this.lang, { id: this.set.serie.id }) as Serie
+export async function findOneSet(lang: SupportedLanguages, query: Query<SDKSet>) {
+	const res = await findSets(lang, query)
+	if (res.length === 0) {
+		return undefined
 	}
+	return res[0]
+}
 
-	public cards(): Array<Card> {
-		return this.set.cards.map((s) => findOneCard(this.lang, { id: s.id }) as Card)
-	}
-
-	public static getAll(lang: SupportedLanguages): Array<SDKSet> {
-		return sets[lang]
-	}
-
-	public static find(lang: SupportedLanguages, query: Query<SDKSet>) {
-		return executeQuery(Set.getAll(lang), query).data.map((it) => new Set(lang, it))
-	}
-
-	public static findOne(lang: SupportedLanguages, query: Query<SDKSet>) {
-		const res = Set.find(lang, query)
-		if (res.length === 0) {
-			return undefined
-		}
-		return res[0]
-	}
-
-	public resume(): SetResume {
-		return {
-			id: this.id,
-			name: this.name,
-			logo: this.logo,
-			symbol: this.symbol,
-			cardCount: {
-				total: this.cardCount.total,
-				official: this.cardCount.official
-			}
+export function setToBrief(set: SDKSet): SetResume {
+	return {
+		id: set.id,
+		name: set.name,
+		logo: set.logo,
+		symbol: set.symbol,
+		cardCount: {
+			total: set.cardCount.total,
+			official: set.cardCount.official
 		}
 	}
-
-	public full(): SDKSet {
-		return this.set
-	}
-
 }
