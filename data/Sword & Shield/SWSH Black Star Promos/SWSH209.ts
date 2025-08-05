@@ -59,6 +59,10 @@ const card: Card = {
 
 	description: {
 		en: "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis."
+	},
+
+	thirdParty: {
+		cardmarket: 659061
 	}
 }
 

@@ -27,6 +27,7 @@ const xyp: Set = {
 	},
 
 	thirdParty: {
+		cardmarket: 1612,
 		tcgplayer: 1451
 	}
 }

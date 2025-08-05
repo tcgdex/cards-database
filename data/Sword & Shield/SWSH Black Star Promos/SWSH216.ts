@@ -17,7 +17,11 @@ const card: Card = {
 	category: "Pokemon",
 	suffix: "V",
 	retreat: 0,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 651353
+	}
 }
 
 export default card

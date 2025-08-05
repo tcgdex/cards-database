@@ -22,7 +22,8 @@ const swshp: Set = {
 	releaseDate: "2019-11-15",
 
 	thirdParty: {
-		tcgplayer: 2545
+		tcgplayer: 2545,
+		cardmarket: 2916
 	}
 }
 

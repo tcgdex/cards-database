@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		en: "Some say that Magnezone receives signals from space via the antenna on its head and that it's being controlled by some mysterious being."
+	},
+
+	thirdParty: {
+		cardmarket: 611339
 	}
 }
 

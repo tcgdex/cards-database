@@ -52,6 +52,10 @@ const card: Card = {
 
 	description: {
 		en: "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger."
+	},
+
+	thirdParty: {
+		cardmarket: 664337
 	}
 }
 

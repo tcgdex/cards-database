@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind."
+	},
+
+	thirdParty: {
+		cardmarket: 681799
 	}
 }
 

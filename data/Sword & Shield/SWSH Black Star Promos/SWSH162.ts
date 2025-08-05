@@ -81,7 +81,11 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
-	retreat: 0
+	retreat: 0,
+
+	thirdParty: {
+		cardmarket: 572159
+	}
 }
 
 export default card

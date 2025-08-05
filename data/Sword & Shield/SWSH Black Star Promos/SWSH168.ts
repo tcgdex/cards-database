@@ -68,6 +68,10 @@ const card: Card = {
 
 	description: {
 		en: "This Oricorio has drunk red nectar. If its Trainer gives the wrong order, this passionate Pokémon becomes fiercely angry."
+	},
+
+	thirdParty: {
+		cardmarket: 580165
 	}
 }
 

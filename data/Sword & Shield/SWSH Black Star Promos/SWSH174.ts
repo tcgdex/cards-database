@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "It unleashes psychic power from the orb on its forehead. When its power is exhausted, the orb grows dull and dark."
+	},
+
+	thirdParty: {
+		cardmarket: 583201
 	}
 }
 

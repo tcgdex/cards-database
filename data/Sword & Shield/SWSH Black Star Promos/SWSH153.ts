@@ -48,6 +48,10 @@ const card: Card = {
 
 	description: {
 		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
+	},
+
+	thirdParty: {
+		cardmarket: 461594
 	}
 }
 

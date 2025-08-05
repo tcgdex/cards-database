@@ -13,7 +13,11 @@ const set: Set = {
 	cardCount: {
 		official: 76
 	},
-	releaseDate: '2020-07-10'
+	releaseDate: '2020-07-10',
+
+	thirdParty: {
+		cardmarket: 3387
+	}
 }
 
 export default set

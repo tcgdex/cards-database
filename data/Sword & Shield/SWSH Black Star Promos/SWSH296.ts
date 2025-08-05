@@ -25,7 +25,11 @@ const card: Card = {
 		en: "Once during each player's turn, if that player has 6 Pokémon in play, he or she may heal 10 damage from each of his or her Pokémon.\n\nOnce during each player's turn, if that player has 6 Pokémon in play, he or she may heal 10 damage from each of his or her Pokémon."
 	},
 
-	trainerType: "Stadium"
+	trainerType: "Stadium",
+
+	thirdParty: {
+		cardmarket: 671798
+	}
 }
 
 export default card

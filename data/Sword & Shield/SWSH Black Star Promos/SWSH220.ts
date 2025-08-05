@@ -48,6 +48,10 @@ const card: Card = {
 
 	description: {
 		en: "Flies noiselessly on delicate wings. It has mastered the art of deftly launching dagger-sharp feathers from those same wings."
+	},
+
+	thirdParty: {
+		cardmarket: 609466
 	}
 }
 

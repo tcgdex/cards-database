@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Machamp EX",
 		fr: "Mackogneur EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		68,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "EX",
 
@@ -40,6 +42,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -49,8 +52,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 289558
+	}
 }
 
 export default card

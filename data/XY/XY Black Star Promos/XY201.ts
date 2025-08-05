@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Sharpedo Spirit Link",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Common",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
-
-
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 311400
+	}
 }
 
 export default card

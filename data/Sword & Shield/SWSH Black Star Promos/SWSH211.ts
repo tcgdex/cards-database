@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "There's a Galarian fairy tale that describes a beautiful Sylveon vanquishing a dreadful dragon Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 609461
 	}
 }
 

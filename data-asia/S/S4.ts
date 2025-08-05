@@ -17,6 +17,10 @@ const set: Set = {
 	releaseDate: {
 		ja: '2020-09-18',
 		'zh-tw': '2020-10-09'
+	},
+
+	thirdParty: {
+		cardmarket: 3479
 	}
 }
 
