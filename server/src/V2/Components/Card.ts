@@ -53,11 +53,17 @@ export async function getAllCards(lang: SupportedLanguages): Promise<Array<SDKCa
 }
 
 async function transformCard(card: MappedCard): Promise<SDKCard> {
+	console.time('cardmarket')
+	const cardmarket = await getCardMarketPrice(card)
+	console.timeEnd('cardmarket')
+	console.time('tcgplayer')
+	const tcgplayer = await getTCGPlayerPrice(card)
+	console.timeEnd('tcgplayer')
 	return {
 		...objectOmit(card, 'thirdParty'),
 		pricing: {
-			cardmarket: await getCardMarketPrice(card),
-			tcgplayer: await getTCGPlayerPrice(card)
+			cardmarket: cardmarket,
+			tcgplayer: tcgplayer
 		}
 	}
 }

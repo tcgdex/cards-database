@@ -1,7 +1,7 @@
 import { objectKeys, objectLoop, objectMap } from '@dzeio/object-util'
 import express from 'express'
-import Serie from './V2/Components/Serie'
-import Set from './V2/Components/Set'
+import * as Serie from './V2/Components/Serie'
+import * as Set from './V2/Components/Set'
 
 import de from '../generated/de/stats.json'
 import en from '../generated/en/stats.json'

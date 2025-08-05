@@ -7,8 +7,8 @@ import type { Query } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { betterSorter, checkLanguage, unique } from '../../util'
 import { getAllCards, findOneCard, findCards, toBrief } from '../Components/Card'
-import { getAllSets, findOneSet, findSets, setToBrief } from '../Components/Set'
-import Serie from '../Components/Serie'
+import { findOneSet, findSets, setToBrief } from '../Components/Set'
+import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
 
 type CustomRequest = Request & {
 	/**
@@ -86,16 +86,16 @@ server
 		// biome-ignore lint/style/noNonNullAssertion: <explanation>
 		const query: Query = req.advQuery!
 
-		let data: Array<SDKCard | any | Serie> = []
+		let data: Array<SDKCard | any> = []
 		switch (what.toLowerCase()) {
 			case 'card':
 				data = await findCards(lang, query)
 				break
 			case 'set':
-				data = findSets(lang, query)
+				data = await findSets(lang, query)
 				break
 			case 'serie':
-				data = Serie.find(lang, query)
+				data = await findSeries(lang, query)
 				break
 			default:
 				sendError(Errors.NOT_FOUND, res, { details: `You can only run random requests on "card", "set" or "serie" while you did on "${what}"` })
@@ -153,13 +153,12 @@ server
 						'serie.name': tmp
 					}]
 				}
-				result = await findSets(lang, query).map(setToBrief)
+				result = (await findSets(lang, query)).map(setToBrief)
 				break
 			}
 			case 'series':
-				result = Serie
-					.find(lang, query)
-					.map((c) => c.resume())
+				result = (await findSeries(lang, query))
+					.map(serieToBrief)
 				break
 			case 'categories':
 			case "energy-types":
@@ -210,6 +209,7 @@ server
 	 * ex: /v2/en/cards/base1-1
 	 */
 	.get('/:lang/:endpoint/:id', async (req: CustomRequest, res) => {
+		console.time('request')
 		let { id, lang, endpoint } = req.params
 
 		if (id.endsWith('.json')) {
@@ -232,16 +232,16 @@ server
 				break
 
 			case 'sets':
-				result = await findOneset(lang, { id })
+				result = await findOneSet(lang, { id })
 				if (!result) {
-					result = await findOneset(lang, { name: id })
+					result = await findOneSet(lang, { name: id })
 				}
 				break
 
 			case 'series':
-				result = Serie.findOne(lang, { id })?.full()
+				result = await findOneSerie(lang, { id })
 				if (!result) {
-					result = Serie.findOne(lang, { name: id })?.full()
+					result = await findOneSerie(lang, { name: id })
 				}
 				break
 			case 'dex-ids': {
@@ -263,6 +263,8 @@ server
 						.map(toBrief)
 				}
 		}
+
+		console.timeEnd('request')
 		if (!result) {
 			sendError(Errors.NOT_FOUND, res)
 			return

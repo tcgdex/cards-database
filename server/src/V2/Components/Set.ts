@@ -1,8 +1,6 @@
-import { objectLoop } from '@dzeio/object-util'
 import type { Set as SDKSet, SetResume, SupportedLanguages } from '@tcgdex/sdk'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
-import { findOneCard, type Card } from './Card'
-import Serie from './Serie'
+import { objectOmit } from '@dzeio/object-util'
 
 import de from '../../../generated/de/sets.json'
 import en from '../../../generated/en/sets.json'
@@ -52,7 +50,7 @@ export async function getAllSets(lang: SupportedLanguages): Promise<Array<SDKSet
 
 async function transformSet(set: MappedSet): Promise<SDKSet> {
 	return {
-		...objectOmit(card, 'thirdParty'),
+		...objectOmit(set, 'thirdParty'),
 		// pricing: {
 		// 	cardmarket: await getCardMarketPrice(card),
 		// 	tcgplayer: await getTCGPlayerPrice(card)

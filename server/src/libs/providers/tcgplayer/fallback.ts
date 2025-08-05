@@ -43,8 +43,14 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 		.map((it) => it!.thirdParty!.tcgplayer)
 
 	for (const product of products) {
-		const data = await fetch(`https://tcgcsv.com/tcgplayer/3/${product}/prices`)
-			.then((res) => res.json() as Promise<Root>)
+		const res = await fetch(`https://tcgcsv.com/tcgplayer/3/${product}/prices`)
+
+		if (res.status >= 400) {
+			console.warn(`couldn\'t load TCGplayer datas for ${product} :(` + await res.text())
+			continue
+		}
+
+		const data = await res.json()
 
 		// console.log('data:', data)
 		for (const item of data.results) {
