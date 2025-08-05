@@ -17,9 +17,8 @@ export interface Result {
 	subTypeName: 'Normal' | 'Reverse Holofoil' | 'Holofoil'
 }
 
+let cache: Record<number, Record<string, Result>> = {}
 let lastFetch: Date | undefined = undefined
-let variantsCache: Map<number, Array<Result['subTypeName']>> = new Map()
-let dataCache: Map<`${number}-${Result['subTypeName']}`, Result> = new Map()
 let lastUpdate: Date | undefined = undefined
 export async function updateTCGPlayerDatas(): Promise<boolean> {
 
@@ -52,14 +51,13 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 
 		const data = await res.json()
 
-		// console.log('data:', data)
 		for (const item of data.results) {
-			dataCache.set(`${item.productId}-${item.subTypeName}`, item)
-			const variants = variantsCache.get(item.productId) ?? []
-			if (!variants.includes(item.subTypeName)) {
-				variants.push(item.subTypeName)
-				variantsCache.set(item.productId, variants)
+			const cacheItem = cache[item.productId] ?? {}
+
+			if (!(item.subTypeName in cacheItem)) {
+				cacheItem[variantMapping[item.subTypeName] ?? item.subTypeName] = objectOmit(item, 'productId', 'subTypeName')
 			}
+			cache[item.productId] = cacheItem
 		}
 	}
 
@@ -69,11 +67,11 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 	return true
 }
 
-const variantMapping = {
+const variantMapping: Record<string, string> = {
 	Normal: 'normal',
 	'Reverse Holofoil': 'reverse',
 	'Holofoil': 'holo'
-} as const satisfies Record<Result['subTypeName'], string>
+}
 
 export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number } }): Promise<{
 	unit: 'USD',
@@ -85,23 +83,14 @@ export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number
 	if (!lastFetch || typeof card.thirdParty?.tcgplayer !== 'number') {
 		return null
 	}
-	const variants = variantsCache.get(card.thirdParty.tcgplayer!)
+	const variants = cache[card.thirdParty.tcgplayer!]
 	if (!variants) {
 		return null
 	}
 	const res: NonNullable<Awaited<ReturnType<typeof getTCGPlayerPrice>>> = {
 		updated: (lastUpdate ?? lastFetch).toISOString(),
-		unit: 'USD'
+		unit: 'USD',
+		...variants
 	}
-	for (const variant of variants) {
-		const input = dataCache.get(`${card.thirdParty!.tcgplayer}-${variant}`)
-		if (!input) {
-			continue
-		}
-		res[variantMapping[variant] as 'normal'] = objectOmit(input, 'productId', 'subTypeName')
-	}
-	// if (!input) {
-	// 	return null
-	// }
 	return res
 }

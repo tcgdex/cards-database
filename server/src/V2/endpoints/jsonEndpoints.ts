@@ -6,7 +6,7 @@ import { Errors, sendError } from '../../libs/Errors'
 import type { Query } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { betterSorter, checkLanguage, unique } from '../../util'
-import { getAllCards, findOneCard, findCards, toBrief } from '../Components/Card'
+import { getAllCards, findOneCard, findCards, toBrief, getCardById } from '../Components/Card'
 import { findOneSet, findSets, setToBrief } from '../Components/Set'
 import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
 
@@ -209,7 +209,7 @@ server
 	 * ex: /v2/en/cards/base1-1
 	 */
 	.get('/:lang/:endpoint/:id', async (req: CustomRequest, res) => {
-		console.time('request')
+		// console.time('request')
 		let { id, lang, endpoint } = req.params
 
 		if (id.endsWith('.json')) {
@@ -225,10 +225,12 @@ server
 		let result: unknown
 		switch (endpoint) {
 			case 'cards':
-				result = await findOneCard(lang, { id })
+				// console.time('card')
+				result = await getCardById(lang, id)
 				if (!result) {
 					result = await findOneCard(lang, { name: id })
 				}
+				// console.timeEnd('card')
 				break
 
 			case 'sets':
@@ -264,7 +266,7 @@ server
 				}
 		}
 
-		console.timeEnd('request')
+		// console.timeEnd('request')
 		if (!result) {
 			sendError(Errors.NOT_FOUND, res)
 			return

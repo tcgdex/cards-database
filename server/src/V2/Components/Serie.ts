@@ -20,7 +20,6 @@ import th from '../../../generated/th/series.json'
 import zhcn from '../../../generated/zh-cn/series.json'
 import zhtw from '../../../generated/zh-tw/series.json'
 
-
 const series = {
 	en: en,
 	fr: fr,
