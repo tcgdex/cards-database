@@ -89,6 +89,11 @@ export async function getAllCards(lang: SupportedLanguages): Promise<Array<SDKCa
 	return Promise.all((cards[lang] as Array<MappedCard>).map((it) => loadCard(lang, it.id)))
 }
 
+export function getCompiledCard(lang: SupportedLanguages, id: string): any {
+	const key = `${id}${lang}`
+	return list[key]
+}
+
 /**
  * Function that do the hard work of loading the card with the external processors
  *

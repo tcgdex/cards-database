@@ -1,61 +1,16 @@
 import { objectOmit } from '@dzeio/object-util'
 import { sets } from '../../../V2/Components/Set'
+import TCGPlayer from './TCGPlayer'
+import list from './product-skus.mapping.json'
 
-export interface Root {
-	success: boolean
-	errors: any[]
-	results: Result[]
-}
+const tcgplayer = new TCGPlayer()
 
-export interface Result {
-	productId: number
-	lowPrice: number
-	midPrice: number
-	highPrice: number
-	marketPrice?: number
-	directLowPrice?: number
-	subTypeName: 'Normal' | 'Reverse Holofoil' | 'Holofoil'
-}
-
-
-interface BearerResponse {
-	access_token: string
-	token_type: 'bearer'
-	expires_in: number
-	userName: string
-	'.issues': string
-	'.expires': string
-}
-
-let bearer: BearerResponse & { expires: Date } | undefined = undefined
-
-async function getToken() {
-	if (typeof bearer === 'undefined' || bearer.expires < new Date()) {
-		const now = new Date()
-		const res = await fetch('https://api.tcgplayer.com/token', {
-			method: 'POST',
-			headers: {
-				'User-Agent': 'TCG-Collection'
-			},
-			body: new URLSearchParams({
-				'grant_type': 'client_credentials',
-				'client_id': process.env.TCGPLAYER_CLIENT_ID!,
-				'client_secret': process.env.TCGPLAYER_CLIENT_SECRET!
-			})
-		}).then((it) => it.json())
-		bearer = res
-		now.setTime(now.getTime() + bearer!.expires_in)
-		bearer!.expires = now
-	}
-
-	return bearer?.access_token
-}
+type Result = Awaited<ReturnType<typeof TCGPlayer['prototype']['price']['groupProduct']>>
 
 let cache: Record<number, Record<string, Result>> = {}
 let lastFetch: Date | undefined = undefined
 export async function updateTCGPlayerDatas(): Promise<boolean> {
 
-	const token = await getToken()
 
 	// only fetch at max, once an hour
 	if (lastFetch && lastFetch.getTime() > new Date().getTime() - 3600000) {
@@ -67,14 +22,16 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 		.map((it) => it!.thirdParty!.tcgplayer)
 
 	for (const product of products) {
-		const data = await fetch(`https://api.tcgplayer.com/pricing/group/${product}`, {
-			headers: {
-				'accept': 'application/json',
-				'User-Agent': process.env.TCGPLAYER_CLIENT_NAME!,
-				'Authorization': `bearer ${token}`
-			}
-		})
-			.then((res) => res.json() as Promise<Root>)
+		if (!product) {
+			continue
+		}
+		let data: Awaited<ReturnType<typeof TCGPlayer['prototype']['price']['groupProduct']>>
+		try {
+			data = await tcgplayer.price.groupProduct(product)
+		} catch {
+			continue
+		}
+
 		for (const item of data.results) {
 			const cacheItem = cache[item.productId] ?? {}
 
@@ -116,4 +73,16 @@ export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number
 		...variants
 	}
 	return res
+}
+
+export async function listSKUs(card: { thirdParty: { tcgplayer?: number }}): Promise<any> {
+	if (!card.thirdParty.tcgplayer) {
+		return null
+	}
+	const skus: any = list[card.thirdParty.tcgplayer]
+	const res = await tcgplayer.price.listForSKUs(skus.map((it) => it.sku))
+	return res.results.map((it) => ({
+		...objectOmit(it, 'skuId'),
+		...skus.find((sku) => sku.sku === it.skuId)
+	}))
 }

@@ -50,8 +50,10 @@ if (cluster.isPrimary) {
 	// fetch cardmarket data
 	void updateDatas()
 		.then(() => console.log('loaded cardmarket datas'))
+		.catch((err) => console.error('error loading cardmarket', err))
 	void updateTCGPlayerDatas()
 		.then(() => console.log('loaded TCGPlayer datas'))
+		.catch((err) => console.error('error loading TCGPlayer', err))
 
 	// Init Express server
 	const server = express()
