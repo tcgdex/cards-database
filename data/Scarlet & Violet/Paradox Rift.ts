@@ -24,6 +24,11 @@ const set: Set = {
 	abbreviations: {
 		official: "PAR",
 		fr: "FAP"
+	},
+
+	thirdParty: {
+		cardmarket: 5444,
+		tcgplayer: 23286
 	}
 }
 

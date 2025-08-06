@@ -58,6 +58,11 @@ const card: Card = {
 
 	description: {
 		en: "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago."
+	},
+
+	thirdParty: {
+		cardmarket: 457938,
+		tcgplayer: 213193
 	}
 }
 

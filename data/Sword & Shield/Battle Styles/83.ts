@@ -61,6 +61,11 @@ const card: Card = {
 
 	description: {
 		en: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight."
+	},
+
+	thirdParty: {
+		cardmarket: 545526,
+		tcgplayer: 234260
 	}
 }
 

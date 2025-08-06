@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Repórter Televisivo",
 		de: "TV-Reporter"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 3 cartes. Ensuite, défaussez une carte de votre main. Si votre deck ne contient aucune carte, vous ne pouvez pas jouer cette carte.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Compre 3 cartas. Em seguida, descarte 1 carta da sua mão. Se você não tiver nenhuma carta no seu baralho, não poderá jogar esta carta.",
 		de: "Ziehe 3 Karten. Lege anschließend 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 361386,
+		tcgplayer: 171010
+	}
 }
 
 export default card

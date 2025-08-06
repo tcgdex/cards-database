@@ -7,21 +7,24 @@ const card: Card = {
 		fr: "Deoxys ex",
 		de: "Deoxys ex"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		386,
 	],
+
 	hp: 110,
+
 	types: [
 		"Psychic",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -65,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 84770,
+		cardmarket: 276500
+	}
 }
 
 export default card

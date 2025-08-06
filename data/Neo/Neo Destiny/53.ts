@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il se défend en battant des ailes à toute vitesse, libérant une poudre empoisonnée dans les airs."
+	},
+
+	thirdParty: {
+		cardmarket: 274705,
+		tcgplayer: 86752
 	}
 }
 

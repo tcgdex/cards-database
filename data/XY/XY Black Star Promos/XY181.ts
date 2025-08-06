@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Crobat BREAK",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		169,
 	],
+
 	hp: 160,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Crobat",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -41,11 +45,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 295170
+	}
 }
 
 export default card

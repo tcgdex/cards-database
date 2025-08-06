@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch."
+	},
+
+	thirdParty: {
+		cardmarket: 567109,
+		tcgplayer: 241682
 	}
 }
 

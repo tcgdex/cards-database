@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Koffing",
 		fr: "Smogo",
 	},
+
 	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		109,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,6 +38,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -45,8 +48,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 394762,
+		tcgplayer: 197672
+	}
 }
 
 export default card

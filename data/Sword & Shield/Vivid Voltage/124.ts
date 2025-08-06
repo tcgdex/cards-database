@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [598],
+
 	name: {
 		en: "Ferrothorn",
 		fr: "Noacier",
@@ -85,6 +86,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone."
+	},
+
+	thirdParty: {
+		cardmarket: 512330,
+		tcgplayer: 226578
 	}
 }
 

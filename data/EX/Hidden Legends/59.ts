@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Hericendre",
 		de: "Feurigel"
 	},
+
 	illustrator: "Ken Ikuji",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		155,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -67,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276133,
+		tcgplayer: 84549
+	}
 }
 
 export default card

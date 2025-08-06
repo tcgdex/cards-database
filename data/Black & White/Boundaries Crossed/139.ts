@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Parede de Cristal",
 		de: "Kristallschild"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si cette carte est attachée à Kyurem Noir-EX, ses PV maximum sont de 300.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se esse card estiver ligado a Kyurem Preto-EX, seu PS máximo será 300.",
 		de: "Wenn diese Karte an ein Schwarzes Kyurem-EX angelegt ist, verfügt es über 300 Grund-KP."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 280726,
+		tcgplayer: 84522
+	}
 }
 
 export default card

@@ -97,7 +97,12 @@ const card: Card = {
 		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
 	},
 
-	dexId: [828]
+	dexId: [828],
+
+	thirdParty: {
+		cardmarket: 436739,
+		tcgplayer: 208437
+	}
 }
 
 export default card

@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Darkrai",
 		de: "Darkrai"
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		491,
 	],
+
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		fr: "Niveau Sup",
 	},
+
 	stage: "LEVEL-UP",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -60,22 +66,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277905,
+		tcgplayer: 84711
+	}
 }
 
 export default card

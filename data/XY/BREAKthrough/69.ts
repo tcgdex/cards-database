@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Kirlia",
 		de: "Kirlia"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		281,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Ralts",
 		fr: "Tarsal",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Ralts",
 		de: "Trasla"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286315,
+		tcgplayer: 107188
+	}
 }
 
 export default card

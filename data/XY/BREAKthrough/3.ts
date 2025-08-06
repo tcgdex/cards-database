@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Pinsir",
 		de: "Pinsir"
 	},
+
 	illustrator: "Satoshi Shirai",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		127,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -76,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -85,8 +88,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 286249,
+		tcgplayer: 107122
+	}
 }
 
 export default card

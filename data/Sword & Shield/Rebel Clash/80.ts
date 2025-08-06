@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [561],
+
 	name: {
 		en: "Sigilyph",
 		fr: "Cryptéro",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries."
+	},
+
+	thirdParty: {
+		cardmarket: 457818,
+		tcgplayer: 213166
 	}
 }
 

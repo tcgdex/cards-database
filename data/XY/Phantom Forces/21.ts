@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Jellicent",
 		de: "Apoquallyp"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		593,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Frillish",
 		fr: "Viskuse",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Frillish",
 		de: "Quabbel"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281825,
+		tcgplayer: 94154
+	}
 }
 
 export default card

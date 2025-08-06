@@ -88,7 +88,11 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 546986
+	}
 }
 
 export default card

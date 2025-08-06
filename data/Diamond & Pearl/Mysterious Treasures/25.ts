@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il gèle l'humidité de l'air pour former une armure de glace protectrice autour de son corps."
+	},
+
+	thirdParty: {
+		cardmarket: 277654,
+		tcgplayer: 85755
 	}
 }
 

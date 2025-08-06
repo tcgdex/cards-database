@@ -100,6 +100,11 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking."
+	},
+
+	thirdParty: {
+		cardmarket: 436359,
+		tcgplayer: 208340
 	}
 }
 

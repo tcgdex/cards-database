@@ -80,7 +80,12 @@ const card: Card = {
 		en: "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads."
 	},
 
-	dexId: [343]
+	dexId: [343],
+
+	thirdParty: {
+		cardmarket: 436624,
+		tcgplayer: 208411
+	}
 }
 
 export default card

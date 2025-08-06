@@ -66,6 +66,10 @@ const card: Card = {
 
 	description: {
 		en: "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
+	},
+
+	thirdParty: {
+		cardmarket: 539763
 	}
 }
 

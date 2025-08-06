@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Roucarnage δ",
 		de: "Tauboss"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		18,
 	],
+
 	hp: 100,
+
 	types: [
 		"Lightning",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Pidgeotto",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,12 +67,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -74,9 +82,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276984
+	}
 }
 
 export default card

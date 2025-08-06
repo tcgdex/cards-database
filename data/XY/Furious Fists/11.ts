@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Magmortar",
 		de: "Magbrant"
 	},
+
 	illustrator: "PLANETA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		467,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Magmar",
 		fr: "Magmar",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Magmar",
 		de: "Magmar"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -93,8 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281675,
+		tcgplayer: 92182
+	}
 }
 
 export default card

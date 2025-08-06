@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [618],
+
 	name: {
 		en: "Galarian Stunfisk",
 		fr: "Limonde de Galar",
@@ -100,6 +101,11 @@ const card: Card = {
 
 	description: {
 		en: "Living in mud with a high iron content has given it a strong steel body."
+	},
+
+	thirdParty: {
+		cardmarket: 512335,
+		tcgplayer: 226579
 	}
 }
 

@@ -16,6 +16,11 @@ const card: Card = {
 	effect: {
 		fr: "Mélangez 2 des autres cartes de votre main avec votre deck pour piocher une carte.",
 		de: "Mische 2 Karten aus Deiner Hand in Deinen Stapel."
+	},
+
+	thirdParty: {
+		cardmarket: 273778,
+		tcgplayer: 42429
 	}
 }
 

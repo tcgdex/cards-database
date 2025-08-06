@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Superpoção",
 		de: "Supertrank"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez 60 dégâts à l'un de vos Pokémon. Dans ce cas, défaussez une Énergie attachée au Pokémon choisi.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cure 60 de danos de 1 dos seus Pokémon. Se fizer isso, descarte uma Energia ligada àquele Pokémon.",
 		de: "Heile 60 Schadenspunkte bei 1 deiner Pokémon. Wenn du das machst, lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 293449,
+		tcgplayer: 124100
+	}
 }
 
 export default card

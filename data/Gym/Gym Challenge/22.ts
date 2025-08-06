@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Brock's Dugtrio",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		51,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Diglett",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -51,12 +55,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -64,9 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274290,
+		tcgplayer: 83962
+	}
 }
 
 export default card

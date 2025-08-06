@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Beedrill",
 		de: "Bibor G"
 	},
+
 	illustrator: "Wataru Kawahara",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		15,
 	],
@@ -20,7 +21,6 @@ const card: Card = {
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -65,8 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278925,
+		tcgplayer: 83776
+	}
 }
 
 export default card

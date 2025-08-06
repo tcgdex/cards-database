@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [632],
+
 	name: {
 		en: "Durant",
 		fr: "Fermite",
@@ -90,6 +91,11 @@ const card: Card = {
 
 	description: {
 		en: "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles."
+	},
+
+	thirdParty: {
+		cardmarket: 458058,
+		tcgplayer: 213228
 	}
 }
 

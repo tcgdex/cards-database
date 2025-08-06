@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cheren",
 		de: "Cheren"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 3 cartes.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Compre 3 cards.",
 		de: "Ziehe 3 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 280735,
+		tcgplayer: 84250
+	}
 }
 
 export default card

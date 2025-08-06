@@ -25,6 +25,10 @@ const set: Set = {
 	abbreviations: {
 		official: "DRI",
 		fr: "RVD"
+	},
+
+	thirdParty: {
+		tcgplayer: 24269
 	}
 }
 

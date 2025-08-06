@@ -48,6 +48,10 @@ const card: Card = {
 
 	description: {
 		en: "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow."
+	},
+
+	thirdParty: {
+		cardmarket: 606599
 	}
 }
 

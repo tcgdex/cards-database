@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Cresselia",
 		de: "Cresselia"
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		488,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		fr: "Niveau Sup",
 	},
+
 	stage: "LEVEL-UP",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -60,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -69,8 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277904,
+		tcgplayer: 84472
+	}
 }
 
 export default card

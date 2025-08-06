@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [871],
+
 	name: {
 		en: "Pincurchin",
 		fr: "Wattapik",
@@ -93,6 +94,11 @@ const card: Card = {
 
 	description: {
 		en: "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines."
+	},
+
+	thirdParty: {
+		cardmarket: 483199,
+		tcgplayer: 219421
 	}
 }
 

@@ -79,7 +79,11 @@ const card: Card = {
 		damage: 160
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	thirdParty: {
+		cardmarket: 576736
+	}
 }
 
 export default card

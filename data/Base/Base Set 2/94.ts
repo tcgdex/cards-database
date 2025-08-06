@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Starmie",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		121,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Staryu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -53,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -60,10 +65,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274017,
+		tcgplayer: 42545
+	}
 }
 
 export default card

@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Solgaleo GX",
 		de: "Solgaleo GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		791,
 	],
+
 	hp: 250,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -98,22 +104,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 295400,
+		tcgplayer: 127015
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Cacturne",
 		de: "Noktuska"
 	},
+
 	illustrator: "match",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		332,
 	],
+
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Cacnea",
 		fr: "Cacnea",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Cacnea",
 		de: "Tuska"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,22 +87,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286334,
+		tcgplayer: 107207
+	}
 }
 
 export default card

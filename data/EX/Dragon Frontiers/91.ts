@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Dracolosse ex δ",
 		de: "Dragoran ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		149,
 	],
+
 	hp: 150,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Dragonair",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -65,11 +69,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 277296
+	}
 }
 
 export default card

@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est adoré comme un dieu de la forêt. Il n'apparaît que dans des forêts anciennes et paisibles."
+	},
+
+	thirdParty: {
+		cardmarket: 274758,
+		tcgplayer: 89162
 	}
 }
 

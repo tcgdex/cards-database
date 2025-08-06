@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Tropius",
 		de: "Tropius"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		357,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -82,10 +87,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 90058,
+		cardmarket: 276430
+	}
 }
 
 export default card

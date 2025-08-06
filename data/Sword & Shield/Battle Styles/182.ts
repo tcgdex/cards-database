@@ -34,7 +34,12 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 546101,
+		tcgplayer: 234107
+	}
 }
 
 export default card

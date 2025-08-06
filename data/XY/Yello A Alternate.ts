@@ -18,7 +18,11 @@ const xya: Set = {
 		official: 6
 	},
 
-	releaseDate: "2014-02-05"
+	releaseDate: "2014-02-05",
+
+	thirdParty: {
+		tcgplayer: 1938
+	}
 }
 
 export default xya

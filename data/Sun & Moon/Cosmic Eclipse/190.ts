@@ -10,10 +10,10 @@ const card: Card = {
 		pt: "Dragonium Z: Garra de Dragão",
 		de: "Dracium Z: Drachenklaue"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
 
 	attacks: [{
@@ -39,8 +39,13 @@ const card: Card = {
 		pt: "",
 		de: ""
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 408564,
+		tcgplayer: 201649
+	}
 }
 
 export default card

@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Absol",
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		359,
 	],
+
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
@@ -31,6 +34,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,12 +52,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -61,9 +67,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 289720
+	}
 }
 
 export default card

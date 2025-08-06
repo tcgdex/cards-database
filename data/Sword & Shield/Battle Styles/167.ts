@@ -80,7 +80,12 @@ const card: Card = {
 		de: "Fokussierter-Angriff-Wulaosu-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 527655,
+		tcgplayer: 234086
+	}
 }
 
 export default card

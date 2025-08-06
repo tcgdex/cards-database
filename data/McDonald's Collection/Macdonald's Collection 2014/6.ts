@@ -20,7 +20,11 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],
-	stage: "Basic"
+	stage: "Basic",
+
+	thirdParty: {
+		tcgplayer: 110411
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Excursionista",
 		de: "Urlauberin"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous pouvez défausser autant de cartes que vous voulez de votre main. Ensuite, piochez des cartes jusqu’à ce que vous ayez 5 cartes en main. Si vous ne pouvez pas piocher de carte de cette façon, vous ne pouvez pas jouer cette carte.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você pode descartar qualquer número de cartas da sua mão. Em seguida, compre cartas até ter 5 cartas na sua mão. Se não puder comprar nenhuma carta desta forma, não poderá jogar esta carta.",
 		de: "Du kannst beliebig viele Karten aus deiner Hand auf deinen Ablagestapel legen. Ziehe anschließend so lang Karten, bis du 5 Karten auf deiner Hand hast. Wenn du auf diese Weise keine Karten ziehen kannst, kannst du diese Karte nicht spielen."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 365823,
+		tcgplayer: 179025
+	}
 }
 
 export default card

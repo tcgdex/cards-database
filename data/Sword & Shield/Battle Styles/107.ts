@@ -98,6 +98,11 @@ const card: Card = {
 
 	description: {
 		en: "Once upon a time, a king with an Aegislash reigned over the land. His Pokémon eventually drained him of life, and his kingdom fell with him."
+	},
+
+	thirdParty: {
+		cardmarket: 545616,
+		tcgplayer: 234167
 	}
 }
 

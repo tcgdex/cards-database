@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il possède une botte secrète dévastatrice. Il frotte sa fourrure de flamme pour provoquer de gigantesques explosions."
+	},
+
+	thirdParty: {
+		cardmarket: 274417,
+		tcgplayer: 90099
 	}
 }
 

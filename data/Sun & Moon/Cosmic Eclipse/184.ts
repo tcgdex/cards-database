@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Silvally GX",
 		de: "Amigento GX"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		773,
 	],
+
 	hp: 210,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Type: Null",
 		fr: "Type:0",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -98,6 +104,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -107,8 +114,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 408544,
+		tcgplayer: 201306
+	}
 }
 
 export default card

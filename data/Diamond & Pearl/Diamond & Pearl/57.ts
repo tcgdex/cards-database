@@ -85,6 +85,11 @@ const card: Card = {
 
 	description: {
 		fr: "Le son de sa flûte d'herbe déstabilise l'auditeur. Il vit au plus profond des forêts."
+	},
+
+	thirdParty: {
+		cardmarket: 277556,
+		tcgplayer: 87825
 	}
 }
 

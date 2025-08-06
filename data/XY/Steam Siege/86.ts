@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Hydreigon",
 		de: "Trikephalo"
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		635,
 	],
+
 	hp: 150,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Zweilous",
 		fr: "Diamat",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Zweilous",
 		de: "Duodino"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -93,8 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 291547,
+		tcgplayer: 121212
+	}
 }
 
 export default card

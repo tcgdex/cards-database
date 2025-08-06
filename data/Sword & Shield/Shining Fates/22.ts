@@ -53,6 +53,11 @@ const card: Card = {
 
 	description: {
 		en: "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on."
+	},
+
+	thirdParty: {
+		cardmarket: 539133,
+		tcgplayer: 232418
 	}
 }
 

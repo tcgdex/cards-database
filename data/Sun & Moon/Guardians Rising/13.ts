@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Chandelure",
 		de: "Skelabra"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		609,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Lampent",
 		fr: "Mélancolux",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -74,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -83,8 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 297477,
+		tcgplayer: 130759
+	}
 }
 
 export default card

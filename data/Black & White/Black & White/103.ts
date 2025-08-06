@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Super Colherada",
 		de: "Super-Anziehungskraft"
 	},
+
 	illustrator: "Daisuke Iwamoto",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, placez l’un de vos Pokémon ainsi que toutes les cartes qui lui sont attachées dans votre main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Jogue uma moeda. Se sair cara, coloque 1 dos seus Pokémon e todos os cards ligados a ele em sua mão.",
 		de: "Wirf 1 Münze. Nimm bei „Kopf“ 1 deiner Pokémon und alle daran angelegten Karten zurück auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 279841,
+		tcgplayer: 89641
+	}
 }
 
 export default card

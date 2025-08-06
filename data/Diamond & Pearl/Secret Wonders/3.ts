@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Dracaufeu",
 		de: "Glurak"
 	},
+
 	illustrator: "Daisuke Ito",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charmeleon",
 		fr: "Reptincel",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -62,22 +68,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "+40"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 277756,
+		tcgplayer: 84189
+	}
 }
 
 export default card

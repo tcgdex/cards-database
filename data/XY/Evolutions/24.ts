@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Poliwhirl",
 		de: "Quaputzi"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		61,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Poliwag",
 		fr: "Ptitard",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Poliwag",
 		de: "Quapsel"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -93,8 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 293380,
+		tcgplayer: 124037
+	}
 }
 
 export default card

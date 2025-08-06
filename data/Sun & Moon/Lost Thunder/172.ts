@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Eletropoder",
 		de: "Elektrokraft"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Pendant ce tour, les attaques de vos Pokémon Lightning infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Durante esta rodada, os ataques dos seus Pokémon Lightning causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		de: "Während dieses Zuges fügen die Attacken deiner Lightning-Pokémon dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 365808,
+		tcgplayer: 178999
+	}
 }
 
 export default card

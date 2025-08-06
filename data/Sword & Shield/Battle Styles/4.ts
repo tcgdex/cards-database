@@ -65,6 +65,11 @@ const card: Card = {
 
 	description: {
 		en: "It prefers harsh environments such as deserts. It can survive for 30 days on water stored in its body."
+	},
+
+	thirdParty: {
+		cardmarket: 544916,
+		tcgplayer: 234040
 	}
 }
 

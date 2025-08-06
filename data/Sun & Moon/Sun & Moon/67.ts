@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Makuhita",
 		de: "Makuhita"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		296,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -77,8 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 295378,
+		tcgplayer: 126938
+	}
 }
 
 export default card

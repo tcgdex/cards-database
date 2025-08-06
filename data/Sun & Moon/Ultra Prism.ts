@@ -25,6 +25,11 @@ const sm5: Set = {
 	abbreviations: {
 		official: "UPR",
 		fr: "UPR"
+	},
+
+	thirdParty: {
+		cardmarket: 2065,
+		tcgplayer: 2178
 	}
 }
 

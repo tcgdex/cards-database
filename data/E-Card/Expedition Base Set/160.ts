@@ -7,25 +7,18 @@ const card: Card = {
 		fr: "Énergie Combat",
 		de: "Kampfenergie"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 275035,
+		tcgplayer: 85437
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [134],
+
 	name: {
 		en: "Vaporeon",
 		fr: "Aquali",
@@ -94,6 +95,11 @@ const card: Card = {
 
 	description: {
 		en: "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours."
+	},
+
+	thirdParty: {
+		cardmarket: 511570,
+		tcgplayer: 226405
 	}
 }
 

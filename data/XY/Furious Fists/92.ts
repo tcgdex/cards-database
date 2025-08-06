@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pesquisador de Fósseis",
 		de: "Fossilforscher"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez une combinaison de jusqu'à 2 Amagara ou Ptyranidur dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure em seu baralho até 2 Amaura ou Tyrunt em qualquer combinação e coloque-os em seu Banco. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 2 Amarino oder Balgoras und lege sie auf deine Bank. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 281756,
+		tcgplayer: 92273
+	}
 }
 
 export default card

@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Zygarde",
 		de: "Zygarde"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		718,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,6 +75,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -80,8 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 327207,
+		tcgplayer: 165723
+	}
 }
 
 export default card

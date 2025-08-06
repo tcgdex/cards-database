@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [516],
+
 	name: {
 		en: "Simipour",
 		fr: "Flotoutan",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail."
+	},
+
+	thirdParty: {
+		cardmarket: 483089,
+		tcgplayer: 219338
 	}
 }
 

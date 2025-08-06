@@ -29,7 +29,12 @@ const card: Card = {
 		effect: {
 			de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Wurzelfossil."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 277063,
+		tcgplayer: 88812
+	}
 }
 
 export default card

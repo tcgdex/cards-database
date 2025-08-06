@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Retirez tous les marqueurs de dégâts de tous vos propres Pokémon ayant des marqueurs de dégâts sur eux, puis défaussez toutes les cartes Énergie attachées à ces Pokémon.",
 		de: "Entferne alle auf Deinem Pokémon abgelegten Schadensmarken. Entferne dann alle auf diesem Pokémon abgelegten Energiekarten."
+	},
+
+	thirdParty: {
+		cardmarket: 273780
 	}
 }
 

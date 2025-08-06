@@ -16,6 +16,11 @@ const card: Card = {
 
 	effect: {
 		de: "Damage done to the Pokémon Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). If the Pokémon Metal Energy is attached to isn't , whenever it damages a Pokémon, reduce that damage by 10 (before applying Weakness and Resistance).\nMetal Energy provides  Energy. (Doesn't count as a basic Energy card.)"
+	},
+
+	thirdParty: {
+		cardmarket: 274419,
+		tcgplayer: 87368
 	}
 }
 

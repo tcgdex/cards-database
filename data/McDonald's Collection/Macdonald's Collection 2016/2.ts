@@ -28,7 +28,11 @@ const card: Card = {
 		en: "Torchic"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275058
+	}
 }
 
 export default card

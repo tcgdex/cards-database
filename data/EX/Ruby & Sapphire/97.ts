@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Elektek ex",
 		de: "Elektek ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		125,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
-
 
 	suffix: "EX",
 
@@ -60,12 +62,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -73,9 +77,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275745,
+		tcgplayer: 85120
+	}
 }
 
 export default card

@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Tengalice",
 		de: "Tengulist"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		275,
 	],
+
 	hp: 110,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Nuzleaf",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -78,12 +84,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -91,9 +99,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276889,
+		tcgplayer: 89156
+	}
 }
 
 export default card

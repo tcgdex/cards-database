@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Zygarde",
 		fr: "Zygarde",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		718,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -66,8 +69,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 290102
+	}
 }
 
 export default card

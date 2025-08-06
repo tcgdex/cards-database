@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bola Estima",
 		de: "Jubelball"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez un Pokémon-GX dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure por 1 Pokémon-GX no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach 1 Pokémon-GX, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 388742,
+		tcgplayer: 195226
+	}
 }
 
 export default card

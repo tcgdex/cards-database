@@ -76,7 +76,11 @@ const card: Card = {
 
 	hp: 180,
 	types: ["Psychic"],
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 576733
+	}
 }
 
 export default card

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Dynavolt",
 		de: "Frizelbliz"
 	},
+
 	illustrator: "Hiroki Fuchino",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		309,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -66,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 85133,
+		cardmarket: 276462
+	}
 }
 
 export default card

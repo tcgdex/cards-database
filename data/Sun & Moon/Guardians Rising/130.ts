@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Maca de Resgate",
 		de: "Rettungstrage"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez l’une de ces options :•Ajoutez un Pokémon de votre pile de défausse à votre main.•Mélangez 3 Pokémon de votre pile de défausse avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Escolha 1:• Coloque 1 Pokémon da sua pilha de descarte na sua mão.• Embaralhe 3 Pokémon da sua pilha de descarte no seu baralho.",
 		de: "Wähle 1 aus:•Nimm 1 Pokémon aus deinem Ablagestapel auf deine Hand.•Mische 3 Pokémon aus deinem Ablagestapel in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 297582,
+		tcgplayer: 131050
+	}
 }
 
 export default card

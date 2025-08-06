@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Memória Elétrica",
 		de: "Elektro-Disc"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Silvallié-GX auquel cette carte est attachée est un Pokémon Lightning.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Pokémon Silvally-GX ao qual esta carta está ligada é um Pokémon Lightning.",
 		de: "Das Amigento-GX, an das diese Karte angelegt ist, ist ein Lightning-Pokémon."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 316046,
+		tcgplayer: 157738
+	}
 }
 
 export default card

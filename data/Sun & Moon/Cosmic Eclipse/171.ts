@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Teddiursa",
 		de: "Teddiursa"
 	},
+
 	illustrator: "kodama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		216,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -70,8 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 408479,
+		tcgplayer: 201293
+	}
 }
 
 export default card

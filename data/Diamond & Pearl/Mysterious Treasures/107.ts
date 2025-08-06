@@ -55,6 +55,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il envoie des boules de feu. Avec l'âge, ses six queues en forment de nouvelles."
+	},
+
+	thirdParty: {
+		cardmarket: 277736,
+		tcgplayer: 90441
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Talonflame",
 		de: "Fiaro"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		663,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Fletchinder",
 		fr: "Braisillon",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Fletchinder",
 		de: "Dartignis"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -83,22 +87,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281811,
+		tcgplayer: 94143
+	}
 }
 
 export default card

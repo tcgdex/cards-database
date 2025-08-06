@@ -39,7 +39,11 @@ const card: Card = {
 	resistances: [{
 		type: "Fighting",
 		value: "-20"
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 152830
+	}
 }
 
 export default card

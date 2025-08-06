@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [597],
+
 	name: {
 		en: "Ferroseed",
 		fr: "Grindur",
@@ -76,6 +77,11 @@ const card: Card = {
 
 	description: {
 		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve."
+	},
+
+	thirdParty: {
+		cardmarket: 512325,
+		tcgplayer: 226577
 	}
 }
 

@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Mawile GX",
 		de: "Flunkifer GX"
 	},
+
 	illustrator: "ConceptLab",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		303,
 	],
+
 	hp: 170,
+
 	types: [
 		"Metal",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -95,22 +99,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388502,
+		tcgplayer: 195124
+	}
 }
 
 export default card

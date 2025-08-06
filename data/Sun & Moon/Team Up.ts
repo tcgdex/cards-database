@@ -25,6 +25,11 @@ const sm9: Set = {
 	abbreviations: {
 		official: "TEU",
 		fr: "DDC"
+	},
+
+	thirdParty: {
+		cardmarket: 2407,
+		tcgplayer: 2377
 	}
 }
 

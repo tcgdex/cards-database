@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Infernape",
 		de: "Panferno"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		392,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Monferno",
 		fr: "Chimpenfeu",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Monferno",
 		de: "Panpyro"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -92,8 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 291615,
+		tcgplayer: 121009
+	}
 }
 
 export default card

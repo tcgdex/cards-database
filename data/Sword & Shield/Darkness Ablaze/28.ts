@@ -95,6 +95,11 @@ const card: Card = {
 
 	description: {
 		en: "Anger has reignited its atrophied flame sac. This Pokémon spews fire everywhere as it rampages indiscriminately."
+	},
+
+	thirdParty: {
+		cardmarket: 483014,
+		tcgplayer: 219241
 	}
 }
 

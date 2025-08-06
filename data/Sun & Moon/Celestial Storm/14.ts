@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Shiftry GX",
 		de: "Tengulist GX"
 	},
+
 	illustrator: "PLANETA Igarashi",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		275,
 	],
+
 	hp: 240,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Nuzleaf",
 		fr: "Pifeuil",
@@ -103,6 +107,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -112,8 +117,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 361261,
+		tcgplayer: 170822
+	}
 }
 
 export default card

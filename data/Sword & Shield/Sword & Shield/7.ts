@@ -90,6 +90,11 @@ const card: Card = {
 
 	description: {
 		en: "With noises that could be mistaken for the rattles of maracas, it creates an upbeat rhythm, startling bird Pokémon and making them fly off in a hurry."
+	},
+
+	thirdParty: {
+		cardmarket: 436214,
+		tcgplayer: 208274
 	}
 }
 

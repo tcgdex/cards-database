@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [349],
+
 	name: {
 		en: "Feebas",
 		fr: "Barpau",
@@ -68,6 +69,11 @@ const card: Card = {
 
 	description: {
 		en: "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research."
+	},
+
+	thirdParty: {
+		cardmarket: 483064,
+		tcgplayer: 219275
 	}
 }
 

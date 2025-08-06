@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Gladio",
 		de: "Gladio"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez vos cartes Récompense (actuellement face cachée) et placez l’une d’elles dans votre main. Ensuite, mélangez ce Gladio avec les cartes Récompense qu’il vous reste et replacez-les face cachée. Si vous n’avez pas joué ce Gladio de votre main, il ne fait rien.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Olhe as suas cartas de Prêmio viradas para baixo e coloque 1 delas na sua mão. Em seguida, embaralhe este Gladio entre as suas cartas de Prêmio restantes e coloque-as de volta viradas para baixo. Se você não jogou este Gladio da sua mão, ele não fará nada.",
 		de: "Sieh dir deine verdeckten Preiskarten an und nimm 1 von ihnen auf deine Hand. Mische anschließend diese Gladio-Karte in deine verbleibenden Preiskarten und lege sie verdeckt zurück. Wenn du diese Gladio-Karte nicht aus deiner Hand gespielt hast, hat sie keine Auswirkungen."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 311942,
+		tcgplayer: 149142
+	}
 }
 
 export default card

@@ -103,7 +103,12 @@ const card: Card = {
 		en: "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago."
 	},
 
-	dexId: [344]
+	dexId: [344],
+
+	thirdParty: {
+		cardmarket: 436634,
+		tcgplayer: 208413
+	}
 }
 
 export default card

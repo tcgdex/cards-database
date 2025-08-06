@@ -102,6 +102,11 @@ const card: Card = {
 
 	description: {
 		en: "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others."
+	},
+
+	thirdParty: {
+		cardmarket: 457843,
+		tcgplayer: 213171
 	}
 }
 

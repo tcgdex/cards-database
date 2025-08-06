@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Darkrai",
 		fr: "Darkrai",
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		491,
 	],
+
 	hp: 120,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -57,22 +59,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "−20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281306
+	}
 }
 
 export default card

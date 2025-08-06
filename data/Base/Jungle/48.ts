@@ -74,6 +74,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il crache de la poudre toxik pour immobiliser sa proie et il l'achève avec de l'acide."
+	},
+
+	thirdParty: {
+		cardmarket: 273845,
+		tcgplayer: 45151
 	}
 }
 

@@ -78,7 +78,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "KIYOTAKA OSHIYAMA"
+	illustrator: "KIYOTAKA OSHIYAMA",
+
+	thirdParty: {
+		cardmarket: 702325
+	}
 }
 
 export default card

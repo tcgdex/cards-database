@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [745],
+
 	name: {
 		en: "Lycanroc",
 		fr: "Lougaroc",
@@ -92,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "The rocks in its mane are sharper than a knife. Fragments that break off are treasured as good luck charms."
+	},
+
+	thirdParty: {
+		cardmarket: 500005,
+		tcgplayer: 223022
 	}
 }
 

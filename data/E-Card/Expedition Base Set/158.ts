@@ -16,6 +16,11 @@ const card: Card = {
 
 	effect: {
 		de: "Falls das Pokémon, an das Finsternis-Energie angelegt ist, mit einem Angriff Schaden zufügt ( nachdem Schwäche und Resistenz verrechnet wurden), fügt der Angriff 10 weiter Schadenspunkte zu. Lege am Ende jedes Zugs eine Schadensmarke auf das Pokémon, an das die Finsternis-Energie angelegt ist, falls es nicht vom Typ  ist oder 'Dunkel' im Namen hat. Finsternis-Energie liefert -Energie. (Zählt nicht als Basis-Energie.)"
+	},
+
+	thirdParty: {
+		cardmarket: 275033,
+		tcgplayer: 84697
 	}
 }
 

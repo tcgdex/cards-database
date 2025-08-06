@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Exeggutor",
 		de: "Kokowei"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		103,
 	],
+
 	hp: 140,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -79,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -88,8 +93,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 388182,
+		tcgplayer: 195002
+	}
 }
 
 export default card

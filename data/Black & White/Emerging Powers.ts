@@ -25,6 +25,11 @@ const bw2: Set = {
 	abbreviations: {
 		official: "EP",
 		fr: "PEM"
+	},
+
+	thirdParty: {
+		cardmarket: 1572,
+		tcgplayer: 1424
 	}
 }
 

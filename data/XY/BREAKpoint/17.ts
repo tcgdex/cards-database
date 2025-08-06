@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Golduck",
 		de: "Entoron"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		55,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Psyduck",
 		fr: "Psykokwak",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Psyduck",
 		de: "Enton"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -85,8 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 288192,
+		tcgplayer: 111520
+	}
 }
 
 export default card

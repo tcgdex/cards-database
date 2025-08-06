@@ -16,6 +16,11 @@ const card: Card = {
 
 	effect: {
 		de: "Recycle-Energie liefert -Energie. (Zählt nicht als Basis-Energiekarte.)Falls diese Karte aus dem Spiel auf deinen Ablagestapel gelegt wird, nimm sie wiede auf deine Hand zurück."
+	},
+
+	thirdParty: {
+		cardmarket: 274505,
+		tcgplayer: 88654
 	}
 }
 

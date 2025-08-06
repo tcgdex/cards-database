@@ -57,6 +57,10 @@ const card: Card = {
 
 	description: {
 		en: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go."
+	},
+
+	thirdParty: {
+		cardmarket: 539153
 	}
 }
 

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Barbaracle",
 		de: "Thanathora"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		689,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Binacle",
 		fr: "Opermine",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -73,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -82,8 +87,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 355585,
+		tcgplayer: 165719
+	}
 }
 
 export default card

@@ -73,6 +73,10 @@ const card: Card = {
 
 	description: {
 		fr: "Ses coups de poing sont si puissants qu'ils font voler ses adversaires jusqu'à l'horizon."
+	},
+
+	thirdParty: {
+		cardmarket: 273703
 	}
 }
 

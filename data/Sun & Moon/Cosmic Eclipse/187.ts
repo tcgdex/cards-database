@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Maré Caótica",
 		de: "Öde des Chaos"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque fois qu’un des joueurs joue une carte Stade de sa main, défaussez cette carte Stade après avoir défaussé celle-ci. (La nouvelle carte Stade n’a aucun effet.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Sempre que qualquer um dos jogadores jogar uma carta de Estádio da própria mão, descarte aquela carta de Estádio após descartar esta (a nova carta de Estádio não tem efeito).",
 		de: "Wenn ein Spieler eine Stadionkarte aus seiner Hand spielt, lege jene Stadionkarte auf den Ablagestapel, nachdem du diese Karte auf den Ablagestapel gelegt hast. (Die neue Stadionkarte hat keinen Effekt.)"
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 408554,
+		tcgplayer: 201310
+	}
 }
 
 export default card

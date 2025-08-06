@@ -74,6 +74,11 @@ const card: Card = {
 
 	description: {
 		en: "Be it Spheal or a Poké Ball, it will spin any round object on its nose with the greatest of ease."
+	},
+
+	thirdParty: {
+		cardmarket: 567118,
+		tcgplayer: 241691
 	}
 }
 

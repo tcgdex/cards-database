@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Lt. Surge's Electabuzz",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		125,
 	],
+
 	hp: 60,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Elekid",
 	},
-	stage: "Basic",
 
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -51,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -58,10 +63,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274142,
+		tcgplayer: 86852
+	}
 }
 
 export default card

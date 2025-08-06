@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Malamar",
 		de: "Calamanero"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		687,
 	],
+
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Inkay",
 		fr: "Sepiatop",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Inkay",
 		de: "Iscalar"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,22 +87,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281413,
+		tcgplayer: 87137
+	}
 }
 
 export default card

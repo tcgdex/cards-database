@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Kicklee",
 		de: "Kicklee"
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		106,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -79,10 +84,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276671,
+		tcgplayer: 86105
+	}
 }
 
 export default card

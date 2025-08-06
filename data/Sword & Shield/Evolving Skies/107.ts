@@ -60,7 +60,12 @@ const card: Card = {
 		en: "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574155,
+		tcgplayer: 246907
+	}
 }
 
 export default card

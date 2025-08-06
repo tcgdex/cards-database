@@ -87,6 +87,11 @@ const card: Card = {
 
 	description: {
 		fr: "C'est un voyou qui utilise ses pinces pour chasser les autres Pokémon hors de sa mare."
+	},
+
+	thirdParty: {
+		cardmarket: 278171,
+		tcgplayer: 84464
 	}
 }
 

@@ -26,6 +26,11 @@ const dp1: Set = {
 	abbreviations: {
 		official: "DP",
 		fr: "D&P"
+	},
+
+	thirdParty: {
+		cardmarket: 1555,
+		tcgplayer: 1430
 	}
 }
 

@@ -7,25 +7,18 @@ const card: Card = {
 		fr: "Énergie Psy",
 		de: "Psychoenergie"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 274510,
+		tcgplayer: 88414
+	}
 }
 
 export default card

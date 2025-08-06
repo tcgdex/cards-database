@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Blaine's Quiz #1",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274233,
+		tcgplayer: 83879
+	}
 }
 
 export default card

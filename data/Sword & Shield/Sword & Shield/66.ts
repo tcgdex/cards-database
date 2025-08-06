@@ -90,7 +90,12 @@ const card: Card = {
 		en: "Its long tail serves as a ground to protect itself from its own high-voltage power."
 	},
 
-	dexId: [26]
+	dexId: [26],
+
+	thirdParty: {
+		cardmarket: 436464,
+		tcgplayer: 208363
+	}
 }
 
 export default card

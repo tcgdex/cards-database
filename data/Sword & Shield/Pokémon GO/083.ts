@@ -27,10 +27,16 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "F",
+
 	variants: {
 		"normal": false,
 		"reverse": false,
 		"holo": true
+	},
+
+	thirdParty: {
+		cardmarket: 664657,
+		tcgplayer: 277017
 	}
 }
 

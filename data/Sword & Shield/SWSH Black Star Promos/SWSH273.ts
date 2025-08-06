@@ -59,6 +59,10 @@ const card: Card = {
 
 	description: {
 		en: "Though it differs from other Basculin in several respects, including demeanor—this one is gentle—I have categorized it as a regional form given the vast array of shared qualities."
+	},
+
+	thirdParty: {
+		cardmarket: 684385
 	}
 }
 

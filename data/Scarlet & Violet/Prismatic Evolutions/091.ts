@@ -73,7 +73,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "PLANETA Igarashi"
+	illustrator: "PLANETA Igarashi",
+
+	thirdParty: {
+		cardmarket: 805483
+	}
 }
 
 export default card

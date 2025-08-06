@@ -5,21 +5,24 @@ const card: Card = {
 	name: {
 		en: "Torchic"
 	},
+
 	illustrator: "May Do",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		255,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
+
 	stage: "Basic",
 	retreat: 1,
-
 
 	attacks: [
 		{
@@ -51,11 +54,16 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Water"
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 605994
+	}
 }
 
 export default card

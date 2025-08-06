@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Blaine's Moltres",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		146,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -48,9 +50,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274137,
+		tcgplayer: 83875
+	}
 }
 
 export default card

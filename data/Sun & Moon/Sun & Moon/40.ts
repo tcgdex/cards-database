@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Brionne",
 		de: "Marikeck"
 	},
+
 	illustrator: "Saya Tsuruta",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		729,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Popplio",
 		fr: "Otaquin",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -73,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -82,8 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 295350,
+		tcgplayer: 126911
+	}
 }
 
 export default card

@@ -16,11 +16,17 @@ const card: Card = {
 	rarity: "Ultra Rare",
 	category: "Energy",
 	energyType: "Normal",
+
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 691876,
+		tcgplayer: 478109
 	}
 }
 

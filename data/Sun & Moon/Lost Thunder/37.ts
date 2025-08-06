@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Tapu Bulu",
 		de: "Kapu-Toro"
 	},
+
 	illustrator: "Satoshi Shirai",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		787,
 	],
+
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -77,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -86,8 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 365677,
+		tcgplayer: 178840
+	}
 }
 
 export default card

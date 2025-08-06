@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Stunfisk",
 		de: "Flunschlik"
 	},
+
 	illustrator: "sowsow",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		618,
 	],
+
 	hp: 110,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -75,22 +77,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 372347,
+		tcgplayer: 189155
+	}
 }
 
 export default card

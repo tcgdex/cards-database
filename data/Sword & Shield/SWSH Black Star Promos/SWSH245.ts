@@ -39,6 +39,10 @@ const card: Card = {
 
 	description: {
 		en: "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot."
+	},
+
+	thirdParty: {
+		cardmarket: 665988
 	}
 }
 

@@ -88,7 +88,12 @@ const card: Card = {
 		de: "Victini-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545016,
+		tcgplayer: 234080
+	}
 }
 
 export default card

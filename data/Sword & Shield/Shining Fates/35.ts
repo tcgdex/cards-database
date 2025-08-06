@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity."
+	},
+
+	thirdParty: {
+		cardmarket: 539198,
+		tcgplayer: 232468
 	}
 }
 

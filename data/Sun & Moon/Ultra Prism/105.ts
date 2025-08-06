@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Eevee",
 		de: "Evoli"
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		133,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,8 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 316030,
+		tcgplayer: 157722
+	}
 }
 
 export default card

@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Gastly",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		92,
 	],
+
 	hp: 30,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,9 +58,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 273998,
+		tcgplayer: 42495
+	}
 }
 
 export default card

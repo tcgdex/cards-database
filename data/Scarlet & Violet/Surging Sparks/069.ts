@@ -63,7 +63,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Nurikabe"
+	illustrator: "Nurikabe",
+
+	thirdParty: {
+		cardmarket: 794352
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Poção Máxima",
 		de: "Top-Trank"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez tous les dégâts de l’un de vos Pokémon. Ensuite, défaussez toutes les Énergies attachées au Pokémon choisi.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cure todos os danos de 1 dos seus Pokémon. Em seguida, descarte toda a Energia ligada a este Pokémon.",
 		de: "Heile allen Schaden bei 1 deiner Pokémon. Lege alle Energien, die an das Pokémon angelegt sind, auf deinen Ablagestapel."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280059,
+		tcgplayer: 87266
+	}
 }
 
 export default card

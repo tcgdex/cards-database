@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Bunnelby",
 		de: "Scoppel"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		659,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -54,8 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 311934,
+		tcgplayer: 149112
+	}
 }
 
 export default card

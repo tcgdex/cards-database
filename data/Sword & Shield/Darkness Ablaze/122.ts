@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [305],
+
 	name: {
 		en: "Lairon",
 		fr: "Galegon",
@@ -104,6 +105,11 @@ const card: Card = {
 
 	description: {
 		en: "It habitually shows off its strength with the sparks it creates by ramming its steel body into boulders."
+	},
+
+	thirdParty: {
+		cardmarket: 483489,
+		tcgplayer: 219380
 	}
 }
 

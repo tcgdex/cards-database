@@ -74,6 +74,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est censé apporter la joie. Ce Pokémon charitable offre ses œufs aux blessés."
+	},
+
+	thirdParty: {
+		cardmarket: 277705,
+		tcgplayer: 84175
 	}
 }
 

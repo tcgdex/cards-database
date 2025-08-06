@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Armaldo δ",
 		de: "Armaldo"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		348,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Anorith",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -72,10 +77,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276971
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [212],
+
 	name: {
 		en: "Scizor",
 		fr: "Cizayox",
@@ -107,6 +108,11 @@ const card: Card = {
 
 	description: {
 		en: "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there's nothing left but scraps."
+	},
+
+	thirdParty: {
+		cardmarket: 458038,
+		tcgplayer: 213224
 	}
 }
 

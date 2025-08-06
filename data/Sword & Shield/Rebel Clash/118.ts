@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [569],
+
 	name: {
 		en: "Garbodor",
 		fr: "Miasmax",
@@ -91,6 +92,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten."
+	},
+
+	thirdParty: {
+		cardmarket: 457998,
+		tcgplayer: 213210
 	}
 }
 

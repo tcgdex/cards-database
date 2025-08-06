@@ -68,7 +68,12 @@ const card: Card = {
 		en: "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574172,
+		tcgplayer: 246923
+	}
 }
 
 export default card

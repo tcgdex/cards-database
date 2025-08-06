@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [375],
+
 	name: {
 		en: "Metang",
 		fr: "Métang",
@@ -97,6 +98,11 @@ const card: Card = {
 
 	description: {
 		en: "It flies at high speeds around the skies. When it finds its prey, Metang takes a firm grip with its sharp claws and never lets go."
+	},
+
+	thirdParty: {
+		cardmarket: 512295,
+		tcgplayer: 226571
 	}
 }
 

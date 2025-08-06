@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Hippowdon",
 		de: "Hippoterus"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		450,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Hippopotas",
 		fr: "Hippopotas",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Hippopotas",
 		de: "Hippopotas"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -86,6 +90,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -95,8 +100,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 273619,
+		tcgplayer: 95986
+	}
 }
 
 export default card

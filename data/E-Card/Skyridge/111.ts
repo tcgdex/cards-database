@@ -6,23 +6,27 @@ const card: Card = {
 		en: "Venomoth",
 		de: "Omot"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		49,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Venonat",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 			damage: 30
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -67,10 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275369,
+		tcgplayer: 90300
+	}
 }
 
 export default card

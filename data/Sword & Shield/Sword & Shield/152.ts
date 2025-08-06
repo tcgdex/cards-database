@@ -71,7 +71,12 @@ const card: Card = {
 		en: "If its fleece grows too long, Wooloo won't be able to move. Cloth made with the wool of this Pokémon is surprisingly strong."
 	},
 
-	dexId: [831]
+	dexId: [831],
+
+	thirdParty: {
+		cardmarket: 436854,
+		tcgplayer: 208473
+	}
 }
 
 export default card

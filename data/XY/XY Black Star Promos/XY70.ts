@@ -6,21 +6,24 @@ const card: Card = {
 		en: "Tyrantrum EX",
 		fr: "Rexillius EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		697,
 	],
+
 	hp: 180,
+
 	types: [
 		"Dragon",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -61,8 +66,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 289789
+	}
 }
 
 export default card

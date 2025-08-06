@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [613],
+
 	name: {
 		en: "Cubchoo",
 		fr: "Polarhume",
@@ -79,6 +80,11 @@ const card: Card = {
 
 	description: {
 		en: "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn't like."
+	},
+
+	thirdParty: {
+		cardmarket: 483074,
+		tcgplayer: 219358
 	}
 }
 

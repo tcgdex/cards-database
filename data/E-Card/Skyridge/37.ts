@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Kabuto",
 		de: "Kabuto"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		140,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -56,10 +61,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275240,
+		tcgplayer: 86379
+	}
 }
 
 export default card

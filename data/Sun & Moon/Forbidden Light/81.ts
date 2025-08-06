@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Empoleon",
 		de: "Impoleon"
 	},
+
 	illustrator: "nagimiso",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		395,
 	],
+
 	hp: 160,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Prinplup",
 		fr: "Prinplouf",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -80,22 +84,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 355595,
+		tcgplayer: 165737
+	}
 }
 
 export default card

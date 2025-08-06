@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Mawile",
 		de: "Flunkifer"
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		303,
 	],
+
 	hp: 80,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -74,22 +76,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 311912,
+		tcgplayer: 149087
+	}
 }
 
 export default card

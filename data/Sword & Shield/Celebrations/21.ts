@@ -99,7 +99,12 @@ const card: Card = {
 		en: "In writings from the distant past, it's called by the name \"the beast that devours the sun.\""
 	},
 
-	dexId: [791]
+	dexId: [791],
+
+	thirdParty: {
+		cardmarket: 576766,
+		tcgplayer: 250316
+	}
 }
 
 export default card

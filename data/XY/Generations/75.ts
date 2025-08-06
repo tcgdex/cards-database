@@ -6,25 +6,18 @@ const card: Card = {
 		en: "Grass Energy",
 		fr: "Énergie Grass de base",
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 288412,
+		tcgplayer: 113733
+	}
 }
 
 export default card

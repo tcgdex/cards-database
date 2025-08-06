@@ -23,6 +23,11 @@ const dp5: Set = {
 	abbreviations: {
 		official: "MD",
 		fr: "AMJ"
+	},
+
+	thirdParty: {
+		cardmarket: 1559,
+		tcgplayer: 1390
 	}
 }
 

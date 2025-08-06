@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il peut modeler l'espace. Les mythes de Sinnoh en parlent comme d'une divinité ancienne."
+	},
+
+	thirdParty: {
+		cardmarket: 277510,
+		tcgplayer: 87906
 	}
 }
 

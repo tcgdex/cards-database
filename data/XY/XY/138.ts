@@ -10,22 +10,17 @@ const card: Card = {
 		pt: "Energia de Escuridão",
 		de: "Finsternis-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 281475,
+		tcgplayer: 84681
+	}
 }
 
 export default card

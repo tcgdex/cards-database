@@ -85,6 +85,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps est dur comme la pierre souterraine. Il file comme une fusée en expulsant des gaz."
+	},
+
+	thirdParty: {
+		cardmarket: 278345,
+		tcgplayer: 88452
 	}
 }
 

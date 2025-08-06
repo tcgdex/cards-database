@@ -76,7 +76,12 @@ const card: Card = {
 		en: "As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly solid."
 	},
 
-	dexId: [790]
+	dexId: [790],
+
+	thirdParty: {
+		cardmarket: 576759,
+		tcgplayer: 250297
+	}
 }
 
 export default card

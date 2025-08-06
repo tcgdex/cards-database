@@ -10,21 +10,17 @@ const card: Card = {
 		pt: "Energia de Raios",
 		de: "Elektro-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 281472,
+		tcgplayer: 86784
+	}
 }
 
 export default card

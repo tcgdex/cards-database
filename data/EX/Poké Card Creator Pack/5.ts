@@ -5,21 +5,24 @@ const card: Card = {
 	name: {
 		en: "Pikachu"
 	},
+
 	illustrator: "Sylvia Forrest",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		25,
 	],
+
 	hp: 60,
+
 	types: [
 		"Lightning",
 	],
+
 	stage: "Basic",
 	retreat: 1,
-
 
 	attacks: [
 		{
@@ -51,11 +54,16 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting"
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 605996
+	}
 }
 
 export default card

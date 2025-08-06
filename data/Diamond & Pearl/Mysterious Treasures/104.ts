@@ -53,6 +53,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il semble patiner sur l'eau. Le parfum diffusé par le sommet de sa tête sert à attirer ses proies."
+	},
+
+	thirdParty: {
+		cardmarket: 277733,
+		tcgplayer: 89650
 	}
 }
 

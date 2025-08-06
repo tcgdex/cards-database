@@ -83,7 +83,12 @@ const card: Card = {
 		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574185,
+		tcgplayer: 246859
+	}
 }
 
 export default card

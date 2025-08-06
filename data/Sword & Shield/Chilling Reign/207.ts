@@ -68,7 +68,12 @@ const card: Card = {
 		de: "Galar-Laschoking-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567208,
+		tcgplayer: 241774
+	}
 }
 
 export default card

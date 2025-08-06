@@ -93,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too."
+	},
+
+	thirdParty: {
+		cardmarket: 511630,
+		tcgplayer: 226427
 	}
 }
 

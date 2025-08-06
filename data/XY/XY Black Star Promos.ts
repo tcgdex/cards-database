@@ -24,6 +24,11 @@ const xyp: Set = {
 	abbreviations: {
 		official: 'XYP',
 		fr: "PXY"
+	},
+
+	thirdParty: {
+		cardmarket: 1612,
+		tcgplayer: 1451
 	}
 }
 

@@ -73,7 +73,12 @@ const card: Card = {
 		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574179,
+		tcgplayer: 246847
+	}
 }
 
 export default card

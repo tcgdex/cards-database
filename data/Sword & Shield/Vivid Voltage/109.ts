@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [553],
+
 	name: {
 		en: "Krookodile",
 		fr: "Crocorible",
@@ -104,6 +105,11 @@ const card: Card = {
 
 	description: {
 		en: "It conceals itself in sandstorms that Flygon whip up and waits patiently for prey to appear."
+	},
+
+	thirdParty: {
+		cardmarket: 511965,
+		tcgplayer: 226562
 	}
 }
 

@@ -70,6 +70,11 @@ const card: Card = {
 
 	description: {
 		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
+	},
+
+	thirdParty: {
+		cardmarket: 567217,
+		tcgplayer: 241784
 	}
 }
 

@@ -41,7 +41,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Yuu Nishida"
+	illustrator: "Yuu Nishida",
+
+	thirdParty: {
+		cardmarket: 785922
+	}
 }
 
 export default card

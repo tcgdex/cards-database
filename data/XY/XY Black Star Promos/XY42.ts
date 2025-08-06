@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Groudon EX",
 		fr: "Groudon EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		383,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "EX",
 
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -64,8 +67,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 289705
+	}
 }
 
 export default card

@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Krookodile EX",
 		fr: "Crocorible EX",
 	},
+
 	illustrator: "PLANETA",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		553,
 	],
+
 	hp: 180,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "EX",
 
@@ -59,22 +61,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "−20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281308
+	}
 }
 
 export default card

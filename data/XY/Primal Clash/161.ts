@@ -24,6 +24,11 @@ const card: Card = {
 		it: "Cerca nel tuo mazzo un Pokémon Water, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure um Pokémon Water em seu baralho, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach 1 Water-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+	},
+
+	thirdParty: {
+		cardmarket: 273656,
+		tcgplayer: 96059
 	}
 }
 

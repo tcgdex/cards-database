@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "La force herculéenne du Machopeur est très dangereuse. Il utilise une ceinture pour contenir son énergie."
+	},
+
+	thirdParty: {
+		cardmarket: 277552,
+		tcgplayer: 86981
 	}
 }
 

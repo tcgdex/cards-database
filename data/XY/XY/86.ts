@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Aegislash",
 		de: "Durengard"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		681,
 	],
+
 	hp: 140,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Doublade",
 		fr: "Dimoclès",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Doublade",
 		de: "Duokles"
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -81,22 +87,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281422,
+		tcgplayer: 83463
+	}
 }
 
 export default card

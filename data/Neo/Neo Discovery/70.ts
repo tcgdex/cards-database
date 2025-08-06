@@ -56,6 +56,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son dard empoisonné est très puissant. Son corps de couleur criarde est conçu pour repousser ses ennemis."
+	},
+
+	thirdParty: {
+		cardmarket: 274581,
+		tcgplayer: 90538
 	}
 }
 

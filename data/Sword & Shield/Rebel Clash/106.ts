@@ -86,6 +86,11 @@ const card: Card = {
 
 	description: {
 		en: "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region."
+	},
+
+	thirdParty: {
+		cardmarket: 457943,
+		tcgplayer: 213194
 	}
 }
 

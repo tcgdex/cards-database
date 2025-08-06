@@ -25,6 +25,11 @@ const swsh1: Set = {
 	abbreviations: {
 		official: "SSH",
 		fr: "E&B"
+	},
+
+	thirdParty: {
+		cardmarket: 2921,
+		tcgplayer: 2585
 	}
 }
 

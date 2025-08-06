@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Cresselia",
 		de: "Cresselia"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		488,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -79,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -88,8 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 388242,
+		tcgplayer: 195019
+	}
 }
 
 export default card

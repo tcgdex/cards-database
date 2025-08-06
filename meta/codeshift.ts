@@ -1,5 +1,8 @@
 import { ArrayExpression, Identifier, JSCodeshift, Literal, ObjectExpression, Property, Transform } from "jscodeshift"
+import expansionsJSON from '../products_nonsingles_6.json'
+import cardsJSON from '../products_singles_6.json'
 import pathUtils from 'path/posix'
+
 interface ObjectField {
 	type: 'Object'
 	items: Record<string, Field>
@@ -130,10 +133,27 @@ const transformer: Transform = (file, api) => {
 			if (index !== 0) return
 			const filename = pathUtils.basename(file.path, '.ts')
 			let simplified = simplify(path.node)
+			const name = simplified.items.name.items.en?.item?.value
+			if (!name) return
 
-			rename(simplified.item, 'abbrevation', 'abbreviations')
+			// console.log(setName)
 
-			// set(j, simplified.item, j.objectExpression([j.property('init', j.identifier('fr'), j.literal(abbr))]), 'abbrevation')
+			const expansion = expansionsJSON.products.find((it) => it.name.startsWith(name))
+				?.idExpansion
+			if (!expansion) {
+				return
+			}
+
+			set(j, simplified.item, j.objectExpression([
+				j.property('init', j.identifier('cardmarket'), j.literal(expansion))
+			]), 'thirdParty')
+
+
+			// rename(simplified.item, 'abbrevation', 'abbreviations')
+
+			// set(j, simplified.item, j.objectExpression([
+			// 	j.property('init', j.identifier('fr'), j.literal(abbr))
+			// ]), 'abbrevation')
 			// set(j, simplified.item, j.literal('a'), 's.official')
 
 			// Example remove field
@@ -142,18 +162,18 @@ const transformer: Transform = (file, api) => {
 			// Example Set/Add regulationMArk to cards
 			// set(j, name.items.fr, j.literal('D'), 'regulationMark')
 			// console.log(filename)
-			const ids = [
-				5,6,8,11,12,13,14,17,22,23,25,26,27,28,29,30,31,32,33,34,37,41,43,44,45,46,49,51,54,56,57,58,59,60,64,65,70,73,75,76,78,80,82,91,92,116,117,119,128,129
-			]
-			const id = parseInt(filename)
-			const isHolo = ids.includes(id) || id >= 131
-			const isNormal = !isHolo
-			if (isHolo) {
-				set(j, simplified.items.variants.item as ObjectExpression, j.literal(true), 'holo')
-				set(j, simplified.items.variants.item as ObjectExpression, j.literal(false), 'normal')
-			} else {
-				remove(simplified.item, 'variants')
-			}
+			// const ids = [
+			// 	5,6,8,11,12,13,14,17,22,23,25,26,27,28,29,30,31,32,33,34,37,41,43,44,45,46,49,51,54,56,57,58,59,60,64,65,70,73,75,76,78,80,82,91,92,116,117,119,128,129
+			// ]
+			// const id = parseInt(filename)
+			// const isHolo = ids.includes(id) || id >= 131
+			// const isNormal = !isHolo
+			// if (isHolo) {
+			// 	set(j, simplified.items.variants.item as ObjectExpression, j.literal(true), 'holo')
+			// 	set(j, simplified.items.variants.item as ObjectExpression, j.literal(false), 'normal')
+			// } else {
+			// 	remove(simplified.item, 'variants')
+			// }
 
 		})
 		.toSource({useTabs: true, lineTerminator: '\n'}).replace(/    /g, '	')

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Raticate",
 		de: "Rattikarl"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		20,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Rattata",
 		fr: "Rattata",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Rattata",
 		de: "Rattfratz"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 293420,
+		tcgplayer: 124080
+	}
 }
 
 export default card

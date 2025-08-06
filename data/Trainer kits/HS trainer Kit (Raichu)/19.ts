@@ -39,7 +39,11 @@ const card: Card = {
 		effect: {
 			en: "Discard all Energy attached to Raichu."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 88520
+	}
 }
 
 export default card

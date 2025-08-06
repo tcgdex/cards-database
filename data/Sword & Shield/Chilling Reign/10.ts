@@ -84,6 +84,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is known to bring blizzards. A shake of its massive body is enough to cause whiteout conditions."
+	},
+
+	thirdParty: {
+		cardmarket: 567090,
+		tcgplayer: 241659
 	}
 }
 

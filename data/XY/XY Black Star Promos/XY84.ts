@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Pikachu EX",
 		fr: "Pikachu EX",
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		25,
 	],
+
 	hp: 130,
+
 	types: [
 		"Lightning",
 	],
-
 
 	suffix: "EX",
 
@@ -54,22 +56,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289809
+	}
 }
 
 export default card

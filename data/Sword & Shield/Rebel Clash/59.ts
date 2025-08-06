@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [466],
+
 	name: {
 		en: "Electivire",
 		fr: "Élekable",
@@ -101,6 +102,11 @@ const card: Card = {
 
 	description: {
 		en: "A single Electivire can provide enough electricity for all the buildings in a big city for a year."
+	},
+
+	thirdParty: {
+		cardmarket: 457728,
+		tcgplayer: 213140
 	}
 }
 

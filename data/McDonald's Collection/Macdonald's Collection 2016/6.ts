@@ -32,7 +32,11 @@ const card: Card = {
 		en: "Pikachu"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275062
+	}
 }
 
 export default card

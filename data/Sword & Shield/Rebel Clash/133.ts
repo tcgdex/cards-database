@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [679],
+
 	name: {
 		en: "Honedge",
 		fr: "Monorpale",
@@ -67,6 +68,11 @@ const card: Card = {
 
 	description: {
 		en: "Honedge's soul once belonged to a person who was killed a long time ago by the sword that makes up Honedge's body."
+	},
+
+	thirdParty: {
+		cardmarket: 458063,
+		tcgplayer: 213229
 	}
 }
 

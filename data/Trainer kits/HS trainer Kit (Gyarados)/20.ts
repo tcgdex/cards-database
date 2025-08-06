@@ -35,7 +35,11 @@ const card: Card = {
 		effect: {
 			en: "Discard an Energy card attached to the Defending Pokémon."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 85997
+	}
 }
 
 export default card

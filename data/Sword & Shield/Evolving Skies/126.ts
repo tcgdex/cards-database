@@ -53,7 +53,12 @@ const card: Card = {
 		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574180,
+		tcgplayer: 246848
+	}
 }
 
 export default card

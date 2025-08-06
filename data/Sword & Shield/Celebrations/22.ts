@@ -88,7 +88,12 @@ const card: Card = {
 		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
 	},
 
-	dexId: [249]
+	dexId: [249],
+
+	thirdParty: {
+		cardmarket: 576767,
+		tcgplayer: 250317
+	}
 }
 
 export default card

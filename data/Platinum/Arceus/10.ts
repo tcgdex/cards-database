@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Tangrowth",
 		de: "Tangoloss"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		465,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Tangela",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,22 +62,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278882,
+		tcgplayer: 89753
+	}
 }
 
 export default card

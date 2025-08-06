@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Misty's Psyduck",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		54,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -46,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -55,10 +58,12 @@ const card: Card = {
 
 	variants: {
 		wPromo: true
+	},
+
+	thirdParty: {
+		cardmarket: 274190,
+		tcgplayer: 87539
 	}
-
-
-
 }
 
 export default card

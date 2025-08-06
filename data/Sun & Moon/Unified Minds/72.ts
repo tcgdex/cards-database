@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Espeon e Deoxys GX",
 		de: "Psiana & Deoxys GX"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		196,
 	],
+
 	hp: 260,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -77,6 +79,7 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -86,8 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 377508,
+		tcgplayer: 195000
+	}
 }
 
 export default card

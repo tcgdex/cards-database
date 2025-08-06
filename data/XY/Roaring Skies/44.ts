@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Togetic",
 		de: "Togetic"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		176,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Togepi",
 		fr: "Togepi",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Togepi",
 		de: "Togepi"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,22 +79,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 282712,
+		tcgplayer: 98080
+	}
 }
 
 export default card

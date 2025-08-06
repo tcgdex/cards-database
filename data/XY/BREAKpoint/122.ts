@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Skyla",
 		de: "Géraldine"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez une carte Dresseur dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure em seu baralho um card de Treinador, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach 1 Trainerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 288297,
+		tcgplayer: 111641
+	}
 }
 
 export default card

@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Vikavolt",
 		de: "Donarion"
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		738,
 	],
+
 	hp: 150,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Charjabug",
 		fr: "Chrysapile",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,22 +83,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 372349,
+		tcgplayer: 189160
+	}
 }
 
 export default card

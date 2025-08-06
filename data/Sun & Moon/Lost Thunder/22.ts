@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Sceptile GX",
 		de: "Gewaldro GX"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		254,
 	],
+
 	hp: 230,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Grovyle",
 		fr: "Massko",
@@ -100,6 +104,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -109,8 +114,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365615,
+		tcgplayer: 178821
+	}
 }
 
 export default card

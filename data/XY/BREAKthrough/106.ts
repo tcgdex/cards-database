@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Aromatisse",
 		de: "Parfinesse"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		683,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Spritzee",
 		fr: "Fluvetin",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Spritzee",
 		de: "Parfi"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -80,22 +84,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286352,
+		tcgplayer: 107225
+	}
 }
 
 export default card

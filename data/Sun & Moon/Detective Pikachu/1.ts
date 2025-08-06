@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Bulbasaur",
 		de: "Bisasam"
 	},
+
 	illustrator: "MPC Film",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		1,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -59,8 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 370766,
+		tcgplayer: 186001
+	}
 }
 
 export default card

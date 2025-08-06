@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [213],
+
 	name: {
 		en: "Shuckle",
 		fr: "Caratroc",
@@ -85,6 +86,11 @@ const card: Card = {
 
 	description: {
 		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
+	},
+
+	thirdParty: {
+		cardmarket: 511845,
+		tcgplayer: 226516
 	}
 }
 

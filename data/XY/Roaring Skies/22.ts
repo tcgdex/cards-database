@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Electrode",
 		de: "Lektrobal"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		101,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Voltorb",
 		fr: "Voltorbe",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Voltorb",
 		de: "Voltobal"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,22 +87,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 282690,
+		tcgplayer: 98058
+	}
 }
 
 export default card

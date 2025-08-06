@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Empoleon",
 		de: "Impoleon"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		395,
 	],
+
 	hp: 160,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Prinplup",
 		fr: "Prinplouf",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 407929,
+		tcgplayer: 201232
+	}
 }
 
 export default card

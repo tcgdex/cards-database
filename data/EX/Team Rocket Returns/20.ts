@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Dark Tyranitar",
 		de: "Dunkles Despotar"
 	},
+
 	illustrator: "Kyoko Koizumi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		248,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fighting",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Dark Pupitar",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276311,
+		tcgplayer: 84662
+	}
 }
 
 export default card

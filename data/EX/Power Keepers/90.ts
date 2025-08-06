@@ -16,6 +16,11 @@ const card: Card = {
 
 	effect: {
 		de: "Zyklon-Energie liefert -Energie. Wenn du Zyklon-Energie von der Hand an dein Aktives Pokémon anlegst, tausche 1 Verteidigendes Pokémon mit 1 Pokémon auf der Bank deines Gegners. Dein Gegner bestimmt, welches Pokémon auf der Bank getauscht wird."
+	},
+
+	thirdParty: {
+		cardmarket: 277396,
+		tcgplayer: 84541
 	}
 }
 

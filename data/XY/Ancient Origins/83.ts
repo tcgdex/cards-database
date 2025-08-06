@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia Lampejante",
 		de: "BlitzEnergie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ne peut être attachée qu'à un Pokémon Lightning. Cette carte ne fournit de l'Énergie Lightning que pendant qu'elle est attachée à un Pokémon Lightning.\n\nLe Pokémon Lightning auquel cette carte est attachée n'a pas de Faiblesse.\n\n(Si cette carte est attachée à autre chose qu'un Pokémon Lightning, défaussez cette carte.)",
@@ -35,7 +25,12 @@ const card: Card = {
 		de: "Diese Karte kann nur an Lightning-Pokémon angelegt werden. Diese Karte liefert nur dann Lightning-Energie, wenn sie an ein Lightning-Pokémon angelegt ist.\n\nDas Lightning-Pokémon, an das diese Karte angelegt ist, hat keine Schwäche.\n\n(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Lightning-Pokémon angelegt ist.)"
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 284264,
+		tcgplayer: 101505
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [300],
+
 	name: {
 		en: "Skitty",
 		fr: "Skitty",
@@ -85,6 +86,11 @@ const card: Card = {
 
 	description: {
 		en: "It shows its cute side by chasing its own tail until it gets dizzy."
+	},
+
+	thirdParty: {
+		cardmarket: 483584,
+		tcgplayer: 219341
 	}
 }
 

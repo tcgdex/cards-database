@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Feebas",
 		de: "Barschwa"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		349,
 	],
+
 	hp: 30,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -60,8 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 311876,
+		tcgplayer: 149047
+	}
 }
 
 export default card

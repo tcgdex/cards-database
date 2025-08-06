@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Mewtwo EX",
 		fr: "Mewtwo EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 170,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "EX",
 
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,8 +67,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289557
+	}
 }
 
 export default card

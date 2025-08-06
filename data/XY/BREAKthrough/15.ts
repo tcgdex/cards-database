@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Vivillon",
 		de: "Vivillon"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		666,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Spewpa",
 		fr: "Pérégrain",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Spewpa",
 		de: "Puponcho"
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -80,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -89,8 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286261,
+		tcgplayer: 107134
+	}
 }
 
 export default card

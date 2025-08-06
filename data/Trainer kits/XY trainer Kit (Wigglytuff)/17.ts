@@ -12,11 +12,15 @@ const card: Card = {
 		pt: "Energia de Fada",
 		de: "Feen-Energie"
 	},
-	types: ["Fairy"],
 
+	types: ["Fairy"],
 	rarity: "Common",
 	category: "Energy",
-	energyType: "Normal"
+	energyType: "Normal",
+
+	thirdParty: {
+		tcgplayer: 98186
+	}
 }
 
 export default card

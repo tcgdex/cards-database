@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Reviver",
 		de: "Beleber"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Prenez un Pokémon de base dans votre pile de défausse et placez-le sur votre Banc.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Coloque um Pokémon Básico da sua pilha de descarte no seu Banco.",
 		de: "Nimm 1 Basis-Pokémon von deinem Ablagestapel und lege es auf deine Bank."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 293447,
+		tcgplayer: 124098
+	}
 }
 
 export default card

@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Drattak ex δ",
 		de: "Brutalanda ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		373,
 	],
+
 	hp: 160,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Shelgon",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,12 +82,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fire",
@@ -93,9 +101,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 277303
+	}
 }
 
 export default card

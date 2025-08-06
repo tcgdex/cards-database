@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Rocket's Zapdos",
 	},
+
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		145,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,9 +62,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274283,
+		tcgplayer: 88800
+	}
 }
 
 export default card

@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon's tail is blade sharp, with a fantastic cutting edge that can slice right though large trees."
+	},
+
+	thirdParty: {
+		cardmarket: 604996
 	}
 }
 

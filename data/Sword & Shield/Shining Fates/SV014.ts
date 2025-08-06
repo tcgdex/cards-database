@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokémon it preys on."
+	},
+
+	thirdParty: {
+		cardmarket: 539458
 	}
 }
 

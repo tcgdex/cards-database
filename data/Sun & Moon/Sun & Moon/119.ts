@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Grande Bola",
 		de: "Superball"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 7 cartes du dessus de votre deck. Vous pouvez montrer un Pokémon que vous y trouvez et l’ajouter à votre main. Mélangez les autres cartes avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Olhe as 7 primeiras cartas do seu baralho. Você poderá revelar 1 Pokémon que encontrar lá e colocá-lo em sua mão. Embaralhe as demais cartas de volta no seu baralho.",
 		de: "Schau dir die obersten 7 Karten deines Decks an. Du kannst 1 Pokémon, das du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 295432,
+		tcgplayer: 126991
+	}
 }
 
 export default card

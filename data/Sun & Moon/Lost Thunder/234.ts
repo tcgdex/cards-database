@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bola Tela",
 		de: "Netzball"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez une carte Pokémon Grass de base ou une carte Énergie Grass dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure por 1 carta de Pokémon Grass Básico ou por 1 carta de Energia Grass no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach 1 Grass-Basis-Pokémon oder 1 Grass-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 365821,
+		tcgplayer: 179022
+	}
 }
 
 export default card

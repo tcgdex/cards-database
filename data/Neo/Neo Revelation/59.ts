@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		fr: "Quand il vole, il émet des ondes ultrasoniques pour déterminer ce qui l'entoure."
+	},
+
+	thirdParty: {
+		cardmarket: 274645,
+		tcgplayer: 90766
 	}
 }
 

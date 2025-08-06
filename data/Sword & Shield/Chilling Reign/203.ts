@@ -91,7 +91,12 @@ const card: Card = {
 		de: "Schimmelreiter-Coronospa-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567126,
+		tcgplayer: 241703
+	}
 }
 
 export default card

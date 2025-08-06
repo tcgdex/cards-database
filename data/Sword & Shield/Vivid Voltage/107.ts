@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [551],
+
 	name: {
 		en: "Sandile",
 		fr: "Mascaïman",
@@ -71,6 +72,11 @@ const card: Card = {
 
 	description: {
 		en: "Sandile's still not good at hunting, so it mostly eats things that have collapsed in the desert. It's called \"the cleaner of the desert.\""
+	},
+
+	thirdParty: {
+		cardmarket: 511955,
+		tcgplayer: 226560
 	}
 }
 

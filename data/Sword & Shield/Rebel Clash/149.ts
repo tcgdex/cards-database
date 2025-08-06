@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [759],
+
 	name: {
 		en: "Stufful",
 		fr: "Nounourson",
@@ -84,6 +85,11 @@ const card: Card = {
 
 	description: {
 		en: "Its fluffy fur is a delight to pet, but carelessly reaching out to touch this Pokémon could result in painful retaliation."
+	},
+
+	thirdParty: {
+		cardmarket: 458143,
+		tcgplayer: 213249
 	}
 }
 

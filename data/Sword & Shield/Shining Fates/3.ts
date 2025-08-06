@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		en: "It has the power to travel across time, but it is said to appear only in peaceful times."
+	},
+
+	thirdParty: {
+		cardmarket: 539038,
+		tcgplayer: 232352
 	}
 }
 

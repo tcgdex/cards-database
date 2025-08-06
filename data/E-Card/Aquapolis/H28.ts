@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Tyranocif",
 		de: "Despotar"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		248,
 	],
+
 	hp: 120,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Pupitar",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -79,12 +83,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -92,9 +98,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275071,
+		tcgplayer: 90114
+	}
 }
 
 export default card

@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Artikodin",
 		de: "Arktos"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		144,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,22 +62,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 278050,
+		tcgplayer: 83649
+	}
 }
 
 export default card

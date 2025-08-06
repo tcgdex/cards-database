@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Botas Pesadas",
 		de: "Schwere Stiefel"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Coût de Retraite du Pokémon auquel cette carte est attachée est de 3 ou plus, ajoutez 20 PV au Pokémon et ce dernier ne peut pas être Confus. (Si le Pokémon est déjà Confus, retirez cet État Spécial.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se o Custo para Recuar do Pokémon ao qual este card está ligado for de 3 ou mais, este Pokémon recebe +20 PS e não pode ficar Confuso. (Se este Pokémon estiver atualmente Confuso, remova esta Condição Especial.)",
 		de: "Wenn die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, 3 oder mehr betragen, erhält dieses Pokémon 20 zusätzliche KP. Außerdem kann es nicht verwirrt werden. (Wenn dieses Pokémon zurzeit verwirrt ist, entferne diesen Speziellen Zustand.)"
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 286387,
+		tcgplayer: 107260
+	}
 }
 
 export default card

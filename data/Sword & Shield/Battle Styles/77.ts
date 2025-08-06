@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		en: "When Mienshao lets out a bizarre wail, you're in danger. A flurry of kicks and chops too fast to see is about to be unleashed!"
+	},
+
+	thirdParty: {
+		cardmarket: 527670,
+		tcgplayer: 234253
 	}
 }
 

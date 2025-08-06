@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Slaking",
 		de: "Letarking"
 	},
+
 	illustrator: "Framestore",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		289,
 	],
+
 	hp: 180,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Vigoroth",
 		fr: "Vigoroth",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -66,8 +71,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 370780,
+		tcgplayer: 186026
+	}
 }
 
 export default card

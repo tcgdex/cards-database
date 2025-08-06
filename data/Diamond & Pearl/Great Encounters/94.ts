@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Chuchmur",
 		de: "Flurmel"
 	},
+
 	illustrator: "Takao Unno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		293,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,8 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277996,
+		tcgplayer: 90583
+	}
 }
 
 export default card

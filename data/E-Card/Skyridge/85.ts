@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Pineco",
 		de: "Tannza"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		204,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -41,6 +43,7 @@ const card: Card = {
 			damage: 20
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -48,10 +51,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275343,
+		tcgplayer: 88124
+	}
 }
 
 export default card

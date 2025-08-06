@@ -66,6 +66,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon carnivore qui se nourrit de petits insectes. Ses racines servent d'attaches."
+	},
+
+	thirdParty: {
+		cardmarket: 273846,
+		tcgplayer: 45152
 	}
 }
 

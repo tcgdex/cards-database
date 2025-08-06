@@ -50,6 +50,11 @@ const card: Card = {
 
 	description: {
 		fr: "Vivant dans les centrales, ce Pokémon survolté est souvent confondu avec une Poké Ball."
+	},
+
+	thirdParty: {
+		cardmarket: 273762,
+		tcgplayer: 42412
 	}
 }
 

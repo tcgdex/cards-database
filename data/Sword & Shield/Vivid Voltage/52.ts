@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [310],
+
 	name: {
 		en: "Manectric",
 		fr: "Élecsprint",
@@ -95,6 +96,11 @@ const card: Card = {
 
 	description: {
 		en: "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well."
+	},
+
+	thirdParty: {
+		cardmarket: 511680,
+		tcgplayer: 226448
 	}
 }
 

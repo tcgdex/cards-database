@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ses écailles très résistantes et son corps massif sont des armes dévastatrices."
+	},
+
+	thirdParty: {
+		cardmarket: 273804,
+		tcgplayer: 106985
 	}
 }
 

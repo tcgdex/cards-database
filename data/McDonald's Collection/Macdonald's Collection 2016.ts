@@ -21,6 +21,10 @@ const s2016xy: Set = {
 	abbreviations: {
 		official: "MCD16",
 		fr: "M16"
+	},
+
+	thirdParty: {
+		tcgplayer: 3087
 	}
 }
 

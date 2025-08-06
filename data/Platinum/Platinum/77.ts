@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Corboss ",
 		de: "Kramshef G"
 	},
+
 	illustrator: "Yusuke Ishikawa",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		430,
 	],
+
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
@@ -56,22 +59,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		tcgplayer: 86164
+	}
 }
 
 export default card

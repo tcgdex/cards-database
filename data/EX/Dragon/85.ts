@@ -17,6 +17,11 @@ const card: Card = {
 	effect: {
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu.\n\nChaque joueur ne paye pas de  pour faire battre en retraite ses Pokémon  et .",
 		de: "Each players pays  less to retreat his or her  and  Pokémon."
+	},
+
+	thirdParty: {
+		tcgplayer: 86076,
+		cardmarket: 275962
 	}
 }
 

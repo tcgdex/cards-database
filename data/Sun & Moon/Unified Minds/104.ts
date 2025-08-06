@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Steelix",
 		de: "Stahlos"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		208,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Onix",
 		fr: "Onix",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 388327,
+		tcgplayer: 195045
+	}
 }
 
 export default card

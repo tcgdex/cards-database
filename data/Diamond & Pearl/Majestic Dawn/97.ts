@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Carchacrok",
 		de: "Knakrack"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		445,
 	],
+
 	hp: 140,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		fr: "Level-Up",
 	},
+
 	stage: "LEVEL-UP",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -55,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
@@ -62,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 278146,
+		tcgplayer: 85631
+	}
 }
 
 export default card

@@ -28,7 +28,11 @@ const card: Card = {
 		en: "Magikarp"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275060
+	}
 }
 
 export default card

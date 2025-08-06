@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Ledian",
 		de: "Ledian"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		166,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Ledyba",
 		fr: "Coxy",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Ledyba",
 		de: "Ledyba"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -84,8 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281344,
+		tcgplayer: 86696
+	}
 }
 
 export default card

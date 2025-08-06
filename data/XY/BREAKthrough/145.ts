@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cidade Paralela",
 		de: "Parallelstadt"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez l'orientation de cette carte avant de la jouer. Ce joueur ↓ ne peut pas avoir plus de 3 Pokémon de Banc.(Quand cette carte est en jeu, ce joueur ↓ défausse des Pokémon de Banc jusqu'à en avoir 3 sur le Banc.)\n\nTous les dégâts infligés à ce Pokémon par des attaques des Pokémon Grass, Fire ou Water de ce joueur ↓ sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Escolha para onde este card ficará voltado antes de jogá-lo. Este jogador ↓ não pode ter mais de 3 Pokémon no Banco.(Quando este card entra em jogo, este jogador ↓ descarta os Pokémon no Banco até ficar com 3 Pokémon no Banco.)\n\nQualquer dano causado por ataques de Pokémon Grass, Fire ou Water deste ↓ jogador será reduzido em 20 (antes da aplicação de Fraqueza e Resistência).",
 		de: "Entscheide dich vor dem Spielen dieser Karte, auf welchen Spieler \"↓\" zeigen soll. Der angezeigte Spieler darf nicht mehr als 3 Pokémon auf der Bank haben.(Wenn diese Karte ins Spiel kommt, legt der angezeigte Spieler so lange Pokémon von seiner Bank auf seinen Ablagestapel, bis er 3 Pokémon auf seiner Bank hat.)\n\nSchaden durch Angriffe der Grass-, Fire- oder Water-Pokémon des angezeigten Spielers wird um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 286391,
+		tcgplayer: 107264
+	}
 }
 
 export default card

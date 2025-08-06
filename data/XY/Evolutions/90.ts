@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia Incolor Dupla",
 		de: "Doppel-Farblos-Energie"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Double Énergie Incolore fournit de l'Énergie ColorlessColorless.",
@@ -35,7 +25,12 @@ const card: Card = {
 		de: "Doppel-Farblos-Energie liefert ColorlessColorless-Energie."
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 293452,
+		tcgplayer: 124103
+	}
 }
 
 export default card

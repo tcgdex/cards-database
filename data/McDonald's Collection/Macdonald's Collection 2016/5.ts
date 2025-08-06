@@ -28,7 +28,11 @@ const card: Card = {
 		en: "Totodile"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275061
+	}
 }
 
 export default card

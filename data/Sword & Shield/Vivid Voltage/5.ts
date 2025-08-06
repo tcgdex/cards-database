@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [103],
+
 	name: {
 		en: "Exeggutor",
 		fr: "Noadkoko",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "Each of its three heads has its own thoughts. When they want to go in different directions, Exeggutor becomes unable to move."
+	},
+
+	thirdParty: {
+		cardmarket: 511445,
+		tcgplayer: 226365
 	}
 }
 

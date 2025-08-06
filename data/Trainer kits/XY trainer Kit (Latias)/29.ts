@@ -25,7 +25,11 @@ const card: Card = {
 		de: "Schau dir die 2 obersten Karten deines Decks an und nimm 1 auf deine Hand. Lege die andere Karte auf deinen Ablagestapel."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	thirdParty: {
+		tcgplayer: 98345
+	}
 }
 
 export default card

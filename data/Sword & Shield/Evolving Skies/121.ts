@@ -87,7 +87,12 @@ const card: Card = {
 		en: "Its body is covered in sweet nectar, and the skin on its back is especially yummy. Children used to have it as a snack."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574169,
+		tcgplayer: 246921
+	}
 }
 
 export default card

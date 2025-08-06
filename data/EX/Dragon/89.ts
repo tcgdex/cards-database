@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Pharamp ex",
 		de: "Ampharos ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		181,
 	],
+
 	hp: 150,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Flaaffy",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -60,12 +66,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -73,9 +81,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		tcgplayer: 83550,
+		cardmarket: 275966
+	}
 }
 
 export default card

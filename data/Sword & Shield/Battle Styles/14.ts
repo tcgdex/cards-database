@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "It loves the sunshine. When it basks in the sunlight regularly, it grows up with vivid coloration."
+	},
+
+	thirdParty: {
+		cardmarket: 544966,
+		tcgplayer: 234075
 	}
 }
 

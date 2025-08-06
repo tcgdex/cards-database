@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Pikachu e Zekrom GX",
 		de: "Pikachu & Zekrom GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		25,
 	],
+
 	hp: 240,
+
 	types: [
 		"Lightning",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -80,22 +82,27 @@ const card: Card = {
 			damage: 200
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 366888,
+		tcgplayer: 183805
+	}
 }
 
 export default card

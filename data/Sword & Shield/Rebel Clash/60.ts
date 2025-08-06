@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [403],
+
 	name: {
 		en: "Shinx",
 		fr: "Lixy",
@@ -66,6 +67,11 @@ const card: Card = {
 
 	description: {
 		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
+	},
+
+	thirdParty: {
+		cardmarket: 457733,
+		tcgplayer: 213141
 	}
 }
 

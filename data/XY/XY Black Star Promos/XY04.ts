@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Sylveon",
 		fr: "Nymphali",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		700,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -56,22 +60,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281326
+	}
 }
 
 export default card

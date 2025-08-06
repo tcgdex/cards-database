@@ -34,7 +34,12 @@ const card: Card = {
 
 	trainerType: "Tool",
 	illustrator: "5ban Graphics",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574216,
+		tcgplayer: 246779
+	}
 }
 
 export default card

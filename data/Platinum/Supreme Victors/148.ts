@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Artikodin",
 		de: "Arktos"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		144,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,10 +53,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278707
+	}
 }
 
 export default card

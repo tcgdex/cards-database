@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [701],
+
 	name: {
 		en: "Hawlucha",
 		fr: "Brutalibré",
@@ -88,6 +89,11 @@ const card: Card = {
 
 	description: {
 		en: "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move."
+	},
+
+	thirdParty: {
+		cardmarket: 458138,
+		tcgplayer: 213248
 	}
 }
 

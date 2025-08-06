@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Dérangez-le pendant qu'il mime et il se battra en distribuant des volées de claques."
+	},
+
+	thirdParty: {
+		cardmarket: 273803,
+		tcgplayer: 106984
 	}
 }
 

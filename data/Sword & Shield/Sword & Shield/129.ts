@@ -100,7 +100,12 @@ const card: Card = {
 		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
 	},
 
-	dexId: [303]
+	dexId: [303],
+
+	thirdParty: {
+		cardmarket: 436754,
+		tcgplayer: 208440
+	}
 }
 
 export default card

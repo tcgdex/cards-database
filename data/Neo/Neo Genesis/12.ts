@@ -46,6 +46,11 @@ const card: Card = {
 
 	description: {
 		fr: "Bien qu'il soit très petit, il peut électrocuter un adulte. Cependant, s'il le fait, il se surprend lui-même."
+	},
+
+	thirdParty: {
+		cardmarket: 274412,
+		tcgplayer: 88011
 	}
 }
 

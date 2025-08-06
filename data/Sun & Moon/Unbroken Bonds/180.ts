@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Barreira de Núcleo Metálico",
 		de: "Metallkernbarriere"
 	},
+
 	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si cette carte est attachée à l’un de vos Pokémon, défaussez-la à la fin du tour de votre adversaire.\n\nLe Pokémon Metal auquel cette carte est attachée subit 70 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se esta carta estiver ligada a 1 dos seus Pokémon, descarte-a no final da próxima vez de jogar do seu oponente.\n\nO Pokémon Metal ao qual esta carta está ligada recebe 70 pontos de dano a menos dos ataques do seu oponente (após a aplicação de Fraqueza e Resistência).",
 		de: "Wenn diese Karte an 1 deiner Pokémon angelegt ist, lege sie am Ende des Zuges deines Gegners auf deinen Ablagestapel.\n\nDem Metal-Pokémon, an das diese Karte angelegt ist, werden durch Attacken deines Gegners 70 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 372464,
+		tcgplayer: 189285
+	}
 }
 
 export default card

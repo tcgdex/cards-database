@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia de Proteção de Fraqueza",
 		de: "Schwächewächter-Energie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte fournit de l’Énergie Colorless.\n\nLe Pokémon auquel cette carte est attachée n’a pas de Faiblesse.",
@@ -35,7 +25,12 @@ const card: Card = {
 		de: "Diese Karte liefert Colorless-Energie.\n\nDas Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 388852,
+		tcgplayer: 195283
+	}
 }
 
 export default card

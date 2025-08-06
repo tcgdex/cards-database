@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [767],
+
 	name: {
 		en: "Wimpod",
 		fr: "Sovkipou",
@@ -69,6 +70,11 @@ const card: Card = {
 
 	description: {
 		en: "It's nature's cleaner—it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean."
+	},
+
+	thirdParty: {
+		cardmarket: 482959,
+		tcgplayer: 219230
 	}
 }
 

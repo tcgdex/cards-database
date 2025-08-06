@@ -85,7 +85,12 @@ const card: Card = {
 		effect: {
 			de: "If Dark Gyarados is your Active Pokémon and is Knocked Out by an opponent's attack, put 3 damage counters on the Attacking Pokémon."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 276328,
+		tcgplayer: 84608
+	}
 }
 
 export default card

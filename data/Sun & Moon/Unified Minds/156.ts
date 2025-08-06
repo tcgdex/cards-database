@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Haxorus",
 		de: "Maxax"
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		612,
 	],
+
 	hp: 150,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Fraxure",
 		fr: "Incisache",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -84,8 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 388572,
+		tcgplayer: 195154
+	}
 }
 
 export default card

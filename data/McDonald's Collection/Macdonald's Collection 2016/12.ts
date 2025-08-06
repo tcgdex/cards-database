@@ -34,7 +34,11 @@ const card: Card = {
 		en: "Eevee"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275069
+	}
 }
 
 export default card

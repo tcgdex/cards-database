@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Bellsprout",
 		de: "Knofensa"
 	},
+
 	illustrator: "Masako Yamashita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		69,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -61,8 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 361248,
+		tcgplayer: 170806
+	}
 }
 
 export default card

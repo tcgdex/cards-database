@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Dica do Professor Carvalho",
 		de: "Prof. Eichs Tipp"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez des cartes jusqu'à ce que vous ayez 7 cartes en main. Votre tour se termine.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Compre cards até ter 7 cards em sua mão. Sua vez de jogar termina.",
 		de: "Ziehe so viele Karten, bis du 7 Karten auf der Hand hast. Dein Zug endet."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 293446,
+		tcgplayer: 124097
+	}
 }
 
 export default card

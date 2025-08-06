@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit au plus profond de l'océan. Il attire sa proie en illuminant les motifs de ses 4 nageoires."
+	},
+
+	thirdParty: {
+		cardmarket: 277640,
+		tcgplayer: 86921
 	}
 }
 

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Draby",
 		de: "Kindwurm"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		371,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,11 +63,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		tcgplayer: 83693,
+		cardmarket: 275900
+	}
 }
 
 export default card

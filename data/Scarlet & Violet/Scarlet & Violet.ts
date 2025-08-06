@@ -24,6 +24,11 @@ const set: Set = {
 	abbreviations: {
 		official: "SV",
 		fr: "E&V"
+	},
+
+	thirdParty: {
+		cardmarket: 5223,
+		tcgplayer: 22873
 	}
 }
 

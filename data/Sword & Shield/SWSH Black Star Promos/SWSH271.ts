@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about."
+	},
+
+	thirdParty: {
+		cardmarket: 681800
 	}
 }
 

@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Diglett",
 		de: "Digda"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		50,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fighting",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,6 +75,7 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -80,8 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 293409,
+		tcgplayer: 124068
+	}
 }
 
 export default card

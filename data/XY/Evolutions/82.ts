@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pokédex",
 		de: "Pokédex"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 5 cartes du dessus de votre deck et replacez-les dans l'ordre de votre choix.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Olhe os 5 primeiros cards do seu baralho e coloque-os de volta em qualquer ordem.",
 		de: "Schau dir die obersten 5 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 293444
+	}
 }
 
 export default card

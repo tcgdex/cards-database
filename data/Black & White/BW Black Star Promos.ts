@@ -24,6 +24,10 @@ const bwp: Set = {
 	abbreviations: {
 		official: "BWP",
 		fr: "PBW"
+	},
+
+	thirdParty: {
+		tcgplayer: 1407
 	}
 }
 

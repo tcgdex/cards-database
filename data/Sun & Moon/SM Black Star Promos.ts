@@ -24,6 +24,10 @@ const smp: Set = {
 	abbreviations: {
 		official: "SMP",
 		fr: "PSM"
+	},
+
+	thirdParty: {
+		tcgplayer: 1861
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [629],
+
 	name: {
 		en: "Vullaby",
 		fr: "Vostourno",
@@ -73,6 +74,11 @@ const card: Card = {
 
 	description: {
 		en: "It wears a bone to protect its rear. It often squabbles with others of its kind over particularly comfy bones."
+	},
+
+	thirdParty: {
+		cardmarket: 458003,
+		tcgplayer: 213213
 	}
 }
 

@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Lickitung",
 		de: "Schlurp"
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		108,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -77,8 +80,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 388592,
+		tcgplayer: 195161
+	}
 }
 
 export default card

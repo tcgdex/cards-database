@@ -16,6 +16,11 @@ const card: Card = {
 	effect: {
 		fr: "Prenez une carte Énergie de base attachée à l'un de vos Pokémon et attachez-la à un autre de vos Pokémon.",
 		de: "Move a basic Energy from 1 of your Pokémon to another of your Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 275196,
+		tcgplayer: 85253
 	}
 }
 

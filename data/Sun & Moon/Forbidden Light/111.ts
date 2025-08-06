@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Laboratórios Lysandre",
 		de: "Labor von Flordelis"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les cartes Outil Pokémon en jeu (les vôtres et celles de votre adversaire) n’ont aucun effet.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cartas de Ferramenta Pokémon em jogo (suas e do seu oponente) não têm efeito.",
 		de: "Pokémon-Ausrüstungen im Spiel (deine und die deines Gegners) haben keinen Effekt."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 355624,
+		tcgplayer: 165774
+	}
 }
 
 export default card

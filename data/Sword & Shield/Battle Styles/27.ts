@@ -61,6 +61,11 @@ const card: Card = {
 
 	description: {
 		en: "This sneaky Pokémon will slink behind its prey and immobilize it with poisonous gas before the prey even realizes Salandit is there."
+	},
+
+	thirdParty: {
+		cardmarket: 545036,
+		tcgplayer: 234130
 	}
 }
 

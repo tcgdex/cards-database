@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Memória de Luta",
 		de: "Kampf-Disc"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Silvallié-GX auquel cette carte est attachée est un Pokémon Fighting.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Pokémon Silvally-GX ao qual esta carta está ligada é um Pokémon Fighting.",
 		de: "Das Amigento-GX, an das diese Karte angelegt ist, ist ein Fighting-Pokémon."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 311941,
+		tcgplayer: 149119
+	}
 }
 
 export default card

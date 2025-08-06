@@ -39,7 +39,11 @@ const card: Card = {
 	resistances: [{
 		type: "Psychic",
 		value: "-20"
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 98163
+	}
 }
 
 export default card

@@ -28,7 +28,12 @@ const card: Card = {
 		},
 
 		cost: ["Grass"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 275200,
+		tcgplayer: 85868
+	}
 }
 
 export default card

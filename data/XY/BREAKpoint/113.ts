@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia Borrifada",
 		de: "Platsch-Energie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ne peut être attachée qu'à un Pokémon Water. Cette carte ne fournit de l'Énergie Water que pendant qu'elle est attachée à un Pokémon Water.\n\nSi le Pokémon Water auquel cette carte est attachée est mis K.O. par les dégâts d'une attaque de votre adversaire, placez le Pokémon dans votre main. (Défaussez toutes les cartes lui étant attachées.)\n\n(Si cette carte est attachée à autre chose qu'un Pokémon Water, défaussez cette carte.)",
@@ -35,7 +25,12 @@ const card: Card = {
 		de: "Diese Karte kann nur an Water-Pokémon angelegt werden. Diese Karte liefert nur dann Water-Energie, wenn sie an ein Water-Pokémon angelegt ist. Nimm das Water-Pokémon, an das diese Karte angelegt ist, auf deine Hand, wenn es durch Schaden eines gegnerischen Angriffs kampfunfähig wird. (Lege alle an dieses Pokémon angelegten Karten auf deinen Ablagestapel.)(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Water-Pokémon angelegt ist.)"
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 288288,
+		tcgplayer: 111574
+	}
 }
 
 export default card

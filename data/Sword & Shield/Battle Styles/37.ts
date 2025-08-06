@@ -84,6 +84,11 @@ const card: Card = {
 
 	description: {
 		en: "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head."
+	},
+
+	thirdParty: {
+		cardmarket: 527640,
+		tcgplayer: 234172
 	}
 }
 

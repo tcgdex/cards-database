@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cura Total",
 		de: "Hyperheiler"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Retirez tous les États Spéciaux de votre Pokémon Actif.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Remova todas as Condições Especiais do seu Pokémon Ativo.",
 		de: "Alle Speziellen Zustände auf deinem Aktiven Pokémon verlieren ihre Wirkung."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281757,
+		tcgplayer: 92275
+	}
 }
 
 export default card

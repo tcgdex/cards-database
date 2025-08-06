@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Tyranocif ex δ",
 		de: "Despotar ex"
 	},
+
 	illustrator: "Yusuke Shimada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		248,
 	],
+
 	hp: 150,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Pupitar",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -88,10 +93,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277304
+	}
 }
 
 export default card

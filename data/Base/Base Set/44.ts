@@ -55,6 +55,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance."
+	},
+
+	thirdParty: {
+		cardmarket: 273739,
+		tcgplayer: 42387
 	}
 }
 

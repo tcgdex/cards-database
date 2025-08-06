@@ -90,7 +90,12 @@ const card: Card = {
 		de: "Celebi-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567088,
+		tcgplayer: 241657
+	}
 }
 
 export default card

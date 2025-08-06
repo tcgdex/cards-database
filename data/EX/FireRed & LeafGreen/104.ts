@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Tortank ex",
 		de: "Turtok ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		9,
 	],
+
 	hp: 150,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Wartortle",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -68,10 +75,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276280,
+		tcgplayer: 83900
+	}
 }
 
 export default card

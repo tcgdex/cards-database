@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Lurantis",
 		de: "Mantidea"
 	},
+
 	illustrator: "AKIRA EGAWA",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		754,
 	],
+
 	hp: 110,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Fomantis",
 		fr: "Mimantis",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -85,8 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 387912,
+		tcgplayer: 194932
+	}
 }
 
 export default card

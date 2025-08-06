@@ -80,7 +80,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 567212,
+		tcgplayer: 241779
+	}
 }
 
 export default card

@@ -88,6 +88,11 @@ const card: Card = {
 
 	description: {
 		en: "Five of them are troopers, and one is the brass. The brass's orders are absolute."
+	},
+
+	thirdParty: {
+		cardmarket: 456493,
+		tcgplayer: 213200
 	}
 }
 

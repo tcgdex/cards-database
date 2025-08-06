@@ -93,7 +93,12 @@ const card: Card = {
 		de: "Metagross-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567221,
+		tcgplayer: 241790
+	}
 }
 
 export default card

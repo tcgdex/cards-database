@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Ninetales de Alola GX",
 		de: "Alola Vulnona GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		38,
 	],
+
 	hp: 210,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Alolan Vulpix",
 		fr: "Goupix d’Alola",
@@ -102,6 +106,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -111,8 +116,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 296842,
+		tcgplayer: 130921
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Dustox",
 		de: "Pudox"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		269,
 	],
+
 	hp: 140,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Cascoon",
 		fr: "Blindalys",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Cascoon",
 		de: "Panekon"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -85,6 +89,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -94,8 +99,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 282675,
+		tcgplayer: 98043
+	}
 }
 
 export default card

@@ -58,6 +58,11 @@ const card: Card = {
 
 	description: {
 		en: "Polishing Bronzor to a shine makes its surface reflect the truth, according to common lore. Be that as it may, Bronzor hates being polished."
+	},
+
+	thirdParty: {
+		cardmarket: 545586,
+		tcgplayer: 234188
 	}
 }
 

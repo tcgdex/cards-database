@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Apito do Looker",
 		de: "LeBelle-Pfeife"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez jusqu’à 2 cartes nommées Beladonis dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure por até 2 cartas chamadas Looker no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach bis zu 2 Karten namens LeBelle, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 316052,
+		tcgplayer: 157744
+	}
 }
 
 export default card

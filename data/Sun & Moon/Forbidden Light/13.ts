@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Heatran",
 		de: "Heatran"
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		485,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -77,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -86,8 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 355533,
+		tcgplayer: 165660
+	}
 }
 
 export default card

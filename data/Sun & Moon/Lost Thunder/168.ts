@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Funcionários da Aether",
 		de: "Angestellte der Æther Foundation"
 	},
+
 	illustrator: "take",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Ajoutez 3 Pokémon avec « d’Alola » dans leur nom, de votre pile de défausse à votre main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Coloque 3 Pokémon da sua pilha de descarte na sua mão que tenham “de Alola” no seu nome.",
 		de: "Nimm 3 Pokémon, bei denen Alola zum Namen gehört, aus deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 365804,
+		tcgplayer: 178991
+	}
 }
 
 export default card

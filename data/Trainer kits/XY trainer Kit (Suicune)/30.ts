@@ -47,7 +47,11 @@ const card: Card = {
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 118851
+	}
 }
 
 export default card

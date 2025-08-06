@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Delphox EX",
 		fr: "Goupelin EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		655,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -66,8 +69,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281312
+	}
 }
 
 export default card

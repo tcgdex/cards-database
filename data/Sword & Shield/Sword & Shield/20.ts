@@ -85,7 +85,12 @@ const card: Card = {
 		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
 	},
 
-	dexId: [829]
+	dexId: [829],
+
+	thirdParty: {
+		cardmarket: 436269,
+		tcgplayer: 208299
+	}
 }
 
 export default card

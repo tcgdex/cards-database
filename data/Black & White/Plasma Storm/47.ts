@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Magnezone",
 		de: "Magnezone"
 	},
+
 	illustrator: "match",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		462,
 	],
+
 	hp: 140,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Magneton",
 		fr: "Magnéton",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -63,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -72,8 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280786,
+		tcgplayer: 87119
+	}
 }
 
 export default card

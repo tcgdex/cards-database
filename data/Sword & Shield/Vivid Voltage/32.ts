@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [321],
+
 	name: {
 		en: "Wailord",
 		fr: "Wailord",
@@ -103,6 +104,11 @@ const card: Card = {
 
 	description: {
 		en: "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water."
+	},
+
+	thirdParty: {
+		cardmarket: 511580,
+		tcgplayer: 226411
 	}
 }
 

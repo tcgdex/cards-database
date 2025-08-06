@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Grifa de Dragão",
 		de: "Drachenkralle"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon Dragon auquel cette carte est attachée est votre Pokémon Actif et qu’il subit les dégâts d’une attaque de votre adversaire (même si le Pokémon est mis K.O.), placez 3 marqueurs de dégâts sur le Pokémon Attaquant.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se o Pokémon Dragon ao qual esta carta está ligada for o seu Pokémon Ativo e ele for danificado por um ataque do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque 3 contadores de dano no Pokémon Atacante.",
 		de: "Wenn das Dragon-Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und durch eine Attacke deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 363530,
+		tcgplayer: 175505
+	}
 }
 
 export default card

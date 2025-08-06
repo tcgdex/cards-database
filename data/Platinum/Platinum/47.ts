@@ -7,21 +7,25 @@ const card: Card = {
 		fr: "Nostenfert ",
 		de: "Iksbat G"
 	},
+
 	illustrator: "Makoto Imai",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		169,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
 	suffix: "SP",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -37,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,12 +61,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -69,9 +76,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		tcgplayer: 84494
+	}
 }
 
 export default card

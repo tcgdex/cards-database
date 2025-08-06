@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Rose",
 		de: "Rosy"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si l’un de vos Pokémon a été mis K.O. pendant le dernier tour de votre adversaire.\n\nCherchez un Pokémon, une carte Dresseur et une carte Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se 1 dos seus Pokémon tiver sido Nocauteado durante a última vez de jogar do seu oponente.\n\nProcure por 1 Pokémon, 1 carta de Treinador e 1 carta de Energia básica no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Du kannst diese Karte nur spielen, wenn 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\n\nDurchsuche dein Deck nach 1 Pokémon, 1 Trainerkarte und 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 408614,
+		tcgplayer: 201651
+	}
 }
 
 export default card

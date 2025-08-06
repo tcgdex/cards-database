@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Charizard EX",
 		fr: "Dracaufeu EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,8 +68,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281320
+	}
 }
 
 export default card

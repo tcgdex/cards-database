@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [833],
+
 	name: {
 		en: "Chewtle",
 		fr: "Khélocrok",
@@ -70,6 +71,11 @@ const card: Card = {
 
 	description: {
 		en: "Apparently the itch of its teething impels it to snap its jaws at anything in front of it."
+	},
+
+	thirdParty: {
+		cardmarket: 511610,
+		tcgplayer: 226423
 	}
 }
 

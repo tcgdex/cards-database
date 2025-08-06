@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Tempestade Magnética",
 		de: "Magnetsturm"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque Pokémon en jeu n'a pas de Résistance.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cada um dos Pokémon em jogo não possui Resistência.",
 		de: "Jedes Pokémon im Spiel hat keine Resistenz."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 281574,
+		tcgplayer: 91228
+	}
 }
 
 export default card

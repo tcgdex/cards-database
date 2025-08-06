@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Claydol",
 		de: "Lepumentas"
 	},
+
 	illustrator: "Satoshi Shirai",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		344,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Baltoy",
 		fr: "Balbuto",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Baltoy",
 		de: "Puppance"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 284214,
+		tcgplayer: 101456
+	}
 }
 
 export default card

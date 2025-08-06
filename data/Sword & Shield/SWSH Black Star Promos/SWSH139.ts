@@ -73,7 +73,11 @@ const card: Card = {
 
 	hp: 300,
 	types: ["Lightning"],
-	retreat: 0
+	retreat: 0,
+
+	thirdParty: {
+		cardmarket: 576738
+	}
 }
 
 export default card

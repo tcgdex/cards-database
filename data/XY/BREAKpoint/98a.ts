@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Delinquente",
 		de: "Halbstarke"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "Discard any Stadium card in play. If you do, your opponent discards 3 cards from his or her hand.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Descarte algum card de Estádio em jogo. Se fizer isso, o seu oponente descarta 3 cards da própria mão.",
 		de: "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel. Wenn du das machst, legt dein Gegner 3 seiner Handkarten auf seinen Ablagestapel."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 288273
+	}
 }
 
 export default card

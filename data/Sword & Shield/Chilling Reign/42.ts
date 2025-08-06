@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		en: "Highly intelligent but also very lazy, it keeps enemies out of its territory by laying traps everywhere."
+	},
+
+	thirdParty: {
+		cardmarket: 567122,
+		tcgplayer: 241695
 	}
 }
 

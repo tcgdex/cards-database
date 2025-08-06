@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [88],
+
 	name: {
 		en: "Grimer",
 		fr: "Tadmorv",
@@ -86,6 +87,11 @@ const card: Card = {
 
 	description: {
 		en: "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They're said to be on the verge of extinction."
+	},
+
+	thirdParty: {
+		cardmarket: 483379,
+		tcgplayer: 219401
 	}
 }
 

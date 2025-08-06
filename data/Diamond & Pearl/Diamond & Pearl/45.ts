@@ -86,6 +86,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il fleurit lorsque le soleil est au beau fixe. Il cherche à prendre sa revanche sur une vie de bourgeon."
+	},
+
+	thirdParty: {
+		cardmarket: 277544,
+		tcgplayer: 84251
 	}
 }
 

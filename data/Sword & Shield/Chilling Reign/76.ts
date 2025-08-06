@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot."
+	},
+
+	thirdParty: {
+		cardmarket: 567184,
+		tcgplayer: 241741
 	}
 }
 

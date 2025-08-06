@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Memória Poderosa",
 		de: "Langzeitgedächtnis"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Zygarde-EX auquel cette carte est attachée peut aussi utiliser l'attaque sur cette carte. (Vous avez toujours besoin de l'Énergie nécessaire pour utiliser cette attaque.)Brûlure Polycellule FightingFightingColorless 200Défaussez 3 Énergies attachées à ce Pokémon.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Zygarde-EX ao qual este card está ligado, pode também usar o ataque deste card. (Você ainda precisa da Energia necessária para usar este ataque.)Queimadura Multicelular FightingFightingColorless 200Descarte 3 Energias ligadas a este Pokémon.",
 		de: "Das Zygarde-EX, an das diese Karte angelegt ist, kann auch den Angriff auf dieser Karte einsetzen. (Du benötigst jedoch die für diesen Angriff notwendige Energie.)Alle Zellen brennen FightingFightingColorless 200Lege 3 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 289928,
+		tcgplayer: 117517
+	}
 }
 
 export default card

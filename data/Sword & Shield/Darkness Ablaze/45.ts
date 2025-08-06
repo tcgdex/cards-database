@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [582],
+
 	name: {
 		en: "Vanillite",
 		fr: "Sorbébé",
@@ -69,6 +70,11 @@ const card: Card = {
 
 	description: {
 		en: "Unable to survive in hot areas, it makes itself comfortable by breathing out air cold enough to cause snow. It burrows into the snow to sleep."
+	},
+
+	thirdParty: {
+		cardmarket: 483104,
+		tcgplayer: 219348
 	}
 }
 

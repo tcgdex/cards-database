@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Exploud",
 		de: "Krawumms"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		295,
 	],
+
 	hp: 140,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Loudred",
 		fr: "Ramboum",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Loudred",
 		de: "Krakeelo"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -93,8 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 289903,
+		tcgplayer: 117857
+	}
 }
 
 export default card

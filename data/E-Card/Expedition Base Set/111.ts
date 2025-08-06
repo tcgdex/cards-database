@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Poissirène",
 		de: "Goldini"
 	},
+
 	illustrator: "Masako Yamashita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		118,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -38,6 +40,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -45,10 +48,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274986,
+		tcgplayer: 85805
+	}
 }
 
 export default card

@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Incineroar GX",
 		de: "Fuegro GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		727,
 	],
+
 	hp: 250,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Torracat",
 		fr: "Matoufeu",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -101,22 +107,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 368073,
+		tcgplayer: 183879
+	}
 }
 
 export default card

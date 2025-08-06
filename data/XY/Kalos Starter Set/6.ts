@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Slugma",
 		de: "Schneckmag"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		218,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -54,8 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281272,
+		tcgplayer: 89348
+	}
 }
 
 export default card

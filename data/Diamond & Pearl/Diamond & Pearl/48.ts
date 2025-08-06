@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il génère de l'électricité en battant des bras, mais il n'a aucun moyen de stocker cette énergie."
+	},
+
+	thirdParty: {
+		cardmarket: 277547,
+		tcgplayer: 85171
 	}
 }
 

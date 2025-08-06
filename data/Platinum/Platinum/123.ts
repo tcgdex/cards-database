@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Drascore",
 		de: "Piondragi"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		452,
 	],
+
 	hp: 130,
+
 	types: [
 		"Darkness",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -68,8 +73,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278544,
+		tcgplayer: 84926
+	}
 }
 
 export default card

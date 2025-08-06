@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [808],
+
 	name: {
 		en: "Meltan",
 		fr: "Meltan",
@@ -86,6 +87,11 @@ const card: Card = {
 
 	description: {
 		en: "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy."
+	},
+
+	thirdParty: {
+		cardmarket: 483524,
+		tcgplayer: 219391
 	}
 }
 

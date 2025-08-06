@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Altaria",
 		de: "Altaria"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		334,
 	],
+
 	hp: 80,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Swablu",
 		de: "Wablu"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 282721,
+		tcgplayer: 98089
+	}
 }
 
 export default card

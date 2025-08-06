@@ -52,7 +52,11 @@ const card: Card = {
 		reverse: true
 	},
 
-	illustrator: "Pani Kobayashi"
+	illustrator: "Pani Kobayashi",
+
+	thirdParty: {
+		cardmarket: 725179
+	}
 };
 
 export default card

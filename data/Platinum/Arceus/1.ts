@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Charizard",
 		de: "Glurak"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
@@ -18,9 +19,11 @@ const card: Card = {
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charmeleon",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -36,6 +39,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -67,22 +71,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278873,
+		tcgplayer: 84191
+	}
 }
 
 export default card

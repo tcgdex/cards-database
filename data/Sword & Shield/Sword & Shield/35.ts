@@ -103,7 +103,12 @@ const card: Card = {
 		en: "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched."
 	},
 
-	dexId: [815]
+	dexId: [815],
+
+	thirdParty: {
+		cardmarket: 427226,
+		tcgplayer: 208313
+	}
 }
 
 export default card

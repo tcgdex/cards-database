@@ -30,7 +30,12 @@ const card: Card = {
 		},
 
 		cost: ["Lightning"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 275203,
+		tcgplayer: 86754
+	}
 }
 
 export default card

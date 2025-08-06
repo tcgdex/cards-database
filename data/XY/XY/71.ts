@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Krookodile",
 		de: "Rabigator"
 	},
+
 	illustrator: "match",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		553,
 	],
+
 	hp: 140,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Krokorok",
 		fr: "Escroco",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Krokorok",
 		de: "Rokkaiman"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -86,22 +90,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281408,
+		tcgplayer: 86545
+	}
 }
 
 export default card

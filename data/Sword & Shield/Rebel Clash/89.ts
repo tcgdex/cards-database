@@ -72,6 +72,11 @@ const card: Card = {
 
 	description: {
 		en: "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas."
+	},
+
+	thirdParty: {
+		cardmarket: 457863,
+		tcgplayer: 213175
 	}
 }
 

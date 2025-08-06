@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [736],
+
 	name: {
 		en: "Grubbin",
 		fr: "Larvibule",
@@ -59,6 +60,11 @@ const card: Card = {
 
 	description: {
 		en: "Its natural enemies, like Rookidee, may flee rather than risk getting caught in its large mandibles that can snap thick tree branches."
+	},
+
+	thirdParty: {
+		cardmarket: 457473,
+		tcgplayer: 213086
 	}
 }
 

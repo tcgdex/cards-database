@@ -103,7 +103,12 @@ const card: Card = {
 		en: "It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries."
 	},
 
-	dexId: [454]
+	dexId: [454],
+
+	thirdParty: {
+		cardmarket: 436729,
+		tcgplayer: 208435
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Cinccino",
 		de: "Chillabell"
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		573,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Minccino",
 		fr: "Chinchidou",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Minccino",
 		de: "Picochilla"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -80,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -89,8 +94,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289909,
+		tcgplayer: 117861
+	}
 }
 
 export default card

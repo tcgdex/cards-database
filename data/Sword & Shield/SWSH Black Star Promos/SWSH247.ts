@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		en: "There is an enduring legend that states this Pokémon towed continents with ropes."
+	},
+
+	thirdParty: {
+		cardmarket: 665990
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pokémon Ranger",
 		de: "Pokémon Ranger"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Supprimez tous les effets des attaques sur chaque joueur et ses Pokémon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Remove todos os efeitos de ataques em cada jogador e seus Pokémon.",
 		de: "Alle Effekte von Angriffen verlieren bei beiden Spielern und ihren Pokémon ihre Wirkung."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 291551
+	}
 }
 
 export default card

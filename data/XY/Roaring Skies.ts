@@ -26,6 +26,11 @@ const xy6: Set = {
 	abbreviations: {
 		official: "ROS",
 		fr: "CRU"
+	},
+
+	thirdParty: {
+		cardmarket: 1649,
+		tcgplayer: 1534
 	}
 }
 

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Fraxure",
 		de: "Sharfax"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		611,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Axew",
 		fr: "Coupenotte",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,11 +64,12 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280210,
+		tcgplayer: 85558
+	}
 }
 
 export default card

@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Reshiram",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		643,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -59,10 +62,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 281139
+	}
 }
 
 export default card

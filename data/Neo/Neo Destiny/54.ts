@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		fr: "Si deux d'entre eux se frottent l'un contre l'autre, ils ne peuvent plus se séparer. Ils aiment trop sentir la douceur de la fourrure l'un de l'autre."
+	},
+
+	thirdParty: {
+		cardmarket: 274706,
+		tcgplayer: 86753
 	}
 }
 

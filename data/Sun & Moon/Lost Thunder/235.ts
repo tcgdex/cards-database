@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Talismã de Feitiço",
 		de: "Bannsticker"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lorsque le Pokémon Psychic auquel cette carte est attachée est mis K.O. par les dégâts d’une attaque de votre adversaire, placez 4 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Quando o Pokémon Psychic ao qual esta carta está ligada for Nocauteado pelo dano de um ataque do seu oponente, coloque 4 contadores de dano nos Pokémon do seu oponente como desejar.",
 		de: "Wenn das Psychic-Pokémon, an das diese Karte angelegt ist, durch den Schaden einer Attacke deines Gegners kampfunfähig wird, lege 4 Schadensmarken beliebig auf die Pokémon deines Gegners."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 365824,
+		tcgplayer: 179027
+	}
 }
 
 export default card

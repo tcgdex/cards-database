@@ -76,7 +76,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "PLANETA Hiiragi"
+	illustrator: "PLANETA Hiiragi",
+
+	thirdParty: {
+		cardmarket: 702426
+	}
 }
 
 export default card

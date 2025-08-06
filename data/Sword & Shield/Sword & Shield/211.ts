@@ -98,7 +98,12 @@ const card: Card = {
 	},
 
 	suffix: "V",
-	dexId: [888]
+	dexId: [888],
+
+	thirdParty: {
+		cardmarket: 427176,
+		tcgplayer: 208450
+	}
 }
 
 export default card

@@ -7,21 +7,25 @@ const card: Card = {
 		fr: "Dialga ",
 		de: "Dialga G"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		483,
 	],
+
 	hp: 120,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "LEVEL-UP",
 	suffix: "SP",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -37,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,22 +64,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		tcgplayer: 84811
+	}
 }
 
 export default card

@@ -72,6 +72,11 @@ const card: Card = {
 
 	description: {
 		en: "It eats berries nonstop—a habit that has made it more resilient than it looks. It'll show up on farms, searching for yet more berries."
+	},
+
+	thirdParty: {
+		cardmarket: 567235,
+		tcgplayer: 241809
 	}
 }
 

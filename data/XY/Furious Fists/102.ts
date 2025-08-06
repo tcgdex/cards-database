@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Centro de Treinamento",
 		de: "Trainingscenter"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Ajoute 30 PV à chacun des Pokémon de Niveau 1 et de Niveau 2 en jeu (les vôtres et ceux de votre adversaire).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cada Pokémon Estágio 1 e Estágio 2 em jogo (seu e do seu oponente) recebe +30 PS.",
 		de: "Jedes Phase-1- und Phase-2-Pokémon im Spiel (deine und die deines Gegners) erhält +30 KP."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 281766,
+		tcgplayer: 92285
+	}
 }
 
 export default card

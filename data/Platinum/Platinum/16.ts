@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Monaflemit",
 		de: "Letarking"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		289,
 	],
+
 	hp: 150,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Vigoroth",
 		fr: "Vigoroth",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -62,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -71,8 +78,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 278437,
+		tcgplayer: 89292
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [689],
+
 	name: {
 		en: "Barbaracle",
 		fr: "Golgopathe",
@@ -101,6 +102,11 @@ const card: Card = {
 
 	description: {
 		en: "Seven Binacle come together to form one Barbaracle. The Binacle that serves as the head gives orders to those serving as the limbs."
+	},
+
+	thirdParty: {
+		cardmarket: 457933,
+		tcgplayer: 213192
 	}
 }
 

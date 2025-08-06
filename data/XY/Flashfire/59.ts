@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Scrafty",
 		de: "Irokex"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		560,
 	],
+
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Scraggy",
 		fr: "Baggiguane",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Scraggy",
 		de: "Zurrokex"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,22 +81,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281542,
+		tcgplayer: 91196
+	}
 }
 
 export default card

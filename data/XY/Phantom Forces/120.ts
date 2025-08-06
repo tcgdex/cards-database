@@ -79,7 +79,11 @@ const card: Card = {
 	],
 
 	suffix: "EX",
-	retreat: 0
+	retreat: 0,
+
+	thirdParty: {
+		tcgplayer: 94687
+	}
 }
 
 export default card

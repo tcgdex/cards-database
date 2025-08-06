@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Evosoda",
 		de: "Evobrause"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez dans votre deck une carte Évolution de l'un de vos Pokémon et placez-la sur ce dernier. (Cela équivaut à faire évoluer le Pokémon.) Mélangez ensuite votre deck. Vous ne pouvez pas utiliser cette carte pendant votre premier tour ni sur un Pokémon qui a été joué pendant ce tour.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure em seu baralho um Pokémon que evolua de 1 dos seus Pokémon e coloque-o naquele Pokémon. (Isso conta como evoluir esse Pokémon.) Em seguida, embaralhe seus cards. Você não poderá usar esse card em sua primeira vez de jogar ou em um Pokémon que foi colocado em jogo na vez de jogar atual.",
 		de: "Durchsuche dein Deck nach 1 Karte, zu der sich 1 deiner Pokémon entwickelt, und lege sie auf das entsprechende Pokémon. (Dies zählt als Entwicklung des Pokémon.) Mische anschließend dein Deck. Du kannst diese Karte nicht während deines ersten Zuges oder für ein Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281453,
+		tcgplayer: 85335
+	}
 }
 
 export default card

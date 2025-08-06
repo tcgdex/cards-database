@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit à un mètre sous la terre et se nourrit de racines. Il apparaît rarement à la surface."
+	},
+
+	thirdParty: {
+		cardmarket: 273742,
+		tcgplayer: 42390
 	}
 }
 

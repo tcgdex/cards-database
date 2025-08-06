@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés."
+	},
+
+	thirdParty: {
+		cardmarket: 273862,
+		tcgplayer: 44418
 	}
 }
 

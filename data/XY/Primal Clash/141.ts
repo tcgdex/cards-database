@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Companheiros de Equipe",
 		de: "Senior & Junior"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous pouvez jouer cette carte seulement si l'un de vos Pokémon a été mis K.O. pendant le dernier tour de votre adversaire.\n\nCherchez jusqu'à 2 cartes dans votre deck et ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você poderá jogar esse card somente se 1 dos seus Pokémon foi Nocauteado durante a última vez de jogar do seu oponente. Procure até 2 cards em seu baralho e coloque-os na sua mão. Em seguida, embaralhe seus cards.",
 		de: "Du kannst diese Karte nur dann spielen, wenn 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde. Durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 273672,
+		tcgplayer: 96039
+	}
 }
 
 export default card

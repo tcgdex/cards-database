@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Apitrini",
 		de: "Wadribie"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		415,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		fr: "Apitrini",
 	},
-	stage: "Basic",
 
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -43,22 +47,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278355,
+		tcgplayer: 84394
+	}
 }
 
 export default card

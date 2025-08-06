@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Zekrom",
 		de: "Zekrom"
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		644,
 	],
+
 	hp: 130,
+
 	types: [
 		"Dragon",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -79,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -88,8 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 363517,
+		tcgplayer: 175476
+	}
 }
 
 export default card

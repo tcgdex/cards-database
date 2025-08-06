@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Nidoqueen δ",
 		de: "Nidoqueen"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		31,
 	],
+
 	hp: 100,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Nidorina",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -60,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -67,10 +74,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277212
+	}
 }
 
 export default card

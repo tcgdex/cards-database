@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Hoopa",
 		fr: "Hoopa",
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		720,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,8 +67,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289790
+	}
 }
 
 export default card

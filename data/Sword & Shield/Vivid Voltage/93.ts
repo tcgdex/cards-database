@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [718],
+
 	name: {
 		en: "Zygarde",
 		fr: "Zygarde",
@@ -87,6 +88,11 @@ const card: Card = {
 
 	description: {
 		en: "Born when all of Zygarde's cells have been gathered together, it uses force to neutralize those who harm the ecosystem."
+	},
+
+	thirdParty: {
+		cardmarket: 511885,
+		tcgplayer: 226532
 	}
 }
 

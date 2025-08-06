@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Camerupt de Team Magma",
 		de: "Team Magmas Camerupt"
 	},
+
 	illustrator: "Katsura Tabata",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		323,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275996,
+		tcgplayer: 89824
+	}
 }
 
 export default card

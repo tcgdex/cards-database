@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Dracaufeu",
 		de: "Glurak"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charmeleon",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -65,14 +69,20 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	retreat: 2,
 
+	thirdParty: {
+		cardmarket: 274881,
+		tcgplayer: 84184
+	}
 }
 
 export default card

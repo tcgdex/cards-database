@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Golisopod GX",
 		de: "Tectass GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		768,
 	],
+
 	hp: 210,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Wimpod",
 		fr: "Sovkipou",
@@ -104,6 +108,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -113,8 +118,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 298779,
+		tcgplayer: 138295
+	}
 }
 
 export default card

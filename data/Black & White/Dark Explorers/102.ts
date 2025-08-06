@@ -24,6 +24,11 @@ const card: Card = {
 		it: "Scarta due delle carte che hai in mano (se non puoi scartare due carte, non potrai giocare questa carta). Cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Descarte 2 cards da sua mão. (Se você não puder descartar 2 cards, não jogue este card.) Procure um Pokémon em seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe seus cards.",
 		de: "Lege 2 Karten von deiner Hand auf deinen Ablagestapel. (Wenn du keine 2 Karten auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+	},
+
+	thirdParty: {
+		cardmarket: 280430,
+		tcgplayer: 90134
 	}
 }
 

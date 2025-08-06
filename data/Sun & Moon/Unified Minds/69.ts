@@ -3,6 +3,7 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	dexId: [785],
+
 	name: {
 		en: "Tapu Koko",
 		fr: "Tokorico",
@@ -11,19 +12,18 @@ const card: Card = {
 		pt: "Tapu Koko",
 		de: "Kapu-Riki"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,22 +68,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388167,
+		tcgplayer: 194995
+	}
 }
 
 export default card

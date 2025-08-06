@@ -61,6 +61,11 @@ const card: Card = {
 
 	description: {
 		en: "It's said that this Pokémon was formed when an ancient clay tablet was drawn to a vengeful spirit."
+	},
+
+	thirdParty: {
+		cardmarket: 567190,
+		tcgplayer: 241749
 	}
 }
 

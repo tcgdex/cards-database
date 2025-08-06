@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		en: "It drifted in on the flow of ocean waters from a frigid place. It keeps its head iced constantly to make sure it stays nice and cold."
+	},
+
+	thirdParty: {
+		cardmarket: 539563
 	}
 }
 

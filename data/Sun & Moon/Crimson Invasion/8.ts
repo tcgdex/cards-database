@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Shelmet",
 		de: "Schnuthelm"
 	},
+
 	illustrator: "OOYAMA",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		616,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -60,8 +63,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 311858,
+		tcgplayer: 149029
+	}
 }
 
 export default card

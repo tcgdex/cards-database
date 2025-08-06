@@ -7,22 +7,24 @@ const card: Card = {
 		fr: "Colhomard de Team Aqua",
 		de: "Team Aquas Krebutack"
 	},
+
 	illustrator: "Nakaoka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		342,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 		"Darkness",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -63,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -70,10 +73,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275979,
+		tcgplayer: 89783
+	}
 }
 
 export default card

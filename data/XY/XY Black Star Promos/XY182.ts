@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Mandibuzz BREAK",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		630,
 	],
+
 	hp: 140,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Mandibuzz",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -38,11 +42,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 295171
+	}
 }
 
 export default card

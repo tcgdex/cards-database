@@ -64,7 +64,12 @@ const card: Card = {
 		},
 
 		damage: 50
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 274765,
+		tcgplayer: 89171
+	}
 }
 
 export default card

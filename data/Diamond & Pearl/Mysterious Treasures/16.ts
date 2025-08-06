@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il attaque en projetant des flammes. Il se dissimule derrière les vagues de chaleur qu'il produit."
+	},
+
+	thirdParty: {
+		cardmarket: 277645,
+		tcgplayer: 90105
 	}
 }
 

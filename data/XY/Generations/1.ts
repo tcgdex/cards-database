@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Venusaur EX",
 		fr: "Florizarre-EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
 	],
+
 	hp: 180,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "EX",
 
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -68,8 +71,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 288421,
+		tcgplayer: 113659
+	}
 }
 
 export default card

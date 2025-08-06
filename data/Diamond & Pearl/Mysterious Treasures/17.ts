@@ -86,6 +86,11 @@ const card: Card = {
 
 	description: {
 		fr: "Lorsqu'il est en colère, il abat des montagnes et enterre des fleuves. On doit alors modifier les cartes."
+	},
+
+	thirdParty: {
+		cardmarket: 277646,
+		tcgplayer: 90119
 	}
 }
 

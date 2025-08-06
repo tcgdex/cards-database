@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Pendant la journée il se cache sous terre. Il s'aventure la nuit pour planter des graines."
+	},
+
+	thirdParty: {
+		cardmarket: 273855,
+		tcgplayer: 45161
 	}
 }
 

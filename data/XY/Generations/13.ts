@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Ninetales EX",
 		fr: "Feunard-EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		38,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,8 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 288453,
+		tcgplayer: 113671
+	}
 }
 
 export default card

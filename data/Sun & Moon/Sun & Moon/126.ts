@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pegador de Pokémon",
 		de: "Pokémon-Fänger"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Jogue 1 moeda. Se sair cara, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
 		de: "Wirf 1 Münze. Tausche bei Kopf 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 295439
+	}
 }
 
 export default card

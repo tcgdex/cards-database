@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il ressent toutes les auras. Il comprend le langage humain."
+	},
+
+	thirdParty: {
+		cardmarket: 278210,
+		tcgplayer: 86876
 	}
 }
 

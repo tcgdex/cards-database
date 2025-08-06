@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [306],
+
 	name: {
 		en: "Aggron",
 		fr: "Galeking",
@@ -103,6 +104,11 @@ const card: Card = {
 
 	description: {
 		en: "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns."
+	},
+
+	thirdParty: {
+		cardmarket: 483494,
+		tcgplayer: 219381
 	}
 }
 

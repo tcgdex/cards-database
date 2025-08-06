@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Salamence GX",
 		de: "Brutalanda GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		373,
 	],
+
 	hp: 250,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Shelgon",
 		fr: "Drackhaus",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -101,6 +107,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -110,8 +117,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 363515,
+		tcgplayer: 175472
+	}
 }
 
 export default card

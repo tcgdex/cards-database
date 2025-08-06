@@ -97,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "Resentment at being cast off made it spring into being. Some say that treating it well will satisfy it, and it will once more become a stuffed toy."
+	},
+
+	thirdParty: {
+		cardmarket: 567171,
+		tcgplayer: 241724
 	}
 }
 

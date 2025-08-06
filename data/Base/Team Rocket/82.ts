@@ -16,6 +16,11 @@ const card: Card = {
 
 	effect: {
 		de: "Falls du diese Karte von deiner Hand spielst, entferne eine Schadensmarke von dem Pokémon, unter das du sie legst, falls es welche hat. Trank-Energy spendet -Energie. (Zählt nicht als eine Basis-Energiekarte.)"
+	},
+
+	thirdParty: {
+		cardmarket: 274135,
+		tcgplayer: 88350
 	}
 }
 

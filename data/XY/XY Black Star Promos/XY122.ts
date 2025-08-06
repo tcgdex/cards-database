@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Blastoise EX",
 		fr: "Tortank EX",
 	},
+
 	illustrator: "kawayoo",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		9,
 	],
+
 	hp: 180,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -66,8 +69,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281318
+	}
 }
 
 export default card

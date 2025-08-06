@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Warp Point",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274394,
+		tcgplayer: 90476
+	}
 }
 
 export default card

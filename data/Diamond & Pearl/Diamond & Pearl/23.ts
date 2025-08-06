@@ -81,6 +81,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il peut réduire une voiture en pièces avec ses pinces. Le bout de ses pinces contient du poison."
+	},
+
+	thirdParty: {
+		cardmarket: 277522,
+		tcgplayer: 84922
 	}
 }
 

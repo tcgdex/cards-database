@@ -93,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs."
+	},
+
+	thirdParty: {
+		cardmarket: 545096,
+		tcgplayer: 234140
 	}
 }
 

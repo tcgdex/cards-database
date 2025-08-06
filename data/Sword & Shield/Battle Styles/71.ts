@@ -53,6 +53,11 @@ const card: Card = {
 
 	description: {
 		en: "It flies straight at its target's face then clamps down on the startled victim to inject poison."
+	},
+
+	thirdParty: {
+		cardmarket: 545471,
+		tcgplayer: 234247
 	}
 }
 

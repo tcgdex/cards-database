@@ -87,7 +87,12 @@ const card: Card = {
 		en: "It attacks using the claws on its tail. Once locked in its grip, its prey is unable to move as this Pokémon's poison seeps in."
 	},
 
-	dexId: [451]
+	dexId: [451],
+
+	thirdParty: {
+		cardmarket: 436714,
+		tcgplayer: 208432
+	}
 }
 
 export default card

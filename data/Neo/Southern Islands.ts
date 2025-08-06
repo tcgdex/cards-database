@@ -18,6 +18,11 @@ const si1: Set = {
 
 	abbreviations: {
 		official: "SI"
+	},
+
+	thirdParty: {
+		cardmarket: 1633,
+		tcgplayer: 648
 	}
 }
 

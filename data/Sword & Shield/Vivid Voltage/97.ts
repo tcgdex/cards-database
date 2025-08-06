@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [750],
+
 	name: {
 		en: "Mudsdale",
 		fr: "Bourrinos",
@@ -97,6 +98,11 @@ const card: Card = {
 
 	description: {
 		en: "Mud that hardens around a Mudsdale's legs sets harder than stone. It's so hard that it allows this Pokémon to scrap a truck with a single kick."
+	},
+
+	thirdParty: {
+		cardmarket: 511905,
+		tcgplayer: 226540
 	}
 }
 

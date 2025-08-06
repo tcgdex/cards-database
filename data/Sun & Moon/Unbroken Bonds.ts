@@ -25,6 +25,11 @@ const sm10: Set = {
 	abbreviations: {
 		official: "UNB",
 		fr: "AIF"
+	},
+
+	thirdParty: {
+		cardmarket: 2437,
+		tcgplayer: 2420
 	}
 }
 

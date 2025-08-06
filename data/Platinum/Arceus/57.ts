@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Burmy Sandy Cloak",
 		de: "Burmy Sandumhang"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		412,
 	],
@@ -34,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -58,8 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278929,
+		tcgplayer: 84055
+	}
 }
 
 export default card

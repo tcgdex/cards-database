@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [404],
+
 	name: {
 		en: "Luxio",
 		fr: "Luxio",
@@ -90,6 +91,11 @@ const card: Card = {
 
 	description: {
 		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
+	},
+
+	thirdParty: {
+		cardmarket: 457738,
+		tcgplayer: 213142
 	}
 }
 

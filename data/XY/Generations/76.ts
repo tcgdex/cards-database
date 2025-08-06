@@ -6,25 +6,18 @@ const card: Card = {
 		en: "Fire Energy",
 		fr: "Énergie Fire de base",
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 288413,
+		tcgplayer: 113734
+	}
 }
 
 export default card

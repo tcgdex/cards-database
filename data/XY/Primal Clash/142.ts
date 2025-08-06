@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Política de Fraqueza",
 		de: "Schwächenschutz"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Pokémon auquel cette carte est attachée n'a pas de Faiblesse.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Pokémon ao qual este card está ligado não tem Fraqueza.",
 		de: "Das Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 273673,
+		tcgplayer: 96040
+	}
 }
 
 export default card

@@ -64,6 +64,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream."
+	},
+
+	thirdParty: {
+		cardmarket: 539673
 	}
 }
 

@@ -34,7 +34,12 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	illustrator: "Taira Akitsu",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574222,
+		tcgplayer: 246789
+	}
 }
 
 export default card

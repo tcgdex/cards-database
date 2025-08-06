@@ -85,7 +85,12 @@ const card: Card = {
 		de: "Hunduster"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 527675,
+		tcgplayer: 234104
+	}
 }
 
 export default card

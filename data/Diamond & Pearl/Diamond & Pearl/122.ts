@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Torterra",
 		de: "Chelterrar"
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		389,
 	],
+
 	hp: 160,
+
 	types: [
 		"Grass",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,6 +63,7 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -68,8 +73,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 277516,
+		tcgplayer: 89989
+	}
 }
 
 export default card

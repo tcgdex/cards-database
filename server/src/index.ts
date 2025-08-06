@@ -7,6 +7,8 @@ import { availableParallelism } from "node:os"
 import { Errors, sendError } from './libs/Errors'
 import status from './status'
 import * as Sentry from "@sentry/node"
+import { updateDatas } from './libs/providers/cardmarket'
+import { updateTCGPlayerDatas } from './libs/providers/tcgplayer'
 
 // Glitchtip will only start if the DSN is set :D
 Sentry.init({
@@ -44,6 +46,14 @@ if (cluster.isPrimary) {
 
 	// Current API version
 	const VERSION = 2
+
+	// fetch cardmarket data
+	void updateDatas()
+		.then(() => console.log('loaded cardmarket datas'))
+		.catch((err) => console.error('error loading cardmarket', err))
+	void updateTCGPlayerDatas()
+		.then(() => console.log('loaded TCGPlayer datas'))
+		.catch((err) => console.error('error loading TCGPlayer', err))
 
 	// Init Express server
 	const server = express()

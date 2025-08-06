@@ -87,6 +87,11 @@ const card: Card = {
 
 	description: {
 		en: "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution."
+	},
+
+	thirdParty: {
+		cardmarket: 545436,
+		tcgplayer: 234238
 	}
 }
 

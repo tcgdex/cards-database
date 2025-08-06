@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Lapras",
 		de: "Lapras"
 	},
+
 	illustrator: "Saya Tsuruta",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		131,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -76,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -85,8 +88,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 363493,
+		tcgplayer: 175383
+	}
 }
 
 export default card

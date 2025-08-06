@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Camerupt",
 		de: "Camerupt"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		323,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Numel",
 		fr: "Chamallot",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Numel",
 		de: "Camaub"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 288188,
+		tcgplayer: 111516
+	}
 }
 
 export default card

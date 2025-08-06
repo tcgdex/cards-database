@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Shiinotic",
 		de: "Lamellux"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		756,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Morelull",
 		fr: "Spododo",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,22 +81,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 316019,
+		tcgplayer: 157710
+	}
 }
 
 export default card

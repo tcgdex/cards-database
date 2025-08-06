@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Souvent pris pour des œufs, ils attaquent en groupe comme un essaim."
+	},
+
+	thirdParty: {
+		cardmarket: 273849,
+		tcgplayer: 45155
 	}
 }
 

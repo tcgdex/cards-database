@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Arcanine",
 		de: "Arkani"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		59,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Growlithe",
 		fr: "Caninos",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Growlithe",
 		de: "Fukano"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -81,6 +87,7 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -90,8 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 293374,
+		tcgplayer: 124031
+	}
 }
 
 export default card

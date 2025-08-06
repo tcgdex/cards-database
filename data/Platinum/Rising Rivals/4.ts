@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Mustéflott  Niv. 37",
 		de: "Bojelin GL"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		419,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -66,8 +69,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		tcgplayer: 85517
+	}
 }
 
 export default card

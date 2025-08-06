@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [435],
+
 	name: {
 		en: "Skuntank",
 		fr: "Moufflair",
@@ -94,6 +95,11 @@ const card: Card = {
 
 	description: {
 		en: "In its belly, it reserves stinky fluid that it shoots from its tail during battle. As this Pokémon's diet varies, so does the stench of its fluid."
+	},
+
+	thirdParty: {
+		cardmarket: 457983,
+		tcgplayer: 213207
 	}
 }
 
