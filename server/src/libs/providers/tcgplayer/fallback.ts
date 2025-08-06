@@ -55,7 +55,8 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 			const cacheItem = cache[item.productId] ?? {}
 
 			if (!(item.subTypeName in cacheItem)) {
-				cacheItem[variantMapping[item.subTypeName] ?? item.subTypeName] = objectOmit(item, 'productId', 'subTypeName')
+				const type = item.subTypeName.toLowerCase().replaceAll(' ', '-')
+				cacheItem[type] = objectOmit(item, 'productId', 'subTypeName')
 			}
 			cache[item.productId] = cacheItem
 		}
@@ -65,12 +66,6 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 	lastUpdate = updated
 
 	return true
-}
-
-const variantMapping: Record<string, string> = {
-	Normal: 'normal',
-	'Reverse Holofoil': 'reverse',
-	'Holofoil': 'holo'
 }
 
 export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number } }): Promise<{

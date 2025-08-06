@@ -101,7 +101,7 @@ export function getCompiledCard(lang: SupportedLanguages, id: string): any {
  * @param lang
  * @param id
  */
-async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard> {
+async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard | null> {
 	const key = `${id}${lang}`
 	const value = cache.get<SDKCard>(key)
 
@@ -114,6 +114,9 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard> 
 	// console.time('fetching DB')
 	// @ts-expect-error flemme
 	const card = list[key]
+	if (!card) {
+		return null
+	}
 	// console.timeEnd('fetching DB')
 
 	// console.time('loading providers')
