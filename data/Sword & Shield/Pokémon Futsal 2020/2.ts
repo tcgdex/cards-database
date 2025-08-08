@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Pokémon Futsal 2020'
 
 const card: Card = {
+	dexId: [133],
 	set: Set,
 
 	name: {
