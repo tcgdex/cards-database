@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [181],
 	set: Set,
 	hp: 210,
 
