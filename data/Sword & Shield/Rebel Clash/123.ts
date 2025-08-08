@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [859],
 	set: Set,
 
 	attacks: [

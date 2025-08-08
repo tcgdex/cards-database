@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "PLANETA Igarashi",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [871],
 	set: Set,
 
 	abilities: [

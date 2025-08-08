@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "nagimiso",
 	rarity: "Holo Rare",
 	category: "Pokemon",
+	dexId: [861],
 	set: Set,
 
 	evolveFrom: {

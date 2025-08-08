@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "kirisAki",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [857],
 	set: Set,
 
 	evolveFrom: {
