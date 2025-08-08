@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [448],
 	set: Set,
 	hp: 210,
 
