@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [844],
 	set: Set,
 
 	attacks: [
