@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Evolving Skies'
 
 const card: Card = {
+	dexId: [894],
 	set: Set,
 
 	variants: {
