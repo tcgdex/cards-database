@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [212],
 	set: Set,
 	hp: 210,
 

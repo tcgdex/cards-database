@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [880],
 	set: Set,
 	hp: 160,
 
