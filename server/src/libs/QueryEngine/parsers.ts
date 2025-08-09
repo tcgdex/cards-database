@@ -30,6 +30,10 @@ function isPrefix(str: string): str is Prefix {
 	return prefixes.includes(str as Prefix)
 }
 
+function toInt(val: string | number): number {
+	return typeof val === 'number' ? val : Number.parseInt(val, 10)
+}
+
 /**
  * Parse a {@link URL.searchParams} object into a {@link Query}
  *
@@ -45,18 +49,17 @@ export function parseSearchParams<T extends object = object>(searchParams: URLSe
 	const sortField = searchParams.get('sort:field')
 	if (sortField) {
 		const order = searchParams.get('sort:order') ?? 'ASC'
-
 		query.$sort = { [sortField]: order === 'ASC' ? Sort.ASC : Sort.DESC }
 	}
-	for (const [key, value] of searchParams) {
 
+	for (const [key, value] of searchParams) {
 		if (key === 'pagination:page') {
-			query.$page = Number.parseInt(value)
+			query.$page = Number.parseInt(value, 10)
 			continue
 		}
 
 		if (key === 'pagination:itemsPerPage') {
-			query.$limit = Number.parseInt(value)
+			query.$limit = Number.parseInt(value, 10)
 			continue
 		}
 
@@ -77,7 +80,6 @@ export function parseSearchParams<T extends object = object>(searchParams: URLSe
 				query[key] = params
 			}
 		}
-
 	}
 
 	return query as Query<T>
@@ -86,31 +88,32 @@ export function parseSearchParams<T extends object = object>(searchParams: URLSe
 /**
  * parse a simple {@link Record} object into a {@link Query}
  *
- * @param searchParams the searchparams object to parse
+ * @param input the record object to parse
  * @param skip keys that are skipped by the transformer
  *
- * @returns the searchParams into a Query object
+ * @returns the record into a Query object
  */
-export function recordToQuery<T extends object = object>(input: Record<string, string | Array<string>>, skip: Array<string> = []): Query<T> {
+export function recordToQuery<T extends object = object>(
+	input: Record<string, string | number | Array<string | number>>,
+	skip: Array<string> = []
+): Query<T> {
 	const query: Query<Record<string, unknown>> = {}
 	skip.push('sort:field', 'sort:order')
 
 	const sortField = input['sort:field'] as string
 	if (sortField) {
-		const order = input['sort:order'] ?? 'ASC'
-
+		const order = (input['sort:order'] as string) ?? 'ASC'
 		query.$sort = { [sortField]: order === 'ASC' ? Sort.ASC : Sort.DESC }
 	}
 
-	objectLoop(input, (value: string | Array<string>, key) => {
-
+	objectLoop(input, (value: string | number | Array<string | number>, key) => {
 		if (key === 'pagination:page') {
-			query.$page = Number.parseInt(value as string)
+			query.$page = toInt(value as any)
 			return
 		}
 
 		if (key === 'pagination:itemsPerPage') {
-			query.$limit = Number.parseInt(value as string)
+			query.$limit = toInt(value as any)
 			return
 		}
 
@@ -118,19 +121,17 @@ export function recordToQuery<T extends object = object>(input: Record<string, s
 			return
 		}
 
-		if (!Array.isArray(value)) {
-			value = [value]
-		}
+		const arr = Array.isArray(value) ? value : [value]
 
-		for (const it of value) {
+		for (const it of arr) {
 			const params = parseParam(key, it)
 			query[key] = query[key]
 				? {
-						"$and": [
-							query[key],
-							params
-						]
-					}
+					$and: [
+						query[key],
+						params
+					]
+				}
 				: params
 		}
 	})
@@ -142,15 +143,20 @@ export function recordToQuery<T extends object = object>(input: Record<string, s
  * Parse a single element
  *
  * @param _key currently unused, kept for future compatibility
- * @param value the value to parse
+ * @param value the value to parse (string with operator, or raw number)
  *
  * @returns the parsed {@link Query} element to be added
  */
-function parseParam(_key: string, value: string): QueryValues<unknown> {
+function parseParam(_key: string, value: string | number): QueryValues<unknown> {
+	if (typeof value === 'number') {
+		return { $eq: value }
+	}
+
 	const colonLocation = value.indexOf(':')
 	let filter: Prefix = 'like'
 	let compared: string | number = value
-	if (colonLocation >= 2) { // 2 because the smallest prefix is two characters long
+
+	if (colonLocation >= 2) {
 		const prefix = value.slice(0, colonLocation)
 		if (isPrefix(prefix)) {
 			filter = prefix
@@ -185,13 +191,14 @@ function parseParam(_key: string, value: string): QueryValues<unknown> {
 		}
 	}
 
-	if (/^\d+\.?\d*$/g.test(compared)) {
+	if (typeof compared === 'string' && /^\d+\.?\d*$/g.test(compared)) {
 		return process(Number.parseFloat(compared))
 	}
 
 	// @deprecated the `,` separator
 	// TODO: only use the `|` separator
-	const items = compared.split(compared.includes('|') ? '|' : ',')
+	const str = String(compared)
+	const items = str.split(str.includes('|') ? '|' : ',')
 
 	if (items.length === 1) {
 		return process(items[0])
