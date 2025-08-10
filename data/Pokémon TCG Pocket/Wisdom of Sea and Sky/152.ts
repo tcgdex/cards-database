@@ -16,7 +16,8 @@ const card: Card = {
 		en: "Discard a {R} Energy from your opponent's Active Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: ["lugia"]
 }
 
 export default card

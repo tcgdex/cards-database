@@ -16,7 +16,8 @@ const card: Card = {
 		en: "If the Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent's Pokémon, put it into your hand instead of the discard pile."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	boosters: ["ho-oh", "lugia"]
 }
 
 export default card

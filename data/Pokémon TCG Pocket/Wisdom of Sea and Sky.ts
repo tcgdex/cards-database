@@ -20,7 +20,20 @@ const set: Set = {
 		official: 161
 	},
 
-	releaseDate: "2025-07-30"
+	releaseDate: "2025-07-30",
+
+	boosters: {
+		lugia: {
+			name: {
+				en: 'Lugia'
+			}
+		},
+		'ho-oh': {
+			name: {
+				en: 'Ho=Oh'
+			}
+		}
+	}
 }
 
 export default set
