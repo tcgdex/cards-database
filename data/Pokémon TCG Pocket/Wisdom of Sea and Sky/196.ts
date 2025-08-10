@@ -16,7 +16,8 @@ const card: Card = {
 		en: "The next time you flip any number of coins for the effect of an attack, Ability, or Trainer card after using this card on this turn, the first coin flip will definitely be heads."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["lugia"]
 }
 
 export default card

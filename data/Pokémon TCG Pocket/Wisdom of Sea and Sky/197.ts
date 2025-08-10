@@ -16,7 +16,8 @@ const card: Card = {
 		en: "Switch your Active Pokémon that has damage on it with 1 of your Benched Pokémon."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["lugia"]
 }
 
 export default card

@@ -16,7 +16,8 @@ const card: Card = {
 		en: "Your opponent reveals their hand. Choose a Supporter card you find there and shuffle it into your opponent's deck."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["ho-oh"]
 }
 
 export default card

@@ -16,7 +16,8 @@ const card: Card = {
 		en: "During your opponent's next turn, all of your Steelix and Skarmory ex take −50 damage from attacks from your opponent's Pokémon."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["ho-oh"]
 }
 
 export default card

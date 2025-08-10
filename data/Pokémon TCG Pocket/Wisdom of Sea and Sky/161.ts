@@ -16,7 +16,8 @@ const card: Card = {
 		en: "For each of your {F} Pokémon in play, look at that many cards from the top of your deck and put them back in any order."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["ho-oh"]
 }
 
 export default card
