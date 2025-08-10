@@ -16,7 +16,8 @@ const card: Card = {
 		en: "Move a {R}, {W}, or {L} Energy from 1 of your Benched Pokémon to your Active Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	boosters: ["lugia"]
 }
 
 export default card
