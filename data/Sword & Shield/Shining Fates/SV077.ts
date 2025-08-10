@@ -2,7 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
-	dexId: [109],
+	dexId: [110],
 	set: Set,
 
 	name: {

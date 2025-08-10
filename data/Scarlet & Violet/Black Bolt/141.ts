@@ -2,7 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Black Bolt"
 
 const card: Card = {
-	dexId: [599],
+	dexId: [601],
 	set: Set,
 
 	name: {

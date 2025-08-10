@@ -14,7 +14,7 @@ const card: Card = {
 	illustrator: "You Iribi",
 	rarity: "Holo Rare",
 	category: "Pokemon",
-	dexId: [599],
+	dexId: [865],
 	set: Set,
 
 	evolveFrom: {
