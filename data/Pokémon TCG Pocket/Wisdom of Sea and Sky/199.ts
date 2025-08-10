@@ -16,7 +16,8 @@ const card: Card = {
 		en: "Flip 3 coins. For each heads, a {W} Pokémon is chosen at random from your discard pile and put into your hand."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["lugia"]
 }
 
 export default card
