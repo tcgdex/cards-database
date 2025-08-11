@@ -30,7 +30,7 @@ const set: Set = {
 		},
 		'ho-oh': {
 			name: {
-				en: 'Ho=Oh'
+				en: 'Ho-Oh'
 			}
 		}
 	}
