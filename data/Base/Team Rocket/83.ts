@@ -60,6 +60,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il emmagasine l'électricité dans son corps, puis la libère sans prévenir afin de surprendre et commotionner tout le monde."
+	},
+
+	thirdParty: {
+		cardmarket: 274136,
+		tcgplayer: 84647
 	}
 }
 

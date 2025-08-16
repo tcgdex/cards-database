@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Kaiminus",
 		de: "Karnimani"
 	},
+
 	illustrator: "Aimi Tomita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		158,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -62,10 +65,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275009,
+		tcgplayer: 89995
+	}
 }
 
 export default card

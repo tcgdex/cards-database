@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [529],
+
 	name: {
 		en: "Drilbur",
 		fr: "Rototaupe",
@@ -86,6 +87,11 @@ const card: Card = {
 
 	description: {
 		en: "It brings its claws together and whirls around at high speed before rushing toward its prey."
+	},
+
+	thirdParty: {
+		cardmarket: 511875,
+		tcgplayer: 226527
 	}
 }
 

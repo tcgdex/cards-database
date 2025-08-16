@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [888],
+
 	name: {
 		en: "Zacian",
 		fr: "Zacian",
@@ -99,6 +100,11 @@ const card: Card = {
 
 	description: {
 		en: "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 453298,
+		tcgplayer: 213237
 	}
 }
 

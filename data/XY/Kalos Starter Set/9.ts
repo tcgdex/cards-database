@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Braixen",
 		de: "Rutena"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		654,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Fennekin",
 		fr: "Feunnec",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Fennekin",
 		de: "Fynx"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281275,
+		tcgplayer: 83949
+	}
 }
 
 export default card

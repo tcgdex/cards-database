@@ -82,7 +82,12 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	thirdParty: {
+		cardmarket: 281056,
+		tcgplayer: 84951
+	}
 }
 
 export default card

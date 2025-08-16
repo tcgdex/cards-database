@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Lugia GX",
 		de: "Lugia GX"
 	},
+
 	illustrator: "PLANETA Igarashi",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		249,
 	],
+
 	hp: 190,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "GX",
 
@@ -103,22 +105,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 364941,
+		tcgplayer: 178980
+	}
 }
 
 export default card

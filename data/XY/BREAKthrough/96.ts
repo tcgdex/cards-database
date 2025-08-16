@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Bronzong",
 		de: "Bronzong"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		437,
 	],
+
 	hp: 110,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Bronzor",
 		fr: "Archéomire",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Bronzor",
 		de: "Bronzel"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,22 +87,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 286342,
+		tcgplayer: 107215
+	}
 }
 
 export default card

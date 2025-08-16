@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Lorsque la mer est calme, il arrive de croiser un banc de Démanta nageant comme s'il volaient."
+	},
+
+	thirdParty: {
+		cardmarket: 277658,
+		tcgplayer: 87183
 	}
 }
 

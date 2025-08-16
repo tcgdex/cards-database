@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [218],
+
 	name: {
 		en: "Slugma",
 		fr: "Limagma",
@@ -86,6 +87,11 @@ const card: Card = {
 
 	description: {
 		en: "Its body is made of magma. If it doesn't keep moving, its body will cool and harden."
+	},
+
+	thirdParty: {
+		cardmarket: 511555,
+		tcgplayer: 226398
 	}
 }
 

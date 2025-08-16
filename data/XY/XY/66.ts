@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Gurdurr",
 		de: "Strepoli"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		533,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Timburr",
 		fr: "Charpenti",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Timburr",
 		de: "Praktibalk"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -93,8 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281403,
+		tcgplayer: 85984
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [460],
+
 	name: {
 		en: "Abomasnow",
 		fr: "Blizzaroi",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers."
+	},
+
+	thirdParty: {
+		cardmarket: 457458,
+		tcgplayer: 213083
 	}
 }
 

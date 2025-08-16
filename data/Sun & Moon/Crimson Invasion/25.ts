@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Crawdaunt",
 		de: "Krebutack"
 	},
+
 	illustrator: "Saya Tsuruta",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		342,
 	],
+
 	hp: 110,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Corphish",
 		fr: "Écrapince",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -66,8 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 311875,
+		tcgplayer: 149046
+	}
 }
 
 export default card

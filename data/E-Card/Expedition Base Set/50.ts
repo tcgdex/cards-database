@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Krabboss",
 		de: "Kingler"
 	},
+
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		99,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Krabby",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -65,6 +69,7 @@ const card: Card = {
 			damage: 70
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -72,10 +77,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274890,
+		tcgplayer: 86455
+	}
 }
 
 export default card

@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "On raconte qu'une fois tous les mille ans, il a la capacité d'exaucer tous les vœux durant une semaine."
+	},
+
+	thirdParty: {
+		cardmarket: 278180,
+		tcgplayer: 86328
 	}
 }
 

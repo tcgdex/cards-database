@@ -74,6 +74,10 @@ const card: Card = {
 
 	description: {
 		en: "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle."
+	},
+
+	thirdParty: {
+		cardmarket: 539853
 	}
 }
 

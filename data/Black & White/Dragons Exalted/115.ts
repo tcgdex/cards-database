@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cachecol de Resgate",
 		de: "Rettender Schal"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée est mis K.O. par les dégâts d’une attaque, placez-le dans votre main. (Défaussez toutes les cartes attachées au Pokémon mis K.O.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se o Pokémon ao qual esse card está ligado for Nocauteado por danos de um ataque, coloque esse Pokémon em sua mão. (Descarte todos os cards ligados a esse Pokémon.)",
 		de: "Nimm das Pokémon, an das diese Karte angelegt ist, auf die Hand, wenn es durch Schaden eines Angriffs kampfunfähig wird. (Lege alle an dieses Pokémon angelegten Karten auf deinen Ablagestapel.)"
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 280554,
+		tcgplayer: 88702
+	}
 }
 
 export default card

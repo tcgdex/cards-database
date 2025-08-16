@@ -10,20 +10,22 @@ const card: Card = {
 		pt: "Rowlet e Exeggutor de Alola GX",
 		de: "Bauz & Alola-Kokowei GX"
 	},
+
 	illustrator: "ConceptLab",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		103,
 		722
 	],
+
 	hp: 270,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -114,6 +116,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -123,8 +126,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 377514,
+		tcgplayer: 194916
+	}
 }
 
 export default card

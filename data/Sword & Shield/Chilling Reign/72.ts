@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		en: "Using the braids on its head, it pummels foes to get them to quiet down. One blow from those braids would knock out a professional boxer."
+	},
+
+	thirdParty: {
+		cardmarket: 567180,
+		tcgplayer: 241733
 	}
 }
 

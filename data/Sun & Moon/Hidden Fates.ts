@@ -25,6 +25,11 @@ const sm115: Set = {
 	abbreviations: {
 		official: "HIF",
 		fr: "DOC"
+	},
+
+	thirdParty: {
+		cardmarket: 2514,
+		tcgplayer: 2480
 	}
 }
 

@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Naganadel GX",
 		de: "Agoyon GX"
 	},
+
 	illustrator: "PLANETA Tsuji",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		804,
 	],
+
 	hp: 210,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Poipole",
 		fr: "Vémini",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -98,6 +104,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -107,8 +114,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 378873,
+		tcgplayer: 195158
+	}
 }
 
 export default card

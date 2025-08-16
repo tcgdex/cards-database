@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Pyukumuku",
 		de: "Gufa"
 	},
+
 	illustrator: "You Iribi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		771,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,6 +75,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -80,8 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 295358,
+		tcgplayer: 126918
+	}
 }
 
 export default card

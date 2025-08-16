@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pokémaníaco",
 		de: "Pokémaniac"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez dans votre deck jusqu’à 3 Pokémon avec un Coût de Retraite de 4, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure por até 3 Pokémon que tenham um custo de Recuo de exatamente 4 no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach bis zu 3 Pokémon, die Rückzugskosten von genau 4 haben, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 388807
+	}
 }
 
 export default card

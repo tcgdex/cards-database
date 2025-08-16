@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Chris",
 		de: "Chrys"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez 2 cartes de votre main. Dans ce cas, piochez 4 cartes.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Descarte 2 cartas da sua mão. Se fizer isto, compre 4 cartas.",
 		de: "Lege 2 Karten aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 4 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 302202,
+		tcgplayer: 146732
+	}
 }
 
 export default card

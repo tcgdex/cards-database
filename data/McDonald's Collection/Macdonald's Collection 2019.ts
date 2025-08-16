@@ -20,6 +20,10 @@ const s2019sm: Set = {
 
 	abbreviations: {
 		official: "MCD19"
+	},
+
+	thirdParty: {
+		tcgplayer: 2555
 	}
 }
 

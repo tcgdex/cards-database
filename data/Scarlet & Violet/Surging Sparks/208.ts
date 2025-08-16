@@ -50,7 +50,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Yukihiro Tada"
+	illustrator: "Yukihiro Tada",
+
+	thirdParty: {
+		cardmarket: 794496
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Mares Agitados",
 		de: "Raue See"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Une seule fois pendant le tour de chaque joueur, ce joueur peut soigner 30 dégâts à chacun de ses Pokémon Water et de ses Pokémon Lightning.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Uma vez durante a vez de jogar de cada jogador, esse jogador pode curar 30 de danos de cada um de seus próprios Pokémon Water e Pokémon Lightning.",
 		de: "Einmal während seines Zuges darf jeder Spieler 30 Schadenspunkte bei jedem seiner Water-Pokémon und Lightning-Pokémon heilen."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 273668,
+		tcgplayer: 96035
+	}
 }
 
 export default card

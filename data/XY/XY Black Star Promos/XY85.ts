@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Hoopa EX",
 		fr: "Hoopa EX",
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		720,
 	],
+
 	hp: 140,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "EX",
 
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -62,8 +65,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289790
+	}
 }
 
 export default card

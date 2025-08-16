@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [709],
+
 	name: {
 		en: "Trevenant",
 		fr: "Desséliande",
@@ -93,6 +94,11 @@ const card: Card = {
 
 	description: {
 		en: "People fear it due to a belief that it devours any who try to cut down trees in its forest, but to the Pokémon it shares its woods with, it's kind."
+	},
+
+	thirdParty: {
+		cardmarket: 457468,
+		tcgplayer: 213085
 	}
 }
 

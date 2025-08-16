@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps libère une puissante force magnétique. Il dirige trois petites unités appelées Mini-nez."
+	},
+
+	thirdParty: {
+		cardmarket: 278162,
+		tcgplayer: 88375
 	}
 }
 

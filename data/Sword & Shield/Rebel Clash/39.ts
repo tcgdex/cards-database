@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [129],
+
 	name: {
 		en: "Magikarp",
 		fr: "Magicarpe",
@@ -65,6 +66,11 @@ const card: Card = {
 
 	description: {
 		en: "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world."
+	},
+
+	thirdParty: {
+		cardmarket: 457638,
+		tcgplayer: 213117
 	}
 }
 

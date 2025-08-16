@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Ditto",
 		de: "Ditto"
 	},
+
 	illustrator: "HiRON",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		132,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
@@ -56,8 +59,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280695,
+		tcgplayer: 84845
+	}
 }
 
 export default card

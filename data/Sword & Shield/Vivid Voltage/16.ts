@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [649],
+
 	name: {
 		en: "Genesect",
 		fr: "Genesect",
@@ -94,6 +95,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back."
+	},
+
+	thirdParty: {
+		cardmarket: 511500,
+		tcgplayer: 226380
 	}
 }
 

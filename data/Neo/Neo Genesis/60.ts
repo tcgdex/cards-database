@@ -74,6 +74,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il se tient toujours sur une patte. Il change de patte si rapidement qu'on ne peut pas voir le mouvement."
+	},
+
+	thirdParty: {
+		cardmarket: 274460,
+		tcgplayer: 86169
 	}
 }
 

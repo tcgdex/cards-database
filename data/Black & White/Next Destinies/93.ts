@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia de Prisma",
 		de: "Prisma-Energie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte fournit de l’Énergie Colorless. Si le Pokémon auquel cette carte est attachée est un Pokémon de base, cette carte fournit n’importe quel type d’Énergie mais ne fournit qu’une Énergie à la fois.",
@@ -35,7 +25,12 @@ const card: Card = {
 		de: "Diese Karte liefert Colorless-Energie. Wenn diese Karte an ein Basis-Pokémon angelegt ist, zählt sie als jeder beliebige Energietyp, spendet aber immer nur jeweils 1 Energie."
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 280318,
+		tcgplayer: 88374
+	}
 }
 
 export default card

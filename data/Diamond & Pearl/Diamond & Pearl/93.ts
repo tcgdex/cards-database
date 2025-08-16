@@ -68,6 +68,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est fier et déteste accepter la nourriture qu'on lui offre. Son pelage épais le protège du froid."
+	},
+
+	thirdParty: {
+		cardmarket: 277592,
+		tcgplayer: 88142
 	}
 }
 

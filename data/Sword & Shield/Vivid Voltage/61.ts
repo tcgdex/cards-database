@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [807],
+
 	name: {
 		en: "Zeraora",
 		fr: "Zeraora",
@@ -70,6 +71,11 @@ const card: Card = {
 
 	description: {
 		en: "It runs as fast as lightning strikes, shredding its opponents with its high-voltage claws."
+	},
+
+	thirdParty: {
+		cardmarket: 511725,
+		tcgplayer: 226459
 	}
 }
 

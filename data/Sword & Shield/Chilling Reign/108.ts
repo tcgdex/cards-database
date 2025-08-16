@@ -92,6 +92,11 @@ const card: Card = {
 
 	description: {
 		en: "Inhabiting the mountains of a distant region, this Pokémon races across sheer cliffs, training its legs and refining its moves."
+	},
+
+	thirdParty: {
+		cardmarket: 567216,
+		tcgplayer: 241783
 	}
 }
 

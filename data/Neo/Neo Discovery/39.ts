@@ -68,6 +68,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il utilise différents types d'aboiements pour communiquer avec les autres de son espèce et pour chasser sa proie."
+	},
+
+	thirdParty: {
+		cardmarket: 274516,
+		tcgplayer: 86218
 	}
 }
 

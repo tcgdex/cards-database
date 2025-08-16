@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il se déplace en silence pour dévorer des œufs de Roucool ou de Piafabec."
+	},
+
+	thirdParty: {
+		cardmarket: 273907,
+		tcgplayer: 44448
 	}
 }
 

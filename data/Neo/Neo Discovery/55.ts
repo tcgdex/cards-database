@@ -57,6 +57,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps est si léger qu'il doit s'accrocher fermement au sol avec ses pattes pour éviter d'être emporté par le vent."
+	},
+
+	thirdParty: {
+		cardmarket: 274566,
+		tcgplayer: 86176
 	}
 }
 

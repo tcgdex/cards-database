@@ -90,6 +90,9 @@ const card: Card = {
 
 	description: {
 		en: "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest."
+  },
+	thirdParty: {
+		cardmarket: 760764
 	}
 }
 

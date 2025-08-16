@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "En analysant les courants aériens, il peut prédire le temps ou la prochaine action de son ennemi."
+	},
+
+	thirdParty: {
+		cardmarket: 274512,
+		tcgplayer: 85320
 	}
 }
 

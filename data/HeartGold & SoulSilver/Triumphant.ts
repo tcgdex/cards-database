@@ -24,6 +24,11 @@ const hgss4: Set = {
 	abbreviations: {
 		official: "TRI",
 		fr: "TRI"
+	},
+
+	thirdParty: {
+		cardmarket: 1569,
+		tcgplayer: 1381
 	}
 }
 

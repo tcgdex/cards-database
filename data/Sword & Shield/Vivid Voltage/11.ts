@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [274],
+
 	name: {
 		en: "Nuzleaf",
 		fr: "Pifeuil",
@@ -71,6 +72,11 @@ const card: Card = {
 
 	description: {
 		en: "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy."
+	},
+
+	thirdParty: {
+		cardmarket: 511475,
+		tcgplayer: 226373
 	}
 }
 

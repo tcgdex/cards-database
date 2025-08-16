@@ -93,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "It stores energy by sleeping at underwater depths at which no other life forms can survive."
+	},
+
+	thirdParty: {
+		cardmarket: 545121,
+		tcgplayer: 234161
 	}
 }
 

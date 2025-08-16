@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Swalot",
 		de: "Schlukwech"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		317,
 	],
+
 	hp: 110,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gulpin",
 		fr: "Gloupti",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Gulpin",
 		de: "Schluppuck"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -93,8 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281844,
+		tcgplayer: 94236
+	}
 }
 
 export default card

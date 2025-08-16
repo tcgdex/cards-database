@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Trevenant",
 		de: "Trombork"
 	},
+
 	illustrator: "Hiroyuki Yamamoto",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		709,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Phantump",
 		fr: "Brocélôme",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -80,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -89,8 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 297471,
+		tcgplayer: 130692
+	}
 }
 
 export default card

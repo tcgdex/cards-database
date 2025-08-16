@@ -67,6 +67,11 @@ const card: Card = {
 
 	description: {
 		fr: "Après une longue exposition au soleil, les motifs de ses nageoires caudales luisent à la nuit tombée."
+	},
+
+	thirdParty: {
+		cardmarket: 277712,
+		tcgplayer: 85449
 	}
 }
 

@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ses ailes solides semblent lourdes, mais elles sont en fait creuses et légères, lui permettant de voler librement dans le ciel."
+	},
+
+	thirdParty: {
+		cardmarket: 274413,
+		tcgplayer: 89232
 	}
 }
 

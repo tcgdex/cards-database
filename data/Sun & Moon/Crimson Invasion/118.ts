@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Exeggutor de Alola GX",
 		de: "Alola-Kokowei GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		103,
 	],
+
 	hp: 220,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
@@ -105,6 +109,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -114,8 +119,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 301682,
+		tcgplayer: 149139
+	}
 }
 
 export default card

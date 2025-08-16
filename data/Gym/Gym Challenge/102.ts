@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Chaos Gym",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274370,
+		tcgplayer: 84181
+	}
 }
 
 export default card

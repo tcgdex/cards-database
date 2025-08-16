@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [256],
+
 	name: {
 		en: "Combusken",
 		fr: "Galifeu",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power."
+	},
+
+	thirdParty: {
+		cardmarket: 482989,
+		tcgplayer: 219236
 	}
 }
 

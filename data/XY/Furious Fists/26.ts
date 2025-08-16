@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Aurorus",
 		de: "Amagarga"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		699,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Amaura",
 		fr: "Amagara",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Amaura",
 		de: "Amarino"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -81,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -90,8 +97,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281690,
+		tcgplayer: 92201
+	}
 }
 
 export default card

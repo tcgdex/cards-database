@@ -94,6 +94,11 @@ const card: Card = {
 		it: "Ambra Antica di Aerodactyl",
 		pt: "Âmbar Velho de Aerodactyl",
 		de: "Altbernstein Aerodactyl"
+	},
+
+	thirdParty: {
+		cardmarket: 289897,
+		tcgplayer: 117851
 	}
 }
 

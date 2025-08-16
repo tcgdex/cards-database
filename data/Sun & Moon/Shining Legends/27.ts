@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Volcanion Luminescente",
 		de: "Schimmerndes Volcanion"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		721,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -78,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -87,8 +90,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 302165,
+		tcgplayer: 146681
+	}
 }
 
 export default card

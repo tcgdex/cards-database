@@ -10,22 +10,26 @@ const card: Card = {
 		pt: "Venusaur e Snivy GX",
 		de: "Bisaflor & Serpifeu GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
 		495,
 	],
+
 	hp: 270,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
 	suffix: "TAG TEAM-GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -47,6 +51,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -92,6 +97,7 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -101,8 +107,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 398449,
+		tcgplayer: 201609
+	}
 }
 
 export default card

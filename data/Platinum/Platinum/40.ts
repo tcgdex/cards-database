@@ -7,21 +7,25 @@ const card: Card = {
 		fr: "Coatox ",
 		de: "Toxiquak G"
 	},
+
 	illustrator: "Ryota Saito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		454,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
 	suffix: "SP",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -37,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -66,8 +72,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		tcgplayer: 90012
+	}
 }
 
 export default card

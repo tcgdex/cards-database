@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Questa carta fornisce Energia Colorless.\n\nQuando è assegnata a un’Ultracreatura, questa carta fornisce un’Energia di qualsiasi tipo, ma solo una alla volta. Gli attacchi dell’Ultracreatura a cui è assegnata questa carta infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Esta carta fornece Energia Colorless.\n\nEnquanto esta carta estiver ligada a uma Ultracriatura, ela fornecerá todo tipo de Energia, mas só fornecerá 1 Energia por vez. Os ataques da Ultracriatura à qual esta carta está ligada causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		de: "Diese Karte liefert Colorless-Energie.\n\nIst sie an eine Ultrabestie angelegt, liefert diese Karte jeden beliebigen Energietyp, aber immer nur jeweils 1 Energie. Die Attacken der Ultrabestie, an die diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+	},
+
+	thirdParty: {
+		cardmarket: 319909
 	}
 }
 

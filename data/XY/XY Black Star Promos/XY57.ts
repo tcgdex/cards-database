@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Fearow",
 		fr: "Rapasdepic",
 	},
+
 	illustrator: "match",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		22,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Spearow",
 		fr: "Piafabec",
 	},
+
 	stage: "Stage1",
 
 	attacks: [
@@ -58,22 +63,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289782
+	}
 }
 
 export default card

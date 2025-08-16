@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Funesto",
 		de: "Astor"
 	},
+
 	illustrator: "kodama",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Déplacez jusqu’à 3 marqueurs de dégâts de l’un des Pokémon de votre adversaire vers un autre de ses Pokémon.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Mova até 3 contadores de dano de 1 dos Pokémon do seu oponente para outro Pokémon dele(a).",
 		de: "Verschiebe bis zu 3 Schadensmarken von 1 Pokémon deines Gegners auf 1 anderes seiner Pokémon."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 388782,
+		tcgplayer: 195295
+	}
 }
 
 export default card

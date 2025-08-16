@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Memória Psíquica",
 		de: "Psycho-Disc"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Silvallié-GX auquel cette carte est attachée est un Pokémon Psychic.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Pokémon Silvally-GX ao qual esta carta está ligada é um Pokémon Psychic.",
 		de: "Das Amigento-GX, an das diese Karte angelegt ist, ist ein Psychic-Pokémon."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 311944,
+		tcgplayer: 149123
+	}
 }
 
 export default card

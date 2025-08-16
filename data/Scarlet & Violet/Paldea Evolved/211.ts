@@ -90,6 +90,10 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 	description: {
 		en: "Its tail discharges electricity into the ground, protecting it from getting shocked."
+  },
+
+	thirdParty: {
+		cardmarket: 715539
 	}
 }
 

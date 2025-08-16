@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il lui suffit de méditer pour lancer une puissante attaque psychique."
+	},
+
+	thirdParty: {
+		cardmarket: 273726,
+		tcgplayer: 42373
 	}
 }
 

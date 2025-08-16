@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		en: "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey."
+	},
+
+	thirdParty: {
+		cardmarket: 545611,
+		tcgplayer: 234196
 	}
 }
 

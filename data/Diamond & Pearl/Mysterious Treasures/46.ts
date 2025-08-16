@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		fr: "Quand Doduo connait cette étrange évolution, l'une de ses têtes se dédouble. Il atteint les 60 km/h."
+	},
+
+	thirdParty: {
+		cardmarket: 277675,
+		tcgplayer: 84852
 	}
 }
 

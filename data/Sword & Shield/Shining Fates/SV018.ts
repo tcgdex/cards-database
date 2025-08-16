@@ -57,6 +57,10 @@ const card: Card = {
 
 	description: {
 		en: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot."
+	},
+
+	thirdParty: {
+		cardmarket: 539478
 	}
 }
 

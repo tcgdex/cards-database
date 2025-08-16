@@ -36,7 +36,11 @@ const card: Card = {
 		en: "Dedenne"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275066
+	}
 }
 
 export default card

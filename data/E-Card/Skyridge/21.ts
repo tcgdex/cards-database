@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Moltres",
 		de: "Lavados"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		146,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,13 +81,19 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-	retreat: 2
+	retreat: 2,
+
+	thirdParty: {
+		cardmarket: 275230,
+		tcgplayer: 87558
+	}
 }
 
 export default card

@@ -62,7 +62,12 @@ const card: Card = {
 		en: "It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574182,
+		tcgplayer: 246853
+	}
 }
 
 export default card

@@ -24,6 +24,11 @@ const set: Set = {
 	abbreviations: {
 		official: "MEW",
 		fr: "151"
+	},
+
+	thirdParty: {
+		cardmarket: 5402,
+		tcgplayer: 23237
 	}
 }
 

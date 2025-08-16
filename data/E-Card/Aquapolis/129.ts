@@ -30,7 +30,12 @@ const card: Card = {
 		},
 
 		cost: ["Metal"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 275205,
+		tcgplayer: 87348
+	}
 }
 
 export default card

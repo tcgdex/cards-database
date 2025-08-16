@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Kaorine de Team Magma",
 		de: "Team Magmas Lepumentas"
 	},
+
 	illustrator: "Zu-Ka",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		344,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -68,10 +71,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275985,
+		tcgplayer: 89826
+	}
 }
 
 export default card

@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Rien ne peut perturber ses nerfs d'acier. Il est plus agile et énergique qu'il n'y paraît."
+	},
+
+	thirdParty: {
+		cardmarket: 277569,
+		tcgplayer: 83824
 	}
 }
 

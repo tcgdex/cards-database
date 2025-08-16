@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Seaking",
 		de: "Golking"
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		119,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Goldeen",
 		fr: "Poissirène",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Goldeen",
 		de: "Goldini"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 286274,
+		tcgplayer: 107147
+	}
 }
 
 export default card

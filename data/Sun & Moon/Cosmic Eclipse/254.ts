@@ -10,16 +10,19 @@ const card: Card = {
 		pt: "Solgaleo e Lunala GX",
 		de: "Solgaleo & Lunala GX"
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		791,
 		792
 	],
+
 	hp: 270,
+
 	types: [
 		"Psychic",
 	],
@@ -82,6 +85,7 @@ const card: Card = {
 			damage: 200
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -91,8 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 398464,
+		tcgplayer: 201614
+	}
 }
 
 export default card

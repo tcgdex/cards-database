@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it."
+	},
+
+	thirdParty: {
+		cardmarket: 567213,
+		tcgplayer: 241780
 	}
 }
 

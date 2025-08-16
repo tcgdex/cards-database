@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Explorador VS",
 		de: "Kampffahnder"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Ajoutez une carte Supporter de votre pile de défausse à votre main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Coloque um card de Apoiador da sua pilha de descarte em sua mão.",
 		de: "Nimm 1 Unterstützerkarte von deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 282778,
+		tcgplayer: 98146
+	}
 }
 
 export default card

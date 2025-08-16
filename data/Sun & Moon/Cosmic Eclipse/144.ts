@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Clefairy",
 		de: "Piepi"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		35,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fairy",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,12 +55,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
@@ -68,6 +72,13 @@ const card: Card = {
 	retreat: 1,
 	description: {
 		en: "They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves."
+  },
+
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 408364,
+		tcgplayer: 201188
 	}
 }
 

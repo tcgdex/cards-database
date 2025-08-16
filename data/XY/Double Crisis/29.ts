@@ -6,28 +6,23 @@ const card: Card = {
 		en: "Team Magma Admin",
 		fr: "Admin Team Magma",
 	},
+
 	illustrator: "GAME FREAK inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Ajoutez jusqu'à 3 Pokémon de la Team Magma de votre pile de défausse à votre main.",
 		en: "Put up to 3 Team Magma Pokémon from your discard pile into your hand."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 282540,
+		tcgplayer: 97075
+	}
 }
 
 export default card

@@ -110,7 +110,12 @@ const card: Card = {
 		en: "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing."
 	},
 
-	dexId: [94]
+	dexId: [94],
+
+	thirdParty: {
+		cardmarket: 436549,
+		tcgplayer: 208393
+	}
 }
 
 export default card

@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Sceptile EX",
 		fr: "Jungko EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		254,
 	],
+
 	hp: 170,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "EX",
 
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -65,8 +68,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289716
+	}
 }
 
 export default card

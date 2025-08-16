@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ses plantes de pieds sont couvertes d'épines qui lui permettent de marcher au mur et au plafond"
+	},
+
+	thirdParty: {
+		cardmarket: 278377,
+		tcgplayer: 90040
 	}
 }
 

@@ -61,6 +61,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il améliore ses réflexes en stimulant ses muscles grâce à l'électricité dans sa fourrure."
+	},
+
+	thirdParty: {
+		cardmarket: 277710,
+		tcgplayer: 85139
 	}
 }
 

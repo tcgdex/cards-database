@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [527],
+
 	name: {
 		en: "Woobat",
 		fr: "Chovsourir",
@@ -75,6 +76,11 @@ const card: Card = {
 
 	description: {
 		en: "While inside a cave, if you look up and see lots of heart-shaped marks lining the walls, it's evidence that Woobat live there."
+	},
+
+	thirdParty: {
+		cardmarket: 511785,
+		tcgplayer: 226481
 	}
 }
 

@@ -65,6 +65,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail."
+	},
+
+	thirdParty: {
+		cardmarket: 539583
 	}
 }
 

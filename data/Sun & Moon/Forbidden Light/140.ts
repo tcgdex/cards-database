@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Ultra Necrozma GX",
 		de: "Ultra-Necrozma GX"
 	},
+
 	illustrator: "PLANETA Igarashi",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		800,
 	],
+
 	hp: 190,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "GX",
 
@@ -75,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -84,8 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 319908,
+		tcgplayer: 165757
+	}
 }
 
 export default card

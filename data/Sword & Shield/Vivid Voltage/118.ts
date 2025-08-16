@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [376],
+
 	name: {
 		en: "Metagross",
 		fr: "Métalosse",
@@ -109,6 +110,11 @@ const card: Card = {
 
 	description: {
 		en: "It analyzes its opponents with more accuracy than a supercomputer, which enables it to calmly back them into a corner."
+	},
+
+	thirdParty: {
+		cardmarket: 512300,
+		tcgplayer: 226572
 	}
 }
 

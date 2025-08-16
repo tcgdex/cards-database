@@ -131,6 +131,10 @@ export interface Set extends SetResume {
 	};
 	cards: Array<CardResume>;
 	abbreviation: { official: string, localized: string };
+	thirdParty?: {
+		cardmarket?: number
+		tcgplayer?: number
+	}
 }
 export interface CardResume {
 	id: string;
@@ -147,6 +151,10 @@ export interface CardResume {
  * /sets/:set/:localId
  */
 export interface Card extends CardResume {
+	thirdParty?: {
+		cardmarket?: number
+		tcgplayer?: number
+	}
 	/**
 	 * Card illustrator
 	 */

@@ -69,6 +69,11 @@ const card: Card = {
 
 	description: {
 		fr: "Sa silhouette rappelle une étoile. On dit qu'il descend sur terre en chevauchant une étoile filante."
+	},
+
+	thirdParty: {
+		cardmarket: 277577,
+		tcgplayer: 84366
 	}
 }
 

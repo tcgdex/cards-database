@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Brigette",
 		de: "Linette"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez 1 Pokémon-EX de base ou 3 Pokémon de base dans votre deck (à part les Pokémon-EX) et placez-les sur votre Banc. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure em seu baralho por 1 Pokémon-EX Básico ou 3 Pokémon Básicos (exceto Pokémon-EX), e coloque-os no seu Banco. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach 1 Basis-Pokémon-EX oder 3 Basis-Pokémon (außer Pokémon-EX) und lege sie auf deine Bank. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 286380,
+		tcgplayer: 107280
+	}
 }
 
 export default card

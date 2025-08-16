@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Tíquete Reservado",
 		de: "Vorbestellte Fahrkarte"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c'est face, cherchez une carte dans votre deck. Mélangez votre deck, puis mettez la carte sur le dessus de votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Jogue uma moeda. Se sair cara, procure um card em seu baralho, embaralhe o seu baralho e coloque o card sobre ele.",
 		de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Karte, mische anschließend dein Deck und lege jene Karte auf dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 286393,
+		tcgplayer: 107268
+	}
 }
 
 export default card

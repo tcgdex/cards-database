@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		en: "According to legends, it was hatched from a flaming cocoon to save people and Pokémon that were suffering from the cold."
+	},
+
+	thirdParty: {
+		cardmarket: 567104,
+		tcgplayer: 241676
 	}
 }
 

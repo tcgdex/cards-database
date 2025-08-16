@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Sylveon EX",
 		fr: "Nymphali-EX",
 	},
+
 	illustrator: "sui",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		700,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fairy",
 	],
-
 
 	suffix: "EX",
 
@@ -57,22 +59,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 288530
+	}
 }
 
 export default card

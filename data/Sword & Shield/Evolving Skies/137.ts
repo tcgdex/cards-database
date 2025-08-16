@@ -97,7 +97,12 @@ const card: Card = {
 		en: "Because this Pokémon is hotheaded and belligerent, it's Corviknight that's taken the role of transportation in Galar."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574195,
+		tcgplayer: 246877
+	}
 }
 
 export default card

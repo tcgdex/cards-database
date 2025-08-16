@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Centro de Pokémon",
 		de: "Pokémon-Center"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Une seule fois pendant le tour de chaque joueur, ce joueur peut soigner 20 dégâts à 1 de ses Pokémon de Banc.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Uma vez, durante a vez de jogar de cada jogador, aquele jogador poderá curar 20 de danos de 1 dos seus Pokémon no Banco.",
 		de: "Einmal während seines Zuges darf jeder Spieler 20 Schadenspunkte bei 1 seiner Pokémon auf der Bank heilen."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 280315
+	}
 }
 
 export default card

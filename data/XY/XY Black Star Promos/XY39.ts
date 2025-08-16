@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Kingdra",
 		fr: "Hyporoi",
 	},
+
 	illustrator: "hatachu",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		230,
 	],
+
 	hp: 130,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Seadra",
 		fr: "Hypocéan",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -35,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -68,6 +74,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -77,8 +84,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289702
+	}
 }
 
 export default card

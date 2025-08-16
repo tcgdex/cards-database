@@ -97,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns."
+	},
+
+	thirdParty: {
+		cardmarket: 567219,
+		tcgplayer: 241786
 	}
 }
 

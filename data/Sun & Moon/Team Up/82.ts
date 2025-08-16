@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Lycanroc GX",
 		de: "Wolwerock GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		745,
 	],
+
 	hp: 200,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Rockruff",
 		fr: "Rocabot",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -92,6 +98,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -101,8 +108,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 369012,
+		tcgplayer: 183860
+	}
 }
 
 export default card

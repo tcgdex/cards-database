@@ -55,6 +55,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un habitant des icebergs. En mer, il utilise la corne sur sa tête pour briser la banquise."
+	},
+
+	thirdParty: {
+		cardmarket: 277726,
+		tcgplayer: 89053
 	}
 }
 

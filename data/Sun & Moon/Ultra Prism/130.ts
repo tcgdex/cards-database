@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Monte Coronete",
 		de: "Kraterberg"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Une seule fois pendant le tour de chaque joueur, ce joueur peut placer 2 cartes Énergie Metal de sa pile de défausse dans sa main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode colocar 2 cartas de Energia Metal da própria pilha de descarte na própria mão.",
 		de: "Einmal während des Zuges jedes Spielers kann der Spieler 2 Metal-Energiekarten aus seinem Ablagestapel auf seine Hand nehmen."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 316055,
+		tcgplayer: 158187
+	}
 }
 
 export default card

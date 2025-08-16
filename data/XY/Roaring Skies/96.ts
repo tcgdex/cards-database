@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Winona",
 		de: "Wibke"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez jusqu'à 3 Pokémon Colorless dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure no seu baralho até 3 Pokémon Colorless, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach bis zu 3 Colorless-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 282764,
+		tcgplayer: 98132
+	}
 }
 
 export default card

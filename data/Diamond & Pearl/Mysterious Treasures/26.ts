@@ -84,6 +84,11 @@ const card: Card = {
 
 	description: {
 		fr: "Lorsqu'il apparaît, sa rage ne cesse qu'après qu'il a rasé les plaines et montagnes alentour."
+	},
+
+	thirdParty: {
+		cardmarket: 277655,
+		tcgplayer: 85993
 	}
 }
 

@@ -72,6 +72,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il sommeille au fond de l'océan pour s'alimenter en énergie. On raconte qu'il provoque des tornades quand il se réveille."
+	},
+
+	thirdParty: {
+		cardmarket: 274605,
+		tcgplayer: 86442
 	}
 }
 

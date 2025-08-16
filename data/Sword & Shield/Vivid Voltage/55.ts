@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [595],
+
 	name: {
 		en: "Joltik",
 		fr: "Statitik",
@@ -62,6 +63,11 @@ const card: Card = {
 
 	description: {
 		en: "Joltik can be found clinging to other Pokémon. It's soaking up static electricity because it can't produce a charge on its own."
+	},
+
+	thirdParty: {
+		cardmarket: 511695,
+		tcgplayer: 226452
 	}
 }
 

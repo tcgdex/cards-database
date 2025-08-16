@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son épine dorsale le protège. Ses os et ses nageoires sont très prisés en médecine traditionnelle."
+	},
+
+	thirdParty: {
+		cardmarket: 278219,
+		tcgplayer: 89015
 	}
 }
 

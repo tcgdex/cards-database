@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		en: "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent."
+	},
+
+	thirdParty: {
+		cardmarket: 567215,
+		tcgplayer: 241781
 	}
 }
 

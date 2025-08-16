@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Hugh",
 		de: "Matisse"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque joueur pioche ou défausse des cartes jusqu’à avoir 5 cartes dans sa main. (Votre adversaire le fait en premier.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cada jogador compra ou descarta cards até ter 5 cards na mão. (Seu oponente faz isso primeiro.)",
 		de: "Jeder Spieler muss so viele Karten ziehen oder ablegen, bis er 5 Karten auf der Hand hat. (Dein Gegner beginnt.)"
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 280717,
+		tcgplayer: 86235
+	}
 }
 
 export default card

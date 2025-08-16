@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Ho-Oh GX",
 		de: "Ho-Oh GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		250,
 	],
+
 	hp: 190,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "GX",
 
@@ -102,22 +104,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 299427,
+		tcgplayer: 138499
+	}
 }
 
 export default card

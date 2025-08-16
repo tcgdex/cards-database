@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [589],
+
 	name: {
 		en: "Escavalier",
 		fr: "Lançargot",
@@ -102,6 +103,11 @@ const card: Card = {
 
 	description: {
 		en: "They use shells they've stolen from Shelmet to arm and protect themselves. They're very popular Pokémon in the Galar region."
+	},
+
+	thirdParty: {
+		cardmarket: 483499,
+		tcgplayer: 219383
 	}
 }
 

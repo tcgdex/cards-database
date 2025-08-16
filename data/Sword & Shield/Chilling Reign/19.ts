@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
+	},
+
+	thirdParty: {
+		cardmarket: 567099,
+		tcgplayer: 241668
 	}
 }
 

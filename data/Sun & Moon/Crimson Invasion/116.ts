@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Guzzlord GX",
 		de: "Schlingking GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		799,
 	],
+
 	hp: 210,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "GX",
 
@@ -97,22 +99,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 301172,
+		tcgplayer: 149135
+	}
 }
 
 export default card

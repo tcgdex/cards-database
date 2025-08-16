@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [133],
+
 	name: {
 		en: "Eevee",
 		fr: "Évoli",
@@ -79,6 +80,11 @@ const card: Card = {
 
 	description: {
 		en: "It has the ability to alter the composition of its body to suit its surrounding environment."
+	},
+
+	thirdParty: {
+		cardmarket: 512360,
+		tcgplayer: 226586
 	}
 }
 

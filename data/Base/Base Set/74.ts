@@ -16,6 +16,11 @@ const card: Card = {
 	effect: {
 		fr: "Défaussez 2 des autres cartes de votre main pour placer une carte Dresseur de votre pile de défausse dans votre main.",
 		de: "Entferne 2 Karten Deiner Hand, um eine Trainerkarte aus Deinem Ablagestapel aufzunehmen."
+	},
+
+	thirdParty: {
+		cardmarket: 273769,
+		tcgplayer: 42420
 	}
 }
 

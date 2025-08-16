@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Rapide et agile comme un ninja, il se déplace si vite qu'il crée l'illusion d'être en groupe."
+	},
+
+	thirdParty: {
+		cardmarket: 273807,
+		tcgplayer: 45121
 	}
 }
 

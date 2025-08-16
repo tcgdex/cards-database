@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Corda de Fuga",
 		de: "Fluchtseil"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chaque joueur échange son Pokémon Actif avec l’un de ses Pokémon de Banc. Votre adversaire échange en premier. (Si l’un des joueurs n’a pas de Pokémon de Banc, il n’échange pas de Pokémon).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cada jogador troca o seu Pokémon Ativo por 1 dos próprios Pokémon no Banco. O seu oponente troca primeiro (se um jogador não possuir Pokémon no Banco, aquele jogador não troca o Pokémon).",
 		de: "Jeder Spieler tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus. Dein Gegener tauscht als Erster. (Hat ein Spieler kein Pokémon auf der Bank, tauscht jener Spieler kein Pokémon aus.)"
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 299515,
+		tcgplayer: 138625
+	}
 }
 
 export default card

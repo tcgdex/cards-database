@@ -24,6 +24,11 @@ const card: Card = {
 		it: "Pesca tre carte.",
 		pt: "Compre 3 cards.",
 		de: "Ziehe 3 Karten."
+	},
+
+	thirdParty: {
+		cardmarket: 280419,
+		tcgplayer: 84249
 	}
 }
 

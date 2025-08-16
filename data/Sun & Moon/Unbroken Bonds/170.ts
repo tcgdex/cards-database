@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Inquieteco de Energias",
 		de: "Energie-Spinner"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez une carte Énergie de base dans votre deck, montrez-la, puis ajoutez-la à votre main. Si vous jouez en second et que c’est votre premier tour, cherchez jusqu’à 3 cartes Énergie de base au lieu d’une. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure por 1 carta de Energia básica no seu baralho, revele-a e coloque-a na sua mão. Se você for o segundo a jogar e esta for a sua primeira vez de jogar, procure por até 3 cartas de Energia básica ao invés de 1. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck nach bis zu 3 Basis-Energiekarten anstelle von 1 Basis-Energiekarte. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 372455,
+		tcgplayer: 189271
+	}
 }
 
 export default card

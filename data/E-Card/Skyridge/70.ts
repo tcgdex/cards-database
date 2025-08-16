@@ -6,21 +6,26 @@ const card: Card = {
 		en: "Kakuna",
 		de: "Kokuna"
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		14,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Weedle",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -36,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,6 +59,7 @@ const card: Card = {
 			}
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -60,10 +67,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275328,
+		tcgplayer: 86410
+	}
 }
 
 export default card

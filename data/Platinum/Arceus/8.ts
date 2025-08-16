@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Salamence",
 		de: "Brutalanda"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		373,
 	],
@@ -18,9 +19,11 @@ const card: Card = {
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Shelgon",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -36,6 +39,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -70,22 +74,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 278880,
+		tcgplayer: 88899
+	}
 }
 
 export default card

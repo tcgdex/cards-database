@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Leviator ",
 		de: "Garados G"
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		130,
 	],
+
 	hp: 110,
+
 	types: [
 		"Water",
 	],
@@ -63,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -72,8 +76,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		tcgplayer: 86005
+	}
 }
 
 export default card

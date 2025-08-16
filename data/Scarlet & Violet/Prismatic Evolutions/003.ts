@@ -42,7 +42,11 @@ const card: Card = {
 	weaknesses: [{
 		type: "Fire",
 		value: "x2"
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 805392
+	}
 }
 
 export default card

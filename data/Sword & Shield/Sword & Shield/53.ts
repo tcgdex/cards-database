@@ -89,7 +89,12 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 427211,
+		tcgplayer: 206046
+	}
 }
 
 export default card

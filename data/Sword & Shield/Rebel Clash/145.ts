@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [521],
+
 	name: {
 		en: "Unfezant",
 		fr: "Déflaisan",
@@ -108,6 +109,11 @@ const card: Card = {
 
 	description: {
 		en: "Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed."
+	},
+
+	thirdParty: {
+		cardmarket: 458123,
+		tcgplayer: 213245
 	}
 }
 

@@ -19,7 +19,11 @@ const dpp: Set = {
 		official: 56
 	},
 
-	releaseDate: "2007-05-01"
+	releaseDate: "2007-05-01",
+
+	thirdParty: {
+		tcgplayer: 1421
+	}
 }
 
 export default dpp

@@ -80,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
+	},
+
+	thirdParty: {
+		cardmarket: 539908
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [209],
+
 	name: {
 		en: "Snubbull",
 		fr: "Snubbull",
@@ -63,6 +64,11 @@ const card: Card = {
 
 	description: {
 		en: "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied."
+	},
+
+	thirdParty: {
+		cardmarket: 483229,
+		tcgplayer: 219445
 	}
 }
 

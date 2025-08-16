@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant."
+	},
+
+	thirdParty: {
+		cardmarket: 544901,
+		tcgplayer: 234035
 	}
 }
 

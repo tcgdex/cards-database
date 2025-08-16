@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [602],
+
 	name: {
 		en: "Tynamo",
 		fr: "Anchwatt",
@@ -84,6 +85,11 @@ const card: Card = {
 
 	description: {
 		en: "One alone can emit only trickle of electricity, so a group of them gathers to unleash a powerful electric shock."
+	},
+
+	thirdParty: {
+		cardmarket: 511705,
+		tcgplayer: 226455
 	}
 }
 

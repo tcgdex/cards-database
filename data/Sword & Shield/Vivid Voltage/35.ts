@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [503],
+
 	name: {
 		en: "Samurott",
 		fr: "Clamiral",
@@ -102,6 +103,11 @@ const card: Card = {
 
 	description: {
 		en: "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody."
+	},
+
+	thirdParty: {
+		cardmarket: 511595,
+		tcgplayer: 226415
 	}
 }
 

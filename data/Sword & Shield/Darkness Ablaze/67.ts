@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [39],
+
 	name: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
@@ -79,6 +80,11 @@ const card: Card = {
 
 	description: {
 		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
+	},
+
+	thirdParty: {
+		cardmarket: 483214,
+		tcgplayer: 219441
 	}
 }
 

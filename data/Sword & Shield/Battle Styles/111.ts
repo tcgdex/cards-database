@@ -58,6 +58,11 @@ const card: Card = {
 
 	description: {
 		en: "Due to its short wings, it can't fly long distances. It wanders about restlessly and pecks at bug Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 545636,
+		tcgplayer: 234150
 	}
 }
 

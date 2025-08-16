@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [512],
+
 	name: {
 		en: "Simisage",
 		fr: "Feuiloutan",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter."
+	},
+
+	thirdParty: {
+		cardmarket: 482909,
+		tcgplayer: 219075
 	}
 }
 

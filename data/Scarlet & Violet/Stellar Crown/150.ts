@@ -50,7 +50,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "MARINA Chikazawa"
+	illustrator: "MARINA Chikazawa",
+
+	thirdParty: {
+		cardmarket: 785904
+	}
 }
 
 export default card

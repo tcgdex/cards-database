@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Energy Retrieval",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274033,
+		tcgplayer: 42449
+	}
 }
 
 export default card

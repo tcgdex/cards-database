@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Criadora de Pokémon",
 		de: "Pokémon-Züchterin"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 2 cartes et soignez 20 dégâts à votre Pokémon Actif. Si votre deck ne contient aucune carte, vous ne pouvez pas jouer cette carte.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Compre 2 cartas e cure 20 pontos de dano do seu Pokémon Ativo. Se você não tiver nenhuma carta no seu baralho, não poderá jogar esta carta.",
 		de: "Ziehe 2 Karten und heile 20 Schadenspunkte bei deinem Aktiven Pokémon. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 302200
+	}
 }
 
 export default card

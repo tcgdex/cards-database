@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey."
+	},
+
+	thirdParty: {
+		cardmarket: 606600
 	}
 }
 

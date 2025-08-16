@@ -88,6 +88,11 @@ const card: Card = {
 
 	description: {
 		fr: "Grâce à la température élevée et la haute pression souterraines, son corps est plus dur que le métal."
+	},
+
+	thirdParty: {
+		cardmarket: 277537,
+		tcgplayer: 89561
 	}
 }
 

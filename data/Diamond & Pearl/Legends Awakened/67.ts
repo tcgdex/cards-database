@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il bouge si vite que l'œil a parfois du mal à le suivre. Ils se regroupent près de la sève des arbres."
+	},
+
+	thirdParty: {
+		cardmarket: 278216,
+		tcgplayer: 87786
 	}
 }
 

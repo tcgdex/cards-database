@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [251],
+
 	name: {
 		en: "Celebi",
 		fr: "Celebi",
@@ -92,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has the ability to move through time. Records describing it as a forest deity can be found from many different eras."
+	},
+
+	thirdParty: {
+		cardmarket: 511465,
+		tcgplayer: 226371
 	}
 }
 

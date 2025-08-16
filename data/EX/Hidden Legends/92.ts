@@ -17,6 +17,11 @@ const card: Card = {
 	effect: {
 		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.\n\nVous pouvez piocher autant de cartes que votre adversaire possède de Pokémon en jeu.\n\nSi vous avez 7 cartes ou plus dans votre main (celle-ci incluse), vous ne pouvez pas jouer cette carte.",
 		de: "Draw a number of cards, up to the number of your opponent's Pokémon in play.\nIf you have more than 7 cards (including this one) in your hand, you can't play this card."
+	},
+
+	thirdParty: {
+		cardmarket: 276166,
+		tcgplayer: 89569
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Gastrodon",
 		de: "Gastrodon"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		423,
 	],
+
 	hp: 110,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Shellos",
 		fr: "Sancoki",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Shellos",
 		de: "Schalellos"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -92,8 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 291565,
+		tcgplayer: 121016
+	}
 }
 
 export default card

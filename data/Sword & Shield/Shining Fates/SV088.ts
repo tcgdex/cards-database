@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "Living in mud with a high iron content has given it a strong steel body."
+	},
+
+	thirdParty: {
+		cardmarket: 539828
 	}
 }
 

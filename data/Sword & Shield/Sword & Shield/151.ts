@@ -103,7 +103,12 @@ const card: Card = {
 		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
 	},
 
-	dexId: [822]
+	dexId: [822],
+
+	thirdParty: {
+		cardmarket: 436849,
+		tcgplayer: 208472
+	}
 }
 
 export default card

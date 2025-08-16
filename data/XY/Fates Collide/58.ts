@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Mandibuzz",
 		de: "Grypheldis"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		630,
 	],
+
 	hp: 110,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Vullaby",
 		fr: "Vostourno",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Vullaby",
 		de: "Skallyk"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,22 +79,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289879,
+		tcgplayer: 117815
+	}
 }
 
 export default card

@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Celesteela GX",
 		de: "Kaguron GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		797,
 	],
+
 	hp: 200,
+
 	types: [
 		"Metal",
 	],
-
 
 	suffix: "GX",
 
@@ -98,22 +100,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 316068,
+		tcgplayer: 157778
+	}
 }
 
 export default card

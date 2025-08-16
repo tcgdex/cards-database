@@ -17,6 +17,11 @@ const card: Card = {
 	effect: {
 		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous jouez cette carte, placez-la à côté de votre Pokémon Actif. À la fin de votre tour, défaussez-la.\n\nDéfaussez 1 Pokémon de votre main. Ensuite, piochez 3 cartes. Si vous avez défaussé un Pokémon dont le nom comporte Team Aqua, piochez 4 cartes.",
 		de: "Discard any 1 Pokémon from your hand. Then draw 3 cards. If you discarded a Pokémon with Team Aqua in its name, draw 4 cards instead."
+	},
+
+	thirdParty: {
+		cardmarket: 276046,
+		tcgplayer: 89772
 	}
 }
 

@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Capidextre  Niv. 40",
 		de: "Ambidiffel G"
 	},
+
 	illustrator: "Makoto Imai",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		424,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
@@ -59,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -68,8 +72,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		tcgplayer: 83530
+	}
 }
 
 export default card

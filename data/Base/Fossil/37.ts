@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		fr: "Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage."
+	},
+
+	thirdParty: {
+		cardmarket: 273898,
+		tcgplayer: 44439
 	}
 }
 

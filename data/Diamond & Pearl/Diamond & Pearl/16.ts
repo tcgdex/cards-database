@@ -86,6 +86,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon sauvage qui a le courage de défier des ennemis beaucoup plus grands que lui."
+	},
+
+	thirdParty: {
+		cardmarket: 277515,
+		tcgplayer: 89508
 	}
 }
 

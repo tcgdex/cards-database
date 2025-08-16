@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [309],
+
 	name: {
 		en: "Electrike",
 		fr: "Dynavolt",
@@ -85,6 +86,11 @@ const card: Card = {
 
 	description: {
 		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
+	},
+
+	thirdParty: {
+		cardmarket: 511675,
+		tcgplayer: 226447
 	}
 }
 

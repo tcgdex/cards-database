@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Sa forme élancée lui permet de nager rapidement. Il lacère sa proie avant d'en absorber la vie."
+	},
+
+	thirdParty: {
+		cardmarket: 273870,
+		tcgplayer: 106525
 	}
 }
 

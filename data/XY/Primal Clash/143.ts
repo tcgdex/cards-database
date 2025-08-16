@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia de Escudo",
 		de: "SchutzEnergie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ne peut être attachée qu'à un Pokémon Metal. Cette carte ne fournit de l'Énergie Metal que pendant qu'elle est attachée à un Pokémon Metal.\n\nLes attaques des Pokémon de votre adversaire infligent 10 dégâts de moins au Pokémon Metal auquel cette carte est attachée (avant application de la Faiblesse et de la Résistance).\n\n(Si cette carte est attachée à autre chose qu'un Pokémon Metal, défaussez cette carte.)",
@@ -35,7 +25,12 @@ const card: Card = {
 		de: "Diese Karte kann nur an Metal-Pokémon angelegt werden. Diese Karte liefert nur dann Metal-Energie, wenn sie an ein Metal-Pokémon angelegt ist.\n\nDie Angriffe der Pokémon deines Gegners fügen dem Metal-Pokémon, an das diese Karte angelegt ist, 10 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden).\n\n(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Metal-Pokémon angelegt ist.)"
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 273674,
+		tcgplayer: 96041
+	}
 }
 
 export default card

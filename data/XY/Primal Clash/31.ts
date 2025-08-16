@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Seadra",
 		de: "Seemon"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		117,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Horsea",
 		fr: "Hypotrempe",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Horsea",
 		de: "Seeper"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -84,8 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273562,
+		tcgplayer: 95923
+	}
 }
 
 export default card

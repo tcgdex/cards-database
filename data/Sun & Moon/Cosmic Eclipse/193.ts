@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Guzma e Pandam",
 		de: "Bromley & Hala"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez une carte Stade dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.\n\nLorsque vous jouez cette carte, vous pouvez défausser 2 autres cartes de votre main. Dans ce cas, vous pouvez également chercher une carte Outil Pokémon et une carte Énergie spéciale de cette façon.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure por 1 carta de Estádio no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.\n\nQuando você joga esta carta, você pode descartar outras 2 cartas da sua mão. Se fizer isto, você também pode procurar por 1 carta de Ferramenta Pokémon e 1 carta de Energia Especial desta forma.",
 		de: "Durchsuche dein Deck nach 1 Stadionkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.\n\nWenn du diese Karte spielst, kannst du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, kannst du auf diese Weise auch nach 1 Pokémon-Ausrüstung und 1 Spezial-Energiekarte suchen."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 398569,
+		tcgplayer: 201314
+	}
 }
 
 export default card

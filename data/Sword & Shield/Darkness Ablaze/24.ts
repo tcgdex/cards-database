@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [257],
+
 	name: {
 		en: "Blaziken",
 		fr: "Braségali",
@@ -102,6 +103,11 @@ const card: Card = {
 
 	description: {
 		en: "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings."
+	},
+
+	thirdParty: {
+		cardmarket: 482994,
+		tcgplayer: 219237
 	}
 }
 

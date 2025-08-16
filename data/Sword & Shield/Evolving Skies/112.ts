@@ -69,7 +69,12 @@ const card: Card = {
 		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574160,
+		tcgplayer: 246910
+	}
 }
 
 export default card

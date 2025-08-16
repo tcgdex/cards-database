@@ -27,11 +27,17 @@ const card: Card = {
 
 	trainerType: "Stadium",
 	regulationMark: "F",
+
 	variants: {
 		normal: true,
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 608690,
+		tcgplayer: 257310
 	}
 }
 

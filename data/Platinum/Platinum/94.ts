@@ -7,21 +7,25 @@ const card: Card = {
 		fr: "Moufflair ",
 		de: "Skuntank G"
 	},
+
 	illustrator: "Makoto Imai",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		435,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
 	suffix: "SP",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -37,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -66,8 +72,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		tcgplayer: 89284
+	}
 }
 
 export default card

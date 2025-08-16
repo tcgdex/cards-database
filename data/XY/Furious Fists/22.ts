@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Beartic",
 		de: "Siberio"
 	},
+
 	illustrator: "PLANETA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		614,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Cubchoo",
 		fr: "Polarhume",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Cubchoo",
 		de: "Petznief"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -85,6 +89,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -94,8 +99,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 281686,
+		tcgplayer: 92197
+	}
 }
 
 export default card

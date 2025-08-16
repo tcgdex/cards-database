@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [276],
+
 	name: {
 		en: "Taillow",
 		fr: "Nirondelle",
@@ -77,6 +78,11 @@ const card: Card = {
 
 	description: {
 		en: "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day."
+	},
+
+	thirdParty: {
+		cardmarket: 512375,
+		tcgplayer: 226589
 	}
 }
 

@@ -93,7 +93,12 @@ const card: Card = {
 		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron."
 	},
 
-	dexId: [52]
+	dexId: [52],
+
+	thirdParty: {
+		cardmarket: 436744,
+		tcgplayer: 208438
+	}
 }
 
 export default card

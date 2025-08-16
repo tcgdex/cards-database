@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Roxie",
 		de: "Mica"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez jusqu’à 2 Pokémon qui ne sont pas des Pokémon-GX ou des Pokémon-EX de votre main. Piochez 3 cartes pour chaque carte défaussée de cette façon.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Descarte até 2 Pokémon que não sejam Pokémon-GX ou Pokémon-EX da sua mão. Compre 3 cartas para cada carta descartada desta forma.",
 		de: "Lege bis zu 2 Pokémon, die keine Pokémon-GX oder Pokémon-EX sind, aus deiner Hand auf deinen Ablagestapel. Ziehe 3 Karten für jede auf diese Weise auf deinen Ablagestapel gelegte Karte."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 408619,
+		tcgplayer: 201325
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cartão Vermelho Espião",
 		de: "Rote Späher-Karte"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Votre adversaire dévoile sa main. Vous pouvez demander à votre adversaire de compter les cartes dans sa main, de les mélanger avec son deck, puis de piocher ce même nombre de cartes.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Seu oponente revela a própria mão. Você pode fazer com que o seu oponente conte as cartas na própria mão, embaralhe aquelas cartas no baralho dele(a) e então compre aquele mesmo número de cartas.",
 		de: "Dein Gegner zeigt dir seine Handkarten. Du kannst deinen Gegner dazu veranlassen, die Karten auf seiner Hand zu zählen, jene Karten in sein Deck zu mischen und anschließend dieselbe Anzahl Karten zu ziehen."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 311945,
+		tcgplayer: 149122
+	}
 }
 
 export default card

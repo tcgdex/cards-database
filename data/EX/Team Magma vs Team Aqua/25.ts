@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Carvanha de Team Aqua",
 		de: "Team Aquas Kanivanha"
 	},
+
 	illustrator: "Mt. TBT",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		318,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -64,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276002,
+		tcgplayer: 89776
+	}
 }
 
 export default card

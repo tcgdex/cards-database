@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Diana",
 		de: "Journée"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si le Pokémon Actif de votre adversaire est un Pokémon de Niveau 2.\n\nCherchez jusqu’à 2 cartes dans votre deck, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se o Pokémon Ativo do seu oponente for um Pokémon Estágio 2.\n\nProcure por até 2 cartas no seu baralho e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Du kannst diese Karte nur spielen, wenn das Aktive Pokémon deines Gegners ein Phase-2-Pokémon ist.\n\nDurchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 369064,
+		tcgplayer: 183927
+	}
 }
 
 export default card

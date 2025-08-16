@@ -76,11 +76,17 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "E",
+
 	variants: {
 		normal: true,
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 691760,
+		tcgplayer: 478147
 	}
 }
 

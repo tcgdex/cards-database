@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [308],
+
 	name: {
 		en: "Medicham",
 		fr: "Charmina",
@@ -100,6 +101,11 @@ const card: Card = {
 
 	description: {
 		en: "Through yoga training, it gained the psychic power to predict its foe's next move."
+	},
+
+	thirdParty: {
+		cardmarket: 457903,
+		tcgplayer: 213186
 	}
 }
 

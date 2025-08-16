@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Si le Kokyias attaché à sa queue se défait, ce Pokémon redevient un Ramoloss normal."
+	},
+
+	thirdParty: {
+		cardmarket: 274703,
+		tcgplayer: 86748
 	}
 }
 

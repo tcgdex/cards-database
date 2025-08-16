@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [622],
+
 	name: {
 		en: "Golett",
 		fr: "Gringolem",
@@ -88,6 +89,11 @@ const card: Card = {
 
 	description: {
 		en: "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders."
+	},
+
+	thirdParty: {
+		cardmarket: 483259,
+		tcgplayer: 219456
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Doce Raro",
 		de: "Sonderbonbon"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez 1 de vos Pokémon de base en jeu. Si vous avez dans votre main un Pokémon de Niveau 2 qui est une évolution du Pokémon choisi, placez-la sur le Pokémon de base. (Cela équivaut à faire évoluer le Pokémon.) Vous ne pouvez pas utiliser cette carte pendant votre premier tour ni sur un Pokémon de base qui a été joué pendant ce tour.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Escolha 1 dos seus Pokémon Básicos em jogo. Se você possuir um card de Estágio 2 em sua mão que evolua daquele Pokémon, coloque o card no Pokémon Básico. (Isso conta como evoluir este Pokémon.) Você não pode usar este card durante o primeiro turno ou em um Pokémon Básico que foi colocado em jogo neste turno.",
 		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Wenn du eine Phase-2-Karte auf der Hand hast, die sich aus diesem Pokémon entwickelt, lege sie auf das Basis-Pokémon. (Das zählt als Entwickeln des gewählten Pokémon.) Du kannst diese Karte nicht während deines ersten Zuges oder für ein Basis-Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281106,
+		tcgplayer: 88597
+	}
 }
 
 export default card

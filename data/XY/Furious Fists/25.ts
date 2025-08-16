@@ -81,6 +81,11 @@ const card: Card = {
 		it: "Fossilpinna",
 		pt: "Fóssil de Vela",
 		de: "Flossenfossil"
+	},
+
+	thirdParty: {
+		cardmarket: 281689,
+		tcgplayer: 92200
 	}
 }
 

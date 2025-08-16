@@ -53,7 +53,11 @@ const card: Card = {
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 152837
+	}
 }
 
 export default card
