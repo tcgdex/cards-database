@@ -66,6 +66,11 @@ const card: Card = {
 
 	description: {
 		en: "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
+	},
+
+	thirdParty: {
+		cardmarket: 457768,
+		tcgplayer: 213152
 	}
 }
 

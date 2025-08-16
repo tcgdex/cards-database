@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Mismagius",
 		de: "Traunmagil"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		429,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Misdreavus",
 		fr: "Feuforêve",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Misdreavus",
 		de: "Traunfugil"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -80,22 +86,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286312,
+		tcgplayer: 107185
+	}
 }
 
 export default card

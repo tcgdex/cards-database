@@ -97,7 +97,12 @@ const card: Card = {
 		en: "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack."
 	},
 
-	dexId: [171]
+	dexId: [171],
+
+	thirdParty: {
+		cardmarket: 436479,
+		tcgplayer: 208368
+	}
 }
 
 export default card

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Slowking",
 		de: "Laschoking"
 	},
+
 	illustrator: "sowsow",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		199,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -78,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -87,8 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 365694,
+		tcgplayer: 178862
+	}
 }
 
 export default card

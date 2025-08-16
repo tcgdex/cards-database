@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Greninja e Zoroark GX",
 		de: "Quajutsu & Zoroark GX"
 	},
+
 	illustrator: "kodama",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		571,
 	],
+
 	hp: 250,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -75,22 +77,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 370788,
+		tcgplayer: 189310
+	}
 }
 
 export default card

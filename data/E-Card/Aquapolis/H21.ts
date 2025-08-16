@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Cizayox",
 		de: "Scherox"
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		212,
 	],
+
 	hp: 80,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Scyther",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -78,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -85,10 +92,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275045,
+		tcgplayer: 88957
+	}
 }
 
 export default card

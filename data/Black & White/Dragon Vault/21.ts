@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Kyurem",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		646,
 	],
+
 	hp: 130,
+
 	types: [
 		"Dragon",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Dragon",
@@ -59,10 +62,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 281021,
+		tcgplayer: 86563
+	}
 }
 
 export default card

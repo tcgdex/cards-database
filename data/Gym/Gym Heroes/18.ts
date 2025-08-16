@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Misty",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare Holo",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274145,
+		tcgplayer: 87523
+	}
 }
 
 export default card

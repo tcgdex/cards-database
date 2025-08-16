@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cassius",
 		de: "Olivier"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Mélangez l'un de vos Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Embaralhe 1 dos seus Pokémon e todos os cards ligados a ele em seu baralho.",
 		de: "Mische 1 deiner Pokémon und alle an es angelegten Karten zurück in dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 281452,
+		tcgplayer: 84124
+	}
 }
 
 export default card

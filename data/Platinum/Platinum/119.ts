@@ -30,7 +30,12 @@ const card: Card = {
 		effect: {
 			de: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 278540,
+		tcgplayer: 83626
+	}
 }
 
 export default card

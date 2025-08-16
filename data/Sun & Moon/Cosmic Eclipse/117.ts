@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Seismitoad",
 		de: "Branawarz"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		537,
 	],
+
 	hp: 160,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Palpitoad",
 		fr: "Batracné",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -86,8 +93,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 408234,
+		tcgplayer: 201149
+	}
 }
 
 export default card

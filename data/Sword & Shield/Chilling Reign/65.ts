@@ -70,6 +70,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon was created from clay. It received orders from its master many thousands of years ago, and it still follows those orders to this day."
+	},
+
+	thirdParty: {
+		cardmarket: 567173,
+		tcgplayer: 241726
 	}
 }
 

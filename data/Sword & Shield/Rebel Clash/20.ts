@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [840],
+
 	name: {
 		en: "Applin",
 		fr: "Verpom",
@@ -67,6 +68,11 @@ const card: Card = {
 
 	description: {
 		en: "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it's just an apple and nothing more."
+	},
+
+	thirdParty: {
+		cardmarket: 457558,
+		tcgplayer: 213093
 	}
 }
 

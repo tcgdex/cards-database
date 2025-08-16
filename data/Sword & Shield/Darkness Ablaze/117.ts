@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [890],
+
 	name: {
 		en: "Eternatus VMAX",
 		fr: "Éthernatos VMAX",
@@ -97,7 +98,12 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+
+	thirdParty: {
+		cardmarket: 483464,
+		tcgplayer: 219435
+	}
 }
 
 export default card

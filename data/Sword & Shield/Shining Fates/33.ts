@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger."
+	},
+
+	thirdParty: {
+		cardmarket: 539188,
+		tcgplayer: 232463
 	}
 }
 

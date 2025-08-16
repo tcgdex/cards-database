@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Lugia",
 		de: "Lugia"
 	},
+
 	illustrator: "Kazuyuki Kano",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		249,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,22 +63,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 277767,
+		tcgplayer: 86908
+	}
 }
 
 export default card

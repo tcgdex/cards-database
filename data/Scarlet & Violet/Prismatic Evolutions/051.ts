@@ -65,7 +65,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "PLANETA Tsuji"
+	illustrator: "PLANETA Tsuji",
+
+	thirdParty: {
+		cardmarket: 805440
+	}
 }
 
 export default card

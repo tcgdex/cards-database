@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Munja",
 		de: "Ninjatom"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		292,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Nincada",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,11 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		tcgplayer: 89118,
+		cardmarket: 276417
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Super Bastão",
 		de: "Superangel"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez une combinaison de 3 cartes de Pokémon et d'Énergies de base dans votre pile de défausse et mélangez-les avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Embaralhe qualquer combinação de 3 cards entre Pokémon e Energia básica de sua pilha de descarte em seu baralho.",
 		de: "Mische eine Kombination aus insgesamt 3 Pokémon- und Basis-Energiekarten von deinem Ablagestapel zurück in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 286395,
+		tcgplayer: 107267
+	}
 }
 
 export default card

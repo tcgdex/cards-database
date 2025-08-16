@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Noibat",
 		de: "eF-eM"
 	},
+
 	illustrator: "0313",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		714,
 	],
+
 	hp: 60,
+
 	types: [
 		"Dragon",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -61,8 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388582,
+		tcgplayer: 195156
+	}
 }
 
 export default card

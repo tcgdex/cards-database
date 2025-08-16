@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Ampharos",
 		de: "Ampharos"
 	},
+
 	illustrator: "Satoshi Shirai",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		181,
 	],
+
 	hp: 150,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Flaaffy",
 		fr: "Lainergie",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -74,22 +80,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 365716,
+		tcgplayer: 178887
+	}
 }
 
 export default card

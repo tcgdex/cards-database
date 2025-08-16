@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Substituição",
 		de: "Tausch"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "",
 		de: ""
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 302204,
+		tcgplayer: 146726
+	}
 }
 
 export default card

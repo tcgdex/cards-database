@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Dracaufeu",
 		de: "Glurak"
 	},
+
 	illustrator: "Hiromichi Sugiyama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charmeleon",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,14 +67,20 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	retreat: 3,
 
+	thirdParty: {
+		cardmarket: 274881,
+		tcgplayer: 84183
+	}
 }
 
 export default card

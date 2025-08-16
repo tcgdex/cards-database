@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [277],
+
 	name: {
 		en: "Swellow",
 		fr: "Hélédelle",
@@ -109,6 +110,11 @@ const card: Card = {
 
 	description: {
 		en: "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws."
+	},
+
+	thirdParty: {
+		cardmarket: 512380,
+		tcgplayer: 226590
 	}
 }
 

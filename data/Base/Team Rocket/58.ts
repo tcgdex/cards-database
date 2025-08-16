@@ -70,6 +70,11 @@ const card: Card = {
 
 	description: {
 		fr: "Découvert en premier lieu dans une usine d'armement, on trouve ce Pokémon presque partout."
+	},
+
+	thirdParty: {
+		cardmarket: 274111,
+		tcgplayer: 86491
 	}
 }
 

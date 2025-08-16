@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Regigigas",
 		de: "Regigigas"
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		486,
 	],
+
 	hp: 150,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		fr: "Regigigas LV.X",
 	},
+
 	stage: "LEVEL-UP",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -70,8 +77,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 278307,
+		tcgplayer: 88669
+	}
 }
 
 export default card

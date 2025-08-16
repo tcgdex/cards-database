@@ -52,7 +52,11 @@ const card: Card = {
 	resistances: [{
 		type: "Metal",
 		value: "-20"
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 152868
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [249],
+
 	name: {
 		en: "Lugia",
 		fr: "Lugia",
@@ -94,6 +95,11 @@ const card: Card = {
 
 	description: {
 		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
+	},
+
+	thirdParty: {
+		cardmarket: 483579,
+		tcgplayer: 219340
 	}
 }
 

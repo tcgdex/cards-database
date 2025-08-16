@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Cizayox ex",
 		de: "Scherox ex"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		212,
 	],
+
 	hp: 120,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Scyther",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -78,12 +84,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
@@ -91,9 +99,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276754,
+		tcgplayer: 88967
+	}
 }
 
 export default card

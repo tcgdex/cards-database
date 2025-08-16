@@ -25,7 +25,11 @@ const card: Card = {
 		de: "Heile 20 Schadenspunkte und entferne 1 Speziellen Zustand von deinem Aktiven Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	thirdParty: {
+		tcgplayer: 152849
+	}
 }
 
 export default card

@@ -80,6 +80,11 @@ const card: Card = {
 
 	description: {
 		fr: "Les poches sur ses joues sont encore trop petites pour accumuler beaucoup d'électricité."
+	},
+
+	thirdParty: {
+		cardmarket: 278343,
+		tcgplayer: 88019
 	}
 }
 

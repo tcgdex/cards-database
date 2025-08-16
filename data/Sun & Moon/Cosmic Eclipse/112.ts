@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Armaldo",
 		de: "Armaldo"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		348,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Anorith",
 		fr: "Anorith",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -80,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -89,8 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 408209,
+		tcgplayer: 201144
+	}
 }
 
 export default card

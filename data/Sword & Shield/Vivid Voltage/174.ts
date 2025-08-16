@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [865],
+
 	name: {
 		en: "Galarian Sirfetch'd V",
 		fr: "Palarticho de Galar V",
@@ -90,7 +91,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 512580,
+		tcgplayer: 226607
+	}
 }
 
 export default card

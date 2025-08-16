@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il hante les fissures dans la roche et les trous au fond de la mer. Ses ventouses ne lâchent jamais prise."
+	},
+
+	thirdParty: {
+		cardmarket: 277686,
+		tcgplayer: 87832
 	}
 }
 

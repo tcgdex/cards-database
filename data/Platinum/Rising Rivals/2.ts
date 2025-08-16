@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Bastiodon  Niv. 41",
 		de: "Bollterus GL"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		411,
 	],
+
 	hp: 90,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -64,22 +66,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		tcgplayer: 83738
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia Herbal",
 		de: "Kräuter-Energie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ne peut être attachée qu'à un Pokémon Grass. Cette carte ne fournit de l'Énergie Grass que pendant qu'elle est attachée à un Pokémon Grass.\n\nLorsque vous attachez cette carte de votre main à l'un de vos Pokémon Grass, soignez 30 dégâts au Pokémon.\n\n(Si cette carte est attachée à autre chose qu'un Pokémon Grass, défaussez cette carte.)",
@@ -35,7 +25,12 @@ const card: Card = {
 		de: "Diese Karte kann nur an Grass-Pokémon angelegt werden. Diese Karte liefert nur dann Grass-Energie, während sie an ein Grass-Pokémon angelegt ist.\n\nWenn du diese Karte von deiner Hand an 1 deiner Grass-Pokémon anlegst, heile 30 Schadenspunkte bei diesem Pokémon.\n\n(Lege diese Karte auf deinen Ablagestapel, wenn sie nicht an ein Grass-Pokémon angelegt ist.)"
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 281767,
+		tcgplayer: 92286
+	}
 }
 
 export default card

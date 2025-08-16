@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Darmanitan",
 		de: "Flampivian"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		555,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Darumaka",
 		fr: "Darumarond",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -63,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -72,8 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280615,
+		tcgplayer: 84716
+	}
 }
 
 export default card

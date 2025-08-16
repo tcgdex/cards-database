@@ -93,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
+	},
+
+	thirdParty: {
+		cardmarket: 567108,
+		tcgplayer: 241681
 	}
 }
 

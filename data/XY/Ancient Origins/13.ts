@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Flareon",
 		de: "Flamara"
 	},
+
 	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		136,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Eevee",
 		de: "Evoli"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -80,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -89,8 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 284194,
+		tcgplayer: 101437
+	}
 }
 
 export default card

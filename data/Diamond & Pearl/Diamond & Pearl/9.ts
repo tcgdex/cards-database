@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Manaphy",
 		de: "Manaphy"
 	},
+
 	illustrator: "Nakaoka",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		490,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -68,8 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277508,
+		tcgplayer: 87143
+	}
 }
 
 export default card

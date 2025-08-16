@@ -63,7 +63,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Fujimoto Gold"
+	illustrator: "Fujimoto Gold",
+
+	thirdParty: {
+		cardmarket: 769232
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Lílian",
 		de: "Lilly"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez des cartes jusqu’à ce que vous ayez 6 cartes en main. Si c’est votre premier tour, piochez des cartes jusqu’à ce que vous ayez 8 cartes en main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Compre cartas até ter 6 cartas na sua mão. Se for a sua primeira vez de jogar, compre cartas até ter 8 cartas na sua mão.",
 		de: "Ziehe so lange Karten, bis du 6 Karten auf der Hand hast. Wenn es dein erster Zug ist, ziehe so lange Karten, bis du 8 Karten auf der Hand hast."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 295435,
+		tcgplayer: 126994
+	}
 }
 
 export default card

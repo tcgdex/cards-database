@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ses yeux sont spécialement adaptés. Ils concentrent la plus petite parcelle de lumière pour lui permettre de voir dans l'obscurité."
+	},
+
+	thirdParty: {
+		cardmarket: 274442,
+		tcgplayer: 87791
 	}
 }
 

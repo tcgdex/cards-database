@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Solaroc",
 		de: "Sonnfel"
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		338,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,6 +75,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -78,10 +83,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276902,
+		tcgplayer: 89427
+	}
 }
 
 export default card

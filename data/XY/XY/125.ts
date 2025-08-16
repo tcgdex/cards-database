@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Patins",
 		de: "Rollerskates"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c'est face, piochez 3 cartes.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Jogue uma moeda. Se sair cara, compre 3 cards.",
 		de: "Wirf 1 Münze. Ziehe bei \"Kopf\" 3 Karten."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281462,
+		tcgplayer: 88808
+	}
 }
 
 export default card

@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds."
+	},
+
+	thirdParty: {
+		cardmarket: 545571,
+		tcgplayer: 234229
 	}
 }
 

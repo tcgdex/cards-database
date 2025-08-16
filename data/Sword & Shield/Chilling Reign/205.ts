@@ -96,7 +96,12 @@ const card: Card = {
 		de: "Rappenreiter-Coronospa-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567183,
+		tcgplayer: 241740
+	}
 }
 
 export default card

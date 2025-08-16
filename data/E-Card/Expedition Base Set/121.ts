@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Miaouss",
 		de: "Mauzi"
 	},
+
 	illustrator: "Hironobu Yoshida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		52,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -67,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274996,
+		tcgplayer: 87315
+	}
 }
 
 export default card

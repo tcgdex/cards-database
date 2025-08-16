@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Phogleur de Team Aqua",
 		de: "Team Aquas Seejong"
 	},
+
 	illustrator: "T. Honda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		364,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -65,10 +68,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275993,
+		tcgplayer: 89797
+	}
 }
 
 export default card

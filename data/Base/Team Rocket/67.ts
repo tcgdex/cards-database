@@ -66,6 +66,11 @@ const card: Card = {
 
 	description: {
 		fr: "Bien qu'il sache pêcher, il fait preuve de rès peu d'intelligence."
+	},
+
+	thirdParty: {
+		cardmarket: 274120,
+		tcgplayer: 89322
 	}
 }
 

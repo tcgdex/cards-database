@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Ptitard",
 		de: "Quapsel"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		60,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 			cost: ["Water"]
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -58,10 +61,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276713,
+		tcgplayer: 88258
+	}
 }
 
 export default card

@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Drattak δ",
 		de: "Brutalanda"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		373,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Shelgon",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -66,12 +70,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fire",
@@ -83,9 +89,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276777
+	}
 }
 
 export default card

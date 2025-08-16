@@ -6,24 +6,28 @@ const card: Card = {
 		en: "M Venusaur EX",
 		fr: "M-Florizarre-EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
 	],
+
 	hp: 230,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Venusaur-EX",
 		fr: "Florizarre-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -45,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -54,8 +59,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		tcgplayer: 113660
+	}
 }
 
 export default card

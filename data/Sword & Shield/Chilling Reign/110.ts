@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		en: "It habitually shows off its strength with the size of sparks it creates by ramming its steel body into boulders."
+	},
+
+	thirdParty: {
+		cardmarket: 567218,
+		tcgplayer: 241785
 	}
 }
 

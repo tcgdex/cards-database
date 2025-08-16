@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [11],
+
 	name: {
 		en: "Metapod",
 		fr: "Chrysacier",
@@ -91,6 +92,11 @@ const card: Card = {
 
 	description: {
 		en: "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack."
+	},
+
+	thirdParty: {
+		cardmarket: 457388,
+		tcgplayer: 213072
 	}
 }
 

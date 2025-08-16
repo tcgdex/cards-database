@@ -62,7 +62,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Natsumi Yoshida"
+	illustrator: "Natsumi Yoshida",
+
+	thirdParty: {
+		cardmarket: 785919
+	}
 }
 
 export default card

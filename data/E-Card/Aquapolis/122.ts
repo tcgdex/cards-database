@@ -28,7 +28,12 @@ const card: Card = {
 		},
 
 		cost: ["Fire"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 275198,
+		tcgplayer: 85451
+	}
 }
 
 export default card

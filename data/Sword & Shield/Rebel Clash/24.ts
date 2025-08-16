@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [37],
+
 	name: {
 		en: "Vulpix",
 		fr: "Goupix",
@@ -82,6 +83,11 @@ const card: Card = {
 
 	description: {
 		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
+	},
+
+	thirdParty: {
+		cardmarket: 457568,
+		tcgplayer: 213099
 	}
 }
 

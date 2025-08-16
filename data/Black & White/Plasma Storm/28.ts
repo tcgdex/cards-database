@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Mamoswine",
 		de: "Mamutel"
 	},
+
 	illustrator: "match",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		473,
 	],
+
 	hp: 150,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Piloswine",
 		fr: "Cochignon",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -66,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -75,8 +80,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 280768,
+		tcgplayer: 87141
+	}
 }
 
 export default card

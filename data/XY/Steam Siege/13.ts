@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Amoonguss",
 		de: "Hutsassa"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		591,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Foongus",
 		fr: "Trompignon",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Foongus",
 		de: "Tarnpignon"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 291520,
+		tcgplayer: 121002
+	}
 }
 
 export default card

@@ -85,7 +85,11 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"]
 	}],
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 546941
+	}
 }
 
 export default card

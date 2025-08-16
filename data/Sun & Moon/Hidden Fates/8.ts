@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Charmeleon",
 		fr: "Reptincel",
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		5,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charmander",
 		fr: "Salamèche",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -63,8 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 394802,
+		tcgplayer: 197650
+	}
 }
 
 export default card

@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Tentacool",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		72,
 	],
+
 	hp: 30,
+
 	types: [
 		"Water",
 	],
@@ -31,6 +34,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -44,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -51,10 +56,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274861,
+		tcgplayer: 89864
+	}
 }
 
 export default card

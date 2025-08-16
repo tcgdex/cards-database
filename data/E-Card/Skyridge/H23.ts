@@ -6,23 +6,27 @@ const card: Card = {
 		en: "Politoed",
 		de: "Quaxo"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		186,
 	],
+
 	hp: 110,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Poliwhirl",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -83,10 +88,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275244,
+		tcgplayer: 88247
+	}
 }
 
 export default card

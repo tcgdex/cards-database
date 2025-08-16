@@ -65,6 +65,11 @@ const card: Card = {
 
 	description: {
 		en: "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it's really clean is…questionable."
+	},
+
+	thirdParty: {
+		cardmarket: 545651,
+		tcgplayer: 234153
 	}
 }
 

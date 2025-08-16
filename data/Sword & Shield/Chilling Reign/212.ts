@@ -35,7 +35,12 @@ const card: Card = {
 	},
 
 	illustrator: "Sanosuke Sakuma",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567239,
+		tcgplayer: 241819
+	}
 }
 
 export default card

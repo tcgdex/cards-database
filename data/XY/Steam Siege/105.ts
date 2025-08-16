@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Carga Especial",
 		de: "Spezial-Aufladung"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Mélangez 2 cartes Énergie spéciale de votre pile de défausse avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Embaralhe 2 cards de Energia Especial da sua pilha de descarte em seu baralho.",
 		de: "Mische 2 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 291552,
+		tcgplayer: 121229
+	}
 }
 
 export default card

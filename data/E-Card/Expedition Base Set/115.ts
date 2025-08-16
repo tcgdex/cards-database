@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Krabby",
 		de: "Krabby"
 	},
+
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		98,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -39,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -46,10 +49,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274990,
+		tcgplayer: 86523
+	}
 }
 
 export default card

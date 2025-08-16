@@ -51,7 +51,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "GIDORA"
+	illustrator: "GIDORA",
+
+	thirdParty: {
+		cardmarket: 751608
+	}
 }
 
 export default card

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Marowak de Alola",
 		de: "Alola-Knogga"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		105,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Cubone",
 		fr: "Osselait",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -85,8 +90,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 311862,
+		tcgplayer: 149033
+	}
 }
 
 export default card

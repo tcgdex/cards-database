@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Tarsal",
 		de: "Trasla"
 	},
+
 	illustrator: "Kenkichi Toyama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		280,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 			cost: ["Colorless", "Colorless"]
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,10 +67,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276844,
+		tcgplayer: 88558
+	}
 }
 
 export default card

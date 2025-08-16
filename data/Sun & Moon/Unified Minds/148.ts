@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Dratini",
 		de: "Dratini"
 	},
+
 	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		147,
 	],
+
 	hp: 60,
+
 	types: [
 		"Dragon",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -81,8 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 388527,
+		tcgplayer: 195143
+	}
 }
 
 export default card

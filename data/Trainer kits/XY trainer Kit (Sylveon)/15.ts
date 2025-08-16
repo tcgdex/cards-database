@@ -64,7 +64,11 @@ const card: Card = {
 	resistances: [{
 		type: "Darkness",
 		value: "-20"
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 97980
+	}
 }
 
 export default card

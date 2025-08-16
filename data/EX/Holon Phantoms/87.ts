@@ -29,7 +29,12 @@ const card: Card = {
 		},
 
 		cost: ["Colorless"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 277057,
+		tcgplayer: 86144
+	}
 }
 
 export default card

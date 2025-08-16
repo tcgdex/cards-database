@@ -44,6 +44,10 @@ const card: Card = {
 		pt: "Prof. Willow",
 		it: "Professor Willow",
 		en: "Professor Willow"
+	},
+
+	thirdParty: {
+		cardmarket: 569233
 	}
 }
 

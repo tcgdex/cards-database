@@ -83,7 +83,12 @@ const card: Card = {
 		en: "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail."
 	},
 
-	dexId: [644]
+	dexId: [644],
+
+	thirdParty: {
+		cardmarket: 576755,
+		tcgplayer: 250308
+	}
 }
 
 export default card

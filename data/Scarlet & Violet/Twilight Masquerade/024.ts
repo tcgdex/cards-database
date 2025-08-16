@@ -71,7 +71,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Sanosuke Sakuma"
+	illustrator: "Sanosuke Sakuma",
+
+	thirdParty: {
+		cardmarket: 769198
+	}
 }
 
 export default card

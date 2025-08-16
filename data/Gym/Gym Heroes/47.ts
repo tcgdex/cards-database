@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Erika's Oddish",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		43,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
@@ -31,6 +34,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -46,6 +50,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -53,10 +58,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274183,
+		tcgplayer: 85301
+	}
 }
 
 export default card

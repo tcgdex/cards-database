@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		en: "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock."
+	},
+
+	thirdParty: {
+		cardmarket: 567127,
+		tcgplayer: 241704
 	}
 }
 

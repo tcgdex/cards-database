@@ -70,6 +70,11 @@ const card: Card = {
 
 	description: {
 		fr: "De l'électricité parcourt son corps sous sa peau. Dans le noir, il brille d'un éclat bleu."
+	},
+
+	thirdParty: {
+		cardmarket: 274433,
+		tcgplayer: 85109
 	}
 }
 

@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		en: "Although it's called a guardian deity, terrible calamities sometimes befall those who recklessly approach Tapu Fini."
+	},
+
+	thirdParty: {
+		cardmarket: 567120,
+		tcgplayer: 241693
 	}
 }
 

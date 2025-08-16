@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Pewter City Gym",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274251,
+		tcgplayer: 87994
+	}
 }
 
 export default card

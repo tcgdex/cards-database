@@ -27,7 +27,11 @@ const card: Card = {
 
 	trainerType: "Stadium",
 	regulationMark: "H",
-	illustrator: "MARINA Chikazawa"
+	illustrator: "MARINA Chikazawa",
+
+	thirdParty: {
+		cardmarket: 805502
+	}
 }
 
 export default card

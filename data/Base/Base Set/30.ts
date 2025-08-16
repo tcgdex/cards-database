@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son bulbe dorsal devient si gros qu'il ne peut plus se tenir sur ses membres postérieurs."
+	},
+
+	thirdParty: {
+		cardmarket: 273725,
+		tcgplayer: 42372
 	}
 }
 

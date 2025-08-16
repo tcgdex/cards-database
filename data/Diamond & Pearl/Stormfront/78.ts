@@ -81,6 +81,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il s'abrite derrière des lianes bleues. Nul n'a jamais vu le visage qu'elles dissimulent."
+	},
+
+	thirdParty: {
+		cardmarket: 278376,
+		tcgplayer: 89745
 	}
 }
 

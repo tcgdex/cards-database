@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [559],
+
 	name: {
 		en: "Scraggy",
 		fr: "Baggiguane",
@@ -79,6 +80,11 @@ const card: Card = {
 
 	description: {
 		en: "If it locks eyes with you, watch out! Nothing and no one is safe from the reckless headbutts of this troublesome Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 500060,
+		tcgplayer: 223041
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Quilladin",
 		de: "Igastarnish"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		651,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Chespin",
 		fr: "Marisson",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Chespin",
 		de: "Igamaro"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281350,
+		tcgplayer: 88489
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [340],
+
 	name: {
 		en: "Whiscash",
 		fr: "Barbicha",
@@ -98,6 +99,11 @@ const card: Card = {
 
 	description: {
 		en: "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it."
+	},
+
+	thirdParty: {
+		cardmarket: 457913,
+		tcgplayer: 213188
 	}
 }
 

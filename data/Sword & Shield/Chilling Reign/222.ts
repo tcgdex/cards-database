@@ -85,7 +85,12 @@ const card: Card = {
 		de: "Voltobal"
 	},
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	thirdParty: {
+		cardmarket: 567330,
+		tcgplayer: 241873
+	}
 }
 
 export default card

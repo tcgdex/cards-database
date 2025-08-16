@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [38],
+
 	name: {
 		en: "Ninetales",
 		fr: "Feunard",
@@ -100,6 +101,11 @@ const card: Card = {
 
 	description: {
 		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
+	},
+
+	thirdParty: {
+		cardmarket: 457573,
+		tcgplayer: 213100
 	}
 }
 

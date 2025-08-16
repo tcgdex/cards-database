@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Togekiss",
 		de: "Togekiss"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		468,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Togetic",
 		fr: "Togetic",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -68,22 +74,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 372425,
+		tcgplayer: 189236
+	}
 }
 
 export default card

@@ -72,6 +72,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il avale son poids en nourriture chaque jour. Il avale tout sans prendre le temps de mâcher."
+	},
+
+	thirdParty: {
+		cardmarket: 277532,
+		tcgplayer: 87637
 	}
 }
 

@@ -53,7 +53,11 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Lee HyunJung"
+	illustrator: "Lee HyunJung",
+
+	thirdParty: {
+		cardmarket: 817224
+	}
 }
 
 export default card

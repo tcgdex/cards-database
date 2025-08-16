@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Determinação da Misty",
 		de: "Mistys Entschlossenheit"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez une carte de votre main. Dans ce cas, regardez les 8 cartes du dessus de votre deck et ajoutez l'une d'entre elles à votre main. Mélangez les autres cartes avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Descarte um card da sua mão. Se fizer isso, olhe os 8 cards de cima do seu baralho e coloque 1 deles na sua mão. Embaralhe os demais cards de volta no seu baralho.",
 		de: "Lege 1 Karte von deiner Hand auf deinen Ablagestapel. Wenn du das machst, schau dir die obersten 8 Karten deines Decks an und nimm 1 davon auf deine Hand. Mische die anderen Karten anschließend in dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 293442,
+		tcgplayer: 124121
+	}
 }
 
 export default card

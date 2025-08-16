@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Wailord",
 		de: "Wailord"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		321,
 	],
+
 	hp: 200,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Wailmer",
 		fr: "Wailmer",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -62,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -71,8 +78,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 277932,
+		tcgplayer: 90459
+	}
 }
 
 export default card

@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Dark Slowbro",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		80,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Slowpoke",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -33,6 +38,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -55,10 +62,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274773,
+		tcgplayer: 84653
+	}
 }
 
 export default card

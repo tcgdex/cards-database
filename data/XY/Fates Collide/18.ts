@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Omastar",
 		de: "Amoroso"
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		139,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Omanyte",
 		fr: "Amonita",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Omanyte",
 		de: "Amonitas"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -81,8 +88,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289844,
+		tcgplayer: 117780
+	}
 }
 
 export default card

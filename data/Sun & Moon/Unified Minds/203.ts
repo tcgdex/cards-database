@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Normalium Z: Investida",
 		de: "Normium Z: Tackle"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée a l’attaque Charge, il peut utiliser l’attaque GX sur cette carte. (Vous avez toujours besoin de l’Énergie nécessaire pour utiliser cette attaque.)\n\nColorlessColorlessColorlessColorless Turbo-Charge Précipitée GX 200+\nLancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se o Pokémon ao qual esta carta está ligada tiver o ataque Investida, poderá usar o ataque GX desta carta (você ainda precisa da Energia necessária para usar este ataque).\n\nColorlessColorlessColorlessColorless Carreira Atropeladora GX 200+\nJogue 1 moeda até sair coroa. Este ataque causa 40 pontos de dano a mais para cada cara (você não pode usar mais de 1 ataque GX por partida).",
 		de: "Wenn das Pokémon, an das diese Karte angelegt ist, die Attacke Tackle hat, kann es die GX-Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.)\n\nColorlessColorlessColorlessColorless Sprintangriff GX 200+\nWirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 40 Schadenspunkte mehr pro Kopf zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 388802,
+		tcgplayer: 195258
+	}
 }
 
 export default card

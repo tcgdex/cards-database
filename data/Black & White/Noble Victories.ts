@@ -25,6 +25,11 @@ const bw3: Set = {
 	abbreviations: {
 		official: "NVI",
 		fr: "NVI"
+	},
+
+	thirdParty: {
+		cardmarket: 1573,
+		tcgplayer: 1385
 	}
 }
 

@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "They say that it will appear before kindhearted, caring people and shower them with happiness."
+	},
+
+	thirdParty: {
+		cardmarket: 684388
 	}
 }
 

@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Mélofée",
 		de: "Piepi"
 	},
+
 	illustrator: "Lee HyunJung",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		35,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
@@ -33,7 +36,6 @@ const card: Card = {
 
 		}
 	},
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -63,8 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277836,
+		tcgplayer: 84357
+	}
 }
 
 export default card

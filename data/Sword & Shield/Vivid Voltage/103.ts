@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [261],
+
 	name: {
 		en: "Poochyena",
 		fr: "Medhyèna",
@@ -79,6 +80,11 @@ const card: Card = {
 
 	description: {
 		en: "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track."
+	},
+
+	thirdParty: {
+		cardmarket: 511935,
+		tcgplayer: 226555
 	}
 }
 

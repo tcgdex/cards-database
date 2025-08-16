@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Brock's Graveler",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		75,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Geodude",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -59,10 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274302,
+		tcgplayer: 83968
+	}
 }
 
 export default card

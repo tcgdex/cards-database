@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Entei GX",
 		de: "Entei GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		244,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "GX",
 
@@ -94,6 +96,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -103,8 +106,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 302148,
+		tcgplayer: 146663
+	}
 }
 
 export default card

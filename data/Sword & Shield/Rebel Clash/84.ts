@@ -105,6 +105,11 @@ const card: Card = {
 
 	description: {
 		en: "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently."
+	},
+
+	thirdParty: {
+		cardmarket: 457838,
+		tcgplayer: 213170
 	}
 }
 

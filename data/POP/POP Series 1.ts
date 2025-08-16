@@ -22,6 +22,11 @@ const pop1: Set = {
 	abbreviations: {
 		official: "P1",
 		fr: "P01"
+	},
+
+	thirdParty: {
+		cardmarket: 1613,
+		tcgplayer: 1422
 	}
 }
 

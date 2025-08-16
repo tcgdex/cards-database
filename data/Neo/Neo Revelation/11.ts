@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il adore jouer des mauvais tours, comme pousser des hurlements sinistres à l'oreille des gens la nuit pour leur faire peur."
+	},
+
+	thirdParty: {
+		cardmarket: 274597,
+		tcgplayer: 87501
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [177],
+
 	name: {
 		en: "Natu",
 		fr: "Natu",
@@ -72,6 +73,11 @@ const card: Card = {
 
 	description: {
 		en: "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees."
+	},
+
+	thirdParty: {
+		cardmarket: 457798,
+		tcgplayer: 213162
 	}
 }
 

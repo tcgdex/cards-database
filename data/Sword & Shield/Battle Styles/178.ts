@@ -85,7 +85,12 @@ const card: Card = {
 		de: "Remoraid"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 527640,
+		tcgplayer: 234103
+	}
 }
 
 export default card

@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Froslass",
 		de: "Frosdedje"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		478,
 	],
@@ -18,9 +19,11 @@ const card: Card = {
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Snorunt",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -36,6 +39,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -63,8 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278874,
+		tcgplayer: 85573
+	}
 }
 
 export default card

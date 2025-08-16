@@ -25,6 +25,11 @@ const swsh35: Set = {
 	abbreviations: {
 		official: "CPA",
 		fr: "VDM"
+	},
+
+	thirdParty: {
+		cardmarket: 3419,
+		tcgplayer: 2685
 	}
 }
 

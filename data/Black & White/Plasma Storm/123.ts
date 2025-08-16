@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Laser Hipnotóxico",
 		de: "Hypnotoxinlaser"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est aussi Endormi.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente também ficará Adormecido.",
 		de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Wirf 1 Münze. Bei „Kopf“ schläft das Aktive Pokémon jetzt auch noch."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280863,
+		tcgplayer: 86256
+	}
 }
 
 export default card

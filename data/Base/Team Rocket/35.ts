@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon a le sang chaud et devient incontrôlable lorsqu'il s'emporte. Il peut cracher des flammes de plus de 3000°."
+	},
+
+	thirdParty: {
+		cardmarket: 274088,
+		tcgplayer: 84597
 	}
 }
 

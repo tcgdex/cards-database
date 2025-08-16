@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Emolga",
 		de: "Emolga"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		587,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -53,8 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280274,
+		tcgplayer: 85190
+	}
 }
 
 export default card

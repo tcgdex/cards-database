@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Persian δ",
 		de: "Snobilikat"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		53,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Meowth",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -63,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -70,10 +75,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277018
+	}
 }
 
 export default card

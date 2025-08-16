@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Magearna",
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		801,
 	],
+
 	hp: 90,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -48,12 +50,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -61,9 +65,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 295156
+	}
 }
 
 export default card

@@ -28,7 +28,12 @@ const card: Card = {
 		},
 
 		cost: ["Psychic"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 275208,
+		tcgplayer: 88412
+	}
 }
 
 export default card

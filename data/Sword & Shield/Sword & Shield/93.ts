@@ -72,7 +72,12 @@ const card: Card = {
 		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
 	},
 
-	dexId: [51]
+	dexId: [51],
+
+	thirdParty: {
+		cardmarket: 436584,
+		tcgplayer: 208402
+	}
 }
 
 export default card

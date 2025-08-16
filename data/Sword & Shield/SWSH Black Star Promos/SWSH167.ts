@@ -34,7 +34,11 @@ const card: Card = {
 		it: "Cerca nel tuo mazzo fino a due carte e scartale. Poi rimischia le carte del tuo mazzo."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 576725
+	}
 }
 
 export default card

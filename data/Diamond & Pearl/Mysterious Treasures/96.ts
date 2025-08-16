@@ -74,6 +74,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit sur des terres arides épargnées par la pluie. Il se roule en boule pour se protéger."
+	},
+
+	thirdParty: {
+		cardmarket: 277725,
+		tcgplayer: 88924
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Kommo-o GX",
 		de: "Grandiras GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		784,
 	],
+
 	hp: 240,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Hakamo-o",
 		fr: "Écaïd",
@@ -106,6 +110,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -115,8 +120,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 296847,
+		tcgplayer: 131016
+	}
 }
 
 export default card

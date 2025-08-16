@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Goomy",
 		de: "Viscora"
 	},
+
 	illustrator: "Asako Ito",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		704,
 	],
+
 	hp: 50,
+
 	types: [
 		"Dragon",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -67,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -76,8 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 297548,
+		tcgplayer: 131010
+	}
 }
 
 export default card

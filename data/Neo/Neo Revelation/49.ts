@@ -74,6 +74,11 @@ const card: Card = {
 
 	description: {
 		fr: "Pour lancer ses piquants empoisonnés, il doit gonfler son corps en buvant 10 litres d'eau d'un seul coup."
+	},
+
+	thirdParty: {
+		cardmarket: 274635,
+		tcgplayer: 88492
 	}
 }
 

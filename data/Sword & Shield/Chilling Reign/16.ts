@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped."
+	},
+
+	thirdParty: {
+		cardmarket: 567096,
+		tcgplayer: 241665
 	}
 }
 

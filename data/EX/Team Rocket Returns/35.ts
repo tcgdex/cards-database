@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dark Golduck",
 		de: "Dunkles Entoron"
 	},
+
 	illustrator: "Nakaoka",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		55,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Psyduck",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -67,10 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276327,
+		tcgplayer: 84605
+	}
 }
 
 export default card

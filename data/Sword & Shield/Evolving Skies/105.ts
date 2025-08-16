@@ -84,7 +84,12 @@ const card: Card = {
 		en: "With a lithe body and sharp claws, it goes around stealing food and eggs. Boltund is its natural enemy."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574153,
+		tcgplayer: 246904
+	}
 }
 
 export default card

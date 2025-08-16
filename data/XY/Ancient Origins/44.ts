@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Sableye",
 		de: "Zobiris"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		302,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -74,11 +76,12 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 284225,
+		tcgplayer: 101464
+	}
 }
 
 export default card

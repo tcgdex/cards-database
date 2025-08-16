@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Phione",
 		de: "Phione"
 	},
+
 	illustrator: "Daisuke Ito",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		489,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -68,8 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278061,
+		tcgplayer: 88007
+	}
 }
 
 export default card

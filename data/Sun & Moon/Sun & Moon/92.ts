@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Cutiefly",
 		de: "Wommel"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		742,
 	],
+
 	hp: 30,
+
 	types: [
 		"Fairy",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,22 +53,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 295403,
+		tcgplayer: 126964
+	}
 }
 
 export default card

@@ -80,6 +80,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ses quatre bras frappent à une vitesse aveuglante. Il peut porter 1000 coups en deux secondes."
+	},
+
+	thirdParty: {
+		cardmarket: 277530,
+		tcgplayer: 86965
 	}
 }
 

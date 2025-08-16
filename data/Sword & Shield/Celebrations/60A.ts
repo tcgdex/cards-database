@@ -57,6 +57,10 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	thirdParty: {
+		cardmarket: 576795
 	}
 }
 

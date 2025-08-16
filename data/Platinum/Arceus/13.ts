@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Aerodactyl",
 		de: "Aerodactyl"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		142,
 	],
@@ -18,9 +19,11 @@ const card: Card = {
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Old Amber",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -36,6 +39,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,22 +58,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278885,
+		tcgplayer: 83470
+	}
 }
 
 export default card

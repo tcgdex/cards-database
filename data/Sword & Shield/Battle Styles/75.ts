@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		en: "When going all out, this Pokémon throws aside its concrete pillars and leaps at opponents to pummel them with its fists."
+	},
+
+	thirdParty: {
+		cardmarket: 545491,
+		tcgplayer: 234251
 	}
 }
 

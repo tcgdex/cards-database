@@ -35,7 +35,12 @@ const card: Card = {
 	},
 
 	illustrator: "En Morikura",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567240,
+		tcgplayer: 241822
+	}
 }
 
 export default card

@@ -50,6 +50,11 @@ const card: Card = {
 
 	description: {
 		fr: "Sa queue ondule gracieusement comme un voile. On l'appelle: \"Reine des Océans\"."
+	},
+
+	thirdParty: {
+		cardmarket: 273850,
+		tcgplayer: 45156
 	}
 }
 

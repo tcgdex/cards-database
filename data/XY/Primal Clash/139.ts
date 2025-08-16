@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Santuário das Memórias",
 		de: "Erinnerungsstätte"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les Pokémon évolués de chaque joueur peuvent utiliser les attaques de leurs pré-évolutions. (Le joueur a toujours besoin de l'Énergie nécessaire pour utiliser chaque attaque.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Os Pokémon evoluídos de cada jogador podem usar qualquer ataque de suas Evoluções anteriores. (O jogador ainda assim precisa da Energia necessária para usar cada ataque.)",
 		de: "Die entwickelten Pokémon beider Spieler können die Angriffe aus vorangegangenen Entwicklungsstufen verwenden. (Ein Spieler benötigt dazu die für jeden der Angriffe erforderlichen Energien.)"
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 273670,
+		tcgplayer: 96037
+	}
 }
 
 export default card

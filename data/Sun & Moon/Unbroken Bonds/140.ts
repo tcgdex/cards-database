@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Whimsicott GX",
 		de: "Elfun GX"
 	},
+
 	illustrator: "PLANETA Igarashi",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		547,
 	],
+
 	hp: 190,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Cottonee",
 		fr: "Doudouvet",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -96,22 +102,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 372257,
+		tcgplayer: 189238
+	}
 }
 
 export default card

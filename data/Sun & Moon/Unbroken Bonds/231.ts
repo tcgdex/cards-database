@@ -24,6 +24,11 @@ const card: Card = {
 		it: "Prendi tre carte Energia Fire dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
 		pt: "Coloque 3 cartas de Energia Fire da sua pilha de descarte na sua mão.",
 		de: "Nimm 3 Fire-Energiekarten aus deinem Ablagestapel auf deine Hand."
+	},
+
+	thirdParty: {
+		cardmarket: 372458,
+		tcgplayer: 189275
 	}
 }
 

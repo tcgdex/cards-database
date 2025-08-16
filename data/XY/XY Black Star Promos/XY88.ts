@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Chespin",
 		fr: "Marisson",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		650,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -37,6 +39,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -46,8 +49,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281337
+	}
 }
 
 export default card

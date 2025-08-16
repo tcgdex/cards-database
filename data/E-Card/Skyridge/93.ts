@@ -6,23 +6,27 @@ const card: Card = {
 		en: "Sandslash",
 		de: "Sandamer"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		28,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Sandshrew",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,12 +63,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -72,9 +78,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275351,
+		tcgplayer: 88931
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Reciclador de Energia",
 		de: "Energieaufbereitung"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Mélangez 5 cartes Énergie de base de votre pile de défausse avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Embaralhe 5 cards de Energia básica da sua pilha de descarte no seu baralho.",
 		de: "Mische 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 284253,
+		tcgplayer: 101494
+	}
 }
 
 export default card

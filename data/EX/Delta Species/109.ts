@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Voltali ex",
 		de: "Blitza ex"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		135,
 	],
+
 	hp: 100,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -78,12 +84,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -91,9 +99,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276872,
+		tcgplayer: 86352
+	}
 }
 
 export default card

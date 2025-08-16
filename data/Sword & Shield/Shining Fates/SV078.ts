@@ -76,6 +76,10 @@ const card: Card = {
 
 	description: {
 		en: "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings."
+	},
+
+	thirdParty: {
+		cardmarket: 539778
 	}
 }
 

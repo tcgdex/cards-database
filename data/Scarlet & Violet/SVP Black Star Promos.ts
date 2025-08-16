@@ -23,6 +23,10 @@ const set: Set = {
 
 	abbreviations: {
 		official: "SVP"
+	},
+
+	thirdParty: {
+		tcgplayer: 22873
 	}
 }
 

@@ -81,6 +81,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son sens aiguisé de l'odorat détecte la moindre odeur, même celle de la nourriture quand elle est enfouie profondément."
+	},
+
+	thirdParty: {
+		cardmarket: 274673,
+		tcgplayer: 84663
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Quagsire",
 		de: "Morlord"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		195,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Wooper",
 		fr: "Axoloto",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Wooper",
 		de: "Felino"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 284220,
+		tcgplayer: 101461
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Poké Ball",
 		de: "Pokéball"
 	},
+
 	illustrator: "Yuri Umemura",
 	rarity: "Common",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Jogue uma moeda. Se sair cara, procure um Pokémon no seu deck, mostre-o e coloque-o na sua mão. Em seguida, embaralhe seus cards.",
 		de: "Wirf 1 Münze. Durchsuche bei „Kopf“ dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280718
+	}
 }
 
 export default card

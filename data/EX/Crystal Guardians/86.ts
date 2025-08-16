@@ -17,6 +17,11 @@ const card: Card = {
 	effect: {
 		fr: "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
 		de: "Durchsuche dein Deck nach einer Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+	},
+
+	thirdParty: {
+		cardmarket: 277167,
+		tcgplayer: 85244
 	}
 }
 

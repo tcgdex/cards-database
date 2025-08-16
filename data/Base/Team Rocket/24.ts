@@ -81,6 +81,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il se faufile silencieusement derrière ses proies pour les attaquer, les tuant parfois d'une seule morsure."
+	},
+
+	thirdParty: {
+		cardmarket: 274060,
+		tcgplayer: 84602
 	}
 }
 

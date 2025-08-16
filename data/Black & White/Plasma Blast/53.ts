@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Archen",
 		de: "Flapteryx"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		566,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -70,8 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281074,
+		tcgplayer: 83608
+	}
 }
 
 export default card

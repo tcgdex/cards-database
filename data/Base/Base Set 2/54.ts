@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Nidorino",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		33,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Nidoran♂",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -61,10 +66,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 273977,
+		tcgplayer: 42517
+	}
 }
 
 export default card

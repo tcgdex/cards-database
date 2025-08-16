@@ -84,6 +84,11 @@ const card: Card = {
 
 	description: {
 		en: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt."
+	},
+
+	thirdParty: {
+		cardmarket: 545746,
+		tcgplayer: 234160
 	}
 }
 

@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret."
+	},
+
+	thirdParty: {
+		cardmarket: 278372,
+		tcgplayer: 89406
 	}
 }
 

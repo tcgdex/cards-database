@@ -37,7 +37,11 @@ const card: Card = {
 
 	rarity: "None",
 	hp: 60,
-	types: ["Water"]
+	types: ["Water"],
+
+	thirdParty: {
+		tcgplayer: 200964
+	}
 }
 
 export default card

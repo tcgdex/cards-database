@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Zangoose",
 		de: "Sengo"
 	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		335,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -67,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -76,8 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 369059,
+		tcgplayer: 183921
+	}
 }
 
 export default card

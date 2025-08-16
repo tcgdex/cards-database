@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il vivait au fond de la mer il y a 100 millions d'années. La science a permis de le ressusciter."
+	},
+
+	thirdParty: {
+		cardmarket: 278254,
+		tcgplayer: 86789
 	}
 }
 

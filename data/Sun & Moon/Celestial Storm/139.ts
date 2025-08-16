@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Real Mascarado",
 		de: "Mask Royale"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Attachez une carte Énergie de base de votre main à l’un de vos Pokémon Grass, Fire ou Water de Niveau 2.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Ligue 1 carta de Energia básica da sua mão a 1 dos seus Pokémon Grass, Fire, ou Water Estágio 2.",
 		de: "Lege 1 Basis-Energiekarte aus deiner Hand an 1 deiner Grass-, Fire- oder Water-Phase-2-Pokémon an."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 361377,
+		tcgplayer: 171000
+	}
 }
 
 export default card

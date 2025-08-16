@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Shelgon",
 		de: "Draschel"
 	},
+
 	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		372,
 	],
+
 	hp: 80,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Bagon",
 		fr: "Draby",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Bagon",
 		de: "Kindwurm"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -82,8 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 282724,
+		tcgplayer: 98092
+	}
 }
 
 export default card

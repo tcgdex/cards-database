@@ -25,6 +25,11 @@ const sm4: Set = {
 	abbreviations: {
 		official: "CIN",
 		fr: "INC"
+	},
+
+	thirdParty: {
+		cardmarket: 1843,
+		tcgplayer: 2071
 	}
 }
 

@@ -54,6 +54,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ses mâchoires surdéveloppées sont assez puissantes pour écraser n'importe quoi. Même les dresseurs adultes les plus expérimentés font très attention."
+	},
+
+	thirdParty: {
+		cardmarket: 274737,
+		tcgplayer: 89993
 	}
 }
 

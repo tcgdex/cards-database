@@ -6,21 +6,26 @@ const card: Card = {
 		en: "Gyarados",
 		de: "Garados"
 	},
+
 	illustrator: "Kimiya Masago",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		130,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Magikarp",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -36,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +64,7 @@ const card: Card = {
 			damage: 50
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -65,10 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275237,
+		tcgplayer: 85988
+	}
 }
 
 export default card

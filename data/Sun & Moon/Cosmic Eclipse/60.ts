@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Swanna",
 		de: "Swaroness"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		581,
 	],
+
 	hp: 110,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Ducklett",
 		fr: "Couaneton",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,22 +81,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 407949,
+		tcgplayer: 201236
+	}
 }
 
 export default card

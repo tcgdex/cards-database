@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Metang",
 		de: "Metang"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		375,
 	],
+
 	hp: 70,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Beldum",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,12 +61,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
@@ -68,9 +76,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276095,
+		tcgplayer: 87373
+	}
 }
 
 export default card

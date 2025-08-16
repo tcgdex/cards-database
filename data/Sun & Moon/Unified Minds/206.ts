@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Carimbo de Recomposição",
 		de: "Reset-Stempel"
 	},
+
 	illustrator: "sadaji",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Votre adversaire mélange sa main avec son deck et pioche une carte pour chacune des cartes Récompense qu’il lui reste.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Seu oponente embaralha a própria mão no baralho dele(a) e compra 1 carta para cada uma das cartas de Prêmio restantes dele(a).",
 		de: "Dein Gegner mischt seine Handkarten in sein Deck und zieht 1 Karte für jede seiner verbleibenden Preiskarten."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 388817,
+		tcgplayer: 195263
+	}
 }
 
 export default card

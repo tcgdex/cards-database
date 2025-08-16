@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Noivern",
 		de: "UHaFnir"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		715,
 	],
+
 	hp: 100,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Noibat",
 		fr: "Sonistrelle",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Noibat",
 		de: "eF-eM"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286358,
+		tcgplayer: 107231
+	}
 }
 
 export default card

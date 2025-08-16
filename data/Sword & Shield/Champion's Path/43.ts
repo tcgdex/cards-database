@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [568],
+
 	name: {
 		en: "Trubbish",
 		fr: "Miamiasme",
@@ -70,6 +71,11 @@ const card: Card = {
 
 	description: {
 		en: "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pokémon living in your room."
+	},
+
+	thirdParty: {
+		cardmarket: 500070,
+		tcgplayer: 223043
 	}
 }
 

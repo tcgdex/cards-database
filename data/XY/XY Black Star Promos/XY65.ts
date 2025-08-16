@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Latios",
 		fr: "Latios",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		381,
 	],
+
 	hp: 110,
+
 	types: [
 		"Psychic",
 	],
@@ -53,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -62,8 +66,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289791
+	}
 }
 
 export default card

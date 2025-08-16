@@ -76,7 +76,12 @@ const card: Card = {
 		},
 
 		type: "Pokemon Power"
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 274677,
+		tcgplayer: 86744
+	}
 }
 
 export default card

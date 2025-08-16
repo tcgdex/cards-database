@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Ambipom",
 		de: "Ambidiffel"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		424,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Aipom",
 		fr: "Capumain",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Aipom",
 		de: "Griffel"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -92,8 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 291651,
+		tcgplayer: 121217
+	}
 }
 
 export default card

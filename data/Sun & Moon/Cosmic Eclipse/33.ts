@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Emboar",
 		de: "Flambirex"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		500,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Pignite",
 		fr: "Grotichon",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -70,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -79,8 +86,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 407814,
+		tcgplayer: 201211
+	}
 }
 
 export default card

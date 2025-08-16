@@ -69,6 +69,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il provoque des secousses sismiques en creusant. Il peut atteindre les 80 km/h."
+	},
+
+	thirdParty: {
+		cardmarket: 277591,
+		tcgplayer: 87882
 	}
 }
 

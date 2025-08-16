@@ -25,6 +25,11 @@ const xy12: Set = {
 	abbreviations: {
 		official: "EVO",
 		fr: "EVO"
+	},
+
+	thirdParty: {
+		cardmarket: 1742,
+		tcgplayer: 1842
 	}
 }
 

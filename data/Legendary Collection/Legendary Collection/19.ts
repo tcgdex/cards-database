@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Zapdos",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		145,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -63,9 +65,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274784,
+		tcgplayer: 90712
+	}
 }
 
 export default card

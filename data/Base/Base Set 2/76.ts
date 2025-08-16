@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Goldeen",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		118,
 	],
+
 	hp: 40,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -34,6 +36,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -41,10 +44,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 273999,
+		tcgplayer: 42528
+	}
 }
 
 export default card

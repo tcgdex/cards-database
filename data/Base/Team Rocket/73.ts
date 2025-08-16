@@ -16,6 +16,11 @@ const card: Card = {
 	effect: {
 		fr: "Cherchez dans votre deck une carte Évolution dont le nom comporte le mot \"obscur\". Montrez-la à votre adversaire et placez-la dans votre main. Mélangez ensuite votre deck.",
 		de: "Durchsuche dein Deck nach einer Evolutionskarte mit dem Zusatz 'Dunkles'. Zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
+	},
+
+	thirdParty: {
+		cardmarket: 274126,
+		tcgplayer: 89894
 	}
 }
 

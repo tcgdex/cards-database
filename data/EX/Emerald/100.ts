@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Registeel ex",
 		de: "Registeel ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		379,
 	],
+
 	hp: 90,
+
 	types: [
 		"Metal",
 	],
-
 
 	suffix: "EX",
 
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -67,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 88680,
+		cardmarket: 276611
+	}
 }
 
 export default card

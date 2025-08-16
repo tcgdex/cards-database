@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Très agressif, il est prompt à répondre à la violence. La corne sur sa tête est venimeuse."
+	},
+
+	thirdParty: {
+		cardmarket: 273732,
+		tcgplayer: 42379
 	}
 }
 

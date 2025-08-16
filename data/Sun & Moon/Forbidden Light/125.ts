@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Dialga GX",
 		de: "Dialga GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		483,
 	],
+
 	hp: 180,
+
 	types: [
 		"Metal",
 	],
-
 
 	suffix: "GX",
 
@@ -102,22 +104,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 355596,
+		tcgplayer: 165739
+	}
 }
 
 export default card

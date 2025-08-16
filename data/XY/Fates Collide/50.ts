@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Carbink",
 		de: "Rocara"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		703,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -74,8 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289871,
+		tcgplayer: 117810
+	}
 }
 
 export default card

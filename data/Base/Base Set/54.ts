@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est vulnérable aux attaques tant que sa carapace fragile expose son corps tendre et mou."
+	},
+
+	thirdParty: {
+		cardmarket: 273749,
+		tcgplayer: 42398
 	}
 }
 

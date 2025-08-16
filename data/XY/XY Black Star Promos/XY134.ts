@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Empoleon BREAK",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		395,
 	],
+
 	hp: 170,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Empoleon",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -40,11 +44,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 289823
+	}
 }
 
 export default card

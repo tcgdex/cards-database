@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Galekid Niv. 21",
 		de: "Stollunior"
 	},
+
 	illustrator: "Takao Unno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		304,
 	],
+
 	hp: 50,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,22 +58,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278631,
+		tcgplayer: 83637
+	}
 }
 
 export default card

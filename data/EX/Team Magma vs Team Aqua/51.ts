@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Écrapince de Team Aqua",
 		de: "Team Aquas Krebscorps"
 	},
+
 	illustrator: "Jungo Suzuki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		341,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -63,10 +66,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276003,
+		tcgplayer: 89782
+	}
 }
 
 export default card

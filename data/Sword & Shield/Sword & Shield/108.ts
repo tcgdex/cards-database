@@ -80,7 +80,12 @@ const card: Card = {
 		en: "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand."
 	},
 
-	dexId: [843]
+	dexId: [843],
+
+	thirdParty: {
+		cardmarket: 436654,
+		tcgplayer: 208417
+	}
 }
 
 export default card

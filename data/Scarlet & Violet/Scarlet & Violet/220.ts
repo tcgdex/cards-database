@@ -70,7 +70,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Shin Nagasawa"
+	illustrator: "Shin Nagasawa",
+
+	thirdParty: {
+		cardmarket: 702429
+	}
 }
 
 export default card

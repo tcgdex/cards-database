@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Monferno",
 		de: "Panpyro"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		391,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Chimchar",
 		fr: "Ouisticram",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Chimchar",
 		de: "Panflam"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -68,6 +72,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -77,8 +82,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 291525,
+		tcgplayer: 121008
+	}
 }
 
 export default card

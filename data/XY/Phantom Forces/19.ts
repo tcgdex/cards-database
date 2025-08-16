@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Lumineon",
 		de: "Lumineon"
 	},
+
 	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		457,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Finneon",
 		fr: "Écayon",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Finneon",
 		de: "Finneon"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281823,
+		tcgplayer: 94152
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Articuno",
 		fr: "Artikodin",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		144,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,22 +55,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 288407,
+		tcgplayer: 113683
+	}
 }
 
 export default card

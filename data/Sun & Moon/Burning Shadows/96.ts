@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Ribombee",
 		de: "Bandelby"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		743,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Cutiefly",
 		fr: "Bombydou",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -67,22 +73,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 299497,
+		tcgplayer: 138590
+	}
 }
 
 export default card

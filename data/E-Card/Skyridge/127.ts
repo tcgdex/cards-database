@@ -14,6 +14,11 @@ const card: Card = {
 
 	effect: {
 		de: "Wähle eines deiner Pokémon. Lege 1 oder 2 an dieses Pokémon angelgte Basis-Energiekarten auf deinen Ablagestapel. Hast du 1 Energiekarte auf deinen Ablagestapel gelegt, entferne bis zu 3 Schadensmarken von diesem Pokémon. Hast du 2 Energiekarten auf deinen Ablagestapel gelegt, entferne bis zu 5 Schadensmarken von deinem Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 275385,
+		tcgplayer: 86246
 	}
 }
 

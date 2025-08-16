@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser."
+	},
+
+	thirdParty: {
+		cardmarket: 273716,
+		tcgplayer: 42362
 	}
 }
 

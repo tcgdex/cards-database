@@ -76,7 +76,12 @@ const card: Card = {
 		en: "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574197,
+		tcgplayer: 246882
+	}
 }
 
 export default card

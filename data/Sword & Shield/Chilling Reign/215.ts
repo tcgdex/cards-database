@@ -35,7 +35,12 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567247,
+		tcgplayer: 241834
+	}
 }
 
 export default card

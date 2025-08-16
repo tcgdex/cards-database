@@ -5,25 +5,15 @@ const card: Card = {
 	name: {
 		en: "Poké Ball",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274044
+	}
 }
 
 export default card

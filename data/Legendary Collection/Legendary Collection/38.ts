@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Dark Dragonair",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		148,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Dratini",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -33,6 +38,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,9 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274803,
+		tcgplayer: 84581
+	}
 }
 
 export default card

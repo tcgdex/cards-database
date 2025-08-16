@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Serperior",
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		497,
 	],
+
 	hp: 140,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Servine",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -33,6 +38,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -55,10 +62,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 281151
+	}
 }
 
 export default card

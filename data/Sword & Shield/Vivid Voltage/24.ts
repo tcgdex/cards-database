@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [5],
+
 	name: {
 		en: "Charmeleon",
 		fr: "Reptincel",
@@ -95,6 +96,11 @@ const card: Card = {
 
 	description: {
 		en: "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws."
+	},
+
+	thirdParty: {
+		cardmarket: 511540,
+		tcgplayer: 226394
 	}
 }
 

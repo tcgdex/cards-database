@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Dardargnan δ",
 		de: "Bibor"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		15,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Kakuna",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -68,10 +75,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276764
+	}
 }
 
 export default card

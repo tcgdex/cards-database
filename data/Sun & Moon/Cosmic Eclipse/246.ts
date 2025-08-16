@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Excadrill",
 		de: "Stalobor"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		530,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Drilbur",
 		fr: "Rototaupe",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 398554,
+		tcgplayer: 201357
+	}
 }
 
 export default card

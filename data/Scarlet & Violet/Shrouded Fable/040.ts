@@ -64,7 +64,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Kazumasa Yasukuni"
+	illustrator: "Kazumasa Yasukuni",
+
+	thirdParty: {
+		cardmarket: 780936
+	}
 }
 
 export default card

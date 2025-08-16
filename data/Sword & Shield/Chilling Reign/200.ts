@@ -91,7 +91,12 @@ const card: Card = {
 		de: "Lohgock-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567101,
+		tcgplayer: 241672
+	}
 }
 
 export default card

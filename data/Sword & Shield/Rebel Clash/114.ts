@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [434],
+
 	name: {
 		en: "Stunky",
 		fr: "Moufouette",
@@ -67,6 +68,11 @@ const card: Card = {
 
 	description: {
 		en: "From its rear, it sprays a foul-smelling liquid at opponents. It aims for their faces, and it can hit them from over 16 feet away."
+	},
+
+	thirdParty: {
+		cardmarket: 457978,
+		tcgplayer: 213206
 	}
 }
 

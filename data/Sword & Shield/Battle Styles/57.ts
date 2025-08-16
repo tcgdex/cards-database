@@ -67,6 +67,11 @@ const card: Card = {
 
 	description: {
 		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
+	},
+
+	thirdParty: {
+		cardmarket: 545396,
+		tcgplayer: 234223
 	}
 }
 

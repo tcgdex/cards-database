@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Navegador de Estádio",
 		de: "Stadion-Navi"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez 2 pièces. Pour chaque côté face, cherchez une carte Stade dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Jogue 2 moedas. Para cada cara, procure por 1 carta de Estádio no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Wirf 2 Münzen. Durchsuche pro Kopf dein Deck nach 1 Stadionkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 388827,
+		tcgplayer: 195265
+	}
 }
 
 export default card

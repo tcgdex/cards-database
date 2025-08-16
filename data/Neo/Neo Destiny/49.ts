@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon ne se fatigue jamais, quoi qu'il fasse, même s'il s'entraîne dur."
+	},
+
+	thirdParty: {
+		cardmarket: 274701,
+		tcgplayer: 86745
 	}
 }
 

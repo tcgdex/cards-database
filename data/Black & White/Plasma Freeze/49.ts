@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Sableye",
 		de: "Zobiris"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		302,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -57,11 +59,12 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280927,
+		tcgplayer: 88858
+	}
 }
 
 export default card

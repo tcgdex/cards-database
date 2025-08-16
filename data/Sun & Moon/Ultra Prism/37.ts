@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Snover",
 		de: "Shnebedeck"
 	},
+
 	illustrator: "match",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		459,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -61,8 +64,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 315968,
+		tcgplayer: 157654
+	}
 }
 
 export default card

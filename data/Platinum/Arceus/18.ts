@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Glalie",
 		de: "Firnontor"
 	},
+
 	illustrator: "Hiroki Fuchino",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		362,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Snorunt",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -68,8 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278890,
+		tcgplayer: 85756
+	}
 }
 
 export default card

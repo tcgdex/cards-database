@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Capumain",
 		de: "Griffel"
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		190,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -62,10 +67,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276680,
+		tcgplayer: 83488
+	}
 }
 
 export default card

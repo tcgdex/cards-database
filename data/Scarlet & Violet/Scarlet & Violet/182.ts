@@ -32,7 +32,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Studio Bora Inc."
+	illustrator: "Studio Bora Inc.",
+
+	thirdParty: {
+		cardmarket: 702478
+	}
 }
 
 export default card

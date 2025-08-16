@@ -6,18 +6,22 @@ const card: Card = {
 		en: "Charizard GX",
 		fr: "Dracaufeu-GX",
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 250,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charmeleon",
 		fr: "Reptincel",
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -69,8 +74,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 381243,
+		tcgplayer: 197651
+	}
 }
 
 export default card

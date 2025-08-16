@@ -61,6 +61,11 @@ const card: Card = {
 
 	description: {
 		fr: "Cet oiseau vole très mal mais court très vite. Il laisse de gigantesques empreintes de pas."
+	},
+
+	thirdParty: {
+		cardmarket: 273743,
+		tcgplayer: 42391
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [660],
+
 	name: {
 		en: "Diggersby",
 		fr: "Excavarenne",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "With power equal to an excavator, it can dig through dense bedrock. It's a huge help during tunnel construction."
+	},
+
+	thirdParty: {
+		cardmarket: 458133,
+		tcgplayer: 213247
 	}
 }
 

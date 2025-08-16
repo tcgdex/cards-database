@@ -69,7 +69,12 @@ const card: Card = {
 		de: "Kapu-Riki-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545366,
+		tcgplayer: 234083
+	}
 }
 
 export default card

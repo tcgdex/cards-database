@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air."
+	},
+
+	thirdParty: {
+		cardmarket: 539523
 	}
 }
 

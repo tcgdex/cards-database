@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Pikachu Surfista",
 		de: "Surfendes Pikachu"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		25,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -54,8 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 293473,
+		tcgplayer: 124124
+	}
 }
 
 export default card

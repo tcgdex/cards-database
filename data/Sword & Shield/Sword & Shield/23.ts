@@ -99,6 +99,11 @@ const card: Card = {
 
 	description: {
 		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
+	},
+
+	thirdParty: {
+		cardmarket: 436284,
+		tcgplayer: 208302
 	}
 }
 

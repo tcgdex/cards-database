@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Galekid de Team Magma",
 		de: "Team Magmas Stollunior"
 	},
+
 	illustrator: "Katsura Tabata",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		304,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -41,6 +43,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -48,10 +51,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276035,
+		tcgplayer: 89820
+	}
 }
 
 export default card

@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		fr: "On dit qu'il reste silencieux et immobile car il observe le passé et le futur en même temps."
+	},
+
+	thirdParty: {
+		cardmarket: 274452,
+		tcgplayer: 90661
 	}
 }
 

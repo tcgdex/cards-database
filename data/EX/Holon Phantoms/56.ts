@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Qulbutoké",
 		de: "Woingenau"
 	},
+
 	illustrator: "Katsura Tabata",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		202,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -66,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277026,
+		tcgplayer: 90617
+	}
 }
 
 export default card

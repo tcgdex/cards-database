@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Brock",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274138,
+		tcgplayer: 83960
+	}
 }
 
 export default card

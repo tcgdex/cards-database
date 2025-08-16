@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [255],
+
 	name: {
 		en: "Torchic",
 		fr: "Poussifeu",
@@ -84,6 +85,11 @@ const card: Card = {
 
 	description: {
 		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit."
+	},
+
+	thirdParty: {
+		cardmarket: 482984,
+		tcgplayer: 219235
 	}
 }
 

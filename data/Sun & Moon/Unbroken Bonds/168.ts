@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Ilha Empoeirada",
 		de: "Staubinsel"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lorsque l’effet d’une carte Dresseur amène l’un des joueurs à échanger son Pokémon Actif Empoisonné avec l’un de ses Pokémon de Banc, le nouveau Pokémon Actif est affecté par cet État Spécial.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Sempre que qualquer um dos jogadores trocar o seu Pokémon Ativo Envenenado por 1 dos próprios Pokémon no Banco usando o efeito de uma carta de Treinador, o novo Pokémon Ativo será afetado por aquela Condição Especial.",
 		de: "Jedes Mal, wenn einer der beiden Spieler sein vergiftetes Aktives Pokémon durch den Effekt einer Trainerkarte gegen 1 Pokémon auf seiner Bank austauscht, ist das neue Aktive Pokémon jetzt von jenem Speziellen Zustand betroffen."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 372453,
+		tcgplayer: 189268
+	}
 }
 
 export default card

@@ -26,6 +26,11 @@ const dp2: Set = {
 	abbreviations: {
 		official: "MT",
 		fr: "TMY"
+	},
+
+	thirdParty: {
+		cardmarket: 1556,
+		tcgplayer: 1368
 	}
 }
 

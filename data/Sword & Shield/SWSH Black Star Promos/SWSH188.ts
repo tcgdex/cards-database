@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker."
+	},
+
+	thirdParty: {
+		cardmarket: 606602
 	}
 }
 

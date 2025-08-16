@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cinza Sagrada",
 		de: "Zauberasche"
 	},
+
 	illustrator: "PLANETA",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Mélangez 5 Pokémon de votre pile de défausse avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Embaralhe 5 Pokémon da sua pilha de descarte no seu baralho.",
 		de: "Mische 5 Pokémon aus deinem Ablagestapel in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281579,
+		tcgplayer: 91233
+	}
 }
 
 export default card

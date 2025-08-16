@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [702],
+
 	name: {
 		en: "Dedenne",
 		fr: "Dedenne",
@@ -69,6 +70,11 @@ const card: Card = {
 
 	description: {
 		en: "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity."
+	},
+
+	thirdParty: {
+		cardmarket: 511805,
+		tcgplayer: 226485
 	}
 }
 

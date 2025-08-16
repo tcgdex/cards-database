@@ -62,7 +62,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "HAGIYA Kaoru"
+	illustrator: "HAGIYA Kaoru",
+
+	thirdParty: {
+		cardmarket: 780939
+	}
 }
 
 export default card

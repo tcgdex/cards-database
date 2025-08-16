@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Bien qu'il soit effrayant, il est en fait doux et attentionné. Il est très populaire."
+	},
+
+	thirdParty: {
+		cardmarket: 274474,
+		tcgplayer: 89412
 	}
 }
 

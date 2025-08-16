@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [47],
+
 	name: {
 		en: "Parasect",
 		fr: "Parasect",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving."
+	},
+
+	thirdParty: {
+		cardmarket: 482894,
+		tcgplayer: 219068
 	}
 }
 

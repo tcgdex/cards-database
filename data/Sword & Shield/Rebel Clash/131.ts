@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [476],
+
 	name: {
 		en: "Probopass",
 		fr: "Tarinorme",
@@ -100,6 +101,11 @@ const card: Card = {
 
 	description: {
 		en: "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders."
+	},
+
+	thirdParty: {
+		cardmarket: 458053,
+		tcgplayer: 213227
 	}
 }
 

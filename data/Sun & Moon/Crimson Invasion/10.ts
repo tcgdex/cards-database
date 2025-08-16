@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Skiddo",
 		de: "Mähikel"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		672,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -54,8 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 311860,
+		tcgplayer: 149031
+	}
 }
 
 export default card

@@ -104,7 +104,12 @@ const card: Card = {
 		en: "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
 	},
 
-	dexId: [164]
+	dexId: [164],
+
+	thirdParty: {
+		cardmarket: 436814,
+		tcgplayer: 208463
+	}
 }
 
 export default card

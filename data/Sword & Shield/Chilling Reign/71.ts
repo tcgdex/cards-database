@@ -58,6 +58,11 @@ const card: Card = {
 
 	description: {
 		en: "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people."
+	},
+
+	thirdParty: {
+		cardmarket: 567179,
+		tcgplayer: 241732
 	}
 }
 

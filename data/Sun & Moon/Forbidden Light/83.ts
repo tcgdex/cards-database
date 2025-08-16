@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Flabébé",
 		de: "Flabébé"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		669,
 	],
+
 	hp: 30,
+
 	types: [
 		"Fairy",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -64,22 +68,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 355597
+	}
 }
 
 export default card

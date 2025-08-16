@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Florizarre ex",
 		de: "Bisaflor ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
 	],
+
 	hp: 150,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Ivysaur",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -88,10 +95,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276288,
+		tcgplayer: 90323
+	}
 }
 
 export default card

@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Gli attacchi dei Pokémon Lightning, sia tuoi che del tuo avversario, costano Lightning in meno.\n\nOgni volta che un giocatore gioca una delle carte Strumento o Aiuto che ha in mano, previeni tutti gli effetti di quella carta su questa carta Stadio.",
 		pt: "Os ataques dos Pokémon Lightning (seus e do seu oponente) custam Lightning a menos.\n\nSempre que algum jogador jogar uma carta de Item ou de Apoiador da própria mão, prevenirá todos os efeitos daquela carta causados a esta carta de Estádio.",
 		de: "Die Kosten der Attacken der Lightning-Pokémon (deiner und der deines Gegners) verringern sich um Lightning.\n\nVerhindere jedes Mal, wenn ein Spieler eine Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die dieser Stadionkarte zugefügt werden."
+	},
+
+	thirdParty: {
+		cardmarket: 364336
 	}
 }
 

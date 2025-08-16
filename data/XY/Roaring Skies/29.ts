@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Xatu",
 		de: "Xatu"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		178,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Natu",
 		fr: "Natu",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Natu",
 		de: "Natu"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 282697,
+		tcgplayer: 98065
+	}
 }
 
 export default card

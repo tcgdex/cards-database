@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Aerium Z: Golpe de Ar",
 		de: "Aerium Z: Luftschnitt"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée a l’attaque Lame d’Air, il peut utiliser l’attaque GX sur cette carte. (Vous avez toujours besoin de l’Énergie nécessaire pour utiliser cette attaque.)\n\nColorlessColorlessColorlessColorless Piqué Dynamique GX 180\nÉvitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se o Pokémon ao qual esta carta está ligada tiver o ataque Golpe de Ar, poderá usar o ataque GX desta carta (você ainda precisa da Energia necessária para usar este ataque).\n\nColorlessColorlessColorlessColorless Pancada Acelerada GX 180\nPrevenirá todos os efeitos de ataques, incluindo dano, causados a este Pokémon durante a próxima vez de jogar do seu oponente (você não pode usar mais de 1 ataque GX por partida).",
 		de: "Wenn das Pokémon, an das diese Karte angelegt ist, die Attacke Luftschnitt hat, kann es die GX-Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.)\n\nColorlessColorlessColorlessColorless Rasender Steilflug GX 180\nVerhindere während des nächsten Zuges deines Gegners alle Effekte von Attacken, einschließlich Schaden, die diesem Pokémon zugefügt werden. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 388762,
+		tcgplayer: 195250
+	}
 }
 
 export default card

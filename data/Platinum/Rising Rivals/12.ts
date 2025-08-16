@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Roserade  Niv. 22",
 		de: "Roserade GL"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		407,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -69,8 +72,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		tcgplayer: 88834
+	}
 }
 
 export default card

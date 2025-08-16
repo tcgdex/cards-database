@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cidade de Nevasca",
 		de: "Blizzania"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les Pokémon auxquels il reste 40 PV ou moins (les vôtres et ceux de votre adversaire) ne peuvent pas attaquer.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Pokémon com PS restante de 40 ou menos (seus e do seu oponente) não podem atacar.",
 		de: "Pokémon (deine und die deines Gegners), deren verbleibende KP 40 oder weniger betragen, können nicht angreifen."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 388722,
+		tcgplayer: 195217
+	}
 }
 
 export default card

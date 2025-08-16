@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cubo de Proteção",
 		de: "Schutzschachtel"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Évitez tous les dégâts infligés au Pokémon auquel cette carte est attachée par les attaques qu'il utilise.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Impede todos os danos causados ao Pokémon ao qual este card está ligado pelos ataques que ele usa.",
 		de: "Verhindere allen Schaden, der dem Pokémon, an das diese Karte angelegt ist, durch Angriffe, die es einsetzt, zugefügt würde."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 281578,
+		tcgplayer: 91232
+	}
 }
 
 export default card

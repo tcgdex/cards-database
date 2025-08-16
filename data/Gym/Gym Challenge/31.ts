@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Blaine's Charmeleon",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		5,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charmander",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -59,10 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274299,
+		tcgplayer: 83864
+	}
 }
 
 export default card

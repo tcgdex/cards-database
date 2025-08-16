@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [845],
+
 	name: {
 		en: "Cramorant",
 		fr: "Nigosier",
@@ -77,6 +78,11 @@ const card: Card = {
 
 	description: {
 		en: "Cramorant's gluttony led it to try to swallow an Arrokuda whole, which in turn led to Cramorant getting an Arrokuda stuck in its throat."
+	},
+
+	thirdParty: {
+		cardmarket: 511620,
+		tcgplayer: 226425
 	}
 }
 

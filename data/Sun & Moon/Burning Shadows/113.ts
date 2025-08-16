@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Halteres de Fisiculturismo",
 		de: "Bodybuilding-Hanteln"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ajoute 40 PV au Pokémon de Niveau 1 auquel elle est attachée.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Pokémon Estágio 1 ao qual esta carta está ligada recebe 40 PS a mais.",
 		de: "Das Phase-1-Pokémon, an das diese Karte angelegt ist, erhält 40 KP mehr."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 299514,
+		tcgplayer: 138622
+	}
 }
 
 export default card

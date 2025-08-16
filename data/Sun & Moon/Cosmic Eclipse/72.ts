@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Lanturn",
 		de: "Lanturn"
 	},
+
 	illustrator: "otumami",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		171,
 	],
+
 	hp: 110,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Loupio",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,22 +81,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 408009,
+		tcgplayer: 201246
+	}
 }
 
 export default card

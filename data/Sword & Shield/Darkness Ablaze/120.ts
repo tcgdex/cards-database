@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [227],
+
 	name: {
 		en: "Skarmory",
 		fr: "Airmure",
@@ -94,6 +95,11 @@ const card: Card = {
 
 	description: {
 		en: "Its body is draped in steel armor. It looks heavy, but it can fly at speeds of up to 185 miles an hour!"
+	},
+
+	thirdParty: {
+		cardmarket: 483479,
+		tcgplayer: 219376
 	}
 }
 

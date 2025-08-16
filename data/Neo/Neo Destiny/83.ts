@@ -67,6 +67,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est tout petit et sans défense. S'il est attaqué, il agite ses feuilles en espérant effrayer ses ennemis."
+	},
+
+	thirdParty: {
+		cardmarket: 274735,
+		tcgplayer: 89618
 	}
 }
 

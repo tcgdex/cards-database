@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [686],
+
 	name: {
 		en: "Inkay",
 		fr: "Sepiatop",
@@ -86,6 +87,11 @@ const card: Card = {
 
 	description: {
 		en: "It spins while making its luminescent spots flash. These spots allow it to communicate with others by using different patterns of light."
+	},
+
+	thirdParty: {
+		cardmarket: 500075,
+		tcgplayer: 223044
 	}
 }
 

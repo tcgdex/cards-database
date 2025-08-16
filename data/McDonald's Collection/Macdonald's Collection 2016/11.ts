@@ -28,7 +28,11 @@ const card: Card = {
 		en: "Meowth"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275067
+	}
 }
 
 export default card

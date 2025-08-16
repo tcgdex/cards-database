@@ -73,7 +73,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Yoriyuki Ikegami"
+	illustrator: "Yoriyuki Ikegami",
+
+	thirdParty: {
+		cardmarket: 751557
+	}
 }
 
 export default card

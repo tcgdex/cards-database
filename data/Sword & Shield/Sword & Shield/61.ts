@@ -107,7 +107,12 @@ const card: Card = {
 		en: "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
 	},
 
-	dexId: [834]
+	dexId: [834],
+
+	thirdParty: {
+		cardmarket: 436439,
+		tcgplayer: 208358
+	}
 }
 
 export default card

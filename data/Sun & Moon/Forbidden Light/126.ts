@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Xerneas GX",
 		de: "Xerneas GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		716,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fairy",
 	],
-
 
 	suffix: "GX",
 
@@ -93,22 +95,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 355604,
+		tcgplayer: 165749
+	}
 }
 
 export default card

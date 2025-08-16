@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Persian de Alola GX",
 		de: "Alola-Snobilikat GX"
 	},
+
 	illustrator: "PLANETA Tsuji",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		53,
 	],
+
 	hp: 200,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Alolan Meowth",
 		fr: "Miaouss d’Alola",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -93,22 +99,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 408294,
+		tcgplayer: 201336
+	}
 }
 
 export default card

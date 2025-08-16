@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need."
+	},
+
+	thirdParty: {
+		cardmarket: 539218,
+		tcgplayer: 232547
 	}
 }
 

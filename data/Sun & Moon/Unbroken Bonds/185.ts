@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Gabriel Carvalho",
 		de: "Samson Eich"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 2 cartes. Si les deux Pokémon Actifs sont du même type, piochez 2 cartes supplémentaires.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Compre 2 cartas. Se ambos os Pokémon Ativos forem do mesmo tipo, compre 2 cartas a mais.",
 		de: "Ziehe 2 Karten. Wenn beide Aktiven Pokémon denselben Typ haben, ziehe 2 Karten mehr."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 372469,
+		tcgplayer: 189294
+	}
 }
 
 export default card

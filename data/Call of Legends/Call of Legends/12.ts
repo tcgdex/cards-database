@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Kyogre",
 		de: "Kyogre"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		382,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -53,8 +56,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 279638,
+		tcgplayer: 86550
+	}
 }
 
 export default card

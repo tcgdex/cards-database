@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées."
+	},
+
+	thirdParty: {
+		cardmarket: 277687,
+		tcgplayer: 87958
 	}
 }
 

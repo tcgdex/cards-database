@@ -24,6 +24,11 @@ const dp7: Set = {
 	abbreviations: {
 		official: "FS",
 		fr: "TEM"
+	},
+
+	thirdParty: {
+		cardmarket: 1561,
+		tcgplayer: 1369
 	}
 }
 

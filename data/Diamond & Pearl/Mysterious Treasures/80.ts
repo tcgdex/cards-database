@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ses deux cerveaux semblent communiquer leurs émotions grâce à un lien télépathique."
+	},
+
+	thirdParty: {
+		cardmarket: 277709,
+		tcgplayer: 84863
 	}
 }
 

@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Ninetales de Alola",
 		de: "Alola Vulnona"
 	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		38,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Alolan Vulpix",
 		fr: "Goupix d’Alola",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -69,6 +75,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -78,8 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 369040,
+		tcgplayer: 183895
+	}
 }
 
 export default card

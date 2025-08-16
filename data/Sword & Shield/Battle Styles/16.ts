@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		en: "Although it's called a guardian deity, it's violent enough to crush anyone it sees as an enemy."
+	},
+
+	thirdParty: {
+		cardmarket: 544981,
+		tcgplayer: 234082
 	}
 }
 

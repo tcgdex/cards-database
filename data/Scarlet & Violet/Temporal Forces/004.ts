@@ -64,7 +64,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Lee HyunJung"
+	illustrator: "Lee HyunJung",
+
+	thirdParty: {
+		cardmarket: 760634
+	}
 }
 
 export default card

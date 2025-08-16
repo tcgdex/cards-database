@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ils volent en nombre. Bien que minuscule, il bat des ailes avec une vigueur impressionnante."
+	},
+
+	thirdParty: {
+		cardmarket: 277600,
+		tcgplayer: 89520
 	}
 }
 

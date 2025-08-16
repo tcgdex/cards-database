@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Prinplouf",
 		de: "Pliprin"
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		394,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Piplup",
 		fr: "Tiplouf",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -64,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -73,8 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278093,
+		tcgplayer: 88370
+	}
 }
 
 export default card

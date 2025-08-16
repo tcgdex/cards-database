@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Réveillé par le clair de lune, il rode pendant la nuit. Le jour, il reste tranquillement sous terre."
+	},
+
+	thirdParty: {
+		cardmarket: 274468,
+		tcgplayer: 87838
 	}
 }
 

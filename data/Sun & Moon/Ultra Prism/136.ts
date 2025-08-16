@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Questa carta fornisce Energia Colorless.\n\nQuando è assegnata a un Pokémon di Fase 2, questa carta fornisce un’Energia di qualsiasi tipo, ma solo una alla volta. Se hai tre o più Pokémon di Fase 2 in gioco, questa carta fornisce Energia di qualsiasi tipo, ma quattro alla volta.",
 		pt: "Esta carta fornece Energia Colorless.\n\nEnquanto esta carta estiver ligada a um Pokémon Estágio 2, ela fornecerá todo tipo de Energia, mas só fornecerá 1 Energia por vez. Se você tiver 3 ou mais Pokémon Estágio 2 em jogo, ela fornecerá todo tipo de Energia, mas fornecerá 4 Energias por vez.",
 		de: "Diese Karte liefert Colorless-Energie.\n\nIst sie an ein Phase-2-Pokémon angelegt, liefert diese Karte jeden beliebigen Energietyp, aber immer nur jeweils 1 Energie. Wenn du 3 oder mehr Phase-2-Pokémon im Spiel hast, liefert sie jeden beliebigen Energietyp, aber immer jeweils 4 Energien."
+	},
+
+	thirdParty: {
+		cardmarket: 315123
 	}
 }
 

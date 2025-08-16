@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Swampert EX",
 		fr: "Laggron EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		260,
 	],
+
 	hp: 180,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -68,8 +71,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 289718
+	}
 }
 
 export default card

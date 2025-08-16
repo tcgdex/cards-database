@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Tablet de Pedido",
 		de: "Bestellpad"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, cherchez une carte Objet dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Jogue 1 moeda. Se sair cara, procure por 1 carta de Item no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 316056,
+		tcgplayer: 157747
+	}
 }
 
 export default card

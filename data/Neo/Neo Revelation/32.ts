@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il aveugle sa proie avec un flash de lumière intense, puis, une fois immobilisée, il l'avale d'un seul coup."
+	},
+
+	thirdParty: {
+		cardmarket: 274618,
+		tcgplayer: 86602
 	}
 }
 

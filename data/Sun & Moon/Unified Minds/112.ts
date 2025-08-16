@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Gible",
 		de: "Kaumalat"
 	},
+
 	illustrator: "Asako Ito",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		443,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -70,8 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388362,
+		tcgplayer: 195065
+	}
 }
 
 export default card

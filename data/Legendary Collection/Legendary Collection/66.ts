@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Tentacruel",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		73,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Tentacool",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -51,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -58,10 +63,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274831,
+		tcgplayer: 89874
+	}
 }
 
 export default card

@@ -24,6 +24,11 @@ const set: Set = {
 	abbreviations: {
 		official: "OBF",
 		fr: "FLO"
+	},
+
+	thirdParty: {
+		cardmarket: 5385,
+		tcgplayer: 23228
 	}
 }
 

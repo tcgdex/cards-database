@@ -25,6 +25,11 @@ const bw9: Set = {
 	abbreviations: {
 		official: "PLF",
 		fr: "GPL"
+	},
+
+	thirdParty: {
+		cardmarket: 1579,
+		tcgplayer: 1382
 	}
 }
 

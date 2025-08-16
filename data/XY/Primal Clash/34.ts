@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Marshtomp",
 		de: "Moorabbel"
 	},
+
 	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		259,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Mudkip",
 		fr: "Gobou",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Mudkip",
 		de: "Hydropi"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 273565,
+		tcgplayer: 95926
+	}
 }
 
 export default card

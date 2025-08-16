@@ -16,6 +16,11 @@ const card: Card = {
 
 	effect: {
 		de: "Antriebs-Energie kann nur an ein entwickeltes Pokémon angelegt werden. Lege Antriebs-Energie am Ende des Zuges, in dem sie angelegt wurde, auf deinen Ablagestapel. Antriebs-Energie liefert   -Energie. Das Pokémon, an das Antriebs-Energie angelegt ist, kann sich nicht zurückziehen. Handelt es sich bei dem Pokémon, an das Antriebs-Energie angelegt ist, nicht mehr um ein entwickeltes Pokémon, dann lege Antriebs-Energie auf deinen Ablagestapel."
+	},
+
+	thirdParty: {
+		cardmarket: 277292,
+		tcgplayer: 83940
 	}
 }
 

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Nidoking",
 		de: "Nidoking"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		34,
 	],
+
 	hp: 160,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Nidorino",
 		fr: "Nidorino",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -79,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -88,8 +93,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 368989,
+		tcgplayer: 183837
+	}
 }
 
 export default card

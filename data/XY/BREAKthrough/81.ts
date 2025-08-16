@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Piloswine",
 		de: "Keifel"
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		221,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Swinub",
 		fr: "Marcacrin",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Swinub",
 		de: "Quiekel"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -93,8 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 286327,
+		tcgplayer: 107200
+	}
 }
 
 export default card
