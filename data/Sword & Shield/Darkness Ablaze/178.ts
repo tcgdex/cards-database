@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [229],
 	set: Set,
 	hp: 210,
 

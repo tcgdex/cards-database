@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [618],
 	set: Set,
 	hp: 200,
 
