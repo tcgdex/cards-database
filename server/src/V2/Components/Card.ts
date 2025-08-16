@@ -25,7 +25,7 @@ import { getTCGPlayerPrice } from '../../libs/providers/tcgplayer'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
 
 // any is CompiledCard that is currently not mapped correctly
-const list: Record<`${string|any}${SupportedLanguages|string}`, any> = {}
+const list: Record<`${string | any}${SupportedLanguages | string}`, any> = {}
 
 // @ts-ignore ts can't load file
 en.forEach((it) => list[`${it.id}en`] = it)
@@ -86,11 +86,11 @@ type MappedCard = SDKCard // (typeof en)[number]
 export type Card = SDKCard
 
 export async function getAllCards(lang: SupportedLanguages): Promise<Array<SDKCard>> {
-	return Promise.all((cards[lang] as Array<MappedCard>).map((it) => loadCard(lang, it.id)))
+	return Promise.all((cards[lang] as Array<MappedCard>).map((it) => loadCard(lang, it.id))) as Promise<Array<SDKCard>>
 }
 
 export function getCompiledCard(lang: SupportedLanguages, id: string): any {
-	const key = `${id}${lang}`
+	const key = `${id}${lang}` as const as `${any}${string}`
 	return list[key]
 }
 

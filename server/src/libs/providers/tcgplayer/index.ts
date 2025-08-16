@@ -2,7 +2,7 @@ import * as OfficialTCGPlayer from './official'
 import * as Fallback from './fallback'
 import type RFC7807 from '../../RFCs/RFC7807'
 
-let source: typeof OfficialTCGPlayer = Fallback
+let source: (typeof OfficialTCGPlayer) | (typeof Fallback) = Fallback
 if (
 	process.env.TCGPLAYER_CLIENT_ID
 	&& process.env.TCGPLAYER_CLIENT_SECRET
@@ -23,7 +23,7 @@ export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number
 	return source.getTCGPlayerPrice(card)
 }
 
-export async function listSKUs(card: { thirdParty: { tcgplayer?: number }}): Promise<any> {
+export async function listSKUs(card: { thirdParty: { tcgplayer?: number } }): Promise<any> {
 	if ('listSKUs' in source) {
 		return (source as any).listSKUs(card)
 	}

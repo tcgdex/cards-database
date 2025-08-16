@@ -7,7 +7,7 @@ const tcgplayer = new TCGPlayer()
 
 type Result = Awaited<ReturnType<typeof TCGPlayer['prototype']['price']['groupProduct']>>
 
-let cache: Record<number, Record<string, Result>> = {}
+let cache: Record<number, Record<string, Result['results'][number]>> = {}
 let lastFetch: Date | undefined = undefined
 export async function updateTCGPlayerDatas(): Promise<boolean> {
 
@@ -70,12 +70,12 @@ export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number
 	return res
 }
 
-export async function listSKUs(card: { thirdParty: { tcgplayer?: number }}): Promise<any> {
+export async function listSKUs(card: { thirdParty: { tcgplayer?: number } }): Promise<any> {
 	if (!card.thirdParty.tcgplayer) {
 		return null
 	}
-	const skus: any = list[card.thirdParty.tcgplayer]
-	const res = await tcgplayer.price.listForSKUs(skus.map((it) => it.sku))
+	const skus: Array<{ sku: number }> = (list as any)[card.thirdParty.tcgplayer]
+	const res = await tcgplayer.price.listForSKUs(...skus.map((it) => it.sku))
 	return res.results.map((it) => ({
 		...objectOmit(it, 'skuId'),
 		...skus.find((sku) => sku.sku === it.skuId)
