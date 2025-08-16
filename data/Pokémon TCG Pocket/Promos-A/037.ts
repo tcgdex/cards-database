@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Mochizuki",
-	rarity: "None",
+	rarity: "Four Diamond",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],

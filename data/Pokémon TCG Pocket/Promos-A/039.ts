@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
-	rarity: "None",
+	rarity: "One Diamond",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Metal"],
