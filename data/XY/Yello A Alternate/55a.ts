@@ -9,6 +9,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 
+	dexId: [448],
 	set: Set,
 
 	hp: 220,

@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Satoshi Shirai",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [212],
 	set: Set,
 	hp: 210,
 

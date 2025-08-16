@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../White Flare"
 
 const card: Card = {
+	dexId: [513],
 	set: Set,
 
 	name: {

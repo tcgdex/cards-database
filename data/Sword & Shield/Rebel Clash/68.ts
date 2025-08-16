@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "nagimiso",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [848],
 	set: Set,
 
 	attacks: [

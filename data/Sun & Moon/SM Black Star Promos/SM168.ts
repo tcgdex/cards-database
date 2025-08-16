@@ -2,7 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
-	dexId: [25],
+	dexId: [25, 644],
 	name: {
 		fr: "Pikachu et Zekrom GX",
 		en: "Pikachu & Zekrom GX",

@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Destined Rivals"
 
 const card: Card = {
+	dexId: [247],
 	set: Set,
 
 	name: {
