@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Saki Hayashiro",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [38],
 	set: Set,
 
 	attacks: [
