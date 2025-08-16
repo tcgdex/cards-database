@@ -20,6 +20,14 @@ const set: Set = {
 		official: 75
 	},
 
+	boosters: {
+		arceus: {
+			name: {
+				en: "Arceus"
+			}
+		}
+	}
+
 	releaseDate: "2025-02-28"
 }
 
