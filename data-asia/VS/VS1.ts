@@ -4,6 +4,7 @@ import serie from '../VS'
 const set: Set = {
 	id: 'VS1',
 	name: {
+		en: 'Pokémon Card★VS',
 		ja: 'ポケモンカード★VS'
 	},
 
