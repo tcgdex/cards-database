@@ -5,12 +5,12 @@ const set: Set = {
 	id: "sv10.5b",
 
 	name: {
-		de: "151",
+		de: "Schwarze Blitze",
 		en: "Black Bolt",
-		es: "151",
-		fr: "151",
-		it: "151",
-		pt: "151"
+		es: "Fulgor Negro",
+		fr: "Foudre Noire",
+		it: "Luce Nera",
+		pt: "Raio Preto"
 	},
 
 	serie: serie,

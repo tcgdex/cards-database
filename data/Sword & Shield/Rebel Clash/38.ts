@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [866],
 	set: Set,
 
 	evolveFrom: {

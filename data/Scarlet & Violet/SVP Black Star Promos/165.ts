@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
+	dexId: [1024],
 	set: Set,
 
 	name: {

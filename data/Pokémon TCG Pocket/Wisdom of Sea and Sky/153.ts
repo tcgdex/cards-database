@@ -16,7 +16,8 @@ const card: Card = {
 		en: "The {M} Pokémon this card is attached to takes −10 damage from attacks from your opponent's Pokémon, recovers from all Special Conditions, and can't be affected by any Special Conditions."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	boosters: ["ho-oh"]
 }
 
 export default card

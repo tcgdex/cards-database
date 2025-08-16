@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Destined Rivals"
 
 const card: Card = {
+	dexId: [375],
 	set: Set,
 
 	name: {
@@ -50,8 +51,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	variants: {
-		normal: false,
-		reverse: false
+		holo: false
 	}
 }
 

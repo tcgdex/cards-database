@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "NC Empire",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [809],
 	set: Set,
 	hp: 150,
 

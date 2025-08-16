@@ -42,7 +42,8 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	boosters: ["ho-oh", "lugia"]
 }
 
 export default card

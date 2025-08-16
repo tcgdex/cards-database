@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [687],
 	set: Set,
 
 	attacks: [

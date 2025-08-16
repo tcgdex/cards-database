@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Ryota Murayama",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [663],
 	set: Set,
 	hp: 190,
 
