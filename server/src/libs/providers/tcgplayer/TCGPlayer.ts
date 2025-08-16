@@ -119,8 +119,8 @@ export default class TCGPlayer {
 				throw new Error('error connecting to TCGPlayer')
 			}
 
-			const json = await res.json()
-			this.bearer = json
+			const json = await res.json() as BearerResponse
+			this.bearer = json as any
 			now.setTime(now.getTime() + this.bearer!.expires_in)
 			this.bearer!.expires = now
 		}

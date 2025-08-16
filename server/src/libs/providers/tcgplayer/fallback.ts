@@ -1,5 +1,6 @@
 import { objectOmit } from '@dzeio/object-util'
 import { sets } from '../../../V2/Components/Set'
+import TCGPlayer from './TCGPlayer'
 
 export interface Root {
 	success: boolean
@@ -14,7 +15,7 @@ export interface Result {
 	highPrice: number
 	marketPrice?: number
 	directLowPrice?: number
-	subTypeName: 'Normal' | 'Reverse Holofoil' | 'Holofoil'
+	subTypeName: string
 }
 
 let cache: Record<number, Record<string, Result>> = {}
@@ -49,7 +50,7 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 			continue
 		}
 
-		const data = await res.json()
+		const data = await res.json() as Awaited<ReturnType<TCGPlayer['price']['listForProducts']>>
 
 		for (const item of data.results) {
 			const cacheItem = cache[item.productId] ?? {}
