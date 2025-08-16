@@ -69,6 +69,10 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+	description: {
+		en: "They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves."
+  },
 
 	retreat: 1,
 
