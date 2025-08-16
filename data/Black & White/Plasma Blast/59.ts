@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Aggron",
 		de: "Stolloss"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		306,
 	],
+
 	hp: 140,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Lairon",
 		fr: "Galegon",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -65,22 +69,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 281080,
+		tcgplayer: 83482
+	}
 }
 
 export default card

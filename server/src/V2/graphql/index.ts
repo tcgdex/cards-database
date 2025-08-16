@@ -2,8 +2,9 @@ import express from 'express'
 import fs from 'node:fs'
 import { buildSchema, type GraphQLError } from 'graphql'
 import { createHandler } from 'graphql-http/lib/use/express'
+/** @ts-expect-error idk why this error in tsgo but not in tsc */
 import { type ruruHTML as RuruHTML } from 'ruru/dist/server'
-/** @ts-expect-error typing is not correctly mapped (real type at ruru/dist/server.d.ts) */
+// /** @ts-expect-error typing is not correctly mapped (real type at ruru/dist/server.d.ts) */
 import { makeHTMLParts, ruruHTML as tmp } from 'ruru/server'
 import resolver from './resolver'
 

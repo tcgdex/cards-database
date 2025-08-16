@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [862],
+
 	name: {
 		en: "Galarian Obstagoon",
 		fr: "Ixon de Galar",
@@ -98,6 +99,11 @@ const card: Card = {
 
 	description: {
 		en: "Its voice is staggering in volume. Obstagoon has a tendency to take on a threatening posture and shout—this move is known as Obstruct."
+	},
+
+	thirdParty: {
+		cardmarket: 500040,
+		tcgplayer: 223037
 	}
 }
 

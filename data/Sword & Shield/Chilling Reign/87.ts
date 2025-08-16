@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		en: "They live alone without forming packs. They will only listen to orders from Trainers who can draw out their true power."
+	},
+
+	thirdParty: {
+		cardmarket: 567195,
+		tcgplayer: 241754
 	}
 }
 

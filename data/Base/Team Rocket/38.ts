@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "Très dangereux quand il se met en colère, il aime s'amuser à électrocuter les gens avec l'électricité qu'il stocke dans son corps."
+	},
+
+	thirdParty: {
+		cardmarket: 274091,
+		tcgplayer: 84617
 	}
 }
 

@@ -24,6 +24,11 @@ const card: Card = {
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può scartare una carta che ha in mano. Se lo fa, cerca nel suo mazzo una carta Energia base, la mostra e la aggiunge alle carte che ha in mano. Poi rimischia le carte del suo mazzo.",
 		pt: "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode descartar 1 carta da própria mão. Se fizer isto, aquele jogador irá procurar por 1 carta de Energia básica no próprio baralho, revelá-la e colocá-la na própria mão. Em seguida, aquele jogador embaralha o próprio baralho.",
 		de: "Einmal während des Zuges jedes Spielers kann der Spieler 1 Karte aus seiner Hand auf seinen Ablagestapel legen. Wenn er das macht, durchsucht jener Spieler sein Deck nach 1 Basis-Energiekarte, zeigt sie seinem Gegner und nimmt sie auf seine Hand. Anschließend mischt jener Spieler sein Deck."
+	},
+
+	thirdParty: {
+		cardmarket: 389072,
+		tcgplayer: 195330
 	}
 }
 

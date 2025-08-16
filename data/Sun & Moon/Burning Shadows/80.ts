@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Marshadow GX",
 		de: "Marshadow GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		802,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fighting",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -89,6 +93,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -98,8 +103,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 299482,
+		tcgplayer: 138566
+	}
 }
 
 export default card

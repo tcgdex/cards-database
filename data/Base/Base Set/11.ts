@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		fr: "Sa queue est une arme redoutable, il s'en sert pour attraper sa proie et lui broyer les os."
+	},
+
+	thirdParty: {
+		cardmarket: 273706,
+		tcgplayer: 42351
 	}
 }
 

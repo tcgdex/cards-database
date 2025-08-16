@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Sonho Recheado Grande",
 		de: "Maxi-Malasada"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez 20 dégâts et retirez un État Spécial de votre Pokémon Actif.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cure 20 pontos de dano e remova 1 Condição Especial do seu Pokémon Ativo.",
 		de: "Heile 20 Schadenspunkte und entferne 1 Speziellen Zustand von deinem Aktiven Pokémon."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 295427,
+		tcgplayer: 126986
+	}
 }
 
 export default card

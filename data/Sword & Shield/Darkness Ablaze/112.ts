@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [827],
+
 	name: {
 		en: "Nickit",
 		fr: "Goupilou",
@@ -68,6 +69,11 @@ const card: Card = {
 
 	description: {
 		en: "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains."
+	},
+
+	thirdParty: {
+		cardmarket: 483439,
+		tcgplayer: 219426
 	}
 }
 

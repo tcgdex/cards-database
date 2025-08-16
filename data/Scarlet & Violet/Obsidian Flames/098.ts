@@ -69,7 +69,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Megumi Mizutani"
+	illustrator: "Megumi Mizutani",
+
+	thirdParty: {
+		cardmarket: 725178
+	}
 }
 
 export default card

@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Hoppip",
 		de: "Hoppspross"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		187,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -53,8 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 291510,
+		tcgplayer: 120992
+	}
 }
 
 export default card

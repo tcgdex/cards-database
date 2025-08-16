@@ -23,6 +23,11 @@ const set: Set = {
 
 	abbreviations: {
 		official: "PRE"
+	},
+
+	thirdParty: {
+		cardmarket: 5944,
+		tcgplayer: 23821
 	}
 }
 

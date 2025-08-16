@@ -10,20 +10,22 @@ const card: Card = {
 		pt: "Umbreon e Darkrai GX",
 		de: "Nachtara & Darkrai GX"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		197,
 		491
 	],
+
 	hp: 270,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -76,22 +78,27 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 377511,
+		tcgplayer: 195083
+	}
 }
 
 export default card

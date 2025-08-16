@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [583],
+
 	name: {
 		en: "Vanillish",
 		fr: "Sorboul",
@@ -78,6 +79,11 @@ const card: Card = {
 
 	description: {
 		en: "By drinking pure water, it grows its icy body. This Pokémon can be hard to find on days with warm, sunny weather."
+	},
+
+	thirdParty: {
+		cardmarket: 483109,
+		tcgplayer: 219349
 	}
 }
 

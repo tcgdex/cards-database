@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Guzma",
 		de: "Bromley"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Dans ce cas, échangez votre Pokémon Actif avec l’un de vos Pokémon de Banc.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a). Se fizer isto, troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.",
 		de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Wenn du das machst, tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 298778,
+		tcgplayer: 138610
+	}
 }
 
 export default card

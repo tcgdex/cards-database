@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms."
+	},
+
+	thirdParty: {
+		cardmarket: 539518
 	}
 }
 

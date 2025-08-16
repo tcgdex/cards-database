@@ -24,6 +24,11 @@ const ex8: Set = {
 	abbreviations: {
 		official: "DX",
 		fr: "DEO"
+	},
+
+	thirdParty: {
+		cardmarket: 1546,
+		tcgplayer: 1404
 	}
 }
 

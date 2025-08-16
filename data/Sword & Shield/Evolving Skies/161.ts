@@ -34,7 +34,12 @@ const card: Card = {
 
 	trainerType: "Stadium",
 	illustrator: "Toyste Beach",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574219,
+		tcgplayer: 246786
+	}
 }
 
 export default card

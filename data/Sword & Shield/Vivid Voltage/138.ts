@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [384],
+
 	name: {
 		en: "Rayquaza",
 		fr: "Rayquaza",
@@ -78,6 +79,11 @@ const card: Card = {
 
 	description: {
 		en: "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it."
+	},
+
+	thirdParty: {
+		cardmarket: 512400,
+		tcgplayer: 226594
 	}
 }
 

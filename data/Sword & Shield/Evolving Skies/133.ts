@@ -73,7 +73,12 @@ const card: Card = {
 		en: "This Pokémon is popular with beginners because it's intelligent, obedient to its Trainer's commands, and easy to raise."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574191,
+		tcgplayer: 246867
+	}
 }
 
 export default card

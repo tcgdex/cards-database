@@ -58,6 +58,11 @@ const card: Card = {
 
 	description: {
 		en: "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee."
+	},
+
+	thirdParty: {
+		cardmarket: 567177,
+		tcgplayer: 241730
 	}
 }
 

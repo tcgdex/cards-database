@@ -16,6 +16,11 @@ const card: Card = {
 
 	effect: {
 		de: "Lege Finstere Metall-Energie an 1 deiner Pokémon an. Während Finstere Metall-Energie im Spiel ist, liefert diese Karte - und -Energie, aber immer nur 1 Energie auf einmal. (Zählt nicht als Basis-Energiekarte, wenn sie nicht im Spiel ist und hat keinen Effekt, außer dass sie Energie spendet.)"
+	},
+
+	thirdParty: {
+		cardmarket: 277067,
+		tcgplayer: 84629
 	}
 }
 

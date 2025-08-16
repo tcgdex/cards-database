@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Treecko",
 		de: "Geckarbor"
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		252,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -70,8 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 361254,
+		tcgplayer: 170816
+	}
 }
 
 export default card

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Chandelure",
 		de: "Skelabra"
 	},
+
 	illustrator: "so-taro",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		609,
 	],
+
 	hp: 140,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Lampent",
 		fr: "Mélancolux",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -77,22 +81,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 365740,
+		tcgplayer: 178916
+	}
 }
 
 export default card

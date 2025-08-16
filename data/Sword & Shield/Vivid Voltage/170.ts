@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [25],
+
 	name: {
 		en: "Pikachu V",
 		fr: "Pikachu V",
@@ -90,7 +91,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 511635,
+		tcgplayer: 226431
+	}
 }
 
 export default card

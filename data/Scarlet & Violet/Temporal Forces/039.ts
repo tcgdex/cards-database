@@ -51,7 +51,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "MINAMINAMI Take"
+	illustrator: "MINAMINAMI Take",
+
+	thirdParty: {
+		cardmarket: 760669
+	}
 }
 
 export default card

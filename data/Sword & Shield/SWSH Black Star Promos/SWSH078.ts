@@ -80,7 +80,11 @@ const card: Card = {
 	},
 
 	regulationMark: "D",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 522970
+	}
 }
 
 export default card

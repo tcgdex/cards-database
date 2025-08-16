@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Silvally",
 		de: "Amigento"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		773,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Type: Null",
 		fr: "Type:0",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -80,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -89,8 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 388707,
+		tcgplayer: 195214
+	}
 }
 
 export default card

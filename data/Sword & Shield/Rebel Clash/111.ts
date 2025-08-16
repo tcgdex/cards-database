@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [874],
+
 	name: {
 		en: "Stonjourner",
 		fr: "Dolman",
@@ -87,6 +88,11 @@ const card: Card = {
 
 	description: {
 		en: "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
+	},
+
+	thirdParty: {
+		cardmarket: 457963,
+		tcgplayer: 213203
 	}
 }
 

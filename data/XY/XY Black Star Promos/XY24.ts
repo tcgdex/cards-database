@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Greninja",
 		fr: "Amphinobi",
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		658,
 	],
+
 	hp: 130,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Frogadier",
 		fr: "Croâporal",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,22 +61,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "−20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281310
+	}
 }
 
 export default card

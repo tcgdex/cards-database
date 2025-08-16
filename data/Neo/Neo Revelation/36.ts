@@ -85,6 +85,11 @@ const card: Card = {
 
 	description: {
 		fr: "S'il charge un ennemi, les poils de son dos se dressent à la verticale. Il est très sensible aux sons."
+	},
+
+	thirdParty: {
+		cardmarket: 274622,
+		tcgplayer: 88114
 	}
 }
 

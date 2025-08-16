@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Celadon City Gym",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274243,
+		tcgplayer: 84140
+	}
 }
 
 export default card

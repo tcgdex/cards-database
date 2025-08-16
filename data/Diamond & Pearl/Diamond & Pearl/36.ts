@@ -80,6 +80,11 @@ const card: Card = {
 
 	description: {
 		fr: "Cette brute arrogante n'hésite pas à voler le nid d'autres Pokémon pour s'y installer."
+	},
+
+	thirdParty: {
+		cardmarket: 277535,
+		tcgplayer: 88464
 	}
 }
 

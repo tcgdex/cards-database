@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [501],
+
 	name: {
 		en: "Oshawott",
 		fr: "Moustillon",
@@ -79,6 +80,11 @@ const card: Card = {
 
 	description: {
 		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing."
+	},
+
+	thirdParty: {
+		cardmarket: 511585,
+		tcgplayer: 226412
 	}
 }
 

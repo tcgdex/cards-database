@@ -51,7 +51,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Yukihiro Tada"
+	illustrator: "Yukihiro Tada",
+
+	thirdParty: {
+		cardmarket: 785968
+	}
 }
 
 export default card

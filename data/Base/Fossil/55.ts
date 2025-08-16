@@ -70,6 +70,11 @@ const card: Card = {
 
 	description: {
 		fr: "Très lent et endormi, il lui faut 5 secondes pour ressentir la douleur d'une attaque."
+	},
+
+	thirdParty: {
+		cardmarket: 273916,
+		tcgplayer: 44457
 	}
 }
 

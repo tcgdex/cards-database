@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Charkos  Niv. 63",
 		de: "Rameidon GL"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		409,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -70,8 +73,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		tcgplayer: 88572
+	}
 }
 
 export default card

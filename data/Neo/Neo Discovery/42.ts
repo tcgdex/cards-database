@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps est tendre et mou dans sa carapace. Il reste immobile dans son cocon."
+	},
+
+	thirdParty: {
+		cardmarket: 274553,
+		tcgplayer: 87385
 	}
 }
 

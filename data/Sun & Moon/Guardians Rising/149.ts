@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Primarina GX",
 		de: "Primarene GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		730,
 	],
+
 	hp: 250,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Brionne",
 		fr: "Otarlette",
@@ -104,6 +108,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -113,8 +118,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 297698,
+		tcgplayer: 131056
+	}
 }
 
 export default card

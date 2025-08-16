@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Altar Solar",
 		de: "Sonnenkreis-Podium"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les Pokémon Fire et les Pokémon Metal (les vôtres et ceux de votre adversaire) n’ont pas de Faiblesse.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Os Pokémon Fire e os Pokémon Metal (seus e do seu oponente) não têm Fraqueza.",
 		de: "Fire-Pokémon und Metal-Pokémon (deine und die deines Gegners) haben keine Schwäche."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 297570,
+		tcgplayer: 131038
+	}
 }
 
 export default card

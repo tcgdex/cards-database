@@ -46,6 +46,11 @@ const card: Card = {
 
 	description: {
 		fr: "En raison de sa forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
+	},
+
+	thirdParty: {
+		cardmarket: 274420,
+		tcgplayer: 84362
 	}
 }
 

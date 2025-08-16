@@ -87,6 +87,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
+	},
+
+	thirdParty: {
+		cardmarket: 278332,
+		tcgplayer: 85029
 	}
 }
 

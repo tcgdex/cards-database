@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Qwilfish",
 		de: "Baldorfish"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		211,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -43,6 +45,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -50,10 +53,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275002,
+		tcgplayer: 88491
+	}
 }
 
 export default card

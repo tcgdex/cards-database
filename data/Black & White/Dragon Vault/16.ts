@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Haxorus",
 		fr: "Tranchodon",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		612,
 	],
+
 	hp: 140,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Fraxure",
 		fr: "Incisache",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -61,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Dragon",
@@ -70,8 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281016,
+		tcgplayer: 86034
+	}
 }
 
 export default card

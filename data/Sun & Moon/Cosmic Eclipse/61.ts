@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Kyurem Preto",
 		de: "Schwarzes Kyurem"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		646,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -78,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -87,8 +90,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 407954,
+		tcgplayer: 201237
+	}
 }
 
 export default card

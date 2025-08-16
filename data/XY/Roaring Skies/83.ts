@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Elo Espiritual de Gallade",
 		de: "Galagladis Geistesbund"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Votre tour ne se termine pas si le Pokémon auquel cette carte est attachée devient M-Gallame-EX.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Sua vez de jogar não terminará se o Pokémon ao qual este card está ligado tornar-se M-Gallade-EX.",
 		de: "Dein Zug endet nicht, wenn das Pokémon, an das diese Karte angelegt ist, zu M-Galagladi-EX wird."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 282751,
+		tcgplayer: 98119
+	}
 }
 
 export default card

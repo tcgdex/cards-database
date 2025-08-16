@@ -51,7 +51,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Rianti Hidayat"
+	illustrator: "Rianti Hidayat",
+
+	thirdParty: {
+		cardmarket: 785908
+	}
 }
 
 export default card

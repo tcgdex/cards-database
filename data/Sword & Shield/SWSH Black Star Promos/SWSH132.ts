@@ -87,7 +87,11 @@ const card: Card = {
 		en: "Drakloak"
 	},
 
-	retreat: 0
+	retreat: 0,
+
+	thirdParty: {
+		cardmarket: 549386
+	}
 };
 
 export default card;

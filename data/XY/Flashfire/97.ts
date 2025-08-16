@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Megafone Assustador",
 		de: "Schock-Megafon"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez toutes les cartes Outil Pokémon attachées à chacun des Pokémon de votre adversaire.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Descarte todos os cards de Ferramenta Pokémon ligados aos Pokémon do oponente.",
 		de: "Lege alle an gegnerische Pokémon angelegte Pokémon-Ausrüstungen auf den Ablagestapel deines Gegners."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281580,
+		tcgplayer: 91234
+	}
 }
 
 export default card

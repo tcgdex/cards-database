@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
+	},
+
+	thirdParty: {
+		cardmarket: 567128,
+		tcgplayer: 241705
 	}
 }
 

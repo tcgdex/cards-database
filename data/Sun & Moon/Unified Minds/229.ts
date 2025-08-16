@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Dragonite GX",
 		de: "Dragoran GX"
 	},
+
 	illustrator: "ConceptLab",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		149,
 	],
+
 	hp: 250,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Dragonair",
 		fr: "Draco",
@@ -98,6 +102,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -107,8 +112,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 388547,
+		tcgplayer: 195149
+	}
 }
 
 export default card

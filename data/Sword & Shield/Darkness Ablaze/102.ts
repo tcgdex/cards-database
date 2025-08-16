@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [167],
+
 	name: {
 		en: "Spinarak",
 		fr: "Mimigal",
@@ -79,6 +80,11 @@ const card: Card = {
 
 	description: {
 		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web."
+	},
+
+	thirdParty: {
+		cardmarket: 483389,
+		tcgplayer: 219404
 	}
 }
 

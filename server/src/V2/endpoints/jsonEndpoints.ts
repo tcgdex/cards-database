@@ -6,9 +6,10 @@ import { Errors, sendError } from '../../libs/Errors'
 import type { Query } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { betterSorter, checkLanguage, unique } from '../../util'
-import Card from '../Components/Card'
-import Serie from '../Components/Serie'
-import TCGSet from '../Components/Set'
+import { getAllCards, findOneCard, findCards, toBrief, getCardById, getCompiledCard } from '../Components/Card'
+import { findOneSet, findSets, setToBrief } from '../Components/Set'
+import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
+import { listSKUs } from '../../libs/providers/tcgplayer'
 
 type CustomRequest = Request & {
 	/**
@@ -75,7 +76,7 @@ server
 	/**
 	 * Allows the user to fetch a random card/set/serie from the database
 	 */
-	.get('/:lang/random/:what', (req: CustomRequest, res): void => {
+	.get('/:lang/random/:what', async (req: CustomRequest, res): Promise<void> => {
 		const { lang, what } = req.params
 
 		if (!checkLanguage(lang)) {
@@ -86,16 +87,16 @@ server
 		// biome-ignore lint/style/noNonNullAssertion: <explanation>
 		const query: Query = req.advQuery!
 
-		let data: Array<Card | TCGSet | Serie> = []
+		let data: Array<SDKCard | any> = []
 		switch (what.toLowerCase()) {
 			case 'card':
-				data = Card.find(lang, query)
+				data = await findCards(lang, query)
 				break
 			case 'set':
-				data = TCGSet.find(lang, query)
+				data = await findSets(lang, query)
 				break
 			case 'serie':
-				data = Serie.find(lang, query)
+				data = await findSeries(lang, query)
 				break
 			default:
 				sendError(Errors.NOT_FOUND, res, { details: `You can only run random requests on "card", "set" or "serie" while you did on "${what}"` })
@@ -103,7 +104,7 @@ server
 		}
 		const item = Math.min(data.length - 1, Math.max(0, Math.round(Math.random() * data.length)))
 		req.DO_NOT_CACHE = true
-		res.json(data[item].full())
+		res.json(data[item])
 	})
 
 
@@ -111,7 +112,7 @@ server
 	 * Listing Endpoint
 	 * ex: /v2/en/cards
 	 */
-	.get('/:lang/:endpoint', (req: CustomRequest, res): void => {
+	.get('/:lang/:endpoint', async (req: CustomRequest, res): Promise<void> => {
 		let { lang, endpoint } = req.params
 
 		const query: Query = req.advQuery ?? {}
@@ -138,9 +139,8 @@ server
 						'set.name': tmp
 					}]
 				}
-				result = Card
-					.find(lang, query)
-					.map((c) => c.resume())
+				result = (await findCards(lang, query))
+					.map(toBrief)
 				break
 			}
 
@@ -154,15 +154,12 @@ server
 						'serie.name': tmp
 					}]
 				}
-				result = TCGSet
-					.find(lang, query)
-					.map((c) => c.resume())
+				result = (await findSets(lang, query)).map(setToBrief)
 				break
 			}
 			case 'series':
-				result = Serie
-					.find(lang, query)
-					.map((c) => c.resume())
+				result = (await findSeries(lang, query))
+					.map(serieToBrief)
 				break
 			case 'categories':
 			case "energy-types":
@@ -175,7 +172,7 @@ server
 			case "suffixes":
 			case "trainer-types":
 				result = unique(
-					Card.getAll(lang)
+					(await getAllCards(lang))
 						.map((c) => c[endpointToField[endpoint]] as string)
 						.filter((c) => c)
 				).sort(betterSorter)
@@ -183,7 +180,7 @@ server
 			case "types":
 			case "dex-ids":
 				result = unique(
-					Card.getAll(lang)
+					(await getAllCards(lang))
 						.map((c) => c[endpointToField[endpoint]] as Array<string>)
 						.filter((c) => c)
 						.reduce((p, c) => [...p, ...c], [] as Array<string>)
@@ -191,7 +188,7 @@ server
 				break
 			case "variants":
 				result = unique(
-					Card.getAll(lang)
+					(await getAllCards(lang))
 						.map((c) => objectKeys(c.variants ?? {}) as Array<string>)
 						.filter((c) => c)
 						.reduce((p, c) => [...p, ...c], [] as Array<string>)
@@ -212,7 +209,8 @@ server
 	 * Listing Endpoint
 	 * ex: /v2/en/cards/base1-1
 	 */
-	.get('/:lang/:endpoint/:id', (req: CustomRequest, res) => {
+	.get('/:lang/:endpoint/:id', async (req: CustomRequest, res) => {
+		// console.time('request')
 		let { id, lang, endpoint } = req.params
 
 		if (id.endsWith('.json')) {
@@ -228,31 +226,33 @@ server
 		let result: unknown
 		switch (endpoint) {
 			case 'cards':
-				result = Card.findOne(lang, { id })?.full()
+				// console.time('card')
+				result = await getCardById(lang, id)
 				if (!result) {
-					result = Card.findOne(lang, { name: id })?.full()
+					result = await findOneCard(lang, { name: id })
 				}
+				// console.timeEnd('card')
 				break
 
 			case 'sets':
-				result = TCGSet.findOne(lang, { id })?.full()
+				result = await findOneSet(lang, { id })
 				if (!result) {
-					result = TCGSet.findOne(lang, { name: id })?.full()
+					result = await findOneSet(lang, { name: id })
 				}
 				break
 
 			case 'series':
-				result = Serie.findOne(lang, { id })?.full()
+				result = await findOneSerie(lang, { id })
 				if (!result) {
-					result = Serie.findOne(lang, { name: id })?.full()
+					result = await findOneSerie(lang, { name: id })
 				}
 				break
 			case 'dex-ids': {
 				result = {
 					name: parseInt(id, 10),
 					// @ts-expect-error current behavior is normal
-					cards: Card.find(lang, { dexId: { $eq: parseInt(id, 10) }})
-						.map((c) => c.resume())
+					cards: (await findCards(lang, { dexId: { $eq: parseInt(id, 10) }}))
+						.map(toBrief)
 				}
 				break
 			}
@@ -262,10 +262,12 @@ server
 				}
 				result = {
 					name: id,
-					cards: Card.find(lang, { [endpointToField[endpoint]]: id })
-						.map((c) => c.resume())
+					cards: (await findCards(lang, { [endpointToField[endpoint]]: id }))
+						.map(toBrief)
 				}
 		}
+
+		// console.timeEnd('request')
 		if (!result) {
 			sendError(Errors.NOT_FOUND, res)
 			return
@@ -278,7 +280,7 @@ server
 	 * sub id Endpoint (for the set endpoint only currently)
 	 * ex: /v2/en/sets/base1/1
 	 */
-	.get('/:lang/:endpoint/:id/:subid', (req: CustomRequest, res) => {
+	.get('/:lang/:endpoint/:id/:subid', async (req: CustomRequest, res) => {
 		let { id, lang, endpoint, subid } = req.params
 
 		if (subid.endsWith('.json')) {
@@ -293,13 +295,16 @@ server
 		}
 
 		let result: unknown
-
 		switch (endpoint) {
+			case 'cards':
+				if (subid === 'skus') {
+					result = await listSKUs(getCompiledCard(lang, id))
+				}
+				break
 			case 'sets':
 				// allow the dev to use a non prefixed value like `10` instead of `010` for newer sets
-				result = Card
-					// @ts-expect-error normal behavior until the filtering is more fiable
-					.findOne(lang, { localId: { $or: [subid.padStart(3, '0'), subid] }, $or: [{ 'set.id': id }, { 'set.name': id }] })?.full()
+				// @ts-expect-error normal behavior until the filtering is more fiable
+				result = await findOneCard(lang, { localId: { $or: [subid.padStart(3, '0'), subid] }, $or: [{ 'set.id': id }, { 'set.name': id }] })
 				break
 		}
 		if (!result) {

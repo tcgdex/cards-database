@@ -35,7 +35,12 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567258,
+		tcgplayer: 241857
+	}
 }
 
 export default card

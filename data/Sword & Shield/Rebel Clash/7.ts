@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [270],
+
 	name: {
 		en: "Lotad",
 		fr: "Nénupiot",
@@ -83,6 +84,11 @@ const card: Card = {
 
 	description: {
 		en: "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts."
+	},
+
+	thirdParty: {
+		cardmarket: 457423,
+		tcgplayer: 213077
 	}
 }
 

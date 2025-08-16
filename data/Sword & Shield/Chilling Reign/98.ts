@@ -84,6 +84,11 @@ const card: Card = {
 
 	description: {
 		en: "While chanting strange spells, this Pokémon combines its internal toxins with what it's eaten, creating strange potions."
+	},
+
+	thirdParty: {
+		cardmarket: 567206,
+		tcgplayer: 241769
 	}
 }
 

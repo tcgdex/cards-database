@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Chesnaught EX",
 		fr: "Blindépique EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		652,
 	],
+
 	hp: 180,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "EX",
 
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -68,8 +71,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 281311
+	}
 }
 
 export default card

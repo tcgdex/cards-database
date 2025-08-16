@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Mimikyu",
 		de: "Mimigma"
 	},
+
 	illustrator: "You Iribi",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		778,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -73,11 +75,12 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 398514,
+		tcgplayer: 201356
+	}
 }
 
 export default card

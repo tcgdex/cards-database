@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Protetor de Pedras",
 		de: "Schutzfels"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée est votre Pokémon Actif et qu'il subit les dégâts d'une attaque de votre adversaire (même si le Pokémon est mis K.O.), placez 6 marqueurs de dégâts sur le Pokémon Attaquant.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se este card estiver ligado a seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se esse Pokémon for Nocauteado), coloque 6 marcadores de danos no Pokémon Atacante.",
 		de: "Wenn das Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist, und es durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 6 Schadensmarken auf das Angreifende Pokémon."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 280986,
+		tcgplayer: 88766
+	}
 }
 
 export default card

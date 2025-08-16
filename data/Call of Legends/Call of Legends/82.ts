@@ -15,6 +15,11 @@ const card: Card = {
 
 	effect: {
 		de: "Durchsuche dein Deck nach 1 Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
+	},
+
+	thirdParty: {
+		cardmarket: 279725,
+		tcgplayer: 88394
 	}
 }
 

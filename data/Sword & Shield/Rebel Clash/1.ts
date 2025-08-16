@@ -82,7 +82,12 @@ const card: Card = {
 		en: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies."
 	},
 
-	dexId: [251]
+	dexId: [251],
+
+	thirdParty: {
+		cardmarket: 457383,
+		tcgplayer: 213071
+	}
 }
 
 export default card

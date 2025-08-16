@@ -25,7 +25,11 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	thirdParty: {
+		tcgplayer: 98201
+	}
 }
 
 export default card

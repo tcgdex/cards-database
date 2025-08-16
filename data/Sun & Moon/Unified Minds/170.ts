@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Slaking",
 		de: "Letarking"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		289,
 	],
+
 	hp: 180,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Vigoroth",
 		fr: "Vigoroth",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -86,8 +93,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 388637,
+		tcgplayer: 195170
+	}
 }
 
 export default card

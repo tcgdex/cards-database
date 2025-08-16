@@ -52,7 +52,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Akira Komayama"
+	illustrator: "Akira Komayama",
+
+	thirdParty: {
+		cardmarket: 740579
+	}
 }
 
 export default card

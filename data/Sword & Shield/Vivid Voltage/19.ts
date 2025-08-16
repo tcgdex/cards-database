@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [781],
+
 	name: {
 		en: "Dhelmise",
 		fr: "Sinistrail",
@@ -87,6 +88,11 @@ const card: Card = {
 
 	description: {
 		en: "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 511515,
+		tcgplayer: 226383
 	}
 }
 

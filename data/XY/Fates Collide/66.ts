@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Wigglytuff",
 		de: "Knuddeluff"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		40,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Jigglypuff",
 		de: "Pummeluff"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -84,22 +88,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289887,
+		tcgplayer: 117841
+	}
 }
 
 export default card

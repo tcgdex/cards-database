@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [13],
+
 	name: {
 		en: "Weedle",
 		fr: "Aspicot",
@@ -68,6 +69,11 @@ const card: Card = {
 
 	description: {
 		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+	},
+
+	thirdParty: {
+		cardmarket: 511425,
+		tcgplayer: 226360
 	}
 }
 

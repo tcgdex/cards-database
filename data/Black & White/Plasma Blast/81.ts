@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Iris",
 		de: "Lilia"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Pendant ce tour, les attaques de vos Pokémon infligent 10 dégâts supplémentaires aux Pokémon Actifs pour chaque carte Récompense que votre adversaire a récupérée (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Durante este turno, os ataques dos seus Pokémon causam 10 de danos adicionais ao Pokémon Ativo para cada card de Prêmio que seu oponente tiver obtido (antes da aplicação de Fraqueza e Resistência).",
 		de: "Während dieses Zuges fügen alle Angriffe deiner Pokémon den Aktiven Pokémon 10 weitere Schadenspunkte für jede Preiskarte zu, die dein Gegner bereits genommen hat (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 281102,
+		tcgplayer: 86288
+	}
 }
 
 export default card

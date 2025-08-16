@@ -56,6 +56,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son aura s'intensifie pour prévenir son entourage quand il a peur ou qu'il est triste."
+	},
+
+	thirdParty: {
+		cardmarket: 277560,
+		tcgplayer: 88751
 	}
 }
 

@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Growlithe",
 		de: "Fukano"
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		58,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -70,8 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 372313,
+		tcgplayer: 189062
+	}
 }
 
 export default card

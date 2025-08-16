@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bomba Gigante",
 		de: "Giga-Bombe"
 	},
+
 	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si cette carte est attachée à l’un de vos Pokémon, défaussez-la à la fin du tour de votre adversaire.\n\nSi le Pokémon auquel cette carte est attachée est votre Pokémon Actif et qu’il subit 180 dégâts ou plus d’une attaque de votre adversaire (même si ce Pokémon est mis K.O.), placez 10 marqueurs de dégâts sur le Pokémon Attaquant.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se esta carta estiver ligada a 1 dos seus Pokémon, descarte-a no final da próxima vez de jogar do seu oponente.\n\nSe o Pokémon ao qual esta carta está ligada for o seu Pokémon Ativo e receber 180 pontos de dano ou mais de um ataque do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque 10 contadores de dano no Pokémon Atacante.",
 		de: "Wenn diese Karte an 1 deiner Pokémon angelegt ist, lege sie am Ende des Zuges deines Gegners auf deinen Ablagestapel.\n\nWenn das Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und ihm durch eine Attacke deines Gegners 180 oder mehr Schadenspunkte zugefügt werden (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 10 Schadensmarken auf das Angreifende Pokémon."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 388767,
+		tcgplayer: 195251
+	}
 }
 
 export default card

@@ -23,6 +23,11 @@ const set: Set = {
 
 	abbreviations: {
 		official: "BLK"
+	},
+
+	thirdParty: {
+		cardmarket: 6134,
+		tcgplayer: 22325
 	}
 }
 

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Granivol",
 		de: "Hoppspross"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		187,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [{
 		cost: ["Water", "Colorless", "Colorless"],
@@ -50,12 +52,14 @@ const card: Card = {
 
 		cost: ["Grass"]
 	}],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -63,9 +67,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274987,
+		tcgplayer: 86179
+	}
 }
 
 export default card

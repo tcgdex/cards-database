@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Ursaring",
 		de: "Ursaring"
 	},
+
 	illustrator: "Hiroki Asanuma",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		217,
 	],
+
 	hp: 140,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Teddiursa",
 		fr: "Teddiursa",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -74,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -83,8 +88,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 408484,
+		tcgplayer: 201294
+	}
 }
 
 export default card

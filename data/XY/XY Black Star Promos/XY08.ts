@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Yveltal EX",
 		fr: "Yveltal EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		717,
 	],
+
 	hp: 170,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "EX",
 
@@ -57,22 +59,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281329
+	}
 }
 
 export default card

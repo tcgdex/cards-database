@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Pupitar",
 		de: "Pupitar"
 	},
+
 	illustrator: "match",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		247,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Larvitar",
 		fr: "Embrylex",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Larvitar",
 		de: "Larvitar"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -67,8 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289866,
+		tcgplayer: 117802
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Tyrantrum",
 		de: "Monargoras"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		697,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Tyrunt",
 		fr: "Ptyranidur",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Tyrunt",
 		de: "Balgoras"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -86,6 +90,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -95,8 +100,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281726,
+		tcgplayer: 92239
+	}
 }
 
 export default card

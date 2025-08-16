@@ -91,6 +91,11 @@ const card: Card = {
 
 	description: {
 		en: "The winner of competitions between Salazzle is decided by which one has the most male Salandit with it."
+	},
+
+	thirdParty: {
+		cardmarket: 545046,
+		tcgplayer: 234133
 	}
 }
 

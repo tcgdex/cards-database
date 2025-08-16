@@ -74,7 +74,12 @@ const card: Card = {
 		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
 	},
 
-	dexId: [25]
+	dexId: [25],
+
+	thirdParty: {
+		cardmarket: 576750,
+		tcgplayer: 250303
+	}
 }
 
 export default card

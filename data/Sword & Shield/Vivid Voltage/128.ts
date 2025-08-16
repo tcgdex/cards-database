@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [801],
+
 	name: {
 		en: "Magearna",
 		fr: "Magearna",
@@ -99,6 +100,11 @@ const card: Card = {
 
 	description: {
 		en: "Built roughly 500 years ago by a scientist, the part called the Soul-Heart is the actual life-form."
+	},
+
+	thirdParty: {
+		cardmarket: 512350,
+		tcgplayer: 226584
 	}
 }
 

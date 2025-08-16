@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Golem de Alola",
 		de: "Alola-Geowaz"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		76,
 	],
+
 	hp: 180,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Alolan Graveler",
 		fr: "Gravalanch d’Alola",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -79,22 +83,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 368968,
+		tcgplayer: 183810
+	}
 }
 
 export default card

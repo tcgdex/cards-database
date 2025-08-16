@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Vanilluxe",
 		de: "Gelatwino"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		584,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Vanillish",
 		fr: "Sorboul",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Vanillish",
 		de: "Gelatroppo"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -93,8 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286291,
+		tcgplayer: 107164
+	}
 }
 
 export default card

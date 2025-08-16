@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [278],
+
 	name: {
 		en: "Wingull",
 		fr: "Goélise",
@@ -89,6 +90,11 @@ const card: Card = {
 
 	description: {
 		en: "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies."
+	},
+
+	thirdParty: {
+		cardmarket: 457648,
+		tcgplayer: 213119
 	}
 }
 

@@ -32,7 +32,11 @@ const card: Card = {
 		en: "Vulpix"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275057
+	}
 }
 
 export default card

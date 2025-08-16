@@ -33,7 +33,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Nobusawa/Mochipuyo"
+	illustrator: "Nobusawa/Mochipuyo",
+
+	thirdParty: {
+		cardmarket: 794552
+	}
 }
 
 export default card

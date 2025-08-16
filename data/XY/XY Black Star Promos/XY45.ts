@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Gallade EX",
 		fr: "Gallame EX",
 	},
+
 	illustrator: "PLANETA",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		475,
 	],
+
 	hp: 170,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "EX",
 
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -68,8 +71,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289708
+	}
 }
 
 export default card

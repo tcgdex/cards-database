@@ -86,6 +86,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon sauvage possède des os depuis sa naissance. Il s'en sert pour combattre avec dextérité."
+	},
+
+	thirdParty: {
+		cardmarket: 278212,
+		tcgplayer: 87227
 	}
 }
 

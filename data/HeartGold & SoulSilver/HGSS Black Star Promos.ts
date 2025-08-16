@@ -19,7 +19,11 @@ const hgssp: Set = {
 		official: 25
 	},
 
-	releaseDate: "2010-02-11"
+	releaseDate: "2010-02-11",
+
+	thirdParty: {
+		tcgplayer: 1453
+	}
 }
 
 export default hgssp

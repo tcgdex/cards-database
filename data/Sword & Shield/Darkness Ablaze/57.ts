@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [181],
+
 	name: {
 		en: "Ampharos",
 		fr: "Pharamp",
@@ -95,6 +96,11 @@ const card: Card = {
 
 	description: {
 		en: "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors."
+	},
+
+	thirdParty: {
+		cardmarket: 483159,
+		tcgplayer: 219403
 	}
 }
 

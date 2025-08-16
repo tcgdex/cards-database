@@ -25,6 +25,11 @@ const sm35: Set = {
 	abbreviations: {
 		official: "SLG",
 		fr: "LBR"
+	},
+
+	thirdParty: {
+		cardmarket: 1842,
+		tcgplayer: 2054
 	}
 }
 

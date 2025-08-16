@@ -65,6 +65,11 @@ const card: Card = {
 
 	description: {
 		en: "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers."
+	},
+
+	thirdParty: {
+		cardmarket: 545186,
+		tcgplayer: 234168
 	}
 }
 

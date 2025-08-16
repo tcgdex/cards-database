@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Simisage",
 		de: "Vegichita"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		512,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Pansage",
 		fr: "Feuillajou",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Pansage",
 		de: "Vegimak"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -85,8 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281348,
+		tcgplayer: 89224
+	}
 }
 
 export default card

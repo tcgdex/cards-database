@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "L'observation de ses cellules a révélé la présence d'un gène inexistant dans Hypotrempe. C'est devenu un sujet très débattu."
+	},
+
+	thirdParty: {
+		cardmarket: 274448,
+		tcgplayer: 89009
 	}
 }
 

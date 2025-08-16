@@ -62,7 +62,12 @@ const card: Card = {
 		en: "If it eats just three leaves in a day, it is satisfied. Other than that, it sleeps for 20 hours a day."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574183,
+		tcgplayer: 246856
+	}
 }
 
 export default card

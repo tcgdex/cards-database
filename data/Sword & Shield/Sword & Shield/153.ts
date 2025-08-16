@@ -81,7 +81,12 @@ const card: Card = {
 		en: "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed."
 	},
 
-	dexId: [831]
+	dexId: [831],
+
+	thirdParty: {
+		cardmarket: 436854,
+		tcgplayer: 208475
+	}
 }
 
 export default card

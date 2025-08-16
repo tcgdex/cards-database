@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Laboratório do Silêncio",
 		de: "Silentiumlabor"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chacun des Pokémon de base en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n'a pas de talent.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cada Pokémon Básico em jogo, na mão de cada jogador e na pilha de descarte de cada jogador não possui Habilidades.",
 		de: "Jedes Basis-Pokémon im Spiel, auf der Hand beider Spieler und im Ablagestapel beider Spieler hat keine Fähigkeit."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 273671,
+		tcgplayer: 96038
+	}
 }
 
 export default card

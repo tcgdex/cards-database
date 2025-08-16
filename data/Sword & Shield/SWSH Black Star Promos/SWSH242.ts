@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		en: "Comfey picks flowers with its vine and decorates itself with them. For some reason, flowers won't wither once they're attached to a Comfey."
+	},
+
+	thirdParty: {
+		cardmarket: 665985
 	}
 }
 

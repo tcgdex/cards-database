@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Bidoof",
 		de: "Bidiza"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		399,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -46,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -55,8 +58,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281295,
+		tcgplayer: 83831
+	}
 }
 
 export default card

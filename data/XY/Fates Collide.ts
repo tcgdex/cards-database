@@ -25,6 +25,11 @@ const xy10: Set = {
 	abbreviations: {
 		official: "FCO",
 		fr: "IDD"
+	},
+
+	thirdParty: {
+		cardmarket: 1706,
+		tcgplayer: 1780
 	}
 }
 

@@ -10,20 +10,22 @@ const card: Card = {
 		pt: "Magikarp e Wailord GX",
 		de: "Karpador & Wailord GX"
 	},
+
 	illustrator: "OOYAMA",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		129,
 		321
 	],
+
 	hp: 300,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -74,6 +76,7 @@ const card: Card = {
 			damage: 10
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -83,8 +86,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 369085,
+		tcgplayer: 183964
+	}
 }
 
 export default card

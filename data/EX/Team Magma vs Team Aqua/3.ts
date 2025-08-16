@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Kyogre de Team Aqua",
 		de: "Team Aquas Kyogre"
 	},
+
 	illustrator: "K. Hoshiba",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		382,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 		"Darkness",
@@ -38,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -84,10 +89,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275980,
+		tcgplayer: 89788
+	}
 }
 
 export default card

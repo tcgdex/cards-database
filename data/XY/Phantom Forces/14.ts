@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Kingler",
 		de: "Kingler"
 	},
+
 	illustrator: "match",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		99,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Krabby",
 		fr: "Krabby",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Krabby",
 		de: "Krabby"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281817,
+		tcgplayer: 94147
+	}
 }
 
 export default card

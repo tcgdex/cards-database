@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il replie ses longues oreilles quand il nage pour éviter que l'eau y entre."
+	},
+
+	thirdParty: {
+		cardmarket: 274665,
+		tcgplayer: 86735
 	}
 }
 

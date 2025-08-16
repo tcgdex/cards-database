@@ -25,6 +25,11 @@ const set: Set = {
 	abbreviations: {
 		official: "PGO",
 		fr: "PGO"
+	},
+
+	thirdParty: {
+		cardmarket: 4786,
+		tcgplayer: 3064
 	}
 }
 

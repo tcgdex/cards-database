@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		en: "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful."
+	},
+
+	thirdParty: {
+		cardmarket: 539753
 	}
 }
 

@@ -28,7 +28,11 @@ const card: Card = {
 		en: "Togepi"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275065
+	}
 }
 
 export default card

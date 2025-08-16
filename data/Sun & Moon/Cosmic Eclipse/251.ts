@@ -10,16 +10,19 @@ const card: Card = {
 		pt: "Charizard e Braixen GX",
 		de: "Glurak & Rutena GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 		654
 	],
+
 	hp: 270,
+
 	types: [
 		"Fire",
 	],
@@ -77,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -86,8 +90,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 398454,
+		tcgplayer: 201611
+	}
 }
 
 export default card

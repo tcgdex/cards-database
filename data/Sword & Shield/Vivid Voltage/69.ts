@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [355],
+
 	name: {
 		en: "Duskull",
 		fr: "Skelénox",
@@ -75,6 +76,11 @@ const card: Card = {
 
 	description: {
 		en: "If it finds bad children who won't listen to their parents, it will spirit them away—or so it's said."
+	},
+
+	thirdParty: {
+		cardmarket: 511765,
+		tcgplayer: 226473
 	}
 }
 

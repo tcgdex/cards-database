@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Laboratório de Pesquisas Pokémon",
 		de: "Pokémon-Labor"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Une seule fois pendant le tour de chaque joueur, ce joueur peut chercher dans son deck jusqu’à 2 Pokémon qui évoluent de Fossile Inconnu, les placer sur son Banc, puis mélanger son deck. Si un joueur cherche son deck de cette façon, son tour se termine.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode procurar por até 2 Pokémon que evoluam de Fóssil Não Identificado no próprio baralho, colocá-los no próprio Banco e embaralhar o próprio baralho. Se um jogador procurar no próprio baralho desta forma, a sua vez de jogar acaba.",
 		de: "Einmal während des Zuges jedes Spielers kann der Spieler sein Deck nach bis zu 2 Pokémon, die sich aus Unbekanntes Fossil entwickeln, durchsuchen, jene Pokémon auf seine Bank legen und sein Deck mischen. Wenn ein Spieler sein Deck auf diese Weise durchsucht, endet sein Zug."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 388812
+	}
 }
 
 export default card

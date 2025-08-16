@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Balbuto",
 		de: "Puppance"
 	},
+
 	illustrator: "Kenkichi Toyama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		343,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -63,10 +66,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 83712,
+		cardmarket: 276456
+	}
 }
 
 export default card

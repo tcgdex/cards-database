@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Bayleef",
 		de: "Lorblatt"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		153,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Chikorita",
 		fr: "Germignon",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Chikorita",
 		de: "Endivie"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -84,8 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 288177,
+		tcgplayer: 111505
+	}
 }
 
 export default card

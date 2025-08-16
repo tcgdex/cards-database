@@ -7,21 +7,25 @@ const card: Card = {
 		fr: "Darkrai  Niv. 58",
 		de: "Darkrai G"
 	},
+
 	illustrator: "Makoto Imai",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		491,
 	],
+
 	hp: 90,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
 	suffix: "SP",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -37,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,22 +63,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		tcgplayer: 84710
+	}
 }
 
 export default card

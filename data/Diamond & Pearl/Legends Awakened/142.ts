@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Magnézone",
 		de: "Magnezone"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		462,
 	],
+
 	hp: 140,
+
 	types: [
 		"Metal",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,22 +61,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 278291,
+		tcgplayer: 87121
+	}
 }
 
 export default card

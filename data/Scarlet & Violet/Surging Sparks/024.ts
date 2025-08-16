@@ -55,7 +55,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "MARINA Chikazawa"
+	illustrator: "MARINA Chikazawa",
+
+	thirdParty: {
+		cardmarket: 794279
+	}
 }
 
 export default card

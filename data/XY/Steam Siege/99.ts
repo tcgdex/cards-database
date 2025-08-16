@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pokélina Cativante",
 		de: "Bezauberndes Pofflé"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Votre adversaire montre sa main. Placez tout nombre de Pokémon de base que vous y trouvez sur le Banc de votre adversaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Seu oponente revela a própria mão. Coloque qualquer número de Pokémon Básico que encontrar lá no Banco do seu oponente.",
 		de: "Dein Gegner deckt seine Handkarten auf. Lege beliebig viele Basis-Pokémon, die du dort findest, auf die Bank deines Gegners."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 290996
+	}
 }
 
 export default card

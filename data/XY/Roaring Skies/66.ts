@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Fearow",
 		de: "Ibitak"
 	},
+
 	illustrator: "Satoshi Shirai",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		22,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Spearow",
 		fr: "Piafabec",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Spearow",
 		de: "Habitak"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,22 +81,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 282734,
+		tcgplayer: 98102
+	}
 }
 
 export default card

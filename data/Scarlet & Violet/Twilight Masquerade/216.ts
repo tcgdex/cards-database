@@ -74,7 +74,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "MINAMINAMI Take"
+	illustrator: "MINAMINAMI Take",
+
+	thirdParty: {
+		cardmarket: 769315
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [823],
+
 	name: {
 		en: "Corviknight",
 		fr: "Corvaillus",
@@ -102,6 +103,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon reigns supreme in the skies of the Galar region. The black luster of its steel body could drive terror into the heart of any foe."
+	},
+
+	thirdParty: {
+		cardmarket: 483659,
+		tcgplayer: 219371
 	}
 }
 

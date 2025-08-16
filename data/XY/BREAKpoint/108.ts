@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Terceiro Olho do Psíquico",
 		de: "Psychos siebter Sinn"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Votre adversaire montre sa main.\n\nDéfaussez autant de cartes que vous voulez de votre main. Ensuite, piochez autant de cartes.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Seu oponente revela a própria mão.Descarte tantos cards quanto quiser da sua mão. Em seguida, compre aquele mesmo número de cards.",
 		de: "Dein Gegner deckt seine Handkarten auf.Lege beliebig viele Karten von deiner Hand auf deinen Ablagestapel. Ziehe anschließend dieselbe Anzahl Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 288283,
+		tcgplayer: 111638
+	}
 }
 
 export default card

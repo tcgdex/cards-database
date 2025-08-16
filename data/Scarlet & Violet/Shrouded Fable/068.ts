@@ -63,7 +63,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "James Turner"
+	illustrator: "James Turner",
+
+	thirdParty: {
+		cardmarket: 780910
+	}
 }
 
 export default card

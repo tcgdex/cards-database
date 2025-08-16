@@ -22,6 +22,10 @@ const set: Set = {
 	abbreviations: {
 		official: "TK2M",
 		fr: "NEG"
+	},
+
+	thirdParty: {
+		tcgplayer: 1542
 	}
 }
 

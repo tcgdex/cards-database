@@ -66,6 +66,11 @@ const card: Card = {
 
 	description: {
 		fr: "Comme il ne sait pas encore très bien marcher avec ses pattes, il passe son temps à nager."
+	},
+
+	thirdParty: {
+		cardmarket: 274573,
+		tcgplayer: 88254
 	}
 }
 

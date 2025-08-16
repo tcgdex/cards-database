@@ -68,6 +68,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est recouvert de spores de champignons à sa naissance. Quand il grandit, des champignons lui poussent sur le dos."
+	},
+
+	thirdParty: {
+		cardmarket: 274621,
+		tcgplayer: 87947
 	}
 }
 

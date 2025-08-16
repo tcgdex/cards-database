@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Jasmine",
 		de: "Jasmin"
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez un Pokémon Metal dans votre deck, montrez-le, puis ajoutez-le à votre main. Si vous jouez en second et que c’est votre premier tour, cherchez 5 Pokémon Metal au lieu d’un. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure por 1 Pokémon Metal no seu baralho, revele-o e coloque-o na sua mão. Se você for o segundo a jogar e esta for a sua primeira vez de jogar, procure por 5 Pokémon Metal ao invés de 1. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach 1 Metal-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck nach 5 Metal-Pokémon anstelle von 1. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 369071,
+		tcgplayer: 183941
+	}
 }
 
 export default card

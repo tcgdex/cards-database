@@ -86,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "They came over from another region long ago and worked together with humans. Their green skin is resistant to water."
+	},
+
+	thirdParty: {
+		cardmarket: 539843
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Sealeo",
 		de: "Seejong"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		364,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Spheal",
 		fr: "Obalie",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Spheal",
 		de: "Seemops"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -85,8 +90,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281508,
+		tcgplayer: 91158
+	}
 }
 
 export default card

@@ -52,7 +52,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Lee HyunJung"
+	illustrator: "Lee HyunJung",
+
+	thirdParty: {
+		cardmarket: 751679
+	}
 }
 
 export default card

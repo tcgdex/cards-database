@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Raichu e Raichu de Alola GX",
 		de: "Raichu & Alola-Raichu GX"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		26,
 	],
+
 	hp: 260,
+
 	types: [
 		"Lightning",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -93,22 +95,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 377517,
+		tcgplayer: 194977
+	}
 }
 
 export default card

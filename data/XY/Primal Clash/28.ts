@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Blaziken",
 		de: "Lohgock"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		257,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Combusken",
 		fr: "Galifeu",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Combusken",
 		de: "Jungglut"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273559,
+		tcgplayer: 95920
+	}
 }
 
 export default card

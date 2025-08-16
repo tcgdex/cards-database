@@ -55,6 +55,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ce gentil herbivore accepte d'être monté. Toutefois, il faut prendre garde à ne pas se brûler."
+	},
+
+	thirdParty: {
+		cardmarket: 274117,
+		tcgplayer: 88281
 	}
 }
 

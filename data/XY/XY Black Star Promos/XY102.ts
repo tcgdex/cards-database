@@ -6,21 +6,24 @@ const card: Card = {
 		en: "Aurorus EX",
 		fr: "Dragmara EX",
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		699,
 	],
+
 	hp: 180,
+
 	types: [
 		"Water",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -61,8 +66,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 289822
+	}
 }
 
 export default card

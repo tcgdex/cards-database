@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia Intensa",
 		de: "Stärke-Energie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ne peut être attachée qu'à un Pokémon Fighting. Cette carte ne fournit de l'Énergie Fighting que pendant qu'elle est attachée à un Pokémon Fighting. \n\nLes attaques du Pokémon Fighting auquel cette carte est attachée infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance). \n\n(Si cette carte est attachée à autre chose qu'un Pokémon Fighting, défaussez cette carte.)",
@@ -35,7 +25,12 @@ const card: Card = {
 		de: "Diese Karte kann nur an Fighting-Pokémon angelegt werden. Diese Karte liefert nur dann Fighting-Energie, wenn sie an ein Fighting-Pokémon angelegt ist. Die Angriffe des Fighting-Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden). (Lege diese Karte auf deinen Ablagestapel, wenn sie nicht an ein Fighting-Pokémon angelegt ist.)"
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 281768,
+		tcgplayer: 92287
+	}
 }
 
 export default card

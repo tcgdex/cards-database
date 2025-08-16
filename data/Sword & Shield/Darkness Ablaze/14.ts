@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [761],
+
 	name: {
 		en: "Bounsweet",
 		fr: "Croquine",
@@ -85,6 +86,11 @@ const card: Card = {
 
 	description: {
 		en: "Its body gives off a sweet, fruity scent that is extremely appetizing to bird Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 482944,
+		tcgplayer: 219227
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Breloom",
 		de: "Kapilz"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		286,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Shroomish",
 		fr: "Balignon",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Shroomish",
 		de: "Knilz"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 273547,
+		tcgplayer: 95900
+	}
 }
 
 export default card

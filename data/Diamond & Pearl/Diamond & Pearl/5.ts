@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Simiabraz",
 		de: "Panferno"
 	},
+
 	illustrator: "Nakaoka",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		392,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Monferno",
 		fr: "Chimpenfeu",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -63,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -70,10 +75,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277504,
+		tcgplayer: 86274
+	}
 }
 
 export default card

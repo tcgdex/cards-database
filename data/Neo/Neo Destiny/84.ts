@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il avance, son nez ultra-sensible contre le sol, toujours à la recherche de nourriture."
+	},
+
+	thirdParty: {
+		cardmarket: 274736,
+		tcgplayer: 89699
 	}
 }
 

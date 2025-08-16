@@ -24,6 +24,11 @@ const card: Card = {
 		it: "Se hai più carte Premio rimanenti del tuo avversario, gli attacchi del Pokémon a cui è assegnata questa carta costano Fighting in meno.",
 		pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, os ataques do Pokémon ao qual esta carta está ligada custarão Fighting a menos.",
 		de: "Wenn du mehr verbleibende Preiskarten als dein Gegner hast, verringern sich die Kosten der Attacken des Pokémon, an das diese Karte angelegt ist, um Fighting."
+	},
+
+	thirdParty: {
+		cardmarket: 388792,
+		tcgplayer: 195316
 	}
 }
 

@@ -10,22 +10,26 @@ const card: Card = {
 		pt: "Naganadel e Guzzlord GX",
 		de: "Agoyon & Schlingking GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		799,
 		804
 	],
+
 	hp: 280,
+
 	types: [
 		"Dragon",
 	],
 
 	stage: "Basic",
 	suffix: "TAG TEAM-GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -47,6 +51,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -89,6 +94,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -98,8 +104,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 398479,
+		tcgplayer: 201622
+	}
 }
 
 export default card

@@ -81,6 +81,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon rare et difficile à capturer qui porte chance et bien-être à son possesseur."
+	},
+
+	thirdParty: {
+		cardmarket: 273698,
+		tcgplayer: 42371
 	}
 }
 

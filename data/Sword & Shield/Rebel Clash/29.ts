@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [126],
+
 	name: {
 		en: "Magmar",
 		fr: "Magmar",
@@ -83,6 +84,11 @@ const card: Card = {
 
 	description: {
 		en: "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!"
+	},
+
+	thirdParty: {
+		cardmarket: 457603,
+		tcgplayer: 213105
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Tate e Liza",
 		de: "Ben & Svenja"
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez l’une de ces options :\n\n• Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.\n• Échangez votre Pokémon Actif avec l’un de vos Pokémon de Banc.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Escolha 1:\n\n• Embaralhe a sua mão no seu baralho. Em seguida, compre 5 cartas.\n• Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.",
 		de: "Wähle 1 aus:\n\n•Mische deine Handkarten in dein Deck. Ziehe anschließend 5 Karten.\n•Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 361385,
+		tcgplayer: 171018
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Compressor de Batalha – Equipamento da Equipe Flare",
 		de: "Kampfverdichter Team Flare-Zubehör"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez jusqu'à 3 cartes dans votre deck et défaussez-les. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Procure até 3 cards em seu baralho e descarte-os. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach bis zu 3 Karten und lege sie auf deinen Ablagestapel. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281898
+	}
 }
 
 export default card

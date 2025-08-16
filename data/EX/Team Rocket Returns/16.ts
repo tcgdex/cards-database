@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Dark Muk",
 		de: "Dunkles Sleimok"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		89,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Grimer",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -78,10 +85,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276308,
+		tcgplayer: 84631
+	}
 }
 
 export default card

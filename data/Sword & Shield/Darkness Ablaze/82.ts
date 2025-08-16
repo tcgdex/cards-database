@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [854],
+
 	name: {
 		en: "Sinistea",
 		fr: "Théffroi",
@@ -75,6 +76,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
+	},
+
+	thirdParty: {
+		cardmarket: 483289,
+		tcgplayer: 219468
 	}
 }
 

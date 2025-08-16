@@ -23,6 +23,11 @@ const pl2: Set = {
 	abbreviations: {
 		official: "RR",
 		fr: "REM"
+	},
+
+	thirdParty: {
+		cardmarket: 1563,
+		tcgplayer: 1367
 	}
 }
 

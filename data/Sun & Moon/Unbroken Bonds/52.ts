@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Frogadier",
 		de: "Amphizel"
 	},
+
 	illustrator: "Satoshi Shirai",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		657,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Froakie",
 		fr: "Grenousse",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,8 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 372343,
+		tcgplayer: 189151
+	}
 }
 
 export default card

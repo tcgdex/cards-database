@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Incineroar",
 		de: "Fuegro"
 	},
+
 	illustrator: "Emi Ando",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		727,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Torracat",
 		fr: "Matoufeu",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -80,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -89,8 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 302155,
+		tcgplayer: 146670
+	}
 }
 
 export default card

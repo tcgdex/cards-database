@@ -28,7 +28,11 @@ const card: Card = {
 	},
 
 	energyType: "Normal",
-	regulationMark: "I"
+	regulationMark: "I",
+
+	thirdParty: {
+		cardmarket: 836078
+	}
 }
 
 export default card

@@ -97,6 +97,11 @@ const card: Card = {
 		reverse: false,
 		holo: false,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 279180,
+		tcgplayer: 89563
 	}
 }
 

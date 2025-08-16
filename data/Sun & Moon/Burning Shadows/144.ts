@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Kiawe",
 		de: "Kiawe"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez jusqu’à 4 cartes Énergie Fire dans votre deck et attachez-les à l’un de vos Pokémon. Mélangez ensuite votre deck. Votre tour se termine.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure por até 4 cartas de Energia Fire no seu baralho e ligue-as a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho. A sua vez de jogar acaba.",
 		de: "Durchsuche dein Deck nach bis zu 4 Fire-Energiekarten und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck. Dein Zug endet."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 299516,
+		tcgplayer: 138613
+	}
 }
 
 export default card

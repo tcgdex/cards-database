@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Les perles noires amplifient ses pouvoirs psy. Sa danse étrange lui permet de contrôler ses ennemis."
+	},
+
+	thirdParty: {
+		cardmarket: 278205,
+		tcgplayer: 85970
 	}
 }
 

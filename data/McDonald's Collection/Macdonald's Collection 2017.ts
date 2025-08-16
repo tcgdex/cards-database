@@ -22,6 +22,10 @@ const s2017sm: Set = {
 	abbreviations: {
 		official: "MCD17",
 		fr: "M17"
+	},
+
+	thirdParty: {
+		tcgplayer: 2148
 	}
 }
 

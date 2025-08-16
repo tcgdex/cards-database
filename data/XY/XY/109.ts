@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Herdier",
 		de: "Terribark"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		507,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Lillipup",
 		fr: "Ponchiot",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Lillipup",
 		de: "Yorkleff"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281446,
+		tcgplayer: 86072
+	}
 }
 
 export default card

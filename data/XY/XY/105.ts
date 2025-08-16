@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Delcatty",
 		de: "Enekoro"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		301,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Skitty",
 		fr: "Skitty",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Skitty",
 		de: "Eneco"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281442,
+		tcgplayer: 84743
+	}
 }
 
 export default card

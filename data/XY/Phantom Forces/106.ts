@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Apito Alvo – Equipamento da Equipe Flare",
 		de: "Visierflöte Team Flare-Zubehör"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Prenez un Pokémon de base dans la pile de défausse de votre adversaire et placez-le sur son Banc.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Coloque um Pokémon Básico da pilha de descarte do seu oponente no Banco desse oponente.",
 		de: "Nimm 1 Basis-Pokémon vom Ablagestapel deines Gegners und lege es auf seine Bank."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281913
+	}
 }
 
 export default card

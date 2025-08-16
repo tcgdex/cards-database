@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Zygarde GX",
 		de: "Zygarde GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		718,
 	],
+
 	hp: 200,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "GX",
 
@@ -97,6 +99,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -106,8 +109,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 327207,
+		tcgplayer: 165726
+	}
 }
 
 export default card

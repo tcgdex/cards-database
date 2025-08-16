@@ -6,13 +6,13 @@ const card: Card = {
 		en: "Buried Fossil",
 		de: "Vergrabenes Fossil"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 30,
+
 	types: [
 		"Colorless",
 	],
@@ -33,12 +33,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 275305,
+		tcgplayer: 84048
+	}
 }
 
 export default card

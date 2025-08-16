@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Comme il se doit à un Pokémon légendaire, il a de nombreux pouvoirs étranges, comme la faculté de faire pleuvoir ou neiger."
+	},
+
+	thirdParty: {
+		cardmarket: 274086,
+		tcgplayer: 84580
 	}
 }
 

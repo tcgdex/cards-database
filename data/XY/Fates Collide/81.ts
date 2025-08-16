@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Loudred",
 		de: "Krakeelo"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		294,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Whismur",
 		fr: "Chuchmur",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Whismur",
 		de: "Flurmel"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -85,8 +90,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289902,
+		tcgplayer: 117856
+	}
 }
 
 export default card

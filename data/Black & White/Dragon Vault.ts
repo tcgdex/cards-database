@@ -25,6 +25,11 @@ const dv1: Set = {
 	abbreviations: {
 		official: "DRV",
 		fr: "CDR"
+	},
+
+	thirdParty: {
+		cardmarket: 1636,
+		tcgplayer: 1426
 	}
 }
 

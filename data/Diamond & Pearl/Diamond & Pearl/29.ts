@@ -90,6 +90,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il emmagasine du sable qu'il expulse en tornades par les pores de sa peau pour attaquer."
+	},
+
+	thirdParty: {
+		cardmarket: 277528,
+		tcgplayer: 86083
 	}
 }
 

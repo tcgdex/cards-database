@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Yveltal GX",
 		de: "Yveltal GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		717,
 	],
+
 	hp: 180,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "GX",
 
@@ -98,22 +100,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 355594,
+		tcgplayer: 165734
+	}
 }
 
 export default card

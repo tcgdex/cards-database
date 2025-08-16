@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bolinha de Fada",
 		de: "Feentropfen"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez 50 dégâts à l'un de vos Pokémon auquel de l'Énergie Fairy est attachée.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cure 50 de danos de 1 dos seus Pokémon que possua qualquer Energia Fairy ligada a ele.",
 		de: "Heile 50 Schadenspunkte bei 1 deiner Pokémon, an das Fairy-Energie angelegt ist."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 289919,
+		tcgplayer: 117871
+	}
 }
 
 export default card

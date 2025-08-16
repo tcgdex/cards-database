@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream."
+	},
+
+	thirdParty: {
+		cardmarket: 539343
 	}
 }
 

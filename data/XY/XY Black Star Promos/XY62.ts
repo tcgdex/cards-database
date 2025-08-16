@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Absol EX",
 		fr: "Absol EX",
 	},
+
 	illustrator: "PLANETA",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		359,
 	],
+
 	hp: 170,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "EX",
 
@@ -54,22 +56,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289720
+	}
 }
 
 export default card

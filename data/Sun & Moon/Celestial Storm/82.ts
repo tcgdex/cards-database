@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Palossand GX",
 		de: "Colossand GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		770,
 	],
+
 	hp: 210,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Sandygast",
 		fr: "Bacabouh",
 	},
+
 	stage: "Stage1",
 	suffix: "GX",
 
@@ -108,6 +113,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -117,8 +123,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 361327,
+		tcgplayer: 170904
+	}
 }
 
 export default card

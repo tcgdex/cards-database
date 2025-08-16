@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [398],
+
 	name: {
 		en: "Staraptor",
 		fr: "Étouraptor",
@@ -110,6 +111,11 @@ const card: Card = {
 
 	description: {
 		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings."
+	},
+
+	thirdParty: {
+		cardmarket: 483614,
+		tcgplayer: 219355
 	}
 }
 

@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Staross δ",
 		de: "Starmie"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		121,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Staryu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -67,10 +72,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276778
+	}
 }
 
 export default card

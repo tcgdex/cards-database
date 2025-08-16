@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Pyroar",
 		de: "Pyroleo"
 	},
+
 	illustrator: "Yumi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		668,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Litleo",
 		fr: "Hélionceau",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Litleo",
 		de: "Leufeo"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -93,8 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 291527,
+		tcgplayer: 121011
+	}
 }
 
 export default card

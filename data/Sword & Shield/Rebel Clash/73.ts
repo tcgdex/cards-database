@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [877],
+
 	name: {
 		en: "Morpeko",
 		fr: "Morpeko",
@@ -90,6 +91,11 @@ const card: Card = {
 
 	description: {
 		en: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity."
+	},
+
+	thirdParty: {
+		cardmarket: 457783,
+		tcgplayer: 213159
 	}
 }
 

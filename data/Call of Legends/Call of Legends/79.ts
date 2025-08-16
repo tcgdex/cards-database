@@ -15,6 +15,11 @@ const card: Card = {
 
 	effect: {
 		de: "Schau dir die obersten 8 Karten deines Decks an. Wähle beliebig viele Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische die anderen Karten anschließend in dein Deck."
+	},
+
+	thirdParty: {
+		cardmarket: 279722,
+		tcgplayer: 86287
 	}
 }
 

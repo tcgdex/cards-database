@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Substituição de Energia",
 		de: "Energie-Umschalter"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Déplacez une Énergie de base de l’un de vos Pokémon vers un autre de vos Pokémon.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Mova 1 Energia básica de 1 dos seus Pokémon para outro Pokémon seu.",
 		de: "Verschiebe 1 Basis-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 295430,
+		tcgplayer: 126989
+	}
 }
 
 export default card

@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Fraxure",
 		fr: "Incisache",
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		611,
 	],
+
 	hp: 70,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Axew",
 		fr: "Coupenotte",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Dragon",
@@ -62,8 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281014,
+		tcgplayer: 85559
+	}
 }
 
 export default card

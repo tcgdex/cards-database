@@ -103,7 +103,12 @@ const card: Card = {
 		en: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers."
 	},
 
-	dexId: [811]
+	dexId: [811],
+
+	thirdParty: {
+		cardmarket: 436234,
+		tcgplayer: 208291
+	}
 }
 
 export default card

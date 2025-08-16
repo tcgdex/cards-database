@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Palpitoad",
 		de: "Mebrana"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		536,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Tympole",
 		fr: "Tritonde",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Tympole",
 		de: "Schallquap"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 288209,
+		tcgplayer: 111541
+	}
 }
 
 export default card

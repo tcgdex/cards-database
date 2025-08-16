@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Rayquaza EX",
 		fr: "Rayquaza EX",
 	},
+
 	illustrator: "PLANETA",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		384,
 	],
+
 	hp: 180,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "EX",
 
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -62,8 +65,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289723
+	}
 }
 
 export default card

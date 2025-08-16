@@ -53,6 +53,11 @@ const card: Card = {
 
 	description: {
 		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
+	},
+
+	thirdParty: {
+		cardmarket: 544991,
+		tcgplayer: 234085
 	}
 }
 

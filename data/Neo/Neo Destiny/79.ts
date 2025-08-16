@@ -68,6 +68,11 @@ const card: Card = {
 
 	description: {
 		fr: "Bien que possédant d'immenses pouvoirs mentaux, il ne sait pas les utiliser."
+	},
+
+	thirdParty: {
+		cardmarket: 274731,
+		tcgplayer: 88433
 	}
 }
 

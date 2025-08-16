@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Aligatueur",
 		de: "Impergator"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		160,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Croconaw",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -63,6 +69,7 @@ const card: Card = {
 			damage: 70
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -70,10 +77,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274887,
+		tcgplayer: 85416
+	}
 }
 
 export default card

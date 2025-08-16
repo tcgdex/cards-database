@@ -100,7 +100,12 @@ const card: Card = {
 		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit."
 	},
 
-	dexId: [112]
+	dexId: [112],
+
+	thirdParty: {
+		cardmarket: 436609,
+		tcgplayer: 208407
+	}
 }
 
 export default card

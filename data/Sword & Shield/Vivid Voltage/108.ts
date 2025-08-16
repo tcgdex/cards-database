@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [552],
+
 	name: {
 		en: "Krokorok",
 		fr: "Escroco",
@@ -95,6 +96,11 @@ const card: Card = {
 
 	description: {
 		en: "It buries some of its prey in the sand to use as emergency meals when its hunts are unsuccessful."
+	},
+
+	thirdParty: {
+		cardmarket: 511960,
+		tcgplayer: 226561
 	}
 }
 

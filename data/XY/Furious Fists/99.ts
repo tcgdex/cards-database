@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Veste Cintilante",
 		de: "Glänzender Mantel"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Pokémon auquel cette carte est attachée ne peut être affecté par aucun État Spécial. (Retirez tous les États Spéciaux affectant le Pokémon concerné.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Pokémon ao qual este card está ligado não poderá ser afetado por nenhuma Condição Especial. (Remova todas as Condições Especiais que afetam esse Pokémon.)",
 		de: "Das Pokémon, an das diese Karte angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesem Pokémon verlieren ihre Wirkung.)"
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 281763,
+		tcgplayer: 92282
+	}
 }
 
 export default card

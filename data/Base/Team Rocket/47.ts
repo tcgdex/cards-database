@@ -68,6 +68,11 @@ const card: Card = {
 
 	description: {
 		fr: "De récentes recherches ont démontré la présence d'ADN de dragon dans cette race de Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 274100,
+		tcgplayer: 87021
 	}
 }
 

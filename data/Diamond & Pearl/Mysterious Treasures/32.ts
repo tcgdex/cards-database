@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "On raconte que ses neuf queues détiennent un pouvoir mystique. Il peut vivre pendant mille ans."
+	},
+
+	thirdParty: {
+		cardmarket: 277661,
+		tcgplayer: 87772
 	}
 }
 

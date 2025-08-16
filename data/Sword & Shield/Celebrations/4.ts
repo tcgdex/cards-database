@@ -84,7 +84,12 @@ const card: Card = {
 		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology."
 	},
 
-	dexId: [484]
+	dexId: [484],
+
+	thirdParty: {
+		cardmarket: 576749,
+		tcgplayer: 250302
+	}
 }
 
 export default card

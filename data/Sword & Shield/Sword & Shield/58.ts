@@ -102,7 +102,12 @@ const card: Card = {
 		en: "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air."
 	},
 
-	dexId: [818]
+	dexId: [818],
+
+	thirdParty: {
+		cardmarket: 427216,
+		tcgplayer: 208355
+	}
 }
 
 export default card

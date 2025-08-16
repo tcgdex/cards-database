@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Caterpie",
 		fr: "Chenipan",
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		10,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,6 +38,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -45,8 +48,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 394607,
+		tcgplayer: 197643
+	}
 }
 
 export default card

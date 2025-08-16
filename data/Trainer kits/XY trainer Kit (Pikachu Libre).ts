@@ -22,6 +22,10 @@ const set: Set = {
 	abbreviations: {
 		official: "TK9P",
 		fr: "PLB"
+	},
+
+	thirdParty: {
+		tcgplayer: 1796
 	}
 }
 

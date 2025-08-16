@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "Through its horns, it can pick up on the emotions of creatures around it. Positive emotions are the source of its strength."
+	},
+
+	thirdParty: {
+		cardmarket: 545776,
+		tcgplayer: 234164
 	}
 }
 

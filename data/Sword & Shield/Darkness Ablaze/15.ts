@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [762],
+
 	name: {
 		en: "Steenee",
 		fr: "Candine",
@@ -94,6 +95,11 @@ const card: Card = {
 
 	description: {
 		en: "As it twirls like a dancer, a sweet smell spreads out around it. Anyone who inhales the scent will feel a surge of happiness."
+	},
+
+	thirdParty: {
+		cardmarket: 482949,
+		tcgplayer: 219228
 	}
 }
 

@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Miltank",
 		de: "Miltank"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		241,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -82,8 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 311925,
+		tcgplayer: 149104
+	}
 }
 
 export default card

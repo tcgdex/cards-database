@@ -6,25 +6,18 @@ const card: Card = {
 		en: "Fighting Energy",
 		fr: "Énergie Fighting de base",
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 288417,
+		tcgplayer: 113738
+	}
 }
 
 export default card

@@ -103,7 +103,12 @@ const card: Card = {
 		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
 	},
 
-	dexId: [93]
+	dexId: [93],
+
+	thirdParty: {
+		cardmarket: 436544,
+		tcgplayer: 208390
+	}
 }
 
 export default card

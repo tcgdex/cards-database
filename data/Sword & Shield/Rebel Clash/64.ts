@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [695],
+
 	name: {
 		en: "Heliolisk",
 		fr: "Iguolta",
@@ -98,6 +99,11 @@ const card: Card = {
 
 	description: {
 		en: "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them."
+	},
+
+	thirdParty: {
+		cardmarket: 457753,
+		tcgplayer: 213147
 	}
 }
 

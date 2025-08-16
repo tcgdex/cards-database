@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Dragalge",
 		fr: "Kravarech",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		691,
 	],
+
 	hp: 100,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Skrelp",
 		fr: "Venalgue",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -65,8 +72,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281335
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [756],
+
 	name: {
 		en: "Shiinotic",
 		fr: "Lampignon",
@@ -102,6 +103,11 @@ const card: Card = {
 
 	description: {
 		en: "Its flickering spores lure in prey and put them to sleep. Once this Pokémon has its prey snoozing, it drains their vitality with its fingertips."
+	},
+
+	thirdParty: {
+		cardmarket: 483279,
+		tcgplayer: 219465
 	}
 }
 

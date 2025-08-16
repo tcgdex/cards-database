@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [600],
+
 	name: {
 		en: "Klang",
 		fr: "Clic",
@@ -102,6 +103,11 @@ const card: Card = {
 
 	description: {
 		en: "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply."
+	},
+
+	thirdParty: {
+		cardmarket: 483509,
+		tcgplayer: 219386
 	}
 }
 

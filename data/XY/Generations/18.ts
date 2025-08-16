@@ -6,24 +6,28 @@ const card: Card = {
 		en: "M Blastoise EX",
 		fr: "M-Tortank-EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		9,
 	],
+
 	hp: 220,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Blastoise-EX",
 		fr: "Tortank-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -45,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -54,8 +59,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		tcgplayer: 113676
+	}
 }
 
 export default card

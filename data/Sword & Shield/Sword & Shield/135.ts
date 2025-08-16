@@ -104,7 +104,12 @@ const card: Card = {
 		en: "This Pokémon reigns supreme in the skies of the Galar region. The black luster of its steel body could drive terror into the heart of any foe."
 	},
 
-	dexId: [823]
+	dexId: [823],
+
+	thirdParty: {
+		cardmarket: 436784,
+		tcgplayer: 208446
+	}
 }
 
 export default card

@@ -55,6 +55,11 @@ const card: Card = {
 
 	description: {
 		fr: "Sa toison pousse constamment. En été, même tondu, sa laine repousse en moins d'une semaine."
+	},
+
+	thirdParty: {
+		cardmarket: 274569,
+		tcgplayer: 87192
 	}
 }
 

@@ -69,7 +69,12 @@ const card: Card = {
 		de: "Drapfel-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545001,
+		tcgplayer: 234079
+	}
 }
 
 export default card

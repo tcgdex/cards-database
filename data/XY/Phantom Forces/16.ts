@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Croconaw",
 		de: "Tyracroc"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		159,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Totodile",
 		fr: "Kaiminus",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Totodile",
 		de: "Karnimani"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281819,
+		tcgplayer: 94149
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Acerola",
 		de: "Lola"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Placez l’un de vos Pokémon avec des marqueurs de dégâts et toutes les cartes qui lui sont attachées dans votre main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Coloque 1 dos seus Pokémon que tiver algum contador de dano nele e todas as cartas ligadas a ele na sua mão.",
 		de: "Nimm 1 deiner Pokémon, auf dem mindestens 1 Schadensmarke liegt, und alle an es angelegten Karten auf deine Hand."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 299513,
+		tcgplayer: 138609
+	}
 }
 
 export default card

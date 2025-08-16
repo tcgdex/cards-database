@@ -63,7 +63,12 @@ const card: Card = {
 		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
 	},
 
-	dexId: [824]
+	dexId: [824],
+
+	thirdParty: {
+		cardmarket: 436249,
+		tcgplayer: 208295
+	}
 }
 
 export default card

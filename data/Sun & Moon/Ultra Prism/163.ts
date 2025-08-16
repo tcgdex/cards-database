@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Necrozma Juba Crepúsculo GX",
 		de: "Abendmähne-Necrozma GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		800,
 	],
+
 	hp: 190,
+
 	types: [
 		"Metal",
 	],
-
 
 	suffix: "GX",
 
@@ -97,22 +99,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 315829,
+		tcgplayer: 157779
+	}
 }
 
 export default card

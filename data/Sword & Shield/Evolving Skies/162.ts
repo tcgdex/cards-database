@@ -34,7 +34,12 @@ const card: Card = {
 
 	trainerType: "Item",
 	illustrator: "Ryo Ueda",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574220,
+		tcgplayer: 246787
+	}
 }
 
 export default card

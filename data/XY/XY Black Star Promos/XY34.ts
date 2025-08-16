@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Metagross EX",
 		fr: "Métalosse EX",
 	},
+
 	illustrator: "PLANETA",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		376,
 	],
+
 	hp: 180,
+
 	types: [
 		"Metal",
 	],
-
 
 	suffix: "EX",
 
@@ -58,22 +60,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "−20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 289697
+	}
 }
 
 export default card

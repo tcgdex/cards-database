@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [291],
+
 	name: {
 		en: "Ninjask",
 		fr: "Ninjask",
@@ -100,6 +101,11 @@ const card: Card = {
 
 	description: {
 		en: "Its cry leaves a lasting headache if heard for too long. It moves so quickly that it is almost invisible."
+	},
+
+	thirdParty: {
+		cardmarket: 511490,
+		tcgplayer: 226378
 	}
 }
 

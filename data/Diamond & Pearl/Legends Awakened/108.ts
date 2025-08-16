@@ -68,6 +68,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il grandit sous terre et se repère grâce à ses antennes car ses yeux sont quasiment aveugles."
+	},
+
+	thirdParty: {
+		cardmarket: 278257,
+		tcgplayer: 87760
 	}
 }
 

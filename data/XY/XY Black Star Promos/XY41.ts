@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Kyogre EX",
 		fr: "Kyogre EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		382,
 	],
+
 	hp: 180,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -67,8 +70,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 289704
+	}
 }
 
 export default card

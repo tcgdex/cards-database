@@ -5,21 +5,24 @@ const card: Card = {
 	name: {
 		en: "Treecko"
 	},
+
 	illustrator: "Mark Kraus",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		252,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
+
 	stage: "Basic",
 	retreat: 1,
-
 
 	attacks: [
 		{
@@ -48,11 +51,13 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fire"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -60,9 +65,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 605992
+	}
 }
 
 export default card

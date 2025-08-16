@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [881],
+
 	name: {
 		en: "Arctozolt",
 		fr: "Galvagla",
@@ -94,6 +95,11 @@ const card: Card = {
 
 	description: {
 		en: "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around."
+	},
+
+	thirdParty: {
+		cardmarket: 483209,
+		tcgplayer: 219434
 	}
 }
 

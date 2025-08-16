@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Exeggutor de Alola",
 		de: "Alola-Kokowei"
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		103,
 	],
+
 	hp: 130,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -85,8 +90,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 316021,
+		tcgplayer: 157712
+	}
 }
 
 export default card

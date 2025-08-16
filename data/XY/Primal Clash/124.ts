@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Ás na Manga de Archie",
 		de: "Adrians Ass im Ärmel"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous pouvez jouer cette carte seulement lorsque c'est la dernière carte dans votre main.\n\nPlacez un Pokémon Water de votre pile de défausse sur votre Banc. Ensuite, piochez 5 cartes.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você poderá jogar este card somente quando ele for o último card da sua mão. Coloque um Pokémon Water da sua pilha de descarte no seu Banco. Em seguida, compre 5 cards.",
 		de: "Du kannst diese Karte nur dann spielen, wenn es die letzte Karte auf deiner Hand ist. Nimm 1 Water-Pokémon von deinem Ablagestapel und lege es auf deine Bank. Ziehe anschließend 5 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 273655,
+		tcgplayer: 96022
+	}
 }
 
 export default card

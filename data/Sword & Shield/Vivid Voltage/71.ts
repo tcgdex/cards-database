@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [477],
+
 	name: {
 		en: "Dusknoir",
 		fr: "Noctunoir",
@@ -102,6 +103,11 @@ const card: Card = {
 
 	description: {
 		en: "At the bidding of transmissions from the spirit world, it steals people and Pokémon away. No one knows whether it has a will of its own."
+	},
+
+	thirdParty: {
+		cardmarket: 511775,
+		tcgplayer: 226478
 	}
 }
 

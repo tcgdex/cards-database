@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Criaturita",
 		de: "Bestienit"
 	},
+
 	illustrator: "inose yukie",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les attaques de l’Ultra-Chimère à laquelle cette carte est attachée infligent 10 dégâts supplémentaires au Pokémon Actif de votre adversaire pour chaque carte Récompense que vous avez récupérée (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Os ataques da Ultracriatura ao qual esta carta está ligada causam 10 pontos de dano a mais ao Pokémon Ativo do seu oponente para cada carta de Prêmio que você pegou (antes de aplicar Fraqueza e Resistência).",
 		de: "Die Attacken der Ultrabestie, an die diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr mal der Anzahl der von dir genommenen Preiskarten zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 408549,
+		tcgplayer: 201308
+	}
 }
 
 export default card

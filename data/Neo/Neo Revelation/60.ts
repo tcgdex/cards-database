@@ -16,6 +16,11 @@ const card: Card = {
 	effect: {
 		fr: "Attachez Baie ballon à 1 de vos Pokémon qui n'a pas d'Outil Pokémon attaché à lui.\n\nLorsque le Pokémon auquel Baie ballon est attachée bat en retraite, défaussez Baie ballon à la place des cartes Énergie.",
 		de: "Wenn das Pokémon, an das Ballonbeere angelegt ist, sich zurückzieht, lege Ballonbeere auf deinen Ablagestapel, anstatt Energiekarten abzulegen."
+	},
+
+	thirdParty: {
+		cardmarket: 274646,
+		tcgplayer: 83707
 	}
 }
 

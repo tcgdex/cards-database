@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Rhyperior",
 		de: "Rihornior"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		464,
 	],
+
 	hp: 160,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Rhydon",
 		fr: "Rhinoféros",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -86,8 +93,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 299469,
+		tcgplayer: 138553
+	}
 }
 
 export default card

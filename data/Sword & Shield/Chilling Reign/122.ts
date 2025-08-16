@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		en: "Its color changes for concealment and also when its mood or health changes. The darker the color, the healthier it is."
+	},
+
+	thirdParty: {
+		cardmarket: 567230,
+		tcgplayer: 241801
 	}
 }
 

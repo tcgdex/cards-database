@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Celebi",
 		fr: "Celebi",
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		251,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
@@ -32,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -47,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -56,8 +61,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289560
+	}
 }
 
 export default card

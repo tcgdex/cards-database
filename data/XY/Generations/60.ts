@@ -6,28 +6,23 @@ const card: Card = {
 		en: "Crushing Hammer",
 		fr: "Maillet Écrasant",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à l'un des Pokémon de votre adversaire.",
 		en: "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 288497,
+		tcgplayer: 113718
+	}
 }
 
 export default card

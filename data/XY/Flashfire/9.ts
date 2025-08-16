@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Roserade",
 		de: "Roserade"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		407,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Roselia",
 		fr: "Rosélia",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Roselia",
 		de: "Roselia"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281492,
+		tcgplayer: 91142
+	}
 }
 
 export default card

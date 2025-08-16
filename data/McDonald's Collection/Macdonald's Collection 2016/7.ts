@@ -24,7 +24,11 @@ const card: Card = {
 		en: "Scraggy"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275063
+	}
 }
 
 export default card

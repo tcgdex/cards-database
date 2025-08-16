@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [448],
+
 	name: {
 		en: "Lucario",
 		fr: "Lucario",
@@ -110,6 +111,11 @@ const card: Card = {
 
 	description: {
 		en: "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey."
+	},
+
+	thirdParty: {
+		cardmarket: 512310,
+		tcgplayer: 226574
 	}
 }
 

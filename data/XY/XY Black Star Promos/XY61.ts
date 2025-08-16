@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Flygon EX",
 		fr: "Libégon EX",
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		330,
 	],
+
 	hp: 170,
+
 	types: [
 		"Dragon",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -61,8 +66,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289719
+	}
 }
 
 export default card

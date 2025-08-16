@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit habituellement au cœur des montagnes. Affamé, il dévore parfois des rails et des voitures."
+	},
+
+	thirdParty: {
+		cardmarket: 277700,
+		tcgplayer: 83636
 	}
 }
 

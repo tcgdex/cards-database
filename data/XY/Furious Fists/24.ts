@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Clawitzer",
 		de: "Wummer"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		693,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Clauncher",
 		fr: "Flingouste",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Clauncher",
 		de: "Scampisto"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -92,8 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281688,
+		tcgplayer: 92199
+	}
 }
 
 export default card

@@ -58,6 +58,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
+	},
+
+	thirdParty: {
+		cardmarket: 539648
 	}
 }
 

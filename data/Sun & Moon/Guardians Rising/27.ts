@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Carvanha",
 		de: "Kanivanha"
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		318,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -53,8 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 297489,
+		tcgplayer: 130927
+	}
 }
 
 export default card

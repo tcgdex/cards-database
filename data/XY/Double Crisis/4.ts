@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Team Aqua's Sealeo",
 		fr: "Phogleur de la Team Aqua",
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		364,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Team Aqua's Spheal",
 		fr: "Obalie de la Team Aqua",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -68,8 +73,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 282515,
+		tcgplayer: 97050
+	}
 }
 
 export default card

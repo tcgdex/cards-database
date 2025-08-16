@@ -105,6 +105,11 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit."
+	},
+
+	thirdParty: {
+		cardmarket: 457813,
+		tcgplayer: 213165
 	}
 }
 

@@ -50,7 +50,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Yuriko Akase"
+	illustrator: "Yuriko Akase",
+
+	thirdParty: {
+		cardmarket: 794256
+	}
 }
 
 export default card

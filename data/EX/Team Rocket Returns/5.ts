@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dark Houndoom",
 		de: "Dunkles Hundemon"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		229,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Houndour",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -70,6 +75,7 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -81,9 +87,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276297,
+		tcgplayer: 84611
+	}
 }
 
 export default card

@@ -74,6 +74,11 @@ const card: Card = {
 
 	description: {
 		en: "Gurdurr excels at demolition—construction is not its forte. In any case, there's skill in the way this Pokémon wields its metal beam."
+	},
+
+	thirdParty: {
+		cardmarket: 545486,
+		tcgplayer: 234250
 	}
 }
 

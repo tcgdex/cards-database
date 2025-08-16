@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Salamence",
 		de: "Brutalanda"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		373,
 	],
+
 	hp: 160,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Shelgon",
 		fr: "Drackhaus",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Shelgon",
 		de: "Draschel"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -109,6 +113,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -118,8 +123,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 282725,
+		tcgplayer: 98093
+	}
 }
 
 export default card

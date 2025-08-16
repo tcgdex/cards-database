@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Golem",
 		de: "Geowaz"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		76,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Graveler",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -74,22 +76,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 278891,
+		tcgplayer: 85829
+	}
 }
 
 export default card

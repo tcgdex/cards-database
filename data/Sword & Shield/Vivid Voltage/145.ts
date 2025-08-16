@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [733],
+
 	name: {
 		en: "Toucannon",
 		fr: "Bazoucan",
@@ -111,6 +112,11 @@ const card: Card = {
 
 	description: {
 		en: "Known for forming harmonious couples, this Pokémon is brought to wedding ceremonies as a good luck charm."
+	},
+
+	thirdParty: {
+		cardmarket: 512435,
+		tcgplayer: 226603
 	}
 }
 

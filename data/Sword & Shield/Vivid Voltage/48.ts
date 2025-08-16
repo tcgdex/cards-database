@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [145],
+
 	name: {
 		en: "Zapdos",
 		fr: "Électhor",
@@ -93,6 +94,11 @@ const card: Card = {
 
 	description: {
 		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts."
+	},
+
+	thirdParty: {
+		cardmarket: 511660,
+		tcgplayer: 226439
 	}
 }
 

@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Xerneas EX",
 		fr: "Xerneas EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		716,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fairy",
 	],
-
 
 	suffix: "EX",
 
@@ -59,22 +61,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281324
+	}
 }
 
 export default card

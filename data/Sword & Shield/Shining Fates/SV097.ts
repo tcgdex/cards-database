@@ -54,6 +54,10 @@ const card: Card = {
 
 	description: {
 		en: "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
+	},
+
+	thirdParty: {
+		cardmarket: 539873
 	}
 }
 

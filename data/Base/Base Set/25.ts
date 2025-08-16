@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il emmagasine la chaleur dans son corps. Il peut nager dans l'eau glacée à plus de 8 nœuds."
+	},
+
+	thirdParty: {
+		cardmarket: 273720,
+		tcgplayer: 42366
 	}
 }
 

@@ -82,7 +82,12 @@ const card: Card = {
 			pt: "{title}: Impede todos os efeitos das Habilidades causadas neste Pokémon pelo Pokémon do seu oponente.",
 			de: "{title}: Verhindere alle Effekte von Fähigkeiten gegnerischer Pokémon, die diesem Pokémon zugefügt werden."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 284212,
+		tcgplayer: 101453
+	}
 }
 
 export default card

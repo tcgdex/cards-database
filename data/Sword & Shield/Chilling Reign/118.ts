@@ -93,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "A faulty update was added to its programming. Its behavior is noticeably strange, so the experiment may have been a failure."
+	},
+
+	thirdParty: {
+		cardmarket: 567226,
+		tcgplayer: 241795
 	}
 }
 

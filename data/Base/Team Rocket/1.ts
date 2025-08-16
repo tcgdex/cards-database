@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il ne change jamais d'expression, même en plein cœur d'une bataille, comme s'il était sous le contrôle d'une force inconnue."
+	},
+
+	thirdParty: {
+		cardmarket: 274054,
+		tcgplayer: 84559
 	}
 }
 

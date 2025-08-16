@@ -67,6 +67,11 @@ const card: Card = {
 
 	description: {
 		en: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
+	},
+
+	thirdParty: {
+		cardmarket: 457678,
+		tcgplayer: 213126
 	}
 }
 

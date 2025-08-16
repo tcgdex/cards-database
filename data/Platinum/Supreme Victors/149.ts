@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Sulfura",
 		de: "Lavados"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		146,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,10 +53,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278727
+	}
 }
 
 export default card

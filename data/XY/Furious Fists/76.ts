@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Flygon",
 		de: "Libelldra"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		330,
 	],
+
 	hp: 130,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Vibrava",
 		fr: "Vibraninf",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Vibrava",
 		de: "Vibrava"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281740,
+		tcgplayer: 92256
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Sucateador de Ferramentas",
 		de: "Ausrüstungsentsorger"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez jusqu’à 2 cartes Outil Pokémon attachées aux Pokémon en jeu (les vôtres ou ceux de votre adversaire) et défaussez-les.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Escolha até 2 cards de Ferramenta Pokémon, que estejam ligados aos Pokémon em jogo (seus ou de seu oponente) e descarte-os.",
 		de: "Wähle bis zu 2 Pokémon-Ausrüstungen, die an Pokémon im Spiel angelegt sind (an deine oder die deines Gegners),und lege sie auf den entsprechenden Ablagestapel."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280555,
+		tcgplayer: 89947
+	}
 }
 
 export default card

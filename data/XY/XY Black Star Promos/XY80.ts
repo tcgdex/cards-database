@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Black Kyurem",
 		fr: "Kyurem Noir",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		646,
 	],
+
 	hp: 120,
+
 	types: [
 		"Dragon",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -66,8 +69,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 289803
+	}
 }
 
 export default card

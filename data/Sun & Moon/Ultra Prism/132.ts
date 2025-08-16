@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pal Pad",
 		de: "Adressbuch"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Mélangez 2 cartes Supporter de votre pile de défausse avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Embaralhe 2 cartas de Apoiador da sua pilha de descarte no seu baralho.",
 		de: "Mische 2 Unterstützerkarten aus deinem Ablagestapel in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 316057,
+		tcgplayer: 157748
+	}
 }
 
 export default card

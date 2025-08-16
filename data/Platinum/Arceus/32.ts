@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Spiritomb",
 		de: "Kryppuk"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		442,
 	],
@@ -34,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -67,10 +69,13 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278904,
+		tcgplayer: 89466
+	}
 }
 
 export default card

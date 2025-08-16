@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [299],
+
 	name: {
 		en: "Nosepass",
 		fr: "Tarinor",
@@ -77,6 +78,11 @@ const card: Card = {
 
 	description: {
 		en: "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close."
+	},
+
+	thirdParty: {
+		cardmarket: 457893,
+		tcgplayer: 213184
 	}
 }
 

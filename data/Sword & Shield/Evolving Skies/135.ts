@@ -93,7 +93,12 @@ const card: Card = {
 		en: "Its fur is long and thick. A long time ago in cold regions, every household kept a Stoutland."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574193,
+		tcgplayer: 246872
+	}
 }
 
 export default card

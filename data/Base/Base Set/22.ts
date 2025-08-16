@@ -84,6 +84,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il protège son territoire avec ardeur et repousse à coups de bec tout intrus."
+	},
+
+	thirdParty: {
+		cardmarket: 273717,
+		tcgplayer: 42363
 	}
 }
 

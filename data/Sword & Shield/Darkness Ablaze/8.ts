@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [588],
+
 	name: {
 		en: "Karrablast",
 		fr: "Carabing",
@@ -69,6 +70,11 @@ const card: Card = {
 
 	description: {
 		en: "Its strange physiology reacts to electrical energy in interesting ways. The presence of a Shelmet will cause this Pokémon to evolve."
+	},
+
+	thirdParty: {
+		cardmarket: 482914,
+		tcgplayer: 219080
 	}
 }
 

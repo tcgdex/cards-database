@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [547],
+
 	name: {
 		en: "Whimsicott",
 		fr: "Farfaduvet",
@@ -100,6 +101,11 @@ const card: Card = {
 
 	description: {
 		en: "It scatters cotton all over the place as a prank. If it gets wet, it'll become too heavy to move and have no choice but to answer for its mischief."
+	},
+
+	thirdParty: {
+		cardmarket: 511800,
+		tcgplayer: 226484
 	}
 }
 

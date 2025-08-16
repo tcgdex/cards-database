@@ -89,6 +89,11 @@ const card: Card = {
 
 	description: {
 		fr: "On raconte qu'il vit quelque part en mer. Il guide les équipages naufragés jusqu'à la terre ferme."
+	},
+
+	thirdParty: {
+		cardmarket: 278151,
+		tcgplayer: 84913
 	}
 }
 

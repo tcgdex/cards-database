@@ -14,6 +14,11 @@ const card: Card = {
 
 	effect: {
 		en: "Draw cards until you have 6 cards in your hand."
+	},
+
+	thirdParty: {
+		cardmarket: 281260,
+		tcgplayer: 83815
 	}
 }
 

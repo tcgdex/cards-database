@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Wishiwashi GX",
 		de: "Lusardin GX"
 	},
+
 	illustrator: "sadaji",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		746,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "GX",
 
@@ -74,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -83,8 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 407964,
+		tcgplayer: 201643
+	}
 }
 
 export default card

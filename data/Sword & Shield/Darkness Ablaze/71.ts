@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [210],
+
 	name: {
 		en: "Granbull",
 		fr: "Granbull",
@@ -97,6 +98,11 @@ const card: Card = {
 
 	description: {
 		en: "Although it's popular with young people, Granbull is timid and sensitive, so it's totally incompetent as a watchdog."
+	},
+
+	thirdParty: {
+		cardmarket: 483234,
+		tcgplayer: 219446
 	}
 }
 

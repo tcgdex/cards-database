@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		fr: "Une fois qu'il est sous le vent, il contrôle précisément ses spores cotonneuses pour flotter, même autour du monde."
+	},
+
+	thirdParty: {
+		cardmarket: 274407,
+		tcgplayer: 86361
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Dama do Centro Pokémon",
 		de: "Pokémon-Center-Dame"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez 60 dégâts et retirez tous les États Spéciaux de l'un de vos Pokémon.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Cure 60 de danos e remova todas as Condições Especiais de 1 dos seus Pokémon.",
 		de: "Heile 60 Schadenspunkte bei 1 deiner Pokémon. Alle Speziellen Zustände auf diesem Pokémon verlieren ihre Wirkung."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 281576
+	}
 }
 
 export default card

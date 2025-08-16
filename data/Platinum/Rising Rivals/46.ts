@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Mackogneur  Niv. 64",
 		de: "Machomei GL"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		68,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -63,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -72,8 +75,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		tcgplayer: 86972
+	}
 }
 
 export default card

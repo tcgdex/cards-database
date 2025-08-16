@@ -15,6 +15,11 @@ const card: Card = {
 
 	effect: {
 		de: "Shuffle your hand into your deck. Then, count the number of cards in your opponent's hand an draw that many cards."
+	},
+
+	thirdParty: {
+		cardmarket: 276375,
+		tcgplayer: 84424
 	}
 }
 

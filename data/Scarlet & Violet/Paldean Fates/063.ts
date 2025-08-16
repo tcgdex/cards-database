@@ -73,7 +73,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "KIYOTAKA OSHIYAMA"
+	illustrator: "KIYOTAKA OSHIYAMA",
+
+	thirdParty: {
+		cardmarket: 751601
+	}
 }
 
 export default card

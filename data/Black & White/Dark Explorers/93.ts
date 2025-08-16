@@ -24,6 +24,11 @@ const card: Card = {
 		it: "Assegna a uno dei tuoi Pokémon Darkness in panchina una carta Energia base Darkness dalla tua pila degli scarti.",
 		pt: "Ligue um card de Energia Darkness da sua pilha de descarte a 1 dos seus Pokémon Darkness no Banco.",
 		de: "Lege 1 Darkness-Basis-Energiekarte von deinem Ablagestapel an 1 Darkness-Pokémon auf deiner Bank an."
+	},
+
+	thirdParty: {
+		cardmarket: 280421,
+		tcgplayer: 84636
 	}
 }
 

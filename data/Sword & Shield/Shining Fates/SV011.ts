@@ -70,6 +70,10 @@ const card: Card = {
 
 	description: {
 		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty."
+	},
+
+	thirdParty: {
+		cardmarket: 539098
 	}
 }
 

@@ -81,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp."
+	},
+
+	thirdParty: {
+		cardmarket: 539813
 	}
 }
 

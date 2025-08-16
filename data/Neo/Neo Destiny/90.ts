@@ -65,6 +65,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il possède une sorte de radar qu'il utilise pour trouver les insectes qu'il mange, même dans l'obscurité la plus totale."
+	},
+
+	thirdParty: {
+		cardmarket: 274742,
+		tcgplayer: 90305
 	}
 }
 

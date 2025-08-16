@@ -22,7 +22,12 @@ const card: Card = {
 
 	rarity: "Secret Rare",
 	category: "Energy",
-	energyType: "Normal"
+	energyType: "Normal",
+
+	thirdParty: {
+		cardmarket: 574295,
+		tcgplayer: 246812
+	}
 }
 
 export default card

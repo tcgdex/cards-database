@@ -14,6 +14,11 @@ const card: Card = {
 
 	effect: {
 		en: "Double Colorless Energy provides ColorlessColorless Energy."
+	},
+
+	thirdParty: {
+		cardmarket: 281264,
+		tcgplayer: 84885
 	}
 }
 

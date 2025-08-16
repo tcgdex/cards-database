@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [812],
+
 	name: {
 		en: "Rillaboom V",
 		fr: "Gorythmic V",
@@ -88,7 +89,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 456408,
+		tcgplayer: 213087
+	}
 }
 
 export default card

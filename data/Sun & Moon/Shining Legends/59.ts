@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Recuperação de Energia",
 		de: "Energie-Zugewinn"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Ajoutez 2 cartes Énergie de base de votre pile de défausse à votre main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Coloque 2 cartas de Energia básica da sua pilha de descarte na sua mão.",
 		de: "Nimm 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 302196,
+		tcgplayer: 146722
+	}
 }
 
 export default card

@@ -17,6 +17,11 @@ const card: Card = {
 	effect: {
 		fr: "Retirez à chacun de vos Pokémon Actifs tous leurs États Spéciaux.",
 		de: "Remove all Special Conditions from each of your Pokémon."
+	},
+
+	thirdParty: {
+		tcgplayer: 84888,
+		cardmarket: 276587
 	}
 }
 

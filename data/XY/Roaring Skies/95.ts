@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Lente Ampla",
 		de: "Großlinse"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les dégâts des attaques du Pokémon auquel cette carte est attachée sont affectés par la Faiblesse et la Résistance pour les Pokémon de Banc de votre adversaire.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Danos causados pelos ataques do Pokémon ao qual este card está ligado são afetados por Fraqueza e Resistência para os Pokémon no Banco do seu oponente.",
 		de: "Schaden der Angriffe des Pokémon, an das diese Karte angelegt ist, wird durch Schwäche und Resistenz der Pokémon auf der Bank deines Gegners verändert."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 282763,
+		tcgplayer: 98131
+	}
 }
 
 export default card

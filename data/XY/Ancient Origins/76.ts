@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bola de Nível",
 		de: "Levelball"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez dans votre deck un Pokémon avec 90 PV ou moins, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure um Pokémon com 90 PS ou menos em seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach 1 Pokémon mit 90 oder weniger KP, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 284257,
+		tcgplayer: 101498
+	}
 }
 
 export default card

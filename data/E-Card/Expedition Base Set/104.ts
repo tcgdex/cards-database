@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Héricendre",
 		de: "Feurigel"
 	},
+
 	illustrator: "Sachi Matoba",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		155,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -66,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274979,
+		tcgplayer: 84547
+	}
 }
 
 export default card

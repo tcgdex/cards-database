@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il utilise l'oignon qu'il a dans la bouche comme une épée d'acier."
+	},
+
+	thirdParty: {
+		cardmarket: 273722,
+		tcgplayer: 42368
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Soldadora",
 		de: "Schweißer"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Attachez jusqu’à 2 cartes Énergie Fire de votre main à l’un de vos Pokémon. Dans ce cas, piochez 3 cartes.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Ligue até 2 cartas de Energia Fire da sua mão a 1 dos seus Pokémon. Se fizer isto, compre 3 cartas.",
 		de: "Lege bis zu 2 Fire-Energiekarten aus deiner Hand an 1 deiner Pokémon an. Wenn du das machst, ziehe 3 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 372260,
+		tcgplayer: 189298
+	}
 }
 
 export default card

@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		en: "These very cowardly Pokémon join together and use Reflect to protect their nest."
+	},
+
+	thirdParty: {
+		cardmarket: 567084,
+		tcgplayer: 241651
 	}
 }
 

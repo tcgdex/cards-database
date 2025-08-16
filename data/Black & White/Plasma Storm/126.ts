@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Ginásio da Cidade de Virbank",
 		de: "Vapydro City-Arena"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Placez 2 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés (les vôtres et ceux de votre adversaire) entre chaque tour.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Coloque 2 marcadores de danos adicionais nos Pokémon Envenenados (tanto seus quanto do seu oponente) entre as vezes de jogar.",
 		de: "Lege zwischen den Zügen 2 weitere Schadensmarken auf vergiftete Pokémon (deine und die deines Gegners)."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 280866,
+		tcgplayer: 90385
+	}
 }
 
 export default card

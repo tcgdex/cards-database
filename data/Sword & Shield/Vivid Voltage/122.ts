@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [530],
+
 	name: {
 		en: "Excadrill",
 		fr: "Minotaupe",
@@ -104,6 +105,11 @@ const card: Card = {
 
 	description: {
 		en: "It's not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill's rampant digging."
+	},
+
+	thirdParty: {
+		cardmarket: 512320,
+		tcgplayer: 226576
 	}
 }
 

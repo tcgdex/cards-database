@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around."
+	},
+
+	thirdParty: {
+		cardmarket: 539613
 	}
 }
 

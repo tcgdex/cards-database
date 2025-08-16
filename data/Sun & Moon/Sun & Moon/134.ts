@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bola Tempo",
 		de: "Timerball"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Lancez 2 pièces. Pour chaque côté face, cherchez un Pokémon Évolutif dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Jogue 2 moedas. Para cada cara, procure por 1 Pokémon de Evolução no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Wirf 2 Münzen. Durchsuche pro Kopf dein Deck nach 1 Entwicklungs-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 295447,
+		tcgplayer: 127006
+	}
 }
 
 export default card

@@ -81,6 +81,11 @@ const card: Card = {
 
 	description: {
 		fr: "Une sorte de petite fée très rare. Il se cache en apercevant un être humain."
+	},
+
+	thirdParty: {
+		cardmarket: 273798,
+		tcgplayer: 45120
 	}
 }
 

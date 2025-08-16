@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Drapion",
 		de: "Piondragi"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		452,
 	],
+
 	hp: 110,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Skorupi",
 		fr: "Rapion",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Skorupi",
 		de: "Pionskora"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -84,22 +88,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281729,
+		tcgplayer: 92242
+	}
 }
 
 export default card

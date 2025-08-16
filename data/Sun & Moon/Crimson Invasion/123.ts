@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia de Dobra",
 		de: "Verkrümmungs-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Secret Rare",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte fournit de l’Énergie Colorless. \n\nLorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
@@ -35,7 +25,12 @@ const card: Card = {
 		de: "Diese Karte liefert Colorless-Energie.\n\nWenn du diese Karte aus deiner Hand an dein Aktives Pokémon anlegst, tausche jenes Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 311970,
+		tcgplayer: 149148
+	}
 }
 
 export default card

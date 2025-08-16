@@ -51,7 +51,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Fujimoto Gold"
+	illustrator: "Fujimoto Gold",
+
+	thirdParty: {
+		cardmarket: 785933
+	}
 }
 
 export default card

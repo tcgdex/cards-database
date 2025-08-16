@@ -21,6 +21,11 @@ const bw11: Set = {
 
 	abbreviations: {
 		official: "LTR"
+	},
+
+	thirdParty: {
+		cardmarket: 1581,
+		tcgplayer: 1409
 	}
 }
 

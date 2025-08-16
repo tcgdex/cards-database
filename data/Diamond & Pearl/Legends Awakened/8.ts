@@ -102,6 +102,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ses yeux voient à travers tout. Il repère les proies cachées derrière un objet pour les capturer."
+	},
+
+	thirdParty: {
+		cardmarket: 278157,
+		tcgplayer: 86947
 	}
 }
 

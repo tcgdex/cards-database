@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Sabrina's Mr. Mime",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		122,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Mime Jr.",
 	},
-	stage: "Basic",
 
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -49,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -56,10 +61,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274230,
+		tcgplayer: 88884
+	}
 }
 
 export default card

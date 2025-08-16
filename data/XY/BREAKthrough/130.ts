@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Braviary",
 		de: "Washakwil"
 	},
+
 	illustrator: "match",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		628,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Rufflet",
 		fr: "Furaiglon",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Rufflet",
 		de: "Geronimatz"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -78,22 +82,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 286376,
+		tcgplayer: 107249
+	}
 }
 
 export default card

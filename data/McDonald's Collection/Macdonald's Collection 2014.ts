@@ -21,6 +21,10 @@ const s2014xy: Set = {
 	abbreviations: {
 		official: "MCD14",
 		fr: "M14"
+	},
+
+	thirdParty: {
+		tcgplayer: 1692
 	}
 }
 

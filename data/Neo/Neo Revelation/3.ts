@@ -69,6 +69,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon voyage dans le temps. Les arbres et la végétation s'épanouissent dans les forêts où il apparaît."
+	},
+
+	thirdParty: {
+		cardmarket: 274589,
+		tcgplayer: 84141
 	}
 }
 

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bola da Repetição",
 		de: "Wiederball"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez dans votre deck un Pokémon du même nom que l'un de vos Pokémon en jeu, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure em seu baralho um Pokémon com o mesmo nome de 1 de seus Pokémon em jogo, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach 1 Pokémon mit demselben Namen wie 1 deiner Pokémon im Spiel, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 273667,
+		tcgplayer: 96034
+	}
 }
 
 export default card

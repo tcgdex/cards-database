@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		fr: "Tout le monde craque pour cet adorable Pokémon. Il vit en groupe dans le calme des montagnes."
+	},
+
+	thirdParty: {
+		cardmarket: 277576,
+		tcgplayer: 84356
 	}
 }
 

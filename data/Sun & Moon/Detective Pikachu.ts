@@ -25,6 +25,11 @@ const det1: Set = {
 	abbreviations: {
 		official: "DET",
 		fr: "DPI"
+	},
+
+	thirdParty: {
+		cardmarket: 2438,
+		tcgplayer: 2409
 	}
 }
 

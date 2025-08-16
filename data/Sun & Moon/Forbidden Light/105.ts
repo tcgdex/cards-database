@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Diantha",
 		de: "Diantha"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si l’un de vos Pokémon Fairy a été mis K.O. pendant le dernier tour de votre adversaire.\n\nAjoutez 2 cartes de votre pile de défausse à votre main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se 1 dos seus Pokémon Fairy tiver sido Nocauteado durante a última vez de jogar do seu oponente.\n\nColoque 2 cartas da sua pilha de descarte na sua mão.",
 		de: "Du kannst diese Karte nur spielen, wenn 1 deiner Fairy-Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\n\nNimm 2 Karten aus deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 355618,
+		tcgplayer: 165768
+	}
 }
 
 export default card

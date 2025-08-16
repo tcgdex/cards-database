@@ -25,6 +25,11 @@ const set: Set = {
 	abbreviations: {
 		official: "CEL",
 		fr: "CEL"
+	},
+
+	thirdParty: {
+		cardmarket: 4347,
+		tcgplayer: 2867
 	}
 }
 

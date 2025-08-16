@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [535],
+
 	name: {
 		en: "Tympole",
 		fr: "Tritonde",
@@ -65,6 +66,11 @@ const card: Card = {
 
 	description: {
 		en: "Graceful ripples running across the water's surface are a sure sign that Tympole are singing in high-pitched voices below."
+	},
+
+	thirdParty: {
+		cardmarket: 457663,
+		tcgplayer: 213123
 	}
 }
 

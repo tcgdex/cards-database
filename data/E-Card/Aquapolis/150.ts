@@ -90,7 +90,12 @@ const card: Card = {
 		},
 
 		type: "Poke-BODY"
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 275043,
+		tcgplayer: 87695
+	}
 }
 
 export default card

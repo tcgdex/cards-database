@@ -68,7 +68,12 @@ const card: Card = {
 		en: "Because it can't see, this Pokémon is constantly biting at everything it touches, trying to keep track of its surroundings."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574161,
+		tcgplayer: 246911
+	}
 }
 
 export default card

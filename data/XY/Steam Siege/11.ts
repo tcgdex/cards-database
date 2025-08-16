@@ -10,19 +10,23 @@ const card: Card = {
 		pt: "Shiftry",
 		de: "Tengulist"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		275,
 	],
+
 	hp: 140,
+
 	types: [
 		"Grass",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Nuzleaf",
 		fr: "Pifeuil",
@@ -31,8 +35,8 @@ const card: Card = {
 		pt: "Nuzleaf",
 		de: "Blanas"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -92,8 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 291518,
+		tcgplayer: 121000
+	}
 }
 
 export default card

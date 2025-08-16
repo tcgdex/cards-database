@@ -77,7 +77,12 @@ const card: Card = {
 			pt: "Compre 3 cartas.",
 			it: "Pesca tre carte."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 582954,
+		tcgplayer: 253270
+	}
 }
 
 export default card

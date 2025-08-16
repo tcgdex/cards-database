@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [609],
+
 	name: {
 		en: "Chandelure",
 		fr: "Lugulabre",
@@ -98,6 +99,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon haunts dilapidated mansions. It sways its arms to hypnotize opponents with the ominous dancing of its flames."
+	},
+
+	thirdParty: {
+		cardmarket: 457623,
+		tcgplayer: 213109
 	}
 }
 

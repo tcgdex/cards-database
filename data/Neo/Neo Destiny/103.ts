@@ -16,6 +16,11 @@ const card: Card = {
 	effect: {
 		fr: "Regardez la main de votre adversaire et choisissez-y une carte. Votre adversaire mélange cette carte à son deck. Il peut ensuite piocher jusqu'à 2 cartes.",
 		de: "Schaue dir die Karte auf der Hand deines Gegners an und wähle eine Karte davon. Dein Gegner mischt diese Karte in sein Deck. Dann darf er bis zu zwei Karten ziehen."
+	},
+
+	thirdParty: {
+		cardmarket: 274755,
+		tcgplayer: 89850
 	}
 }
 

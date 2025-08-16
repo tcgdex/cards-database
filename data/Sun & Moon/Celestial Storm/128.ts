@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Sistema de Reciclagem de Energias",
 		de: "Energie-Wiederverwertung"
 	},
+
 	illustrator: "Zu-Ka",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez l’une de ces options :\n\n• Ajoutez une carte Énergie de base de votre pile de défausse à votre main.\n• Mélangez 3 cartes Énergie de base de votre pile de défausse avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Escolha 1:\n\n• Coloque 1 carta de Energia básica da sua pilha de descarte na sua mão.\n• Embaralhe 3 cartas de Energia básica da sua pilha de descarte no seu baralho.",
 		de: "Wähle 1 aus:\n\n•Nimm 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand.\n•Mische 3 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 361366,
+		tcgplayer: 170989
+	}
 }
 
 export default card

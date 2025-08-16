@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Toxapex GX",
 		de: "Aggrostella GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		748,
 	],
+
 	hp: 210,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Mareanie",
 		fr: "Vorastérie",
@@ -103,6 +107,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -112,8 +117,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 297519,
+		tcgplayer: 130964
+	}
 }
 
 export default card

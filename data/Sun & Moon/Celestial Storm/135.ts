@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Poção de Última Hora",
 		de: "Letzte-Chance-Trank"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez 120 dégâts à l’un de vos Pokémon auquel il reste 30 PV ou moins.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cure 120 pontos de dano de 1 dos seus Pokémon que tiver PS restante de 30 ou menos.",
 		de: "Heile 120 Schadenspunkte bei 1 deiner Pokémon, dessen verbleibende KP 30 oder weniger betragen."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 361373,
+		tcgplayer: 170996
+	}
 }
 
 export default card

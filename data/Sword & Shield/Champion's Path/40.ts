@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [510],
+
 	name: {
 		en: "Liepard",
 		fr: "Léopardus",
@@ -91,6 +92,11 @@ const card: Card = {
 
 	description: {
 		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 500055,
+		tcgplayer: 223040
 	}
 }
 

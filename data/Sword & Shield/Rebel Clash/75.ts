@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [36],
+
 	name: {
 		en: "Clefable",
 		fr: "Mélodelfe",
@@ -91,6 +92,11 @@ const card: Card = {
 
 	description: {
 		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people."
+	},
+
+	thirdParty: {
+		cardmarket: 457793,
+		tcgplayer: 213161
 	}
 }
 

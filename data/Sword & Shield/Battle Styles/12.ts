@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "The beaks of birds can't begin to scratch its stalwart body. To defend itself, it spews powder."
+	},
+
+	thirdParty: {
+		cardmarket: 544956,
+		tcgplayer: 234068
 	}
 }
 

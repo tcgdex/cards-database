@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Démolosse de Team Magma",
 		de: "Team Magmas Hundemon"
 	},
+
 	illustrator: "Ken Ikuji",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		229,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -62,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -69,10 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275987,
+		tcgplayer: 89829
+	}
 }
 
 export default card

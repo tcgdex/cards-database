@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Porygon",
 		de: "Porygon"
 	},
+
 	illustrator: "Tomoaki Imakuni",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		137,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -66,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276223,
+		tcgplayer: 88308
+	}
 }
 
 export default card

@@ -87,6 +87,11 @@ const card: Card = {
 
 	description: {
 		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move."
+	},
+
+	thirdParty: {
+		cardmarket: 545401,
+		tcgplayer: 234230
 	}
 }
 

@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Shuckle GX",
 		de: "Pottrott GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		213,
 	],
+
 	hp: 170,
+
 	types: [
 		"Grass",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -93,6 +97,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -102,8 +107,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365610,
+		tcgplayer: 178814
+	}
 }
 
 export default card

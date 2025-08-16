@@ -22,6 +22,11 @@ const ex5: Set = {
 	abbreviations: {
 		official: "HL",
 		fr: "LOU"
+	},
+
+	thirdParty: {
+		cardmarket: 1543,
+		tcgplayer: 1416
 	}
 }
 

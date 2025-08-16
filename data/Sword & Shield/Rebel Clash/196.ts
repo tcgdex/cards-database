@@ -67,7 +67,12 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+
+	thirdParty: {
+		cardmarket: 456478,
+		tcgplayer: 213157
+	}
 }
 
 export default card

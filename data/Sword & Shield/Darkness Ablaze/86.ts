@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [246],
+
 	name: {
 		en: "Larvitar",
 		fr: "Embrylex",
@@ -79,6 +80,11 @@ const card: Card = {
 
 	description: {
 		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil."
+	},
+
+	thirdParty: {
+		cardmarket: 483309,
+		tcgplayer: 219474
 	}
 }
 

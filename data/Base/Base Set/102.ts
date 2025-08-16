@@ -7,25 +7,18 @@ const card: Card = {
 		fr: "Énergie Eau",
 		de: "Wasserenergie"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 273797,
+		tcgplayer: 42350
+	}
 }
 
 export default card

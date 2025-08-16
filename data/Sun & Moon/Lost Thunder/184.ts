@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Mistura de Ervas",
 		de: "Kräutermischung"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous pouvez jouer 2 cartes Mélange d’Herbes à la fois.\n\n• Si vous avez joué une carte, retirez un État Spécial de votre Pokémon Actif.\n• Si vous avez joué 2 cartes, soignez 90 dégâts et retirez tous les États Spéciaux de votre Pokémon Actif. (Cet effet agit une fois pour 2 cartes.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você pode jogar 2 cartas Mistura de Ervas de uma vez.\n\n• Se você jogou 1 carta, remova 1 Condição Especial do seu Pokémon Ativo.\n• Se você jogou 2 cartas, cure 90 pontos de dano e remova todas as Condições Especiais do seu Pokémon Ativo (este efeito funciona uma vez para 2 cartas).",
 		de: "Du kannst 2 Kräutermischung-Karten gleichzeitig spielen.\n\n• Wenn du 1 Karte gespielt hast, entferne 1 Speziellen Zustand von deinem Aktiven Pokémon.\n• Wenn du 2 Karten gespielt hast, heile 90 Schadenspunkte und entferne alle Speziellen Zustände von deinem Aktiven Pokémon. (Dieser Effekt funktioniert einmal für 2 Karten.)"
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 365818,
+		tcgplayer: 179017
+	}
 }
 
 export default card

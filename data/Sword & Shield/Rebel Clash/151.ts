@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		en: "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
+	},
+
+	thirdParty: {
+		cardmarket: 458153,
+		tcgplayer: 213251
 	}
 }
 

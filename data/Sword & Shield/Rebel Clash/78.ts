@@ -72,6 +72,11 @@ const card: Card = {
 
 	description: {
 		en: "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it."
+	},
+
+	thirdParty: {
+		cardmarket: 457808,
+		tcgplayer: 213164
 	}
 }
 

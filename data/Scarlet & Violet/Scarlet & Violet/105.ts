@@ -71,6 +71,10 @@ const card: Card = {
 
 	variants: {
 		holo: false
+	},
+
+	thirdParty: {
+		cardmarket: 701132
 	}
 }
 

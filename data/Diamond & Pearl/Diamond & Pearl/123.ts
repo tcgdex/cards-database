@@ -7,25 +7,18 @@ const card: Card = {
 		fr: "Énergie Plante",
 		de: "Pflanzenenergie"
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 277622,
+		tcgplayer: 85878
+	}
 }
 
 export default card

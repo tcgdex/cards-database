@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Hypno",
 		de: "Hypno"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		97,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Drowzee",
 		fr: "Soporifik",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Drowzee",
 		de: "Traumato"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281700,
+		tcgplayer: 92211
+	}
 }
 
 export default card

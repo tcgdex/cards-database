@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Rhinocorne de Team Magma",
 		de: "Team Magmas Rihorn"
 	},
+
 	illustrator: "Mt. TBT",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		111,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -67,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276015,
+		tcgplayer: 89842
+	}
 }
 
 export default card

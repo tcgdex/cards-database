@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit au bord de l'eau. Sa queue lui donne l'apparence d'une sirène."
+	},
+
+	thirdParty: {
+		cardmarket: 273809,
+		tcgplayer: 106990
 	}
 }
 

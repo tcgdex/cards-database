@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "It can race around like a unicycle, even on rough, rocky terrain. Burning coal sustains it."
+	},
+
+	thirdParty: {
+		cardmarket: 545501,
+		tcgplayer: 234254
 	}
 }
 

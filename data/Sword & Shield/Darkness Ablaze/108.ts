@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [633],
+
 	name: {
 		en: "Deino",
 		fr: "Solochi",
@@ -62,6 +63,11 @@ const card: Card = {
 
 	description: {
 		en: "When it encounters something, its first urge is usually to bite it. If it likes what it tastes, it will commit the associated scent to memory."
+	},
+
+	thirdParty: {
+		cardmarket: 483419,
+		tcgplayer: 219420
 	}
 }
 

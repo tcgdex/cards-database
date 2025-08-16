@@ -5,13 +5,17 @@ const card: Card = {
 	name: {
 		en: "Lightning Energy",
 	},
+
 	illustrator: "",
 	rarity: "None",
 	category: "Energy",
-
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
+
+	thirdParty: {
+		tcgplayer: 86760
+	}
 }
 
 export default card

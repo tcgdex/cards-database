@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Esquema do Giovanni",
 		de: "Giovannis Intrige"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez l'une de ces options : \n\n•Piochez des cartes jusqu'à ce que vous ayez 5 cartes en main.\n•Pendant ce tour, les attaques de votre Pokémon infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Escolha 1: •Compre cards até ter 5 cards em sua mão.•Durante esta vez de jogar, os ataques dos seus Pokémon causam 20 de danos adicionais ao Pokémon Ativo do seu oponente (antes da aplicação de Fraqueza e Resistência).",
 		de: "Wähle 1 aus: • Ziehe so lang Karten, bis du 5 Karten auf der Hand hast.• Während dieses Zuges fügen die Angriffe deiner Pokémon dem Aktiven Pokémon deines Gegners 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 286384,
+		tcgplayer: 107257
+	}
 }
 
 export default card

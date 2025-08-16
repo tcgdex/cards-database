@@ -73,7 +73,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Kyoko Umemoto"
+	illustrator: "Kyoko Umemoto",
+
+	thirdParty: {
+		cardmarket: 740667
+	}
 }
 
 export default card

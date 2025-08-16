@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pegador Gigante",
 		de: "Superfänger"
 	},
+
 	illustrator: "Studio Bora Inc.",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si vous défaussez 2 autres cartes de votre main.\n\nÉchangez l’un des Pokémon-GX ou Pokémon-EX de Banc de votre adversaire avec son Pokémon Actif.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se descartar outras 2 cartas da sua mão.\n\nTroque 1 dos Pokémon-GX ou Pokémon-EX no Banco do seu oponente pelo Pokémon Ativo dele(a).",
 		de: "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\n\nTausche 1 Pokémon-GX oder Pokémon-EX auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 408574,
+		tcgplayer: 201627
+	}
 }
 
 export default card

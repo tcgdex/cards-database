@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [353],
+
 	name: {
 		en: "Shuppet",
 		fr: "Polichombr",
@@ -75,6 +76,11 @@ const card: Card = {
 
 	description: {
 		en: "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
+	},
+
+	thirdParty: {
+		cardmarket: 511755,
+		tcgplayer: 226471
 	}
 }
 

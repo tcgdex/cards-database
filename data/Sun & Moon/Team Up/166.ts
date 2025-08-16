@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Hoopa GX",
 		de: "Hoopa GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		720,
 	],
+
 	hp: 190,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "GX",
 
@@ -99,22 +101,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 369026,
+		tcgplayer: 183875
+	}
 }
 
 export default card

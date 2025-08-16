@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Litleo",
 		de: "Leufeo"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		667,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -81,8 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 365690,
+		tcgplayer: 178855
+	}
 }
 
 export default card

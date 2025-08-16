@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		fr: "Une fois son adversaire mordu, il absorbera son énergie même s'il devient trop gros pour voler."
+	},
+
+	thirdParty: {
+		cardmarket: 273895,
+		tcgplayer: 44436
 	}
 }
 

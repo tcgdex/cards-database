@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Whirlipede",
 		de: "Rollum"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		544,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Venipede",
 		fr: "Venipatte",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Venipede",
 		de: "Toxiped"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -68,8 +73,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281389,
+		tcgplayer: 90573
+	}
 }
 
 export default card

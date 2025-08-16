@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Dugtrio de Alola",
 		de: "Alola-Digdri"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		51,
 	],
+
 	hp: 60,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Alolan Diglett",
 		fr: "Taupiqueur d’Alola",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,22 +56,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 316006,
+		tcgplayer: 157696
+	}
 }
 
 export default card

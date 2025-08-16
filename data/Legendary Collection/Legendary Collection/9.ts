@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Dark Vaporeon",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		134,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -53,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -60,10 +65,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274774,
+		tcgplayer: 84664
+	}
 }
 
 export default card

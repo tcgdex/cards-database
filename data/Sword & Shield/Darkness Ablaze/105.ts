@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [491],
+
 	name: {
 		en: "Darkrai",
 		fr: "Darkrai",
@@ -93,6 +94,11 @@ const card: Card = {
 
 	description: {
 		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon."
+	},
+
+	thirdParty: {
+		cardmarket: 483404,
+		tcgplayer: 219409
 	}
 }
 

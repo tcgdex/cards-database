@@ -50,6 +50,11 @@ const card: Card = {
 
 	description: {
 		fr: "Longtemps considéré comme légendaire, une colonie fut découverte dans les océans."
+	},
+
+	thirdParty: {
+		cardmarket: 273721,
+		tcgplayer: 42367
 	}
 }
 

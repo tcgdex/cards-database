@@ -7,21 +7,25 @@ const card: Card = {
 		fr: "Archéodong ",
 		de: "Bronzong G"
 	},
+
 	illustrator: "Makoto Imai",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		437,
 	],
+
 	hp: 90,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
 	suffix: "SP",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -37,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,22 +63,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fire",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		tcgplayer: 84000
+	}
 }
 
 export default card

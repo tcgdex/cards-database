@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [663],
+
 	name: {
 		en: "Talonflame",
 		fr: "Flambusard",
@@ -109,6 +110,11 @@ const card: Card = {
 
 	description: {
 		en: "Bird Pokémon make up most of its diet. It approaches at high speeds and smacks them down to the ground with its powerful kick."
+	},
+
+	thirdParty: {
+		cardmarket: 483034,
+		tcgplayer: 219246
 	}
 }
 

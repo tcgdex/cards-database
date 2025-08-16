@@ -71,7 +71,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Takeshi Nakamura"
+	illustrator: "Takeshi Nakamura",
+
+	thirdParty: {
+		cardmarket: 733723
+	}
 }
 
 export default card

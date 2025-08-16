@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [639],
+
 	name: {
 		en: "Terrakion",
 		fr: "Terrakium",
@@ -95,6 +96,11 @@ const card: Card = {
 
 	description: {
 		en: "It has phenomenal power. It will mercilessly crush anyone or anything that bullies small Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 511880,
+		tcgplayer: 226531
 	}
 }
 

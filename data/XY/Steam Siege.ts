@@ -25,6 +25,11 @@ const xy11: Set = {
 	abbreviations: {
 		official: "STS",
 		fr: "OFV"
+	},
+
+	thirdParty: {
+		cardmarket: 1716,
+		tcgplayer: 1815
 	}
 }
 

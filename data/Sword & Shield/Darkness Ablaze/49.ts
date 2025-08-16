@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [614],
+
 	name: {
 		en: "Beartic",
 		fr: "Polagriffe",
@@ -97,6 +98,11 @@ const card: Card = {
 
 	description: {
 		en: "It swims through frigid seas, searching for prey. From its frozen breath, it forms icy fangs that are harder than steel."
+	},
+
+	thirdParty: {
+		cardmarket: 483119,
+		tcgplayer: 219361
 	}
 }
 

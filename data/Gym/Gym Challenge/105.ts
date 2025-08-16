@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Giovanni's Last Resort",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274373,
+		tcgplayer: 85711
+	}
 }
 
 export default card

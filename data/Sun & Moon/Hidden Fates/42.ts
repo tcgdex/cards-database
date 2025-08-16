@@ -6,18 +6,22 @@ const card: Card = {
 		en: "Wigglytuff GX",
 		fr: "Grodoudou-GX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		40,
 	],
+
 	hp: 210,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
@@ -61,22 +65,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 396632,
+		tcgplayer: 197686
+	}
 }
 
 export default card

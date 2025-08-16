@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [248],
+
 	name: {
 		en: "Tyranitar",
 		fr: "Tyranocif",
@@ -106,6 +107,11 @@ const card: Card = {
 
 	description: {
 		en: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies."
+	},
+
+	thirdParty: {
+		cardmarket: 483319,
+		tcgplayer: 219477
 	}
 }
 

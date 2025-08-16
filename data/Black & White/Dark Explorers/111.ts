@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Lancia una moneta. Se esce testa, scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 		pt: "Jogue uma moeda. Se sair cara, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo desse oponente.",
 		de: "Wirf 1 Münze. Bei „Kopf“ kannst du 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon austauschen."
+	},
+
+	thirdParty: {
+		cardmarket: 280439
 	}
 }
 

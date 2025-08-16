@@ -54,6 +54,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son corps gazeux lui permet de se faufiler là où il veut, mais il le rend aussi vulnérable aux rafales de vent."
+	},
+
+	thirdParty: {
+		cardmarket: 274717,
+		tcgplayer: 85647
 	}
 }
 

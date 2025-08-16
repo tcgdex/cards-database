@@ -86,7 +86,12 @@ const card: Card = {
 		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
 	},
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	thirdParty: {
+		cardmarket: 567332,
+		tcgplayer: 241875
+	}
 }
 
 export default card

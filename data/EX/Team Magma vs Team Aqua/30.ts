@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Grahyena de Team Aqua",
 		de: "Team Aquas Magnayen"
 	},
+
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		262,
 	],
+
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -55,12 +57,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -68,9 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275992,
+		tcgplayer: 89793
+	}
 }
 
 export default card

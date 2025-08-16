@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Latias e Latios GX",
 		de: "Latias & Latios GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		380,
 	],
+
 	hp: 250,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -76,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -85,8 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 367300,
+		tcgplayer: 183898
+	}
 }
 
 export default card

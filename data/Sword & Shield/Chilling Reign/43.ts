@@ -84,6 +84,11 @@ const card: Card = {
 
 	description: {
 		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3."
+	},
+
+	thirdParty: {
+		cardmarket: 567123,
+		tcgplayer: 241696
 	}
 }
 

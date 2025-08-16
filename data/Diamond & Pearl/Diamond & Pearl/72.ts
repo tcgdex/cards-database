@@ -56,6 +56,11 @@ const card: Card = {
 
 	description: {
 		fr: "Sa bouée est pareille à un collier gonflable. Quand il flotte, il garde la tête à l'air libre."
+	},
+
+	thirdParty: {
+		cardmarket: 277571,
+		tcgplayer: 84015
 	}
 }
 

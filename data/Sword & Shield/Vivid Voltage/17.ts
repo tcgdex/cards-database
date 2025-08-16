@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [672],
+
 	name: {
 		en: "Skiddo",
 		fr: "Cabriolaine",
@@ -86,6 +87,11 @@ const card: Card = {
 
 	description: {
 		en: "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back."
+	},
+
+	thirdParty: {
+		cardmarket: 511505,
+		tcgplayer: 226381
 	}
 }
 

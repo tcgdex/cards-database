@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [143],
+
 	name: {
 		en: "Snorlax",
 		fr: "Ronflex",
@@ -90,6 +91,11 @@ const card: Card = {
 
 	description: {
 		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
+	},
+
+	thirdParty: {
+		cardmarket: 458093,
+		tcgplayer: 213241
 	}
 }
 

@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon agressif qui s'attaque à tout ce qu'il voit."
+	},
+
+	thirdParty: {
+		cardmarket: 274056,
+		tcgplayer: 84570
 	}
 }
 

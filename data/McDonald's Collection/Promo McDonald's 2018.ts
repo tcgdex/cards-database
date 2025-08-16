@@ -15,7 +15,11 @@ const set: Set = {
 		official: 40
 	},
 
-	releaseDate: "2018-06-13"
+	releaseDate: "2018-06-13",
+
+	thirdParty: {
+		cardmarket: 2361
+	}
 }
 
 export default set

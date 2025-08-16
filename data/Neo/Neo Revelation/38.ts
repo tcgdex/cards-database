@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		fr: "Quiconque fixe ses bois perd peu à peu le contrôle de ses sens et finit par ne plus pouvoir tenir debout."
+	},
+
+	thirdParty: {
+		cardmarket: 274624,
+		tcgplayer: 89500
 	}
 }
 

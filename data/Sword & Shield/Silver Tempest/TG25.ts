@@ -26,11 +26,16 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
+
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 682289
 	}
 }
 

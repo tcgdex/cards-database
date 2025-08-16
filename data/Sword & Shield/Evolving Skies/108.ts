@@ -66,7 +66,12 @@ const card: Card = {
 		en: "Shelgon lives deep within caves. It stays shut up in its hard shell, dreaming of the day it will be able to fly."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574156,
+		tcgplayer: 246908
+	}
 }
 
 export default card

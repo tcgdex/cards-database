@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il vie dans des caves sombres. On l'aperçoit la nuit, lorsqu'il vole à la recherche de nourriture."
+	},
+
+	thirdParty: {
+		cardmarket: 274123,
+		tcgplayer: 90767
 	}
 }
 

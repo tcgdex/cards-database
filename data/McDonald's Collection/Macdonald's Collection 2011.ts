@@ -23,6 +23,9 @@ const s2011bw: Set = {
 	abbreviations: {
 		official: "MCD11",
 		fr: "M12"
+	},
+	thirdParty: {
+		tcgplayer: 1401
 	}
 }
 

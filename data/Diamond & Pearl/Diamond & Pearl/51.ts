@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit dans des endroits arides. Il exsude du sable granuleux au lieu de transpirer."
+	},
+
+	thirdParty: {
+		cardmarket: 277550,
+		tcgplayer: 86078
 	}
 }
 

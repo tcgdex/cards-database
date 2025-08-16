@@ -93,7 +93,12 @@ const card: Card = {
 		en: "It begins to hoot at the same time every day. Some Trainers use them in place of clocks."
 	},
 
-	dexId: [163]
+	dexId: [163],
+
+	thirdParty: {
+		cardmarket: 436809,
+		tcgplayer: 208461
+	}
 }
 
 export default card

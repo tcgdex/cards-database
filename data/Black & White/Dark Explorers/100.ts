@@ -24,6 +24,11 @@ const card: Card = {
 		it: "Scegli uno dei tuoi Pokémon Base in gioco. Se hai in mano una carta di Fase 2 che si evolve da quel Pokémon, metticela sopra (quest’azione vale come evoluzione di quel Pokémon). Non puoi usare questa carta durante il tuo primo turno o su un Pokémon Base che hai messo in gioco nel turno in corso.",
 		pt: "Escolha 1 de seus Pokémon Básicos em jogo. Se você possui um card de Estágio 2 em sua mão que evolui desse Pokémon, coloque esse card no Pokémon Básico. (Isso conta como evoluir esse Pokémon.) Você não pode usar esse card em sua primeira vez de jogar ou para um Pokémon Básico que foi colocado em jogo nessa vez.",
 		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Wenn du eine Phase-2-Karte auf der Hand hast, die sich aus diesem Pokémon entwickelt, lege sie auf das Basis-Pokémon. (Das zählt als Entwickeln des gewählten Pokémon.) Du kannst diese Karte nicht während deines ersten Zuges oder für ein Basis-Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden."
+	},
+
+	thirdParty: {
+		cardmarket: 280428,
+		tcgplayer: 88596
 	}
 }
 

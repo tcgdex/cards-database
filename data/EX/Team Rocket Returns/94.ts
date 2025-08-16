@@ -15,6 +15,11 @@ const card: Card = {
 
 	effect: {
 		de: "Lege die Dunkle Metall Energie an eins deiner Pokémon an. Die Dunkle Metall Energie liefert 1 Energie und 1 Energie, solange sie im Spiel ist, liefert aber nur eine Energie auf einmal. (Zählt nicht als Basisenergiekarte und hat außerhalb des Spiels keinen anderen Effekt, als Energie zu liefern.)"
+	},
+
+	thirdParty: {
+		cardmarket: 276386,
+		tcgplayer: 84628
 	}
 }
 

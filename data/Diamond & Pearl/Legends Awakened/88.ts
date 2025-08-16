@@ -70,6 +70,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il envoie des décharges électriques positives et négatives du bout des antennes pour paralyser sa proie."
+	},
+
+	thirdParty: {
+		cardmarket: 278236,
+		tcgplayer: 84309
 	}
 }
 

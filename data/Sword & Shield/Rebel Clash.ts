@@ -25,6 +25,11 @@ const swsh2: Set = {
 	abbreviations: {
 		official: "RCL",
 		fr: "CDR"
+	},
+
+	thirdParty: {
+		cardmarket: 3143,
+		tcgplayer: 2626
 	}
 }
 

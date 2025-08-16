@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "When it gets wet, its skin changes color, and this Pokémon becomes invisible as if it were camouflaged."
+	},
+
+	thirdParty: {
+		cardmarket: 567121,
+		tcgplayer: 241694
 	}
 }
 

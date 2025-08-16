@@ -24,7 +24,11 @@ const card: Card = {
 		en: "Fennekin"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275059
+	}
 }
 
 export default card

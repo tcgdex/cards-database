@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Dragalge",
 		de: "Tandrak"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		691,
 	],
+
 	hp: 110,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Skrelp",
 		fr: "Venalgue",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Skrelp",
 		de: "Algitt"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 288261,
+		tcgplayer: 111621
+	}
 }
 
 export default card

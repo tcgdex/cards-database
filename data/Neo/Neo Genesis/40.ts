@@ -66,6 +66,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il n'aime pas les endroits froids, il souffle donc des flammes ardentes pour rendre l'atmosphère plus agréable à son goût."
+	},
+
+	thirdParty: {
+		cardmarket: 274440,
+		tcgplayer: 87042
 	}
 }
 

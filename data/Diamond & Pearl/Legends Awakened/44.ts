@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "Sa bouche sécrète un fluide à l'odeur du miel, qui s'avère être un acide extrêmement corrosif."
+	},
+
+	thirdParty: {
+		cardmarket: 278193,
+		tcgplayer: 90364
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [580],
+
 	name: {
 		en: "Ducklett",
 		fr: "Couaneton",
@@ -69,6 +70,11 @@ const card: Card = {
 
 	description: {
 		en: "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater."
+	},
+
+	thirdParty: {
+		cardmarket: 483619,
+		tcgplayer: 219357
 	}
 }
 

@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Togedemaru",
 		de: "Togedemaru"
 	},
+
 	illustrator: "sowsow",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		777,
 	],
+
 	hp: 80,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -72,22 +74,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 408014,
+		tcgplayer: 201247
+	}
 }
 
 export default card

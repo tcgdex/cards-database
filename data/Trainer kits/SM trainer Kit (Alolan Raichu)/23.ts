@@ -25,7 +25,11 @@ const card: Card = {
 		de: "Ziehe 3 Karten."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	thirdParty: {
+		tcgplayer: 152841
+	}
 }
 
 export default card

@@ -102,7 +102,12 @@ const card: Card = {
 		en: "It emits psychic energy to observe and study what's around it—and what's around it can include things over six miles away."
 	},
 
-	dexId: [826]
+	dexId: [826],
+
+	thirdParty: {
+		cardmarket: 436264,
+		tcgplayer: 208298
+	}
 }
 
 export default card

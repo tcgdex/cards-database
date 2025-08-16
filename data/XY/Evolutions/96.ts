@@ -16,6 +16,10 @@ const card: Card = {
 	set: Set,
 	energyType: "Normal",
 
+	thirdParty: {
+		cardmarket: 293458,
+		tcgplayer: 124109
+	}
 }
 
 export default card

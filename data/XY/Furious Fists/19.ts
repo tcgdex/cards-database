@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Glaceon",
 		de: "Glaziola"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		471,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Eevee",
 		de: "Evoli"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -92,8 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281683,
+		tcgplayer: 92194
+	}
 }
 
 export default card

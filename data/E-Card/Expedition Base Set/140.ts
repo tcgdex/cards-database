@@ -16,6 +16,11 @@ const card: Card = {
 	effect: {
 		fr: "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée à l'un des Pokémon de votre adversaire et obligez-le à s'en défausser.",
 		de: "Wirf eine Münze. Wähle bei 'Kopf' 1 Energiekarte, die an ein Pokémon deines Gegners angelegt ist, und lege sie auf seinen Ablagestapel."
+	},
+
+	thirdParty: {
+		cardmarket: 275015,
+		tcgplayer: 85221
 	}
 }
 

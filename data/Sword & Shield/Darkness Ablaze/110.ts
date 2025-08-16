@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [635],
+
 	name: {
 		en: "Hydreigon",
 		fr: "Trioxhydre",
@@ -95,6 +96,11 @@ const card: Card = {
 
 	description: {
 		en: "There are a slew of stories about villages that were destroyed by Hydreigon. It bites anything that moves."
+	},
+
+	thirdParty: {
+		cardmarket: 483429,
+		tcgplayer: 219423
 	}
 }
 

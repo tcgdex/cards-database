@@ -25,6 +25,11 @@ const set: Set = {
 	abbreviations: {
 		official: "FST",
 		fr: "PDF"
+	},
+
+	thirdParty: {
+		cardmarket: 4382,
+		tcgplayer: 2906
 	}
 }
 
