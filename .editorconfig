@@ -6,6 +6,8 @@ indent_size = 4
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+ij_typescript_spaces_within_imports = true
+ij_typescript_spaces_within_object_literal_braces = true
 
 [*.{yaml|yml}]
 indent_style = space

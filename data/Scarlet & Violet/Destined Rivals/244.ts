@@ -30,10 +30,12 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "I",
 
-	variants: {
-		normal: false,
-		reverse: false
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold'
+		},
+	]
 }
 
 export default card
