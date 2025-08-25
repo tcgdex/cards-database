@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [630],
+
 	name: {
 		en: "Mandibuzz",
 		fr: "Vaututrice",
@@ -105,6 +106,11 @@ const card: Card = {
 
 	description: {
 		en: "Although it's a bit of a ruffian, this Pokémon will take lost Vullaby under its wing and care for them till they're ready to leave the nest."
+	},
+
+	thirdParty: {
+		cardmarket: 458008,
+		tcgplayer: 213214
 	}
 }
 

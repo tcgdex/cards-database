@@ -84,6 +84,11 @@ const card: Card = {
 
 	description: {
 		fr: "Des motifs en forme d'yeux ornent ses antennes. Ses 4 ailes l'aident à voler dans toutes les directions."
+	},
+
+	thirdParty: {
+		cardmarket: 277684,
+		tcgplayer: 87248
 	}
 }
 

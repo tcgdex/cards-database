@@ -92,6 +92,11 @@ const card: Card = {
 
 	description: {
 		en: "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors."
+	},
+
+	thirdParty: {
+		cardmarket: 567129,
+		tcgplayer: 241706
 	}
 }
 

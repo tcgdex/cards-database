@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Luxio",
 		de: "Luxio"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		404,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Shinx",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,22 +57,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278915,
+		tcgplayer: 86942
+	}
 }
 
 export default card

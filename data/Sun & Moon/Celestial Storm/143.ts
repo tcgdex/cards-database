@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Santuário da Punição",
 		de: "Schrein der Bestrafung"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Entre chaque tour, placez un marqueur de dégâts sur chaque Pokémon-GX et Pokémon-EX (les vôtres et ceux de votre adversaire).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Entre as vezes de jogar, coloque 1 contador de dano em cada Pokémon-GX e Pokémon-EX (seus e do seu oponente).",
 		de: "Lege zwischen den Zügen 1 Schadensmarke auf jedes Pokémon-GX und Pokémon-EX (deine und die deines Gegners)."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 361381,
+		tcgplayer: 171004
+	}
 }
 
 export default card

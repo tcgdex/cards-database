@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Chikorita",
 		fr: "Germignon",
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		152,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -60,8 +63,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 288510
+	}
 }
 
 export default card

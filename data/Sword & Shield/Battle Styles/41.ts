@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		en: "Legend has it that the residents of a sunken ancient city changed into these Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 545316,
+		tcgplayer: 234183
 	}
 }
 

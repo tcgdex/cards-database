@@ -7,18 +7,22 @@ const card: Card = {
 		fr: "Metalosse ex",
 		de: "Metagross ex"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		376,
 	],
+
 	hp: 150,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Metang",
 	},
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -75,6 +80,7 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
@@ -82,9 +88,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276169,
+		tcgplayer: 87346
+	}
 }
 
 export default card

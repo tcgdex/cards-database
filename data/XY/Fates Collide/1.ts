@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Shuckle",
 		de: "Pottrott"
 	},
+
 	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		213,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -74,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -83,8 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289827,
+		tcgplayer: 117764
+	}
 }
 
 export default card

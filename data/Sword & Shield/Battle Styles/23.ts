@@ -65,6 +65,11 @@ const card: Card = {
 
 	description: {
 		en: "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp."
+	},
+
+	thirdParty: {
+		cardmarket: 545021,
+		tcgplayer: 234124
 	}
 }
 

@@ -64,10 +64,27 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
-	variants: {
-		reverse: false,
-		normal: false
-	}
+	variants: [
+		{
+			type: 'reverse'
+		},
+		{
+			type: 'holo'
+		},
+		{
+			type: 'holo',
+			stamp: [
+				"set-logo"
+			]
+		},
+		{
+			type: 'holo',
+			stamp: [
+				"set-logo",
+				"staff"
+			]
+		}
+	]
 }
 
 export default card

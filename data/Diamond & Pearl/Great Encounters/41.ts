@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Hariyama",
 		de: "Hariyama"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		297,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Makuhita",
 		fr: "Makuhita",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -74,8 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 277943,
+		tcgplayer: 86014
+	}
 }
 
 export default card

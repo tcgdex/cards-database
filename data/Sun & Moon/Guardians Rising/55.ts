@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Oricorio",
 		de: "Choreogel"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		741,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -74,8 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 297478,
+		tcgplayer: 130961
+	}
 }
 
 export default card

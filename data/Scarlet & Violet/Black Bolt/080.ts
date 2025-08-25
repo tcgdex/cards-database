@@ -52,7 +52,11 @@ const card: Card = {
 	},
 
 	trainerType: "Item",
-	regulationMark: "H"
+	regulationMark: "H",
+
+	thirdParty: {
+		cardmarket: 836067
+	}
 }
 
 export default card

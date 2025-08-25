@@ -6,23 +6,27 @@ const card: Card = {
 		en: "Dewgong",
 		de: "Jugong"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		87,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Seel",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -67,10 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275248,
+		tcgplayer: 84786
+	}
 }
 
 export default card

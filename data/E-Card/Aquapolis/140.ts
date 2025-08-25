@@ -28,7 +28,12 @@ const card: Card = {
 		},
 
 		cost: ["Water"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 275216,
+		tcgplayer: 90500
+	}
 }
 
 export default card

@@ -7,18 +7,22 @@ const card: Card = {
 		fr: "Grolem ex",
 		de: "Geowaz ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		76,
 	],
+
 	hp: 160,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Graveler",
 	},
@@ -67,6 +71,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -78,10 +83,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 85831,
+		cardmarket: 275968
+	}
 }
 
 export default card

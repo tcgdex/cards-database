@@ -24,6 +24,11 @@ const swsh3: Set = {
 	abbreviations: {
 		official: "CRZ",
 		fr: "ZEN"
+	},
+
+	thirdParty: {
+		cardmarket: 5201,
+		tcgplayer: 17688
 	}
 }
 

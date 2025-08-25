@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pandam",
 		de: "Hala"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "Shuffle your hand into your deck. If you have used your GX attack, draw 7 cards. If not, draw 4 cards.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Embaralhe a sua mão no seu baralho. Se você usou o seu ataque GX, compre 7 cartas. Caso contrário, compre 4 cartas.",
 		de: "Mische deine Handkarten in dein Deck. Wenn du deine GX-Attacke eingesetzt hast, ziehe 7 Karten. Wenn nicht, ziehe 4 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 296848,
+		tcgplayer: 131051
+	}
 }
 
 export default card

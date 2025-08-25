@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Buzzwole GX",
 		de: "Masskito GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		794,
 	],
+
 	hp: 190,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "GX",
 
@@ -101,6 +103,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -110,8 +113,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 301171,
+		tcgplayer: 149133
+	}
 }
 
 export default card

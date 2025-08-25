@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Voltorbe",
 		de: "Voltobal"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		100,
 	],
+
 	hp: 40,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -49,10 +52,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275137,
+		tcgplayer: 90412
+	}
 }
 
 export default card

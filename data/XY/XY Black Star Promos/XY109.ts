@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Gyarados",
 		fr: "Léviator",
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		130,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Magikarp",
 		fr: "Magicarpe",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -62,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -71,8 +76,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 289556
+	}
 }
 
 export default card

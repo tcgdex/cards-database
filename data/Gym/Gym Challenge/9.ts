@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Koga's Beedrill",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		15,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Kakuna",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -53,12 +57,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -66,9 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274277,
+		tcgplayer: 86505
+	}
 }
 
 export default card

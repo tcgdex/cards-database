@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Inkay",
 		de: "Iscalar"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		686,
 	],
+
 	hp: 50,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,22 +70,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281411,
+		tcgplayer: 86284
+	}
 }
 
 export default card

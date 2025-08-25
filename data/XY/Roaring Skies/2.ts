@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Exeggutor",
 		de: "Kokowei"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		103,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Exeggcute",
 		de: "Owei"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -85,8 +90,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 282670,
+		tcgplayer: 98038
+	}
 }
 
 export default card

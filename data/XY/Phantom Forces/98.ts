@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Rede de Interferência – Hiperequipamento da Equipe Flare",
 		de: "Störnetz Team Flare-Superzubehör"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les attaques du Pokémon auquel cette carte est attachée infligent 20 dégâts de moins à tous les Pokémon Défenseurs (avant application de la Faiblesse et de la Résistance). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)\n\nLorsque cette carte est retirée d'un Pokémon pour quelque raison que ce soit, placez cette carte dans la pile de défausse de son propriétaire.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Os ataques do Pokémon ao qual este card está ligado causam 20 de danos a menos a todos os Pokémon de seu oponente (antes da aplicação de Fraqueza e Resistência). (Não aplique Fraqueza e Resistência a Pokémon no Banco.)\n\nQuando esse card for removido de um Pokémon por um motivo qualquer, coloque-o na pilha de descarte do seu dono.",
 		de: "Die Angriffe des Pokémon, an das diese Karte angelegt ist, fügen allen Verteidigenden Pokémon 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)\n\nLege diese Karte auf den Ablagestapel des Besitzers, wenn diese Karte aus irgendeinem Grund von einem Pokémon entfernt wird."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 281905
+	}
 }
 
 export default card

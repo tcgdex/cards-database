@@ -92,6 +92,11 @@ const card: Card = {
 
 	description: {
 		en: "The blood vessels in its brain are sturdier than those of other Pokémon, so it can stay healthy despite its constant raging."
+	},
+
+	thirdParty: {
+		cardmarket: 545451,
+		tcgplayer: 234243
 	}
 }
 

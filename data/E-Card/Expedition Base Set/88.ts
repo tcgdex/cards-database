@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Roucoups",
 		de: "Tauboga"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		17,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Pidgey",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -45,12 +49,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -58,9 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274963,
+		tcgplayer: 88039
+	}
 }
 
 export default card

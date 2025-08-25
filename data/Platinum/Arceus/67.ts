@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Kabuto",
 		de: "Kabuto"
 	},
+
 	illustrator: "Hironobu Yoshida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		140,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Dome Fossil",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -62,8 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278876,
+		tcgplayer: 86387
+	}
 }
 
 export default card

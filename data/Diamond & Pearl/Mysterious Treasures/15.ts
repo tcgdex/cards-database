@@ -80,6 +80,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il devient agressif lorsque son corps contient trop d'électricité. Il la décharge par sa queue."
+	},
+
+	thirdParty: {
+		cardmarket: 277644,
+		tcgplayer: 88510
 	}
 }
 

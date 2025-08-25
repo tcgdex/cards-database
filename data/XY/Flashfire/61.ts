@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Durant",
 		de: "Fermicula"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		632,
 	],
+
 	hp: 70,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -74,22 +76,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281544,
+		tcgplayer: 91198
+	}
 }
 
 export default card

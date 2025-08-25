@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import {Card} from "../../../interfaces"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -48,9 +48,25 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
-	variants: {
-		holo: false
-	}
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+		{
+			type: 'holo',
+		},
+		{
+			type: 'holo',
+			stamp: ["set-logo"]
+		},
+		{
+			type: 'holo',
+			stamp: ["set-logo", "staff"]
+		},
+	]
 }
 
 export default card

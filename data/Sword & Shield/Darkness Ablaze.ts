@@ -25,6 +25,11 @@ const swsh3: Set = {
 	abbreviations: {
 		official: "DAA",
 		fr: "TEM"
+	},
+
+	thirdParty: {
+		cardmarket: 3199,
+		tcgplayer: 2675
 	}
 }
 

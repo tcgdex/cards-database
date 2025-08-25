@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Mimikyu GX",
 		de: "Mimigma GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		778,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fairy",
 	],
-
 
 	suffix: "GX",
 
@@ -97,11 +99,12 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365786,
+		tcgplayer: 178968
+	}
 }
 
 export default card

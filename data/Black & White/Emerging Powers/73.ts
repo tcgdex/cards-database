@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Ferrothorn",
 		de: "Tentantel"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		598,
 	],
+
 	hp: 90,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Ferroseed",
 		fr: "Grindur",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,22 +64,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 280037,
+		tcgplayer: 85429
+	}
 }
 
 export default card

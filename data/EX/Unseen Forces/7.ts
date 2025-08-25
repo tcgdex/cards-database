@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Demolosse",
 		de: "Hundemon"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		229,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Houndour",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -78,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -85,10 +92,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276653,
+		tcgplayer: 86206
+	}
 }
 
 export default card

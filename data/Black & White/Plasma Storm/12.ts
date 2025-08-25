@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Foongus",
 		de: "Tarnpignon"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		590,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,22 +44,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280752,
+		tcgplayer: 85540
+	}
 }
 
 export default card

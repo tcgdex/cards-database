@@ -51,7 +51,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Shimaris Yukichi"
+	illustrator: "Shimaris Yukichi",
+
+	thirdParty: {
+		cardmarket: 769243
+	}
 }
 
 export default card

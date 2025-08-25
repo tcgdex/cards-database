@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Fletchling",
 		de: "Dartiri"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		661,
 	],
+
 	hp: 40,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,22 +53,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 282750,
+		tcgplayer: 98118
+	}
 }
 
 export default card

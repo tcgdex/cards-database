@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Pawniard",
 		de: "Gladiantri"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		624,
 	],
+
 	hp: 60,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,22 +63,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281285,
+		tcgplayer: 87973
+	}
 }
 
 export default card

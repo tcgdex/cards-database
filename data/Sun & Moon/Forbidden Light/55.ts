@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Poipole",
 		de: "Venicro"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		803,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -73,6 +75,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -82,8 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 355574,
+		tcgplayer: 165705
+	}
 }
 
 export default card

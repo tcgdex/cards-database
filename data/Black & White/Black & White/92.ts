@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Recuperação de Energia",
 		de: "Energie-Rückgewinnung"
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Prenez 2 cartes Énergie de base dans votre pile de défausse et ajoutez-les à votre main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Coloque 2 cards de Energia básica da sua pilha de descarte em sua mão.",
 		de: "Nimm 2 Basis-Energiekarten von deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 279830,
+		tcgplayer: 85230
+	}
 }
 
 export default card

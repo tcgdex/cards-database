@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Lapras GX",
 		de: "Lapras GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		131,
 	],
+
 	hp: 190,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "GX",
 
@@ -100,6 +102,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -109,8 +112,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 295345,
+		tcgplayer: 127011
+	}
 }
 
 export default card

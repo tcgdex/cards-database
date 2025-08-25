@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Klink",
 		de: "Klikk"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		599,
 	],
+
 	hp: 60,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -57,22 +59,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280039,
+		tcgplayer: 86481
+	}
 }
 
 export default card

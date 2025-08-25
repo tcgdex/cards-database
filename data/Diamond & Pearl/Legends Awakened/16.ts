@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon composé de 108 esprits. Il provient d'une fissure dans une clé de voûte étrange."
+	},
+
+	thirdParty: {
+		cardmarket: 278165,
+		tcgplayer: 89465
 	}
 }
 

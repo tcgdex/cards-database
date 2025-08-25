@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Rayquaza",
 		de: "Rayquaza"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		384,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,22 +47,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 279635,
+		tcgplayer: 88628
+	}
 }
 
 export default card

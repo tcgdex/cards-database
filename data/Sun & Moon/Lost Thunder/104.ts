@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Meloetta",
 		de: "Meloetta"
 	},
+
 	illustrator: "nagimiso",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		648,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -74,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -83,8 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365741,
+		tcgplayer: 178917
+	}
 }
 
 export default card

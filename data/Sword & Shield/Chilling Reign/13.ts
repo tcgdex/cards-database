@@ -53,6 +53,11 @@ const card: Card = {
 
 	description: {
 		en: "When under attack, it secretes a sweet and delicious sweat. The scent only calls more enemies to it."
+	},
+
+	thirdParty: {
+		cardmarket: 567093,
+		tcgplayer: 241662
 	}
 }
 

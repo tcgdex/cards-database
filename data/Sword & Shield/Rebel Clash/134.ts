@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [680],
+
 	name: {
 		en: "Doublade",
 		fr: "Dimoclès",
@@ -101,6 +102,11 @@ const card: Card = {
 
 	description: {
 		en: "Honedge evolves into twins. The two blades rub together to emit a metallic sound that unnerves opponents."
+	},
+
+	thirdParty: {
+		cardmarket: 458068,
+		tcgplayer: 213230
 	}
 }
 

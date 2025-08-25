@@ -86,6 +86,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il bande ses muscles pour projeter des pierres ou des Racaillou depuis le creux de ses paumes."
+	},
+
+	thirdParty: {
+		cardmarket: 277511,
+		tcgplayer: 88745
 	}
 }
 

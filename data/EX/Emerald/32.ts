@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Lumivole",
 		de: "Illumise"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		314,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -62,10 +65,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 86265,
+		cardmarket: 276543
+	}
 }
 
 export default card

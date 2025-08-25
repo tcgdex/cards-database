@@ -74,7 +74,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Yukihiro Tada"
+	illustrator: "Yukihiro Tada",
+
+	thirdParty: {
+		cardmarket: 805416
+	}
 }
 
 export default card

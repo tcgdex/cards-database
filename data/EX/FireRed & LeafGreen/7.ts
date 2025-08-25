@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Ossatueur",
 		de: "Knogga"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		105,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Cubone",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -63,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -70,10 +75,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276183,
+		tcgplayer: 87226
+	}
 }
 
 export default card

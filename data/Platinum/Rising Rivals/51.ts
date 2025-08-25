@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Steelix  Niv. 38",
 		de: "Stahlos GL"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		208,
 	],
+
 	hp: 110,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -62,22 +64,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		tcgplayer: 89567
+	}
 }
 
 export default card

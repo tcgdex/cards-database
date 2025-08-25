@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Valentia do Brock",
 		de: "Rockos Durchhaltevermögen"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez une combinaison de 6 cartes de Pokémon et d'Énergies de base dans votre pile de défausse et mélangez-les avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Embaralhe qualquer combinação de 6 cards entre Pokémon e Energia básica da sua pilha de descarte para o seu baralho.",
 		de: "Mische eine beliebige Kombination aus 6 Pokémon- und Basis-Energiekarten von deinem Ablagestapel zurück in dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 293434,
+		tcgplayer: 124120
+	}
 }
 
 export default card

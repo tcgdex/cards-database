@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Ectoplasma  Niv. 65",
 		de: "Gengar GL"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		94,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,22 +62,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		tcgplayer: 85681
+	}
 }
 
 export default card

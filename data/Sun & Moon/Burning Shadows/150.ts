@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Charizard GX",
 		de: "Glurak GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 250,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		fr: "Reptincel",
 	},
@@ -99,6 +103,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -108,8 +113,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 299426,
+		tcgplayer: 138497
+	}
 }
 
 export default card

@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Raikou",
 		de: "Raikou"
 	},
+
 	illustrator: "Noriko Hotta",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		243,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,22 +62,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 279634
+	}
 }
 
 export default card

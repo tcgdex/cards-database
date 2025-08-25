@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Faixa de Caratê",
 		de: "Karategürtel"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "S’il vous reste plus de cartes Récompense qu’à votre adversaire, les attaques du Pokémon auquel cette carte est attachée coûtent Fighting de moins.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, os ataques do Pokémon ao qual esta carta está ligada custarão Fighting a menos.",
 		de: "Wenn du mehr verbleibende Preiskarten als dein Gegner hast, verringern sich die Kosten der Attacken des Pokémon, an das diese Karte angelegt ist, um Fighting."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 388792,
+		tcgplayer: 195256
+	}
 }
 
 export default card

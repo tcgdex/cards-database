@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Salazzle",
 		de: "Amfira"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		758,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Salandit",
 		fr: "Tritox",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -85,8 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 297480,
+		tcgplayer: 130762
+	}
 }
 
 export default card

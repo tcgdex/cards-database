@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il se cache au fond de l'eau pour guetter sa proie. Ses oreilles sont des gouvernails."
+	},
+
+	thirdParty: {
+		cardmarket: 273737,
+		tcgplayer: 42385
 	}
 }
 

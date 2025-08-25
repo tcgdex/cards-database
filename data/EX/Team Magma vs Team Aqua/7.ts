@@ -7,22 +7,24 @@ const card: Card = {
 		fr: "Galeking de Team Magma",
 		de: "Team Magmas Stolloss"
 	},
+
 	illustrator: "Hiromichi Sugiyama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		306,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fighting",
 		"Darkness",
 	],
 
 	stage: "Stage2",
-
 
 	attacks: [
 		{
@@ -63,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -74,10 +77,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275984,
+		tcgplayer: 89818
+	}
 }
 
 export default card

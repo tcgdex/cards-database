@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		en: "This form of Urshifu is a strong believer in defeating foes by raining many blows down on them. Its strikes are nonstop, flowing like a river."
+	},
+
+	thirdParty: {
+		cardmarket: 567124,
+		tcgplayer: 241697
 	}
 }
 

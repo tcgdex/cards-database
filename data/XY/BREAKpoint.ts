@@ -25,6 +25,11 @@ const xy9: Set = {
 	abbreviations: {
 		official: "BKP",
 		fr: "RUP"
+	},
+
+	thirdParty: {
+		cardmarket: 1687,
+		tcgplayer: 1701
 	}
 }
 

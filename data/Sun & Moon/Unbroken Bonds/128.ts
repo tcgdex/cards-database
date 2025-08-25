@@ -3,6 +3,7 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	dexId: [808],
+
 	name: {
 		en: "Meltan",
 		fr: "Meltan",
@@ -11,19 +12,18 @@ const card: Card = {
 		pt: "Meltan",
 		de: "Meltan"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,22 +50,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 372417,
+		tcgplayer: 189227
+	}
 }
 
 export default card

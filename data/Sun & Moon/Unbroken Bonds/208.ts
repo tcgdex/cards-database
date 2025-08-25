@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Celesteela GX",
 		de: "Kaguron GX"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		797,
 	],
+
 	hp: 200,
+
 	types: [
 		"Colorless",
 	],
 
-
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -95,22 +99,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 371927,
+		tcgplayer: 189320
+	}
 }
 
 export default card

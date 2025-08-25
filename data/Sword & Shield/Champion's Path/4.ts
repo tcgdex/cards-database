@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [15],
+
 	name: {
 		en: "Beedrill",
 		fr: "Dardargnan",
@@ -74,6 +75,11 @@ const card: Card = {
 
 	description: {
 		en: "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear."
+	},
+
+	thirdParty: {
+		cardmarket: 499875,
+		tcgplayer: 222998
 	}
 }
 

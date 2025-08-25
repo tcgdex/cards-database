@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Persian",
 		de: "Snobilikat"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		53,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Meowth",
 		fr: "Miaouss",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -61,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -70,8 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280306,
+		tcgplayer: 87988
+	}
 }
 
 export default card

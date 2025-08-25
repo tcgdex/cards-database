@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Akwakwak",
 		de: "Entoron"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		55,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Psyduck",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -66,10 +73,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275794,
+		tcgplayer: 85810
+	}
 }
 
 export default card

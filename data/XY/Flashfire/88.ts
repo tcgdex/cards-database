@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Ferreiro",
 		de: "Schmied"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Attachez 2 cartes Énergie Fire de votre pile de défausse à l'un de vos Pokémon Fire.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Ligue 2 cards de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon Fire.",
 		de: "Lege 2 Fire-Energiekarten von deinem Ablagestapel an 1 deiner Fire-Pokémon an."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 281571,
+		tcgplayer: 91225
+	}
 }
 
 export default card

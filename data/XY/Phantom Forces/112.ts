@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia de Mistério",
 		de: "GeheimnisEnergie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ne peut être attachée qu'à un Pokémon Psychic. Elle ne fournit de l'Énergie Psychic que pendant qu'elle est attachée à un Pokémon Psychic. Le Coût de Retraite du Pokémon auquel cette carte est attachée est diminué de ColorlessColorless. (Si cette carte est attachée à autre chose qu'un Pokémon Psychic, défaussez cette carte.)",
@@ -35,7 +25,12 @@ const card: Card = {
 		de: "Diese Karte kann nur an Psychic-Pokémon angelegt werden. Diese Karte liefert nur dann Psychic-Energie, wenn sie an ein Psychic-Pokémon angelegt ist. Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um ColorlessColorless. (Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Psychic-Pokémon angelegt ist.)"
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 281919,
+		tcgplayer: 94681
+	}
 }
 
 export default card

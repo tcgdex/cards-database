@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [514],
+
 	name: {
 		en: "Simisear",
 		fr: "Flamoutan",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets."
+	},
+
+	thirdParty: {
+		cardmarket: 483009,
+		tcgplayer: 219240
 	}
 }
 

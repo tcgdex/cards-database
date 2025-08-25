@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Aurora",
 		de: "Matin"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si vous défaussez Méridia, Vesper et Nix de votre main.\n\nRegardez les 12 cartes du dessus de votre deck et attachez le nombre désiré de cartes Énergie que vous y trouvez à vos Pokémon, de la manière que vous voulez. Mélangez les autres cartes avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se descartar Diana, Véspera e Anita da sua mão.\n\nOlhe as 12 primeiras cartas do seu baralho e ligue qualquer número de cartas de Energia que encontrar lá aos seus Pokémon como desejar. Embaralhe as demais cartas de volta no seu baralho.",
 		de: "Du kannst diese Karte nur spielen, wenn du Journée, Soir und Nuit aus deiner Hand auf deinen Ablagestapel legst.\n\nSchau dir die obersten 12 Karten deines Decks an und lege beliebig viele Energiekarten, die du dort findest, beliebig an deine Pokémon an. Mische die anderen Karten zurück in dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 369075,
+		tcgplayer: 183948
+	}
 }
 
 export default card

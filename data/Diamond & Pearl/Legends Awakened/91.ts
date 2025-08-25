@@ -70,6 +70,11 @@ const card: Card = {
 
 	description: {
 		fr: "On l'appelle \"Pokémon mirage\" en raison de sa rareté. On a découvert sa mue."
+	},
+
+	thirdParty: {
+		cardmarket: 278240,
+		tcgplayer: 84935
 	}
 }
 

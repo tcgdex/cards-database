@@ -71,7 +71,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Souichirou Gunjima"
+	illustrator: "Souichirou Gunjima",
+
+	thirdParty: {
+		cardmarket: 794346
+	}
 }
 
 export default card

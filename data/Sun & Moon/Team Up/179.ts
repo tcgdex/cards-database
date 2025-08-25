@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Neves",
 		de: "Yasu"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez un Pokémon Darkness de base dans votre pile de défausse. Échangez-le avec l’un de vos Pokémon en jeu. Les cartes attachées, les marqueurs de dégâts, les États Spéciaux, le nombre de tours de jeu et tous les autres effets restent sur le nouveau Pokémon.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Escolha 1 Pokémon Darkness Básico da sua pilha de descarte. Troque-o por 1 dos seus Pokémon em jogo. Quaisquer cartas ligadas, contadores de dano, Condições Especiais, vezes em jogo e quaisquer outros efeitos permanecem no novo Pokémon.",
 		de: "Wähle 1 Darkness-Basis-Pokémon aus deinem Ablagestapel. Tausche es gegen 1 deiner Pokémon im Spiel aus. Alle an es angelegten Karten, Schadensmarken, Speziellen Zustände, Spielzüge sowie alle anderen Effekte verbleiben auf dem neuen Pokémon."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 369076,
+		tcgplayer: 183951
+	}
 }
 
 export default card

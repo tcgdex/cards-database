@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Baudrive",
 		de: "Driftlon"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		425,
 	],
+
 	hp: 40,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,22 +60,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278794
+	}
 }
 
 export default card

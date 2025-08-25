@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Machamp",
 		de: "Machomei"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		68,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -66,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -75,8 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281070,
+		tcgplayer: 86970
+	}
 }
 
 export default card

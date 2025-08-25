@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Haunter",
 		de: "Alpollo"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		93,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gastly",
 		fr: "Fantominus",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Gastly",
 		de: "Nebulak"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -78,22 +84,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286305,
+		tcgplayer: 107178
+	}
 }
 
 export default card

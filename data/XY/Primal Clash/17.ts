@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Volbeat",
 		de: "Volbeat"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		313,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -75,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -84,8 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273548,
+		tcgplayer: 95901
+	}
 }
 
 export default card

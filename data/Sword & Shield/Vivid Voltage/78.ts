@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [716],
+
 	name: {
 		en: "Xerneas",
 		fr: "Xerneas",
@@ -93,6 +94,11 @@ const card: Card = {
 
 	description: {
 		en: "When the horns on its head shine in seven different colors, it is said to be sharing everlasting life."
+	},
+
+	thirdParty: {
+		cardmarket: 511810,
+		tcgplayer: 226486
 	}
 }
 

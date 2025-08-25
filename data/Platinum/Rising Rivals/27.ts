@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Mammochon  Niv. 61",
 		de: "Mamutel GL"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		473,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,22 +63,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		tcgplayer: 87142
+	}
 }
 
 export default card

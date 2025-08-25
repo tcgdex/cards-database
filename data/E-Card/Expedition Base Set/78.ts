@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Ortide",
 		de: "Duflor"
 	},
+
 	illustrator: "Yuichi Sawayama",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		44,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Oddish",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -67,10 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274953,
+		tcgplayer: 85781
+	}
 }
 
 export default card

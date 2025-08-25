@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Munja",
 		de: "Ninjatom"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		292,
 	],
+
 	hp: 30,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Nincada",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,11 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 275888,
+		tcgplayer: 89117
+	}
 }
 
 export default card

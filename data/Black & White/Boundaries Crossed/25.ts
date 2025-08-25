@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Pignite",
 		de: "Ferkokel"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		499,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Tepig",
 		fr: "Gruikui",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -61,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -70,8 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280612,
+		tcgplayer: 88062
+	}
 }
 
 export default card

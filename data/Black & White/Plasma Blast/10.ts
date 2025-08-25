@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Genesect",
 		de: "Genesect"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		649,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -68,8 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281031,
+		tcgplayer: 85661
+	}
 }
 
 export default card

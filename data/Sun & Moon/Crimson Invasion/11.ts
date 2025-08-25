@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Gogoat",
 		de: "Chevrumm"
 	},
+
 	illustrator: "You Iribi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		673,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Skiddo",
 		fr: "Cabriolaine",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -85,8 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 311861,
+		tcgplayer: 149032
+	}
 }
 
 export default card

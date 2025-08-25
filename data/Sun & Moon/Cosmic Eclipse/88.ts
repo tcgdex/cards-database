@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Swoobat",
 		de: "Fletiamo"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		528,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Woobat",
 		fr: "Chovsourir",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,22 +79,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 408084,
+		tcgplayer: 201262
+	}
 }
 
 export default card

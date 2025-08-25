@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Éter",
 		de: "Äther"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Montrez la carte du dessus de votre deck. Si la carte est une carte Énergie de base, attachez-la à 1 de vos Pokémon. Si ce n’est pas une carte Énergie de base, remettez-la sur le dessus de votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Revele o card de cima do seu baralho. Se esse card for um card de Energia básica, ligue-o a 1 dos seus Pokémon. Caso contrário, coloque-o de volta em cima do seu baralho.",
 		de: "Decke die oberste Karte deines Decks auf. Handelt es sich um eine Basis-Energiekarte, lege sie an 1 deiner Pokémon an. Handelt es sich nicht um eine Basis-Energiekarte, lege sie zurück auf dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280861,
+		tcgplayer: 85332
+	}
 }
 
 export default card

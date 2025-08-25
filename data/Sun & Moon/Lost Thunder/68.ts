@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Mareanie",
 		de: "Garstella"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		747,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -60,8 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365706,
+		tcgplayer: 178877
+	}
 }
 
 export default card

@@ -6,23 +6,27 @@ const card: Card = {
 		en: "Flareon",
 		de: "Flamara"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		136,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,10 +67,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 279687,
+		tcgplayer: 85499
+	}
 }
 
 export default card

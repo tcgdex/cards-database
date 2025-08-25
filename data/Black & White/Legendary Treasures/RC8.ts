@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Ralts",
 	},
+
 	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		280,
 	],
+
 	hp: 40,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -47,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -54,10 +57,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 281143
+	}
 }
 
 export default card

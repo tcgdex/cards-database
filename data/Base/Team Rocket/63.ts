@@ -69,6 +69,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il vagabonde la nuit en semant ses graines pour créer d'autres Mystherbes."
+	},
+
+	thirdParty: {
+		cardmarket: 274116,
+		tcgplayer: 87837
 	}
 }
 

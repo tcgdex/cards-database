@@ -82,7 +82,12 @@ const card: Card = {
 		en: "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather."
 	},
 
-	dexId: [643]
+	dexId: [643],
+
+	thirdParty: {
+		cardmarket: 576747,
+		tcgplayer: 250301
+	}
 }
 
 export default card

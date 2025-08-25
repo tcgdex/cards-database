@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Turtonator",
 		de: "Tortunator"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		776,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -70,6 +72,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -79,8 +82,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 297481,
+		tcgplayer: 130763
+	}
 }
 
 export default card

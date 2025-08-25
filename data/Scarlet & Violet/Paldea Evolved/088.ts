@@ -64,7 +64,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Atsushi Furusawa"
+	illustrator: "Atsushi Furusawa",
+
+	thirdParty: {
+		cardmarket: 715563
+	}
 }
 
 export default card

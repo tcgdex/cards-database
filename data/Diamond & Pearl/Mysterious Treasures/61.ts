@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il se met en boule pour percuter l'ennemi. Ses épines aiguisées font beaucoup de dégâts."
+	},
+
+	thirdParty: {
+		cardmarket: 277690,
+		tcgplayer: 88932
 	}
 }
 

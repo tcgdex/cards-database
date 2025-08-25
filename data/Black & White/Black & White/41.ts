@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Blitzle",
 		de: "Elezeba"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		522,
 	],
+
 	hp: 60,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -43,6 +45,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -52,8 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 279778,
+		tcgplayer: 83928
+	}
 }
 
 export default card

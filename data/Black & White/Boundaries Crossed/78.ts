@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Sandshrew",
 		de: "Sandan"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		27,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,22 +56,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280665,
+		tcgplayer: 88927
+	}
 }
 
 export default card

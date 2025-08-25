@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [58],
+
 	name: {
 		en: "Growlithe",
 		fr: "Caninos",
@@ -83,6 +84,11 @@ const card: Card = {
 
 	description: {
 		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
+	},
+
+	thirdParty: {
+		cardmarket: 457588,
+		tcgplayer: 213103
 	}
 }
 

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Mewtwo",
 		de: "Mewtu"
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -70,6 +72,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -79,8 +82,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 278058,
+		tcgplayer: 87421
+	}
 }
 
 export default card

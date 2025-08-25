@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Hitmontop",
 		de: "Kapoera"
 	},
+
 	illustrator: "sowsow",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		237,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -76,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -85,8 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365750,
+		tcgplayer: 178926
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Victini",
 		fr: "Victini",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		494,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -63,8 +66,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 293002
+	}
 }
 
 export default card

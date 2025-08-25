@@ -22,6 +22,11 @@ const pl3: Set = {
 	abbreviations: {
 		official: "SV",
 		fr: "VSU"
+	},
+
+	thirdParty: {
+		cardmarket: 1564,
+		tcgplayer: 1384
 	}
 }
 

@@ -25,6 +25,11 @@ const set: Set = {
 	abbreviations: {
 		official: "CRE",
 		fr: "REG"
+	},
+
+	thirdParty: {
+		cardmarket: 4174,
+		tcgplayer: 2807
 	}
 }
 

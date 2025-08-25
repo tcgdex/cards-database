@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Lugia",
 		de: "Lugia"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		249,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -84,10 +89,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275225,
+		tcgplayer: 86905
+	}
 }
 
 export default card

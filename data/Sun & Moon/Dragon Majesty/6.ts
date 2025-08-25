@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Blaziken",
 		de: "Lohgock"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		257,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Combusken",
 		fr: "Galifeu",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -85,8 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 363478,
+		tcgplayer: 175274
+	}
 }
 
 export default card

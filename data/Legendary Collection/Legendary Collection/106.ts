@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Challenge!",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274871,
+		tcgplayer: 84160
+	}
 }
 
 export default card

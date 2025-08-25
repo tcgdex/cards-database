@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+	},
+
+	thirdParty: {
+		cardmarket: 539078,
+		tcgplayer: 232381
 	}
 }
 

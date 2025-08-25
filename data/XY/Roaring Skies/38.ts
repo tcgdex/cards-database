@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Binacle",
 		de: "Bithora"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		688,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -77,8 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 282706,
+		tcgplayer: 98074
+	}
 }
 
 export default card

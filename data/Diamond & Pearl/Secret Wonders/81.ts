@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Carvanha",
 		de: "Kanivanha"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		318,
 	],
+
 	hp: 50,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,22 +58,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277834,
+		tcgplayer: 84114
+	}
 }
 
 export default card

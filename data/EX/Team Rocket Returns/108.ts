@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Torchic Star",
 		de: "Flemmli *"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		255,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,10 +65,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 89965
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Elixir Máximo",
 		de: "Top-Elixier"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 6 cartes du dessus de votre deck et attachez une carte Énergie de base que vous y trouvez à un Pokémon de base sur votre Banc. Mélangez les autres cartes avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Veja os 6 cards de cima do seu baralho e ligue um card de Energia básica que encontrar a um Pokémon Básico no seu Banco. Embaralhe os demais cards de volta.",
 		de: "Schau dir die obersten 6 Karten deines Decks an und lege 1 Basis-Energiekarte, die du darunter findest, an 1 Basis-Pokémon auf deiner Bank an. Mische die anderen Karten zurück in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 288277,
+		tcgplayer: 111633
+	}
 }
 
 export default card

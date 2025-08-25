@@ -91,6 +91,11 @@ const card: Card = {
 
 	description: {
 		en: "Packs of them follow travelers through the desert until the travelers can no longer move."
+	},
+
+	thirdParty: {
+		cardmarket: 544921,
+		tcgplayer: 234041
 	}
 }
 

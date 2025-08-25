@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Abra",
 		de: "Abra"
 	},
+
 	illustrator: "Keiko Fukuyama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		63,
 	],
+
 	hp: 40,
+
 	types: [
 		"Psychic",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -56,10 +61,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275304,
+		tcgplayer: 83444
+	}
 }
 
 export default card

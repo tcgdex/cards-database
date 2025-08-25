@@ -80,6 +80,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans."
+	},
+
+	thirdParty: {
+		cardmarket: 273802,
+		tcgplayer: 106983
 	}
 }
 

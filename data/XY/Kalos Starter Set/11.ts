@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Panpour",
 		de: "Sodamak"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		515,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -74,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -83,8 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281277,
+		tcgplayer: 87931
+	}
 }
 
 export default card

@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Koga's Koffing",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		109,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,6 +38,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -43,10 +46,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274316,
+		tcgplayer: 86512
+	}
 }
 
 export default card

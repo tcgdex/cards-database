@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Erika's Clefairy",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		35,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -47,12 +49,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -60,9 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274308,
+		tcgplayer: 85289
+	}
 }
 
 export default card

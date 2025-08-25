@@ -92,6 +92,11 @@ const card: Card = {
 
 	description: {
 		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity."
+	},
+
+	thirdParty: {
+		cardmarket: 456468,
+		tcgplayer: 213153
 	}
 }
 

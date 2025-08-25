@@ -2,9 +2,9 @@ import type { SupportedLanguages } from '@tcgdex/sdk'
 import { type Query, Sort } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { checkLanguage } from '../../util'
-import Card from '../Components/Card'
-import Serie from '../Components/Serie'
-import Set from '../Components/Set'
+import { findCards, findOneCard } from '../Components/Card'
+import { findSets, findOneSet } from '../Components/Set'
+import { findSeries, findOneSerie } from '../Components/Serie'
 
 // TODO: make a better way to find the language
 function getLang(e: any): SupportedLanguages {
@@ -54,26 +54,26 @@ const middleware = (fn: (lang: SupportedLanguages, query: Query<object>) => any)
 export default {
 	// Cards Endpoints
 	cards: middleware((lang, query) => {
-		return Card.find(lang, query)
+		return findCards(lang, query)
 	}),
 	card: middleware((lang, query) => {
-		return Card.findOne(lang, query)
+		return findOneCard(lang, query)
 	}),
 
 	// Set Endpoints
 	set: middleware((lang, query) => {
-		return Set.findOne(lang, query)
+		return findOneSet(lang, query)
 	}),
 	sets: middleware((lang, query) => {
-		return Set.find(lang, query)
+		return findSets(lang, query)
 	}),
 
 	// Serie Endpoints
 	serie: middleware((lang, query) => {
-		return Serie.findOne(lang, query)
+		return findOneSerie(lang, query)
 	}),
 	series: middleware((lang, query) => {
-		return Serie.find(lang, query)
+		return findSeries(lang, query)
 	}),
 
 };

@@ -87,7 +87,11 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	hp: 150
+	hp: 150,
+
+	thirdParty: {
+		cardmarket: 279340
+	}
 }
 
 export default card

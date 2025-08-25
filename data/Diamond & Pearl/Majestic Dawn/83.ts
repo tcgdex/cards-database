@@ -7,28 +7,23 @@ const card: Card = {
 		fr: "La gentillesse de Maman",
 		de: "Mutters Fürsorge"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
 		de: "Ziehe 2 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 278132,
+		tcgplayer: 87569
+	}
 }
 
 export default card

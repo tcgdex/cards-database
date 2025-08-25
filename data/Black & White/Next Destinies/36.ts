@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Cubchoo",
 		de: "Petznief"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		613,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -64,8 +67,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 280261,
+		tcgplayer: 84525
+	}
 }
 
 export default card

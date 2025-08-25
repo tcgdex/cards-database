@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bianca",
 		de: "Bell"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez des cartes jusqu’à ce que vous ayez 6 cartes en main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Compre cards até ter 6 cards em sua mão.",
 		de: "Ziehe so viele Karten, bis du 6 Karten auf der Hand hast."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 280734,
+		tcgplayer: 83816
+	}
 }
 
 export default card

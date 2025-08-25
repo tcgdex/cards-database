@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Pifeuil",
 		de: "Blanas"
 	},
+
 	illustrator: "Katsura Tabata",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		274,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Seedot",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -58,12 +62,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -71,9 +77,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276918,
+		tcgplayer: 87822
+	}
 }
 
 export default card

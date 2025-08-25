@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Maractus",
 		de: "Maracamba"
 	},
+
 	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		556,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,22 +63,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280455,
+		tcgplayer: 87190
+	}
 }
 
 export default card

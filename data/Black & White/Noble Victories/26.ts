@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Carracosta",
 		de: "Karippas"
 	},
+
 	illustrator: "match",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		565,
 	],
+
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Tirtouga",
 		fr: "Carapagos",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -69,6 +75,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -78,8 +85,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 280149,
+		tcgplayer: 84109
+	}
 }
 
 export default card

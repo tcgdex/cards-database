@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Audino",
 		de: "Ohrdoch"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		531,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -64,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -73,8 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280713,
+		tcgplayer: 83664
+	}
 }
 
 export default card

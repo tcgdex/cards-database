@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Tapu Koko",
 		de: "Kapu-Riki"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		785,
 	],
+
 	hp: 120,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -77,22 +79,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365723,
+		tcgplayer: 178894
+	}
 }
 
 export default card

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Forretress",
 		de: "Forstellka"
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		205,
 	],
+
 	hp: 110,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Pineco",
 		fr: "Pomdepik",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -78,22 +82,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 365761,
+		tcgplayer: 178939
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Leavanny",
 		de: "Matrifol"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		542,
 	],
+
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Swadloon",
 		fr: "Couverdure",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Swadloon",
 		de: "Folikon"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281808,
+		tcgplayer: 94140
+	}
 }
 
 export default card

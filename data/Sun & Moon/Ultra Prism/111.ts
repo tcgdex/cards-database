@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Shaymin",
 		de: "Shaymin"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		492,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -66,22 +68,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 315946,
+		tcgplayer: 157728
+	}
 }
 
 export default card

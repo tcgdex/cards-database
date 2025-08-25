@@ -53,6 +53,11 @@ const card: Card = {
 
 	description: {
 		en: "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice."
+	},
+
+	thirdParty: {
+		cardmarket: 567117,
+		tcgplayer: 241690
 	}
 }
 

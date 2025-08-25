@@ -7,22 +7,24 @@ const card: Card = {
 		fr: "Cacturne de Team Aqua",
 		de: "Team Aquas Noktuska"
 	},
+
 	illustrator: "K. Utsunomiya",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		332,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 		"Darkness",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -62,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -69,10 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275978,
+		tcgplayer: 89775
+	}
 }
 
 export default card

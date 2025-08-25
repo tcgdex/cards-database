@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Misty's Tentacool",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		72,
 	],
+
 	hp: 40,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -48,6 +50,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -55,10 +58,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274168,
+		tcgplayer: 87550
+	}
 }
 
 export default card

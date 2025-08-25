@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Medicham",
 		de: "Meditalis"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		308,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Meditite",
 		fr: "Méditikka",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Meditite",
 		de: "Meditie"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -101,6 +107,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -110,8 +117,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273611,
+		tcgplayer: 95979
+	}
 }
 
 export default card

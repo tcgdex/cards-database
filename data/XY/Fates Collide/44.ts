@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Wormadam",
 		de: "Burmadame"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		413,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Burmy",
 		fr: "Cheniti",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Burmy",
 		de: "Burmy"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -85,8 +90,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289829,
+		tcgplayer: 117804
+	}
 }
 
 export default card

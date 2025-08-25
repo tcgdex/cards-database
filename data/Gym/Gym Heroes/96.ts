@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Sabrina's Venonat",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		48,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -57,10 +60,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274232,
+		tcgplayer: 88891
+	}
 }
 
 export default card

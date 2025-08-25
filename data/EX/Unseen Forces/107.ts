@@ -7,18 +7,22 @@ const card: Card = {
 		fr: "Tarpaud ex",
 		de: "Quaxo ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		186,
 	],
+
 	hp: 150,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Poliwhirl",
 	},
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -90,10 +95,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276753,
+		tcgplayer: 88252
+	}
 }
 
 export default card

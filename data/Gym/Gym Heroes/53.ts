@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Misty's Poliwhirl",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		61,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Poliwag",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -61,10 +66,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274189,
+		tcgplayer: 87537
+	}
 }
 
 export default card

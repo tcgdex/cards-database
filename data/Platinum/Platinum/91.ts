@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Riolu",
 		de: "Riolu"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		447,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,8 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278512,
+		tcgplayer: 88756
+	}
 }
 
 export default card

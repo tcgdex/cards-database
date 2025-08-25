@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Cheniselle Cape Déchet",
 		de: "Burmadame Lumpenumhang"
 	},
+
 	illustrator: "Kazuyuki Kano",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		413,
 	],
+
 	hp: 70,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Burmy Trash Cloak",
 		fr: "Cheniti Cape Déchet",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,22 +67,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277796,
+		tcgplayer: 90645
+	}
 }
 
 export default card

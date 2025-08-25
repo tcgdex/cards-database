@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Regice",
 		de: "Regice"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		378,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -77,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -86,8 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 284205,
+		tcgplayer: 101445
+	}
 }
 
 export default card

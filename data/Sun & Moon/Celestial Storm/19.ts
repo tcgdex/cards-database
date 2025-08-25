@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Cacnea",
 		de: "Tuska"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		331,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -64,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -73,8 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 361266,
+		tcgplayer: 170829
+	}
 }
 
 export default card

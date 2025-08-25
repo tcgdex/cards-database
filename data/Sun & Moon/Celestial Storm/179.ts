@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Cinto do Alvoroço",
 		de: "Notgürtel"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée a 30 PV ou moins et a déjà des marqueurs de dégâts, ses attaques infligent 60 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se o Pokémon ao qual esta carta está ligada tiver PS restante de 30 ou menos e tiver algum contador de dano nele, seus ataques causarão 60 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		de: "Wenn die verbleibenden KP des Pokémon, an das diese Karte angelegt ist, 30 oder weniger betragen und auf ihm mindestens 1 Schadensmarke liegt, fügen die Attacken dieses Pokémon dem Aktiven Pokémon deines Gegners 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 361372,
+		tcgplayer: 171022
+	}
 }
 
 export default card

@@ -69,7 +69,12 @@ const card: Card = {
 		en: "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide."
 	},
 
-	dexId: [843]
+	dexId: [843],
+
+	thirdParty: {
+		cardmarket: 436654,
+		tcgplayer: 208416
+	}
 }
 
 export default card

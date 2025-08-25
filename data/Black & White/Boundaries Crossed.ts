@@ -25,6 +25,11 @@ const bw7: Set = {
 	abbreviations: {
 		official: "BCR",
 		fr: "FFR"
+	},
+
+	thirdParty: {
+		cardmarket: 1577,
+		tcgplayer: 1408
 	}
 }
 

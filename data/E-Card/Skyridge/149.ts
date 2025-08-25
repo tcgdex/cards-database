@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Ho-oh",
 		de: "Ho-oh"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		250,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -67,6 +71,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -74,10 +79,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 86121
+	}
 }
 
 export default card

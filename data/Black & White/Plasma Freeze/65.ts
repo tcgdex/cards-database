@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Sneasel",
 		de: "Sniebel"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		215,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,22 +46,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280943,
+		tcgplayer: 89373
+	}
 }
 
 export default card

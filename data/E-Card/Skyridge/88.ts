@@ -6,23 +6,27 @@ const card: Card = {
 		en: "Poliwhirl",
 		de: "Quaputzi"
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		61,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Poliwag",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -64,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275346,
+		tcgplayer: 88263
+	}
 }
 
 export default card

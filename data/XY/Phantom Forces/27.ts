@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Galvantula",
 		de: "Voltula"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		596,
 	],
+
 	hp: 80,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Joltik",
 		fr: "Statitik",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Joltik",
 		de: "Wattzapf"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,22 +86,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281831,
+		tcgplayer: 94160
+	}
 }
 
 export default card

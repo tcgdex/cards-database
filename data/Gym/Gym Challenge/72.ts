@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Giovanni's Machop",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		66,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -48,6 +50,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -55,10 +58,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274340,
+		tcgplayer: 85714
+	}
 }
 
 export default card

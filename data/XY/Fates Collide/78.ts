@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Lugia",
 		de: "Lugia"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		249,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,22 +77,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289899,
+		tcgplayer: 117853
+	}
 }
 
 export default card

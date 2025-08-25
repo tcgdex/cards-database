@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Radar Eletromagnético",
 		de: "Elektromagnetisches Radar"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que si vous défaussez 2 autres cartes de votre main.\n\nCherchez une combinaison d’un maximum de 2 Pokémon-GX Lightning et Pokémon-EX Lightning, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você só pode jogar esta carta se descartar outras 2 cartas da sua mão.\n\nProcure por até 2 Pokémon-GX Lightning e Pokémon-EX Lightning no seu baralho em qualquer combinação, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\n\nDurchsuche dein Deck nach einer beliebigen Kombination aus bis zu 2 Lightning-Pokémon-GX und Lightning-Pokémon-EX, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 372454,
+		tcgplayer: 189269
+	}
 }
 
 export default card

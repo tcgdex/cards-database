@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Martelo Esperar para Ver",
 		de: "Geduldhammer"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous ne pouvez utiliser cette carte que si vous jouez en second et uniquement pendant votre premier tour. \n\nDéfaussez une Énergie de l’un des Pokémon de votre adversaire.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você só pode usar esta carta se for o segundo a jogar e somente na sua primeira vez de jogar. \n\nDescarte 1 Energia de 1 dos Pokémon do seu oponente.",
 		de: "Du kannst diese Attacke nur einsetzen, wenn du als Zweiter am Zug bist, und nur während deines ersten Zuges. \n\nLege 1 Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 365825,
+		tcgplayer: 179068
+	}
 }
 
 export default card

@@ -14,6 +14,11 @@ const card: Card = {
 
 	effect: {
 		de: "Wirf 3 Münzen. Bei jedem \"Kopf\" wähle eine Entwicklungskarte aus deinem Ablagestapel, zeige sie deinem Gegner und nimm sie auf deine Hand."
+	},
+
+	thirdParty: {
+		cardmarket: 275386,
+		tcgplayer: 86931
 	}
 }
 

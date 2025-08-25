@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Giovanni's Nidoking",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		34,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Nidorino",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -53,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -60,10 +65,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274275,
+		tcgplayer: 85718
+	}
 }
 
 export default card

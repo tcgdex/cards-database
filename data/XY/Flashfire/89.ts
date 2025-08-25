@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Tocha Ardente",
 		de: "Feurige Fackel"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez une carte Énergie Fire de votre main. (Si vous ne pouvez pas défausser une carte Énergie Fire, vous ne pouvez pas jouer cette carte.) Piochez 2 cartes.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Descarte um card de Energia Fire de sua mão. (Se você não puder descartar um card de Energia Fire, não poderá jogar esse card.) Compre 2 cards.",
 		de: "Lege 1 Fire-Energiekarte von deiner Hand auf deinen Ablagestapel. (Wenn du keine Fire-Energiekarte auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Ziehe 2 Karten."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281572,
+		tcgplayer: 91226
+	}
 }
 
 export default card

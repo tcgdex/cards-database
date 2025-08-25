@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Zubat",
 		fr: "Nosferapti",
 	},
+
 	illustrator: "match",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		41,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -38,22 +40,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 288468,
+		tcgplayer: 113688
+	}
 }
 
 export default card

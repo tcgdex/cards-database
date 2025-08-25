@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Golem",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		76,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Graveler",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -62,10 +67,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274789,
+		tcgplayer: 85822
+	}
 }
 
 export default card

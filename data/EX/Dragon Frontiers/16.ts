@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Scorplane δ",
 		de: "Skorgla"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		207,
 	],
+
 	hp: 60,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,10 +68,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277221
+	}
 }
 
 export default card

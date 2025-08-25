@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Tentacool",
 		de: "Tentacha"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		72,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -60,8 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273601,
+		tcgplayer: 95968
+	}
 }
 
 export default card

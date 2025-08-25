@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [502],
+
 	name: {
 		en: "Dewott",
 		fr: "Mateloutre",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "As a result of strict training, each Dewott learns different forms for using the scalchops."
+	},
+
+	thirdParty: {
+		cardmarket: 511590,
+		tcgplayer: 226413
 	}
 }
 

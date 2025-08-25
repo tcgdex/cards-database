@@ -66,6 +66,11 @@ const card: Card = {
 
 	description: {
 		en: "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth."
+	},
+
+	thirdParty: {
+		cardmarket: 436204,
+		tcgplayer: 208271
 	}
 }
 

@@ -106,6 +106,11 @@ const card: Card = {
 
 	description: {
 		en: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head."
+	},
+
+	thirdParty: {
+		cardmarket: 483144,
+		tcgplayer: 219384
 	}
 }
 

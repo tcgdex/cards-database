@@ -26,6 +26,10 @@ const card: Card = {
 
 	effect: {
 		de: "Lege diese Karte an 1 deiner Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seines eigenen verwenden. Lege am Ende deines Zuges das Geheimnis Schild S auf deinen Ablagestapel."
+	},
+
+	thirdParty: {
+		tcgplayer: 87672
 	}
 }
 

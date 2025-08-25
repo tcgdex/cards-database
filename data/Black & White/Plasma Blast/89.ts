@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Espelho de Prata",
 		de: "Silberspiegel"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Évitez tous les effets d’attaques (y compris les dégâts) infligés au Pokémon auquel cette carte est attachée (excepté les Pokémon-EX) par les Pokémon de la Team Plasma de votre adversaire.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Impede todos os efeitos de ataque, incluindo danos, causados ao Pokémon ao qual este card está ligado (exceto Pokémon-EX) e realizados pelo Pokémon da Equipe Plasma do oponente.",
 		de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die dem Pokémon, an das diese Karte angelegt ist (außer Pokémon-EX), durch Team Plasma-Pokémon deines Gegners zugefügt werden."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 281110,
+		tcgplayer: 89216
+	}
 }
 
 export default card

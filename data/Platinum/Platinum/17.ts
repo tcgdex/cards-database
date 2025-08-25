@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Dimoret ",
 		de: "Snibunna G"
 	},
+
 	illustrator: "Makoto Imai",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		461,
 	],
+
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
@@ -58,12 +61,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -71,9 +76,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		tcgplayer: 90536
+	}
 }
 
 export default card

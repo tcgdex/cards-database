@@ -74,7 +74,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Atsuya Uki"
+	illustrator: "Atsuya Uki",
+
+	thirdParty: {
+		cardmarket: 740512
+	}
 }
 
 export default card

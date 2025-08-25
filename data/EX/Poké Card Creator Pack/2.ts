@@ -5,21 +5,24 @@ const card: Card = {
 	name: {
 		en: "Wurmple"
 	},
+
 	illustrator: "Katie Gross",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		265,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
+
 	stage: "Basic",
 	retreat: 1,
-
 
 	attacks: [
 		{
@@ -50,11 +53,16 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fire"
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 605993
+	}
 }
 
 export default card

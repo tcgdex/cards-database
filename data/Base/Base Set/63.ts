@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son dos durcit avec l'âge et devient une super carapace. Il peut cracher des jets d'écume."
+	},
+
+	thirdParty: {
+		cardmarket: 273758,
+		tcgplayer: 42408
 	}
 }
 

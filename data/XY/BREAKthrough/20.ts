@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Typhlosion",
 		de: "Tornupto"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		157,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Quilava",
 		fr: "Feurisson",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Quilava",
 		de: "Igelavar"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -92,8 +97,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 286266,
+		tcgplayer: 107139
+	}
 }
 
 export default card

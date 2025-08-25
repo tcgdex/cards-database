@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Corboss",
 		de: "Kramshef"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		430,
 	],
+
 	hp: 90,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Murkrow",
 		fr: "Cornèbre",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,22 +67,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278720
+	}
 }
 
 export default card

@@ -88,6 +88,11 @@ const card: Card = {
 
 	description: {
 		en: "It is thought its body transformed as a result of iron accumulating internally from swallowing soil."
+	},
+
+	thirdParty: {
+		cardmarket: 545576,
+		tcgplayer: 234184
 	}
 }
 

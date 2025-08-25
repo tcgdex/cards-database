@@ -65,7 +65,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Kagemaru Himeno"
+	illustrator: "Kagemaru Himeno",
+
+	thirdParty: {
+		cardmarket: 751745
+	}
 }
 
 export default card

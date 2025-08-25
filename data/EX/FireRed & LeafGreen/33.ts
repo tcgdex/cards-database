@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Noeufnoeuf",
 		de: "Owei"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		102,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -60,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -67,10 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276209,
+		tcgplayer: 85346
+	}
 }
 
 export default card

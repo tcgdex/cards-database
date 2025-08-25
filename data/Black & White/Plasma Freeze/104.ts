@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Insígnia da Equipe Plasma",
 		de: "Team-Plasma-Orden"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Pokémon auquel cette carte est attachée est un Pokémon de la Team Plasma.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Pokémon ao qual este card está ligado é um Pokémon da Equipe Plasma.",
 		de: "Das Pokémon, an das diese Karte angelegt ist, ist ein Team Plasma-Pokémon."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 280982,
+		tcgplayer: 89847
+	}
 }
 
 export default card

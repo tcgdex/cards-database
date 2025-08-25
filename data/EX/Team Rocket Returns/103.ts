@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Rocket's Sneasel ex",
 		de: "Rockets Sniebel ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		215,
 	],
+
 	hp: 90,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "EX",
 
@@ -56,12 +58,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -69,9 +73,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276395,
+		tcgplayer: 88794
+	}
 }
 
 export default card

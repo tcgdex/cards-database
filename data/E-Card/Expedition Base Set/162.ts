@@ -7,25 +7,18 @@ const card: Card = {
 		fr: "Énergie Plante",
 		de: "Pflanzenenergie"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 275037,
+		tcgplayer: 85873
+	}
 }
 
 export default card

@@ -52,7 +52,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Oswaldo KATO"
+	illustrator: "Oswaldo KATO",
+
+	thirdParty: {
+		cardmarket: 733709
+	}
 }
 
 export default card

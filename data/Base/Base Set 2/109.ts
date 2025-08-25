@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Defender",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274032,
+		tcgplayer: 42447
+	}
 }
 
 export default card

@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Rocket's Minefield Gym",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274387,
+		tcgplayer: 88779
+	}
 }
 
 export default card

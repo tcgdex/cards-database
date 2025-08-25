@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Foretress",
 		de: "Forstellka"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		205,
 	],
+
 	hp: 70,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Pineco",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -65,12 +69,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
@@ -78,9 +84,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276652,
+		tcgplayer: 85548
+	}
 }
 
 export default card

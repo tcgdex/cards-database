@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Mesprit",
 		de: "Vesprit"
 	},
+
 	illustrator: "Sekio",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		481,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -66,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -75,8 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388222,
+		tcgplayer: 195014
+	}
 }
 
 export default card

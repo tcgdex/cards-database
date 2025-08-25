@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Dialga",
 		fr: "Dialga",
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		483,
 	],
+
 	hp: 120,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,22 +54,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 289800
+	}
 }
 
 export default card

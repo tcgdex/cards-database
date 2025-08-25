@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Florizarre",
 		de: "Bisaflor"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
 	],
+
 	hp: 140,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Ivysaur",
 		fr: "Herbizarre",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -79,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -88,8 +95,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 278704
+	}
 }
 
 export default card

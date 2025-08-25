@@ -47,6 +47,11 @@ const card: Card = {
 
 	description: {
 		fr: "Chaque fois qu'il respire, des braises ardentes tombent de sa bouche et de ses narines."
+	},
+
+	thirdParty: {
+		cardmarket: 274423,
+		tcgplayer: 87001
 	}
 }
 

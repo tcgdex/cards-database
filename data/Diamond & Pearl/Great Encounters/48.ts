@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Bekipan",
 		de: "Pelipper"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		279,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Wingull",
 		fr: "Goelise",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -61,22 +65,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 277950,
+		tcgplayer: 87977
+	}
 }
 
 export default card

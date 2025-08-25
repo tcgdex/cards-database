@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Lilligant",
 		de: "Dressella"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		549,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Petilil",
 		fr: "Chlorobule",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -61,22 +65,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280128,
+		tcgplayer: 86794
+	}
 }
 
 export default card

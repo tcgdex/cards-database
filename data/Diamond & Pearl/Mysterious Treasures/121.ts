@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Elekable",
 		de: "Elevoltek"
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		466,
 	],
+
 	hp: 120,
+
 	types: [
 		"Lightning",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,12 +61,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -70,9 +76,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 277750,
+		tcgplayer: 85127
+	}
 }
 
 export default card

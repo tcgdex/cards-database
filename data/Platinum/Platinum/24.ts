@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Triopikeur",
 		de: "Digdri"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		51,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Diglett",
 		fr: "Taupiqueur",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -79,12 +85,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -92,9 +100,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 278445,
+		tcgplayer: 85003
+	}
 }
 
 export default card

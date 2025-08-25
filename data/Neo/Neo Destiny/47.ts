@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Plus il nage vite, plus l'aura sur son front brille."
+	},
+
+	thirdParty: {
+		cardmarket: 274699,
+		tcgplayer: 86740
 	}
 }
 

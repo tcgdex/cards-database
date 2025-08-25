@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Anorith",
 		de: "Anorith"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		347,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Claw Fossil",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -61,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -68,10 +73,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276906,
+		tcgplayer: 83559
+	}
 }
 
 export default card

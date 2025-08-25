@@ -79,7 +79,12 @@ const card: Card = {
 	retreat: 2,
 	dexId: [637],
 	regulationMark: "E",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 574045,
+		tcgplayer: 246718
+	}
 }
 
 export default card

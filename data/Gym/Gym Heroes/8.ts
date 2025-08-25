@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Lt. Surge's Magneton",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		82,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
@@ -31,6 +34,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -56,10 +61,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274144,
+		tcgplayer: 86858
+	}
 }
 
 export default card

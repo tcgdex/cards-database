@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Delcatty",
 		de: "Enekoro"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		301,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Skitty",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -65,10 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277314,
+		tcgplayer: 84739
+	}
 }
 
 export default card

@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Lucario",
 	},
+
 	illustrator: undefined,
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		448,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Riolu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -59,10 +64,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 278853
+	}
 }
 
 export default card

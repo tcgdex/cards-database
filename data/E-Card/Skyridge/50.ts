@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Diglett",
 		de: "Digda"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		50,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -39,12 +41,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -52,9 +56,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275308,
+		tcgplayer: 84818
+	}
 }
 
 export default card

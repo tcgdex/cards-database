@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Feunard",
 		de: "Vulnona"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		38,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Vulpix",
 		fr: "Goupix",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -67,10 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 278457,
+		tcgplayer: 87773
+	}
 }
 
 export default card

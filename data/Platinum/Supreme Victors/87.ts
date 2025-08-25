@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Wailmer",
 		de: "Wailmer"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		320,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -62,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -71,8 +74,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278778
+	}
 }
 
 export default card

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Tentacruel",
 		de: "Tentoxa"
 	},
+
 	illustrator: "kodama",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		73,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Tentacool",
 		fr: "Tentacool",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -78,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -87,8 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 368991,
+		tcgplayer: 183839
+	}
 }
 
 export default card

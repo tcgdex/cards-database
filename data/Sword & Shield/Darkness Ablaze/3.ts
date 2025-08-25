@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [46],
+
 	name: {
 		en: "Paras",
 		fr: "Paras",
@@ -62,6 +63,11 @@ const card: Card = {
 
 	description: {
 		en: "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off."
+	},
+
+	thirdParty: {
+		cardmarket: 482889,
+		tcgplayer: 219061
 	}
 }
 

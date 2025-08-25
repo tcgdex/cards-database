@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Luxray",
 		de: "Luxtra"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		405,
 	],
+
 	hp: 140,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Luxio",
 		fr: "Luxio",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Luxio",
 		de: "Luxio"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -77,22 +81,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 288221,
+		tcgplayer: 111553
+	}
 }
 
 export default card

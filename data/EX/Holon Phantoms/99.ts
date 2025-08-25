@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Colhomard ex",
 		de: "Krebutack ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		342,
 	],
+
 	hp: 110,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Corphish",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -66,10 +73,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277069,
+		tcgplayer: 84465
+	}
 }
 
 export default card

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Steelix",
 		de: "Stahlos"
 	},
+
 	illustrator: "Avec Yoko",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		208,
 	],
+
 	hp: 170,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Onix",
 		fr: "Onix",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,22 +85,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 398559,
+		tcgplayer: 201358
+	}
 }
 
 export default card

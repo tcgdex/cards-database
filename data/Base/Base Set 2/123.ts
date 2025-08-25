@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Switch",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274046,
+		tcgplayer: 42564
+	}
 }
 
 export default card

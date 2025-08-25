@@ -80,7 +80,12 @@ const card: Card = {
 		en: "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques."
 	},
 
-	dexId: [151]
+	dexId: [151],
+
+	thirdParty: {
+		cardmarket: 576756,
+		tcgplayer: 250309
+	}
 }
 
 export default card

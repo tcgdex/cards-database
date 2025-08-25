@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "L'extrémité lumineuse de sa queue est visible de très loin. Depuis l'antiquité, elle sert de balise aux gens perdus."
+	},
+
+	thirdParty: {
+		cardmarket: 274587,
+		tcgplayer: 83535
 	}
 }
 

@@ -79,6 +79,10 @@ const card: Card = {
 
 	description: {
 		en: "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing."
+	},
+
+	thirdParty: {
+		cardmarket: 505880
 	}
 }
 

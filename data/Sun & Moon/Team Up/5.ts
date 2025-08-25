@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Beedrill",
 		de: "Bibor"
 	},
+
 	illustrator: "You Iribi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		15,
 	],
+
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Kakuna",
 		fr: "Coconfort",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 368938,
+		tcgplayer: 183776
+	}
 }
 
 export default card

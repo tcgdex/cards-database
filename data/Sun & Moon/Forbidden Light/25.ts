@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Clauncher",
 		de: "Scampisto"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		692,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -53,8 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 355544,
+		tcgplayer: 165676
+	}
 }
 
 export default card

@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Leveinard ex",
 		de: "Chaneira ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		113,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "EX",
 
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -68,10 +71,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275744,
+		tcgplayer: 84180
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [596],
+
 	name: {
 		en: "Galvantula",
 		fr: "Mygavolt",
@@ -102,6 +103,11 @@ const card: Card = {
 
 	description: {
 		en: "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis."
+	},
+
+	thirdParty: {
+		cardmarket: 511700,
+		tcgplayer: 226453
 	}
 }
 

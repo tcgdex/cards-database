@@ -16,6 +16,11 @@ const card: Card = {
 
 	effect: {
 		de: "Lege Regenbogen-Energie an 1 deiner Pokémon an. Solange Regenbogen-Energie im Spiel ist, erzeugt Regenbogen-Energie jeden Energietyp, aber nur 1 Energie auf einmal. (Zählt nicht als Basis-Energiekarte, wenn nicht im Spiel.) Wenn du diese Karte aus deiner Hand an 1 deiner Pokémon anlegst, lege 1 Schadensmarke auf dieses Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 275220,
+		tcgplayer: 88552
 	}
 }
 

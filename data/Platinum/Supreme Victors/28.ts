@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Brouhabam",
 		de: "Krawumms"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		295,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Loudred",
 		fr: "Ramboum",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -79,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -88,8 +95,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 278719
+	}
 }
 
 export default card

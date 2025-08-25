@@ -32,7 +32,11 @@ const card: Card = {
 		en: "Jigglypuff"
 	},
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		tcgplayer: 275064
+	}
 }
 
 export default card

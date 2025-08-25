@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Geodude de Alola",
 		de: "Alola-Kleinstein"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		74,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -66,22 +68,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 297502,
+		tcgplayer: 130942
+	}
 }
 
 export default card

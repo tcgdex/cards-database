@@ -10,16 +10,19 @@ const card: Card = {
 		pt: "Blastoise e Piplup GX",
 		de: "Turtok & Plinfa GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		9,
 		393
 	],
+
 	hp: 270,
+
 	types: [
 		"Water",
 	],
@@ -81,6 +84,7 @@ const card: Card = {
 			damage: "100+"
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -90,8 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 398459,
+		tcgplayer: 201612
+	}
 }
 
 export default card

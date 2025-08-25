@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Drifblim",
 		de: "Drifzepeli"
 	},
+
 	illustrator: "Yumi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		426,
 	],
+
 	hp: 110,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -79,22 +83,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 315982,
+		tcgplayer: 157669
+	}
 }
 
 export default card

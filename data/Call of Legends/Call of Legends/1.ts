@@ -6,23 +6,27 @@ const card: Card = {
 		en: "Clefable",
 		de: "Pixi"
 	},
+
 	illustrator: "sui",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		36,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Clefairy",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,10 +66,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 279644,
+		tcgplayer: 84348
+	}
 }
 
 export default card

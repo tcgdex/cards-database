@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Pansear",
 		de: "Grillmak"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		513,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -77,8 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281359,
+		tcgplayer: 87945
+	}
 }
 
 export default card

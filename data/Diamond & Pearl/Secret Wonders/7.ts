@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Gardevoir",
 		de: "Guardevoir"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		282,
 	],
+
 	hp: 110,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Kirlia",
 		fr: "Kirlia",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -70,8 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 277760,
+		tcgplayer: 85635
+	}
 }
 
 export default card

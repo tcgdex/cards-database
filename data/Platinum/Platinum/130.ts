@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Insécateur",
 		de: "Sichlor"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		123,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,12 +58,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -69,9 +73,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 278551,
+		tcgplayer: 89002
+	}
 }
 
 export default card

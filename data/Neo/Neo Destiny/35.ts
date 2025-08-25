@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il reste immobile dans les arbres et chasse les intrus en leur lançant des piquants blindés."
+	},
+
+	thirdParty: {
+		cardmarket: 274687,
+		tcgplayer: 84598
 	}
 }
 

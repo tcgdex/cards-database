@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Kingler",
 		de: "Kingler"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		99,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Krabby",
 		fr: "Krabby",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -84,8 +89,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 372338,
+		tcgplayer: 189146
+	}
 }
 
 export default card

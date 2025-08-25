@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Cascoon",
 		de: "Panekon"
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		268,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Wurmple",
 		fr: "Chenipotte",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Wurmple",
 		de: "Waumpel"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -80,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -89,8 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 282674,
+		tcgplayer: 98042
+	}
 }
 
 export default card

@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Eelektross",
 		de: "Zapplarang"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		604,
 	],
+
 	hp: 150,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Eelektrik",
 		fr: "Lampéroie",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,22 +83,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 388152,
+		tcgplayer: 194992
+	}
 }
 
 export default card

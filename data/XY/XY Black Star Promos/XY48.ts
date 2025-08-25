@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Meowstic",
 		fr: "Mistigrix",
 	},
+
 	illustrator: "kirisAki",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		678,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Espurr",
 		fr: "Psystigri",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -65,8 +72,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289711
+	}
 }
 
 export default card

@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Dratini",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		147,
 	],
+
 	hp: 40,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,9 +44,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 273961,
+		tcgplayer: 42477
+	}
 }
 
 export default card

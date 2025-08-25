@@ -29,11 +29,12 @@ const card: Card = {
 
 	trainerType: "Stadium",
 	regulationMark: "H",
-
-	variants: {
-		normal: false,
-		reverse: false
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold'
+		},
+	]
 }
 
 export default card

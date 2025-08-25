@@ -33,7 +33,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "AYUMI ODASHIMA"
+	illustrator: "AYUMI ODASHIMA",
+
+	thirdParty: {
+		cardmarket: 780991
+	}
 }
 
 export default card

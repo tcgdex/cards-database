@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Volcarona",
 		de: "Ramoth"
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		637,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Larvesta",
 		fr: "Pyronille",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Larvesta",
 		de: "Ignivor"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -90,8 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 284198,
+		tcgplayer: 100622
+	}
 }
 
 export default card

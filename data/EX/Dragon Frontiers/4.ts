@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Meganium δ",
 		de: "Meganie"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		154,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Bayleef",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -74,12 +80,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -87,9 +95,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 277209
+	}
 }
 
 export default card

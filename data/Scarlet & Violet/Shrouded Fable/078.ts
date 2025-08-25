@@ -65,7 +65,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Whisker"
+	illustrator: "Whisker",
+
+	thirdParty: {
+		cardmarket: 780945
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Alvo G",
 		de: "G-Skop"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Genesect-EX auquel cette carte est attachée peut aussi utiliser l'attaque sur cette carte. (Vous avez toujours besoin de l'Énergie nécessaire pour utiliser cette attaque.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Este ataque causa 100 de danos a 1 dos Pokémon do Banco do oponente. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
 		de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 281114,
+		tcgplayer: 85596
+	}
 }
 
 export default card

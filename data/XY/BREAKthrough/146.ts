@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Carta do Professor",
 		de: "Brief vom Prof."
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez jusqu'à 2 cartes Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure em seu baralho por até 2 cards de Energia básica, revele-os e coloque-os em sua mão. Em seguida, embaralhe seus cards.",
 		de: "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 286392,
+		tcgplayer: 107265
+	}
 }
 
 export default card

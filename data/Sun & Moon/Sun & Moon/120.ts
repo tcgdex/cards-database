@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Hibi",
 		de: "Tali"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 3 cartes.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Compre 3 cartas.",
 		de: "Ziehe 3 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 295433,
+		tcgplayer: 126992
+	}
 }
 
 export default card

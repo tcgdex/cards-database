@@ -50,6 +50,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il adore la musculation. Il pratique les arts martiaux pour devenir encore plus fort."
+	},
+
+	thirdParty: {
+		cardmarket: 273747,
+		tcgplayer: 42396
 	}
 }
 

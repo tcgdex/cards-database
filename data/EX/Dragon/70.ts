@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Chamallot",
 		de: "Camaub"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		322,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,10 +65,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 87807,
+		cardmarket: 275946
+	}
 }
 
 export default card

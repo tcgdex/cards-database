@@ -25,6 +25,11 @@ const card: Card = {
 		it: "",
 		pt: "",
 		de: ""
+	},
+
+	thirdParty: {
+		cardmarket: 279849,
+		tcgplayer: 84679
 	}
 }
 

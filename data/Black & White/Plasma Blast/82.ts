@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Fóssil Pluma",
 		de: "Federfossil"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 7 cartes du dessous de votre deck. Vous pouvez montrer un Arkéapti que vous y trouvez et le placer sur votre Banc. Mélangez les autres cartes avec votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Olhe os últimos 7 cards da base de seu baralho. Você pode revelar um Archen encontrado ali e colocá-lo em seu Banco. Embaralhe os outros cards de volta em seu baralho.",
 		de: "Schau dir die untersten 7 Karten deines Decks an. Falls du dort ein Flapteryx findest, kannst du es deinem Gegner zeigen und auf deine Bank legen. Mische die anderen Karten anschließend in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281103,
+		tcgplayer: 88160
+	}
 }
 
 export default card

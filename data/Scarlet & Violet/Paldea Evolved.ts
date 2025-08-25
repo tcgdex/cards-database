@@ -24,6 +24,11 @@ const set: Set = {
 	abbreviations: {
 		official: "PAL",
 		fr: "EAP"
+	},
+
+	thirdParty: {
+		cardmarket: 5318,
+		tcgplayer: 23120
 	}
 }
 

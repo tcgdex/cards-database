@@ -16,6 +16,10 @@ const card: Card = {
 	effect: {
 		fr: "Regardez jusqu'à 5 des 5 premières cartes du dessus de votre deck et triez-les comme bon vous semble.",
 		de: "Schaue Dir bis zu fünf der obersten Karten Deines Stapels an und lege sie in beliebiger Reihenfolge wieder in Deinen Stapel zurück."
+	},
+
+	thirdParty: {
+		cardmarket: 273782
 	}
 }
 

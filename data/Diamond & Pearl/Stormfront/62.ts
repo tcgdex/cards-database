@@ -81,6 +81,11 @@ const card: Card = {
 
 	description: {
 		fr: "Le corps de ce Pokémon est composé de gaz à 95%. Une bourrasque suffit à le disperser."
+	},
+
+	thirdParty: {
+		cardmarket: 278360,
+		tcgplayer: 85653
 	}
 }
 

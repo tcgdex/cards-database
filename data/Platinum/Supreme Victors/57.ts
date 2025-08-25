@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Grodrive",
 		de: "Drifzepeli"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		426,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,22 +61,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278694
+	}
 }
 
 export default card

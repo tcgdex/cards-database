@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Naganadel",
 		de: "Agoyon"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		804,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Poipole",
 		fr: "Vémini",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -85,8 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365745,
+		tcgplayer: 178921
+	}
 }
 
 export default card

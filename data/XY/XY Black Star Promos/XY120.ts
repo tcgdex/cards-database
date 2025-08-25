@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Meloetta",
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		648,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -56,10 +59,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 295150
+	}
 }
 
 export default card

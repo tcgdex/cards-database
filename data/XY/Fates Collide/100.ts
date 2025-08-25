@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Jardim das Fadas",
 		de: "Feenbeet"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Chacun des Pokémon auquel de l'Énergie Fairy est attachée (les vôtres et ceux de votre adversaire) n'a pas de Coût de Retraite.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Qualquer Pokémon que possuir alguma Energia Fairy ligada a ele (seu e do seu oponente) não terá Custo para Recuar.",
 		de: "Jedes Pokémon (deine und die deines Gegners), an das Fairy-Energie angelegt ist, hat keine Rückzugskosten."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 289920,
+		tcgplayer: 117872
+	}
 }
 
 export default card

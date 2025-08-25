@@ -66,6 +66,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est dit que même les lutteurs professionnels ne parviennent pas à battre un Machoc."
+	},
+
+	thirdParty: {
+		cardmarket: 274112,
+		tcgplayer: 86987
 	}
 }
 

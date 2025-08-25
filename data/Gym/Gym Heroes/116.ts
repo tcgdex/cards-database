@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Recall",
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274252,
+		tcgplayer: 88650
+	}
 }
 
 export default card

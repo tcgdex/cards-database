@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Farfetch'd",
 		de: "Porenta"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		83,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,12 +55,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -66,9 +70,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275313,
+		tcgplayer: 85383
+	}
 }
 
 export default card

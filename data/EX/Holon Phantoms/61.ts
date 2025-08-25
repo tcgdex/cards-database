@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Carvanha δ",
 		de: "Kanivanha"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		318,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -60,10 +63,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277031
+	}
 }
 
 export default card

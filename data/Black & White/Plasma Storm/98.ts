@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Clefable",
 		de: "Pixi"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		36,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Clefairy",
 		fr: "Mélofée",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -65,6 +71,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -74,8 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280838,
+		tcgplayer: 84349
+	}
 }
 
 export default card

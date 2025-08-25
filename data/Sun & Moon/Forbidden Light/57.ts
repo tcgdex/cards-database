@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Cubone",
 		de: "Tragosso"
 	},
+
 	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		104,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -61,8 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 355575,
+		tcgplayer: 165709
+	}
 }
 
 export default card

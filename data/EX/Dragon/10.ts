@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Drattak",
 		de: "Brutalanda"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		373,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Shelgon",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,12 +81,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -92,9 +100,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		tcgplayer: 88895,
+		cardmarket: 275887
+	}
 }
 
 export default card

@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Numel",
 		de: "Camaub"
 	},
+
 	illustrator: "match",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		322,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -54,8 +57,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 280608,
+		tcgplayer: 87817
+	}
 }
 
 export default card

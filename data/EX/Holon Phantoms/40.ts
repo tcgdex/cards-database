@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Donphan",
 		de: "Donphan"
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		232,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Phanpy",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -63,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -70,10 +75,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277010,
+		tcgplayer: 84875
+	}
 }
 
 export default card

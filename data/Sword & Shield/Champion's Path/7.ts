@@ -3,6 +3,7 @@ import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [494],
+
 	name: {
 		en: "Victini",
 		fr: "Victini",
@@ -85,6 +86,11 @@ const card: Card = {
 
 	description: {
 		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
+	},
+
+	thirdParty: {
+		cardmarket: 499890,
+		tcgplayer: 223003
 	}
 }
 

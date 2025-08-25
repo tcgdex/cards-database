@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Arbok",
 		fr: "Arbok",
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		24,
 	],
+
 	hp: 120,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Ekans",
 		fr: "Abo",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -65,8 +72,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 381231,
+		tcgplayer: 197671
+	}
 }
 
 export default card

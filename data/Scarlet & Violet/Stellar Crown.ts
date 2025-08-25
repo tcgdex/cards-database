@@ -23,6 +23,11 @@ const set: Set = {
 
 	abbreviations: {
 		official: "SCR"
+	},
+
+	thirdParty: {
+		cardmarket: 5802,
+		tcgplayer: 23537
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Dusclops",
 		de: "Zwirrklop"
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		356,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Duskull",
 		fr: "Skelénox",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Duskull",
 		de: "Zwirrlicht"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -81,22 +85,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281522,
+		tcgplayer: 91172
+	}
 }
 
 export default card

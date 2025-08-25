@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		fr: "Sa plante mûrit en absorbant les rayons du soleil. Il migre souvent vers les endroits ensoleillés."
+	},
+
+	thirdParty: {
+		cardmarket: 273710,
+		tcgplayer: 42355
 	}
 }
 

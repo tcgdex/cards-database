@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Heatran",
 		de: "Heatran"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		485,
 	],
+
 	hp: 130,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -79,22 +81,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281869,
+		tcgplayer: 94631
+	}
 }
 
 export default card

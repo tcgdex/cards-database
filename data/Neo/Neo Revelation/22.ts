@@ -72,6 +72,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon qui court de par le monde en poussant des aboiements qui ressemblent à des coups de tonnerre."
+	},
+
+	thirdParty: {
+		cardmarket: 274599,
+		tcgplayer: 88530
 	}
 }
 

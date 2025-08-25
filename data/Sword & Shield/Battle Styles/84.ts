@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		en: "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle."
+	},
+
+	thirdParty: {
+		cardmarket: 545531,
+		tcgplayer: 234261
 	}
 }
 

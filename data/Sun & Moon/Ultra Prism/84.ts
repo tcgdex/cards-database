@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Shieldon",
 		de: "Schilterus"
 	},
+
 	illustrator: "so-taro",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		410,
 	],
+
 	hp: 100,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -73,22 +77,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 316011,
+		tcgplayer: 157701
+	}
 }
 
 export default card

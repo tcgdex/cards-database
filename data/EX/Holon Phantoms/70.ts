@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Férosinge δ",
 		de: "Menki"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		56,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -62,10 +65,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277040
+	}
 }
 
 export default card

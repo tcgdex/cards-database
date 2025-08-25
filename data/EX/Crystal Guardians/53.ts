@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Rondoudou",
 		de: "Pummeluff"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		39,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -49,10 +52,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277134,
+		tcgplayer: 86317
+	}
 }
 
 export default card

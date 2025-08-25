@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Milobellus",
 		de: "Milotic"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		350,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Feebas",
 		fr: "Barpau",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -74,8 +79,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278689
+	}
 }
 
 export default card

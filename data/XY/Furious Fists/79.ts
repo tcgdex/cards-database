@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Lickilicky",
 		de: "Schlurplek"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		463,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Lickitung",
 		fr: "Excelangue",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Lickitung",
 		de: "Schlurp"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -86,6 +90,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -95,8 +100,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 281743,
+		tcgplayer: 92259
+	}
 }
 
 export default card

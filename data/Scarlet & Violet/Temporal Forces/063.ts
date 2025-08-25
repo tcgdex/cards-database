@@ -71,7 +71,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "Nelnal"
+	illustrator: "Nelnal",
+
+	thirdParty: {
+		cardmarket: 760693
+	}
 }
 
 export default card

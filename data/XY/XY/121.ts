@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Faixa Musculosa",
 		de: "Muskelband"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les attaques du Pokémon auquel cette carte est attachée infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Os ataques do Pokémon ao qual este card está ligado causam 20 de danos adicionais ao Pokémon Ativo do seu oponente (antes da aplicação de Fraqueza e Resistência).",
 		de: "Die Angriffe des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 281458,
+		tcgplayer: 87658
+	}
 }
 
 export default card

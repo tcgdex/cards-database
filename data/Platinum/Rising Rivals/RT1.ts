@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Motisma Hélice Niv. 46",
 		de: "Wirbel-Rotom"
 	},
+
 	illustrator: "Motofumi Fujiwara",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		479,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,12 +79,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
@@ -88,9 +94,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 278570
+	}
 }
 
 export default card

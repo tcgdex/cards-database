@@ -5,25 +5,18 @@ const card: Card = {
 	name: {
 		en: "Fire Energy",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 274264,
+		tcgplayer: 85454
+	}
 }
 
 export default card

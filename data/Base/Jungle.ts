@@ -26,6 +26,11 @@ const base2: Set = {
 	abbreviations: {
 		official: "JU",
 		fr: "JUN"
+	},
+
+	thirdParty: {
+		cardmarket: 1525,
+		tcgplayer: 635
 	}
 }
 

@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Branette",
 		de: "Banette"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		354,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Shuppet",
 		fr: "Polychombr",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,22 +82,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278440,
+		tcgplayer: 83723
+	}
 }
 
 export default card

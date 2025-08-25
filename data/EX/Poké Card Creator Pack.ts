@@ -14,7 +14,11 @@ const pccp: Set = {
 		official: 5
 	},
 
-	releaseDate: "2004-07-01"
+	releaseDate: "2004-07-01",
+
+	thirdParty: {
+		cardmarket: 4505
+	}
 }
 
 export default pccp

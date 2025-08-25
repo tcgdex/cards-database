@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Flobio",
 		de: "Moorabbel"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		259,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Mudkip",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -66,10 +71,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 87235,
+		cardmarket: 276547
+	}
 }
 
 export default card

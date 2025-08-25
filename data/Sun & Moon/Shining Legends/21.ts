@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Qwilfish",
 		de: "Baldorfish"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		211,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -74,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -83,8 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 302159,
+		tcgplayer: 146674
+	}
 }
 
 export default card

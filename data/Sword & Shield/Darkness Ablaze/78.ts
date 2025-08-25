@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [702],
+
 	name: {
 		en: "Dedenne",
 		fr: "Dedenne",
@@ -71,6 +72,11 @@ const card: Card = {
 
 	description: {
 		en: "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity."
+	},
+
+	thirdParty: {
+		cardmarket: 483269,
+		tcgplayer: 219462
 	}
 }
 

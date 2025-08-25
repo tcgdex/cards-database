@@ -66,6 +66,11 @@ const card: Card = {
 
 	description: {
 		en: "Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor."
+	},
+
+	thirdParty: {
+		cardmarket: 545381,
+		tcgplayer: 234212
 	}
 }
 

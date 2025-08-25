@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Piafabec",
 		de: "Habitak"
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		21,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,12 +58,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -69,9 +73,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276257,
+		tcgplayer: 89439
+	}
 }
 
 export default card

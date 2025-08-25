@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Bergmite",
 		de: "Arktip"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		712,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -67,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -76,8 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 291532,
+		tcgplayer: 121125
+	}
 }
 
 export default card

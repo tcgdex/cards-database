@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Hydreigon",
 		de: "Trikephalo"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		635,
 	],
+
 	hp: 150,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Zweilous",
 		fr: "Diamat",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -69,22 +75,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 280328,
+		tcgplayer: 86240
+	}
 }
 
 export default card

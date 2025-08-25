@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Electrike",
 		de: "Frizelbliz"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		309,
 	],
@@ -20,7 +21,6 @@ const card: Card = {
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,22 +52,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278934,
+		tcgplayer: 85142
+	}
 }
 
 export default card

@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Morelull",
 		de: "Bubungus"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		755,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fairy",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -66,22 +68,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 316018,
+		tcgplayer: 157709
+	}
 }
 
 export default card

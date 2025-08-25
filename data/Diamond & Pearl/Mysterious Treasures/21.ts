@@ -83,6 +83,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il résiste à toute attaque frontale. C'est un Pokémon docile qui se nourrit d'herbe et de Baies."
+	},
+
+	thirdParty: {
+		cardmarket: 277650,
+		tcgplayer: 93321
 	}
 }
 

@@ -6,21 +6,26 @@ const card: Card = {
 		en: "Charizard",
 		de: "Glurak"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Charmeleon",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -36,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -73,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -80,10 +87,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275404,
+		tcgplayer: 84186
+	}
 }
 
 export default card

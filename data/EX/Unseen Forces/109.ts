@@ -7,23 +7,28 @@ const card: Card = {
 		fr: "Steelix ex",
 		de: "Stahlos ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		208,
 	],
+
 	hp: 150,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Onix",
 	},
 
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -79,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -89,6 +96,7 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
@@ -100,9 +108,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276755,
+		tcgplayer: 89566
+	}
 }
 
 export default card

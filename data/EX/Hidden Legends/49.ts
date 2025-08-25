@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Staross",
 		de: "Starmie"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		121,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Staryu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -62,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -69,10 +74,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276123,
+		tcgplayer: 89532
+	}
 }
 
 export default card

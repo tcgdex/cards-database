@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Toxicroak",
 		de: "Toxiquak"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		454,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Croagunk",
 		fr: "Cradopaud",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Croagunk",
 		de: "Glibunkel"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -79,6 +85,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -88,8 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 291629,
+		tcgplayer: 121189
+	}
 }
 
 export default card

@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Raikou ex",
 		de: "Raikou ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		243,
 	],
+
 	hp: 100,
+
 	types: [
 		"Lightning",
 	],
-
 
 	suffix: "EX",
 
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -68,10 +71,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276069,
+		tcgplayer: 88540
+	}
 }
 
 export default card

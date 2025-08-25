@@ -25,6 +25,11 @@ const sm75: Set = {
 	abbreviations: {
 		official: "DRM",
 		fr: "MDD"
+	},
+
+	thirdParty: {
+		cardmarket: 2351,
+		tcgplayer: 2295
 	}
 }
 

@@ -61,6 +61,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il transporte des victuailles toute la journée. On raconte que des gens perdus ont été sauvés grâce à ses réserves de nourriture."
+	},
+
+	thirdParty: {
+		cardmarket: 274591,
+		tcgplayer: 84745
 	}
 }
 

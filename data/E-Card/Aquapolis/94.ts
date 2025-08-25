@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Écrémeuh",
 		de: "Miltank"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		241,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -64,10 +67,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275168,
+		tcgplayer: 87462
+	}
 }
 
 export default card

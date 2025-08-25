@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Muciole",
 		de: "Volbeat"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		313,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -64,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276819,
+		tcgplayer: 90398
+	}
 }
 
 export default card

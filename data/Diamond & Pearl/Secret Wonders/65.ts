@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Floravol",
 		de: "Hubelupf"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		188,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Hoppip",
 		fr: "Granivol",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,12 +65,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -72,9 +80,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 277818,
+		tcgplayer: 89256
+	}
 }
 
 export default card

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Spinda",
 		de: "Pandir"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		327,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -67,8 +70,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278737
+	}
 }
 
 export default card

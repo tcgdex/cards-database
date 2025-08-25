@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Ekans",
 		de: "Rettan"
 	},
+
 	illustrator: "DemizuPosuka",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		23,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -60,8 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 302174,
+		tcgplayer: 146703
+	}
 }
 
 export default card

@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Latios EX",
 		fr: "Latios EX",
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		381,
 	],
+
 	hp: 170,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "EX",
 
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -64,8 +67,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 289791
+	}
 }
 
 export default card

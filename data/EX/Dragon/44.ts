@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Stalgamin",
 		de: "Schneppke"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		361,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -49,10 +52,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		tcgplayer: 89398,
+		cardmarket: 275921
+	}
 }
 
 export default card

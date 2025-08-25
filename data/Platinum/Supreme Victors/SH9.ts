@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Yanma",
 		de: "Yanma"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		193,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,12 +58,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -69,9 +73,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 278691
+	}
 }
 
 export default card

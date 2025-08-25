@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Loupio de Team Aqua",
 		de: "Team Aquas Lampi"
 	},
+
 	illustrator: "Kazuo Yazawa",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		170,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,12 +57,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -68,9 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276026,
+		tcgplayer: 89779
+	}
 }
 
 export default card

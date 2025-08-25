@@ -62,6 +62,10 @@ const card: Card = {
 
 	description: {
 		en: "It lures in prey with its shining tail fins. It stays near the surface during the day and moves to the depths when night falls."
+	},
+
+	thirdParty: {
+		cardmarket: 665983
 	}
 }
 

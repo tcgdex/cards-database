@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Mewtwo",
 		de: "Mewtu"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -75,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -84,8 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 293405,
+		tcgplayer: 124064
+	}
 }
 
 export default card

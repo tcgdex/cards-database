@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Nuzleaf",
 		de: "Blanas"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		274,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Seedot",
 		fr: "Grainipiot",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Seedot",
 		de: "Samurzel"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -74,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -83,8 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 291517,
+		tcgplayer: 120999
+	}
 }
 
 export default card

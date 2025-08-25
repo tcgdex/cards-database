@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Gardevoir e Sylveon GX",
 		de: "Guardevoir & Feelinara GX"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		282,
 	],
+
 	hp: 260,
+
 	types: [
 		"Fairy",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -102,22 +104,27 @@ const card: Card = {
 			damage: 200
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 370790,
+		tcgplayer: 189316
+	}
 }
 
 export default card

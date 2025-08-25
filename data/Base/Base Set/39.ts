@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon fait de programmes et d'algorithmes. Il peut survivre en milieu virtuel."
+	},
+
+	thirdParty: {
+		cardmarket: 273734,
+		tcgplayer: 42381
 	}
 }
 

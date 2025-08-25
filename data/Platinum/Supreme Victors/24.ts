@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Lamantine",
 		de: "Jugong"
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		87,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Seel",
 		fr: "Otaria",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -85,8 +92,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 278715
+	}
 }
 
 export default card

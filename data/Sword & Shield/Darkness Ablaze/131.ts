@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [878],
+
 	name: {
 		en: "Cufant",
 		fr: "Charibari",
@@ -71,6 +72,11 @@ const card: Card = {
 
 	description: {
 		en: "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all."
+	},
+
+	thirdParty: {
+		cardmarket: 483534,
+		tcgplayer: 219395
 	}
 }
 

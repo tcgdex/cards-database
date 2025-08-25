@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Spray da Involução",
 		de: "Rückentwicklungsspray"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Faites dés-évoluer 1 de vos Pokémon évolués et mettez sa carte Évolution de plus haut Niveau dans votre main. (Le Pokémon choisi ne peut pas évoluer pendant ce tour.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Involui 1 dos seus Pokémon evoluídos e coloca o card de Evolução de Estágio mais alto em sua mão. (Esse Pokémon não pode evoluir desta vez.)",
 		de: "Rückentwickle 1 deiner entwickelten Pokémon und nimm die höchste daraufliegende Evolutionskarte auf deine Hand. (Das Pokémon kann sich während dieses Zuges nicht entwickeln.)"
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 280552,
+		tcgplayer: 84783
+	}
 }
 
 export default card

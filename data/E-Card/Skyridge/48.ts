@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Cleffa",
 		de: "Pii"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		173,
 	],
+
 	hp: 30,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -39,11 +41,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 275306,
+		tcgplayer: 84364
+	}
 }
 
 export default card

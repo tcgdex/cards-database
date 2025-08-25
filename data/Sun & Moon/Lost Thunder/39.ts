@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Cyndaquil",
 		de: "Feurigel"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		155,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -60,8 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 365679,
+		tcgplayer: 178842
+	}
 }
 
 export default card

@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Charmander",
 		de: "Glumanda"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		4,
 	],
@@ -20,7 +21,6 @@ const card: Card = {
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -60,8 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278931,
+		tcgplayer: 84217
+	}
 }
 
 export default card

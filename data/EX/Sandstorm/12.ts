@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Tengalice",
 		de: "Tengulist"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		275,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Nuzleaf",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -68,10 +75,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275789,
+		tcgplayer: 89152
+	}
 }
 
 export default card

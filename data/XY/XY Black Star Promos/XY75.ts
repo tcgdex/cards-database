@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Palkia",
 		fr: "Palkia",
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		484,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -61,8 +64,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 289798
+	}
 }
 
 export default card

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Draby δ",
 		de: "Kindwurm"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		371,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -38,12 +40,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -55,9 +59,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276820
+	}
 }
 
 export default card

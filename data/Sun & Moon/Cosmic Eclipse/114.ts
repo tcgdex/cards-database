@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Drilbur",
 		de: "Rotomurf"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		529,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -66,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -75,8 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 408219,
+		tcgplayer: 201146
+	}
 }
 
 export default card

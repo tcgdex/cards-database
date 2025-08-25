@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Throh",
 		de: "Jiutesto"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		538,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -63,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -72,8 +75,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 280507,
+		tcgplayer: 89901
+	}
 }
 
 export default card

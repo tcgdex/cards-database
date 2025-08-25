@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Lainergie",
 		de: "Waaty"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		180,
 	],
+
 	hp: 80,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Mareep",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -67,10 +72,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274952,
+		tcgplayer: 85475
+	}
 }
 
 export default card

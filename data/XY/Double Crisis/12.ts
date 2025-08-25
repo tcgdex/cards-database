@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Team Magma's Aron",
 		fr: "Galekid de la Team Magma",
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		304,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,6 +38,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -45,8 +48,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 282523,
+		tcgplayer: 97058
+	}
 }
 
 export default card

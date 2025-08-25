@@ -69,6 +69,11 @@ const card: Card = {
 
 	description: {
 		fr: "En hiver, son bourgeon se referme pour résister au froid. Il s'ouvre au printemps et libère du pollen."
+	},
+
+	thirdParty: {
+		cardmarket: 277542,
+		tcgplayer: 84010
 	}
 }
 

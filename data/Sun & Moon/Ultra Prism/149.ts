@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Gardênia",
 		de: "Silvana"
 	},
+
 	illustrator: "You Iribi",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez 80 dégâts à l’un de vos Pokémon auquel de l’Énergie Grass est attachée.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cure 80 pontos de dano de 1 dos seus Pokémon que tiver alguma Energia Grass ligada a ele.",
 		de: "Heile 80 Schadenspunkte bei 1 deiner Pokémon, an das mindestens 1 Grass-Energie angelegt ist."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 316049,
+		tcgplayer: 157765
+	}
 }
 
 export default card

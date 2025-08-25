@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Diggersby",
 		de: "Grebbit"
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		660,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Bunnelby",
 		fr: "Sapereau",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Bunnelby",
 		de: "Scoppel"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -84,8 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 273621,
+		tcgplayer: 95988
+	}
 }
 
 export default card

@@ -54,6 +54,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son don de télépathie lui permet de sentir le danger et de se téléporter en lieu sûr."
+	},
+
+	thirdParty: {
+		cardmarket: 273738,
+		tcgplayer: 42386
 	}
 }
 

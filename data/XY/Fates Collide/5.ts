@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Snivy",
 		de: "Serpifeu"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		495,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -60,8 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289831,
+		tcgplayer: 117768
+	}
 }
 
 export default card

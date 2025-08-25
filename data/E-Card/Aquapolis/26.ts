@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Octillery",
 		de: "Octillery"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		224,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Remoraid",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -60,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -67,10 +74,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275044,
+		tcgplayer: 87829
+	}
 }
 
 export default card

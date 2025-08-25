@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Gumshoos",
 		de: "Manguspektor"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		735,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Yungoos",
 		fr: "Manglouton",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -64,8 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388692,
+		tcgplayer: 195185
+	}
 }
 
 export default card

@@ -66,6 +66,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il se met en colère très vite. Calme ou furieux, son humeur change d'une seconde à l'autre."
+	},
+
+	thirdParty: {
+		cardmarket: 273852,
+		tcgplayer: 45158
 	}
 }
 

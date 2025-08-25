@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Smeargle",
 		de: "Farbeagle"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		235,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -74,8 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 286369,
+		tcgplayer: 107242
+	}
 }
 
 export default card

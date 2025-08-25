@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Druddigon",
 		de: "Shardrago"
 	},
+
 	illustrator: "Ryota Murayama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		621,
 	],
+
 	hp: 110,
+
 	types: [
 		"Dragon",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -71,6 +73,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -80,8 +83,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281553,
+		tcgplayer: 91207
+	}
 }
 
 export default card

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Gogoat",
 		de: "Chevrumm"
 	},
+
 	illustrator: "sowsow",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		673,
 	],
+
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Skiddo",
 		fr: "Cabriolaine",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -73,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -82,8 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 365676,
+		tcgplayer: 178839
+	}
 }
 
 export default card

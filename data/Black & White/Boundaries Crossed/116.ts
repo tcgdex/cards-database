@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Buneary",
 		de: "Haspiror"
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		427,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -62,8 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280703,
+		tcgplayer: 84045
+	}
 }
 
 export default card

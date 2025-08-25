@@ -17,6 +17,10 @@ const card: Card = {
 	effect: {
 		fr: "Lancez une pièce. Si c'est face, votre adversaire doit échanger un de ses Pokémon Actifs contre un des Pokémon de son Banc.",
 		de: "Flip a coin. If heads, your opponent switches 1 of his or her Active Pokémon with 1 of his or her Benched Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 275735
 	}
 }
 

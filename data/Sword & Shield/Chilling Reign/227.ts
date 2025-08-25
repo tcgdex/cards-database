@@ -35,7 +35,12 @@ const card: Card = {
 	},
 
 	illustrator: "sadaji",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567248,
+		tcgplayer: 241836
+	}
 }
 
 export default card

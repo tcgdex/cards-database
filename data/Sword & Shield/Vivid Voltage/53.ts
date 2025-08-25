@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [522],
+
 	name: {
 		en: "Blitzle",
 		fr: "Zébibron",
@@ -62,6 +63,11 @@ const card: Card = {
 
 	description: {
 		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
+	},
+
+	thirdParty: {
+		cardmarket: 511685,
+		tcgplayer: 226449
 	}
 }
 

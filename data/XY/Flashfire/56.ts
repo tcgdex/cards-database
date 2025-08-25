@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Sandile",
 		de: "Ganovil"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		551,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,22 +54,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281539,
+		tcgplayer: 91193
+	}
 }
 
 export default card

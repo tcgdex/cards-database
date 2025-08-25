@@ -88,6 +88,11 @@ const card: Card = {
 
 	description: {
 		en: "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes."
+	},
+
+	thirdParty: {
+		cardmarket: 545391,
+		tcgplayer: 234222
 	}
 }
 

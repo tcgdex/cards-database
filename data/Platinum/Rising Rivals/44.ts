@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Galegon Niv. 37",
 		de: "Stollrak"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		305,
 	],
+
 	hp: 80,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Aron",
 		fr: "Galekid",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -65,22 +69,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 278618,
+		tcgplayer: 86581
+	}
 }
 
 export default card

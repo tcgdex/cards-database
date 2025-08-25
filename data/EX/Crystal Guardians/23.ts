@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Ramboum",
 		de: "Krakeelo"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		294,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Whismur",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -63,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -70,10 +75,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277104,
+		tcgplayer: 86842
+	}
 }
 
 export default card

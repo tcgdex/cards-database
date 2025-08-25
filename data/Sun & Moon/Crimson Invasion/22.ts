@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Remoraid",
 		de: "Remoraid"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		223,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -54,8 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 311872,
+		tcgplayer: 149043
+	}
 }
 
 export default card

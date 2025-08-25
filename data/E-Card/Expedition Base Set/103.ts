@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Osselait",
 		de: "Tragosso"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		104,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,12 +60,14 @@ const card: Card = {
 			damage: 30
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -71,9 +75,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274978,
+		tcgplayer: 84529
+	}
 }
 
 export default card

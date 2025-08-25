@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Torterra",
 		de: "Chelterrar"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		389,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Grotle",
 		fr: "Boskara",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 355576,
+		tcgplayer: 165710
+	}
 }
 
 export default card

@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Entei",
 		de: "Entei"
 	},
+
 	illustrator: "Yuri Umemura",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		244,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -67,8 +72,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 279641
+	}
 }
 
 export default card

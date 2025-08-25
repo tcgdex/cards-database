@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Escavalier",
 		de: "Cavalanzas"
 	},
+
 	illustrator: "Satoshi Shirai",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		589,
 	],
+
 	hp: 130,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Karrablast",
 		fr: "Carabing",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -72,22 +76,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 388507,
+		tcgplayer: 195126
+	}
 }
 
 export default card

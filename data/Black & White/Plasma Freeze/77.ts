@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Zweilous",
 		de: "Duodino"
 	},
+
 	illustrator: "match",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		634,
 	],
+
 	hp: 90,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Deino",
 		fr: "Solochi",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -61,22 +65,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 280955,
+		tcgplayer: 90782
+	}
 }
 
 export default card

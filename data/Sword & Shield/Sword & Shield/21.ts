@@ -94,7 +94,12 @@ const card: Card = {
 		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty."
 	},
 
-	dexId: [830]
+	dexId: [830],
+
+	thirdParty: {
+		cardmarket: 436274,
+		tcgplayer: 208300
+	}
 }
 
 export default card

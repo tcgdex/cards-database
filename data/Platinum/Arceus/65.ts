@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Geodude",
 		de: "Kleinstein"
 	},
+
 	illustrator: "Motofumi Fujiwara",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		74,
 	],
@@ -20,7 +21,6 @@ const card: Card = {
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -39,22 +39,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 278937,
+		tcgplayer: 85693
+	}
 }
 
 export default card

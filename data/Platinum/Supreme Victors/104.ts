@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Barpau",
 		de: "Barschwa"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		349,
 	],
+
 	hp: 30,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -65,8 +68,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278795
+	}
 }
 
 export default card

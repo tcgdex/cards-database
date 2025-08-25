@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Demanta δ",
 		de: "Mantax"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		226,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -63,10 +68,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277225
+	}
 }
 
 export default card

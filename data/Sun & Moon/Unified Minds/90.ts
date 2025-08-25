@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Elgyem",
 		de: "Pygraulon"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		605,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -60,8 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 388257,
+		tcgplayer: 195022
+	}
 }
 
 export default card

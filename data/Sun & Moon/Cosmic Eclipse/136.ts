@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Guzzlord",
 		de: "Schlingking"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		799,
 	],
+
 	hp: 150,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -76,22 +78,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 408329,
+		tcgplayer: 201180
+	}
 }
 
 export default card

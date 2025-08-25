@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Delibird",
 		de: "Botogel"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		225,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -61,10 +64,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275307,
+		tcgplayer: 84746
+	}
 }
 
 export default card

@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Sawk",
 		de: "Karadonis"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		539,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -74,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -83,8 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 299474,
+		tcgplayer: 138558
+	}
 }
 
 export default card

@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Charmina",
 		de: "Meditalis"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		308,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Meditite",
 		fr: "Meditikka",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -74,8 +79,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278725
+	}
 }
 
 export default card

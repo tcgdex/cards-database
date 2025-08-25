@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Clefairy",
 		de: "Piepi"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		35,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fairy",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -67,22 +69,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 297544,
+		tcgplayer: 131002
+	}
 }
 
 export default card

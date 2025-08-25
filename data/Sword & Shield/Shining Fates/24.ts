@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 539143,
+		tcgplayer: 232424
 	}
 }
 

@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Vileplume",
 		de: "Giflor"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		45,
 	],
+
 	hp: 140,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Gloom",
 		fr: "Ortide",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -69,22 +75,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 280590,
+		tcgplayer: 90382
+	}
 }
 
 export default card

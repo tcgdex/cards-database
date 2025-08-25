@@ -27,11 +27,17 @@ const card: Card = {
 
 	trainerType: "Tool",
 	regulationMark: "F",
+
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 682203,
+		tcgplayer: 451804
 	}
 }
 

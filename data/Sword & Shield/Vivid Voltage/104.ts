@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [262],
+
 	name: {
 		en: "Mightyena",
 		fr: "Grahyèna",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork."
+	},
+
+	thirdParty: {
+		cardmarket: 511940,
+		tcgplayer: 226556
 	}
 }
 

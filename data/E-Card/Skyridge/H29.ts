@@ -6,21 +6,26 @@ const card: Card = {
 		en: "Steelix",
 		de: "Stahlos"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		208,
 	],
+
 	hp: 100,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Onix",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -36,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,12 +81,14 @@ const card: Card = {
 			damage: 40
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
@@ -88,9 +96,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 275256,
+		tcgplayer: 89558
+	}
 }
 
 export default card

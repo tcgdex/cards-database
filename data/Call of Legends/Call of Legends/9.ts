@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Ho-Oh",
 		de: "Ho-Oh"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		250,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,22 +63,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 279642,
+		tcgplayer: 86126
+	}
 }
 
 export default card

@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est au chaud dans son cocon. Ses cellules produisent l'énergie nécessaire à son évolution."
+	},
+
+	thirdParty: {
+		cardmarket: 277543,
+		tcgplayer: 84121
 	}
 }
 

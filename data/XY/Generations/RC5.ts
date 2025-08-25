@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Charizard",
 		fr: "Dracaufeu",
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 160,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charmeleon",
 		fr: "Reptincel",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -68,8 +73,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 288405
+	}
 }
 
 export default card

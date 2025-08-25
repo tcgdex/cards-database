@@ -6,21 +6,26 @@ const card: Card = {
 		en: "Nidoqueen",
 		de: "Nidoqueen"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		31,
 	],
+
 	hp: 110,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Nidorina",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -36,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -62,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275231,
+		tcgplayer: 87703
+	}
 }
 
 export default card

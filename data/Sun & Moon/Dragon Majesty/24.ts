@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Feraligatr",
 		de: "Impergator"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		160,
 	],
+
 	hp: 160,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Croconaw",
 		fr: "Crocrodil",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -84,8 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 363496,
+		tcgplayer: 175386
+	}
 }
 
 export default card

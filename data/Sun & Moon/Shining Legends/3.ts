@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Venusaur",
 		de: "Bisaflor"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
 	],
+
 	hp: 160,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Ivysaur",
 		fr: "Herbizarre",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -70,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -79,8 +86,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 302141,
+		tcgplayer: 146655
+	}
 }
 
 export default card

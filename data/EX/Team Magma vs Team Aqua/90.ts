@@ -7,21 +7,24 @@ const card: Card = {
 		fr: "Vacilys ex",
 		de: "Wielie ex"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		346,
 	],
+
 	hp: 150,
+
 	types: [
 		"Grass",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -88,10 +93,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276067,
+		tcgplayer: 84457
+	}
 }
 
 export default card

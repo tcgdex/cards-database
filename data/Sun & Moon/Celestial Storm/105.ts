@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Shelgon",
 		de: "Draschel"
 	},
+
 	illustrator: "Asako Ito",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		372,
 	],
+
 	hp: 90,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Bagon",
 		fr: "Draby",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -64,8 +69,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 361346,
+		tcgplayer: 170932
+	}
 }
 
 export default card

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Paras",
 		de: "Paras"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		46,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -67,8 +70,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278729
+	}
 }
 
 export default card

@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Croagunk",
 		de: "Glibunkel"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		453,
 	],
@@ -20,7 +21,6 @@ const card: Card = {
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -60,8 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278933,
+		tcgplayer: 84478
+	}
 }
 
 export default card

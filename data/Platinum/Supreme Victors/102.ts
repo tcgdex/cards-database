@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Doduo",
 		de: "Dodu"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		84,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,12 +44,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -55,9 +59,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 278793
+	}
 }
 
 export default card

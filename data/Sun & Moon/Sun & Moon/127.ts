@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Poção",
 		de: "Trank"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez 30 dégâts à l’un de vos Pokémon.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cure 30 pontos de dano de 1 dos seus Pokémon.",
 		de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 295440,
+		tcgplayer: 126999
+	}
 }
 
 export default card

@@ -6,21 +6,24 @@ const card: Card = {
 		en: "Rocket's Scyther ex",
 		de: "Rockets Sichlor ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		123,
 	],
+
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -68,12 +72,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -81,9 +87,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276394,
+		tcgplayer: 88789
+	}
 }
 
 export default card

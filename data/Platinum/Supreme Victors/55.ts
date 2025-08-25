@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Ceriflor",
 		de: "Kinoso"
 	},
+
 	illustrator: "Saya Tsuruta",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		421,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Cherubi",
 		fr: "Ceribou",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -56,22 +60,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278746
+	}
 }
 
 export default card

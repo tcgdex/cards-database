@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Typhlosion δ",
 		de: "Tornupto"
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		157,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Quilava",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -60,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -67,10 +74,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277217
+	}
 }
 
 export default card

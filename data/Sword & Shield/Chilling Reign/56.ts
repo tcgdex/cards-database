@@ -67,6 +67,11 @@ const card: Card = {
 
 	description: {
 		en: "If you get the feeling of being watched in darkness when nobody is around, Haunter is there."
+	},
+
+	thirdParty: {
+		cardmarket: 567136,
+		tcgplayer: 241715
 	}
 }
 

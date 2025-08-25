@@ -72,6 +72,11 @@ const card: Card = {
 
 	description: {
 		en: "Its venom sacs produce a fluid that this Pokémon then heats up with the flame in its tail. This process creates Salandit's poisonous gas."
+	},
+
+	thirdParty: {
+		cardmarket: 436299,
+		tcgplayer: 208305
 	}
 }
 

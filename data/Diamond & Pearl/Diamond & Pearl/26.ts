@@ -80,6 +80,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il flotte grâce à sa bouée très développée. Il vole au secours des gens sur le point de se noyer."
+	},
+
+	thirdParty: {
+		cardmarket: 277525,
+		tcgplayer: 85511
 	}
 }
 

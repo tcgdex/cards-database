@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Gothitelle",
 		de: "Morbitesse"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		576,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gothorita",
 		fr: "Mesmérella",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Gothorita",
 		de: "Hypnomorba"
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -80,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -89,8 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281705,
+		tcgplayer: 92216
+	}
 }
 
 export default card

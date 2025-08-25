@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Magneton",
 		de: "Magneton"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		82,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Magnemite",
 		fr: "Magnéti",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -72,22 +76,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 355554,
+		tcgplayer: 165686
+	}
 }
 
 export default card

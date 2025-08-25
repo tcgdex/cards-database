@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Professor Sycamore",
 		de: "Prof. Platan"
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez votre main et piochez 7 cartes.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Descarte sua mão e compre 7 cards.",
 		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 291561,
+		tcgplayer: 121238
+	}
 }
 
 export default card

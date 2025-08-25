@@ -33,7 +33,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "nagimiso"
+	illustrator: "nagimiso",
+
+	thirdParty: {
+		cardmarket: 725274
+	}
 }
 
 export default card

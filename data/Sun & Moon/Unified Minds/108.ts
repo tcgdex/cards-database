@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Breloom",
 		de: "Kapilz"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		286,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Shroomish",
 		fr: "Balignon",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -76,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -85,8 +90,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 388342,
+		tcgplayer: 195061
+	}
 }
 
 export default card

@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Rhyhorn",
 		de: "Rihorn"
 	},
+
 	illustrator: "otumami",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		111,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -64,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -73,8 +76,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 372383,
+		tcgplayer: 189192
+	}
 }
 
 export default card

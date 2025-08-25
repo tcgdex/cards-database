@@ -80,6 +80,11 @@ const card: Card = {
 
 	description: {
 		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
+	},
+
+	thirdParty: {
+		cardmarket: 539088,
+		tcgplayer: 232389
 	}
 }
 

@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Armulys",
 		de: "Schaloko"
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		266,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Wurmple",
 		fr: "Chenipotte",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -69,8 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 278484,
+		tcgplayer: 89213
+	}
 }
 
 export default card

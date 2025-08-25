@@ -14,6 +14,11 @@ const card: Card = {
 
 	effect: {
 		de: "Du kannst in jedem Zug nur 1 Unterstützer-Karte spielen. Wenn du diese Karte ausspielst, lege sie neben dein aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Durchsuche dein Deck nach bis zu 2 Unterstützer- bzw. Stadion-Karten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
+	},
+
+	thirdParty: {
+		cardmarket: 275378,
+		tcgplayer: 88683
 	}
 }
 

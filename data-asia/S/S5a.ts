@@ -21,6 +21,10 @@ const set: Set = {
 		'zh-tw': '2021-04-02',
 		th: '2021-04-30',
 		id: '2021-07-02'
+	},
+
+	thirdParty: {
+		cardmarket: 3751
 	}
 }
 

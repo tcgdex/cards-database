@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [115],
+
 	name: {
 		en: "Kangaskhan",
 		fr: "Kangourex",
@@ -88,6 +89,11 @@ const card: Card = {
 
 	description: {
 		en: "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it."
+	},
+
+	thirdParty: {
+		cardmarket: 483544,
+		tcgplayer: 219328
 	}
 }
 

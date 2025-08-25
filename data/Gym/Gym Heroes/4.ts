@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Erika's Dragonair",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		148,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Dratini",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -63,9 +67,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274140,
+		tcgplayer: 85290
+	}
 }
 
 export default card

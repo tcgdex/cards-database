@@ -55,7 +55,11 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "D",
-	stage: "VMAX"
+	stage: "VMAX",
+
+	thirdParty: {
+		cardmarket: 539953
+	}
 }
 
 export default card

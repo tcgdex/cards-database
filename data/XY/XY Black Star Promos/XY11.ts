@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Skiddo",
 		fr: "Cabriolaine",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		672,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -40,6 +42,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -49,8 +52,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281336
+	}
 }
 
 export default card

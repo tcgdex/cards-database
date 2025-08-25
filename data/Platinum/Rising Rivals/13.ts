@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Tengalice Niv. 55",
 		de: "Tengulist"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		275,
 	],
+
 	hp: 130,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Nuzleaf",
 		fr: "Pifeuil",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -79,22 +85,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278587,
+		tcgplayer: 89158
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Kyogre",
 		fr: "Kyogre",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		382,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -65,8 +68,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 289704
+	}
 }
 
 export default card

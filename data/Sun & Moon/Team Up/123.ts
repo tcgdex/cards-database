@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Pidgeotto",
 		de: "Tauboga"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		17,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Pidgey",
 		fr: "Roucool",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -68,22 +74,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 369050,
+		tcgplayer: 183912
+	}
 }
 
 export default card

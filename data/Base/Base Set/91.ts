@@ -16,6 +16,11 @@ const card: Card = {
 	effect: {
 		fr: "Piochez 2 cartes.",
 		de: "Ziehe 2 Karten."
+	},
+
+	thirdParty: {
+		cardmarket: 273786,
+		tcgplayer: 42435
 	}
 }
 

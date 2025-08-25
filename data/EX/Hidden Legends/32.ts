@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Corayon",
 		de: "Corasonn"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		222,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,10 +66,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276106,
+		tcgplayer: 84439
+	}
 }
 
 export default card

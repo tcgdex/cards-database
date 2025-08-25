@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Porygon-Z",
 		de: "Porygon-Z"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		474,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
@@ -47,8 +50,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 278149,
+		tcgplayer: 88321
+	}
 }
 
 export default card

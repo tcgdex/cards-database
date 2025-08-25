@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Looker",
 		de: "LeBelle"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 3 cartes du dessous de votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Compre as 3 últimas cartas do seu baralho.",
 		de: "Ziehe 3 Karten von unten aus deinem Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 316051,
+		tcgplayer: 157743
+	}
 }
 
 export default card

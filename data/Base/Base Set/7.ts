@@ -65,6 +65,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il distribue des séries de coups de poing rapides comme l'éclair, invisibles à l'œil nu."
+	},
+
+	thirdParty: {
+		cardmarket: 273702,
+		tcgplayer: 42415
 	}
 }
 

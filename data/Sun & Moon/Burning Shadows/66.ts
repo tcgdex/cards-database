@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Rhydon",
 		de: "Rizeros"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		112,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 299569,
+		tcgplayer: 138552
+	}
 }
 
 export default card

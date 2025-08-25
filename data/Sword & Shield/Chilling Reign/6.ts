@@ -74,6 +74,11 @@ const card: Card = {
 
 	description: {
 		en: "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying."
+	},
+
+	thirdParty: {
+		cardmarket: 567086,
+		tcgplayer: 241653
 	}
 }
 

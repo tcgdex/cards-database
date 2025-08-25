@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [637],
+
 	name: {
 		en: "Volcarona",
 		fr: "Pyrax",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "According to legends, it was hatched from a flaming cocoon to save people and Pokémon that were suffering from the cold."
+	},
+
+	thirdParty: {
+		cardmarket: 483024,
+		tcgplayer: 219244
 	}
 }
 

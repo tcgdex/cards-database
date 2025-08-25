@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [616],
+
 	name: {
 		en: "Shelmet",
 		fr: "Escargaume",
@@ -62,6 +63,11 @@ const card: Card = {
 
 	description: {
 		en: "When attacked, it tightly shuts the lid of its shell. This reaction fails to protect it from Karrablast, however, because they can still get into the shell."
+	},
+
+	thirdParty: {
+		cardmarket: 482919,
+		tcgplayer: 219081
 	}
 }
 

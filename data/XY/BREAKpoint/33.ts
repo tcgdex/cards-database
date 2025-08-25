@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Tympole",
 		de: "Schallquap"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		535,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,6 +70,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -77,8 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 288208,
+		tcgplayer: 111540
+	}
 }
 
 export default card

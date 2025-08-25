@@ -66,6 +66,11 @@ const card: Card = {
 
 	description: {
 		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
+	},
+
+	thirdParty: {
+		cardmarket: 436279,
+		tcgplayer: 208301
 	}
 }
 

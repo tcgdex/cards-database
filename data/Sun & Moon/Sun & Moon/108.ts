@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Toucannon",
 		de: "Tukanon"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		733,
 	],
+
 	hp: 140,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Trumbeak",
 		fr: "Piclairon",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -80,22 +84,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 295420,
+		tcgplayer: 126980
+	}
 }
 
 export default card

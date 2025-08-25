@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Butterfree",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		12,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Metapod",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -55,12 +59,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -68,9 +74,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 273957,
+		tcgplayer: 42473
+	}
 }
 
 export default card

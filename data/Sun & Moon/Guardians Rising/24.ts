@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Tentacruel",
 		de: "Tentoxa"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		73,
 	],
+
 	hp: 110,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Tentacool",
 		fr: "Tentacool",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -80,6 +84,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -89,8 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 297487,
+		tcgplayer: 130924
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [102],
+
 	name: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
@@ -62,6 +63,11 @@ const card: Card = {
 
 	description: {
 		en: "Six of them form a single Pokémon. Should one of the six be lost, the next morning there will once more be six."
+	},
+
+	thirdParty: {
+		cardmarket: 511440,
+		tcgplayer: 226364
 	}
 }
 

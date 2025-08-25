@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Draco",
 		de: "Dragonir"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		148,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Dratini",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -46,11 +50,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274950,
+		tcgplayer: 84898
+	}
 }
 
 export default card

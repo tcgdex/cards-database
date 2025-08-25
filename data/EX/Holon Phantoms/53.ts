@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Sharpedo δ",
 		de: "Tohaido"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		319,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Carvanha",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -64,6 +68,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -71,10 +76,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277023
+	}
 }
 
 export default card

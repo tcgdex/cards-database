@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Trapinch",
 		de: "Knacklion"
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		328,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,22 +57,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280670,
+		tcgplayer: 90025
+	}
 }
 
 export default card

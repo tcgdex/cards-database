@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		en: "Their skin is so thin that they'll be burned if sunlight hits them. When it gets cold out, they gather together to warm one another's bodies."
+	},
+
+	thirdParty: {
+		cardmarket: 545536,
+		tcgplayer: 234199
 	}
 }
 

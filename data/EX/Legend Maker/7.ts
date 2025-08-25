@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Kabutops",
 		de: "Kabutops"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		141,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Kabuto",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -84,10 +91,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276884,
+		tcgplayer: 86397
+	}
 }
 
 export default card

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Magby",
 		de: "Magby"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		240,
 	],
+
 	hp: 30,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,11 +44,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274892,
+		tcgplayer: 87000
+	}
 }
 
 export default card

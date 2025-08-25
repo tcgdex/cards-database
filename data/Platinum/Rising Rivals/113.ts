@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Pikachu volant Niv. 12",
 		de: "Fliegendes Pikachu"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		25,
 	],
+
 	hp: 40,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -68,10 +70,13 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278687,
+		tcgplayer: 85535
+	}
 }
 
 export default card

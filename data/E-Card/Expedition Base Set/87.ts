@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Chrysacier",
 		de: "Safcon"
 	},
+
 	illustrator: "Yuichi Sawayama",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		11,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Caterpie",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -61,10 +68,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274962,
+		tcgplayer: 87388
+	}
 }
 
 export default card

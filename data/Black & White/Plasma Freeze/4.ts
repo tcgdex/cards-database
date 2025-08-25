@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Exeggcute",
 		de: "Owei"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		102,
 	],
+
 	hp: 30,
+
 	types: [
 		"Grass",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,22 +65,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 280882,
+		tcgplayer: 85350
+	}
 }
 
 export default card

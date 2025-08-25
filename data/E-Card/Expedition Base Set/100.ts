@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Germignon",
 		de: "Endivie"
 	},
+
 	illustrator: "Motofumi Fujiwara",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		152,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,12 +58,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -69,9 +73,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 274974,
+		tcgplayer: 84275
+	}
 }
 
 export default card
