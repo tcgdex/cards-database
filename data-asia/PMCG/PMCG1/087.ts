@@ -4,13 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		en: "Item Finder",
 		ja: "アイテムファインダー",
-		fr: "Findeur d'articles",
-		de: "Element Finder",
-		es: "Buscador de artículos",
-		it: "Finder dell'oggetto",
-		pt: "Localizador de itens",
 	},
 
 	rarity: "Rare",

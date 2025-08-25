@@ -4,13 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		en: "Machop",
 		ja: "マチョップ",
-		fr: "Machop",
-		de: "Machop",
-		es: "Machop",
-		it: "Machop",
-		pt: "Machop",
 	},
 
 	rarity: "Common",
@@ -24,13 +18,7 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				en: "Low Kick",
 				ja: "ローキック",
-				fr: "Coup de pied bas",
-				de: "Niedriger Kick",
-				es: "Patada baja",
-				it: "Calcio basso",
-				pt: "Kick baixo",
 			},
 			damage: 20,
 		},

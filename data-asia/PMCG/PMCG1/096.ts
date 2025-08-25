@@ -4,13 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		en: "Double Colorless Energy",
 		ja: "二重の無色のエネルギー",
-		fr: "Double énergie incolore",
-		de: "Doppelte farblose Energie",
-		es: "Doble energía incolora",
-		it: "Doppia energia incolore",
-		pt: "Energia incolor dupla",
 	},
 
 	rarity: "Uncommon",

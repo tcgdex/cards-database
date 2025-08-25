@@ -4,13 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		en: "Growlithe",
 		ja: "うなり声",
-		fr: "Grogner",
-		de: "Knurren",
-		es: "Gruñido",
-		it: "Growlithe",
-		pt: "Growlithe",
 	},
 
 	rarity: "Uncommon",
@@ -24,13 +18,7 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				en: "Flare",
 				ja: "フレア",
-				fr: "Éclater",
-				de: "Fackel",
-				es: "Llamarada",
-				it: "Bagliore",
-				pt: "Flare",
 			},
 			damage: 20,
 		},

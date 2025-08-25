@@ -4,13 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		en: "Seel",
 		ja: "シール",
-		fr: "Voile",
-		de: "Seel",
-		es: "Buhonilla",
-		it: "Seel",
-		pt: "Seel",
 	},
 
 	rarity: "Uncommon",
@@ -24,13 +18,7 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				en: "Headbutt",
 				ja: "ヘッドバット",
-				fr: "Coup de tête",
-				de: "Headbutt",
-				es: "Cabezal",
-				it: "Headbutt",
-				pt: "Cabeça",
 			},
 			damage: 10,
 		},

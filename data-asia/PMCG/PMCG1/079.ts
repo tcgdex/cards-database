@@ -4,13 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		en: "Defender",
 		ja: "ディフェンダー",
-		fr: "Défenseur",
-		de: "Verteidiger",
-		es: "Defensor",
-		it: "Difensore",
-		pt: "Defensor",
 	},
 
 	rarity: "Uncommon",
