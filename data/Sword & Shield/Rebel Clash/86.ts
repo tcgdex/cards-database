@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [868],
 	set: Set,
 
 	attacks: [
@@ -81,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream."
+	},
+
+	thirdParty: {
+		cardmarket: 457848,
+		tcgplayer: 213172
 	}
 }
 

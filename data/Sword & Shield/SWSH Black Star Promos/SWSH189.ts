@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [841],
 	set: Set,
 
 	name: {
@@ -78,6 +79,10 @@ const card: Card = {
 
 	description: {
 		en: "It flies on wings of apple skin and spits a powerful acid. It can also change its shape into that of an apple."
+	},
+
+	thirdParty: {
+		cardmarket: 453448
 	}
 }
 

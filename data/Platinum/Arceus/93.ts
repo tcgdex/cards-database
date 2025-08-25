@@ -28,7 +28,12 @@ const card: Card = {
 		effect: {
 			de: "Wenn du 1 -Energiekarte von deiner Hand an Helixfossil anlegst (ausgenommen durch Effekte von Angriffen oder Poké-Powern), durchsuche dein Deck nach einer Karte, die sich aus Helixfossil entwickelt, und lege diese auf Helixfossil (dies zählt als Entwickeln von Helixfossil). Mische dein Deck danach."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 278965,
+		tcgplayer: 86058
+	}
 }
 
 export default card

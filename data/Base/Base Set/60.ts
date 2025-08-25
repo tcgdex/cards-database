@@ -65,6 +65,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ses sabots sont plus résistants que le diamant. Il peut aplatir n'importe quoi en le piétinant."
+	},
+
+	thirdParty: {
+		cardmarket: 273755,
+		tcgplayer: 42405
 	}
 }
 

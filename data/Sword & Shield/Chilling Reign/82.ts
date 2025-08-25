@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [562],
 	set: Set,
 
 	name: {
@@ -61,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "It's said that this Pokémon was formed when an ancient clay tablet was drawn to a vengeful spirit."
+	},
+
+	thirdParty: {
+		cardmarket: 567190,
+		tcgplayer: 241749
 	}
 }
 

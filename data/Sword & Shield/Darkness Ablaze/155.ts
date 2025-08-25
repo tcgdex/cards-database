@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [822],
+
 	name: {
 		en: "Corvisquire",
 		fr: "Bleuseille",
@@ -103,6 +104,11 @@ const card: Card = {
 
 	description: {
 		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
+	},
+
+	thirdParty: {
+		cardmarket: 483654,
+		tcgplayer: 219370
 	}
 }
 

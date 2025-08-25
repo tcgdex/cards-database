@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Kabuto",
 		de: "Kabuto"
 	},
+
 	illustrator: "Takao Unno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		140,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Mysterious Fossil",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -59,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -66,10 +73,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276884,
+		tcgplayer: 86384
+	}
 }
 
 export default card

@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Luxray  Niv. 48",
 		de: "Luxtra GL"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		405,
 	],
+
 	hp: 80,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,22 +60,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		tcgplayer: 86951
+	}
 }
 
 export default card

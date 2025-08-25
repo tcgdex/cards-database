@@ -48,7 +48,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "HYOGONOSUKE"
+	illustrator: "HYOGONOSUKE",
+
+	thirdParty: {
+		cardmarket: 725160
+	}
 }
 
 export default card

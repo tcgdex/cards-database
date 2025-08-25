@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [196],
 	set: Set,
 
 	name: {
@@ -80,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "It unleashes psychic power from the orb on its forehead. When its power is exhausted, the orb grows dull and dark."
+	},
+
+	thirdParty: {
+		cardmarket: 583201
 	}
 }
 

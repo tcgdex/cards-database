@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Astral Radiance"
 
 const card: Card = {
+	dexId: [100],
 	set: Set,
 
 	name: {
@@ -60,6 +61,11 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 658487,
+		tcgplayer: 272202
 	}
 }
 

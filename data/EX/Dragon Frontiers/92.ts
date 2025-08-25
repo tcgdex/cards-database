@@ -7,21 +7,26 @@ const card: Card = {
 		fr: "Libegon ex δ",
 		de: "Libelldra ex"
 	},
+
 	illustrator: "Nakaoka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		330,
 	],
+
 	hp: 150,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Vibrava",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -39,6 +44,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,11 +67,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 277297
+	}
 }
 
 export default card

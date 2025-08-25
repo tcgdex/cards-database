@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
+	dexId: [911],
 	set: Set,
 
 	name: {
@@ -78,7 +79,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "nagimiso"
+	illustrator: "nagimiso",
+
+	thirdParty: {
+		cardmarket: 702333
+	}
 }
 
 export default card

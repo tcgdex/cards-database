@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		en: "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it."
+	},
+
+	thirdParty: {
+		cardmarket: 545556,
+		tcgplayer: 234224
 	}
 }
 

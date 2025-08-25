@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [369],
+
 	name: {
 		en: "Relicanth",
 		fr: "Relicanth",
@@ -85,6 +86,11 @@ const card: Card = {
 
 	description: {
 		en: "The reason it hasn't changed at all in a hundred million years is that it's apparently already a perfect life-form."
+	},
+
+	thirdParty: {
+		cardmarket: 483079,
+		tcgplayer: 219322
 	}
 }
 

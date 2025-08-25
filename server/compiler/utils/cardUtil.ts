@@ -1,5 +1,5 @@
 /* eslint-disable sort-keys */
-import { exec } from 'child_process'
+import pathLib from 'node:path'
 import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
 import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
 import { getSet, setToSetSimple } from './setUtil'
@@ -166,7 +166,9 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			name: resolveText(booster.name, lang),
 			// images will be coming soon...
 		})) : undefined,
-		updated: await getCardLastEdit(localId, card, lang)
+		updated: await getCardLastEdit(localId, card, lang),
+
+		thirdParty: card.thirdParty
 	}
 }
 
@@ -197,7 +199,7 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 	}
 	const list: Array<[string, Card]> = []
 	for (const path of cards) {
-		let items = path.split('/')
+		let items = path.split(pathLib.sep)
 		items = items.slice(items.length - 3)
 
 		// get the card id

@@ -50,6 +50,10 @@ const card: Card = {
 
 	description: {
 		en: "It throws one knifelike feather after another at its enemies, and each one precisely strikes a weak point. These feathers are known as blade quills."
+	},
+
+	thirdParty: {
+		cardmarket: 539058
 	}
 }
 

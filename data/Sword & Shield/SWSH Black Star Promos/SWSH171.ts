@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [380],
 	set: Set,
 
 	name: {
@@ -70,6 +71,10 @@ const card: Card = {
 
 	description: {
 		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light."
+	},
+
+	thirdParty: {
+		cardmarket: 580168
 	}
 }
 

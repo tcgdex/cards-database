@@ -10,22 +10,27 @@ const card: Card = {
 		pt: "Blissey",
 		de: "Heiteira"
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		242,
 	],
+
 	hp: 160,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Chansey",
 		fr: "Leveinard",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -77,6 +83,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -86,8 +93,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 297695,
+		tcgplayer: 131020
+	}
 }
 
 export default card

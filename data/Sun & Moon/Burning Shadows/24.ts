@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Heatmor",
 		de: "Furnifraß"
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		631,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -76,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -85,8 +88,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 299430,
+		tcgplayer: 138502
+	}
 }
 
 export default card

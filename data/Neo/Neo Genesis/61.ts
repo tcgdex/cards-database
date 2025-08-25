@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		fr: "Afin de ne pas être emportés par le vent, ils se regroupent. Toutefois, ils apprécient une légère brise."
+	},
+
+	thirdParty: {
+		cardmarket: 274461,
+		tcgplayer: 86177
 	}
 }
 

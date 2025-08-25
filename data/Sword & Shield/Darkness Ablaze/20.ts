@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
+	dexId: [6],
 	set: Set,
 	hp: 330,
 
@@ -95,7 +96,12 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+
+	thirdParty: {
+		cardmarket: 482974,
+		tcgplayer: 219233
+	}
 }
 
 export default card

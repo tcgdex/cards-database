@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [865],
 	set: Set,
 
 	name: {
@@ -82,6 +83,11 @@ const card: Card = {
 
 	description: {
 		en: "After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food."
+	},
+
+	thirdParty: {
+		cardmarket: 567187,
+		tcgplayer: 241744
 	}
 }
 

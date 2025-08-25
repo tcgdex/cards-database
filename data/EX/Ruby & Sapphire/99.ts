@@ -7,19 +7,21 @@ const card: Card = {
 		fr: "Lokhlass ex",
 		de: "Lapras ex"
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		131,
 	],
+
 	hp: 110,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -68,10 +71,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 275747,
+		tcgplayer: 86626
+	}
 }
 
 export default card

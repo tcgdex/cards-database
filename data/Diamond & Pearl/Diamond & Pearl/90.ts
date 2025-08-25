@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il imite ses ennemis. Une fois imités, ils ne peuvent plus quitter ce Pokémon des yeux."
+	},
+
+	thirdParty: {
+		cardmarket: 277589,
+		tcgplayer: 87469
 	}
 }
 

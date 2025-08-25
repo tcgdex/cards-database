@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [727],
 	set: Set,
 	hp: 220,
 
@@ -93,7 +94,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 499895,
+		tcgplayer: 222329
+	}
 }
 
 export default card

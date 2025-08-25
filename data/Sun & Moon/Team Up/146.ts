@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Apito do Juiz",
 		de: "Richterpfeife"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez l’une de ces options :\n\n• Piochez une carte.\n• Placez une carte Juge de votre pile de défausse dans votre main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Escolha 1:\n\n• Compre 1 carta.\n• Coloque 1 carta Juiz da sua pilha de descarte na sua mão.",
 		de: "Wähle 1 aus:\n\n• Ziehe 1 Karte.\n• Nimm 1 Richter-Karte aus deinem Ablagestapel auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 369072,
+		tcgplayer: 183943
+	}
 }
 
 export default card

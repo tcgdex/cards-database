@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Battle Styles'
 
 const card: Card = {
+	dexId: [892],
 	set: Set,
 
 	name: {
@@ -80,7 +81,12 @@ const card: Card = {
 		de: "Fokussierter-Angriff-Wulaosu-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 527655,
+		tcgplayer: 234086
+	}
 }
 
 export default card

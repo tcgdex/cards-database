@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Magcargo GX",
 		de: "Magcargo GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		219,
 	],
+
 	hp: 210,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Slugma",
 		fr: "Limagma",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -98,6 +104,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -107,8 +114,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 365684,
+		tcgplayer: 178849
+	}
 }
 
 export default card

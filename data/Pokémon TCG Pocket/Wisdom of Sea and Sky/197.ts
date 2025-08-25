@@ -1,0 +1,23 @@
+import { Card } from "../../../interfaces"
+import Set from "../Wisdom of Sea and Sky"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Lyra"
+	},
+
+	illustrator: "yuu",
+	rarity: "Two Star",
+	category: "Trainer",
+
+	effect: {
+		en: "Switch your Active Pokémon that has damage on it with 1 of your Benched Pokémon."
+	},
+
+	trainerType: "Supporter",
+	boosters: ["lugia"]
+}
+
+export default card

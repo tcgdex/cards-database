@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Battle Styles'
 
 const card: Card = {
+	dexId: [80],
 	set: Set,
 
 	name: {
@@ -90,6 +91,11 @@ const card: Card = {
 
 	description: {
 		en: "If this Pokémon squeezes the tongue of the Shellder biting it, the Shellder will launch a toxic liquid from the tip of its shell."
+	},
+
+	thirdParty: {
+		cardmarket: 545551,
+		tcgplayer: 234204
 	}
 }
 

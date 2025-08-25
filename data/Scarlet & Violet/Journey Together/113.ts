@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Journey Together"
 
 const card: Card = {
+	dexId: [372],
 	set: Set,
 
 	name: {
@@ -62,7 +63,11 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-	illustrator: "Julie Hang"
+	illustrator: "Julie Hang",
+
+	thirdParty: {
+		cardmarket: 817265
+	}
 }
 
 export default card

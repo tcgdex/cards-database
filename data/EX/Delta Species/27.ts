@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Sablaireau δ",
 		de: "Sandamer"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		28,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Sandshrew",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -75,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -82,10 +89,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276790
+	}
 }
 
 export default card

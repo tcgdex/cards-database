@@ -3,6 +3,7 @@ import Set from '../Black & White'
 
 const card: Card = {
 	dexId: [25],
+
 	name: {
 		fr: "Pikachu",
 		en: "Pikachu",
@@ -11,19 +12,18 @@ const card: Card = {
 		pt: "Pikachu",
 		de: "Pikachu"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -58,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -67,8 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 279853,
+		tcgplayer: 88101
+	}
 }
 
 export default card

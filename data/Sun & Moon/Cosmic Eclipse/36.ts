@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Litleo",
 		de: "Leufeo"
 	},
+
 	illustrator: "HYOGONOSUKE",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		667,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -61,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -70,8 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 407829,
+		tcgplayer: 201213
+	}
 }
 
 export default card

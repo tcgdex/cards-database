@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon est un grand timide. Les flammes sur son dos s'intensifient lorsqu'il prend peur."
+	},
+
+	thirdParty: {
+		cardmarket: 277708,
+		tcgplayer: 84551
 	}
 }
 

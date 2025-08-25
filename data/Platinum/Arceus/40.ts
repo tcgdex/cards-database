@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Gulpin",
 		de: "Schluppuck"
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		316,
 	],
@@ -20,7 +21,6 @@ const card: Card = {
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,6 +50,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -59,8 +60,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 278912,
+		tcgplayer: 85978
+	}
 }
 
 export default card

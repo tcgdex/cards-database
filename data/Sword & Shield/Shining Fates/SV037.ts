@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [883],
 	set: Set,
 
 	name: {
@@ -79,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head."
+	},
+
+	thirdParty: {
+		cardmarket: 539573
 	}
 }
 

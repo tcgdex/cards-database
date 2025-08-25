@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Marshadow e Machamp GX",
 		de: "Marshadow & Machomei GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		68,
 	],
+
 	hp: 270,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -96,6 +98,7 @@ const card: Card = {
 			damage: 200
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -105,8 +108,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 370787,
+		tcgplayer: 189307
+	}
 }
 
 export default card

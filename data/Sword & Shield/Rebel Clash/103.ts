@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [688],
+
 	name: {
 		en: "Binacle",
 		fr: "Opermine",
@@ -68,6 +69,11 @@ const card: Card = {
 
 	description: {
 		en: "After two Binacle find a suitably sized rock, they adhere themselves to it and live together. They cooperate to gather food during high tide."
+	},
+
+	thirdParty: {
+		cardmarket: 457928,
+		tcgplayer: 213191
 	}
 }
 

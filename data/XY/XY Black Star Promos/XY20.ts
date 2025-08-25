@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Greninja EX",
 		fr: "Amphinobi EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		658,
 	],
+
 	hp: 170,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -64,8 +67,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 281310
+	}
 }
 
 export default card

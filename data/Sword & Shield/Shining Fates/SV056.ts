@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [858],
 	set: Set,
 
 	name: {
@@ -84,6 +85,10 @@ const card: Card = {
 
 	description: {
 		en: "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others."
+	},
+
+	thirdParty: {
+		cardmarket: 539668
 	}
 }
 

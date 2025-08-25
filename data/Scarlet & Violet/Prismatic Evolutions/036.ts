@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
+	dexId: [356],
 	set: Set,
 
 	name: {
@@ -58,7 +59,11 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "Aya Kusube"
+	illustrator: "Aya Kusube",
+
+	thirdParty: {
+		cardmarket: 805425
+	}
 }
 
 export default card

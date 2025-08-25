@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Drapion",
 		de: "Piondragi"
 	},
+
 	illustrator: "Studio Bora Inc.",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		452,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Skorupi",
 		fr: "Rapion",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -66,8 +71,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 315985,
+		tcgplayer: 157672
+	}
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [52],
+
 	name: {
 		en: "Galarian Meowth",
 		fr: "Miaouss de Galar",
@@ -89,6 +90,11 @@ const card: Card = {
 
 	description: {
 		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron."
+	},
+
+	thirdParty: {
+		cardmarket: 458028,
+		tcgplayer: 213222
 	}
 }
 

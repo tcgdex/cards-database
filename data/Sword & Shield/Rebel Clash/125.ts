@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "nagimiso",
 	rarity: "Holo Rare",
 	category: "Pokemon",
+	dexId: [861],
 	set: Set,
 
 	evolveFrom: {
@@ -98,6 +99,11 @@ const card: Card = {
 
 	description: {
 		en: "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp."
+	},
+
+	thirdParty: {
+		cardmarket: 458023,
+		tcgplayer: 213221
 	}
 }
 

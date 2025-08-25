@@ -26,6 +26,11 @@ const xy4: Set = {
 	abbreviations: {
 		official: "PHF",
 		fr: "VSP"
+	},
+
+	thirdParty: {
+		cardmarket: 1521,
+		tcgplayer: 1494
 	}
 }
 

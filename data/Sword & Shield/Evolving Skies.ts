@@ -25,6 +25,11 @@ const swsh6: Set = {
 	abbreviations: {
 		official: "EVS",
 		fr: "EVC"
+	},
+
+	thirdParty: {
+		cardmarket: 4328,
+		tcgplayer: 2848
 	}
 }
 

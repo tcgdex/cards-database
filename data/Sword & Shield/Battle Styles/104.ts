@@ -88,6 +88,11 @@ const card: Card = {
 
 	description: {
 		en: "Violent conflicts erupt between Bisharp and Fraxure over places where sharpening stones can be found."
+	},
+
+	thirdParty: {
+		cardmarket: 545601,
+		tcgplayer: 234193
 	}
 }
 

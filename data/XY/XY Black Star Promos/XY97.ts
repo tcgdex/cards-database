@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Aerodactyl EX",
 		fr: "Ptéra EX",
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		142,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "EX",
 
@@ -53,22 +55,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 289817
+	}
 }
 
 export default card

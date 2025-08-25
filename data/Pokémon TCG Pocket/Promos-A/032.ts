@@ -20,7 +20,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+		en: "It has a preference for hot things. When it rains,\nsteam is said to spout from the tip of its tail.",
 		fr: "Il préfère ce qui est chaud. En cas de pluie,\nde la vapeur se forme autour de sa queue.",
 		es: "Prefiere las cosas calientes. Dicen que cuando\nllueve le sale vapor de la punta de la cola.",
 		it: "Ama le cose calde. Si dice che quando piove\ngli esca vapore dalla punta della coda.",

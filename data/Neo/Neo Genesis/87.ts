@@ -16,6 +16,11 @@ const card: Card = {
 	effect: {
 		fr: "Piochez 2 cartes. Ensuite, mélangez 2 cartes de votre main avec votre deck.",
 		de: "Draw 2 cards. Then, shuffle 2 cards from your hand into your deck."
+	},
+
+	thirdParty: {
+		cardmarket: 274487,
+		tcgplayer: 87241
 	}
 }
 

@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il baigne ses griffes dans le miel pour les lécher. Chaque paire de pattes a un goût unique."
+	},
+
+	thirdParty: {
+		cardmarket: 277734,
+		tcgplayer: 89858
 	}
 }
 

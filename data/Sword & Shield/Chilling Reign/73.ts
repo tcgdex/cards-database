@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [858],
 	set: Set,
 
 	name: {
@@ -97,6 +98,11 @@ const card: Card = {
 
 	description: {
 		en: "If you're too loud around it, you risk being torn apart by the claws on its tentacle. This Pokémon is also known as the Forest Witch."
+	},
+
+	thirdParty: {
+		cardmarket: 567181,
+		tcgplayer: 241734
 	}
 }
 

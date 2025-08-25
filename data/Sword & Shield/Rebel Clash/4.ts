@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [123],
+
 	name: {
 		en: "Scyther",
 		fr: "Insécateur",
@@ -81,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "Its two sharp scythes are more than just weapons. It uses them with dexterity to dress its prey before eating."
+	},
+
+	thirdParty: {
+		cardmarket: 457398,
+		tcgplayer: 213074
 	}
 }
 

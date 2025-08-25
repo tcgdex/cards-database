@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [470],
 	set: Set,
 
 	name: {
@@ -80,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon's tail is blade sharp, with a fantastic cutting edge that can slice right though large trees."
+	},
+
+	thirdParty: {
+		cardmarket: 604996
 	}
 }
 

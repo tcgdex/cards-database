@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [844],
 	set: Set,
 
 	attacks: [
@@ -87,7 +88,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 457953,
+		tcgplayer: 213199
+	}
 }
 
 export default card

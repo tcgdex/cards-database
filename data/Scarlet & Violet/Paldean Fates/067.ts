@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Paldean Fates"
 
 const card: Card = {
+	dexId: [1000],
 	set: Set,
 
 	name: {
@@ -70,7 +71,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Mitsuhiro Arita"
+	illustrator: "Mitsuhiro Arita",
+
+	thirdParty: {
+		cardmarket: 751605
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Huntail",
 		de: "Aalabyss"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		367,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Clamperl",
 		fr: "Coquiperl",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Clamperl",
 		de: "Perlu"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -92,8 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 273581,
+		tcgplayer: 95948
+	}
 }
 
 export default card

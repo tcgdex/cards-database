@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Lost Origin"
 
 const card: Card = {
+	dexId: [706],
 	set: Set,
 
 	name: {
@@ -73,6 +74,11 @@ const card: Card = {
 		"normal": false,
 		"reverse": true,
 		"holo": true
+	},
+
+	thirdParty: {
+		cardmarket: 670817,
+		tcgplayer: 284055
 	}
 }
 

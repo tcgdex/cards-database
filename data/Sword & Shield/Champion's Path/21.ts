@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [864],
 	set: Set,
 	hp: 190,
 
@@ -95,7 +96,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 499960,
+		tcgplayer: 223014
+	}
 }
 
 export default card

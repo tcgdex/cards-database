@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Doté d'un esprit de compétition, il poursuit toute créature rapide pour faire la course."
+	},
+
+	thirdParty: {
+		cardmarket: 273841,
+		tcgplayer: 45147
 	}
 }
 

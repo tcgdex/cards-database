@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [293],
+
 	name: {
 		en: "Whismur",
 		fr: "Chuchmur",
@@ -70,6 +71,11 @@ const card: Card = {
 
 	description: {
 		en: "If it senses danger, it scares the foe by crying out with the volume of a jet-plane engine."
+	},
+
+	thirdParty: {
+		cardmarket: 512385,
+		tcgplayer: 226591
 	}
 }
 

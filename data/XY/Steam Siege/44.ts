@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Nidorino",
 		de: "Nidorino"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		33,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Nidoran♂",
 		fr: "Nidoran♂",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Nidoran♂",
 		de: "Nidoran♂"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 291620,
+		tcgplayer: 121133
+	}
 }
 
 export default card

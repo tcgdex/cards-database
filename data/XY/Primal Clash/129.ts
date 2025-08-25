@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Conjunto de Água Fresca",
 		de: "Tafelwasserpack"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Soignez 20 dégâts à chacun de vos Pokémon.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Cure 20 de danos de cada um dos seus Pokémon.",
 		de: "Heile 20 Schadenspunkte bei jedem deiner Pokémon."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 273660,
+		tcgplayer: 96027
+	}
 }
 
 export default card

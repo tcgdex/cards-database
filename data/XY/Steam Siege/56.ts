@@ -92,6 +92,11 @@ const card: Card = {
 		it: "Fossilunghia",
 		pt: "Claw Fossil",
 		de: "Klauenfossil"
+	},
+
+	thirdParty: {
+		cardmarket: 291626,
+		tcgplayer: 121186
 	}
 }
 

@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Battle Styles'
 
 const card: Card = {
+	dexId: [841],
 	set: Set,
 
 	name: {
@@ -68,7 +69,12 @@ const card: Card = {
 		de: "Drapfel-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545001,
+		tcgplayer: 234079
+	}
 }
 
 export default card

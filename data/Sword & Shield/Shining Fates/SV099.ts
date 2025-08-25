@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [819],
 	set: Set,
 
 	name: {
@@ -56,6 +57,10 @@ const card: Card = {
 
 	description: {
 		en: "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
+	},
+
+	thirdParty: {
+		cardmarket: 539883
 	}
 }
 

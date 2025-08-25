@@ -53,6 +53,11 @@ const card: Card = {
 
 	description: {
 		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+	},
+
+	thirdParty: {
+		cardmarket: 567081,
+		tcgplayer: 241648
 	}
 }
 

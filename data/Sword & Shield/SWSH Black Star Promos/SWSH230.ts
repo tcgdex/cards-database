@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [133],
 	set: Set,
 
 	name: {
@@ -59,6 +60,10 @@ const card: Card = {
 
 	description: {
 		en: "It has the ability to alter the composition of its body to suit its surrounding environment."
+	},
+
+	thirdParty: {
+		cardmarket: 653697
 	}
 }
 

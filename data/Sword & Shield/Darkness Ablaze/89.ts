@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [328],
+
 	name: {
 		en: "Trapinch",
 		fr: "Kraknoix",
@@ -69,6 +70,11 @@ const card: Card = {
 
 	description: {
 		en: "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape."
+	},
+
+	thirdParty: {
+		cardmarket: 483324,
+		tcgplayer: 219479
 	}
 }
 

@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [408],
 	set: Set,
 
 	name: {
@@ -71,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "Its hard skull is its distinguishing feature. It snapped trees by headbutting them, and then it fed on their ripe berries."
+	},
+
+	thirdParty: {
+		cardmarket: 684386
 	}
 }
 

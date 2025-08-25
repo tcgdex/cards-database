@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Evolving Skies'
 
 const card: Card = {
+	dexId: [894],
 	set: Set,
 
 	variants: {
@@ -73,7 +74,12 @@ const card: Card = {
 		en: "Its entire body is made up of a single organ that generates electrical energy. Regieleki is capable of creating all Galar's electricity."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574084,
+		tcgplayer: 246902
+	}
 }
 
 export default card

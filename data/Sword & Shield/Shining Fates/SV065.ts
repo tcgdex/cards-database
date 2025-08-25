@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [562],
 	set: Set,
 
 	name: {
@@ -53,6 +54,10 @@ const card: Card = {
 
 	description: {
 		en: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power."
+	},
+
+	thirdParty: {
+		cardmarket: 539713
 	}
 }
 

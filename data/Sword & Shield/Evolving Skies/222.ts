@@ -33,7 +33,12 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	illustrator: "Sanosuke Sakuma"
+	illustrator: "Sanosuke Sakuma",
+
+	thirdParty: {
+		cardmarket: 574201,
+		tcgplayer: 246794
+	}
 }
 
 export default card

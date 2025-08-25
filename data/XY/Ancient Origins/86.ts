@@ -89,7 +89,12 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	stage: "Basic"
+	stage: "Basic",
+
+	thirdParty: {
+		cardmarket: 284206,
+		tcgplayer: 101508
+	}
 }
 
 export default card

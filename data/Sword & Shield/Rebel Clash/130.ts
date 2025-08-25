@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [437],
+
 	name: {
 		en: "Bronzong",
 		fr: "Archéodong",
@@ -100,6 +101,11 @@ const card: Card = {
 
 	description: {
 		en: "Some believe it to be a deity that summons rain clouds. When angered, it lets out a warning cry that rings out like the tolling of a bell."
+	},
+
+	thirdParty: {
+		cardmarket: 458048,
+		tcgplayer: 213226
 	}
 }
 

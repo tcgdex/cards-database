@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il se nourrit de noix qu'il épluche avec ses deux queues habiles. Il utilise de moins en moins ses bras."
+	},
+
+	thirdParty: {
+		cardmarket: 277632,
+		tcgplayer: 83526
 	}
 }
 

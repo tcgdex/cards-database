@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Temporal Forces"
 
 const card: Card = {
+	dexId: [995],
 	set: Set,
 
 	name: {
@@ -63,7 +64,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Takeshi Nakamura"
+	illustrator: "Takeshi Nakamura",
+
+	thirdParty: {
+		cardmarket: 760692
+	}
 }
 
 export default card

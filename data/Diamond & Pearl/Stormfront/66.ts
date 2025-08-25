@@ -7,23 +7,27 @@ const card: Card = {
 		fr: "Magneti",
 		de: "Magnetilo"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		81,
 	],
+
 	hp: 50,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		fr: "Magneti",
 	},
-	stage: "Basic",
 
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -45,22 +49,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278364,
+		tcgplayer: 87082
+	}
 }
 
 export default card

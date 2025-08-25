@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [78],
 	set: Set,
 
 	name: {
@@ -71,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind."
+	},
+
+	thirdParty: {
+		cardmarket: 681799
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [828],
+
 	name: {
 		en: "Thievul",
 		fr: "Roublenard",
@@ -94,6 +95,11 @@ const card: Card = {
 
 	description: {
 		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
+	},
+
+	thirdParty: {
+		cardmarket: 483444,
+		tcgplayer: 219427
 	}
 }
 

@@ -7,25 +7,18 @@ const card: Card = {
 		fr: "Énergie Électrique",
 		de: "Elektroenergie"
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 277625,
+		tcgplayer: 86767
+	}
 }
 
 export default card

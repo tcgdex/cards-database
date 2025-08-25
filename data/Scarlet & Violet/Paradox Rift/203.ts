@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Paradox Rift"
 
 const card: Card = {
+	dexId: [988],
 	set: Set,
 
 	name: {
@@ -71,7 +72,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Takeshi Nakamura"
+	illustrator: "Takeshi Nakamura",
+
+	thirdParty: {
+		cardmarket: 740623
+	}
 }
 
 export default card

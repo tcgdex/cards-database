@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [860],
 	set: Set,
 
 	evolveFrom: {
@@ -92,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "When it gets down on all fours as if to beg for forgiveness, it's trying to lure opponents in so that it can stab them with its spear-like hair."
+	},
+
+	thirdParty: {
+		cardmarket: 458018,
+		tcgplayer: 213220
 	}
 }
 

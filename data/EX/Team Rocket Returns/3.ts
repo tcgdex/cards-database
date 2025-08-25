@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Dark Crobat",
 		de: "Dunkles Iksbat"
 	},
+
 	illustrator: "Kyoko Koizumi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		169,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Dark Golbat",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -69,12 +75,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -82,9 +90,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276295,
+		tcgplayer: 84577
+	}
 }
 
 export default card

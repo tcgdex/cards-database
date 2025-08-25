@@ -1,7 +1,7 @@
 import { objectKeys, objectLoop, objectMap } from '@dzeio/object-util'
 import express from 'express'
-import Serie from './V2/Components/Serie'
-import Set from './V2/Components/Set'
+import { findOneSerie } from './V2/Components/Serie'
+import { findOneSet } from './V2/Components/Set'
 
 import de from '../generated/de/stats.json'
 import en from '../generated/en/stats.json'
@@ -125,7 +125,7 @@ objectLoop(langs, (stats, key) => preProcessSets(stats, key))
 
 // Yes this is ugly
 export default express.Router()
-.get('/github.svg', (_, res): void => {
+.get('/github.svg', async (_, res): Promise<void> => {
 	res.setHeader('Content-Type', 'image/svg+xml')
 	res.send(`<svg width="1429" height="726" viewBox="0 0 1429 726" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<rect width="1429" height="726" fill="white"/>
@@ -217,7 +217,7 @@ export default express.Router()
 	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1305.93" y="652">${totalAsia.count + totalAsia.images}&#10;</tspan><tspan x="1325.82" y="672">of&#10;</tspan><tspan x="1305.93" y="692">${totalAsia.total * 2}&#10;</tspan><tspan x="1309.17" y="712">(${(100 * (totalAsia.count + totalAsia.images) / (totalAsia.total * 2)).toFixed(2)}%)</tspan></text>
 </svg>`)
 })
-.get('/', (_, res): void => {
+.get('/', async (_, res): Promise<void> => {
 
 	res.send(`
 <!DOCTYPE html>
@@ -347,9 +347,9 @@ export default express.Router()
 
 
 		<table class="serie">
-		${objectMap(setsData, (serie, serieId) => {
+		${(await Promise.all(objectMap(setsData, async (serie, serieId) => {
 			// Loop through every series and name them
-			const name = Serie.findOne('en', { id: serieId })?.name ?? Serie.findOne('ja' as any, { id: serieId })?.name
+			const name = (await findOneSerie('en', { id: serieId }))?.name ?? (await findOneSerie('ja' as any, { id: serieId }))?.name
 			return `
 				<thead>
 					<tr><th class="notop" colspan="35"><h2>${name} (${serieId})</h2></th></tr>
@@ -363,11 +363,11 @@ export default express.Router()
 					</tr>
 				</thead>
 				<tbody>
-					${objectMap(serie, (data, setId) => {
+					${(await Promise.all(objectMap(serie, async (data, setId) => {
 						// loop through every sets
 
 						// find the set in the first available language (Should be English globally)
-						const setTotal = Set.findOne(data[0] as 'en', { id: setId })
+						const setTotal = await findOneSet(data[0] as 'en', { id: setId })
 						let str = '<tr>' + `<td>${setTotal?.name} (${setId}) <br />${setTotal?.cardCount.total ?? 1} cards</td>`
 						// let str = '<tr>' + `<td>${setId})</td>`
 
@@ -400,9 +400,9 @@ export default express.Router()
 
 						// finish Row
 						return str + '</tr>'
-					}).join('')}
+					}))).join('')}
 				</tbody>
-			`}).join('')}
+			`}))).join('')}
 		</table>
 	</body>
 </html>

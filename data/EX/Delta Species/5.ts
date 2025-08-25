@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Pyroli δ",
 		de: "Flamara"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		136,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -61,6 +65,7 @@ const card: Card = {
 			cost: ["Colorless", "Fire", "Metal"]
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -68,10 +73,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276768
+	}
 }
 
 export default card

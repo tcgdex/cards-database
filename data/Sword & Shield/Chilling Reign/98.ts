@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [199],
 	set: Set,
 
 	name: {
@@ -83,6 +84,11 @@ const card: Card = {
 
 	description: {
 		en: "While chanting strange spells, this Pokémon combines its internal toxins with what it's eaten, creating strange potions."
+	},
+
+	thirdParty: {
+		cardmarket: 567206,
+		tcgplayer: 241769
 	}
 }
 

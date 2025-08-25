@@ -65,6 +65,11 @@ const card: Card = {
 
 	description: {
 		fr: "Les flammes qu'il souffle sont si chaudes qu'elles peuvent faire fondre n'importe quoi."
+	},
+
+	thirdParty: {
+		cardmarket: 274759,
+		tcgplayer: 89163
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [575],
+
 	name: {
 		en: "Gothorita",
 		fr: "Mesmérella",
@@ -108,6 +109,11 @@ const card: Card = {
 
 	description: {
 		en: "It's said that when stars shine in the night sky, this Pokémon will spirit away sleeping children. Some call it the Witch of Punishment."
+	},
+
+	thirdParty: {
+		cardmarket: 483249,
+		tcgplayer: 219451
 	}
 }
 

@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Full Heal",
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 274034,
+		tcgplayer: 42450
+	}
 }
 
 export default card

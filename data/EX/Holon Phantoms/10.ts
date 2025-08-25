@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Hyporoi δ",
 		de: "Seedraking"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		230,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Seadra",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,6 +82,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -83,10 +90,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276980
+	}
 }
 
 export default card

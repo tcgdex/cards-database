@@ -16,6 +16,11 @@ const card: Card = {
 
 	effect: {
 		de: "Liefert   Energie. Zählt nicht als Basis-Energiekarte."
+	},
+
+	thirdParty: {
+		cardmarket: 273791,
+		tcgplayer: 42440
 	}
 }
 

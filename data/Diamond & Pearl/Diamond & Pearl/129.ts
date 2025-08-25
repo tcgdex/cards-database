@@ -7,25 +7,18 @@ const card: Card = {
 		fr: "Énergie Obscurité",
 		de: "Finsternis-Energie"
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	thirdParty: {
+		cardmarket: 277628,
+		tcgplayer: 84676
+	}
 }
 
 export default card

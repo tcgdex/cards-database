@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Holo Rare",
 	category: "Pokemon",
+	dexId: [110],
 	set: Set,
 
 	evolveFrom: {
@@ -95,6 +96,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air."
+	},
+
+	thirdParty: {
+		cardmarket: 457973,
+		tcgplayer: 213205
 	}
 }
 

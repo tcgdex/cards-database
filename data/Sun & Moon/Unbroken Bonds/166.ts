@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Spray de Involução Z",
 		de: "Rückentwicklungsspray Z"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Faites dés-évoluer l’un de vos Pokémon évolués en mélangeant le nombre voulu de cartes Évolution placées dessus avec votre deck. (Ce Pokémon ne peut pas évoluer pendant ce tour.)",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Reverta a evolução de 1 dos seus Pokémon evoluídos embaralhando qualquer número de cartas de Evolução sobre ele no seu baralho (aquele Pokémon não pode evoluir durante esta vez de jogar).",
 		de: "Rückentwickle 1 deiner entwickelten Pokémon, indem du beliebig viele auf ihm liegende Entwicklungskarten in dein Deck mischt. (Jenes Pokémon kann sich während dieses Zuges nicht entwickeln.)"
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 372452,
+		tcgplayer: 189266
+	}
 }
 
 export default card

@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Blazing sunlight has brought out the true form and powers of this Pokémon.",
+		en: "Blazing sunlight has brought out the true\nform and powers of this Pokémon.",
 		fr: "L'exposition aux rayons éblouissants du soleil a\nrévélé sa véritable apparence et son potentiel réel.",
 		es: "Los intensos rayos solares que bañan su hábitat le han conferido\nun poder y aspecto que muchos consideran su forma original.",
 		it: "L'esposizione a intensi raggi solari ha risvegliato\nl'aspetto e il potere originari di questo Pokémon.",

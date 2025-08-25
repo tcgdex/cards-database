@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [354],
+
 	name: {
 		en: "Banette",
 		fr: "Branette",
@@ -101,6 +102,11 @@ const card: Card = {
 
 	description: {
 		en: "Resentment at being cast off made it spring into being. Some say that treating it well will satisfy it, and it will once more become a stuffed toy."
+	},
+
+	thirdParty: {
+		cardmarket: 511760,
+		tcgplayer: 226472
 	}
 }
 

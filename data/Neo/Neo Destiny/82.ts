@@ -51,6 +51,11 @@ const card: Card = {
 
 	description: {
 		fr: "On voit souvent ce Pokémon ramper dans les régions volcaniques."
+	},
+
+	thirdParty: {
+		cardmarket: 274734,
+		tcgplayer: 89337
 	}
 }
 

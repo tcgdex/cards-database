@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Drampa GX",
 		de: "Sen-Long GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		780,
 	],
+
 	hp: 180,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "GX",
 
@@ -98,6 +100,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -107,8 +110,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 297567,
+		tcgplayer: 131033
+	}
 }
 
 export default card

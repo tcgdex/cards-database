@@ -10,19 +10,22 @@ const card: Card = {
 		pt: "Reshiram e Charizard GX",
 		de: "Reshiram & Glurak GX"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
+		643
 	],
+
 	hp: 270,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -118,6 +121,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -127,8 +131,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 370729,
+		tcgplayer: 189318
+	}
 }
 
 export default card

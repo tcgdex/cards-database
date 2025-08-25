@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Battle Styles'
 
 const card: Card = {
+	dexId: [785],
 	set: Set,
 
 	name: {
@@ -68,6 +69,10 @@ const card: Card = {
 
 	stage: "VMAX",
 
+	thirdParty: {
+		cardmarket: 545366,
+		tcgplayer: 234207
+	}
 }
 
 export default card

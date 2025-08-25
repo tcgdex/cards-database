@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [471],
 	set: Set,
 
 	name: {
@@ -78,6 +79,10 @@ const card: Card = {
 
 	description: {
 		en: "The coldness emanating from Glaceon causes powdery snow to form, making it quite a popular Pokémon at ski resorts."
+	},
+
+	thirdParty: {
+		cardmarket: 604998
 	}
 }
 

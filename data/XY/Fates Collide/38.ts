@@ -63,6 +63,11 @@ const card: Card = {
 		it: "Domofossile di Kabuto",
 		pt: "Fóssil Cúpula de Kabuto",
 		de: "Domfossil Kabuto"
+	},
+
+	thirdParty: {
+		cardmarket: 289864,
+		tcgplayer: 117798
 	}
 }
 

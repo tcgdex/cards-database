@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [864],
 	set: Set,
 
 	name: {
@@ -85,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit."
+	},
+
+	thirdParty: {
+		cardmarket: 539633
 	}
 }
 

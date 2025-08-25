@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il peut nager à l'envers en agitant ses petites nageoires pectorales."
+	},
+
+	thirdParty: {
+		cardmarket: 273903,
+		tcgplayer: 44444
 	}
 }
 

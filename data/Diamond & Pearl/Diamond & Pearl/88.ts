@@ -74,6 +74,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il plonge sous l'eau en utilisant sa queue comme un flotteur. Il aime les plantes du fond des rivières."
+	},
+
+	thirdParty: {
+		cardmarket: 277587,
+		tcgplayer: 87218
 	}
 }
 

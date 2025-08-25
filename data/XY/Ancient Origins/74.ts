@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Floresta das Plantas Gigantes",
 		de: "Wald der großen Gewächse"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les Pokémon Grass de chaque joueur peuvent évoluer pendant son premier tour ou pendant le tour où il joue les Pokémon concernés.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Pokémon Grass de cada jogador poderá evoluir durante a sua primeira vez de jogar ou na vez em que jogar este Pokémon.",
 		de: "Die Grass-Pokémon beider Spieler können sich während des ersten Zuges eines Spielers oder während des Zuges, an dem ein Spieler diese Pokémon spielt, entwickeln."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 284255,
+		tcgplayer: 101496
+	}
 }
 
 export default card

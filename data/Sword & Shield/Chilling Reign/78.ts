@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [83],
 	set: Set,
 
 	name: {
@@ -61,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form."
+	},
+
+	thirdParty: {
+		cardmarket: 567186,
+		tcgplayer: 241743
 	}
 }
 

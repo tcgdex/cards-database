@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Ouisticram",
 		de: "Panflam"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		390,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
@@ -32,7 +35,6 @@ const card: Card = {
 			de: 'Wenn Panflam gelähmt ist, entferne am Ende jedes Zuges den Speziellen Zustand \'gelähmt\' von Panflam.'
 		}
 	},
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		}
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,8 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278105,
+		tcgplayer: 84285
+	}
 }
 
 export default card

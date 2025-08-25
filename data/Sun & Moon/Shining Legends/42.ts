@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Jirachi Luminescente",
 		de: "Schimmerndes Jirachi"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		385,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -60,8 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 302180,
+		tcgplayer: 146701
+	}
 }
 
 export default card

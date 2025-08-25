@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Pifeuil Niv. 25",
 		de: "Blanas"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		274,
 	],
+
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Seedot",
 		fr: "Grainipiot",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -62,22 +66,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278649,
+		tcgplayer: 87826
+	}
 }
 
 export default card

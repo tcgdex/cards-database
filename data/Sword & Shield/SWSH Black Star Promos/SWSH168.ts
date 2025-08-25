@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [741],
 	set: Set,
 
 	name: {
@@ -68,6 +69,10 @@ const card: Card = {
 
 	description: {
 		en: "This Oricorio has drunk red nectar. If its Trainer gives the wrong order, this passionate Pokémon becomes fiercely angry."
+	},
+
+	thirdParty: {
+		cardmarket: 580165
 	}
 }
 

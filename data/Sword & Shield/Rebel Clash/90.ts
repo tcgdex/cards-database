@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [886],
 	set: Set,
 
 	evolveFrom: {
@@ -97,6 +98,11 @@ const card: Card = {
 
 	description: {
 		en: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
+	},
+
+	thirdParty: {
+		cardmarket: 457868,
+		tcgplayer: 213176
 	}
 }
 

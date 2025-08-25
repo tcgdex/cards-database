@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [738],
 	set: Set,
 	hp: 210,
 
@@ -91,7 +92,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 483174,
+		tcgplayer: 219301
+	}
 }
 
 export default card

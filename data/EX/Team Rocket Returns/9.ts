@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Dark Slowking",
 		de: "Dunkles Laschoking"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		199,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Slowpoke",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -62,10 +69,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 276301,
+		tcgplayer: 84657
+	}
 }
 
 export default card

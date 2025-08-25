@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [770],
+
 	name: {
 		en: "Palossand",
 		fr: "Trépassable",
@@ -107,6 +108,11 @@ const card: Card = {
 
 	description: {
 		en: "Once it has whipped up a sandstorm to halt its opponents in their tracks, this terrifying Pokémon snatches away their vitality."
+	},
+
+	thirdParty: {
+		cardmarket: 457828,
+		tcgplayer: 213168
 	}
 }
 

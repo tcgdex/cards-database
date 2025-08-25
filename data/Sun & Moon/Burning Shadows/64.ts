@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Machamp GX",
 		de: "Machomei GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		68,
 	],
+
 	hp: 250,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
@@ -105,6 +109,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -114,8 +119,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 299467,
+		tcgplayer: 138550
+	}
 }
 
 export default card

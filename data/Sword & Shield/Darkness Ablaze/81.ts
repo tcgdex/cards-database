@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [778],
+
 	name: {
 		en: "Mimikyu",
 		fr: "Mimiqui",
@@ -92,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier."
+	},
+
+	thirdParty: {
+		cardmarket: 483284,
+		tcgplayer: 219467
 	}
 }
 

@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Hakamo-o",
 		de: "Mediras"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		783,
 	],
+
 	hp: 90,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Jangmo-o",
 		fr: "Bébécaille",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -70,6 +74,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -79,8 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 311923,
+		tcgplayer: 149102
+	}
 }
 
 export default card

@@ -78,7 +78,12 @@ const card: Card = {
 		fr: "Un Pokémon brutal armé de canons hydrauliques. Ses puissants jets d'eau sont dévastateurs."
 	},
 
-	retreat: 3
+	retreat: 3,
+
+	thirdParty: {
+		cardmarket: 273697,
+		tcgplayer: 42360
+	}
 }
 
 export default card

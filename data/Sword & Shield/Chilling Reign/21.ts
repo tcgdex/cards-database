@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [257],
 	set: Set,
 
 	name: {
@@ -89,6 +90,10 @@ const card: Card = {
 
 	stage: "VMAX",
 
+	thirdParty: {
+		cardmarket: 567101,
+		tcgplayer: 241671
+	}
 }
 
 export default card

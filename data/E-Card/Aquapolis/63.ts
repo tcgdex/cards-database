@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Débugant",
 		de: "Rabauz"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		236,
 	],
+
 	hp: 30,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,11 +47,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	thirdParty: {
+		cardmarket: 275136,
+		tcgplayer: 90127
+	}
 }
 
 export default card

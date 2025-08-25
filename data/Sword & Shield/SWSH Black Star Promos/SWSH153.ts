@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [25],
 	set: Set,
 
 	name: {
@@ -48,6 +49,10 @@ const card: Card = {
 
 	description: {
 		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
+	},
+
+	thirdParty: {
+		cardmarket: 461594
 	}
 }
 

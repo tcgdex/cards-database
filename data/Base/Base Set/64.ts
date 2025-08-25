@@ -77,6 +77,11 @@ const card: Card = {
 
 	description: {
 		fr: "Son cœur brille des couleurs de l'arc-en-ciel. On raconte que c'est une pierre précieuse."
+	},
+
+	thirdParty: {
+		cardmarket: 273759,
+		tcgplayer: 42409
 	}
 }
 

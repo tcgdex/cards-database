@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [386],
 	set: Set,
 
 	name: {
@@ -48,6 +49,10 @@ const card: Card = {
 
 	description: {
 		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen."
+	},
+
+	thirdParty: {
+		cardmarket: 580167
 	}
 }
 

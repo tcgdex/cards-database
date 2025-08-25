@@ -53,6 +53,10 @@ const card: Card = {
 
 	description: {
 		en: "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps."
+	},
+
+	thirdParty: {
+		cardmarket: 539168
 	}
 }
 

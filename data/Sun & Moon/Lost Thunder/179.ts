@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Kahili",
 		de: "Kahili"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Piochez 2 cartes. Ensuite, lancez une pièce. Si c’est face, et si vous avez joué cette carte Kahili de votre main, placez cette carte dans votre main plutôt que dans votre pile de défausse Si votre deck ne contient aucune carte, vous ne pouvez pas jouer cette carte.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Compre 2 cartas. Em seguida, jogue 1 moeda. Se sair cara, se você jogou esta Kahili da sua mão, coloque esta carta na sua mão ao invés de colocá-la na pilha de descarte. Se você não tiver nenhuma carta no seu baralho, não poderá jogar esta carta.",
 		de: "Ziehe 2 Karten. Wirf anschließend 1 Münze. Lege bei Kopf, wenn du diese Kahili-Karte aus deiner Hand gespielt hast, diese Karte nicht auf deinen Ablagestapel, sondern nimm sie auf deine Hand. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 365814,
+		tcgplayer: 179008
+	}
 }
 
 export default card

@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Treinador Ás",
 		de: "AssTrainer"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Vous pouvez jouer cette carte seulement s'il vous reste plus de cartes Récompense que votre adversaire.\n\nChaque joueur mélange sa main avec son deck. Ensuite, piochez 6 cartes. Votre adversaire pioche 3 cartes.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Você só poderá usar este card se tiver mais cards de Prêmio restantes que o seu oponente.\n\nCada jogador embaralha a mão que tiver no próprio deck. Em seguida, compre 6 cards. O seu oponente compra 3 cards.",
 		de: "Du kannst diese Karte nur dann spielen, wenn du mehr Preiskarten übrig hast als dein Gegner.\n\nJeder Spieler mischt seine Hand zurück in sein Deck. Ziehe anschließend 6 Karten. Dein Gegner zieht 3 Karten."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 284250,
+		tcgplayer: 101491
+	}
 }
 
 export default card

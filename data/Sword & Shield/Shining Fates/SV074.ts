@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [870],
 	set: Set,
 
 	name: {
@@ -73,6 +74,10 @@ const card: Card = {
 
 	description: {
 		en: "Five of them are troopers, and one is the brass. The brass's orders are absolute."
+	},
+
+	thirdParty: {
+		cardmarket: 539758
 	}
 }
 

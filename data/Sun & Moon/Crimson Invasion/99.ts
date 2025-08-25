@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Mar Vazio",
 		de: "See des Nichts"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Les États Spéciaux ne sont pas retirés lorsque les Pokémon (les vôtres et ceux de votre adversaire) évoluent ou dés-évoluent.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "As Condições Especiais não são removidas quando os Pokémon (seus e do seu oponente) evoluem ou revertem sua evolução.",
 		de: "Spezielle Zustände verlieren ihre Wirkung nicht, wenn Pokémon (deine und die deines Gegners) sich entwickeln oder rückentwicklen."
 	},
+
 	trainerType: "Stadium",
 
+	thirdParty: {
+		cardmarket: 311946,
+		tcgplayer: 149124
+	}
 }
 
 export default card

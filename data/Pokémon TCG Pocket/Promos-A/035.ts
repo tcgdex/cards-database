@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It uses its whole body to photosynthesize when exposed to sunlight. Its shell is made from hardened soil.",
+		en: "It uses its whole body to photosynthesize when\nexposed to sunlight. Its shell is made from\nhardened soil.",
 		fr: "Il s'expose à la lumière du soleil pour que\nson corps l'assimile par photosynthèse.\nSa carapace est composée de terre durcie.",
 		es: "Al bañarlo los rayos de sol, realiza la fotosíntesis con todo\nel cuerpo. Su caparazón está formado por tierra endurecida.",
 		it: "Si espone ai raggi solari ed esegue la fotosintesi con\ntutto il corpo. La sua corazza è fatta di terra rassodata.",

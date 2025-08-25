@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Camerupt Spirit Link",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Common",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
-
-
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 311397
+	}
 }
 
 export default card

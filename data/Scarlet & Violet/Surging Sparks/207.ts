@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Surging Sparks"
 
 const card: Card = {
+	dexId: [852],
 	set: Set,
 
 	name: {
@@ -51,7 +52,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "USGMEN"
+	illustrator: "USGMEN",
+
+	thirdParty: {
+		cardmarket: 794445
+	}
 }
 
 export default card

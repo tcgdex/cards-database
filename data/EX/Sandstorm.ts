@@ -23,6 +23,11 @@ const ex2: Set = {
 	abbreviations: {
 		official: "SS",
 		fr: "TES"
+	},
+
+	thirdParty: {
+		cardmarket: 1540,
+		tcgplayer: 1392
 	}
 }
 

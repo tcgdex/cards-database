@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [554],
 	set: Set,
 	hp: 70,
 
@@ -78,6 +79,11 @@ const card: Card = {
 
 	description: {
 		en: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
+	},
+
+	thirdParty: {
+		cardmarket: 483094,
+		tcgplayer: 219339
 	}
 }
 

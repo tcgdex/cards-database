@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [461],
 	set: Set,
 
 	name: {
@@ -69,6 +70,10 @@ const card: Card = {
 
 	description: {
 		en: "They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile."
+	},
+
+	thirdParty: {
+		cardmarket: 665989
 	}
 }
 

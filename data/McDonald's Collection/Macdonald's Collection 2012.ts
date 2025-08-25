@@ -20,6 +20,10 @@ const s2012bw: Set = {
 
 	abbreviations: {
 		official: "MCD12"
+	},
+
+	thirdParty: {
+		tcgplayer: 1427
 	}
 }
 

@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
+		en: "Its body secretes oil that this Pokémon spreads\nover its nest as a coating to protect it from dust.\nCinccino won't tolerate even a speck of the stuff.",
 		fr: "Il ne supporte pas de voir le moindre grain de poussière.\nIl utilise l'huile qu'il sécrète pour recouvrir son nid\nd'un revêtement protecteur.",
 		es: "Es tan sumamente pulcro que no puede ver\nni una mota de polvo. La grasa que exuda\npor el cuerpo le sirve de película protectora.",
 		it: "È un maniaco della pulizia e non sopporta la\nvista neanche di un granello di polvere. Riveste\nla tana del grasso che trasuda dal suo corpo.",

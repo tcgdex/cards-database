@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [892],
 	set: Set,
 
 	name: {
@@ -91,6 +92,11 @@ const card: Card = {
 
 	description: {
 		en: "Inhabiting the mountains of a distant region, this Pokémon races across sheer cliffs, training its legs and refining its moves."
+	},
+
+	thirdParty: {
+		cardmarket: 567216,
+		tcgplayer: 241783
 	}
 }
 

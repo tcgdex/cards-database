@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Magcargo",
 		de: "Magcargo"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		219,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Slugma",
 		fr: "Limagma",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Slugma",
 		de: "Schneckmag"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -77,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -86,8 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 281358,
+		tcgplayer: 87018
+	}
 }
 
 export default card

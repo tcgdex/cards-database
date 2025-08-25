@@ -15,6 +15,11 @@ const card: Card = {
 
 	effect: {
 		de: "Ziehe 3 Karten. Dein Gegner kann 1 Karte ziehen."
+	},
+
+	thirdParty: {
+		cardmarket: 279719,
+		tcgplayer: 84247
 	}
 }
 

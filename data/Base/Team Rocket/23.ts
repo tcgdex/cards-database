@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il creuse de larges pièges dans le sol afin d'attraper ses ennemis."
+	},
+
+	thirdParty: {
+		cardmarket: 274059,
+		tcgplayer: 84589
 	}
 }
 

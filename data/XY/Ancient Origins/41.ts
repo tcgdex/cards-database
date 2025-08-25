@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Golurk",
 		de: "Golgantes"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		623,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Golett",
 		fr: "Gringolem",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Golett",
 		de: "Golbit"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -84,6 +88,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -93,8 +98,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 284216,
+		tcgplayer: 101463
+	}
 }
 
 export default card

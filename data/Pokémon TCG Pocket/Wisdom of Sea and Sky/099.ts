@@ -1,0 +1,45 @@
+import { Card } from "../../../interfaces"
+import Set from "../Wisdom of Sea and Sky"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Phanpy"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "One Diamond",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Fighting"],
+
+	description: {
+		en: "This Pokémon lives and nests on a riverbank.\nAfter playing in the mud, it won't be able to\nsettle down unless it washes its body."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			en: "Reckless Charge"
+		},
+
+		damage: 30,
+		cost: ["Fighting"],
+
+		effect: {
+			en: "This Pokémon also does 10 damage to itself."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
+	retreat: 2,
+	boosters: ["ho-oh"]
+}
+
+export default card

@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [284],
+
 	name: {
 		en: "Masquerain",
 		fr: "Maskadra",
@@ -99,6 +100,11 @@ const card: Card = {
 
 	description: {
 		en: "Its thin, winglike antennae are highly absorbent. It waits out rainy days in tree hollows."
+	},
+
+	thirdParty: {
+		cardmarket: 457448,
+		tcgplayer: 213081
 	}
 }
 

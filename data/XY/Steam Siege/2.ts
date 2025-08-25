@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Tangrowth",
 		de: "Tangoloss"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		465,
 	],
+
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Tangela",
 		fr: "Saquedeneu",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Tangela",
 		de: "Tangela"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -86,6 +90,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -95,8 +100,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 291509,
+		tcgplayer: 120991
+	}
 }
 
 export default card

@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel."
+	},
+
+	thirdParty: {
+		cardmarket: 545056,
+		tcgplayer: 234135
 	}
 }
 

@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Kabutops",
 		de: "Kabutops"
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		141,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Kabuto",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -67,8 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 278876,
+		tcgplayer: 86400
+	}
 }
 
 export default card

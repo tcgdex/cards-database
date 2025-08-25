@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [867],
 	set: Set,
 
 	name: {
@@ -92,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "Never touch its shadowlike body, or you'll be shown the horrific memories behind the picture carved into it."
+	},
+
+	thirdParty: {
+		cardmarket: 567191,
+		tcgplayer: 241750
 	}
 }
 

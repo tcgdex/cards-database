@@ -16,6 +16,11 @@ const card: Card = {
 	effect: {
 		fr: "Choisissez 1 Pokémon du Banc votre adversaire et échangez-le avec son Pokémon actif.",
 		de: "Wähle ein Pokémon auf der Bank Deines Gegners und tausche es mit seinem aktiven Pokémon aus."
+	},
+
+	thirdParty: {
+		cardmarket: 273788,
+		tcgplayer: 42437
 	}
 }
 

@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [555],
 	set: Set,
 
 	name: {
@@ -79,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later."
+	},
+
+	thirdParty: {
+		cardmarket: 539508
 	}
 }
 

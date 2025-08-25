@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il attache un fil à sa proie avant de la libérer. Il s'en servira pour la retrouver, elle et ses amis."
+	},
+
+	thirdParty: {
+		cardmarket: 277649,
+		tcgplayer: 83617
 	}
 }
 

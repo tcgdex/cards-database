@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	rarity: "Holo Rare",
 	category: "Pokemon",
+	dexId: [864],
 	set: Set,
 
 	evolveFrom: {
@@ -104,6 +105,11 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit."
+	},
+
+	thirdParty: {
+		cardmarket: 457813,
+		tcgplayer: 213165
 	}
 }
 

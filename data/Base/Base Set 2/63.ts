@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Wartortle",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		8,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Squirtle",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -51,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -60,6 +65,11 @@ const card: Card = {
 
 	variants: {
 		wPromo: true
+	},
+
+	thirdParty: {
+		cardmarket: 273986,
+		tcgplayer: 42526
 	}
 }
 

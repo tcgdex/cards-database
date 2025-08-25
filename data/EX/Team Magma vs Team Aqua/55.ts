@@ -7,21 +7,23 @@ const card: Card = {
 		fr: "Medhyena de Team Aqua",
 		de: "Team Aquas Fiffyen"
 	},
+
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		261,
 	],
+
 	hp: 50,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -59,12 +61,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -72,9 +76,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276031,
+		tcgplayer: 89795
+	}
 }
 
 export default card

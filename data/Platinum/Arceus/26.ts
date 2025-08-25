@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Porygon-Z",
 		de: "Porygon-Z G"
 	},
+
 	illustrator: "Nobuyuki Fujimoto",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		474,
 	],
@@ -34,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -62,8 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 278898,
+		tcgplayer: 88320
+	}
 }
 
 export default card

@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Electrode  Niv. 38",
 		de: "Lektrobal G"
 	},
+
 	illustrator: "Yusuke Ishikawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		101,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
@@ -59,22 +62,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	thirdParty: {
+		tcgplayer: 85166
+	}
 }
 
 export default card

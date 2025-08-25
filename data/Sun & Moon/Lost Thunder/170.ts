@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Contra-ataque de Alcance",
 		de: "Kontergewinn"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "S’il vous reste plus de cartes Récompense que votre adversaire, les attaques du Pokémon auquel cette carte est attachée coûtent Colorless de moins.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, os ataques do Pokémon ao qual esta carta está ligada custarão Colorless a menos.",
 		de: "Wenn du mehr verbleibende Preiskarten als dein Gegner hast, verringern sich die Kosten der Attacken des Pokémon, an das diese Karte angelegt ist, um Colorless."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 365806,
+		tcgplayer: 178995
+	}
 }
 
 export default card

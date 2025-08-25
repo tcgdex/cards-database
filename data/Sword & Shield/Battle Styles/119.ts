@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "Drampa is a kind and friendly Pokémon—up until it's angered. When that happens, it stirs up a gale and flattens everything around."
+	},
+
+	thirdParty: {
+		cardmarket: 545761,
+		tcgplayer: 234163
 	}
 }
 

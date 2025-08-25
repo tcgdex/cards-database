@@ -50,6 +50,11 @@ const card: Card = {
 
 	description: {
 		fr: "Bien qu'on en trouve normalement que dans les centrales, on en aperçoit parfois en ville, utilisant apparemment les lignes électriques pour voyager."
+	},
+
+	thirdParty: {
+		cardmarket: 274122,
+		tcgplayer: 90409
 	}
 }
 

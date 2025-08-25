@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Stellar Crown"
 
 const card: Card = {
+	dexId: [656],
 	set: Set,
 
 	name: {
@@ -41,7 +42,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "MINAMINAMI Take"
+	illustrator: "MINAMINAMI Take",
+
+	thirdParty: {
+		cardmarket: 785893
+	}
 }
 
 export default card

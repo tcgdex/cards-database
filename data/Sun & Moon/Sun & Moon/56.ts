@@ -91,7 +91,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
-	retreat: 0
+	retreat: 0,
+
+	thirdParty: {
+		cardmarket: 295367,
+		tcgplayer: 126927
+	}
 }
 
 export default card

@@ -24,7 +24,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+		en: "It crushes its foe under its heavy body to cause\nfainting. In a pinch, it will withdraw inside its shell.",
 		fr: "Il écrase ses adversaires de tout son poids\npour leur faire perdre connaissance.\nIl rentre dans sa carapace s'il se sent en danger.",
 		es: "Para acabar con su enemigo, lo aplasta\ncon el peso de su cuerpo. En momentos\nde apuro, se esconde en el caparazón.",
 		it: "Mette KO gli avversari schiacciandoli sotto il corpo\npossente. Se è in difficoltà, può ritrarsi nella corazza.",

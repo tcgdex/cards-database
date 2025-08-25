@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [281],
 	set: Set,
 
 	name: {
@@ -71,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about."
+	},
+
+	thirdParty: {
+		cardmarket: 681800
 	}
 }
 

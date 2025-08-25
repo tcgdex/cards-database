@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Eneportal",
 		de: "Enetransporter"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Déplacez une Énergie spéciale de l’un des Pokémon de votre adversaire vers un autre de ses Pokémon.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Mova 1 Energia Especial de 1 dos Pokémon do seu oponente para outro Pokémon dele(a).",
 		de: "Verschiebe 1 Spezial-Energie von 1 Pokémon deines Gegners auf 1 anderes seiner Pokémon."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 355619,
+		tcgplayer: 165785
+	}
 }
 
 export default card

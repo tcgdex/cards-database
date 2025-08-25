@@ -71,6 +71,10 @@ const card: Card = {
 
 	description: {
 		en: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork."
+	},
+
+	thirdParty: {
+		cardmarket: 539468
 	}
 }
 

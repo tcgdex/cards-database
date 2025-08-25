@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Probopass",
 		de: "Voluminas"
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		476,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Nosepass",
 		fr: "Tarinor",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Nosepass",
 		de: "Nasgnet"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -83,6 +87,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -92,8 +97,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 291625,
+		tcgplayer: 121185
+	}
 }
 
 export default card

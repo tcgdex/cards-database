@@ -74,6 +74,11 @@ const card: Card = {
 
 	description: {
 		en: "It swims facing backward by opening and closing its two-piece shell. It is surprisingly fast."
+	},
+
+	thirdParty: {
+		cardmarket: 436354,
+		tcgplayer: 208339
 	}
 }
 

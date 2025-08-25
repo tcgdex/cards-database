@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [447],
+
 	name: {
 		en: "Riolu",
 		fr: "Riolu",
@@ -69,6 +70,11 @@ const card: Card = {
 
 	description: {
 		en: "It's exceedingly energetic, with enough stamina to keep running all through the night. Taking it for walks can be a challenging experience."
+	},
+
+	thirdParty: {
+		cardmarket: 511870,
+		tcgplayer: 226526
 	}
 }
 

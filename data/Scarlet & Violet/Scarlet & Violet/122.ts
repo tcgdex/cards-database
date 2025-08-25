@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
+	dexId: [950],
 	set: Set,
 
 	name: {
@@ -68,6 +69,10 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
+	},
+
+	thirdParty: {
+		cardmarket: 702418
 	}
 }
 

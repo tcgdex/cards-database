@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [866],
 	set: Set,
 
 	evolveFrom: {
@@ -97,6 +98,11 @@ const card: Card = {
 
 	description: {
 		en: "It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements."
+	},
+
+	thirdParty: {
+		cardmarket: 456428,
+		tcgplayer: 213116
 	}
 }
 

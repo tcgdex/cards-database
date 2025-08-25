@@ -34,7 +34,11 @@ const card: Card = {
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 98330
+	}
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [820],
 	set: Set,
 	hp: 120,
 
@@ -101,6 +102,11 @@ const card: Card = {
 
 	description: {
 		en: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss."
+	},
+
+	thirdParty: {
+		cardmarket: 483644,
+		tcgplayer: 219367
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [161],
+
 	name: {
 		en: "Sentret",
 		fr: "Fouinette",
@@ -68,6 +69,11 @@ const card: Card = {
 
 	description: {
 		en: "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
+	},
+
+	thirdParty: {
+		cardmarket: 483554,
+		tcgplayer: 219331
 	}
 }
 

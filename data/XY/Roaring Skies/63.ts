@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Reshiram",
 		de: "Reshiram"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		643,
 	],
+
 	hp: 130,
+
 	types: [
 		"Dragon",
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -74,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -83,8 +88,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 282731,
+		tcgplayer: 98099
+	}
 }
 
 export default card

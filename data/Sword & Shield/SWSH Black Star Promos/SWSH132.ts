@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces";
 import Set from "../SWSH Black Star Promos";
 
 const card: Card = {
+	dexId: [887],
 	set: Set,
 
 	name: {
@@ -86,7 +87,11 @@ const card: Card = {
 		en: "Drakloak"
 	},
 
-	retreat: 0
+	retreat: 0,
+
+	thirdParty: {
+		cardmarket: 549386
+	}
 };
 
 export default card;

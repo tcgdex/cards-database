@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [467],
+
 	name: {
 		en: "Magmortar",
 		fr: "Maganon",
@@ -101,6 +102,11 @@ const card: Card = {
 
 	description: {
 		en: "Magmortar takes down its enemies by shooting fireballs, which burn them to a blackened crisp. It avoids this method when hunting prey."
+	},
+
+	thirdParty: {
+		cardmarket: 457608,
+		tcgplayer: 213106
 	}
 }
 

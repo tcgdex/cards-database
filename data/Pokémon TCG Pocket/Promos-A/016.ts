@@ -38,7 +38,7 @@ const card: Card = {
 	hp: 60,
 
 	description: {
-		en: "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+		en: "It is said that happiness will come to those who\nsee a gathering of Clefairy dancing under a\nfull moon.",
 		fr: "On dit que ceux qui voient danser un groupe de Mélofée\nsous la pleine lune connaîtront un grand bonheur.",
 		es: "Se dice que la felicidad llegará\na quien vea un grupo de Clefairy\nbailando a la luz de la luna llena.",
 		it: "Si dice che vedere un gruppo di Clefairy ballare\ncon la luna piena sia di ottimo auspicio.",

@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Krabboss δ",
 		de: "Kingler"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		99,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Krabby",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -72,10 +77,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 277103
+	}
 }
 
 export default card

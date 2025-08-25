@@ -13,7 +13,6 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
-
 	hp: 60,
 
 	types: [
@@ -59,6 +58,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	thirdParty: {
+		tcgplayer: 88166
+	}
 }
 
 export default card

@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "People fashion swords from Skarmory's shed feathers, so this Pokémon is a popular element in heraldic designs.",
+		en: "People fashion swords from Skarmory's shed\nfeathers, so this Pokémon is a popular element\nin heraldic designs.",
 		fr: "Ce Pokémon orne souvent les blasons, car les plumes\nqu'il perd sont utilisées pour forger des épées.",
 		es: "Aparece a menudo en escudos heráldicos, pues se\npueden forjar espadas a partir de las plumas que pierde.",
 		it: "Le piume perse da Skarmory sono utilizzate\nper produrre spade. Per questo è molto\napprezzato come motivo degli stemmi nobiliari.",

@@ -61,6 +61,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il a 49 dents dans sa gueule qui se régénèrent constamment. Arrachez-en une et une nouvelle pousse à sa place."
+	},
+
+	thirdParty: {
+		cardmarket: 274684,
+		tcgplayer: 84578
 	}
 }
 

@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [834],
 	set: Set,
 	hp: 210,
 
@@ -89,7 +90,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 499925,
+		tcgplayer: 223009
+	}
 }
 
 export default card

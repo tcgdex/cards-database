@@ -10,19 +10,22 @@ const card: Card = {
 		pt: "Mega Lopunny e Jigglypuff GX",
 		de: "Mega-Schlapor & Pummeluff GX"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		39,
+		428,
 	],
+
 	hp: 240,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -75,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -84,8 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 398489,
+		tcgplayer: 201284
+	}
 }
 
 export default card

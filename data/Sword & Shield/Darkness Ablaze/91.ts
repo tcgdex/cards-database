@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [330],
+
 	name: {
 		en: "Flygon",
 		fr: "Libégon",
@@ -102,6 +103,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it."
+	},
+
+	thirdParty: {
+		cardmarket: 483334,
+		tcgplayer: 219482
 	}
 }
 

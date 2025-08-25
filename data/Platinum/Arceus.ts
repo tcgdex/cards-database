@@ -22,6 +22,11 @@ const pl4: Set = {
 
 	abbreviations: {
 		official: "AR"
+	},
+
+	thirdParty: {
+		cardmarket: 1565,
+		tcgplayer: 1391
 	}
 }
 

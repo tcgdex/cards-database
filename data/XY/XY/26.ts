@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Delphox",
 		de: "Fennexis"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		655,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Braixen",
 		fr: "Roussil",
@@ -30,6 +34,7 @@ const card: Card = {
 		pt: "Braixen",
 		de: "Rutena"
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -53,6 +58,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -80,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -89,8 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 281363,
+		tcgplayer: 84752
+	}
 }
 
 export default card

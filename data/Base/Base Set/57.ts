@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est souvent vu dans les forêts. Il brasse l'air de ses ailes près du sol pour projeter du sable."
+	},
+
+	thirdParty: {
+		cardmarket: 273752,
+		tcgplayer: 42401
 	}
 }
 

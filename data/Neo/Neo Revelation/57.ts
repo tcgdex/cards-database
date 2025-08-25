@@ -75,6 +75,11 @@ const card: Card = {
 
 	description: {
 		fr: "S'il sent quelque chose d'alléchant, il se précipite vers la source de l'arôme."
+	},
+
+	thirdParty: {
+		cardmarket: 274643,
+		tcgplayer: 89697
 	}
 }
 

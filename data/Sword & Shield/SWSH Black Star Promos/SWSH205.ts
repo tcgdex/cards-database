@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [902],
 	set: Set,
 
 	name: {
@@ -71,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal."
+	},
+
+	thirdParty: {
+		cardmarket: 611336
 	}
 }
 

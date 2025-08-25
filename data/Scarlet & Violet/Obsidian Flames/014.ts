@@ -50,7 +50,11 @@ const card: Card = {
 	variants: {
 	},
 
-	illustrator: "sui"
+	illustrator: "sui",
+
+	thirdParty: {
+		cardmarket: 725094
+	}
 }
 
 export default card

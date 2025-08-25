@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Karen",
 	},
+
 	illustrator: "You Iribi",
 	rarity: "Common",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
-
-
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 293006
+	}
 }
 
 export default card

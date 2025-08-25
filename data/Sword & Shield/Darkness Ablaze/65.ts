@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [880],
 	set: Set,
 	hp: 160,
 
@@ -103,6 +104,11 @@ const card: Card = {
 
 	description: {
 		en: "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources."
+	},
+
+	thirdParty: {
+		cardmarket: 483204,
+		tcgplayer: 219432
 	}
 }
 

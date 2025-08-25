@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		en: "A pack of these Pokémon forms to serve a Bisharp boss. Each Pawniard trains diligently, dreaming of one day taking the lead."
+	},
+
+	thirdParty: {
+		cardmarket: 545596,
+		tcgplayer: 234190
 	}
 }
 

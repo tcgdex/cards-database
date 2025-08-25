@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Rebel Clash'
 
 const card: Card = {
+	dexId: [815],
 	set: Set,
 
 	name: {
@@ -89,6 +90,10 @@ const card: Card = {
 
 	stage: "VMAX",
 
+	thirdParty: {
+		cardmarket: 456423,
+		tcgplayer: 213114
+	}
 }
 
 export default card

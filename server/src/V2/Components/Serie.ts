@@ -1,7 +1,5 @@
-import { objectLoop } from '@dzeio/object-util'
 import type { Serie as SDKSerie, SerieResume, SupportedLanguages } from '@tcgdex/sdk'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
-import TCGSet from './Set'
 
 import de from '../../../generated/de/series.json'
 import en from '../../../generated/en/series.json'
@@ -21,7 +19,6 @@ import ru from '../../../generated/ru/series.json'
 import th from '../../../generated/th/series.json'
 import zhcn from '../../../generated/zh-cn/series.json'
 import zhtw from '../../../generated/zh-tw/series.json'
-
 
 const series = {
 	en: en,
@@ -44,55 +41,32 @@ const series = {
 	'zh-cn': zhcn,
 } as const
 
-type LocalSerie = Omit<SDKSerie, 'sets'> & {sets: () => Array<TCGSet>}
+type MappedSerie = any // (typeof en)[number]
 
-export default class Serie implements LocalSerie {
+export async function getAllSeries(lang: SupportedLanguages): Promise<Array<SDKSerie>> {
+	return Promise.all((series[lang] as Array<MappedSerie>).map(transformSerie))
+}
 
-	id!: string
-	name!: string
-	logo?: string | undefined
+async function transformSerie(serie: MappedSerie): Promise<SDKSerie> {
+	return serie
+}
 
-	public constructor(
-		private lang: SupportedLanguages,
-		private serie: SDKSerie
-	) {
-		objectLoop(serie, (it, key) => {
-			if (key === 'sets') {
-				return
-			}
-			this[key as 'id'] = it as string
-		})
+export async function findSeries(lang: SupportedLanguages, query: Query<SDKSerie>) {
+	return executeQuery(await getAllSeries(lang), query).data
+}
+
+export async function findOneSerie(lang: SupportedLanguages, query: Query<SDKSerie>) {
+	const res = await findSeries(lang, query)
+	if (res.length === 0) {
+		return undefined
 	}
+	return res[0]
+}
 
-	public sets(): Array<TCGSet> {
-		return this.serie.sets.map((s) => TCGSet.findOne(this.lang, { id: s.id }) as TCGSet)
-	}
-
-	public static getAll(lang: SupportedLanguages): Array<SDKSerie> {
-		return series[lang]
-	}
-
-	public static find(lang: SupportedLanguages, query: Query<SDKSerie>) {
-		return executeQuery(Serie.getAll(lang), query).data.map((it) => new Serie(lang, it))
-	}
-
-	public static findOne(lang: SupportedLanguages, query: Query<SDKSerie>) {
-		const res = Serie.find(lang, query)
-		if (res.length === 0) {
-			return undefined
-		}
-		return res[0]
-	}
-
-	public resume(): SerieResume {
-		return {
-			id: this.id,
-			name: this.name,
-			logo: this.logo
-		}
-	}
-
-	public full(): SDKSerie {
-		return this.serie
+export function serieToBrief(set: SDKSerie): SerieResume {
+	return {
+		id: set.id,
+		name: set.name,
+		logo: set.logo
 	}
 }

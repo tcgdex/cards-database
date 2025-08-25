@@ -24,6 +24,11 @@ const set: Set = {
 	abbreviations: {
 		official: "SSP",
 		fr: "ETD"
+	},
+
+	thirdParty: {
+		cardmarket: 5879,
+		tcgplayer: 23651
 	}
 }
 

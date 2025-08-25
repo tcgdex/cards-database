@@ -87,6 +87,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est prisonnier d'une coquille d'acier. Ses yeux vigilants sont la seule partie visible de son corps."
+	},
+
+	thirdParty: {
+		cardmarket: 278177,
+		tcgplayer: 85550
 	}
 }
 

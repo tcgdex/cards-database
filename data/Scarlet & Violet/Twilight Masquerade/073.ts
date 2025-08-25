@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
+	dexId: [938],
 	set: Set,
 
 	name: {
@@ -54,7 +55,11 @@ const card: Card = {
 		holo: false
 	},
 
-	illustrator: "nisimono"
+	illustrator: "nisimono",
+
+	thirdParty: {
+		cardmarket: 769247
+	}
 }
 
 export default card

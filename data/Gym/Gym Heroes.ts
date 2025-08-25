@@ -19,6 +19,11 @@ const gym1: Set = {
 
 	abbreviations: {
 		official: "G1"
+	},
+
+	thirdParty: {
+		cardmarket: 1529,
+		tcgplayer: 1441
 	}
 }
 

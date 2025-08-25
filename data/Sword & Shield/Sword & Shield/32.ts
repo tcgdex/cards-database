@@ -97,7 +97,12 @@ const card: Card = {
 		en: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork."
 	},
 
-	dexId: [814]
+	dexId: [814],
+
+	thirdParty: {
+		cardmarket: 436319,
+		tcgplayer: 208310
+	}
 }
 
 export default card

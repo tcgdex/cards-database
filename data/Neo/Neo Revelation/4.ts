@@ -86,6 +86,11 @@ const card: Card = {
 
 	description: {
 		fr: "Le battement de ses quatre ailes est si silencieux dans la nuit que personne ne remarque sa présence, même s'il est tout près."
+	},
+
+	thirdParty: {
+		cardmarket: 274590,
+		tcgplayer: 84482
 	}
 }
 

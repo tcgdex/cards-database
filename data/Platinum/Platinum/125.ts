@@ -7,21 +7,25 @@ const card: Card = {
 		fr: "Palkia ",
 		de: "Palkia G"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare Holo LV.X",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		484,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
 
 	stage: "LEVEL-UP",
 	suffix: "SP",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -37,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -58,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -67,8 +73,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		tcgplayer: 87918
+	}
 }
 
 export default card

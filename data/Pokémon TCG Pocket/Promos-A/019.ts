@@ -66,7 +66,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It creates throwing stars out of compressed water.  When it spins them and throws them at high speed,  these stars can split metal in two.",
+		en: "It creates throwing stars out of compressed water.\nWhen it spins them and throws them at high speed,\nthese stars can split metal in two.",
 		fr: "Il transforme des jets d'eau sous pression en redoutables\nshuriken. Une fois lancés, ils tournent si vite qu'ils peuvent\nmême couper le métal.",
 		es: "Comprime el agua y crea estrellas ninja con\nlas que ataca al enemigo. Cuando las hace girar\na gran velocidad, cortan en dos hasta el metal.",
 		it: "Crea lame d'acqua micidiali che ruotano ad alta\nvelocità e, se lanciate, possono perforare il metallo.",

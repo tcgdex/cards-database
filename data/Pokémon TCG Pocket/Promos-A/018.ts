@@ -52,7 +52,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+		en: "Its plant blooms when it is absorbing solar\nenergy. It stays on the move to seek sunlight.",
 		fr: "Sa plante donne une grosse fleur quand\nelle absorbe les rayons du soleil. Il est toujours\nà la recherche des endroits les plus ensoleillés.",
 		es: "La planta florece cuando absorbe energía solar,\nlo cual le obliga a buscar siempre la luz del sol.",
 		it: "Il fiore sboccia assorbendo energia solare.\nSi muove continuamente in cerca di luce.",

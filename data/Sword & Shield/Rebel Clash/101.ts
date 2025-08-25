@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [562],
 	set: Set,
 
 	attacks: [
@@ -66,6 +67,11 @@ const card: Card = {
 
 	description: {
 		en: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power."
+	},
+
+	thirdParty: {
+		cardmarket: 457918,
+		tcgplayer: 213189
 	}
 }
 

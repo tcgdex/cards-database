@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Mawile EX",
 		fr: "Mysdibule EX",
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		303,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fairy",
 	],
-
 
 	suffix: "EX",
 
@@ -53,22 +55,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 290096
+	}
 }
 
 export default card

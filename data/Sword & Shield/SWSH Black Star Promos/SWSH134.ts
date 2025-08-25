@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
+	dexId: [700],
 	set: Set,
 
 	name: {
@@ -76,7 +77,11 @@ const card: Card = {
 
 	hp: 180,
 	types: ["Psychic"],
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 576733
+	}
 }
 
 export default card

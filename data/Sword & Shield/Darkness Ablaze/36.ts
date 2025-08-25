@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [866],
 	set: Set,
 	hp: 120,
 
@@ -101,6 +102,11 @@ const card: Card = {
 
 	description: {
 		en: "It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements."
+	},
+
+	thirdParty: {
+		cardmarket: 483054,
+		tcgplayer: 219267
 	}
 }
 

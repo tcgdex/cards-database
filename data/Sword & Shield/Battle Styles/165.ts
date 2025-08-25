@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Battle Styles'
 
 const card: Card = {
+	dexId: [494],
 	set: Set,
 
 	name: {
@@ -88,7 +89,12 @@ const card: Card = {
 		de: "Victini-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545016,
+		tcgplayer: 234080
+	}
 }
 
 export default card

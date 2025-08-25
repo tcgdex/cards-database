@@ -87,7 +87,12 @@ const card: Card = {
 		en: "Its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574196,
+		tcgplayer: 246879
+	}
 }
 
 export default card

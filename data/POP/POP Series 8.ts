@@ -19,6 +19,11 @@ const pop8: Set = {
 
 	abbreviations: {
 		official: "P8"
+	},
+
+	thirdParty: {
+		cardmarket: 1620,
+		tcgplayer: 1450
 	}
 }
 

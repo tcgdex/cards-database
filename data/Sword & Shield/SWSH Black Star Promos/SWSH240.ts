@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [456],
 	set: Set,
 
 	name: {
@@ -61,6 +62,10 @@ const card: Card = {
 
 	description: {
 		en: "It lures in prey with its shining tail fins. It stays near the surface during the day and moves to the depths when night falls."
+	},
+
+	thirdParty: {
+		cardmarket: 665983
 	}
 }
 

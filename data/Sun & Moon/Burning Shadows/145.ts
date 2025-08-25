@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pluméria",
 		de: "Fran"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Défaussez 2 cartes de votre main. Dans ce cas, défaussez une Énergie de l’un des Pokémon de votre adversaire.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Descarte 2 cartas da sua mão. Se fizer isto, descarte 1 Energia de 1 dos Pokémon do seu oponente.",
 		de: "Lege 2 Karten aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, lege 1 Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 299520,
+		tcgplayer: 138616
+	}
 }
 
 export default card

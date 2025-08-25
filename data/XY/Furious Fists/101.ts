@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Recuperador de Ferramentas",
 		de: "Ausrüstungsgreifer"
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Choisissez jusqu'à 2 cartes Outil Pokémon attachées à vos Pokémon et placez-les dans votre main.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Escolha até 2 cards de Ferramenta Pokémon ligados a seus Pokémon e coloque-os na sua mão.",
 		de: "Wähle bis zu 2 Pokémon-Ausrüstungen, die an deine Pokémon angelegt sind, und nimm sie auf deine Hand."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 281765,
+		tcgplayer: 92284
+	}
 }
 
 export default card

@@ -10,19 +10,22 @@ const card: Card = {
 		pt: "Slowpoke e Psyduck GX",
 		de: "Flegmon & Enton GX"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		54,
+		79
 	],
+
 	hp: 250,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -90,6 +93,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -99,8 +103,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 377505,
+		tcgplayer: 194953
+	}
 }
 
 export default card

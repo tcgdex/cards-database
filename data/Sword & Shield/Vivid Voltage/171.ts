@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [181],
 	set: Set,
 	hp: 210,
 
@@ -91,7 +92,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 511665,
+		tcgplayer: 226443
+	}
 }
 
 export default card

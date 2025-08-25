@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
+	dexId: [882],
 	set: Set,
 
 	name: {
@@ -68,11 +69,17 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "E",
+
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 608660,
+		tcgplayer: 263836
 	}
 }
 

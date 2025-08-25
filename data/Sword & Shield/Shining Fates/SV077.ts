@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [110],
 	set: Set,
 
 	name: {
@@ -79,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air."
+	},
+
+	thirdParty: {
+		cardmarket: 539233
 	}
 }
 

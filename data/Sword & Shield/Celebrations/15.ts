@@ -97,7 +97,12 @@ const card: Card = {
 		en: "It sometimes summons unknown powers and life-forms here to this world from holes that lead to other worlds."
 	},
 
-	dexId: [792]
+	dexId: [792],
+
+	thirdParty: {
+		cardmarket: 576760,
+		tcgplayer: 250312
+	}
 }
 
 export default card

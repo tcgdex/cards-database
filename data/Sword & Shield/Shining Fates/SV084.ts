@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [860],
 	set: Set,
 
 	name: {
@@ -70,6 +71,10 @@ const card: Card = {
 
 	description: {
 		en: "When it gets down on all fours as if to beg for forgiveness, it's trying to lure opponents in so that it can stab them with its spear-like hair."
+	},
+
+	thirdParty: {
+		cardmarket: 539808
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [722],
+
 	name: {
 		en: "Rowlet",
 		fr: "Brindibou",
@@ -92,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "At a distance, it launches its sharp feathers while flying about. If the enemy gets too close, Rowlet switches tactics and delivers vicious kicks."
+	},
+
+	thirdParty: {
+		cardmarket: 482929,
+		tcgplayer: 219090
 	}
 }
 

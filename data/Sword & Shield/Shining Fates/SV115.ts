@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [870],
 	set: Set,
 
 	name: {
@@ -72,7 +73,11 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 539963
+	}
 }
 
 export default card

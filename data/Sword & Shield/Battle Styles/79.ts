@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Battle Styles'
 
 const card: Card = {
+	dexId: [838],
 	set: Set,
 
 	name: {
@@ -82,6 +83,11 @@ const card: Card = {
 
 	description: {
 		en: "By rapidly rolling its legs, it can travel at over 18 mph. The temperature of the flames it breathes exceeds 1,800 degrees Fahrenheit."
+	},
+
+	thirdParty: {
+		cardmarket: 545506,
+		tcgplayer: 234255
 	}
 }
 

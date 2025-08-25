@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [771],
 	set: Set,
 
 	name: {
@@ -61,6 +62,10 @@ const card: Card = {
 
 	description: {
 		en: "It's covered in a slime that keeps its skin moist, allowing it to stay on land for days without drying up."
+	},
+
+	thirdParty: {
+		cardmarket: 580166
 	}
 }
 

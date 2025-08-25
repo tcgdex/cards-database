@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
+	dexId: [898],
 	set: Set,
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
@@ -72,7 +73,11 @@ const card: Card = {
 	},
 
 	regulationMark: "E",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 572539
+	}
 }
 
 export default card

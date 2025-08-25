@@ -102,7 +102,12 @@ const card: Card = {
 		en: "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
 	},
 
-	dexId: [862]
+	dexId: [862],
+
+	thirdParty: {
+		cardmarket: 436704,
+		tcgplayer: 208429
+	}
 }
 
 export default card

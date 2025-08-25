@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Guarda le prime sette carte del tuo mazzo. Puoi mostrare una carta Aiuto presente tra esse e aggiungerla alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
 		pt: "Olhe as 7 primeiras cartas do seu baralho. Você poderá revelar 1 carta de Apoiador que encontrar lá e colocá-la na sua mão. Embaralhe as demais cartas de volta no seu baralho.",
 		de: "Schau dir die obersten 7 Karten deines Decks an. Du kannst 1 Unterstützerkarte, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck."
+	},
+
+	thirdParty: {
+		cardmarket: 372466
 	}
 }
 

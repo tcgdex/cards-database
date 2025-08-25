@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [849],
 	set: Set,
 
 	name: {
@@ -78,6 +79,10 @@ const card: Card = {
 
 	description: {
 		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity."
+	},
+
+	thirdParty: {
+		cardmarket: 539598
 	}
 }
 

@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Eske Yoshinob",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [452],
 	set: Set,
 	hp: 210,
 
@@ -86,7 +87,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 511950,
+		tcgplayer: 226558
+	}
 }
 
 export default card

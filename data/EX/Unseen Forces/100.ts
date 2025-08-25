@@ -16,6 +16,11 @@ const card: Card = {
 
 	effect: {
 		de: "Warp Energy provides  Energy. When you attach this card from your hand to your Active Pokémon, switch that Pokémon with 1 of your Benched Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 276746,
+		tcgplayer: 90473
 	}
 }
 

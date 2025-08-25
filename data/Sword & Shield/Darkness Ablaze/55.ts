@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [179],
+
 	name: {
 		en: "Mareep",
 		fr: "Wattouat",
@@ -62,6 +63,11 @@ const card: Card = {
 
 	description: {
 		en: "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock."
+	},
+
+	thirdParty: {
+		cardmarket: 483149,
+		tcgplayer: 219387
 	}
 }
 

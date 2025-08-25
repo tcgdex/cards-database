@@ -73,6 +73,11 @@ const card: Card = {
 
 	description: {
 		fr: "Bien qu'extrêmement actif durant la journée, il cesse de bouger dès que le soleil se couche."
+	},
+
+	thirdParty: {
+		cardmarket: 274724,
+		tcgplayer: 86749
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [89],
+
 	name: {
 		en: "Muk",
 		fr: "Grotadmorv",
@@ -96,6 +97,11 @@ const card: Card = {
 
 	description: {
 		en: "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population."
+	},
+
+	thirdParty: {
+		cardmarket: 483384,
+		tcgplayer: 219402
 	}
 }
 

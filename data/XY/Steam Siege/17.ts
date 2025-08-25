@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Rapidash",
 		de: "Gallopa"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		78,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Ponyta",
 		fr: "Ponyta",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Ponyta",
 		de: "Ponita"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -75,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -84,8 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 291524,
+		tcgplayer: 121006
+	}
 }
 
 export default card

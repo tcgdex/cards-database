@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Energia Tripla de Aceleração",
 		de: "Dreifach-Beschleunigungs-Energie"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cette carte ne peut être attachée qu’à un Pokémon Évolutif. Si cette carte est attachée à l’un de vos Pokémon, défaussez-la à la fin du tour.\n\nCette carte ne fournit des Énergies ColorlessColorlessColorless que lorsqu’elle est attachée à un Pokémon Évolutif.\n\nSi cette carte est attachée à autre chose qu’un Pokémon Évolutif, défaussez cette carte.",
@@ -35,7 +25,12 @@ const card: Card = {
 		de: "Diese Karte kann nur an Entwicklungs-Pokémon angelegt werden. Wenn diese Karte an 1 deiner Pokémon angelegt ist, lege sie am Ende des Zuges auf deinen Ablagestapel.\n\nDiese Karte liefert ColorlessColorlessColorless-Energie, aber nur solang sie an ein Entwicklungs-Pokémon angelegt ist.\n\nLege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Entwicklungs-Pokémon angelegt ist."
 	},
 
-energyType: "Special",
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 372261,
+		tcgplayer: 189301
+	}
 }
 
 export default card

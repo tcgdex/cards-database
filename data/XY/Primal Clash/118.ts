@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Bibarel",
 		de: "Bidifas"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		400,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Bidoof",
 		fr: "Keunotor",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Bidoof",
 		de: "Bidiza"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 273649,
+		tcgplayer: 96016
+	}
 }
 
 export default card

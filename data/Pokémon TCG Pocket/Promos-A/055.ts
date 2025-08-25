@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+		en: "It quickly swings its four arms to rock its\nopponents with ceaseless punches and chops\nfrom all angles.",
 		fr: "Il peut bouger ses quatre bras à grande vitesse\net frapper du poing ou du tranchant de la main\ndans toutes les directions sans se fatiguer.",
 		es: "Mueve rápidamente sus cuatro brazos\npara asestar incesantes golpes y\npuñetazos desde todos los ángulos.",
 		it: "Agita velocemente le quattro braccia tempestando\ngli avversari di pugni e colpi da ogni direzione.",

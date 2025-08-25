@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Pelipper",
 		de: "Pelipper"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		279,
 	],
@@ -18,11 +19,12 @@ const card: Card = {
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Wingull",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,22 +62,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 278896,
+		tcgplayer: 87978
+	}
 }
 
 export default card

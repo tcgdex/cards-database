@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [876],
 	set: Set,
 
 	attacks: [
@@ -95,6 +96,11 @@ const card: Card = {
 
 	description: {
 		en: "These intelligent Pokémon touch horns with each other to share information between them."
+	},
+
+	thirdParty: {
+		cardmarket: 457858,
+		tcgplayer: 213174
 	}
 }
 

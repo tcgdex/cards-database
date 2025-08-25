@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [820],
 	set: Set,
 
 	name: {
@@ -83,6 +84,11 @@ const card: Card = {
 
 	description: {
 		en: "Common throughout the Galar region, this Pokémon has strong teeth and can chew through the toughest of berry shells."
+	},
+
+	thirdParty: {
+		cardmarket: 567236,
+		tcgplayer: 241810
 	}
 }
 

@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [501],
 	set: Set,
 
 	name: {
@@ -39,6 +40,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon from the Unova region uses the shell on its belly as a weapon to cut down its foes. Thus, I've conferred upon this shell the name \"scalchop.\""
+	},
+
+	thirdParty: {
+		cardmarket: 609468
 	}
 }
 

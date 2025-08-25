@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [146],
 	set: Set,
 
 	name: {
@@ -48,6 +49,10 @@ const card: Card = {
 
 	description: {
 		en: "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow."
+	},
+
+	thirdParty: {
+		cardmarket: 606599
 	}
 }
 

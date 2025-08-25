@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [510],
 	set: Set,
 
 	name: {
@@ -71,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
+	},
+
+	thirdParty: {
+		cardmarket: 606601
 	}
 }
 

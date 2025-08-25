@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Manutenção",
 		de: "Wartung"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Mélangez 2 cartes de votre main avec votre deck. (Si vous ne pouvez pas mélanger 2 cartes avec votre deck, vous ne pouvez pas jouer cette carte.) Ensuite, piochez une carte.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Embaralhe 2 cards da sua mão em seu baralho. (Se você não puder embaralhar 2 cards em seu baralho, não poderá jogar esse card.) Em seguida, compre um card.",
 		de: "Mische 2 Karten von deiner Hand in dein Deck. (Wenn du keine 2 Karten in dein Deck mischen kannst, kannst du diese Karte nicht spielen.) Ziehe anschließend 1 Karte."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 293441,
+		tcgplayer: 124092
+	}
 }
 
 export default card

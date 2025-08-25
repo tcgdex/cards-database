@@ -19,7 +19,11 @@ const np: Set = {
 		official: 40
 	},
 
-	releaseDate: "2003-10-01"
+	releaseDate: "2003-10-01",
+
+	thirdParty: {
+		tcgplayer: 1423
+	}
 }
 
 export default np

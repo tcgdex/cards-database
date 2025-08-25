@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [891],
 	set: Set,
 
 	name: {
@@ -72,6 +73,11 @@ const card: Card = {
 
 	description: {
 		en: "If Kubfu pulls the long white hair on its head, its fighting spirit heightens and power wells up from the depths of its belly."
+	},
+
+	thirdParty: {
+		cardmarket: 567201,
+		tcgplayer: 241762
 	}
 }
 

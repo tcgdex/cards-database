@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
+	dexId: [468],
 	set: Set,
 
 	name: {
@@ -73,6 +74,10 @@ const card: Card = {
 
 	stage: "VMAX",
 
+	thirdParty: {
+		cardmarket: 512415,
+		tcgplayer: 226599
+	}
 }
 
 export default card

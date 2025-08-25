@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [899],
 	set: Set,
 
 	name: {
@@ -80,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing."
+	},
+
+	thirdParty: {
+		cardmarket: 611337
 	}
 }
 

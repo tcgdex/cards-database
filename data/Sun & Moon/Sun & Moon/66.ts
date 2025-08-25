@@ -10,24 +10,29 @@ const card: Card = {
 		pt: "Lunala GX",
 		de: "Lunala GX"
 	},
+
 	illustrator: "PLANETA",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		792,
 	],
+
 	hp: 250,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
 	},
 
 	suffix: "GX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -49,6 +54,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -101,22 +107,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 295377,
+		tcgplayer: 126937
+	}
 }
 
 export default card

@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Kabutops",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		141,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Kabuto",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -53,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -60,10 +65,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	thirdParty: {
+		cardmarket: 274792,
+		tcgplayer: 86395
+	}
 }
 
 export default card

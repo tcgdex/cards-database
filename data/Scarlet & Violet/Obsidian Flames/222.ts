@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
+	dexId: [875],
 	set: Set,
 
 	name: {
@@ -51,7 +52,11 @@ const card: Card = {
 		normal: false
 	},
 
-	illustrator: "Toshinao Aoki"
+	illustrator: "Toshinao Aoki",
+
+	thirdParty: {
+		cardmarket: 725122
+	}
 }
 
 export default card

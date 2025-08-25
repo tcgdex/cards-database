@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
+		en: "It skulks in caves, and when prey or an enemy\npasses by, it leaps out and chomps them.\nThe force of its attack sometimes chips its teeth.",
 		fr: "Il attend qu'une proie passe pour bondir hors de son trou\net la croquer. Dans son élan, il se casse parfois les dents.",
 		es: "Permanece oculto en cuevas y, cuando pasa una\npresa, se abalanza sobre ella y la muerde con\ntanta fuerza que hasta se le rompen los dientes.",
 		it: "Aspetta nemici e prede in agguato nella sua\ntana. Quando gli arrivano a tiro, li addenta\ncon tale forza che a volte si spezza i denti.",

@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Pokémon GO"
 
 const card: Card = {
+	dexId: [149],
 	set: Set,
 
 	name: {
@@ -76,10 +77,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "F",
+
 	variants: {
 		"normal": false,
 		"reverse": false,
 		"holo": true
+	},
+
+	thirdParty: {
+		cardmarket: 664594,
+		tcgplayer: 277014
 	}
 }
 

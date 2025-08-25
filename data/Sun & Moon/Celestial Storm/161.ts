@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Fabricador de Bolota",
 		de: "Aprikoko-Hersteller"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez dans votre deck jusqu’à 2 cartes Objet contenant le mot « Ball » dans leur nom, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure por até 2 cartas de Item no seu baralho que tenham a palavra “Bola” no seu nome, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach bis zu 2 Itemkarten, bei denen das Wort „Ball“ zum Namen gehört, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 361363,
+		tcgplayer: 171013
+	}
 }
 
 export default card

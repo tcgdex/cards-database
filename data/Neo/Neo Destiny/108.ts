@@ -76,6 +76,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon antique utilise ses griffes acérées pour trancher ses proies et récupérer leur sang."
+	},
+
+	thirdParty: {
+		cardmarket: 274760,
+		tcgplayer: 89165
 	}
 }
 

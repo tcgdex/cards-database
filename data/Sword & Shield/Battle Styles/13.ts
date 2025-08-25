@@ -82,6 +82,11 @@ const card: Card = {
 
 	description: {
 		en: "The patterns on this Pokémon's wings depend on the climate and topography of its habitat. It scatters colorful scales."
+	},
+
+	thirdParty: {
+		cardmarket: 544961,
+		tcgplayer: 234072
 	}
 }
 

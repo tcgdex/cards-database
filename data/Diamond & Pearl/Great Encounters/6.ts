@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Porygon-Z",
 		de: "Porygon-Z"
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		474,
 	],
+
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Porygon2",
 		fr: "Porygon2",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -60,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -69,8 +76,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 277908,
+		tcgplayer: 88315
+	}
 }
 
 export default card

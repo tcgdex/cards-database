@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [859],
 	set: Set,
 
 	attacks: [
@@ -75,6 +76,11 @@ const card: Card = {
 
 	description: {
 		en: "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy."
+	},
+
+	thirdParty: {
+		cardmarket: 458013,
+		tcgplayer: 213219
 	}
 }
 

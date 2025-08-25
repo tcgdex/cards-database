@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../XY trainer Kit (Pikachu Libre)'
 
 const card: Card = {
+	dexId: [25],
 	set: Set,
 
 	name: {
@@ -51,7 +52,11 @@ const card: Card = {
 	resistances: [{
 		type: "Metal",
 		value: "-20"
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 118820
+	}
 }
 
 export default card

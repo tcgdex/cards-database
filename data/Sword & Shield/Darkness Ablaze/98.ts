@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Ryota Murayama",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [865],
 	set: Set,
 	hp: 130,
 
@@ -95,6 +96,11 @@ const card: Card = {
 
 	description: {
 		en: "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat."
+	},
+
+	thirdParty: {
+		cardmarket: 483369,
+		tcgplayer: 219495
 	}
 }
 

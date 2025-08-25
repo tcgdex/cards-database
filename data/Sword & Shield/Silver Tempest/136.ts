@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Silver Tempest"
 
 const card: Card = {
+	dexId: [895],
 	set: Set,
 
 	name: {
@@ -54,11 +55,17 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "F",
+
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 682183,
+		tcgplayer: 451395
 	}
 }
 

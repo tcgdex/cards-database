@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [876],
 	set: Set,
 
 	name: {
@@ -78,6 +79,10 @@ const card: Card = {
 
 	description: {
 		en: "These intelligent Pokémon touch horns with each other to share information between them."
+	},
+
+	thirdParty: {
+		cardmarket: 539218
 	}
 }
 

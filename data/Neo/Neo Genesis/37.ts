@@ -81,6 +81,11 @@ const card: Card = {
 
 	description: {
 		fr: "Il est timide et effarouché. Si on l'attaque, it flails about parer son attaquant."
+	},
+
+	thirdParty: {
+		cardmarket: 274437,
+		tcgplayer: 85861
 	}
 }
 

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Primeape",
 		de: "Rasaff"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		57,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Mankey",
 		fr: "Férosinge",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Mankey",
 		de: "Menki"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 291623,
+		tcgplayer: 121183
+	}
 }
 
 export default card

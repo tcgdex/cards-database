@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [868],
 	set: Set,
 
 	name: {
@@ -64,6 +65,10 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream."
+	},
+
+	thirdParty: {
+		cardmarket: 539673
 	}
 }
 

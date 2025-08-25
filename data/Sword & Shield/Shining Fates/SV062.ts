@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [887],
 	set: Set,
 
 	name: {
@@ -85,6 +86,10 @@ const card: Card = {
 
 	description: {
 		en: "When it isn't battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles."
+	},
+
+	thirdParty: {
+		cardmarket: 539698
 	}
 }
 

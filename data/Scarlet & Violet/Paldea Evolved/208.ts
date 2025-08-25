@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
+	dexId: [996],
 	set: Set,
 
 	name: {
@@ -42,7 +43,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "Tomokazu Komiya"
+	illustrator: "Tomokazu Komiya",
+
+	thirdParty: {
+		cardmarket: 715532
+	}
 }
 
 export default card

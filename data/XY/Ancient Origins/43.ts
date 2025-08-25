@@ -103,7 +103,11 @@ const card: Card = {
 			pt: "{title}: Este Pokémon pode ter até dois cards de Ferramenta Pokémon ligados a ele.",
 			de: "{title}: An dieses Pokémon können bis zu 2 Pokémon-Ausrüstungen angelegt sein."
 		}
-	}]
+	}],
+
+	thirdParty: {
+		tcgplayer: 100625
+	}
 }
 
 export default card

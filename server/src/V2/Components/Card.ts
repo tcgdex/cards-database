@@ -1,12 +1,11 @@
-import { objectLoop } from '@dzeio/object-util'
-import type { CardResume, Card as SDKCard, SupportedLanguages } from '@tcgdex/sdk'
-import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
-import TCGSet from './Set'
-
+import Cache from '@cachex/memory'
+import { objectOmit } from '@dzeio/object-util'
+import type { CardResume, Card as SDKCard } from '@tcgdex/sdk'
+import { SupportedLanguages } from '@tcgdex/sdk'
 import de from '../../../generated/de/cards.json'
 import en from '../../../generated/en/cards.json'
-import es from '../../../generated/es/cards.json'
 import esmx from '../../../generated/es-mx/cards.json'
+import es from '../../../generated/es/cards.json'
 import fr from '../../../generated/fr/cards.json'
 import id from '../../../generated/id/cards.json'
 import it from '../../../generated/it/cards.json'
@@ -21,6 +20,43 @@ import ru from '../../../generated/ru/cards.json'
 import th from '../../../generated/th/cards.json'
 import zhcn from '../../../generated/zh-cn/cards.json'
 import zhtw from '../../../generated/zh-tw/cards.json'
+import { getCardMarketPrice } from '../../libs/providers/cardmarket'
+import { getTCGPlayerPrice } from '../../libs/providers/tcgplayer'
+import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
+
+// any is CompiledCard that is currently not mapped correctly
+const list: Record<`${string | any}${SupportedLanguages | string}`, any> = {}
+
+// @ts-ignore ts can't load file
+en.forEach((it) => list[`${it.id.toLowerCase()}en`] = it)
+// @ts-ignore ts can't load file
+fr.forEach((it) => list[`${it.id.toLowerCase()}fr`] = it)
+// @ts-ignore ts can't load file
+es.forEach((it) => list[`${it.id.toLowerCase()}es`] = it)
+esmx.forEach((it) => list[`${it.id.toLowerCase()}es-mx`] = it)
+// @ts-ignore ts can't load file
+it.forEach((it) => list[`${it.id.toLowerCase()}it`] = it)
+// @ts-ignore ts can't load file
+pt.forEach((it) => list[`${it.id.toLowerCase()}pt`] = it)
+ptbr.forEach((it) => list[`${it.id.toLowerCase()}pt-br`] = it)
+// @ts-expect-error there is currently not cards here
+ptpt.forEach((it) => list[`${it.id.toLowerCase()}pt-pt`] = it)
+// @ts-ignore ts can't load file
+de.forEach((it) => list[`${it.id.toLowerCase()}de`] = it)
+// @ts-expect-error there is currently not cards here
+nl.forEach((it) => list[`${it.id.toLowerCase()}nl`] = it)
+// @ts-expect-error there is currently not cards here
+pl.forEach((it) => list[`${it.id.toLowerCase()}pl`] = it)
+// @ts-expect-error there is currently not cards here
+ru.forEach((it) => list[`${it.id.toLowerCase()}ru`] = it)
+ja.forEach((it) => list[`${it.id.toLowerCase()}ja`] = it)
+// @ts-expect-error there is currently not cards here
+ko.forEach((it) => list[`${it.id.toLowerCase()}ko`] = it)
+// @ts-ignore ts can't load file
+zhtw.forEach((it) => list[`${it.id.toLowerCase()}zh-tw`] = it)
+id.forEach((it) => list[`${it.id.toLowerCase()}id`] = it)
+th.forEach((it) => list[`${it.id.toLowerCase()}th`] = it)
+zhcn.forEach((it) => list[`${it.id.toLowerCase()}zh-cn`] = it)
 
 const cards = {
 	en: en,
@@ -43,101 +79,88 @@ const cards = {
 	'zh-cn': zhcn,
 } as const
 
-type LocalCard = Omit<SDKCard, 'set'> & { set: () => TCGSet }
+const cache = new Cache()
 
-interface variants {
-	normal?: boolean;
-	reverse?: boolean;
-	holo?: boolean;
-	firstEdition?: boolean;
+type MappedCard = SDKCard // (typeof en)[number]
+
+export type Card = SDKCard
+
+export async function getAllCards(lang: SupportedLanguages): Promise<Array<SDKCard>> {
+	return Promise.all((cards[lang] as Array<MappedCard>).map((it) => loadCard(lang, it.id))) as Promise<Array<SDKCard>>
 }
 
-interface variant_detailed {
-	type: string;
-	subtype?: string | undefined;
-	size: string;
-	stamp?: string[] | undefined
+export function getCompiledCard(lang: SupportedLanguages, id: string): any {
+	const key = `${id}${lang}`.toLowerCase() as `${any}${string}`
+	return list[key]
 }
 
-export default class Card implements LocalCard {
-	illustrator?: string | undefined
-	rarity!: string
-	category!: string
-	variants?: variants | undefined
-	variants_detailed?: variant_detailed[] | undefined
-	dexId?: number[] | undefined
-	hp?: number | undefined
-	types?: string[] | undefined
-	evolveFrom?: string | undefined
-	weight?: string | undefined
-	description?: string | undefined
-	level?: string | number | undefined
-	stage?: string | undefined
-	suffix?: string | undefined
-	item?: { name: string; effect: string } | undefined
-	abilities?: { type: string; name: string; effect: string }[] | undefined
-	attacks?: {
-		cost?: string[] | undefined;
-		name: string;
-		effect?: string | undefined;
-		damage?: string | number | undefined
-	}[] | undefined
-	weaknesses?: { type: string; value?: string | undefined }[] | undefined
-	resistances?: { type: string; value?: string | undefined }[] | undefined
-	retreat?: number | undefined
-	effect?: string | undefined
-	trainerType?: string | undefined
-	energyType?: string | undefined
-	regulationMark?: string | undefined
-	legal!: { standard: boolean; expanded: boolean }
-	id!: string
-	localId!: string
-	name!: string
-	image?: string | undefined
+/**
+ * Function that do the hard work of loading the card with the external processors
+ *
+ * It should run once until it's timeout runout :D
+ * @param lang
+ * @param id
+ */
+async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard | null> {
+	const key = `${id}${lang}`.toLowerCase()
+	const value = cache.get<SDKCard>(key)
 
-	public constructor(
-		private lang: SupportedLanguages,
-		private card: SDKCard
-	) {
-		objectLoop(card, (it, key) => {
-			if (key === 'set') {
-				return
-			}
-			this[key as 'id'] = it as string
-		})
+	// expect the cache to be present
+	if (value) {
+		return value
 	}
+	// console.time(`loading card ${id}${lang}`)
 
-	public set(): TCGSet {
-		return TCGSet.findOne(this.lang, {id: this.card.set.id}) as TCGSet
+	// console.time('fetching DB')
+	// @ts-expect-error flemme
+	const card = list[key]
+	if (!card) {
+		return null
 	}
+	// console.timeEnd('fetching DB')
 
-	public static getAll(lang: SupportedLanguages): Array<SDKCard> {
-		return cards[lang]
-	}
-
-	public static find(lang: SupportedLanguages, query: Query<SDKCard>) {
-		return executeQuery(Card.getAll(lang), query).data.map((it) => new Card(lang, it))
-	}
-
-	public static findOne(lang: SupportedLanguages, query: Query<SDKCard>) {
-		const res = Card.find(lang, query)
-		if (res.length === 0) {
-			return undefined
+	// console.time('loading providers')
+	const [cardmarket, tcgplayer] = await Promise.all([
+		getCardMarketPrice(card),
+		getTCGPlayerPrice(card),
+	])
+	// console.timeEnd('loading providers')
+	// console.time('remapping card')
+	const res = {
+		...objectOmit(card, 'thirdParty'),
+		pricing: {
+			cardmarket: cardmarket,
+			tcgplayer: tcgplayer
 		}
-		return res[0]
-	}
+	} as SDKCard
+	// console.timeEnd('remapping card')
 
-	public resume(): CardResume {
-		return {
-			id: this.id,
-			localId: this.localId,
-			name: this.name,
-			image: this.image
-		}
-	}
+	cache.set(key, res, 60 * 60)
+	// console.timeEnd(`loading card ${id}${lang}`)
+	return res
+}
 
-	public full(): SDKCard {
-		return this.card
-	}
+export async function getCardById(lang: SupportedLanguages, id: string) {
+	return loadCard(lang, id)
+}
 
+export async function findCards(lang: SupportedLanguages, query: Query<SDKCard>) {
+	return executeQuery(await getAllCards(lang), query).data
+}
+
+export async function findOneCard(lang: SupportedLanguages, query: Query<SDKCard>) {
+	const res = await findCards(lang, query)
+	if (res.length === 0) {
+		return undefined
+	}
+	return res[0]
+}
+
+export function toBrief(card: SDKCard): CardResume {
+	return {
+		id: card.id,
+		localId: card.localId,
+		name: card.name,
+		image: card.image
+	}
 }

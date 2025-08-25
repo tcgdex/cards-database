@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Satoshi Shirai",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [212],
 	set: Set,
 	hp: 210,
 
@@ -90,7 +91,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 483469,
+		tcgplayer: 219305
+	}
 }
 
 export default card

@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Dragonair",
 		de: "Dragonir"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		148,
 	],
+
 	hp: 80,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Dratini",
 		fr: "Minidraco",
@@ -30,8 +34,8 @@ const card: Card = {
 		pt: "Dratini",
 		de: "Dratini"
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -82,6 +86,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -91,8 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 282718,
+		tcgplayer: 98086
+	}
 }
 
 export default card

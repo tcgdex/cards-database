@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [837],
 	set: Set,
 
 	name: {
@@ -44,6 +45,10 @@ const card: Card = {
 
 	description: {
 		en: "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago."
+	},
+
+	thirdParty: {
+		cardmarket: 539723
 	}
 }
 

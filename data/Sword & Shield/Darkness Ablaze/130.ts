@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "NC Empire",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [809],
 	set: Set,
 	hp: 150,
 
@@ -103,6 +104,11 @@ const card: Card = {
 
 	description: {
 		en: "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan."
+	},
+
+	thirdParty: {
+		cardmarket: 483529,
+		tcgplayer: 219392
 	}
 }
 

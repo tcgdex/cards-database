@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Satoshi Shirai",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [208],
 	set: Set,
 	hp: 250,
 
@@ -100,7 +101,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 512285,
+		tcgplayer: 226568
+	}
 }
 
 export default card

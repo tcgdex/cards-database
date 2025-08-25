@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "It adores polluted air. Some claim that Koffing used to be more plentiful in the Galar region than they are now."
+	},
+
+	thirdParty: {
+		cardmarket: 567202,
+		tcgplayer: 241763
 	}
 }
 

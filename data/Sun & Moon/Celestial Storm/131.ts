@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Bola Amizade",
 		de: "Freundesball"
 	},
+
 	illustrator: "Katsura Tabata",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Cherchez dans votre deck un Pokémon du même type que l’un des Pokémon en jeu de votre adversaire, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "Procure por 1 Pokémon no seu baralho que seja do mesmo tipo de 1 dos Pokémon do seu oponente em jogo, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
 		de: "Durchsuche dein Deck nach 1 Pokémon, das denselben Typ wie 1 Pokémon deines Gegners im Spiel hat, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 361369,
+		tcgplayer: 170992
+	}
 }
 
 export default card

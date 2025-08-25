@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [848],
 	set: Set,
 
 	name: {
@@ -59,6 +60,10 @@ const card: Card = {
 
 	description: {
 		en: "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis."
+	},
+
+	thirdParty: {
+		cardmarket: 659061
 	}
 }
 

@@ -17,7 +17,7 @@ const xy0: Set = {
 	tcgOnline: "KSS",
 
 	cardCount: {
-		official: 45
+		official: 39
 	},
 
 	releaseDate: "2013-11-08",
@@ -25,6 +25,11 @@ const xy0: Set = {
 	abbreviations: {
 		official: "KSS",
 		fr: "BAK"
+	},
+
+	thirdParty: {
+		cardmarket: 1637,
+		tcgplayer: 1522
 	}
 }
 

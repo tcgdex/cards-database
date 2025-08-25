@@ -83,7 +83,12 @@ const card: Card = {
 	},
 
 	dexId: [668],
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 574047,
+		tcgplayer: 246841
+	}
 }
 
 export default card

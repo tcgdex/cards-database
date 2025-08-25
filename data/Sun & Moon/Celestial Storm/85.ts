@@ -10,18 +10,22 @@ const card: Card = {
 		pt: "Raticate de Alola GX",
 		de: "Alola-Rattikarl GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		20,
 	],
+
 	hp: 200,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Alolan Rattata",
 		fr: "Rattata d’Alola",
@@ -97,22 +101,27 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 360924,
+		tcgplayer: 170907
+	}
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "kirisAki",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [820],
 	set: Set,
 
 	evolveFrom: {
@@ -91,6 +92,11 @@ const card: Card = {
 
 	description: {
 		en: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss."
+	},
+
+	thirdParty: {
+		cardmarket: 458158,
+		tcgplayer: 213252
 	}
 }
 

@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "À force de manger son fruit préféré, il a fini par pousser autour de son cou."
+	},
+
+	thirdParty: {
+		cardmarket: 277693,
+		tcgplayer: 90059
 	}
 }
 

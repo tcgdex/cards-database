@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "Cosmoem",
 		de: "Cosmovum"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		790,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Cosmog",
 		fr: "Cosmog",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -53,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -62,8 +67,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 295376,
+		tcgplayer: 126936
+	}
 }
 
 export default card

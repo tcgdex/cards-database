@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Battle Styles'
 
 const card: Card = {
+	dexId: [823],
 	set: Set,
 
 	name: {
@@ -95,7 +96,12 @@ const card: Card = {
 		de: "Krarmor-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 545631,
+		tcgplayer: 234094
+	}
 }
 
 export default card

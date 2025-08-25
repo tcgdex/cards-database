@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [866],
 	set: Set,
 
 	name: {
@@ -80,6 +81,10 @@ const card: Card = {
 
 	description: {
 		en: "It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements."
+	},
+
+	thirdParty: {
+		cardmarket: 539493
 	}
 }
 

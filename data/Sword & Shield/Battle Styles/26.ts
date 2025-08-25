@@ -74,6 +74,11 @@ const card: Card = {
 
 	description: {
 		en: "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides."
+	},
+
+	thirdParty: {
+		cardmarket: 545031,
+		tcgplayer: 234129
 	}
 }
 

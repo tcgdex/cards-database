@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [623],
+
 	name: {
 		en: "Golurk",
 		fr: "Golemastoc",
@@ -100,6 +101,11 @@ const card: Card = {
 
 	description: {
 		en: "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams."
+	},
+
+	thirdParty: {
+		cardmarket: 483264,
+		tcgplayer: 219459
 	}
 }
 

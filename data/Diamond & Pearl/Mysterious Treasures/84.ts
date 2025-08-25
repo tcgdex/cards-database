@@ -60,6 +60,11 @@ const card: Card = {
 
 	description: {
 		fr: "Nombre d'entre eux vivent sur des chemins montagneux où ils restent enfouis à épier les alpinistes."
+	},
+
+	thirdParty: {
+		cardmarket: 277713,
+		tcgplayer: 85690
 	}
 }
 

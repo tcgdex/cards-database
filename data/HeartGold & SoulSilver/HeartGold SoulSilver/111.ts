@@ -50,7 +50,11 @@ const card: Card = {
 		},
 
 		cost: ["Fire", "Fire", "Fire", "Fire"]
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 279083
+	}
 }
 
 export default card

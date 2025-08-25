@@ -13,6 +13,10 @@ const card: Card = {
 
 	effect: {
 		en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1)."
+	},
+
+	thirdParty: {
+		tcgplayer: 88339
 	}
 }
 

@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [747],
+
 	name: {
 		en: "Mareanie",
 		fr: "Vorastérie",
@@ -92,6 +93,11 @@ const card: Card = {
 
 	description: {
 		en: "The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin."
+	},
+
+	thirdParty: {
+		cardmarket: 483129,
+		tcgplayer: 219377
 	}
 }
 

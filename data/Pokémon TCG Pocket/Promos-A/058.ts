@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "It’s one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.",
+		en: "It's one of the kinds of Pokémon with electric\ncheek pouches. It shoots charges from its tail.",
 		fr: "Pachirisu fait partie des Pokémon aux joues électriques.\nIl libère l'énergie qu'il accumule par la queue.",
 		es: "Forma parte del grupo de Pokémon que\nposee bolsas de electricidad en las mejillas.\nDescarga por la cola la electricidad que acumula.",
 		it: "Appartiene alla tipologia di Pokémon\nmuniti di sacche elettriche sulle guance.\nRilascia dalla coda l'elettricità accumulata.",

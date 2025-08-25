@@ -23,6 +23,11 @@ const ex12: Set = {
 	abbreviations: {
 		official: "LM",
 		fr: "CDL"
+	},
+
+	thirdParty: {
+		cardmarket: 1550,
+		tcgplayer: 1378
 	}
 }
 

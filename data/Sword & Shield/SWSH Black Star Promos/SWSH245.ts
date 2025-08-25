@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [453],
 	set: Set,
 
 	name: {
@@ -39,6 +40,10 @@ const card: Card = {
 
 	description: {
 		en: "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot."
+	},
+
+	thirdParty: {
+		cardmarket: 665988
 	}
 }
 

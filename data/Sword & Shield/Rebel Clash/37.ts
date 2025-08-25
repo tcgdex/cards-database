@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "kirisAki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [122],
 	set: Set,
 
 	attacks: [
@@ -89,6 +90,11 @@ const card: Card = {
 
 	description: {
 		en: "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier."
+	},
+
+	thirdParty: {
+		cardmarket: 456433,
+		tcgplayer: 213115
 	}
 }
 

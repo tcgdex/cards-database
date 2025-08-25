@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Kangaskhan",
 		fr: "Kangourex",
 	},
+
 	illustrator: "You Iribi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		115,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -40,6 +42,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -49,8 +52,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	thirdParty: {
+		cardmarket: 396642,
+		tcgplayer: 197692
+	}
 }
 
 export default card

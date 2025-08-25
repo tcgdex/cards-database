@@ -118,6 +118,11 @@ export interface Set {
 	}>
 
 	releaseDate: ISODate | Languages<ISODate>
+
+	thirdParty?: {
+		cardmarket?: number
+		tcgplayer?: number
+	}
 }
 
 export interface Card {
@@ -174,13 +179,15 @@ export interface Card {
 	 * - Uncommon: https://www.tcgdex.net/database/Sword-&-Shield/Darkness-Ablaze/136-Furret
 	 */
 	rarity: 'ACE SPEC Rare' | 'Amazing Rare' | 'Classic Collection' | 'Common' |
-		'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
-		'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
-		'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
-		'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
-		'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon' |
-		// Pokémon TCG Pocket Rarities
-		'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
+			'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
+			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
+			'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
+			'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
+			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
+			// Black White rare
+			| 'Black White Rare'
+			// Pokémon TCG Pocket Rarities
+			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 
 	/**
 	 * Card Category
@@ -340,6 +347,11 @@ export interface Card {
 	// Energy Only
 	energyType?: 'Normal' | // https://www.tcgdex.net/database/ecard/ecard1/160
 		'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
+
+	thirdParty?: {
+		tcgplayer?: number
+		cardmarket?: number
+	}
 }
 
 /**

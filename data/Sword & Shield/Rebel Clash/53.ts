@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [847],
 	set: Set,
 
 	evolveFrom: {
@@ -90,6 +91,11 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too."
+	},
+
+	thirdParty: {
+		cardmarket: 457703,
+		tcgplayer: 213134
 	}
 }
 

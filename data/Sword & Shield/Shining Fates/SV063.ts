@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [83],
 	set: Set,
 
 	name: {
@@ -65,6 +66,10 @@ const card: Card = {
 
 	description: {
 		en: "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
+	},
+
+	thirdParty: {
+		cardmarket: 539703
 	}
 }
 

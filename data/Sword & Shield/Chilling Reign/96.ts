@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [110],
 	set: Set,
 
 	name: {
@@ -83,6 +84,11 @@ const card: Card = {
 
 	description: {
 		en: "Long ago, during a time when droves of factories fouled the air with pollution, Weezing changed into this form for some reason."
+	},
+
+	thirdParty: {
+		cardmarket: 567204,
+		tcgplayer: 241765
 	}
 }
 

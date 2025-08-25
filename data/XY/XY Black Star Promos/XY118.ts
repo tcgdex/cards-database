@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Keldeo",
 		fr: "Keldeo",
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		647,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -62,8 +67,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	thirdParty: {
+		cardmarket: 293189
+	}
 }
 
 export default card

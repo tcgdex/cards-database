@@ -3,6 +3,7 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [180],
+
 	name: {
 		en: "Flaaffy",
 		fr: "Lainergie",
@@ -71,6 +72,11 @@ const card: Card = {
 
 	description: {
 		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
+	},
+
+	thirdParty: {
+		cardmarket: 483154,
+		tcgplayer: 219394
 	}
 }
 

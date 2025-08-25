@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "Naoki Saito",
 	rarity: "Holo Rare",
 	category: "Pokemon",
+	dexId: [858],
 	set: Set,
 	hp: 150,
 
@@ -103,6 +104,11 @@ const card: Card = {
 
 	description: {
 		en: "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others."
+	},
+
+	thirdParty: {
+		cardmarket: 499955,
+		tcgplayer: 223013
 	}
 }
 

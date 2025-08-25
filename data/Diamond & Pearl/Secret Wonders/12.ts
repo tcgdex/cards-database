@@ -7,24 +7,28 @@ const card: Card = {
 		fr: "Coudlangue",
 		de: "Schlurplek"
 	},
+
 	illustrator: "Kazuyuki Kano",
 	rarity: "Rare Holo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		463,
 	],
+
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Lickitung",
 		fr: "Excelangue",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -65,6 +69,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -74,8 +79,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 277765,
+		tcgplayer: 86712
+	}
 }
 
 export default card

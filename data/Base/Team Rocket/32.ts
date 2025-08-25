@@ -80,6 +80,11 @@ const card: Card = {
 
 	variants: {
 		wPromo: true
+	},
+
+	thirdParty: {
+		cardmarket: 274085,
+		tcgplayer: 84574
 	}
 }
 

@@ -24,6 +24,11 @@ const hgss3: Set = {
 	abbreviations: {
 		official: "UND",
 		fr: "IND"
+	},
+
+	thirdParty: {
+		cardmarket: 1568,
+		tcgplayer: 1403
 	}
 }
 

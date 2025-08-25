@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [377],
+
 	name: {
 		en: "Regirock",
 		fr: "Regirock",
@@ -95,6 +96,11 @@ const card: Card = {
 
 	description: {
 		en: "The same rocks that form its body have been found in ground layers around the world."
+	},
+
+	thirdParty: {
+		cardmarket: 511865,
+		tcgplayer: 226522
 	}
 }
 

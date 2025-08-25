@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+		en: "When it retracts its long neck into its shell, it\nsquirts out water with vigorous force.",
 		fr: "Quand il rentre son cou dans sa carapace,\nil peut projeter de l'eau à haute pression.",
 		es: "Cuando retrae su largo cuello en el caparazón,\ndispara agua a una presión increíble.",
 		it: "Quando ritrae il lungo collo dentro la\ncorazza sputa un vigoroso getto d'acqua.",

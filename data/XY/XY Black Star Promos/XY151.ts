@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Zygarde EX",
 		fr: "Zygarde EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		718,
 	],
+
 	hp: 190,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "EX",
 
@@ -69,6 +71,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -78,8 +81,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 290110
+	}
 }
 
 export default card

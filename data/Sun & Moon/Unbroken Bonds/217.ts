@@ -18,6 +18,7 @@ const card: Card = {
 
 	dexId: [
 		6,
+		643
 	],
 
 	hp: 270,
@@ -113,7 +114,12 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3
+	retreat: 3,
+
+	thirdParty: {
+		cardmarket: 370729,
+		tcgplayer: 189319
+	}
 }
 
 export default card

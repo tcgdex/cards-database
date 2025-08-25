@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Crown Zenith"
 
 const card: Card = {
+	dexId: [905],
 	set: Set,
 
 	name: {
@@ -67,11 +68,17 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "F",
+
 	variants: {
 		normal: true,
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 691785,
+		tcgplayer: 478189
 	}
 }
 

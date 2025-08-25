@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Fino alla fine del prossimo turno del tuo avversario, le abilità dei Pokémon in gioco, in mano ai giocatori o nelle loro pile degli scarti non hanno più effetto (incluse quelle delle carte entrate in gioco in quel turno).",
 		pt: "Até ao final da próxima vez de jogar do seu oponente, cada Pokémon em jogo, na mão de cada jogador e na pilha de descarte de cada jogador não possui Habilidades. (Isso inclui os cards que entram em jogo nessa rodada).",
 		de: "Bis zum Ende des nächsten Zuges deines Gegners hat jedes Pokémon im Spiel, auf den Händen jedes Spielers und im Ablagestapel jedes Spielers keine Fähigkeiten. (Dazu gehören Karten, die während des Zuges ins Spiel kommen.)"
+	},
+
+	thirdParty: {
+		cardmarket: 284256
 	}
 }
 

@@ -21,7 +21,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
+		en: "With its flotation sac inflated, it can carry people\non its back. It deflates the sac before it dives.",
 		fr: "Il gonfle sa bouée pour permettre aux gens de\nmonter sur son dos et il la dégonfle pour plonger.",
 		es: "Con la vejiga natatoria inflada, puede llevar a personas\nsobre su espalda. Antes de bucear, la desinfla.",
 		it: "Col galleggiante gonfio, può trasportare delle\npersone sul dorso. Per immergersi lo sgonfia.",
@@ -51,7 +51,7 @@ const card: Card = {
 		damage: "10+",
 
 		effect: {
-			en: "If your opponent’s Active Pokémon has damage on it, this attack does 60 more damage.",
+			en: "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage.",
 			fr: "Si le Pokémon Actif de votre adversaire a subi des dégâts, cette attaque inflige 60 dégâts de plus.",
 			es: "Si el Pokémon Activo de tu rival ya tiene daño, este ataque hace 60 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è danneggiato, questo attacco infligge 60 danni in più.",

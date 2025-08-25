@@ -26,6 +26,11 @@ const base3: Set = {
 	abbreviations: {
 		official: "FO",
 		fr: "FOS"
+	},
+
+	thirdParty: {
+		cardmarket: 1526,
+		tcgplayer: 630
 	}
 }
 

@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Assegna a uno dei tuoi Pokémon Fire due carte Energia Fire dalla tua pila degli scarti.",
 		pt: "Ligue 2 cards de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon Fire.",
 		de: "Lege 2 Fire-Energiekarten von deinem Ablagestapel an 1 deiner Fire-Pokémon an."
+	},
+
+	thirdParty: {
+		cardmarket: 281571
 	}
 }
 

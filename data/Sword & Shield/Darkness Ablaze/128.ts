@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
+	dexId: [618],
 	set: Set,
 	hp: 200,
 
@@ -95,7 +96,12 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+
+	thirdParty: {
+		cardmarket: 483519,
+		tcgplayer: 219389
+	}
 }
 
 export default card

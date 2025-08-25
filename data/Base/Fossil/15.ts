@@ -57,6 +57,11 @@ const card: Card = {
 
 	description: {
 		fr: "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs."
+	},
+
+	thirdParty: {
+		cardmarket: 273876,
+		tcgplayer: 44424
 	}
 }
 

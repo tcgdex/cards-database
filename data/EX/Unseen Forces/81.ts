@@ -17,6 +17,11 @@ const card: Card = {
 	effect: {
 		fr: "Choisissez dans votre pile de défausse des cartes Énergie de base. Vous pouvez soit montrer 1 carte Énergie de base à votre adversaire et la placer dans votre main ou montrer 3 cartes Énergie de base à votre adversaire et les mélanger avec votre deck.",
 		de: "Search your discard pile for basic Energy cards. You may either show 1 basic Energy card to your opponent and put it into your hand, or show 3 basic Energy cards to your opponent and shuffle them into your deck."
+	},
+
+	thirdParty: {
+		cardmarket: 276727,
+		tcgplayer: 85217
 	}
 }
 

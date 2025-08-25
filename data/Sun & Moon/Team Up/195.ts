@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Óculos de Metal",
 		de: "Metall-Schutzbrille"
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Le Pokémon Metal auquel cette carte est attachée subit 30 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance), et les attaques et les talents de votre adversaire ne peuvent pas placer de marqueurs de dégâts dessus.",
@@ -34,8 +24,13 @@ const card: Card = {
 		pt: "O Pokémon Metal ao qual esta carta está ligada recebe 30 pontos de dano a menos dos ataques do seu oponente (após a aplicação de Fraqueza e Resistência) e os ataques e as Habilidades do seu oponente não poderão colocar contadores de dano nele.",
 		de: "Dem Metal-Pokémon, an das diese Karte angelegt ist, werden durch Attacken deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden), und durch Attacken und Fähigkeiten deines Gegners können keine Schadensmarken auf jenes Pokémon gelegt werden."
 	},
+
 	trainerType: "Tool",
 
+	thirdParty: {
+		cardmarket: 369074,
+		tcgplayer: 183947
+	}
 }
 
 export default card

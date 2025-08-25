@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [893],
 	set: Set,
 
 	name: {
@@ -73,6 +74,11 @@ const card: Card = {
 
 	description: {
 		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
+	},
+
+	thirdParty: {
+		cardmarket: 539103,
+		tcgplayer: 232398
 	}
 }
 

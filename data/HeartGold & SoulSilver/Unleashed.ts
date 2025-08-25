@@ -25,6 +25,11 @@ const hgss2: Set = {
 	abbreviations: {
 		official: "UL",
 		fr: "DCH"
+	},
+
+	thirdParty: {
+		cardmarket: 1567,
+		tcgplayer: 1399
 	}
 }
 

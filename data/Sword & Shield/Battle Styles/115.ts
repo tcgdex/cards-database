@@ -65,6 +65,11 @@ const card: Card = {
 
 	description: {
 		en: "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon."
+	},
+
+	thirdParty: {
+		cardmarket: 545671,
+		tcgplayer: 234157
 	}
 }
 

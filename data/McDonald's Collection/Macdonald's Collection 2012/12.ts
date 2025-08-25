@@ -37,7 +37,11 @@ const card: Card = {
 
 	rarity: "None",
 	hp: 60,
-	types: ["Colorless"]
+	types: ["Colorless"],
+
+	thirdParty: {
+		tcgplayer: 83673
+	}
 }
 
 export default card

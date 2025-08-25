@@ -7,15 +7,18 @@ const card: Card = {
 		fr: "Tenefix",
 		de: "Zobiris"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		302,
 	],
+
 	hp: 60,
+
 	types: [
 		"Darkness",
 	],
@@ -37,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -76,9 +80,10 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		tcgplayer: 88848,
+		cardmarket: 276426
+	}
 }
 
 export default card

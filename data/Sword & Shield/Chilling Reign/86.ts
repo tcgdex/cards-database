@@ -62,6 +62,11 @@ const card: Card = {
 
 	description: {
 		en: "When it rubs the rocks on its neck against you, that's proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!"
+	},
+
+	thirdParty: {
+		cardmarket: 567194,
+		tcgplayer: 241753
 	}
 }
 

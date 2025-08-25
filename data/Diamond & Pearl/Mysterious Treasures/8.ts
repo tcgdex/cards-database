@@ -78,6 +78,11 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon à l'air pataud est capable d'attaquer à la vitesse de l'éclair pour mordre sa proie."
+	},
+
+	thirdParty: {
+		cardmarket: 277637,
+		tcgplayer: 85418
 	}
 }
 

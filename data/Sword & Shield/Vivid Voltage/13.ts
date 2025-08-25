@@ -3,6 +3,7 @@ import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [290],
+
 	name: {
 		en: "Nincada",
 		fr: "Ningale",
@@ -69,6 +70,11 @@ const card: Card = {
 
 	description: {
 		en: "Because it lived almost entirely underground, it is nearly blind. It uses its antennae instead."
+	},
+
+	thirdParty: {
+		cardmarket: 511485,
+		tcgplayer: 226376
 	}
 }
 

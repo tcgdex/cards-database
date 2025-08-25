@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Shining Fates'
 
 const card: Card = {
+	dexId: [880],
 	set: Set,
 
 	name: {
@@ -79,6 +80,10 @@ const card: Card = {
 
 	description: {
 		en: "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources."
+	},
+
+	thirdParty: {
+		cardmarket: 539638
 	}
 }
 

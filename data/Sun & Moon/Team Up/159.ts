@@ -10,19 +10,22 @@ const card: Card = {
 		pt: "Celebi e Venusaur GX",
 		de: "Celebi & Bisaflor GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
+		251
 	],
+
 	hp: 270,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "TAG TEAM-GX",
 
@@ -99,6 +102,7 @@ const card: Card = {
 			damage: 180
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -108,8 +112,10 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	thirdParty: {
+		cardmarket: 367097,
+		tcgplayer: 183771
+	}
 }
 
 export default card

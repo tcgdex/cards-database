@@ -2,6 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
+	dexId: [641],
 	set: Set,
 
 	name: {
@@ -85,7 +86,12 @@ const card: Card = {
 		de: "Boreos-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	thirdParty: {
+		cardmarket: 567233,
+		tcgplayer: 241807
+	}
 }
 
 export default card

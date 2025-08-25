@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Dialga GX",
 		de: "Dialga GX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		483,
 	],
+
 	hp: 180,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "GX",
 
@@ -102,6 +104,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -111,8 +114,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	thirdParty: {
+		cardmarket: 316026,
+		tcgplayer: 157780
+	}
 }
 
 export default card

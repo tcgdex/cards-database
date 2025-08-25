@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Silver Tempest"
 
 const card: Card = {
+	dexId: [257],
 	set: Set,
 
 	name: {
@@ -77,11 +78,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "E",
+
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	thirdParty: {
+		cardmarket: 682279
 	}
 }
 

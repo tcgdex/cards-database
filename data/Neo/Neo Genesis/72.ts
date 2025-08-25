@@ -71,6 +71,11 @@ const card: Card = {
 
 	description: {
 		fr: "Les baies qu'il transporte dans sa coquille en forme de vase se décomposent et deviennent un liquide gluant."
+	},
+
+	thirdParty: {
+		cardmarket: 274472,
+		tcgplayer: 89188
 	}
 }
 

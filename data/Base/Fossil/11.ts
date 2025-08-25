@@ -79,6 +79,11 @@ const card: Card = {
 
 	description: {
 		fr: "Constitué de Magneti reliés les uns aux autres, il apparaît lorsque le soleil brille."
+	},
+
+	thirdParty: {
+		cardmarket: 273872,
+		tcgplayer: 44420
 	}
 }
 

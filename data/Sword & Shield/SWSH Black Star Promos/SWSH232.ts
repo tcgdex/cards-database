@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [4],
 	set: Set,
 
 	name: {
@@ -48,6 +49,10 @@ const card: Card = {
 
 	description: {
 		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
+	},
+
+	thirdParty: {
+		cardmarket: 547031
 	}
 }
 

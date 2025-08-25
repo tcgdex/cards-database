@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Comunicação Pokémon",
 		de: "Pokémon-Kommunikation"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Montrez l’un des Pokémon de votre main et placez-le sur le dessus de votre deck. Dans ce cas, cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
@@ -34,8 +24,12 @@ const card: Card = {
 		pt: "Revele um Pokémon em sua mão e coloque-o em cima do seu baralho. Se fizer isso, procure um Pokémon em seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe seu baralho.",
 		de: "Nimm 1 Pokémon von deiner Hand, zeige es deinem Gegner und lege es auf dein Deck. Wenn du das machst, durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 279837
+	}
 }
 
 export default card

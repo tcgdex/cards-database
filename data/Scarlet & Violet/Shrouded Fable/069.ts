@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
+	dexId: [356],
 	set: Set,
 
 	name: {
@@ -64,7 +65,11 @@ const card: Card = {
 		reverse: false
 	},
 
-	illustrator: "James Turner"
+	illustrator: "James Turner",
+
+	thirdParty: {
+		cardmarket: 780912
+	}
 }
 
 export default card

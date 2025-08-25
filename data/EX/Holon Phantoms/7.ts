@@ -7,22 +7,27 @@ const card: Card = {
 		fr: "Libegon δ",
 		de: "Libelldra"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		330,
 	],
+
 	hp: 110,
+
 	types: [
 		"Grass",
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Vibrava",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -40,6 +45,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,12 +67,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -78,9 +86,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	thirdParty: {
+		cardmarket: 276977
+	}
 }
 
 export default card

@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
+	dexId: [462],
 	set: Set,
 
 	name: {
@@ -71,6 +72,10 @@ const card: Card = {
 
 	description: {
 		en: "Some say that Magnezone receives signals from space via the antenna on its head and that it's being controlled by some mysterious being."
+	},
+
+	thirdParty: {
+		cardmarket: 611339
 	}
 }
 
