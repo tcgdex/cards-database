@@ -1,23 +1,25 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG2"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "スクランブルエネルギー",
-                                                   },
+	set: Set,
+	name: {
+		ja: "スクランブルエネルギー",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-        {
-          type: "normal",
-          subtype: "unlimited",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

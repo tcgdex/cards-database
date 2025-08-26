@@ -2,49 +2,53 @@ import {Card} from "../../../interfaces"
 import Set from "../PCG2"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "ゴルバット",
-                                                   },
+    set: Set,
+    name: {
+        ja: "ゴルバット",
+    },
 
-      rarity: "Uncommon",
-      category: "Pokemon",
-      dexId: [42],
-      hp: 70,
-      types: ["Grass"],
-      stage: "Stage1",
+    rarity: "Uncommon",
+    category: "Pokemon",
+    dexId: [42],
+    hp: 70,
+    types: ["Grass"],
+    stage: "Stage1",
 
-      abilities: [
+    abilities: [
         {
-          name: {
-                        ja: "自制心",
-                                                                      },
-          effect: {
-                        ja: "ゴルバットは麻痺することはできません。",
-                                                                      },
-      }],
+            type: "Ability",
+            name: {
+                ja: "自制心",
+            },
+            effect: {
+                ja: "ゴルバットは麻痺することはできません。",
+            },
+        }],
 
-      attacks: [
+    attacks: [
         {
-          cost: ["Grass", "Colorless"],
-          name: {
-                        ja: "スパイラルドレイン",
-                                                                      },
-          effect: {
-                        ja: "Golbatから1つのダメージカウンターを取り外します。",
-                                                                      },
-          damage: 20,
+            cost: ["Grass", "Colorless"],
+            name: {
+                ja: "スパイラルドレイン",
+            },
+            effect: {
+                ja: "Golbatから1つのダメージカウンターを取り外します。",
+            },
+            damage: 20,
         },
-      ],
+    ],
 
 
-      variants: [
+    variants: [
         {
-          type: "normal",
+            type: "normal",
+            subtype: "unlimited",
         },
         {
-          type: "normal",
-          stamp: ["1st edition"],
+            type: "normal",
+            stamp: ["1st edition"],
         },
-      ],
+    ],
 };
+
+export default card
