@@ -1,4 +1,4 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG6"
 
 const card: Card = {
@@ -32,7 +32,7 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited',
+			subtype: "unlimited",
 		},
 		{
 			type: "normal",
@@ -40,3 +40,5 @@ const card: Card = {
 		},
 	],
 };
+
+export default card
