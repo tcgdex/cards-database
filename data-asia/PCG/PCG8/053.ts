@@ -1,58 +1,61 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG8"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "タウロス",
-                                                   },
+	set: Set,
+	name: {
+		ja: "タウロス",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [128],
-      hp: 70,
-      types: ["Colorless"],
-      stage: "Basic",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [128],
+	hp: 70,
+	types: ["Colorless"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "チャンスをつぶします",
-                                                                      },
-          effect: {
-                        ja: "ターン中に、手からタウロスをベンチに置いたら、スタジアムカードを捨てることができます。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "チャンスをつぶします",
+			},
+			effect: {
+				ja: "ターン中に、手からタウロスをベンチに置いたら、スタジアムカードを捨てることができます。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "家族を呼びます",
-                                                                      },
-          effect: {
-                        ja: "デッキを最大2つの基本的なポケモンを検索し、ベンチに置きます。その後、デッキをシャッフルします。",
-                                                                      },
-        },
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "ホーン攻撃",
-                                                                      },
-          damage: 20,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "家族を呼びます",
+			},
+			effect: {
+				ja: "デッキを最大2つの基本的なポケモンを検索し、ベンチに置きます。その後、デッキをシャッフルします。",
+			},
+		},
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "ホーン攻撃",
+			},
+			damage: 20,
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-        {
-          type: "holo",
-          subtype: "unlimited",
-        },
-      ],
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

@@ -1,51 +1,54 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG8"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "seccepile ex（デルタ種）",
-                                                   },
+	set: Set,
+	name: {
+		ja: "seccepile ex（デルタ種）",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [254],
-      hp: 140,
-      types: ["Psychic"],
-      stage: "Stage2",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [254],
+	hp: 140,
+	types: ["Psychic"],
+	stage: "Stage2",
 
-      abilities: [
-        {
-          name: {
-                        ja: "余分な液体",
-                                                                      },
-          effect: {
-                        ja: "各プレイヤーのpokã©mon-exは、攻撃を使用するために{{e}}より多くのエネルギーを支払うことができません。各ポカモンは、1つ以上の余分な液体Pokã©Bodyによって影響を受けることはできません。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "余分な液体",
+			},
+			effect: {
+				ja: "各プレイヤーのpokã©mon-exは、攻撃を使用するために{{e}}より多くのエネルギーを支払うことができません。各ポカモンは、1つ以上の余分な液体Pokã©Bodyによって影響を受けることはできません。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Psychic", "Colorless"],
-          name: {
-                        ja: "パワーリベンジ",
-                                                                      },
-          effect: {
-                        ja: "対戦相手が取った各賞カードに対して60のダメージと10件のダメージがさらに10件のダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Psychic", "Colorless"],
+			name: {
+				ja: "パワーリベンジ",
+			},
+			effect: {
+				ja: "対戦相手が取った各賞カードに対して60のダメージと10件のダメージがさらに10件のダメージを与えます。",
+			},
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "holo",
-          subtype: "unlimited',
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card
