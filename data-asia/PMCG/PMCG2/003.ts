@@ -2,67 +2,45 @@ import {Card} from "../../../interfaces"
 import Set from "../PMCG2"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Paras",
-         ja: "パラ",
-         fr: "Paras",
-         de: "Paras",
-         es: "Paras",
-         it: "Paras",
-         pt: "Parágrafos",
-      },
+	set: Set,
+	name: {
+		ja: "パラ",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [46],
-      hp: 40,
-      types: ["Grass"],
-      stage: "Basic",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [46],
+	hp: 40,
+	types: ["Grass"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-            en: "Scratch",
-            ja: "傷",
-            fr: "Gratter",
-            de: "Kratzen",
-            es: "Rascar",
-            it: "Graffio",
-            pt: "Arranhar",
-          },
-          damage: 20,
-        },
-        {
-          cost: ["Grass", "Grass"],
-          name: {
-            en: "Spore",
-            ja: "胞子",
-            fr: "Spore",
-            de: "Spore",
-            es: "Espora",
-            it: "Spora",
-            pt: "Esporo",
-          },
-          effect: {
-            en: "The Defending Pokemon is now Asleep.",
-            ja: "防御ポケモンは今眠っています。",
-            fr: "Le Pokémon en défense est maintenant endormi.",
-            de: "Das verteidigende Pokemon schläft jetzt.",
-            es: "El Pokémon defensor ahora está dormido.",
-            it: "Il Pokemon in carica è ora addormentato.",
-            pt: "O Pokémon atual está agora dormindo.",
-          },
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "傷",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Grass", "Grass"],
+			name: {
+				ja: "胞子",
+			},
+			effect: {
+				ja: "防御ポケモンは今眠っています。",
+			},
 
-        },
-      ],
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants : [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card
