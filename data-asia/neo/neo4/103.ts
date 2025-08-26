@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../neo4"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Counterattack Claws",
-         ja: "反撃の爪",
-         fr: "Griffes de contre-attaque",
-         de: "Gegenangriff Krallen",
-         es: "Contrarrestar garras",
-         it: "Contrattacco artigli",
-         pt: "Garras de contra -ataque",
-      },
+	set: Set,
+	name: {
+		ja: "反撃の爪",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card

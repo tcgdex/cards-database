@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../neo4"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Radio Tower",
-         ja: "ラジオタワー",
-         fr: "Tour de radio",
-         de: "Radio -Turm",
-         es: "Torre de radio",
-         it: "Torre radio",
-         pt: "Torre de Rádio",
-      },
+	set: Set,
+	name: {
+		ja: "ラジオタワー",
+	},
 
-      rarity: "Rare",
-      category: "Trainer",
+	rarity: "Rare",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card

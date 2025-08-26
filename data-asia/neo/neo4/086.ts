@@ -1,46 +1,36 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../neo4"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Porygon",
-         ja: "ポリゴン",
-         fr: "Purygon",
-         de: "Porygon",
-         es: "Fisgón",
-         it: "Porygon",
-         pt: "Porygon",
-      },
+	set: Set,
+	name: {
+		ja: "ポリゴン",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [137],
-      hp: 50,
-      types: ["Colorless"],
-      stage: "Basic",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [137],
+	hp: 50,
+	types: ["Colorless"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-            en: "Sharpen",
-            ja: "シャープ",
-            fr: "Aiguiser",
-            de: "Schärfen",
-            es: "Afilar",
-            it: "Affilare",
-            pt: "Afiado",
-          },
-          damage: 20,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "シャープ",
+			},
+			damage: 20,
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card
