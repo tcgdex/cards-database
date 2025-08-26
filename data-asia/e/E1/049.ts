@@ -1,28 +1,24 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../E1"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Professor Elm's Training Method",
-         ja: "エルム教授のトレーニング方法",
-         fr: "Méthode de formation du professeur Elm",
-         de: "Trainingsmethode von Professor Elm",
-         es: "Método de entrenamiento del profesor Elm",
-         it: "Metodo di formazione del professor Elm",
-         pt: "Método de treinamento do professor Elm",
-      },
+	set: Set,
+	name: {
+		ja: "エルム教授のトレーニング方法",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

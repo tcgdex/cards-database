@@ -1,28 +1,24 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../E1"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Warp Point",
-         ja: "ワープポイント",
-         fr: "Warp Point",
-         de: "Kette Punkt",
-         es: "Punto de urdimbre",
-         it: "Punto di ordito",
-         pt: "Ponto de Warp",
-      },
+	set: Set,
+	name: {
+		ja: "ワープポイント",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

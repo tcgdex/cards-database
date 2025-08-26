@@ -4,7 +4,6 @@ import serie from '../e'
 const set: Set = {
 	id: 'E1',
 	name: {
-		en: 'Base Expansion Pack',
 		ja: '基本拡張パック'
 	},
 

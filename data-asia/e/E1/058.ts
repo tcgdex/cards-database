@@ -1,28 +1,24 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../E1"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Pokmon Nurse",
-         ja: "ポケモンナース",
-         fr: "Infirmière de Pokémon",
-         de: "Pokemon -Krankenschwester",
-         es: "Enfermera de pokemon",
-         it: "Infermiera di Pokemon",
-         pt: "Enfermeira Pokemon",
-      },
+	set: Set,
+	name: {
+		ja: "ポケモンナース",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card
