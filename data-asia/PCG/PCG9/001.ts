@@ -1,4 +1,4 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG9"
 
 const card: Card = {
@@ -16,6 +16,7 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "ベッドヘッド",
 			},
@@ -39,3 +40,5 @@ const card: Card = {
 		},
 	],
 };
+
+export default card
