@@ -1,20 +1,14 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../web1"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Pokemon Retransfer",
-         ja: "ポケモン再送信",
-         fr: "Retransfert pokemon",
-         de: "Pokemon Retransfer",
-         es: "Pokemon Retransfer",
-         it: "Pokemon Retransfer",
-         pt: "Retransferência de Pokemon",
-      },
+	set: Set,
+	name: {
+		ja: "ポケモン再送信",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
 	variants: [
 		{
@@ -26,3 +20,5 @@ const card: Card = {
 		},
 	],
 };
+
+export default card
