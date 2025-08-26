@@ -1,41 +1,43 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG5"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Tentacool",
-                                                   },
+	set: Set,
+	name: {
+		ja: "Tentacool",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [72],
-      hp: 50,
-      types: ["Water"],
-      stage: "Basic",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [72],
+	hp: 50,
+	types: ["Water"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Water"],
-          name: {
-                        ja: "毒物",
-                                                                      },
-          effect: {
-                        ja: "防御ポケモンは現在中毒になっています。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Water"],
+			name: {
+				ja: "毒物",
+			},
+			effect: {
+				ja: "防御ポケモンは現在中毒になっています。",
+			},
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-  type: "normal",
-  subtype: 'unlimited",
-}
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card
