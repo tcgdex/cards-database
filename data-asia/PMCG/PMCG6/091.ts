@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG6"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Rocket's Secret Experiment",
-         ja: "ロケットの秘密の実験",
-         fr: "L'expérience secrète de Rocket",
-         de: "Rockets geheimes Experiment",
-         es: "Experimento secreto de Rocket",
-         it: "L'esperimento segreto di Rocket",
-         pt: "Experiência secreta do foguete",
-      },
+	set: Set,
+	name: {
+		ja: "ロケットの秘密の実験",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card

@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG6"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Minion of Team Rocket",
-         ja: "チームロケットのミニオン",
-         fr: "Minion de l'équipe Rocket",
-         de: "Diener der Teamrakete",
-         es: "Minion del cohete del equipo",
-         it: "Minion del razzo del team",
-         pt: "Minion of Team Rocket",
-      },
+	set: Set,
+	name: {
+		ja: "チームロケットのミニオン",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card

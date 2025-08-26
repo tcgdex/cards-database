@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG6"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Saffron City Gym",
-         ja: "サフランシティジム",
-         fr: "Saffron City Gym",
-         de: "Safran City Fitnessstudio",
-         es: "Gimnasio de la ciudad de azafrán",
-         it: "Palestra di Saffron City",
-         pt: "Ginásio de Saffron City",
-      },
+	set: Set,
+	name: {
+		ja: "サフランシティジム",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card
