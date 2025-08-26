@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "蝶-066/128",
+		ja: "蝶",
 	},
 
 	rarity: "Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "奇跡的なパウダー",
 			},
 			effect: {
-				ja: "順番<em>（攻撃の前）</em>中に、アクティブなポケモンからすべての特別な条件を削除することができます。蝶が特別な状態の影響を受けている場合、このパワーは使用できません。",
+				ja: "ターン中（攻撃前）に、アクティブなポケモンからすべての特別な条件を削除できます。蝶が特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -41,10 +42,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "normal",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

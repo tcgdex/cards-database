@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "外骨格",
 			},
 			effect: {
-				ja: "メタポッドへの攻撃によって与えられたすべての損傷は、20 <em>（脱力感と抵抗を適用した後）</em>に減少します。",
+				ja: "メタポッドへの攻撃によって与えられたすべての損傷は、衰弱と抵抗を適用した後）20増加します。",
 			},
 		}],
 
@@ -39,10 +40,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "normal",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

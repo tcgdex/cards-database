@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Meganium -070/128",
+		ja: "ミーガニウム",
 	},
 
 	rarity: "Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "なだめるような香り",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）</em> </em>、コインをひっくり返すことができます。頭の場合は、Pokmonのそれぞれから1つのダメージカウンターを1つのダメージカウンターを取り外します。メガニウムが特別な状態の影響を受けている場合、この電力は使用できません。",
+				ja: "ターン中に（攻撃の前に）、コインをひっくり返すことができます。頭の場合は、Pokmonのそれぞれから1つのダメージカウンターを1つのダメージカウンターを取り外します。メガニウムが特別な状態の影響を受けている場合、この電力は使用できません。",
 			},
 		}],
 
@@ -42,10 +43,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "normal",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

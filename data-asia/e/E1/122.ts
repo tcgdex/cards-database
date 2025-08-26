@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴーレム-122/128",
+		ja: "ゴーレム",
 	},
 
 	rarity: "Holo Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "ロックボディ",
 			},
 			effect: {
-				ja: "ゴーレムへの攻撃によって与えられたすべての損傷は、10 <em>（脱力感と抵抗を適用した後）に減少します。</em>",
+				ja: "ゴーレムへの攻撃によって与えられたすべての損傷は、衰弱と抵抗を適用した後）10増加します。",
 			},
 		}],
 
@@ -42,10 +43,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "holo",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

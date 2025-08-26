@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Poliwrath -077/128",
+		ja: "Poliwrath",
 	},
 
 	rarity: "Rare",
@@ -16,6 +16,7 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "プランジ",
 			},
@@ -41,10 +42,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "normal",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

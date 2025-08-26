@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rapidash -073/128",
+		ja: "Rapidash",
 	},
 
 	rarity: "Rare",
@@ -38,10 +38,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "normal",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

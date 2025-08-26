@@ -28,7 +28,7 @@ const card: Card = {
 				ja: "ファウル臭",
 			},
 			effect: {
-				ja: "防御するポケモンと暗闇の両方が混乱しています（ダメージを与えた後）。",
+				ja: "防御するポケモンと暗闇の両方が混乱しています（ダメージを受けた後）。",
 			},
 			damage: 30,
 		},
@@ -39,10 +39,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "normal",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タイラニタル-095/128",
+		ja: "タイラニター",
 	},
 
 	rarity: "Rare",
@@ -16,6 +16,7 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "暗いオーラ",
 			},
@@ -41,6 +42,7 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			subtype: "unlimited",
 		},
 		{
 			type: "normal",

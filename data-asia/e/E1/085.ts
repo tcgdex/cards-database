@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Gengar -085/128",
+		ja: "ジェンガー",
 	},
 
 	rarity: "Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "カオスは動きます",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）</em> </em>、相手が3つ以下の賞品を持っている場合、1ポクモン<em>（あなたまたは相手）から1ダメージカウンターを別の<em>に移動することができます（他のPokmonをノックアウトしても）</em>。 Gengarが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				ja: "ターン中（攻撃前）に、相手が3つ以下の賞品を持っている場合、1ポクモン（あなたまたは相手）から1つのダメージカウンターを別のポクモン（他のポクモンをノックアウトしても）に移動できます。 Gengarが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -39,6 +40,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
 
 export default card

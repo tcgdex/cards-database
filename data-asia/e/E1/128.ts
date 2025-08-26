@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スカルモリー-128/128",
+		ja: "スカルモリー",
 	},
 
 	rarity: "Holo Rare",
@@ -41,10 +41,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "holo",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

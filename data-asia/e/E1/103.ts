@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Charizard -103/128",
+		ja: "カリザード",
 	},
 
 	rarity: "Holo Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "燃焼エネルギー",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）</em> </em>、すべてのPokmonに取り付けられたすべての基本エネルギーカードを、残りの部分で火災エネルギーに変えることができます。 Charizardが特別な状態の影響を受けた場合、このパワーは使用できません。",
+				ja: "ターン中（攻撃の前に）一度、すべてのPokmonに取り付けられたすべての基本エネルギーカードを、残りのターンのために火災エネルギーに変えることができます。 Charizardが特別な状態の影響を受けた場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -39,6 +40,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
 
 export default card

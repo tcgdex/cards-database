@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチャンプ-089/128",
+		ja: "マチャンプ",
 	},
 
 	rarity: "Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "テラフォーミング",
 			},
 			effect: {
-				ja: "順番<em>（攻撃の前）</em> </em>、デッキの上位4枚のカードを見て、好きなように並べ替えることができます。 Machampが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				ja: "ターン中（攻撃の前に）一度、デッキの上位4枚のカードを見て、好きなように再配置することができます。 Machampが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -41,10 +42,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "normal",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

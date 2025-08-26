@@ -28,6 +28,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
 
 export default card

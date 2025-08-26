@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "feraligatr -080/128",
+		ja: "feraligatr",
 	},
 
 	rarity: "Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "津波少佐",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前）</em>、feraligatrがアクティブなポクモンであり、相手がベンチポクモンを持っている場合、対戦相手は1匹のベンチポクモンでアクティブなポクモンを切り替えます。いずれにせよ、ベンチを持っている場合は、Pokmonをベンチしている場合は、それらの1つを使用してFeraligatrを切り替えます。 Feraligatrが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				ja: "ターン中（攻撃の前に）、FeraligatrがアクティブなPokmonであり、相手がPokmonをベンチしている場合、対戦相手は1枚のベンチポクモンでアクティブなPokmonを切り替えます。いずれにせよ、ベンチを持っている場合は、Pokmonをベンチしている場合は、それらの1つを使用してFeraligatrを切り替えます。 Feraligatrが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -39,6 +40,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
 
 export default card

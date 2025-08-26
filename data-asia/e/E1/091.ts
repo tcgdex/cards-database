@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Pidgeot -091/128",
+		ja: "pidgeot",
 	},
 
 	rarity: "Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "翼を鼓動します",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）</em> </em>、PidgeotがアクティブなPokmonである場合、ベンチ付きPokmonの1つをシャッフルすることができます。すべてのカードがデッキに取り付けられます。 Pidgeotが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				ja: "ターン中（攻撃の前に）一度、PidgeotがアクティブなPokmonである場合、ベンチで1枚のPokmonとすべてのカードをデッキに接続します。 Pidgeotが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -40,6 +41,7 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			subtype: "unlimited",
 		},
 		{
 			type: "normal",

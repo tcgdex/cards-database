@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブラストワーズ-076/128",
+		ja: "爆風",
 	},
 
 	rarity: "Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "ジェットストリーム",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）</em> </em>、BlastoiseがアクティブなPokmonである場合、コインをひっくり返すことができます。頭の場合は、爆風に取り付けられたエネルギーカードを捨ててください。次に、防衛ポクモンにエネルギーカードが接続されている場合は、それらの1つを選択して破棄します。爆風が特別な状態の影響を受ける場合、このパワーは使用できません。",
+				ja: "ターン中（攻撃の前）に一度、BlastoiseがあなたのアクティブなPokmonである場合、コインをひっくり返すことができます。頭の場合は、爆風に取り付けられたエネルギーカードを捨ててください。次に、防衛ポクモンにエネルギーカードが接続されている場合は、それらの1つを選択して破棄します。爆風が特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -38,6 +39,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
 
 export default card

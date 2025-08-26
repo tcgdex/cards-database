@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Mew -087/128",
+		ja: "ミュー",
 	},
 
 	rarity: "Rare",
@@ -18,6 +18,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
 
 export default card

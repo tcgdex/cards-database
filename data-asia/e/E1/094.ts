@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラゴナイト-094/128",
+		ja: "ドラゴナイト",
 	},
 
 	rarity: "Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "追い風",
 			},
 			effect: {
-				ja: "ターン中に<em>（攻撃の前）</me> </me>、ドラゴナイトがベンチにある場合、アクティブなポケモンリトリートコストを0に削減できます。",
+				ja: "ターン中（攻撃前）に（攻撃の前）、ドラゴナイトがベンチにある場合、アクティブなPokmonのリトリートコストを0に減らすことができます。",
 			},
 		}],
 
@@ -41,10 +42,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "normal",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

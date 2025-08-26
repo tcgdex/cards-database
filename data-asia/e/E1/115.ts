@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Ampharos -115/128",
+		ja: "アンファロス",
 	},
 
 	rarity: "Holo Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "エネルギー接続",
 			},
 			effect: {
-				ja: "順番<em>（攻撃の前に）</em> </em>に頻繁に好きなように、ベンチ付きPokmonの1つに基本的なエネルギーカードを取り、アクティブなPokmonに取り付けることができます。 Ampharosが特別な状態の影響を受ける場合、この電力は使用できません。",
+				ja: "ターン中（攻撃前）に好きなように、ベンチ付きPokmonの1つに基本的なエネルギーカードを取り、アクティブなPokmonに取り付けることができます。 Ampharosが特別な状態の影響を受ける場合、この電力は使用できません。",
 			},
 		}],
 
@@ -42,10 +43,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "holo",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

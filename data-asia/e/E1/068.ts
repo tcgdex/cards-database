@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "vileplume -068/128",
+		ja: "vileplume",
 	},
 
 	rarity: "Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "毒花粉",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）</em> </em>、コインをひっくり返すことができます。頭の場合、防御ポケモンは現在毒されています。 vileplumeが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				ja: "ターン中に（攻撃の前に）、コインをひっくり返すことができます。頭の場合、防御ポケモンは現在毒されています。 vileplumeが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -41,10 +42,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "normal",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };

@@ -4,7 +4,7 @@ import Set from "../E1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Clefable -125/128",
+		ja: "Clefable",
 	},
 
 	rarity: "Holo Rare",
@@ -16,11 +16,12 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "月光",
 			},
 			effect: {
-				ja: "順番<em>（攻撃の前）</em> </em>、手からカードをデッキに戻すことができます。そうした場合は、デッキを検索して、基本的なエネルギーカードを検索し、対戦相手に見せて、手に入れてください。その後、デッキをシャッフルします。 Clefableが特別な状態の影響を受ける場合、この電力は使用できません。",
+				ja: "ターン中（攻撃の前に）一度、あなたの手からカードをデッキに戻すことができます。そうした場合は、デッキを検索して、基本的なエネルギーカードを検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。 Clefableが特別な状態の影響を受ける場合、この電力は使用できません。",
 			},
 		}],
 
@@ -41,10 +42,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			stamp: ["1st edition"],
 		},
 		{
 			type: "holo",
-			stamp: ["1st edition"],
+			subtype: "unlimited",
 		},
 	],
 };
