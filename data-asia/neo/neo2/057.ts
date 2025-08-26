@@ -4,7 +4,7 @@ import Set from "../neo2"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハイパーデボルブスプレー",
+		ja: "壁を台無しにする[aerodactyl]",
 	},
 
 	rarity: "Uncommon",
