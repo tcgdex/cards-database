@@ -1,28 +1,24 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../E2"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Power Plant",
-         ja: "発電所",
-         fr: "Centrale électrique",
-         de: "Kraftwerk",
-         es: "Central eléctrica",
-         it: "Centrale elettrica",
-         pt: "Usina",
-      },
+	set: Set,
+	name: {
+		ja: "発電所",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card
