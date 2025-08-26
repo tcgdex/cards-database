@@ -2,23 +2,19 @@ import {Card} from "../../../interfaces"
 import Set from "../PMCG4"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "The Boss's Way",
-         ja: "上司のやり方",
-         fr: "Le chemin du patron",
-         de: "Der Weg des Chefs",
-         es: "El camino del jefe",
-         it: "La via del capo",
-         pt: "O caminho do chefe",
-      },
+	set: Set,
+	name: {
+		ja: "上司のやり方",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card

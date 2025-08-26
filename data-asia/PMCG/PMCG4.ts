@@ -4,7 +4,6 @@ import serie from '../PMCG'
 const set: Set = {
 	id: 'PMCG4',
 	name: {
-		en: 'Rocket Gang',
 		ja: 'ロケット団'
 	},
 
