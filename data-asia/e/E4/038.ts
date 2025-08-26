@@ -1,4 +1,4 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../E4"
 
 const card: Card = {
@@ -50,3 +50,5 @@ const card: Card = {
 		},
 	],
 };
+
+export default card
