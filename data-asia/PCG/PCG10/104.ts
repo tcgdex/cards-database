@@ -4,11 +4,11 @@ import Set from "../PCG10"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エネルギー除去2",
+		ja: "火のエネルギー",
 	},
 
-	rarity: "Uncommon",
-	category: "Trainer",
+	rarity: "Rare",
+	category: "Energy",
 
 	variants: [
 		{

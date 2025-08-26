@@ -1,4 +1,4 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG10"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "Skarmory Ex",
 	},
 
-
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	dexId: [227],
 	hp: 100,
@@ -16,6 +16,7 @@ const card: Card = {
 
 	abilities: [
 		{
+			type: "Ability",
 			name: {
 				ja: "金属重力",
 			},
@@ -48,12 +49,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			subtype: "unlimited",
 		},
 		{
-			type: "holo",
+			type: "normal",
 			stamp: ["1st edition"],
 		},
 	],
 };
+
+export default card

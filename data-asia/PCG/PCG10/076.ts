@@ -1,4 +1,4 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG10"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "Swablu",
 	},
 
-
+	rarity: "Common",
 	category: "Pokemon",
 	dexId: [333],
 	hp: 40,
@@ -39,3 +39,5 @@ const card: Card = {
 		},
 	],
 };
+
+export default card

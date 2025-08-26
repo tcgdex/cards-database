@@ -1,4 +1,4 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG10"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "素晴らしいボール",
 	},
 
-
+	rarity: "Uncommon",
 	category: "Trainer",
 
 	variants: [
@@ -21,3 +21,5 @@ const card: Card = {
 		},
 	],
 };
+
+export default card
