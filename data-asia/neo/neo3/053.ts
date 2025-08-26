@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../neo3"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Old Rod",
-         ja: "古い棒",
-         fr: "Vieille tige",
-         de: "Alte Rute",
-         es: "Barra vieja",
-         it: "Vecchia canna",
-         pt: "Velha de haste",
-      },
+	set: Set,
+	name: {
+		ja: "古い棒",
+	},
 
-      rarity: "Common",
-      category: "Trainer",
+	rarity: "Common",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card

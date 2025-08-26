@@ -4,7 +4,6 @@ import serie from '../neo'
 const set: Set = {
 	id: 'neo3',
 	name: {
-		en: 'Awakening Legends',
 		ja: 'めざめる伝説'
 	},
 
