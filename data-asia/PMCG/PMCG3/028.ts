@@ -1,33 +1,28 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Slowbro",
-         ja: "スローブロ",
-         fr: "Slowbro",
-         de: "Slowbro",
-         es: "Slowbro",
-         it: "Slowbro",
-         pt: "Slowbro",
-      },
+	set: Set,
+	name: {
+		ja: "スローブロ",
+	},
 
-      rarity: "Uncommon",
-      category: "Pokemon",
-      dexId: [80],
-      hp: 60,
-      types: ["Psychic"],
-      stage: "Stage1",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [80],
+	hp: 60,
+	types: ["Psychic"],
+	stage: "Stage1",
 
-      attacks: [
-      ],
+	attacks: [],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card

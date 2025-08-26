@@ -4,7 +4,6 @@ import serie from '../PMCG'
 const set: Set = {
 	id: 'PMCG3',
 	name: {
-		en: 'Mystery of the Fossils',
 		ja: '化石の秘密'
 	},
 

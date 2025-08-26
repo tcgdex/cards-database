@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Recycle",
-         ja: "リサイクル",
-         fr: "Recycler",
-         de: "Recyceln",
-         es: "Reciclar",
-         it: "Riciclare",
-         pt: "Reciclar",
-      },
+	set: Set,
+	name: {
+		ja: "リサイクル",
+	},
 
-      rarity: "Common",
-      category: "Trainer",
+	rarity: "Common",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card
