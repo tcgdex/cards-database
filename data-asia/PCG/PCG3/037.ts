@@ -1,58 +1,55 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "xatu",
-                                                   },
+	set: Set,
+	name: {
+		ja: "暗い電極",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [178],
-      hp: 70,
-      types: ["Psychic"],
-      stage: "Stage1",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [101],
+	hp: 70,
+	types: ["Lightning"],
+	stage: "Stage1",
 
-      abilities: [
-        {
-          name: {
-                        ja: "ミラーコート",
-                                                                      },
-          effect: {
-                        ja: "Xatuが対戦相手の攻撃によって焼かれたり毒されたりした場合（Xatuがノックアウトされたとしても）、攻撃するポカモンは同じ特別な条件の影響を受けます（1が1つしかない場合）。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "暗闇のナビゲーション",
+			},
+			effect: {
+				ja: "ターン中（攻撃前）に、暗い電極にエネルギーが付着していない場合は、デッキを検索して暗闇や暗い金属エネルギーを検索し、暗い電極に取り付けることができます。その後、デッキをシャッフルします。暗い電極が特別な状態の影響を受ける場合、この電力は使用できません。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "まばゆいばかりのダンス",
-                                                                      },
-          effect: {
-                        ja: "防御するポケモンはそれぞれ混乱しています。",
-                                                                      },
-        },
-        {
-          cost: ["Psychic", "Colorless"],
-          name: {
-                        ja: "ピループ",
-                                                                      },
-          effect: {
-                        ja: "30のダメージに加えて、対戦相手がプレイしているトレーナーカードごとに30ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Lightning"],
+			name: {
+				ja: "エネルギー爆弾",
+			},
+			effect: {
+				ja: "暗い電極に取り付けられたすべてのエネルギーカードを、好きな方法でベンチ付きポケモンに移動できます。",
+			},
+			damage: 30,
+		},
+	],
 
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

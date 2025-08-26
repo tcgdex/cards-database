@@ -1,49 +1,52 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "メタン",
-                                                   },
+	set: Set,
+	name: {
+		ja: "暗い催眠",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [375],
-      hp: 80,
-      types: ["Psychic"],
-      stage: "Stage1",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [97],
+	hp: 70,
+	types: ["Psychic"],
+	stage: "Stage1",
 
-      attacks: [
-        {
-          cost: ["Psychic", "Colorless"],
-          name: {
-                        ja: "サイキックブーム",
-                                                                      },
-          effect: {
-                        ja: "ディフェンディングポケモンに付随する各エネルギーに対して、10ダメージに加えて10ダメージを与えます。",
-                                                                      },
-        },
-        {
-          cost: ["Psychic", "Colorless", "Colorless"],
-          name: {
-                        ja: "素早い打撃",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、この攻撃は40ダメージに加えて20ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "ダークリンク",
+			},
+			effect: {
+				ja: "コインをひっくり返します。頭の場合は、その名前が暗い（これを除く）、プレイ中の1つのポケモンの攻撃を選択します。ダークリンクは、エネルギーコストを除いて攻撃するコピーをコピーします。 （あなたはまだその攻撃に必要な他のことをしなければなりません。）（ポケモンがどんなタイプであっても、Dark Hypnoのタイプはまだ精神的なものです。）Dark Hypnoはその攻撃を実行します。",
+			},
+		},
+		{
+			cost: ["Psychic", "Colorless"],
+			name: {
+				ja: "ブラックマジック",
+			},
+			effect: {
+				ja: "対戦相手のベンチポケモンの数を20回ダメージします。",
+			},
+		},
+	],
 
-      retreat: 2,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "holo",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

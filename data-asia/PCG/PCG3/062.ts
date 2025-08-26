@@ -1,49 +1,65 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "バゴン",
-                                                   },
+	set: Set,
+	name: {
+		ja: "Rocket's Snorlax Ex",
+	},
 
-      rarity: "Uncommon",
-      category: "Pokemon",
-      dexId: [371],
-      hp: 50,
-      types: ["Colorless"],
-      stage: "Basic",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [143],
+	hp: 100,
+	types: ["Darkness"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Fire"],
-          name: {
-                        ja: "シング",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、防御するポケモンが燃やされます。",
-                                                                      },
-        },
-        {
-          cost: ["Water"],
-          name: {
-                        ja: "doubleslap",
-                                                                      },
-          effect: {
-                        ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
-                                                                      },
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "ダークヒーラー",
+			},
+			effect: {
+				ja: "RocketのSnorlax Exがそれに付着した暗闇のエネルギーを持っている限り、RocketのSnorlax Exからターンの1つのダメージカウンターを削除します。",
+			},
+		}],
 
-      retreat: 1,
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "毒爪",
+			},
+			effect: {
+				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+			name: {
+				ja: "崩壊",
+			},
+			effect: {
+				ja: "RocketのSnorlax Exは今眠っています。",
+			},
+			damage: 60,
+		},
+	],
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 3,
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

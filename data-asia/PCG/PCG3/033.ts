@@ -1,50 +1,52 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Manectric Ex",
-                                                   },
+	set: Set,
+	name: {
+		ja: "マッドキップスター",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [310],
-      hp: 100,
-      types: ["Lightning"],
-      stage: "Stage1",
+	rarity: "Shiny rare",
+	category: "Pokemon",
+	dexId: [258],
+	hp: 70,
+	types: ["Water"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Lightning", "Colorless"],
-          name: {
-                        ja: "切断します",
-                                                                      },
-          effect: {
-                        ja: "対戦相手は、対戦相手の次のターン中に手からトレーナーカード（サポーターカードを除く）をプレイできません。",
-                                                                      },
-          damage: 40,
-        },
-        {
-          cost: ["Lightning", "Lightning", "Colorless"],
-          name: {
-                        ja: "メガショット",
-                                                                      },
-          effect: {
-                        ja: "Manectric Exに取り付けられたすべての稲妻エネルギーを捨ててから、対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに80のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Water"],
+			name: {
+				ja: "渦",
+			},
+			effect: {
+				ja: "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
+			},
+		},
+		{
+			cost: ["Water", "Water"],
+			name: {
+				ja: "バックバック",
+			},
+			effect: {
+				ja: "対戦相手が1枚の賞カードしか残っていない場合、この攻撃は20ダメージに加えて50ダメージを与え、ディフェンディングポケモンが眠っています。",
+			},
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

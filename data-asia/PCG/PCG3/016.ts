@@ -1,58 +1,63 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "マグカルゴ",
-                                                   },
+	set: Set,
+	name: {
+		ja: "暗いクロバット",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [219],
-      hp: 80,
-      types: ["Fire"],
-      stage: "Stage1",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [169],
+	hp: 90,
+	types: ["Grass"],
+	stage: "Stage2",
 
-      abilities: [
-        {
-          name: {
-                        ja: "滑らかに",
-                                                                      },
-          effect: {
-                        ja: "ターン中（攻撃の前に）一度、デッキをカードで検索することができます。デッキをシャッフルしてから、そのカードをデッキの上に置きます。 Magcargoが特別な状態の影響を受けている場合、このパワーは使用できません。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "ブラックビーム",
+			},
+			effect: {
+				ja: "ターン中（攻撃の前）に一度、暗いCrobatがあなたのアクティブなPokã©Monである場合、あなたは防御するPokã©Monの1つを選択できます。そのポカモンは現在毒されています。暗いクロバットが特別な状態の影響を受けている場合、このパワーは使用できません。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "ノックオーバー",
-                                                                      },
-          effect: {
-                        ja: "プレイ中のスタジアムカードを捨てることができます。",
-                                                                      },
-          damage: 10,
-        },
-        {
-          cost: ["Fire", "Colorless", "Colorless"],
-          name: {
-                        ja: "燃焼",
-                                                                      },
-          damage: 50,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Grass", "Colorless"],
+			name: {
+				ja: "暗い排水",
+			},
+			effect: {
+				ja: "対戦相手の各ポケモンに10ダメージを与えます。 （ベンチ付きポケモンに衰弱と抵抗を適用しないでください。）ダーククロバットから取り外して、プレイ中の相手のポケモンの数に等しい多くのダメージカウンターを取り外します。",
+			},
+		},
+		{
+			cost: ["Grass", "Colorless"],
+			name: {
+				ja: "スキルダイビング",
+			},
+			effect: {
+				ja: "対戦相手のポケモンの1つに30ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+			},
+		},
+	],
 
-      retreat: 3,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

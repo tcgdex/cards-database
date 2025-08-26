@@ -1,58 +1,50 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Crobat Ex",
-                                                   },
+	set: Set,
+	name: {
+		ja: "レディバ",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [169],
-      hp: 130,
-      types: ["Grass"],
-      stage: "Stage2",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [165],
+	hp: 50,
+	types: ["Grass"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "ねじれ",
-                                                                      },
-          effect: {
-                        ja: "ターン中（攻撃の前に）、Crobat ExがアクティブなPokã©Monである場合、対戦相手のPokã©Monに1つのダメージカウンターを置くことができます。 Crobat Exが特別な状態の影響を受ける場合、このパワーは使用できません。",
-                                                                      },
-      }],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "家族を呼びます",
+			},
+			effect: {
+				ja: "デッキを検索して、基本的なポケモンを草にして、ベンチに置きます。その後、デッキをシャッフルします。",
+			},
+		},
+		{
+			cost: ["Grass", "Colorless"],
+			name: {
+				ja: "ビート",
+			},
+			damage: 20,
+		},
+	],
 
-      attacks: [
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "クロス攻撃",
-                                                                      },
-          effect: {
-                        ja: "4コインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。 2つ以上の頭を手に入れると、防御するポケモンは混乱しています。",
-                                                                      },
-        },
-        {
-          cost: ["Grass", "Grass", "Colorless"],
-          name: {
-                        ja: "ペスター",
-                                                                      },
-          effect: {
-                        ja: "防御ポケモンが特別な状態の影響を受ける場合、この攻撃は60ダメージに加えて40ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	retreat: 1,
 
-
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

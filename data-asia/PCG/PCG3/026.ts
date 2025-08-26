@@ -1,50 +1,52 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "ロンベル",
-                                                   },
+	set: Set,
+	name: {
+		ja: "ウーパー",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [271],
-      hp: 70,
-      types: ["Water"],
-      stage: "Stage1",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [194],
+	hp: 50,
+	types: ["Water"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "アクアリフト",
-                                                                      },
-          effect: {
-                        ja: "Lombreに水エネルギーが付着している場合、Lombreのリトリートコストは0です。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "飽和",
+			},
+			effect: {
+				ja: "手からWooperに水エネルギーカードを取り付けたら、Wooperからすべての特別な条件と1ダメージカウンターを削除します。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "待ち伏せ",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Water"],
+			name: {
+				ja: "波のスプラッシュ",
+			},
+			damage: 10,
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

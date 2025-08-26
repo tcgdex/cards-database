@@ -1,49 +1,53 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "レイカザの星",
-                                                   },
+	set: Set,
+	name: {
+		ja: "Rocket's Sneasel Ex",
+	},
 
-      rarity: "Shiny rare",
-      category: "Pokemon",
-      dexId: [384.1],
-      hp: 90,
-      types: ["Colorless"],
-      stage: "Stage1",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [215],
+	hp: 90,
+	types: ["Darkness"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Fire", "Lightning"],
-          name: {
-                        ja: "スパイラルラッシュ",
-                                                                      },
-          effect: {
-                        ja: "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
-                                                                      },
-        },
-        {
-          cost: ["Fire", "Fire", "Lightning", "Lightning"],
-          name: {
-                        ja: "聖なる星",
-                                                                      },
-          effect: {
-                        ja: "Rayquazaに取り付けられたすべてのエネルギーカードを捨てます{{Star | This Pokemon}}。この攻撃は、対戦相手の各ポケモンエクスに100のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Darkness"],
+			name: {
+				ja: "ドラッグします",
+			},
+			effect: {
+				ja: "ダメージを与える前に、対戦相手のベンチ付きポケモンを防御するポケモンと交換することができます。もしそうなら、この攻撃は新しい防御ポケモンに10ダメージを与えます。対戦相手は、防御するポケモンを選択して切り替えます。",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Darkness", "Darkness", "Colorless"],
+			name: {
+				ja: "暗いリング",
+			},
+			effect: {
+				ja: "プレイ中の暗闇のポケモンごとに30ダメージに加えて10ダメージを与えます。",
+			},
+		},
+	],
 
-      retreat: 2,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

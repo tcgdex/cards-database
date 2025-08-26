@@ -1,50 +1,55 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Dusclops",
-                                                   },
+	set: Set,
+	name: {
+		ja: "ドロージー",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [356],
-      hp: 70,
-      types: ["Psychic"],
-      stage: "Stage1",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [96],
+	hp: 50,
+	types: ["Psychic"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Psychic"],
-          name: {
-                        ja: "サイキック除去",
-                                                                      },
-          effect: {
-                        ja: "2つのコインをフリップします。両方がヘッドである場合、防御ポケモンに取り付けられたすべてのエネルギーを捨ててください。",
-                                                                      },
-          damage: 20,
-        },
-        {
-          cost: ["Psychic", "Psychic", "Colorless"],
-          name: {
-                        ja: "強力な手",
-                                                                      },
-          effect: {
-                        ja: "あなたの手にカードの数を数えます。その多くのダメージカウンターを防御ポケモンに置きます。この方法で7つ以上のダメージカウンターを配置することはできません。",
-                                                                      },
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "不眠症",
+			},
+			effect: {
+				ja: "Drowzeeは眠ることができません。",
+			},
+		}],
 
-      retreat: 1,
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "なだめる波",
+			},
+			effect: {
+				ja: "コインをひっくり返します。頭の場合、防御するポケモンはそれぞれ眠っています。",
+			},
+			damage: 10,
+		},
+	],
 
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

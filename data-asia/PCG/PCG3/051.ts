@@ -1,59 +1,54 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "ルナトン",
-                                                   },
+	set: Set,
+	name: {
+		ja: "ダークサンドスラッシュ",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [337],
-      hp: 60,
-      types: ["Fighting"],
-      stage: "Basic",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [28],
+	hp: 70,
+	types: ["Fighting"],
+	stage: "Stage1",
 
-      abilities: [
-        {
-          name: {
-                        ja: "ムーンロー",
-                                                                      },
-          effect: {
-                        ja: "プレイ中の各ソロロックのリトリートコストは0です。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "ポイズンの見返り",
+			},
+			effect: {
+				ja: "ダークサンドスラッシュがアクティブなポケモンであり、相手の攻撃によって損傷を受けている場合（暗いサンドスラッシュがノックアウトされたとしても）、攻撃するポケモンは現在毒されています。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "先見性",
-                                                                      },
-          effect: {
-                        ja: "いずれかのプレーヤーのデッキのトップ5カードを見て、そのプレイヤーのデッキの上に戻します。",
-                                                                      },
-        },
-        {
-          cost: ["Fighting", "Colorless"],
-          name: {
-                        ja: "ターゲットビーム",
-                                                                      },
-          effect: {
-                        ja: "20のダメージに加えて、プレイ中のソロロックごとにさらに10ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless", "Colorless"],
+			name: {
+				ja: "迅速",
+			},
+			effect: {
+				ja: "この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
+			},
+			damage: 50,
+		},
+	],
 
-      retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

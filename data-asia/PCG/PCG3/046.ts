@@ -1,51 +1,54 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Deoxys ex",
-                                                   },
+	set: Set,
+	name: {
+		ja: "onix",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [386],
-      hp: 90,
-      types: ["Psychic"],
-      stage: "Basic",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [95],
+	hp: 80,
+	types: ["Fighting"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "フォームの変更",
-                                                                      },
-          effect: {
-                        ja: "ターン中に（攻撃の前）、デッキを検索して別のDeoxys Exを検索し、Deoxys Exで切り替えることができます。 （Deoxys Ex、ダメージカウンター、特別な条件、およびそれに対する影響に添付されたカードは、現在新しいPokã©Mon。）にある場合は、Deoxys Exをデッキの上に置きます。その後、デッキをシャッフルします。ターンごとに1つ以上のフォーム変更Pokã©-Powerを使用することはできません。",
-                                                                      },
-      }],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "ホーンラッシュ",
+			},
+			effect: {
+				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Fighting", "Colorless"],
+			name: {
+				ja: "花崗岩の頭",
+			},
+			effect: {
+				ja: "対戦相手の次のターン中に、攻撃によってOnixに与えられた損害は10増加します（脱力感と抵抗を適用した後）。",
+			},
+			damage: 20,
+		},
+	],
 
-      attacks: [
-        {
-          cost: ["Psychic", "Colorless", "Colorless"],
-          name: {
-                        ja: "サイキックシールド",
-                                                                      },
-          effect: {
-                        ja: "対戦相手の次のターン中に、対戦相手のポケモンエクスがDeoxys Exに行うダメージを含む攻撃のすべての影響を防ぎます。",
-                                                                      },
-          damage: 50,
-        },
-      ],
+	retreat: 3,
 
-      retreat: 2,
-
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

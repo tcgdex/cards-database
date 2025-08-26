@@ -1,50 +1,51 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Deoxys ex",
-                                                   },
+	set: Set,
+	name: {
+		ja: "サンドシュー",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [386],
-      hp: 110,
-      types: ["Psychic"],
-      stage: "Basic",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [27],
+	hp: 50,
+	types: ["Fighting"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "フォームの変更",
-                                                                      },
-          effect: {
-                        ja: "ターン中に（攻撃の前）、デッキを検索して別のDeoxys Exを検索し、Deoxys Exで切り替えることができます。 （Deoxys Ex、ダメージカウンター、特別な条件、およびそれに対する影響に添付されたカードは、現在新しいPokã©Mon。）にある場合は、Deoxys Exをデッキの上に置きます。その後、デッキをシャッフルします。  ターンごとに1つ以上のフォーム変更Pokã©-Powerを使用することはできません。",
-                                                                      },
-      }],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "リアキック",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "迅速",
+			},
+			effect: {
+				ja: "この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
+			},
+			damage: 20,
+		},
+	],
 
-      attacks: [
-        {
-          cost: ["Psychic", "Colorless", "Colorless"],
-          name: {
-                        ja: "Psyburst",
-                                                                      },
-          effect: {
-                        ja: "Deoxys Exに取り付けられた2つのエネルギーを捨てることができます。もしそうなら、この攻撃は50のダメージに加えて、防御ポケモンに取り付けられた各エネルギーに対して20のダメージをさらに20回かけます。",
-                                                                      },
-        },
-      ],
+	retreat: 1,
 
-      retreat: 2,
-
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

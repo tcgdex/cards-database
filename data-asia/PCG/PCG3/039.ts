@@ -1,59 +1,62 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "ソロック",
-                                                   },
+	set: Set,
+	name: {
+		ja: "暗いアンファロ",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [338],
-      hp: 70,
-      types: ["Psychic"],
-      stage: "Basic",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [181],
+	hp: 120,
+	types: ["Lightning"],
+	stage: "Stage2",
 
-      abilities: [
-        {
-          name: {
-                        ja: "サンビーム",
-                                                                      },
-          effect: {
-                        ja: "プレイ中の各ルナトンの最大HPは80です。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "最も暗い衝動",
+			},
+			effect: {
+				ja: "ダークアンファロが機能している限り、相手が手から進化カードをプレイして、ポカンの1つを進化させるたびに、そのポカンに2つのダメージカウンターを置きます。最も暗いインパルスポカ - ボディごとに1ターンを使用することはできません。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "焦げた光",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。尾の場合、防御するポケモンが燃やされます。",
-                                                                      },
-        },
-        {
-          cost: ["Psychic"],
-          name: {
-                        ja: "反射ビーム",
-                                                                      },
-          effect: {
-                        ja: "対戦相手のベンチポケモンを1つ選択します。この攻撃は、プレイ中のルナトンごとにそのポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "ラム",
+			},
+			damage: 30,
+		},
+		{
+			cost: ["Lightning", "Colorless", "Colorless"],
+			name: {
+				ja: "ショックボルト",
+			},
+			effect: {
+				ja: "暗いアンファロに取り付けられたすべての稲妻エネルギーを捨てます。",
+			},
+			damage: 70,
+		},
+	],
 
-      retreat: 2,
+	retreat: 2,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

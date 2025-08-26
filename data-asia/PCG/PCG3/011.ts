@@ -1,49 +1,50 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "shroomish",
-                                                   },
+	set: Set,
+	name: {
+		ja: "Treecko Star",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [285],
-      hp: 40,
-      types: ["Grass"],
-      stage: "Basic",
+	rarity: "Shiny rare",
+	category: "Pokemon",
+	dexId: [252],
+	hp: 70,
+	types: ["Grass"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "スタン胞子",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
-                                                                      },
-        },
-        {
-          cost: ["Grass"],
-          name: {
-                        ja: "旅をします",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "取り組む",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Grass", "Grass"],
+			name: {
+				ja: "バックバック",
+			},
+			effect: {
+				ja: "対戦相手が1枚の賞カードしか残っていない場合、この攻撃は20ダメージに加えて50ダメージを与え、ディフェンディングポケモンが毒されます。",
+			},
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

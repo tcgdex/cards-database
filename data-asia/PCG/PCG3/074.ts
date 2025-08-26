@@ -1,59 +1,25 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "スカルモリー",
-                                                   },
+	set: Set,
+	name: {
+		ja: "急降下！テレポーター",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [227],
-      hp: 70,
-      types: ["Metal"],
-      stage: "Basic",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      abilities: [
-        {
-          name: {
-                        ja: "メタリックリフト",
-                                                                      },
-          effect: {
-                        ja: "Skarmoryに金属エネルギーが付着している場合、Skarmoryのリトリートコストは0です。",
-                                                                      },
-      }],
-
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "スピアヘッド",
-                                                                      },
-          effect: {
-                        ja: "カードを描きます。",
-                                                                      },
-        },
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "重金属",
-                                                                      },
-          effect: {
-                        ja: "スカルモリーに取り付けられた金属エネルギーごとにコインを裏返します。この攻撃は、10ダメージに加えて、ヘッドごとに20のダメージを与えます。",
-                                                                      },
-        },
-      ],
-
-      retreat: 1,
-
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

@@ -1,47 +1,52 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "duskull",
-                                                   },
+	set: Set,
+	name: {
+		ja: "slowpoke",
+	},
 
-      rarity: "Uncommon",
-      category: "Pokemon",
-      dexId: [355],
-      hp: 40,
-      types: ["Psychic"],
-      stage: "Basic",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [79],
+	hp: 50,
+	types: ["Psychic"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "麻痺する視線",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
-                                                                      },
-        },
-        {
-          cost: ["Psychic", "Colorless"],
-          name: {
-                        ja: "will-o'-the-wisp",
-                                                                      },
-          damage: 20,
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "密集",
+			},
+			effect: {
+				ja: "相手の進化したポカモンからの攻撃によってスローポークに与えられた損害は、10（脱力感と抵抗を適用した後）10削減されます。",
+			},
+		}],
 
-      retreat: 1,
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "噛む",
+			},
+			damage: 10,
+		},
+	],
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

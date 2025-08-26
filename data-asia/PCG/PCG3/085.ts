@@ -4,10 +4,10 @@ import Set from "../PCG3"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベンチャー爆弾",
+		ja: "これがチームロケットが来ます！",
 	},
 
-	rarity: "Uncommon",
+	rarity: "Holo Rare",
 	category: "Trainer",
 
 	variants: [

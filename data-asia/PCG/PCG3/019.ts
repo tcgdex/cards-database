@@ -1,47 +1,54 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "ゴールデン",
-                                                   },
+	set: Set,
+	name: {
+		ja: "マグビー",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [118],
-      hp: 50,
-      types: ["Water"],
-      stage: "Basic",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [240],
+	hp: 50,
+	types: ["Fire"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "超音速",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
-                                                                      },
-        },
-        {
-          cost: ["Water"],
-          name: {
-                        ja: "滝",
-                                                                      },
-          damage: 10,
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "赤ちゃんの進化",
+			},
+			effect: {
+				ja: "ターン中（攻撃の前に）一度、マグマーをマグビーに乗せ（これは進化するマグビーとしてカウントされます）、Magbyからすべてのダメージカウンターを削除することができます。",
+			},
+		}],
 
-      retreat: 1,
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "迂回",
+			},
+			effect: {
+				ja: "プレイ中のサポーターカードがある場合は、この攻撃の効果としてそのカードの効果を使用してください。",
+			},
+		},
+	],
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

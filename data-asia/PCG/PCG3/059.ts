@@ -1,61 +1,52 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "スレーキング",
-                                                   },
+	set: Set,
+	name: {
+		ja: "ロケットの鳴き声",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [289],
-      hp: 120,
-      types: ["Colorless"],
-      stage: "Stage2",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [52],
+	hp: 60,
+	types: ["Darkness"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "怠zyなオーラ",
-                                                                      },
-          effect: {
-                        ja: "スレーキングがあなたのアクティブなポカモンである限り、相手のpokã©mon-exからの攻撃によって与えられた損害は30減少します（脱力感と抵抗を適用する前に）。",
-                                                                      },
-      }],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "ひったくりと走ります",
+			},
+			effect: {
+				ja: "ポケモンツールカードまたはロケットのシークレットマシンカードを検索し、対戦相手に見せて、手に入れてください。もしそうなら、あなたはあなたのベンチ付きポケモンの1つでロケットの鳴き声を切り替えることができます。その後、デッキをシャッフルします。",
+			},
+		},
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "奇跡的なカムバック",
+			},
+			effect: {
+				ja: "プレイ中の各ポケモン（あなたと相手の両方）のコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。 Rocket's Meowthは、尾の数をそれ自体に10回ダメージします。",
+			},
+		},
+	],
 
-      attacks: [
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "健忘症",
-                                                                      },
-          effect: {
-                        ja: "防御ポケモンの攻撃の1つを選択します。そのポケモンは、相手の次のターン中にその攻撃を使用できません。",
-                                                                      },
-          damage: 20,
-        },
-        {
-          cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
-          name: {
-                        ja: "怠惰なヘッドバット",
-                                                                      },
-          effect: {
-                        ja: "スレーキングは今眠っています。",
-                                                                      },
-          damage: 70,
-        },
-      ],
+	retreat: 1,
 
-      retreat: 3,
-
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

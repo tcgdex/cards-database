@@ -1,49 +1,62 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Wurmple",
-                                                   },
+	set: Set,
+	name: {
+		ja: "レディアン",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [265],
-      hp: 50,
-      types: ["Grass"],
-      stage: "Basic",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [166],
+	hp: 70,
+	types: ["Grass"],
+	stage: "Stage1",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "上昇",
-                                                                      },
-          effect: {
-                        ja: "Wurmpleから進化するカードをデッキで検索し、Wurmpleに置いてください。 （これは進化する翼としてカウントされます。）その後、デッキをシャッフルします。",
-                                                                      },
-        },
-        {
-          cost: ["Grass"],
-          name: {
-                        ja: "奇跡の本質",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合は、1つの特別な条件を選択します。それぞれの防御ポケモンは現在、その特別な状態の影響を受けています。",
-                                                                      },
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "粉末保護",
+			},
+			effect: {
+				ja: "その名前に所有者がいるポカンからの攻撃により、レディアンに与えられた損害は40減少します。",
+			},
+		}],
 
-      retreat: 1,
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "スパイラルパンチを分割します",
+			},
+			effect: {
+				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Grass", "Colorless", "Colorless"],
+			name: {
+				ja: "取り組む",
+			},
+			damage: 50,
+		},
+	],
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

@@ -1,60 +1,54 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "ルディコロ",
-                                                   },
+	set: Set,
+	name: {
+		ja: "quagsire",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [272],
-      hp: 100,
-      types: ["Water"],
-      stage: "Stage2",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [195],
+	hp: 80,
+	types: ["Water"],
+	stage: "Stage1",
 
-      abilities: [
-        {
-          name: {
-                        ja: "スイングダンス",
-                                                                      },
-          effect: {
-                        ja: "ターン中（攻撃の前に）一度、カードを描くことができます。 Ludicoloが特別な状態の影響を受けている場合、このパワーは使用できません。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "飽和",
+			},
+			effect: {
+				ja: "手からQuagsireに水エネルギーカードを取り付けるときは、Quagsireからすべての特別な条件と2つのダメージカウンターを削除します。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Water"],
-          name: {
-                        ja: "癒しのステップ",
-                                                                      },
-          effect: {
-                        ja: "あなたはあなたの手から好きなだけ多くのカードを捨てることができます。  そうした場合は、Ludicoloからその多くのダメージカウンターを削除します。",
-                                                                      },
-          damage: 30,
-        },
-        {
-          cost: ["Water", "Colorless", "Colorless"],
-          name: {
-                        ja: "円形のステップ",
-                                                                      },
-          effect: {
-                        ja: "Ludicoloを除いて、Pokemonの数（あなたと対戦相手の両方）の数を10回ダメージします。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Water"],
+			name: {
+				ja: "ハイパーポンプ",
+			},
+			effect: {
+				ja: "20ダメージに加えて、Quagsireに取り付けられた基本エネルギーカードごとに20のダメージがさらに20件ありますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で60以上のダメージを追加することはできません。",
+			},
+		},
+	],
 
-      retreat: 2,
+	retreat: 2,
 
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

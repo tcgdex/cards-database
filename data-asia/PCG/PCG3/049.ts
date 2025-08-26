@@ -1,62 +1,50 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Hariyama ex",
-                                                   },
+	set: Set,
+	name: {
+		ja: "swinub",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [297],
-      hp: 110,
-      types: ["Fighting"],
-      stage: "Stage1",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [220],
+	hp: 50,
+	types: ["Fighting"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "指揮オーラ",
-                                                                      },
-          effect: {
-                        ja: "Hariyama Exがあなたのアクティブなポカモンである限り、あなたの対戦相手は彼または彼女の手からスタジアムカードをプレイすることができません。",
-                                                                      },
-      }],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "取り組む",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "休む",
+			},
+			effect: {
+				ja: "Swinubからすべての特別な条件とすべてのダメージカウンターを削除します。 Swinubは今眠っています。",
+			},
+		},
+	],
 
-      attacks: [
-        {
-          cost: ["Fighting", "Colorless"],
-          name: {
-                        ja: "ノックオフ",
-                                                                      },
-          effect: {
-                        ja: "対戦相手の手から1枚のカードを探して廃棄せずに選択してください。",
-                                                                      },
-          damage: 40,
-        },
-        {
-          cost: ["Fighting", "Fighting", "Colorless"],
-          name: {
-                        ja: "ピボットスロー",
-                                                                      },
-          effect: {
-                        ja: "対戦相手の次のターン中、攻撃によってHariyama Exに与えられた損害は10増加します（脱力感と抵抗を適用する前に）。",
-                                                                      },
-          damage: 80,
-        },
-      ],
+	retreat: 1,
 
-      retreat: 2,
-
-      variants: [
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-        {
-          type: "holo",
-          subtype: "unlimited",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

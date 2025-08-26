@@ -1,59 +1,53 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "スターミー",
-                                                   },
+	set: Set,
+	name: {
+		ja: "馬",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [121],
-      hp: 70,
-      types: ["Water"],
-      stage: "Stage1",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [116],
+	hp: 50,
+	types: ["Water"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "コアガード",
-                                                                      },
-          effect: {
-                        ja: "スターミーに精神的なエネルギーが付着している限り、攻撃によってスターミーに与えられた損傷は10増加します（衰弱と抵抗を適用した後）。",
-                                                                      },
-      }],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "水工場",
+			},
+			effect: {
+				ja: "廃棄の山を検索して、最大2枚の水エネルギーカードを獲得し、相手に見せて、手に入れてください。",
+			},
+		},
+		{
+			cost: ["Water", "Water"],
+			name: {
+				ja: "迅速",
+			},
+			effect: {
+				ja: "この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
+			},
+			damage: 30,
+		},
+	],
 
-      attacks: [
-        {
-          cost: ["Water"],
-          name: {
-                        ja: "エネルギーフリップ",
-                                                                      },
-          effect: {
-                        ja: "対戦相手のベンチポケモンを1つ選択します。この攻撃は、そのポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）そのポケモンに取り付けられたエネルギーを、相手のポケモンの別のポケモンに移動できます。",
-                                                                      },
-        },
-        {
-          cost: ["Psychic"],
-          name: {
-                        ja: "サイキックブーム",
-                                                                      },
-          effect: {
-                        ja: "ディフェンディングポケモンに付随する各エネルギーに対して、10ダメージに加えて10ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	retreat: 1,
 
-      retreat: 1,
-
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

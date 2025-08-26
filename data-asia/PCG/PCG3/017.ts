@@ -1,48 +1,50 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "numel",
-                                                   },
+	set: Set,
+	name: {
+		ja: "マグマー",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [322],
-      hp: 40,
-      types: ["Fire"],
-      stage: "Basic",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [126],
+	hp: 70,
+	types: ["Fire"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "密集",
-                                                                      },
-          effect: {
-                        ja: "進化したポカモン（あなたと相手の両方）からの攻撃によってnumelに与えられた損害は20（脱力感と抵抗を適用した後）に20減少します。",
-                                                                      },
-      }],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "ダンプとドロー",
+			},
+			effect: {
+				ja: "手から最大2枚のエネルギーカードを捨ててください。次に、廃棄したエネルギーカードごとに2枚のカードを描画します。",
+			},
+		},
+		{
+			cost: ["Fire", "Colorless", "Colorless"],
+			name: {
+				ja: "炎の尾",
+			},
+			damage: 40,
+		},
+	],
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "ラム",
-                                                                      },
-          damage: 10,
-        },
-      ],
+	retreat: 1,
 
-      retreat: 1,
-
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

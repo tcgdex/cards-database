@@ -1,50 +1,55 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "ラティオススター",
-                                                   },
+	set: Set,
+	name: {
+		ja: "Rocket's Scizor Ex",
+	},
 
-      rarity: "Shiny rare",
-      category: "Pokemon",
-      dexId: [381],
-      hp: 80,
-      types: ["Colorless"],
-      stage: "Stage1",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [212],
+	hp: 120,
+	types: ["Darkness"],
+	stage: "Stage1",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "奇跡的な光",
-                                                                      },
-          effect: {
-                        ja: "Latiosから1つのダメージカウンターとすべての特別な条件を取り外します{{Star | This Pokemon}}。",
-                                                                      },
-          damage: 10,
-        },
-        {
-          cost: ["Grass", "Lightning", "Psychic"],
-          name: {
-                        ja: "輝く星",
-                                                                      },
-          effect: {
-                        ja: "防御ポケモンがステージ2の進化したポケモンである場合、ラティオスに取り付けられたすべてのエネルギーカードを捨てます{{star | this pokemon}}。",
-                                                                      },
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "デュアルアーマー",
+			},
+			effect: {
+				ja: "Rocket's Scizor Exがそれに金属エネルギーが付いている限り、Rocket's Scizor Exは闇と金属タイプの両方です。",
+			},
+		}],
 
-      retreat: 1,
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless", "Colorless"],
+			name: {
+				ja: "回転爪",
+			},
+			effect: {
+				ja: "Rocket's Scizor Exに取り付けられたエネルギーカードを捨てることができます。そうした場合は、廃棄パイルを検索して、エネルギーカード（廃棄したものを除く）を検索し、Rocket's Scizor Exに取り付けます。",
+			},
+			damage: 50,
+		},
+	],
 
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

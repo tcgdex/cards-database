@@ -1,40 +1,55 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "wingull",
-                                                   },
+	set: Set,
+	name: {
+		ja: "qwilfish",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [278],
-      hp: 50,
-      types: ["Water"],
-      stage: "Basic",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [211],
+	hp: 60,
+	types: ["Water"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "クイック攻撃",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "とんでもない",
+			},
+			effect: {
+				ja: "Qwilfishがあなたのアクティブなポケモンであり、相手の攻撃によって損傷を受けている場合（Qwilfishがノックアウトされたとしても）、尾が出るまでコインをひっくり返します。各ヘッドについて、攻撃するポケモンに1つのダメージカウンターを置きます。",
+			},
+		}],
 
-      retreat: 1,
+	attacks: [
+		{
+			cost: ["Water", "Colorless"],
+			name: {
+				ja: "スタンポイズン",
+			},
+			effect: {
+				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今や麻痺し、毒されます。",
+			},
+			damage: 10,
+		},
+	],
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

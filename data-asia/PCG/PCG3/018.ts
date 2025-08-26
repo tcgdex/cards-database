@@ -1,49 +1,54 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "カメラプ",
-                                                   },
+	set: Set,
+	name: {
+		ja: "猟犬",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [323],
-      hp: 90,
-      types: ["Fire"],
-      stage: "Stage1",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [228],
+	hp: 50,
+	types: ["Fire"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "バックバーナー",
-                                                                      },
-          effect: {
-                        ja: "廃棄の山を検索して、最大2枚の基本エネルギーカードを使用して、好きな方法でポケモンに取り付けます。",
-                                                                      },
-        },
-        {
-          cost: ["Fire", "Colorless", "Colorless"],
-          name: {
-                        ja: "分割爆弾",
-                                                                      },
-          effect: {
-                        ja: "対戦相手のポケモンの2つを選択してください。この攻撃は、それぞれに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
-                                                                      },
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "ダークリフト",
+			},
+			effect: {
+				ja: "Houndourに暗闇のエネルギーが付着している場合、Houndourのリトリートコストは0です。",
+			},
+		}],
 
-      retreat: 2,
+	attacks: [
+		{
+			cost: ["Fire"],
+			name: {
+				ja: "火の猛烈な",
+			},
+			effect: {
+				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。",
+			},
+		},
+	],
 
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

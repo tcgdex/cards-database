@@ -1,50 +1,54 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Magikarp",
-                                                   },
+	set: Set,
+	name: {
+		ja: "シードラ",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [129],
-      hp: 30,
-      types: ["Water"],
-      stage: "Basic",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [117],
+	hp: 70,
+	types: ["Water"],
+	stage: "Stage1",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "飛び出します",
-                                                                      },
-          effect: {
-                        ja: "ベンチ付きポケモンの1つでMagikarpを切り替えます。",
-                                                                      },
-        },
-        {
-          cost: ["Water", "Colorless"],
-          name: {
-                        ja: "怒り",
-                                                                      },
-          effect: {
-                        ja: "Magikarpのダメージカウンターごとに10のダメージと10ダメージがさらに10件のダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Water", "Colorless"],
+			name: {
+				ja: "レイを混乱させます",
+			},
+			effect: {
+				ja: "防御ポケモンは今混乱しています。",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Water", "Colorless", "Colorless"],
+			name: {
+				ja: "アクアトリック",
+			},
+			effect: {
+				ja: "防衛ポケモンに取り付けられた1つのエネルギーカードを相手のベンチ付きポケモンの1つに移動します。相手がベンチポケモンを持っていない場合、この効果は何もしません。",
+			},
+			damage: 30,
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-          subtype: "unlimited",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

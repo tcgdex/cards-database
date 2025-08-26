@@ -1,50 +1,52 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "ゴルバット",
-                                                   },
+	set: Set,
+	name: {
+		ja: "Zubat",
+	},
 
-      rarity: "Uncommon",
-      category: "Pokemon",
-      dexId: [42],
-      hp: 70,
-      types: ["Grass"],
-      stage: "Stage1",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [41],
+	hp: 50,
+	types: ["Grass"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "自制心",
-                                                                      },
-          effect: {
-                        ja: "ゴルバットは麻痺することはできません。",
-                                                                      },
-      }],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "暗い縞",
+			},
+			effect: {
+				ja: "コインをひっくり返します。頭の場合、防御する各ポケモンは現在麻痺しています。",
+			},
+		},
+		{
+			cost: ["Grass", "Colorless"],
+			name: {
+				ja: "待ち伏せ",
+			},
+			effect: {
+				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。",
+			},
+		},
+	],
 
-      attacks: [
-        {
-          cost: ["Grass", "Colorless"],
-          name: {
-                        ja: "スパイラルドレイン",
-                                                                      },
-          effect: {
-                        ja: "Golbatから1つのダメージカウンターを取り外します。",
-                                                                      },
-          damage: 20,
-        },
-      ],
+	retreat: 1,
 
-
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

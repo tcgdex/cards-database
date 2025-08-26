@@ -1,50 +1,55 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "コーフィッシュ",
-                                                   },
+	set: Set,
+	name: {
+		ja: "マンティン",
+	},
 
-      rarity: "Uncommon",
-      category: "Pokemon",
-      dexId: [341],
-      hp: 40,
-      types: ["Water"],
-      stage: "Basic",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [226],
+	hp: 70,
+	types: ["Water"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "外骨格",
-                                                                      },
-          effect: {
-                        ja: "攻撃によるコーフィッシュに与えられた損害は、衰弱と抵抗を適用した後）10増加します。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "波紋",
+			},
+			effect: {
+				ja: "ターン中（攻撃の前）に一度、Pokã©Mon（マンティンを除く）の1つから1つのダメージカウンターを削除できます。マンチンが特別な状態の影響を受けている場合、この力は使用できません。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "ダブルチョップ",
-                                                                      },
-          effect: {
-                        ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Water", "Colorless"],
+			name: {
+				ja: "アクアスラッシュ",
+			},
+			effect: {
+				ja: "マンティンは次のターン中に攻撃することはできません。",
+			},
+			damage: 30,
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

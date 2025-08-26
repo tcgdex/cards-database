@@ -1,50 +1,54 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "マクヒタ",
-                                                   },
+	set: Set,
+	name: {
+		ja: "ヘラクロス",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [296],
-      hp: 50,
-      types: ["Fighting"],
-      stage: "Basic",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [214],
+	hp: 70,
+	types: ["Fighting"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "推力",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。頭の場合は、防御ポケモンに取り付けられた1つのエネルギーカードを捨てます。",
-                                                                      },
-          damage: 10,
-        },
-        {
-          cost: ["Fighting", "Colorless"],
-          name: {
-                        ja: "上昇する突進",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "地殻",
+			},
+			effect: {
+				ja: "対戦相手の基本的なポカンからの攻撃によってヘラクロスに与えられた損害は、20（脱力感と抵抗を適用した後）に20倍に減少します。",
+			},
+		}],
 
-      retreat: 1,
+	attacks: [
+		{
+			cost: ["Fighting", "Colorless"],
+			name: {
+				ja: "取得します",
+			},
+			effect: {
+				ja: "対戦相手よりも多くの賞品が残っている場合、この攻撃は20のダメージに加えて、各賞カードに10件のダメージが多く、対戦相手よりも多くのダメージを与えます。",
+			},
+		},
+	],
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

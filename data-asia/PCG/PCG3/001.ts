@@ -2,47 +2,42 @@ import {Card} from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-	set: Set,
-	name: {
-		ja: "Zubat",
-	},
+    set: Set,
+    name: {
+        ja: "エカン",
+    },
 
-	rarity: "Common",
-	category: "Pokemon",
-	dexId: [41],
-	hp: 50,
-	types: ["Grass"],
-	stage: "Basic",
+    rarity: "Common",
+    category: "Pokemon",
+    dexId: [23],
+    hp: 60,
+    types: ["Grass"],
+    stage: "Basic",
 
-	abilities: [
-		{
-			name: {
-				ja: "自制心",
-			},
-			effect: {
-				ja: "Zubatは麻痺することはできません。",
-			},
-		}],
+    attacks: [
+        {
+            cost: ["Colorless"],
+            name: {
+                ja: "テールラップ",
+            },
+            effect: {
+                ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+            },
+        },
+    ],
 
-	attacks: [
-		{
-			cost: ["Colorless"],
-			name: {
-				ja: "噛む",
-			},
-			damage: 10,
-		},
-	],
+    retreat: 1,
 
-	retreat: 1,
-
-	variants: [
-		{
-			type: "normal",
-		},
-		{
-			type: "normal",
-			stamp: ["1st edition"],
-		},
-	],
+    variants: [
+        {
+            type: "normal",
+            stamp: ["1st edition"],
+        },
+        {
+            type: "normal",
+            subtype: "unlimited",
+        },
+    ],
 };
+
+export default card

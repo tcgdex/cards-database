@@ -1,41 +1,53 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "staryu",
-                                                   },
+	set: Set,
+	name: {
+		ja: "暗い猟犬",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [120],
-      hp: 50,
-      types: ["Water"],
-      stage: "Basic",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [229],
+	hp: 70,
+	types: ["Fire"],
+	stage: "Stage1",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "急速なスピン",
-                                                                      },
-          effect: {
-                        ja: "対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。ベンチ付きポケモンの1つでStaryuを切り替えます。",
-                                                                      },
-          damage: 10,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Darkness", "Colorless"],
+			name: {
+				ja: "シェイクダウン",
+			},
+			effect: {
+				ja: "見ても捨てずに相手の手からカードを選択してください。",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Fire", "Colorless", "Colorless"],
+			name: {
+				ja: "暗い火",
+			},
+			effect: {
+				ja: "ダークハウンドームに取り付けられた火のエネルギーまたは闇のエネルギーを捨てることができます。そうした場合、この攻撃は40ダメージに加えて20ダメージを与えます。",
+			},
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

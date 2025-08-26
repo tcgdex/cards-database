@@ -1,58 +1,43 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "ギャラドス",
-                                                   },
+	set: Set,
+	name: {
+		ja: "マリル",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [130],
-      hp: 90,
-      types: ["Water"],
-      stage: "Stage1",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [183],
+	hp: 50,
+	types: ["Water"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Water"],
-          name: {
-                        ja: "ドラゴンスパーク",
-                                                                      },
-          effect: {
-                        ja: "この攻撃は、相手の各ポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
-                                                                      },
-        },
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "完全な報復",
-                                                                      },
-          effect: {
-                        ja: "20のダメージ数は、Magikarpのすべてのダメージ数をカウンターします。",
-                                                                      },
-        },
-        {
-          cost: ["Water", "Water", "Colorless", "Colorless"],
-          name: {
-                        ja: "粉砕します",
-                                                                      },
-          effect: {
-                        ja: "ディフェンディングポケモンがすでに少なくとも2つのダメージカウンターを既に持っている場合、この攻撃は50のダメージと50のダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "マイナーな用事が走る",
+			},
+			effect: {
+				ja: "デッキを最大2つの基本エネルギーカードで検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
+			},
+		},
+	],
 
-      retreat: 2,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

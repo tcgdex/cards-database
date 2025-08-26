@@ -1,49 +1,64 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "マイティエナ",
-                                                   },
+	set: Set,
+	name: {
+		ja: "Rocket's Suicune Ex",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [262],
-      hp: 70,
-      types: ["Darkness"],
-      stage: "Stage1",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [245],
+	hp: 100,
+	types: ["Darkness"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "探してください",
-                                                                      },
-          effect: {
-                        ja: "デッキを1枚のカードを検索し、手に入れてください。その後、デッキをシャッフルします。",
-                                                                      },
-        },
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "引き離します",
-                                                                      },
-          effect: {
-                        ja: "相手が手に5枚以上のカードを持っている場合、対戦相手が4枚のカードが残っているまで、相手は多数のカードを破棄します。",
-                                                                      },
-          damage: 30,
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "暗くて明確です",
+			},
+			effect: {
+				ja: "RocketのSuicune Exが暗闇のエネルギーを持っている限り、RocketのSuicune Exは特別な条件の影響を受けることはできません。",
+			},
+		}],
 
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "氷の風",
+			},
+			effect: {
+				ja: "防御ポケモンは今眠っています。",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Water", "Water", "Colorless"],
+			name: {
+				ja: "ハイパースプラッシュ",
+			},
+			effect: {
+				ja: "防御ポケモンがステージ2の進化したポケモンである場合、この攻撃は50ダメージに加えて40ダメージを与えます。",
+			},
+		},
+	],
 
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

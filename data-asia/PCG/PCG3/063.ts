@@ -1,50 +1,65 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "シェルゴン",
-                                                   },
+	set: Set,
+	name: {
+		ja: "Rocket's Zapdos Ex",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [372],
-      hp: 80,
-      types: ["Colorless"],
-      stage: "Stage1",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [145],
+	hp: 100,
+	types: ["Darkness"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "難しい保護",
-                                                                      },
-          effect: {
-                        ja: "ポカンからの攻撃によってシェルゴンに与えられたすべての損害を防ぎます。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "闇のガード",
+			},
+			effect: {
+				ja: "RocketのZapdos Exがそれに付着した暗闇のエネルギーを持っている限り、RocketのZapdos Exに与えられたダメージは、相手の攻撃によって10削減されます（脱力と抵抗を適用した後）。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Fire", "Water"],
-          name: {
-                        ja: "ロックスマッシュ",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて10ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "プラズマ",
+			},
+			effect: {
+				ja: "廃棄物のエネルギーカードを廃棄することを検索し、RocketのZapdos Exに取り付けます。",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Lightning", "Lightning", "Colorless"],
+			name: {
+				ja: "荒れ狂う雷",
+			},
+			effect: {
+				ja: "この攻撃は、ポケモンの1つに30ダメージを与えます。",
+			},
+			damage: 60,
+		},
+	],
 
-      retreat: 2,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

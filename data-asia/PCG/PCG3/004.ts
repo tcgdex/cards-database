@@ -1,50 +1,52 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "おしっこ",
-                                                   },
+	set: Set,
+	name: {
+		ja: "Koffing",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [110],
-      hp: 70,
-      types: ["Grass"],
-      stage: "Stage1",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [109],
+	hp: 50,
+	types: ["Grass"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "責任",
-                                                                      },
-          effect: {
-                        ja: "ダメージカウンターは、ノックアウトされることから10馬力になるまで防御ポケモンに置きます。 Weezingはそれ自体に70のダメージを与えます。",
-                                                                      },
-        },
-        {
-          cost: ["Grass", "Colorless"],
-          name: {
-                        ja: "スモッグスクリーン",
-                                                                      },
-          effect: {
-                        ja: "防御ポケモンは現在中毒になっています。防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
-                                                                      },
-          damage: 20,
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "ノックアウトガス",
+			},
+			effect: {
+				ja: "Koffingがあなたのアクティブなポカモンであり、相手の攻撃によってノックアウトされている場合、攻撃するポケモンは混乱し、毒されます。",
+			},
+		}],
 
-      retreat: 1,
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "gnaw",
+			},
+			damage: 10,
+		},
+	],
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

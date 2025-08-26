@@ -1,48 +1,53 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "ノセパス",
-                                                   },
+	set: Set,
+	name: {
+		ja: "ピロスワイン",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [299],
-      hp: 60,
-      types: ["Fighting"],
-      stage: "Basic",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [221],
+	hp: 100,
+	types: ["Fighting"],
+	stage: "Stage1",
 
-      abilities: [
-        {
-          name: {
-                        ja: "磁気反転",
-                                                                      },
-          effect: {
-                        ja: "ターン中（攻撃の前）に一度、NosepassがアクティブなPokã©Monである場合、コインをひっくり返すことができます。頭の場合、対戦相手のベンチポカモンの1つを防御するポカモンの1つに切り替えます。対戦相手は、防御するポカモンを選択して切り替えます。 Nosepassが特別な状態の影響を受ける場合、このパワーは使用できません。",
-                                                                      },
-      }],
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "寒い",
+			},
+			effect: {
+				ja: "コインをひっくり返します。頭の場合、防御する各ポケモンは、相手の次のターン中に攻撃することはできません。",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
+			name: {
+				ja: "トン数",
+			},
+			effect: {
+				ja: "60ダメージに加えて、さらに40ダメージを与えることができます。もしそうなら、Piloswineはそれ自体に30のダメージを与えます。",
+			},
+		},
+	],
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "シャープ",
-                                                                      },
-          damage: 10,
-        },
-      ],
+	retreat: 2,
 
-      retreat: 1,
-
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "holo",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

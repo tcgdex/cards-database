@@ -1,48 +1,62 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Swablu",
-                                                   },
+	set: Set,
+	name: {
+		ja: "Rocket's Hitmonchan ex",
+	},
 
-      rarity: "Uncommon",
-      category: "Pokemon",
-      dexId: [333],
-      hp: 40,
-      types: ["Colorless"],
-      stage: "Basic",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [107],
+	hp: 100,
+	types: ["Darkness"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "綿毛",
-                                                                      },
-          effect: {
-                        ja: "Swabluが対戦相手の攻撃によって損傷または影響を受け、すでに少なくとも1つのダメージカウンターがあるときはいつでも、コインをひっくり返します。頭の場合は、Swabluに行われた損害を含む、その攻撃のすべての影響を防ぎます。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "ストライクバック",
+			},
+			effect: {
+				ja: "RocketのHitmonchan Exがアクティブなポカモンであり、対戦相手の攻撃によって損傷を受けている場合（RocketのHitmonchan Exがノックアウトされたとしても）、攻撃するPokã©Monに2つのダメージカウンターを置きます。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "ペック",
-                                                                      },
-          damage: 10,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Fighting"],
+			name: {
+				ja: "マッハパンチ",
+			},
+			effect: {
+				ja: "対戦相手のベンチポケモンの1つに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Fighting", "Fighting", "Colorless"],
+			name: {
+				ja: "マグナムパンチ",
+			},
+			damage: 60,
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "holo",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

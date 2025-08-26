@@ -1,47 +1,53 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "NINCADA",
-                                                   },
+	set: Set,
+	name: {
+		ja: "ダークアーボック",
+	},
 
-      rarity: "Uncommon",
-      category: "Pokemon",
-      dexId: [290],
-      hp: 50,
-      types: ["Grass"],
-      stage: "Basic",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [24],
+	hp: 90,
+	types: ["Grass"],
+	stage: "Stage1",
 
-      attacks: [
-        {
-          cost: ["Grass"],
-          name: {
-                        ja: "下を掘ります",
-                                                                      },
-          effect: {
-                        ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに10ダメージを与えます。この攻撃の損傷は、脱力感や抵抗の影響を受けません。",
-                                                                      },
-        },
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "傷",
-                                                                      },
-          damage: 20,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Grass"],
+			name: {
+				ja: "飲み込む",
+			},
+			effect: {
+				ja: "ダメージを与える前に、防御するポケモンとダークアーボックの残りのHPを数えます。ディフェンディングポケモンの残りのHPがDark Arbokよりも少ない場合、この攻撃は10ダメージに加えて30ダメージを与えます。",
+			},
+		},
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "余分な毒",
+			},
+			effect: {
+				ja: "防御ポケモンがポケモンエクスである場合、防御するポケモンは眠って毒されています。",
+			},
+			damage: 30,
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

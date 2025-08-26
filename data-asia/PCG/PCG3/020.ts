@@ -1,48 +1,53 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "航海",
-                                                   },
+	set: Set,
+	name: {
+		ja: "トーチの星",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [119],
-      hp: 70,
-      types: ["Water"],
-      stage: "Stage1",
+	rarity: "Shiny rare",
+	category: "Pokemon",
+	dexId: [255],
+	hp: 70,
+	types: ["Fire"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Water"],
-          name: {
-                        ja: "トリプル違反",
-                                                                      },
-          effect: {
-                        ja: "対戦相手のポケモンの3つを選択してください。この攻撃は、それらのポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
-                                                                      },
-        },
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "レンド",
-                                                                      },
-          effect: {
-                        ja: "防御するポケモンがすでにダメージカウンターを持っている場合、この攻撃は30のダメージと20のダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Fire"],
+			name: {
+				ja: "花火",
+			},
+			effect: {
+				ja: "コインをひっくり返します。尾の場合、Torchic {{Star | This Pokemon}}に取り付けられた火災エネルギーカードを捨てます。",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Fire", "Fire"],
+			name: {
+				ja: "バックバック",
+			},
+			effect: {
+				ja: "対戦相手に賞品が1枚しか残っていない場合、この攻撃は20ダメージに加えて50ダメージを与え、防御ポケモンが混乱しています。",
+			},
+		},
+	],
 
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

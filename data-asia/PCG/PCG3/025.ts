@@ -1,41 +1,54 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "lotad",
-                                                   },
+	set: Set,
+	name: {
+		ja: "アズマリル",
+	},
 
-      rarity: "Uncommon",
-      category: "Pokemon",
-      dexId: [270],
-      hp: 50,
-      types: ["Water"],
-      stage: "Basic",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [184],
+	hp: 80,
+	types: ["Water"],
+	stage: "Stage1",
 
-      attacks: [
-        {
-          cost: ["Water"],
-          name: {
-                        ja: "驚き",
-                                                                      },
-          effect: {
-                        ja: "見ずに相手の手から1枚のカードを1枚選択します。あなたが選んだカードを見てから、相手にそのカードを彼または彼女のデッキにシャッフルさせます。",
-                                                                      },
-          damage: 10,
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "泡",
+			},
+			effect: {
+				ja: "ターン中に、アクティブなPokã©Monの1つを進化させるためにAzumarillを手から演奏すると、このパワーを使用できます。それぞれの防御ポケモンは現在麻痺しています。",
+			},
+		}],
 
-      retreat: 1,
+	attacks: [
+		{
+			cost: ["Water", "Colorless"],
+			name: {
+				ja: "ウォーターパンチ",
+			},
+			effect: {
+				ja: "アズマリルに取り付けられた各水エネルギーのコインをひっくり返します。この攻撃は20のダメージに加えて、各ヘッドに対して20のダメージをさらに発生させます。",
+			},
+		},
+	],
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

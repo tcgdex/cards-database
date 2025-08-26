@@ -1,49 +1,51 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Sharpedo ex",
-                                                   },
+	set: Set,
+	name: {
+		ja: "暗いSteelix",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [319],
-      hp: 100,
-      types: ["Darkness"],
-      stage: "Stage1",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [208],
+	hp: 110,
+	types: ["Darkness"],
+	stage: "Stage1",
 
-      attacks: [
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "ドラッグします",
-                                                                      },
-          effect: {
-                        ja: "ダメージを与える前に、対戦相手のベンチ付きポケモンを防御するポケモンと交換することができます。もしそうなら、この攻撃は新しい防御ポケモンに20のダメージを与えます。対戦相手は、防御するポケモンを選択して切り替えます。",
-                                                                      },
-          damage: 20,
-        },
-        {
-          cost: ["Darkness", "Darkness", "Colorless"],
-          name: {
-                        ja: "闇の爆発",
-                                                                      },
-          effect: {
-                        ja: "Sharpedo Exに取り付けられた闇のエネルギーを捨てることができます。そうした場合、この攻撃は60のダメージに加えて20のダメージを与え、防御ポケモンに1つのエネルギーカードを破棄します。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "エネルギーリンク",
+			},
+			effect: {
+				ja: "廃棄の山を検索して、エネルギーカードを塗り、Dark Steelixに取り付けます。",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+			name: {
+				ja: "重い衝撃",
+			},
+			damage: 60,
+		},
+	],
 
+	retreat: 4,
 
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

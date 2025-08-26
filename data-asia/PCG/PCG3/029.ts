@@ -1,51 +1,50 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "ペリッパー",
-                                                   },
+	set: Set,
+	name: {
+		ja: "REMORAID",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [279],
-      hp: 70,
-      types: ["Water"],
-      stage: "Stage1",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [223],
+	hp: 50,
+	types: ["Water"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "ベイダンス",
-                                                                      },
-          effect: {
-                        ja: "次のターン中に、現在のアクティブなポケモンのいずれかが防御するポケモンにダメージを与えた場合、攻撃は30件のダメージを与えます（脱力感と抵抗を適用する前に）。",
-                                                                      },
-          damage: 10,
-        },
-        {
-          cost: ["Water", "Colorless", "Colorless"],
-          name: {
-                        ja: "アクアソニック",
-                                                                      },
-          effect: {
-                        ja: "この攻撃の損傷は、抵抗の影響を受けません。",
-                                                                      },
-          damage: 50,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "エネルギーの引き分け",
+			},
+			effect: {
+				ja: "コインをひっくり返します。ヘッドの場合は、デッキを検索して基本的なエネルギーカードを探して、それを添付してリムレードします。その後、デッキをシャッフルします。",
+			},
+		},
+		{
+			cost: ["Water"],
+			name: {
+				ja: "かみそりフィン",
+			},
+			damage: 10,
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+	],
 };
+
+export default card

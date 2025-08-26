@@ -1,49 +1,52 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "スウラー",
-                                                   },
+	set: Set,
+	name: {
+		ja: "togepi",
+	},
 
-      rarity: "Rare",
-      category: "Pokemon",
-      dexId: [277],
-      hp: 70,
-      types: ["Colorless"],
-      stage: "Stage1",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [175],
+	hp: 40,
+	types: ["Colorless"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "空中クラッシュ",
-                                                                      },
-          effect: {
-                        ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）コインをひっくり返します。頭の場合、対戦相手はそのポケモンに添付されている場合、1つのエネルギーカードを破棄します。",
-                                                                      },
-        },
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "ノーシブ",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。尾の場合、スウェローはそれ自体に10ダメージを与えます。",
-                                                                      },
-          damage: 40,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "あくび",
+			},
+			effect: {
+				ja: "防御ポケモンは今眠っています。",
+			},
+		},
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "ミニメトロノーム",
+			},
+			effect: {
+				ja: "コインをひっくり返します。頭の場合は、防御するポケモンの攻撃の1つを選択します。ミニメトロノームは、エネルギーコストを除いて攻撃するコピーをコピーします。 （あなたはまだその攻撃に必要な他のことをしなければなりません。）（ポケモンがどんなタイプであっても、Togepiのタイプはまだ無色です。）Togepiはその攻撃を実行します。",
+			},
+		},
+	],
 
+	retreat: 1,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

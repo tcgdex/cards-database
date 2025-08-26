@@ -1,59 +1,64 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "トロピウス",
-                                                   },
+	set: Set,
+	name: {
+		ja: "暗いMuk",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [357],
-      hp: 80,
-      types: ["Grass"],
-      stage: "Basic",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [89],
+	hp: 70,
+	types: ["Grass"],
+	stage: "Stage1",
 
-      abilities: [
-        {
-          name: {
-                        ja: "熱帯運動",
-                                                                      },
-          effect: {
-                        ja: "トロピウスがあなたのアクティブなポカモンである限り、あなたの対戦相手のアクティブなポケモンには抵抗がありません。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "粘着性のグー",
+			},
+			effect: {
+				ja: "暗いMukがあなたのアクティブなポケモンである限り、あなたの対戦相手は{{e}} {{e}} {{e}}} {{e}}}をより多く退却させます。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Grass"],
-          name: {
-                        ja: "奇跡の打撃",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合は、1つの特別な条件を選択します。防御ポケモンは現在、その特別な状態の影響を受けています。",
-                                                                      },
-        },
-        {
-          cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
-          name: {
-                        ja: "踏みつけ",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、この攻撃は40ダメージに加えて20ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "ぬるぬるした水",
+			},
+			effect: {
+				ja: "ディフェンディングポケモンリトリートコストの{{e}}エネルギーの数が10ダメージを与えます（リトリートコストに効果を適用した後）。",
+			},
+		},
+		{
+			cost: ["Grass", "Colorless"],
+			name: {
+				ja: "酸性毒",
+			},
+			effect: {
+				ja: "防御ポケモンは現在燃やされ、毒されています。",
+			},
+			damage: 10,
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

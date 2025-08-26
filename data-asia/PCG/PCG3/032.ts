@@ -1,49 +1,65 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "電気",
-                                                   },
+	set: Set,
+	name: {
+		ja: "キングドラ",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [309],
-      hp: 50,
-      types: ["Lightning"],
-      stage: "Basic",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [230],
+	hp: 120,
+	types: ["Water"],
+	stage: "Stage2",
 
-      attacks: [
-        {
-          cost: ["Lightning"],
-          name: {
-                        ja: "充電",
-                                                                      },
-          effect: {
-                        ja: "デッキを稲妻エネルギーカードに検索し、エレクトリケに添付してください。その後、デッキをシャッフルします。",
-                                                                      },
-        },
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-                        ja: "クイック攻撃",
-                                                                      },
-          effect: {
-                        ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与えます。",
-                                                                      },
-        },
-      ],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "ドラゴンベール",
+			},
+			effect: {
+				ja: "Kingdraが遊んでいる限り、それぞれのアクティブなPokã©Monには弱点はありません。",
+			},
+		}],
 
-      retreat: 1,
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "ハイパーワールプール",
+			},
+			effect: {
+				ja: "尾がなくなるまでコインをひっくり返します。各ヘッドについて、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Water", "Colorless", "Colorless"],
+			name: {
+				ja: "アクアソニック",
+			},
+			effect: {
+				ja: "この攻撃の損傷は、抵抗の影響を受けません。",
+			},
+			damage: 50,
+		},
+	],
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

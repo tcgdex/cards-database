@@ -1,51 +1,54 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "メタグロス",
-                                                   },
+	set: Set,
+	name: {
+		ja: "暗いスローキング",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [376],
-      hp: 100,
-      types: ["Psychic"],
-      stage: "Stage2",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [199],
+	hp: 80,
+	types: ["Psychic"],
+	stage: "Stage1",
 
-      abilities: [
-        {
-          name: {
-                        ja: "スーパー接続",
-                                                                      },
-          effect: {
-                        ja: "ターン中に（攻撃の前に）、廃棄物の山を検索して、サイキックまたはメタルのエネルギーカードを検索し、アクティブなPokã©Monに添付することができます。次に、そのpokã©Monに1つのダメージカウンターを置きます。 Metagrossが特別な状態の影響を受ける場合、このパワーは使用できません。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "unning",
+			},
+			effect: {
+				ja: "ターン中（攻撃の前に）一度、相手のデッキの一番上のカードを見ることができます。それから、あなたは彼または彼女のデッキをシャッフルするかもしれません。暗いスローキングが特別な状態の影響を受ける場合、このパワーは使用できません。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Psychic", "Colorless"],
-          name: {
-                        ja: "リンクブラスト",
-                                                                      },
-          effect: {
-                        ja: "Metagrossと防御ポケモンのエネルギーが異なるエネルギーを持っている場合、この攻撃のベースダメージは70ではなく40です。",
-                                                                      },
-          damage: 70,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Psychic", "Colorless"],
+			name: {
+				ja: "ごみ",
+			},
+			effect: {
+				ja: "あなたの手から最大2匹のポケモンツールカードとロケットのシークレットマシンカードの組み合わせを捨てることができます。そうした場合、この攻撃は20のダメージに加えて、捨てたカードごとに30ダメージを与えます。",
+			},
+		},
+	],
 
-      retreat: 2,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card

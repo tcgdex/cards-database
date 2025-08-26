@@ -1,49 +1,51 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG3"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "Shedinja",
-                                                   },
+	set: Set,
+	name: {
+		ja: "暗いフラフィ",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [292],
-      hp: 50,
-      types: ["Psychic"],
-      stage: "Stage1",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [180],
+	hp: 80,
+	types: ["Lightning"],
+	stage: "Stage1",
 
-      abilities: [
-        {
-          name: {
-                        ja: "空のシェル",
-                                                                      },
-          effect: {
-                        ja: "Shedinjaがノックアウトされると、対戦相手は賞品を撮りません。",
-                                                                      },
-      }],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "サンダースラッシュ",
+			},
+			effect: {
+				ja: "防御ポケモンが基本的なポケモンである場合、防御するポケモンは現在麻痺しています。 Dark Flaaffyは、次のターン中にThunder Slashを使用できません。",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Lightning", "Colorless"],
+			name: {
+				ja: "ヘッドバット",
+			},
+			damage: 20,
+		},
+	],
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-                        ja: "余分な呪い",
-                                                                      },
-          effect: {
-                        ja: "防御ポケモンに2つのダメージカウンターを置きます。防御ポケモンがポケモンエクスの場合、代わりに4つのダメージカウンターを入れます。",
-                                                                      },
-        },
-      ],
+	retreat: 1,
 
-
-      variants: [
-        {
-          type: "holo",
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card
