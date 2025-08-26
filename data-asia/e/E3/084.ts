@@ -2,27 +2,27 @@ import {Card} from "../../../interfaces"
 import Set from "../E3"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Apricorn Forest",
-         ja: "アプリコーンの森",
-         fr: "Forêt d'abricorne",
-         de: "Aprikornwald",
-         es: "Bosque de abaricornio",
-         it: "Foresta di albicorni",
-         pt: "Floresta de Damporcado",
-      },
+    set: Set,
+    name: {
+        ja: "アプリコーンの森",
+    },
 
-      rarity: "Uncommon",
-      category: "Trainer",
+    rarity: "Uncommon",
+    category: "Trainer",
 
-      variants: [
+    variants: [
         {
-          type: "normal",
+            type: "normal",
+            subtype: "unlimited",
         },
         {
-          type: "normal",
-          stamp: ["1st edition"],
+            type: "normal",
+            subtype: "unlimited",
+        }, {
+            type: "normal",
+            stamp: ["1st edition"],
         },
-      ],
+    ],
 };
+
+export default card

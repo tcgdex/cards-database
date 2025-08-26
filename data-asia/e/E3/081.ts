@@ -2,27 +2,23 @@ import {Card} from "../../../interfaces"
 import Set from "../E3"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Healing Berry",
-         ja: "癒しベリー",
-         fr: "Baie de guérison",
-         de: "Heilende Berry",
-         es: "Baya de curación",
-         it: "Guarigione delle bacche",
-         pt: "Berry de cura",
-      },
+    set: Set,
+    name: {
+        ja: "癒しベリー",
+    },
 
-      rarity: "Uncommon",
-      category: "Trainer",
+    rarity: "Uncommon",
+    category: "Trainer",
 
-      variants: [
+    variants: [
         {
-          type: "normal",
+            type: "normal",
+            subtype: "unlimited",
+        }, {
+            type: "normal",
+            stamp: ["1st edition"],
         },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+    ],
 };
+
+export default card

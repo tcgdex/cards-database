@@ -2,27 +2,23 @@ import {Card} from "../../../interfaces"
 import Set from "../E3"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Juggler",
-         ja: "ジャグラー",
-         fr: "Jongleur",
-         de: "Jongleur",
-         es: "Malabarista",
-         it: "Giocoliere",
-         pt: "Malabarista",
-      },
+    set: Set,
+    name: {
+        ja: "ジャグラー",
+    },
 
-      rarity: "Uncommon",
-      category: "Trainer",
+    rarity: "Uncommon",
+    category: "Trainer",
 
-      variants: [
+    variants: [
         {
-          type: "normal",
+            type: "normal",
+            subtype: "unlimited",
+        }, {
+            type: "normal",
+            stamp: ["1st edition"],
         },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+    ],
 };
+
+export default card

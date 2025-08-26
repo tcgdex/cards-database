@@ -2,71 +2,53 @@ import {Card} from "../../../interfaces"
 import Set from "../E3"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Ponyta",
-         ja: "ポニータ",
-         fr: "Ponyta",
-         de: "Ponyta",
-         es: "Ponyta",
-         it: "Ponyta",
-         pt: "Ponyta",
-      },
+    set: Set,
+    name: {
+        ja: "ポニータ",
+    },
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [77],
-      hp: 40,
-      types: ["Fire"],
-      stage: "Basic",
+    rarity: "Common",
+    category: "Pokemon",
+    dexId: [77],
+    hp: 40,
+    types: ["Fire"],
+    stage: "Basic",
 
-      attacks: [
+    attacks: [
         {
-          cost: ["Colorless"],
-          name: {
-            en: "Tackle",
-            ja: "取り組む",
-            fr: "Tacle",
-            de: "Tackle",
-            es: "Abordar",
-            it: "Attrezzatura",
-            pt: "Enfrentar",
-          },
-          damage: 10,
+            cost: ["Colorless"],
+            name: {
+                ja: "取り組む",
+            },
+            damage: 10,
         },
         {
-          cost: ["Fire", "Colorless"],
-          name: {
-            en: "Ember",
-            ja: "ember",
-            fr: "Bilan",
-            de: "Glut",
-            es: "Ascua",
-            it: "Ember",
-            pt: "Brasa",
-          },
-          effect: {
-            en: "Discard a Fire Energy card attached to Ponyta.",
-            ja: "Ponytaに取り付けられた消防エネルギーカードを捨てます。",
-            fr: "Jeter une carte d'énergie d'incendie attachée à Ponyta.",
-            de: "Verwerfen Sie eine an Ponyta befestigte Brandenergiekarte.",
-            es: "Deseche una tarjeta de energía de fuego unida a Ponyta.",
-            it: "Scartare una carta di energia antincendio attaccata a Ponyta.",
-            pt: "Descarte um cartão de energia de incêndio anexado a Ponyta.",
-          },
-          damage: 30,
+            cost: ["Fire", "Colorless"],
+            name: {
+                ja: "ember",
+            },
+            effect: {
+                ja: "Ponytaに取り付けられた消防エネルギーカードを捨てます。",
+            },
+            damage: 30,
         },
-      ],
+    ],
 
-      retreat: 1,
+    retreat: 1,
 
-      variants: [
+    variants: [
         {
-          type: "normal",
+            type: "normal",
+            subtype: "unlimited",
         },
         {
-          type: "normal",
-          stamp: ["1st edition"],
+            type: "normal",
+            subtype: "unlimited",
+        }, {
+            type: "normal",
+            stamp: ["1st edition"],
         },
-      ],
+    ],
 };
+
+export default card

@@ -2,27 +2,23 @@ import {Card} from "../../../interfaces"
 import Set from "../E3"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Undersea Ruins",
-         ja: "海底遺跡",
-         fr: "Ruines sous-marines",
-         de: "Undersea -Ruinen",
-         es: "Ruinas submarinas",
-         it: "Rovine sottomarine",
-         pt: "Ruínas submarinas",
-      },
+    set: Set,
+    name: {
+        ja: "海底遺跡",
+    },
 
-      rarity: "Uncommon",
-      category: "Trainer",
+    rarity: "Uncommon",
+    category: "Trainer",
 
-      variants: [
+    variants: [
         {
-          type: "normal",
+            type: "normal",
+            subtype: "unlimited",
+        }, {
+            type: "normal",
+            stamp: ["1st edition"],
         },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+    ],
 };
+
+export default card

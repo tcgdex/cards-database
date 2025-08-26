@@ -2,27 +2,23 @@ import {Card} from "../../../interfaces"
 import Set from "../E3"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Traveling Salesman",
-         ja: "旅行セールスマン",
-         fr: "Représentant de commerce",
-         de: "Reisender Verkäufer",
-         es: "Viajante de comercio",
-         it: "Venditore di viaggi",
-         pt: "Vendedor ambulante",
-      },
+    set: Set,
+    name: {
+        ja: "旅行セールスマン",
+    },
 
-      rarity: "Uncommon",
-      category: "Trainer",
+    rarity: "Uncommon",
+    category: "Trainer",
 
-      variants: [
+    variants: [
         {
-          type: "normal",
+            type: "normal",
+            subtype: "unlimited",
+        }, {
+            type: "normal",
+            stamp: ["1st edition"],
         },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+    ],
 };
+
+export default card

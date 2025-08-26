@@ -2,27 +2,23 @@ import {Card} from "../../../interfaces"
 import Set from "../E3"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Memory Berry",
-         ja: "メモリベリー",
-         fr: "Baies de mémoire",
-         de: "Erinnerung Beeren",
-         es: "Baya de memoria",
-         it: "Berry di memoria",
-         pt: "Berry de memória",
-      },
+    set: Set,
+    name: {
+        ja: "メモリベリー",
+    },
 
-      rarity: "Uncommon",
-      category: "Trainer",
+    rarity: "Uncommon",
+    category: "Trainer",
 
-      variants: [
+    variants: [
         {
-          type: "normal",
+            type: "normal",
+            subtype: "unlimited",
+        }, {
+            type: "normal",
+            stamp: ["1st edition"],
         },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+    ],
 };
+
+export default card

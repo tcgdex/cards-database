@@ -2,27 +2,27 @@ import {Card} from "../../../interfaces"
 import Set from "../E3"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Warp Energy",
-         ja: "ワープエネルギー",
-         fr: "Énergie de déformation",
-         de: "Energieverzerrung",
-         es: "Energía de deformación",
-         it: "Erganizzazione dell'ordito",
-         pt: "Energia de urdidura",
-      },
+    set: Set,
+    name: {
+        ja: "ワープエネルギー",
+    },
 
-      rarity: "Uncommon",
-      category: "Trainer",
+    rarity: "Uncommon",
+    category: "Trainer",
 
-      variants: [
+    variants: [
         {
-          type: "normal",
+            type: "normal",
+            subtype: "unlimited",
         },
         {
-          type: "normal",
-          stamp: ["1st edition"],
+            type: "normal",
+            subtype: "unlimited",
+        }, {
+            type: "normal",
+            stamp: ["1st edition"],
         },
-      ],
+    ],
 };
+
+export default card
