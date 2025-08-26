@@ -1,59 +1,43 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../neo1"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Magmar",
-         ja: "マグマー",
-         fr: "Magmar",
-         de: "Magmar",
-         es: "Magmar",
-         it: "Magmar",
-         pt: "Magmar",
-      },
+	set: Set,
+	name: {
+		ja: "マグマー",
+	},
 
-      rarity: "Uncommon",
-      category: "Pokemon",
-      dexId: [126],
-      hp: 70,
-      types: ["Fire"],
-      stage: "Basic",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [126],
+	hp: 70,
+	types: ["Fire"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless", "Colorless"],
-          name: {
-            en: "Tail Slap",
-            ja: "テールスラップ",
-            fr: "Gifle",
-            de: "Schwanzschlag",
-            es: "Bofetada",
-            it: "Slap di coda",
-            pt: "Tail Slap",
-          },
-          damage: 20,
-        },
-        {
-          cost: ["Fire", "Fire", "Colorless"],
-          name: {
-            en: "Magma Punch",
-            ja: "マグマパンチ",
-            fr: "Punch de magma",
-            de: "Magma Punch",
-            es: "Brillo de magma",
-            it: "Magma Punch",
-            pt: "Punch de magma",
-          },
-          damage: 40,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				ja: "テールスラップ",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Fire", "Fire", "Colorless"],
+			name: {
+				ja: "マグマパンチ",
+			},
+			damage: 40,
+		},
+	],
 
-      retreat: 2,
+	retreat: 2,
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card

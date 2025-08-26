@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../neo1"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Mary",
-         ja: "メアリー",
-         fr: "Marie",
-         de: "Maria",
-         es: "María",
-         it: "Maria",
-         pt: "Mary",
-      },
+	set: Set,
+	name: {
+		ja: "メアリー",
+	},
 
-      rarity: "Rare",
-      category: "Trainer",
+	rarity: "Rare",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card
