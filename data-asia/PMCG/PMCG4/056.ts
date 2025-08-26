@@ -2,23 +2,19 @@ import {Card} from "../../../interfaces"
 import Set from "../PMCG4"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Goop Gas Attack",
-         ja: "GOOPガス攻撃",
-         fr: "Attaque de gaz goop",
-         de: "Goop -Gasangriff",
-         es: "Ataque de gas goop",
-         it: "Attacco a gas goop",
-         pt: "Ataque a gás goop",
-      },
+	set: Set,
+	name: {
+		ja: "GOOPガス攻撃",
+	},
 
-      rarity: "Common",
-      category: "Trainer",
+	rarity: "Common",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card
