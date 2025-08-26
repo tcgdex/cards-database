@@ -1,63 +1,47 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../VS1"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Clair's Mantine",
-         ja: "クレアのマンティン",
-         fr: "Mantine de Clair",
-         de: "Clairs Mantine",
-         es: "Clair's Mantine",
-         it: "Clair's Mantine",
-         pt: "Mantino de Clair",
-      },
+	set: Set,
+	name: {
+		ja: "クレアのマンティン",
+	},
 
-      rarity: "Common",
-      category: "Pokemon",
-      dexId: [226],
-      hp: 60,
-      types: ["Water"],
-      stage: "Basic",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [226],
+	hp: 60,
+	types: ["Water"],
+	stage: "Basic",
 
-      attacks: [
-        {
-          cost: ["Colorless"],
-          name: {
-            en: "Tackle",
-            ja: "取り組む",
-            fr: "Tacle",
-            de: "Tackle",
-            es: "Abordar",
-            it: "Attrezzatura",
-            pt: "Enfrentar",
-          },
-          damage: 10,
-        },
-        {
-          cost: ["Water", "Colorless"],
-          name: {
-            en: "Wave Splash",
-            ja: "波のスプラッシュ",
-            fr: "Vague de vagues",
-            de: "Wellenspritzer",
-            es: "Salpicadería",
-            it: "Splash d'onda",
-            pt: "Splash de onda",
-          },
-          damage: 20,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				ja: "取り組む",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Water", "Colorless"],
+			name: {
+				ja: "波のスプラッシュ",
+			},
+			damage: 20,
+		},
+	],
 
-      retreat: 2,
+	retreat: 2,
 
-      variants: [
-        {
-          type: "normal",
-        },
-        {
-          type: "normal",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card
