@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG5"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Erika's Maids",
-         ja: "エリカのメイド",
-         fr: "Les femmes de chambre d'Erika",
-         de: "Erikas Mädchen",
-         es: "Las criadas de Erika",
-         it: "Le cameriere di Erika",
-         pt: "Maids de Erika",
-      },
+	set: Set,
+	name: {
+		ja: "エリカのメイド",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card

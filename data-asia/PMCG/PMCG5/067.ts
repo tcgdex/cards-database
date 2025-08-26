@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG5"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Energy Flow",
-         ja: "エネルギーの流れ",
-         fr: "Flux d'énergie",
-         de: "Energiefluss",
-         es: "Flujo de energía",
-         it: "Flusso di energia",
-         pt: "Fluxo de energia",
-      },
+	set: Set,
+	name: {
+		ja: "エネルギーの流れ",
+	},
 
-      rarity: "Common",
-      category: "Trainer",
+	rarity: "Common",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card

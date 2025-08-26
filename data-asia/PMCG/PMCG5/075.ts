@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG5"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Misty's Wrath",
-         ja: "ミスティの怒り",
-         fr: "Wrath de Misty",
-         de: "Mistys Zorn",
-         es: "Misty's Wrath",
-         it: "L'ira di Misty",
-         pt: "A ira de Misty",
-      },
+	set: Set,
+	name: {
+		ja: "ミスティの怒り",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card

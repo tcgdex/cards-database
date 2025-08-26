@@ -1,24 +1,20 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG5"
 
 const card: Card = {
-      set: Set,
-      name: {
-         en: "Secret Mission",
-         ja: "秘密の使命",
-         fr: "Mission secrète",
-         de: "Geheime Mission",
-         es: "Misión secreta",
-         it: "Missione segreta",
-         pt: "Missão Secreta",
-      },
+	set: Set,
+	name: {
+		ja: "秘密の使命",
+	},
 
-      rarity: "Uncommon",
-      category: "Trainer",
+	rarity: "Uncommon",
+	category: "Trainer",
 
-      variants: [
-        {
-          type: "normal",
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 };
+
+export default card
