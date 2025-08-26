@@ -10,9 +10,6 @@ const set: Set = {
 
 	serie: serie,
 
-	cardCount: {
-		official: 0
-	},
 	releaseDate: {
 		id: '2022-07-14',
 		th: '2022-05-11'
