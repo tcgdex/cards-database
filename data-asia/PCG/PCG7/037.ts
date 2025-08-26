@@ -1,52 +1,55 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PCG7"
 
 const card: Card = {
-      set: Set,
-      name: {
-                  ja: "deoxys（デルタ種）",
-                                                   },
+	set: Set,
+	name: {
+		ja: "deoxys（デルタ種）",
+	},
 
-      rarity: "Holo Rare",
-      category: "Pokemon",
-      dexId: [386],
-      hp: 70,
-      types: ["Darkness"],
-      stage: "Basic",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [386],
+	hp: 70,
+	types: ["Darkness"],
+	stage: "Basic",
 
-      abilities: [
-        {
-          name: {
-                        ja: "フォームの変更",
-                                                                      },
-          effect: {
-                        ja: "ターン中（攻撃の前）になったら、デッキを別のdeoxysに検索し、Deoxysで切り替えることができます。 （Deoxys、ダメージカウンター、特別な条件、およびその影響に添付されたカードは、現在、新しいPokã©Mon。）になります。）デッキの上にDeoxysを置きます。その後、デッキをシャッフルします。ターンごとに1つ以上のフォーム変更Pokã©-Powerを使用することはできません。",
-                                                                      },
-      }],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "フォームの変更",
+			},
+			effect: {
+				ja: "ターン中（攻撃の前）になったら、デッキを別のdeoxysに検索し、Deoxysで切り替えることができます。 （Deoxys、ダメージカウンター、特別な条件、およびその影響に添付されたカードは、現在、新しいPokã©Mon。）になります。）デッキの上にDeoxysを置きます。その後、デッキをシャッフルします。ターンごとに1つ以上のフォーム変更Pokã©-Powerを使用することはできません。",
+			},
+		}],
 
-      attacks: [
-        {
-          cost: ["Darkness", "Colorless", "Colorless"],
-          name: {
-                        ja: "エネルギーループ",
-                                                                      },
-          effect: {
-                        ja: "Deoxysに取り付けられた2つのエネルギーを手に返します。",
-                                                                      },
-          damage: 60,
-        },
-      ],
+	attacks: [
+		{
+			cost: ["Darkness", "Colorless", "Colorless"],
+			name: {
+				ja: "エネルギーループ",
+			},
+			effect: {
+				ja: "Deoxysに取り付けられた2つのエネルギーを手に返します。",
+			},
+			damage: 60,
+		},
+	],
 
-      retreat: 1,
+	retreat: 1,
 
-      variants: [
-        {
-          type: "holo",
-          subtype: "unlimited',
-        },
-        {
-          type: "holo",
-          stamp: ["1st edition"],
-        },
-      ],
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+	],
 };
+
+export default card
