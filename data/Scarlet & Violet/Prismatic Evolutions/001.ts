@@ -20,6 +20,19 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Basic",
 
+	// NEW: reverse variants present in Prismatic Evolutions
+	// - normal reverse
+	// - Poké Ball reverse
+	// - Master Ball reverse
+	// (No standard holo on this common, so holo=false)
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		pokeball_reverse: true,   // NEW
+		masterball_reverse: true  // NEW
+	},
+
 	attacks: [{
 		cost: ["Grass", "Colorless"],
 
