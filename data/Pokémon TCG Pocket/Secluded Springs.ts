@@ -6,19 +6,29 @@ const set: Set = {
 
 	name: {
 		en: "Secluded Springs",
-
-		de: "Glänzendes Festival",
-		es: "Festival Brillante",
-		fr: "Réjouissances Rayonnantes",
-		it: "Tripudio Splendente",
-		'pt-br': "Festival Brilhante",
-		ko: '샤이닝 하이'
+		de: "Verborgene Quelle",
+		es: "Manantial Oculto",
+		fr: "Source Secrète",
+		it: "Sorgenti Recondite",
+		'pt-br': "Nascentes Reclusas",
+		ko: '미지의 수역',
+		ja: '未知なる水域',
+		'zh-tw': '未知水域',
+		'zh-cn': '未知水域'
 	},
 
 	serie: serie,
 
 	cardCount: {
 		official: 71
+	},
+
+	boosters: {
+		suicune: {
+			name: {
+				en: 'Suicune themed booster pack' // still not sure how to name the boosters...
+			}
+		}
 	},
 
 	releaseDate: "2025-08-28"
