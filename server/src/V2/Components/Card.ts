@@ -28,35 +28,35 @@ import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
 const list: Record<`${string | any}${SupportedLanguages | string}`, any> = {}
 
 // @ts-ignore ts can't load file
-en.forEach((it) => list[`${it.id}en`] = it)
+en.forEach((it) => list[`${it.id.toLowerCase()}en`] = it)
 // @ts-ignore ts can't load file
-fr.forEach((it) => list[`${it.id}fr`] = it)
+fr.forEach((it) => list[`${it.id.toLowerCase()}fr`] = it)
 // @ts-ignore ts can't load file
-es.forEach((it) => list[`${it.id}es`] = it)
-esmx.forEach((it) => list[`${it.id}es-mx`] = it)
+es.forEach((it) => list[`${it.id.toLowerCase()}es`] = it)
+esmx.forEach((it) => list[`${it.id.toLowerCase()}es-mx`] = it)
 // @ts-ignore ts can't load file
-it.forEach((it) => list[`${it.id}it`] = it)
+it.forEach((it) => list[`${it.id.toLowerCase()}it`] = it)
 // @ts-ignore ts can't load file
-pt.forEach((it) => list[`${it.id}pt`] = it)
-ptbr.forEach((it) => list[`${it.id}pt-br`] = it)
+pt.forEach((it) => list[`${it.id.toLowerCase()}pt`] = it)
+ptbr.forEach((it) => list[`${it.id.toLowerCase()}pt-br`] = it)
 // @ts-expect-error there is currently not cards here
-ptpt.forEach((it) => list[`${it.id}pt-pt`] = it)
+ptpt.forEach((it) => list[`${it.id.toLowerCase()}pt-pt`] = it)
 // @ts-ignore ts can't load file
-de.forEach((it) => list[`${it.id}de`] = it)
+de.forEach((it) => list[`${it.id.toLowerCase()}de`] = it)
 // @ts-expect-error there is currently not cards here
-nl.forEach((it) => list[`${it.id}nl`] = it)
+nl.forEach((it) => list[`${it.id.toLowerCase()}nl`] = it)
 // @ts-expect-error there is currently not cards here
-pl.forEach((it) => list[`${it.id}pl`] = it)
+pl.forEach((it) => list[`${it.id.toLowerCase()}pl`] = it)
 // @ts-expect-error there is currently not cards here
-ru.forEach((it) => list[`${it.id}ru`] = it)
-ja.forEach((it) => list[`${it.id}ja`] = it)
+ru.forEach((it) => list[`${it.id.toLowerCase()}ru`] = it)
+ja.forEach((it) => list[`${it.id.toLowerCase()}ja`] = it)
 // @ts-expect-error there is currently not cards here
-ko.forEach((it) => list[`${it.id}ko`] = it)
+ko.forEach((it) => list[`${it.id.toLowerCase()}ko`] = it)
 // @ts-ignore ts can't load file
-zhtw.forEach((it) => list[`${it.id}zh-tw`] = it)
-id.forEach((it) => list[`${it.id}id`] = it)
-th.forEach((it) => list[`${it.id}th`] = it)
-zhcn.forEach((it) => list[`${it.id}zh-cn`] = it)
+zhtw.forEach((it) => list[`${it.id.toLowerCase()}zh-tw`] = it)
+id.forEach((it) => list[`${it.id.toLowerCase()}id`] = it)
+th.forEach((it) => list[`${it.id.toLowerCase()}th`] = it)
+zhcn.forEach((it) => list[`${it.id.toLowerCase()}zh-cn`] = it)
 
 const cards = {
 	en: en,
@@ -90,7 +90,7 @@ export async function getAllCards(lang: SupportedLanguages): Promise<Array<SDKCa
 }
 
 export function getCompiledCard(lang: SupportedLanguages, id: string): any {
-	const key = `${id}${lang}` as const as `${any}${string}`
+	const key = `${id}${lang}`.toLowerCase() as `${any}${string}`
 	return list[key]
 }
 
@@ -102,7 +102,7 @@ export function getCompiledCard(lang: SupportedLanguages, id: string): any {
  * @param id
  */
 async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard | null> {
-	const key = `${id}${lang}`
+	const key = `${id}${lang}`.toLowerCase()
 	const value = cache.get<SDKCard>(key)
 
 	// expect the cache to be present

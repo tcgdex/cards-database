@@ -1,5 +1,5 @@
 export type SupportedLanguages =
-	// inter languages
+// inter languages
 	'en' | 'fr' | 'es' | 'es-mx' | 'it' | 'pt' | 'pt-br' | 'pt-pt' | 'de' | 'nl' | 'pl' | 'ru' |
 	// Asian languages
 	'ja' | 'ko' | 'zh-tw' | 'id' | 'th' | 'zh-cn'
@@ -14,6 +14,45 @@ export interface Serie {
 	 * Serie Energy cards
 	 */
 	energies?: Array<Types>
+}
+
+interface variant_detailed {
+	/**
+	 * define the variant type
+	 * - normal: no holographic elements
+	 * - holo: the illustration has a foil
+	 * - reverse: everything but the illustration is foiled
+	 */
+	type: 'normal' | 'holo' | 'reverse' | 'metal'
+
+	/**
+	 * Some older sets had specific subtypes for the cards
+	 * i.e Base Set had shadowless with and without a 1st edition stamp.
+	 * and the Unlimited version of the set had no shadow.
+	 */
+	subtype?: 'shadowless' | 'unlimited'
+	/**
+	 * define the size of the card
+	 * - standard: the classic size of a card
+	 * - jumbo: also said oversized, big card.
+	 */
+	size?: 'standard' | 'jumbo'
+	/**
+	 * indicate that this variant has a stamp
+	 * a card may have multiple stamps, example "Ethan's Typhlosion pre-release staff"
+	 * this was a pre-release card only given to staff and has both the set-logo and the staff stamp.
+	 * - 1st edition: a 1st edition card (mostly for the first series of the game)
+	 * - w-promo:
+	 * - pre-release:
+	 * - pokemon-center: a card that is stamped with the Pokémon Center logo
+	 * - set-promo: a card that is stamped with the set logo
+	 * - staff: a card that is stamped with the staff text
+	 */
+	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff'>
+	/**
+	 * for the holo & reverse, **optional** indicate which foil is used on the card
+	 */
+	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold'
 }
 
 interface variants {
@@ -54,9 +93,9 @@ interface variants {
 }
 
 export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
-'Fairy' | 'Fighting' | 'Fire' |
-'Grass' | 'Lightning' | 'Metal' |
-'Psychic' | 'Water'
+	'Fairy' | 'Fighting' | 'Fire' |
+	'Grass' | 'Lightning' | 'Metal' |
+	'Psychic' | 'Water'
 
 type ISODate = `${number}-${number}-${number}`
 
@@ -162,7 +201,7 @@ export interface Card {
 	/**
 	 * Card Variants (Override Set Variants)
 	 */
-	variants?: variants
+	variants?: variants | Array<variant_detailed>
 
 	/**
 	 * Card Set
@@ -297,17 +336,17 @@ export interface Card {
 
 	// Trainer Only
 	trainerType?: 'Supporter' | // https://www.tcgdex.net/database/ex/ex7/83
-	'Item' | // https://www.tcgdex.net/database/ex/ex7/89
-	'Stadium' | // https://www.tcgdex.net/database/ex/ex7/87
-	'Tool' | // https://www.tcgdex.net/database/neo/neo1/93
-	'Ace Spec' | // https://www.tcgdex.net/database/bw/bw7/139
-	'Technical Machine' | // https://www.tcgdex.net/database/ecard/ecard1/144
-	'Goldenrod Game Corner' | // https://www.tcgdex.net/database/neo/neo1/83
-	'Rocket\'s Secret Machine' // https://www.tcgdex.net/database/ex/ex7/84
+		'Item' | // https://www.tcgdex.net/database/ex/ex7/89
+		'Stadium' | // https://www.tcgdex.net/database/ex/ex7/87
+		'Tool' | // https://www.tcgdex.net/database/neo/neo1/93
+		'Ace Spec' | // https://www.tcgdex.net/database/bw/bw7/139
+		'Technical Machine' | // https://www.tcgdex.net/database/ecard/ecard1/144
+		'Goldenrod Game Corner' | // https://www.tcgdex.net/database/neo/neo1/83
+		'Rocket\'s Secret Machine' // https://www.tcgdex.net/database/ex/ex7/84
 
 	// Energy Only
 	energyType?: 'Normal' | // https://www.tcgdex.net/database/ecard/ecard1/160
-	'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
+		'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
 
 	thirdParty?: {
 		tcgplayer?: number

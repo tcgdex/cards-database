@@ -5,7 +5,7 @@ import pt from '../../../meta/translations/pt.json'
 import de from '../../../meta/translations/de.json'
 import fr from '../../../meta/translations/fr.json'
 
-type translatable = 'types' | 'rarity' | 'stage' | 'category' | 'suffix' | 'abilityType' | 'trainerType' | 'energyType'
+type translatable = 'types' | 'rarity' | 'stage' | 'category' | 'suffix' | 'abilityType' | 'trainerType' | 'energyType' | 'variantType' | 'variantSize' | 'variantFoil' | 'variantStamp' | 'variantSubtype'
 
 const translations: Record<string, Record<translatable, Record<string, string>>> = {
 	es,

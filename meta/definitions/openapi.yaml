@@ -1511,6 +1511,31 @@ components:
             wPromo:
               type: boolean
               description: Indicates whether a promotional variant exists
+        variant_detailed:
+            type: [array,"null"]
+            description: Detailed information about a card variant
+            items:
+                type: object
+                required:
+                    - type
+                properties:
+                    type:
+                        type: string
+                        description: The type of variant (e.g., normal, reverse, holo, etc.)
+                    size:
+                        type: string
+                        description: The size of the variant (e.g., standard, jumbo, etc.)
+                        nullable: true
+                    stamp:
+                        type: array
+                        description: The stamps of the variant (e.g., 'Staff', 'Pokemon-Centre', etc.)
+                        items:
+                            type: string
+                        nullable: true
+                    foil:
+                        type: string
+                        description: The foil of the variant (e.g., 'Pokeball', 'MasterBall', etc.)
+                        nullable: true
         hp:
           type: [number, "null"]
           description: Hit Points (HP) of the Pokemon
