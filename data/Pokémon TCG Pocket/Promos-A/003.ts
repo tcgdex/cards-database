@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Toyste Beach",
-	rarity: "None",
+	rarity: "One Diamond",
 	category: "Trainer",
 
 	effect: {
