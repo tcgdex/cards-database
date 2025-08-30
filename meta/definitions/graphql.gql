@@ -386,7 +386,7 @@ type Set {
 	serie: Serie!
 
 	"""The set official release date"""
-	releaseDate: String!
+	releaseDate: String
 
 	"""The set tcgOnline code if available in the APP"""
 	tcgOnline: String
@@ -462,6 +462,15 @@ type Serie {
 	name: String!
 	"""the list of sets that are part of the serie"""
 	sets: [Set]!
+
+	"""the release data of the first set"""
+	releaseDate: String
+
+	"""the first set released in the serie"""
+	firstSet: Set
+
+	"""the last set released in the serie"""
+	lastSet: Set
 }
 
 """
