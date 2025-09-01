@@ -128,6 +128,8 @@
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",
-		"unlimited": "ilimitado"
+		"unlimited": "ilimitado",
+		"pokeball": "Poké Bola",
+		"masterball": "Master Bola"
 	}
 }

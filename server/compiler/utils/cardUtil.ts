@@ -2,11 +2,14 @@
 import pathLib from 'node:path'
 import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
 import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
+
+// NEW: derive the detailed-variant type locally so we don't need extra imports
+type VariantDetailed = NonNullable<CardSingle['variants_detailed']>[number];
+
 import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
-import { objectMap, objectPick } from '@dzeio/object-util'
-import { variant_detailed } from "../../public/v2/api";
+import { objectMap, objectPick } from '@dzeio/object-util' 
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -35,35 +38,74 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 	}
 }
 
-function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
+// helper to check reverse subtype (pokeball/masterball)
+function hasReverseSubtype(list: Array<VariantDetailed> | undefined, subtype: 'pokeball' | 'masterball'): boolean {
+	return list?.some(v => v.type === 'reverse' && v.subtype === subtype) ?? false
+}
+
+function variantsDetailedToVariants(variants_detailed: Array<VariantDetailed>): CardSingle['variants'] {
 	return {
 		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === '1st edition')) ?? false,
 		holo: variants_detailed?.some((variant) => variant.type === 'holo') ?? false,
 		normal: variants_detailed?.some((variant) => variant.type === 'normal') ?? false,
 		reverse: variants_detailed?.some((variant) => variant.type === 'reverse') ?? false,
-		wPromo: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === 'w-Promo')) ?? false
+		wPromo: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === 'w-Promo')) ?? false,
+
+		pokeball_reverse: hasReverseSubtype(variants_detailed, 'pokeball'),     
+		masterball_reverse: hasReverseSubtype(variants_detailed, 'masterball'), 
 	}
 }
 
-function variantsToVariantsDetailed(variants: CardSingle['variants']): Array<variant_detailed> {
-	const result: Array<variant_detailed> = [];
-	const addVariant = (type: string, stamps: string[] = []) => {
-		result.push({
+function variantsToVariantsDetailed(variants: CardSingle['variants']): Array<VariantDetailed> {
+	const result: Array<VariantDetailed> = [];
+
+	// prevent duplicates if generic + subtype are both true
+	const seen = new Set<string>();
+	const keyOf = (v: Pick<VariantDetailed, 'type' | 'subtype' | 'size' | 'stamp'>) =>
+		`${v.type}|${v.subtype ?? ''}|${v.size ?? ''}|${(v.stamp ?? []).join(',')}`;
+
+	const addVariant = (type: VariantDetailed['type'], stamps: string[] = [], subtype?: VariantDetailed['subtype']) => {
+		const payload: VariantDetailed = {
 			type,
 			size: 'standard',
-			stamp: stamps.length > 0 ? stamps : undefined
-		});
+			stamp: stamps.length > 0 ? stamps : undefined,
+			subtype, // allow subtype for reverse
+		};
+		const sig = keyOf(payload);
+		if (!seen.has(sig)) {
+			seen.add(sig);
+			result.push(payload);
+		}
 	};
 
+	// Preserve existing behavior for normal
 	if (typeof variants?.normal === 'boolean' ? variants.normal : true) {
 		addVariant('normal');
 		if (variants?.firstEdition) addVariant('normal', ['1st edition']);
 		if (variants?.wPromo) addVariant('normal', ['w-Promo']);
 	}
+
+	const hasPokeballReverse =
+		Boolean((variants as any)?.pokeball_reverse) || Boolean((variants as any)?.['pokeball reverse']);       
+	const hasMasterballReverse =
+		Boolean((variants as any)?.masterball_reverse) || Boolean((variants as any)?.['masterball reverse']);   
+
+	if (hasPokeballReverse) {
+		addVariant('reverse', [], 'pokeball');
+		if (variants?.firstEdition) addVariant('reverse', ['1st edition'], 'pokeball');
+	}
+	if (hasMasterballReverse) {
+		addVariant('reverse', [], 'masterball');
+		if (variants?.firstEdition) addVariant('reverse', ['1st edition'], 'masterball');
+	}
+
+	// Existing generic reverse handling (kept), but it won't duplicate due to `seen`
 	if (typeof variants?.reverse === 'boolean' ? variants.reverse : true) {
 		addVariant('reverse');
 		if (variants?.firstEdition) addVariant('reverse', ['1st edition']);
 	}
+
+	// Holo unchanged
 	if (typeof variants?.holo === 'boolean' ? variants.holo : true) {
 		addVariant('holo');
 		if (variants?.firstEdition) addVariant('holo', ['1st edition']);
@@ -97,9 +139,20 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : true,
 			normal: typeof card.variants?.normal === 'boolean' ? card.variants.normal : true,
 			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : true,
-			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
+			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false,
+
+			// CHANGED: write snake_case booleans, but accept either key shape on input
+			pokeball_reverse:
+				typeof (card.variants as any)?.pokeball_reverse === 'boolean'
+					? (card.variants as any).pokeball_reverse
+					: Boolean((card.variants as any)?.['pokeball reverse']), // legacy support
+			masterball_reverse:
+				typeof (card.variants as any)?.masterball_reverse === 'boolean'
+					? (card.variants as any).masterball_reverse
+					: Boolean((card.variants as any)?.['masterball reverse']), // legacy support
 		},
 
+		// Detailed stays unchanged — translation layer handles subtype strings
 		variants_detailed: Array.isArray(card.variants) ? card.variants?.map((variant) => {
 			return {
 				type: translate('variantType', variant.type, lang) as any,

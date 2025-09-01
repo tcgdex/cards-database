@@ -26,29 +26,23 @@ interface variant_detailed {
 	type: 'normal' | 'holo' | 'reverse' | 'metal'
 
 	/**
-	 * Some older sets had specific subtypes for the cards
-	 * i.e Base Set had shadowless with and without a 1st edition stamp.
-	 * and the Unlimited version of the set had no shadow.
+	 * Some sets have specific reverse subtypes (Poké Ball, Master Ball, etc.)
+	 * Older sets had subtypes like shadowless/unlimited.
 	 */
-	subtype?: 'shadowless' | 'unlimited'
+	subtype?: 'shadowless' | 'unlimited' | 'pokeball' | 'masterball' 
+
 	/**
 	 * define the size of the card
 	 * - standard: the classic size of a card
 	 * - jumbo: also said oversized, big card.
 	 */
 	size?: 'standard' | 'jumbo'
+
 	/**
 	 * indicate that this variant has a stamp
-	 * a card may have multiple stamps, example "Ethan's Typhlosion pre-release staff"
-	 * this was a pre-release card only given to staff and has both the set-logo and the staff stamp.
-	 * - 1st edition: a 1st edition card (mostly for the first series of the game)
-	 * - w-promo:
-	 * - pre-release:
-	 * - pokemon-center: a card that is stamped with the Pokémon Center logo
-	 * - set-promo: a card that is stamped with the set logo
-	 * - staff: a card that is stamped with the staff text
 	 */
 	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff'>
+
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
@@ -60,11 +54,13 @@ interface variants {
 	 * Card base version
 	 */
 	normal?: boolean
+
 	/**
 	 * Holo Reverse
 	 * (colored Background holographic)
 	 */
 	reverse?: boolean
+
 	/**
 	 * Holo Card
 	 * (illustration holographic)
@@ -77,7 +73,7 @@ interface variants {
 	firstEdition?: boolean
 
 	/**
-	 * Can be found in Jumob Format
+	 * Can be found in Jumbo Format
 	 */
 	jumbo?: boolean
 
@@ -90,7 +86,18 @@ interface variants {
 	 * Card has a W stamp
 	 */
 	wPromo?: true
+
+	/**
+	 * Poké Ball reverse holo pattern
+	 */
+	pokeball_reverse?: boolean  
+
+	/**
+	 * Master Ball reverse holo pattern
+	 */
+	masterball_reverse?: boolean
 }
+
 
 export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
 	'Fairy' | 'Fighting' | 'Fire' |

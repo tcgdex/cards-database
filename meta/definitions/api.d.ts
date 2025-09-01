@@ -54,7 +54,12 @@ interface variants {
 	reverse?: boolean;
 	holo?: boolean;
 	firstEdition?: boolean;
-	wPromo?: boolean
+	wPromo?: boolean;
+
+	/** Poké Ball reverse variant flag */
+	pokeball_reverse?: boolean;   
+	/** Master Ball reverse variant flag */
+	masterball_reverse?: boolean; 
 }
 
 interface variant_detailed {
@@ -62,6 +67,13 @@ interface variant_detailed {
 	size?: string
 	stamp?: Array<string>
 	foil?: string
+
+	// Reverse pattern subtype (e.g., 'pokeball', 'masterball')
+	/**
+	 * When type === 'reverse', a subtype can further specify the pattern.
+	 * Supported: 'pokeball', 'masterball' (extend as needed).
+	 */
+	subtype?: 'pokeball' | 'masterball' | string; // (kept open with | string to avoid breaking unknown subtypes)
 }
 
 export interface SetResume {
@@ -87,7 +99,7 @@ export interface SetResume {
 export interface Set extends SetResume {
 	serie: SerieResume;
 	tcgOnline?: string;
-	variants?: variants;
+	variants?: variants; // now includes new reverse flags via `variants` interface
 	releaseDate: string;
 
 	/**
@@ -188,6 +200,8 @@ export interface Card extends CardResume {
 	/**
 	 * Card Variants (Override Set Variants)
 	 * To be deprecated in V3
+	 *
+	 * now includes pokeball_reverse and masterball_reverse via `variants`
 	 */
 	variants?: variants;
 
@@ -198,7 +212,7 @@ export interface Card extends CardResume {
 	 * - size: the size of the variant (normal, jumbo, etc)
 	 * - stamp: the stamps of the variant (ex: 'Staff', 'Pre-release', etc)
 	 * - foil: the foil of the variant (ex: 'Holo', 'Reverse Holo', etc)
-
+	 * - subtype: reverse holo type (e.g., 'pokeball', 'masterball') to refine reverse patterns
 	 */
 	variants_detailed?: Array<variant_detailed>;
 
