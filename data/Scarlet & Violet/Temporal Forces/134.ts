@@ -19,6 +19,14 @@ const card: Card = {
 	hp: 80,
 	types: ["Colorless"],
 	stage: "Stage1",
+	evolveFrom: {
+		en: "Pidove",
+		fr: "Poichigeon",
+		es: "Pidove",
+		it: "Pidove",
+		pt: "Pidove",
+		de: "Dusselgurr"
+	},
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -57,6 +65,20 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+
 	retreat: 0,
 	regulationMark: "H",
 
@@ -66,6 +88,9 @@ const card: Card = {
 
 	illustrator: "Pani Kobayashi",
 
+	description: {
+		en: "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest."
+  },
 	thirdParty: {
 		cardmarket: 760764
 	}

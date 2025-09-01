@@ -45,12 +45,12 @@ function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>):
 	}
 }
 
-function variantsToVariantsDetailed(variants: CardSingle['variants']): Array<variant_detailed> {
+function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<variant_detailed> {
 	const result: Array<variant_detailed> = [];
 	const addVariant = (type: string, stamps: string[] = []) => {
 		result.push({
 			type,
-			size: 'standard',
+			size: translate('variantSize', "standard", lang) as any,
 			stamp: stamps.length > 0 ? stamps : undefined
 		});
 	};
@@ -105,13 +105,13 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 				type: translate('variantType', variant.type, lang) as any,
 				subtype: translate('variantSubtype', variant.subtype, lang) as any,
 				// only include size when it's not standard
-				size: variant.size && variant.size !== 'standard' ? translate('variantSize', variant.size, lang) as any : undefined,
+				size: variant.size && variant.size !== 'standard' ? translate('variantSize', variant.size, lang) as any : translate('variantSize', "standard", lang) as any,
 				stamp: variant.stamp ? variant.stamp.map((stamp) => {
 					return translate('variantStamp', stamp, lang)
 				}) : undefined,
 				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
 			}
-		}) : variantsToVariantsDetailed(card.variants),
+		}) : variantsToVariantsDetailed(card.variants,lang),
 
 		dexId: card.dexId,
 		hp: card.hp,
