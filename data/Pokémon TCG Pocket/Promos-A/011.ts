@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
-	rarity: "None",
+	rarity: "Three Diamond",
 	category: "Pokemon",
 	types: ["Colorless"],
 	stage: "Basic",

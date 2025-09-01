@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "MINAMINAMI Take",
-	rarity: "None",
+	rarity: "One Star",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],

@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Tomokazu Komiya",
-	rarity: "None",
+	rarity: "One Diamond",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fighting"],
