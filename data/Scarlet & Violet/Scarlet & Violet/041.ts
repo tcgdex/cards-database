@@ -75,7 +75,6 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: {
-		reverse: false,
 		normal: false
 	},
 
