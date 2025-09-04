@@ -110,6 +110,11 @@ if (cluster.isPrimary) {
 		res.redirect('https://www.tcgdex.dev/?ref=api.tcgdex.net')
 	})
 
+	// simple endpoint for monitoring
+	server.get('/ping', (_, res) => {
+		res.status(200).end()
+	})
+
 	server.use(express.static('./public'))
 
 	// Setup GraphQL
