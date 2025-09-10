@@ -1536,6 +1536,14 @@ components:
                         type: string
                         description: The foil of the variant (e.g., 'Pokeball', 'MasterBall', etc.)
                         nullable: true
+                    description:
+                        type: string
+                        description: Where it can be found or exclusivity details
+                        nullable: true
+                    set:
+                        type: string
+                        description: What set this variant belongs to (e.g., 'standard', 'parallel', 'other')
+                        nullable: true
         hp:
           type: [number, "null"]
           description: Hit Points (HP) of the Pokemon

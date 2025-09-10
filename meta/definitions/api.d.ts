@@ -62,6 +62,8 @@ interface variant_detailed {
 	size?: string
 	stamp?: Array<string>
 	foil?: string
+  description?: string
+  set?: string
 }
 
 export interface SetResume {
@@ -198,6 +200,8 @@ export interface Card extends CardResume {
 	 * - size: the size of the variant (normal, jumbo, etc)
 	 * - stamp: the stamps of the variant (ex: 'Staff', 'Pre-release', etc)
 	 * - foil: the foil of the variant (ex: 'Holo', 'Reverse Holo', etc)
+   * - description: Where it can be found or exclusivity details
+   * - set: As per the set's ETB booklet (standard, parallel, other)
 
 	 */
 	variants_detailed?: Array<variant_detailed>;

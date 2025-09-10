@@ -328,6 +328,10 @@ type DetailedVariants {
 	stamps: [String]
 	"""The type of foil"""
 	foil: String
+  """Where it can be found or exclusivity details"""
+  description: String
+  """As per the set's ETB booklet (standard, parallel, other)"""
+  set: String
 }
 """
 A booster pack for Pokémon TCG cards

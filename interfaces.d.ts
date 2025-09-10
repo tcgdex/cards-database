@@ -53,6 +53,18 @@ interface variant_detailed {
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
 	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold'
+  /**
+	 * Where it can be found or exclusivity details
+	 */
+	description?: string
+	/**
+	 * As per the set's ETB booklet
+	 * standard + parallel constitutes a "master set"
+	 * - standard: found as normal and holo in booster packs
+	 * - parallel: found as reverse holo in booster packs
+	 * - other: found in other products (battle decks, trick or trade, etc.)
+	 */
+	set?: 'standard' | 'parallel' | 'other'
 }
 
 interface variants {
