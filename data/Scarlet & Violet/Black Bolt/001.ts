@@ -56,7 +56,36 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 835903
-	}
+	},
+
+	variants: [{
+		type: "normal",
+		size: "standard",
+		description: "Found in Booster Packs",
+		set: "standard"
+	}, {
+		type: "reverse",
+		size: "standard",
+		description: "Found in Booster Packs",
+		set: "parallel"
+	}, {
+		type: "reverse",
+		size: "standard",
+		foil: "pokeball",
+		description: "Found in Booster Packs",
+		set: "parallel"
+	}, {
+		type: "reverse",
+		size: "standard",
+		foil: "masterball",
+		description: "Found in Booster Packs",
+		set: "parallel"
+	}, {
+		type: "holo",
+		size: "standard",
+		description: "Tinsel Holo found in Unova Poster Collection",
+		set: "other"
+	}]
 }
 
 export default card

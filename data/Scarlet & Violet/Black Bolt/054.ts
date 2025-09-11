@@ -50,7 +50,31 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 836017
-	}
+	},
+
+	variants: [{
+		type: "normal",
+		size: "standard",
+		description: "Found in Booster Packs",
+		set: "standard"
+	}, {
+		type: "reverse",
+		size: "standard",
+		description: "Found in Booster Packs",
+		set: "parallel"
+	}, {
+		type: "reverse",
+		size: "standard",
+		foil: "pokeball",
+		description: "Found in Booster Packs",
+		set: "parallel"
+	}, {
+		type: "reverse",
+		size: "standard",
+		foil: "masterball",
+		description: "Found in Booster Packs",
+		set: "parallel"
+	}]
 }
 
 export default card

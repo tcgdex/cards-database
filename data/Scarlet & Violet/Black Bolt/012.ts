@@ -52,7 +52,31 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 835926
-	}
+	},
+
+	variants: [{
+		type: "holo",
+		size: "standard",
+		description: "Found in Booster Packs",
+		set: "standard"
+	}, {
+		type: "reverse",
+		size: "standard",
+		description: "Found in Booster Packs",
+		set: "parallel"
+	}, {
+		type: "reverse",
+		size: "standard",
+		foil: "masterball",
+		description: "Found in Booster Packs",
+		set: "parallel"
+	}, {
+		type: "reverse",
+		size: "standard",
+		foil: "pokeball",
+		description: "Found in Victini Illustration Collection",
+		set: "other"
+	}]
 }
 
 export default card

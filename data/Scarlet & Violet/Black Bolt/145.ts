@@ -50,7 +50,14 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 836047
-	}
+	},
+
+	variants: [{
+		type: "holo",
+		size: "standard",
+		description: "Found in Booster Packs",
+		set: "standard"
+	}]
 }
 
 export default card
