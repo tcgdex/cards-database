@@ -81,7 +81,7 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
 
 	illustrator: "AKIRA EGAWA",
 
