@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Sulfura"
 	},
 
-	illustrator: "Toshinao Aoki",
+	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
@@ -53,7 +53,17 @@ const card: Card = {
 
 	description: {
 		fr: "Les flammes des ailes de ce Pokémon légendaire brûlent d'un feu si ardent qu'elles permettent de voir la nuit comme en plein jour."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			subtype: "aoki-error"
+		}
+	]
 }
 
 export default card

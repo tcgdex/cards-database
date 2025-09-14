@@ -57,10 +57,15 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: [
+		{
+			type: "normal",
+			stamp: ["pikachu-tail"]
+		},
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card

@@ -55,10 +55,11 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: [
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

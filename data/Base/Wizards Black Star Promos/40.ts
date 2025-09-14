@@ -5,25 +5,17 @@ const card: Card = {
 	name: {
 		en: "Pokémon Center",
 	},
-	illustrator: undefined,
+	illustrator: "\"Big Mama\" Tagawa",
 	rarity: "Common",
 	category: "Trainer",
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	variants: [
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card

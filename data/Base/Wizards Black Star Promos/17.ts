@@ -63,6 +63,17 @@ const card: Card = {
 		},
 	],
 
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "holo",
+			subtype: "missing-hp"
+		}
+	]
+
 
 
 
