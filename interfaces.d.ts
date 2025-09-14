@@ -32,7 +32,7 @@ interface variant_detailed {
 	 */
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
 		| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
-	| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost'
+	| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back'
 	/**
 	 * define the size of the card
 	 * - standard: the classic size of a card
@@ -52,7 +52,8 @@ interface variant_detailed {
 	 */
 	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
 		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
-		| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration'
+		| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato' |
+		'reed-weichler' | 'kevin-nguyen'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
