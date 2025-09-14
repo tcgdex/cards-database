@@ -32,6 +32,7 @@ interface variant_detailed {
 	 */
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
 		| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
+	| 'energy-symbol-error' | 'text-error'
 	/**
 	 * define the size of the card
 	 * - standard: the classic size of a card
