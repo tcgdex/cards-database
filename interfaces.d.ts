@@ -30,7 +30,7 @@ interface variant_detailed {
 	 * i.e Base Set had shadowless with and without a 1st edition stamp.
 	 * and the Unlimited version of the set had no shadow.
 	 */
-	subtype?: 'shadowless' | 'unlimited'
+	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright'
 	/**
 	 * define the size of the card
 	 * - standard: the classic size of a card

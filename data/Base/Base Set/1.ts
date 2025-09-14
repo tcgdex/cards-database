@@ -76,6 +76,26 @@ const card: Card = {
 
 	retreat: 3,
 
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st edition"]
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright",
+		}
+	],
+
 	description: {
 		fr: "Son super cerveau peut effectuer des opérations plus rapidement qu'un super ordinateur. Il a un Q.I. de 5000."
 	},

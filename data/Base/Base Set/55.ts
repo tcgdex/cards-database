@@ -54,7 +54,26 @@ const card: Card = {
 
 	description: {
 		fr: "Son ouïe très fine l'avertit du danger. Plus ses cornes sont grandes, plus son poison est mortel."
-	}
+	},
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st edition"]
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
 }
 
 export default card

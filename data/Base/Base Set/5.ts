@@ -80,6 +80,27 @@ const card: Card = {
 		fr: "Très recherché pour son aura mystique, il est très rare et ne vit que dans des endroits précis."
 	},
 
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st edition"]
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright",
+		}
+	],
+
+
 	thirdParty: {
 		cardmarket: 273700,
 		tcgplayer: 42393
