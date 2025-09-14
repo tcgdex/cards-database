@@ -43,7 +43,13 @@ const card: Card = {
 
 	description: {
 		fr: "À cause de son étrange forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card

@@ -31,6 +31,7 @@ interface variant_detailed {
 	 * and the Unlimited version of the set had no shadow.
 	 */
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
+		| 'missing-hp' | 'aoki-error'
 	/**
 	 * define the size of the card
 	 * - standard: the classic size of a card
@@ -49,11 +50,13 @@ interface variant_detailed {
 	 * - staff: a card that is stamped with the staff text
 	 */
 	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
-		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error'>
+		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
+		| 'pokemon-4-ever' | 'pokemon-center-ny'
+	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
-	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold'
+	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos'
 }
 
 interface variants {

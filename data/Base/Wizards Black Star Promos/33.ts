@@ -78,7 +78,13 @@ const card: Card = {
 
 	description: {
 		fr: "Il n'utilise pas ses ailes pour voler. Elles lui servent à ajuster la température de son corps en les faisant battre rapidement."
-	}
+	},
+
+	variants: [
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

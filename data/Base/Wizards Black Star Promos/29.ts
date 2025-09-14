@@ -52,7 +52,13 @@ const card: Card = {
 
 	description: {
 		fr: "L'extrémité de sa queue, qui contient une huile plus légère que l'eau, lui permet de nager sans couler."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card
