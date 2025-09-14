@@ -81,6 +81,27 @@ const card: Card = {
 		fr: "Sa queue est une arme redoutable, il s'en sert pour attraper sa proie et lui broyer les os."
 	},
 
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st edition"]
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright",
+		}
+	],
+
+
 	thirdParty: {
 		cardmarket: 273706,
 		tcgplayer: 42351

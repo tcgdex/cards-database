@@ -70,6 +70,26 @@ const card: Card = {
 		},
 	],
 
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st edition"]
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
+
 	description: {
 		fr: "Vivant dans les centrales, il provoque des pannes de courant en s'aventurant en ville."
 	},
