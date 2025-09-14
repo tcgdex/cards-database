@@ -31,7 +31,7 @@ interface variant_detailed {
 	 * and the Unlimited version of the set had no shadow.
 	 */
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
-		| 'missing-hp' | 'aoki-error'
+		| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error'
 	/**
 	 * define the size of the card
 	 * - standard: the classic size of a card
@@ -56,7 +56,7 @@ interface variant_detailed {
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
-	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos'
+	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight'
 }
 
 interface variants {
