@@ -30,7 +30,7 @@ interface variant_detailed {
 	 * i.e Base Set had shadowless with and without a 1st edition stamp.
 	 * and the Unlimited version of the set had no shadow.
 	 */
-	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright'
+	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
 	/**
 	 * define the size of the card
 	 * - standard: the classic size of a card
@@ -48,7 +48,8 @@ interface variant_detailed {
 	 * - set-promo: a card that is stamped with the set logo
 	 * - staff: a card that is stamped with the staff text
 	 */
-	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff'>
+	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
+		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error'>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
