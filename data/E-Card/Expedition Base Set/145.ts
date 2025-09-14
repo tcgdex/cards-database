@@ -20,7 +20,20 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 275020
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["chris-fulop"]
+		}
+	]
 }
 
 export default card
