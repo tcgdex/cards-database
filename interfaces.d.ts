@@ -53,7 +53,7 @@ interface variant_detailed {
 	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
 		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
 		| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato' |
-		'reed-weichler' | 'kevin-nguyen' | 'professor-program'
+		'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
