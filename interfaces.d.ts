@@ -31,7 +31,7 @@ interface variant_detailed {
 	 * and the Unlimited version of the set had no shadow.
 	 */
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
-		| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error'
+		| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
 	/**
 	 * define the size of the card
 	 * - standard: the classic size of a card
