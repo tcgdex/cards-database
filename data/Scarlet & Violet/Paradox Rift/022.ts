@@ -67,7 +67,7 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
 
 	illustrator: "Nisota Niso",
 
