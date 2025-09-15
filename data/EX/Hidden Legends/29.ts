@@ -79,7 +79,21 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 276102,
 		tcgplayer: 83782
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		},
+		{
+			type: "holo",
+			stamp: ["gym-challenge"]
+		}
+	]
 }
 
 export default card
