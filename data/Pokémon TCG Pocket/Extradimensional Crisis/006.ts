@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Buzzwole ex"
+		en: "Buzzwole ex",
+		fr: "Mouscoto-ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -18,21 +19,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Punch"
+			en: "Punch",
+			fr: "Koud'Poing"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Big Beat"
+			en: "Big Beat",
+			fr: "Breakbeat"
 		},
 
 		damage: 120,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Big Beat."
+			en: "During your next turn, this Pokémon can't use Big Beat.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Breakbeat."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Petilil"
+		en: "Petilil",
+		fr: "Chlorobule"
 	},
 
 	illustrator: "sui",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "The leaves on its head grow right back even if\nthey fall out. These bitter leaves refresh those\nwho eat them."
+		en: "The leaves on its head grow right back even if\nthey fall out. These bitter leaves refresh those\nwho eat them.",
+		fr: "Les feuilles sur sa tête repoussent très vite. Elles sont fort amères, mais elles revigorent les corps les plus éreintés."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Seed Bomb"
+			en: "Seed Bomb",
+			fr: "Canon Graine"
 		},
 
 		damage: 20,

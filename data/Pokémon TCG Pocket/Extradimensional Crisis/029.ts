@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Medicham"
+		en: "Medicham",
+		fr: "Charmina"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Through yoga training, it gained the psychic\npower to predict its foe's next move."
+		en: "Through yoga training, it gained the psychic\npower to predict its foe's next move.",
+		fr: "Ses pouvoirs psychiques, renforcés par la pratique du yoga, lui permettent de prédire les mouvements de ses adversaires."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "High Jump Kick"
+			en: "High Jump Kick",
+			fr: "Pied Voltige"
 		},
 
 		damage: 50,

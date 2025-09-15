@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Claydol"
+		en: "Claydol",
+		fr: "Kaorine"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -19,7 +20,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This mysterious Pokémon started life as an ancient\nclay figurine made over 20,000 years ago."
+		en: "This mysterious Pokémon started life as an ancient\nclay figurine made over 20,000 years ago.",
+		fr: "Ce Pokémon mystérieux serait né d'une figurine d'argile vieille de près de 20 000 ans."
 	},
 
 	stage: "Stage1",
@@ -28,17 +30,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Heal Block"
+			en: "Heal Block",
+			fr: "Anti-Soin"
 		},
 
 		effect: {
-			en: "Pokémon (both yours and your opponent's) can't be healed."
+			en: "Pokémon (both yours and your opponent's) can't be healed.",
+			fr: "Les Pokémon (les vôtres et ceux de votre adversaire) ne peuvent pas être soignés."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Power Beam"
+			en: "Power Beam",
+			fr: "Puissant Rayon"
 		},
 
 		damage: 50,

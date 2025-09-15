@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trevenant"
+		en: "Trevenant",
+		fr: "Desséliande"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "People fear it due to a belief that it devours any\nwho try to cut down trees in its forest, but to the\nPokémon it shares its woods with, it's kind."
+		en: "People fear it due to a belief that it devours any\nwho try to cut down trees in its forest, but to the\nPokémon it shares its woods with, it's kind.",
+		fr: "Les bûcherons qui viennent couper des arbres en forêt ont peur d'être dévorés par Desséliande. Il est gentil avec les Pokémon habitant les bois."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Wrack Down"
+			en: "Wrack Down",
+			fr: "Réduire en Poussière"
 		},
 
 		damage: 70,
