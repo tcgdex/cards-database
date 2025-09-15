@@ -31,7 +31,16 @@ const card: Card = {
 		},
 
 		cost: ["Colorless"]
-	}]
+	}],
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card
