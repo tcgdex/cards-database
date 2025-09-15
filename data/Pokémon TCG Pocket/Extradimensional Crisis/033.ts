@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lycanroc ex"
+		en: "Lycanroc ex",
+		fr: "Lougaroc-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -23,14 +24,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Lycanfang"
+			en: "Lycanfang",
+			fr: "Lougacroc"
 		},
 
 		damage: 130,
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "Discard a {F} Energy from this Pokémon."
+			en: "Discard a {F} Energy from this Pokémon.",
+			fr: "Défaussez une Énergie {F} de ce Pokémon."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zebstrika"
+		en: "Zebstrika",
+		fr: "Zéblitz"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When this ill-tempered Pokémon runs wild, it\nshoots lightning from its mane in all directions."
+		en: "When this ill-tempered Pokémon runs wild, it\nshoots lightning from its mane in all directions.",
+		fr: "De caractère violent, il envoie avec sa crinière des arcs électriques de tous les côtés lorsqu'il se sent provoqué."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Head Bolt"
+			en: "Head Bolt",
+			fr: "Éclair Frontal"
 		},
 
 		damage: 70,

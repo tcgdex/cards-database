@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgeotto"
+		en: "Pidgeotto",
+		fr: "Roucoups"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -18,14 +19,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The claws on its feet are well developed.\nIt can carry prey such as an Exeggcute\nto its nest over 60 miles away."
+		en: "The claws on its feet are well developed.\nIt can carry prey such as an Exeggcute\nto its nest over 60 miles away.",
+		fr: "Grâce à ses griffes très puissantes, il est capable de transporter des Noeunoeuf vers un nid éloigné de plus de 100 km."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Gust"
+			en: "Gust",
+			fr: "Tornade"
 		},
 
 		damage: 30,

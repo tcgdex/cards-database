@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Celebi ex"
+		en: "Celebi ex",
+		fr: "Celebi-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,14 +18,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Powerful Bloom"
+			en: "Powerful Bloom",
+			fr: "Éclosion Éclatante"
 		},
 
 		damage: 50,
 		cost: ["Grass", "Colorless"],
 
 		effect: {
-			en: "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage for each heads."
+			en: "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage for each heads.",
+			fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 50 dégâts pour chaque côté face."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oranguru"
+		en: "Oranguru",
+		fr: "Gouroutan"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It normally spends its time meditating in the\ntreetops. It throws Poké Balls and gives other\nPokémon orders as it pleases."
+		en: "It normally spends its time meditating in the\ntreetops. It throws Poké Balls and gives other\nPokémon orders as it pleases.",
+		fr: "Il médite généralement en haut des arbres. Il se permet de lancer des Poké Balls sur les autres Pokémon et leur donne des ordres."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Hammer In"
+			en: "Hammer In",
+			fr: "Enfoncement"
 		},
 
 		damage: 70,

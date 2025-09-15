@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Phantump"
+		en: "Phantump",
+		fr: "Brocélôme"
 	},
 
 	illustrator: "sui",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "With a voice like a human child's, it cries out to\nlure adults deep into the forest, getting them lost\namong the trees."
+		en: "With a voice like a human child's, it cries out to\nlure adults deep into the forest, getting them lost\namong the trees.",
+		fr: "Il imite des cris d'enfants pour pousser les adultes à venir se perdre au plus profond de la forêt."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Spooky Shot"
+			en: "Spooky Shot",
+			fr: "Tir Effrayant"
 		},
 
 		damage: 30,

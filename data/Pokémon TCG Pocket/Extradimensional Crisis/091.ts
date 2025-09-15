@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Froakie"
+		en: "Froakie",
+		fr: "Grenousse"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -14,14 +15,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It secretes flexible bubbles from its chest and back.\nThe bubbles reduce the damage it would otherwise\ntake when attacked."
+		en: "It secretes flexible bubbles from its chest and back.\nThe bubbles reduce the damage it would otherwise\ntake when attacked.",
+		fr: "Sa poitrine et son dos sécrètent une mousse qui lui permet de subir moins de dégâts en amortissant le choc des attaques."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flop"
+			en: "Flop",
+			fr: "Flop"
 		},
 
 		damage: 10,
