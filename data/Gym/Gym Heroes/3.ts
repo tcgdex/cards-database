@@ -80,7 +80,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["1st edition"]
+			stamp: ["1st-edition"]
 		}
 	]
 }
