@@ -20,7 +20,49 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 276378,
 		tcgplayer: 88767
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["curran-hill"]
+		},
+		{
+			type: "normal",
+			stamp: ["takashi-yoneda"]
+		},
+		{
+			type: "normal",
+			stamp: ["michael-gonzalez"]
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-maron"]
+		},
+		{
+			type: "normal",
+			stamp: ["hiroki-yano"]
+		},
+		{
+			type: "normal",
+			stamp: ["jimmy-ballard"]
+		},
+		{
+			type: "normal",
+			stamp: ["jason-klaczynski"]
+		},
+		{
+			type: "normal",
+			stamp: ["miska-saari"]
+		}
+	]
 }
 
 export default card
