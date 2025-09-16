@@ -79,7 +79,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st edition"],
+			stamp: ["1st-edition"],
 		},
 		{
 			type: "normal",

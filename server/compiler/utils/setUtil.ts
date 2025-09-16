@@ -91,7 +91,7 @@ function getVariantCountForType(card: Card, type: 'normal' | 'reverse' | 'holo' 
 
 	if (type === 'firstEdition') {
 		return card.variants.reduce((count, variant) =>
-			count + (variant.stamp?.some((stamp) => stamp === '1st edition') ? 1 : 0), 0);
+			count + (variant.stamp?.some((stamp) => stamp === '1st-edition') ? 1 : 0), 0);
 	}
 
 	return card.variants.reduce((count, variant) => count + (variant.type === type ? 1 : 0), 0);

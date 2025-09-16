@@ -92,7 +92,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["1st edition"]
+			stamp: ["1st-edition"]
 		},
 		{
 			type: "holo",
@@ -101,7 +101,7 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "no-holo-error",
-			stamp: ["1st edition"]
+			stamp: ["1st-edition"]
 		}
 	]
 }

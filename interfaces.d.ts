@@ -27,7 +27,7 @@ interface variant_detailed {
 
 	/**
 	 * Some older sets had specific subtypes for the cards
-	 * i.e Base Set had shadowless with and without a 1st edition stamp.
+	 * i.e Base Set had shadowless with and without a 1st-edition stamp.
 	 * and the Unlimited version of the set had no shadow.
 	 */
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
@@ -43,14 +43,14 @@ interface variant_detailed {
 	 * indicate that this variant has a stamp
 	 * a card may have multiple stamps, example "Ethan's Typhlosion pre-release staff"
 	 * this was a pre-release card only given to staff and has both the set-logo and the staff stamp.
-	 * - 1st edition: a 1st edition card (mostly for the first series of the game)
+	 * - 1st-edition: a 1st-edition card (mostly for the first series of the game)
 	 * - w-promo:
 	 * - pre-release:
 	 * - pokemon-center: a card that is stamped with the Pokémon Center logo
 	 * - set-promo: a card that is stamped with the set logo
 	 * - staff: a card that is stamped with the staff text
 	 */
-	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
+	stamp?: Array<'1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
 		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
 		| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato' |
 		'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill'
