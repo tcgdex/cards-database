@@ -163,7 +163,12 @@
 		"pokemon-day": "pokemon-day",
 		"regional-championships": "regional-championships",
 		"stadium-challenge": "stadium-challenge",
-		"10th-anniversary": "10th-anniversary"
+		"10th-anniversary": "10th-anniversary",
+		"wizard-world-philadelphia" : "wizard-world-philadelphia",
+		"wizard-world-chicago" : "wizard-world-chicago",
+		"comic-con" : "comic-con",
+		"nintendo-world": "nintendo-world",
+		"gen-con": "gen-con"
 	},
 	"variantSubtype": {
 		"shadowless": "sans ombre",
