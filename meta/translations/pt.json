@@ -157,7 +157,13 @@
 		"state-championships": "Campeonatos Estaduais",
 		"national-championships": "Campeonatos Nacionais",
 		"gym-challenge": "Desafio de Ginásio",
-		"city-championships": "Campeonatos Municipais"
+		"city-championships": "Campeonatos Municipais",
+		"jeremy-scharff-kim": "jeremy scharff kim",
+		"destiny-deoxys": "Destiny Deoxys",
+		"pokemon-day": "pokemon-day",
+		"regional-championships": "regional-championships",
+		"stadium-challenge": "stadium-challenge",
+		"10th-anniversary": "10th-anniversary"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",

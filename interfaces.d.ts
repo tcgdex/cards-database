@@ -55,7 +55,8 @@ interface variant_detailed {
 		| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato' |
 		'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill'
 		| 'jeremy-maron' | 'jimmy-ballard' | 'miska-saari' | 'hiroki-yano' | 'jason-klaczynski' | 'state-championships'
-		| 'national-championships' | 'gym-challenge' | 'city-championships'
+		| 'national-championships' | 'gym-challenge' | 'city-championships' | 'jeremy-scharff-kim' | 'destiny-deoxys'
+		| 'pokemon-day' | 'regional-championships' | 'stadium-challenge' | '10th-anniversary'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
