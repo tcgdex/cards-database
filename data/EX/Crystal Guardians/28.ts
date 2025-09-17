@@ -94,7 +94,25 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277109,
 		tcgplayer: 90318
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["regional-championships"]
+		}
+	]
 }
 
 export default card
