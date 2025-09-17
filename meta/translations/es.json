@@ -169,7 +169,10 @@
 		"wizard-world-chicago" : "wizard-world-chicago",
 		"comic-con" : "comic-con",
 		"nintendo-world": "nintendo-world",
-		"gen-con": "gen-con"
+		"gen-con": "gen-con",
+		"akira-miyazaki": "akira-miyazaki",
+		"tom-roos": "tom-roos",
+		"pokemon-rocks-america": "pokemon-rocks-america"
 	},
 	"variantSubtype": {
 		"shadowless": "sin sombra",
