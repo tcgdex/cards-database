@@ -59,6 +59,7 @@ interface variant_detailed {
 		| 'pokemon-day' | 'regional-championships' | 'stadium-challenge' | '10th-anniversary' | 'wizard-world-philadelphia'
 		| 'wizard-world-chicago' | 'comic-con' | 'nintendo-world' | 'gen-con' | 'akira-miyazaki' | 'tom-roos'
 		| 'pokemon-rocks-america' | 'jun-hasebe' | 'origins' | 'games-expo' | 'kraze-club' | 'dylan-lefavour'
+		| 'tristan-robinson' | 'paul-atanassov'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
