@@ -111,7 +111,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 276755,
 		tcgplayer: 89566
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["hiroki-yano"]
+		}
+	]
 }
 
 export default card
