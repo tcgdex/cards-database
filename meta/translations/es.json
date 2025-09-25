@@ -91,15 +91,15 @@
 		"Tool": "Herramienta"
 	},
 	"types": {
-		"Colorless": "Incolora",
-		"Darkness": "Oscura",
+		"Colorless": "Incoloro",
+		"Darkness": "Oscuro",
 		"Dragon": "Dragón",
 		"Fairy": "Hada",
 		"Fighting": "Lucha",
-		"Fire": "Guego",
+		"Fire": "Fuego",
 		"Grass": "Planta",
 		"Lightning": "Rayo",
-		"Metal": "Metálica",
+		"Metal": "Metálico",
 		"Psychic": "Psíquico",
 		"Water": "Agua"
 	},
