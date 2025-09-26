@@ -79,6 +79,7 @@ export interface SetResume {
 		 */
 		official: number;
 	};
+	abbreviation: { official: string, localized: string };
 }
 
 /**
@@ -137,7 +138,6 @@ export interface Set extends SetResume {
 		firstEd?: number;
 	};
 	cards: Array<CardResume>;
-	abbreviation: { official: string, localized: string };
 	thirdParty?: {
 		cardmarket?: number
 		tcgplayer?: number
