@@ -147,6 +147,9 @@
 				},
 				"Uncommon": {
 					"type": "string"
+				},
+				"Mega Hyper Rare": {
+					"type": "string"
 				}
 			},
 			"required": [
@@ -176,7 +179,8 @@
 				"Shiny Ultra Rare",
 				"Special illustration rare",
 				"Ultra Rare",
-				"Uncommon"
+				"Uncommon",
+				"Mega Hyper Rare"
 			],
 			"type": "object"
 		},
