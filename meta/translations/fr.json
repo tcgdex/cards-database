@@ -129,6 +129,8 @@
 	},
 	"variantSubtype": {
 		"shadowless": "sans ombre",
-		"unlimited": "illimité"
+		"unlimited": "illimité",
+		"pokeball": "Pokéball",
+		"masterball": "Masterball"
 	}
 }

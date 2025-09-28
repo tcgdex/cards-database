@@ -359,6 +359,21 @@
 				"Water"
 			],
 			"type": "object"
+		},
+		"variantSubtype": {
+			"properties": {
+				"pokeball": {
+					"type": "string"
+				},
+				"masterball": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"pokeball",
+				"masterball"
+			],
+			"type": "object"
 		}
 	},
 	"required": [
@@ -369,7 +384,8 @@
 		"stage",
 		"suffix",
 		"trainerType",
-		"types"
+		"types",
+		"variantSubtype"
 	],
 	"type": "object"
 }
