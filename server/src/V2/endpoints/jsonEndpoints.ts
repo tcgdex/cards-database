@@ -139,8 +139,7 @@ server
 						'set.name': tmp
 					}]
 				}
-				result = (await findCards(lang, query))
-					.map(toBrief)
+				result = (await findCards(lang, query, 'brief'))
 				break
 			}
 
@@ -251,7 +250,7 @@ server
 				result = {
 					name: parseInt(id, 10),
 					// @ts-expect-error current behavior is normal
-					cards: (await findCards(lang, { dexId: { $eq: parseInt(id, 10) }}))
+					cards: (await findCards(lang, { dexId: { $eq: parseInt(id, 10) } }))
 						.map(toBrief)
 				}
 				break

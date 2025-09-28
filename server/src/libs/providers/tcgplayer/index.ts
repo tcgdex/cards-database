@@ -19,7 +19,7 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 	return source.updateTCGPlayerDatas()
 }
 
-export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number } }): Promise<any> {
+export async function getTCGPlayerPrice(card: { thirdParty?: { tcgplayer?: number } }): Promise<any> {
 	return source.getTCGPlayerPrice(card)
 }
 
