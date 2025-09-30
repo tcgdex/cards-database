@@ -74,7 +74,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277839,
 		tcgplayer: 85051
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["michael-pramawat"]
+		}
+	]
 }
 
 export default card
