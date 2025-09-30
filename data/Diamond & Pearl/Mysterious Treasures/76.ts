@@ -79,7 +79,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277705,
 		tcgplayer: 84175
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["paul-atanassov"],
+		}
+	]
 }
 
 export default card
