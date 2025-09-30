@@ -75,7 +75,24 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278240,
 		tcgplayer: 84935
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["city-championships"]
+		},
+		{
+			type: "normal",
+			stamp: ["city-championships","staff"]
+		}
+	]
 }
 
 export default card
