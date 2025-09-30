@@ -79,7 +79,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277915,
 		tcgplayer: 83770
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["stephen-silvestro"]
+		}
+	]
 }
 
 export default card
