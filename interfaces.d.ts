@@ -61,7 +61,7 @@ interface variant_detailed {
 		| 'pokemon-rocks-america' | 'jun-hasebe' | 'origins' | 'games-expo' | 'kraze-club' | 'dylan-lefavour'
 		| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'worlds-2007' | 'finalist'
 		| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two' | 'worlds-2008' | 'worlds-2009'
-		| 'countdown-calendar'
+		| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
