@@ -85,7 +85,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277503,
 		tcgplayer: 85197
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["akira-miyazaki"]
+		}
+	]
 }
 
 export default card
