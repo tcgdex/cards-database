@@ -47,7 +47,13 @@ const card: Card = {
 		},
 
 		cost: ["Water"]
-	}]
+	}],
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

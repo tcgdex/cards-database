@@ -57,7 +57,23 @@ const card: Card = {
 
 	description: {
 		fr: "On dit que son œuf a éclos dans le néant et qu'il est à l'origine de la création du monde."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		}
+	],
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

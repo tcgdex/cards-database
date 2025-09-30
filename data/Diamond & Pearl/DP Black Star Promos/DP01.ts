@@ -68,7 +68,19 @@ const card: Card = {
 
 	description: {
 		fr: "La coquille sur son dos est faite de terre. Elle durcit lorsqu'il s'abreuve. Il vit le long des lacs."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	],
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

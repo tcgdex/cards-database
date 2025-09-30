@@ -86,7 +86,19 @@ const card: Card = {
 
 	description: {
 		fr: "Il a évolué suite à son exposition à un champ magnétique spécial. Ses 3 unités génèrent du magnétisme."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	],
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

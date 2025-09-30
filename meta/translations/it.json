@@ -122,7 +122,9 @@
 		"cosmos": "Cosmo",
 		"galaxy": "Galassia",
 		"starlight": "Luce Stellare",
-		"energy": "Energia"
+		"energy": "Energia",
+		"cracked-ice": "cracked-ice",
+		"mirror": "mirror"
 	},
 	"variantStamp": {
 		"1st-edition": "1a Edizione",
@@ -179,7 +181,18 @@
 		"kraze-club": "kraze-club",
 		"dylan-lefavour": "dylan-lefavour",
 		"tristan-robinson": "tristan-robinson",
-		"paul-atanassov": "paul-atanassov"
+		"paul-atanassov": "paul-atanassov",
+		"david-cohen": "david-cohen",
+		"tsubasa-nakamura": "tsubasa-nakamura",
+		"worlds-2007": "worlds-2007",
+		"finalist": "finalist",
+		"quarter-finalist": "quarter-finalist",
+		"semi-finalist": "semi-finalist",
+		"top-sixteen": "top-sixteen",
+		"top-thirty-two": "top-thirty-two",
+		"worlds-2008": "worlds-2008",
+		"worlds-2009": "worlds-2009",
+		"countdown-calendar": "countdown-calendar"
 	},
 	"variantSubtype": {
 		"shadowless": "senza ombra",

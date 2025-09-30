@@ -87,9 +87,17 @@ const card: Card = {
 		},
 	],
 
+	variants: [
+		{
+			type: "holo",
+		}
+	],
 
-
-
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card
