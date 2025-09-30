@@ -59,10 +59,22 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["mychael-bryan"]
+		},
+		{
+			type: "normal",
+			stamp: ["yuka-furusawa"]
+		}
+	]
 }
 
 export default card
