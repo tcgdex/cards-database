@@ -62,12 +62,13 @@ interface variant_detailed {
 		| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'worlds-2007' | 'finalist'
 		| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two' | 'worlds-2008' | 'worlds-2009'
 		| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting' | 'mychael-bryan' | "stephen-silvestro"
+		| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
 	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
-	| 'mirror'
+	| 'mirror' | 'league'
 }
 
 interface variants {
