@@ -78,7 +78,24 @@ const card: Card = {
 
 	description: {
 		fr: "Il vit en forêt avec ses pairs. Il accumule l'électricité dans les poches de ses joues."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "holo",
+			stamp: ["countdown-calendar"]
+		}
+	],
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

@@ -59,10 +59,22 @@ const card: Card = {
 		},
 	],
 
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "holo",
+			stamp: ["tsubasa-nakamura"]
+		}
+	],
 
-
-
-
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card
