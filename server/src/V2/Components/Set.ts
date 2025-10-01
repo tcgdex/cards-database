@@ -5,6 +5,9 @@ import { objectKeys, objectOmit } from '@dzeio/object-util'
 import dataTMP from '../../../generated/sets.json'
 import { CompiledSet } from '../../../../scripts/compiler/interfaces'
 import { Version } from '../../interfaces'
+import { loadCard } from './Card'
+import { Set } from '../../api'
+import { loadSerie } from './Serie'
 
 const data = dataTMP as Array<CompiledSet>
 
@@ -20,35 +23,35 @@ data.forEach((it) => {
 	})
 })
 
-type MappedSet = any // (typeof en)[number]
-
 export async function getAllSets(lang: SupportedLanguages, version: Version = 'full'): Promise<Array<SDKSet>> {
-	return Promise.all((langLists[lang] as Array<MappedSet>).map((it) => transformSet(it, lang, version as 'full')))
+	return Promise.all((langLists[lang] as Array<CompiledSet>).map((it) => transformSet(it, lang, version as 'full')))
 }
 
 
-async function transformSet(set: MappedSet, lang: SupportedLanguages, version?: 'full'): Promise<SDKSet>
-async function transformSet(set: MappedSet, lang: SupportedLanguages, version: 'brief'): Promise<SetResume>
-async function transformSet(set: MappedSet, lang: SupportedLanguages, version: Version = 'full'): Promise<SDKSet | SetResume> {
-	if (version === 'brief') {
-		return {
-			id: set.id,
-			name: set.name[lang]!,
-			logo: set.logo[lang]!,
-			symbol: set.symbol,
-			cardCount: {
-				total: set.cardCount.total,
-				official: set.cardCount.official
-			}
+async function transformSet(set: CompiledSet, lang: SupportedLanguages, version?: 'full'): Promise<SDKSet>
+async function transformSet(set: CompiledSet, lang: SupportedLanguages, version: 'brief'): Promise<SetResume>
+async function transformSet(set: CompiledSet, lang: SupportedLanguages, version: Version = 'full'): Promise<SDKSet | SetResume> {
+	const brief = {
+		id: set.id,
+		name: set.name[lang]!,
+		logo: set.logo?.[lang],
+		symbol: set.symbol,
+		cardCount: {
+			total: set.cards.length,
+			official: set.cardCount.official
 		}
+	}
+	if (version === 'brief') {
+		return brief
 	}
 	return {
 		...objectOmit(set, 'thirdParty'),
-		// pricing: {
-		// 	cardmarket: await getCardMarketPrice(card),
-		// 	tcgplayer: await getTCGPlayerPrice(card)
-		// }
-	}
+		...brief,
+		releaseDate: set.releaseDate[lang]!,
+		// @ts-expect-error tmp handle of error :D
+		cards: await Promise.all(set.cards.map((it) => loadCard(lang, it, 'brief'))),
+		serie: (await loadSerie(set.serie, lang, 'brief'))!
+	} satisfies Set
 }
 
 export async function findSets(lang: SupportedLanguages, query: Query<SDKSet>, version: Version = 'full') {
@@ -63,10 +66,13 @@ export async function findOneSet(lang: SupportedLanguages, query: Query<SDKSet>)
 	return res[0]
 }
 
-export async function loadSet(id: string, lang: SupportedLanguages, version: 'full'): Promise<SDKSet>
-export async function loadSet(id: string, lang: SupportedLanguages, version: 'brief'): Promise<SetResume>
-export async function loadSet(id: string, lang: SupportedLanguages, version: Version = 'full'): Promise<SDKSet | SetResume> {
-	const tmp = langLists[lang].find((it) => it.id === id)
+export async function loadSet(id: string, lang: SupportedLanguages, version: 'full'): Promise<SDKSet | null>
+export async function loadSet(id: string, lang: SupportedLanguages, version: 'brief'): Promise<SetResume | null>
+export async function loadSet(id: string, lang: SupportedLanguages, version: Version = 'full'): Promise<SDKSet | SetResume | null> {
+	const tmp = langLists[lang].find((it) => it.id.toLowerCase() === id.toLowerCase())
+	if (!tmp) {
+		return null
+	}
 	return transformSet(tmp, lang, version as 'full')
 }
 

@@ -7,7 +7,7 @@ import type { CompiledCard } from '../../../../scripts/compiler/interfaces'
 import { getCardMarketPrice } from '../../libs/providers/cardmarket'
 import { getTCGPlayerPrice } from '../../libs/providers/tcgplayer'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
-import { findOneSet, loadSet } from './Set'
+import { loadSet } from './Set'
 import { Version } from '../../interfaces'
 
 const data = dataTMP as Array<CompiledCard>
@@ -28,7 +28,8 @@ data.forEach((it) => {
 const cache = new Cache()
 
 export async function getAllCards(lang: SupportedLanguages, version: Version = 'full'): Promise<Array<Card>> {
-	return Promise.all((langLists[lang]).map((it) => loadCard(lang, it.id, version as 'full'))) as Promise<Array<Card>>
+	return (await Promise.all((langLists[lang]).map((it) => loadCard(lang, it.id, version as 'full'))))
+		.filter((it) => !!it)
 }
 
 export function getCompiledCard(lang: SupportedLanguages, id: string): any {
@@ -42,9 +43,11 @@ export function getCompiledCard(lang: SupportedLanguages, id: string): any {
  * @param lang
  * @param id
  */
-async function loadCard(lang: SupportedLanguages, id: string, version?: 'full'): Promise<Card | null>
-async function loadCard(lang: SupportedLanguages, id: string, version: 'brief'): Promise<CardResume | null>
-async function loadCard(lang: SupportedLanguages, id: string, version: 'full' | 'brief' = 'full'): Promise<Card | CardResume | null> {
+export async function loadCard(lang: SupportedLanguages, id: string, version?: 'full'): Promise<Card | null>
+export async function loadCard(lang: SupportedLanguages, id: string, version: 'brief'): Promise<CardResume | null>
+export async function loadCard(lang: SupportedLanguages, id: string, version: 'full' | 'brief' = 'full'): Promise<Card | CardResume | null> {
+	// fucking important to allow users to fetch using IDs in any casing
+	id = id.toLowerCase()
 	if (version === 'brief') {
 		const card = list[id]
 		if (!card) {
@@ -158,7 +161,7 @@ export async function getCardById(lang: SupportedLanguages, id: string) {
 	return loadCard(lang, id)
 }
 
-export async function findCards(lang: SupportedLanguages, query: Query<Card>, version: Version = 'full') {
+export async function findCards(lang: SupportedLanguages, query: Query<Card>) {
 	return executeQuery(await getAllCards(lang), query).data
 }
 

@@ -33,16 +33,21 @@ for (const file of files) {
 		const serie: DBSerie = await extractCached(file)
 		// const localId = file.slice(file.lastIndexOf('/') + 1, file.lastIndexOf('.'))
 		// const serie: DBSerie = await extractCached(setPath)
-		const sets = globSync(`{data,data-asia}/{${serie.name.en},${serie.id}}/*.ts`)
+		const setsList = globSync(`{data,data-asia}/{${serie.name.en},${serie.id}}/*.ts`)
 
 		const langs = objectKeys(serie.name)
 
+		const sets = await Promise.all(
+			setsList.map((setPath) => extractCached(setPath) as Promise<DBSet>)
+		)
+		const firstSet = sets.reduce((c, p) => c.releaseDate > p.releaseDate ? c : p)
+
 		const res: CompiledSerie = {
 			...serie,
-			sets: await Promise.all(sets.map(async (setPath) => {
-				const set: DBSet = await extractCached(setPath)
-				return set.id
-			})),
+			sets: sets.map((it) => it.id),
+			firstSet: firstSet.id,
+			lastSet: sets.reduce((c, p) => c.releaseDate > p.releaseDate ? c : p).id,
+			releaseDate: firstSet.releaseDate,
 			energies: serie.energies?.map((it) => translate('types', it, langs)),
 			// releaseDate: normalizeLanguages(serie.releaseDate, langs),
 			updated: await getLastEdit(file)

@@ -15,8 +15,8 @@ import { cardIsLegal } from './libs/legalUtils'
 await getHashs()
 
 //
-const files = globSync('data/*/*/*.ts')
-// const files = globSync('{data,data-asia}/*/*/*.ts')
+// const files = globSync('data/*/*/*.ts')
+const files = globSync('{data,data-asia}/*/*/*.ts')
 
 let counter = 0
 let lastPrint = 0
@@ -36,7 +36,7 @@ for (const file of files) {
 	await queue.add((async () => {
 		const setPath = file.slice(0, file.lastIndexOf('/')) + '.ts'
 		const card: DBCard = await extractCached(file)
-		const localId = file.slice(file.lastIndexOf('/') + 1, file.lastIndexOf('.'))
+		const localId = decodeURIComponent(file.slice(file.lastIndexOf('/') + 1, file.lastIndexOf('.')))
 		const set: DBSet = await extractCached(setPath)
 		const seriePath = setPath.slice(0, setPath.lastIndexOf('/')) + '.ts'
 		const serie: DBSerie = await extractCached(seriePath)
@@ -88,9 +88,14 @@ for (const file of files) {
 		objectClean(res)
 
 		out.push(res)
-	})().finally(() => {
-		void addToCounter()
-	}))
+	})()
+		.catch(() => {
+			console.warn("error processing card :( skipping...")
+			void addToCounter()
+		})
+		.finally(() => {
+			void addToCounter()
+		}))
 }
 await queue.waitEnd()
 
