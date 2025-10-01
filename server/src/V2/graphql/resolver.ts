@@ -29,6 +29,11 @@ const middleware = (fn: (lang: SupportedLanguages, query: Query<object>) => any)
 	// get the locale directive
 	const lang = getLang(e)
 
+	if (typeof data.id !== 'undefined') {
+		data.filters ??= {}
+		data.filters['id'] = `eq:${data.id}`
+	}
+
 	const query = recordToQuery(data.filters ?? data)
 
 	// Deprecated code handling

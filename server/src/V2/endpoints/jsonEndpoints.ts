@@ -1,4 +1,4 @@
-import { objectKeys } from '@dzeio/object-util'
+import { objectKeys, objectRemap } from '@dzeio/object-util'
 import type { Card as SDKCard } from '@tcgdex/sdk'
 import apicache from 'apicache'
 import express, { type Request } from 'express'
@@ -42,7 +42,7 @@ const endpointToField: Record<string, keyof SDKCard> = {
 
 server
 	// Midleware that handle caching only in production and on GET requests
-	.use(apicache.middleware('1 day', (req: CustomRequest, res: Response) => !req.DO_NOT_CACHE && res.status < 400 && process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
+	.use(apicache.middleware('1 hour', (req: CustomRequest, res: Response) => !req.DO_NOT_CACHE && res.status < 400 && process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
 
 	// .get('/cache/performance', (req, res) => {
 	// 	res.json(apicache.getPerformance())
@@ -139,7 +139,8 @@ server
 						'set.name': tmp
 					}]
 				}
-				result = (await findCards(lang, query, 'brief'))
+				result = (await findCards(lang, query))
+					.map(toBrief)
 				break
 			}
 
@@ -226,6 +227,7 @@ server
 		switch (endpoint) {
 			case 'cards':
 				// console.time('card')
+				console.log('card', id)
 				result = await getCardById(lang, id)
 				if (!result) {
 					result = await findOneCard(lang, { name: id })

@@ -45,6 +45,9 @@ export type CompiledSet = Override<DBSet, {
 
 export type CompiledSerie = Override<DBSerie, {
 	updated: string
+	firstSet: string
+	lastSet: string
+	releaseDate: DBSet['releaseDate']
 	energies?: Array<Languages>
 	sets: Array<string>
 }>
