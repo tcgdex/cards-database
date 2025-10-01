@@ -6,7 +6,7 @@ const serie: Serie = {
 		de: "Mega-Entwicklung",
 		en: "Mega Evolution",
 		es: "Megaevolución",
-		"ex-mx": "Megaevolución",
+		"es-mx": "Megaevolución",
 		fr: "Méga-Évolution",
 		it: "Megaevoluzione",
 		pt: "Megaevolução"
