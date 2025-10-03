@@ -64,6 +64,22 @@ const card: Card = {
 
 	retreat: 1,
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["david-cohen"]
+		},
+		{
+			type: "normal",
+			stamp: ["jason-martinez"]
+		}
+	]
 
 
 }
