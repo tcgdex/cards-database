@@ -67,8 +67,22 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+		},
+		{
+			type: "reverse",
+			foil: "league",
+		},
+	]
 }
 
 export default card

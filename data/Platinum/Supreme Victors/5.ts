@@ -95,7 +95,28 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 278696
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice"
+		},
+		{
+			type: "holo",
+			stamp: ["national-championships"]
+		},
+		{
+			type: "holo",
+			stamp: ["national-championships","staff"]
+		}
+	]
 }
 
 export default card
