@@ -29,7 +29,14 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "H",
-	illustrator: "Sanosuke Sakuma"
+	illustrator: "Sanosuke Sakuma",
+
+	variants: {
+		firstEdition: false,
+		holo: false,
+		normal: true,
+		reverse: true
+	}
 }
 
 export default card

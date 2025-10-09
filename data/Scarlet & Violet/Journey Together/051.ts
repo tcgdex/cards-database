@@ -53,6 +53,13 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817203
+	},
+
+	variants: {
+		firstEdition: false,
+		holo: true,
+		normal: false,
+		reverse: false
 	}
 }
 

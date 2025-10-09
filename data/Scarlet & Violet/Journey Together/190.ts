@@ -32,6 +32,15 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817311
+	},
+	energyType: "Normal",
+	regulationMark: "I",
+
+	variants: {
+		firstEdition: false,
+		holo: true,
+		normal: false,
+		reverse: false
 	}
 }
 
