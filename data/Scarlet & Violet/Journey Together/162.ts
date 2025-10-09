@@ -55,12 +55,11 @@ const card: Card = {
 		cardmarket: 817193
 	},
 
-	variants: {
-		firstEdition: false,
-		holo: true,
-		normal: false,
-		reverse: false
-	}
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

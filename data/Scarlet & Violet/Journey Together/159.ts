@@ -33,15 +33,15 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 817311
 	},
-	energyType: "Normal",
-	regulationMark: "I",
 
-	variants: {
-		firstEdition: false,
-		holo: false,
-		normal: true,
-		reverse: true
-	}
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

@@ -69,12 +69,15 @@ const card: Card = {
 		cardmarket: 817268
 	},
 
-	variants: {
-		firstEdition: false,
-		holo: true,
-		normal: false,
-		reverse: false
-	}
+	variants: [
+		{
+			type: 'holo'
+		},
+		{
+			type: 'holo',
+			stamp: ["set-logo"]
+		},
+	]
 }
 
 export default card
