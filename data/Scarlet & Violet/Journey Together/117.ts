@@ -90,6 +90,14 @@ const card: Card = {
 			type: 'holo',
 			stamp: ["set-logo"]
 		},
+		{
+			type: 'holo',
+			stamp: ["gamestop"]
+		},
+		{
+			type: 'holo',
+			stamp: ["eb-games"]
+		},
 	]
 }
 

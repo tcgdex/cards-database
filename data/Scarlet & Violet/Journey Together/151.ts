@@ -42,6 +42,10 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
+		{
+			type: 'holo',
+			foil: 'cosmos'
+		},
 	]
 }
 

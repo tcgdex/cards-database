@@ -78,6 +78,10 @@ const card: Card = {
 		},
 		{
 			type: 'holo',
+			foil: 'cosmos'
+		},
+		{
+			type: 'holo',
 			stamp: ["set-logo"]
 		},
 	]

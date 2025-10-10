@@ -74,6 +74,10 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
+		{
+			type: 'holo',
+			stamp: ["snowflake"]
+		},
 	]
 }
 
