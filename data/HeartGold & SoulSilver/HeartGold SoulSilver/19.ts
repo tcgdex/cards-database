@@ -81,12 +81,14 @@ const card: Card = {
 		en: "If it eats the plant stalk it carries as emergency rations, it runs off in search of a new stalk."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 }
 
 export default card

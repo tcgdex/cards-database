@@ -77,12 +77,14 @@ const card: Card = {
 		en: "When it walks around on the ground, it coats its body with a slimy, poisonous film."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],,
 
 	thirdParty: {
 		cardmarket: 279060,

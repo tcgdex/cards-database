@@ -81,12 +81,14 @@ const card: Card = {
 		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],,
 
 	thirdParty: {
 		cardmarket: 279007,

@@ -59,12 +59,14 @@ const card: Card = {
 		en: "It hates light and shock. If attacked, it inflates its body to build up its counterstrike."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278985,

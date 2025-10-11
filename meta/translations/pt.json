@@ -125,7 +125,8 @@
 		"cracked-ice": "cracked-ice",
 		"mirror": "mirror",
 		"league": "league",
-		"player-reward": "player-reward"
+		"player-reward": "player-reward",
+		"professor-program": "professor-program"
 	},
 	"variantStamp": {
 		"1st-edition": "1ª Edição",
@@ -203,7 +204,13 @@
 		"yuta-komatsuda": "yuta-komatsuda",
 		"origins-2008": "origins-2008",
 		"platinum": "platinum",
-		"worlds-2010": "worlds-2010"
+		"worlds-2010": "worlds-2010",
+		"ross-cawthorn": "ross-cawthorn",
+		"gustavo-wada": "gustavo-wada",
+		"snow-flake": "snow-flake",
+		"christopher-kan": "christopher-kan",
+		"player-rewards-program": "player-rewards-program",
+		"igor-costa": "igor-costa"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",

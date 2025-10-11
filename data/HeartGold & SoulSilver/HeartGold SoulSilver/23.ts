@@ -81,12 +81,14 @@ const card: Card = {
 		en: "Always holding a pendulum that it swings at a steady rhythm, it causes drowsiness in anyone nearby."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278995,

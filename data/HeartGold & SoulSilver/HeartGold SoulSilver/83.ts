@@ -70,12 +70,14 @@ const card: Card = {
 		en: "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279055,

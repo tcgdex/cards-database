@@ -62,12 +62,14 @@ const card: Card = {
 		en: "Its lips are the most sensitive part of its body. It always uses its lips first to examine things."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279002,

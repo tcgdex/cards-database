@@ -73,12 +73,14 @@ const card: Card = {
 		en: "The berries it stores in its vase-like shell decompose and become a gooey liquid."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278983,

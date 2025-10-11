@@ -88,12 +88,14 @@ const card: Card = {
 		en: "Water-repellent powder on its wings enables it to collect honey, even in the heaviest of rains."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278988,

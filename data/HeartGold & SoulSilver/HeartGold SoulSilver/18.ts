@@ -79,12 +79,14 @@ const card: Card = {
 		en: "If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278990,

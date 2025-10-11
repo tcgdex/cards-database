@@ -59,12 +59,14 @@ const card: Card = {
 		en: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279022,

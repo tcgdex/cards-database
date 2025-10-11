@@ -63,12 +63,19 @@ interface variant_detailed {
 		| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two' | 'worlds-2008' | 'worlds-2009'
 		| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting' | 'mychael-bryan' | "stephen-silvestro"
 		| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
+		| 'ross-cawthorn' | 'gustavo-wada' | 'snow-flake' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
 	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
-	| 'mirror' | 'league' | 'player-reward'
+	| 'mirror' | 'league' | 'player-reward' | 'professor-program'
+
+	/**
+	 * list of languages for which this variant is available
+	 * if not set, the variant is available in all languages
+	 */
+	languages?: SupportedLanguages[]
 }
 
 interface variants {

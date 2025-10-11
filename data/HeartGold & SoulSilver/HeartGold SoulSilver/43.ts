@@ -77,12 +77,14 @@ const card: Card = {
 		en: "This powerful Pokémon thrusts its prized horn under its enemies’ bellies, then lifts and throws them."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279015,
