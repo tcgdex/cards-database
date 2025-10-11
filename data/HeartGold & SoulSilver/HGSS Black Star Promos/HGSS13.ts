@@ -44,11 +44,11 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 }
 
 export default card
