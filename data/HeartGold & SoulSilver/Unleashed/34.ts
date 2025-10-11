@@ -81,12 +81,14 @@ const card: Card = {
 		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279190,

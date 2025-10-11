@@ -60,12 +60,14 @@ const card: Card = {
 		en: "It twists and squirms through the ground. The thunderous roar of its tunneling echoes a long way."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279212,

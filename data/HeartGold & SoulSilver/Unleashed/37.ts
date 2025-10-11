@@ -77,12 +77,23 @@ const card: Card = {
 		en: "The skin on most of its body is moist. However, the skin on its belly spiral feels smooth."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			stamp: ["staff"],
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279193,

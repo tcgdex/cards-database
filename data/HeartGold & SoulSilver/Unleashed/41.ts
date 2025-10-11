@@ -73,12 +73,14 @@ const card: Card = {
 		en: "They fight each other by locking horns. The herd’s protector takes pride in its battle-scarred horns."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279197,

@@ -81,12 +81,14 @@ const card: Card = {
 		en: "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279163,

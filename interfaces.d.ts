@@ -64,6 +64,7 @@ interface variant_detailed {
 		| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting' | 'mychael-bryan' | "stephen-silvestro"
 		| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
 		| 'ross-cawthorn' | 'gustavo-wada' | 'snow-flake' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
+		| 'zachary-bokhari'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card

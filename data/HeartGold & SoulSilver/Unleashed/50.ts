@@ -81,12 +81,14 @@ const card: Card = {
 		en: "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279206,
