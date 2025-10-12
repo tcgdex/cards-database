@@ -88,12 +88,18 @@ const card: Card = {
 		en: "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279258,

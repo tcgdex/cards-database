@@ -77,12 +77,14 @@ const card: Card = {
 		en: "It loves to bite and yank people’s hair from behind without warning, just to see their shocked reactions."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279310,

@@ -81,12 +81,14 @@ const card: Card = {
 		en: "It raises grubs in the holes in its body. It secretes pheromones to control Combee."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279276,

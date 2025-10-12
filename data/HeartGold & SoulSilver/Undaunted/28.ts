@@ -85,12 +85,14 @@ const card: Card = {
 		en: "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279281,

@@ -88,12 +88,14 @@ const card: Card = {
 		en: "It folds its four legs when flying. Its four brains are said to be superior to a supercomputer."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279271,

@@ -90,12 +90,14 @@ const card: Card = {
 		en: "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279256,

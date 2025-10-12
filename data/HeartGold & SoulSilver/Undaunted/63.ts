@@ -75,12 +75,14 @@ const card: Card = {
 		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn’t bother it."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279315,

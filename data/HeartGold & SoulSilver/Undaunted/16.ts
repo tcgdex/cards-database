@@ -90,12 +90,14 @@ const card: Card = {
 		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279268,
