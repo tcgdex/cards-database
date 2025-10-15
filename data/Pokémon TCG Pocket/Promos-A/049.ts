@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "okayamatakatoshi",
-	rarity: "None",
+	rarity: "Three Diamond",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],
