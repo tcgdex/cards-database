@@ -47,8 +47,10 @@ interface variant_detailed {
 	 * - pokemon-center: a card that is stamped with the Pokémon Center logo
 	 * - set-promo: a card that is stamped with the set logo
 	 * - staff: a card that is stamped with the staff text
+	 * - snowflake: a card that is stamped with a snowflake, available in the yearly advent calendar
+	 * - trick-or-trade: a card that is stamped with a pikachu-pumpkin, available in the yearly halloween/trick-or-trade boosters
 	 */
-	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff'>
+	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'snowflake' | 'trick-or-trade'>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
@@ -186,6 +188,7 @@ export interface Card {
 			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
 			// Black White rare
 			| 'Black White Rare'
+			| 'Mega Hyper Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 
