@@ -1,0 +1,56 @@
+import { Card } from "../../../interfaces";
+import Set from "../SV11W";
+
+const card: Card = {
+	set: Set,
+	name: {
+		ja: "ゾロアーク",
+	},
+
+	illustrator: "Iwamoto05",
+	category: "Pokemon",
+	hp: 120,
+	types: ["Darkness"],
+
+	description: {
+		ja: "相手を 化かす ことで 群れの 安全を 守ってきた ポケモン。 仲間同士の 結束が 固い。",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: { ja: "マインドジャック" },
+			damage: "30x",
+			cost: ["Darkness"],
+			effect: { ja: "相手のベンチポケモンの数×30ダメージ。" },
+		},
+		{
+			name: { ja: "イカサマ" },
+			cost: ["Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンが持つワザを1つ選び、このワザとして使う。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Grass", value: "x2" }],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false,
+	},
+
+	evolveFrom: {
+		ja: "ゾロア",
+	},
+
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "Illustration rare",
+	dexId: [571],
+};
+
+export default card;
