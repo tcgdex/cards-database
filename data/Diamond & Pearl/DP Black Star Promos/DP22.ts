@@ -69,7 +69,19 @@ const card: Card = {
 
 	description: {
 		fr: "Il imite ses ennemis. Une fois imités, ils ne peuvent plus quitter ce Pokémon des yeux."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	],
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

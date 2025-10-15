@@ -83,12 +83,14 @@ const card: Card = {
 		en: "Vicious in nature, it drives Pidgey from their nests and scavenges any leftovers it can find."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279321,

@@ -29,7 +29,16 @@ const card: Card = {
 		},
 
 		cost: ["Colorless", "Colorless"]
-	}]
+	}],
+
+	variants: [
+		{
+			type: "normal",
+		}, {
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

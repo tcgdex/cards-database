@@ -65,12 +65,14 @@ const card: Card = {
 		en: "This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279314,

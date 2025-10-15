@@ -82,12 +82,14 @@ const card: Card = {
 		en: "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279260,

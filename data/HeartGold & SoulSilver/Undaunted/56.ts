@@ -83,12 +83,14 @@ const card: Card = {
 		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279309,

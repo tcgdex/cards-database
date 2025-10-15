@@ -22,7 +22,33 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277280,
 		tcgplayer: 86148
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["jun-hasebe"]
+		},
+		{
+			type: "normal",
+			stamp: ["tom-roos"]
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-scharff-kim"]
+		},
+		{
+			type: "normal",
+			stamp: ["akira-miyazaki"]
+		}
+	]
 }
 
 export default card

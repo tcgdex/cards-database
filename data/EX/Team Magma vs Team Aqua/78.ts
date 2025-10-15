@@ -22,7 +22,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 276055,
 		tcgplayer: 89771
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["curran-hill"]
+		}
+	]
 }
 
 export default card

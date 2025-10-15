@@ -75,7 +75,25 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277123,
 		tcgplayer: 90487
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["state-championships"]
+		},
+		{
+			type: "normal",
+			stamp: ["state-championships","staff"]
+		}
+	]
 }
 
 export default card

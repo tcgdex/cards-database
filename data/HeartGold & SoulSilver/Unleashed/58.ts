@@ -71,12 +71,23 @@ const card: Card = {
 		en: "The direction of its belly spiral differs by area. The equator is thought to have an effect on this."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			stamp: ["staff"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279214,

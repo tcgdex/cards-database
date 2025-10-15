@@ -72,12 +72,23 @@ const card: Card = {
 		en: "Its big, developed fins move rapidly, allowing it to swim backward while still facing forward."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["gustavo-wada"],
+		},
+		{
+			type: "normal",
+			stamp: ["snow-flake"],
+			languages: ["de"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279205,

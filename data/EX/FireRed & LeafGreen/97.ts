@@ -21,7 +21,25 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 276273
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		},
+		{
+			type: "normal",
+			stamp: ["curran-hill"]
+		},
+		{
+			type: "normal",
+			stamp: ["michael-gonzalez"]
+		},
+	]
 }
 
 export default card

@@ -84,12 +84,14 @@ const card: Card = {
 		en: "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279286,

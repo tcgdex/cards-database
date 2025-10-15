@@ -88,12 +88,14 @@ const card: Card = {
 		en: "The spot patterns on its back grow larger or smaller depending on the number of stars in the night sky."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278997,

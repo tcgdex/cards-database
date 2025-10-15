@@ -70,12 +70,14 @@ const card: Card = {
 		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279159,

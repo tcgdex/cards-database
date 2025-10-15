@@ -80,7 +80,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 278745
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

@@ -75,12 +75,23 @@ const card: Card = {
 		en: "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["comic-con"],
+		},
+		{
+			type: "normal",
+			stamp: ["snow-flake"],
+			languages: ["de"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279199,

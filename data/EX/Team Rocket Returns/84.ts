@@ -19,7 +19,29 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 276376
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["takashi-yoneda"]
+		},
+		{
+			type: "normal",
+			stamp: ["miska-saari"]
+		},
+		{
+			type: "normal",
+			stamp: ["jimmy-ballard"]
+		}
+	]
 }
 
 export default card

@@ -71,12 +71,14 @@ const card: Card = {
 		en: "It remembers every dream it eats. It rarely eats the dreams of adults because children’s are much tastier."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279034,

@@ -31,7 +31,21 @@ const card: Card = {
 		},
 
 		damage: 50
-	}]
+	}],
+
+	variants: [
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"]
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"],
+			size: "jumbo"
+		}
+	]
 }
 
 export default card

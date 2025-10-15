@@ -75,6 +75,27 @@ const card: Card = {
 		fr: "Ses coups de poing sont si puissants qu'ils font voler ses adversaires jusqu'à l'horizon."
 	},
 
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright",
+		}
+	],
+
+
 	thirdParty: {
 		cardmarket: 273703
 	}

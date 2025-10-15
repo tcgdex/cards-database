@@ -88,12 +88,21 @@ const card: Card = {
 		en: "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279263,

@@ -84,12 +84,14 @@ const card: Card = {
 		en: "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279003,

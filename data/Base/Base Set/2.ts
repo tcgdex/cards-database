@@ -80,6 +80,27 @@ const card: Card = {
 
 	retreat: 3,
 
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright",
+		}
+	],
+
+
 	thirdParty: {
 		cardmarket: 273697,
 		tcgplayer: 42360

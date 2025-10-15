@@ -71,12 +71,14 @@ const card: Card = {
 		en: "You find abandoned coal mines full of them. They dig tirelessly in search of coal."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279181,

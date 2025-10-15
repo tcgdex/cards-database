@@ -82,12 +82,14 @@ const card: Card = {
 		en: "During times of strong sunlight, its bud blooms, its petals open fully, and it becomes very active."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279184,

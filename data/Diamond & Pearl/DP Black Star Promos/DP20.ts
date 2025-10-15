@@ -78,7 +78,19 @@ const card: Card = {
 
 	description: {
 		fr: "Il projette des boules de feu de 2000°C à bout de bras. Il vit dans les cratères volcaniques."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	],
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

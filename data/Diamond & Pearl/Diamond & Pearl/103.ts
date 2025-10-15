@@ -75,7 +75,37 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277602,
 		tcgplayer: 90071
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			size: "jumbo",
+			stamp: ["25th-celebration"]
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["pokemon-day"]
+		},
+		{
+			type: "normal",
+			stamp: ["distributor-meeting"]
+		}
+	]
 }
 
 export default card

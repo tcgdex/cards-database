@@ -72,12 +72,19 @@ const card: Card = {
 		en: "As its body grows large, large mushrooms named tochukaso start sprouting out of its back."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp : ["snow-flake"],
+			languages: ["de"]
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279020,

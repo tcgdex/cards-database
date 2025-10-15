@@ -77,12 +77,14 @@ const card: Card = {
 		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278977,

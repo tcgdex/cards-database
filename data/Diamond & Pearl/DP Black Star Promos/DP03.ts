@@ -57,7 +57,24 @@ const card: Card = {
 		},
 
 		damage: "20+"
-	}]
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "holo",
+			stamp: ["dylan-lefavour"]
+		}
+	],
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

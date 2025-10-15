@@ -64,7 +64,13 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon violent, jamais vu auparavant, est le fruit de nombreuses années d'expériences génétiques."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		}
+	]
 }
 
 export default card

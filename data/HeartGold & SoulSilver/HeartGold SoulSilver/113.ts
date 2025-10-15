@@ -31,12 +31,11 @@ const card: Card = {
 		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	attacks: [{
 		name: {

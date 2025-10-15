@@ -29,7 +29,33 @@ const card: Card = {
 		},
 
 		cost: ["Colorless"]
-	}]
+	}],
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			foil: "energy",
+		},
+		{
+			type: "normal",
+			stamp: ["reed-weichler"]
+		},
+		{
+			type: "normal",
+			stamp: ["takashi-yoneda"]
+		},
+		{
+			type: "normal",
+			stamp: ["michael-gonzalez"]
+		},
+		{
+			type: "normal",
+			stamp: ["jimmy-ballard"]
+		}
+	]
 }
 
 export default card

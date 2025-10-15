@@ -77,12 +77,19 @@ const card: Card = {
 		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["snow-flake"],
+			languages: ["de"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279211,

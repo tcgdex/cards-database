@@ -21,12 +21,18 @@ const card: Card = {
 
 	energyType: "Special",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279333,

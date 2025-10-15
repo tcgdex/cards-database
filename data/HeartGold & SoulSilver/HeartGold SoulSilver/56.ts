@@ -83,12 +83,14 @@ const card: Card = {
 		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a Body Slam."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],,
 
 	thirdParty: {
 		cardmarket: 279028,

@@ -57,8 +57,11 @@ const card: Card = {
 		},
 	],
 
-
-
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 
 }
 

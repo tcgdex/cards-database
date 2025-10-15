@@ -72,7 +72,26 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 276243,
 		tcgplayer: 87026
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		},
+		{
+			type: "normal",
+			subtype: "rarity-error"
+		},
+		{
+			type: "holo",
+			foil: "energy",
+			subtype: "rarity-error"
+		},
+	]
 }
 
 export default card

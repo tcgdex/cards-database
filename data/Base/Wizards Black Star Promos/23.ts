@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Électhor"
 	},
 
-	illustrator: "Toshinao Aoki",
+	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
@@ -53,7 +53,17 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon légendaire est connu pour se montrer partout où il y a un orage."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			subtype: "aoki-error"
+		}
+	]
 }
 
 export default card

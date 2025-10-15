@@ -66,12 +66,14 @@ const card: Card = {
 		en: "It flies straight at its target’s face then clamps down on the startled victim to inject poison."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279302,

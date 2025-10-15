@@ -86,7 +86,25 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 276902,
 		tcgplayer: 89427
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-scharff-kim"]
+		},
+		{
+			type: "normal",
+			stamp: ["miska-saari"]
+		}
+	]
 }
 
 export default card

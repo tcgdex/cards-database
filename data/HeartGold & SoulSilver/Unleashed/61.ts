@@ -58,12 +58,14 @@ const card: Card = {
 		en: "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279217,

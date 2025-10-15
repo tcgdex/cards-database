@@ -57,12 +57,14 @@ const card: Card = {
 		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279323,

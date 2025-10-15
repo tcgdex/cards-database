@@ -22,7 +22,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 276057,
 		tcgplayer: 89812
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["tsuguyoshi-yamato"]
+		}
+	]
 }
 
 export default card

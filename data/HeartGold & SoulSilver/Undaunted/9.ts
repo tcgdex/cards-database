@@ -89,12 +89,17 @@ const card: Card = {
 		en: "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279262,

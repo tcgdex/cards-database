@@ -62,12 +62,14 @@ const card: Card = {
 		en: "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279016,

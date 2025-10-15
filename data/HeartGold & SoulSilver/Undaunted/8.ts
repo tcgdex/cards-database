@@ -75,12 +75,18 @@ const card: Card = {
 		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["igor-costa"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279261,

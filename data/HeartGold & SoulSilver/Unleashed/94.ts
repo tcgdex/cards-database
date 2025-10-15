@@ -28,12 +28,15 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 0,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["ross-cawthorn"],
+		},
+	],
 
 	attacks: [{
 		name: {

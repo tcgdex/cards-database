@@ -84,6 +84,26 @@ const card: Card = {
 		},
 	],
 
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
+
 	description: {
 		fr: "Il vole à très grande vitesse. Il se bat avec les dards empoisonnés de ses bras."
 	},

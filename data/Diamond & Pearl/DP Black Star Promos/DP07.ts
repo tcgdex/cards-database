@@ -72,7 +72,19 @@ const card: Card = {
 
 	description: {
 		fr: "Il vivait dans la jungle il y a environ 100 millions d'années. Son crâne est dur comme du fer."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	],
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

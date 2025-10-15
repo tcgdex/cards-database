@@ -81,12 +81,14 @@ const card: Card = {
 		en: "Naturally dull to begin with, it lost its ability to feel pain due to Shellder’s seeping poison."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279291,

@@ -70,12 +70,14 @@ const card: Card = {
 		en: "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279186,

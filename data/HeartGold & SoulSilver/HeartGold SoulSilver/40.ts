@@ -92,12 +92,18 @@ const card: Card = {
 		en: "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279012,

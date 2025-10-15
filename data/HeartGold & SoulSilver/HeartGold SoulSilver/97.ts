@@ -21,12 +21,46 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "reverse",
+			stamp: ["player-rewards-program"]
+		},
+		{
+			type: "normal",
+			stamp : ["mychael-bryan"],
+		},
+		{
+			type: "normal",
+			stamp : ["yuta-komatsuda"],
+		},
+		{
+			type: "normal",
+			stamp : ["yuka-furusawa"],
+		},
+		{
+			type: "normal",
+			stamp : ["gustavo-wada"],
+		},
+		{
+			type: "normal",
+			stamp : ["christopher-kan"],
+		},
+		{
+			type: "normal",
+			stamp : ["ross-cawthorn"],
+		},
+		{
+			type: "normal",
+			stamp : ["david-cohen"],
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279069

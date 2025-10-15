@@ -76,12 +76,14 @@ const card: Card = {
 		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279172,

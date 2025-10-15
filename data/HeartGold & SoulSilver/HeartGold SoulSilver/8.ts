@@ -88,12 +88,17 @@ const card: Card = {
 		en: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278980,

@@ -62,10 +62,19 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-maron"]
+		}
+	]
 }
 
 export default card

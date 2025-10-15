@@ -79,12 +79,14 @@ const card: Card = {
 		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279274,

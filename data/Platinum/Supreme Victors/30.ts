@@ -69,6 +69,15 @@ const card: Card = {
 
 	retreat: 2,
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	]
+
 
 
 }

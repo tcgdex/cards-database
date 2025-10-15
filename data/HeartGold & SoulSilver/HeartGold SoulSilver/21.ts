@@ -80,12 +80,14 @@ const card: Card = {
 		en: "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278993,

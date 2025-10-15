@@ -78,12 +78,11 @@ const card: Card = {
 	retreat: 2,
 	suffix: "Prime",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279174,

@@ -68,7 +68,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 276230,
 		tcgplayer: 84029
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

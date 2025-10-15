@@ -73,7 +73,21 @@ const card: Card = {
 
 	description: {
 		fr: "Ce Pokémon peut voler malgré sa taille imposante. On le dit capable de faire le tour de la Terre en 16 heures à peine."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st-movie-inverted"]
+		},
+		{
+			type: "normal",
+			stamp: ["1st-movie"]
+		}
+	]
 }
 
 export default card

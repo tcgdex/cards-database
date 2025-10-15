@@ -21,12 +21,26 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "reverse",
+			stamp: ["player-rewards-program"]
+		},
+		{
+			type: "normal",
+			stamp : ["yuta-komatsuda"],
+		},
+		{
+			type: "normal",
+			stamp : ["yuka-furusawa"],
+		},
+	],
 
 	hp: 0,
 

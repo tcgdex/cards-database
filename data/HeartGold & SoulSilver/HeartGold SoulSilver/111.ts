@@ -31,12 +31,11 @@ const card: Card = {
 		en: "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	attacks: [{
 		name: {

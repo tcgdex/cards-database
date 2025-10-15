@@ -79,12 +79,14 @@ const card: Card = {
 		en: "By alternately raising and lowering its two heads, it balances itself to be more stable while running."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279298,

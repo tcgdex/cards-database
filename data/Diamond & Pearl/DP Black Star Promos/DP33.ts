@@ -83,7 +83,19 @@ const card: Card = {
 
 	description: {
 		fr: "L'antenne sur sa tête capte les ondes radio du monde des esprits lui ordonnant d'y porter les gens."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	],
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

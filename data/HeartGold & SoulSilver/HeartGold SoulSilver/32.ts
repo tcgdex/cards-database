@@ -79,12 +79,22 @@ const card: Card = {
 		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279004,

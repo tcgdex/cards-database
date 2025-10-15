@@ -83,7 +83,21 @@ const card: Card = {
 
 	thirdParty: {
 		tcgplayer: 84811
-	}
+	},
+
+	variants:[
+		{
+			type:"holo"
+		},
+		{
+			type:"holo",
+			stamp: ["tsubasa-nakamura"]
+		},
+		{
+			type:"holo",
+			stamp: ["yuta-komatsuda"]
+		}
+	]
 }
 
 export default card

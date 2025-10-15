@@ -23,7 +23,52 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278663,
 		tcgplayer: 83763
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+		{
+			type: "normal",
+			stamp: ["tsubasa-nakamura"]
+		},
+		{
+			type: "normal",
+			stamp: ["stephen-silvestro"]
+		},
+		{
+			type: "normal",
+			stamp: ["jason-martinez"]
+		},
+		{
+			type: "normal",
+			stamp: ["david-cohen"]
+		},
+		{
+			type: "normal",
+			stamp: ["michael-pramawat"]
+		},
+		{
+			type: "normal",
+			stamp: ["mychael-bryan"]
+		},
+		{
+			type: "normal",
+			stamp: ["yuta-komatsuda"]
+		},
+		{
+			type: "normal",
+			stamp: ["yuka-furusawa"]
+		}
+	]
 }
 
 export default card
