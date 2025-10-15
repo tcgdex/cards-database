@@ -70,5 +70,4 @@ const DIST_FOLDER = './generated'
 	for await (const file of await fs.readdir('../meta/definitions')) {
 		await fs.copyFile('../meta/definitions/' + file, './public/v2/' + file)
 	}
-
 })()
