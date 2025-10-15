@@ -20,6 +20,14 @@ const set: Set = {
 		official: 72
 	},
 
+	boosters: {
+		shining: {
+			name: {
+				en: "Shining"
+			}
+		}
+	}
+
 	releaseDate: "2025-03-27"
 }
 
