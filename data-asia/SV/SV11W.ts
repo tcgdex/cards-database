@@ -1,20 +1,20 @@
-import { Set } from '../../interfaces'
-import serie from '../SV'
+import { Set } from "../../interfaces";
+import serie from "../SV";
 
 const set: Set = {
-	id: 'SV11W',
+	id: "SV11W",
 	name: {
-		ja: 'ホワイトフレア'
+		ja: "ホワイトフレア",
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 86
+		official: 174,
 	},
 	releaseDate: {
-		ja: '2025-06-06'
-	}
-}
+		ja: "2025-06-06",
+	},
+};
 
-export default set
+export default set;
