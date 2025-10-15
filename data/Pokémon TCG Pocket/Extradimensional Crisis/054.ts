@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lillipup"
+		en: "Lillipup",
+		fr: "Ponchiot"
 	},
 
 	illustrator: "Mizue",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "This Pokémon is courageous but also cautious.\nIt uses the soft fur covering its face to collect\ninformation about its surroundings."
+		en: "This Pokémon is courageous but also cautious.\nIt uses the soft fur covering its face to collect\ninformation about its surroundings.",
+		fr: "Ce Pokémon est courageux, mais prudent. Les poils doux qui recouvrent son visage lui permettent de sonder les alentours."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 
 		damage: 20,

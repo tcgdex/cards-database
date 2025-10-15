@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clefable"
+		en: "Clefable",
+		fr: "Mélodelfe"
 	},
 
 	illustrator: "miki kudo",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A timid fairy Pokémon that is rarely seen, it will\nrun and hide the moment it senses people."
+		en: "A timid fairy Pokémon that is rarely seen, it will\nrun and hide the moment it senses people.",
+		fr: "Ce Pokémon s'apparente à une petite fée qui n'apparaît que rarement devant les humains. Il court se cacher dès qu'il ressent une présence."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Moon Kick"
+			en: "Moon Kick",
+			fr: "Coup d'Pied Lunaire"
 		},
 
 		damage: 60,

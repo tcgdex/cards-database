@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lilligant"
+		en: "Lilligant",
+		fr: "Fragilady"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The fragrance of the garland on its head has\na relaxing effect, but taking care of it is very\ndifficult."
+		en: "The fragrance of the garland on its head has\na relaxing effect, but taking care of it is very\ndifficult.",
+		fr: "La fleur sur sa tête émet un parfum qui apaise instantanément, mais elle est très difficile à entretenir."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Cut"
+			en: "Cut",
+			fr: "Coupe"
 		},
 
 		damage: 60,

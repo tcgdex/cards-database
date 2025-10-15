@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine ex"
+		en: "Arcanine ex",
+		fr: "Arcanin-ex"
 	},
 
 	illustrator: "PLANETA Saito",
@@ -22,14 +23,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Inferno Onrush"
+			en: "Inferno Onrush",
+			fr: "Torrent d'Enfer"
 		},
 
 		damage: 120,
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself."
+			en: "This Pokémon also does 20 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 20 dégâts."
 		}
 	}],
 

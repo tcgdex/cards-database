@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Silvally"
+		en: "Silvally",
+		fr: "Silvallié"
 	},
 
 	illustrator: "hncl",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This is its form once it has awakened and\nevolved. Freed from its heavy mask, its speed is\ngreatly increased."
+		en: "This is its form once it has awakened and\nevolved. Freed from its heavy mask, its speed is\ngreatly increased.",
+		fr: "Il a réveillé tout son potentiel et a évolué. Briser son lourd masque a décuplé sa vitesse."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Brave Buddies"
+			en: "Brave Buddies",
+			fr: "Copains Courageux"
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "If you played a Supporter card from your hand during this turn, this attack does 50 more damage."
+			en: "If you played a Supporter card from your hand during this turn, this attack does 50 more damage.",
+			fr: "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 50 dégâts supplémentaires."
 		}
 	}],
 
