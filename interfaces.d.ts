@@ -47,12 +47,15 @@ interface variant_detailed {
 	 * - pokemon-center: a card that is stamped with the Pokémon Center logo
 	 * - set-promo: a card that is stamped with the set logo
 	 * - staff: a card that is stamped with the staff text
+	 * - gamestop: a card that is stamped with the GameStop logo
+	 * - eb-games: a card that is stamped with the EB Games logo
+	 * - snowflake: a card that is stamped with a snowflake (holiday promo)
 	 */
-	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff'>
+	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'gamestop' | 'eb-games' | 'snowflake'>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
-	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold'
+	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos'
 }
 
 interface variants {

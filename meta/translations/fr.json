@@ -117,7 +117,8 @@
 		"pokeball": "Pokéball",
 		"ultraball": "Ultraball",
 		"masterball": "Masterball",
-		"gold": "Or"
+		"gold": "Or",
+		"cosmos": "Cosmo"
 	},
 	"variantStamp": {
 		"1st Edition": "1re Édition",
@@ -125,7 +126,10 @@
 		"pre-release": "Pré-release",
 		"set-logo": "Logo de la série",
 		"pokemon-center": "Pokémon Center",
-		"staff": "Staff"
+		"staff": "Staff",
+		"gamestop": "GameStop",
+		"eb-games": "EB Games",
+		"snowflake": "Flocon de Neige"
 	},
 	"variantSubtype": {
 		"shadowless": "sans ombre",
