@@ -107,7 +107,8 @@
 		"normal": "Normal",
 		"holo": "Holo",
 		"reverse": "Reverse",
-		"metal": "Metal"
+		"metal": "Metal",
+		"lenticular": "lenticular"
 	},
 	"variantSize": {
 		"standard": "Padrão",
@@ -117,7 +118,8 @@
 		"pokeball": "Poké Bola",
 		"ultraball": "Ultra Bola",
 		"masterball": "Master Bola",
-		"gold": "Ouro"
+		"gold": "Ouro",
+		"league": "league"
 	},
 	"variantStamp": {
 		"1st Edition": "1ª Edição",
@@ -125,10 +127,20 @@
 		"pre-release": "Pré-lançamento",
 		"set-logo": "Logo da coleção",
 		"pokemon-center": "Pokémon Center",
-		"staff": "Staff"
+		"staff": "Staff",
+		"horizons": "horizons",
+		"illustration-contest-2024": "illustration-contest-2024",
+		"worlds-2025": "worlds-2025",
+		"top-thirty-two": "top-thirty-two",
+		"top-sixteen": "top-sixteen",
+		"top-eight": "top-eight",
+		"semi-finalist": "semi-finalist",
+		"finalist": "finalist",
+		"winner": "winner"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",
-		"unlimited": "ilimitado"
+		"unlimited": "ilimitado",
+		"cosmos": "cosmos"
 	}
 }
