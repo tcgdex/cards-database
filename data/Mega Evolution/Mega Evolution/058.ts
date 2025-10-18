@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
+	dexId: [280],
 
 	attacks: [{
 		cost: ["Colorless"],
