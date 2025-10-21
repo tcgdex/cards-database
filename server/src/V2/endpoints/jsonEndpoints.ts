@@ -10,6 +10,9 @@ import { getAllCards, findOneCard, findCards, toBrief, getCardById, getCompiledC
 import { findOneSet, findSets, setToBrief } from '../Components/Set'
 import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
 import { listSKUs } from '../../libs/providers/tcgplayer'
+import type { paths as OpenAPI } from '../../openapi'
+
+type Response<Path extends keyof OpenAPI> = OpenAPI[Path]['get']['responses'][200]['content']['application/json']
 
 type CustomRequest = Request & {
 	/**
@@ -90,13 +93,13 @@ server
 		let data: Array<SDKCard | any> = []
 		switch (what.toLowerCase()) {
 			case 'card':
-				data = await findCards(lang, query)
+				data = await findCards(lang, query) satisfies Array<Response<'/random/card'>>
 				break
 			case 'set':
-				data = await findSets(lang, query)
+				data = await findSets(lang, query) satisfies Array<Response<'/random/set'>>
 				break
 			case 'serie':
-				data = await findSeries(lang, query)
+				data = await findSeries(lang, query) satisfies Array<Response<'/random/serie'>>
 				break
 			default:
 				sendError(Errors.NOT_FOUND, res, { details: `You can only run random requests on "card", "set" or "serie" while you did on "${what}"` })
@@ -140,7 +143,8 @@ server
 					}]
 				}
 				result = (await findCards(lang, query))
-					.map(toBrief)
+					.map(toBrief) satisfies Response<'/cards'>
+
 				break
 			}
 
@@ -154,12 +158,12 @@ server
 						'serie.name': tmp
 					}]
 				}
-				result = (await findSets(lang, query)).map(setToBrief)
+				result = (await findSets(lang, query)).map(setToBrief) satisfies Response<'/sets'>
 				break
 			}
 			case 'series':
 				result = (await findSeries(lang, query))
-					.map(serieToBrief)
+					.map(serieToBrief) satisfies Response<'/series'>
 				break
 			case 'categories':
 			case "energy-types":
@@ -175,7 +179,17 @@ server
 					(await getAllCards(lang))
 						.map((c) => c[endpointToField[endpoint]] as string)
 						.filter((c) => c)
-				).sort(betterSorter)
+				).sort(betterSorter) satisfies
+					& Response<'/categories'>
+					& Response<'/energy-types'>
+					& Response<'/hp'>
+					& Response<'/illustrators'>
+					& Response<'/rarities'>
+					& Response<'/regulation-marks'>
+					& Response<'/retreats'>
+					& Response<'/stages'>
+					& Response<'/suffixes'>
+					& Response<'/trainer-types'>
 				break
 			case "types":
 			case "dex-ids":
@@ -184,7 +198,7 @@ server
 						.map((c) => c[endpointToField[endpoint]] as Array<string>)
 						.filter((c) => c)
 						.reduce((p, c) => [...p, ...c], [] as Array<string>)
-				).sort(betterSorter)
+				).sort(betterSorter) satisfies Response<'/types'> & Response<'/dex-ids'>
 				break
 			case "variants":
 				result = unique(
@@ -192,7 +206,7 @@ server
 						.map((c) => objectKeys(c.variants ?? {}) as Array<string>)
 						.filter((c) => c)
 						.reduce((p, c) => [...p, ...c], [] as Array<string>)
-				).sort()
+				).sort() satisfies Response<'/variants'>
 				break
 			default:
 				sendError(Errors.NOT_FOUND, res, { endpoint })
@@ -226,25 +240,23 @@ server
 		let result: unknown
 		switch (endpoint) {
 			case 'cards':
-				// console.time('card')
-				result = await getCardById(lang, id)
+				result = await getCardById(lang, id) satisfies Response<'/cards/{cardId}'> | undefined
 				if (!result) {
-					result = await findOneCard(lang, { name: id })
+					result = await findOneCard(lang, { name: id }) satisfies Response<'/cards/{cardId}'> | undefined
 				}
-				// console.timeEnd('card')
 				break
 
 			case 'sets':
-				result = await findOneSet(lang, { id })
+				result = await findOneSet(lang, { id }) satisfies Response<'/sets/{set}'> | undefined
 				if (!result) {
-					result = await findOneSet(lang, { name: id })
+					result = await findOneSet(lang, { name: id }) satisfies Response<'/sets/{set}'> | undefined
 				}
 				break
 
 			case 'series':
-				result = await findOneSerie(lang, { id })
+				result = await findOneSerie(lang, { id }) satisfies Response<'/series/{serie}'> | undefined
 				if (!result) {
-					result = await findOneSerie(lang, { name: id })
+					result = await findOneSerie(lang, { name: id }) satisfies Response<'/series/{serie}'> | undefined
 				}
 				break
 			case 'dex-ids': {
@@ -253,7 +265,7 @@ server
 					// @ts-expect-error current behavior is normal
 					cards: (await findCards(lang, { dexId: { $eq: parseInt(id, 10) }}))
 						.map(toBrief)
-				}
+				} satisfies Response<'/dex-ids/{dexId}'> | undefined
 				break
 			}
 			default:
@@ -264,7 +276,20 @@ server
 					name: id,
 					cards: (await findCards(lang, { [endpointToField[endpoint]]: id }))
 						.map(toBrief)
-				}
+				} satisfies
+					| Response<'/categories/{category}'>
+					| Response<'/energy-types/{energy-type}'>
+					| Response<'/hp/{hp}'>
+					| Response<'/illustrators/{illustrator}'>
+					| Response<'/rarities/{rarity}'>
+					| Response<'/regulation-marks/{regulation-mark}'>
+					| Response<'/retreats/{retreat}'>
+					| Response<'/stages/{stage}'>
+					| Response<'/suffixes/{suffix}'>
+					| Response<'/trainer-types/{trainer-type}'>
+					| Response<'/types/{type}'>
+					| Response<'/variants/{variant}'>
+					| undefined
 		}
 
 		// console.timeEnd('request')
@@ -304,7 +329,7 @@ server
 			case 'sets':
 				// allow the dev to use a non prefixed value like `10` instead of `010` for newer sets
 				// @ts-expect-error normal behavior until the filtering is more fiable
-				result = await findOneCard(lang, { localId: { $or: [subid.padStart(3, '0'), subid] }, $or: [{ 'set.id': id }, { 'set.name': id }] })
+				result = await findOneCard(lang, { localId: { $or: [subid.padStart(3, '0'), subid] }, $or: [{ 'set.id': id }, { 'set.name': id }] }) satisfies Response<'/sets/{set}/{cardLocalId}'> | undefined
 				break
 		}
 		if (!result) {
