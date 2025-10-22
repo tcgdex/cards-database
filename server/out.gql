@@ -1,0 +1,314 @@
+type Card {
+	"""Unique identifier of the card"""
+	id: String!
+
+	"""Card number within its set"""
+	localId: String!
+
+	"""URL to the card image"""
+	image: String
+
+	"""Name of the card (including any suffix)"""
+	name: String!
+
+	"""Pricing information for the card"""
+	pricing: PricingSub1
+
+	"""Artist who illustrated the card"""
+	illustrator: String
+
+	"""Card category (Pokemon, Trainer, or Energy)"""
+	category: String!
+
+	"""Card rarity (Common, Uncommon, Rare, etc.)"""
+	rarity: String!
+
+	"""The set this card belongs to"""
+	set: SetSub1!
+
+	"""Indicates which variants of this card exist (overrides set variants)"""
+	variants: VariantsSub1
+
+	"""Detailed information about a card variant"""
+	variant_detailed: [Variant_detailedSub1]
+
+	"""Hit Points (HP) of the Pokemon"""
+	hp: Float
+
+	"""Energy types of the Pokemon"""
+	types: [String]
+
+	"""Name of the Pokemon this evolves from"""
+	evolveFrom: String
+
+	"""Evolution stage (Basic, Stage 1, Stage 2, etc.)"""
+	stage: String
+
+	"""Special card suffix (EX, GX, V, etc.)"""
+	suffix: String
+
+	"""Pokemon's held item information"""
+	item: ItemSub1
+
+	"""Type of trainer card (Item, Supporter, Stadium, Tool)"""
+	trainerType: String
+
+	"""Type of energy card (Basic, Special)"""
+	energyType: String
+
+	"""Regulation mark on cards (introduced in Sword & Shield)"""
+	regulationMark: String
+
+	"""Information about tournament legality of this card"""
+	legal: LegalSub1!
+
+	"""Descriptive text or flavor text on the card"""
+	description: String
+
+	"""Level of the Pokemon (can be a string 'X' for LEVEL-UP cards)"""
+	level: String
+
+	"""Pokemon abilities (Poké-Power, Poké-Body, Ability, etc.)"""
+	abilities: [AbilitiesSub1]
+
+	"""Pokemon attacks"""
+	attacks: [AttacksSub1]
+
+	"""Retreat cost of the Pokemon"""
+	retreat: Float
+
+	"""Pokedex number(s) of the Pokemon"""
+	dexId: [Float]
+
+	"""Types the Pokemon is weak against"""
+	weaknesses: [WeaknessesSub1]
+
+	"""Types the Pokemon is resistant to"""
+	resistances: [ResistancesSub1]
+
+	"""Boosters in which this card is available"""
+	boosters: [BoostersSub1]
+
+	"""Timestamp of when this card data was last updated"""
+	updated: String!
+}
+
+type BoostersSub1 {
+	"""The booster ID using format boo_<set_id>-<booster_name>"""
+	id: String!
+
+	"""The name of the booster"""
+	name: String!
+
+	"""URL to the logo of the booster"""
+	logo: String
+
+	"""URL to the front artwork of the booster pack"""
+	artwork_front: String
+
+	"""URL to the back artwork of the booster pack"""
+	artwork_back: String
+}
+
+type ResistancesSub1 {
+	type: String
+
+	value: String
+}
+
+type WeaknessesSub1 {
+	type: String
+
+	value: String
+}
+
+type AttacksSub1 {
+	"""Energy cost to use this attack"""
+	cost: [String]
+
+	"""Name of the attack"""
+	name: String!
+
+	"""Effect text of the attack"""
+	effect: String
+
+	"""Base damage of the attack (can be string for special damage)"""
+	damage: String
+}
+
+type AbilitiesSub1 {
+	"""Type of ability (Poké-Power, Poké-Body, Ability, etc.)"""
+	type: String
+
+	"""Name of the ability"""
+	name: String
+
+	"""Effect text of the ability"""
+	effect: String
+}
+
+type LegalSub1 {
+	"""Indicates whether this card is legal in standard format tournaments"""
+	standard: Boolean
+
+	"""Indicates whether this card is legal in expanded format tournaments"""
+	expanded: Boolean
+}
+
+type ItemSub1 {
+	"""Name of the held item"""
+	name: String!
+
+	"""Effect of the held item"""
+	effect: String!
+}
+
+type Variant_detailedSub1 {
+	"""The type of variant (e.g., normal, reverse, holo, etc.)"""
+	type: String!
+
+	"""The size of the variant (e.g., standard, jumbo, etc.)"""
+	size: String
+
+	"""The stamps of the variant (e.g., 'Staff', 'Pokemon-Centre', etc.)"""
+	stamp: [String]
+
+	"""The foil of the variant (e.g., 'Pokeball', 'MasterBall', etc.)"""
+	foil: String
+}
+
+type VariantsSub1 {
+	"""Indicates whether a normal variant exists"""
+	normal: Boolean!
+
+	"""Indicates whether a reverse holo variant exists"""
+	reverse: Boolean!
+
+	"""Indicates whether a holo variant exists"""
+	holo: Boolean!
+
+	"""Indicates whether a first edition variant exists"""
+	firstEdition: Boolean!
+
+	"""Indicates whether a promotional variant exists"""
+	wPromo: Boolean!
+}
+
+type SetSub1 {
+	"""Unique identifier of the set"""
+	id: String!
+
+	"""Name of the set"""
+	name: String!
+
+	"""URL to the logo of the set"""
+	logo: String
+
+	"""URL to the set symbol"""
+	symbol: String
+
+	"""Statistics about the number of cards in this set"""
+	cardCount: CardCountSub3!
+}
+
+type CardCountSub3 {
+	"""Total number of cards in the set including variants"""
+	total: Float!
+
+	"""Number of cards officially numbered in the set"""
+	official: Float!
+}
+
+type PricingSub1 {
+	tcgplayer: TcgplayerSub3
+
+	"""Cardmarket pricing information"""
+	cardmarket: CardmarketSub3
+}
+
+type CardmarketSub3 {
+	"""Date and time when the pricing information was last updated"""
+	updated: String
+
+	"""Currency unit of the price"""
+	unit: String
+
+	"""Average price of the card"""
+	avg: Float
+
+	"""Lowest price of the card"""
+	low: Float
+
+	"""Trend of the card price"""
+	trend: Float
+
+	"""Average price of the card in the last 1 day"""
+	avg1: Float
+
+	"""Average price of the card in the last 7 days"""
+	avg7: Float
+
+	"""Average price of the card in the last 30 days"""
+	avg30: Float
+
+	"""Average price of the card in the last 30 days, including holographic cards"""
+	avg-holo: Float
+
+	"""Trend of the card's price in the last 30 days, including holographic cards"""
+	trend-holo: Float
+
+	"""Average price of the card in the last 1 day, including holographic cards"""
+	avg1-holo: Float
+
+	"""Average price of the card in the last 7 days, including holographic cards"""
+	avg7-holo: Float
+
+	"""Average price of the card in the last 30 days, including holographic cards"""
+	avg30-holo: Float
+}
+
+type TcgplayerSub3 {
+	"""Date and time when the pricing information was last updated"""
+	updated: String
+
+	"""Currency unit of the price"""
+	unit: String
+
+	normal: NormalSub5
+
+	reverse: ReverseSub5
+}
+
+type ReverseSub5 {
+	"""Lowest price for the card"""
+	lowPrice: Float
+
+	"""Middle price for the card"""
+	midPrice: Float
+
+	"""Highest price for the card"""
+	highPrice: Float
+
+	"""Market price for the card"""
+	marketPrice: Float
+
+	"""Direct low price for the card"""
+	directLowPrice: Float
+}
+
+type NormalSub5 {
+	"""Lowest price for the card"""
+	lowPrice: Float
+
+	"""Middle price for the card"""
+	midPrice: Float
+
+	"""Highest price for the card"""
+	highPrice: Float
+
+	"""Market price for the card"""
+	marketPrice: Float
+
+	"""Direct low price for the card"""
+	directLowPrice: Float
+}

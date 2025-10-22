@@ -57,6 +57,7 @@ export default {
 		return findCards(lang, query)
 	}),
 	card: middleware((lang, query) => {
+		findOneCard(lang, query).then(console.log)
 		return findOneCard(lang, query)
 	}),
 

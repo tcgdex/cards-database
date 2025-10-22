@@ -3,6 +3,7 @@ import { existsSync, promises as fs } from 'fs'
 import { SupportedLanguages } from '../../interfaces'
 import { FileFunction } from './compilerInterfaces'
 import { fetchRemoteFile, loadLastEdits } from './utils/util'
+import openapiTS, { astToString } from 'openapi-typescript'
 
 const LANGS: Array<SupportedLanguages> = [
 	'en', 'fr', 'es', 'es-mx', 'it', 'pt', 'pt-br', 'pt-pt', 'de', 'nl', 'pl', 'ru',
@@ -17,6 +18,13 @@ const DIST_FOLDER = './generated'
 	// Prefetch the pictures at the start as it can bug because of bad connection
 	console.log('1. Loading remote sources')
 	await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
+
+	console.log(' . Compiling OpenAPI spec')
+	const ast = await openapiTS(await fs.readFile('../meta/definitions/openapi.yaml', 'utf-8'))
+	const contents = astToString(ast)
+
+	// (optional) write to file
+	await fs.writeFile("./src/openapi.ts", contents)
 
 	// Delete dist folder to be sure to have a clean base
 	try {

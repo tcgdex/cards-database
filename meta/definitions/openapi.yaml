@@ -1,1705 +1,1819 @@
-# OPEN-API API definition
+# OpenAPI definition, this is the main way for the API to know what it returns & if it is working well
+# This document also is used to generate GraphQL schema
 openapi: 3.1.0
 info:
-  title: TCGdex API
-  description: |
-    A Multilanguage Pokémon TCG Database with Cards Pictures and most of the
-    informations contained on the cards.
+    title: TCGdex API
+    description: |
+        A Multilanguage Pokémon TCG Database with Cards Pictures and most of the
+        informations contained on the cards.
 
-    Error responses follow RFC 9457 standard for problem details in HTTP APIs,
-    with Content-Type application/problem+json. All errors include standardized
-    attributes like type, title, status, detail, endpoint, and method.
+        Error responses follow RFC 9457 standard for problem details in HTTP APIs,
+        with Content-Type application/problem+json. All errors include standardized
+        attributes like type, title, status, detail, endpoint, and method.
 
-    Most endpoints that return arrays support filtering, sorting, and pagination features.
-    See https://tcgdex.dev/rest/filtering-sorting-pagination for more details.
+        Most endpoints that return arrays support filtering, sorting, and pagination features.
+        See https://tcgdex.dev/rest/filtering-sorting-pagination for more details.
 
-    You can find out more about TCGdex at
-    [https://www.tcgdex.net](https://www.tcgdex.net) or on
-    [Discord](https://discord.gg/NehYTAhsZE).
-  contact:
-    name: TCGdex
-    url: https://github.com/tcgdex/cards-database
-    email: contact@tcgdex.net
-  license:
-    name: MIT License
-    url: https://github.com/tcgdex/cards-database/blob/master/LICENSE
-  version: "2"
+        You can find out more about TCGdex at
+        [https://tcgdex.dev](https://tcgdex.dev) or on
+        [Discord](https://discord.gg/NehYTAhsZE).
+    contact:
+        name: TCGdex
+        url: https://github.com/tcgdex/cards-database
+        email: contact@tcgdex.net
+    license:
+        name: MIT License
+        url: https://github.com/tcgdex/cards-database/blob/master/LICENSE
+    version: "2"
 externalDocs:
-  description: Find out more about TCGdex
-  url: http://www.tcgdex.net/docs
+    description: Find out more about TCGdex
+    url: https://tcgdex.dev
 servers:
-  - url: https://api.tcgdex.net/v2/{lang}
-    variables:
-      lang:
-        enum:
-          - en
-          - fr
-          - es
-          - es-mx
-          - it
-          - pt
-          - pt-br
-          - pt-pt
-          - zh-cn
-          - zh-tw
-          - ja
-          - ko
-          - th
-        default: en
+    - url: https://api.tcgdex.net/v2/{lang}
+      variables:
+          lang:
+              enum:
+                  - en
+                  - fr
+                  - es
+                  - es-mx
+                  - it
+                  - pt
+                  - pt-br
+                  - pt-pt
+                  - zh-cn
+                  - zh-tw
+                  - ja
+                  - ko
+                  - th
+              default: en
 tags:
-  - name: cards
-    description: Fetch cards globally
-  - name: filters
-    description: differents requests to filter cards
+    - name: cards
+      description: Fetch cards globally
+    - name: filters
+      description: differents requests to filter cards
 paths:
-  /cards:
-    get:
-      tags:
-        - cards
-      summary: fetch the list of cards
-      description: Returns a list of all cards, with support for filtering, sorting, and pagination
-      operationId: cards
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: 'Successful request'
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/CardResume'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /cards/{cardId}:
-    get:
-      tags:
-        - cards
-      summary: Find card by ID
-      description: Returns detailed information about a specified card
-      operationId: getCardById
-      parameters:
-        - name: cardId
-          in: path
-          description: ID of card to return
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Card'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /sets:
-    get:
-      tags:
-        - sets
-      summary: Get all sets
-      description: Lists all Pokemon TCG sets with basic information, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/SetResume'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /sets/{set}:
-    get:
-      tags:
-        - sets
-      summary: Find set by ID
-      description: Returns detailed information about a specific set, including its card list
-      parameters:
-        - name: set
-          in: path
-          description: ID of set to return
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Set'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The Set doesn't exist
-  /sets/{set}/{cardLocalId}:
-    get:
-      tags:
-        - sets
-        - cards
-      summary: Find card by set and local ID
-      description: Returns detailed information about a specific card identified by its set and local ID within that set
-      parameters:
-        - name: set
-          in: path
-          required: true
-          schema:
-            type: string
-        - name: cardLocalId
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Card'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: the Set or cardLocalId are incorrect
-  /series:
-    get:
-      tags:
-        - series
-      summary: Get all series
-      description: Returns a list of all available Pokemon TCG series, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/SerieResume'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /series/{serie}:
-    get:
-      tags:
-        - series
-      summary: Find series by ID
-      description: Returns detailed information about a specific series, including all sets in that series
-      parameters:
-        - name: serie
-          in: path
-          description: ID of serie to return
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Serie'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The Serie doesn't exist
-  /categories:
-    get:
-      tags:
-        - filters
-      summary: Get all categories
-      description: Returns a list of all available card categories, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /categories/{category}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by category
-      description: Returns cards matching the specified category, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: category
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/StringEndpoint'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The Category doesn't exist
-  /hp:
-    get:
-      tags:
-        - filters
-      summary: Get all HP values
-      description: Returns a list of all available HP values for Pokemon cards, with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /hp/{hp}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by HP value
-      description: Returns cards with the specified HP value, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: hp
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/StringEndpoint'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The HP count doesn't exist
-  /illustrators:
-    get:
-      tags:
-        - filters
-      summary: Get all illustrators
-      description: Returns a list of all card illustrators, with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /illustrators/{illustrator}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by illustrator
-      description: Returns cards by the specified illustrator, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: illustrator
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/StringEndpoint'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The Illustrator doesn't exist
-  /rarities:
-    get:
-      tags:
-        - filters
-      summary: Get all rarities
-      description: Returns a list of all card rarity types, with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /rarities/{rarity}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by rarity
-      description: Returns cards with the specified rarity, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: rarity
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/StringEndpoint'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The Rarity doesn't exist
-  /retreats:
-    get:
-      tags:
-        - filters
-      summary: Get all retreat costs
-      description: Returns a list of all available retreat cost values, with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /retreats/{retreat}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by retreat cost
-      description: Returns cards with the specified retreat cost, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: retreat
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/StringEndpoint'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The Retreat count doesn't exist
-  /types:
-    get:
-      tags:
-        - filters
-      summary: Get all types
-      description: Returns a list of all Pokemon card types, with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /types/{type}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by type
-      description: Returns cards of the specified type, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: type
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/CardResume'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The Type doesn't exist
-  /dex-ids:
-    get:
-      tags:
-        - filters
-      summary: Get all Pokedex IDs
-      description: Returns a list of all Pokedex ID numbers, with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /dex-ids/{dexId}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by Pokedex ID
-      description: Returns cards with the specified Pokedex ID, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: dexId
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/CardResume'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: no cards contain the specified dexID
-  /energy-types:
-    get:
-      tags:
-        - filters
-      summary: Get all energy types
-      description: Returns a list of all energy card types, with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /energy-types/{energy-type}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by energy type
-      description: Returns cards with the specified energy type, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: energy-type
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/CardResume'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The specified energy-type doesn't exist
-  /regulation-marks:
-    get:
-      tags:
-        - filters
-      summary: Get all regulation marks
-      description: Returns a list of all regulation marks on cards, with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /regulation-marks/{regulation-mark}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by regulation mark
-      description: Returns cards with the specified regulation mark, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: regulation-mark
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/CardResume'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The regulation-mark doesn't exist
-  /stages:
-    get:
-      tags:
-        - filters
-      summary: Get all Pokemon stages
-      description: Returns a list of all Pokemon evolution stages, with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /stages/{stage}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by stage
-      description: Returns cards with the specified evolution stage, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: stage
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/CardResume'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The stage doesn't exist
-  /suffixes:
-    get:
-      tags:
-        - filters
-      summary: Get all card suffixes
-      description: Returns a list of all card suffixes (EX, GX, V, etc.), with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /suffixes/{suffix}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by suffix
-      description: Returns cards with the specified suffix, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: suffix
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/CardResume'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The suffix doesn't exist
-  /trainer-types:
-    get:
-      tags:
-        - filters
-      summary: Get all trainer types
-      description: Returns a list of all trainer card types, with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /trainer-types/{trainer-type}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by trainer type
-      description: Returns cards with the specified trainer type, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: trainer-type
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/CardResume'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The trainer-type doesn't exist
-  /variants:
-    get:
-      tags:
-        - filters
-      summary: Get all card variants
-      description: Returns a list of all card variant types (normal, holo, reverse, etc.), with support for sorting and pagination
-      parameters:
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-  /variants/{variant}:
-    get:
-      tags:
-        - filters
-      summary: Get cards by variant
-      description: Returns cards with the specified variant, with support for filtering, sorting, and pagination
-      parameters:
-        - $ref: '#/components/parameters/filter'
-        - $ref: '#/components/parameters/sortField'
-        - $ref: '#/components/parameters/sortOrder'
-        - $ref: '#/components/parameters/paginationPage'
-        - $ref: '#/components/parameters/paginationItemsPerPage'
-        - name: variant
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful request
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/CardResume'
-        '404':
-          $ref: '#/components/responses/NotFound'
-        '400':
-          $ref: '#/components/responses/BadRequest'
-        '500':
-          $ref: '#/components/responses/InternalServerError'
-          description: The variant doesn't exist
+    /cards:
+        get:
+            tags:
+                - cards
+            summary: fetch the list of cards
+            description: Returns a list of all cards, with support for filtering, sorting, and pagination
+            operationId: cards
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: "Successful request"
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/CardResume"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /cards/{cardId}:
+        get:
+            tags:
+                - cards
+            summary: Find card by ID
+            description: Returns detailed information about a specified card
+            operationId: getCardById
+            parameters:
+                - name: cardId
+                  in: path
+                  description: ID of card to return
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/Card"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /sets:
+        get:
+            tags:
+                - sets
+            summary: Get all sets
+            description: Lists all Pokemon TCG sets with basic information, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/SetResume"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /sets/{set}:
+        get:
+            tags:
+                - sets
+            summary: Find set by ID
+            description: Returns detailed information about a specific set, including its card list
+            parameters:
+                - name: set
+                  in: path
+                  description: ID of set to return
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/Set"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The Set doesn't exist
+    /sets/{set}/{cardLocalId}:
+        get:
+            tags:
+                - sets
+                - cards
+            summary: Find card by set and local ID
+            description: Returns detailed information about a specific card identified by its set and local ID within that set
+            parameters:
+                - name: set
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+                - name: cardLocalId
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/Card"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: the Set or cardLocalId are incorrect
+    /series:
+        get:
+            tags:
+                - series
+            summary: Get all series
+            description: Returns a list of all available Pokemon TCG series, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/SerieResume"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /series/{serie}:
+        get:
+            tags:
+                - series
+            summary: Find series by ID
+            description: Returns detailed information about a specific series, including all sets in that series
+            parameters:
+                - name: serie
+                  in: path
+                  description: ID of serie to return
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/Serie"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The Serie doesn't exist
+    /categories:
+        get:
+            tags:
+                - filters
+            summary: Get all categories
+            description: Returns a list of all available card categories, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /categories/{category}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by category
+            description: Returns cards matching the specified category, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: category
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/StringEndpoint"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The Category doesn't exist
+    /hp:
+        get:
+            tags:
+                - filters
+            summary: Get all HP values
+            description: Returns a list of all available HP values for Pokemon cards, with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /hp/{hp}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by HP value
+            description: Returns cards with the specified HP value, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: hp
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/StringEndpoint"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The HP count doesn't exist
+    /illustrators:
+        get:
+            tags:
+                - filters
+            summary: Get all illustrators
+            description: Returns a list of all card illustrators, with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /illustrators/{illustrator}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by illustrator
+            description: Returns cards by the specified illustrator, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: illustrator
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/StringEndpoint"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The Illustrator doesn't exist
+    /rarities:
+        get:
+            tags:
+                - filters
+            summary: Get all rarities
+            description: Returns a list of all card rarity types, with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /rarities/{rarity}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by rarity
+            description: Returns cards with the specified rarity, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: rarity
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/StringEndpoint"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The Rarity doesn't exist
+    /retreats:
+        get:
+            tags:
+                - filters
+            summary: Get all retreat costs
+            description: Returns a list of all available retreat cost values, with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /retreats/{retreat}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by retreat cost
+            description: Returns cards with the specified retreat cost, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: retreat
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/StringEndpoint"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The Retreat count doesn't exist
+    /types:
+        get:
+            tags:
+                - filters
+            summary: Get all types
+            description: Returns a list of all Pokemon card types, with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /types/{type}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by type
+            description: Returns cards of the specified type, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: type
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/CardResume"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The Type doesn't exist
+    /dex-ids:
+        get:
+            tags:
+                - filters
+            summary: Get all Pokedex IDs
+            description: Returns a list of all Pokedex ID numbers, with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /dex-ids/{dexId}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by Pokedex ID
+            description: Returns cards with the specified Pokedex ID, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: dexId
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/CardResume"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: no cards contain the specified dexID
+    /energy-types:
+        get:
+            tags:
+                - filters
+            summary: Get all energy types
+            description: Returns a list of all energy card types, with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /energy-types/{energy-type}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by energy type
+            description: Returns cards with the specified energy type, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: energy-type
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/CardResume"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The specified energy-type doesn't exist
+    /regulation-marks:
+        get:
+            tags:
+                - filters
+            summary: Get all regulation marks
+            description: Returns a list of all regulation marks on cards, with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /regulation-marks/{regulation-mark}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by regulation mark
+            description: Returns cards with the specified regulation mark, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: regulation-mark
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/CardResume"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The regulation-mark doesn't exist
+    /stages:
+        get:
+            tags:
+                - filters
+            summary: Get all Pokemon stages
+            description: Returns a list of all Pokemon evolution stages, with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /stages/{stage}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by stage
+            description: Returns cards with the specified evolution stage, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: stage
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/CardResume"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The stage doesn't exist
+    /suffixes:
+        get:
+            tags:
+                - filters
+            summary: Get all card suffixes
+            description: Returns a list of all card suffixes (EX, GX, V, etc.), with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /suffixes/{suffix}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by suffix
+            description: Returns cards with the specified suffix, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: suffix
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/CardResume"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The suffix doesn't exist
+    /trainer-types:
+        get:
+            tags:
+                - filters
+            summary: Get all trainer types
+            description: Returns a list of all trainer card types, with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /trainer-types/{trainer-type}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by trainer type
+            description: Returns cards with the specified trainer type, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: trainer-type
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/CardResume"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The trainer-type doesn't exist
+    /variants:
+        get:
+            tags:
+                - filters
+            summary: Get all card variants
+            description: Returns a list of all card variant types (normal, holo, reverse, etc.), with support for sorting and pagination
+            parameters:
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    type: string
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+    /variants/{variant}:
+        get:
+            tags:
+                - filters
+            summary: Get cards by variant
+            description: Returns cards with the specified variant, with support for filtering, sorting, and pagination
+            parameters:
+                - $ref: "#/components/parameters/filter"
+                - $ref: "#/components/parameters/sortField"
+                - $ref: "#/components/parameters/sortOrder"
+                - $ref: "#/components/parameters/paginationPage"
+                - $ref: "#/components/parameters/paginationItemsPerPage"
+                - name: variant
+                  in: path
+                  required: true
+                  schema:
+                      type: string
+            responses:
+                "200":
+                    description: Successful request
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/CardResume"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "400":
+                    $ref: "#/components/responses/BadRequest"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    description: The variant doesn't exist
 components:
-  parameters:
-    filter:
-      name: filters
-      in: query
-      required: false
-      style: form
-      explode: true
-      description: |
-        Filter results by field value.
+    parameters:
+        filter:
+            name: filters
+            in: query
+            required: false
+            style: form
+            explode: true
+            description: |
+                Filter results by field value.
 
-        Supports various operators:
-        - Default/`like:` - Laxist equality (contains, case insensitive)
-        - `not:`/`notlike:` - Laxist inequality
-        - `eq:` - Strict equality
-        - `neq:` - Strict inequality
-        - `gte:` - Greater than or equal (numbers)
-        - `lte:` - Less than or equal (numbers)
-        - `gt:` - Greater than (numbers)
-        - `lt:` - Less than (numbers)
-        - `null:` - Field is null
-        - `notnull:` - Field is not null
-        - Multiple values with `|` (e.g., `name=eq:Furret|Pikachu`)
-      schema:
-        type: [object, null]
-        additionalProperties:
-          type: string
-      example: "{\"name\": \"eq:Furret\", \"hp\": \"lte:60\"}"
+                Supports various operators:
+                - Default/`like:` - Laxist equality (contains, case insensitive)
+                - `not:`/`notlike:` - Laxist inequality
+                - `eq:` - Strict equality
+                - `neq:` - Strict inequality
+                - `gte:` - Greater than or equal (numbers)
+                - `lte:` - Less than or equal (numbers)
+                - `gt:` - Greater than (numbers)
+                - `lt:` - Less than (numbers)
+                - `null:` - Field is null
+                - `notnull:` - Field is not null
+                - Multiple values with `|` (e.g., `name=eq:Furret|Pikachu`)
+            schema:
+                type: [object, null]
+                additionalProperties:
+                    type: string
+            example: '{"name": "eq:Furret", "hp": "lte:60"}'
 
-    sortField:
-      name: "sort:field"
-      in: query
-      description: Field to sort results by (overrides default sorting)
-      required: false
-      schema:
-        type: [string, null]
-      example: "name"
-
-    sortOrder:
-      name: "sort:order"
-      in: query
-      description: Order to sort results (ASC or DESC)
-      required: false
-      schema:
-        type: [string, null]
-        enum: [ASC, DESC]
-        default: null
-
-    paginationPage:
-      name: "pagination:page"
-      in: query
-      description: Page number for paginated results
-      required: false
-      schema:
-        type: [integer, null]
-        minimum: 1
-        default: 1
-      example: 1
-
-    paginationItemsPerPage:
-      name: "pagination:itemsPerPage"
-      in: query
-      description: Number of items per page (applied when pagination:page is used)
-      required: false
-      schema:
-        type: [integer, null]
-        minimum: 1
-        default: 100
-      example: 25
-  responses:
-    NotFound:
-      description: The specified resource was not found
-      content:
-        application/problem+json:
-          schema:
-            $ref: '#/components/schemas/Problem'
-          example:
-            type: "https://tcgdex.dev/errors/not-found"
-            title: "Resource Not Found"
-            status: 404
-            detail: "The requested resource could not be found"
-            endpoint: "/v2/cards/invalid-id"
-            method: "GET"
-    BadRequest:
-      description: The request was invalid
-      content:
-        application/problem+json:
-          schema:
-            $ref: '#/components/schemas/Problem'
-          example:
-            type: "https://tcgdex.dev/errors/bad-request"
-            title: "Invalid Request"
-            status: 400
-            detail: "The request contains invalid parameters"
-            endpoint: "/v2/sets/invalid-format"
-            method: "GET"
-    InternalServerError:
-      description: An unexpected error occurred on the server
-      content:
-        application/problem+json:
-          schema:
-            $ref: '#/components/schemas/Problem'
-          example:
-            type: "https://tcgdex.dev/errors/server-error"
-            title: "Internal Server Error"
-            status: 500
-            detail: "An unexpected error occurred while processing your request"
-            endpoint: "/v2/cards"
-            method: "GET"
-  schemas:
-    Problem:
-      description: RFC 9457 problem details object for API errors
-      type: object
-      required:
-        - type
-        - title
-        - status
-      properties:
-        type:
-          type: string
-          format: uri
-          description: URI reference that identifies the problem type
-          example: "https://tcgdex.dev/errors/not-found"
-        title:
-          type: string
-          description: Short, human-readable summary of the problem type
-          example: "The resource you are trying to reach does not exist"
-        status:
-          type: integer
-          description: HTTP status code
-          example: 404
-        detail:
-          type: string
-          description: Human-readable explanation specific to this occurrence of the problem
-          example: "The requested card with ID 'invalid-id' could not be found"
-        endpoint:
-          type: string
-          description: The API endpoint that was requested
-          example: "/v2/i-do-not-exists"
-        method:
-          type: string
-          description: The HTTP method used for the request
-          example: "GET"
-      examples:
-        notFound:
-          value:
-            type: "https://tcgdex.dev/errors/not-found"
-            title: "Resource Not Found"
-            status: 404
-            detail: "The requested card with ID 'base1-999' could not be found"
-            endpoint: "/v2/cards/base1-999"
-            method: "GET"
-        badRequest:
-          value:
-            type: "https://tcgdex.dev/errors/bad-request"
-            title: "Invalid Request"
-            status: 400
-            detail: "The provided parameter 'hp' must be a valid number"
-            endpoint: "/v2/hp/abc"
-            method: "GET"
-        serverError:
-          value:
-            type: "https://tcgdex.dev/errors/server-error"
-            title: "Internal Server Error"
-            status: 500
-            detail: "An unexpected error occurred while processing your request"
-            endpoint: "/v2/cards"
-            method: "GET"
-    WeakRes:
-      type: array
-      xml:
-        name: WeakResItem
-        wrapped: true
-      items:
-        required:
-          - type
-        type: object
-        properties:
-          type:
-            type: string
-            example: "Psychic"
-          value:
-            type: [string, null]
-            example: x2
-    Booster:
-      description: Represents a booster pack that contains Pokemon cards
-      required:
-        - id
-        - name
-      type: object
-      properties:
-        id:
-          type: string
-          description: The booster ID using format boo_<set_id>-<booster_name>
-          pattern: "^boo_.*-.*$"
-          example: "boo_A1-mewtwo"
-        name:
-          type: string
-          description: The name of the booster
-          example: "Mewtwo"
-        logo:
-          type: [string, null]
-          description: URL to the logo of the booster
-          example: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-logo"
-        artwork_front:
-          type: [string, null]
-          description: URL to the front artwork of the booster pack
-          example: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
-        artwork_back:
-          type: [string, null]
-          description: URL to the back artwork of the booster pack
-          example: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-back"
-      examples:
-        complete:
-          value:
-            id: "boo_A1-mewtwo"
-            name: "Mewtwo"
-            logo: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-logo"
-            artwork_front: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
-            artwork_back: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
-        minimal:
-          value:
-            id: "boo_base1-base"
-            name: "Base Set Booster"
-            logo: null
-            artwork_front: "https://assets.tcgdex.net/en/base/base1/boosters/base/front"
-            artwork_back: null
-    SerieResume:
-      description: Basic information about a Pokemon TCG series
-      required:
-        - id
-        - name
-      type: object
-      properties:
-        id:
-          type: string
-          description: Unique identifier of the series
-        name:
-          type: string
-          description: Name of the series
-        logo:
-          type: [string, null]
-          description: URL to the logo of the series
-    Serie:
-      description: Detailed information about a Pokemon TCG series, including all sets within the series
-      required:
-        - id
-        - name
-        - sets
-        - firstSet
-        - lastSet
-        - releaseDate
-      type: object
-      properties:
-        id:
-          type: string
-          description: Unique identifier of the series
-        name:
-          type: string
-          description: Name of the series
-        logo:
-          type: string
-          description: URL to the logo of the series
-        releaseDate:
-          type: string
-          format: date
-          description: Release date of the series
-        firstSet:
-          $ref: '#/components/schemas/SetResume'
-          description: The first set released in this series
-        lastSet:
-          $ref: '#/components/schemas/SetResume'
-          description: The most recent set released in this series
-        sets:
-          type: array
-          description: All sets contained in this series
-          items:
-            $ref: '#/components/schemas/SetResume'
-    Set:
-      description: Detailed information about a Pokemon TCG set, including card lists and metadata
-      required:
-        - cardCount
-        - cards
-        - id
-        - name
-        - legal
-        - serie
-        - releaseDate
-      type: object
-      properties:
-        id:
-          type: string
-          description: Unique identifier of the set
-          example: "base1"
-        name:
-          type: string
-          description: Name of the set
-          example: "Base Set"
-        logo:
-          type: string
-          description: URL to the logo of the set
-          example: "https://assets.tcgdex.net/en/base/base1/logo"
-        symbol:
-          type: [string, null]
-          description: URL to the set symbol
-          example: "https://assets.tcgdex.net/univ/base/base1/symbol"
-        serie:
-          $ref: '#/components/schemas/SerieResume'
-          description: The series this set belongs to
-        tcgOnline:
-          type: [string, null]
-          description: Identifier for this set in Pokemon TCG Online
-        releaseDate:
-          type: string
-          format: date
-          description: Official release date of the set
-        variants:
-          type: object
-          description: Indicates which card variants exist in this set
-          properties:
-            normal:
-              type: [boolean, null]
-              description: Indicates whether normal variants exist
-            reverse:
-              type: [boolean, null]
-              description: Indicates whether reverse holo variants exist
-            holo:
-              type: [boolean, null]
-              description: Indicates whether holo variants exist
-            firstEdition:
-              type: [boolean, null]
-              description: Indicates whether first edition variants exist
-            wPromo:
-              type: [boolean, null]
-              description: Indicates whether promotional variants exist
-        boosters:
-          type: array
-          description: The booster packs available in this set
-          items:
-            $ref: '#/components/schemas/Booster'
-          example:
-            - id: "boo_A1-mewtwo"
-              name: "Mewtwo"
-              logo: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-logo"
-              artwork_front: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
-              artwork_back: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
-            - id: "boo_A1-pikachu"
-              name: "Pikachu"
-        legal:
-          type: object
-          description: Information about tournament legality of this set
-          required:
-            - standard
-            - expanded
-          properties:
-            standard:
-              type: boolean
-              description: Indicates whether this set is legal in standard format tournaments
-              example: false
-            expanded:
-              type: boolean
-              description: Indicates whether this set is legal in expanded format tournaments
-              example: true
-        abbreviation:
-          type: object
-          description: Common abbreviations used for this set
-          properties:
-            official:
-              type: string
-              description: The official abbreviation used by Pokemon Company
-              example: "BS"
-            localized:
-              type: string
-              description: Localized abbreviation used in the current language
-              example: BS
-        cardCount:
-          required:
-            - official
-            - total
-          type: object
-          description: Statistics about the number of cards in this set
-          properties:
-            total:
-              type: number
-              description: Total number of cards in the set including variants
-              example: 101
-            official:
-              type: number
-              description: Number of cards officially numbered in the set
-              example: 100
-            normal:
-              type: number
-              description: Number of cards having a normal variant
-            reverse:
-              type: number
-              description: Number of cards having a reverse holo variant
-            holo:
-              type: number
-              description: Number of cards having a holographic variant
-            firstEd:
-              type: [number, null]
-              description: Number of cards having a first edition variant
-        cards:
-          type: array
-          description: List of all cards in this set
-          items:
-            $ref: '#/components/schemas/CardResume'
-    SetResume:
-      description: Basic information about a Pokemon TCG set
-      required:
-        - cardCount
-        - id
-        - name
-      type: object
-      properties:
-        id:
-          type: string
-          description: Unique identifier of the set
-          example: base1
-        name:
-          type: string
-          description: Name of the set
-          example: Base Set
-        logo:
-          type: string
-          description: URL to the logo of the set
-          example: https://assets.tcgdex.net/en/base/base1/logo
-        symbol:
-          type: string
-          description: URL to the set symbol
-          example: https://assets.tcgdex.net/univ/base/base1/symbol
-        cardCount:
-          required:
-            - official
-            - total
-          type: object
-          description: Statistics about the number of cards in this set
-          properties:
-            total:
-              type: number
-              description: Total number of cards in the set including variants
-              example: 101
-            official:
-              type: number
-              description: Number of cards officially numbered in the set
-              example: 100
-    CardResume:
-      description: Basic information about a Pokemon TCG card
-      required:
-        - id
-        - localId
-        - name
-      type: object
-      properties:
-        id:
-          type: string
-          description: Unique identifier of the card
-          example: "base1-1"
-        localId:
-          type: string
-          description: Card number within its set
-          example: "1"
-        image:
-          type: [string, null]
-          description: URL to the card image
-          example: "https://assets.tcgdex.net/en/base/base1/1"
-        name:
-          type: string
-          description: Name of the card (including any suffix)
-          example: "Alakazam"
-    Card:
-      description: Detailed information about a Pokemon TCG card, including game mechanics
-      required:
-        - category
-        - id
-        - localId
-        - name
-        - rarity
-        - set
-        - legal
-        - updated
-      type: object
-      properties:
-        id:
-          type: string
-          description: Unique identifier of the card
-          example: base1-1
-        localId:
-          type: string
-          description: Card number within its set
-          example: '1'
-        image:
-          type: string
-          description: URL to the card image
-          example: https://assets.tcgdex.net/en/base/base1/1
-        name:
-          type: string
-          description: Name of the card (including any suffix)
-          example: Alakazam
-        illustrator:
-          type: [string, null]
-          description: Artist who illustrated the card
-          example: "Ken Sugimori"
-        category:
-          type: string
-          description: Card category (Pokemon, Trainer, or Energy)
-          example: "Pokemon"
-        rarity:
-          type: string
-          description: Card rarity (Common, Uncommon, Rare, etc.)
-          example: "Rare"
-        set:
-          $ref: '#/components/schemas/SetResume'
-          description: The set this card belongs to
-        variants:
-          required:
-            - firstEdition
-            - holo
-            - normal
-            - reverse
-            - wPromo
-          type: object
-          description: Indicates which variants of this card exist (overrides set variants)
-          properties:
-            normal:
-              type: boolean
-              description: Indicates whether a normal variant exists
-            reverse:
-              type: boolean
-              description: Indicates whether a reverse holo variant exists
-            holo:
-              type: boolean
-              description: Indicates whether a holo variant exists
-            firstEdition:
-              type: boolean
-              description: Indicates whether a first edition variant exists
-            wPromo:
-              type: boolean
-              description: Indicates whether a promotional variant exists
-        variant_detailed:
-            type: [array,"null"]
-            description: Detailed information about a card variant
-            items:
-                type: object
-                required:
-                    - type
-                properties:
-                    type:
-                        type: string
-                        description: The type of variant (e.g., normal, reverse, holo, etc.)
-                    size:
-                        type: string
-                        description: The size of the variant (e.g., standard, jumbo, etc.)
-                        nullable: true
-                    stamp:
-                        type: array
-                        description: The stamps of the variant (e.g., 'Staff', 'Pokemon-Centre', etc.)
-                        items:
-                            type: string
-                        nullable: true
-                    foil:
-                        type: string
-                        description: The foil of the variant (e.g., 'Pokeball', 'MasterBall', etc.)
-                        nullable: true
-        hp:
-          type: [number, "null"]
-          description: Hit Points (HP) of the Pokemon
-          example: 80
-        types:
-          type: [array, null]
-          description: Energy types of the Pokemon
-          items:
-            type: string
-            example: Psychic
-        evolveFrom:
-          type: [string, null]
-          description: Name of the Pokemon this evolves from
-          example: "Kadabra"
-        stage:
-          type: [string, null]
-          description: Evolution stage (Basic, Stage 1, Stage 2, etc.)
-          example: "Stage 2"
-        suffix:
-          type: [string, null]
-          description: Special card suffix (EX, GX, V, etc.)
-        item:
-          required:
-            - effect
-            - name
-          type: object
-          description: Pokemon's held item information
-          properties:
-            name:
-              type: string
-              description: Name of the held item
-            effect:
-              type: string
-              description: Effect of the held item
-        trainerType:
-          type: [string, null]
-          description: Type of trainer card (Item, Supporter, Stadium, Tool)
-        energyType:
-          type: [string, null]
-          description: Type of energy card (Basic, Special)
-        regulationMark:
-          type: [string, null]
-          description: Regulation mark on cards (introduced in Sword & Shield)
-          example: "E"
-        legal:
-          type: object
-          description: Information about tournament legality of this card
-          properties:
-            standard:
-              type: boolean
-              description: Indicates whether this card is legal in standard format tournaments
-              example: false
-            expanded:
-              type: boolean
-              description: Indicates whether this card is legal in expanded format tournaments
-              example: true
-        description:
-          type: [string, null]
-          description: Descriptive text or flavor text on the card
-        level:
-          type: [number, string]
-          description: Level of the Pokemon (can be a string 'X' for LEVEL-UP cards)
-          example: 42
-        abilities:
-          type: array
-          description: Pokemon abilities (Poké-Power, Poké-Body, Ability, etc.)
-          items:
-            type: object
-            properties:
-              type:
-                type: string
-                description: Type of ability (Poké-Power, Poké-Body, Ability, etc.)
-                example: "Poké-Power"
-              name:
-                type: string
-                description: Name of the ability
-                example: "Damage Swap"
-              effect:
+        sortField:
+            name: "sort:field"
+            in: query
+            description: Field to sort results by (overrides default sorting)
+            required: false
+            schema:
                 type: [string, null]
-                description: Effect text of the ability
-                example: "As often as you like..."
-        attacks:
-          type: array
-          description: Pokemon attacks
-          items:
+            example: "name"
+
+        sortOrder:
+            name: "sort:order"
+            in: query
+            description: Order to sort results (ASC or DESC)
+            required: false
+            schema:
+                type: [string, null]
+                enum: [ASC, DESC]
+                default: null
+
+        paginationPage:
+            name: "pagination:page"
+            in: query
+            description: Page number for paginated results
+            required: false
+            schema:
+                type: [integer, null]
+                minimum: 1
+                default: 1
+            example: 1
+
+        paginationItemsPerPage:
+            name: "pagination:itemsPerPage"
+            in: query
+            description: Number of items per page (applied when pagination:page is used)
+            required: false
+            schema:
+                type: [integer, null]
+                minimum: 1
+                default: 100
+            example: 25
+    responses:
+        NotFound:
+            description: The specified resource was not found
+            content:
+                application/problem+json:
+                    schema:
+                        $ref: "#/components/schemas/Problem"
+                    example:
+                        type: "https://tcgdex.dev/errors/not-found"
+                        title: "Resource Not Found"
+                        status: 404
+                        detail: "The requested resource could not be found"
+                        endpoint: "/v2/cards/invalid-id"
+                        method: "GET"
+        BadRequest:
+            description: The request was invalid
+            content:
+                application/problem+json:
+                    schema:
+                        $ref: "#/components/schemas/Problem"
+                    example:
+                        type: "https://tcgdex.dev/errors/bad-request"
+                        title: "Invalid Request"
+                        status: 400
+                        detail: "The request contains invalid parameters"
+                        endpoint: "/v2/sets/invalid-format"
+                        method: "GET"
+        InternalServerError:
+            description: An unexpected error occurred on the server
+            content:
+                application/problem+json:
+                    schema:
+                        $ref: "#/components/schemas/Problem"
+                    example:
+                        type: "https://tcgdex.dev/errors/server-error"
+                        title: "Internal Server Error"
+                        status: 500
+                        detail: "An unexpected error occurred while processing your request"
+                        endpoint: "/v2/cards"
+                        method: "GET"
+    schemas:
+        Problem:
+            description: RFC 9457 problem details object for API errors
+            type: object
             required:
-              - name
+                - type
+                - title
+                - status
+            properties:
+                type:
+                    type: string
+                    format: uri
+                    description: URI reference that identifies the problem type
+                    example: "https://tcgdex.dev/errors/not-found"
+                title:
+                    type: string
+                    description: Short, human-readable summary of the problem type
+                    example: "The resource you are trying to reach does not exist"
+                status:
+                    type: integer
+                    description: HTTP status code
+                    example: 404
+                detail:
+                    type: string
+                    description: Human-readable explanation specific to this occurrence of the problem
+                    example: "The requested card with ID 'invalid-id' could not be found"
+                endpoint:
+                    type: string
+                    description: The API endpoint that was requested
+                    example: "/v2/i-do-not-exists"
+                method:
+                    type: string
+                    description: The HTTP method used for the request
+                    example: "GET"
+            examples:
+                notFound:
+                    value:
+                        type: "https://tcgdex.dev/errors/not-found"
+                        title: "Resource Not Found"
+                        status: 404
+                        detail: "The requested card with ID 'base1-999' could not be found"
+                        endpoint: "/v2/cards/base1-999"
+                        method: "GET"
+                badRequest:
+                    value:
+                        type: "https://tcgdex.dev/errors/bad-request"
+                        title: "Invalid Request"
+                        status: 400
+                        detail: "The provided parameter 'hp' must be a valid number"
+                        endpoint: "/v2/hp/abc"
+                        method: "GET"
+                serverError:
+                    value:
+                        type: "https://tcgdex.dev/errors/server-error"
+                        title: "Internal Server Error"
+                        status: 500
+                        detail: "An unexpected error occurred while processing your request"
+                        endpoint: "/v2/cards"
+                        method: "GET"
+        WeakRes:
+            xml:
+                name: WeakResItem
+                wrapped: true
             type: object
             properties:
-              cost:
-                type: array
-                description: Energy cost to use this attack
-                items:
-                  type: string
-                  example: "Psychic"
-              name:
-                type: string
-                description: Name of the attack
-                example: "Confuse Ray"
-              effect:
-                type: [string, null]
-                description: Effect text of the attack
-                example: "Flip a coin. If heads, ..."
-              damage:
-                type: [number, string]
-                description: Base damage of the attack (can be string for special damage)
-                example: 30
-        retreat:
-          type: [number, null]
-          description: Retreat cost of the Pokemon
-          example: 3
-        dexId:
-          type: array
-          description: Pokedex number(s) of the Pokemon
-          xml:
-            name: dexIdItem
-            wrapped: true
-          items:
-            type: number
-        weaknesses:
-          type: array
-          description: Types the Pokemon is weak against
-          xml:
-            name: weakness
-            wrapped: true
-          items:
-            $ref: '#/components/schemas/WeakRes'
-        resistances:
-          type: array
-          description: Types the Pokemon is resistant to
-          xml:
-            name: resistance
-            wrapped: true
-          items:
-            $ref: '#/components/schemas/WeakRes'
-        boosters:
-          type: array
-          description: Boosters in which this card is available
-          items:
-            $ref: '#/components/schemas/Booster'
-          example:
-            - id: "boo_A1-mewtwo"
-              name: "Mewtwo"
-              logo: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-logo"
-              artwork_front: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
-              artwork_back: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
-        updated:
-          type: string
-          description: Timestamp of when this card data was last updated
-          format: date-time
-      # xml:
-      #   name: Card
-    StringEndpoint:
-      description: Represents a collection of cards matching a specific string value (for endpoints like types, rarities, etc.)
-      required:
-        - cards
-        - name
-      type: object
-      properties:
-        name:
-          type: string
-          description: The string value this endpoint represents
-        cards:
-          type: array
-          description: Cards matching the specific string value
-          items:
-            $ref: '#/components/schemas/CardResume'
+                type:
+                    type: string
+                    example: "Psychic"
+                value:
+                    type: [string, null]
+                    example: x2
+        Booster:
+            description: Represents a booster pack that contains Pokemon cards
+            required:
+                - id
+                - name
+            type: object
+            properties:
+                id:
+                    type: string
+                    description: The booster ID using format boo_<set_id>-<booster_name>
+                    pattern: "^boo_.*-.*$"
+                    example: "boo_A1-mewtwo"
+                name:
+                    type: string
+                    description: The name of the booster
+                    example: "Mewtwo"
+                logo:
+                    type: [string, null]
+                    description: URL to the logo of the booster
+                    example: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-logo"
+                artwork_front:
+                    type: [string, null]
+                    description: URL to the front artwork of the booster pack
+                    example: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
+                artwork_back:
+                    type: [string, null]
+                    description: URL to the back artwork of the booster pack
+                    example: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-back"
+            examples:
+                complete:
+                    value:
+                        id: "boo_A1-mewtwo"
+                        name: "Mewtwo"
+                        logo: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-logo"
+                        artwork_front: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
+                        artwork_back: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
+                minimal:
+                    value:
+                        id: "boo_base1-base"
+                        name: "Base Set Booster"
+                        logo: null
+                        artwork_front: "https://assets.tcgdex.net/en/base/base1/boosters/base/front"
+                        artwork_back: null
+        SerieResume:
+            description: Basic information about a Pokemon TCG series
+            required:
+                - id
+                - name
+            type: object
+            properties:
+                id:
+                    type: string
+                    description: Unique identifier of the series
+                name:
+                    type: string
+                    description: Name of the series
+                logo:
+                    type: [string, null]
+                    description: URL to the logo of the series
+        Serie:
+            description: Detailed information about a Pokemon TCG series, including all sets within the series
+            required:
+                - id
+                - name
+                - sets
+                - firstSet
+                - lastSet
+                - releaseDate
+            type: object
+            properties:
+                id:
+                    type: string
+                    description: Unique identifier of the series
+                name:
+                    type: string
+                    description: Name of the series
+                logo:
+                    type: string
+                    description: URL to the logo of the series
+                releaseDate:
+                    type: string
+                    format: date
+                    description: Release date of the series
+                firstSet:
+                    $ref: "#/components/schemas/SetResume"
+                    description: The first set released in this series
+                lastSet:
+                    $ref: "#/components/schemas/SetResume"
+                    description: The most recent set released in this series
+                sets:
+                    type: array
+                    description: All sets contained in this series
+                    items:
+                        $ref: "#/components/schemas/SetResume"
+        Set:
+            description: Detailed information about a Pokemon TCG set, including card lists and metadata
+            required:
+                - cardCount
+                - cards
+                - id
+                - name
+                - legal
+                - serie
+                - releaseDate
+            type: object
+            properties:
+                id:
+                    type: string
+                    description: Unique identifier of the set
+                    example: "base1"
+                name:
+                    type: string
+                    description: Name of the set
+                    example: "Base Set"
+                logo:
+                    type: string
+                    description: URL to the logo of the set
+                    example: "https://assets.tcgdex.net/en/base/base1/logo"
+                symbol:
+                    type: [string, null]
+                    description: URL to the set symbol
+                    example: "https://assets.tcgdex.net/univ/base/base1/symbol"
+                serie:
+                    $ref: "#/components/schemas/SerieResume"
+                    description: The series this set belongs to
+                tcgOnline:
+                    type: [string, null]
+                    description: Identifier for this set in Pokemon TCG Online
+                releaseDate:
+                    type: string
+                    format: date
+                    description: Official release date of the set
+                variants:
+                    type: object
+                    description: Indicates which card variants exist in this set
+                    properties:
+                        normal:
+                            type: [boolean, null]
+                            description: Indicates whether normal variants exist
+                        reverse:
+                            type: [boolean, null]
+                            description: Indicates whether reverse holo variants exist
+                        holo:
+                            type: [boolean, null]
+                            description: Indicates whether holo variants exist
+                        firstEdition:
+                            type: [boolean, null]
+                            description: Indicates whether first edition variants exist
+                        wPromo:
+                            type: [boolean, null]
+                            description: Indicates whether promotional variants exist
+                boosters:
+                    type: array
+                    description: The booster packs available in this set
+                    items:
+                        $ref: "#/components/schemas/Booster"
+                    example:
+                        - id: "boo_A1-mewtwo"
+                          name: "Mewtwo"
+                          logo: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-logo"
+                          artwork_front: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
+                          artwork_back: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
+                        - id: "boo_A1-pikachu"
+                          name: "Pikachu"
+                legal:
+                    type: object
+                    description: Information about tournament legality of this set
+                    required:
+                        - standard
+                        - expanded
+                    properties:
+                        standard:
+                            type: boolean
+                            description: Indicates whether this set is legal in standard format tournaments
+                            example: false
+                        expanded:
+                            type: boolean
+                            description: Indicates whether this set is legal in expanded format tournaments
+                            example: true
+                abbreviation:
+                    type: object
+                    description: Common abbreviations used for this set
+                    properties:
+                        official:
+                            type: string
+                            description: The official abbreviation used by Pokemon Company
+                            example: "BS"
+                        localized:
+                            type: string
+                            description: Localized abbreviation used in the current language
+                            example: BS
+                cardCount:
+                    required:
+                        - official
+                        - total
+                    type: object
+                    description: Statistics about the number of cards in this set
+                    properties:
+                        total:
+                            type: number
+                            description: Total number of cards in the set including variants
+                            example: 101
+                        official:
+                            type: number
+                            description: Number of cards officially numbered in the set
+                            example: 100
+                        normal:
+                            type: number
+                            description: Number of cards having a normal variant
+                        reverse:
+                            type: number
+                            description: Number of cards having a reverse holo variant
+                        holo:
+                            type: number
+                            description: Number of cards having a holographic variant
+                        firstEd:
+                            type: [number, null]
+                            description: Number of cards having a first edition variant
+                cards:
+                    type: array
+                    description: List of all cards in this set
+                    items:
+                        $ref: "#/components/schemas/CardResume"
+        SetResume:
+            description: Basic information about a Pokemon TCG set
+            required:
+                - cardCount
+                - id
+                - name
+            type: object
+            properties:
+                id:
+                    type: string
+                    description: Unique identifier of the set
+                    example: base1
+                name:
+                    type: string
+                    description: Name of the set
+                    example: Base Set
+                logo:
+                    type: string
+                    description: URL to the logo of the set
+                    example: https://assets.tcgdex.net/en/base/base1/logo
+                symbol:
+                    type: string
+                    description: URL to the set symbol
+                    example: https://assets.tcgdex.net/univ/base/base1/symbol
+                cardCount:
+                    required:
+                        - official
+                        - total
+                    type: object
+                    description: Statistics about the number of cards in this set
+                    properties:
+                        total:
+                            type: number
+                            description: Total number of cards in the set including variants
+                            example: 101
+                        official:
+                            type: number
+                            description: Number of cards officially numbered in the set
+                            example: 100
+        CardResume:
+            description: Basic information about a Pokemon TCG card
+            required:
+                - id
+                - localId
+                - name
+            type: object
+            properties:
+                id:
+                    type: string
+                    description: Unique identifier of the card
+                    example: "base1-1"
+                localId:
+                    type: string
+                    description: Card number within its set
+                    example: "1"
+                image:
+                    type: [string, null]
+                    description: URL to the card image
+                    example: "https://assets.tcgdex.net/en/base/base1/1"
+                name:
+                    type: string
+                    description: Name of the card (including any suffix)
+                    example: "Alakazam"
+        Card:
+            description: Detailed information about a Pokemon TCG card, including game mechanics
+            required:
+                - category
+                - id
+                - localId
+                - name
+                - rarity
+                - set
+                - legal
+                - updated
+            type: object
+            properties:
+                id:
+                    type: string
+                    description: Unique identifier of the card
+                    example: base1-1
+                localId:
+                    type: string
+                    description: Card number within its set
+                    example: "1"
+                image:
+                    type: string
+                    description: URL to the card image
+                    example: https://assets.tcgdex.net/en/base/base1/1
+                name:
+                    type: string
+                    description: Name of the card (including any suffix)
+                    example: Alakazam
+                pricing:
+                    type: object
+                    description: Pricing information for the card
+                    properties:
+                        tcgplayer:
+                            type: object
+                            properties:
+                                updated:
+                                    type: string
+                                    description: Date and time when the pricing information was last updated
+                                    example: "2023-03-15T12:34:56Z"
+                                unit:
+                                    type: string
+                                    description: Currency unit of the price
+                                    example: "USD"
+                                normal:
+                                    type: object
+                                    properties:
+                                        lowPrice:
+                                            type: number
+                                            description: Lowest price for the card
+                                            example: 1.99
+                                        midPrice:
+                                            type: number
+                                            description: Middle price for the card
+                                            example: 2.99
+                                        highPrice:
+                                            type: number
+                                            description: Highest price for the card
+                                            example: 3.99
+                                        marketPrice:
+                                            type: number
+                                            description: Market price for the card
+                                            example: 2.50
+                                        directLowPrice:
+                                            type: number
+                                            description: Direct low price for the card
+                                            example: 2.00
+                                reverse:
+                                    type: object
+                                    properties:
+                                        lowPrice:
+                                            type: number
+                                            description: Lowest price for the card
+                                            example: 1.99
+                                        midPrice:
+                                            type: number
+                                            description: Middle price for the card
+                                            example: 2.99
+                                        highPrice:
+                                            type: number
+                                            description: Highest price for the card
+                                            example: 3.99
+                                        marketPrice:
+                                            type: number
+                                            description: Market price for the card
+                                            example: 2.50
+                                        directLowPrice:
+                                            type: number
+                                            description: Direct low price for the card
+                                            example: 2.00
+                        cardmarket:
+                            type: object
+                            description: Cardmarket pricing information
+                            properties:
+                                updated:
+                                    type: string
+                                    description: Date and time when the pricing information was last updated
+                                    example: "2023-03-15T12:34:56Z"
+                                unit:
+                                    type: string
+                                    description: Currency unit of the price
+                                    example: "EUR"
+                                avg:
+                                    type: number
+                                    description: Average price of the card
+                                    example: 1.23
+                                low:
+                                    type: number
+                                    description: Lowest price of the card
+                                    example: 0.50
+                                trend:
+                                    type: number
+                                    description: Trend of the card price
+                                    example: 0.10
+                                avg1:
+                                    type: number
+                                    description: Average price of the card in the last 1 day
+                                    example: 1.23
+                                avg7:
+                                    type: number
+                                    description: Average price of the card in the last 7 days
+                                    example: 1.23
+                                avg30:
+                                    type: number
+                                    description: Average price of the card in the last 30 days
+                                    example: 1.23
+                                avg-holo:
+                                    type: number
+                                    description: Average price of the card in the last 30 days, including holographic cards
+                                    example: 1.23
+                                trend-holo:
+                                    type: number
+                                    description: Trend of the card's price in the last 30 days, including holographic cards
+                                    example: 1.23
+                                avg1-holo:
+                                    type: number
+                                    description: Average price of the card in the last 1 day, including holographic cards
+                                    example: 1.23
+                                avg7-holo:
+                                    type: number
+                                    description: Average price of the card in the last 7 days, including holographic cards
+                                    example: 1.23
+                                avg30-holo:
+                                    type: number
+                                    description: Average price of the card in the last 30 days, including holographic cards
+                                    example: 1.23
+                illustrator:
+                    type: [string, null]
+                    description: Artist who illustrated the card
+                    example: "Ken Sugimori"
+                category:
+                    type: string
+                    description: Card category (Pokemon, Trainer, or Energy)
+                    example: "Pokemon"
+                rarity:
+                    type: string
+                    description: Card rarity (Common, Uncommon, Rare, etc.)
+                    example: "Rare"
+                set:
+                    $ref: "#/components/schemas/SetResume"
+                    description: The set this card belongs to
+                variants:
+                    required:
+                        - firstEdition
+                        - holo
+                        - normal
+                        - reverse
+                        - wPromo
+                    type: object
+                    description: Indicates which variants of this card exist (overrides set variants)
+                    properties:
+                        normal:
+                            type: boolean
+                            description: Indicates whether a normal variant exists
+                        reverse:
+                            type: boolean
+                            description: Indicates whether a reverse holo variant exists
+                        holo:
+                            type: boolean
+                            description: Indicates whether a holo variant exists
+                        firstEdition:
+                            type: boolean
+                            description: Indicates whether a first edition variant exists
+                        wPromo:
+                            type: boolean
+                            description: Indicates whether a promotional variant exists
+                variant_detailed:
+                    type: [array, "null"]
+                    description: Detailed information about a card variant
+                    items:
+                        type: object
+                        required:
+                            - type
+                        properties:
+                            type:
+                                type: string
+                                description: The type of variant (e.g., normal, reverse, holo, etc.)
+                            size:
+                                type: string
+                                description: The size of the variant (e.g., standard, jumbo, etc.)
+                                nullable: true
+                            stamp:
+                                type: array
+                                description: The stamps of the variant (e.g., 'Staff', 'Pokemon-Centre', etc.)
+                                items:
+                                    type: string
+                                nullable: true
+                            foil:
+                                type: string
+                                description: The foil of the variant (e.g., 'Pokeball', 'MasterBall', etc.)
+                                nullable: true
+                hp:
+                    type: [number, "null"]
+                    description: Hit Points (HP) of the Pokemon
+                    example: 80
+                types:
+                    type: [array, null]
+                    description: Energy types of the Pokemon
+                    items:
+                        type: string
+                        example: Psychic
+                evolveFrom:
+                    type: [string, null]
+                    description: Name of the Pokemon this evolves from
+                    example: "Kadabra"
+                stage:
+                    type: [string, null]
+                    description: Evolution stage (Basic, Stage 1, Stage 2, etc.)
+                    example: "Stage 2"
+                suffix:
+                    type: [string, null]
+                    description: Special card suffix (EX, GX, V, etc.)
+                item:
+                    required:
+                        - effect
+                        - name
+                    type: object
+                    description: Pokemon's held item information
+                    properties:
+                        name:
+                            type: string
+                            description: Name of the held item
+                        effect:
+                            type: string
+                            description: Effect of the held item
+                trainerType:
+                    type: [string, null]
+                    description: Type of trainer card (Item, Supporter, Stadium, Tool)
+                energyType:
+                    type: [string, null]
+                    description: Type of energy card (Basic, Special)
+                regulationMark:
+                    type: [string, null]
+                    description: Regulation mark on cards (introduced in Sword & Shield)
+                    example: "E"
+                legal:
+                    type: object
+                    description: Information about tournament legality of this card
+                    properties:
+                        standard:
+                            type: boolean
+                            description: Indicates whether this card is legal in standard format tournaments
+                            example: false
+                        expanded:
+                            type: boolean
+                            description: Indicates whether this card is legal in expanded format tournaments
+                            example: true
+                description:
+                    type: [string, null]
+                    description: Descriptive text or flavor text on the card
+                level:
+                    type: [number, string]
+                    description: Level of the Pokemon (can be a string 'X' for LEVEL-UP cards)
+                    example: 42
+                abilities:
+                    type: array
+                    description: Pokemon abilities (Poké-Power, Poké-Body, Ability, etc.)
+                    items:
+                        type: object
+                        properties:
+                            type:
+                                type: string
+                                description: Type of ability (Poké-Power, Poké-Body, Ability, etc.)
+                                example: "Poké-Power"
+                            name:
+                                type: string
+                                description: Name of the ability
+                                example: "Damage Swap"
+                            effect:
+                                type: [string, null]
+                                description: Effect text of the ability
+                                example: "As often as you like..."
+                attacks:
+                    type: array
+                    description: Pokemon attacks
+                    items:
+                        required:
+                            - name
+                        type: object
+                        properties:
+                            cost:
+                                type: array
+                                description: Energy cost to use this attack
+                                items:
+                                    type: string
+                                    example: "Psychic"
+                            name:
+                                type: string
+                                description: Name of the attack
+                                example: "Confuse Ray"
+                            effect:
+                                type: [string, null]
+                                description: Effect text of the attack
+                                example: "Flip a coin. If heads, ..."
+                            damage:
+                                type: [number, string]
+                                description: Base damage of the attack (can be string for special damage)
+                                example: 30
+                retreat:
+                    type: [number, null]
+                    description: Retreat cost of the Pokemon
+                    example: 3
+                dexId:
+                    type: array
+                    description: Pokedex number(s) of the Pokemon
+                    xml:
+                        name: dexIdItem
+                        wrapped: true
+                    items:
+                        type: number
+                weaknesses:
+                    type: array
+                    description: Types the Pokemon is weak against
+                    xml:
+                        name: weakness
+                        wrapped: true
+                    items:
+                        $ref: "#/components/schemas/WeakRes"
+                resistances:
+                    type: array
+                    description: Types the Pokemon is resistant to
+                    xml:
+                        name: resistance
+                        wrapped: true
+                    items:
+                        $ref: "#/components/schemas/WeakRes"
+                boosters:
+                    type: array
+                    description: Boosters in which this card is available
+                    items:
+                        $ref: "#/components/schemas/Booster"
+                    example:
+                        - id: "boo_A1-mewtwo"
+                          name: "Mewtwo"
+                          logo: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-logo"
+                          artwork_front: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
+                          artwork_back: "https://assets.tcgdex.net/en/tcgp/A1/boosters/mewtwo-front"
+                updated:
+                    type: string
+                    description: Timestamp of when this card data was last updated
+                    format: date-time
+            # xml:
+            #   name: Card
+        StringEndpoint:
+            description: Represents a collection of cards matching a specific string value (for endpoints like types, rarities, etc.)
+            required:
+                - cards
+                - name
+            type: object
+            properties:
+                name:
+                    type: string
+                    description: The string value this endpoint represents
+                cards:
+                    type: array
+                    description: Cards matching the specific string value
+                    items:
+                        $ref: "#/components/schemas/CardResume"
