@@ -180,16 +180,16 @@ server
 						.map((c) => c[endpointToField[endpoint]] as string)
 						.filter((c) => c)
 				).sort(betterSorter) satisfies
-					& Response<'/categories'>
-					& Response<'/energy-types'>
-					& Response<'/hp'>
-					& Response<'/illustrators'>
-					& Response<'/rarities'>
-					& Response<'/regulation-marks'>
-					& Response<'/retreats'>
-					& Response<'/stages'>
-					& Response<'/suffixes'>
-					& Response<'/trainer-types'>
+					| Response<'/categories'>
+					| Response<'/energy-types'>
+					| Response<'/hp'>
+					| Response<'/illustrators'>
+					| Response<'/rarities'>
+					| Response<'/regulation-marks'>
+					| Response<'/retreats'>
+					| Response<'/stages'>
+					| Response<'/suffixes'>
+					| Response<'/trainer-types'>
 				break
 			case "types":
 			case "dex-ids":
@@ -263,7 +263,7 @@ server
 				result = {
 					name: parseInt(id, 10),
 					// @ts-expect-error current behavior is normal
-					cards: (await findCards(lang, { dexId: { $eq: parseInt(id, 10) }}))
+					cards: (await findCards(lang, { dexId: { $eq: parseInt(id, 10) } }))
 						.map(toBrief)
 				} satisfies Response<'/dex-ids/{dexId}'> | undefined
 				break
