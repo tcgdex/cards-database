@@ -74,7 +74,7 @@ const card: Card = {
 	illustrator: "Masako Tomii",
 
 	thirdParty: {
-		cardmarket: 769256
+		cardmarket: 812590
 	}
 }
 
