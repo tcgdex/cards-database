@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "MINAMINAMI Take",
 
 	thirdParty: {
-		cardmarket: 760722
+		cardmarket: 760805
 	}
 }
 
