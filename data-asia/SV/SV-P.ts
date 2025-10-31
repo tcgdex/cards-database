@@ -11,9 +11,6 @@ const set: Set = {
 
 	serie: serie,
 
-	cardCount: {
-		official: 0
-	},
 	releaseDate: {
 		'zh-tw': '2023-01-26',
 		id: '2023-03-03',
