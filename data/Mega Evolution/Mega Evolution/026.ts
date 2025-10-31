@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 70,
 	types: ["Fire"],
 	stage: "Basic",
+	dexId: [813],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -51,7 +52,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654365
+		tcgplayer: 654365,
+		cardmarket: 851097
 	}
 }
 

@@ -36,7 +36,7 @@ const card: Card = {
 	illustrator: "Fujimoto Gold",
 
 	thirdParty: {
-		cardmarket: 794551
+		cardmarket: 794618
 	}
 }
 

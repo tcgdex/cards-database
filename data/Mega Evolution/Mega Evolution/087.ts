@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Basic",
+	dexId: [442],
 
 	abilities: [{
 		type: "Ability",
@@ -75,7 +76,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 850911,
+		cardmarket: 851158,
 		tcgplayer: 654426
 	}
 }

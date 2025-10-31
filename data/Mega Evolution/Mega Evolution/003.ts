@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 380,
 	types: ["Grass"],
 	stage: "Stage2",
+	dexId: [3],
 
 	abilities: [{
 		type: "Ability",
@@ -75,7 +76,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654342
+		tcgplayer: 654342,
+		cardmarket: 851074
 	}
 }
 

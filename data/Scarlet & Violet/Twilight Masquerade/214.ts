@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "akagi",
 
 	thirdParty: {
-		cardmarket: 769280
+		cardmarket: 769388
 	}
 }
 

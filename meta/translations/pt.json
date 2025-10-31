@@ -107,7 +107,8 @@
 		"normal": "Normal",
 		"holo": "Holo",
 		"reverse": "Reverse",
-		"metal": "Metal"
+		"metal": "Metal",
+		"lenticular": "lenticular"
 	},
 	"variantSize": {
 		"standard": "Padrão",
@@ -118,7 +119,8 @@
 		"ultraball": "Ultra Bola",
 		"masterball": "Master Bola",
 		"gold": "Ouro",
-		"cosmos": "Cosmo"
+		"cosmos": "Cosmo",
+		"league": "league"
 	},
 	"variantStamp": {
 		"1st Edition": "1ª Edição",
@@ -129,10 +131,20 @@
 		"staff": "Staff",
 		"gamestop": "GameStop",
 		"eb-games": "EB Games",
-		"snowflake": "Floco de Neve"
+		"snowflake": "Floco de Neve",
+		"horizons": "horizons",
+		"illustration-contest-2024": "illustration-contest-2024",
+		"worlds-2025": "worlds-2025",
+		"top-thirty-two": "top-thirty-two",
+		"top-sixteen": "top-sixteen",
+		"top-eight": "top-eight",
+		"semi-finalist": "semi-finalist",
+		"finalist": "finalist",
+		"winner": "winner"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",
-		"unlimited": "ilimitado"
+		"unlimited": "ilimitado",
+		"cosmos": "cosmos"
 	}
 }

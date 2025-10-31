@@ -1,0 +1,40 @@
+import { Card } from "../../../interfaces"
+import Set from "../Mega Rising"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Petilil"
+	},
+
+	illustrator: "Naoki Saito",
+	rarity: "One Diamond",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Grass"],
+
+	description: {
+		en: "If the leaves on its head are pruned with\nregularity, this Pokémon can be grown into\na fine plump shape."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			en: "Flop"
+		},
+
+		damage: 10,
+		cost: ["Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
+	retreat: 1
+}
+
+export default card

@@ -23,14 +23,14 @@ interface variant_detailed {
 	 * - holo: the illustration has a foil
 	 * - reverse: everything but the illustration is foiled
 	 */
-	type: 'normal' | 'holo' | 'reverse' | 'metal'
+	type: 'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
 
 	/**
 	 * Some older sets had specific subtypes for the cards
 	 * i.e Base Set had shadowless with and without a 1st edition stamp.
 	 * and the Unlimited version of the set had no shadow.
 	 */
-	subtype?: 'shadowless' | 'unlimited'
+	subtype?: 'shadowless' | 'unlimited' | 'cosmos'
 	/**
 	 * define the size of the card
 	 * - standard: the classic size of a card
@@ -49,13 +49,17 @@ interface variant_detailed {
 	 * - staff: a card that is stamped with the staff text
 	 * - gamestop: a card that is stamped with the GameStop logo
 	 * - eb-games: a card that is stamped with the EB Games logo
-	 * - snowflake: a card that is stamped with a snowflake (holiday promo)
+	 * - snowflake: a card that is stamped with a snowflake, available in the yearly advent calendar
+	 * - trick-or-trade: a card that is stamped with a pikachu-pumpkin, available in the yearly halloween/trick-or-trade boosters
 	 */
-	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'gamestop' | 'eb-games' | 'snowflake'>
+	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'snowflake' |
+		'trick-or-trade' | 'horizons' | 'illustration-contest-2024' | 'worlds-2025' | 'top-thirty-two' | 'top-sixteen'
+		| 'top-eight' | 'semi-finalist' | 'finalist' | 'winner' | 'gamestop' | 'eb-games'
+	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
-	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos'
+	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'league' | 'cosmos'
 }
 
 interface variants {

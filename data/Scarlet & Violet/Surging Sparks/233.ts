@@ -36,7 +36,7 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 
 	thirdParty: {
-		cardmarket: 794551
+		cardmarket: 794606
 	}
 }
 
