@@ -47,17 +47,19 @@ interface variant_detailed {
 	 * - pokemon-center: a card that is stamped with the Pokémon Center logo
 	 * - set-promo: a card that is stamped with the set logo
 	 * - staff: a card that is stamped with the staff text
+	 * - gamestop: a card that is stamped with the GameStop logo
+	 * - eb-games: a card that is stamped with the EB Games logo
 	 * - snowflake: a card that is stamped with a snowflake, available in the yearly advent calendar
 	 * - trick-or-trade: a card that is stamped with a pikachu-pumpkin, available in the yearly halloween/trick-or-trade boosters
 	 */
 	stamp?: Array<'1st edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'snowflake' |
 		'trick-or-trade' | 'horizons' | 'illustration-contest-2024' | 'worlds-2025' | 'top-thirty-two' | 'top-sixteen'
-		| 'top-eight' | 'semi-finalist' | 'finalist' | 'winner'
+		| 'top-eight' | 'semi-finalist' | 'finalist' | 'winner' | 'gamestop' | 'eb-games'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
-	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'league'
+	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'league' | 'cosmos'
 }
 
 interface variants {

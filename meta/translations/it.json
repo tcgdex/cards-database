@@ -120,6 +120,7 @@
 		"ultraball": "Ultra Ball",
 		"masterball": "Master Ball",
 		"gold": "Oro",
+		"cosmos": "Cosmo",
 		"league": "league"
 	},
 	"variantStamp": {
@@ -129,6 +130,9 @@
 		"set-logo": "Logo set",
 		"pokemon-center": "Pokémon Center",
 		"staff": "Staff",
+		"gamestop": "GameStop",
+		"eb-games": "EB Games",
+		"snowflake": "Fiocco di Neve",
 		"horizons": "horizons",
 		"illustration-contest-2024": "illustration-contest-2024",
 		"worlds-2025": "worlds-2025",
