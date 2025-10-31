@@ -27,7 +27,7 @@ const card: Card = {
 		en: "Voltorb",
 	},
 
-	stage: "Basic",
+	stage: "Stage 1",
 
 	abilities: [
 		{
