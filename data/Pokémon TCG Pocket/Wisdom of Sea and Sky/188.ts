@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kingdra ex"
+		en: "Kingdra ex",
+		fr: "Hyporoi-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -23,14 +24,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Stormy Prison"
+			en: "Stormy Prison",
+			fr: "Prison Tempétueuse"
 		},
 
 		damage: 90,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat."
+			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
 		}
 	}],
 

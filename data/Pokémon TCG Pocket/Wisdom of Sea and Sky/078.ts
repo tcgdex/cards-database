@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Togepi"
+		en: "Togepi",
+		fr: "Togepi"
 	},
 
 	illustrator: "Sekio",
@@ -15,20 +16,23 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "The shell seems to be filled with joy. It is said\nthat it will share good luck when treated kindly."
+		en: "The shell seems to be filled with joy. It is said\nthat it will share good luck when treated kindly.",
+		fr: "Sa coquille est remplie de joie. On dit que s'il est bien traité, il porte chance."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Charm"
+			en: "Charm",
+			fr: "Charme"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, attacks used by the Defending Pokémon do −20 damage."
+			en: "During your opponent's next turn, attacks used by the Defending Pokémon do −20 damage.",
+			fr: "Pendant le prochain tour de votre adversaire, les attaques utilisées par le Pokémon Défenseur infligent − 20 dégâts."
 		}
 	}],
 

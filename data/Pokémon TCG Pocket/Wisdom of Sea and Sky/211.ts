@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lugia ex"
+		en: "Lugia ex",
+		fr: "Lugia-ex"
 	},
 
 	illustrator: "SIE NANAHARA",
@@ -18,14 +19,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Elemental Blast"
+			en: "Elemental Blast",
+			fr: "Explosion Élémentaire"
 		},
 
 		damage: 180,
 		cost: ["Fire", "Water", "Lightning"],
 
 		effect: {
-			en: "Discard a {R}, {W}, and {L} Energy from this Pokémon."
+			en: "Discard a {R}, {W}, and {L} Energy from this Pokémon.",
+			fr: "Défaussez une Énergie {R}, {W} et {L} de ce Pokémon."
 		}
 	}],
 

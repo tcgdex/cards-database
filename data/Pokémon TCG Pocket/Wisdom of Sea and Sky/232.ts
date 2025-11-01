@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yanmega ex"
+		en: "Yanmega ex",
+		fr: "Yanmega-ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -23,14 +24,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Air Slash"
+			en: "Air Slash",
+			fr: "Lame d'Air"
 		},
 
 		damage: 120,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Discard a random Energy from this Pokémon."
+			en: "Discard a random Energy from this Pokémon.",
+			fr: "Défaussez une Énergie au hasard de ce Pokémon."
 		}
 	}],
 

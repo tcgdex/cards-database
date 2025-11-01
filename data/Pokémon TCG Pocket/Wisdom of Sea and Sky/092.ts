@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Onix"
+		en: "Onix",
+		fr: "Onix"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "As it digs through the ground, it absorbs many\nhard objects. This is what makes its body so solid."
+		en: "As it digs through the ground, it absorbs many\nhard objects. This is what makes its body so solid.",
+		fr: "Il absorbe des éléments solides en creusant le sol, ce qui le rend plus robuste."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule"
 		},
 
 		damage: 50,

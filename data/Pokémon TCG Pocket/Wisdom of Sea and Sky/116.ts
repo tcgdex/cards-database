@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weavile"
+		en: "Weavile",
+		fr: "Dimoret"
 	},
 
 	illustrator: "kawayoo",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Evolution made it even more devious.\nIt communicates by clawing signs in boulders."
+		en: "Evolution made it even more devious.\nIt communicates by clawing signs in boulders.",
+		fr: "L'évolution l'a rendu encore plus retors. Il communique en gravant des marques dans les pierres avec ses griffes."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slash"
+			en: "Slash",
+			fr: "Tranche"
 		},
 
 		damage: 50,

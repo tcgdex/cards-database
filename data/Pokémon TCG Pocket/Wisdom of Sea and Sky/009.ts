@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bayleef"
+		en: "Bayleef",
+		fr: "Macronium"
 	},
 
 	illustrator: "Mizue",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A spicy aroma emanates from around its neck.\nThe aroma acts as a stimulant to restore health."
+		en: "A spicy aroma emanates from around its neck.\nThe aroma acts as a stimulant to restore health.",
+		fr: "Un arôme épicé émane de son cou. Il agit comme un stimulant et lui fait récupérer son énergie."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Vine Whip"
+			en: "Vine Whip",
+			fr: "Fouet Lianes"
 		},
 
 		damage: 40,

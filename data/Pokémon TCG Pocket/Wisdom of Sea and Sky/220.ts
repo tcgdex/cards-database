@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Misdreavus"
+		en: "Misdreavus",
+		fr: "Feuforêve"
 	},
 
 	illustrator: "MAHOU",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "This Pokémon startles people in the middle of\nthe night. It gathers fear as its energy."
+		en: "This Pokémon startles people in the middle of\nthe night. It gathers fear as its energy.",
+		fr: "Il fait peur aux gens en pleine nuit et se nourrit de leur frayeur."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mumble"
+			en: "Mumble",
+			fr: "Murmure"
 		},
 
 		damage: 20,

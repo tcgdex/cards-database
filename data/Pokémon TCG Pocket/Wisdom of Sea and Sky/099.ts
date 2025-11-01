@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Phanpy"
+		en: "Phanpy",
+		fr: "Phanpy"
 	},
 
 	illustrator: "Midori Harada",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "This Pokémon lives and nests on a riverbank.\nAfter playing in the mud, it won't be able to\nsettle down unless it washes its body."
+		en: "This Pokémon lives and nests on a riverbank.\nAfter playing in the mud, it won't be able to\nsettle down unless it washes its body.",
+		fr: "Les Phanpy vivent dans les trous qu'ils creusent, près des rivières. Après avoir joué dans la boue, ils ont besoin de faire leur toilette pour se calmer."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Reckless Charge"
+			en: "Reckless Charge",
+			fr: "Attaque Imprudente"
 		},
 
 		damage: 30,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself."
+			en: "This Pokémon also does 10 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 10 dégâts."
 		}
 	}],
 

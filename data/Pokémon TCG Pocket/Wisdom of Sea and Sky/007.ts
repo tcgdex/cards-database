@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pinsir"
+		en: "Pinsir",
+		fr: "Scarabrute"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "These Pokémon judge one another based on\npincers. Thicker, more impressive pincers make\nfor more popularity with the opposite gender."
+		en: "These Pokémon judge one another based on\npincers. Thicker, more impressive pincers make\nfor more popularity with the opposite gender.",
+		fr: "Ses cornes déterminent son rang au sein du groupe. Plus elles sont imposantes, plus les membres du sexe opposé l'apprécient."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Guillotine"
+			en: "Guillotine",
+			fr: "Guillotine"
 		},
 
 		damage: 70,

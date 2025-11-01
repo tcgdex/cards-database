@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ambipom"
+		en: "Ambipom",
+		fr: "Capidextre"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It uses its tails for everything. If it wraps both\nof its tails around you and gives you a squeeze,\nthat's proof it really likes you."
+		en: "It uses its tails for everything. If it wraps both\nof its tails around you and gives you a squeeze,\nthat's proof it really likes you.",
+		fr: "Il utilise toujours ses deux queues pour faire la moindre tâche. Il s'en sert aussi pour enlacer les gens qu'il affectionne tout particulièrement."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Tail Jab"
+			en: "Tail Jab",
+			fr: "Coup d'Queue"
 		},
 
 		damage: 40,

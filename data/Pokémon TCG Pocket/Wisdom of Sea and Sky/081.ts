@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Natu"
+		en: "Natu",
+		fr: "Natu"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It is extremely good at climbing tree trunks and\nlikes to eat the new sprouts on the trees."
+		en: "It is extremely good at climbing tree trunks and\nlikes to eat the new sprouts on the trees.",
+		fr: "Il est très doué pour grimper aux arbres et ainsi manger les bourgeons dont il raffole."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			en: "Peck",
+			fr: "Picpic"
 		},
 
 		damage: 20,

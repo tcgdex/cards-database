@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scizor"
+		en: "Scizor",
+		fr: "Cizayox"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon's pincers, which contain steel, can\ncrush any hard object they get ahold of into bits."
+		en: "This Pokémon's pincers, which contain steel, can\ncrush any hard object they get ahold of into bits.",
+		fr: "Les pinces de ce Pokémon contiennent de l'acier et peuvent réduire quasiment n'importe quoi en miettes."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Gale Thrust"
+			en: "Gale Thrust",
+			fr: "Coup d'Bourrasque"
 		},
 
 		damage: 50,
 		cost: ["Metal", "Metal"],
 
 		effect: {
-			en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 50 more damage."
+			en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 50 more damage.",
+			fr: "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque inflige 50 dégâts supplémentaires."
 		}
 	}],
 

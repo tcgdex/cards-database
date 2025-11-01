@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowpoke"
+		en: "Slowpoke",
+		fr: "Ramoloss"
 	},
 
 	illustrator: "Aya Kusube",
@@ -15,20 +16,23 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It is incredibly slow and dopey. It takes five\nseconds for it to feel pain when under attack."
+		en: "It is incredibly slow and dopey. It takes five\nseconds for it to feel pain when under attack.",
+		fr: "Ce Pokémon est très lent et apathique. Il lui faut cinq secondes pour ressentir la douleur provoquée par une attaque."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rest"
+			en: "Rest",
+			fr: "Repos"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "This Pokémon is now Asleep. Heal 30 damage from it."
+			en: "This Pokémon is now Asleep. Heal 30 damage from it.",
+			fr: "Ce Pokémon est maintenant Endormi. Soignez 30 dégâts à ce Pokémon."
 		}
 	}],
 

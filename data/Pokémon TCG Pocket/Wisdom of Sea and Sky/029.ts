@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Typhlosion"
+		en: "Typhlosion",
+		fr: "Typhlosion"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -19,7 +20,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If its rage peaks, it becomes so hot that anything\nthat touches it will instantly go up in flames."
+		en: "If its rage peaks, it becomes so hot that anything\nthat touches it will instantly go up in flames.",
+		fr: "Quand sa colère atteint son paroxysme son corps devient si chaud que tout ce qu'il touche s'enflamme instantanément."
 	},
 
 	stage: "Stage2",
@@ -28,17 +30,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fire Breath"
+			en: "Fire Breath",
+			fr: "Haleine de Feu"
 		},
 
 		effect: {
-			en: "Once during your turn, you may make your opponent's Active Pokémon Burned."
+			en: "Once during your turn, you may make your opponent's Active Pokémon Burned.",
+			fr: "Une fois pendant votre tour, vous pouvez laisser le Pokémon Actif de votre adversaire Brûlé."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Magma Punch"
+			en: "Magma Punch",
+			fr: "Poing Magma"
 		},
 
 		damage: 60,

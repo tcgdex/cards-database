@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swinub"
+		en: "Swinub",
+		fr: "Marcacrin"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It rubs its snout on the ground to find and dig up\nfood. It sometimes discovers hot springs."
+		en: "It rubs its snout on the ground to find and dig up\nfood. It sometimes discovers hot springs.",
+		fr: "Il creuse le sol avec son groin pour y dénicher de la nourriture. Il trouve parfois des sources d'eau chaude."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mud-Slap"
+			en: "Mud-Slap",
+			fr: "Coud'Boue"
 		},
 
 		damage: 30,

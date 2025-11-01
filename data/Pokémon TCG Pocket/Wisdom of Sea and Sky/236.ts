@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pachirisu ex"
+		en: "Pachirisu ex",
+		fr: "Pachirisu-ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -18,14 +19,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sparking Gadget"
+			en: "Sparking Gadget",
+			fr: "Gadget'incelles"
 		},
 
 		damage: 40,
 		cost: ["Lightning", "Lightning"],
 
 		effect: {
-			en: "If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage."
+			en: "If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage.",
+			fr: "Si un Outil Pokémon est attaché à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires."
 		}
 	}],
 

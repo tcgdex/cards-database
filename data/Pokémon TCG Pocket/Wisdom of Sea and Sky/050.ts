@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Azumarill"
+		en: "Azumarill",
+		fr: "Azumarill"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -19,7 +20,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its long ears are superb sensors. It can distinguish\nthe movements of things in water and tell what\nthey are."
+		en: "Its long ears are superb sensors. It can distinguish\nthe movements of things in water and tell what\nthey are.",
+		fr: "Ses longues oreilles lui permettent d'entendre tout ce qui se passe sous l'eau de manière très distincte."
 	},
 
 	stage: "Stage1",
@@ -28,17 +30,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Thick Fat"
+			en: "Thick Fat",
+			fr: "Isograisse"
 		},
 
 		effect: {
-			en: "This Pokémon takes −30 damage from attacks from {R} or {W} Pokémon."
+			en: "This Pokémon takes −30 damage from attacks from {R} or {W} Pokémon.",
+			fr: "Ce Pokémon subit − 30 dégâts provenant des attaques des Pokémon {R} ou {W}."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Tail Smack"
+			en: "Tail Smack",
+			fr: "Coup de Queue"
 		},
 
 		damage: 60,

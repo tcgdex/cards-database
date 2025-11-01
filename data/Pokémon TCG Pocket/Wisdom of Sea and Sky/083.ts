@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Espeon ex"
+		en: "Espeon ex",
+		fr: "Mentali-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -25,17 +26,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Psychic Healing"
+			en: "Psychic Healing",
+			fr: "Soin Psy"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is in the Active Spot, you may heal 30 damage from 1 of your Pokémon."
+			en: "Once during your turn, if this Pokémon is in the Active Spot, you may heal 30 damage from 1 of your Pokémon.",
+			fr: "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez soigner 30 dégâts d'un de vos Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Super Psy Bolt"
+			en: "Super Psy Bolt",
+			fr: "Super Psy"
 		},
 
 		damage: 80,

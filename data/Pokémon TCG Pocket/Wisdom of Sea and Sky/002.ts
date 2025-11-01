@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gloom"
+		en: "Gloom",
+		fr: "Ortide"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its pistils exude an incredibly foul odor.\nThe horrid stench can cause fainting at a distance\nof 1.25 miles."
+		en: "Its pistils exude an incredibly foul odor.\nThe horrid stench can cause fainting at a distance\nof 1.25 miles.",
+		fr: "Ses pistils sécrètent une odeur incroyablement fétide qui fait perdre connaissance à ses adversaires jusqu'à 2 km à la ronde."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Leaf Step"
+			en: "Leaf Step",
+			fr: "Enjambée de Feuillage"
 		},
 
 		damage: 40,

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Unown"
+		en: "Unown",
+		fr: "Zarbi"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Its flat, thin body is always stuck on walls. Its shape\nappears to have some meaning."
+		en: "Its flat, thin body is always stuck on walls. Its shape\nappears to have some meaning.",
+		fr: "Son corps plat et fin est toujours collé aux murs. On pense que sa forme a une signification."
 	},
 
 	stage: "Basic",
@@ -24,17 +26,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "POWER"
+			en: "POWER",
+			fr: "POWER"
 		},
 
 		effect: {
-			en: "This Ability works if you have any Unown in play with an Ability other than . Attacks used by your Pokémon do +10 damage to your opponent's Active Pokémon."
+			en: "This Ability works if you have any Unown in play with an Ability other than . Attacks used by your Pokémon do +10 damage to your opponent's Active Pokémon.",
+			fr: "Ce talent s'active si vous avez une carte Zarbi en jeu avec un talent autre que Power. Les attaques de vos Pokémon infligent + 10 dégâts au Pokémon Actif de votre adversaire."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Hidden Power"
+			en: "Hidden Power",
+			fr: "Puissance Cachée"
 		},
 
 		damage: 20,

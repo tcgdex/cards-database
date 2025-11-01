@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stantler"
+		en: "Stantler",
+		fr: "Cerfrousse"
 	},
 
 	illustrator: "sui",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "This Pokémon apparently used to live in much\nharsher environments, and thus it once had\nstronger psychic powers than it does now."
+		en: "This Pokémon apparently used to live in much\nharsher environments, and thus it once had\nstronger psychic powers than it does now.",
+		fr: "Il paraît qu'autrefois, il était doté de plus grands pouvoirs psychiques, car il vivait dans un environnement hostile."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Enhanced Horns"
+			en: "Enhanced Horns",
+			fr: "Cornes Améliorées"
 		},
 
 		damage: 20,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon has a Pokémon Tool attached, this attack does 50 more damage."
+			en: "If this Pokémon has a Pokémon Tool attached, this attack does 50 more damage.",
+			fr: "Si un Outil Pokémon est attaché à ce Pokémon, cette attaque inflige 50 dégâts supplémentaires."
 		}
 	}],
 

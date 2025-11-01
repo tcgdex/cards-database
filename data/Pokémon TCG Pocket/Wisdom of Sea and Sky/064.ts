@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chinchou"
+		en: "Chinchou",
+		fr: "Loupio"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Its antennae, which evolved from a fin, have both\npositive and negative charges flowing through them."
+		en: "Its antennae, which evolved from a fin, have both\npositive and negative charges flowing through them.",
+		fr: "Ses antennes proviennent d'anciennes nageoires et sont chargées d'énergies positive et négative."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Lightning Ball"
+			en: "Lightning Ball",
+			fr: "Boule Éclair"
 		},
 
 		damage: 10,

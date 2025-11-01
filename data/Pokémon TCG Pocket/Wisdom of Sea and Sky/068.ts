@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flaaffy"
+		en: "Flaaffy",
+		fr: "Lainergie"
 	},
 
 	illustrator: "MAHOU",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "As a result of storing too much electricity,\nit developed patches where even downy\nwool won't grow."
+		en: "As a result of storing too much electricity,\nit developed patches where even downy\nwool won't grow.",
+		fr: "Il a emmagasiné tellement d'électricité que sa laine ne peut plus repousser à certains endroits de son corps."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Zap Kick"
+			en: "Zap Kick",
+			fr: "Coup de Pied Ravageur"
 		},
 
 		damage: 50,

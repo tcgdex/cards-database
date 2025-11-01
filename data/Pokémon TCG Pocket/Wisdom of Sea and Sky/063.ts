@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swanna"
+		en: "Swanna",
+		fr: "Lakmécygne"
 	},
 
 	illustrator: "chibi",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Despite their elegant appearance, they can flap\ntheir wings strongly and fly for thousands of miles."
+		en: "Despite their elegant appearance, they can flap\ntheir wings strongly and fly for thousands of miles.",
+		fr: "Un Pokémon gracieux, mais aussi robuste. Il peut voler des milliers de kilomètres grâce à ses ailes puissantes."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Feathery Cyclone"
+			en: "Feathery Cyclone",
+			fr: "Cyclone de Plumes"
 		},
 
 		damage: 60,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Move all Energy from this Pokémon to 1 of your Benched Pokémon."
+			en: "Move all Energy from this Pokémon to 1 of your Benched Pokémon.",
+			fr: "Déplacez toute l'Énergie de ce Pokémon vers un de vos Pokémon de Banc."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Umbreon ex"
+		en: "Umbreon ex",
+		fr: "Noctali-ex"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -25,17 +26,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Dark Chase"
+			en: "Dark Chase",
+			fr: "Poursuite des Ténèbres"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is in the Active Spot, you may switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot."
+			en: "Once during your turn, if this Pokémon is in the Active Spot, you may switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot.",
+			fr: "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez envoyer un des Pokémon de Banc de votre adversaire ayant subi des dégâts sur le Poste Actif."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Darkness Fang"
+			en: "Darkness Fang",
+			fr: "Croc Obscur"
 		},
 
 		damage: 80,

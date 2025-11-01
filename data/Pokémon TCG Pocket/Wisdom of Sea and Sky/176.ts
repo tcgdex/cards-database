@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gligar"
+		en: "Gligar",
+		fr: "Scorplane"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It usually clings to cliffs. When it spots its prey,\nit spreads its wings and glides down to attack."
+		en: "It usually clings to cliffs. When it spots its prey,\nit spreads its wings and glides down to attack.",
+		fr: "Il s'accroche souvent aux falaises. Sa proie repérée, il plane vers elle pour l'attaquer."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Glide"
+			en: "Glide",
+			fr: "Glissement"
 		},
 
 		damage: 10,

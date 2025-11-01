@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Steelix"
+		en: "Steelix",
+		fr: "Steelix"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It is said that if an Onix lives for over 100 years,\nits composition changes to become diamond-like."
+		en: "It is said that if an Onix lives for over 100 years,\nits composition changes to become diamond-like.",
+		fr: "On raconte qu'il s'agit d'un Onix de plus de 100 ans dont la structure corporelle s'est rapprochée de celle du diamant."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heavy Impact"
+			en: "Heavy Impact",
+			fr: "Gros Impact"
 		},
 
 		damage: 110,
