@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgeot ex"
+		en: "Pidgeot ex",
+		fr: "Roucarnage-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -22,14 +23,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Scattering Cyclone"
+			en: "Scattering Cyclone",
+			fr: "Cyclone Ravageur"
 		},
 
 		damage: 80,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 20 more damage for each of your opponent's Benched Pokémon."
+			en: "This attack does 20 more damage for each of your opponent's Benched Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc de votre adversaire."
 		}
 	}],
 

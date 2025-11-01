@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandygast"
+		en: "Sandygast",
+		fr: "Bacabouh"
 	},
 
 	illustrator: "Yuka Morii",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "If it loses its shovel, it will stick something\nelse—like a branch—in its head to make\ndo until it finds another shovel."
+		en: "If it loses its shovel, it will stick something\nelse—like a branch—in its head to make\ndo until it finds another shovel.",
+		fr: "S'il perd sa pelle, il la remplacera par un autre objet, comme une branche, en attendant d'en trouver une nouvelle."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sandy Shot"
+			en: "Sandy Shot",
+			fr: "Tir Sableux"
 		},
 
 		damage: 30,

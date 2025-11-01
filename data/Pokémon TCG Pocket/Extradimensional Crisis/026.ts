@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Morelull"
+		en: "Morelull",
+		fr: "Spododo"
 	},
 
 	illustrator: "Midori Harada",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It scatters spores that flicker and glow. Anyone\nseeing these lights falls into a deep slumber."
+		en: "It scatters spores that flicker and glow. Anyone\nseeing these lights falls into a deep slumber.",
+		fr: "Il répand des spores luminescentes qui clignotent autour de lui. Quiconque aperçoit ces lumières tombe dans un sommeil profond."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Hook"
+			en: "Hook",
+			fr: "Crochet"
 		},
 
 		damage: 20,

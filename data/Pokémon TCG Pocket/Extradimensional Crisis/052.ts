@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ferrothorn"
+		en: "Ferrothorn",
+		fr: "Noacier"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -19,7 +20,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon scrapes its spikes across rocks,\nand then uses the tips of its feelers to absorb\nthe nutrients it finds within the stone."
+		en: "This Pokémon scrapes its spikes across rocks,\nand then uses the tips of its feelers to absorb\nthe nutrients it finds within the stone.",
+		fr: "Il fissure la roche avec ses épines pour ensuite absorber les nutriments qui s'y trouvent grâce à l'extrémité de ses tentacules."
 	},
 
 	stage: "Stage1",
@@ -28,17 +30,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Steel Spikes"
+			en: "Steel Spikes",
+			fr: "Épines d'Acier"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon.",
+			fr: "Si ce Pokémon est sur le Poste Actif et subit les dégâts d'une attaque d'un Pokémon de votre adversaire, le Pokémon Attaquant subit 20 dégâts."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Spinning Attack"
+			en: "Spinning Attack",
+			fr: "Attaque Tournante"
 		},
 
 		damage: 70,

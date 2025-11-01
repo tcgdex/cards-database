@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Meowth"
+		en: "Alolan Meowth",
+		fr: "Miaouss d'Alola"
 	},
 
 	illustrator: "Mina Nakai",
@@ -15,20 +16,23 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It's accustomed to luxury because it\nused to live with Alolan royalty. As a\nresult, it's very picky about food."
+		en: "It's accustomed to luxury because it\nused to live with Alolan royalty. As a\nresult, it's very picky about food.",
+		fr: "Par le passé, il menait une vie de luxe auprès de la famille royale d'Alola, et il en a gardé des goûts alimentaires très sélectifs."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Meddle"
+			en: "Meddle",
+			fr: "Intrusion"
 		},
 
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Discard a random Pokémon Tool card from your opponent's hand."
+			en: "Discard a random Pokémon Tool card from your opponent's hand.",
+			fr: "Défaussez au hasard une carte Outil Pokémon de la main de votre adversaire."
 		}
 	}],
 

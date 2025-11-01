@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aerodactyl"
+		en: "Aerodactyl",
+		fr: "Ptéra"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -18,20 +19,23 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This is a ferocious Pokémon from ancient times.\nApparently even modern technology is incapable\nof producing a perfectly restored specimen."
+		en: "This is a ferocious Pokémon from ancient times.\nApparently even modern technology is incapable\nof producing a perfectly restored specimen.",
+		fr: "On raconte qu'aujourd'hui encore, il est impossible de restaurer à la perfection ce Pokémon féroce de l'ère préhistorique."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Primal Wingbeat"
+			en: "Primal Wingbeat",
+			fr: "Aile Primitive"
 		},
 
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent shuffles their Active Pokémon into their deck."
+			en: "Flip a coin. If heads, your opponent shuffles their Active Pokémon into their deck.",
+			fr: "Lancez une pièce. Si c'est face, votre adversaire mélange son Pokémon Actif avec son deck."
 		}
 	}],
 

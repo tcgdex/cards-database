@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgeot"
+		en: "Pidgeot",
+		fr: "Roucarnage"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -18,7 +19,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When hunting, it skims the surface of water\nat high speed to pick off unwary prey such\nas Magikarp."
+		en: "When hunting, it skims the surface of water\nat high speed to pick off unwary prey such\nas Magikarp.",
+		fr: "Il survole la surface de l'eau pour repérer une proie et plonge en piqué pour l'attraper."
 	},
 
 	stage: "Stage2",
@@ -27,17 +29,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Drive Off"
+			en: "Drive Off",
+			fr: "Déroute"
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+			en: "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			fr: "Une fois pendant votre tour, vous pouvez échanger le Pokémon Actif de votre adversaire contre l'un de ses Pokémon de Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Wing Attack"
+			en: "Wing Attack",
+			fr: "Cru-Ailes"
 		},
 
 		damage: 70,
