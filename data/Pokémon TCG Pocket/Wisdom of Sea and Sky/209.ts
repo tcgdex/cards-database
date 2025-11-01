@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skarmory ex"
+		en: "Skarmory ex",
+		fr: "Airmure-ex"
 	},
 
 	illustrator: "toriyufu",
@@ -18,14 +19,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Steel Wing"
+			en: "Steel Wing",
+			fr: "Ailes d'Acier"
 		},
 
 		damage: 70,
 		cost: ["Metal", "Metal"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit − 20 dégâts provenant des attaques."
 		}
 	}],
 

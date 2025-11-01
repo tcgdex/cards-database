@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nidoran♂"
+		en: "Nidoran♂",
+		fr: "Nidoran♂"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "The horn on a male Nidoran's forehead contains\na powerful poison. This is a very cautious\nPokémon, always straining its large ears."
+		en: "The horn on a male Nidoran's forehead contains\na powerful poison. This is a very cautious\nPokémon, always straining its large ears.",
+		fr: "Sa corne frontale contient un puissant poison. Les grandes oreilles de ce Pokémon très prudent sont constamment dressées."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			en: "Peck",
+			fr: "Picpic"
 		},
 
 		damage: 20,

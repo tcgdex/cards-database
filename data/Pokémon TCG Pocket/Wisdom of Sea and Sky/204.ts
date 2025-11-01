@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lanturn ex"
+		en: "Lanturn ex",
+		fr: "Lanturn-ex"
 	},
 
 	illustrator: "Fujimoto Gold",
@@ -23,14 +24,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flashing Signal"
+			en: "Flashing Signal",
+			fr: "Signaux Aveuglants"
 		},
 
 		damage: 80,
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed. If tails, your opponent's Active Pokémon is now Confused."
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed. If tails, your opponent's Active Pokémon is now Confused.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé. Si c'est pile, le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}],
 

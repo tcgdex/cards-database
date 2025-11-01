@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gliscor"
+		en: "Gliscor",
+		fr: "Scorvol"
 	},
 
 	illustrator: "Shiburingaru",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It observes prey while hanging inverted from\nbranches. When the chance presents itself,\nit swoops!"
+		en: "It observes prey while hanging inverted from\nbranches. When the chance presents itself,\nit swoops!",
+		fr: "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Sharp Fang"
+			en: "Sharp Fang",
+			fr: "Croc Aiguisé"
 		},
 
 		damage: 60,

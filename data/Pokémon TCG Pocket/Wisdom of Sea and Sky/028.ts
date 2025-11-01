@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Quilava"
+		en: "Quilava",
+		fr: "Feurisson"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Before battle, it turns its back on its opponent to\ndemonstrate how ferociously its fire blazes."
+		en: "Before battle, it turns its back on its opponent to\ndemonstrate how ferociously its fire blazes.",
+		fr: "Avant chaque combat, il tourne le dos à l'adversaire pour lui montrer ses flammes dans toute leur splendeur."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Combustion"
+			en: "Combustion",
+			fr: "Fournaise"
 		},
 
 		damage: 30,

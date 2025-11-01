@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hoothoot"
+		en: "Hoothoot",
+		fr: "Hoothoot"
 	},
 
 	illustrator: "Yumi",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It always stands on one foot. It changes feet so\nfast, the movement can rarely be seen."
+		en: "It always stands on one foot. It changes feet so\nfast, the movement can rarely be seen.",
+		fr: "Il se tient toujours sur un pied. Il en change si vite qu'on peut à peine distinguer ce mouvement."
 	},
 
 	stage: "Basic",
@@ -24,17 +26,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Insomnia"
+			en: "Insomnia",
+			fr: "Insomnia"
 		},
 
 		effect: {
-			en: "This Pokémon can't be Asleep."
+			en: "This Pokémon can't be Asleep.",
+			fr: "Ce Pokémon ne peut pas être Endormi."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Wing Attack"
+			en: "Wing Attack",
+			fr: "Cru-Ailes"
 		},
 
 		damage: 30,

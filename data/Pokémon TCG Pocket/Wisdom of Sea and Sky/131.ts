@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chansey"
+		en: "Chansey",
+		fr: "Leveinard"
 	},
 
 	illustrator: "miki kudo",
@@ -15,20 +16,23 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "This kindly Pokémon lays highly nutritious eggs\nand shares them with injured Pokémon or people."
+		en: "This kindly Pokémon lays highly nutritious eggs\nand shares them with injured Pokémon or people.",
+		fr: "Ce Pokémon très serviable distribue ses œufs hautement nutritifs aux êtres humains et aux Pokémon blessés."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Scrunch"
+			en: "Scrunch",
+			fr: "Compresse"
 		},
 
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks."
+			en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+			fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques."
 		}
 	}],
 

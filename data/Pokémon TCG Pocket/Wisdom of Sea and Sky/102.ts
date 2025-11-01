@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hitmontop"
+		en: "Hitmontop",
+		fr: "Kapoera"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It launches kicks while spinning. If it spins at high\nspeed, it may bore its way into the ground."
+		en: "It launches kicks while spinning. If it spins at high\nspeed, it may bore its way into the ground.",
+		fr: "Il assène des coups de pied tout en tournant sur lui-même. Il va parfois si vite qu'il commence à s'enfoncer dans le sol."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Piercing Spin"
+			en: "Piercing Spin",
+			fr: "Pirouette Perçante"
 		},
 
 		damage: 20,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+			en: "This attack also does 20 damage to 1 of your opponent's Benched Pokémon.",
+			fr: "Cette attaque inflige aussi 20 dégâts à un des Pokémon de Banc de votre adversaire."
 		}
 	}],
 

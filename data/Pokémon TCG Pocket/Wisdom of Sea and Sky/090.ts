@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Munna"
+		en: "Munna",
+		fr: "Munna"
 	},
 
 	illustrator: "miki kudo",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Late at night, it appears beside people's pillows.\nAs it feeds on dreams, the patterns on its body\ngive off a faint glow."
+		en: "Late at night, it appears beside people's pillows.\nAs it feeds on dreams, the patterns on its body\ngive off a faint glow.",
+		fr: "Il apparaît en pleine nuit, à côté de l'oreiller. Quand il se nourrit de rêves, les motifs de son corps luisent légèrement."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Psyshot"
+			en: "Psyshot",
+			fr: "Piqûre Psy"
 		},
 
 		damage: 20,

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cyndaquil"
+		en: "Cyndaquil",
+		fr: "Héricendre"
 	},
 
 	illustrator: "buchi",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It is timid and always curls itself up in a ball.\nIf attacked, it flares up its back for protection."
+		en: "It is timid and always curls itself up in a ball.\nIf attacked, it flares up its back for protection.",
+		fr: "Il est timide et se roule en boule pour se protéger. Attaqué, il s'enflamme le dos pour riposter."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flare"
+			en: "Flare",
+			fr: "Flamboiement"
 		},
 
 		damage: 20,

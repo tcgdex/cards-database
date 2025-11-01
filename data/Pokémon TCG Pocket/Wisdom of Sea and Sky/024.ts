@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cherrim"
+		en: "Cherrim",
+		fr: "Ceriflor"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "After absorbing plenty of sunlight, Cherrim takes\nthis form. It's full of energy while it's like this,\nand its liveliness will go on until sundown."
+		en: "After absorbing plenty of sunlight, Cherrim takes\nthis form. It's full of energy while it's like this,\nand its liveliness will go on until sundown.",
+		fr: "Il prend cette forme lorsqu'il a fait le plein de soleil. Il déborde alors d'énergie et reste très actif jusqu'au crépuscule."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Seed Bomb"
+			en: "Seed Bomb",
+			fr: "Canon Graine"
 		},
 
 		damage: 40,

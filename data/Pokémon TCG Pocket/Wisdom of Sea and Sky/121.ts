@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Forretress"
+		en: "Forretress",
+		fr: "Foretress"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It remains immovably rooted to its tree. It scatters\npieces of its hard shell to drive its enemies away."
+		en: "It remains immovably rooted to its tree. It scatters\npieces of its hard shell to drive its enemies away.",
+		fr: "Il est totalement fixé à son arbre. Il lance des morceaux de sa carapace pour faire fuir son ennemi."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Shell Crash"
+			en: "Shell Crash",
+			fr: "Collision Carapace"
 		},
 
 		damage: 80,

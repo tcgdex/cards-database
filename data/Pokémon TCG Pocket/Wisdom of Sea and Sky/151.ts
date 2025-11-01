@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Elemental Switch"
+		en: "Elemental Switch",
+		fr: "Échange Élémentaire"
 	},
 
 	illustrator: "Toyste Beach",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Move a {R}, {W}, or {L} Energy from 1 of your Benched Pokémon to your Active Pokémon."
+		en: "Move a {R}, {W}, or {L} Energy from 1 of your Benched Pokémon to your Active Pokémon.",
+		fr: "Déplacez une Énergie {R}, {W} ou {L} d'un de vos Pokémon de Banc vers votre Pokémon Actif."
 	},
 
 	trainerType: "Item",

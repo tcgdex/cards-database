@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sudowoodo"
+		en: "Sudowoodo",
+		fr: "Simularbre"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Although it always pretends to be a tree,\nits composition appears more similar to\nrock than to vegetation."
+		en: "Although it always pretends to be a tree,\nits composition appears more similar to\nrock than to vegetation.",
+		fr: "Bien qu'il fasse semblant d'être un arbre, par sa composition, il semble plus proche d'un minéral que d'un végétal."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rock Throw"
+			en: "Rock Throw",
+			fr: "Jet-Pierres"
 		},
 
 		damage: 50,

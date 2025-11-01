@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shuckle ex"
+		en: "Shuckle ex",
+		fr: "Caratroc-ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,24 +21,28 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Solid Shell"
+			en: "Solid Shell",
+			fr: "Coquille Dure"
 		},
 
 		effect: {
-			en: "This Pokémon takes −20 damage from attacks."
+			en: "This Pokémon takes −20 damage from attacks.",
+			fr: "Ce Pokémon subit − 20 dégâts provenant des attaques."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Triple Slap"
+			en: "Triple Slap",
+			fr: "Triple Gifle"
 		},
 
 		damage: 20,
 		cost: ["Grass"],
 
 		effect: {
-			en: "Flip 3 coins. This attack does 20 damage for each heads."
+			en: "Flip 3 coins. This attack does 20 damage for each heads.",
+			fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts pour chaque côté face."
 		}
 	}],
 
