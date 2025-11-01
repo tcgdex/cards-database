@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mienshao"
+		en: "Mienshao",
+		fr: "Shaofouine"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When Mienshao comes across a truly challenging\nopponent, it will lighten itself by biting off the\nfur on its arms."
+		en: "When Mienshao comes across a truly challenging\nopponent, it will lighten itself by biting off the\nfur on its arms.",
+		fr: "Lorsqu'il fait face à un adversaire vraiment redoutable, il coupe les poils de sa main avec les dents pour améliorer son agilité."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Low Kick"
+			en: "Low Kick",
+			fr: "Balayage"
 		},
 
 		damage: 70,

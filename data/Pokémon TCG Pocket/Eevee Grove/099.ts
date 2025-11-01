@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gardevoir"
+		en: "Gardevoir",
+		fr: "Gardevoir"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -19,7 +20,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "To protect its Trainer, it will expend all its psychic\npower to create a small black hole."
+		en: "To protect its Trainer, it will expend all its psychic\npower to create a small black hole.",
+		fr: "Prêt à tout pour protéger son Dresseur, il peut aller jusqu'à épuiser sa force mentale pour créer un mini trou noir."
 	},
 
 	stage: "Stage2",
@@ -28,17 +30,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Psy Shadow"
+			en: "Psy Shadow",
+			fr: "Ombre Psy"
 		},
 
 		effect: {
-			en: "Once during your turn, you may take a {P} Energy from your Energy Zone and attach it to the {P} Pokémon in the Active Spot."
+			en: "Once during your turn, you may take a {P} Energy from your Energy Zone and attach it to the {P} Pokémon in the Active Spot.",
+			fr: "Une fois pendant votre tour, vous pouvez prendre une Énergie {P} de votre zone Énergie et l'attacher au Pokémon  sur le Poste Actif."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Psyshot"
+			en: "Psyshot",
+			fr: "Piqûre Psy"
 		},
 
 		damage: 60,

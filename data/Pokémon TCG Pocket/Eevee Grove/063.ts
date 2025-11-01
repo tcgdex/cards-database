@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cinccino"
+		en: "Cinccino",
+		fr: "Pashmilla"
 	},
 
 	illustrator: "Mizue",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its body secretes oil that this Pokémon spreads\nover its nest as a coating to protect it from dust.\nCinccino won't tolerate even a speck of the stuff."
+		en: "Its body secretes oil that this Pokémon spreads\nover its nest as a coating to protect it from dust.\nCinccino won't tolerate even a speck of the stuff.",
+		fr: "Il ne supporte pas de voir le moindre grain de poussière. Il utilise l'huile qu'il sécrète pour recouvrir son nid d'un revêtement protecteur."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slap"
+			en: "Slap",
+			fr: "Gifle"
 		},
 
 		damage: 40,

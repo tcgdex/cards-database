@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee ex"
+		en: "Eevee ex",
+		fr: "Évoli-ex"
 	},
 
 	illustrator: "kurumitsu",
@@ -20,17 +21,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Veevee 'volve"
+			en: "Veevee 'volve",
+			fr: "Volivolution"
 		},
 
 		effect: {
-			en: "This Pokémon can evolve into any Pokémon that evolves from Eevee if you play it from your hand onto this Pokémon. (This Pokémon can't evolve during your first turn or the turn you play it.)"
+			en: "This Pokémon can evolve into any Pokémon that evolves from Eevee if you play it from your hand onto this Pokémon. (This Pokémon can't evolve during your first turn or the turn you play it.)",
+			fr: "Ce Pokémon peut évoluer en n'importe quel  si vous le jouez de votre main sur ce Pokémon. (Ce Pokémon ne peut pas évoluer pendant votre premier tour ou pendant le tour où vous le jouez.)"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 
 		damage: 30,

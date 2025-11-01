@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ralts"
+		en: "Ralts",
+		fr: "Tarsal"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -15,20 +16,23 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "The horns on its head provide a strong power\nthat enables it to sense people's emotions."
+		en: "The horns on its head provide a strong power\nthat enables it to sense people's emotions.",
+		fr: "Il perçoit très précisément les émotions humaines grâce aux cornes rouges sur sa tête."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Teleport"
+			en: "Teleport",
+			fr: "Téléport"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon."
+			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc."
 		}
 	}],
 

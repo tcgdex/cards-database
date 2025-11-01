@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pinsir"
+		en: "Pinsir",
+		fr: "Scarabrute"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "These Pokémon judge one another based on\npincers. Thicker, more impressive pincers make\nfor more popularity with the opposite gender."
+		en: "These Pokémon judge one another based on\npincers. Thicker, more impressive pincers make\nfor more popularity with the opposite gender.",
+		fr: "Ses cornes déterminent son rang au sein du groupe. Plus elles sont imposantes, plus les membres du sexe opposé l'apprécient."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Guillotine Rush"
+			en: "Guillotine Rush",
+			fr: "Charge Guillotine"
 		},
 
 		damage: 50,
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 40 more damage for each heads."
+			en: "Flip a coin until you get tails. This attack does 40 more damage for each heads.",
+			fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Glaceon"
+		en: "Glaceon",
+		fr: "Givrali"
 	},
 
 	illustrator: "Fujimoto Gold",
@@ -19,20 +20,23 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It can control its body temperature at will.\nThis enables it to freeze the moisture in the\natmosphere, creating flurries of diamond dust."
+		en: "It can control its body temperature at will.\nThis enables it to freeze the moisture in the\natmosphere, creating flurries of diamond dust.",
+		fr: "Il peut contrôler la température de son corps à volonté et créer des cristaux de glace en gelant l'humidité de l'air."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Ice Blade"
+			en: "Ice Blade",
+			fr: "Lame de Glace"
 		},
 
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "This attack does 50 damage to 1 of your opponent's Pokémon."
+			en: "This attack does 50 damage to 1 of your opponent's Pokémon.",
+			fr: "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire."
 		}
 	}],
 

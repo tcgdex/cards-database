@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swoobat"
+		en: "Swoobat",
+		fr: "Rhinolove"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Emitting powerful sound waves tires it out.\nAfterward, it won't be able to fly for a\nlittle while."
+		en: "Emitting powerful sound waves tires it out.\nAfterward, it won't be able to fly for a\nlittle while.",
+		fr: "Émettre des ondes sonores ultra-puissantes le fatigue tellement qu'il n'a plus de forces pour voler."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Psyshot"
+			en: "Psyshot",
+			fr: "Piqûre Psy"
 		},
 
 		damage: 40,

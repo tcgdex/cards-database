@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snorlax ex"
+		en: "Snorlax ex",
+		fr: "Ronflex-ex"
 	},
 
 	illustrator: "Mékayu",
@@ -20,24 +21,28 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Full-Mouth Manner"
+			en: "Full-Mouth Manner",
+			fr: "Bouche Pleine"
 		},
 
 		effect: {
-			en: "At the end of your turn, if this Pokémon is in the Active Spot, heal 20 damage from it."
+			en: "At the end of your turn, if this Pokémon is in the Active Spot, heal 20 damage from it.",
+			fr: "À la fin de votre tour, si ce Pokémon est sur le Poste Actif, soignez 20 dégâts à ce Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Flop-Down Punch"
+			en: "Flop-Down Punch",
+			fr: "Poing Torpide"
 		},
 
 		damage: 130,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This Pokémon is now Asleep."
+			en: "This Pokémon is now Asleep.",
+			fr: "Ce Pokémon est maintenant Endormi."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Joltik"
+		en: "Joltik",
+		fr: "Statitik"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Joltik can be found clinging to other Pokémon.\nIt's soaking up static electricity because it can't\nproduce a charge on its own."
+		en: "Joltik can be found clinging to other Pokémon.\nIt's soaking up static electricity because it can't\nproduce a charge on its own.",
+		fr: "Il s'accroche au corps des autres Pokémon pour absorber leur électricité statique. Il est incapable d'en produire tout seul."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Jolt"
+			en: "Jolt",
+			fr: "Secousse"
 		},
 
 		damage: 10,
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 		}
 	}],
 

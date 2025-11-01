@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Steenee"
+		en: "Steenee",
+		fr: "Candine"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Steenee spreads a sweet scent that\nmakes others feel invigorated. This same\nscent is popular for antiperspirants."
+		en: "Steenee spreads a sweet scent that\nmakes others feel invigorated. This same\nscent is popular for antiperspirants.",
+		fr: "Il dégage un doux parfum qui a le pouvoir de redonner du tonus, et qui est très populaire en odeur de déodorant."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Leaf Step"
+			en: "Leaf Step",
+			fr: "Enjambée de Feuillage"
 		},
 
 		damage: 40,

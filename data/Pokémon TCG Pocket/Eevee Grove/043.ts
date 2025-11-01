@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Umbreon"
+		en: "Umbreon",
+		fr: "Noctali"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When exposed to the moon's aura, the rings on its\nbody glow faintly and it gains a mysterious power."
+		en: "When exposed to the moon's aura, the rings on its\nbody glow faintly and it gains a mysterious power.",
+		fr: "Quand il s'expose aux ondes lunaires, ses anneaux brillent légèrement et il acquiert un mystérieux pouvoir."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Dark Binding"
+			en: "Dark Binding",
+			fr: "Entrave Sombre"
 		},
 
 		damage: 40,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn."
+			en: "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.",
+			fr: "Si le Pokémon Défenseur est un Pokémon de base, il ne peut pas attaquer pendant le prochain tour de votre adversaire."
 		}
 	}],
 

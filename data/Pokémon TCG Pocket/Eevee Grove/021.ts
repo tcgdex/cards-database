@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alomomola"
+		en: "Alomomola",
+		fr: "Mamanbo"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It gently holds injured and weak Pokémon in its\nfins. Its special membrane heals their wounds."
+		en: "It gently holds injured and weak Pokémon in its\nfins. Its special membrane heals their wounds.",
+		fr: "Il berce les Pokémon blessés ou affaiblis dans ses nageoires et les guérit grâce à la membrane dont il est recouvert."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Pulse"
+			en: "Water Pulse",
+			fr: "Vibraqua"
 		},
 
 		damage: 50,
 		cost: ["Water", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
+			en: "Your opponent's Active Pokémon is now Asleep.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
 		}
 	}],
 
