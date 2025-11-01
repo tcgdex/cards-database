@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swirlix"
+		en: "Swirlix",
+		fr: "Sucroquin"
 	},
 
 	illustrator: "MAHOU",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It eats its own weight in sugar every day.\nIf it doesn't get enough sugar, it becomes\nincredibly grumpy."
+		en: "It eats its own weight in sugar every day.\nIf it doesn't get enough sugar, it becomes\nincredibly grumpy.",
+		fr: "Il mange son propre poids en sucre chaque jour. S'il n'a pas sa dose de sucreries, il devient horriblement grognon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sweets Relay"
+			en: "Sweets Relay",
+			fr: "Saupoudrage Sucré"
 		},
 
 		damage: 10,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 20 more damage."
+			en: "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 20 more damage.",
+			fr: "Si un de vos Pokémon a utilisé  lors de votre dernier tour, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 

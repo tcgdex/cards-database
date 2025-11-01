@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kirlia"
+		en: "Kirlia",
+		fr: "Kirlia"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It has a psychic power that enables it to distort\nthe space around it and see into the future."
+		en: "It has a psychic power that enables it to distort\nthe space around it and see into the future.",
+		fr: "Grâce à ses pouvoirs psychiques, il peut distordre l'espace-temps et ainsi voir l'avenir."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slap"
+			en: "Slap",
+			fr: "Gifle"
 		},
 
 		damage: 20,

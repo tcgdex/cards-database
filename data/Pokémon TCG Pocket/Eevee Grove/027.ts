@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galvantula"
+		en: "Galvantula",
+		fr: "Mygavolt"
 	},
 
 	illustrator: "otumami",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It launches electrified fur from its abdomen as its\nmeans of attack. Opponents hit by the fur could\nbe in for three full days and nights of paralysis."
+		en: "It launches electrified fur from its abdomen as its\nmeans of attack. Opponents hit by the fur could\nbe in for three full days and nights of paralysis.",
+		fr: "Il attaque en projetant les poils de son abdomen chargés en électricité. La victime reste alors paralysée pendant trois jours et trois nuits."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Electric Shock"
+			en: "Electric Shock",
+			fr: "Choc Électrique"
 		},
 
 		damage: 70,
 		cost: ["Lightning", "Lightning"],
 
 		effect: {
-			en: "Discard all Energy attached to this Pokémon. Your opponent's Active Pokémon is now Paralyzed."
+			en: "Discard all Energy attached to this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Défaussez toutes les Énergies attachées à ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé."
 		}
 	}],
 

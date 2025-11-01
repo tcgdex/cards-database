@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Articuno ex"
+		en: "Articuno ex",
+		fr: "Artikodin-ex"
 	},
 
 	illustrator: "PLANETA Saito",
@@ -18,21 +19,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ice Wing"
+			en: "Ice Wing",
+			fr: "Aile Glace"
 		},
 
 		damage: 40,
 		cost: ["Water", "Colorless"]
 	}, {
 		name: {
-			en: "Blizzard"
+			en: "Blizzard",
+			fr: "Blizzard"
 		},
 
 		damage: 80,
 		cost: ["Water", "Water", "Water"],
 
 		effect: {
-			en: "This attack also does 10 damage to each of your opponent's Benched Pokémon."
+			en: "This attack also does 10 damage to each of your opponent's Benched Pokémon.",
+			fr: "Cette attaque inflige aussi 10 dégâts à chaque Pokémon de Banc de votre adversaire."
 		}
 	}],
 

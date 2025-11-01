@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	illustrator: "Naoki Saito",
@@ -15,20 +16,23 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment."
+		en: "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment.",
+		fr: "Ses multiples évolutions lui permettent de s'adapter à tout type de milieu naturel."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Collect"
+			en: "Collect",
+			fr: "Collecte"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Draw a card."
+			en: "Draw a card.",
+			fr: "Piochez une carte."
 		}
 	}],
 

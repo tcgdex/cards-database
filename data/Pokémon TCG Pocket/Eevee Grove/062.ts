@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Minccino"
+		en: "Minccino",
+		fr: "Chinchidou"
 	},
 
 	illustrator: "Sekio",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "The way it brushes away grime with its tail\ncan be helpful when cleaning. But its focus on\nspotlessness can make cleaning more of a hassle."
+		en: "The way it brushes away grime with its tail\ncan be helpful when cleaning. But its focus on\nspotlessness can make cleaning more of a hassle.",
+		fr: "Il époussette les saletés avec sa queue. Il est d'une aide précieuse pour faire le ménage, mais il est très tatillon sur la propreté."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Pound"
+			en: "Pound",
+			fr: "Écras'Face"
 		},
 
 		damage: 10,
