@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dwebble"
+		en: "Dwebble",
+		fr: "Crabicoque"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It makes a hole in a suitable rock. If that rock\nbreaks, the Pokémon remains agitated until it\nlocates a replacement."
+		en: "It makes a hole in a suitable rock. If that rock\nbreaks, the Pokémon remains agitated until it\nlocates a replacement.",
+		fr: "Il perce un caillou et s'en sert comme maison. Quand on lui casse, il est anxieux jusqu'à ce qu'il en trouve un autre."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sand Spray"
+			en: "Sand Spray",
+			fr: "Jet Sableux"
 		},
 
 		damage: 30,

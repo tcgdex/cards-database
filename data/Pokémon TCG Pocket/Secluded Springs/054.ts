@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragalge"
+		en: "Dragalge",
+		fr: "Kravarech"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Using a liquid poison, Dragalge indiscriminately\nattacks anything that wanders into its territory.\nThis poison can corrode the undersides of boats."
+		en: "Using a liquid poison, Dragalge indiscriminately\nattacks anything that wanders into its territory.\nThis poison can corrode the undersides of boats.",
+		fr: "Il attaque tout intrus pénétrant sur son territoire avec un poison si puissant qu'il est capable de dissoudre la coque des bateaux."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Sludge Bomb"
+			en: "Sludge Bomb",
+			fr: "Bombe Beurk"
 		},
 
 		damage: 70,

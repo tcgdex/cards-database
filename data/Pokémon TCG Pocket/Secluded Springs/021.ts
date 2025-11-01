@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Feebas"
+		en: "Feebas",
+		fr: "Barpau"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -15,20 +16,23 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Although unattractive and unpopular, this\nPokémon's marvelous vitality has made it a\nsubject of research."
+		en: "Although unattractive and unpopular, this\nPokémon's marvelous vitality has made it a\nsubject of research.",
+		fr: "Comme il est tout de même franchement laid, ce Pokémon a un succès très mitigé. Sa grande vitalité fait néanmoins l'objet de moult études."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Leap Out"
+			en: "Leap Out",
+			fr: "Bondir"
 		},
 
 		cost: ["Water"],
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon."
+			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc."
 		}
 	}],
 

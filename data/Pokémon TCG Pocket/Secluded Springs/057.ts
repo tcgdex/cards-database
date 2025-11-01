@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lickitung"
+		en: "Lickitung",
+		fr: "Excelangue"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -15,20 +16,23 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "If this Pokémon's sticky saliva gets on you and\nyou don't clean it off, an intense itch will set in.\nThe itch won't go away, either."
+		en: "If this Pokémon's sticky saliva gets on you and\nyou don't clean it off, an intense itch will set in.\nThe itch won't go away, either.",
+		fr: "Si sa salive gluante entre en contact avec la peau et qu'on ne l'essuie pas bien, elle provoque de terribles démangeaisons qui ne s'arrêtent jamais."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Stretch Tongue"
+			en: "Stretch Tongue",
+			fr: "Langue à Rallonge"
 		},
 
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 30 damage to 1 of your opponent's Pokémon."
+			en: "This attack does 30 damage to 1 of your opponent's Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de votre adversaire."
 		}
 	}],
 

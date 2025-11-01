@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Inkay"
+		en: "Inkay",
+		fr: "Sepiatop"
 	},
 
 	illustrator: "miki kudo",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It spins while making its luminescent spots flash.\nThese spots allow it to communicate with others\nby using different patterns of light."
+		en: "It spins while making its luminescent spots flash.\nThese spots allow it to communicate with others\nby using different patterns of light.",
+		fr: "Il fait clignoter son corps lumineux en tournoyant. Il communique avec ses congénères à l'aide de signaux de lumière."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 
 		damage: 20,

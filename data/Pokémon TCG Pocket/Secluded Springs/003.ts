@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jumpluff ex"
+		en: "Jumpluff ex",
+		fr: "Cotovol-ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -23,14 +24,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Breeze-By Attack"
+			en: "Breeze-By Attack",
+			fr: "Attaque Zéphyr"
 		},
 
 		damage: 70,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "You may switch this Pokémon with 1 of your Benched Pokémon."
+			en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
+			fr: "Vous pouvez échanger ce Pokémon contre un de vos Pokémon de Banc."
 		}
 	}],
 

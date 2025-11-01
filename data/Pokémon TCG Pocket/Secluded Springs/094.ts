@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golduck"
+		en: "Golduck",
+		fr: "Akwakwak"
 	},
 
 	illustrator: "Scav",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When it swims at full speed using its long,\nwebbed limbs, its forehead somehow begins\nto glow."
+		en: "When it swims at full speed using its long,\nwebbed limbs, its forehead somehow begins\nto glow.",
+		fr: "Quand il nage à vitesse maximale grâce à ses pattes palmées, son front se met à luire pour une raison inconnue."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Aqua Edge"
+			en: "Aqua Edge",
+			fr: "Aqua-Dague"
 		},
 
 		damage: 70,

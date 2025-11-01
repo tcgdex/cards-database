@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tentacool"
+		en: "Tentacool",
+		fr: "Tentacool"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Tentacool is not a particularly strong swimmer.\nIt drifts across the surface of shallow seas as it\nsearches for prey."
+		en: "Tentacool is not a particularly strong swimmer.\nIt drifts across the surface of shallow seas as it\nsearches for prey.",
+		fr: "Peu doué pour la natation, ce Pokémon se contente de flotter à la surface des eaux peu profondes pour chasser ses proies."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Poison Sting"
+			en: "Poison Sting",
+			fr: "Dard-Venin"
 		},
 
 		damage: 20,
 		cost: ["Water", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			en: "Your opponent's Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skiploom"
+		en: "Skiploom",
+		fr: "Floravol"
 	},
 
 	illustrator: "Dsuke",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Skiploom enthusiasts can apparently tell where a\nSkiploom was born by the scent drifting from the\nflower on the Pokémon's head."
+		en: "Skiploom enthusiasts can apparently tell where a\nSkiploom was born by the scent drifting from the\nflower on the Pokémon's head.",
+		fr: "On dit que les personnes passionnées de Floravol peuvent déterminer son lieu de naissance rien qu'à l'odeur de la fleur sur sa tête."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bounce"
+			en: "Bounce",
+			fr: "Rebond"
 		},
 
 		damage: 30,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon."
+			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc."
 		}
 	}],
 

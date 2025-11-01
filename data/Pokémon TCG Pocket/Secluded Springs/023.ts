@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mantyke"
+		en: "Mantyke",
+		fr: "Babimanta"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -15,18 +16,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It's highly friendly and easily tamed. Tours that\ntake people swimming with Mantyke are a\nsuper-popular beach activity."
+		en: "It's highly friendly and easily tamed. Tours that\ntake people swimming with Mantyke are a\nsuper-popular beach activity.",
+		fr: "Il est très affectueux et adore les humains. Les excursions permettant d'aller nager avec lui sont très populaires auprès des touristes."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Splashy Toss"
+			en: "Splashy Toss",
+			fr: "Lancer qui Éclabousse"
 		},
 
 		effect: {
-			en: "Take a {W} Energy from your Energy Zone and attach it to 1 of your Benched Basic Pokémon."
+			en: "Take a {W} Energy from your Energy Zone and attach it to 1 of your Benched Basic Pokémon.",
+			fr: "Prenez une Énergie {W} de votre zone Énergie et attachez-la à un de vos Pokémon de base de Banc."
 		}
 	}],
 

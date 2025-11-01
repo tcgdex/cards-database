@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Diglett"
+		en: "Diglett",
+		fr: "Taupiqueur"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It lives about one yard underground, where it\nfeeds on plant roots. It sometimes appears\naboveground."
+		en: "It lives about one yard underground, where it\nfeeds on plant roots. It sometimes appears\naboveground.",
+		fr: "Ce Pokémon vit un mètre sous terre et se nourrit de racines. Il apparaît parfois à la surface."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule"
 		},
 
 		damage: 10,

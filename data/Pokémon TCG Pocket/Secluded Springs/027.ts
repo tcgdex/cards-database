@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eelektrik"
+		en: "Eelektrik",
+		fr: "Lampéroie"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "They coil around foes and shock them with\nelectricity-generating organs that seem simply\nto be circular patterns."
+		en: "They coil around foes and shock them with\nelectricity-generating organs that seem simply\nto be circular patterns.",
+		fr: "Ses taches rondes sont des organes qui émettent de l'électricité. Il s'enroule autour de ses proies et les électrocute."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Electro Ball"
+			en: "Electro Ball",
+			fr: "Boule Élek"
 		},
 
 		damage: 50,

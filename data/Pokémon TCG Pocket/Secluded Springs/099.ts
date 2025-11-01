@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gabite"
+		en: "Gabite",
+		fr: "Carmache"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "In rare cases, it molts and sheds its scales.\nMedicine containing its scales as an ingredient\nwill make a weary body feel invigorated."
+		en: "In rare cases, it molts and sheds its scales.\nMedicine containing its scales as an ingredient\nwill make a weary body feel invigorated.",
+		fr: "Lorsqu'il mue, il perd parfois ses écailles. Les remèdes concoctés à partir de celles-ci sont de puissants toniques."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Sharp Scythe"
+			en: "Sharp Scythe",
+			fr: "Faucille Acérée"
 		},
 
 		damage: 30,

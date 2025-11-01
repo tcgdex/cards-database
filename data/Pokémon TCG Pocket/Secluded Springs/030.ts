@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yamper"
+		en: "Yamper",
+		fr: "Voltoutou"
 	},
 
 	illustrator: "Akira Komayama",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "This gluttonous Pokémon only assists people with\ntheir work because it wants treats. As it runs,\nit crackles with electricity."
+		en: "This gluttonous Pokémon only assists people with\ntheir work because it wants treats. As it runs,\nit crackles with electricity.",
+		fr: "Ce glouton assiste les humains dans leur travail en échange de friandises. Il court sans arrêt, le corps enveloppé d'électricité."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Zap Kick"
+			en: "Zap Kick",
+			fr: "Coup de Pied Ravageur"
 		},
 
 		damage: 20,

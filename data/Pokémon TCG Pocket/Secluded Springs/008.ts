@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slugma"
+		en: "Slugma",
+		fr: "Limagma"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "A common sight in volcanic areas, it slowly slithers\naround in a constant search for warm places."
+		en: "A common sight in volcanic areas, it slowly slithers\naround in a constant search for warm places.",
+		fr: "Commun dans les régions volcaniques, il se déplace sans cesse pour trouver des endroits chauds."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Combustion"
+			en: "Combustion",
+			fr: "Fournaise"
 		},
 
 		damage: 40,

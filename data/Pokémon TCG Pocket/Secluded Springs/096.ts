@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kingler"
+		en: "Kingler",
+		fr: "Krabboss"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its large and hard pincer has 10,000-horsepower\nstrength. However, being so big, it is unwieldy\nto move."
+		en: "Its large and hard pincer has 10,000-horsepower\nstrength. However, being so big, it is unwieldy\nto move.",
+		fr: "Sa grosse pince est dotée d'une puissance incommensurable. Sa taille imposante la rend toutefois difficile à utiliser."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "KO Crab"
+			en: "KO Crab",
+			fr: "Crabe Fatal"
 		},
 
 		damage: 80,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. If both of them are heads, this attack does 80 more damage."
+			en: "Flip 2 coins. If both of them are heads, this attack does 80 more damage.",
+			fr: "Lancez 2 pièces. Si toutes sont côté face, cette attaque inflige 80 dégâts de plus."
 		}
 	}],
 

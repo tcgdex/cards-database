@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seviper"
+		en: "Seviper",
+		fr: "Séviper"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Constant polishing makes the edge of the blade on\nits tail extremely sharp. It's Zangoose's archrival."
+		en: "Constant polishing makes the edge of the blade on\nits tail extremely sharp. It's Zangoose's archrival.",
+		fr: "C'est l'ennemi naturel de Mangriff. Sa queue en forme de lame est bien tranchante, car il passe son temps à l'affûter sur des rochers."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Fateful Fang"
+			en: "Fateful Fang",
+			fr: "Crocs du Destin"
 		},
 
 		damage: 40,
 		cost: ["Darkness", "Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is Zangoose, this attack does 40 more damage."
+			en: "If your opponent's Active Pokémon is Zangoose, this attack does 40 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est , cette attaque inflige 40 dégâts supplémentaires."
 		}
 	}],
 
