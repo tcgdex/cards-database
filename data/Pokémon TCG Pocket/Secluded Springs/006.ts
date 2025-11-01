@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Celebi"
+		en: "Celebi",
+		fr: "Celebi"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "This Pokémon wanders across time. Grass and trees\nflourish in the forests in which it has appeared."
+		en: "This Pokémon wanders across time. Grass and trees\nflourish in the forests in which it has appeared.",
+		fr: "Ce Pokémon voyage dans le temps. Les forêts où il apparaît deviennent prodigieusement luxuriantes."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Temporal Leaves"
+			en: "Temporal Leaves",
+			fr: "Feuilles Temporelles"
 		},
 
 		damage: 40,
 		cost: ["Grass", "Grass"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand."
+			en: "If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon évolué, faites-le dés-évoluer en plaçant la carte Évolution la plus élevée placée dessus dans la main de votre adversaire."
 		}
 	}],
 

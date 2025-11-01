@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Krabby"
+		en: "Krabby",
+		fr: "Krabby"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It can be found near the sea. The large pincers\ngrow back if they are torn out of their sockets."
+		en: "It can be found near the sea. The large pincers\ngrow back if they are torn out of their sockets.",
+		fr: "On trouve ce Pokémon près de la mer. Ses grosses pinces peuvent repousser si elles sont arrachées."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Vise Grip"
+			en: "Vise Grip",
+			fr: "Force Poigne"
 		},
 
 		damage: 40,
