@@ -89,7 +89,11 @@ const card: Card = {
 			type: 'holo',
 			stamp: ["set-logo", "staff"]
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825970
+	}
 }
 
 export default card
