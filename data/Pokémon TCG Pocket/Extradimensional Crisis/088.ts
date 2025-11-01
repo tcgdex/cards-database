@@ -27,7 +27,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Big Beat"
+			en: "Big Beat",
 			fr: "Breakbeat"
 		},
 
