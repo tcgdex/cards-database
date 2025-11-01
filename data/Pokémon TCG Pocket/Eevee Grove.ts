@@ -20,6 +20,14 @@ const set: Set = {
 		official: 69
 	},
 
+	boosters: {
+		eevee: {
+			name: {
+				en: "Eevee"
+			}
+		}
+	},
+
 	releaseDate: "2025-06-26"
 }
 
