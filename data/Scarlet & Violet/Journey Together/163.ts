@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Terada Tera",
 
 	thirdParty: {
-		cardmarket: 817207
+		cardmarket: 817315
 	},
 
 	variants: [

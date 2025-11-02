@@ -74,7 +74,7 @@ const card: Card = {
 	illustrator: "Megumi Mizutani",
 
 	thirdParty: {
-		cardmarket: 817250
+		cardmarket: 817338
 	},
 
 	variants: [

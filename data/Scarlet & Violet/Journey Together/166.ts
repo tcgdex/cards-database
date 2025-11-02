@@ -76,7 +76,7 @@ const card: Card = {
 	illustrator: "GIDORA",
 
 	thirdParty: {
-		cardmarket: 817237
+		cardmarket: 817318
 	},
 
 	variants: [
