@@ -77,7 +77,7 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 
 	thirdParty: {
-		cardmarket: 785921
+		cardmarket: 786014
 	}
 }
 
