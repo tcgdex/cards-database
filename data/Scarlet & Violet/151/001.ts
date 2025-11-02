@@ -54,7 +54,7 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	thirdParty: {
-		cardmarket: 720365
+		cardmarket: 733596
 	}
 }
 
