@@ -90,7 +90,7 @@ const card: Card = {
 		{
 			type: "reverse"
 		}
-	],,
+	],
 
 	thirdParty: {
 		cardmarket: 279028,
