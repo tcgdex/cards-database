@@ -77,7 +77,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp : ["snow-flake"],
+			stamp : ["snowflake"],
 			languages: ["de"]
 		},
 		{
