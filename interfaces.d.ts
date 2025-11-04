@@ -23,7 +23,7 @@ interface variant_detailed {
 	 * - holo: the illustration has a foil
 	 * - reverse: everything but the illustration is foiled
 	 */
-	type: 'normal' | 'holo' | 'reverse' | 'metal'
+	type: 'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
 
 	/**
 	 * Some older sets had specific subtypes for the cards
@@ -32,7 +32,9 @@ interface variant_detailed {
 	 */
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
 		| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
-	| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
+		| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
+		| 'cosmos'
+
 	/**
 	 * define the size of the card
 	 * - standard: the classic size of a card
@@ -49,11 +51,15 @@ interface variant_detailed {
 	 * - pokemon-center: a card that is stamped with the Pokémon Center logo
 	 * - set-promo: a card that is stamped with the set logo
 	 * - staff: a card that is stamped with the staff text
+	 * - gamestop: a card that is stamped with the GameStop logo
+	 * - eb-games: a card that is stamped with the EB Games logo
+	 * - snowflake: a card that is stamped with a snowflake, available in the yearly advent calendar
+	 * - trick-or-trade: a card that is stamped with a pikachu-pumpkin, available in the yearly halloween/trick-or-trade boosters
 	 */
 	stamp?: Array<'1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
 		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
-		| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato' |
-		'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill'
+		| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato'
+		| 'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill'
 		| 'jeremy-maron' | 'jimmy-ballard' | 'miska-saari' | 'hiroki-yano' | 'jason-klaczynski' | 'state-championships'
 		| 'national-championships' | 'gym-challenge' | 'city-championships' | 'jeremy-scharff-kim' | 'destiny-deoxys'
 		| 'pokemon-day' | 'regional-championships' | 'stadium-challenge' | '10th-anniversary' | 'wizard-world-philadelphia'
@@ -63,8 +69,9 @@ interface variant_detailed {
 		| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two' | 'worlds-2008' | 'worlds-2009'
 		| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting' | 'mychael-bryan' | "stephen-silvestro"
 		| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
-		| 'ross-cawthorn' | 'gustavo-wada' | 'snow-flake' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
-		| 'zachary-bokhari' | 'shuto-itagaki'
+		| 'ross-cawthorn' | 'gustavo-wada' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
+		| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
+		| 'illustration-contest-2024' | 'worlds-2025'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card

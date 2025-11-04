@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 90,
 	types: ["Metal"],
 	stage: "Stage1",
+	dexId: [958],
 
 	abilities: [{
 		type: "Ability",
@@ -65,7 +66,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654436
+		tcgplayer: 654436,
+		cardmarket: 851168
 	}
 }
 

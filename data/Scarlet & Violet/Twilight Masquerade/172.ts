@@ -77,7 +77,7 @@ const card: Card = {
 	illustrator: "Masa",
 
 	thirdParty: {
-		cardmarket: 769204
+		cardmarket: 769346
 	}
 }
 

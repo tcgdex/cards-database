@@ -99,6 +99,10 @@ if (cluster.isPrimary) {
 			.setHeader('Access-Control-Allow-Headers', 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range')
 			.setHeader('Access-Control-Expose-Headers', 'Content-Length,Content-Range')
 
+		if (typeof process.env.DISABLE_HSTS === 'undefined') {
+			res.setHeader('Strict-Transport-Security', 'max-age=31536000')
+		}
+
 		if (req.method.toUpperCase() === 'OPTIONS') {
 			res.status(200).send('ok')
 			return

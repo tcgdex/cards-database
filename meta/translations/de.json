@@ -108,7 +108,8 @@
 		"normal": "Normal",
 		"holo": "Holo",
 		"reverse": "Reverse",
-		"metal": "Metall"
+		"metal": "Metall",
+		"lenticular": "lenticular"
 	},
 	"variantSize": {
 		"standard": "Standard",
@@ -208,12 +209,18 @@
 		"worlds-2010": "worlds-2010",
 		"ross-cawthorn": "ross-cawthorn",
 		"gustavo-wada": "gustavo-wada",
-		"snow-flake": "snow-flake",
 		"christopher-kan": "christopher-kan",
 		"player-rewards-program": "player-rewards-program",
 		"igor-costa": "igor-costa",
 		"zachary-bokhari": "zachary-bokhari",
-		"shuto-itagaki" : "shuto-itagaki"
+		"shuto-itagaki" : "shuto-itagaki",
+		"gamestop": "GameStop",
+		"eb-games": "EB Games",
+		"snowflake": "Schneeflocke",
+		"horizons": "horizons",
+		"illustration-contest-2024": "illustration-contest-2024",
+		"worlds-2025": "worlds-2025",
+		"top-eight": "top-eight"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",
@@ -232,6 +239,7 @@
 		"shifted-energy-cost": "Verschobene Energiekosten",
 		"japanese-back": "Japanische Rückseite",
 		"no-e-reader": "Kein e-Reader",
-		"rarity-error": "Seltenheitsfehler"
+		"rarity-error": "Seltenheitsfehler",
+		"cosmos": "cosmos"
 	}
 }

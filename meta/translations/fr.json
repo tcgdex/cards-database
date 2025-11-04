@@ -40,21 +40,21 @@
 		"Shiny rare": "Shiny rare",
 		"Shiny rare V": "Shiny rare V",
 		"Shiny rare VMAX": "Shiny rare VMAX",
-		"Shiny Ultra Rare": "chromatique ultra rare",
+		"Shiny Ultra Rare": "Chromatique ultra rare",
 		"Special illustration rare": "Illustration spéciale rare",
 		"Ultra Rare": "Ultra Rare",
 		"Uncommon": "Peu Commune",
 		"One Star": "Une Étoile",
-		"Two Star": "deux Étoiles",
+		"Two Star": "Deux Étoiles",
 		"Three Star": "Trois Étoiles",
 		"Crown": "Couronne",
-		"One Diamond": "Une Diamant",
-		"Two Diamond": "deux Diamant",
-		"Three Diamond": "Trois Diamant",
-		"Four Diamond": "Quatre Diamant",
+		"One Diamond": "Un Diamant",
+		"Two Diamond": "Deux Diamants",
+		"Three Diamond": "Trois Diamants",
+		"Four Diamond": "Quatre Diamants",
 		"One Shiny": "Un Chromatique",
-		"Two Shiny": "Deux Chromatique",
-		"Three Shiny": "Un Chromatique",
+		"Two Shiny": "Deux Chromatiques",
+		"Three Shiny": "Trois Chromatiques",
 		"Black White Rare": "Rare Noir Blanc",
 		"Mega Hyper Rare": "Méga Hyper Rare"
 	},
@@ -107,7 +107,8 @@
 		"normal": "De base",
 		"holo": "Holo",
 		"reverse": "Reverse",
-		"metal": "Métal"
+		"metal": "Métal",
+		"lenticular": "lenticular"
 	},
 	"variantSize": {
 		"standard": "Standard",
@@ -207,12 +208,18 @@
 		"worlds-2010": "worlds-2010",
 		"ross-cawthorn": "ross-cawthorn",
 		"gustavo-wada": "gustavo-wada",
-		"snow-flake": "snow-flake",
+		"snowflake": "snowflake",
 		"christopher-kan": "christopher-kan",
 		"player-rewards-program": "player-rewards-program",
 		"igor-costa": "igor-costa",
 		"zachary-bokhari": "zachary-bokhari",
-		"shuto-itagaki" : "shuto-itagaki"
+		"shuto-itagaki" : "shuto-itagaki",
+		"gamestop": "GameStop",
+		"eb-games": "EB Games",
+		"horizons": "horizons",
+		"illustration-contest-2024": "illustration-contest-2024",
+		"worlds-2025": "worlds-2025",
+		"top-eight": "top-eight"
 	},
 	"variantSubtype": {
 		"shadowless": "sans ombre",
@@ -231,6 +238,7 @@
 		"shifted-energy-cost": "Coût d’énergie décalé",
 		"japanese-back": "Dos japonais",
 		"no-e-reader": "Sans e-Reader",
-		"rarity-error": "Erreur de rareté"
+		"rarity-error": "Erreur de rareté",
+		"cosmos": "cosmos"
 	}
 }
