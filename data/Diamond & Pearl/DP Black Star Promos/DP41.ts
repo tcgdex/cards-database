@@ -69,12 +69,6 @@ const card: Card = {
 			stamp: ["tsubasa-nakamura"]
 		}
 	],
-
-	variants: [
-		{
-			type: "holo",
-		}
-	]
 }
 
 export default card

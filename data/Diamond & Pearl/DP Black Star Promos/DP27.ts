@@ -91,12 +91,6 @@ const card: Card = {
 			foil: "mirror"
 		}
 	],
-
-	variants: [
-		{
-			type: "holo",
-		}
-	]
 }
 
 export default card

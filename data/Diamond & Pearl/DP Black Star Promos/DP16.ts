@@ -90,12 +90,6 @@ const card: Card = {
 			stamp: ["countdown-calendar"]
 		}
 	],
-
-	variants: [
-		{
-			type: "holo",
-		}
-	]
 }
 
 export default card

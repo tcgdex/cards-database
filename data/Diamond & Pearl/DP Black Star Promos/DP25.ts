@@ -48,12 +48,6 @@ const card: Card = {
 			stamp: ["worlds-2008","top-thirty-two"],
 		},
 	],
-
-	variants: [
-		{
-			type: "holo",
-		}
-	]
 }
 
 export default card

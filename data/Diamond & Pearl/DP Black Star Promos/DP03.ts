@@ -69,12 +69,6 @@ const card: Card = {
 			stamp: ["dylan-lefavour"]
 		}
 	],
-
-	variants: [
-		{
-			type: "holo",
-		}
-	]
 }
 
 export default card

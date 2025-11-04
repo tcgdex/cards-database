@@ -91,12 +91,6 @@ const card: Card = {
 			type: "normal",
 		}
 	],
-
-	variants: [
-		{
-			type: "holo",
-		}
-	]
 }
 
 export default card

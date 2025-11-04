@@ -74,12 +74,6 @@ const card: Card = {
 			type: "holo",
 		}
 	],
-
-	variants: [
-		{
-			type: "holo",
-		}
-	]
 }
 
 export default card

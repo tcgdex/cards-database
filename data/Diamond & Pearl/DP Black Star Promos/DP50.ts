@@ -68,12 +68,6 @@ const card: Card = {
 			size: "jumbo"
 		}
 	],
-
-	variants: [
-		{
-			type: "holo",
-		}
-	]
 }
 
 export default card
