@@ -68,12 +68,19 @@ const card: Card = {
 		en: "Its powerful, well-developed jaws are capable of crushing anything. Even its trainer must be careful."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp : ["snow-flake"],
+			languages: ["de"]
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279058,

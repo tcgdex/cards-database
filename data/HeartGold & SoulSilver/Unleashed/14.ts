@@ -89,12 +89,18 @@ const card: Card = {
 		en: "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279170,

@@ -80,12 +80,21 @@ const card: Card = {
 		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy’s actions."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279255,

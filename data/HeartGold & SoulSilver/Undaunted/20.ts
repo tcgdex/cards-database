@@ -80,12 +80,14 @@ const card: Card = {
 		en: "Research continues on this Pokémon, which could be the power source of a unique motor."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279273,

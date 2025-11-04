@@ -86,12 +86,14 @@ const card: Card = {
 		en: "When two Beldum fuse together, a magnetic nervous system places their brains in union."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279283,

@@ -88,12 +88,14 @@ const card: Card = {
 		en: "As a result of storing too much electricity, it developed patches where even downy wool won’t grow."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],,
 
 	thirdParty: {
 		cardmarket: 279014,

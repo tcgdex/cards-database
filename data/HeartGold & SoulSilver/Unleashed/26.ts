@@ -92,12 +92,18 @@ const card: Card = {
 		en: "Extremely strong, it can change the landscape. It has an insolent nature that makes it not care about others."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279182,

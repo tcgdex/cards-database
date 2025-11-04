@@ -81,12 +81,18 @@ const card: Card = {
 		en: "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279166,

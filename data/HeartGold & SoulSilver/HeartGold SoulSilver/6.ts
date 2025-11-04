@@ -87,12 +87,18 @@ const card: Card = {
 		en: "Once it catches the wind, it deftly controls its cotton-puff spores—it can even float around the world."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "holo",
+			stamp : ["yuka-furusawa"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278978,

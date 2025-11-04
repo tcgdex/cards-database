@@ -77,12 +77,14 @@ const card: Card = {
 		en: "If approached while asleep, it may awaken and angrily give chase in a groggy state of semi-sleep."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279178,

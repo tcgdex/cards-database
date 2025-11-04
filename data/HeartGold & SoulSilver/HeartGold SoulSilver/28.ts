@@ -64,12 +64,26 @@ const card: Card = {
 		en: "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp : ["ross-cawthorn"]
+		},
+		{
+			type: "normal",
+			stamp : ["pre-release"]
+		},
+		{
+			type: "normal",
+			stamp : ["pre-release","staff"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279000,

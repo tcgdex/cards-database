@@ -82,12 +82,14 @@ const card: Card = {
 		en: "Anyone who takes even one taste of Blissey’s egg becomes unfailingly caring and pleasant to everyone."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279008,

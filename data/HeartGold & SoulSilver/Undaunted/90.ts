@@ -77,12 +77,15 @@ const card: Card = {
 	retreat: 3,
 	stage: "Basic",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["david-cohen"]
+		}
+	],
 
 	hp: 140,
 

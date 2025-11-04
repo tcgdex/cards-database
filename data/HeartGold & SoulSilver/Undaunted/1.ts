@@ -87,12 +87,17 @@ const card: Card = {
 		en: "Bellossom gather at times and seem to dance. They say that the dance is a ritual to summon the sun."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279254,

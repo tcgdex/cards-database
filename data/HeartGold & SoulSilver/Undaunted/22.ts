@@ -79,12 +79,14 @@ const card: Card = {
 		en: "The bunch of fruit around its neck ripens twice a year and is delicious. It’s a highly favored tropical snack."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279275,

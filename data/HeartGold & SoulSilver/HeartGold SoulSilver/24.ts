@@ -76,12 +76,14 @@ const card: Card = {
 		en: "They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278996,

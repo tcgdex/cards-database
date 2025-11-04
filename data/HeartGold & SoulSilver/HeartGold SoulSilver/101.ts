@@ -21,12 +21,34 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "reverse",
+			foil: "professor-program",
+		},
+		{
+			type: "normal",
+			stamp : ["yuta-komatsuda"],
+		},
+		{
+			type: "normal",
+			stamp : ["gustavo-wada"],
+		},
+		{
+			type: "normal",
+			stamp : ["christopher-kan"],
+		},
+		{
+			type: "normal",
+			stamp : ["igor-costa"],
+		},
+	],
 
 	hp: 0
 }

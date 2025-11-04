@@ -75,12 +75,19 @@ const card: Card = {
 		en: "Its pleasantly aromatic leaf has the ability to check the humidity and temperature."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp : ["snow-flake"],
+			languages: ["de"]
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279031,

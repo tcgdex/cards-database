@@ -126,7 +126,8 @@
 		"cracked-ice": "cracked-ice",
 		"mirror": "mirror",
 		"league": "league",
-		"player-reward": "player-reward"
+		"player-reward": "player-reward",
+		"professor-program": "professor-program"
 	},
 	"variantStamp": {
 		"1st-edition": "1. Auflage",
@@ -203,7 +204,16 @@
 		"jason-martinez": "jason-martinez",
 		"yuta-komatsuda": "yuta-komatsuda",
 		"origins-2008": "origins-2008",
-		"platinum": "platinum"
+		"platinum": "platinum",
+		"worlds-2010": "worlds-2010",
+		"ross-cawthorn": "ross-cawthorn",
+		"gustavo-wada": "gustavo-wada",
+		"snow-flake": "snow-flake",
+		"christopher-kan": "christopher-kan",
+		"player-rewards-program": "player-rewards-program",
+		"igor-costa": "igor-costa",
+		"zachary-bokhari": "zachary-bokhari",
+		"shuto-itagaki" : "shuto-itagaki"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",

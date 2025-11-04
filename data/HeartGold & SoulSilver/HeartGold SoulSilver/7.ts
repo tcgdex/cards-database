@@ -77,12 +77,18 @@ const card: Card = {
 		en: "Its nine beautiful tails are filled with a wondrous energy that could keep it alive for 1,000 years."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278979,

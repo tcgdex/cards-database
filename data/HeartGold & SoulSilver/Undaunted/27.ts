@@ -64,12 +64,18 @@ const card: Card = {
 		en: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["ross-cawthorn"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279280,

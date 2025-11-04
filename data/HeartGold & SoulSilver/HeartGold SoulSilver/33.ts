@@ -65,12 +65,18 @@ const card: Card = {
 		en: "Even though it is small, it can’t be ignored because it will slug any handy target without warning."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp : ["gustavo-wada"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279005,
