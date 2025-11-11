@@ -61,7 +61,7 @@
 	},
 	"stage": {
 		"Baby": "Bebé",
-		"Basic": "Basico",
+		"Basic": "Básico",
 		"BREAK": "TURBO",
 		"LEVEL-UP": "Subir de nivel",
 		"MEGA": "MEGA",
@@ -86,7 +86,7 @@
 		"Goldenrod Game Corner": "Goldenrod Game Corner",
 		"Item": "Objeto",
 		"Rocket's Secret Machine": "Máquina Secreta de Rocket",
-		"Stadium": "Estaio",
+		"Stadium": "Estadio",
 		"Supporter": "Partidario",
 		"Technical Machine": "Máquina Técnica",
 		"Tool": "Herramienta"
@@ -97,7 +97,7 @@
 		"Dragon": "Dragón",
 		"Fairy": "Hada",
 		"Fighting": "Lucha",
-		"Fire": "Guego",
+		"Fire": "Fuego",
 		"Grass": "Planta",
 		"Lightning": "Rayo",
 		"Metal": "Metálica",
@@ -116,7 +116,7 @@
 		"jumbo": "jumbo"
 	},
 	"variantFoil": {
-		"pokeball": "Pokébola",
+		"pokeball": "Pokéball",
 		"ultraball": "UltraBall",
 		"masterball": "MasterBall",
 		"gold": "Oro",
