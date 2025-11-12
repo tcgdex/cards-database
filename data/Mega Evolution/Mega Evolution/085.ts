@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Corphish",
+		fr: "Écrapince",
+		de: "Krebscorps",
+		it: "Corphish",
+		es: "Corphish",
+		pt: "Corphish",
+		'es-mx': "Corphish"
+	},
 	stage: "Stage1",
 	dexId: [342],
 

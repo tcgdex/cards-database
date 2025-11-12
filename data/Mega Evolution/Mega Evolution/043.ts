@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Snom",
+		fr: "Frissonille",
+		de: "Snomnom",
+		it: "Snom",
+		es: "Snom",
+		pt: "Snom",
+		'es-mx': "Snom"
+	},
 	stage: "Stage1",
 	dexId: [873],
 

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Tinkatuff",
+		fr: "Forgella",
+		de: "Tafforgita",
+		it: "Tinkatuff",
+		es: "Tinkatuff",
+		pt: "Tinkatuff",
+		'es-mx': "Tinkatuff"
+	},
 	stage: "Stage2",
 	dexId: [959],
 

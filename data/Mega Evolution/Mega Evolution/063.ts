@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Spoink",
+		fr: "Spoink",
+		de: "Spoink",
+		it: "Spoink",
+		es: "Spoink",
+		pt: "Spoink",
+		'es-mx': "Spoink"
+	},
 	stage: "Stage1",
 	dexId: [326],
 

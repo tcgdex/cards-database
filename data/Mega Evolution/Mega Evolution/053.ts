@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Helioptile",
+		fr: "Galvaran",
+		de: "Eguana",
+		it: "Helioptile",
+		es: "Helioptile",
+		pt: "Helioptile",
+		'es-mx': "Helioptile"
+	},
 	stage: "Stage1",
 	dexId: [695],
 

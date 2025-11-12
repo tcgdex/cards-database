@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Bulbasaur",
+		fr: "Bulbizarre",
+		de: "Bisasam",
+		it: "Bulbasaur",
+		es: "Bulbasaur",
+		pt: "Bulbasaur",
+		'es-mx': "Bulbasaur"
+	},
 	stage: "Stage1",
 	dexId: [2],
 

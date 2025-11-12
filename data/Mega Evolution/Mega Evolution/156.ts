@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Mega Camerupt ex",
+		fr: "Méga-Camérupt-ex",
+		de: "Mega-Camerupt-ex",
+		it: "Mega Camerupt-ex",
+		es: "Mega-Camerupt ex",
+		pt: "Mega Camerupt ex",
+		'es-mx': "Mega-Camerupt ex"
+	},
 	stage: "Stage1",
 	dexId: [323],
 

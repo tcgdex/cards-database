@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Seedot",
+		fr: "Grainipiot",
+		de: "Samurzel",
+		it: "Seedot",
+		es: "Seedot",
+		pt: "Seedot",
+		'es-mx': "Seedot"
+	},
 	stage: "Stage1",
 	dexId: [274],
 

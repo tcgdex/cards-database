@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Raboot",
+		fr: "Lapyro",
+		de: "Kickerlo",
+		it: "Raboot",
+		es: "Raboot",
+		pt: "Raboot",
+		'es-mx': "Raboot"
+	},
 	stage: "Stage2",
 	dexId: [815],
 

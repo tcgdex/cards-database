@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Nincada",
+		fr: "Ningale",
+		de: "Nincada",
+		it: "Nincada",
+		es: "Nincada",
+		pt: "Nincada",
+		'es-mx': "Nincada"
+	},
 	stage: "Stage1",
 	dexId: [291],
 
