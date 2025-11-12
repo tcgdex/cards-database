@@ -16,7 +16,8 @@ const card: Card = {
 		en: "Put 2 random Pokémon from your deck into your hand. For each Pokémon you put into your hand in this way, choose a Pokémon to shuffle from your hand into your deck."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["mega-blaziken"]
 }
 
 export default card

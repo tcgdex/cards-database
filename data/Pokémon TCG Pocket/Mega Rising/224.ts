@@ -16,7 +16,9 @@ const card: Card = {
 		en: "Take a {P} Energy from your Energy Zone and attach it to each of your Drifblim and Mismagius."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	boosters: ["mega-altaria"]
 }
 
 export default card

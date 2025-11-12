@@ -16,7 +16,9 @@ const card: Card = {
 		en: "Flip 2 coins. If both of them are heads, discard a random Energy from your opponent's Active Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	boosters: ["mega-gyarados"]
 }
 
 export default card

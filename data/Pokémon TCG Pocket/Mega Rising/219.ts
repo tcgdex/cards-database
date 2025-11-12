@@ -16,7 +16,9 @@ const card: Card = {
 		en: "If the Pokémon this card is attached to has a Retreat Cost of 3 or more, it takes −20 damage from attacks from your opponent's Pokémon."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+
+	boosters: ["mega-gyarados"]
 }
 
 export default card

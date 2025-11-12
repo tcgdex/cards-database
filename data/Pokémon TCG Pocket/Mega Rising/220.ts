@@ -16,7 +16,9 @@ const card: Card = {
 		en: "Whenever your opponent's Pokémon is Knocked Out by damage from an attack used by the Pokémon this card is attached to, draw a card."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+
+	boosters: ["mega-altaria"]
 }
 
 export default card

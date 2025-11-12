@@ -16,7 +16,9 @@ const card: Card = {
 		en: "Attach a {R} Energy from your discard pile to your Active {R} Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	boosters: ["mega-blaziken"]
 }
 
 export default card

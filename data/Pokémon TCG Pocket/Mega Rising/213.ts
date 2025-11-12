@@ -16,7 +16,9 @@ const card: Card = {
 		en: "A card from among both player's hands is chosen at random, revealed to the other player, and shuffled into its owner's deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	boosters: ["mega-blaziken"]
 }
 
 export default card

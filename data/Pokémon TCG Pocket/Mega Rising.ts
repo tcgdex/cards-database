@@ -14,7 +14,25 @@ const set: Set = {
 		official: 226
 	},
 
-	releaseDate: "2025-10-30"
+	releaseDate: "2025-10-30",
+
+	boosters: {
+		'mega-gyarados': {
+			name: {
+				en: 'Mega Gyarados'
+			}
+		},
+		'mega-blaziken': {
+			name: {
+				en: 'Mega Blaziken'
+			}
+		},
+		'mega-altaria': {
+			name: {
+				en: 'Mega Altaria'
+			}
+		}
+	}
 }
 
 export default set
