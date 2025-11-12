@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Herdier",
+		fr: "Ponchien",
+		de: "Terribark",
+		it: "Herdier",
+		pt: "Herdier",
+		es: "Herdier",
+		"es-mx": "Herdier"
+	},
 	stage: "Stage2",
 
 	attacks: [{

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Swadloon",
+		fr: "Couverdure",
+		de: "Folikon",
+		it: "Swadloon",
+		pt: "Swadloon",
+		es: "Swadloon",
+		"es-mx": "Swadloon"
+	},
 	stage: "Stage2",
 
 	attacks: [{

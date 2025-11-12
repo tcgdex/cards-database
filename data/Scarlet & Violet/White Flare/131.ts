@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Antique Plume Fossil",
+		fr: "Fossile Plume Ancien",
+		de: "Antikes Federfossil",
+		it: "Vecchio Fossilpiuma",
+		pt: "Fóssil Pluma Arcaico",
+		es: "Fósil Pluma Antiguo",
+		'es-mx': "Fósil Pluma Antiguo"
+	},
 	stage: "Stage1",
 
 	attacks: [{

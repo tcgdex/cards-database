@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Frillish",
+		fr: "Viskuse",
+		de: "Quabbel",
+		it: "Frillish",
+		pt: "Frillish",
+		es: "Frillish",
+		"es-mx": "Frillish"
+	},
 	stage: "Stage1",
 
 	abilities: [{

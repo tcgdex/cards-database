@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Blitzle",
+		fr: "Zébibron",
+		de: "Elezeba",
+		it: "Blitzle",
+		pt: "Blitzle",
+		es: "Blitzle",
+		"es-mx": "Blitzle"
+	},
 	stage: "Stage1",
 
 	attacks: [{

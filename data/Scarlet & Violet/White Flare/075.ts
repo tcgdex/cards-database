@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Lillipup",
+		fr: "Ponchiot",
+		de: "Yorkleff",
+		it: "Lillipup",
+		pt: "Lillipup",
+		es: "Lillipup",
+		"es-mx": "Lillipup"
+	},
 	stage: "Stage1",
 
 	attacks: [{
