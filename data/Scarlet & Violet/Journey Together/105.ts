@@ -26,7 +26,7 @@ const card: Card = {
 		de: "Ns Kliklak",
 		it: "Klang di N",
 		pt: "Klang do N",
-		"es-mx": "Klang de N"
+		'es-mx': "Klang de N"
 	},
 	stage: "Stage2",
 

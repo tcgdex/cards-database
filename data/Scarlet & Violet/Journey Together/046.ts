@@ -26,7 +26,7 @@ const card: Card = {
 		de: "Alola-Georok",
 		it: "Graveler di Alola",
 		pt: "Graveler de Alola",
-		"es-mx": "Graveler de Alola"
+		'es-mx': "Graveler de Alola"
 	},
 	stage: "Stage2",
 

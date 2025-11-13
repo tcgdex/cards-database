@@ -26,7 +26,7 @@ const card: Card = {
 		de: "Enigmaras Blipp",
 		it: "Tadbulb di Kissara",
 		pt: "Tadbulb da Kissera",
-		"es-mx": "Tadbulb de e-Nigma"
+		'es-mx': "Tadbulb de e-Nigma"
 	},
 	stage: "Stage1",
 

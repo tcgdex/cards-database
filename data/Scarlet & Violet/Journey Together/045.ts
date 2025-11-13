@@ -26,7 +26,7 @@ const card: Card = {
 		de: "Alola-Kleinstein",
 		it: "Geodude di Alola",
 		pt: "Geodude de Alola",
-		"es-mx": "Geodude de Alola"
+		'es-mx': "Geodude de Alola"
 	},
 	stage: "Stage1",
 

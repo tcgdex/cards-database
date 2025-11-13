@@ -26,7 +26,7 @@ const card: Card = {
 		de: "Hops Kranoviz",
 		it: "Corvisquire di Hop",
 		pt: "Corvisquire do Lupo",
-		"es-mx": "Corvisquire de Paul"
+		'es-mx': "Corvisquire de Paul"
 	},
 	stage: "Stage2",
 

@@ -26,7 +26,7 @@ const card: Card = {
 		de: "Safcon",
 		it: "Metapod",
 		pt: "Metapod",
-		"es-mx": "Metapod"
+		'es-mx': "Metapod"
 	},
 	stage: "Stage2",
 

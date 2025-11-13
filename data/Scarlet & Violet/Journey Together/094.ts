@@ -26,7 +26,7 @@ const card: Card = {
 		de: "Paldea-Felino",
 		it: "Wooper di Paldea",
 		pt: "Wooper de Paldea",
-		"es-mx": "Wooper de Paldea"
+		'es-mx': "Wooper de Paldea"
 	},
 	stage: "Stage1",
 

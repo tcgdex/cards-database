@@ -26,7 +26,7 @@ const card: Card = {
 		de: "Enigmaras Voltobal",
 		it: "Voltorb di Kissara",
 		pt: "Voltorb da Kissera",
-		"es-mx": "Voltorb de e-Nigma"
+		'es-mx': "Voltorb de e-Nigma"
 	},
 	stage: "Stage1",
 

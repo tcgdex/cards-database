@@ -26,7 +26,7 @@ const card: Card = {
 		de: "Hops Salanga",
 		it: "Silicobra di Hop",
 		pt: "Silicobra do Lupo",
-		"es-mx": "Silicobra de Paul"
+		'es-mx': "Silicobra de Paul"
 	},
 	stage: "Stage1",
 

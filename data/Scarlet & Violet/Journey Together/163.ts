@@ -26,7 +26,7 @@ const card: Card = {
 		de: "Enigmaras Voltrel",
 		it: "Wattrel di Kissara",
 		pt: "Wattrel da Kissera",
-		"es-mx": "Wattrel de e-Nigma"
+		'es-mx': "Wattrel de e-Nigma"
 	},
 	stage: "Stage1",
 

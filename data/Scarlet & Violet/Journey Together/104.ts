@@ -26,7 +26,7 @@ const card: Card = {
 		de: "Ns Klikk",
 		it: "Klink di N",
 		pt: "Klink do N",
-		"es-mx": "Klink de N"
+		'es-mx': "Klink de N"
 	},
 	stage: "Stage1",
 
