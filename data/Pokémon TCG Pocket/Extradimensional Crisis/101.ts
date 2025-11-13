@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aerodactyl ex"
+		en: "Aerodactyl ex",
+		fr: "Ptéra-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -24,17 +25,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Primeval Law"
+			en: "Primeval Law",
+			fr: "Ordre Primitif"
 		},
 
 		effect: {
-			en: "Your opponent can't play any Pokémon from their hand to evolve their Active Pokémon."
+			en: "Your opponent can't play any Pokémon from their hand to evolve their Active Pokémon.",
+			fr: "Votre adversaire ne peut pas jouer de Pokémon de sa main sur le Pokémon Actif pour le faire évoluer."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Land Crush"
+			en: "Land Crush",
+			fr: "Écras'Terre"
 		},
 
 		damage: 80,

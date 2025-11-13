@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Dugtrio ex"
+		en: "Alolan Dugtrio ex",
+		fr: "Triopikeur d'Alola-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -23,14 +24,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Triplet Headbutt"
+			en: "Triplet Headbutt",
+			fr: "Triple Coup d'Boule"
 		},
 
 		damage: 60,
 		cost: ["Metal", "Colorless"],
 
 		effect: {
-			en: "Flip 3 coins. This attack does 60 damage for each heads."
+			en: "Flip 3 coins. This attack does 60 damage for each heads.",
+			fr: "Lancez 3 pièces. Cette attaque inflige 60 dégâts pour chaque côté face."
 		}
 	}],
 

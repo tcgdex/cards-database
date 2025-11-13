@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Looker"
+		en: "Looker",
+		fr: "Beladonis"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Your opponent reveals all of the Supporter cards in their deck."
+		en: "Your opponent reveals all of the Supporter cards in their deck.",
+		fr: "Votre adversaire dévoile toutes ses cartes Supporter contenues dans son deck."
 	},
 
 	trainerType: "Supporter"

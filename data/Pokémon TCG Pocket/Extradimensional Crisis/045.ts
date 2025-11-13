@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Naganadel"
+		en: "Naganadel",
+		fr: "Mandrillon"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It stores hundreds of liters of poisonous liquid\ninside its body. It is one of the organisms known\nas UBs."
+		en: "It stores hundreds of liters of poisonous liquid\ninside its body. It is one of the organisms known\nas UBs.",
+		fr: "Son corps contient des hectolitres de poison. Il fait partie de ces créatures que l'on nomme « Ultra-Chimères »."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Electro House"
+			en: "Electro House",
+			fr: "Acid House"
 		},
 
 		damage: 40,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			en: "Your opponent's Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 		}
 	}],
 

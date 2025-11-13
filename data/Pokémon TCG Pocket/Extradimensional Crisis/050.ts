@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aggron"
+		en: "Aggron",
+		fr: "Galeking"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Aggron has a horn sharp enough to perforate\nthick iron sheets. It brings down its opponents by\nramming into them horn first."
+		en: "Aggron has a horn sharp enough to perforate\nthick iron sheets. It brings down its opponents by\nramming into them horn first.",
+		fr: "Il terrasse ses ennemis en chargeant et en donnant des coups avec ses cornes acérées capables de transpercer des plaques de fer épaisses."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Giga Impact"
+			en: "Giga Impact",
+			fr: "Giga Impact"
 		},
 
 		damage: 150,
 		cost: ["Metal", "Metal", "Colorless", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack."
+			en: "During your next turn, this Pokémon can't attack.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 		}
 	}],
 
