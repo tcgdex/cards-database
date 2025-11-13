@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Elgyem",
+		fr: "Lewsor",
+		de: "Pygraulon",
+		it: "Elgyem",
+		pt: "Elgyem",
+		es: "Elgyem",
+		"es-mx": "Elgyem"
+	},
 	stage: "Stage1",
 
 	attacks: [{
