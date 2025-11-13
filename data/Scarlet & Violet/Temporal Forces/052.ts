@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Pikachu",
+		fr: "Pikachu",
+		es: "Pikachu",
+		it: "Pikachu",
+		pt: "Pikachu",
+		de: "Pikachu"
+	},
 	stage: "Stage1",
 
 	attacks: [{

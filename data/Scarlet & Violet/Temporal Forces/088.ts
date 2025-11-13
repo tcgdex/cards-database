@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Golett",
+		fr: "Gringolem",
+		es: "Golett",
+		it: "Golett",
+		pt: "Golett",
+		de: "Golbit"
+	},
 	stage: "Stage1",
 
 	attacks: [{

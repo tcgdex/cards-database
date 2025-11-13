@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Pidove",
+		fr: "Poichigeon",
+		es: "Pidove",
+		it: "Pidove",
+		pt: "Pidove",
+		de: "Dusselgurr"
+	},
 	stage: "Stage1",
 
 	attacks: [{

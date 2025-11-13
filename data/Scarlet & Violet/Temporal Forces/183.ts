@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Minccino",
+		fr: "Chinchidou",
+		es: "Minccino",
+		it: "Minccino",
+		pt: "Minccino",
+		de: "Picochilla"
+	},
 	stage: "Stage1",
 
 	attacks: [{

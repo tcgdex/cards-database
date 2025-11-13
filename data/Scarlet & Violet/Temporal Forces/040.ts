@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Totodile",
+		fr: "Kaiminus",
+		es: "Totodile",
+		it: "Totodile",
+		pt: "Totodile",
+		de: "Karnimani"
+	},
 	stage: "Stage1",
 
 	attacks: [{

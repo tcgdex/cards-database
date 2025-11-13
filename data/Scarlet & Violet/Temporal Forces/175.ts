@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Mudbray",
+		fr: "Tiboudet",
+		es: "Mudbray",
+		it: "Mudbray",
+		pt: "Mudbray",
+		de: "Pampuli"
+	},
 	stage: "Stage1",
 
 	attacks: [{

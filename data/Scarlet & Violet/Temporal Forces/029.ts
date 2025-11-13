@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Slugma",
+		fr: "Limagma",
+		es: "Slugma",
+		it: "Slugma",
+		pt: "Slugma",
+		de: "Schneckmag"
+	},
 	stage: "Stage1",
 
 	abilities: [{
