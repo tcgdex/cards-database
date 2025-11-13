@@ -52,7 +52,7 @@ const card: Card = {
 	illustrator: "Katsunori Sato",
 
 	thirdParty: {
-		cardmarket: 817193
+		cardmarket: 817314
 	},
 
 	variants: [
