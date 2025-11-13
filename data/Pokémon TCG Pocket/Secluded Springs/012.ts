@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Talonflame"
+		en: "Talonflame",
+		fr: "Flambusard"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It has top-notch flying capabilities. It flies\naround easily, even while carrying prey\nthat weighs more than 220 lbs."
+		en: "It has top-notch flying capabilities. It flies\naround easily, even while carrying prey\nthat weighs more than 220 lbs.",
+		fr: "Ce Pokémon excelle dans l'art de voler. Il est même capable de transporter une proie de plus de 100 kg sans sourciller."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Searing Flame"
+			en: "Searing Flame",
+			fr: "Flammes Calcinantes"
 		},
 
 		damage: 50,
 		cost: ["Fire"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned."
+			en: "Your opponent's Active Pokémon is now Burned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 		}
 	}],
 

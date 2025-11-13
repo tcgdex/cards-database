@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poliwrath ex"
+		en: "Poliwrath ex",
+		fr: "Tartard-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -23,14 +24,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hydro Knuckle"
+			en: "Hydro Knuckle",
+			fr: "Hydro-Tarte"
 		},
 
 		damage: 100,
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon has any {W} Energy attached, this attack does 40 more damage."
+			en: "If this Pokémon has any {W} Energy attached, this attack does 40 more damage.",
+			fr: "Si de l'Énergie {W} est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires."
 		}
 	}],
 

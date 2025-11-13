@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Latios"
+		en: "Latios",
+		fr: "Latios"
 	},
 
 	illustrator: "rika",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It understands human speech and is highly\nintelligent. It is a tender Pokémon that\ndislikes fighting."
+		en: "It understands human speech and is highly\nintelligent. It is a tender Pokémon that\ndislikes fighting.",
+		fr: "Un Pokémon très intelligent qui comprend le langage humain. Il déteste se battre."
 	},
 
 	stage: "Basic",
@@ -24,24 +26,28 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fantastical Floating"
+			en: "Fantastical Floating",
+			fr: "Lévitation Onirique"
 		},
 
 		effect: {
-			en: "If you have Latias in play, this Pokémon has no Retreat Cost."
+			en: "If you have Latias in play, this Pokémon has no Retreat Cost.",
+			fr: "Si vous avez  en jeu, ce Pokémon n'a aucun Coût de Retraite."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Luster Purge"
+			en: "Luster Purge",
+			fr: "Lumi-Éclat"
 		},
 
 		damage: 120,
 		cost: ["Psychic", "Psychic", "Psychic"],
 
 		effect: {
-			en: "Discard all Energy from this Pokémon."
+			en: "Discard all Energy from this Pokémon.",
+			fr: "Défaussez toutes les Énergies de ce Pokémon."
 		}
 	}],
 

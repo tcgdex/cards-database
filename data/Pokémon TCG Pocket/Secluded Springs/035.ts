@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Cursola"
+		en: "Galarian Cursola",
+		fr: "Corayôme de Galar"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,7 +20,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its shell is overflowing with its heightened\notherworldly energy. The ectoplasm serves as\nprotection for this Pokémon's core spirit."
+		en: "Its shell is overflowing with its heightened\notherworldly energy. The ectoplasm serves as\nprotection for this Pokémon's core spirit.",
+		fr: "Son énergie spectrale accrue s'est répandue hors de sa coquille. Il protège l'âme de son noyau avec son corps spirituel."
 	},
 
 	stage: "Stage1",
@@ -28,17 +30,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Perish Body"
+			en: "Perish Body",
+			fr: "Corps Condamné"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, flip a coin. If heads, the Attacking Pokémon is Knocked Out."
+			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, flip a coin. If heads, the Attacking Pokémon is Knocked Out.",
+			fr: "Si ce Pokémon est sur le Poste Actif et est mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire, lancez une pièce. Si c'est face, le Pokémon Attaquant est mis K.O."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Spooky Shot"
+			en: "Spooky Shot",
+			fr: "Tir Effrayant"
 		},
 
 		damage: 60,
