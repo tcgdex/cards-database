@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Steven's Metang",
+		fr: "Métang de Pierre",
+		de: "Troys Metang",
+		it: "Metang di Rocco",
+		es: "Metang de Máximo",
+		pt: "Metang do Steven",
+		'es-mx': "Metang de Steven"
+	},
 	stage: "Stage2",
 
 	abilities: [{

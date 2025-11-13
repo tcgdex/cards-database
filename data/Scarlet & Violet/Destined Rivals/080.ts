@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Team Rocket's Drowzee",
+		fr: "Soporifik de la Team Rocket",
+		de: "Team Rockets Traumato",
+		it: "Drowzee del Team Rocket",
+		es: "Drowzee del Team Rocket",
+		pt: "Drowzee da Equipe Rocket",
+		'es-mx': "Drowzee del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{

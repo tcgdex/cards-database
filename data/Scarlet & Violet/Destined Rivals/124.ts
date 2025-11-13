@@ -2,7 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Destined Rivals"
 
 const card: Card = {
-	dexId: [88],
+	dexId: [89],
 	set: Set,
 
 	name: {
@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Team Rocket's Grimer",
+		fr: "Tadmorv de la Team Rocket",
+		de: "Team Rockets Sleima",
+		it: "Grimer del Team Rocket",
+		es: "Grimer del Team Rocket",
+		pt: "Grimer da Equipe Rocket",
+		'es-mx': "Grimer del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{

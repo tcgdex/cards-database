@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Fomantis",
+		fr: "Mimantis",
+		de: "Imantis",
+		it: "Fomantis",
+		es: "Fomantis",
+		pt: "Fomantis",
+		'es-mx': "Fomantis"
+	},
 	stage: "Stage1",
 
 	attacks: [{

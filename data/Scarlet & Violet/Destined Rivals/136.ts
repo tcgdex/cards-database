@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Marnie's Morgrem",
+		fr: "Fourbelin de Rosemary",
+		de: "Marys Pelzebub",
+		it: "Morgrem di Mary",
+		es: "Morgrem de Roxy",
+		pt: "Morgrem da Marine",
+		'es-mx': "Morgrem de Marnie"
+	},
 	stage: "Stage2",
 
 	abilities: [{

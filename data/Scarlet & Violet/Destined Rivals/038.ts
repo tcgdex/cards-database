@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Team Rocket's Houndour",
+		fr: "Malosse de la Team Rocket",
+		de: "Team Rockets Hunduster",
+		it: "Houndour del Team Rocket",
+		es: "Houndour del Team Rocket",
+		pt: "Houndour da Equipe Rocket",
+		'es-mx': "Houndour del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Team Rocket's Porygon2",
+		fr: "Porygon2 de la Team Rocket",
+		de: "Team Rockets Porygon2",
+		it: "Porygon2 del Team Rocket",
+		es: "Porygon2 del Team Rocket",
+		pt: "Porygon2 da Equipe Rocket",
+		'es-mx': "Porygon2 del Equipo Rocket"
+	},
 	stage: "Stage2",
 
 	abilities: [{

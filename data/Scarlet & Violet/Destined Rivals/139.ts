@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Arven's Maschiff",
+		fr: "Grondogue de Pepper",
+		de: "Peppers Mobtiff",
+		it: "Maschiff di Pepe",
+		es: "Maschiff de Damián",
+		pt: "Maschiff do Arven",
+		'es-mx': "Maschiff de Damián"
+	},
 	stage: "Stage1",
 
 	attacks: [{

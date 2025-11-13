@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Ethan's Slugma",
+		fr: "Limagma de Luth",
+		de: "Klarins Schneckmag",
+		it: "Slugma di Armonio",
+		es: "Slugma de Eco",
+		pt: "Slugma do Ethan",
+		'es-mx': "Slugma de Ethan"
+	},
 	stage: "Stage1",
 
 	abilities: [{

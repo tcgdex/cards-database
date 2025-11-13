@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Ethan's Cyndaquil",
+		fr: "Héricendre de Luth",
+		de: "Klarins Feurigel",
+		it: "Cyndaquil di Armonio",
+		es: "Cyndaquil de Eco",
+		pt: "Cyndaquil do Ethan",
+		'es-mx': "Cyndaquil de Ethan"
+	},
 	stage: "Stage1",
 
 	abilities: [{

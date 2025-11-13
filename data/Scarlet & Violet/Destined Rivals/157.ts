@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Taillow",
+		fr: "Nirondelle",
+		de: "Schwalbini",
+		it: "Taillow",
+		es: "Taillow",
+		pt: "Taillow",
+		'es-mx': "Taillow"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Torchic",
+		fr: "Poussifeu",
+		de: "Flemmli",
+		it: "Torchic",
+		es: "Torchic",
+		pt: "Torchic",
+		'es-mx': "Torchic"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Cynthia's Feebas",
+		fr: "Barpau de Cynthia",
+		de: "Cynthias Barschwa",
+		it: "Feebas di Camilla",
+		es: "Feebas de Cintia",
+		pt: "Feebas da Cíntia",
+		'es-mx': "Feebas de Cynthia"
+	},
 	stage: "Stage1",
 
 	attacks: [{

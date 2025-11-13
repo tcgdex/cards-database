@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Combusken",
+		fr: "Galifeu",
+		de: "Jungglut",
+		it: "Combusken",
+		es: "Combusken",
+		pt: "Combusken",
+		'es-mx': "Combusken"
+	},
 	stage: "Stage2",
 
 	attacks: [{

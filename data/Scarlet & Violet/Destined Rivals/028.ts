@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Growlithe",
+		fr: "Caninos",
+		de: "Fukano",
+		it: "Growlithe",
+		es: "Growlithe",
+		pt: "Growlithe",
+		'es-mx': "Growlithe"
+	},
 	stage: "Stage1",
 
 	attacks: [{
