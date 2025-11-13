@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Impidimp di Mary",
 		es: "Impidimp de Roxy",
 		pt: "Impidimp da Marine",
-		"es-mx": "Impidimp de Marnie"
+		'es-mx': "Impidimp de Marnie"
 	},
 	stage: "Stage1",
 

@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Quilava di Armonio",
 		es: "Quilava de Eco",
 		pt: "Quilava do Ethan",
-		"es-mx": "Quilava de Ethan"
+		'es-mx': "Quilava de Ethan"
 	},
 	stage: "Stage2",
 

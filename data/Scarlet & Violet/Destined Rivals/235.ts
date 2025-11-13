@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Maschiff di Pepe",
 		es: "Maschiff de Damián",
 		pt: "Maschiff do Arven",
-		"es-mx": "Maschiff de Damián"
+		'es-mx': "Maschiff de Damián"
 	},
 	stage: "Stage1",
 

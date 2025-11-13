@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Slugma di Armonio",
 		es: "Slugma de Eco",
 		pt: "Slugma do Ethan",
-		"es-mx": "Slugma de Ethan"
+		'es-mx': "Slugma de Ethan"
 	},
 	stage: "Stage1",
 

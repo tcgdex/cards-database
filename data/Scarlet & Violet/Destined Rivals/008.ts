@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Roselia di Camilla",
 		es: "Roselia de Cintia",
 		pt: "Roselia da Cíntia",
-		"es-mx": "Roselia de Cynthia"
+		'es-mx': "Roselia de Cynthia"
 	},
 	stage: "Stage1",
 

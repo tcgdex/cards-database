@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Scraggy di Mary",
 		es: "Scraggy de Roxy",
 		pt: "Scraggy da Marine",
-		"es-mx": "Scraggy de Marnie"
+		'es-mx': "Scraggy de Marnie"
 	},
 	stage: "Stage1",
 

@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Porygon del Team Rocket",
 		es: "Porygon del Team Rocket",
 		pt: "Porygon da Equipe Rocket",
-		"es-mx": "Porygon del Equipo Rocket"
+		'es-mx': "Porygon del Equipo Rocket"
 	},
 	stage: "Stage1",
 

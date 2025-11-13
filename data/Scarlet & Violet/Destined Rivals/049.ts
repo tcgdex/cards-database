@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Magikarp di Misty",
 		es: "Magikarp de Misty",
 		pt: "Magikarp da Misty",
-		"es-mx": "Magikarp de Misty"
+		'es-mx': "Magikarp de Misty"
 	},
 	stage: "Stage1",
 

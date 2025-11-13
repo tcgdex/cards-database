@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Morgrem di Mary",
 		es: "Morgrem de Roxy",
 		pt: "Morgrem da Marine",
-		"es-mx": "Morgrem de Marnie"
+		'es-mx': "Morgrem de Marnie"
 	},
 	stage: "Stage2",
 

@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Purrloin di Mary",
 		es: "Purrloin de Roxy",
 		pt: "Purrloin da Marine",
-		"es-mx": "Purrloin de Marnie"
+		'es-mx': "Purrloin de Marnie"
 	},
 	stage: "Stage1",
 

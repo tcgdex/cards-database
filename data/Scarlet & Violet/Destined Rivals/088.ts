@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Blipbug del Team Rocket",
 		es: "Blipbug del Team Rocket",
 		pt: "Blipbug da Equipe Rocket",
-		"es-mx": "Blipbug del Equipo Rocket"
+		'es-mx': "Blipbug del Equipo Rocket"
 	},
 	stage: "Stage1",
 

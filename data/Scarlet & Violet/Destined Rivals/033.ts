@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Cyndaquil di Armonio",
 		es: "Cyndaquil de Eco",
 		pt: "Cyndaquil do Ethan",
-		"es-mx": "Cyndaquil de Ethan"
+		'es-mx': "Cyndaquil de Ethan"
 	},
 	stage: "Stage1",
 

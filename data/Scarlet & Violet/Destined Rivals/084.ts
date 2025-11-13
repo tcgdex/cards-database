@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Baltoy di Rocco",
 		es: "Baltoy de Máximo",
 		pt: "Baltoy do Steven",
-		"es-mx": "Baltoy de Steven"
+		'es-mx': "Baltoy de Steven"
 	},
 	stage: "Stage1",
 

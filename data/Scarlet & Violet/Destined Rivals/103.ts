@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Gible di Camilla",
 		es: "Gible de Cintia",
 		pt: "Gible da Cíntia",
-		"es-mx": "Gible de Cynthia"
+		'es-mx': "Gible de Cynthia"
 	},
 	stage: "Stage1",
 

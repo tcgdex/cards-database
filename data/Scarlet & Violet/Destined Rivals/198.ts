@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Dottler del Team Rocket",
 		es: "Dottler del Team Rocket",
 		pt: "Dottler da Equipe Rocket",
-		"es-mx": "Dottler del Equipo Rocket"
+		'es-mx': "Dottler del Equipo Rocket"
 	},
 	stage: "Stage2",
 

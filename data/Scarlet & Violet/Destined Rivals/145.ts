@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Metang di Rocco",
 		es: "Metang de Máximo",
 		pt: "Metang do Steven",
-		"es-mx": "Metang de Steven"
+		'es-mx': "Metang de Steven"
 	},
 	stage: "Stage2",
 

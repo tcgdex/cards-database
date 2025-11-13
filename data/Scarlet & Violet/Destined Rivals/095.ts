@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Larvitar del Team Rocket",
 		es: "Larvitar del Team Rocket",
 		pt: "Larvitar da Equipe Rocket",
-		"es-mx": "Larvitar del Equipo Rocket"
+		'es-mx': "Larvitar del Equipo Rocket"
 	},
 	stage: "Stage1",
 
