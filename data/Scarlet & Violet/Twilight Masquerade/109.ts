@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Glimmet",
+		fr: "Germéclat",
+		es: "Glimmet",
+		it: "Glimmet",
+		pt: "Glimmet",
+		de: "Lumispross"
+	},
 	stage: "Stage1",
 
 	attacks: [{

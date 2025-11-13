@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 310,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Frogadier",
+		fr: "Croâporal",
+		es: "Frogadier",
+		it: "Frogadier",
+		pt: "Frogadier",
+		de: "Amphizel"
+	},
 	stage: "Stage2",
 
 	attacks: [{

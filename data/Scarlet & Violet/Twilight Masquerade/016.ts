@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Thwackey",
+		fr: "Badabouin",
+		es: "Thwackey",
+		it: "Thwackey",
+		pt: "Thwackey",
+		de: "Chimstix"
+	},
 	stage: "Stage2",
 
 	attacks: [{
