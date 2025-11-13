@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Pineco",
+		fr: "Pomdepik",
+		de: "Tannza",
+		it: "Pineco",
+		es: "Pineco",
+		pt: "Pineco",
+		"es-mx": "Pineco"
+	},
 	stage: "Stage1",
 
 	attacks: [{

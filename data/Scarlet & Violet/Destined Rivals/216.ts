@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 330,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Team Rocket's Nidorino",
+		fr: "Nidorino de la Team Rocket",
+		de: "Team Rockets Nidorino",
+		it: "Nidorino del Team Rocket",
+		es: "Nidorino del Team Rocket",
+		pt: "Nidorino da Equipe Rocket",
+		"es-mx": "Nidorino del Equipo Rocket"
+	},
 	stage: "Stage2",
 
 	attacks: [{

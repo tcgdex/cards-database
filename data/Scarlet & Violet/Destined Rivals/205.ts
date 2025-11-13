@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Arven's Skwovet",
+		fr: "Rongourmand de Pepper",
+		de: "Peppers Raffel",
+		it: "Skwovet di Pepe",
+		es: "Skwovet de Damián",
+		pt: "Skwovet do Arven",
+		"es-mx": "Skwovet de Damián"
+	},
 	stage: "Stage1",
 
 	abilities: [{

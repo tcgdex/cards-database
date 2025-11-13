@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 250,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Rellor",
+		fr: "Léboulérou",
+		de: "Relluk",
+		it: "Rellor",
+		es: "Rellor",
+		pt: "Rellor",
+		"es-mx": "Rellor"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Team Rocket's Zubat",
+		fr: "Nosferapti de la Team Rocket",
+		de: "Team Rockets Zubat",
+		it: "Zubat del Team Rocket",
+		es: "Zubat del Team Rocket",
+		pt: "Zubat da Equipe Rocket",
+		"es-mx": "Zubat del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	abilities: [{

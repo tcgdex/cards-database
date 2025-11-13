@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Team Rocket's Larvitar",
+		fr: "Embrylex de la Team Rocket",
+		de: "Team Rockets Larvitar",
+		it: "Larvitar del Team Rocket",
+		es: "Larvitar del Team Rocket",
+		pt: "Larvitar da Equipe Rocket",
+		"es-mx": "Larvitar del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{

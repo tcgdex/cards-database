@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Team Rocket's Ekans",
+		fr: "Abo de la Team Rocket",
+		de: "Team Rockets Rettan",
+		it: "Ekans del Team Rocket",
+		es: "Ekans del Team Rocket",
+		pt: "Ekans da Equipe Rocket",
+		"es-mx": "Ekans del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	abilities: [{
