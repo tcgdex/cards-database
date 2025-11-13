@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Buneary",
+		fr: "Laporeille",
+		es: "Buneary",
+		pt: "Buneary",
+		it: "Buneary",
+		de: "Haspiror"
+	},
 	stage: "Stage1",
 
 	attacks: [{

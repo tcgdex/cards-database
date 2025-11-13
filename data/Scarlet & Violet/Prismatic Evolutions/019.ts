@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Slowpoke",
+		fr: "Ramoloss",
+		es: "Slowpoke",
+		pt: "Slowpoke",
+		it: "Slowpoke",
+		de: "Flegmon"
+	},
 	stage: "Stage1",
 
 	attacks: [{
