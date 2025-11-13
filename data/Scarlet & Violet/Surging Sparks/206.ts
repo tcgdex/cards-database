@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Trapinch",
+		fr: "Kraknoix",
+		es: "Trapinch",
+		it: "Trapinch",
+		pt: "Trapinch",
+		de: "Knacklion"
+	},
 	stage: "Stage1",
 
 	attacks: [{

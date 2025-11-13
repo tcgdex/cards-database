@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Helioptile",
+		fr: "Galvaran",
+		es: "Helioptile",
+		it: "Helioptile",
+		pt: "Helioptile",
+		de: "Eguana"
+	},
 	stage: "Stage1",
 
 	attacks: [{

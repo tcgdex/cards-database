@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Phanpy",
+		fr: "Phanpy",
+		es: "Phanpy",
+		it: "Phanpy",
+		pt: "Phanpy",
+		de: "Phanpy"
+	},
 	stage: "Stage1",
 
 	attacks: [{
