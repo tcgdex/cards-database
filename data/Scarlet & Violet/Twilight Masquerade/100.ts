@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Hisuian Growlithe",
+		fr: "Caninos de Hisui",
+		es: "Growlithe de Hisui",
+		it: "Growlithe di Hisui",
+		pt: "Growlithe de Hisui",
+		de: "Hisui-Fukano"
+	},
 	stage: "Stage1",
 
 	attacks: [{

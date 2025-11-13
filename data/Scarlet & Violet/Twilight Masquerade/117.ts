@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Whirlipede",
+		fr: "Scobolide",
+		es: "Whirlipede",
+		it: "Whirlipede",
+		pt: "Whirlipede",
+		de: "Rollum"
+	},
 	stage: "Stage2",
 
 	attacks: [{

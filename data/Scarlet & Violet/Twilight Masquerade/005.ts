@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Spinarak",
+		fr: "Mimigal",
+		es: "Spinarak",
+		it: "Spinarak",
+		pt: "Spinarak",
+		de: "Webarak"
+	},
 	stage: "Stage1",
 
 	abilities: [{
