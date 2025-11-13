@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Lickitung",
+		fr: "Excelangue",
+		es: "Lickitung",
+		it: "Lickitung",
+		pt: "Lickitung",
+		de: "Schlurp"
+	},
 	stage: "Stage1",
 
 	attacks: [{

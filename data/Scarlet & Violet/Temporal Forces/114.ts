@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Beldum",
+		fr: "Terhal",
+		es: "Beldum",
+		it: "Beldum",
+		pt: "Beldum",
+		de: "Tanhel"
+	},
 	stage: "Stage1",
 
 	abilities: [{

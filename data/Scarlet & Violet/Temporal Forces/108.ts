@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Girafarig",
+		fr: "Girafarig",
+		es: "Girafarig",
+		it: "Girafarig",
+		pt: "Girafarig",
+		de: "Girafarig"
+	},
 	stage: "Stage1",
 
 	abilities: [{

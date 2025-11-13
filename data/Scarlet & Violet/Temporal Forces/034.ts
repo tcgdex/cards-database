@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Torracat",
+		fr: "Matoufeu",
+		es: "Torracat",
+		it: "Torracat",
+		pt: "Torracat",
+		de: "Miezunder"
+	},
 	stage: "Stage2",
 
 	abilities: [{
