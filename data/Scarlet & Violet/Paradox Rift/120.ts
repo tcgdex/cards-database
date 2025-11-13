@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Nickit",
+		fr: "Goupilou",
+		es: "Nickit",
+		it: "Nickit",
+		pt: "Nickit",
+		de: "Kleptifux"
+	},
 	stage: "Stage1",
 
 	abilities: [{

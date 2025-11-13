@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Gible",
+		fr: "Griknot",
+		es: "Gible",
+		it: "Gible",
+		pt: "Gible",
+		de: "Kaumalat"
+	},
 	stage: "Stage1",
 
 	attacks: [{
