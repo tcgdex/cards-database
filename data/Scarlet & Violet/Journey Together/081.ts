@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Larvitar",
+		fr: "Embrylex",
+		es: "Larvitar",
+		de: "Larvitar",
+		it: "Larvitar",
+		pt: "Larvitar",
+		'es-mx': "Larvitar"
+	},
 	stage: "Stage1",
 
 	attacks: [{

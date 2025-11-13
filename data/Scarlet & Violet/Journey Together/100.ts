@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Nymble",
+		fr: "Lilliterelle",
+		es: "Nymble",
+		de: "Micrick",
+		it: "Nymble",
+		pt: "Nymble",
+		'es-mx': "Nymble"
+	},
 	stage: "Stage1",
 
 	attacks: [{

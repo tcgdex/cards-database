@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Rockruff",
+		fr: "Rocabot",
+		es: "Rockruff",
+		de: "Wuffels",
+		it: "Rockruff",
+		pt: "Rockruff",
+		'es-mx': "Rockruff"
+	},
 	stage: "Stage1",
 
 	abilities: [{

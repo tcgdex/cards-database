@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Shelgon",
+		fr: "Drackhaus",
+		es: "Shelgon",
+		de: "Draschel",
+		it: "Shelgon",
+		pt: "Shelgon",
+		'es-mx': "Shelgon"
+	},
 	stage: "Stage2",
 
 	attacks: [{

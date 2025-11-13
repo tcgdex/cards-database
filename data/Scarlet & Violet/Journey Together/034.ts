@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Remoraid",
+		fr: "Rémoraid",
+		es: "Remoraid",
+		de: "Remoraid",
+		it: "Remoraid",
+		pt: "Remoraid",
+		'es-mx': "Remoraid"
+	},
 	stage: "Stage1",
 
 	attacks: [{

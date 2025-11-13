@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Metapod",
+		fr: "Chrysacier",
+		es: "Metapod",
+		de: "Safcon",
+		it: "Metapod",
+		pt: "Metapod",
+		'es-mx': "Metapod"
+	},
 	stage: "Stage2",
 
 	attacks: [{

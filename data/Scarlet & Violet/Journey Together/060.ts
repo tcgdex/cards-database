@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Shuppet",
+		fr: "Polichombr",
+		es: "Shuppet",
+		de: "Shuppet",
+		it: "Shuppet",
+		pt: "Shuppet",
+		'es-mx': "Shuppet"
+	},
 	stage: "Stage1",
 
 	attacks: [{

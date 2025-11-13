@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Morgrem",
+		fr: "Fourbelin",
+		es: "Morgrem",
+		de: "Pelzebub",
+		it: "Morgrem",
+		pt: "Morgrem",
+		'es-mx': "Morgrem"
+	},
 	stage: "Stage2",
 
 	attacks: [{
