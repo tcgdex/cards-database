@@ -26,7 +26,7 @@ const set: Set = {
 				en: "Mew"
 			}
 		}
-	}
+	},
 
 	releaseDate: "2024-12-17"
 }
