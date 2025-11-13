@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Chinchou",
+		fr: "Loupio",
+		es: "Chinchou",
+		it: "Chinchou",
+		pt: "Chinchou",
+		de: "Lampi"
+	},
 	stage: "Stage1",
 
 	attacks: [{

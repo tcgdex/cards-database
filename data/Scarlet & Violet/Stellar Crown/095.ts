@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Impidimp",
+		fr: "Grimalin",
+		es: "Impidimp",
+		it: "Impidimp",
+		pt: "Impidimp",
+		de: "Bähmon"
+	},
 	stage: "Stage1",
 
 	attacks: [{

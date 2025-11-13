@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Ivysaur",
+		fr: "Herbizarre",
+		es: "Ivysaur",
+		it: "Ivysaur",
+		pt: "Ivysaur",
+		de: "Bisaknosp"
+	},
 	stage: "Stage2",
 
 	abilities: [{

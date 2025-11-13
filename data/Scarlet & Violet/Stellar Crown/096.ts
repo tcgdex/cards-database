@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Morgrem",
+		fr: "Fourbelin",
+		es: "Morgrem",
+		it: "Morgrem",
+		pt: "Morgrem",
+		de: "Pelzebub"
+	},
 	stage: "Stage2",
 
 	attacks: [{
