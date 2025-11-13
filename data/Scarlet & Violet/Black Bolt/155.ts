@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Rufflet",
+		fr: "Furaiglon",
+		de: "Geronimatz",
+		it: "Rufflet",
+		pt: "Rufflet",
+		es: "Rufflet",
+		'es-mx': "Rufflet"
+	},
 	stage: "Stage1",
 
 	attacks: [{

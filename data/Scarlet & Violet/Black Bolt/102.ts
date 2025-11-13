@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Panpour",
+		fr: "Flotajou",
+		de: "Sodamak",
+		it: "Panpour",
+		pt: "Panpour",
+		es: "Panpour",
+		'es-mx': "Panpour"
+	},
 	stage: "Stage1",
 
 	attacks: [{

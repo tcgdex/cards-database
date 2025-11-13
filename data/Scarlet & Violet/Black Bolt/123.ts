@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Golett",
+		fr: "Gringolem",
+		de: "Golbit",
+		it: "Golett",
+		pt: "Golett",
+		es: "Golett",
+		'es-mx': "Golett"
+	},
 	stage: "Stage1",
 
 	attacks: [{
