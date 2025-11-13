@@ -42,7 +42,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	boosters: ["mega-gyarados"]
 }
 
 export default card

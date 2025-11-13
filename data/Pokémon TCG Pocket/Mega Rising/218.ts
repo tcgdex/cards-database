@@ -16,7 +16,9 @@ const card: Card = {
 		en: "At the end of each turn, if the Pokémon this card is attached to has half of its maximum HP or less remaining, heal 30 damage from it. If you do, discard this card."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+
+	boosters: ["mega-altaria"]
 }
 
 export default card

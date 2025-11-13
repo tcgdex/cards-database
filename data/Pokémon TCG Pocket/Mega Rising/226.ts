@@ -16,7 +16,9 @@ const card: Card = {
 		en: "Put 2 random Basic Pokémon with 50 HP or less from your deck into your hand."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	boosters: ["mega-altaria"]
 }
 
 export default card

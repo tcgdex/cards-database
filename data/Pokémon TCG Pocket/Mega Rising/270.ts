@@ -16,7 +16,8 @@ const card: Card = {
 		en: "Shuffle your hand into your deck. Draw a card for each card in your opponent's hand."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	boosters: ["mega-gyarados"]
 }
 
 export default card
