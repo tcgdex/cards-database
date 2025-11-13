@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mismagius ex"
+		en: "Mismagius ex",
+		fr: "Magirêve-ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -23,14 +24,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Magical Delusion"
+			en: "Magical Delusion",
+			fr: "Voyage Magique"
 		},
 
 		damage: 70,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused."
+			en: "Your opponent's Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}],
 

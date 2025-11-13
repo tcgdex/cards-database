@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Quagsire"
+		en: "Quagsire",
+		fr: "Maraiste"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It has an easygoing nature. It doesn't care if it\nbumps its head on boats and boulders\nwhile swimming."
+		en: "It has an easygoing nature. It doesn't care if it\nbumps its head on boats and boulders\nwhile swimming.",
+		fr: "Il a tendance à se cogner la tête contre la coque des navires et les rochers, mais, imperturbable, il continue de nager comme si de rien n'était."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Surf"
+			en: "Surf",
+			fr: "Surf"
 		},
 
 		damage: 80,

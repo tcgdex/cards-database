@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nidorina"
+		en: "Nidorina",
+		fr: "Nidorina"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The horn on its head has atrophied. It's thought\nthat this happens so Nidorina's children won't get\npoked while their mother is feeding them."
+		en: "The horn on its head has atrophied. It's thought\nthat this happens so Nidorina's children won't get\npoked while their mother is feeding them.",
+		fr: "On pense que sa corne frontale s'est atrophiée pour lui permettre de nourrir ses petits sans les blesser."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 
 		damage: 30,

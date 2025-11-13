@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vulpix"
+		en: "Vulpix",
+		fr: "Goupix"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "While young, it has six gorgeous tails. When it\ngrows, several new tails are sprouted."
+		en: "While young, it has six gorgeous tails. When it\ngrows, several new tails are sprouted.",
+		fr: "Quand il est jeune, ce Pokémon a six queues magnifiques. De nouvelles queues apparaissent tout au long de sa croissance."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Live Coal"
+			en: "Live Coal",
+			fr: "Charbon Mutant"
 		},
 
 		damage: 30,

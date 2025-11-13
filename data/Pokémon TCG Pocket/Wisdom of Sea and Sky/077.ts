@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cleffa"
+		en: "Cleffa",
+		fr: "Mélo"
 	},
 
 	illustrator: "Orca",
@@ -15,18 +16,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "According to local rumors, Cleffa are often seen\nin places where shooting stars have fallen."
+		en: "According to local rumors, Cleffa are often seen\nin places where shooting stars have fallen.",
+		fr: "On dit qu'il apparaît souvent là où se sont écrasées des météorites."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Twinkly Call"
+			en: "Twinkly Call",
+			fr: "Appel qui Brille"
 		},
 
 		effect: {
-			en: "Put a random Pokémon from your deck into your hand."
+			en: "Put a random Pokémon from your deck into your hand.",
+			fr: "Ajoutez au hasard un Pokémon de votre deck à votre main."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ursaring"
+		en: "Ursaring",
+		fr: "Ursaring"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It usually wears a hardened expression, but when\nit's licking up honey—which it loves—the joy it\nfeels will cause it to break into a wide grin."
+		en: "It usually wears a hardened expression, but when\nit's licking up honey—which it loves—the joy it\nfeels will cause it to break into a wide grin.",
+		fr: "Son visage austère s'illumine de joie lorsqu'il savoure du miel, un aliment qu'il adore."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Swing Around"
+			en: "Swing Around",
+			fr: "Balançoire"
 		},
 
 		damage: 60,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 20 more damage for each heads."
+			en: "Flip 2 coins. This attack does 20 more damage for each heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hiker"
+		en: "Hiker",
+		fr: "Montagnard"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "For each of your {F} Pokémon in play, look at that many cards from the top of your deck and put them back in any order."
+		en: "For each of your {F} Pokémon in play, look at that many cards from the top of your deck and put them back in any order.",
+		fr: "Pour chacun de vos Pokémon {F} en jeu, regardez une carte du dessus de votre deck, puis replacez les cartes regardées dans l'ordre de votre choix."
 	},
 
 	trainerType: "Supporter",

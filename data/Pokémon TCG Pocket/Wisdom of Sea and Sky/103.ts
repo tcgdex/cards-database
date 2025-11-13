@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Larvitar"
+		en: "Larvitar",
+		fr: "Embrylex"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Born deep underground, this Pokémon\nbecomes a pupa after eating enough\ndirt to make a mountain."
+		en: "Born deep underground, this Pokémon\nbecomes a pupa after eating enough\ndirt to make a mountain.",
+		fr: "Il naît dans les profondeurs terrestres. Après avoir englouti une quantité de terre équivalente à une montagne, il se transforme en chrysalide."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 
 		damage: 10,

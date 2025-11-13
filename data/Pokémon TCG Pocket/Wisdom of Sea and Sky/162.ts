@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chikorita"
+		en: "Chikorita",
+		fr: "Germignon"
 	},
 
 	illustrator: "Keisin",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "A sweet aroma gently wafts from the leaf on its\nhead. It is docile and loves to soak up sun rays."
+		en: "A sweet aroma gently wafts from the leaf on its\nhead. It is docile and loves to soak up sun rays.",
+		fr: "Un doux parfum émane de la feuille placée sur sa tête. Il est très gentil et aime dormir au soleil."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Razor Leaf"
+			en: "Razor Leaf",
+			fr: "Tranch'Herbe"
 		},
 
 		damage: 20,

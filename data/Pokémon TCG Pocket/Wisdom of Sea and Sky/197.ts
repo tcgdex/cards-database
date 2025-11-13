@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lyra"
+		en: "Lyra",
+		fr: "Célesta"
 	},
 
 	illustrator: "yuu",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Switch your Active Pokémon that has damage on it with 1 of your Benched Pokémon."
+		en: "Switch your Active Pokémon that has damage on it with 1 of your Benched Pokémon.",
+		fr: "Échangez votre Pokémon Actif ayant subi des dégâts contre un de vos Pokémon de Banc."
 	},
 
 	trainerType: "Supporter",
