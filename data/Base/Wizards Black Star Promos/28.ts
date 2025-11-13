@@ -49,7 +49,17 @@ const card: Card = {
 
 	description: {
 		fr: "L'été, on aperçoit souvent des bandes de Pikachu surfant sur les vagues."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+			stamp: ["pikachu-tail"]
+		},
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card

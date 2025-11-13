@@ -58,12 +58,14 @@ const card: Card = {
 		en: "As it develops, its single white tail gains color and splits into six. It is quite warm and cuddly."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279224,

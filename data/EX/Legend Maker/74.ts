@@ -22,7 +22,21 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 276951,
 		tcgplayer: 85579
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["jimmy-ballard"]
+		}
+	]
 }
 
 export default card

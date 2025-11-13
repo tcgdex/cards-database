@@ -80,12 +80,22 @@ const card: Card = {
 		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278992,

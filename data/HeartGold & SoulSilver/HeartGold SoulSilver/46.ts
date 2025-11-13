@@ -74,12 +74,14 @@ const card: Card = {
 		en: "It prepares for evolution by hardening its shell as much as possible to protect its soft body."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279018,

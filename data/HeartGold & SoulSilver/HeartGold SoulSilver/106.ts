@@ -74,12 +74,15 @@ const card: Card = {
 	retreat: 2,
 	suffix: "Prime",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp : ["ross-cawthorn"],
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279008,

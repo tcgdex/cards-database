@@ -20,7 +20,20 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 275206
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["reed-weichler"]
+		}
+	]
 }
 
 export default card

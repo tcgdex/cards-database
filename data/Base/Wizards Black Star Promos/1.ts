@@ -56,6 +56,20 @@ const card: Card = {
 		},
 	],
 	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition-error"]
+		},
+		{
+			type: "normal",
+			stamp: ["pikachu-tail"]
+		}
+	]
 }
 
 export default card

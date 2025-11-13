@@ -21,7 +21,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275221,
 		tcgplayer: 83937
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["kevin-nguyen"]
+		}
+	]
 }
 
 export default card

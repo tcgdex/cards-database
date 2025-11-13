@@ -23,7 +23,24 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278538,
 		tcgplayer: 89806
-	}
+	},
+
+	variants:[
+		{
+			type:"normal"
+		},
+		{
+			type:"reverse"
+		},
+		{
+			type:"normal",
+			stamp: ["tsubasa-nakamura"]
+		},
+		{
+			type:"normal",
+			stamp: ["yuta-komatsuda"]
+		}
+	]
 }
 
 export default card

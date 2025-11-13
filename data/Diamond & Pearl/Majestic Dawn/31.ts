@@ -77,7 +77,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278080,
 		tcgplayer: 90008
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["tristan-robinson"]
+		}
+	]
 }
 
 export default card

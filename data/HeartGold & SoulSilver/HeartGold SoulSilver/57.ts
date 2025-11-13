@@ -54,12 +54,14 @@ const card: Card = {
 		en: "Its feet have suction cups designed to stick to any surface. It tenaciously climbs trees to forage."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279029,

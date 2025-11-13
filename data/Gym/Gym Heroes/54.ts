@@ -56,14 +56,24 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		wPromo: true
-	},
-
 	thirdParty: {
 		cardmarket: 274190,
 		tcgplayer: 87539
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "normal",
+			stamp: ["wotc"],
+		}
+	]
 }
 
 export default card

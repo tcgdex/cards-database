@@ -54,12 +54,14 @@ const card: Card = {
 		en: "It hangs and waits for flying insect prey to come near. It does not move about much on its own."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279315,

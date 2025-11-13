@@ -58,12 +58,14 @@ const card: Card = {
 		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279221,

@@ -68,14 +68,28 @@ const card: Card = {
 		fr: "Disparu depuis longtemps, il peut être réanimé génétiquement à partir d'anciens fossiles."
 	},
 
-	variants: {
-		wPromo: true
-	},
-
 	thirdParty: {
 		cardmarket: 273870,
 		tcgplayer: 44452
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+		},
+		{
+			type: "normal",
+			stamp: ["wotc"]
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright"
+		}
+	]
 }
 
 export default card

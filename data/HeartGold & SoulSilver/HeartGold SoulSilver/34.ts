@@ -80,12 +80,14 @@ const card: Card = {
 		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279006,

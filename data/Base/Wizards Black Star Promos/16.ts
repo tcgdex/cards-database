@@ -11,19 +11,11 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	variants: [
+		{
+			type: "normal"
+		}
+	]
 }
 
 export default card

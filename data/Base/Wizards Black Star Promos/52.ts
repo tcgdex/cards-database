@@ -51,9 +51,15 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["pokemon-center-ny"]
+		}
+	]
 }
 
 export default card

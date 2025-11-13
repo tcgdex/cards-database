@@ -71,8 +71,11 @@ const card: Card = {
 	],
 	retreat: 1,
 
-
-
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 }
 
 export default card
