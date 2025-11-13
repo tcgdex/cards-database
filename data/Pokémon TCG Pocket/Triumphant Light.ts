@@ -26,7 +26,7 @@ const set: Set = {
 				en: "Arceus"
 			}
 		}
-	}
+	},
 
 	releaseDate: "2025-02-28"
 }
