@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Drakloak",
+		fr: "Dispareptil",
+		es: "Drakloak",
+		pt: "Drakloak",
+		it: "Drakloak",
+		de: "Phandra"
+	},
 	stage: "Stage2",
 
 	attacks: [{

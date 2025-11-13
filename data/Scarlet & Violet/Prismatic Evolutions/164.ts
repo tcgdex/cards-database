@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Gimmighoul",
+		fr: "Mordudor",
+		es: "Gimmighoul",
+		pt: "Gimmighoul",
+		it: "Gimmighoul",
+		de: "Gierspenst"
+	},
 	stage: "Stage1",
 
 	abilities: [{
