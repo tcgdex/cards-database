@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Zorua",
+		fr: "Zorua",
+		es: "Zorua",
+		it: "Zorua",
+		pt: "Zorua",
+		de: "Zorua"
+	},
 	stage: "Stage1",
 
 	attacks: [{

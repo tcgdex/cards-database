@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Fraxure",
+		fr: "Incisache",
+		es: "Fraxure",
+		it: "Fraxure",
+		pt: "Fraxure",
+		de: "Sharfax"
+	},
 	stage: "Stage2",
 
 	attacks: [{
