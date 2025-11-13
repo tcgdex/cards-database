@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 200,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Rhydon",
+		fr: "Rhinoféros",
+		es: "Rhydon",
+		it: "Rhydon",
+		pt: "Rhydon",
+		de: "Rizeros"
+	},
 	stage: "Stage2",
 
 	abilities: [{

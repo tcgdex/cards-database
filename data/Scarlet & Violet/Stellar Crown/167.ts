@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 330,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Dipplin",
+		fr: "Pomdramour",
+		es: "Dipplin",
+		it: "Dipplin",
+		pt: "Dipplin",
+		de: "Sirapfel"
+	},
 	stage: "Stage2",
 
 	abilities: [{

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Pancham",
+		fr: "Pandespiègle",
+		es: "Pancham",
+		it: "Pancham",
+		pt: "Pancham",
+		de: "Pam-Pam"
+	},
 	stage: "Stage1",
 
 	attacks: [{
