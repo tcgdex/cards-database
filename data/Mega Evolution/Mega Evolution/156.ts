@@ -20,13 +20,13 @@ const card: Card = {
 	hp: 340,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Mega Camerupt ex",
-		fr: "Méga-Camérupt-ex",
-		de: "Mega-Camerupt-ex",
-		it: "Mega Camerupt-ex",
-		es: "Mega-Camerupt ex",
-		pt: "Mega Camerupt ex",
-		'es-mx': "Mega-Camerupt ex"
+		en: "Numel",
+		fr: "Chamallot",
+		de: "Camaub",
+		it: "Numel",
+		es: "Numel",
+		pt: "Numel",
+		'es-mx': "Numel"
 	},
 	stage: "Stage1",
 	dexId: [323],
