@@ -26,7 +26,7 @@ const card: Card = {
 		it: "Servine",
 		pt: "Servine",
 		es: "Servine",
-		"es-mx": "Servine"
+		'es-mx': "Servine"
 	},
 	stage: "Stage2",
 
