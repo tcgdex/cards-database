@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ekans"
+		en: "Ekans",
+		fr: "Abo"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "By dislocating its jaw, it can swallow prey larger\nthan itself. After a meal, it curls up and rests."
+		en: "By dislocating its jaw, it can swallow prey larger\nthan itself. After a meal, it curls up and rests.",
+		fr: "Il peut se déboîter la mâchoire pour avaler tout rond des proies plus grosses que lui. Il se replie ensuite sur lui-même pour digérer."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 
 		damage: 20,

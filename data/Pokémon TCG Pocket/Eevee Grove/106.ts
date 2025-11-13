@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gallade ex"
+		en: "Gallade ex",
+		fr: "Gallame-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -23,14 +24,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Energized Blade"
+			en: "Energized Blade",
+			fr: "Lame Énergisée"
 		},
 
 		damage: 70,
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
-			en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon."
+			en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts de plus pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
 		}
 	}],
 
