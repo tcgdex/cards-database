@@ -26,7 +26,7 @@ const set: Set = {
 				en: "Shining"
 			}
 		}
-	}
+	},
 
 	releaseDate: "2025-03-27"
 }
