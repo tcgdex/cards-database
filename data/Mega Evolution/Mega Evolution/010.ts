@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Bayleef",
+		fr: "Macronium",
+		de: "Lorblatt",
+		it: "Bayleef",
+		es: "Bayleef",
+		pt: "Bayleef",
+		'es-mx': "Bayleef"
+	},
 	stage: "Stage2",
 	dexId: [154],
 

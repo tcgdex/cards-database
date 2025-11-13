@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Tangela",
+		fr: "Saquedeneu",
+		de: "Tangela",
+		it: "Tangela",
+		es: "Tangela",
+		pt: "Tangela",
+		'es-mx': "Tangela"
+	},
 	stage: "Stage1",
 	dexId: [465],
 

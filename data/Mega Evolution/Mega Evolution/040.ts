@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Sobble",
+		fr: "Larméléon",
+		de: "Memmeon",
+		it: "Sobble",
+		es: "Sobble",
+		pt: "Sobble",
+		'es-mx': "Sobble"
+	},
 	stage: "Stage1",
 	dexId: [817],
 

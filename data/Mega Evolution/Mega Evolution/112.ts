@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Stufful",
+		fr: "Nounourson",
+		de: "Velursi",
+		it: "Stufful",
+		es: "Stufful",
+		pt: "Stufful",
+		'es-mx': "Stufful"
+	},
 	stage: "Stage1",
 	dexId: [760],
 

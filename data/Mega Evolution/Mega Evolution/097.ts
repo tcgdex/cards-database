@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Tinkatink",
+		fr: "Forgerette",
+		de: "Forgita",
+		it: "Tinkatink",
+		es: "Tinkatink",
+		pt: "Tinkatink",
+		'es-mx': "Tinkatink"
+	},
 	stage: "Stage1",
 	dexId: [958],
 

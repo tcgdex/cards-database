@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Makuhita",
+		fr: "Makuhita",
+		de: "Makuhita",
+		it: "Makuhita",
+		es: "Makuhita",
+		pt: "Makuhita",
+		'es-mx': "Makuhita"
+	},
 	stage: "Stage1",
 	dexId: [297],
 

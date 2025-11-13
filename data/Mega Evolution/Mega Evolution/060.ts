@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 360,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Kirlia",
+		fr: "Kirlia",
+		de: "Kirlia",
+		it: "Kirlia",
+		es: "Kirlia",
+		pt: "Kirlia",
+		'es-mx': "Kirlia"
+	},
 	stage: "Stage2",
 	dexId: [282],
 

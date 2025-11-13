@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Chikorita",
+		fr: "Germignon",
+		de: "Endivie",
+		it: "Chikorita",
+		es: "Chikorita",
+		pt: "Chikorita",
+		'es-mx': "Chikorita"
+	},
 	stage: "Stage1",
 	dexId: [153],
 

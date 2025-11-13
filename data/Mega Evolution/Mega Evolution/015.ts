@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Nuzleaf",
+		fr: "Pifeuil",
+		de: "Blanas",
+		it: "Nuzleaf",
+		es: "Nuzleaf",
+		pt: "Nuzleaf",
+		'es-mx': "Nuzleaf"
+	},
 	stage: "Stage2",
 	dexId: [275],
 
