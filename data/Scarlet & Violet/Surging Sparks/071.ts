@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Togepi",
+		fr: "Togepi",
+		es: "Togepi",
+		it: "Togepi",
+		pt: "Togepi",
+		de: "Togepi"
+	},
 	stage: "Stage1",
 
 	attacks: [{
