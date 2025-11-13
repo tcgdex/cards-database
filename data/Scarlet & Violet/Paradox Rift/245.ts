@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Gabite",
+		fr: "Carmache",
+		es: "Gabite",
+		it: "Gabite",
+		pt: "Gabite",
+		de: "Knarksel"
+	},
 	stage: "Stage2",
 
 	attacks: [{

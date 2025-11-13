@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Naclstack",
+		fr: "Amassel",
+		es: "Naclstack",
+		it: "Naclstack",
+		pt: "Naclstack",
+		de: "Sedisal"
+	},
 	stage: "Stage2",
 
 	abilities: [{

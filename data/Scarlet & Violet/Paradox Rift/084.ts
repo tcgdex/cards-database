@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Tinkatink",
+		fr: "Forgerette",
+		es: "Tinkatink",
+		it: "Tinkatink",
+		pt: "Tinkatink",
+		de: "Forgita"
+	},
 	stage: "Stage1",
 
 	attacks: [{

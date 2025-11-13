@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Loudred",
+		fr: "Ramboum",
+		es: "Loudred",
+		it: "Loudred",
+		pt: "Loudred",
+		de: "Krakeelo"
+	},
 	stage: "Stage2",
 
 	attacks: [{
