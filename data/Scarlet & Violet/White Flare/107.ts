@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Dewott",
+		fr: "Mateloutre",
+		de: "Zwottronin",
+		it: "Dewott",
+		pt: "Dewott",
+		es: "Dewott",
+		'es-mx': "Dewott"
+	},
 	stage: "Stage2",
 
 	abilities: [{

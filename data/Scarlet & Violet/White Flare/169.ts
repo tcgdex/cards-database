@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 330,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Zweilous",
+		fr: "Diamat",
+		de: "Duodino",
+		it: "Zweilous",
+		pt: "Zweilous",
+		es: "Zweilous",
+		'es-mx': "Zweilous"
+	},
 	stage: "Stage2",
 
 	abilities: [{

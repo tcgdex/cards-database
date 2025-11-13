@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Gothita",
+		fr: "Scrutella",
+		de: "Mollimorba",
+		it: "Gothita",
+		pt: "Gothita",
+		es: "Gothita",
+		'es-mx': "Gothita"
+	},
 	stage: "Stage1",
 
 	attacks: [{

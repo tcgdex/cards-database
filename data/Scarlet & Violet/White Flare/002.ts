@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Sewaddle",
+		fr: "Larveyette",
+		de: "Strawickl",
+		it: "Sewaddle",
+		pt: "Sewaddle",
+		es: "Sewaddle",
+		'es-mx': "Sewaddle"
+	},
 	stage: "Stage1",
 
 	abilities: [{

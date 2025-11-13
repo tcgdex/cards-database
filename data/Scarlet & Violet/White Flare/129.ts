@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Boldore",
+		fr: "Géolithe",
+		de: "Sedimantur",
+		it: "Boldore",
+		pt: "Boldore",
+		es: "Boldore",
+		'es-mx': "Boldore"
+	},
 	stage: "Stage2",
 
 	attacks: [{
