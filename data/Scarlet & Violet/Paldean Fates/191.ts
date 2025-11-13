@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Scyther",
+		fr: "Insécateur",
+		es: "Scyther",
+		it: "Scyther",
+		pt: "Scyther",
+		de: "Sichlor"
+	},
 	stage: "Stage1",
 
 	attacks: [{

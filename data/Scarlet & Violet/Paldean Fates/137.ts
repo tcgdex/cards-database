@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Luxio",
+		fr: "Luxio",
+		es: "Luxio",
+		it: "Luxio",
+		pt: "Luxio",
+		de: "Luxio"
+	},
 	stage: "Stage2",
 
 	abilities: [{

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Toedscool",
+		fr: "Terracool",
+		es: "Toedscool",
+		it: "Toedscool",
+		pt: "Toedscool",
+		de: "Tentagra"
+	},
 	stage: "Stage1",
 
 	abilities: [{
