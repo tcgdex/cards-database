@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Cubone",
+		fr: "Osselait",
+		es: "Cubone",
+		de: "Tragosso",
+		it: "Cubone",
+		pt: "Cubone",
+		"es-mx": "Cubone"
+	},
 	stage: "Stage1",
 
 	attacks: [{

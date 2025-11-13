@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Dunsparce",
+		fr: "Insolourdo",
+		es: "Dunsparce",
+		de: "Dummisel",
+		it: "Dunsparce",
+		pt: "Dunsparce",
+		"es-mx": "Dunsparce"
+	},
 	stage: "Stage1",
 
 	attacks: [{

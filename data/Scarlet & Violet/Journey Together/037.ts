@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Lombre",
+		fr: "Lombre",
+		es: "Lombre",
+		de: "Lombrero",
+		it: "Lombre",
+		pt: "Lombre",
+		"es-mx": "Lombre"
+	},
 	stage: "Stage2",
 
 	abilities: [{

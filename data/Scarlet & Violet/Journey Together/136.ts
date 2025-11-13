@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Hop's Wooloo",
+		fr: "Moumouton de Nabil",
+		es: "Wooloo de Paul",
+		de: "Hops Wolly",
+		it: "Wooloo di Hop",
+		pt: "Wooloo do Lupo",
+		"es-mx": "Wooloo de Paul"
+	},
 	stage: "Stage1",
 
 	abilities: [{

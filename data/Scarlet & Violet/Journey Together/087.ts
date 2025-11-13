@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Hop's Silicobra",
+		fr: "Dunaja de Nabil",
+		es: "Silicobra de Paul",
+		de: "Hops Salanga",
+		it: "Silicobra di Hop",
+		pt: "Silicobra do Lupo",
+		"es-mx": "Silicobra de Paul"
+	},
 	stage: "Stage1",
 
 	attacks: [{

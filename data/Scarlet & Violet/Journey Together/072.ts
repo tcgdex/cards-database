@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Impidimp",
+		fr: "Grimalin",
+		es: "Impidimp",
+		de: "Bähmon",
+		it: "Impidimp",
+		pt: "Impidimp",
+		"es-mx": "Impidimp"
+	},
 	stage: "Stage1",
 
 	attacks: [{

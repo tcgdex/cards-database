@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Iono's Voltorb",
+		fr: "Voltorbe de Mashynn",
+		es: "Voltorb de e-Nigma",
+		de: "Enigmaras Voltobal",
+		it: "Voltorb di Kissara",
+		pt: "Voltorb da Kissera",
+		"es-mx": "Voltorb de e-Nigma"
+	},
 	stage: "Stage1",
 
 	attacks: [{

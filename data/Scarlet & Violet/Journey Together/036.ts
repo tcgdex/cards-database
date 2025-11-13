@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Lotad",
+		fr: "Nénupiot",
+		es: "Lotad",
+		de: "Loturzel",
+		it: "Lotad",
+		pt: "Lotad",
+		"es-mx": "Lotad"
+	},
 	stage: "Stage1",
 
 	attacks: [{

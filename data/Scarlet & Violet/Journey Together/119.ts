@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Sentret",
+		fr: "Fouinette",
+		es: "Sentret",
+		de: "Wiesor",
+		it: "Sentret",
+		pt: "Sentret",
+		"es-mx": "Sentret"
+	},
 	stage: "Stage1",
 
 	attacks: [{

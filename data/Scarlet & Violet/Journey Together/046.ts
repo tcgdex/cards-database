@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Alolan Graveler",
+		fr: "Gravalanch d'Alola",
+		es: "Graveler de Alola",
+		de: "Alola-Georok",
+		it: "Graveler di Alola",
+		pt: "Graveler de Alola",
+		"es-mx": "Graveler de Alola"
+	},
 	stage: "Stage2",
 
 	attacks: [{

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "N's Klink",
+		fr: "Tic de N",
+		es: "Klink de N",
+		de: "Ns Klikk",
+		it: "Klink di N",
+		pt: "Klink do N",
+		"es-mx": "Klink de N"
+	},
 	stage: "Stage1",
 
 	attacks: [{

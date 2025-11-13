@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Petilil",
+		fr: "Chlorobule",
+		es: "Petilil",
+		de: "Lilminip",
+		it: "Petilil",
+		pt: "Petilil",
+		"es-mx": "Petilil"
+	},
 	stage: "Stage1",
 
 	abilities: [{

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Swinub",
+		fr: "Marcacrin",
+		es: "Swinub",
+		de: "Quiekel",
+		it: "Swinub",
+		pt: "Swinub",
+		"es-mx": "Swinub"
+	},
 	stage: "Stage1",
 
 	attacks: [{

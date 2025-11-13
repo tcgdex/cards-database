@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Alolan Geodude",
+		fr: "Racaillou d'Alola",
+		es: "Geodude de Alola",
+		de: "Alola-Kleinstein",
+		it: "Geodude di Alola",
+		pt: "Geodude de Alola",
+		"es-mx": "Geodude de Alola"
+	},
 	stage: "Stage1",
 
 	attacks: [{

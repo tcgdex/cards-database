@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Metang",
+		fr: "Métang",
+		es: "Metang",
+		de: "Metang",
+		it: "Metang",
+		pt: "Metang",
+		"es-mx": "Metang"
+	},
 	stage: "Stage2",
 
 	attacks: [{

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 190,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Cufant",
+		fr: "Charibari",
+		es: "Cufant",
+		de: "Kupfanti",
+		it: "Cufant",
+		pt: "Cufant",
+		"es-mx": "Cufant"
+	},
 	stage: "Stage1",
 
 	attacks: [{
