@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 280,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Pidgeotto",
+		fr: "Roucoups",
+		es: "Pidgeotto",
+		it: "Pidgeotto",
+		pt: "Pidgeotto",
+		de: "Tauboga"
+	},
 	stage: "Stage2",
 
 	abilities: [{

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 280,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Paldean Wooper",
+		fr: "Axoloto de Paldea",
+		es: "Wooper de Paldea",
+		it: "Wooper di Paldea",
+		pt: "Wooper de Paldea",
+		de: "Paldea-Felino"
+	},
 	stage: "Stage1",
 
 	abilities: [{

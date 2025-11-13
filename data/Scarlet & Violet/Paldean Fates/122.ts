@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Wiglett",
+		fr: "Taupikeau",
+		es: "Wiglett",
+		it: "Wiglett",
+		pt: "Wiglett",
+		de: "Schligda"
+	},
 	stage: "Stage1",
 
 	attacks: [{
