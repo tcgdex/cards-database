@@ -1,0 +1,17 @@
+meta {
+  name: get card "exu-?"
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards/swsh3-136
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq swsh3-136
+  res.responseTime: lte 10
+}

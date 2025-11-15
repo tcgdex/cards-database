@@ -1,0 +1,21 @@
+meta {
+  name: Get by Dex ID
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/dex-ids/{{ID}}
+  body: none
+  auth: none
+}
+
+vars:pre-request {
+  ID: 162
+}
+
+assert {
+  res.status: eq 200
+  res.body.cards.length: gte 8
+  res.body.name: eq {{ID}}
+}
