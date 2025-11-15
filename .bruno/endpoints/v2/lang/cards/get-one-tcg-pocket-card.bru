@@ -1,0 +1,16 @@
+meta {
+  name: Get one TCG Pocket card
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards/A1-001
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq A1-001
+}

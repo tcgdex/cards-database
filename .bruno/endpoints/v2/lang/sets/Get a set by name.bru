@@ -1,0 +1,16 @@
+meta {
+  name: Get a set by name
+  type: http
+  seq: 5
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/sets/Crystal%20Guardians
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq ex14
+}
