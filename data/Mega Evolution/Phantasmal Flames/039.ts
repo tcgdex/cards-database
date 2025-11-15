@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Psychic"],
 	stage: "Basic",
+	dexId: [488],
 
 	attacks: [{
 		cost: ["Psychic"],
