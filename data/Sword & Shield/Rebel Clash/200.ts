@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Boss's Orders (Giovanni)",
-		fr: "Ordres du Boss (Giovanni)",
+		en: "Boss's Orders",
+		fr: "Ordres du Boss",
 		es: "Órdenes de Jefes",
 		it: "Ordini del Capo",
 		pt: "Ordem da Chefia",
@@ -28,6 +28,15 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "D",
+
+	description: {
+		en: "Boss's Orders (Giovanni)",
+		fr: "Ordres du Boss (Giovanni)",
+		es: "Órdenes de Jefes (Giovanni)",
+		it: "Ordini del Capo (Giovanni)",
+		pt: "Ordem da Chefia (Giovanni)",
+		de: "Befehl vom Boss (Giovanni)"
+	},
 
 	variants: {
 		normal: false,

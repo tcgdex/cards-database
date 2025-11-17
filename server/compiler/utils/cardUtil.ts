@@ -73,7 +73,12 @@ function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: Suppo
 }
 
 // eslint-disable-next-line max-lines-per-function
-export async function cardToCardSingle(localId: string, card: Card, lang: SupportedLanguages): Promise<CardSingle> {
+export async function cardToCardSingle(
+	localId: string, 
+	card: Card, 
+	lang: SupportedLanguages,
+	trainerCache?: { [cardName: string]: { standard: boolean; expanded: boolean } }
+): Promise<CardSingle> {
 	const image = await getCardPictures(localId, card, lang)
 
 	if (!card.name[lang]) {
@@ -157,10 +162,39 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		energyType: translate('energyType', card.energyType, lang) as any,
 		regulationMark: card.regulationMark,
 
-		legal: {
-			standard: cardIsLegal('standard', card, localId),
-			expanded: cardIsLegal('expanded', card, localId)
-		},
+		legal: (() => {
+			// For Trainer cards, check if there's already a compiled card with the same name that is legal
+			// Use English name as key to optimize cache size
+			if (card.category === 'Trainer' && trainerCache) {
+				const cardNameEn = card.name.en
+				if (cardNameEn && trainerCache[cardNameEn]) {
+					// If a card with the same name is already legal, mark this card as legal too
+					const cachedLegal = trainerCache[cardNameEn]
+					const normalStandard = cardIsLegal('standard', card, localId)
+					const normalExpanded = cardIsLegal('expanded', card, localId)
+					const finalStandard = cachedLegal.standard ? true : normalStandard
+					const finalExpanded = cachedLegal.expanded ? true : normalExpanded
+					
+					// Debug: log when cache is used and changes the result
+					if (cachedLegal.standard && !normalStandard) {
+						console.log(`[DEBUG] Trainer cache override: ${cardNameEn} (${card.set.id}-${localId}) - standard: ${normalStandard} -> ${finalStandard}`)
+					}
+					if (cachedLegal.expanded && !normalExpanded) {
+						console.log(`[DEBUG] Trainer cache override: ${cardNameEn} (${card.set.id}-${localId}) - expanded: ${normalExpanded} -> ${finalExpanded}`)
+					}
+					
+					return {
+						standard: finalStandard,
+						expanded: finalExpanded
+					}
+				}
+			}
+			// Default behavior for non-Trainer cards or if no cache match
+			return {
+				standard: cardIsLegal('standard', card, localId),
+				expanded: cardIsLegal('expanded', card, localId)
+			}
+		})(),
 		boosters: card.boosters ? objectMap(objectPick(card.set.boosters, ...card.boosters), (booster, id) => ({
 			id: `boo_${card.set.id}-${id}`,
 			name: resolveText(booster.name, lang),
@@ -226,14 +260,25 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 		list.push([id, c])
 	}
 
-	// Sort by id when possible
-	return list.sort(([a], [b]) => {
-		const ra = parseInt(a, 10)
-		const rb = parseInt(b, 10)
+	return list.sort(([idA, cardA], [idB, cardB]) => {
+		const dateA = typeof cardA.set.releaseDate === 'object' 
+			? Object.values(cardA.set.releaseDate)[0] 
+			: cardA.set.releaseDate
+		const dateB = typeof cardB.set.releaseDate === 'object' 
+			? Object.values(cardB.set.releaseDate)[0] 
+			: cardB.set.releaseDate
+		
+		if (dateA !== dateB) {
+			return dateA > dateB ? -1 : 1
+		}
+		
+		// Then sort by id when possible
+		const ra = parseInt(idA, 10)
+		const rb = parseInt(idB, 10)
 		if (!isNaN(ra) && !isNaN(rb)) {
 			return ra - rb
 		}
-		return a >= b ? 1 : -1
+		return idA >= idB ? 1 : -1
 	})
 }
 
