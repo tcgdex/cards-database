@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],
+	evolveFrom: {
+		fr: "Cornèbre",
+		en: "Murkrow",
+		es: "Murkrow",
+		it: "Murkrow",
+		pt: "Murkrow",
+		de: "Kramurx"
+	},
 	stage: "Stage1",
 
 	attacks: [{
