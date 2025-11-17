@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Roucool",
+		en: "Pidgey",
+		es: "Pidgey",
+		it: "Pidgey",
+		pt: "Pidgey",
+		de: "Taubsi"
+	},
 	stage: "Stage1",
 
 	attacks: [{
