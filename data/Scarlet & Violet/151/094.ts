@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Spectrum",
+		en: "Haunter",
+		es: "Haunter",
+		it: "Haunter",
+		pt: "Haunter",
+		de: "Alpollo"
+	},
 	stage: "Stage2",
 
 	attacks: [{

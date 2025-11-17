@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Racaillou",
+		en: "Geodude",
+		es: "Geodude",
+		it: "Geodude",
+		pt: "Geodude",
+		de: "Kleinstein"
+	},
 	stage: "Stage1",
 
 	attacks: [{

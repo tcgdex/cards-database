@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 330,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Gravalanch",
+		en: "Graveler",
+		es: "Graveler",
+		it: "Graveler",
+		pt: "Graveler",
+		de: "Georok"
+	},
 	stage: "Stage2",
 
 	attacks: [{
