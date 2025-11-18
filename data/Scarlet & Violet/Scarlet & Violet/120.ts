@@ -18,10 +18,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],
-
 	evolveFrom: {
-		en: "Silicobra"
+		en: "Silicobra",
+		fr: "Dunaja",
+		es: "Silicobra",
+		it: "Silicobra",
+		pt: "Silicobra",
+		de: "Salanga"
 	},
+
 
 	stage: "Stage1",
 

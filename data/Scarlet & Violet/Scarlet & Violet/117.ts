@@ -18,10 +18,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fighting"],
-
 	evolveFrom: {
-		en: "Krokorok"
+		en: "Krokorok",
+		fr: "Escroco",
+		es: "Krokorok",
+		it: "Krokorok",
+		pt: "Krokorok",
+		de: "Rokkaiman"
 	},
+
 
 	stage: "Stage2",
 
