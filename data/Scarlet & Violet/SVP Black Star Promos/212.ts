@@ -13,6 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Duosion",
+		fr: "Méios",
+		es: "Duosion",
+		it: "Duosion",
+		pt: "Duosion",
+		de: "Mitodos"
+	},
 	stage: "Stage2",
 	illustrator: "satoma",
 

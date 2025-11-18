@@ -13,6 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 330,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Charmeleon",
+		fr: "Reptincel",
+		es: "Charmeleon",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+		de: "Glutexo"
+	},
 	stage: "Stage2",
 	dexId: [6],
 	weaknesses: [{

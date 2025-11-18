@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Maschiff",
+		fr: "Grondogue",
+		es: "Maschiff",
+		it: "Maschiff",
+		pt: "Maschiff",
+		de: "Mobtiff"
+	},
 	stage: "Stage1",
 
 	attacks: [{

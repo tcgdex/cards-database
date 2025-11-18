@@ -18,6 +18,9 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Eevee"
+	},
 	stage: "Stage1",
 
 	attacks: [
