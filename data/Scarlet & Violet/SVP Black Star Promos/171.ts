@@ -19,7 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
+		it: "Eevee",
+		pt: "Eevee",
+		de: "Evoli"
 	},
 	stage: "Stage1",
 
@@ -60,8 +65,7 @@ const card: Card = {
 			},
 
 			damage: 70
-		},
-	],
+		}],
 
 	retreat: 1,
 	regulationMark: "H",
