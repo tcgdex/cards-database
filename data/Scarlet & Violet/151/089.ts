@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Darkness"],
+	evolveFrom: {
+		fr: "Tadmorv",
+		en: "Grimer",
+		es: "Grimer",
+		it: "Grimer",
+		pt: "Grimer",
+		de: "Sleima"
+	},
 	stage: "Stage1",
 
 	attacks: [{

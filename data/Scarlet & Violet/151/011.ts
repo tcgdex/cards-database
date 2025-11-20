@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Chenipan",
+		en: "Caterpie",
+		es: "Caterpie",
+		it: "Caterpie",
+		pt: "Caterpie",
+		de: "Raupy"
+	},
 	stage: "Stage1",
 
 	attacks: [{
