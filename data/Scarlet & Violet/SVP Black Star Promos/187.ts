@@ -19,6 +19,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Yanma",
+		fr: "Yanma",
+		de: "Yanma",
+		es: "Yanma",
+		it: "Yanma",
+		pt: "Yanma"
+	},
 	stage: "Stage1",
 
 	attacks: [{

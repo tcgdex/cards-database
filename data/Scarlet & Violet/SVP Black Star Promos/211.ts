@@ -13,6 +13,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Gothorita",
+		fr: "Mesmérella",
+		de: "Hypnomorba",
+		it: "Gothorita",
+		pt: "Gothorita",
+		es: "Gothorita",
+		'es-mx': "Gothorita"
+	},
 	stage: "Stage2",
 	illustrator: "IKEDA Saki",
 

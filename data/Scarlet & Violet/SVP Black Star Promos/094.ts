@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Tadbulb",
+		fr: "Têtampoule",
+		es: "Tadbulb",
+		it: "Tadbulb",
+		pt: "Tadbulb",
+		de: "Blipp"
+	},
 	stage: "Stage1",
 
 	attacks: [{

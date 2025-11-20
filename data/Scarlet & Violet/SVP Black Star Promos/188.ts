@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Scraggy",
+		fr: "Baggiguane",
+		de: "Zurrokex",
+		it: "Scraggy",
+		pt: "Scraggy",
+		es: "Scraggy",
+		'es-mx': "Scraggy"
+	},
 	stage: "Stage1",
 
 	attacks: [{
