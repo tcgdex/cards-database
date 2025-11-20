@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Parecool",
+		en: "Slakoth",
+		es: "Slakoth",
+		it: "Slakoth",
+		pt: "Slakoth",
+		de: "Bummelz"
+	},
 	stage: "Stage1",
 
 	attacks: [{

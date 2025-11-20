@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Blizzi",
+		en: "Snover",
+		es: "Snover",
+		it: "Snover",
+		pt: "Snover",
+		de: "Shnebedeck"
+	},
 	stage: "Stage1",
 
 	abilities: [{

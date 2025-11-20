@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
+	evolveFrom: {
+		fr: "Solochi",
+		en: "Deino",
+		es: "Deino",
+		it: "Deino",
+		pt: "Deino",
+		de: "Kapuno"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
+	evolveFrom: {
+		fr: "Lixy",
+		en: "Shinx",
+		es: "Shinx",
+		it: "Shinx",
+		pt: "Shinx",
+		de: "Sheinux"
+	},
 	stage: "Stage1",
 
 	attacks: [{

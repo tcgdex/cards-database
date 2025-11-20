@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Bacabouh",
+		en: "Sandygast",
+		es: "Sandygast",
+		it: "Sandygast",
+		pt: "Sandygast",
+		de: "Sankabuh"
+	},
 	stage: "Stage1",
 
 	attacks: [{

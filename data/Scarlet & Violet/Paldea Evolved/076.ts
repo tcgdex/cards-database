@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Lightning"],
+	evolveFrom: {
+		fr: "Pohmotte",
+		en: "Pawmo",
+		es: "Pawmo",
+		it: "Pawmo",
+		pt: "Pawmo",
+		de: "Pamamo"
+	},
 	stage: "Stage2",
 
 	attacks: [{
