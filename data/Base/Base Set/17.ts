@@ -1,5 +1,6 @@
 import { Card } from '../../../interfaces'
 import Set from '../Base Set'
+import AsianCard from "../../../data-asia/PMCG/PMCG1/012.ts";
 
 const card: Card = {
 	name: {
@@ -111,7 +112,14 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 273712,
 		tcgplayer: 42357
-	}
+	},
+
+	related: [
+		{
+			type: "translation",
+			card: AsianCard
+		}
+	]
 }
 
 export default card

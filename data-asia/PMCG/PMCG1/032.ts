@@ -1,5 +1,6 @@
 import { Card } from "../../../interfaces"
 import Set from "../PMCG1"
+import InternationCard from "../../../data/Base/Base Set/2.ts";
 
 const card: Card = {
 	set: Set,
@@ -45,6 +46,12 @@ const card: Card = {
 			type: "holo",
 		},
 	],
+	related: [
+		{
+			type: "translation",
+			card: InternationCard
+		}
+	]
 };
 
 export default card

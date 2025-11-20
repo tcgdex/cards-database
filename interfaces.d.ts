@@ -384,6 +384,11 @@ export interface Card {
 		tcgplayer?: number
 		cardmarket?: number
 	}
+
+	related?: Array<{
+		type: 'translation' | 'reprint' | 'original'
+		card: Card
+	}>
 }
 
 /**
