@@ -18,10 +18,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],
-
 	evolveFrom: {
-		en: "Staravia"
+		en: "Staravia",
+		fr: "Étourvol",
+		es: "Staravia",
+		it: "Staravia",
+		pt: "Staravia",
+		de: "Staravia"
 	},
+
 
 	stage: "Stage2",
 

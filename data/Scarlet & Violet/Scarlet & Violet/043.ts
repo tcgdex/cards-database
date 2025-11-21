@@ -18,10 +18,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
-
 	evolveFrom: {
-		en: "Slowpoke"
+		en: "Slowpoke",
+		fr: "Ramoloss",
+		es: "Slowpoke",
+		it: "Slowpoke",
+		pt: "Slowpoke",
+		de: "Flegmon"
 	},
+
 
 	stage: "Stage1",
 
@@ -80,8 +85,7 @@ const card: Card = {
 		},
 		{
 			type: 'holo'
-		},
-	],
+		}],
 
 	illustrator: "Shinji Kanda",
 

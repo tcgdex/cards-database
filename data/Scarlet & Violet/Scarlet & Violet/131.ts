@@ -18,10 +18,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 250,
 	types: ["Darkness"],
-
 	evolveFrom: {
-		en: "Croagunk"
+		en: "Croagunk",
+		fr: "Cradopaud",
+		es: "Croagunk",
+		it: "Croagunk",
+		pt: "Croagunk",
+		de: "Glibunkel"
 	},
+
 
 	stage: "Stage1",
 
