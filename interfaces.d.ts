@@ -55,6 +55,7 @@ interface variant_detailed {
 	 * - eb-games: a card that is stamped with the EB Games logo
 	 * - snowflake: a card that is stamped with a snowflake, available in the yearly advent calendar
 	 * - trick-or-trade: a card that is stamped with a pikachu-pumpkin, available in the yearly halloween/trick-or-trade boosters
+	 * - ace-trainer: a card that is stamped with a golden ACE TRAINER, won by getting 200 championship points in the season since 2025 season.
 	 */
 	stamp?: Array<'1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
 		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
@@ -71,7 +72,7 @@ interface variant_detailed {
 		| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
 		| 'ross-cawthorn' | 'gustavo-wada' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
 		| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
-		| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight'
+		| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | 'ace-trainer'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
