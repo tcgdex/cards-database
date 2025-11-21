@@ -1,5 +1,6 @@
 import { Card } from '../../../interfaces'
 import Set from '../Base Set'
+import AsianCard from "../../../data-asia/PMCG/PMCG1/021.ts";
 
 const card: Card = {
 	name: {
@@ -112,6 +113,13 @@ const card: Card = {
 			subtype: "1999-2000-copyright",
 		}
 	],
+
+	related: [
+		{
+			type: "translation",
+			card: AsianCard
+		}
+	]
 
 }
 
