@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	stage: "Basic",
+	dexId: [649],
 
 	attacks: [{
 		cost: ["Grass"],
