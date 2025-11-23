@@ -9,6 +9,7 @@ import status from './status'
 import * as Sentry from "@sentry/node"
 import { updateDatas } from './libs/providers/cardmarket'
 import { updateTCGPlayerDatas } from './libs/providers/tcgplayer'
+import { setInterval } from "node:timers";
 
 // Glitchtip will only start if the DSN is set :D
 Sentry.init({
@@ -47,13 +48,22 @@ if (cluster.isPrimary) {
 	// Current API version
 	const VERSION = 2
 
-	// fetch cardmarket data
-	void updateDatas()
-		.then(() => console.log('loaded cardmarket datas'))
-		.catch((err) => console.error('error loading cardmarket', err))
-	void updateTCGPlayerDatas()
-		.then(() => console.log('loaded TCGPlayer datas'))
-		.catch((err) => console.error('error loading TCGPlayer', err))
+	async function updatePricingData(){
+		void updateDatas()
+			.then(() => console.log('loaded cardmarket datas'))
+			.catch((err) => console.error('error loading cardmarket', err))
+		void updateTCGPlayerDatas()
+			.then(() => console.log('loaded TCGPlayer datas'))
+			.catch((err) => console.error('error loading TCGPlayer', err))
+	}
+
+	// Trigger Pricing on Startup
+	void updatePricingData()
+
+	// Configure periodic pricing data updates
+	setInterval(() => {
+		updatePricingData()
+	}, Number(process.env.PRICES_RECHECK_PERIOD) || 600000) // every x or 10 minutes check for possible updates
 
 	// Init Express server
 	const server = express()
