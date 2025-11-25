@@ -128,7 +128,9 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"mirage": "mirage",
+		"vertical-lines": "Lineas verticales"
 	},
 	"variantStamp": {
 		"1st-edition": "1ra Edición",
@@ -136,6 +138,7 @@
 		"pre-release": "pre-lanzamiento",
 		"set-logo": "logo del set",
 		"pokemon-center": "pokemon-center",
+		"play-pokemon": "Play! Pokémon",
 		"staff": "Personal",
 		"pikachu-tail": "Cola de Pikachu",
 		"wotc": "WOTC",
@@ -220,7 +223,9 @@
 		"horizons": "horizons",
 		"illustration-contest-2024": "illustration-contest-2024",
 		"worlds-2025": "worlds-2025",
-		"top-eight": "top-eight"
+		"top-eight": "top-eight",
+		"battle-academy-2024": "battle-academy-2024",
+		"iono-zone": "iono-zone"
 	},
 	"variantSubtype": {
 		"shadowless": "sin sombra",
@@ -239,7 +244,6 @@
 		"shifted-energy-cost": "Coste de energía desplazado",
 		"japanese-back": "Reverso japonés",
 		"no-e-reader": "Sin e-Reader",
-		"rarity-error": "Error de rareza",
-		"cosmos": "cosmos"
+		"rarity-error": "Error de rareza"
 	}
 }

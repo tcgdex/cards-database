@@ -70,13 +70,13 @@ interface variant_detailed {
 		| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
 		| 'ross-cawthorn' | 'gustavo-wada' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
 		| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
-		| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight'
+		| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | 'battle-academy-2024' | 'iono-zone'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
 	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
-	| 'mirror' | 'league' | 'player-reward' | 'professor-program'
+	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'mirage' | 'vertical-lines'
 
 	/**
 	 * list of languages for which this variant is available

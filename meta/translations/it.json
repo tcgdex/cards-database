@@ -128,7 +128,9 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"mirage": "mirage",
+		"vertical-lines": "vertical-lines"
 	},
 	"variantStamp": {
 		"1st-edition": "1a Edizione",
@@ -136,6 +138,7 @@
 		"pre-release": "Pre-release",
 		"set-logo": "Logo set",
 		"pokemon-center": "Pokémon Center",
+		"play-pokemon": "play-pokemon",
 		"staff": "Staff",
 		"pikachu-tail": "Coda di Pikachu",
 		"wotc": "WOTC",
@@ -220,7 +223,9 @@
 		"horizons": "horizons",
 		"illustration-contest-2024": "illustration-contest-2024",
 		"worlds-2025": "worlds-2025",
-		"top-eight": "top-eight"
+		"top-eight": "top-eight",
+		"battle-academy-2024": "battle-academy-2024",
+		"iono-zone": "iono-zone"
 	},
 	"variantSubtype": {
 		"shadowless": "senza ombra",
