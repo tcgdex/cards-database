@@ -46,8 +46,11 @@ export async function getSets(serie = '*', lang: SupportedLanguages): Promise<Ar
 	const sets = (await Promise.all(rawSets.map((set) => getSet(set, serie, lang))))
 		// Filter sets
 		.filter((set) => isSetAvailable(set, lang))
-		// Sort sets by release date
-		.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
+		.sort((a, b) => {
+			const dateA = typeof a.releaseDate === 'object' ? Object.values(a.releaseDate)[0] : a.releaseDate
+			const dateB = typeof b.releaseDate === 'object' ? Object.values(b.releaseDate)[0] : b.releaseDate
+			return dateA > dateB ? -1 : 1
+		})
 	return sets
 }
 
