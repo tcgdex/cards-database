@@ -128,7 +128,11 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"mirage": "mirage",
+		"vertical-lines": "vertical-lines",
+		"speckle": "speckle",
+		"tinsel": "tinsel"
 	},
 	"variantStamp": {
 		"1st-edition": "1. Auflage",
@@ -169,6 +173,7 @@
 		"destiny-deoxys": "Destiny Deoxys",
 		"pokemon-day": "pokemon-day",
 		"regional-championships": "regional-championships",
+		"world-championships": "world-championships",
 		"stadium-challenge": "stadium-challenge",
 		"10th-anniversary": "10th-anniversary",
 		"wizard-world-philadelphia" : "wizard-world-philadelphia",
@@ -211,6 +216,7 @@
 		"gustavo-wada": "gustavo-wada",
 		"christopher-kan": "christopher-kan",
 		"player-rewards-program": "player-rewards-program",
+		"player-rewards-program-left": "player-rewards-program-left",
 		"igor-costa": "igor-costa",
 		"zachary-bokhari": "zachary-bokhari",
 		"shuto-itagaki" : "shuto-itagaki",
@@ -220,7 +226,12 @@
 		"horizons": "horizons",
 		"illustration-contest-2024": "illustration-contest-2024",
 		"worlds-2025": "worlds-2025",
-		"top-eight": "top-eight"
+		"top-eight": "top-eight",
+		"battle-academy-2024": "battle-academy-2024",
+		"iono-zone": "iono-zone",
+		"play-pokemon": "play-pokemon",
+		"7-eleven": "7-eleven",
+		"holyday-calendar": "holyday-calendar"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",
