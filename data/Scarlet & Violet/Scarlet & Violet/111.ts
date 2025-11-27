@@ -18,10 +18,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],
-
 	evolveFrom: {
-		en: "Meditite"
+		en: "Meditite",
+		fr: "Méditikka",
+		es: "Meditite",
+		it: "Meditite",
+		pt: "Meditite",
+		de: "Meditie"
 	},
+
 
 	stage: "Stage1",
 
