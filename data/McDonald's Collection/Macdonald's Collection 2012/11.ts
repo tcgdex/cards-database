@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	category: "Pokemon",
 
+
+	dexId: [600],
 	description: {
 		en: "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don’t return."
 	},

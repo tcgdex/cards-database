@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 
+
+	dexId: [599],
 	description: {
 		en: "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing."
 	},

@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 
+
+	dexId: [517],
 	description: {
 		en: "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist."
 	},

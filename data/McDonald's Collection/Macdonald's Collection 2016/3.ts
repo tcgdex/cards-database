@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 
+
+	dexId: [653],
 	description: {
 		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit."
 	},

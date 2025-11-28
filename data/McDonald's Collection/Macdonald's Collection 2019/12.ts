@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 	category: "Pokemon",
 
+
+	dexId: [133],
 	description: {
 		en: "Current studies show it can evolve into an incredible eight different species of Pokémon."
 	},

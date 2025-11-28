@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 
+
+	dexId: [522],
 	description: {
 		en: "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another."
 	},

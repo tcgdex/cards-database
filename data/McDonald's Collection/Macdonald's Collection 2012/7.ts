@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 	category: "Pokemon",
 
+
+	dexId: [527],
 	description: {
 		en: "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings."
 	},

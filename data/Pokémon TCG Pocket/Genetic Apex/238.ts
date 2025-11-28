@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Shinya Komatsu",
 	category: "Pokemon",
+
+	dexId: [50],
 	hp: 50,
 	types: ["Fighting"],
 	stage: "Basic",

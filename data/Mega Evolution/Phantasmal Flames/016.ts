@@ -16,6 +16,8 @@ const card: Card = {
 
 	rarity: "Uncommon",
 	category: "Pokemon",
+
+	dexId: [555],
 	hp: 150,
 	types: ["Fire"],
 	stage: "Stage1",

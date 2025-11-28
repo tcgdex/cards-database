@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 	category: "Pokemon",
 
+
+	dexId: [610],
 	description: {
 		en: "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp."
 	},

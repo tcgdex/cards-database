@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Megumi Mizutani",
 	category: "Pokemon",
 
+
+	dexId: [51],
 	description: {
 		en: "These Pokémon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate."
 	},

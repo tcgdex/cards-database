@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Yumi",
 	category: "Pokemon",
 
+
+	dexId: [126],
 	description: {
 		en: "When angered, it spouts brilliant fire from all over its body. It doesn’t calm down until its opponent has burned to ash."
 	},

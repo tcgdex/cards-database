@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Ryota Murayama",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [398],
 	hp: 140,
 	types: ["Colorless"],
 

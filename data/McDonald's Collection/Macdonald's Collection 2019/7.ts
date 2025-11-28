@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Shibuzoh.",
 	category: "Pokemon",
 
+
+	dexId: [92],
 	description: {
 		en: "Should a strange light be seen flickering in an abandoned building, Gastly is lurking there."
 	},

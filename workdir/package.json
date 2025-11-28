@@ -1,0 +1,21 @@
+{
+  "name": "cards-database-workdir",
+  "version": "1.0.0",
+  "description": "Offline tools for auditing and fixing Pokédex IDs in the cards-database",
+  "type": "module",
+  "scripts": {
+    "audit": "bun run audit-dex-ids.ts",
+    "audit:report": "bun run audit-dex-ids.ts --report",
+    "fix:dry-run": "bun run fix-dex-ids.ts --dry-run",
+    "fix:apply": "bun run fix-dex-ids.ts --apply",
+    "download-pokedex": "bun run download-pokedex.ts",
+    "generate-mapping": "bun run generate-pokemon-mapping.ts",
+    "lint": "bun run lint-dex-ids.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.0.0",
+    "glob": "^10.0.0",
+    "@dzeio/object-util": "^1.6.0"
+  }
+}
+

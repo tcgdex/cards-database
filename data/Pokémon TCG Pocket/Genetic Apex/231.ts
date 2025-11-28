@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Taira Akitsu",
 	category: "Pokemon",
+
+	dexId: [78],
 	hp: 100,
 	types: ["Fire"],
 	stage: "Stage1",

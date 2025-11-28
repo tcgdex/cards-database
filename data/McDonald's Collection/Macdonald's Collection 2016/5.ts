@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
 
+
+	dexId: [158],
 	description: {
 		en: "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves."
 	},

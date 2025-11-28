@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 
+
+	dexId: [495],
 	description: {
 		en: "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter."
 	},

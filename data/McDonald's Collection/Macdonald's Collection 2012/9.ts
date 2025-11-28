@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 	category: "Pokemon",
 
+
+	dexId: [509],
 	description: {
 		en: "They steal from people for fun, but their victims can’t help but forgive them. Their deceptively cute act is perfect."
 	},

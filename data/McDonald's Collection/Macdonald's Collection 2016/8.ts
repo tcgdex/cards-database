@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Kanako Eo",
 	category: "Pokemon",
 
+
+	dexId: [39],
 	description: {
 		en: "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody."
 	},

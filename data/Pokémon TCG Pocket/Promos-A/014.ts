@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "PLANETA CG Works",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [131],
 	types: ["Water"],
 	stage: "Basic",
 

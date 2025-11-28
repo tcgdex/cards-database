@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 
+
+	dexId: [501],
 	description: {
 		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing."
 	},

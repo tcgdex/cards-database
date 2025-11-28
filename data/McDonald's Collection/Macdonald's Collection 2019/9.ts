@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 	category: "Pokemon",
 
+
+	dexId: [95],
 	description: {
 		en: "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour."
 	},

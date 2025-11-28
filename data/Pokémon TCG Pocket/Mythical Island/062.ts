@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Masako Tomii",
 	category: "Pokemon",
+
+	dexId: [441],
 	hp: 60,
 	types: ["Colorless"],
 

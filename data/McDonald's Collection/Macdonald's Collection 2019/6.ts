@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
 
+
+	dexId: [25],
 	description: {
 		en: "A plan was recently announced to gather many Pikachu and make an electric power plant."
 	},

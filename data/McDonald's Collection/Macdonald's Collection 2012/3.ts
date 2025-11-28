@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "MAHOU",
 	category: "Pokemon",
 
+
+	dexId: [557],
 	description: {
 		en: "The Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth."
 	},

@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "MAHOU",
 	category: "Pokemon",
 
+
+	dexId: [531],
 	description: {
 		en: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling."
 	},

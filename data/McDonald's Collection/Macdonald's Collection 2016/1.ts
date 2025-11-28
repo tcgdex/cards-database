@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "kirisAki",
 	category: "Pokemon",
 
+
+	dexId: [37],
 	description: {
 		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
 	},
