@@ -81,8 +81,9 @@ const card: Card = {
 	illustrator: "chibi",
 
 	thirdParty: {
-		cardmarket: 702441
-	}
+        cardmarket: 702441,
+        tcgplayer: 488033
+    }
 }
 
 export default card

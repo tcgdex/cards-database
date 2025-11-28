@@ -54,8 +54,9 @@ const card: Card = {
 	illustrator: "kurumitsu",
 
 	thirdParty: {
-		cardmarket: 702300
-	}
+        cardmarket: 702300,
+        tcgplayer: 487832
+    }
 }
 
 export default card

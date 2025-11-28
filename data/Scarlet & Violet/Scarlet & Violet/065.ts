@@ -82,8 +82,9 @@ const card: Card = {
 	illustrator: "hncl",
 
 	thirdParty: {
-		cardmarket: 702361
-	}
+        cardmarket: 702361,
+        tcgplayer: 486612
+    }
 }
 
 export default card

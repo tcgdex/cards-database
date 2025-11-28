@@ -82,8 +82,9 @@ const card: Card = {
 	illustrator: "aky CG Works",
 
 	thirdParty: {
-		cardmarket: 702454
-	}
+        cardmarket: 702454,
+        tcgplayer: 488053
+    }
 }
 
 export default card

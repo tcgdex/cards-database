@@ -72,8 +72,9 @@ const card: Card = {
 	illustrator: "You Iribi",
 
 	thirdParty: {
-		cardmarket: 702395
-	}
+        cardmarket: 702395,
+        tcgplayer: 487971
+    }
 }
 
 export default card

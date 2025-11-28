@@ -65,8 +65,9 @@ const card: Card = {
 	illustrator: "kodama",
 
 	thirdParty: {
-		cardmarket: 692087
-	}
+        cardmarket: 692087,
+        tcgplayer: 485108
+    }
 }
 
 export default card
