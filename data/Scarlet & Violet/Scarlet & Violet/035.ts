@@ -67,8 +67,9 @@ const card: Card = {
 	illustrator: "Kurata So",
 
 	thirdParty: {
-		cardmarket: 702331
-	}
+        cardmarket: 702331,
+        tcgplayer: 487875
+    }
 }
 
 export default card

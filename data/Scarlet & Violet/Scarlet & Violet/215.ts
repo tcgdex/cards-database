@@ -68,8 +68,9 @@ const card: Card = {
 	illustrator: "Nelnal",
 
 	thirdParty: {
-		cardmarket: 702408
-	}
+        cardmarket: 702408,
+        tcgplayer: 490074
+    }
 }
 
 export default card
