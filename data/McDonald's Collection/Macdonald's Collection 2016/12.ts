@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	category: "Pokemon",
 
+
+	dexId: [133],
 	description: {
 		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
 	},

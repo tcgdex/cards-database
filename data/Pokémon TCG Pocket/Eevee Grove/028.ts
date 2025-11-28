@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Ryota Murayama",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [196],
 	hp: 100,
 	types: ["Psychic"],
 

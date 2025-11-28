@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 
+
+	dexId: [519],
 	description: {
 		en: "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas."
 	},

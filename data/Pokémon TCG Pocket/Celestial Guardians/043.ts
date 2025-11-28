@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [91],
 	hp: 110,
 	types: ["Water"],
 

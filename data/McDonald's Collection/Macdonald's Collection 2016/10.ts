@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 
+
+	dexId: [702],
 	description: {
 		en: "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances."
 	},

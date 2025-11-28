@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 	category: "Pokemon",
 
+
+	dexId: [129],
 	description: {
 		en: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
 	},

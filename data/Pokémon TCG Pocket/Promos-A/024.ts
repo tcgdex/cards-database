@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [81],
 	types: ["Lightning"],
 	stage: "Basic",
 

@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [3],
 	hp: 160,
 	types: ["Grass"],
 

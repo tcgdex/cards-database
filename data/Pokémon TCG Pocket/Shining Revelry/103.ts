@@ -13,6 +13,8 @@ const card: Card = {
 	},
 	illustrator: "Tomowaka",
 	category: "Pokemon",
+
+	dexId: [417],
 	hp: 70,
 	types: ["Lightning"],
 	description: {

@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Naoki Saito",
 	category: "Pokemon",
 
+
+	dexId: [25],
 	description: {
 		en: "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose."
 	},

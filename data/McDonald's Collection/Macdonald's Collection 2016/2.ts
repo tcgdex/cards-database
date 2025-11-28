@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "sui",
 	category: "Pokemon",
 
+
+	dexId: [255],
 	description: {
 		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit."
 	},

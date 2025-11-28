@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 	category: "Pokemon",
 
+
+	dexId: [502],
 	description: {
 		en: "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops."
 	},

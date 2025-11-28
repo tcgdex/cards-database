@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [293],
 	hp: 60,
 	types: ["Colorless"],
 

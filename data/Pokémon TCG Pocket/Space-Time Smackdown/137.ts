@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Narumi Sato",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [427],
 	hp: 60,
 	types: ["Colorless"],
 

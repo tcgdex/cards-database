@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Yukiko Baba",
 	category: "Pokemon",
+
+	dexId: [106],
 	hp: 80,
 	types: ["Fighting"],
 	stage: "Basic",

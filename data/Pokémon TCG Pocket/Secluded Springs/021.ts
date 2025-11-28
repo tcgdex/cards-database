@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Suwama Chiaki",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [349],
 	hp: 30,
 	types: ["Water"],
 

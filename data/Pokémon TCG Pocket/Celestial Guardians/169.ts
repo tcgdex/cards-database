@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Yukihiro Tada",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [769],
 	hp: 80,
 	types: ["Psychic"],
 

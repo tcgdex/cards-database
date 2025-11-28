@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
 
+
+	dexId: [496],
 	description: {
 		en: "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques."
 	},

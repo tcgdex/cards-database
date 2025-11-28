@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 	category: "Pokemon",
 
+
+	dexId: [131],
 	description: {
 		en: "These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them."
 	},

@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	rarity: "Classic Collection",
 	category: "Pokemon",
+
+	dexId: [25],
 	hp: 50,
 	types: ["Lightning"],
 	stage: "Basic",

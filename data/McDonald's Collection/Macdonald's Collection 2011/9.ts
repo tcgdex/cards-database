@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 
+
+	dexId: [570],
 	description: {
 		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child."
 	},

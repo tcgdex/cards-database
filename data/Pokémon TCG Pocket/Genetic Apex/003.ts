@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Ryota Murayama",
 	category: "Pokemon",
+
+	dexId: [3],
 	hp: 160,
 	types: ["Grass"],
 	stage: "Stage2",

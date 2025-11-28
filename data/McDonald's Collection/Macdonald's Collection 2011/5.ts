@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "sui",
 	category: "Pokemon",
 
+
+	dexId: [594],
 	description: {
 		en: "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore."
 	},

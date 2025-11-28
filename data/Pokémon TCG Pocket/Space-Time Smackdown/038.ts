@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "OKUBO",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [418],
 	hp: 60,
 	types: ["Water"],
 

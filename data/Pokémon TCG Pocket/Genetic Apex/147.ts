@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Kouki Saitou",
 	category: "Pokemon",
+
+	dexId: [74],
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Basic",

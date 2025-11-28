@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Noriaki Tanimura",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [234],
 	hp: 80,
 	types: ["Colorless"],
 

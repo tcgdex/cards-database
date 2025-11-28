@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Sekio",
 	category: "Pokemon",
 
+
+	dexId: [10],
 	description: {
 		en: "When attacked by bird Pokémon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey."
 	},

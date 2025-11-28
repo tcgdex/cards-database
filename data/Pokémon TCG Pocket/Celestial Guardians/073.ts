@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Hisao Nakamura",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [337],
 	hp: 90,
 	types: ["Psychic"],
 

@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Kuroimori",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [801],
 	hp: 90,
 	types: ["Metal"],
 

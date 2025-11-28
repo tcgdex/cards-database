@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Krgc",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [23],
 	hp: 60,
 	types: ["Darkness"],
 

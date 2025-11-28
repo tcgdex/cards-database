@@ -1,0 +1,1 @@
+FIXED	E-Card/Skyridge/47.ts	"Buried Fossil"	[138,140,142]	

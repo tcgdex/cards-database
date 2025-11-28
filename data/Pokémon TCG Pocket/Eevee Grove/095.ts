@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Scav",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [100],
 	hp: 60,
 	types: ["Lightning"],
 

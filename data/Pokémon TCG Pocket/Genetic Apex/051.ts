@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Teeziro",
 	category: "Pokemon",
+
+	dexId: [850],
 	hp: 60,
 	types: ["Fire"],
 	stage: "Basic",

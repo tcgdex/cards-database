@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Narumi Sato",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [225],
 	hp: 70,
 	types: ["Water"],
 

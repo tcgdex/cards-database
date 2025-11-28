@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Kazumasa Yasukuni",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [727],
 	hp: 180,
 	types: ["Fire"],
 

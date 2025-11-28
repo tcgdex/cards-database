@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 	category: "Pokemon",
 
+
+	dexId: [559],
 	description: {
 		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck."
 	},

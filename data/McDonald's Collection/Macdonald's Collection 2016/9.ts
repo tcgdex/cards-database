@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "HiRON",
 	category: "Pokemon",
 
+
+	dexId: [175],
 	description: {
 		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
 	},

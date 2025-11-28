@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Satoshi Shirai",
 	category: "Pokemon",
 
+
+	dexId: [103],
 	description: {
 		en: "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon."
 	},

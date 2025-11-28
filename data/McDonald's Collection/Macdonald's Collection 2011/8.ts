@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 
+
+	dexId: [551],
 	description: {
 		en: "It moves along below the sand’s surface, except for its nose and eyes. A dark membrane shields its eyes from the sun."
 	},

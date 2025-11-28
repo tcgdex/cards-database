@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 	category: "Pokemon",
 
+
+	dexId: [56],
 	description: {
 		en: "It can spontaneously become enraged. Everyone near it clears out as it rampages and the resulting loneliness makes it angrier still."
 	},

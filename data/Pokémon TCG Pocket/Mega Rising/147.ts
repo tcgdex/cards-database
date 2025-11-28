@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [839],
 	hp: 150,
 	types: ["Fighting"],
 

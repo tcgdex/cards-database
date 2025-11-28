@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 	category: "Pokemon",
 
+
+	dexId: [52],
 	description: {
 		en: "When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage."
 	},

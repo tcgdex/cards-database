@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Kanako Eo",
 	category: "Pokemon",
 
+
+	dexId: [52],
 	description: {
 		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change."
 	},

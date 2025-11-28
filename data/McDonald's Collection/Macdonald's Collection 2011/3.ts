@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	category: "Pokemon",
 
+
+	dexId: [498],
 	description: {
 		en: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead."
 	},

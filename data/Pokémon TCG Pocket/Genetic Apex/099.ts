@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "SATOSHI NAKAI",
 	category: "Pokemon",
+
+	dexId: [100],
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",

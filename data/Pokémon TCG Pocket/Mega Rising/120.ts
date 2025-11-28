@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [707],
 	hp: 50,
 	types: ["Psychic"],
 

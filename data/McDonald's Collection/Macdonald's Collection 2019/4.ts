@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
 
+
+	dexId: [27],
 	description: {
 		en: "An ancient tradition of Alolan festivals, still carried on to this day, is a competition to slide Sandshrew across ice as far as one can."
 	},

@@ -15,6 +15,8 @@ const card: Card = {
 
 	illustrator: "kirisAki",
 	category: "Pokemon",
+
+	dexId: [82],
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Stage1",

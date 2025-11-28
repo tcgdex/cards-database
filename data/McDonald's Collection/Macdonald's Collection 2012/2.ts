@@ -6,6 +6,8 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	category: "Pokemon",
 
+
+	dexId: [511],
 	description: {
 		en: "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic."
 	},
