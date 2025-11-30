@@ -225,14 +225,32 @@ server
 
 		let result: unknown
 		switch (endpoint) {
-			case 'cards':
-				// console.time('card')
-				result = await getCardById(lang, id)
+			case 'cards': {
+				// Try original and normalized IDs with leading zeros removed
+				// This is to accommodate for different ID formatting in various sets
+				// but also to allow current users not having to change their links
+				// e.g., "base1-001" will return "base1-1"
+				const tried = new Set<string>();
+				let found = false;
+				const parts = id.split('-');
+				for (let zeros = 0; zeros <= 3 && !found; zeros++) {
+					const newParts = [...parts];
+					if (parts.length > 1) {
+						newParts[newParts.length - 1] = newParts[newParts.length - 1].replace(new RegExp(`^0{0,${zeros}}`), '');
+					}
+					const testId = newParts.join('-');
+					if (!tried.has(testId)) {
+						result = await getCardById(lang, testId);
+						tried.add(testId);
+						if (result) found = true;
+					}
+				}
 				if (!result) {
 					result = await findOneCard(lang, { name: id })
 				}
 				// console.timeEnd('card')
 				break
+			}
 
 			case 'sets':
 				result = await findOneSet(lang, { id })
