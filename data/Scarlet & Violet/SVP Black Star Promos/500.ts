@@ -12,7 +12,8 @@ const card: Card = {
 	types: ["Colorless"],
 	hp: 90,
 	stage: "Basic",
-	dexId: [1024, 25,906,909,9012],
+	// Terapagos (1024), Pikachu (25), Sprigatito (906), Fuecoco (909), Quaxly (912)
+	dexId: [1024, 25, 906, 909, 912],
 	illustrator: "Yamazaki Rei",
 
 	attacks:[
