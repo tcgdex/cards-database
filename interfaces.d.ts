@@ -387,7 +387,7 @@ export interface Card {
 
 	related?: Array<{
 		type: 'translation' | 'reprint' | 'original'
-		card: Card
+		cardPath: string
 	}>
 }
 

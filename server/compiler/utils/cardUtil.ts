@@ -1,10 +1,10 @@
 /* eslint-disable sort-keys */
 import pathLib from 'node:path'
 import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
-import { CardResume, Card as CardSingle, Related } from '../../../meta/definitions/api'
+import { Card as CardSingle, CardResume, Related } from '../../../meta/definitions/api'
 import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
-import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
+import { cardIsLegal, DB_PATH, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
 import { variant_detailed } from "../../public/v2/api";
 
@@ -74,6 +74,12 @@ function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: Suppo
 
 async function generateLinks(currentLang:SupportedLanguages ,card: Card,localId: string): Promise<Related[]> {
 
+	async function resolveRelatedCard(cardPath: string): Promise<Card> {
+		return await import(`../../${DB_PATH}${cardPath}`).then(
+			(m) => m.default
+		)
+	}
+
 	function formatCardEndpoint(lang: string,setId:string,localId:string): string {
 		return `/v2/${lang}/cards/${setId}-${localId}`;
 	}
@@ -98,16 +104,23 @@ async function generateLinks(currentLang:SupportedLanguages ,card: Card,localId:
 
 	if(card.related && card.related.length > 0) {
 		for(const relation of card.related) {
-			for (const key in relation.card.name) {
-				if (relation.card.name[key] !== undefined) {
-					let localId = await findCardLocalId(key,relation.card)
+			if (!relation.cardPath) continue
+			const relatedCard = await resolveRelatedCard(relation.cardPath)
+
+			if (!relatedCard) {
+				continue;
+			}
+
+			for (const key in relatedCard.name) {
+				if (relatedCard.name[key] !== undefined) {
+					let localId = await findCardLocalId(key,relatedCard)
 					if(!localId) {
 						continue;
 					}
 
 					links.push({
 						lang: key,
-						url: formatCardEndpoint(key,relation.card.set.id,localId),
+						url: formatCardEndpoint(key,relatedCard.set.id,localId),
 						type: relation.type
 					})
 				}

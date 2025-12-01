@@ -1,5 +1,4 @@
 import { Card } from '../../../interfaces'
-import AsianCard from '../../../data-asia/PMCG/PMCG1/049.ts'
 import Set from '../Base Set'
 
 const card: Card = {
@@ -109,7 +108,7 @@ const card: Card = {
 	related: [
 		{
 			type: "translation",
-			card: AsianCard
+			cardPath: "data-asia/PMCG/PMCG1/049.ts"
 		}
 	]
 }
