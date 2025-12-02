@@ -6,7 +6,7 @@ const s2011bw: Set = {
 
 	name: {
 		en: "McDonald's Collection 2011",
-		fr: "Promo McDonald's 2012",
+		fr: "Collection McDonald's 2011",
 		es: "Colección de McDonald's 2011",
 		it: "McDonald's Collection",
 		de: "McDonald’s Kollektion 2011",
@@ -22,7 +22,7 @@ const s2011bw: Set = {
 
 	abbreviations: {
 		official: "MCD11",
-		fr: "M12"
+		fr: "M11"
 	},
 	thirdParty: {
 		tcgplayer: 1401

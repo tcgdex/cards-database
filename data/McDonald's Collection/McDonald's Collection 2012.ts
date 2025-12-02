@@ -6,6 +6,7 @@ const s2012bw: Set = {
 
 	name: {
 		en: "McDonald's Collection 2012",
+		fr: "Collection McDonald's 2012",
 		es: "Colección de McDonald's 2012",
 		it: "McDonald's Collection 2012",
 	},
@@ -19,7 +20,8 @@ const s2012bw: Set = {
 	releaseDate: "2012-06-15",
 
 	abbreviations: {
-		official: "MCD12"
+		official: "MCD12",
+		fr: "M12"
 	},
 
 	thirdParty: {
