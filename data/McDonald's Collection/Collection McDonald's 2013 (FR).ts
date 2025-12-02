@@ -5,9 +5,9 @@ const s2013bw: Set = {
 	id: "2013bw",
 
 	name: {
-		// en: Not Available outer France
-		fr: "Promo McDonald's 2013"
-,
+		// French-only product; English name matches folder for compiler resolution.
+		en: "Collection McDonald's 2013 (FR)",
+		fr: "Collection McDonald's 2013",
 	},
 
 	serie: serie,

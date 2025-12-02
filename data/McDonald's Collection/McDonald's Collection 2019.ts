@@ -6,6 +6,7 @@ const s2019sm: Set = {
 
 	name: {
 		en: "McDonald's Collection 2019",
+		// No French here: French-only set is represented by \"Promo McDonald's 2019\"
 		it: "McDonald's Collection 2019",
 		de: "McDonald’s Kollektion 2019",
 	},

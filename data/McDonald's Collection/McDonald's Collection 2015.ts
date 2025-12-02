@@ -6,7 +6,7 @@ const s2015xy: Set = {
 
 	name: {
 		en: "McDonald's Collection 2015",
-		fr: "Promo McDonald's 2015",
+		fr: "Collection McDonald's 2015",
 		it: "McDonald's Collection 2015"
 	},
 

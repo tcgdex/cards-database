@@ -6,7 +6,7 @@ const s2024sv: Set = {
 
 	name: {
 		en: "McDonald's Collection 2024",
-		fr: "Promo McDonald's 2024",
+		fr: "Collection McDonald's 2024",
 		es: "Colección de McDonald's 2024",
 		it: "McDonald's Collection 2024",
 		de: "McDonald's Kollektion 2024",
