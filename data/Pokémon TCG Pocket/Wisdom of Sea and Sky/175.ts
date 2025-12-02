@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "GOTO minori",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [202],
 	hp: 90,
 	types: ["Psychic"],
 

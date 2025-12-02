@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "kamonabe",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [198],
 	hp: 60,
 	types: ["Darkness"],
 

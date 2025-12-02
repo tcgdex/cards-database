@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Megumi Mizutani",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [722],
 	hp: 60,
 	types: ["Grass"],
 
