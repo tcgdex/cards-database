@@ -57,7 +57,7 @@ function log(message: string) {
 }
 
 async function main() {
-	const dataDir = path.resolve(__dirname, '../data')
+	const dataDir = path.resolve(__dirname, '../../data')
 
 	// Find all card TS files (exclude set definition files which are directly under series folders)
 	const cardFiles = await glob('**/*.ts', {

@@ -16,7 +16,7 @@ import { glob } from 'glob'
 import path from 'path'
 import { extractFile } from '../utils/ts-extract-utils'
 
-const DATA_DIR = path.resolve(__dirname, '../data')
+const DATA_DIR = path.resolve(__dirname, '../../data')
 
 interface LintError {
 	file: string

@@ -37,7 +37,7 @@ if (!dryRun && !apply) {
 }
 
 const OUTPUT_DIR = __dirname
-const DATA_DIR = path.resolve(__dirname, '../data')
+const DATA_DIR = path.resolve(__dirname, '../../data')
 
 interface FixResult {
 	filePath: string
