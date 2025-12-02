@@ -1,6 +1,17 @@
 {
   "_comment": "Manual mappings for Pokémon names that can't be automatically resolved",
   "mappings": {
+    "terapagos": 1024,
+    "terapagos & friends": [1024, 25, 906, 909, 912],
+    "sprigatito": 906,
+    "floragato": 907,
+    "meowscarada": 908,
+    "fuecoco": 909,
+    "crocalor": 910,
+    "skeledirge": 911,
+    "quaxly": 912,
+    "quaxwell": 913,
+    "quaquaval": 914,
     "farfetch'd": 83,
     "farfetchd": 83,
     "sirfetch'd": 865,
