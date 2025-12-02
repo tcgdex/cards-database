@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Jerky",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [741],
 	hp: 70,
 	types: ["Psychic"],
 

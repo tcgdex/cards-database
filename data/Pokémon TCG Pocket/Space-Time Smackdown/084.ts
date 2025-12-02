@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Mizue",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [472],
 	hp: 100,
 	types: ["Fighting"],
 

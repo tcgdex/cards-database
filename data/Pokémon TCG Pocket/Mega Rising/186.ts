@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [424],
 	hp: 100,
 	types: ["Colorless"],
 

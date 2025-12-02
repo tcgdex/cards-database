@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Eri Yamaki",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [19],
 	hp: 50,
 	types: ["Colorless"],
 

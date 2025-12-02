@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Tomokazu Komiya",
 	category: "Pokemon",
+
+	dexId: [42],
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Stage1",

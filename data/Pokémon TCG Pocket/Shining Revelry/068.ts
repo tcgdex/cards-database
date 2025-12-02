@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "HAGIYA Kaoru",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [967],
 	hp: 80,
 	types: ["Colorless"],
 

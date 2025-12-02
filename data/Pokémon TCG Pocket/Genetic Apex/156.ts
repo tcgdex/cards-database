@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Midori Harada",
 	category: "Pokemon",
+
+	dexId: [111],
 	hp: 80,
 	types: ["Fighting"],
 	stage: "Basic",

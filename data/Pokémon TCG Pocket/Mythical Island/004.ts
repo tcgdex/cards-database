@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
+
+	dexId: [495],
 	hp: 70,
 	types: ["Grass"],
 

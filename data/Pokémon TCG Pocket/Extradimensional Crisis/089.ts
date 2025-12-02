@@ -11,6 +11,8 @@ const card: Card = {
 
 	illustrator: "Saya Tsuruta",
 	category: "Pokemon",
+
+	dexId: [58],
 	hp: 70,
 	types: ["Fire"],
 

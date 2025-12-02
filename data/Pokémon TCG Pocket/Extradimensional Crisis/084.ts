@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Dsuke",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [785],
 	hp: 130,
 	types: ["Lightning"],
 	stage: "Basic",

@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Akira Komayama",
 	category: "Pokemon",
+
+	dexId: [51],
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Stage1",

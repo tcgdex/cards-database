@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Midori Harada",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [269],
 	hp: 130,
 	types: ["Grass"],
 

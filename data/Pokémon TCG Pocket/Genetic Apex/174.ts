@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Pani Kobayashi",
 	category: "Pokemon",
+
+	dexId: [88],
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",

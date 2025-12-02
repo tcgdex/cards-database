@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "PLANETA Saito",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [658],
 	hp: 170,
 	types: ["Water"],
 

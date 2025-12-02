@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Naoki Saito",
 	category: "Pokemon",
+
+	dexId: [757],
 	hp: 60,
 	types: ["Fire"],
 

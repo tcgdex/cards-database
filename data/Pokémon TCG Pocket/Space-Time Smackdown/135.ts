@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [399],
 	hp: 60,
 	types: ["Colorless"],
 

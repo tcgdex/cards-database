@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Kedamahadaitai Yawarakai",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [479],
 	hp: 80,
 	types: ["Fire"],
 

@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Rianti Hidayat",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [859],
 	hp: 60,
 	types: ["Darkness"],
 

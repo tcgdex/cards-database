@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Yukiko Baba",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [302],
 	hp: 70,
 	types: ["Darkness"],
 

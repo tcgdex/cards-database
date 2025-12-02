@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Eske Yoshinob",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [773],
 	hp: 110,
 	types: ["Colorless"],
 

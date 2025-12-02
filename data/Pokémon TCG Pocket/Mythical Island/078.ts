@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "PLANETA CG Works",
 	category: "Pokemon",
+
+	dexId: [142],
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Stage1",
