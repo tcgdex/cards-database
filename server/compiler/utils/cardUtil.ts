@@ -107,7 +107,12 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 				// only include size when it's not standard
 				size: variant.size && variant.size !== 'standard' ? translate('variantSize', variant.size, lang) as any : translate('variantSize', "standard", lang) as any,
 				stamp: variant.stamp ? variant.stamp.map((stamp) => {
-					return translate('variantStamp', stamp, lang)
+					if (typeof stamp === 'object' && stamp !== null && 'detail' in stamp) {
+						return `${translate('variantStamp', stamp.stamp,lang)}-${stamp.detail}`
+					}
+					else if(typeof stamp === 'string') {
+						return translate('variantStamp', stamp, lang)
+					}
 				}) : undefined,
 				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
 			}
