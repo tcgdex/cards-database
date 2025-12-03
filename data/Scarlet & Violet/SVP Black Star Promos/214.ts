@@ -40,7 +40,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["illustration-contest-2024"]
+			stamp: [{
+	stamp: "illustration-contest",
+		detail: 2024
+}]
 		},
 	]
 }

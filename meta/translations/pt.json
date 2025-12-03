@@ -187,7 +187,13 @@
 		"paul-atanassov": "paul-atanassov",
 		"david-cohen": "david-cohen",
 		"tsubasa-nakamura": "tsubasa-nakamura",
-		"worlds-2007": "worlds-2007",
+		{
+	stamp: "worlds",
+		detail: 2007
+}: {
+	stamp: "worlds",
+		detail: 2007
+},
 		"finalist": "finalist",
 		"quarter-finalist": "quarter-finalist",
 		"semi-finalist": "semi-finalist",
@@ -205,7 +211,13 @@
 		"yuta-komatsuda": "yuta-komatsuda",
 		"origins-2008": "origins-2008",
 		"platinum": "platinum",
-		"worlds-2010": "worlds-2010",
+		{
+	stamp: "worlds",
+		detail: 2010
+}: {
+	stamp: "worlds",
+		detail: 2010
+},
 		"ross-cawthorn": "ross-cawthorn",
 		"gustavo-wada": "gustavo-wada",
 		"snowflake": "snowflake",
@@ -217,8 +229,20 @@
 		"gamestop": "GameStop",
 		"eb-games": "EB Games",
 		"horizons": "horizons",
-		"illustration-contest-2024": "illustration-contest-2024",
-		"worlds-2025": "worlds-2025",
+		{
+	stamp: "illustration-contest",
+		detail: 2024
+}: {
+	stamp: "illustration-contest",
+		detail: 2024
+},
+		{
+	stamp: "worlds",
+		detail: 2025
+}: {
+	stamp: "worlds",
+		detail: 2025
+},
 		"top-eight": "top-eight"
 	},
 	"variantSubtype": {

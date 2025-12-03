@@ -41,7 +41,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["worlds-2025"]
+			stamp: [{
+	stamp: "worlds",
+		detail: 2025
+}]
 		},
 		{
 			type: "reverse",
