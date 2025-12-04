@@ -37,7 +37,7 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 
 			if (!(item.subTypeName in cacheItem)) {
 				const type = item.subTypeName.toLowerCase().replaceAll(' ', '-')
-				cacheItem[type] = objectOmit(item, 'productId', 'subTypeName')
+				cacheItem[type] = objectOmit(item,  'subTypeName')
 			}
 			cache[item.productId] = cacheItem
 		}
