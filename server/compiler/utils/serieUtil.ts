@@ -42,22 +42,13 @@ export async function getSeries(lang: SupportedLanguages): Promise<Array<Serie>>
 			.reduce<Set | undefined>((p, c) => p ? p.releaseDate < c.releaseDate ? p : c : c, undefined) as Set
 	] as [Serie, Set]))
 
-	return tmp.sort((a, b) => {
-		if (!a[1] || !b[1]) return 0
-		const dateA = typeof a[1].releaseDate === 'object' ? Object.values(a[1].releaseDate)[0] : a[1].releaseDate
-		const dateB = typeof b[1].releaseDate === 'object' ? Object.values(b[1].releaseDate)[0] : b[1].releaseDate
-		return dateA > dateB ? -1 : 1
-	}).map((it) => it[0])
+	return tmp.sort((a, b) => (a[1] ? a[1].releaseDate : '0') > (b[1] ? b[1].releaseDate : '0') ? 1 : -1).map((it) => it[0])
 }
 
 export async function serieToSerieSimple(serie: Serie, lang: SupportedLanguages): Promise<SerieResume> {
 	const setsTmp = await getSets(getSerieIdenti(serie,lang), lang)
 	const sets = await Promise.all(setsTmp
-		.sort((a, b) => {
-			const dateA = typeof a.releaseDate === 'object' ? Object.values(a.releaseDate)[0] : a.releaseDate
-			const dateB = typeof b.releaseDate === 'object' ? Object.values(b.releaseDate)[0] : b.releaseDate
-			return dateA > dateB ? -1 : 1
-		})
+		.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
 		.map((el) => setToSetSimple(el, lang)))
 	const logo = sets.find((set) => set.logo)?.logo
 	return {
@@ -69,11 +60,7 @@ export async function serieToSerieSimple(serie: Serie, lang: SupportedLanguages)
 
 export async function serieToSerieSingle(serie: Serie, lang: SupportedLanguages): Promise<SerieSingle> {
 	const setsTmp = await getSets(getSerieIdenti(serie,lang), lang)
-	const sortedSetsTmp = setsTmp.sort((a, b) => {
-		const dateA = typeof a.releaseDate === 'object' ? Object.values(a.releaseDate)[0] : a.releaseDate
-		const dateB = typeof b.releaseDate === 'object' ? Object.values(b.releaseDate)[0] : b.releaseDate
-		return dateA > dateB ? -1 : 1
-	})
+	const sortedSetsTmp = setsTmp.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
 	const sets = await Promise.all(sortedSetsTmp.map((el) => setToSetSimple(el, lang)))
 	const logo = (
 		// find the set named after the serie
