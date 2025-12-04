@@ -333,6 +333,28 @@ export interface Card extends CardResume {
 	 */
 	boosters?: Array<Booster>
 
+	/**
+	 * The card set number at the bottom left / right
+	 */
+	set_number: {
+		/**
+		 * The full text of the card number
+		 */
+		text: string
+		/**
+		 * the first part of the no. (if there is no `/` it will include everything)
+		 */
+		nominator: string
+		/**
+		 * a parseable area as a number (ex: 065 = 65, GG55 = 55)
+		 */
+		numeric: number
+		/**
+		 * The second part of the no (skipped if there is no `/`)
+		 */
+		denominator?: string
+	}
+
 	updated: string
 }
 
