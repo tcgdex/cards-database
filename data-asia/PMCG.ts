@@ -4,7 +4,14 @@ const serie: Serie = {
 	name: {
 		ja: 'ポケットモンスターカードゲーム'
 	},
-	id: 'PMCG'
+	id: 'PMCG',
+
+	related: [
+		{
+			type: "translation",
+			seriesPath: "data/Base.ts"
+		}
+	]
 }
 
 export default serie

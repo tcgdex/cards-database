@@ -17,7 +17,7 @@ export interface Serie {
 
 	related?: Array<{
 		type: 'translation'
-		setPath: string
+		seriesPath: string
 	}>
 }
 

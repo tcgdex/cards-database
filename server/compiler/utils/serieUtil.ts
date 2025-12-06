@@ -90,18 +90,18 @@ async function generateLinks(currentLang:SupportedLanguages ,serie: Serie): Prom
 
 	if(serie.related && serie.related.length > 0) {
 		for(const relation of serie.related) {
-			if (!relation.setPath) continue
-			const relatedSet = await resolveRelatedSerie(relation.setPath)
+			if (!relation.seriesPath) continue
+			const relatedSeries = await resolveRelatedSerie(relation.seriesPath)
 
-			if (!relatedSet) {
+			if (!relatedSeries) {
 				continue;
 			}
 
-			for (const key in relatedSet.name) {
-				if (relatedSet.name[key] !== undefined) {
+			for (const key in relatedSeries.name) {
+				if (relatedSeries.name[key] !== undefined) {
 					links.push({
 						lang: key,
-						url: formatSeriesEndpoint(key,serie.id),
+						url: formatSeriesEndpoint(key,relatedSeries.id),
 						type: relation.type
 					})
 				}

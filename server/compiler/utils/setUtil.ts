@@ -141,7 +141,7 @@ async function generateLinks(currentLang:SupportedLanguages ,set: Set): Promise<
 				if (relatedSet.name[key] !== undefined) {
 					links.push({
 						lang: key,
-						url: formatSetEndpoint(key,set.id),
+						url: formatSetEndpoint(key,relatedSet.id),
 						type: relation.type
 					})
 				}
