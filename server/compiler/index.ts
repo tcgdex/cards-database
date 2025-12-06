@@ -24,7 +24,7 @@ const DIST_FOLDER = './generated'
 	} catch {}
 
 	console.log('\n2. Loading informations from GIT')
-	await loadLastEdits()
+	// await loadLastEdits()
 
 	console.log('\n3. Compiling Files')
 

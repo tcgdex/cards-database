@@ -113,6 +113,13 @@ const card: Card = {
 		}
 	],
 
+	related: [
+		{
+			type: "translation",
+			cardPath: "data-asia/PMCG/PMCG1/021.ts"
+		}
+	]
+
 }
 
 export default card

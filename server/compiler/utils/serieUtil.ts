@@ -1,5 +1,5 @@
 import { Serie, Set, SupportedLanguages } from '../../../interfaces'
-import { SerieResume, Serie as SerieSingle } from '../../../meta/definitions/api'
+import { SerieResume, Serie as SerieSingle, Related } from '../../../meta/definitions/api'
 import { getSets, setToSetSimple } from './setUtil'
 import { DB_PATH, getDataFolder, resolveText, smartGlob } from './util'
 
@@ -58,6 +58,64 @@ export async function serieToSerieSimple(serie: Serie, lang: SupportedLanguages)
 	}
 }
 
+async function generateLinks(currentLang:SupportedLanguages ,serie: Serie): Promise<Related[]> {
+
+	async function resolveRelatedSerie(seriePath: string): Promise<Serie> {
+		return await import(`../../${DB_PATH}${seriePath}`).then(
+			(m) => m.default
+		)
+	}
+
+	function formatSeriesEndpoint(lang: string,serieId:string): string {
+		return `/v2/${lang}/series/${serieId}`;
+	}
+
+	let links: Related[] = []
+
+	for (const key in serie.name) {
+		if( key === currentLang) {
+			continue;
+		}
+
+		if (serie.name[key] !== undefined) {
+			links.push(
+				{
+					lang: key,
+					url: formatSeriesEndpoint(key,serie.id),
+					type: 'translation'
+				}
+			)
+		}
+	}
+
+	if(serie.related && serie.related.length > 0) {
+		for(const relation of serie.related) {
+			if (!relation.setPath) continue
+			const relatedSet = await resolveRelatedSerie(relation.setPath)
+
+			if (!relatedSet) {
+				continue;
+			}
+
+			for (const key in relatedSet.name) {
+				if (relatedSet.name[key] !== undefined) {
+					links.push({
+						lang: key,
+						url: formatSeriesEndpoint(key,serie.id),
+						type: relation.type
+					})
+				}
+			}
+		}
+	}
+
+	if(links.length == 0) {
+		return undefined;
+	}
+
+	return links;
+}
+
 export async function serieToSerieSingle(serie: Serie, lang: SupportedLanguages): Promise<SerieSingle> {
 	const setsTmp = await getSets(getSerieIdenti(serie,lang), lang)
 	const sortedSetsTmp = setsTmp.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
@@ -80,6 +138,7 @@ export async function serieToSerieSingle(serie: Serie, lang: SupportedLanguages)
 		firstSet: sets[0],
 		lastSet: sets[sets.length - 1],
 		releaseDate: typeof releaseDate === 'object' ? releaseDate[lang] : releaseDate,
-		sets
+		sets,
+		related: await generateLinks(lang,serie)
 	}
 }

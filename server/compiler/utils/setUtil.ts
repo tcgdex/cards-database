@@ -1,6 +1,6 @@
 import { objectKeys, objectMap } from '@dzeio/object-util'
 import { Card, Set, SupportedLanguages } from '../../../interfaces'
-import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
+import { SetResume, Set as SetSingle, Related } from '../../../meta/definitions/api'
 import { cardToCardSimple, getCards } from './cardUtil'
 import { DB_PATH, fetchRemoteFile, getDataFolder, resolveText, setIsLegal, smartGlob } from './util'
 import path from 'node:path'
@@ -98,6 +98,65 @@ function getVariantCountForType(card: Card, type: 'normal' | 'reverse' | 'holo' 
 }
 
 
+async function generateLinks(currentLang:SupportedLanguages ,set: Set): Promise<Related[]> {
+
+	async function resolveRelatedSet(setPath: string): Promise<Set> {
+		return await import(`../../${DB_PATH}${setPath}`).then(
+			(m) => m.default
+		)
+	}
+
+	function formatSetEndpoint(lang: string,setId:string): string {
+		return `/v2/${lang}/sets/${setId}`;
+	}
+
+	let links: Related[] = []
+
+	for (const key in set.name) {
+		if( key === currentLang) {
+			continue;
+		}
+
+		if (set.name[key] !== undefined) {
+			links.push(
+				{
+					lang: key,
+					url: formatSetEndpoint(key,set.id),
+					type: 'translation'
+				}
+			)
+		}
+	}
+
+	if(set.related && set.related.length > 0) {
+		for(const relation of set.related) {
+			if (!relation.setPath) continue
+			const relatedSet = await resolveRelatedSet(relation.setPath)
+
+			if (!relatedSet) {
+				continue;
+			}
+
+			for (const key in relatedSet.name) {
+				if (relatedSet.name[key] !== undefined) {
+					links.push({
+						lang: key,
+						url: formatSetEndpoint(key,set.id),
+						type: relation.type
+					})
+				}
+			}
+		}
+	}
+
+	if(links.length == 0) {
+		return undefined;
+	}
+
+	return links;
+}
+
+
 export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promise<SetSingle> {
 	const cards = await getCards(lang, set)
 	const pics = await getSetPictures(set, lang)
@@ -134,6 +193,7 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 			name: resolveText(booster.name, lang),
 			// images will be coming soon...
 		})) : undefined,
-		thirdParty: set.thirdParty
+		thirdParty: set.thirdParty,
+		related: await generateLinks(lang,set,)
 	}
 }
