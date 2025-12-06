@@ -72,9 +72,9 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number } }): Promise<{
 	unit: 'USD',
 	updated: string
-	normal?: Omit<Result | 'subTypeName'>
-	reverse?: Omit<Result | 'subTypeName'>
-	holo?: Omit<Result | 'subTypeName'>
+	normal?: Omit<Result, 'subTypeName'>
+	reverse?: Omit<Result, 'subTypeName'>
+	holo?: Omit<Result,'subTypeName'>
 } | null> {
 	if (!lastFetch || typeof card.thirdParty?.tcgplayer !== 'number') {
 		return null
