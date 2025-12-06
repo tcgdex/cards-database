@@ -14,6 +14,11 @@ export interface Serie {
 	 * Serie Energy cards
 	 */
 	energies?: Array<Types>
+
+	related?: Array<{
+		type: 'translation'
+		setPath: string
+	}>
 }
 
 interface variant_detailed {

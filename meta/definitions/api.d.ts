@@ -47,6 +47,7 @@ export interface Serie extends SerieResume {
 	lastSet: SetResume;
 	releaseDate: string;
 	sets: Array<SetResume>;
+	related? : Array<Related>
 }
 
 interface variants {
