@@ -6,7 +6,7 @@ export type SupportedLanguages =
 
 export type Languages<T = string> = Partial<Record<SupportedLanguages, T>>
 
-type Stamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
+export type Stamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
 	| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
 	| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato'
 	| 'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill'
@@ -35,10 +35,11 @@ export interface Serie {
 
 interface StampDetail {
 	stamp: Stamps
-	detail: number | 'left' | 'right'
+	detail?: number | ''
+	positioning?: 'left' | 'right'
 }
 
-interface variant_detailed {
+export interface variant_detailed {
 	/**
 	 * define the variant type
 	 * - normal: no holographic elements

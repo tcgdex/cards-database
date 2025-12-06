@@ -1,12 +1,12 @@
 /* eslint-disable sort-keys */
 import pathLib from 'node:path'
-import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
+import { Card, Set, SupportedLanguages, Types, Stamps, variant_detailed, StampDetail } from '../../../interfaces'
 import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
 import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
-import { variant_detailed } from "../../public/v2/api";
+import { variant_detailed as api_variant_detailed } from "../../public/v2/api";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -37,16 +37,40 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 
 function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
 	return {
-		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === '1st-edition')) ?? false,
+		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => {
+			if (typeof stamp === 'string') {
+				return stamp === '1st-edition'
+			} else {
+				return stamp.stamp === '1st-edition'
+			}
+		})) ?? false,
 		holo: variants_detailed?.some((variant) => variant.type === 'holo') ?? false,
 		normal: variants_detailed?.some((variant) => variant.type === 'normal') ?? false,
 		reverse: variants_detailed?.some((variant) => variant.type === 'reverse') ?? false,
-		wPromo: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === 'w-Promo')) ?? false
+		wPromo: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => {
+			if (typeof stamp === 'string') {
+				return stamp === 'w-promo'
+			} else {
+				return stamp.stamp === 'w-promo'
+			}
+		})) ?? false
 	}
 }
 
-function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<variant_detailed> {
-	const result: Array<variant_detailed> = [];
+function createStampString(stamp: Stamps | StampDetail, lang: SupportedLanguages): string {
+	if(typeof stamp === "string") {
+		return translate('variantStamp', stamp, lang)
+	}
+
+	return [
+		translate('variantStamp', stamp.stamp, lang),
+		stamp.detail ? `-${stamp.detail}` : '',
+		stamp.positioning ? `_${stamp.positioning}` : ''
+	].filter(Boolean).join('');
+}
+
+function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<api_variant_detailed> {
+	const result: Array<api_variant_detailed> = [];
 	const addVariant = (type: string, stamps: string[] = []) => {
 		result.push({
 			type,
@@ -107,12 +131,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 				// only include size when it's not standard
 				size: variant.size && variant.size !== 'standard' ? translate('variantSize', variant.size, lang) as any : translate('variantSize', "standard", lang) as any,
 				stamp: variant.stamp ? variant.stamp.map((stamp) => {
-					if (typeof stamp === 'object' && stamp !== null && 'detail' in stamp) {
-						return `${translate('variantStamp', stamp.stamp,lang)}-${stamp.detail}`
-					}
-					else if(typeof stamp === 'string') {
-						return translate('variantStamp', stamp, lang)
-					}
+					return createStampString(stamp, lang)
 				}) : undefined,
 				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
 			}
