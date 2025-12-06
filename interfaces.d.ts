@@ -154,6 +154,11 @@ export interface Set {
 		cardmarket?: number
 		tcgplayer?: number
 	}
+
+	related?: Array<{
+		type: 'translation'
+		setPath: string
+	}>
 }
 
 export interface Card {

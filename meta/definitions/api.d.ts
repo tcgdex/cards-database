@@ -142,6 +142,8 @@ export interface Set extends SetResume {
 		cardmarket?: number
 		tcgplayer?: number
 	}
+
+	related? : Array<Related>
 }
 export interface CardResume {
 	id: string;
