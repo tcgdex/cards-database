@@ -132,10 +132,25 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 	}
 
 	// console.time('loading providers')
-	const [cardmarket, tcgplayer] = await Promise.all([
+	let [cardmarket, tcgplayer] = await Promise.all([
 		getCardMarketPrice(card),
 		getTCGPlayerPrice(card),
 	])
+
+	if(!card.thirdParty) {
+		//No third party info try to get from variants
+		//This is to provide constancy but be able to update the data
+		//To remove the pricing from the root in v3
+		//Takes the first variant with pricing available, this should be the base variant
+		const variantWithPricing = (card.variants_detailed ?? []).find((variant: any) => variant.pricing && (variant.pricing.cardmarket || variant.pricing.tcgplayer));
+		if(variantWithPricing) {
+			 [cardmarket, tcgplayer] = await Promise.all([
+				getCardMarketPrice(variantWithPricing),
+				getTCGPlayerPrice(variantWithPricing),
+			])
+		}
+	}
+
 	// console.timeEnd('loading providers')
 	// console.time('remapping card')
 	const res = {
