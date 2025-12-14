@@ -4,6 +4,7 @@ import Set from '../POP Series 5'
 const card: Card = {
 	name: {
 		en: "Charmander δ",
+		fr: "Salamèche δ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
