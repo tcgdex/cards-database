@@ -64,6 +64,7 @@ function createStampString(stamp: Stamps | StampDetail, lang: SupportedLanguages
 
 	return [
 		translate('variantStamp', stamp.stamp, lang),
+		stamp.year ? `-${stamp.year}` : '',
 		stamp.detail ? `-${stamp.detail}` : '',
 		stamp.positioning ? `_${stamp.positioning}` : ''
 	].filter(Boolean).join('');

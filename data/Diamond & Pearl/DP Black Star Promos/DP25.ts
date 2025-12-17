@@ -22,49 +22,50 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: [{
-				stamp: "origins", detail: 2008
+				stamp: "worlds",
+				year: 2008
 			}],
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2008
+				year: 2008
 			}, "finalist"],
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2008
+				year: 2008
 			}, "quarter-finalist"],
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2008
+				year: 2008
 			}, "semi-finalist"],
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2008
+				year: 2008
 			}, "staff"],
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2008
+				year: 2008
 			}, "top-sixteen"],
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2008
+				year: 2008
 			}, "top-thirty-two"],
 		},
 	],

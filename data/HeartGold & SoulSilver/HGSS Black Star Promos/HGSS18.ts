@@ -23,49 +23,49 @@ const card: Card = {
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2010
+				year: 2010
 			}]
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2010
+				year: 2010
 			}, "staff"]
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2010
+				year: 2010
 			}, "finalist"]
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2010
+				year: 2010
 			}, "quarter-finalist"]
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2010
+				year: 2010
 			}, "semi-finalist"]
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2010
+				year: 2010
 			}, "top-sixteen"]
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "worlds",
-				detail: 2010
+				year: 2010
 			}, "top-thirty-two"]
 		},
 	]
