@@ -82,14 +82,14 @@ const card: Card = {
 			type: "normal",
 			stamp: [{
 				stamp: "origins",
-				detail: 2008
+				year: 2008
 			}]
 		},
 		{
 			type: "normal",
 			stamp: [{
 				stamp: "origins",
-				detail: 2008
+				year: 2008
 			}, "staff"]
 		}
 	]

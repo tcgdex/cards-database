@@ -52,9 +52,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: [{
-	stamp: "illustration-contest",
-		detail: 2024
-}]
+				stamp: "illustration-contest",
+				year: 2024
+			}]
 		},
 	]
 }

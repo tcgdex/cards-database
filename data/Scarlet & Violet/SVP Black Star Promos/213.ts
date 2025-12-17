@@ -25,7 +25,7 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Water","Water","Water","Colorless"],
+			cost: ["Water", "Water", "Water", "Colorless"],
 			name: {
 				en: "Deep Submergence",
 			},
@@ -51,9 +51,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: [{
-	stamp: "illustration-contest",
-		detail: 2024
-}]
+				stamp: "illustration-contest",
+				year: 2024
+			}]
 		},
 	]
 }

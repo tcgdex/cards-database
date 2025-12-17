@@ -38,6 +38,7 @@ export interface Serie {
 interface StampDetail {
 	stamp: Stamps
 	detail?: number | ''
+	year?: number
 	positioning?: 'left' | 'right'
 }
 

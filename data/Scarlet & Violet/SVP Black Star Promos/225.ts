@@ -45,9 +45,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: [{
-	stamp: "worlds",
-		detail: 2025
-}]
+				stamp: "worlds",
+				year: 2025
+			}]
 		},
 		{
 			type: "reverse",
