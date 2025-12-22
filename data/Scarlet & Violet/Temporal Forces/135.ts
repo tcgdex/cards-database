@@ -79,7 +79,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		},
 		{
 			type: "reverse"

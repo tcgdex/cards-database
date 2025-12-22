@@ -70,14 +70,15 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "holo",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
 		}
 	],
 
