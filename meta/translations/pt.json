@@ -219,7 +219,14 @@
 		"horizons": "horizons",
 		"illustration-contest-2024": "illustration-contest-2024",
 		"worlds-2025": "worlds-2025",
-		"top-eight": "top-eight"
+		"top-eight": "top-eight",
+		"trick-or-trade": "trick-or-trade",
+		"champion": "campeão",
+		"master-ball-league": "liga-master-ball",
+		"judge": "juiz",
+		"international-championship-europe": "campeonato-internacional-europa",
+		"international-championship-latin-america": "campeonato-internacional-américa-latina",
+		"international-championship-north-america": "campeonato-internacional-américa-do-norte"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",

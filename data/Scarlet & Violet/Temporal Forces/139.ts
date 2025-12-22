@@ -60,9 +60,18 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["trick-or-trade"]
+		}
+	],
 
 	illustrator: "KEIICHIRO ITO",
 

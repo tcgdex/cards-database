@@ -77,11 +77,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
-
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			size: "jumbo"
+		}
+	],
 	illustrator: "N-DESIGN Inc.",
 
 	thirdParty: {
