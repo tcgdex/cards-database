@@ -20,42 +20,7 @@ const set: Set = {
 		official: 69 // nice
 	},
 
-	boosters: {
-		mewtwo: {
-			name: {
-				de: 'Mewtu',
-				en: 'Mewtwo',
-				fr: 'Mewtwo',
-				es: 'Mewtwo',
-				it: 'Mewtwo',
-				'pt-br': 'Mewtwo',
-				ko: '뮤츠'
-			}
-		},
-		charizard: {
-			name: {
-				de: 'Glurak',
-				en: 'Charizard',
-				fr: 'Dracaufeu',
-				es: 'Charizard',
-				it: 'Charizard',
-				'pt-br': 'Charizard',
-				ko: '리자몽'
-			}
-		},
-		pikachu: {
-			name: {
-				en: 'Pikachu',
-				fr: 'Pikachu',
-				es: 'Pikachu',
-				it: 'Pikachu',
-				'pt-br': 'Pikachu',
-				ko: '피카츄'
-			}
-		}
-	},
-
-	releaseDate: "2024-10-30"
+	releaseDate: "2025-12-17"
 }
 
 export default set
