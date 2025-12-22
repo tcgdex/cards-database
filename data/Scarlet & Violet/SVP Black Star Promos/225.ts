@@ -17,12 +17,12 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Lightning","Lightning","Colorless"],
+			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
 				en: "Scrappy Spark",
 			},
 			effect: {
-				en:	"Flip a coin until you get tails. This attack does 30 more damage for each heads."
+				en: "Flip a coin until you get tails. This attack does 30 more damage for each heads."
 			},
 			damage: "30+"
 		},
@@ -41,7 +41,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["worlds-2025"]
+			stamp: [{
+				stamp: "worlds",
+				year: 2025
+			}]
 		},
 		{
 			type: "reverse",
