@@ -29,10 +29,27 @@ const card: Card = {
 
 	trainerType: "Tool",
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836066
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836066
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836066
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836470
+			}
+		},
+	]
 }
 
 export default card
