@@ -28,9 +28,87 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-europe"]
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-europe", "champion"]
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-europe", "staff"]
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-europe", "top-eight"]
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-latin-america"]
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-latin-america", "champion"]
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-latin-america", "staff"]
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-latin-america", "top-eight"]
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-north-america"]
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-north-america", "champion"]
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-north-america", "staff"]
+		},
+		{
+			type: "normal",
+			stamp: ["international-championship-north-america", "top-eight"]
+		},
+		{
+			type: "normal",
+			stamp: ["gym-challenge"]
+		},
+		{
+			type: "normal",
+			stamp: ["master-ball-league"]
+		},
+		{
+			type: "normal",
+			stamp: ["master-ball-league", "judge"]
+		},
+		{
+			type: "reverse",
+			foil: "player-reward"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "AYUMI ODASHIMA",
 
