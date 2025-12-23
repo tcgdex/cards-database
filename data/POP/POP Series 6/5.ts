@@ -4,6 +4,7 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Rampardos",
+		fr: "Charkos",
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -22,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cherrim",
+		en: "Cranidos",
 	},
 
 	stage: "Stage2",

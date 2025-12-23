@@ -4,6 +4,7 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Buneary",
+		fr: "Laporeille",
 	},
 
 	illustrator: "Kagemaru Himeno",
