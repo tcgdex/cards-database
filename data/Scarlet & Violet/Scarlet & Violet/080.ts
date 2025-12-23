@@ -68,8 +68,9 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	thirdParty: {
-		cardmarket: 689766
-	}
+        cardmarket: 689766,
+        tcgplayer: 487942
+    }
 }
 
 export default card

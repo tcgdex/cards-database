@@ -72,8 +72,9 @@ const card: Card = {
 	illustrator: "DOM",
 
 	thirdParty: {
-		cardmarket: 702303
-	}
+        cardmarket: 702303,
+        tcgplayer: 487836
+    }
 }
 
 export default card
