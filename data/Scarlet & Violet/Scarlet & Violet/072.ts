@@ -18,10 +18,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],
-
 	evolveFrom: {
-		en: "Toxel"
+		en: "Toxel",
+		fr: "Toxizap",
+		es: "Toxel",
+		it: "Toxel",
+		pt: "Toxel",
+		de: "Toxel"
 	},
+
 
 	stage: "Stage1",
 

@@ -18,10 +18,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Water"],
-
 	evolveFrom: {
-		en: "Quaxwell"
+		en: "Quaxwell",
+		fr: "Canarbello",
+		es: "Quaxwell",
+		it: "Quaxwell",
+		pt: "Quaxwell",
+		de: "Fuentente"
 	},
+
 
 	stage: "Stage2",
 
