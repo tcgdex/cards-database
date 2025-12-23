@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Jerky",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [1000],
 	hp: 120,
 	types: ["Metal"],
 

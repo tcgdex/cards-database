@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "ryoma uratsuka",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [43],
 	hp: 50,
 	types: ["Grass"],
 

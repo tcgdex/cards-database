@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "IKEDA Saki",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [430],
 	hp: 100,
 	types: ["Darkness"],
 

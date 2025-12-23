@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "PLANETA Igarashi",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [334],
 	hp: 190,
 	types: ["Psychic"],
 

@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [92],
 	hp: 50,
 	types: ["Psychic"],
 

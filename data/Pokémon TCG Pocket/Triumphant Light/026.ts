@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Nisota Niso",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [26],
 	hp: 90,
 	types: ["Lightning"],
 

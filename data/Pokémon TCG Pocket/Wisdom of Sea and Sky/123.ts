@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [212],
 	hp: 100,
 	types: ["Metal"],
 

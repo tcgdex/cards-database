@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Kyoko Umemoto",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [413],
 	hp: 110,
 	types: ["Metal"],
 

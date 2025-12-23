@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "OOYAMA",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [770],
 	hp: 130,
 	types: ["Psychic"],
 

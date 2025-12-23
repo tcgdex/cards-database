@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "sowsow",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [113],
 	types: ["Colorless"],
 	stage: "Basic",
 

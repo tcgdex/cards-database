@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Mugi Hamada",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [412],
 	hp: 60,
 	types: ["Grass"],
 

@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "MINAMINAMI Take",
 	category: "Pokemon",
+
+	dexId: [595],
 	hp: 40,
 	types: ["Lightning"],
 

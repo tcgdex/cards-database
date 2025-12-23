@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Ryuta Fuse",
 	category: "Pokemon",
+
+	dexId: [126],
 	hp: 80,
 	types: ["Fire"],
 	stage: "Basic",

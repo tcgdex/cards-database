@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [102],
 	hp: 60,
 	types: ["Grass"],
 

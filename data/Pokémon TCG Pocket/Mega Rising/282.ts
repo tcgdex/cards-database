@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "toriyufu",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [809],
 	hp: 170,
 	types: ["Metal"],
 

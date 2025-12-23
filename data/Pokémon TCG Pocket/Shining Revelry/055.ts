@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [965],
 	hp: 70,
 	types: ["Metal"],
 

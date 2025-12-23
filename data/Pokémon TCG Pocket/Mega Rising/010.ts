@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [275],
 	hp: 140,
 	types: ["Grass"],
 

@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Hiroki Asanuma",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [126],
 	hp: 80,
 	types: ["Fire"],
 

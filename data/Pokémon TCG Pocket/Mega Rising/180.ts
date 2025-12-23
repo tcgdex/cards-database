@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "kodama",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [16],
 	hp: 60,
 	types: ["Colorless"],
 

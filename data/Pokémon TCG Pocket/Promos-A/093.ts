@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [173],
 	hp: 30,
 	types: ["Psychic"],
 

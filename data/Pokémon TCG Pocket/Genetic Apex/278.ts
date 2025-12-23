@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "AKIRA EGAWA",
 	category: "Pokemon",
+
+	dexId: [68],
 	hp: 180,
 	types: ["Fighting"],
 	stage: "Stage2",

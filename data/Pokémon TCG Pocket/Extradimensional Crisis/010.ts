@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [226],
 	hp: 90,
 	types: ["Water"],
 

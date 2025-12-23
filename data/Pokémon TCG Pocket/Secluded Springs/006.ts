@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [251],
 	hp: 70,
 	types: ["Grass"],
 

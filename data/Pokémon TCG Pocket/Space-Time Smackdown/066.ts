@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [200],
 	hp: 60,
 	types: ["Psychic"],
 

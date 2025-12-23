@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [420],
 	hp: 50,
 	types: ["Grass"],
 

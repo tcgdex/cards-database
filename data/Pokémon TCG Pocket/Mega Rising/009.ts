@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Hajime Kusajima",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [274],
 	hp: 80,
 	types: ["Grass"],
 

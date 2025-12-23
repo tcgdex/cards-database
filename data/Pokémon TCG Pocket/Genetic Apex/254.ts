@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "PLANETA Saito",
 	category: "Pokemon",
+
+	dexId: [59],
 	hp: 150,
 	types: ["Fire"],
 	stage: "Stage1",
