@@ -57,7 +57,7 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 
 			if (!(item.subTypeName in cacheItem)) {
 				const type = item.subTypeName.toLowerCase().replaceAll(' ', '-')
-				cacheItem[type] = objectOmit(item, 'productId', 'subTypeName')
+				cacheItem[type] = objectOmit(item, 'subTypeName')
 			}
 			cache[item.productId] = cacheItem
 		}
@@ -72,9 +72,9 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number } }): Promise<{
 	unit: 'USD',
 	updated: string
-	normal?: Omit<Result, 'productId' | 'subTypeName'>
-	reverse?: Omit<Result, 'productId' | 'subTypeName'>
-	holo?: Omit<Result, 'productId' | 'subTypeName'>
+	normal?: Omit<Result, 'subTypeName'>
+	reverse?: Omit<Result, 'subTypeName'>
+	holo?: Omit<Result,'subTypeName'>
 } | null> {
 	if (!lastFetch || typeof card.thirdParty?.tcgplayer !== 'number') {
 		return null
