@@ -109,7 +109,7 @@ const card: Card = {
 
 	description: {
 		fr: "Gigantesque et maléfique, il est capable de raser une ville dans un accès de rage terrifiante.",
-		it: "Appare raramente nelle regioni selvagge. Enorme e feroce, se si infuria è capace di distruggere intere città."
+		it: "Appare raramente nelle regioni selvagge. Enorme e feroce, se si infuria è capace di distruggere intere città. LIV 41 N.130"
 	},
 
 	thirdParty: {
