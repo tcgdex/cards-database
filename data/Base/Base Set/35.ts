@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Magikarp",
 		fr: "Magicarpe",
-		de: "Karpador"
+		de: "Karpador",
+		it: "Magikarp"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
-				de: "Tackle"
+				de: "Tackle",
+				it: "Azione"
 			},
 
 			damage: 10,
@@ -46,12 +48,14 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Nageoire",
-				de: "Dreschflegel"
+				de: "Dreschflegel",
+				it: "Convulsione"
 			},
 			effect: {
 				en: "Does 10 damage times number of damage counters on Magikarp.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Magicarpe.",
-				de: "Fügt 10 Schadenspunkte mal der Anzahl der auf Karpador abgelegten Schadensmarken zu."
+				de: "Fügt 10 Schadenspunkte mal der Anzahl der auf Karpador abgelegten Schadensmarken zu.",
+				it: "Infligge 10 danni moltiplicati per il numero di segnalini danno su Magikarp."
 			},
 			damage: "10x",
 
@@ -66,7 +70,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Autrefois, il était beaucoup plus puissant que cette créature minablement faible."
+		fr: "Autrefois, il était beaucoup plus puissant que cette créature minablement faible.",
+		it: "In un passato remoto era molto più forte dei suoi debolissimi discendenti."
 	},
 
 	thirdParty: {
