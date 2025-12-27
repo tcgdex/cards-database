@@ -30,6 +30,12 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 857696
 	}
