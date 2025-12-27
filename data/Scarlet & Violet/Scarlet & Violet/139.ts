@@ -81,8 +81,9 @@ const card: Card = {
 	illustrator: "Lee HyunJung",
 
 	thirdParty: {
-		cardmarket: 702434
-	}
+        cardmarket: 702434,
+        tcgplayer: 488027
+    }
 }
 
 export default card

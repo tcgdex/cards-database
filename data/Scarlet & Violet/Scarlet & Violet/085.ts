@@ -72,8 +72,9 @@ const card: Card = {
 	illustrator: "kawayoo",
 
 	thirdParty: {
-		cardmarket: 702381
-	}
+        cardmarket: 702381,
+        tcgplayer: 487949
+    }
 }
 
 export default card
