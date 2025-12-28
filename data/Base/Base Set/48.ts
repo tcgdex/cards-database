@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Doduo",
 		fr: "Doduo",
-		de: "Dodu"
+		de: "Dodu",
+		it: "Doduo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Fury Attack",
 				fr: "Furie",
-				de: "Furienschlag"
+				de: "Furienschlag",
+				it: "Furia"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 10 Schadenspunkte zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 10 Schadenspunkte zu.",
+				it: "Lancia 2 volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa."
 			},
 			damage: "10x",
 
@@ -60,7 +63,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Cet oiseau vole très mal mais court très vite. Il laisse de gigantesques empreintes de pas."
+		fr: "Cet oiseau vole très mal mais court très vite. Il laisse de gigantesques empreintes de pas.",
+		it: "Uccello non molto abile nel volo, ma imbattibile nella corsa. Le sue orme giganteschene segnalano il passaggio. LIV 10 N.84"
 	},
 
 	thirdParty: {
