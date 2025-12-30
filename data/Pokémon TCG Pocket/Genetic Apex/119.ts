@@ -21,7 +21,12 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Slowpoke"
+		en: "Slowpoke",
+		fr: "Ramoloss",
+		es: "Slowpoke",
+		it: "Slowpoke",
+		pt: "Slowpoke",
+		de: "Flegmon"
 	},
 
 	attacks: [{

@@ -21,7 +21,12 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Dratini"
+		en: "Dratini",
+		fr: "Minidraco",
+		es: "Dratini",
+		it: "Dratini",
+		pt: "Dratini",
+		de: "Dratini"
 	},
 
 	attacks: [{

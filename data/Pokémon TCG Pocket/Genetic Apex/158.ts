@@ -21,7 +21,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Dome Fossil"
+		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu"
 	},
 
 	attacks: [{

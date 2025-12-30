@@ -21,7 +21,12 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Ivysaur"
+		en: "Ivysaur",
+		fr: "Herbizarre",
+		es: "Ivysaur",
+		it: "Ivysaur",
+		pt: "Ivysaur",
+		de: "Bisaknosp"
 	},
 
 	attacks: [{

@@ -21,7 +21,12 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Shellder"
+		en: "Shellder",
+		fr: "Kokiyas",
+		es: "Shellder",
+		it: "Shellder",
+		pt: "Shellder",
+		de: "Muschas"
 	},
 
 	abilities: [{

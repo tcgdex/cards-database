@@ -21,7 +21,12 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Oddish"
+		en: "Oddish",
+		fr: "Mystherbe",
+		es: "Oddish",
+		it: "Oddish",
+		pt: "Oddish",
+		de: "Myrapla"
 	},
 
 	attacks: [{

@@ -20,7 +20,12 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Wartortle"
+		en: "Wartortle",
+		fr: "Carabaffe",
+		es: "Wartortle",
+		it: "Wartortle",
+		pt: "Wartortle",
+		de: "Schillok"
 	},
 
 	attacks: [{
