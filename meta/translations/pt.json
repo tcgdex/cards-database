@@ -127,7 +127,11 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"mirage": "mirage",
+		"vertical-lines": "vertical-lines",
+		"speckle": "speckle",
+		"tinsel": "tinsel"
 	},
 	"variantStamp": {
 		"1st-edition": "1ª Edição",
@@ -227,7 +231,14 @@
 		"international-championship-europe": "campeonato-internacional-europa",
 		"international-championship-latin-america": "campeonato-internacional-américa-latina",
 		"international-championship-north-america": "campeonato-internacional-américa-do-norte",
-		"ace-trainer": "Ace Trainer"
+		"ace-trainer": "Ace Trainer",
+		"world-championships": "world-championships",
+		"player-rewards-program-left": "player-rewards-program-left",
+		"battle-academy-2024": "battle-academy-2024",
+		"iono-zone": "iono-zone",
+		"play-pokemon": "play-pokemon",
+		"7-eleven": "7-eleven",
+		"holyday-calendar": "holyday-calendar"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",
