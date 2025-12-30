@@ -8,6 +8,69 @@ import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, reso
 import { objectMap, objectPick } from '@dzeio/object-util'
 import { variant_detailed } from "../../public/v2/api";
 
+type TrainerLegalityGroup = {
+	cards: Array<CardSingle>
+	expanded: boolean
+	standard: boolean
+}
+
+/**
+ * Ensures all trainer reprints share the same legality as their most recent printing.
+ * Pokémon rulings allow any trainer card with the same English name to be played if a modern reprint is legal.
+ * We run this post compilation so both old and new printings can be inspected together.
+ */
+export function enhanceTrainerLegality(
+	compiledCards: Array<CardSingle>,
+	originalCards: Array<[string, Card]>
+): Array<CardSingle> {
+	const originalCardMap = new Map<string, Card>()
+	for (const [localId, card] of originalCards) {
+		originalCardMap.set(`${card.set.id}-${localId}`, card)
+	}
+
+	const trainerGroups = new Map<string, TrainerLegalityGroup>()
+
+	for (const compiledCard of compiledCards) {
+		const baseCard = originalCardMap.get(compiledCard.id)
+		if (!baseCard || baseCard.category !== 'Trainer') {
+			continue
+		}
+
+		const englishName = baseCard.name?.en?.trim()
+		if (!englishName) {
+			continue
+		}
+
+		if (!compiledCard.legal) {
+			compiledCard.legal = { standard: false, expanded: false }
+		}
+
+		const group = trainerGroups.get(englishName) ?? {
+			cards: [],
+			expanded: false,
+			standard: false
+		}
+
+		group.cards.push(compiledCard)
+		group.standard = group.standard || Boolean(compiledCard.legal.standard)
+		group.expanded = group.expanded || Boolean(compiledCard.legal.expanded)
+		trainerGroups.set(englishName, group)
+	}
+
+	for (const { cards, standard, expanded } of trainerGroups.values()) {
+		for (const card of cards) {
+			if (standard) {
+				card.legal.standard = true
+			}
+			if (expanded) {
+				card.legal.expanded = true
+			}
+		}
+	}
+
+	return compiledCards
+}
+
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
 		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
