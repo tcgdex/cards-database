@@ -79,6 +79,10 @@ export interface SetResume {
 		 */
 		official: number;
 	};
+	abbreviation?: {
+		official?: string;
+		localized?: string;
+	};
 }
 
 /**

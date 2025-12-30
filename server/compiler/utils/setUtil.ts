@@ -68,6 +68,11 @@ export async function getSetPictures(set: Set, lang: SupportedLanguages): Promis
 export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promise<SetResume> {
 	const cards = await getCards(lang, set)
 	const pics = await getSetPictures(set, lang)
+	const abbreviation = (set.abbreviations?.official || resolveText(set.abbreviations, lang)) ? {
+		official: set.abbreviations?.official,
+		localized: resolveText(set.abbreviations, lang)
+	} : undefined
+
 	return {
 		cardCount: {
 			official: set.cardCount?.official ?? 0,
@@ -76,7 +81,8 @@ export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promis
 		id: set.id,
 		logo: pics[0],
 		name: resolveText(set.name, lang),
-		symbol: pics[1]
+		symbol: pics[1],
+		abbreviation
 	}
 }
 
