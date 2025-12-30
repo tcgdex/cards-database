@@ -62,6 +62,11 @@ interface variant_detailed {
 	size?: string
 	stamp?: Array<string>
 	foil?: string
+	thirdParty?: {
+		cardmarket?: number
+		tcgplayer?: number
+	}
+	image?: string
 }
 
 export interface SetResume {

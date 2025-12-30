@@ -71,11 +71,27 @@ export function enhanceTrainerLegality(
 	return compiledCards
 }
 
-export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
+export async function getCardPictures(
+	cardId: string,
+	card: Card,
+	lang: SupportedLanguages,
+	variantIndex?: number
+): Promise<string | undefined> {
 	try {
 		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
-		const fileExists = Boolean(file[lang]?.[card.set.serie.id]?.[card.set.id]?.[cardId])
-		if (fileExists) {
+		const serieAssets = file[lang]?.[card.set.serie.id]?.[card.set.id]
+		if (!serieAssets) {
+			return undefined
+		}
+
+		if (typeof variantIndex === 'number') {
+			const variantKey = `${cardId}-${variantIndex}`
+			if (serieAssets[variantKey]) {
+				return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${variantKey}`
+			}
+		}
+
+		if (serieAssets[cardId]) {
 			return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`
 		}
 	} catch {
@@ -163,18 +179,21 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
 		},
 
-		variants_detailed: Array.isArray(card.variants) ? card.variants?.map((variant) => {
-			return {
+		variants_detailed: Array.isArray(card.variants)
+			? await Promise.all(card.variants.map(async (variant, index) => ({
 				type: translate('variantType', variant.type, lang) as any,
 				subtype: translate('variantSubtype', variant.subtype, lang) as any,
-				// only include size when it's not standard
-				size: variant.size && variant.size !== 'standard' ? translate('variantSize', variant.size, lang) as any : translate('variantSize', "standard", lang) as any,
-				stamp: variant.stamp ? variant.stamp.map((stamp) => {
-					return translate('variantStamp', stamp, lang)
-				}) : undefined,
-				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
-			}
-		}) : variantsToVariantsDetailed(card.variants,lang),
+				size: variant.size && variant.size !== 'standard'
+					? translate('variantSize', variant.size, lang) as any
+					: translate('variantSize', "standard", lang) as any,
+				stamp: variant.stamp
+					? variant.stamp.map((stamp) => translate('variantStamp', stamp, lang))
+					: undefined,
+				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined,
+				thirdParty: variant.thirdParty,
+				image: await getCardPictures(localId, card, lang, index)
+			})))
+			: variantsToVariantsDetailed(card.variants,lang),
 
 		dexId: card.dexId,
 		hp: card.hp,

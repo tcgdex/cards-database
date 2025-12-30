@@ -80,13 +80,24 @@ interface variant_detailed {
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
 	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
-	| 'mirror' | 'league' | 'player-reward' | 'professor-program'
+	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'mirage' | 'vertical-lines' | 'speckle' | 'tinsel'
 
 	/**
 	 * list of languages for which this variant is available
 	 * if not set, the variant is available in all languages
 	 */
 	languages?: SupportedLanguages[]
+	/**
+	 * Third-party identifiers specific to this variant
+	 */
+	thirdParty?: {
+		cardmarket?: number
+		tcgplayer?: number
+	}
+	/**
+	 * Variant-specific image URL (falls back to the card image when missing)
+	 */
+	image?: string
 }
 
 interface variants {
