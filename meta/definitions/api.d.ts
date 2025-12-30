@@ -333,6 +333,28 @@ export interface Card extends CardResume {
 	 */
 	boosters?: Array<Booster>
 
+	/**
+	 * The card set number that appears on the card (e.g. 065/162, GG12/GG30)
+	 */
+	set_number: {
+		/**
+		 * Full textual representation, including prefixes and denominator
+		 */
+		text: string
+		/**
+		 * The numerator portion (everything before a slash, or the whole text if there is no slash)
+		 */
+		nominator: string
+		/**
+		 * Parsed numeric component when available (e.g. 65 for 065, 12 for GG12/GG30)
+		 */
+		numeric?: number
+		/**
+		 * Denominator text (only present when the card number includes `/denominator`)
+		 */
+		denominator?: string
+	}
+
 	updated: string
 }
 

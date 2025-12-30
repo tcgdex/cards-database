@@ -168,6 +168,18 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		})) : undefined,
 		updated: await getCardLastEdit(localId, card, lang),
 
+		set_number: (() => {
+			const officialCount = card.set.cardCount?.official
+			const normalizedId = localId.toString()
+			const numericMatch = normalizedId.match(/(\d+)/)
+			return {
+				text: officialCount && officialCount > 0 ? `${normalizedId}/${officialCount}` : normalizedId,
+				nominator: normalizedId,
+				numeric: numericMatch ? parseInt(numericMatch[1], 10) : undefined,
+				denominator: officialCount && officialCount > 0 ? officialCount.toString() : undefined
+			}
+		})(),
+
 		thirdParty: card.thirdParty
 	}
 }

@@ -70,8 +70,8 @@ export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promis
 	const pics = await getSetPictures(set, lang)
 	return {
 		cardCount: {
-			official: set.cardCount.official,
-			total: Math.max(set.cardCount.official, cards.length)
+			official: set.cardCount?.official ?? 0,
+			total: Math.max(set.cardCount?.official ?? 0, cards.length)
 		},
 		id: set.id,
 		logo: pics[0],
@@ -106,9 +106,9 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 			firstEd: cards.reduce((count, card) => count + getVariantCountForType(card[1],"firstEdition"), 0),
 			holo: cards.reduce((count, card) => count + getVariantCountForType(card[1],"holo"), 0),
 			normal: cards.reduce((count, card) => count + getVariantCountForType(card[1],"normal"), 0),
-			official: set.cardCount.official,
+			official: set.cardCount?.official ?? 0,
 			reverse: cards.reduce((count, card) => count + getVariantCountForType(card[1],"reverse"), 0),
-			total: Math.max(set.cardCount.official, cards.length)
+			total: Math.max(set.cardCount?.official ?? 0, cards.length)
 		},
 		cards: await Promise.all(cards.map(([id, card]) => cardToCardSimple(id, card, lang))),
 		id: set.id,
