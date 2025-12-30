@@ -1,0 +1,29 @@
+meta {
+  name: Evolution chain - Legendary (Mew)
+  type: http
+  seq: 12
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex/151
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 151
+  res.body.name: eq Mew
+  res.body.englishName: eq Mew
+  res.body.evolvesFrom: eq null
+  res.body.evolvesTo.length: eq 0
+}
+
+docs {
+  Test legendary Pokemon - Mew
+  Verifies:
+  - evolvesFrom is null (mythical Pokemon)
+  - evolvesTo is empty array (doesn't evolve)
+}
+
+

@@ -1,0 +1,30 @@
+meta {
+  name: Evolution chain - No evolution (Tauros)
+  type: http
+  seq: 11
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex/128
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 128
+  res.body.name: eq Tauros
+  res.body.englishName: eq Tauros
+  res.body.evolvesFrom: eq null
+  res.body.evolvesTo.length: eq 0
+}
+
+docs {
+  Test non-evolving Pokemon - Tauros
+  Verifies:
+  - evolvesFrom is null
+  - evolvesTo is empty array
+  Tauros has never had an evolution in any generation
+}
+
+

@@ -1,0 +1,29 @@
+meta {
+  name: Evolution chain - Eeveelution (Vaporeon)
+  type: http
+  seq: 8
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex/134
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 134
+  res.body.name: eq Aquali
+  res.body.englishName: eq Vaporeon
+  res.body.evolvesFrom: eq 133
+  res.body.evolvesTo.length: eq 0
+}
+
+docs {
+  Test Eeveelution - Vaporeon
+  Verifies:
+  - evolvesFrom points to Eevee (#133)
+  - evolvesTo is empty (final stage)
+}
+
+

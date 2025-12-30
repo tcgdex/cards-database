@@ -1,0 +1,30 @@
+meta {
+  name: Evolution chain - Baby Pokemon (Pichu)
+  type: http
+  seq: 9
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex/172
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 172
+  res.body.name: eq Pichu
+  res.body.englishName: eq Pichu
+  res.body.evolvesFrom: eq null
+  res.body.evolvesTo[0]: eq 25
+  res.body.evolvesTo.length: eq 1
+}
+
+docs {
+  Test baby Pokemon - Pichu
+  Verifies:
+  - evolvesFrom is null (baby form is the base)
+  - evolvesTo contains Pikachu (#25)
+}
+
+

@@ -1,0 +1,29 @@
+meta {
+  name: Evolution chain - Final stage (Venusaur)
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex/3
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 3
+  res.body.name: eq Florizarre
+  res.body.englishName: eq Venusaur
+  res.body.evolvesFrom: eq 2
+  res.body.evolvesTo.length: eq 0
+}
+
+docs {
+  Test final-stage evolution - Venusaur
+  Verifies:
+  - evolvesFrom points to Ivysaur (#2)
+  - evolvesTo is empty array for final stage
+}
+
+

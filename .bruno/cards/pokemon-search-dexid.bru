@@ -1,0 +1,23 @@
+meta {
+  name: Search cards by dexId
+  type: http
+  seq: 101
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/pokemon/search?dexId=3&page=1&pageSize=2
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.cards.length: gt 0
+  res.body.filters.dexIds[0]: eq 3
+  res.body.pagination.total: gt 0
+}
+
+docs {
+  Validate that searching by Pokédex ID returns localized results.
+}
+

@@ -388,6 +388,52 @@ export interface Card {
 }
 
 /**
+ * Pokédex species entry with localized names
+ */
+export interface PokemonSpecies {
+	/**
+	 * National Pokédex ID (1-1025)
+	 */
+	dexId: number
+
+	/**
+	 * English name (used as fallback identifier)
+	 */
+	englishName: string
+
+	/**
+	 * Localized names in all supported languages
+	 * Missing translations are empty strings
+	 */
+	names: Languages
+
+	/**
+	 * Alternate form slugs (e.g., "bulbasaur", "venusaur-mega")
+	 */
+	forms: Array<string>
+
+	/**
+	 * Official artwork URL from Pokémon.com
+	 * Same for all languages (no text on images)
+	 * Format: https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/{paddedDex}.png
+	 */
+	image: string
+
+	/**
+	 * Pokédex ID of the species this Pokémon evolves from
+	 * null if this is a base/first-stage Pokémon
+	 */
+	evolvesFrom: number | null
+
+	/**
+	 * Array of Pokédex IDs this Pokémon can evolve into
+	 * Empty array if this Pokémon doesn't evolve further
+	 * For branching evolutions (like Eevee), contains all possible evolutions
+	 */
+	evolvesTo: Array<number>
+}
+
+/**
  * Filter for cards legality
  */
 export interface Filter {

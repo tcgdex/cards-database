@@ -1,0 +1,23 @@
+meta {
+  name: Search cards by type
+  type: http
+  seq: 100
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/pokemon/search?type=Fire&page=1&pageSize=3
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.cards.length: gt 0
+  res.body.filters.types[0]: eq Fire
+  res.body.pagination.page: eq 1
+}
+
+docs {
+  Ensure the Pokémon search endpoint returns results when filtering by type only.
+}
+

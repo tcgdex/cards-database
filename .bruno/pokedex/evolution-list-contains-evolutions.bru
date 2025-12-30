@@ -1,0 +1,26 @@
+meta {
+  name: Pokedex list - Contains evolution data
+  type: http
+  seq: 14
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body[0].evolvesFrom: eq null
+  res.body[0].evolvesTo[0]: eq 2
+  res.body[1].evolvesFrom: eq 1
+  res.body[1].evolvesTo[0]: eq 3
+}
+
+docs {
+  Test that pokedex list endpoint includes evolution data
+  Verifies evolution fields are present in list responses
+}
+
+

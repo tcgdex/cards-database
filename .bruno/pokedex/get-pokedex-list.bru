@@ -1,0 +1,28 @@
+meta {
+  name: Get the Pokedex list
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex?pagination:page=1&pagination:itemsPerPage=10
+  body: none
+  auth: none
+}
+
+query {
+  pagination:page: 1
+  pagination:itemsPerPage: 10
+}
+
+assert {
+  res.status: eq 200
+  res.body.length: eq 10
+  res.body[0].dexId: eq 1
+  res.body[0].name: eq Bulbizarre
+}
+
+docs {
+  Retrieve paginated list of Pokedex species with French names
+}
+

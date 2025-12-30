@@ -1,0 +1,29 @@
+meta {
+  name: Pokedex - Evolution field presence
+  type: http
+  seq: 15
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex/26
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 26
+  res.body.name: eq Raichu
+  res.body.englishName: eq Raichu
+  res.body.evolvesFrom: eq 25
+  res.body.evolvesTo.length: eq 0
+}
+
+docs {
+  Test Raichu evolution chain (final stage with pre-evolution)
+  Verifies:
+  - evolvesFrom points to Pikachu (#25)
+  - evolvesTo is empty (final stage)
+}
+
+

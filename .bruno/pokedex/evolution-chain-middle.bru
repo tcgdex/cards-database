@@ -1,0 +1,30 @@
+meta {
+  name: Evolution chain - Middle stage (Ivysaur)
+  type: http
+  seq: 5
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex/2
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 2
+  res.body.name: eq Herbizarre
+  res.body.englishName: eq Ivysaur
+  res.body.evolvesFrom: eq 1
+  res.body.evolvesTo[0]: eq 3
+  res.body.evolvesTo.length: eq 1
+}
+
+docs {
+  Test middle-stage evolution - Ivysaur
+  Verifies:
+  - evolvesFrom points to Bulbasaur (#1)
+  - evolvesTo contains exactly one evolution (Venusaur #3)
+}
+
+

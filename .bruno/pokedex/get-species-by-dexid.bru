@@ -1,0 +1,26 @@
+meta {
+  name: Get species by Dex ID
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex/25
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 25
+  res.body.name: eq Pikachu
+  res.body.englishName: eq Pikachu
+  res.body.image: contains pokemon.com
+  res.body.evolvesFrom: eq 172
+  res.body.evolvesTo[0]: eq 26
+}
+
+docs {
+  Retrieve a single Pokedex species by its National Pokedex number
+}
+

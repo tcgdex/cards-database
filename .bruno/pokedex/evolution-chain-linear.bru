@@ -1,0 +1,30 @@
+meta {
+  name: Evolution chain - Linear (Bulbasaur line)
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex/1
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 1
+  res.body.name: eq Bulbizarre
+  res.body.englishName: eq Bulbasaur
+  res.body.evolvesFrom: eq null
+  res.body.evolvesTo[0]: eq 2
+  res.body.evolvesTo.length: eq 1
+}
+
+docs {
+  Test linear evolution chain - Bulbasaur (base stage)
+  Verifies:
+  - evolvesFrom is null for base Pokemon
+  - evolvesTo contains exactly one evolution (Ivysaur #2)
+}
+
+

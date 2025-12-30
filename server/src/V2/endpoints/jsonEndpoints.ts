@@ -1,7 +1,7 @@
 import { objectKeys } from '@dzeio/object-util'
-import type { Card as SDKCard } from '@tcgdex/sdk'
+import type { Card as SDKCard, SupportedLanguages } from '@tcgdex/sdk'
 import apicache from 'apicache'
-import express, { type Request } from 'express'
+import express, { type Request, type Response } from 'express'
 import { Errors, sendError } from '../../libs/Errors'
 import type { Query } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
@@ -9,6 +9,7 @@ import { betterSorter, checkLanguage, unique } from '../../util'
 import { getAllCards, findOneCard, findCards, toBrief, getCardById, getCompiledCard } from '../Components/Card'
 import { findOneSet, findSets, setToBrief } from '../Components/Set'
 import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
+import { findOneSpecies, findSpecies, getSpeciesByDexId, speciesToBrief } from '../Components/Pokedex'
 import { listSKUs } from '../../libs/providers/tcgplayer'
 
 type CustomRequest = Request & {
@@ -40,9 +41,84 @@ const endpointToField: Record<string, keyof SDKCard> = {
 	variants: "variants",
 }
 
+function flattenQueryValues(value: unknown): Array<string> {
+	if (typeof value === 'undefined' || value === null) {
+		return []
+	}
+	if (Array.isArray(value)) {
+		return value.flatMap((entry) => flattenQueryValues(entry))
+	}
+
+	const raw = value.toString()
+	const separator = raw.includes('|') ? '|' : ','
+	return raw
+		.split(separator)
+		.map((segment) => segment.trim())
+		.filter((segment) => segment.length > 0)
+}
+
+function parseDexIdFilters(...values: Array<unknown>): { dexIds: Array<number>, invalid: Array<string> } {
+	const tokens = values.flatMap((value) => flattenQueryValues(value))
+	const dexIds = new Set<number>()
+	const invalid = new Set<string>()
+
+	for (const token of tokens) {
+		const parsed = Number.parseInt(token, 10)
+		if (Number.isNaN(parsed)) {
+			invalid.add(token)
+		} else {
+			dexIds.add(parsed)
+		}
+	}
+
+	return {
+		dexIds: Array.from(dexIds),
+		invalid: Array.from(invalid)
+	}
+}
+
+function parseTypeFilters(...values: Array<unknown>): { normalized: Array<string>, labels: Array<string> } {
+	const tokens = values.flatMap((value) => flattenQueryValues(value))
+	const normalized = new Map<string, string>()
+
+	for (const token of tokens) {
+		const lower = token.toLowerCase()
+		if (!normalized.has(lower)) {
+			normalized.set(lower, toTitleCase(token))
+		}
+	}
+
+	return {
+		normalized: Array.from(normalized.keys()),
+		labels: Array.from(normalized.values()),
+	}
+}
+
+function toTitleCase(value: string): string {
+	const trimmed = value.trim()
+	if (!trimmed) {
+		return ''
+	}
+	return trimmed
+		.split(/[\s-]+/)
+		.map((segment) => segment.charAt(0).toUpperCase() + segment.slice(1).toLowerCase())
+		.join(' ')
+}
+
+function parsePositiveInt(value: unknown, fallback: number): number {
+	if (typeof value === 'number' && Number.isFinite(value)) {
+		return value > 0 ? Math.trunc(value) : fallback
+	}
+	if (typeof value === 'string' && value.trim().length > 0) {
+		const parsed = Number.parseInt(value, 10)
+		return Number.isNaN(parsed) || parsed <= 0 ? fallback : parsed
+	}
+	return fallback
+}
+
 server
 	// Midleware that handle caching only in production and on GET requests
-	.use(apicache.middleware('1 day', (req: CustomRequest, res: Response) => !req.DO_NOT_CACHE && res.status < 400 && process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
+	.use(apicache.middleware('1 day', (req: CustomRequest, res: Response) => !req.DO_NOT_CACHE && res.statusCode < 400 && process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
 
 	// .get('/cache/performance', (req, res) => {
 	// 	res.json(apicache.getPerformance())
@@ -98,13 +174,78 @@ server
 			case 'serie':
 				data = await findSeries(lang, query)
 				break
+			case 'pokedex':
+				data = await findSpecies(lang, query)
+				break
 			default:
-				sendError(Errors.NOT_FOUND, res, { details: `You can only run random requests on "card", "set" or "serie" while you did on "${what}"` })
+				sendError(Errors.NOT_FOUND, res, { details: `You can only run random requests on "card", "set", "serie" or "pokedex" while you did on "${what}"` })
 				return
 		}
 		const item = Math.min(data.length - 1, Math.max(0, Math.round(Math.random() * data.length)))
 		req.DO_NOT_CACHE = true
 		res.json(data[item])
+	})
+
+
+	/**
+	 * Search cards by Pokémon type and/or Pokédex ID
+	 */
+	.get('/:lang/pokemon/search', async (req: CustomRequest, res) => {
+		const { lang } = req.params
+
+		if (!checkLanguage(lang)) {
+			sendError(Errors.LANGUAGE_INVALID, res, { lang })
+			return
+		}
+
+		const dexFilters = parseDexIdFilters(req.query.dexId, req.query.dexIds)
+		if (dexFilters.invalid.length > 0) {
+			sendError(Errors.INVALID_QUERY, res, { details: `Invalid dexId values: ${dexFilters.invalid.join(', ')}` })
+			return
+		}
+
+		const typeFilters = parseTypeFilters(req.query.type, req.query.types)
+
+		if (dexFilters.dexIds.length === 0 && typeFilters.normalized.length === 0) {
+			sendError(Errors.INVALID_QUERY, res, { details: 'You must supply at least one dexId or type filter' })
+			return
+		}
+
+		const page = parsePositiveInt(req.query.page ?? req.query['pagination:page'], 1)
+		const pageSize = Math.min(Math.max(parsePositiveInt(
+			req.query.pageSize ?? req.query.limit ?? req.query['pagination:itemsPerPage'],
+			50
+		), 1), 100)
+
+		const dexIdSet = new Set(dexFilters.dexIds)
+		const typeSet = new Set(typeFilters.normalized.map((value) => value.toLowerCase()))
+
+		const cards = await getAllCards(lang as SupportedLanguages)
+		const filteredCards = cards.filter((card) => {
+			const matchesDex = dexIdSet.size === 0 || (card.dexId?.some((dex) => dexIdSet.has(dex)) ?? false)
+			const matchesTypes = typeSet.size === 0 || (card.types?.some((cardType) => cardType && typeSet.has(cardType.toLowerCase())) ?? false)
+			return matchesDex && matchesTypes
+		})
+
+		const total = filteredCards.length
+		const totalPages = total === 0 ? 0 : Math.ceil(total / pageSize)
+		const safePage = totalPages === 0 ? 1 : Math.min(page, totalPages)
+		const startIndex = Math.max(safePage - 1, 0) * pageSize
+		const pagedCards = filteredCards.slice(startIndex, startIndex + pageSize).map(toBrief)
+
+		res.json({
+			filters: {
+				dexIds: dexFilters.dexIds,
+				types: typeFilters.labels,
+			},
+			pagination: {
+				page: safePage,
+				pageSize,
+				total,
+				totalPages,
+			},
+			cards: pagedCards,
+		})
 	})
 
 
@@ -161,6 +302,12 @@ server
 				result = (await findSeries(lang, query))
 					.map(serieToBrief)
 				break
+
+			case 'pokedex':
+				result = (await findSpecies(lang, query))
+					.map(speciesToBrief)
+				break
+
 			case 'categories':
 			case "energy-types":
 			case "hp":
@@ -247,6 +394,24 @@ server
 					result = await findOneSerie(lang, { name: id })
 				}
 				break
+
+			case 'pokedex': {
+				// Allow lookup by dexId number or name
+				const dexId = parseInt(id, 10)
+				if (!isNaN(dexId)) {
+					result = await getSpeciesByDexId(lang, dexId)
+				}
+				if (!result) {
+					// Try by name
+					result = await findOneSpecies(lang, { name: id })
+				}
+				if (!result) {
+					// Try by English name
+					result = await findOneSpecies(lang, { englishName: id })
+				}
+				break
+			}
+
 			case 'dex-ids': {
 				result = {
 					name: parseInt(id, 10),

@@ -1,0 +1,33 @@
+meta {
+  name: Evolution chain - Split evolution (Slowpoke)
+  type: http
+  seq: 13
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex/79
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 79
+  res.body.name: eq Ramoloss
+  res.body.englishName: eq Slowpoke
+  res.body.evolvesFrom: eq null
+  res.body.evolvesTo.length: eq 2
+  res.body.evolvesTo[0]: eq 80
+  res.body.evolvesTo[1]: eq 199
+}
+
+docs {
+  Test split evolution - Slowpoke
+  Verifies:
+  - evolvesFrom is null
+  - evolvesTo contains both:
+    - 80: Slowbro
+    - 199: Slowking
+}
+
+

@@ -1,0 +1,45 @@
+meta {
+  name: Evolution chain - Branching (Eevee)
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/pokedex/133
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 133
+  res.body.name: eq Évoli
+  res.body.englishName: eq Eevee
+  res.body.evolvesFrom: eq null
+  res.body.evolvesTo.length: eq 8
+  res.body.evolvesTo[0]: eq 134
+  res.body.evolvesTo[1]: eq 135
+  res.body.evolvesTo[2]: eq 136
+  res.body.evolvesTo[3]: eq 196
+  res.body.evolvesTo[4]: eq 197
+  res.body.evolvesTo[5]: eq 470
+  res.body.evolvesTo[6]: eq 471
+  res.body.evolvesTo[7]: eq 700
+}
+
+docs {
+  Test branching evolution - Eevee with 8 possible evolutions
+  Verifies:
+  - evolvesFrom is null (base form)
+  - evolvesTo contains all 8 Eeveelutions:
+    - 134: Vaporeon
+    - 135: Jolteon
+    - 136: Flareon
+    - 196: Espeon
+    - 197: Umbreon
+    - 470: Leafeon
+    - 471: Glaceon
+    - 700: Sylveon
+}
+
+

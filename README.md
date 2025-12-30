@@ -50,6 +50,25 @@ We are making sure to make every cards available for every languages they were a
 _want to help translating? each object fields on cards that have at least en,fr,es,de,it or pt can have the others!,_
 _Also we have another translation files located at `meta/translations`_
 
+## Pokédex maintenance
+
+We now ship an automated script that fills missing localized species names by reusing
+translations that already exist on TCGdex cards:
+
+```bash
+# 1. Make sure generated data is fresh
+bun run compile
+
+# 2. Fill any missing species names (writes into pokedex/*.ts)
+npm run pokedex:fill-names
+```
+
+`pokedex:fill-names` loads the compiled card data (`server/generated/<lang>/cards.json`)
+and updates every `pokedex/####.ts` file that still has blank names for the supported
+languages (es-mx, pt, pt-br, id, th, ...). The script only overwrites the files that
+actually received new translations and prints a per-language summary so you can double
+check what changed.
+
 ## Sponsors 💕
 
 _[Support us as a sponsor](https://github.com/sponsors/tcgdex) and have your logo featured on our GitHub README, complete with a link to your website._

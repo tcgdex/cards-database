@@ -1,0 +1,24 @@
+meta {
+  name: Get species by name
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/pokedex/charizard
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.dexId: eq 6
+  res.body.name: eq Charizard
+  res.body.englishName: eq Charizard
+  res.body.forms: length 4
+}
+
+docs {
+  Retrieve a single Pokedex species by its name
+}
+
