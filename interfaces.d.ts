@@ -73,6 +73,7 @@ interface variant_detailed {
 		| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
 		| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "master-ball-league" | "judge"
 		| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america"
+		| 'ace-trainer'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card

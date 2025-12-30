@@ -226,7 +226,8 @@
 		"judge": "juiz",
 		"international-championship-europe": "campeonato-internacional-europa",
 		"international-championship-latin-america": "campeonato-internacional-américa-latina",
-		"international-championship-north-america": "campeonato-internacional-américa-do-norte"
+		"international-championship-north-america": "campeonato-internacional-américa-do-norte",
+		"ace-trainer": "Ace Trainer"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",
