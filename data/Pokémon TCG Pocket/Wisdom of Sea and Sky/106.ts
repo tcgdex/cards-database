@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Nurikabe",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [689],
 	hp: 120,
 	types: ["Fighting"],
 

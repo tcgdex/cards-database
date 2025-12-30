@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Takeshi Nakamura",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [750],
 	hp: 140,
 	types: ["Fighting"],
 

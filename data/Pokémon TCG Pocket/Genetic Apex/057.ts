@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Shibuzoh.",
 	category: "Pokemon",
+
+	dexId: [54],
 	hp: 60,
 	types: ["Water"],
 	stage: "Basic",

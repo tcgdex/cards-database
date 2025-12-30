@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Yoko Hishida",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [831],
 	hp: 70,
 	types: ["Colorless"],
 

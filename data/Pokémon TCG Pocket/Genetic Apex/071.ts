@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Pokemon",
+
+	dexId: [117],
 	hp: 70,
 	types: ["Water"],
 	stage: "Stage1",

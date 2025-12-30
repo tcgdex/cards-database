@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Asako Ito",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [425],
 	hp: 60,
 	types: ["Psychic"],
 

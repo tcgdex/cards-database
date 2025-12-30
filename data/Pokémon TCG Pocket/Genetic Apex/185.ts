@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Hiroyuki Yamamoto",
 	category: "Pokemon",
+
+	dexId: [149],
 	hp: 160,
 	types: ["Dragon"],
 	stage: "Stage2",

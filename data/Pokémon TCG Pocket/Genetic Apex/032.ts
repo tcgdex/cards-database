@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "You Iribi",
 	category: "Pokemon",
+
+	dexId: [673],
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage1",

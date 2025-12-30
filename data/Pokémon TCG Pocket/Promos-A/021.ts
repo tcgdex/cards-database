@@ -35,6 +35,8 @@ const card: Card = {
 		damage: 70
 	}],
 
+	dexId: [95],
+
 	hp: 110,
 
 	description: {

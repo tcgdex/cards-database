@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Yuka Tanaka",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [182],
 	hp: 130,
 	types: ["Grass"],
 

@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [777],
 	hp: 70,
 	types: ["Lightning"],
 

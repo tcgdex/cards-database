@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Yuka Morii",
 	category: "Pokemon",
+
+	dexId: [61],
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",

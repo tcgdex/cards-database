@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "DOM",
 	category: "Pokemon",
+
+	dexId: [101],
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Stage1",

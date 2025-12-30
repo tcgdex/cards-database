@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Takeshi Nakamura",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [640],
 	hp: 100,
 	types: ["Grass"],
 

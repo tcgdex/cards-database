@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Oswaldo KATO",
 	category: "Pokemon",
+
+	dexId: [124],
 	hp: 80,
 	types: ["Psychic"],
 	stage: "Basic",

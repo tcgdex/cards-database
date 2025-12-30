@@ -45,6 +45,8 @@ const card: Card = {
 		}
 	}],
 
+	dexId: [3],
+
 	hp: 160,
 
 	evolveFrom: {

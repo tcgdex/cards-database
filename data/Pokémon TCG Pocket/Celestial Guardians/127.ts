@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "hatachu",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [784],
 	hp: 150,
 	types: ["Dragon"],
 

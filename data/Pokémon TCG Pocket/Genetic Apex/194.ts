@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Atsuko Nishida",
 	category: "Pokemon",
+
+	dexId: [40],
 	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",

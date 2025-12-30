@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "tetsuya koizumi",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [162],
 	hp: 90,
 	types: ["Colorless"],
 

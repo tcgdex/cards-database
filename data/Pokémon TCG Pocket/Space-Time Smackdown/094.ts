@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [450],
 	hp: 140,
 	types: ["Fighting"],
 

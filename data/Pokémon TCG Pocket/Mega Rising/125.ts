@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Hitoshi Ariga",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [185],
 	hp: 90,
 	types: ["Fighting"],
 

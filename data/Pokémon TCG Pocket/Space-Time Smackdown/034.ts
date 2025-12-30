@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Tomokazu Komiya",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [378],
 	hp: 110,
 	types: ["Water"],
 

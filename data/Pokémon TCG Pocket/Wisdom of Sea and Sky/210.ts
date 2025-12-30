@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "SIE NANAHARA",
 	rarity: "Three Star",
 	category: "Pokemon",
+
+	dexId: [250],
 	hp: 150,
 	types: ["Fire"],
 	stage: "Basic",

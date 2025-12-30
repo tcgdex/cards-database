@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Naoyo Kimura",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [471],
 	hp: 90,
 	types: ["Water"],
 

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "PLANETA CG Works",
 	rarity: "Four Diamond",
 	category: "Pokemon",
+
+	dexId: [745],
 	hp: 150,
 	types: ["Fighting"],
 

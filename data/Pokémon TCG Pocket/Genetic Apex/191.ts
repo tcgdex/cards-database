@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Shiburingaru",
 	category: "Pokemon",
+
+	dexId: [21],
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",

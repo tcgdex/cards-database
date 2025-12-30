@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Satoshi Shirai",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [127],
 	hp: 90,
 	types: ["Grass"],
 

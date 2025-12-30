@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Taiga Kasai",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [728],
 	hp: 60,
 	types: ["Water"],
 

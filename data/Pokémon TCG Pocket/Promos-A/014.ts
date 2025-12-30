@@ -45,6 +45,8 @@ const card: Card = {
 		}
 	}],
 
+	dexId: [131],
+
 	hp: 140,
 	suffix: "EX",
 

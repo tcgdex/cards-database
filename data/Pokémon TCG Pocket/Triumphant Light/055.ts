@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "toriyufu",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [462],
 	hp: 140,
 	types: ["Metal"],
 
