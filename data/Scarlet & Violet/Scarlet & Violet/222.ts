@@ -68,7 +68,7 @@ const card: Card = {
 	illustrator: "Teeziro",
 
 	thirdParty: {
-        cardmarket: 702447,
+        cardmarket: 702518,
         tcgplayer: 490080
     }
 }
