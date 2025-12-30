@@ -247,6 +247,7 @@ export function deepOmit<T extends Record<string, any>>(obj: T, keyToOmit: strin
 	} else if (obj && typeof obj === 'object') {
 		return Object.keys(obj).reduce((acc, key) => {
 			if (key !== keyToOmit) {
+				// @ts-ignore
 				acc[key] = deepOmit(obj[key], keyToOmit);
 			}
 			return acc;
