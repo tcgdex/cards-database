@@ -58,8 +58,9 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	thirdParty: {
-		cardmarket: 702329
-	}
+        cardmarket: 702329,
+        tcgplayer: 487873
+    }
 }
 
 export default card

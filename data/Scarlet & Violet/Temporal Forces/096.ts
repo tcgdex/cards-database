@@ -60,9 +60,18 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	],
 
 	illustrator: "Mitsuhiro Arita",
 
