@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Ponyta",
 		fr: "Ponyta",
-		de: "Ponita"
+		de: "Ponita",
+		it: "Ponyta"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,7 +35,8 @@ const card: Card = {
 			name: {
 				en: "Smash Kick",
 				fr: "Ruade",
-				de: "Schmetterkick"
+				de: "Schmetterkick",
+				it: "Calcio esplosivo"
 			},
 
 			damage: 20,
@@ -48,7 +50,8 @@ const card: Card = {
 			name: {
 				en: "Flame Tail",
 				fr: "Queue de flamme",
-				de: "Flammenpfad"
+				de: "Flammenpfad",
+				it: "Coda-fiamma"
 			},
 
 			damage: 30,
@@ -64,7 +67,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Ses sabots sont plus résistants que le diamant. Il peut aplatir n'importe quoi en le piétinant."
+		fr: "Ses sabots sont plus résistants que le diamant. Il peut aplatir n'importe quoi en le piétinant.",
+		it: "I suoi zoccoli sono più duri dei diamanti e schiacciano qualsiasi ostacolo in pochi secondi. LIV 10 N.77"
 	},
 
 	thirdParty: {

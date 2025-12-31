@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Double Colorless Energy",
 		fr: "Double Énergie Incolore",
-		de: "Doppelte farblose Energie"
+		de: "Doppelte farblose Energie",
+		it: "Energia Incolore Doppia",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,7 +16,8 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "Liefert   Energie. Zählt nicht als Basis-Energiekarte."
+		de: "Liefert   Energie. Zählt nicht als Basis-Energiekarte.",
+		it: "Fornisce energia Incolore Incolore. Non conta come carta Energia base."
 	},
 
 	thirdParty: {

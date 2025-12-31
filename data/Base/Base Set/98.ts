@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Fire Energy",
 		fr: "Énergie Feu",
-		de: "Feuerenergie"
+		de: "Feuerenergie",
+		it: "Energia Fuoco",
 	},
 
 	illustrator: "Keiji Kinebuchi",
