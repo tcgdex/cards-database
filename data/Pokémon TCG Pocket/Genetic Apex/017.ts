@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Mina Nakai",
 	category: "Pokemon",
+
+	dexId: [49],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Venonat"
+		en: "Venonat",
+		fr: "Mimitoss",
+		es: "Venonat",
+		it: "Venonat",
+		pt: "Venonat",
+		de: "Bluzuk"
 	},
 
 	attacks: [{

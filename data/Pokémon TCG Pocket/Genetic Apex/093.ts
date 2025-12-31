@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "aoki",
 	category: "Pokemon",
+
+	dexId: [873],
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Snom"
+		en: "Snom",
+		fr: "Frissonille",
+		es: "Snom",
+		it: "Snom",
+		pt: "Snom",
+		de: "Snomnom"
 	},
 
 	attacks: [{

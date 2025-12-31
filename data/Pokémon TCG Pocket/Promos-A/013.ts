@@ -59,6 +59,8 @@ const card: Card = {
 		damage: 60
 	}],
 
+	dexId: [12],
+
 	hp: 120,
 
 	evolveFrom: {

@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Yukiko Baba",
 	category: "Pokemon",
+
+	dexId: [121],
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Staryu"
+		en: "Staryu",
+		fr: "Stari",
+		es: "Staryu",
+		it: "Staryu",
+		pt: "Staryu",
+		de: "Sterndu"
 	},
 
 	attacks: [{

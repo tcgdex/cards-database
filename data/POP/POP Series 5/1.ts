@@ -4,6 +4,7 @@ import Set from '../POP Series 5'
 const card: Card = {
 	name: {
 		en: "Ho-Oh",
+		fr: "Ho-Oh",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Wing",
+				fr: "Aile de Feu",
 			},
 
 			damage: 20,
@@ -45,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Blast",
+				fr: "Déflagration",
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to Ho-Oh.",
+				fr: "Défaussez une Énergie Feu attachée à Ho-Oh.",
 			},
 			damage: 60,
 

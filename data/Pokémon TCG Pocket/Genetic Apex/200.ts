@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Miki Tanaka",
 	category: "Pokemon",
+
+	dexId: [85],
 	hp: 80,
 	types: ["Colorless"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Doduo"
+		en: "Doduo",
+		fr: "Doduo",
+		es: "Doduo",
+		it: "Doduo",
+		pt: "Doduo",
+		de: "Dodu"
 	},
 
 	attacks: [{

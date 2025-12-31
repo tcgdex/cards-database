@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "takuyoa",
 	category: "Pokemon",
+
+	dexId: [6],
 	hp: 150,
 	types: ["Fire"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Charmeleon"
+		en: "Charmeleon",
+		fr: "Reptincel",
+		es: "Charmeleon",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+		de: "Glutexo"
 	},
 
 	attacks: [{

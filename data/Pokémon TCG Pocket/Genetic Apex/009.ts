@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "miki kudo",
 	category: "Pokemon",
+
+	dexId: [14],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Weedle"
+		en: "Weedle",
+		fr: "Aspicot",
+		es: "Weedle",
+		it: "Weedle",
+		pt: "Weedle",
+		de: "Hornliu"
 	},
 
 	attacks: [{

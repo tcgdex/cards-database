@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Sumiyoshi Kizuki",
 	category: "Pokemon",
+
+	dexId: [76],
 	hp: 160,
 	types: ["Fighting"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Graveler"
+		en: "Graveler",
+		fr: "Gravalanch",
+		es: "Graveler",
+		it: "Graveler",
+		pt: "Graveler",
+		de: "Georok"
 	},
 
 	attacks: [{

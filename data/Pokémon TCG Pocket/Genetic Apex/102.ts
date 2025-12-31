@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Kouki Saitou",
 	category: "Pokemon",
+
+	dexId: [135],
 	hp: 90,
 	types: ["Lightning"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
+		it: "Eevee",
+		pt: "Eevee",
+		de: "Evoli"
 	},
 
 	attacks: [{

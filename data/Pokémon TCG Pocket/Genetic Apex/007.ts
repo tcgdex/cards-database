@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
+
+	dexId: [12],
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Metapod"
+		en: "Metapod",
+		fr: "Chrysacier",
+		es: "Metapod",
+		it: "Metapod",
+		pt: "Metapod",
+		de: "Safcon"
 	},
 
 	abilities: [{

@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Masakazu Fukuda",
 	category: "Pokemon",
+
+	dexId: [112],
 	hp: 120,
 	types: ["Fighting"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Rhyhorn"
+		en: "Rhyhorn",
+		fr: "Rhinocorne",
+		es: "Rhyhorn",
+		it: "Rhyhorn",
+		pt: "Rhyhorn",
+		de: "Rihorn"
 	},
 
 	attacks: [{

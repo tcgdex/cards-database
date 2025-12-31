@@ -6,7 +6,8 @@
 		"compile": "bun compiler/index.ts",
 		"dev": "bun --watch src/index.ts",
 		"validate": "tsgo --noEmit --project ./tsconfig.json",
-		"start": "bun src/index.ts"
+		"start": "bun src/index.ts",
+		"test": "bun test"
 	},
 	"license": "MIT",
 	"dependencies": {

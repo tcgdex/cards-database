@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Miki Tanaka",
 	category: "Pokemon",
+
+	dexId: [70],
 	hp: 90,
 	types: ["Grass"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Bellsprout"
+		en: "Bellsprout",
+		fr: "Chétiflor",
+		es: "Bellsprout",
+		it: "Bellsprout",
+		pt: "Bellsprout",
+		de: "Knofensa"
 	},
 
 	attacks: [{

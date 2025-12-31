@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "kurumitsu",
 	category: "Pokemon",
+
+	dexId: [853],
 	hp: 130,
 	types: ["Fighting"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Clobbopus"
+		en: "Clobbopus",
+		fr: "Poulpaf",
+		es: "Clobbopus",
+		it: "Clobbopus",
+		pt: "Clobbopus",
+		de: "Klopptopus"
 	},
 
 	attacks: [{

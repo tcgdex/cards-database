@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Misa Tsutsui",
 	category: "Pokemon",
+
+	dexId: [523],
 	hp: 90,
 	types: ["Lightning"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Blitzle"
+		en: "Blitzle",
+		fr: "Zébibron",
+		es: "Blitzle",
+		it: "Blitzle",
+		pt: "Blitzle",
+		de: "Elezeba"
 	},
 
 	attacks: [{

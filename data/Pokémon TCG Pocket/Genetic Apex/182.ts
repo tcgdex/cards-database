@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Kouki Saitou",
 	category: "Pokemon",
+
+	dexId: [809],
 	hp: 130,
 	types: ["Metal"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Meltan"
+		en: "Meltan",
+		fr: "Meltan",
+		es: "Meltan",
+		it: "Meltan",
+		pt: "Meltan",
+		de: "Meltan"
 	},
 
 	abilities: [{

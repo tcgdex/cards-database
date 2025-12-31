@@ -8,11 +8,103 @@ import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, reso
 import { objectMap, objectPick } from '@dzeio/object-util'
 import { variant_detailed } from "../../public/v2/api";
 
-export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
+type TrainerLegalityGroup = {
+	cards: Array<CardSingle>
+	expanded: boolean
+	standard: boolean
+}
+
+/**
+ * Ensures all trainer reprints share the same legality as their most recent printing.
+ * Pokémon rulings allow any trainer card with the same English name to be played if a modern reprint is legal.
+ * We run this post compilation so both old and new printings can be inspected together.
+ */
+export function enhanceTrainerLegality(
+	compiledCards: Array<CardSingle>,
+	originalCards: Array<[string, Card]>
+): Array<CardSingle> {
+	const originalCardMap = new Map<string, Card>()
+	for (const [localId, card] of originalCards) {
+		originalCardMap.set(`${card.set.id}-${localId}`, card)
+	}
+
+	const trainerGroups = new Map<string, TrainerLegalityGroup>()
+
+	for (const compiledCard of compiledCards) {
+		const baseCard = originalCardMap.get(compiledCard.id)
+		if (!baseCard || baseCard.category !== 'Trainer') {
+			continue
+		}
+
+		const englishName = baseCard.name?.en?.trim()
+		if (!englishName) {
+			continue
+		}
+
+		if (!compiledCard.legal) {
+			compiledCard.legal = { standard: false, expanded: false }
+		}
+
+		const group = trainerGroups.get(englishName) ?? {
+			cards: [],
+			expanded: false,
+			standard: false
+		}
+
+		group.cards.push(compiledCard)
+		group.standard = group.standard || Boolean(compiledCard.legal.standard)
+		group.expanded = group.expanded || Boolean(compiledCard.legal.expanded)
+		trainerGroups.set(englishName, group)
+	}
+
+	for (const { cards, standard, expanded } of trainerGroups.values()) {
+		for (const card of cards) {
+			if (standard) {
+				card.legal.standard = true
+			}
+			if (expanded) {
+				card.legal.expanded = true
+			}
+		}
+	}
+
+	return compiledCards
+}
+
+export function buildSetNumber(localId: string, card: Card): CardSingle['set_number'] {
+	const officialCount = card.set.cardCount?.official
+	const normalizedId = localId.toString()
+	const numericMatch = normalizedId.match(/(\d+)/)
+
+	return {
+		text: officialCount && officialCount > 0 ? `${normalizedId}/${officialCount}` : normalizedId,
+		nominator: normalizedId,
+		numeric: numericMatch ? parseInt(numericMatch[1], 10) : undefined,
+		denominator: officialCount && officialCount > 0 ? officialCount.toString() : undefined
+	}
+}
+
+export async function getCardPictures(
+	cardId: string,
+	card: Card,
+	lang: SupportedLanguages,
+	variantIndex?: number
+): Promise<string | undefined> {
 	try {
 		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
-		const fileExists = Boolean(file[lang]?.[card.set.serie.id]?.[card.set.id]?.[cardId])
-		if (fileExists) {
+		const serieAssets = file[lang]?.[card.set.serie.id]?.[card.set.id]
+		if (!serieAssets) {
+			return undefined
+		}
+
+		if (typeof variantIndex === 'number') {
+			const variantKey = `${cardId}-${variantIndex}`
+			if (serieAssets[variantKey]) {
+				return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${variantKey}`
+			}
+		}
+
+		if (serieAssets[cardId]) {
 			return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`
 		}
 	} catch {
@@ -35,7 +127,7 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 	}
 }
 
-function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
+export function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
 	return {
 		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === '1st-edition')) ?? false,
 		holo: variants_detailed?.some((variant) => variant.type === 'holo') ?? false,
@@ -45,7 +137,7 @@ function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>):
 	}
 }
 
-function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<variant_detailed> {
+export function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<variant_detailed> {
 	const result: Array<variant_detailed> = [];
 	const addVariant = (type: string, stamps: string[] = []) => {
 		result.push({
@@ -100,18 +192,21 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
 		},
 
-		variants_detailed: Array.isArray(card.variants) ? card.variants?.map((variant) => {
-			return {
+		variants_detailed: Array.isArray(card.variants)
+			? await Promise.all(card.variants.map(async (variant, index) => ({
 				type: translate('variantType', variant.type, lang) as any,
 				subtype: translate('variantSubtype', variant.subtype, lang) as any,
-				// only include size when it's not standard
-				size: variant.size && variant.size !== 'standard' ? translate('variantSize', variant.size, lang) as any : translate('variantSize', "standard", lang) as any,
-				stamp: variant.stamp ? variant.stamp.map((stamp) => {
-					return translate('variantStamp', stamp, lang)
-				}) : undefined,
-				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
-			}
-		}) : variantsToVariantsDetailed(card.variants,lang),
+				size: variant.size && variant.size !== 'standard'
+					? translate('variantSize', variant.size, lang) as any
+					: translate('variantSize', "standard", lang) as any,
+				stamp: variant.stamp
+					? variant.stamp.map((stamp) => translate('variantStamp', stamp, lang))
+					: undefined,
+				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined,
+				thirdParty: variant.thirdParty,
+				image: await getCardPictures(localId, card, lang, index)
+			})))
+			: variantsToVariantsDetailed(card.variants,lang),
 
 		dexId: card.dexId,
 		hp: card.hp,
@@ -167,6 +262,8 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			// images will be coming soon...
 		})) : undefined,
 		updated: await getCardLastEdit(localId, card, lang),
+
+		set_number: buildSetNumber(localId, card),
 
 		thirdParty: card.thirdParty
 	}

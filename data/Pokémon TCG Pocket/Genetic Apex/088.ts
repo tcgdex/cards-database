@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Akira Komayama",
 	category: "Pokemon",
+
+	dexId: [657],
 	hp: 80,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Froakie"
+		en: "Froakie",
+		fr: "Grenousse",
+		es: "Froakie",
+		it: "Froakie",
+		pt: "Froakie",
+		de: "Froxy"
 	},
 
 	attacks: [{

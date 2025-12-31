@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
+
+	dexId: [80],
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Slowpoke"
+		en: "Slowpoke",
+		fr: "Ramoloss",
+		es: "Slowpoke",
+		it: "Slowpoke",
+		pt: "Slowpoke",
+		de: "Flegmon"
 	},
 
 	attacks: [{

@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Yuka Morii",
 	category: "Pokemon",
+
+	dexId: [11],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Caterpie"
+		en: "Caterpie",
+		fr: "Chenipan",
+		es: "Caterpie",
+		it: "Caterpie",
+		pt: "Caterpie",
+		de: "Raupy"
 	},
 
 	attacks: [{

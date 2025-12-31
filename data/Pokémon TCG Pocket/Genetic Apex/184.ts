@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "kirisAki",
 	category: "Pokemon",
+
+	dexId: [148],
 	hp: 100,
 	types: ["Dragon"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Dratini"
+		en: "Dratini",
+		fr: "Minidraco",
+		es: "Dratini",
+		it: "Dratini",
+		pt: "Dratini",
+		de: "Dratini"
 	},
 
 	attacks: [{

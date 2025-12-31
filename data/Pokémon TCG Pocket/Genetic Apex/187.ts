@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Scav",
 	category: "Pokemon",
+
+	dexId: [17],
 	hp: 80,
 	types: ["Colorless"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Pidgey"
+		en: "Pidgey",
+		fr: "Roucool",
+		es: "Pidgey",
+		it: "Pidgey",
+		pt: "Pidgey",
+		de: "Taubsi"
 	},
 
 	attacks: [{

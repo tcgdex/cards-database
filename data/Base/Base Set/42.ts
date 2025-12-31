@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Wartortle",
 		fr: "Carabaffe",
-		de: "Schillok"
+		de: "Schillok",
+		it: "Wartortle"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Squirtle",
+		it: "Squirtle"
 	},
 
 	stage: "Stage1",
@@ -38,12 +40,14 @@ const card: Card = {
 			name: {
 				en: "Withdraw",
 				fr: "Repli",
-				de: "Panzerschutz"
+				de: "Panzerschutz",
+				it: "Ritirata"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carabaffe pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Schillok während des nächsten Zugs Deines Gegners zugefühgt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Schillok während des nächsten Zugs Deines Gegners zugefühgt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)",
+				it: "Lancia una moneta. Se esce testa, preveni tutti i danni inflitti a Wartortle durante il prossimo turno del tuo avversario. (Tutti gli effetti degli attacchi restano validi.)",
 			},
 
 		},
@@ -56,7 +60,8 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Biss"
+				de: "Biss",
+				it: "Morso"
 			},
 
 			damage: 40,
@@ -72,7 +77,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il se cache au fond de l'eau pour guetter sa proie. Ses oreilles sont des gouvernails."
+		fr: "Il se cache au fond de l'eau pour guetter sa proie. Ses oreilles sont des gouvernails.",
+		it: "Spesso di nasconde nell'acqua per sorprendere le prede. Quando nuota rapidamente, muove le orecchie per mantenersi in equilibrio. LIV 22 N.8"
 	},
 
 	thirdParty: {

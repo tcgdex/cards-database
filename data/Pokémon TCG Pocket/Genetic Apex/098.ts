@@ -15,12 +15,19 @@ const card: Card = {
 
 	illustrator: "kirisAki",
 	category: "Pokemon",
+
+	dexId: [82],
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Magnemite"
+		en: "Magnemite",
+		fr: "Magnéti",
+		es: "Magnemite",
+		it: "Magnemite",
+		pt: "Magnemite",
+		de: "Magnetilo"
 	},
 
 	abilities: [{

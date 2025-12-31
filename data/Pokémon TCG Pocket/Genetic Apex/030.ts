@@ -15,12 +15,19 @@ const card: Card = {
 
 	illustrator: "You Iribi",
 	category: "Pokemon",
+
+	dexId: [549],
 	hp: 100,
 	types: ["Grass"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Petilil"
+		en: "Petilil",
+		fr: "Chlorobule",
+		es: "Petilil",
+		it: "Petilil",
+		pt: "Petilil",
+		de: "Lilminip"
 	},
 
 	attacks: [{

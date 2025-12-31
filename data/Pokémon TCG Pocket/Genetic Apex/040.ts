@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "kodama",
 	category: "Pokemon",
+
+	dexId: [59],
 	hp: 130,
 	types: ["Fire"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Growlithe"
+		en: "Growlithe",
+		fr: "Caninos",
+		es: "Growlithe",
+		it: "Growlithe",
+		pt: "Growlithe",
+		de: "Fukano"
 	},
 
 	attacks: [{

@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
+
+	dexId: [134],
 	hp: 130,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
+		it: "Eevee",
+		pt: "Eevee",
+		de: "Evoli"
 	},
 
 	attacks: [{

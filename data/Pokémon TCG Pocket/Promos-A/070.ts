@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "tono",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [38],
 	hp: 110,
 	types: ["Water"],
 

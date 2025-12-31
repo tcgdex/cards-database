@@ -62,6 +62,11 @@ interface variant_detailed {
 	size?: string
 	stamp?: Array<string>
 	foil?: string
+	thirdParty?: {
+		cardmarket?: number
+		tcgplayer?: number
+	}
+	image?: string
 }
 
 export interface SetResume {
@@ -78,6 +83,10 @@ export interface SetResume {
 		 * number of cards officialy (on the bottom of each cards)
 		 */
 		official: number;
+	};
+	abbreviation?: {
+		official?: string;
+		localized?: string;
 	};
 }
 
@@ -137,7 +146,10 @@ export interface Set extends SetResume {
 		firstEd?: number;
 	};
 	cards: Array<CardResume>;
-	abbreviation: { official: string, localized: string };
+	abbreviation?: {
+		official?: string,
+		localized?: string
+	};
 	thirdParty?: {
 		cardmarket?: number
 		tcgplayer?: number
@@ -332,6 +344,28 @@ export interface Card extends CardResume {
 	 * the boosters in which the card is available
 	 */
 	boosters?: Array<Booster>
+
+	/**
+	 * The card set number that appears on the card (e.g. 065/162, GG12/GG30)
+	 */
+	set_number: {
+		/**
+		 * Full textual representation, including prefixes and denominator
+		 */
+		text: string
+		/**
+		 * The numerator portion (everything before a slash, or the whole text if there is no slash)
+		 */
+		nominator: string
+		/**
+		 * Parsed numeric component when available (e.g. 65 for 065, 12 for GG12/GG30)
+		 */
+		numeric?: number
+		/**
+		 * Denominator text (only present when the card number includes `/denominator`)
+		 */
+		denominator?: string
+	}
 
 	updated: string
 }

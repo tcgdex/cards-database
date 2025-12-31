@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "KEIICHIRO ITO",
 	category: "Pokemon",
+
+	dexId: [110],
 	hp: 110,
 	types: ["Darkness"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Koffing"
+		en: "Koffing",
+		fr: "Smogo",
+		es: "Koffing",
+		it: "Koffing",
+		pt: "Koffing",
+		de: "Smogon"
 	},
 
 	abilities: [{

@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Yukiko Baba",
 	category: "Pokemon",
+
+	dexId: [103],
 	hp: 130,
 	types: ["Grass"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Exeggcute"
+		en: "Exeggcute",
+		fr: "Noeunoeuf",
+		es: "Exeggcute",
+		it: "Exeggcute",
+		pt: "Exeggcute",
+		de: "Owei"
 	},
 
 	attacks: [{

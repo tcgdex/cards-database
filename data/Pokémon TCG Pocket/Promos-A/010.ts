@@ -45,6 +45,8 @@ const card: Card = {
 		}
 	}],
 
+	dexId: [150],
+
 	hp: 120,
 
 	description: {

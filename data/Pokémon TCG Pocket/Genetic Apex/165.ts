@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Naoki Saito",
 	category: "Pokemon",
+
+	dexId: [24],
 	hp: 100,
 	types: ["Darkness"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Ekans"
+		en: "Ekans",
+		fr: "Abo",
+		es: "Ekans",
+		it: "Ekans",
+		pt: "Ekans",
+		de: "Rettan"
 	},
 
 	attacks: [{

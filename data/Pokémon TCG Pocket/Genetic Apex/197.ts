@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "nagimiso",
 	category: "Pokemon",
+
+	dexId: [53],
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Meowth"
+		en: "Meowth",
+		fr: "Miaouss",
+		es: "Meowth",
+		it: "Meowth",
+		pt: "Meowth",
+		de: "Mauzi"
 	},
 
 	attacks: [{

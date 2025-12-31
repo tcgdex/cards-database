@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [819],
 	hp: 70,
 	types: ["Colorless"],
 

@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
+
+	dexId: [658],
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Frogadier"
+		en: "Frogadier",
+		fr: "Croâporal",
+		es: "Frogadier",
+		it: "Frogadier",
+		pt: "Frogadier",
+		de: "Amphizel"
 	},
 
 	abilities: [{

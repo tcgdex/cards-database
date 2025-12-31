@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Nelnal",
 	category: "Pokemon",
+
+	dexId: [8],
 	hp: 80,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Squirtle"
+		en: "Squirtle",
+		fr: "Carapuce",
+		es: "Squirtle",
+		it: "Squirtle",
+		pt: "Squirtle",
+		de: "Schiggy"
 	},
 
 	attacks: [{

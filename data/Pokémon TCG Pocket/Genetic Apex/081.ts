@@ -16,12 +16,15 @@ const card: Card = {
 
 	illustrator: "Suwama Chiaki",
 	category: "Pokemon",
+
+	dexId: [138],
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Helix Fossil"
+		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu"
 	},
 
 	attacks: [{

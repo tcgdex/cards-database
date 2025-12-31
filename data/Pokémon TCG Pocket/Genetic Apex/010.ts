@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "You Iribi",
 	category: "Pokemon",
+
+	dexId: [15],
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Kakuna"
+		en: "Kakuna",
+		fr: "Coconfort",
+		es: "Kakuna",
+		it: "Kakuna",
+		pt: "Kakuna",
+		de: "Kokuna"
 	},
 
 	attacks: [{

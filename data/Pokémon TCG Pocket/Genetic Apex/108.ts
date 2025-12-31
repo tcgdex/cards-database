@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Midori Harada",
 	category: "Pokemon",
+
+	dexId: [603],
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Tynamo"
+		en: "Tynamo",
+		fr: "Anchwatt",
+		es: "Tynamo",
+		it: "Tynamo",
+		pt: "Tynamo",
+		de: "Zapplardin"
 	},
 
 	attacks: [{

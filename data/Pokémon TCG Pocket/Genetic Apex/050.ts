@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "hatachu",
 	category: "Pokemon",
+
+	dexId: [758],
 	hp: 90,
 	types: ["Fire"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Salandit"
+		en: "Salandit",
+		fr: "Tritox",
+		es: "Salandit",
+		it: "Salandit",
+		pt: "Salandit",
+		de: "Molunk"
 	},
 
 	attacks: [{

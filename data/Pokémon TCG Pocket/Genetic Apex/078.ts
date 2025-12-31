@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Mitsuhiro Arita",
 	category: "Pokemon",
+
+	dexId: [130],
 	hp: 150,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Magikarp"
+		en: "Magikarp",
+		fr: "Magicarpe",
+		es: "Magikarp",
+		it: "Magikarp",
+		pt: "Magikarp",
+		de: "Karpador"
 	},
 
 	attacks: [{

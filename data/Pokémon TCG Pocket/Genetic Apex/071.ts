@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Pokemon",
+
+	dexId: [117],
 	hp: 70,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Horsea"
+		en: "Horsea",
+		fr: "Hypotrempe",
+		es: "Horsea",
+		it: "Horsea",
+		pt: "Horsea",
+		de: "Seeper"
 	},
 
 	attacks: [{

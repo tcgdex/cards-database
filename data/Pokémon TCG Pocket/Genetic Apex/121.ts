@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Nisota Niso",
 	category: "Pokemon",
+
+	dexId: [93],
 	hp: 80,
 	types: ["Psychic"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Gastly"
+		en: "Gastly",
+		fr: "Fantominus",
+		es: "Gastly",
+		it: "Gastly",
+		pt: "Gastly",
+		de: "Nebulak"
 	},
 
 	attacks: [{

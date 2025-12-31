@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Atsuko Nishida",
 	category: "Pokemon",
+
+	dexId: [40],
 	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Jigglypuff"
+		en: "Jigglypuff",
+		fr: "Rondoudou",
+		es: "Jigglypuff",
+		it: "Jigglypuff",
+		pt: "Jigglypuff",
+		de: "Pummeluff"
 	},
 
 	attacks: [{

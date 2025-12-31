@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "You Iribi",
 	category: "Pokemon",
+
+	dexId: [673],
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Skiddo"
+		en: "Skiddo",
+		fr: "Cabriolaine",
+		es: "Skiddo",
+		it: "Skiddo",
+		pt: "Skiddo",
+		de: "Mähikel"
 	},
 
 	attacks: [{

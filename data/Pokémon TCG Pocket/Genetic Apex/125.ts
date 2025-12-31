@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Shigenori Negishi",
 	category: "Pokemon",
+
+	dexId: [97],
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Drowzee"
+		en: "Drowzee",
+		fr: "Soporifik",
+		es: "Drowzee",
+		it: "Drowzee",
+		pt: "Drowzee",
+		de: "Traumato"
 	},
 
 	abilities: [{

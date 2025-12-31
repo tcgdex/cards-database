@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Naoki Saito",
 	category: "Pokemon",
+
+	dexId: [55],
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Psyduck"
+		en: "Psyduck",
+		fr: "Psykokwak",
+		es: "Psyduck",
+		it: "Psyduck",
+		pt: "Psyduck",
+		de: "Enton"
 	},
 
 	attacks: [{

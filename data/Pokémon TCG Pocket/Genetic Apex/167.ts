@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
+
+	dexId: [30],
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Nidoran♀"
+		en: "Nidoran♀",
+		fr: "Nidoran♀",
+		es: "Nidoran♀",
+		it: "Nidoran♀",
+		pt: "Nidoran♀",
+		de: "Nidoran♀"
 	},
 
 	attacks: [{

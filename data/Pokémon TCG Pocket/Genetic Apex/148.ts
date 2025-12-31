@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
+
+	dexId: [75],
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Geodude"
+		en: "Geodude",
+		fr: "Racaillou",
+		es: "Geodude",
+		it: "Geodude",
+		pt: "Geodude",
+		de: "Kleinstein"
 	},
 
 	attacks: [{

@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Ivysaur",
 		fr: "Herbizarre",
-		de: "Bisaknosp"
+		de: "Bisaknosp",
+		it: "Ivysaur"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,7 +25,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Barboach",
+		en: "Bulbasaur",
+		it: "Bulbasaur"
 	},
 
 	stage: "Stage1",
@@ -39,7 +41,8 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
-				de: "Rankenhieb"
+				de: "Rankenhieb",
+				it: "Frustata"
 			},
 
 			damage: 30,
@@ -54,12 +57,14 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre Toxik",
-				de: "Giftpuder"
+				de: "Giftpuder",
+				it: "Velenpolvere"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das verteidigende Pokémon ist vergiftet."
+				de: "Das verteidigende Pokémon ist vergiftet.",
+				it: "Il Pokémon Difensore è Avvelenato."
 			},
 			damage: 20,
 
@@ -74,7 +79,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Son bulbe dorsal devient si gros qu'il ne peut plus se tenir sur ses membres postérieurs."
+		fr: "Son bulbe dorsal devient si gros qu'il ne peut plus se tenir sur ses membres postérieurs.",
+		it: "Quando la pianta che ha sul dorso cresce, questo Pokémon non è più in grado di mantenersi eretto sulle zampe posteriori. LIV 20 N.2"
 	},
 
 	thirdParty: {

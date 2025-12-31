@@ -144,6 +144,9 @@ export async function loadLastEdits() {
 	queue.start()
 
 	for await (let file of files) {
+		if (!file || !file.trim()) {
+			continue
+		}
 		file = file.replace(/"/g, '').replace("\\303\\251", "é")
 		await queue.add(runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false).then((res) => {
 			lastEditsCache[file] = res

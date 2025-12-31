@@ -16,7 +16,13 @@ const card: Card = {
 
 	set: Set,
 	dexId: [
+
+		146,
+
+		145,
+
 		144,
+
 	],
 	hp: 300,
 	types: [

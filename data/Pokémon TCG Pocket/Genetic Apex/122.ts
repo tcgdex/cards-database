@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
+
+	dexId: [94],
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Haunter"
+		en: "Haunter",
+		fr: "Spectrum",
+		es: "Haunter",
+		it: "Haunter",
+		pt: "Haunter",
+		de: "Alpollo"
 	},
 
 	attacks: [{

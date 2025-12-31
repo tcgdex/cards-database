@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "otumami",
 	category: "Pokemon",
+
+	dexId: [695],
 	hp: 90,
 	types: ["Lightning"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Helioptile"
+		en: "Helioptile",
+		fr: "Galvaran",
+		es: "Helioptile",
+		it: "Helioptile",
+		pt: "Helioptile",
+		de: "Eguana"
 	},
 
 	attacks: [{

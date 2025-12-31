@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Masakazu Fukuda",
 	category: "Pokemon",
+
+	dexId: [528],
 	hp: 90,
 	types: ["Psychic"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Woobat"
+		en: "Woobat",
+		fr: "Chovsourir",
+		es: "Woobat",
+		it: "Woobat",
+		pt: "Woobat",
+		de: "Fleknoil"
 	},
 
 	attacks: [{

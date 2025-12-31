@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "kawayoo",
 	category: "Pokemon",
+
+	dexId: [34],
 	hp: 150,
 	types: ["Darkness"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Nidorino"
+		en: "Nidorino",
+		fr: "Nidorino",
+		es: "Nidorino",
+		it: "Nidorino",
+		pt: "Nidorino",
+		de: "Nidorino"
 	},
 
 	attacks: [{

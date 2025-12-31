@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Kyoko Umemoto",
 	category: "Pokemon",
+
+	dexId: [119],
 	hp: 100,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Goldeen"
+		en: "Goldeen",
+		fr: "Poissirène",
+		es: "Goldeen",
+		it: "Goldeen",
+		pt: "Goldeen",
+		de: "Goldini"
 	},
 
 	attacks: [{

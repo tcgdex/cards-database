@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Nisota Niso",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [135],
 	hp: 90,
 	types: ["Lightning"],
 

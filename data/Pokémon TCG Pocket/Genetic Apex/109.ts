@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "hatachu",
 	category: "Pokemon",
+
+	dexId: [604],
 	hp: 140,
 	types: ["Lightning"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Eelektrik"
+		en: "Eelektrik",
+		fr: "Lampéroie",
+		es: "Eelektrik",
+		it: "Eelektrik",
+		pt: "Eelektrik",
+		de: "Zapplalek"
 	},
 
 	attacks: [{

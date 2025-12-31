@@ -15,12 +15,19 @@ const card: Card = {
 
 	illustrator: "GOSSAN",
 	category: "Pokemon",
+
+	dexId: [851],
 	hp: 130,
 	types: ["Fire"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Sizzlipede"
+		en: "Sizzlipede",
+		fr: "Grillepattes",
+		es: "Sizzlipede",
+		it: "Sizzlipede",
+		pt: "Sizzlipede",
+		de: "Thermopod"
 	},
 
 	attacks: [{

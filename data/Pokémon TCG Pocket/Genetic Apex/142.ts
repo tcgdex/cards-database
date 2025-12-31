@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
+
+	dexId: [57],
 	hp: 90,
 	types: ["Fighting"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Mankey"
+		en: "Mankey",
+		fr: "Férosinge",
+		es: "Mankey",
+		it: "Mankey",
+		pt: "Mankey",
+		de: "Menki"
 	},
 
 	attacks: [{

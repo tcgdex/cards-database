@@ -15,12 +15,19 @@ const card: Card = {
 
 	illustrator: "Nurikabe",
 	category: "Pokemon",
+
+	dexId: [9],
 	hp: 150,
 	types: ["Water"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Wartortle"
+		en: "Wartortle",
+		fr: "Carabaffe",
+		es: "Wartortle",
+		it: "Wartortle",
+		pt: "Wartortle",
+		de: "Schillok"
 	},
 
 	attacks: [{

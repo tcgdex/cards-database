@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Saya Tsuruta",
 	category: "Pokemon",
+
+	dexId: [91],
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Shellder"
+		en: "Shellder",
+		fr: "Kokiyas",
+		es: "Shellder",
+		it: "Shellder",
+		pt: "Shellder",
+		de: "Muschas"
 	},
 
 	abilities: [{

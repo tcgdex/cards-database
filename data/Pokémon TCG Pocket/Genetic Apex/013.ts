@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Kyoko Umemoto",
 	category: "Pokemon",
+
+	dexId: [45],
 	hp: 140,
 	types: ["Grass"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Gloom"
+		en: "Gloom",
+		fr: "Ortide",
+		es: "Gloom",
+		it: "Gloom",
+		pt: "Gloom",
+		de: "Duflor"
 	},
 
 	attacks: [{

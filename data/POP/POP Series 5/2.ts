@@ -4,6 +4,7 @@ import Set from '../POP Series 5'
 const card: Card = {
 	name: {
 		en: "Lugia",
+		fr: "Lugia",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Psy Bolt",
+				fr: "Super Psy",
 			},
 
 			damage: 20,
@@ -45,10 +47,12 @@ const card: Card = {
 
 			name: {
 				en: "Aerowing",
+				fr: "Aéroaile",
 			},
 
 			effect: {
 				en: "Before doing damage, you may flip a coin. If tails, this attack does nothing. If heads, this attack does 60 damage instead.",
+				fr: "Avant d'infliger des dégâts, vous pouvez lancer une pièce. Si c'est face, cette attaque inflige 60 dégâts. Si c'est pile, cette attaque ne fait rien.",
 			},
 
 			damage: 30

@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "match",
 	category: "Pokemon",
+
+	dexId: [623],
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Golett"
+		en: "Golett",
+		fr: "Gringolem",
+		es: "Golett",
+		it: "Golett",
+		pt: "Golett",
+		de: "Golbit"
 	},
 
 	attacks: [{

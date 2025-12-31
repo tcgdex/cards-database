@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Eri Yamaki",
 	category: "Pokemon",
+
+	dexId: [47],
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Paras"
+		en: "Paras",
+		fr: "Paras",
+		es: "Paras",
+		it: "Paras",
+		pt: "Paras",
+		de: "Paras"
 	},
 
 	attacks: [{

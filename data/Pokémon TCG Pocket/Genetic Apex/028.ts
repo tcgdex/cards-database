@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Atsuko Nishida",
 	category: "Pokemon",
+
+	dexId: [547],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Cottonee"
+		en: "Cottonee",
+		fr: "Doudouvet",
+		es: "Cottonee",
+		it: "Cottonee",
+		pt: "Cottonee",
+		de: "Waumboll"
 	},
 
 	attacks: [{

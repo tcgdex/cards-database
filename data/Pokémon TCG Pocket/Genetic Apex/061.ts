@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Akira Komayama",
 	category: "Pokemon",
+
+	dexId: [62],
 	hp: 150,
 	types: ["Water"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Poliwhirl"
+		en: "Poliwhirl",
+		fr: "Têtarte",
+		es: "Poliwhirl",
+		it: "Poliwhirl",
+		pt: "Poliwhirl",
+		de: "Quaputzi"
 	},
 
 	abilities: [{

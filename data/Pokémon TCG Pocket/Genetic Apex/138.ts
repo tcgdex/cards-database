@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Miki Tanaka",
 	category: "Pokemon",
+
+	dexId: [28],
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Sandshrew"
+		en: "Sandshrew",
+		fr: "Sabelette",
+		es: "Sandshrew",
+		it: "Sandshrew",
+		pt: "Sandshrew",
+		de: "Sandan"
 	},
 
 	attacks: [{

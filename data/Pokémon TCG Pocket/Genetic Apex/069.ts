@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Shigenori Negishi",
 	category: "Pokemon",
+
+	dexId: [99],
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Krabby"
+		en: "Krabby",
+		fr: "Krabby",
+		es: "Krabby",
+		it: "Krabby",
+		pt: "Krabby",
+		de: "Krabby"
 	},
 
 	attacks: [{

@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "nagimiso",
 	category: "Pokemon",
+
+	dexId: [31],
 	hp: 140,
 	types: ["Darkness"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Nidorina"
+		en: "Nidorina",
+		fr: "Nidorina",
+		es: "Nidorina",
+		it: "Nidorina",
+		pt: "Nidorina",
+		de: "Nidorina"
 	},
 
 	attacks: [{

@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Kurata So",
 	category: "Pokemon",
+
+	dexId: [2],
 	hp: 90,
 	types: ["Grass"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Bulbasaur"
+		en: "Bulbasaur",
+		fr: "Bulbizarre",
+		es: "Bulbasaur",
+		it: "Bulbasaur",
+		pt: "Bulbasaur",
+		de: "Bisasam"
 	},
 
 	attacks: [{

@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Impostor Professor Oak",
 		fr: "Faux Professeur Chen",
-		de: "Falscher Professor Eich"
+		de: "Falscher Professor Eich",
+		it: "Professor Oak, l'impostore"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,7 +16,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Votre adversaire mélange sa main avec son deck, puis pioche 7 cartes.",
-		de: "Dein Gegner mischt die Karten seiner Hand in seinen Stapel und zieht sieben neue Karten"
+		de: "Dein Gegner mischt die Karten seiner Hand in seinen Stapel und zieht sieben neue Karten",
+		it: "Il tuo avversario rimette le carte che ha in mano nel proprio mazzo, le mischia e poi pesca 7 carte."
 	},
 	variants: [
 		{

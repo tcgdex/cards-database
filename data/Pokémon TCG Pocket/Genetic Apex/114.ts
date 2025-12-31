@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Pokemon",
+
+	dexId: [36],
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Clefairy"
+		en: "Clefairy",
+		fr: "Mélofée",
+		es: "Clefairy",
+		it: "Clefairy",
+		pt: "Clefairy",
+		de: "Piepi"
 	},
 
 	attacks: [{

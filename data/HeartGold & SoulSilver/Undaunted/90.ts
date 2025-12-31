@@ -14,7 +14,14 @@ const card: Card = {
 	set: Set,
 
 	dexId: [
+
+
 		384,
+
+
+		386,
+
+
 	],
 
 	types: [

@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Machop",
 		fr: "Machoc",
-		de: "Machollo"
+		de: "Machollo",
+		it: "Machop"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Low Kick",
 				fr: "Balayage",
-				de: "Kick"
+				de: "Kick",
+				it: "Colpo basso"
 			},
 
 			damage: 20,
@@ -49,7 +51,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il adore la musculation. Il pratique les arts martiaux pour devenir encore plus fort."
+		fr: "Il adore la musculation. Il pratique les arts martiaux pour devenir encore plus fort.",
+		it: "Si allena continuamente per sviluppare al massimo i suoi muscoli d'acciaio. Pratica tutte le arti marziali per diventare sempre più invincibile. LIV 20 N.66",
 	},
 
 	thirdParty: {

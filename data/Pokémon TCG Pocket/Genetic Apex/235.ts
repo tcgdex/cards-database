@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "DOM",
 	category: "Pokemon",
+
+	dexId: [101],
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Voltorb"
+		en: "Voltorb",
+		fr: "Voltorbe",
+		es: "Voltorb",
+		it: "Voltorb",
+		pt: "Voltorb",
+		de: "Voltobal"
 	},
 
 	attacks: [{

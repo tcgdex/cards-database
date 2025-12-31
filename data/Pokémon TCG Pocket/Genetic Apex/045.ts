@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "sui",
 	category: "Pokemon",
+
+	dexId: [136],
 	hp: 120,
 	types: ["Fire"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
+		it: "Eevee",
+		pt: "Eevee",
+		de: "Evoli"
 	},
 
 	attacks: [{

@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Shimaris Yukichi",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [536],
 	hp: 90,
 	types: ["Water"],
 

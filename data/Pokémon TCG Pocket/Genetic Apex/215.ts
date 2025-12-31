@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "saino misaki",
 	category: "Pokemon",
+
+	dexId: [832],
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Wooloo"
+		en: "Wooloo",
+		fr: "Moumouton",
+		es: "Wooloo",
+		it: "Wooloo",
+		pt: "Wooloo",
+		de: "Wolly"
 	},
 
 	attacks: [{

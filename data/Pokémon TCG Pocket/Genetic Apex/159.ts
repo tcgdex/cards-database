@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
+
+	dexId: [141],
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Kabuto"
+		en: "Kabuto",
+		fr: "Kabuto",
+		es: "Kabuto",
+		it: "Kabuto",
+		pt: "Kabuto",
+		de: "Kabuto"
 	},
 
 	attacks: [{

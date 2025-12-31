@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "kantaro",
 	category: "Pokemon",
+
+	dexId: [5],
 	hp: 90,
 	types: ["Fire"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Charmander"
+		en: "Charmander",
+		fr: "Salamèche",
+		es: "Charmander",
+		it: "Charmander",
+		pt: "Charmander",
+		de: "Glumanda"
 	},
 
 	attacks: [{

@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "sowsow",
 	category: "Pokemon",
+
+	dexId: [281],
 	hp: 80,
 	types: ["Psychic"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Ralts"
+		en: "Ralts",
+		fr: "Tarsal",
+		es: "Ralts",
+		it: "Ralts",
+		pt: "Ralts",
+		de: "Trasla"
 	},
 
 	attacks: [{

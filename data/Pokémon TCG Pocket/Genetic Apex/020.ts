@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Sumiyoshi Kizuki",
 	category: "Pokemon",
+
+	dexId: [71],
 	hp: 140,
 	types: ["Grass"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Weepinbell"
+		en: "Weepinbell",
+		fr: "Boustiflor",
+		es: "Weepinbell",
+		it: "Weepinbell",
+		pt: "Weepinbell",
+		de: "Ultrigaria"
 	},
 
 	abilities: [{

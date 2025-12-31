@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "kodama",
 	category: "Pokemon",
+
+	dexId: [73],
 	hp: 110,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Tentacool"
+		en: "Tentacool",
+		fr: "Tentacool",
+		es: "Tentacool",
+		it: "Tentacool",
+		pt: "Tentacool",
+		de: "Tentacha"
 	},
 
 	attacks: [{

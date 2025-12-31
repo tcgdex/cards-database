@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "sui",
 	category: "Pokemon",
+
+	dexId: [581],
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Ducklett"
+		en: "Ducklett",
+		fr: "Couaneton",
+		es: "Ducklett",
+		it: "Ducklett",
+		pt: "Ducklett",
+		de: "Piccolente"
 	},
 
 	attacks: [{

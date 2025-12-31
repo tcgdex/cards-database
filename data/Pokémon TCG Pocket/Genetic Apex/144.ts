@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "match",
 	category: "Pokemon",
+
+	dexId: [67],
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Machop"
+		en: "Machop",
+		fr: "Machoc",
+		es: "Machop",
+		it: "Machop",
+		pt: "Machop",
+		de: "Machollo"
 	},
 
 	attacks: [{

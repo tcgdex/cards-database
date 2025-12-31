@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "You Iribi",
 	category: "Pokemon",
+
+	dexId: [38],
 	hp: 90,
 	types: ["Fire"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Vulpix"
+		en: "Vulpix",
+		fr: "Goupix",
+		es: "Vulpix",
+		it: "Vulpix",
+		pt: "Vulpix",
+		de: "Vulpix"
 	},
 
 	attacks: [{

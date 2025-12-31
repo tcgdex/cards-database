@@ -16,12 +16,15 @@ const card: Card = {
 
 	illustrator: "sui",
 	category: "Pokemon",
+
+	dexId: [140],
 	hp: 90,
 	types: ["Fighting"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Dome Fossil"
+		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu"
 	},
 
 	attacks: [{

@@ -14,6 +14,8 @@ const card: Card = {
 	illustrator: "Shinji Kanda",
 	rarity: "Three Star",
 	category: "Pokemon",
+
+	dexId: [487],
 	hp: 150,
 	types: ["Psychic"],
 	stage: "Basic",

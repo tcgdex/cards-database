@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Yuu Nishida",
 	category: "Pokemon",
+
+	dexId: [282],
 	hp: 110,
 	types: ["Psychic"],
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Kirlia"
+		en: "Kirlia",
+		fr: "Kirlia",
+		es: "Kirlia",
+		it: "Kirlia",
+		pt: "Kirlia",
+		de: "Kirlia"
 	},
 
 	abilities: [{

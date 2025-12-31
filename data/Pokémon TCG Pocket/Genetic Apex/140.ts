@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Akira Komayama",
 	category: "Pokemon",
+
+	dexId: [51],
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Diglett"
+		en: "Diglett",
+		fr: "Taupiqueur",
+		es: "Diglett",
+		it: "Diglett",
+		pt: "Diglett",
+		de: "Digda"
 	},
 
 	attacks: [{

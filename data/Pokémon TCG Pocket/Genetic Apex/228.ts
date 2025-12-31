@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "OKACHEKE",
 	category: "Pokemon",
+
+	dexId: [44],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Oddish"
+		en: "Oddish",
+		fr: "Mystherbe",
+		es: "Oddish",
+		it: "Oddish",
+		pt: "Oddish",
+		de: "Myrapla"
 	},
 
 	attacks: [{

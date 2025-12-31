@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Shigenori Negishi",
 	category: "Pokemon",
+
+	dexId: [20],
 	hp: 80,
 	types: ["Colorless"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Rattata"
+		en: "Rattata",
+		fr: "Rattata",
+		es: "Rattata",
+		it: "Rattata",
+		pt: "Rattata",
+		de: "Rattfratz"
 	},
 
 	attacks: [{

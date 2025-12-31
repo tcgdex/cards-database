@@ -16,12 +16,19 @@ const card: Card = {
 
 	illustrator: "Satoshi Shirai",
 	category: "Pokemon",
+
+	dexId: [22],
 	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Spearow"
+		en: "Spearow",
+		fr: "Piafabec",
+		es: "Spearow",
+		it: "Spearow",
+		pt: "Spearow",
+		de: "Habitak"
 	},
 
 	attacks: [{
