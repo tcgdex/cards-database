@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Spewpa",
+		fr: "Pérégrain",
+		es: "Spewpa",
+		it: "Spewpa",
+		pt: "Spewpa",
+		de: "Puponcho"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -66,7 +74,7 @@ const card: Card = {
 	illustrator: "REND",
 
 	thirdParty: {
-		cardmarket: 794262
+		cardmarket: 794566
 	}
 }
 

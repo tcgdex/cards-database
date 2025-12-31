@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 310,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Luxio",
+		fr: "Luxio",
+		es: "Luxio",
+		it: "Luxio",
+		pt: "Luxio",
+		de: "Luxio"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "PLANETA Yamashita",
 
 	thirdParty: {
-		cardmarket: 769242
+		cardmarket: 769369
 	}
 }
 

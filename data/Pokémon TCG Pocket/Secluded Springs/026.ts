@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tynamo"
+		en: "Tynamo",
+		fr: "Anchwatt"
 	},
 
 	illustrator: "Naoki Saito",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "While one alone doesn't have much power,\na chain of many Tynamo can be as powerful\nas lightning."
+		en: "While one alone doesn't have much power,\na chain of many Tynamo can be as powerful\nas lightning.",
+		fr: "Tout seuls, ils ne dégagent pas beaucoup d'électricité, mais un banc d'Anchwatt produit la même puissance qu'un éclair."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tiny Bolt"
+			en: "Tiny Bolt",
+			fr: "Foudre Minuscule"
 		},
 
 		damage: 10,

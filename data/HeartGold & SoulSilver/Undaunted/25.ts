@@ -86,12 +86,14 @@ const card: Card = {
 		en: "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279278,

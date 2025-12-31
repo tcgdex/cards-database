@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Pidove",
+		fr: "Poichigeon",
+		es: "Pidove",
+		it: "Pidove",
+		pt: "Pidove",
+		de: "Dusselgurr"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -60,9 +68,14 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Pani Kobayashi",
 

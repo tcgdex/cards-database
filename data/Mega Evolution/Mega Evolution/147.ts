@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Naclstack",
+		fr: "Amassel",
+		de: "Sedisal",
+		it: "Naclstack",
+		es: "Naclstack",
+		pt: "Naclstack",
+		'es-mx': "Naclstack"
+	},
 	stage: "Stage2",
+	dexId: [934],
 
 	abilities: [{
 		type: "Ability",
@@ -65,7 +75,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654486
+		tcgplayer: 654486,
+		cardmarket: 851218
 	}
 }
 

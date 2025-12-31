@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Axew",
+		fr: "Coupenotte",
+		es: "Axew",
+		it: "Axew",
+		pt: "Axew",
+		de: "Milza"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "MINAMINAMI Take",
 
 	thirdParty: {
-		cardmarket: 780941
+		cardmarket: 780972
 	}
 }
 

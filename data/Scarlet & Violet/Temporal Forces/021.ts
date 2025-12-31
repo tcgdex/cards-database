@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Bramblin",
+		fr: "Virovent",
+		es: "Bramblin",
+		it: "Bramblin",
+		pt: "Bramblin",
+		de: "Weherba"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -69,9 +77,18 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "otumami",
 

@@ -2,7 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Destined Rivals"
 
 const card: Card = {
-	dexId: [299],
+	dexId: [476],
 	set: Set,
 
 	name: {
@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Nosepass",
+		fr: "Tarinor",
+		de: "Nasgnet",
+		it: "Nosepass",
+		es: "Nosepass",
+		pt: "Nosepass",
+		'es-mx': "Nosepass"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -71,7 +80,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825972
+	}
 }
 
 export default card

@@ -68,12 +68,19 @@ const card: Card = {
 		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["snowflake"],
+			languages: ["de"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279204,

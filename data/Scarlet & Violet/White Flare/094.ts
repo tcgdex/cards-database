@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Shelmet",
+		fr: "Escargaume",
+		de: "Schnuthelm",
+		it: "Shelmet",
+		pt: "Shelmet",
+		es: "Shelmet",
+		'es-mx': "Shelmet"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -51,7 +60,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835917
+		cardmarket: 836081
 	}
 }
 

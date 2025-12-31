@@ -64,12 +64,18 @@ const card: Card = {
 		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp : ["david-cohen"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278989,

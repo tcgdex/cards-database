@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Vigoroth",
+		fr: "Vigoroth",
+		es: "Vigoroth",
+		it: "Vigoroth",
+		pt: "Vigoroth",
+		de: "Muntier"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "PLANETA Igarashi",
 
 	thirdParty: {
-		cardmarket: 794520
+		cardmarket: 794600
 	}
 }
 

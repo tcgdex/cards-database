@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Deerling",
+		fr: "Vivaldaim",
+		es: "Deerling",
+		it: "Deerling",
+		pt: "Deerling",
+		de: "Sesokitz"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -60,15 +68,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Susumu Maeya",
 
 	thirdParty: {
-		cardmarket: 760647
+		cardmarket: 760796
 	}
 }
 

@@ -79,12 +79,14 @@ const card: Card = {
 		en: "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279223,

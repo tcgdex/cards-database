@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 240,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Poltchageist",
+		fr: "Poltchageist",
+		es: "Poltchageist",
+		it: "Poltchageist",
+		pt: "Poltchageist",
+		de: "Mortcha"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +83,7 @@ const card: Card = {
 	illustrator: "aky CG Works",
 
 	thirdParty: {
-		cardmarket: 769197
+		cardmarket: 769363
 	}
 }
 

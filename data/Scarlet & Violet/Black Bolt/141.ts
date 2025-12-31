@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Klang",
+		fr: "Clic",
+		de: "Kliklak",
+		it: "Klang",
+		pt: "Klang",
+		es: "Klang",
+		'es-mx': "Klang"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -65,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836039
+		cardmarket: 836208
 	}
 }
 

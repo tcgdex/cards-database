@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Cynthia's Roselia",
+		fr: "Rosélia de Cynthia",
+		de: "Cynthias Roselia",
+		it: "Roselia di Camilla",
+		es: "Roselia de Cintia",
+		pt: "Roselia da Cíntia",
+		'es-mx': "Roselia de Cynthia"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -68,7 +77,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826058
+	}
 }
 
 export default card

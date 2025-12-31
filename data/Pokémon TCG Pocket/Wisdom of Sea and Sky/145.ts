@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Teddiursa"
+		en: "Teddiursa",
+		fr: "Teddiursa"
 	},
 
 	illustrator: "Mizue",
@@ -15,20 +16,23 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its paws are soaked in oodles of honey. When\nnervous, Teddiursa will lick its paws and soon\nhave a smile back on its face."
+		en: "Its paws are soaked in oodles of honey. When\nnervous, Teddiursa will lick its paws and soon\nhave a smile back on its face.",
+		fr: "Quand il est anxieux, il lèche ses pattes qui sont constamment couvertes de miel, et retrouve le sourire."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Honey Snack"
+			en: "Honey Snack",
+			fr: "Tartine au Miel"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon."
+			en: "Heal 20 damage from this Pokémon.",
+			fr: "Soignez 20 dégâts de ce Pokémon."
 		}
 	}],
 

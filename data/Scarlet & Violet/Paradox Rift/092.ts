@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Gligar",
+		fr: "Scorplane",
+		es: "Gligar",
+		it: "Gligar",
+		pt: "Gligar",
+		de: "Skorgla"
+	},
 	stage: "Stage1",
 
 	attacks: [{

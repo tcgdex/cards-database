@@ -65,6 +65,19 @@ const card: Card = {
 
 	retreat: 1,
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "cracked-ice"
+		}
+	]
+
 
 
 }

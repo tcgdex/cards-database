@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 280,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Varoom",
+		fr: "Vrombi",
+		es: "Varoom",
+		it: "Varoom",
+		pt: "Varoom",
+		de: "Knattox"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 
 	thirdParty: {
-		cardmarket: 780905
+		cardmarket: 780976
 	}
 }
 

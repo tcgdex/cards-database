@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Ekans",
+		fr: "Abo",
+		es: "Ekans",
+		it: "Ekans",
+		pt: "Ekans",
+		de: "Rettan"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -58,15 +66,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "OKUBO",
 
 	thirdParty: {
-		cardmarket: 760731
+		cardmarket: 760806
 	}
 }
 

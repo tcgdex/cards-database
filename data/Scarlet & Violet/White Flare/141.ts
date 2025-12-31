@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Trubbish",
+		fr: "Miamiasme",
+		de: "Unratütox",
+		it: "Trubbish",
+		pt: "Trubbish",
+		es: "Trubbish",
+		'es-mx': "Trubbish"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836012
+		cardmarket: 836166
 	}
 }
 

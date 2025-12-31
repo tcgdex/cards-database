@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Snover",
+		fr: "Blizzi",
+		de: "Shnebedeck",
+		it: "Snover",
+		es: "Snover",
+		pt: "Snover",
+		'es-mx': "Snover"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -71,7 +80,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825934
+	}
 }
 
 export default card

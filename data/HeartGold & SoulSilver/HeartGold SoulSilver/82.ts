@@ -71,12 +71,14 @@ const card: Card = {
 		en: "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279054,

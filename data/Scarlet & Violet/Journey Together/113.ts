@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Bagon",
+		fr: "Draby",
+		es: "Bagon",
+		de: "Kindwurm",
+		it: "Bagon",
+		pt: "Bagon",
+		'es-mx': "Bagon"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -67,7 +76,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817265
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

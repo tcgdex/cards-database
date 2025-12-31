@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kartana"
+		en: "Kartana",
+		fr: "Katagami"
 	},
 
 	illustrator: "nagimiso",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "This Ultra Beast's body, which is as thin\nas paper, is like a sharpened sword."
+		en: "This Ultra Beast's body, which is as thin\nas paper, is like a sharpened sword.",
+		fr: "Le corps de cette Ultra-Chimère semble fin comme du papier, mais il est aussi tranchant qu'un sabre affûté."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Thrash Metal"
+			en: "Thrash Metal",
+			fr: "Trash Metal"
 		},
 
 		damage: 40,

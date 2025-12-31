@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Cetoddle",
+		fr: "Piétacé",
+		es: "Cetoddle",
+		it: "Cetoddle",
+		pt: "Cetoddle",
+		de: "Flaniwal"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "Jerky",
 
 	thirdParty: {
-		cardmarket: 794320
+		cardmarket: 794574
 	}
 }
 

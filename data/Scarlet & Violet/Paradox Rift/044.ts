@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Vanillite",
+		fr: "Sorbébé",
+		es: "Vanillite",
+		it: "Vanillite",
+		pt: "Vanillite",
+		de: "Gelatini"
+	},
 	stage: "Stage1",
 
 	attacks: [{

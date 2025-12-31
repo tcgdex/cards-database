@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Skitty",
+		fr: "Skitty",
+		es: "Skitty",
+		it: "Skitty",
+		pt: "Skitty",
+		de: "Eneco"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -69,9 +77,14 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Keisin",
 

@@ -1,0 +1,33 @@
+meta {
+  name: cards
+  type: graphql
+  seq: 1
+}
+
+post {
+  url: {{BASE_URL}}/v2/graphql
+  body: graphql
+  auth: none
+}
+
+body:graphql {
+  query Pouet {
+    cards {
+      id
+      localId
+      name
+      set {
+        id
+        name
+        serie {
+          id
+          name
+        }
+      }
+    }
+  }
+}
+
+assert {
+  res.status: eq 200
+}

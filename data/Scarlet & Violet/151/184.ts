@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 330,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Carabaffe",
+		en: "Wartortle",
+		es: "Wartortle",
+		it: "Wartortle",
+		pt: "Wartortle",
+		de: "Schillok"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "PLANETA Yamashita",
 
 	thirdParty: {
-		cardmarket: 733604
+		cardmarket: 733779
 	}
 }
 

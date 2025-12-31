@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Hippopotas",
+		fr: "Hippopotas",
+		es: "Hippopotas",
+		pt: "Hippopotas",
+		it: "Hippopotas",
+		de: "Hippopotas"
+	},
 	stage: "Stage1",
 
 	attacks: [{

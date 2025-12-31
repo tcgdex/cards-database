@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Gourmelet",
+		en: "Lechonk",
+		es: "Lechonk",
+		it: "Lechonk",
+		pt: "Lechonk",
+		de: "Ferkuli"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -74,7 +82,7 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 
 	thirdParty: {
-		cardmarket: 725263
+		cardmarket: 725264
 	}
 }
 

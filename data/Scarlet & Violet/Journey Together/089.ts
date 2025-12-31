@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Toedscool",
+		fr: "Terracool",
+		es: "Toedscool",
+		de: "Tentagra",
+		it: "Toedscool",
+		pt: "Toedscool",
+		'es-mx': "Toedscool"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -67,7 +76,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817241
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

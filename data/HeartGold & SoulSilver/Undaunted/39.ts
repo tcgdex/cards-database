@@ -87,12 +87,14 @@ const card: Card = {
 		en: "It grows dispirited if it is not with kind people. It can float in midair without moving its wings."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279292,

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Swinub",
+		fr: "Marcacrin",
+		es: "Swinub",
+		de: "Quiekel",
+		it: "Swinub",
+		pt: "Swinub",
+		'es-mx': "Swinub"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +66,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817230
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snubbull"
+		en: "Snubbull",
+		fr: "Snubbull"
 	},
 
 	illustrator: "Akira Komayama",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It grows close to others easily and is also easily\nspoiled. The disparity between its face and its\nactions makes many young people wild about it."
+		en: "It grows close to others easily and is also easily\nspoiled. The disparity between its face and its\nactions makes many young people wild about it.",
+		fr: "Il s'attache très facilement et aime être cajolé. Une telle sensibilité cachée derrière une mine renfrognée fait fondre beaucoup de jeunes gens."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ram"
+			en: "Ram",
+			fr: "Collision"
 		},
 
 		damage: 20,

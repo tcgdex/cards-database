@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Dipplin",
+		fr: "Pomdramour",
+		de: "Sirapfel",
+		it: "Dipplin",
+		es: "Dipplin",
+		pt: "Dipplin",
+		'es-mx': "Dipplin"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -66,7 +75,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826062
+	}
 }
 
 export default card

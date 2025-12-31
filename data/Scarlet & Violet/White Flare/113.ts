@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Vanillish",
+		fr: "Sorboul",
+		de: "Gelatroppo",
+		it: "Vanillish",
+		pt: "Vanillish",
+		es: "Vanillish",
+		'es-mx': "Vanillish"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -65,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835960
+		cardmarket: 836120
 	}
 }
 

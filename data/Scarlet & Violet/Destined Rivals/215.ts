@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 330,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Cynthia's Gabite",
+		fr: "Carmache de Cynthia",
+		de: "Cynthias Knarksel",
+		it: "Gabite di Camilla",
+		es: "Gabite de Cintia",
+		pt: "Gabite da Cíntia",
+		'es-mx': "Gabite de Cynthia"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -78,7 +87,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826089
+	}
 }
 
 export default card

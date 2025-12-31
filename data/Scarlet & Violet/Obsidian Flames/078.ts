@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Lightning"],
+	evolveFrom: {
+		fr: "Têtampoule",
+		en: "Tadbulb",
+		es: "Tadbulb",
+		it: "Tadbulb",
+		pt: "Tadbulb",
+		de: "Blipp"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -76,7 +84,7 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 
 	thirdParty: {
-		cardmarket: 725157
+		cardmarket: 725158
 	}
 }
 

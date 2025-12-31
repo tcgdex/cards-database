@@ -77,12 +77,19 @@ const card: Card = {
 		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["snowflake"],
+			languages: ["de"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279212,

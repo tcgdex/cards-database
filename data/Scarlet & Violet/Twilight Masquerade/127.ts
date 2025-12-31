@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Applin",
+		fr: "Verpom",
+		es: "Applin",
+		it: "Applin",
+		pt: "Applin",
+		de: "Knapfel"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -52,7 +60,7 @@ const card: Card = {
 	illustrator: "OKACHEKE",
 
 	thirdParty: {
-		cardmarket: 769192
+		cardmarket: 769301
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Shellos",
+		fr: "Sancoki",
+		es: "Shellos",
+		it: "Shellos",
+		pt: "Shellos",
+		de: "Schalellos"
+	},
 	stage: "Stage1",
 
 	abilities: [{

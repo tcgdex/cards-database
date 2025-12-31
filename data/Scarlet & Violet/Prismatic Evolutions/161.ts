@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 280,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
+		pt: "Eevee",
+		it: "Eevee",
+		de: "Evoli"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +83,7 @@ const card: Card = {
 	illustrator: "YASHIRO Nanaco",
 
 	thirdParty: {
-		cardmarket: 805449
+		cardmarket: 805555
 	}
 }
 

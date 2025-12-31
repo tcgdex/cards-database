@@ -97,7 +97,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 276758,
 		tcgplayer: 90154
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["jimmy-ballard"]
+		}
+	]
 }
 
 export default card

@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Nickit",
+		fr: "Goupilou",
+		de: "Kleptifux",
+		it: "Nickit",
+		es: "Nickit",
+		pt: "Nickit",
+		'es-mx': "Nickit"
+	},
 	stage: "Stage1",
+	dexId: [828],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -65,7 +75,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654429
+		tcgplayer: 654429,
+		cardmarket: 851161
 	}
 }
 

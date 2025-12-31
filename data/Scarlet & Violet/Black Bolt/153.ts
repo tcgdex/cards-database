@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Minccino",
+		fr: "Chinchidou",
+		de: "Picochilla",
+		it: "Minccino",
+		pt: "Minccino",
+		es: "Minccino",
+		'es-mx': "Minccino"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -51,7 +60,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836063
+		cardmarket: 836226
 	}
 }
 

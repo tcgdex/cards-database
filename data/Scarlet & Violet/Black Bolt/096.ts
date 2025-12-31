@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Foongus",
+		fr: "Trompignon",
+		de: "Tarnpignon",
+		it: "Foongus",
+		pt: "Foongus",
+		es: "Foongus",
+		'es-mx': "Foongus"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835922
+		cardmarket: 836100
 	}
 }
 

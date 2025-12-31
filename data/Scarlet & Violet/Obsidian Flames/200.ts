@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Dofin",
+		en: "Finizen",
+		es: "Finizen",
+		it: "Finizen",
+		pt: "Finizen",
+		de: "Normifin"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 
 	thirdParty: {
-		cardmarket: 725142
+		cardmarket: 725280
 	}
 }
 

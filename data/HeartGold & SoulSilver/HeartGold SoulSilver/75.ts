@@ -72,12 +72,19 @@ const card: Card = {
 		en: "It loves anything that shines. It especially adores coins that it picks up and secretly hoards."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp : ["snowflake"],
+			languages: ["de"]
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279047,

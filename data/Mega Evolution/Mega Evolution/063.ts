@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Spoink",
+		fr: "Spoink",
+		de: "Spoink",
+		it: "Spoink",
+		es: "Spoink",
+		pt: "Spoink",
+		'es-mx': "Spoink"
+	},
 	stage: "Stage1",
+	dexId: [326],
 
 	abilities: [{
 		type: "Ability",
@@ -65,7 +75,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654402
+		tcgplayer: 654402,
+		cardmarket: 851134
 	}
 }
 

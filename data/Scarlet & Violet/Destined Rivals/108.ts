@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Mudbray",
+		fr: "Tiboudet",
+		de: "Pampuli",
+		it: "Mudbray",
+		es: "Mudbray",
+		pt: "Mudbray",
+		'es-mx': "Mudbray"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -71,7 +80,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825982
+	}
 }
 
 export default card

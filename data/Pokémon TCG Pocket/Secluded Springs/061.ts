@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ursaring"
+		en: "Ursaring",
+		fr: "Ursaring"
 	},
 
 	illustrator: "Uta",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It usually wears a hardened expression, but when\nit's licking up honey—which it loves—the joy it\nfeels will cause it to break into a wide grin."
+		en: "It usually wears a hardened expression, but when\nit's licking up honey—which it loves—the joy it\nfeels will cause it to break into a wide grin.",
+		fr: "Son visage austère s'illumine de joie lorsqu'il savoure du miel, un aliment qu'il adore."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Claw Slash"
+			en: "Claw Slash",
+			fr: "Tranch'Griffe"
 		},
 
 		damage: 110,

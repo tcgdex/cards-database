@@ -47,13 +47,18 @@ if (cluster.isPrimary) {
 	// Current API version
 	const VERSION = 2
 
-	// fetch cardmarket data
-	void updateDatas()
-		.then(() => console.log('loaded cardmarket datas'))
-		.catch((err) => console.error('error loading cardmarket', err))
-	void updateTCGPlayerDatas()
-		.then(() => console.log('loaded TCGPlayer datas'))
-		.catch((err) => console.error('error loading TCGPlayer', err))
+	const fn = () => {
+		void updateDatas()
+			.then(() => console.log('loaded cardmarket datas'))
+			.catch((err) => console.error('error loading cardmarket', err))
+		void updateTCGPlayerDatas()
+			.then(() => console.log('loaded TCGPlayer datas'))
+			.catch((err) => console.error('error loading TCGPlayer', err))
+	}
+
+	// auto update each hour the datasets
+	fn()
+	setInterval(fn, 3_600_000)
 
 	// Init Express server
 	const server = express()
@@ -98,6 +103,10 @@ if (cluster.isPrimary) {
 			.setHeader('Access-Control-Allow-Methods', 'GET,POST,OPTIONS')
 			.setHeader('Access-Control-Allow-Headers', 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range')
 			.setHeader('Access-Control-Expose-Headers', 'Content-Length,Content-Range')
+
+		if (typeof process.env.DISABLE_HSTS === 'undefined') {
+			res.setHeader('Strict-Transport-Security', 'max-age=31536000')
+		}
 
 		if (req.method.toUpperCase() === 'OPTIONS') {
 			res.status(200).send('ok')

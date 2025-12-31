@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Gimmighoul",
+		fr: "Mordudor",
+		de: "Gierspenst",
+		it: "Gimmighoul",
+		es: "Gimmighoul",
+		pt: "Gimmighoul",
+		'es-mx': "Gimmighoul"
+	},
 	stage: "Stage1",
+	dexId: [1000],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -63,7 +73,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654438
+		tcgplayer: 654438,
+		cardmarket: 851170
 	}
 }
 

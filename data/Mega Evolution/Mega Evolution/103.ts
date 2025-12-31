@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Spearow",
+		fr: "Piafabec",
+		de: "Habitak",
+		it: "Spearow",
+		es: "Spearow",
+		pt: "Spearow",
+		'es-mx': "Spearow"
+	},
 	stage: "Stage1",
+	dexId: [22],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -51,7 +61,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654442
+		tcgplayer: 654442,
+		cardmarket: 851174
 	}
 }
 

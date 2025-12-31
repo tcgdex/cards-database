@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Mudbray",
+		fr: "Tiboudet",
+		es: "Mudbray",
+		it: "Mudbray",
+		pt: "Mudbray",
+		de: "Pampuli"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -67,9 +75,14 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Naoyo Kimura",
 

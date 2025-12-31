@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Tirtouga",
+		fr: "Carapagos",
+		es: "Tirtouga",
+		it: "Tirtouga",
+		pt: "Tirtouga",
+		de: "Galapaflos"
+	},
 	stage: "Stage2",
 
 	abilities: [{

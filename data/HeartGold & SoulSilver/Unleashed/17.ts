@@ -81,12 +81,14 @@ const card: Card = {
 		en: "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279173,

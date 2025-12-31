@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Whismur",
+		fr: "Chuchmur",
+		es: "Whismur",
+		it: "Whismur",
+		pt: "Whismur",
+		de: "Flurmel"
+	},
 	stage: "Stage1",
 
 	attacks: [{

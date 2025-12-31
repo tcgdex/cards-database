@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gladion"
+		en: "Gladion",
+		fr: "Gladio"
 	},
 
 	illustrator: "hncl",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Put 1 random Type: Null or Silvally from your deck into your hand."
+		en: "Put 1 random Type: Null or Silvally from your deck into your hand.",
+		fr: "Ajoutez une carte au hasard parmi  et  de votre deck à votre main."
 	},
 
 	trainerType: "Supporter"

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Duosion",
+		fr: "Méios",
+		es: "Duosion",
+		it: "Duosion",
+		pt: "Duosion",
+		de: "Mitodos"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -67,15 +75,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Atsushi Furusawa",
 
 	thirdParty: {
-		cardmarket: 760702
+		cardmarket: 760801
 	}
 }
 

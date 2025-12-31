@@ -58,15 +58,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Mousho",
 
 	thirdParty: {
-		cardmarket: 760732
+		cardmarket: 760807
 	}
 }
 

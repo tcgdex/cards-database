@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Tranquill",
+		fr: "Colombeau",
+		de: "Navitaub",
+		it: "Tranquill",
+		pt: "Tranquill",
+		es: "Tranquill",
+		'es-mx': "Tranquill"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -73,7 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836056
+		cardmarket: 836222
 	}
 }
 

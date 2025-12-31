@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Apitrini",
+		en: "Combee",
+		es: "Combee",
+		it: "Combee",
+		pt: "Combee",
+		de: "Wadribie"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +83,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-		cardmarket: 725176
+		cardmarket: 725292
 	}
 }
 

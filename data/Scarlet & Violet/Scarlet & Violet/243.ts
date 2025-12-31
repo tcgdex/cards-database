@@ -82,8 +82,9 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 
 	thirdParty: {
-		cardmarket: 702315
-	}
+        cardmarket: 702315,
+        tcgplayer: 487147
+    }
 }
 
 export default card

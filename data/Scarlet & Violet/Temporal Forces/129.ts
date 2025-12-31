@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Dunsparce",
+		fr: "Insolourdo",
+		es: "Dunsparce",
+		it: "Dunsparce",
+		pt: "Dunsparce",
+		de: "Dummisel"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -60,9 +68,19 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos",
+		}
+	],
 
 	illustrator: "Teeziro",
 

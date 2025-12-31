@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 300,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Chansey",
+		fr: "Leveinard",
+		es: "Chansey",
+		it: "Chansey",
+		pt: "Chansey",
+		de: "Chaneira"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 
 	thirdParty: {
-		cardmarket: 769308
+		cardmarket: 769375
 	}
 }
 

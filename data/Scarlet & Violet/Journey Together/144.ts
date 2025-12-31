@@ -32,8 +32,17 @@ const card: Card = {
 	illustrator: "GOSSAN",
 
 	thirdParty: {
-		cardmarket: 817295
-	}
+		cardmarket: 817294
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

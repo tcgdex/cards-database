@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 250,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Milcery",
+		fr: "Crèmy",
+		es: "Milcery",
+		de: "Hokumil",
+		it: "Milcery",
+		pt: "Milcery",
+		'es-mx': "Milcery"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -67,7 +76,13 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817227
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

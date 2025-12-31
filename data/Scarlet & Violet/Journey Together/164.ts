@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Lillie's Cutiefly",
+		fr: "Bombydou de Lilie",
+		es: "Cutiefly de Lylia",
+		de: "Lillys Wommel",
+		it: "Cutiefly di Lylia",
+		pt: "Cutiefly da Lílian",
+		'es-mx': "Cutiefly de Lillie"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -66,8 +75,14 @@ const card: Card = {
 	illustrator: "saino misaki",
 
 	thirdParty: {
-		cardmarket: 817219
-	}
+		cardmarket: 817316
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

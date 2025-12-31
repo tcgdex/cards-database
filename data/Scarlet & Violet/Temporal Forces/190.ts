@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 250,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Wiglett",
+		fr: "Taupikeau",
+		es: "Wiglett",
+		it: "Wiglett",
+		pt: "Wiglett",
+		de: "Schligda"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -67,15 +75,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-		cardmarket: 760690
+		cardmarket: 760820
 	}
 }
 

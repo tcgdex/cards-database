@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Dragon"],
+	evolveFrom: {
+		fr: "Minidraco",
+		en: "Dratini",
+		es: "Dratini",
+		it: "Dratini",
+		pt: "Dratini",
+		de: "Dratini"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "rika",
 
 	thirdParty: {
-		cardmarket: 733743
+		cardmarket: 733776
 	}
 }
 

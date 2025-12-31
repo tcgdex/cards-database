@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Eelektrik",
+		fr: "Lampéroie",
+		de: "Zapplalek",
+		it: "Eelektrik",
+		pt: "Eelektrik",
+		es: "Eelektrik",
+		'es-mx': "Eelektrik"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -75,7 +84,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835964
+		cardmarket: 836137
 	}
 }
 

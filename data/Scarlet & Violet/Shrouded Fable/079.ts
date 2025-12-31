@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Stufful",
+		fr: "Nounourson",
+		es: "Stufful",
+		it: "Stufful",
+		pt: "Stufful",
+		de: "Velursi"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "Takeshi Nakamura",
 
 	thirdParty: {
-		cardmarket: 780949
+		cardmarket: 780974
 	}
 }
 

@@ -27,7 +27,7 @@ const card: Card = {
 		en: "Voltorb",
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -65,6 +65,26 @@ const card: Card = {
 			damage: 50,
 
 		},
+	],
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
 	],
 
 	weaknesses: [

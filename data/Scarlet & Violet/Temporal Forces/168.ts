@@ -47,15 +47,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "N-DESIGN Inc.",
 
 	thirdParty: {
-		cardmarket: 760675
+		cardmarket: 760798
 	}
 }
 

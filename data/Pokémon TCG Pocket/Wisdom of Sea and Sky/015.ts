@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jumpluff"
+		en: "Jumpluff",
+		fr: "Cotovol"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,7 +20,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Jumpluff travels on seasonal winds. Once its\ncotton spores run out, its journey ends, as does\nits life."
+		en: "Jumpluff travels on seasonal winds. Once its\ncotton spores run out, its journey ends, as does\nits life.",
+		fr: "Il voyage au gré des vents saisonniers. Quand il arrive à court de spores de coton, cela marque la fin de son périple, mais aussi de sa vie."
 	},
 
 	stage: "Stage2",
@@ -28,17 +30,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fluffy Flight"
+			en: "Fluffy Flight",
+			fr: "Envolée Molletonnée"
 		},
 
 		effect: {
-			en: "Your Active Pokémon has no Retreat Cost."
+			en: "Your Active Pokémon has no Retreat Cost.",
+			fr: "Votre Pokémon Actif n'a aucun Coût de Retraite."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Spinning Attack"
+			en: "Spinning Attack",
+			fr: "Attaque Tournante"
 		},
 
 		damage: 60,

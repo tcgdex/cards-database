@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darumaka"
+		en: "Darumaka",
+		fr: "Darumarond"
 	},
 
 	illustrator: "Yuka Morii",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It derives its power from fire burning inside\nits body. If the fire dwindles, this Pokémon will\nimmediately fall asleep."
+		en: "It derives its power from fire burning inside\nits body. If the fire dwindles, this Pokémon will\nimmediately fall asleep.",
+		fr: "La flamme qui brûle dans son corps est sa source d'énergie. Si le feu s'affaiblit, il s'endort sur-le-champ."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flop"
+			en: "Flop",
+			fr: "Flop"
 		},
 
 		damage: 30,

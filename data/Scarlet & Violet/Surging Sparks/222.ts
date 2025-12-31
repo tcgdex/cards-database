@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 310,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Vibrava",
+		fr: "Vibraninf",
+		es: "Vibrava",
+		it: "Vibrava",
+		pt: "Vibrava",
+		de: "Vibrava"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -75,7 +83,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-		cardmarket: 794429
+		cardmarket: 794595
 	}
 }
 

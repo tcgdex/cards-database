@@ -65,12 +65,14 @@ const card: Card = {
 		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279311,

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Soporifik",
+		en: "Drowzee",
+		es: "Drowzee",
+		it: "Drowzee",
+		pt: "Drowzee",
+		de: "Traumato"
+	},
 	stage: "Stage1",
 
 	abilities: [{

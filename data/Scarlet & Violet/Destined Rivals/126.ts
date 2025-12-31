@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Team Rocket's Koffing",
+		fr: "Smogo de la Team Rocket",
+		de: "Team Rockets Smogon",
+		it: "Koffing del Team Rocket",
+		es: "Koffing del Team Rocket",
+		pt: "Koffing da Equipe Rocket",
+		'es-mx': "Koffing del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +66,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826000
+	}
 }
 
 export default card

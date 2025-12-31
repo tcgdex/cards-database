@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yanmega"
+		en: "Yanmega",
+		fr: "Yanmega"
 	},
 
 	illustrator: "Uta",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It prefers to battle by biting apart foes' heads\ninstantly while flying by at high speed."
+		en: "It prefers to battle by biting apart foes' heads\ninstantly while flying by at high speed.",
+		fr: "Il excelle dans l'art de mordre ses ennemis en plein vol, et à grande vitesse."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bug Buzz"
+			en: "Bug Buzz",
+			fr: "Bourdon"
 		},
 
 		damage: 60,

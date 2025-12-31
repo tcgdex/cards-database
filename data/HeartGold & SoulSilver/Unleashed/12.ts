@@ -81,12 +81,14 @@ const card: Card = {
 		en: "It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279168,

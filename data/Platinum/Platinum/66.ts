@@ -91,7 +91,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278487,
 		tcgplayer: 90707
-	}
+	},
+
+	variants:[
+		{
+			type:"normal"
+		},
+		{
+			type:"reverse"
+		},
+		{
+			type:"normal",
+			stamp: ["jason-martinez"]
+		}
+	]
 }
 
 export default card

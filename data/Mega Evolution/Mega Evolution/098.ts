@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Tinkatuff",
+		fr: "Forgella",
+		de: "Tafforgita",
+		it: "Tinkatuff",
+		es: "Tinkatuff",
+		pt: "Tinkatuff",
+		'es-mx': "Tinkatuff"
+	},
 	stage: "Stage2",
+	dexId: [959],
 
 	attacks: [{
 		cost: ["Metal"],
@@ -51,7 +61,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654437
+		tcgplayer: 654437,
+		cardmarket: 851169
 	}
 }
 

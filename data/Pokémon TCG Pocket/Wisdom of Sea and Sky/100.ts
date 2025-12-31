@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Donphan ex"
+		en: "Donphan ex",
+		fr: "Donphan-ex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -23,14 +24,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gigantic Press"
+			en: "Gigantic Press",
+			fr: "Pression Gigatonne"
 		},
 
 		damage: 50,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "If this Pokémon has at least 2 extra {F} Energy attached, this attack does 60 more damage."
+			en: "If this Pokémon has at least 2 extra {F} Energy attached, this attack does 60 more damage.",
+			fr: "Si ce Pokémon a au moins 2 Énergies {F} de plus, cette attaque inflige 60 dégâts supplémentaires."
 		}
 	}],
 

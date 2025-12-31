@@ -68,12 +68,23 @@ const card: Card = {
 		en: "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp : ["snowflake"],
+			languages: ["de"]
+		},
+		{
+			type: "normal",
+			stamp : ["christopher-kan"],
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279033,

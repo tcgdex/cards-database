@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Fossile Nautile Ancien",
+		en: "Antique Helix Fossil",
+		es: "Fósil Hélix Antiguo",
+		it: "Vecchio Helixfossile",
+		pt: "Fóssil Espiral Arcaico",
+		de: "Antikes Helixfossil"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -55,7 +63,7 @@ const card: Card = {
 	illustrator: "Yano Keiji",
 
 	thirdParty: {
-		cardmarket: 733733
+		cardmarket: 733775
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 330,
 	types: ["Fire"],
+	evolveFrom: {
+		fr: "Reptincel",
+		en: "Charmeleon",
+		es: "Charmeleon",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+		de: "Glutexo"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "miki kudo",
 
 	thirdParty: {
-		cardmarket: 733601
+		cardmarket: 720951
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Pupitar",
+		fr: "Ymphect",
+		es: "Pupitar",
+		pt: "Pupitar",
+		it: "Pupitar",
+		de: "Pupitar"
+	},
 	stage: "Stage2",
 
 	attacks: [{

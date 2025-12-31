@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Tranquill",
+		fr: "Colombeau",
+		es: "Tranquill",
+		it: "Tranquill",
+		pt: "Tranquill",
+		de: "Navitaub"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -69,9 +77,14 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Anesaki Dynamic",
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Girafarig",
+		fr: "Girafarig",
+		es: "Girafarig",
+		it: "Girafarig",
+		pt: "Girafarig",
+		de: "Girafarig"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -69,10 +77,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "5ban Graphics",
 

@@ -42,10 +42,11 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: [
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card

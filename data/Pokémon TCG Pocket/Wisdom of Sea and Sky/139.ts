@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Furret"
+		en: "Furret",
+		fr: "Fouinar"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -19,21 +20,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The mother puts its offspring to sleep by curling up\naround them. It corners foes with speed."
+		en: "The mother puts its offspring to sleep by curling up\naround them. It corners foes with speed.",
+		fr: "La femelle s'enroule autour de ses petits pour les bercer. Il accule l'ennemi grâce à sa vitesse."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Tail Smash"
+			en: "Tail Smash",
+			fr: "Éclate-Queue"
 		},
 
 		damage: 80,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		}
 	}],
 

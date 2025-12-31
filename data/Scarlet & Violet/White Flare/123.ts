@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Yamask",
+		fr: "Tutafeh",
+		de: "Makabaja",
+		it: "Yamask",
+		pt: "Yamask",
+		es: "Yamask",
+		'es-mx': "Yamask"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -73,7 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835975
+		cardmarket: 836138
 	}
 }
 

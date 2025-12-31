@@ -74,7 +74,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277542,
 		tcgplayer: 84010
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["jun-hasebe"]
+		}
+	]
 }
 
 export default card

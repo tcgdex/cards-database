@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Boustiflor",
+		en: "Weepinbell",
+		es: "Weepinbell",
+		it: "Weepinbell",
+		pt: "Weepinbell",
+		de: "Ultrigaria"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -67,7 +75,7 @@ const card: Card = {
 	illustrator: "Jerky",
 
 	thirdParty: {
-		cardmarket: 733666
+		cardmarket: 733650
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Aspicot",
+		en: "Weedle",
+		es: "Weedle",
+		it: "Weedle",
+		pt: "Weedle",
+		de: "Hornliu"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -67,7 +75,7 @@ const card: Card = {
 	illustrator: "nisimono",
 
 	thirdParty: {
-		cardmarket: 733609
+		cardmarket: 733625
 	}
 }
 

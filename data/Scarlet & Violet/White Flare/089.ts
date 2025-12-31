@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Swadloon",
+		fr: "Couverdure",
+		de: "Folikon",
+		it: "Swadloon",
+		pt: "Swadloon",
+		es: "Swadloon",
+		'es-mx': "Swadloon"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -73,7 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835901
+		cardmarket: 836074
 	}
 }
 

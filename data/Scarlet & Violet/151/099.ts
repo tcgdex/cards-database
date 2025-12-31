@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Krabby",
+		en: "Krabby",
+		es: "Krabby",
+		it: "Krabby",
+		pt: "Krabby",
+		de: "Krabby"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -67,7 +75,7 @@ const card: Card = {
 	illustrator: "Yukiko Baba",
 
 	thirdParty: {
-		cardmarket: 733694
+		cardmarket: 733726
 	}
 }
 

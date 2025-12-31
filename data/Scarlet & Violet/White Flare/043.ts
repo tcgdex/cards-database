@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Gothorita",
+		fr: "Mesmérella",
+		de: "Hypnomorba",
+		it: "Gothorita",
+		pt: "Gothorita",
+		es: "Gothorita",
+		'es-mx': "Gothorita"
+	},
 	stage: "Stage2",
 
 	abilities: [{

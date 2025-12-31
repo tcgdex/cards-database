@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 280,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "N's Zorua",
+		fr: "Zorua de N",
+		es: "Zorua de N",
+		de: "Ns Zorua",
+		it: "Zorua di N",
+		pt: "Zorua do N",
+		'es-mx': "Zorua de N"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -74,8 +83,14 @@ const card: Card = {
 	illustrator: "Megumi Mizutani",
 
 	thirdParty: {
-		cardmarket: 817250
-	}
+		cardmarket: 817338
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

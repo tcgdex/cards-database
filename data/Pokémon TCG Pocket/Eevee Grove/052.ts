@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragonair"
+		en: "Dragonair",
+		fr: "Draco"
 	},
 
 	illustrator: "sui",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "They say that if it emits an aura from its whole\nbody, the weather will begin to change instantly."
+		en: "They say that if it emits an aura from its whole\nbody, the weather will begin to change instantly.",
+		fr: "On dit que lorsque tout son corps émet une aura, les conditions climatiques se mettent à changer à vue d'œil."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Waterfall"
+			en: "Waterfall",
+			fr: "Cascade"
 		},
 
 		damage: 60,

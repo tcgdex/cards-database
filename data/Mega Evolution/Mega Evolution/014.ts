@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Seedot",
+		fr: "Grainipiot",
+		de: "Samurzel",
+		it: "Seedot",
+		es: "Seedot",
+		pt: "Seedot",
+		'es-mx': "Seedot"
+	},
 	stage: "Stage1",
+	dexId: [274],
 
 	attacks: [{
 		cost: ["Grass"],
@@ -55,7 +65,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654353
+		tcgplayer: 654353,
+		cardmarket: 851085
 	}
 }
 

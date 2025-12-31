@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spearow"
+		en: "Spearow",
+		fr: "Piafabec"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its reckless nature leads it to stand up to\nothers—even large Pokémon—if it has to protect\nits territory."
+		en: "Its reckless nature leads it to stand up to\nothers—even large Pokémon—if it has to protect\nits territory.",
+		fr: "Un Pokémon téméraire qui n'hésite pas à affronter des Pokémon plus gros que lui pour protéger son territoire."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Glide"
+			en: "Glide",
+			fr: "Glissement"
 		},
 
 		damage: 10,

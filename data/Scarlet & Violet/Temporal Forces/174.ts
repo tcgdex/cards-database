@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Drilbur",
+		fr: "Rototaupe",
+		es: "Drilbur",
+		it: "Drilbur",
+		pt: "Drilbur",
+		de: "Rotomurf"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -60,15 +68,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Saboteri",
 
 	thirdParty: {
-		cardmarket: 760716
+		cardmarket: 760804
 	}
 }
 

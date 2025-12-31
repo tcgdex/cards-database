@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Team Rocket's Nidoran♂",
+		fr: "Nidoran♂ de la Team Rocket",
+		de: "Team Rockets Nidoran♂",
+		it: "Nidoran♂ del Team Rocket",
+		es: "Nidoran♂ del Team Rocket",
+		pt: "Nidoran♂ da Equipe Rocket",
+		'es-mx': "Nidoran♂ del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -71,7 +80,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825992
+	}
 }
 
 export default card

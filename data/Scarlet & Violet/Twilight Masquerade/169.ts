@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Sunkern",
+		fr: "Tournegrin",
+		es: "Sunkern",
+		it: "Sunkern",
+		pt: "Sunkern",
+		de: "Sonnkern"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Shinya Komatsu",
 
 	thirdParty: {
-		cardmarket: 769181
+		cardmarket: 769343
 	}
 }
 

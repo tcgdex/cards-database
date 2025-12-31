@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Durant"
+		en: "Durant",
+		fr: "Fermite"
 	},
 
 	illustrator: "Midori Harada",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "They attack in groups, covering themselves in steel\narmor to protect themselves from Heatmor."
+		en: "They attack in groups, covering themselves in steel\narmor to protect themselves from Heatmor.",
+		fr: "Ils portent une armure de fer et se regroupent pour contrer les attaques de leurs prédateurs, les Aflamanoir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mountain Munch"
+			en: "Mountain Munch",
+			fr: "Dévore-Montagne"
 		},
 
 		damage: 40,
 		cost: ["Grass", "Grass"],
 
 		effect: {
-			en: "Discard the top card of your opponent's deck."
+			en: "Discard the top card of your opponent's deck.",
+			fr: "Défaussez la première carte du dessus du deck de votre adversaire."
 		}
 	}],
 

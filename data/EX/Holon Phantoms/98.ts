@@ -16,7 +16,17 @@ const card: Card = {
 
 	effect: {
 		de: "δ Regenbogen-Energie liefert  Energie. Wenn sie an ein Pokémon angelegt ist, auf dem δ zu sehen ist, zählt sie als jede beliebige Basis-Energietyp, spendet aber immer nur 1 Energie auf einmal. (Sie hat keinen Effekt, außer dass sie Energie spendet.)"
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+	]
 }
 
 export default card

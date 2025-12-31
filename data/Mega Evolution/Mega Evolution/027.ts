@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Scorbunny",
+		fr: "Flambino",
+		de: "Hopplo",
+		it: "Scorbunny",
+		es: "Scorbunny",
+		pt: "Scorbunny",
+		'es-mx': "Scorbunny"
+	},
 	stage: "Stage1",
+	dexId: [814],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -49,7 +59,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654366
+		tcgplayer: 654366,
+		cardmarket: 851098
 	}
 }
 

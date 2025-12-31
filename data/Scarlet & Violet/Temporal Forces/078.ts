@@ -69,9 +69,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+		},
+		{
+			type: "normal",
+			stamp: ["trick-or-trade"]
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "kodama",
 

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Cubchoo",
+		fr: "Polarhume",
+		de: "Petznief",
+		it: "Cubchoo",
+		pt: "Cubchoo",
+		es: "Cubchoo",
+		'es-mx': "Cubchoo"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +84,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835950
+		cardmarket: 836127
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Cryodo",
+		en: "Arctibax",
+		es: "Arctibax",
+		it: "Arctibax",
+		pt: "Arctibax",
+		de: "Cryospino"
+	},
 	stage: "Stage2",
 
 	abilities: [{

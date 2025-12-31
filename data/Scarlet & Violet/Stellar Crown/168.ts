@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Joltik",
+		fr: "Statitik",
+		es: "Joltik",
+		it: "Joltik",
+		pt: "Joltik",
+		de: "Wattzapf"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "MARINA Chikazawa",
 
 	thirdParty: {
-		cardmarket: 785905
+		cardmarket: 786022
 	}
 }
 

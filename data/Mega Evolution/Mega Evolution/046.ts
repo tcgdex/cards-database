@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Magnemite",
+		fr: "Magnéti",
+		de: "Magnetilo",
+		it: "Magnemite",
+		es: "Magnemite",
+		pt: "Magnemite",
+		'es-mx': "Magnemite"
+	},
 	stage: "Stage1",
+	dexId: [82],
 
 	attacks: [{
 		cost: ["Lightning"],
@@ -51,7 +61,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654385
+		tcgplayer: 654385,
+		cardmarket: 851117
 	}
 }
 

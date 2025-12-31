@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Oshawott",
+		fr: "Moustillon",
+		de: "Ottaro",
+		it: "Oshawott",
+		pt: "Oshawott",
+		es: "Oshawott",
+		'es-mx': "Oshawott"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -51,7 +60,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835944
+		cardmarket: 836106
 	}
 }
 

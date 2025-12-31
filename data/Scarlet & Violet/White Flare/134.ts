@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Mienfoo",
+		fr: "Kungfouine",
+		de: "Lin-Fu",
+		it: "Mienfoo",
+		pt: "Mienfoo",
+		es: "Mienfoo",
+		'es-mx': "Mienfoo"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836000
+		cardmarket: 836155
 	}
 }
 

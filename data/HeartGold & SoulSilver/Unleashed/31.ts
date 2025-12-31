@@ -86,12 +86,14 @@ const card: Card = {
 		en: "A Grotle that lives in the forest is said to have its own secret springwater."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279187,

@@ -74,6 +74,27 @@ const card: Card = {
 		fr: "Il est le fruit de nombreuses expériences génétiques horribles et malsaines."
 	},
 
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright",
+		}
+	],
+
+
 	thirdParty: {
 		cardmarket: 273705,
 		tcgplayer: 42347

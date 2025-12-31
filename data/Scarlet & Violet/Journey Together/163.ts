@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Iono's Wattrel",
+		fr: "Zapétrel de Mashynn",
+		es: "Wattrel de e-Nigma",
+		de: "Enigmaras Voltrel",
+		it: "Wattrel di Kissara",
+		pt: "Wattrel da Kissera",
+		'es-mx': "Wattrel de e-Nigma"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -66,8 +75,14 @@ const card: Card = {
 	illustrator: "Terada Tera",
 
 	thirdParty: {
-		cardmarket: 817207
-	}
+		cardmarket: 817315
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

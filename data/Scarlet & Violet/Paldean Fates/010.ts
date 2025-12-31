@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Magmar",
+		fr: "Magmar",
+		es: "Magmar",
+		it: "Magmar",
+		pt: "Magmar",
+		de: "Magmar"
+	},
 	stage: "Stage1",
 
 	attacks: [{

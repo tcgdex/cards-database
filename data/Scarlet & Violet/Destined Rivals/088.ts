@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Team Rocket's Blipbug",
+		fr: "Larvadar de la Team Rocket",
+		de: "Team Rockets Sensect",
+		it: "Blipbug del Team Rocket",
+		es: "Blipbug del Team Rocket",
+		pt: "Blipbug da Equipe Rocket",
+		'es-mx': "Blipbug del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -69,7 +78,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825962
+	}
 }
 
 export default card

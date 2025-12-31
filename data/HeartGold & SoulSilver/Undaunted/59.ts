@@ -76,12 +76,14 @@ const card: Card = {
 		en: "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279311,

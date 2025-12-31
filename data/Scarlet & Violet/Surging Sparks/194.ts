@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Morelull",
+		fr: "Spododo",
+		es: "Morelull",
+		it: "Morelull",
+		pt: "Morelull",
+		de: "Bubungus"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "matazo",
 
 	thirdParty: {
-		cardmarket: 794264
+		cardmarket: 794567
 	}
 }
 

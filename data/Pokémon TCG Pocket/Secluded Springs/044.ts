@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Donphan"
+		en: "Donphan",
+		fr: "Donphan"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,7 +20,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Donphan is covered in tough hide, so even being\nhit by a car won't faze this Pokémon. However, it\nis extremely susceptible to rain."
+		en: "Donphan is covered in tough hide, so even being\nhit by a car won't faze this Pokémon. However, it\nis extremely susceptible to rain.",
+		fr: "Sa peau est si dure qu'une collision avec une voiture le laisserait indifférent. En revanche, il est extrêmement sensible à la pluie."
 	},
 
 	stage: "Stage1",
@@ -28,17 +30,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Exoskeleton"
+			en: "Exoskeleton",
+			fr: "Exosquelette"
 		},
 
 		effect: {
-			en: "This Pokémon takes −20 damage from attacks."
+			en: "This Pokémon takes −20 damage from attacks.",
+			fr: "Ce Pokémon subit − 20 dégâts provenant des attaques."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Land Crush"
+			en: "Land Crush",
+			fr: "Écras'Terre"
 		},
 
 		damage: 80,

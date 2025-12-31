@@ -1,0 +1,19 @@
+meta {
+  name: dexId Search
+  type: http
+  seq: 9
+}
+
+get {
+  url: {{BASE_URL}}/v2/ja/cards?dexId=eq:357
+  body: none
+  auth: inherit
+}
+
+params:query {
+  dexId: eq:357
+}
+
+assert {
+  res.body.length: gte 5
+}

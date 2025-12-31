@@ -78,12 +78,14 @@ const card: Card = {
 		en: "With its ability to distinguish any aroma, it unfailing finds all food buried deep underground."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279183,

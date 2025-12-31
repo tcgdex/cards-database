@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 280,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Yanma",
+		fr: "Yanma",
+		de: "Yanma",
+		it: "Yanma",
+		es: "Yanma",
+		pt: "Yanma",
+		'es-mx': "Yanma"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -78,7 +87,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826102
+	}
 }
 
 export default card

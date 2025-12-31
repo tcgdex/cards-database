@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Hop's Corvisquire",
+		fr: "Bleuseille de Nabil",
+		es: "Corvisquire de Paul",
+		de: "Hops Kranoviz",
+		it: "Corvisquire di Hop",
+		pt: "Corvisquire do Lupo",
+		'es-mx': "Corvisquire de Paul"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -77,7 +86,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817260
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

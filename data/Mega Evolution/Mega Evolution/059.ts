@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Ralts",
+		fr: "Tarsal",
+		de: "Trasla",
+		it: "Ralts",
+		es: "Ralts",
+		pt: "Ralts",
+		'es-mx': "Ralts"
+	},
 	stage: "Stage1",
+	dexId: [281],
 
 	attacks: [{
 		cost: ["Psychic"],
@@ -63,7 +73,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654398
+		tcgplayer: 654398,
+		cardmarket: 851130
 	}
 }
 

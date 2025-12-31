@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 240,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Wailmer",
+		fr: "Wailmer",
+		es: "Wailmer",
+		de: "Wailmer",
+		it: "Wailmer",
+		pt: "Wailmer",
+		'es-mx': "Wailmer"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -52,8 +61,14 @@ const card: Card = {
 	illustrator: "Katsunori Sato",
 
 	thirdParty: {
-		cardmarket: 817193
-	}
+		cardmarket: 817314
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

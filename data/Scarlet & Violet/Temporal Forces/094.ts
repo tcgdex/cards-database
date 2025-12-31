@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Rolycoly",
+		fr: "Charbi",
+		es: "Rolycoly",
+		it: "Rolycoly",
+		pt: "Rolycoly",
+		de: "Klonkett"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -60,9 +68,14 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Anesaki Dynamic",
 

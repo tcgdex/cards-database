@@ -21,12 +21,22 @@ const card: Card = {
 
 	energyType: "Special",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "reverse",
+			foil: "player-reward",
+		},
+		{
+			type: "normal",
+			stamp : ["ross-cawthorn"],
+		},
+	],
 
 	hp: 0,
 

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Beldum",
+		fr: "Terhal",
+		es: "Beldum",
+		de: "Tanhel",
+		it: "Beldum",
+		pt: "Beldum",
+		'es-mx': "Beldum"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +66,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817214
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Ponyta",
+		fr: "Ponyta",
+		de: "Ponita",
+		it: "Ponyta",
+		es: "Ponyta",
+		pt: "Ponyta",
+		'es-mx': "Ponyta"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -68,7 +77,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826063
+	}
 }
 
 export default card

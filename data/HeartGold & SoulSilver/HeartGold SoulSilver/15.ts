@@ -83,12 +83,14 @@ const card: Card = {
 		en: "It spins string not only from its rear but also from its mouth. It’s hard to tell which end is which."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278987,

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Carkol",
+		fr: "Wagomine",
+		es: "Carkol",
+		it: "Carkol",
+		pt: "Carkol",
+		de: "Wagong"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -69,9 +77,14 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Shiburingaru",
 

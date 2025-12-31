@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Roucool",
+		en: "Pidgey",
+		es: "Pidgey",
+		it: "Pidgey",
+		pt: "Pidgey",
+		de: "Taubsi"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -46,7 +54,7 @@ const card: Card = {
 	illustrator: "Jerky",
 
 	thirdParty: {
-		cardmarket: 725243
+		cardmarket: 725288
 	}
 }
 

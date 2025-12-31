@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pyukumuku"
+		en: "Pyukumuku",
+		fr: "Concombaffe"
 	},
 
 	illustrator: "Nisota Niso",
@@ -15,7 +16,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It lives in warm, shallow waters. If it encounters a\nfoe, it will spit out its internal organs as a means\nto punch them."
+		en: "It lives in warm, shallow waters. If it encounters a\nfoe, it will spit out its internal organs as a means\nto punch them.",
+		fr: "Il vit dans les eaux chaudes des hauts-fonds. S'il croise un ennemi, il l'attaque en lui crachant ses organes internes au visage."
 	},
 
 	stage: "Basic",
@@ -24,17 +26,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Innards Out"
+			en: "Innards Out",
+			fr: "Expuls'Organes"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, do 50 damage to the Attacking Pokémon."
+			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, do 50 damage to the Attacking Pokémon.",
+			fr: "Si ce Pokémon est sur le Poste Actif et qu'il est mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire, le Pokémon Attaquant subit 50 dégâts."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Sprinkle Water"
+			en: "Sprinkle Water",
+			fr: "Eau Aspergeante"
 		},
 
 		damage: 20,

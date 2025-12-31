@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 330,
 	types: ["Darkness"],
+	evolveFrom: {
+		fr: "Reptincel",
+		en: "Charmeleon",
+		es: "Charmeleon",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+		de: "Glutexo"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 
 	thirdParty: {
-		cardmarket: 725205
+		cardmarket: 725303
 	}
 }
 

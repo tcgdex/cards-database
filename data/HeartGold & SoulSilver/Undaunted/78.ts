@@ -21,12 +21,14 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	hp: 0
 }

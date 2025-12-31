@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Minccino",
+		fr: "Chinchidou",
+		es: "Minccino",
+		it: "Minccino",
+		pt: "Minccino",
+		de: "Picochilla"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -60,15 +68,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Shibuzoh.",
 
 	thirdParty: {
-		cardmarket: 760767
+		cardmarket: 760813
 	}
 }
 

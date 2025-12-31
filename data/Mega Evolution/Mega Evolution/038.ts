@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Clauncher",
+		fr: "Flingouste",
+		de: "Scampisto",
+		it: "Clauncher",
+		es: "Clauncher",
+		pt: "Clauncher",
+		'es-mx': "Clauncher"
+	},
 	stage: "Stage1",
+	dexId: [693],
 
 	abilities: [{
 		type: "Ability",
@@ -75,7 +85,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654377
+		tcgplayer: 654377,
+		cardmarket: 851109
 	}
 }
 

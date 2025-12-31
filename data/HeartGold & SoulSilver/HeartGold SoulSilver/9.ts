@@ -88,12 +88,14 @@ const card: Card = {
 		en: "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278981,

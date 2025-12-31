@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Larvesta",
+		fr: "Pyronille",
+		de: "Ignivor",
+		it: "Larvesta",
+		pt: "Larvesta",
+		es: "Larvesta",
+		'es-mx': "Larvesta"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -65,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835934
+		cardmarket: 836107
 	}
 }
 

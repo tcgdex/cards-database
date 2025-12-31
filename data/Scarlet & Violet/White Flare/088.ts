@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Sewaddle",
+		fr: "Larveyette",
+		de: "Strawickl",
+		it: "Sewaddle",
+		pt: "Sewaddle",
+		es: "Sewaddle",
+		'es-mx': "Sewaddle"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -65,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835899
+		cardmarket: 836072
 	}
 }
 

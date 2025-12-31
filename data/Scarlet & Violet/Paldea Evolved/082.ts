@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
+	evolveFrom: {
+		fr: "Zapétrel",
+		en: "Wattrel",
+		es: "Wattrel",
+		it: "Wattrel",
+		pt: "Wattrel",
+		de: "Voltrel"
+	},
 	stage: "Stage1",
 
 	attacks: [{

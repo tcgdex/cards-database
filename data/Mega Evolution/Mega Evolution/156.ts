@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Numel",
+		fr: "Chamallot",
+		de: "Camaub",
+		it: "Numel",
+		es: "Numel",
+		pt: "Numel",
+		'es-mx': "Numel"
+	},
 	stage: "Stage1",
+	dexId: [323],
 
 	attacks: [{
 		cost: ["Fire"],
@@ -75,7 +85,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654495
+		tcgplayer: 654495,
+		cardmarket: 851227
 	}
 }
 

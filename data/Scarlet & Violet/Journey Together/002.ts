@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Caterpie",
+		fr: "Chenipan",
+		es: "Caterpie",
+		de: "Raupy",
+		it: "Caterpie",
+		pt: "Caterpie",
+		'es-mx': "Caterpie"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -51,7 +60,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817154
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Seedot",
+		fr: "Grainipiot",
+		es: "Seedot",
+		it: "Seedot",
+		pt: "Seedot",
+		de: "Samurzel"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -60,9 +68,14 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Lee HyunJung",
 

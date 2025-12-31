@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Sandshrew",
+		fr: "Sabelette",
+		de: "Sandan",
+		it: "Sandshrew",
+		es: "Sandshrew",
+		pt: "Sandshrew",
+		'es-mx': "Sandshrew"
+	},
 	stage: "Stage1",
+	dexId: [28],
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
@@ -65,7 +75,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654408
+		tcgplayer: 654408,
+		cardmarket: 851140
 	}
 }
 

@@ -81,12 +81,26 @@ const card: Card = {
 		en: "It deliberately makes itself heavy so it can withstand the recoil of the water jets it fires."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice"
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release","staff"],
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release"],
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279169,

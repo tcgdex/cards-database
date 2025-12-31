@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Smoliv",
+		fr: "Olivini",
+		de: "Olini",
+		it: "Smoliv",
+		es: "Smoliv",
+		pt: "Smoliv",
+		'es-mx': "Smoliv"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -69,7 +78,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825896
+	}
 }
 
 export default card

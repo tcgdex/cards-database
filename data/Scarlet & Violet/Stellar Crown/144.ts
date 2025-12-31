@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Ledyba",
+		fr: "Coxy",
+		es: "Ledyba",
+		it: "Ledyba",
+		pt: "Ledyba",
+		de: "Ledyba"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "HYOGONOSUKE",
 
 	thirdParty: {
-		cardmarket: 785856
+		cardmarket: 785998
 	}
 }
 

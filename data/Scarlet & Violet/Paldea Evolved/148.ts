@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Metal"],
+	evolveFrom: {
+		fr: "Bleuseille",
+		en: "Corvisquire",
+		es: "Corvisquire",
+		it: "Corvisquire",
+		pt: "Corvisquire",
+		de: "Kranoviz"
+	},
 	stage: "Stage2",
 
 	attacks: [{

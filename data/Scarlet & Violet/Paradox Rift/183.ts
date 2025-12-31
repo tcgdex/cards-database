@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Dwebble",
+		fr: "Crabicoque",
+		es: "Dwebble",
+		it: "Dwebble",
+		pt: "Dwebble",
+		de: "Lithomith"
+	},
 	stage: "Stage1",
 
 	attacks: [{

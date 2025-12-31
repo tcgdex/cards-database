@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Roselia",
+		fr: "Rosélia",
+		es: "Roselia",
+		it: "Roselia",
+		pt: "Roselia",
+		de: "Roselia"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -69,9 +77,14 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Gapao",
 

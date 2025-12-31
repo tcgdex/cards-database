@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Frillish",
+		fr: "Viskuse",
+		de: "Quabbel",
+		it: "Frillish",
+		pt: "Frillish",
+		es: "Frillish",
+		'es-mx': "Frillish"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -75,7 +84,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835984
+		cardmarket: 836214
 	}
 }
 

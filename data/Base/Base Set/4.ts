@@ -91,7 +91,28 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 273699,
 		tcgplayer: 42382
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright",
+		}
+	],
+
 }
 
 export default card

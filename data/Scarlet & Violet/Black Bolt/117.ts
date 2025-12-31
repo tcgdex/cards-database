@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Munna",
+		fr: "Munna",
+		de: "Somniam",
+		it: "Munna",
+		pt: "Munna",
+		es: "Munna",
+		'es-mx': "Munna"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -73,7 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835980
+		cardmarket: 836146
 	}
 }
 

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Vanillite",
+		fr: "Sorbébé",
+		de: "Gelatini",
+		it: "Vanillite",
+		pt: "Vanillite",
+		es: "Vanillite",
+		'es-mx': "Vanillite"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835958
+		cardmarket: 836118
 	}
 }
 

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Minccino",
+		fr: "Chinchidou",
+		es: "Minccino",
+		de: "Picochilla",
+		it: "Minccino",
+		pt: "Minccino",
+		'es-mx': "Minccino"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -43,7 +52,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817278
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

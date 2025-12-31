@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gible"
+		en: "Gible",
+		fr: "Griknot"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It skulks in caves, and when prey or an enemy\npasses by, it leaps out and chomps them.\nThe force of its attack sometimes chips its teeth."
+		en: "It skulks in caves, and when prey or an enemy\npasses by, it leaps out and chomps them.\nThe force of its attack sometimes chips its teeth.",
+		fr: "Il attend qu'une proie passe pour bondir hors de son trou et la croquer. Dans son élan, il se casse parfois les dents."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 
 		damage: 20,

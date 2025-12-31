@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Metal"],
+	evolveFrom: {
+		fr: "Archéomire",
+		en: "Bronzor",
+		es: "Bronzor",
+		it: "Bronzor",
+		pt: "Bronzor",
+		de: "Bronzel"
+	},
 	stage: "Stage1",
 
 	attacks: [{

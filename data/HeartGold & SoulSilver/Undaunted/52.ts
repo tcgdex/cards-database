@@ -69,12 +69,14 @@ const card: Card = {
 		en: "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279305,

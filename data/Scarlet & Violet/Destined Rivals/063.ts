@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Arrokuda",
+		fr: "Embrochet",
+		de: "Pikuda",
+		it: "Arrokuda",
+		es: "Arrokuda",
+		pt: "Arrokuda",
+		'es-mx': "Arrokuda"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -71,7 +80,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825937
+	}
 }
 
 export default card

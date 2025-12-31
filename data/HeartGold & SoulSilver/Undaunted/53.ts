@@ -62,12 +62,14 @@ const card: Card = {
 		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279306,

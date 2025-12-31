@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Totodile"
+		en: "Totodile",
+		fr: "Kaiminus"
 	},
 
 	illustrator: "kawayoo",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It is small but rough and tough. It won't hesitate to\ntake a bite out of anything that moves."
+		en: "It is small but rough and tough. It won't hesitate to\ntake a bite out of anything that moves.",
+		fr: "Petit mais costaud, il n'hésite pas à mordre tout ce qui passe à portée de dents."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Wave Splash"
+			en: "Wave Splash",
+			fr: "Grosse Vague"
 		},
 
 		damage: 20,

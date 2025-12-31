@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Shroodle",
+		fr: "Gribouraigne",
+		de: "Sproxi",
+		it: "Shroodle",
+		es: "Shroodle",
+		pt: "Shroodle",
+		'es-mx': "Shroodle"
+	},
 	stage: "Stage1",
+	dexId: [945],
 
 	attacks: [{
 		cost: ["Darkness", "Colorless"],
@@ -51,7 +61,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654431
+		tcgplayer: 654431,
+		cardmarket: 851163
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 310,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Matourgeon",
+		en: "Floragato",
+		es: "Floragato",
+		it: "Floragato",
+		pt: "Floragato",
+		de: "Feliospa"
+	},
 	stage: "Stage2",
 
 	abilities: [{

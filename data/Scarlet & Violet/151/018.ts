@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Roucoups",
+		en: "Pidgeotto",
+		es: "Pidgeotto",
+		it: "Pidgeotto",
+		pt: "Pidgeotto",
+		de: "Tauboga"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -67,7 +75,7 @@ const card: Card = {
 	illustrator: "Oswaldo KATO",
 
 	thirdParty: {
-		cardmarket: 733612
+		cardmarket: 733613
 	}
 }
 

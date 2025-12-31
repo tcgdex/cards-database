@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Duraludon",
+		fr: "Duralugon",
+		es: "Duraludon",
+		it: "Duraludon",
+		pt: "Duraludon",
+		de: "Duraludon"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 
 	thirdParty: {
-		cardmarket: 785961
+		cardmarket: 786009
 	}
 }
 

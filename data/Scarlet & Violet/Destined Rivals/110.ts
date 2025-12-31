@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Arven's Toedscool",
+		fr: "Terracool de Pepper",
+		de: "Peppers Tentagra",
+		it: "Toedscool di Pepe",
+		es: "Toedscool de Damián",
+		pt: "Toedscool do Arven",
+		'es-mx': "Toedscool de Damián"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -79,7 +88,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825984
+	}
 }
 
 export default card

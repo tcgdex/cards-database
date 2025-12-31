@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Cottonee",
+		fr: "Doudouvet",
+		es: "Cottonee",
+		it: "Cottonee",
+		pt: "Cottonee",
+		de: "Waumboll"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -60,9 +68,14 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Mizue",
 

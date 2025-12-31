@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Team Rocket's Tarountula",
+		fr: "Tissenboule de la Team Rocket",
+		de: "Team Rockets Tarundel",
+		it: "Tarountula del Team Rocket",
+		es: "Tarountula del Team Rocket",
+		pt: "Tarountula da Equipe Rocket",
+		'es-mx': "Tarountula del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -81,7 +90,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825894
+	}
 }
 
 export default card

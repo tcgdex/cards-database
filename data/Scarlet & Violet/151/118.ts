@@ -67,7 +67,7 @@ const card: Card = {
 	illustrator: "SIE NANAHARA",
 
 	thirdParty: {
-		cardmarket: 733713
+		cardmarket: 733694
 	}
 }
 

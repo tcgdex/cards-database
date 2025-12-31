@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Barboach"
+		en: "Barboach",
+		fr: "Barloche"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Its two whiskers provide a sensitive radar. Even in\nmuddy waters, it can detect its prey's location."
+		en: "Its two whiskers provide a sensitive radar. Even in\nmuddy waters, it can detect its prey's location.",
+		fr: "Il se sert de ses barbillons comme d'un radar ultrasophistiqué. Ils lui permettent de détecter ses proies même dans l'eau boueuse."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mud Shot"
+			en: "Mud Shot",
+			fr: "Tir de Boue"
 		},
 
 		damage: 30,

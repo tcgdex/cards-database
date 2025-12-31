@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Herbizarre",
+		en: "Ivysaur",
+		es: "Ivysaur",
+		it: "Ivysaur",
+		pt: "Ivysaur",
+		de: "Bisaknosp"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-		cardmarket: 733598
+		cardmarket: 733751
 	}
 }
 

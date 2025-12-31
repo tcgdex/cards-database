@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Abra",
+		fr: "Abra",
+		de: "Abra",
+		it: "Abra",
+		es: "Abra",
+		pt: "Abra",
+		'es-mx': "Abra"
+	},
 	stage: "Stage1",
+	dexId: [64],
 
 	abilities: [{
 		type: "Ability",
@@ -65,7 +75,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654394
+		tcgplayer: 654394,
+		cardmarket: 851126
 	}
 }
 

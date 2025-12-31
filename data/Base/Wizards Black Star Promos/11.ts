@@ -57,9 +57,15 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "normal"
+		}
+	]
 }
 
 export default card

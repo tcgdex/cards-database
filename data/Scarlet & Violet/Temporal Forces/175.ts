@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Mudbray",
+		fr: "Tiboudet",
+		es: "Mudbray",
+		it: "Mudbray",
+		pt: "Mudbray",
+		de: "Pampuli"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -67,15 +75,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "MINAMINAMI Take",
 
 	thirdParty: {
-		cardmarket: 760722
+		cardmarket: 760805
 	}
 }
 

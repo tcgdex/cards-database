@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rowlet"
+		en: "Rowlet",
+		fr: "Brindibou"
 	},
 
 	illustrator: "OKACHEKE",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It sends its feathers, which are as sharp\nas blades, flying in attack. Its legs are strong,\nso its kicks are also formidable."
+		en: "It sends its feathers, which are as sharp\nas blades, flying in attack. Its legs are strong,\nso its kicks are also formidable.",
+		fr: "Il attaque en tirant des plumes acérées. La force de ses coups de patte est également redoutable."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Fury Attack"
+			en: "Fury Attack",
+			fr: "Furie"
 		},
 
 		damage: 10,
 		cost: ["Grass"],
 
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage for each heads."
+			en: "Flip 3 coins. This attack does 10 damage for each heads.",
+			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face."
 		}
 	}],
 

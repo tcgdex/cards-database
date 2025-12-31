@@ -73,7 +73,24 @@ const card: Card = {
 
 	description: {
 		fr: "Il peut modeler l'espace. Les mythes de Sinnoh en parlent comme d'une divinité ancienne."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			foil: "cracked-ice"
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			foil: "mirror"
+		}
+	],
 }
 
 export default card

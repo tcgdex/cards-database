@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Drilbur",
+		fr: "Rototaupe",
+		de: "Rotomurf",
+		it: "Drilbur",
+		pt: "Drilbur",
+		es: "Drilbur",
+		'es-mx': "Drilbur"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +84,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835999
+		cardmarket: 836242
 	}
 }
 

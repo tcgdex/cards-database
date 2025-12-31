@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Metang",
+		fr: "Métang",
+		es: "Metang",
+		it: "Metang",
+		pt: "Metang",
+		de: "Metang"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -69,15 +77,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Katsunori Sato",
 
 	thirdParty: {
-		cardmarket: 760745
+		cardmarket: 760808
 	}
 }
 

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 310,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Team Rocket's Golbat",
+		fr: "Nosferalto de la Team Rocket",
+		de: "Team Rockets Golbat",
+		it: "Golbat del Team Rocket",
+		es: "Golbat del Team Rocket",
+		pt: "Golbat da Equipe Rocket",
+		'es-mx': "Golbat del Equipo Rocket"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -78,7 +87,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826108
+	}
 }
 
 export default card

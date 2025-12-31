@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Cynthia's Gible",
+		fr: "Griknot de Cynthia",
+		de: "Cynthias Kaumalat",
+		it: "Gible di Camilla",
+		es: "Gible de Cintia",
+		pt: "Gible da Cíntia",
+		'es-mx': "Gible de Cynthia"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -71,7 +80,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825977
+	}
 }
 
 export default card

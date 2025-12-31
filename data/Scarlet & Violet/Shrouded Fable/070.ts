@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Dusclops",
+		fr: "Téraclope",
+		es: "Dusclops",
+		it: "Dusclops",
+		pt: "Dusclops",
+		de: "Zwirrklop"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "James Turner",
 
 	thirdParty: {
-		cardmarket: 780914
+		cardmarket: 780965
 	}
 }
 

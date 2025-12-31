@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Slugma",
+		fr: "Limagma",
+		es: "Slugma",
+		it: "Slugma",
+		pt: "Slugma",
+		de: "Schneckmag"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "PLANETA Yamashita",
 
 	thirdParty: {
-		cardmarket: 769203
+		cardmarket: 769365
 	}
 }
 

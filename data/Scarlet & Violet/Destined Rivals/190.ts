@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Ethan's Quilava",
+		fr: "Feurisson de Luth",
+		de: "Klarins Igelavar",
+		it: "Quilava di Armonio",
+		es: "Quilava de Eco",
+		pt: "Quilava do Ethan",
+		'es-mx': "Quilava de Ethan"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -68,7 +77,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826064
+	}
 }
 
 export default card

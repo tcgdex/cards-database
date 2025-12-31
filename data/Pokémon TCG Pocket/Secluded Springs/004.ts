@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sunkern"
+		en: "Sunkern",
+		fr: "Tournegrin"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -15,14 +16,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It suddenly falls out of the sky in the morning.\nKnowing it's weak, it simply feeds until it evolves."
+		en: "It suddenly falls out of the sky in the morning.\nKnowing it's weak, it simply feeds until it evolves.",
+		fr: "Ce Pokémon tombe soudainement du ciel le matin. Conscient de sa faible constitution, il ne fait que se nourrir jusqu'à ce qu'il évolue."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 
 		damage: 10,

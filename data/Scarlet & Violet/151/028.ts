@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Sabelette",
+		en: "Sandshrew",
+		es: "Sandshrew",
+		it: "Sandshrew",
+		pt: "Sandshrew",
+		de: "Sandan"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -76,7 +84,7 @@ const card: Card = {
 	illustrator: "kodama",
 
 	thirdParty: {
-		cardmarket: 733623
+		cardmarket: 733631
 	}
 }
 

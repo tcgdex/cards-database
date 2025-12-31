@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Venipede",
+		fr: "Venipatte",
+		de: "Toxiped",
+		it: "Venipede",
+		pt: "Venipede",
+		es: "Venipede",
+		'es-mx': "Venipede"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -51,7 +60,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836018
+		cardmarket: 836183
 	}
 }
 

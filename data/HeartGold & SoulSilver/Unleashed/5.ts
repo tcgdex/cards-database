@@ -86,12 +86,23 @@ const card: Card = {
 		en: "Its cries sound like incantations to torment the foe. It appears where you least expect it."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			stamp: ["staff"]
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279161,

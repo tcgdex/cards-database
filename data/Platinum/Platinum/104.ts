@@ -23,7 +23,36 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278525,
 		tcgplayer: 83991
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+		{
+			type: "normal",
+			stamp: ["stephen-silvestro"]
+		},
+		{
+			type: "normal",
+			stamp: ["jason-martinez"]
+		},
+		{
+			type: "normal",
+			stamp: ["mychael-bryan"]
+		},
+		{
+			type: "normal",
+			stamp: ["yuka-furusawa"]
+		}
+	]
 }
 
 export default card

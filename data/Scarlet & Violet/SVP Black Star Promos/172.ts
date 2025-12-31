@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
+		it: "Eevee",
+		pt: "Eevee",
+		de: "Evoli"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -40,8 +48,7 @@ const card: Card = {
 				de: "Wirf 1 Münze. Wähle bei Kopf 1 Pokémon auf der Bank deines Gegners. Mische jenes Pokémon und alle angelegten Karten in sein Deck.",
 				es: "Lanza 1 moneda. Si sale cara, elige 1 de los Pokémon en Banca de tu rival. Pon ese Pokémon y todas las cartas unidas a él en su baraja y barájalas todas.",
 				it: "Lancia una moneta. Se esce testa, scegli uno dei Pokémon nella panchina del tuo avversario. Rimischia quel Pokémon e tutte le carte a esso assegnate nel suo mazzo."
-			},
-		},
+			}},
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 

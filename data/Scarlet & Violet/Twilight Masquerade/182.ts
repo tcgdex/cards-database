@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Nosepass",
+		fr: "Tarinor",
+		es: "Nosepass",
+		it: "Nosepass",
+		pt: "Nosepass",
+		de: "Nasgnet"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "Kariya",
 
 	thirdParty: {
-		cardmarket: 769276
+		cardmarket: 769356
 	}
 }
 

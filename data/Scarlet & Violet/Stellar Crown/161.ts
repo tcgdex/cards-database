@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Meditite",
+		fr: "Méditikka",
+		es: "Meditite",
+		it: "Meditite",
+		pt: "Meditite",
+		de: "Meditie"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +83,7 @@ const card: Card = {
 	illustrator: "PLANETA Yamashita",
 
 	thirdParty: {
-		cardmarket: 785934
+		cardmarket: 786015
 	}
 }
 

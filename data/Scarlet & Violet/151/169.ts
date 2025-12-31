@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
+	evolveFrom: {
+		fr: "Salamèche",
+		en: "Charmander",
+		es: "Charmander",
+		it: "Charmander",
+		pt: "Charmander",
+		de: "Glumanda"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "miki kudo",
 
 	thirdParty: {
-		cardmarket: 733600
+		cardmarket: 733757
 	}
 }
 

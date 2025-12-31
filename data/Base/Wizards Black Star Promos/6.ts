@@ -72,7 +72,13 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon légendaire réputé pour sa beauté. Il galope si vite qu'il semble voler."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+	]
 }
 
 export default card

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Psykokwak",
+		en: "Psyduck",
+		es: "Psyduck",
+		it: "Psyduck",
+		pt: "Psyduck",
+		de: "Enton"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +73,7 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 
 	thirdParty: {
-		cardmarket: 733650
+		cardmarket: 733639
 	}
 }
 

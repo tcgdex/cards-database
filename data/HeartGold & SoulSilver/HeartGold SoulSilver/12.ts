@@ -80,12 +80,14 @@ const card: Card = {
 		en: "It has incredible intellect and intuition. Whatever the situation, it remains calm and collected."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278984,

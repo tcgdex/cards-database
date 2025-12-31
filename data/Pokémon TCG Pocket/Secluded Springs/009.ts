@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magcargo"
+		en: "Magcargo",
+		fr: "Volcaropod"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its brittle shell occasionally spouts intense flames\nthat circulate throughout its body."
+		en: "Its brittle shell occasionally spouts intense flames\nthat circulate throughout its body.",
+		fr: "Sa coquille, très fragile, projette régulièrement des flammes qui circulent dans son corps."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heat Blast"
+			en: "Heat Blast",
+			fr: "Explosion de Chaleur"
 		},
 
 		damage: 90,

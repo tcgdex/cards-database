@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Coconfort",
+		en: "Kakuna",
+		es: "Kakuna",
+		it: "Kakuna",
+		pt: "Kakuna",
+		de: "Kokuna"
+	},
 	stage: "Stage2",
 
 	attacks: [{

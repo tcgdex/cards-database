@@ -80,7 +80,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277843,
 		tcgplayer: 86181
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["yuka-furusawa"]
+		}
+	]
 }
 
 export default card

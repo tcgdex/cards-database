@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Glaceon ex"
+		en: "Glaceon ex",
+		fr: "Givrali-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -25,17 +26,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Snowy Terrain"
+			en: "Snowy Terrain",
+			fr: "Terrain Enneigé"
 		},
 
 		effect: {
-			en: "During Pokémon Checkup, if this Pokémon is in the Active Spot, do 10 damage to your opponent's Active Pokémon."
+			en: "During Pokémon Checkup, if this Pokémon is in the Active Spot, do 10 damage to your opponent's Active Pokémon.",
+			fr: "Pendant le Contrôle Pokémon, si ce Pokémon est sur le Poste Actif, infligez 10 dégâts au Pokémon Actif de votre adversaire."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Freezing Wind"
+			en: "Freezing Wind",
+			fr: "Vent Glaçant"
 		},
 
 		damage: 90,

@@ -77,12 +77,14 @@ const card: Card = {
 		en: "Capable of flying safely in dark places, it emits ultrasonic cries to check for any obstacles."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279226,

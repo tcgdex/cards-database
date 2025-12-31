@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 360,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Kirlia",
+		fr: "Kirlia",
+		de: "Kirlia",
+		it: "Kirlia",
+		es: "Kirlia",
+		pt: "Kirlia",
+		'es-mx': "Kirlia"
+	},
 	stage: "Stage2",
+	dexId: [282],
 
 	attacks: [{
 		cost: ["Psychic"],
@@ -73,7 +83,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654498
+		tcgplayer: 654498,
+		cardmarket: 851230
 	}
 }
 

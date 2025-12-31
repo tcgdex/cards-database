@@ -72,12 +72,14 @@ const card: Card = {
 		en: "It is extremely ill-tempered. Groups of them will attack any handy target for no reason."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279209,

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 280,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Meltan",
+		fr: "Meltan",
+		es: "Meltan",
+		it: "Meltan",
+		pt: "Meltan",
+		de: "Meltan"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -55,7 +63,7 @@ const card: Card = {
 	illustrator: "takuyoa",
 
 	thirdParty: {
-		cardmarket: 785959
+		cardmarket: 841266
 	}
 }
 

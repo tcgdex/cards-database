@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Nincada",
+		fr: "Ningale",
+		de: "Nincada",
+		it: "Nincada",
+		es: "Nincada",
+		pt: "Nincada",
+		'es-mx': "Nincada"
+	},
 	stage: "Stage1",
+	dexId: [292],
 
 	abilities: [{
 		type: "Ability",
@@ -75,7 +85,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654483
+		tcgplayer: 654483,
+		cardmarket: 851215
 	}
 }
 

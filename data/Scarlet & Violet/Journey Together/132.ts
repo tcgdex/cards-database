@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Skwovet",
+		fr: "Rongourmand",
+		es: "Skwovet",
+		de: "Raffel",
+		it: "Skwovet",
+		pt: "Skwovet",
+		'es-mx': "Skwovet"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -53,7 +62,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817284
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

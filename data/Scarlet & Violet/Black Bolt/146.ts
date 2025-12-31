@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Axew",
+		fr: "Coupenotte",
+		de: "Milza",
+		it: "Axew",
+		pt: "Axew",
+		es: "Axew",
+		'es-mx': "Axew"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836048
+		cardmarket: 836215
 	}
 }
 

@@ -79,12 +79,14 @@ const card: Card = {
 		en: "When the weather turns cold, lots of Ledyba gather from everywhere to cluster and keep each other warm."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279043,

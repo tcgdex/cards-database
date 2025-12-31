@@ -18,7 +18,28 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275753,
 		tcgplayer: 85438
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			subtype: "no-e-reader"
+		},
+		{
+			type: "normal",
+			stamp: ["professor-program"]
+		},
+		{
+			type: "normal",
+			stamp: ["tsuguyoshi-yamato"]
+		}
+	]
 }
 
 export default card

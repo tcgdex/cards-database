@@ -44,10 +44,12 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: [
+		{
+			type: "normal",
+			stamp: ["pokemon-4-ever"]
+		}
+	]
 }
 
 export default card

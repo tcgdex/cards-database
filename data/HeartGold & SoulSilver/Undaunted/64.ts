@@ -54,12 +54,14 @@ const card: Card = {
 		en: "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279317,

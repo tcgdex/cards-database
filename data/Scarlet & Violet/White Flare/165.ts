@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 230,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Cottonee",
+		fr: "Doudouvet",
+		de: "Waumboll",
+		it: "Cottonee",
+		pt: "Cottonee",
+		es: "Cottonee",
+		'es-mx': "Cottonee"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -73,7 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835909
+		cardmarket: 836207
 	}
 }
 

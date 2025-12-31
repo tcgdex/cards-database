@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Croagunk",
+		fr: "Cradopaud",
+		de: "Glibunkel",
+		it: "Croagunk",
+		es: "Croagunk",
+		pt: "Croagunk",
+		'es-mx': "Croagunk"
+	},
 	stage: "Stage1",
+	dexId: [454],
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -51,7 +61,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654418
+		tcgplayer: 654418,
+		cardmarket: 851150
 	}
 }
 

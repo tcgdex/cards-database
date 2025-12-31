@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Pineco",
+		fr: "Pomdepik",
+		es: "Pineco",
+		it: "Pineco",
+		pt: "Pineco",
+		de: "Tannza"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -69,9 +77,14 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "osare",
 

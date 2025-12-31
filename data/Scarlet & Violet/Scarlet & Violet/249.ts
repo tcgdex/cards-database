@@ -36,8 +36,9 @@ const card: Card = {
 	illustrator: "kantaro",
 
 	thirdParty: {
-		cardmarket: 702462
-	}
+        cardmarket: 702462,
+        tcgplayer: 490292
+    }
 }
 
 export default card

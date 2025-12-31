@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Krokorok",
+		fr: "Escroco",
+		de: "Rokkaiman",
+		it: "Krokorok",
+		pt: "Krokorok",
+		es: "Krokorok",
+		'es-mx': "Krokorok"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -75,7 +84,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836026
+		cardmarket: 836193
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Germéclat",
+		en: "Glimmet",
+		es: "Glimmet",
+		it: "Glimmet",
+		pt: "Glimmet",
+		de: "Lumispross"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-		cardmarket: 725203
+		cardmarket: 725293
 	}
 }
 

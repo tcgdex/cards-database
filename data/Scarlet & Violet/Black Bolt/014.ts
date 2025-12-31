@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Darumaka",
+		fr: "Darumarond",
+		de: "Flampion",
+		it: "Darumaka",
+		pt: "Darumaka",
+		es: "Darumaka",
+		'es-mx': "Darumaka"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +84,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835929
+		cardmarket: 836069
 	}
 }
 

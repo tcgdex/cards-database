@@ -70,6 +70,23 @@ const card: Card = {
 
 	retreat: 1,
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+		},
+		{
+			type: "reverse",
+			foil: "league",
+		},
+	]
+
 
 
 }

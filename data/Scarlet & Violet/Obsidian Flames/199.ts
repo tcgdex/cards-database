@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
+	evolveFrom: {
+		fr: "Goupix",
+		en: "Vulpix",
+		es: "Vulpix",
+		it: "Vulpix",
+		pt: "Vulpix",
+		de: "Vulpix"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -66,7 +74,7 @@ const card: Card = {
 	illustrator: "SIE NANAHARA",
 
 	thirdParty: {
-		cardmarket: 725109
+		cardmarket: 725279
 	}
 }
 

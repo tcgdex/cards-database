@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Terracool",
+		en: "Toedscool",
+		es: "Toedscool",
+		it: "Toedscool",
+		pt: "Toedscool",
+		de: "Tentagra"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -67,7 +75,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	thirdParty: {
-		cardmarket: 725102
+		cardmarket: 725199
 	}
 }
 

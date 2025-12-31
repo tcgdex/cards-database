@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 280,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Iono's Tadbulb",
+		fr: "Têtampoule de Mashynn",
+		es: "Tadbulb de e-Nigma",
+		de: "Enigmaras Blipp",
+		it: "Tadbulb di Kissara",
+		pt: "Tadbulb da Kissera",
+		'es-mx': "Tadbulb de e-Nigma"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -76,8 +85,14 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	thirdParty: {
-		cardmarket: 817205
-	}
+		cardmarket: 817336
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

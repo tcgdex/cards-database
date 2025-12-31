@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 300,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Cetoddle",
+		fr: "Piétacé",
+		de: "Flaniwal",
+		it: "Cetoddle",
+		es: "Cetoddle",
+		pt: "Cetoddle",
+		'es-mx': "Cetoddle"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -81,7 +90,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825939
+	}
 }
 
 export default card

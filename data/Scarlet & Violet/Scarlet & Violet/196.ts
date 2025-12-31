@@ -35,8 +35,9 @@ const card: Card = {
 	illustrator: "Ayaka Yoshida",
 
 	thirdParty: {
-		cardmarket: 702492
-	}
+        cardmarket: 702492,
+        tcgplayer: 488105
+    }
 }
 
 export default card

@@ -75,12 +75,14 @@ const card: Card = {
 		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279304,

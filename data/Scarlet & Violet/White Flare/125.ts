@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Gothita",
+		fr: "Scrutella",
+		de: "Mollimorba",
+		it: "Gothita",
+		pt: "Gothita",
+		es: "Gothita",
+		'es-mx': "Gothita"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -63,7 +72,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835977
+		cardmarket: 836141
 	}
 }
 

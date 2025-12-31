@@ -19,7 +19,18 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Stufful",
+		fr: "Nounourson",
+		de: "Velursi",
+		it: "Stufful",
+		es: "Stufful",
+		pt: "Stufful",
+		'es-mx': "Stufful"
+	},
 	stage: "Stage1",
+	dexId: [760],
+
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
@@ -65,7 +76,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654451
+		tcgplayer: 654451,
+		cardmarket: 851183
 	}
 }
 

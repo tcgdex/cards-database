@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darmanitan"
+		en: "Darmanitan",
+		fr: "Darumacho"
 	},
 
 	illustrator: "Naoki Saito",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The thick arms of this hot-blooded Pokémon\ncan deliver punches capable of obliterating a\ndump truck."
+		en: "The thick arms of this hot-blooded Pokémon\ncan deliver punches capable of obliterating a\ndump truck.",
+		fr: "Véritable tête brûlée, il possède assez de force dans ses gros bras pour réduire en poussière un camion-benne à coups de poing."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heat Blast"
+			en: "Heat Blast",
+			fr: "Explosion de Chaleur"
 		},
 
 		damage: 70,

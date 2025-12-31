@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Larvitar",
+		fr: "Embrylex",
+		es: "Larvitar",
+		de: "Larvitar",
+		it: "Larvitar",
+		pt: "Larvitar",
+		'es-mx': "Larvitar"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -53,7 +62,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817233
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

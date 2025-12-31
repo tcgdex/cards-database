@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Sprigatito",
+		fr: "Poussacha",
+		es: "Sprigatito",
+		de: "Felori",
+		it: "Sprigatito",
+		pt: "Sprigatito",
+		'es-mx': "Sprigatito"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -53,7 +62,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817169
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

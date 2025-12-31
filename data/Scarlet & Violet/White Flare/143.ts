@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Zorua",
+		fr: "Zorua",
+		de: "Zorua",
+		it: "Zorua",
+		pt: "Zorua",
+		es: "Zorua",
+		'es-mx': "Zorua"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -73,7 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836016
+		cardmarket: 836171
 	}
 }
 

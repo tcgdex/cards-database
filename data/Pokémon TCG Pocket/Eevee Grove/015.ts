@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Salazzle"
+		en: "Salazzle",
+		fr: "Malamandre"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -19,14 +20,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Salazzle makes its opponents light-headed with\npoisonous gas, then captivates them with alluring\nmovements to turn them into loyal servants."
+		en: "Salazzle makes its opponents light-headed with\npoisonous gas, then captivates them with alluring\nmovements to turn them into loyal servants.",
+		fr: "Il étourdit ses adversaires avec son gaz toxique, puis il les asservit en exécutant une danse envoûtante."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Combustion"
+			en: "Combustion",
+			fr: "Fournaise"
 		},
 
 		damage: 40,

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Pomdepik",
+		en: "Pineco",
+		es: "Pineco",
+		it: "Pineco",
+		pt: "Pineco",
+		de: "Tannza"
+	},
 	stage: "Stage1",
 
 	abilities: [{

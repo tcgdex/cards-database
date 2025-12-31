@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Darkness"],
+	evolveFrom: {
+		fr: "Nidorino",
+		en: "Nidorino",
+		es: "Nidorino",
+		it: "Nidorino",
+		pt: "Nidorino",
+		de: "Nidorino"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Misaki Hashimoto",
 
 	thirdParty: {
-		cardmarket: 733629
+		cardmarket: 733698
 	}
 }
 

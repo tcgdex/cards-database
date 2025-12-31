@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miltank"
+		en: "Miltank",
+		fr: "Écrémeuh"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -15,21 +16,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Miltank produces highly nutritious milk, so it's\nbeen supporting the lives of people and other\nPokémon since ancient times."
+		en: "Miltank produces highly nutritious milk, so it's\nbeen supporting the lives of people and other\nPokémon since ancient times.",
+		fr: "Grâce à son lait très nutritif, Écrémeuh contribue depuis longtemps au bien-être des humains et des Pokémon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rolling Frenzy"
+			en: "Rolling Frenzy",
+			fr: "Roulade Frénétique"
 		},
 
 		damage: 10,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Until this Pokémon leaves the Active Spot, this Pokémon's Rolling Frenzy attack does +30 damage. This effect stacks."
+			en: "Until this Pokémon leaves the Active Spot, this Pokémon's Rolling Frenzy attack does +30 damage. This effect stacks.",
+			fr: "Tant que ce Pokémon est sur le Poste Actif, son attaque Roulade Frénétique inflige + 30 dégâts. Cet effet est cumulable."
 		}
 	}],
 

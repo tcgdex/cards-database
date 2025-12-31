@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Electabuzz",
+		fr: "Élektek",
+		es: "Electabuzz",
+		it: "Electabuzz",
+		pt: "Electabuzz",
+		de: "Elektek"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -60,9 +68,14 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Yuya Oka",
 

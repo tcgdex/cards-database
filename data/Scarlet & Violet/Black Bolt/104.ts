@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Tympole",
+		fr: "Tritonde",
+		de: "Schallquap",
+		it: "Tympole",
+		pt: "Tympole",
+		es: "Tympole",
+		'es-mx': "Tympole"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835942
+		cardmarket: 836115
 	}
 }
 

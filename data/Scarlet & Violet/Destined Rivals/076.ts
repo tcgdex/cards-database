@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Electrike",
+		fr: "Dynavolt",
+		de: "Frizelbliz",
+		it: "Electrike",
+		es: "Electrike",
+		pt: "Electrike",
+		'es-mx': "Electrike"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -71,7 +80,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825950
+	}
 }
 
 export default card

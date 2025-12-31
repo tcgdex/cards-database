@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Buneary",
+		fr: "Laporeille",
+		de: "Haspiror",
+		it: "Buneary",
+		es: "Buneary",
+		pt: "Buneary",
+		'es-mx': "Buneary"
+	},
 	stage: "Stage1",
+	dexId: [428],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -63,7 +73,8 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		tcgplayer: 654447
+		tcgplayer: 654447,
+		cardmarket: 851179
 	}
 }
 

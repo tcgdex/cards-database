@@ -71,7 +71,40 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275837,
 		tcgplayer: 85008
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			subtype: "no-e-reader"
+		},
+		{
+			type: "normal",
+			stamp: ["chris-fulop"]
+		},
+		{
+			type: "normal",
+			stamp: ["reed-weichler"]
+		},
+		{
+			type: "normal",
+			stamp: ["kevin-nguyen"]
+		},
+		{
+			type: "normal",
+			stamp: ["takashi-yoneda"]
+		},
+		{
+			type: "normal",
+			stamp: ["michael-gonzalez"]
+		}
+	]
 }
 
 export default card
