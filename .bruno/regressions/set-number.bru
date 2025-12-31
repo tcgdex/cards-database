@@ -1,0 +1,20 @@
+meta {
+  name: Card set_number structure
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards/swsh3-136
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.set_number.text: eq "136/189"
+  res.body.set_number.nominator: eq "136"
+  res.body.set_number.numeric: eq 136
+  res.body.set_number.denominator: eq "189"
+}
+

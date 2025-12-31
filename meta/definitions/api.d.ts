@@ -146,7 +146,10 @@ export interface Set extends SetResume {
 		firstEd?: number;
 	};
 	cards: Array<CardResume>;
-	abbreviation: { official: string, localized: string };
+	abbreviation?: {
+		official?: string,
+		localized?: string
+	};
 	thirdParty?: {
 		cardmarket?: number
 		tcgplayer?: number

@@ -71,6 +71,19 @@ export function enhanceTrainerLegality(
 	return compiledCards
 }
 
+export function buildSetNumber(localId: string, card: Card): CardSingle['set_number'] {
+	const officialCount = card.set.cardCount?.official
+	const normalizedId = localId.toString()
+	const numericMatch = normalizedId.match(/(\d+)/)
+
+	return {
+		text: officialCount && officialCount > 0 ? `${normalizedId}/${officialCount}` : normalizedId,
+		nominator: normalizedId,
+		numeric: numericMatch ? parseInt(numericMatch[1], 10) : undefined,
+		denominator: officialCount && officialCount > 0 ? officialCount.toString() : undefined
+	}
+}
+
 export async function getCardPictures(
 	cardId: string,
 	card: Card,
@@ -114,7 +127,7 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 	}
 }
 
-function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
+export function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
 	return {
 		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === '1st-edition')) ?? false,
 		holo: variants_detailed?.some((variant) => variant.type === 'holo') ?? false,
@@ -124,7 +137,7 @@ function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>):
 	}
 }
 
-function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<variant_detailed> {
+export function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<variant_detailed> {
 	const result: Array<variant_detailed> = [];
 	const addVariant = (type: string, stamps: string[] = []) => {
 		result.push({
@@ -250,17 +263,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		})) : undefined,
 		updated: await getCardLastEdit(localId, card, lang),
 
-		set_number: (() => {
-			const officialCount = card.set.cardCount?.official
-			const normalizedId = localId.toString()
-			const numericMatch = normalizedId.match(/(\d+)/)
-			return {
-				text: officialCount && officialCount > 0 ? `${normalizedId}/${officialCount}` : normalizedId,
-				nominator: normalizedId,
-				numeric: numericMatch ? parseInt(numericMatch[1], 10) : undefined,
-				denominator: officialCount && officialCount > 0 ? officialCount.toString() : undefined
-			}
-		})(),
+		set_number: buildSetNumber(localId, card),
 
 		thirdParty: card.thirdParty
 	}

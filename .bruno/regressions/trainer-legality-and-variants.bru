@@ -1,0 +1,18 @@
+meta {
+  name: Trainer legality propagation + variant images
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards/base1-95
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.legal.standard: eq true
+  res.body.variants_detailed[0].image: contains https://assets.tcgdex.net/
+}
+

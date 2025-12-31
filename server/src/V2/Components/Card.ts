@@ -81,12 +81,10 @@ const cards = {
 
 const cache = new Cache()
 
-type MappedCard = SDKCard // (typeof en)[number]
-
 export type Card = SDKCard
 
 export async function getAllCards(lang: SupportedLanguages): Promise<Array<SDKCard>> {
-	return Promise.all((cards[lang] as Array<MappedCard>).map((it) => loadCard(lang, it.id))) as Promise<Array<SDKCard>>
+	return cards[lang] as Array<SDKCard>
 }
 
 export function getCompiledCard(lang: SupportedLanguages, id: string): any {

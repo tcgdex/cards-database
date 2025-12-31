@@ -16,6 +16,17 @@ export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
 	return !!resolveText(set.name, lang) && !!resolveText(set.serie.name, lang)
 }
 
+export function buildSetAbbreviation(set: Set, lang: SupportedLanguages): SetResume['abbreviation'] {
+	const localized = resolveText(set.abbreviations, lang)
+	if (!set.abbreviations?.official && !localized) {
+		return undefined
+	}
+	return {
+		official: set.abbreviations?.official,
+		localized
+	}
+}
+
 /**
  * Return the set
  * @param name the name of the set
@@ -68,10 +79,7 @@ export async function getSetPictures(set: Set, lang: SupportedLanguages): Promis
 export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promise<SetResume> {
 	const cards = await getCards(lang, set)
 	const pics = await getSetPictures(set, lang)
-	const abbreviation = (set.abbreviations?.official || resolveText(set.abbreviations, lang)) ? {
-		official: set.abbreviations?.official,
-		localized: resolveText(set.abbreviations, lang)
-	} : undefined
+	const abbreviation = buildSetAbbreviation(set, lang)
 
 	return {
 		cardCount: {
@@ -86,7 +94,7 @@ export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promis
 	}
 }
 
-function getVariantCountForType(card: Card, type: 'normal' | 'reverse' | 'holo' | 'firstEdition'): number {
+export function getVariantCountForType(card: Card, type: 'normal' | 'reverse' | 'holo' | 'firstEdition'): number {
 	if( card.variants === undefined || card.variants === null) {
 		return 0;
 	}
@@ -131,10 +139,7 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 		},
 		symbol: pics[1],
 		tcgOnline: set.tcgOnline,
-		abbreviation: (set.abbreviations?.official || resolveText(set.abbreviations, lang)) ? {
-			official: set.abbreviations?.official,
-			localized: resolveText(set.abbreviations, lang)
-		} : undefined,
+		abbreviation: buildSetAbbreviation(set, lang),
 		boosters: set.boosters ? objectMap(set.boosters, (booster, id) => ({
 			id: `boo_${set.id}-${id}`,
 			name: resolveText(booster.name, lang),
