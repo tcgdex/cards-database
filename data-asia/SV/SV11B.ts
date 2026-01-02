@@ -4,7 +4,7 @@ import serie from "../SV";
 const set: Set = {
 	id: "SV11B",
 	name: {
-		ja: "ブラックボルト",
+		ja: "ブラックボルト.",
 	},
 
 	serie: serie,
