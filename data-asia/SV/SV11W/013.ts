@@ -54,6 +54,13 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Rare",
 	dexId: [500],
+
+	thirdParty: {
+		cardmarket: 829015,
+		tcgplayer: 636566,
+	},
+
+	// @TODO: Add Pokeball/Masterball variants
 };
 
 export default card;
