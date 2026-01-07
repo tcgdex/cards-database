@@ -14,11 +14,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Yawn"
+			en: "Yawn",
+			fr: "Bâillement"
 		},
 
 		effect: {
-			en: "The Defending Pokémon is now Asleep."
+			en: "The Defending Pokémon is now Asleep.",
+			fr: "Le Pokémon Défenseur est maintenant Endormi."
 		}
 	}],
 
@@ -30,7 +32,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Munna"
+		en: "Munna",
+		fr: "Munna"
 	},
 
 	rarity: "None",
