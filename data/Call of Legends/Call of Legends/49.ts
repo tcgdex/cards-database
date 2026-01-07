@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Quilava",
+		fr: "Feurisson",
 		de: "Igelavar"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cyndaquil",
+		fr: "Héricendre"
 	},
 
 	stage: "Stage1",
@@ -36,6 +38,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				fr: "Intimidation",
 				de: "Flackern"
 			},
 
@@ -50,10 +53,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
+				fr: "Lance-flamme",
 				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to Quilava.",
+				fr: "Défaussez une carte Énergie attachée à Feurisson.",
 				de: "Lege 1 an Igelavar angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 60,
