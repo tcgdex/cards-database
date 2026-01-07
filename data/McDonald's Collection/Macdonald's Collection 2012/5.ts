@@ -14,19 +14,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Water Gun"
+			en: "Water Gun",
+			fr: "Pistolet à O"
 		},
 
 		damage: 30
 	}, {
 		name: {
-			en: "Razor Shell"
+			en: "Razor Shell",
+			fr: "Coquilame"
 		},
 
 		damage: "40+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage."
+			en: "Flip a coin. If heads, this attack does 20 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 
@@ -38,7 +41,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Dewott"
+		en: "Dewott",
+		fr: "Mateloutre"
 	},
 
 	rarity: "None",
