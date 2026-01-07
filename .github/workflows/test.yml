@@ -2,10 +2,10 @@ name: Test the Data
 
 on:
   push:
-    branches: 
+    branches:
       - master
   pull_request:
-    branches: 
+    branches:
       - "**"
 
 permissions: {}
@@ -31,9 +31,7 @@ jobs:
       run: |
         bun install -g @usebruno/cli
         bun install --frozen-lockfile
-        cd server
-        bun install --frozen-lockfile
-        bun run compile
+        bun scripts/compiler/index.ts
 
     - name: Validate the data & the server
       run: |

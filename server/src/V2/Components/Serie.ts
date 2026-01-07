@@ -5,9 +5,9 @@ import series from '../../../generated/series.json'
 import { CompiledSerie } from '../../../../scripts/compiler/interfaces'
 import { objectKeys } from '@dzeio/object-util'
 import { Version } from '../../interfaces'
-import { Serie } from '../../api'
 import { loadSet } from './Set'
-
+import Cache from '@cachex/memory'
+import type { Serie } from '../../api'
 
 // Compile data subsets
 const list: Record<string, CompiledSerie> = {}
@@ -21,14 +21,14 @@ series.forEach((it) => {
 	})
 })
 
+// setup cache
+const cache = new Cache()
+
 type MappedSerie = any // (typeof en)[number]
 
-export async function getAllSeries(lang: SupportedLanguages): Promise<Array<SDKSerie>> {
-	return Promise.all((langLists[lang] as Array<MappedSerie>).map(transformSerie))
-}
-
-async function transformSerie(serie: MappedSerie): Promise<SDKSerie> {
-	return serie
+export async function getAllSeries(lang: SupportedLanguages, version: Version = 'full'): Promise<Array<SDKSerie>> {
+	return (await Promise.all((langLists[lang] as Array<MappedSerie>).map((it) => loadSerie(it.id, lang, version))))
+		.filter((it) => !!it)
 }
 
 export async function findSeries(lang: SupportedLanguages, query: Query<SDKSerie>) {
@@ -70,7 +70,7 @@ export async function findOneSerie(lang: SupportedLanguages, query: Query<SDKSer
 	return res[0]
 }
 
-export function serieToBrief(set: SDKSerie): SerieResume {
+export function serieToBrief(set: CompiledSerie): SerieResume {
 	return {
 		id: set.id,
 		name: set.name,
