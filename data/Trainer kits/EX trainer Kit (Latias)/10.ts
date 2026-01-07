@@ -4,6 +4,7 @@ import Set from '../EX trainer Kit (Latias)'
 const card: Card = {
 	name: {
 		en: "Fire Energy",
+		fr: "Énergie Feu"
 	},
 
 	illustrator: "",
