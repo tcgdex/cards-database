@@ -1,5 +1,5 @@
 import { Card } from '../../../interfaces'
-import Set from '../McDonald\'s Collection 2012'
+import Set from '../Macdonald\'s Collection 2012'
 
 const card: Card = {
 	set: Set,
