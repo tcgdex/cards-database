@@ -12,19 +12,15 @@ You will need NPM/NodeJS installed
 
 ```
 npm install
-cd ..
-npm install
-cd server
 ```
 
 2. Compile the database
 
 ```
-cd ..
-npm run compile
-cd server
 npm run compile
 ```
+
+If you do not have `bun` installed globally, you may need to install it with `npm install bun`.
 
 3. run the server !
 
