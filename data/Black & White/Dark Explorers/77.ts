@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Klang",
+		fr: "Clic"
 	},
 
 	stage: "Stage2",
@@ -39,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Blast",
+				fr: "Explosion Métallique"
 			},
 			effect: {
 				en: "Does 20 more damage for each Metal Energy attached to this Pokémon.",
+				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie  attachée à ce Pokémon."
 			},
 			damage: 20,
 
@@ -55,9 +58,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lock Gear",
+				fr: "Déclic Mécanique"
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
+				fr: "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main."
 			},
 			damage: 60,
 

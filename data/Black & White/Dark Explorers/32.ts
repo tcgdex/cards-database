@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tympole",
+		fr: "Tritonde"
 	},
 
 	stage: "Stage1",
@@ -40,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble Beam",
+				fr: "Bulles d'O"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 30,
 

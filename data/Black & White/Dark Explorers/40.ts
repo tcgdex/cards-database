@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Negative Ion",
+				fr: "Anion"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
+				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 30 (avant application de la Faiblesse et de la Résistance)."
 			},
 
 		},
@@ -47,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Electrishower",
+				fr: "Averse Électrique"
 			},
 			effect: {
 				en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 
 		},

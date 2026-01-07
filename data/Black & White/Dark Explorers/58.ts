@@ -35,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
+				fr: "Balayage"
 			},
 
 			damage: 10,
@@ -48,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
+				fr: "Enfoncer"
 			},
 
 			damage: 30,

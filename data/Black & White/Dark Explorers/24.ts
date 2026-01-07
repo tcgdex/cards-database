@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
+		fr: "Ramoloss"
 	},
 
 	stage: "Stage1",
@@ -62,9 +63,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lazy Headbutt",
+				fr: "Coup d'Boule Fainéant"
 			},
 			effect: {
 				en: "This Pokémon is now Asleep.",
+				fr: "Ce Pokémon est maintenant Endormi."
 			},
 			damage: 80,
 

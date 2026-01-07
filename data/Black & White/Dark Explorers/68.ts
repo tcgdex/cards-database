@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scraggy",
+		fr: "Baggiguane"
 	},
 
 	stage: "Stage1",
@@ -40,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				fr: "Coup d'Boule"
 			},
 
 			damage: 30,
@@ -53,9 +55,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Crushing Blow",
+				fr: "Coup Écrasant"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie au Pokémon Défenseur."
 			},
 			damage: 70,
 

@@ -35,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
+				fr: "Coud'Pattes"
 			},
 
 			damage: 10,
@@ -47,6 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whap",
+				fr: "Queue Battoir"
 			},
 
 			damage: 20,

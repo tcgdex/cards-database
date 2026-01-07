@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Charge Beam",
+				fr: "Rayon Chargé"
 			},
 			effect: {
 				en: "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie de votre pile de défausse à ce Pokémon."
 			},
 			damage: 10,
 
