@@ -2,29 +2,43 @@ import { Card } from '../../../interfaces'
 import Set from '../Macdonald\'s Collection 2017'
 
 const card: Card = {
-	dexId: [789],
+	dexId: [
+		789,
+	],
 	set: Set,
-
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
-
 	name: {
-		en: "Cosmog"
+		en: "Cosmog",
+		fr: "Cosmog",
 	},
-
 	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
-	types: ["Psychic"],
+	types: [
+		"Psychic",
+	],
 	stage: "Basic",
-
 	thirdParty: {
-		tcgplayer: 152686
-	}
+		tcgplayer: 152686,
+	},
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Ramasse Poussière",
+			},
+			effect: {
+				fr: "Piochez une carte.",
+			},
+		},
+	],
 }
 
 export default card
