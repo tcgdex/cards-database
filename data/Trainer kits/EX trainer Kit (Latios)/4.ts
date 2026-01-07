@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magnemite"
+		en: "Magnemite",
+		fr: "Magneti"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,7 +25,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Rollout"
+			en: "Rollout",
+			fr: "Roulade"
 		},
 		damage: 10
 	}, {
@@ -33,7 +35,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Hook"
+			en: "Hook",
+			fr: "Crochet"
 		},
 		damage: 20
 	}],

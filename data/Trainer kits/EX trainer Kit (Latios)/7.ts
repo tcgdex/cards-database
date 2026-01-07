@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zigzagoon"
+		en: "Zigzagoon",
+		fr: "Zigzaton"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,10 +25,12 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Fury Swipes"
+			en: "Fury Swipes",
+			fr: "Combo-griffe"
 		},
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage times the number of heads."
+			en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
+			fr: "Lancez trois pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face."
 		},
 		damage: "10×"
 	}],

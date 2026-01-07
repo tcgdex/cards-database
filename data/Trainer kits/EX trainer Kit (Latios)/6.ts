@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu"
+		en: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,7 +25,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Scratch"
+			en: "Scratch",
+			fr: "Griffe"
 		},
 		damage: 10
 	}, {
@@ -34,7 +36,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Pika Bolt"
+			en: "Pika Bolt",
+			fr: "Pik'éclair"
 		},
 		damage: 40
 	}],
