@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Pikachu",
+		fr: "Pikachu",
 		pt: "Pikachu",
 	},
 
@@ -22,11 +23,13 @@ const card: Card = {
 
 			name: {
 				en: "Scrappy Spark",
+				fr: "Étincelle Querelleuse",
 				pt: "Faísca Obstinada"
 			},
 
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+				fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 				pt: "Jogue uma moeda até que saia coroa. Este ataque causará 30 pontos de dano a mais para cada cara."
 			},
 

@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Zarude",
+		fr: "Zarude"
 	},
 
 	rarity: "None",
@@ -20,9 +21,11 @@ const card: Card = {
 			cost: ["Grass"],
 			name: {
 				en: "Pluck off",
+				fr: "Retrait"
 			},
 			effect: {
-				en: "Search your deck for up to 3 Basic Grass Energy cards, reveal them, and put them into your hand. " +
+				en: "Search your deck for up to 3 Basic Grass Energy cards, reveal them, and put them into your hand. ",
+				fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie  de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.", +
 					"Then, shuffle your deck."
 			}
 		},
@@ -30,9 +33,11 @@ const card: Card = {
 			cost: ["Grass", "Grass", "Grass"],
 			name: {
 				en: "Hammer Whip",
+				fr: "Fouet Marteau"
 			},
 			effect:{
-				en: "During your next turn, this Pokémon can't attack."
+				en: "During your next turn, this Pokémon can't attack.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 			},
 			damage: 130,
 		}
