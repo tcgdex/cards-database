@@ -386,7 +386,7 @@ type Set {
 	serie: Serie!
 
 	"""The set official release date"""
-	releaseDate: String!
+	releaseDate: String
 
 	"""The set tcgOnline code if available in the APP"""
 	tcgOnline: String
