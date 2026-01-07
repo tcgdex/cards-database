@@ -47,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Wonder Trick",
+				fr: "Astuce Merveilleuse"
 			},
 			effect: {
 				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
 			},
 			damage: 100,
 

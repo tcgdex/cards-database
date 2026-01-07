@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Victini",
+		fr: "Victini"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Assist",
+				fr: "Assistance Énergétique"
 			},
 			effect: {
 				en: "Flip a coin. If heads, attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc."
 			},
 
 		},
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Victory Ball",
+				fr: "Balle Victoire"
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to this Pokémon.",
+				fr: "Défaussez une Énergie  attachée à ce Pokémon."
 			},
 			damage: 50,
 

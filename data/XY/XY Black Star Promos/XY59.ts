@@ -36,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Goons",
+				fr: "Appel à la Rescousse"
 			},
 			effect: {
 				en: "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				fr: "Chercher jusqu'à 3 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -51,9 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Pulse",
+				fr: "Dracochoc"
 			},
 			effect: {
 				en: "Discard the top card of your deck.",
+				fr: "Défaussez la carte du dessus de votre deck."
 			},
 			damage: 130,
 
