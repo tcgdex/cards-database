@@ -51,7 +51,9 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 825878,
-	}
+	},
+
+	illustrator: "YASHIRO Nanaco"
 }
 
 export default card
