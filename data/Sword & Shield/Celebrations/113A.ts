@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Reshiram"
+		en: "Reshiram",
+		fr: "Reshiram"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,22 +19,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Outrage"
+			en: "Outrage",
+			fr: "Vent Brûlant"
 		},
 
 		effect: {
-			en: "Does 10 more damage for each damage counter on this Pokémon."
+			en: "Does 10 more damage for each damage counter on this Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 		},
 
 		damage: "20+",
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Blue Flare"
+			en: "Blue Flare",
+			fr: "Flamme Noire"
 		},
 
 		effect: {
-			en: "Discard 2 Fire Energy attached to this Pokémon."
+			en: "Discard 2 Fire Energy attached to this Pokémon.",
+			fr: "Si Zekrom est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires."
 		},
 
 		damage: 120,
