@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Machop"
+		en: "Machop",
+		fr: "Machoc"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -26,7 +27,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Kick"
+				en: "Low Kick",
+				fr: "Balayage"
 			},
 			damage: 20
 		}
