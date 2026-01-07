@@ -75,6 +75,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 654443,
 		cardmarket: 851175

@@ -4,6 +4,7 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Minun",
+		fr: "Negapi"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Family",
+				fr: "Appel à la famille"
 			},
 			effect: {
 				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				fr: "Cherchez jusqu'à 2 cartes Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tag Team Boost",
+				fr: "Boost de groupe"
 			},
 			effect: {
 				en: "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage.",
+				fr: "Si Posipi se trouve sur votre Banc, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
 			},
 			damage: 10,
 

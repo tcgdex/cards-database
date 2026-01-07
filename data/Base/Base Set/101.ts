@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Psychic Energy",
 		fr: "Énergie Psy",
-		de: "Psychoenergie"
+		de: "Psychoenergie",
+		it: "Energia Psiche"
 	},
 
 	illustrator: "Keiji Kinebuchi",

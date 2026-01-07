@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poipole",
+		fr: "Vémini"
 	},
 
 	stage: "Stage1",

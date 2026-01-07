@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Mismagius",
+		fr: "Magirêve",
 		de: "Traunmagil"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Misdreavus",
+		fr: "Feuforêve"
 	},
 
 	stage: "Stage1",
@@ -35,10 +37,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleeping Spell",
+				fr: "Endormissement",
 				de: "Schlafzauber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
 				de: "Wirf eine Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 30,
@@ -51,10 +55,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Poltergeist",
+				fr: "Poltergeist",
 				de: "Poltergeist"
 			},
 			effect: {
 				en: "Look at your opponent's hand. This attack does 30 damage times the number of Trainer, Supporter, and Stadium cards in your opponent's hand.",
+				fr: "Regardez la main de votre adversaire. Cette attaque infligé 30 dégâts multipliés par le nombre de cartes Dresseur, Supporter et Stade qui se trouvent dans la main de votre adversaire.",
 				de: "Schau dir die Handkarten deines Gegners an. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der Trainer-, Unterstützer- und Stadion-Karten, die du dort gefunden hast, zu."
 			},
 			damage: "30x",

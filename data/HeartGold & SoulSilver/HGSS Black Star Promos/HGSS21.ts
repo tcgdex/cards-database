@@ -4,6 +4,7 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Suicune",
+		fr: "Suicune"
 	},
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Common",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sheer Cold",
+				fr: "Glaciation"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire."
 			},
 			damage: 50,
 
