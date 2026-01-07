@@ -49,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Light Pulse",
+				fr: "Vibrumineuse"
 			},
 			effect: {
 				en: "Prevent all effects of your opponent's attacks, except damage, done to this Pokémon during your opponent's next turn.",
+				fr: "Évitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire."
 			},
 			damage: 110,
 
