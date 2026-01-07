@@ -26,17 +26,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Supersonic Flight"
+			en: "Supersonic Flight",
+			fr: "Voyage Supersonique"
 		},
 
 		damage: 40,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		}
 	}, {
 		name: {
-			en: "Psyburn"
+			en: "Psyburn",
+			fr: "Brûlure Psy"
 		},
 
 		damage: 70
