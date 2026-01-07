@@ -108,7 +108,14 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 273716,
 		tcgplayer: 42362
-	}
+	},
+
+	related: [
+		{
+			type: "translation",
+			cardPath: "data-asia/PMCG/PMCG1/040.ts"
+		}
+	]
 }
 
 export default card
