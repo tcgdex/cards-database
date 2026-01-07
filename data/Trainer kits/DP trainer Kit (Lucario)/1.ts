@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Geodude"
+		en: "Geodude",
+		fr: "Racaillou"
 	},
 
 	illustrator: "Ken Sudimori",
@@ -26,11 +27,13 @@ const card: Card = {
 		],
 
 		name: {
-			en: "Stone Throw"
+			en: "Stone Throw",
+			fr: "Jet-pierres"
 		},
 
 		effect: {
-			en: "Choose 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			en: "Choose 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Choisissez 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 		}
 	}],
 
