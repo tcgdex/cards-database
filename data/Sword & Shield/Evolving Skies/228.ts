@@ -32,21 +32,25 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Crescent Glow"
+			en: "Crescent Glow",
+			fr: "Lueur Lunule"
 		},
 
 		effect: {
-			en: "Search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. If you go second and it's your first turn, instead search for up to 3 Psychic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck."
+			en: "Search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. If you go second and it's your first turn, instead search for up to 3 Psychic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck une carte Énergie , puis attachez-la à l'un de vos Pokémon. Si vous jouez en second et que c'est votre premier tour, cherchez jusqu'à 3 cartes Énergie  à la place, puis attachez-les à l'un de vos Pokémon. Mélangez ensuite votre deck."
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Photon Laser"
+			en: "Photon Laser",
+			fr: "Laser à Photons"
 		},
 
 		effect: {
-			en: "If you have at least 5 Energy in play, this attack does 90 more damage."
+			en: "If you have at least 5 Energy in play, this attack does 90 more damage.",
+			fr: "Si vous avez au moins 5 Énergies en jeu, cette attaque inflige 90 dégâts supplémentaires."
 		},
 
 		damage: "30+"

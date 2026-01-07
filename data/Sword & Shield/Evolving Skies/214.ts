@@ -41,11 +41,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Dark Signal"
+			en: "Dark Signal",
+			fr: "Signal Obscur"
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch 1 of your opponent's Benched Pokémon with their Active Pokémon."
+			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez échanger l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif."
 		}
 	}],
 
@@ -53,7 +55,8 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Max Darkness"
+			en: "Max Darkness",
+			fr: "Sinistromax"
 		},
 
 		damage: 160
