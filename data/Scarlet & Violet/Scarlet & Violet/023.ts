@@ -18,10 +18,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Grass"],
-
 	evolveFrom: {
-		en: "Dolliv"
+		en: "Dolliv",
+		fr: "Olivado",
+		es: "Dolliv",
+		it: "Dolliv",
+		pt: "Dolliv",
+		de: "Olivinio"
 	},
+
 
 	stage: "Stage2",
 

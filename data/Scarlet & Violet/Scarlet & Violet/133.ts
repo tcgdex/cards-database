@@ -18,10 +18,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
-
 	evolveFrom: {
-		en: "Pawniard"
+		en: "Pawniard",
+		fr: "Scalpion",
+		es: "Pawniard",
+		it: "Pawniard",
+		pt: "Pawniard",
+		de: "Gladiantri"
 	},
+
 
 	stage: "Stage1",
 
