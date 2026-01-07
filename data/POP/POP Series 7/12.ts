@@ -4,6 +4,7 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Burmy Sandy Cloak",
+		fr: "Burmy Sandy Cloak"
 	},
 
 	illustrator: "Midori Harada",
@@ -28,9 +29,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Wear Cloak",
+				fr: "Cape"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Burmy Sandy Cloak is your Active Pokémon, you may search your discard pile for a basic Fighting Energy card and attach it to Burmy Sandy Cloak.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Sable est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base  et l'attacher à Cheniti Cape Sable."
 			},
 		},
 	],
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sandy Cloak Tackle",
+				fr: "Charge cape sable"
 			},
 			effect: {
 				en: "If Burmy Sandy Cloak has any Fighting Energy attached to it, this attack does 10 damage plus 10 more damage.",
+				fr: "Si Cheniti Cape Sable possède de l'Énergie , cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "10+",
 

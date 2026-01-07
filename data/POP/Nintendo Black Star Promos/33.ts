@@ -4,6 +4,7 @@ import Set from '../Nintendo Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Zapdos ex",
+		fr: "Electhor ex"
 	},
 	illustrator: "K. Hoshiba",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Synchronized Lift",
+				fr: "Élévation synchronisée"
 			},
 			effect: {
 				en: "As long as you have Articuno ex and Moltres ex in play, the Retreat Cost for Zapdos ex is 0.",
+				fr: "Tant qu'Artikodin ex et Sulfura ex sont en jeu, le Coût de retraite d'Electhor ex est de 0."
 			},
 		},
 	],
@@ -38,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Gift",
+				fr: "Cadeau de tonnerre"
 			},
 			effect: {
 				en: "You may move a Lightning Energy card attached to Zapdos ex to 1 of your Pokémon.",
+				fr: "Vous pouvez déplacer 1 carte Énergie  attachée à Electhor ex vers 1 de vos Pokémon."
 			},
 			damage: 10,
 
@@ -53,9 +58,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lightning Wing",
+				fr: "Aile éclair"
 			},
 			effect: {
 				en: "Does 10 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 10 dégâts à 1 des Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 60,
 
