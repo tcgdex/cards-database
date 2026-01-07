@@ -10,7 +10,8 @@ on:
 
 permissions: {}
 jobs:
-  test:
+  # Job 1: Fast TypeScript validation for data files (shallow clone, no git history needed)
+  validate:
     runs-on: ${{ matrix.os }}
     permissions: {}
     strategy:
@@ -18,7 +19,7 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     steps:
-    - name: Checkout
+    - name: Checkout (shallow)
       uses: actions/checkout@v6
       with:
         ref: ${{ github.event.pull_request.head.sha }}
@@ -26,25 +27,95 @@ jobs:
 
     - name: Setup BunJS
       uses: oven-sh/setup-bun@v2
+      with:
+        cache: true
+        cache-dependency-path: |
+          bun.lock
+          server/bun.lock
 
     - name: Install deps
       run: |
-        bun install -g @usebruno/cli
         bun install --frozen-lockfile
         cd server
         bun install --frozen-lockfile
+
+    - name: Validate data files
+      run: bun tsc --noEmit --project tsconfig.data.json
+
+    - name: Validate server source
+      run: |
+        cd server
+        bun run --bun validate
+
+  # Job 2: Full validation + API tests (needs full git history for compile, runs in parallel)
+  api-tests:
+    runs-on: ${{ matrix.os }}
+    permissions: {}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+    - name: Checkout (full history)
+      uses: actions/checkout@v6
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+        persist-credentials: false
+        # fetch full history for `updated` support in compile step
+        fetch-depth: 0
+
+    - name: Setup BunJS
+      uses: oven-sh/setup-bun@v2
+      with:
+        cache: true
+        cache-dependency-path: |
+          bun.lock
+          server/bun.lock
+
+    - name: Install deps
+      run: |
+        bun install --frozen-lockfile
+        cd server
+        bun install --frozen-lockfile
+
+    - name: Compile server data
+      run: |
+        cd server
         bun run compile
 
-    - name: Validate the data & the server
+    - name: Validate all (including compiler)
       run: |
         bun run validate
         cd server
         bun run --bun validate
 
+    - name: Cache Bruno CLI
+      id: cache-bruno
+      uses: actions/cache@v4
+      with:
+        path: ~/.bun/install/global
+        key: bruno-cli-${{ runner.os }}-v1
+
+    - name: Install Bruno CLI
+      if: steps.cache-bruno.outputs.cache-hit != 'true'
+      run: bun install -g @usebruno/cli
+
     - name: Validate some requests
       run: |
         cd server
         bun run start &
-        sleep 10
+        # Wait for server to be ready (max 60 attempts, 1 second each)
+        for i in $(seq 1 60); do
+          if curl -s http://127.0.0.1:3000/status > /dev/null 2>&1; then
+            echo "Server ready after $i seconds"
+            break
+          fi
+          if [ $i -eq 60 ]; then
+            echo "Server failed to start within 60 seconds"
+            exit 1
+          fi
+          sleep 1
+        done
         cd ../.bruno
         bru run --env Developpement
+      shell: bash

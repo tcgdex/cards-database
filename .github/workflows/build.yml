@@ -64,6 +64,10 @@ jobs:
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
+          cache: true
+          cache-dependency-path: |
+            bun.lock
+            server/bun.lock
 
       - name: Pre build server
         run: |
