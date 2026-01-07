@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sand Dive",
+				fr: "Ensablement"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.",
+				fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire."
 			},
 
 		},
@@ -49,6 +51,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Corkscrew Punch",
+				fr: "Poing Tire-Bouchon"
 			},
 
 			damage: 40,

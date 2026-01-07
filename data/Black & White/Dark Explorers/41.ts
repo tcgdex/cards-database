@@ -35,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 10,
@@ -47,6 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bug Bite",
+				fr: "Piqûre"
 			},
 
 			damage: 20,
