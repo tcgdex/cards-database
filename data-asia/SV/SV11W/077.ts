@@ -37,12 +37,19 @@ const card: Card = {
 
 	resistances: [{ type: "Fighting", value: "-30" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 
 	evolveFrom: {
 		ja: "ワシボン",
@@ -52,6 +59,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Uncommon",
 	dexId: [628],
+	thirdParty: {
+		cardmarket: 829080,
+		tcgplayer: 636630,
+	},
 };
 
 export default card;

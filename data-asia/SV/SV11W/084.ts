@@ -14,16 +14,23 @@ const card: Card = {
 		ja: "自分の山札を3枚引く。 サポートは、自分の番に1枚しか使えない。",
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+	],
 
 	trainerType: "Supporter",
 	regulationMark: "I",
 	rarity: "Uncommon",
+	thirdParty: {
+		cardmarket: 829087,
+		tcgplayer: 636637,
+	},
 };
 
 export default card;
