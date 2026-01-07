@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Lavados & Zapdos & Arktos GX"
 	},
 	illustrator: "HYOGONOSUKE",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
