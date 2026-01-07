@@ -14,13 +14,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Slam"
+			en: "Slam",
+			fr: "Souplesse"
 		},
 
 		damage: "20×",
 
 		effect: {
-			en: "Flip 2 coins. This attack does 20 damage times the number of heads."
+			en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
 		}
 	}],
 
@@ -32,7 +34,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Snivy"
+		en: "Snivy",
+		fr: "Vipélierre"
 	},
 
 	rarity: "None",

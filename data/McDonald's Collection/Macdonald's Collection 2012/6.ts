@@ -14,23 +14,27 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Thundershock"
+			en: "Thundershock",
+			fr: "Éclair"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé."
 		}
 	}, {
 		name: {
-			en: "Acrobatics"
+			en: "Acrobatics",
+			fr: "Acrobatie"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "Flip 2 coins. This attack does 20 more damage for each heads."
+			en: "Flip 2 coins. This attack does 20 more damage for each heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
 		}
 	}],
 
@@ -42,7 +46,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Emolga"
+		en: "Emolga",
+		fr: "Emolga"
 	},
 
 	rarity: "None",

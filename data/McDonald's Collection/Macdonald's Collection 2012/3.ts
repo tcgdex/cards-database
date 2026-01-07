@@ -14,15 +14,18 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Withdraw"
+			en: "Withdraw",
+			fr: "Repli"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent’s next turn."
+			en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent’s next turn.",
+			fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques durant le prochain tour de votre adversaire."
 		}
 	}, {
 		name: {
-			en: "Slash"
+			en: "Slash",
+			fr: "Tranche"
 		},
 
 		damage: 20
@@ -36,7 +39,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Dwebble"
+		en: "Dwebble",
+		fr: "Crabicoque"
 	},
 
 	rarity: "None",
