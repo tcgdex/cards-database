@@ -31,6 +31,10 @@ for (const file of files) {
 	await queue.add((async () => {
 		// const setPath = file.slice(0, file.lastIndexOf('/')) + '.ts'
 		const serie: DBSerie = await extractCached(file)
+		if (!serie.id || serie.id === 'null') {
+			console.log('skipping serie, missing id')
+			return
+		}
 		// const localId = file.slice(file.lastIndexOf('/') + 1, file.lastIndexOf('.'))
 		// const serie: DBSerie = await extractCached(setPath)
 		const setsList = globSync(`{data,data-asia}/{${serie.name.en},${serie.id}}/*.ts`)
@@ -40,6 +44,7 @@ for (const file of files) {
 		const sets = await Promise.all(
 			setsList.map((setPath) => extractCached(setPath) as Promise<DBSet>)
 		)
+
 		const firstSet = sets.reduce((c, p) => c.releaseDate > p.releaseDate ? c : p)
 
 		const res: CompiledSerie = {
