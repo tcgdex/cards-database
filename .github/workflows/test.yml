@@ -37,6 +37,7 @@ jobs:
       run: |
         bun run validate
         cd server
+        bun install --frozen-lockfile
         bun run --bun validate
 
     - name: Validate some requests
