@@ -35,12 +35,11 @@ const card: Card = {
 
 	weaknesses: [{ type: "Fire", value: "×2" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	retreat: 0,
 	regulationMark: "I",

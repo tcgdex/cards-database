@@ -33,12 +33,11 @@ const card: Card = {
 
 	weaknesses: [{ type: "Water", value: "×2" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+	],
 
 	retreat: 2,
 	regulationMark: "I",

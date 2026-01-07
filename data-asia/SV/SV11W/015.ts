@@ -29,12 +29,19 @@ const card: Card = {
 
 	weaknesses: [{ type: "Water", value: "×2" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 
 	evolveFrom: {
 		ja: "バオップ",
@@ -49,8 +56,6 @@ const card: Card = {
 		cardmarket: 829017,
 		tcgplayer: 636568,
 	},
-
-	// @TODO: Add Pokeball/Masterball variants
 };
 
 export default card;

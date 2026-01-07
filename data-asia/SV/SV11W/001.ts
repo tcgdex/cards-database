@@ -36,13 +36,6 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
-
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Common",
@@ -53,7 +46,19 @@ const card: Card = {
 		tcgplayer: 636554,
 	},
 
-	// @TODO: Add Pokeball/Masterball variants
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 };
 
 export default card;

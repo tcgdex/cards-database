@@ -35,12 +35,19 @@ const card: Card = {
 
 	weaknesses: [{ type: "Fire", value: "×2" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 
 	retreat: 3,
 	regulationMark: "I",
@@ -51,8 +58,6 @@ const card: Card = {
 		cardmarket: 828981,
 		tcgplayer: 636561,
 	},
-
-	// @TODO: Add Pokeball/Masterball variants
 };
 
 export default card;

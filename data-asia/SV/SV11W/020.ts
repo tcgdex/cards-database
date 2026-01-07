@@ -42,12 +42,19 @@ const card: Card = {
 
 	weaknesses: [{ type: "Lightning", value: "×2" }],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 
 	evolveFrom: {
 		ja: "フタチマル",
@@ -62,8 +69,6 @@ const card: Card = {
 		cardmarket: 829022,
 		tcgplayer: 636573,
 	},
-
-	// @TODO: Add Pokeball/Masterball variants
 };
 
 export default card;
