@@ -81,7 +81,8 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	weaknesses: [{
-		type: "Fire"
+		type: "Fire",
+		value: "x2"
 	}]
 }
 
