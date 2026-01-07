@@ -27,10 +27,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Lunge"
+			en: "Lunge",
+			fr: "Coup Rapide"
 		},
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		},
 		damage: 30
 	}],
