@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmander"
+		en: "Charmander",
+		fr: "Salamèche"
 	},
 
 	illustrator: "Midori Harada",
@@ -25,7 +26,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'boule"
 		},
 		damage: 10
 	}, {
@@ -34,7 +36,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Slash"
+			en: "Slash",
+			fr: "Tranche"
 		},
 		damage: 20
 	}],
