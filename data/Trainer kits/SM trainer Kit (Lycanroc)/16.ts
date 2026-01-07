@@ -38,13 +38,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 
 		damage: 20
 	}, {
 		name: {
-			en: "Claw Slash"
+			en: "Claw Slash",
+			fr: "Tranch'Griffe"
 		},
 
 		damage: 80
