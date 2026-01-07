@@ -1,5 +1,5 @@
 import { objectOmit } from '@dzeio/object-util'
-import { sets } from '../../../V2/Components/Set'
+import { langLists as sets } from '../../../V2/Components/Set'
 import TCGPlayer from './TCGPlayer'
 import list from './product-skus.mapping.json'
 
@@ -48,7 +48,7 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 	return true
 }
 
-export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number } }): Promise<{
+export async function getTCGPlayerPrice(card: { thirdParty?: { tcgplayer?: number } }): Promise<{
 	unit: 'USD',
 	updated: string
 	normal?: Omit<Result, 'subTypeName'>

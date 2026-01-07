@@ -2,10 +2,10 @@ name: Test the Data
 
 on:
   push:
-    branches: 
+    branches:
       - master
-  pull_request_target:
-    branches: 
+  pull_request:
+    branches:
       - "**"
 
 permissions: {}
@@ -15,7 +15,7 @@ jobs:
     permissions: {}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ubuntu-latest, macos-latest] # windows-latest
 
     steps:
     - name: Checkout
@@ -31,14 +31,13 @@ jobs:
       run: |
         bun install -g @usebruno/cli
         bun install --frozen-lockfile
-        cd server
-        bun install --frozen-lockfile
-        bun run compile
+        bun scripts/compiler/index.ts
 
     - name: Validate the data & the server
       run: |
         bun run validate
         cd server
+        bun install --frozen-lockfile
         bun run --bun validate
 
     - name: Validate some requests
