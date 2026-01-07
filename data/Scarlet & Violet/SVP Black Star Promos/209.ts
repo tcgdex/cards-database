@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Thundurus",
+		fr: "Fulguris"
 	},
 
 	rarity: "None",
@@ -22,10 +23,12 @@ const card: Card = {
 
 			name: {
 				en: "Charge",
+				fr: "Chargeur"
 			},
 
 			effect: {
 				en: "Search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck une carte Énergie  de base, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck."
 			},
 		},
 		{
@@ -33,10 +36,12 @@ const card: Card = {
 
 			name: {
 				en: "Disaster Volt",
+				fr: "Éclair Désastre"
 			},
 
 			effect: {
 				en: "Discard an Energy from this Pokémon.",
+				fr: "Défaussez une Énergie de ce Pokémon."
 			},
 
 			damage: 110
