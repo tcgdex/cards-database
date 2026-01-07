@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmeleon"
+		en: "Charmeleon",
+		fr: "Reptincel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmander",
+		fr: "Salamèche"
 	},
 
 	attacks: [{
@@ -30,7 +32,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Flare"
+			en: "Flare",
+			fr: "Intimidation"
 		},
 		damage: 30
 	}, {
@@ -40,10 +43,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Damage Burn"
+			en: "Damage Burn",
+			fr: "Brûlure"
 		},
 		effect: {
-			en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage."
+			en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage.",
+			fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
 		},
 		damage: "40+"
 	}],
