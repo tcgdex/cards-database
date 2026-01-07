@@ -30,17 +30,20 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Pickup"
+			en: "Pickup",
+			fr: "Ramassage"
 		},
 		effect: {
-			en: "Put an Item card from your discard pile into your hand."
+			en: "Put an Item card from your discard pile into your hand.",
+			fr: "Prenez une carte Objet dans votre pile de défausse et ajoutez-la à votre main."
 		}
 	}, {
 		cost: [
 			"Colorless",
 		],
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 		damage: 10
 	}],
