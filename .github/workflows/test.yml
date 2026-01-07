@@ -42,11 +42,6 @@ jobs:
     - name: Validate data files
       run: bun tsc --noEmit --project tsconfig.data.json
 
-    - name: Validate server source
-      run: |
-        cd server
-        bun run --bun validate
-
   # Job 2: Full validation + API tests (needs full git history for compile, runs in parallel)
   api-tests:
     runs-on: ${{ matrix.os }}
