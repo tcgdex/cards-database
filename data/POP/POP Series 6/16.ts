@@ -4,6 +4,7 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Starly",
+		fr: "Starly"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gust",
+				fr: "Tornade"
 			},
 
 			damage: 10,
@@ -42,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
+				fr: "Vive-attaque"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
 			},
 			damage: "10+",
 

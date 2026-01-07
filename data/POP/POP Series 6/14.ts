@@ -4,6 +4,7 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Chimchar",
+		fr: "Chimchar"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -28,6 +29,7 @@ const card: Card = {
 
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
+				fr: "Flammèche"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Chimchar.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie  attachée à Ouisticram."
 			},
 			damage: 30,
 
