@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Vulpix",
 		fr: "Goupix",
-		de: "Vulpix"
+		de: "Vulpix",
+		it: "Vulpix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,12 +35,14 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde Folie",
-				de: "Konfustrahl"
+				de: "Konfustrahl",
+				it: "Stordiraggio"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon verwirrt."
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon verwirrt.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso."
 			},
 			damage: 10,
 
@@ -54,7 +57,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il n'a qu'une seule queue à la naissance. Sa queue se divise à la pointe au fil des ans."
+		fr: "Il n'a qu'une seule queue à la naissance. Sa queue se divise à la pointe au fil des ans.",
+		it: "Alla nascita aveva solo una coda, ma con il passare del tempo la coda si è aperta a ventaglio. LIV 11 N.37"
 	},
 
 	thirdParty: {

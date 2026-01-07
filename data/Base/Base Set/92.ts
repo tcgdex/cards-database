@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Energy Removal",
 		fr: "Suppression d'Énergie",
-		de: "Energie-Absauger"
+		de: "Energie-Absauger",
+		it: "Distruzione di Energia"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,7 +16,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Choisissez 1 carte Énergie attachée à 1 des Pokémon de votre adversaire et défaussez-la.",
-		de: "Wähle eine auf einem Pokémon Deines gegners abgelegte Energiekarte und entferne sie."
+		de: "Wähle eine auf einem Pokémon Deines gegners abgelegte Energiekarte und entferne sie.",
+		it: "Scegli una carta Energia assegnata a uno dei Pokémon del tuo avversario e scartala."
 	},
 
 	thirdParty: {

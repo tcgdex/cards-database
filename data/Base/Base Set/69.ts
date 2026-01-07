@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Weedle",
 		fr: "Aspicot",
-		de: "Hornliu"
+		de: "Hornliu",
+		it: "Weedle"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Poison Sting",
 				fr: "Dard-Venin",
-				de: "Giftstachel"
+				de: "Giftstachel",
+				it: "Velenospina"
 			},
 			effect: {
 				en: "Flip a coin. If heads, Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet."
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato."
 			},
 			damage: 10,
 
@@ -53,7 +56,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il se nourrit de feuilles dans les forêts. L'aiguillon sur son front est empoisonné."
+		fr: "Il se nourrit de feuilles dans les forêts. L'aiguillon sur son front est empoisonné.",
+		it: "Lo si incontra spesso nei boschi dove si nutre di foglie. Ha sulla testa un pungiglione aguzzo e velenoso. LIV 12 N.13"
 	},
 
 	thirdParty: {
