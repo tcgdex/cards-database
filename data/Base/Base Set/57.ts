@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Pidgey",
 		fr: "Roucool",
-		de: "Taubsi"
+		de: "Taubsi",
+		it: "Pidgey"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,12 +35,14 @@ const card: Card = {
 			name: {
 				en: "Whirlwind",
 				fr: "Cyclone",
-				de: "Wirbelwind"
+				de: "Wirbelwind",
+				it: "Turbine"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
 				fr: "Si votre adversaire a au moins un Pokémon sur le Banc, il ou elle choisit l'1 d'eux et l'échange avec le Pokémon Défenseur. (Appliquez les dégâts avant d'échanger les Pokémon.)",
-				de: "Falls Dein gegner irgendwelche Pokémon auf der Bank hat, muss er eines von ihnen wählen und mit dem verteidigenden Pokémon austauschen. (Fühe die Schadenspunkte vor dem Auswechseln des Pokémon zu.)"
+				de: "Falls Dein gegner irgendwelche Pokémon auf der Bank hat, muss er eines von ihnen wählen und mit dem verteidigenden Pokémon austauschen. (Fühe die Schadenspunkte vor dem Auswechseln des Pokémon zu.)",
+				it: "Se il tuo avversario ha dei Pokémon in Panchina, deve sceglierne uno e scambiarlo con il Pokémon Difensore. (Infliggi il danno prima di scambiare il Pokémon.)",
 			},
 			damage: 10,
 
@@ -61,7 +64,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il est souvent vu dans les forêts. Il brasse l'air de ses ailes près du sol pour projeter du sable."
+		fr: "Il est souvent vu dans les forêts. Il brasse l'air de ses ailes près du sol pour projeter du sable.",
+		it: "È una presenza comune nelle foreste e nei boschi. Sbatte le ali quando è a terra per alzare sabbia accecante. LIV 8 N.16"
 	},
 
 	thirdParty: {

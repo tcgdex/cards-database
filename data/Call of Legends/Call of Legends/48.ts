@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Pidgeotto",
+		fr: "Roucoups",
 		de: "Tauboga"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pidgey",
+		fr: "Roucool"
 	},
 
 	stage: "Stage1",
@@ -36,6 +38,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gust",
+				fr: "Tornade",
 				de: "Windstoß"
 			},
 
@@ -50,10 +53,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Twister",
+				fr: "Ouragan",
 				de: "Windhose"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
+				fr: "Lancez 2 pièces. Si vous obtenez deux fois un côté pile, cette attaque ne fait rien. Pour chaque face, défaussez une Énergie au Pokémon Défenseur.",
 				de: "Wirf 2 Münzen. Wenn beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen. Lege pro \"Kopf\" eine Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,

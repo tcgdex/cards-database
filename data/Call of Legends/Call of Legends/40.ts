@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Bayleef",
+		fr: "Macronium",
 		de: "Lorblatt"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chikorita",
+		fr: "Germignon"
 	},
 
 	stage: "Stage1",
@@ -35,6 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
+				fr: "Enfoncer",
 				de: "Einhämmern"
 			},
 
@@ -49,6 +52,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch'herbe",
 				de: "Rasierblatt"
 			},
 

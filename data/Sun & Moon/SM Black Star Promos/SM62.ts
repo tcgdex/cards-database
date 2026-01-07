@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	set: Set,
 
@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wimpod",
+		fr: "Sovkipou"
 	},
 
 	suffix: "GX",

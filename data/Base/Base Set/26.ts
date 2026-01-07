@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Dratini",
 		fr: "Minidraco",
-		de: "Dratini"
+		de: "Dratini",
+		it: "Dratini"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras' Face",
-				de: "Pfund"
+				de: "Pfund",
+				it: "Libbra"
 			},
 
 			damage: 10,
@@ -68,7 +70,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Longtemps considéré comme légendaire, une colonie fut découverte dans les océans."
+		fr: "Longtemps considéré comme légendaire, une colonie fut découverte dans les océans.",
+		it: "Da lungo tempo considerato un Pokémon mitologico fino a quando, recentemente, ne è stata rinvenuta una piccola colonia abitante sott'acqua."
 	},
 
 	thirdParty: {

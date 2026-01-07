@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Darkness Energy",
+		fr: "Énergie Obscurité",
 		de: "Finsternis-Energie"
 	},
 
