@@ -44,12 +44,19 @@ const card: Card = {
 
 	resistances: [{ type: "Fighting", value: "-30" }],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 
 	evolveFrom: {
 		ja: "ゴチミル",
@@ -59,6 +66,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Rare",
 	dexId: [576],
+	thirdParty: {
+		cardmarket: 829042,
+		tcgplayer: 636593,
+	},
 };
 
 export default card;
