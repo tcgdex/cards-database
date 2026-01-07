@@ -40,10 +40,8 @@ const card: Card = {
 				fr: "Règne Infernal"
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may ",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 3 cartes Énergie  de base et les attacher à vos Pokémon comme il vous plaît. Mélangez ensuite votre deck.", +
-					"search your deck for up to 3 Basic Fire Energy cards and attach them to your Pokémon in any way " +
-					"you like. Then, shuffle your deck.",
+				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 3 Basic Fire Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 3 cartes Énergie  de base et les attacher à vos Pokémon comme il vous plaît. Mélangez ensuite votre deck."
 			},
 		}
 	],

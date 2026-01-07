@@ -24,9 +24,8 @@ const card: Card = {
 				fr: "Retrait"
 			},
 			effect: {
-				en: "Search your deck for up to 3 Basic Grass Energy cards, reveal them, and put them into your hand. ",
-				fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie  de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.", +
-					"Then, shuffle your deck."
+				en: "Search your deck for up to 3 Basic Grass Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie  de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
 			}
 		},
 		{
