@@ -4,6 +4,7 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Burmy Plant Cloak",
+		fr: "Burmy Plant Cloak"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -28,9 +29,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Wear Cloak",
+				fr: "Cape"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Burmy Plant Cloak is your Active Pokémon, you may search your discard pile for a basic Grass Energy card and attach it to Burmy Plant Cloak.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Plante est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base  et l'attacher à Cheniti Cape Plante."
 			},
 		},
 	],
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Plant Cloak Tackle",
+				fr: "Charge cape plante"
 			},
 			effect: {
 				en: "If Burmy Plant Cloak has any Grass Energy attached to it, this attack does 10 damage plus 10 more damage.",
+				fr: "Si Cheniti Cape Plante possède de l'Énergie , cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "10+",
 
