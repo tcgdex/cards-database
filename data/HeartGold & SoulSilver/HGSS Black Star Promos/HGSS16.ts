@@ -4,6 +4,7 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Plusle",
+		fr: "Posipi"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				fr: "Collectionner"
 			},
 			effect: {
 				en: "Draw 2 cards.",
+				fr: "Piochez 2 cartes."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
+				fr: "Secousse tonnerre"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does 10 damage to Plusle.",
+				fr: "Lancez une pièce. Si c'est pile, Posipi s'inflige 10 dégâts."
 			},
 			damage: 20,
 

@@ -4,6 +4,7 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Feraligatr",
+		fr: "Aligatueur"
 	},
 	illustrator: "Kent Kanetsuna",
 	rarity: "Common",
@@ -19,6 +20,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Croconaw",
+		fr: "Crocrodil"
 	},
 	stage: "Stage2",
 
@@ -27,9 +29,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Rain Dance",
+				fr: "Danse pluie"
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Water Pokémon. This power can't be used if Feraligatr is affected by a Special Condition.",
+				fr: "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie  de votre main à l'un de vos Pokémon . Ce pouvoir ne peut pas être utilisé si Aligatueur est affecté par un État Spécial."
 			},
 		},
 	],
@@ -43,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hydro Crunch",
+				fr: "Hydro-machouille"
 			},
 			effect: {
 				en: "Does 60 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur."
 			},
 			damage: 60,
 
