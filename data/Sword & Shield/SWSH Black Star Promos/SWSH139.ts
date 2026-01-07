@@ -22,41 +22,48 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Union Gain"
+			en: "Union Gain",
+			fr: "Gain Union"
 		},
 
 		effect: {
-			en: "Attach up to 2 Lightning Energy cards from your discard pile to this Pokémon."
+			en: "Attach up to 2 Lightning Energy cards from your discard pile to this Pokémon.",
+			fr: "Attachez jusqu'à 2 cartes Énergie  de votre pile de défausse à ce Pokémon."
 		}
 	}, {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Shocking Shock"
+			en: "Shocking Shock",
+			fr: "Choc Choquant"
 		},
 
 		damage: 120,
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Disconnect"
+			en: "Disconnect",
+			fr: "Déconnexion"
 		},
 
 		damage: 150,
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Item cards from their hand."
+			en: "During your opponent's next turn, they can't play any Item cards from their hand.",
+			fr: "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Objet de sa main."
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Electro Ball Together"
+			en: "Electro Ball Together",
+			fr: "Boule Élek Groupée"
 		},
 
 		damage: 250
