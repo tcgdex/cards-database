@@ -31,12 +31,11 @@ const card: Card = {
 
 	weaknesses: [{ type: "Lightning", value: "x2" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	evolveFrom: {
 		ja: "ミジュマル",
@@ -46,6 +45,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [502],
+	thirdParty: {
+		cardmarket: 829459,
+		tcgplayer: 636656,
+	},
 };
 
 export default card;

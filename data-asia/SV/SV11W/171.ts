@@ -47,10 +47,21 @@ const card: Card = {
 		ja: "ジヘッド",
 	},
 
+	variants: [
+		{
+			type: "holo",
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "I",
 	rarity: "Special illustration rare",
 	suffix: "EX",
+	dexId: [635],
+	thirdParty: {
+		cardmarket: 829530,
+		tcgplayer: 636724,
+	},
 };
 
 export default card;
