@@ -14,16 +14,19 @@ const card: Card = {
 		ja: "おたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、自分はコインを1回投げ、オモテなら自分は5枚、相手は3枚、山札を引く。ウラなら自分は3枚、相手は5枚、山札を引く。 サポートは、自分の番に1枚しか使えない。",
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	trainerType: "Supporter",
 	regulationMark: "I",
 	rarity: "Ultra Rare",
+	thirdParty: {
+		cardmarket: 829524,
+		tcgplayer: 636718,
+	},
 };
 
 export default card;

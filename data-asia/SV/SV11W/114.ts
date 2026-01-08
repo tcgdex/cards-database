@@ -31,12 +31,11 @@ const card: Card = {
 
 	weaknesses: [{ type: "Fighting", value: "x2" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	evolveFrom: {
 		ja: "バチュル",
@@ -46,6 +45,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [596],
+	thirdParty: {
+		cardmarket: 829470,
+		tcgplayer: 636667,
+	},
 };
 
 export default card;
