@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Timburr"
 	},
 
+	illustrator: "Shinya Mizuno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

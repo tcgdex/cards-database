@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Palpitoad"
 	},
 
+	illustrator: "Yukihiro Tada",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

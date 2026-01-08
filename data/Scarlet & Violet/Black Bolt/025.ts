@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cubchoo"
 	},
 
+	illustrator: "OOYAMA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

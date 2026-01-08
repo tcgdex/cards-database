@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Petilil"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

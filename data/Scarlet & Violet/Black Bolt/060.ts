@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Escavalier"
 	},
 
+	illustrator: "DOM",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

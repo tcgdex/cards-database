@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Carracosta"
 	},
 
+	illustrator: "Gemi",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,

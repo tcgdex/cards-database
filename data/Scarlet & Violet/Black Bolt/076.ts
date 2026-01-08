@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cinccino"
 	},
 
+	illustrator: "Ayako Ozaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
