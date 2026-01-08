@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Professor Oak's New Theory",
+		fr: "Nouvelle théorie du Prof. Chen",
 		de: "Professor Eichs neue Theorie"
 	},
 

@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Ninetales",
 		fr: "Feunard",
-		de: "Vulnona"
+		de: "Vulnona",
+		it: "Ninetales"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vulpix",
+		it: "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -38,12 +40,14 @@ const card: Card = {
 			name: {
 				en: "Lure",
 				fr: "Leurre",
-				de: "Lockvogel"
+				de: "Lockvogel",
+				it: "Esca"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.",
 				fr: "Si votre adversaire a des Pokémon sur le Banc, choisissez 1 d'entre eux et échangez-le avec le Pokémon Défenseur.",
-				de: "Falls Dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und tausce es mit dem verteidigenden Pokémon aus."
+				de: "Falls Dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und tausce es mit dem verteidigenden Pokémon aus.",
+				it: "Se il tuo avversario ha dei Pokémon in Panchina, scegliene uno e scambialo con il Pokémon Difensore"
 			},
 
 		},
@@ -57,12 +61,14 @@ const card: Card = {
 			name: {
 				en: "Fire Blast",
 				fr: "Déflagration",
-				de: "Feuersturm"
+				de: "Feuersturm",
+				it: "Fuocobomba"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Ninetales in order to use this attack.",
 				fr: "Défaussez 1 carte Énergie  attachée à Feunard pour pouvoir utiliser cette attaque.",
-				de: "Entferne eine auf Vulona abgelegte  Energiekarte, um diesen Angriff auszuführen"
+				de: "Entferne eine auf Vulona abgelegte  Energiekarte, um diesen Angriff auszuführen",
+				it: "Scarta una carta Energia Fuoco assegnata a Ninetales per poter usare questo attacco."
 			},
 			damage: 80,
 
@@ -98,7 +104,8 @@ const card: Card = {
 
 
 	description: {
-		fr: "Très intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans."
+		fr: "Très intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans.",
+		it: "Molto intelligente, ma anche molto vendicativo. Chi osa afferrare una delle sue numerose code viene punito con una maledizione che durerà 1.000 anni. LIV 32 N.38"
 	},
 
 	thirdParty: {

@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Meganium",
+		fr: "Meganium",
 		de: "Meganie"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bayleef",
+		fr: "Macronium"
 	},
 
 	stage: "Stage2",
@@ -35,10 +37,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
+				fr: "Poudre dodo",
 				de: "Schlafpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
 				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
@@ -52,10 +56,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Giant Bloom",
+				fr: "Pousse géante",
 				de: "Riesenblüte"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Meganium.",
+				fr: "Retirez 2 marqueurs de dégât à Meganium.",
 				de: "Entferne 2 Schadensmarken von Meganie."
 			},
 			damage: 60,

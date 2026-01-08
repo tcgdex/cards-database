@@ -14,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	dexId: [
-		488,
+		491, // Darkrai
+		488, // Cresselia
 	],
 
 	types: [

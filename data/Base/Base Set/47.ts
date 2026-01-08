@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Diglett",
 		fr: "Taupiqueur",
-		de: "Digda"
+		de: "Digda",
+		it: "Diglett"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Dig",
 				fr: "Tunnel",
-				de: "Schaufler"
+				de: "Schaufler",
+				it: "Fossa"
 			},
 
 			damage: 10,
@@ -47,7 +49,8 @@ const card: Card = {
 			name: {
 				en: "Mud Slap",
 				fr: "Jet de boue",
-				de: "Schlammbad"
+				de: "Schlammbad",
+				it: "Fangosberla"
 			},
 
 			damage: 30,
@@ -70,7 +73,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il vit à un mètre sous la terre et se nourrit de racines. Il apparaît rarement à la surface."
+		fr: "Il vit à un mètre sous la terre et se nourrit de racines. Il apparaît rarement à la surface.",
+		it: "Vive sotto terra, dove sopravvive mangiando le radici di varie piante. Ogni tanto risale in superficie. LIV 8 N.50"
 	},
 
 	thirdParty: {

@@ -63,6 +63,19 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 654397,
 		cardmarket: 851129

@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Pineco",
+		fr: "Pomdepik",
 		de: "Tannza"
 	},
 
@@ -31,13 +32,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Focus Energy",
+				fr: "Puissance",
 				de: "Energiefokus"
 			},
 
-			effect: {
-				en: 'During your next turn, Pineco\'s Surprise Attack attack\'s base damage is 80',
-				de: "In deinem nächsten Zug beträgt der Grundschaden von Tannzas Überraschungsangriff 80 Schadenspunkte."
-			}
+		effect: {
+			en: "During your next turn, Pineco's Surprise Attack attack's base damage is 80",
+			fr: "Pendant votre prochain tour, l'Attaque surprise de Pomdepik inflige 80 dégâts de base.",
+			de: "In deinem nächsten Zug beträgt der Grundschaden von Tannzas Überraschungsangriff 80 Schadenspunkte."
+		}
 		},
 		{
 			cost: [
@@ -46,10 +49,12 @@ const card: Card = {
 			],
 			name: {
 				en: 'Surprise Attack',
+				fr: "Attaque surprise",
 				de: "Überraschungsangriff"
 			},
 			effect: {
 				en: 'Flip a coin. If tails, this attack does nothing.',
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40

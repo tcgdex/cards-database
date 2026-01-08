@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Magmar",
+		fr: "Magmar",
 		de: "Magmar"
 	},
 
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Live Coal",
+				fr: "Charbon mutant",
 				de: "Glühende Kohlen"
 			},
 
@@ -44,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Magma Punch",
+				fr: "Poing magma",
 				de: "Magmahieb"
 			},
 

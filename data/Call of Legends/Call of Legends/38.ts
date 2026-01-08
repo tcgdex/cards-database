@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Weezing",
+		fr: "Smogogo",
 		de: "Smogmog"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Koffing",
+		fr: "Smogo"
 	},
 
 	stage: "Stage1",
@@ -35,10 +37,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Poison Breath",
+				fr: "Super haleine empoisonnée",
 				de: "Super-Gifthauch"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
@@ -50,10 +54,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Explosion",
+				fr: "Super explosion",
 				de: "Super-Explosion"
 			},
 			effect: {
 				en: "Weezing does 90 damage to itself, and don't apply Weakness to this damage.",
+				fr: "Smogogo s'inflige 90 dégâts. N'appliquez pas la Faiblesse à ces dégâts.",
 				de: "Smogmog fügt sich selbst 90 Schadenspunkte zu, wende dabei Schwäche nicht an."
 			},
 			damage: 90,

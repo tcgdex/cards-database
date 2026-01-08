@@ -4,6 +4,7 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Tropical Tidal Wave",
+		fr: "Raz-de-marée tropical"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -15,7 +16,8 @@ const card: Card = {
 	],
 
 	effect: {
-		en: "Flip a coin. If heads, discard all Trainer cards your opponent has in play. If tails, discard all Trainer cards (excluding Supporter cards) you have in play."
+		en: "Flip a coin. If heads, discard all Trainer cards your opponent has in play. If tails, discard all Trainer cards (excluding Supporter cards) you have in play.",
+		fr: "Lancez une pièce. Si c'est face, défaussez toutes les cartes Dresseur et Stade que votre adversaire a en jeu. Si c'est pile, défaussez toutes les cartes Dresseur et Stade que vous avez en jeu."
 	},
 
 	variants: [
