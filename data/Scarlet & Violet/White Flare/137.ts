@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Liepard"
 	},
 
+	illustrator: "matazo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,

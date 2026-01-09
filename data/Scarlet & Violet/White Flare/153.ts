@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Watchog"
 	},
 
+	illustrator: "Mousho",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

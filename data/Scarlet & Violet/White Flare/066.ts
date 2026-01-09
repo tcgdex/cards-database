@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zweilous"
 	},
 
+	illustrator: "kodama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

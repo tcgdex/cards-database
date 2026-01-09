@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Roggenrola"
 	},
 
+	illustrator: "Yuriko Akase",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,

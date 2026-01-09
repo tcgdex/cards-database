@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gothita"
 	},
 
+	illustrator: "Mousho",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

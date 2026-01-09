@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Swoobat"
 	},
 
+	illustrator: "Saboteri",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

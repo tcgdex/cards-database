@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Liepard"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

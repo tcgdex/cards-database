@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Litwick"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

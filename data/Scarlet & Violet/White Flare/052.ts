@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Mienfoo"
 	},
 
+	illustrator: "Keisin",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

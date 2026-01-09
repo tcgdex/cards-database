@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Roggenrola"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

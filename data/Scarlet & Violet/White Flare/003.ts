@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Leavanny"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

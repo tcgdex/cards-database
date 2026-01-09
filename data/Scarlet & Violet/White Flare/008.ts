@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Shelmet"
 	},
 
+	illustrator: "Saboteri",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

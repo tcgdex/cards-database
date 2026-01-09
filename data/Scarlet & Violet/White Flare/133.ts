@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Mienfoo"
 	},
 
+	illustrator: "Iori Suzuki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

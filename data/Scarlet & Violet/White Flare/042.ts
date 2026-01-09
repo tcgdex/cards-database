@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gothorita"
 	},
 
+	illustrator: "Mousho",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

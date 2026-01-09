@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Patrat"
 	},
 
+	illustrator: "Yukihiro Tada",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

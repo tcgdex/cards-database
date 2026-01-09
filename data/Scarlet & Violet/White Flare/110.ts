@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Swanna"
 	},
 
+	illustrator: "Gemi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
