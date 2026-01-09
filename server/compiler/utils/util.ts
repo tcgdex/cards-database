@@ -16,6 +16,10 @@ const EXPORT_METADATA = process.argv.includes('--export-git-metadata')
 const IMPORT_METADATA = process.argv.includes('--import-git-metadata')
 const METADATA_FILE = './git-metadata.json'
 
+// Debug flag - set to true to enable verbose logging for CI troubleshooting
+// TODO: Set DEBUG_GIT_METADATA to false after CI issues are resolved
+const DEBUG_GIT_METADATA = true
+
 const fileCache: fileCacheInterface = {}
 
 /**
@@ -176,6 +180,17 @@ function categorizeGitError(error: any): string {
 
 const lastEditsCache: Record<string, string> = {}
 export async function loadLastEdits() {
+	// Debug: Log configuration state at function entry
+	if (DEBUG_GIT_METADATA) {
+		console.log('\n[DEBUG] ========== loadLastEdits() START ==========')
+		console.log('[DEBUG] process.argv:', process.argv)
+		console.log('[DEBUG] EXPORT_METADATA:', EXPORT_METADATA)
+		console.log('[DEBUG] IMPORT_METADATA:', IMPORT_METADATA)
+		console.log('[DEBUG] METADATA_FILE:', METADATA_FILE)
+		console.log('[DEBUG] process.cwd():', process.cwd())
+		console.log('[DEBUG] __dirname:', __dirname)
+	}
+
 	// IMPORT MODE: Load metadata from file, skip git operations
 	if (IMPORT_METADATA) {
 		console.log('Importing git metadata from file...')
@@ -194,6 +209,9 @@ export async function loadLastEdits() {
 	}
 
 	// NORMAL/EXPORT MODE: Load from git (existing logic)
+	if (DEBUG_GIT_METADATA) {
+		console.log('[DEBUG] Entering NORMAL/EXPORT MODE')
+	}
 	console.log('Loading Git File Tree...')
 	const firstCommand = 'git ls-tree -r --name-only HEAD ../data'
 	const files = (await runCommand(firstCommand)).split('\n')
@@ -296,14 +314,41 @@ export async function loadLastEdits() {
 		console.log(`✅ All ${files.length} files loaded successfully in ${duration}s`)
 	}
 
+	// Debug: Log state before export decision
+	if (DEBUG_GIT_METADATA) {
+		console.log('\n[DEBUG] ========== EXPORT DECISION ==========')
+		console.log('[DEBUG] EXPORT_METADATA:', EXPORT_METADATA)
+		console.log('[DEBUG] lastEditsCache size:', objectSize(lastEditsCache))
+		console.log('[DEBUG] Will export:', EXPORT_METADATA ? 'YES' : 'NO')
+	}
+
 	// EXPORT MODE: Save metadata to file
 	if (EXPORT_METADATA) {
 		console.log('\n📦 Exporting git metadata to file...')
-		writeFileSync(METADATA_FILE, JSON.stringify(lastEditsCache, null, 2))
-		const stats = statSync(METADATA_FILE)
-		console.log('✅ Exported', objectSize(lastEditsCache), 'file timestamps')
-		console.log('   Metadata file:', METADATA_FILE)
-		console.log('   File size:', (stats.size / 1024 / 1024).toFixed(2), 'MB')
+		if (DEBUG_GIT_METADATA) {
+			console.log('[DEBUG] Writing to:', METADATA_FILE)
+			console.log('[DEBUG] Absolute path would be:', process.cwd() + '/' + METADATA_FILE.replace('./', ''))
+		}
+		try {
+			writeFileSync(METADATA_FILE, JSON.stringify(lastEditsCache, null, 2))
+			const stats = statSync(METADATA_FILE)
+			console.log('✅ Exported', objectSize(lastEditsCache), 'file timestamps')
+			console.log('   Metadata file:', METADATA_FILE)
+			console.log('   File size:', (stats.size / 1024 / 1024).toFixed(2), 'MB')
+			if (DEBUG_GIT_METADATA) {
+				console.log('[DEBUG] File written successfully!')
+				console.log('[DEBUG] Verifying file exists...')
+				const { existsSync } = require('fs')
+				console.log('[DEBUG] existsSync(METADATA_FILE):', existsSync(METADATA_FILE))
+			}
+		} catch (exportError) {
+			console.error('[ERROR] Failed to write metadata file:', exportError)
+			throw exportError
+		}
+	}
+
+	if (DEBUG_GIT_METADATA) {
+		console.log('[DEBUG] ========== loadLastEdits() END ==========\n')
 	}
 }
 
