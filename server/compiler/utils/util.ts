@@ -2,7 +2,7 @@ import { objectSize } from '@dzeio/object-util'
 import Queue from '@dzeio/queue'
 import { glob } from 'glob'
 import { exec, spawn } from 'node:child_process'
-import { writeFileSync } from 'node:fs'
+import { readFileSync, statSync, writeFileSync } from 'node:fs'
 import { Card, Languages, Set, SupportedLanguages } from '../../../interfaces'
 import * as legals from '../../../meta/legals'
 interface fileCacheInterface {
@@ -10,6 +10,11 @@ interface fileCacheInterface {
 }
 
 export const DB_PATH = "../"
+
+// Git metadata export/import configuration
+const EXPORT_METADATA = process.argv.includes('--export-git-metadata')
+const IMPORT_METADATA = process.argv.includes('--import-git-metadata')
+const METADATA_FILE = './git-metadata.json'
 
 const fileCache: fileCacheInterface = {}
 
@@ -131,6 +136,24 @@ function runCommand(command: string, useSpawn = true): Promise<string> {
 
 const lastEditsCache: Record<string, string> = {}
 export async function loadLastEdits() {
+	// IMPORT MODE: Load metadata from file, skip git operations
+	if (IMPORT_METADATA) {
+		console.log('Importing git metadata from file...')
+		try {
+			const data = readFileSync(METADATA_FILE, 'utf-8')
+			const imported = JSON.parse(data)
+			Object.assign(lastEditsCache, imported)
+			const stats = statSync(METADATA_FILE)
+			console.log('✅ Loaded', objectSize(lastEditsCache), 'file timestamps from cache')
+			console.log('   Metadata file size:', (stats.size / 1024 / 1024).toFixed(2), 'MB')
+			return
+		} catch (error) {
+			console.error('❌ Failed to import git metadata:', error)
+			throw new Error('Cannot import git metadata. File missing or corrupt.')
+		}
+	}
+
+	// NORMAL/EXPORT MODE: Load from git (existing logic)
 	console.log('Loading Git File Tree...')
 	const firstCommand = 'git ls-tree -r --name-only HEAD ../data'
 	const files = (await runCommand(firstCommand)).split('\n')
@@ -157,19 +180,19 @@ export async function loadLastEdits() {
 				console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
 			}
 		}))
-		// try {
-		// 	// don't really know why but it does not correctly execute the command when using Spawn
-		// 	lastEditsCache[file] = await runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false)
-		// } catch {
-		// 	console.warn('could not load file', file, 'hope it does not break everything else lol')
-		// }
-		// processed++
-		// if (processed % 1000 === 0) {
-		// 	console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
-		// }
 	}
 	await queue.waitEnd()
 	console.log('done loading files', objectSize(lastEditsCache))
+
+	// EXPORT MODE: Save metadata to file
+	if (EXPORT_METADATA) {
+		console.log('\n📦 Exporting git metadata to file...')
+		writeFileSync(METADATA_FILE, JSON.stringify(lastEditsCache, null, 2))
+		const stats = statSync(METADATA_FILE)
+		console.log('✅ Exported', objectSize(lastEditsCache), 'file timestamps')
+		console.log('   Metadata file:', METADATA_FILE)
+		console.log('   File size:', (stats.size / 1024 / 1024).toFixed(2), 'MB')
+	}
 }
 
 export function getLastEdit(path: string): string {

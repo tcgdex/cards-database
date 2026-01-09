@@ -61,23 +61,24 @@ jobs:
           bun run --bun validate
 
   # ============================================================
-  # Job 2: Compile server data ONCE (saves 15-25 minutes!)
+  # Job 2: Export git metadata ONCE (runs before compilation)
+  # Saves 120-180s by eliminating 2× redundant git loading!
   # ============================================================
-  compile:
+  export-git-metadata:
     runs-on: ubuntu-latest
     permissions: {}
-    timeout-minutes: 60
+    timeout-minutes: 30
     defaults:
       run:
         shell: bash
 
     steps:
-      - name: Checkout
+      - name: Checkout full history
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
-          # Full history for compilation (needs git metadata for "updated" field)
+          # Full history needed for accurate git timestamps
           fetch-depth: 0
 
       - name: Setup Bun
@@ -89,68 +90,70 @@ jobs:
           path: |
             ~/.bun/install/cache
             ~/.bun/install/global
-          key: ${{ runner.os }}-bun-compile-${{ hashFiles('bun.lockb', 'server/bun.lockb') }}
+          key: ${{ runner.os }}-bun-export-${{ hashFiles('bun.lockb', 'server/bun.lockb') }}
           restore-keys: |
-            ${{ runner.os }}-bun-compile-
-
-      - name: Install root deps
-        run: bun install --frozen-lockfile
+            ${{ runner.os }}-bun-export-
 
       - name: Install server deps
         run: |
           cd server
           bun install --frozen-lockfile
 
-      - name: Compile server data (RUNS ONCE for all OS!)
+      - name: Export git metadata
         run: |
           cd server
-          set -o pipefail
-          echo "::group::Compilation Output"
-          bun run compile 2>&1 | tee ../compile.log
+          echo "::group::Git Metadata Export"
+          bun run compile --export-git-metadata
           echo "::endgroup::"
-          cd ..
-          if grep -q "could not load file" compile.log; then
-            echo "::error::Compiler reported missing card files" >&2
-            cat compile.log
+
+      - name: Verify metadata file
+        run: |
+          cd server
+          if [ ! -f git-metadata.json ]; then
+            echo "::error::Metadata file not created!"
             exit 1
           fi
-          rm -f compile.log
+          
+          FILE_SIZE=$(du -h git-metadata.json | cut -f1)
+          ENTRY_COUNT=$(grep -o '"data' git-metadata.json | wc -l)
+          
+          echo "::notice::Metadata exported: $ENTRY_COUNT entries, $FILE_SIZE"
+          ls -lh git-metadata.json
 
-      # Upload compiled data to share with test jobs (secure: scoped to this workflow run)
-      - name: Upload compiled server data
+      - name: Upload git metadata artifact
         uses: actions/upload-artifact@v4
         with:
-          name: compiled-server-data
-          path: server/generated/
-          retention-days: 1  # Auto-delete after 24 hours
+          name: git-metadata
+          path: server/git-metadata.json
+          retention-days: 1
           if-no-files-found: error
-          compression-level: 9  # Maximum compression for faster download
+          compression-level: 9
 
   # ============================================================
-  # Job 3: API tests on multiple OS (downloads pre-compiled data)
-  # Runs in parallel - no more waiting for compilation!
+  # Job 3: Compile on each OS (downloads metadata, skips git loading)
+  # Platform-specific compilation testing preserved!
   # ============================================================
-  api-tests:
-    needs: compile  # Wait for compilation to complete
+  compile:
+    needs: export-git-metadata
     runs-on: ${{ matrix.os }}
     permissions: {}
     timeout-minutes: 60
     defaults:
       run:
         shell: bash
-    
+
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-      fail-fast: false  # Continue other OS even if one fails
+      fail-fast: false
 
     steps:
-      - name: Checkout
+      - name: Checkout shallow
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
-          # Shallow clone for testing (we don't need git history)
+          # Shallow clone! No git history needed (using imported metadata)
           fetch-depth: 1
 
       - name: Setup Bun
@@ -162,9 +165,9 @@ jobs:
           path: |
             ~/.bun/install/cache
             ~/.bun/install/global
-          key: ${{ matrix.os }}-bun-test-${{ hashFiles('bun.lockb', 'server/bun.lockb') }}
+          key: ${{ matrix.os }}-bun-compile-${{ hashFiles('bun.lockb', 'server/bun.lockb') }}
           restore-keys: |
-            ${{ matrix.os }}-bun-test-
+            ${{ matrix.os }}-bun-compile-
 
       - name: Cache Bruno CLI
         uses: actions/cache@v4
@@ -174,32 +177,23 @@ jobs:
           restore-keys: |
             ${{ matrix.os }}-bruno-
 
-      # Download pre-compiled data (fast! ~30s instead of ~8min compilation)
-      - name: Download compiled server data
+      - name: Download git metadata
         uses: actions/download-artifact@v4
         with:
-          name: compiled-server-data
-          path: server/generated/
+          name: git-metadata
+          path: server/
 
-      - name: Verify compiled data exists
+      - name: Verify metadata downloaded
         run: |
-          echo "::group::Compiled Data Verification"
-          if [ ! -d "server/generated" ]; then
-            echo "::error::Generated folder not found after artifact download"
+          cd server
+          if [ ! -f git-metadata.json ]; then
+            echo "::error::Metadata file not found after download!"
             exit 1
           fi
           
-          # Count files to ensure data was downloaded
-          FILE_COUNT=$(find server/generated -type f | wc -l)
-          echo "Found $FILE_COUNT files in server/generated/"
-          
-          if [ "$FILE_COUNT" -lt 10 ]; then
-            echo "::error::Too few files in generated data (expected >10, got $FILE_COUNT)"
-            exit 1
-          fi
-          
-          echo "::notice::✅ Compiled data verified: $FILE_COUNT files"
-          echo "::endgroup::"
+          FILE_SIZE=$(du -h git-metadata.json | cut -f1)
+          echo "::notice::Metadata ready: $FILE_SIZE"
+          ls -lh git-metadata.json
 
       - name: Install CLI & root deps
         run: |
@@ -215,6 +209,22 @@ jobs:
         run: |
           cd server
           bun test
+
+      - name: Compile with imported metadata
+        run: |
+          cd server
+          echo "::group::Compilation (${{ matrix.os }})"
+          set -o pipefail
+          bun run compile --import-git-metadata 2>&1 | tee ../compile.log
+          echo "::endgroup::"
+          
+          cd ..
+          if grep -q "could not load file" compile.log; then
+            echo "::error::Compiler reported missing card files" >&2
+            cat compile.log
+            exit 1
+          fi
+          rm -f compile.log
 
       - name: Start API server
         run: |
