@@ -64,10 +64,13 @@ jobs:
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-          cache: true
-          cache-dependency-path: |
-            bun.lock
-            server/bun.lock
+
+      - name: Cache Bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lockb', 'server/bun.lockb') }}
 
       - name: Pre build server
         run: |

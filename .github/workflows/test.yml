@@ -2,115 +2,150 @@ name: Test the Data
 
 on:
   push:
-    branches: 
+    branches:
       - master
   pull_request_target:
-    branches: 
-      - "**"
+    branches:
+      - '**'
 
 permissions: {}
+
 jobs:
-  # Job 1: Fast TypeScript validation for data files (shallow clone, no git history needed)
+  # Job 1: Fast TypeScript validation (shallow clone, single OS)
   validate:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     permissions: {}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
 
     steps:
-    - name: Checkout (shallow)
-      uses: actions/checkout@v6
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
-        persist-credentials: false
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
 
-    - name: Setup BunJS
-      uses: oven-sh/setup-bun@v2
-      with:
-        cache: true
-        cache-dependency-path: |
-          bun.lock
-          server/bun.lock
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
-    - name: Install deps
-      run: |
-        bun install --frozen-lockfile
-        cd server
-        bun install --frozen-lockfile
+      - name: Cache Bun installs
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.bun/install/cache
+            ~/.bun/install/global
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lockb', 'server/bun.lockb') }}
 
-    - name: Validate data files
-      run: bun tsc --noEmit --project tsconfig.data.json
+      - name: Install root deps
+        run: bun install --frozen-lockfile
 
-  # Job 2: Full validation + API tests (needs full git history for compile, runs in parallel)
+      - name: Install server deps
+        run: |
+          cd server
+          bun install --frozen-lockfile
+
+      - name: Run TypeScript validation (root)
+        run: bun run validate
+
+      - name: Run TypeScript validation (server)
+        run: |
+          cd server
+          bun run --bun validate
+
+  # Job 2: Full compilation + API tests (runs in parallel with validate)
   api-tests:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     permissions: {}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+    timeout-minutes: 120
+    defaults:
+      run:
+        shell: bash
 
     steps:
-    - name: Checkout (full history)
-      uses: actions/checkout@v6
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
-        persist-credentials: false
-        # fetch full history for `updated` support in compile step
-        fetch-depth: 0
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+          # fetch full history for `updated` support in compilation
+          fetch-depth: 0
 
-    - name: Setup BunJS
-      uses: oven-sh/setup-bun@v2
-      with:
-        cache: true
-        cache-dependency-path: |
-          bun.lock
-          server/bun.lock
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
-    - name: Install deps
-      run: |
-        bun install --frozen-lockfile
-        cd server
-        bun install --frozen-lockfile
+      - name: Cache Bun installs
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.bun/install/cache
+            ~/.bun/install/global
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lockb', 'server/bun.lockb') }}
 
-    - name: Compile server data
-      run: |
-        cd server
-        bun run compile
+      - name: Cache Bruno CLI
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/global/node_modules/@usebruno
+          key: ${{ runner.os }}-bruno-${{ hashFiles('.bruno/**') }}
 
-    - name: Validate all (including compiler)
-      run: |
-        bun run validate
-        cd server
-        bun run --bun validate
+      - name: Install CLI & root deps
+        run: |
+          bun install -g @usebruno/cli
+          bun install --frozen-lockfile
 
-    - name: Cache Bruno CLI
-      id: cache-bruno
-      uses: actions/cache@v4
-      with:
-        path: ~/.bun/install/global
-        key: bruno-cli-${{ runner.os }}-v1
+      - name: Install server deps
+        run: |
+          cd server
+          bun install --frozen-lockfile
 
-    - name: Install Bruno CLI
-      if: steps.cache-bruno.outputs.cache-hit != 'true'
-      run: bun install -g @usebruno/cli
+      - name: Run server unit tests
+        run: |
+          cd server
+          bun test
 
-    - name: Validate some requests
-      run: |
-        cd server
-        bun run start &
-        # Wait for server to be ready (max 60 attempts, 1 second each)
-        for i in $(seq 1 60); do
-          if curl -s http://127.0.0.1:3000/status > /dev/null 2>&1; then
-            echo "Server ready after $i seconds"
-            break
-          fi
-          if [ $i -eq 60 ]; then
-            echo "Server failed to start within 60 seconds"
+      - name: Compile server data
+        run: |
+          cd server
+          set -o pipefail
+          bun run compile 2>&1 | tee ../compile.log
+          cd ..
+          if grep -q "could not load file" compile.log; then
+            echo "::error::Compiler reported missing card files" >&2
+            cat compile.log
             exit 1
           fi
-          sleep 1
-        done
-        cd ../.bruno
-        bru run --env Developpement
-      shell: bash
+          rm -f compile.log
+
+      - name: Start API server
+        run: |
+          cd server
+          MAX_WORKERS=1 bun run start > ../server.log 2>&1 &
+          echo $! > ../server.pid
+
+      - name: Wait for server readiness
+        run: |
+          for i in {1..180}; do
+            if curl -sf http://127.0.0.1:3000/status > /dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Server failed to start" >&2
+          cat server.log || true
+          exit 1
+
+      - name: Run Bruno integration suite
+        run: |
+          cd .bruno
+          bru run --env Developpement
+
+      - name: Stop API server
+        if: always()
+        run: |
+          if [ -f server.pid ]; then
+            kill "$(cat server.pid)" || true
+            rm -f server.pid
+          fi
+          cat server.log || true
+          rm -f server.log
