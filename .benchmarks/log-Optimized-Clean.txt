@@ -1,0 +1,11 @@
+time="2026-01-09T09:58:22+01:00" level=info msg="Using docker host 'unix:///var/run/docker.sock', and daemon socket 'unix:///var/run/docker.sock'"
+*DRYRUN* [Build Docker image (Optimized)/Build TCGdex Server] ⭐ Run Set up job
+*DRYRUN* [Build Docker image (Optimized)/Build TCGdex Server] 🚀  Start image=catthehacker/ubuntu:act-latest
+*DRYRUN* [Build Docker image (Optimized)/Build TCGdex Server]   🐳  docker pull image=catthehacker/ubuntu:act-latest platform=linux/amd64 username= forcePull=true
+*DRYRUN* [Build Docker image (Optimized)/Build TCGdex Server]   🐳  docker create image=catthehacker/ubuntu:act-latest platform=linux/amd64 entrypoint=["tail" "-f" "/dev/null"] cmd=[] network="host"
+*DRYRUN* [Build Docker image (Optimized)/Build TCGdex Server]   🐳  docker run image=catthehacker/ubuntu:act-latest platform=linux/amd64 entrypoint=["tail" "-f" "/dev/null"] cmd=[] network="host"
+*DRYRUN* [Build Docker image (Optimized)/Build TCGdex Server]   ✅  Success - Set up job
+*DRYRUN* [Build Docker image (Optimized)/Build TCGdex Server]   ☁  git clone 'https://github.com/docker/metadata-action' # ref=v5
+*DRYRUN* [Build Docker image (Optimized)/Build TCGdex Server]   ☁  git clone 'https://github.com/docker/login-action' # ref=v3
+*DRYRUN* [Build Docker image (Optimized)/Build TCGdex Server]   ☁  git clone 'https://github.com/docker/login-action' # ref=v3
+*DRYRUN* [Build Docker image (Optimized)/Build TCGdex Server]   ☁  git clone 'https://github.com/docker/setup-qemu-action' # ref=v3

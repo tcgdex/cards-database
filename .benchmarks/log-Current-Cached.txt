@@ -1,0 +1,53 @@
+time="2026-01-09T09:58:16+01:00" level=info msg="Using docker host 'unix:///var/run/docker.sock', and daemon socket 'unix:///var/run/docker.sock'"
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Set up job
+*DRYRUN* [Build Docker image/Build TCGdex Server] 🚀  Start image=catthehacker/ubuntu:act-latest
+*DRYRUN* [Build Docker image/Build TCGdex Server]   🐳  docker pull image=catthehacker/ubuntu:act-latest platform=linux/amd64 username= forcePull=true
+*DRYRUN* [Build Docker image/Build TCGdex Server]   🐳  docker create image=catthehacker/ubuntu:act-latest platform=linux/amd64 entrypoint=["tail" "-f" "/dev/null"] cmd=[] network="host"
+*DRYRUN* [Build Docker image/Build TCGdex Server]   🐳  docker run image=catthehacker/ubuntu:act-latest platform=linux/amd64 entrypoint=["tail" "-f" "/dev/null"] cmd=[] network="host"
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Set up job
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ☁  git clone 'https://github.com/docker/metadata-action' # ref=v5
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ☁  git clone 'https://github.com/docker/login-action' # ref=v3
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ☁  git clone 'https://github.com/docker/login-action' # ref=v3
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ☁  git clone 'https://github.com/docker/setup-qemu-action' # ref=v3
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ☁  git clone 'https://github.com/docker/setup-buildx-action' # ref=v3
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ☁  git clone 'https://github.com/oven-sh/setup-bun' # ref=v2
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ☁  git clone 'https://github.com/actions/cache' # ref=v4
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ☁  git clone 'https://github.com/docker/build-push-action' # ref=v6
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Main Checkout
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Main Checkout [5.665917ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Main Docker meta
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Main Docker meta [5.170291ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Main Login to Docker Hub
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Main Login to Docker Hub [4.9205ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Main Login to Github Packages
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Main Login to Github Packages [4.871042ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Main Set up QEMU
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Main Set up QEMU [5.228209ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Main Set up Docker Buildx
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Main Set up Docker Buildx [4.776125ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Main Setup Bun
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Main Setup Bun [4.36775ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Main Cache Bun dependencies
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Main Cache Bun dependencies [4.57575ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Main Pre build server
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Main Pre build server [12.393333ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Main Build and push
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Main Build and push [4.606167ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Post Build and push
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Post Build and push [3.842958ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Post Cache Bun dependencies
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Post Cache Bun dependencies [5.806792ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Post Setup Bun
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Post Setup Bun [3.912791ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Post Set up Docker Buildx
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Post Set up Docker Buildx [5.054ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Post Set up QEMU
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Post Set up QEMU [3.808541ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Post Login to Github Packages
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Post Login to Github Packages [3.666ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Post Login to Docker Hub
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Post Login to Docker Hub [3.185625ms]
+*DRYRUN* [Build Docker image/Build TCGdex Server] ⭐ Run Complete job
+*DRYRUN* [Build Docker image/Build TCGdex Server] Cleaning up container for job Build TCGdex Server
+*DRYRUN* [Build Docker image/Build TCGdex Server]   ✅  Success - Complete job
+*DRYRUN* [Build Docker image/Build TCGdex Server] 🏁  Job succeeded
