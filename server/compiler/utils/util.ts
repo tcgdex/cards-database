@@ -134,6 +134,46 @@ function runCommand(command: string, useSpawn = true): Promise<string> {
 	})
 }
 
+// Error tracking for file loading
+interface FileLoadError {
+	file: string
+	error: string
+	errorType: string
+}
+
+function categorizeGitError(error: any): string {
+	const message = error?.message || error?.toString() || 'Unknown error'
+	
+	// File doesn't exist in git (newly added, not committed)
+	if (message.includes('does not have any commits') || 
+	    message.includes('fatal: bad revision') ||
+	    message.includes('bad object')) {
+		return 'UNCOMMITTED_FILE'
+	}
+	
+	// Permission or filesystem issues
+	if (message.includes('Permission denied') ||
+	    message.includes('EACCES') ||
+	    message.includes('ENOENT')) {
+		return 'PERMISSION_ERROR'
+	}
+	
+	// Git repository issues
+	if (message.includes('not a git repository') ||
+	    message.includes('corrupt')) {
+		return 'REPOSITORY_ERROR'
+	}
+	
+	// Path or encoding issues
+	if (message.includes('invalid path') ||
+	    message.includes('encoding')) {
+		return 'PATH_ERROR'
+	}
+	
+	// Unknown errors
+	return 'UNKNOWN_ERROR'
+}
+
 const lastEditsCache: Record<string, string> = {}
 export async function loadLastEdits() {
 	// IMPORT MODE: Load metadata from file, skip git operations
@@ -161,7 +201,12 @@ export async function loadLastEdits() {
 	files.push(...(await runCommand(secondCommand)).split('\n'))
 	console.log('Loaded files tree', files.length, 'files')
 	console.log('Loading their last edit time')
+	
+	// Track failures for reporting
+	const failedFiles: FileLoadError[] = []
 	let processed = 0
+	const startTime = Date.now()
+	
 	const concurrent = process.platform === 'win32' ? 10 : 1000
 	const queue = new Queue(concurrent, 10)
 	queue.start()
@@ -171,18 +216,85 @@ export async function loadLastEdits() {
 		await queue.add(runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false).then((res) => {
 			lastEditsCache[file] = res
 		})
-		.catch(() => {
-			console.warn('could not load file', file, 'hope it does not break everything else lol')
+		.catch((error) => {
+			// Categorize the error
+			const errorType = categorizeGitError(error)
+			const errorMessage = error?.message || error?.toString() || 'Unknown error'
+			
+			// Track failure
+			failedFiles.push({
+				file,
+				error: errorMessage,
+				errorType
+			})
+			
+			// Enhanced warning message with context
+			console.warn(`[WARNING] Failed to load git metadata for file: ${file}`)
+			console.warn(`          Error type: ${errorType}`)
+			console.warn(`          Error: ${errorMessage}`)
 		})
 		.finally(() => {
 			processed++
 			if (processed % 1000 === 0) {
-				console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
+				const failureRate = failedFiles.length > 0 ? ((failedFiles.length / processed) * 100).toFixed(2) : '0.00'
+				console.log(`loaded ${processed} out of ${files.length} files (${(processed / files.length * 100).toFixed(0)}%) - Failures: ${failedFiles.length} (${failureRate}%)`)
 			}
 		}))
 	}
 	await queue.waitEnd()
-	console.log('done loading files', objectSize(lastEditsCache))
+	
+	const endTime = Date.now()
+	const duration = ((endTime - startTime) / 1000).toFixed(2)
+	
+	console.log(`done loading files: ${objectSize(lastEditsCache)} successful`)
+	
+	// Report failures if any
+	if (failedFiles.length > 0) {
+		const failureRate = ((failedFiles.length / files.length) * 100).toFixed(2)
+		console.warn(`\n⚠️  Git Metadata Loading Issues Detected`)
+		console.warn(`   Total files: ${files.length}`)
+		console.warn(`   Successful: ${objectSize(lastEditsCache)}`)
+		console.warn(`   Failed: ${failedFiles.length} (${failureRate}%)`)
+		console.warn(`   Duration: ${duration}s`)
+		
+		// Group failures by error type
+		const errorsByType: Record<string, number> = {}
+		failedFiles.forEach(f => {
+			errorsByType[f.errorType] = (errorsByType[f.errorType] || 0) + 1
+		})
+		
+		console.warn(`\n   Failures by type:`)
+		Object.entries(errorsByType)
+			.sort(([, a], [, b]) => b - a)
+			.forEach(([type, count]) => {
+				console.warn(`   - ${type}: ${count}`)
+			})
+		
+		// Write detailed failure report
+		const failureReport = {
+			timestamp: new Date().toISOString(),
+			summary: {
+				totalFiles: files.length,
+				successfulFiles: objectSize(lastEditsCache),
+				failedFiles: failedFiles.length,
+				failureRate: `${failureRate}%`,
+				duration: `${duration}s`
+			},
+			errorsByType: errorsByType,
+			failures: failedFiles.map(f => ({
+				file: f.file,
+				errorType: f.errorType,
+				error: f.error
+			}))
+		}
+		
+		const reportPath = './git-metadata-failures.json'
+		writeFileSync(reportPath, JSON.stringify(failureReport, null, 2))
+		console.warn(`\n   Detailed failure report written to: ${reportPath}`)
+		console.warn(`   ⚠️  Compilation will continue, but some files may have incorrect timestamps\n`)
+	} else {
+		console.log(`✅ All ${files.length} files loaded successfully in ${duration}s`)
+	}
 
 	// EXPORT MODE: Save metadata to file
 	if (EXPORT_METADATA) {
