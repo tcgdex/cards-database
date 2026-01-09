@@ -80,16 +80,16 @@ jobs:
         run: |
           cd server
           echo "Current directory: $(pwd)"
-          ls -la
+          
           if [ ! -f git-metadata.json ]; then
             echo "::error::Metadata file not created!"
-            echo "Searching for file..."
-            find .. -name "git-metadata.json" -type f 2>/dev/null
+            ls -la
             exit 1
           fi
           
           FILE_SIZE=$(du -h git-metadata.json | cut -f1)
-          ENTRY_COUNT=$(grep -o '"data' git-metadata.json | wc -l)
+          # Count entries by counting lines with timestamps (ISO format)
+          ENTRY_COUNT=$(grep -c '": "20' git-metadata.json || echo "0")
           
           echo "::notice::Metadata exported: $ENTRY_COUNT entries, $FILE_SIZE"
           ls -lh git-metadata.json
