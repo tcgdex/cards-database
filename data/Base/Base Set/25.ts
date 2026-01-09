@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Dewgong",
 		fr: "Lamantine",
-		de: "Jugong"
+		de: "Jugong",
+		it: "Dewgong"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seel",
+		it: "Seel"
 	},
 
 	stage: "Stage1",
@@ -39,7 +41,8 @@ const card: Card = {
 			name: {
 				en: "Aurora Beam",
 				fr: "Onde Boréale",
-				de: "Aurorastrahl"
+				de: "Aurorastrahl",
+				it: "Raggiaurora"
 			},
 
 			damage: 50,
@@ -55,12 +58,14 @@ const card: Card = {
 			name: {
 				en: "Ice Beam",
 				fr: "Laser Glace",
-				de: "Ice Beam"
+				de: "Ice Beam",
+				it: "Geloraggio"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon difensore è Paralizzato."
 			},
 			damage: 30,
 
@@ -94,7 +99,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il emmagasine la chaleur dans son corps. Il peut nager dans l'eau glacée à plus de 8 nœuds."
+		fr: "Il emmagasine la chaleur dans son corps. Il peut nager dans l'eau glacée à plus de 8 nœuds.",
+		it: "Conserva energia termica nel suo corpo. Nuota ad una velocità costante di 8 nodi anche in acque estremamente fredde. LIV 42 N.87"
 	},
 
 	thirdParty: {

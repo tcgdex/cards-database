@@ -4,6 +4,7 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Latias",
+		fr: "Latias"
 	},
 	illustrator: "Wataru Kawahara",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Assist",
+				fr: "Assist-Énergie"
 			},
 			effect: {
 				en: "Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.",
+				fr: "Choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à 1 des Pokémon de votre Banc."
 			},
 			damage: 10,
 
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Infinite Wind",
+				fr: "Vent éternel"
 			},
 			effect: {
 				en: "If Latios is on your Bench, remove 2 damage counters from each of your Benched Pokémon.",
+				fr: "Si Latios est sur votre Banc, retirez 2 marqueurs de dégât à chacun de vos Pokémon de Banc."
 			},
 			damage: 40,
 

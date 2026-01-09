@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Raichu"
+		en: "Raichu",
+		fr: "Raichu"
 	},
 
 	illustrator: "match",
@@ -21,23 +22,27 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Iron Tail"
+			en: "Iron Tail",
+			fr: "Queue de fer"
 		},
 
 		damage: "30×",
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+			en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+			fr: "Lancez une pièce jusqu'à ce qu'elle tombe sur pile. Cette carte inflige 30 dégâts multipliés par le nombre de faces."
 		}
 	}, {
 		name: {
-			en: "Thunderbolt"
+			en: "Thunderbolt",
+			fr: "Tonnerre"
 		},
 
 		damage: 100,
 
 		effect: {
-			en: "Discard all Energy attached to Raichu."
+			en: "Discard all Energy attached to Raichu.",
+			fr: "Défaussez toutes les cartes Énergie attachées à Raichu."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Staryu",
 		fr: "Stari",
-		de: "Sterndu"
+		de: "Sterndu",
+		it: "Staryu"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Slap",
 				fr: "Gifle",
-				de: "Hieb"
+				de: "Hieb",
+				it: "Sberla"
 			},
 
 			damage: 20,
@@ -49,7 +51,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Un Pokémon bien curieux qui peut régénérer ses appendices sectionnés lors d'un combat."
+		fr: "Un Pokémon bien curieux qui peut régénérer ses appendices sectionnés lors d'un combat.",
+		it: "Pokémon enigmatico che può rigenerare senza sforzo qualsiasi parte del corpo persa in combattimento. LIV 15 N.120"
 	},
 
 	thirdParty: {

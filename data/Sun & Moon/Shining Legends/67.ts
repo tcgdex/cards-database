@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "",
+		fr: "Échangez votre Pokémon Actif avec l'un de vos Pokémon de Banc.",
 		en: "",
 		es: "",
 		it: "",
