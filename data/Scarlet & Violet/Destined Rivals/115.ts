@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Nidorina del Equipo Rocket"
 	},
 
+
+	illustrator: "Taiga Kasai",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

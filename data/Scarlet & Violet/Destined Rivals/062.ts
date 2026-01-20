@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Arrokuda"
 	},
 
+
+	illustrator: "OKUBO",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

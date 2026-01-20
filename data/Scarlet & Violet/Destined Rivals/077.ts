@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Rotom"
 	},
 
+
+	illustrator: "Yoshimi Miyoshi",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

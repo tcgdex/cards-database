@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Gorebyss"
 	},
 
+
+	illustrator: "Naoyo Kimura",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,

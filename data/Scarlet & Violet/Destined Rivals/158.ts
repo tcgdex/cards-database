@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Skwovet de Damián"
 	},
 
+
+	illustrator: "Oswaldo KATO",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

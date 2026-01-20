@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Starmie de Misty"
 	},
 
+	illustrator: "Natsumi Yoshida",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

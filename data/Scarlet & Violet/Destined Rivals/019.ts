@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tarountula del Equipo Rocket"
 	},
 
+	illustrator: "Saboteri",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

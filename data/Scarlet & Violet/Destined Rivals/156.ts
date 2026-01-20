@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Taillow"
 	},
 
+
+	illustrator: "Ayako Ozaki",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

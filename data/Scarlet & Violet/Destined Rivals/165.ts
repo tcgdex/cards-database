@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Aventura de Ethan"
 	},
 
+
+	illustrator: "Iori Suzuki",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

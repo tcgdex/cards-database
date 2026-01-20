@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Purrloin de Marnie"
 	},
 
+
+	illustrator: "REND",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

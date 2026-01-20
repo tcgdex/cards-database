@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Blaziken"
 	},
 
+	illustrator: "Kazumasa Yasukuni",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 170,

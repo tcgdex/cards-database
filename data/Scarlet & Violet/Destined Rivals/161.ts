@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Sándwich de Damián"
 	},
 
+
+	illustrator: "AYUMI ODASHIMA",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

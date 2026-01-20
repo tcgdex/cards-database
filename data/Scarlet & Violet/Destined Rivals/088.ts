@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Dottler del Equipo Rocket"
 	},
 
+
+	illustrator: "Scav",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

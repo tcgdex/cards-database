@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Wobbuffet del Equipo Rocket"
 	},
 
+
+	illustrator: "Kazumasa Yasukuni",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,

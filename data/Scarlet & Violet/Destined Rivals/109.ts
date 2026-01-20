@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Toedscool de Damián"
 	},
 
+
+	illustrator: "Fujimoto Gold",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

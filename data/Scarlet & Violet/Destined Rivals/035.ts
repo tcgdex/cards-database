@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Slugma de Ethan"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

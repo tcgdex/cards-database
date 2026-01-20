@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mimikyu del Equipo Rocket"
 	},
 
+
+	illustrator: "DOM",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 60,

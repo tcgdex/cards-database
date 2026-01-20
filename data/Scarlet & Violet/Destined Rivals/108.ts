@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mudsdale"
 	},
 
+
+	illustrator: "Uta",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,

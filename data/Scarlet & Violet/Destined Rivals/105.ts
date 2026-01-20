@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Hippopotas"
 	},
 
+
+	illustrator: "Minahamu",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Medicham"
 	},
 
+
+	illustrator: "Whisker",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

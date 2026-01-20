@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Zamazenta"
 	},
 
+
+	illustrator: "Mitsuhiro Arita",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,

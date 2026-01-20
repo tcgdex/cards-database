@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Metang de Steven"
 	},
 
+
+	illustrator: "Anesaki Dynamic",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

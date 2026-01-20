@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Torchic"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

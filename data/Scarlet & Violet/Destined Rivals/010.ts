@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Shaymin"
 	},
 
+	illustrator: "tono",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

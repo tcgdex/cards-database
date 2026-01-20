@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Spidops del Equipo Rocket"
 	},
 
+	illustrator: "Taiga Kasai",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,

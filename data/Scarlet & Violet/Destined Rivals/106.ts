@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Hippowdon"
 	},
 
+
+	illustrator: "Minahamu",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 160,

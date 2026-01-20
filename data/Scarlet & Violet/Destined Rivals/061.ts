@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Rotom Lavado"
 	},
 
+
+	illustrator: "miki kudo",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

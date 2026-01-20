@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Claydol de Steven"
 	},
 
+
+	illustrator: "nagimiso",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

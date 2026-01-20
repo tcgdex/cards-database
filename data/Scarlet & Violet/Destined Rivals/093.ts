@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Sudowoodo de Ethan"
 	},
 
+
+	illustrator: "OKACHEKE",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

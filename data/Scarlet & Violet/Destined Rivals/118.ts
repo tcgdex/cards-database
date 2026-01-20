@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Nidorino del Equipo Rocket"
 	},
 
+
+	illustrator: "KEIICHIRO ITO",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Roselia de Cynthia"
 	},
 
+	illustrator: "nisimono",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

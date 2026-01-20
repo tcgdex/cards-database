@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Shroomish"
 	},
 
+	illustrator: "IKEDA Saki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

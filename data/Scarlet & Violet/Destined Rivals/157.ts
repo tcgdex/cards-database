@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Swellow"
 	},
 
+
+	illustrator: "Souichirou Gunjima",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

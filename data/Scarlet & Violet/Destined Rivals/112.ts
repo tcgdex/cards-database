@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Ekans del Equipo Rocket"
 	},
 
+
+	illustrator: "KEIICHIRO ITO",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

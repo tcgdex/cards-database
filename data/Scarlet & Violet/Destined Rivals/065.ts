@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Cetitan ex"
 	},
 
+
+	illustrator: "kawayoo",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 300,
