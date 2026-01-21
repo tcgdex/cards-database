@@ -14,6 +14,9 @@ const card: Card = {
 		pt: "Koraidon ex"
 	},
 
+
+	illustrator: "PLANETA Tsuji",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 230,

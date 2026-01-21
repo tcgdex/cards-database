@@ -9,6 +9,9 @@ const card: Card = {
 		pt: "Pikachu",
 	},
 
+
+	illustrator: "Atsushi Furusawa",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 50,
