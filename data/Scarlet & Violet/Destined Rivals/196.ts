@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Electrike"
 	},
 
+
+	illustrator: "Nakamura Ippan",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

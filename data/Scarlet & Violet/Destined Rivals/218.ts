@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mabosstiff ex de Damián"
 	},
 
+
+	illustrator: "PLANETA Igarashi",
+
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 270,

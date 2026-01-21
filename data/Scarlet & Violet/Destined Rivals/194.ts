@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Lapras de Misty"
 	},
 
+
+	illustrator: "Orca",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,

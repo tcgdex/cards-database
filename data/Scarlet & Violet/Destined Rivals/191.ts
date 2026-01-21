@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Houndoom del Equipo Rocket"
 	},
 
+
+	illustrator: "nagimiso",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
