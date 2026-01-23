@@ -50,6 +50,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["eb-games"]
+		},
+		{
+			type: "holo",
+			stamp: ["gamestop"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 857601
 	}

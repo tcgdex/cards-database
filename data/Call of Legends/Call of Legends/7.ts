@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Gyarados",
+		fr: "Léviator",
 		de: "Garados"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -37,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hydro Splash",
+				fr: "Hydro-éclaboussure",
 				de: "Hydroplatscher"
 			},
 
@@ -52,10 +55,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Beam",
+				fr: "Ultralaser",
 				de: "Hyperstrahl"
 			},
 			effect: {
 				en: "Discard an Energy card attached to the Defending Pokémon.",
+				fr: "Défaussez une carte Énergie attachée au Pokémon Défenseur.",
 				de: "Lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 80,

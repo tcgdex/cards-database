@@ -4,6 +4,7 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Lapras",
+		fr: "Lokhlass"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ferry",
+				fr: "Transbordeur"
 			},
 			effect: {
 				en: "Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand.",
+				fr: "Cherchez une carte Supporter dans votre pile de défausse, montrez-la à votre adversaire, puis ajoutez-la à votre main."
 			},
 
 		},
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Surf",
+				fr: "Surf"
 			},
 
 			damage: 40,

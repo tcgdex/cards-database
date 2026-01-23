@@ -14,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	dexId: [
-		483,
+		484, // Palkia
+		483, // Dialga
 	],
 
 	hp: 160,

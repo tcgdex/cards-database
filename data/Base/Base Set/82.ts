@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Full Heal",
 		fr: "Guérison Totale",
-		de: "Hyperheiler"
+		de: "Hyperheiler",
+		it: "Recupero Totale"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,7 +16,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Votre Pokémon actif n'est plus Endormi, Confus, Paralysé ou Empoisonné.",
-		de: "Dein aktives Pokémon ist nicht mehr schlafend, verwirrt, gelähmt oder vergiftet."
+		de: "Dein aktives Pokémon ist nicht mehr schlafend, verwirrt, gelähmt oder vergiftet.",
+		it: "Il tuo Pokémon Attivo non è più Addormentato, Confuso, Paralizzato o Avvelenato."
 	},
 
 	thirdParty: {
