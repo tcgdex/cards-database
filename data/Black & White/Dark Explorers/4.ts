@@ -37,9 +37,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Air Slash",
+				fr: "Lame d'Air"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
+				fr: "Défaussez une Énergie attachée à ce Pokémon."
 			},
 			damage: 60,
 

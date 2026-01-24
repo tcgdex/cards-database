@@ -39,7 +39,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Metal Claw"
+			en: "Metal Claw",
+			fr: "Griffe Acier"
 		},
 
 		damage: 30
@@ -50,10 +51,12 @@ const card: Card = {
 			"Fighting"
 		],
 		name: {
-			en: "Drill Run"
+			en: "Drill Run",
+			fr: "Tunnelier"
 		},
 		effect: {
-			en: "Discard an Energy attached to the Defending Pokémon."
+			en: "Discard an Energy attached to the Defending Pokémon.",
+			fr: "Défaussez une Énergie attachée au Pokémon Défenseur."
 		},
 		damage: 80,
 	}],

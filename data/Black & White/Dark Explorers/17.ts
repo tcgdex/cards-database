@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Combusken",
+		fr: "Galifeu"
 	},
 
 	stage: "Stage2",
@@ -40,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Blaze Kick",
+				fr: "Pied Brûleur"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage. If tails, the Defending Pokémon is now Burned.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires. Si c'est pile, le Pokémon Défenseur est maintenant Brûlé."
 			},
 			damage: 40,
 
@@ -55,9 +58,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
+				fr: "Lance-Flamme"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
+				fr: "Défaussez une Énergie attachée à ce Pokémon."
 			},
 			damage: 130,
 

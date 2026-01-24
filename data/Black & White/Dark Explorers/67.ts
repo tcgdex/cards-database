@@ -36,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rising Lunge",
+				fr: "Botte Secrète"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
 			},
 			damage: 10,
 

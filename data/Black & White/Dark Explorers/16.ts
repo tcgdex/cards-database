@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Torchic",
+		fr: "Poussifeu"
 	},
 
 	stage: "Stage1",
@@ -39,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Kick",
+				fr: "Double Pied"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 20,
 
@@ -54,9 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
+				fr: "Lance-Flamme"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
+				fr: "Défaussez une Énergie attachée à ce Pokémon."
 			},
 			damage: 70,
 
