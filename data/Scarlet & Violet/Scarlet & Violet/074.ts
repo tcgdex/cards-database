@@ -58,7 +58,7 @@ const card: Card = {
 	illustrator: "kantaro",
 
 	thirdParty: {
-        cardmarket: 702369,
+        cardmarket: 702370,
         tcgplayer: 487929
     }
 }
