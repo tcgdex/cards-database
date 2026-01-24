@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Arboliva ex"
 	},
 
+	illustrator: "PLANETA Tsuji",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 310,

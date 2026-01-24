@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Blipbug del Equipo Rocket"
 	},
 
+	illustrator: "buchi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ogerpon Máscara Turquesa"
 	},
 
+	illustrator: "Tomomi Ozaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

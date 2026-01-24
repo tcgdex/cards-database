@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Heatmor"
 	},
 
+	illustrator: "Minahamu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

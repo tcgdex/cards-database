@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Larvesta"
 	},
 
+	illustrator: "Katsunori Sato",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

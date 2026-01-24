@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Porygon del Equipo Rocket"
 	},
 
+
+	illustrator: "Oswaldo KATO",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

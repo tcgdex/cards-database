@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zorua"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

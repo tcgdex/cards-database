@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mabosstiff ex de Damián"
 	},
 
+
+	illustrator: "Yuriko Akase",
+
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 270,

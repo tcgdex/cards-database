@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Volcarona"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,

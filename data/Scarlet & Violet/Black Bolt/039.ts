@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Reuniclus"
 	},
 
+	illustrator: "LINNE",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

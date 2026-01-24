@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lurantis"
 	},
 
+	illustrator: "Masako Tomii",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Solosis"
 	},
 
+	illustrator: "LINNE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,

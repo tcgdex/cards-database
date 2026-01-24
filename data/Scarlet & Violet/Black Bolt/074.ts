@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Audino"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

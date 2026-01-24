@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Vanilluxe"
 	},
 
+	illustrator: "cochi8i",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,

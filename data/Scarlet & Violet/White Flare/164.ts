@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Liza"
 	},
 
+	illustrator: "yuu",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

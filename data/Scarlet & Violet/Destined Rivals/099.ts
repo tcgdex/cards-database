@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Meditite"
 	},
 
+
+	illustrator: "MINAMINAMI Take",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

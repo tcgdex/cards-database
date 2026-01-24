@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Alomomola"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

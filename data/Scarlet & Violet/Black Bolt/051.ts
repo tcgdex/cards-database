@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Dwebble"
 	},
 
+	illustrator: "Tetsu Kayama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

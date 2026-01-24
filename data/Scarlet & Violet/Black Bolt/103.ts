@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tympole"
 	},
 
+	illustrator: "aspara",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

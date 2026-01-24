@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Virizion"
 	},
 
+	illustrator: "Felicia Chen",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

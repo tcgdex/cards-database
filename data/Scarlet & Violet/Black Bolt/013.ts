@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Darumaka"
 	},
 
+	illustrator: "svlt",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

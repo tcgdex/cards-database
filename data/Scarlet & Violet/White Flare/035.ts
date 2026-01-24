@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Stunfisk"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

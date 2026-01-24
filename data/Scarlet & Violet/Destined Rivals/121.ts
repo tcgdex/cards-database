@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Golbat del Equipo Rocket"
 	},
 
+
+	illustrator: "AKIRA EGAWA",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

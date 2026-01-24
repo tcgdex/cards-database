@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Muk del Equipo Rocket"
 	},
 
+
+	illustrator: "Uta",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,

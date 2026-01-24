@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Forretress"
 	},
 
+
+	illustrator: "Wintr Wandr",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

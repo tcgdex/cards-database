@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Nosepass"
 	},
 
+
+	illustrator: "Oku",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

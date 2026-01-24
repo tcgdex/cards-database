@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Gible de Cynthia"
 	},
 
+
+	illustrator: "Tomomi Ozaki",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Nidoqueen del Equipo Rocket"
 	},
 
+
+	illustrator: "hncl",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 170,

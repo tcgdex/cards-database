@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Snover"
 	},
 
+
+	illustrator: "Tomokazu Komiya",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

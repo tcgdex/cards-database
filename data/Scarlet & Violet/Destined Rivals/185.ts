@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Shaymin"
 	},
 
+
+	illustrator: "Heisuke Kitazawa",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,

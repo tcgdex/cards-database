@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Hydrapple"
 	},
 
+
+	illustrator: "Jerky",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 170,

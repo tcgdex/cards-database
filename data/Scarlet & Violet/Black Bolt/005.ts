@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Simisage"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

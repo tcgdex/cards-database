@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cottonee"
 	},
 
+	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Dolliv"
 	},
 
+	illustrator: "Felicia Chen",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

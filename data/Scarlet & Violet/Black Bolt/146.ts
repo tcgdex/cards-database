@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Fraxure"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,

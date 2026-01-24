@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Zapdos del Equipo Rocket"
 	},
 
+
+	illustrator: "Nurikabe",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

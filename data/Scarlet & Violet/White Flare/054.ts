@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Terrakion"
 	},
 
+	illustrator: "Tonji Matsuno",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gyarados de Misty"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Braviary"
 	},
 
+	illustrator: "kamonabe",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,

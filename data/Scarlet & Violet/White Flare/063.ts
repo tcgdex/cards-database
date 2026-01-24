@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Vullaby"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

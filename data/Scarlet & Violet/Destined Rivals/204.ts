@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Kangaskhan"
 	},
 
+
+	illustrator: "Mékayu",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,

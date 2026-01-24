@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ponyta"
 	},
 
+	illustrator: "Ayako Ozaki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

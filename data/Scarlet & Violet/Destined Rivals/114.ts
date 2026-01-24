@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Nidoran♀ del Equipo Rocket"
 	},
 
+
+	illustrator: "REND",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

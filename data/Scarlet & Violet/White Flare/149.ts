@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ferrothorn"
 	},
 
+	illustrator: "Minahamu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,
