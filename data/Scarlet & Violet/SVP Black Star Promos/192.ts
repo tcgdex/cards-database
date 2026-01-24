@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Fuecoco",
+		fr: "Chochodile"
 	},
 
 	rarity: "None",
@@ -27,6 +28,7 @@ const card: Card = {
 
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: "20"

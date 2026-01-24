@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Crocalor"
+		en: "Crocalor",
+		fr: "Crocogril"
 	},
 
 	stage: "Stage2",

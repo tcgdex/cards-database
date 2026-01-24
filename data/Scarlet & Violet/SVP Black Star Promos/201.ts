@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Zebstrika",
+		fr: "Zéblitz"
 	},
 
 	rarity: "None",
@@ -29,15 +30,18 @@ const card: Card = {
 			cost: ["Colorless"],
 			name: {
 				en: "Full Speed",
+				fr: "Pleine Vitesse"
 			},
 			effect: {
-				en: "Discard your hand and draw 6 cards."
+				en: "Discard your hand and draw 6 cards.",
+				fr: "Défaussez votre main, puis piochez 6 cartes."
 			}
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
 				en: "Head Bolt",
+				fr: "Éclair Frontal"
 			},
 			damage: 70,
 		}
