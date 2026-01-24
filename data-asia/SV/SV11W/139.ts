@@ -30,12 +30,11 @@ const card: Card = {
 
 	weaknesses: [{ type: "Fighting", value: "x2" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	evolveFrom: {
 		ja: "ヤブクロン",
@@ -45,6 +44,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [569],
+	thirdParty: {
+		cardmarket: 829498,
+		tcgplayer: 636692,
+	},
 };
 
 export default card;

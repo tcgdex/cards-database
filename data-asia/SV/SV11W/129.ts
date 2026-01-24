@@ -29,12 +29,11 @@ const card: Card = {
 
 	weaknesses: [{ type: "Grass", value: "x2" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	evolveFrom: {
 		ja: "古びたはねの化石",
@@ -44,6 +43,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [566],
+	thirdParty: {
+		cardmarket: 829488,
+		tcgplayer: 636682,
+	},
 };
 
 export default card;
