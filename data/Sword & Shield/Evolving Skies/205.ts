@@ -41,11 +41,13 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Grass Knot"
+			en: "Grass Knot",
+			fr: "Nœud Herbe"
 		},
 
 		effect: {
-			en: "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost."
+			en: "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+			fr: "Cette attaque inflige 60 dégâts pour chaque  dans le Coût de Retraite du Pokémon Actif de votre adversaire."
 		},
 
 		damage: "60×"
@@ -53,11 +55,13 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Max Leaf"
+			en: "Max Leaf",
+			fr: "Feuillomax"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon."
+			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon."
 		},
 
 		damage: 170

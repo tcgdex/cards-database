@@ -41,11 +41,13 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Hyper Beam"
+			en: "Hyper Beam",
+			fr: "Ultralaser"
 		},
 
 		effect: {
-			en: "Discard an Energy from your opponent's Active Pokémon."
+			en: "Discard an Energy from your opponent's Active Pokémon.",
+			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire."
 		},
 
 		damage: 120
@@ -53,7 +55,8 @@ const card: Card = {
 		cost: ["Water", "Water", "Water", "Colorless"],
 
 		name: {
-			en: "Max Tyrant"
+			en: "Max Tyrant",
+			fr: "Tyranomax"
 		},
 
 		damage: 240

@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Magma's Groudon"
+		en: "Team Magma's Groudon",
+		fr: "Pikachu Surfeur-VMAX"
 	},
 
 	illustrator: "Kazuo Yazawa",
@@ -30,11 +31,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Linear Attack"
+			en: "Linear Attack",
+			fr: "Surfeuromax"
 		},
 
 		effect: {
-			en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige aussi 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 		},
 
 		cost: ["Fighting", "Colorless"]

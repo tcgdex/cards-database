@@ -41,11 +41,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Quick Shooting"
+			en: "Quick Shooting",
+			fr: "Tir Rapide"
 		},
 
 		effect: {
-			en: "Once during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon."
+			en: "Once during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez placer 2 marqueurs de dégâts sur l'un des Pokémon de votre adversaire."
 		}
 	}],
 
@@ -53,7 +55,8 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Waterfall"
+			en: "Waterfall",
+			fr: "Cascade"
 		},
 
 		damage: 70

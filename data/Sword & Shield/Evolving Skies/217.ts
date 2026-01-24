@@ -41,11 +41,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Azure Pulse"
+			en: "Azure Pulse",
+			fr: "Pouls Azur"
 		},
 
 		effect: {
-			en: "Once during your turn, you may discard your hand and draw 3 cards."
+			en: "Once during your turn, you may discard your hand and draw 3 cards.",
+			fr: "Une fois pendant votre tour, vous pouvez défausser votre main et piocher 3 cartes."
 		}
 	}],
 
@@ -53,11 +55,13 @@ const card: Card = {
 		cost: ["Fire", "Lightning"],
 
 		name: {
-			en: "Max Burst"
+			en: "Max Burst",
+			fr: "Détonomax"
 		},
 
 		effect: {
-			en: "You may discard any amount of basic Fire Energy or any amount of basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way."
+			en: "You may discard any amount of basic Fire Energy or any amount of basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.",
+			fr: "Vous pouvez défausser autant d'Énergies  de base ou autant d'Énergies  de base que vous le voulez de ce Pokémon. Cette attaque inflige 80 dégâts supplémentaires pour chaque carte défaussée de cette façon."
 		},
 
 		damage: "20+"
