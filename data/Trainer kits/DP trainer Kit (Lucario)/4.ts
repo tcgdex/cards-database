@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Machoke"
+		en: "Machoke",
+		fr: "Machopeur"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machop",
+		fr: "Machoc"
 	},
 
 	attacks: [
@@ -31,10 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop"
+				en: "Karate Chop",
+				fr: "Poing-Karaté"
 			},
 			effect: {
-				en: "Does 40 damage minus 10 damage for each damage counter on Machoke."
+				en: "Does 40 damage minus 10 damage for each damage counter on Machoke.",
+				fr: "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machopeur."
 			},
 			damage: "40-"
 		},
@@ -45,7 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seismic Toss"
+				en: "Seismic Toss",
+				fr: "Frappe Atlas"
 			},
 			damage: "60"
 		}
