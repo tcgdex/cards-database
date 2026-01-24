@@ -4,6 +4,7 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Turtwig",
+		fr: "Tortipouss",
 	},
 
 	illustrator: "Masakazu Fukuda",
