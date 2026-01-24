@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwhirl",
+		fr: "Tetarte"
 	},
 
 	suffix: "EX",
