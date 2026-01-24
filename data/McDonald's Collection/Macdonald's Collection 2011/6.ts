@@ -14,13 +14,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Quick Attack"
+			en: "Quick Attack",
+			fr: "Vive-Attaque"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage."
+			en: "Flip a coin. If heads, this attack does 20 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 
@@ -32,7 +34,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Blitzle"
+		en: "Blitzle",
+		fr: "Zébibron"
 	},
 
 	rarity: "None",

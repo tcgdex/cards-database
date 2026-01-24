@@ -4,6 +4,7 @@ import Set from '../Macdonald\'s Collection 2021'
 const card: Card = {
 	name: {
 		en: "Chikorita",
+		fr: "Germignon"
 	},
 
 	illustrator: "sowsow",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mini Drain",
+				fr: "Mini-Assèchement"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
+				fr: "Soignez 10 dégâts à ce Pokémon."
 			},
 			damage: 10,
 

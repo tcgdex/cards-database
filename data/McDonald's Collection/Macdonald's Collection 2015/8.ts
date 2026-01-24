@@ -2,29 +2,45 @@ import { Card } from '../../../interfaces'
 import Set from '../Macdonald\'s Collection 2015'
 
 const card: Card = {
-	dexId: [111],
+	dexId: [
+		111,
+	],
 	set: Set,
-
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
-
 	name: {
-		en: "Rhyhorn"
+		en: "Rhyhorn",
+		fr: "Rhinocorne",
 	},
-
 	rarity: "None",
 	category: "Pokemon",
 	hp: 80,
-	types: ["Fighting"],
+	types: [
+		"Fighting",
+	],
 	stage: "Basic",
-
 	thirdParty: {
-		tcgplayer: 110426
-	}
+		tcgplayer: 110426,
+	},
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				fr: "Bélier",
+			},
+			damage: "40",
+			effect: {
+				fr: "Ce Pokémon s'inflige 10 dégâts.",
+			},
+		},
+	],
 }
 
 export default card
