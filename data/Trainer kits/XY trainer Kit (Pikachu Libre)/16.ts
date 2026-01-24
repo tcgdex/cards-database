@@ -28,13 +28,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Acrobatics"
+			en: "Acrobatics",
+			fr: "Acrobatie"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "Flip 2 coins. This attack does 10 more damage for each heads."
+			en: "Flip 2 coins. This attack does 10 more damage for each heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face."
 		}
 	}],
 

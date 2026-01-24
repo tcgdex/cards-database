@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Beedrill EX",
+		fr: "Dardargnan-EX"
 	},
 
 	illustrator: "hatachu",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Scrapper",
+				fr: "Double Raclée"
 			},
 			effect: {
 				en: "Discard up to 2 Pokémon Tool cards attached to your opponent's Pokémon.",
+				fr: "Défaussez jusqu'à 2 cartes Outil Pokémon attachées aux Pokémon de votre adversaire."
 			},
 
 		},
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pin Missile",
+				fr: "Dard-Nuée"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 40 damage times the number of heads.",
+				fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: "40×",
 

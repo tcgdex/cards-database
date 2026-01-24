@@ -46,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Cross Slicer",
+				fr: "Tranch'Croix"
 			},
 			effect: {
 				en: "Your opponent can't attach Energy from his or her hand to the Defending Pokémon during his or her next turn.",
+				fr: "Votre adversaire ne peut pas attacher d'Énergie de sa main au Pokémon Défenseur pendant son prochain tour."
 			},
 			damage: 80,
 
