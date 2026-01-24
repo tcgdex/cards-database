@@ -15,11 +15,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Paralyzing Gaze"
+			en: "Paralyzing Gaze",
+			fr: "Regard paralysant"
 		},
 
 		effect: {
-			en: "The Defending Pokémon is now Paralyzed."
+			en: "The Defending Pokémon is now Paralyzed.",
+			fr: "Le Pokémon Défenseur est maintenant Paralysé."
 		},
 
 		cost: ["Colorless"]

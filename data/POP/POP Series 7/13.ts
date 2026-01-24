@@ -4,6 +4,7 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Corsola",
+		fr: "Corsola"
 	},
 
 	illustrator: "Midori Harada",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rally",
+				fr: "Regroupement"
 			},
 			effect: {
 				en: "Search your deck for up to 3 different types of Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				fr: "Choisissez dans votre deck jusqu'à 3 types de Pokémon de base différents et placez-les sur votre Banc. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -43,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hook",
+				fr: "Crochet"
 			},
 
 			damage: 30,

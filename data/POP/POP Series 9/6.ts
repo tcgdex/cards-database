@@ -4,6 +4,7 @@ import Set from '../POP Series 9'
 const card: Card = {
 	name: {
 		en: "Buizel",
+		fr: "Buizel"
 	},
 
 	illustrator: "Midori Harada",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Whirlpool",
+				fr: "Siphon"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
 			},
 
 		},
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Fast",
+				fr: "« Super Rapide »"
 			},
 			effect: {
 				en: "If you have Pachirisu in play, flip a coin. If heads, prevent all effects of an attack, including damage, done to Buizel during your opponent’s next turn.",
+				fr: "Si vous avez un Pachirisu en jeu, lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Mustébouée lors du prochain tour de votre adversaire."
 			},
 			damage: 30,
 

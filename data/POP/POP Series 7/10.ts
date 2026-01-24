@@ -4,6 +4,7 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Wormadam Sandy Cloak",
+		fr: "Wormadam Sandy Cloak"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -23,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Burmy",
+		fr: "Cheniti Cape Sable"
 	},
 
 	stage: "Stage1",
@@ -32,9 +34,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Sandy Cloak",
+				fr: "Cape sable"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, excluding damage, done to Wormadam Sandy Cloak.",
+				fr: "Prévenez tous les effets d'une attaque, dégâts exclus, infligés à Cheniselle Cape Sable par des Pokémon de votre adversaire."
 			},
 		},
 	],
@@ -48,9 +52,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Push Over",
+				fr: "Facilité"
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Wormadam Sandy Cloak.",
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Cheniselle Cape Sable."
 			},
 			damage: "40+",
 
