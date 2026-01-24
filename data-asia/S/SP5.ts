@@ -9,9 +9,6 @@ const set: Set = {
 
 	serie: serie,
 
-	cardCount: {
-		official: 0
-	},
 	releaseDate: {
 		'zh-tw': '2021-08-27'
 	}

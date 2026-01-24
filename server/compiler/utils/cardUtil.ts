@@ -168,6 +168,13 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		})) : undefined,
 		updated: await getCardLastEdit(localId, card, lang),
 
+		set_number: {
+			text: card.set.cardCount?.official && card.set.cardCount.official > 0 ? `${localId}/${card.set.cardCount.official}` : localId,
+			nominator: localId.toString(),
+			numeric: /^\d+$/.test(localId) ? parseInt(localId) : /^\w+?(\d+)$/.test(localId) ? parseInt(RegExp.$1) : undefined,
+			denominator: card.set.cardCount?.official && card.set.cardCount.official > 0 ? card.set.cardCount.official : undefined
+		},
+
 		thirdParty: card.thirdParty
 	}
 }

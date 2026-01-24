@@ -16,10 +16,6 @@ const set: Set = {
 
 	serie: serie,
 
-	cardCount: {
-		official: 0
-	},
-
 	boosters: {
 		vol1: {
 			name : {
