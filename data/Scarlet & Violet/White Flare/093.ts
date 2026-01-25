@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Shelmet"
 	},
 
+	illustrator: "Mékayu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

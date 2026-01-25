@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rotom Calor"
 	},
 
+	illustrator: "Dsuke",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

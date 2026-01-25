@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Reciclaje de Energía"
 	},
 
+
+	illustrator: "Toyste Beach",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

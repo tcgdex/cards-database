@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Pawmo"
+		en: "Pawmo",
+		fr: "Pohmotte"
 	},
 
 	stage: "Stage2",
@@ -82,7 +83,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	thirdParty: {
-        cardmarket: 702372,
+        cardmarket: 702505,
         tcgplayer: 490069
     }
 }

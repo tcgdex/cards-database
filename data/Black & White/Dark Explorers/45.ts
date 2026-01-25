@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spark",
+				fr: "Étincelle"
 			},
 			effect: {
 				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 10,
 

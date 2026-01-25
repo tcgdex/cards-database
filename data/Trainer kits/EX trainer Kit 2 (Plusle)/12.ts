@@ -4,6 +4,7 @@ import Set from '../EX trainer Kit 2 (Plusle)'
 const card: Card = {
 	name: {
 		en: "Psychic Energy",
+		fr: "Énergie Psy"
 	},
 
 	illustrator: "",

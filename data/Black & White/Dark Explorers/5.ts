@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lure Poison",
+				fr: "Appât Vénéneux"
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. The new Defending Pokémon is now Poisoned.",
+				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Empoisonné."
 			},
 
 		},
@@ -49,9 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spit Squall",
+				fr: "Rafale de Crachats"
 			},
 			effect: {
 				en: "Your opponent puts the Defending Pokémon and all cards attached to it into his or her hand.",
+				fr: "Votre adversaire reprend le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans sa main."
 			},
 
 		},

@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lillipup",
+		fr: "Ponchiot"
 	},
 
 	stage: "Stage1",
@@ -39,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Roar",
+				fr: "Hurlement"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
 			},
 
 		},
@@ -52,6 +55,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 30,

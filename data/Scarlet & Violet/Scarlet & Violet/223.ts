@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Tarountula"
+		en: "Tarountula",
+		fr: "Tissenboule"
 	},
 
 	stage: "Stage1",
@@ -82,7 +83,7 @@ const card: Card = {
 	illustrator: "takuyoa",
 
 	thirdParty: {
-        cardmarket: 702315,
+        cardmarket: 702519,
         tcgplayer: 490081
     }
 }

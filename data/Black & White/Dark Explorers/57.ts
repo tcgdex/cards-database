@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drilbur",
+		fr: "Rototaupe"
 	},
 
 	stage: "Stage1",
@@ -41,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Reinforced Drill",
+				fr: "Perceuse Renforcée"
 			},
 			effect: {
 				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 30 more damage.",
+				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires."
 			},
 			damage: 50,
 
@@ -57,9 +60,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mach Claw",
+				fr: "Instagriffe"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
 			},
 			damage: 70,
 

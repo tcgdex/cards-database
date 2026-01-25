@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Keldeo ex"
 	},
 
+	illustrator: "PLANETA Yamashita",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 210,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Vanilluxe"
 	},
 
+	illustrator: "aoki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Spiritomb de Cynthia"
 	},
 
+
+	illustrator: "satoma",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,

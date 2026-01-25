@@ -33,17 +33,20 @@ const card: Card = {
 
 	resistances: [{ type: "Fighting", value: "-30" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	retreat: 3,
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [592],
+	thirdParty: {
+		cardmarket: 829483,
+		tcgplayer: 636677,
+	},
 };
 
 export default card;

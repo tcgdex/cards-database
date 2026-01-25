@@ -43,6 +43,12 @@ const card: Card = {
 
 	weaknesses: [{ type: "Grass", value: "x2" }],
 
+	variants: [
+		{
+			type: "holo",
+		},
+	],
+
 	evolveFrom: {
 		ja: "ジヘッド",
 	},
@@ -51,6 +57,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Ultra Rare",
 	suffix: "EX",
+	dexId: [635],
+	thirdParty: {
+		cardmarket: 829522,
+		tcgplayer: 636716,
+	},
 };
 
 export default card;

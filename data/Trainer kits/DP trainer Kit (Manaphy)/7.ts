@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seaking"
+		en: "Seaking",
+		fr: "Poissoroy"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Goldeen",
+		fr: "Poissirène"
 	},
 
 	attacks: [
@@ -31,10 +33,12 @@ const card: Card = {
 				"Colorless"
 			],
 			name: {
-				en: "Flail"
+				en: "Flail",
+				fr: "Fléau"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Seaking."
+				en: "Does 10 damage times the number of damage counters on Seaking.",
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Poissoroy."
 			},
 			damage: "10x"
 		},
@@ -44,7 +48,8 @@ const card: Card = {
 				"Water"
 			],
 			name: {
-				en: "Horn Drill"
+				en: "Horn Drill",
+				fr: "Empal'korne"
 			},
 			damage: 50
 		}

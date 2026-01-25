@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Pidgeotto",
 		fr: "Roucoups",
-		de: "Tauboga"
+		de: "Tauboga",
+		it: "Pidgeotto"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pidgey",
+		it: "Pidgey"
 	},
 
 	stage: "Stage1",
@@ -38,12 +40,15 @@ const card: Card = {
 			name: {
 				en: "Whirlwind",
 				fr: "Cyclone",
-				de: "Wirbelwind"
+				de: "Wirbelwind",
+				it: "Turbine"
+
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
 				fr: "Si votre adversaire a au moins un Pokémon sur le Banc, il ou elle choisit l'1 d'eux et l'échange avec le Pokémon Défenseur. (Appliquez les dégâts avant d'échanger les Pokémon.)",
-				de: "Falls Dein Gegner irgendwelche Poke,mon auf der Bank hat, muss er eines von ihnen wählen und mit dem verteidigenden pokemon austauschen. (Füge die Schadenspunkte vor dem Auswechseln der Pokémon zu.)"
+				de: "Falls Dein Gegner irgendwelche Poke,mon auf der Bank hat, muss er eines von ihnen wählen und mit dem verteidigenden pokemon austauschen. (Füge die Schadenspunkte vor dem Auswechseln der Pokémon zu.)",
+				it: "Se il tuo avversario ha dei Pokémon in Panchina, deve scegliere uno e scambiarlo con il Pokémon Difensore. (Infliggi il danno prima di sostituire il Pokémon.)"
 			},
 			damage: 20,
 
@@ -57,12 +62,14 @@ const card: Card = {
 			name: {
 				en: "Mirror Move",
 				fr: "Mimique",
-				de: "Spiegeltrick"
+				de: "Spiegeltrick",
+				it: "Speculmossa"
 			},
 			effect: {
 				en: "If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pokémon.",
 				fr: "Si Roucoups a été attaqué pendant le tour précédent, appliquez le résultat final de cette attaque infligée à Roucoups sur le Pokémon Défenseur.",
-				de: "Falls Tauboga im letzten Ziug angegriffen wurde, füge dem verteidigenden Pokémon Schadenspunkte in Höhe der Endstärke dieses Angriffs zu."
+				de: "Falls Tauboga im letzten Ziug angegriffen wurde, füge dem verteidigenden Pokémon Schadenspunkte in Höhe der Endstärke dieses Angriffs zu.",
+				it: "Se Pidgeotto è stato attaccato durante il turno precedente, infliggi al Pokémon Difensore un numero di danni pari al risultato finale di quell'attacco."
 			},
 
 		},
@@ -103,7 +110,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il protège son territoire avec ardeur et repousse à coups de bec tout intrus."
+		fr: "Il protège son territoire avec ardeur et repousse à coups de bec tout intrus.",
+		it:"Istintivamente protettivo del suo ampio territorio di caccia, questo Pokémon si serve del suo becco appuntito per attaccare con forza qualsiasi nuovo intruso. LIV 36 N.17"
 	},
 
 	thirdParty: {

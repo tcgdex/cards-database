@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ferroseed"
 	},
 
+	illustrator: "Nurikabe",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

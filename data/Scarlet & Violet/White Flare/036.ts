@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Woobat"
 	},
 
+	illustrator: "Wintr Wandr",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

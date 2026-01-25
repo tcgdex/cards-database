@@ -4,6 +4,7 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Porygon2",
+		fr: "Porygon2"
 	},
 	illustrator: "TOKIYA",
 	rarity: "Common",
@@ -19,6 +20,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Porygon",
+		fr: "Porygon"
 	},
 	stage: "Stage1",
 
@@ -27,9 +29,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Shortcut",
+				fr: "Raccourci"
 			},
 			effect: {
 				en: "The Retreat Cost for each Porygon, Porygon2, and Porygon-Z you have in play is Colorless less.",
+				fr: "Le Coût de retraite de chacun de vos Porygon, Porygon2 et Porygon-Z en jeu est diminué de ."
 			},
 		},
 	],
@@ -42,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Reckless Charge",
+				fr: "Attaque imprudente"
 			},
 			effect: {
 				en: "Porygon2 does 10 damage to itself.",
+				fr: "Porygon2 s'inflige 10 dégâts."
 			},
 			damage: 50,
 

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tepig"
 	},
 
+	illustrator: "Orca",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

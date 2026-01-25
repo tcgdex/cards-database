@@ -75,6 +75,19 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["trick-or-trade"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 851158,
 		tcgplayer: 654426

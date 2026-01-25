@@ -26,23 +26,27 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Second Bite"
+			en: "Second Bite",
+			fr: "Double Morsure"
 		},
 
 		damage: "20+",
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon."
+			en: "This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.",
+			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire."
 		}
 	}, {
 		name: {
-			en: "Sonic Bazooka"
+			en: "Sonic Bazooka",
+			fr: "Canon Supersonique"
 		},
 
 		damage: "60+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage and your opponent’s Active Pokémon is now Confused."
+			en: "Flip a coin. If heads, this attack does 30 more damage and your opponent’s Active Pokémon is now Confused.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires et le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}],
 

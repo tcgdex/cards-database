@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lilligant"
 	},
 
+	illustrator: "mele",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

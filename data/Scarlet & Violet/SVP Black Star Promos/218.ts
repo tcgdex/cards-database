@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Team Rocket's Persian ex",
+		fr: "Persian-ex de la Team Rocket"
 	},
 	suffix: "EX",
 	rarity: "None",

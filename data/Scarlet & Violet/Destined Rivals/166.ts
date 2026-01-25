@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Cueva Granito"
 	},
 
+
+	illustrator: "AYUMI ODASHIMA",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

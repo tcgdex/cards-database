@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Escavalier"
 	},
 
+	illustrator: "Uta",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,

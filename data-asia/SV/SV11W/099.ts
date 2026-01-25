@@ -33,17 +33,20 @@ const card: Card = {
 
 	weaknesses: [{ type: "Water", value: "x2" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [513],
+	thirdParty: {
+		cardmarket: 829454,
+		tcgplayer: 636652,
+	},
 };
 
 export default card;

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Zeraora"
 	},
 
+
+	illustrator: "Ryuta Fuse",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,

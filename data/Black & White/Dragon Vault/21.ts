@@ -4,6 +4,7 @@ import Set from '../Dragon Vault'
 const card: Card = {
 	name: {
 		en: "Kyurem",
+		fr: "Kyurem"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -32,6 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Claw",
+				fr: "Dracogriffe"
 			},
 
 			damage: 60,
@@ -46,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Blizzard",
+				fr: "Blizzard"
 			},
 			effect: {
 				en: "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 90,
 

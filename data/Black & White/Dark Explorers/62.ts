@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				fr: "Onde Folie"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
@@ -48,9 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Junk Hunt",
+				fr: "Marché aux Puces"
 			},
 			effect: {
 				en: "Put 2 Item cards from your discard pile into your hand.",
+				fr: "Ajoutez 2 cartes Objet de votre pile de défausse à votre main."
 			},
 
 		},

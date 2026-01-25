@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Garchomp Spirit Link",
+		fr: "Lien Spirituel Carchacrok"
 	},
 
 	illustrator: "5ban Graphics",

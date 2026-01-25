@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Archen"
 	},
 
+	illustrator: "Haru Akasaka",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

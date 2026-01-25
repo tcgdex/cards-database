@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Torre de Vigilancia del Equipo Rocket"
 	},
 
+
+	illustrator: "AYUMI ODASHIMA",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

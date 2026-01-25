@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Champions Festival",
+		fr: "Festival des Champions"
 	},
 
 	illustrator: "Naoki Saito",

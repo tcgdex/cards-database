@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sewaddle"
 	},
 
+	illustrator: "nisimono",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 50,

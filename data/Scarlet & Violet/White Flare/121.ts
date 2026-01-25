@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sigilyph"
 	},
 
+	illustrator: "mingo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,

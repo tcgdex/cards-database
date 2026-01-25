@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Excadrill ex"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 270,

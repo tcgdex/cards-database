@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Árbitro"
 	},
 
+
+	illustrator: "kantaro",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

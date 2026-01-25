@@ -31,12 +31,19 @@ const card: Card = {
 
 	weaknesses: [{ type: "Psychic", value: "x2" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 
 	evolveFrom: {
 		ja: "コジョフー",
@@ -46,6 +53,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Uncommon",
 	dexId: [620],
+	thirdParty: {
+		cardmarket: 829053,
+		tcgplayer: 636603,
+	},
 };
 
 export default card;

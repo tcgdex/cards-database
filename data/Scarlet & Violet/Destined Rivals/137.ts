@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Morpeko de Marnie"
 	},
 
+
+	illustrator: "Mina Nakai",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

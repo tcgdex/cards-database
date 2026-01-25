@@ -14,23 +14,27 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mega Drain"
+			en: "Mega Drain",
+			fr: "Méga-Sangsue"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon."
+			en: "Heal 20 damage from this Pokémon.",
+			fr: "Soigne 20 dégâts infligés à ce Pokémon."
 		}
 	}, {
 		name: {
-			en: "Pin Missile"
+			en: "Pin Missile",
+			fr: "Dard-Nuée"
 		},
 
 		damage: "20×",
 
 		effect: {
-			en: "Flip 4 coins. This attack does 20 damage times the number of heads."
+			en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
+			fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
 		}
 	}],
 
@@ -42,7 +46,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Maractus"
+		en: "Maractus",
+		fr: "Maracachi"
 	},
 
 	rarity: "None",

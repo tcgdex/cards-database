@@ -35,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
+				fr: "Picpic"
 			},
 
 			damage: 10,
@@ -47,6 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Live Coal",
+				fr: "Charbon Mutant"
 			},
 
 			damage: 20,

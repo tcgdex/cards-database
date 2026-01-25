@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Murkrow del Equipo Rocket"
 	},
 
+
+	illustrator: "Akira Komayama",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,

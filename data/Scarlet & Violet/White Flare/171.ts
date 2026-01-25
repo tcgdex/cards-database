@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Liza"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Special illustration rare",
 	category: "Trainer",
 

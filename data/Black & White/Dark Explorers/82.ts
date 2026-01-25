@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chansey",
+		fr: "Leveinard"
 	},
 
 	stage: "Stage1",
@@ -63,9 +64,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-Edge",
+				fr: "Damoclès"
 			},
 			effect: {
 				en: "This Pokémon does 60 damage to itself.",
+				fr: "Ce Pokémon s'inflige 60 dégâts."
 			},
 			damage: 90,
 

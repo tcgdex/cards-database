@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Starmie",
 		fr: "Staross",
-		de: "Starmie"
+		de: "Starmie",
+		it: "Starmie"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Staryu",
+		it: "Staryu"
 	},
 
 	stage: "Stage1",
@@ -38,12 +40,14 @@ const card: Card = {
 			name: {
 				en: "Recover",
 				fr: "Soin",
-				de: "Erholung"
+				de: "Erholung",
+				it: "Ripresa"
 			},
 			effect: {
 				en: "Discard 1 Energy card to Starmie in order to use this attack. Remove all damage counters from Starmie.",
 				fr: "Défaussez 1 carte Énergie  attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross.",
-				de: "Entferne eine auf Starmie abgelegte  Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Starmie."
+				de: "Entferne eine auf Starmie abgelegte  Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Starmie.",
+				it: "Scarta una carta Energia Acqua assegnata a Starmie per poter usare questo attacco. Togli tutti i segnalini danno da Starmie.",
 			},
 
 		},
@@ -56,12 +60,14 @@ const card: Card = {
 			name: {
 				en: "Star Freeze",
 				fr: "Étoile gelante",
-				de: "Sternenfrost"
+				de: "Sternenfrost",
+				it: "Assideramento stellare"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt."
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato.",
 			},
 			damage: 20,
 
@@ -76,7 +82,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Son cœur brille des couleurs de l'arc-en-ciel. On raconte que c'est une pierre précieuse."
+		fr: "Son cœur brille des couleurs de l'arc-en-ciel. On raconte que c'est une pierre précieuse.",
+		it: "Il suo nucleo centrale brilla  dei sette colori dell'arcobaleno. Valutato da alcuni come una gemma preziosa. LIV 28 N.121"
 	},
 
 	thirdParty: {

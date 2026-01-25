@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Rattata del Equipo Rocket"
 	},
 
+
+	illustrator: "Dsuke",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

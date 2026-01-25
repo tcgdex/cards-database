@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Milotic de Cynthia"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

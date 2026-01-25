@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Golett"
 	},
 
+	illustrator: "Nabatame Kazutaka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

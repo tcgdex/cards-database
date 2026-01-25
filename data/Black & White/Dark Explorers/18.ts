@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flame Cloak",
+				fr: "Manteau de Feu"
 			},
 			effect: {
 				en: "Flip a coin. If heads, attach a Fire Energy card from your discard pile to this Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie  de votre pile de défausse à ce Pokémon."
 			},
 			damage: 10,
 
@@ -50,6 +52,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Heat Blast",
+				fr: "Explosion de Chaleur"
 			},
 
 			damage: 60,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Solosis"
 	},
 
+	illustrator: "USGMEN",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 40,

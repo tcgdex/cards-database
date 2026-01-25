@@ -74,6 +74,15 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 857600
 	}

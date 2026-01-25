@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Recuperación de Energía"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 

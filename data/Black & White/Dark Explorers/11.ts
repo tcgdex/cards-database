@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shelmet",
+		fr: "Escargaume"
 	},
 
 	stage: "Stage1",
@@ -39,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
+				fr: "Enfoncer"
 			},
 
 			damage: 20,
@@ -51,9 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Deck and Cover",
+				fr: "Délit de Fuite"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Paralyzed and Poisoned. Shuffle this Pokémon and all cards attached to it into your deck.",
+				fr: "Le Pokémon Défenseur est maintenant Paralysé et Empoisonné. Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck."
 			},
 			damage: 50,
 

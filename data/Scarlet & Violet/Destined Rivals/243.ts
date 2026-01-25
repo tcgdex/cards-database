@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Torre de Interferencia"
 	},
 
+
+	illustrator: "AYUMI ODASHIMA",
+
 	rarity: "Hyper rare",
 	category: "Trainer",
 

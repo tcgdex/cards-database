@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Darmanitan"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,

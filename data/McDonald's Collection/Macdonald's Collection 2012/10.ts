@@ -14,7 +14,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule"
 		},
 
 		damage: 10
@@ -28,7 +29,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Scraggy"
+		en: "Scraggy",
+		fr: "Baggiguane"
 	},
 
 	rarity: "None",

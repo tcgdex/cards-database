@@ -30,12 +30,19 @@ const card: Card = {
 
 	weaknesses: [{ type: "Water", value: "×2" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 
 	evolveFrom: {
 		ja: "ポカブ",
@@ -45,6 +52,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Common",
 	dexId: [499],
+
+	thirdParty: {
+		cardmarket: 829014,
+		tcgplayer: 636565,
+	},
 };
 
 export default card;

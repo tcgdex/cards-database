@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Galvantula"
 	},
 
+	illustrator: "Shimaris Yukichi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

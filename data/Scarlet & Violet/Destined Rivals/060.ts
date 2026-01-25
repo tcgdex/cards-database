@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Abomasnow"
 	},
 
+
+	illustrator: "kamonabe",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,

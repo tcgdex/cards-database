@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Emoción de Comentarista"
 	},
 
+
+	illustrator: "Cona Nitanda",
+
 	rarity: "Common",
 	category: "Trainer",
 

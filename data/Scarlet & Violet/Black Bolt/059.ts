@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Krookodile"
 	},
 
+	illustrator: "Gapao",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 170,

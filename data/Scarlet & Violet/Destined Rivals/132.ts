@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Scraggy de Marnie"
 	},
 
+
+	illustrator: "Teeziro",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
