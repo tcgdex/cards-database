@@ -33,15 +33,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Darkness", value: "x2" }],
-
 	resistances: [{ type: "Fighting", value: "-30" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "ゴビット",
@@ -51,6 +45,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [623],
+
+	thirdParty: {
+		cardmarket: 829374,
+		tcgplayer: 636483,
+	},
 };
 
 export default card;

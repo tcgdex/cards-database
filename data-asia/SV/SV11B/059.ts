@@ -38,13 +38,13 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "ホイーガ",
@@ -54,6 +54,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Uncommon",
 	dexId: [545],
+
+	thirdParty: {
+		cardmarket: 828563,
+		tcgplayer: 636413,
+	},
 };
 
 export default card;

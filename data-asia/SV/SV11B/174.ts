@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 230,
 	types: ["Lightning"],
 
+	description: {
+		ja: "",
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -31,11 +35,21 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [{ type: "holo" }],
 
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Black White Rare",
+	dexId: [644],
+
 	suffix: "EX",
+
+	thirdParty: {
+		cardmarket: 829435,
+		tcgplayer: 636528,
+	},
 };
 
 export default card;

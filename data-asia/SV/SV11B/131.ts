@@ -28,18 +28,19 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [532],
+
+	thirdParty: {
+		cardmarket: 829376,
+		tcgplayer: 636485,
+	},
 };
 
 export default card;

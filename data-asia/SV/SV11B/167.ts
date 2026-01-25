@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 320,
 	types: ["Grass"],
 
+	description: {
+		ja: "",
+	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -36,6 +40,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "ジャノビー",
@@ -44,7 +51,14 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Special illustration rare",
+	dexId: [497],
+
 	suffix: "EX",
+
+	thirdParty: {
+		cardmarket: 829428,
+		tcgplayer: 636521,
+	},
 };
 
 export default card;

@@ -28,13 +28,13 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "フシデ",
@@ -44,6 +44,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Common",
 	dexId: [544],
+
+	thirdParty: {
+		cardmarket: 828556,
+		tcgplayer: 636412,
+	},
 };
 
 export default card;

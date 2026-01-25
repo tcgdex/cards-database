@@ -28,15 +28,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fire", value: "x2" }],
-
 	resistances: [{ type: "Grass", value: "-30" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "カブルモ",
@@ -46,6 +40,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [589],
+
+	thirdParty: {
+		cardmarket: 829405,
+		tcgplayer: 636500,
+	},
 };
 
 export default card;

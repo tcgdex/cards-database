@@ -40,22 +40,27 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "holo" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
-		ja: "アバゴーラGX",
+		ja: "プロトーガ",
 	},
 
 	retreat: 3,
 	regulationMark: "I",
 	rarity: "Rare",
 	dexId: [565],
+
+	thirdParty: {
+		cardmarket: 828475,
+		tcgplayer: 636380,
+	},
 };
 
 export default card;

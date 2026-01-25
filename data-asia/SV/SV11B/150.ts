@@ -28,17 +28,20 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	weaknesses: [],
+	resistances: [],
+
+	variants: [{ type: "holo" }],
 
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [610],
+
+	thirdParty: {
+		cardmarket: 829409,
+		tcgplayer: 636504,
+	},
 };
 
 export default card;

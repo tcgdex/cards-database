@@ -14,16 +14,16 @@ const card: Card = {
 		ja: "自分のベンチポケモンについているエネルギーを2個まで選び、バトルポケモンにつけ替える。 サポートは、自分の番に1枚しか使えない。",
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	trainerType: "Supporter",
 	regulationMark: "I",
 	rarity: "Ultra Rare",
+
+	thirdParty: {
+		cardmarket: 829423,
+		tcgplayer: 636519,
+	},
 };
 
 export default card;

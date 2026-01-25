@@ -35,15 +35,13 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Lightning", value: "x2" }],
-
 	resistances: [{ type: "Fighting", value: "-30" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "ハトーボー",
@@ -53,6 +51,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Uncommon",
 	dexId: [521],
+
+	thirdParty: {
+		cardmarket: 828613,
+		tcgplayer: 636429,
+	},
 };
 
 export default card;

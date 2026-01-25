@@ -28,13 +28,13 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "メグロコ",
@@ -44,6 +44,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Common",
 	dexId: [552],
+
+	thirdParty: {
+		cardmarket: 828574,
+		tcgplayer: 636415,
+	},
 };
 
 export default card;

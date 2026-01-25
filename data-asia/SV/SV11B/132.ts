@@ -29,13 +29,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "ドッコラー",
@@ -45,6 +41,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [533],
+
+	thirdParty: {
+		cardmarket: 829378,
+		tcgplayer: 636486,
+	},
 };
 
 export default card;

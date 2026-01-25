@@ -36,12 +36,14 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false,
-	},
+	weaknesses: [],
+	resistances: [],
+
+	variants: [
+		{ type: "holo" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "オノンド",
@@ -51,6 +53,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Rare",
 	dexId: [612],
+
+	thirdParty: {
+		cardmarket: 828606,
+		tcgplayer: 636426,
+	},
 };
 
 export default card;

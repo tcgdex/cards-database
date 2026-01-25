@@ -24,18 +24,19 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [529],
+
+	thirdParty: {
+		cardmarket: 829375,
+		tcgplayer: 636484,
+	},
 };
 
 export default card;

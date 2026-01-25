@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 220,
 	types: ["Metal"],
 
+	description: {
+		ja: "",
+	},
+
 	stage: "Basic",
 
 	abilities: [
@@ -36,13 +40,21 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fire", value: "x2" }],
-
 	resistances: [{ type: "Grass", value: "-30" }],
+
+	variants: [{ type: "holo" }],
 
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Special illustration rare",
+	dexId: [649],
+
 	suffix: "EX",
+
+	thirdParty: {
+		cardmarket: 829433,
+		tcgplayer: 636526,
+	},
 };
 
 export default card;

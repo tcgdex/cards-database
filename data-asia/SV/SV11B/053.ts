@@ -30,18 +30,23 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Uncommon",
 	dexId: [538],
+
+	thirdParty: {
+		cardmarket: 828521,
+		tcgplayer: 636407,
+	},
 };
 
 export default card;

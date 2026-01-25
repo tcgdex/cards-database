@@ -14,16 +14,16 @@ const card: Card = {
 		ja: "自分の手札をすべてトラッシュし、山札を7枚引く。 サポートは、自分の番に1枚しか使えない。",
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [{ type: "normal" }, { type: "reverse", foil: "pokeball" }],
 
 	trainerType: "Supporter",
 	regulationMark: "I",
 	rarity: "Uncommon",
+
+	thirdParty: {
+		cardmarket: 828653,
+		tcgplayer: 636438,
+	},
 };
 
 export default card;

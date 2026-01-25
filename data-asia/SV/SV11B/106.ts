@@ -27,13 +27,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "ヒヤップ",
@@ -43,6 +39,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [516],
+
+	thirdParty: {
+		cardmarket: 829349,
+		tcgplayer: 636460,
+	},
 };
 
 export default card;

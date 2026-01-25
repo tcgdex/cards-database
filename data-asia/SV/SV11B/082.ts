@@ -14,16 +14,16 @@ const card: Card = {
 		ja: "このカードをつけているポケモンは、にげるためのエネルギーが2個ぶん少なくなる。",
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [{ type: "normal" }, { type: "reverse", foil: "pokeball" }],
 
 	trainerType: "Tool",
 	regulationMark: "I",
 	rarity: "Uncommon",
+
+	thirdParty: {
+		cardmarket: 828634,
+		tcgplayer: 636436,
+	},
 };
 
 export default card;

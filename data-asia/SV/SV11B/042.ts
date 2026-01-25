@@ -35,15 +35,13 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Darkness", value: "x2" }],
-
 	resistances: [{ type: "Fighting", value: "-30" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "ダブラン",
@@ -53,6 +51,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Uncommon",
 	dexId: [579],
+
+	thirdParty: {
+		cardmarket: 828491,
+		tcgplayer: 636396,
+	},
 };
 
 export default card;

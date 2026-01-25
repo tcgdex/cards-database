@@ -35,13 +35,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "タマゲタケ",
@@ -51,6 +47,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [591],
+
+	thirdParty: {
+		cardmarket: 829339,
+		tcgplayer: 636450,
+	},
 };
 
 export default card;

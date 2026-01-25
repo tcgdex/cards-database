@@ -37,13 +37,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "シビシラス",
@@ -53,6 +49,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [603],
+
+	thirdParty: {
+		cardmarket: 829362,
+		tcgplayer: 636472,
+	},
 };
 
 export default card;

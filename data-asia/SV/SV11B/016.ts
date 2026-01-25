@@ -30,13 +30,13 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "ヒトモシ",
@@ -46,6 +46,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Common",
 	dexId: [608],
+
+	thirdParty: {
+		cardmarket: 828462,
+		tcgplayer: 636370,
+	},
 };
 
 export default card;

@@ -28,17 +28,24 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	weaknesses: [],
+	resistances: [],
+
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Common",
 	dexId: [610],
+
+	thirdParty: {
+		cardmarket: 828603,
+		tcgplayer: 636424,
+	},
 };
 
 export default card;

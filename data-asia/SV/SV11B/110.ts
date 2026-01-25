@@ -33,13 +33,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "古びたふたの化石",
@@ -49,6 +45,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [564],
+
+	thirdParty: {
+		cardmarket: 829353,
+		tcgplayer: 636464,
+	},
 };
 
 export default card;

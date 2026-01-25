@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 230,
 	types: ["Water"],
 
+	description: {
+		ja: "",
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -31,11 +35,21 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [{ type: "holo" }],
 
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Ultra Rare",
+	dexId: [646],
+
 	suffix: "EX",
+
+	thirdParty: {
+		cardmarket: 829419,
+		tcgplayer: 636514,
+	},
 };
 
 export default card;

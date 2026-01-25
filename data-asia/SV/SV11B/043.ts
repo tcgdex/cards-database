@@ -34,20 +34,23 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Darkness", value: "x2" }],
-
 	resistances: [{ type: "Fighting", value: "-30" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Common",
 	dexId: [605],
+
+	thirdParty: {
+		cardmarket: 828492,
+		tcgplayer: 636397,
+	},
 };
 
 export default card;

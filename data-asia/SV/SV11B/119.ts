@@ -36,13 +36,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "シビビール",
@@ -52,6 +48,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [604],
+
+	thirdParty: {
+		cardmarket: 829363,
+		tcgplayer: 636473,
+	},
 };
 
 export default card;

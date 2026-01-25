@@ -30,18 +30,19 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	retreat: 0,
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [587],
+
+	thirdParty: {
+		cardmarket: 829359,
+		tcgplayer: 636470,
+	},
 };
 
 export default card;

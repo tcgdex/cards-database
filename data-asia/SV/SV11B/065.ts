@@ -28,15 +28,13 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fire", value: "x2" }],
-
 	resistances: [{ type: "Grass", value: "-30" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "カブルモ",
@@ -46,6 +44,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Uncommon",
 	dexId: [589],
+
+	thirdParty: {
+		cardmarket: 828593,
+		tcgplayer: 636419,
+	},
 };
 
 export default card;

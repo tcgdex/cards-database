@@ -23,18 +23,23 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Common",
 	dexId: [554],
+
+	thirdParty: {
+		cardmarket: 828459,
+		tcgplayer: 636367,
+	},
 };
 
 export default card;

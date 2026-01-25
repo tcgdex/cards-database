@@ -24,16 +24,16 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [{ type: "normal" }, { type: "reverse", foil: "pokeball" }],
 
 	trainerType: "Item",
 	regulationMark: "I",
 	rarity: "Common",
+
+	thirdParty: {
+		cardmarket: 828629,
+		tcgplayer: 636434,
+	},
 };
 
 export default card;

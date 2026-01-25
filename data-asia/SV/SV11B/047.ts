@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 200,
 	types: ["Psychic"],
 
+	description: {
+		ja: "",
+	},
+
 	stage: "Basic",
 
 	abilities: [
@@ -36,13 +40,21 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Darkness", value: "x2" }],
-
 	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [{ type: "holo" }],
 
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Double rare",
+	dexId: [648],
+
 	suffix: "EX",
+
+	thirdParty: {
+		cardmarket: 828499,
+		tcgplayer: 636401,
+	},
 };
 
 export default card;

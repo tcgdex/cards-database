@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 270,
 	types: ["Fighting"],
 
+	description: {
+		ja: "",
+	},
+
 	stage: "Stage1",
 
 	attacks: [
@@ -32,6 +36,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "モグリュー",
@@ -40,7 +47,14 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 	rarity: "Ultra Rare",
+	dexId: [530],
+
 	suffix: "EX",
+
+	thirdParty: {
+		cardmarket: 829421,
+		tcgplayer: 636517,
+	},
 };
 
 export default card;

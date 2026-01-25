@@ -28,12 +28,14 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	weaknesses: [],
+	resistances: [],
+
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "キバゴ",
@@ -43,6 +45,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Common",
 	dexId: [611],
+
+	thirdParty: {
+		cardmarket: 828604,
+		tcgplayer: 636425,
+	},
 };
 
 export default card;

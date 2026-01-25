@@ -37,13 +37,13 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "holo" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "メラルバ",
@@ -53,6 +53,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Rare",
 	dexId: [637],
+
+	thirdParty: {
+		cardmarket: 828465,
+		tcgplayer: 636373,
+	},
 };
 
 export default card;

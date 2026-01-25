@@ -14,16 +14,16 @@ const card: Card = {
 		ja: "コインを2回投げ、すべてオモテなら、自分の山札から基本エネルギーを1枚選び、自分のポケモンにつける。そして山札を切る。",
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [{ type: "normal" }, { type: "reverse", foil: "pokeball" }],
 
 	trainerType: "Item",
 	regulationMark: "I",
 	rarity: "Uncommon",
+
+	thirdParty: {
+		cardmarket: 828626,
+		tcgplayer: 636433,
+	},
 };
 
 export default card;

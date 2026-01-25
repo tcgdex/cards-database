@@ -31,18 +31,19 @@ const card: Card = {
 	attacks: [{ name: { ja: "つのでつく" }, damage: 10, cost: ["Colorless"] }],
 
 	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [588],
+
+	thirdParty: {
+		cardmarket: 829336,
+		tcgplayer: 636448,
+	},
 };
 
 export default card;

@@ -38,13 +38,13 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "holo" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "ドテッコツ",
@@ -54,6 +54,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Rare",
 	dexId: [534],
+
+	thirdParty: {
+		cardmarket: 828520,
+		tcgplayer: 636406,
+	},
 };
 
 export default card;

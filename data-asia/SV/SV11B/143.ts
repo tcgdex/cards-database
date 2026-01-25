@@ -34,13 +34,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "ワルビル",
@@ -50,6 +46,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [553],
+
+	thirdParty: {
+		cardmarket: 829401,
+		tcgplayer: 636497,
+	},
 };
 
 export default card;

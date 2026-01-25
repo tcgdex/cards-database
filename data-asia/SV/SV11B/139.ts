@@ -28,13 +28,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "フシデ",
@@ -44,6 +40,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [544],
+
+	thirdParty: {
+		cardmarket: 829385,
+		tcgplayer: 636493,
+	},
 };
 
 export default card;

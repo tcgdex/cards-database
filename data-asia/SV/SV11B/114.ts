@@ -38,13 +38,9 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "クマシュン",
@@ -54,6 +50,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [614],
+
+	thirdParty: {
+		cardmarket: 829357,
+		tcgplayer: 636468,
+	},
 };
 
 export default card;

@@ -36,12 +36,10 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	weaknesses: [],
+	resistances: [],
+
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "オノンド",
@@ -51,6 +49,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [612],
+
+	thirdParty: {
+		cardmarket: 829411,
+		tcgplayer: 636506,
+	},
 };
 
 export default card;

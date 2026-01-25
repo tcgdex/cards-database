@@ -21,20 +21,19 @@ const card: Card = {
 	attacks: [{ name: { ja: "ころがる" }, damage: 10, cost: ["Colorless"] }],
 
 	weaknesses: [{ type: "Darkness", value: "x2" }],
-
 	resistances: [{ type: "Fighting", value: "-30" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [{ type: "holo" }],
 
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [577],
+
+	thirdParty: {
+		cardmarket: 829367,
+		tcgplayer: 636477,
+	},
 };
 
 export default card;

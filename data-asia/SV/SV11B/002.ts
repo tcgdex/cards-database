@@ -35,13 +35,13 @@ const card: Card = {
 	],
 
 	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: "normal" },
+		{ type: "reverse", foil: "pokeball" },
+		{ type: "reverse", foil: "masterball" },
+	],
 
 	evolveFrom: {
 		ja: "ツタージャ",
@@ -51,6 +51,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Common",
 	dexId: [496],
+
+	thirdParty: {
+		cardmarket: 828424,
+		tcgplayer: 636356,
+	},
 };
 
 export default card;

@@ -28,12 +28,10 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	weaknesses: [],
+	resistances: [],
+
+	variants: [{ type: "holo" }],
 
 	evolveFrom: {
 		ja: "キバゴ",
@@ -43,6 +41,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [611],
+
+	thirdParty: {
+		cardmarket: 829410,
+		tcgplayer: 636505,
+	},
 };
 
 export default card;
