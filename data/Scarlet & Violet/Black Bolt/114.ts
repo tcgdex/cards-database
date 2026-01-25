@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Eelektrik"
 	},
 
+	illustrator: "Kurata So",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

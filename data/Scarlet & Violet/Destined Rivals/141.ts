@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Skarmory"
 	},
 
+
+	illustrator: "Shin Nagasawa",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

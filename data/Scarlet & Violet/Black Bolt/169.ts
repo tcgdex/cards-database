@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Genesect ex"
 	},
 
+	illustrator: "kantaro",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 220,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Musharna"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,

@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Smoliv"
+		en: "Smoliv",
+		fr: "Olivini"
 	},
 
 	stage: "Stage1",
@@ -73,7 +74,7 @@ const card: Card = {
 	illustrator: "Oswaldo KATO",
 
 	thirdParty: {
-        cardmarket: 702318,
+        cardmarket: 702496,
         tcgplayer: 486622
     }
 }

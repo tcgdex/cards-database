@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Emboar"
 	},
 
+	illustrator: "NC Empire",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 180,

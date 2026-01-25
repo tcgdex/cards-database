@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Annihilape"
 	},
 
+
+	illustrator: "Shiburingaru",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,

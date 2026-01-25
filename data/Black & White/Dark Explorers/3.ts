@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ivysaur",
+		fr: "Herbizarre"
 	},
 
 	stage: "Stage2",
@@ -64,9 +65,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Powder",
+				fr: "Poudre Toxik"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: 70,
 

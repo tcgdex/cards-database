@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Durant"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

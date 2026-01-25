@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Duosion"
 	},
 
+	illustrator: "Kedamahadaitai Yawarakai",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

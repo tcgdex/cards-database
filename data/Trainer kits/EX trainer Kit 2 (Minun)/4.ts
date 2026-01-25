@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe"
+		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,7 +26,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 		damage: 10
 	}, {
@@ -35,7 +37,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Flame Tail"
+			en: "Flame Tail",
+			fr: "Queue de flammes"
 		},
 		damage: 40
 	}],

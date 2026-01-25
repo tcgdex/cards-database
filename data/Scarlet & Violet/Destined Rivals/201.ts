@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Zamazenta"
 	},
 
+
+	illustrator: "Takumi Wada",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,

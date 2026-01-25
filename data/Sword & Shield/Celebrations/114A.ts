@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zekrom"
+		en: "Zekrom",
+		fr: "Zekrom"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,22 +19,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Outrage"
+			en: "Outrage",
+			fr: "Broyeur de Terrain"
 		},
 
 		effect: {
-			en: "Does 10 more damage for each damage counter on this Pokémon."
+			en: "Does 10 more damage for each damage counter on this Pokémon.",
+			fr: "Si votre adversaire a un Stade en jeu, défaussez-le."
 		},
 
 		damage: "20+",
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Bolt Strike"
+			en: "Bolt Strike",
+			fr: "Tonnerre Blanc"
 		},
 
 		effect: {
-			en: "This Pokémon does 40 damage to itself."
+			en: "This Pokémon does 40 damage to itself.",
+			fr: "Si Reshiram est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires."
 		},
 
 		damage: 120,

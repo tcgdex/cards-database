@@ -14,6 +14,9 @@ const card: Card = {
 		pt: "Bellibolt ex da Kissera"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 280,

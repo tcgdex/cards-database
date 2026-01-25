@@ -14,6 +14,9 @@ const card: Card = {
 		pt: "Eevee ex"
 	},
 
+
+	illustrator: "Natsuko Shoji été",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 200,

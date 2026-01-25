@@ -39,12 +39,19 @@ const card: Card = {
 
 	resistances: [{ type: "Fighting", value: "-30" }],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 
 	evolveFrom: {
 		ja: "デスマス",
@@ -54,6 +61,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Rare",
 	dexId: [563],
+	thirdParty: {
+		cardmarket: 829039,
+		tcgplayer: 636590,
+	},
 };
 
 export default card;

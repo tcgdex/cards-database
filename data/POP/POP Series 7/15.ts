@@ -4,6 +4,7 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Ralts",
+		fr: "Ralts"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smack",
+				fr: "Claque"
 			},
 
 			damage: 10,
@@ -41,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				fr: "Onde folie"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 
 		},

@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Beldum"
+		en: "Beldum",
+		fr: "Terhal"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,20 +25,24 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Call for Family"
+			en: "Call for Family",
+			fr: "Appel à la famille"
 		},
 		effect: {
-			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+			fr: "Choisissez un Pokémon de base dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck."
 		}
 	}, {
 		cost: [
 			"Psychic",
 		],
 		name: {
-			en: "Metal Ball"
+			en: "Metal Ball",
+			fr: "Boule métallique"
 		},
 		effect: {
-			en: "Put 1 damage counter on the Defending Pokémon."
+			en: "Put 1 damage counter on the Defending Pokémon.",
+			fr: "Placez 1 marqueur de dégât sur le Pokémon Défenseur."
 		}
 	}],
 

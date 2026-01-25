@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "_____'s Pikachu"
+		en: "_____'s Pikachu",
+		fr: "Recherches Professorales"
 	},
 
 	illustrator: "Kagemaru Himeno",

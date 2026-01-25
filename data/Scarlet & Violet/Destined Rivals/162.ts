@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Pesa Recia de Cynthia"
 	},
 
+
+	illustrator: "Studio Bora Inc.",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

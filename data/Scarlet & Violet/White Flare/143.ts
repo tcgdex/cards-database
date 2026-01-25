@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zoroark"
 	},
 
+	illustrator: "Iwamoto05",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,

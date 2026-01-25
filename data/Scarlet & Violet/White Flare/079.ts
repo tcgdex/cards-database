@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Fósil Pluma Antiguo"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Common",
 	category: "Trainer",
 	hp: 60,

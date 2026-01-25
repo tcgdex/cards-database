@@ -35,12 +35,19 @@ const card: Card = {
 
 	weaknesses: [{ type: "Grass", value: "x2" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 
 	evolveFrom: {
 		ja: "モノズ",
@@ -50,6 +57,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Common",
 	dexId: [634],
+	thirdParty: {
+		cardmarket: 829064,
+		tcgplayer: 636614,
+	},
 };
 
 export default card;

@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Toxel"
+		en: "Toxel",
+		fr: "Toxizap"
 	},
 
 	stage: "Stage1",

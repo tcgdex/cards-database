@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Giovanni del Equipo Rocket"
 	},
 
+
+	illustrator: "Krgc",
+
 	rarity: "Special illustration rare",
 	category: "Trainer",
 

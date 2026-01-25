@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Dwebble"
 	},
 
+	illustrator: "Shimaris Yukichi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

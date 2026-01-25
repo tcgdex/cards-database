@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sandile",
+		fr: "Mascaïman"
 	},
 
 	stage: "Stage1",
@@ -40,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud-Slap",
+				fr: "Coud'Boue"
 			},
 
 			damage: 30,
@@ -54,6 +56,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Corkscrew Punch",
+				fr: "Poing Tire-Bouchon"
 			},
 
 			damage: 70,

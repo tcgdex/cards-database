@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Herdier"
 	},
 
+	illustrator: "Makura Tami",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Vanillish"
 	},
 
+	illustrator: "Yoko Hishida",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

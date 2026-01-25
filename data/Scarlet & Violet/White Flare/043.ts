@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gothitelle"
 	},
 
+	illustrator: "Mousho",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,

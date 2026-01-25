@@ -2,29 +2,51 @@ import { Card } from '../../../interfaces'
 import Set from '../Macdonald\'s Collection 2014'
 
 const card: Card = {
-	dexId: [656],
+	dexId: [
+		656,
+	],
 	set: Set,
-
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
-
 	name: {
-		en: "Froakie"
+		en: "Froakie",
+		fr: "Grenousse",
 	},
-
 	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
-	types: ["Water"],
+	types: [
+		"Water",
+	],
 	stage: "Basic",
-
 	thirdParty: {
-		tcgplayer: 110409
-	}
+		tcgplayer: 110409,
+	},
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				fr: "Écras'Face",
+			},
+			damage: "10",
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				fr: "Goutte à Goutte",
+			},
+			damage: "20",
+		},
+	],
 }
 
 export default card

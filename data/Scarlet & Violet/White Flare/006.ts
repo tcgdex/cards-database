@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Deerling"
 	},
 
+	illustrator: "Narano",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

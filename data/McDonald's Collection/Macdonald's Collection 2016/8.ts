@@ -14,22 +14,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rollout"
+			en: "Rollout",
+			fr: "Roulade"
 		},
 
 		damage: 10
 	}, {
 		name: {
-			en: "Heartfelt Song"
+			en: "Heartfelt Song",
+			fr: "Chanson du Cœur"
 		},
 
 		effect: {
-			en: "Discard a Darkness Energy attached to your opponent’s Active Pokémon."
+			en: "Discard a Darkness Energy attached to your opponent’s Active Pokémon.",
+			fr: "Défaussez une Énergie  attachée au Pokémon Actif de votre adversaire."
 		}
 	}],
 
 	name: {
-		en: "Jigglypuff"
+		en: "Jigglypuff",
+		fr: "Rondoudou"
 	},
 
 	rarity: "None",

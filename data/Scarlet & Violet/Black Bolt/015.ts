@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Larvesta"
 	},
 
+	illustrator: "mashu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

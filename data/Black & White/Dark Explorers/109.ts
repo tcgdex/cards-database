@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kirlia",
+		fr: "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -64,9 +65,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mind Shock",
+				fr: "Choc Cérébral"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness or Resistance.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
 			},
 			damage: 60,
 

@@ -35,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Static Shock",
+				fr: "Choc Statique"
 			},
 
 			damage: 20,

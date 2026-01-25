@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Samurott"
 	},
 
+	illustrator: "DOM",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 160,

@@ -39,6 +39,12 @@ const card: Card = {
 
 	resistances: [{ type: "Fighting", value: "-30" }],
 
+	variants: [
+		{
+			type: "holo",
+		},
+	],
+
 	evolveFrom: {
 		ja: "プルリル",
 	},
@@ -47,6 +53,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Ultra Rare",
 	suffix: "EX",
+	dexId: [593],
+	thirdParty: {
+		cardmarket: 829521,
+		tcgplayer: 636715,
+	},
 };
 
 export default card;

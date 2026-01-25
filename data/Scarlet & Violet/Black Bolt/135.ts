@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sandile"
 	},
 
+	illustrator: "Fujmoto Gold",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

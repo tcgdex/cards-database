@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Toedscruel de Damián"
 	},
 
+
+	illustrator: "Yuya Oka",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

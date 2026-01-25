@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Tauros"
 	},
 
+
+	illustrator: "yuu",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 130,

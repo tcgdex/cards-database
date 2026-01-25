@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Cetoddle"
 	},
 
+
+	illustrator: "sui",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

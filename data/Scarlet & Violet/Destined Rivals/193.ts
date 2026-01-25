@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Psyduck de Misty"
 	},
 
+
+	illustrator: "OKACHEKE",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
