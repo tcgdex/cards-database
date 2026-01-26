@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Magma's Lairon",
 		fr: "Galegon de la Team Magma",
+		pt: "Lairon da Equipe Magma",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Team Magma's Aron",
 		fr: "Galekid de la Team Magma",
+		pt: "Aron da Equipe Magma",
 	},
 
 	stage: "Stage1",
@@ -38,6 +40,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				pt: "Roída",
 			},
 
 			damage: 30,
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				pt: "Desmantelar",
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				pt: "Esse Pokémon causa 10 de danos a ele mesmo.",
 			},
 			damage: 60,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Magma's Poochyena",
 		fr: "Medhyèna de la Team Magma",
+		pt: "Poochyena da Equipe Magma",
 	},
 
 	illustrator: "TOKIYA",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Infiltrate",
 				fr: "Mission Infiltration",
+				pt: "Infiltrar",
 			},
 			effect: {
 				en: "Your opponent reveals his or her hand.",
 				fr: "Votre adversaire montre sa main.",
+				pt: "Seu oponente revela a própria mão",
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				pt: "mordida",
 			},
 
 			damage: 20,

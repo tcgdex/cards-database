@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Magma's Numel",
 		fr: "Chamallot de la Team Magma",
+		pt: "Numel da Equipe Magma",
 	},
 
 	illustrator: "Akira Komayama",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
+				pt: "Brasa",
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				pt: "Descarte uma Energia ligada a este Pokémon.",
 			},
 			damage: 30,
 
