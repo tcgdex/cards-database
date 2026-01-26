@@ -4,7 +4,7 @@ const serie: Serie = {
 	name: {
 		ja: 'ポケモンカードゲーム MEGA'
 	},
-	id: "MEGA"
+	id: "M"
 }
 
 export default serie
