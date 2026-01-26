@@ -14,6 +14,7 @@
 		"@dzeio/config": "^1.1.12",
 		"@dzeio/object-util": "^1.9.1",
 		"@dzeio/queue": "^1.2.1",
+		"@graphql-tools/schema": "^10.0.31",
 		"@sentry/node": "^8.55.0",
 		"@tcgdex/sdk": "^2.6.0",
 		"apicache": "^1.6.3",

@@ -1,0 +1,157 @@
+meta {
+  name: serie > cards
+  type: graphql
+  seq: 2
+}
+
+post {
+  url: {{BASE_URL}}/v3/graphql
+  body: graphql
+  auth: inherit
+}
+
+body:graphql {
+  query MyQuery {
+    series(filters: { id: "eq:base" }) {
+      id
+      logo
+      name
+      sets {
+        id
+        name
+        logo
+        symbol
+        serie {
+          id
+          sets {
+            id
+          }
+        }
+        tcgOnline
+        releaseDate
+        cardCount {
+          firstEd
+          holo
+          normal
+          official
+          reverse
+          total
+        }
+        cards {
+          abilities {
+            name
+            effect
+            type
+          }
+          attacks {
+            name
+            damage
+            effect
+            cost
+          }
+          category
+          description
+          dexId
+          effect
+          energyType
+          evolveFrom
+          hp
+          id
+          illustrator
+          image
+          item {
+            effect
+            name
+          }
+          legal {
+            expanded
+            standard
+          }
+          level
+          localId
+          name
+          rarity
+          regulationMark
+          resistances {
+            type
+            value
+          }
+          retreat
+          stage
+          suffix
+          trainerType
+          types
+          variants {
+            firstEdition
+            holo
+            normal
+            reverse
+            wPromo
+          }
+          variants_detailed {
+            type
+            size
+            stamps
+            foil
+          }
+          boosters {
+            id
+            name
+            logo
+            artwork_front
+            artwork_back
+          }
+          weaknesses {
+            type
+            value
+          }
+          pricing {
+            cardmarket {
+              updated
+              unit
+              idProduct
+              avg
+              low
+              trend
+              avg1
+              avg7
+              avg30
+              avgHolo
+              lowHolo
+              trendHolo
+              avg1Holo
+              avg7Holo
+              avg30Holo
+            }
+            tcgplayer {
+              updated
+              unit
+              prices {
+                productId
+                name
+                lowPrice
+                midPrice
+                highPrice
+                marketPrice
+                directLowPrice
+              }
+            }
+          }
+        }
+        boosters {
+          id
+          name
+          logo
+          artwork_front
+          artwork_back
+        }
+      }
+    }
+  }
+  
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
