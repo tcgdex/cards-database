@@ -20,12 +20,12 @@ type Query {
 	"""Find the cards"""
 	cards(filters: CardsFilters, pagination: Pagination, sort: Sort): [Card]
 
+	"""Find the sets"""
+	sets(filters: SetFilters, pagination: Pagination, sort: Sort): [Set]
+
 	"""Find the series"""
 	series(filters: SerieFilters, pagination: Pagination, sort: Sort): [Serie]
 
-	#
-	#	"""Find the sets"""
-	#	sets(filters: SetFilters, pagination: Pagination, sort: Sort): [Set]
 	#
 	#	"""Find one card (using the id and set is deprecated)"""
 	#	card(

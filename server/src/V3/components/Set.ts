@@ -50,16 +50,22 @@ const cache = new Cache()
 type MappedSet = any // (typeof en)[number]
 
 export async function getAllSets(lang: SupportedLanguages): Promise<Array<tcgdexSet>> {
-	return Promise.all((sets[lang] as Array<MappedSet>).map(transformSet))
+	return Promise.all((sets[lang] as Array<MappedSet>).map((set) => transformSet(lang, set)))
 }
 
-async function transformSet(set: MappedSet): Promise<tcgdexSet> {
+async function transformSet(lang: SupportedLanguages,set: MappedSet): Promise<tcgdexSet> {
+	let cards = []
+
+	for (const card of set.cards) {
+		let d_card = await getCardById(lang, card.id)
+		if (d_card) {
+			cards.push(d_card)
+		}
+	}
+
 	return {
 		...objectOmit(set, 'thirdParty'),
-		// pricing: {
-		// 	cardmarket: await getCardMarketPrice(card),
-		// 	tcgplayer: await getTCGPlayerPrice(card)
-		// }
+		cards: cards,
 	}
 }
 

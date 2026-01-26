@@ -5,6 +5,7 @@ import { checkLanguage } from '../../util'
 import { findCards } from "../components/Card";
 import { mapCardMarketPricing, mapTcgplayerPricing } from "./mappers/pricing";
 import { findSeries } from "../components/Serie";
+import { findSets } from "../components/Set";
 
 // TODO: make a better way to find the language
 function getLang(e: any): SupportedLanguages {
@@ -57,6 +58,10 @@ export default {
 	Query: {
 		cards: middleware((lang, query) => {
 			return findCards(lang, query);
+		}),
+
+		sets: middleware((lang, query) => {
+			return findSets(lang, query);
 		}),
 
 		series: middleware((lang, query) => {
