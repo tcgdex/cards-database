@@ -218,6 +218,7 @@ export interface Card {
 			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
 			// Black White rare
 			| 'Black White Rare'
+			| 'Super rare' | 'Super art rare'
 			| 'Mega Hyper Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
