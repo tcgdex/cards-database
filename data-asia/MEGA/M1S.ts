@@ -1,5 +1,5 @@
 import { Set } from '../../interfaces'
-import serie from '../M'
+import serie from '../MEGA'
 
 const set: Set = {
 	id: 'M1S',
