@@ -13,7 +13,7 @@ const card: Card = {
 		ja: "自分の山札から「メガシンカex」を1枚選び、相手に見せて手札に加える。そして山札を切る。"
 	},
 	regulationMark: "I",
-	rarity: "Super rare"
+	rarity: "Secret Rare"
 }
 
 export default card

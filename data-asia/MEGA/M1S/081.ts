@@ -13,7 +13,7 @@ const card: Card = {
 		ja: "自分の山札から、HPが「70」以下のたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
 	},
 	regulationMark: "I",
-	rarity: "Super rare"
+	rarity: "Secret Rare"
 }
 
 export default card
