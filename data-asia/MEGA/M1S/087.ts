@@ -42,7 +42,7 @@ const card: Card = {
 	}],
 	retreat: 2,
 	regulationMark: "I",
-	rarity: "Super art rare",
+	rarity: "Special illustration rare",
 	suffix: "EX",
 	dexId: [282]
 }
