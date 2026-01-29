@@ -2,10 +2,10 @@ name: Build Docker image
 
 on:
   push:
-    branches: 
+    branches:
       - master
   pull_request:
-    branches: 
+    branches:
       - "**"
 
 env:
@@ -68,9 +68,7 @@ jobs:
       - name: Pre build server
         run: |
           bun install --frozen-lockfile
-          cd server
-          bun install --frozen-lockfile
-          bun run compile
+          bun scripts/compiler/index.ts
           rm -rf node_modules
           cd ..
           rm -rf node_modules
