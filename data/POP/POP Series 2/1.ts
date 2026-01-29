@@ -4,6 +4,7 @@ import Set from '../POP Series 2'
 const card: Card = {
 	name: {
 		en: "Entei",
+		fr: "Entei"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stomp",
+				fr: "Écrasement"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
 			},
 			damage: "10+",
 
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Spin",
+				fr: "Danseflamme"
 			},
 			effect: {
 				en: "Discard 2 basic Energy cards attached to Entei or this attack does nothing.",
+				fr: "Défaussez 2 cartes Énergie de base attachées à Entei ou cette attaque est sans effet."
 			},
 			damage: 50,
 

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ducklett"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

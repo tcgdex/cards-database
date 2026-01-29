@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zweilous"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,

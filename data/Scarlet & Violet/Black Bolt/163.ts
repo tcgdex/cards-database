@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Plan de N"
 	},
 
+	illustrator: "hncl",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zorua"
 	},
 
+	illustrator: "akagi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

@@ -14,18 +14,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Epic Splash"
+			en: "Epic Splash",
+			fr: "Trempette Épique"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Flip 2 coins. If either of them is tails, this attack does nothing."
+			en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
+			fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien."
 		}
 	}],
 
 	name: {
-		en: "Magikarp"
+		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	rarity: "None",

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Kangaskhan"
 	},
 
+
+	illustrator: "Sanosuke Sakuma",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 120,

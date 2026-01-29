@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Claydol"
+		en: "Claydol",
+		fr: "Lunala"
 	},
 
 	illustrator: "Midori Harada",
@@ -30,7 +31,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Spinning Attack"
+			en: "Spinning Attack",
+			fr: "Douleur Lunaire"
 		},
 
 		damage: 40,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Axew"
 	},
 
+	illustrator: "Ayako Ozaki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

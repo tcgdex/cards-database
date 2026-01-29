@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Roserade de Cynthia"
 	},
 
+	illustrator: "En Morikura",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,

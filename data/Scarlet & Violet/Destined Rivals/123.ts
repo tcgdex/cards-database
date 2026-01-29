@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Grimer del Equipo Rocket"
 	},
 
+
+	illustrator: "Mousho",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

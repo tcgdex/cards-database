@@ -9,6 +9,9 @@ const card: Card = {
 		pt: "Oddish"
 	},
 
+
+	illustrator: "Miranda Branley",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 60,

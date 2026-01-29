@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Meowth del Equipo Rocket"
 	},
 
+
+	illustrator: "Shimaris Yukichi",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

@@ -48,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Gigas Punch",
+				fr: "Coup d'Poing Giga"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are tails, this attack does nothing.",
+				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés pile, cette attaque ne fait rien."
 			},
 			damage: 100,
 

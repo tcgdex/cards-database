@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Atenea del Equipo Rocket"
 	},
 
+
+	illustrator: "hncl",
+
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

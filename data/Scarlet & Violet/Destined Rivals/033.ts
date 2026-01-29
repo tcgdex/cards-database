@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Quilava de Ethan"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

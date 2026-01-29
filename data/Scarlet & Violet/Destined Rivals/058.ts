@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Floatzel"
 	},
 
+
+	illustrator: "Shibuzoh.",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

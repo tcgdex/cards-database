@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Mewtwo-EX",
+		fr: "Mewtwo-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Photon Wave",
+				fr: "Onde Photon"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
+				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 30 (avant application de la Faiblesse et de la Résistance)."
 			},
 			damage: 30,
 
@@ -45,6 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Psyburn",
+				fr: "Brûlure Psy"
 			},
 
 			damage: 120,

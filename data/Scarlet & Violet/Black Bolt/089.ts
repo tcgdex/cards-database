@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pansage"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

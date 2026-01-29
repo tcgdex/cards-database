@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Bisharp"
 	},
 
+	illustrator: "toriyufu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,

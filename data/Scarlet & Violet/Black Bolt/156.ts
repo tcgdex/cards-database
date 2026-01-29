@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Serperior ex"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 320,

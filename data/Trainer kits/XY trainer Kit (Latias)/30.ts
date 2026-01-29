@@ -28,19 +28,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Psychic Sphere"
+			en: "Psychic Sphere",
+			fr: "Sphère Psy"
 		},
 
 		damage: 20
 	}, {
 		name: {
-			en: "Psychic Prism"
+			en: "Psychic Prism",
+			fr: "Prisme Psy"
 		},
 
 		damage: "60+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage."
+			en: "Flip a coin. If heads, this attack does 20 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 

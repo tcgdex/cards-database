@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Piplup"
+		en: "Piplup",
+		fr: "Tiplouf"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -26,7 +27,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck"
+				en: "Peck",
+				fr: "Picpic"
 			},
 			damage: 10
 		},
@@ -36,10 +38,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Splash"
+				en: "Water Splash",
+				fr: "Éclaboussure"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage plus 10 more damage."
+				en: "Flip a coin. If heads, this attack does 20 more damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "20+"
 		}

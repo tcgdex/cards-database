@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ferroseed"
 	},
 
+	illustrator: "Hasuno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

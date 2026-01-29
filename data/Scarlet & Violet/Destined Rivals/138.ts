@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Maschiff de Damián"
 	},
 
+
+	illustrator: "Mina Nakai",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rufflet"
 	},
 
+	illustrator: "Kedamahadaitai Yawarakai",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

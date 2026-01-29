@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magneton"
+		en: "Magneton",
+		fr: "Magneton"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -21,6 +22,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
+		fr: "Magnéti"
 	},
 
 	attacks: [{
@@ -29,7 +31,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Ram"
+			en: "Ram",
+			fr: "Collision"
 		},
 		damage: 20
 	}, {
@@ -39,10 +42,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Triple Smash"
+			en: "Triple Smash",
+			fr: "Triple éclate"
 		},
 		effect: {
-			en: "Flip 3 coins. This attack does 20 damage plus 20 more damage for each heads."
+			en: "Flip 3 coins. This attack does 20 damage plus 20 more damage for each heads.",
+			fr: "Lancez trois pièces. Cette attaque inflige 20 dégâts plus 20 dégâts multipliés par le nombre de faces."
 		},
 		damage: "20+"
 	}],

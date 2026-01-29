@@ -14,13 +14,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Psy Bolt"
+			en: "Psy Bolt",
+			fr: "Choc Mental"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 		}
 	}],
 
@@ -32,7 +34,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Woobat"
+		en: "Woobat",
+		fr: "Chovsourir"
 	},
 
 	rarity: "None",

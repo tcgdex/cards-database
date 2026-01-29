@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Electabuzz"
 	},
 
+
+	illustrator: "Amelicart",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

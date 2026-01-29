@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Zorua",
+		fr: "Zorua"
 	},
 
 	stage: "Stage1",
@@ -40,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Brutal Bash",
+				fr: "Ruée Brutale"
 			},
 			effect: {
 				en: "Does 20 damage times the number of Darkness Pokémon you have in play.",
+				fr: "Inflige 20 dégâts multipliés par le nombre de Pokémon  que vous avez en jeu."
 			},
 			damage: 20,
 
@@ -54,9 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Rush",
+				fr: "Assaut Obscur"
 			},
 			effect: {
 				en: "Does 20 damage times the number of damage counters on this Pokémon.",
+				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon."
 			},
 			damage: 20,
 

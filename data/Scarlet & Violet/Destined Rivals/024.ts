@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rellor"
 	},
 
+	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,

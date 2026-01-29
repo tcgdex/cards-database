@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Stoutland"
 	},
 
+	illustrator: "Eri Kamei",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 160,

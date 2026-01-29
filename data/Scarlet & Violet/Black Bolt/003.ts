@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Serperior ex"
 	},
 
+	illustrator: "PLANETA Igarashi",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 320,

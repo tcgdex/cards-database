@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Liepard de Marnie"
 	},
 
+
+	illustrator: "Hasuno",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

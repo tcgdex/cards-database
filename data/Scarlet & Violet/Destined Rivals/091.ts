@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Primeape"
 	},
 
+
+	illustrator: "GOTO minori",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

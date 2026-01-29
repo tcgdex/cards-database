@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tirtouga"
 	},
 
+	illustrator: "Gemi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

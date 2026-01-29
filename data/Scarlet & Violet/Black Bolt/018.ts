@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Simipour"
 	},
 
+	illustrator: "Makura Tami",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

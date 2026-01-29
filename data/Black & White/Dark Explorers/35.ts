@@ -36,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Pulse",
+				fr: "Vibraqua"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 20,
 

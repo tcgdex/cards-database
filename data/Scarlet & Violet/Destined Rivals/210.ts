@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Cetitan ex"
 	},
 
+
+	illustrator: "PLANETA Tsuji",
+
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 300,
