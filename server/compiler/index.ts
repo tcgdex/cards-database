@@ -26,6 +26,12 @@ const DIST_FOLDER = './generated'
 	console.log('\n2. Loading informations from GIT')
 	await loadLastEdits()
 
+	// Early exit in export mode (metadata export complete)
+	if (process.argv.includes('--export-git-metadata')) {
+		console.log('\n✅ Git metadata export complete. Exiting.')
+		process.exit(0)
+	}
+
 	console.log('\n3. Compiling Files')
 
 	// Process each languages

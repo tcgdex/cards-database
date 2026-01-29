@@ -1,0 +1,5 @@
+{
+	"extends": "./tsconfig.json",
+	"include": ["data", "interfaces.d.ts"],
+	"exclude": ["server/compiler", "data-asia"]
+}
