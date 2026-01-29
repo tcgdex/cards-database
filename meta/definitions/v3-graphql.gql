@@ -1,5 +1,5 @@
 ##################
-#     V2     #
+#       V3       #
 ##################
 
 # Locale Directive ex: {sets @locale(fr)}
@@ -15,6 +15,7 @@ If you have more queries that you would like added, make a new issue here
 
 https://github.com/tcgdex/cards-database/issues/new/choose
 """
+
 type Query {
 	"""Find the cards"""
 	cards(filters: CardsFilters, pagination: Pagination, sort: Sort): [Card]
@@ -25,27 +26,28 @@ type Query {
 	"""Find the series"""
 	series(filters: SerieFilters, pagination: Pagination, sort: Sort): [Serie]
 
-	"""Find one card (using the id and set is deprecated)"""
-	card(
-		id: ID,
-		set: String,
-		"""The new way to filter"""
-		filters: CardsFilters
-	): Card
-
-	"""Find one set (using the id is deprecated)"""
-	set(
-		id: ID,
-		"""The new way to filter"""
-		filters: SetFilters
-	): Set
-
-	"""Find one serie (using the id is deprecated)"""
-	serie(
-		id: ID,
-		"""The new way to filter"""
-		filters: SerieFilters
-	): Serie
+	#
+	#	"""Find one card (using the id and set is deprecated)"""
+	#	card(
+	#		id: ID,
+	#		set: String,
+	#		"""The new way to filter"""
+	#		filters: CardsFilters
+	#	): Card
+	#
+	#	"""Find one set (using the id is deprecated)"""
+	#	set(
+	#		id: ID,
+	#		"""The new way to filter"""
+	#		filters: SetFilters
+	#	): Set
+	#
+	#	"""Find one serie (using the id is deprecated)"""
+	#	serie(
+	#		id: ID,
+	#		"""The new way to filter"""
+	#		filters: SerieFilters
+	#	): Serie
 
 }
 
@@ -228,10 +230,49 @@ type Card {
 	"""The pokémon weaknesses"""
 	weaknesses: [WeakResListItem]
 
+	pricing: Pricing
 	# Currently not in any cards
 	# weight: String!
 }
 
+type Pricing {
+	cardmarket: CardMarketPricing
+	tcgplayer: tcgplayerPricing
+}
+
+type CardMarketPricing {
+	updated: String
+	unit: String
+	idProduct: Int
+	avg: Float
+	low: Float
+	trend: Float
+	avg1: Float
+	avg7: Float
+	avg30: Float
+	avgHolo: Float
+	lowHolo: Float
+	trendHolo: Float
+	avg1Holo: Float
+	avg7Holo: Float
+	avg30Holo: Float
+}
+
+type tcgplayerPricing {
+	updated: String
+	unit: String
+	prices: [TCGPlayerPriceVariant]
+}
+
+type TCGPlayerPriceVariant {
+	name: String! # e.g., "holofoil", "1st-edition-holofoil"
+	productId: Int
+	lowPrice: Float
+	midPrice: Float
+	highPrice: Float
+	marketPrice: Float
+	directLowPrice: Float
+}
 """
 define a single ability
 """
@@ -368,7 +409,7 @@ type Set {
 	cardCount: CardCount!
 
 	"""list the cards in the set"""
-	cards: [Card]!
+	cards: [Card]
 
 	"""The Set id"""
 	id: String!
@@ -383,10 +424,10 @@ type Set {
 	symbol: String
 
 	"""The Set serie"""
-	serie: Serie!
+	serie: Serie
 
 	"""The set official release date"""
-	releaseDate: String!
+	releaseDate: String
 
 	"""The set tcgOnline code if available in the APP"""
 	tcgOnline: String
@@ -461,7 +502,7 @@ type Serie {
 	"""the serie's name"""
 	name: String!
 	"""the list of sets that are part of the serie"""
-	sets: [Set]!
+	sets: [Set]
 }
 
 """
