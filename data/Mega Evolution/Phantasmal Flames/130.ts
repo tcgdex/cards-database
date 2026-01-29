@@ -63,7 +63,8 @@ const card: Card = {
 	weaknesses: [{
 		type: "Water",
 		value: "x2"
-	}]
+	}],
+	illustrator: 'Takuyoa'
 }
 
 export default card
