@@ -69,7 +69,8 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 857679
+		cardmarket: 857679,
+		tcgplayer: 662233
 	}
 }
 

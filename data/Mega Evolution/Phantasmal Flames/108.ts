@@ -81,7 +81,8 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 857683
+		cardmarket: 857683,
+		tcgplayer: 662187
 	},
 
 	weaknesses: [{
