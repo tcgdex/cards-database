@@ -34,7 +34,7 @@ const set: Set = {
 		}
 	},
 
-	releaseDate: "2025-01-29"
+	releaseDate: "2026-01-29"
 }
 
 export default set
