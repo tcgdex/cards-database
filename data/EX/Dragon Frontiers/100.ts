@@ -23,6 +23,11 @@ const card: Card = {
 	stage: "Basic",
 
 
+	
+
+	retreat: 3,
+
+
 	attacks: [
 		{
 			cost: [

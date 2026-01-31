@@ -89,6 +89,9 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 89533,
 		cardmarket: 276451
