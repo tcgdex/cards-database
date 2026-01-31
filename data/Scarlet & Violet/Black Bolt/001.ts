@@ -52,12 +52,44 @@ const card: Card = {
 		damage: 30
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835903
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835903
+			}
+		},
+		{
+			type: "holo",
+			foil: "tinsel",
+			thirdParty: {
+				cardmarket: 836667
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836259
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836269
+			}
+		}
+	],
+
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835903
-	}
 }
 
 export default card

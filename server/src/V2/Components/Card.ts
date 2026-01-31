@@ -1,5 +1,4 @@
 import Cache from '@cachex/memory'
-import { objectOmit } from '@dzeio/object-util'
 import type { CardResume, Card as SDKCard } from '@tcgdex/sdk'
 import { SupportedLanguages } from '@tcgdex/sdk'
 import de from '../../../generated/de/cards.json'
@@ -23,6 +22,7 @@ import zhtw from '../../../generated/zh-tw/cards.json'
 import { getCardMarketPrice } from '../../libs/providers/cardmarket'
 import { getTCGPlayerPrice } from '../../libs/providers/tcgplayer'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
+import { deepOmit } from "../../util";
 
 // any is CompiledCard that is currently not mapped correctly
 const list: Record<`${string | any}${SupportedLanguages | string}`, any> = {}
@@ -119,15 +119,41 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 	}
 	// console.timeEnd('fetching DB')
 
+	// Populate variants prices
+	for (const variant of card.variants_detailed ?? []) {
+		if (variant.thirdParty) {
+			const [cardmarket, tcgplayer] = await Promise.all([
+				getCardMarketPrice(variant),
+				getTCGPlayerPrice(variant),
+			]);
+			variant.pricing = { cardmarket, tcgplayer };
+		}
+	}
+
 	// console.time('loading providers')
-	const [cardmarket, tcgplayer] = await Promise.all([
+	let [cardmarket, tcgplayer] = await Promise.all([
 		getCardMarketPrice(card),
 		getTCGPlayerPrice(card),
 	])
+
+	if(!card.thirdParty) {
+		//No third party info try to get from variants
+		//This is to provide constancy but be able to update the data
+		//To remove the pricing from the root in v3
+		//Takes the first variant with pricing available, this should be the base variant
+		const variantWithPricing = (card.variants_detailed ?? []).find((variant: any) => variant.pricing && (variant.pricing.cardmarket || variant.pricing.tcgplayer));
+		if(variantWithPricing) {
+			 [cardmarket, tcgplayer] = await Promise.all([
+				getCardMarketPrice(variantWithPricing),
+				getTCGPlayerPrice(variantWithPricing),
+			])
+		}
+	}
+
 	// console.timeEnd('loading providers')
 	// console.time('remapping card')
 	const res = {
-		...objectOmit(card, 'thirdParty'),
+		...deepOmit(card, 'thirdParty'),
 		pricing: {
 			cardmarket: cardmarket,
 			tcgplayer: tcgplayer
