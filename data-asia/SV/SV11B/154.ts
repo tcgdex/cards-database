@@ -1,0 +1,52 @@
+import { Card } from "../../../interfaces";
+import Set from "../SV11B";
+
+const card: Card = {
+	set: Set,
+	name: {
+		ja: "ハトーボー",
+	},
+
+	illustrator: "cochi8i",
+	category: "Pokemon",
+	hp: 80,
+	types: ["Colorless"],
+
+	description: {
+		ja: "どんなに 遠く 離れても トレーナーの もとに かならず もどってくる ことが できる。",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: { ja: "そらをとぶ" },
+			damage: 40,
+			cost: ["Colorless"],
+			effect: {
+				ja: "コインを1回投げウラなら、このワザは失敗。オモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [{ type: "holo" }],
+
+	evolveFrom: {
+		ja: "マメパト",
+	},
+
+	retreat: 0,
+	regulationMark: "I",
+	rarity: "Illustration rare",
+	dexId: [520],
+
+	thirdParty: {
+		cardmarket: 829413,
+		tcgplayer: 636508,
+	},
+};
+
+export default card;
