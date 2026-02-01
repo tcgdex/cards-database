@@ -3,8 +3,8 @@ import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Professor's Research (Professor Magnolia)",
-		fr: "Recherches Professorales (Professeure Magnolia)",
+		en: "Professor's Research",
+		fr: "Recherches Professorales",
 		es: "Investigación de Profesores",
 		it: "Ricerca Accademica",
 		pt: "Pesquisa de Professores",
@@ -27,6 +27,15 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "D",
+
+	description: {
+		en: "Professor's Research (Professor Magnolia)",
+		de: "Forschung des Professors (Professor Magnolica)",
+		es: "Investigación de Profesores (Profesora Magnolia)",
+		fr: "Recherches Professorales (Professeure Magnolia)",
+		it: "Ricerca Accademica (Professoressa Flora)",
+		pt: "Pesquisa de Professores (Professor Juniper)"
+	},
 
 	variants: {
 		normal: false,
