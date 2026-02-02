@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Buizel"
+		en: "Buizel",
+		fr: "Mustébouée"
 	},
 
 	stage: "Stage1",
@@ -59,8 +60,9 @@ const card: Card = {
 	illustrator: "Gemi",
 
 	thirdParty: {
-		cardmarket: 702342
-	}
+        cardmarket: 702342,
+        tcgplayer: 487893
+    }
 }
 
 export default card

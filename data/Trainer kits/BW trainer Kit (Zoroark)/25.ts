@@ -26,7 +26,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Scratch"
+			en: "Scratch",
+			fr: "Griffe"
 		},
 		damage: 10
 	}, {
@@ -35,7 +36,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Slash"
+			en: "Slash",
+			fr: "Tranche"
 		},
 		damage: 20
 	}],

@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Pawmi"
+		en: "Pawmi",
+		fr: "Pohm"
 	},
 
 	stage: "Stage1",
@@ -72,8 +73,9 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	thirdParty: {
-		cardmarket: 702371
-	}
+        cardmarket: 702371,
+        tcgplayer: 487930
+    }
 }
 
 export default card

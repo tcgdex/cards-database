@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Têtarte",
+		en: "Poliwhirl",
+		es: "Poliwhirl",
+		it: "Poliwhirl",
+		pt: "Poliwhirl",
+		de: "Quaputzi"
+	},
 	stage: "Stage2",
 
 	attacks: [{

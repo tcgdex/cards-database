@@ -4,6 +4,7 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Cherubi",
+		fr: "Cherubi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
+				fr: "Poudre dodo"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Leech Seed",
+				fr: "Vampigraine"
 			},
 			effect: {
 				en: "If this attack does any damage to the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Cherubi.",
+				fr: "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégât à Ceribou."
 			},
 			damage: 20,
 

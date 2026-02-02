@@ -36,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Singe",
+				fr: "Super Roussi"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
+				fr: "Le Pokémon Défenseur est maintenant Brûlé."
 			},
 			damage: 10,
 

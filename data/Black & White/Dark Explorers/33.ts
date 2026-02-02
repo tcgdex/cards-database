@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Spin",
+				fr: "Double Tour"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 10,
 

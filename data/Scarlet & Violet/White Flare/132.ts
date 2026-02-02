@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Archeops"
 	},
 
+	illustrator: "Jerky",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,

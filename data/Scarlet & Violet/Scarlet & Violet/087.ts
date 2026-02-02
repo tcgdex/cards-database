@@ -54,8 +54,9 @@ const card: Card = {
 	illustrator: "Jerky",
 
 	thirdParty: {
-		cardmarket: 702383
-	}
+        cardmarket: 702383,
+        tcgplayer: 487952
+    }
 }
 
 export default card

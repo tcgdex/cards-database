@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Yanmega ex"
 	},
 
+
+	illustrator: "Tonji Matsuno",
+
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 280,

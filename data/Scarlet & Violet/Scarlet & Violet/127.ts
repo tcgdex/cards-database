@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Grimer"
+		en: "Grimer",
+		fr: "Tadmorv"
 	},
 
 	stage: "Stage1",
@@ -85,8 +86,9 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 702422
-	}
+        cardmarket: 702422,
+        tcgplayer: 488015
+    }
 }
 
 export default card

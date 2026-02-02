@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Houndour",
+		fr: "Malosse",
+		es: "Houndour",
+		it: "Houndour",
+		pt: "Houndour",
+		de: "Hunduster"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -47,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Strike",
+				fr: "Frappe du Dragon"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this Pokémon can't use Dragon Strike during your next turn.",
+				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas utiliser Frappe du Dragon pendant votre prochain tour."
 			},
 			damage: 130,
 

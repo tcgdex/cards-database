@@ -59,6 +59,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
+				fr: "Cru-Aile"
 			},
 
 			damage: 40,

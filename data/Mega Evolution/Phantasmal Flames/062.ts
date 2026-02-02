@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Darkness"],
 	stage: "Basic",
+	dexId: [336],
 
 	abilities: [{
 		type: "Ability",
@@ -61,7 +62,20 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	thirdParty: {
+		cardmarket: 857637
+	}
 }
 
 export default card

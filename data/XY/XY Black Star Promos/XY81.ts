@@ -51,9 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare Blizzard",
+				fr: "Blizzard Flamboyant"
 			},
 			effect: {
 				en: "This Pokémon can't use Flare Blizzard during your next turn.",
+				fr: "Ce Pokémon ne peut pas utiliser Blizzard Flamboyant pendant votre prochain tour."
 			},
 			damage: 120,
 

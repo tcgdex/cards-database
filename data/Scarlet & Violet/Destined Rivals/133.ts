@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Scrafty de Marnie"
 	},
 
+
+	illustrator: "Kazumasa Yasukuni",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

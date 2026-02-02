@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Crobat ex del Equipo Rocket"
 	},
 
+
+	illustrator: "cochi8i",
+
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 310,

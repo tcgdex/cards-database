@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Darkness"],
+	evolveFrom: {
+		fr: "Nidorina",
+		en: "Nidorina",
+		es: "Nidorina",
+		it: "Nidorina",
+		pt: "Nidorina",
+		de: "Nidorina"
+	},
 	stage: "Stage2",
 
 	attacks: [{

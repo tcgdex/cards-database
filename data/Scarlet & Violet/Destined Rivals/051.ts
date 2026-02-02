@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Articuno del Equipo Rocket"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

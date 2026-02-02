@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Fire"],
+	evolveFrom: {
+		fr: "Crocogril",
+		en: "Crocalor",
+		es: "Crocalor",
+		it: "Crocalor",
+		pt: "Crocalor",
+		de: "Lokroko"
+	},
 	stage: "Stage2",
 
 	attacks: [{

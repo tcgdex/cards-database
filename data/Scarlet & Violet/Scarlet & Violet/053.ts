@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Quaxly"
+		en: "Quaxly",
+		fr: "Coiffeton"
 	},
 
 	stage: "Stage1",
@@ -63,8 +64,9 @@ const card: Card = {
 	illustrator: "kirisAki",
 
 	thirdParty: {
-		cardmarket: 702347
-	}
+        cardmarket: 702347,
+        tcgplayer: 487899
+    }
 }
 
 export default card

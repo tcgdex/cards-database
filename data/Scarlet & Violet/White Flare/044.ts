@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Frillish"
 	},
 
+	illustrator: "MARINA Chikazawa",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

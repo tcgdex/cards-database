@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Bisharp"
+		en: "Bisharp",
+		fr: "Scalproie"
 	},
 
 	stage: "Stage2",
@@ -71,8 +72,9 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 702429
-	}
+        cardmarket: 702429,
+        tcgplayer: 488024
+    }
 }
 
 export default card

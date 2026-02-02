@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Drowzee del Equipo Rocket"
 	},
 
+
+	illustrator: "matazo",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

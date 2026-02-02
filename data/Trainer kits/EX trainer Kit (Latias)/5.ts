@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Numel"
+		en: "Numel",
+		fr: "Chamallot"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,10 +25,12 @@ const card: Card = {
 			"Fire",
 		],
 		name: {
-			en: "Firebreathing"
+			en: "Firebreathing",
+			fr: "Souffle-feu"
 		},
 		effect: {
-			en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+			en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 		},
 		damage: "10+"
 	}, {
@@ -36,7 +39,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 		damage: 20
 	}],

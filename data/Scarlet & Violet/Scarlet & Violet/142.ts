@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Varoom"
+		en: "Varoom",
+		fr: "Vrombi"
 	},
 
 	stage: "Stage1",
@@ -82,8 +83,9 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 
 	thirdParty: {
-		cardmarket: 702437
-	}
+        cardmarket: 702437,
+        tcgplayer: 488030
+    }
 }
 
 export default card

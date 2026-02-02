@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Swanna"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

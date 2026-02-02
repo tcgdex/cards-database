@@ -14,22 +14,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tail Whip"
+			en: "Tail Whip",
+			fr: "Mimi-Queue"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon can’t attack during your opponent’s next turn."
+			en: "Flip a coin. If heads, the Defending Pokémon can’t attack during your opponent’s next turn.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire."
 		}
 	}, {
 		name: {
-			en: "Electro Ball"
+			en: "Electro Ball",
+			fr: "Boule Élek"
 		},
 
 		damage: 30
 	}],
 
 	name: {
-		en: "Pikachu"
+		en: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	rarity: "None",

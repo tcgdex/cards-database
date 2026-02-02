@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 280,
 	types: ["Metal"],
+	evolveFrom: {
+		fr: "Vrombi",
+		en: "Varoom",
+		es: "Varoom",
+		it: "Varoom",
+		pt: "Varoom",
+		de: "Knattox"
+	},
 	stage: "Stage1",
 
 	abilities: [{

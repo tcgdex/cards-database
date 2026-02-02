@@ -4,6 +4,7 @@ import Set from '../DP trainer Kit (Lucario)'
 const card: Card = {
 	name: {
 		en: "Fighting Energy",
+		fr: "Énergie Combat"
 	},
 	illustrator: "",
 	rarity: "None",

@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Clauncher"
+		en: "Clauncher",
+		fr: "Flingouste"
 	},
 
 	stage: "Stage1",
@@ -72,8 +73,9 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	thirdParty: {
-		cardmarket: 702345
-	}
+        cardmarket: 702345,
+        tcgplayer: 487897
+    }
 }
 
 export default card

@@ -41,11 +41,13 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Spark Trap"
+			en: "Spark Trap",
+			fr: "Piège Étincelle"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon."
+			en: "During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon.",
+			fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d'une attaque (même s'il est mis K.O.), placez 12 marqueurs de dégâts sur le Pokémon Attaquant."
 		},
 
 		damage: 60
@@ -53,7 +55,8 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Max Impact"
+			en: "Max Impact",
+			fr: "Impactomax"
 		},
 
 		damage: 200

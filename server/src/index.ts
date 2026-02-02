@@ -47,13 +47,18 @@ if (cluster.isPrimary) {
 	// Current API version
 	const VERSION = 2
 
-	// fetch cardmarket data
-	void updateDatas()
-		.then(() => console.log('loaded cardmarket datas'))
-		.catch((err) => console.error('error loading cardmarket', err))
-	void updateTCGPlayerDatas()
-		.then(() => console.log('loaded TCGPlayer datas'))
-		.catch((err) => console.error('error loading TCGPlayer', err))
+	const fn = () => {
+		void updateDatas()
+			.then(() => console.log('loaded cardmarket datas'))
+			.catch((err) => console.error('error loading cardmarket', err))
+		void updateTCGPlayerDatas()
+			.then(() => console.log('loaded TCGPlayer datas'))
+			.catch((err) => console.error('error loading TCGPlayer', err))
+	}
+
+	// auto update each hour the datasets
+	fn()
+	setInterval(fn, 3_600_000)
 
 	// Init Express server
 	const server = express()

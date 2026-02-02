@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hot Lick",
+				fr: "Léchouille Ardente"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Durant, this attack does 50 more damage.",
+				fr: "Si le Pokémon Défenseur est Fermite, cette attaque inflige 50 dégâts supplémentaires."
 			},
 			damage: 10,
 
@@ -50,9 +52,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Firebreathing",
+				fr: "Souffle-Feu"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 			},
 			damage: 50,
 

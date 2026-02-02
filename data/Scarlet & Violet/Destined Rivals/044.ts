@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ogerpon Máscara Horno"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

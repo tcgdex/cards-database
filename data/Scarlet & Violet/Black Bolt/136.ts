@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Krokorok"
 	},
 
+	illustrator: "Tonji Matsuno",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,

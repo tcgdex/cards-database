@@ -28,17 +28,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Spiral Drain"
+			en: "Spiral Drain",
+			fr: "Spirale Épuisante"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon."
+			en: "Heal 20 damage from this Pokémon.",
+			fr: "Soignez 20 dégâts à ce Pokémon."
 		}
 	}, {
 		name: {
-			en: "Aurora Beam"
+			en: "Aurora Beam",
+			fr: "Onde Boréale"
 		},
 
 		damage: 80

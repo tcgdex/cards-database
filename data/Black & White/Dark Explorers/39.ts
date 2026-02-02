@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tag Draw",
+				fr: "Pioche Groupée"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw 4 cards. If Minun is on your Bench, draw 4 more cards.",
+				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 4 cartes. Si Négapi est sur votre Banc, piochez 4 cartes supplémentaires."
 			},
 
 		},
@@ -47,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Positive Ion",
+				fr: "Cation"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
 			},
 			damage: 20,
 

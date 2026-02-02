@@ -11,6 +11,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Croconaw",
+		fr: "Crocrodil",
+		es: "Croconaw",
+		it: "Croconaw",
+		pt: "Croconaw",
+		de: "Tyracroc"
+	},
 	stage: "Stage2",
 	illustrator: "Acorviart",
 	dexId: [160],

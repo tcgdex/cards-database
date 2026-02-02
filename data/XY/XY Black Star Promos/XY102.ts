@@ -48,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Crystal Breath",
+				fr: "Souffle de Cristal"
 			},
 			effect: {
 				en: "This Pokémon can't attack during your next turn",
+				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour."
 			},
 			damage: 160,
 

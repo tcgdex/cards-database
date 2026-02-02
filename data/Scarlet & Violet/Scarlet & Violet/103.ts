@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Flittle"
+		en: "Flittle",
+		fr: "Flotillon"
 	},
 
 	stage: "Stage1",
@@ -90,8 +91,9 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 702399
-	}
+        cardmarket: 702399,
+        tcgplayer: 487978
+    }
 }
 
 export default card

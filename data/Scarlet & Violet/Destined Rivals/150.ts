@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Persian ex del Equipo Rocket"
 	},
 
+
+	illustrator: "5ban Graphics",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 260,

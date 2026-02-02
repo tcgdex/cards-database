@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Arbok del Equipo Rocket"
 	},
 
+
+	illustrator: "Teeziro",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

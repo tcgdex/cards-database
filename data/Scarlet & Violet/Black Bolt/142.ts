@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pawniard"
 	},
 
+	illustrator: "Dsuke",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Archeops"
 	},
 
+	illustrator: "Haru Akasaka",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,

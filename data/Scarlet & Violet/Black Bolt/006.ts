@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Petilil"
 	},
 
+	illustrator: "mele",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

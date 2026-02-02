@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Fighting Energy",
 		fr: "Énergie Combat",
-		de: "Kampfenergie"
+		de: "Kampfenergie",
+		it: "Energia Combattimento",
 	},
 
 	illustrator: "Keiji Kinebuchi",

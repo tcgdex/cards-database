@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Sneasel del Equipo Rocket"
 	},
 
+
+	illustrator: "GIDORA",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 80,

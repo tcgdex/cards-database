@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Holon's Magnemite",
+		fr: "Magneti d'Holon"
 	},
 
 	stage: "Stage1",

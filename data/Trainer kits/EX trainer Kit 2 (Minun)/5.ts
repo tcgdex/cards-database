@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mareep"
+		en: "Mareep",
+		fr: "Wattouat"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -25,10 +26,12 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Minor Errand-Running"
+			en: "Minor Errand-Running",
+			fr: "Rendez-vous mineur"
 		},
 		effect: {
-			en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+			en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+			fr: "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
 		}
 	}, {
 		cost: [
@@ -36,10 +39,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Quick Attack"
+			en: "Quick Attack",
+			fr: "Vive-attaque"
 		},
 		effect: {
-			en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+			en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 		},
 		damage: "10+"
 	}],

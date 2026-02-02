@@ -52,8 +52,9 @@ const card: Card = {
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	thirdParty: {
-		cardmarket: 702339
-	}
+        cardmarket: 702339,
+        tcgplayer: 487888
+    }
 }
 
 export default card

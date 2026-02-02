@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Garchomp ex de Cynthia"
 	},
 
+
+	illustrator: "HICO KIM",
+
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 330,

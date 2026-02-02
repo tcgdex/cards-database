@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Here Comes Team Rocket!"
+		en: "Here Comes Team Rocket!",
+		fr: "Lunala"
 	},
 
 	illustrator: "Ken Sugimori",

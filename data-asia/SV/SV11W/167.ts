@@ -34,6 +34,12 @@ const card: Card = {
 
 	weaknesses: [{ type: "Fire", value: "x2" }],
 
+	variants: [
+		{
+			type: "holo",
+		},
+	],
+
 	evolveFrom: {
 		ja: "モンメン",
 	},
@@ -42,6 +48,11 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Special illustration rare",
 	suffix: "EX",
+	dexId: [547],
+	thirdParty: {
+		cardmarket: 829526,
+		tcgplayer: 636720,
+	},
 };
 
 export default card;

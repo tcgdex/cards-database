@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Fidough"
+		en: "Fidough",
+		fr: "Pâtachiot"
 	},
 
 	stage: "Stage1",
@@ -72,8 +73,9 @@ const card: Card = {
 	illustrator: "You Iribi",
 
 	thirdParty: {
-		cardmarket: 702395
-	}
+        cardmarket: 702395,
+        tcgplayer: 487971
+    }
 }
 
 export default card

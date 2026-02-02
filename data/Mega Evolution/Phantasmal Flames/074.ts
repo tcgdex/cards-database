@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Metal"],
 	stage: "Basic",
+	dexId: [884],
 
 	attacks: [{
 		cost: ["Metal", "Metal", "Metal"],
@@ -47,7 +48,20 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	thirdParty: {
+		cardmarket: 857649
+	}
 }
 
 export default card

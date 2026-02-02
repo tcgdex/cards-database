@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ducklett",
+		fr: "Couaneton"
 	},
 
 	stage: "Stage1",
@@ -39,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Healing Pirouette",
+				fr: "Pirouette Apaisante"
 			},
 			effect: {
 				en: "Heal 30 damage from each of your Pokémon.",
+				fr: "Soignez 30 dégâts à chacun de vos Pokémon."
 			},
 
 		},
@@ -53,9 +56,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Incessant Peck",
+				fr: "Rafal'Bec"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
 			},
 			damage: 60,
 

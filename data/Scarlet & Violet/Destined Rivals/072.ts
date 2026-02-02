@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mareep del Equipo Rocket"
 	},
 
+
+	illustrator: "Teeziro",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

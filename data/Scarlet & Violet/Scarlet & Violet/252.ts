@@ -36,8 +36,9 @@ const card: Card = {
 	illustrator: "OKACHEKE",
 
 	thirdParty: {
-		cardmarket: 702479
-	}
+        cardmarket: 702548,
+        tcgplayer: 490041
+    }
 }
 
 export default card

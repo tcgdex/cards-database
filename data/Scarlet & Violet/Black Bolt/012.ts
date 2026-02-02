@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Victini"
 	},
 
+	illustrator: "Natsumi Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 80,

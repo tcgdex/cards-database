@@ -36,8 +36,9 @@ const card: Card = {
 	illustrator: "kirisAki",
 
 	thirdParty: {
-		cardmarket: 689768
-	}
+        cardmarket: 702537,
+        tcgplayer: 490099
+    }
 }
 
 export default card

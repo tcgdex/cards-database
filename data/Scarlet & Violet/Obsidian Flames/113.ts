@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Sapereau",
+		en: "Bunnelby",
+		es: "Bunnelby",
+		it: "Bunnelby",
+		pt: "Bunnelby",
+		de: "Scoppel"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Maschiff"
+		en: "Maschiff",
+		fr: "Grondogue"
 	},
 
 	stage: "Stage1",
@@ -81,8 +82,9 @@ const card: Card = {
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	thirdParty: {
-		cardmarket: 702432
-	}
+        cardmarket: 702432,
+        tcgplayer: 485871
+    }
 }
 
 export default card

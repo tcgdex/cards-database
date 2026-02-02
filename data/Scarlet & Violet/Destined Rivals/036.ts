@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Magcargo de Ethan"
 	},
 
+	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,

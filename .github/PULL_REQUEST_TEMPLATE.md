@@ -3,6 +3,8 @@ Contribution guide: https://github.com/tcgdex/cards-database/blob/master/CONTRIB
 please submit changes up to 1 set at most.
 -->
 
+closes # <!-- Indicate the issue number here -->
+
 ## Changes
 
 <!-- Quickly explain your changes -->

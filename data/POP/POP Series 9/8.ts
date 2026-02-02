@@ -4,6 +4,7 @@ import Set from '../POP Series 9'
 const card: Card = {
 	name: {
 		en: "Gabite",
+		fr: "Gabite"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -23,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gible",
+		fr: "Griknot"
 	},
 
 	stage: "Stage1",
@@ -34,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Burrow",
+				fr: "Terrier"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Gabite by attacks during your opponent’s next turn.",
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carmache par des attaques lors du prochain tour de votre adversaire."
 			},
 
 		},
@@ -48,9 +52,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Distorted Wave",
+				fr: "Vague tordue"
 			},
 			effect: {
 				en: "Before doing damage, remove 2 damage counters from the Defending Pokémon.",
+				fr: "Avant d'infliger des dégâts, retirez au Pokémon Défenseur 2 marqueurs de dégât."
 			},
 			damage: 60,
 

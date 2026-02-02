@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Vieil Ambre Ancien",
+		en: "Antique Old Amber",
+		es: "Ámbar Viejo Antiguo",
+		it: "Vecchia Ambra Antica",
+		pt: "Âmbar Velho Arcaico",
+		de: "Antiker Altbernstein"
+	},
 	stage: "Stage1",
 
 	attacks: [{

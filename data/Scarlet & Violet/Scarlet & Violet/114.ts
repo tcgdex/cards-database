@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Riolu"
+		en: "Riolu",
+		fr: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -85,8 +86,9 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 702410
-	}
+        cardmarket: 702410,
+        tcgplayer: 488003
+    }
 }
 
 export default card

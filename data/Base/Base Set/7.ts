@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Hitmonchan",
 		fr: "Tygnon",
-		de: "Nockchan"
+		de: "Nockchan",
+		it: "Hitmonchan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Jab",
 				fr: "Taquet",
-				de: "Boxschlag"
+				de: "Boxschlag",
+				it: "Stoccata"
 			},
 
 			damage: 20,
@@ -48,7 +50,8 @@ const card: Card = {
 			name: {
 				en: "Special Punch",
 				fr: "Punch Spécial",
-				de: "Spezialschlag"
+				de: "Spezialschlag",
+				it: "Pugno speciale"
 			},
 
 			damage: 40,
@@ -64,7 +67,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il distribue des séries de coups de poing rapides comme l'éclair, invisibles à l'œil nu."
+		fr: "Il distribue des séries de coups de poing rapides comme l'éclair, invisibles à l'œil nu.",
+		it: "Anche se sembra inerme, tira fulminee scariche di pugni, impossibili da vedere. LIV 33 N.107"
 	},
 
 	variants: [

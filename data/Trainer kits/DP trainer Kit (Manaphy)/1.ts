@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Buizel"
+		en: "Buizel",
+		fr: "Mustébouée"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -26,10 +27,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Splash About"
+				en: "Splash About",
+				fr: "Grosse trempette"
 			},
 			effect: {
-				en: "If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage."
+				en: "If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
+				fr: "Si Mustébouée possède moins d'Énergies que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "10+"
 		}

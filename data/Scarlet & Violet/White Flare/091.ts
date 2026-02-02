@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Deerling"
 	},
 
+	illustrator: "takashi shiraishi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

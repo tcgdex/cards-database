@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Golurk"
 	},
 
+	illustrator: "Shinya Mizuno",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 160,

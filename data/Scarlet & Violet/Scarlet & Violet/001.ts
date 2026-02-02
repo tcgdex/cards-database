@@ -54,8 +54,9 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 
 	thirdParty: {
-		cardmarket: 702298
-	}
+        cardmarket: 702298,
+        tcgplayer: 487828
+    }
 }
 
 export default card

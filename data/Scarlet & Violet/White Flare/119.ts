@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Woobat"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

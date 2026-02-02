@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Skiddo"
+		en: "Skiddo",
+		fr: "Cabriolaine"
 	},
 
 	stage: "Stage1",
@@ -72,8 +73,9 @@ const card: Card = {
 	illustrator: "Gemi",
 
 	thirdParty: {
-		cardmarket: 702309
-	}
+        cardmarket: 702309,
+        tcgplayer: 487843
+    }
 }
 
 export default card

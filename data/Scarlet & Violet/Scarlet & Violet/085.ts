@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Ralts"
+		en: "Ralts",
+		fr: "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -72,8 +73,9 @@ const card: Card = {
 	illustrator: "kawayoo",
 
 	thirdParty: {
-		cardmarket: 702381
-	}
+        cardmarket: 702381,
+        tcgplayer: 487949
+    }
 }
 
 export default card

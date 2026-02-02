@@ -7,12 +7,22 @@ const card: Card = {
 
 	name: {
 		en: "Gothitelle",
+		fr: "Sidérella"
 	},
 
 	rarity: "None",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Gothorita",
+		fr: "Mesmérella",
+		de: "Hypnomorba",
+		it: "Gothorita",
+		pt: "Gothorita",
+		es: "Gothorita",
+		'es-mx': "Gothorita"
+	},
 	stage: "Stage2",
 	illustrator: "IKEDA Saki",
 
@@ -22,10 +32,12 @@ const card: Card = {
 
 			name: {
 				en: "Synchro Shot",
+				fr: "Coup Synchro"
 			},
 
 			effect: {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 90 more damage.",
+				fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 90 dégâts supplémentaires."
 			},
 			damage: "90+"
 		}

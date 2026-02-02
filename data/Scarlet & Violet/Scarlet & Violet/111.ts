@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Meditite"
+		en: "Meditite",
+		fr: "Méditikka"
 	},
 
 	stage: "Stage1",
@@ -85,8 +86,9 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 702407
-	}
+        cardmarket: 702407,
+        tcgplayer: 488000
+    }
 }
 
 export default card

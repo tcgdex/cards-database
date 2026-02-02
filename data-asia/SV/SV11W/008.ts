@@ -35,17 +35,29 @@ const card: Card = {
 
 	weaknesses: [{ type: "Fire", value: "×2" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 
 	retreat: 3,
 	regulationMark: "I",
 	rarity: "Common",
 	dexId: [616],
+
+	thirdParty: {
+		cardmarket: 828981,
+		tcgplayer: 636561,
+	},
 };
 
 export default card;

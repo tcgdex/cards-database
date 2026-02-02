@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Silicobra"
+		en: "Silicobra",
+		fr: "Dunaja"
 	},
 
 	stage: "Stage1",
@@ -74,8 +75,9 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 702416
-	}
+        cardmarket: 702416,
+        tcgplayer: 488009
+    }
 }
 
 export default card

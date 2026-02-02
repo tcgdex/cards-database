@@ -6,12 +6,22 @@ const card: Card = {
 
 	name: {
 		en: "Team Rocket's Nidoking ex",
+		fr: "Nidoking-ex de la Team Rocket"
 	},
 	suffix: "EX",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Team Rocket's Nidorino",
+		fr: "Nidorino de la Team Rocket",
+		de: "Team Rockets Nidorino",
+		it: "Nidorino del Team Rocket",
+		es: "Nidorino del Team Rocket",
+		pt: "Nidorino da Equipe Rocket",
+		'es-mx': "Nidorino del Equipo Rocket"
+	},
 	stage: "Stage2",
 	illustrator: "5ban Graphics",
 	dexId: [34],

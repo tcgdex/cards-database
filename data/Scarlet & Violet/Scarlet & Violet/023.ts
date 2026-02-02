@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Dolliv"
+		en: "Dolliv",
+		fr: "Olivado"
 	},
 
 	stage: "Stage2",
@@ -73,8 +74,9 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	thirdParty: {
-		cardmarket: 702319
-	}
+        cardmarket: 702319,
+        tcgplayer: 487860
+    }
 }
 
 export default card

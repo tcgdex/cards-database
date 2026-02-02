@@ -65,8 +65,9 @@ const card: Card = {
 	illustrator: "Shibuzoh.",
 
 	thirdParty: {
-		cardmarket: 702316
-	}
+        cardmarket: 702317,
+        tcgplayer: 487858
+    }
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Tangela",
 		fr: "Saquedeneu",
-		de: "Tangela"
+		de: "Tangela",
+		it: "Tangela"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,12 +35,14 @@ const card: Card = {
 			name: {
 				en: "Bind",
 				fr: "Étreinte",
-				de: "Klammergriff"
+				de: "Klammergriff",
+				it: "Legatutto"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt."
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 20,
 
@@ -53,12 +56,14 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre Toxik",
-				de: "Giftpuder"
+				de: "Giftpuder",
+				it: "Velenpolvere"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "das verteidigende Pokémon ist vergiftet."
+				de: "das verteidigende Pokémon ist vergiftet.",
+				it: "Il Pokémon Difensore è Avvelenato."
 			},
 			damage: 20,
 
@@ -73,7 +78,9 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Son corps est recouvert de lianes similaires à des algues. Elles bougent quand il marche."
+		fr: "Son corps est recouvert de lianes similaires à des algues. Elles bougent quand il marche.",
+		it: "Il suo corpo è avvolto interamente da larghi rampicanti simili ad alghe, che si agitano quando cammina. LIV 8 N.114"
+
 	},
 
 	thirdParty: {

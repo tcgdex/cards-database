@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Efflèche",
+		en: "Dartrix",
+		es: "Dartrix",
+		it: "Dartrix",
+		pt: "Dartrix",
+		de: "Arboretoss"
+	},
 	stage: "Stage2",
 
 	abilities: [{

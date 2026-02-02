@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Kabuto",
+		en: "Kabuto",
+		es: "Kabuto",
+		it: "Kabuto",
+		pt: "Kabuto",
+		de: "Kabuto"
+	},
 	stage: "Stage2",
 
 	abilities: [{

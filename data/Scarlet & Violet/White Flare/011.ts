@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tepig"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

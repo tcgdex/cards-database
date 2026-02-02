@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Krokorok"
+		en: "Krokorok",
+		fr: "Escroco"
 	},
 
 	stage: "Stage2",
@@ -85,8 +86,9 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 702413
-	}
+        cardmarket: 702413,
+        tcgplayer: 488006
+    }
 }
 
 export default card

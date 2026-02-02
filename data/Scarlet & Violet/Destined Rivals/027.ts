@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Growlithe"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

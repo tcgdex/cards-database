@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Pupitar del Equipo Rocket"
 	},
 
+
+	illustrator: "Izucch",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

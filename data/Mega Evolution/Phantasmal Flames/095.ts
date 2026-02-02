@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 160,
 	types: ["Grass"],
 	stage: "Stage2",
+	dexId: [272],
 
 	abilities: [{
 		type: "Ability",
@@ -61,7 +62,17 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
+	thirdParty: {
+		cardmarket: 857670
+	}
 }
 
 export default card

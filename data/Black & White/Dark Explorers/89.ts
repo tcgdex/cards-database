@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Fraxure",
+		fr: "Incisache"
 	},
 
 	stage: "Stage2",
@@ -41,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Guillotine",
+				fr: "Guillotine"
 			},
 
 			damage: 60,
@@ -55,9 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stunning Uppercut",
+				fr: "Uppercut Assommant"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, the Defending Pokémon is now Paralyzed. If both of them are tails, this attack does nothing.",
+				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, le Pokémon Défenseur est maintenant Paralysé. Si vous obtenez 2 côtés pile, cette attaque ne fait rien."
 			},
 			damage: 80,
 

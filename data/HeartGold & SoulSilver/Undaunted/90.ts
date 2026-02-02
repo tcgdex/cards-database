@@ -14,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	dexId: [
-		384,
+		384, // Rayquaza
+		386, // Deoxys
 	],
 
 	types: [

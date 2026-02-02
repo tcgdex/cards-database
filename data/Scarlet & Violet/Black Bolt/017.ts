@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Panpour"
 	},
 
+	illustrator: "Makura Tami",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

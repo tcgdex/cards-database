@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Manaphy"
+		en: "Manaphy",
+		fr: "Manaphy"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -21,10 +22,12 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Call for Family"
+			en: "Call for Family",
+			fr: "Appel à la famille"
 		},
 		effect: {
-			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+			fr: "Choisissez dans votre deck un Pokémon de Base et placez-le sur votre Banc. Ensuite, mélangez votre deck."
 		}
 	}, {
 		cost: [
@@ -32,10 +35,12 @@ const card: Card = {
 			"Water"
 		],
 		name: {
-			en: "Aqua Ring"
+			en: "Aqua Ring",
+			fr: "Anneau Hydro"
 		},
 		effect: {
-			en: "Switch Manaphy with 1 of your Benched Pokémon."
+			en: "Switch Manaphy with 1 of your Benched Pokémon.",
+			fr: "Échangez Manaphy avec 1 des Pokémon de votre Banc."
 		},
 		damage: 30
 	}],

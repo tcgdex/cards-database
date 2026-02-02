@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Metal"],
+	evolveFrom: {
+		fr: "Scalproie",
+		en: "Bisharp",
+		es: "Bisharp",
+		it: "Bisharp",
+		pt: "Bisharp",
+		de: "Caesurio"
+	},
 	stage: "Stage2",
 
 	attacks: [{

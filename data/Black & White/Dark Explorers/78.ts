@@ -36,6 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 20,
@@ -49,6 +50,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
+				fr: "Griffe Acier"
 			},
 
 			damage: 40,

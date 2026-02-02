@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Golduck",
+		fr: "Akwakwak",
 		de: "Entoron"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Psyduck",
+		fr: "Psykokwak"
 	},
 
 	stage: "Stage1",
@@ -36,6 +38,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche",
 				de: "Schlitzer"
 			},
 

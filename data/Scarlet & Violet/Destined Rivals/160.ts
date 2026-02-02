@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Squawkabilly"
 	},
 
+
+	illustrator: "Julie Hang",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

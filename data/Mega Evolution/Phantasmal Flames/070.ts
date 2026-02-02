@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 320,
 	types: ["Metal"],
 	stage: "Stage2",
+	dexId: [395],
 
 	abilities: [{
 		type: "Ability",
@@ -71,7 +72,17 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
+	thirdParty: {
+		cardmarket: 857645
+	}
 }
 
 export default card

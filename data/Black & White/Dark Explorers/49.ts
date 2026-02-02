@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
+		fr: "Ramoloss"
 	},
 
 	stage: "Stage1",
@@ -39,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Psy Bolt",
+				fr: "Choc Mental"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -54,9 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hand Press",
+				fr: "Pression des Mains"
 			},
 			effect: {
 				en: "If you have more cards in your hand than your opponent, this attack does 30 more damage.",
+				fr: "Si vous avez plus de cartes dans votre main que votre adversaire, cette attaque inflige 30 dégâts supplémentaires."
 			},
 			damage: 50,
 

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Huntail"
 	},
 
+	illustrator: "Scav",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

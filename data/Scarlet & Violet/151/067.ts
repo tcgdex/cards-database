@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Machoc",
+		en: "Machop",
+		es: "Machop",
+		it: "Machop",
+		pt: "Machop",
+		de: "Machollo"
+	},
 	stage: "Stage1",
 
 	attacks: [{

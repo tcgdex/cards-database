@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Venusaur"
+		en: "Venusaur",
+		fr: "Lunala"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -18,7 +19,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Solarbeam"
+			en: "Solarbeam",
+			fr: "Douleur Lunaire"
 		},
 
 		damage: 60,

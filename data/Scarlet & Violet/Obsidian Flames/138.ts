@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
+	evolveFrom: {
+		fr: "Sepiatop",
+		en: "Inkay",
+		es: "Inkay",
+		it: "Inkay",
+		pt: "Inkay",
+		de: "Iscalar"
+	},
 	stage: "Stage1",
 
 	abilities: [{

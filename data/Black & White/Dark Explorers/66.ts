@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Krokorok",
+		fr: "Escroco"
 	},
 
 	stage: "Stage2",
@@ -41,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Clamp",
+				fr: "Pince des Ténèbres"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
 			},
 			damage: 60,
 
@@ -57,9 +60,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bombast",
+				fr: "Arrogance"
 			},
 			effect: {
 				en: "Does 40 damage times the number of Prize cards you have taken.",
+				fr: "Inflige 40 dégâts multipliés par le nombre de cartes Récompense que vous avez récupérées."
 			},
 			damage: 40,
 

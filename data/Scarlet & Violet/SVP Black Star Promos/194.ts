@@ -14,10 +14,22 @@ const card: Card = {
 		pt: "Bellibolt ex da Kissera"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Iono's Tadbulb",
+		fr: "Têtampoule de Mashynn",
+		es: "Tadbulb de e-Nigma",
+		de: "Enigmaras Blipp",
+		it: "Tadbulb di Kissara",
+		pt: "Tadbulb da Kissera",
+		'es-mx': "Tadbulb de e-Nigma"
+	},
 	stage: "Stage1",
 
 	abilities: [{

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Apitrini",
+		en: "Combee",
+		es: "Combee",
+		it: "Combee",
+		pt: "Combee",
+		de: "Wadribie"
+	},
 	stage: "Stage1",
 
 	attacks: [{

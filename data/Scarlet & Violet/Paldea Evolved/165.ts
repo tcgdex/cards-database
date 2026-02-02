@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Minisange",
+		en: "Rookidee",
+		es: "Rookidee",
+		it: "Rookidee",
+		pt: "Rookidee",
+		de: "Meikro"
+	},
 	stage: "Stage1",
 
 	attacks: [{

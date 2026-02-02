@@ -33,12 +33,19 @@ const card: Card = {
 
 	weaknesses: [{ type: "Fighting", value: "x2" }],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
 
 	evolveFrom: {
 		ja: "シママ",
@@ -48,6 +55,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Uncommon",
 	dexId: [523],
+	thirdParty: {
+		cardmarket: 829031,
+		tcgplayer: 636582,
+	},
 };
 
 export default card;

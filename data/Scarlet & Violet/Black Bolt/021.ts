@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Seismitoad"
 	},
 
+	illustrator: "Yukihiro Tada",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 170,

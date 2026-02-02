@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Delcatty"
+		en: "Delcatty",
+		fr: "Delcatty"
 	},
 
 	illustrator: "Midori Harada",
@@ -21,6 +22,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skitty",
+		fr: "Skitty"
 	},
 
 	attacks: [{
@@ -29,7 +31,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Scratch"
+			en: "Scratch",
+			fr: "Griffe"
 		},
 		damage: 30
 	}, {
@@ -39,10 +42,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Ultra Energy Source"
+			en: "Ultra Energy Source",
+			fr: "Source d'énergie ultra"
 		},
 		effect: {
-			en: "Does 10 damage times the number of basic Energy cards attached to all of the Active Pokémon (both yours and your opponent’s)."
+			en: "Does 10 damage times the number of basic Energy cards attached to all of the Active Pokémon (both yours and your opponent’s).",
+			fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées aux Pokémon Actifs (les vôtres et ceux de votre adversaire)."
 		},
 		damage: "10×"
 	}],

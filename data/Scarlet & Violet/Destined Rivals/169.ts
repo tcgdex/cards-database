@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Gimnasio de Pueblo Crampón"
 	},
 
+
+	illustrator: "AYUMI ODASHIMA",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

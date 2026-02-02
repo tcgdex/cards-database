@@ -36,7 +36,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Gust"
+			en: "Gust",
+			fr: "Tornade"
 		},
 		damage: 20
 	}, {
@@ -45,10 +46,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Quick Attack"
+			en: "Quick Attack",
+			fr: "Vive-Attaque"
 		},
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			en: "Flip a coin. If heads, this attack does 30 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
 		},
 		damage: "20+"
 	}],

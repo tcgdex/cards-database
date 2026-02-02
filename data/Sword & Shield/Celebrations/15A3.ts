@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rocket's Zapdos"
+		en: "Rocket's Zapdos",
+		fr: "Lunala"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -18,22 +19,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Plasma"
+			en: "Plasma",
+			fr: "Douleur Lunaire"
 		},
 
 		effect: {
-			en: "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos."
+			en: "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos.",
+			fr: "Doublez le nombre de marqueurs de dégâts sur chacun des Pokémon de votre adversaire."
 		},
 
 		damage: 20,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			en: "Electroburn"
+			en: "Electroburn",
+			fr: "Attaque Psy"
 		},
 
 		effect: {
-			en: "Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it."
+			en: "Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it.",
+			fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 		},
 
 		damage: 70,

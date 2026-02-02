@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Impidimp de Marnie"
 	},
 
+
+	illustrator: "KEIICHIRO ITO",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

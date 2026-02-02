@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Patrat"
 	},
 
+	illustrator: "Ounishi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

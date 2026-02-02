@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine"
+		en: "Arcanine",
+		fr: "Arcanin"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	attacks: [{
@@ -29,7 +31,8 @@ const card: Card = {
 			"Fire",
 		],
 		name: {
-			en: "Flare"
+			en: "Flare",
+			fr: "Intimidation"
 		},
 		damage: 20
 	}, {
@@ -40,10 +43,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Heat Tackle"
+			en: "Heat Tackle",
+			fr: "Charge énergétique"
 		},
 		effect: {
-			en: "Arcanine does 10 damage to itself."
+			en: "Arcanine does 10 damage to itself.",
+			fr: "Arcanin s'inflige 10 dégâts."
 		},
 		damage: 70
 	}],

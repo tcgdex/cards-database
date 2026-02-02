@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Stage1",
+	dexId: [40],
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
@@ -61,7 +62,20 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	thirdParty: {
+		cardmarket: 857652
+	}
 }
 
 export default card

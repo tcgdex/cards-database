@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Superbola del Equipo Rocket"
 	},
 
+
+	illustrator: "Toyste Beach",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

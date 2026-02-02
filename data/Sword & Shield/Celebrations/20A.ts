@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cleffa"
+		en: "Cleffa",
+		fr: "Dialga"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,11 +19,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Eeeeeeek"
+			en: "Eeeeeeek",
+			fr: "Reflux Temporel"
 		},
 
 		effect: {
-			en: "Shuffle your hand into your deck, then draw 7 cards."
+			en: "Shuffle your hand into your deck, then draw 7 cards.",
+			fr: "Ajoutez à votre main une carte de votre pile de défausse."
 		},
 
 		cost: ["Colorless"]

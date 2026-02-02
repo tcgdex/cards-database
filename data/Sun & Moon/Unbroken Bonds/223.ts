@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Murkrow",
+		fr: "Cornèbre"
 	},
 
 	suffix: "GX",

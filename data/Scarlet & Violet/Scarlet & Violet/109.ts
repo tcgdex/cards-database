@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Primeape"
+		en: "Primeape",
+		fr: "Colossinge"
 	},
 
 	stage: "Stage2",
@@ -86,8 +87,9 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 702405
-	}
+        cardmarket: 702405,
+        tcgplayer: 486617
+    }
 }
 
 export default card

@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Floette"
+		en: "Floette",
+		fr: "Floette"
 	},
 
 	stage: "Stage2",
@@ -81,8 +82,9 @@ const card: Card = {
 	illustrator: "Haru Akasaka",
 
 	thirdParty: {
-		cardmarket: 702389
-	}
+        cardmarket: 702389,
+        tcgplayer: 487960
+    }
 }
 
 export default card

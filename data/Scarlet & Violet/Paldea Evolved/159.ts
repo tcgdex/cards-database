@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Goélise",
+		en: "Wingull",
+		es: "Wingull",
+		it: "Wingull",
+		pt: "Wingull",
+		de: "Wingull"
+	},
 	stage: "Stage1",
 
 	abilities: [{

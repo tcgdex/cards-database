@@ -36,6 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 20,
@@ -49,6 +50,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				fr: "Flamboiement"
 			},
 
 			damage: 40,

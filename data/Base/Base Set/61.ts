@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Rattata",
 		fr: "Rattata",
-		de: "Rattfratz"
+		de: "Rattfratz",
+		it: "Rattata"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Biss"
+				de: "Biss",
+				it: "Morso"
 			},
 
 			damage: 20,
@@ -56,7 +58,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Sa morsure est très puissante. Petit et rapide, on en voit un peu partout."
+		fr: "Sa morsure est très puissante. Petit et rapide, on en voit un peu partout.",
+		it: "Morde quasiasi cosa quando attacca. Piccolo e velocissimo, è una presenza comune in molti luoghi. LIV 9 N.19"
 	},
 
 	thirdParty: {

@@ -29,17 +29,20 @@ const card: Card = {
 
 	weaknesses: [{ type: "Fire", value: "x2" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [546],
+	thirdParty: {
+		cardmarket: 829444,
+		tcgplayer: 636643,
+	},
 };
 
 export default card;

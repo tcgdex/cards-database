@@ -82,6 +82,13 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo",
+			foil: "gold"
+		},
+	],
+
 	thirdParty: {
 		tcgplayer: 654526,
 		cardmarket: 851258

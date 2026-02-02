@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Lechonk"
+		en: "Lechonk",
+		fr: "Gourmelet"
 	},
 
 	stage: "Stage1",
@@ -82,8 +83,9 @@ const card: Card = {
 	illustrator: "aky CG Works",
 
 	thirdParty: {
-		cardmarket: 702454
-	}
+        cardmarket: 702530,
+        tcgplayer: 490092
+    }
 }
 
 export default card

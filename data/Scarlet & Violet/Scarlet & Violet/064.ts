@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Magnemite"
+		en: "Magnemite",
+		fr: "Magnéti"
 	},
 
 	stage: "Stage1",
@@ -72,8 +73,9 @@ const card: Card = {
 	illustrator: "Shiburingaru",
 
 	thirdParty: {
-		cardmarket: 702360
-	}
+        cardmarket: 702360,
+        tcgplayer: 487917
+    }
 }
 
 export default card

@@ -14,24 +14,28 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 
 		damage: 10
 	}, {
 		name: {
-			en: "Lunge"
+			en: "Lunge",
+			fr: "Coup Rapide"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		}
 	}],
 
 	name: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	rarity: "None",

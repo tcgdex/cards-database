@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Yamask",
+		fr: "Tutafeh"
 	},
 
 	stage: "Stage1",
@@ -40,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Chuck",
+				fr: "Bazardage"
 			},
 			effect: {
 				en: "Discard as many Pokémon Tool cards as you like from your hand. This attack does 40 damage times the number of cards you discarded.",
+				fr: "Défaussez autant de cartes Outil Pokémon que vous voulez de votre main. Cette attaque inflige 40 dégâts multipliés par le nombre de cartes que vous avez défaussées."
 			},
 			damage: 40,
 
@@ -54,9 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lock Up",
+				fr: "Cage"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire."
 			},
 			damage: 40,
 

@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Kirlia"
+		en: "Kirlia",
+		fr: "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -82,8 +83,9 @@ const card: Card = {
 	illustrator: "N-DESIGN Inc.",
 
 	thirdParty: {
-		cardmarket: 702382
-	}
+        cardmarket: 702524,
+        tcgplayer: 490086
+    }
 }
 
 export default card
