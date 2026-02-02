@@ -5,6 +5,10 @@ const card: Card = {
 	dexId: [
 		684,
 	],
+	illustrator: "5ban Graphics",
+	description: {
+		en: "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy."
+	},
 	set: Set,
 	variants: {
 		normal: false,
@@ -32,11 +36,28 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
+				en: "Draining Kiss",
 				fr: "Vampibaiser",
 			},
 			damage: "10",
+			effect: {
+				en: "Heal 10 damage from this Pokémon."
+			}
 		},
 	],
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Darkness",
+			value: "-20"
+		}
+	],
+	retreat: 1,
 }
 
 export default card

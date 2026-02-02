@@ -5,6 +5,10 @@ const card: Card = {
 	dexId: [
 		676,
 	],
+	illustrator: "5ban Graphics",
+	description: {
+		en: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements."
+	},
 	set: Set,
 	variants: {
 		normal: false,
@@ -33,10 +37,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Tight Jaw",
 				fr: "Mâchoire Serrée",
 			},
 			damage: "20",
 			effect: {
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 		},
@@ -47,11 +53,22 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Sharp Fang",
 				fr: "Croc Aiguisé",
 			},
 			damage: "50",
 		},
 	],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	resistances: [
+
+	],
+	retreat: 1,
 }
 
 export default card

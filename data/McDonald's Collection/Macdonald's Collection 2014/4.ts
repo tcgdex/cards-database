@@ -6,6 +6,10 @@ const card: Card = {
 		656,
 	],
 	set: Set,
+	illustrator: '5ban Graphics',
+	description: {
+		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked."
+	},
 	variants: {
 		normal: false,
 		reverse: false,
@@ -32,6 +36,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
+				en: "Pound",
 				fr: "Écras'Face",
 			},
 			damage: "10",
@@ -42,11 +47,23 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Water Drip",
 				fr: "Goutte à Goutte",
 			},
 			damage: "20",
 		},
 	],
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+	resistances: [
+		
+	],
+	retreat: 1,
+
 }
 
 export default card
