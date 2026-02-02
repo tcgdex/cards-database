@@ -1,0 +1,192 @@
+Starting compilation...
+$ bun compiler/index.ts
+1. Loading remote sources
+
+2. Loading informations from GIT
+Loading Git File Tree...
+Loaded files tree 34772 files
+Loading their last edit time
+loaded 1000 out of 34772 files (3%)
+loaded 2000 out of 34772 files (6%)
+loaded 3000 out of 34772 files (9%)
+loaded 4000 out of 34772 files (12%)
+loaded 5000 out of 34772 files (14%)
+loaded 6000 out of 34772 files (17%)
+loaded 7000 out of 34772 files (20%)
+loaded 8000 out of 34772 files (23%)
+loaded 9000 out of 34772 files (26%)
+loaded 10000 out of 34772 files (29%)
+loaded 11000 out of 34772 files (32%)
+loaded 12000 out of 34772 files (35%)
+loaded 13000 out of 34772 files (37%)
+loaded 14000 out of 34772 files (40%)
+loaded 15000 out of 34772 files (43%)
+loaded 16000 out of 34772 files (46%)
+loaded 17000 out of 34772 files (49%)
+loaded 18000 out of 34772 files (52%)
+loaded 19000 out of 34772 files (55%)
+loaded 20000 out of 34772 files (58%)
+loaded 21000 out of 34772 files (60%)
+loaded 22000 out of 34772 files (63%)
+could not load file  hope it does not break everything else lol
+loaded 23000 out of 34772 files (66%)
+loaded 24000 out of 34772 files (69%)
+loaded 25000 out of 34772 files (72%)
+loaded 26000 out of 34772 files (75%)
+loaded 27000 out of 34772 files (78%)
+loaded 28000 out of 34772 files (81%)
+loaded 29000 out of 34772 files (83%)
+loaded 30000 out of 34772 files (86%)
+loaded 31000 out of 34772 files (89%)
+loaded 32000 out of 34772 files (92%)
+loaded 33000 out of 34772 files (95%)
+loaded 34000 out of 34772 files (98%)
+could not load file  hope it does not break everything else lol
+done loading files 34770
+
+3. Compiling Files
+       Compiling en sets.ts
+01.39% Compiled  en sets.ts
+       Compiling en stats.ts
+02.78% Compiled  en stats.ts
+       Compiling en series.ts
+04.17% Compiled  en series.ts
+       Compiling en cards.ts
+05.56% Compiled  en cards.ts
+       Compiling fr sets.ts
+06.94% Compiled  fr sets.ts
+       Compiling fr stats.ts
+08.33% Compiled  fr stats.ts
+       Compiling fr series.ts
+09.72% Compiled  fr series.ts
+       Compiling fr cards.ts
+11.11% Compiled  fr cards.ts
+       Compiling es sets.ts
+12.50% Compiled  es sets.ts
+       Compiling es stats.ts
+13.89% Compiled  es stats.ts
+       Compiling es series.ts
+15.28% Compiled  es series.ts
+       Compiling es cards.ts
+16.67% Compiled  es cards.ts
+       Compiling es-mx sets.ts
+18.06% Compiled  es-mx sets.ts
+       Compiling es-mx stats.ts
+19.44% Compiled  es-mx stats.ts
+       Compiling es-mx series.ts
+20.83% Compiled  es-mx series.ts
+       Compiling es-mx cards.ts
+22.22% Compiled  es-mx cards.ts
+       Compiling it sets.ts
+23.61% Compiled  it sets.ts
+       Compiling it stats.ts
+25.00% Compiled  it stats.ts
+       Compiling it series.ts
+26.39% Compiled  it series.ts
+       Compiling it cards.ts
+27.78% Compiled  it cards.ts
+       Compiling pt sets.ts
+29.17% Compiled  pt sets.ts
+       Compiling pt stats.ts
+30.56% Compiled  pt stats.ts
+       Compiling pt series.ts
+31.94% Compiled  pt series.ts
+       Compiling pt cards.ts
+33.33% Compiled  pt cards.ts
+       Compiling pt-br sets.ts
+34.72% Compiled  pt-br sets.ts
+       Compiling pt-br stats.ts
+36.11% Compiled  pt-br stats.ts
+       Compiling pt-br series.ts
+37.50% Compiled  pt-br series.ts
+       Compiling pt-br cards.ts
+38.89% Compiled  pt-br cards.ts
+       Compiling pt-pt sets.ts
+40.28% Compiled  pt-pt sets.ts
+       Compiling pt-pt stats.ts
+41.67% Compiled  pt-pt stats.ts
+       Compiling pt-pt series.ts
+43.06% Compiled  pt-pt series.ts
+       Compiling pt-pt cards.ts
+44.44% Compiled  pt-pt cards.ts
+       Compiling de sets.ts
+45.83% Compiled  de sets.ts
+       Compiling de stats.ts
+47.22% Compiled  de stats.ts
+       Compiling de series.ts
+48.61% Compiled  de series.ts
+       Compiling de cards.ts
+50.00% Compiled  de cards.ts
+       Compiling nl sets.ts
+51.39% Compiled  nl sets.ts
+       Compiling nl stats.ts
+52.78% Compiled  nl stats.ts
+       Compiling nl series.ts
+54.17% Compiled  nl series.ts
+       Compiling nl cards.ts
+55.56% Compiled  nl cards.ts
+       Compiling pl sets.ts
+56.94% Compiled  pl sets.ts
+       Compiling pl stats.ts
+58.33% Compiled  pl stats.ts
+       Compiling pl series.ts
+59.72% Compiled  pl series.ts
+       Compiling pl cards.ts
+61.11% Compiled  pl cards.ts
+       Compiling ru sets.ts
+62.50% Compiled  ru sets.ts
+       Compiling ru stats.ts
+63.89% Compiled  ru stats.ts
+       Compiling ru series.ts
+65.28% Compiled  ru series.ts
+       Compiling ru cards.ts
+66.67% Compiled  ru cards.ts
+       Compiling ja sets.ts
+68.06% Compiled  ja sets.ts
+       Compiling ja stats.ts
+69.44% Compiled  ja stats.ts
+       Compiling ja series.ts
+70.83% Compiled  ja series.ts
+       Compiling ja cards.ts
+72.22% Compiled  ja cards.ts
+       Compiling ko sets.ts
+73.61% Compiled  ko sets.ts
+       Compiling ko stats.ts
+75.00% Compiled  ko stats.ts
+       Compiling ko series.ts
+76.39% Compiled  ko series.ts
+       Compiling ko cards.ts
+77.78% Compiled  ko cards.ts
+       Compiling zh-tw sets.ts
+79.17% Compiled  zh-tw sets.ts
+       Compiling zh-tw stats.ts
+80.56% Compiled  zh-tw stats.ts
+       Compiling zh-tw series.ts
+81.94% Compiled  zh-tw series.ts
+       Compiling zh-tw cards.ts
+83.33% Compiled  zh-tw cards.ts
+       Compiling id sets.ts
+84.72% Compiled  id sets.ts
+       Compiling id stats.ts
+86.11% Compiled  id stats.ts
+       Compiling id series.ts
+87.50% Compiled  id series.ts
+       Compiling id cards.ts
+88.89% Compiled  id cards.ts
+       Compiling th sets.ts
+90.28% Compiled  th sets.ts
+       Compiling th stats.ts
+91.67% Compiled  th stats.ts
+       Compiling th series.ts
+93.06% Compiled  th series.ts
+       Compiling th cards.ts
+94.44% Compiled  th cards.ts
+       Compiling zh-cn sets.ts
+95.83% Compiled  zh-cn sets.ts
+       Compiling zh-cn stats.ts
+97.22% Compiled  zh-cn stats.ts
+       Compiling zh-cn series.ts
+98.61% Compiled  zh-cn series.ts
+       Compiling zh-cn cards.ts
+100.00% Compiled  zh-cn cards.ts
+4. Copying static files to public folder

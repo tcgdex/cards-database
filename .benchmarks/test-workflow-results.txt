@@ -1,0 +1,43 @@
+# Test Workflow Benchmark Results
+Date: 2026-01-09 10:49:26
+System: Darwin arm64
+
+
+## Master Branch (3× Compilation)
+- Ubuntu compilation: 113s
+- Windows compilation: 108s
+- macOS compilation: 104s
+- Total CPU time: 325s (5m 25s)
+- Wall-clock time: 113s (1m 53s) - parallel
+
+## Optimized Branch (1× Compilation + Artifact Sharing)
+- Single compilation: 118s
+- Artifact upload: 1s (size:  19M)
+- Ubuntu download: 0s
+- Windows download: 0s
+- macOS download: 0s
+- Total CPU time: 119s (1m 59s)
+- Wall-clock time: 119s (1m 59s) - sequential
+
+## Comparison
+
+### CPU Time (Real Savings)
+- Master: 325s
+- Optimized: 119s
+- Saved: 206s (63%)
+
+### Wall-Clock Time (User Experience)
+- Master: 113s (parallel)
+- Optimized: 119s (sequential)
+- Difference: 6s slower
+
+### Analysis
+- Compilation runs: 3 → 1 (67% reduction)
+- CPU time saved: 63%
+- Cost savings: ~63% (especially on macOS with 10× multiplier)
+- Environmental: 63% less compute resources
+
+Note: Wall-clock time is slightly longer because:
+  - Master: 3 OS compile in parallel (bottleneck: slowest OS)
+  - Optimized: Sequential (compile → upload → download → test)
+  - Trade-off: +6s wall-clock for -206s CPU (63% cost savings)

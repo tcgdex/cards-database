@@ -3,7 +3,6 @@
 # dependencies
 node_modules
 
-
 # misc
 .DS_Store
 .env*
@@ -16,6 +15,18 @@ dist/
 
 /data/**/*.js
 
-
 # production
 /server/dist
+
+# CI/CD and development files (OPTIMIZATION: Reduce Docker context size)
+.github/
+.cursor/
+.bruno/
+.benchmarks/
+*.md
+!README.md
+tests/
+*.test.ts
+.git/
+.gitignore
+.dockerignore
