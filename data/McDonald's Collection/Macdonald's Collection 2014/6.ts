@@ -5,6 +5,10 @@ const card: Card = {
 	dexId: [
 		686,
 	],
+	illustrator: "5ban Graphics",
+	description: {
+		en: "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight."
+	},
 	set: Set,
 	variants: {
 		normal: false,
@@ -32,11 +36,25 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
+				en: "Peck",
 				fr: "Picpic",
 			},
 			damage: "10",
 		},
 	],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		}
+	],
+	retreat: 1,
 }
 
 export default card
