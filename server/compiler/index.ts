@@ -68,6 +68,11 @@ const DIST_FOLDER = './generated'
 	console.log('4. Copying static files to public folder')
 	// Finally copy definitions files to the public folder :D
 	for await (const file of await fs.readdir('../meta/definitions')) {
+		if( file.startsWith("v3-")){
+			await fs.copyFile('../meta/definitions/' + file, `./public/v3/${file}`)
+			continue
+		}
+
 		await fs.copyFile('../meta/definitions/' + file, './public/v2/' + file)
 	}
 
