@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Magma's Mightyena",
 		fr: "Grahyèna de la Team Magma",
+		pt: "Mightyena da Equipe Magma",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Team Magma's Poochyena",
 		fr: "Medhyèna de la Team Magma",
+		pt: "Poochyena da Equipe Magma",
 	},
 
 	stage: "Stage1",
@@ -38,6 +40,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				pt: "Mordida",
 			},
 
 			damage: 30,
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Hostile Fang",
 				fr: "Croc Hostile",
+				pt: "Presa Hostil",
 			},
 			effect: {
 				en: "If your opponent's Active Pokémon is a Team Aqua Pokémon, this attack does 40 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de la Team Aqua, cette attaque inflige 40 dégâts supplémentaires.",
+				pt: "Se o Pokemon Ativo do seu oponente for um Pokemon da Equipe Aqua, esse ataque causará 40 de danos adicionais.",
 			},
 			damage: "80＋",
 

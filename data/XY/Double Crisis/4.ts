@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Aqua's Sealeo",
 		fr: "Phogleur de la Team Aqua",
+		pt: "Sealeo da Equipe Aqua",
 	},
 
 	illustrator: "Naoki Saito",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Team Aqua's Spheal",
 		fr: "Obalie de la Team Aqua",
+		pt: "Spheal da Equipe Aqua",
 	},
 
 	stage: "Stage1",
@@ -38,10 +40,12 @@ const card: Card = {
 			name: {
 				en: "Splatter",
 				fr: "Crépitement",
+				pt: "Respingo",
 			},
 			effect: {
 				en: "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				pt: "Este ataque causa 20 de danos a 1 dos Pokémon de seu oponente. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
 			},
 
 		},
@@ -54,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Hail Storm",
 				fr: "Déluge de Grêle",
+				pt: "Tormenta de Granizo",
 			},
 			effect: {
 				en: "If your opponent's Active Pokémon is a Team Magma Pokémon, this attack does 60 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de la Team Magma, cette attaque inflige 60 dégâts supplémentaires.",
+				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon da Equipe Magma, esse ataque causará 60 de danos adicionais.",
 			},
 			damage: "60＋",
 
