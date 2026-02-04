@@ -5,3 +5,4 @@
 /public/**/api.d.ts
 /public/**/openapi.yaml
 .env
+/src/openapi.ts

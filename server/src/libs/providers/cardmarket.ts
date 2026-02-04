@@ -1,26 +1,26 @@
 import { objectOmit } from '@dzeio/object-util'
 
 interface Root {
-  version: number
-  createdAt: string
-  priceGuides: PriceGuide[]
+	version: number
+	createdAt: string
+	priceGuides: PriceGuide[]
 }
 
 interface PriceGuide {
-  idProduct: number
-  idCategory: number
-  avg?: number
-  low?: number
-  trend?: number
-  avg1?: number
-  avg7?: number
-  avg30?: number
-  "avg-holo"?: number
-  "low-holo"?: number
-  "trend-holo"?: number
-  "avg1-holo"?: number
-  "avg7-holo"?: number
-  "avg30-holo"?: number
+	idProduct: number
+	idCategory: number
+	avg?: number
+	low?: number
+	trend?: number
+	avg1?: number
+	avg7?: number
+	avg30?: number
+	"avg-holo"?: number
+	"low-holo"?: number
+	"trend-holo"?: number
+	"avg1-holo"?: number
+	"avg7-holo"?: number
+	"avg30-holo"?: number
 }
 
 const SUPPORTED_VERSION = 1
@@ -52,7 +52,7 @@ export async function updateDatas(): Promise<boolean> {
 	return true
 }
 
-export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: number }}): Promise<any> {
+export async function getCardMarketPrice(card: { thirdParty?: { cardmarket?: number } }): Promise<any> {
 	if (!dataCache || typeof card.thirdParty?.cardmarket !== 'number') {
 		return null
 	}
