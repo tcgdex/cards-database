@@ -1,10 +1,10 @@
 /* eslint-disable sort-keys */
 import pathLib from 'node:path'
 import { Card, Set, SupportedLanguages, Types } from '../../../interfaces'
-import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
+import { Card as CardSingle, CardResume, Related } from '../../../meta/definitions/api'
 import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
-import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
+import { cardIsLegal, DB_PATH, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
 import { variant_detailed } from "../../public/v2/api";
 
@@ -70,6 +70,69 @@ function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: Suppo
 	}
 
 	return result.length > 0 ? result : undefined;
+}
+
+async function generateLinks(currentLang:SupportedLanguages ,card: Card,localId: string): Promise<Related[]> {
+
+	async function resolveRelatedCard(cardPath: string): Promise<Card> {
+		return await import(`../../${DB_PATH}${cardPath}`).then(
+			(m) => m.default
+		)
+	}
+
+	function formatCardEndpoint(lang: string,setId:string,localId:string): string {
+		return `/v2/${lang}/cards/${setId}-${localId}`;
+	}
+
+	let links: Related[] = []
+
+	for (const key in card.name) {
+		if( key === currentLang) {
+			continue;
+		}
+
+		if (card.name[key] !== undefined) {
+			links.push(
+				{
+					lang: key,
+					url: formatCardEndpoint(key,card.set.id,localId),
+					type: 'translation'
+				}
+			)
+		}
+	}
+
+	if(card.related && card.related.length > 0) {
+		for(const relation of card.related) {
+			if (!relation.cardPath) continue
+			const relatedCard = await resolveRelatedCard(relation.cardPath)
+
+			if (!relatedCard) {
+				continue;
+			}
+
+			for (const key in relatedCard.name) {
+				if (relatedCard.name[key] !== undefined) {
+					let localId = await findCardLocalId(key,relatedCard)
+					if(!localId) {
+						continue;
+					}
+
+					links.push({
+						lang: key,
+						url: formatCardEndpoint(key,relatedCard.set.id,localId),
+						type: relation.type
+					})
+				}
+			}
+		}
+	}
+
+	if(links.length == 0) {
+		return undefined;
+	}
+
+	return links;
 }
 
 // eslint-disable-next-line max-lines-per-function
@@ -168,7 +231,9 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		})) : undefined,
 		updated: await getCardLastEdit(localId, card, lang),
 
-		thirdParty: card.thirdParty
+		thirdParty: card.thirdParty,
+
+		related: await generateLinks(lang,card,localId)
 	}
 }
 
@@ -184,6 +249,17 @@ export async function getCard(set: Set, id: string, lang: SupportedLanguages): P
 	} catch {
 		return (await import(`../../${DB_PATH}/${getDataFolder(lang)}/${set.serie.id}/${set.id}/${id}.ts`)).default
 	}
+}
+
+
+async function findCardLocalId(lang: string, target: Card): Promise<string | undefined> {
+	let cards = await getCards(lang as SupportedLanguages,target.set)
+
+	const found = cards.find(([_, card]) =>
+		resolveText(card.name, lang as SupportedLanguages) === resolveText(target.name, lang as SupportedLanguages) &&
+		card.rarity === target.rarity
+	);
+	return found ? found[0] : undefined;
 }
 
 /**

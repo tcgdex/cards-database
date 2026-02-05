@@ -38,6 +38,13 @@ const card: Card = {
 			type: "holo",
 		},
 	],
+
+	related: [
+		{
+			type: "translation",
+			cardPath: "data/Base/Base Set/7.ts"
+		}
+	]
 };
 
 export default card

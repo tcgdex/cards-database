@@ -47,6 +47,7 @@ export interface Serie extends SerieResume {
 	lastSet: SetResume;
 	releaseDate: string;
 	sets: Array<SetResume>;
+	related? : Array<Related>
 }
 
 interface variants {
@@ -142,6 +143,8 @@ export interface Set extends SetResume {
 		cardmarket?: number
 		tcgplayer?: number
 	}
+
+	related? : Array<Related>
 }
 export interface CardResume {
 	id: string;
@@ -334,8 +337,19 @@ export interface Card extends CardResume {
 	boosters?: Array<Booster>
 
 	updated: string
+
+	/**
+	 * Links to endpoints within TCGDex, used to provide a way to access translations of cards i.e
+	 * when getting the JA version of a card, you can use the links to get the EN version of the same card
+	 */
+	related? : Array<Related>
 }
 
+export interface Related {
+	lang: string
+	type: string
+	url: string
+}
 /**
  * String Endpoint List
  */
