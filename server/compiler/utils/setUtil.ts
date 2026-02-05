@@ -1,7 +1,7 @@
 import { objectKeys, objectMap } from '@dzeio/object-util'
 import { Card, Set, SupportedLanguages } from '../../../interfaces'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
-import { cardToCardSimple, getCards } from './cardUtil'
+import { cardToCardSimple, getCards, getCardsLength } from './cardUtil'
 import { DB_PATH, fetchRemoteFile, getDataFolder, resolveText, setIsLegal, smartGlob } from './util'
 import path from 'node:path'
 
@@ -11,6 +11,7 @@ interface t {
 }
 
 const setCache: t = {}
+const setSimpleCache: Record<string, SetResume> = {}
 
 export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
 	return !!resolveText(set.name, lang) && !!resolveText(set.serie.name, lang)
@@ -66,18 +67,21 @@ export async function getSetPictures(set: Set, lang: SupportedLanguages): Promis
 }
 
 export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promise<SetResume> {
-	const cards = await getCards(lang, set)
+	if (setSimpleCache[set.id + lang]) return setSimpleCache[set.id + lang]
+	// const cards = await getCards(lang, set)
 	const pics = await getSetPictures(set, lang)
-	return {
+	const res = {
 		cardCount: {
 			official: set.cardCount.official,
-			total: Math.max(set.cardCount.official, cards.length)
+			total: Math.max(set.cardCount.official, await getCardsLength(lang, set))
 		},
 		id: set.id,
 		logo: pics[0],
 		name: resolveText(set.name, lang),
 		symbol: pics[1]
 	}
+	setSimpleCache[set.id + lang] = res
+	return res
 }
 
 function getVariantCountForType(card: Card, type: 'normal' | 'reverse' | 'holo' | 'firstEdition'): number {
