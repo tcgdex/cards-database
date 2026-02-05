@@ -3,6 +3,7 @@ import serie from '../SV'
 
 const set: Set = {
 	id: 'SV4K',
+
 	name: {
 		ja: '古代の咆哮',
 		ko: '고대의 포효',
@@ -15,9 +16,14 @@ const set: Set = {
 	cardCount: {
 		official: 66
 	},
+
 	releaseDate: {
 		ja: '2023-10-27',
 		'zh-tw': '2023-11-10'
+	},
+
+	thirdParty: {
+		cardmarket: 5478
 	}
 }
 
