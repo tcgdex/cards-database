@@ -171,7 +171,7 @@ export async function loadLastEdits() {
 		} else if (line.trim().length > 0) {
 			const file = line.trim()
 			if (remainingFiles.has(file)) {
-				lastEditsCache[file] = currentDate
+				lastEditsCache["../" + file] = currentDate
 				remainingFiles.delete(file)
 				loadedCount++
 
