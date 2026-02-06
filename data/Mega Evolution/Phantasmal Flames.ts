@@ -22,14 +22,17 @@ const set: Set = {
 
 	releaseDate: "2025-11-14",
 
-	abbreviations: {
-		official: "PFL"
-	}
-
 	// thirdParty: {
 	// 	cardmarket: 6290,
 	// 	tcgplayer: 24380
 	// }
+	abbreviations: {
+		official: "PFL"
+	},
+
+	thirdParty: {
+		cardmarket: 6299
+	}
 }
 
 export default set
