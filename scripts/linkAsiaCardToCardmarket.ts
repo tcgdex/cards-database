@@ -5,6 +5,7 @@ import { extractFile } from './utils/ts-extract-utils'
 import { Card, Set } from '../interfaces'
 import { set, simplify } from "./utils/jscodeshift-utils"
 import { cardTranslationsMap } from "./utils-data/jp_card_translations"
+import { pokedexMap } from "./utils-data/pokedex"
 
 // Run this code like
 // npx jscodeshift ./data-asia/SV/SV5a -t ./scripts/linkAsiaCardToCardmarket.ts --extensions=ts --parser=ts
@@ -46,7 +47,14 @@ const transformer: Transform = (file, api) => {
 			// TODO there is still more cases to catch
 			// FIXME "ex" can catch "pokedex"
             const clean_name = name.replace(/(V-UNION|VSTAR|VMAX|PRO|ex|Ex|GX)$/g, '').trim();
-            let translatedName = cardTranslationsMap.get(clean_name);
+
+			// see if we can find the name by dexid
+			let translatedName: string | undefined = undefined;
+			const dexId = cardData.dexId
+			if (dexId && dexId.length > 0)
+				translatedName = pokedexMap.get(dexId[0])
+			else
+            	translatedName = cardTranslationsMap.get(clean_name);
 
 			if (!translatedName) {
 				// TODO write to report instead
