@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [322],
+
 	name: {
 		en: "Numel",
 		fr: "Chamallot",
