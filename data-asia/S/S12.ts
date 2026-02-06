@@ -3,6 +3,7 @@ import serie from '../S'
 
 const set: Set = {
 	id: 'S12',
+
 	name: {
 		ja: 'パラダイムトリガー',
 		ko: '패러다임트리거',
@@ -16,11 +17,16 @@ const set: Set = {
 	cardCount: {
 		official: 98
 	},
+
 	releaseDate: {
 		ja: '2022-10-21',
 		'zh-tw': '2022-11-04',
 		th: '2022-11-25',
 		id: '2022-11-25'
+	},
+
+	thirdParty: {
+		cardmarket: 5156
 	}
 }
 
