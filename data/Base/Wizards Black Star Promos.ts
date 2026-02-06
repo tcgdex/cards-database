@@ -19,7 +19,11 @@ const basep: Set = {
 		official: 53
 	},
 
-	releaseDate: "1999-07-01"
+	releaseDate: "1999-07-01",
+
+	thirdParty: {
+		cardmarket: 1607
+	}
 }
 
 export default basep
