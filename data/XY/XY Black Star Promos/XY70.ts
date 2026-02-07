@@ -48,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Impact",
+				fr: "Impact du Dragon"
 			},
 			effect: {
 				en: "Discard 3 Energy attached to this Pokémon.",
+				fr: "Défaussez 3 Énergies attachées à ce Pokémon."
 			},
 			damage: 190,
 

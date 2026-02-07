@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Bouffalant ex"
 	},
 
+	illustrator: "PLANETA Tsuji",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 220,

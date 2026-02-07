@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pawniard",
+		fr: "Scalpion"
 	},
 
 	stage: "Stage1",
@@ -40,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 30,
@@ -53,9 +55,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Cutter",
+				fr: "Taillade"
 			},
 			effect: {
 				en: "Flip 3 coins. If 1 of them is heads, this attack does 10 more damage. If 2 of them are heads, this attack does 30 more damage. If all of them are heads, this attack does 60 more damage.",
+				fr: "Lancez 3 pièces. Si vous obtenez un côté face, cette attaque inflige 10 dégâts supplémentaires. Si vous obtenez 2 côtés face, cette attaque inflige 30 dégâts supplémentaires. Si vous obtenez seulement des côtés face, cette attaque inflige 60 dégâts supplémentaires."
 			},
 			damage: 30,
 

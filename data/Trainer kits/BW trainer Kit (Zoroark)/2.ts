@@ -37,10 +37,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Confuse Ray"
+			en: "Confuse Ray",
+			fr: "Onde Folie"
 		},
 		effect: {
-			en: "The Defending Pokémon is now Confused."
+			en: "The Defending Pokémon is now Confused.",
+			fr: "Le Pokémon Défenseur est maintenant Confus."
 		},
 	}, {
 		cost: [
@@ -48,10 +50,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Hyper Fang"
+			en: "Hyper Fang",
+			fr: "Croc de Mort"
 		},
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		},
 		damage: 60
 	}],

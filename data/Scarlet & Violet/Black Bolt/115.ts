@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Eelektross"
 	},
 
+	illustrator: "Yukiko Baba",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 160,

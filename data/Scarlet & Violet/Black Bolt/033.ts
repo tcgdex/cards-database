@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Thundurus"
 	},
 
+	illustrator: "hncl",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Probopass"
 	},
 
+
+	illustrator: "sowsow",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

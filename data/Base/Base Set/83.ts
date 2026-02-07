@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Maintenance",
 		fr: "Entretien",
-		de: "Wartung"
+		de: "Wartung",
+		it: "Manutenzione"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,7 +16,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Mélangez 2 des autres cartes de votre main avec votre deck pour piocher une carte.",
-		de: "Mische 2 Karten aus Deiner Hand in Deinen Stapel."
+		de: "Mische 2 Karten aus Deiner Hand in Deinen Stapel.",
+		it: "Rimetti 2 delle altre carte che hai in mano nel tuo mazzo, rimischialo e poi pesca una carta."
 	},
 
 	thirdParty: {

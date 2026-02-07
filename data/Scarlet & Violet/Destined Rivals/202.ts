@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Raticate del Equipo Rocket"
 	},
 
+
+	illustrator: "Mékayu",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

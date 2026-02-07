@@ -4,6 +4,7 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Mareep",
+		fr: "Mareep"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
+				fr: "Éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -44,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Static Shock",
+				fr: "Choc statique"
 			},
 
 			damage: 20,

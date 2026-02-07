@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Volcarona"
 	},
 
+	illustrator: "mashu",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

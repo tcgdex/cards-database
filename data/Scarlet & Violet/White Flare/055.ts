@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Purrloin"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

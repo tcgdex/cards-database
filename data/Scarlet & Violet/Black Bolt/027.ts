@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cryogonal"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

@@ -26,7 +26,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 		damage: 10
 	}, {
@@ -35,7 +36,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 		damage: 20
 	}],

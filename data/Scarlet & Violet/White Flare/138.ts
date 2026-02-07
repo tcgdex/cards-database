@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Scraggy"
 	},
 
+	illustrator: "Nelnal",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

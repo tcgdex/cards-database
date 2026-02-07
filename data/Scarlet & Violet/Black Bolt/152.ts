@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Minccino"
 	},
 
+	illustrator: "Natsumi Yoshida",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

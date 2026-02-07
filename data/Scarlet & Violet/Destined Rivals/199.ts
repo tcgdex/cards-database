@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Weezing del Equipo Rocket"
 	},
 
+
+	illustrator: "Yukihiro Tada",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Throh"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

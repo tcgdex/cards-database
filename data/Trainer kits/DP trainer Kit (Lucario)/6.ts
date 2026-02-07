@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Riolu"
+		en: "Riolu",
+		fr: "Riolu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -26,10 +27,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Wild Kick"
+				en: "Wild Kick",
+				fr: "Coup déchaîné"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing."
+				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: "30"
 		}

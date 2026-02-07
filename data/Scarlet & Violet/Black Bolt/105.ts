@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Seismitoad"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 170,

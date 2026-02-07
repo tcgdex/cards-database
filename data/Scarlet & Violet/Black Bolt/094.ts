@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Karrablast"
 	},
 
+	illustrator: "Tomokazu Komiya",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

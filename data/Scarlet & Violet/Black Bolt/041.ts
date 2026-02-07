@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Beheeyem"
 	},
 
+	illustrator: "Apios",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

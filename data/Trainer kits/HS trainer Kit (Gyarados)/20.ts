@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gyarados"
+		en: "Gyarados",
+		fr: "Léviator"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,19 +22,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hydro Splash"
+			en: "Hydro Splash",
+			fr: "Hydro-éclaboussure"
 		},
 
 		damage: 50
 	}, {
 		name: {
-			en: "Hyper Beam"
+			en: "Hyper Beam",
+			fr: "Ultralaser"
 		},
 
 		damage: 80,
 
 		effect: {
-			en: "Discard an Energy card attached to the Defending Pokémon."
+			en: "Discard an Energy card attached to the Defending Pokémon.",
+			fr: "Défaussez une carte Énergie attachée au Pokémon Défenseur."
 		}
 	}],
 

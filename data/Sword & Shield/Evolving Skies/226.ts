@@ -41,11 +41,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Frost Over"
+			en: "Frost Over",
+			fr: "Givre"
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach a Water Energy card from your discard pile to 1 of your Pokémon."
+			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach a Water Energy card from your discard pile to 1 of your Pokémon.",
+			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez attacher une carte Énergie  de votre pile de défausse à l'un de vos Pokémon."
 		}
 	}],
 
@@ -53,11 +55,13 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Crystal Breath"
+			en: "Crystal Breath",
+			fr: "Souffle de Cristal"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack."
+			en: "During your next turn, this Pokémon can't attack.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 		},
 
 		damage: 90

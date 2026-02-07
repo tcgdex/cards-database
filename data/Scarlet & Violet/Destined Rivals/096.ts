@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Tyranitar del Equipo Rocket"
 	},
 
+
+	illustrator: "Ryuta Fuse",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,

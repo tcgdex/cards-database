@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Yamask"
 	},
 
+	illustrator: "Bun Toujo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

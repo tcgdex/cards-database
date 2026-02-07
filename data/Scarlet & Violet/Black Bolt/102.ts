@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Simipour"
 	},
 
+	illustrator: "Yoriyuki Ikegami",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Krookodile"
 	},
 
+	illustrator: "Uninori",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 170,

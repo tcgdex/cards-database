@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bulbasaur",
+		fr: "Bulbizarre"
 	},
 
 	stage: "Stage1",
@@ -40,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
+				fr: "Poudre Dodo"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 20,
 
@@ -55,9 +58,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Powder",
+				fr: "Poudre Toxik"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: 50,
 

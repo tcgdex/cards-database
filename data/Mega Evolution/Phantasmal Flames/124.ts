@@ -30,6 +30,12 @@ const card: Card = {
 	energyType: "Normal",
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 857699
 	}

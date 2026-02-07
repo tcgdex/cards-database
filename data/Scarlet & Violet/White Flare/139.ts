@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Scrafty"
 	},
 
+	illustrator: "Tetsu Kayama",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,

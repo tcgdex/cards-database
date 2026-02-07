@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Crustle"
 	},
 
+
+	illustrator: "Takumi Wada",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,

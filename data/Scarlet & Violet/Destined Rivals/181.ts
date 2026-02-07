@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Máquina de MT"
 	},
 
+
+	illustrator: "Studio Bora Inc.",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

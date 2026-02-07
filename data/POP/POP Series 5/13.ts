@@ -4,6 +4,7 @@ import Set from '../POP Series 5'
 const card: Card = {
 	name: {
 		en: "Pikachu δ",
+		fr: "Pikachu δ"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Electric Punch",
+				fr: "Poing électrique"
 			},
 
 			damage: 10,
@@ -42,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heavy Metal",
+				fr: "Heavy Métal"
 			},
 			effect: {
 				en: "Flip a coin for each Metal Energy attached to Pikachu. This attack does 10 damage plus 20 more damage for each heads.",
+				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie  attachées à Pikachu. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face."
 			},
 			damage: "10+",
 

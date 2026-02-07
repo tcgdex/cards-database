@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lampent"
 	},
 
+	illustrator: "satoma",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

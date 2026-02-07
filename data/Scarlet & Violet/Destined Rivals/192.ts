@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Blaziken"
 	},
 
+
+	illustrator: "kodama",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 170,

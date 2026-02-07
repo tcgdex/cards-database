@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Elgyem"
 	},
 
+	illustrator: "Masako Tomii",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

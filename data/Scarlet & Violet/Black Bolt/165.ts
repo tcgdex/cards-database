@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Kyurem ex"
 	},
 
+	illustrator: "chibi",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 230,

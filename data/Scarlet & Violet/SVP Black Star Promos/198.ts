@@ -14,6 +14,9 @@ const card: Card = {
 		pt: "Zacian ex"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 220,

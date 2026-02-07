@@ -33,12 +33,11 @@ const card: Card = {
 
 	resistances: [{ type: "Grass", value: "-30" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	evolveFrom: {
 		ja: "ギアル",
@@ -48,6 +47,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [600],
+	thirdParty: {
+		cardmarket: 829506,
+		tcgplayer: 636700,
+	},
 };
 
 export default card;

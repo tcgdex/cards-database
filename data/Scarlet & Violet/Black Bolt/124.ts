@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Drilbur"
 	},
 
+	illustrator: "Koji Nakata",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

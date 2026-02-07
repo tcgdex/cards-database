@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Greedent de Damián"
 	},
 
+
+	illustrator: "Akira Komayama",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

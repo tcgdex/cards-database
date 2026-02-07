@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Audino"
 	},
 
+	illustrator: "Asako Ito",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,

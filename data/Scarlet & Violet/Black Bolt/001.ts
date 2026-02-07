@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Snivy"
 	},
 
+	illustrator: "Susumu Maeya",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

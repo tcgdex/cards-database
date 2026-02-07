@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Applin"
 	},
 
+	illustrator: "Tetsu Kayama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,

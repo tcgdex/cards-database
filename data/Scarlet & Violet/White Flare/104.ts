@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Heatmor"
 	},
 
+	illustrator: "Kariya",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,

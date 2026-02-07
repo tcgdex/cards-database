@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Larvesta",
+		fr: "Pyronille"
 	},
 
 	stage: "Stage1",
@@ -63,9 +64,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Burning Wind",
+				fr: "Vent Torride"
 			},
 			effect: {
 				en: "You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Burned.",
+				fr: "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé."
 			},
 			damage: 70,
 

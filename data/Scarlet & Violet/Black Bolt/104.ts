@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Palpitoad"
 	},
 
+	illustrator: "KEIICHIRO ITO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

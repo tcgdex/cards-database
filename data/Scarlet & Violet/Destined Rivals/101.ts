@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Regirock ex"
 	},
 
+
+	illustrator: "Nisota Niso",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 230,

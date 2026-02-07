@@ -14,6 +14,9 @@ const card: Card = {
 		pt: "Clefairy ex da Lílian"
 	},
 
+
+	illustrator: "PLANETA Tsuji",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 190,

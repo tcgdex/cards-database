@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Growlithe"
+		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	stage: "Stage1",
@@ -82,7 +83,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-        cardmarket: 702328,
+        cardmarket: 702520,
         tcgplayer: 490082
     }
 }

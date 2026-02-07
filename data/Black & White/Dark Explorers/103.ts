@@ -36,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Fang",
+				fr: "Crocs Feu"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
+				fr: "Le Pokémon Défenseur est maintenant Brûlé."
 			},
 			damage: 30,
 
@@ -51,9 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Grand Flame",
+				fr: "Flamme Colossale"
 			},
 			effect: {
 				en: "Attach a Fire Energy card from your discard pile to 1 of your Benched Pokémon.",
+				fr: "Attachez une carte Énergie  de votre pile de défausse à 1 de vos Pokémon de Banc."
 			},
 			damage: 90,
 

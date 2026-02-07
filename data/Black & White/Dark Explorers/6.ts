@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	stage: "Stage1",
@@ -39,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
+				fr: "Vive-Attaque"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
 			},
 			damage: 10,
 
@@ -53,9 +56,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Assist",
+				fr: "Assistance Énergétique"
 			},
 			effect: {
 				en: "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
+				fr: "Attachez une carte Énergie de base de votre pile de défausse à 1 de vos Pokémon de Banc."
 			},
 			damage: 40,
 

@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Croagunk"
+		en: "Croagunk",
+		fr: "Cradopaud"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,7 @@ const card: Card = {
 	illustrator: "PLANETA Hiiragi",
 
 	thirdParty: {
-        cardmarket: 702426,
+        cardmarket: 702528,
         tcgplayer: 490090
     }
 }

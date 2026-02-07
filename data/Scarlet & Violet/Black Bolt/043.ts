@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Golurk"
 	},
 
+	illustrator: "Uta",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 160,

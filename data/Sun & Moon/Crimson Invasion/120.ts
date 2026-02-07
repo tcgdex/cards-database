@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "",
+		fr: "Vous pouvez jouer cette carte seulement s'il vous reste plus de cartes Récompense que votre adversaire.",
 		en: "",
 		es: "",
 		it: "",

@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Fósil Cubierta Antiguo"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Common",
 	category: "Trainer",
 

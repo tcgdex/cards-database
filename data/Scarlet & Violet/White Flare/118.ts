@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Stunfisk"
 	},
 
+	illustrator: "Toshinao Aoki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,

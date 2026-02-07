@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Pichu de Ethan"
 	},
 
+
+	illustrator: "Narumi Sato",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 30,

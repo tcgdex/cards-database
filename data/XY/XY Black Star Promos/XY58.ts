@@ -34,9 +34,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Contrary",
+				fr: "Opposé"
 			},
 			effect: {
 				en: "If this Pokémon is your Active Pokémon, whenever your opponent flips a coin during his or her turn, treat it as tails.",
+				fr: "Si ce Pokémon est votre Pokémon Actif, chaque fois que votre adversaire lance une pièce pendant son tour, considérez que c'est pile."
 			},
 		},
 	],
@@ -54,6 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have the same number of cards in your hand as your opponent, your opponent's Active Pokémon is now Confused.",
+				fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, le Pokémon Actif de votre adversaire est maintenant Confus."
 			},
 			damage: 40,
 

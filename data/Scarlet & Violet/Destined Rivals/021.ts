@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Smoliv"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

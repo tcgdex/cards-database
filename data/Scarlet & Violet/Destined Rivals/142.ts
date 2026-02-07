@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Skarmory de Steven"
 	},
 
+
+	illustrator: "Nisota Niso",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 120,

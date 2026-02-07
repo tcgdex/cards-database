@@ -34,18 +34,21 @@ const card: Card = {
 			effect: { ja: "コインを1回投げオモテなら、60ダメージ追加。" },
 		},
 	],
-
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	weaknesses: [],
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [621],
+	thirdParty: {
+		cardmarket: 829509,
+		tcgplayer: 636703,
+	},
 };
 
 export default card;

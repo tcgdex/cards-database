@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Servine"
 	},
 
+	illustrator: "Susumu Maeya",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

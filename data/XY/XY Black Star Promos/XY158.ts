@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "M Beedrill-EX",
+		fr: "M-Dardargnan-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -19,6 +20,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Beedrill-EX",
+		fr: "Dardargnan-EX"
 	},
 	stage: "MEGA",
 
@@ -31,9 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hazard Stinger",
+				fr: "Dard Dangereux"
 			},
 			effect: {
 				en: "Discard all Energy attached to this Pokémon. Your opponent's Active Pokémon is now Paralyzed and Poisoned. Put 4 damage counters instead of 1 on that Pokémon between turns.",
+				fr: "Défaussez toutes les Énergies attachées à ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé et Empoisonné. Placez 4 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour."
 			},
 			damage: 40,
 

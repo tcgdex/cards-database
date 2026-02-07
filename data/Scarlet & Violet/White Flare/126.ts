@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Frillish"
 	},
 
+	illustrator: "Shinya Komatsu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,

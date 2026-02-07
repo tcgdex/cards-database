@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Orbeetle del Equipo Rocket"
 	},
 
+
+	illustrator: "HYOGONOSUKE",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,

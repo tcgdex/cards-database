@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Totodile"
+		en: "Totodile",
+		fr: "Kaiminus"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -26,7 +27,8 @@ const card: Card = {
 				"Colorless"
 			],
 			name: {
-				en: "Bite"
+				en: "Bite",
+				fr: "Morsure"
 			},
 			damage: 10
 		},
@@ -35,10 +37,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Shining Fang"
+				en: "Shining Fang",
+				fr: "Croc luisant"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 10 damage plus 10 more damage."
+				en: "If the Defending Pokémon already has any damage counters on it, this attack does 10 damage plus 10 more damage.",
+				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "10+"
 		}

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Electrike"
 	},
 
+
+	illustrator: "Narano",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

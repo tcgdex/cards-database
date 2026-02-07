@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Fábrica del Equipo Rocket"
 	},
 
+
+	illustrator: "imoniii",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

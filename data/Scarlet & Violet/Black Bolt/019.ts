@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tympole"
 	},
 
+	illustrator: "Yukihiro Tada",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

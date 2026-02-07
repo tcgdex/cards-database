@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Root Fossil",
+		fr: "Fossile racine"
 	},
 
 	stage: "Stage1",

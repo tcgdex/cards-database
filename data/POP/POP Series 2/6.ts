@@ -4,6 +4,7 @@ import Set from '../POP Series 2'
 const card: Card = {
 	name: {
 		en: "Venusaur",
+		fr: "Florizarre"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -23,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ivysaur",
+		fr: "Herbizarre"
 	},
 
 	stage: "Stage2",
@@ -36,9 +38,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Wide Solarbeam",
+				fr: "« Grand rayon solaire »"
 			},
 			effect: {
 				en: "Does 20 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 20 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 20,
 
@@ -52,9 +56,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hard Plant",
+				fr: "« Herbe forte »"
 			},
 			effect: {
 				en: "Venusaur can’t use Hard Plant during your next turn.",
+				fr: "Florizarre ne peut pas utiliser Herbe forte lors de votre prochain tour."
 			},
 			damage: 80,
 

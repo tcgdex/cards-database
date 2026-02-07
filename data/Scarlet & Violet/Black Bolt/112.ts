@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Emolga"
 	},
 
+	illustrator: "Tomomi Ozaki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

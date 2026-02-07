@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Krokorok"
 	},
 
+	illustrator: "Gapao",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

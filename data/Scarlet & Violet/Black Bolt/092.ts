@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lilligant"
 	},
 
+	illustrator: "En Morikura",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,

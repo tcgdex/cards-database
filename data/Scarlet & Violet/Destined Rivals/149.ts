@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Meowth del Equipo Rocket"
 	},
 
+
+	illustrator: "Megumi Mizutani",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

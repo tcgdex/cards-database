@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Weezing del Equipo Rocket"
 	},
 
+
+	illustrator: "matazo",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

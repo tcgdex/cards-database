@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zebstrika"
 	},
 
+	illustrator: "REND",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,

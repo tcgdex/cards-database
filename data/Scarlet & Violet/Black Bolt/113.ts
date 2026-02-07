@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tynamo"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 40,

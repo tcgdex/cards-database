@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Fennel"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Uncommon",
 	category: "Trainer",
 

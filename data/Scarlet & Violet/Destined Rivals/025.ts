@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rabsca ex"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 250,

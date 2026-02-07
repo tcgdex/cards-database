@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Ampharos del Equipo Rocket"
 	},
 
+
+	illustrator: "Shiburingaru",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

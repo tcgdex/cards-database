@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Mandibuzz"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

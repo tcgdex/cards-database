@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Gastly",
+		fr: "Fantominus"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Poison",
+				fr: "Poison Dodo"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep and Poisoned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné."
 			},
 
 		},

@@ -51,6 +51,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 654472,
 		cardmarket: 851204

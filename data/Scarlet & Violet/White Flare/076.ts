@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Stoutland"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 160,

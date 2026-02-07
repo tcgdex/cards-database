@@ -47,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Repeater Blaze",
+				fr: "Multi-Brasier"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez un coté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
 			},
 			damage: "90+",
 

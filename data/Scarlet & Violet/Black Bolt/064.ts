@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pawniard"
 	},
 
+	illustrator: "Oku",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

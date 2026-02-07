@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Klang"
 	},
 
+	illustrator: "Amelicart",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

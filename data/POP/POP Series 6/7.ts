@@ -4,6 +4,7 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Gible",
+		fr: "Gible"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,10 +33,12 @@ const card: Card = {
 
 			name: {
 				en: "Surprise Attack",
+				fr: "Attaque surprise"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 
 			damage: 30

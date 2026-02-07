@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Whirlipede"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Feebas de Cynthia"
 	},
 
+	illustrator: "kamonabe",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 30,

@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charizard"
+		en: "Charizard",
+		fr: "Palkia"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -18,11 +19,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fire Spin"
+			en: "Fire Spin",
+			fr: "Boost Atomisant"
 		},
 
 		effect: {
-			en: "Discard 2 Energy cards attached to Charizard in order to use this attack."
+			en: "Discard 2 Energy cards attached to Charizard in order to use this attack.",
+			fr: "Pendant votre prochain tour, l'attaque Boost Atomisant de ce Pokémon inflige 80 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
 		},
 
 		damage: 100,
@@ -49,11 +52,13 @@ const card: Card = {
 		type: "Pokemon Power",
 
 		name: {
-			en: "Energy Burn"
+			en: "Energy Burn",
+			fr: "Espace Absolu"
 		},
 
 		effect: {
-			en: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed."
+			en: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.",
+			fr: "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de cartes Stade de sa main."
 		}
 	}],
 

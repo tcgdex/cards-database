@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lillipup"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

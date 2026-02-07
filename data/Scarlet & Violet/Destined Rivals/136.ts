@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Grimmsnarl ex de Marnie"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 320,
