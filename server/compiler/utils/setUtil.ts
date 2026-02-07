@@ -97,10 +97,25 @@ function getVariantCountForType(card: Card, type: 'normal' | 'reverse' | 'holo' 
 	return card.variants.reduce((count, variant) => count + (variant.type === type ? 1 : 0), 0);
 }
 
+function buildThirdParty(thirdParty: { cardmarket?: number | Array<number>; tcgplayer?: number }) {
+	if(thirdParty === undefined || thirdParty === null) {
+		return undefined
+	}
+
+	return {
+		cardmarket: thirdParty.cardmarket !== undefined && thirdParty.cardmarket !== null
+			? (Array.isArray(thirdParty.cardmarket) ? thirdParty.cardmarket : [thirdParty.cardmarket])
+			: undefined,
+		tcgplayer: thirdParty.tcgplayer
+	}
+}
 
 export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promise<SetSingle> {
 	const cards = await getCards(lang, set)
 	const pics = await getSetPictures(set, lang)
+
+
+
 	return {
 		cardCount: {
 			firstEd: cards.reduce((count, card) => count + getVariantCountForType(card[1],"firstEdition"), 0),
@@ -134,6 +149,6 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 			name: resolveText(booster.name, lang),
 			// images will be coming soon...
 		})) : undefined,
-		thirdParty: set.thirdParty
+		thirdParty: buildThirdParty(set.thirdParty)
 	}
 }

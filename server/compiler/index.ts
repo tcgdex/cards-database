@@ -23,8 +23,8 @@ const DIST_FOLDER = './generated'
 		await fs.rm(DIST_FOLDER, {recursive: true})
 	} catch {}
 
-	console.log('\n2. Loading informations from GIT')
-	await loadLastEdits()
+	// console.log('\n2. Loading informations from GIT')
+	// await loadLastEdits()
 
 	console.log('\n3. Compiling Files')
 
