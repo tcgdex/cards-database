@@ -10,7 +10,7 @@ const set: Set = {
 		es: "Chispas Fulgurantes",
 		fr: "Étincelles Déferlantes",
 		it: "Scintille Folgoranti",
-		pt: "Fagulhas Impetudsas"
+		pt: "Fagulhas Impetuosas"
 	},
 
 	serie: serie,
