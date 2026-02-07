@@ -6,12 +6,9 @@ const card: Card = {
 		728,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: 'holo', size: 'standard' }
+	],
 	name: {
 		en: "Popplio",
 		fr: "Otaquin",
