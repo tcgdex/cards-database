@@ -5,12 +5,9 @@ const card: Card = {
 	dexId: [104],
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'holo', size: 'standard' }
+	],
 
 	name: {
 		en: "Cubone"
