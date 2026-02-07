@@ -20,12 +20,9 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'holo', size: 'standard' }
+	],
 
 	name: {
 		en: "Eevee"
