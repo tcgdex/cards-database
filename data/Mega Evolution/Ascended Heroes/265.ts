@@ -17,7 +17,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saboteri",
-	rarity: "Mega attack rare",
+	rarity: "Mega Attack Rare",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Water"],

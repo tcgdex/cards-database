@@ -17,7 +17,7 @@ const card: Card = {
 	},
 
 	illustrator: "DOM",
-	rarity: "Mega attack rare",
+	rarity: "Mega Attack Rare",
 	category: "Pokemon",
 	hp: 370,
 	types: ["Dragon"],

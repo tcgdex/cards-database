@@ -151,7 +151,7 @@
 				"Mega Hyper Rare": {
 					"type": "string"
 				},
-				"Mega attack rare": {
+				"Mega Attack Rare": {
 					"type": "string"
 				}
 			},
@@ -184,7 +184,7 @@
 				"Ultra Rare",
 				"Uncommon",
 				"Mega Hyper Rare",
-				"Mega attack rare"
+				"Mega Attack Rare"
 			],
 			"type": "object"
 		},
