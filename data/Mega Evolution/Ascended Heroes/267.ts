@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [719],
+
 	name: {
 		en: "Mega Diancie ex",
 		fr: "Méga-Diancie-ex",
@@ -15,7 +17,7 @@ const card: Card = {
 	},
 
 	illustrator: "DOM",
-	rarity: "Ultra Rare",
+	rarity: "Mega Attack Rare",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Psychic"],

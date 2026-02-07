@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [478],
+
 	name: {
 		en: "Mega Froslass ex",
 		fr: "Méga-Momartik-ex",
@@ -15,7 +17,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saboteri",
-	rarity: "Ultra Rare",
+	rarity: "Mega Attack Rare",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Water"],
