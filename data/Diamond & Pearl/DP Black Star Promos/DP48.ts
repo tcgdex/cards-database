@@ -21,31 +21,52 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["worlds-2009"],
+			stamp: [{
+				stamp: "worlds",
+				year: 2009
+			}],
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2009","finalist"],
+			stamp: [{
+				stamp: "worlds",
+				year: 2009
+			}, "finalist"],
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2009","quarter-finalist"],
+			stamp: [{
+				stamp: "worlds",
+				year: 2009
+			}, "quarter-finalist"],
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2009","semi-finalist"],
+			stamp: [{
+				stamp: "worlds",
+				year: 2009
+			}, "semi-finalist"],
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2009","staff"],
+			stamp: [{
+				stamp: "worlds",
+				year: 2009
+			}, "staff"],
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2009","top-sixteen"],
+			stamp: [{
+				stamp: "worlds",
+				year: 2009
+			}, "top-sixteen"],
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2009","top-thirty-two"],
+			stamp: [{
+				stamp: "worlds",
+				year: 2009
+			}, "top-thirty-two"],
 		},
 	],
 }
