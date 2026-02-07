@@ -18,12 +18,9 @@ const card: Card = {
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu.\n\nUne seule fois lors du tour de chaque joueur, lorsqu'un joueur attache une carte Énergie de sa main à 1 des Pokémon de son Banc, il retire à ce Pokémon 1 marqueur de dégât."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 277441
