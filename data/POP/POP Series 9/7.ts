@@ -71,12 +71,9 @@ const card: Card = {
 		fr: "Il émet un gargouillis étrange en gonflant ses glandes de poison pour intimider l'ennemi."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 278558,

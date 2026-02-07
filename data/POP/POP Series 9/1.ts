@@ -80,12 +80,9 @@ const card: Card = {
 		fr: "Il vole à la vitesse d'un avion à réaction et ne lâche jamais sa proie."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 278552,

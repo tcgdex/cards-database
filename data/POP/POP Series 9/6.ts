@@ -70,12 +70,9 @@ const card: Card = {
 		en: "It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 278557,

@@ -87,12 +87,10 @@ const card: Card = {
 		en: "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 278554,

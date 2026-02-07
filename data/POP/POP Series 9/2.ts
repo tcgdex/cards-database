@@ -69,12 +69,10 @@ const card: Card = {
 		fr: "Il est né avec le pouvoir incroyable de créer des liens avec n'importe quel Pokémon."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 278553,

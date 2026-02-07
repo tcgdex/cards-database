@@ -79,12 +79,9 @@ const card: Card = {
 		fr: "Il est très coquet et n'oublie jamais de toiletter ses oreilles. Il avance en bonds énergiques."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 278560,

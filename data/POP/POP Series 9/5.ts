@@ -78,12 +78,10 @@ const card: Card = {
 		fr: "Son corps parcouru d'électricité lui permet de prendre le contrôle de certains appareils ménagers."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 278556,
