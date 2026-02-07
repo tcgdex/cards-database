@@ -82,12 +82,10 @@ const card: Card = {
 		en: "It can swim at speeds of 75 mph by jetting seawater through its body. It is the bandit of the sea."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279560,

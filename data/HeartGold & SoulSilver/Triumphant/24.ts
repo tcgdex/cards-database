@@ -83,12 +83,10 @@ const card: Card = {
 		en: "By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279554,

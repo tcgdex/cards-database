@@ -71,12 +71,10 @@ const card: Card = {
 		en: "Its transformation ability is perfect. However, if made to laugh, it can’t maintain its disguise."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279547,

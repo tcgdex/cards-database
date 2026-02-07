@@ -89,12 +89,10 @@ const card: Card = {
 		en: "Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'reverse', size: 'standard' },
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279536,

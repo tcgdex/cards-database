@@ -74,12 +74,10 @@ const card: Card = {
 		en: "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279569,

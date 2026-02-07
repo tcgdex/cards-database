@@ -73,12 +73,10 @@ const card: Card = {
 		en: "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279597,

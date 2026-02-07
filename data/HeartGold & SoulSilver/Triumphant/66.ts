@@ -72,12 +72,10 @@ const card: Card = {
 		en: "Its long tongue, slathered with a gooey saliva, sticks to anything, so it is very useful."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279596,

@@ -85,12 +85,10 @@ const card: Card = {
 		en: "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279564,

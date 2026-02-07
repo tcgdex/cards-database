@@ -72,12 +72,10 @@ const card: Card = {
 		en: "This Pokémon is full of life energy. It continually sheds its skin and grows steadily larger."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279592,

@@ -88,12 +88,10 @@ const card: Card = {
 		en: "As its electric charge amplifies, blue sparks begin to crackle between its horns."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279550,

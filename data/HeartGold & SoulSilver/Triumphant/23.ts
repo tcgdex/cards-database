@@ -83,12 +83,10 @@ const card: Card = {
 		en: "It can perform odd dance steps to influence foes. Its style of dancing became hugely popular overseas."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279553,

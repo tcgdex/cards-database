@@ -79,12 +79,9 @@ const card: Card = {
 	retreat: 1,
 	suffix: "Prime",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279621,

@@ -73,12 +73,10 @@ const card: Card = {
 		en: "Poison oozes from all over its body. It catches and eats small bugs at night that are attracted by light."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279611,

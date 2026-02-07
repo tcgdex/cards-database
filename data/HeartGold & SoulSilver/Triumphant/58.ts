@@ -78,12 +78,10 @@ const card: Card = {
 		en: "Ancient people believed that the pattern on Bronzor’s back contained a mysterious power."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279588,

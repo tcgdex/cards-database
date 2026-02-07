@@ -80,12 +80,9 @@ const card: Card = {
 		en: "The powder on its wings is poisonous if it is dark in hue. If it is light in hue, it causes paralysis."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279541,

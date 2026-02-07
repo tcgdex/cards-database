@@ -86,12 +86,10 @@ const card: Card = {
 		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279565,

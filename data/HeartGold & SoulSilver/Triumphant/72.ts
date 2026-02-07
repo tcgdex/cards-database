@@ -68,12 +68,9 @@ const card: Card = {
 		en: "It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279602,

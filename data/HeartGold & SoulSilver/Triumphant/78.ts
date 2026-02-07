@@ -65,12 +65,10 @@ const card: Card = {
 		en: "Its wings bring cottony clouds to mind. It grooms with springwater and loves to sit on heads."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279608,

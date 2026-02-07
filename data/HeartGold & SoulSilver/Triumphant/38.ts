@@ -81,12 +81,10 @@ const card: Card = {
 		en: "It has space in its throat to store saliva. It can also roll up its tongue and store it in the same spot."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279568,

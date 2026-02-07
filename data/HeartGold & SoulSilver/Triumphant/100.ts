@@ -78,12 +78,9 @@ const card: Card = {
 	retreat: 2,
 	stage: "Basic",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'holo', size: 'standard' }
+	],
 
 	hp: 150,
 

@@ -80,12 +80,9 @@ const card: Card = {
 		en: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279552,

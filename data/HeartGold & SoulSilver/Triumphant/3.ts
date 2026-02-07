@@ -75,12 +75,10 @@ const card: Card = {
 		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'reverse', size: 'standard' },
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279533,

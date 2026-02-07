@@ -65,12 +65,10 @@ const card: Card = {
 		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279613,

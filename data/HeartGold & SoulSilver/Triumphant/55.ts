@@ -70,12 +70,10 @@ const card: Card = {
 		en: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279585,

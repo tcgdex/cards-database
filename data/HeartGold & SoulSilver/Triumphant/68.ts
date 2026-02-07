@@ -82,12 +82,10 @@ const card: Card = {
 		en: "The units at the sides of its body generate antigravity energy to keep it aloft in the air."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279598,

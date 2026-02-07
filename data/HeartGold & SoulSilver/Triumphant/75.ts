@@ -80,12 +80,10 @@ const card: Card = {
 		en: "It uses its horn to feed on envy and malice, or so it’s said. It’s very active at night."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279605,

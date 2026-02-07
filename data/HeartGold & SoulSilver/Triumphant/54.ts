@@ -89,12 +89,10 @@ const card: Card = {
 		en: "The beat of its wings is so powerful that it accidentally dislodges full-grown trees when it takes off in flight."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279584,

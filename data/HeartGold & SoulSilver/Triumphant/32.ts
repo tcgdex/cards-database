@@ -82,12 +82,10 @@ const card: Card = {
 		en: "Its crystalline orbs appear to give this Pokémon the power to freely control the weather."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279562,

@@ -80,12 +80,10 @@ const card: Card = {
 		en: "Even though it is filled with acid, it does not melt because it also oozes a protective fluid."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279583,

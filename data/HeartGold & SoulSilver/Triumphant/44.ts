@@ -89,12 +89,10 @@ const card: Card = {
 		en: "It has been seen pounding boulders with the bone it carries in order to tap out messages to others."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279574,

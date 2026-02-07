@@ -88,12 +88,10 @@ const card: Card = {
 		en: "It attacks people and Pokémon that cross the desert. This has only furthered its bad reputation."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'reverse', size: 'standard' },
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279534,

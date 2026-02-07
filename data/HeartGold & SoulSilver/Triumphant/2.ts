@@ -89,12 +89,10 @@ const card: Card = {
 		en: "It flies gracefully through the sky. Its melodic humming makes you feel like you’re in a dream."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'reverse', size: 'standard' },
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279532,

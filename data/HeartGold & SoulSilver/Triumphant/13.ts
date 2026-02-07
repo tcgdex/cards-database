@@ -82,12 +82,10 @@ const card: Card = {
 		en: "They live on large trees. They are said to communicate by connecting their tails to those of others."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279543,

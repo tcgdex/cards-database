@@ -82,12 +82,10 @@ const card: Card = {
 		en: "In battle, it extends all 80 of its tentacles to entrap its opponent inside a poisonous net."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279580,

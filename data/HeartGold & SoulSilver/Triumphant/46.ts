@@ -79,12 +79,10 @@ const card: Card = {
 		en: "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279576,

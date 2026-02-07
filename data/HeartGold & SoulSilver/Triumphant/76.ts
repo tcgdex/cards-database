@@ -59,12 +59,10 @@ const card: Card = {
 		en: "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279606,

@@ -57,12 +57,10 @@ const card: Card = {
 		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279607,

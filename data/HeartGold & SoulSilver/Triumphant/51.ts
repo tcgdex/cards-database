@@ -70,12 +70,10 @@ const card: Card = {
 		en: "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279581,

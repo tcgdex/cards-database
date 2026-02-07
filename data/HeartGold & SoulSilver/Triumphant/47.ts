@@ -86,12 +86,10 @@ const card: Card = {
 		en: "It renders its prey immobile using well-developed claws, then carries the prey more than 60 miles to its nest."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279577,

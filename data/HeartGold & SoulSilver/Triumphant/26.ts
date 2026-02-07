@@ -82,12 +82,10 @@ const card: Card = {
 		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279556,

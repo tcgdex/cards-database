@@ -78,12 +78,10 @@ const card: Card = {
 		en: "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279566,

@@ -72,12 +72,10 @@ const card: Card = {
 		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279555,

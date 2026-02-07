@@ -78,12 +78,10 @@ const card: Card = {
 		en: "It has a calm and caring nature. Because its horn grows slowly, it prefers not to fight."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279575,

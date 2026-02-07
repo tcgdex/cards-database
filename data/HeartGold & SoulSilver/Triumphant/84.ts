@@ -78,12 +78,10 @@ const card: Card = {
 		en: "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279614,

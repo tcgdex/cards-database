@@ -81,12 +81,10 @@ const card: Card = {
 		en: "At full gallop, its four hooves barely touch the ground because it moves so incredibly fast."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'reverse', size: 'standard' },
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279538,

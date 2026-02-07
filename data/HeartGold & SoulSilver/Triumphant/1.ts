@@ -92,12 +92,9 @@ const card: Card = {
 		en: "You can tell its age by the length of its iron horns. It claims an entire mountain as its territory."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279531,

@@ -74,12 +74,10 @@ const card: Card = {
 		en: "Its fragrance attracts a swarm of Volbeat, so they draw over 200 patterns in the night sky."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279594,

@@ -92,12 +92,10 @@ const card: Card = {
 		en: "This marine Pokémon has an impressive build that lets it freely fly over raging seas without trouble."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279548,

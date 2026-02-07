@@ -70,12 +70,10 @@ const card: Card = {
 		en: "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279589,

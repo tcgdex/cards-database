@@ -84,12 +84,10 @@ const card: Card = {
 		en: "The Magnemite are united by a magnetism so powerful, it dries all moisture in its vicinity."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279573,

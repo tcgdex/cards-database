@@ -81,12 +81,10 @@ const card: Card = {
 		en: "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error…"
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'reverse', size: 'standard' },
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279537,

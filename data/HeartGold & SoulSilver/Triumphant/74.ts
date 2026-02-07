@@ -57,12 +57,9 @@ const card: Card = {
 		en: "It has mystical powers but doesn’t recall that it has used them. That is why it always looks puzzled."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279604,

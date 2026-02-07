@@ -74,12 +74,10 @@ const card: Card = {
 		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'reverse', size: 'standard' },
+		{ type: 'holo', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279539,

@@ -64,12 +64,10 @@ const card: Card = {
 		en: "Its body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279593,

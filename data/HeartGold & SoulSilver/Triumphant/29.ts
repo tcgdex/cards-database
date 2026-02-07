@@ -90,12 +90,10 @@ const card: Card = {
 		en: "It spreads its beautiful wings wide to frighten its enemies. It can fly at Mach 2 speed."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279559,

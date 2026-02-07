@@ -76,12 +76,10 @@ const card: Card = {
 		en: "It emits light from its tail to communicate. It loves the sweet aroma given off by Illumise."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279612,

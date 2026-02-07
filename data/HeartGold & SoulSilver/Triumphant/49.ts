@@ -80,12 +80,9 @@ const card: Card = {
 		en: "Further research enhanced its abilities. Sometimes, it may exhibit motions that were not programmed."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279579,

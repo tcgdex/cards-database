@@ -75,12 +75,10 @@ const card: Card = {
 		en: "It bounces playfully like a ball. The more seawater it swallows, the higher it bounces."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279582,

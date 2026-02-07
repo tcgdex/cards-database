@@ -77,12 +77,10 @@ const card: Card = {
 		en: "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' },
+		{ type: 'reverse', size: 'standard' }
+	],
 
 	thirdParty: {
 		cardmarket: 279601,
