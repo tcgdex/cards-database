@@ -26,12 +26,9 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' }
+	],
 
 	name: {
 		en: "Tepig",
