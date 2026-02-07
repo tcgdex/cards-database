@@ -152,7 +152,7 @@ export interface Set {
 	releaseDate: ISODate | Languages<ISODate>
 
 	thirdParty?: {
-		cardmarket?: number
+		cardmarket?: number | Array<number>
 		tcgplayer?: number
 	}
 }
