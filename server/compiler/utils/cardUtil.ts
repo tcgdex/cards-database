@@ -8,17 +8,26 @@ import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, reso
 import { objectMap, objectPick } from '@dzeio/object-util'
 import { variant_detailed } from "../../public/v2/api";
 
-export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
+export async function getCardPictures(
+	cardId: string,
+	card: Card,
+	lang: SupportedLanguages,
+	index?: number
+): Promise<string | undefined> {
 	try {
-		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
-		const fileExists = Boolean(file[lang]?.[card.set.serie.id]?.[card.set.id]?.[cardId])
-		if (fileExists) {
-			return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`
+		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json');
+		const exists = index !== undefined
+			? Boolean(file[lang]?.[card.set.serie.id]?.[card.set.id]?.[`${cardId}-{index}`])
+			: Boolean(file[lang]?.[card.set.serie.id]?.[card.set.id]?.[cardId]);
+		if (exists) {
+			return index !== undefined
+				? `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}-${index}`
+				: `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`;
 		}
 	} catch {
-		return undefined
+		return undefined;
 	}
-	return undefined
+	return undefined;
 }
 
 export async function cardToCardSimple(id: string, card: Card, lang: SupportedLanguages): Promise<CardResume> {
@@ -100,18 +109,21 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
 		},
 
-		variants_detailed: Array.isArray(card.variants) ? card.variants?.map((variant) => {
-			return {
+		variants_detailed: Array.isArray(card.variants)
+			? await Promise.all(card.variants.map(async (variant, index) => ({
 				type: translate('variantType', variant.type, lang) as any,
 				subtype: translate('variantSubtype', variant.subtype, lang) as any,
-				// only include size when it's not standard
-				size: variant.size && variant.size !== 'standard' ? translate('variantSize', variant.size, lang) as any : translate('variantSize', "standard", lang) as any,
-				stamp: variant.stamp ? variant.stamp.map((stamp) => {
-					return translate('variantStamp', stamp, lang)
-				}) : undefined,
-				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
-			}
-		}) : variantsToVariantsDetailed(card.variants,lang),
+				size: variant.size && variant.size !== 'standard'
+					? translate('variantSize', variant.size, lang) as any
+					: translate('variantSize', "standard", lang) as any,
+				stamp: variant.stamp
+					? variant.stamp.map((stamp) => translate('variantStamp', stamp, lang))
+					: undefined,
+				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined,
+				thirdParty: variant.thirdParty,
+				image: await getCardPictures(localId, card, lang, index)
+			})))
+			: variantsToVariantsDetailed(card.variants, lang),
 
 		dexId: card.dexId,
 		hp: card.hp,
