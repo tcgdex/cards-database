@@ -6,12 +6,9 @@ const card: Card = {
 		255,
 	],
 	set: Set,
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{ type: 'normal', size: 'standard' }
+	],
 	name: {
 		en: "Torchic",
 		fr: "Poussifeu",
