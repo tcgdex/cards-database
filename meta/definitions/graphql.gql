@@ -326,6 +326,8 @@ type DetailedVariants {
 	subtype: String
 	"""The size of the card, e.g., 'standard', 'jumbo', etc."""
 	size: String!
+
+	# FIXME: rename to 'stamps' on v3
 	"""Any stamps the variant may have, e.g., '1st-edition', 'Staff', etc."""
 	stamp: [String]
 	"""The type of foil"""
