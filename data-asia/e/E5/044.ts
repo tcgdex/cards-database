@@ -48,7 +48,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamps: ["1st Edition"],
+			stamp: ["1st Edition"],
 		},
 	],
 };

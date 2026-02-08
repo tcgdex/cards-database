@@ -327,7 +327,7 @@ type DetailedVariants {
 	"""The size of the card, e.g., 'standard', 'jumbo', etc."""
 	size: String!
 	"""Any stamps the variant may have, e.g., '1st-edition', 'Staff', etc."""
-	stamps: [String]
+	stamp: [String]
 	"""The type of foil"""
 	foil: String
 }
