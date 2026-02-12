@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Vullaby"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

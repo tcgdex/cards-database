@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Blitzle"
 	},
 
+	illustrator: "Mugi Hamada",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

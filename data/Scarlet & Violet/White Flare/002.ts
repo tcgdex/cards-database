@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Swadloon"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

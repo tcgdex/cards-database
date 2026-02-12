@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cofagrigus"
 	},
 
+	illustrator: "Haru Akasaka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,

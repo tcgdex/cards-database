@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Stage1",
+	dexId: [210],
 
 	attacks: [{
 		cost: ["Psychic", "Colorless"],
@@ -62,6 +63,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857613

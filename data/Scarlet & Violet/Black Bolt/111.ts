@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cryogonal"
 	},
 
+	illustrator: "rika",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

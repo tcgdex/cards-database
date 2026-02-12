@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Brazalete Valiente"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 

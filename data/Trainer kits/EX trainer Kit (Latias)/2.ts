@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Combusken"
+		en: "Combusken",
+		fr: "Galifeu"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,6 +22,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Torchic",
+		fr: "Poussifeu"
 	},
 
 	attacks: [{
@@ -28,7 +30,8 @@ const card: Card = {
 			"Fire",
 		],
 		name: {
-			en: "Flare"
+			en: "Flare",
+			fr: "Intimidation"
 		},
 		damage: 20
 	}, {
@@ -38,10 +41,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Double Kick"
+			en: "Double Kick",
+			fr: "Double pied"
 		},
 		effect: {
-			en: "Flip 2 coins. This attack does 40 damage times the number of heads."
+			en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
+			fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de face."
 		},
 		damage: "40×"
 	}],

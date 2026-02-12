@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tynamo",
+		fr: "Anchwatt"
 	},
 
 	stage: "Stage1",
@@ -39,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				fr: "Coup d'Boule"
 			},
 
 			damage: 20,
@@ -52,9 +54,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shock Bolt",
+				fr: "Choc'Éclair"
 			},
 			effect: {
 				en: "Discard all Lightning Energy attached to this Pokémon.",
+				fr: "Défaussez toutes les Énergies  attachées à ce Pokémon."
 			},
 			damage: 80,
 

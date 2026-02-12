@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pidove"
 	},
 
+	illustrator: "Tomomi Ozaki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

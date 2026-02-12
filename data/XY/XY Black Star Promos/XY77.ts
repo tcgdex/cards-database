@@ -46,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Time Freeze",
+				fr: "Gel Temporel"
 			},
 			effect: {
 				en: "Your opponent can't play any Pokémon from his or her hand to evolve the Defending Pokémon during his or her next turn.",
+				fr: "Votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer le Pokémon Défenseur pendant son prochain tour."
 			},
 			damage: 80,
 

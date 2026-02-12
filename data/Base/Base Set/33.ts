@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Kakuna",
 		fr: "Coconfort",
-		de: "Kokuna"
+		de: "Kokuna",
+		it: "Kakuna"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weedle",
+		it: "Weedle"
 	},
 
 	stage: "Stage1",
@@ -38,12 +40,15 @@ const card: Card = {
 			name: {
 				en: "Stiffen",
 				fr: "Armure",
-				de: "Härtner"
+				de: "Härtner",
+				it: "Indurimento"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Coconfort pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Kokuna während des nächsten Zugs Deines Gegners zugefüght wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt)."
+				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Kokuna während des nächsten Zugs Deines Gegners zugefüght wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt).",
+				it: "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Kakuna durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi.)"
+				
 			},
 
 		},
@@ -55,12 +60,14 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre Toxik",
-				de: "Giftpuder"
+				de: "Giftpuder",
+				it: "Velenpolvere"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet."
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato."
 			},
 			damage: 20,
 
@@ -75,7 +82,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Incapable de se déplacer de lui-même, il se défend en durcissant sa carapace."
+		fr: "Incapable de se déplacer de lui-même, il se défend en durcissant sa carapace.",
+		it: "Dato che non ha molta libertà di movimento, questo Pokémon può proteggersi contro i predatori solo indurendo la sua corazza. LIV 23 N.14"
 	},
 
 	thirdParty: {

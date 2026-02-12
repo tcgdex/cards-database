@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 360,
 	types: ["Fire"],
 	stage: "Stage2",
+	dexId: [6],
 
 	attacks: [{
 		cost: ["Fire", "Fire"],
@@ -48,6 +49,12 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857705

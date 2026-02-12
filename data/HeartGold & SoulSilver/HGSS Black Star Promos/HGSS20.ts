@@ -4,6 +4,7 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Entei",
+		fr: "Entei"
 	},
 	illustrator: "Yuri Umemura",
 	rarity: "Common",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare Blitz",
+				fr: "Boutefeu"
 			},
 			effect: {
 				en: "Discard all Fire Energy attached to Entei.",
+				fr: "Défaussez toutes les Énergies  attachées à Entei."
 			},
 			damage: 80,
 

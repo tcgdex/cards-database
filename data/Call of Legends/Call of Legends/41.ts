@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Croconaw",
+		fr: "Crocrodil",
 		de: "Tyracroc"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Totodile",
+		fr: "Kaiminus"
 	},
 
 	stage: "Stage1",
@@ -36,6 +38,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
+				fr: "Grosse vague",
 				de: "Wellenplatscher"
 			},
 
@@ -50,10 +53,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Big Bite",
+				fr: "Grosse morsure",
 				de: "Mächtiger Biss"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 50,

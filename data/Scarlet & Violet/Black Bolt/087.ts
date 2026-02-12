@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Snivy"
 	},
 
+	illustrator: "Yoshimi Miyoshi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

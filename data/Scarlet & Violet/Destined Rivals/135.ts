@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Morgrem de Marnie"
 	},
 
+
+	illustrator: "NC Empire",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

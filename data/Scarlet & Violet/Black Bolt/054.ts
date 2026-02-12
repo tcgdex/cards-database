@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Venipede"
 	},
 
+	illustrator: "okayamatakatoshi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

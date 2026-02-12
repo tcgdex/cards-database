@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Cacnea"
+		en: "Cacnea",
+		fr: "Cacnea"
 	},
 
 	stage: "Stage1",
@@ -72,8 +73,9 @@ const card: Card = {
 	illustrator: "DOM",
 
 	thirdParty: {
-		cardmarket: 702303
-	}
+        cardmarket: 702303,
+        tcgplayer: 487836
+    }
 }
 
 export default card

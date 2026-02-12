@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Munna"
 	},
 
+	illustrator: "Eri Kamei",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

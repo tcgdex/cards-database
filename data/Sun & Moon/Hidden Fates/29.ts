@@ -34,9 +34,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Surrender Now",
+				fr: "Rendez-Vous Tous"
 			},
 			effect: {
 				en: "Once during your turn, if this Pokémon is discarded with the effect of Jessie & James, you may have your opponent discard a card from their hand. (They discard that card after the effect of Jessie & James.)",
+				fr: "Une seule fois pendant votre tour, si ce Pokémon est défaussé du fait de l'effet de la carte Jessie et James, vous pouvez demander à votre adversaire de défausser une carte de sa main. (Cette carte est défaussée après l'effet de Jessie et James.)"
 			},
 		},
 	],

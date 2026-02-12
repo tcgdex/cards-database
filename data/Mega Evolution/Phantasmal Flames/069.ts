@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 150,
 	types: ["Darkness"],
 	stage: "Basic",
+	dexId: [890],
 
 	attacks: [{
 		cost: ["Darkness", "Darkness"],
@@ -72,6 +73,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857644

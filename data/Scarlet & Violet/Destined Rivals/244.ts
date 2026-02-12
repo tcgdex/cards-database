@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Ciudad Leudal"
 	},
 
+
+	illustrator: "MARINA Chikazawa",
+
 	rarity: "Hyper rare",
 	category: "Trainer",
 

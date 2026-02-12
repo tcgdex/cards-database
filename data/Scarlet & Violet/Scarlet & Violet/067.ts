@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Mareep"
+		en: "Mareep",
+		fr: "Wattouat"
 	},
 
 	stage: "Stage1",
@@ -72,8 +73,9 @@ const card: Card = {
 	illustrator: "Kurata So",
 
 	thirdParty: {
-		cardmarket: 702363
-	}
+        cardmarket: 702363,
+        tcgplayer: 487920
+    }
 }
 
 export default card

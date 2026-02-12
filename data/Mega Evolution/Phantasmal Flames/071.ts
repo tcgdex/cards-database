@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Metal"],
 	stage: "Basic",
+	dexId: [436],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -60,6 +61,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857646

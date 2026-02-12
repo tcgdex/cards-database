@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rotom Podadora"
 	},
 
+	illustrator: "Rianti Hidayat",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

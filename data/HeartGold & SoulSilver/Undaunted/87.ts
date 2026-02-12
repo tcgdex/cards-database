@@ -14,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	dexId: [
-		382,
+		382, // Kyogre
+		383, // Groudon
 	],
 
 	hp: 150,

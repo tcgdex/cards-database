@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 270,
 	types: ["Psychic"],
 	stage: "Basic",
+	dexId: [719],
 
 	abilities: [{
 		type: "Ability",
@@ -72,6 +73,12 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857616

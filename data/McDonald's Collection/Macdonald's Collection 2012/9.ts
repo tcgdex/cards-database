@@ -14,13 +14,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Knock Off"
+			en: "Knock Off",
+			fr: "Sabotage"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If heads, discard a random card from your opponent’s hand."
+			en: "Flip a coin. If heads, discard a random card from your opponent’s hand.",
+			fr: "Lancez une pièce. Si c'est face, défaussez au hasard une carte de la main de votre adversaire."
 		}
 	}],
 
@@ -32,7 +34,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Purrloin"
+		en: "Purrloin",
+		fr: "Chacripan"
 	},
 
 	rarity: "None",

@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 150,
 	types: ["Fighting"],
 	stage: "Stage2",
+	dexId: [330],
 
 	abilities: [{
 		type: "Ability",
@@ -62,6 +63,12 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857676

@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Water"],
 	stage: "Basic",
+	dexId: [245],
 
 	attacks: [{
 		cost: ["Water", "Water"],
@@ -48,6 +49,27 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["eb-games"]
+		},
+		{
+			type: "holo",
+			stamp: ["gamestop"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857601

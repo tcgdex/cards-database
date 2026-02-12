@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Houndour del Equipo Rocket"
 	},
 
+	illustrator: "Krgc",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

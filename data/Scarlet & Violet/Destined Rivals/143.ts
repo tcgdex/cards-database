@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Beldum de Steven"
 	},
 
+
+	illustrator: "Takeshi Nakamura",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

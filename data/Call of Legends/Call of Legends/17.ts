@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Ninetales",
+		fr: "Feunard",
 		de: "Vulnona"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vulpix",
+		fr: "Goupix"
 	},
 
 	stage: "Stage1",
@@ -33,10 +35,12 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Roast Reveal",
+				fr: "Rôtir",
 				de: "Bratblick"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie . Dans ce cas, piochez 3 cartes. Ce pouvoir ne peut pas être utilisé si Feunard est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten. Diese Poké-Power kann nicht benutzt werden, wenn Vulnona von einem Speziellen Zustand betroffen ist."
 			},
 		},
@@ -51,6 +55,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Will-o'-the-wisp",
+				fr: "Feu follet",
 				de: "Irrlicht"
 			},
 

@@ -14,14 +14,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp"
+			en: "Will-O-Wisp",
+			fr: "Feu Follet"
 		},
 
 		damage: 20
 	}],
 
 	name: {
-		en: "Fennekin"
+		en: "Fennekin",
+		fr: "Feunnec"
 	},
 
 	rarity: "None",

@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Water"],
 	stage: "Stage1",
+	dexId: [87],
 
 	abilities: [{
 		type: "Ability",
@@ -72,6 +73,12 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857672

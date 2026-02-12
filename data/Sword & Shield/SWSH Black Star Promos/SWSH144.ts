@@ -32,11 +32,13 @@ const card: Card = {
 		type: "Poke-POWER",
 
 		name: {
-			en: "Shadow Knife"
+			en: "Shadow Knife",
+			fr: "Poignard Ombre"
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand onto your Bench during your turn, you may put 1 damage counter on 1 of your opponent's Pokémon."
+			en: "When you play this Pokémon from your hand onto your Bench during your turn, you may put 1 damage counter on 1 of your opponent's Pokémon.",
+			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez placer un marqueur de dégâts sur l'un des Pokémon de votre adversaire."
 		}
 	}],
 

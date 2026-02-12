@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Metang"
+		en: "Metang",
+		fr: "Metang"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -21,6 +22,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Beldum",
+		fr: "Terhal"
 	},
 
 	attacks: [{
@@ -29,10 +31,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Psychic Boom"
+			en: "Psychic Boom",
+			fr: "Psycho-boom"
 		},
 		effect: {
-			en: "Does 10 damage plus 10 more damage for each Energy attached to the Defending Pokémon."
+			en: "Does 10 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
+			fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
 		},
 		damage: "10+"
 	}, {
@@ -42,10 +46,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Quick Blow"
+			en: "Quick Blow",
+			fr: "Coup d'poing éclair"
 		},
 		effect: {
-			en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
+			en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
 		},
 		damage: "40+"
 	}],

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tynamo"
 	},
 
+	illustrator: "Jerky",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,

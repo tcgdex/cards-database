@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 	stage: "Stage1",
+	dexId: [221],
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
@@ -62,6 +63,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857599

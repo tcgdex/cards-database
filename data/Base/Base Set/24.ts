@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Charmeleon",
 		fr: "Reptincel",
-		de: "Glutexo"
+		de: "Glutexo",
+		it: "Charmeleon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmander",
+		it: "Charmander"
 	},
 
 	stage: "Stage1",
@@ -39,7 +41,8 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
-				de: "Schlitzer"
+				de: "Schlitzer",
+				it: "Lacerazione"
 			},
 
 			damage: 30,
@@ -54,12 +57,14 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-flamme",
-				de: "Flammenwurf"
+				de: "Flammenwurf",
+				it: "Lanciafiamme"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Charmeleon in order to use this attack.",
 				fr: "Défaussez 1 carte Énergie  attachée à Reptincel pour pouvoir utiliser cette attaque.",
-				de: "Entferne eine auf Glutexo abgelegte  Energiekarte, um diesen Angriff auszuführen."
+				de: "Entferne eine auf Glutexo abgelegte  Energiekarte, um diesen Angriff auszuführen.",
+				it: "Scarta una carta Energia Fuoco assegnata a Charmeleon per poter usare questo attacco."
 			},
 			damage: 50,
 
@@ -93,7 +98,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "En agitant sa queue, il peut élever le niveau de la température à un degré incroyable."
+		fr: "En agitant sa queue, il peut élever le niveau de la température à un degré incroyable.",
+		it: "Quando rotea la coda incandescente, aumenta la temperatura a livelli insopportabilmente alti. LIV 32 N.5"
 	},
 
 	thirdParty: {

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pignite"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

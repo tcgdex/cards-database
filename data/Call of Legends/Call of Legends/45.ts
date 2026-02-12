@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Jolteon",
+		fr: "Voltali",
 		de: "Blitza"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	stage: "Stage1",
@@ -35,10 +37,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
+				fr: "Hâte",
 				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Jolteon during your opponent's next turn.",
+				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à Voltali pendant le prochain tour de votre adversaire.",
 				de: "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Blitza zugefügt werden."
 			},
 			damage: 20,
@@ -52,6 +56,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mach Bolt",
+				fr: "Éclair fulgurant",
 				de: "Flotter Sprung"
 			},
 

@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Sandile"
+		en: "Sandile",
+		fr: "Mascaïman"
 	},
 
 	stage: "Stage1",
@@ -76,8 +77,9 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 702412
-	}
+        cardmarket: 702412,
+        tcgplayer: 488005
+    }
 }
 
 export default card

@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Ceniza Sagrada"
 	},
 
+
+	illustrator: "Eske Yoshinob",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

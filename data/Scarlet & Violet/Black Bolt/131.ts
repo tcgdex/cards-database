@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Landorus"
 	},
 
+	illustrator: "SIE NANAHARA",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,

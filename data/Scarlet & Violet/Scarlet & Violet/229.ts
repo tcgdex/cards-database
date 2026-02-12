@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Shuppet"
+		en: "Shuppet",
+		fr: "Polichombr"
 	},
 
 	stage: "Stage1",
@@ -82,8 +83,9 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 
 	thirdParty: {
-		cardmarket: 702384
-	}
+        cardmarket: 702525,
+        tcgplayer: 490087
+    }
 }
 
 export default card

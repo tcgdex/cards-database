@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Electivire ex"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 280,

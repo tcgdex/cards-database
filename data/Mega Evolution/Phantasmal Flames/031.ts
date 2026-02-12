@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Lightning"],
 	stage: "Stage1",
+	dexId: [836],
 
 	attacks: [{
 		cost: ["Lightning", "Colorless"],
@@ -48,6 +49,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857606

@@ -9,11 +9,15 @@ const card: Card = {
 		pt: "Oddish"
 	},
 
+
+	illustrator: "Miranda Branley",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
+	dexId: [43],
 
 	attacks: [
 		{

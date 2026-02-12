@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Jellicent ex"
 	},
 
+	illustrator: "Narano",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 270,

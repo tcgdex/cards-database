@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Mandibuzz"
 	},
 
+	illustrator: "Bun Toujo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,

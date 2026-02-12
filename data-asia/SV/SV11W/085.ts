@@ -14,16 +14,23 @@ const card: Card = {
 		ja: "自分の山札から進化ポケモンとエネルギーを1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。 サポートは、自分の番に1枚しか使えない。",
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+	],
 
 	trainerType: "Supporter",
 	regulationMark: "I",
 	rarity: "Uncommon",
+	thirdParty: {
+		cardmarket: 829088,
+		tcgplayer: 636638,
+	},
 };
 
 export default card;

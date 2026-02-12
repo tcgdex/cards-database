@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Simisear"
 	},
 
+	illustrator: "Julie Hang",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

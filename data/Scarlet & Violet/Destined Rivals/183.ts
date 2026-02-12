@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Yanma"
 	},
 
+
+	illustrator: "Ayako Ozaki",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

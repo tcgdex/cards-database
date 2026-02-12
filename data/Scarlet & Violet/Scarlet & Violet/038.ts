@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Crocalor"
+		en: "Crocalor",
+		fr: "Crocogril"
 	},
 
 	stage: "Stage2",
@@ -82,8 +83,9 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	thirdParty: {
-		cardmarket: 702333
-	}
+        cardmarket: 702333,
+        tcgplayer: 487879
+    }
 }
 
 export default card

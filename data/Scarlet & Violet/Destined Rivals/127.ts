@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Murkrow del Equipo Rocket"
 	},
 
+
+	illustrator: "Mugi Hamada",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

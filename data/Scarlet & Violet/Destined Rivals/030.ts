@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rapidash"
 	},
 
+	illustrator: "SIE NANAHARA",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 50,
 	types: ["Grass"],
 	stage: "Basic",
+	dexId: [919],
 
 	attacks: [{
 		cost: ["Grass"],
@@ -48,6 +49,12 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857671

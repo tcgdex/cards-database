@@ -45,8 +45,9 @@ const card: Card = {
 	illustrator: "Mizue",
 
 	thirdParty: {
-		cardmarket: 702387
-	}
+        cardmarket: 702387,
+        tcgplayer: 487958
+    }
 }
 
 export default card

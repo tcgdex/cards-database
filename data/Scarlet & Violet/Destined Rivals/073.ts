@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Flaaffy del Equipo Rocket"
 	},
 
+
+	illustrator: "Jerky",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

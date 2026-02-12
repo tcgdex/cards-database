@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Garbodor"
 	},
 
+	illustrator: "Gapao",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,

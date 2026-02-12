@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 150,
 	types: ["Fire"],
 	stage: "Stage1",
+	dexId: [555],
 
 	attacks: [{
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
@@ -48,6 +49,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857591

@@ -14,18 +14,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Act Tough"
+			en: "Act Tough",
+			fr: "Dur à Cuire"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "If this Pokémon has any Darkness Energy attached to it, this attack does 20 more damage."
+			en: "If this Pokémon has any Darkness Energy attached to it, this attack does 20 more damage.",
+			fr: "Si de l'Énergie  est attachée à ce Pokémon, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 
 	name: {
-		en: "Meowth"
+		en: "Meowth",
+		fr: "Miaouss"
 	},
 
 	rarity: "None",

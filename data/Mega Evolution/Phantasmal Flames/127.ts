@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 330,
 	types: ["Darkness"],
 	stage: "Stage1",
+	dexId: [319],
 
 	attacks: [{
 		cost: ["Darkness"],
@@ -72,6 +73,12 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 857702
