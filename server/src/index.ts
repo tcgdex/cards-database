@@ -121,7 +121,7 @@ if (cluster.isPrimary) {
 
 	// simple endpoint for monitoring
 	server.get('/ping', (_, res) => {
-		res.status(200).end()
+		res.status(200).json({ ok: true })
 	})
 
 	server.use(express.static('./public'))
