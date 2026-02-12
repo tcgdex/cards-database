@@ -262,7 +262,7 @@ server
 				break
 			case 'dex-ids': {
 				result = {
-					name: id,
+					name: Number.parseInt(id, 10),
 					// @ts-expect-error current behavior is normal
 					cards: (await findCards(lang, { dexId: { $eq: parseInt(id, 10) } }))
 						.map(toBrief)

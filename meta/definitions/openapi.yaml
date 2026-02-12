@@ -618,8 +618,16 @@ paths:
           description: Successful request
           content:
             application/json:
-              schema:
-                $ref: "#/components/schemas/StringEndpoint"
+              type: object
+              properties:
+                name:
+                  type: number
+                  description: The string value this endpoint represents
+                cards:
+                  type: array
+                  description: Cards matching the specific string value
+                  items:
+                    $ref: "#/components/schemas/CardResume"
         "404":
           $ref: "#/components/responses/NotFound"
         "400":
