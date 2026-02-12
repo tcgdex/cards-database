@@ -564,9 +564,7 @@ paths:
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/CardResume"
+                $ref: "#/components/schemas/StringEndpoint"
         "404":
           $ref: "#/components/responses/NotFound"
         "400":
@@ -621,9 +619,7 @@ paths:
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/CardResume"
+                $ref: "#/components/schemas/StringEndpoint"
         "404":
           $ref: "#/components/responses/NotFound"
         "400":
@@ -678,9 +674,7 @@ paths:
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/CardResume"
+                $ref: "#/components/schemas/StringEndpoint"
         "404":
           $ref: "#/components/responses/NotFound"
         "400":
@@ -688,6 +682,54 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
           description: The specified energy-type doesn't exist
+  /random/card:
+    get:
+      summary: Returns a random card
+      parameters:
+        - $ref: "#/components/parameters/sortField"
+      responses:
+        "200":
+          description: Successful request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Card"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+  /random/set:
+    get:
+      summary: Returns a random card
+      parameters:
+        - $ref: "#/components/parameters/sortField"
+      responses:
+        "200":
+          description: Successful request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Set"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+  /random/serie:
+    get:
+      summary: Returns a random card
+      parameters:
+        - $ref: "#/components/parameters/sortField"
+      responses:
+        "200":
+          description: Successful request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Serie"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
   /regulation-marks:
     get:
       tags:
@@ -735,9 +777,7 @@ paths:
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/CardResume"
+                $ref: "#/components/schemas/StringEndpoint"
         "404":
           $ref: "#/components/responses/NotFound"
         "400":
@@ -792,9 +832,7 @@ paths:
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/CardResume"
+                $ref: "#/components/schemas/StringEndpoint"
         "404":
           $ref: "#/components/responses/NotFound"
         "400":
@@ -849,9 +887,7 @@ paths:
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/CardResume"
+                $ref: "#/components/schemas/StringEndpoint"
         "404":
           $ref: "#/components/responses/NotFound"
         "400":
@@ -906,9 +942,7 @@ paths:
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/CardResume"
+                $ref: "#/components/schemas/StringEndpoint"
         "404":
           $ref: "#/components/responses/NotFound"
         "400":
@@ -963,9 +997,7 @@ paths:
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/CardResume"
+                $ref: "#/components/schemas/StringEndpoint"
         "404":
           $ref: "#/components/responses/NotFound"
         "400":
@@ -1597,6 +1629,9 @@ components:
                       description: Average price of the card in the last 30 days, including holographic cards
                       examples:
                         - 1.23
+            effect:
+              type: [string, "null"]
+              description: Card Effect (mostly for trainers & energies)
             illustrator:
               type: [string, "null"]
               description: Artist who illustrated the card

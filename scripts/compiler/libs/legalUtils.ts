@@ -24,3 +24,20 @@ export function cardIsLegal(type: 'standard' | 'expanded', card: { regulationMar
 
 	return false;
 }
+
+/**
+ * Check if a set is currently Legal
+ * @param type the type of legality
+ * @param set the set to check
+ * @returns {boolean} if the set is currently in the legal type
+ */
+export function setIsLegal(type: 'standard' | 'expanded', set: { id: string; serie: { id: string } }): boolean {
+	const legal = legals[type]
+	if (
+		legal.includes.series.includes(set.serie.id) ||
+		legal.includes.sets.includes(set.id)
+	) {
+		return !legal.excludes.sets.includes(set.id)
+	}
+	return false
+}

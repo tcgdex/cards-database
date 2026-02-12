@@ -1,4 +1,4 @@
-import { objectKeys, objectRemap } from '@dzeio/object-util'
+import { objectKeys } from '@dzeio/object-util'
 import type { Card as SDKCard } from '@tcgdex/sdk'
 import apicache from 'apicache'
 import express, { type Request } from 'express'
@@ -6,7 +6,7 @@ import { Errors, sendError } from '../../libs/Errors'
 import type { Query } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { betterSorter, checkLanguage, unique } from '../../util'
-import { getAllCards, findOneCard, findCards, toBrief, getCardById, getCompiledCard } from '../Components/Card'
+import { getAllCards, findOneCard, findCards, toBrief, getCardById } from '../Components/Card'
 import { findOneSet, findSets, setToBrief } from '../Components/Set'
 import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
 import { listSKUs } from '../../libs/providers/tcgplayer'
@@ -24,7 +24,7 @@ type CustomRequest = Request & {
 
 const server = express.Router()
 
-const endpointToField: Record<string, keyof SDKCard> = {
+const endpointToField = {
 	categories: 'category',
 	'energy-types': 'energyType',
 	hp: 'hp',
@@ -41,11 +41,11 @@ const endpointToField: Record<string, keyof SDKCard> = {
 	sets: "set",
 	types: "types",
 	variants: "variants",
-}
+} satisfies Record<string, keyof SDKCard>
 
 server
 	// Midleware that handle caching only in production and on GET requests
-	.use(apicache.middleware('1 hour', (req: CustomRequest, res: Response) => !req.DO_NOT_CACHE && res.status < 400 && process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
+	.use(apicache.middleware('1 hour', (req: CustomRequest, res: any) => !req.DO_NOT_CACHE && res.status < 400 && process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
 
 	// .get('/cache/performance', (req, res) => {
 	// 	res.json(apicache.getPerformance())
@@ -262,7 +262,7 @@ server
 				break
 			case 'dex-ids': {
 				result = {
-					name: parseInt(id, 10),
+					name: id,
 					// @ts-expect-error current behavior is normal
 					cards: (await findCards(lang, { dexId: { $eq: parseInt(id, 10) } }))
 						.map(toBrief)
@@ -270,12 +270,12 @@ server
 				break
 			}
 			default:
-				if (!endpointToField[endpoint]) {
+				if (!(endpoint in endpointToField)) {
 					break
 				}
 				result = {
 					name: id,
-					cards: (await findCards(lang, { [endpointToField[endpoint]]: id }))
+					cards: (await findCards(lang, { [endpointToField[endpoint as 'hp']]: id } as any))
 						.map(toBrief)
 				} satisfies
 					| Response<'/categories/{category}'>
@@ -324,7 +324,7 @@ server
 		switch (endpoint) {
 			case 'cards':
 				if (subid === 'skus') {
-					result = await listSKUs(getCompiledCard(lang, id))
+					result = await listSKUs(await getCardById(lang, id) as any)
 				}
 				break
 			case 'sets':

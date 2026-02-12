@@ -1,19 +1,20 @@
-import type { Serie as SDKSerie, SerieResume, SupportedLanguages } from '@tcgdex/sdk'
+import type { Serie as SDKSerie, SupportedLanguages } from '@tcgdex/sdk'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
 
-import series from '../../../generated/series.json'
+import dataTMP from '../../../generated/series.json'
 import { CompiledSerie } from '../../../../scripts/compiler/interfaces'
 import { objectKeys } from '@dzeio/object-util'
 import { Version } from '../../interfaces'
 import { loadSet } from './Set'
-import Cache from '@cachex/memory'
-import type { Serie } from '../../api'
+import type { Serie, SerieResume, SetResume } from '../../api'
 
 // Compile data subsets
 const list: Record<string, CompiledSerie> = {}
 const langLists: Record<string, Array<CompiledSerie>> = {}
 
-series.forEach((it) => {
+const data = dataTMP as Array<CompiledSerie>
+
+data.forEach((it) => {
 	list[it.id.toLowerCase()] = it
 	objectKeys(it.name).forEach((lang) => {
 		langLists[lang] ??= []
@@ -21,27 +22,22 @@ series.forEach((it) => {
 	})
 })
 
-// setup cache
-const cache = new Cache()
-
-type MappedSerie = any // (typeof en)[number]
-
-export async function getAllSeries(lang: SupportedLanguages, version: Version = 'full'): Promise<Array<SDKSerie>> {
-	return (await Promise.all((langLists[lang] as Array<MappedSerie>).map((it) => loadSerie(it.id, lang, version))))
+export async function getAllSeries(lang: SupportedLanguages, version: Version = 'full'): Promise<Array<Serie>> {
+	return (await Promise.all((langLists[lang]).map((it) => loadSerie(it.id, lang, version))))
 		.filter((it) => !!it)
 }
 
-export async function findSeries(lang: SupportedLanguages, query: Query<SDKSerie>) {
+export async function findSeries(lang: SupportedLanguages, query: Query<Serie>) {
 	return executeQuery(await getAllSeries(lang), query).data
 }
 
 
-export async function loadSerie(id: string, lang: SupportedLanguages, version?: Version): Promise<CompiledSerie | null>
-export async function loadSerie(id: string, lang: SupportedLanguages, version: 'brief'): Promise<SerieResume | null>
-export async function loadSerie(id: string, lang: SupportedLanguages, version: Version = 'full'): Promise<CompiledSerie | SerieResume | null> {
+export async function loadSerie(id: string, lang: SupportedLanguages, version?: Version): Promise<Serie | undefined>
+export async function loadSerie(id: string, lang: SupportedLanguages, version: 'brief'): Promise<SerieResume | undefined>
+export async function loadSerie(id: string, lang: SupportedLanguages, version: Version = 'full'): Promise<Serie | SerieResume | undefined> {
 	const serie = langLists[lang].find((it) => it.id.toLowerCase() === id.toLowerCase())
 	if (!serie) {
-		return null
+		return undefined
 	}
 	const brief = {
 		id: serie.id,
@@ -58,7 +54,7 @@ export async function loadSerie(id: string, lang: SupportedLanguages, version: V
 		// @ts-expect-error
 		lastSet: await loadSet(serie.lastSet, lang, 'brief'),
 		// @ts-expect-error
-		sets: await Promise.all(serie.sets.map((it) => loadSet(it, lang, 'brief')))
+		sets: await Promise.all(serie.sets.map<SetResume>((it) => loadSet(it, lang, 'brief')))
 	} satisfies Serie
 }
 
@@ -70,7 +66,7 @@ export async function findOneSerie(lang: SupportedLanguages, query: Query<SDKSer
 	return res[0]
 }
 
-export function serieToBrief(set: CompiledSerie): SerieResume {
+export function serieToBrief(set: Serie): SerieResume {
 	return {
 		id: set.id,
 		name: set.name,

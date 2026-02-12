@@ -41,6 +41,14 @@ export type CompiledSet = Override<DBSet, {
 	symbol?: string
 	cards: Array<string>
 	releaseDate: Languages
+	legal: {
+		expanded: boolean
+		standard: boolean
+	}
+	boosters: Array<{
+		id: string
+		name: Languages
+	}> | undefined
 }>
 
 export type CompiledSerie = Override<DBSerie, {

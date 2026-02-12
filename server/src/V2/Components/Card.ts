@@ -1,5 +1,5 @@
 import Cache from '@cachex/memory'
-import { objectClean, objectKeys, objectOmit } from '@dzeio/object-util'
+import { objectClean, objectKeys } from '@dzeio/object-util'
 import { SupportedLanguages } from '@tcgdex/sdk'
 import type { Card, CardResume } from '../../api'
 import dataTMP from '../../../generated/cards.json'
@@ -32,10 +32,6 @@ export async function getAllCards(lang: SupportedLanguages, version: Version = '
 		.filter((it) => !!it)
 }
 
-export function getCompiledCard(lang: SupportedLanguages, id: string): any {
-	return list[id.toLowerCase()]
-}
-
 /**
  * Function that do the hard work of loading the card with the external processors
  *
@@ -43,15 +39,15 @@ export function getCompiledCard(lang: SupportedLanguages, id: string): any {
  * @param lang
  * @param id
  */
-export async function loadCard(lang: SupportedLanguages, id: string, version?: 'full'): Promise<Card | null>
-export async function loadCard(lang: SupportedLanguages, id: string, version: 'brief'): Promise<CardResume | null>
-export async function loadCard(lang: SupportedLanguages, id: string, version: 'full' | 'brief' = 'full'): Promise<Card | CardResume | null> {
+export async function loadCard(lang: SupportedLanguages, id: string, version?: 'full'): Promise<Card | undefined>
+export async function loadCard(lang: SupportedLanguages, id: string, version: 'brief'): Promise<CardResume | undefined>
+export async function loadCard(lang: SupportedLanguages, id: string, version: 'full' | 'brief' = 'full'): Promise<Card | CardResume | undefined> {
 	// fucking important to allow users to fetch using IDs in any casing
 	id = id.toLowerCase()
 	if (version === 'brief') {
 		const card = list[id]
 		if (!card) {
-			return null
+			return undefined
 		}
 		return {
 			// resume
@@ -73,7 +69,7 @@ export async function loadCard(lang: SupportedLanguages, id: string, version: 'f
 	// console.time('fetching DB')
 	const card = list[id]
 	if (!card) {
-		return null
+		return undefined
 	}
 	// console.timeEnd('fetching DB')
 
@@ -102,7 +98,7 @@ export async function loadCard(lang: SupportedLanguages, id: string, version: 'f
 		hp: card.hp,
 		types: card.types?.map((it) => it[lang]!),
 		evolveFrom: card.evolveFrom?.[lang],
-		weight: card.weight,
+		// weight: card.weight,
 		description: card.description?.[lang],
 		level: card.level,
 		stage: card.stage?.[lang],
@@ -139,7 +135,7 @@ export async function loadCard(lang: SupportedLanguages, id: string, version: 'f
 
 		updated: card.updated,
 
-		set: await loadSet(card.set, lang, 'brief'),
+		set: (await loadSet(card.set, lang, 'brief'))!,
 
 		pricing: {
 			cardmarket: cardmarket,

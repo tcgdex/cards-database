@@ -2,12 +2,14 @@ import { Set, Serie as DBSerie } from '../../interfaces'
 import { globSync } from 'glob'
 import { extractCached } from '../utils/ts-extract-utils'
 import fs from 'node:fs'
-import { objectClean, objectKeys } from '@dzeio/object-util'
+import { objectClean, objectKeys, objectMap } from '@dzeio/object-util'
 import { getLastEdit } from './providers/git'
 import Queue from '@dzeio/queue'
 import { normalizeLanguages } from './libs/translation'
 import { getAsset, getHashs } from './providers/assets'
 import { CompiledSet } from './interfaces'
+import { setIsLegal } from './libs/legalUtils'
+
 await getHashs()
 type DBSet = Set
 
@@ -44,6 +46,15 @@ for (const file of files) {
 			symbol: await getAsset('univ' as 'en', serie.id, set.id, 'symbol'),
 			cards: cards.map((it) => set.id + '-' + it.slice(it.lastIndexOf('/') + 1, it.lastIndexOf('.'))),
 			releaseDate: normalizeLanguages(set.releaseDate, langs),
+			legal: {
+				expanded: setIsLegal('expanded', set),
+				standard: setIsLegal('standard', set)
+			},
+			boosters: set.boosters ? objectMap(set.boosters, (booster, id) => ({
+				id: `boo_${set.id}-${id}`,
+				name: normalizeLanguages(booster.name, langs),
+				// images will be coming soon...
+			})) : undefined,
 			updated: await getLastEdit(file)
 		}
 
