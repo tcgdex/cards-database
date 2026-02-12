@@ -14,6 +14,7 @@
 		"@types/node": "^20.0.0",
 		"glob": "^10.0.0",
 		"jscodeshift": "^17.3.0",
+		"openapi-typescript": "^7.10.1",
 		"ts-node": "^10.0.0",
 		"typescript": "^5.0.0"
 	}
