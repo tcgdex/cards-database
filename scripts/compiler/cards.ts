@@ -7,6 +7,7 @@ import { getLastEdit } from './providers/git'
 import Queue from '@dzeio/queue'
 import { translate, validateLanguages } from './libs/translation'
 import { getAsset } from './providers/assets'
+import path from 'node:path'
 
 import { getHashs } from './providers/assets'
 import { CompiledCard } from './interfaces'
@@ -34,11 +35,11 @@ queue.start()
 const out: Array<CompiledCard> = []
 for (const file of files) {
 	await queue.add((async () => {
-		const setPath = file.slice(0, file.lastIndexOf('/')) + '.ts'
+		const setPath = file.slice(0, file.lastIndexOf(path.sep)) + '.ts'
 		const card: DBCard = await extractCached(file)
-		const localId = decodeURIComponent(file.slice(file.lastIndexOf('/') + 1, file.lastIndexOf('.')))
+		const localId = decodeURIComponent(file.slice(file.lastIndexOf(path.sep) + 1, file.lastIndexOf('.')))
 		const set: DBSet = await extractCached(setPath)
-		const seriePath = setPath.slice(0, setPath.lastIndexOf('/')) + '.ts'
+		const seriePath = setPath.slice(0, setPath.lastIndexOf(path.sep)) + '.ts'
 		const serie: DBSerie = await extractCached(seriePath)
 
 		const langs = objectKeys(card.name)

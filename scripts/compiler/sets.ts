@@ -9,6 +9,7 @@ import { normalizeLanguages } from './libs/translation'
 import { getAsset, getHashs } from './providers/assets'
 import { CompiledSet } from './interfaces'
 import { setIsLegal } from './libs/legalUtils'
+import path from 'node:path'
 
 await getHashs()
 type DBSet = Set
@@ -31,9 +32,9 @@ queue.start()
 const out: Array<CompiledSet> = []
 for (const file of files) {
 	await queue.add((async () => {
-		const setPath = file.slice(0, file.lastIndexOf('/')) + '.ts'
+		const setPath = file.slice(0, file.lastIndexOf(path.sep)) + '.ts'
 		const set: DBSet = await extractCached(file)
-		const localId = file.slice(file.lastIndexOf('/') + 1, file.lastIndexOf('.'))
+		const localId = file.slice(file.lastIndexOf(path.sep) + 1, file.lastIndexOf('.'))
 		const serie: DBSerie = await extractCached(setPath)
 		const cards = globSync(`{data,data-asia}/{${serie.name.en},${serie.id}}/{${set.name.en},${set.id}}/*.ts`)
 
@@ -44,7 +45,7 @@ for (const file of files) {
 			serie: serie.id,
 			logo: await getAsset(langs, serie.id, set.id, 'logo'),
 			symbol: await getAsset('univ' as 'en', serie.id, set.id, 'symbol'),
-			cards: cards.map((it) => set.id + '-' + it.slice(it.lastIndexOf('/') + 1, it.lastIndexOf('.'))),
+			cards: cards.map((it) => set.id + '-' + it.slice(it.lastIndexOf(path.sep) + 1, it.lastIndexOf('.'))),
 			releaseDate: normalizeLanguages(set.releaseDate, langs),
 			legal: {
 				expanded: setIsLegal('expanded', set),
