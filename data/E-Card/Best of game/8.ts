@@ -10,7 +10,8 @@ const card: Card = {
 
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "None",
-	category: "Pokemon",
+	category: "Pokemon",	
+	types: ["Psychic",],
 	stage: "Basic",
 
 	attacks: [{

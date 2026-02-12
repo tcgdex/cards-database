@@ -13,7 +13,8 @@ const card: Card = {
 		it: "Morpeko V UNIONE",
 		en: "Morpeko V-UNION"
 	},
-
+	
+	types: ["Lightning",],
 	rarity: "None",
 	category: "Pokemon",
 	suffix: "V",

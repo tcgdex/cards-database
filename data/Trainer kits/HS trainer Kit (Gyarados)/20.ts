@@ -17,6 +17,9 @@ const card: Card = {
 	description: {
 		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
 	},
+	
+
+	types: ["Water",],
 
 	stage: "Stage1",
 

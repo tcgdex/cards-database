@@ -16,6 +16,9 @@ const card: Card = {
 	description: {
 		en: "It has the ability to alter the composition of its body to suit its surrounding environment."
 	},
+	
+
+	types: ["Colorless",],
 
 	stage: "Basic",
 

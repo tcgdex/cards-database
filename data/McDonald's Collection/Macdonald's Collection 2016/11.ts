@@ -9,6 +9,9 @@ const card: Card = {
 	description: {
 		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change."
 	},
+	
+
+	types: ["Colorless",],
 
 	stage: "Basic",
 

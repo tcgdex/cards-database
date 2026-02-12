@@ -9,6 +9,9 @@ const card: Card = {
 	description: {
 		en: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
 	},
+	
+
+	types: ["Water",],
 
 	stage: "Basic",
 

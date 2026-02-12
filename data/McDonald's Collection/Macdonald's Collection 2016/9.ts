@@ -9,6 +9,9 @@ const card: Card = {
 	description: {
 		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
 	},
+	
+
+	types: ["Fairy",],
 
 	stage: "Basic",
 

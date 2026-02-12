@@ -17,6 +17,9 @@ const card: Card = {
 	description: {
 		en: "If the electric pouches in its cheeks become fully charged, both ears will stand straight up."
 	},
+	
+
+	types: ["Lightning",],
 
 	stage: "Stage1",
 

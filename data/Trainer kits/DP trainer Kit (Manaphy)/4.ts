@@ -12,7 +12,8 @@ const card: Card = {
 
 	illustrator: "Daisuke Ito",
 	rarity: "None",
-	category: "Pokemon",
+	category: "Pokemon",	
+	types: ["Water",],
 	stage: "Basic",
 
 	hp: 70,

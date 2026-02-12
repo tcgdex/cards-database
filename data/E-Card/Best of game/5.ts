@@ -10,7 +10,8 @@ const card: Card = {
 
 	illustrator: "Katsura Tabata",
 	rarity: "None",
-	category: "Pokemon",
+	category: "Pokemon",	
+	types: ["Darkness",],
 	stage: "Basic",
 
 	attacks: [{

@@ -16,6 +16,9 @@ const card: Card = {
 	description: {
 		en: "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see."
 	},
+	
+
+	types: ["Fighting",],
 
 	stage: "Basic",
 

@@ -10,7 +10,8 @@ const card: Card = {
 
 	illustrator: "Ken Sugimori",
 	rarity: "None",
-	category: "Pokemon",
+	category: "Pokemon",	
+	types: ["Fighting",],
 	stage: "Basic",
 
 	attacks: [{

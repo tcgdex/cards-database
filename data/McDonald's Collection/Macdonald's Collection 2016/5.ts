@@ -9,6 +9,9 @@ const card: Card = {
 	description: {
 		en: "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves."
 	},
+	
+
+	types: ["Water",],
 
 	stage: "Basic",
 

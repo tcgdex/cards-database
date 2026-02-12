@@ -9,6 +9,9 @@ const card: Card = {
 	description: {
 		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit."
 	},
+	
+
+	types: ["Fire",],
 
 	stage: "Basic",
 

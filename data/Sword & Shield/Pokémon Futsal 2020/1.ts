@@ -16,6 +16,9 @@ const card: Card = {
 	description: {
 		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
 	},
+	
+
+	types: ["Lightning",],
 
 	stage: "Basic",
 

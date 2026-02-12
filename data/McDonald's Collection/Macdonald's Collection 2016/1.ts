@@ -9,6 +9,9 @@ const card: Card = {
 	description: {
 		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
 	},
+	
+
+	types: ["Fire",],
 
 	stage: "Basic",
 
