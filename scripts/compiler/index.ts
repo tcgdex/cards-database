@@ -11,3 +11,8 @@ await fs.writeFile("./server/src/openapi.ts", contents)
 await import('./cards')
 await import('./sets')
 await import('./series')
+
+// Finally copy definitions files to the public folder :D
+for await (const file of await fs.readdir('./meta/definitions')) {
+	await fs.copyFile('./meta/definitions/' + file, './server/public/v2/' + file)
+}
