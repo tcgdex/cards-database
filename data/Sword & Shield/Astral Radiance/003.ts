@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [101],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Electrode de Hisui",
 		it: "Electrode di Hisui",
 		pt: "Electrode de Hisui",
-		de: "Hisui-Lektrobal"
+		de: "Hisui-Lektrobal",
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -25,41 +26,44 @@ const card: Card = {
 		es: "Voltorb de Hisui",
 		it: "Voltorb di Hisui",
 		pt: "Voltorb de Hisui",
-		de: "Hisui-Voltobal"
+		de: "Hisui-Voltobal",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			en: "Triple Draw",
-			fr: "Triple Pioche",
-			es: "Triple Robo",
-			it: "Pescata Tripla",
-			pt: "Compra Tripla",
-			de: "Dreifachzug"
-		},
+	attacks: [
+		{
+			name: {
+				en: "Triple Draw",
+				fr: "Triple Pioche",
+				es: "Triple Robo",
+				it: "Pescata Tripla",
+				pt: "Compra Tripla",
+				de: "Dreifachzug",
+			},
 
-		effect: {
-			en: "Draw 3 cards.",
-			fr: "Piochez 3 cartes.",
-			es: "Roba 3 cartas.",
-			it: "Pesca tre carte.",
-			pt: "Compre 3 cartas.",
-			de: "Ziehe 3 Karten."
-		}
-	}, {
-		name: {
-			en: "Irritated Bomb",
-			fr: "Bombe Agacée",
-			es: "Bomba Enojada",
-			it: "Irritabomba",
-			pt: "Bomba Irritada",
-			de: "Gereizte Bombe"
+			effect: {
+				en: "Draw 3 cards.",
+				fr: "Piochez 3 cartes.",
+				es: "Roba 3 cartas.",
+				it: "Pesca tre carte.",
+				pt: "Compre 3 cartas.",
+				de: "Ziehe 3 Karten.",
+			},
 		},
+		{
+			name: {
+				en: "Irritated Bomb",
+				fr: "Bombe Agacée",
+				es: "Bomba Enojada",
+				it: "Irritabomba",
+				pt: "Bomba Irritada",
+				de: "Gereizte Bombe",
+			},
 
-		damage: 50
-	}],
+			damage: 50,
+		},
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -68,13 +72,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658489,
-		tcgplayer: 272203
-	}
-}
+		tcgplayer: 272203,
+	},
+};
 
-export default card
+export default card;

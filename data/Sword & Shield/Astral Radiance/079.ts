@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [449],
@@ -11,42 +11,46 @@ const card: Card = {
 		es: "Hippopotas",
 		it: "Hippopotas",
 		pt: "Hippopotas",
-		de: "Hippopotas"
+		de: "Hippopotas",
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Fighting", "Colorless"],
+	attacks: [
+		{
+			cost: ["Fighting", "Colorless"],
 
-		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Tapa de Lama",
-			de: "Lehmschelle"
+			name: {
+				en: "Mud-Slap",
+				fr: "Coud'Boue",
+				es: "Bofetón Lodo",
+				it: "Fangosberla",
+				pt: "Tapa de Lama",
+				de: "Lehmschelle",
+			},
+
+			damage: 30,
 		},
+		{
+			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 
-		damage: 30
-	}, {
-		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+			name: {
+				en: "Rolling Tackle",
+				fr: "Roulé-Boulé",
+				es: "Placaje Giro",
+				it: "Rollazione",
+				pt: "Golpe de Colisão Rolante",
+				de: "Rolltackle",
+			},
 
-		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
-			de: "Rolltackle"
+			damage: 90,
 		},
-
-		damage: 90
-	}],
+	],
 
 	retreat: 4,
 	regulationMark: "F",
@@ -55,13 +59,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658686,
-		tcgplayer: 272280
-	}
-}
+		tcgplayer: 272280,
+	},
+};
 
-export default card
+export default card;

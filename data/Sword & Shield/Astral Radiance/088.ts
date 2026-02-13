@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [211],
@@ -11,42 +11,46 @@ const card: Card = {
 		es: "Qwilfish de Hisui",
 		it: "Qwilfish di Hisui",
 		pt: "Qwilfish de Hisui",
-		de: "Hisui-Baldorfish"
+		de: "Hisui-Baldorfish",
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Colorless"],
+	attacks: [
+		{
+			cost: ["Colorless"],
 
-		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			name: {
+				en: "Ram",
+				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme",
+			},
+
+			damage: 10,
 		},
+		{
+			cost: ["Darkness", "Colorless"],
 
-		damage: 10
-	}, {
-		cost: ["Darkness", "Colorless"],
+			name: {
+				en: "Rolling Tackle",
+				fr: "Roulé-Boulé",
+				es: "Placaje Giro",
+				it: "Rollazione",
+				pt: "Golpe de Colisão Rolante",
+				de: "Rolltackle",
+			},
 
-		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
-			de: "Rolltackle"
+			damage: 30,
 		},
-
-		damage: 30
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -55,13 +59,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658709,
-		tcgplayer: 272289
-	}
-}
+		tcgplayer: 272289,
+	},
+};
 
-export default card
+export default card;

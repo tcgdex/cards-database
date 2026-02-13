@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [217],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Ursaring",
 		it: "Ursaring",
 		pt: "Ursaring",
-		de: "Ursaring"
+		de: "Ursaring",
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
@@ -25,47 +26,50 @@ const card: Card = {
 		es: "Teddiursa",
 		it: "Teddiursa",
 		pt: "Teddiursa",
-		de: "Teddiursa"
+		de: "Teddiursa",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Colorless"],
+	attacks: [
+		{
+			cost: ["Colorless"],
 
-		name: {
-			en: "Continuous Slap",
-			fr: "Gifles Sans Fin",
-			es: "Bofetón Incesante",
-			it: "Sberla Infinita",
-			pt: "Tapa Contínuo",
-			de: "Dauerhieb"
+			name: {
+				en: "Continuous Slap",
+				fr: "Gifles Sans Fin",
+				es: "Bofetón Incesante",
+				it: "Sberla Infinita",
+				pt: "Tapa Contínuo",
+				de: "Dauerhieb",
+			},
+
+			effect: {
+				en: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
+				fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
+				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
+				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
+				pt: "Jogue 1 moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara.",
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu.",
+			},
+
+			damage: "40×",
 		},
+		{
+			cost: ["Colorless", "Colorless", "Colorless"],
 
-		effect: {
-			en: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
-			pt: "Jogue 1 moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara.",
-			de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
+			name: {
+				en: "Strength",
+				fr: "Force",
+				es: "Fuerza",
+				it: "Forza",
+				pt: "Força",
+				de: "Stärke",
+			},
+
+			damage: 100,
 		},
-
-		damage: "40×"
-	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
-
-		name: {
-			en: "Strength",
-			fr: "Force",
-			es: "Fuerza",
-			it: "Forza",
-			pt: "Força",
-			de: "Stärke"
-		},
-
-		damage: 100
-	}],
+	],
 
 	retreat: 3,
 	regulationMark: "F",
@@ -74,13 +78,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658784,
-		tcgplayer: 272360
-	}
-}
+		tcgplayer: 272360,
+	},
+};
 
-export default card
+export default card;

@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [889],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Zamazenta V",
 		it: "Zamazenta V",
 		pt: "Zamazenta V",
-		de: "Zamazenta V"
+		de: "Zamazenta V",
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 230,
@@ -21,51 +22,55 @@ const card: Card = {
 	stage: "Basic",
 	suffix: "V",
 
-	abilities: [{
-		type: "Ability",
+	abilities: [
+		{
+			type: "Ability",
 
-		name: {
-			en: "Dauntless Shield",
-			fr: "Égide Inflexible",
-			es: "Escudo Recio",
-			it: "Scudo Saldo",
-			pt: "Escudo Destemido",
-			de: "Wackerer Schild"
+			name: {
+				en: "Dauntless Shield",
+				fr: "Égide Inflexible",
+				es: "Escudo Recio",
+				it: "Scudo Saldo",
+				pt: "Escudo Destemido",
+				de: "Wackerer Schild",
+			},
+
+			effect: {
+				en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon VMAX.",
+				fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon-VMAX de votre adversaire.",
+				es: "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon VMAX de tu rival.",
+				it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon-VMAX del tuo avversario.",
+				pt: "Previna todo o dano causado a este Pokémon por ataques dos Pokémon VMAX do seu oponente.",
+				de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon-VMAX deines Gegners zugefügt wird.",
+			},
 		},
+	],
 
-		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon VMAX.",
-			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon-VMAX de votre adversaire.",
-			es: "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon VMAX de tu rival.",
-			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon-VMAX del tuo avversario.",
-			pt: "Previna todo o dano causado a este Pokémon por ataques dos Pokémon VMAX do seu oponente.",
-			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon-VMAX deines Gegners zugefügt wird."
-		}
-	}],
+	attacks: [
+		{
+			cost: ["Metal", "Metal", "Colorless"],
 
-	attacks: [{
-		cost: ["Metal", "Metal", "Colorless"],
+			name: {
+				en: "Assault Tackle",
+				fr: "Tacle Assaillant",
+				es: "Placaje Asalto",
+				it: "Azione d'Assalto",
+				pt: "Investida Ofensiva",
+				de: "Überfalltackle",
+			},
 
-		name: {
-			en: "Assault Tackle",
-			fr: "Tacle Assaillant",
-			es: "Placaje Asalto",
-			it: "Azione d'Assalto",
-			pt: "Investida Ofensiva",
-			de: "Überfalltackle"
+			effect: {
+				en: "Discard a Special Energy from your opponent's Active Pokémon.",
+				fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
+				es: "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
+				it: "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
+				pt: "Descarte 1 Energia Especial do Pokémon Ativo do seu oponente.",
+				de: "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			},
+
+			damage: 130,
 		},
-
-		effect: {
-			en: "Discard a Special Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
-			es: "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
-			it: "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
-			pt: "Descarte 1 Energia Especial do Pokémon Ativo do seu oponente.",
-			de: "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
-		},
-
-		damage: 130
-	}],
+	],
 
 	retreat: 2,
 	regulationMark: "D",
@@ -74,12 +79,12 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
-		cardmarket: 658899
-	}
-}
+		cardmarket: 658899,
+	},
+};
 
-export default card
+export default card;

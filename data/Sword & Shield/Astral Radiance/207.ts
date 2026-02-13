@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Crispa",
 		it: "Lapilla",
 		pt: "Zisu",
-		de: "Belila"
+		de: "Belila",
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Roba cartas hasta que tengas 1 carta más en tu mano que tu rival.",
 		it: "Pesca fino ad avere in mano una carta in più del tuo avversario.",
 		pt: "Compre cartas até ter 1 carta a mais na sua mão do que o seu oponente.",
-		de: "Ziehe so lange Karten, bis du 1 Karte mehr auf deiner Hand hast als dein Gegner."
+		de: "Ziehe so lange Karten, bis du 1 Karte mehr auf deiner Hand hast als dein Gegner.",
 	},
 
 	trainerType: "Supporter",
@@ -32,13 +33,13 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658820,
-		tcgplayer: 272462
-	}
-}
+		tcgplayer: 272462,
+	},
+};
 
-export default card
+export default card;

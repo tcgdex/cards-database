@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [402],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Kricketune",
 		it: "Kricketune",
 		pt: "Kricketune",
-		de: "Zirpeise"
+		de: "Zirpeise",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -25,47 +26,51 @@ const card: Card = {
 		es: "Kricketot",
 		it: "Kricketot",
 		pt: "Kricketot",
-		de: "Zirpurze"
+		de: "Zirpurze",
 	},
 
 	stage: "Stage1",
 
-	abilities: [{
-		type: "Ability",
+	abilities: [
+		{
+			type: "Ability",
 
-		name: {
-			en: "Swelling Tune",
-			fr: "Mélodie Montante",
-			es: "Melodía Rebosante",
-			it: "Melodia Amplificata",
-			pt: "Melodia Crescente",
-			de: "Schwellender Gesang"
+			name: {
+				en: "Swelling Tune",
+				fr: "Mélodie Montante",
+				es: "Melodía Rebosante",
+				it: "Melodia Amplificata",
+				pt: "Melodia Crescente",
+				de: "Schwellender Gesang",
+			},
+
+			effect: {
+				en: "Your Grass Pokémon in play, except any Kricketune, get +40 HP. You can't apply more than 1 Swelling Tune Ability at a time.",
+				fr: "Vos Pokémon Grass en jeu, à l'exception de Mélokrik, reçoivent +40 PV. Vous ne pouvez utiliser qu'un talent Mélodie Montante à la fois.",
+				es: "Tus Pokémon Grass en juego, excepto los Kricketune, obtienen 40 PS más. No puedes aplicar más de 1 habilidad Melodía Rebosante a la vez.",
+				it: "I tuoi Pokémon Grass in gioco, a eccezione di qualsiasi Kricketune, hanno 40 PS in più. Non puoi applicare più di un'abilità Melodia Amplificata alla volta.",
+				pt: "Seus Pokémon Grass em jogo, exceto por quaisquer Kricketune, recebem 40 PS a mais. Você não pode usar mais de 1 Habilidade Melodia Crescente por vez.",
+				de: "Deine Grass-Pokémon im Spiel, außer Zirpeise, erhalten +40 KP. Du kannst immer nur jeweils 1 Fähigkeit Schwellender Gesang einsetzen.",
+			},
 		},
+	],
 
-		effect: {
-			en: "Your Grass Pokémon in play, except any Kricketune, get +40 HP. You can't apply more than 1 Swelling Tune Ability at a time.",
-			fr: "Vos Pokémon Grass en jeu, à l'exception de Mélokrik, reçoivent +40 PV. Vous ne pouvez utiliser qu'un talent Mélodie Montante à la fois.",
-			es: "Tus Pokémon Grass en juego, excepto los Kricketune, obtienen 40 PS más. No puedes aplicar más de 1 habilidad Melodía Rebosante a la vez.",
-			it: "I tuoi Pokémon Grass in gioco, a eccezione di qualsiasi Kricketune, hanno 40 PS in più. Non puoi applicare più di un'abilità Melodia Amplificata alla volta.",
-			pt: "Seus Pokémon Grass em jogo, exceto por quaisquer Kricketune, recebem 40 PS a mais. Você não pode usar mais de 1 Habilidade Melodia Crescente por vez.",
-			de: "Deine Grass-Pokémon im Spiel, außer Zirpeise, erhalten +40 KP. Du kannst immer nur jeweils 1 Fähigkeit Schwellender Gesang einsetzen."
-		}
-	}],
+	attacks: [
+		{
+			cost: ["Grass", "Colorless"],
 
-	attacks: [{
-		cost: ["Grass", "Colorless"],
+			name: {
+				en: "Slash",
+				fr: "Tranche",
+				es: "Cuchillada",
+				it: "Lacerazione",
+				pt: "Talho",
+				de: "Schlitzer",
+			},
 
-		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Talho",
-			de: "Schlitzer"
+			damage: 50,
 		},
-
-		damage: 50
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -74,13 +79,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658502,
-		tcgplayer: 272210
-	}
-}
+		tcgplayer: 272210,
+	},
+};
 
-export default card
+export default card;

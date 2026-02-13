@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Lino",
 		it: "Lino",
 		pt: "Grant",
-		de: "Lino"
+		de: "Lino",
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Durante este turno, los ataques de tus Pokémon Fighting hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).\nDurante tu turno, si esta carta de Lino está en tu pila de descartes, puedes descartar 2 cartas, excepto las de Lino, de tu mano. Si lo haces, pon esta carta de Lino en tu mano. (Este efecto no cuenta como tu carta de Partidario por turno).",
 		it: "Durante questo turno, gli attacchi dei tuoi Pokémon Fighting infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.\nDurante il tuo turno, se questo Lino è nella tua pila degli scarti, puoi scartare due carte, a eccezione di qualsiasi Lino, dalla tua mano. Se lo fai, prendi questo Lino e aggiungilo alle carte che hai in mano. Questo effetto non esaurisce il tuo utilizzo di una carta Aiuto per il turno.",
 		pt: "Durante este turno, os ataques dos seus Pokémon Fighting causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).\nDurante o seu turno, se este Grant estiver na sua pilha de descarte, você poderá descartar 2 cartas da sua mão, exceto por quaisquer Grant. Se fizer isto, coloque este Grant na sua mão\n(este efeito não gastará o seu uso de carta de Apoiador deste turno).",
-		de: "Während dieses Zuges fügen die Attacken deiner Fighting-Pokémon dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).\nWenn dieser Lino während deines Zuges in deinem Ablagestapel ist, kannst du 2 Karten aus deiner Hand, außer Lino, auf deinen Ablagestapel legen. Wenn du das machst, nimm diesen Lino auf deine Hand.\n(Durch diesen Effekt wird deine Unterstützerkarte für den Zug nicht verbraucht.)"
+		de: "Während dieses Zuges fügen die Attacken deiner Fighting-Pokémon dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).\nWenn dieser Lino während deines Zuges in deinem Ablagestapel ist, kannst du 2 Karten aus deiner Hand, außer Lino, auf deinen Ablagestapel legen. Wenn du das machst, nimm diesen Lino auf deine Hand.\n(Durch diesen Effekt wird deine Unterstützerkarte für den Zug nicht verbraucht.)",
 	},
 
 	trainerType: "Supporter",
@@ -32,13 +33,13 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658805,
-		tcgplayer: 272458
-	}
-}
+		tcgplayer: 272458,
+	},
+};
 
-export default card
+export default card;

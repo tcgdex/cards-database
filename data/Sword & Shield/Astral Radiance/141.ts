@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Pluma Ball",
 		it: "Piuma Ball",
 		pt: "Bola de Penas",
-		de: "Federball"
+		de: "Federball",
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 Pokémon que no tenga ningún Coste de Retirada, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo un Pokémon che non ha costo di ritirata, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por 1 Pokémon que não tenha custo de Recuo no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach 1 Pokémon, das keine Rückzugskosten hat, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 Pokémon, das keine Rückzugskosten hat, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
 	},
 
 	trainerType: "Item",
@@ -32,13 +33,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658802,
-		tcgplayer: 272393
-	}
-}
+		tcgplayer: 272393,
+	},
+};
 
-export default card
+export default card;

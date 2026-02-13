@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [482],
@@ -11,38 +11,41 @@ const card: Card = {
 		es: "Azelf",
 		it: "Azelf",
 		pt: "Azelf",
-		de: "Tobutz"
+		de: "Tobutz",
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Psychic"],
+	attacks: [
+		{
+			cost: ["Psychic"],
 
-		name: {
-			en: "Mind Bend",
-			fr: "Contrôleur d'Esprit",
-			es: "Fusión Mental",
-			it: "Fusione Mentale",
-			pt: "Dobra Mentes",
-			de: "Gedankenverbiegung"
+			name: {
+				en: "Mind Bend",
+				fr: "Contrôleur d'Esprit",
+				es: "Fusión Mental",
+				it: "Fusione Mentale",
+				pt: "Dobra Mentes",
+				de: "Gedankenverbiegung",
+			},
+
+			effect: {
+				en: "Your opponent's Active Pokémon is now Confused.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				it: "Il Pokémon attivo del tuo avversario viene confuso.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			},
+
+			damage: 30,
 		},
-
-		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
-		},
-
-		damage: 30
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -51,13 +54,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658645,
-		tcgplayer: 272268
-	}
-}
+		tcgplayer: 272268,
+	},
+};
 
-export default card
+export default card;

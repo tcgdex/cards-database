@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [827],
@@ -11,29 +11,32 @@ const card: Card = {
 		es: "Nickit",
 		it: "Nickit",
 		pt: "Nickit",
-		de: "Kleptifux"
+		de: "Kleptifux",
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Colorless"],
+	attacks: [
+		{
+			cost: ["Colorless"],
 
-		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			es: "Patada Trasera",
-			it: "Retrocalcio",
-			pt: "Chute Traseiro",
-			de: "Rückwärtskick"
+			name: {
+				en: "Rear Kick",
+				fr: "Ruade",
+				es: "Patada Trasera",
+				it: "Retrocalcio",
+				pt: "Chute Traseiro",
+				de: "Rückwärtskick",
+			},
+
+			damage: 10,
 		},
-
-		damage: 10
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -42,13 +45,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658764,
-		tcgplayer: 272304
-	}
-}
+		tcgplayer: 272304,
+	},
+};
 
-export default card
+export default card;

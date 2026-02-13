@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [200],
@@ -11,29 +11,32 @@ const card: Card = {
 		es: "Misdreavus",
 		it: "Misdreavus",
 		pt: "Misdreavus",
-		de: "Traunfugil"
+		de: "Traunfugil",
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Colorless"],
+	attacks: [
+		{
+			cost: ["Colorless"],
 
-		name: {
-			en: "Mumble",
-			fr: "Murmure",
-			es: "Farfullar",
-			it: "Borbottio",
-			pt: "Resmungo",
-			de: "Grummeln"
+			name: {
+				en: "Mumble",
+				fr: "Murmure",
+				es: "Farfullar",
+				it: "Borbottio",
+				pt: "Resmungo",
+				de: "Grummeln",
+			},
+
+			damage: 10,
 		},
-
-		damage: 10
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -42,13 +45,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658625,
-		tcgplayer: 272259
-	}
-}
+		tcgplayer: 272259,
+	},
+};
 
-export default card
+export default card;

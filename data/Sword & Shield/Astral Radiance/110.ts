@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [411],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Bastiodon",
 		it: "Bastiodon",
 		pt: "Bastiodon",
-		de: "Bollterus"
+		de: "Bollterus",
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,
@@ -25,56 +26,60 @@ const card: Card = {
 		es: "Shieldon",
 		it: "Shieldon",
 		pt: "Shieldon",
-		de: "Schilterus"
+		de: "Schilterus",
 	},
 
 	stage: "Stage2",
 
-	abilities: [{
-		type: "Ability",
+	abilities: [
+		{
+			type: "Ability",
 
-		name: {
-			en: "Primal Fortress",
-			fr: "Forteresse Primitive",
-			es: "Fortaleza Primigenia",
-			it: "Fortezza Primordiale",
-			pt: "Fortaleza Primitiva",
-			de: "Festung der Urzeit"
+			name: {
+				en: "Primal Fortress",
+				fr: "Forteresse Primitive",
+				es: "Fortaleza Primigenia",
+				it: "Fortezza Primordiale",
+				pt: "Fortaleza Primitiva",
+				de: "Festung der Urzeit",
+			},
+
+			effect: {
+				en: "Your Pokémon take 30 less damage from attacks from your opponent's Pokémon V (after applying Weakness and Resistance).",
+				fr: "Vos Pokémon subissent 30 dégâts de moins provenant des attaques des Pokémon-V de votre adversaire (après application de la Faiblesse et de la Résistance).",
+				es: "Los ataques de los Pokémon V de tu rival hacen 30 puntos de daño menos a tus Pokémon (después de aplicar Debilidad y Resistencia).",
+				it: "I tuoi Pokémon subiscono 30 danni in meno dagli attacchi dei Pokémon-V del tuo avversario, dopo aver applicato debolezza e resistenza.",
+				pt: "Os seus Pokémon recebem 30 pontos de dano a menos de ataques dos Pokémon V do seu oponente (depois de aplicar Fraqueza e Resistência).",
+				de: "Deinen Pokémon werden durch Attacken von Pokémon-V deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			},
 		},
+	],
 
-		effect: {
-			en: "Your Pokémon take 30 less damage from attacks from your opponent's Pokémon V (after applying Weakness and Resistance).",
-			fr: "Vos Pokémon subissent 30 dégâts de moins provenant des attaques des Pokémon-V de votre adversaire (après application de la Faiblesse et de la Résistance).",
-			es: "Los ataques de los Pokémon V de tu rival hacen 30 puntos de daño menos a tus Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "I tuoi Pokémon subiscono 30 danni in meno dagli attacchi dei Pokémon-V del tuo avversario, dopo aver applicato debolezza e resistenza.",
-			pt: "Os seus Pokémon recebem 30 pontos de dano a menos de ataques dos Pokémon V do seu oponente (depois de aplicar Fraqueza e Resistência).",
-			de: "Deinen Pokémon werden durch Attacken von Pokémon-V deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
-		}
-	}],
+	attacks: [
+		{
+			cost: ["Metal", "Metal", "Colorless"],
 
-	attacks: [{
-		cost: ["Metal", "Metal", "Colorless"],
+			name: {
+				en: "Iron Tackle",
+				fr: "Charge de Fer",
+				es: "Bloqueo de Hierro",
+				it: "Azione Ferrea",
+				pt: "Golpe de Colisão Férreo",
+				de: "Eisentackle",
+			},
 
-		name: {
-			en: "Iron Tackle",
-			fr: "Charge de Fer",
-			es: "Bloqueo de Hierro",
-			it: "Azione Ferrea",
-			pt: "Golpe de Colisão Férreo",
-			de: "Eisentackle"
+			effect: {
+				en: "This Pokémon also does 30 damage to itself.",
+				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
+				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
+				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			},
+
+			damage: 180,
 		},
-
-		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
-		},
-
-		damage: 180
-	}],
+	],
 
 	retreat: 4,
 	regulationMark: "F",
@@ -83,13 +88,13 @@ const card: Card = {
 		normal: false,
 		reverse: true,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658771,
-		tcgplayer: 272325
-	}
-}
+		tcgplayer: 272325,
+	},
+};
 
-export default card
+export default card;

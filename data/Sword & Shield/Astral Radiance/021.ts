@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [77],
@@ -11,29 +11,32 @@ const card: Card = {
 		es: "Ponyta",
 		it: "Ponyta",
 		pt: "Ponyta",
-		de: "Ponita"
+		de: "Ponita",
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fire"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Fire"],
+	attacks: [
+		{
+			cost: ["Fire"],
 
-		name: {
-			en: "Flame Tail",
-			fr: "Queue de Flammes",
-			es: "Cola de Fuego",
-			it: "Codafiamma",
-			pt: "Cauda de Chamas",
-			de: "Flammenschweif"
+			name: {
+				en: "Flame Tail",
+				fr: "Queue de Flammes",
+				es: "Cola de Fuego",
+				it: "Codafiamma",
+				pt: "Cauda de Chamas",
+				de: "Flammenschweif",
+			},
+
+			damage: 20,
 		},
-
-		damage: 20
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -42,13 +45,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658519,
-		tcgplayer: 272221
-	}
-}
+		tcgplayer: 272221,
+	},
+};
 
-export default card
+export default card;

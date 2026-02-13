@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Nerio",
 		it: "Ginepro",
 		pt: "Pietro",
-		de: "Nezz"
+		de: "Nezz",
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 carta de Energía y 1 carta de Pokémon Darkness, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo una carta Energia e un Pokémon Darkness, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por 1 carta de Energia e 1 Pokémon Darkness no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach 1 Energiekarte und 1 Darkness-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 Energiekarte und 1 Darkness-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
 	},
 
 	trainerType: "Supporter",
@@ -32,12 +33,12 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
-		cardmarket: 658905
-	}
-}
+		cardmarket: 658905,
+	},
+};
 
-export default card
+export default card;

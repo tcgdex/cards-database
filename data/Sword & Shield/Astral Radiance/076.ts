@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [408],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Cranidos",
 		it: "Cranidos",
 		pt: "Cranidos",
-		de: "Koknodon"
+		de: "Koknodon",
 	},
 
+	illustrator: "Hataya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -25,47 +26,50 @@ const card: Card = {
 		es: "Fósil Desconocido",
 		it: "Fossile Sconosciuto",
 		pt: "Fóssil Não Identificado",
-		de: "Unbekanntes Fossil"
+		de: "Unbekanntes Fossil",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Fighting"],
+	attacks: [
+		{
+			cost: ["Fighting"],
 
-		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			name: {
+				en: "Ram",
+				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme",
+			},
+
+			damage: 20,
 		},
+		{
+			cost: ["Fighting", "Fighting"],
 
-		damage: 20
-	}, {
-		cost: ["Fighting", "Fighting"],
+			name: {
+				en: "Stone Edge",
+				fr: "Lame de Roc",
+				es: "Roca Afilada",
+				it: "Pietrataglio",
+				pt: "Gume de Pedra",
+				de: "Steinkante",
+			},
 
-		name: {
-			en: "Stone Edge",
-			fr: "Lame de Roc",
-			es: "Roca Afilada",
-			it: "Pietrataglio",
-			pt: "Gume de Pedra",
-			de: "Steinkante"
+			effect: {
+				en: "Flip a coin. If heads, this attack does 40 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
+				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
+				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 40 pontos de dano a mais.",
+				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu.",
+			},
+
+			damage: "40+",
 		},
-
-		effect: {
-			en: "Flip a coin. If heads, this attack does 40 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 40 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu."
-		},
-
-		damage: "40+"
-	}],
+	],
 
 	retreat: 2,
 	regulationMark: "F",
@@ -74,13 +78,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658674,
-		tcgplayer: 272277
-	}
-}
+		tcgplayer: 272277,
+	},
+};
 
-export default card
+export default card;

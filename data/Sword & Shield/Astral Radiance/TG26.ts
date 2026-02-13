@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Mel",
 		it: "Melania",
 		pt: "Melony",
-		de: "Mel"
+		de: "Mel",
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Une 1 carta de Energía Water de tu pila de descartes a 1 de tus Pokémon V. Si lo haces, roba 3 cartas.",
 		it: "Assegna una carta Energia Water dalla tua pila degli scarti a uno dei tuoi Pokémon-V. Se lo fai, pesca tre carte.",
 		pt: "Ligue 1 carta de Energia Water da sua pilha de descarte a 1 dos seus Pokémon V. Se fizer isto, compre 3 cartas.",
-		de: "Lege 1 Water-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon-V an. Wenn du das machst, ziehe 3 Karten."
+		de: "Lege 1 Water-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon-V an. Wenn du das machst, ziehe 3 Karten.",
 	},
 
 	trainerType: "Supporter",
@@ -32,12 +33,12 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
-		cardmarket: 658903
-	}
-}
+		cardmarket: 658903,
+	},
+};
 
-export default card
+export default card;

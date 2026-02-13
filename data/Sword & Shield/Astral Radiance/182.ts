@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Choi",
 		it: "Choi",
 		pt: "Choi",
-		de: "Taiso"
+		de: "Taiso",
 	},
 
+	illustrator: "Hitoshi Ariga",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Cada jugador enseña las cartas de su mano. Roba 3 cartas.",
 		it: "Ciascun giocatore mostra le carte che ha in mano. Pesca tre carte.",
 		pt: "Cada jogador revela a própria mão. Compre 3 cartas.",
-		de: "Jeder Spieler zeigt seine Handkarten. Ziehe 3 Karten."
+		de: "Jeder Spieler zeigt seine Handkarten. Ziehe 3 Karten.",
 	},
 
 	trainerType: "Supporter",
@@ -32,13 +33,13 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658798,
-		tcgplayer: 272432
-	}
-}
+		tcgplayer: 272432,
+	},
+};
 
-export default card
+export default card;

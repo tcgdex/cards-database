@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [712],
@@ -11,29 +11,32 @@ const card: Card = {
 		es: "Bergmite",
 		it: "Bergmite",
 		pt: "Bergmite",
-		de: "Arktip"
+		de: "Arktip",
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Water", "Colorless", "Colorless"],
+	attacks: [
+		{
+			cost: ["Water", "Colorless", "Colorless"],
 
-		name: {
-			en: "Icicle",
-			fr: "Concrétion Glacée",
-			es: "Témpano",
-			it: "Stalattite",
-			pt: "Pingente de Gelo",
-			de: "Eiszapfen"
+			name: {
+				en: "Icicle",
+				fr: "Concrétion Glacée",
+				es: "Témpano",
+				it: "Stalattite",
+				pt: "Pingente de Gelo",
+				de: "Eiszapfen",
+			},
+
+			damage: 40,
 		},
-
-		damage: 40
-	}],
+	],
 
 	retreat: 2,
 	regulationMark: "F",
@@ -42,13 +45,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658588,
-		tcgplayer: 272247
-	}
-}
+		tcgplayer: 272247,
+	},
+};
 
-export default card
+export default card;

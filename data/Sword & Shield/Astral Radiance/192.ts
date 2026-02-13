@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [484],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Palkia Origen V-ASTRO",
 		it: "Palkia Originale V ASTRO",
 		pt: "Palkia Forma Origem V-ASTRO",
-		de: "Ur-Palkia VSTAR"
+		de: "Ur-Palkia VSTAR",
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 280,
@@ -25,35 +26,37 @@ const card: Card = {
 		es: "Palkia Origen V",
 		it: "Palkia Originale-V",
 		pt: "Palkia Forma Origem V",
-		de: "Ur-Palkia-V"
+		de: "Ur-Palkia-V",
 	},
 
 	stage: "VSTAR",
 	suffix: "V",
 
-	attacks: [{
-		cost: ["Water", "Water"],
+	attacks: [
+		{
+			cost: ["Water", "Water"],
 
-		name: {
-			en: "Subspace Swell",
-			fr: "Houle Subspatiale",
-			es: "Oleaje Subespacial",
-			it: "Sottospazio Amplificato",
-			pt: "Maré do Subespaço",
-			de: "Subraumschwall"
+			name: {
+				en: "Subspace Swell",
+				fr: "Houle Subspatiale",
+				es: "Oleaje Subespacial",
+				it: "Sottospazio Amplificato",
+				pt: "Maré do Subespaço",
+				de: "Subraumschwall",
+			},
+
+			effect: {
+				en: "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).",
+				es: "Este ataque hace 20 puntos de daño más por cada Pokémon en Banca (tanto tuyos como de tu rival).",
+				it: "Questo attacco infligge 20 danni in più per ogni Pokémon in panchina, sia tuo che del tuo avversario.",
+				pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon no Banco (seus e do seu oponente).",
+				de: "Diese Attacke fügt für jedes Pokémon auf der Bank (deiner und der deines Gegners) 20 Schadenspunkte mehr zu.",
+			},
+
+			damage: "60+",
 		},
-
-		effect: {
-			en: "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).",
-			es: "Este ataque hace 20 puntos de daño más por cada Pokémon en Banca (tanto tuyos como de tu rival).",
-			it: "Questo attacco infligge 20 danni in più per ogni Pokémon in panchina, sia tuo che del tuo avversario.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon no Banco (seus e do seu oponente).",
-			de: "Diese Attacke fügt für jedes Pokémon auf der Bank (deiner und der deines Gegners) 20 Schadenspunkte mehr zu."
-		},
-
-		damage: "60+"
-	}],
+	],
 
 	retreat: 2,
 	regulationMark: "F",
@@ -62,13 +65,13 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658560,
-		tcgplayer: 272446
-	}
-}
+		tcgplayer: 272446,
+	},
+};
 
-export default card
+export default card;

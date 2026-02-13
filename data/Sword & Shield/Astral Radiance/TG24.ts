@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Alistair",
 		it: "Onion",
 		pt: "Allister",
-		de: "Nio"
+		de: "Nio",
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Roba 3 cartas. Si has robado alguna carta de esta manera, descarta hasta 3 cartas de tu mano. (Debes descartar por lo menos 1 carta).",
 		it: "Pesca tre carte. Se hai pescato delle carte in questo modo, scarta fino a tre carte che hai in mano. Devi scartare almeno una carta.",
 		pt: "Compre 3 cartas. Se você comprar qualquer carta desta forma, descarte até 3 cartas da sua mão (você deve descartar pelo menos 1 carta).",
-		de: "Ziehe 3 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast, lege bis zu 3 Karten aus deiner Hand auf deinen Ablagestapel. (Du musst mindestens 1 Karte auf deinen Ablagestapel legen.)"
+		de: "Ziehe 3 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast, lege bis zu 3 Karten aus deiner Hand auf deinen Ablagestapel. (Du musst mindestens 1 Karte auf deinen Ablagestapel legen.)",
 	},
 
 	trainerType: "Supporter",
@@ -32,12 +33,12 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
-		cardmarket: 658901
-	}
-}
+		cardmarket: 658901,
+	},
+};
 
-export default card
+export default card;

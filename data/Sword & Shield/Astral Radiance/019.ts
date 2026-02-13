@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bauz"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

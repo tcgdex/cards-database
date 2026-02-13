@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [432],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Purugly",
 		it: "Purugly",
 		pt: "Purugly",
-		de: "Shnurgarst"
+		de: "Shnurgarst",
 	},
 
+	illustrator: "Mina Nakai",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -25,47 +26,50 @@ const card: Card = {
 		es: "Glameow",
 		it: "Glameow",
 		pt: "Glameow",
-		de: "Charmian"
+		de: "Charmian",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Colorless"],
+	attacks: [
+		{
+			cost: ["Colorless"],
 
-		name: {
-			en: "Body Slam",
-			fr: "Plaquage",
-			es: "Golpe Cuerpo",
-			it: "Corposcontro",
-			pt: "Pancada Corporal",
-			de: "Bodyslam"
+			name: {
+				en: "Body Slam",
+				fr: "Plaquage",
+				es: "Golpe Cuerpo",
+				it: "Corposcontro",
+				pt: "Pancada Corporal",
+				de: "Bodyslam",
+			},
+
+			effect: {
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			},
+
+			damage: 30,
 		},
+		{
+			cost: ["Colorless", "Colorless", "Colorless"],
 
-		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			name: {
+				en: "Slashing Claw",
+				fr: "Griffe Taillante",
+				es: "Garra Cuchillazo",
+				it: "Artigli Laceranti",
+				pt: "Garra Cortadora",
+				de: "Schlitzende Klaue",
+			},
+
+			damage: 100,
 		},
-
-		damage: 30
-	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
-
-		name: {
-			en: "Slashing Claw",
-			fr: "Griffe Taillante",
-			es: "Garra Cuchillazo",
-			it: "Artigli Laceranti",
-			pt: "Garra Cortadora",
-			de: "Schlitzende Klaue"
-		},
-
-		damage: 100
-	}],
+	],
 
 	retreat: 2,
 	regulationMark: "F",
@@ -74,13 +78,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658789,
-		tcgplayer: 272367
-	}
-}
+		tcgplayer: 272367,
+	},
+};
 
-export default card
+export default card;

@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Judith",
 		it: "Fabia",
 		pt: "Bia",
-		de: "Saida"
+		de: "Saida",
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Descarta las 5 primeras cartas de tu baraja y une cualquier carta de Energía que hayas descartado de esta manera a tus Pokémon Fighting en Banca de la manera que desees.",
 		it: "Scarta le prime cinque carte del tuo mazzo e assegna ai tuoi Pokémon Fighting in panchina le carte Energia che hai appena scartato nel modo che preferisci.",
 		pt: "Descarte as 5 cartas de cima do seu baralho e ligue quaisquer cartas de Energia que você descartou desta forma aos seus Pokémon Fighting no Banco como desejar.",
-		de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel und lege alle Energiekarten, die du auf diese Weise auf deinen Ablagestapel gelegt hast, beliebig an die Fighting-Pokémon auf deiner Bank an."
+		de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel und lege alle Energiekarten, die du auf diese Weise auf deinen Ablagestapel gelegt hast, beliebig an die Fighting-Pokémon auf deiner Bank an.",
 	},
 
 	trainerType: "Supporter",
@@ -32,12 +33,13 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
-		cardmarket: 658902
-	}
-}
+		cardmarket: 658902,
+		tcgplayer: 272502,
+	},
+};
 
-export default card
+export default card;

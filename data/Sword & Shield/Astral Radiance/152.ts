@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Gafas Supereficaces",
 		it: "Occhiali Superefficaci",
 		pt: "Óculos Supereficazes",
-		de: "Sehr effektive Brille"
+		de: "Sehr effektive Brille",
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Cuando se aplique Debilidad al daño infligido al Pokémon Activo de tu rival por los ataques del Pokémon al que esté unida esta carta, se aplica la Debilidad ×3.",
 		it: "Quando applichi la debolezza ai danni inflitti al Pokémon attivo del tuo avversario dagli attacchi del Pokémon a cui è assegnata questa carta, applicala come ×3.",
 		pt: "Quando aplicar Fraqueza ao dano de ataques do Pokémon ao qual esta carta está ligada causados ao Pokémon Ativo do seu oponente, aplique-a como ×3.",
-		de: "Wenn Schwäche mit Schaden, der dem Aktiven Pokémon deines Gegners durch Attacken des Pokémon, an das diese Karte angelegt ist, verrechnet wird, verrechne sie als ×3."
+		de: "Wenn Schwäche mit Schaden, der dem Aktiven Pokémon deines Gegners durch Attacken des Pokémon, an das diese Karte angelegt ist, verrechnet wird, verrechne sie als ×3.",
 	},
 
 	trainerType: "Tool",
@@ -32,13 +33,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658813,
-		tcgplayer: 272404
-	}
-}
+		tcgplayer: 272404,
+	},
+};
 
-export default card
+export default card;

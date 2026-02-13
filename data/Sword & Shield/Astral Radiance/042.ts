@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [502],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Dewott",
 		it: "Dewott",
 		pt: "Dewott",
-		de: "Zwottronin"
+		de: "Zwottronin",
 	},
 
+	illustrator: "Mina Nakai",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -25,34 +26,36 @@ const card: Card = {
 		es: "Oshawott",
 		it: "Oshawott",
 		pt: "Oshawott",
-		de: "Ottaro"
+		de: "Ottaro",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Colorless"],
+	attacks: [
+		{
+			cost: ["Colorless"],
 
-		name: {
-			en: "Razor Shell",
-			fr: "Coqui-Lame",
-			es: "Concha Filo",
-			it: "Conchilama",
-			pt: "Concha Navalha",
-			de: "Kalkklinge"
+			name: {
+				en: "Razor Shell",
+				fr: "Coqui-Lame",
+				es: "Concha Filo",
+				it: "Conchilama",
+				pt: "Concha Navalha",
+				de: "Kalkklinge",
+			},
+
+			effect: {
+				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
+			},
+
+			damage: "20+",
 		},
-
-		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
-		},
-
-		damage: "20+"
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -61,13 +64,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658580,
-		tcgplayer: 272242
-	}
-}
+		tcgplayer: 272242,
+	},
+};
 
-export default card
+export default card;

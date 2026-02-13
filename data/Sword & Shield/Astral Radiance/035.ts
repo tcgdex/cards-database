@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [339],
@@ -11,29 +11,32 @@ const card: Card = {
 		es: "Barboach",
 		it: "Barboach",
 		pt: "Barboach",
-		de: "Schmerbe"
+		de: "Schmerbe",
 	},
 
+	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Water", "Colorless", "Colorless"],
+	attacks: [
+		{
+			cost: ["Water", "Colorless", "Colorless"],
 
-		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			name: {
+				en: "Rain Splash",
+				fr: "Pluie Éclaboussante",
+				es: "Golpe de Lluvia",
+				it: "Spruzzapioggia",
+				pt: "Chuva Borrifante",
+				de: "Regenplatscher",
+			},
+
+			damage: 40,
 		},
-
-		damage: 40
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -42,13 +45,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658543,
-		tcgplayer: 272235
-	}
-}
+		tcgplayer: 272235,
+	},
+};
 
-export default card
+export default card;

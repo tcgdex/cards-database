@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [123],
@@ -11,29 +11,32 @@ const card: Card = {
 		es: "Scyther",
 		it: "Scyther",
 		pt: "Scyther",
-		de: "Sichlor"
+		de: "Sichlor",
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Colorless"],
+	attacks: [
+		{
+			cost: ["Colorless"],
 
-		name: {
-			en: "Blinding Scythe",
-			fr: "Pulvérisation Aveuglante",
-			es: "Guadaña Cegadora",
-			it: "Falceaccecante",
-			pt: "Foice Ofuscante",
-			de: "Blendende Sense"
+			name: {
+				en: "Blinding Scythe",
+				fr: "Pulvérisation Aveuglante",
+				es: "Guadaña Cegadora",
+				it: "Falceaccecante",
+				pt: "Foice Ofuscante",
+				de: "Blendende Sense",
+			},
+
+			damage: 20,
 		},
-
-		damage: 20
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -42,13 +45,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658491,
-		tcgplayer: 272204
-	}
-}
+		tcgplayer: 272204,
+	},
+};
 
-export default card
+export default card;

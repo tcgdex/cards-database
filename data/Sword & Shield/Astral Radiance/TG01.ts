@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [460],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Abomasnow",
 		it: "Abomasnow",
 		pt: "Abomasnow",
-		de: "Rexblisar"
+		de: "Rexblisar",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -25,47 +26,51 @@ const card: Card = {
 		es: "Snover",
 		it: "Snover",
 		pt: "Snover",
-		de: "Shnebedeck"
+		de: "Shnebedeck",
 	},
 
 	stage: "Stage1",
 
-	abilities: [{
-		type: "Ability",
+	abilities: [
+		{
+			type: "Ability",
 
-		name: {
-			en: "Toughness Boost",
-			fr: "Boost d'Endurance",
-			es: "Impulso Vigorizante",
-			it: "Carica di Tenacia",
-			pt: "Impulso da Determinação",
-			de: "Stärkeschub"
+			name: {
+				en: "Toughness Boost",
+				fr: "Boost d'Endurance",
+				es: "Impulso Vigorizante",
+				it: "Carica di Tenacia",
+				pt: "Impulso da Determinação",
+				de: "Stärkeschub",
+			},
+
+			effect: {
+				en: "Your Single Strike Pokémon in play, except any Abomasnow, get +50 HP. You can't apply more than 1 Toughness Boost Ability at a time.",
+				fr: "Vos Pokémon Poing Final en jeu, à l'exception de Blizzaroi, reçoivent +50 PV. Vous ne pouvez utiliser qu'un talent Boost d'Endurance à la fois.",
+				es: "Tus Pokémon Golpe Brusco en juego, excepto los Abomasnow, obtienen 50 PS más. No puedes aplicar más de 1 habilidad Impulso Vigorizante a la vez.",
+				it: "I tuoi Pokémon Colpo Singolo in gioco, a eccezione di qualsiasi Abomasnow, hanno 50 PS in più. Non puoi applicare più di un'abilità Carica di Tenacia alla volta.",
+				pt: "Seus Pokémon Golpe Decisivo em jogo, exceto por quaisquer Abomasnow, recebem 50 PS a mais. Você não pode usar mais de 1 Habilidade Impulso da Determinação por vez.",
+				de: "Deine Fokussierter-Angriff-Pokémon im Spiel, außer Rexblisar, erhalten +50 KP. Du kannst immer nur jeweils 1 Fähigkeit Stärkeschub einsetzen.",
+			},
 		},
+	],
 
-		effect: {
-			en: "Your Single Strike Pokémon in play, except any Abomasnow, get +50 HP. You can't apply more than 1 Toughness Boost Ability at a time.",
-			fr: "Vos Pokémon Poing Final en jeu, à l'exception de Blizzaroi, reçoivent +50 PV. Vous ne pouvez utiliser qu'un talent Boost d'Endurance à la fois.",
-			es: "Tus Pokémon Golpe Brusco en juego, excepto los Abomasnow, obtienen 50 PS más. No puedes aplicar más de 1 habilidad Impulso Vigorizante a la vez.",
-			it: "I tuoi Pokémon Colpo Singolo in gioco, a eccezione di qualsiasi Abomasnow, hanno 50 PS in più. Non puoi applicare più di un'abilità Carica di Tenacia alla volta.",
-			pt: "Seus Pokémon Golpe Decisivo em jogo, exceto por quaisquer Abomasnow, recebem 50 PS a mais. Você não pode usar mais de 1 Habilidade Impulso da Determinação por vez.",
-			de: "Deine Fokussierter-Angriff-Pokémon im Spiel, außer Rexblisar, erhalten +50 KP. Du kannst immer nur jeweils 1 Fähigkeit Stärkeschub einsetzen."
-		}
-	}],
+	attacks: [
+		{
+			cost: ["Grass", "Colorless", "Colorless"],
 
-	attacks: [{
-		cost: ["Grass", "Colorless", "Colorless"],
+			name: {
+				en: "Mega Punch",
+				fr: "Ultimapoing",
+				es: "Megapuño",
+				it: "Megapugno",
+				pt: "Megassoco",
+				de: "Megahieb",
+			},
 
-		name: {
-			en: "Mega Punch",
-			fr: "Ultimapoing",
-			es: "Megapuño",
-			it: "Megapugno",
-			pt: "Megassoco",
-			de: "Megahieb"
+			damage: 90,
 		},
-
-		damage: 90
-	}],
+	],
 
 	retreat: 3,
 	regulationMark: "E",
@@ -74,12 +79,12 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
-		cardmarket: 658878
-	}
-}
+		cardmarket: 658878,
+	},
+};
 
-export default card
+export default card;

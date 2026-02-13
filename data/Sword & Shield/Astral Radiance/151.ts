@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Curri Picante Especiado",
 		it: "Curry piccante alle spezie",
 		pt: "Curry Temperado e Apimentado",
-		de: "Scharfes Gewürzcurry"
+		de: "Scharfes Gewürzcurry",
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Tu Pokémon Activo pasa a estar Quemado. Cúrale 40 puntos de daño.",
 		it: "Il tuo Pokémon attivo viene bruciato. Curalo da 40 danni.",
 		pt: "O seu Pokémon Ativo agora está Queimado. Cure 40 pontos de dano dele.",
-		de: "Dein Aktives Pokémon ist jetzt verbrannt. Heile 40 Schadenspunkte bei jenem Pokémon."
+		de: "Dein Aktives Pokémon ist jetzt verbrannt. Heile 40 Schadenspunkte bei jenem Pokémon.",
 	},
 
 	trainerType: "Item",
@@ -32,13 +33,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658812,
-		tcgplayer: 272403
-	}
-}
+		tcgplayer: 272403,
+	},
+};
 
-export default card
+export default card;

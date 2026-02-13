@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [548],
@@ -11,38 +11,41 @@ const card: Card = {
 		es: "Petilil",
 		it: "Petilil",
 		pt: "Petilil",
-		de: "Lilminip"
+		de: "Lilminip",
 	},
 
+	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Grass"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Grass"],
+	attacks: [
+		{
+			cost: ["Grass"],
 
-		name: {
-			en: "Spin Turn",
-			fr: "Tournoyer",
-			es: "Giro y Vuelta",
-			it: "Girotondo",
-			pt: "Volta Giratória",
-			de: "Absatzdreher"
+			name: {
+				en: "Spin Turn",
+				fr: "Tournoyer",
+				es: "Giro y Vuelta",
+				it: "Girotondo",
+				pt: "Volta Giratória",
+				de: "Absatzdreher",
+			},
+
+			effect: {
+				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+				fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				it: "Scambia questo Pokémon con uno della tua panchina.",
+				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
+			},
+
+			damage: 10,
 		},
-
-		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
-		},
-
-		damage: 10
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -51,13 +54,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658509,
-		tcgplayer: 272215
-	}
-}
+		tcgplayer: 272215,
+	},
+};
 
-export default card
+export default card;

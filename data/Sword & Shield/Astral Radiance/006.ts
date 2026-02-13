@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [193],
@@ -11,29 +11,32 @@ const card: Card = {
 		es: "Yanma",
 		it: "Yanma",
 		pt: "Yanma",
-		de: "Yanma"
+		de: "Yanma",
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Grass"],
+	attacks: [
+		{
+			cost: ["Grass"],
 
-		name: {
-			en: "Speed Dive",
-			fr: "Plongée Rapide",
-			es: "Picado Rápido",
-			it: "Immersione Rapida",
-			pt: "Mergulho Veloz",
-			de: "Tempohechtsprung"
+			name: {
+				en: "Speed Dive",
+				fr: "Plongée Rapide",
+				es: "Picado Rápido",
+				it: "Immersione Rapida",
+				pt: "Mergulho Veloz",
+				de: "Tempohechtsprung",
+			},
+
+			damage: 20,
 		},
-
-		damage: 20
-	}],
+	],
 
 	retreat: 0,
 	regulationMark: "F",
@@ -42,13 +45,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658494,
-		tcgplayer: 272206
-	}
-}
+		tcgplayer: 272206,
+	},
+};
 
-export default card
+export default card;

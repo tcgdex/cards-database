@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Ciénaga Bocazas",
 		it: "Palude Boccalarga",
 		pt: "Brejo Gapejaw",
-		de: "Großmaulmoor"
+		de: "Großmaulmoor",
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Cada vez que algún jugador ponga 1 Pokémon Básico de su mano en su Banca, pon 2 contadores de daño en ese Pokémon.",
 		it: "Ogni volta che uno dei giocatori prende un Pokémon Base dalla propria mano e lo mette nella propria panchina, metti due segnalini danno su quel Pokémon.",
 		pt: "Sempre que qualquer um dos jogadores colocar um Pokémon Básico da própria mão no próprio Banco, coloque 2 contadores de dano naquele Pokémon.",
-		de: "Lege jedes Mal, wenn ein Spieler 1 Basis-Pokémon aus seiner Hand auf seine Bank legt, 2 Schadensmarken auf jenes Pokémon."
+		de: "Lege jedes Mal, wenn ein Spieler 1 Basis-Pokémon aus seiner Hand auf seine Bank legt, 2 Schadensmarken auf jenes Pokémon.",
 	},
 
 	trainerType: "Stadium",
@@ -32,13 +33,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658803,
-		tcgplayer: 272394
-	}
-}
+		tcgplayer: 272394,
+	},
+};
 
-export default card
+export default card;

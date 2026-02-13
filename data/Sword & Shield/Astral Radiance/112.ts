@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [437],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Bronzong",
 		it: "Bronzong",
 		pt: "Bronzong",
-		de: "Bronzong"
+		de: "Bronzong",
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
@@ -25,47 +26,51 @@ const card: Card = {
 		es: "Bronzor",
 		it: "Bronzor",
 		pt: "Bronzor",
-		de: "Bronzel"
+		de: "Bronzel",
 	},
 
 	stage: "Stage1",
 
-	abilities: [{
-		type: "Ability",
+	abilities: [
+		{
+			type: "Ability",
 
-		name: {
-			en: "Heatproof",
-			fr: "Ignifugé",
-			es: "Ignífugo",
-			it: "Antifuoco",
-			pt: "À Prova de Calor",
-			de: "Hitzeschutz"
+			name: {
+				en: "Heatproof",
+				fr: "Ignifugé",
+				es: "Ignífugo",
+				it: "Antifuoco",
+				pt: "À Prova de Calor",
+				de: "Hitzeschutz",
+			},
+
+			effect: {
+				en: "Prevent all damage done to this Pokémon by attacks from your opponent's Fire Pokémon.",
+				fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon Fire de votre adversaire.",
+				es: "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon Fire de tu rival.",
+				it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Fire del tuo avversario.",
+				pt: "Previne todo o dano causado a este Pokémon por ataques dos Pokémon Fire do seu oponente.",
+				de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Fire-Pokémon deines Gegners zugefügt wird.",
+			},
 		},
+	],
 
-		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Fire Pokémon.",
-			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon Fire de votre adversaire.",
-			es: "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon Fire de tu rival.",
-			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Fire del tuo avversario.",
-			pt: "Previne todo o dano causado a este Pokémon por ataques dos Pokémon Fire do seu oponente.",
-			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Fire-Pokémon deines Gegners zugefügt wird."
-		}
-	}],
+	attacks: [
+		{
+			cost: ["Metal", "Colorless", "Colorless"],
 
-	attacks: [{
-		cost: ["Metal", "Colorless", "Colorless"],
+			name: {
+				en: "Hammer In",
+				fr: "Enfoncement",
+				es: "Martillear",
+				it: "Martello",
+				pt: "Martelada",
+				de: "Einhämmern",
+			},
 
-		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			damage: 100,
 		},
-
-		damage: 100
-	}],
+	],
 
 	retreat: 3,
 	regulationMark: "F",
@@ -74,13 +79,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658773,
-		tcgplayer: 272337
-	}
-}
+		tcgplayer: 272337,
+	},
+};
 
-export default card
+export default card;

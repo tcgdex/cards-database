@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Sorbus",
 		it: "Soruan",
 		pt: "Sorbus",
-		de: "Denboku"
+		de: "Denboku",
 	},
 
+	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Elige 1 carta de tu mano y descarta el resto de las cartas. Si lo haces, roba 4 cartas. (Si no tienes otras cartas en tu mano, no puedes usar esta carta).",
 		it: "Scegli una carta che hai in mano e scarta le altre carte. Se lo fai, pesca quattro carte. Se non hai altre carte in mano, non puoi usare questa carta.",
 		pt: "Escolha 1 carta na sua mão e descarte as outras cartas. Se fizer isto, compre 4 cartas (se você não tiver nenhuma outra carta na sua mão, não poderá usar esta carta).",
-		de: "Wähle 1 Karte auf deiner Hand und lege die anderen Karten auf deinen Ablagestapel. Wenn du das machst, ziehe 4 Karten. (Wenn du keine anderen Karten auf deiner Hand hast, kannst du diese Karte nicht verwenden.)"
+		de: "Wähle 1 Karte auf deiner Hand und lege die anderen Karten auf deinen Ablagestapel. Wenn du das machst, ziehe 4 Karten. (Wenn du keine anderen Karten auf deiner Hand hast, kannst du diese Karte nicht verwenden.)",
 	},
 
 	trainerType: "Supporter",
@@ -32,13 +33,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658810,
-		tcgplayer: 272401
-	}
-}
+		tcgplayer: 272401,
+	},
+};
 
-export default card
+export default card;

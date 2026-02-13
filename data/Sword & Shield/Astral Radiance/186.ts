@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Nákara",
 		it: "Perula",
 		pt: "Irida",
-		de: "Perla"
+		de: "Perla",
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 carta de Pokémon Water y 1 carta de Objeto, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo un Pokémon Water e una carta Strumento, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por 1 Pokémon Water e 1 carta de Item no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach 1 Water-Pokémon und 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 Water-Pokémon und 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
 	},
 
 	trainerType: "Supporter",
@@ -32,13 +33,13 @@ const card: Card = {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658808,
-		tcgplayer: 272436
-	}
-}
+		tcgplayer: 272436,
+	},
+};
 
-export default card
+export default card;

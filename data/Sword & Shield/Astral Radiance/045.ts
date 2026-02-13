@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [647],
@@ -11,51 +11,55 @@ const card: Card = {
 		es: "Keldeo",
 		it: "Keldeo",
 		pt: "Keldeo",
-		de: "Keldeo"
+		de: "Keldeo",
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Colorless"],
+	attacks: [
+		{
+			cost: ["Colorless"],
 
-		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			es: "Patada Destrucción",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			de: "Schmetterkick"
+			name: {
+				en: "Smash Kick",
+				fr: "Coud'Pattes",
+				es: "Patada Destrucción",
+				it: "Calcio Esplosivo",
+				pt: "Chute Poderoso",
+				de: "Schmetterkick",
+			},
+
+			damage: 20,
 		},
+		{
+			cost: ["Water", "Colorless"],
 
-		damage: 20
-	}, {
-		cost: ["Water", "Colorless"],
+			name: {
+				en: "Line Force",
+				fr: "Force Linéaire",
+				es: "Fuerza Lineal",
+				it: "Schieraforza",
+				pt: "Força Linear",
+				de: "Gebündelte Kraft",
+			},
 
-		name: {
-			en: "Line Force",
-			fr: "Force Linéaire",
-			es: "Fuerza Lineal",
-			it: "Schieraforza",
-			pt: "Força Linear",
-			de: "Gebündelte Kraft"
+			effect: {
+				en: "This attack does 20 more damage for each of your Benched Pokémon.",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
+				es: "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon en Banca.",
+				it: "Questo attacco infligge 20 danni in più per ogni Pokémon nella tua panchina.",
+				pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon no seu Banco.",
+				de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank 20 Schadenspunkte mehr zu.",
+			},
+
+			damage: "10+",
 		},
-
-		effect: {
-			en: "This attack does 20 more damage for each of your Benched Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
-			es: "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon en Banca.",
-			it: "Questo attacco infligge 20 danni in più per ogni Pokémon nella tua panchina.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon no seu Banco.",
-			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank 20 Schadenspunkte mehr zu."
-		},
-
-		damage: "10+"
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -64,13 +68,13 @@ const card: Card = {
 		normal: false,
 		reverse: true,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658584,
-		tcgplayer: 272245
-	}
-}
+		tcgplayer: 272245,
+	},
+};
 
-export default card
+export default card;

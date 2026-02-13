@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Piqueta Atrevida",
 		it: "Piccone Baldo",
 		pt: "Picareta Corajosa",
-		de: "Mutige Spitzhacke"
+		de: "Mutige Spitzhacke",
 	},
 
+	illustrator: "Eske Yoshinob",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Enseña la primera carta de tu baraja. Si es una carta de Energía Fighting, únela a 1 de tus Pokémon en Banca. Si no es una carta de Energía Fighting, ponla en tu mano.",
 		it: "Mostra la prima carta del tuo mazzo. Se quella carta è una carta Energia Fighting, assegnala a uno dei tuoi Pokémon in panchina. Se non è una carta Energia Fighting, aggiungila alle carte che hai in mano.",
 		pt: "Revele a carta de cima do seu baralho. Se aquela carta for uma carta de Energia Fighting, ligue-a a 1 dos seus Pokémon no Banco. Se não for uma carta de Energia Fighting, coloque-a na sua mão.",
-		de: "Zeige deinem Gegner die oberste Karte deines Decks. Wenn jene Karte eine Fighting-Energiekarte ist, lege sie an 1 Pokémon auf deiner Bank an. Wenn jene Karte keine Fighting-Energiekarte ist, nimm sie auf deine Hand."
+		de: "Zeige deinem Gegner die oberste Karte deines Decks. Wenn jene Karte eine Fighting-Energiekarte ist, lege sie an 1 Pokémon auf deiner Bank an. Wenn jene Karte keine Fighting-Energiekarte ist, nimm sie auf deine Hand.",
 	},
 
 	trainerType: "Item",
@@ -32,13 +33,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658806,
-		tcgplayer: 272397
-	}
-}
+		tcgplayer: 272397,
+	},
+};
 
-export default card
+export default card;

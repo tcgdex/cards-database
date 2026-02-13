@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [425],
@@ -11,38 +11,41 @@ const card: Card = {
 		es: "Drifloon",
 		it: "Drifloon",
 		pt: "Drifloon",
-		de: "Driftlon"
+		de: "Driftlon",
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Psychic"],
+	attacks: [
+		{
+			cost: ["Psychic"],
 
-		name: {
-			en: "Triple Spin",
-			fr: "Triple Tour",
-			es: "Triple Giro",
-			it: "Triploturbo",
-			pt: "Giro Triplo",
-			de: "Dreifachdreher"
+			name: {
+				en: "Triple Spin",
+				fr: "Triple Tour",
+				es: "Triple Giro",
+				it: "Triploturbo",
+				pt: "Giro Triplo",
+				de: "Dreifachdreher",
+			},
+
+			effect: {
+				en: "Flip 3 coins. This attack does 10 damage for each heads.",
+				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+				es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+				it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+				pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+				de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
+			},
+
+			damage: "10×",
 		},
-
-		effect: {
-			en: "Flip 3 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
-		},
-
-		damage: "10×"
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -51,13 +54,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658637,
-		tcgplayer: 272264
-	}
-}
+		tcgplayer: 272264,
+	},
+};
 
-export default card
+export default card;

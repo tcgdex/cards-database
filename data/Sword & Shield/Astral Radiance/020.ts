@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [723],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Dartrix",
 		it: "Dartrix",
 		pt: "Dartrix",
-		de: "Arboretoss"
+		de: "Arboretoss",
 	},
 
+	illustrator: "0313",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -25,38 +26,41 @@ const card: Card = {
 		es: "Rowlet",
 		it: "Rowlet",
 		pt: "Rowlet",
-		de: "Bauz"
+		de: "Bauz",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Colorless"],
+	attacks: [
+		{
+			cost: ["Colorless"],
 
-		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Asa",
-			de: "Flattern"
+			name: {
+				en: "Flap",
+				fr: "Battement",
+				es: "Aleteo",
+				it: "Alabattito",
+				pt: "Asa",
+				de: "Flattern",
+			},
+
+			damage: 30,
 		},
+		{
+			cost: ["Colorless", "Colorless", "Colorless"],
 
-		damage: 30
-	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
+			name: {
+				en: "Razor Wing",
+				fr: "Aile Tranchante",
+				es: "Ala Cortante",
+				it: "Ala Tagliente",
+				pt: "Asa Cortante",
+				de: "Rasierflügel",
+			},
 
-		name: {
-			en: "Razor Wing",
-			fr: "Aile Tranchante",
-			es: "Ala Cortante",
-			it: "Ala Tagliente",
-			pt: "Asa Cortante",
-			de: "Rasierflügel"
+			damage: 60,
 		},
-
-		damage: 60
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -65,13 +69,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658517,
-		tcgplayer: 272220
-	}
-}
+		tcgplayer: 272220,
+	},
+};
 
-export default card
+export default card;

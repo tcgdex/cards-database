@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	set: Set,
@@ -10,9 +10,10 @@ const card: Card = {
 		es: "Fósil Desconocido",
 		it: "Fossile Sconosciuto",
 		pt: "Fóssil Não Identificado",
-		de: "Unbekanntes Fossil"
+		de: "Unbekanntes Fossil",
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,7 +23,7 @@ const card: Card = {
 		es: "Juega esta carta como si fuera un Pokémon Colorless Básico de 60 PS. En cualquier momento durante tu turno, puedes descartar esta carta del juego.\nEsta carta no puede retirarse.",
 		it: "Gioca questa carta come se fosse un Pokémon Base Colorless con 60 PS. Durante il tuo turno, in qualsiasi momento, puoi scartare questa carta dal gioco.\nQuesta carta non può ritirarsi.",
 		pt: "Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 60. A qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.",
-		de: "Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 60 KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen."
+		de: "Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 60 KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.",
 	},
 
 	trainerType: "Item",
@@ -31,13 +32,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658818,
-		tcgplayer: 272409
-	}
-}
+		tcgplayer: 272409,
+	},
+};
 
-export default card
+export default card;

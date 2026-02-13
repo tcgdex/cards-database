@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import { Card } from "../../../interfaces";
+import Set from "../Astral Radiance";
 
 const card: Card = {
 	dexId: [82],
@@ -11,9 +11,10 @@ const card: Card = {
 		es: "Magneton",
 		it: "Magneton",
 		pt: "Magneton",
-		de: "Magneton"
+		de: "Magneton",
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -25,34 +26,36 @@ const card: Card = {
 		es: "Magnemite",
 		it: "Magnemite",
 		pt: "Magnemite",
-		de: "Magnetilo"
+		de: "Magnetilo",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Metal", "Colorless"],
+	attacks: [
+		{
+			cost: ["Metal", "Colorless"],
 
-		name: {
-			en: "Bounce Back",
-			fr: "Retour à l'Envoyeur",
-			es: "Recuperarse",
-			it: "Rimbalzo Indietro",
-			pt: "Ricochete de Retrocesso",
-			de: "Zurückprallen"
+			name: {
+				en: "Bounce Back",
+				fr: "Retour à l'Envoyeur",
+				es: "Recuperarse",
+				it: "Rimbalzo Indietro",
+				pt: "Ricochete de Retrocesso",
+				de: "Zurückprallen",
+			},
+
+			effect: {
+				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				fr: "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
+				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus.",
+			},
+
+			damage: 50,
 		},
-
-		effect: {
-			en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-			fr: "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
-			es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-			it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
-			pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-			de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
-		},
-
-		damage: 50
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "F",
@@ -61,13 +64,13 @@ const card: Card = {
 		normal: true,
 		reverse: true,
 		holo: false,
-		firstEdition: false
+		firstEdition: false,
 	},
 
 	thirdParty: {
 		cardmarket: 658767,
-		tcgplayer: 272307
-	}
-}
+		tcgplayer: 272307,
+	},
+};
 
-export default card
+export default card;
