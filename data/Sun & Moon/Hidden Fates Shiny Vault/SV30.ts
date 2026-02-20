@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Terhal",
 	},
 	illustrator: "Mizue",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

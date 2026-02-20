@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Tarsal",
 	},
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

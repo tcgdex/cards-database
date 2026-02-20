@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Tokopiyon-GX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare Secret",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,

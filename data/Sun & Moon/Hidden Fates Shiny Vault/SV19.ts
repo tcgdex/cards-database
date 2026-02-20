@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Vémini",
 	},
 	illustrator: "Akira Komayama",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

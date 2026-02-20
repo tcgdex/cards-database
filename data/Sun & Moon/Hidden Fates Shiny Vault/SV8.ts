@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Goupix d’Alola",
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

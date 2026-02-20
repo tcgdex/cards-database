@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Altaria",
 	},
 	illustrator: "kirisAki",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

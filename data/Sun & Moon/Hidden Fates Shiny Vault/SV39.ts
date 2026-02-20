@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Carmache",
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

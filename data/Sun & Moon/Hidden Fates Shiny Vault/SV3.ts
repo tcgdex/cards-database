@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Efflèche",
 	},
 	illustrator: "Shigenori Negishi",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

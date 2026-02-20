@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Kirlia",
 	},
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

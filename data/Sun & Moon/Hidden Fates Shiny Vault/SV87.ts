@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Réserve Naturelle du Paradis Æther",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare Secret",
+	rarity: "Secret Rare",
 	category: "Trainer",
 
 	set: Set,

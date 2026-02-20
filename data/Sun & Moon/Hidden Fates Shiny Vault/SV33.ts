@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Katagami",
 	},
 	illustrator: "Anesaki Dynamic",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

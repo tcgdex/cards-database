@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Chapelle des Châtiments",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare Secret",
+	rarity: "Secret Rare",
 	category: "Trainer",
 
 	set: Set,

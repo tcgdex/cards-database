@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Cynthia",
 	},
 	illustrator: "Yusuke Ohmura",
-	rarity: "Rare Ultra",
+	rarity: "Ultra Rare",
 	category: "Trainer",
 
 	set: Set,

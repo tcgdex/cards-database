@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Polichombr",
 	},
 	illustrator: "sui",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

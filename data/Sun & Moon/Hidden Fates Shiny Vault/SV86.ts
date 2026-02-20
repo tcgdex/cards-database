@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Mademoiselle",
 	},
 	illustrator: "Kanako Eo",
-	rarity: "Rare Ultra",
+	rarity: "Ultra Rare",
 	category: "Trainer",
 
 	set: Set,

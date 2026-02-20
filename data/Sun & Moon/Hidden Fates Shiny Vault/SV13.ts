@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Voltorbe",
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

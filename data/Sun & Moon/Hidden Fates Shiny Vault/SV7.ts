@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Reptincel",
 	},
 	illustrator: "nagimiso",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

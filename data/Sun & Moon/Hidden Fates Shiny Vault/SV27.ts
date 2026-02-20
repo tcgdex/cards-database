@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Magnéti",
 	},
 	illustrator: "SATOSHI NAKAI",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

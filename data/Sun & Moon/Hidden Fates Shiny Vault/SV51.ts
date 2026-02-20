@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Reshiram-GX",
 	},
 	illustrator: "PLANETA Igarashi",
-	rarity: "Rare Shiny GX",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

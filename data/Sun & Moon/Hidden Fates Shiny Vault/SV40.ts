@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Carchacrok",
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

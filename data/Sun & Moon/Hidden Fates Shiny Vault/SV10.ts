@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Maraiste",
 	},
 	illustrator: "Saya Tsuruta",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

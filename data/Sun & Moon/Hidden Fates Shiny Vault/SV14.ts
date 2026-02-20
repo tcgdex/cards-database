@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Câblifère",
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

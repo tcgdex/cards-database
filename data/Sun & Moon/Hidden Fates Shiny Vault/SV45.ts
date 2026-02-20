@@ -8,7 +8,7 @@ const card: Card = {
 		fr: "Type:0",
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

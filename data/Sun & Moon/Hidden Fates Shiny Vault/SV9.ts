@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Axoloto",
 	},
 	illustrator: "Misa Tsutsui",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

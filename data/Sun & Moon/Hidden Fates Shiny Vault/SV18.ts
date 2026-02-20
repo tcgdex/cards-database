@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Sepiatroce",
 	},
 	illustrator: "Hideki Ishikawa",
-	rarity: "Rare Shiny",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,
