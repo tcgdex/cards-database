@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "otumami",
 	category: "Pokemon",
+
+	dexId: [695],
 	hp: 90,
 	types: ["Lightning"],
 	stage: "Stage1",

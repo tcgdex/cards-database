@@ -10,7 +10,10 @@ const card: Card = {
 
 	illustrator: "K. Hoshiba",
 	rarity: "None",
-	category: "Pokemon",		hp: 60,
+	category: "Pokemon",		
+  hp: 60,
+
+	dexId: [212],
 	stage: "Basic",
 
 	attacks: [{

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [136],
 	hp: 110,
 	types: ["Fire"],
 

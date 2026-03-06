@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Nurikabe",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [746],
 	hp: 170,
 	types: ["Water"],
 	stage: "Basic",

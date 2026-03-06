@@ -13,11 +13,7 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		382, // Kyogre
-		383, // Groudon
-	],
-
+	dexId: [382, 383],
 	types: [
 		"Water",
 		"Fighting",
