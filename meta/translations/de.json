@@ -130,7 +130,12 @@
 		"league": "league",
 		"player-reward": "player-reward",
 		"professor-program": "professor-program",
-		"tinsel": "tinsel"
+		"tinsel": "tinsel",
+		"loveball": "Sympaball",
+		"friendball": "Freundesball",
+		"quickball": "Flottball",
+		"duskball": "Finsterball",
+		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
 		"1st-edition": "1. Auflage",

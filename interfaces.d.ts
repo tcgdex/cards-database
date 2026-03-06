@@ -87,6 +87,9 @@ export interface variant_detailed {
 	 */
 	foil?: 'pokeball' | 'greatball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
 	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'tinsel'
+	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
+	| 'mirror' | 'league' | 'player-reward' | 'professor-program' 
+	| 'loveball' | 'friendball' | 'quickball' | 'team-rocket' | 'duskball'
 
 	/**
 	 * list of languages for which this variant is available
