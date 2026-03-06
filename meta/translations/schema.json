@@ -150,9 +150,6 @@
 				},
 				"Mega Hyper Rare": {
 					"type": "string"
-				},
-				"Mega Attack Rare": {
-					"type": "string"
 				}
 			},
 			"required": [
@@ -183,8 +180,7 @@
 				"Special illustration rare",
 				"Ultra Rare",
 				"Uncommon",
-				"Mega Hyper Rare",
-				"Mega Attack Rare"
+				"Mega Hyper Rare"
 			],
 			"type": "object"
 		},
