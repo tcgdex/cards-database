@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Aqua's Grimer",
 		fr: "Tadmorv de la Team Aqua",
+		pt: "Grimer da Equipe Aqua",
 	},
 
 	illustrator: "kawayoo",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				pt: "Pancada",
 			},
 
 			damage: 10,
@@ -46,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Mud-Slap",
 				fr: "Coud'Boue",
+				pt: "Tapa de Lama",
 			},
 
 			damage: 30,

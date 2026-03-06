@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Yuya Oka",
 	category: "Pokemon",
+
+	dexId: [84],
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",

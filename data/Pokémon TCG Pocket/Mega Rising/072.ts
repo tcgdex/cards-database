@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [657],
 	hp: 80,
 	types: ["Water"],
 

@@ -5,6 +5,10 @@ const card: Card = {
 	dexId: [
 		661,
 	],
+	illustrator: "5ban Graphics",
+	description: {
+		en: "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements."
+	},
 	set: Set,
 	variants: {
 		normal: false,
@@ -32,14 +36,29 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Razor Wind",
 				fr: "Coupe-Vent",
 			},
 			damage: "20",
 			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 		},
 	],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		}
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		}
+	],
+	retreat: 1,
 }
 
 export default card

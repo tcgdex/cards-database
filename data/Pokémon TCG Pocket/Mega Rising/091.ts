@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [523],
 	hp: 100,
 	types: ["Lightning"],
 

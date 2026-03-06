@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Shinya Komatsu",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [340],
 	hp: 120,
 	types: ["Water"],
 

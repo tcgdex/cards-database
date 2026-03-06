@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 	rarity: "Four Diamond",
 	category: "Pokemon",
+
+	dexId: [980],
 	hp: 160,
 	types: ["Darkness"],
 

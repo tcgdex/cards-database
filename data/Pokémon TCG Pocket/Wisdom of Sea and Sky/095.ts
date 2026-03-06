@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Shiburingaru",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [472],
 	hp: 100,
 	types: ["Fighting"],
 

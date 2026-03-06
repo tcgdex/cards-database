@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		93,
 	],
+	
+	hp: 80,
 
 	types: [
 		"Psychic",

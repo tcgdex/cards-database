@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "kantaro",
 	category: "Pokemon",
+
+	dexId: [5],
 	hp: 90,
 	types: ["Fire"],
 	stage: "Stage1",

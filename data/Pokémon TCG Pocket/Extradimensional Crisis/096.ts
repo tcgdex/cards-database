@@ -11,6 +11,8 @@ const card: Card = {
 
 	illustrator: "Misa Tsutsui",
 	category: "Pokemon",
+
+	dexId: [17],
 	hp: 80,
 	types: ["Colorless"],
 
