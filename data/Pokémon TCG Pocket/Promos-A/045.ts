@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Tomokazu Komiya",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [299],
 	hp: 60,
 	types: ["Fighting"],
 

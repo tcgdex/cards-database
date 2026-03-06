@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+
+	dexId: [214],
 	hp: 280,
 	types: ["Grass"],
 	stage: "Basic",
-	dexId: [214],
 
 	attacks: [{
 		cost: ["Grass", "Grass"],

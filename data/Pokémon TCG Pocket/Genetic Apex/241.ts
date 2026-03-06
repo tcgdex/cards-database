@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "nagimiso",
 	category: "Pokemon",
+
+	dexId: [34],
 	hp: 150,
 	types: ["Darkness"],
 	stage: "Stage2",

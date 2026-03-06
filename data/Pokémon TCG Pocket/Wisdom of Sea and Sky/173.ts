@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Terada Tera",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [175],
 	hp: 60,
 	types: ["Psychic"],
 

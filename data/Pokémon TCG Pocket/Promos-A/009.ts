@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Atsushi Furusawa",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [25],
 	types: ["Lightning"],
 	stage: "Basic",
 

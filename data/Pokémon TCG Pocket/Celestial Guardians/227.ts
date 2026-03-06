@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [105],
 	hp: 100,
 	types: ["Fighting"],
 

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Midori Harada",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [755],
 	hp: 50,
 	types: ["Psychic"],
 

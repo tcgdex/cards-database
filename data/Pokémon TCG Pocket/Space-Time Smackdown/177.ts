@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Shinya Komatsu",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [399],
 	hp: 60,
 	types: ["Colorless"],
 
