@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Takumi Wada",
 	rarity: "Three Star",
 	category: "Pokemon",
+
+	dexId: [493],
 	hp: 140,
 	types: ["Colorless"],
 	stage: "Basic",

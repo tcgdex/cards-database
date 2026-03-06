@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Nurikabe",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [833],
 	hp: 80,
 	types: ["Water"],
 

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Naoyo Kimura",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [551],
 	hp: 70,
 	types: ["Darkness"],
 

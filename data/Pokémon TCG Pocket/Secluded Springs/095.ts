@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [98],
 	hp: 70,
 	types: ["Water"],
 

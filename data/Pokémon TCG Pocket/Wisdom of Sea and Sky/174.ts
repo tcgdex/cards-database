@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Masako Tomii",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [178],
 	hp: 80,
 	types: ["Psychic"],
 

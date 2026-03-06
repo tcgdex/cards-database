@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Katsura Tabata",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [215],
 	stage: "Basic",
 
 	attacks: [{

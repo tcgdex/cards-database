@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Hideki Ishikawa",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [157],
 	hp: 140,
 	types: ["Fire"],
 

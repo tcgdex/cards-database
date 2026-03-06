@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 90,
 	types: ["Metal"],
 	stage: "Basic",
+	dexId: [303],
 
 	attacks: [{
 		cost: ["Colorless"],

@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "PLANETA Igarashi",
 	rarity: "Two Shiny",
 	category: "Pokemon",
+
+	dexId: [68],
 	hp: 180,
 	types: ["Fighting"],
 

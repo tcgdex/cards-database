@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Stage1",
+	dexId: [941],
 
 	abilities: [{
 		type: "Ability",

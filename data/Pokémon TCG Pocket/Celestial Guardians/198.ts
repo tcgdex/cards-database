@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Takumi Wada",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [724],
 	hp: 170,
 	types: ["Grass"],
 
