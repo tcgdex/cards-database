@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Cona Nitanda",
 	category: "Pokemon",
+
+	dexId: [670],
 	hp: 70,
 	types: ["Psychic"],
 

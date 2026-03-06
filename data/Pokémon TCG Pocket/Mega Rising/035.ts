@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "GOSSAN",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [257],
 	hp: 140,
 	types: ["Fire"],
 

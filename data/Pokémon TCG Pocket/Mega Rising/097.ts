@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [177],
 	hp: 60,
 	types: ["Psychic"],
 

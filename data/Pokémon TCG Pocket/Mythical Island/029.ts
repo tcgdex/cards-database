@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Mitsuhiro Arita",
 	category: "Pokemon",
+
+	dexId: [596],
 	hp: 80,
 	types: ["Lightning"],
 
