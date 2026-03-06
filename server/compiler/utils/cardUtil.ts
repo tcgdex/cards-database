@@ -9,27 +9,17 @@ import { objectMap, objectPick } from '@dzeio/object-util'
 import { variant_detailed } from "../../public/v2/api";
 import { variantToIdentifier } from "./variantUtil.ts";
 
-export async function getCardPictures(
-	cardId: string,
-	card: Card,
-	lang: SupportedLanguages,
-	variant?: string
-): Promise<string | undefined> {
+export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
-		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json');
-
-		const exists = variant !== undefined
-			? Boolean(file[lang]?.[card.set.serie.id]?.[card.set.id]?.[`${cardId}-${variant}`])
-			: Boolean(file[lang]?.[card.set.serie.id]?.[card.set.id]?.[cardId]);
-		if (exists) {
-			return variant !== undefined
-				? `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}-${variant}`
-				: `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`;
+		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
+		const fileExists = Boolean(file[lang]?.[card.set.serie.id]?.[card.set.id]?.[cardId])
+		if (fileExists) {
+			return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`
 		}
 	} catch {
-		return undefined;
+		return undefined
 	}
-	return undefined;
+	return undefined
 }
 
 export async function cardToCardSimple(id: string, card: Card, lang: SupportedLanguages): Promise<CardResume> {
@@ -126,7 +116,6 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 					foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined,
 					thirdParty: variant.thirdParty,
 					variantId,
-					image: await getCardPictures(localId, card, lang, variantId)
 				};
 			}))
 			: variantsToVariantsDetailed(card.variants, lang),
