@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [918],
+
 	name: {
 		en: "Team Rocket's Spidops",
 		fr: "Filentrappe de la Team Rocket",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Grass"],
 	stage: "Stage1",
+	dexId: [918],
 
 	abilities: [{
 		type: "Ability",

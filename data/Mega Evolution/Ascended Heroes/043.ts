@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [160],
+
 	name: {
 		en: "Mega Feraligatr ex",
 		fr: "Méga-Aligatueur-ex",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 370,
 	types: ["Water"],
 	stage: "Stage2",
+	dexId: [160],
 
 	attacks: [{
 		cost: ["Water", "Water", "Colorless"],

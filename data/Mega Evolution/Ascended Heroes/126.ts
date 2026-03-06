@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [198],
+
 	name: {
 		en: "Team Rocket's Murkrow",
 		fr: "Cornèbre de la Team Rocket",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Basic",
+	dexId: [198],
 
 	attacks: [{
 		cost: ["Colorless"],

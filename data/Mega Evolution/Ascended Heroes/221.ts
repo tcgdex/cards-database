@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [406],
+
 	name: {
 		en: "Budew",
 		fr: "Rozbouton",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 30,
 	types: ["Grass"],
 	stage: "Basic",
+	dexId: [406],
 
 	attacks: [{
 		name: {

@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [25],
+
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
+	dexId: [25],
 
 	attacks: [{
 		cost: ["Lightning"],

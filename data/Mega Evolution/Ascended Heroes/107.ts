@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [377],
+
 	name: {
 		en: "Regirock ex",
 		fr: "Regirock-ex",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 230,
 	types: ["Fighting"],
 	stage: "Basic",
+	dexId: [377],
 
 	attacks: [{
 		cost: ["Colorless"],

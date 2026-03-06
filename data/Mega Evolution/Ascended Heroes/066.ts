@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [738],
+
 	name: {
 		en: "Vikavolt",
 		fr: "Lucanon",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 160,
 	types: ["Lightning"],
 	stage: "Stage2",
+	dexId: [738],
 
 	attacks: [{
 		cost: ["Lightning"],

@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [218],
+
 	name: {
 		en: "Ethan's Slugma",
 		fr: "Limagma de Luth",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Fire"],
 	stage: "Basic",
+	dexId: [218],
 
 	attacks: [{
 		cost: ["Fire"],

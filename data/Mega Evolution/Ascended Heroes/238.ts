@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [778],
+
 	name: {
 		en: "Team Rocket's Mimikyu",
 		fr: "Mimiqui de la Team Rocket",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
+	dexId: [778],
 
 	attacks: [{
 		cost: ["Psychic", "Colorless"],

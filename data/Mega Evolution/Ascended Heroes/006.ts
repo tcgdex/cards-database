@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [71],
+
 	name: {
 		en: "Erika's Victreebel",
 		fr: "Empiflor d'Erika",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 150,
 	types: ["Grass"],
 	stage: "Stage2",
+	dexId: [71],
 
 	attacks: [{
 		cost: ["Grass", "Colorless"],

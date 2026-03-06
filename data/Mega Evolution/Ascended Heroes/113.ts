@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [448],
+
 	name: {
 		en: "Mega Lucario ex",
 		fr: "Méga-Lucario-ex",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 340,
 	types: ["Fighting"],
 	stage: "Stage1",
+	dexId: [448],
 
 	attacks: [{
 		cost: ["Fighting"],

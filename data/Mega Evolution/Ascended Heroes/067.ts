@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [785],
+
 	name: {
 		en: "Tapu Koko",
 		fr: "Tokorico",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Basic",
+	dexId: [785],
 
 	attacks: [{
 		cost: ["Lightning"],

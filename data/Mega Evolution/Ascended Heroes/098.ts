@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [897],
+
 	name: {
 		en: "Spectrier",
 		fr: "Spectreval",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Psychic"],
 	stage: "Basic",
+	dexId: [897],
 
 	attacks: [{
 		cost: ["Psychic"],

@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [6],
+
 	name: {
 		en: "Mega Charizard Y ex",
 		fr: "Méga-Dracaufeu Y-ex",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 360,
 	types: ["Fire"],
 	stage: "Stage2",
+	dexId: [6],
 
 	attacks: [{
 		cost: ["Fire", "Fire", "Colorless"],

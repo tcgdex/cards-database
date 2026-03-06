@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [184],
+
 	name: {
 		en: "Azumarill ex",
 		fr: "Azumarill-ex",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 270,
 	types: ["Psychic"],
 	stage: "Stage1",
+	dexId: [184],
 
 	abilities: [{
 		type: "Ability",

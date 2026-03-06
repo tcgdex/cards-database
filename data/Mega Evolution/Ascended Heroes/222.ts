@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [219],
+
 	name: {
 		en: "Ethan's Magcargo",
 		fr: "Volcaropod de Luth",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Fire"],
 	stage: "Stage1",
+	dexId: [219],
 
 	abilities: [{
 		type: "Ability",

@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [1014],
+
 	name: {
 		en: "Okidogi",
 		fr: "Félicanis",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Basic",
+	dexId: [1014],
 
 	attacks: [{
 		cost: ["Fighting"],

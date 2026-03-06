@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [777],
+
 	name: {
 		en: "Togedemaru ex",
 		fr: "Togedemaru-ex",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 190,
 	types: ["Metal"],
 	stage: "Basic",
+	dexId: [777],
 
 	attacks: [{
 		cost: ["Metal"],

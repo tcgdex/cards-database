@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [263],
+
 	name: {
 		en: "Galarian Zigzagoon",
 		fr: "Zigzaton de Galar",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
+	dexId: [263],
 
 	attacks: [{
 		cost: ["Darkness"],

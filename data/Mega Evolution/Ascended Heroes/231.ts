@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [940],
+
 	name: {
 		en: "Iono's Wattrel",
 		fr: "Zapétrel de Mashynn",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",
+	dexId: [940],
 
 	attacks: [{
 		cost: ["Lightning"],

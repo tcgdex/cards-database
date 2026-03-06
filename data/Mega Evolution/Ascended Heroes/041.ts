@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [158],
+
 	name: {
 		en: "Totodile",
 		fr: "Kaiminus",
@@ -20,6 +22,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Water"],
 	stage: "Basic",
+	dexId: [158],
 
 	attacks: [{
 		cost: ["Water", "Water"],
