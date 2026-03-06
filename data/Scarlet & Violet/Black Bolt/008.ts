@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Maractus"
 	},
 
+	illustrator: "mingo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

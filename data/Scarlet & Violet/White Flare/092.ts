@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sawsbuck"
 	},
 
+	illustrator: "Yano Keiji",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,

@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Ralts"
+		en: "Ralts",
+		fr: "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -73,7 +74,7 @@ const card: Card = {
 	illustrator: "Jiro Sasumo",
 
 	thirdParty: {
-        cardmarket: 702381,
+        cardmarket: 702508,
         tcgplayer: 490072
     }
 }

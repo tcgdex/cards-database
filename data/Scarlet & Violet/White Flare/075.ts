@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Herdier"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

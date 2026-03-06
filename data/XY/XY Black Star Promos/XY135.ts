@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Beheeyem BREAK",
+		fr: "Neitram TURBO"
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Beheeyem",
+		fr: "Neitram"
 	},
 
 	stage: "BREAK",
@@ -36,9 +38,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Cosmic Circle",
+				fr: "Cercle Cosmique"
 			},
 			effect: {
 				en: "Move as many Psychic Energy attached to your Pokémon to your other Pokémon in any way you like.",
+				fr: "Déplacez autant d'Énergies  attachées à vos Pokémon que vous voulez vers vos autres Pokémon, de la manière que vous voulez."
 			},
 			damage: 100,
 

@@ -27,7 +27,8 @@ const card: Card = {
 			"Fighting"
 		],
 		name: {
-			en: "Pound"
+			en: "Pound",
+			fr: "Écras'Face"
 		},
 		damage: 30
 	}],

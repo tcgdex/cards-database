@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Scolipede"
 	},
 
+	illustrator: "Oku",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 160,

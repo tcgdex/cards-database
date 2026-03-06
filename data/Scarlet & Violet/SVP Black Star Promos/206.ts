@@ -14,6 +14,9 @@ const card: Card = {
 		pt: "Morpeko da Marine"
 	},
 
+
+	illustrator: "Susumu Maeya",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 70,

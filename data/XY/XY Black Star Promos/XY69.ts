@@ -49,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aeroscream",
+				fr: "Cri Aérien"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard 2 Energy attached to this Pokémon.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à ce Pokémon."
 			},
 			damage: 130,
 

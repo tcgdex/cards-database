@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Arcanine"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

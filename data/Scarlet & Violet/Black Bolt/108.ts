@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Alomomola"
 	},
 
+	illustrator: "Rond",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,

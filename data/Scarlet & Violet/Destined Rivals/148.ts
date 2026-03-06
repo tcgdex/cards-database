@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Raticate del Equipo Rocket"
 	},
 
+
+	illustrator: "Uninori",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

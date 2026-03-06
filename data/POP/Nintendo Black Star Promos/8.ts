@@ -4,6 +4,7 @@ import Set from '../Nintendo Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Torchic",
+		fr: "Poussifeu"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
+				fr: "Picpic"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fireworks",
+				fr: "Feu d'artifice"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Torchic.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Poussifeu."
 			},
 			damage: 30,
 

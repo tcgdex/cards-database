@@ -38,10 +38,21 @@ const card: Card = {
 		ja: "モンメン",
 	},
 
+	variants: [
+		{
+			type: "holo",
+		},
+	],
+
 	retreat: 0,
 	regulationMark: "I",
 	rarity: "Ultra Rare",
 	suffix: "EX",
+	dexId: [547],
+	thirdParty: {
+		cardmarket: 829518,
+		tcgplayer: 636712,
+	},
 };
 
 export default card;

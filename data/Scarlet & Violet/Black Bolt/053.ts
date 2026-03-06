@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Landorus"
 	},
 
+	illustrator: "Kazumasa Yasukuni",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,

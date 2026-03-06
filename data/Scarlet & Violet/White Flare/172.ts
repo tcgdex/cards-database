@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Victini"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Black White Rare",
 	category: "Pokemon",
 	hp: 80,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tranquill"
 	},
 
+	illustrator: "Tomomi Ozaki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Dwebble"
 	},
 
+	illustrator: "Kanami Ogata",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

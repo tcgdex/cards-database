@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Magikarp de Misty"
 	},
 
+	illustrator: "Shimaris Yukichi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 30,

@@ -35,6 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 3 coins. For each heads, attach a basic Energy card from your discard pile to your Benched Pokémon-EX in any way you like.",
+				fr: "Lancez 3 pièces. Pour chaque côté face, attachez une carte Énergie de base de votre pile de défausse à vos Pokémon-EX de Banc, de la manière que vous voulez."
 			},
 
 		},
@@ -45,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Slash",
+				fr: "Tranch'Griffe"
 			},
 
 			damage: 20,

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Hypno del Equipo Rocket"
 	},
 
+
+	illustrator: "Yuya Oka",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

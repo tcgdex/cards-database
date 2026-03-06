@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Druddigon"
 	},
 
+	illustrator: "Nurikabe",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

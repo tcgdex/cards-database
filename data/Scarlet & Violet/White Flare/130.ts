@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sawk"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,

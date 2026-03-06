@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Throh"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,

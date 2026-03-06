@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Whimsicott ex"
 	},
 
+	illustrator: "mele",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 230,

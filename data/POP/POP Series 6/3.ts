@@ -4,6 +4,7 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Manaphy",
+		fr: "Manaphy"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Family",
+				fr: "Appel à la famille"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				fr: "Choisissez dans votre deck un Pokémon de Base et placez-le sur votre Banc. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Ring",
+				fr: "Anneau hydro"
 			},
 			effect: {
 				en: "Switch Manaphy with 1 of your Benched Pokémon.",
+				fr: "Échangez Manaphy avec 1 des Pokémon de votre Banc."
 			},
 			damage: 30,
 

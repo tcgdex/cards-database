@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Emolga"
 	},
 
+	illustrator: "Tomowaka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

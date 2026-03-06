@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Aventura de Ethan"
 	},
 
+
+	illustrator: "Kariya",
+
 	rarity: "Special illustration rare",
 	category: "Trainer",
 

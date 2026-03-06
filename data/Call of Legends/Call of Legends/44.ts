@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Flareon",
+		fr: "Pyroli",
 		de: "Flamara"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	stage: "Stage1",
@@ -35,6 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flame Tail",
+				fr: "Queue de flammes",
 				de: "Flammenschweif"
 			},
 
@@ -49,10 +52,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
+				fr: "Lance-flamme",
 				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to Flareon.",
+				fr: "Défaussez une carte Énergie attachée à Pyroli.",
 				de: "Lege 1 an Flamara angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 90,

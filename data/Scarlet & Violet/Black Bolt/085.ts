@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Investigación de Profesores"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Uncommon",
 	category: "Trainer",
 

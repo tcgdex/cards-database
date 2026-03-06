@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Haxorus"
 	},
 
+	illustrator: "Taiga Kasai",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 170,

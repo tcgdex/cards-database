@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Carracosta"
 	},
 
+	illustrator: "Takeshi Nakamura",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 180,

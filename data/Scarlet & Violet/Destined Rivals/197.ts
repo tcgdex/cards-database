@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Rotom"
 	},
 
+
+	illustrator: "Taiga Kayama",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

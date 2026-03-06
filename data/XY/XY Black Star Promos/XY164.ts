@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Volcanion",
+		fr: "Volcanion"
 	},
 
 	illustrator: "TOKIYA",
@@ -32,9 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Concentrated Fire",
+				fr: "Feu Concentré"
 			},
 			effect: {
 				en: "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
+				fr: "Lancez une pièce pour chaque Énergie  attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 50,
 
@@ -48,9 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion Impact",
+				fr: "Impact de Combustion"
 			},
 			effect: {
 				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
 			},
 			damage: 100,
 

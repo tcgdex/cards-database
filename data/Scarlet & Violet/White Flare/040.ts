@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cofagrigus"
 	},
 
+	illustrator: "Bun Toujo",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

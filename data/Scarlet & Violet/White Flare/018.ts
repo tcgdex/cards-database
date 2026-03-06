@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Chandelure"
 	},
 
+	illustrator: "satoma",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
