@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		493,
 	],
+	
+	hp: 120,
 
 	types: [
 		"Colorless",
