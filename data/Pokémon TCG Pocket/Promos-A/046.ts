@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Uninori",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [443],
 	hp: 60,
 	types: ["Fighting"],
 

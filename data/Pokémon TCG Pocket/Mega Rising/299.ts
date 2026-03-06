@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "MAHOU",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [490],
 	hp: 50,
 	types: ["Water"],
 

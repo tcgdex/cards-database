@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Yoko Hishida",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [789],
 	hp: 60,
 	types: ["Psychic"],
 

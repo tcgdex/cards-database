@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Mékayu",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [143],
 	hp: 160,
 	types: ["Colorless"],
 	stage: "Basic",

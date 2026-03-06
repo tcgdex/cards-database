@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Nurikabe",
 	category: "Pokemon",
+
+	dexId: [150],
 	hp: 150,
 	types: ["Psychic"],
 	stage: "Basic",

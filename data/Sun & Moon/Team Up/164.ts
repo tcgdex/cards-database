@@ -16,10 +16,7 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		94,
-	],
-
+	dexId: [94, 778],
 	hp: 240,
 
 	types: [

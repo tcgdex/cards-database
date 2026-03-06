@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Makura Tami",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [240],
 	hp: 30,
 	types: ["Fire"],
 

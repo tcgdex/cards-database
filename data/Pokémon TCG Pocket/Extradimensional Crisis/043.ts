@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "PLANETA Yamashita",
 	rarity: "Four Diamond",
 	category: "Pokemon",
+
+	dexId: [799],
 	hp: 170,
 	types: ["Darkness"],
 	stage: "Basic",

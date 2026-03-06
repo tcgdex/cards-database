@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [2],
 	stage: "Stage1",
 
 	abilities: [{
