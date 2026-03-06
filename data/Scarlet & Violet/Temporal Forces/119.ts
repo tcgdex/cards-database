@@ -69,9 +69,37 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{ 
+			type: "holo",
+			foil: "cosmos"
+		},
+		{ 
+			type: "normal",
+			stamp: ["eb-games"]
+		},
+		{ 
+			type: "normal",
+			stamp: ["gamestop"]
+		},
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "Teeziro",
 

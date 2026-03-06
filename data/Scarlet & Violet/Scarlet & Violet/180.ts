@@ -35,8 +35,9 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 
 	thirdParty: {
-		cardmarket: 702476
-	}
+        cardmarket: 702476,
+        tcgplayer: 488086
+    }
 }
 
 export default card

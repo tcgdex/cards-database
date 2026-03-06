@@ -4,6 +4,7 @@ import Set from '../Macdonald\'s Collection 2021'
 const card: Card = {
 	name: {
 		en: "Bulbasaur",
+		fr: "Bulbizarre"
 	},
 
 	illustrator: "Mizue",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch'Herbe"
 			},
 
 			damage: 30,

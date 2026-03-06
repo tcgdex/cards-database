@@ -1,0 +1,63 @@
+import { Card } from "../../../interfaces"
+import Set from "../Ascended Heroes"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Dreepy",
+		fr: "Fantyrm",
+		es: "Dreepy",
+		'es-mx': "Dreepy",
+		de: "Grolldra",
+		it: "Dreepy",
+		pt: "Dreepy"
+	},
+
+	illustrator: "Scav",
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Dragon"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Psychic"],
+
+		name: {
+			en: "Petty Grudge",
+			fr: "Rancune Mesquine",
+			es: "Rencor Ruin",
+			'es-mx': "Rencor Ruin",
+			de: "Mini-Groll",
+			it: "Rancormeschino",
+			pt: "Rancinho"
+		},
+
+		damage: 10
+	}, {
+		cost: ["Fire", "Psychic"],
+
+		name: {
+			en: "Bite",
+			fr: "Morsure",
+			es: "Mordisco",
+			'es-mx': "Mordida",
+			de: "Biss",
+			it: "Morso",
+			pt: "Mordida"
+		},
+
+		damage: 40
+	}],
+
+	retreat: 1,
+	regulationMark: "H",
+
+	thirdParty: {
+		tcgplayer: 675970,
+		cardmarket: 869769
+	}
+}
+
+export default card

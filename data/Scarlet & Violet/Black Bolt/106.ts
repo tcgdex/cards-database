@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tirtouga"
 	},
 
+	illustrator: "Akino Fukuji",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,

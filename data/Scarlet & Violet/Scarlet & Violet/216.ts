@@ -59,8 +59,9 @@ const card: Card = {
 	illustrator: "Nurikabe",
 
 	thirdParty: {
-		cardmarket: 702411
-	}
+        cardmarket: 702512,
+        tcgplayer: 489631
+    }
 }
 
 export default card

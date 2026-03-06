@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electrike"
+		en: "Electrike",
+		fr: "Dynavolt"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,7 +25,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'boule"
 		},
 		damage: 10
 	}],

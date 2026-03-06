@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Trubbish"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

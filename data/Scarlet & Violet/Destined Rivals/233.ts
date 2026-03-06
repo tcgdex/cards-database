@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Nidoking ex del Equipo Rocket"
 	},
 
+
+	illustrator: "Uninori",
+
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 330,

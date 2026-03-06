@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Litwick"
 	},
 
+	illustrator: "satoma",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

@@ -4,9 +4,10 @@ import Set from '../SM Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Pikachu",
+		fr: "Pikachu"
 	},
 	illustrator: "kirisAki",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Wave",
+				fr: "Cage-Éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 			},
 
 		},
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Electro Ball",
+				fr: "Boule Élek"
 			},
 
 			damage: 50,

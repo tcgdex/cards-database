@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Basculin"
 	},
 
+	illustrator: "Nakamura Ippan",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

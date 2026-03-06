@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Metagross ex de Steven"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 340,

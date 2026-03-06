@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Crustle"
 	},
 
+	illustrator: "MINAMINAMI Take",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,

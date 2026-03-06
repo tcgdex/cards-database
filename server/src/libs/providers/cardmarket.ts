@@ -63,6 +63,6 @@ export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: numb
 	return Object.assign({
 		updated: lastUpdate!.toISOString(),
 		unit: 'EUR'
-	}, objectOmit(input, 'idProduct', 'idCategory'))
+	}, objectOmit(input,  'idCategory'))
 
 }

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Swadloon"
 	},
 
+	illustrator: "0313",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,

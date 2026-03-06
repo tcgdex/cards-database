@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Basculin"
 	},
 
+	illustrator: "KEIICHIRO ITO",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

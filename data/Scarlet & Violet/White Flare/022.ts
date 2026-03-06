@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Dewott"
 	},
 
+	illustrator: "rika",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

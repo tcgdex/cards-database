@@ -14,17 +14,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Wrap"
+			en: "Wrap",
+			fr: "Ligotage"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 		}
 	}, {
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 
 		damage: 30
@@ -38,7 +41,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Servine"
+		en: "Servine",
+		fr: "Lianaja"
 	},
 
 	rarity: "None",

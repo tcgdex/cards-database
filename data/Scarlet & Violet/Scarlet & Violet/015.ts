@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Floragato"
+		en: "Floragato",
+		fr: "Matourgeon"
 	},
 
 	stage: "Stage2",
@@ -73,8 +74,9 @@ const card: Card = {
 	illustrator: "Ryota Murayama",
 
 	thirdParty: {
-		cardmarket: 702311
-	}
+        cardmarket: 702311,
+        tcgplayer: 487848
+    }
 }
 
 export default card

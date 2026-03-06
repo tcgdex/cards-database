@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Capsakid"
+		en: "Capsakid",
+		fr: "Pimito"
 	},
 
 	stage: "Stage1",
@@ -82,8 +83,9 @@ const card: Card = {
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	thirdParty: {
-		cardmarket: 702325
-	}
+        cardmarket: 702498,
+        tcgplayer: 490062
+    }
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Growlithe",
 		fr: "Caninos",
-		de: "Fukano"
+		de: "Fukano",
+		it: "Growlithe"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,7 +35,8 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Intimidation",
-				de: "Flackern"
+				de: "Flackern",
+				it: "Fiammata"
 			},
 
 			damage: 20,
@@ -50,7 +52,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Pour protéger son territoire, il aboie et mord jusqu'à ce que les intrus s'enfuient."
+		fr: "Pour protéger son territoire, il aboie et mord jusqu'à ce que les intrus s'enfuient.",
+		it: "Difende con tenacia il suo territorio. Abbaia e morde per cacciare gli intrusi che osano avvicinarsi. LIV 18 N.58"
 	},
 
 	thirdParty: {

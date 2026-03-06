@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	stage: "Stage1",
@@ -63,9 +64,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Psy Report",
+				fr: "Observation Psychique"
 			},
 			effect: {
 				en: "Your opponent reveals his or her hand.",
+				fr: "Votre adversaire montre sa main."
 			},
 			damage: 60,
 

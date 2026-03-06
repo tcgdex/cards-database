@@ -14,19 +14,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Scratch"
+			en: "Scratch",
+			fr: "Griffe"
 		},
 
 		damage: 10
 	}, {
 		name: {
-			en: "Fury Swipes"
+			en: "Fury Swipes",
+			fr: "Combo-Griffe"
 		},
 
 		damage: "10×",
 
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage times the number of heads."
+			en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
+			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
 		}
 	}],
 
@@ -38,7 +41,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Zorua"
+		en: "Zorua",
+		fr: "Zorua"
 	},
 
 	rarity: "None",

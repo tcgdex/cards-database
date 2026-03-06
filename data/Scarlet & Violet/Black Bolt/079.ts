@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Globo con Helio"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 

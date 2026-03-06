@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pinsir de Ethan"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

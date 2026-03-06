@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Croagunk"
+		en: "Croagunk",
+		fr: "Cradopaud"
 	},
 
 	stage: "Stage1",
@@ -85,8 +86,9 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 702426
-	}
+        cardmarket: 702426,
+        tcgplayer: 488019
+    }
 }
 
 export default card

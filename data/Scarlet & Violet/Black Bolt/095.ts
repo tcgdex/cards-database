@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Foongus"
 	},
 
+	illustrator: "buchi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 50,

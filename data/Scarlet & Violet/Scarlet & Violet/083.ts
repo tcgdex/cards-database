@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Drowzee"
+		en: "Drowzee",
+		fr: "Soporifik"
 	},
 
 	stage: "Stage1",
@@ -70,8 +71,9 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 
 	thirdParty: {
-		cardmarket: 702379
-	}
+        cardmarket: 702379,
+        tcgplayer: 487946
+    }
 }
 
 export default card

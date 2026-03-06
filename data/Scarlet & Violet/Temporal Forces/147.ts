@@ -28,9 +28,27 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["regional-championships"]
+		},
+		{
+			type: "normal",
+			stamp: ["regional-championships", "staff"]
+		}
+	],
 
 	illustrator: "Hideki Ishikawa",
 

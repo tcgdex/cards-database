@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Leap Through Time",
+				fr: "Bond Temporel"
 			},
 			effect: {
 				en: "When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can't take a Prize card. Shuffle this Pokémon and all cards attached to it into your deck.",
+				fr: "Lorsque ce Pokémon est mis K.O., lancez une pièce. Si c'est face, mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck, et votre adversaire ne peut pas récupérer de carte Récompense pour cette carte."
 			},
 		},
 	],
@@ -47,6 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Put 1 damage counter on each of your opponent's Pokémon.",
+				fr: "Placez 1 marqueur de dégâts sur chacun des Pokémon de votre adversaire."
 			},
 
 		},

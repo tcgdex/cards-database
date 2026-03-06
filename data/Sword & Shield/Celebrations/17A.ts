@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Umbreon Star"
+		en: "Umbreon Star",
+		fr: "Groudon"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,11 +31,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Feint Attack"
+			en: "Feint Attack",
+			fr: "Volcan Magma"
 		},
 
 		effect: {
-			en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon."
+			en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+			fr: "Défaussez les 5 cartes du dessus de votre deck. Cette attaque inflige 80 dégâts pour chaque carte Énergie défaussée de cette façon."
 		},
 
 		cost: ["Darkness", "Darkness"]

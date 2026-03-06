@@ -63,6 +63,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 857583
 	}

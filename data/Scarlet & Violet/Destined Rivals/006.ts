@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Breloom"
 	},
 
+	illustrator: "nisimono",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 120,

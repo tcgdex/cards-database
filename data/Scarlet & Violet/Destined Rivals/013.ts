@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Fomantis"
 	},
 
+	illustrator: "mashu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

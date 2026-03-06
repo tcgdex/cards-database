@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Deino"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,

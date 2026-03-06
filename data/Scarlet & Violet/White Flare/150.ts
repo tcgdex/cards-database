@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Durant"
 	},
 
+	illustrator: "Scav",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,

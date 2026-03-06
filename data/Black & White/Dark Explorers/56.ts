@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drilbur",
+		fr: "Rototaupe"
 	},
 
 	stage: "Stage1",
@@ -39,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tunnel Strike",
+				fr: "Frappe en Tunnel"
 			},
 			effect: {
 				en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 
 		},
@@ -52,9 +55,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig Uppercut",
+				fr: "Poing Excavateur"
 			},
 			effect: {
 				en: "Put a card from your discard pile into your hand.",
+				fr: "Ajoutez une carte de votre pile de défausse à votre main."
 			},
 			damage: 50,
 

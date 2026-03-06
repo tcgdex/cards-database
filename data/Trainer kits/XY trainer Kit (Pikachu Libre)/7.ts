@@ -28,13 +28,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Double Peck"
+			en: "Double Peck",
+			fr: "Double Picpic"
 		},
 
 		damage: "10×",
 
 		effect: {
-			en: "Flip 2 coins. This attack does 10 damage times the number of heads."
+			en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
 		}
 	}],
 

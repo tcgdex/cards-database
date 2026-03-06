@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Crustle"
 	},
 
+	illustrator: "Tetsu Kayama",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,

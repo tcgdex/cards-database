@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Shroomish"
+		en: "Shroomish",
+		fr: "Balignon"
 	},
 
 	stage: "Stage1",
@@ -50,8 +51,9 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 
 	thirdParty: {
-		cardmarket: 702301
-	}
+        cardmarket: 702301,
+        tcgplayer: 487833
+    }
 }
 
 export default card

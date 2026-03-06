@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Scrafty"
 	},
 
+	illustrator: "osare",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

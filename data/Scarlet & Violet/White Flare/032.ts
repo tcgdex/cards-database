@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zebstrika"
 	},
 
+	illustrator: "Mugi Hamada",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

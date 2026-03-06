@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Beheeyem"
 	},
 
+	illustrator: "Aya Kusube",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

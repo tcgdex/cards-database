@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Servine"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,

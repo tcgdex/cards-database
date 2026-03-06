@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Galvantula"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

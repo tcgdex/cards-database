@@ -58,8 +58,9 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	thirdParty: {
-		cardmarket: 689763
-	}
+        cardmarket: 689763,
+        tcgplayer: 475417
+    }
 }
 
 export default card

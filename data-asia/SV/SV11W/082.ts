@@ -14,16 +14,23 @@ const card: Card = {
 		ja: "このカードをつけているポケモン（「ルールを持つポケモン」をのぞく）が使うワザの、相手のバトル場の「ポケモンex」へのダメージは「+30」される。",
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+	],
 
 	trainerType: "Tool",
 	regulationMark: "I",
 	rarity: "Uncommon",
+	thirdParty: {
+		cardmarket: 829085,
+		tcgplayer: 636635,
+	},
 };
 
 export default card;

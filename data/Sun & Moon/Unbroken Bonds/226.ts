@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cottonee",
+		fr: "Doudouvet"
 	},
 
 	suffix: "GX",

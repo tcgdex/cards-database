@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Typhlosion",
+		fr: "Typhlosion",
 		de: "Tornupto"
 	},
 
@@ -24,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Quilava",
+		fr: "Feurisson"
 	},
 
 	stage: "Stage2",
@@ -36,6 +38,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Magma Punch",
+				fr: "Poing magma",
 				de: "Magmahieb"
 			},
 
@@ -50,10 +53,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Spin",
+				fr: "Danseflamme",
 				de: "Feuerwirbel"
 			},
 			effect: {
 				en: "Discard 2 Energy attached to Typhlosion.",
+				fr: "Défaussez 2 cartes Énergie attachées à Typhlosion.",
 				de: "Lege 2 an Tornupto angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 120,

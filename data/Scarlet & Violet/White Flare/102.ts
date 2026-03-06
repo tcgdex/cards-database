@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lampent"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,

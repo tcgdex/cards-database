@@ -67,10 +67,24 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"]
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			size: "jumbo"
+		}
+	],
 
 	illustrator: "aky CG Works",
 
