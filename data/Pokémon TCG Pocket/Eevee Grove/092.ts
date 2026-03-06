@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "kurumitsu",
 	rarity: "Three Star",
 	category: "Pokemon",
+
+	dexId: [133],
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Basic",

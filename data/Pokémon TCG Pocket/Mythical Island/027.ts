@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
+
+	dexId: [125],
 	hp: 70,
 	types: ["Lightning"],
 

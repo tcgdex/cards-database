@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "takashi shiraishi",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [423],
 	hp: 120,
 	types: ["Water"],
 

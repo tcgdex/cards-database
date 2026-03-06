@@ -42,9 +42,26 @@ jobs:
         bun run --bun validate
 
     - name: Validate some requests
+      shell: bash
       run: |
+        set -euo pipefail
         cd server
         bun run start &
-        sleep 10
-        cd ../.bruno
+        SERVER_PID=$!
+        cd ..
+
+        ATTEMPTS=0
+        until curl -sSf http://127.0.0.1:3000/status > /dev/null; do
+          ATTEMPTS=$((ATTEMPTS + 1))
+          if [ $ATTEMPTS -ge 60 ]; then
+            echo "Server did not become ready within 60 seconds" >&2
+            kill $SERVER_PID
+            exit 1
+          fi
+          sleep 1
+        done
+
+        cd .bruno
         bru run --env Developpement
+
+        kill $SERVER_PID

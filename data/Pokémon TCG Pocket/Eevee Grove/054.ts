@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [780],
 	hp: 100,
 	types: ["Dragon"],
 
