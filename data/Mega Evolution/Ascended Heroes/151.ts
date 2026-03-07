@@ -22,7 +22,6 @@ const card: Card = {
 	hp: 100,
 	types: ["Dragon"],
 	stage: "Stage1",
-	dexId: [148],
 
 	abilities: [{
 		type: "Ability",

@@ -22,7 +22,6 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Stage1",
-	dexId: [444],
 
 	abilities: [{
 		type: "Ability",
