@@ -41,6 +41,8 @@ interface variant_detailed {
 	 * - jumbo: also said oversized, big card.
 	 */
 	size?: 'standard' | 'jumbo'
+
+	// TODO: rename to 'stamps' on v3
 	/**
 	 * indicate that this variant has a stamp
 	 * a card may have multiple stamps, example "Ethan's Typhlosion pre-release staff"
@@ -219,7 +221,6 @@ export interface Card {
 			// Black White rare
 			| 'Black White Rare'
 			| 'Mega Hyper Rare'
-			| 'Mega Attack Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 

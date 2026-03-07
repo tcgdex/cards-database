@@ -27,9 +27,9 @@ const set: Set = {
 	},
 
 	thirdParty: {
+		cardmarket: 6299,
 		tcgplayer: 24448
 	}
-
 }
 
 export default set

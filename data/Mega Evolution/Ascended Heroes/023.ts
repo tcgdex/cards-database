@@ -4,8 +4,6 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
-	dexId: [218],
-
 	name: {
 		en: "Ethan's Slugma",
 		fr: "Limagma de Luth",

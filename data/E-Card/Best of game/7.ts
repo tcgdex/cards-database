@@ -10,8 +10,8 @@ const card: Card = {
 
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "None",
-	category: "Pokemon",
-
+	category: "Pokemon",		
+  	hp: 70,  
 	dexId: [3],
 	stage: "Stage2",
 

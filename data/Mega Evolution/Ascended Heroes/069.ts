@@ -4,8 +4,6 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
-	dexId: [938],
-
 	name: {
 		en: "Iono's Tadbulb",
 		fr: "Têtampoule de Mashynn",
