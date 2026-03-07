@@ -49,29 +49,14 @@ const card: Card = {
 	regulationMark: "I",
 
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 869849,
-			tcgplayer: /* MISSING_ID */
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869849,
+				tcgplayer: 676050
+			}
 		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 869849,
-			tcgplayer: /* MISSING_ID */
-		}
-	},
-	{
-		type: "reverse",
-		foil: "team-rocket",
-		thirdParty: {
-			cardmarket: /* MISSING_ID */,
-			tcgplayer: 676050
-		}
-	},
-],
+	],
 }
 
 export default card
