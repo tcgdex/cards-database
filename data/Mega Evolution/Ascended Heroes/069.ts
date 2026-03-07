@@ -20,7 +20,6 @@ const card: Card = {
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",
-	dexId: [938],
 
 	attacks: [{
 		cost: ["Lightning", "Colorless"],
