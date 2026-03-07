@@ -65,10 +65,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675878,
-		cardmarket: 869677
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869677,
+			tcgplayer: 675878
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 869677,
+			tcgplayer: 675878
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870241,
+			tcgplayer: 676905
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870242,
+			tcgplayer: 677045
+		}
+	},
+],
 }
 
 export default card
