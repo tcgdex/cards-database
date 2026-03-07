@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [593],
 	hp: 110,
 	types: ["Psychic"],
 

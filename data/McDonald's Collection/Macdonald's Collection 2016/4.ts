@@ -9,6 +9,8 @@ const card: Card = {
 	description: {
 		en: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
 	},
+	
+	hp: 30,
 
 	stage: "Basic",
 

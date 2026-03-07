@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Common",
 	category: "Pokemon",
+
+	dexId: [919],
 	hp: 50,
 	types: ["Grass"],
 	stage: "Basic",
-	dexId: [919],
 
 	attacks: [{
 		cost: ["Grass"],
@@ -60,7 +61,8 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 857584
+		cardmarket: 857584,
+		tcgplayer: 662203
 	}
 }
 

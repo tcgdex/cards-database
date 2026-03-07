@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [759],
 	hp: 70,
 	types: ["Colorless"],
 

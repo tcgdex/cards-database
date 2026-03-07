@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Magma's Aron",
 		fr: "Galekid de la Team Magma",
+		pt: "Aron da Equipe Magma",
 	},
 
 	illustrator: "Akira Komayama",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				pt: "Roída",
 			},
 
 			damage: 10,

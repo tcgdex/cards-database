@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Magma's Great Ball",
 		fr: "Super Ball de la Team Magma",
+		pt: "Grande Bola da Equipe Magma",
 	},
 
 	illustrator: "Toyste Beach",
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Cherchez un Pokémon de base de la Team Magma et une carte Énergie Fighting de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-		en: "Search your deck for a Basic Team Magma Pokémon and a basic Fighting Energy card, reveal them, and put them into your hand. Shuffle your deck afterward."
+		en: "Search your deck for a Basic Team Magma Pokémon and a basic Fighting Energy card, reveal them, and put them into your hand. Shuffle your deck afterward.",
+		pt: "Procure no seu baralho um Pokémon da Equipe Magma Básico e um card de Energia de luta básica, revele-os e coloque-os em sua mão. Em seguida, embaralhe seus cards.",
 	},
 
 	trainerType: "Item",
