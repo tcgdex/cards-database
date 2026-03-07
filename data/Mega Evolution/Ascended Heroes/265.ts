@@ -76,21 +76,14 @@ const card: Card = {
 	regulationMark: "I",
 
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 869876,
-			tcgplayer: 676077
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869876,
+				tcgplayer: 676077
+			}
 		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 869876,
-			tcgplayer: 676077
-		}
-	},
-],
+	],
 }
 
 export default card

@@ -74,21 +74,14 @@ const card: Card = {
 	regulationMark: "J",
 
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 869750,
-			tcgplayer: 675951
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869750,
+				tcgplayer: 675951
+			}
 		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 869750,
-			tcgplayer: 675951
-		}
-	},
-],
+	],
 }
 
 export default card
