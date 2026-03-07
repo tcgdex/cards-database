@@ -48,10 +48,30 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675909,
-		cardmarket: 869708
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869708,
+			tcgplayer: /* MISSING_ID */
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 869708,
+			tcgplayer: /* MISSING_ID */
+		}
+	},
+	{
+		type: "reverse",
+		foil: "team-rocket",
+		thirdParty: {
+			cardmarket: /* MISSING_ID */,
+			tcgplayer: 675909
+		}
+	},
+],
 }
 
 export default card

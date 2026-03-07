@@ -31,10 +31,30 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676020,
-		cardmarket: 869819
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869819,
+			tcgplayer: /* MISSING_ID */
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 869819,
+			tcgplayer: /* MISSING_ID */
+		}
+	},
+	{
+		type: "reverse",
+		foil: "team-rocket",
+		thirdParty: {
+			cardmarket: /* MISSING_ID */,
+			tcgplayer: 676020
+		}
+	},
+],
 }
 
 export default card
