@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Amphinobi-GX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Shiny Rare",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 
 	set: Set,

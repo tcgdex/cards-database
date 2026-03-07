@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Pêcheur",
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Shiny Rare",
+	rarity: "Shiny rare",
 	category: "Trainer",
 
 	set: Set,

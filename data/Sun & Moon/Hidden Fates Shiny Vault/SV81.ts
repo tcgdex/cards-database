@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Employés de la Fondation Æther",
 	},
 	illustrator: "take",
-	rarity: "Shiny Rare",
+	rarity: "Shiny rare",
 	category: "Trainer",
 
 	set: Set,
