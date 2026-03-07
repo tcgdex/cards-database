@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Branette-GX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Ultra Rare",
+	rarity: "Shiny Rare",
 	category: "Pokemon",
 
 	set: Set,
