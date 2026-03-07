@@ -7,6 +7,7 @@ import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
 import { variant_detailed } from "../../public/v2/api";
+import { variantToIdentifier } from "./variantUtil.ts";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -100,18 +101,24 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
 		},
 
-		variants_detailed: Array.isArray(card.variants) ? card.variants?.map((variant) => {
-			return {
-				type: translate('variantType', variant.type, lang) as any,
-				subtype: translate('variantSubtype', variant.subtype, lang) as any,
-				// only include size when it's not standard
-				size: variant.size && variant.size !== 'standard' ? translate('variantSize', variant.size, lang) as any : translate('variantSize', "standard", lang) as any,
-				stamp: variant.stamp ? variant.stamp.map((stamp) => {
-					return translate('variantStamp', stamp, lang)
-				}) : undefined,
-				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
-			}
-		}) : variantsToVariantsDetailed(card.variants,lang),
+		variants_detailed: Array.isArray(card.variants)
+			? await Promise.all(card.variants.map(async (variant, index) => {
+				const variantId = variantToIdentifier(variant);
+				return {
+					type: translate('variantType', variant.type, lang) as any,
+					subtype: translate('variantSubtype', variant.subtype, lang) as any,
+					size: variant.size && variant.size !== 'standard'
+						? translate('variantSize', variant.size, lang) as any
+						: translate('variantSize', "standard", lang) as any,
+					stamp: variant.stamp
+						? variant.stamp.map((stamp) => translate('variantStamp', stamp, lang))
+						: undefined,
+					foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined,
+					thirdParty: variant.thirdParty,
+					variantId,
+				};
+			}))
+			: variantsToVariantsDetailed(card.variants, lang),
 
 		dexId: card.dexId,
 		hp: card.hp,
