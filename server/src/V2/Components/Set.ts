@@ -76,6 +76,7 @@ export function setToBrief(set: SDKSet): SetResume {
 		name: set.name,
 		logo: set.logo,
 		symbol: set.symbol,
+		abbreviation: set.abbreviation,
 		cardCount: {
 			total: set.cardCount.total,
 			official: set.cardCount.official
