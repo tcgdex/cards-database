@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Suwama Chiaki",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [603],
 	hp: 90,
 	types: ["Lightning"],
 

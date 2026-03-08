@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		454,
 	],
+	
+	hp: 90,
 
 	types: [
 		"Fighting",

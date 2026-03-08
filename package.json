@@ -4,7 +4,12 @@
 		"validate": "tsc --noEmit --project tsconfig.json",
 		"check-missing": "ts-node meta/scripts/check-missing.ts",
 		"check-missing:help": "echo 'Usage: npm run check-missing \"<pattern>\" \"<property>\" [output-file]'",
-		"link-cardmarket": "ts-node meta/scripts/linkCardToCardmarket.ts"
+		"link-cardmarket": "ts-node meta/scripts/linkCardToCardmarket.ts",
+		"dex:audit": "bun scripts/pokedexIdFixer/audit-dex-ids.ts",
+		"dex:audit:report": "bun scripts/pokedexIdFixer/audit-dex-ids.ts --report",
+		"dex:fix:dry-run": "bun scripts/pokedexIdFixer/fix-dex-ids.ts --dry-run",
+		"dex:fix:apply": "bun scripts/pokedexIdFixer/fix-dex-ids.ts --apply",
+		"dex:lint": "bun scripts/pokedexIdFixer/lint-dex-ids.ts"
 	},
 	"devDependencies": {
 		"@dzeio/object-util": "^1.9.2",

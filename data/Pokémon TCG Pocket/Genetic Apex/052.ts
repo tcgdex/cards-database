@@ -15,6 +15,8 @@ const card: Card = {
 
 	illustrator: "GOSSAN",
 	category: "Pokemon",
+
+	dexId: [851],
 	hp: 130,
 	types: ["Fire"],
 	stage: "Stage1",

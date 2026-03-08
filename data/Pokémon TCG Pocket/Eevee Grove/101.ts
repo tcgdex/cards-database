@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "SATOSHI NAKAI",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [24],
 	hp: 100,
 	types: ["Darkness"],
 
