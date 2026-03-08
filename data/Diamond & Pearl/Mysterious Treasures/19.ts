@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Snover",
+		fr: "Blizzi"
 	},
 
 	stage: "Stage1",
@@ -81,7 +82,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277648,
 		tcgplayer: 83440
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["countdown-calendar"]
+		}
+	]
 }
 
 export default card

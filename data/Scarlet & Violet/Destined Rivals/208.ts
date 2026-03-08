@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Moltres ex del Equipo Rocket"
 	},
 
+
+	illustrator: "5ban Graphics",
+
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
@@ -76,7 +79,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826082
+	}
 }
 
 export default card

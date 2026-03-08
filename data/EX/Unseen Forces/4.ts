@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Croconaw",
+		fr: "Crocodil"
 	},
 
 	stage: "Stage2",
@@ -92,10 +93,26 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276650,
 		tcgplayer: 85417
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sandshrew",
+		fr: "Sabelette"
 	},
 
 	stage: "Stage1",
@@ -75,10 +76,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 275798,
 		tcgplayer: 88928
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

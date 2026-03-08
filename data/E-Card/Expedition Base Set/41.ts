@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Clefairy",
+		fr: "Mélofée"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274882,
 		tcgplayer: 84344
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

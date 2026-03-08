@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cryogonal"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -63,7 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835953
+		cardmarket: 835994
 	}
 }
 

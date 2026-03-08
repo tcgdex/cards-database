@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Larvesta",
+		fr: "Pyronille",
+		es: "Larvesta",
+		it: "Larvesta",
+		pt: "Larvesta",
+		de: "Ignivor"
+	},
 	stage: "Stage1",
 
 	attacks: [{

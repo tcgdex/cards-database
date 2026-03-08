@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
+		fr: "Ramoloss"
 	},
 
 	stage: "Stage1",
@@ -73,10 +74,24 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276791,
 		tcgplayer: 89315
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card
+

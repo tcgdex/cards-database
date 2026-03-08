@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Teddiursa",
+		fr: "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -84,7 +85,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277667,
 		tcgplayer: 90253
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

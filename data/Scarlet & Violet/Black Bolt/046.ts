@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Excadrill ex"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Drilbur",
+		fr: "Rototaupe",
+		de: "Rotomurf",
+		it: "Drilbur",
+		pt: "Drilbur",
+		es: "Drilbur",
+		'es-mx': "Drilbur"
+	},
 	stage: "Stage1",
 
 	attacks: [{

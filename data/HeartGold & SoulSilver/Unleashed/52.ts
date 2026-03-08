@@ -68,12 +68,14 @@ const card: Card = {
 		en: "It dislikes cold places, so it blows scorching flames to make the environment suitable for itself."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279208,

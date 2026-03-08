@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Togetic"
+		en: "Togetic",
+		fr: "Togetic"
 	},
 
 	illustrator: "Atsuko Nishida",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [176],
 	hp: 90,
 	types: ["Psychic"],
 
@@ -19,14 +22,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "They say that it will appear before kindhearted,\ncaring people and shower them with happiness."
+		en: "They say that it will appear before kindhearted,\ncaring people and shower them with happiness.",
+		fr: "On dit qu'il se montre aux personnes dotées d'un cœur pur pour leur apporter joie et bonheur."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Speed Dive"
+			en: "Speed Dive",
+			fr: "Plongée Rapide"
 		},
 
 		damage: 30,

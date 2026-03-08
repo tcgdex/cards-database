@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fletchinder"
+		en: "Fletchinder",
+		fr: "Braisillon"
 	},
 
 	illustrator: "5ban Graphics",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [662],
 	hp: 70,
 	types: ["Fire"],
 
@@ -19,14 +22,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Fletchinder scatters embers in tall grass\nwhere bug Pokémon might be hiding and\nthen catches them as they come leaping out."
+		en: "Fletchinder scatters embers in tall grass\nwhere bug Pokémon might be hiding and\nthen catches them as they come leaping out.",
+		fr: "Il disperse des étincelles dans les hautes herbes qui pourraient abriter des Pokémon Insecte et attrape ceux qui en sortent pour s'enfuir."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Fire Wing"
+			en: "Fire Wing",
+			fr: "Aile de Feu"
 		},
 
 		damage: 40,

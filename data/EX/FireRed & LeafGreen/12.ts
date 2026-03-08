@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -74,10 +75,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276188,
 		tcgplayer: 88507
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

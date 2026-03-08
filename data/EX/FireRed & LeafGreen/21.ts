@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Doduo",
+		fr: "Doduo"
 	},
 
 	stage: "Stage1",
@@ -80,10 +81,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276197,
 		tcgplayer: 84850
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

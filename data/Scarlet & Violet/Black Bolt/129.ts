@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Dwebble"
 	},
 
+	illustrator: "Shimaris Yukichi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -65,7 +66,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836011
+		cardmarket: 836174
 	}
 }
 

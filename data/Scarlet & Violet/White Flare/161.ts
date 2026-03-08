@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Hydreigon ex"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Zweilous",
+		fr: "Diamat",
+		de: "Duodino",
+		it: "Zweilous",
+		pt: "Zweilous",
+		es: "Zweilous",
+		'es-mx': "Zweilous"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -75,7 +85,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836027
+		cardmarket: 836201
 	}
 }
 

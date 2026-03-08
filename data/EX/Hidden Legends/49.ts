@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Staryu",
+		fr: "Stari"
 	},
 
 	stage: "Stage1",
@@ -74,10 +75,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276123,
 		tcgplayer: 89532
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		}, {
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

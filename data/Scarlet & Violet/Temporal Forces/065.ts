@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Marill",
+		fr: "Marill",
+		es: "Marill",
+		it: "Marill",
+		pt: "Marill",
+		de: "Marill"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -69,9 +77,14 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Makura Tami",
 

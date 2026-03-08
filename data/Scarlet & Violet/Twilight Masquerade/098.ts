@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Sandshrew",
+		fr: "Sabelette",
+		es: "Sandshrew",
+		it: "Sandshrew",
+		pt: "Sandshrew",
+		de: "Sandan"
+	},
 	stage: "Stage1",
 
 	attacks: [{

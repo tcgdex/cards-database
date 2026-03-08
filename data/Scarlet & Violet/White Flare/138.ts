@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Scraggy"
 	},
 
+	illustrator: "Nelnal",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -55,7 +56,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836006
+		cardmarket: 836161
 	}
 }
 

@@ -36,7 +36,7 @@ const card: Card = {
 	illustrator: "hncl",
 
 	thirdParty: {
-		cardmarket: 780953
+		cardmarket: 780982
 	}
 }
 

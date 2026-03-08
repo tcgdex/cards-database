@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Metagross ex de Steven"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 340,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Steven's Metang",
+		fr: "Métang de Pierre",
+		de: "Troys Metang",
+		it: "Metang di Rocco",
+		es: "Metang de Máximo",
+		pt: "Metang do Steven",
+		'es-mx': "Metang de Steven"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -68,7 +80,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826019
+	}
 }
 
 export default card

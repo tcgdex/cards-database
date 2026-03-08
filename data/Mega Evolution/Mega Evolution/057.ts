@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 110,
 	types: ["Psychic"],
 	stage: "Basic",
+	dexId: [124],
 
 	attacks: [{
 		cost: ["Psychic", "Psychic"],
@@ -50,8 +51,18 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654396
+		tcgplayer: 654396,
+		cardmarket: 851128
 	}
 }
 

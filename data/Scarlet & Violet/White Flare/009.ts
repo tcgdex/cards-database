@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Accelgor"
 	},
 
+	illustrator: "Saboteri",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Shelmet",
+		fr: "Escargaume",
+		de: "Schnuthelm",
+		it: "Shelmet",
+		pt: "Shelmet",
+		es: "Shelmet",
+		'es-mx': "Shelmet"
+	},
 	stage: "Stage1",
 
 	attacks: [{

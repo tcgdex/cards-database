@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Starmie de Misty"
 	},
 
+	illustrator: "Natsumi Yoshida",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Misty's Staryu",
+		fr: "Stari d'Ondine",
+		de: "Mistys Sterndu",
+		it: "Staryu di Misty",
+		es: "Staryu de Misty",
+		pt: "Staryu da Misty",
+		'es-mx': "Staryu de Misty"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +67,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825921
+	}
 }
 
 export default card

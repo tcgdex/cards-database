@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Honedge",
+		fr: "Monorpale",
+		es: "Honedge",
+		it: "Honedge",
+		pt: "Honedge",
+		de: "Gramokles"
+	},
 	stage: "Stage1",
 
 	attacks: [{

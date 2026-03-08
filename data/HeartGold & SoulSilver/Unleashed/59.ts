@@ -71,12 +71,14 @@ const card: Card = {
 		en: "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279215,

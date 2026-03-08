@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Wingull",
+		fr: "Goélise",
+		es: "Wingull",
+		de: "Wingull",
+		it: "Wingull",
+		pt: "Wingull",
+		'es-mx': "Wingull"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +66,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817191
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

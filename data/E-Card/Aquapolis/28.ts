@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Porygon",
+		fr: "Porygon"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275100,
 		tcgplayer: 88323
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal',
+		},
+		{
+			type: 'reverse',
+		}
+	]
 }
 
 export default card

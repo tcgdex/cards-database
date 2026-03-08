@@ -322,10 +322,14 @@ Detailed card variants
 type DetailedVariants {
 	"""The type of card, e.g., 'normal', 'reverse', 'holo', etc."""
 	type: String!
+	"""The subtype of the card, e.g., 'shadowless', 'unlimited', etc."""
+	subtype: String
 	"""The size of the card, e.g., 'standard', 'jumbo', etc."""
 	size: String!
-	"""Any stamps the variant may have, e.g., '1st Edition', 'Staff', etc."""
-	stamps: [String]
+
+	# FIXME: rename to 'stamps' on v3
+	"""Any stamps the variant may have, e.g., '1st-edition', 'Staff', etc."""
+	stamp: [String]
 	"""The type of foil"""
 	foil: String
 }
@@ -386,7 +390,7 @@ type Set {
 	serie: Serie!
 
 	"""The set official release date"""
-	releaseDate: String!
+	releaseDate: String
 
 	"""The set tcgOnline code if available in the APP"""
 	tcgOnline: String

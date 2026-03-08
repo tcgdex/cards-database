@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Serperior ex"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Servine",
+		fr: "Lianaja",
+		de: "Efoserp",
+		it: "Servine",
+		pt: "Servine",
+		es: "Servine",
+		'es-mx': "Servine"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -75,7 +85,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835908
+		cardmarket: 836230
 	}
 }
 

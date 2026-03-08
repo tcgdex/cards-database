@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Trubbish",
+		fr: "Miamiasme",
+		es: "Trubbish",
+		it: "Trubbish",
+		pt: "Trubbish",
+		de: "Unratütox"
+	},
 	stage: "Stage1",
 
 	attacks: [{

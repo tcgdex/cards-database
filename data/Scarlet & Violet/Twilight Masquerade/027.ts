@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Vulpix",
+		fr: "Goupix",
+		es: "Vulpix",
+		it: "Vulpix",
+		pt: "Vulpix",
+		de: "Vulpix"
+	},
 	stage: "Stage1",
 
 	attacks: [{

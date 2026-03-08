@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
+		fr: "Machopeur"
 	},
 
 	stage: "Stage2",
@@ -76,10 +77,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276886,
 		tcgplayer: 86963
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Rattata del Equipo Rocket"
 	},
 
+
+	illustrator: "Dsuke",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -57,7 +60,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826021
+	}
 }
 
 export default card

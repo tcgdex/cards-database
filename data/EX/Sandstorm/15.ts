@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	stage: "Stage1",
@@ -74,10 +75,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 275792,
 		tcgplayer: 83579
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

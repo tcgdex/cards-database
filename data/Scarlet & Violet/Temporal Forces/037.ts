@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Sizzlipede",
+		fr: "Grillepattes",
+		es: "Sizzlipede",
+		it: "Sizzlipede",
+		pt: "Sizzlipede",
+		de: "Thermopod"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -67,9 +75,14 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Krgc",
 

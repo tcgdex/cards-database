@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wingull",
+		fr: "Goélise"
 	},
 
 	stage: "Stage1",
@@ -95,10 +96,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 275667,
 		tcgplayer: 87974
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

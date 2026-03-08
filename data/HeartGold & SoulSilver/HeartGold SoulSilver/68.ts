@@ -59,12 +59,14 @@ const card: Card = {
 		en: "Looking into its cute, round eyes causes it to sing a relaxing melody, inducing its enemies to sleep."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279040,

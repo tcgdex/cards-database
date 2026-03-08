@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weepinbell",
+		fr: "Boustiflor"
 	},
 
 	stage: "Stage2",
@@ -77,7 +78,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275068,
 		tcgplayer: 90361
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal',
+		},
+		{
+			type: 'reverse',
+		}
+	]
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Turtwig",
+		fr: "Turtwig"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -28,6 +29,7 @@ const card: Card = {
 
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
@@ -39,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch'herbe"
 			},
 
 			damage: 20,

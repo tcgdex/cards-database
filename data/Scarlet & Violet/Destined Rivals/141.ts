@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Skarmory"
 	},
 
+
+	illustrator: "Shin Nagasawa",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
@@ -69,7 +72,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826015
+	}
 }
 
 export default card

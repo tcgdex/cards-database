@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Rotom Lavado"
 	},
 
+
+	illustrator: "miki kudo",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -81,7 +84,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825935
+	}
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Petilil"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -63,7 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835914
+		cardmarket: 836091
 	}
 }
 

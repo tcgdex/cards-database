@@ -64,10 +64,26 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 275843,
 		tcgplayer: 86831
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["michael-gonzalez"]
+		},
+	]
 }
 
 export default card

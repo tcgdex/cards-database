@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Melmetal"
+		en: "Melmetal",
+		fr: "Melmetal"
 	},
 
 	illustrator: "NC Empire",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [809],
 	hp: 140,
 	types: ["Metal"],
 
@@ -19,14 +22,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "At the end of its life-span, Melmetal will rust and\nfall apart. The small shards left behind will\neventually be reborn as Meltan."
+		en: "At the end of its life-span, Melmetal will rust and\nfall apart. The small shards left behind will\neventually be reborn as Meltan.",
+		fr: "En fin de vie, son corps rouille et se brise en mille morceaux. Ces derniers renaissent ensuite sous forme de Meltan."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Mega Punch"
+			en: "Mega Punch",
+			fr: "Ultimapoing"
 		},
 
 		damage: 90,

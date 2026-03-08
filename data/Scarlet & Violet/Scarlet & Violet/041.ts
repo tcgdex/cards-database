@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Charcadet"
+		en: "Charcadet",
+		fr: "Charbambin"
 	},
 
 	stage: "Stage1",
@@ -74,16 +75,21 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'reverse'
+		},
+		{
+			type: 'holo'
+		},
+	],
 
 	illustrator: "AKIRA EGAWA",
 
 	thirdParty: {
-		cardmarket: 702336
-	}
+        cardmarket: 702336,
+        tcgplayer: 487883
+    }
 }
 
 export default card

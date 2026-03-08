@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
+	evolveFrom: {
+		fr: "Tritox",
+		en: "Salandit",
+		es: "Salandit",
+		it: "Salandit",
+		pt: "Salandit",
+		de: "Molunk"
+	},
 	stage: "Stage1",
 
 	attacks: [{

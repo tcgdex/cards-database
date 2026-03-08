@@ -22,7 +22,33 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277387,
 		tcgplayer: 88976
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["tom-roos"]
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-scharff-kim"]
+		},
+		{
+			type: "normal",
+			stamp: ["paul-atanassov"]
+		},
+		{
+			type: "normal",
+			stamp: ["tristan-robinson"]
+		}
+	]
 }
 
 export default card

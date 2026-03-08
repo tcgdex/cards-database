@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Deino"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,
@@ -65,7 +66,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836022
+		cardmarket: 836178
 	}
 }
 

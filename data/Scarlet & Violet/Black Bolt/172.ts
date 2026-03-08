@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zekrom ex"
 	},
 
+	illustrator: "takuyoa",
 	rarity: "Black White Rare",
 	category: "Pokemon",
 	hp: 230,
@@ -65,7 +66,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835966
+		cardmarket: 836246
 	}
 }
 

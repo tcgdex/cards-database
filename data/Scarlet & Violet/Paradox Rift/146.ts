@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Aipom",
+		fr: "Capumain",
+		es: "Aipom",
+		it: "Aipom",
+		pt: "Aipom",
+		de: "Griffel"
+	},
 	stage: "Stage1",
 
 	attacks: [{

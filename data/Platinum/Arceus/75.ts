@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		361,
 	],
+	
+	hp: 50,
 
 	types: [
 		"Water",
@@ -67,7 +69,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278947,
 		tcgplayer: 89403
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

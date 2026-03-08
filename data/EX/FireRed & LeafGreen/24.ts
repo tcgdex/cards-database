@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spearow",
+		fr: "Piafabec"
 	},
 
 	stage: "Stage1",
@@ -95,10 +96,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276200,
 		tcgplayer: 85397
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

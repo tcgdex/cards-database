@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Item Finder",
 		fr: "Récupérateur",
-		de: "Detektor"
+		de: "Detektor",
+		it: "Oggetti Smarriti"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,13 +16,33 @@ const card: Card = {
 
 	effect: {
 		fr: "Défaussez 2 des autres cartes de votre main pour placer une carte Dresseur de votre pile de défausse dans votre main.",
-		de: "Entferne 2 Karten Deiner Hand, um eine Trainerkarte aus Deinem Ablagestapel aufzunehmen."
+		de: "Entferne 2 Karten Deiner Hand, um eine Trainerkarte aus Deinem Ablagestapel aufzunehmen.",
+		it: "Scarta 2 delle altre carte che hai in mano e sostituiscile con una carta Addestramento presa dalla tua pila degli scarti."
 	},
 
 	thirdParty: {
 		cardmarket: 273769,
 		tcgplayer: 42420
-	}
+	},
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
 }
 
 export default card

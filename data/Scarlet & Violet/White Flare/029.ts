@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Vanilluxe"
 	},
 
+	illustrator: "cochi8i",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Vanillish",
+		fr: "Sorboul",
+		de: "Gelatroppo",
+		it: "Vanillish",
+		pt: "Vanillish",
+		es: "Vanillish",
+		'es-mx': "Vanillish"
+	},
 	stage: "Stage2",
 
 	attacks: [{

@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Ciudad Leudal"
 	},
 
+
+	illustrator: "MARINA Chikazawa",
+
 	rarity: "Hyper rare",
 	category: "Trainer",
 
@@ -35,7 +38,11 @@ const card: Card = {
 			type: 'holo',
 			foil: 'gold'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826118
+	}
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sealeo",
+		fr: "Phogleur"
 	},
 
 	stage: "Stage2",
@@ -81,7 +82,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277668,
 		tcgplayer: 90467
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

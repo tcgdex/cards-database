@@ -46,7 +46,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
-				fr: "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
+				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts d'un Pokémon à un autre Pokémon.",
 				es: "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
 				it: "d",
 				pt: "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",

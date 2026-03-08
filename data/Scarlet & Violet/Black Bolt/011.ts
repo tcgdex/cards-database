@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Amoonguss"
 	},
 
+	illustrator: "Kurata So",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Foongus",
+		fr: "Trompignon",
+		de: "Tarnpignon",
+		it: "Foongus",
+		pt: "Foongus",
+		es: "Foongus",
+		'es-mx': "Foongus"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -22,7 +22,20 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 278535
-	}
+	},
+
+	variants:[
+		{
+			type:"normal"
+		},
+		{
+			type:"reverse"
+		},
+		{
+			type:"normal",
+			stamp: ["jason-martinez"]
+		}
+	]
 }
 
 export default card

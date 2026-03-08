@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Golbat",
+		fr: "Nosferalto"
 	},
 
 	stage: "Stage2",
@@ -86,7 +87,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277652,
 		tcgplayer: 84487
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 270,
 	types: ["Metal"],
 	stage: "Basic",
+	dexId: [303],
 
 	attacks: [{
 		cost: ["Metal", "Metal"],
@@ -74,8 +75,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+	],
+
 	thirdParty: {
-		tcgplayer: 654501
+		tcgplayer: 654501,
+		cardmarket: 851233
 	}
 }
 

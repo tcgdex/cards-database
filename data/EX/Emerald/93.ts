@@ -70,10 +70,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 84773,
 		cardmarket: 276604
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["jason-klaczynski"]
+		}
+	]
 }
 
 export default card

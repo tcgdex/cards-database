@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Lechonk",
+		fr: "Gourmelet",
+		es: "Lechonk",
+		de: "Ferkuli",
+		it: "Lechonk",
+		pt: "Lechonk",
+		'es-mx': "Lechonk"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -67,7 +76,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817292
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

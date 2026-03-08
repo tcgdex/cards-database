@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Liza"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Special illustration rare",
 	category: "Trainer",
 
@@ -31,7 +32,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836059
+		cardmarket: 836220
 	}
 }
 

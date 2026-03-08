@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Swinub",
+		fr: "Marcacrin"
 	},
 
 	stage: "Stage1",
@@ -86,7 +87,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274678,
 		tcgplayer: 86747
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

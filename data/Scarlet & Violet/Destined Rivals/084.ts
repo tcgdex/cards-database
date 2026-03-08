@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Claydol de Steven"
 	},
 
+
+	illustrator: "nagimiso",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Steven's Baltoy",
+		fr: "Balbuto de Pierre",
+		de: "Troys Puppance",
+		it: "Baltoy di Rocco",
+		es: "Baltoy de Máximo",
+		pt: "Baltoy do Steven",
+		'es-mx': "Baltoy de Steven"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -81,7 +93,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825958
+	}
 }
 
 export default card

@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Golbat",
+		fr: "Nosferalto"
 	},
 
 	stage: "Stage2",
@@ -76,9 +77,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 276765
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

@@ -6,7 +6,7 @@ const swsh1: Set = {
 
 	name: {
 		en: "Shining Fates",
-		fr: "Déstinées Radieuses",
+		fr: "Destinées Radieuses",
 		es: "Destinos Brillantes",
 		it: "Destino Splendente",
 		de: "Glänzendes Schicksal",

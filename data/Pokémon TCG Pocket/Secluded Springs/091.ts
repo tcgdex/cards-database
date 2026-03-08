@@ -5,24 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chimchar"
+		en: "Chimchar",
+		fr: "Ouisticram"
 	},
 
 	illustrator: "Souichirou Gunjima",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [390],
 	hp: 60,
 	types: ["Fire"],
 
 	description: {
-		en: "Its fiery rear end is fueled by gas made in its belly.\nEven rain can't extinguish the fire."
+		en: "Its fiery rear end is fueled by gas made in its belly.\nEven rain can't extinguish the fire.",
+		fr: "La flamme de sa queue est alimentée par un gaz de son estomac. Même la pluie ne saurait l'éteindre."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Scratch"
+			en: "Scratch",
+			fr: "Griffe"
 		},
 
 		damage: 20,

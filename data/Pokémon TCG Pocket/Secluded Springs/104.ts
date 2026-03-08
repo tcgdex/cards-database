@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Paldean Clodsire ex"
+		en: "Paldean Clodsire ex",
+		fr: "Terraiste de Paldea-ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
 	rarity: "Two Shiny",
 	category: "Pokemon",
+
+	dexId: [980],
 	hp: 160,
 	types: ["Darkness"],
 
@@ -23,14 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Venoshock"
+			en: "Venoshock",
+			fr: "Choc Venin"
 		},
 
 		damage: 60,
 		cost: ["Darkness", "Darkness"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage."
+			en: "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 60 dégâts de plus."
 		}
 	}],
 

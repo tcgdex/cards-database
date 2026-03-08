@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Golett"
 	},
 
+	illustrator: "Nabatame Kazutaka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835992
+		cardmarket: 836160
 	}
 }
 

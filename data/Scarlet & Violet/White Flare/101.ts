@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Litwick"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -49,7 +50,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835931
+		cardmarket: 836095
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Croagunk",
+		fr: "Cradopaud",
+		es: "Croagunk",
+		it: "Croagunk",
+		pt: "Croagunk",
+		de: "Glibunkel"
+	},
 	stage: "Stage1",
 
 	attacks: [{

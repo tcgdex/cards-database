@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Darumaka",
+		fr: "Darumarond",
+		es: "Darumaka",
+		it: "Darumaka",
+		pt: "Darumaka",
+		de: "Flampion"
+	},
 	stage: "Stage1",
 
 	attacks: [{

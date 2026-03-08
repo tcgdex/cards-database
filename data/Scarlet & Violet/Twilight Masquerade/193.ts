@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Finizen",
+		fr: "Dofin",
+		es: "Finizen",
+		it: "Finizen",
+		pt: "Finizen",
+		de: "Normifin"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 
 	thirdParty: {
-		cardmarket: 769235
+		cardmarket: 769367
 	}
 }
 

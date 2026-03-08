@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Gastly",
+		fr: "Fantominus",
+		es: "Gastly",
+		it: "Gastly",
+		pt: "Gastly",
+		de: "Nebulak"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -47,9 +55,18 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["trick-or-trade"]
+		}
+	],
 
 	illustrator: "MAHOU",
 

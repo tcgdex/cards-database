@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Annihilape"
 	},
 
+
+	illustrator: "Shiburingaru",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Primeape",
+		fr: "Colossinge",
+		de: "Rasaff",
+		it: "Primeape",
+		es: "Primeape",
+		pt: "Primeape",
+		'es-mx': "Primeape"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -81,7 +93,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825966
+	}
 }
 
 export default card

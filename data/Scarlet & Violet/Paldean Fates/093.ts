@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Oddish",
+		fr: "Mystherbe",
+		es: "Oddish",
+		it: "Oddish",
+		pt: "Oddish",
+		de: "Myrapla"
+	},
 	stage: "Stage1",
 
 	abilities: [{

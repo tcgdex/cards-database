@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Haxorus"
 	},
 
+	illustrator: "akagi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Fraxure",
+		fr: "Incisache",
+		de: "Sharfax",
+		it: "Fraxure",
+		pt: "Fraxure",
+		es: "Fraxure",
+		'es-mx': "Fraxure"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -73,7 +83,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836050
+		cardmarket: 836217
 	}
 }
 

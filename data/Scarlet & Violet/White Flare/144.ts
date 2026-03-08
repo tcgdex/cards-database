@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Vullaby"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -41,7 +42,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836019
+		cardmarket: 836173
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
+		pt: "Eevee",
+		it: "Eevee",
+		de: "Evoli"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Nurikabe",
 
 	thirdParty: {
-		cardmarket: 805403
+		cardmarket: 805540
 	}
 }
 

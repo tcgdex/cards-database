@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Nosepass"
 	},
 
+
+	illustrator: "Oku",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -61,7 +64,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825971
+	}
 }
 
 export default card

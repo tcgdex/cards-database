@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Repel"
+		en: "Repel",
+		fr: "Repousse"
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Switch out your opponent's Active Basic Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+		en: "Switch out your opponent's Active Basic Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+		fr: "Échangez le Pokémon de base Actif de votre adversaire avec un de ses Pokémon de Banc. (Votre adversaire choisit le nouveau Pokémon Actif)"
 	},
 
 	trainerType: "Item"

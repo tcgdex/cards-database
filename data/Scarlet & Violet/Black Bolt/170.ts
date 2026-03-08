@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Plan de N"
 	},
 
+	illustrator: "REND",
 	rarity: "Special illustration rare",
 	category: "Trainer",
 
@@ -31,7 +32,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836070
+		cardmarket: 836244
 	}
 }
 

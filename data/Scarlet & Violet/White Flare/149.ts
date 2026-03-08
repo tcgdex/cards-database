@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Ferrothorn"
 	},
 
+	illustrator: "Minahamu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Ferroseed",
+		fr: "Grindur",
+		de: "Kastadur",
+		it: "Ferroseed",
+		pt: "Ferroseed",
+		es: "Ferroseed",
+		'es-mx': "Ferroseed"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -63,7 +73,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836029
+		cardmarket: 836182
 	}
 }
 

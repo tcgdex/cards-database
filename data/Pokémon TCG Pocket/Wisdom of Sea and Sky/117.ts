@@ -5,24 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndour"
+		en: "Houndour",
+		fr: "Malosse"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [228],
 	hp: 60,
 	types: ["Darkness"],
 
 	description: {
-		en: "It is smart enough to hunt in packs. It uses a\nvariety of cries for communicating with others."
+		en: "It is smart enough to hunt in packs. It uses a\nvariety of cries for communicating with others.",
+		fr: "Ce Pokémon est rusé. Il chasse en meute en communiquant avec les siens grâce à une variété de cris."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 
 		damage: 40,

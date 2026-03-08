@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
+		fr: "Carabaffe"
 	},
 
 	suffix: "EX",
@@ -75,10 +76,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 3,
+
 	thirdParty: {
 		cardmarket: 276280,
 		tcgplayer: 83900
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["hiroki-yano"]
+		},
+	]
 }
 
 export default card

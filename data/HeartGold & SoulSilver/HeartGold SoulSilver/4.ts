@@ -88,12 +88,18 @@ const card: Card = {
 		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278976,

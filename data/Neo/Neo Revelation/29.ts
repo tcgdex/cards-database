@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Zubat",
+		fr: "Nosferapti"
 	},
 
 	stage: "Stage1",
@@ -87,7 +88,18 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274615,
 		tcgplayer: 85790
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card
+

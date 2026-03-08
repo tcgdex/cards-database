@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Chandelure"
 	},
 
+	illustrator: "Kuroimori",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Lampent",
+		fr: "Mélancolux",
+		de: "Laternecto",
+		it: "Lampent",
+		pt: "Lampent",
+		es: "Lampent",
+		'es-mx': "Lampent"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -75,7 +85,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835935
+		cardmarket: 836099
 	}
 }
 

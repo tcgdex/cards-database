@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Arboliva ex"
 	},
 
+	illustrator: "PLANETA Tsuji",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Dolliv",
+		fr: "Olivado",
+		de: "Olivinio",
+		it: "Dolliv",
+		es: "Dolliv",
+		pt: "Dolliv",
+		'es-mx': "Dolliv"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -76,7 +86,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825897
+	}
 }
 
 export default card

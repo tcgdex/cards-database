@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zorua"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836014
+		cardmarket: 836168
 	}
 }
 

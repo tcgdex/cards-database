@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kricketot",
+		fr: "Crikzik"
 	},
 
 	stage: "Stage1",
@@ -82,7 +83,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277656,
 		tcgplayer: 86532
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

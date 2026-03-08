@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Archeops"
 	},
 
+	illustrator: "Haru Akasaka",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Archen",
+		fr: "Arkéapti",
+		de: "Flapteryx",
+		it: "Archen",
+		pt: "Archen",
+		es: "Archen",
+		'es-mx': "Archen"
+	},
 	stage: "Stage2",
 
 	abilities: [{

@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Fire"],
 	stage: "Basic",
+	dexId: [721],
 
 	attacks: [{
 		cost: ["Fire"],
@@ -72,8 +73,18 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654364
+		tcgplayer: 654364,
+		cardmarket: 851096
 	}
 }
 

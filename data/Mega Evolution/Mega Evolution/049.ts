@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
+	dexId: [309],
 
 	attacks: [{
 		cost: ["Lightning"],
@@ -50,8 +51,18 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654388
+		tcgplayer: 654388,
+		cardmarket: 851120
 	}
 }
 

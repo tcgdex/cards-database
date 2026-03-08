@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Árbitro"
 	},
 
+
+	illustrator: "kantaro",
+
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -33,7 +36,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826096
+	}
 }
 
 export default card

@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Piloswine"
+		en: "Piloswine",
+		fr: "Cochignon"
 	},
 
 	illustrator: "Midori Harada",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [221],
 	hp: 100,
 	types: ["Fighting"],
 
@@ -19,14 +22,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If it charges at an enemy, the hairs on its back\nstand up straight. It is very sensitive to sound."
+		en: "If it charges at an enemy, the hairs on its back\nstand up straight. It is very sensitive to sound.",
+		fr: "S'il charge un ennemi, les poils de son dos se dressent. Il est très sensible au bruit."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Headbutt Bounce"
+			en: "Headbutt Bounce",
+			fr: "Culbute Surprise"
 		},
 
 		damage: 70,

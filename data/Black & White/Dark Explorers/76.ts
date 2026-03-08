@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Klink",
+		fr: "Tic"
 	},
 
 	stage: "Stage1",
@@ -40,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Charge Beam",
+				fr: "Rayon Chargé"
 			},
 			effect: {
 				en: "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie de votre pile de défausse à ce Pokémon."
 			},
 			damage: 20,
 
@@ -55,6 +58,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Vice Grip",
+				fr: "Force Poigne"
 			},
 
 			damage: 50,

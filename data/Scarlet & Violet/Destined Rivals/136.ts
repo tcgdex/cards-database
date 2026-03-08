@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Grimmsnarl ex de Marnie"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Marnie's Morgrem",
+		fr: "Fourbelin de Rosemary",
+		de: "Marys Pelzebub",
+		it: "Morgrem di Mary",
+		es: "Morgrem de Roxy",
+		pt: "Morgrem da Marine",
+		'es-mx': "Morgrem de Marnie"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -78,7 +90,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826010
+	}
 }
 
 export default card

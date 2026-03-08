@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Pikachu",
+		fr: "Pikachu",
+		es: "Pikachu",
+		it: "Pikachu",
+		pt: "Pikachu",
+		de: "Pikachu"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -58,9 +66,14 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "cochi8i",
 

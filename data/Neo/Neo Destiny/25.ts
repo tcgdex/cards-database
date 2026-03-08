@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
+		fr: "Machopeur lumineux"
 	},
 
 	stage: "Stage2",
@@ -67,11 +68,13 @@ const card: Card = {
 	abilities: [{
 		name: {
 			fr: "Tandem",
-			de: "Tag Team"
+			de: "Tag Team",
+			en: "Tag Team",
 		},
 
 		effect: {
 			fr: "Quand vous jouez Mackogneur depuis votre main, si vous le placez sur votre Banc, retirez 3 marqueurs de dégâts de votre Pokémon Actif. S'il a moins de 3 marqueurs de dégâts, retirez-les tous. Échangez ensuite Mackogneur lumineux contre votre Pokémon Actif.",
+			en: "When you play Light Machamp from your hand, if is on your Bench, remove 3 damage counters than that, remove all of them. Then, switch Light Machamp with your Active Pokémon.",
 			de: "When you play Light Machamp from your hand, if is on your Bench, remove 3 damage counters than that, remove all of them. Then, switch Light Machamp with your Active Pokémon."
 		},
 
@@ -81,7 +84,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274677,
 		tcgplayer: 86744
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

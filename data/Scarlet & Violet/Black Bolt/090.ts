@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Simisage"
 	},
 
+	illustrator: "Yuka Tanaka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Pansage",
+		fr: "Feuillajou",
+		de: "Vegimak",
+		it: "Pansage",
+		pt: "Pansage",
+		es: "Pansage",
+		'es-mx': "Pansage"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -41,7 +51,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835912
+		cardmarket: 836089
 	}
 }
 

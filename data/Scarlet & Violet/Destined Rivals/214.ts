@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Regirock ex"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 230,
@@ -76,7 +79,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826088
+	}
 }
 
 export default card

@@ -36,8 +36,9 @@ const card: Card = {
 	illustrator: "GIDORA",
 
 	thirdParty: {
-		cardmarket: 702471
-	}
+        cardmarket: 702532,
+        tcgplayer: 490094
+    }
 }
 
 export default card

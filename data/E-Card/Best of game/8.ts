@@ -10,7 +10,9 @@ const card: Card = {
 
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "None",
-	category: "Pokemon",
+	category: "Pokemon",		
+  hp: 70,
+	dexId: [150],
 	stage: "Basic",
 
 	attacks: [{
@@ -43,7 +45,21 @@ const card: Card = {
 		},
 
 		damage: 60
-	}]
+	}],
+
+	variants: [
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"]
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"],
+			size: "jumbo"
+		}
+	]
 }
 
 export default card

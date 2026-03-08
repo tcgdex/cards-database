@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gloom",
+		fr: "Ortide"
 	},
 
 	stage: "Stage2",
@@ -74,9 +75,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276987
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+	]
 }
 
 export default card

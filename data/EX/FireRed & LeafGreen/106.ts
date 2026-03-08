@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Clefairy",
+		fr: "Mélofée"
 	},
 
 	suffix: "EX",
@@ -70,10 +71,19 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276282,
 		tcgplayer: 84350
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+	]
 }
 
 export default card

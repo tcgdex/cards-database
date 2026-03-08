@@ -8,17 +8,21 @@ on:
     branches: 
       - "**"
 
+permissions: {}
 jobs:
   test:
     runs-on: ${{ matrix.os }}
+    permissions: {}
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v5
-
+      uses: actions/checkout@v6
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+        persist-credentials: false
 
     - name: Setup BunJS
       uses: oven-sh/setup-bun@v2
@@ -38,9 +42,26 @@ jobs:
         bun run --bun validate
 
     - name: Validate some requests
+      shell: bash
       run: |
+        set -euo pipefail
         cd server
         bun run start &
-        sleep 10
-        cd ../.bruno
+        SERVER_PID=$!
+        cd ..
+
+        ATTEMPTS=0
+        until curl -sSf http://127.0.0.1:3000/status > /dev/null; do
+          ATTEMPTS=$((ATTEMPTS + 1))
+          if [ $ATTEMPTS -ge 60 ]; then
+            echo "Server did not become ready within 60 seconds" >&2
+            kill $SERVER_PID
+            exit 1
+          fi
+          sleep 1
+        done
+
+        cd .bruno
         bru run --env Developpement
+
+        kill $SERVER_PID

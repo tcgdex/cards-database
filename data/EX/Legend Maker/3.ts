@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lileep",
+		fr: "Lilia"
 	},
 
 	stage: "Stage2",
@@ -88,10 +89,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276880,
 		tcgplayer: 84452
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Feebas de Cynthia"
 	},
 
+	illustrator: "kamonabe",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 30,
@@ -57,7 +58,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825926
+	}
 }
 
 export default card

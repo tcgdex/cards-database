@@ -29,7 +29,20 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	regulationMark: "I"
+	regulationMark: "I", 
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	thirdParty: {
+		cardmarket: 851194
+	}
 }
 
 export default card

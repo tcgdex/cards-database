@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	stage: "Stage1",
@@ -39,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				fr: "Onde Folie"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
+				fr: "Le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 20,
 
@@ -54,9 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadow Shutdown",
+				fr: "Dépouillage des Ombres"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.",
+				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, défaussez toutes les Énergies attachées au Pokémon Défenseur."
 			},
 			damage: 60,
 

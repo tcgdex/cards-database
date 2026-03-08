@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Minccino"
 	},
 
+	illustrator: "Natsumi Yoshida",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836060
+		cardmarket: 836224
 	}
 }
 

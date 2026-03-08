@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machop",
+		fr: "Machoc"
 	},
 
 	stage: "Stage1",
@@ -86,10 +87,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276916,
 		tcgplayer: 86979
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

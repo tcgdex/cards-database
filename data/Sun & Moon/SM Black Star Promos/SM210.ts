@@ -11,13 +11,11 @@ const card: Card = {
 		de: "Lavados & Zapdos & Arktos GX"
 	},
 	illustrator: "HYOGONOSUKE",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		144,
-	],
+	dexId: [146, 145, 144],
 	hp: 300,
 	types: [
 		"Colorless",

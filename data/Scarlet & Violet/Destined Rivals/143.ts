@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Beldum de Steven"
 	},
 
+
+	illustrator: "Takeshi Nakamura",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -47,7 +50,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826017
+	}
 }
 
 export default card

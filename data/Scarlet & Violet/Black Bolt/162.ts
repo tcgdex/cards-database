@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Fennel"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -31,7 +32,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836069
+		cardmarket: 836236
 	}
 }
 

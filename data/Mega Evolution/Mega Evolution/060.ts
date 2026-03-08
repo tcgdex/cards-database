@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 360,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Kirlia",
+		fr: "Kirlia",
+		de: "Kirlia",
+		it: "Kirlia",
+		es: "Kirlia",
+		pt: "Kirlia",
+		'es-mx': "Kirlia"
+	},
 	stage: "Stage2",
+	dexId: [282],
 
 	attacks: [{
 		cost: ["Psychic"],
@@ -72,8 +82,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"]
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654399
+		tcgplayer: 654399,
+		cardmarket: 851131
 	}
 }
 

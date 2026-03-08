@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vigoroth",
+		fr: "Vigoroth"
 	},
 
 	stage: "Stage2",
@@ -75,10 +76,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 3,
+
 	thirdParty: {
 		cardmarket: 275660,
 		tcgplayer: 89288
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

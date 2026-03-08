@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
+		fr: "Carabaffe"
 	},
 
 	stage: "Stage2",
@@ -78,7 +79,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274879,
 		tcgplayer: 83889
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

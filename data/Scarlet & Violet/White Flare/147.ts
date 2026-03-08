@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Zweilous"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Deino",
+		fr: "Solochi",
+		de: "Kapuno",
+		it: "Deino",
+		pt: "Deino",
+		es: "Deino",
+		'es-mx': "Deino"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836025
+		cardmarket: 836179
 	}
 }
 

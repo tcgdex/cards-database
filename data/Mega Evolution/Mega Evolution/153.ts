@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Yungoos",
+		fr: "Manglouton",
+		de: "Mangunior",
+		it: "Yungoos",
+		es: "Yungoos",
+		pt: "Yungoos",
+		'es-mx': "Yungoos"
+	},
 	stage: "Stage1",
+	dexId: [735],
 
 	abilities: [{
 		type: "Ability",
@@ -64,8 +74,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+	],
+
 	thirdParty: {
-		tcgplayer: 654492
+		tcgplayer: 654492,
+		cardmarket: 851224
 	}
 }
 

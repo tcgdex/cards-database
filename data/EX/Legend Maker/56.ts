@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Root Fossil",
+		fr: "Fossile racine"
 	},
 
 	stage: "Stage1",
@@ -74,10 +75,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276933,
 		tcgplayer: 86787
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Solosis"
 	},
 
+	illustrator: "USGMEN",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 40,
@@ -41,7 +42,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835981
+		cardmarket: 836148
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Drilbur",
+		fr: "Rototaupe",
+		es: "Drilbur",
+		it: "Drilbur",
+		pt: "Drilbur",
+		de: "Rotomurf"
+	},
 	stage: "Stage1",
 
 	attacks: [{

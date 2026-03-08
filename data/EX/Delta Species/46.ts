@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weedle",
+		fr: "Aspicot"
 	},
 
 	stage: "Stage1",
@@ -70,10 +71,24 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276809,
 		tcgplayer: 86412
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card
+

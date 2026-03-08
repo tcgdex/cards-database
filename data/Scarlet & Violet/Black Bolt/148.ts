@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pidove"
 	},
 
+	illustrator: "Mori Yuu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -63,7 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836052
+		cardmarket: 836219
 	}
 }
 

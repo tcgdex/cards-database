@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gabite",
+		fr: "Carmache"
 	},
 
 	stage: "Stage2",
@@ -77,7 +78,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277638,
 		tcgplayer: 85621
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

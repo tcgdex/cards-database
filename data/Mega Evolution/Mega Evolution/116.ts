@@ -31,8 +31,27 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654455
+		tcgplayer: 654455,
+		cardmarket: 851187
 	}
 }
 

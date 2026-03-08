@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Capsakid",
+		fr: "Pimito",
+		es: "Capsakid",
+		it: "Capsakid",
+		pt: "Capsakid",
+		de: "Chilingel"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "PLANETA Igarashi",
 
 	thirdParty: {
-		cardmarket: 794303
+		cardmarket: 794589
 	}
 }
 

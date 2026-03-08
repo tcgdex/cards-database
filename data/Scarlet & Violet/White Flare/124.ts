@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gothita"
 	},
 
+	illustrator: "Kanami Ogata",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -41,7 +42,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835976
+		cardmarket: 836140
 	}
 }
 

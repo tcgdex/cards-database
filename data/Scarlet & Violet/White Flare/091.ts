@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Deerling"
 	},
 
+	illustrator: "takashi shiraishi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -41,7 +42,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835911
+		cardmarket: 836077
 	}
 }
 

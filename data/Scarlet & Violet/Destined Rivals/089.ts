@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Orbeetle del Equipo Rocket"
 	},
 
+
+	illustrator: "Shin Nagasawa",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Team Rocket's Dottler",
+		fr: "Coléodôme de la Team Rocket",
+		de: "Team Rockets Keradar",
+		it: "Dottler del Team Rocket",
+		es: "Dottler del Team Rocket",
+		pt: "Dottler da Equipe Rocket",
+		'es-mx': "Dottler del Equipo Rocket"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -81,7 +93,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825963
+	}
 }
 
 export default card

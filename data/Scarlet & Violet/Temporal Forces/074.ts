@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Elgyem",
+		fr: "Lewsor",
+		es: "Elgyem",
+		it: "Elgyem",
+		pt: "Elgyem",
+		de: "Pygraulon"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -47,9 +55,14 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Shinya Komatsu",
 

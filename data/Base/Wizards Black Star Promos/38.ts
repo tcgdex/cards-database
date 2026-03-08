@@ -62,7 +62,13 @@ const card: Card = {
 
 	description: {
 		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. Certains croient qu'il existe un lien entre les hiéroglyphes et eux."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card

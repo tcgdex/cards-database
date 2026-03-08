@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tepig"
 	},
 
+	illustrator: "Orca",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -55,7 +56,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835923
+		cardmarket: 836084
 	}
 }
 

@@ -31,8 +31,35 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+		},
+		{
+			type: "normal",
+			stamp: ["regional-championships"]
+		},
+		{
+			type: "normal",
+			stamp: ["regional-championships", "staff"]
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654458
+		tcgplayer: 654458,
+		cardmarket: 851190
 	}
 }
 

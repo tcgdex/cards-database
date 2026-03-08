@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
+	dexId: [280],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -62,8 +63,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654397
+		tcgplayer: 654397,
+		cardmarket: 851129
 	}
 }
 

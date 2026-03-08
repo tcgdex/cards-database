@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mysterious Fossil",
+		fr: "Mystérieux fossile"
 	},
 
 	stage: "Stage1",
@@ -85,10 +86,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 275816,
 		tcgplayer: 86380
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

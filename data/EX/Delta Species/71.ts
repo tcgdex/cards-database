@@ -52,10 +52,31 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276834,
 		tcgplayer: 86158
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["jun-hasebe"]
+		},
+		{
+			type: "normal",
+			stamp: ["tom-roos"]
+		},
+	]
 }
 
 export default card

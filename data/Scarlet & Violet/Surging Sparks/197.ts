@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Charcadet",
+		fr: "Charbambin",
+		es: "Charcadet",
+		it: "Charcadet",
+		pt: "Charcadet",
+		de: "Knarbon"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +83,7 @@ const card: Card = {
 	illustrator: "Rond",
 
 	thirdParty: {
-		cardmarket: 794299
+		cardmarket: 794570
 	}
 }
 

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Shelmet"
 	},
 
+	illustrator: "Mékayu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -65,7 +66,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835915
+		cardmarket: 836080
 	}
 }
 

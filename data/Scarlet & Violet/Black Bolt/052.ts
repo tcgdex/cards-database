@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Crustle"
 	},
 
+	illustrator: "Tetsu Kayama",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Dwebble",
+		fr: "Crabicoque",
+		de: "Lithomith",
+		it: "Dwebble",
+		pt: "Dwebble",
+		es: "Dwebble",
+		'es-mx': "Dwebble"
+	},
 	stage: "Stage1",
 
 	abilities: [{

@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Bisharp"
 	},
 
+	illustrator: "toriyufu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Pawniard",
+		fr: "Scalpion",
+		de: "Gladiantri",
+		it: "Pawniard",
+		pt: "Pawniard",
+		es: "Pawniard",
+		'es-mx': "Pawniard"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836043
+		cardmarket: 836210
 	}
 }
 

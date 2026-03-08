@@ -88,10 +88,29 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 3,
+
 	thirdParty: {
 		cardmarket: 275986,
 		tcgplayer: 89827
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "holo",
+			stamp: ["tsuguyoshi-yamato"]
+		},
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cottonee"
 	},
 
+	illustrator: "Keisin",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835907
+		cardmarket: 836075
 	}
 }
 

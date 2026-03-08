@@ -78,8 +78,14 @@ const card: Card = {
 	],
 	retreat: 4,
 
-
-
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

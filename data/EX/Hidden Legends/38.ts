@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chinchou",
+		fr: "Loupio"
 	},
 
 	stage: "Stage1",
@@ -74,10 +75,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276112,
 		tcgplayer: 86604
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		}, {
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

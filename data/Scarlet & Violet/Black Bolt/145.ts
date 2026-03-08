@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Axew"
 	},
 
+	illustrator: "Ayako Ozaki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -49,7 +50,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836047
+		cardmarket: 836213
 	}
 }
 

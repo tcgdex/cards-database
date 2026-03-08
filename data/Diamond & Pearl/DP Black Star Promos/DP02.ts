@@ -66,7 +66,13 @@ const card: Card = {
 
 	description: {
 		fr: "Il escalade prestement les falaises escarpées et vit sur les sommets. Sa flamme s'éteint quand il dort."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	],
 }
 
 export default card

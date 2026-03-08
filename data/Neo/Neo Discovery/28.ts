@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwhirl",
+		fr: "Têtarte"
 	},
 
 	stage: "Stage2",
@@ -80,7 +81,18 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274520,
 		tcgplayer: 88274
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card
+

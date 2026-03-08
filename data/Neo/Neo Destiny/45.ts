@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seel",
+		fr: "Otaria"
 	},
 
 	stage: "Stage1",
@@ -83,7 +84,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274697,
 		tcgplayer: 86736
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

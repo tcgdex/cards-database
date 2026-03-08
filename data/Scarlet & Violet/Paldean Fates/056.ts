@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Gastly",
+		fr: "Fantominus",
+		es: "Gastly",
+		it: "Gastly",
+		pt: "Gastly",
+		de: "Nebulak"
+	},
 	stage: "Stage1",
 
 	attacks: [{

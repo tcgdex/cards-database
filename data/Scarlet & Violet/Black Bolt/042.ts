@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Golett"
 	},
 
+	illustrator: "Uta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

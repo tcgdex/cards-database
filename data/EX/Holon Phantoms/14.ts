@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pidgeotto",
+		fr: "Roucoups"
 	},
 
 	stage: "Stage2",
@@ -82,9 +83,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276984
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+	]
 }
 
 export default card

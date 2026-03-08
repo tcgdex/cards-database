@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seedot",
+		fr: "Grainipiot"
 	},
 
 	stage: "Stage1",
@@ -80,10 +81,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276119,
 		tcgplayer: 87820
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		}, {
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

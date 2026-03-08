@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Cheren"
 	},
 
+	illustrator: "Atsushi Furusawa",
 	rarity: "Uncommon",
 	category: "Trainer",
 

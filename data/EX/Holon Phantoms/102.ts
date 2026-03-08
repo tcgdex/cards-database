@@ -23,6 +23,11 @@ const card: Card = {
 	stage: "Basic",
 
 
+	
+
+	retreat: 2,
+
+
 	attacks: [
 		{
 			cost: [
@@ -70,7 +75,11 @@ const card: Card = {
 		},
 	],
 
-
+	variants: [
+		{
+			type: "holo"
+		},
+	]
 
 
 

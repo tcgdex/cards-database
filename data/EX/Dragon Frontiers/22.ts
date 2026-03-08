@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Horsea",
+		fr: "Hypotrempe"
 	},
 
 	stage: "Stage1",
@@ -72,9 +73,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 277227
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

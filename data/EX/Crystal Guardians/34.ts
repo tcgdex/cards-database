@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bulbasaur",
+		fr: "Bulbizarre"
 	},
 
 	stage: "Stage1",
@@ -72,10 +73,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 277115,
 		tcgplayer: 86300
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

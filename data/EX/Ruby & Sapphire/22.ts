@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Carvanha",
+		fr: "Carvanha"
 	},
 
 	stage: "Stage1",
@@ -74,10 +75,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 275670,
 		tcgplayer: 89097
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

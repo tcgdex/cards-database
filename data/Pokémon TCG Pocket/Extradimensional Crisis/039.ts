@@ -5,24 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandile"
+		en: "Sandile",
+		fr: "Mascaïman"
 	},
 
 	illustrator: "Naoyo Kimura",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [551],
 	hp: 70,
 	types: ["Darkness"],
 
 	description: {
-		en: "It submerges itself in sand and moves as if\nswimming. This wise behavior keeps its enemies\nfrom finding it and maintains its temperature."
+		en: "It submerges itself in sand and moves as if\nswimming. This wise behavior keeps its enemies\nfrom finding it and maintains its temperature.",
+		fr: "Ce Pokémon avance tapi dans le sable, ce qui lui permet de se cacher des prédateurs et de maintenir sa température corporelle."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 
 		damage: 20,

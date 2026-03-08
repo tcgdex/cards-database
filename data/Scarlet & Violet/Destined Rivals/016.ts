@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Applin"
 	},
 
+	illustrator: "Tetsu Kayama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -57,7 +58,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825890
+	}
 }
 
 export default card

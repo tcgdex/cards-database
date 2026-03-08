@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Whismur",
+		fr: "Chuchmur"
 	},
 
 	stage: "Stage1",
@@ -75,10 +76,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 277104,
 		tcgplayer: 86842
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skitty",
+		fr: "Skitty"
 	},
 
 	stage: "Stage1",
@@ -74,10 +75,26 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 275653,
 		tcgplayer: 84735
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			subtype: "no-e-reader"
+		}
+	]
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Timburr"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -55,7 +56,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836003
+		cardmarket: 836167
 	}
 }
 

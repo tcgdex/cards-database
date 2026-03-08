@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Abra",
+		en: "Abra",
+		es: "Abra",
+		it: "Abra",
+		pt: "Abra",
+		de: "Abra"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -54,7 +62,7 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 
 	thirdParty: {
-		cardmarket: 720397
+		cardmarket: 733659
 	}
 }
 

@@ -5,28 +5,34 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Azurill"
+		en: "Azurill",
+		fr: "Azurill"
 	},
 
 	illustrator: "Rond",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [298],
 	hp: 30,
 	types: ["Colorless"],
 
 	description: {
-		en: "Its tail bounces like a rubber ball. It flings that tail\naround to fight opponents bigger than itself."
+		en: "Its tail bounces like a rubber ball. It flings that tail\naround to fight opponents bigger than itself.",
+		fr: "Sa queue est une véritable balle rebondissante. Il s'en sert comme d'une massue lorsqu'il affronte des adversaires de taille imposante."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Squishy Healing"
+			en: "Squishy Healing",
+			fr: "Soin qui Pomponne"
 		},
 
 		effect: {
-			en: "Heal 50 damage from 1 of your Benched Pokémon."
+			en: "Heal 50 damage from 1 of your Benched Pokémon.",
+			fr: "Soignez 50 dégâts d'un de vos Pokémon de Banc."
 		}
 	}],
 

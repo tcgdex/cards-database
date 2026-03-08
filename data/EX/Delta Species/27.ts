@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sandshrew",
+		fr: "Sabelette"
 	},
 
 	stage: "Stage1",
@@ -89,9 +90,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276790
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card
+

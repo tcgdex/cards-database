@@ -31,8 +31,15 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "H",
 
+	variants: [
+		{
+			type: "holo"
+		},
+	],
+
 	thirdParty: {
-		tcgplayer: 654506
+		tcgplayer: 654506,
+		cardmarket: 851238
 	}
 }
 

@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Kadabra",
+		fr: "Kadabra",
+		de: "Kadabra",
+		it: "Kadabra",
+		es: "Kadabra",
+		pt: "Kadabra",
+		'es-mx': "Kadabra"
+	},
 	stage: "Stage2",
+	dexId: [65],
 
 	abilities: [{
 		type: "Ability",
@@ -72,8 +82,18 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654395
+		tcgplayer: 654395,
+		cardmarket: 851127
 	}
 }
 

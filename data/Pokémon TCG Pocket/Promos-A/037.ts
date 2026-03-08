@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [488],
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Basic",

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
+	evolveFrom: {
+		fr: "Ponyta",
+		en: "Ponyta",
+		es: "Ponyta",
+		it: "Ponyta",
+		pt: "Ponyta",
+		de: "Ponita"
+	},
 	stage: "Stage1",
 
 	attacks: [{

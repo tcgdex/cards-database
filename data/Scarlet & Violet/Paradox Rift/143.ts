@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Porygon",
+		fr: "Porygon",
+		es: "Porygon",
+		it: "Porygon",
+		pt: "Porygon",
+		de: "Porygon"
+	},
 	stage: "Stage1",
 
 	attacks: [{

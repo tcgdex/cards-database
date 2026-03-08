@@ -71,7 +71,13 @@ const card: Card = {
 
 	description: {
 		fr: "Il griffe quand il est en colère et ronronne quand il est heureux. Certains aiment ce côté lunatique."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	],
 }
 
 export default card

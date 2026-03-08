@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pupitar",
+		fr: "Ymphect"
 	},
 
 	stage: "Stage2",
@@ -91,7 +92,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277646,
 		tcgplayer: 90119
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

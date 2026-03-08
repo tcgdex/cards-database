@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Fossile Dôme Ancien",
+		en: "Antique Dome Fossil",
+		es: "Fósil Domo Antiguo",
+		it: "Vecchio Domofossile",
+		pt: "Fóssil Cúpula Arcaico",
+		de: "Antikes Domfossil"
+	},
 	stage: "Stage1",
 
 	attacks: [{

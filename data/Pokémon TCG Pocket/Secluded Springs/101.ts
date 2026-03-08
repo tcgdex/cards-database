@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Infernape ex"
+		en: "Infernape ex",
+		fr: "Simiabraz-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
 	rarity: "Two Shiny",
 	category: "Pokemon",
+
+	dexId: [392],
 	hp: 170,
 	types: ["Fire"],
 
@@ -23,14 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flare Blitz"
+			en: "Flare Blitz",
+			fr: "Boutefeu"
 		},
 
 		damage: 140,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "Discard all {R} Energy from this Pokémon."
+			en: "Discard all {R} Energy from this Pokémon.",
+			fr: "Défaussez toutes les Énergies {R} de ce Pokémon."
 		}
 	}],
 

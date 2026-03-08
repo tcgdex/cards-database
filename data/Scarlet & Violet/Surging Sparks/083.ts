@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Yamask",
+		fr: "Tutafeh",
+		es: "Yamask",
+		it: "Yamask",
+		pt: "Yamask",
+		de: "Makabaja"
+	},
 	stage: "Stage1",
 
 	attacks: [{

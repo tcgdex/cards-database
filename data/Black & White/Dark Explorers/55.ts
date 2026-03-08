@@ -36,6 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 30,

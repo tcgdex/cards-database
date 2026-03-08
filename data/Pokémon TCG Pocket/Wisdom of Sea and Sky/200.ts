@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jasmine"
+		en: "Jasmine",
+		fr: "Jasmine"
 	},
 
 	illustrator: "En Morikura",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "During your opponent's next turn, all of your Steelix and Skarmory ex take −50 damage from attacks from your opponent's Pokémon."
+		en: "During your opponent's next turn, all of your Steelix and Skarmory ex take −50 damage from attacks from your opponent's Pokémon.",
+		fr: "Pendant le prochain tour de votre adversaire, tous vos  et  subissent − 50 dégâts provenant des attaques des Pokémon de votre adversaire."
 	},
 
 	trainerType: "Supporter",

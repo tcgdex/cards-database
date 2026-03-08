@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fire"],
+	evolveFrom: {
+		fr: "Chochodile",
+		en: "Fuecoco",
+		es: "Fuecoco",
+		it: "Fuecoco",
+		pt: "Fuecoco",
+		de: "Krokel"
+	},
 	stage: "Stage1",
 
 	attacks: [{

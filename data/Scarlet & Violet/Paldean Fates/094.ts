@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Gloom",
+		fr: "Ortide",
+		es: "Gloom",
+		it: "Gloom",
+		pt: "Gloom",
+		de: "Duflor"
+	},
 	stage: "Stage2",
 
 	abilities: [{

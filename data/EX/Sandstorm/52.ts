@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slakoth",
+		fr: "Parecool"
 	},
 
 	stage: "Stage1",
@@ -70,10 +71,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 275829,
 		tcgplayer: 90367
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luxio"
+		en: "Luxio",
+		fr: "Luxio"
 	},
 
 	illustrator: "Kouki Saitou",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [404],
 	hp: 80,
 	types: ["Lightning"],
 
@@ -19,14 +22,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Strong electricity courses through the tips of\nits sharp claws. A light scratch causes fainting\nin foes."
+		en: "Strong electricity courses through the tips of\nits sharp claws. A light scratch causes fainting\nin foes.",
+		fr: "Le courant qui circule à la pointe de ses griffes est capable de faire perdre connaissance à ses proies."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Head Bolt"
+			en: "Head Bolt",
+			fr: "Éclair Frontal"
 		},
 
 		damage: 50,

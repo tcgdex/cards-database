@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	suffix: "EX",
@@ -74,10 +75,19 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 3,
+
 	thirdParty: {
 		cardmarket: 276285,
 		tcgplayer: 86004
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+	]
 }
 
 export default card

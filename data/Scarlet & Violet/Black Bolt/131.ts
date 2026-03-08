@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Landorus"
 	},
 
+	illustrator: "SIE NANAHARA",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
@@ -73,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836015
+		cardmarket: 836177
 	}
 }
 

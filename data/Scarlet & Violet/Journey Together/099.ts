@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Pancham",
+		fr: "Pandespiègle",
+		es: "Pancham",
+		de: "Pam-Pam",
+		it: "Pancham",
+		pt: "Pancham",
+		'es-mx': "Pancham"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +86,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817251
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weepinbell",
+		fr: "Boustiflor"
 	},
 
 	stage: "Stage2",
@@ -74,10 +75,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276193,
 		tcgplayer: 90362
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

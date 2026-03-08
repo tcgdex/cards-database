@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Rufflet",
+		fr: "Furaiglon",
+		es: "Rufflet",
+		it: "Rufflet",
+		pt: "Rufflet",
+		de: "Geronimatz"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -66,7 +74,7 @@ const card: Card = {
 	illustrator: "Gapao",
 
 	thirdParty: {
-		cardmarket: 794526
+		cardmarket: 794587
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Rondoudou",
+		en: "Jigglypuff",
+		es: "Jigglypuff",
+		it: "Jigglypuff",
+		pt: "Jigglypuff",
+		de: "Pummeluff"
+	},
 	stage: "Stage1",
 
 	abilities: [{

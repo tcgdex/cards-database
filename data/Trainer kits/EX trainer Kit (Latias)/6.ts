@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skitty"
+		en: "Skitty",
+		fr: "Skitty"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,7 +25,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 		damage: 10
 	}, {
@@ -33,10 +35,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Lunge"
+			en: "Lunge",
+			fr: "Coup rapide"
 		},
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, l'attaque est sans effet."
 		},
 		damage: 30
 	}],

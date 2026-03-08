@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Stoutland"
 	},
 
+	illustrator: "Eri Kamei",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Herdier",
+		fr: "Ponchien",
+		de: "Terribark",
+		it: "Herdier",
+		pt: "Herdier",
+		es: "Herdier",
+		'es-mx': "Herdier"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -73,7 +83,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836040
+		cardmarket: 836194
 	}
 }
 

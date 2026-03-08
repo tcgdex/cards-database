@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Flaaffy",
+		fr: "Lainergie"
 	},
 
 	stage: "Stage2",
@@ -81,10 +82,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276647,
 		tcgplayer: 83540
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Flaaffy",
+		fr: "Lainergie"
 	},
 
 	stage: "Stage2",
@@ -78,7 +79,13 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275052,
 		tcgplayer: 83537
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

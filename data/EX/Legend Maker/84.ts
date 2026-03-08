@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Anorith",
+		fr: "Anorith"
 	},
 
 	suffix: "EX",
@@ -84,10 +85,19 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 3,
+
 	thirdParty: {
 		cardmarket: 276961,
 		tcgplayer: 83624
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 }
 
 export default card

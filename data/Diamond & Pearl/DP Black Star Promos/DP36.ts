@@ -21,6 +21,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Gligar",
+		fr: "Scorplane"
 	},
 	stage: "Stage1",
 
@@ -87,9 +88,11 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	variants: [
+		{
+			type: "holo",
+		}
+	],
 }
 
 export default card

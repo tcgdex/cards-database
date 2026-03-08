@@ -22,7 +22,28 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275865,
 		tcgplayer: 88589
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["reed-weichler"]
+		},
+		{
+			type: "normal",
+			stamp: ["kevin-nguyen"]
+		},
+		{
+			type: "normal",
+			stamp: ["chris-fulop"]
+		}
+	]
 }
 
 export default card

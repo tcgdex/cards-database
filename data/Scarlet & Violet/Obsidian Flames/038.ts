@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fire"],
+	evolveFrom: {
+		fr: "Mélancolux",
+		en: "Lampent",
+		es: "Lampent",
+		it: "Lampent",
+		pt: "Lampent",
+		de: "Laternecto"
+	},
 	stage: "Stage2",
 
 	attacks: [{

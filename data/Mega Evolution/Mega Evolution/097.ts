@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Tinkatink",
+		fr: "Forgerette",
+		de: "Forgita",
+		it: "Tinkatink",
+		es: "Tinkatink",
+		pt: "Tinkatink",
+		'es-mx': "Tinkatink"
+	},
 	stage: "Stage1",
+	dexId: [958],
 
 	abilities: [{
 		type: "Ability",
@@ -64,8 +74,18 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654436
+		tcgplayer: 654436,
+		cardmarket: 851168
 	}
 }
 

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Makuhita",
+		fr: "Makuhita"
 	},
 
 	suffix: "EX",
@@ -92,10 +93,19 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		tcgplayer: 86018,
 		cardmarket: 276503
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

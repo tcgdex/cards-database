@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Panpour"
 	},
 
+	illustrator: "Hoshino KURO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -63,7 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835936
+		cardmarket: 836109
 	}
 }
 

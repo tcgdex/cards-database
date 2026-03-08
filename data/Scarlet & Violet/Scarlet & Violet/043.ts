@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Slowpoke"
+		en: "Slowpoke",
+		fr: "Ramoloss"
 	},
 
 	stage: "Stage1",
@@ -74,16 +75,21 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'reverse'
+		},
+		{
+			type: 'holo'
+		},
+	],
 
 	illustrator: "Shinji Kanda",
 
 	thirdParty: {
-		cardmarket: 702338
-	}
+        cardmarket: 702338,
+        tcgplayer: 487887
+    }
 }
 
 export default card

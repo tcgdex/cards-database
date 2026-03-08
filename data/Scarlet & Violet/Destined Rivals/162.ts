@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Pesa Recia de Cynthia"
 	},
 
+
+	illustrator: "Studio Bora Inc.",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826036
+	}
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shuppet",
+		fr: "Polichombr"
 	},
 
 	stage: "Stage1",
@@ -80,10 +81,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276075,
 		tcgplayer: 83719
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

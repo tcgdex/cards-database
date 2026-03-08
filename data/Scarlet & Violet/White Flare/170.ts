@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Bouffalant ex"
 	},
 
+	illustrator: "Rianti Hidayat",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 220,
@@ -75,7 +76,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836042
+		cardmarket: 836218
 	}
 }
 

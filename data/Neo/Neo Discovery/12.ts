@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Piloswine",
+		fr: "Ymphect"
 	},
 
 	stage: "Stage2",
@@ -87,7 +88,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274523,
 		tcgplayer: 90113
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

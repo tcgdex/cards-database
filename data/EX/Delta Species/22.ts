@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Holon's Magnemite",
+		fr: "Magneti d'Holon"
 	},
 
 	stage: "Stage1",
@@ -64,10 +65,36 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276785,
 		tcgplayer: 86157
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["hiroki-yano"]
+		},
+		{
+			type: "normal",
+			stamp: ["jason-klaczynski"]
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-scharff-kim"]
+		},
+
+	]
 }
 
 export default card

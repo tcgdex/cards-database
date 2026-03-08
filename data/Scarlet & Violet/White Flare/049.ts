@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sawk"
 	},
 
+	illustrator: "Dsuke",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

@@ -4,6 +4,7 @@ import Set from '../POP Series 5'
 const card: Card = {
 	name: {
 		en: "Charmander δ",
+		fr: "Charmander δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 10,
@@ -42,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 20,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pansage"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -63,7 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835910
+		cardmarket: 836087
 	}
 }
 

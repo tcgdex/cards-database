@@ -64,10 +64,15 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["yuta-komatsuda"]
+		}
+	]
 }
 
 export default card

@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
+	dexId: [694],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -50,8 +51,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+	],
+
 	thirdParty: {
-		tcgplayer: 654482
+		tcgplayer: 654482,
+		cardmarket: 851214
 	}
 }
 

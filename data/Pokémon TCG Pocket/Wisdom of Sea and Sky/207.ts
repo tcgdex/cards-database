@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crobat ex"
+		en: "Crobat ex",
+		fr: "Nostenfer-ex"
 	},
 
 	illustrator: "Shinji Kanda",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [169],
 	hp: 170,
 	types: ["Darkness"],
 
@@ -23,14 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Venomous Slash"
+			en: "Venomous Slash",
+			fr: "Taillade Venimeuse"
 		},
 
 		damage: 70,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			en: "Your opponent's Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 		}
 	}],
 

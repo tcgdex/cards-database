@@ -83,12 +83,14 @@ const card: Card = {
 		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279259,

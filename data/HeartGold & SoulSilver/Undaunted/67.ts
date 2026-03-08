@@ -72,12 +72,14 @@ const card: Card = {
 		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279320,

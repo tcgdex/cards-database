@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nincada",
+		fr: "Ningale"
 	},
 
 	stage: "Stage1",
@@ -64,10 +65,26 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 0,
+
 	thirdParty: {
 		tcgplayer: 89118,
 		cardmarket: 276417
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "holo",
+		},
+		{
+			type: "normal"
+		},
+	]
 }
 
 export default card

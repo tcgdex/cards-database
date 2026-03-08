@@ -5,24 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Woobat"
+		en: "Woobat",
+		fr: "Chovsourir"
 	},
 
 	illustrator: "match",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [527],
 	hp: 60,
 	types: ["Psychic"],
 
 	description: {
-		en: "While inside a cave, if you look up and see lots\nof heart-shaped marks lining the walls, it's\nevidence that Woobat live there."
+		en: "While inside a cave, if you look up and see lots\nof heart-shaped marks lining the walls, it's\nevidence that Woobat live there.",
+		fr: "La présence de marques en forme de cœur sur les parois des grottes indique la présence de Chovsourir à l'intérieur."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Gust"
+			en: "Gust",
+			fr: "Tornade"
 		},
 
 		damage: 20,

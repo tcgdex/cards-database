@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Turtwig",
+		fr: "Tortipouss",
+		es: "Turtwig",
+		it: "Turtwig",
+		pt: "Turtwig",
+		de: "Chelast"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -60,9 +68,14 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Uninori",
 

@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Swanna"
 	},
 
+	illustrator: "Gemi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Ducklett",
+		fr: "Couaneton",
+		de: "Piccolente",
+		it: "Ducklett",
+		pt: "Ducklett",
+		es: "Ducklett",
+		'es-mx': "Ducklett"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835954
+		cardmarket: 836114
 	}
 }
 

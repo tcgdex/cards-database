@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Genesect ex"
 	},
 
+	illustrator: "kantaro",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 220,
@@ -75,7 +76,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836046
+		cardmarket: 836243
 	}
 }
 

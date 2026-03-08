@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Terrakion"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,
@@ -65,7 +66,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836001
+		cardmarket: 836157
 	}
 }
 

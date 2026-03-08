@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Virizion"
 	},
 
+	illustrator: "kodama",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
@@ -75,7 +76,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835920
+		cardmarket: 836083
 	}
 }
 

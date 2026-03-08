@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Electrike"
 	},
 
+
+	illustrator: "Narano",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -61,7 +64,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825949
+	}
 }
 
 export default card

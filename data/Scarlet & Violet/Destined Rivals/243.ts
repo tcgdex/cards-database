@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Torre de Interferencia"
 	},
 
+
+	illustrator: "AYUMI ODASHIMA",
+
 	rarity: "Hyper rare",
 	category: "Trainer",
 
@@ -34,7 +37,11 @@ const card: Card = {
 			type: 'holo',
 			foil: 'gold'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826117
+	}
 }
 
 export default card

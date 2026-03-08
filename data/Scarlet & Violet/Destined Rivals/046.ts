@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Staryu de Misty"
 	},
 
+	illustrator: "Shinya Komatsu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -57,7 +58,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825920
+	}
 }
 
 export default card

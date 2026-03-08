@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electrode"
+		en: "Electrode",
+		fr: "Électrode"
 	},
 
 	illustrator: "Scav",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [101],
 	hp: 80,
 	types: ["Lightning"],
 
@@ -19,14 +22,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The more energy it charges up, the faster\nit gets. But this also makes it more likely\nto explode."
+		en: "The more energy it charges up, the faster\nit gets. But this also makes it more likely\nto explode.",
+		fr: "Plus il accumule de l'énergie de type Électrik, plus il est rapide. Mais il a aussi davantage de chances d'exploser."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Rolling Attack"
+			en: "Rolling Attack",
+			fr: "Attaque Qui Roule"
 		},
 
 		damage: 50,

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Numel",
+		fr: "Chamallot"
 	},
 
 	stage: "Stage1",
@@ -87,10 +88,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 277084,
 		tcgplayer: 84092
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

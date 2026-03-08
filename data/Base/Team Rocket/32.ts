@@ -78,14 +78,24 @@ const card: Card = {
 		fr: "Sa queue incroyablement puissante est capable de soulever 5 hommes."
 	},
 
-	variants: {
-		wPromo: true
-	},
-
 	thirdParty: {
 		cardmarket: 274085,
 		tcgplayer: 84574
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "normal",
+			stamp: ["w-promo"]
+		}
+	]
 }
 
 export default card

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Ekans del Equipo Rocket"
 	},
 
+
+	illustrator: "KEIICHIRO ITO",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -69,7 +72,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825986
+	}
 }
 
 export default card

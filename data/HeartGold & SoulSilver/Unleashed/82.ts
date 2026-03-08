@@ -21,12 +21,42 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+		{
+			type: "normal",
+			stamp: ["michael-pramawat"],
+		},
+		{
+			type: "normal",
+			stamp: ["yuka-furusawa"],
+		},
+		{
+			type: "normal",
+			stamp: ["gustavo-wada"],
+		},
+		{
+			type: "normal",
+			stamp: ["christopher-kan"],
+		},
+		{
+			type: "normal",
+			stamp: ["ross-cawthorn"],
+		},
+		{
+			type: "normal",
+			stamp: ["david-cohen"],
+		}
+	],
 
 	hp: 0,
 

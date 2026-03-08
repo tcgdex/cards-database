@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Marshtomp",
+		fr: "Flobio"
 	},
 
 	stage: "Stage2",
@@ -74,10 +75,27 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 277108,
 		tcgplayer: 89679
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+	]
 }
 
 export default card

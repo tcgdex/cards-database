@@ -22,7 +22,17 @@ const card: Card = {
 	thirdParty: {
 		tcgplayer: 87889,
 		cardmarket: 276591
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

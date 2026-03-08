@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Sneasel del Equipo Rocket"
 	},
 
+
+	illustrator: "GIDORA",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 80,
@@ -69,7 +72,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826002
+	}
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wurmple",
+		fr: "Chenipotte"
 	},
 
 	stage: "Stage1",
@@ -69,10 +70,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		tcgplayer: 89211,
 		cardmarket: 276449
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

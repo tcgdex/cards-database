@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Emboar"
 	},
 
+	illustrator: "NC Empire",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Pignite",
+		fr: "Grotichon",
+		de: "Ferkokel",
+		it: "Pignite",
+		pt: "Pignite",
+		es: "Pignite",
+		'es-mx': "Pignite"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -65,7 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835925
+		cardmarket: 836088
 	}
 }
 

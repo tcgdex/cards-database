@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lillipup"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836036
+		cardmarket: 836189
 	}
 }
 

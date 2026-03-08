@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Giovanni del Equipo Rocket"
 	},
 
+
+	illustrator: "Krgc",
+
 	rarity: "Special illustration rare",
 	category: "Trainer",
 
@@ -34,7 +37,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826112
+	}
 }
 
 export default card

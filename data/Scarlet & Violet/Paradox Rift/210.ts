@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Doublade",
+		fr: "Dimoclès",
+		es: "Doublade",
+		it: "Doublade",
+		pt: "Doublade",
+		de: "Duokles"
+	},
 	stage: "Stage2",
 
 	abilities: [{

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,13 @@ const card: Card = {
 
 	description: {
 		fr: "Il devient agressif lorsque son corps contient trop d'électricité. Il la décharge par sa queue."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	],
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Psyduck",
+		fr: "Psykokwak"
 	},
 
 	stage: "Stage1",
@@ -73,10 +74,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 275794,
 		tcgplayer: 85810
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

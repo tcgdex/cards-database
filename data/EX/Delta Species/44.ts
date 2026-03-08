@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Makuhita",
+		fr: "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -84,10 +85,24 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276807,
 		tcgplayer: 86013
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card
+

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Drakloak",
+		fr: "Dispareptil",
+		es: "Drakloak",
+		it: "Drakloak",
+		pt: "Drakloak",
+		de: "Phandra"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-		cardmarket: 769304
+		cardmarket: 769374
 	}
 }
 

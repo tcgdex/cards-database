@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Archen"
 	},
 
+	illustrator: "Haru Akasaka",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Antique Plume Fossil",
+		fr: "Fossile Plume Ancien",
+		de: "Antikes Federfossil",
+		it: "Vecchio Fossilpiuma",
+		pt: "Fóssil Pluma Arcaico",
+		es: "Fósil Pluma Antiguo",
+		'es-mx': "Fósil Pluma Antiguo"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -51,7 +61,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835993
+		cardmarket: 835991
 	}
 }
 

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kakuna",
+		fr: "Coconfort"
 	},
 
 	stage: "Stage2",
@@ -75,10 +76,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 276177,
 		tcgplayer: 83769
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

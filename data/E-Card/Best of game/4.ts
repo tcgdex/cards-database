@@ -10,7 +10,10 @@ const card: Card = {
 
 	illustrator: "K. Hoshiba",
 	rarity: "None",
-	category: "Pokemon",
+	category: "Pokemon",		
+  hp: 60,
+
+	dexId: [212],
 	stage: "Basic",
 
 	attacks: [{
@@ -35,7 +38,22 @@ const card: Card = {
 		effect: {
 			en: "Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Rocket’s Scizor."
 		}
-	}]
+	}],
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["winner"]
+		},
+		{
+			type: "normal",
+			stamp: ["winner"],
+			size: "jumbo"
+		}
+	]
 }
 
 export default card

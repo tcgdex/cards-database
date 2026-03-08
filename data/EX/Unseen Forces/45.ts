@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cyndaquil",
+		fr: "Héricendre"
 	},
 
 	stage: "Stage1",
@@ -72,10 +73,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276691,
 		tcgplayer: 88484
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

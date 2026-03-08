@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Trapinch",
+		fr: "Kraknoix"
 	},
 
 	stage: "Stage1",
@@ -63,9 +64,26 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 277229
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["jun-hasebe"]
+		}
+	]
 }
 
 export default card

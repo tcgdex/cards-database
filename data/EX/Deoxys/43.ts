@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seedot",
+		fr: "Grainipiot"
 	},
 
 	stage: "Stage1",
@@ -74,10 +75,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 87821,
 		cardmarket: 276446
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

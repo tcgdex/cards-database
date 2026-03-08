@@ -76,7 +76,21 @@ const card: Card = {
 
 	description: {
 		fr: "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		},
+		{
+			type: "normal",
+		}
+	],
 }
 
 export default card

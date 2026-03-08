@@ -8,7 +8,7 @@ const set: Set = {
 		// de: "Mysteriöse Insel",
 		en: "Wisdom of Sea and Sky",
 		// es: "La Isla Singular",
-		// fr: "L’Île Fabuleuse",
+		fr: "Sagesse Entre Ciel et Mer",
 		// it: "L'Isola Misteriosa",
 		// 'pt-br': "Ilha Mítica",
 		// ko: '환상이 있는 섬'
@@ -25,12 +25,14 @@ const set: Set = {
 	boosters: {
 		lugia: {
 			name: {
-				en: 'Lugia'
+				en: 'Lugia',
+				fr: 'Lugia'
 			}
 		},
 		'ho-oh': {
 			name: {
-				en: 'Ho-Oh'
+				en: 'Ho-Oh',
+				fr: 'Ho-Oh'
 			}
 		}
 	}

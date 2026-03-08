@@ -18,7 +18,28 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275754,
 		tcgplayer: 90506
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			subtype: "no-e-reader"
+		},
+		{
+			type: "normal",
+			stamp: ["professor-program"]
+		},
+		{
+			type: "normal",
+			stamp: ["reed-weichler"]
+		}
+	]
 }
 
 export default card

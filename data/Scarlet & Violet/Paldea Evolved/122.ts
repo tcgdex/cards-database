@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Selutin",
+		en: "Nacli",
+		es: "Nacli",
+		it: "Nacli",
+		pt: "Nacli",
+		de: "Geosali"
+	},
 	stage: "Stage1",
 
 	attacks: [{

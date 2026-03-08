@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Drizzile",
+		fr: "Arrozard",
+		de: "Phlegleon",
+		it: "Drizzile",
+		es: "Drizzile",
+		pt: "Drizzile",
+		'es-mx': "Drizzile"
+	},
 	stage: "Stage2",
+	dexId: [818],
 
 	attacks: [{
 		cost: ["Water"],
@@ -72,8 +82,18 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654380
+		tcgplayer: 654380,
+		cardmarket: 851112
 	}
 }
 

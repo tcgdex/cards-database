@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Shelgon",
+		fr: "Drackhaus",
+		es: "Shelgon",
+		de: "Draschel",
+		it: "Shelgon",
+		pt: "Shelgon",
+		'es-mx': "Shelgon"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -74,8 +83,14 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-		cardmarket: 817266
-	}
+		cardmarket: 817330
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

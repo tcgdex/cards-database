@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Purrloin",
+		fr: "Chacripan",
+		es: "Purrloin",
+		it: "Purrloin",
+		pt: "Purrloin",
+		de: "Felilou"
+	},
 	stage: "Stage1",
 
 	attacks: [{

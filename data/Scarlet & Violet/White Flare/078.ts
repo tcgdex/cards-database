@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tornadus"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

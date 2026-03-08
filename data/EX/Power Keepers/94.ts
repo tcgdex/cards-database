@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vibrava",
+		fr: "Vibraninf"
 	},
 
 	suffix: "EX",
@@ -85,10 +86,24 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 277400,
 		tcgplayer: 85531
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card
+

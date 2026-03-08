@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Basic",
+	dexId: [453],
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -40,8 +41,18 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654417
+		tcgplayer: 654417,
+		cardmarket: 851149
 	}
 }
 

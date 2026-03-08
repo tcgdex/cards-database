@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Surskit",
+		fr: "Arakdo",
+		es: "Surskit",
+		it: "Surskit",
+		pt: "Surskit",
+		de: "Gehweiher"
+	},
 	stage: "Stage1",
 
 	attacks: [{

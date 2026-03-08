@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pupitar",
+		fr: "Ymphect"
 	},
 
 	stage: "Stage2",
@@ -75,9 +76,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276779
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

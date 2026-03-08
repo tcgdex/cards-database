@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Oshawott"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -55,7 +56,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835941
+		cardmarket: 836104
 	}
 }
 

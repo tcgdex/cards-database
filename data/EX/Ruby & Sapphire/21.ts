@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Goldeen",
+		fr: "Poissirène"
 	},
 
 	stage: "Stage1",
@@ -73,10 +74,26 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 275669,
 		tcgplayer: 89021
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			subtype: "no-e-reader"
+		}
+	]
 }
 
 export default card

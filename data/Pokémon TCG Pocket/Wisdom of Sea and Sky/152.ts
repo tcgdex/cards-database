@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Squirt Bottle"
+		en: "Squirt Bottle",
+		fr: "Carapuce à O"
 	},
 
 	illustrator: "AYUMI ODASHIMA",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Discard a {R} Energy from your opponent's Active Pokémon."
+		en: "Discard a {R} Energy from your opponent's Active Pokémon.",
+		fr: "Défaussez au hasard une Énergie {R} du Pokémon Actif de votre adversaire."
 	},
 
 	trainerType: "Item",

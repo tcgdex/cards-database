@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Kokiyas",
+		en: "Shellder",
+		es: "Shellder",
+		it: "Shellder",
+		pt: "Shellder",
+		de: "Muschas"
+	},
 	stage: "Stage1",
 
 	attacks: [{

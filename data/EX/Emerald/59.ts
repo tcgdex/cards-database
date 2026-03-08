@@ -67,10 +67,27 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 88016,
 		cardmarket: 276570
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["nintendo-world"]
+		},
+	]
 }
 
 export default card

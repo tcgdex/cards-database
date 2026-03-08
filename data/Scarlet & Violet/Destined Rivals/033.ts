@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Quilava de Ethan"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Ethan's Cyndaquil",
+		fr: "Héricendre de Luth",
+		de: "Klarins Feurigel",
+		it: "Cyndaquil di Armonio",
+		es: "Cyndaquil de Eco",
+		pt: "Cyndaquil do Ethan",
+		'es-mx': "Cyndaquil de Ethan"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -71,7 +81,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825907
+	}
 }
 
 export default card

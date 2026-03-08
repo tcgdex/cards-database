@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu"
 	},
 
 	stage: "Stage1",

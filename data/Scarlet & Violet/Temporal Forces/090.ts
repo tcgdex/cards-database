@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Rockruff",
+		fr: "Rocabot",
+		es: "Rockruff",
+		it: "Rockruff",
+		pt: "Rockruff",
+		de: "Wuffels"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -47,9 +55,14 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Yoshioka",
 

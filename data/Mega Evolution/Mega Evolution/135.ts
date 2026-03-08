@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Exeggcute",
+		fr: "Noeunoeuf",
+		de: "Owei",
+		it: "Exeggcute",
+		es: "Exeggcute",
+		pt: "Exeggcute",
+		'es-mx': "Exeggcute"
+	},
 	stage: "Stage1",
+	dexId: [103],
 
 	attacks: [{
 		cost: ["Grass"],
@@ -74,8 +84,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+	],
+
 	thirdParty: {
-		tcgplayer: 654474
+		tcgplayer: 654474,
+		cardmarket: 851206
 	}
 }
 

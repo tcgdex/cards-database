@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Eelektrik"
 	},
 
+	illustrator: "Kurata So",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Tynamo",
+		fr: "Anchwatt",
+		de: "Zapplardin",
+		it: "Tynamo",
+		pt: "Tynamo",
+		es: "Tynamo",
+		'es-mx': "Tynamo"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -65,7 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835961
+		cardmarket: 836139
 	}
 }
 

@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metang",
+		fr: "Metang"
 	},
 
 	stage: "Stage2",
@@ -82,10 +83,26 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276085,
 		tcgplayer: 87335
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			foil: "energy",
+		},
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card

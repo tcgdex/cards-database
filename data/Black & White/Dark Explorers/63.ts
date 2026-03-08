@@ -59,9 +59,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Night Spear",
+				fr: "Javelot Nocturne"
 			},
 			effect: {
 				en: "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 90,
 

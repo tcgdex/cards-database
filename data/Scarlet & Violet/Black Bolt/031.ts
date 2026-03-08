@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Eelektrik"
 	},
 
+	illustrator: "Jerky",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Tynamo",
+		fr: "Anchwatt",
+		de: "Zapplardin",
+		it: "Tynamo",
+		pt: "Tynamo",
+		es: "Tynamo",
+		'es-mx': "Tynamo"
+	},
 	stage: "Stage1",
 
 	abilities: [{

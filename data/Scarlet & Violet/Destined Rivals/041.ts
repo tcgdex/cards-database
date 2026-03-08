@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Combusken"
 	},
 
+	illustrator: "yuu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Torchic",
+		fr: "Poussifeu",
+		de: "Flemmli",
+		it: "Torchic",
+		es: "Torchic",
+		pt: "Torchic",
+		'es-mx': "Torchic"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -71,7 +81,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825915
+	}
 }
 
 export default card

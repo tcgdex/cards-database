@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Aventura de Ethan"
 	},
 
+
+	illustrator: "Kariya",
+
 	rarity: "Special illustration rare",
 	category: "Trainer",
 
@@ -34,7 +37,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826110
+	}
 }
 
 export default card

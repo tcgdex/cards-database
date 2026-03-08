@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mareep del Equipo Rocket"
 	},
 
+
+	illustrator: "Teeziro",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -69,7 +72,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825946
+	}
 }
 
 export default card

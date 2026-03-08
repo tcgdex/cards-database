@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ponyta",
+		fr: "Ponyta"
 	},
 
 	stage: "Stage1",
@@ -88,10 +89,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276189,
 		tcgplayer: 88581
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

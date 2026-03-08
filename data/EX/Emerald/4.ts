@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kirlia",
+		fr: "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -89,10 +90,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		tcgplayer: 85633,
 		cardmarket: 276515
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

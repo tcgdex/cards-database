@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",
+	dexId: [816],
 
 	attacks: [{
 		cost: ["Water"],
@@ -50,8 +51,18 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654378
+		tcgplayer: 654378,
+		cardmarket: 851110
 	}
 }
 

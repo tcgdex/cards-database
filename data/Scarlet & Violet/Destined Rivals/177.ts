@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Protón del Equipo Rocket"
 	},
 
+
+	illustrator: "Naoki Saito",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826051
+	}
 }
 
 export default card

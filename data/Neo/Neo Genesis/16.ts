@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Togepi",
+		fr: "Togepi"
 	},
 
 	stage: "Stage1",
@@ -81,7 +82,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274416,
 		tcgplayer: 89939
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

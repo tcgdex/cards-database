@@ -13,10 +13,7 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		243,
-	],
-
+	dexId: [243, 245],
 	hp: 160,
 
 	types: [
@@ -81,12 +78,11 @@ const card: Card = {
 	retreat: 1,
 	stage: "Basic",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279248

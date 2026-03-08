@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shelgon",
+		fr: "Drackhaus"
 	},
 
 	stage: "Stage2",
@@ -101,9 +102,18 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 277303
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+	]
 }
 
 export default card

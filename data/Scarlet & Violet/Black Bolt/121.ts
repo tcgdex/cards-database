@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Beheeyem"
 	},
 
+	illustrator: "Aya Kusube",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Elgyem",
+		fr: "Lewsor",
+		de: "Pygraulon",
+		it: "Elgyem",
+		pt: "Elgyem",
+		es: "Elgyem",
+		'es-mx': "Elgyem"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -73,7 +83,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835989
+		cardmarket: 836156
 	}
 }
 

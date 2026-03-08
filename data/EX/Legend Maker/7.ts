@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kabuto",
+		fr: "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -91,10 +92,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276884,
 		tcgplayer: 86397
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

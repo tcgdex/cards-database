@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 280,
 	types: ["Dragon"],
 	stage: "Basic",
+	dexId: [380],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -74,8 +75,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+	],
+
 	thirdParty: {
-		tcgplayer: 654502
+		tcgplayer: 654502,
+		cardmarket: 851234
 	}
 }
 

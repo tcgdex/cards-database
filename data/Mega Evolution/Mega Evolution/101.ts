@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 130,
 	types: ["Dragon"],
 	stage: "Basic",
+	dexId: [381],
 
 	abilities: [{
 		type: "Ability",
@@ -64,8 +65,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654440
+		tcgplayer: 654440,
+		cardmarket: 851172
 	}
 }
 

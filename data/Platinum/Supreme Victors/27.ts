@@ -71,6 +71,19 @@ const card: Card = {
 
 	retreat: 2,
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "league",
+		},
+	]
+
 
 
 }

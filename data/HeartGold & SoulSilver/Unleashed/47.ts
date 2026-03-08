@@ -61,12 +61,14 @@ const card: Card = {
 		en: "It evolves by sucking the energy out of the small ball where it had been storing nutrients."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279203,

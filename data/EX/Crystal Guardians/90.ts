@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Combusken",
+		fr: "Galifeu"
 	},
 
 	suffix: "EX",
@@ -77,10 +78,19 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 277171,
 		tcgplayer: 83913
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 }
 
 export default card

@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Sándwich de Damián"
 	},
 
+
+	illustrator: "AYUMI ODASHIMA",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826035
+	}
 }
 
 export default card

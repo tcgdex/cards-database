@@ -16,6 +16,8 @@ const card: Card = {
 	description: {
 		en: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
 	},
+	
+	hp: 60,
 
 	stage: "Basic",
 

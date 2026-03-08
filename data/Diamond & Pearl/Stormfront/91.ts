@@ -23,7 +23,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278389,
 		tcgplayer: 88357
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["david-cohen"]
+		},
+	]
 }
 
 export default card

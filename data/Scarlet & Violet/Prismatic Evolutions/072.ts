@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Dreepy",
+		fr: "Fantyrm",
+		es: "Dreepy",
+		pt: "Dreepy",
+		it: "Dreepy",
+		de: "Grolldra"
+	},
 	stage: "Stage1",
 
 	abilities: [{

@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		6,
 	],
+	
+	hp: 140,
 
 	types: [
 		"Fire",
@@ -91,7 +93,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278873,
 		tcgplayer: 84191
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "reverse",
+			foil: "cracked-ice"
+		},
+	]
 }
 
 export default card

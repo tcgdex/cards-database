@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Golbat",
+		fr: "Nosferalto"
 	},
 
 	stage: "Stage2",
@@ -74,10 +75,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 276077,
 		tcgplayer: 84486
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Smoliv"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -47,7 +48,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825895
+	}
 }
 
 export default card

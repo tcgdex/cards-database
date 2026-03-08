@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Woobat"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -41,7 +42,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835971
+		cardmarket: 836131
 	}
 }
 

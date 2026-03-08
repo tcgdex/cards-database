@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dragonair",
+		fr: "Draco"
 	},
 
 	stage: "Stage2",
@@ -69,9 +70,18 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 277296
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+	]
 }
 
 export default card

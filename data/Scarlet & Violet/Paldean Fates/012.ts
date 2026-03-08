@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Numel",
+		fr: "Chamallot",
+		es: "Numel",
+		it: "Numel",
+		pt: "Numel",
+		de: "Camaub"
+	},
 	stage: "Stage1",
 
 	attacks: [{

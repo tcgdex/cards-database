@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Toxel",
+		fr: "Toxizap",
+		es: "Toxel",
+		it: "Toxel",
+		pt: "Toxel",
+		de: "Toxel"
+	},
 	stage: "Stage1",
 
 	attacks: [{

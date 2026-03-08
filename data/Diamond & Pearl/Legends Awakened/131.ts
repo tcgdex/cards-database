@@ -23,7 +23,28 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278280,
 		tcgplayer: 84555
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["stephen-silvestro"]
+		},
+		{
+			type: "normal",
+			stamp: ["mychael-bryan"]
+		}
+	]
 }
 
 export default card

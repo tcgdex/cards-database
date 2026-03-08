@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Frillish"
 	},
 
+	illustrator: "Shinya Komatsu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835982
+		cardmarket: 836142
 	}
 }
 

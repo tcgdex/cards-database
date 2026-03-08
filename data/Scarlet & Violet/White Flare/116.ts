@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Joltik"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 40,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835967
+		cardmarket: 836126
 	}
 }
 

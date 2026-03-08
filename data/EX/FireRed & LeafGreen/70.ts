@@ -23,6 +23,11 @@ const card: Card = {
 	stage: "Basic",
 
 
+	
+
+	retreat: 1,
+
+
 	attacks: [
 		{
 			cost: [
@@ -62,10 +67,19 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-maron"]
+		}
+	]
 }
 
 export default card

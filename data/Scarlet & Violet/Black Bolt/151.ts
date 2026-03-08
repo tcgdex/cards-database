@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Audino"
 	},
 
+	illustrator: "Asako Ito",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836058
+		cardmarket: 836223
 	}
 }
 

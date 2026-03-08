@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Klink"
 	},
 
+	illustrator: "Nobuhiro Imagawa",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836035
+		cardmarket: 836199
 	}
 }
 

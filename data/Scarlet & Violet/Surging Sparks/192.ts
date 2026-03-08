@@ -53,7 +53,7 @@ const card: Card = {
 	illustrator: "Yuriko Akase",
 
 	thirdParty: {
-		cardmarket: 794256
+		cardmarket: 794565
 	}
 }
 

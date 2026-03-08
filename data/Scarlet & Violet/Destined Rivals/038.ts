@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Houndoom del Equipo Rocket"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Team Rocket's Houndour",
+		fr: "Malosse de la Team Rocket",
+		de: "Team Rockets Hunduster",
+		it: "Houndour del Team Rocket",
+		es: "Houndour del Team Rocket",
+		pt: "Houndour da Equipe Rocket",
+		'es-mx': "Houndour del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -79,7 +89,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825912
+	}
 }
 
 export default card

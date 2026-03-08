@@ -16,6 +16,8 @@ const card: Card = {
 	description: {
 		en: "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see."
 	},
+	
+	hp: 60,
 
 	stage: "Basic",
 
@@ -40,7 +42,25 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275412,
 		tcgplayer: 86098
-	}
+	},
+
+	variants: [
+		{
+			type: "reverse",
+			foil: "cosmos"
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"]
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"],
+			size: "jumbo"
+		}
+	]
 }
 
 export default card

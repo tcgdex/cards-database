@@ -60,9 +60,26 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"]
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "hncl",
 

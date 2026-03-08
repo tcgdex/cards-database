@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Natu",
+		fr: "Natu"
 	},
 
 	stage: "Stage1",
@@ -96,10 +97,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 0,
+
 	thirdParty: {
 		tcgplayer: 90663,
 		cardmarket: 276432
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

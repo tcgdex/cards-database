@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sewaddle"
 	},
 
+	illustrator: "nisimono",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 50,
@@ -41,7 +42,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835898
+		cardmarket: 836071
 	}
 }
 

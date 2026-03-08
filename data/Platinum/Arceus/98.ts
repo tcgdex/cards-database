@@ -14,6 +14,8 @@ const card: Card = {
 	dexId: [
 		373,
 	],
+	
+	hp: 160,
 
 	types: [
 		"Colorless",
@@ -68,8 +70,11 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 }
 
 export default card

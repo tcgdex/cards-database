@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metang",
+		fr: "Metang"
 	},
 
 	suffix: "EX",
@@ -88,10 +89,19 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 4,
+
 	thirdParty: {
 		cardmarket: 276169,
 		tcgplayer: 87346
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

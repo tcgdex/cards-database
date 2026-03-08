@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Aqua's Spheal",
 		fr: "Obalie de la Team Aqua",
+		pt: "Spheal da Equipe Aqua",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				pt: "Revólver d'Água"
 			},
 
 			damage: 10,

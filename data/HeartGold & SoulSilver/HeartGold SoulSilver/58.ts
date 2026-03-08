@@ -74,12 +74,18 @@ const card: Card = {
 		en: "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp : ["ross-cawthorn"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279030,

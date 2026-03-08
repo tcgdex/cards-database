@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Electrike",
+		fr: "Dynavolt"
 	},
 
 	stage: "Stage1",
@@ -82,10 +83,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 275657,
 		tcgplayer: 87153
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

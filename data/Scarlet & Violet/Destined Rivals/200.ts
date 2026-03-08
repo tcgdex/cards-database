@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Murkrow del Equipo Rocket"
 	},
 
+
+	illustrator: "Akira Komayama",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,
@@ -76,7 +79,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826074
+	}
 }
 
 export default card

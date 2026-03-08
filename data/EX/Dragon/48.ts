@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Barboach",
+		fr: "Barloche"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		tcgplayer: 90574,

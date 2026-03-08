@@ -1,0 +1,23 @@
+meta {
+  name: Multiple filtering values
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards?name=eq:Pikachu|Pichu&hp=lt:70&localId=not:tg&id=neq:cel25-5
+  body: none
+  auth: none
+}
+
+params:query {
+  name: eq:Pikachu|Pichu
+  hp: lt:70
+  localId: not:tg
+  id: neq:cel25-5
+}
+
+assert {
+  res.status: eq 200
+  res.body.length: gt 85
+}

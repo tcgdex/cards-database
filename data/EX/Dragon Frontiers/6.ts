@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidorino",
+		fr: "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -75,9 +76,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 3,
+
 	thirdParty: {
 		cardmarket: 277211
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

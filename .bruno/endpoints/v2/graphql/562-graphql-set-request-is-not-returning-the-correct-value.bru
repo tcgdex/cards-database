@@ -1,0 +1,29 @@
+meta {
+  name: 562 - GraphQL set request is not returning the correct value
+  type: graphql
+  seq: 7
+}
+
+post {
+  url: {{BASE_URL}}/v2/graphql
+  body: graphql
+  auth: none
+}
+
+body:graphql {
+  query Pouet {
+    set(id: "{{SET_ID}}") {
+      id
+    }
+  }
+  
+}
+
+vars:pre-request {
+  SET_ID: swsh1
+}
+
+assert {
+  res.status: eq 200
+  res.body.data.set.id: eq {{SET_ID}}
+}

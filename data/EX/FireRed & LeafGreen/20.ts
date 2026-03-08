@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shellder",
+		fr: "Kokiyas"
 	},
 
 	stage: "Stage1",
@@ -88,10 +89,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276196,
 		tcgplayer: 84373
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

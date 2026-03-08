@@ -28,9 +28,18 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "Ayaka Yoshida",
 

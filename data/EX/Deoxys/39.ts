@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Surskit",
+		fr: "Arakdo"
 	},
 
 	stage: "Stage1",
@@ -79,10 +80,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 0,
+
 	thirdParty: {
 		tcgplayer: 87246,
 		cardmarket: 276442
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
+		fr: "Magnéti"
 	},
 
 	stage: "Stage1",
@@ -84,7 +85,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275049,
 		tcgplayer: 87097
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal',
+		},
+		{
+			type: 'reverse',
+		}
+	]
 }
 
 export default card

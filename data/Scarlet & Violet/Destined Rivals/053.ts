@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Milotic de Cynthia"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Cynthia's Feebas",
+		fr: "Barpau de Cynthia",
+		de: "Cynthias Barschwa",
+		it: "Feebas di Camilla",
+		es: "Feebas de Cintia",
+		pt: "Feebas da Cíntia",
+		'es-mx': "Feebas de Cynthia"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +67,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825927
+	}
 }
 
 export default card

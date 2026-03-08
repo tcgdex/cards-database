@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poochyena",
+		fr: "Medhyèna"
 	},
 
 	stage: "Stage1",
@@ -79,10 +80,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 275658,
 		tcgplayer: 87444
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

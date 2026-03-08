@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Vulpix",
+		fr: "Goupix",
+		de: "Vulpix",
+		it: "Vulpix",
+		es: "Vulpix",
+		pt: "Vulpix",
+		'es-mx': "Vulpix"
+	},
 	stage: "Stage1",
+	dexId: [38],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -62,8 +72,18 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654359
+		tcgplayer: 654359,
+		cardmarket: 851091
 	}
 }
 

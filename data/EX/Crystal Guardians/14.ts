@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
+		fr: "Carabaffe"
 	},
 
 	stage: "Stage2",
@@ -74,10 +75,35 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 277083,
 		tcgplayer: 83892
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["national-championships"]
+		},
+		{
+			type: "normal",
+			stamp: ["national-championships","staff"]
+		},
+	]
 }
 
 export default card

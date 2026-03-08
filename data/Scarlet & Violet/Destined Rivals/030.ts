@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Rapidash"
 	},
 
+	illustrator: "SIE NANAHARA",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Ponyta",
+		fr: "Ponyta",
+		de: "Ponita",
+		it: "Ponyta",
+		es: "Ponyta",
+		pt: "Ponyta",
+		'es-mx': "Ponyta"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -71,7 +81,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825904
+	}
 }
 
 export default card

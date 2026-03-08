@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
+		pt: "Eevee",
+		it: "Eevee",
+		de: "Evoli"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Jiro Sasumo",
 
 	thirdParty: {
-		cardmarket: 805395
+		cardmarket: 805538
 	}
 }
 

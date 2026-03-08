@@ -14,12 +14,11 @@ const card: Card = {
 	set: Set,
 	energyType: "Normal",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		}
+	],
 
 	hp: 0,
 

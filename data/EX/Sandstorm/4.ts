@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Duskull",
+		fr: "Skelénox"
 	},
 
 	stage: "Stage1",
@@ -81,10 +82,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 275781,
 		tcgplayer: 85024
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

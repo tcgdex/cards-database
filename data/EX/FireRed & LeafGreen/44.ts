@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meowth",
+		fr: "Miaouss"
 	},
 
 	stage: "Stage1",
@@ -89,10 +90,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276220,
 		tcgplayer: 87984
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

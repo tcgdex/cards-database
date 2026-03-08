@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwag",
+		fr: "Ptitard"
 	},
 
 	stage: "Stage1",
@@ -75,7 +76,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274964,
 		tcgplayer: 88264
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Voltorb",
 		fr: "Voltorbe",
-		de: "Voltobal"
+		de: "Voltobal",
+		it: "Voltorb"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
-				de: "Tackle"
+				de: "Tackle",
+				it: "Azione"
 			},
 
 			damage: 10,
@@ -49,13 +51,33 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Vivant dans les centrales, ce Pokémon survolté est souvent confondu avec une Poké Ball."
+		fr: "Vivant dans les centrales, ce Pokémon survolté est souvent confondu avec une Poké Ball.",
+		it: "Si trova generalmente nelle centrali elettriche. Facilmente confondibile per una Poké Ball, ha fulminato molte persone. LIV 10 N.100"
 	},
 
 	thirdParty: {
 		cardmarket: 273762,
 		tcgplayer: 42412
-	}
+	},
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
 }
 
 export default card

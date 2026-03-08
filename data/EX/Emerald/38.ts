@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vulpix",
+		fr: "Goupix"
 	},
 
 	stage: "Stage1",
@@ -75,10 +76,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 87770,
 		cardmarket: 276549
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

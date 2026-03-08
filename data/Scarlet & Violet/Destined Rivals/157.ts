@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Swellow"
 	},
 
+
+	illustrator: "Souichirou Gunjima",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Taillow",
+		fr: "Nirondelle",
+		de: "Schwalbini",
+		it: "Taillow",
+		es: "Taillow",
+		pt: "Taillow",
+		'es-mx': "Taillow"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -69,7 +81,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826031
+	}
 }
 
 export default card

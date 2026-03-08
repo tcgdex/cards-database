@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slugma",
+		fr: "Limagma"
 	},
 
 	stage: "Stage1",
@@ -87,10 +88,27 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 3,
+
 	thirdParty: {
 		tcgplayer: 87013,
 		cardmarket: 276423
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["michael-gonzalez"]
+		},
+	]
 }
 
 export default card

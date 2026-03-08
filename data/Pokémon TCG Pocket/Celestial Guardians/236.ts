@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 	rarity: "Two Shiny",
 	category: "Pokemon",
+
+	dexId: [105],
 	hp: 140,
 	types: ["Fighting"],
 

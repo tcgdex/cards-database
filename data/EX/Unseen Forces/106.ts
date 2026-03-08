@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bayleef",
+		fr: "Macronium"
 	},
 
 	suffix: "EX",
@@ -104,10 +105,19 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276752,
 		tcgplayer: 87298
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+	]
 }
 
 export default card

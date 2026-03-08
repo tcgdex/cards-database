@@ -10,7 +10,9 @@ const card: Card = {
 
 	illustrator: "Katsura Tabata",
 	rarity: "None",
-	category: "Pokemon",
+	category: "Pokemon",		
+  hp: 60,
+	dexId: [215],
 	stage: "Basic",
 
 	attacks: [{
@@ -35,7 +37,22 @@ const card: Card = {
 		effect: {
 			en: "Flip 4 coins. This attack does 10 damage times the number of heads."
 		}
-	}]
+	}],
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["winner"]
+		},
+		{
+			type: "normal",
+			stamp: ["winner"],
+			size: "jumbo"
+		}
+	]
 }
 
 export default card

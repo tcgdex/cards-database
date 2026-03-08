@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Sawsbuck"
 	},
 
+	illustrator: "Yano Keiji",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Deerling",
+		fr: "Vivaldaim",
+		de: "Sesokitz",
+		it: "Deerling",
+		pt: "Deerling",
+		es: "Deerling",
+		'es-mx': "Deerling"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835913
+		cardmarket: 836079
 	}
 }
 

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Ferroseed",
+		fr: "Grindur",
+		es: "Ferroseed",
+		it: "Ferroseed",
+		pt: "Ferroseed",
+		de: "Kastadur"
+	},
 	stage: "Stage1",
 
 	abilities: [{

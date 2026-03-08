@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Grubbin",
+		fr: "Larvibule",
+		es: "Grubbin",
+		it: "Grubbin",
+		pt: "Grubbin",
+		de: "Mabula"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -38,9 +46,14 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Misa Tsutsui",
 

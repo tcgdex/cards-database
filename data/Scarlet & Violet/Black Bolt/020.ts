@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Palpitoad"
 	},
 
+	illustrator: "Yukihiro Tada",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Tympole",
+		fr: "Tritonde",
+		de: "Schallquap",
+		it: "Tympole",
+		pt: "Tympole",
+		es: "Tympole",
+		'es-mx': "Tympole"
+	},
 	stage: "Stage1",
 
 	attacks: [{

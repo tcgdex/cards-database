@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Voltorb",
+		fr: "Voltorbe"
 	},
 
 	suffix: "EX",
@@ -73,10 +74,19 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276283,
 		tcgplayer: 85165
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+	]
 }
 
 export default card

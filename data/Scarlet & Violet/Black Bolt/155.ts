@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Braviary"
 	},
 
+	illustrator: "kamonabe",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Rufflet",
+		fr: "Furaiglon",
+		de: "Geronimatz",
+		it: "Rufflet",
+		pt: "Rufflet",
+		es: "Rufflet",
+		'es-mx': "Rufflet"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -65,7 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836065
+		cardmarket: 836229
 	}
 }
 

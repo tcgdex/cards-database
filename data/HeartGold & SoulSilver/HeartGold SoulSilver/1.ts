@@ -76,12 +76,17 @@ const card: Card = {
 		en: "This legendary Chinese Pokémon is considered magnificent. Many people are enchanted by its grand mane."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278973,

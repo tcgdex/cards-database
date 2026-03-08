@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Mienfoo"
 	},
 
+	illustrator: "Iori Suzuki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -41,7 +42,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835997
+		cardmarket: 836153
 	}
 }
 

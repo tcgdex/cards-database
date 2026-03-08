@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sunkern",
+		fr: "Tournegrin"
 	},
 
 	stage: "Stage1",
@@ -78,7 +79,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274724,
 		tcgplayer: 86749
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

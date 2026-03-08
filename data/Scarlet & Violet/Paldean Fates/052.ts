@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Clobbopus",
+		fr: "Poulpaf",
+		es: "Clobbopus",
+		it: "Clobbopus",
+		pt: "Clobbopus",
+		de: "Klopptopus"
+	},
 	stage: "Stage1",
 
 	attacks: [{

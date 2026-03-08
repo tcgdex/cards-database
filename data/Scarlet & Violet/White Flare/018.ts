@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Chandelure"
 	},
 
+	illustrator: "satoma",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Lampent",
+		fr: "Mélancolux",
+		de: "Laternecto",
+		it: "Lampent",
+		pt: "Lampent",
+		es: "Lampent",
+		'es-mx': "Lampent"
+	},
 	stage: "Stage2",
 
 	attacks: [{

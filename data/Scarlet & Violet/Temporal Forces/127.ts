@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Hoothoot",
+		fr: "Hoothoot",
+		es: "Hoothoot",
+		it: "Hoothoot",
+		pt: "Hoothoot",
+		de: "Hoothoot"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -47,9 +55,18 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+		}
+	],
 
 	illustrator: "toi8",
 

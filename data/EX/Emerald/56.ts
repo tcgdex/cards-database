@@ -52,10 +52,27 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 87610,
 		cardmarket: 276567
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "holo",
+			stamp: ["wizard-world-philadelphia"]
+		}
+	]
 }
 
 export default card

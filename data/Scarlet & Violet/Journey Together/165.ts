@@ -64,8 +64,14 @@ const card: Card = {
 	illustrator: "Nakamura Ippan",
 
 	thirdParty: {
-		cardmarket: 817229
-	}
+		cardmarket: 817317
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

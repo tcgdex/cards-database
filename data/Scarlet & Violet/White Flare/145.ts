@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Mandibuzz"
 	},
 
+	illustrator: "Bun Toujo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Vullaby",
+		fr: "Vostourno",
+		de: "Skallyk",
+		it: "Vullaby",
+		pt: "Vullaby",
+		es: "Vullaby",
+		'es-mx': "Vullaby"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -65,7 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836020
+		cardmarket: 836175
 	}
 }
 

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slugma",
+		fr: "Limagma"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274670,
 		tcgplayer: 84622
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

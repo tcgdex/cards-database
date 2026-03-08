@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Purrloin"
 	},
 
+	illustrator: "Mugi Hamada",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -49,7 +50,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836002
+		cardmarket: 836158
 	}
 }
 

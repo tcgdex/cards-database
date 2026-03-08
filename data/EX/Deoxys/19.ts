@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lombre",
+		fr: "Lombre"
 	},
 
 	stage: "Stage2",
@@ -74,10 +75,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		tcgplayer: 86898,
 		cardmarket: 276413
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

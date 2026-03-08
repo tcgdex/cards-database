@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gulpin",
+		fr: "Gloupti"
 	},
 
 	stage: "Stage1",
@@ -75,10 +76,27 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276124,
 		tcgplayer: 89670
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			foil: "energy",
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release"]
+		}
+	]
 }
 
 export default card

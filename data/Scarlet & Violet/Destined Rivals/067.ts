@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Ogerpon Máscara Fuente"
 	},
 
+
+	illustrator: "rika",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -79,7 +82,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825941
+	}
 }
 
 export default card

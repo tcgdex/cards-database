@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Cetitan ex"
 	},
 
+
+	illustrator: "kawayoo",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Cetoddle",
+		fr: "Piétacé",
+		de: "Flaniwal",
+		it: "Cetoddle",
+		es: "Cetoddle",
+		pt: "Cetoddle",
+		'es-mx': "Cetoddle"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -81,7 +93,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825939
+	}
 }
 
 export default card

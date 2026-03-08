@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Venipede",
+		fr: "Venipatte",
+		es: "Venipede",
+		it: "Venipede",
+		pt: "Venipede",
+		de: "Toxiped"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Clamperl"
 	},
 
+
+	illustrator: "Mori Yuu",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -54,7 +57,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826069
+	}
 }
 
 export default card

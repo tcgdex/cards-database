@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Emolga"
 	},
 
+	illustrator: "Tomomi Ozaki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -63,7 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835957
+		cardmarket: 836132
 	}
 }
 

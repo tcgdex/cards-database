@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -89,7 +90,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277655,
 		tcgplayer: 85993
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

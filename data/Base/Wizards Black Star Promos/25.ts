@@ -68,7 +68,17 @@ const card: Card = {
 
 	description: {
 		fr: "En apprenant à voler, Pikachu a surpassé sa faiblesse contre le Pokémon Combat."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+			stamp: ["pikachu-tail"]
+		},
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card

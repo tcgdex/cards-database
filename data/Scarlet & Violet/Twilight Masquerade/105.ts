@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Gurdurr",
+		fr: "Ouvrifier",
+		es: "Gurdurr",
+		it: "Gurdurr",
+		pt: "Gurdurr",
+		de: "Strepoli"
+	},
 	stage: "Stage2",
 
 	attacks: [{

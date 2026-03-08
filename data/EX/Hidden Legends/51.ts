@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tentacool",
+		fr: "Tentacool"
 	},
 
 	stage: "Stage1",
@@ -72,10 +73,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 276125,
 		tcgplayer: 89875
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		}, {
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

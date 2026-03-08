@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Houndour",
+		fr: "Malosse"
 	},
 
 	stage: "Stage1",
@@ -84,7 +85,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274515,
 		tcgplayer: 86197
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

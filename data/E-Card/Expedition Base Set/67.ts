@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ivysaur",
+		fr: "Herbizarre"
 	},
 
 	stage: "Stage2",
@@ -78,7 +79,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274905,
 		tcgplayer: 90315
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

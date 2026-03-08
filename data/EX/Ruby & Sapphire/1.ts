@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lairon",
+		fr: "Galegon"
 	},
 
 	stage: "Stage2",
@@ -99,10 +100,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 4,
+
 	thirdParty: {
 		cardmarket: 275649,
 		tcgplayer: 83475
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

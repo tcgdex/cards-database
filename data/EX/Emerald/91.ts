@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cacnea",
+		fr: "Cacnea"
 	},
 
 	suffix: "EX",
@@ -91,10 +92,19 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 84084,
 		cardmarket: 276602
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+	]
 }
 
 export default card

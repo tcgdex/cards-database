@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kirlia",
+		fr: "Kirlia"
 	},
 
 	suffix: "EX",
@@ -80,10 +81,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 275873,
 		tcgplayer: 85641
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["kevin-nguyen"]
+		}
+	]
 }
 
 export default card

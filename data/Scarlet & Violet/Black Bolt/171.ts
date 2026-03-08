@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Victini"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Black White Rare",
 	category: "Pokemon",
 	hp: 80,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835926
+		cardmarket: 836245
 	}
 }
 

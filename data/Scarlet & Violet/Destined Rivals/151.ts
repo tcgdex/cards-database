@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Kangaskhan"
 	},
 
+
+	illustrator: "Sanosuke Sakuma",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 120,
@@ -71,7 +74,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826025
+	}
 }
 
 export default card

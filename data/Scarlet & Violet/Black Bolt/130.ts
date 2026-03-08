@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Crustle"
 	},
 
+	illustrator: "MINAMINAMI Take",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Dwebble",
+		fr: "Crabicoque",
+		de: "Lithomith",
+		it: "Dwebble",
+		pt: "Dwebble",
+		es: "Dwebble",
+		'es-mx': "Dwebble"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -75,7 +85,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836013
+		cardmarket: 836176
 	}
 }
 

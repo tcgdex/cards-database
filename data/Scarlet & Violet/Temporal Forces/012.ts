@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Grotle",
+		fr: "Boskara",
+		es: "Grotle",
+		it: "Grotle",
+		pt: "Grotle",
+		de: "Chelcarain"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -69,10 +77,15 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "PLANETA Tsuji",
 

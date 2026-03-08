@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wailmer",
+		fr: "Wailmer"
 	},
 
 	suffix: "EX",
@@ -79,10 +80,19 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 5,
+
 	thirdParty: {
 		cardmarket: 275877,
 		tcgplayer: 90463
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+	]
 }
 
 export default card

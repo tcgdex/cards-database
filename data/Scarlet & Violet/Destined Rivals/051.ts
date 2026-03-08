@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Articuno del Equipo Rocket"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -81,7 +82,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825925
+	}
 }
 
 export default card

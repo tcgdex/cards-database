@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Evoli"
 	},
 
 	suffix: "EX",
@@ -88,10 +89,31 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276873,
 		tcgplayer: 90293
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["jimmy-ballard"]
+		},
+		{
+			type: "holo",
+			stamp: ["jun-hasebe"]
+		},
+		{
+			type: "holo",
+			stamp: ["tom-roos"]
+		},
+	]
 }
 
 export default card

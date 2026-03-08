@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Clamperl"
 	},
 
+	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -57,7 +58,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825928
+	}
 }
 
 export default card

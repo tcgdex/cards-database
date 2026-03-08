@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Trubbish"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -55,7 +56,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836010
+		cardmarket: 836164
 	}
 }
 

@@ -5,24 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ledyba"
+		en: "Ledyba",
+		fr: "Coxy"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [165],
 	hp: 60,
 	types: ["Grass"],
 
 	description: {
-		en: "These very cowardly Pokémon join together and\nuse Reflect to protect their nest."
+		en: "These very cowardly Pokémon join together and\nuse Reflect to protect their nest.",
+		fr: "Extrêmement timide, ce Pokémon défend le nid qu'il partage avec ses congénères en utilisant Protection."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bug Bite"
+			en: "Bug Bite",
+			fr: "Piqûre"
 		},
 
 		damage: 20,

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Manglouton",
+		en: "Yungoos",
+		es: "Yungoos",
+		it: "Yungoos",
+		pt: "Yungoos",
+		de: "Mangunior"
+	},
 	stage: "Stage1",
 
 	attacks: [{

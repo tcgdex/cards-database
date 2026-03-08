@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Quilava",
+		fr: "Feurisson"
 	},
 
 	stage: "Stage2",
@@ -81,7 +82,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277645,
 		tcgplayer: 90105
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

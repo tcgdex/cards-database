@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Zigzagoon",
+		fr: "Zigzaton"
 	},
 
 	stage: "Stage1",
@@ -70,10 +71,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 0,
+
 	thirdParty: {
 		tcgplayer: 86806,
 		cardmarket: 276545
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

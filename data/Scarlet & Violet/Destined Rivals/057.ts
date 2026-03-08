@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Buizel"
 	},
 
+
+	illustrator: "Ayako Ozaki",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -61,7 +64,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825931
+	}
 }
 
 export default card

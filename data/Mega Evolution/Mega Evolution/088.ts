@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 110,
 	types: ["Darkness"],
 	stage: "Basic",
+	dexId: [717],
 
 	attacks: [{
 		cost: ["Darkness"],
@@ -64,8 +65,30 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["eb-games"]
+		},
+		{
+			type: "holo",
+			stamp: ["gamestop"]
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"]
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654427
+		tcgplayer: 654427,
+		cardmarket: 851159
 	}
 }
 

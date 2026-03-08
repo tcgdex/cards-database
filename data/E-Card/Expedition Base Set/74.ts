@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Totodile",
+		fr: "Kaiminus"
 	},
 
 	stage: "Stage1",
@@ -75,7 +76,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274949,
 		tcgplayer: 84497
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

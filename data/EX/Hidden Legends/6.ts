@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Loudred",
+		fr: "Ramboum"
 	},
 
 	stage: "Stage2",
@@ -107,10 +108,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276080,
 		tcgplayer: 85370
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

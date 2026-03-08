@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chikorita",
+		fr: "Germignon"
 	},
 
 	stage: "Stage1",
@@ -87,7 +88,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277670,
 		tcgplayer: 83747
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

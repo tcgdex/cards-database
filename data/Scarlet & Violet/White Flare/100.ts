@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Simisear"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Pansear",
+		fr: "Flamajou",
+		de: "Grillmak",
+		it: "Pansear",
+		pt: "Pansear",
+		es: "Pansear",
+		'es-mx': "Pansear"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -41,7 +51,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835930
+		cardmarket: 836092
 	}
 }
 

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mimikyu del Equipo Rocket"
 	},
 
+
+	illustrator: "DOM",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 60,
@@ -66,7 +69,11 @@ const card: Card = {
 			type: 'holo',
 			stamp: ["set-logo", "staff"]
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825961
+	}
 }
 
 export default card

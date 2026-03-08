@@ -66,7 +66,21 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon sauvage au mauvais caractère. Capable de reconnaître les couleurs et apprécie la couleur rouge."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st-movie-inverted"]
+		},
+		{
+			type: "normal",
+			stamp: ["1st-movie"]
+		}
+	]
 }
 
 export default card

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Aron",
+		fr: "Galekid",
+		es: "Aron",
+		it: "Aron",
+		pt: "Aron",
+		de: "Stollunior"
+	},
 	stage: "Stage1",
 
 	attacks: [{

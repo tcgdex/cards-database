@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Patrat"
 	},
 
+	illustrator: "Yukihiro Tada",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -63,7 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836032
+		cardmarket: 836186
 	}
 }
 

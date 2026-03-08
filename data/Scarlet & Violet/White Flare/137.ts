@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Liepard"
 	},
 
+	illustrator: "matazo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Purrloin",
+		fr: "Chacripan",
+		de: "Felilou",
+		it: "Purrloin",
+		pt: "Purrloin",
+		es: "Purrloin",
+		'es-mx': "Purrloin"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -51,7 +61,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836004
+		cardmarket: 836159
 	}
 }
 

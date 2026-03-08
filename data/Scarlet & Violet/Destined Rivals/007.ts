@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Roselia de Cynthia"
 	},
 
+	illustrator: "nisimono",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -47,7 +48,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825881
+	}
 }
 
 export default card

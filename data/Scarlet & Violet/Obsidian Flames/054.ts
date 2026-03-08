@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Polarhume",
+		en: "Cubchoo",
+		es: "Cubchoo",
+		it: "Cubchoo",
+		pt: "Cubchoo",
+		de: "Petznief"
+	},
 	stage: "Stage1",
 
 	attacks: [{

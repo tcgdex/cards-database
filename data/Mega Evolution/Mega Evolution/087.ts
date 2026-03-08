@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Basic",
+	dexId: [442],
 
 	abilities: [{
 		type: "Ability",
@@ -74,8 +75,21 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["trick-or-trade"]
+		}
+	],
+
 	thirdParty: {
-		cardmarket: 850911,
+		cardmarket: 851158,
 		tcgplayer: 654426
 	}
 }

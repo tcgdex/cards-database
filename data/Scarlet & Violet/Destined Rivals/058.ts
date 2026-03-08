@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Floatzel"
 	},
 
+
+	illustrator: "Shibuzoh.",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Buizel",
+		fr: "Mustébouée",
+		de: "Bamelin",
+		it: "Buizel",
+		es: "Buizel",
+		pt: "Buizel",
+		'es-mx': "Buizel"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -81,7 +93,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825932
+	}
 }
 
 export default card

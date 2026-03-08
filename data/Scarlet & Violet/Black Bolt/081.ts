@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Moneda de Energía"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 

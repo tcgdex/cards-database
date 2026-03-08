@@ -8,7 +8,7 @@ const set: Set = {
 		// de: "Unschlagbare Gene",
 		en: "Extradimensional Crisis",
 		// es: "Genes Formidables",
-		// fr: "Puissance Génétique",
+		fr: "Crise Interdimensionnelle",
 		// it: "Geni Supremi",
 		// 'pt-br': "Dominação Genética",
 		// ko: '최강의 유전자'
@@ -20,23 +20,13 @@ const set: Set = {
 		official: 69 // ???
 	},
 
-	// boosters: {
-	// 	mewtwo: {
-	// 		name: {
-	// 			en: 'Mewtwo'
-	// 		}
-	// 	},
-	// 	charizard: {
-	// 		name: {
-	// 			en: 'Charizard'
-	// 		}
-	// 	},
-	// 	pikachu: {
-	// 		name: {
-	// 			en: 'Pikachu'
-	// 		}
-	// 	}
-	// },
+	boosters: {
+		extradimensional: {
+			name: {
+				en: "Extradimensional"
+			}
+		}
+	},
 
 	releaseDate: "2025-05-29"
 }

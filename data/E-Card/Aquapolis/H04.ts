@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Marill",
+		fr: "Marill"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,13 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275060,
 		tcgplayer: 83681
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

@@ -14,6 +14,8 @@ const card: Card = {
 	dexId: [
 		94,
 	],
+	
+	hp: 140,
 
 	types: [
 		"Psychic",
@@ -65,9 +67,11 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 }
 
 export default card

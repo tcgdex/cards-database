@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Tentacool",
+		en: "Tentacool",
+		es: "Tentacool",
+		it: "Tentacool",
+		pt: "Tentacool",
+		de: "Tentacha"
+	},
 	stage: "Stage1",
 
 	attacks: [{

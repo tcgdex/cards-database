@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Clamperl",
+		fr: "Coquiperl"
 	},
 
 	stage: "Stage1",
@@ -73,10 +74,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 276894,
 		tcgplayer: 85843
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

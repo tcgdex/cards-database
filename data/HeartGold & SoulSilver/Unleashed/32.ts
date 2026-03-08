@@ -78,12 +78,14 @@ const card: Card = {
 		en: "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279188,

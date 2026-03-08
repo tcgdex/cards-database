@@ -75,12 +75,14 @@ const card: Card = {
 		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279288,

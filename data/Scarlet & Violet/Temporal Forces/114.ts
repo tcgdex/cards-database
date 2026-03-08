@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Beldum",
+		fr: "Terhal",
+		es: "Beldum",
+		it: "Beldum",
+		pt: "Beldum",
+		de: "Tanhel"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -60,9 +68,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		}
+	],
 
 	illustrator: "Nobuhiro Imagawa",
 

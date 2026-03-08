@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Chingling del Equipo Rocket"
 	},
 
+
+	illustrator: "Mina Nakai",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 30,
@@ -53,7 +56,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825959
+	}
 }
 
 export default card

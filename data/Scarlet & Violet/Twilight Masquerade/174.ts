@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Snorunt",
+		fr: "Stalgamin",
+		es: "Snorunt",
+		it: "Snorunt",
+		pt: "Snorunt",
+		de: "Schneppke"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "matazo",
 
 	thirdParty: {
-		cardmarket: 769227
+		cardmarket: 769348
 	}
 }
 

@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Keldeo",
+		fr: "Keldeo"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -28,9 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Justified",
+				fr: "Cœur Noble"
 			},
 			effect: {
 				en: "This Pokémon's attacks do 50 more damage to your opponent's Darkness Pokémon (before applying Weakness and Resistance).",
+				fr: "Les attaques de ce Pokémon infligent 50 dégâts supplémentaires aux Pokémon  de votre adversaire (avant application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sacred Sword",
+				fr: "Lame Sainte"
 			},
 			effect: {
 				en: "This Pokémon can't use Sacred Sword during your next turn.",
+				fr: "Ce Pokémon ne peut pas utiliser Lame Sainte pendant votre prochain tour."
 			},
 			damage: 100,
 

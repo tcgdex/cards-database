@@ -16,6 +16,8 @@ const card: Card = {
 	dexId: [
 		493,
 	],
+	
+	hp: 70,
 
 	types: [
 		"Darkness",
@@ -62,7 +64,13 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 278861
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 }
 
 export default card

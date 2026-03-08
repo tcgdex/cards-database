@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		403,
 	],
+	
+	hp: 50,
 
 	types: [
 		"Lightning",
@@ -72,7 +74,13 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 278872
-	}
+	},
+
+	variants: [
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

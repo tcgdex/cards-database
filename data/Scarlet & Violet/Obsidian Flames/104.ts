@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Taupiqueur",
+		en: "Diglett",
+		es: "Diglett",
+		it: "Diglett",
+		pt: "Diglett",
+		de: "Digda"
+	},
 	stage: "Stage1",
 
 	attacks: [{

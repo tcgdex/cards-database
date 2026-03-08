@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Sage's Training",
+		fr: "Entraînement de Sage",
 		de: "Training des Weisen"
 	},
 

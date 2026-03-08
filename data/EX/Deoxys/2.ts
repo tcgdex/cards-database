@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Silcoon",
+		fr: "Armulys"
 	},
 
 	stage: "Stage2",
@@ -87,10 +88,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 83757,
 		cardmarket: 276405
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

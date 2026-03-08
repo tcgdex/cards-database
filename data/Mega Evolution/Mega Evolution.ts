@@ -8,7 +8,7 @@ const set: Set = {
 		de: "Mega-Entwicklung",
 		en: "Mega Evolution",
 		es: "Megaevolución",
-		"ex-mx": "Megaevolución",
+		"es-mx": "Megaevolución",
 		fr: "Méga-Évolution",
 		it: "Megaevoluzione",
 		pt: "Megaevolução"
@@ -27,7 +27,7 @@ const set: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 6290,
+		cardmarket: 6209,
 		tcgplayer: 24380
 	}
 }

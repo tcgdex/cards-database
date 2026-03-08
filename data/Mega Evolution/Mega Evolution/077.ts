@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Riolu",
+		fr: "Riolu",
+		de: "Riolu",
+		it: "Riolu",
+		es: "Riolu",
+		pt: "Riolu",
+		'es-mx': "Riolu"
+	},
 	stage: "Stage1",
+	dexId: [448],
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -74,8 +84,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654416
+		tcgplayer: 654416,
+		cardmarket: 851148
 	}
 }
 

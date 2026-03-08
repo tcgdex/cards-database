@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Blipbug del Equipo Rocket"
 	},
 
+	illustrator: "buchi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -55,7 +56,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825889
+	}
 }
 
 export default card

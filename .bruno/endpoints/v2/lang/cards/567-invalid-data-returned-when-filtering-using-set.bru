@@ -1,0 +1,21 @@
+meta {
+  name: 567 - invalid data returned when filtering using set
+  type: http
+  seq: 14
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards?name=umbreon&set=evolving skies
+  body: none
+  auth: none
+}
+
+params:query {
+  name: umbreon
+  set: evolving skies
+}
+
+assert {
+  res.status: eq 200
+  res.body.length: gte 6
+}

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Graveler",
+		fr: "Gravalanch"
 	},
 
 	stage: "Stage2",
@@ -78,7 +79,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274889,
 		tcgplayer: 85821
-	}
+	},
+
+	variants:[
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

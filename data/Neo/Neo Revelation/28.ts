@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mareep",
+		fr: "Wattouat"
 	},
 
 	stage: "Stage1",
@@ -78,7 +79,18 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274614,
 		tcgplayer: 85473
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card
+

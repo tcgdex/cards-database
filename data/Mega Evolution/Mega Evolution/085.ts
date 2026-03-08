@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Corphish",
+		fr: "Écrapince",
+		de: "Krebscorps",
+		it: "Corphish",
+		es: "Corphish",
+		pt: "Corphish",
+		'es-mx': "Corphish"
+	},
 	stage: "Stage1",
+	dexId: [342],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -64,8 +74,18 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654424
+		tcgplayer: 654424,
+		cardmarket: 851156
 	}
 }
 

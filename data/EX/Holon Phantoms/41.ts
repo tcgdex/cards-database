@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
+		fr: "Noeunoeuf"
 	},
 
 	stage: "Stage1",
@@ -75,9 +76,26 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 277011
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release"]
+		}
+	]
 }
 
 export default card

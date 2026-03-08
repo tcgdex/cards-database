@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "N's Darumaka",
+		fr: "Darumarond de N",
+		es: "Darumaka de N",
+		de: "Ns Flampion",
+		it: "Darumaka di N",
+		pt: "Darumaka do N",
+		'es-mx': "Darumaka de N"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +86,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817179
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

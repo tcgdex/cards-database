@@ -87,12 +87,22 @@ const card: Card = {
 		en: "When you see Leafeon asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release"]
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release","staff"]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279270,

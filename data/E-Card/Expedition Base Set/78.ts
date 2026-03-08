@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Oddish",
+		fr: "Mystherbe"
 	},
 
 	stage: "Stage1",
@@ -75,7 +76,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274953,
 		tcgplayer: 85781
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

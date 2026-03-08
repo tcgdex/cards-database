@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Meloetta ex"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -75,7 +76,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835996
+		cardmarket: 836233
 	}
 }
 

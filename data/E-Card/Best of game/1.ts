@@ -16,6 +16,8 @@ const card: Card = {
 	description: {
 		en: "Normally found near power plants, it can wander away and cause major blackouts in cities."
 	},
+	
+	hp: 70,
 
 	stage: "Basic",
 
@@ -48,7 +50,25 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275411,
 		tcgplayer: 85106
-	}
+	},
+
+	variants: [
+		{
+			type: "reverse",
+			foil: "cosmos"
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"]
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"],
+			size: "jumbo"
+		}
+	]
 }
 
 export default card

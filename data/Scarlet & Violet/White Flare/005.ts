@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Whimsicott ex"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Cottonee",
+		fr: "Doudouvet",
+		de: "Waumboll",
+		it: "Cottonee",
+		pt: "Cottonee",
+		es: "Cottonee",
+		'es-mx': "Cottonee"
+	},
 	stage: "Stage1",
 
 	attacks: [{

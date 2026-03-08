@@ -37,7 +37,7 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 
 function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
 	return {
-		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === '1st edition')) ?? false,
+		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === '1st-edition')) ?? false,
 		holo: variants_detailed?.some((variant) => variant.type === 'holo') ?? false,
 		normal: variants_detailed?.some((variant) => variant.type === 'normal') ?? false,
 		reverse: variants_detailed?.some((variant) => variant.type === 'reverse') ?? false,
@@ -45,28 +45,28 @@ function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>):
 	}
 }
 
-function variantsToVariantsDetailed(variants: CardSingle['variants']): Array<variant_detailed> {
+function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<variant_detailed> {
 	const result: Array<variant_detailed> = [];
 	const addVariant = (type: string, stamps: string[] = []) => {
 		result.push({
 			type,
-			size: 'standard',
+			size: translate('variantSize', "standard", lang) as any,
 			stamp: stamps.length > 0 ? stamps : undefined
 		});
 	};
 
 	if (typeof variants?.normal === 'boolean' ? variants.normal : true) {
 		addVariant('normal');
-		if (variants?.firstEdition) addVariant('normal', ['1st edition']);
+		if (variants?.firstEdition) addVariant('normal', ['1st-edition']);
 		if (variants?.wPromo) addVariant('normal', ['w-Promo']);
 	}
 	if (typeof variants?.reverse === 'boolean' ? variants.reverse : true) {
 		addVariant('reverse');
-		if (variants?.firstEdition) addVariant('reverse', ['1st edition']);
+		if (variants?.firstEdition) addVariant('reverse', ['1st-edition']);
 	}
 	if (typeof variants?.holo === 'boolean' ? variants.holo : true) {
 		addVariant('holo');
-		if (variants?.firstEdition) addVariant('holo', ['1st edition']);
+		if (variants?.firstEdition) addVariant('holo', ['1st-edition']);
 	}
 
 	return result.length > 0 ? result : undefined;
@@ -105,13 +105,13 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 				type: translate('variantType', variant.type, lang) as any,
 				subtype: translate('variantSubtype', variant.subtype, lang) as any,
 				// only include size when it's not standard
-				size: variant.size && variant.size !== 'standard' ? translate('variantSize', variant.size, lang) as any : undefined,
+				size: variant.size && variant.size !== 'standard' ? translate('variantSize', variant.size, lang) as any : translate('variantSize', "standard", lang) as any,
 				stamp: variant.stamp ? variant.stamp.map((stamp) => {
 					return translate('variantStamp', stamp, lang)
 				}) : undefined,
 				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
 			}
-		}) : variantsToVariantsDetailed(card.variants),
+		}) : variantsToVariantsDetailed(card.variants,lang),
 
 		dexId: card.dexId,
 		hp: card.hp,

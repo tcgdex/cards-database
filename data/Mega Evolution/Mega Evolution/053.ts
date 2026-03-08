@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Helioptile",
+		fr: "Galvaran",
+		de: "Eguana",
+		it: "Helioptile",
+		es: "Helioptile",
+		pt: "Helioptile",
+		'es-mx': "Helioptile"
+	},
 	stage: "Stage1",
+	dexId: [695],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -64,8 +74,18 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654392
+		tcgplayer: 654392,
+		cardmarket: 851124
 	}
 }
 

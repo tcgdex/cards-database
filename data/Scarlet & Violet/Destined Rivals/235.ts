@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Mabosstiff ex de Damián"
 	},
 
+
+	illustrator: "Yuriko Akase",
+
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Arven's Maschiff",
+		fr: "Grondogue de Pepper",
+		de: "Peppers Mobtiff",
+		it: "Maschiff di Pepe",
+		es: "Maschiff de Damián",
+		pt: "Maschiff do Arven",
+		'es-mx': "Maschiff de Damián"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -78,7 +90,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826109
+	}
 }
 
 export default card

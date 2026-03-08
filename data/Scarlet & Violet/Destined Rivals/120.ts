@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Zubat del Equipo Rocket"
 	},
 
+
+	illustrator: "toi8",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -55,7 +58,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825994
+	}
 }
 
 export default card

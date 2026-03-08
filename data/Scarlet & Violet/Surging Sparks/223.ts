@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 330,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Zweilous",
+		fr: "Diamat",
+		es: "Zweilous",
+		it: "Zweilous",
+		pt: "Zweilous",
+		de: "Duodino"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-		cardmarket: 794461
+		cardmarket: 794596
 	}
 }
 

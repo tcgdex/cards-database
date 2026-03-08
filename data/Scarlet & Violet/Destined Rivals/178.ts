@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Walkie-talkie del Equipo Rocket"
 	},
 
+
+	illustrator: "inose yukie",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826052
+	}
 }
 
 export default card

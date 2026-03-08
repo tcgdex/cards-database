@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ogerpon Máscara Horno"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -79,7 +80,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825918
+	}
 }
 
 export default card

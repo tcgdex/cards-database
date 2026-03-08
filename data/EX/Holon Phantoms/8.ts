@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -91,9 +92,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276978
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+	]
 }
 
 export default card

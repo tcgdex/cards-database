@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Hop's Wooloo",
+		fr: "Moumouton de Nabil",
+		es: "Wooloo de Paul",
+		de: "Hops Wolly",
+		it: "Wooloo di Hop",
+		pt: "Wooloo do Lupo",
+		'es-mx': "Wooloo de Paul"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -67,7 +76,24 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817288
-	}
+	},
+
+	variants: [
+		{
+			type: 'reverse'
+		},
+		{
+			type: 'holo'
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos'
+		},
+		{
+			type: 'holo',
+			stamp: ["set-logo"]
+		},
+	]
 }
 
 export default card

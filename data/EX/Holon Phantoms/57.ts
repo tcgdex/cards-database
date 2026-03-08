@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Claw Fossil",
+		fr: "Fossile griffe"
 	},
 
 	stage: "Stage1",
@@ -71,9 +72,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 277027
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+	]
 }
 
 export default card

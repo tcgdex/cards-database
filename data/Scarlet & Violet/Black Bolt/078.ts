@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Braviary"
 	},
 
+	illustrator: "Kedamahadaitai Yawarakai",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Rufflet",
+		fr: "Furaiglon",
+		de: "Geronimatz",
+		it: "Rufflet",
+		pt: "Rufflet",
+		es: "Rufflet",
+		'es-mx': "Rufflet"
+	},
 	stage: "Stage1",
 
 	attacks: [{

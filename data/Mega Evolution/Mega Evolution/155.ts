@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 380,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Ivysaur",
+		fr: "Herbizarre",
+		de: "Bisaknosp",
+		it: "Ivysaur",
+		es: "Ivysaur",
+		pt: "Ivysaur",
+		'es-mx': "Ivysaur"
+	},
 	stage: "Stage2",
+	dexId: [3],
 
 	abilities: [{
 		type: "Ability",
@@ -74,8 +84,15 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+	],
+
 	thirdParty: {
-		tcgplayer: 654494
+		tcgplayer: 654494,
+		cardmarket: 851226
 	}
 }
 

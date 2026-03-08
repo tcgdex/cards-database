@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dragonair",
+		fr: "Draco lumineux"
 	},
 
 	stage: "Stage2",
@@ -81,7 +82,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274666,
 		tcgplayer: 86738
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

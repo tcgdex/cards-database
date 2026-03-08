@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Arlequín"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -31,7 +32,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836057
+		cardmarket: 836203
 	}
 }
 

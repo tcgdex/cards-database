@@ -77,12 +77,14 @@ const card: Card = {
 		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279165,

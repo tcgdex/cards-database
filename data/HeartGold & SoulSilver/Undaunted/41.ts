@@ -81,12 +81,14 @@ const card: Card = {
 		en: "When Vaporeon’s fins begin to vibrate, it is a sign that rain will come within a few hours."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279294,

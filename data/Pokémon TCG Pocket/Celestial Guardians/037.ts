@@ -16,6 +16,8 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [776],
 	hp: 120,
 	types: ["Fire"],
 

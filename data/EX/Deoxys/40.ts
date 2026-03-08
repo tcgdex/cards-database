@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Beldum",
+		fr: "Terhal"
 	},
 
 	stage: "Stage1",
@@ -76,10 +77,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		tcgplayer: 87375,
 		cardmarket: 276443
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

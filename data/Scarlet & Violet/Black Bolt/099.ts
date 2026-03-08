@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Larvesta"
 	},
 
+	illustrator: "Katsunori Sato",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835932
+		cardmarket: 836105
 	}
 }
 

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Kyurem ex"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 230,
@@ -65,7 +66,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835955
+		cardmarket: 836231
 	}
 }
 

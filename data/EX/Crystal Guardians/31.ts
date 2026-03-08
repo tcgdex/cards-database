@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Torchic",
+		fr: "Poussifeu"
 	},
 
 	stage: "Stage1",
@@ -76,10 +77,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 277097,
 		tcgplayer: 84408
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

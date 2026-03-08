@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Meloetta ex"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 200,

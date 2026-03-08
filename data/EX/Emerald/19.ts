@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rhyhorn",
+		fr: "Rhinocorne"
 	},
 
 	stage: "Stage1",
@@ -68,10 +69,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		tcgplayer: 88733,
 		cardmarket: 276530
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

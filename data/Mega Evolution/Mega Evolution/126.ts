@@ -31,8 +31,18 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654465
+		tcgplayer: 654465,
+		cardmarket: 851197
 	}
 }
 

@@ -8,7 +8,7 @@ const set: Set = {
 		// de: "Hüter des Firmaments",
 		en: "Eevee Grove",
 		// es: "Guardianes Celestiales",
-		// fr: "Gardiens Astraux",
+		fr: "La Clairière d'Évoli",
 		// it: "Guardiani Astrali",
 		// 'pt-br': "Guardiões Celestiais",
 		// ko: '쌍천의 수호자'
@@ -18,6 +18,14 @@ const set: Set = {
 
 	cardCount: {
 		official: 69
+	},
+
+	boosters: {
+		eevee: {
+			name: {
+				en: "Eevee"
+			}
+		}
 	},
 
 	releaseDate: "2025-06-26"

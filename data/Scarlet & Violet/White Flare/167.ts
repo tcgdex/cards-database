@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Keldeo ex"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 210,
@@ -75,7 +76,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835962
+		cardmarket: 836211
 	}
 }
 

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mankey",
+		fr: "Férosinge"
 	},
 
 	stage: "Stage1",
@@ -76,9 +77,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 277020
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+	]
 }
 
 export default card

@@ -10,7 +10,10 @@ const card: Card = {
 
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "None",
-	category: "Pokemon",
+	category: "Pokemon",		
+  hp: 50,
+
+	dexId: [2],
 	stage: "Stage1",
 
 	abilities: [{
@@ -40,7 +43,22 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275416,
 		tcgplayer: 84616
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["winner"]
+		},
+		{
+			type: "normal",
+			stamp: ["winner"],
+			size: "jumbo"
+		}
+	]
 }
 
 export default card

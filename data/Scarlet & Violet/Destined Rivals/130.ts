@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Purrloin de Marnie"
 	},
 
+
+	illustrator: "REND",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -57,7 +60,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826004
+	}
 }
 
 export default card

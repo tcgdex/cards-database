@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Zeraora"
 	},
 
+
+	illustrator: "Ryuta Fuse",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,
@@ -69,7 +72,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825952
+	}
 }
 
 export default card

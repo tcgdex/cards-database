@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spoink",
+		fr: "Spoink"
 	},
 
 	stage: "Stage1",
@@ -92,10 +93,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 85965,
 		cardmarket: 276435
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

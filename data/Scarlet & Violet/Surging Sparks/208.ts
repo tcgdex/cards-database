@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Alolan Diglett",
+		fr: "Taupiqueur d'Alola",
+		es: "Diglett de Alola",
+		it: "Diglett di Alola",
+		pt: "Diglett de Alola",
+		de: "Alola-Digda"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -53,7 +61,7 @@ const card: Card = {
 	illustrator: "Yukihiro Tada",
 
 	thirdParty: {
-		cardmarket: 794496
+		cardmarket: 794581
 	}
 }
 

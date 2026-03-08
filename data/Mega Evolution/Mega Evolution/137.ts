@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Nincada",
+		fr: "Ningale",
+		de: "Nincada",
+		it: "Nincada",
+		es: "Nincada",
+		pt: "Nincada",
+		'es-mx': "Nincada"
+	},
 	stage: "Stage1",
+	dexId: [291],
 
 	abilities: [{
 		type: "Ability",
@@ -74,8 +84,15 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+	],
+
 	thirdParty: {
-		tcgplayer: 654476
+		tcgplayer: 654476,
+		cardmarket: 851208
 	}
 }
 

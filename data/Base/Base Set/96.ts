@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Double Colorless Energy",
 		fr: "Double Énergie Incolore",
-		de: "Doppelte farblose Energie"
+		de: "Doppelte farblose Energie",
+		it: "Energia Incolore Doppia",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,13 +16,33 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "Liefert   Energie. Zählt nicht als Basis-Energiekarte."
+		de: "Liefert   Energie. Zählt nicht als Basis-Energiekarte.",
+		it: "Fornisce energia Incolore Incolore. Non conta come carta Energia base."
 	},
 
 	thirdParty: {
 		cardmarket: 273791,
 		tcgplayer: 42440
-	}
+	},
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
 }
 
 export default card

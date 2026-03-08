@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skitty",
+		fr: "Skitty"
 	},
 
 	suffix: "EX",
@@ -87,10 +88,19 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 277172,
 		tcgplayer: 84744
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 }
 
 export default card

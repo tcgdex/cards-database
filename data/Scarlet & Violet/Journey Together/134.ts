@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Hop's Rookidee",
+		fr: "Minisange de Nabil",
+		es: "Rookidee de Paul",
+		de: "Hops Meikro",
+		it: "Rookidee di Hop",
+		pt: "Rookidee do Lupo",
+		'es-mx': "Rookidee de Paul"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +66,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817286
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

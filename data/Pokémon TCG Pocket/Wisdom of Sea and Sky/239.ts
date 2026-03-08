@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lickilicky ex"
+		en: "Lickilicky ex",
+		fr: "Coudlangue-ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
 	rarity: "Two Shiny",
 	category: "Pokemon",
+
+	dexId: [463],
 	hp: 160,
 	types: ["Colorless"],
 
@@ -23,14 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Licking Fury"
+			en: "Licking Fury",
+			fr: "Langue Frénétique"
 		},
 
 		damage: 100,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 40 more damage for each heads."
+			en: "Flip a coin until you get tails. This attack does 40 more damage for each heads.",
+			fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face."
 		}
 	}],
 

@@ -71,12 +71,14 @@ const card: Card = {
 		en: "A sweet sap leaks from its tail’s tip. Although not nutritious, the tail is pleasant to chew on."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279319,

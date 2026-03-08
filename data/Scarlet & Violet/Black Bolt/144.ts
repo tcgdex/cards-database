@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cobalion"
 	},
 
+	illustrator: "hncl",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
@@ -75,7 +76,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836045
+		cardmarket: 836212
 	}
 }
 

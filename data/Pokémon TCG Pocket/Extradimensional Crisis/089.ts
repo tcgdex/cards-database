@@ -5,23 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe"
+		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	illustrator: "Saya Tsuruta",
 	category: "Pokemon",
+
+	dexId: [58],
 	hp: 70,
 	types: ["Fire"],
 
 	description: {
-		en: "It has a brave and trustworthy nature. It fearlessly\nstands up to bigger and stronger foes."
+		en: "It has a brave and trustworthy nature. It fearlessly\nstands up to bigger and stronger foes.",
+		fr: "Courageux et fidèle, il se dresse vaillamment devant ses ennemis même s'ils sont plus puissants que lui."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 
 		damage: 20,

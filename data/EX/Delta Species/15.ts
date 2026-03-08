@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Staryu",
+		fr: "Stari"
 	},
 
 	stage: "Stage1",
@@ -89,9 +90,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 276778
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

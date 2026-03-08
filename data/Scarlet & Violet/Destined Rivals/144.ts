@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Metang de Steven"
 	},
 
+
+	illustrator: "Anesaki Dynamic",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Steven's Beldum",
+		fr: "Terhal de Pierre",
+		de: "Troys Tanhel",
+		it: "Beldum di Rocco",
+		es: "Beldum de Máximo",
+		pt: "Beldum do Steven",
+		'es-mx': "Beldum de Steven"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -52,9 +64,16 @@ const card: Card = {
 
 	variants: [
 		{
+			type: 'normal'
+		},
+		{
 			type: 'reverse'
 		}
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826018
+	}
 }
 
 export default card

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Pansear",
+		fr: "Flamajou",
+		es: "Pansear",
+		it: "Pansear",
+		pt: "Pansear",
+		de: "Grillmak"
+	},
 	stage: "Stage1",
 
 	attacks: [{

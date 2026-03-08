@@ -81,12 +81,23 @@ const card: Card = {
 		en: "It nests at the edge of sharp cliffs. It spends all day carrying food to its awaiting chicks."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+		{
+			type: "normal",
+			stamp : ["snowflake"],
+			languages: ["de"]
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279011,

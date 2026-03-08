@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidoran ♀",
+		fr: "Nidoran"
 	},
 
 	stage: "Stage1",
@@ -69,10 +70,27 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276216,
 		tcgplayer: 87735
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-maron"]
+		}
+	]
 }
 
 export default card

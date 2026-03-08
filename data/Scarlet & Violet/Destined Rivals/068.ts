@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Electabuzz"
 	},
 
+
+	illustrator: "Amelicart",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -47,7 +50,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825942
+	}
 }
 
 export default card

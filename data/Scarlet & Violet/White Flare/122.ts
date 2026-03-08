@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Yamask"
 	},
 
+	illustrator: "YASHIRO Nanaco",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -51,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835974
+		cardmarket: 836136
 	}
 }
 

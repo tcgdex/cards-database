@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Meowth del Equipo Rocket"
 	},
 
+
+	illustrator: "Megumi Mizutani",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -79,7 +82,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826023
+	}
 }
 
 export default card

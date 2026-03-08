@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Snubbull",
+		fr: "Snubbull"
 	},
 
 	stage: "Stage1",
@@ -86,7 +87,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274437,
 		tcgplayer: 85861
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

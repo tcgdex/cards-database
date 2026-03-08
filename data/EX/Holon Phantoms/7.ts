@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vibrava",
+		fr: "Vibraninf"
 	},
 
 	stage: "Stage2",
@@ -86,9 +87,26 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276977
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["jun-hasebe"]
+		}
+	]
 }
 
 export default card

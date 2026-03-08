@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ralts",
+		fr: "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -71,10 +72,30 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 275682,
 		tcgplayer: 86459
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			subtype: "no-e-reader"
+		},
+		{
+			type: "normal",
+			stamp: ["kevin-nguyen"]
+		}
+	]
 }
 
 export default card

@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Mienshao"
 	},
 
+	illustrator: "Keisin",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Mienfoo",
+		fr: "Kungfouine",
+		de: "Lin-Fu",
+		it: "Mienfoo",
+		pt: "Mienfoo",
+		es: "Mienfoo",
+		'es-mx': "Mienfoo"
+	},
 	stage: "Stage1",
 
 	attacks: [{

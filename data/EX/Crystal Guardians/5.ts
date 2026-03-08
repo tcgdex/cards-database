@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Diglett",
+		fr: "Dynavolt"
 	},
 
 	stage: "Stage1",
@@ -91,10 +92,26 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 277086,
 		tcgplayer: 85001
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card

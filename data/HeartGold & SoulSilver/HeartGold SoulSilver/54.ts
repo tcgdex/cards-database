@@ -70,12 +70,14 @@ const card: Card = {
 		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279026,

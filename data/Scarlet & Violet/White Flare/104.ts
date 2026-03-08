@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Heatmor"
 	},
 
+	illustrator: "Kariya",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
@@ -63,7 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835937
+		cardmarket: 836103
 	}
 }
 

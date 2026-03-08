@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Eelektross"
 	},
 
+	illustrator: "Jerky",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Eelektrik",
+		fr: "Lampéroie",
+		de: "Zapplalek",
+		it: "Eelektrik",
+		pt: "Eelektrik",
+		es: "Eelektrik",
+		'es-mx': "Eelektrik"
+	},
 	stage: "Stage2",
 
 	attacks: [{

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Larvitar",
+		fr: "Embrylex"
 	},
 
 	stage: "Stage1",
@@ -55,7 +56,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274965,
 		tcgplayer: 88447
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

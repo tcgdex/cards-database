@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Electrike"
 	},
 
+
+	illustrator: "Nakamura Ippan",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -58,7 +61,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826070
+	}
 }
 
 export default card

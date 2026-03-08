@@ -64,12 +64,14 @@ const card: Card = {
 		en: "It likes playing mischievous tricks such as screaming and wailing to startle people at night."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279210,

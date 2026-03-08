@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Caterpie",
+		fr: "Chenipan"
 	},
 
 	stage: "Stage1",
@@ -71,7 +72,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274962,
 		tcgplayer: 87388
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

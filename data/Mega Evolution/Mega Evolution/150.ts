@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 200,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Onix",
+		fr: "Onix",
+		de: "Onix",
+		it: "Onix",
+		es: "Onix",
+		pt: "Onix",
+		'es-mx': "Onix"
+	},
 	stage: "Stage1",
+	dexId: [208],
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
@@ -64,8 +74,15 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+	],
+
 	thirdParty: {
-		tcgplayer: 654489
+		tcgplayer: 654489,
+		cardmarket: 851221
 	}
 }
 

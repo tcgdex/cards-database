@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Durant"
 	},
 
+	illustrator: "Scav",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
@@ -65,7 +66,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836030
+		cardmarket: 836184
 	}
 }
 

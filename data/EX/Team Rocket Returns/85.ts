@@ -20,7 +20,25 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 276377,
 		tcgplayer: 88352
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["curran-hill"]
+		},
+		{
+			type: "normal",
+			stamp: ["jason-klaczynski"]
+		}
+	]
 }
 
 export default card

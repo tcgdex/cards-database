@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jellicent"
+		en: "Jellicent",
+		fr: "Moyade"
 	},
 
 	illustrator: "Kagemaru Himeno",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [593],
 	hp: 110,
 	types: ["Psychic"],
 
@@ -19,14 +22,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Most of this Pokémon's body composition is\nidentical to sea water. It makes sunken ships\nits lair."
+		en: "Most of this Pokémon's body composition is\nidentical to sea water. It makes sunken ships\nits lair.",
+		fr: "Son corps est composé presque entièrement d'une substance identique à l'eau de mer. Les épaves de navires sont ses bastions."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Devour Soul"
+			en: "Devour Soul",
+			fr: "Dévoreur d'Âmes"
 		},
 
 		damage: 80,

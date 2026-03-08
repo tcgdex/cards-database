@@ -20,6 +20,7 @@ const card: Card = {
 	hp: 110,
 	types: ["Fighting"],
 	stage: "Basic",
+	dexId: [338],
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -50,8 +51,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654414
+		tcgplayer: 654414,
+		cardmarket: 851146
 	}
 }
 

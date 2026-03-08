@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Maractus"
 	},
 
+	illustrator: "Heisuke Kitazawa",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
@@ -65,7 +66,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835918
+		cardmarket: 836094
 	}
 }
 

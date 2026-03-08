@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Artikodin"
 	},
 
-	illustrator: "Toshinao Aoki",
+	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
@@ -53,7 +53,17 @@ const card: Card = {
 
 	description: {
 		fr: "On prétend que ce Pokémon légendaire refroidit l'eau contenue dans l'air en hiver, au point de provoquer des chutes de neige."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			subtype: "aoki-error"
+		}
+	]
 }
 
 export default card

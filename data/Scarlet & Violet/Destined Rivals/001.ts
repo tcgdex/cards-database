@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pinsir de Ethan"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -71,7 +72,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825875,
+	}
 
 }
 

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shuppet",
+		fr: "Polichombr"
 	},
 
 	stage: "Stage1",
@@ -80,10 +81,27 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 277082,
 		tcgplayer: 83720
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "holo",
+			stamp: ["jeremy-scharff-kim"]
+		}
+	]
 }
 
 export default card

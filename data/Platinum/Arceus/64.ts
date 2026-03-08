@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		92,
 	],
+	
+	hp: 50,
 
 	types: [
 		"Psychic",
@@ -69,7 +71,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278908,
 		tcgplayer: 85655
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

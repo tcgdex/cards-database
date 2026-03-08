@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Aron",
+		fr: "Galekid"
 	},
 
 	stage: "Stage1",
@@ -83,10 +84,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 275684,
 		tcgplayer: 86574
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

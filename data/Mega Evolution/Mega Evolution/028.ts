@@ -19,7 +19,17 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Raboot",
+		fr: "Lapyro",
+		de: "Kickerlo",
+		it: "Raboot",
+		es: "Raboot",
+		pt: "Raboot",
+		'es-mx': "Raboot"
+	},
 	stage: "Stage2",
+	dexId: [815],
 
 	abilities: [{
 		type: "Ability",
@@ -74,8 +84,27 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+		}
+	],
+
 	thirdParty: {
-		tcgplayer: 654367
+		tcgplayer: 654367,
+		cardmarket: 851099
 	}
 }
 

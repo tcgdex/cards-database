@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Maschiff de Damián"
 	},
 
+
+	illustrator: "Mina Nakai",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -61,7 +64,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826012
+	}
 }
 
 export default card

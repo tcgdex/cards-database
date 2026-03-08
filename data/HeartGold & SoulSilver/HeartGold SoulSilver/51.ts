@@ -70,12 +70,14 @@ const card: Card = {
 		en: "The bloom on top of its head opens and closes as the temperature fluctuates up and down."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279023,
