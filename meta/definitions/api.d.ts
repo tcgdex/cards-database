@@ -69,6 +69,9 @@ export interface SetResume {
 	name: string;
 	logo?: string;
 	symbol?: string;
+	serie?: SerieResume;
+	releaseDate?: string;
+	abbreviation?: { official: string; localized: string };
 	cardCount: {
 		/**
 		 * total of number of cards
