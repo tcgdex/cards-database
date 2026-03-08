@@ -53,22 +53,23 @@ const card: Card = {
 		type: "normal",
 		thirdParty: {
 			cardmarket: 869708,
-			tcgplayer: /* MISSING_ID */
+			tcgplayer: 675909
 		}
 	},
 	{
 		type: "reverse",
+		foil: "energy",
 		thirdParty: {
-			cardmarket: 869708,
-			tcgplayer: /* MISSING_ID */
+			cardmarket: 870289,
+			tcgplayer: 677069
 		}
 	},
 	{
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: /* MISSING_ID */,
-			tcgplayer: 675909
+			cardmarket: 870290,
+			tcgplayer: 676929
 		}
 	},
 ],

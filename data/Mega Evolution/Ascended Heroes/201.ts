@@ -36,21 +36,13 @@ const card: Card = {
 		type: "normal",
 		thirdParty: {
 			cardmarket: 869812,
-			tcgplayer: /* MISSING_ID */
+			tcgplayer: 676013
 		}
 	},
 	{
 		type: "reverse",
 		thirdParty: {
 			cardmarket: 869812,
-			tcgplayer: /* MISSING_ID */
-		}
-	},
-	{
-		type: "reverse",
-		foil: "team-rocket",
-		thirdParty: {
-			cardmarket: /* MISSING_ID */,
 			tcgplayer: 676013
 		}
 	},
