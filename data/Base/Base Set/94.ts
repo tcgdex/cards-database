@@ -43,6 +43,13 @@ const card: Card = {
 			subtype: "1999-2000-copyright",
 		}
 	],
+
+	related: [
+		{
+			type: "translation",
+			cardPath: "data-asia/PMCG/PMCG1/071.ts"
+		}
+	]
 }
 
 export default card
