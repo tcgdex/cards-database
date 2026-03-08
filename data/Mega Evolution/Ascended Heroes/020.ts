@@ -51,16 +51,9 @@ const card: Card = {
 	},
 	{
 		type: "reverse",
-		thirdParty: {
-			cardmarket: 869631,
-			tcgplayer: 675832
-		}
-	},
-	{
-		type: "reverse",
 		foil: "friendball",
 		thirdParty: {
-			cardmarket: /* MISSING_ID */,
+			cardmarket: 870170,
 			tcgplayer: 676869
 		}
 	},
@@ -68,7 +61,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: /* MISSING_ID */,
+			cardmarket: 870169,
 			tcgplayer: 677009
 		}
 	},

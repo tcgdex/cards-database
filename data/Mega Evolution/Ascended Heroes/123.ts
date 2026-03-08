@@ -60,7 +60,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: /* MISSING_ID */,
+			cardmarket: 870110,
 			tcgplayer: 676949
 		}
 	},
@@ -68,7 +68,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: /* MISSING_ID */,
+			cardmarket: 870329,
 			tcgplayer: 677089
 		}
 	},

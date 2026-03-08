@@ -77,25 +77,26 @@ const card: Card = {
 
 	variants: [
 	{
-		type: "normal",
+		type: "holo",
 		thirdParty: {
 			cardmarket: 869630,
-			tcgplayer: /* MISSING_ID */
+			tcgplayer: 675831
 		}
 	},
 	{
 		type: "reverse",
+		foil: "energy"
 		thirdParty: {
-			cardmarket: 869630,
-			tcgplayer: /* MISSING_ID */
+			cardmarket: 870167,
+			tcgplayer: 677008
 		}
 	},
 	{
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: /* MISSING_ID */,
-			tcgplayer: 675831
+			cardmarket: 870168,
+			tcgplayer: 676868
 		}
 	},
 ],
