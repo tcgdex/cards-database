@@ -9,6 +9,8 @@ const card: Card = {
 	description: {
 		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
 	},
+	
+	hp: 60,
 
 	stage: "Basic",
 

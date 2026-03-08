@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [196],
 	hp: 140,
 	types: ["Psychic"],
 

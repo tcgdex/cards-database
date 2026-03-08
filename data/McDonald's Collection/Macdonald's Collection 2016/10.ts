@@ -9,6 +9,8 @@ const card: Card = {
 	description: {
 		en: "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances."
 	},
+	
+	hp: 70,
 
 	stage: "Basic",
 

@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Yoshimi Miyoshi",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [26],
 	hp: 140,
 	types: ["Lightning"],
 
