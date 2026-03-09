@@ -2,6 +2,7 @@ import express, { type Response } from 'express'
 import jsonEndpoints from './V2/endpoints/jsonEndpoints'
 import openapi from './V2/endpoints/openapi'
 import graphql from './V2/graphql'
+import graphqlV3 from './V3/graphql'
 import cluster from 'node:cluster'
 import { availableParallelism } from "node:os"
 import { Errors, sendError } from './libs/Errors'
@@ -135,6 +136,9 @@ if (cluster.isPrimary) {
 
 	// Status page
 	server.use('/status', status)
+
+	// Setup v3 previews
+	server.use(`/v3/graphql`, graphqlV3)
 
 	// handle 404 errors
 	server.use((_, res) => {
