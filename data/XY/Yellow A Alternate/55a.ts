@@ -1,8 +1,9 @@
 import { Card } from '../../../interfaces'
-import Set from '../Yello A Alternate'
+import Set from '../Yellow A Alternate'
 
 const card: Card = {
 	name: {
+		en: "M Lucario-EX",
 		fr: "M-Lucario-ex",
 	},
 	illustrator: "5ban Graphics",
@@ -17,6 +18,7 @@ const card: Card = {
 		"Fighting",
 	],
 	evolveFrom: {
+		en: "Lucario-ex",
 		fr: "Lucario-ex",
 	},
 	stage: "MEGA",
@@ -30,9 +32,11 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
+				en: "Rising Fist",
 				fr: "Poing Imminent",
 			},
 			effect: {
+				en: "Discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 140,
