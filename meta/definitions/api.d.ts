@@ -67,7 +67,7 @@ interface variant_detailed {
 		cardmarket?: number
 		tcgplayer?: number
 	}
-	image?: string
+	variantId: string
 }
 
 export interface SetResume {

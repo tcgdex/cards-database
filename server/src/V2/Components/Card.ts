@@ -143,10 +143,7 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 		//Takes the first variant with pricing available, this should be the base variant
 		const variantWithPricing = (card.variants_detailed ?? []).find((variant: any) => variant.pricing && (variant.pricing.cardmarket || variant.pricing.tcgplayer));
 		if(variantWithPricing) {
-			 [cardmarket, tcgplayer] = await Promise.all([
-				getCardMarketPrice(variantWithPricing),
-				getTCGPlayerPrice(variantWithPricing),
-			])
+			({ cardmarket, tcgplayer } = variantWithPricing.pricing);
 		}
 	}
 
