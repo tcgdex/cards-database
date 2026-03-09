@@ -37,10 +37,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Collect"
+			en: "Collect",
+			fr: "Collectionner"
 		},
 		effect: {
-			en: "Draw 3 cards."
+			en: "Draw 3 cards.",
+			fr: "Piochez 3 cartes."
 		}
 	}, {
 		cost: [
@@ -49,7 +51,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 		damage: 50
 	}],

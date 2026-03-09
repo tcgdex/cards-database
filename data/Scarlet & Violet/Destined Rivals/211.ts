@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Dondozo ex"
 	},
 
+
+	illustrator: "N-DESIGN Inc.",
+
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 260,

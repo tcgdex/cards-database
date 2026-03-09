@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Amoonguss"
 	},
 
+	illustrator: "Kurata So",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

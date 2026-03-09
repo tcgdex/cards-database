@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Victini",
+		fr: "Victini"
 	},
 
 	rarity: "None",
@@ -21,10 +22,12 @@ const card: Card = {
 
 		name: {
 			en: "V-Force",
+			fr: "Force-V"
 		},
 
 		effect:{
 			en: "If you have 4 or fewer Benched Pokémon, this attack does nothing.",
+			fr: "Si vous avez 4 Pokémon de Banc ou moins, cette attaque ne fait rien."
 		},
 
 		damage: 120

@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Archen",
+		fr: "Arkéapti"
 	},
 
 	stage: "Stage1",
@@ -63,9 +64,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Slide",
+				fr: "Éboulement"
 			},
 			effect: {
 				en: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 60,
 

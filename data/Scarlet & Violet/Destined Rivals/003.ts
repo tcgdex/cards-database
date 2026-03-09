@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Yanmega ex"
 	},
 
+	illustrator: "takuyoa",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 280,

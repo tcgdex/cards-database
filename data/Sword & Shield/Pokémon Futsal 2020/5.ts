@@ -16,6 +16,8 @@ const card: Card = {
 	description: {
 		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
 	},
+	
+	hp: 60,
 
 	stage: "Basic",
 

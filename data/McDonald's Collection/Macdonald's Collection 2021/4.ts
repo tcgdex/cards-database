@@ -4,6 +4,7 @@ import Set from '../Macdonald\'s Collection 2021'
 const card: Card = {
 	name: {
 		en: "Turtwig",
+		fr: "Tortipouss"
 	},
 
 	illustrator: "OOYAMA",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 20,
@@ -44,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch'Herbe"
 			},
 
 			damage: 50,

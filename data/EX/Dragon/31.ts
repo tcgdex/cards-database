@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Treecko",
+		fr: "Arcko"
 	},
 
 	stage: "Stage1",
@@ -63,6 +64,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 1,
 
 	thirdParty: {
 		tcgplayer: 85937,

@@ -41,21 +41,25 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Hunting Claw"
+			en: "Hunting Claw",
+			fr: "Griffe de Chasse"
 		},
 
 		effect: {
-			en: "Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining."
+			en: "Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining.",
+			fr: "Mettez K.O. l'un des Pokémon en jeu de votre adversaire auquel il reste 60 PV ou moins."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Max Edge"
+			en: "Max Edge",
+			fr: "Lamomax"
 		},
 
 		effect: {
-			en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 		},
 
 		damage: 190

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Ogerpon Máscara Fuente"
 	},
 
+
+	illustrator: "rika",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

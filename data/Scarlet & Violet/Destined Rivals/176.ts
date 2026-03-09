@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Petrel del Equipo Rocket"
 	},
 
+
+	illustrator: "GOSSAN",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Boldore"
 	},
 
+	illustrator: "Krgc",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,

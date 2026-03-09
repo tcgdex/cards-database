@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Team Rocket's Mewtwo ex",
+		fr: "Mewtwo-ex de la Team Rocket"
 	},
 	suffix: "EX",
 	rarity: "None",
@@ -21,9 +22,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Power Saver",
+				fr: "Économie de Puissance"
 			},
 			effect:{
-				en: "This Pokémon can't attack unless you have 4 or more Team Rocket's Pokémon in play."
+				en: "This Pokémon can't attack unless you have 4 or more Team Rocket's Pokémon in play.",
+				fr: "Ce Pokémon ne peut attaquer que si vous avez 4 Pokémon de la Team Rocket ou plus en jeu."
 			}
 		}
 	],

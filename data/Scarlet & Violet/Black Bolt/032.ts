@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Eelektross"
 	},
 
+	illustrator: "Jerky",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 160,

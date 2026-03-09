@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Typhlosion de Ethan"
 	},
 
+	illustrator: "danciao",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 170,

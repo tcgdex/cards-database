@@ -14,17 +14,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Charge Beam"
+			en: "Charge Beam",
+			fr: "Rayon Chargé"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon."
+			en: "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
+			fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie dans votre pile de défausse et attachez-la à ce Pokémon."
 		}
 	}, {
 		name: {
-			en: "Irongrip"
+			en: "Irongrip",
+			fr: "Poigne de Fer"
 		},
 
 		damage: 20
@@ -38,7 +41,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Klink"
+		en: "Klink",
+		fr: "Tic"
 	},
 
 	rarity: "None",

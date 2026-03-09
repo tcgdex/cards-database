@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mudbray"
 	},
 
+
+	illustrator: "Aliya Chen",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

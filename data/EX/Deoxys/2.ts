@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Silcoon",
+		fr: "Armulys"
 	},
 
 	stage: "Stage2",
@@ -86,6 +87,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 1,
 
 	thirdParty: {
 		tcgplayer: 83757,

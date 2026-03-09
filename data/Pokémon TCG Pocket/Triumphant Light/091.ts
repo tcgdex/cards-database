@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "saino misaki",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [470],
 	hp: 140,
 	types: ["Grass"],
 

@@ -16,6 +16,8 @@ const card: Card = {
 	illustrator: "Naoyo Kimura",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [4],
 	hp: 60,
 	types: ["Fire"],
 

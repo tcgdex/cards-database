@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Blitzle"
 	},
 
+	illustrator: "Natsumi Miyanose",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

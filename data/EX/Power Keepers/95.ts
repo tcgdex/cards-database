@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metang",
+		fr: "Metang"
 	},
 
 	suffix: "EX",
@@ -80,6 +81,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+	
+	retreat: 4,
 
 	thirdParty: {
 		cardmarket: 277401,

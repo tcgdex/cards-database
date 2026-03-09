@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Beartic"
 	},
 
+	illustrator: "Whisker",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,

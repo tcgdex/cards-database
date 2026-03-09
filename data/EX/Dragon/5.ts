@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Graveler",
+		fr: "Gravalanch"
 	},
 
 	stage: "Stage2",
@@ -78,6 +79,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 4,
 
 	thirdParty: {
 		tcgplayer: 85826,

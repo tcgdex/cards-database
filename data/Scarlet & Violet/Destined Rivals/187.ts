@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Spidops del Equipo Rocket"
 	},
 
+
+	illustrator: "NC Empire",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,

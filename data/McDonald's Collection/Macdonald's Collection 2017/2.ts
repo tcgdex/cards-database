@@ -2,29 +2,42 @@ import { Card } from '../../../interfaces'
 import Set from '../Macdonald\'s Collection 2017'
 
 const card: Card = {
-	dexId: [736],
+	dexId: [
+		736,
+	],
 	set: Set,
-
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
-
 	name: {
-		en: "Grubbin"
+		en: "Grubbin",
+		fr: "Larvibule",
 	},
-
 	rarity: "None",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Grass"],
+	types: [
+		"Grass",
+	],
 	stage: "Basic",
-
 	thirdParty: {
-		tcgplayer: 152682
-	}
+		tcgplayer: 152682,
+	},
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Force Poigne",
+			},
+			damage: "20",
+		},
+	],
 }
 
 export default card

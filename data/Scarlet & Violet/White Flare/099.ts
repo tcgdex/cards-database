@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pansear"
 	},
 
+	illustrator: "GOTO minori",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,

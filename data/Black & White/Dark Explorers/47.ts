@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eelektrik",
+		fr: "Lampéroie"
 	},
 
 	stage: "Stage2",
@@ -41,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Suction Heal",
+				fr: "Succion Guérisseuse"
 			},
 			effect: {
 				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur."
 			},
 			damage: 40,
 
@@ -57,9 +60,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slurp Shakedown",
+				fr: "Aspiration Brutale"
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. This attack does 60 damage to the new Defending Pokémon.",
+				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire. Cette attaque inflige 60 dégâts au nouveau Pokémon Défenseur."
 			},
 
 		},

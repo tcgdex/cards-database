@@ -41,11 +41,13 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Missing in the Forest"
+			en: "Missing in the Forest",
+			fr: "Perdus en Forêt"
 		},
 
 		effect: {
-			en: "This attack does 40 damage for each Supporter card in your opponent's discard pile."
+			en: "This attack does 40 damage for each Supporter card in your opponent's discard pile.",
+			fr: "Cette attaque inflige 40 dégâts pour chaque carte Supporter dans la pile de défausse de votre adversaire."
 		},
 
 		damage: "40×"
@@ -53,7 +55,8 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Max Tree"
+			en: "Max Tree",
+			fr: "Arbromax"
 		},
 
 		damage: 180

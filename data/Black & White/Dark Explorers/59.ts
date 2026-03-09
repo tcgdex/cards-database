@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Timburr",
+		fr: "Charpenti"
 	},
 
 	stage: "Stage1",
@@ -39,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
+				fr: "Balayage"
 			},
 
 			damage: 20,
@@ -52,9 +54,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Steel Swing",
+				fr: "Frappe d'Acier"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 60,
 

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Accelgor"
 	},
 
+	illustrator: "Taiga Kasai",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,

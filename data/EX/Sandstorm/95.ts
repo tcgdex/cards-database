@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lairon",
+		fr: "Galegon"
 	},
 
 	suffix: "EX",
@@ -89,6 +90,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+	
+	retreat: 4,
 
 	thirdParty: {
 		cardmarket: 275872,

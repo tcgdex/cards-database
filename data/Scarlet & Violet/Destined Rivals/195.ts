@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Clamperl"
 	},
 
+
+	illustrator: "Mori Yuu",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

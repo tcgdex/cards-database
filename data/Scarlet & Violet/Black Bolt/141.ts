@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Klinklang"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,

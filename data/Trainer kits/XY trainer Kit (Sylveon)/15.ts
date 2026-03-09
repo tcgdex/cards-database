@@ -26,17 +26,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Disarming Voice"
+			en: "Disarming Voice",
+			fr: "Voix Enjôleuse"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Confused."
+			en: "Your opponent’s Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}, {
 		name: {
-			en: "Fairy Wind"
+			en: "Fairy Wind",
+			fr: "Vent Féérique"
 		},
 
 		damage: 60

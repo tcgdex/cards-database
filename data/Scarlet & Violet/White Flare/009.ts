@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Accelgor"
 	},
 
+	illustrator: "Saboteri",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Regirock ex"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 230,

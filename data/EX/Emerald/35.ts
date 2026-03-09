@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Whismur",
+		fr: "Chuchmur"
 	},
 
 	stage: "Stage1",
@@ -74,6 +75,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 2,
 
 	thirdParty: {
 		tcgplayer: 86841,

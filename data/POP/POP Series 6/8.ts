@@ -4,6 +4,7 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Riolu",
+		fr: "Riolu"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Wild Kick",
+				fr: "Coup déchaîné"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 30,
 

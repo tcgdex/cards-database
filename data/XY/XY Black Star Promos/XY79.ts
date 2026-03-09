@@ -46,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sky Blade",
+				fr: "Lame Céleste"
 			},
 			effect: {
 				en: "If Latias is on your Bench, this attack does 50 more damage.",
+				fr: "Si Latias est sur votre Banc, cette attaque inflige 50 dégâts supplémentaires."
 			},
 			damage: "70+",
 

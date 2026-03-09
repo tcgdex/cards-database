@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gothorita"
 	},
 
+	illustrator: "Terada Tera",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,

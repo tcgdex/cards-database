@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Prinplup",
+		fr: "Prinplouf"
 	},
 
 	stage: "Stage2",
@@ -61,9 +62,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Attack Command",
+				fr: "Ordre d'Assaut"
 			},
 			effect: {
 				en: "Does 10 damage times the number of Pokémon in play (both yours and your opponent's).",
+				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu (les vôtres et ceux de votre adversaire)."
 			},
 			damage: 10,
 

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Root Fossil",
+		fr: "Fossile racine"
 	},
 
 	stage: "Stage1",
@@ -75,6 +76,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 277358,

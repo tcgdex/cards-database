@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Team Rocket's Wobbuffet",
+		fr: "Qulbutoké de la Team Rocket"
 	},
 
 	rarity: "None",

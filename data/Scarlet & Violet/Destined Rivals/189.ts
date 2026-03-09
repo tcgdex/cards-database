@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Rapidash"
 	},
 
+
+	illustrator: "Rond",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,

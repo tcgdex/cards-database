@@ -41,6 +41,8 @@ interface variant_detailed {
 	 * - jumbo: also said oversized, big card.
 	 */
 	size?: 'standard' | 'jumbo'
+
+	// TODO: rename to 'stamps' on v3
 	/**
 	 * indicate that this variant has a stamp
 	 * a card may have multiple stamps, example "Ethan's Typhlosion pre-release staff"

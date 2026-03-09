@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Swablu",
+		fr: "Tylton"
 	},
 
 	suffix: "EX",
@@ -79,6 +80,9 @@ const card: Card = {
 
 		},
 	],
+
+	
+	retreat: 1,
 
 	thirdParty: {
 		tcgplayer: 83524,

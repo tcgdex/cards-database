@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Darmanitan"
 	},
 
+	illustrator: "svlt",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

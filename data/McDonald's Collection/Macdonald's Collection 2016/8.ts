@@ -9,27 +9,33 @@ const card: Card = {
 	description: {
 		en: "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody."
 	},
+	
+	hp: 60,
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rollout"
+			en: "Rollout",
+			fr: "Roulade"
 		},
 
 		damage: 10
 	}, {
 		name: {
-			en: "Heartfelt Song"
+			en: "Heartfelt Song",
+			fr: "Chanson du Cœur"
 		},
 
 		effect: {
-			en: "Discard a Darkness Energy attached to your opponent’s Active Pokémon."
+			en: "Discard a Darkness Energy attached to your opponent’s Active Pokémon.",
+			fr: "Défaussez une Énergie  attachée au Pokémon Actif de votre adversaire."
 		}
 	}],
 
 	name: {
-		en: "Jigglypuff"
+		en: "Jigglypuff",
+		fr: "Rondoudou"
 	},
 
 	rarity: "None",

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zekrom ex"
 	},
 
+	illustrator: "danciao",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 230,
