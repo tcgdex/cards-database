@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kadabra",
+		fr: "Kadabra"
 	},
 
 	stage: "Stage2",
@@ -81,7 +82,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277631,
 		tcgplayer: 83501
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

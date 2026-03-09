@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Scorbunny",
+		fr: "Flambino",
+		de: "Hopplo",
+		it: "Scorbunny",
+		es: "Scorbunny",
+		pt: "Scorbunny",
+		'es-mx': "Scorbunny"
+	},
 	stage: "Stage1",
 	dexId: [814],
 
@@ -48,6 +57,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654366,

@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Aventura de Ethan"
 	},
 
+
+	illustrator: "Iori Suzuki",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826039
+	}
 }
 
 export default card

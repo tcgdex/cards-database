@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Gurdurr"
 	},
 
+	illustrator: "Shinya Mizuno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Timburr",
+		fr: "Charpenti",
+		de: "Praktibalk",
+		it: "Timburr",
+		pt: "Timburr",
+		es: "Timburr",
+		'es-mx': "Timburr"
+	},
 	stage: "Stage1",
 
 	attacks: [{

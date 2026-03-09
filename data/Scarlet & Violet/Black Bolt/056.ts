@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Scolipede"
 	},
 
+	illustrator: "okayamatakatoshi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Whirlipede",
+		fr: "Scobolide",
+		de: "Rollum",
+		it: "Whirlipede",
+		pt: "Whirlipede",
+		es: "Whirlipede",
+		'es-mx': "Whirlipede"
+	},
 	stage: "Stage2",
 
 	abilities: [{

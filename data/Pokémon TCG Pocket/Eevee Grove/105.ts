@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zapdos ex"
+		en: "Zapdos ex",
+		fr: "Électhor-ex"
 	},
 
 	illustrator: "PLANETA Saito",
 	rarity: "Two Shiny",
 	category: "Pokemon",
+
+	dexId: [145],
 	hp: 130,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -18,21 +21,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			en: "Peck",
+			fr: "Picpic"
 		},
 
 		damage: 20,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			en: "Thundering Hurricane"
+			en: "Thundering Hurricane",
+			fr: "Rafale d'Éclairs"
 		},
 
 		damage: 50,
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		effect: {
-			en: "Flip 4 coins. This attack does 50 damage for each heads."
+			en: "Flip 4 coins. This attack does 50 damage for each heads.",
+			fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts pour chaque côté face."
 		}
 	}],
 

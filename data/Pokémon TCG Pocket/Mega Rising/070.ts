@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Takeshi Nakamura",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [647],
 	hp: 100,
 	types: ["Water"],
 
@@ -38,7 +40,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	boosters: ["mega-blaziken"]
 }
 
 export default card

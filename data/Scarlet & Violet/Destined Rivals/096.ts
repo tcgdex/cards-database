@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Tyranitar del Equipo Rocket"
 	},
 
+
+	illustrator: "Ryuta Fuse",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Team Rocket's Pupitar",
+		fr: "Ymphect de la Team Rocket",
+		de: "Team Rockets Pupitar",
+		it: "Pupitar del Team Rocket",
+		es: "Pupitar del Team Rocket",
+		pt: "Pupitar da Equipe Rocket",
+		'es-mx': "Pupitar del Equipo Rocket"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -89,7 +101,11 @@ const card: Card = {
 			type: 'holo',
 			stamp: ["set-logo", "staff"]
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825970
+	}
 }
 
 export default card

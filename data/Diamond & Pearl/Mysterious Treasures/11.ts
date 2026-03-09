@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Finneon",
+		fr: "Écayon"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277640,
 		tcgplayer: 86921
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

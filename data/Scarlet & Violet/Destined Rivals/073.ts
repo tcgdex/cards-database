@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Flaaffy del Equipo Rocket"
 	},
 
+
+	illustrator: "Jerky",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Team Rocket's Mareep",
+		fr: "Wattouat de la Team Rocket",
+		de: "Team Rockets Voltilamm",
+		it: "Mareep del Team Rocket",
+		es: "Mareep del Team Rocket",
+		pt: "Mareep da Equipe Rocket",
+		'es-mx': "Mareep del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +69,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825947
+	}
 }
 
 export default card

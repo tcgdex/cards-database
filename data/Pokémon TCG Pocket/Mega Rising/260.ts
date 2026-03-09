@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "PLANETA CG Works",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [876],
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -46,7 +48,8 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	boosters: ["mega-altaria"]
 }
 
 export default card

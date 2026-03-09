@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Drowzee del Equipo Rocket"
 	},
 
+
+	illustrator: "matazo",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -57,7 +60,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825953
+	}
 }
 
 export default card

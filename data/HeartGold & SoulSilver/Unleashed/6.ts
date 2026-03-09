@@ -81,12 +81,14 @@ const card: Card = {
 		en: "It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279162,

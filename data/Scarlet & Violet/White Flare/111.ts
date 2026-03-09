@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Vanillite"
 	},
 
+	illustrator: "Mina Nakai",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Lechonk",
+		fr: "Gourmelet",
+		es: "Lechonk",
+		it: "Lechonk",
+		pt: "Lechonk",
+		de: "Ferkuli"
+	},
 	stage: "Stage1",
 
 	attacks: [{

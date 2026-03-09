@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Inflatable Boat"
+		en: "Inflatable Boat",
+		fr: "Canot Gonflable"
 	},
 
 	illustrator: "Toyste Beach",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "The Retreat Cost of the {W} Pokémon this card is attached to is 1 less."
+		en: "The Retreat Cost of the {W} Pokémon this card is attached to is 1 less.",
+		fr: "Le Coût de Retraite du Pokémon {W} auquel cette carte est attachée est diminué de 1."
 	},
 
 	trainerType: "Tool"

@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Garchomp ex de Cynthia"
 	},
 
+
+	illustrator: "5ban Graphics",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Cynthia's Gabite",
+		fr: "Carmache de Cynthia",
+		de: "Cynthias Knarksel",
+		it: "Gabite di Camilla",
+		es: "Gabite de Cintia",
+		pt: "Gabite da Cíntia",
+		'es-mx': "Gabite de Cynthia"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -78,7 +90,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825978
+	}
 }
 
 export default card

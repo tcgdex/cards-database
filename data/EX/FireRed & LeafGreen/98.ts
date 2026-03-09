@@ -21,7 +21,21 @@ const card: Card = {
 
 	thirdParty: {
 		tcgplayer: 88403
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		},
+		{
+			type: "normal",
+			stamp: ["professor-program"]
+		},
+	]
 }
 
 export default card

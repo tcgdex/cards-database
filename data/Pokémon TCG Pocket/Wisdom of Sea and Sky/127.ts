@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klang"
+		en: "Klang",
+		fr: "Clic"
 	},
 
 	illustrator: "Akira Komayama",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [600],
 	hp: 80,
 	types: ["Metal"],
 
@@ -19,14 +22,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When Klang goes all out, the minigear links up\nperfectly with the outer part of the big gear, and\nthis Pokémon's rotation speed increases sharply."
+		en: "When Klang goes all out, the minigear links up\nperfectly with the outer part of the big gear, and\nthis Pokémon's rotation speed increases sharply.",
+		fr: "Quand le combat devient sérieux, la partie extérieure du grand rouage s'aligne parfaitement avec le petit pour accélérer leur rotation."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Gear Cutter"
+			en: "Gear Cutter",
+			fr: "Engrenage Tranchant"
 		},
 
 		damage: 40,

@@ -5,23 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgey"
+		en: "Pidgey",
+		fr: "Roucool"
 	},
 
 	illustrator: "Misa Tsutsui",
 	category: "Pokemon",
+
+	dexId: [16],
 	hp: 60,
 	types: ["Colorless"],
 
 	description: {
-		en: "A common sight in forests and woods. It flaps\nits wings at ground level to kick up blinding sand."
+		en: "A common sight in forests and woods. It flaps\nits wings at ground level to kick up blinding sand.",
+		fr: "On l'aperçoit souvent dans les forêts. Avec ses ailes, il brasse l'air près du sol pour projeter du sable."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Gust"
+			en: "Gust",
+			fr: "Tornade"
 		},
 
 		damage: 10,

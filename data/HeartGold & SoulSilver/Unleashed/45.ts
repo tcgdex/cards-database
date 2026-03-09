@@ -58,12 +58,14 @@ const card: Card = {
 		en: "It inflates its flotation sac, keeping its face above water in order to watch for prey movement."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279201,

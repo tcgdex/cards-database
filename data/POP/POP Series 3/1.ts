@@ -4,6 +4,7 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Blastoise",
+		fr: "Tortank"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -23,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
+		fr: "Carabaffe"
 	},
 
 	stage: "Stage2",
@@ -35,9 +37,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Turn",
+				fr: "Tour fracassant"
 			},
 			effect: {
 				en: "After your attack, you may switch Blastoise with 1 of your Benched Pokémon.",
+				fr: "Après votre attaque, vous pouvez échanger Tortank avec 1 des Pokémon de votre Banc."
 			},
 			damage: 30,
 
@@ -51,9 +55,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rocket Tackle",
+				fr: "Lance roquette"
 			},
 			effect: {
 				en: "Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Blastoise by attacks during your opponent’s next turn.",
+				fr: "Tortank s'inflige 10 dégâts. Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Tortank par des attaques lors du prochain tour de votre adversaire."
 			},
 			damage: 60,
 

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Rotom"
 	},
 
+
+	illustrator: "Yoshimi Miyoshi",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -81,7 +84,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825951
+	}
 }
 
 export default card

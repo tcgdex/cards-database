@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		413,
 	],
+	
+	hp: 90,
 
 	types: [
 		"Fighting",
@@ -77,7 +79,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278922,
 		tcgplayer: 90644
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

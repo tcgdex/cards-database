@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Krabby",
+		fr: "Krabby"
 	},
 
 	stage: "Stage1",
@@ -77,9 +78,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 3,
+
 	thirdParty: {
 		cardmarket: 277103
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

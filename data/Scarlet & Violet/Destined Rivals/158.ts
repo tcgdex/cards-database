@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Skwovet de Damián"
 	},
 
+
+	illustrator: "Oswaldo KATO",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -57,7 +60,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826032
+	}
 }
 
 export default card

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Piloswine",
+		fr: "Cochignon",
+		es: "Piloswine",
+		de: "Keifel",
+		it: "Piloswine",
+		pt: "Piloswine",
+		'es-mx': "Piloswine"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -76,8 +85,14 @@ const card: Card = {
 	illustrator: "N-DESIGN Inc.",
 
 	thirdParty: {
-		cardmarket: 817231
-	}
+		cardmarket: 817327
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

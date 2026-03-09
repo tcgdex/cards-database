@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
+		fr: "Noeufnoeuf"
 	},
 
 	stage: "Stage1",
@@ -73,10 +74,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276181,
 		tcgplayer: 85359
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

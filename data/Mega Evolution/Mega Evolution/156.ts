@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Numel",
+		fr: "Chamallot",
+		de: "Camaub",
+		it: "Numel",
+		es: "Numel",
+		pt: "Numel",
+		'es-mx': "Numel"
+	},
 	stage: "Stage1",
 	dexId: [323],
 
@@ -74,6 +83,12 @@ const card: Card = {
 
 	retreat: 4,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		},
+	],
 
 	thirdParty: {
 		tcgplayer: 654495,

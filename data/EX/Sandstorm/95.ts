@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lairon",
+		fr: "Galegon"
 	},
 
 	suffix: "EX",
@@ -90,10 +91,19 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 4,
+
 	thirdParty: {
 		cardmarket: 275872,
 		tcgplayer: 83483
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+	]
 }
 
 export default card

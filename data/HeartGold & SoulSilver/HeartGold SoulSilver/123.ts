@@ -86,12 +86,14 @@ const card: Card = {
 		en: "They say that during past strife, Gyarados would appear and leave blazing ruins in its wake."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278976,

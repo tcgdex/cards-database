@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "You Iribi",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [832],
 	hp: 130,
 	types: ["Colorless"],
 
@@ -42,7 +44,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	boosters: ["mega-altaria"]
 }
 
 export default card

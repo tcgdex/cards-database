@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pidgeotto",
+		fr: "Roucoups"
 	},
 
 	stage: "Stage2",
@@ -84,7 +85,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274898,
 		tcgplayer: 88029
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

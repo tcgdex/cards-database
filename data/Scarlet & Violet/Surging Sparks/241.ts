@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 300,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Duraludon",
+		fr: "Duralugon",
+		es: "Duraludon",
+		it: "Duraludon",
+		pt: "Duraludon",
+		de: "Duraludon"
+	},
 	stage: "Stage1",
 
 	abilities: [{

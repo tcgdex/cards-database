@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meditite",
+		fr: "Méditikka"
 	},
 
 	suffix: "EX",
@@ -91,10 +92,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 87277,
 		cardmarket: 276606
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["curran-hill"]
+		}
+	]
 }
 
 export default card

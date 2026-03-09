@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Sandshrew",
+		fr: "Sabelette",
+		de: "Sandan",
+		it: "Sandshrew",
+		es: "Sandshrew",
+		pt: "Sandshrew",
+		'es-mx': "Sandshrew"
+	},
 	stage: "Stage1",
 	dexId: [28],
 
@@ -64,6 +73,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654408,

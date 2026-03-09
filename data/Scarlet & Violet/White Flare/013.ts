@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Emboar"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Pignite",
+		fr: "Grotichon",
+		de: "Ferkokel",
+		it: "Pignite",
+		pt: "Pignite",
+		es: "Pignite",
+		'es-mx': "Pignite"
+	},
 	stage: "Stage2",
 
 	abilities: [{

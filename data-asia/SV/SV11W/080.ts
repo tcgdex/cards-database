@@ -14,16 +14,23 @@ const card: Card = {
 		ja: "おたがいの場のポケモンについている「ポケモンのどうぐ」を2枚まで選び、トラッシュする。",
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+	],
 
 	trainerType: "Item",
 	regulationMark: "I",
 	rarity: "Uncommon",
+	thirdParty: {
+		cardmarket: 829083,
+		tcgplayer: 636633,
+	},
 };
 
 export default card;

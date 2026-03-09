@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Hippowdon"
 	},
 
+
+	illustrator: "Minahamu",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Hippopotas",
+		fr: "Hippopotas",
+		de: "Hippopotas",
+		it: "Hippopotas",
+		es: "Hippopotas",
+		pt: "Hippopotas",
+		'es-mx': "Hippopotas"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -70,7 +82,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825980
+	}
 }
 
 export default card

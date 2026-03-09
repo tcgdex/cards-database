@@ -50,6 +50,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Psyburn",
+				fr: "Brûlure Psy"
 			},
 
 			damage: 70,

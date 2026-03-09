@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Marill",
+		fr: "Marill"
 	},
 
 	stage: "Stage1",
@@ -73,9 +74,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276782
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

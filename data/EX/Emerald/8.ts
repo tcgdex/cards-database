@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Feebas",
+		fr: "Barpau"
 	},
 
 	stage: "Stage1",
@@ -71,10 +72,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		tcgplayer: 87453,
 		cardmarket: 276519
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

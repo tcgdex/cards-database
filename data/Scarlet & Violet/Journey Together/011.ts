@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Foongus",
+		fr: "Trompignon",
+		es: "Foongus",
+		de: "Tarnpignon",
+		it: "Foongus",
+		pt: "Foongus",
+		'es-mx': "Foongus"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +86,13 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817163
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

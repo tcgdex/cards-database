@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Lairon",
+		fr: "Galegon",
+		es: "Lairon",
+		it: "Lairon",
+		pt: "Lairon",
+		de: "Stollrak"
+	},
 	stage: "Stage2",
 
 	attacks: [{

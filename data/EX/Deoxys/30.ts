@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Phanpy",
+		fr: "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -74,10 +75,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 84873,
 		cardmarket: 276433
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

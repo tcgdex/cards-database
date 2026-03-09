@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Zapdos del Equipo Rocket"
 	},
 
+
+	illustrator: "Nurikabe",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -81,7 +84,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825944
+	}
 }
 
 export default card

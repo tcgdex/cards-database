@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmander",
+		fr: "Salamèche"
 	},
 
 	stage: "Stage1",
@@ -79,7 +80,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274948,
 		tcgplayer: 84224
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

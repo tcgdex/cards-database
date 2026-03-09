@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Krokorok"
 	},
 
+	illustrator: "Gapao",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Sandile",
+		fr: "Mascaïman",
+		de: "Ganovil",
+		it: "Sandile",
+		pt: "Sandile",
+		es: "Sandile",
+		'es-mx': "Sandile"
+	},
 	stage: "Stage1",
 
 	attacks: [{

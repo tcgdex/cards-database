@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skull Fossil",
+		fr: "Fossile crâne"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277672,
 		tcgplayer: 84458
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

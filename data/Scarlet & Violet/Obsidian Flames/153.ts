@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 300,
 	types: ["Metal"],
+	evolveFrom: {
+		fr: "Meltan",
+		en: "Meltan",
+		es: "Meltan",
+		it: "Meltan",
+		pt: "Meltan",
+		de: "Meltan"
+	},
 	stage: "Stage1",
 
 	attacks: [{

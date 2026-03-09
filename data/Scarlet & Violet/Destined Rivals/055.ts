@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Huntail"
 	},
 
+	illustrator: "Scav",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Clamperl",
+		fr: "Coquiperl",
+		de: "Perlu",
+		it: "Clamperl",
+		es: "Clamperl",
+		pt: "Clamperl",
+		'es-mx': "Clamperl"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -71,7 +81,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825929
+	}
 }
 
 export default card

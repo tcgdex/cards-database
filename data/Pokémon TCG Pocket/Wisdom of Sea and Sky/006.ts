@@ -5,24 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scyther"
+		en: "Scyther",
+		fr: "Insécateur"
 	},
 
 	illustrator: "Narumi Sato",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [123],
 	hp: 70,
 	types: ["Grass"],
 
 	description: {
-		en: "It slashes through grass with its sharp\nscythes, moving too fast for the human\neye to track."
+		en: "It slashes through grass with its sharp\nscythes, moving too fast for the human\neye to track.",
+		fr: "Il fauche les herbes avec ses lames acérées. Ses mouvements sont si rapides qu'ils sont imperceptibles à l'œil nu."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Slash"
+			en: "Slash",
+			fr: "Tranche"
 		},
 
 		damage: 20,

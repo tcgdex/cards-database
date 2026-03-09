@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Houndoom del Equipo Rocket"
 	},
 
+
+	illustrator: "nagimiso",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Team Rocket's Houndour",
+		fr: "Malosse de la Team Rocket",
+		de: "Team Rockets Hunduster",
+		it: "Houndour del Team Rocket",
+		es: "Houndour del Team Rocket",
+		pt: "Houndour da Equipe Rocket",
+		'es-mx': "Houndour del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -76,7 +88,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826065
+	}
 }
 
 export default card

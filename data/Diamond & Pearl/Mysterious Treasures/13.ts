@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bayleef",
+		fr: "Macronium"
 	},
 
 	stage: "Stage2",
@@ -89,7 +90,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277642,
 		tcgplayer: 87292
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

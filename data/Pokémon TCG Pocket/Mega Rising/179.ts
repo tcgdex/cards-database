@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Nagomi Nijo",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [706],
 	hp: 150,
 	types: ["Dragon"],
 
@@ -42,7 +44,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	boosters: ["mega-altaria"]
 }
 
 export default card

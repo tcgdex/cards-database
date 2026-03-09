@@ -68,10 +68,19 @@ const card: Card = {
 		type: "Poke-POWER"
 	}],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276290,
 		tcgplayer: 83654
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+	]
 }
 
 export default card

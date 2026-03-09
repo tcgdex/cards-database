@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Doduo",
+		en: "Doduo",
+		es: "Doduo",
+		it: "Doduo",
+		pt: "Doduo",
+		de: "Dodu"
+	},
 	stage: "Stage1",
 
 	abilities: [{

@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Arcanine BREAK",
+		fr: "Arcanin TURBO"
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Arcanine",
+		fr: "Arcanin"
 	},
 
 	stage: "BREAK",
@@ -35,9 +37,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Turbo Flame",
+				fr: "Flamme Turbo"
 			},
 			effect: {
 				en: "Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.",
+				fr: "Attachez 2 cartes Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc."
 			},
 			damage: 80,
 

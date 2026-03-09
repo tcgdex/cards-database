@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Ptitard",
+		en: "Poliwag",
+		es: "Poliwag",
+		it: "Poliwag",
+		pt: "Poliwag",
+		de: "Quapsel"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "Gemi",
 
 	thirdParty: {
-		cardmarket: 733656
+		cardmarket: 733771
 	}
 }
 

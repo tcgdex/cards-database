@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rotom Calor"
 	},
 
+	illustrator: "Dsuke",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -79,7 +80,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825917
+	}
 }
 
 export default card

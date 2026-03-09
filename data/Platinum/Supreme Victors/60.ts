@@ -67,8 +67,26 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["regional-championships"]
+		},
+		{
+			type: "normal",
+			stamp: ["regional-championships","staff"]
+		},
+		{
+			type: "normal",
+			stamp: ["yuta-komatsuda"]
+		}
+	]
 }
 
 export default card

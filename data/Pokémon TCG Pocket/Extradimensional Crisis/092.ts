@@ -5,11 +5,14 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Frogadier"
+		en: "Frogadier",
+		fr: "Croâporal"
 	},
 
 	illustrator: "Souichirou Gunjima",
 	category: "Pokemon",
+
+	dexId: [657],
 	hp: 80,
 	types: ["Water"],
 
@@ -18,14 +21,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It can throw bubble-covered pebbles with precise\ncontrol, hitting empty cans up to a hundred feet away."
+		en: "It can throw bubble-covered pebbles with precise\ncontrol, hitting empty cans up to a hundred feet away.",
+		fr: "Il est capable de lancer des pierres recouvertes de mousse avec une précision suffisante pour toucher une canette vide à 30 m."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Water Drip"
+			en: "Water Drip",
+			fr: "Goutte à Goutte"
 		},
 
 		damage: 30,

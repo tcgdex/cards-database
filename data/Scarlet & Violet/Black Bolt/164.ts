@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Serperior ex"
 	},
 
+	illustrator: "Ryota Murayama",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Servine",
+		fr: "Lianaja",
+		de: "Efoserp",
+		it: "Servine",
+		pt: "Servine",
+		es: "Servine",
+		'es-mx': "Servine"
+	},
 	stage: "Stage2",
 
 	abilities: [{

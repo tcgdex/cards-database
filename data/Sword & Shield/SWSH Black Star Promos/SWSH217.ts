@@ -17,6 +17,7 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	suffix: "V",
+	hp: 310,
 	retreat: 0,
 	regulationMark: "E",
 

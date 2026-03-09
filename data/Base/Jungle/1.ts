@@ -80,13 +80,32 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Une sorte de petite fée très rare. Il se cache en apercevant un être humain."
+		fr: "Une sorte de petite fée très rare. Il se cache en apercevant un être humain.",
+		en: "A timid fairy Pokémon that is rarely seen. It will run and hide the moment it senses people."
 	},
 
 	thirdParty: {
 		cardmarket: 273798,
 		tcgplayer: 45120
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "holo",
+			subtype: "missing-expansion-symbol",
+		},
+		{
+			type: "holo",
+			stamp: ["pre-release"]
+		}
+	],
 }
 
 export default card

@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Leavanny"
 	},
 
+	illustrator: "mashu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Swadloon",
+		fr: "Couverdure",
+		de: "Folikon",
+		it: "Swadloon",
+		pt: "Swadloon",
+		es: "Swadloon",
+		'es-mx': "Swadloon"
+	},
 	stage: "Stage2",
 
 	attacks: [{

@@ -1,0 +1,59 @@
+import { Card } from "../../../interfaces"
+import Set from "../Phantasmal Flames"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Charmeleon",
+		fr: "Reptincel",
+		es: "Charmeleon",
+		'es-mx': "Charmeleon",
+		de: "Glutexo",
+		it: "Charmeleon",
+		pt: "Charmeleon"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+
+	dexId: [5],
+	hp: 110,
+	types: ["Fire"],
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Fire"],
+
+		name: {
+			en: "Steady Firebreathing",
+			fr: "Crachage de Feu Régulier",
+			es: "Lanzallamas Continuo",
+			'es-mx': "Escupefuego",
+			de: "Stetiger Feuerhauch",
+			it: "Soffiofuoco Mirato",
+			pt: "Hálito de Fogo Constante"
+		},
+
+		damage: 40
+	}],
+
+	retreat: 2,
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	thirdParty: {
+		cardmarket: 857587,
+		tcgplayer: 662144
+	}
+}
+
+export default card

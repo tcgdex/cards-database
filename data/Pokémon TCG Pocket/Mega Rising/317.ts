@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "PLANETA CG Works",
 	rarity: "Two Shiny",
 	category: "Pokemon",
+
+	dexId: [724],
 	hp: 170,
 	types: ["Grass"],
 
@@ -45,7 +47,8 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	boosters: ["mega-blaziken"]
 }
 
 export default card

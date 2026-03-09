@@ -5,31 +5,37 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zubat"
+		en: "Zubat",
+		fr: "Nosferapti"
 	},
 
 	illustrator: "Shigenori Negishi",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [41],
 	hp: 50,
 	types: ["Darkness"],
 
 	description: {
-		en: "It emits ultrasonic waves from its mouth to check\nits surroundings. Even in tight caves, Zubat flies\naround with skill."
+		en: "It emits ultrasonic waves from its mouth to check\nits surroundings. Even in tight caves, Zubat flies\naround with skill.",
+		fr: "Il sonde les environs en émettant des ultrasons avec sa bouche, et peut ainsi se frayer un chemin même dans les grottes les plus étroites."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Venomous Fang"
+			en: "Venomous Fang",
+			fr: "Croc-Poison"
 		},
 
 		damage: 10,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			en: "Your opponent's Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 		}
 	}],
 

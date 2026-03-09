@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],
+	evolveFrom: {
+		fr: "Funécire",
+		en: "Litwick",
+		es: "Litwick",
+		it: "Litwick",
+		pt: "Litwick",
+		de: "Lichtel"
+	},
 	stage: "Stage1",
 
 	attacks: [{

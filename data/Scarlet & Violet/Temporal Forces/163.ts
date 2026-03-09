@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Nuzleaf",
+		fr: "Pifeuil",
+		es: "Nuzleaf",
+		it: "Nuzleaf",
+		pt: "Nuzleaf",
+		de: "Blanas"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -67,15 +75,17 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
 
 	illustrator: "SIE NANAHARA",
 
 	thirdParty: {
-		cardmarket: 760635
+		cardmarket: 760793
 	}
 }
 

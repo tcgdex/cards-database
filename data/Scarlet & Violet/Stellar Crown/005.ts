@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Antique Root Fossil",
+		fr: "Fossile Racine Ancien",
+		es: "Fósil Raíz Antiguo",
+		it: "Vecchio Radifossile",
+		pt: "Fóssil Raiz Arcaico",
+		de: "Antikes Wurzelfossil"
+	},
 	stage: "Stage1",
 
 	attacks: [{

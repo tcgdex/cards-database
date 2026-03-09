@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Arlequín"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Uncommon",
 	category: "Trainer",
 

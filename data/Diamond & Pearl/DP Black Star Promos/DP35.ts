@@ -21,6 +21,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Porygon2",
+		fr: "Porygon"
 	},
 	stage: "Stage2",
 
@@ -80,10 +81,11 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: [
+		{
+			type: "holo",
+		}
+	],
 }
 
 export default card

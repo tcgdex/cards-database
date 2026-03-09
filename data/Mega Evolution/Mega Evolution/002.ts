@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Bulbasaur",
+		fr: "Bulbizarre",
+		de: "Bisasam",
+		it: "Bulbasaur",
+		es: "Bulbasaur",
+		pt: "Bulbasaur",
+		'es-mx': "Bulbasaur"
+	},
 	stage: "Stage1",
 	dexId: [2],
 
@@ -40,6 +49,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654341,

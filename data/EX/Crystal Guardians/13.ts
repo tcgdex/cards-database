@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Jigglypuff",
+		fr: "Rondoudou"
 	},
 
 	stage: "Stage1",
@@ -89,10 +90,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 277094,
 		tcgplayer: 90597
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

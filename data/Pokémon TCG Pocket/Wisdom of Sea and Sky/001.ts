@@ -5,31 +5,37 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oddish"
+		en: "Oddish",
+		fr: "Mystherbe"
 	},
 
 	illustrator: "ryoma uratsuka",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [43],
 	hp: 50,
 	types: ["Grass"],
 
 	description: {
-		en: "If exposed to moonlight, it starts to move.\nIt roams far and wide at night to scatter its seeds."
+		en: "If exposed to moonlight, it starts to move.\nIt roams far and wide at night to scatter its seeds.",
+		fr: "Il ne bouge que lorsqu'il est exposé aux rayons de la lune. Il se déplace alors pour disséminer ses graines."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Poison Powder"
+			en: "Poison Powder",
+			fr: "Poudre Toxik"
 		},
 
 		damage: 10,
 		cost: ["Grass"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			en: "Your opponent's Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 		}
 	}],
 

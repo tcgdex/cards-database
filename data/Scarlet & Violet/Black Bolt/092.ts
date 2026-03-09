@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Lilligant"
 	},
 
+	illustrator: "En Morikura",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Petilil",
+		fr: "Chlorobule",
+		de: "Lilminip",
+		it: "Petilil",
+		pt: "Petilil",
+		es: "Petilil",
+		'es-mx': "Petilil"
+	},
 	stage: "Stage1",
 
 	attacks: [{

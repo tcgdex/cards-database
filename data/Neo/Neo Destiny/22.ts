@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dratini",
+		fr: "Minidraco"
 	},
 
 	stage: "Stage1",
@@ -84,7 +85,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274674,
 		tcgplayer: 86737
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

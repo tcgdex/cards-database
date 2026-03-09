@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Ho-Oh ex de Ethan"
 	},
 
+
+	illustrator: "Atsushi Furusawa",
+
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 230,
@@ -78,7 +81,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826104
+	}
 }
 
 export default card

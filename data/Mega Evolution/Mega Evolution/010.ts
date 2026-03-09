@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Bayleef",
+		fr: "Macronium",
+		de: "Lorblatt",
+		it: "Bayleef",
+		es: "Bayleef",
+		pt: "Bayleef",
+		'es-mx': "Bayleef"
+	},
 	stage: "Stage2",
 	dexId: [154],
 
@@ -64,6 +73,18 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654349,

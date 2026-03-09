@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Sawsbuck"
 	},
 
+	illustrator: "Narano",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Deerling",
+		fr: "Vivaldaim",
+		de: "Sesokitz",
+		it: "Deerling",
+		pt: "Deerling",
+		es: "Deerling",
+		'es-mx': "Deerling"
+	},
 	stage: "Stage1",
 
 	attacks: [{

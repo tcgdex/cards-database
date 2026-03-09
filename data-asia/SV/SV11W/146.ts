@@ -33,17 +33,20 @@ const card: Card = {
 
 	resistances: [{ type: "Grass", value: "-30" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [599],
+	thirdParty: {
+		cardmarket: 829505,
+		tcgplayer: 636699,
+	},
 };
 
 export default card;

@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Gigalith"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Boldore",
+		fr: "Géolithe",
+		de: "Sedimantur",
+		it: "Boldore",
+		pt: "Boldore",
+		es: "Boldore",
+		'es-mx': "Boldore"
+	},
 	stage: "Stage2",
 
 	attacks: [{

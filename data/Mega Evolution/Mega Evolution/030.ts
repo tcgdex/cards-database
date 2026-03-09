@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Sizzlipede",
+		fr: "Grillepattes",
+		de: "Thermopod",
+		it: "Sizzlipede",
+		es: "Sizzlipede",
+		pt: "Sizzlipede",
+		'es-mx': "Sizzlipede"
+	},
 	stage: "Stage1",
 	dexId: [851],
 
@@ -64,6 +73,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654369,

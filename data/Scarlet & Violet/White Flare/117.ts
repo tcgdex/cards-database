@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Galvantula"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Joltik",
+		fr: "Statitik",
+		de: "Wattzapf",
+		it: "Joltik",
+		pt: "Joltik",
+		es: "Joltik",
+		'es-mx': "Joltik"
+	},
 	stage: "Stage1",
 
 	attacks: [{

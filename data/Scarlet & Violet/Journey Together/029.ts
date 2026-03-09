@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Larvesta",
+		fr: "Pyronille",
+		es: "Larvesta",
+		de: "Ignivor",
+		it: "Larvesta",
+		pt: "Larvesta",
+		'es-mx': "Larvesta"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -43,7 +52,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817181
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

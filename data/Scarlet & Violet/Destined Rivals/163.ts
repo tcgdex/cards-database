@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Emoción de Comentarista"
 	},
 
+
+	illustrator: "Cona Nitanda",
+
 	rarity: "Common",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826037
+	}
 }
 
 export default card

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Metapod",
+		fr: "Chrysacier",
+		es: "Metapod",
+		de: "Safcon",
+		it: "Metapod",
+		pt: "Metapod",
+		'es-mx': "Metapod"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -53,7 +62,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817155
-	}
+	},
+
+	variants: [
+		{
+			type: 'reverse'
+		},
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

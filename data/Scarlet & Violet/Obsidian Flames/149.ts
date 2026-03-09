@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Metal"],
+	evolveFrom: {
+		fr: "Scalpion",
+		en: "Pawniard",
+		es: "Pawniard",
+		it: "Pawniard",
+		pt: "Pawniard",
+		de: "Gladiantri"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -69,7 +77,7 @@ const card: Card = {
 	illustrator: "GIDORA",
 
 	thirdParty: {
-		cardmarket: 725229
+		cardmarket: 781860
 	}
 }
 

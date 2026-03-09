@@ -36,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spiral Drain",
+				fr: "Spirale Épuisante"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
+				fr: "Soignez 20 dégâts à ce Pokémon."
 			},
 			damage: 20,
 

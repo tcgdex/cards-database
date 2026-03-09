@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Dusclops",
+		fr: "Téraclope",
+		es: "Dusclops",
+		it: "Dusclops",
+		pt: "Dusclops",
+		de: "Zwirrklop"
+	},
 	stage: "Stage2",
 
 	abilities: [{

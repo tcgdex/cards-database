@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Raboot",
+		fr: "Lapyro",
+		es: "Raboot",
+		it: "Raboot",
+		pt: "Raboot",
+		de: "Kickerlo"
+	},
 	stage: "Stage2",
 
 	attacks: [{

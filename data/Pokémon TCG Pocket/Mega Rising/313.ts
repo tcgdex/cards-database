@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Taiga Kasai",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [53],
 	hp: 90,
 	types: ["Colorless"],
 
@@ -42,7 +44,8 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	boosters: ["mega-altaria"]
 }
 
 export default card

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Blipbug",
+		fr: "Larvadar",
+		es: "Blipbug",
+		it: "Blipbug",
+		pt: "Blipbug",
+		de: "Sensect"
+	},
 	stage: "Stage1",
 
 	attacks: [{

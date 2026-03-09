@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Simisear"
 	},
 
+	illustrator: "Julie Hang",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Pansear",
+		fr: "Flamajou",
+		de: "Grillmak",
+		it: "Pansear",
+		pt: "Pansear",
+		es: "Pansear",
+		'es-mx': "Pansear"
+	},
 	stage: "Stage1",
 
 	attacks: [{

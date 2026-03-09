@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Slugma",
+		fr: "Limagma",
+		es: "Slugma",
+		it: "Slugma",
+		pt: "Slugma",
+		de: "Schneckmag"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -60,9 +68,14 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Mitsuhiro Arita",
 

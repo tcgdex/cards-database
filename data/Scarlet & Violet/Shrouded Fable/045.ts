@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Axew",
+		fr: "Coupenotte",
+		es: "Axew",
+		it: "Axew",
+		pt: "Axew",
+		de: "Milza"
+	},
 	stage: "Stage1",
 
 	abilities: [{

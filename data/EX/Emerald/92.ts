@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Numel",
+		fr: "Chamallot"
 	},
 
 	suffix: "EX",
@@ -92,10 +93,19 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		tcgplayer: 84096,
 		cardmarket: 276603
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+	]
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Snorunt",
+		fr: "Stalgamin"
 	},
 
 	stage: "Stage1",
@@ -74,10 +75,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 85753,
 		cardmarket: 276524
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

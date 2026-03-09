@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Pimito",
+		en: "Capsakid",
+		es: "Capsakid",
+		it: "Capsakid",
+		pt: "Capsakid",
+		de: "Chilingel"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -67,10 +75,11 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "PLANETA Mochizuki",
 

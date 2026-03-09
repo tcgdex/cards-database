@@ -77,7 +77,28 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817269
-	}
+	},
+
+	variants: [
+		{
+			type: 'reverse'
+		},
+		{
+			type: 'holo'
+		},
+		{
+			type: 'holo',
+			stamp: ["set-logo"]
+		},
+		{
+			type: 'holo',
+			stamp: ["gamestop"]
+		},
+		{
+			type: 'holo',
+			stamp: ["eb-games"]
+		},
+	]
 }
 
 export default card

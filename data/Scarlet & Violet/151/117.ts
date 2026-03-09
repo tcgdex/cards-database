@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Hypotrempe",
+		en: "Horsea",
+		es: "Horsea",
+		it: "Horsea",
+		pt: "Horsea",
+		de: "Seeper"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -54,7 +62,7 @@ const card: Card = {
 	illustrator: "aspara",
 
 	thirdParty: {
-		cardmarket: 733712
+		cardmarket: 733690
 	}
 }
 

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vulpix",
+		fr: "Goupix"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277661,
 		tcgplayer: 87772
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

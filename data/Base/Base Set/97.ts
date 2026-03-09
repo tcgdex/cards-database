@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Fighting Energy",
 		fr: "Énergie Combat",
-		de: "Kampfenergie"
+		de: "Kampfenergie",
+		it: "Energia Combattimento",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -18,7 +19,26 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 273792,
 		tcgplayer: 42441
-	}
+	},
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
 }
 
 export default card

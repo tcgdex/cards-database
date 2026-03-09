@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Mustébouée",
+		en: "Buizel",
+		es: "Buizel",
+		it: "Buizel",
+		pt: "Buizel",
+		de: "Bamelin"
+	},
 	stage: "Stage1",
 
 	attacks: [{

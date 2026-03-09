@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [56],
 	types: ["Fighting"],
 	stage: "Basic",
 

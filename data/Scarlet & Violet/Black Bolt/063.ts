@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Klinklang"
 	},
 
+	illustrator: "Amelicart",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Klang",
+		fr: "Clic",
+		de: "Kliklak",
+		it: "Klang",
+		pt: "Klang",
+		es: "Klang",
+		'es-mx': "Klang"
+	},
 	stage: "Stage2",
 
 	abilities: [{

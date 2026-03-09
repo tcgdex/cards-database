@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Tranquill"
 	},
 
+	illustrator: "cochi8i",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Pidove",
+		fr: "Poichigeon",
+		de: "Dusselgurr",
+		it: "Pidove",
+		pt: "Pidove",
+		es: "Pidove",
+		'es-mx': "Pidove"
+	},
 	stage: "Stage1",
 
 	attacks: [{

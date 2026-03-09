@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 240,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Poltchageist",
+		fr: "Poltchageist",
+		es: "Poltchageist",
+		it: "Poltchageist",
+		pt: "Poltchageist",
+		de: "Mortcha"
+	},
 	stage: "Stage1",
 
 	attacks: [{

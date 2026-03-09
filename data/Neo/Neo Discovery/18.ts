@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kakuna",
+		fr: "Coconfort"
 	},
 
 	stage: "Stage2",
@@ -93,7 +94,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274529,
 		tcgplayer: 83767
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

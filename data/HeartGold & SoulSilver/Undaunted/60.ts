@@ -70,12 +70,14 @@ const card: Card = {
 		en: "Awakened by moonlight, it roams actively at night. In the day it stays quietly underground."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279313,

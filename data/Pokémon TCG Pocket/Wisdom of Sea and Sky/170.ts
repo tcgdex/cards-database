@@ -5,31 +5,37 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Delibird"
+		en: "Delibird",
+		fr: "Cadoizo"
 	},
 
 	illustrator: "Mékayu",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [225],
 	hp: 70,
 	types: ["Water"],
 
 	description: {
-		en: "It carries food all day long. There are tales about\nlost people who were saved by the food it had."
+		en: "It carries food all day long. There are tales about\nlost people who were saved by the food it had.",
+		fr: "Il transporte de la nourriture toute la journée. Ses réserves de vivres auraient sauvé la vie de nombreuses personnes en péril."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Stumbling Draw"
+			en: "Stumbling Draw",
+			fr: "Glissé-Pioché"
 		},
 
 		damage: 10,
 		cost: ["Water"],
 
 		effect: {
-			en: "Draw a card."
+			en: "Draw a card.",
+			fr: "Piochez une carte."
 		}
 	}],
 

@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
+
+	dexId: [46],
 	hp: 70,
 	types: ["Grass"],
 	stage: "Basic",

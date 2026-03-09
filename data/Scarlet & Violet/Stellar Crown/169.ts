@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 250,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Fidough",
+		fr: "Pâtachiot",
+		es: "Fidough",
+		it: "Fidough",
+		pt: "Fidough",
+		de: "Hefel"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	thirdParty: {
-		cardmarket: 785921
+		cardmarket: 786023
 	}
 }
 

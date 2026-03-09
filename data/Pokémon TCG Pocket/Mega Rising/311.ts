@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [50],
 	hp: 50,
 	types: ["Metal"],
 
@@ -34,7 +36,8 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	boosters: ["mega-blaziken"]
 }
 
 export default card

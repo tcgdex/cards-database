@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Dwebble"
 	},
 
+	illustrator: "Kanami Ogata",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -55,7 +56,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825885
+	}
 }
 
 export default card

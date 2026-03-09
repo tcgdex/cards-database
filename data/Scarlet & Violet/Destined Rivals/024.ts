@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rellor"
 	},
 
+	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -68,7 +69,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825898
+	}
 }
 
 export default card

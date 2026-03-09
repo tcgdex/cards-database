@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Ceniza Sagrada"
 	},
 
+
+	illustrator: "Eske Yoshinob",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826042
+	}
 }
 
 export default card

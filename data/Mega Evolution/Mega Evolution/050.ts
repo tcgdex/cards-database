@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 330,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Electrike",
+		fr: "Dynavolt",
+		de: "Frizelbliz",
+		it: "Electrike",
+		es: "Electrike",
+		pt: "Electrike",
+		'es-mx': "Electrike"
+	},
 	stage: "Stage1",
 	dexId: [310],
 
@@ -74,6 +83,16 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654389,

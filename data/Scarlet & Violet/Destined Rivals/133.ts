@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Scrafty de Marnie"
 	},
 
+
+	illustrator: "Kazumasa Yasukuni",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Marnie's Scraggy",
+		fr: "Baggiguane de Rosemary",
+		de: "Marys Zurrokex",
+		it: "Scraggy di Mary",
+		es: "Scraggy de Roxy",
+		pt: "Scraggy da Marine",
+		'es-mx': "Scraggy de Marnie"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -71,7 +83,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826007
+	}
 }
 
 export default card

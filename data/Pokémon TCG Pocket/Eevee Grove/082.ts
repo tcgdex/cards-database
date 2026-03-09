@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragonite ex"
+		en: "Dragonite ex",
+		fr: "Dracolosse-ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [149],
 	hp: 180,
 	types: ["Dragon"],
 
@@ -23,14 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Giga Impact"
+			en: "Giga Impact",
+			fr: "Giga Impact"
 		},
 
 		damage: 180,
 		cost: ["Water", "Lightning", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack."
+			en: "During your next turn, this Pokémon can't attack.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 		}
 	}],
 

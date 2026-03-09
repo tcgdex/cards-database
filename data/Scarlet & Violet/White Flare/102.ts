@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Lampent"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Litwick",
+		fr: "Funécire",
+		de: "Lichtel",
+		it: "Litwick",
+		pt: "Litwick",
+		es: "Litwick",
+		'es-mx': "Litwick"
+	},
 	stage: "Stage1",
 
 	attacks: [{

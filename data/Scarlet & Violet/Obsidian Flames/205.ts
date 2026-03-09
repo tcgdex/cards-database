@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Metal"],
+	evolveFrom: {
+		fr: "Insécateur",
+		en: "Scyther",
+		es: "Scyther",
+		it: "Scyther",
+		pt: "Scyther",
+		de: "Sichlor"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "Oku",
 
 	thirdParty: {
-		cardmarket: 725221
+		cardmarket: 725285
 	}
 }
 

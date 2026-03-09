@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Combusken",
+		fr: "Galifeu"
 	},
 
 	stage: "Stage2",
@@ -77,10 +78,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 275651,
 		tcgplayer: 83904
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

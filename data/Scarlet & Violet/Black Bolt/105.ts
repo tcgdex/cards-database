@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Seismitoad"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Palpitoad",
+		fr: "Batracné",
+		de: "Mebrana",
+		it: "Palpitoad",
+		pt: "Palpitoad",
+		es: "Palpitoad",
+		'es-mx': "Palpitoad"
+	},
 	stage: "Stage2",
 
 	attacks: [{

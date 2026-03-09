@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Crustle"
 	},
 
+	illustrator: "Po-Suzuki",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Dwebble",
+		fr: "Crabicoque",
+		de: "Lithomith",
+		it: "Dwebble",
+		es: "Dwebble",
+		pt: "Dwebble",
+		'es-mx': "Dwebble"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -81,7 +91,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825886
+	}
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Armor Fossil",
+		fr: "Fossile armure"
 	},
 
 	stage: "Stage1",
@@ -85,7 +86,13 @@ const card: Card = {
 
 	description: {
 		fr: "Un Pokémon qui vivait dans la jungle il y a 100 millions d'années. Son visage est très dur."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	],
 }
 
 export default card

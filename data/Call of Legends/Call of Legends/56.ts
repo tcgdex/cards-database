@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Eevee",
+		fr: "Evoli",
 		de: "Evoli"
 	},
 
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge",
 				de: "Tackle"
 			},
 
@@ -44,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure",
 				de: "Biss"
 			},
 

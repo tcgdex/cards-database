@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skiploom",
+		fr: "Floravol"
 	},
 
 	stage: "Stage2",
@@ -87,7 +88,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274407,
 		tcgplayer: 86361
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

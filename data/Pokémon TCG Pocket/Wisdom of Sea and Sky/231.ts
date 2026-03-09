@@ -5,30 +5,36 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	illustrator: "MAHOU",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [133],
 	hp: 60,
 	types: ["Colorless"],
 
 	description: {
-		en: "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment."
+		en: "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment.",
+		fr: "Ses multiples évolutions lui permettent de s'adapter à tout type de milieu naturel."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Find a Friend"
+			en: "Find a Friend",
+			fr: "Trouver un Ami"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Put a random Pokémon from your deck into your hand."
+			en: "Put a random Pokémon from your deck into your hand.",
+			fr: "Ajoutez au hasard un Pokémon de votre deck à votre main."
 		}
 	}],
 

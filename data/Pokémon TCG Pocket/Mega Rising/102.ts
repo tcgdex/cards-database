@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "PLANETA Igarashi",
 	rarity: "Four Diamond",
 	category: "Pokemon",
+
+	dexId: [334],
 	hp: 190,
 	types: ["Psychic"],
 
@@ -43,7 +45,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	boosters: ["mega-altaria"]
 }
 
 export default card

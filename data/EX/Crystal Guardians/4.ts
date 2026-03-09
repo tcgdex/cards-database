@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon",
+		fr: "Reptincel"
 	},
 
 	stage: "Stage2",
@@ -80,7 +81,17 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 277085
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

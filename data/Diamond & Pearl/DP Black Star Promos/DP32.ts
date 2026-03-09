@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magneton",
+		fr: "Magneton"
 	},
 
 	stage: "Stage2",
@@ -86,7 +87,13 @@ const card: Card = {
 
 	description: {
 		fr: "Il a évolué suite à son exposition à un champ magnétique spécial. Ses 3 unités génèrent du magnétisme."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	],
 }
 
 export default card

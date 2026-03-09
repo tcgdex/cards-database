@@ -66,8 +66,18 @@ const card: Card = {
 	illustrator: "Bun Toujo",
 
 	thirdParty: {
-		cardmarket: 817268
-	}
+		cardmarket: 817320
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+		{
+			type: 'holo',
+			stamp: ["set-logo"]
+		},
+	]
 }
 
 export default card

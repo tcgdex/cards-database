@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Slugma de Ethan"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -47,7 +48,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825909
+	}
 }
 
 export default card

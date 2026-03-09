@@ -41,11 +41,13 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Skyscraper"
+			en: "Skyscraper",
+			fr: "Gratte-Ciel"
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have Special Energy attached."
+			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have Special Energy attached.",
+			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon de votre adversaire auxquels de l'Énergie spéciale est attachée."
 		}
 	}],
 
@@ -53,11 +55,13 @@ const card: Card = {
 		cost: ["Fighting", "Metal", "Metal"],
 
 		name: {
-			en: "G-Max Pulverization"
+			en: "G-Max Pulverization",
+			fr: "Pulvérisation G-Max"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
 		},
 
 		damage: 220

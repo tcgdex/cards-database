@@ -84,12 +84,14 @@ const card: Card = {
 		en: "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278994,

@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Swoobat"
 	},
 
+	illustrator: "Saboteri",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Woobat",
+		fr: "Chovsourir",
+		de: "Fleknoil",
+		it: "Woobat",
+		pt: "Woobat",
+		es: "Woobat",
+		'es-mx': "Woobat"
+	},
 	stage: "Stage1",
 
 	attacks: [{

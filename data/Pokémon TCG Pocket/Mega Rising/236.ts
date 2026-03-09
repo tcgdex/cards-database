@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Mékayu",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [875],
 	hp: 80,
 	types: ["Water"],
 
@@ -46,7 +48,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	boosters: ["mega-altaria"]
 }
 
 export default card

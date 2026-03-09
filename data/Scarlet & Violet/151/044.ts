@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Mystherbe",
+		en: "Oddish",
+		es: "Oddish",
+		it: "Oddish",
+		pt: "Oddish",
+		de: "Myrapla"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -67,7 +75,7 @@ const card: Card = {
 	illustrator: "Sekio",
 
 	thirdParty: {
-		cardmarket: 733639
+		cardmarket: 733615
 	}
 }
 

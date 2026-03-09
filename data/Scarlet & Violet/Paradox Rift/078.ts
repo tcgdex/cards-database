@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Pumpkaboo",
+		fr: "Pitrouille",
+		es: "Pumpkaboo",
+		it: "Pumpkaboo",
+		pt: "Pumpkaboo",
+		de: "Irrbis"
+	},
 	stage: "Stage1",
 
 	abilities: [{

@@ -47,7 +47,13 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825878,
+	},
+
+	illustrator: "YASHIRO Nanaco"
 }
 
 export default card

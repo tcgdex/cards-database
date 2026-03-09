@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Zamazenta"
 	},
 
+
+	illustrator: "Takumi Wada",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
@@ -54,7 +57,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826075
+	}
 }
 
 export default card

@@ -14,15 +14,18 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Collect"
+			en: "Collect",
+			fr: "Collecte"
 		},
 
 		effect: {
-			en: "Draw a card."
+			en: "Draw a card.",
+			fr: "Piochez une carte."
 		}
 	}, {
 		name: {
-			en: "Scratch"
+			en: "Scratch",
+			fr: "Griffe"
 		},
 
 		damage: 20
@@ -36,7 +39,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Pansage"
+		en: "Pansage",
+		fr: "Feuillajou"
 	},
 
 	rarity: "None",

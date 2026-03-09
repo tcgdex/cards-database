@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Electivire ex"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Electabuzz",
+		fr: "Élektek",
+		de: "Elektek",
+		it: "Electabuzz",
+		es: "Electabuzz",
+		pt: "Electabuzz",
+		'es-mx': "Electabuzz"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -76,7 +88,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826086
+	}
 }
 
 export default card

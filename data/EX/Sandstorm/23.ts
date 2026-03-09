@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Onix",
+		fr: "Onix"
 	},
 
 	stage: "Stage1",
@@ -84,10 +85,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 4,
+
 	thirdParty: {
 		cardmarket: 275800,
 		tcgplayer: 89556
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+	]
 }
 
 export default card

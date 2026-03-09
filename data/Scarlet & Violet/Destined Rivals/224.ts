@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Atenea del Equipo Rocket"
 	},
 
+
+	illustrator: "hncl",
+
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -34,7 +37,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826098
+	}
 }
 
 export default card

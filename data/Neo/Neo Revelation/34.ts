@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Remoraid",
+		fr: "Rémoraid"
 	},
 
 	stage: "Stage1",
@@ -82,7 +83,18 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274620,
 		tcgplayer: 87830
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card
+

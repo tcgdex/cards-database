@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Charcadet",
+		fr: "Charbambin",
+		es: "Charcadet",
+		it: "Charcadet",
+		pt: "Charcadet",
+		de: "Knarbon"
+	},
 	stage: "Stage1",
 
 	attacks: [{

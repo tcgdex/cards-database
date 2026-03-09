@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Croconaw",
+		fr: "Crocrodil",
+		es: "Croconaw",
+		it: "Croconaw",
+		pt: "Croconaw",
+		de: "Tyracroc"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -69,9 +77,21 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "GOSSAN",
 

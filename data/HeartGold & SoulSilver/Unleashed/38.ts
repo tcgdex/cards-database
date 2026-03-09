@@ -87,12 +87,14 @@ const card: Card = {
 		en: "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279194,

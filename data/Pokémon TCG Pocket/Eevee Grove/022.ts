@@ -5,24 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Popplio"
+		en: "Popplio",
+		fr: "Otaquin"
 	},
 
 	illustrator: "match",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [728],
 	hp: 70,
 	types: ["Water"],
 
 	description: {
-		en: "The balloons it inflates with its nose grow\nlarger and larger as it practices day by day."
+		en: "The balloons it inflates with its nose grow\nlarger and larger as it practices day by day.",
+		fr: "Grâce à son entraînement quotidien, les ballons qu'il gonfle avec son nez sont de plus en plus gros."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Watering"
+			en: "Watering",
+			fr: "Arrosage"
 		},
 
 		damage: 30,

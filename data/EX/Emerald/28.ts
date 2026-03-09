@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Treecko",
+		fr: "Arcko"
 	},
 
 	stage: "Stage1",
@@ -78,10 +79,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 85938,
 		cardmarket: 276539
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skarmory ex"
+		en: "Skarmory ex",
+		fr: "Airmure-ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [227],
 	hp: 140,
 	types: ["Metal"],
 	stage: "Basic",
@@ -18,14 +21,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Steel Wing"
+			en: "Steel Wing",
+			fr: "Ailes d'Acier"
 		},
 
 		damage: 70,
 		cost: ["Metal", "Metal"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit − 20 dégâts provenant des attaques."
 		}
 	}],
 

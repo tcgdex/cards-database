@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Geodude",
+		fr: "Racaillou"
 	},
 
 	stage: "Stage1",
@@ -77,6 +78,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 3,
 
 	thirdParty: {
 		tcgplayer: 85889,

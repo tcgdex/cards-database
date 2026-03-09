@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Jigglypuff",
+		fr: "Rondoudou"
 	},
 
 	stage: "Stage1",
@@ -88,7 +89,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274706,
 		tcgplayer: 86753
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

@@ -90,12 +90,14 @@ const card: Card = {
 		en: "If it digs at an incredible pace, it may snap off its spike and claws. They grow back in a day."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279001,

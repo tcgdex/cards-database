@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Nidorina del Equipo Rocket"
 	},
 
+
+	illustrator: "Taiga Kasai",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Team Rocket's Nidoran♀",
+		fr: "Nidoran♀ de la Team Rocket",
+		de: "Team Rockets Nidoran♀",
+		it: "Nidoran♀ del Team Rocket",
+		es: "Nidoran♀ del Team Rocket",
+		pt: "Nidoran♀ da Equipe Rocket",
+		'es-mx': "Nidoran♀ del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -69,7 +81,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825989
+	}
 }
 
 export default card

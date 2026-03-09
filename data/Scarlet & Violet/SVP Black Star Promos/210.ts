@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Tornadus",
+		fr: "Boréas"
 	},
 
 	rarity: "None",
@@ -22,10 +23,12 @@ const card: Card = {
 
 			name: {
 				en: "Wrapped in Wind",
+				fr: "Enveloppement Éolien"
 			},
 
 			effect: {
 				en: "Attach a Basic Energy card from your hand to this Pokémon.",
+				fr: "Attachez une carte Énergie de base de votre main à ce Pokémon."
 			},
 		},
 		{
@@ -33,10 +36,12 @@ const card: Card = {
 
 			name: {
 				en: "Hurricane",
+				fr: "Vent Violent"
 			},
 
 			effect: {
 				en: "Move a Basic Energy from this Pokémon to 1 of your Benched Pokémon.",
+				fr: "Déplacez une Énergie de base de ce Pokémon vers l'un de vos Pokémon de Banc."
 			},
 
 			damage: 100

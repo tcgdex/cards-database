@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 190,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Pupitar",
+		fr: "Ymphect",
+		es: "Pupitar",
+		de: "Pupitar",
+		it: "Pupitar",
+		pt: "Pupitar",
+		'es-mx': "Pupitar"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -77,7 +86,20 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817247
-	}
+	},
+
+	variants: [
+		{
+			type: 'reverse'
+		},
+		{
+			type: 'holo'
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos'
+		},
+	]
 }
 
 export default card

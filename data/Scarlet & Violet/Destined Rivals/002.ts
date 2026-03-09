@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Yanma"
 	},
 
+	illustrator: "svlt",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -69,7 +70,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825876
+	}
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chinchou",
+		fr: "Loupio"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274675,
 		tcgplayer: 86742
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

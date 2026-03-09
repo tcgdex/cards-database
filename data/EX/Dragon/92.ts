@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seadra",
+		fr: "Hypocéan"
 	},
 
 	suffix: "EX",
@@ -77,6 +78,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 3,
 
 	thirdParty: {
 		tcgplayer: 86451,

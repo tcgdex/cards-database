@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Wimpod",
+		fr: "Sovkipou",
+		es: "Wimpod",
+		it: "Wimpod",
+		pt: "Wimpod",
+		de: "Reißlaus"
+	},
 	stage: "Stage1",
 
 	attacks: [{

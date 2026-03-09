@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grovyle",
+		fr: "Massko"
 	},
 
 	stage: "Stage2",
@@ -96,10 +97,26 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		tcgplayer: 97730,
 		cardmarket: 276521
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal"
+		},
+	]
 }
 
 export default card

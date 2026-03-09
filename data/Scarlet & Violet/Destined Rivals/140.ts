@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Forretress"
 	},
 
+
+	illustrator: "Wintr Wandr",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Pineco",
+		fr: "Pomdepik",
+		de: "Tannza",
+		it: "Pineco",
+		es: "Pineco",
+		pt: "Pineco",
+		'es-mx': "Pineco"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -81,7 +93,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826014
+	}
 }
 
 export default card

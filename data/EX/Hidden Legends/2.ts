@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Baltoy",
+		fr: "Balbuto"
 	},
 
 	stage: "Stage1",
@@ -72,10 +73,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276076,
 		tcgplayer: 84332
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

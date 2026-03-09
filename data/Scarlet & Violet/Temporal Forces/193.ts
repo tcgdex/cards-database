@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 310,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Haunter",
+		fr: "Spectrum",
+		es: "Haunter",
+		it: "Haunter",
+		pt: "Haunter",
+		de: "Alpollo"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -69,15 +77,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Satoshi Shirai",
 
 	thirdParty: {
-		cardmarket: 760734
+		cardmarket: 760823
 	}
 }
 

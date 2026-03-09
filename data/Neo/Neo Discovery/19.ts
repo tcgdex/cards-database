@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metapod",
+		fr: "Chrysacier"
 	},
 
 	stage: "Stage2",
@@ -91,7 +92,18 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274530,
 		tcgplayer: 84061
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card
+

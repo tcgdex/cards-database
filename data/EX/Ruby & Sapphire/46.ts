@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Taillow",
+		fr: "Nirondelle"
 	},
 
 	stage: "Stage1",
@@ -76,10 +77,26 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 275694,
 		tcgplayer: 89688
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			subtype: "no-e-reader"
+		}
+	]
 }
 
 export default card

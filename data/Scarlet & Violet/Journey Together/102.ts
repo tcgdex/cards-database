@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Karrablast",
+		fr: "Carabing",
+		es: "Karrablast",
+		de: "Laukaps",
+		it: "Karrablast",
+		pt: "Karrablast",
+		'es-mx': "Karrablast"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -67,7 +76,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817254
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

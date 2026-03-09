@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Onix",
+		fr: "Onix"
 	},
 
 	suffix: "EX",
@@ -108,10 +109,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 5,
+
 	thirdParty: {
 		cardmarket: 276755,
 		tcgplayer: 89566
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["hiroki-yano"]
+		}
+	]
 }
 
 export default card

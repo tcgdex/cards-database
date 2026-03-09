@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Pichu de Ethan"
 	},
 
+
+	illustrator: "Narumi Sato",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 30,
@@ -55,7 +58,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825945
+	}
 }
 
 export default card

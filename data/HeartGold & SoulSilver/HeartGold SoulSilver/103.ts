@@ -21,12 +21,30 @@ const card: Card = {
 
 	energyType: "Special",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "reverse",
+			foil: "league",
+		},
+		{
+			type: "normal",
+			stamp : ["michael-pramawat"],
+		},
+		{
+			type: "normal",
+			stamp : ["yuta-komatsuda"],
+		},
+		{
+			type: "normal",
+			stamp : ["ross-cawthorn"],
+		},
+	],
 
 	hp: 0,
 

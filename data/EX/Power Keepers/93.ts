@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Baltoy",
+		fr: "Balbuto"
 	},
 
 	suffix: "EX",
@@ -92,10 +93,24 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 277399,
 		tcgplayer: 84340
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card
+

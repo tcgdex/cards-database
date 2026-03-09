@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Rhyhorn",
+		fr: "Rhinocorne",
+		es: "Rhyhorn",
+		it: "Rhyhorn",
+		pt: "Rhyhorn",
+		de: "Rihorn"
+	},
 	stage: "Stage1",
 
 	attacks: [{

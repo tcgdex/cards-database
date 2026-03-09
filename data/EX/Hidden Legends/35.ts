@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Oddish",
+		fr: "Mystherbe"
 	},
 
 	stage: "Stage1",
@@ -76,10 +77,22 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276109,
 		tcgplayer: 85782
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		}, {
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

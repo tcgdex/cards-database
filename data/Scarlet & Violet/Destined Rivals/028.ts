@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Arcanine"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Growlithe",
+		fr: "Caninos",
+		de: "Fukano",
+		it: "Growlithe",
+		es: "Growlithe",
+		pt: "Growlithe",
+		'es-mx': "Growlithe"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -71,7 +81,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825902
+	}
 }
 
 export default card

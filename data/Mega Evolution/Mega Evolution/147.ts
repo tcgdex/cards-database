@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Naclstack",
+		fr: "Amassel",
+		de: "Sedisal",
+		it: "Naclstack",
+		es: "Naclstack",
+		pt: "Naclstack",
+		'es-mx': "Naclstack"
+	},
 	stage: "Stage2",
 	dexId: [934],
 
@@ -64,6 +73,12 @@ const card: Card = {
 
 	retreat: 4,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		},
+	],
 
 	thirdParty: {
 		tcgplayer: 654486,

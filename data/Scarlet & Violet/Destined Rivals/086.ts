@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Carbink de Steven"
 	},
 
+
+	illustrator: "Ligton",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -71,7 +74,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825960
+	}
 }
 
 export default card

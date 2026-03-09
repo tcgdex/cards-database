@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Koffing",
+		fr: "Smogo",
+		es: "Koffing",
+		de: "Smogon",
+		it: "Koffing",
+		pt: "Koffing",
+		'es-mx': "Koffing"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +86,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817244
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

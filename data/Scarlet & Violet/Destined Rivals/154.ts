@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Porygon2 del Equipo Rocket"
 	},
 
+
+	illustrator: "Takeshi Nakamura",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Team Rocket's Porygon",
+		fr: "Porygon de la Team Rocket",
+		de: "Team Rockets Porygon",
+		it: "Porygon del Team Rocket",
+		es: "Porygon del Team Rocket",
+		pt: "Porygon da Equipe Rocket",
+		'es-mx': "Porygon del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +69,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826028
+	}
 }
 
 export default card

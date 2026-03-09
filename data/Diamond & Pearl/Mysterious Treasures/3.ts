@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Aipom",
+		fr: "Capumain"
 	},
 
 	stage: "Stage1",
@@ -82,7 +83,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277632,
 		tcgplayer: 83526
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

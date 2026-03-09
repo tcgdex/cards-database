@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dodrio",
+		fr: "Évoli"
 	},
 
 	stage: "Stage1",
@@ -79,7 +80,18 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274512,
 		tcgplayer: 85316
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
+		}
+	]
+
 }
 
 export default card

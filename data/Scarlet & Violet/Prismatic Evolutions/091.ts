@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Noibat",
+		fr: "Sonistrelle",
+		es: "Noibat",
+		pt: "Noibat",
+		it: "Noibat",
+		de: "eF-eM"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pawniard",
+		fr: "Scalpion"
 	},
 
 	stage: "Stage1",
@@ -40,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aerial Ace",
+				fr: "Aéropique"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 			},
 			damage: 20,
 
@@ -55,6 +58,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
+				fr: "Griffe Acier"
 			},
 
 			damage: 80,

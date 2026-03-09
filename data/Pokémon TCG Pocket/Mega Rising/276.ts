@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "kodama",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [135],
 	hp: 140,
 	types: ["Lightning"],
 
@@ -47,7 +49,8 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	boosters: ["mega-gyarados"]
 }
 
 export default card

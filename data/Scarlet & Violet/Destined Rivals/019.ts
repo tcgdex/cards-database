@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tarountula del Equipo Rocket"
 	},
 
+	illustrator: "Saboteri",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -57,7 +58,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825893
+	}
 }
 
 export default card

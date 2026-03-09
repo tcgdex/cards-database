@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Pansage",
+		fr: "Feuillajou",
+		es: "Pansage",
+		it: "Pansage",
+		pt: "Pansage",
+		de: "Vegimak"
+	},
 	stage: "Stage1",
 
 	abilities: [{

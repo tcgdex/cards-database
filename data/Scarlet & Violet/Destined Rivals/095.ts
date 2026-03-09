@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Pupitar del Equipo Rocket"
 	},
 
+
+	illustrator: "Izucch",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Team Rocket's Larvitar",
+		fr: "Embrylex de la Team Rocket",
+		de: "Team Rockets Larvitar",
+		it: "Larvitar del Team Rocket",
+		es: "Larvitar del Team Rocket",
+		pt: "Larvitar da Equipe Rocket",
+		'es-mx': "Larvitar del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +69,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825969
+	}
 }
 
 export default card

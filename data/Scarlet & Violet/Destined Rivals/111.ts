@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Ogerpon Máscara Cimiento"
 	},
 
+
+	illustrator: "Kazumasa Yasukuni",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -79,7 +82,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825985
+	}
 }
 
 export default card

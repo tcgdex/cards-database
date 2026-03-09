@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "N-DESIGN Inc.",
 	rarity: "Three Star",
 	category: "Pokemon",
+
+	dexId: [483],
 	hp: 150,
 	types: ["Metal"],
 	stage: "Basic",

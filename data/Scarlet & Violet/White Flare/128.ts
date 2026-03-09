@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Boldore"
 	},
 
+	illustrator: "Krgc",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Roggenrola",
+		fr: "Nodulithe",
+		de: "Kiesling",
+		it: "Roggenrola",
+		pt: "Roggenrola",
+		es: "Roggenrola",
+		'es-mx': "Roggenrola"
+	},
 	stage: "Stage1",
 
 	attacks: [{

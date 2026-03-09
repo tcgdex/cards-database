@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Spheal",
+		fr: "Obalie",
+		es: "Spheal",
+		it: "Spheal",
+		pt: "Spheal",
+		de: "Seemops"
+	},
 	stage: "Stage1",
 
 	attacks: [{

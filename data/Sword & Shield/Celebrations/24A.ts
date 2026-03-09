@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "_____'s Pikachu"
+		en: "_____'s Pikachu",
+		fr: "Recherches Professorales"
 	},
 
 	illustrator: "Kagemaru Himeno",
 	rarity: "Classic Collection",
 	category: "Pokemon",
+
+	dexId: [25],
 	hp: 50,
 	types: ["Lightning"],
 	stage: "Basic",

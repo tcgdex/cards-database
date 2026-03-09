@@ -89,12 +89,22 @@ const card: Card = {
 		en: "Meganium’s breath has the power to revive dead grass and plants. It can make them healthy again."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278998,

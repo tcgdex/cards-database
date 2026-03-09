@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Mandibuzz"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Vullaby",
+		fr: "Vostourno",
+		de: "Skallyk",
+		it: "Vullaby",
+		pt: "Vullaby",
+		es: "Vullaby",
+		'es-mx': "Vullaby"
+	},
 	stage: "Stage1",
 
 	abilities: [{

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Armor Fossil",
+		fr: "Fossile armure"
 	},
 
 	stage: "Stage1",
@@ -90,7 +91,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277692,
 		tcgplayer: 89149
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

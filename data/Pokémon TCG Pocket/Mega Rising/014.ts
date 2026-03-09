@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "tetsuya koizumi",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [512],
 	hp: 100,
 	types: ["Grass"],
 
@@ -42,7 +44,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	boosters: ["mega-gyarados"]
 }
 
 export default card

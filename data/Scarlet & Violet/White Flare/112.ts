@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Vanillish"
 	},
 
+	illustrator: "Yoko Hishida",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Vanillite",
+		fr: "Sorbébé",
+		de: "Gelatini",
+		it: "Vanillite",
+		pt: "Vanillite",
+		es: "Vanillite",
+		'es-mx': "Vanillite"
+	},
 	stage: "Stage1",
 
 	attacks: [{

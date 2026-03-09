@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Blaziken"
 	},
 
+	illustrator: "Kazumasa Yasukuni",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Combusken",
+		fr: "Galifeu",
+		de: "Jungglut",
+		it: "Combusken",
+		es: "Combusken",
+		pt: "Combusken",
+		'es-mx': "Combusken"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -71,7 +81,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825916
+	}
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Barboach",
+		fr: "Barloche"
 	},
 
 	stage: "Stage1",
@@ -74,10 +75,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
 		tcgplayer: 90575,
 		cardmarket: 276431
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

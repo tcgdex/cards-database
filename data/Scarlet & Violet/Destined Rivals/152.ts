@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Tauros"
 	},
 
+
+	illustrator: "yuu",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 130,
@@ -71,7 +74,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826026
+	}
 }
 
 export default card

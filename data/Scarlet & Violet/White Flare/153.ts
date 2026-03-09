@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Watchog"
 	},
 
+	illustrator: "Mousho",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Patrat",
+		fr: "Ratentif",
+		de: "Nagelotz",
+		it: "Patrat",
+		pt: "Patrat",
+		es: "Patrat",
+		'es-mx': "Patrat"
+	},
 	stage: "Stage1",
 
 	attacks: [{

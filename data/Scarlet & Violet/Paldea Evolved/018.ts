@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Tissenboule",
+		en: "Tarountula",
+		es: "Tarountula",
+		it: "Tarountula",
+		pt: "Tarountula",
+		de: "Tarundel"
+	},
 	stage: "Stage1",
 
 	attacks: [{

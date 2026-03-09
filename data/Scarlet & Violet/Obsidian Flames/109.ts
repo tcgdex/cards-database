@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Barloche",
+		en: "Barboach",
+		es: "Barboach",
+		it: "Barboach",
+		pt: "Barboach",
+		de: "Schmerbe"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -5,11 +5,14 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine"
+		en: "Arcanine",
+		fr: "Arcanin"
 	},
 
 	illustrator: "Saya Tsuruta",
 	category: "Pokemon",
+
+	dexId: [59],
 	hp: 130,
 	types: ["Fire"],
 
@@ -18,21 +21,24 @@ const card: Card = {
 	},
 
 	description: {
-		en: "An ancient picture scroll shows that people\nwere captivated by its movement as it ran\nthrough prairies."
+		en: "An ancient picture scroll shows that people\nwere captivated by its movement as it ran\nthrough prairies.",
+		fr: "Une vieille estampe montre que les êtres humains étaient fascinés par ses mouvements lorsqu'il courait dans les champs."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heat Tackle"
+			en: "Heat Tackle",
+			fr: "Charge Énergétique"
 		},
 
 		damage: 100,
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself."
+			en: "This Pokémon also does 20 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 20 dégâts."
 		}
 	}],
 

@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Croconaw"
+		en: "Croconaw",
+		fr: "Crocrodil"
 	},
 
 	illustrator: "Naoki Saito",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [159],
 	hp: 90,
 	types: ["Water"],
 
@@ -19,14 +22,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If it loses a fang, a new one grows back in its\nplace. There are always 48 fangs lining its mouth."
+		en: "If it loses a fang, a new one grows back in its\nplace. There are always 48 fangs lining its mouth.",
+		fr: "Quand il perd un croc, il en repousse un autre. Sa bouche est en permanence composée de 48 dents."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 
 		damage: 40,

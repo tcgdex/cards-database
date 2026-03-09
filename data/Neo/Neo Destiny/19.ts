@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Omanyte",
+		fr: "Amonita obscur"
 	},
 
 	stage: "Stage2",
@@ -80,7 +81,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274671,
 		tcgplayer: 84635
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

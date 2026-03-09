@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Diglett",
+		fr: "Taupiqueur"
 	},
 
 	stage: "Stage1",
@@ -76,10 +77,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276198,
 		tcgplayer: 85000
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

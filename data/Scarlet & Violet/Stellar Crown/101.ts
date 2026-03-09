@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Klang",
+		fr: "Clic",
+		es: "Klang",
+		it: "Klang",
+		pt: "Klang",
+		de: "Kliklak"
+	},
 	stage: "Stage2",
 
 	abilities: [{

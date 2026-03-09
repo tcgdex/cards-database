@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Metal"],
+	evolveFrom: {
+		fr: "Tarinor",
+		en: "Nosepass",
+		es: "Nosepass",
+		it: "Nosepass",
+		pt: "Nosepass",
+		de: "Nasgnet"
+	},
 	stage: "Stage1",
 
 	attacks: [{

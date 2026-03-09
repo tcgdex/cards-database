@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Léboulérou",
+		en: "Rellor",
+		es: "Rellor",
+		it: "Rellor",
+		pt: "Rellor",
+		de: "Relluk"
+	},
 	stage: "Stage1",
 
 	attacks: [{

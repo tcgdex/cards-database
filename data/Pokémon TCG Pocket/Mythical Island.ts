@@ -20,6 +20,14 @@ const set: Set = {
 		official: 68
 	},
 
+	boosters: {
+		mew: {
+			name: {
+				en: "Mew"
+			}
+		}
+	},
+
 	releaseDate: "2024-12-17"
 }
 

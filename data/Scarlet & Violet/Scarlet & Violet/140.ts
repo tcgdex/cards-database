@@ -52,8 +52,9 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 
 	thirdParty: {
-		cardmarket: 702435
-	}
+        cardmarket: 702435,
+        tcgplayer: 488028
+    }
 }
 
 export default card

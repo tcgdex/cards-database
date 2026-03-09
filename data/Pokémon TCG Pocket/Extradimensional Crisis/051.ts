@@ -5,24 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ferroseed"
+		en: "Ferroseed",
+		fr: "Grindur"
 	},
 
 	illustrator: "Midori Harada",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [597],
 	hp: 60,
 	types: ["Metal"],
 
 	description: {
-		en: "It absorbs the iron it finds in the rock while clinging\nto the ceiling. It shoots spikes when in danger."
+		en: "It absorbs the iron it finds in the rock while clinging\nto the ceiling. It shoots spikes when in danger.",
+		fr: "Il s'accroche aux parois des grottes et en absorbe les minéraux. Il projette ses épines en cas de danger."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Spike Sting"
+			en: "Spike Sting",
+			fr: "Pic Piquant"
 		},
 
 		damage: 40,

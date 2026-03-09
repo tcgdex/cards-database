@@ -82,9 +82,22 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 86658
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "normal",
+			stamp: ["hiroki-yano"]
+		},
+	]
 }
 
 export default card

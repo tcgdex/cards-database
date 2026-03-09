@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bewear"
+		en: "Bewear",
+		fr: "Chelours"
 	},
 
 	illustrator: "Ryuta Fuse",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [760],
 	hp: 120,
 	types: ["Colorless"],
 
@@ -19,20 +22,23 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Once it accepts you as a friend, it tries to show\nits affection with a hug. Letting it do that is\ndangerous—it could easily shatter your bones."
+		en: "Once it accepts you as a friend, it tries to show\nits affection with a hug. Letting it do that is\ndangerous—it could easily shatter your bones.",
+		fr: "Il serre fort contre lui ceux qu'il considère comme ses compagnons, mais ses câlins sont assez puissants pour broyer les os."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Superpowered Hug"
+			en: "Superpowered Hug",
+			fr: "Câlin Surpuissant"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. If both of them are heads, your opponent's Active Pokémon is Knocked Out."
+			en: "Flip 2 coins. If both of them are heads, your opponent's Active Pokémon is Knocked Out.",
+			fr: "Lancez 2 pièces. Si les deux tombent sur face, le Pokémon Actif de votre adversaire est mis K.O."
 		}
 	}],
 

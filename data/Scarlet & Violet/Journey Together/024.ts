@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Combusken",
+		fr: "Galifeu",
+		es: "Combusken",
+		de: "Jungglut",
+		it: "Combusken",
+		pt: "Combusken",
+		'es-mx': "Combusken"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -77,7 +86,13 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817176
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo'
+		},
+	]
 }
 
 export default card

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Charjabug",
+		fr: "Chrysapile",
+		es: "Charjabug",
+		it: "Charjabug",
+		pt: "Charjabug",
+		de: "Akkup"
+	},
 	stage: "Stage2",
 
 	attacks: [{

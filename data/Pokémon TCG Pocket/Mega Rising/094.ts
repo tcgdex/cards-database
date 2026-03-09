@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [702],
 	hp: 70,
 	types: ["Lightning"],
 
@@ -38,7 +40,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	boosters: ["mega-altaria"]
 }
 
 export default card

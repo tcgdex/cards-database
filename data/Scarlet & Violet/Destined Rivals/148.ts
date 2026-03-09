@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Raticate del Equipo Rocket"
 	},
 
+
+	illustrator: "Uninori",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Team Rocket's Rattata",
+		fr: "Rattata de la Team Rocket",
+		de: "Team Rockets Rattfratz",
+		it: "Rattata del Team Rocket",
+		es: "Rattata del Team Rocket",
+		pt: "Rattata da Equipe Rocket",
+		'es-mx': "Rattata del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +69,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826022
+	}
 }
 
 export default card

@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Gorebyss"
 	},
 
+
+	illustrator: "Naoyo Kimura",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Clamperl",
+		fr: "Coquiperl",
+		de: "Perlu",
+		it: "Clamperl",
+		es: "Clamperl",
+		pt: "Clamperl",
+		'es-mx': "Clamperl"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +69,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825930
+	}
 }
 
 export default card

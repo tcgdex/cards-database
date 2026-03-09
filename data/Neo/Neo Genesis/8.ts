@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seadra",
+		fr: "Hypocéan"
 	},
 
 	stage: "Stage2",
@@ -78,7 +79,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274408,
 		tcgplayer: 86440
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

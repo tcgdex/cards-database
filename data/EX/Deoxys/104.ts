@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Carvanha",
+		fr: "Carvanha"
 	},
 
 	suffix: "EX",
@@ -83,10 +84,19 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 0,
+
 	thirdParty: {
 		tcgplayer: 89104,
 		cardmarket: 276507
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		}
+	]
 }
 
 export default card

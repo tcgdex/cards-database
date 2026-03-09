@@ -78,7 +78,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277598,
 		tcgplayer: 89273
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["countdown-calendar"]
+		}
+	]
 }
 
 export default card

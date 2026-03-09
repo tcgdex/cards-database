@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Haunter",
+		fr: "Spectrum"
 	},
 
 	stage: "Stage2",
@@ -84,7 +85,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274888,
 		tcgplayer: 85673
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

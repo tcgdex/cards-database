@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Porygon",
+		fr: "Porygon"
 	},
 
 	stage: "Stage1",
@@ -90,10 +91,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276658,
 		tcgplayer: 88324
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

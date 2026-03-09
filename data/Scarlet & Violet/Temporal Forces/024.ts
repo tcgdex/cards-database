@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Rellor",
+		fr: "Léboulérou",
+		es: "Rellor",
+		it: "Rellor",
+		pt: "Rellor",
+		de: "Relluk"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -69,9 +77,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "mingo",
 

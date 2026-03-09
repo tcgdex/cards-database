@@ -92,12 +92,22 @@ const card: Card = {
 		en: "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 279180,

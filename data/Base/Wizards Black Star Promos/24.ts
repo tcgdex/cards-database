@@ -53,7 +53,18 @@ const card: Card = {
 
 	description: {
 		fr: "Votre anniversaire : _________________________________________"
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+			stamp: ["pikachu-tail"]
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		}
+	]
 }
 
 export default card

@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Musharna"
 	},
 
+	illustrator: "Eri Kamei",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Munna",
+		fr: "Munna",
+		de: "Somniam",
+		it: "Munna",
+		pt: "Munna",
+		es: "Munna",
+		'es-mx': "Munna"
+	},
 	stage: "Stage1",
 
 	attacks: [{

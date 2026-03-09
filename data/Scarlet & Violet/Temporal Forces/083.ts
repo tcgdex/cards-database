@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Meditite",
+		fr: "Méditikka",
+		es: "Meditite",
+		it: "Meditite",
+		pt: "Meditite",
+		de: "Meditie"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -51,9 +59,14 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Masako Tomii",
 

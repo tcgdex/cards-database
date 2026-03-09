@@ -16,7 +16,9 @@ const card: Card = {
 		en: "Heal 70 damage from 1 of your Carracosta or Jellicent."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	boosters: ["mega-gyarados"]
 }
 
 export default card

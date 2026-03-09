@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Makuhita",
+		fr: "Makuhita",
+		de: "Makuhita",
+		it: "Makuhita",
+		es: "Makuhita",
+		pt: "Makuhita",
+		'es-mx': "Makuhita"
+	},
 	stage: "Stage1",
 	dexId: [297],
 
@@ -74,6 +83,22 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654412,

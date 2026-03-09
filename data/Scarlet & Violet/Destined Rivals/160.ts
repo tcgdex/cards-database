@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Squawkabilly"
 	},
 
+
+	illustrator: "Julie Hang",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -57,7 +60,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826034
+	}
 }
 
 export default card

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Nacli",
+		fr: "Selutin",
+		de: "Geosali",
+		it: "Nacli",
+		es: "Nacli",
+		pt: "Nacli",
+		'es-mx': "Nacli"
+	},
 	stage: "Stage1",
 	dexId: [933],
 
@@ -50,6 +59,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654422,

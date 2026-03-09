@@ -1,0 +1,21 @@
+meta {
+  name: Advanced Query
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/sets?cardCount.official=gt:64&id=swsh
+  body: none
+  auth: none
+}
+
+params:query {
+  cardCount.official:gt: 64
+  id: swsh
+}
+
+assert {
+  res.status: eq 200
+  res.body: length 17
+}

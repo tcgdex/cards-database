@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Torracat",
+		fr: "Matoufeu",
+		es: "Torracat",
+		it: "Torracat",
+		pt: "Torracat",
+		de: "Miezunder"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -69,15 +77,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "N-DESIGN Inc.",
 
 	thirdParty: {
-		cardmarket: 760664
+		cardmarket: 760817
 	}
 }
 

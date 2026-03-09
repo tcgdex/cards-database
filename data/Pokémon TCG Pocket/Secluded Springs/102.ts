@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mew ex"
+		en: "Mew ex",
+		fr: "Mew-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
 	rarity: "Two Shiny",
 	category: "Pokemon",
+
+	dexId: [151],
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -18,20 +21,23 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Psyshot"
+			en: "Psyshot",
+			fr: "Piqûre Psy"
 		},
 
 		damage: 20,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			en: "Genome Hacking"
+			en: "Genome Hacking",
+			fr: "Piratage de Génome"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack."
+			en: "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+			fr: "Choisissez l'une des attaques du Pokémon Actif de votre adversaire et utilisez-la en tant que cette attaque."
 		}
 	}],
 

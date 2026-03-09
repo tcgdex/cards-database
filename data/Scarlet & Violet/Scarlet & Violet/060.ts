@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Cetoddle"
+		en: "Cetoddle",
+		fr: "Piétacé"
 	},
 
 	stage: "Stage1",
@@ -72,8 +73,9 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 
 	thirdParty: {
-		cardmarket: 702355
-	}
+        cardmarket: 702355,
+        tcgplayer: 487912
+    }
 }
 
 export default card

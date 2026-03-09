@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Fábrica del Equipo Rocket"
 	},
 
+
+	illustrator: "imoniii",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826047
+	}
 }
 
 export default card

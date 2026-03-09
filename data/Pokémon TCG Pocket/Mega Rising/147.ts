@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [839],
 	hp: 150,
 	types: ["Fighting"],
 
@@ -42,7 +44,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	boosters: ["mega-gyarados"]
 }
 
 export default card

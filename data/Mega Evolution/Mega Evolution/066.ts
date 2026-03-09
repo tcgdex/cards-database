@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Greavard",
+		fr: "Toutombe",
+		de: "Gruff",
+		it: "Greavard",
+		es: "Greavard",
+		pt: "Greavard",
+		'es-mx': "Greavard"
+	},
 	stage: "Stage1",
 	dexId: [972],
 
@@ -64,6 +73,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654405,

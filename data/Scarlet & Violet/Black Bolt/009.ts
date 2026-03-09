@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Karrablast"
 	},
 
+	illustrator: "DOM",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

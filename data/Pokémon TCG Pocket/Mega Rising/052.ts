@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "PLANETA Igarashi",
 	rarity: "Four Diamond",
 	category: "Pokemon",
+
+	dexId: [130],
 	hp: 210,
 	types: ["Water"],
 
@@ -43,7 +45,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	boosters: ["mega-gyarados"]
 }
 
 export default card

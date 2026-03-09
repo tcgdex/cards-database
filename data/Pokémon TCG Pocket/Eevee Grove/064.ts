@@ -5,24 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skwovet"
+		en: "Skwovet",
+		fr: "Rongourmand"
 	},
 
 	illustrator: "Akira Komayama",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [819],
 	hp: 70,
 	types: ["Colorless"],
 
 	description: {
-		en: "It stores berries in its cheeks. When there are no\nberries to be found, Skwovet will stuff pebbles\ninto its cheeks to stave off its cravings."
+		en: "It stores berries in its cheeks. When there are no\nberries to be found, Skwovet will stuff pebbles\ninto its cheeks to stave off its cravings.",
+		fr: "Il emmagasine des Baies dans ses joues. Lorsqu'il n'en a plus, il essaie de compenser en accumulant des cailloux à la place."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 
 		damage: 30,

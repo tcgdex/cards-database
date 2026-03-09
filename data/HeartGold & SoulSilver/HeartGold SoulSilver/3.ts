@@ -77,12 +77,14 @@ const card: Card = {
 		en: "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278975,

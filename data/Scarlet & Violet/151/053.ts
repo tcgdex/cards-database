@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Miaouss",
+		en: "Meowth",
+		es: "Meowth",
+		it: "Meowth",
+		pt: "Meowth",
+		de: "Mauzi"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -67,7 +75,7 @@ const card: Card = {
 	illustrator: "Naoki Saito",
 
 	thirdParty: {
-		cardmarket: 733648
+		cardmarket: 733712
 	}
 }
 

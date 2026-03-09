@@ -98,7 +98,14 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 278569
-	}
+	},
+
+	variants: [
+		{
+			type: "reverse",
+			foil: "cracked-ice"
+		}
+	]
 }
 
 export default card

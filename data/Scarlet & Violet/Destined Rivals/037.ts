@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Houndour del Equipo Rocket"
 	},
 
+	illustrator: "Krgc",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -47,7 +48,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825911
+	}
 }
 
 export default card

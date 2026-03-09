@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Duskull",
+		fr: "Skelénox",
+		es: "Duskull",
+		pt: "Duskull",
+		it: "Duskull",
+		de: "Zwirrlicht"
+	},
 	stage: "Stage1",
 
 	abilities: [{

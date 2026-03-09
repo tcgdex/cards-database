@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Koji Nakata",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [296],
 	hp: 80,
 	types: ["Fighting"],
 
@@ -34,7 +36,8 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	boosters: ["mega-blaziken"]
 }
 
 export default card

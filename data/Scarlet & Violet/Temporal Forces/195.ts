@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Scyther",
+		fr: "Insécateur",
+		es: "Scyther",
+		it: "Scyther",
+		pt: "Scyther",
+		de: "Sichlor"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -69,15 +77,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Eske Yoshinob",
 
 	thirdParty: {
-		cardmarket: 760741
+		cardmarket: 760825
 	}
 }
 

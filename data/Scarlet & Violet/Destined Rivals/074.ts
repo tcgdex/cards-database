@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Ampharos del Equipo Rocket"
 	},
 
+
+	illustrator: "Shiburingaru",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Team Rocket's Flaaffy",
+		fr: "Lainergie de la Team Rocket",
+		de: "Team Rockets Waaty",
+		it: "Flaaffy del Team Rocket",
+		es: "Flaaffy del Team Rocket",
+		pt: "Flaaffy da Equipe Rocket",
+		'es-mx': "Flaaffy del Equipo Rocket"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -71,7 +83,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825948
+	}
 }
 
 export default card

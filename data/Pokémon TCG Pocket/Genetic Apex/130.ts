@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Yuka Morii",
 	category: "Pokemon",
+
+	dexId: [280],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",

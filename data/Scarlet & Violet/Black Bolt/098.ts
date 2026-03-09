@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Darmanitan"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Darumaka",
+		fr: "Darumarond",
+		de: "Flampion",
+		it: "Darumaka",
+		pt: "Darumaka",
+		es: "Darumaka",
+		'es-mx': "Darumaka"
+	},
 	stage: "Stage1",
 
 	attacks: [{

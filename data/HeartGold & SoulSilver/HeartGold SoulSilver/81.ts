@@ -58,12 +58,14 @@ const card: Card = {
 		en: "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279053,

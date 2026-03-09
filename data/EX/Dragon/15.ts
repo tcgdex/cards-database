@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vibrava",
+		fr: "Vibraninf"
 	},
 
 	stage: "Stage2",
@@ -66,6 +67,9 @@ const card: Card = {
 
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		tcgplayer: 85522,

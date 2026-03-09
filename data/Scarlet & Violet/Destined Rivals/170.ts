@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Atlas del Equipo Rocket"
 	},
 
+
+	illustrator: "Hideki Ishikawa",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826044
+	}
 }
 
 export default card

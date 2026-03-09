@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "ryoma uratsuka",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [597],
 	hp: 60,
 	types: ["Metal"],
 
@@ -34,7 +36,9 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	boosters: ["mega-altaria", "mega-blaziken", "mega-gyarados"]
 }
 
 export default card

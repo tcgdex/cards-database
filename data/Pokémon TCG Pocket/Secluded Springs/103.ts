@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Garchomp ex"
+		en: "Garchomp ex",
+		fr: "Carchacrok-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
 	rarity: "Two Shiny",
 	category: "Pokemon",
+
+	dexId: [445],
 	hp: 170,
 	types: ["Fighting"],
 
@@ -23,17 +26,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Linear Attack"
+			en: "Linear Attack",
+			fr: "Attaque Linéaire"
 		},
 
 		cost: ["Fighting"],
 
 		effect: {
-			en: "This attack does 50 damage to 1 of your opponent's Pokémon."
+			en: "This attack does 50 damage to 1 of your opponent's Pokémon.",
+			fr: "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire."
 		}
 	}, {
 		name: {
-			en: "Dragon Claw"
+			en: "Dragon Claw",
+			fr: "Draco-Griffe"
 		},
 
 		damage: 100,

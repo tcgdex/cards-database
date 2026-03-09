@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "MINAMINAMI Take",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [301],
 	hp: 80,
 	types: ["Colorless"],
 
@@ -50,7 +52,8 @@ const card: Card = {
 		value: "+20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	boosters: ["mega-gyarados"]
 }
 
 export default card

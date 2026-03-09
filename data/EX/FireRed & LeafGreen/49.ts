@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Venonat",
+		fr: "Mimitoss"
 	},
 
 	stage: "Stage1",
@@ -89,10 +90,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 276225,
 		tcgplayer: 90301
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		}
+	]
 }
 
 export default card

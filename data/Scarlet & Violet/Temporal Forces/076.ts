@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Cutiefly",
+		fr: "Bombydou",
+		es: "Cutiefly",
+		it: "Cutiefly",
+		pt: "Cutiefly",
+		de: "Wommel"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -47,9 +55,14 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Tika Matsuno",
 

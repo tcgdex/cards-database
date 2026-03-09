@@ -10,6 +10,8 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
+
+	dexId: [138, 140, 142],
 	set: Set,
 	hp: 30,
 
@@ -36,7 +38,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275305,
 		tcgplayer: 84048
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal',
+		},
+		{
+			type: 'reverse',
+		}
+	]
 }
 
 export default card

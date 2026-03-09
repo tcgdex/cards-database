@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Pignite"
 	},
 
+	illustrator: "Masa",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Tepig",
+		fr: "Gruikui",
+		de: "Floink",
+		it: "Tepig",
+		pt: "Tepig",
+		es: "Tepig",
+		'es-mx': "Tepig"
+	},
 	stage: "Stage1",
 
 	attacks: [{

@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		373,
 	],
+	
+	hp: 140,
 
 	types: [
 		"Colorless",
@@ -94,7 +96,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 278880,
 		tcgplayer: 88899
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

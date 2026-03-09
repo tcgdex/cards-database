@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Barbaracle"
+		en: "Barbaracle",
+		fr: "Golgopathe"
 	},
 
 	illustrator: "Nurikabe",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [689],
 	hp: 120,
 	types: ["Fighting"],
 
@@ -19,14 +22,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Seven Binacle come together to form one\nBarbaracle. The Binacle that serves as the head\ngives orders to those serving as the limbs."
+		en: "Seven Binacle come together to form one\nBarbaracle. The Binacle that serves as the head\ngives orders to those serving as the limbs.",
+		fr: "Sept Opermine s'assemblent pour former un Golgopathe. La tête commande les autres membres."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Dynamic Chop"
+			en: "Dynamic Chop",
+			fr: "Coupe Dynamique"
 		},
 
 		damage: 70,

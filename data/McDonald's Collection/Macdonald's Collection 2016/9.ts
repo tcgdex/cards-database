@@ -9,12 +9,15 @@ const card: Card = {
 	description: {
 		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
 	},
+	
+	hp: 40,
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sweet Kiss"
+			en: "Sweet Kiss",
+			fr: "Doux Baiser"
 		},
 
 		damage: 10,
@@ -25,7 +28,8 @@ const card: Card = {
 	}],
 
 	name: {
-		en: "Togepi"
+		en: "Togepi",
+		fr: "Togepi"
 	},
 
 	rarity: "None",

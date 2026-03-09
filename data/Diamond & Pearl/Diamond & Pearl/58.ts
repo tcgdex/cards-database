@@ -78,7 +78,28 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277557,
 		tcgplayer: 88368
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["akira-miyazaki"]
+		},
+		{
+			type: "normal",
+			stamp: ["dylan-lefavour"]
+		}
+	]
 }
 
 export default card

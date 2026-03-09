@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Morgrem de Marnie"
 	},
 
+
+	illustrator: "NC Empire",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Marnie's Impidimp",
+		fr: "Grimalin de Rosemary",
+		de: "Marys Bähmon",
+		it: "Impidimp di Mary",
+		es: "Impidimp de Roxy",
+		pt: "Impidimp da Marine",
+		'es-mx': "Impidimp de Marnie"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -47,7 +59,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826009
+	}
 }
 
 export default card

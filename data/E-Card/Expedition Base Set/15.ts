@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Krabby",
+		fr: "Krabby"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274890,
 		tcgplayer: 86453
-	}
+	},
+
+	variants:[
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

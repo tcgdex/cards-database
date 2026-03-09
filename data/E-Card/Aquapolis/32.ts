@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scyther",
+		fr: "Insécateur"
 	},
 
 	stage: "Stage1",
@@ -95,7 +96,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 275045,
 		tcgplayer: 88959
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal',
+		},
+		{
+			type: 'reverse',
+		}
+	]
 }
 
 export default card

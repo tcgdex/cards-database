@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Reciclaje de Energía"
 	},
 
+
+	illustrator: "Toyste Beach",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826038
+	}
 }
 
 export default card

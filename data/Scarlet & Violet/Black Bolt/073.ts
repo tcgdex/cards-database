@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Unfezant"
 	},
 
+	illustrator: "Tomomi Ozaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Tranquill",
+		fr: "Colombeau",
+		de: "Navitaub",
+		it: "Tranquill",
+		pt: "Tranquill",
+		es: "Tranquill",
+		'es-mx': "Tranquill"
+	},
 	stage: "Stage2",
 
 	attacks: [{

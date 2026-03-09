@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Rabsca ex"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 250,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Rellor",
+		fr: "Léboulérou",
+		de: "Relluk",
+		it: "Rellor",
+		es: "Rellor",
+		pt: "Rellor",
+		'es-mx': "Rellor"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +85,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825899
+	}
 }
 
 export default card

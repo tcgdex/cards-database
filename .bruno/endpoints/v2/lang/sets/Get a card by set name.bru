@@ -1,0 +1,16 @@
+meta {
+  name: Get a card by set name
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/sets/Crystal%20Guardians/10
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq ex14-10
+}

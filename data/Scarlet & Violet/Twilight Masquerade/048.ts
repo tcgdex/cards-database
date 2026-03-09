@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Corphish",
+		fr: "Écrapince",
+		es: "Corphish",
+		it: "Corphish",
+		pt: "Corphish",
+		de: "Krebscorps"
+	},
 	stage: "Stage1",
 
 	attacks: [{

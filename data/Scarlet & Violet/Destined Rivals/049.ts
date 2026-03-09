@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Gyarados de Misty"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Misty's Magikarp",
+		fr: "Magicarpe d'Ondine",
+		de: "Mistys Karpador",
+		it: "Magikarp di Misty",
+		es: "Magikarp de Misty",
+		pt: "Magikarp da Misty",
+		'es-mx': "Magikarp de Misty"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -84,7 +94,11 @@ const card: Card = {
 				"staff"
 			]
 		}
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825923
+	}
 }
 
 export default card

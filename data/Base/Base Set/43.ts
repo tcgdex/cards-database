@@ -1,3 +1,4 @@
+
 import { Card } from '../../../interfaces'
 import Set from '../Base Set'
 
@@ -5,7 +6,8 @@ const card: Card = {
 	name: {
 		en: "Abra",
 		fr: "Abra",
-		de: "Abra"
+		de: "Abra",
+		it: "Abra"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,12 +35,14 @@ const card: Card = {
 			name: {
 				en: "Psyshock",
 				fr: "Choc Psy",
-				de: "Psychoschock"
+				de: "Psychoschock",
+				it: "Psicoshock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt."
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è paralizzato."
 			},
 			damage: 10,
 
@@ -53,13 +57,33 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Son don de télépathie lui permet de sentir le danger et de se téléporter en lieu sûr."
+		fr: "Son don de télépathie lui permet de sentir le danger et de se téléporter en lieu sûr.",
+		it: "Le sue abilità telepatiche gli consentono di individuare eventuali pericoli e teletrasportarsi al sicuro."
 	},
 
 	thirdParty: {
 		cardmarket: 273738,
 		tcgplayer: 42386
-	}
+	},
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
 }
 
 export default card

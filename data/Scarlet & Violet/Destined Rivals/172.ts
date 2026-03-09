@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Metichobot del Equipo Rocket"
 	},
 
+
+	illustrator: "Toyste Beach",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826046
+	}
 }
 
 export default card

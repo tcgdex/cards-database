@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Persian ex del Equipo Rocket"
 	},
 
+
+	illustrator: "5ban Graphics",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Team Rocket's Meowth",
+		fr: "Miaouss de la Team Rocket",
+		de: "Team Rockets Mauzi",
+		it: "Meowth del Team Rocket",
+		es: "Meowth del Team Rocket",
+		pt: "Meowth da Equipe Rocket",
+		'es-mx': "Meowth del Equipo Rocket"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -76,7 +88,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826024
+	}
 }
 
 export default card

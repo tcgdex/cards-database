@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Ferrothorn"
 	},
 
+	illustrator: "Hasuno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Ferroseed",
+		fr: "Grindur",
+		de: "Kastadur",
+		it: "Ferroseed",
+		pt: "Ferroseed",
+		es: "Ferroseed",
+		'es-mx': "Ferroseed"
+	},
 	stage: "Stage1",
 
 	attacks: [{

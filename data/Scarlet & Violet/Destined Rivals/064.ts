@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Cetoddle"
 	},
 
+
+	illustrator: "sui",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
@@ -61,7 +64,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825938
+	}
 }
 
 export default card

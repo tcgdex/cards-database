@@ -16,7 +16,9 @@ const card: Card = {
 		en: "Play this card as if it were a 40-HP Basic {C} Pokémon.\nAt any time during your turn, you may discard this card from play.\nThis card can't retreat."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	boosters: ["mega-gyarados"]
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Holon's Voltorb",
+		fr: "Voltorbe d'Holon"
 	},
 
 	stage: "Stage1",
@@ -57,10 +58,36 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 276784,
 		tcgplayer: 86155
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["hiroki-yano"]
+		},
+		{
+			type: "normal",
+			stamp: ["jimmy-ballard"]
+		},
+		{
+			type: "normal",
+			stamp: ["akira-miyazaki"]
+		},
+
+	]
 }
 
 export default card

@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Liepard"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Purrloin",
+		fr: "Chacripan",
+		de: "Felilou",
+		it: "Purrloin",
+		pt: "Purrloin",
+		es: "Purrloin",
+		'es-mx': "Purrloin"
+	},
 	stage: "Stage1",
 
 	attacks: [{

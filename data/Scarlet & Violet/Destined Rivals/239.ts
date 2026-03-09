@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Ho-Oh ex de Ethan"
 	},
 
+
+	illustrator: "aky CG Works",
+
 	rarity: "Hyper rare",
 	category: "Pokemon",
 	hp: 230,
@@ -79,7 +82,11 @@ const card: Card = {
 			type: 'holo',
 			foil: 'gold'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826113
+	}
 }
 
 export default card

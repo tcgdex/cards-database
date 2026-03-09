@@ -38,12 +38,11 @@ const card: Card = {
 
 	weaknesses: [{ type: "Fire", value: "x2" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	evolveFrom: {
 		ja: "クルミル",
@@ -53,6 +52,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [541],
+	thirdParty: {
+		cardmarket: 829441,
+		tcgplayer: 636641,
+	},
 };
 
 export default card;

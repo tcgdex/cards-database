@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Professor Elm's Training Method",
+		fr: "Méthode d'entraînement du Prof. Orme",
 		de: "Professor Linds Trainingsmethoden"
 	},
 

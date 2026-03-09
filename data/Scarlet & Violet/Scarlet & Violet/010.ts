@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Spewpa"
+		en: "Spewpa",
+		fr: "Pérégrain"
 	},
 
 	stage: "Stage2",
@@ -72,8 +73,9 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 
 	thirdParty: {
-		cardmarket: 702307
-	}
+        cardmarket: 702307,
+        tcgplayer: 487842
+    }
 }
 
 export default card

@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Beartic"
 	},
 
+	illustrator: "OOYAMA",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Cubchoo",
+		fr: "Polarhume",
+		de: "Petznief",
+		it: "Cubchoo",
+		pt: "Cubchoo",
+		es: "Cubchoo",
+		'es-mx': "Cubchoo"
+	},
 	stage: "Stage1",
 
 	attacks: [{

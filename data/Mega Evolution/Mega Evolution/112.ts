@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Stufful",
+		fr: "Nounourson",
+		de: "Velursi",
+		it: "Stufful",
+		es: "Stufful",
+		pt: "Stufful",
+		'es-mx': "Stufful"
+	},
 	stage: "Stage1",
 	dexId: [760],
 
@@ -65,6 +74,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654451,

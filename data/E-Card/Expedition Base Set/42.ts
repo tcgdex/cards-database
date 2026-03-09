@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shellder",
+		fr: "Kokiyas"
 	},
 
 	stage: "Stage1",
@@ -79,7 +80,16 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274883,
 		tcgplayer: 84372
-	}
+	},
+
+	variants:[
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
 }
 
 export default card

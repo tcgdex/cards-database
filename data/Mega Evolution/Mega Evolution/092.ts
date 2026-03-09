@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Shroodle",
+		fr: "Gribouraigne",
+		de: "Sproxi",
+		it: "Shroodle",
+		es: "Shroodle",
+		pt: "Shroodle",
+		'es-mx': "Shroodle"
+	},
 	stage: "Stage1",
 	dexId: [945],
 
@@ -50,6 +59,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654431,

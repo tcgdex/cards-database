@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Baltoy de Steven"
 	},
 
+
+	illustrator: "Tonji Matsuno",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -69,7 +72,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825957
+	}
 }
 
 export default card

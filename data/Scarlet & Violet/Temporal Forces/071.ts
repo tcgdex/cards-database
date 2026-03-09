@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Solosis",
+		fr: "Nucléos",
+		es: "Solosis",
+		it: "Solosis",
+		pt: "Solosis",
+		de: "Monozyto"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -47,9 +55,14 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "mele",
 

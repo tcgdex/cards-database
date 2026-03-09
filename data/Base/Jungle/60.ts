@@ -61,14 +61,28 @@ const card: Card = {
 		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages."
 	},
 
-	variants: {
-		wPromo: true
-	},
-
 	thirdParty: {
 		cardmarket: 273857,
 		tcgplayer: 45163
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		},
+		{
+			type: "normal",
+			stamp: ["pikachu-tail"]
+		},
+		{
+			type: "normal",
+			stamp: ["wotc"]
+		}
+	],
 }
 
 export default card

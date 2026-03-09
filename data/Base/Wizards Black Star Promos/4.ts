@@ -68,7 +68,25 @@ const card: Card = {
 
 	description: {
 		fr: "Quand plusieurs de ces Pokémon se réunissent, ils attirent tellement d'électricité qu'ils peuvent provoquer des coups de foudre."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "normal",
+			stamp: ["1st-movie-inverted"]
+		},
+		{
+			type: "normal",
+			stamp: ["1st-movie"]
+		},
+		{
+			type: "normal",
+			stamp: ["pikachu-tail"]
+		}
+	]
 }
 
 export default card

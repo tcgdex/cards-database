@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Hippopotas"
 	},
 
+
+	illustrator: "Minahamu",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -56,7 +59,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825979
+	}
 }
 
 export default card

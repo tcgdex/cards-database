@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Rotom"
 	},
 
+
+	illustrator: "Taiga Kayama",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -78,7 +81,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826071
+	}
 }
 
 export default card

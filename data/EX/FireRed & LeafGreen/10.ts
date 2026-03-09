@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pidgeotto",
+		fr: "Roucoups"
 	},
 
 	stage: "Stage2",
@@ -80,10 +81,39 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 0,
+
 	thirdParty: {
 		cardmarket: 276186,
 		tcgplayer: 88031
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			foil: "energy"
+		},
+		{
+			type: "holo",
+			stamp: ["takashi-yoneda"]
+		},
+		{
+			type: "holo",
+			stamp: ["jeremy-maron"]
+		},
+		{
+			type: "holo",
+			stamp: ["hiroki-yano"]
+		},
+		{
+			type: "holo",
+			stamp: ["jimmy-ballard"]
+		}
+	]
 }
 
 export default card

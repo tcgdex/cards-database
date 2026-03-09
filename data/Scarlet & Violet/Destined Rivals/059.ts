@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Snover"
 	},
 
+
+	illustrator: "Tomokazu Komiya",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -61,7 +64,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825933
+	}
 }
 
 export default card

@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Volcarona"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Larvesta",
+		fr: "Pyronille",
+		de: "Ignivor",
+		it: "Larvesta",
+		pt: "Larvesta",
+		es: "Larvesta",
+		'es-mx': "Larvesta"
+	},
 	stage: "Stage1",
 
 	abilities: [{

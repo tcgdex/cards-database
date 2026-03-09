@@ -5,24 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Corphish"
+		en: "Corphish",
+		fr: "Écrapince"
 	},
 
 	illustrator: "chibi",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [341],
 	hp: 60,
 	types: ["Water"],
 
 	description: {
-		en: "No matter how dirty the water in the river, it will\nadapt and thrive. It has a strong will to survive."
+		en: "No matter how dirty the water in the river, it will\nadapt and thrive. It has a strong will to survive.",
+		fr: "Sa nature robuste lui permet de prospérer dans n'importe quelles eaux, aussi polluées soient-elles."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Vise Grip"
+			en: "Vise Grip",
+			fr: "Force Poigne"
 		},
 
 		damage: 30,

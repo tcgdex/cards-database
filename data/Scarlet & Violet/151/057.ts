@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Férosinge",
+		en: "Mankey",
+		es: "Mankey",
+		it: "Mankey",
+		pt: "Mankey",
+		de: "Menki"
+	},
 	stage: "Stage1",
 
 	attacks: [{

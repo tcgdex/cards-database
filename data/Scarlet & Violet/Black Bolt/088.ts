@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Servine"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Snivy",
+		fr: "Vipélierre",
+		de: "Serpifeu",
+		it: "Snivy",
+		pt: "Snivy",
+		es: "Snivy",
+		'es-mx': "Snivy"
+	},
 	stage: "Stage1",
 
 	attacks: [{

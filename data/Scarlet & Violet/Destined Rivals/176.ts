@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Petrel del Equipo Rocket"
 	},
 
+
+	illustrator: "GOSSAN",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -37,7 +40,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826050
+	}
 }
 
 export default card

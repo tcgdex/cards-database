@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Litleo",
+		fr: "Hélionceau",
+		de: "Leufeo",
+		it: "Litleo",
+		es: "Litleo",
+		pt: "Litleo",
+		'es-mx': "Litleo"
+	},
 	stage: "Stage1",
 	dexId: [668],
 
@@ -74,6 +83,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654363,

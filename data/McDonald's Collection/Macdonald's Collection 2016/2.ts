@@ -9,23 +9,28 @@ const card: Card = {
 	description: {
 		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit."
 	},
+	
+	hp: 60,
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ember"
+			en: "Ember",
+			fr: "Flammèche"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon."
+			en: "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon.",
+			fr: "Lancez une pièce. Si c'est pile défaussez une Énergie  attachée à ce Pokémon."
 		}
 	}],
 
 	name: {
-		en: "Torchic"
+		en: "Torchic",
+		fr: "Poussifeu"
 	},
 
 	rarity: "None",

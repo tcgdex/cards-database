@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sealeo",
+		fr: "Phogleur"
 	},
 
 	suffix: "EX",
@@ -77,10 +78,19 @@ const card: Card = {
 		}
 	],
 
+	
+	retreat: 3,
+
 	thirdParty: {
 		cardmarket: 276966,
 		tcgplayer: 90470
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 }
 
 export default card

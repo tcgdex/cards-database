@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Koffing",
+		fr: "Smogo"
 	},
 
 	stage: "Stage1",
@@ -73,10 +74,23 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 90560,
 		cardmarket: 276454
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Lightning"],
+	evolveFrom: {
+		fr: "Magnéton",
+		en: "Magneton",
+		es: "Magneton",
+		it: "Magneton",
+		pt: "Magneton",
+		de: "Magneton"
+	},
 	stage: "Stage2",
 
 	attacks: [{

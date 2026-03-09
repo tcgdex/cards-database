@@ -1,0 +1,29 @@
+meta {
+  name: set
+  type: graphql
+  seq: 3
+}
+
+post {
+  url: {{BASE_URL}}/v2/graphql
+  body: graphql
+  auth: none
+}
+
+body:graphql {
+  query Pouet {
+    set(id: "{{SET_ID}}") {
+      id
+    }
+  }
+  
+}
+
+vars:pre-request {
+  SET_ID: swsh1
+}
+
+assert {
+  res.status: eq 200
+  res.body.data.set.id: eq {{SET_ID}}
+}

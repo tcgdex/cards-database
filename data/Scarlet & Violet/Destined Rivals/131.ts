@@ -15,10 +15,22 @@ const card: Card = {
 		'es-mx': "Liepard de Marnie"
 	},
 
+
+	illustrator: "Hasuno",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
+	evolveFrom: {
+		en: "Marnie's Purrloin",
+		fr: "Chacripan de Rosemary",
+		de: "Marys Felilou",
+		it: "Purrloin di Mary",
+		es: "Purrloin de Roxy",
+		pt: "Purrloin da Marine",
+		'es-mx': "Purrloin de Marnie"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -57,7 +69,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826005
+	}
 }
 
 export default card

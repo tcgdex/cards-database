@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Otaria",
+		en: "Seel",
+		es: "Seel",
+		it: "Seel",
+		pt: "Seel",
+		de: "Jurob"
+	},
 	stage: "Stage1",
 
 	attacks: [{

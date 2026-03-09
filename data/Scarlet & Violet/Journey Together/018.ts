@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Floragato",
+		fr: "Matourgeon",
+		es: "Floragato",
+		de: "Feliospa",
+		it: "Floragato",
+		pt: "Floragato",
+		'es-mx': "Floragato"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -77,7 +86,20 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817170
-	}
+	},
+
+	variants: [
+		{
+			type: 'reverse'
+		},
+		{
+			type: 'holo'
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos'
+		},
+	]
 }
 
 export default card

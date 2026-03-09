@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Yanmega ex"
 	},
 
+	illustrator: "takuyoa",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Yanma",
+		fr: "Yanma",
+		de: "Yanma",
+		it: "Yanma",
+		es: "Yanma",
+		pt: "Yanma",
+		'es-mx': "Yanma"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -78,7 +88,11 @@ const card: Card = {
 		{
 			type: 'holo'
 		}
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825877
+	}
 }
 
 export default card

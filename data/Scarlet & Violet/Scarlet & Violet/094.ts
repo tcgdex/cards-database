@@ -54,8 +54,9 @@ const card: Card = {
 	illustrator: "zig",
 
 	thirdParty: {
-		cardmarket: 702390
-	}
+        cardmarket: 702390,
+        tcgplayer: 487961
+    }
 }
 
 export default card

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fire"],
+	evolveFrom: {
+		en: "Torchic",
+		fr: "Poussifeu",
+		es: "Torchic",
+		de: "Flemmli",
+		it: "Torchic",
+		pt: "Torchic",
+		'es-mx': "Torchic"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -43,7 +52,16 @@ const card: Card = {
 
 	thirdParty: {
 		cardmarket: 817175
-	}
+	},
+
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'reverse'
+		},
+	]
 }
 
 export default card

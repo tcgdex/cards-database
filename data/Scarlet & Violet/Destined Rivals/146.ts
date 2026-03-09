@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Zamazenta"
 	},
 
+
+	illustrator: "Mitsuhiro Arita",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -57,7 +60,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 826020
+	}
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rhyhorn",
+		fr: "Rhinocorne"
 	},
 
 	stage: "Stage1",
@@ -87,10 +88,27 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276120,
 		tcgplayer: 88732
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "holo",
+			foil: "energy",
+		},
+		{
+			type: "normal",
+			stamp: ["michael-gonzalez"]
+		}
+	]
 }
 
 export default card

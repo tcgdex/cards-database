@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cascoon",
+		fr: "Blindalys"
 	},
 
 	suffix: "EX",
@@ -73,10 +74,19 @@ const card: Card = {
 		}
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276963,
 		tcgplayer: 85060
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 }
 
 export default card

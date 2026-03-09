@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Growlithe"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -61,7 +62,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825901
+	}
 }
 
 export default card

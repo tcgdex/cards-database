@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Lightning"],
+	evolveFrom: {
+		fr: "Ymphect",
+		en: "Pupitar",
+		es: "Pupitar",
+		it: "Pupitar",
+		pt: "Pupitar",
+		de: "Pupitar"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-		cardmarket: 725146
+		cardmarket: 725291
 	}
 }
 

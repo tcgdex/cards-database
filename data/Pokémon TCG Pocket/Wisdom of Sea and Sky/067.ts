@@ -5,24 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mareep"
+		en: "Mareep",
+		fr: "Wattouat"
 	},
 
 	illustrator: "0313",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [179],
 	hp: 60,
 	types: ["Lightning"],
 
 	description: {
-		en: "If static electricity builds in its body, its fleece\ndoubles in volume. Touching it will shock you."
+		en: "If static electricity builds in its body, its fleece\ndoubles in volume. Touching it will shock you.",
+		fr: "Quand son corps est chargé d'électricité statique, sa laine double de volume et envoie des décharges lorsqu'on la touche."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Static Shock"
+			en: "Static Shock",
+			fr: "Choc Statique"
 		},
 
 		damage: 20,

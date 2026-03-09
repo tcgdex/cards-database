@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shieldon",
+		fr: "Dinoclier"
 	},
 
 	stage: "Stage2",
@@ -88,7 +89,20 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 277650,
 		tcgplayer: 93321
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		}
+	]
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
+		fr: "Machopeur lumineux"
 	},
 
 	stage: "Stage2",
@@ -83,7 +84,17 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 274677,
 		tcgplayer: 86744
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
+		}
+	]
 }
 
 export default card

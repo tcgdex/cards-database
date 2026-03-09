@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Machoc",
+		en: "Machop",
+		es: "Machop",
+		it: "Machop",
+		pt: "Machop",
+		de: "Machollo"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -55,7 +63,7 @@ const card: Card = {
 	illustrator: "Tetsu Kayama",
 
 	thirdParty: {
-		cardmarket: 733662
+		cardmarket: 733646
 	}
 }
 

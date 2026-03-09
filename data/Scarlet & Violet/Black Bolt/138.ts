@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Escavalier"
 	},
 
+	illustrator: "Uta",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Metal"],
+	evolveFrom: {
+		en: "Karrablast",
+		fr: "Carabing",
+		de: "Laukaps",
+		it: "Karrablast",
+		pt: "Karrablast",
+		es: "Karrablast",
+		'es-mx': "Karrablast"
+	},
 	stage: "Stage1",
 
 	attacks: [{

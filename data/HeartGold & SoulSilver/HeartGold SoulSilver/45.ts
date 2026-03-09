@@ -82,12 +82,14 @@ const card: Card = {
 		en: "As it majestically swims, it doesn’t care if Remoraid attach to it for scavenging its leftovers."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279017,

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mudbray"
 	},
 
+
+	illustrator: "Aliya Chen",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -57,7 +60,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825981
+	}
 }
 
 export default card

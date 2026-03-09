@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Geodude",
+		fr: "Racaillou"
 	},
 
 	stage: "Stage1",
@@ -73,10 +74,23 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
 		cardmarket: 276911,
 		tcgplayer: 85891
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
 }
 
 export default card

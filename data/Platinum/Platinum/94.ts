@@ -74,7 +74,20 @@ const card: Card = {
 
 	thirdParty: {
 		tcgplayer: 89284
-	}
+	},
+
+	variants:[
+		{
+			type:"normal"
+		},
+		{
+			type:"reverse"
+		},
+		{
+			type:"normal",
+			stamp: ["tsubasa-nakamura"]
+		}
+	]
 }
 
 export default card

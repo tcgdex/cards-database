@@ -65,12 +65,18 @@ const card: Card = {
 		en: "To keep from being blown away by the wind, they gather in clusters. But they do enjoy gentle breezes."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp : ["yuka-furusawa"],
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279039,

@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Duosion"
 	},
 
+	illustrator: "Kedamahadaitai Yawarakai",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Solosis",
+		fr: "Nucléos",
+		de: "Monozyto",
+		it: "Solosis",
+		pt: "Solosis",
+		es: "Solosis",
+		'es-mx': "Solosis"
+	},
 	stage: "Stage1",
 
 	attacks: [{

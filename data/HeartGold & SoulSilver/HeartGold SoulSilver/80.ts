@@ -70,12 +70,14 @@ const card: Card = {
 		en: "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279052,

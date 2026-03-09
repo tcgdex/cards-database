@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Tandemaus"
+		en: "Tandemaus",
+		fr: "Compagnol"
 	},
 
 	stage: "Stage1",
@@ -72,8 +73,9 @@ const card: Card = {
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	thirdParty: {
-		cardmarket: 702457
-	}
+        cardmarket: 702457,
+        tcgplayer: 488057
+    }
 }
 
 export default card

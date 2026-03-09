@@ -66,7 +66,13 @@ const card: Card = {
 
 	description: {
 		fr: "Unique et rare, son existence est remise en cause par les experts. Peu nombreux sont ceux qui l'ont vu."
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+	]
 }
 
 export default card

@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
+	evolveFrom: {
+		en: "Spearow",
+		fr: "Piafabec",
+		de: "Habitak",
+		it: "Spearow",
+		es: "Spearow",
+		pt: "Spearow",
+		'es-mx': "Spearow"
+	},
 	stage: "Stage1",
 	dexId: [22],
 
@@ -50,6 +59,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654442,

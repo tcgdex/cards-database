@@ -80,12 +80,14 @@ const card: Card = {
 		en: "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 279299,

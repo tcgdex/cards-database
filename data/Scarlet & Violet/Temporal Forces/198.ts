@@ -28,15 +28,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Taira Akitsu",
 
 	thirdParty: {
-		cardmarket: 760775
+		cardmarket: 760828
 	}
 }
 

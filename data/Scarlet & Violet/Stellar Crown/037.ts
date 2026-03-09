@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Antique Cover Fossil",
+		fr: "Fossile Plaque Ancien",
+		es: "Fósil Tapa Antiguo",
+		it: "Vecchio Fossiltappo",
+		pt: "Fóssil Casca Arcaico",
+		de: "Antikes Schildfossil"
+	},
 	stage: "Stage1",
 
 	attacks: [{

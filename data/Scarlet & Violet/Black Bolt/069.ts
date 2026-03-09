@@ -15,10 +15,20 @@ const card: Card = {
 		'es-mx': "Fraxure"
 	},
 
+	illustrator: "Taiga Kasai",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Dragon"],
+	evolveFrom: {
+		en: "Axew",
+		fr: "Coupenotte",
+		de: "Milza",
+		it: "Axew",
+		pt: "Axew",
+		es: "Axew",
+		'es-mx': "Axew"
+	},
 	stage: "Stage1",
 
 	attacks: [{

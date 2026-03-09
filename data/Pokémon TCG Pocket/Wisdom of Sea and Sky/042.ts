@@ -5,12 +5,15 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seadra"
+		en: "Seadra",
+		fr: "Hypocéan"
 	},
 
 	illustrator: "sui",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [117],
 	hp: 80,
 	types: ["Water"],
 
@@ -19,14 +22,16 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It's the males that raise the offspring. While\nSeadra are raising young, the spines on their\nbacks secrete thicker and stronger poison."
+		en: "It's the males that raise the offspring. While\nSeadra are raising young, the spines on their\nbacks secrete thicker and stronger poison.",
+		fr: "Les mâles s'occupent des petits, et tant qu'ils en ont à élever, le venin contenu dans leurs épines dorsales devient beaucoup plus fort."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Razor Fin"
+			en: "Razor Fin",
+			fr: "Aileron-Rasoir"
 		},
 
 		damage: 50,

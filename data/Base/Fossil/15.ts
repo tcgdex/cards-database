@@ -62,7 +62,34 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 273876,
 		tcgplayer: 44424
-	}
+	},
+
+	variants: [
+		{
+			type: "holo",
+			foil: "galaxy"
+		},
+		{
+			type: "holo",
+			subtype: "evolution-box-error",
+			foil: "galaxy"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			foil: "galaxy"
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			subtype: "1999-2000-copyright"
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			subtype: "1999-copyright"
+		}
+	]
 }
 
 export default card

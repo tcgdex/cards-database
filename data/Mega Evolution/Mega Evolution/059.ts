@@ -19,6 +19,15 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 100,
 	types: ["Psychic"],
+	evolveFrom: {
+		en: "Ralts",
+		fr: "Tarsal",
+		de: "Trasla",
+		it: "Ralts",
+		es: "Ralts",
+		pt: "Ralts",
+		'es-mx': "Ralts"
+	},
 	stage: "Stage1",
 	dexId: [281],
 
@@ -62,6 +71,19 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 654398,

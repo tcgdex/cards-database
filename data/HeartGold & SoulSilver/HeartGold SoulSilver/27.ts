@@ -80,12 +80,14 @@ const card: Card = {
 		en: "Its lithe muscles allow it to walk without making a sound. It attacks in an instant."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278999,

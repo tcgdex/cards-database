@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rotom Podadora"
 	},
 
+	illustrator: "Rianti Hidayat",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -81,7 +82,11 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
-	]
+	],
+
+	thirdParty: {
+		cardmarket: 825883
+	}
 }
 
 export default card

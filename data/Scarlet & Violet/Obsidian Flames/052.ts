@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 170,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Batracné",
+		en: "Palpitoad",
+		es: "Palpitoad",
+		it: "Palpitoad",
+		pt: "Palpitoad",
+		de: "Mebrana"
+	},
 	stage: "Stage2",
 
 	abilities: [{
