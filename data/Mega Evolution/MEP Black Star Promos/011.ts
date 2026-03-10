@@ -19,7 +19,7 @@ const card: Card = {
     hp: 280, 
     types: ["Dragon"],
     stage: "Basic",
-    dexId: [], 
+    dexId: [380], 
 
     attacks: [
         {
