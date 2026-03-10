@@ -5,7 +5,7 @@ const xya: Set = {
 	id: "xya",
 
 	name: {
-		en: "Yello A Alternate",
+		en: "Yellow A Alternate",
 		fr: "carte alternative A Jaune",
 		es: "Cartas alternativas",
 		it: "Carta Alternatica A Gialla",
