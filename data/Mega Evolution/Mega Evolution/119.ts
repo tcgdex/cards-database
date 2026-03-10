@@ -33,10 +33,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 851190,
+				tcgplayer: 654458
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 851190,
+				tcgplayer: 654458
+			}
 		},
 		{
 			type: "holo",
@@ -56,11 +64,6 @@ const card: Card = {
 			stamp: ["regional-championships", "staff"]
 		}
 	],
-
-	thirdParty: {
-		tcgplayer: 654458,
-		cardmarket: 851190
-	}
 }
 
 export default card

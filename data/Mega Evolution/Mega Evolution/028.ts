@@ -86,26 +86,31 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851099,
+				tcgplayer: 654367
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 851099,
+				tcgplayer: 654367
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["player-rewards-program"],
 			foil: "cosmos"
+			// No ID on either CMT or TCGP
 		},
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"],
+			// No ID on either CMT or TCGP
 		}
-	],
-
-	thirdParty: {
-		tcgplayer: 654367,
-		cardmarket: 851099
-	}
+	],	
 }
 
 export default card
