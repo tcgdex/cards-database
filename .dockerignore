@@ -3,7 +3,6 @@
 # dependencies
 node_modules
 
-
 # misc
 .DS_Store
 .env*
@@ -16,6 +15,16 @@ dist/
 
 /data/**/*.js
 
-
 # production
 /server/dist
+
+# CI/CD and development files
+.github/
+.cursor/
+.bruno/
+*.md
+!README.md
+*.test.ts
+.git/
+.gitignore
+.dockerignore
