@@ -88,6 +88,10 @@ const card: Card = {
 		{
 			type: 'normal'
 		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program']
+		}
 	]
 }
 
