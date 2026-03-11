@@ -5,9 +5,7 @@ const set: Set = {
 	id: "2019sm-fr",
 
 	name: {
-		// French-only product; English name matches folder for compiler resolution.
-		en: "Collection McDonald's 2019 (FR)",
-		fr: "Collection McDonald's 2019"
+		fr: "Collection McDonald's 2019 (FR)"
 	},
 
 	serie: serie,
