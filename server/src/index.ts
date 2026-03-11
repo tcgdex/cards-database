@@ -5,7 +5,7 @@ import graphql from './V2/graphql'
 import cluster from 'node:cluster'
 import { availableParallelism } from "node:os"
 import { Errors, sendError } from './libs/Errors'
-import status from './status'
+// import status from './status'
 import * as Sentry from "@sentry/node"
 import { updateDatas } from './libs/providers/cardmarket'
 import { updateTCGPlayerDatas } from './libs/providers/tcgplayer'
@@ -121,7 +121,7 @@ if (cluster.isPrimary) {
 
 	// simple endpoint for monitoring
 	server.get('/ping', (_, res) => {
-		res.status(200).end()
+		res.status(200).json({ ok: true })
 	})
 
 	server.use(express.static('./public'))
@@ -134,7 +134,7 @@ if (cluster.isPrimary) {
 	server.use(`/v${VERSION}`, jsonEndpoints)
 
 	// Status page
-	server.use('/status', status)
+	// server.use('/status', status)
 
 	// handle 404 errors
 	server.use((_, res) => {
