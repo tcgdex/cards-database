@@ -2,66 +2,167 @@ name: Test the Data
 
 on:
   push:
-    branches: 
+    branches:
       - master
-  pull_request_target:
-    branches: 
-      - "**"
+  pull_request:
+    branches:
+      - '**'
 
 permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
+  export-git-metadata:
+    runs-on: ubuntu-latest
+    permissions: {}
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Cache Bun installs
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.bun/install/cache
+            ~/.bun/install/global
+          key: ${{ runner.os }}-bun-metadata-${{ hashFiles('bun.lockb', 'server/bun.lockb') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-metadata-
+
+      - name: Install server deps
+        run: |
+          cd server
+          bun install --frozen-lockfile
+
+      - name: Export git metadata
+        run: |
+          cd server
+          bun run compile --export-git-metadata
+
+      - name: Upload git metadata artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: git-metadata
+          path: server/git-metadata.json
+          retention-days: 1
+          if-no-files-found: error
+          compression-level: 9
+
   test:
+    needs: export-git-metadata
     runs-on: ${{ matrix.os }}
     permissions: {}
+    timeout-minutes: 120
+    defaults:
+      run:
+        shell: bash
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
+      fail-fast: false
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v6
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
-        persist-credentials: false
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+          fetch-depth: 1
 
-    - name: Setup BunJS
-      uses: oven-sh/setup-bun@v2
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
-    - name: Install deps
-      run: |
-        bun install -g @usebruno/cli
-        bun install --frozen-lockfile
-        cd server
-        bun install --frozen-lockfile
-        bun run compile
+      - name: Cache Bun installs
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.bun/install/cache
+            ~/.bun/install/global
+          key: ${{ matrix.os }}-bun-${{ hashFiles('bun.lockb', 'server/bun.lockb') }}
+          restore-keys: |
+            ${{ matrix.os }}-bun-
 
-    - name: Validate the data & the server
-      run: |
-        bun run validate
-        cd server
-        bun run --bun validate
+      - name: Download git metadata
+        uses: actions/download-artifact@v4
+        with:
+          name: git-metadata
+          path: server/
 
-    - name: Validate some requests
-      shell: bash
-      run: |
-        set -euo pipefail
-        cd server
-        bun run start &
-        SERVER_PID=$!
-        cd ..
+      - name: Install CLI & root deps
+        run: |
+          bun install -g @usebruno/cli
+          bun install --frozen-lockfile
 
-        ATTEMPTS=0
-        until curl -sSf http://127.0.0.1:3000/status > /dev/null; do
-          ATTEMPTS=$((ATTEMPTS + 1))
-          if [ $ATTEMPTS -ge 60 ]; then
-            echo "Server did not become ready within 60 seconds" >&2
-            kill $SERVER_PID
+      - name: Install server deps
+        run: |
+          cd server
+          bun install --frozen-lockfile
+
+      - name: Compile with imported metadata
+        run: |
+          cd server
+          set -o pipefail
+          bun run compile --import-git-metadata 2>&1 | tee ../compile.log
+          cd ..
+          if grep -q "could not load file" compile.log; then
+            echo "::error::Compiler reported missing card files" >&2
+            cat compile.log
             exit 1
           fi
-          sleep 1
-        done
+          rm -f compile.log
 
-        cd .bruno
-        bru run --env Developpement
+      - name: Run TypeScript validation (root)
+        run: bun run validate
 
-        kill $SERVER_PID
+      - name: Run TypeScript validation (server)
+        run: |
+          cd server
+          bun run --bun validate
+
+      - name: Start API server
+        run: |
+          cd server
+          MAX_WORKERS=1 bun run start > ../server.log 2>&1 &
+          echo $! > ../server.pid
+
+      - name: Wait for server readiness
+        run: |
+          for i in {1..180}; do
+            if curl -sf http://127.0.0.1:3000/status > /dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Server failed to start" >&2
+          cat server.log || true
+          exit 1
+
+      - name: Run Bruno integration suite
+        run: |
+          cd .bruno
+          bru run --env Developpement
+
+      - name: Stop API server
+        if: always()
+        run: |
+          if [ -f server.pid ]; then
+            kill "$(cat server.pid)" || true
+            rm -f server.pid
+          fi
+          cat server.log || true
+          rm -f server.log
