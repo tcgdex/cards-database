@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
+		fr: "Pikachu",
 		it: "Pikachu"
 	},
 
