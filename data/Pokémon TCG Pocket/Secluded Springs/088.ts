@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Tsuyoshi Nagano",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [243],
 	hp: 130,
 	types: ["Lightning"],
 	stage: "Basic",

@@ -9,6 +9,8 @@ const card: Card = {
 	description: {
 		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit."
 	},
+	
+	hp: 50,
 
 	stage: "Basic",
 

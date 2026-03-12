@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Taiga Kayama",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [766],
 	hp: 130,
 	types: ["Fighting"],
 	stage: "Basic",

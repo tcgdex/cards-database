@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Double rare",
 	category: "Pokemon",
+
+	dexId: [429],
 	hp: 260,
 	types: ["Psychic"],
 	stage: "Stage1",
-	dexId: [429],
 
 	abilities: [{
 		type: "Ability",
@@ -81,7 +82,8 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 857611
+		cardmarket: 857611,
+		tcgplayer: 662199
 	}
 }
 
