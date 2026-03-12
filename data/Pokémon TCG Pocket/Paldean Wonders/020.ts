@@ -15,7 +15,7 @@ const card: Card = {
   evolveFrom: {
     en: "Charcadet",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   abilities: [
     {
       type: "Ability",

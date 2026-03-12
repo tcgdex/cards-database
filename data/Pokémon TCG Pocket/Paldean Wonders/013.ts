@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

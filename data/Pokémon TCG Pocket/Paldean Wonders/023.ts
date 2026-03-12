@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "The hardworking Quaxwell observes people and Pokémon from various regions and incorporates their movements into its own dance routines.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {
@@ -37,7 +37,7 @@ const card: Card = {
       value: "+20",
     },
   ],
-  retreat: [1],
+  retreat: 1,
 };
 
 export default card;

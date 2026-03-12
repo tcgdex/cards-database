@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "This hero of the ocean swims at a speed of 50 knots and saves drowning people and Pokémon.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "Some researchers theorize that Primeape remains angry even when inside a Poké Ball.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

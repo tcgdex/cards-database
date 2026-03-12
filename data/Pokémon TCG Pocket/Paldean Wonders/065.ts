@@ -11,14 +11,14 @@ const card: Card = {
   category: "Pokemon",
   hp: 120,
   types: ["Darkness"],
-  dexId: 980,
+  dexId: [980],
   evolveFrom: {
     en: "Paldean Wooper",
   },
   description: {
     en: "It lives at the bottom of ponds and swamps. It will carry Wooper on its back and ferry them across water from one shore to the other.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

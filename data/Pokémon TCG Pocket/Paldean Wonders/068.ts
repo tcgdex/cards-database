@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

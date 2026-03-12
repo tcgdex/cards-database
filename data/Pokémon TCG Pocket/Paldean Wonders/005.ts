@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "Spidops covers its territory in tough, sticky threads to set up traps for intruders.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

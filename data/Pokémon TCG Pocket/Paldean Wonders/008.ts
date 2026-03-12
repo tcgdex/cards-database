@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

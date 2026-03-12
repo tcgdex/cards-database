@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "Skeledirge's gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
   },
-  stage: "Stage 2",
+  stage: "Stage2",
   abilities: [
     {
       type: "Ability",

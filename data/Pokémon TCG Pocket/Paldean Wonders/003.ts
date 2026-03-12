@@ -15,7 +15,7 @@ const card: Card = {
   evolveFrom: {
     en: "Floragato",
   },
-  stage: "Stage 2",
+  stage: "Stage2",
   attacks: [
     {
       name: {

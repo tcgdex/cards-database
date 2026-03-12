@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home.",
   },
-  stage: "Stage 2",
+  stage: "Stage2",
   attacks: [
     {
       name: {

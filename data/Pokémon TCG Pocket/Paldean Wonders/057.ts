@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
   },
-  stage: "Stage 2",
+  stage: "Stage2",
   attacks: [
     {
       name: {

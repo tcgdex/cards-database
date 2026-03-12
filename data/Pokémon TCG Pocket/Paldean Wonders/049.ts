@@ -18,9 +18,10 @@ const card: Card = {
   description: {
     en: "An infant sleeps inside the ball. Rabsca rolls the ball soothingly with its legs to ensure the infant sleeps comfortably.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
-    {n      name: {
+    {
+      name: {
         en: "Psybeam",
       },
       damage: "80",

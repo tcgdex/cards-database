@@ -18,10 +18,10 @@ const card: Card = {
   description: {
     en: "It uses its normally folded third set of legs when in Showdown Mode. This places a huge burden on its body, so it can't stay in this mode for long.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
-    {n
-ame: {
+    {
+      name: {
         en: "Rocket Jump",
       },
       damage: "80",

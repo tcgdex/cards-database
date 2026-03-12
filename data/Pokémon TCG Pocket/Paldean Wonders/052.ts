@@ -11,7 +11,7 @@ const card: Card = {
   category: "Pokemon",
   hp: 70,
   types: ["Psychic"],
-  dexId: 971,
+  dexId: [971],
   description: {
     en: "This friendly Pokémon doesn't like being alone. Pay it even the slightest bit of attention, and it will follow you forever.",
   },

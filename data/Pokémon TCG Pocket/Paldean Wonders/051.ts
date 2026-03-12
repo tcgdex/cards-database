@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

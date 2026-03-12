@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "It launches itself into battle by flipping upside down and spewing frigid air from its mouth. It finishes opponents off with its dorsal blade.",
   },
-  stage: "Stage 2",
+  stage: "Stage2",
   abilities: [
     {
       type: "Ability",

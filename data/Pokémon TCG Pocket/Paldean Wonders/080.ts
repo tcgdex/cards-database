@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

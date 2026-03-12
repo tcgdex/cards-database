@@ -11,7 +11,7 @@ const card: Card = {
   category: "Pokemon",
   hp: 60,
   types: ["Colorless"],
-  dexId: [[915]],
+  dexId: [915],
   description: {
     en: "This Pokémon spurns all but the finest of foods. Its body gives off an herblike scent that bug Pokémon detest.",
   },

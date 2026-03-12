@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "Each Grafaiai paints its own individual pattern, and it will paint that same pattern over and over again throughout its life.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {
@@ -37,7 +37,7 @@ const card: Card = {
       value: "+20",
     },
   ],
-  retreat: ["Colorless"],
+  retreat: 1,
 };
 
 export default card;

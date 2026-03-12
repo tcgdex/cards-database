@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
   },
-  stage: "Stage 2",
+  stage: "Stage2",
   abilities: [
     {
       type: "Ability",

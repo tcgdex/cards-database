@@ -11,14 +11,14 @@ const card: Card = {
   category: "Pokemon",
   hp: 60,
   types: ["Colorless"],
-  dexId: 925,
+  dexId: [925],
   evolveFrom: {
     en: "Tandemaus",
   },
   description: {
     en: "The little one just appeared one day. They all live together like a family, but the relationship between the three is still unclear.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

@@ -15,7 +15,7 @@ const card: Card = {
   evolveFrom: {
     en: "Gimmighoul",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

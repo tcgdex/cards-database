@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "A variety of fish Pokémon, Wugtrio was once considered to be a regional form of Dugtrio.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {

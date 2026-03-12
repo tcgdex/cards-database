@@ -11,7 +11,7 @@ const card: Card = {
   category: "Pokemon",
   hp: 60,
   types: ["Water"],
-  dexId: [[960]],
+  dexId: [960],
   description: {
     en: "Though it looks like Diglett, Wiglett is an entirely different species. The resemblance seems to be a coincidental result of environmental adaptation.",
   },

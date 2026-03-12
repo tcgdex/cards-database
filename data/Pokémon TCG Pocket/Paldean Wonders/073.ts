@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "These Pokémon make their homes in piles of scrap metal. They test the strength of each other's hammers by smashing them together.",
   },
-  stage: "Stage 1",
+  stage: "Stage1",
   attacks: [
     {
       name: {
