@@ -2,7 +2,7 @@ import { Set } from '../../interfaces'
 import serie from '../Pokémon TCG Pocket'
 
 const set: Set = {
-	id: "B2A",
+	id: "B2a",
 
 	name: {
 		de: "Paldean Wonders",
@@ -31,10 +31,12 @@ const set: Set = {
 				'pt-br': "Paldea",
 				ko: "Paldea",
 			}
+			}
 		},
 		
 
 	releaseDate: "2026-02-26"
 }
+
 
 export default set
