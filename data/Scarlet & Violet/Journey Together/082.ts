@@ -81,10 +81,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
+			type: 'holo'
 		},
 		{
-			type: 'holo'
+			type: 'reverse'
 		},
 	]
 }

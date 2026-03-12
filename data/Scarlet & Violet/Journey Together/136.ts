@@ -93,6 +93,15 @@ const card: Card = {
 			type: 'holo',
 			stamp: ["set-logo"]
 		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ["player-rewards-program"]
+		},
+		{
+			type: 'normal',
+			stamp: ["player-rewards-program"]
+		},
 	]
 }
 
