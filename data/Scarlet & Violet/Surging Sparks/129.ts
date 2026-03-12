@@ -60,9 +60,22 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"]
+		}
+	],
 
 	illustrator: "Tonji Matsuno",
 
