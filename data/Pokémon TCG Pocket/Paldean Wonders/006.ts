@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces";
-import Set from "../PaldeanWonders";
+import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,

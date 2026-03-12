@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces";
-import Set from "Paldean_Wonders";
+import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
   },
-  stage: "Stage 2",
+  stage: "Stage2",
   attacks: [
     {
       name: {

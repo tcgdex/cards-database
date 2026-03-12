@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces";
-import Set from "../Paldean_Wonders";
+import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
@@ -18,7 +18,7 @@ const card: Card = {
   description: {
     en: "Dancing in ways that evoke far-away places, this Pokémon mesmerizes all that see it. Flourishes of its decorative water feathers slice into its foes.",
   },
-  stage: "Stage 2",
+  stage: "Stage2",
   abilities: [
     {
       type: "Ability",
