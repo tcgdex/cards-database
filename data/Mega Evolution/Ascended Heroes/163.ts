@@ -50,6 +50,19 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "J",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "pokeball"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 675975,
 		cardmarket: 869774

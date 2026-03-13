@@ -30,6 +30,15 @@ const card: Card = {
 	energyType: "Normal",
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 676028,
 		cardmarket: 869827

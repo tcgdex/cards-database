@@ -74,6 +74,19 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "loveball"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 676032,
 		cardmarket: 869831

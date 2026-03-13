@@ -48,6 +48,19 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "quickball"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 675871,
 		cardmarket: 869670

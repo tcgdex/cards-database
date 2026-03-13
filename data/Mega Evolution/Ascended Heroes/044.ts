@@ -64,6 +64,19 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "duskball"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 675856,
 		cardmarket: 869655

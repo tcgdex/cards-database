@@ -48,6 +48,19 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "teamrocket"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 675909,
 		cardmarket: 869708

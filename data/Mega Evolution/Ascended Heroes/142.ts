@@ -72,6 +72,12 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 675954,
 		cardmarket: 869753

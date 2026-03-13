@@ -50,6 +50,12 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "J",
 
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 675843,
 		cardmarket: 869642

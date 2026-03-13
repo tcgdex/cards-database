@@ -31,6 +31,12 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "H",
 
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 676067,
 		cardmarket: 869867

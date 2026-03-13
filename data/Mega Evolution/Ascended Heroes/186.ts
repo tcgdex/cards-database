@@ -31,6 +31,15 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "H",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 675998,
 		cardmarket: 869797
