@@ -129,7 +129,12 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"loveball": "Love Ball",
+		"friendball": "Friend Ball", 
+		"quickball": "Velox Ball",
+		"duskball": "Scuro Ball", 
+		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
 		"1st-edition": "1a Edizione",

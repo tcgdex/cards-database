@@ -61,7 +61,7 @@ interface variant_detailed {
 	 */
 	stamp?: Array<'1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
 		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
-		| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato'
+		| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | '30th-pokeday' | 'chris-fulop' | 'tsuguyoshi-yamato'
 		| 'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill'
 		| 'jeremy-maron' | 'jimmy-ballard' | 'miska-saari' | 'hiroki-yano' | 'jason-klaczynski' | 'state-championships'
 		| 'national-championships' | 'gym-challenge' | 'city-championships' | 'jeremy-scharff-kim' | 'destiny-deoxys'
@@ -80,8 +80,9 @@ interface variant_detailed {
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
-	foil?: 'pokeball' | 'greatball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
-	| 'mirror' | 'league' | 'player-reward' | 'professor-program'
+	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
+	| 'mirror' | 'league' | 'player-reward' | 'professor-program' 
+	| 'loveball' | 'friendball' | 'quickball' | 'team-rocket' | 'duskball'
 
 	/**
 	 * list of languages for which this variant is available
