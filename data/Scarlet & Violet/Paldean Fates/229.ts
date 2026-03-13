@@ -36,7 +36,7 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 
 	thirdParty: {
-		cardmarket: 751621
+		cardmarket: 751776
 	}
 }
 
