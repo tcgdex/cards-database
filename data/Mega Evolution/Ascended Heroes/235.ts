@@ -20,7 +20,6 @@ const card: Card = {
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Stage2",
-	dexId: [468],
 
 	abilities: [{
 		type: "Ability",

@@ -90,6 +90,14 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
+		{
+			type: 'holo',
+			stamp: ['master-ball-league']
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program']
+		}
 	]
 }
 

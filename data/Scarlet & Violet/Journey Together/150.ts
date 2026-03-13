@@ -42,6 +42,19 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
+		{
+			type: 'normal',
+			stamp: ['gym-challenge']
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['player-rewards-program']
+		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program']
+		}
 	]
 }
 

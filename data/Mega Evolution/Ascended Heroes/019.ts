@@ -20,7 +20,6 @@ const card: Card = {
 	hp: 130,
 	types: ["Grass"],
 	stage: "Stage1",
-	dexId: [918],
 
 	abilities: [{
 		type: "Ability",

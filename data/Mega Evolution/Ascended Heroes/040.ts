@@ -20,7 +20,6 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage1",
-	dexId: [55],
 
 	abilities: [{
 		type: "Ability",
