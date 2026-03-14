@@ -139,7 +139,7 @@ export interface Set extends SetResume {
 	cards: Array<CardResume>;
 	abbreviation: { official: string, localized: string };
 	thirdParty?: {
-		cardmarket?: number
+		cardmarket?: Array<number>
 		tcgplayer?: number
 	}
 }
