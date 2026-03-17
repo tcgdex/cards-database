@@ -43,6 +43,7 @@ const card: Card = {
 	rarity: "None",
 
 	thirdParty: {
+		cardmarket: 295148,
 		tcgplayer: 275069
 	}
 }

@@ -67,7 +67,7 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	thirdParty: {
-		cardmarket: 740492
+		cardmarket: 740491
 	}
 }
 

@@ -38,6 +38,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	thirdParty: {
+		cardmarket: 412879,
 		tcgplayer: 200969
 	}
 }

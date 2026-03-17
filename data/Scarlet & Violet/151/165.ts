@@ -35,7 +35,7 @@ const card: Card = {
 	illustrator: "Toyste Beach",
 
 	thirdParty: {
-		cardmarket: 733756
+		cardmarket: 733760
 	}
 }
 

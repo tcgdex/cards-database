@@ -46,6 +46,7 @@ const card: Card = {
 		"Fighting",
 	],
 	thirdParty: {
+		cardmarket: 281785,
 		tcgplayer: 84967,
 	},
 }
