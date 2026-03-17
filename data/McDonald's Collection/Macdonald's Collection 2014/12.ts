@@ -28,6 +28,7 @@ const card: Card = {
 	],
 	stage: "Basic",
 	thirdParty: {
+		cardmarket: 281664,
 		tcgplayer: 110417,
 	},
 	attacks: [

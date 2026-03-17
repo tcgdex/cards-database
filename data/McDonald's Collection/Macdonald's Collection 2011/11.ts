@@ -48,6 +48,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	thirdParty: {
+		cardmarket: 281800,
 		tcgplayer: 88055
 	}
 }

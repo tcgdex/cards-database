@@ -50,6 +50,7 @@ const card: Card = {
 	types: ["Water"],
 
 	thirdParty: {
+		cardmarket: 281782,
 		tcgplayer: 84797
 	}
 }

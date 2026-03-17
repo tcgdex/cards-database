@@ -53,6 +53,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	thirdParty: {
+		cardmarket: 281788,
 		tcgplayer: 86478
 	}
 }

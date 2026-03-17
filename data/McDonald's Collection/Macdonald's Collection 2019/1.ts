@@ -40,6 +40,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	thirdParty: {
+		cardmarket: 412849,
 		tcgplayer: 200960
 	}
 }

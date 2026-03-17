@@ -48,6 +48,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	thirdParty: {
+		cardmarket: 412889,
 		tcgplayer: 200973
 	}
 }
