@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cobalion"
 	},
 
+	illustrator: "HICO KIM",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

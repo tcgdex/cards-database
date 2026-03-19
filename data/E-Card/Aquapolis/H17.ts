@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimer",
+		fr: "Tadmorv"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,7 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 275048,
+		cardmarket: 275095,
 		tcgplayer: 87619
 	},
 

@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Kazumasa Yasukuni",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [26],
 	hp: 90,
 	types: ["Lightning"],
 

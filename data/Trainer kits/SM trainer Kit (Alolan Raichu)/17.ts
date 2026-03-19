@@ -38,17 +38,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Quick Attack"
+			en: "Quick Attack",
+			fr: "Vive-Attaque"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			en: "Flip a coin. If heads, this attack does 30 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
 		}
 	}, {
 		name: {
-			en: "Electric Surfer"
+			en: "Electric Surfer",
+			fr: "Surfeur Électrique"
 		},
 
 		damage: 70

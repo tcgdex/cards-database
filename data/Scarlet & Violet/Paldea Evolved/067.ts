@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
+	evolveFrom: {
+		fr: "Voltorbe",
+		en: "Voltorb",
+		es: "Voltorb",
+		it: "Voltorb",
+		pt: "Voltorb",
+		de: "Voltobal"
+	},
 	stage: "Stage1",
 
 	attacks: [{

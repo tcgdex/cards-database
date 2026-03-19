@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Toxel"
+		en: "Toxel",
+		fr: "Toxizap"
 	},
 
 	stage: "Stage1",
@@ -79,8 +80,9 @@ const card: Card = {
 	illustrator: "Atsushi Furusawa",
 
 	thirdParty: {
-		cardmarket: 702368
-	}
+        cardmarket: 702368,
+        tcgplayer: 487926
+    }
 }
 
 export default card

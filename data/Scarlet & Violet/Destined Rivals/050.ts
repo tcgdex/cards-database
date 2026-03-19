@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lapras de Misty"
 	},
 
+	illustrator: "En Morikura",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

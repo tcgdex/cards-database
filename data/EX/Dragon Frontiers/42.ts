@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Trapinch",
+		fr: "Kraknoix"
 	},
 
 	stage: "Stage1",
@@ -62,6 +63,9 @@ const card: Card = {
 
 		},
 	],
+
+
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 277229

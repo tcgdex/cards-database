@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slakoth",
+		fr: "Parecool"
 	},
 
 	stage: "Stage1",
@@ -75,6 +76,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 275695,

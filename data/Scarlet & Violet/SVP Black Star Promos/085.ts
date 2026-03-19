@@ -9,8 +9,13 @@ const card: Card = {
 		pt: "Pikachu com Chapéu de feltro Cinza"
 	},
 
+
+	illustrator: "Naoyo Kimura",
+
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [25],
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",

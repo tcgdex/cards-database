@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cascoon",
+		fr: "Blindalys"
 	},
 
 	suffix: "EX",
@@ -72,6 +73,9 @@ const card: Card = {
 			damage: 70
 		}
 	],
+
+	
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 276963,

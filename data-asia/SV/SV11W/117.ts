@@ -37,12 +37,11 @@ const card: Card = {
 
 	resistances: [{ type: "Fighting", value: "-30" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	evolveFrom: {
 		ja: "コロモリ",
@@ -52,6 +51,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [528],
+	thirdParty: {
+		cardmarket: 829474,
+		tcgplayer: 636670,
+	},
 };
 
 export default card;

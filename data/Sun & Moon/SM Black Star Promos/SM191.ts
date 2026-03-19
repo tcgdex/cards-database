@@ -12,14 +12,11 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		150,
-	],
-
+	dexId: [150, 151],
 	hp: 270,
 
 	types: [

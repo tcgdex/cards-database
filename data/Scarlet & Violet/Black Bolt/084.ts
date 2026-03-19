@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Pokégear 3.0"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 

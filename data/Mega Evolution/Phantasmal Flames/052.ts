@@ -16,6 +16,8 @@ const card: Card = {
 
 	rarity: "Common",
 	category: "Pokemon",
+
+	dexId: [329],
 	hp: 90,
 	types: ["Fighting"],
 	stage: "Stage1",
@@ -37,7 +39,21 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	thirdParty: {
+		cardmarket: 857627,
+		tcgplayer: 662237
+	}
 }
 
 export default card

@@ -31,6 +31,19 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "I",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 654466,
 		cardmarket: 851198

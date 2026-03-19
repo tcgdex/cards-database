@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
+	evolveFrom: {
+		fr: "Hélionceau",
+		en: "Litleo",
+		es: "Litleo",
+		it: "Litleo",
+		pt: "Litleo",
+		de: "Leufeo"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +83,7 @@ const card: Card = {
 	illustrator: "Po-Suzuki",
 
 	thirdParty: {
-		cardmarket: 715505
+		cardmarket: 715675
 	}
 }
 

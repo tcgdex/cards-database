@@ -16,6 +16,8 @@ const card: Card = {
 
 	rarity: "Rare",
 	category: "Pokemon",
+
+	dexId: [649],
 	hp: 120,
 	types: ["Grass"],
 	stage: "Basic",
@@ -59,7 +61,25 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		}
+	],
+
+	thirdParty: {
+		cardmarket: 857583,
+		tcgplayer: 662161
+	}
 }
 
 export default card

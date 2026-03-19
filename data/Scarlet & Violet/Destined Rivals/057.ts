@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Buizel"
 	},
 
+
+	illustrator: "Ayako Ozaki",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Unfezant"
 	},
 
+	illustrator: "Yoshioka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,

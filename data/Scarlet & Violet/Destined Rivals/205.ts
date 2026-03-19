@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Greedent de Damián"
 	},
 
+
+	illustrator: "Natsumi Yoshida",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,

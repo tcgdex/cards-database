@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Leavanny"
 	},
 
+	illustrator: "mashu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,

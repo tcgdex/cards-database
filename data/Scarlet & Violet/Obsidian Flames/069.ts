@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],
+	evolveFrom: {
+		fr: "Lampéroie",
+		en: "Eelektrik",
+		es: "Eelektrik",
+		it: "Eelektrik",
+		pt: "Eelektrik",
+		de: "Zapplalek"
+	},
 	stage: "Stage2",
 
 	attacks: [{

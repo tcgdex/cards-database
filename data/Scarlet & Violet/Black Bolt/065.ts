@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Bisharp"
 	},
 
+	illustrator: "Oku",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -74,7 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836009
+		cardmarket: 836043
 	}
 }
 

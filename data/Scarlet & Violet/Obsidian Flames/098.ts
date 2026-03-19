@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Théffroi",
+		en: "Sinistea",
+		es: "Sinistea",
+		it: "Sinistea",
+		pt: "Sinistea",
+		de: "Fatalitee"
+	},
 	stage: "Stage1",
 
 	attacks: [{

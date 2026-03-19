@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 300,
 	types: ["Metal"],
+	evolveFrom: {
+		fr: "Charibari",
+		en: "Cufant",
+		es: "Cufant",
+		it: "Cufant",
+		pt: "Cufant",
+		de: "Kupfanti"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Eske Yoshinob",
 
 	thirdParty: {
-		cardmarket: 715625
+		cardmarket: 715720
 	}
 }
 

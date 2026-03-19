@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Clamperl"
 	},
 
+	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

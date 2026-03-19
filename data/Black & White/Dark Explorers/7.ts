@@ -35,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
+				fr: "Bataille"
 			},
 
 			damage: 10,
@@ -48,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Cut",
+				fr: "Coupe"
 			},
 
 			damage: 30,

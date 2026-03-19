@@ -16,6 +16,8 @@ const card: Card = {
 
 	rarity: "Mega Hyper Rare",
 	category: "Pokemon",
+
+	dexId: [6],
 	hp: 360,
 	types: ["Fire"],
 	stage: "Stage2",
@@ -47,7 +49,18 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
+	thirdParty: {
+		cardmarket: 857705,
+		tcgplayer: 662185
+	}
 }
 
 export default card

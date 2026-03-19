@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Megumi Mizutani",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [181],
 	hp: 140,
 	types: ["Lightning"],
 

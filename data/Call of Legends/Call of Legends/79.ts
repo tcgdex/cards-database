@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Interviewer's Questions",
+		fr: "Questionnaire d'interview",
 		de: "Befragung"
 	},
 

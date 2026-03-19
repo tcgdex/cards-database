@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Carvanha",
+		en: "Carvanha",
+		es: "Carvanha",
+		it: "Carvanha",
+		pt: "Carvanha",
+		de: "Kanivanha"
+	},
 	stage: "Stage1",
 
 	attacks: [{

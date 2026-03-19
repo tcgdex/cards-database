@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Gym Badge",
+		fr: "Badge"
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,7 +14,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	thirdParty: {
-		cardmarket: 295188
+		cardmarket: 554217
 	}
 }
 

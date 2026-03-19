@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Magneton"
+		en: "Magneton",
+		fr: "Magnéton"
 	},
 
 	stage: "Stage2",
@@ -82,8 +83,9 @@ const card: Card = {
 	illustrator: "hncl",
 
 	thirdParty: {
-		cardmarket: 702361
-	}
+        cardmarket: 702361,
+        tcgplayer: 486612
+    }
 }
 
 export default card

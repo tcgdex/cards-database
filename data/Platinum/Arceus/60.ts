@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		420,
 	],
+	
+	hp: 50,
 
 	types: [
 		"Grass",

@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Shinya Komatsu",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [672],
 	hp: 80,
 	types: ["Grass"],
 

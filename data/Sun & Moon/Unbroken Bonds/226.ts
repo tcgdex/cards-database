@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cottonee",
+		fr: "Doudouvet"
 	},
 
 	suffix: "GX",
@@ -119,7 +120,7 @@ const card: Card = {
 	retreat: 1,
 
 	thirdParty: {
-		cardmarket: 372257,
+		cardmarket: 372726,
 		tcgplayer: 189240
 	}
 }

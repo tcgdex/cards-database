@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Graveler",
+		fr: "Gravalanch"
 	},
 
 	suffix: "EX",
@@ -82,6 +83,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 5,
 
 	thirdParty: {
 		tcgplayer: 85831,

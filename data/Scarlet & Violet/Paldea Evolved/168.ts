@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Compagnol",
+		en: "Tandemaus",
+		es: "Tandemaus",
+		it: "Tandemaus",
+		pt: "Tandemaus",
+		de: "Zwieps"
+	},
 	stage: "Stage1",
 
 	attacks: [{

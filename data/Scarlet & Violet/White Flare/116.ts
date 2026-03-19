@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Joltik"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 40,

@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lucario"
+		en: "Lucario",
+		fr: "Lucario"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -22,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Riolu",
+		fr: "Riolu"
 	},
 
 	attacks: [{
@@ -29,10 +31,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Feint"
+			en: "Feint",
+			fr: "Ruse"
 		},
 		effect: {
-			en: "This attack’s damage isn’t affected by Resistance."
+			en: "This attack’s damage isn’t affected by Resistance.",
+			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
 		},
 		damage: 30,
 	}, {
@@ -41,10 +45,12 @@ const card: Card = {
 			"Fighting"
 		],
 		name: {
-			en: "Aura Sphere"
+			en: "Aura Sphere",
+			fr: "Aurasphère"
 		},
 		effect: {
-			en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 		},
 		damage: 40,
 	}],

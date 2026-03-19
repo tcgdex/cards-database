@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Boldore"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

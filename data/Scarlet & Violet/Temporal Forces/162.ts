@@ -28,10 +28,15 @@ const card: Card = {
 	energyType: "Special",
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 760792

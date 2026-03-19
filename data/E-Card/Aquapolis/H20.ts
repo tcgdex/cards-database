@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Remoraid",
+		fr: "Rémoraid"
 	},
 
 	stage: "Stage1",
@@ -75,7 +76,7 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 275044,
+		cardmarket: 275098,
 		tcgplayer: 87828
 	},
 

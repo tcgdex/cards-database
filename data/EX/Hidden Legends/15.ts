@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sealeo",
+		fr: "Phogleur"
 	},
 
 	stage: "Stage2",
@@ -73,6 +74,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 3,
 
 	thirdParty: {
 		cardmarket: 276089,

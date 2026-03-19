@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Fuecoco"
+		en: "Fuecoco",
+		fr: "Chochodile"
 	},
 
 	stage: "Stage1",
@@ -63,8 +64,9 @@ const card: Card = {
 	illustrator: "kantaro",
 
 	thirdParty: {
-		cardmarket: 702332
-	}
+        cardmarket: 702332,
+        tcgplayer: 487877
+    }
 }
 
 export default card

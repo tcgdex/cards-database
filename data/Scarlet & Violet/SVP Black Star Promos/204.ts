@@ -6,12 +6,22 @@ const card: Card = {
 
 	name: {
 		en: "Cynthia's Garchomp ex",
+		fr: "Carchacrok-ex de Cynthia"
 	},
 	suffix: "EX",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Fighting"],
+	evolveFrom: {
+		en: "Cynthia's Gabite",
+		fr: "Carmache de Cynthia",
+		de: "Cynthias Knarksel",
+		it: "Gabite di Camilla",
+		es: "Gabite de Cintia",
+		pt: "Gabite da Cíntia",
+		'es-mx': "Gabite de Cynthia"
+	},
 	stage: "Stage2",
 	illustrator: "PLANETA Igarashi",
 	dexId: [445],

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Feuforêve",
+		en: "Misdreavus",
+		es: "Misdreavus",
+		it: "Misdreavus",
+		pt: "Misdreavus",
+		de: "Traunfugil"
+	},
 	stage: "Stage1",
 
 	abilities: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "aoki",
 
 	thirdParty: {
-		cardmarket: 715563
+		cardmarket: 715687
 	}
 }
 

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scyther",
+		fr: "Insécateur"
 	},
 
 	stage: "Stage1",
@@ -93,7 +94,7 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 275045,
+		cardmarket: 275104,
 		tcgplayer: 88957
 	},
 

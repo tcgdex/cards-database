@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Astonish",
+				fr: "Étonnement"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose a card at random from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
+				fr: "Lancez une pièce. Si c'est face, choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck."
 			},
 			damage: 10,
 

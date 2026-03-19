@@ -42,6 +42,26 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
+		{
+			type: 'normal',
+			stamp: ['gym-challenge']
+		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program']
+		},
+		{
+			type: 'normal',
+			stamp: ['regional-championships']
+		},
+		{
+			type: 'normal',
+			stamp: ['regional-championships', 'staff']
+		},
+		{
+			type: 'normal',
+			stamp: ['ultra-ball-league']
+		}
 	]
 }
 

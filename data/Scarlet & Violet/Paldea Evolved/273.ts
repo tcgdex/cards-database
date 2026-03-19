@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Canarbello",
+		en: "Quaxwell",
+		es: "Quaxwell",
+		it: "Quaxwell",
+		pt: "Quaxwell",
+		de: "Fuentente"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-		cardmarket: 715527
+		cardmarket: 715748
 	}
 }
 

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Anorith",
+		fr: "Anorith"
 	},
 
 	suffix: "EX",
@@ -83,6 +84,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 3,
 
 	thirdParty: {
 		cardmarket: 276961,

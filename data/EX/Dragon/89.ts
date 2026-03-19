@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Flaaffy",
+		fr: "Lainergie"
 	},
 
 	suffix: "EX",
@@ -80,6 +81,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 3,
 
 	thirdParty: {
 		tcgplayer: 83550,

@@ -14,6 +14,9 @@ const card: Card = {
 		pt: "Beldum do Steven"
 	},
 
+
+	illustrator: "hncl",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 70,

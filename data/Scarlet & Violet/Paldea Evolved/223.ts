@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Darkness"],
+	evolveFrom: {
+		fr: "Gribouraigne",
+		en: "Shroodle",
+		es: "Shroodle",
+		it: "Shroodle",
+		pt: "Shroodle",
+		de: "Sproxi"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +83,7 @@ const card: Card = {
 	illustrator: "Oswaldo KATO",
 
 	thirdParty: {
-		cardmarket: 715621
+		cardmarket: 715698
 	}
 }
 

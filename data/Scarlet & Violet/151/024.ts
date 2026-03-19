@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 270,
 	types: ["Darkness"],
+	evolveFrom: {
+		fr: "Abo",
+		en: "Ekans",
+		es: "Ekans",
+		it: "Ekans",
+		pt: "Ekans",
+		de: "Rettan"
+	},
 	stage: "Stage1",
 
 	attacks: [{

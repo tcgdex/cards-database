@@ -99,6 +99,10 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos'
 		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program']
+		}
 	]
 }
 

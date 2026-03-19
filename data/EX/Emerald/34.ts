@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Zigzagoon",
+		fr: "Zigzaton"
 	},
 
 	stage: "Stage1",
@@ -69,6 +70,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 0,
 
 	thirdParty: {
 		tcgplayer: 86806,

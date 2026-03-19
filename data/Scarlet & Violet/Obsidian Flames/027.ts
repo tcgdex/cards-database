@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fire"],
+	evolveFrom: {
+		fr: "Salamèche",
+		en: "Charmander",
+		es: "Charmander",
+		it: "Charmander",
+		pt: "Charmander",
+		de: "Glumanda"
+	},
 	stage: "Stage1",
 
 	attacks: [{

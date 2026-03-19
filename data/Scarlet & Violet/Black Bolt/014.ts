@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Darmanitan"
 	},
 
+	illustrator: "svlt",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
@@ -84,7 +85,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 836069
+		cardmarket: 835929
 	}
 }
 

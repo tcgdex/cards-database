@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Holon's Magnemite",
+		fr: "Magneti d'Holon"
 	},
 
 	stage: "Stage1",
@@ -63,6 +64,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 276785,

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fighting"],
+	evolveFrom: {
+		fr: "Colossinge",
+		en: "Primeape",
+		es: "Primeape",
+		it: "Primeape",
+		pt: "Primeape",
+		de: "Rasaff"
+	},
 	stage: "Stage2",
 
 	attacks: [{

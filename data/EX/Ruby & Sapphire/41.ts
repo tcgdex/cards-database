@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mudkip",
+		fr: "Gobou"
 	},
 
 	stage: "Stage1",
@@ -73,8 +74,11 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
-		cardmarket: 275688,
+		cardmarket: 275689,
 		tcgplayer: 87233
 	},
 

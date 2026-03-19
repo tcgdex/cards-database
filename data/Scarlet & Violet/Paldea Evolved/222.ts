@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Darkness"],
+	evolveFrom: {
+		fr: "Ymphect",
+		en: "Pupitar",
+		es: "Pupitar",
+		it: "Pupitar",
+		pt: "Pupitar",
+		de: "Pupitar"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Nurikabe",
 
 	thirdParty: {
-		cardmarket: 715610
+		cardmarket: 715697
 	}
 }
 

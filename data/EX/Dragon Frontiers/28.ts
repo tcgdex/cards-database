@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dratini",
+		fr: "Minidraco"
 	},
 
 	stage: "Stage1",
@@ -62,6 +63,9 @@ const card: Card = {
 
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 277233

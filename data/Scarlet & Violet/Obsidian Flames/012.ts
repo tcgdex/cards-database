@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Brocélôme",
+		en: "Phantump",
+		es: "Phantump",
+		it: "Phantump",
+		pt: "Phantump",
+		de: "Paragoni"
+	},
 	stage: "Stage1",
 
 	abilities: [{

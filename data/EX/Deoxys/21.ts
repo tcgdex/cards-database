@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wingull",
+		fr: "Goélise"
 	},
 
 	stage: "Stage1",
@@ -81,6 +82,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 1,
 
 	thirdParty: {
 		tcgplayer: 87976,

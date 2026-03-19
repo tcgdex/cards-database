@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 300,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Forgella",
+		en: "Tinkatuff",
+		es: "Tinkatuff",
+		it: "Tinkatuff",
+		pt: "Tinkatuff",
+		de: "Tafforgita"
+	},
 	stage: "Stage2",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 
 	thirdParty: {
-		cardmarket: 715715
+		cardmarket: 715737
 	}
 }
 

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Beartic"
 	},
 
+	illustrator: "OOYAMA",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,

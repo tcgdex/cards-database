@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 70,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Rattata",
+		en: "Rattata",
+		es: "Rattata",
+		it: "Rattata",
+		pt: "Rattata",
+		de: "Rattfratz"
+	},
 	stage: "Stage1",
 
 	attacks: [{

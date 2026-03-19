@@ -16,6 +16,8 @@ const card: Card = {
 
 	rarity: "Double rare",
 	category: "Pokemon",
+
+	dexId: [319],
 	hp: 330,
 	types: ["Darkness"],
 	stage: "Stage1",
@@ -71,7 +73,18 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
+	thirdParty: {
+		cardmarket: 857636,
+		tcgplayer: 662191
+	}
 }
 
 export default card

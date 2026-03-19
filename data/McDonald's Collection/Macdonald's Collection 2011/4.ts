@@ -14,13 +14,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Water Pulse"
+			en: "Water Pulse",
+			fr: "Vibraqua"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+			en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
 		}
 	}],
 
@@ -32,7 +34,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Oshawott"
+		en: "Oshawott",
+		fr: "Moustillon"
 	},
 
 	rarity: "None",
@@ -40,6 +43,7 @@ const card: Card = {
 	types: ["Water"],
 
 	thirdParty: {
+		cardmarket: 281793,
 		tcgplayer: 87893
 	}
 }

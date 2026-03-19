@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Barraskewda"
 	},
 
+
+	illustrator: "Kyoko Umemoto",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

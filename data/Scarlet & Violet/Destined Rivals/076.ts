@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Manectric"
 	},
 
+
+	illustrator: "Izucch",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "kirisAki",
 	category: "Pokemon",
+
+	dexId: [35],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",

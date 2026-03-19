@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Koffing del Equipo Rocket"
 	},
 
+
+	illustrator: "kodama",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

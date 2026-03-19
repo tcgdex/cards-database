@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Skarmory",
+		fr: "Airmure",
 		de: "Panzaeron"
 	},
 
@@ -31,10 +32,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Steel Coat",
+				fr: "Manteau d'acier",
 				de: "Stahlmantel"
 			},
 			effect: {
 				en: "Search your deck for a Metal Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à l'un de vos Pokémon. Mélangez ensuite votre deck.",
 				de: "Durchsuche dein Deck nach einer -Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 
@@ -47,6 +50,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Wing",
+				fr: "Aile tranchante",
 				de: "Rasierflügel"
 			},
 

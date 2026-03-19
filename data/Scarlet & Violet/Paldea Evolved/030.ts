@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fire"],
+	evolveFrom: {
+		fr: "Braisillon",
+		en: "Fletchinder",
+		es: "Fletchinder",
+		it: "Fletchinder",
+		pt: "Fletchinder",
+		de: "Dartignis"
+	},
 	stage: "Stage2",
 
 	attacks: [{

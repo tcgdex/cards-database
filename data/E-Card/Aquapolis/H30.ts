@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weepinbell",
+		fr: "Boustiflor"
 	},
 
 	stage: "Stage2",
@@ -75,7 +76,7 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 275068,
+		cardmarket: 275114,
 		tcgplayer: 90360
 	},
 

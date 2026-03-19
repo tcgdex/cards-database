@@ -10,6 +10,8 @@ const card: Card = {
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
+	hp: 60, // This card has an HP due to its effect
+
 	effect: {
 		ja: "このカードは、HP60のタイプのたねポケモンとして、場に出せる。このカードは、特殊状態にならず、にげられない。 自分の番の中でなら、場に出ているこのカードをトラッシュできる。",
 	},
@@ -24,16 +26,23 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+	],
 
 	trainerType: "Item",
 	regulationMark: "I",
 	rarity: "Common",
+	thirdParty: {
+		cardmarket: 829084,
+		tcgplayer: 636634,
+	},
 };
 
 export default card;

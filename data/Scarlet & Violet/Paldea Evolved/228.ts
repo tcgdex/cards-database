@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Girafarig",
+		en: "Girafarig",
+		es: "Girafarig",
+		it: "Girafarig",
+		pt: "Girafarig",
+		de: "Girafarig"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -66,7 +74,7 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 
 	thirdParty: {
-		cardmarket: 715630
+		cardmarket: 715703
 	}
 }
 

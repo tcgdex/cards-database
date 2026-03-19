@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Axew"
 	},
 
+	illustrator: "Taiga Kasai",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

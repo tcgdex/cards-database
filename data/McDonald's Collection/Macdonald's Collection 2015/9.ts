@@ -2,29 +2,42 @@ import { Card } from '../../../interfaces'
 import Set from '../Macdonald\'s Collection 2015'
 
 const card: Card = {
-	dexId: [307],
+	dexId: [
+		307,
+	],
 	set: Set,
-
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
-		firstEdition: false
+		firstEdition: false,
 	},
-
 	name: {
-		en: "Meditite"
+		en: "Meditite",
+		fr: "Méditikka",
 	},
-
 	rarity: "None",
 	category: "Pokemon",
 	hp: 50,
-	types: ["Fighting"],
+	types: [
+		"Fighting",
+	],
 	stage: "Basic",
-
 	thirdParty: {
-		tcgplayer: 110425
-	}
+		cardmarket: 293325,
+		tcgplayer: 110425,
+	},
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				fr: "Claque",
+			},
+			damage: "20",
+		},
+	],
 }
 
 export default card

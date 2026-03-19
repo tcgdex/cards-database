@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slugma",
+		fr: "Limagma"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 3,
 
 	thirdParty: {
 		tcgplayer: 87013,

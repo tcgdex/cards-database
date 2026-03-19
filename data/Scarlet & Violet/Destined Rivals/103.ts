@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Gabite de Cynthia"
 	},
 
+
+	illustrator: "Taira Akitsu",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
+	evolveFrom: {
+		fr: "Amonita",
+		en: "Omanyte",
+		es: "Omanyte",
+		it: "Omanyte",
+		pt: "Omanyte",
+		de: "Amonitas"
+	},
 	stage: "Stage2",
 
 	abilities: [{

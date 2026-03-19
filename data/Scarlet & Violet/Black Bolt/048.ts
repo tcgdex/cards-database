@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gurdurr"
 	},
 
+	illustrator: "Shinya Mizuno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

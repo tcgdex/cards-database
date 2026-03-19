@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Water Energy",
 		fr: "Énergie Eau",
-		de: "Wasserenergie"
+		de: "Wasserenergie",
+		it: "Energia Acqua",
 	},
 
 	illustrator: "Keiji Kinebuchi",

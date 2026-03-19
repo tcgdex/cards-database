@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Conkeldurr"
 	},
 
+	illustrator: "Kazumasa Yasukuni",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,

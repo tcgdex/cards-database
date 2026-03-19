@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Starly"
+		en: "Starly",
+		fr: "Étourmi"
 	},
 
 	stage: "Stage1",
@@ -63,8 +64,9 @@ const card: Card = {
 	illustrator: "kantaro",
 
 	thirdParty: {
-		cardmarket: 702445
-	}
+        cardmarket: 702445,
+        tcgplayer: 488038
+    }
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Squirtle",
+		fr: "Carapuce"
 	},
 
 	stage: "Stage1",
@@ -70,8 +71,11 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
-		cardmarket: 277123,
+		cardmarket: 277124,
 		tcgplayer: 90488
 	},
 

@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		139,
 	],
+	
+	hp: 120,
 
 	types: [
 		"Water",

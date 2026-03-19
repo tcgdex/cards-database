@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Archen"
 	},
 
+	illustrator: "Haru Akasaka",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -60,7 +61,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	thirdParty: {
-		cardmarket: 835991
+		cardmarket: 835993
 	}
 }
 

@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blastoise"
+		en: "Blastoise",
+		fr: "Reshiram"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -18,11 +19,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hydro Pump"
+			en: "Hydro Pump",
+			fr: "Vent Brûlant"
 		},
 
 		effect: {
-			en: "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count."
+			en: "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
+			fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 		},
 
 		damage: "40+",

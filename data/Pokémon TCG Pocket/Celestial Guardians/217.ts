@@ -16,6 +16,8 @@ const card: Card = {
 	illustrator: "Nisota Niso",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [9],
 	hp: 150,
 	types: ["Water"],
 

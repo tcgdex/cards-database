@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Venonat",
+		fr: "Mimitoss"
 	},
 
 	stage: "Stage1",
@@ -91,7 +92,7 @@ const card: Card = {
 	retreat: 1,
 
 	thirdParty: {
-		cardmarket: 372305,
+		cardmarket: 372717,
 		tcgplayer: 189052
 	}
 }

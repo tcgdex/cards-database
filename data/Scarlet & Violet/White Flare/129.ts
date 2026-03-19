@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gigalith"
 	},
 
+	illustrator: "toi8",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 170,

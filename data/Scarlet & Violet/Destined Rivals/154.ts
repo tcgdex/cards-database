@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Porygon2 del Equipo Rocket"
 	},
 
+
+	illustrator: "Takeshi Nakamura",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

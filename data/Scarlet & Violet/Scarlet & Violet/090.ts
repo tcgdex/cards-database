@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Drifloon"
+		en: "Drifloon",
+		fr: "Baudrive"
 	},
 
 	stage: "Stage1",
@@ -70,8 +71,9 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	thirdParty: {
-		cardmarket: 702386
-	}
+        cardmarket: 702386,
+        tcgplayer: 487956
+    }
 }
 
 export default card

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 310,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Matourgeon",
+		en: "Floragato",
+		es: "Floragato",
+		it: "Floragato",
+		pt: "Floragato",
+		de: "Feliospa"
+	},
 	stage: "Stage2",
 
 	abilities: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	thirdParty: {
-		cardmarket: 715488
+		cardmarket: 715731
 	}
 }
 

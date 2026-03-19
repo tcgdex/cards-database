@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Beldum",
+		fr: "Terhal"
 	},
 
 	stage: "Stage1",
@@ -75,6 +76,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		tcgplayer: 87375,

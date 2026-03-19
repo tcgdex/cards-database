@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Protón del Equipo Rocket"
 	},
 
+
+	illustrator: "Naoki Saito",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 

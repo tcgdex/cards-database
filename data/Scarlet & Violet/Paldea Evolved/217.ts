@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Forgerette",
+		en: "Tinkatink",
+		es: "Tinkatink",
+		it: "Tinkatink",
+		pt: "Tinkatink",
+		de: "Forgita"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 
 	thirdParty: {
-		cardmarket: 715578
+		cardmarket: 715692
 	}
 }
 

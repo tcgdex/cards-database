@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Poussacha",
+		en: "Sprigatito",
+		es: "Sprigatito",
+		it: "Sprigatito",
+		pt: "Sprigatito",
+		de: "Felori"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	thirdParty: {
-		cardmarket: 715487
+		cardmarket: 715672
 	}
 }
 

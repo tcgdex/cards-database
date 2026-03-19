@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Klink"
 	},
 
+	illustrator: "Nobuhiro Imagawa",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Surskit",
+		fr: "Arakdo"
 	},
 
 	stage: "Stage1",
@@ -78,6 +79,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 0,
 
 	thirdParty: {
 		tcgplayer: 87246,

@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [321],
 	hp: 200,
 	types: ["Water"],
 

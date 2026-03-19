@@ -50,6 +50,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Psyburn",
+				fr: "Brûlure Psy"
 			},
 
 			damage: 70,
@@ -67,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	thirdParty: {
-		cardmarket: 289791
+		cardmarket: 553449
 	}
 }
 

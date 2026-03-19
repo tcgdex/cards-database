@@ -17,7 +17,7 @@ const swsh35: Set = {
 	serie: serie,
 
 	cardCount: {
-		official: 70
+		official: 73
 	},
 
 	releaseDate: "2020-09-25",

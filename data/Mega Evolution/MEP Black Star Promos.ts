@@ -24,6 +24,10 @@ const set: Set = {
 	abbreviations: {
 		official: "MEP"
 	},
+
+	thirdParty: {
+		cardmarket: 6232
+	}
 }
 
 export default set

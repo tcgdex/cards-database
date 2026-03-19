@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
+	evolveFrom: {
+		fr: "Mimitoss",
+		en: "Venonat",
+		es: "Venonat",
+		it: "Venonat",
+		pt: "Venonat",
+		de: "Bluzuk"
+	},
 	stage: "Stage1",
 
 	attacks: [{

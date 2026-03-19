@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nincada",
+		fr: "Ningale"
 	},
 
 	stage: "Stage1",
@@ -74,8 +75,11 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 0,
+
 	thirdParty: {
-		cardmarket: 275895,
+		cardmarket: 275915,
 		tcgplayer: 87784
 	}
 }

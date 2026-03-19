@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cinccino"
 	},
 
+	illustrator: "tono",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,

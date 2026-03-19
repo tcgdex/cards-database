@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
+	evolveFrom: {
+		fr: "Léboulérou",
+		en: "Rellor",
+		es: "Rellor",
+		it: "Rellor",
+		pt: "Rellor",
+		de: "Relluk"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -75,7 +83,7 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	thirdParty: {
-		cardmarket: 715574
+		cardmarket: 715690
 	}
 }
 

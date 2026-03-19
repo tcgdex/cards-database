@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rhyhorn",
+		fr: "Rhinocorne"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 276120,

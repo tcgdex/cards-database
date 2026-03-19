@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Quilava",
+		fr: "Feurisson"
 	},
 
 	suffix: "EX",
@@ -82,6 +83,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 275876,

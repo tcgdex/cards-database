@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Mienshao"
 	},
 
+	illustrator: "Atsuya Uki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,

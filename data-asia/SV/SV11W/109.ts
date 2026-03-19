@@ -36,12 +36,11 @@ const card: Card = {
 
 	weaknesses: [{ type: "Metal", value: "x2" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	evolveFrom: {
 		ja: "バニプッチ",
@@ -51,6 +50,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [583],
+	thirdParty: {
+		cardmarket: 829465,
+		tcgplayer: 636662,
+	},
 };
 
 export default card;

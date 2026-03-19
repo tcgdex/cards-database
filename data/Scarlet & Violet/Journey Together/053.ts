@@ -92,6 +92,10 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program']
+		}
 	]
 }
 

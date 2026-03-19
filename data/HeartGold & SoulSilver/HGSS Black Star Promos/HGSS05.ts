@@ -4,6 +4,7 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Hoothoot",
+		fr: "Hoothoot"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Insomnia",
+				fr: "Insomnia"
 			},
 			effect: {
 				en: "Hoothoot can't be Asleep.",
+				fr: "Hoothoot ne peut pas être endormi."
 			},
 		},
 	],
@@ -38,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
+				fr: "Picpic"
 			},
 
 			damage: 10,

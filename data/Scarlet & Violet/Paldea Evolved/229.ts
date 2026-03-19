@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 140,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Insolourdo",
+		en: "Dunsparce",
+		es: "Dunsparce",
+		it: "Dunsparce",
+		pt: "Dunsparce",
+		de: "Dummisel"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -68,7 +76,7 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	thirdParty: {
-		cardmarket: 715632
+		cardmarket: 715704
 	}
 }
 

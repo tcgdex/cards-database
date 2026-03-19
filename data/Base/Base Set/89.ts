@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Revive",
 		fr: "Réanimation",
-		de: "Beleber"
+		de: "Beleber",
+		it: "Revitalizzazione"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,7 +16,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Placez 1 carte Pokémon de base de votre pile de défausse sur votre Banc. Placez sur lui un nombre de marqueurs de dégâts égal à la moitié de ses PV (arrondis à la dizaine inférieure la plus proche). (Vous ne pouvez pas jouer Réanimation si votre Banc est plein.)",
-		de: "Lege eine Basis-Pokémon-Karte Deines Ablagestapel auf Deine Bank. Lege Schadensmarken in Höhe der Hälfte der KP des Pokémon (auf die nächste Zehnerstelle abgerundet) auf die Pokémon-Karte. (Du kannst Beleber nicht einsetzen, wenn Deine Bank voll ist.)"
+		de: "Lege eine Basis-Pokémon-Karte Deines Ablagestapel auf Deine Bank. Lege Schadensmarken in Höhe der Hälfte der KP des Pokémon (auf die nächste Zehnerstelle abgerundet) auf die Pokémon-Karte. (Du kannst Beleber nicht einsetzen, wenn Deine Bank voll ist.)",
+		it: "Metti in Panchina un Pokémon Base dalla tua pila degli scarti. Metti su quel Pokémon un numero di segnalini danno pari alla metà dei suoi PV (arrotondati per difetto alla decina più vicina). (Non puoi giocare questa carta se la tua Panchina è piena.)"
 	},
 
 	thirdParty: {

@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Dragon"],
+	evolveFrom: {
+		fr: "Sonistrelle",
+		en: "Noibat",
+		es: "Noibat",
+		it: "Noibat",
+		pt: "Noibat",
+		de: "eF-eM"
+	},
 	stage: "Stage1",
 
 	attacks: [{
@@ -77,7 +85,7 @@ const card: Card = {
 	illustrator: "Eske Yoshinob",
 
 	thirdParty: {
-		cardmarket: 715628
+		cardmarket: 715721
 	}
 }
 

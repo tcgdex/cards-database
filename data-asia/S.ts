@@ -3,6 +3,7 @@ import { Serie } from '../interfaces'
 const serie: Serie = {
 	name: {
 		ja: '剣と盾',
+		'zh-cn': '剑&盾',
 		'zh-tw': '劍＆盾',
 		id: 'Pedang & Perisai',
 		th: 'ซอร์ด แอนด์ ชีลด์',

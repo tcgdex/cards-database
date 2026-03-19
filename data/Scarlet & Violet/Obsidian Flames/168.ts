@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 110,
 	types: ["Colorless"],
+	evolveFrom: {
+		fr: "Zigzaton",
+		en: "Zigzagoon",
+		es: "Zigzagoon",
+		it: "Zigzagoon",
+		pt: "Zigzagoon",
+		de: "Zigzachs"
+	},
 	stage: "Stage1",
 
 	attacks: [{

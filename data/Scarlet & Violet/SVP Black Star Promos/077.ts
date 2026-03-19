@@ -18,6 +18,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
+	evolveFrom: {
+		en: "Sprigatito",
+		fr: "Poussacha",
+		es: "Sprigatito",
+		it: "Sprigatito",
+		pt: "Sprigatito",
+		de: "Felori"
+	},
 	stage: "Stage1",
 
 	attacks: [{

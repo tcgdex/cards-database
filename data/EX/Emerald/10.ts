@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grovyle",
+		fr: "Massko"
 	},
 
 	stage: "Stage2",
@@ -95,6 +96,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+	
+	retreat: 2,
 
 	thirdParty: {
 		tcgplayer: 97730,

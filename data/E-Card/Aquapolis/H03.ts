@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spinarak",
+		fr: "Mimigal"
 	},
 
 	stage: "Stage1",
@@ -74,7 +75,7 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 275072,
+		cardmarket: 275075,
 		tcgplayer: 83614
 	},
 

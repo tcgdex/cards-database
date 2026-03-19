@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Numel",
+		fr: "Chamallot"
 	},
 
 	stage: "Stage1",
@@ -76,6 +77,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 3,
 
 	thirdParty: {
 		cardmarket: 275652,

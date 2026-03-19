@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Toedscool"
+		en: "Toedscool",
+		fr: "Terracool"
 	},
 
 	stage: "Stage1",
@@ -81,8 +82,9 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	thirdParty: {
-		cardmarket: 702322
-	}
+        cardmarket: 702322,
+        tcgplayer: 487864
+    }
 }
 
 export default card

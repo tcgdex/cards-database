@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "HYOGONOSUKE",
 	category: "Pokemon",
+
+	dexId: [151],
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Basic",

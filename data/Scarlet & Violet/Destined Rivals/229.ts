@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Moltres ex del Equipo Rocket"
 	},
 
+
+	illustrator: "AKIRA EGAWA",
+
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 220,

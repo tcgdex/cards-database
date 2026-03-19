@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Naoki Saito",
 	category: "Pokemon",
+
+	dexId: [24],
 	hp: 100,
 	types: ["Darkness"],
 	stage: "Stage1",

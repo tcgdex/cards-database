@@ -31,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fly",
+				fr: "Vol"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Rayquaza during your opponent’s next turn.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Rayquaza lors du prochain tour de votre adversaire."
 			},
 			damage: 10,
 
@@ -45,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Claw",
+				fr: "Griffe de dragon"
 			},
 
 			damage: 30,

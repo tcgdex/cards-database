@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Staryu de Misty"
 	},
 
+	illustrator: "Shinya Komatsu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

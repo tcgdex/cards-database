@@ -16,6 +16,8 @@ const card: Card = {
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [466],
 	hp: 120,
 	types: ["Lightning"],
 
