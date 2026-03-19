@@ -48,6 +48,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	thirdParty: {
+		cardmarket: 412859,
 		tcgplayer: 200963
 	}
 }

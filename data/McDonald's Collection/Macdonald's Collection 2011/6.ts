@@ -43,6 +43,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	thirdParty: {
+		cardmarket: 281795,
 		tcgplayer: 83929
 	}
 }

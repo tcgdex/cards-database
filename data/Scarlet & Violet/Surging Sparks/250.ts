@@ -28,10 +28,12 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			foil: "gold"
+		}
+	],
 
 	illustrator: "AYUMI ODASHIMA",
 

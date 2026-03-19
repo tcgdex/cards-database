@@ -9,6 +9,8 @@ const card: Card = {
 	description: {
 		en: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
 	},
+	
+	hp: 30,
 
 	stage: "Basic",
 
@@ -34,6 +36,7 @@ const card: Card = {
 	rarity: "None",
 
 	thirdParty: {
+		cardmarket: 295140,
 		tcgplayer: 275060
 	}
 }

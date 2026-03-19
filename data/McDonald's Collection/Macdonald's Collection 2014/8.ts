@@ -6,6 +6,10 @@ const card: Card = {
 		209,
 	],
 	set: Set,
+	illustrator: "Naoki Saito",
+	description: {
+		en: "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.",
+	},
 	variants: {
 		normal: false,
 		reverse: false,
@@ -24,6 +28,7 @@ const card: Card = {
 	],
 	stage: "Basic",
 	thirdParty: {
+		cardmarket: 281660,
 		tcgplayer: 110413,
 	},
 	attacks: [
@@ -33,11 +38,26 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Headbutt",
 				fr: "Coup d'Boule",
 			},
 			damage: "20",
 		},
 	],
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Darkness",
+			value: "-20"
+		}
+	],
+	retreat: 2,
+
 }
 
 export default card

@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Uncommon",
 	category: "Pokemon",
+
+	dexId: [128],
 	hp: 130,
 	types: ["Fighting"],
 	stage: "Basic",
-	dexId: [128],
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -84,7 +85,8 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 857623
+		cardmarket: 857623,
+		tcgplayer: 662208
 	}
 }
 

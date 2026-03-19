@@ -98,6 +98,15 @@ const card: Card = {
 			type: 'holo',
 			stamp: ["eb-games"]
 		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['player-rewards-program']
+		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program']
+		}
 	]
 }
 

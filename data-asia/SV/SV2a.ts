@@ -3,6 +3,7 @@ import serie from '../SV'
 
 const set: Set = {
 	id: 'SV2a',
+
 	name: {
 		ja: 'ポケモンカード151',
 		ko: '포켓몬 카드 151',
@@ -16,11 +17,16 @@ const set: Set = {
 	cardCount: {
 		official: 165
 	},
+
 	releaseDate: {
 		ja: '2023-06-16',
 		'zh-tw': '2023-06-30',
 		id: '2023-07-28',
 		th: '2023-07-28'
+	},
+
+	thirdParty: {
+		cardmarket: 5328
 	}
 }
 

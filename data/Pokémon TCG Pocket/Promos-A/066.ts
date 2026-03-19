@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Amelicart",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [778],
 	hp: 70,
 	types: ["Psychic"],
 

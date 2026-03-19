@@ -9,6 +9,8 @@ const card: Card = {
 	description: {
 		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
 	},
+	
+	hp: 40,
 
 	stage: "Basic",
 
@@ -33,6 +35,7 @@ const card: Card = {
 	rarity: "None",
 
 	thirdParty: {
+		cardmarket: 295145,
 		tcgplayer: 275065
 	}
 }

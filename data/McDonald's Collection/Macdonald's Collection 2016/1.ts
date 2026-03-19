@@ -9,6 +9,8 @@ const card: Card = {
 	description: {
 		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
 	},
+	
+	hp: 60,
 
 	stage: "Basic",
 
@@ -39,6 +41,7 @@ const card: Card = {
 	rarity: "None",
 
 	thirdParty: {
+		cardmarket: 295137,
 		tcgplayer: 275057
 	}
 }

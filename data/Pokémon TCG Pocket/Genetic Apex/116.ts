@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Ken Sugimori",
 	category: "Pokemon",
+
+	dexId: [64],
 	hp: 80,
 	types: ["Psychic"],
 	stage: "Stage1",

@@ -96,10 +96,6 @@ const card: Card = {
 			type: 'holo'
 		},
 		{
-			type: 'holo',
-			foil: 'cosmos'
-		},
-		{
 			type: 'normal'
 		},
 	]

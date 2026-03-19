@@ -41,6 +41,8 @@ interface variant_detailed {
 	 * - jumbo: also said oversized, big card.
 	 */
 	size?: 'standard' | 'jumbo'
+
+	// TODO: rename to 'stamps' on v3
 	/**
 	 * indicate that this variant has a stamp
 	 * a card may have multiple stamps, example "Ethan's Typhlosion pre-release staff"
@@ -56,6 +58,7 @@ interface variant_detailed {
 	 * - snowflake: a card that is stamped with a snowflake, available in the yearly advent calendar
 	 * - trick-or-trade: a card that is stamped with a pikachu-pumpkin, available in the yearly halloween/trick-or-trade boosters
 	 * - ace-trainer: a card that is stamped with a golden ACE TRAINER, won by getting 200 championship points in the season since 2025 season.
+	 * - player-rewards-program: a card that is stamped with the player reward logo, available in the yearly player rewards program (play! pokemon prize pack)
 	 */
 	stamp?: Array<'1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
 		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
@@ -78,7 +81,7 @@ interface variant_detailed {
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
-	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
+	foil?: 'pokeball' | 'greatball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
 	| 'mirror' | 'league' | 'player-reward' | 'professor-program'
 
 	/**

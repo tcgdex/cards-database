@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "rika",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [471],
 	hp: 140,
 	types: ["Water"],
 
