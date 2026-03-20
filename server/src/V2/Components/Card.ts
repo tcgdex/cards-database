@@ -22,7 +22,7 @@ import zhcn from '../../../generated/zh-cn/cards.json'
 import zhtw from '../../../generated/zh-tw/cards.json'
 import { getCardMarketPrice } from '../../libs/providers/cardmarket'
 import { getTCGPlayerPrice } from '../../libs/providers/tcgplayer'
-import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
+import { executeQuery, type Query, type QueryValues } from '../../libs/QueryEngine/filter'
 
 // any is CompiledCard that is currently not mapped correctly
 const list: Record<`${string | any}${SupportedLanguages | string}`, any> = {}
@@ -146,6 +146,27 @@ export async function getCardById(lang: SupportedLanguages, id: string) {
 
 export async function findCards(lang: SupportedLanguages, query: Query<SDKCard>) {
 	return executeQuery(await getAllCards(lang), query).data
+}
+
+/**
+ * Returns the set of card IDs (lowercased) whose name matches the given query value
+ * in ANY language's compiled card list.
+ *
+ * This allows callers to search by a card's name regardless of which language
+ * the name was provided in (e.g. searching "Dracaufeu" in /v2/en/cards still
+ * returns Charizard).
+ */
+export function getMatchingIdsByAnyName(nameQueryValue: QueryValues<string>): Set<string> {
+	const matchingIds = new Set<string>()
+
+	for (const langCards of Object.values(cards)) {
+		const matched = executeQuery(langCards as Array<{ id: string; name: string }>, { name: nameQueryValue })
+		for (const card of matched.data) {
+			matchingIds.add(card.id.toLowerCase())
+		}
+	}
+
+	return matchingIds
 }
 
 export async function findOneCard(lang: SupportedLanguages, query: Query<SDKCard>) {

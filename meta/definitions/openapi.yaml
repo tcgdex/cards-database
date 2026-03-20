@@ -61,6 +61,7 @@ paths:
       operationId: cards
       parameters:
         - $ref: '#/components/parameters/filter'
+        - $ref: '#/components/parameters/anyName'
         - $ref: '#/components/parameters/sortField'
         - $ref: '#/components/parameters/sortOrder'
         - $ref: '#/components/parameters/paginationPage'
@@ -1000,6 +1001,28 @@ components:
         additionalProperties:
           type: string
       example: "{\"name\": \"eq:Furret\", \"hp\": \"lte:60\"}"
+
+    anyName:
+      name: anyName
+      in: query
+      required: false
+      description: |
+        Search cards by name across all languages.
+
+        Unlike the `name` filter which only matches the name in the requested language,
+        `anyName` searches every language's card names and returns the matching cards
+        in the requested language.
+
+        Supports the same operators as other filters:
+        - Default/`like:` - Contains match (case insensitive)
+        - `eq:` - Exact match
+        - `not:`/`notlike:` - Does not contain
+        - `neq:` - Not equal
+
+        Example: searching `anyName=Dracaufeu` on `/v2/en/cards` returns Charizard.
+      schema:
+        type: [string, null]
+      example: "Dracaufeu"
 
     sortField:
       name: "sort:field"
