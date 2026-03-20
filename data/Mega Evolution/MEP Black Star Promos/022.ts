@@ -58,6 +58,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"]
+		}
+	]
 }
 
 export default card

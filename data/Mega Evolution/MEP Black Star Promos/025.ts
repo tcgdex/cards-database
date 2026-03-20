@@ -70,6 +70,16 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		}
+	]
 }
 
 export default card
