@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Cyclizar",
+    fr: "Motorizard"
   },
   illustrator: "AKIRA EGAWA",
   rarity: "Two Diamond",

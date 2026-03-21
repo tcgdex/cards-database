@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Chien-Pao",
+    fr: "Baojian"
   },
   suffix: "EX",
   illustrator: "aky CG Works",

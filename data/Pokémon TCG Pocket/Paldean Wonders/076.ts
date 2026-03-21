@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Revavroom",
+    fr: "Vrombotor"
   },
   illustrator: "Anesaki Dynamic",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [966],
   evolveFrom: {
     en: "Varoom",
+    fr: "Vrombi"
   },
   description: {
     en: "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids.",

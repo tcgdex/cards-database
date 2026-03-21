@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Rellor",
+    fr: "Léboulérou"
   },
   illustrator: "Anesaki Dynamic",
   rarity: "One Diamond",
@@ -12,9 +13,6 @@ const card: Card = {
   hp: 50,
   types: ["Grass"],
   dexId: [953],
-  evolveFrom: {
-    en: "Rellor",
-  },
   description: {
     en: "It rolls its mud ball around while the energy it needs for evolution matures. Eventually the time comes for it to evolve.",
   },

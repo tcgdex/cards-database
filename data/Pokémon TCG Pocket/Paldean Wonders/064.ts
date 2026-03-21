@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Paldean Wooper",
+    fr: "Axoloto de Paldea"
   },
   illustrator: "Pani Kobayashi",
   rarity: "One Diamond",

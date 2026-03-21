@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Pawmot",
+    fr: "Pohmarmotte"
   },
   illustrator: "Mizue",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [923],
   evolveFrom: {
     en: "Pawmo",
+    fr: "Pohmotte"
   },
   description: {
     en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",

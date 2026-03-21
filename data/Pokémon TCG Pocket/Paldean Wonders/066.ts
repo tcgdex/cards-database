@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Lokix",
+    fr: "Gambex"
   },
   illustrator: "Souichirou Gunjima",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [920],
   evolveFrom: {
     en: "Nymble",
+    fr: "Lilliterelle"
   },
   description: {
     en: "It uses its normally folded third set of legs when in Showdown Mode. This places a huge burden on its body, so it can't stay in this mode for long.",

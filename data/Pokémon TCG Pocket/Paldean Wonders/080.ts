@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Oinkologne",
+    fr: "Fragroin"
   },
   illustrator: "Pani Kobayashi",
   rarity: "One Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [916],
   evolveFrom: {
     en: "Lechonk",
+    fr: "Gourmelet"
   },
   description: {
     en: "It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body.",

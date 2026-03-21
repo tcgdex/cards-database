@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Quaquaval",
+    fr: "Palmaval"
   },
   illustrator: "Kouki Saitou",
   rarity: "Three Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [914],
   evolveFrom: {
     en: "Quaxwell",
+    fr: "Canarbello"
   },
   description: {
     en: "Dancing in ways that evoke far-away places, this Pokémon mesmerizes all that see it. Flourishes of its decorative water feathers slice into its foes.",

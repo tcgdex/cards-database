@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Tandemaus",
+    fr: "Compagnol"
   },
   illustrator: "Akira Komayama",
   rarity: "One Diamond",

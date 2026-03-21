@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Rabsca",
+    fr: "Bérasca"
   },
   illustrator: "Oswaldo KATO",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [954],
   evolveFrom: {
     en: "Rellor",
+    fr: "Léboulérou"
   },
   description: {
     en: "An infant sleeps inside the ball. Rabsca rolls the ball soothingly with its legs to ensure the infant sleeps comfortably.",

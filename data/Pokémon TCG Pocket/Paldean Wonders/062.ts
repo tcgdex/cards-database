@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Ting-Lu",
+    fr: "Dinglu"
   },
   illustrator: "AKIRA EGAWA",
   rarity: "Three Diamond",

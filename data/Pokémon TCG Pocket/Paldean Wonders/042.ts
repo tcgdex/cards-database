@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Bellibolt",
+    fr: "Ampibidou"
   },
   suffix: "EX",
   illustrator: "PLANETA Yamashita",
@@ -14,6 +15,7 @@ const card: Card = {
   types: ["Lightning"],
   evolveFrom: {
     en: "Tadbulb",
+    fr: "Têtampoule"
   },
   stage: "Stage1",
   attacks: [

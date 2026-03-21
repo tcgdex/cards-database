@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Dondozo",
+    fr: "Oyacata"
   },
   illustrator: "Souichirou Gunjima",
   rarity: "Two Diamond",

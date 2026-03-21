@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Shroodle",
+    fr: "Gribouraigne"
   },
   illustrator: "Akira Komayama",
   rarity: "One Diamond",

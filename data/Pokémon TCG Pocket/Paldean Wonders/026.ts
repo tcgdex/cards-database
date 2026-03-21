@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Wugtrio",
+    fr: "Triopikeau"
   },
   illustrator: "Kouki Saitou",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [961],
   evolveFrom: {
     en: "Wiglett",
+    fr: "Taupikeau"
   },
   description: {
     en: "A variety of fish Pokémon, Wugtrio was once considered to be a regional form of Dugtrio.",

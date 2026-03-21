@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Scovillain",
+    fr: "Scovilain"
   },
   illustrator: "kodama",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [952],
   evolveFrom: {
     en: "Capsakid",
+    fr: "Pimito"
   },
   description: {
     en: "The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it.",

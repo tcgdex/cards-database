@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Orthworm",
+    fr: "Ferdeter"
   },
   illustrator: "Pani Kobayashi",
   rarity: "Two Diamond",

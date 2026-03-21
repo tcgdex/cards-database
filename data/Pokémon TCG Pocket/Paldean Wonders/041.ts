@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Tadbulb",
+    fr: "Têtampoule"
   },
   illustrator: "Saya Tsuruta",
   rarity: "One Diamond",

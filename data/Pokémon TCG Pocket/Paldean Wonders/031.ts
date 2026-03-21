@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Veluza",
+    fr: "Délestin"
   },
   illustrator: "Oswaldo KATO",
   rarity: "One Diamond",

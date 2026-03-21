@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Varoom",
+    fr: "Vrombi"
   },
   illustrator: "nagimiso",
   rarity: "One Diamond",
@@ -12,9 +13,7 @@ const card: Card = {
   hp: 60,
   types: ["Metal"],
   dexId: [965],
-  evolveFrom: {
-    en: "Basic",
-  },
+  
   description: {
     en: "The steel section is Varoom's actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
   },

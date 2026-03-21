@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Floragato",
+    fr: "Matourgeon"
   },
   illustrator: "Kouki Saitou",
   rarity: "One Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [907],
   evolveFrom: {
     en: "Sprigatito",
+    fr: "Poussacha"
   },
   description: {
     en: "The hardness of Floragato's fur depends on the Pokémon's mood. When Floragato is prepared to battle, its fur becomes pointed and needle sharp.",

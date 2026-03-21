@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Espathra",
+    fr: "Cléopsytra"
   },
   illustrator: "Sanosuke Sakuma",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [956],
   evolveFrom: {
     en: "Flittle",
+    fr: "Flotillon"
   },
   description: {
     en: "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",

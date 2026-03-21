@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Wo-Chien",
+    fr: "Chongjian"
   },
   illustrator: "Kouki Saitou",
   rarity: "Three Diamond",

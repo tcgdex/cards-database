@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Grafaiai",
+    fr: "Tag-Tag"
   },
   illustrator: "Souichirou Gunjima",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [945],
   evolveFrom: {
     en: "Shroodle",
+    fr: "Gribouraigne"
   },
   description: {
     en: "Each Grafaiai paints its own individual pattern, and it will paint that same pattern over and over again throughout its life.",

@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Houndstone",
+    fr: "Tomberro"
   },
   illustrator: "Kouki Saitou",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [972],
   evolveFrom: {
     en: "Greavard",
+    fr: "Toutombe"
   },
   description: {
     en: "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",

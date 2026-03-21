@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Palafin",
+    fr: "Superdofin"
   },
   illustrator: "Souichirou Gunjima",
   rarity: "Three Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [964],
   evolveFrom: {
     en: "Finizen",
+    fr: "Dofin"
   },
   description: {
     en: "This hero of the ocean swims at a speed of 50 knots and saves drowning people and Pokémon.",

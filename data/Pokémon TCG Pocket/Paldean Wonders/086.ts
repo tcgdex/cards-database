@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Electric Generator",
+    fr: "Générateur Électrique"
   },
   illustrator: "Toyste Beach",
   rarity: "Two Diamond",

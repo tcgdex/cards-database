@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Annihilape",
+    fr: "Courrousinge"
   },
   illustrator: "Anesaki Dynamic",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [979],
   evolveFrom: {
     en: "Primeape",
+    fr: "Colossinge"
   },
   description: {
     en: "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",

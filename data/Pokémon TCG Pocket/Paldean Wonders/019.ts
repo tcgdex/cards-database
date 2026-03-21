@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Charcadet",
+    fr: "Charbambin"
   },
   illustrator: "Souichirou Gunjima",
   rarity: "One Diamond",

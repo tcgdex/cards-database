@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Maschiff",
+    fr: "Grondogue"
   },
   illustrator: "KEIICHIRO ITO",
   rarity: "One Diamond",

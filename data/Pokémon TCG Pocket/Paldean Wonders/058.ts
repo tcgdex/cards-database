@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Paldean Tauros",
+    fr: "Tauros de Paldea"
   },
   illustrator: "Shin Nagasawa",
   rarity: "Two Diamond",

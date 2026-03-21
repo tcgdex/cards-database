@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Meowscarada",
+    fr: "Miascarade"
   },
   suffix: "EX",
   illustrator: "5ban Graphics",
@@ -14,6 +15,7 @@ const card: Card = {
   types: ["Grass"],
   evolveFrom: {
     en: "Floragato",
+    fr: "Matourgeon"
   },
   stage: "Stage2",
   attacks: [

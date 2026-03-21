@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Paldean Clodsire",
+    fr: "Terraiste de Paldea"
   },
   illustrator: "Shin Nagasawa",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [980],
   evolveFrom: {
     en: "Paldean Wooper",
+    fr: "Axoloto de Paldea"
   },
   description: {
     en: "It lives at the bottom of ponds and swamps. It will carry Wooper on its back and ferry them across water from one shore to the other.",

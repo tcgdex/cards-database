@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Skeledirge",
+    fr: "Flâmigator"
   },
   illustrator: "nagimiso",
   rarity: "Three Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [911],
   evolveFrom: {
     en: "Crocalor",
+    fr: "Crocogril"
   },
   description: {
     en: "Skeledirge's gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",

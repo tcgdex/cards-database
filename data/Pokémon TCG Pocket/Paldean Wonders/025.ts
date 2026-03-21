@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Wiglett",
+    fr: "Taupikeau"
   },
   illustrator: "Shin Nagasawa",
   rarity: "One Diamond",

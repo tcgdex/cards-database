@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Mabosstiff",
+    fr: "Dogrino"
   },
   illustrator: "KIYOTAKA OSHIYAMA",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [943],
   evolveFrom: {
     en: "Maschiff",
+    fr: "Grondogue"
   },
   description: {
     en: "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",

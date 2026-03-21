@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Spidops",
+    fr: "Filentrappe"
   },
   illustrator: "Anesaki Dynamic",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [918],
   evolveFrom: {
     en: "Tarountula",
+    fr: "Tissenboule"
   },
   description: {
     en: "Spidops covers its territory in tough, sticky threads to set up traps for intruders.",

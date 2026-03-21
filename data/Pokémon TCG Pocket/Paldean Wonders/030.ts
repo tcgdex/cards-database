@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Cetitan",
+    fr: "Balbalèze"
   },
   illustrator: "Anesaki Dynamic",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [975],
   evolveFrom: {
     en: "Cetoddle",
+    fr: "Piétacé"
   },
   description: {
     en: "Ice energy builds up in the horn on its upper jaw, causing the horn to reach cryogenic temperatures that freeze its surroundings.",

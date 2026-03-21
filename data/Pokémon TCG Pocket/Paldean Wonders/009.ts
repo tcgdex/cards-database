@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Arboliva",
+    fr: "Arboliva"
   },
   illustrator: "Kouki Saitou",
   rarity: "Three Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [930],
   evolveFrom: {
     en: "Dolliv",
+    fr: "Olivado"
   },
   description: {
     en: "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",

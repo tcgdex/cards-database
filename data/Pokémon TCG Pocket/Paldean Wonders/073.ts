@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Tinkatuff",
+    fr: "Forgella"
   },
   illustrator: "Akira Komayama",
   rarity: "One Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [958],
   evolveFrom: {
     en: "Tinkatink",
+    fr: "Forgerette"
   },
   description: {
     en: "These Pokémon make their homes in piles of scrap metal. They test the strength of each other's hammers by smashing them together.",

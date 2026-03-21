@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Baxcalibur",
+    fr: "Glaivodo"
   },
   illustrator: "Oswaldo KATO",
   rarity: "Three Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [998],
   evolveFrom: {
     en: "Arctibax",
+    fr: "Cryodo"
   },
   description: {
     en: "It launches itself into battle by flipping upside down and spewing frigid air from its mouth. It finishes opponents off with its dorsal blade.",

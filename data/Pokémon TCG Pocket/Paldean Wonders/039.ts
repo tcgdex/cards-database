@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Pawmo",
+    fr: "Pohmotte"
   },
   illustrator: "Kanami Ogata",
   rarity: "One Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [922],
   evolveFrom: {
     en: "Pawmi",
+    fr: "Pohm"
   },
   description: {
     en: "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously.",

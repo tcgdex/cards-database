@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Quaxwell",
+    fr: "Canarbello"
   },
   illustrator: "kirisAki",
   rarity: "One Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [913],
   evolveFrom: {
     en: "Quaxly",
+    fr: "Coiffeton"
   },
   description: {
     en: "The hardworking Quaxwell observes people and Pokémon from various regions and incorporates their movements into its own dance routines.",

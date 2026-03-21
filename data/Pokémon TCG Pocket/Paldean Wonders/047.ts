@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Dachsbun",
+    fr: "Briochien"
   },
   illustrator: "You Iribi",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [927],
   evolveFrom: {
     en: "Fidough",
+    fr: "Pâtachiot"
   },
   description: {
     en: "The pleasant aroma that emanates from this Pokémon's body helps wheat grow, so Dachsbun has been treasured by farming villages.",

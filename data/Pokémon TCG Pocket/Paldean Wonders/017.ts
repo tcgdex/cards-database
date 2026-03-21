@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Crocalor",
+    fr: "Crocogril"
   },
   illustrator: "kantaro",
   rarity: "One Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [910],
   evolveFrom: {
     en: "Fuecoco",
+    fr: "Chochodile"
   },
   description: {
     en: "The valve in Crocalor's flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way.",

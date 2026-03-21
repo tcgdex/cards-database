@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Big Air Balloon",
+    fr: "Gros Ballon"
   },
   illustrator: "Toyste Beach",
   rarity: "Two Diamond",

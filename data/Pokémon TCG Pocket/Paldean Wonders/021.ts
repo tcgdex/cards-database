@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Chi-Yu",
+    fr: "Yuyu"
   },
   illustrator: "Dsuke",
   rarity: "Three Diamond",

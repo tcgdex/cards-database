@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Armarouge",
+    fr: "Carmadura"
   },
   suffix: "EX",
   illustrator: "takuyoa",
@@ -14,6 +15,7 @@ const card: Card = {
   types: ["Fire"],
   evolveFrom: {
     en: "Charcadet",
+    fr: "Charbambin"
   },
   stage: "Stage1",
   abilities: [

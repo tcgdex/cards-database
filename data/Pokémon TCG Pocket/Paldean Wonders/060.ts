@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Toedscruel",
+    fr: "Terracruel"
   },
   illustrator: "Kouki Saitou",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [949],
   evolveFrom: {
     en: "Toedscool",
+    fr: "Terracool"
   },
   description: {
     en: "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy.",

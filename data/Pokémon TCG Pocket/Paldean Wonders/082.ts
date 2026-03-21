@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Maushold",
+    fr: "Famignol"
   },
   illustrator: "Saya Tsuruta",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [925],
   evolveFrom: {
     en: "Tandemaus",
+    fr: "Compagnol"
   },
   description: {
     en: "The little one just appeared one day. They all live together like a family, but the relationship between the three is still unclear.",

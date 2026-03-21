@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Primeape",
+    fr: "Colossinge"
   },
   illustrator: "Shin Nagasawa",
   rarity: "One Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [57],
   evolveFrom: {
     en: "Mankey",
+    fr: "Férosinge"
   },
   description: {
     en: "Some researchers theorize that Primeape remains angry even when inside a Poké Ball.",

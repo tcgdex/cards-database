@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Dolliv",
+    fr: "Olivado"
   },
   illustrator: "Mizue",
   rarity: "One Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [929],
   evolveFrom: {
     en: "Smoliv",
+    fr: "Olivini"
   },
   description: {
     en: "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",

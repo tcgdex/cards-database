@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Ceruledge",
+    fr: "Malvalame"
   },
   illustrator: "Ryota Murayama",
   rarity: "Three Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [937],
   evolveFrom: {
     en: "Charcadet",
+		fr: "Charbambin",
   },
   description: {
     en: "An old set of armor steeped in grudges caused this Pokémon's evolution. Ceruledge cuts its enemies to pieces without mercy.",

@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Tinkaton",
+    fr: "Forgelina"
   },
   illustrator: "KEIICHIRO ITO",
   rarity: "Three Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [959],
   evolveFrom: {
     en: "Tinkatuff",
+    fr: "Forgella"
   },
   description: {
     en: "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home.",

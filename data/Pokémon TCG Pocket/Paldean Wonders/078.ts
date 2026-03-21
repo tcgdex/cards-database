@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Gholdengo",
+    fr: "Gromago"
   },
   suffix: "EX",
   illustrator: "takuyoa",
@@ -14,6 +15,7 @@ const card: Card = {
   types: ["Metal"],
   evolveFrom: {
     en: "Gimmighoul",
+    fr: "Mordudor"
   },
   stage: "Stage1",
   attacks: [

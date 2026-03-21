@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Team Star Grunt",
+    fr: "Sbire de la Team Star"
   },
   illustrator: "nagimiso",
   rarity: "Two Diamond",

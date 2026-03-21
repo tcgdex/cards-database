@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Brambleghast",
+    fr: "Virevorreur"
   },
   illustrator: "KEIICHIRO ITO",
   rarity: "Two Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [947],
   evolveFrom: {
     en: "Bramblin",
+    fr: "Virovent"
   },
   description: {
     en: "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",

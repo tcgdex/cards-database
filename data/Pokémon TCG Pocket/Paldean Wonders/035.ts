@@ -5,6 +5,7 @@ const card: Card = {
   set: Set,
   name: {
     en: "Arctibax",
+    fr: "Cryodo"
   },
   illustrator: "Kouki Saitou",
   rarity: "One Diamond",
@@ -14,6 +15,7 @@ const card: Card = {
   dexId: [997],
   evolveFrom: {
     en: "Frigibax",
+    fr: "Frigodo"
   },
   description: {
     en: "It attacks with the blade of its frozen dorsal fin by doing a front flip in the air. Arctibax’s strong back and legs allow it to pull off this technique.",
