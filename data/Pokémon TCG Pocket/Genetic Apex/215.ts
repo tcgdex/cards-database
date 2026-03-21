@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "saino misaki",
 	category: "Pokemon",
+
+	dexId: [832],
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Stage1",

@@ -14,7 +14,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	thirdParty: {
-		cardmarket: 295188
+		cardmarket: 554217
 	}
 }
 

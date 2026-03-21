@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+
+	dexId: [6],
 	hp: 360,
 	types: ["Fire"],
 	stage: "Stage2",
-	dexId: [6],
 
 	attacks: [{
 		cost: ["Fire", "Fire"],
@@ -57,7 +58,8 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 857700
+		cardmarket: 857700,
+		tcgplayer: 662184
 	}
 }
 

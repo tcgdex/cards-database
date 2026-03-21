@@ -116,6 +116,7 @@
 	},
 	"variantFoil": {
 		"pokeball": "Pokéball",
+		"greatball": "Greatball",
 		"ultraball": "Ultraball",
 		"masterball": "Masterball",
 		"gold": "Or",
@@ -228,7 +229,8 @@
 		"judge": "juge",
 		"international-championship-europe": "championnat-international-europe",
 		"international-championship-latin-america": "championnat-international-amérique-latine",
-		"international-championship-north-america": "championnat-international-amérique-du-nord"
+		"international-championship-north-america": "championnat-international-amérique-du-nord",
+		"ace-trainer": "Ace Trainer"
 	},
 	"variantSubtype": {
 		"shadowless": "sans ombre",

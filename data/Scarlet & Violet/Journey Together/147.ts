@@ -42,6 +42,10 @@ const card: Card = {
 		{
 			type: 'reverse'
 		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program']
+		}
 	]
 }
 

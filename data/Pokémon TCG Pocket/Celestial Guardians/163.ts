@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [771],
 	hp: 60,
 	types: ["Water"],
 

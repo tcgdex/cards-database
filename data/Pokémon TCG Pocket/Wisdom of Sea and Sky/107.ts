@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [41],
 	hp: 50,
 	types: ["Darkness"],
 

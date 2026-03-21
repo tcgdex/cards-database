@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [609],
 	hp: 140,
 	types: ["Fire"],
 

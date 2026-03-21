@@ -32,7 +32,7 @@ const card: Card = {
 	illustrator: "GOSSAN",
 
 	thirdParty: {
-		cardmarket: 817294
+		cardmarket: 817296
 	},
 
 	variants: [

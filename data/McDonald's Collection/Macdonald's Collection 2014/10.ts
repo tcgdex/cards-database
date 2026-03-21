@@ -5,6 +5,10 @@ const card: Card = {
 	dexId: [
 		659,
 	],
+	illustrator: "5ban Graphics",
+	description: {
+		en: "They use their large ears to dig burrows. They will dig the whole night through."
+	},
 	set: Set,
 	variants: {
 		normal: false,
@@ -24,6 +28,7 @@ const card: Card = {
 	],
 	stage: "Basic",
 	thirdParty: {
+		cardmarket: 281662,
 		tcgplayer: 110415,
 	},
 	attacks: [
@@ -33,11 +38,22 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Tackle",
 				fr: "Charge",
 			},
 			damage: "20",
 		},
 	],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	resistances: [
+		
+	],
+	retreat: 2,
 }
 
 export default card

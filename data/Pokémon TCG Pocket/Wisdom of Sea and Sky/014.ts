@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Kyoko Umemoto",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [188],
 	hp: 70,
 	types: ["Grass"],
 

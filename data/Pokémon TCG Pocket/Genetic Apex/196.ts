@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Mitsuhiro Arita",
 	category: "Pokemon",
+
+	dexId: [52],
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",

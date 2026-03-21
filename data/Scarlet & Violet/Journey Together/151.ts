@@ -46,6 +46,11 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos'
 		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['player-rewards-program']
+		}
 	]
 }
 

@@ -5,7 +5,11 @@ const card: Card = {
 	dexId: [
 		653,
 	],
+	illustrator: "5ban Graphics",
 	set: Set,
+	description: {
+		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit."
+	},
 	variants: {
 		normal: false,
 		reverse: false,
@@ -24,6 +28,7 @@ const card: Card = {
 	],
 	stage: "Basic",
 	thirdParty: {
+		cardmarket: 281655,
 		tcgplayer: 110408,
 	},
 	attacks: [
@@ -32,6 +37,7 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
+				en: "Scratch",
 				fr: "Griffe",
 			},
 			damage: "10",
@@ -42,11 +48,22 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Live Coal",
 				fr: "Charbon Mutant",
 			},
 			damage: "20",
 		},
 	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+	resistances: [
+		
+	],
+	retreat: 1,
 }
 
 export default card

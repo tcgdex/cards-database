@@ -9,6 +9,8 @@ const card: Card = {
 	description: {
 		en: "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose."
 	},
+	
+	hp: 60,
 
 	stage: "Basic",
 
@@ -39,6 +41,7 @@ const card: Card = {
 	rarity: "None",
 
 	thirdParty: {
+		cardmarket: 295142,
 		tcgplayer: 275062
 	}
 }

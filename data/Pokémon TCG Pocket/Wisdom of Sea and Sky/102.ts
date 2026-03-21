@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Hisao Nakamura",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [237],
 	hp: 80,
 	types: ["Fighting"],
 

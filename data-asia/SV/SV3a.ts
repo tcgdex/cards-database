@@ -3,6 +3,7 @@ import serie from '../SV'
 
 const set: Set = {
 	id: 'SV3a',
+
 	name: {
 		ja: 'レイジングサーフ',
 		ko: '레이징서프',
@@ -15,11 +16,16 @@ const set: Set = {
 	cardCount: {
 		official: 62
 	},
+
 	releaseDate: {
 		ja: '2023-09-22',
 		'zh-tw': '2023-09-29',
 		th: '2023-10-27',
 		id: '2023-10-27'
+	},
+
+	thirdParty: {
+		cardmarket: 5432
 	}
 }
 
