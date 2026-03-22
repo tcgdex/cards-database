@@ -4,8 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Tandemaus",
-    fr: "Compagnol"
+		fr: "Compagnol",
+		en: "Tandemaus",
+		es: "Tandemaus",
+		it: "Tandemaus",
+		pt: "Tandemaus",
+		de: "Zwieps"
   },
   illustrator: "Akira Komayama",
   rarity: "One Diamond",
@@ -21,6 +25,11 @@ const card: Card = {
     {
       name: {
         en: "Double Hit",
+        fr: "Coup Double",
+        es: "Doble Golpe",
+        it: "Doppiosmash",
+        pt: "Golpe Duplo",
+        de: "Doppelschlag"
       },
       damage: "30×",
       cost: ["Colorless", "Colorless"],

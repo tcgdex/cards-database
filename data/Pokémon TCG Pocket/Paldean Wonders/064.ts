@@ -4,8 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Paldean Wooper",
-    fr: "Axoloto de Paldea"
+		en: "Paldean Wooper",
+		fr: "Axoloto de Paldea",
+		es: "Wooper de Paldea",
+		'es-mx': "Wooper de Paldea",
+		de: "Paldea-Felino",
+		it: "Wooper di Paldea",
+		pt: "Wooper de Paldea"
   },
   illustrator: "Pani Kobayashi",
   rarity: "One Diamond",
@@ -20,7 +25,9 @@ const card: Card = {
   attacks: [
     {
       name: {
-        en: "Flop",
+				en: "Flop",
+				fr: "Flop",
+				de: "Flop"
       },
       damage: "40",
       cost: ["Darkness", "Colorless"],

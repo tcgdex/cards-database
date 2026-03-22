@@ -37,7 +37,10 @@ const card: Card = {
             type: "Ability",
             name: {
 				en: "Armor",
-				fr: "Armure",
+				fr: "Cuirasse",
+				es: "Armadura",
+				it: "Corazza",
+				pt: "Armadura",
 				de: "Rüstung"
 			},
             effect: {

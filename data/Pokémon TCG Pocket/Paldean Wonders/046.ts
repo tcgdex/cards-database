@@ -4,8 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Fidough",
-    fr: "Pâtachiot"
+		en: "Fidough",
+		fr: "Pâtachiot",
+		es: "Fidough",
+		it: "Fidough",
+		pt: "Fidough",
+		de: "Hefel"
   },
   illustrator: "Mizue",
   rarity: "One Diamond",
@@ -21,6 +25,12 @@ const card: Card = {
     {
       name: {
         en: "Rear Kick",
+        fr: "Ruade",
+        de: "Rückwärtskick",
+        it: "Retrocalcio",
+        es: "Patada Trasera",
+        pt: "Chute Traseiro",
+        'es-mx': "Patada Trasera"
       },
       damage: "20",
       cost: ["Psychic"],

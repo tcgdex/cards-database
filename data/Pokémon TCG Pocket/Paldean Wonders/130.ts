@@ -50,7 +50,12 @@ const card: Card = {
 	attacks: [
 		{
 		name: {
+			fr: "Queue Destructrice",
 			en: "Buster Tail",
+			es: "Cola Destructora",
+			it: "Coda Distruttrice",
+			pt: "Cauda Aniquiladora",
+			de: "Zertrümmernder Schweif"
 		},
 		damage: "90",
 		cost: ["Water", "Water", "Water"],

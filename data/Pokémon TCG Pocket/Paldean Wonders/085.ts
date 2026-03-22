@@ -4,8 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Flamigo",
-    fr: "Flamenroule"
+		en: "Flamigo",
+		fr: "Flamenroule",
+		es: "Flamigo",
+		it: "Flamigo",
+		de: "Flaminkno",
+		'pt-br': "Flamigo",
+		ko: "꼬이밍고"
   },
   illustrator: "kantaro",
   rarity: "One Diamond",
@@ -20,7 +25,9 @@ const card: Card = {
   attacks: [
     {
       name: {
-        en: "Wing Attack",
+				en: "Wing Attack",
+				fr: "Cru-aile",
+				de: "Wing Attack"
       },
       damage: "50",
       cost: ["Colorless", "Colorless"],

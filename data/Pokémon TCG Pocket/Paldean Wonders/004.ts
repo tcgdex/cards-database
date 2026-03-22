@@ -3,10 +3,16 @@ import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
-  name: {
-    en: "Tarountula",
-    fr: "Tissenboule"
-  },
+  
+	name: {
+		fr: "Tissenboule",
+		en: "Tarountula",
+		es: "Tarountula",
+		it: "Tarountula",
+		pt: "Tarountula",
+		de: "Tarundel"
+	},
+
   illustrator: "Mina Nakai",
   rarity: "One Diamond",
   category: "Pokemon",
@@ -19,9 +25,11 @@ const card: Card = {
   stage: "Basic",
   attacks: [
     {
-      name: {
-        en: "Hook",
-      },
+			name: {
+				en: "Hook",
+				fr: "Crochet",
+				de: "Hook"
+			},
       damage: 20,
       cost: ["Grass"],
     },

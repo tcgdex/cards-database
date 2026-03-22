@@ -4,8 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Lechonk",
-    fr: "Gourmelet"
+		en: "Lechonk",
+		fr: "Gourmelet",
+		es: "Lechonk",
+		de: "Ferkuli",
+		it: "Lechonk",
+		pt: "Lechonk",
+		'es-mx': "Lechonk"
   },
   illustrator: "kodama",
   rarity: "One Diamond",
@@ -20,7 +25,10 @@ const card: Card = {
   attacks: [
     {
       name: {
-        en: "Tackle",
+				en: "Tackle",
+				fr: "Charge",
+				de: "Tackle",
+				it: "Azione"
       },
       damage: 20,
       cost: ["Colorless"],

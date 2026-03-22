@@ -4,8 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Fuecoco",
-    fr: "Chochodile"
+		fr: "Chochodile",
+		en: "Fuecoco",
+		es: "Fuecoco",
+		it: "Fuecoco",
+		pt: "Fuecoco",
+		de: "Krokel"
   },
   illustrator: "Akira Komayama",
   rarity: "One Diamond",
@@ -25,6 +29,12 @@ const card: Card = {
       cost: ["Colorless"],
       effect: {
         en: "Put 1 random Basic Pokémon from your deck onto your Bench.",
+        fr: "Placez un Pokémon de base au hasard de votre deck sur votre Banc.",
+        es: "Pon 1 Pokémon Básico aleatorio de tu baraja en tu Banca.",
+        it: "Prendi un Pokémon Base a caso dal tuo mazzo e mettilo nella tua panchina.",
+        de: "Lege 1 zufälliges Basis-Pokémon aus deinem Deck auf deine Bank.",
+        'pt-br': "Coloque 1 Pokémon Básico aleatório do seu baralho no seu Banco.",
+        ko: "자신의 덱에서 기본 포켓몬eul_reul 랜덤으로 1장 벤치로 내보낸다."
       },
     },
   ],

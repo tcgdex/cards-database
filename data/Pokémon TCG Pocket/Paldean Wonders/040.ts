@@ -4,8 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Pawmot",
-    fr: "Pohmarmotte"
+		en: "Pawmot",
+		fr: "Pohmarmotte",
+		es: "Pawmot",
+		it: "Pawmot",
+		de: "Pamomamo",
+		'pt-br': "Pawmot",
+		ko: "빠르모트"
   },
   illustrator: "Mizue",
   rarity: "Two Diamond",
@@ -14,8 +19,13 @@ const card: Card = {
   types: ["Lightning"],
   dexId: [923],
   evolveFrom: {
-    en: "Pawmo",
-    fr: "Pohmotte"
+		en: "Pawmo",
+		fr: "Pohmotte",
+		es: "Pawmo",
+		'es-mx': "Pawmo",
+		de: "Pamamo",
+		it: "Pawmo",
+		pt: "Pawmo"
   },
   description: {
     en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
@@ -25,6 +35,12 @@ const card: Card = {
     {
       name: {
         en: "Thunder Blast",
+        fr: "Grondement de Tonnerre",
+        es: "Estallido Trueno",
+        'es-mx': "Explosión Atronadora",
+        de: "Donnerkeil",
+        it: "Tuonobomba",
+        pt: "Explosão de Trovões"
       },
       damage: "100",
       cost: ["Lightning", "Lightning"],

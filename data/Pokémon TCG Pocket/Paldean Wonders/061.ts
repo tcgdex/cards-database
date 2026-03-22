@@ -4,8 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Klawf",
-    fr: "Craparoi"
+		en: "Klawf",
+		fr: "Craparoi",
+		es: "Klawf",
+		de: "Klibbe",
+		it: "Klawf",
+		pt: "Klawf",
+		'es-mx': "Klawf"
   },
   illustrator: "nagimiso",
   rarity: "One Diamond",
@@ -21,11 +26,21 @@ const card: Card = {
     {
       name: {
         en: "Adrenaline Hammer",
+        fr: "Marteau Adrénaline",
+        es: "Martillo Adrenalina",
+        it: "Martello Adrenalinico",
+        pt: "Martelo de Adrenalina",
+        de: "Adrenalinhammer"
       },
       damage: "70",
       cost: ["Fighting", "Fighting"],
       effect: {
         en: "This Pokémon is now Confused.",
+        fr: "Ce Pokémon est maintenant Confus.",
+        es: "Este Pokémon pasa a estar Confundido.",
+        it: "Questo Pokémon viene confuso.",
+        pt: "Este Pokémon agora está Confuso.",
+        de: "Dieses Pokémon ist jetzt verwirrt."
       },
     },
   ],

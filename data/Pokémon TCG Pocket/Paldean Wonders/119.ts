@@ -32,10 +32,13 @@ const card: Card = {
         {
 			name: {
 				en: "Random Spark",
-				fr: "Étincelle surprise",
+				fr: "Étincelle Surprise",
+				es: "Chispa al Azar",
+				it: "Scintilla Casuale",
+				pt: "Fagulha Aleatória",
 				de: "Zufälliger Funke"
 			},
-            
+
             cost: ["Lightning"],
             
             effect: {

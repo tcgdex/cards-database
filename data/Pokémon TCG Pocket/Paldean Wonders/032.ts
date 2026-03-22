@@ -4,8 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Dondozo",
-    fr: "Oyacata"
+		en: "Dondozo",
+		fr: "Oyacata",
+		es: "Dondozo",
+		it: "Dondozo",
+		de: "Heerashai",
+		'pt-br': "Dondozo",
+		ko: "어써러셔"
   },
   illustrator: "Souichirou Gunjima",
   rarity: "Two Diamond",
@@ -20,12 +25,22 @@ const card: Card = {
   attacks: [
     {
       name: {
-        en: "Giga Impact",
+				en: "Giga Impact",
+				fr: "Giga Impact",
+				es: "Giga Impacto",
+				it: "Gigaimpatto",
+				pt: "Gigaimpacto",
+				de: "Gigastoß"
       },
       damage: "120",
       cost: ["Water", "Water", "Water", "Colorless"],
       effect: {
         en: "During your next turn, this Pokémon can't attack.",
+        fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+        es: "Durante tu próximo turno, este Pokémon no puede atacar.",
+        it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+        pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+        de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
       },
     },
   ],

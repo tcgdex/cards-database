@@ -4,8 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Nymble",
-    fr: "Lilliterelle"
+		en: "Nymble",
+		fr: "Lilliterelle",
+		es: "Nymble",
+		de: "Micrick",
+		it: "Nymble",
+		pt: "Nymble",
+		'es-mx': "Nymble"
   },
   illustrator: "Kouki Saitou",
   rarity: "One Diamond",
@@ -21,11 +26,18 @@ const card: Card = {
     {
       name: {
         en: "U-turn",
+				fr: "Demi-Tour",
+				de: "Kehrtwende",
+				it: "Retromarcia",
+				es: "Ida y Vuelta",
+				pt: "Fazer Retorno",
+				'es-mx': "Ida y Vuelta"
       },
       damage: "10",
       cost: ["Colorless"],
       effect: {
         en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
       },
     },
   ],

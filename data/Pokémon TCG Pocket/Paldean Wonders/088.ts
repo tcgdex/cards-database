@@ -4,8 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Team Star Grunt",
-    fr: "Sbire de la Team Star"
+		en: "Team Star Grunt",
+		fr: "Sbire de la Team Star",
+		es: "Recluta del Team Star",
+		it: "Recluta del Team Star",
+		pt: "Recruta da Equipe Star",
+		de: "Rüpel von Team Star"
   },
   illustrator: "nagimiso",
   rarity: "Two Diamond",

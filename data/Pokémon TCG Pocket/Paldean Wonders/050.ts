@@ -4,8 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Flittle",
-    fr: "Flotillon"
+		en: "Flittle",
+		fr: "Flotillon",
+		es: "Flittle",
+		it: "Flittle",
+		pt: "Flittle",
+		de: "Flattutu"
   },
   illustrator: "kodama",
   rarity: "One Diamond",
@@ -20,7 +24,9 @@ const card: Card = {
   attacks: [
     {
       name: {
-        en: "Flop",
+				en: "Flop",
+				fr: "Flop",
+				de: "Flop"
       },
       damage: "10",
       cost: ["Psychic"],

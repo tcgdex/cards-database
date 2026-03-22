@@ -4,8 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Bramblin",
-    fr: "Virovent"
+		fr: "Virovent",
+		en: "Bramblin",
+		es: "Bramblin",
+		it: "Bramblin",
+		pt: "Bramblin",
+		de: "Weherba"
   },
   illustrator: "Miki Tanaka",
   rarity: "One Diamond",
@@ -20,7 +24,13 @@ const card: Card = {
   attacks: [
     {
       name: {
-        en: "Rollout",
+			  en: "Rollout",
+        fr: "Roulade",
+        de: "Walzer",
+        it: "Rotolamento",
+        es: "Rodar",
+        pt: "Rolagem",
+        'es-mx': "Rodada"
       },
       damage: "20",
       cost: ["Colorless"],

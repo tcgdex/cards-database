@@ -4,8 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Arboliva",
-    fr: "Arboliva"
+		fr: "Arboliva",
+		en: "Arboliva",
+		es: "Arboliva",
+		it: "Arboliva",
+		pt: "Arboliva",
+		de: "Olithena"
   },
   illustrator: "Kouki Saitou",
   rarity: "Three Diamond",
@@ -14,8 +18,13 @@ const card: Card = {
   types: ["Grass"],
   dexId: [930],
   evolveFrom: {
-    en: "Dolliv",
-    fr: "Olivado"
+		en: "Dolliv",
+		fr: "Olivado",
+		de: "Olivinio",
+		it: "Dolliv",
+		es: "Dolliv",
+		pt: "Dolliv",
+		'es-mx': "Dolliv"
   },
   description: {
     en: "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
@@ -36,6 +45,12 @@ const card: Card = {
     {
       name: {
         en: "Seed Bomb",
+        fr: "Canon Graine",
+        es: "Bomba Germen",
+        'es-mx': "Bomba Semilla",
+        de: "Samenbomben",
+        it: "Semebomba",
+        pt: "Bomba de Sementes"
       },
       damage: "70",
       cost: ["Colorless", "Colorless"],

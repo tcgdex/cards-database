@@ -4,8 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Tinkatink",
-    fr: "Forgerette"
+		en: "Tinkatink",
+		fr: "Forgerette",
+		de: "Forgita",
+		it: "Tinkatink",
+		es: "Tinkatink",
+		pt: "Tinkatink",
+		'es-mx': "Tinkatink"
   },
   illustrator: "Pani Kobayashi",
   rarity: "One Diamond",
@@ -21,6 +26,12 @@ const card: Card = {
     {
       name: {
         en: "Beat",
+        fr: "Bataille",
+        es: "Toque",
+        it: "Battuta",
+        de: "Verprügler",
+        'pt-br': "Pulso",
+        ko: "때리기"
       },
       damage: "30",
       cost: ["Metal", "Colorless"],

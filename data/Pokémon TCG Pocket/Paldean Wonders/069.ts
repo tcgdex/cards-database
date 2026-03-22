@@ -4,8 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Shroodle",
-    fr: "Gribouraigne"
+		en: "Shroodle",
+		fr: "Gribouraigne",
+		de: "Sproxi",
+		it: "Shroodle",
+		es: "Shroodle",
+		pt: "Shroodle",
+		'es-mx': "Shroodle"
   },
   illustrator: "Akira Komayama",
   rarity: "One Diamond",
@@ -20,7 +25,9 @@ const card: Card = {
   attacks: [
     {
       name: {
-        en: "Scratch",
+				en: "Scratch",
+				fr: "Griffe",
+				de: "Scratch"
       },
       damage: 20,
       cost: ["Colorless"],

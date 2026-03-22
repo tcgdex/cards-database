@@ -4,8 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Tinkatuff",
-    fr: "Forgella"
+		en: "Tinkatuff",
+		fr: "Forgella",
+		es: "Tinkatuff",
+		it: "Tinkatuff",
+		de: "Tafforgita",
+		'pt-br': "Tinkatuff",
+		ko: "벼리짱"
   },
   illustrator: "Akira Komayama",
   rarity: "One Diamond",
@@ -14,8 +19,13 @@ const card: Card = {
   types: ["Metal"],
   dexId: [958],
   evolveFrom: {
-    en: "Tinkatink",
-    fr: "Forgerette"
+		en: "Tinkatink",
+		fr: "Forgerette",
+		de: "Forgita",
+		it: "Tinkatink",
+		es: "Tinkatink",
+		pt: "Tinkatink",
+		'es-mx': "Tinkatink"
   },
   description: {
     en: "These Pokémon make their homes in piles of scrap metal. They test the strength of each other's hammers by smashing them together.",
@@ -25,6 +35,12 @@ const card: Card = {
     {
       name: {
         en: "Light Punch",
+        fr: "Poing Léger",
+        es: "Puño Ligero",
+        it: "Pugnetto",
+        de: "Leichter Hieb",
+        'pt-br': "Soco de Luz",
+        ko: "치기"
       },
       damage: "50",
       cost: ["Metal", "Colorless"],

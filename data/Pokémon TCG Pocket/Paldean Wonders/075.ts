@@ -4,8 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Varoom",
-    fr: "Vrombi"
+		en: "Varoom",
+		fr: "Vrombi",
+		es: "Varoom",
+		it: "Varoom",
+		pt: "Varoom",
+		de: "Knattox"
   },
   illustrator: "nagimiso",
   rarity: "One Diamond",
@@ -22,6 +26,12 @@ const card: Card = {
     {
       name: {
         en: "Ram",
+        fr: "Collision",
+        es: "Apisonar",
+        'es-mx': "Colisión",
+        de: "Ramme",
+        it: "Carica",
+        pt: "Aríete"
       },
       damage: "20",
       cost: ["Metal"],

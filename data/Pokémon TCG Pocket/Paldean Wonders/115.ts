@@ -5,8 +5,12 @@ const card: Card = {
     set: Set,
 
     name: {
-        en: "Arven",
-        fr: "Pepper"
+		fr: "Pepper",
+		en: "Arven",
+		es: "Damián",
+		it: "Pepe",
+		pt: "Arven",
+		de: "Pepper"
     },
 
     illustrator: "GIDORA",

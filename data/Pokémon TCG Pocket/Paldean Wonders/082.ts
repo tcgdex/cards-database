@@ -4,8 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Maushold",
-    fr: "Famignol"
+		fr: "Famignol",
+		en: "Maushold",
+		es: "Maushold",
+		it: "Maushold",
+		pt: "Maushold",
+		de: "Famieps"
   },
   illustrator: "Saya Tsuruta",
   rarity: "Two Diamond",
@@ -14,8 +18,12 @@ const card: Card = {
   types: ["Colorless"],
   dexId: [925],
   evolveFrom: {
-    en: "Tandemaus",
-    fr: "Compagnol"
+		fr: "Compagnol",
+		en: "Tandemaus",
+		es: "Tandemaus",
+		it: "Tandemaus",
+		pt: "Tandemaus",
+		de: "Zwieps"
   },
   description: {
     en: "The little one just appeared one day. They all live together like a family, but the relationship between the three is still unclear.",

@@ -4,8 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Smoliv",
-    fr: "Olivini"
+		en: "Smoliv",
+		fr: "Olivini",
+		es: "Smoliv",
+		it: "Smoliv",
+		pt: "Smoliv",
+		de: "Olini"
   },
   illustrator: "yuu",
   rarity: "One Diamond",
@@ -20,12 +24,22 @@ const card: Card = {
   attacks: [
     {
       name: {
-        en: "Absorb",
+				en: "Absorb",
+				fr: "Vol-Vie",
+				es: "Absorber",
+				it: "Assorbimento",
+				pt: "Absorção",
+				de: "Absorber"
       },
       damage: "10",
       cost: ["Grass"],
       effect: {
-        en: "Heal 10 damage from this Pokémon.",
+				en: "Heal 10 damage from this Pokémon.",
+				fr: "Soignez 10 dégâts à ce Pokémon.",
+				es: "Cura 10 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 10 danni.",
+				pt: "Cure 10 pontos de dano deste Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
       },
     },
   ],
