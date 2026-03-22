@@ -3,12 +3,12 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Aegislash EX",
-		fr: "Exagide EX",
-		es: "Aegislash EX",
-		it: "Aegislash EX",
-		pt: "Aegislash EX",
-		de: "Durengard EX"
+		en: "Aegislash-EX",
+		fr: "Exagide-EX",
+		es: "Aegislash-EX",
+		it: "Aegislash-EX",
+		pt: "Aegislash-EX",
+		de: "Durengard-EX"
 	},
 
 	illustrator: "Ayaka Yoshida",
