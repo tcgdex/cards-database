@@ -14,8 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
-		de: "Lege bis zu 2 Karten von deiner Hand auf deinen Ablagestapel. Wenn du auf diese Weise 1 Karte auf deinen Ablagestapel gelegt hast, ziehe 3 Karten. Wenn du auf diese Weise 2 Karte auf deinen Ablagestapel gelegt hast, ziehe 4 Karten."
+		fr: "Défaussez jusqu'à 2 cartes de votre main. Si vous défaussez 1 carte, piochez 3 cartes. Si vous défaussez 2 cartes, piochez 4 cartes.",
+		de: "Lege bis zu 2 Karten von deiner Hand auf deinen Ablagestapel. Wenn du auf diese Weise 1 Karte auf deinen Ablagestapel gelegt hast, ziehe 3 Karten. Wenn du auf diese Weise 2 Karte auf deinen Ablagestapel gelegt hast, ziehe 4 Karten.",
 	},
 
 	trainerType: "Supporter",
