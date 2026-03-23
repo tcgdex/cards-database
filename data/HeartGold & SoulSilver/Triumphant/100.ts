@@ -13,7 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [491, 488],
+	dexId: [
+
+
+		491,
+
+
+		488,
+
+
+	],
+
 	types: [
 		"Darkness",
 		"Psychic",

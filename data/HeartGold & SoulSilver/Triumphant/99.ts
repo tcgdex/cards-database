@@ -23,30 +23,38 @@ const card: Card = {
 
 	suffix: "Legend",
 
-	attacks: [{
-		name: {
-			fr: "",
-			de: "Nirgendwo-Krise"
+	attacks: [
+		{
+			name: {
+				fr: "Crise perdue",
+				de: "Nirgendwo-Krise",
+			},
+			effect: {
+				fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Darkrai & Cresselia LÉGENDE.",
+				de: "Wähle 2 an Darkrai- & Cresselia-LEGENDE angelegte Energiekarten und lege sie ins Nirgendwo. Wenn ein Pokémon deines Gegners durch diesen Angriff kampfunfähig würde, lege dieses Pokémon und alle daran angelegten Karten nicht auf den Ablagestapel, sondern ins Nirgendwo.",
+			},
+			damage: 100,
+			cost: [
+				"Darkness",
+				"Darkness",
+				"Colorless",
+				"Colorless",
+			],
 		},
-
-		effect: {
-			fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Darkrai & Cresselia LÉGENDE.",
-			de: "Wähle 2 an Darkrai- & Cresselia-LEGENDE angelegte Energiekarten und lege sie ins Nirgendwo. Wenn ein Pokémon deines Gegners durch diesen Angriff kampfunfähig würde, lege dieses Pokémon und alle daran angelegten Karten nicht auf den Ablagestapel, sondern ins Nirgendwo."
+		{
+			name: {
+				de: "Mondeinladung",
+				fr: "Invitation lunaire",
+			},
+			effect: {
+				de: "Verschiebe beliebig viele Schadensmarken von Pokémon deines Gegners in beliebiger Verteilung auf andere gegnerische Pokémon.",
+				fr: "Retirez autant de marqueurs de dégât que vous le voulez aux Pokémon de votre adversaire et attribuez-les comme bon vous semble aux autres Pokémon de votre adversaire.",
+			},
+			cost: [
+				"Psychic",
+			],
 		},
-
-		damage: 100,
-		cost: ["Darkness", "Darkness", "Colorless", "Colorless"]
-	}, {
-		name: {
-			de: "Mondeinladung"
-		},
-
-		effect: {
-			de: "Verschiebe beliebig viele Schadensmarken von Pokémon deines Gegners in beliebiger Verteilung auf andere gegnerische Pokémon."
-		},
-
-		cost: ["Psychic"]
-	}],
+	],
 
 	stage: "Basic",
 	retreat: 0,
