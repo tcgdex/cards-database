@@ -15,8 +15,8 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu.\n\nChaque joueur ne paye pas de  pour faire battre en retraite ses Pokémon  et .",
-		de: "Each players pays  less to retreat his or her  and  Pokémon."
+		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
+		de: "Each players pays  less to retreat his or her  and  Pokémon.",
 	},
 
 	thirdParty: {
