@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yuka Tanaka",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
@@ -76,12 +76,6 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	variants: [
-		{
-			type: "holo"
-		}
-	]
 }
 
 export default card

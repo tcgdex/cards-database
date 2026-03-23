@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yuu Nishida",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 	trainerType: "Stadium",
 	regulationMark: "I",

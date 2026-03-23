@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "matazo",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Darkness"],
@@ -69,12 +69,6 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	variants: [
-		{
-			type: "holo"
-		}
-	]
 }
 
 export default card

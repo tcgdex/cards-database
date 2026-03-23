@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "cochi8i",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],

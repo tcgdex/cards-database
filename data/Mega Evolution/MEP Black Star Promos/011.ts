@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Dragon"],
@@ -78,17 +78,7 @@ const card: Card = {
 	thirdParty: {
 		tcgplayer: 657846,
 		cardmarket: 851063
-	},
-
-	variants: [
-		{
-			type: "holo"
-		},
-		{
-			type: "holo",
-			size: "jumbo"
-		}
-	]
+	}
 }
 
 export default card

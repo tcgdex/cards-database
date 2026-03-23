@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shinji Kanda",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Fire"],
@@ -60,12 +60,6 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	variants: [
-		{
-			type: "holo"
-		}
-	]
 }
 
 export default card

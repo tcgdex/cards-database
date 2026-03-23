@@ -15,7 +15,7 @@ const card: Card = {
 
 	suffix: "EX",
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Colorless"],
@@ -70,16 +70,6 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	variants: [
-		{
-			type: "holo"
-		},
-		{
-			type: "holo",
-			size: "jumbo"
-		}
-	]
 }
 
 export default card

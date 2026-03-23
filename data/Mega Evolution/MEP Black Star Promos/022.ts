@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Teeziro",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fire"],
@@ -58,16 +58,6 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	variants: [
-		{
-			type: "holo"
-		},
-		{
-			type: "holo",
-			stamp: ["pokemon-center"]
-		}
-	]
 }
 
 export default card
