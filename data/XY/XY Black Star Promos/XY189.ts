@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 553953
+		cardmarket: 293002
 	}
 }
 

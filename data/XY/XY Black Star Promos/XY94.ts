@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -43,6 +43,23 @@ const card: Card = {
 		},
 	],
 
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Pression Énergétique",
+			},
+			damage: "70+",
+			effect: {
+				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			},
+		},
+	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
@@ -60,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	thirdParty: {
-		cardmarket: 552809
+		cardmarket: 281331
 	}
 }
 

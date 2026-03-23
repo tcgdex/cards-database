@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 	set: Set,
 
@@ -20,7 +20,7 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	thirdParty: {
-		cardmarket: 709547
+		cardmarket: 281314
 	}
 }
 

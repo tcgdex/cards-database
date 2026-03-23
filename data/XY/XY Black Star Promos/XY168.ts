@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "M-Carchacrok-EX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

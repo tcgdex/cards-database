@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 552884
+		cardmarket: 281306
 	}
 }
 
