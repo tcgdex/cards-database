@@ -18,17 +18,21 @@ const card: Card = {
 		de: "Lege diese Karte an 1 deiner -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Feuer-Würfel 01 auf deinen Ablagestapel."
 	},
 
-	attacks: [{
-		name: {
-			de: "Versengung"
+	attacks: [
+		{
+			name: {
+				de: "Versengung",
+				fr: "Roussir",
+			},
+			effect: {
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt.",
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+			},
+			cost: [
+				"Fire",
+			],
 		},
-
-		effect: {
-			de: "Das Verteidigende Pokémon ist jetzt verbrannt."
-		},
-
-		cost: ["Fire"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 275198,
