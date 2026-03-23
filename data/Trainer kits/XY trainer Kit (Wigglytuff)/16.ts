@@ -31,6 +31,32 @@ const card: Card = {
 	stage: "Stage1",
 	retreat: 2,
 
+	attacks: [
+		{
+			cost: [
+				"Metal",
+			],
+			name: {
+				fr: "Piqûre Infernale",
+			},
+			damage: "20",
+			effect: {
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			},
+		},
+		{
+			cost: [
+				"Metal",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Griffe Acier",
+			},
+			damage: "70",
+		},
+	],
+
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"

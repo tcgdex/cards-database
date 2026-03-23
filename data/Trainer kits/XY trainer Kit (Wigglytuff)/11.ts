@@ -21,6 +21,18 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Metal",
+			],
+			name: {
+				fr: "Transpercement",
+			},
+			damage: "10",
+		},
+	],
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"

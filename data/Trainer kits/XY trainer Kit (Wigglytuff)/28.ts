@@ -31,6 +31,32 @@ const card: Card = {
 	stage: "Stage1",
 	retreat: 2,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Griffe",
+			},
+			damage: "20",
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Attaque Imprudente",
+			},
+			damage: "70",
+			effect: {
+				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 20 dégâts.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"

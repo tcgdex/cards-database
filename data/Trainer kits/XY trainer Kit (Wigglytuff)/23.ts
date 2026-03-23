@@ -31,6 +31,22 @@ const card: Card = {
 	stage: "Stage1",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Metal",
+				"Colorless",
+			],
+			name: {
+				fr: "Duo de Lames",
+			},
+			damage: "30×",
+			effect: {
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
