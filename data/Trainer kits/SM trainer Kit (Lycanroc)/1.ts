@@ -21,6 +21,30 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Tit'Sieste",
+			},
+			effect: {
+				fr: "Soignez 20 dégâts à ce Pokémon.",
+			},
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Ronge",
+			},
+			damage: "20",
+		},
+	],
+
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"

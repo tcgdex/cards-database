@@ -21,6 +21,21 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Éclate-Roc",
+			},
+			damage: "10+",
+			effect: {
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"

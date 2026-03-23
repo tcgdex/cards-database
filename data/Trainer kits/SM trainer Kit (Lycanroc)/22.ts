@@ -31,6 +31,36 @@ const card: Card = {
 	stage: "Stage2",
 	retreat: 2,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Écho",
+			},
+			damage: "60",
+			effect: {
+				fr: "Pendant votre prochain tour, l'attaque Écho de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+			},
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Bec-Canon",
+			},
+			damage: "100",
+			effect: {
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire et maintenant Brûlé.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
