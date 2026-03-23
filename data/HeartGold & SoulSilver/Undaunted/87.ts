@@ -23,31 +23,41 @@ const card: Card = {
 
 	suffix: "Legend",
 
-	attacks: [{
-		name: {
-			fr: "",
-			de: "Mega-Flutwelle"
+	attacks: [
+		{
+			name: {
+				fr: "Méga raz-de-marée",
+				de: "Mega-Flutwelle",
+			},
+			effect: {
+				fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Kyogre & Groudon LÉGENDE.",
+				de: "Lege die obersten 5 Karten vom Deck deines Gegners auf seinen Ablagestapel. Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte mal der Anzahl der Energiekarten zu, die du auf diese Weise auf den Ablagestapel gelegt hast. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			},
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
 		},
-
-		effect: {
-			fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Kyogre & Groudon LÉGENDE.",
-			de: "Lege die obersten 5 Karten vom Deck deines Gegners auf seinen Ablagestapel. Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte mal der Anzahl der Energiekarten zu, die du auf diese Weise auf den Ablagestapel gelegt hast. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+		{
+			name: {
+				de: "Gewaltige Eruption",
+				fr: "Éruption massive",
+			},
+			damage: "100x",
+			effect: {
+				de: "Lege die obersten drei Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 100 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu.",
+				fr: "Défaussez les 5 cartes du dessus de votre deck. Cette attaque inflige 100 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
+			},
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
 		},
-
-		cost: ["Water", "Water", "Colorless", "Colorless"]
-	}, {
-		name: {
-			de: "Gewaltige Eruption"
-		},
-
-		damage: "100x",
-
-		effect: {
-			de: "Lege die obersten drei Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 100 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
-		},
-
-		cost: ["Fighting", "Fighting", "Colorless", "Colorless"]
-	}],
+	],
 
 	stage: "Basic",
 	retreat: 0,
