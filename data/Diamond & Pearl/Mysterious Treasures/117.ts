@@ -20,16 +20,19 @@ const card: Card = {
 		de: "Spiele Kopffossil wie ein -Basis-Pokémon. (Kopffossil zählt gleichzeitig als Trainerkarte, aber wenn Kopffossil kampfunfähig wird, zählt es als kampfunfähiges Pokémon.) Kopffossil kann nicht von Speziellen Zuständen betroffen werden und sich nicht zurückziehen. In deinem Zug (vor deinem Angriff) kannst du Kopffossil auf deinen Ablagestapel legen. (Dies zählt nicht als kampfunfähig gemachtes Pokémon.)"
 	},
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Schädelstein"
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				de: "Schädelstein",
+				fr: "Crâne de pierre",
+			},
+			effect: {
+				de: "Wenn Kopffossil im Zug deines Gegners durch Schaden eines Angriffs deines Gegners kampfunfähig würde, wirf 1 Münze, bis zum ersten Mal das Ergebnis 'Zahl' kommt. Lege für jedes Mal, wenn die Münze 'Kopf' gezeigt hat, 1 Schadensmarke auf das Angreifende Pokémon.",
+				fr: "Lors du tour de votre adversaire, si Fossile crâne est mise K.O. par les dégâts d'une attaque de votre adversaire, lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, placez 1 marqueur de dégât sur le Pokémon Attaquant.",
+			},
 		},
-
-		effect: {
-			de: "Wenn Kopffossil im Zug deines Gegners durch Schaden eines Angriffs deines Gegners kampfunfähig würde, wirf 1 Münze, bis zum ersten Mal das Ergebnis 'Zahl' kommt. Lege für jedes Mal, wenn die Münze 'Kopf' gezeigt hat, 1 Schadensmarke auf das Angreifende Pokémon."
-		}
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 277746,
