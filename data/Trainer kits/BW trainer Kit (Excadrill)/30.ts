@@ -34,32 +34,37 @@ const card: Card = {
 		"Fighting"
 	],
 
-	attacks: [{
-		cost: [
-			"Colorless",
-		],
-		name: {
-			en: "Metal Claw",
-			fr: "Griffe Acier"
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Metal Claw",
+				fr: "Griffe Acier",
+			},
+			damage: 30,
+			effect: {
+				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+			},
 		},
-
-		damage: 30
-	}, {
-		cost: [
-			"Fighting",
-			"Fighting",
-			"Fighting"
-		],
-		name: {
-			en: "Drill Run",
-			fr: "Tunnelier"
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				en: "Drill Run",
+				fr: "Tunnelier",
+			},
+			effect: {
+				en: "Discard an Energy attached to the Defending Pokémon.",
+				fr: "Défaussez une Énergie attachée au Pokémon Défenseur.",
+			},
+			damage: 80,
 		},
-		effect: {
-			en: "Discard an Energy attached to the Defending Pokémon.",
-			fr: "Défaussez une Énergie attachée au Pokémon Défenseur."
-		},
-		damage: 80,
-	}],
+	],
 
 	weaknesses: [{
 		type: "Water",

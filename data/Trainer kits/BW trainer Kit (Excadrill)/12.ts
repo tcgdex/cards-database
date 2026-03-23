@@ -21,21 +21,33 @@ const card: Card = {
 	types: ["Colorless"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: [
-			"Colorless",
-			"Colorless"
-		],
-		name: {
-			en: "Doubleslap",
-			fr: "Torgnoles"
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Doubleslap",
+				fr: "Torgnoles",
+			},
+			effect: {
+				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+			},
+			damage: "30x",
 		},
-		effect: {
-			en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Morsure",
+			},
+			damage: "20",
 		},
-		damage: "30x"
-	}],
+	],
 
 	weaknesses: [
 		{

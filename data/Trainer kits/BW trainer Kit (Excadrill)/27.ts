@@ -25,6 +25,10 @@ const card: Card = {
 		"Colorless"
 	],
 
+	effect: {
+		fr: "Cherchez une carte Énergie de base dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+	},
+
 	attacks: [{
 		cost: [
 			"Colorless",
