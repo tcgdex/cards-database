@@ -21,11 +21,13 @@ const card: Card = {
 		type: "Poke-POWER",
 
 		name: {
-			en: "Dark Ray"
+			en: "Dark Ray",
+			fr: "Rayon Obscur"
 		},
 
 		effect: {
-			en: "Once during your turn, when you put Umbreon Star from your hand onto your Bench, you may choose 1 card from your opponent's hand without looking and discard it."
+			en: "Once during your turn, when you put Umbreon Star from your hand onto your Bench, you may choose 1 card from your opponent's hand without looking and discard it.",
+			fr: "Une seule fois lors de votre tour, lorsque vous placez Noctali  de votre main sur votre Banc, vous pouvez choisir 1 carte de la main de votre adversaire sans regarder et la défausser."
 		}
 	}],
 

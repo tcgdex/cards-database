@@ -29,15 +29,22 @@ const card: Card = {
 		}
 	}],
 
-	attacks: [{
-		name: {
-			en: "Spinning Attack",
-			fr: "Douleur Lunaire"
+	attacks: [
+		{
+			name: {
+				en: "Spinning Attack",
+				fr: "Douleur Lunaire",
+			},
+			damage: 40,
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			effect: {
+				fr: "Défaussez 2 cartes Énergie attachées à Dracaufeu pour pouvoir utiliser cette attaque.",
+			},
 		},
-
-		damage: 40,
-		cost: ["Fighting", "Colorless"]
-	}],
+	],
 
 	weaknesses: [{
 		type: "Grass",
