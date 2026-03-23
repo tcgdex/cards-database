@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Lucario VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fighting"],
@@ -81,7 +81,7 @@ const card: Card = {
 	regulationMark: "F",
 
 	thirdParty: {
-		cardmarket: 606600
+		cardmarket: 606784
 	}
 }
 

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Flareon V"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Fire"],
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "E",
 
 	thirdParty: {
-		cardmarket: 491199
+		cardmarket: 576502
 	}
 }
 

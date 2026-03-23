@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Inteleon"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	dexId: [818],
 	hp: 150,
 	types: ["Water"],

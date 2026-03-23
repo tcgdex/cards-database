@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Dragonite V"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Dragon"],

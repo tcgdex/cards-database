@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Vaporeon V"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Water"],
@@ -69,7 +69,7 @@ const card: Card = {
 	regulationMark: "E",
 
 	thirdParty: {
-		cardmarket: 516359
+		cardmarket: 576503
 	}
 }
 

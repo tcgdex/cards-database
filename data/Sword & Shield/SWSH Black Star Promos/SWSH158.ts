@@ -24,7 +24,7 @@ const card: Card = {
 		it: "Greninja V UNIONE"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	hp: 300,
 	types: ["Water"],
 

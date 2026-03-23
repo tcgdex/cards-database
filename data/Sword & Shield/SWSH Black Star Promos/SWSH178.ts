@@ -15,7 +15,7 @@ const card: Card = {
 		it: "Ricerca Accademica"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 
 	effect: {
 		en: "Discard your hand and draw 7 cards.",

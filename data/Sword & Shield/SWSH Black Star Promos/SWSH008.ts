@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 	hp: 120,

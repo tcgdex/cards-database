@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Jolteon V"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],
@@ -69,7 +69,7 @@ const card: Card = {
 	regulationMark: "E",
 
 	thirdParty: {
-		cardmarket: 547021
+		cardmarket: 576504
 	}
 }
 

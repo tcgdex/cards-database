@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Eevee"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	dexId: [133],
 	hp: 60,
 	types: ["Colorless"],

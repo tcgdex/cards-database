@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Scorbunny"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fire"],

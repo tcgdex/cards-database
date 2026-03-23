@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Cinderace"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fire"],
@@ -80,7 +80,7 @@ const card: Card = {
 	regulationMark: "E",
 
 	thirdParty: {
-		cardmarket: 566760
+		cardmarket: 450578
 	}
 }
 

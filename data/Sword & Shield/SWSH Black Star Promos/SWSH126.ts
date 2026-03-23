@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Slowpoke di Galar"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	dexId: [79],
 	hp: 70,
 	types: ["Psychic"],

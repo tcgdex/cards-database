@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Mewtwo V"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Psychic"],
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "F",
 
 	thirdParty: {
-		cardmarket: 653691
+		cardmarket: 572159
 	}
 }
 

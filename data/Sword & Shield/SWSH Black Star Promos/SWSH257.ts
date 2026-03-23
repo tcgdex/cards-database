@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Rotom V"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],

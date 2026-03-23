@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Origin Forme Palkia VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Water"],

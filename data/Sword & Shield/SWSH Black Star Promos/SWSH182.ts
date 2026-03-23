@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Vaporeon VMAX"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Water"],

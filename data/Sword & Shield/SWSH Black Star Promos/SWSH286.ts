@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Pikachu VMAX"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Lightning"],
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "F",
 
 	thirdParty: {
-		cardmarket: 461594
+		cardmarket: 576730
 	}
 }
 

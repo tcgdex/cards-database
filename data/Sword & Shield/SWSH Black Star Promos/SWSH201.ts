@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Espeon V"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Psychic"],

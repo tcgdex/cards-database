@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Jolteon VMAX"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Lightning"],

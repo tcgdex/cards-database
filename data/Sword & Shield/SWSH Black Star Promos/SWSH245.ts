@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Croagunk"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],

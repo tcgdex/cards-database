@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Leafeon V"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Grass"],
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "F",
 
 	thirdParty: {
-		cardmarket: 606748
+		cardmarket: 604996
 	}
 }
 

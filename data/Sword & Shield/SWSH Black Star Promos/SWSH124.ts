@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Zapdos di Galar"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	dexId: [145],
 	hp: 110,
 	types: ["Fighting"],

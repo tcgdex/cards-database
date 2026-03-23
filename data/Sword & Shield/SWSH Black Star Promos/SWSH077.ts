@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "aky CG Works",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Metal"],

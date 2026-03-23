@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	stage: "Basic",
 

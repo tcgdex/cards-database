@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Basculin"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Water"],

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Bulbasaur"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
