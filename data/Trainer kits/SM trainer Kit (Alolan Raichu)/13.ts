@@ -21,6 +21,31 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Battement",
+			},
+			damage: "20",
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Coupe-Vent",
+			},
+			damage: "40",
+			effect: {
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"

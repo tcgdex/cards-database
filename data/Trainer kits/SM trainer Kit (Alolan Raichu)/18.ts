@@ -31,6 +31,31 @@ const card: Card = {
 	stage: "Stage1",
 	retreat: 3,
 
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				fr: "Attaque Surprise",
+			},
+			damage: "20",
+			effect: {
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			},
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				fr: "Force",
+			},
+			damage: "40",
+		},
+	],
+
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
