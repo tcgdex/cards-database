@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Zygarde"
 	},
 	illustrator: "kawayoo",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

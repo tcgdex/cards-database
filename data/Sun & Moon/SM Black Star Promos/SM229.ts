@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Bisaflor & Serpifeu GX"
 	},
 
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Grass"],

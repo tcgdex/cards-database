@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "kirisAki",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 

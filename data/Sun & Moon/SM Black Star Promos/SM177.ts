@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Meltan"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

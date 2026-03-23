@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Reshiram & Glurak GX"
 	},
 	illustrator: "Ryota Murayama",
-	rarity: "Ultra Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

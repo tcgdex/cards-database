@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Celebi"
 	},
 
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Zygarde GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

@@ -12,7 +12,7 @@ const card: Card = {
 		de: "Celebi & Bisaflor GX"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Ultra Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

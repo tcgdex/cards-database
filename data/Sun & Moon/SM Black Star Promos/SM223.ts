@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Terrakium"
 	},
 
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],

@@ -12,11 +12,21 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [448, 809],
+	dexId: [
+
+
+		448,
+
+
+		809,
+
+
+	],
+
 	hp: 260,
 
 	types: [

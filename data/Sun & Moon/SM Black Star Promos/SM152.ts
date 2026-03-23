@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kapu-Fala"
 	},
 	illustrator: "Mizue",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Lucario"
 	},
 	illustrator: "Anesaki Dynamic",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

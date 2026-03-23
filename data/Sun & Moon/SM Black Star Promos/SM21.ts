@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Sen-Long"
 	},
 	illustrator: "match",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

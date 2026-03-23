@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Wasch-Rotom"
 	},
 	illustrator: "Shigenori Negishi",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Silvarro"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

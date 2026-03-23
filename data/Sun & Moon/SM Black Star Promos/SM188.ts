@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kangama GX"
 	},
 	illustrator: "aky CG Works",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	dexId: [115],

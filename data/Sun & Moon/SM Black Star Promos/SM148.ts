@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 	set: Set,
 	trainerType: "Stadium",
