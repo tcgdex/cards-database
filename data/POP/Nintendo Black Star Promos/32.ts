@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Artikodin ex"
 	},
 	illustrator: "Nakaoka",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

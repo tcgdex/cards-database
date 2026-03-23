@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Championship Arena",
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 
 	set: Set,
