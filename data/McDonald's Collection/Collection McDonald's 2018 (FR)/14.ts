@@ -1,0 +1,50 @@
+import { Card } from '../../../interfaces'
+import Set from "../Collection McDonald's 2018 (FR)"
+
+const card: Card = {
+	name: {
+		fr: "Goupix",
+	},
+	rarity: "None",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [37],
+	hp: 60,
+	types: ["Fire"],
+
+	stage: "Basic",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				fr: "Trempette",
+			},
+			damage: "20",
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Water",
+				"Colorless",
+			],
+			name: {
+				fr: "Surf",
+			},
+			damage: "70",
+		},
+	],
+}
+
+export default card
