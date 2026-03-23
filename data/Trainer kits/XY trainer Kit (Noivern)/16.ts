@@ -21,6 +21,33 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 2,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Mâchoire Serrée",
+			},
+			damage: "20",
+			effect: {
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			},
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Croc Aiguisé",
+			},
+			damage: "50",
+		},
+	],
+
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"

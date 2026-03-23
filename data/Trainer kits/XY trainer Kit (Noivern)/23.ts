@@ -21,6 +21,10 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	effect: {
+		fr: "Lancez une pièce. Si c'est face, échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+	},
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"

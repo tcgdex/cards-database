@@ -21,6 +21,10 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	effect: {
+		fr: "Échangez votre Pokémon Actif contre l'un de vos Pokémon de Banc.",
+	},
+
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
