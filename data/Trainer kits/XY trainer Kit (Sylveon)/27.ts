@@ -21,6 +21,19 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 2,
 
+	attacks: [
+		{
+			cost: [
+				"Fairy",
+				"Colorless",
+			],
+			name: {
+				fr: "Coup d'Boule",
+			},
+			damage: "20",
+		},
+	],
+
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
