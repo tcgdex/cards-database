@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Sabrina's Abra",
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

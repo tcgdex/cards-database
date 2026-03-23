@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Electabuzz",
 	},
 	illustrator: "Miki Tanaka",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Jigglypuff",
 	},
 	illustrator: "Keiji Kinebuchi",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,
