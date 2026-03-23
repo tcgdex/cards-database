@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Kyurem Blanc",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

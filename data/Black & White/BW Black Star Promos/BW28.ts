@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Plage Tropicale",
 	},
 	illustrator: undefined,
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 
 	set: Set,
