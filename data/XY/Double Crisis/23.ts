@@ -21,19 +21,23 @@ const card: Card = {
 
 	trainerType: "Tool",
 
-	attacks: [{
-		name: {
-			en: "Aqua Diffuser",
-			pt: "Difusor Aqua",
+	attacks: [
+		{
+			name: {
+				en: "Aqua Diffuser",
+				pt: "Difusor Aqua",
+				fr: "Diffuseur Aqua",
+			},
+			effect: {
+				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado,",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+			},
+			cost: [
+				"Water",
+			],
 		},
-
-		effect: {
-			en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado,"
-		},
-
-		cost: ["Water"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 282534,
