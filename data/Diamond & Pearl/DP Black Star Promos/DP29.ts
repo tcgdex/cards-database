@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Rihornior"
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

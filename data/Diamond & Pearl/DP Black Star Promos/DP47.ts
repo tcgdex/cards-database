@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Rayquaza C"
 	},
 	illustrator: undefined,
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

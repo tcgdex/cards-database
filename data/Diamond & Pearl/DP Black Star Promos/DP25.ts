@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 	set: Set,
 

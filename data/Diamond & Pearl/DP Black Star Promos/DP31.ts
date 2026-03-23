@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Heatran"
 	},
 	illustrator: "Shizurow",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -28,12 +28,21 @@ const card: Card = {
 			name: {
 				en: "Heat Metal",
 				fr: "Métal chauffant",
-				de: "Hitzewelle"
+				de: "Hitzewelle",
 			},
 			effect: {
 				en: "Your opponent can't remove the Special Condition Burned by evolving or devolving his or her Burned Pokémon. (This also includes putting a Pokémon Level-Up card onto the Burned Pokémon.) Whenever your opponent flips a coin for the Special Condition Burned between turns, treat it as tails.",
 				fr: "Votre adversaire ne peut pas retirer l'État Spécial Brûlé en évoluant ou dés-évoluant son Pokémon Brûlé. (Placer une carte Pokémon Niveau Sup sur votre Pokémon Brûlé inclus). Lorsque votre adversaire lance une pièce pour l'État Spécial Brûlé entre deux tours, considérez que c'est une pile.",
-				de: "Einmal am Ende deines Zuges kannst du, wenn Heatran auf deiner Bank ist, diese Poké-Power benutzen. Wenn du in diesem Zug als Ergebnis eines Angriffs von deinem Aktiven - oder -Pokémon Basis-Energiekarten von diesem entfernt und auf deinen Ablagestapel gelegt hast, lege bis zu 2 dieser Energiekarten an dieses Pokémon an."
+				de: "Einmal am Ende deines Zuges kannst du, wenn Heatran auf deiner Bank ist, diese Poké-Power benutzen. Wenn du in diesem Zug als Ergebnis eines Angriffs von deinem Aktiven - oder -Pokémon Basis-Energiekarten von diesem entfernt und auf deinen Ablagestapel gelegt hast, lege bis zu 2 dieser Energiekarten an dieses Pokémon an.",
+			},
+		},
+		{
+			type: "Poke-POWER",
+			name: {
+				fr: "Canicule",
+			},
+			effect: {
+				fr: "Une seule fois à la fin de votre tour, si Heatran se trouve sur votre Banc, vous pouvez utiliser ce pouvoir. Si vous avez défaussé des cartes Énergie de base attachées à vos Pokémon Actifs Feu ou Métal en utilisant l'attaque de ce Pokémon ce tour-ci, attachez à ce Pokémon jusqu'à 2 de ces cartes Énergie.",
 			},
 		},
 	],

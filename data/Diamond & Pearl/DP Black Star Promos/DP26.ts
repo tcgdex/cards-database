@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kazuyuki Kano",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 
