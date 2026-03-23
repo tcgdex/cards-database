@@ -20,6 +20,17 @@ const swsh1: Set = {
 		official: 72
 	},
 
+	subsets: {
+		SV: {
+			name: {
+				en: "Shiny Vault"
+			},
+			cardCount: {
+				official: 122
+			}
+		}
+	},
+
 	releaseDate: "2021-02-19",
 
 	abbreviations: {
