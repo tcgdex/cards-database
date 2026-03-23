@@ -15,8 +15,8 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.\n\nSi vous avez des cartes en main, mélangez-en 1 à votre deck puis piochez 3 cartes.",
-		de: "Wenn du mindestens 1 Karte auf der Hand hast, mische 1 von ihnen in dein Deck und ziehe dann 3 Karten."
+		fr: "Si vous avez des cartes en main, mélangez-en 1 à votre deck puis piochez 3 cartes.",
+		de: "Wenn du mindestens 1 Karte auf der Hand hast, mische 1 von ihnen in dein Deck und ziehe dann 3 Karten.",
 	},
 
 	thirdParty: {
