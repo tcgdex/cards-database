@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Negapi"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

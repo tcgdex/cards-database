@@ -3,60 +3,59 @@ import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Raikou",
-		fr: "Raikou"
+		en: "Zorua and Celebi",
 	},
-	illustrator: "Noriko Hotta",
+	illustrator: "Kagemaru Himeno",
 	rarity: "Black Star Promo",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
-		243,
+		570,
+		251
 	],
-	hp: 80,
+	hp: 90,
 	types: [
-		"Lightning",
+		"Darkness"
 	],
 
 	stage: "Basic",
 
-
 	attacks: [
 		{
 			cost: [
-				"Lightning",
-				"Lightning",
-				"Colorless",
+				"Darkness",
+				"Grass"
 			],
 			name: {
-				en: "Zap Cannon",
-				fr: "Elecanon"
+				en: "Who is Who?"
 			},
 			effect: {
-				en: "During your next turn, Raikou can't use Zap Cannon.",
-				fr: "Lors de votre prochain tour, Raikou ne pourra pas utiliser Elecanon."
-			},
-			damage: 70,
-
-		},
+				en: "Each player switches places with his or her opponent. Then, each player continues to play the game using his or her opponent's cards."
+			}
+		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
-		},
+		}
 	],
+
 	resistances: [
 		{
-			type: "Metal",
+			type: "Psychic",
 			value: "-20"
-		},
+		}
 	],
+
+	retreat: 2,
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			size: "jumbo"
 		}
 	]
 }

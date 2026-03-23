@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Typhlosion"
 	},
 	illustrator: "Wataru Kawahara",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,
