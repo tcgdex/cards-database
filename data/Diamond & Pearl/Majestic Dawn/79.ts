@@ -14,8 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.",
-		de: "Jedes Mal, wenn ein Spieler eine Energiekarte von seiner Hand an ein - oder -Pokémon anlegt, entferne 1 Schadensmarke und alle Speziellen Zustände von diesem Pokémon."
+		fr: "Lorsqu'un joueur attache une carte Énergie de sa main à un Pokémon Plante ou Eau, retirez à ce Pokémon 1 marqueur de dégât et tous ses États Spéciaux.",
+		de: "Jedes Mal, wenn ein Spieler eine Energiekarte von seiner Hand an ein - oder -Pokémon anlegt, entferne 1 Schadensmarke und alle Speziellen Zustände von diesem Pokémon.",
 	},
 
 	trainerType: "Stadium",
