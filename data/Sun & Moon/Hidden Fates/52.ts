@@ -23,8 +23,8 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que si c’est votre dernière carte en main.\n\nPiochez 2 cartes pour chacun de vos Pokémon Fire en jeu.",
-		en: "You can play this card only when it is the last card in your hand.\n\nDraw 2 cards for each Fire Pokémon you have in play."
+		fr: "Vous ne pouvez jouer cette carte que si c'est votre dernière carte en main.",
+		en: "You can play this card only when it is the last card in your hand.\n\nDraw 2 cards for each Fire Pokémon you have in play.",
 	},
 	trainerType: "Supporter",
 
