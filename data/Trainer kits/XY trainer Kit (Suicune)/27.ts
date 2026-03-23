@@ -31,6 +31,30 @@ const card: Card = {
 	stage: "Stage1",
 	retreat: 0,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Si Mignon",
+			},
+			effect: {
+				fr: "Votre adversaire place une carte de sa main en dessous de son deck.",
+			},
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Griffe",
+			},
+			damage: "20",
+		},
+	],
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
