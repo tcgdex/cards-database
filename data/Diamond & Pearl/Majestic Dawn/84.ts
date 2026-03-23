@@ -21,16 +21,19 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Gehärteter Bernstein"
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				de: "Gehärteter Bernstein",
+				fr: "Ambre solide",
+			},
+			effect: {
+				de: "Solange sich Altbernstein im Spiel befindet, verhindere allen Schaden, der Altbernstein durch Angriffe von Pokémon (deinen oder denen deines Gegners) zugefügt würden.",
+				fr: "Tant que Vieil Ambre est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (les vôtres et celles de votre adversaire).",
+			},
 		},
-
-		effect: {
-			de: "Solange sich Altbernstein im Spiel befindet, verhindere allen Schaden, der Altbernstein durch Angriffe von Pokémon (deinen oder denen deines Gegners) zugefügt würden."
-		}
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 278133,
