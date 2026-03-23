@@ -24,26 +24,29 @@ const card: Card = {
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			en: "Peck",
-			fr: "Picpic"
+	attacks: [
+		{
+			name: {
+				en: "Peck",
+				fr: "Picpic",
+			},
+			damage: 10,
+			effect: {
+				fr: "Ce Pokémon s'inflige 10 dégâts.",
+			},
 		},
-
-		damage: 10
-	}, {
-		name: {
-			en: "Quick Attack",
-			fr: "Vive-Attaque"
+		{
+			name: {
+				en: "Quick Attack",
+				fr: "Vive-Attaque",
+			},
+			damage: "10+",
+			effect: {
+				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			},
 		},
-
-		damage: "10+",
-
-		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
-		}
-	}],
+	],
 
 	hp: 50,
 	types: ["Colorless"],

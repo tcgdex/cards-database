@@ -26,26 +26,29 @@ const card: Card = {
 		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light."
 	},
 
-	attacks: [{
-		name: {
-			en: "Psychic Sphere",
-			fr: "Sphère Psy"
+	attacks: [
+		{
+			name: {
+				en: "Psychic Sphere",
+				fr: "Sphère Psy",
+			},
+			damage: 20,
+			effect: {
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			},
 		},
-
-		damage: 20
-	}, {
-		name: {
-			en: "Psychic Prism",
-			fr: "Prisme Psy"
+		{
+			name: {
+				en: "Psychic Prism",
+				fr: "Prisme Psy",
+			},
+			damage: "60+",
+			effect: {
+				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			},
 		},
-
-		damage: "60+",
-
-		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
-		}
-	}],
+	],
 
 	weaknesses: [{
 		type: "Psychic",

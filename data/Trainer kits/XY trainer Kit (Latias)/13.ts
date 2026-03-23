@@ -21,6 +21,33 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 2,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Voyage Supersonique",
+			},
+			damage: "40",
+			effect: {
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			},
+		},
+		{
+			cost: [
+				"Psychic",
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				fr: "Brûlure Psy",
+			},
+			damage: "70",
+		},
+	],
+
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
