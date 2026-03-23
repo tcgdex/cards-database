@@ -20,6 +20,18 @@ const g1: Set = {
 		official: 83
 	},
 
+	subsets: {
+		RC: {
+			name: {
+				en: "Radiant Collection",
+				fr: "Radiant Collection"
+			},
+			cardCount: {
+				official: 32
+			}
+		}
+	},
+
 	releaseDate: "2016-02-22",
 
 	abbreviations: {
