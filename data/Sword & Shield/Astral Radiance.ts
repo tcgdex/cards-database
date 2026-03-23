@@ -20,6 +20,17 @@ const set: Set = {
 		official: 189
 	},
 
+	subsets: {
+		TG: {
+			name: {
+				en: "Trainer Gallery"
+			},
+			cardCount: {
+				official: 30
+			}
+		}
+	},
+
 	releaseDate: "2022-05-27",
 
 	abbreviations: {
