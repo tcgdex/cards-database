@@ -14,8 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.",
-		de: "Schaden, der den Verteidigenden Pokémon durch -Pokémon (deinen und denen deines Gegners) zugefügt wird, wird durch Resistenz nicht verändert. Alle -Pokémon im Spiel (deine und die deines Gegners) haben keine Schwäche."
+		fr: "Tous dégâts infligés par des attaques de Pokémon Électrique (les vôtres et ceux de votre adversaire) au Pokémon Défenseur ne sont pas affectés par la Résistance. Chaque Pokémon Électrique en jeu (les vôtres et ceux de votre adversaire) ne possède pas de Faiblesse.",
+		de: "Schaden, der den Verteidigenden Pokémon durch -Pokémon (deinen und denen deines Gegners) zugefügt wird, wird durch Resistenz nicht verändert. Alle -Pokémon im Spiel (deine und die deines Gegners) haben keine Schwäche.",
 	},
 
 	trainerType: "Stadium",
