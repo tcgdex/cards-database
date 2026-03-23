@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Friedwuff-ex"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Psychic"],

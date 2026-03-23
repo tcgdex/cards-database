@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Riesenzahn-ex"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 250,
 	types: ["Fighting"],

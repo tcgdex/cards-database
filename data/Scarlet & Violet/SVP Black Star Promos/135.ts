@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Drifzepeli"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],

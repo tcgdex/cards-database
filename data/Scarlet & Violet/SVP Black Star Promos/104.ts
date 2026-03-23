@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Melmetal-ex"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Metal"],

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Ampharos-ex"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Lightning"],

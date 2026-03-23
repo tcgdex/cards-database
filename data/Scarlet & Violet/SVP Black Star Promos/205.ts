@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Mewtwo-ex de la Team Rocket"
 	},
 	suffix: "EX",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Psychic"],
@@ -33,13 +33,18 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Psychic","Psychic","Colorless"],
+			cost: [
+				"Psychic",
+				"Psychic",
+				"Colorless",
+			],
 			name: {
 				en: "Erasure Ball",
+				fr: "Boule Effacement",
 			},
 			effect: {
-				en: "You may discard up to 2 Energy from your Benched Pokémon. This attack does 60 more damage for each" +
-					" card you discarded in this way."
+				en: "You may discard up to 2 Energy from your Benched Pokémon. This attack does 60 more damage for each card you discarded in this way.",
+				fr: "Vous pouvez défausser jusqu'à 2 Énergies de vos Pokémon de Banc. Cette attaque inflige 60 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
 			},
 			damage: "160+",
 		},

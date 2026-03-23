@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Crimanzo-ex"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Fire"],
