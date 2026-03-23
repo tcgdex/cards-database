@@ -21,16 +21,19 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Schwammiger Stein"
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				de: "Schwammiger Stein",
+				fr: "Pierre spongieuse",
+			},
+			effect: {
+				de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Wurzelfossil.",
+				fr: "N'importe quand entre deux tours, retirez à Fossile racine 1 marqueur de dégât.",
+			},
 		},
-
-		effect: {
-			de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Wurzelfossil."
-		}
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 278288,
