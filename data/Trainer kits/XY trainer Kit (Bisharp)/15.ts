@@ -21,6 +21,21 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 3,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Gros Bâillement",
+			},
+			effect: {
+				fr: "Les deux Pokémon Actifs sont maintenant Endormis.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
