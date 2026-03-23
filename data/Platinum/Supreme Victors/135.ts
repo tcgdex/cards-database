@@ -14,8 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.",
-		de: "Die Rückzugskosten aller Pokémon SP (deiner und der deines Gegners) verringern sich um ."
+		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez cette carte si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.",
+		de: "Die Rückzugskosten aller Pokémon SP (deiner und der deines Gegners) verringern sich um .",
 	},
 
 	trainerType: "Stadium",
