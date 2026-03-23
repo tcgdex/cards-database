@@ -28,14 +28,26 @@ const card: Card = {
 			],
 			name: {
 				en: "Wild Kick",
-				fr: "Coup déchaîné"
+				fr: "Coup déchaîné",
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
 			},
-			damage: "30"
-		}
+			damage: "30",
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+			],
+			name: {
+				fr: "Saumure",
+			},
+			effect: {
+				fr: "Choisissez 1 des Pokémon de votre adversaire possédant des marqueurs de dégât. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+			},
+		},
 	],
 
 	weaknesses: [
