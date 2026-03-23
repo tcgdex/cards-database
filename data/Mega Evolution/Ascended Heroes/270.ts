@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	dexId: [560],
+
 	name: {
 		en: "Mega Scrafty ex",
 		fr: "Méga-Baggaïd-ex",
@@ -15,7 +17,7 @@ const card: Card = {
 	},
 
 	illustrator: "Taiga Kasai",
-	rarity: "Ultra Rare",
+	rarity: "Mega Attack Rare",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Darkness"],
