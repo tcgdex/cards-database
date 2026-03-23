@@ -17,6 +17,18 @@ const bw11: Set = {
 		official: 113
 	},
 
+	subsets: {
+		RC: {
+			name: {
+				en: "Radiant Collection",
+				fr: "Radiant Collection"
+			},
+			cardCount: {
+				official: 25
+			}
+		}
+	},
+
 	releaseDate: "2013-11-06",
 
 	abbreviations: {
