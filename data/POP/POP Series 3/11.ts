@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		en: "Each Grass and Lightning Pokémon in play (both yours and your opponent’s) gets +10 HP.",
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.\n\nChaque Pokémon  et  en jeu (les vôtres et ceux de votre adversaire) obtient 10 PV de plus."
+		fr: "Chaque Pokémon Plante et Électrique en jeu (les vôtres et ceux de votre adversaire) obtient 10 PV de plus.",
 	},
 
 	trainerType: "Stadium",

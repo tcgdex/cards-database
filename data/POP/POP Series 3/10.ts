@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		en: "Each player pays Colorless less to retreat his or her Fire and Water Pokémon.",
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.\n\nChaque joueur ne paye pas de  pour faire battre en retraite ses Pokémon  et ."
+		fr: "Chaque joueur ne paye pas de Incolore pour faire battre en retraite ses Pokémon Feu et Eau.",
 	},
 
 	trainerType: "Stadium",
