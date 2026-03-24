@@ -49,7 +49,6 @@ function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: Suppo
 	const result: Array<variant_detailed> = [];
 	const addVariant = (type: string, stamps: string[] = []) => {
 		result.push({
-			variantId: "generated",
 			type,
 			size: translate('variantSize', "standard", lang) as any,
 			stamp: stamps.length > 0 ? stamps : undefined
