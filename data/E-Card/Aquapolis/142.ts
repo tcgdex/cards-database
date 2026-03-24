@@ -15,7 +15,8 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "Falls das Pokémon, an das die Finsternis-Energie angelegt ist, dem Verteidigenden Pokémon Schadenspunkte zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt der Angriff dem Verteidigenden Pokémon 10 weitere Schadenspunkte zu. Lege am Ende jedes Zugs eine Schadensmarke auf das Pokémon, an das die Finsternis-Energie angelegt ist, falls es nicht vom Typ  ist oder 'Dunkel' im Namen hat. Finsternis-Energie liefert - Energie. (Zählt nicht als Basis-Energiekarte.)"
+		de: "Falls das Pokémon, an das die Finsternis-Energie angelegt ist, dem Verteidigenden Pokémon Schadenspunkte zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt der Angriff dem Verteidigenden Pokémon 10 weitere Schadenspunkte zu. Lege am Ende jedes Zugs eine Schadensmarke auf das Pokémon, an das die Finsternis-Energie angelegt ist, falls es nicht vom Typ  ist oder 'Dunkel' im Namen hat. Finsternis-Energie liefert - Energie. (Zählt nicht als Basis-Energiekarte.)",
+		fr: "Si le Pokémon sur lequel est attachée Énergie obscurité inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 10 dégâts supplémentaires au Pokémon Défenseur.",
 	},
 
 	thirdParty: {

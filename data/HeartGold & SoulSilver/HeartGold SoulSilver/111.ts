@@ -37,19 +37,37 @@ const card: Card = {
 		}
 	],
 
-	attacks: [{
-		name: {
-			de: "Strahlenschwinge"
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				fr: "Arc-en-ciel sacré",
+			},
+			effect: {
+				fr: "Toutes les Énergies attachées à Ho-Oh LÉGENDE sont de type Feu et non de leur type habituel.",
+			},
 		},
+	],
 
-		damage: 100,
-
-		effect: {
-			de: "Lege 1 an Ho-Oh-LEGENDE angelegte Energie auf deinen Ablagestapel."
+	attacks: [
+		{
+			name: {
+				de: "Strahlenschwinge",
+				fr: "Ailes lumineuses",
+			},
+			damage: 100,
+			effect: {
+				de: "Lege 1 an Ho-Oh-LEGENDE angelegte Energie auf deinen Ablagestapel.",
+				fr: "Défaussez une Énergie attachée à Ho-Oh LÉGENDE.",
+			},
+			cost: [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire",
+			],
 		},
-
-		cost: ["Fire", "Fire", "Fire", "Fire"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 279083

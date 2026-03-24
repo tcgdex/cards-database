@@ -15,8 +15,8 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu.\n\nLes dégâts infligés par des attaques de Pokémon  et  (les vôtres et ceux de votre adversaire) ne sont pas affectés par la Résistance.",
-		de: "Any damage done by attacks from  Pokémon and  Pokémon (both yours and your opponent's) is not affected by Resistance."
+		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
+		de: "Any damage done by attacks from  Pokémon and  Pokémon (both yours and your opponent's) is not affected by Resistance.",
 	},
 
 	thirdParty: {
