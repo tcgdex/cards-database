@@ -22,12 +22,14 @@ export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): 
 }
 
 export async function getSeries(lang: SupportedLanguages): Promise<Array<Serie>> {
-	let series: Array<Serie> = (await Promise.all((await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/*.ts`))
-		// Find Serie's name
+	// Load series sequentially to avoid dynamic-import race condition in ts-node transpile-only mode
+	const serieNames = (await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/*.ts`))
 		.map((it) => it.substring(it.lastIndexOf('/') + 1, it.length - 3))
-		// Fetch the Serie
-		.map((it) => getSerie(it, lang))))
-		// Filter the serie if no name's exists in the selected lang
+	const allSeries: Array<Serie> = []
+	for (const name of serieNames) {
+		allSeries.push(await getSerie(name, lang))
+	}
+	let series: Array<Serie> = allSeries
 		.filter((serie) => Boolean(resolveText(serie.name, lang)))
 
 	// Filter available series

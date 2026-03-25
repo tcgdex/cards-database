@@ -4,10 +4,13 @@ import { SupportedLanguages } from '../../interfaces'
 import { FileFunction } from './compilerInterfaces'
 import { fetchRemoteFile, loadLastEdits } from './utils/util'
 
-const LANGS: Array<SupportedLanguages> = [
+const DEFAULT_LANGS: Array<SupportedLanguages> = [
 	'en', 'fr', 'es', 'es-mx', 'it', 'pt', 'pt-br', 'pt-pt', 'de', 'nl', 'pl', 'ru',
 	'ja', 'ko', 'zh-tw', 'id', 'th', 'zh-cn'
 ]
+const LANGS: Array<SupportedLanguages> = process.env.CARDS_LANGS
+	? (process.env.CARDS_LANGS.split(',').map((lang) => lang.trim()) as Array<SupportedLanguages>)
+	: DEFAULT_LANGS
 
 const DIST_FOLDER = './generated'
 
