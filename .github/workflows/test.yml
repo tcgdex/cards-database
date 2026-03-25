@@ -2,66 +2,111 @@ name: Test the Data
 
 on:
   push:
-    branches: 
+    branches:
       - master
   pull_request_target:
-    branches: 
-      - "**"
+    branches:
+      - '**'
 
 permissions: {}
+
 jobs:
   test:
     runs-on: ${{ matrix.os }}
     permissions: {}
+    timeout-minutes: 120
+    defaults:
+      run:
+        shell: bash
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v6
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
-        persist-credentials: false
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
 
-    - name: Setup BunJS
-      uses: oven-sh/setup-bun@v2
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
-    - name: Install deps
-      run: |
-        bun install -g @usebruno/cli
-        bun install --frozen-lockfile
-        cd server
-        bun install --frozen-lockfile
-        bun run compile
+      - name: Cache Bun installs
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.bun/install/cache
+            ~/.bun/install/global
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lockb', 'server/bun.lockb') }}
 
-    - name: Validate the data & the server
-      run: |
-        bun run validate
-        cd server
-        bun run --bun validate
+      - name: Install CLI & root deps
+        run: |
+          bun install -g @usebruno/cli
+          bun install --frozen-lockfile
 
-    - name: Validate some requests
-      shell: bash
-      run: |
-        set -euo pipefail
-        cd server
-        bun run start &
-        SERVER_PID=$!
-        cd ..
+      - name: Install server deps
+        run: |
+          cd server
+          bun install --frozen-lockfile
 
-        ATTEMPTS=0
-        until curl -sSf http://127.0.0.1:3000/status > /dev/null; do
-          ATTEMPTS=$((ATTEMPTS + 1))
-          if [ $ATTEMPTS -ge 60 ]; then
-            echo "Server did not become ready within 60 seconds" >&2
-            kill $SERVER_PID
+      - name: Run TypeScript validation (root)
+        run: bun run validate
+
+      # server/generated is not committed; server TS checks import those JSON files.
+      # Compile must run before server validate (and before starting the API).
+      - name: Compile server data
+        run: |
+          cd server
+          set -o pipefail
+          bun run compile 2>&1 | tee ../compile.log
+          cd ..
+          if grep -q "could not load file" compile.log; then
+            echo "::error::Compiler reported missing card files" >&2
+            cat compile.log
             exit 1
           fi
-          sleep 1
-        done
+          rm -f compile.log
 
-        cd .bruno
-        bru run --env Developpement
+      - name: Run TypeScript validation (server)
+        run: |
+          cd server
+          bun run --bun validate
 
-        kill $SERVER_PID
+      - name: Run server unit tests
+        run: |
+          cd server
+          bun test
+
+      - name: Start API server
+        run: |
+          cd server
+          MAX_WORKERS=1 bun run start > ../server.log 2>&1 &
+          echo $! > ../server.pid
+
+      - name: Wait for server readiness
+        run: |
+          for i in {1..180}; do
+            if curl -sf http://127.0.0.1:3000/status > /dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Server failed to start" >&2
+          cat server.log || true
+          exit 1
+
+      - name: Run Bruno integration suite
+        run: |
+          cd .bruno
+          bru run --env Developpement
+
+      - name: Stop API server
+        if: always()
+        run: |
+          if [ -f server.pid ]; then
+            kill "$(cat server.pid)" || true
+            rm -f server.pid
+          fi
+          cat server.log || true
+          rm -f server.log

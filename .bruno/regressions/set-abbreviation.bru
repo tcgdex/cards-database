@@ -1,0 +1,17 @@
+meta {
+  name: Set abbreviation exposure
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/sets/swsh3
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.abbreviation.official: eq DAA
+}
+
