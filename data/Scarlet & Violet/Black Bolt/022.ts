@@ -77,27 +77,31 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 835945
+				cardmarket: 835945,
+				tcgplayer: 642474
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 835945
+				cardmarket: 835945,
+				tcgplayer: 642474
 			}
 		},
 		{
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
-				cardmarket: 836308
+				cardmarket: 836308,
+				tcgplayer: 642719
 			}
 		},
 		{
 			type: "reverse",
 			foil: "masterball",
 			thirdParty: {
-				cardmarket: 836309
+				cardmarket: 836309,
+				tcgplayer: 642647
 			}
 		}
 	],
