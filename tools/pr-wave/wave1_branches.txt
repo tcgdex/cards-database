@@ -1,0 +1,4 @@
+# Wave 1 (plan): naturally isolated set additions / focused promo-style slices.
+# Edit this list to add more branches before opening or pushing.
+# One branch name per line (format: pr/Serie-Set-Slug).
+

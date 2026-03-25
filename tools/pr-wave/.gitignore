@@ -1,0 +1,14 @@
+comments/
+opened_prs.tsv
+opened_prs_index.tsv
+inventory.tsv
+inventory_leftovers.txt
+live_pr_classify.tsv
+priority_queue.tsv
+queue_excluded_branches.txt
+release_queue.tsv
+release_queue_branches.txt
+
+# Python
+__pycache__/
+*.pyc
