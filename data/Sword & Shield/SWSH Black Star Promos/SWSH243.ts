@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Machamp"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],

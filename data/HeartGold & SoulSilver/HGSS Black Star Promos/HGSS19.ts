@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Raikou"
 	},
 	illustrator: "Noriko Hotta",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

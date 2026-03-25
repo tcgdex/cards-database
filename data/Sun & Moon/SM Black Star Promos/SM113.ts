@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Pikachu de Sacha",
 	},
 	illustrator: "2017 Pikachu Project",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

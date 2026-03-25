@@ -31,6 +31,33 @@ const card: Card = {
 	stage: "Stage1",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Repositionnement",
+			},
+			effect: {
+				fr: "Déplacez autant d'Énergies attachées à vos Pokémon que vous voulez vers vos autres Pokémon, de la manière que vous voulez.",
+			},
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Câlinerie",
+			},
+			damage: "30+",
+			effect: {
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"

@@ -34,13 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Karate Chop",
-				fr: "Poing-Karaté"
+				fr: "Poing-Karaté",
 			},
 			effect: {
 				en: "Does 40 damage minus 10 damage for each damage counter on Machoke.",
-				fr: "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machopeur."
+				fr: "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machopeur.",
 			},
-			damage: "40-"
+			damage: "40-",
 		},
 		{
 			cost: [
@@ -50,10 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Seismic Toss",
-				fr: "Frappe Atlas"
+				fr: "Frappe Atlas",
 			},
-			damage: "60"
-		}
+			damage: "60",
+			effect: {
+				fr: "Échangez Manaphy avec 1 des Pokémon de votre Banc.",
+			},
+		},
 	],
 
 	weaknesses: [

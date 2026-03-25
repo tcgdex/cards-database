@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kapu-Riki GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

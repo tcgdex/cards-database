@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Victini"
 	},
 	illustrator: "Nagimiso",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

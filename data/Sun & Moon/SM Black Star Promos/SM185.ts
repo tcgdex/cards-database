@@ -12,7 +12,7 @@ const card: Card = {
 		de: "Tornupto"
 	},
 	illustrator: "Hideki Ishikawa",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

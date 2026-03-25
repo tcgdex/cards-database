@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Delfinator-ex"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 340,
 	types: ["Water"],

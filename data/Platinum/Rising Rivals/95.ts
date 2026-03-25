@@ -21,17 +21,23 @@ const card: Card = {
 
 	trainerType: "Technical Machine",
 
-	attacks: [{
-		name: {
-			de: "Schadensträger"
+	attacks: [
+		{
+			name: {
+				de: "Schadensträger",
+				fr: "Porteur de dégâts",
+			},
+			effect: {
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte mal der Anzahl Schadensmarken auf dem Pokémon, an dem diese Karte angelegt ist, zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur le Pokémon auquel cette carte est attachée. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+			},
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
 		},
-
-		effect: {
-			de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte mal der Anzahl Schadensmarken auf dem Pokémon, an dem diese Karte angelegt ist, zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
-		},
-
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 278669

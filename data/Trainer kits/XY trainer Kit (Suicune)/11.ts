@@ -21,6 +21,18 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Morsure",
+			},
+			damage: "10",
+		},
+	],
+
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"

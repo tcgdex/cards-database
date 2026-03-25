@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mina Nakai",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],

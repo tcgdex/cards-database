@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Heatran"
 	},
 	illustrator: "tetsuya koizumi",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

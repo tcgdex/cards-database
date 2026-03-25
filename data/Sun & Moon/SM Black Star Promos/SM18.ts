@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Alola-Sandamer"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

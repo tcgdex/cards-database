@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Évoli"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

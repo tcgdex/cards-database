@@ -21,6 +21,10 @@ const card: Card = {
 	types: ["Colorless"],
 	stage: "Basic",
 
+	effect: {
+		fr: "Montrez l'un des Pokémon de votre main et placez-le sur le dessus de votre deck. Dans ce cas, cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+	},
+
 	attacks: [{
 		cost: [
 			"Colorless",

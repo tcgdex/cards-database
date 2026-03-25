@@ -23,7 +23,12 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Meltan"
+		en: "Meltan",
+		fr: "Meltan",
+		es: "Meltan",
+		it: "Meltan",
+		pt: "Meltan",
+		de: "Meltan"
 	},
 
 	abilities: [{

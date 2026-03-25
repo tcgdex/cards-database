@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Traunmagil"
 	},
 
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],

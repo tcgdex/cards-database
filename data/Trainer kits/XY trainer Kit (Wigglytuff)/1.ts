@@ -21,6 +21,30 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Moi d'Abord",
+			},
+			effect: {
+				fr: "Piochez une carte.",
+			},
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Picpic",
+			},
+			damage: "20",
+		},
+	],
+
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"

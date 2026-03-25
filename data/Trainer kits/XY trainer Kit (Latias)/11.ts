@@ -21,6 +21,18 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				fr: "Coud'Phalange",
+			},
+			damage: "10",
+		},
+	],
+
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"

@@ -57,11 +57,26 @@ interface variants {
 	wPromo?: boolean
 }
 
-interface variant_detailed {
+export interface variant_detailed {
 	type: string
 	size?: string
 	stamp?: Array<string>
 	foil?: string
+	thirdParty?: {
+		cardmarket?: number
+		tcgplayer?: number
+	}
+	image?: string
+}
+
+export interface SubsetCardCount {
+	official: number;
+}
+
+export interface SubsetInfo {
+	id: string;
+	name?: string;
+	cardCount: SubsetCardCount;
 }
 
 export interface SetResume {
@@ -79,13 +94,22 @@ export interface SetResume {
 		 */
 		official: number;
 	};
+	abbreviation?: {
+		official?: string;
+		localized?: string;
+	};
+	subsets?: Array<SubsetInfo>;
+	/**
+	 * Present on API payloads so GraphQL can resolve Set.serie on nested sets
+	 * (e.g. Card.set) without a separate field resolver.
+	 */
+	serie: SerieResume;
 }
 
 /**
  * /sets/:id
  */
 export interface Set extends SetResume {
-	serie: SerieResume;
 	tcgOnline?: string;
 	variants?: variants;
 	releaseDate: string;
@@ -137,7 +161,10 @@ export interface Set extends SetResume {
 		firstEd?: number;
 	};
 	cards: Array<CardResume>;
-	abbreviation: { official: string, localized: string };
+	abbreviation?: {
+		official?: string,
+		localized?: string
+	};
 	thirdParty?: {
 		cardmarket?: number
 		tcgplayer?: number
@@ -332,6 +359,28 @@ export interface Card extends CardResume {
 	 * the boosters in which the card is available
 	 */
 	boosters?: Array<Booster>
+
+	/**
+	 * The card set number that appears on the card (e.g. 065/162, GG12/GG30)
+	 */
+	set_number: {
+		/**
+		 * Full textual representation, including prefixes and denominator
+		 */
+		text: string
+		/**
+		 * The numerator portion (everything before a slash, or the whole text if there is no slash)
+		 */
+		nominator: string
+		/**
+		 * Parsed numeric component when available (e.g. 65 for 065, 12 for GG12/GG30)
+		 */
+		numeric?: number
+		/**
+		 * Denominator text (only present when the card number includes `/denominator`)
+		 */
+		denominator?: string
+	}
 
 	updated: string
 }

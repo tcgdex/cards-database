@@ -21,6 +21,22 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 3,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Croc de Mort",
+			},
+			damage: "40",
+			effect: {
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"

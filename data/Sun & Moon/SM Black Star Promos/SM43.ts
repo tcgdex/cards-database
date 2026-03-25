@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Alola-Mauzi"
 	},
 	illustrator: "Megumi Mizutani",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

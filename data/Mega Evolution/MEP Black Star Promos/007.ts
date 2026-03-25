@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Jiro Sasumo",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],

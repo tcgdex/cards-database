@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	stage: "Basic",
 

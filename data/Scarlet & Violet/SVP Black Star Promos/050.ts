@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Simsala-ex"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Psychic"],

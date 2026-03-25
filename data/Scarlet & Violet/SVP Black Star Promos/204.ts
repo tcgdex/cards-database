@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Carchacrok-ex de Cynthia"
 	},
 	suffix: "EX",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Fighting"],
@@ -27,25 +27,34 @@ const card: Card = {
 	dexId: [445],
 	attacks: [
 		{
-			cost: ["Fighting"],
+			cost: [
+				"Fighting",
+			],
 			name: {
 				en: "Corkscrew Dive",
+				fr: "Plongée Tire-Bouchon",
 			},
 			effect: {
-				en: "You may draw cards until you have 6 cards in your hand."
+				en: "You may draw cards until you have 6 cards in your hand.",
+				fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 dans votre main.",
 			},
 			damage: 100,
 		},
 		{
-			cost: ["Fighting", "Fighting"],
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
 			name: {
 				en: "Draconic Buster",
+				fr: "Buster Draconien",
 			},
 			effect: {
-				en: "Discard all Energy from this Pokémon."
+				en: "Discard all Energy from this Pokémon.",
+				fr: "Défaussez toutes les Énergies de ce Pokémon.",
 			},
 			damage: 260,
-		}
+		},
 	],
 
 	weaknesses: [

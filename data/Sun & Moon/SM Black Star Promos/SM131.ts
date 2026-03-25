@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kaguron"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

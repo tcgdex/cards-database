@@ -21,6 +21,20 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Contrôle de Sécurité",
+			},
+			effect: {
+				fr: "Regardez l'une de vos cartes Récompense face cachée.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"

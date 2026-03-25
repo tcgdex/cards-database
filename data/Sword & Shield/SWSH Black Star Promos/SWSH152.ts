@@ -13,7 +13,7 @@ const card: Card = {
 		en: "Professor's Research"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 
 	description: {

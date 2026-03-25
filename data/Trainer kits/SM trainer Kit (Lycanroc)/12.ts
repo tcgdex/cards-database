@@ -21,6 +21,28 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Charge",
+			},
+			damage: "10",
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Morsure",
+			},
+			damage: "20",
+		},
+	],
+
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"

@@ -30,7 +30,24 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 388762,
 		tcgplayer: 195250
-	}
+	},
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Piqué Dynamique GX",
+			},
+			damage: "180",
+			effect: {
+				fr: "Évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire. (Vous ne pouvez utiliser qu'une attaque GX par partie.)",
+			},
+		},
+	],
 }
 
 export default card

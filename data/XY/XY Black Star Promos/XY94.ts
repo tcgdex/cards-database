@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -39,6 +39,23 @@ const card: Card = {
 			effect: {
 				en: "As long as this Pokémon is your Active Pokémon, your opponent's Basic Pokémon's attacks cost Colorless more.",
 				fr: "Tant que ce Pokémon est votre Pokémon Actif, les attaques des Pokémon de base de votre adversaire coûtent  de plus."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Pression Énergétique",
+			},
+			damage: "70+",
+			effect: {
+				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 		},
 	],

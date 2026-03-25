@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Oricorio"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fire"],

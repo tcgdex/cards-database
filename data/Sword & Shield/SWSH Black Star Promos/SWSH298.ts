@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Zoroark VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Colorless"],

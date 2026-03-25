@@ -23,7 +23,12 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Bulbasaur"
+		en: "Bulbasaur",
+		fr: "Bulbizarre",
+		es: "Bulbasaur",
+		it: "Bulbasaur",
+		pt: "Bulbasaur",
+		de: "Bisasam"
 	},
 
 	attacks: [{

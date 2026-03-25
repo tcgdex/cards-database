@@ -14,8 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. Lorsque votre tour est terminé, placez cette carte dans votre main au lieu de la défausser.",
-		de: "Durchsuche dein Deck nach einer beliebigen Rotom-Karte und tausche sie gegen 1 deiner Rotom im Spiel aus. Alle an Rotom angelegten Karten und Schadensmarken werden auf das neue Pokémon übertragen. (Entferne alle Speziellen Zustände und anderen Effekte von Rotom.) Lege Rotom auf dein Deck. Mische dein Deck danach."
+		fr: "Cherchez n'importe quel Motisma dans votre deck et échangez-le avec n'importe quel Motisma que vous avez en jeu. Toutes les cartes attachées à Motisma ainsi que ses marqueurs de dégât se trouvent désormais sur le nouveau Pokémon. (Retirez à Motisma tous ses États Spéciaux et tous ses effets). Placez Motisma au dessus de votre deck. Ensuite, mélangez votre deck.",
+		de: "Durchsuche dein Deck nach einer beliebigen Rotom-Karte und tausche sie gegen 1 deiner Rotom im Spiel aus. Alle an Rotom angelegten Karten und Schadensmarken werden auf das neue Pokémon übertragen. (Entferne alle Speziellen Zustände und anderen Effekte von Rotom.) Lege Rotom auf dein Deck. Mische dein Deck danach.",
 	},
 
 	trainerType: "Supporter",

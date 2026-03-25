@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Krawell"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

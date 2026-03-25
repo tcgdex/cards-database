@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Mimigma"
 	},
 	illustrator: "Saya Tsuruta",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

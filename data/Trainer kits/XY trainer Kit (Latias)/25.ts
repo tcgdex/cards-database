@@ -31,6 +31,35 @@ const card: Card = {
 	stage: "Stage1",
 	retreat: 4,
 
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Bélier",
+			},
+			damage: "50",
+			effect: {
+				fr: "Ce Pokémon s'inflige 10 dégâts.",
+			},
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Empal'Korne",
+			},
+			damage: "70",
+		},
+	],
+
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"

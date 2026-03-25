@@ -12,7 +12,7 @@ const card: Card = {
 		de: "Evoli & Relaxo GX"
 	},
 	illustrator: "Tomokazu Komiya",
-	rarity: "Ultra Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

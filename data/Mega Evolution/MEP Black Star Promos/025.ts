@@ -15,7 +15,7 @@ const card: Card = {
 
 	suffix: "EX",
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Colorless"],

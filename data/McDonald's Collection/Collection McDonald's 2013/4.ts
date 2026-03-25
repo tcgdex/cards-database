@@ -6,7 +6,7 @@ const card: Card = {
 		fr: "Givrali",
 	},
 	illustrator: "Rya Ueda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -17,7 +17,7 @@ const card: Card = {
 
 	illustrator: "PLANETA Mochizuki",
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Metal"],

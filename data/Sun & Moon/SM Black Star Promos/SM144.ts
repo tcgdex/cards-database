@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Arktos"
 	},
 	illustrator: "Hitoshi Ariga",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

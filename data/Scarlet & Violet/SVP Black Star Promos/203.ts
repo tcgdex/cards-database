@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Qulbutoké de la Team Rocket"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
@@ -18,21 +18,31 @@ const card: Card = {
 	dexId: [202],
 	attacks: [
 		{
-			cost: ["Psychic","Colorless"],
+			cost: [
+				"Psychic",
+				"Colorless",
+			],
 			name: {
 				en: "Rocket Mirror",
+				fr: "Miroir Rocket",
 			},
 			effect: {
-				en: "Move all damage counters from 1 of your Benched Team Rocket's Pokémon to your opponent's Active Pokémon."
-			}
+				en: "Move all damage counters from 1 of your Benched Team Rocket's Pokémon to your opponent's Active Pokémon.",
+				fr: "Déplacez tous les marqueurs de dégâts de l'un de vos Pokémon de la Team Rocket de Banc vers le Pokémon Actif de votre adversaire.",
+			},
 		},
 		{
-			cost: ["Psychic", "Colorless","Colorless"],
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Headbutt Bounce",
+				fr: "Culbute Surprise",
 			},
 			damage: 70,
-		}
+		},
 	],
 
 	weaknesses: [

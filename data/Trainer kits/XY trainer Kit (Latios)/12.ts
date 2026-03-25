@@ -21,6 +21,33 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Générateur Solaire",
+			},
+			effect: {
+				fr: "Cherchez jusqu'à 2 cartes Énergie spéciale dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			},
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				fr: "Asticotage",
+			},
+			damage: "20+",
+			effect: {
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"

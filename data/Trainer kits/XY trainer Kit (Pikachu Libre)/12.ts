@@ -21,6 +21,21 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Attaque Imprudente",
+			},
+			damage: "20",
+			effect: {
+				fr: "Ce Pokémon s'inflige 10 dégâts.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"

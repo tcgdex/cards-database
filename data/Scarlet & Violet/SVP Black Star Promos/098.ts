@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Eisendorn"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Lightning"],

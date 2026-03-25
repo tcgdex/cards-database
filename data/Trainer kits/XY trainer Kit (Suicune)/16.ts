@@ -21,6 +21,21 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Acrobatie",
+			},
+			damage: "10+",
+			effect: {
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"

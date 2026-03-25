@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Griffel"
 	},
 
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

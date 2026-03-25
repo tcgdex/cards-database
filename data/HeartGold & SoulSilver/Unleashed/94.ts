@@ -35,29 +35,39 @@ const card: Card = {
 		},
 	],
 
-	attacks: [{
-		name: {
-			de: "Schwallfang"
+	attacks: [
+		{
+			name: {
+				de: "Schwallfang",
+				fr: "Croc torrentiel",
+			},
+			effect: {
+				de: "Nimm 2 -Energiekarten, die an Suicune & Entei-LEGENDE angelegt sind, zurück auf deine Hand. Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+				fr: "Reprenez dans votre main 2 cartes Énergie Eau attachées à Suicune & Entei LÉGENDE. Cette attaque inflige 100 dégâts à l'un des Pokémon sur le Banc de l'adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			},
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+			],
 		},
-
-		effect: {
-			de: "Nimm 2 -Energiekarten, die an Suicune & Entei-LEGENDE angelegt sind, zurück auf deine Hand. Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+		{
+			name: {
+				de: "Flammendes Inferno",
+				fr: "Enfer explosif",
+			},
+			damage: 80,
+			effect: {
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt.",
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+			},
+			cost: [
+				"Fire",
+				"Colorless",
+				"Colorless",
+			],
 		},
-
-		cost: ["Water", "Water", "Colorless"]
-	}, {
-		name: {
-			de: "Flammendes Inferno"
-		},
-
-		damage: 80,
-
-		effect: {
-			de: "Das Verteidigende Pokémon ist jetzt verbrannt."
-		},
-
-		cost: ["Fire", "Colorless", "Colorless"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 279250

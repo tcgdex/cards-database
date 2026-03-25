@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Darkrai"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

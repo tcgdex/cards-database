@@ -21,6 +21,21 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Double Picpic",
+			},
+			damage: "10×",
+			effect: {
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"

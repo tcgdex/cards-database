@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Deoxys VMAX"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Psychic"],

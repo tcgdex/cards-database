@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Melo"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

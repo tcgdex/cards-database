@@ -19,6 +19,17 @@ const swsh3: Set = {
 		official: 159
 	},
 
+	subsets: {
+		GG: {
+			name: {
+				en: "Galarian Gallery"
+			},
+			cardCount: {
+				official: 70
+			}
+		}
+	},
+
 	releaseDate: "2023-01-20",
 
 	abbreviations: {

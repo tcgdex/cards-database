@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Gladiantri"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],

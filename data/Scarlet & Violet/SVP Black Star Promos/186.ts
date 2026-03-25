@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "OKUBO",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],

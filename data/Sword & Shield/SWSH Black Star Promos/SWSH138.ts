@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Hydreigon C"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "kodama",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],

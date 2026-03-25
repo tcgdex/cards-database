@@ -21,6 +21,10 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	effect: {
+		fr: "Piochez 3 cartes.",
+	},
+
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"

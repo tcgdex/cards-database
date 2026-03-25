@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "tono",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

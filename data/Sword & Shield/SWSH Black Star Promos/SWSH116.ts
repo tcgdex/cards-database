@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Morpeko"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	dexId: [877],
 	hp: 80,
 	types: ["Lightning"],

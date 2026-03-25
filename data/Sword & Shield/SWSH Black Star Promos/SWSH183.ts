@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Jolteon V"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],

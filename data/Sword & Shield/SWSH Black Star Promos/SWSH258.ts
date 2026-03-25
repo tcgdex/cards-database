@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Gallade V"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Fighting"],

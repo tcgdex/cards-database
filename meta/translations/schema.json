@@ -76,6 +76,9 @@
 				"Black White Rare": {
 					"type": "string"
 				},
+				"Black Star Promo": {
+					"type": "string"
+				},
 				"Common": {
 					"type": "string"
 				},
@@ -150,6 +153,9 @@
 				},
 				"Mega Hyper Rare": {
 					"type": "string"
+				},
+				"Mega Attack Rare": {
+					"type": "string"
 				}
 			},
 			"required": [
@@ -157,6 +163,7 @@
 				"Amazing Rare",
 				"Classic Collection",
 				"Common",
+				"Black Star Promo",
 				"Double rare",
 				"Full Art Trainer",
 				"Holo Rare",
@@ -180,7 +187,8 @@
 				"Special illustration rare",
 				"Ultra Rare",
 				"Uncommon",
-				"Mega Hyper Rare"
+				"Mega Hyper Rare",
+				"Mega Attack Rare"
 			],
 			"type": "object"
 		},

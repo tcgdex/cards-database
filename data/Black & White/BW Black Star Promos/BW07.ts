@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Gruikui",
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

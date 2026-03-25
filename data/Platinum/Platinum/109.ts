@@ -14,8 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
-		de: "Look at your opponent's hand, then choose you or your opponent. That player shuffles his or her hand into his or her deck and draws up to 5 cards."
+		fr: "Regardez la main de votre adversaire puis choisissez entre vous et votre adversaire. Ce joueur mélange sa main avec son deck et pioche jusqu'à 5 cartes.",
+		de: "Look at your opponent's hand, then choose you or your opponent. That player shuffles his or her hand into his or her deck and draws up to 5 cards.",
 	},
 
 	trainerType: "Supporter",

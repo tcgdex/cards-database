@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Phantasmal Flames"
+import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
@@ -14,7 +14,7 @@ const card: Card = {
 		pt: "Toxtricity"
 	},
 
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Darkness"],

@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 	set: Set,
 

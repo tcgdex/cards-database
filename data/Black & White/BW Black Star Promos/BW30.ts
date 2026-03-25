@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Coupe Victoire",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 
 	set: Set,

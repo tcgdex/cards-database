@@ -360,6 +360,32 @@ type Booster {
 	artwork_back: String
 }
 
+"""Subset card count metadata"""
+type SubsetCardCount {
+	"""The subset official card count used in set-number denominator"""
+	official: Int!
+}
+
+"""Subset metadata embedded inside a parent set"""
+type SubsetInfo {
+	"""Subset identifier/prefix, such as RC, TG, GG, SV"""
+	id: String!
+	"""Subset display name"""
+	name: String
+	"""Subset official card count"""
+	cardCount: SubsetCardCount!
+}
+
+"""Subset map entry serialized for GraphQL"""
+type SubsetEntry {
+	"""Subset identifier/prefix, such as RC, TG, GG, SV"""
+	id: String!
+	"""Subset display name"""
+	name: String
+	"""Subset official card count"""
+	cardCount: SubsetCardCount!
+}
+
 ##################
 #      Set       #
 ##################
@@ -385,6 +411,9 @@ type Set {
 
 	"""The set's symbol if available"""
 	symbol: String
+
+	"""Subset numbering groups (e.g. RC, TG, GG, SV)"""
+	subsets: [SubsetEntry]
 
 	"""The Set serie"""
 	serie: Serie!

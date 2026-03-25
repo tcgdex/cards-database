@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "M Métalosse EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

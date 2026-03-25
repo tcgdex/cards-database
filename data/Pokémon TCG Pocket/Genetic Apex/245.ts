@@ -23,7 +23,12 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Pidgeotto"
+		en: "Pidgeotto",
+		fr: "Roucoups",
+		es: "Pidgeotto",
+		it: "Pidgeotto",
+		pt: "Pidgeotto",
+		de: "Tauboga"
 	},
 
 	abilities: [{

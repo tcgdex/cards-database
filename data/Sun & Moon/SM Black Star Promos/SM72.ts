@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Alola-Raichu"
 	},
 	illustrator: "Akira Komayama",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

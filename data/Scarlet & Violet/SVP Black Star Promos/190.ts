@@ -13,7 +13,7 @@ const card: Card = {
 
 	illustrator: "Atsushi Furusawa",
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	dexId: [25],

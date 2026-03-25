@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kazuma Koda",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Metal"],

@@ -21,19 +21,23 @@ const card: Card = {
 
 	trainerType: "Tool",
 
-	attacks: [{
-		name: {
-			en: "Magma Pointer",
-			pt: "Ponteiro Magma",
+	attacks: [
+		{
+			name: {
+				en: "Magma Pointer",
+				pt: "Ponteiro Magma",
+				fr: "Pointeur Magma",
+			},
+			effect: {
+				en: "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				pt: "Este ataque causa 20 de danos a I dos Pokémon de seu oponente. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
+				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			},
+			cost: [
+				"Fighting",
+			],
 		},
-
-		effect: {
-			en: "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			pt: "Este ataque causa 20 de danos a I dos Pokémon de seu oponente. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
-		},
-
-		cost: ["Fighting"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 282535,

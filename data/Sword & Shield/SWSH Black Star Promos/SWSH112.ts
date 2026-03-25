@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Cinderace"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	dexId: [815],
 	hp: 170,
 	types: ["Fire"],

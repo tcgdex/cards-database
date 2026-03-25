@@ -21,16 +21,19 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Armor Stone"
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				de: "Armor Stone",
+				fr: "Armure de pierre",
+			},
+			effect: {
+				de: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10.",
+				fr: "Lorsqu'une attaque de votre adversaire inflige des dégâts à Fossile armure, lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, réduisez ces dégâts de 10.",
+			},
 		},
-
-		effect: {
-			de: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10."
-		}
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 278540,

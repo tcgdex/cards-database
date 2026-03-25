@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Furienblitz-ex"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Dragon"],

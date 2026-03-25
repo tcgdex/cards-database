@@ -23,8 +23,8 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que si vous avez 4 autres cartes ou moins dans votre main.\n\nPiochez une carte pour chacun des Pokémon en jeu de votre adversaire.",
-		en: "You can play this card only if you have 4 or fewer other cards in your hand.\n\nDraw a card for each of your opponent’s Pokémon in play."
+		fr: "Vous ne pouvez jouer cette carte que si vous avez 4 autres cartes ou moins dans votre main.",
+		en: "You can play this card only if you have 4 or fewer other cards in your hand.\n\nDraw a card for each of your opponent’s Pokémon in play.",
 	},
 	trainerType: "Supporter",
 

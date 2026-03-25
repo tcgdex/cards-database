@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Satoshi Shirai",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 

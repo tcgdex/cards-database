@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Pokémon Center",
 	},
 	illustrator: "\"Big Mama\" Tagawa",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 
 	set: Set,

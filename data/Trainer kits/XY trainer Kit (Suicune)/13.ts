@@ -21,6 +21,30 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 1,
 
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+			],
+			name: {
+				fr: "Étincelle Surprise",
+			},
+			effect: {
+				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			},
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Morsure",
+			},
+			damage: "40",
+		},
+	],
+
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"

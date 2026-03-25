@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shinji Kanda",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Fire"],

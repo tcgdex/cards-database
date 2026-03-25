@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Cresselia"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	dexId: [488],
 	hp: 120,
 	types: ["Psychic"],

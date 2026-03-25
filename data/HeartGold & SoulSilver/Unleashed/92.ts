@@ -31,31 +31,40 @@ const card: Card = {
 		},
 	],
 
-	attacks: [{
-		name: {
-			de: "Blitzspeer"
+	attacks: [
+		{
+			name: {
+				de: "Blitzspeer",
+				fr: "Lance de tonnerre",
+			},
+			damage: 150,
+			effect: {
+				de: "Raikou & Suicune-LEGENDE fügt sich selbst 50 Schadenspunkte zu; wende dabei Schwäche nicht an.",
+				fr: "Raikou & Suicune LÉGENDE s'infligent 50 dégâts (N'appliquez pas la Faiblesse à ces dégâts).",
+			},
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
 		},
-
-		damage: 150,
-
-		effect: {
-			de: "Raikou & Suicune-LEGENDE fügt sich selbst 50 Schadenspunkte zu; wende dabei Schwäche nicht an."
+		{
+			name: {
+				de: "Aurora-Verstärkung",
+				fr: "Puissance boréale",
+			},
+			damage: 50,
+			effect: {
+				de: "Entferne 5 Schadensmarken von Raikou & Suicune-LEGENDE.",
+				fr: "Retirez 5 marqueurs de dégât à Raikou & Suicune LÉGENDE.",
+			},
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
 		},
-
-		cost: ["Lightning", "Lightning", "Colorless"]
-	}, {
-		name: {
-			de: "Aurora-Verstärkung"
-		},
-
-		damage: 50,
-
-		effect: {
-			de: "Entferne 5 Schadensmarken von Raikou & Suicune-LEGENDE."
-		},
-
-		cost: ["Water", "Colorless", "Colorless"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 279248

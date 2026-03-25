@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Lippouti"
 	},
 	illustrator: "Midori Harada",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

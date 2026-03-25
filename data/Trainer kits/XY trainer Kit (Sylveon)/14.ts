@@ -31,6 +31,33 @@ const card: Card = {
 	stage: "Stage1",
 	retreat: 3,
 
+	attacks: [
+		{
+			cost: [
+				"Fairy",
+				"Colorless",
+			],
+			name: {
+				fr: "Coup d'Boule",
+			},
+			damage: "30",
+		},
+		{
+			cost: [
+				"Fairy",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Double Écrasement",
+			},
+			damage: "50+",
+			effect: {
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+			},
+		},
+	],
+
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"

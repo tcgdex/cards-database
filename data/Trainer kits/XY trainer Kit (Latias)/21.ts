@@ -31,6 +31,10 @@ const card: Card = {
 	stage: "Stage1",
 	retreat: 2,
 
+	effect: {
+		fr: "Soignez 30 dégâts à l'un de vos Pokémon.",
+	},
+
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Sproxi"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Colorless"],

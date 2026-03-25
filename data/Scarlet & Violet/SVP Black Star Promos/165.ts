@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Terapagos-ex"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Colorless"],

@@ -26,7 +26,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				fr: "",
+				fr: "Châtiment stellaire",
 				de: "Ozonsprenger"
 			},
 

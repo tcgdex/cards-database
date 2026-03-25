@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Nidoking-ex de la Team Rocket"
 	},
 	suffix: "EX",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Darkness"],
@@ -28,20 +28,31 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Darkness","Darkness","Colorless"],
+			cost: [
+				"Darkness",
+				"Darkness",
+				"Colorless",
+			],
 			name: {
 				en: "Tainted Horn",
+				fr: "Corne Contaminante",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 8 damage counters on " +
-					"that Pokémon instead of 1."
+				en: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 8 damage counters on that Pokémon instead of 1.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 8 marqueurs de dégâts sur ce Pokémon-là au lieu d'un.",
 			},
 			damage: "100",
 		},
 		{
-			cost: ["Darkness","Darkness","Darkness","Colorless"],
+			cost: [
+				"Darkness",
+				"Darkness",
+				"Darkness",
+				"Colorless",
+			],
 			name: {
 				en: "Kingly Impact",
+				fr: "Impact Royal",
 			},
 			damage: "240",
 		},

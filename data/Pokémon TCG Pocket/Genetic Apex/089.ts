@@ -23,7 +23,12 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Frogadier"
+		en: "Frogadier",
+		fr: "Croâporal",
+		es: "Frogadier",
+		it: "Frogadier",
+		pt: "Frogadier",
+		de: "Amphizel"
 	},
 
 	abilities: [{

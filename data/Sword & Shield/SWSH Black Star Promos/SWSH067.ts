@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Eri Yamaki",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],

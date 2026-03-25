@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Bisasam"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],

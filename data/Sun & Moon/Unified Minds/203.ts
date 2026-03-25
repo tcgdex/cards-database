@@ -30,7 +30,24 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 388802,
 		tcgplayer: 195258
-	}
+	},
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Turbo-Charge Précipitée GX",
+			},
+			damage: "200+",
+			effect: {
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face. (Vous ne pouvez utiliser qu'une attaque GX par partie.)",
+			},
+		},
+	],
 }
 
 export default card

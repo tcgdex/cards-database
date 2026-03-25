@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Jirachi"
 	},
 	illustrator: "Mizue",
-	rarity: "Rare",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

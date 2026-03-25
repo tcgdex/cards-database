@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Lucky Stadium",
 	},
 	illustrator: "\"Big Mama\" Tagawa",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 
 	set: Set,

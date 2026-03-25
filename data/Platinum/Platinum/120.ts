@@ -21,16 +21,19 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Skull Stone"
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				de: "Skull Stone",
+				fr: "Crâne de pierre",
+			},
+			effect: {
+				de: "During your opponent's turn, if Skull Fossil would be Knocked Out by damage from an opponent's attack, flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pokémon.",
+				fr: "Lors du prochain tour de votre adversaire, si les dégâts d'une attaque de votre adversaire mettent Fossile crâne K.O., lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, placez 1 marqueur de dégât sur le Pokémon Attaquant.",
+			},
 		},
-
-		effect: {
-			de: "During your opponent's turn, if Skull Fossil would be Knocked Out by damage from an opponent's attack, flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pokémon."
-		}
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 278541,

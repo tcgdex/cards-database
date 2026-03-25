@@ -23,29 +23,38 @@ const card: Card = {
 
 	suffix: "Legend",
 
-	attacks: [{
-		name: {
-			fr: "",
-			de: "Plötzliche Tilgung"
+	attacks: [
+		{
+			name: {
+				fr: "Disparition soudaine",
+				de: "Plötzliche Tilgung",
+			},
+			effect: {
+				fr: "Vous ne pouvez placer cette carte sur votre Banc que si vous placez en même temps l’autre moitié de Palkia & Dialga LÉGENDE.",
+				de: "Wähle 1 Pokémon auf der Bank deines Gegners. Dein Gegner nimmt das gewählte Pokémon und alle an es angelegten Karten auf seine Hand zurück.",
+			},
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
 		},
-
-		effect: {
-			fr: "Vous ne pouvez placer cette carte sur votre Banc que si vous placez en même temps l’autre moitié de Palkia & Dialga LÉGENDE.",
-			de: "Wähle 1 Pokémon auf der Bank deines Gegners. Dein Gegner nimmt das gewählte Pokémon und alle an es angelegten Karten auf seine Hand zurück."
+		{
+			name: {
+				de: "Zeitherrschaft",
+				fr: "Contrôle temporel",
+			},
+			effect: {
+				de: "Lege alle -Energien, die an Palkia- und Dialga-LEGENDE angelegt sind, auf deinen Ablagestapel. Füge die obersten 2 Karten vom Deck deines Gegner seinen Preiskarten hinzu.",
+				fr: "Défaussez toutes les cartes Énergie Métal attachées à Palkia & Dialga LÉGENDE. Ajoutez les 2 cartes du dessus du deck de votre adversaire à ses cartes Récompense.",
+			},
+			cost: [
+				"Metal",
+				"Metal",
+				"Colorless",
+			],
 		},
-
-		cost: ["Water", "Colorless", "Colorless"]
-	}, {
-		name: {
-			de: "Zeitherrschaft"
-		},
-
-		effect: {
-			de: "Lege alle -Energien, die an Palkia- und Dialga-LEGENDE angelegt sind, auf deinen Ablagestapel. Füge die obersten 2 Karten vom Deck deines Gegner seinen Preiskarten hinzu."
-		},
-
-		cost: ["Metal", "Metal", "Colorless"]
-	}],
+	],
 
 	stage: "Basic",
 	retreat: 0,

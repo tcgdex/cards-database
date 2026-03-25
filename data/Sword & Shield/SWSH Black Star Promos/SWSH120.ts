@@ -15,7 +15,7 @@ const card: Card = {
 		it: "Mary"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 
 	effect: {
 		en: "Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, you draw 5 cards, and your opponent draws 4 cards.",

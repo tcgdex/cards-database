@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Poussifeu"
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

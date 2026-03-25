@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Zarude"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
@@ -23,10 +23,10 @@ const card: Card = {
 				en: "Pluck off",
 				fr: "Retrait"
 			},
-			effect: {
-				en: "Search your deck for up to 3 Basic Grass Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie  de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
-			}
+		effect: {
+			en: "Search your deck for up to 3 Basic Grass Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie  de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
+		}
 		},
 		{
 			cost: ["Grass", "Grass", "Grass"],

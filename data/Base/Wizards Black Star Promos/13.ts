@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Venusaur",
 	},
 	illustrator: "Ken Sugimori",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

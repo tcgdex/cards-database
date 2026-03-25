@@ -31,6 +31,19 @@ const card: Card = {
 	stage: "Stage1",
 	retreat: 2,
 
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				fr: "Dérouillée",
+			},
+			damage: "40",
+		},
+	],
+
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"

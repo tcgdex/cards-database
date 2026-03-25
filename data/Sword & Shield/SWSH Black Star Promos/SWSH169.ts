@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Pyukumuku"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Water"],

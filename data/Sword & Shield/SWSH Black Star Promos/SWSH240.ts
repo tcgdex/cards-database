@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Finneon"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Water"],

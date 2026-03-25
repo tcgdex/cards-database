@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "NC Empire",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fire"],

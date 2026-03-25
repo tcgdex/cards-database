@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Moltres di Galar"
 	},
 
-	rarity: "None",
+	rarity: "Black Star Promo",
 	dexId: [146],
 	hp: 120,
 	types: ["Darkness"],
