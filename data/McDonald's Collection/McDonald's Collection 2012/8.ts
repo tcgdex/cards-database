@@ -5,6 +5,7 @@ const card: Card = {
 	set: Set,
 	illustrator: "match",
 	category: "Pokemon",
+	dexId: [529],
 	description: {
 		en: "It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.",
 	},
@@ -46,6 +47,7 @@ const card: Card = {
 		"Fighting",
 	],
 	thirdParty: {
+		cardmarket: 281785,
 		tcgplayer: 84967,
 	},
 }
