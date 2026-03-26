@@ -74,26 +74,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Julie Hang",
 
-	thirdParty: {
-		cardmarket: 817265
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817265,
-			tcgplayer: 623540
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817265,
-			tcgplayer: 623540
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817265,
+				tcgplayer: 623540
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817265,
+				tcgplayer: 623540
+			}
+		},
+	],
 }
 
 export default card

@@ -84,26 +84,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Tonji Matsuno",
 
-	thirdParty: {
-		cardmarket: 817173
-	},
-
 	variants: [
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817173,
-			tcgplayer: 623448
-		}
-	},
-	{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 817173,
-			tcgplayer: 623448
-		}
-	},
-],
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817173,
+				tcgplayer: 623448
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817173,
+				tcgplayer: 623448
+			}
+		},
+	],
 }
 
 export default card

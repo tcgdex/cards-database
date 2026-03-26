@@ -84,38 +84,34 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "AKIRA EGAWA",
 
-	thirdParty: {
-		cardmarket: 817247
-	},
-
 	variants: [
 		{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 817247,
-			tcgplayer: 623522
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817247,
-			tcgplayer: 623522
-		}
-	},
-	{
-		type: "holo",
-		foil: "cosmos",
-		stamp: "cm-only-851019",
-		thirdParty: {
-			cardmarket: 851019,
-		}
-	},
-	{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817247,
+				tcgplayer: 623522
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817247,
+				tcgplayer: 623522
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: "cm-only-851019",
+			thirdParty: {
+				cardmarket: 851019,
+			}
+		},
+		{
 			type: 'normal',
 			stamp: ['player-rewards-program']
 		}
-],
+	],
 }
 
 export default card

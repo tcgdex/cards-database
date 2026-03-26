@@ -63,26 +63,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "aspara",
 
-	thirdParty: {
-		cardmarket: 817217
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817217,
-			tcgplayer: 623492
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817217,
-			tcgplayer: 623492
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817217,
+				tcgplayer: 623492
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817217,
+				tcgplayer: 623492
+			}
+		},
+	],
 }
 
 export default card

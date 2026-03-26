@@ -41,26 +41,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Haru Akasaka",
 
-	thirdParty: {
-		cardmarket: 817223
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817223,
-			tcgplayer: 623498
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817223,
-			tcgplayer: 623498
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817223,
+				tcgplayer: 623498
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817223,
+				tcgplayer: 623498
+			}
+		},
+	],
 }
 
 export default card

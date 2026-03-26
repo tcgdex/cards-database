@@ -31,30 +31,26 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Teeziro",
 
-	thirdParty: {
-		cardmarket: 817298
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817298,
-			tcgplayer: 623573
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817298,
-			tcgplayer: 623573
-		}
-	},
-	{
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817298,
+				tcgplayer: 623573
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817298,
+				tcgplayer: 623573
+			}
+		},
+		{
 			type: 'normal',
 			stamp: ['player-rewards-program']
 		}
-],
+	],
 }
 
 export default card

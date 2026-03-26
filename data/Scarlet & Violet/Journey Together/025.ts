@@ -55,26 +55,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 817177
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817177,
-			tcgplayer: 623452
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817177,
-			tcgplayer: 623452
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817177,
+				tcgplayer: 623452
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817177,
+				tcgplayer: 623452
+			}
+		},
+	],
 }
 
 export default card

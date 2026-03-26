@@ -74,26 +74,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Masako Tomii",
 
-	thirdParty: {
-		cardmarket: 817241
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817241,
-			tcgplayer: 623516
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817241,
-			tcgplayer: 623516
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817241,
+				tcgplayer: 623516
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817241,
+				tcgplayer: 623516
+			}
+		},
+	],
 }
 
 export default card

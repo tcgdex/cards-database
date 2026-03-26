@@ -31,26 +31,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "yuu",
 
-	thirdParty: {
-		cardmarket: 817301
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817301,
-			tcgplayer: 623576
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817301,
-			tcgplayer: 623576
-		}
-	},
-	{
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817301,
+				tcgplayer: 623576
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817301,
+				tcgplayer: 623576
+			}
+		},
+		{
 			type: 'normal',
 			stamp: ['gym-challenge']
 		},
@@ -70,7 +66,7 @@ const card: Card = {
 			type: 'normal',
 			stamp: ['ultra-ball-league']
 		}
-],
+	],
 }
 
 export default card

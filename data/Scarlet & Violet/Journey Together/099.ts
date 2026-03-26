@@ -84,26 +84,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 817251
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817251,
-			tcgplayer: 623526
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817251,
-			tcgplayer: 623526
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817251,
+				tcgplayer: 623526
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817251,
+				tcgplayer: 623526
+			}
+		},
+	],
 }
 
 export default card

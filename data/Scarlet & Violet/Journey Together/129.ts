@@ -51,26 +51,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Natsumi Yoshida",
 
-	thirdParty: {
-		cardmarket: 817281
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817281,
-			tcgplayer: 623556
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817281,
-			tcgplayer: 623556
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817281,
+				tcgplayer: 623556
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817281,
+				tcgplayer: 623556
+			}
+		},
+	],
 }
 
 export default card

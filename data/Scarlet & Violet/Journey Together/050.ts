@@ -51,26 +51,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Susumu Maeya",
 
-	thirdParty: {
-		cardmarket: 817202
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817202,
-			tcgplayer: 623477
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817202,
-			tcgplayer: 623477
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817202,
+				tcgplayer: 623477
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817202,
+				tcgplayer: 623477
+			}
+		},
+	],
 }
 
 export default card

@@ -51,26 +51,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "KEIICHIRO ITO",
 
-	thirdParty: {
-		cardmarket: 817166
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817166,
-			tcgplayer: 623441
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817166,
-			tcgplayer: 623441
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817166,
+				tcgplayer: 623441
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817166,
+				tcgplayer: 623441
+			}
+		},
+	],
 }
 
 export default card

@@ -31,39 +31,35 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 817303
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817303,
-			tcgplayer: 623578
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817303,
-			tcgplayer: 623578
-		}
-	},
-	{
-		type: "holo",
-		foil: "cosmos",
-		stamp: "cm-only-822532",
-		thirdParty: {
-			cardmarket: 822532,
-		}
-	},
-	{
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817303,
+				tcgplayer: 623578
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817303,
+				tcgplayer: 623578
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: "cm-only-822532",
+			thirdParty: {
+				cardmarket: 822532,
+			}
+		},
+		{
 			type: 'holo',
 			foil: 'cosmos',
 			stamp: ['player-rewards-program']
 		}
-],
+	],
 }
 
 export default card

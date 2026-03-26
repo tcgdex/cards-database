@@ -74,26 +74,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "matazo",
 
-	thirdParty: {
-		cardmarket: 817257
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817257,
-			tcgplayer: 623532
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817257,
-			tcgplayer: 623532
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817257,
+				tcgplayer: 623532
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817257,
+				tcgplayer: 623532
+			}
+		},
+	],
 }
 
 export default card

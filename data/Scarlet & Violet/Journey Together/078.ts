@@ -64,26 +64,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Aliya Chen",
 
-	thirdParty: {
-		cardmarket: 817230
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817230,
-			tcgplayer: 623505
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817230,
-			tcgplayer: 623505
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817230,
+				tcgplayer: 623505
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817230,
+				tcgplayer: 623505
+			}
+		},
+	],
 }
 
 export default card

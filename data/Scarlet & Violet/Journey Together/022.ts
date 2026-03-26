@@ -42,21 +42,21 @@ const card: Card = {
 	illustrator: "OKACHEKE",
 
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817174,
-			tcgplayer: 623449
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817174,
-			tcgplayer: 623449
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817174,
+				tcgplayer: 623449
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817174,
+				tcgplayer: 623449
+			}
+		},
+	],
 }
 
 export default card

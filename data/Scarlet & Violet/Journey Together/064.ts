@@ -63,26 +63,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Shiburingaru",
 
-	thirdParty: {
-		cardmarket: 817216
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817216,
-			tcgplayer: 623491
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817216,
-			tcgplayer: 623491
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817216,
+				tcgplayer: 623491
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817216,
+				tcgplayer: 623491
+			}
+		},
+	],
 }
 
 export default card

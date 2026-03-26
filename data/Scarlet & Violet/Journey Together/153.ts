@@ -31,26 +31,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 817305
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817305,
-			tcgplayer: 623580
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817305,
-			tcgplayer: 623580
-		}
-	},
-	{
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817305,
+				tcgplayer: 623580
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817305,
+				tcgplayer: 623580
+			}
+		},
+		{
 			type: 'holo',
 			foil: 'cosmos',
 			stamp: ['player-rewards-program']
@@ -59,7 +55,7 @@ const card: Card = {
 			type: 'normal',
 			stamp: ['player-rewards-program']
 		}
-],
+	],
 }
 
 export default card

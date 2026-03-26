@@ -63,26 +63,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Shinya Komatsu",
 
-	thirdParty: {
-		cardmarket: 817242
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817242,
-			tcgplayer: 623517
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817242,
-			tcgplayer: 623517
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817242,
+				tcgplayer: 623517
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817242,
+				tcgplayer: 623517
+			}
+		},
+	],
 }
 
 export default card

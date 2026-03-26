@@ -63,34 +63,29 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Takumi Wada",
 
-	thirdParty: {
-		cardmarket: 817184
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817184,
-			tcgplayer: 623459
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817184,
-			tcgplayer: 623459
-		}
-	},
-	{
-		type: "holo",
-		foil: "snowflake",
-		stamp: "cm-only-845411",
-		thirdParty: {
-			cardmarket: 845411,
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817184,
+				tcgplayer: 623459
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817184,
+				tcgplayer: 623459
+			}
+		},
+		{
+			type: "holo",
+			foil: "snowflake",
+			thirdParty: {
+				cardmarket: 845411,
+			}
+		},
+	],
 }
 
 export default card

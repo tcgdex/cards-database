@@ -60,33 +60,29 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Takeshi Nakamura",
 
-	thirdParty: {
-		cardmarket: 817193
-	},
-
 	variants: [
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817193,
-			tcgplayer: 623468
-		}
-	},
-	{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 817193,
-			tcgplayer: 623468
-		}
-	},
-	{
-		type: "holo",
-		foil: "cosmos",
-		thirdParty: {
-			cardmarket: 851017,
-		}
-	},
-],
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817193,
+				tcgplayer: 623468
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817193,
+				tcgplayer: 623468
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 851017,
+			}
+		},
+	],
 }
 
 export default card

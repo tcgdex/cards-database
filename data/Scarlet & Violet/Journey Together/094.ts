@@ -84,18 +84,14 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "PLANETA Tsuji",
 
-	thirdParty: {
-		cardmarket: 817246
-	},
-
 	variants: [
-	{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 817246,
-			tcgplayer: 623521
-		}
-	},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817246,
+				tcgplayer: 623521
+			}
+		},
 ],
 }
 

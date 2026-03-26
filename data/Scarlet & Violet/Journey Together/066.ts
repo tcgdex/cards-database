@@ -49,26 +49,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 817218
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817218,
-			tcgplayer: 623493
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817218,
-			tcgplayer: 623493
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817218,
+				tcgplayer: 623493
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817218,
+				tcgplayer: 623493
+			}
+		},
+	],
 }
 
 export default card

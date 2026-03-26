@@ -71,19 +71,15 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Susumu Maeya",
 
-	thirdParty: {
-		cardmarket: 817337
-	},
-
 	variants: [
-	{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 817337,
-			tcgplayer: 623611
-		}
-	},
-],
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817337,
+				tcgplayer: 623611
+			}
+		},
+	],
 }
 
 export default card

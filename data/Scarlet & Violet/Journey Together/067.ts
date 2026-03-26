@@ -74,26 +74,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "mashu",
 
-	thirdParty: {
-		cardmarket: 817219
-	},
-
 	variants: [
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817219,
-			tcgplayer: 623494
-		}
-	},
-	{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 817219,
-			tcgplayer: 623494
-		}
-	},
-	{
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817219,
+				tcgplayer: 623494
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817219,
+				tcgplayer: 623494
+			}
+		},
+		{
 			type: 'holo',
 			foil: 'cosmos',
 			stamp: ['player-rewards-program']
@@ -102,7 +98,7 @@ const card: Card = {
 			type: 'normal',
 			stamp: ['player-rewards-program']
 		}
-],
+	],
 }
 
 export default card

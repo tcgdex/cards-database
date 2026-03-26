@@ -41,26 +41,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Shinya Mizuno",
 
-	thirdParty: {
-		cardmarket: 817192
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817192,
-			tcgplayer: 623467
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817192,
-			tcgplayer: 623467
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817192,
+				tcgplayer: 623467
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817192,
+				tcgplayer: 623467
+			}
+		},
+	],
 }
 
 export default card

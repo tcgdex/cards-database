@@ -84,19 +84,15 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 817318
-	},
-
 	variants: [
-	{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 817318,
-			tcgplayer: 623593
-		}
-	},
-],
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817318,
+				tcgplayer: 623593
+			}
+		},
+	],
 }
 
 export default card

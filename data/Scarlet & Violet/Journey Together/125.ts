@@ -41,26 +41,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 817277
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817277,
-			tcgplayer: 623552
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817277,
-			tcgplayer: 623552
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817277,
+				tcgplayer: 623552
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817277,
+				tcgplayer: 623552
+			}
+		},
+	],
 }
 
 export default card

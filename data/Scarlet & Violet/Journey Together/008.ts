@@ -75,26 +75,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Dsuke",
 
-	thirdParty: {
-		cardmarket: 817160
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817160,
-			tcgplayer: 623435
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817160,
-			tcgplayer: 623435
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817160,
+				tcgplayer: 623435
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817160,
+				tcgplayer: 623435
+			}
+		},
+	],
 }
 
 export default card

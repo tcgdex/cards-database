@@ -65,35 +65,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Bun Toujo",
 
-	thirdParty: {
-		cardmarket: 817320
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817320,
+				tcgplayer: 624677
+			}
 		},
 		{
-			type: 'holo',
-			stamp: ["set-logo"]
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 817768,
+			}
 		},
-	]
-	variants: [
-	{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 817320,
-			tcgplayer: 624677
-		}
-	},
-	{
-		type: "holo",
-		stamp: ["set-logo"],
-		thirdParty: {
-			cardmarket: 817768,
-		}
-	},
-],
+	],
 }
 
 export default card

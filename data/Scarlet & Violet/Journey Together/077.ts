@@ -63,26 +63,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "REND",
 
-	thirdParty: {
-		cardmarket: 817229
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817229,
-			tcgplayer: 623504
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817229,
-			tcgplayer: 623504
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817229,
+				tcgplayer: 623504
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817229,
+				tcgplayer: 623504
+			}
+		},
+	],
 }
 
 export default card

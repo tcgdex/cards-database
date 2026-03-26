@@ -31,26 +31,22 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Taira Akitsu",
 
-	thirdParty: {
-		cardmarket: 817307
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817307,
-			tcgplayer: 623582
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817307,
-			tcgplayer: 623582
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817307,
+				tcgplayer: 623582
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817307,
+				tcgplayer: 623582
+			}
+		},
+	],
 }
 
 export default card

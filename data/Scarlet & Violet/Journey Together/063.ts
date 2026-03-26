@@ -74,26 +74,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Mitsuhiro Arita",
 
-	thirdParty: {
-		cardmarket: 817215
-	},
-
 	variants: [
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817215,
-			tcgplayer: 623490
-		}
-	},
-	{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 817215,
-			tcgplayer: 623490
-		}
-	},
-],
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817215,
+				tcgplayer: 623490
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817215,
+				tcgplayer: 623490
+			}
+		},
+	],
 }
 
 export default card

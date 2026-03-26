@@ -51,26 +51,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Keisin",
 
-	thirdParty: {
-		cardmarket: 817248
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817248,
-			tcgplayer: 623523
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817248,
-			tcgplayer: 623523
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817248,
+				tcgplayer: 623523
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817248,
+				tcgplayer: 623523
+			}
+		},
+	],
 }
 
 export default card

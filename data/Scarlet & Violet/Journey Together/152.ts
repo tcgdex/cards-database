@@ -31,30 +31,26 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 817304
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817304,
-			tcgplayer: 623579
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817304,
-			tcgplayer: 623579
-		}
-	},
-	{
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817304,
+				tcgplayer: 623579
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817304,
+				tcgplayer: 623579
+			}
+		},
+		{
 			type: 'normal',
 			stamp: ['player-rewards-program']
 		}
-],
+	],
 }
 
 export default card

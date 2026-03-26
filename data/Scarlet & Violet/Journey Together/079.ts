@@ -84,23 +84,19 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 817231
-	},
-
 	variants: [
-	{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 817231,
-			tcgplayer: 623506
-		}
-	},
-	{
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817231,
+				tcgplayer: 623506
+			}
+		},
+		{
 			type: 'holo',
 			stamp: ['player-rewards-program']
 		}
-],
+	],
 }
 
 export default card

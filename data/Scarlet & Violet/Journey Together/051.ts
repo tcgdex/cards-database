@@ -51,19 +51,15 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "PLANETA Igarashi",
 
-	thirdParty: {
-		cardmarket: 817203
-	},
-
 	variants: [
-	{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 817203,
-			tcgplayer: 623478
-		}
-	},
-],
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817203,
+				tcgplayer: 623478
+			}
+		},
+	],
 }
 
 export default card

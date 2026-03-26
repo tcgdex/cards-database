@@ -60,26 +60,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Kazumasa Yasukuni",
 
-	thirdParty: {
-		cardmarket: 817165
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817165,
-			tcgplayer: 623440
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817165,
-			tcgplayer: 623440
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817165,
+				tcgplayer: 623440
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817165,
+				tcgplayer: 623440
+			}
+		},
+	],
 }
 
 export default card

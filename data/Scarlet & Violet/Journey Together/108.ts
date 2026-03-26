@@ -84,26 +84,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 817260
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817260,
-			tcgplayer: 623535
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817260,
-			tcgplayer: 623535
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817260,
+				tcgplayer: 623535
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817260,
+				tcgplayer: 623535
+			}
+		},
+	],
 }
 
 export default card

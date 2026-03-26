@@ -60,26 +60,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 817233
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817233,
-			tcgplayer: 623508
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817233,
-			tcgplayer: 623508
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817233,
+				tcgplayer: 623508
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817233,
+				tcgplayer: 623508
+			}
+		},
+	],
 }
 
 export default card

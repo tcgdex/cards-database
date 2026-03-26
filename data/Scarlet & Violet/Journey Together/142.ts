@@ -32,25 +32,21 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817294,
-			tcgplayer: 623569
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817294,
-			tcgplayer: 623569
-		}
-	},
-],
-
-	thirdParty: {
-		cardmarket: 817294
-	}
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817294,
+				tcgplayer: 623569
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817294,
+				tcgplayer: 623569
+			}
+		},
+	],
 }
 
 export default card

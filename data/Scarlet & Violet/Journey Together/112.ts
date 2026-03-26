@@ -65,26 +65,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Miki Tanaka",
 
-	thirdParty: {
-		cardmarket: 817264
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817264,
-			tcgplayer: 623539
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817264,
-			tcgplayer: 623539
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817264,
+				tcgplayer: 623539
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817264,
+				tcgplayer: 623539
+			}
+		},
+	],
 }
 
 export default card

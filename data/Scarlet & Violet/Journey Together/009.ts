@@ -51,26 +51,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Yuka Morii",
 
-	thirdParty: {
-		cardmarket: 817161
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817161,
-			tcgplayer: 623436
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817161,
-			tcgplayer: 623436
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817161,
+				tcgplayer: 623436
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817161,
+				tcgplayer: 623436
+			}
+		},
+	],
 }
 
 export default card

@@ -74,26 +74,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 817225
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817225,
-			tcgplayer: 623500
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817225,
-			tcgplayer: 623500
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817225,
+				tcgplayer: 623500
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817225,
+				tcgplayer: 623500
+			}
+		},
+	],
 }
 
 export default card

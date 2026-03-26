@@ -30,26 +30,22 @@ const card: Card = {
 	energyType: "Special",
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 817311
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817311,
-			tcgplayer: 623586
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817311,
-			tcgplayer: 623586
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817311,
+				tcgplayer: 623586
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817311,
+				tcgplayer: 623586
+			}
+		},
+	],
 }
 
 export default card

@@ -64,26 +64,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Lee HyunJung",
 
-	thirdParty: {
-		cardmarket: 817224
-	},
-
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 817224,
-			tcgplayer: 623499
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 817224,
-			tcgplayer: 623499
-		}
-	},
-],
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817224,
+				tcgplayer: 623499
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817224,
+				tcgplayer: 623499
+			}
+		},
+	],
 }
 
 export default card
