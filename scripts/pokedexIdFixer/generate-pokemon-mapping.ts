@@ -23,6 +23,7 @@ import fs from 'fs'
 import path from 'path'
 import { glob } from 'glob'
 import { extractFile } from '../utils/ts-extract-utils'
+import { normalizeNameForMatching } from './dex-utils'
 
 const OUTPUT_DIR = __dirname
 const DATA_DIR = path.resolve(__dirname, '../../data')
@@ -40,136 +41,6 @@ interface NameMapping {
 	dexId: number
 	language: string
 	source: 'pokeapi' | 'cards-database'
-}
-
-// Card suffixes to strip when matching names
-const CARD_SUFFIXES = [
-	' EX',
-	' ex',
-	'-EX',
-	'-ex',
-	' GX',
-	'-GX',
-	' V',
-	'-V',
-	' VMAX',
-	' VSTAR',
-	' V-UNION',
-	' BREAK',
-	' LV.X',
-	' Prime',
-	' PRIME',
-	' SP',
-	' FB',
-	' GL',
-	' C',
-	' G',
-	' E4',
-	' δ',
-	' Star',
-	' ☆',
-	'★',
-]
-
-// Regional form prefixes/patterns
-const REGIONAL_PATTERNS = [
-	{ pattern: /^Alolan /i, region: 'alolan' },
-	{ pattern: /^Alola /i, region: 'alolan' },
-	{ pattern: /^Galarian /i, region: 'galarian' },
-	{ pattern: /^Galar /i, region: 'galarian' },
-	{ pattern: /^Hisuian /i, region: 'hisuian' },
-	{ pattern: /^Hisui /i, region: 'hisuian' },
-	{ pattern: /^Paldean /i, region: 'paldean' },
-	{ pattern: /^Paldea /i, region: 'paldean' },
-	// French
-	{ pattern: /d'Alola$/i, region: 'alolan' },
-	{ pattern: /de Galar$/i, region: 'galarian' },
-	{ pattern: /de Hisui$/i, region: 'hisuian' },
-	{ pattern: /de Paldea$/i, region: 'paldean' },
-	// German
-	{ pattern: /^Alola-/i, region: 'alolan' },
-	{ pattern: /^Galar-/i, region: 'galarian' },
-	{ pattern: /^Hisui-/i, region: 'hisuian' },
-	{ pattern: /^Paldea-/i, region: 'paldean' },
-]
-
-// Mega evolution patterns
-const MEGA_PATTERNS = [
-	/^Mega /i,
-	/^M /i,
-	/^Méga-/i, // French
-	/^Méga /i, // French
-	/^M-/i,
-]
-
-// Other special form patterns (these share the base Pokémon's dexId)
-const SPECIAL_FORM_PATTERNS = [
-	/^Primal /i,
-	/^Primo-/i, // French Primal
-	/^Origin Forme /i,
-	/^Altered Forme /i,
-	/^Sky Forme /i,
-	/^Land Forme /i,
-	/^Therian Forme /i,
-	/^Incarnate Forme /i,
-	/^Black Kyurem/i,
-	/^White Kyurem/i,
-	/^Dusk Mane /i,
-	/^Dawn Wings /i,
-	/^Ultra /i,
-	/^Crowned /i,
-	/^Ice Rider /i,
-	/^Shadow Rider /i,
-	/^Single Strike /i,
-	/^Rapid Strike /i,
-	/^Bloodmoon /i,
-	// Owner prefixes (Team Rocket, gym leaders, etc.)
-	/^Rocket's /i,
-	/^Dark /i,
-	/^Light /i,
-	/^Shining /i,
-	/^_____'s /i, // Celebrations Pikachu
-	/^Radiant /i,
-	// Costume/special variants
-	/ with .+$/i, // "Pikachu with Grey Felt Hat"
-	/^Surfing /i,
-	/^Flying /i,
-	/^Detective /i,
-]
-
-function normalizeNameForMatching(name: string): string {
-	let normalized = name.trim()
-
-	// Normalize apostrophes (Unicode RIGHT SINGLE QUOTATION MARK U+2019 to ASCII)
-	normalized = normalized.replace(/\u2019/g, "'")
-
-	// Remove card suffixes
-	for (const suffix of CARD_SUFFIXES) {
-		if (normalized.endsWith(suffix)) {
-			normalized = normalized.slice(0, -suffix.length).trim()
-		}
-	}
-
-	// Remove regional prefixes/suffixes (we'll match to base Pokémon)
-	for (const { pattern } of REGIONAL_PATTERNS) {
-		normalized = normalized.replace(pattern, '').trim()
-	}
-
-	// Remove mega prefixes
-	for (const pattern of MEGA_PATTERNS) {
-		normalized = normalized.replace(pattern, '').trim()
-	}
-
-	// Remove special form prefixes
-	for (const pattern of SPECIAL_FORM_PATTERNS) {
-		normalized = normalized.replace(pattern, '').trim()
-	}
-
-	// Remove trailing form indicators like " X" or " Y" for Mega Charizard X/Y
-	normalized = normalized.replace(/ [XY]$/i, '').trim()
-
-	// Lowercase for comparison
-	return normalized.toLowerCase()
 }
 
 async function main() {
@@ -229,8 +100,10 @@ async function main() {
 
 	console.log(`[i] Built ${nameToId.size} unique name mappings`)
 
-	// Now scan existing cards-database to find additional name variations
-	// and validate our mapping
+	// Scan existing cards-database to find additional name variations
+	// and validate our mapping. This is intentionally a two-pass process:
+	// first learn aliases from cards that already have dexId, then report
+	// truly unresolved names from cards still missing dexId.
 	console.log('[i] Scanning cards-database for additional name variations...')
 
 	const cardFiles = await glob('**/*.ts', {
@@ -240,6 +113,47 @@ async function main() {
 	})
 
 	let cardsWithKnownDex = 0
+	for (const filePath of cardFiles) {
+		const parts = path.relative(DATA_DIR, filePath).split(path.sep)
+		if (parts.length <= 2) continue
+
+		try {
+			const card = extractFile(filePath)
+			if (!card || card.category !== 'Pokemon') continue
+
+			// If card already has dexId, use it to validate/extend our mapping
+			if (!Array.isArray(card.dexId) || card.dexId.length === 0) {
+				continue
+			}
+
+			cardsWithKnownDex++
+
+			// For multi-dex cards (TAG TEAM), we can't create a simple mapping
+			// but we can still learn aliases from single-dex cards.
+			if (card.dexId.length !== 1) {
+				continue
+			}
+
+			for (const [lang, name] of Object.entries(card.name as Record<string, string>)) {
+				if (!name) continue
+				const normalized = normalizeNameForMatching(name)
+				const existingId = nameToId.get(normalized)
+				if (!existingId) {
+					nameToId.set(normalized, card.dexId[0])
+					mappings.push({
+						name,
+						normalizedName: normalized,
+						dexId: card.dexId[0],
+						language: lang,
+						source: 'cards-database',
+					})
+				}
+			}
+		} catch (error) {
+			// Skip parse errors
+		}
+	}
+
 	let cardsWithUnknownName = 0
 	const unknownNames = new Map<string, { name: string; file: string; lang: string }[]>()
 
@@ -251,49 +165,24 @@ async function main() {
 			const card = extractFile(filePath)
 			if (!card || card.category !== 'Pokemon') continue
 
-			// If card already has dexId, use it to validate/extend our mapping
 			if (Array.isArray(card.dexId) && card.dexId.length > 0) {
-				cardsWithKnownDex++
+				continue
+			}
 
-				// Add all name variations from this card to our mapping
-				for (const [lang, name] of Object.entries(card.name as Record<string, string>)) {
-					if (!name) continue
-					const normalized = normalizeNameForMatching(name)
+			const engName = card.name?.en || card.name?.fr || ''
+			const normalized = normalizeNameForMatching(engName)
+			const matchedId = nameToId.get(normalized)
 
-					// For multi-dex cards (TAG TEAM), we can't create a simple mapping
-					// but we can still validate single-dex cards
-					if (card.dexId.length === 1) {
-						const existingId = nameToId.get(normalized)
-						if (!existingId) {
-							// New name variation found
-							nameToId.set(normalized, card.dexId[0])
-							mappings.push({
-								name,
-								normalizedName: normalized,
-								dexId: card.dexId[0],
-								language: lang,
-								source: 'cards-database',
-							})
-						}
-					}
+			if (!matchedId) {
+				cardsWithUnknownName++
+				if (!unknownNames.has(normalized)) {
+					unknownNames.set(normalized, [])
 				}
-			} else {
-				// Card missing dexId - try to find a match
-				const engName = card.name?.en || card.name?.fr || ''
-				const normalized = normalizeNameForMatching(engName)
-				const matchedId = nameToId.get(normalized)
-
-				if (!matchedId) {
-					cardsWithUnknownName++
-					if (!unknownNames.has(normalized)) {
-						unknownNames.set(normalized, [])
-					}
-					unknownNames.get(normalized)!.push({
-						name: engName,
-						file: path.relative(DATA_DIR, filePath),
-						lang: 'en',
-					})
-				}
+				unknownNames.get(normalized)!.push({
+					name: engName,
+					file: path.relative(DATA_DIR, filePath),
+					lang: card.name?.en ? 'en' : 'fr',
+				})
 			}
 		} catch (error) {
 			// Skip parse errors
@@ -314,16 +203,19 @@ async function main() {
 	fs.writeFileSync(mappingPath, JSON.stringify(mappingOutput, null, 2))
 	console.log(`\n[OK] Saved mapping to: ${mappingPath}`)
 
-	// Save unknown names for manual review
+	// Save unknown names for manual review. Always rewrite the file so stale
+	// reports do not survive a clean run.
+	const unknownPath = path.join(OUTPUT_DIR, 'unknown-names.json')
+	const unknownOutput = Array.from(unknownNames.entries()).map(([normalized, occurrences]) => ({
+		normalizedName: normalized,
+		occurrences,
+	}))
+	fs.writeFileSync(unknownPath, JSON.stringify(unknownOutput, null, 2))
 	if (unknownNames.size > 0) {
-		const unknownPath = path.join(OUTPUT_DIR, 'unknown-names.json')
-		const unknownOutput = Array.from(unknownNames.entries()).map(([normalized, occurrences]) => ({
-			normalizedName: normalized,
-			occurrences,
-		}))
-		fs.writeFileSync(unknownPath, JSON.stringify(unknownOutput, null, 2))
 		console.log(`[!] Saved ${unknownNames.size} unknown names to: ${unknownPath}`)
 		console.log('    Review these and add manual mappings if needed.')
+	} else {
+		console.log(`[OK] No unknown names. Saved empty report to: ${unknownPath}`)
 	}
 }
 

@@ -196,52 +196,52 @@ async function main() {
 			// Check for multi-dex manual mapping first (e.g., Buried Fossil)
 			const multiDexIds = nameToIds.get(original) || nameToIds.get(normalized)
 			if (multiDexIds) {
-					results.push({
-						filePath,
-						relativePath,
-						cardName: engName,
-						oldDexId: existingDexIds,
-						newDexId: multiDexIds,
-						status: 'fixed',
-					})
-					fixedCount++
-					logFixAction('fixed', dryRun, relativePath, engName, existingDexIds, multiDexIds)
+				if (apply) {
+					applyFix(filePath, multiDexIds)
+				}
 
-					if (apply) {
-						applyFix(filePath, multiDexIds, existingDexIds)
-					}
+				results.push({
+					filePath,
+					relativePath,
+					cardName: engName,
+					oldDexId: existingDexIds,
+					newDexId: multiDexIds,
+					status: 'fixed',
+				})
+				fixedCount++
+				logFixAction('fixed', dryRun, relativePath, engName, existingDexIds, multiDexIds)
 			} else {
 				// Try single dexId mapping
 				const dexId = nameToId.get(original) || nameToId.get(normalized)
 
 				if (dexId) {
+					if (apply) {
+						applyFix(filePath, [dexId])
+					}
+
 					results.push({
 						filePath,
 						relativePath,
 						cardName: engName,
-							oldDexId: existingDexIds,
+						oldDexId: existingDexIds,
 						newDexId: [dexId],
 						status: 'fixed',
 					})
 					fixedCount++
-						logFixAction('fixed', dryRun, relativePath, engName, existingDexIds, [dexId])
-
-						if (apply) {
-							applyFix(filePath, [dexId], existingDexIds)
-						}
+					logFixAction('fixed', dryRun, relativePath, engName, existingDexIds, [dexId])
 				} else {
-						const reason = `No mapping found for: "${original}" or "${normalized}"`
-						results.push({
-							filePath,
-							relativePath,
-							cardName: engName,
-							oldDexId: existingDexIds,
-							newDexId: existingDexIds || [],
-							status: 'skipped',
-							reason,
-						})
+					const reason = `No mapping found for: "${original}" or "${normalized}"`
+					results.push({
+						filePath,
+						relativePath,
+						cardName: engName,
+						oldDexId: existingDexIds,
+						newDexId: existingDexIds || [],
+						status: 'skipped',
+						reason,
+					})
 					skippedCount++
-						logFixAction('skipped', dryRun, relativePath, engName, existingDexIds, existingDexIds || [], reason)
+					logFixAction('skipped', dryRun, relativePath, engName, existingDexIds, existingDexIds || [], reason)
 				}
 			}
 		}
@@ -314,38 +314,47 @@ async function main() {
 	console.log(`[OK] Log saved to: ${logPath}`)
 }
 
-function applyFix(filePath: string, dexIds: number[], _existingDexIds?: number[]) {
-	// Read the file
-	let content = fs.readFileSync(filePath, 'utf-8')
+function applyFix(filePath: string, dexIds: number[]) {
+	const originalContent = fs.readFileSync(filePath, 'utf-8')
+	let content = originalContent
 
 	const dexIdRegex = /(\s*)dexId:\s*\[[^\]]*?\],?\s*\n/
-	const match = dexIdRegex.exec(content)
+	const existingMatch = dexIdRegex.exec(content)
 	const buildLine = (indent: string) => `${indent}dexId: [${dexIds.join(', ')}],\n`
 
-	if (match && match.index !== undefined) {
-		const indent = match[1] || '\t'
-		content = content.slice(0, match.index) + buildLine(indent) + content.slice(match.index + match[0].length)
+	if (existingMatch && existingMatch.index !== undefined) {
+		const indent = existingMatch[1] || '\t'
+		content = content.slice(0, existingMatch.index) + buildLine(indent) + content.slice(existingMatch.index + existingMatch[0].length)
 	} else {
-		// Find the position to insert dexId
-		// We want to insert after 'category: "Pokemon",' or similar
-		const categoryMatch = content.match(/category:\s*["']Pokemon["']\s*,?\s*\n/)
-		if (!categoryMatch || categoryMatch.index === undefined) {
-			console.error(`[!] Could not find category line in: ${filePath}`)
-			return
+		const setLineRegex = /^(\t*)set:\s*Set,\s*\n(\n?)/m
+		const setLineMatch = content.match(setLineRegex)
+		if (setLineMatch) {
+			const indent = setLineMatch[1] || '\t'
+			content = content.replace(setLineRegex, `${indent}set: Set,\n\n${buildLine(indent)}\n`)
+		} else {
+			const categoryMatch = content.match(/category:\s*["']Pokemon["']\s*,?\s*\n/)
+			if (!categoryMatch || categoryMatch.index === undefined) {
+				throw new Error(`Could not find insertion point in: ${filePath}`)
+			}
+
+			const insertPos = categoryMatch.index + categoryMatch[0].length
+			const lineStart = content.lastIndexOf('\n', categoryMatch.index) + 1
+			const indent = content.slice(lineStart, categoryMatch.index).match(/^\s*/)?.[0] || '\t'
+			content = content.slice(0, insertPos) + '\n' + buildLine(indent) + content.slice(insertPos)
 		}
-
-		const insertPos = categoryMatch.index + categoryMatch[0].length
-
-		// Detect indentation from the category line
-		const lineStart = content.lastIndexOf('\n', categoryMatch.index) + 1
-		const indent = content.slice(lineStart, categoryMatch.index).match(/^\s*/)?.[0] || '\t'
-
-		// Insert the dexId line
-		content = content.slice(0, insertPos) + '\n' + buildLine(indent) + content.slice(insertPos)
 	}
 
-	// Write back
+	if (content === originalContent) {
+		throw new Error(`No file change generated for: ${filePath}`)
+	}
+
 	fs.writeFileSync(filePath, content)
+
+	const writtenContent = fs.readFileSync(filePath, 'utf-8')
+	const expectedLine = `dexId: [${dexIds.join(', ')}],`
+	if (!writtenContent.includes(expectedLine)) {
+		throw new Error(`dexId write verification failed for: ${filePath}`)
+	}
 }
 
 main().catch((error) => {

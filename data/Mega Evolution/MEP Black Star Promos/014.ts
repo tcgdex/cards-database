@@ -16,6 +16,8 @@ const card: Card = {
 
 	rarity: "Black Star Promo",
 	category: "Pokemon",
+
+	dexId: [937],
 	hp: 140,
 	types: ["Fire"],
 	stage: "Stage1",
