@@ -89,14 +89,18 @@ const card: Card = {
 	},
 
 	variants: [
-		{
-			type: 'holo'
-		},
-		{
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 817231,
+			tcgplayer: 623506
+		}
+	},
+	{
 			type: 'holo',
 			stamp: ['player-rewards-program']
 		}
-	]
+],
 }
 
 export default card

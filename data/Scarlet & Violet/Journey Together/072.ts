@@ -69,13 +69,21 @@ const card: Card = {
 	},
 
 	variants: [
-		{
-			type: 'normal'
-		},
-		{
-			type: 'reverse'
-		},
-	]
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 817224,
+			tcgplayer: 623499
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 817224,
+			tcgplayer: 623499
+		}
+	},
+],
 }
 
 export default card

@@ -87,19 +87,30 @@ const card: Card = {
 	},
 
 	variants: [
-		{
-			type: 'holo'
-		},
-		{
-			type: 'holo',
-			stamp: ['set-logo']
-		},
-		{
-			type: 'holo',
-			stamp: ['set-logo'],
-			size: 'jumbo'
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 817266,
+			tcgplayer: 623541
 		}
-	]
+	},
+	{
+		type: "holo",
+		foil: "unknown",
+		stamp: ["set-logo"],
+		thirdParty: {
+			cardmarket: 853515,
+		}
+	},
+	{
+		type: "holo",
+		stamp: ["set-logo"],
+		size: "jumbo",
+		thirdParty: {
+			cardmarket: 853517,
+		}
+	},
+],
 }
 
 export default card

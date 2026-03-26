@@ -68,17 +68,29 @@ const card: Card = {
 	},
 
 	variants: [
-		{
-			type: 'normal'
-		},
-		{
-			type: 'reverse'
-		},
-		{
-			type: 'holo',
-			stamp: ["snowflake"]
-		},
-	]
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 817184,
+			tcgplayer: 623459
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 817184,
+			tcgplayer: 623459
+		}
+	},
+	{
+		type: "holo",
+		foil: "snowflake",
+		stamp: "cm-only-845411",
+		thirdParty: {
+			cardmarket: 845411,
+		}
+	},
+],
 }
 
 export default card
