@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Bellibolt",
+		fr: "Ampibidou",
+		en: "Bellibolt",
+		es: "Bellibolt",
+		it: "Bellibolt",
+		pt: "Bellibolt",
+		de: "Wampitz"
   },
   suffix: "EX",
   illustrator: "PLANETA Yamashita",
@@ -13,7 +18,12 @@ const card: Card = {
   hp: 160,
   types: ["Lightning"],
   evolveFrom: {
-    en: "Tadbulb",
+		fr: "Têtampoule",
+		en: "Tadbulb",
+		es: "Tadbulb",
+		it: "Tadbulb",
+		pt: "Tadbulb",
+		de: "Blipp"
   },
   stage: "Stage1",
   attacks: [

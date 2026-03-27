@@ -15,7 +15,7 @@ const card: Card = {
 
 	effect: {
 		en: "Look at a random Supporter card that's not Penny from your opponent's deck and shuffle it back into their deck. Use the effect of that card as the effect of this card.",
-		fr: "Regardez une des cartes Supporter du deck de votre adversaire au hasard qui n'est pas  et mélangez-la avec son deck. Utilisez son effet en tant qu'effet de cette carte."
+		fr: "Regardez une des cartes Supporter du deck de votre adversaire au hasard qui n'est pas Pania et mélangez-la avec son deck. Utilisez son effet en tant qu'effet de cette carte."
 	},
 
 	trainerType: "Supporter"
