@@ -15,7 +15,8 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "Zyklon-Energie liefert -Energie. Wenn du Zyklon-Energie von der Hand an dein Aktives Pokémon anlegst, tausche 1 Verteidigendes Pokémon mit 1 Pokémon auf der Bank deines Gegners. Dein Gegner bestimmt, welches Pokémon auf der Bank getauscht wird."
+		de: "Zyklon-Energie liefert -Energie. Wenn du Zyklon-Energie von der Hand an dein Aktives Pokémon anlegst, tausche 1 Verteidigendes Pokémon mit 1 Pokémon auf der Bank deines Gegners. Dein Gegner bestimmt, welches Pokémon auf der Bank getauscht wird.",
+		fr: "Énergie Cyclone fournit de l'Énergie Incolore. Lorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez 1 des Pokémon Défenseurs avec 1 des Pokémon de Banc de votre adversaire. Votre adversaire choisit le Pokémon à échanger.",
 	},
 
 	thirdParty: {

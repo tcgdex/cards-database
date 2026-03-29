@@ -120,11 +120,11 @@ function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: Suppo
 		if (variants?.firstEdition) addVariant('normal', ['1st-edition']);
 		if (variants?.wPromo) addVariant('normal', ['w-Promo']);
 	}
-	if (typeof variants?.reverse === 'boolean' ? variants.reverse : true) {
+	if (typeof variants?.reverse === 'boolean' ? variants.reverse : false) {
 		addVariant('reverse');
 		if (variants?.firstEdition) addVariant('reverse', ['1st-edition']);
 	}
-	if (typeof variants?.holo === 'boolean' ? variants.holo : true) {
+	if (typeof variants?.holo === 'boolean' ? variants.holo : false) {
 		addVariant('holo');
 		if (variants?.firstEdition) addVariant('holo', ['1st-edition']);
 	}

@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Frigibax",
+		fr: "Frigodo",
+		en: "Frigibax",
+		es: "Frigibax",
+		it: "Frigibax",
+		pt: "Frigibax",
+		de: "Frospino"
   },
   illustrator: "AKIRA EGAWA",
   rarity: "One Diamond",
@@ -20,6 +25,12 @@ const card: Card = {
     {
       name: {
         en: "Chilly",
+        fr: "Glacial",
+        es: "Fresquito",
+        'es-mx': "Frialdad",
+        de: "Frösteln",
+        it: "Addiaccio",
+        pt: "Frio"
       },
       damage: "20",
       cost: ["Water"],

@@ -4,7 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Gholdengo",
+		en: "Gholdengo",
+		fr: "Gromago",
+		es: "Gholdengo",
+		it: "Gholdengo",
+		de: "Monetigo",
+		'pt-br': "Gholdengo",
+		ko: "타부자고"
   },
   suffix: "EX",
   illustrator: "takuyoa",
@@ -13,7 +19,13 @@ const card: Card = {
   hp: 150,
   types: ["Metal"],
   evolveFrom: {
-    en: "Gimmighoul",
+		en: "Gimmighoul",
+		fr: "Mordudor",
+		de: "Gierspenst",
+		it: "Gimmighoul",
+		es: "Gimmighoul",
+		pt: "Gimmighoul",
+		'es-mx': "Gimmighoul"
   },
   stage: "Stage1",
   attacks: [

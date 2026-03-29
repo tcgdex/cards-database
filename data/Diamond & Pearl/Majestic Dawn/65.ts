@@ -39,29 +39,36 @@ const card: Card = {
 		fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
 	},
 
-	attacks: [{
-		name: {
-			de: "Familienruf"
+	attacks: [
+		{
+			name: {
+				de: "Familienruf",
+				fr: "Appel à la famille",
+			},
+			effect: {
+				de: "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf diene Bank. Mische dein Deck danach.",
+				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+			},
+			cost: [
+				"Colorless",
+			],
 		},
-
-		effect: {
-			de: "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf diene Bank. Mische dein Deck danach."
+		{
+			name: {
+				de: "Reißklaue",
+				fr: "Griffe déchirante",
+			},
+			damage: 10,
+			effect: {
+				de: "Wirf 1 Münze. Bei 'Kopf' entferne 1 Energie, die an das Verteidigende Pokémon angelegt ist, und lege sie auf den Ablagestapel deines Gegners.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+			},
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
 		},
-
-		cost: ["Colorless"]
-	}, {
-		name: {
-			de: "Reißklaue"
-		},
-
-		damage: 10,
-
-		effect: {
-			de: "Wirf 1 Münze. Bei 'Kopf' entferne 1 Energie, die an das Verteidigende Pokémon angelegt ist, und lege sie auf den Ablagestapel deines Gegners."
-		},
-
-		cost: ["Colorless", "Colorless"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 278114,

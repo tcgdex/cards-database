@@ -1,0 +1,52 @@
+import { Card } from '../../../interfaces'
+import Set from '../McDonald\'s Collection 2011'
+
+const card: Card = {
+	set: Set,
+	illustrator: "MAHOU",
+	category: "Pokemon",
+
+	dexId: [531],
+
+	description: {
+		en: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			en: "Double Slap",
+			fr: "Torgnoles"
+		},
+
+		damage: "30×",
+
+		effect: {
+			en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+		}
+	}],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	name: {
+		en: "Audino",
+		fr: "Nanméouïe"
+	},
+
+	rarity: "None",
+	hp: 80,
+	types: ["Colorless"],
+
+	thirdParty: {
+		tcgplayer: 83660
+	}
+}
+
+export default card
