@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Wattrel",
+		fr: "Zapétrel",
+		en: "Wattrel",
+		es: "Wattrel",
+		it: "Wattrel",
+		pt: "Wattrel",
+		de: "Voltrel"
   },
   illustrator: "sowsow",
   rarity: "One Diamond",
@@ -20,6 +25,12 @@ const card: Card = {
     {
       name: {
         en: "Flap",
+        fr: "Battement",
+        es: "Aleteo",
+        it: "Alabattito",
+        de: "Flattern",
+        'pt-br': "Asa",
+        ko: "홰치기"
       },
       damage: 20,
       cost: ["Lightning"],

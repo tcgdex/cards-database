@@ -7,7 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Rocket's Zapdos",
-		fr: "Lunala"
+		fr: "Électhor de Rocket",
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -17,33 +17,39 @@ const card: Card = {
 	types: ["Lightning"],
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			en: "Plasma",
-			fr: "Douleur Lunaire"
+	attacks: [
+		{
+			name: {
+				en: "Plasma",
+				fr: "Plasma",
+			},
+			effect: {
+				en: "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos.",
+				fr: "S'il y a au moins une carte Énergie Électrique dans votre pile de défausse, attachez l'une d'elles à Électhor de Rocket.",
+			},
+			damage: 20,
+			cost: [
+				"Lightning",
+			],
 		},
-
-		effect: {
-			en: "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos.",
-			fr: "Doublez le nombre de marqueurs de dégâts sur chacun des Pokémon de votre adversaire."
+		{
+			name: {
+				en: "Electroburn",
+				fr: "Électrobrûlure",
+			},
+			effect: {
+				en: "Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it.",
+				fr: "Électhor de Rocket s'inflige une quantité de dégâts égale à 10 fois le nombre de cartes Énergie Électrique qui lui sont attachées.",
+			},
+			damage: 70,
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
 		},
-
-		damage: 20,
-		cost: ["Lightning"]
-	}, {
-		name: {
-			en: "Electroburn",
-			fr: "Attaque Psy"
-		},
-
-		effect: {
-			en: "Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it.",
-			fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
-		},
-
-		damage: 70,
-		cost: ["Lightning", "Lightning", "Lightning", "Colorless"]
-	}],
+	],
 
 	resistances: [{
 		type: "Fighting",

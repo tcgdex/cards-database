@@ -3,9 +3,17 @@ import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
-  name: {
-    en: "Meowscarada",
-  },
+  
+	name: {
+		en: "Meowscarada",
+		fr: "Miascarade",
+		es: "Meowscarada",
+		it: "Meowscarada",
+		de: "Maskagato",
+		'pt-br': "Meowscarada",
+		ko: "마스카나"
+	},
+
   suffix: "EX",
   illustrator: "5ban Graphics",
   rarity: "Four Diamond",
@@ -13,7 +21,13 @@ const card: Card = {
   hp: 160,
   types: ["Grass"],
   evolveFrom: {
-    en: "Floragato",
+		en: "Floragato",
+		fr: "Matourgeon",
+		es: "Floragato",
+		it: "Floragato",
+		de: "Feliospa",
+		'pt-br': "Floragato",
+		ko: "나로테"
   },
   stage: "Stage2",
   attacks: [
@@ -29,6 +43,12 @@ const card: Card = {
     {
       name: {
         en: "Solar Beam",
+        fr: "Lance-Soleil",
+        es: "Rayo Solar",
+        'es-mx': "Rayo Solar",
+        de: "Solarstrahl",
+        it: "Solarraggio",
+        pt: "Raio Solar"
       },
       damage: 80,
       cost: ["Grass", "Grass"],

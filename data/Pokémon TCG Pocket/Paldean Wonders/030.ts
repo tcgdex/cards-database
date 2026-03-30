@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Cetitan",
+		fr: "Balbalèze",
+		en: "Cetitan",
+		es: "Cetitan",
+		it: "Cetitan",
+		pt: "Cetitan",
+		de: "Kolowal"
   },
   illustrator: "Anesaki Dynamic",
   rarity: "Two Diamond",
@@ -13,7 +18,13 @@ const card: Card = {
   types: ["Water"],
   dexId: [975],
   evolveFrom: {
-    en: "Cetoddle",
+		en: "Cetoddle",
+		fr: "Piétacé",
+		de: "Flaniwal",
+		it: "Cetoddle",
+		es: "Cetoddle",
+		pt: "Cetoddle",
+		'es-mx': "Cetoddle"
   },
   description: {
     en: "Ice energy builds up in the horn on its upper jaw, causing the horn to reach cryogenic temperatures that freeze its surroundings.",
@@ -22,12 +33,16 @@ const card: Card = {
   attacks: [
     {
       name: {
-        en: "Ice Punch",
+				en: "Ice Punch",
+				fr: "Poinglace",
+				de: "Ice Punch"
       },
       damage: "80",
       cost: ["Water", "Water", "Colorless", "Colorless"],
       effect: {
-        en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
       },
     },
   ],

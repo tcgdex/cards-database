@@ -20,16 +20,19 @@ const card: Card = {
 		de: "Spiele Klauenfossil wie ein Basis-Pokémon. Während Klauenfossil im Spiel ist, zählt es als -Pokémon (anstatt einer Trainerkarte). Klauenfossil hat keine Angriffe, kann sich nicht zurückziehen und wird nicht von Speziellen Zuständen betroffen. Falls Klauenfossil kampfunfähig gemacht wird, zählt es nicht als kampfunfähig gemachtes Pokémon (lege es trotzdem ab). Jederzeit während deines Zuges vor deinem Angriff kannst du Klauenfossil aus dem Spiel ablegen."
 	},
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Gezackter Stein"
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				de: "Gezackter Stein",
+				fr: "Pierre tranchante",
+			},
+			effect: {
+				de: "Wenn Klauenfossil dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Klauenfossil dadurch kampfunfähig wird), legst du 1 Schadensmarke auf das Angreifende Pokémon.",
+				fr: "Si Fossile griffe est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Fossile griffe est mise K.O), placez 1 marqueur de dégât sur le Pokémon Attaquant.",
+			},
 		},
-
-		effect: {
-			de: "Wenn Klauenfossil dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Klauenfossil dadurch kampfunfähig wird), legst du 1 Schadensmarke auf das Angreifende Pokémon."
-		}
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 277390,

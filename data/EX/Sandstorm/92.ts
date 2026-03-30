@@ -20,16 +20,19 @@ const card: Card = {
 		de: "Spiele Wurzelfossil wie ein Basis-Pokémon. Während Wurzelfossil im Spiel ist, zählt es als -Pokémon (anstatt einer Trainerkarte). Wurzelfossil hat keine Angriffe, kann sich nicht zurückziehen und wird nicht von Speziellen Zuständen betroffen. Falls Wurzelfossil kampfunfähig gemacht wird, zählt es nicht als kampfunfähig gemachtes Pokémon (lege es trotzdem ab). Jederzeit während deines Zuges vor deinem Angriff kannst du Wurzelfossil aus dem Spiel ablegen."
 	},
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Schwammiger Stein"
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				de: "Schwammiger Stein",
+				fr: "Pierre spongieuse",
+			},
+			effect: {
+				de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Wurzelfossil.",
+				fr: "N'importe quand entre deux tours, retirez à Fossile racine un marqueur de dégât.",
+			},
 		},
-
-		effect: {
-			de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Wurzelfossil."
-		}
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 275869,

@@ -15,7 +15,8 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "Magma Energy can be attached only to a Pokémon with Team Magma in its name. Magma Energy provides  and /or  Energy but provied 2 Energy at a time. (Doesn't count as a basci Energy card wehn not in play and has no effect other than providing Energy.) At the end of your turn, discard Magma Energy."
+		de: "Magma Energy can be attached only to a Pokémon with Team Magma in its name. Magma Energy provides  and /or  Energy but provied 2 Energy at a time. (Doesn't count as a basci Energy card wehn not in play and has no effect other than providing Energy.) At the end of your turn, discard Magma Energy.",
+		fr: "Énergie Magma ne peut être attachée qu'à un Pokémon dont le nom comporte Team Magma. Énergie Magma fournit 2 Énergies à la fois, Combat et Obscurité. (Elle ne compte pas comme carte Énergie de base lorsqu'elle n'est pas en jeu et n'a pas d'autre effet que de fournir de l'Énergie.) À la fin de votre tour, défaussez Énergie Magma.",
 	},
 
 	thirdParty: {

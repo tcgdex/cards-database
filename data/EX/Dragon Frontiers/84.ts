@@ -15,7 +15,8 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "Holon-Energie FK spendet -Energie.\nWenn an dem Pokémon, an dem Holon-Energie FK angelegt ist, auch eine -Basis-Energiekarte angelegt ist, hat dieses Pokémon keine Schwächen. Wenn an dem Pokémon, an dem Holon-Energie FK angelegt ist, auch eine -Basis-Energiekarte angelegt ist, werden die Schadenspunkte, die dieses Pokémon zufügt, nicht von Resistenzen betroffen. Ignoriere diese Effekte, wenn Holon-Energie FK an ein Pokémon-ex angelegt ist."
+		de: "Holon-Energie FK spendet -Energie.\nWenn an dem Pokémon, an dem Holon-Energie FK angelegt ist, auch eine -Basis-Energiekarte angelegt ist, hat dieses Pokémon keine Schwächen. Wenn an dem Pokémon, an dem Holon-Energie FK angelegt ist, auch eine -Basis-Energiekarte angelegt ist, werden die Schadenspunkte, die dieses Pokémon zufügt, nicht von Resistenzen betroffen. Ignoriere diese Effekte, wenn Holon-Energie FK an ein Pokémon-ex angelegt ist.",
+		fr: "Si le Pokémon auquel Énergie Holon FF est attachée possède également une carte Énergie de base Feu, il ne possède pas de Faiblesse. Si le Pokémon auquel Énergie Holon FF est attachée possède également une carte Énergie de base Combat, les dégâts infligés par son attaque ne sont pas affectés par la Résistance. Ignorez ces effets si Énergie Holon FF est attachée à un Pokémon-ex.",
 	},
 
 	thirdParty: {
