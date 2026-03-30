@@ -83,6 +83,30 @@
     "logoUrl": "https://www.pokepedia.fr/images/8/84/Logo_%C3%89carlate_et_Violet_Rivalit%C3%A9s_Destin%C3%A9es_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/b/b5/Symbole_%C3%89carlate_et_Violet_Rivalit%C3%A9s_Destin%C3%A9es_JCC.png"
   },
+  "edition-1": {
+    "wikiPageSlug": "Édition_1",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "electrique-jcc": {
+    "wikiPageSlug": "Électrique_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "energie": {
+    "wikiPageSlug": "Énergie",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "energie-codee-pop-serie-4-10": {
+    "wikiPageSlug": "Énergie_codée_(POP_Série_4_10)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "energie-guerisseuse-pop-serie-4-8": {
+    "wikiPageSlug": "Énergie_guérisseuse_(POP_Série_4_8)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "energie-speciale": {
+    "wikiPageSlug": "Énergie_spéciale",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
   "epee-et-bouclier-evolution-celeste": {
     "wikiPageSlug": "Épée_et_Bouclier_Évolution_Céleste",
     "logoUrl": "https://www.pokepedia.fr/images/a/af/Logo_%C3%89p%C3%A9e_et_Bouclier_%C3%89volution_C%C3%A9leste_JCC.png",
@@ -143,29 +167,321 @@
     "logoUrl": "https://www.pokepedia.fr/images/2/2e/Logo_%C3%89p%C3%A9e_et_Bouclier_Voltage_%C3%89clatant_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/1/18/Symbole_%C3%89p%C3%A9e_et_Bouclier_Voltage_%C3%89clatant_JCC.png"
   },
+  "evolution-jcc": {
+    "wikiPageSlug": "Évolution_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "rainbow-energy-pop-series-5-9": {
+    "wikiPageSlug": "Δ_Rainbow_Energy_(POP_Series_5_9)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "abreviation-d-extension": {
+    "wikiPageSlug": "Abréviation_d'extension",
+    "symbolUrl": "https://www.pokepedia.fr/images/c/c5/Symbole_M%C3%A9ga-%C3%89volution_H%C3%A9ros_Transcendants_JCC.png"
+  },
+  "ampharos-pop-series-7-1": {
+    "wikiPageSlug": "Ampharos_(POP_Series_7_1)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "aquali-pop-serie-3-6": {
+    "wikiPageSlug": "Aquali_(POP_Série_3_6)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
   "aquapolis": {
     "wikiPageSlug": "Aquapolis",
     "logoUrl": "https://www.pokepedia.fr/images/5/5a/Logo_Aquapolis_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/0/0e/Symbole_Aquapolis_JCC.png"
+  },
+  "arakdo-pop-serie-1-14": {
+    "wikiPageSlug": "Arakdo_(POP_Série_1_14)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "arcko-pop-serie-4-15": {
+    "wikiPageSlug": "Arcko_δ_(POP_Série_4_15)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "armaldo-ex-pop-serie-1-16": {
+    "wikiPageSlug": "Armaldo_ex_(POP_Série_1_16)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "attaque-jcc": {
+    "wikiPageSlug": "Attaque_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "banc-jcc": {
+    "wikiPageSlug": "Banc_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "bargantua-embrasement-ecarlate-021": {
+    "wikiPageSlug": "Bargantua_(Embrasement_Écarlate_021)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
   },
   "base-set-2": {
     "wikiPageSlug": "Base_Set_2",
     "logoUrl": "https://www.pokepedia.fr/images/1/14/Logo_Base_Set_2_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/7/70/Symbole_Base_Set_2_JCC.png"
   },
+  "bastiodon-pop-series-6-1": {
+    "wikiPageSlug": "Bastiodon_(POP_Series_6_1)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "bekipan-ex-tempete-de-sable-50": {
+    "wikiPageSlug": "Bekipan_(EX_Tempête_de_sable_50)",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/20/Symbole_EX_Temp%C3%AAte_de_sable_JCC.png"
+  },
+  "best-of-game": {
+    "wikiPageSlug": "Best_of_Game",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/1a/Symbole_Best_of_Game_JCC.png"
+  },
+  "bidoof-pop-series-6-11": {
+    "wikiPageSlug": "Bidoof_(POP_Series_6_11)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "bill-s-maintenance-pop-series-5-6": {
+    "wikiPageSlug": "Bill's_Maintenance_(POP_Series_5_6)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "boost-energy-pop-series-5-8": {
+    "wikiPageSlug": "Boost_Energy_(POP_Series_5_8)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "booster-jcc": {
+    "wikiPageSlug": "Booster_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
   "booster-de-luxe-ex": {
     "wikiPageSlug": "Booster_de_Luxe_ex",
     "logoUrl": "https://www.pokepedia.fr/images/c/c8/Logo_Booster_de_Luxe_ex_JCCP.png",
     "symbolUrl": "https://www.pokepedia.fr/images/f/fd/Symbole_Booster_de_Luxe_ex_JCCP.png"
+  },
+  "box-topper": {
+    "wikiPageSlug": "Box_Topper",
+    "symbolUrl": "https://www.pokepedia.fr/images/0/09/Symbole_Box_Topper_JCC.png"
+  },
+  "brasegali-pop-serie-1-1": {
+    "wikiPageSlug": "Brasegali_(POP_Série_1_1)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "buizel-pop-serie-9-6": {
+    "wikiPageSlug": "Buizel_(POP_Série_9_6)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "bulbizarre-embrasement-ecarlate-001": {
+    "wikiPageSlug": "Bulbizarre_(Embrasement_Écarlate_001)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "bulbizarre-pop-serie-2-12": {
+    "wikiPageSlug": "Bulbizarre_(POP_Série_2_12)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "buneary-pop-serie-9-12": {
+    "wikiPageSlug": "Buneary_(POP_Série_9_12)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "buneary-pop-series-6-12": {
+    "wikiPageSlug": "Buneary_(POP_Series_6_12)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "burmy-plant-cloak-pop-series-7-11": {
+    "wikiPageSlug": "Burmy_Plant_Cloak_(POP_Series_7_11)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "burmy-sandy-cloak-pop-series-7-12": {
+    "wikiPageSlug": "Burmy_Sandy_Cloak_(POP_Series_7_12)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
   },
   "celebrations-jcc": {
     "wikiPageSlug": "Célébrations_(JCC)",
     "logoUrl": "https://www.pokepedia.fr/images/d/d0/Logo_C%C3%A9l%C3%A9brations_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/d/d8/Symbole_C%C3%A9l%C3%A9brations_JCC.png"
   },
+  "cacnea-pop-serie-2-13": {
+    "wikiPageSlug": "Cacnea_(POP_Série_2_13)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "carabaffe-embrasement-ecarlate-018": {
+    "wikiPageSlug": "Carabaffe_(Embrasement_Écarlate_018)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "carapuce-embrasement-ecarlate-017": {
+    "wikiPageSlug": "Carapuce_(Embrasement_Écarlate_017)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "carapuce-pop-serie-4-14": {
+    "wikiPageSlug": "Carapuce_(POP_Série_4_14)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "carnivine-pop-series-8-7": {
+    "wikiPageSlug": "Carnivine_(POP_Series_8_7)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "carte-energie": {
+    "wikiPageSlug": "Carte_Énergie",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-energie-de-base": {
+    "wikiPageSlug": "Carte_Énergie_de_base",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-energie-speciale": {
+    "wikiPageSlug": "Carte_Énergie_spéciale",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte": {
+    "wikiPageSlug": "Carte_◇",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f2/Symbole_Soleil_et_Lune_Ultra-Prisme_JCC.png"
+  },
+  "carte-alternative": {
+    "wikiPageSlug": "Carte_Alternative",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-capsule-technique": {
+    "wikiPageSlug": "Carte_Capsule_Technique",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-dresseur-jcc": {
+    "wikiPageSlug": "Carte_Dresseur_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-dresseur-fossile": {
+    "wikiPageSlug": "Carte_Dresseur_Fossile",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-escouade": {
+    "wikiPageSlug": "Carte_ESCOUADE",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-extra-rule": {
+    "wikiPageSlug": "Carte_Extra_Rule",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-full-art": {
+    "wikiPageSlug": "Carte_Full_Art",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-high-tech": {
+    "wikiPageSlug": "Carte_HIGH-TECH",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-hypermatos-team-flare": {
+    "wikiPageSlug": "Carte_Hypermatos_Team_Flare",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-jumbo": {
+    "wikiPageSlug": "Carte_Jumbo",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-machine-technique": {
+    "wikiPageSlug": "Carte_Machine_Technique",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-machine-secrete-des-rocket": {
+    "wikiPageSlug": "Carte_Machine_secrète_des_Rocket",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-objet": {
+    "wikiPageSlug": "Carte_Objet",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-outil-pokemon": {
+    "wikiPageSlug": "Carte_Outil_Pokémon",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-pass-card": {
+    "wikiPageSlug": "Carte_Pass_Card",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-pokemon": {
+    "wikiPageSlug": "Carte_Pokémon",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-prisme-etoile": {
+    "wikiPageSlug": "Carte_Prisme_Étoile",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f2/Symbole_Soleil_et_Lune_Ultra-Prisme_JCC.png"
+  },
+  "carte-recompense": {
+    "wikiPageSlug": "Carte_Récompense",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-salle-de-jeu-de-doublonville": {
+    "wikiPageSlug": "Carte_Salle_de_jeu_de_Doublonville",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-special-card": {
+    "wikiPageSlug": "Carte_Special_Card",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-stade": {
+    "wikiPageSlug": "Carte_Stade",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-supporter": {
+    "wikiPageSlug": "Carte_Supporter",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-supporter-escouade": {
+    "wikiPageSlug": "Carte_Supporter_ESCOUADE",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-de-la-team-plasma": {
+    "wikiPageSlug": "Carte_de_la_Team_Plasma",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "carte-promotionnelle": {
+    "wikiPageSlug": "Carte_promotionnelle",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/2a/Symbole_Promo_JCC.png"
+  },
+  "celebi-ex-pop-serie-2-17": {
+    "wikiPageSlug": "Celebi_ex_(POP_Série_2_17)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "charmander-pop-series-5-10": {
+    "wikiPageSlug": "Charmander_δ_(POP_Series_5_10)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "charmeleon-pop-series-5-5": {
+    "wikiPageSlug": "Charmeleon_δ_(POP_Series_5_5)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "charmillon-pop-serie-1-6": {
+    "wikiPageSlug": "Charmillon_(POP_Série_1_6)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "chartor-pop-serie-1-10": {
+    "wikiPageSlug": "Chartor_(POP_Série_1_10)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "cheniti-embrasement-ecarlate-009": {
+    "wikiPageSlug": "Cheniti_(Embrasement_Écarlate_009)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "cherrim-pop-series-8-6": {
+    "wikiPageSlug": "Cherrim_(POP_Series_8_6)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "cherubi-pop-series-6-13": {
+    "wikiPageSlug": "Cherubi_(POP_Series_6_13)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "chimchar-pop-series-6-14": {
+    "wikiPageSlug": "Chimchar_(POP_Series_6_14)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "chimchar-pop-series-8-12": {
+    "wikiPageSlug": "Chimchar_(POP_Series_8_12)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
   "choc-spatio-temporel": {
     "wikiPageSlug": "Choc_Spatio-Temporel",
     "symbolUrl": "https://www.pokepedia.fr/images/c/c2/Symbole_Choc_Spatio-Temporel_JCCP.png"
+  },
+  "cinquieme-generation": {
+    "wikiPageSlug": "Cinquième_génération",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/e7/Symbole_Noir_%26_Blanc_JCC.png"
+  },
+  "cout-de-retraite": {
+    "wikiPageSlug": "Coût_de_Retraite",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
   },
   "coffre-des-dragons": {
     "wikiPageSlug": "Coffre_des_Dragons",
@@ -235,6 +551,10 @@
     "logoUrl": "https://www.pokepedia.fr/images/e/e4/Logo_Collection_McDonald's_2024_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/5/5a/Symbole_Collection_McDonald's_2024_JCC.png"
   },
+  "combat-jcc": {
+    "wikiPageSlug": "Combat_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
   "combat-express-2022": {
     "wikiPageSlug": "Combat_Express_(2022)",
     "logoUrl": "https://www.pokepedia.fr/images/5/55/Logo_Combat_Express_JCC.png",
@@ -245,13 +565,58 @@
     "logoUrl": "https://www.pokepedia.fr/images/5/55/Logo_Combat_Express_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/5/50/Symbole_Combat_Express_(2023)_JCC.png"
   },
+  "cornebre-pop-serie-1-8": {
+    "wikiPageSlug": "Cornèbre_(POP_Série_1_8)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "corsola-pop-series-7-13": {
+    "wikiPageSlug": "Corsola_(POP_Series_7_13)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "cradopaud-pop-serie-9-7": {
+    "wikiPageSlug": "Cradopaud_(POP_Série_9_7)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
   "crise-interdimensionnelle": {
     "wikiPageSlug": "Crise_Interdimensionnelle",
     "symbolUrl": "https://www.pokepedia.fr/images/0/07/Symbole_Crise_Interdimensionnelle_JCCP.png"
   },
+  "croagunk-pop-series-8-13": {
+    "wikiPageSlug": "Croagunk_(POP_Series_8_13)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "crustabri-embrasement-ecarlate-093": {
+    "wikiPageSlug": "Crustabri_(Embrasement_Écarlate_093)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "demolosse-embrasement-ecarlate-016": {
+    "wikiPageSlug": "Démolosse_(Embrasement_Écarlate_016)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
   "detective-pikachu-jcc": {
     "wikiPageSlug": "Détective_Pikachu_(JCC)",
-    "logoUrl": "https://www.pokepedia.fr/images/9/99/Logo_D%C3%A9tective_Pikachu_JCC.png"
+    "logoUrl": "https://www.pokepedia.fr/images/9/99/Logo_D%C3%A9tective_Pikachu_JCC.png",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/fe/Symbole_D%C3%A9tective_Pikachu_JCC.png"
+  },
+  "deck": {
+    "wikiPageSlug": "Deck",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "deck-a-theme": {
+    "wikiPageSlug": "Deck_à_thème",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "delibird-pop-series-7-6": {
+    "wikiPageSlug": "Delibird_(POP_Series_7_6)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "deoxys-pop-serie-4-2": {
+    "wikiPageSlug": "Deoxys_δ_(POP_Série_4_2)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "deoxys-ex-pop-serie-4-17": {
+    "wikiPageSlug": "Deoxys_ex_(POP_Série_4_17)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
   },
   "destinees-occultes": {
     "wikiPageSlug": "Destinées_Occultes",
@@ -262,6 +627,11 @@
     "wikiPageSlug": "Destinées_Radieuses",
     "logoUrl": "https://www.pokepedia.fr/images/3/38/Logo_Destin%C3%A9es_Radieuses_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/c/cc/Symbole_Destin%C3%A9es_Radieuses_JCC.png"
+  },
+  "deuxieme-generation": {
+    "wikiPageSlug": "Deuxième_génération",
+    "logoUrl": "https://www.pokepedia.fr/images/6/6d/Image_Neo_Destiny_JCC.png",
+    "symbolUrl": "https://www.pokepedia.fr/images/0/0f/Symbole_Neo_Genesis_JCC.png"
   },
   "diamant-perle-eveil-des-legendes": {
     "wikiPageSlug": "Diamant_&_Perle_Éveil_des_Légendes",
@@ -283,6 +653,18 @@
     "logoUrl": "https://www.pokepedia.fr/images/a/aa/Logo_Diamant_%26_Perle_Duels_au_sommet_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/8/8c/Symbole_Diamant_%26_Perle_Duels_au_sommet_JCC.png"
   },
+  "diamant-perle-kit-dresseur": {
+    "wikiPageSlug": "Diamant_&_Perle_Kit_Dresseur",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a2/Symbole_Diamant_%26_Perle_Kit_Dresseur_Manaphy_JCC.png"
+  },
+  "diamant-perle-kit-dresseur-lucario": {
+    "wikiPageSlug": "Diamant_&_Perle_Kit_Dresseur_Lucario",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a2/Symbole_Diamant_%26_Perle_Kit_Dresseur_Manaphy_JCC.png"
+  },
+  "diamant-perle-kit-dresseur-manaphy": {
+    "wikiPageSlug": "Diamant_&_Perle_Kit_Dresseur_Manaphy",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a2/Symbole_Diamant_%26_Perle_Kit_Dresseur_Manaphy_JCC.png"
+  },
   "diamant-perle-merveilles-secretes": {
     "wikiPageSlug": "Diamant_&_Perle_Merveilles_Secrètes",
     "logoUrl": "https://www.pokepedia.fr/images/e/e0/Logo_Diamant_%26_Perle_Merveilles_Secr%C3%A8tes_JCC.png",
@@ -298,10 +680,34 @@
     "logoUrl": "https://www.pokepedia.fr/images/4/4c/Logo_Diamant_%26_Perle_Tr%C3%A9sors_Myst%C3%A9rieux_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_Diamant_%26_Perle_Tr%C3%A9sors_Myst%C3%A9rieux_JCC.png"
   },
+  "donphan-pop-serie-3-8": {
+    "wikiPageSlug": "Donphan_(POP_Série_3_8)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
   "double-danger": {
     "wikiPageSlug": "Double_Danger",
     "logoUrl": "https://www.pokepedia.fr/images/d/d4/Logo_Double_Danger_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/5/56/Symbole_Double_Danger_JCC.png"
+  },
+  "double-rainbow-energy-pop-series-5-4": {
+    "wikiPageSlug": "Double_Rainbow_Energy_(POP_Series_5_4)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "dracaufeu-embrasement-ecarlate-013": {
+    "wikiPageSlug": "Dracaufeu_(Embrasement_Écarlate_013)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "dracaufeu-embrasement-ecarlate-091": {
+    "wikiPageSlug": "Dracaufeu_(Embrasement_Écarlate_091)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "dragon-jcc": {
+    "wikiPageSlug": "Dragon_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "drifloon-pop-series-6-6": {
+    "wikiPageSlug": "Drifloon_(POP_Series_6_6)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
   },
   "ex-emeraude": {
     "wikiPageSlug": "EX_Émeraude",
@@ -353,6 +759,30 @@
     "logoUrl": "https://www.pokepedia.fr/images/6/67/Logo_EX_Gardiens_du_Pouvoir_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/6/6d/Symbole_EX_Gardiens_du_Pouvoir_JCC.png"
   },
+  "ex-kit-dresseur": {
+    "wikiPageSlug": "EX_Kit_Dresseur",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/98/Symbole_EX_Kit_Dresseur_Latias_JCC.png"
+  },
+  "ex-kit-dresseur-2": {
+    "wikiPageSlug": "EX_Kit_Dresseur_2",
+    "symbolUrl": "https://www.pokepedia.fr/images/b/b7/Symbole_EX_Kit_Dresseur_2_Posipi_JCC.png"
+  },
+  "ex-kit-dresseur-2-negapi": {
+    "wikiPageSlug": "EX_Kit_Dresseur_2_Négapi",
+    "symbolUrl": "https://www.pokepedia.fr/images/b/b7/Symbole_EX_Kit_Dresseur_2_Posipi_JCC.png"
+  },
+  "ex-kit-dresseur-2-posipi": {
+    "wikiPageSlug": "EX_Kit_Dresseur_2_Posipi",
+    "symbolUrl": "https://www.pokepedia.fr/images/b/b7/Symbole_EX_Kit_Dresseur_2_Posipi_JCC.png"
+  },
+  "ex-kit-dresseur-latias": {
+    "wikiPageSlug": "EX_Kit_Dresseur_Latias",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/98/Symbole_EX_Kit_Dresseur_Latias_JCC.png"
+  },
+  "ex-kit-dresseur-latios": {
+    "wikiPageSlug": "EX_Kit_Dresseur_Latios",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/98/Symbole_EX_Kit_Dresseur_Latias_JCC.png"
+  },
   "ex-legendes-oubliees": {
     "wikiPageSlug": "EX_Légendes_Oubliées",
     "logoUrl": "https://www.pokepedia.fr/images/a/ac/Logo_EX_L%C3%A9gendes_Oubli%C3%A9es_JCC.png",
@@ -383,8 +813,44 @@
     "logoUrl": "https://www.pokepedia.fr/images/7/73/Logo_EX_Temp%C3%AAte_de_sable_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/2/20/Symbole_EX_Temp%C3%AAte_de_sable_JCC.png"
   },
+  "eau-jcc": {
+    "wikiPageSlug": "Eau_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
   "embrasement-ecarlate": {
     "wikiPageSlug": "Embrasement_Écarlate",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "embrylex-pop-serie-1-11": {
+    "wikiPageSlug": "Embrylex_(POP_Série_1_11)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "emolga-embrasement-ecarlate-027": {
+    "wikiPageSlug": "Emolga_(Embrasement_Écarlate_027)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "engloutyran-ex-embrasement-ecarlate-100": {
+    "wikiPageSlug": "Engloutyran-ex_(Embrasement_Écarlate_100)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "entei-pop-serie-2-1": {
+    "wikiPageSlug": "Entei_(POP_Série_2_1)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "eoko-pop-serie-4-1": {
+    "wikiPageSlug": "Eoko_δ_(POP_Série_4_1)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "espeon-pop-series-5-16": {
+    "wikiPageSlug": "Espeon_☆_(POP_Series_5_16)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "evoli-pop-serie-3-13": {
+    "wikiPageSlug": "Evoli_(POP_Série_3_13)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "exagide-embrasement-ecarlate-102": {
+    "wikiPageSlug": "Exagide_(Embrasement_Écarlate_102)",
     "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
   },
   "expedition": {
@@ -392,20 +858,182 @@
     "logoUrl": "https://www.pokepedia.fr/images/4/49/Logo_Expedition_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/a/aa/Symbole_Expedition_JCC.png"
   },
+  "extension": {
+    "wikiPageSlug": "Extension",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/e6/Symbole_EX_Cr%C3%A9ateurs_de_l%C3%A9gendes_JCC.png"
+  },
+  "extrait-de-croissance-embrasement-ecarlate-067": {
+    "wikiPageSlug": "Extrait_de_Croissance_(Embrasement_Écarlate_067)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "extrait-de-croissance-embrasement-ecarlate-103": {
+    "wikiPageSlug": "Extrait_de_Croissance_(Embrasement_Écarlate_103)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "fee-jcc": {
+    "wikiPageSlug": "Fée_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "faiblesse-jcc": {
+    "wikiPageSlug": "Faiblesse_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "fan-club-pokemon-pop-serie-4-9": {
+    "wikiPageSlug": "Fan_Club_Pokémon_(POP_Série_4_9)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "feu-jcc": {
+    "wikiPageSlug": "Feu_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "feuforeve-embrasement-ecarlate-030": {
+    "wikiPageSlug": "Feuforêve_(Embrasement_Écarlate_030)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "flaaffy-pop-series-7-7": {
+    "wikiPageSlug": "Flaaffy_(POP_Series_7_7)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "flingouste-embrasement-ecarlate-022": {
+    "wikiPageSlug": "Flingouste_(Embrasement_Écarlate_022)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "flobio-pop-serie-3-15": {
+    "wikiPageSlug": "Flobio_(POP_Série_3_15)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "florizarre-embrasement-ecarlate-003": {
+    "wikiPageSlug": "Florizarre_(Embrasement_Écarlate_003)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "florizarre-pop-serie-2-6": {
+    "wikiPageSlug": "Florizarre_(POP_Série_2_6)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "fluvetin-embrasement-ecarlate-035": {
+    "wikiPageSlug": "Fluvetin_(Embrasement_Écarlate_035)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "foretress-pop-serie-3-9": {
+    "wikiPageSlug": "Foretress_(POP_Série_3_9)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "format": {
+    "wikiPageSlug": "Format",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/58/Symbole_M%C3%A9ga-%C3%89volution_JCC.png"
+  },
+  "format-standard": {
+    "wikiPageSlug": "Format_Standard",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/58/Symbole_M%C3%A9ga-%C3%89volution_JCC.png"
+  },
   "fossile-jcc": {
     "wikiPageSlug": "Fossile_(JCC)",
     "logoUrl": "https://www.pokepedia.fr/images/1/1b/Logo_Fossile_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/e/e6/Symbole_Fossile_JCC.png"
+  },
+  "full-art": {
+    "wikiPageSlug": "Full_Art",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "generation-1": {
+    "wikiPageSlug": "Génération_1",
+    "logoUrl": "https://www.pokepedia.fr/images/5/54/Image_Set_de_Base_JCC.png",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "generation-2": {
+    "wikiPageSlug": "Génération_2",
+    "logoUrl": "https://www.pokepedia.fr/images/6/6d/Image_Neo_Destiny_JCC.png",
+    "symbolUrl": "https://www.pokepedia.fr/images/0/0f/Symbole_Neo_Genesis_JCC.png"
+  },
+  "generation-3": {
+    "wikiPageSlug": "Génération_3",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3d/Symbole_EX_Rubis_%26_Saphir_JCC.png"
+  },
+  "generation-4": {
+    "wikiPageSlug": "Génération_4",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/72/Symbole_Diamant_%26_Perle_JCC.png"
+  },
+  "generation-5": {
+    "wikiPageSlug": "Génération_5",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/e7/Symbole_Noir_%26_Blanc_JCC.png"
+  },
+  "generation-6": {
+    "wikiPageSlug": "Génération_6",
+    "symbolUrl": "https://www.pokepedia.fr/images/d/de/Symbole_XY_Bienvenue_%C3%A0_Kalos_JCC.png"
+  },
+  "generation-7": {
+    "wikiPageSlug": "Génération_7",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3d/Symbole_Soleil_et_Lune_JCC.png"
+  },
+  "generation-8": {
+    "wikiPageSlug": "Génération_8",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/45/Symbole_%C3%89p%C3%A9e_et_Bouclier_JCC.png"
+  },
+  "generation-9": {
+    "wikiPageSlug": "Génération_9",
+    "symbolUrl": "https://www.pokepedia.fr/images/d/d0/Symbole_%C3%89carlate_et_Violet_JCC.png"
   },
   "generations-jcc": {
     "wikiPageSlug": "Générations_(JCC)",
     "logoUrl": "https://www.pokepedia.fr/images/1/1b/Logo_G%C3%A9n%C3%A9rations_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/3/37/Symbole_G%C3%A9n%C3%A9rations_JCC.png"
   },
+  "gabite-pop-serie-9-8": {
+    "wikiPageSlug": "Gabite_(POP_Série_9_8)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "galifeu-pop-serie-3-7": {
+    "wikiPageSlug": "Galifeu_(POP_Série_3_7)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "galifeu-pop-serie-4-6": {
+    "wikiPageSlug": "Galifeu_(POP_Série_4_6)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "gallade-pop-series-7-2": {
+    "wikiPageSlug": "Gallade_(POP_Series_7_2)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "galvaran-embrasement-ecarlate-028": {
+    "wikiPageSlug": "Galvaran_(Embrasement_Écarlate_028)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "gamblast-embrasement-ecarlate-023": {
+    "wikiPageSlug": "Gamblast_(Embrasement_Écarlate_023)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "garchomp-pop-serie-9-1": {
+    "wikiPageSlug": "Garchomp_(POP_Série_9_1)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
   "gardiens-astraux": {
     "wikiPageSlug": "Gardiens_Astraux",
     "logoUrl": "https://www.pokepedia.fr/images/5/57/Logo_Gardiens_Astraux_JCCP.png",
     "symbolUrl": "https://www.pokepedia.fr/images/c/c3/Symbole_Gardiens_Astraux_JCCP.png"
+  },
+  "gible-pop-serie-9-14": {
+    "wikiPageSlug": "Gible_(POP_Série_9_14)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "gible-pop-series-6-7": {
+    "wikiPageSlug": "Gible_(POP_Series_6_7)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "glossaire-du-jeu-de-cartes-a-collectionner-pokemon": {
+    "wikiPageSlug": "Glossaire_du_jeu_de_cartes_à_collectionner_Pokémon",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "gobou-pop-serie-4-11": {
+    "wikiPageSlug": "Gobou_(POP_Série_4_11)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "grainipiot-ex-tempete-de-sable-76": {
+    "wikiPageSlug": "Grainipiot_(EX_Tempête_de_sable_76)",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/20/Symbole_EX_Temp%C3%AAte_de_sable_JCC.png"
+  },
+  "grainipiot-ex-tempete-de-sable-77": {
+    "wikiPageSlug": "Grainipiot_(EX_Tempête_de_sable_77)",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/20/Symbole_EX_Temp%C3%AAte_de_sable_JCC.png"
   },
   "gym-challenge": {
     "wikiPageSlug": "Gym_Challenge",
@@ -417,6 +1045,14 @@
     "logoUrl": "https://www.pokepedia.fr/images/3/31/Logo_Gym_Heroes_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/c/cf/Symbole_Gym_Heroes_JCC.png"
   },
+  "heliatronc-embrasement-ecarlate-008": {
+    "wikiPageSlug": "Héliatronc_(Embrasement_Écarlate_008)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "heliatronc-embrasement-ecarlate-071": {
+    "wikiPageSlug": "Héliatronc_(Embrasement_Écarlate_071)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
   "hs-dechainement": {
     "wikiPageSlug": "HS_Déchaînement",
     "logoUrl": "https://www.pokepedia.fr/images/9/9c/Logo_HS_D%C3%A9cha%C3%AEnement_JCC.png",
@@ -427,24 +1063,128 @@
     "logoUrl": "https://www.pokepedia.fr/images/5/5b/Logo_HS_Indomptable_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/5/5f/Symbole_HS_Indomptable_JCC.png"
   },
+  "hs-kit-du-dresseur": {
+    "wikiPageSlug": "HS_Kit_du_Dresseur",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/32/Symbole_HS_Kit_du_Dresseur_L%C3%A9viator_JCC.png"
+  },
+  "hs-kit-du-dresseur-leviator": {
+    "wikiPageSlug": "HS_Kit_du_Dresseur_Léviator",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/32/Symbole_HS_Kit_du_Dresseur_L%C3%A9viator_JCC.png"
+  },
+  "hs-kit-du-dresseur-raichu": {
+    "wikiPageSlug": "HS_Kit_du_Dresseur_Raichu",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/32/Symbole_HS_Kit_du_Dresseur_L%C3%A9viator_JCC.png"
+  },
   "hs-triomphe": {
     "wikiPageSlug": "HS_Triomphe",
     "logoUrl": "https://www.pokepedia.fr/images/1/1d/Logo_HS_Triomphe_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/6/6a/Symbole_HS_Triomphe_JCC.png"
+  },
+  "happiny-pop-series-8-14": {
+    "wikiPageSlug": "Happiny_(POP_Series_8_14)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
   },
   "heartgold-soulsilver-jcc": {
     "wikiPageSlug": "HeartGold_&_SoulSilver_(JCC)",
     "logoUrl": "https://www.pokepedia.fr/images/4/4b/Logo_HeartGold_%26_SoulSilver_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/2/28/Symbole_HeartGold_%26_SoulSilver_JCC.png"
   },
+  "heatran-pop-series-8-1": {
+    "wikiPageSlug": "Heatran_(POP_Series_8_1)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "heledelle-pop-serie-1-15": {
+    "wikiPageSlug": "Heledelle_(POP_Série_1_15)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "herbizarre-embrasement-ecarlate-002": {
+    "wikiPageSlug": "Herbizarre_(Embrasement_Écarlate_002)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "herbizarre-pop-serie-2-7": {
+    "wikiPageSlug": "Herbizarre_(POP_Série_2_7)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "herbizarre-pop-serie-3-14": {
+    "wikiPageSlug": "Herbizarre_(POP_Série_3_14)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "ho-oh-pop-series-5-1": {
+    "wikiPageSlug": "Ho-Oh_(POP_Series_5_1)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "ho-oh-ex-pop-serie-3-17": {
+    "wikiPageSlug": "Ho-Oh_ex_(POP_Série_3_17)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "huitieme-generation": {
+    "wikiPageSlug": "Huitième_génération",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/45/Symbole_%C3%89p%C3%A9e_et_Bouclier_JCC.png"
+  },
+  "iguolta-embrasement-ecarlate-029": {
+    "wikiPageSlug": "Iguolta_(Embrasement_Écarlate_029)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "incolore-jcc": {
+    "wikiPageSlug": "Incolore_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "jcc": {
+    "wikiPageSlug": "JCC",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "jcc-pokemon": {
+    "wikiPageSlug": "JCC_Pokémon",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
   "jcc-pokemon-online": {
     "wikiPageSlug": "JCC_Pokémon_Online",
     "logoUrl": "https://www.pokepedia.fr/images/8/81/Logo_JCC_Pok%C3%A9mon_Online.png"
+  },
+  "jcc-pokemon-pocket": {
+    "wikiPageSlug": "JCC_Pokémon_Pocket",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/ad/Symbole_Promo-A_JCCP.png"
+  },
+  "jeton-jcc": {
+    "wikiPageSlug": "Jeton_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "jeu-de-cartes-a-collectionner": {
+    "wikiPageSlug": "Jeu_de_Cartes_à_Collectionner",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "jeu-de-cartes-a-collectionner-pokemon": {
+    "wikiPageSlug": "Jeu_de_Cartes_à_Collectionner_Pokémon",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "jeu-de-cartes-a-collectionner-pokemon-pocket": {
+    "wikiPageSlug": "Jeu_de_Cartes_à_Collectionner_Pokémon_Pocket",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/ad/Symbole_Promo-A_JCCP.png"
+  },
+  "journaliste-tele-pop-serie-2-11": {
+    "wikiPageSlug": "Journaliste_télé_(POP_Série_2_11)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "jungko-pop-serie-1-4": {
+    "wikiPageSlug": "Jungko_(POP_Série_1_4)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "jungko-pop-serie-4-5": {
+    "wikiPageSlug": "Jungko_(POP_Série_4_5)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
   },
   "jungle-jcc": {
     "wikiPageSlug": "Jungle_(JCC)",
     "logoUrl": "https://www.pokepedia.fr/images/4/40/Logo_Jungle_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "kirlia-pop-series-7-8": {
+    "wikiPageSlug": "Kirlia_(POP_Series_7_8)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "kokiyas-embrasement-ecarlate-092": {
+    "wikiPageSlug": "Kokiyas_(Embrasement_Écarlate_092)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
   },
   "l-ile-fabuleuse": {
     "wikiPageSlug": "L'Île_Fabuleuse",
@@ -470,15 +1210,71 @@
     "logoUrl": "https://www.pokepedia.fr/images/2/29/Logo_La_Voie_du_Ma%C3%AEtre_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/4/49/Symbole_La_Voie_du_Ma%C3%AEtre_JCC.png"
   },
+  "laggron-pop-serie-1-5": {
+    "wikiPageSlug": "Laggron_(POP_Série_1_5)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "latias-pop-series-7-3": {
+    "wikiPageSlug": "Latias_(POP_Series_7_3)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "latios-pop-series-7-4": {
+    "wikiPageSlug": "Latios_(POP_Series_7_4)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
   "legendary-collection": {
     "wikiPageSlug": "Legendary_Collection",
     "logoUrl": "https://www.pokepedia.fr/images/f/f3/Logo_Legendary_Collection_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/d/d3/Symbole_Legendary_Collection_JCC.png"
   },
+  "lem-embrasement-ecarlate-068": {
+    "wikiPageSlug": "Lem_(Embrasement_Écarlate_068)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "lem-embrasement-ecarlate-081": {
+    "wikiPageSlug": "Lem_(Embrasement_Écarlate_081)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "libegon-pop-serie-4-3": {
+    "wikiPageSlug": "Libegon_(POP_Série_4_3)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "lockpin-pop-serie-9-9": {
+    "wikiPageSlug": "Lockpin_(POP_Série_9_9)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "lovdisc-pop-serie-2-14": {
+    "wikiPageSlug": "Lovdisc_(POP_Série_2_14)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "lucario-pop-series-6-2": {
+    "wikiPageSlug": "Lucario_(POP_Series_6_2)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "lucario-pop-series-8-2": {
+    "wikiPageSlug": "Lucario_(POP_Series_8_2)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "lugia-pop-series-5-2": {
+    "wikiPageSlug": "Lugia_(POP_Series_5_2)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
   "lumiere-triomphale": {
     "wikiPageSlug": "Lumière_Triomphale",
     "logoUrl": "https://www.pokepedia.fr/images/0/0d/Logo_Lumi%C3%A8re_Triomphale_JCCP.png",
     "symbolUrl": "https://www.pokepedia.fr/images/e/e7/Symbole_Lumi%C3%A8re_Triomphale_JCCP.png"
+  },
+  "lunala-ex-embrasement-ecarlate-099": {
+    "wikiPageSlug": "Lunala-ex_(Embrasement_Écarlate_099)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "luxio-pop-series-8-8": {
+    "wikiPageSlug": "Luxio_(POP_Series_8_8)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "luxray-pop-series-8-3": {
+    "wikiPageSlug": "Luxray_(POP_Series_8_3)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
   },
   "mega-evolution-energie-de-base": {
     "wikiPageSlug": "Méga-Évolution_Énergie_de_base",
@@ -503,10 +1299,230 @@
     "wikiPageSlug": "Méga-Ascension",
     "symbolUrl": "https://www.pokepedia.fr/images/d/df/Symbole_M%C3%A9ga-Ascension_JCCP.png"
   },
+  "mega-florizarre-ex-embrasement-ecarlate-004": {
+    "wikiPageSlug": "Méga-Florizarre-ex_(Embrasement_Écarlate_004)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mega-florizarre-ex-embrasement-ecarlate-076": {
+    "wikiPageSlug": "Méga-Florizarre-ex_(Embrasement_Écarlate_076)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mega-florizarre-ex-embrasement-ecarlate-083": {
+    "wikiPageSlug": "Méga-Florizarre-ex_(Embrasement_Écarlate_083)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mega-lockpin-ex-embrasement-ecarlate-042": {
+    "wikiPageSlug": "Méga-Lockpin-ex_(Embrasement_Écarlate_042)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mega-lockpin-ex-embrasement-ecarlate-079": {
+    "wikiPageSlug": "Méga-Lockpin-ex_(Embrasement_Écarlate_079)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mega-lockpin-ex-embrasement-ecarlate-085": {
+    "wikiPageSlug": "Méga-Lockpin-ex_(Embrasement_Écarlate_085)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mega-steelix-ex-embrasement-ecarlate-052": {
+    "wikiPageSlug": "Méga-Steelix-ex_(Embrasement_Écarlate_052)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mega-steelix-ex-embrasement-ecarlate-080": {
+    "wikiPageSlug": "Méga-Steelix-ex_(Embrasement_Écarlate_080)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mega-steelix-ex-embrasement-ecarlate-086": {
+    "wikiPageSlug": "Méga-Steelix-ex_(Embrasement_Écarlate_086)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mega-tortank-ex-embrasement-ecarlate-020": {
+    "wikiPageSlug": "Méga-Tortank-ex_(Embrasement_Écarlate_020)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mega-tortank-ex-embrasement-ecarlate-078": {
+    "wikiPageSlug": "Méga-Tortank-ex_(Embrasement_Écarlate_078)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mega-tortank-ex-embrasement-ecarlate-084": {
+    "wikiPageSlug": "Méga-Tortank-ex_(Embrasement_Écarlate_084)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "meios-embrasement-ecarlate-033": {
+    "wikiPageSlug": "Méios_(Embrasement_Écarlate_033)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "metal-jcc": {
+    "wikiPageSlug": "Métal_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "metamorph-embrasement-ecarlate-055": {
+    "wikiPageSlug": "Métamorph_(Embrasement_Écarlate_055)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "machine-multi-technique-01-pop-serie-2-9": {
+    "wikiPageSlug": "Machine_multi-technique_01_(POP_Série_2_9)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "magireve-embrasement-ecarlate-031": {
+    "wikiPageSlug": "Magirêve_(Embrasement_Écarlate_031)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "magneti-embrasement-ecarlate-024": {
+    "wikiPageSlug": "Magnéti_(Embrasement_Écarlate_024)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "magneton-embrasement-ecarlate-025": {
+    "wikiPageSlug": "Magnéton_(Embrasement_Écarlate_025)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "magnezone-embrasement-ecarlate-026": {
+    "wikiPageSlug": "Magnézone_(Embrasement_Écarlate_026)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "main": {
+    "wikiPageSlug": "Main",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
   "majeste-des-dragons": {
     "wikiPageSlug": "Majesté_des_Dragons",
     "logoUrl": "https://www.pokepedia.fr/images/1/1f/Logo_Majest%C3%A9_des_Dragons_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/6/6f/Symbole_Majest%C3%A9_des_Dragons_JCC.png"
+  },
+  "malosse-embrasement-ecarlate-015": {
+    "wikiPageSlug": "Malosse_(Embrasement_Écarlate_015)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "manaphy-pop-serie-9-2": {
+    "wikiPageSlug": "Manaphy_(POP_Série_9_2)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "manaphy-pop-series-6-3": {
+    "wikiPageSlug": "Manaphy_(POP_Series_6_3)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "mareep-pop-series-7-14": {
+    "wikiPageSlug": "Mareep_(POP_Series_7_14)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "marque-de-regulation": {
+    "wikiPageSlug": "Marque_de_régulation",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/6c/Symbole_Promo_japonais_JCC.png"
+  },
+  "marqueur": {
+    "wikiPageSlug": "Marqueur",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "maskadra-pop-serie-1-7": {
+    "wikiPageSlug": "Maskadra_(POP_Série_1_7)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "massko-pop-serie-4-7": {
+    "wikiPageSlug": "Massko_(POP_Série_4_7)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "meowth-pop-series-5-11": {
+    "wikiPageSlug": "Meowth_δ_(POP_Series_5_11)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "metalosse-pop-serie-1-2": {
+    "wikiPageSlug": "Metalosse_(POP_Série_1_2)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "metamorph-pop-serie-3-12": {
+    "wikiPageSlug": "Metamorph_(POP_Série_3_12)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "mew-pop-series-5-3": {
+    "wikiPageSlug": "Mew_δ_(POP_Series_5_3)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "mew-pop-serie-4-4": {
+    "wikiPageSlug": "Mew_(POP_Série_4_4)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "migalos-embrasement-ecarlate-006": {
+    "wikiPageSlug": "Migalos_(Embrasement_Écarlate_006)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "migalos-embrasement-ecarlate-070": {
+    "wikiPageSlug": "Migalos_(Embrasement_Écarlate_070)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mimigal-embrasement-ecarlate-005": {
+    "wikiPageSlug": "Mimigal_(Embrasement_Écarlate_005)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "modele-decks-jccl": {
+    "wikiPageSlug": "Modèle_Decks_JCCL",
+    "symbolUrl": "https://www.pokepedia.fr/images/b/b6/Symbole_%C3%89p%C3%A9e_et_Bouclier_Stars_%C3%89tincelantes_JCC.png"
+  },
+  "modele-extensions-jcc": {
+    "wikiPageSlug": "Modèle_Extensions_JCC",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "modele-extensions-jccp": {
+    "wikiPageSlug": "Modèle_Extensions_JCCP",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/ad/Symbole_Promo-A_JCCP.png"
+  },
+  "modele-extensions-japonaises-jcc": {
+    "wikiPageSlug": "Modèle_Extensions_japonaises_JCC",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "modele-ruban": {
+    "wikiPageSlug": "Modèle_Ruban",
+    "symbolUrl": "https://www.pokepedia.fr/images/0/03/Symbole_%C3%89carlate_et_Violet_Destin%C3%A9es_de_Paldea_JCC.png"
+  },
+  "modele-ruban-extension-jcc": {
+    "wikiPageSlug": "Modèle_Ruban_Extension_JCC",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "modele-symbole-extension": {
+    "wikiPageSlug": "Modèle_Symbole_extension",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/47/Symbole_M%C3%A9ga-%C3%89volution_Flammes_Fantasmagoriques_JCC.png"
+  },
+  "mon-premier-combat": {
+    "wikiPageSlug": "Mon_premier_combat",
+    "symbolUrl": "https://www.pokepedia.fr/images/8/87/Symbole_Mon_premier_combat_Bulbizarre_JCC.png"
+  },
+  "mon-premier-combat-bulbizarre": {
+    "wikiPageSlug": "Mon_premier_combat_Bulbizarre",
+    "symbolUrl": "https://www.pokepedia.fr/images/8/87/Symbole_Mon_premier_combat_Bulbizarre_JCC.png"
+  },
+  "mon-premier-combat-carapuce": {
+    "wikiPageSlug": "Mon_premier_combat_Carapuce",
+    "symbolUrl": "https://www.pokepedia.fr/images/8/87/Symbole_Mon_premier_combat_Bulbizarre_JCC.png"
+  },
+  "mon-premier-combat-pikachu": {
+    "wikiPageSlug": "Mon_premier_combat_Pikachu",
+    "symbolUrl": "https://www.pokepedia.fr/images/8/87/Symbole_Mon_premier_combat_Bulbizarre_JCC.png"
+  },
+  "mon-premier-combat-salameche": {
+    "wikiPageSlug": "Mon_premier_combat_Salamèche",
+    "symbolUrl": "https://www.pokepedia.fr/images/8/87/Symbole_Mon_premier_combat_Bulbizarre_JCC.png"
+  },
+  "mothim-pop-series-7-5": {
+    "wikiPageSlug": "Mothim_(POP_Series_7_5)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "motisma-pop-serie-9-5": {
+    "wikiPageSlug": "Motisma_(POP_Série_9_5)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "mouscoto-ex-embrasement-ecarlate-098": {
+    "wikiPageSlug": "Mouscoto-ex_(Embrasement_Écarlate_098)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "mystherbe-embrasement-ecarlate-088": {
+    "wikiPageSlug": "Mystherbe_(Embrasement_Écarlate_088)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "negapi-pop-serie-1-12": {
+    "wikiPageSlug": "Negapi_(POP_Série_1_12)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "negapi-pop-serie-3-4": {
+    "wikiPageSlug": "Negapi_(POP_Série_3_4)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
   },
   "neo-destiny": {
     "wikiPageSlug": "Neo_Destiny",
@@ -527,6 +1543,14 @@
     "wikiPageSlug": "Neo_Revelation",
     "logoUrl": "https://www.pokepedia.fr/images/1/17/Logo_Neo_Revelation_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/1/12/Symbole_Neo_Revelation_JCC.png"
+  },
+  "neuvieme-generation": {
+    "wikiPageSlug": "Neuvième_génération",
+    "symbolUrl": "https://www.pokepedia.fr/images/d/d0/Symbole_%C3%89carlate_et_Violet_JCC.png"
+  },
+  "night-maintenance-pop-series-8-9": {
+    "wikiPageSlug": "Night_Maintenance_(POP_Series_8_9)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
   },
   "noir-blanc-jcc": {
     "wikiPageSlug": "Noir_&_Blanc_(JCC)",
@@ -563,6 +1587,18 @@
     "logoUrl": "https://www.pokepedia.fr/images/5/51/Logo_Noir_%26_Blanc_Glaciation_Plasma_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/1/18/Symbole_Noir_%26_Blanc_Glaciation_Plasma_JCC.png"
   },
+  "noir-blanc-kit-du-dresseur": {
+    "wikiPageSlug": "Noir_&_Blanc_Kit_du_Dresseur",
+    "symbolUrl": "https://www.pokepedia.fr/images/0/02/Symbole_Noir_%26_Blanc_Kit_du_Dresseur_Minotaupe_JCC.png"
+  },
+  "noir-blanc-kit-du-dresseur-minotaupe": {
+    "wikiPageSlug": "Noir_&_Blanc_Kit_du_Dresseur_Minotaupe",
+    "symbolUrl": "https://www.pokepedia.fr/images/0/02/Symbole_Noir_%26_Blanc_Kit_du_Dresseur_Minotaupe_JCC.png"
+  },
+  "noir-blanc-kit-du-dresseur-zoroark": {
+    "wikiPageSlug": "Noir_&_Blanc_Kit_du_Dresseur_Zoroark",
+    "symbolUrl": "https://www.pokepedia.fr/images/0/02/Symbole_Noir_%26_Blanc_Kit_du_Dresseur_Minotaupe_JCC.png"
+  },
   "noir-blanc-nobles-victoires": {
     "wikiPageSlug": "Noir_&_Blanc_Nobles_Victoires",
     "logoUrl": "https://www.pokepedia.fr/images/2/27/Logo_Noir_%26_Blanc_Nobles_Victoires_JCC.png",
@@ -582,6 +1618,30 @@
     "wikiPageSlug": "Noir_&_Blanc_Trésors_Légendaires",
     "logoUrl": "https://www.pokepedia.fr/images/a/ad/Logo_Noir_%26_Blanc_Tr%C3%A9sors_L%C3%A9gendaires_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/a/a1/Symbole_Noir_%26_Blanc_Tr%C3%A9sors_L%C3%A9gendaires_JCC.png"
+  },
+  "nucleos-embrasement-ecarlate-032": {
+    "wikiPageSlug": "Nucléos_(Embrasement_Écarlate_032)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "objet-jcc": {
+    "wikiPageSlug": "Objet_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "obscurite-jcc": {
+    "wikiPageSlug": "Obscurité_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "ortide-embrasement-ecarlate-089": {
+    "wikiPageSlug": "Ortide_(Embrasement_Écarlate_089)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "ouisticram-pop-serie-9-13": {
+    "wikiPageSlug": "Ouisticram_(POP_Série_9_13)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "p25-la-musique-jcc": {
+    "wikiPageSlug": "P25___la_musique_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/c/cb/Symbole_P25_-_la_musique_JCC.png"
   },
   "pop-serie-1": {
     "wikiPageSlug": "POP_Série_1",
@@ -619,6 +1679,86 @@
     "wikiPageSlug": "POP_Series_8",
     "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
   },
+  "pachirisu-pop-serie-9-10": {
+    "wikiPageSlug": "Pachirisu_(POP_Série_9_10)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "pachirisu-pop-series-6-4": {
+    "wikiPageSlug": "Pachirisu_(POP_Series_6_4)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "papilord-embrasement-ecarlate-010": {
+    "wikiPageSlug": "Papilord_(Embrasement_Écarlate_010)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "parc-pokemon-pop-serie-2-10": {
+    "wikiPageSlug": "Parc_Pokémon_(POP_Série_2_10)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "pelipper-pop-series-5-14": {
+    "wikiPageSlug": "Pelipper_δ_(POP_Series_5_14)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "phanpy-pop-serie-2-15": {
+    "wikiPageSlug": "Phanpy_(POP_Série_2_15)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "piece-jcc": {
+    "wikiPageSlug": "Pièce_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pichu-pop-serie-9-11": {
+    "wikiPageSlug": "Pichu_(POP_Série_9_11)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "pifeuil-ex-tempete-de-sable-48": {
+    "wikiPageSlug": "Pifeuil_(EX_Tempête_de_sable_48)",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/20/Symbole_EX_Temp%C3%AAte_de_sable_JCC.png"
+  },
+  "pifeuil-ex-tempete-de-sable-49": {
+    "wikiPageSlug": "Pifeuil_(EX_Tempête_de_sable_49)",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/20/Symbole_EX_Temp%C3%AAte_de_sable_JCC.png"
+  },
+  "pikachu-pop-series-5-13": {
+    "wikiPageSlug": "Pikachu_δ_(POP_Series_5_13)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "pikachu-pop-serie-2-16": {
+    "wikiPageSlug": "Pikachu_(POP_Série_2_16)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "pikachu-pop-serie-4-13": {
+    "wikiPageSlug": "Pikachu_(POP_Série_4_13)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "pikachu-pop-serie-9-15": {
+    "wikiPageSlug": "Pikachu_(POP_Série_9_15)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "pikachu-pop-series-5-12": {
+    "wikiPageSlug": "Pikachu_(POP_Series_5_12)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "pikachu-pop-series-6-9": {
+    "wikiPageSlug": "Pikachu_(POP_Series_6_9)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "pile-de-defausse": {
+    "wikiPageSlug": "Pile_de_défausse",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "piplup-pop-series-6-15": {
+    "wikiPageSlug": "Piplup_(POP_Series_6_15)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "piplup-pop-series-8-15": {
+    "wikiPageSlug": "Piplup_(POP_Series_8_15)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "plante-jcc": {
+    "wikiPageSlug": "Plante_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
   "platine-jcc": {
     "wikiPageSlug": "Platine_(JCC)",
     "logoUrl": "https://www.pokepedia.fr/images/4/40/Logo_Platine_JCC.png",
@@ -639,17 +1779,197 @@
     "logoUrl": "https://www.pokepedia.fr/images/f/fb/Logo_Platinum_Arceus_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/9/95/Symbole_Platinum_Arceus_JCC.png"
   },
+  "poke-body": {
+    "wikiPageSlug": "Poké-Body",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "poke-power": {
+    "wikiPageSlug": "Poké-Power",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "poke-card-creator-pack": {
+    "wikiPageSlug": "Poké_Card_Creator_Pack",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/56/Symbole_Pok%C3%A9_Card_Creator_Pack_JCC.png"
+  },
+  "pokemon-ex-mega-evolution": {
+    "wikiPageSlug": "Pokémon-EX_Méga-Évolution",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-gx": {
+    "wikiPageSlug": "Pokémon-GX",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-v-union": {
+    "wikiPageSlug": "Pokémon-V-UNION",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-v": {
+    "wikiPageSlug": "Pokémon-V",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-vmax": {
+    "wikiPageSlug": "Pokémon-VMAX",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-vstar": {
+    "wikiPageSlug": "Pokémon-VSTAR",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-ex": {
+    "wikiPageSlug": "Pokémon-ex",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-ex-teracristal": {
+    "wikiPageSlug": "Pokémon-ex_Téracristal",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon": {
+    "wikiPageSlug": "Pokémon_δ",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-4": {
+    "wikiPageSlug": "Pokémon_4",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-c": {
+    "wikiPageSlug": "Pokémon_C",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-cristal-jcc": {
+    "wikiPageSlug": "Pokémon_Cristal_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-defenseur": {
+    "wikiPageSlug": "Pokémon_Défenseur",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-escouade": {
+    "wikiPageSlug": "Pokémon_ESCOUADE",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-fb": {
+    "wikiPageSlug": "Pokémon_FB",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
   "pokemon-futsal-jcc": {
     "wikiPageSlug": "Pokémon_Futsal_(JCC)",
-    "logoUrl": "https://www.pokepedia.fr/images/b/ba/Logo_Pok%C3%A9mon_Futsal_JCC.png"
+    "logoUrl": "https://www.pokepedia.fr/images/b/ba/Logo_Pok%C3%A9mon_Futsal_JCC.png",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/97/Symbole_Pok%C3%A9mon_Futsal_JCC.png"
+  },
+  "pokemon-g": {
+    "wikiPageSlug": "Pokémon_G",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-gl": {
+    "wikiPageSlug": "Pokémon_GL",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
   },
   "pokemon-go-jcc": {
     "wikiPageSlug": "Pokémon_GO_(JCC)",
-    "logoUrl": "https://www.pokepedia.fr/images/8/82/Logo_Pok%C3%A9mon_GO_JCC.png"
+    "logoUrl": "https://www.pokepedia.fr/images/8/82/Logo_Pok%C3%A9mon_GO_JCC.png",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/36/Symbole_Pok%C3%A9mon_GO_JCC.png"
+  },
+  "pokemon-legende": {
+    "wikiPageSlug": "Pokémon_LÉGENDE",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-m": {
+    "wikiPageSlug": "Pokémon_M",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-magnifique": {
+    "wikiPageSlug": "Pokémon_Magnifique",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-prime": {
+    "wikiPageSlug": "Pokémon_Prime",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-radieux": {
+    "wikiPageSlug": "Pokémon_Radieux",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-recree": {
+    "wikiPageSlug": "Pokémon_Recréé",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
   },
   "pokemon-rumble-jcc": {
     "wikiPageSlug": "Pokémon_Rumble_(JCC)",
-    "logoUrl": "https://www.pokepedia.fr/images/c/cf/Logo_Pok%C3%A9mon_Rumble_JCC.png"
+    "logoUrl": "https://www.pokepedia.fr/images/c/cf/Logo_Pok%C3%A9mon_Rumble_JCC.png",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/30/Symbole_Pok%C3%A9mon_Rumble_JCC.png"
+  },
+  "pokemon-sp": {
+    "wikiPageSlug": "Pokémon_SP",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-star": {
+    "wikiPageSlug": "Pokémon_Star",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-teracristal-jcc": {
+    "wikiPageSlug": "Pokémon_Téracristal_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-turbo": {
+    "wikiPageSlug": "Pokémon_TURBO",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a8/Symbole_XY_Impulsion_TURBO_JCC.png"
+  },
+  "pokemon-trading-card-game-classic": {
+    "wikiPageSlug": "Pokémon_Trading_Card_Game_Classic",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/71/Symbole_Pok%C3%A9mon_Trading_Card_Game_Classic_Venusaur_%26_Lugia_ex_Deck_JCC.png"
+  },
+  "pokemon-trading-card-game-classic-blastoise-suicune-ex-deck": {
+    "wikiPageSlug": "Pokémon_Trading_Card_Game_Classic_Blastoise_&_Suicune_ex_Deck",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/71/Symbole_Pok%C3%A9mon_Trading_Card_Game_Classic_Venusaur_%26_Lugia_ex_Deck_JCC.png"
+  },
+  "pokemon-trading-card-game-classic-charizard-ho-oh-ex-deck": {
+    "wikiPageSlug": "Pokémon_Trading_Card_Game_Classic_Charizard_&_Ho-Oh_ex_Deck",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/71/Symbole_Pok%C3%A9mon_Trading_Card_Game_Classic_Venusaur_%26_Lugia_ex_Deck_JCC.png"
+  },
+  "pokemon-trading-card-game-classic-venusaur-lugia-ex-deck": {
+    "wikiPageSlug": "Pokémon_Trading_Card_Game_Classic_Venusaur_&_Lugia_ex_Deck",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/71/Symbole_Pok%C3%A9mon_Trading_Card_Game_Classic_Venusaur_%26_Lugia_ex_Deck_JCC.png"
+  },
+  "pokemon-brillant": {
+    "wikiPageSlug": "Pokémon_brillant",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-de-dresseur": {
+    "wikiPageSlug": "Pokémon_de_Dresseur",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-lumineux": {
+    "wikiPageSlug": "Pokémon_lumineux",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-obscur-jcc": {
+    "wikiPageSlug": "Pokémon_obscur_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "pokemon-special-du-jcc": {
+    "wikiPageSlug": "Pokémon_spécial_du_JCC",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "posipi-pop-serie-1-13": {
+    "wikiPageSlug": "Posipi_(POP_Série_1_13)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "posipi-pop-serie-3-5": {
+    "wikiPageSlug": "Posipi_(POP_Série_3_5)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "pouvoir-pokemon": {
+    "wikiPageSlug": "Pouvoir_Pokémon",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "premiere-generation": {
+    "wikiPageSlug": "Première_génération",
+    "logoUrl": "https://www.pokepedia.fr/images/5/54/Image_Set_de_Base_JCC.png",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "probopass-pop-series-8-4": {
+    "wikiPageSlug": "Probopass_(POP_Series_8_4)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
   },
   "promo-a": {
     "wikiPageSlug": "Promo-A",
@@ -660,6 +1980,10 @@
     "wikiPageSlug": "Promo-B",
     "logoUrl": "https://www.pokepedia.fr/images/a/a2/Logo_Promo-B_JCCP.png",
     "symbolUrl": "https://www.pokepedia.fr/images/2/21/Symbole_Promo-B_JCCP.png"
+  },
+  "promo-etoile-rouge": {
+    "wikiPageSlug": "Promo_Étoile_Rouge",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/4b/Symbole_Promo_%C3%89toile_Rouge_JCC.png"
   },
   "promo-bw": {
     "wikiPageSlug": "Promo_BW",
@@ -693,6 +2017,10 @@
     "wikiPageSlug": "Promo_SWSH",
     "symbolUrl": "https://www.pokepedia.fr/images/2/2a/Symbole_Promo_JCC.png"
   },
+  "promo-tpci": {
+    "wikiPageSlug": "Promo_TPCi",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/2a/Symbole_Promo_JCC.png"
+  },
   "promo-wizards": {
     "wikiPageSlug": "Promo_Wizards",
     "symbolUrl": "https://www.pokepedia.fr/images/6/6a/Symbole_Promo_Wizards_JCC.png"
@@ -701,22 +2029,219 @@
     "wikiPageSlug": "Promo_XY",
     "symbolUrl": "https://www.pokepedia.fr/images/2/2a/Symbole_Promo_JCC.png"
   },
+  "psy-jcc": {
+    "wikiPageSlug": "Psy_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
   "puissance-genetique": {
     "wikiPageSlug": "Puissance_Génétique",
     "logoUrl": "https://www.pokepedia.fr/images/4/44/Logo_Puissance_G%C3%A9n%C3%A9tique_JCCP.png",
     "symbolUrl": "https://www.pokepedia.fr/images/b/ba/Symbole_Puissance_G%C3%A9n%C3%A9tique_JCCP.png"
   },
+  "pyroli-pop-serie-3-2": {
+    "wikiPageSlug": "Pyroli_(POP_Série_3_2)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "quatrieme-generation": {
+    "wikiPageSlug": "Quatrième_génération",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/72/Symbole_Diamant_%26_Perle_JCC.png"
+  },
+  "qulbutoke-pop-serie-4-16": {
+    "wikiPageSlug": "Qulbutoké_(POP_Série_4_16)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "regles-du-jeu-de-cartes-a-jouer-pokemon": {
+    "wikiPageSlug": "Règles_du_jeu_de_cartes_à_jouer_Pokémon",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "region": {
+    "wikiPageSlug": "Région",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/4d/Symbole_Southern_Islands_JCC.png"
+  },
   "rejouissances-rayonnantes": {
     "wikiPageSlug": "Réjouissances_Rayonnantes",
     "symbolUrl": "https://www.pokepedia.fr/images/4/4f/Symbole_R%C3%A9jouissances_Rayonnantes_JCCP.png"
+  },
+  "resistance-jcc": {
+    "wikiPageSlug": "Résistance_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "rafflesia-embrasement-ecarlate-090": {
+    "wikiPageSlug": "Rafflesia_(Embrasement_Écarlate_090)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "raichu-pop-serie-9-3": {
+    "wikiPageSlug": "Raichu_(POP_Série_9_3)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "raichu-obscur-team-rocket-83": {
+    "wikiPageSlug": "Raichu_obscur_(Team_Rocket_83)",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/29/Symbole_Team_Rocket_JCC.png"
+  },
+  "raikou-pop-serie-2-3": {
+    "wikiPageSlug": "Raikou_(POP_Série_2_3)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "ralts-pop-series-7-15": {
+    "wikiPageSlug": "Ralts_(POP_Series_7_15)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "rampardos-pop-series-6-5": {
+    "wikiPageSlug": "Rampardos_(POP_Series_6_5)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "rare-candy-pop-series-5-7": {
+    "wikiPageSlug": "Rare_Candy_(POP_Series_5_7)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "rare-candy-pop-series-8-10": {
+    "wikiPageSlug": "Rare_Candy_(POP_Series_8_10)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "rarete": {
+    "wikiPageSlug": "Rareté",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/2a/Symbole_Promo_JCC.png"
+  },
+  "rayquaza-pop-serie-1-3": {
+    "wikiPageSlug": "Rayquaza_(POP_Série_1_3)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "regigigas-pop-serie-9-4": {
+    "wikiPageSlug": "Regigigas_(POP_Série_9_4)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "reptincel-embrasement-ecarlate-012": {
+    "wikiPageSlug": "Reptincel_(Embrasement_Écarlate_012)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "retraite": {
+    "wikiPageSlug": "Retraite",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "riolu-pop-series-6-8": {
+    "wikiPageSlug": "Riolu_(POP_Series_6_8)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "riolu-pop-series-8-16": {
+    "wikiPageSlug": "Riolu_(POP_Series_8_16)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "roseanne-s-research-pop-series-8-11": {
+    "wikiPageSlug": "Roseanne's_Research_(POP_Series_8_11)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "roucarnage-pop-serie-2-2": {
+    "wikiPageSlug": "Roucarnage_(POP_Série_2_2)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "roucool-pop-serie-4-12": {
+    "wikiPageSlug": "Roucool_(POP_Série_4_12)",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/10/Symbole_POP_S%C3%A9rie_4_JCC.png"
+  },
+  "serie-ecarlate-et-violet": {
+    "wikiPageSlug": "Série_Écarlate_et_Violet",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-epee-et-bouclier": {
+    "wikiPageSlug": "Série_Épée_et_Bouclier",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-jcc": {
+    "wikiPageSlug": "Série_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-b": {
+    "wikiPageSlug": "Série_B",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-diamant-perle": {
+    "wikiPageSlug": "Série_Diamant_&_Perle",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-ex": {
+    "wikiPageSlug": "Série_EX",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-heartgold-soulsilver": {
+    "wikiPageSlug": "Série_HeartGold_&_SoulSilver",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-mega-evolution": {
+    "wikiPageSlug": "Série_Méga-Évolution",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-noir-blanc": {
+    "wikiPageSlug": "Série_Noir_&_Blanc",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-platine": {
+    "wikiPageSlug": "Série_Platine",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-soleil-et-lune": {
+    "wikiPageSlug": "Série_Soleil_et_Lune",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-wizards": {
+    "wikiPageSlug": "Série_Wizards",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "serie-xy": {
+    "wikiPageSlug": "Série_XY",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "sabelette-embrasement-ecarlate-094": {
+    "wikiPageSlug": "Sabelette_(Embrasement_Écarlate_094)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "sablaireau-embrasement-ecarlate-095": {
+    "wikiPageSlug": "Sablaireau_(Embrasement_Écarlate_095)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "sac-de-lem-embrasement-ecarlate-066": {
+    "wikiPageSlug": "Sac_de_Lem_(Embrasement_Écarlate_066)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
   },
   "sagesse-entre-ciel-et-mer": {
     "wikiPageSlug": "Sagesse_entre_Ciel_et_Mer",
     "symbolUrl": "https://www.pokepedia.fr/images/1/1c/Symbole_Sagesse_entre_Ciel_et_Mer_JCCP.png"
   },
+  "salameche-embrasement-ecarlate-011": {
+    "wikiPageSlug": "Salamèche_(Embrasement_Écarlate_011)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "sample-set": {
+    "wikiPageSlug": "Sample_Set",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/71/Symbole_Sample_Set_JCC.png"
+  },
+  "sentret-pop-series-7-16": {
+    "wikiPageSlug": "Sentret_(POP_Series_7_16)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "septieme-generation": {
+    "wikiPageSlug": "Septième_génération",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3d/Symbole_Soleil_et_Lune_JCC.png"
+  },
+  "serena-embrasement-ecarlate-069": {
+    "wikiPageSlug": "Serena_(Embrasement_Écarlate_069)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "serena-embrasement-ecarlate-082": {
+    "wikiPageSlug": "Serena_(Embrasement_Écarlate_082)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
   "set-de-base": {
     "wikiPageSlug": "Set_de_Base",
-    "logoUrl": "https://www.pokepedia.fr/images/5/54/Image_Set_de_Base_JCC.png"
+    "logoUrl": "https://www.pokepedia.fr/images/5/54/Image_Set_de_Base_JCC.png",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
+  "silvallie-embrasement-ecarlate-097": {
+    "wikiPageSlug": "Silvallié_(Embrasement_Écarlate_097)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "sixieme-generation": {
+    "wikiPageSlug": "Sixième_génération",
+    "symbolUrl": "https://www.pokepedia.fr/images/d/de/Symbole_XY_Bienvenue_%C3%A0_Kalos_JCC.png"
   },
   "skyridge": {
     "wikiPageSlug": "Skyridge",
@@ -758,6 +2283,22 @@
     "logoUrl": "https://www.pokepedia.fr/images/6/66/Logo_Soleil_et_Lune_Invasion_Carmin_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/6/64/Symbole_Soleil_et_Lune_Invasion_Carmin_JCC.png"
   },
+  "soleil-et-lune-kit-du-dresseur-lougaroc": {
+    "wikiPageSlug": "Soleil_et_Lune_Kit_du_Dresseur_Lougaroc",
+    "symbolUrl": "https://www.pokepedia.fr/images/0/03/Symbole_Soleil_et_Lune_Kit_du_Dresseur_Lougaroc_JCC.png"
+  },
+  "soleil-et-lune-kit-du-dresseur-raichu-d-alola": {
+    "wikiPageSlug": "Soleil_et_Lune_Kit_du_Dresseur_Raichu_d'Alola",
+    "symbolUrl": "https://www.pokepedia.fr/images/0/03/Symbole_Soleil_et_Lune_Kit_du_Dresseur_Lougaroc_JCC.png"
+  },
+  "soleil-et-lune-kit-du-dresseur-lougaroc-et-raichu-d-alola": {
+    "wikiPageSlug": "Soleil_et_Lune_Kit_du_Dresseur__Lougaroc_et_Raichu_d'Alola",
+    "symbolUrl": "https://www.pokepedia.fr/images/0/03/Symbole_Soleil_et_Lune_Kit_du_Dresseur_Lougaroc_JCC.png"
+  },
+  "soleil-et-lune-kit-du-dresseur-sablaireau-d-alola-et-feunard-d-alola": {
+    "wikiPageSlug": "Soleil_et_Lune_Kit_du_Dresseur__Sablaireau_d'Alola_et_Feunard_d'Alola",
+    "symbolUrl": "https://www.pokepedia.fr/images/9/93/Symbole_Jungle_JCC.png"
+  },
   "soleil-et-lune-lumiere-interdite": {
     "wikiPageSlug": "Soleil_et_Lune_Lumière_Interdite",
     "logoUrl": "https://www.pokepedia.fr/images/5/52/Logo_Soleil_et_Lune_Lumi%C3%A8re_Interdite_JCC.png",
@@ -783,6 +2324,10 @@
     "logoUrl": "https://www.pokepedia.fr/images/b/b4/Logo_Soleil_et_Lune_Ultra-Prisme_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/f/f2/Symbole_Soleil_et_Lune_Ultra-Prisme_JCC.png"
   },
+  "solgaleo-ex-embrasement-ecarlate-101": {
+    "wikiPageSlug": "Solgaleo-ex_(Embrasement_Écarlate_101)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
   "source-secrete": {
     "wikiPageSlug": "Source_Secrète",
     "logoUrl": "https://www.pokepedia.fr/images/0/07/Logo_Source_Secr%C3%A8te_JCCP.png",
@@ -790,12 +2335,141 @@
   },
   "southern-islands": {
     "wikiPageSlug": "Southern_Islands",
-    "logoUrl": "https://www.pokepedia.fr/images/2/21/Logo_Southern_Islands_JCC.png"
+    "logoUrl": "https://www.pokepedia.fr/images/2/21/Logo_Southern_Islands_JCC.png",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/4d/Symbole_Southern_Islands_JCC.png"
+  },
+  "special-randomrootpage": {
+    "wikiPageSlug": "Spécial_RandomRootpage",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/69/Symbole_%C3%89p%C3%A9e_et_Bouclier_Clash_des_Rebelles_JCC.png"
+  },
+  "spinda-pop-series-7-17": {
+    "wikiPageSlug": "Spinda_(POP_Series_7_17)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "stantler-pop-series-7-9": {
+    "wikiPageSlug": "Stantler_(POP_Series_7_9)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
+  },
+  "staravia-pop-series-6-10": {
+    "wikiPageSlug": "Staravia_(POP_Series_6_10)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "starly-pop-series-6-16": {
+    "wikiPageSlug": "Starly_(POP_Series_6_16)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "style-de-combat-jcc": {
+    "wikiPageSlug": "Style_de_Combat_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "suicune-pop-serie-2-4": {
+    "wikiPageSlug": "Suicune_(POP_Série_2_4)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
+  },
+  "symbios-embrasement-ecarlate-034": {
+    "wikiPageSlug": "Symbios_(Embrasement_Écarlate_034)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "symbios-embrasement-ecarlate-072": {
+    "wikiPageSlug": "Symbios_(Embrasement_Écarlate_072)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "systeme-a-basse-pression-pop-serie-3-11": {
+    "wikiPageSlug": "Système_à_basse_pression_(POP_Série_3_11)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "systeme-a-haute-pression-pop-serie-3-10": {
+    "wikiPageSlug": "Système_à_haute_pression_(POP_Série_3_10)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "talent-jcc": {
+    "wikiPageSlug": "Talent_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "tauros-pop-serie-2-5": {
+    "wikiPageSlug": "Tauros_(POP_Série_2_5)",
+    "symbolUrl": "https://www.pokepedia.fr/images/e/ee/Symbole_POP_S%C3%A9rie_2_JCC.png"
   },
   "team-rocket-jcc": {
     "wikiPageSlug": "Team_Rocket_(JCC)",
     "logoUrl": "https://www.pokepedia.fr/images/c/c6/Logo_Team_Rocket_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/2/29/Symbole_Team_Rocket_JCC.png"
+  },
+  "temps-jcc": {
+    "wikiPageSlug": "Temps_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "tengalice-ex-tempete-de-sable-12": {
+    "wikiPageSlug": "Tengalice_(EX_Tempête_de_sable_12)",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/20/Symbole_EX_Temp%C3%AAte_de_sable_JCC.png"
+  },
+  "tengalice-ex-tempete-de-sable-22": {
+    "wikiPageSlug": "Tengalice_(EX_Tempête_de_sable_22)",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/20/Symbole_EX_Temp%C3%AAte_de_sable_JCC.png"
+  },
+  "tiplouf-pop-serie-9-16": {
+    "wikiPageSlug": "Tiplouf_(POP_Série_9_16)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "tortank-embrasement-ecarlate-019": {
+    "wikiPageSlug": "Tortank_(Embrasement_Écarlate_019)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "tortank-pop-serie-3-1": {
+    "wikiPageSlug": "Tortank_(POP_Série_3_1)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "tournegrin-embrasement-ecarlate-007": {
+    "wikiPageSlug": "Tournegrin_(Embrasement_Écarlate_007)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "trait-antique": {
+    "wikiPageSlug": "Trait_Antique",
+    "symbolUrl": "https://www.pokepedia.fr/images/0/0a/Symbole_XY_Primo-Choc_JCC.png"
+  },
+  "troisieme-generation": {
+    "wikiPageSlug": "Troisième_génération",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3d/Symbole_EX_Rubis_%26_Saphir_JCC.png"
+  },
+  "turtwig-pop-serie-9-17": {
+    "wikiPageSlug": "Turtwig_(POP_Série_9_17)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a5/Symbole_POP_S%C3%A9rie_9_JCC.png"
+  },
+  "turtwig-pop-series-6-17": {
+    "wikiPageSlug": "Turtwig_(POP_Series_6_17)",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a3/Symbole_POP_Series_6_JCC.png"
+  },
+  "turtwig-pop-series-8-17": {
+    "wikiPageSlug": "Turtwig_(POP_Series_8_17)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "type-jcc": {
+    "wikiPageSlug": "Type_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "type-0-embrasement-ecarlate-096": {
+    "wikiPageSlug": "Type_0_(Embrasement_Écarlate_096)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/46/Symbole_Embrasement_%C3%89carlate_JCCP.png"
+  },
+  "tyranocif-ex-pop-serie-1-17": {
+    "wikiPageSlug": "Tyranocif_ex_(POP_Série_1_17)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
+  "ultra-chimere-jcc": {
+    "wikiPageSlug": "Ultra-Chimère_(JCC)",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "umbreon-pop-series-5-17": {
+    "wikiPageSlug": "Umbreon_☆_(POP_Series_5_17)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "voltali-pop-serie-3-3": {
+    "wikiPageSlug": "Voltali_(POP_Série_3_3)",
+    "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_POP_S%C3%A9rie_3_JCC.png"
+  },
+  "wormadam-sandy-cloak-pop-series-7-10": {
+    "wikiPageSlug": "Wormadam_Sandy_Cloak_(POP_Series_7_10)",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/54/Symbole_POP_Series_7_JCC.png"
   },
   "xy-etincelles": {
     "wikiPageSlug": "XY_Étincelles",
@@ -832,6 +2506,54 @@
     "logoUrl": "https://www.pokepedia.fr/images/e/e8/Logo_XY_Impulsion_TURBO_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/a/a8/Symbole_XY_Impulsion_TURBO_JCC.png"
   },
+  "xy-kit-du-dresseur": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/57/Symbole_XY_Kit_du_Dresseur_Nymphali_JCC.png"
+  },
+  "xy-kit-du-dresseur-bruyverne": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur_Bruyverne",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/57/Symbole_XY_Kit_du_Dresseur_Nymphali_JCC.png"
+  },
+  "xy-kit-du-dresseur-grodoudou": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur_Grodoudou",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/6e/Symbole_XY_Kit_du_Dresseur_Scalproie_JCC.png"
+  },
+  "xy-kit-du-dresseur-latias": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur_Latias",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/2d/Symbole_XY_Kit_du_Dresseur_Latias_JCC.png"
+  },
+  "xy-kit-du-dresseur-latios": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur_Latios",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/2d/Symbole_XY_Kit_du_Dresseur_Latias_JCC.png"
+  },
+  "xy-kit-du-dresseur-nymphali": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur_Nymphali",
+    "symbolUrl": "https://www.pokepedia.fr/images/5/57/Symbole_XY_Kit_du_Dresseur_Nymphali_JCC.png"
+  },
+  "xy-kit-du-dresseur-pikachu-catcheur": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur_Pikachu_Catcheur",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/1c/Symbole_XY_Kit_du_Dresseur_Pikachu_Catcheur_JCC.png"
+  },
+  "xy-kit-du-dresseur-scalproie": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur_Scalproie",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/6e/Symbole_XY_Kit_du_Dresseur_Scalproie_JCC.png"
+  },
+  "xy-kit-du-dresseur-suicune": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur_Suicune",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/1c/Symbole_XY_Kit_du_Dresseur_Pikachu_Catcheur_JCC.png"
+  },
+  "xy-kit-du-dresseur-latias-latios": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur__Latias_&_Latios",
+    "symbolUrl": "https://www.pokepedia.fr/images/2/2d/Symbole_XY_Kit_du_Dresseur_Latias_JCC.png"
+  },
+  "xy-kit-du-dresseur-pikachu-catcheur-et-suicune": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur__Pikachu_Catcheur_et_Suicune",
+    "symbolUrl": "https://www.pokepedia.fr/images/1/1c/Symbole_XY_Kit_du_Dresseur_Pikachu_Catcheur_JCC.png"
+  },
+  "xy-kit-du-dresseur-scalproie-et-grodoudou": {
+    "wikiPageSlug": "XY_Kit_du_Dresseur__Scalproie_et_Grodoudou",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/6e/Symbole_XY_Kit_du_Dresseur_Scalproie_JCC.png"
+  },
   "xy-offensive-vapeur": {
     "wikiPageSlug": "XY_Offensive_Vapeur",
     "logoUrl": "https://www.pokepedia.fr/images/f/f1/Logo_XY_Offensive_Vapeur_JCC.png",
@@ -862,9 +2584,30 @@
     "logoUrl": "https://www.pokepedia.fr/images/0/0d/Logo_XY_Vigueur_Spectrale_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/7/7e/Symbole_XY_Vigueur_Spectrale_JCC.png"
   },
+  "yanmega-pop-series-8-5": {
+    "wikiPageSlug": "Yanmega_(POP_Series_8_5)",
+    "symbolUrl": "https://www.pokepedia.fr/images/4/48/Symbole_POP_Series_8_JCC.png"
+  },
+  "ymphect-pop-serie-1-9": {
+    "wikiPageSlug": "Ymphect_(POP_Série_1_9)",
+    "symbolUrl": "https://www.pokepedia.fr/images/3/3f/Symbole_POP_S%C3%A9rie_1_JCC.png"
+  },
   "zenith-supreme": {
     "wikiPageSlug": "Zénith_Suprême",
     "logoUrl": "https://www.pokepedia.fr/images/5/5e/Logo_Z%C3%A9nith_Supr%C3%AAme_JCC.png",
     "symbolUrl": "https://www.pokepedia.fr/images/4/4c/Symbole_Z%C3%A9nith_Supr%C3%AAme_JCC.png"
+  },
+  "zangoose-pop-series-5-15": {
+    "wikiPageSlug": "Zangoose_δ_(POP_Series_5_15)",
+    "symbolUrl": "https://www.pokepedia.fr/images/f/f7/Symbole_POP_Series_5_JCC.png"
+  },
+  "zone-perdue": {
+    "wikiPageSlug": "Zone_Perdue",
+    "symbolUrl": "https://www.pokepedia.fr/images/6/68/Symbole_Carte_Alternative_JCC.png"
+  },
+  "me03": {
+    "wikiPageSlug": "Méga-Évolution_Équilibre_Parfait",
+    "logoUrl": "https://www.pokepedia.fr/images/c/c6/Logo_M%C3%A9ga-%C3%89volution_%C3%89quilibre_Parfait_JCC.png",
+    "symbolUrl": "https://www.pokepedia.fr/images/a/a4/Symbole_M%C3%A9ga-%C3%89volution_%C3%89quilibre_Parfait_JCC.png"
   }
 }

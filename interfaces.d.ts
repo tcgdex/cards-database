@@ -152,6 +152,14 @@ export interface Set {
 	id: string
 	name: Languages
 	/**
+	 * Optional remote set logo URL used when the app has no bundled local asset.
+	 */
+	logo?: string
+	/**
+	 * Optional remote set symbol URL used when the app has no bundled local asset.
+	 */
+	symbol?: string
+	/**
 	 * Partial list of abbreviations, this is currently a Work in Progress feature
 	 */
 	abbreviations?: Partial<Omit<Languages, 'en'> & { official?: string }>

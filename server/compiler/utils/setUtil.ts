@@ -84,11 +84,11 @@ export async function getSetPictures(set: Set, lang: SupportedLanguages): Promis
 		const logoExists = file[lang]?.[set.serie.id]?.[set.id]?.logo ? `https://assets.tcgdex.net/${lang}/${set.serie.id}/${set.id}/logo` : undefined
 		const symbolExists = file.univ?.[set.serie.id]?.[set.id]?.symbol ? `https://assets.tcgdex.net/univ/${set.serie.id}/${set.id}/symbol` : undefined
 		return [
-			logoExists,
-			symbolExists
+			logoExists ?? set.logo,
+			symbolExists ?? set.symbol
 		]
 	} catch {
-		return [undefined, undefined]
+		return [set.logo, set.symbol]
 	}
 }
 
