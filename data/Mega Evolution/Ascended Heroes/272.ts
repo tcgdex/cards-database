@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Mega Meganium-ex",
 		pt: "Mega Meganium ex"
 	},
+	evolveFrom: {
+		en: "Bayleef",
+		de: "Lorblatt",
+		es: "Bayleef",
+		'es-mx': "Bayleef",
+		fr: "Macronium",
+		it: "Bayleef",
+		pt: "Bayleef",
+	},
 
 	illustrator: "Tika Matsuno",
 	rarity: "Special illustration rare",
