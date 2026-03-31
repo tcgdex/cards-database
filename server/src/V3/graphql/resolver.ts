@@ -7,6 +7,10 @@ import { mapCardMarketPricing, mapTcgplayerPricing } from "./mappers/pricing";
 import { findSeries } from "../components/Serie";
 import { findSets } from "../components/Set";
 
+// TODO: once api is the source of truth for supported languages, remove this and use the one from the api instead
+const SUPPORTED_LANGUAGES = ['en', 'fr', 'es', 'it', 'pt', 'de', 'nl', 'pl', 'ru', 'zh-tw', 'zh-cn', 'ja', 'ko']
+
+
 // TODO: make a better way to find the language
 function getLang(e: any): SupportedLanguages {
 	// get the locale directive
@@ -21,6 +25,20 @@ function getLang(e: any): SupportedLanguages {
 	}
 	return langArgument.value
 }
+
+// function getLang(info: GraphQLResolveInfo): SupportedLanguages {
+// 	const directives = info.fieldNodes[0]?.directives ?? []
+// 	const localeDirective = directives.find(d => d.name.value === 'locale')
+// 	const langArg = localeDirective?.arguments?.find(a => a.name.value === 'lang')
+//
+// 	if (!langArg) return 'en'
+//
+// 	if (langArg.value.kind === 'Variable') {
+// 		return info.variableValues[langArg.value.name.value] as SupportedLanguages
+// 	}
+//
+// 	return (langArg.value as StringValueNode).value as SupportedLanguages
+// }
 
 const middleware = (fn: (lang: SupportedLanguages, query: Query) => any) => (
 	_parent: any,
@@ -78,6 +96,22 @@ export default {
 		pricing: (parent: any) => {
 			return parent.pricing;
 		},
+		locales: async (parent: any, args: { langs?: SupportedLanguages[] }) => {
+			const langs = args.langs ?? SUPPORTED_LANGUAGES
+			const query = recordToQuery(parent)
+
+			return Promise.all(
+				langs 
+					.filter(checkLanguage)
+					.map(async (lang: SupportedLanguages) => {
+						const [card] = await findCards(lang, query)
+						return {
+							lang,
+							...card
+						}
+					})
+			)
+		}
 	},
 
 	Set: {

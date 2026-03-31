@@ -133,6 +133,65 @@ input CardsFilters {
 }
 
 """
+Define locale used for multiple languages support
+"""
+type CardLocaleData {
+	lang: String!
+
+	"""The pokémon abilities"""
+	abilities: [AbilitiesListItem]
+
+	"""The pokémon attacks"""
+	attacks: [AttacksListItem]
+
+	"""The card category ('Pokemon' | 'Trainer' | 'Energy')"""
+	category: String!
+
+	"""The card description (mostly the Poédex description)"""
+	description: String
+
+	"""the energy/trainer effect"""
+	effect: String
+
+	"""the energy type ('Normal' | 'Special')"""
+	energyType: String
+
+	"""the previous evolution of the current pokémon"""
+	evolveFrom: String
+
+	"""The card's image if available (see the docs for more details)"""
+	image: String
+
+	"""the Card's name"""
+	name: String!
+
+	"""
+	the card's rarity
+
+	see: https://api.tcgdex.net/v2/en/rarities for the full list
+	"""
+	rarity: String!
+
+	"The card's set"
+	set: Set!
+
+	"""the card suffix"""
+	suffix: String
+
+	"""the trainer type"""
+	trainerType: String
+
+	"""The pokémon type(s) (trivia: Even the TCG implemented at some point multiple types for a single card)"""
+	types: [String]
+
+	"""Detailed card variants, including type, size, and stamps"""
+	variants_detailed: [DetailedVariants]
+
+	"""The pokémon weaknesses"""
+	weaknesses: [WeakResListItem]
+}
+
+"""
 Define what is a card for GraphQL
 """
 type Card {
@@ -233,6 +292,9 @@ type Card {
 	pricing: Pricing
 	# Currently not in any cards
 	# weight: String!
+
+	"""Locale specific data for the card, e.g., abilities, attacks, description, etc. in a specific language"""
+	locales(langs: [String!]): [CardLocaleData]
 }
 
 type Pricing {
