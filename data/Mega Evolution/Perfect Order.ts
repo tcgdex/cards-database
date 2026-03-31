@@ -5,8 +5,12 @@ const set: Set = {
 	id: "me03",
 
 	name: {
+		de: "Optimale Ordnung",
 		en: "Perfect Order",
-		fr: "Équilibre Parfait"
+		es: "Equilibrio Perfecto",
+		fr: "Équilibre Parfait",
+		it: "Equilibrio Perfetto",
+		pt: "Equilíbrio Perfeito"
 	},
 
 	serie: serie,
@@ -22,7 +26,8 @@ const set: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 6443
+		cardmarket: 6443,
+		tcgplayer: 24587
 	}
 }
 

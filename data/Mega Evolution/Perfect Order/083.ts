@@ -3,18 +3,37 @@ import Set from '../Perfect Order'
 
 const card: Card = {
 	name: {
+		en: "Potion",
 		fr: "Potion",
+		es: "Poción",
+		de: "Trank",
+		it: "Pozione",
+		pt: "Poção"
 	},
 	set: Set,
 	rarity: "Common",
 	category: "Trainer",
+	trainerType: "Item",
 	regulationMark: "J",
 	illustrator: "Ayaka Yoshida",
 	effect: {
+		en: "Heal 30 damage from 1 of your Pokémon.",
 		fr: "Soignez 30 dégâts de l'un de vos Pokémon.",
+		es: "Cura 30 puntos de daño a uno de tus Pokémon.",
+		de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon.",
+		it: "Cura uno dei tuoi Pokémon da 30 danni.",
+		pt: "Cure 30 pontos de dano de 1 dos seus Pokémon."
 	},
-
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 	thirdParty: {
+		tcgplayer: 684320,
 		cardmarket: 877500
 	}
 }

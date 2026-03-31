@@ -3,37 +3,66 @@ import Set from '../Perfect Order'
 
 const card: Card = {
 	name: {
+		en: "Hawlucha",
 		fr: "Brutalibré",
+		es: "Hawlucha",
+		de: "Resladero",
+		it: "Hawlucha",
+		pt: "Hawlucha"
 	},
 	set: Set,
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [
+		701
+	],
 	hp: 70,
+	types: [
+		"Fighting"
+	],
 	stage: "Basic",
 	attacks: [
 		{
 			cost: [
-				"Fighting",
+				"Fighting"
 			],
 			name: {
+				en: "Vengeful Kick",
 				fr: "Coup de Pied Vengeur",
+				es: "Patada Vengativa",
+				de: "Rachekick",
+				it: "Calcio Vendicativo",
+				pt: "Chute Vingativo"
 			},
 			damage: "30+",
 			effect: {
+				en: "If your Benched Pokémon have any damage counters on them, this attack does 60 more damage.",
 				fr: "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 60 dégâts supplémentaires.",
-			},
-		},
+				es: "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 60 puntos de daño más.",
+				de: "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+				it: "Se i Pokémon nella tua panchina hanno dei segnalini danno, questo attacco infligge 60 danni in più.",
+				pt: "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 60 pontos de dano a mais."
+			}
+		}
 	],
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2",
-		},
+			value: "×2"
+		}
 	],
 	regulationMark: "J",
 	illustrator: "osare",
-
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 	thirdParty: {
+		tcgplayer: 684428,
 		cardmarket: 877460
 	}
 }

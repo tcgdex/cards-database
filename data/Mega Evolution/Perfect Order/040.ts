@@ -3,55 +3,95 @@ import Set from '../Perfect Order'
 
 const card: Card = {
 	name: {
+		en: "Hippowdon",
 		fr: "Hippodocus",
+		es: "Hippowdon",
+		de: "Hippoterus",
+		it: "Hippowdon",
+		pt: "Hippowdon"
 	},
 	set: Set,
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [
+		450
+	],
 	hp: 150,
+	types: [
+		"Fighting"
+	],
 	stage: "Stage1",
 	evolveFrom: {
+		en: "Hippopotas",
 		fr: "Hippopotas",
+		es: "Hippopotas",
+		"es-mx": "Hippopotas",
+		de: "Hippopotas",
+		it: "Hippopotas",
+		pt: "Hippopotas"
 	},
 	attacks: [
 		{
 			cost: [
 				"Fighting",
 				"Fighting",
-				"Colorless",
+				"Colorless"
 			],
 			name: {
+				en: "Twister Spewing",
 				fr: "Projection de Tornades",
+				es: "Tornado Regurgitante",
+				de: "Wirbelspeier",
+				it: "Espellivortice",
+				pt: "Lança Tornado"
 			},
 			damage: "80",
 			effect: {
+				en: "If you played Tarragon from your hand during this turn, discard the top 3 cards of your opponent's deck.",
 				fr: "Si vous avez joué Taragon de votre main pendant ce tour, défaussez les 3 cartes du dessus du deck de votre adversaire.",
-			},
+				es: "Si has jugado Estragón de tu mano durante este turno, descarta las 3 primeras cartas de la baraja de tu rival.",
+				de: "Wenn du Tarragon während dieses Zuges aus deiner Hand gespielt hast, lege die obersten 3 Karten des Decks deines Gegners auf seinen Ablagestapel.",
+				it: "Se hai giocato Tarragon dalla tua mano durante questo turno, scarta le prime tre carte del mazzo del tuo avversario.",
+				pt: "Se você jogou Tarragon da sua mão durante este turno, descarte as 3 cartas de cima do baralho do seu oponente."
+			}
 		},
 		{
 			cost: [
 				"Fighting",
 				"Fighting",
 				"Colorless",
-				"Colorless",
+				"Colorless"
 			],
 			name: {
+				en: "Heavy Impact",
 				fr: "Gros Impact",
+				es: "Impacto Pesado",
+				de: "Schwerer Einschlag",
+				it: "Impatto Pesante",
+				pt: "Impacto Pesado"
 			},
-			damage: "130",
-		},
+			damage: "130"
+		}
 	],
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2",
-		},
+			value: "×2"
+		}
 	],
 	retreat: 4,
 	regulationMark: "J",
 	illustrator: "Souichirou Gunjima",
-
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 	thirdParty: {
+		tcgplayer: 684426,
 		cardmarket: 877454
 	}
 }

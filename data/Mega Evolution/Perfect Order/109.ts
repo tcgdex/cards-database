@@ -3,18 +3,34 @@ import Set from '../Perfect Order'
 
 const card: Card = {
 	name: {
+		en: "Forest of Vitality",
 		fr: "Forêt de Vitalité",
+		es: "Bosque Vitalidad",
+		de: "Wald der Vitalität",
+		it: "Bosco della Vitalità",
+		pt: "Floresta da Vitalidade"
 	},
 	set: Set,
 	rarity: "Ultra Rare",
 	category: "Trainer",
+	trainerType: "Stadium",
 	regulationMark: "I",
 	illustrator: "AYUMI ODASHIMA",
 	effect: {
-		fr: "Les Pokémon Plante de chaque personne peuvent évoluer en Pokémon Plante pendant le tour où elle les joue, sauf pendant son premier tour.",
+		en: "Each player's [G] Pokémon can evolve into [G] Pokémon during the turn they play those Pokémon, except during their first turn.",
+		fr: "Les Pokémon [G] de chaque personne peuvent évoluer en Pokémon [G] pendant le tour où elle les joue, sauf pendant son premier tour.",
+		es: "Los Pokémon [G] de cada jugador pueden evolucionar a Pokémon [G] durante el turno en que cada jugador los ponga en juego, excepto durante su primer turno.",
+		de: "Die [G]-Pokémon jedes Spielers können sich während des Zuges, in dem der Spieler jene Pokémon spielt, zu [G]-Pokémon entwickeln, außer während seines ersten Zuges.",
+		it: "I Pokémon [G] di ciascun giocatore possono evolversi in Pokémon [G] durante il turno in cui quei Pokémon vengono giocati, a eccezione del primo turno di ciascun giocatore.",
+		pt: "Os Pokémon [G] de cada jogador poderão evoluir para Pokémon [G] durante o turno em que eles jogaram aqueles Pokémon, exceto durante os primeiros turnos deles."
 	},
-
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 	thirdParty: {
+		tcgplayer: 684328,
 		cardmarket: 877526
 	}
 }
