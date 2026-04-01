@@ -17,10 +17,10 @@ const set: Set = {
 	serie: serie,
 
 	cardCount: {
-		official: 217
+		official: 88
 	},
 
-	releaseDate: "2026-01-30",
+	releaseDate: "2026-03-27",
 
 	abbreviations: {
 		official: "POR",
