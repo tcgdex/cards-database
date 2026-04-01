@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Mega Sharpedo-ex",
 		pt: "Mega Sharpedo ex"
 	},
+	evolveFrom: {
+		en: "Carvanha",
+		de: "Kanivanha",
+		es: "Carvanha",
+		fr: "Carvanha",
+		it: "Carvanha",
+		pt: "Carvanha",
+	},
 
 	rarity: "Double rare",
 	category: "Pokemon",

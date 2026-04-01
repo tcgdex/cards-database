@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Mega Scrafty-ex",
 		pt: "Mega Scrafty ex"
 	},
+	evolveFrom: {
+		en: "Scraggy",
+		de: "Zurrokex",
+		es: "Scraggy",
+		'es-mx': "Scraggy",
+		fr: "Baggiguane",
+		it: "Scraggy",
+		pt: "Scraggy",
+	},
 
 	illustrator: "Taiga Kasai",
 	rarity: "Ultra Rare",
