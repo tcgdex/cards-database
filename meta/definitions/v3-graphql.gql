@@ -463,6 +463,22 @@ type Booster {
 #      Set       #
 ##################
 
+type SetLocaleData {
+	lang: String!
+
+	"""The set's name"""
+	name: String!
+
+	"""The set's official release date"""
+	releaseDate: String
+
+	"""The set's logo if available"""
+	logo: String
+
+	"""The set's symbol if available"""
+	symbol: String
+}
+
 """
 Describe a single set
 """
@@ -500,6 +516,9 @@ type Set {
 	A set may have multiple booster pack designs, often themed around different Pokémon
 	"""
 	boosters: [Booster]
+
+	"""Locale specific data for the set, e.g., name, release date, logo, etc. in a specific language"""
+	locales(langs: [String!]): [SetLocaleData]
 }
 
 """

@@ -5,7 +5,7 @@ import { checkLanguage } from '../../util'
 import { findCards, getCardById } from "../components/Card";
 import { mapCardMarketPricing, mapTcgplayerPricing } from "./mappers/pricing";
 import { findSeries } from "../components/Serie";
-import { findSets } from "../components/Set";
+import { findSets, getSetById } from "../components/Set";
 
 // TODO: once api is the source of truth for supported languages, remove this and use the one from the api instead
 const SUPPORTED_LANGUAGES = ['en', 'fr', 'es', 'it', 'pt', 'de', 'nl', 'pl', 'ru', 'zh-tw', 'zh-cn', 'ja', 'ko']
@@ -108,7 +108,6 @@ export default {
 					})
 			).then(results => results.filter(Boolean))
 		}
-
 	},
 
 	Set: {
@@ -123,6 +122,18 @@ export default {
 		serie: (parent: any) => {
 			if (!parent.serie) return null;
 			return { ...parent.serie, _fromSet: true };
+		},
+
+		locales: async (parent: any, args: { langs?: SupportedLanguages[] }) => {
+			const langs = args.langs ?? SUPPORTED_LANGUAGES;
+			return Promise.all(
+				langs.filter(checkLanguage)
+					.map(async (lang: SupportedLanguages) => {
+						const set = await getSetById(lang, parent.id);
+						if (!set) return null;
+						return { lang, ...set};
+					})
+			)
 		}
 	},
 
