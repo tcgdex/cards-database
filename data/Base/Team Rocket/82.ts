@@ -15,7 +15,8 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "Falls du diese Karte von deiner Hand spielst, entferne eine Schadensmarke von dem Pokémon, unter das du sie legst, falls es welche hat. Trank-Energy spendet -Energie. (Zählt nicht als eine Basis-Energiekarte.)"
+		de: "Falls du diese Karte von deiner Hand spielst, entferne eine Schadensmarke von dem Pokémon, unter das du sie legst, falls es welche hat. Trank-Energy spendet -Energie. (Zählt nicht als eine Basis-Energiekarte.)",
+		fr: "Si vous jouez cette carte depuis votre main, retirez 1 marqueur de dégâts du Pokémon auquel vous l'attachez, s'il en possède. Énergie potion fournit 1 énergie Incolore. (Ne compte pour une carte Énergie de base.)",
 	},
 
 	thirdParty: {

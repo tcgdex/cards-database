@@ -82,6 +82,10 @@ const card: Card = {
 		{
 			type: 'holo'
 		},
+		{
+			type: 'holo',
+			size: 'jumbo'
+		}
 	]
 }
 

@@ -3,6 +3,7 @@ import serie from '../S'
 
 const set: Set = {
 	id: 'S7R',
+
 	name: {
 		ja: '蒼空ストリーム',
 		ko: '창공의스트림',
@@ -16,11 +17,16 @@ const set: Set = {
 	cardCount: {
 		official: 67
 	},
+
 	releaseDate: {
 		ja: '2021-07-09',
 		'zh-tw': '2021-07-23',
 		th: '2021-08-27',
 		id: '2021-11-05'
+	},
+
+	thirdParty: {
+		cardmarket: 4330
 	}
 }
 

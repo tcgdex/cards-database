@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Mismagius-ex",
 		pt: "Mismagius ex"
 	},
+	evolveFrom: {
+		en: "Misdreavus",
+		de: "Traunfugil",
+		es: "Misdreavus",
+		fr: "Feuforêve",
+		it: "Misdreavus",
+		pt: "Misdreavus",
+	},
 
 	rarity: "Double rare",
 	category: "Pokemon",

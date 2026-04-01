@@ -60,9 +60,17 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "AKIRA EGAWA",
 

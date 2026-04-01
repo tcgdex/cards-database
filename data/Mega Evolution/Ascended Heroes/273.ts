@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Mega Emboar-ex",
 		pt: "Mega Emboar ex"
 	},
+	evolveFrom: {
+		en: "Pignite",
+		de: "Ferkokel",
+		es: "Pignite",
+		'es-mx': "Pignite",
+		fr: "Grotichon",
+		it: "Pignite",
+		pt: "Pignite",
+	},
 
 	illustrator: "nagimiso",
 	rarity: "Special illustration rare",

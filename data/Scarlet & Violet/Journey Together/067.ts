@@ -80,11 +80,20 @@ const card: Card = {
 
 	variants: [
 		{
+			type: 'holo'
+		},
+		{
 			type: 'reverse'
 		},
 		{
-			type: 'holo'
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['player-rewards-program']
 		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program']
+		}
 	]
 }
 

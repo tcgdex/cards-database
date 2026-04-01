@@ -15,7 +15,8 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "Damage done to the Pokémon Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). If the Pokémon metal Energy is attached to isn´t , whenever it damages a Pokémon, reduce that damage by 10 (before applying Weakness and Resistance). Metal Energy provides  Energy. (Doesn´t count as a basic Energy card.)"
+		de: "Damage done to the Pokémon Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). If the Pokémon metal Energy is attached to isn´t , whenever it damages a Pokémon, reduce that damage by 10 (before applying Weakness and Resistance). Metal Energy provides  Energy. (Doesn´t count as a basic Energy card.)",
+		fr: "Les dégâts infligés au Pokémon sur lequel Énergie Métal est attachée sont réduits de 10 (avant application de la Faiblesse et de la Résistance). Si le Pokémon sur lequel Énergie Métal est attachée n'est pas Métal, à chaque fois qu'il inflige des dégâts à un Pokémon, réduisez ces dégâts de 10 (avant application de la Faiblesse et de la Résistance).",
 	},
 
 	thirdParty: {

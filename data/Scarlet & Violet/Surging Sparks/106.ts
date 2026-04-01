@@ -75,11 +75,11 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "5ban Graphics",
 

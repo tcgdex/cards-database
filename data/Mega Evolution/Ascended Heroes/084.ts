@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Azumarill-ex",
 		pt: "Azumarill ex"
 	},
+	evolveFrom: {
+		en: "Marill",
+		de: "Marill",
+		es: "Marill",
+		fr: "Marill",
+		it: "Marill",
+		pt: "Marill",
+	},
 
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
