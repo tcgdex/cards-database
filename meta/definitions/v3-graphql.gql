@@ -570,6 +570,17 @@ type CardCount {
 #     Serie      #
 ##################
 
+type SerieLocaleData {
+	lang: String!
+
+	"""The serie's name"""
+	name: String!
+
+	"""The serie's logo if available"""
+	logo: String
+}
+
+
 """
 A Pokémon TCG serie
 """
@@ -584,6 +595,9 @@ type Serie {
 	name: String!
 	"""the list of sets that are part of the serie"""
 	sets: [Set]
+
+	"""Locale specific data for the serie, e.g., name, logo, etc. in a specific language"""
+	locales(langs: [String!]): [SerieLocaleData]
 }
 
 """

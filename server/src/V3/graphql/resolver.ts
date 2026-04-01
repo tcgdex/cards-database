@@ -4,7 +4,7 @@ import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { checkLanguage } from '../../util'
 import { findCards, getCardById } from "../components/Card";
 import { mapCardMarketPricing, mapTcgplayerPricing } from "./mappers/pricing";
-import { findSeries } from "../components/Serie";
+import { findSeries, getSerieById } from "../components/Serie";
 import { findSets, getSetById } from "../components/Set";
 
 // TODO: once api is the source of truth for supported languages, remove this and use the one from the api instead
@@ -145,6 +145,18 @@ export default {
 			}
 			return parent.sets
 		},
+
+		locales: async (parent: any, args: { langs?: SupportedLanguages[] }) => {
+			const langs = args.langs ?? SUPPORTED_LANGUAGES;
+			return Promise.all(
+				langs.filter(checkLanguage)
+					.map(async (lang: SupportedLanguages) => {
+						const serie = await getSerieById(lang, parent.id);
+						if (!serie) return null;
+						return { lang, ...serie};
+					})
+			)
+		}
 	},
 
 	Pricing: {
