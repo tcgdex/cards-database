@@ -48,7 +48,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "J"
+	regulationMark: "J",
+
+	thirdParty: {
+		tcgplayer: 684416,
+		cardmarket: 877446
+	}
 }
 
 export default card

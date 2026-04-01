@@ -29,7 +29,12 @@ const card: Card = {
 	},
 
 	trainerType: "Stadium",
-	regulationMark: "I"
+	regulationMark: "I",
+
+	thirdParty: {
+		tcgplayer: 684328,
+		cardmarket: 877526
+	}
 }
 
 export default card

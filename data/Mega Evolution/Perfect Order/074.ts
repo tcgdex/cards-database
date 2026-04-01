@@ -29,7 +29,11 @@ const card: Card = {
 	},
 
 	trainerType: "Item",
-	regulationMark: "I"
+	regulationMark: "I",
+
+	thirdParty: {
+		tcgplayer: 684330
+	}
 }
 
 export default card

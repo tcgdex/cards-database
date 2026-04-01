@@ -28,7 +28,11 @@ const card: Card = {
 	},
 
 	energyType: "Normal",
-	regulationMark: "J"
+	regulationMark: "J",
+
+	thirdParty: {
+		tcgplayer: 684350
+	}
 }
 
 export default card

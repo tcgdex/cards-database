@@ -27,10 +27,10 @@ const set: Set = {
 		fr: "ORP"
 	},
 
-	// thirdParty: {
-	// 	cardmarket: 6395,
-	// 	tcgplayer: 24541
-	// }
+	thirdParty: {
+		cardmarket: 6443,
+		tcgplayer: 24587
+	}
 }
 
 export default set
