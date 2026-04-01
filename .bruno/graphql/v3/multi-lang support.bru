@@ -12,9 +12,10 @@ post {
 
 body:graphql {
   query {
-    cards(filters: {}) {
+    cards(filters: { id: "eq:base1-1" }) {
       id
       locales(langs: ["en", "fr", "de"]) {
+        lang
         name
         attacks {
           name

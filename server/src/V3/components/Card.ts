@@ -137,6 +137,11 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<Card | nu
 	return res
 }
 
+export async function getCardById(lang: SupportedLanguages, id: string): Promise<Card | null> {
+	return loadCard(lang, id)
+}
+
+
 export async function findCards(lang: SupportedLanguages, query: Query<Card>) {
 	return executeQuery(await getAllCards(lang), query).data
 }

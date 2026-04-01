@@ -2,7 +2,7 @@ import type { SupportedLanguages } from '@tcgdex/sdk'
 import { type Query, Sort } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { checkLanguage } from '../../util'
-import { findCards } from "../components/Card";
+import { findCards, getCardById } from "../components/Card";
 import { mapCardMarketPricing, mapTcgplayerPricing } from "./mappers/pricing";
 import { findSeries } from "../components/Serie";
 import { findSets } from "../components/Set";
@@ -74,16 +74,19 @@ const middleware = (fn: (lang: SupportedLanguages, query: Query) => any) => (
 export default {
 	// Query Endpoints
 	Query: {
-		cards: middleware((lang, query) => {
-			return findCards(lang, query);
+		cards: middleware(async (lang, query) => {
+			const result = await findCards(lang, query)
+			return result.map(card => ({ ...card, _query: query }))
 		}),
 
-		sets: middleware((lang, query) => {
-			return findSets(lang, query);
+		sets: middleware(async (lang, query) => {
+			const result = await findSets(lang, query)
+			return result.map(set => ({ ...set, _query: query }))
 		}),
 
-		series: middleware((lang, query) => {
-			return findSeries(lang, query);
+		series: middleware(async (lang, query) => {
+			const result = await findSeries(lang, query)
+			return result.map(series => ({ ...series, _query: query }))
 		})
 	},
 
@@ -97,21 +100,18 @@ export default {
 			return parent.pricing;
 		},
 		locales: async (parent: any, args: { langs?: SupportedLanguages[] }) => {
-			const langs = args.langs ?? SUPPORTED_LANGUAGES
-			const query = recordToQuery(parent)
+			const langs = args.langs ?? SUPPORTED_LANGUAGES;
 
 			return Promise.all(
-				langs 
-					.filter(checkLanguage)
+				langs.filter(checkLanguage)
 					.map(async (lang: SupportedLanguages) => {
-						const [card] = await findCards(lang, query)
-						return {
-							lang,
-							...card
-						}
+						const card = await getCardById(lang, parent.id);
+						if (!card) return null;
+						return { lang, ...card }
 					})
-			)
+			).then(results => results.filter(Boolean))
 		}
+
 	},
 
 	Set: {
@@ -129,7 +129,7 @@ export default {
 		}
 	},
 
-	Serie : {
+	Serie: {
 		sets: (parent: any) => {
 			// Omit sets if this is loaded from a set to prevent circular loading
 			if (parent._fromSet) {
@@ -139,7 +139,7 @@ export default {
 		},
 	},
 
-	Pricing:{
+	Pricing: {
 		tcgplayer: (parent: any) => mapTcgplayerPricing(parent.tcgplayer),
 		cardmarket: (parent: any) => mapCardMarketPricing(parent.cardmarket),
 	}
