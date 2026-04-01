@@ -74,19 +74,16 @@ const middleware = (fn: (lang: SupportedLanguages, query: Query) => any) => (
 export default {
 	// Query Endpoints
 	Query: {
-		cards: middleware(async (lang, query) => {
-			const result = await findCards(lang, query)
-			return result.map(card => ({ ...card, _query: query }))
+		cards: middleware((lang, query) => {
+			return findCards(lang, query)
 		}),
 
-		sets: middleware(async (lang, query) => {
-			const result = await findSets(lang, query)
-			return result.map(set => ({ ...set, _query: query }))
+		sets: middleware((lang, query) => {
+			return findSets(lang, query)
 		}),
 
-		series: middleware(async (lang, query) => {
-			const result = await findSeries(lang, query)
-			return result.map(series => ({ ...series, _query: query }))
+		series: middleware((lang, query) => {
+			return findSeries(lang, query)
 		})
 	},
 
