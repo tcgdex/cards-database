@@ -15,6 +15,8 @@ const card: Card = {
   illustrator: "aky CG Works",
   rarity: "Four Diamond",
   category: "Pokemon",
+
+  dexId: [1002],
   hp: 130,
   types: ["Water"],
   stage: "Basic",
