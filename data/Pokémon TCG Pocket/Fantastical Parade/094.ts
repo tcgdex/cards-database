@@ -4,6 +4,8 @@ import Set from "../Fantastical Parade"
 const card: Card = {
 	set: Set,
 
+	dexId: [52],
+
 	name: {
 		en: "Alolan Meowth"
 	},
