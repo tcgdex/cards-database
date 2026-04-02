@@ -18,6 +18,8 @@ const card: Card = {
   illustrator: "5ban Graphics",
   rarity: "Four Diamond",
   category: "Pokemon",
+
+  dexId: [908],
   hp: 160,
   types: ["Grass"],
   evolveFrom: {
