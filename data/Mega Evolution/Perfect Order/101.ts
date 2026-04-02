@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Salazzle-ex",
 		pt: "Salazzle ex"
 	},
+	evolveFrom: {
+		en: "Salandit",
+		de: "Molunk",
+		es: "Salandit",
+		fr: "Tritox",
+		it: "Salandit",
+		pt: "Salandit",
+	},
 
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
@@ -71,6 +79,12 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 684377,

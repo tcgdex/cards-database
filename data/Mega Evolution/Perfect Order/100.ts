@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Decidueye-ex",
 		pt: "Decidueye ex"
 	},
+	evolveFrom: {
+		en: "Dartrix",
+		de: "Arboretoss",
+		es: "Dartrix",
+		fr: "Efflèche",
+		it: "Dartrix",
+		pt: "Dartrix",
+	},
 
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
@@ -73,6 +81,12 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 684371,

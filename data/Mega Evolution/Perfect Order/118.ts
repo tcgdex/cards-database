@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Mega Starmie-ex",
 		pt: "Mega Starmie ex"
 	},
+	evolveFrom: {
+		en: "Staryu",
+		de: "Sterndu",
+		es: "Staryu",
+		fr: "Stari",
+		it: "Staryu",
+		pt: "Staryu",
+	},
 
 	illustrator: "takuyoa",
 	rarity: "Special illustration rare",
@@ -73,6 +81,12 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
 		tcgplayer: 684362,
