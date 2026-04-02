@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Decidueye-ex",
 		pt: "Decidueye ex"
 	},
+	evolveFrom: {
+		en: "Dartrix",
+		de: "Arboretoss",
+		es: "Dartrix",
+		fr: "Efflèche",
+		it: "Dartrix",
+		pt: "Dartrix",
+	},
 
 	illustrator: "aky CG Works",
 	rarity: "Double rare",

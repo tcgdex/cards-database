@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Mega Clefable-ex",
 		pt: "Mega Clefable ex"
 	},
+	evolveFrom: {
+		en: "Clefairy",
+		de: "Piepi",
+		es: "Clefairy",
+		fr: "Mélofée",
+		it: "Clefairy",
+		pt: "Clefairy",
+	},
 
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
