@@ -30,6 +30,15 @@ const card: Card = {
 	energyType: "Normal",
 	regulationMark: "J",
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 684396,
 		cardmarket: 877505

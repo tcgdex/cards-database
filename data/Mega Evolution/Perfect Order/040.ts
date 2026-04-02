@@ -64,6 +64,15 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "J",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
 		tcgplayer: 684426,
 		cardmarket: 877454
