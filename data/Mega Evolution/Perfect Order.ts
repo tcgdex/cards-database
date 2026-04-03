@@ -11,7 +11,7 @@ const set: Set = {
 		'es-mx': 'Equilibrio Perfecto',
 		fr: "Équilibre Parfait",
 		it: "Equilibrio Perfetto",
-		pt: "Heróis Excelsos"
+		pt: "Equilíbrio Perfeito"
 	},
 
 	serie: serie,
