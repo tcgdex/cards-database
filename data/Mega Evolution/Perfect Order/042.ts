@@ -4,6 +4,8 @@ import Set from "../Perfect Order"
 const card: Card = {
 	set: Set,
 
+	dexId: [688],
+
 	name: {
 		en: "Binacle",
 		fr: "Opermine",
