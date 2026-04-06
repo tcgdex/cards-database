@@ -57,9 +57,6 @@ const card: Card = {
 		},
 		{
 			type: "reverse"
-		},
-		{
-			type: "normal"
 		}
 	],
 

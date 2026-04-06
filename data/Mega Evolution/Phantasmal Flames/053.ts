@@ -70,9 +70,6 @@ const card: Card = {
 			type: "holo"
 		},
 		{
-			type: "normal"
-		},
-		{
 			type: "reverse"
 		}
 	],
