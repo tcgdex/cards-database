@@ -29,9 +29,11 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 	}
 
 	// check if it has updated yet
-	const updated = await fetch('https://tcgcsv.com/last-updated.txt')
-		.then((it) => it.text())
-		.then((it) => new Date(it))
+	const updated = await fetch('https://tcgcsv.com/last-updated.txt', {
+    	headers: { 'User-Agent': 'TCGDex/1.0.0' }
+	})
+    .then((it) => it.text())
+    .then((it) => new Date(it))
 
 	if (lastUpdate === updated) {
 		lastFetch = new Date()
@@ -43,7 +45,9 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 		.map((it) => it!.thirdParty!.tcgplayer)
 
 	for (const product of products) {
-		const res = await fetch(`https://tcgcsv.com/tcgplayer/3/${product}/prices`)
+		const res = await fetch(`https://tcgcsv.com/tcgplayer/3/${product}/prices`, {
+			headers: { 'User-Agent': 'TCGDex/1.0.0'}
+		})
 
 		if (res.status >= 400) {
 			console.warn(`couldn\'t load TCGplayer datas for ${product} :(` + await res.text())
