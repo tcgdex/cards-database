@@ -9,6 +9,12 @@ import { Set } from '../interfaces'
  * Example usage : `bun meta/scripts/check-missing.ts "data/*\/*\/*.ts" thirdParty.cardmarket`
  */
 
+const userAgent = process.env.TCGCSV_USER_AGENT
+if (!userAgent) {
+	console.error('TCGCSV_USER_AGENT is not set')
+	process.exit(1)
+}
+
 try {
 
 	// Load groups.json
@@ -17,7 +23,7 @@ try {
 	await fs.mkdir(baseFolder, { recursive: true })
 
 	const products = await fetch(`https://tcgcsv.com/tcgplayer/3/groups`, {
-		headers: { 'User-Agent': 'TCGDex/1.0.0'}
+		headers: { 'User-Agent': userAgent }
 	}).then((it) => it.json())
 	await fs.writeFile(`${baseFolder}/groups.json`, JSON.stringify(products))
 
@@ -42,7 +48,7 @@ try {
 	for (const id of ids) {
 		console.log('Loading product', id)
 		const products = await fetch(`https://tcgcsv.com/tcgplayer/3/${id}/products`, {
-			headers: { 'User-Agent': 'TCGDex/1.0.0'}
+			headers: { 'User-Agent': userAgent }
 		})
 			.then((it) => it.json())
 		await fs.writeFile(`${folder}/${id}.json`, JSON.stringify(products))
