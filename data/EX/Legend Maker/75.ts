@@ -15,7 +15,7 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		fr: "Lorsque Souche géante entre en jeu, chaque joueur doit défausser des Pokémon de Banc, ainsi que toutes les cartes qui leur sont attachées, jusqu'à ce qu'il ne lui reste plus que 3 Pokémon de Banc. (Vous défaussez vos Pokémon en premier.)",
+		fr: "Chaque joueur ne peut pas avoir plus de 3 Pokémon de Banc.\n\nLorsque Souche géante entre en jeu, chaque joueur doit défausser des Pokémon de Banc, ainsi que toutes les cartes qui leur sont attachées, jusqu'à ce qu'il ne lui reste plus que 3 Pokémon de Banc. (Vous défaussez vos Pokémon en premier.)",
 		de: "Jeder Spieler kann nicht mehr als 3 Pokémon auf der Bank haben.\n\nWenn Riesiger Bumstumpf ins Spiel kommt, legt jeder Spieler so lange Pokémon (inklusive der an diese angelegten Karten) auf den Ablagestapel, bis sich nur noch 3 Pokémon auf der Bank befinden. (Du musst als Erster Pokémon ablegen.)",
 	},
 
