@@ -7,6 +7,5 @@ services:
       # by default the server will start a worker for each threads available
       # You can downgrade the max number of workers by changing this value
       - MAX_WORKERS=2
-      - TCGCSV_USER_AGENT=TCGDex/1.0.0
     ports:
       - 3000:3000 # You can choose any port you want
