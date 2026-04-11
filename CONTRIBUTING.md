@@ -152,6 +152,10 @@ bun install
 cd server
 bun install
 ```
+#### Set up an env var
+```bash 
+TCGCSV_USER_AGENT="YourName/1.0"
+```
 
 #### Compile the Card Database
 
@@ -217,7 +221,7 @@ During development you may not need all 18 languages or the full git-log timesta
 
 #### Using Docker
 
-Alternatively, you can build and run the full API with Docker:
+Alternatively, you can build and run the full API with Docker (Still requires env var to be set):
 
 ```bash
 docker-compose up
