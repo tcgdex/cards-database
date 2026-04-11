@@ -14,7 +14,14 @@ const sp: Set = {
 		official: 10
 	},
 
-	releaseDate: "2002-08-01"
+	releaseDate: "2002-08-01",
+
+	abbreviations: {
+		official: "SAMPLE"
+	},
+	searchAliases: [
+		"SAMPLE"
+	],
 }
 
 export default sp

@@ -25,6 +25,9 @@ const dp4: Set = {
 		official: "GE",
 		fr: "DAS"
 	},
+	searchAliases: [
+		"GE"
+	],
 
 	thirdParty: {
 		cardmarket: 1558,

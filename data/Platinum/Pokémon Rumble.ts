@@ -20,6 +20,9 @@ const ru1: Set = {
 	abbreviations: {
 		official: "RM"
 	},
+	searchAliases: [
+		"RM"
+	],
 
 	thirdParty: {
 		cardmarket: 1634,

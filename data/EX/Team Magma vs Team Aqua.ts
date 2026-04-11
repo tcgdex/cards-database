@@ -24,6 +24,9 @@ const ex4: Set = {
 		official: "MA",
 		fr: "M&A"
 	},
+	searchAliases: [
+		"MA"
+	],
 
 	thirdParty: {
 		cardmarket: 1542,

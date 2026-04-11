@@ -7,7 +7,6 @@ const jumbo: Set = {
 	name: {
 		en: "Jumbo cards",
 		fr: "Cartes Jumbo"
-,
 	},
 
 	serie: serie,
@@ -16,7 +15,14 @@ const jumbo: Set = {
 		official: 160
 	},
 
-	releaseDate: "2000-02-01"
+	releaseDate: "2000-02-01",
+
+	abbreviations: {
+		official: "JUM"
+	},
+	searchAliases: [
+		"JUM"
+	],
 }
 
 export default jumbo

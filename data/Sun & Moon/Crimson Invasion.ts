@@ -24,8 +24,12 @@ const sm4: Set = {
 
 	abbreviations: {
 		official: "CIN",
-		fr: "INC"
+		fr: "SL04"
 	},
+	searchAliases: [
+		"SM4"
+	],
+
 
 	thirdParty: {
 		cardmarket: 1843,

@@ -26,6 +26,9 @@ const bw9: Set = {
 		official: "PLF",
 		fr: "GPL"
 	},
+	searchAliases: [
+		"PLF"
+	],
 
 	thirdParty: {
 		cardmarket: 1579,

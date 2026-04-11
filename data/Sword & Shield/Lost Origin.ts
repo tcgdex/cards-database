@@ -23,8 +23,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "LOR",
-		fr: "ORP"
+		fr: "EB11"
 	},
+	searchAliases: [
+		"SWSH11"
+	],
+
 
 	thirdParty: {
 		cardmarket: 5093,

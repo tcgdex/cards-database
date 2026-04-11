@@ -22,6 +22,9 @@ const ecard3: Set = {
 	abbreviations: {
 		official: "SK"
 	},
+	searchAliases: [
+		"SK"
+	],
 
 	thirdParty: {
 		cardmarket: 1538,

@@ -22,8 +22,14 @@ const set: Set = {
 	releaseDate: "2025-07-17",
 
 	abbreviations: {
-		official: "BLK"
+		official: "BLK",
+		fr: "EV10.5N"
 	},
+	searchAliases: [
+		"SV10.5",
+		"SV10.5B"
+	],
+
 
 	thirdParty: {
 		cardmarket: 6134,

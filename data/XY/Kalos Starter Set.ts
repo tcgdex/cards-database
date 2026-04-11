@@ -26,6 +26,9 @@ const xy0: Set = {
 		official: "KSS",
 		fr: "BAK"
 	},
+	searchAliases: [
+		"KSS"
+	],
 
 	thirdParty: {
 		cardmarket: 1637,

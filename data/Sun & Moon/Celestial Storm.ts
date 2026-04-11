@@ -24,8 +24,12 @@ const sm7: Set = {
 
 	abbreviations: {
 		official: "CES",
-		fr: "TCE"
+		fr: "SL07"
 	},
+	searchAliases: [
+		"SM7"
+	],
+
 
 	thirdParty: {
 		cardmarket: 2320,

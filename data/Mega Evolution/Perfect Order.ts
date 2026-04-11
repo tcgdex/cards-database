@@ -24,8 +24,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "POR",
-		fr: "ORP"
+		fr: "ME03"
 	},
+	searchAliases: [
+		"M3"
+	],
+
 
 	thirdParty: {
 		cardmarket: 6443,

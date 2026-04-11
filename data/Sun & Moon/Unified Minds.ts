@@ -24,8 +24,12 @@ const sm11: Set = {
 
 	abbreviations: {
 		official: "UNM",
-		fr: "HES"
+		fr: "SL11"
 	},
+	searchAliases: [
+		"SM11"
+	],
+
 
 	thirdParty: {
 		cardmarket: 2487,

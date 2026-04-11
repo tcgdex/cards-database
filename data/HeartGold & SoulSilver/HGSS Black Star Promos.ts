@@ -21,6 +21,13 @@ const hgssp: Set = {
 
 	releaseDate: "2010-02-11",
 
+	abbreviations: {
+		official: "HSP",
+		fr: "PHS"
+	},
+	searchAliases: [
+		"HSP"
+	],
 	thirdParty: {
 		tcgplayer: 1453
 	}

@@ -22,6 +22,9 @@ const s2015xy: Set = {
 		official: "MCD15",
 		fr: "M15"
 	},
+	searchAliases: [
+		"MCD15"
+	],
 
 	thirdParty: {
 		tcgplayer: 1694

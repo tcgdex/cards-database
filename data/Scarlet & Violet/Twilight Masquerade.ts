@@ -23,8 +23,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TWM",
-		fr: "MCR"
+		fr: "EV06"
 	},
+	searchAliases: [
+		"SV6"
+	],
+
 
 	thirdParty: {
 		cardmarket: 5691,

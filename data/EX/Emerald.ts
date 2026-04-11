@@ -25,6 +25,9 @@ const ex9: Set = {
 		official: "EM",
 		fr: "EME"
 	},
+	searchAliases: [
+		"EM"
+	],
 
 	thirdParty: {
 		cardmarket: 1547,

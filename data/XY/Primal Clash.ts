@@ -27,6 +27,9 @@ const xy5: Set = {
 		official: "PRC",
 		fr: "PRI"
 	},
+	searchAliases: [
+		"PRC"
+	],
 
 	thirdParty: {
 		cardmarket: 1585,

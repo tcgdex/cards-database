@@ -72,6 +72,24 @@ function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: Suppo
 	return result.length > 0 ? result : undefined;
 }
 
+function buildSetNumber(localId: string, card: Card): CardSingle['set_number'] {
+	const normalizedId = localId.toString()
+	const prefix = normalizedId.match(/^([A-Z]+)\d/)?.[1]
+	const subsetCount = prefix ? card.set.subsets?.[prefix]?.cardCount?.official : undefined
+	const officialCount = subsetCount ?? card.set.cardCount?.official
+	const numericMatch = normalizedId.match(/(\d+)/)
+	const denominator = officialCount && officialCount > 0
+		? (prefix && subsetCount ? `${prefix}${officialCount}` : officialCount.toString())
+		: undefined
+
+	return {
+		text: denominator ? `${normalizedId}/${denominator}` : normalizedId,
+		nominator: normalizedId,
+		numeric: numericMatch ? parseInt(numericMatch[1], 10) : undefined,
+		denominator
+	}
+}
+
 // eslint-disable-next-line max-lines-per-function
 export async function cardToCardSingle(localId: string, card: Card, lang: SupportedLanguages): Promise<CardSingle> {
 	const image = await getCardPictures(localId, card, lang)
@@ -167,6 +185,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			// images will be coming soon...
 		})) : undefined,
 		updated: await getCardLastEdit(localId, card, lang),
+		set_number: buildSetNumber(localId, card),
 
 		thirdParty: card.thirdParty
 	}

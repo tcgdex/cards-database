@@ -26,6 +26,9 @@ const bw7: Set = {
 		official: "BCR",
 		fr: "FFR"
 	},
+	searchAliases: [
+		"BCR"
+	],
 
 	thirdParty: {
 		cardmarket: 1577,

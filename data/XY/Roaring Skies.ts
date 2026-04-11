@@ -27,6 +27,9 @@ const xy6: Set = {
 		official: "ROS",
 		fr: "CRU"
 	},
+	searchAliases: [
+		"ROS"
+	],
 
 	thirdParty: {
 		cardmarket: 1649,

@@ -26,6 +26,9 @@ const bw3: Set = {
 		official: "NVI",
 		fr: "NVI"
 	},
+	searchAliases: [
+		"NVI"
+	],
 
 	thirdParty: {
 		cardmarket: 1573,

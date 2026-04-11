@@ -55,7 +55,14 @@ const set: Set = {
 		}
 	},
 
-	releaseDate: "2024-10-30"
+	releaseDate: "2024-10-30",
+
+	abbreviations: {
+		official: "A1"
+	},
+	searchAliases: [
+		"A1"
+	],
 }
 
 export default set

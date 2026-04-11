@@ -4,6 +4,7 @@ import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
 import { cardToCardSimple, getCards } from './cardUtil'
 import { DB_PATH, fetchRemoteFile, getDataFolder, resolveText, setIsLegal, smartGlob } from './util'
 import path from 'node:path'
+import { buildSetSearchAliases as buildInternalSetSearchAliases } from '../../src/setAliases'
 
 
 interface t {
@@ -14,6 +15,41 @@ const setCache: t = {}
 
 export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
 	return !!resolveText(set.name, lang) && !!resolveText(set.serie.name, lang)
+}
+
+export function buildSetAbbreviation(set: Set, lang: SupportedLanguages): SetResume['abbreviation'] {
+	const localized = resolveText(set.abbreviations, lang)
+	if (!set.abbreviations?.official && !localized) {
+		return undefined
+	}
+	return {
+		official: set.abbreviations?.official,
+		localized
+	}
+}
+
+export function buildSetSubsets(set: Set, lang: SupportedLanguages): SetResume['subsets'] {
+	if (!set.subsets) {
+		return undefined
+	}
+
+	const subsets = Object.entries(set.subsets).map(([id, subset]) => ({
+		id,
+		name: subset.name ? resolveText(subset.name, lang) : undefined,
+		cardCount: {
+			official: subset.cardCount?.official ?? 0
+		}
+	}))
+
+	return subsets.length > 0 ? subsets : undefined
+}
+
+type CompiledSetSingle = SetSingle & {
+	searchAliases?: Array<string>
+}
+
+export function buildSetSearchAliases(set: Set): Array<string> | undefined {
+	return buildInternalSetSearchAliases(set)
 }
 
 /**
@@ -57,30 +93,39 @@ export async function getSetPictures(set: Set, lang: SupportedLanguages): Promis
 		const logoExists = file[lang]?.[set.serie.id]?.[set.id]?.logo ? `https://assets.tcgdex.net/${lang}/${set.serie.id}/${set.id}/logo` : undefined
 		const symbolExists = file.univ?.[set.serie.id]?.[set.id]?.symbol ? `https://assets.tcgdex.net/univ/${set.serie.id}/${set.id}/symbol` : undefined
 		return [
-			logoExists,
-			symbolExists
+			logoExists ?? set.logo,
+			symbolExists ?? set.symbol
 		]
 	} catch {
-		return [undefined, undefined]
+		return [set.logo, set.symbol]
 	}
 }
 
 export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promise<SetResume> {
 	const cards = await getCards(lang, set)
 	const pics = await getSetPictures(set, lang)
+	const abbreviation = buildSetAbbreviation(set, lang)
+	const subsets = buildSetSubsets(set, lang)
+
 	return {
 		cardCount: {
-			official: set.cardCount.official,
-			total: Math.max(set.cardCount.official, cards.length)
+			official: set.cardCount?.official ?? 0,
+			total: Math.max(set.cardCount?.official ?? 0, cards.length)
 		},
 		id: set.id,
 		logo: pics[0],
 		name: resolveText(set.name, lang),
-		symbol: pics[1]
+		symbol: pics[1],
+		abbreviation,
+		subsets,
+		serie: {
+			id: set.serie.id,
+			name: resolveText(set.serie.name, lang)
+		}
 	}
 }
 
-function getVariantCountForType(card: Card, type: 'normal' | 'reverse' | 'holo' | 'firstEdition'): number {
+export function getVariantCountForType(card: Card, type: 'normal' | 'reverse' | 'holo' | 'firstEdition'): number {
 	if( card.variants === undefined || card.variants === null) {
 		return 0;
 	}
@@ -98,17 +143,19 @@ function getVariantCountForType(card: Card, type: 'normal' | 'reverse' | 'holo' 
 }
 
 
-export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promise<SetSingle> {
+export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promise<CompiledSetSingle> {
 	const cards = await getCards(lang, set)
 	const pics = await getSetPictures(set, lang)
+	const subsets = buildSetSubsets(set, lang)
+	const searchAliases = buildSetSearchAliases(set)
 	return {
 		cardCount: {
 			firstEd: cards.reduce((count, card) => count + getVariantCountForType(card[1],"firstEdition"), 0),
 			holo: cards.reduce((count, card) => count + getVariantCountForType(card[1],"holo"), 0),
 			normal: cards.reduce((count, card) => count + getVariantCountForType(card[1],"normal"), 0),
-			official: set.cardCount.official,
+			official: set.cardCount?.official ?? 0,
 			reverse: cards.reduce((count, card) => count + getVariantCountForType(card[1],"reverse"), 0),
-			total: Math.max(set.cardCount.official, cards.length)
+			total: Math.max(set.cardCount?.official ?? 0, cards.length)
 		},
 		cards: await Promise.all(cards.map(([id, card]) => cardToCardSimple(id, card, lang))),
 		id: set.id,
@@ -125,10 +172,9 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 		},
 		symbol: pics[1],
 		tcgOnline: set.tcgOnline,
-		abbreviation: (set.abbreviations?.official || resolveText(set.abbreviations, lang)) ? {
-			official: set.abbreviations?.official,
-			localized: resolveText(set.abbreviations, lang)
-		} : undefined,
+		abbreviation: buildSetAbbreviation(set, lang),
+		subsets,
+		searchAliases,
 		boosters: set.boosters ? objectMap(set.boosters, (booster, id) => ({
 			id: `boo_${set.id}-${id}`,
 			name: resolveText(booster.name, lang),

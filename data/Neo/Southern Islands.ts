@@ -19,6 +19,9 @@ const si1: Set = {
 	abbreviations: {
 		official: "SI"
 	},
+	searchAliases: [
+		"SI"
+	],
 
 	thirdParty: {
 		cardmarket: 1633,

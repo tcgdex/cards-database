@@ -26,6 +26,9 @@ const col1: Set = {
 		official: "COL",
 		fr: "LDL"
 	},
+	searchAliases: [
+		"COL"
+	],
 
 	thirdParty: {
 		cardmarket: 1570,

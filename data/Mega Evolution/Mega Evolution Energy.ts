@@ -24,6 +24,9 @@ const set: Set = {
     abbreviations: {
         official: "MEE",
     },
+    searchAliases: [
+        "MEE"
+    ],
 
 
 }

@@ -26,6 +26,9 @@ const dv1: Set = {
 		official: "DRV",
 		fr: "CDR"
 	},
+	searchAliases: [
+		"DRV"
+	],
 
 	thirdParty: {
 		cardmarket: 1636,

@@ -24,6 +24,9 @@ const ecard2: Set = {
 		official: "AQ",
 		fr: "AQU"
 	},
+	searchAliases: [
+		"AQ"
+	],
 
 	thirdParty: {
 		cardmarket: 1537,

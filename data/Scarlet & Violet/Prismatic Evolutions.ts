@@ -22,8 +22,13 @@ const set: Set = {
 	releaseDate: "2025-01-17",
 
 	abbreviations: {
-		official: "PRE"
+		official: "PRE",
+		fr: "EV08.5"
 	},
+	searchAliases: [
+		"SV8.5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 5944,

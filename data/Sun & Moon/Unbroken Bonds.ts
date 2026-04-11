@@ -24,8 +24,12 @@ const sm10: Set = {
 
 	abbreviations: {
 		official: "UNB",
-		fr: "AIF"
+		fr: "SL10"
 	},
+	searchAliases: [
+		"SM10"
+	],
+
 
 	thirdParty: {
 		cardmarket: 2437,

@@ -23,8 +23,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "SIT",
-		fr: "TAR"
+		fr: "EB12"
 	},
+	searchAliases: [
+		"SWSH12"
+	],
+
 
 	thirdParty: {
 		cardmarket: 5142,

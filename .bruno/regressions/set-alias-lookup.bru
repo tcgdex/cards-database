@@ -1,0 +1,17 @@
+meta {
+  name: Set alias lookup
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/sets/svi
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq sv01
+  res.body.abbreviation.official: eq SVI
+}

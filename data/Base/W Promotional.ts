@@ -20,7 +20,14 @@ const wp: Set = {
 		official: 7
 	},
 
-	releaseDate: "1999-09-01"
+	releaseDate: "1999-09-01",
+
+	abbreviations: {
+		official: "W"
+	},
+	searchAliases: [
+		"W"
+	],
 }
 
 export default wp

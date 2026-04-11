@@ -24,6 +24,9 @@ const ex11: Set = {
 		official: "DS",
 		fr: "ESD"
 	},
+	searchAliases: [
+		"DS"
+	],
 
 	thirdParty: {
 		cardmarket: 1549,

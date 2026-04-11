@@ -27,6 +27,9 @@ const dp1: Set = {
 		official: "DP",
 		fr: "D&P"
 	},
+	searchAliases: [
+		"DP"
+	],
 
 	thirdParty: {
 		cardmarket: 1555,

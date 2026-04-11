@@ -24,6 +24,9 @@ const ex13: Set = {
 		official: "HP",
 		fr: "FAN"
 	},
+	searchAliases: [
+		"HP"
+	],
 
 	thirdParty: {
 		cardmarket: 1551,

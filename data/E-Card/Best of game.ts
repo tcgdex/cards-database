@@ -16,6 +16,12 @@ const bog: Set = {
 
 	releaseDate: "2002-12-01",
 
+	abbreviations: {
+		official: "BG"
+	},
+	searchAliases: [
+		"BG"
+	],
 	thirdParty: {
 		cardmarket: 1605,
 		tcgplayer: 1455

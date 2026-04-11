@@ -27,6 +27,9 @@ const xy7: Set = {
 		official: "AOR",
 		fr: "ORA"
 	},
+	searchAliases: [
+		"AOR"
+	],
 
 	thirdParty: {
 		cardmarket: 1660,

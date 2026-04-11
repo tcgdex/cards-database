@@ -25,6 +25,9 @@ const xyp: Set = {
 		official: 'XYP',
 		fr: "PXY"
 	},
+	searchAliases: [
+		"XYP"
+	],
 
 	thirdParty: {
 		cardmarket: 1612,

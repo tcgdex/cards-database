@@ -24,8 +24,12 @@ const swsh2: Set = {
 
 	abbreviations: {
 		official: "RCL",
-		fr: "CDR"
+		fr: "EB02"
 	},
+	searchAliases: [
+		"SWSH2"
+	],
+
 
 	thirdParty: {
 		cardmarket: 3143,

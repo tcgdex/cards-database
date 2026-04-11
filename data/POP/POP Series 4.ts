@@ -23,6 +23,9 @@ const pop4: Set = {
 		official: "P4",
 		fr: "P04"
 	},
+	searchAliases: [
+		"P4"
+	],
 
 	thirdParty: {
 		cardmarket: 1616,

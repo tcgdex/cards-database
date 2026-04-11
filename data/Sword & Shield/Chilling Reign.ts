@@ -24,8 +24,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "CRE",
-		fr: "REG"
+		fr: "EB06"
 	},
+	searchAliases: [
+		"SWSH6"
+	],
+
 
 	thirdParty: {
 		cardmarket: 4174,

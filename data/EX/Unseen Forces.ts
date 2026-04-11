@@ -26,6 +26,9 @@ const ex10: Set = {
 		official: "UF",
 		fr: "FCH"
 	},
+	searchAliases: [
+		"UF"
+	],
 
 	thirdParty: {
 		cardmarket: 1548,

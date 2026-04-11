@@ -24,8 +24,12 @@ const sm2: Set = {
 
 	abbreviations: {
 		official: "GRI",
-		fr: "GAS"
+		fr: "SL02"
 	},
+	searchAliases: [
+		"SM2"
+	],
+
 
 	thirdParty: {
 		cardmarket: 1800,

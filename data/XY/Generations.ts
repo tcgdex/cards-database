@@ -26,6 +26,9 @@ const g1: Set = {
 		official: "GEN",
 		fr: "GEN"
 	},
+	searchAliases: [
+		"GEN"
+	],
 
 	thirdParty: {
 		cardmarket: 1693,

@@ -24,8 +24,12 @@ const sm8: Set = {
 
 	abbreviations: {
 		official: "LOT",
-		fr: "TPD"
+		fr: "SL08"
 	},
+	searchAliases: [
+		"SM8"
+	],
+
 
 	thirdParty: {
 		cardmarket: 2370,

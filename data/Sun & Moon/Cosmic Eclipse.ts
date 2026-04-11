@@ -24,8 +24,12 @@ const sm12: Set = {
 
 	abbreviations: {
 		official: "CEC",
-		fr: "ECO"
+		fr: "SL12"
 	},
+	searchAliases: [
+		"SM12"
+	],
+
 
 	thirdParty: {
 		cardmarket: 2644,

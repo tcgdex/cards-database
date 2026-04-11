@@ -24,8 +24,12 @@ const sm35: Set = {
 
 	abbreviations: {
 		official: "SLG",
-		fr: "LBR"
+		fr: "SL03.5"
 	},
+	searchAliases: [
+		"SM3.5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 1842,

@@ -23,6 +23,9 @@ const set: Set = {
 		official: "TK3L",
 		fr: "LUC"
 	},
+	searchAliases: [
+		"TK3L"
+	],
 	thirdParty: {
 		tcgplayer: 610
 	}

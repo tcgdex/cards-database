@@ -20,7 +20,14 @@ const set: Set = {
 		official: 69 // nice
 	},
 
-	releaseDate: "2025-12-17"
+	releaseDate: "2025-12-17",
+
+	abbreviations: {
+		official: "B1a"
+	},
+	searchAliases: [
+		"B1a"
+	],
 }
 
 export default set

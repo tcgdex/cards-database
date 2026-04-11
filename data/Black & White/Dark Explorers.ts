@@ -26,6 +26,9 @@ const bw5: Set = {
 		official: "DEX",
 		fr: "EOB"
 	},
+	searchAliases: [
+		"DEX"
+	],
 
 	thirdParty: {
 		cardmarket: 1575,

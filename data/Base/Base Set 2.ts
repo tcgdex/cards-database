@@ -20,6 +20,9 @@ const base4: Set = {
 	abbreviations: {
 		official: "B2"
 	},
+	searchAliases: [
+		"B2"
+	],
 
 	thirdParty: {
 		cardmarket: 1527,

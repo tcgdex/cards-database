@@ -16,6 +16,12 @@ const pccp: Set = {
 
 	releaseDate: "2004-07-01",
 
+	abbreviations: {
+		official: "CC"
+	},
+	searchAliases: [
+		"CC"
+	],
 	thirdParty: {
 		cardmarket: 4505
 	}

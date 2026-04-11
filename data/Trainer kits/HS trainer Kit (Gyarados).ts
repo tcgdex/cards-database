@@ -23,6 +23,9 @@ const set: Set = {
 		official: "TK4G",
 		fr: "LEV"
 	},
+	searchAliases: [
+		"TK4G"
+	],
 
 	thirdParty: {
 		tcgplayer: 1540

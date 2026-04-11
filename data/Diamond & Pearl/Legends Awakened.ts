@@ -25,6 +25,9 @@ const dp6: Set = {
 		official: "LA",
 		fr: "EDL"
 	},
+	searchAliases: [
+		"LA"
+	],
 
 	thirdParty: {
 		cardmarket: 1560,

@@ -25,6 +25,9 @@ const set: Set = {
 	abbreviations: {
 		official: "MEP"
 	},
+	searchAliases: [
+		"MEP"
+	],
 
 	thirdParty: {
 		cardmarket: 6232

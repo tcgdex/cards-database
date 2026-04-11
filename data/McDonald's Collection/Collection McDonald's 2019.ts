@@ -14,7 +14,14 @@ const set: Set = {
 		official: 40
 	},
 
-	releaseDate: "2019-10-30"
+	releaseDate: "2019-10-30",
+
+	abbreviations: {
+		official: "MCD19"
+	},
+	searchAliases: [
+		"MCD19"
+	],
 }
 
 export default set

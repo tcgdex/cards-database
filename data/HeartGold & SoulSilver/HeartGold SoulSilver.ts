@@ -26,6 +26,9 @@ const hgss1: Set = {
 		official: "HS",
 		fr: "HGS"
 	},
+	searchAliases: [
+		"HS"
+	],
 
 	thirdParty: {
 		cardmarket: 1566,

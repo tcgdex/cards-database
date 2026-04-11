@@ -22,8 +22,13 @@ const set: Set = {
 	releaseDate: "2024-09-13",
 
 	abbreviations: {
-		official: "SCR"
+		official: "SCR",
+		fr: "EV07"
 	},
+	searchAliases: [
+		"SV7"
+	],
+
 
 	thirdParty: {
 		cardmarket: 5802,

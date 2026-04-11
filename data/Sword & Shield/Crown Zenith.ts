@@ -23,8 +23,12 @@ const swsh3: Set = {
 
 	abbreviations: {
 		official: "CRZ",
-		fr: "ZEN"
+		fr: "EB12.5"
 	},
+	searchAliases: [
+		"SWSH12.5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 5201,

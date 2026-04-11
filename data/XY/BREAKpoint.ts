@@ -26,6 +26,9 @@ const xy9: Set = {
 		official: "BKP",
 		fr: "RUP"
 	},
+	searchAliases: [
+		"BKP"
+	],
 
 	thirdParty: {
 		cardmarket: 1687,

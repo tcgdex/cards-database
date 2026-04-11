@@ -25,6 +25,9 @@ const dp7: Set = {
 		official: "SF",
 		fr: "TEM"
 	},
+	searchAliases: [
+		"SF"
+	],
 
 	thirdParty: {
 		cardmarket: 1561,

@@ -23,8 +23,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "SSP",
-		fr: "ETD"
+		fr: "EV08"
 	},
+	searchAliases: [
+		"SV8"
+	],
+
 
 	thirdParty: {
 		cardmarket: 5879,

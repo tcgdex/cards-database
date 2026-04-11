@@ -26,6 +26,9 @@ const bw4: Set = {
 		official: "NXD",
 		fr: "DFU"
 	},
+	searchAliases: [
+		"NXD"
+	],
 
 	thirdParty: {
 		cardmarket: 1574,

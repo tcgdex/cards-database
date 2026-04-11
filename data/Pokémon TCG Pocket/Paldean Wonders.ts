@@ -34,7 +34,14 @@ const set: Set = {
 		}
 	},		
 
-	releaseDate: "2026-02-26"
+	releaseDate: "2026-02-26",
+
+	abbreviations: {
+		official: "B2a"
+	},
+	searchAliases: [
+		"B2a"
+	],
 }
 
 

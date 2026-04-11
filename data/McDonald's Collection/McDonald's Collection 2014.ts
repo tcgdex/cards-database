@@ -22,6 +22,9 @@ const s2014xy: Set = {
 		official: "MCD14",
 		fr: "M14"
 	},
+	searchAliases: [
+		"MCD14"
+	],
 
 	thirdParty: {
 		tcgplayer: 1692

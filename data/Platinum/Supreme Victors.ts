@@ -23,6 +23,9 @@ const pl3: Set = {
 		official: "SV",
 		fr: "VSU"
 	},
+	searchAliases: [
+		"SV"
+	],
 
 	thirdParty: {
 		cardmarket: 1564,

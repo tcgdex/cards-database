@@ -23,6 +23,9 @@ const dc1: Set = {
 		official: "DCR",
 		fr: "DBD"
 	},
+	searchAliases: [
+		"DCR"
+	],
 
 	thirdParty: {
 		cardmarket: 1648,

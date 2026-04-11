@@ -23,6 +23,9 @@ const set: Set = {
 		official: "TK10A",
 		fr: "RAL"
 	},
+	searchAliases: [
+		"TK10A"
+	],
 
 	thirdParty: {
 		tcgplayer: 2069

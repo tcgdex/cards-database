@@ -25,6 +25,9 @@ const neo1: Set = {
 		official: "N1",
 		fr: "NGS"
 	},
+	searchAliases: [
+		"N1"
+	],
 
 	thirdParty: {
 		cardmarket: 1531,

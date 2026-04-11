@@ -20,6 +20,9 @@ const gym2: Set = {
 	abbreviations: {
 		official: "G2"
 	},
+	searchAliases: [
+		"G2"
+	],
 
 	thirdParty: {
 		cardmarket: 1530,

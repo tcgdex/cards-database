@@ -24,6 +24,9 @@ const set: Set = {
 	abbreviations: {
 		official: "SVP"
 	},
+	searchAliases: [
+		"SVP"
+	],
 
 	thirdParty: {
 		cardmarket: 5241,

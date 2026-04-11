@@ -20,6 +20,9 @@ const gym1: Set = {
 	abbreviations: {
 		official: "G1"
 	},
+	searchAliases: [
+		"G1"
+	],
 
 	thirdParty: {
 		cardmarket: 1529,

@@ -24,6 +24,9 @@ const neo4: Set = {
 		official: "N4",
 		fr: "NDT"
 	},
+	searchAliases: [
+		"N4"
+	],
 
 	thirdParty: {
 		cardmarket: 1534,

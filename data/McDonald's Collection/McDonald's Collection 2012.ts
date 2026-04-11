@@ -23,6 +23,9 @@ const s2012bw: Set = {
 		official: "MCD12",
 		fr: "M12"
 	},
+	searchAliases: [
+		"MCD12"
+	],
 
 	thirdParty: {
 		tcgplayer: 1427

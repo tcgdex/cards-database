@@ -1,0 +1,30 @@
+meta {
+  name: Series nested set abbreviation exposure
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/series/mc
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+}
+
+tests {
+  test("series payload keeps the 2013 McDonald's official abbreviation", function() {
+    const body = res.getBody();
+    const data = typeof body === "string" ? JSON.parse(body) : body;
+    const target = data.sets.find((set) => set.id === "2013bw");
+
+    if (!target) {
+      throw new Error("Expected 2013bw to be present in the McDonald's series payload");
+    }
+
+    expect(target.abbreviation.official).to.equal("MCD13");
+    expect(target.abbreviation.localized).to.equal(undefined);
+  });
+}

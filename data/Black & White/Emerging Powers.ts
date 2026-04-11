@@ -26,6 +26,9 @@ const bw2: Set = {
 		official: "EP",
 		fr: "PEM"
 	},
+	searchAliases: [
+		"EP"
+	],
 
 	thirdParty: {
 		cardmarket: 1572,

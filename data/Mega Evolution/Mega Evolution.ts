@@ -23,8 +23,13 @@ const set: Set = {
 	releaseDate: "2025-09-26",
 
 	abbreviations: {
-		official: "MEG"
+		official: "MEG",
+		fr: "ME01"
 	},
+	searchAliases: [
+		"M1"
+	],
+
 
 	thirdParty: {
 		cardmarket: 6209,

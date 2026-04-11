@@ -22,6 +22,12 @@ const set: Set = {
 
 	releaseDate: "2025-07-30",
 
+	abbreviations: {
+		official: "A4"
+	},
+	searchAliases: [
+		"A4"
+	],
 	boosters: {
 		lugia: {
 			name: {

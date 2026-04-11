@@ -24,6 +24,9 @@ const ex2: Set = {
 		official: "SS",
 		fr: "TES"
 	},
+	searchAliases: [
+		"SS"
+	],
 
 	thirdParty: {
 		cardmarket: 1540,

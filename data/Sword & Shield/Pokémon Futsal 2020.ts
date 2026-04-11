@@ -18,7 +18,10 @@ const swshp: Set = {
 
 	abbreviations: {
 		official: "FUT20"
-	}
+	},
+	searchAliases: [
+		"FUT20"
+	],
 }
 
 export default swshp

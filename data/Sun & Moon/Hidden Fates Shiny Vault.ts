@@ -19,7 +19,14 @@ const sma: Set = {
 		official: 94
 	},
 
-	releaseDate: "2019-08-23"
+	releaseDate: "2019-08-23",
+
+	abbreviations: {
+		official: "SV"
+	},
+	searchAliases: [
+		"SV"
+	],
 }
 
 export default sma

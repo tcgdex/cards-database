@@ -23,6 +23,9 @@ const pl4: Set = {
 	abbreviations: {
 		official: "AR"
 	},
+	searchAliases: [
+		"AR"
+	],
 
 	thirdParty: {
 		cardmarket: 1565,

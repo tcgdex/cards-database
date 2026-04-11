@@ -25,6 +25,9 @@ const hgss4: Set = {
 		official: "TRI",
 		fr: "TRI"
 	},
+	searchAliases: [
+		"TRI"
+	],
 
 	thirdParty: {
 		cardmarket: 1569,

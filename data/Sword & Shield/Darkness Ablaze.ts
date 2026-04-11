@@ -24,8 +24,12 @@ const swsh3: Set = {
 
 	abbreviations: {
 		official: "DAA",
-		fr: "TEM"
+		fr: "EB03"
 	},
+	searchAliases: [
+		"SWSH3"
+	],
+
 
 	thirdParty: {
 		cardmarket: 3199,

@@ -24,6 +24,9 @@ const ex15: Set = {
 		official: "DF",
 		fr: "IDR"
 	},
+	searchAliases: [
+		"DF"
+	],
 
 	thirdParty: {
 		cardmarket: 1553,

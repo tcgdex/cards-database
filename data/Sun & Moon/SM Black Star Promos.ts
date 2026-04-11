@@ -25,6 +25,9 @@ const smp: Set = {
 		official: "SMP",
 		fr: "PSM"
 	},
+	searchAliases: [
+		"SMP"
+	],
 
 	thirdParty: {
 		tcgplayer: 1861

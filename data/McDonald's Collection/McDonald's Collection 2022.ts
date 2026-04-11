@@ -23,7 +23,10 @@ const s2022swsh: Set = {
 	abbreviations: {
 		official: "MCD22",
 		fr: "M22"
-	}
+	},
+	searchAliases: [
+		"MCD22"
+	],
 }
 
 export default s2022swsh

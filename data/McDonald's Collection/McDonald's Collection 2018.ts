@@ -20,6 +20,9 @@ const s2018sm: Set = {
 	abbreviations: {
 		official: "MCD18"
 	},
+	searchAliases: [
+		"MCD18"
+	],
 
 	thirdParty: {
 		tcgplayer: 2364

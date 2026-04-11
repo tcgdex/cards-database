@@ -24,6 +24,9 @@ const base5: Set = {
 		official: "RO",
 		fr: "ROC"
 	},
+	searchAliases: [
+		"RO"
+	],
 
 	thirdParty: {
 		cardmarket: 1528,

@@ -24,8 +24,12 @@ const swsh35: Set = {
 
 	abbreviations: {
 		official: "CPA",
-		fr: "VDM"
+		fr: "EB03.5"
 	},
+	searchAliases: [
+		"SWSH3.5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 3419,

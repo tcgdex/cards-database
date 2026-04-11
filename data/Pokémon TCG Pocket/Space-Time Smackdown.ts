@@ -46,6 +46,13 @@ const set: Set = {
 	},
 
 	releaseDate: "2025-01-30",
+
+	abbreviations: {
+		official: "A2"
+	},
+	searchAliases: [
+		"A2"
+	],
 };
 
 export default set;

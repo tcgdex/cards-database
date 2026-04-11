@@ -26,6 +26,9 @@ const bw1: Set = {
 		official: "BLW",
 		fr: "N&B"
 	},
+	searchAliases: [
+		"BLW"
+	],
 
 	thirdParty: {
 		cardmarket: 1571,

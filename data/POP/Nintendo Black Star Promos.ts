@@ -21,6 +21,13 @@ const np: Set = {
 
 	releaseDate: "2003-10-01",
 
+	abbreviations: {
+		official: "NP",
+		fr: "PNI"
+	},
+	searchAliases: [
+		"NP"
+	],
 	thirdParty: {
 		tcgplayer: 1423
 	}

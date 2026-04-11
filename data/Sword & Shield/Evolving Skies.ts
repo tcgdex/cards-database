@@ -24,8 +24,12 @@ const swsh6: Set = {
 
 	abbreviations: {
 		official: "EVS",
-		fr: "EVC"
+		fr: "EB07"
 	},
+	searchAliases: [
+		"SWSH7"
+	],
+
 
 	thirdParty: {
 		cardmarket: 4328,

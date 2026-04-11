@@ -26,6 +26,9 @@ const hgss2: Set = {
 		official: "UL",
 		fr: "DCH"
 	},
+	searchAliases: [
+		"UL"
+	],
 
 	thirdParty: {
 		cardmarket: 1567,

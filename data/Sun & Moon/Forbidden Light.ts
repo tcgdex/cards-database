@@ -24,8 +24,12 @@ const sm6: Set = {
 
 	abbreviations: {
 		official: "FLI",
-		fr: "LUI"
+		fr: "SL06"
 	},
+	searchAliases: [
+		"SM6"
+	],
+
 
 	thirdParty: {
 		cardmarket: 2075,

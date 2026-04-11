@@ -23,6 +23,9 @@ const set: Set = {
 		official: "TK7B",
 		fr: "GRO"
 	},
+	searchAliases: [
+		"TK7B"
+	],
 
 	thirdParty: {
 		tcgplayer: 1533

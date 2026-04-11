@@ -21,6 +21,12 @@ const basep: Set = {
 
 	releaseDate: "1999-07-01",
 
+	abbreviations: {
+		official: "WP"
+	},
+	searchAliases: [
+		"WP"
+	],
 	thirdParty: {
 		cardmarket: 1607
 	}

@@ -22,8 +22,14 @@ const set: Set = {
 	releaseDate: "2025-07-17",
 
 	abbreviations: {
-		official: "WHT"
+		official: "WHT",
+		fr: "EV10.5B"
 	},
+	searchAliases: [
+		"SV10.5",
+		"SV10.5W"
+	],
+
 
 	thirdParty: {
 		cardmarket: 6135,

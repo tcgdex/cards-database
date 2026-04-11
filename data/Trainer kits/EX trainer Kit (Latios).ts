@@ -24,6 +24,9 @@ const set: Set = {
 		official: "TK1O",
 		fr: "KDL"
 	},
+	searchAliases: [
+		"TK1O"
+	],
 
 	thirdParty: {
 		tcgplayer: 1543

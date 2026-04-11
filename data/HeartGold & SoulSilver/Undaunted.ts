@@ -25,6 +25,9 @@ const hgss3: Set = {
 		official: "UND",
 		fr: "IND"
 	},
+	searchAliases: [
+		"UND"
+	],
 
 	thirdParty: {
 		cardmarket: 1568,

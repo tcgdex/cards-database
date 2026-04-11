@@ -26,6 +26,9 @@ const xy11: Set = {
 		official: "STS",
 		fr: "OFV"
 	},
+	searchAliases: [
+		"STS"
+	],
 
 	thirdParty: {
 		cardmarket: 1716,

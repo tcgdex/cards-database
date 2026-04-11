@@ -23,8 +23,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "PAL",
-		fr: "EAP"
+		fr: "EV02"
 	},
+	searchAliases: [
+		"SV2"
+	],
+
 
 	thirdParty: {
 		cardmarket: 5318,

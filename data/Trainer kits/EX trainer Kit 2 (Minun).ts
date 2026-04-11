@@ -23,6 +23,9 @@ const set: Set = {
 		official: "TK2M",
 		fr: "NEG"
 	},
+	searchAliases: [
+		"TK2M"
+	],
 
 	thirdParty: {
 		tcgplayer: 1542

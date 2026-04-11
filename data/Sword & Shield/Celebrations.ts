@@ -24,8 +24,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "CEL",
-		fr: "CEL"
+		fr: "EB07.5"
 	},
+	searchAliases: [
+		"SWSH7.5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 4347,

@@ -17,6 +17,12 @@ const set: Set = {
 
 	releaseDate: "2025-10-30",
 
+	abbreviations: {
+		official: "B1"
+	},
+	searchAliases: [
+		"B1"
+	],
 	boosters: {
 		'mega-gyarados': {
 			name: {

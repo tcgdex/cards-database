@@ -1,13 +1,13 @@
 import { objectKeys } from '@dzeio/object-util'
-import type { Card as SDKCard } from '@tcgdex/sdk'
+import type { Card as SDKCard, SupportedLanguages } from '@tcgdex/sdk'
 import apicache from 'apicache'
-import express, { type Request } from 'express'
+import express, { type Request, type Response } from 'express'
 import { Errors, sendError } from '../../libs/Errors'
 import type { Query } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { betterSorter, checkLanguage, unique } from '../../util'
 import { getAllCards, findOneCard, findCards, toBrief, getCardById, getCompiledCard } from '../Components/Card'
-import { findOneSet, findSets, setToBrief } from '../Components/Set'
+import { findOneSet, findSets, remapSetIdQueryValue, resolveSetAliasIds, setToBrief } from '../Components/Set'
 import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
 import { listSKUs } from '../../libs/providers/tcgplayer'
 
@@ -40,9 +40,38 @@ const endpointToField: Record<string, keyof SDKCard> = {
 	variants: "variants",
 }
 
+export function buildSetIdClauses(lang: SupportedLanguages, value: unknown): Array<Record<string, unknown>> {
+	const aliases = new Set<string>()
+
+	const collect = (entry: unknown) => {
+		if (typeof entry === 'string') {
+			for (const id of resolveSetAliasIds(lang, entry) ?? []) {
+				aliases.add(id)
+			}
+			return
+		}
+
+		if (Array.isArray(entry)) {
+			entry.forEach(collect)
+			return
+		}
+
+		if (entry && typeof entry === 'object') {
+			Object.values(entry).forEach(collect)
+		}
+	}
+
+	collect(value)
+	if (aliases.size > 0) {
+		return [...aliases].map((id) => ({ 'set.id': { $eq: id } }))
+	}
+
+	return [{ 'set.id': remapSetIdQueryValue(lang, value) }]
+}
+
 server
 	// Midleware that handle caching only in production and on GET requests
-	.use(apicache.middleware('1 day', (req: CustomRequest, res: Response) => !req.DO_NOT_CACHE && res.status < 400 && process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
+	.use(apicache.middleware('1 day', (req: CustomRequest, res: Response) => !req.DO_NOT_CACHE && res.statusCode < 400 && process.env.NODE_ENV === 'production' && req.method === 'GET', {}))
 
 	// .get('/cache/performance', (req, res) => {
 	// 	res.json(apicache.getPerformance())
@@ -133,11 +162,10 @@ server
 				if ('set' in query) {
 					const tmp = query.set
 					delete query.set
-					query.$or = [{
-						'set.id': tmp
-					}, {
-						'set.name': tmp
-					}]
+					query.$or = [
+						...buildSetIdClauses(lang, tmp),
+						{ 'set.name': tmp }
+					] as any
 				}
 				result = (await findCards(lang, query))
 					.map(toBrief)
@@ -235,7 +263,7 @@ server
 				break
 
 			case 'sets':
-				result = await findOneSet(lang, { id })
+				result = await findOneSet(lang, { id: remapSetIdQueryValue(lang, id) })
 				if (!result) {
 					result = await findOneSet(lang, { name: id })
 				}
@@ -303,8 +331,13 @@ server
 				break
 			case 'sets':
 				// allow the dev to use a non prefixed value like `10` instead of `010` for newer sets
-				// @ts-expect-error normal behavior until the filtering is more fiable
-				result = await findOneCard(lang, { localId: { $or: [subid.padStart(3, '0'), subid] }, $or: [{ 'set.id': id }, { 'set.name': id }] })
+				result = await findOneCard(lang, {
+					localId: { $or: [subid.padStart(3, '0'), subid] },
+					$or: [
+						...buildSetIdClauses(lang, id),
+						{ 'set.name': id }
+					]
+				} as any)
 				break
 		}
 		if (!result) {

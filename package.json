@@ -2,6 +2,8 @@
 	"private": true,
 	"scripts": {
 		"validate": "tsc --noEmit --project tsconfig.json",
+		"set-alias:audit": "bun scripts/audit-set-aliases.ts",
+		"set-alias:audit:strict": "bun scripts/audit-set-aliases.ts --strict",
 		"check-missing": "ts-node meta/scripts/check-missing.ts",
 		"check-missing:help": "echo 'Usage: npm run check-missing \"<pattern>\" \"<property>\" [output-file]'",
 		"link-cardmarket": "ts-node meta/scripts/linkCardToCardmarket.ts",

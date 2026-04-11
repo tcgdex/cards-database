@@ -24,6 +24,9 @@ const ex14: Set = {
 		official: "CG",
 		fr: "GDC"
 	},
+	searchAliases: [
+		"CG"
+	],
 
 	thirdParty: {
 		cardmarket: 1552,

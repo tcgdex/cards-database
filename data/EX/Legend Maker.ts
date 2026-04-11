@@ -24,6 +24,9 @@ const ex12: Set = {
 		official: "LM",
 		fr: "CDL"
 	},
+	searchAliases: [
+		"LM"
+	],
 
 	thirdParty: {
 		cardmarket: 1550,

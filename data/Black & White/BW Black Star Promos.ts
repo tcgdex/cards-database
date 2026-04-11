@@ -25,6 +25,9 @@ const bwp: Set = {
 		official: "BWP",
 		fr: "PBW"
 	},
+	searchAliases: [
+		"BWP"
+	],
 
 	thirdParty: {
 		tcgplayer: 1407

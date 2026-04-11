@@ -26,6 +26,9 @@ const bw6: Set = {
 		official: "DRX",
 		fr: "DEX"
 	},
+	searchAliases: [
+		"DRX"
+	],
 
 	thirdParty: {
 		cardmarket: 1576,

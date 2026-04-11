@@ -25,6 +25,9 @@ const ex8: Set = {
 		official: "DX",
 		fr: "DEO"
 	},
+	searchAliases: [
+		"DX"
+	],
 
 	thirdParty: {
 		cardmarket: 1546,

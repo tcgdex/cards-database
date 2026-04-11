@@ -23,8 +23,13 @@ const set: Set = {
 	releaseDate: "2025-11-14",
 
 	abbreviations: {
-		official: "PFL"
+		official: "PFL",
+		fr: "ME02"
 	},
+	searchAliases: [
+		"M2"
+	],
+
 
 	thirdParty: {
 		cardmarket: 6299,

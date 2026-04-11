@@ -22,6 +22,9 @@ const s2016xy: Set = {
 		official: "MCD16",
 		fr: "M16"
 	},
+	searchAliases: [
+		"MCD16"
+	],
 
 	thirdParty: {
 		tcgplayer: 3087

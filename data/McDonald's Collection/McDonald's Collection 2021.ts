@@ -23,7 +23,10 @@ const s2021swsh: Set = {
 	abbreviations: {
 		official: "MCD21",
 		fr: "M21"
-	}
+	},
+	searchAliases: [
+		"MCD21"
+	],
 }
 
 export default s2021swsh

@@ -24,8 +24,12 @@ const sm75: Set = {
 
 	abbreviations: {
 		official: "DRM",
-		fr: "MDD"
+		fr: "SL07.5"
 	},
+	searchAliases: [
+		"SM7.5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 2351,

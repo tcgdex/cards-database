@@ -24,8 +24,12 @@ const sm3: Set = {
 
 	abbreviations: {
 		official: "BUS",
-		fr: "OAR"
+		fr: "SL03"
 	},
+	searchAliases: [
+		"SM3"
+	],
+
 
 	thirdParty: {
 		cardmarket: 1824,

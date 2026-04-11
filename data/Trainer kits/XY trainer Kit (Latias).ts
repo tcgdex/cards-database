@@ -23,6 +23,9 @@ const set: Set = {
 		official: "TK8A",
 		fr: "LTA"
 	},
+	searchAliases: [
+		"TK8A"
+	],
 
 	thirdParty: {
 		tcgplayer: 1536

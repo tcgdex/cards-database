@@ -26,6 +26,9 @@ const xy12: Set = {
 		official: "EVO",
 		fr: "EVO"
 	},
+	searchAliases: [
+		"EVO"
+	],
 
 	thirdParty: {
 		cardmarket: 1742,

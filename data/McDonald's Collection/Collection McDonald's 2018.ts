@@ -16,6 +16,12 @@ const set: Set = {
 
 	releaseDate: "2018-06-13",
 
+	abbreviations: {
+		official: "MCD18"
+	},
+	searchAliases: [
+		"MCD18"
+	],
 	thirdParty: {
 		cardmarket: 2361
 	}

@@ -24,8 +24,12 @@ const sm115: Set = {
 
 	abbreviations: {
 		official: "HIF",
-		fr: "DOC"
+		fr: "SL11.5"
 	},
+	searchAliases: [
+		"SM11.5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 2514,

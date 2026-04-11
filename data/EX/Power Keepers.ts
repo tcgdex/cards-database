@@ -23,6 +23,9 @@ const ex16: Set = {
 		official: "PK",
 		fr: "GDP"
 	},
+	searchAliases: [
+		"PK"
+	],
 
 	thirdParty: {
 		cardmarket: 1554,

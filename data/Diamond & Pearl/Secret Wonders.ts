@@ -26,6 +26,9 @@ const dp3: Set = {
 		official: "SW",
 		fr: "MSQ"
 	},
+	searchAliases: [
+		"SW"
+	],
 
 	thirdParty: {
 		cardmarket: 1557,

@@ -24,8 +24,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "BRS",
-		fr: "STA"
+		fr: "EB09"
 	},
+	searchAliases: [
+		"SWSH9"
+	],
+
 
 	thirdParty: {
 		cardmarket: 4434,

@@ -25,6 +25,9 @@ const bw8: Set = {
 	abbreviations: {
 		official: "PLS"
 	},
+	searchAliases: [
+		"PLS"
+	],
 
 	thirdParty: {
 		cardmarket: 1578,

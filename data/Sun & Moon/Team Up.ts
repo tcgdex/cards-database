@@ -24,8 +24,12 @@ const sm9: Set = {
 
 	abbreviations: {
 		official: "TEU",
-		fr: "DDC"
+		fr: "SL09"
 	},
+	searchAliases: [
+		"SM9"
+	],
+
 
 	thirdParty: {
 		cardmarket: 2407,

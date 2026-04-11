@@ -20,6 +20,13 @@ const xya: Set = {
 
 	releaseDate: "2014-02-05",
 
+	abbreviations: {
+		official: "YAA"
+	},
+	searchAliases: [
+		"YAA"
+	],
+
 	thirdParty: {
 		tcgplayer: 1938
 	}

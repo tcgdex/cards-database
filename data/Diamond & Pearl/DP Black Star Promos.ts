@@ -21,6 +21,12 @@ const dpp: Set = {
 
 	releaseDate: "2007-05-01",
 
+	abbreviations: {
+		official: "DPP"
+	},
+	searchAliases: [
+		"DPP"
+	],
 	thirdParty: {
 		tcgplayer: 1421
 	}

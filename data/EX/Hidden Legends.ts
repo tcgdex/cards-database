@@ -23,6 +23,9 @@ const ex5: Set = {
 		official: "HL",
 		fr: "LOU"
 	},
+	searchAliases: [
+		"HL"
+	],
 
 	thirdParty: {
 		cardmarket: 1543,

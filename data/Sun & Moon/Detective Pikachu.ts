@@ -26,6 +26,9 @@ const det1: Set = {
 		official: "DET",
 		fr: "DPI"
 	},
+	searchAliases: [
+		"DET"
+	],
 
 	thirdParty: {
 		cardmarket: 2438,

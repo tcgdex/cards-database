@@ -21,6 +21,9 @@ const ex7: Set = {
 	abbreviations: {
 		official: "TR"
 	},
+	searchAliases: [
+		"TR"
+	],
 
 	thirdParty: {
 		cardmarket: 1545,

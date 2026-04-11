@@ -15,7 +15,14 @@ const rc: Set = {
 		official: 25
 	},
 
-	releaseDate: "2013-11-06"
+	releaseDate: "2013-11-06",
+
+	abbreviations: {
+		official: "RC"
+	},
+	searchAliases: [
+		"RC"
+	]
 }
 
 export default rc

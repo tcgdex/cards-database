@@ -23,7 +23,10 @@ const s2023sv: Set = {
 	abbreviations: {
 		official: "MCD23",
 		fr: "M23"
-	}
+	},
+	searchAliases: [
+		"MCD23"
+	],
 }
 
 export default s2023sv

@@ -14,7 +14,14 @@ const s2013bw: Set = {
 		official: 12
 	},
 
-	releaseDate: "2013-11-01"
+	releaseDate: "2013-11-01",
+
+	abbreviations: {
+		official: "MCD13"
+	},
+	searchAliases: [
+		"MCD13"
+	],
 }
 
 export default s2013bw

@@ -27,6 +27,9 @@ const xy8: Set = {
 		official: "BKT",
 		fr: "IMP"
 	},
+	searchAliases: [
+		"BKT"
+	],
 
 	thirdParty: {
 		cardmarket: 1678,

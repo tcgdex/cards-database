@@ -26,6 +26,9 @@ const xy10: Set = {
 		official: "FCO",
 		fr: "IDD"
 	},
+	searchAliases: [
+		"FCO"
+	],
 
 	thirdParty: {
 		cardmarket: 1706,

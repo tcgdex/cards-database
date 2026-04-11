@@ -23,8 +23,13 @@ const set: Set = {
 	releaseDate: "2025-03-28",
 
 	abbreviations: {
-		official: "JTG"
+		official: "JTG",
+		fr: "EV09"
 	},
+	searchAliases: [
+		"SV9"
+	],
+
 
 	thirdParty: {
 		cardmarket: 6006,

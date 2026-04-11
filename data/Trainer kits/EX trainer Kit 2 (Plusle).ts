@@ -23,6 +23,9 @@ const set: Set = {
 		official: "TK2P",
 		fr: "POS"
 	},
+	searchAliases: [
+		"TK2P"
+	],
 
 	thirdParty: {
 		tcgplayer: 1542

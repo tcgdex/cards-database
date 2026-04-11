@@ -23,6 +23,9 @@ const s2017sm: Set = {
 		official: "MCD17",
 		fr: "M17"
 	},
+	searchAliases: [
+		"MCD17"
+	],
 
 	thirdParty: {
 		tcgplayer: 2148

@@ -23,8 +23,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "PAF",
-		fr: "DDP"
+		fr: "EV04.5"
 	},
+	searchAliases: [
+		"SV4.5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 5546,

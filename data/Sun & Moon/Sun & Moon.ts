@@ -24,8 +24,12 @@ const sm1: Set = {
 
 	abbreviations: {
 		official: "SUM",
-		fr: "S&L"
+		fr: "SL01"
 	},
+	searchAliases: [
+		"SM1"
+	],
+
 
 	thirdParty: {
 		cardmarket: 1745,

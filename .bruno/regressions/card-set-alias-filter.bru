@@ -1,0 +1,16 @@
+meta {
+  name: Card set alias filter
+  type: http
+  seq: 5
+}
+
+get {
+  url: {{BASE_URL}}/v2/fr/cards?set=eq:ev07
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.length: gt 150
+}

@@ -24,8 +24,12 @@ const sm5: Set = {
 
 	abbreviations: {
 		official: "UPR",
-		fr: "UPR"
+		fr: "SL05"
 	},
+	searchAliases: [
+		"SM5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 2065,

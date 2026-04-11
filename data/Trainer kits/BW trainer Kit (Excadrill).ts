@@ -22,6 +22,9 @@ const set: Set = {
 		official: "TK5E",
 		fr: "MIN"
 	},
+	searchAliases: [
+		"TK5E"
+	],
 
 	thirdParty: {
 		tcgplayer: 1538

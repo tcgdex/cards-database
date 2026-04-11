@@ -27,6 +27,9 @@ const xy4: Set = {
 		official: "PHF",
 		fr: "VSP"
 	},
+	searchAliases: [
+		"PHF"
+	],
 
 	thirdParty: {
 		cardmarket: 1521,

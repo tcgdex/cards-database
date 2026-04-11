@@ -24,6 +24,9 @@ const ex6: Set = {
 		official: "RG",
 		fr: "RFV"
 	},
+	searchAliases: [
+		"RG"
+	],
 
 	thirdParty: {
 		cardmarket: 1544,

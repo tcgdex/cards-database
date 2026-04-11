@@ -24,6 +24,9 @@ const s2011bw: Set = {
 		official: "MCD11",
 		fr: "M11"
 	},
+	searchAliases: [
+		"MCD11"
+	],
 	thirdParty: {
 		tcgplayer: 1401
 	}

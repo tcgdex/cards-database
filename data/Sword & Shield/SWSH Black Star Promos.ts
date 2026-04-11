@@ -21,6 +21,12 @@ const swshp: Set = {
 
 	releaseDate: "2019-11-15",
 
+	abbreviations: {
+		official: "SWSHP"
+	},
+	searchAliases: [
+		"SWSHP"
+	],
 	thirdParty: {
 		tcgplayer: 2545,
 		cardmarket: 2916

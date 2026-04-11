@@ -23,8 +23,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TEF",
-		fr: "FTP"
+		fr: "EV05"
 	},
+	searchAliases: [
+		"SV5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 5589,

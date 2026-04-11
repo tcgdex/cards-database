@@ -1,0 +1,3239 @@
+{
+  "generatedAt": "2026-04-11",
+  "notes": [
+    "This snapshot records the disputed or non-obvious set-code mappings that were approved during the issue #1369 follow-up work.",
+    "Visible abbreviations stay in the existing abbreviation payload, while searchAliases carry extra lookup forms.",
+    "The backlog backfill records explicit source-backed searchAliases for files that previously relied only on derived runtime aliases."
+  ],
+  "entries": [
+    {
+      "id": "2011bw",
+      "file": "data/McDonald's Collection/McDonald's Collection 2011.ts",
+      "visible": {
+        "official": "MCD11",
+        "fr": "M11"
+      },
+      "searchAliases": [
+        "MCD11"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2012bw",
+      "file": "data/McDonald's Collection/McDonald's Collection 2012.ts",
+      "visible": {
+        "official": "MCD12",
+        "fr": "M12"
+      },
+      "searchAliases": [
+        "MCD12"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2013bw",
+      "file": "data/McDonald's Collection/Collection McDonald's 2013.ts",
+      "visible": {
+        "official": "MCD13"
+      },
+      "searchAliases": [
+        "MCD13"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2014xy",
+      "file": "data/McDonald's Collection/McDonald's Collection 2014.ts",
+      "visible": {
+        "official": "MCD14",
+        "fr": "M14"
+      },
+      "searchAliases": [
+        "MCD14"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2015xy",
+      "file": "data/McDonald's Collection/McDonald's Collection 2015.ts",
+      "visible": {
+        "official": "MCD15",
+        "fr": "M15"
+      },
+      "searchAliases": [
+        "MCD15"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2016xy",
+      "file": "data/McDonald's Collection/McDonald's Collection 2016.ts",
+      "visible": {
+        "official": "MCD16",
+        "fr": "M16"
+      },
+      "searchAliases": [
+        "MCD16"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2017sm",
+      "file": "data/McDonald's Collection/McDonald's Collection 2017.ts",
+      "visible": {
+        "official": "MCD17",
+        "fr": "M17"
+      },
+      "searchAliases": [
+        "MCD17"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2018sm",
+      "file": "data/McDonald's Collection/McDonald's Collection 2018.ts",
+      "visible": {
+        "official": "MCD18"
+      },
+      "searchAliases": [
+        "MCD18"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2018sm-fr",
+      "file": "data/McDonald's Collection/Collection McDonald's 2018.ts",
+      "visible": {
+        "official": "MCD18"
+      },
+      "searchAliases": [
+        "MCD18"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2019sm",
+      "file": "data/McDonald's Collection/McDonald's Collection 2019.ts",
+      "visible": {
+        "official": "MCD19"
+      },
+      "searchAliases": [
+        "MCD19"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2019sm-fr",
+      "file": "data/McDonald's Collection/Collection McDonald's 2019.ts",
+      "visible": {
+        "official": "MCD19"
+      },
+      "searchAliases": [
+        "MCD19"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2021swsh",
+      "file": "data/McDonald's Collection/McDonald's Collection 2021.ts",
+      "visible": {
+        "official": "MCD21",
+        "fr": "M21"
+      },
+      "searchAliases": [
+        "MCD21"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2022swsh",
+      "file": "data/McDonald's Collection/McDonald's Collection 2022.ts",
+      "visible": {
+        "official": "MCD22",
+        "fr": "M22"
+      },
+      "searchAliases": [
+        "MCD22"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2023sv",
+      "file": "data/McDonald's Collection/McDonald's Collection 2023.ts",
+      "visible": {
+        "official": "MCD23",
+        "fr": "M23"
+      },
+      "searchAliases": [
+        "MCD23"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "2024sv",
+      "file": "data/McDonald's Collection/McDonald's Collection 2024.ts",
+      "visible": {
+        "official": "MCD24",
+        "fr": "M24"
+      },
+      "searchAliases": [
+        "MCD24"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "A1",
+      "file": "data/Pokémon TCG Pocket/Genetic Apex.ts",
+      "visible": {
+        "official": "A1"
+      },
+      "searchAliases": [
+        "A1"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "A1a",
+      "file": "data/Pokémon TCG Pocket/Mythical Island.ts",
+      "visible": {
+        "official": "A1a"
+      },
+      "searchAliases": [
+        "A1a"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "A2",
+      "file": "data/Pokémon TCG Pocket/Space-Time Smackdown.ts",
+      "visible": {
+        "official": "A2"
+      },
+      "searchAliases": [
+        "A2"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "A2a",
+      "file": "data/Pokémon TCG Pocket/Triumphant Light.ts",
+      "visible": {
+        "official": "A2a"
+      },
+      "searchAliases": [
+        "A2a"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "A2b",
+      "file": "data/Pokémon TCG Pocket/Shining Revelry.ts",
+      "visible": {
+        "official": "A2b"
+      },
+      "searchAliases": [
+        "A2b"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "A3",
+      "file": "data/Pokémon TCG Pocket/Celestial Guardians.ts",
+      "visible": {
+        "official": "A3"
+      },
+      "searchAliases": [
+        "A3"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "A3a",
+      "file": "data/Pokémon TCG Pocket/Extradimensional Crisis.ts",
+      "visible": {
+        "official": "A3a"
+      },
+      "searchAliases": [
+        "A3a"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "A3b",
+      "file": "data/Pokémon TCG Pocket/Eevee Grove.ts",
+      "visible": {
+        "official": "A3b"
+      },
+      "searchAliases": [
+        "A3b"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "A4",
+      "file": "data/Pokémon TCG Pocket/Wisdom of Sea and Sky.ts",
+      "visible": {
+        "official": "A4"
+      },
+      "searchAliases": [
+        "A4"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "A4a",
+      "file": "data/Pokémon TCG Pocket/Secluded Springs.ts",
+      "visible": {
+        "official": "A4a"
+      },
+      "searchAliases": [
+        "A4a"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "B1",
+      "file": "data/Pokémon TCG Pocket/Mega Rising.ts",
+      "visible": {
+        "official": "B1"
+      },
+      "searchAliases": [
+        "B1"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "B1a",
+      "file": "data/Pokémon TCG Pocket/Crimson Blaze.ts",
+      "visible": {
+        "official": "B1a"
+      },
+      "searchAliases": [
+        "B1a"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "B2",
+      "file": "data/Pokémon TCG Pocket/Fantastical Parade.ts",
+      "visible": {
+        "official": "B2"
+      },
+      "searchAliases": [
+        "B2"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "B2a",
+      "file": "data/Pokémon TCG Pocket/Paldean Wonders.ts",
+      "visible": {
+        "official": "B2a"
+      },
+      "searchAliases": [
+        "B2a"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "P-A",
+      "file": "data/Pokémon TCG Pocket/Promos-A.ts",
+      "visible": {
+        "official": "P-A"
+      },
+      "searchAliases": [
+        "P-A"
+      ],
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_Pocket_expansions"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "base1",
+      "file": "data/Base/Base Set.ts",
+      "visible": {
+        "official": "BS",
+        "fr": "BAS"
+      },
+      "searchAliases": [
+        "BS"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "base2",
+      "file": "data/Base/Jungle.ts",
+      "visible": {
+        "official": "JU",
+        "fr": "JUN"
+      },
+      "searchAliases": [
+        "JU"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "base3",
+      "file": "data/Base/Fossil.ts",
+      "visible": {
+        "official": "FO",
+        "fr": "FOS"
+      },
+      "searchAliases": [
+        "FO"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "base4",
+      "file": "data/Base/Base Set 2.ts",
+      "visible": {
+        "official": "B2"
+      },
+      "searchAliases": [
+        "B2"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "base5",
+      "file": "data/Base/Team Rocket.ts",
+      "visible": {
+        "official": "RO",
+        "fr": "ROC"
+      },
+      "searchAliases": [
+        "RO"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "basep",
+      "file": "data/Base/Wizards Black Star Promos.ts",
+      "visible": {
+        "official": "WP"
+      },
+      "searchAliases": [
+        "WP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bog",
+      "file": "data/E-Card/Best of game.ts",
+      "visible": {
+        "official": "BG"
+      },
+      "searchAliases": [
+        "BG"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bw1",
+      "file": "data/Black & White/Black & White.ts",
+      "visible": {
+        "official": "BLW",
+        "fr": "N&B"
+      },
+      "searchAliases": [
+        "BLW"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bw10",
+      "file": "data/Black & White/Plasma Blast.ts",
+      "visible": {
+        "official": "PLB",
+        "fr": "EPL"
+      },
+      "searchAliases": [
+        "PLB"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bw11",
+      "file": "data/Black & White/Legendary Treasures.ts",
+      "visible": {
+        "official": "LTR"
+      },
+      "searchAliases": [
+        "LTR"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bw2",
+      "file": "data/Black & White/Emerging Powers.ts",
+      "visible": {
+        "official": "EP",
+        "fr": "PEM"
+      },
+      "searchAliases": [
+        "EP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bw3",
+      "file": "data/Black & White/Noble Victories.ts",
+      "visible": {
+        "official": "NVI",
+        "fr": "NVI"
+      },
+      "searchAliases": [
+        "NVI"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bw4",
+      "file": "data/Black & White/Next Destinies.ts",
+      "visible": {
+        "official": "NXD",
+        "fr": "DFU"
+      },
+      "searchAliases": [
+        "NXD"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bw5",
+      "file": "data/Black & White/Dark Explorers.ts",
+      "visible": {
+        "official": "DEX",
+        "fr": "EOB"
+      },
+      "searchAliases": [
+        "DEX"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bw6",
+      "file": "data/Black & White/Dragons Exalted.ts",
+      "visible": {
+        "official": "DRX",
+        "fr": "DEX"
+      },
+      "searchAliases": [
+        "DRX"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bw7",
+      "file": "data/Black & White/Boundaries Crossed.ts",
+      "visible": {
+        "official": "BCR",
+        "fr": "FFR"
+      },
+      "searchAliases": [
+        "BCR"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bw8",
+      "file": "data/Black & White/Plasma Storm.ts",
+      "visible": {
+        "official": "PLS"
+      },
+      "searchAliases": [
+        "PLS"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bw9",
+      "file": "data/Black & White/Plasma Freeze.ts",
+      "visible": {
+        "official": "PLF",
+        "fr": "GPL"
+      },
+      "searchAliases": [
+        "PLF"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "bwp",
+      "file": "data/Black & White/BW Black Star Promos.ts",
+      "visible": {
+        "official": "BWP",
+        "fr": "PBW"
+      },
+      "searchAliases": [
+        "BWP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "cel25",
+      "file": "data/Sword & Shield/Celebrations.ts",
+      "visible": {
+        "official": "CEL",
+        "fr": "EB07.5"
+      },
+      "searchAliases": [
+        "SWSH7.5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "col1",
+      "file": "data/Call of Legends/Call of Legends.ts",
+      "visible": {
+        "official": "COL",
+        "fr": "LDL"
+      },
+      "searchAliases": [
+        "COL"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "dc1",
+      "file": "data/XY/Double Crisis.ts",
+      "visible": {
+        "official": "DCR",
+        "fr": "DBD"
+      },
+      "searchAliases": [
+        "DCR"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "det1",
+      "file": "data/Sun & Moon/Detective Pikachu.ts",
+      "visible": {
+        "official": "DET",
+        "fr": "DPI"
+      },
+      "searchAliases": [
+        "DET"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "dp1",
+      "file": "data/Diamond & Pearl/Diamond & Pearl.ts",
+      "visible": {
+        "official": "DP",
+        "fr": "D&P"
+      },
+      "searchAliases": [
+        "DP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "dp2",
+      "file": "data/Diamond & Pearl/Mysterious Treasures.ts",
+      "visible": {
+        "official": "MT",
+        "fr": "TMY"
+      },
+      "searchAliases": [
+        "MT"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "dp3",
+      "file": "data/Diamond & Pearl/Secret Wonders.ts",
+      "visible": {
+        "official": "SW",
+        "fr": "MSQ"
+      },
+      "searchAliases": [
+        "SW"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "dp4",
+      "file": "data/Diamond & Pearl/Great Encounters.ts",
+      "visible": {
+        "official": "GE",
+        "fr": "DAS"
+      },
+      "searchAliases": [
+        "GE"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "dp5",
+      "file": "data/Diamond & Pearl/Majestic Dawn.ts",
+      "visible": {
+        "official": "MD",
+        "fr": "AMJ"
+      },
+      "searchAliases": [
+        "MD"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "dp6",
+      "file": "data/Diamond & Pearl/Legends Awakened.ts",
+      "visible": {
+        "official": "LA",
+        "fr": "EDL"
+      },
+      "searchAliases": [
+        "LA"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "dp7",
+      "file": "data/Diamond & Pearl/Stormfront.ts",
+      "visible": {
+        "official": "SF",
+        "fr": "TEM"
+      },
+      "searchAliases": [
+        "SF"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "dpp",
+      "file": "data/Diamond & Pearl/DP Black Star Promos.ts",
+      "visible": {
+        "official": "DPP"
+      },
+      "searchAliases": [
+        "DPP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "dv1",
+      "file": "data/Black & White/Dragon Vault.ts",
+      "visible": {
+        "official": "DRV",
+        "fr": "CDR"
+      },
+      "searchAliases": [
+        "DRV"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ecard1",
+      "file": "data/E-Card/Expedition Base Set.ts",
+      "visible": {
+        "official": "EX",
+        "fr": "EXP"
+      },
+      "searchAliases": [
+        "EX"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ecard2",
+      "file": "data/E-Card/Aquapolis.ts",
+      "visible": {
+        "official": "AQ",
+        "fr": "AQU"
+      },
+      "searchAliases": [
+        "AQ"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ecard3",
+      "file": "data/E-Card/Skyridge.ts",
+      "visible": {
+        "official": "SK"
+      },
+      "searchAliases": [
+        "SK"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex1",
+      "file": "data/EX/Ruby & Sapphire.ts",
+      "visible": {
+        "official": "RS",
+        "fr": "R&S"
+      },
+      "searchAliases": [
+        "RS"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex10",
+      "file": "data/EX/Unseen Forces.ts",
+      "visible": {
+        "official": "UF",
+        "fr": "FCH"
+      },
+      "searchAliases": [
+        "UF"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex11",
+      "file": "data/EX/Delta Species.ts",
+      "visible": {
+        "official": "DS",
+        "fr": "ESD"
+      },
+      "searchAliases": [
+        "DS"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex12",
+      "file": "data/EX/Legend Maker.ts",
+      "visible": {
+        "official": "LM",
+        "fr": "CDL"
+      },
+      "searchAliases": [
+        "LM"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex13",
+      "file": "data/EX/Holon Phantoms.ts",
+      "visible": {
+        "official": "HP",
+        "fr": "FAN"
+      },
+      "searchAliases": [
+        "HP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex14",
+      "file": "data/EX/Crystal Guardians.ts",
+      "visible": {
+        "official": "CG",
+        "fr": "GDC"
+      },
+      "searchAliases": [
+        "CG"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex15",
+      "file": "data/EX/Dragon Frontiers.ts",
+      "visible": {
+        "official": "DF",
+        "fr": "IDR"
+      },
+      "searchAliases": [
+        "DF"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex16",
+      "file": "data/EX/Power Keepers.ts",
+      "visible": {
+        "official": "PK",
+        "fr": "GDP"
+      },
+      "searchAliases": [
+        "PK"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex2",
+      "file": "data/EX/Sandstorm.ts",
+      "visible": {
+        "official": "SS",
+        "fr": "TES"
+      },
+      "searchAliases": [
+        "SS"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex3",
+      "file": "data/EX/Dragon.ts",
+      "visible": {
+        "official": "DR",
+        "fr": "DRG"
+      },
+      "searchAliases": [
+        "DR"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex4",
+      "file": "data/EX/Team Magma vs Team Aqua.ts",
+      "visible": {
+        "official": "MA",
+        "fr": "M&A"
+      },
+      "searchAliases": [
+        "MA"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex5",
+      "file": "data/EX/Hidden Legends.ts",
+      "visible": {
+        "official": "HL",
+        "fr": "LOU"
+      },
+      "searchAliases": [
+        "HL"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex5.5",
+      "file": "data/EX/Poké Card Creator Pack.ts",
+      "visible": {
+        "official": "CC"
+      },
+      "searchAliases": [
+        "CC"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex6",
+      "file": "data/EX/FireRed & LeafGreen.ts",
+      "visible": {
+        "official": "RG",
+        "fr": "RFV"
+      },
+      "searchAliases": [
+        "RG"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex7",
+      "file": "data/EX/Team Rocket Returns.ts",
+      "visible": {
+        "official": "TR"
+      },
+      "searchAliases": [
+        "TR"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex8",
+      "file": "data/EX/Deoxys.ts",
+      "visible": {
+        "official": "DX",
+        "fr": "DEO"
+      },
+      "searchAliases": [
+        "DX"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ex9",
+      "file": "data/EX/Emerald.ts",
+      "visible": {
+        "official": "EM",
+        "fr": "EME"
+      },
+      "searchAliases": [
+        "EM"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "exu",
+      "file": "data/EX/Unseen Forces Unown Collection.ts",
+      "visible": {
+        "official": "UF"
+      },
+      "searchAliases": [
+        "UF"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "fut2020",
+      "file": "data/Sword & Shield/Pokémon Futsal 2020.ts",
+      "visible": {
+        "official": "FUT20"
+      },
+      "searchAliases": [
+        "FUT20"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "g1",
+      "file": "data/XY/Generations.ts",
+      "visible": {
+        "official": "GEN",
+        "fr": "GEN"
+      },
+      "searchAliases": [
+        "GEN"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "gym1",
+      "file": "data/Gym/Gym Heroes.ts",
+      "visible": {
+        "official": "G1"
+      },
+      "searchAliases": [
+        "G1"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "gym2",
+      "file": "data/Gym/Gym Challenge.ts",
+      "visible": {
+        "official": "G2"
+      },
+      "searchAliases": [
+        "G2"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "hgss1",
+      "file": "data/HeartGold & SoulSilver/HeartGold SoulSilver.ts",
+      "visible": {
+        "official": "HS",
+        "fr": "HGS"
+      },
+      "searchAliases": [
+        "HS"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "hgss2",
+      "file": "data/HeartGold & SoulSilver/Unleashed.ts",
+      "visible": {
+        "official": "UL",
+        "fr": "DCH"
+      },
+      "searchAliases": [
+        "UL"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "hgss3",
+      "file": "data/HeartGold & SoulSilver/Undaunted.ts",
+      "visible": {
+        "official": "UND",
+        "fr": "IND"
+      },
+      "searchAliases": [
+        "UND"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "hgss4",
+      "file": "data/HeartGold & SoulSilver/Triumphant.ts",
+      "visible": {
+        "official": "TRI",
+        "fr": "TRI"
+      },
+      "searchAliases": [
+        "TRI"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "hgssp",
+      "file": "data/HeartGold & SoulSilver/HGSS Black Star Promos.ts",
+      "visible": {
+        "official": "HSP",
+        "fr": "PHS"
+      },
+      "searchAliases": [
+        "HSP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "jumbo",
+      "file": "data/Miscellaneous/Jumbo cards.ts",
+      "visible": {
+        "official": "JUM"
+      },
+      "searchAliases": [
+        "JUM"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "lc",
+      "file": "data/Legendary Collection/Legendary Collection.ts",
+      "visible": {
+        "official": "LC"
+      },
+      "searchAliases": [
+        "LC"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "me01",
+      "file": "data/Mega Evolution/Mega Evolution.ts",
+      "visible": {
+        "official": "MEG",
+        "fr": "ME01"
+      },
+      "searchAliases": [
+        "M1"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "me02",
+      "file": "data/Mega Evolution/Phantasmal Flames.ts",
+      "visible": {
+        "official": "PFL",
+        "fr": "ME02"
+      },
+      "searchAliases": [
+        "M2"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "me02.5",
+      "visible": {
+        "official": "ASC",
+        "fr": "ME02.5"
+      },
+      "searchAliases": [
+        "ME2.5",
+        "ME02.5",
+        "M2.5"
+      ],
+      "reason": "Ascended Heroes uses ASC for visible output while the API also accepts the generic Mega Evolution numbering family."
+    },
+    {
+      "id": "me03",
+      "file": "data/Mega Evolution/Perfect Order.ts",
+      "visible": {
+        "official": "POR",
+        "fr": "ME03"
+      },
+      "searchAliases": [
+        "M3"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "me04",
+      "file": "data/Mega Evolution/Chaos Rising.ts",
+      "visible": {
+        "official": "CRI"
+      },
+      "searchAliases": [
+        "CRI"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "me04.5",
+      "file": "data/Mega Evolution/Radiant Ruby & Shining Sapphire.ts",
+      "visible": {
+        "official": "RRS"
+      },
+      "searchAliases": [
+        "RRS"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "me05",
+      "file": "data/Mega Evolution/Eternals.ts",
+      "visible": {
+        "official": "ETE"
+      },
+      "searchAliases": [
+        "ETE"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "mee",
+      "file": "data/Mega Evolution/Mega Evolution Energy.ts",
+      "visible": {
+        "official": "MEE"
+      },
+      "searchAliases": [
+        "MEE"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "mep",
+      "file": "data/Mega Evolution/MEP Black Star Promos.ts",
+      "visible": {
+        "official": "MEP"
+      },
+      "searchAliases": [
+        "MEP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "neo1",
+      "file": "data/Neo/Neo Genesis.ts",
+      "visible": {
+        "official": "N1",
+        "fr": "NGS"
+      },
+      "searchAliases": [
+        "N1"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "neo2",
+      "file": "data/Neo/Neo Discovery.ts",
+      "visible": {
+        "official": "N2",
+        "fr": "NDS"
+      },
+      "searchAliases": [
+        "N2"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "neo3",
+      "file": "data/Neo/Neo Revelation.ts",
+      "visible": {
+        "official": "N3",
+        "fr": "NRE"
+      },
+      "searchAliases": [
+        "N3"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "neo4",
+      "file": "data/Neo/Neo Destiny.ts",
+      "visible": {
+        "official": "N4",
+        "fr": "NDT"
+      },
+      "searchAliases": [
+        "N4"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "np",
+      "file": "data/POP/Nintendo Black Star Promos.ts",
+      "visible": {
+        "official": "NP",
+        "fr": "PNI"
+      },
+      "searchAliases": [
+        "NP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pl1",
+      "file": "data/Platinum/Platinum.ts",
+      "visible": {
+        "official": "PL",
+        "fr": "PLA"
+      },
+      "searchAliases": [
+        "PL"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pl2",
+      "file": "data/Platinum/Rising Rivals.ts",
+      "visible": {
+        "official": "RR",
+        "fr": "REM"
+      },
+      "searchAliases": [
+        "RR"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pl3",
+      "file": "data/Platinum/Supreme Victors.ts",
+      "visible": {
+        "official": "SV",
+        "fr": "VSU"
+      },
+      "searchAliases": [
+        "SV"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pl4",
+      "file": "data/Platinum/Arceus.ts",
+      "visible": {
+        "official": "AR"
+      },
+      "searchAliases": [
+        "AR"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pop1",
+      "file": "data/POP/POP Series 1.ts",
+      "visible": {
+        "official": "P1",
+        "fr": "P01"
+      },
+      "searchAliases": [
+        "P1"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pop2",
+      "file": "data/POP/POP Series 2.ts",
+      "visible": {
+        "official": "P2",
+        "fr": "P02"
+      },
+      "searchAliases": [
+        "P2"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pop3",
+      "file": "data/POP/POP Series 3.ts",
+      "visible": {
+        "official": "P3",
+        "fr": "P03"
+      },
+      "searchAliases": [
+        "P3"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pop4",
+      "file": "data/POP/POP Series 4.ts",
+      "visible": {
+        "official": "P4",
+        "fr": "P04"
+      },
+      "searchAliases": [
+        "P4"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pop5",
+      "file": "data/POP/POP Series 5.ts",
+      "visible": {
+        "official": "P5"
+      },
+      "searchAliases": [
+        "P5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pop6",
+      "file": "data/POP/POP Series 6.ts",
+      "visible": {
+        "official": "P6"
+      },
+      "searchAliases": [
+        "P6"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pop7",
+      "file": "data/POP/POP Series 7.ts",
+      "visible": {
+        "official": "P7",
+        "fr": "P07"
+      },
+      "searchAliases": [
+        "P7"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pop8",
+      "file": "data/POP/POP Series 8.ts",
+      "visible": {
+        "official": "P8"
+      },
+      "searchAliases": [
+        "P8"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "pop9",
+      "file": "data/POP/POP Series 9.ts",
+      "visible": {
+        "official": "P9",
+        "fr": "P09"
+      },
+      "searchAliases": [
+        "P9"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "ru1",
+      "file": "data/Platinum/Pokémon Rumble.ts",
+      "visible": {
+        "official": "RM"
+      },
+      "searchAliases": [
+        "RM"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "si1",
+      "file": "data/Neo/Southern Islands.ts",
+      "visible": {
+        "official": "SI"
+      },
+      "searchAliases": [
+        "SI"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm1",
+      "file": "data/Sun & Moon/Sun & Moon.ts",
+      "visible": {
+        "official": "SUM",
+        "fr": "SL01"
+      },
+      "searchAliases": [
+        "SM1"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm10",
+      "file": "data/Sun & Moon/Unbroken Bonds.ts",
+      "visible": {
+        "official": "UNB",
+        "fr": "SL10"
+      },
+      "searchAliases": [
+        "SM10"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm11",
+      "file": "data/Sun & Moon/Unified Minds.ts",
+      "visible": {
+        "official": "UNM",
+        "fr": "SL11"
+      },
+      "searchAliases": [
+        "SM11"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm115",
+      "file": "data/Sun & Moon/Hidden Fates.ts",
+      "visible": {
+        "official": "HIF",
+        "fr": "SL11.5"
+      },
+      "searchAliases": [
+        "SM11.5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm12",
+      "file": "data/Sun & Moon/Cosmic Eclipse.ts",
+      "visible": {
+        "official": "CEC",
+        "fr": "SL12"
+      },
+      "searchAliases": [
+        "SM12"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm2",
+      "file": "data/Sun & Moon/Guardians Rising.ts",
+      "visible": {
+        "official": "GRI",
+        "fr": "SL02"
+      },
+      "searchAliases": [
+        "SM2"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm3",
+      "file": "data/Sun & Moon/Burning Shadows.ts",
+      "visible": {
+        "official": "BUS",
+        "fr": "SL03"
+      },
+      "searchAliases": [
+        "SM3"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm3.5",
+      "file": "data/Sun & Moon/Shining Legends.ts",
+      "visible": {
+        "official": "SLG",
+        "fr": "SL03.5"
+      },
+      "searchAliases": [
+        "SM3.5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm4",
+      "file": "data/Sun & Moon/Crimson Invasion.ts",
+      "visible": {
+        "official": "CIN",
+        "fr": "SL04"
+      },
+      "searchAliases": [
+        "SM4"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm5",
+      "file": "data/Sun & Moon/Ultra Prism.ts",
+      "visible": {
+        "official": "UPR",
+        "fr": "SL05"
+      },
+      "searchAliases": [
+        "SM5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm6",
+      "file": "data/Sun & Moon/Forbidden Light.ts",
+      "visible": {
+        "official": "FLI",
+        "fr": "SL06"
+      },
+      "searchAliases": [
+        "SM6"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm7",
+      "file": "data/Sun & Moon/Celestial Storm.ts",
+      "visible": {
+        "official": "CES",
+        "fr": "SL07"
+      },
+      "searchAliases": [
+        "SM7"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm7.5",
+      "file": "data/Sun & Moon/Dragon Majesty.ts",
+      "visible": {
+        "official": "DRM",
+        "fr": "SL07.5"
+      },
+      "searchAliases": [
+        "SM7.5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm8",
+      "file": "data/Sun & Moon/Lost Thunder.ts",
+      "visible": {
+        "official": "LOT",
+        "fr": "SL08"
+      },
+      "searchAliases": [
+        "SM8"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sm9",
+      "file": "data/Sun & Moon/Team Up.ts",
+      "visible": {
+        "official": "TEU",
+        "fr": "SL09"
+      },
+      "searchAliases": [
+        "SM9"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sma",
+      "file": "data/Sun & Moon/Hidden Fates Shiny Vault.ts",
+      "visible": {
+        "official": "SV"
+      },
+      "searchAliases": [
+        "SV"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "smp",
+      "file": "data/Sun & Moon/SM Black Star Promos.ts",
+      "visible": {
+        "official": "SMP",
+        "fr": "PSM"
+      },
+      "searchAliases": [
+        "SMP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sp",
+      "file": "data/E-Card/Sample.ts",
+      "visible": {
+        "official": "SAMPLE"
+      },
+      "searchAliases": [
+        "SAMPLE"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv01",
+      "visible": {
+        "official": "SVI",
+        "fr": "EV01"
+      },
+      "searchAliases": [
+        "SV1",
+        "SV01",
+        "EV1",
+        "EV01"
+      ],
+      "reason": "Base Scarlet & Violet set keeps the printed official code while also accepting localized and generic numeric families."
+    },
+    {
+      "id": "sv02",
+      "file": "data/Scarlet & Violet/Paldea Evolved.ts",
+      "visible": {
+        "official": "PAL",
+        "fr": "EV02"
+      },
+      "searchAliases": [
+        "SV2"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv03",
+      "file": "data/Scarlet & Violet/Obsidian Flames.ts",
+      "visible": {
+        "official": "OBF",
+        "fr": "EV03"
+      },
+      "searchAliases": [
+        "SV3"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv03.5",
+      "visible": {
+        "official": "MEW",
+        "fr": "EV03.5"
+      },
+      "searchAliases": [
+        "SV3.5",
+        "SV03.5",
+        "EV3.5",
+        "EV03.5"
+      ],
+      "reason": "151 keeps MEW as the visible official code but must remain searchable through the shared Scarlet & Violet numeric family."
+    },
+    {
+      "id": "sv04",
+      "file": "data/Scarlet & Violet/Paradox Rift.ts",
+      "visible": {
+        "official": "PAR",
+        "fr": "EV04"
+      },
+      "searchAliases": [
+        "SV4"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv04.5",
+      "file": "data/Scarlet & Violet/Paldean Fates.ts",
+      "visible": {
+        "official": "PAF",
+        "fr": "EV04.5"
+      },
+      "searchAliases": [
+        "SV4.5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv05",
+      "file": "data/Scarlet & Violet/Temporal Forces.ts",
+      "visible": {
+        "official": "TEF",
+        "fr": "EV05"
+      },
+      "searchAliases": [
+        "SV5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv06",
+      "file": "data/Scarlet & Violet/Twilight Masquerade.ts",
+      "visible": {
+        "official": "TWM",
+        "fr": "EV06"
+      },
+      "searchAliases": [
+        "SV6"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv06.5",
+      "file": "data/Scarlet & Violet/Shrouded Fable.ts",
+      "visible": {
+        "official": "SFA",
+        "fr": "EV06.5"
+      },
+      "searchAliases": [
+        "SV6.5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv07",
+      "file": "data/Scarlet & Violet/Stellar Crown.ts",
+      "visible": {
+        "official": "SCR",
+        "fr": "EV07"
+      },
+      "searchAliases": [
+        "SV7"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv08",
+      "file": "data/Scarlet & Violet/Surging Sparks.ts",
+      "visible": {
+        "official": "SSP",
+        "fr": "EV08"
+      },
+      "searchAliases": [
+        "SV8"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv08.5",
+      "file": "data/Scarlet & Violet/Prismatic Evolutions.ts",
+      "visible": {
+        "official": "PRE",
+        "fr": "EV08.5"
+      },
+      "searchAliases": [
+        "SV8.5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv09",
+      "file": "data/Scarlet & Violet/Journey Together.ts",
+      "visible": {
+        "official": "JTG",
+        "fr": "EV09"
+      },
+      "searchAliases": [
+        "SV9"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv10",
+      "file": "data/Scarlet & Violet/Destined Rivals.ts",
+      "visible": {
+        "official": "DRI",
+        "fr": "EV10"
+      },
+      "searchAliases": [
+        "SV10"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "sv10.5b",
+      "visible": {
+        "official": "BLK",
+        "fr": "EV10.5"
+      },
+      "searchAliases": [
+        "SV10.5",
+        "SV10.5B"
+      ],
+      "reason": "Black Bolt shares the split-set family code SV10.5, with a B suffix reserved for the disambiguated lookup."
+    },
+    {
+      "id": "sv10.5w",
+      "visible": {
+        "official": "WHT",
+        "fr": "EV10.5"
+      },
+      "searchAliases": [
+        "SV10.5",
+        "SV10.5W"
+      ],
+      "reason": "White Flare shares the split-set family code SV10.5, with a W suffix reserved for the disambiguated lookup."
+    },
+    {
+      "id": "sve",
+      "file": "data/Scarlet & Violet/Scarlet & Violet Energy.ts",
+      "visible": {
+        "official": "SVE"
+      },
+      "searchAliases": [
+        "SVE"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "svp",
+      "file": "data/Scarlet & Violet/SVP Black Star Promos.ts",
+      "visible": {
+        "official": "SVP"
+      },
+      "searchAliases": [
+        "SVP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh1",
+      "file": "data/Sword & Shield/Sword & Shield.ts",
+      "visible": {
+        "official": "SSH",
+        "fr": "EB01"
+      },
+      "searchAliases": [
+        "SWSH1"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh10",
+      "file": "data/Sword & Shield/Astral Radiance.ts",
+      "visible": {
+        "official": "ASR",
+        "fr": "EB10"
+      },
+      "searchAliases": [
+        "SWSH10"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh10.5",
+      "file": "data/Sword & Shield/Pokémon GO.ts",
+      "visible": {
+        "official": "PGO",
+        "fr": "EB10.5"
+      },
+      "searchAliases": [
+        "SWSH10.5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh11",
+      "file": "data/Sword & Shield/Lost Origin.ts",
+      "visible": {
+        "official": "LOR",
+        "fr": "EB11"
+      },
+      "searchAliases": [
+        "SWSH11"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh12",
+      "file": "data/Sword & Shield/Silver Tempest.ts",
+      "visible": {
+        "official": "SIT",
+        "fr": "EB12"
+      },
+      "searchAliases": [
+        "SWSH12"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh12.5",
+      "file": "data/Sword & Shield/Crown Zenith.ts",
+      "visible": {
+        "official": "CRZ",
+        "fr": "EB12.5"
+      },
+      "searchAliases": [
+        "SWSH12.5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh2",
+      "file": "data/Sword & Shield/Rebel Clash.ts",
+      "visible": {
+        "official": "RCL",
+        "fr": "EB02"
+      },
+      "searchAliases": [
+        "SWSH2"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh3",
+      "file": "data/Sword & Shield/Darkness Ablaze.ts",
+      "visible": {
+        "official": "DAA",
+        "fr": "EB03"
+      },
+      "searchAliases": [
+        "SWSH3"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh3.5",
+      "file": "data/Sword & Shield/Champion's Path.ts",
+      "visible": {
+        "official": "CPA",
+        "fr": "EB03.5"
+      },
+      "searchAliases": [
+        "SWSH3.5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh4",
+      "file": "data/Sword & Shield/Vivid Voltage.ts",
+      "visible": {
+        "official": "VIV",
+        "fr": "EB04"
+      },
+      "searchAliases": [
+        "SWSH4"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh4.5",
+      "file": "data/Sword & Shield/Shining Fates.ts",
+      "visible": {
+        "official": "SHF",
+        "fr": "EB04.5"
+      },
+      "searchAliases": [
+        "SWSH4.5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh5",
+      "file": "data/Sword & Shield/Battle Styles.ts",
+      "visible": {
+        "official": "BST",
+        "fr": "EB05"
+      },
+      "searchAliases": [
+        "SWSH5"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh6",
+      "file": "data/Sword & Shield/Chilling Reign.ts",
+      "visible": {
+        "official": "CRE",
+        "fr": "EB06"
+      },
+      "searchAliases": [
+        "SWSH6"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh7",
+      "file": "data/Sword & Shield/Evolving Skies.ts",
+      "visible": {
+        "official": "EVS",
+        "fr": "EB07"
+      },
+      "searchAliases": [
+        "SWSH7"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh8",
+      "file": "data/Sword & Shield/Fusion Strike.ts",
+      "visible": {
+        "official": "FST",
+        "fr": "EB08"
+      },
+      "searchAliases": [
+        "SWSH8"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swsh9",
+      "file": "data/Sword & Shield/Brilliant Stars.ts",
+      "visible": {
+        "official": "BRS",
+        "fr": "EB09"
+      },
+      "searchAliases": [
+        "SWSH9"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "swshp",
+      "file": "data/Sword & Shield/SWSH Black Star Promos.ts",
+      "visible": {
+        "official": "SWSHP"
+      },
+      "searchAliases": [
+        "SWSHP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-bw-e",
+      "file": "data/Trainer kits/BW trainer Kit (Excadrill).ts",
+      "visible": {
+        "official": "TK5E",
+        "fr": "MIN"
+      },
+      "searchAliases": [
+        "TK5E"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-bw-z",
+      "file": "data/Trainer kits/BW trainer Kit (Zoroark).ts",
+      "visible": {
+        "official": "TK5Z",
+        "fr": "ZOR"
+      },
+      "searchAliases": [
+        "TK5Z"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-dp-l",
+      "file": "data/Trainer kits/DP trainer Kit (Lucario).ts",
+      "visible": {
+        "official": "TK3L",
+        "fr": "LUC"
+      },
+      "searchAliases": [
+        "TK3L"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-dp-m",
+      "file": "data/Trainer kits/DP trainer Kit (Manaphy).ts",
+      "visible": {
+        "official": "TK3M",
+        "fr": "MAN"
+      },
+      "searchAliases": [
+        "TK3M"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-ex-latia",
+      "file": "data/Trainer kits/EX trainer Kit (Latias).ts",
+      "visible": {
+        "official": "TK1A",
+        "fr": "KDA"
+      },
+      "searchAliases": [
+        "TK1A"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-ex-latio",
+      "file": "data/Trainer kits/EX trainer Kit (Latios).ts",
+      "visible": {
+        "official": "TK1O",
+        "fr": "KDL"
+      },
+      "searchAliases": [
+        "TK1O"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-ex-m",
+      "file": "data/Trainer kits/EX trainer Kit 2 (Minun).ts",
+      "visible": {
+        "official": "TK2M",
+        "fr": "NEG"
+      },
+      "searchAliases": [
+        "TK2M"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-ex-p",
+      "file": "data/Trainer kits/EX trainer Kit 2 (Plusle).ts",
+      "visible": {
+        "official": "TK2P",
+        "fr": "POS"
+      },
+      "searchAliases": [
+        "TK2P"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-hs-g",
+      "file": "data/Trainer kits/HS trainer Kit (Gyarados).ts",
+      "visible": {
+        "official": "TK4G",
+        "fr": "LEV"
+      },
+      "searchAliases": [
+        "TK4G"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-hs-r",
+      "file": "data/Trainer kits/HS trainer Kit (Raichu).ts",
+      "visible": {
+        "official": "TK4R",
+        "fr": "RAI"
+      },
+      "searchAliases": [
+        "TK4R"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-sm-l",
+      "file": "data/Trainer kits/SM trainer Kit (Lycanroc).ts",
+      "visible": {
+        "official": "TK10L",
+        "fr": "LOU"
+      },
+      "searchAliases": [
+        "TK10L"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-sm-r",
+      "file": "data/Trainer kits/SM trainer Kit (Alolan Raichu).ts",
+      "visible": {
+        "official": "TK10A",
+        "fr": "RAL"
+      },
+      "searchAliases": [
+        "TK10A"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-xy-b",
+      "file": "data/Trainer kits/XY trainer Kit (Bisharp).ts",
+      "visible": {
+        "official": "TK7A",
+        "fr": "SCA"
+      },
+      "searchAliases": [
+        "TK7A"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-xy-latia",
+      "file": "data/Trainer kits/XY trainer Kit (Latias).ts",
+      "visible": {
+        "official": "TK8A",
+        "fr": "LTA"
+      },
+      "searchAliases": [
+        "TK8A"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-xy-latio",
+      "file": "data/Trainer kits/XY trainer Kit (Latios).ts",
+      "visible": {
+        "official": "TK8O",
+        "fr": "LTS"
+      },
+      "searchAliases": [
+        "TK8O"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-xy-n",
+      "file": "data/Trainer kits/XY trainer Kit (Noivern).ts",
+      "visible": {
+        "official": "TK6N",
+        "fr": "BRU"
+      },
+      "searchAliases": [
+        "TK6N"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-xy-p",
+      "file": "data/Trainer kits/XY trainer Kit (Pikachu Libre).ts",
+      "visible": {
+        "official": "TK9P",
+        "fr": "PLB"
+      },
+      "searchAliases": [
+        "TK9P"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-xy-su",
+      "file": "data/Trainer kits/XY trainer Kit (Suicune).ts",
+      "visible": {
+        "official": "TK9S",
+        "fr": "SUI"
+      },
+      "searchAliases": [
+        "TK9S"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-xy-sy",
+      "file": "data/Trainer kits/XY trainer Kit (Sylveon).ts",
+      "visible": {
+        "official": "TK6S",
+        "fr": "NYM"
+      },
+      "searchAliases": [
+        "TK6S"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "tk-xy-w",
+      "file": "data/Trainer kits/XY trainer Kit (Wigglytuff).ts",
+      "visible": {
+        "official": "TK7B",
+        "fr": "GRO"
+      },
+      "searchAliases": [
+        "TK7B"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "wp",
+      "file": "data/Base/W Promotional.ts",
+      "visible": {
+        "official": "W"
+      },
+      "searchAliases": [
+        "W"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy0",
+      "file": "data/XY/Kalos Starter Set.ts",
+      "visible": {
+        "official": "KSS",
+        "fr": "BAK"
+      },
+      "searchAliases": [
+        "KSS"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy1",
+      "file": "data/XY/XY.ts",
+      "visible": {
+        "official": "XY",
+        "fr": "XY"
+      },
+      "searchAliases": [
+        "XY"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy10",
+      "file": "data/XY/Fates Collide.ts",
+      "visible": {
+        "official": "FCO",
+        "fr": "IDD"
+      },
+      "searchAliases": [
+        "FCO"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy11",
+      "file": "data/XY/Steam Siege.ts",
+      "visible": {
+        "official": "STS",
+        "fr": "OFV"
+      },
+      "searchAliases": [
+        "STS"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy12",
+      "file": "data/XY/Evolutions.ts",
+      "visible": {
+        "official": "EVO",
+        "fr": "EVO"
+      },
+      "searchAliases": [
+        "EVO"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy2",
+      "file": "data/XY/Flashfire.ts",
+      "visible": {
+        "official": "FLF",
+        "fr": "ETI"
+      },
+      "searchAliases": [
+        "FLF"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy3",
+      "file": "data/XY/Furious Fists.ts",
+      "visible": {
+        "official": "FFI",
+        "fr": "PFU"
+      },
+      "searchAliases": [
+        "FFI"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy4",
+      "file": "data/XY/Phantom Forces.ts",
+      "visible": {
+        "official": "PHF",
+        "fr": "VSP"
+      },
+      "searchAliases": [
+        "PHF"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy5",
+      "file": "data/XY/Primal Clash.ts",
+      "visible": {
+        "official": "PRC",
+        "fr": "PRI"
+      },
+      "searchAliases": [
+        "PRC"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy6",
+      "file": "data/XY/Roaring Skies.ts",
+      "visible": {
+        "official": "ROS",
+        "fr": "CRU"
+      },
+      "searchAliases": [
+        "ROS"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy7",
+      "file": "data/XY/Ancient Origins.ts",
+      "visible": {
+        "official": "AOR",
+        "fr": "ORA"
+      },
+      "searchAliases": [
+        "AOR"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy8",
+      "file": "data/XY/BREAKthrough.ts",
+      "visible": {
+        "official": "BKT",
+        "fr": "IMP"
+      },
+      "searchAliases": [
+        "BKT"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xy9",
+      "file": "data/XY/BREAKpoint.ts",
+      "visible": {
+        "official": "BKP",
+        "fr": "RUP"
+      },
+      "searchAliases": [
+        "BKP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xya",
+      "file": "data/XY/Yellow A Alternate.ts",
+      "visible": {
+        "official": "YAA"
+      },
+      "searchAliases": [
+        "YAA"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    },
+    {
+      "id": "xyp",
+      "file": "data/XY/XY Black Star Promos.ts",
+      "visible": {
+        "official": "XYP",
+        "fr": "PXY"
+      },
+      "searchAliases": [
+        "XYP"
+      ],
+      "sources": [
+        "https://www.pokepedia.fr/Abr%C3%A9viation_d%27extension",
+        "https://pkmncards.com/advanced/",
+        "https://pkmncards.com/set/xy-promos/"
+      ],
+      "reason": "Backlog backfill: expose the attested visible official abbreviation as an explicit source-backed search alias."
+    }
+  ]
+}

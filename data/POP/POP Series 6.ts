@@ -20,6 +20,9 @@ const pop6: Set = {
 	abbreviations: {
 		official: "P6"
 	},
+	searchAliases: [
+		"P6"
+	],
 
 	thirdParty: {
 		cardmarket: 1618,

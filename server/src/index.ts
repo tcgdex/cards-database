@@ -16,6 +16,8 @@ Sentry.init({
 	environment: process.env.NODE_ENV
 })
 
+const PORT = Number.parseInt(process.env.PORT ?? '3000', 10)
+
 if (cluster.isPrimary) {
 	console.log(`Primary ${process.pid} is running`)
 
@@ -41,7 +43,7 @@ if (cluster.isPrimary) {
 		console.log(`Worker ${worker.id} exited with code ${code} and signal ${signal}`);
 		cluster.fork()
 	})
-	console.log('🚀 Server ready at localhost:3000');
+	console.log(`🚀 Server ready at localhost:${PORT}`);
 } else {
 
 	// Current API version
@@ -157,5 +159,5 @@ if (cluster.isPrimary) {
 	})
 
 	// Start server
-	server.listen(3000)
+	server.listen(PORT)
 }

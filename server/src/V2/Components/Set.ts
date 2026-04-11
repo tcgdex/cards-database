@@ -1,6 +1,7 @@
 import type { Set as SDKSet, SetResume, SupportedLanguages } from '@tcgdex/sdk'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
 import { objectOmit } from '@dzeio/object-util'
+import { buildAliasIndex, normalizeSetAlias, remapSetAliasQueryValue } from '../../setAliases'
 
 import de from '../../../generated/de/sets.json'
 import en from '../../../generated/en/sets.json'
@@ -44,13 +45,54 @@ export const sets = {
 
 type MappedSet = any // (typeof en)[number]
 
+const aliasIndexes = new Map<SupportedLanguages, Map<string, Array<string>>>()
+
+function getAliasIndex(lang: SupportedLanguages): Map<string, Array<string>> {
+	const cached = aliasIndexes.get(lang)
+	if (cached) {
+		return cached
+	}
+
+	const index = buildAliasIndex(
+		sets[lang] as Array<MappedSet>,
+		(set) => set.searchAliases ?? [set.id]
+	)
+
+	aliasIndexes.set(lang, index)
+	return index
+}
+
+export function resolveSetAliasIds(lang: SupportedLanguages, value: string): Array<string> | undefined {
+	return getAliasIndex(lang).get(normalizeSetAlias(value))
+}
+
+export function resolveSetAliasId(lang: SupportedLanguages, value: string): string | undefined {
+	const ids = resolveSetAliasIds(lang, value)
+	return ids?.length === 1 ? ids[0] : undefined
+}
+
+export function remapSetIdQueryValue<T>(lang: SupportedLanguages, value: T): T {
+	return remapSetAliasQueryValue(value, (candidate) => resolveSetAliasId(lang, candidate))
+}
+
+function rewriteSetQuery(lang: SupportedLanguages, query: Query<SDKSet>): Query<SDKSet> {
+	if (!('id' in query)) {
+		return query
+	}
+
+	return {
+		...query,
+		id: remapSetIdQueryValue(lang, query.id)
+	}
+}
+
 export async function getAllSets(lang: SupportedLanguages): Promise<Array<SDKSet>> {
 	return Promise.all((sets[lang] as Array<MappedSet>).map(transformSet))
 }
 
 async function transformSet(set: MappedSet): Promise<SDKSet> {
 	return {
-		...objectOmit(set, 'thirdParty'),
+		...objectOmit(objectOmit(set, 'thirdParty'), 'searchAliases'),
 		// pricing: {
 		// 	cardmarket: await getCardMarketPrice(card),
 		// 	tcgplayer: await getTCGPlayerPrice(card)
@@ -59,7 +101,7 @@ async function transformSet(set: MappedSet): Promise<SDKSet> {
 }
 
 export async function findSets(lang: SupportedLanguages, query: Query<SDKSet>) {
-	return executeQuery(await getAllSets(lang), query).data
+	return executeQuery(await getAllSets(lang), rewriteSetQuery(lang, query)).data
 }
 
 export async function findOneSet(lang: SupportedLanguages, query: Query<SDKSet>) {

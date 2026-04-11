@@ -24,6 +24,9 @@ const ex3: Set = {
 		official: "DR",
 		fr: "DRG"
 	},
+	searchAliases: [
+		"DR"
+	],
 
 	thirdParty: {
 		cardmarket: 1541,

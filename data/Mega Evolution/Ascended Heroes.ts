@@ -24,8 +24,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "ASC",
-		fr: "HER"
+		fr: "ME02.5"
 	},
+	searchAliases: [
+		"M2.5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 6395,

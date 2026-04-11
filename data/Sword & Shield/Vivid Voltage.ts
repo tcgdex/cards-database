@@ -24,8 +24,12 @@ const swsh4: Set = {
 
 	abbreviations: {
 		official: "VIV",
-		fr: "VOL"
+		fr: "EB04"
 	},
+	searchAliases: [
+		"SWSH4"
+	],
+
 
 	thirdParty: {
 		cardmarket: 3484,

@@ -25,6 +25,9 @@ const pl1: Set = {
 		official: "PL",
 		fr: "PLA"
 	},
+	searchAliases: [
+		"PL"
+	],
 
 	thirdParty: {
 		cardmarket: 1562,

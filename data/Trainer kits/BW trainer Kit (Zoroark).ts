@@ -22,6 +22,9 @@ const set: Set = {
 		official: "TK5Z",
 		fr: "ZOR"
 	},
+	searchAliases: [
+		"TK5Z"
+	],
 
 	thirdParty: {
 		tcgplayer: 1538

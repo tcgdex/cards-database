@@ -27,6 +27,9 @@ const base1: Set = {
 		official: "BS",
 		fr: "BAS"
 	},
+	searchAliases: [
+		"BS"
+	],
 
 	thirdParty: {
 		cardmarket: 1523,

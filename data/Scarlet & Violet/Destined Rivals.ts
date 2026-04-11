@@ -24,8 +24,12 @@ const set: Set = {
 
 	abbreviations: {
 		official: "DRI",
-		fr: "RVD"
+		fr: "EV10"
 	},
+	searchAliases: [
+		"SV10"
+	],
+
 
 	thirdParty: {
 		tcgplayer: 24269
