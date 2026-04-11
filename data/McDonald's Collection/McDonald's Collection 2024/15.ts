@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	variants: {
-		normal: true,
+		normal: false,
 		reverse: false,
 		holo: true,
 		firstEdition: false
