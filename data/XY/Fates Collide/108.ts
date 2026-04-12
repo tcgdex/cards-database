@@ -30,7 +30,23 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 289928,
 		tcgplayer: 117517
-	}
+	},
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				fr: "Brûlure Polycellule"
+			},
+			damage: "200",
+			effect: {
+				fr: "Défaussez 3 Énergies attachées à ce Pokémon."
+			}
+		},
+	],
 }
 
 export default card
