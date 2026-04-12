@@ -18,17 +18,21 @@ const card: Card = {
 		de: "Lege diese Karte an 1 deiner -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Gras-Würfel 01 auf deinen Ablagestapel."
 	},
 
-	attacks: [{
-		name: {
-			de: "Schlafgift"
+	attacks: [
+		{
+			name: {
+				de: "Schlafgift",
+				fr: "Poison dodo"
+			},
+			effect: {
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet und schläft.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné."
+			},
+			cost: [
+				"Grass",
+			]
 		},
-
-		effect: {
-			de: "Das Verteidigende Pokémon ist jetzt vergiftet und schläft."
-		},
-
-		cost: ["Grass"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 275200,

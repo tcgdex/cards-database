@@ -18,19 +18,22 @@ const card: Card = {
 		de: "Lege diese Karte an 1 deiner -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Elektro-Würfel 01 auf deinen Ablagestapel."
 	},
 
-	attacks: [{
-		name: {
-			de: "Discharge"
+	attacks: [
+		{
+			name: {
+				de: "Discharge",
+				fr: "Décharge"
+			},
+			damage: "40x",
+			effect: {
+				de: "Discard all -Energy cards attached to this Pokémon. Then, flip a number of coins equal to the nuber of Energy cards discarded that way. This attack does 40 damage times the number of heads.",
+				fr: "Défaussez -vous de toutes les cartes Énergie {L} attachées à ce Pokémon. Lancez ensuite un nombre de pièces égal au nombre de cartes Énergie que vous avez défaussé de cette manière. Cette attaque fait 40 dégâts multipliés par le nombre de faces."
+			},
+			cost: [
+				"Lightning",
+			]
 		},
-
-		damage: "40x",
-
-		effect: {
-			de: "Discard all -Energy cards attached to this Pokémon. Then, flip a number of coins equal to the nuber of Energy cards discarded that way. This attack does 40 damage times the number of heads."
-		},
-
-		cost: ["Lightning"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 275203,
