@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Mega Dragonite-ex",
 		pt: "Mega Dragonite ex"
 	},
+	evolveFrom: {
+		en: "Dragonair",
+		de: "Dragonir",
+		es: "Dragonair",
+		fr: "Draco",
+		it: "Dragonair",
+		pt: "Dragonair",
+	},
 
 	illustrator: "aky CG Works",
 	rarity: "Mega Hyper Rare",

@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Mega Lucario-ex",
 		pt: "Mega Lucario ex"
 	},
+	evolveFrom: {
+		en: "Riolu",
+		de: "Riolu",
+		es: "Riolu",
+		fr: "Riolu",
+		it: "Riolu",
+		pt: "Riolu",
+	},
 
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",

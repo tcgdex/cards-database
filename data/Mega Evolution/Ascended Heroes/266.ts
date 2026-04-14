@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Mega Eelektross-ex",
 		pt: "Mega Eelektross ex"
 	},
+	evolveFrom: {
+		en: "Eelektrik",
+		de: "Zapplalek",
+		es: "Eelektrik",
+		'es-mx': "Eelektrik",
+		fr: "Lampéroie",
+		it: "Eelektrik",
+		pt: "Eelektrik",
+	},
 
 	illustrator: "DOM",
 	rarity: "Ultra Rare",

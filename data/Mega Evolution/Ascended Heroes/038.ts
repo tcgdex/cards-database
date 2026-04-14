@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Cinderace-ex",
 		pt: "Cinderace ex"
 	},
+	evolveFrom: {
+		en: "Raboot",
+		de: "Kickerlo",
+		es: "Raboot",
+		'es-mx': "Raboot",
+		fr: "Lapyro",
+		it: "Raboot",
+		pt: "Raboot",
+	},
 
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",

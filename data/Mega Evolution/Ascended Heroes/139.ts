@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Mandibuzz-ex",
 		pt: "Mandibuzz ex"
 	},
+	evolveFrom: {
+		en: "Vullaby",
+		de: "Skallyk",
+		es: "Vullaby",
+		'es-mx': "Vullaby",
+		fr: "Vostourno",
+		it: "Vullaby",
+		pt: "Vullaby",
+	},
 
 	illustrator: "Ultimateinudog",
 	rarity: "Double rare",
