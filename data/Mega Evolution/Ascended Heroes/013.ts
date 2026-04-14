@@ -84,13 +84,6 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-			thirdParty: {
-				cardmarket: 869624,
-				tcgplayer: 675825
-			}
-		},
-		{
-			type: "reverse",
 			foil: "loveball",
 			thirdParty: {
 				cardmarket: 870155,

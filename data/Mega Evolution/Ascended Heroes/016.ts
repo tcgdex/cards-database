@@ -58,13 +58,6 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-			thirdParty: {
-				cardmarket: 869627,
-				tcgplayer: 675828
-			}
-		},
-		{
-			type: "reverse",
 			foil: "friendball",
 			thirdParty: {
 				cardmarket: 870161,
