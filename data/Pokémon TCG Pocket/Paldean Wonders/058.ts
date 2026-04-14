@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Paldean Tauros",
+		fr: "Tauros de Paldea",
+		en: "Paldean Tauros",
+		es: "Tauros de Paldea",
+		it: "Tauros di Paldea",
+		pt: "Tauros de Paldea",
+		de: "Paldea-Tauros"
   },
   illustrator: "Shin Nagasawa",
   rarity: "Two Diamond",
@@ -20,6 +25,12 @@ const card: Card = {
     {
       name: {
         en: "Rear Kick",
+        fr: "Ruade",
+        de: "Rückwärtskick",
+        it: "Retrocalcio",
+        es: "Patada Trasera",
+        pt: "Chute Traseiro",
+        'es-mx': "Patada Trasera"
       },
       damage: "50",
       cost: ["Fighting", "Colorless"],

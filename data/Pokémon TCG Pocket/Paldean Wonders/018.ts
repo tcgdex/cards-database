@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Skeledirge",
+		en: "Skeledirge",
+		fr: "Flâmigator",
+		es: "Skeledirge",
+		it: "Skeledirge",
+		pt: "Skeledirge",
+		de: "Skelokrok"
   },
   illustrator: "nagimiso",
   rarity: "Three Diamond",
@@ -13,7 +18,12 @@ const card: Card = {
   types: ["Fire"],
   dexId: [911],
   evolveFrom: {
-    en: "Crocalor",
+		fr: "Crocogril",
+		en: "Crocalor",
+		es: "Crocalor",
+		it: "Crocalor",
+		pt: "Crocalor",
+		de: "Lokroko"
   },
   description: {
     en: "Skeledirge's gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
@@ -34,6 +44,12 @@ const card: Card = {
     {
       name: {
         en: "Heat Crash",
+        fr: "Tacle Feu",
+        de: "Brandstempel",
+        it: "Marchiafuoco",
+        pt: "Choque de Calor",
+        es: "Golpe Calor",
+        'es-mx': "Golpe de Calor"
       },
       damage: "70",
       cost: ["Fire", "Colorless"],

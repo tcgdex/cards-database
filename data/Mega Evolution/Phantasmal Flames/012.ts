@@ -53,7 +53,9 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 857587,
 		tcgplayer: 662144
-	}
+	},
+
+	illustrator: "Uninori"
 }
 
 export default card

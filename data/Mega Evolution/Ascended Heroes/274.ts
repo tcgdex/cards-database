@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Mega Feraligatr-ex",
 		pt: "Mega Feraligatr ex"
 	},
+	evolveFrom: {
+		en: "Croconaw",
+		de: "Tyracroc",
+		es: "Croconaw",
+		fr: "Crocrodil",
+		it: "Croconaw",
+		pt: "Croconaw",
+	},
 
 	illustrator: "Souichirou Gunjima",
 	rarity: "Special illustration rare",

@@ -4,7 +4,8 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Mesagoza"
+    en: "Mesagoza",
+    fr: "Mesaledo"
   },
   illustrator: "Oswaldo KATO",
   rarity: "Two Diamond",
