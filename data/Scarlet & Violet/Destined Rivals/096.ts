@@ -88,24 +88,54 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825969,
+				tcgplayer: 630822
+			}
 		},
 		{
-			type: 'reverse'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825969,
+				tcgplayer: 630822
+			}
 		},
 		{
-			type: 'holo',
-			stamp: ["set-logo"]
+			type: "holo",
+			stamp: "set-logo",
+			thirdParty: {
+				cardmarket: 826181,
+			}
 		},
 		{
-			type: 'holo',
-			stamp: ["set-logo", "staff"]
+			type: "normal",
+			thirdParty: {
+				cardmarket: 828102,
+			}
+		},
+		{
+			type: "holo",
+			stamp: "pokemon-center",
+			thirdParty: {
+				cardmarket: 828209,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 833948,
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 862172,
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825970
-	}
 }
 
 export default card
