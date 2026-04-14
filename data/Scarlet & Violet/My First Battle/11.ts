@@ -28,16 +28,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["charmander-silhouette"]
+			stamp: ["charmander"],
+
+			thirdParty: {
+				cardmarket: 741990,
+				tcgplayer: 524087
+			}
 		},
 	],
 
 	illustrator: "Mina Nakai",
-
-	thirdParty: {
-		cardmarket: 741990,
-		tcgplayer: 524087
-	}
 }
 
 export default card

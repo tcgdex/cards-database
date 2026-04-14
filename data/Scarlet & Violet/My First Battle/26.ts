@@ -36,16 +36,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["squirtle-silhouette"]
+			stamp: ["squirtle"],
+
+			thirdParty: {
+				cardmarket: 742013,
+				tcgplayer: 524048
+			}
 		},
 	],
 
 	illustrator: "Hitoshi Ariga",
-
-	thirdParty: {
-		cardmarket: 742013,
-		tcgplayer: 524048
-	}
 }
 
 export default card

@@ -25,7 +25,7 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "blue-border",
-			stamp: ["pikachu"],
+			stamp: ["pikachu", "pokeball"],
 
 			thirdParty: {
 				cardmarket: 742009,

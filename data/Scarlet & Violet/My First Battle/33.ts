@@ -34,26 +34,41 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-silhouette"]
+			stamp: ["pikachu"],
+
+			thirdParty: {
+				cardmarket: 742007,
+				tcgplayer: 524028
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["squirtle-silhouette"]
+			stamp: ["squirtle"],
+
+			thirdParty: {
+				tcgplayer: 742019,
+				cardmarket: 524029
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["bulbasaur-silhouette"]
+			stamp: ["bulbasaur"],
+
+			thirdParty: {
+				cardmarket: 741983,
+				tcgplayer: 524026
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["charmander-silhouette"]
+			stamp: ["charmander"],
+
+			thirdParty: {
+				cardmarket: 741995,
+				tcgplayer: 524027
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 741983,
-		tcgplayer: 524026
-	}
 }
 
 export default card

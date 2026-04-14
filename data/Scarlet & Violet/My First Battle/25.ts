@@ -56,11 +56,6 @@ const card: Card = {
 	],
 
 	illustrator: "ryoma uratsuka",
-
-	thirdParty: {
-		cardmarket: 742012,
-		tcgplayer: 524047
-	}
 }
 
 export default card

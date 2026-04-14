@@ -39,16 +39,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-silhouette"]
+			stamp: ["pikachu"],
+
+			thirdParty: {
+				cardmarket: 742001,
+				tcgplayer: 524062
+			}
 		},
 	],
 
 	illustrator: "Kariya",
-
-	thirdParty: {
-		cardmarket: 742001,
-		tcgplayer: 524062
-	}
 }
 
 export default card

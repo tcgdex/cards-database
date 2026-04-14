@@ -36,21 +36,26 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-silhouette"]
+			stamp: ["pikachu"],
+
+			thirdParty: {
+				cardmarket: 742000,
+				tcgplayer: 524060
+			}
 		},
 		{
 			type: "normal",
 			subtype: "blue-border",
-			stamp: ["pikachu-silhouette"]
+			stamp: ["pikachu", "pokeball"],
+
+			thirdParty: {
+				cardmarket: 741999,
+				tcgplayer: 524061
+			}
 		},
 	],
 
 	illustrator: "Saino Misaki",
-
-	thirdParty: {
-		cardmarket: 742000,
-		tcgplayer: 524060
-	}
 }
 
 export default card

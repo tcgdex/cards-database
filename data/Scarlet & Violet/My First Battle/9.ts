@@ -36,21 +36,26 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["charmander-silhouette"]
+			stamp: ["charmander"],
+
+			thirdParty: {
+				cardmarket: 741988,
+				tcgplayer: 524082
+			}
 		},
 		{
 			type: "normal",
 			subtype: "blue-border",
-			stamp: ["charmander-silhouette"]
+			stamp: ["charmander", "pokeball"],
+
+			thirdParty: {
+				cardmarket: 741976,
+				tcgplayer: 523985
+			}
 		},
 	],
 
 	illustrator: "Kurata So",
-
-	thirdParty: {
-		cardmarket: 741988,
-		tcgplayer: 524082
-	}
 }
 
 export default card

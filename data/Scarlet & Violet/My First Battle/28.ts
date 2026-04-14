@@ -31,16 +31,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["squirtle-silhouette"]
+			stamp: ["squirtle"],
+
+			thirdParty: {
+				cardmarket: 742015,
+				tcgplayer: 524053
+			}
 		},
 	],
 
 	illustrator: "Mizue",
-
-	thirdParty: {
-		cardmarket: 742015,
-		tcgplayer: 524053
-	}
 }
 
 export default card

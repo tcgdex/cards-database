@@ -36,7 +36,7 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["bulbasaur-silhouette"],
+			stamp: ["bulbasaur"],
 
 			thirdParty: {
 				cardmarket: 741976,
@@ -46,7 +46,7 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "blue-border",
-			stamp: ["bulbasaur-silhouette"],
+			stamp: ["bulbasaur", "pokeball"],
 
 			thirdParty: {
 				cardmarket: 741975,

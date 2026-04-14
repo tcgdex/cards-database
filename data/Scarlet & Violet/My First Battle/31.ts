@@ -28,16 +28,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["squirtle-silhouette"]
+			stamp: ["squirtle"],
+
+			thirdParty: {
+				cardmarket: 742018,
+				tcgplayer: 524056
+			}
 		},
 	],
 
 	illustrator: "Akira Kamayama",
-
-	thirdParty: {
-		cardmarket: 742018,
-		tcgplayer: 524056
-	}
 }
 
 export default card

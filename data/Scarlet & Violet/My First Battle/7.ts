@@ -32,16 +32,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["bulbasaur-silhouette"]
+			stamp: ["bulbasaur"],
+
+			thirdParty: {
+				cardmarket: 741982,
+				tcgplayer: 524016
+			}
 		},
 	],
 
 	illustrator: "Kouki Saitou",
-
-	thirdParty: {
-		cardmarket: 741982,
-		tcgplayer: 524016
-	}
 }
 
 export default card
