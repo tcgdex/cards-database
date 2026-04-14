@@ -91,7 +91,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: "set-logo",
+			stamp: ["set-logo"],
 			thirdParty: {
 				cardmarket: 826180,
 			}

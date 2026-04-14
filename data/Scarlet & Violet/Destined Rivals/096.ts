@@ -103,7 +103,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: "set-logo",
+			stamp: ["set-logo"],
 			thirdParty: {
 				cardmarket: 826181,
 			}
@@ -116,7 +116,6 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: "pokemon-center",
 			thirdParty: {
 				cardmarket: 828209,
 			}

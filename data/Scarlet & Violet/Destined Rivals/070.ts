@@ -94,7 +94,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: "set-logo",
+			stamp: ["set-logo"],
 			thirdParty: {
 				cardmarket: 827836,
 			}
@@ -102,7 +102,7 @@ const card: Card = {
 		{
 			type: "holo",
 			foil: "cosmos",
-			stamp: "eb-games",
+			stamp: ["eb-games"],
 			thirdParty: {
 				cardmarket: 848308,
 			}
