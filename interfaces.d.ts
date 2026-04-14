@@ -34,6 +34,7 @@ export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon
 	| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
 	| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
 	| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america" | 'ace-trainer'
+	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball'
 
 export interface variant_detailed {
 	/**
@@ -52,7 +53,7 @@ export interface variant_detailed {
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
 		| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
 		| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
-		| 'cosmos'
+		| 'cosmos' | 'blue-border'
 
 	/**
 	 * define the size of the card
