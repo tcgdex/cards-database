@@ -75,14 +75,14 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			foil: ["set-logo"],
+			stamp: ["set-logo"],
 			thirdParty: {
 				cardmarket: 841282,
 			}
 		},
 		{
 			type: "holo",
-			foil: ["set-logo"],
+			stamp: ["set-logo"],
 			size: "jumbo",
 			thirdParty: {
 				cardmarket: 841283,
