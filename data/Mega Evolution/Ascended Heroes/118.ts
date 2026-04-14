@@ -50,13 +50,6 @@ const card: Card = {
 	},
 	{
 		type: "reverse",
-		thirdParty: {
-			cardmarket: 869729,
-			tcgplayer: 675930
-		}
-	},
-	{
-		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
 			cardmarket: 870321,

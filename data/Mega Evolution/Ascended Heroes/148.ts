@@ -84,13 +84,6 @@ const card: Card = {
 	},
 	{
 		type: "reverse",
-		thirdParty: {
-			cardmarket: 869759,
-			tcgplayer: 675960
-		}
-	},
-	{
-		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
 			cardmarket: 870367,
