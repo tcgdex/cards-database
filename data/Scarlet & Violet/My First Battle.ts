@@ -19,11 +19,6 @@ const set: Set = {
 	abbreviations: {
 		official: "MFB",
 	},
-
-	thirdParty: {
-		cardmarket: 0,
-		tcgplayer: 0
-	}
 }
 
 export default set
