@@ -11,6 +11,8 @@ const card: Card = {
 
 	illustrator: "Souichirou Gunjima",
 	category: "Pokemon",
+
+	dexId: [656],
 	hp: 60,
 	types: ["Water"],
 

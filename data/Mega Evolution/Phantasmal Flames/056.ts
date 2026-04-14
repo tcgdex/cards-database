@@ -13,13 +13,23 @@ const card: Card = {
 		it: "Mega Gengar-ex",
 		pt: "Mega Gengar ex"
 	},
+	evolveFrom: {
+		en: "Haunter",
+		de: "Alpollo",
+		es: "Haunter",
+		'es-mx': "Haunter",
+		fr: "Spectrum",
+		it: "Haunter",
+		pt: "Haunter",
+	},
 
 	rarity: "Double rare",
 	category: "Pokemon",
+
+	dexId: [94],
 	hp: 350,
 	types: ["Darkness"],
 	stage: "Stage2",
-	dexId: [94],
 
 	abilities: [{
 		type: "Ability",
@@ -81,7 +91,8 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 857631
+		cardmarket: 857631,
+		tcgplayer: 660380
 	}
 }
 

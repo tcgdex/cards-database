@@ -61,11 +61,11 @@ function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: Suppo
 		if (variants?.firstEdition) addVariant('normal', ['1st-edition']);
 		if (variants?.wPromo) addVariant('normal', ['w-Promo']);
 	}
-	if (typeof variants?.reverse === 'boolean' ? variants.reverse : true) {
+	if (typeof variants?.reverse === 'boolean' ? variants.reverse : false) {
 		addVariant('reverse');
 		if (variants?.firstEdition) addVariant('reverse', ['1st-edition']);
 	}
-	if (typeof variants?.holo === 'boolean' ? variants.holo : true) {
+	if (typeof variants?.holo === 'boolean' ? variants.holo : false) {
 		addVariant('holo');
 		if (variants?.firstEdition) addVariant('holo', ['1st-edition']);
 	}
@@ -95,9 +95,9 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		variants : Array.isArray(card.variants) ?
 			variantsDetailedToVariants(card.variants) : {
 			firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
-			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : true,
+			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : false,
 			normal: typeof card.variants?.normal === 'boolean' ? card.variants.normal : true,
-			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : true,
+			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : false,
 			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
 		},
 

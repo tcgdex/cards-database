@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Mega Froslass-ex",
 		pt: "Mega Froslass ex"
 	},
+	evolveFrom: {
+		en: "Snorunt",
+		de: "Schneppke",
+		es: "Snorunt",
+		fr: "Stalgamin",
+		it: "Snorunt",
+		pt: "Snorunt",
+	},
 
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",

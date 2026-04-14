@@ -29,7 +29,7 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	thirdParty: {
-		cardmarket: 582976,
+		cardmarket: 583039,
 		tcgplayer: 253280
 	}
 }

@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Illustration rare",
 	category: "Pokemon",
+
+	dexId: [393],
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",
-	dexId: [393],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -69,7 +70,8 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 857673
+		cardmarket: 857673,
+		tcgplayer: 662215
 	}
 }
 

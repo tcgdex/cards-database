@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [672],
 	hp: 80,
 	types: ["Grass"],
 

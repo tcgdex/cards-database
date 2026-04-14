@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Aqua's Poochyena",
 		fr: "Medhyèna de la Team Aqua",
+		pt: "Poochyena da Equipe Aqua",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Roar",
 				fr: "Hurlement",
+				pt: "Rugido",
 			},
 			effect: {
 				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				pt: "Seu oponente troca o Pokémon Ativo por 1 dos próprios Pokémon no Banco."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				pt: "Mordida",
 			},
 
 			damage: 20,

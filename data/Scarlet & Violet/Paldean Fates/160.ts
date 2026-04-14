@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "Nelnal",
 
 	thirdParty: {
-		cardmarket: 751574
+		cardmarket: 751699
 	}
 }
 

@@ -17,6 +17,8 @@ const card: Card = {
 	description: {
 		en: "If the electric pouches in its cheeks become fully charged, both ears will stand straight up."
 	},
+	
+	hp: 90,
 
 	stage: "Stage1",
 

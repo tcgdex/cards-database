@@ -13,13 +13,22 @@ const card: Card = {
 		it: "Mega Sharpedo-ex",
 		pt: "Mega Sharpedo ex"
 	},
+	evolveFrom: {
+		en: "Carvanha",
+		de: "Kanivanha",
+		es: "Carvanha",
+		fr: "Carvanha",
+		it: "Carvanha",
+		pt: "Carvanha",
+	},
 
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+
+	dexId: [319],
 	hp: 330,
 	types: ["Darkness"],
 	stage: "Stage1",
-	dexId: [319],
 
 	attacks: [{
 		cost: ["Darkness"],
@@ -81,7 +90,8 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 857702
+		cardmarket: 857702,
+		tcgplayer: 662193
 	}
 }
 

@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Hiroyuki Yamamoto",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [709],
 	hp: 110,
 	types: ["Grass"],
 
