@@ -76,12 +76,9 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{ type: "normal" }
+	]
 }
 
 export default card
