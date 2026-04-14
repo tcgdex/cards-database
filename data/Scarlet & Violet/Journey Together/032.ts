@@ -80,7 +80,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			foil: "snowflake",
+			stamp: ["snowflake"],
 			thirdParty: {
 				cardmarket: 845411,
 			}
