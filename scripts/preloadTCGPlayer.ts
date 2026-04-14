@@ -9,10 +9,10 @@ import { Set } from '../interfaces'
  * Example usage : `bun meta/scripts/check-missing.ts "data/*\/*\/*.ts" thirdParty.cardmarket`
  */
 
-const userAgent = process.env.TCGCSV_USER_AGENT
-if (!userAgent) {
-	console.error('TCGCSV_USER_AGENT is not set')
-	process.exit(1)
+const userAgent = process.env.TCGCSV_USER_AGENT || 'tcgdex-dev/1.0'
+
+if (!process.env.TCGCSV_USER_AGENT) {
+	console.warn('TCGCSV_USER_AGENT is not set, using default: tcgdex-dev/1.0')
 }
 
 try {
