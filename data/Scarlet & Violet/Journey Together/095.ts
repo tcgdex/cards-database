@@ -102,7 +102,6 @@ const card: Card = {
 		{
 			type: "holo",
 			foil: "cosmos",
-			stamp: "cm-only-851019",
 			thirdParty: {
 				cardmarket: 851019,
 			}

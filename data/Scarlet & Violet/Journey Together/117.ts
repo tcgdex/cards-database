@@ -99,7 +99,6 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			foil: "unknown",
 			stamp: ["gamestop"],
 			thirdParty: {
 				cardmarket: 817770,
@@ -107,7 +106,6 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			foil: "unknown",
 			stamp: ["eb-games"],
 			thirdParty: {
 				cardmarket: 828859,
