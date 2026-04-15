@@ -24,15 +24,19 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
+				en: "Take Down",
 				fr: "Bélier",
 			},
-			damage: "40",
+			damage: 40,
 			effect: {
+				en: "This Pokémon does 10 damage to itself",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
 			},
 		},
 	],
-	
+
+	illustrator: "Midori Harada",
+
 	variants: [
 		{
 			type: 'holo',

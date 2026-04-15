@@ -31,7 +31,7 @@ const card: Card = {
 		},
 	],
 
-	illustrator: "Kanako Eo"
+	illustrator: "Kanako Eo",
 
 	variants: [
 		{
