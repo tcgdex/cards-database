@@ -36,15 +36,16 @@ const card: Card = {
 	rarity: "None",
 	hp: 70,
 	types: ["Fire"],
-    variants: [
-          {
-            type: 'normal',
-            thirdParty: {
-              cardmarket: 'placeholder',
-              tcgplayer: 89882
-            }
-          }
-        ]
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281792,
+				tcgplayer: 89882
+			}
+		}
+	]
 }
 
 export default card

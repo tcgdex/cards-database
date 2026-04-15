@@ -43,15 +43,16 @@ const card: Card = {
 	rarity: "None",
 	hp: 50,
 	types: ["Metal"],
-    variants: [
-          {
-            type: 'holo',
-            thirdParty: {
-              cardmarket: 'placeholder',
-              tcgplayer: 86480
-            }
-          }
-        ]
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281799,
+				tcgplayer: 86480
+			}
+		}
+	]
 }
 
 export default card

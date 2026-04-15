@@ -34,15 +34,16 @@ const card: Card = {
 	rarity: "None",
 	hp: 60,
 	types: ["Psychic"],
-    variants: [
-          {
-            type: 'placeholder',
-            thirdParty: {
-              cardmarket: 'placeholder',
-              tcgplayer: 87642
-            }
-          }
-        ]
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281796,
+				tcgplayer: 87642
+			}
+		}
+	]
 }
 
 export default card

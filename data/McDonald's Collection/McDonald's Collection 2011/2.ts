@@ -48,15 +48,16 @@ const card: Card = {
 	rarity: "None",
 	hp: 80,
 	types: ["Grass"],
-    variants: [
-          {
-            type: 'holo',
-            thirdParty: {
-              cardmarket: 281791,
-              tcgplayer: 87189
-            }
-          }
-        ]
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281791,
+				tcgplayer: 87189
+			}
+		}
+	]
 }
 
 export default card
