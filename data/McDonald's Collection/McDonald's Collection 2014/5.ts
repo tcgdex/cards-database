@@ -10,12 +10,6 @@ const card: Card = {
 	description: {
 		en: "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
 	},
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
@@ -27,10 +21,6 @@ const card: Card = {
 		"Lightning",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 281657,
-		tcgplayer: 110410,
-	},
 	attacks: [
 		{
 			cost: [
@@ -74,6 +64,17 @@ const card: Card = {
 		}
 	],
 	retreat: 1,
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281657,
+				tcgplayer: 110410
+			}
+		}
+	]
 }
 
 export default card

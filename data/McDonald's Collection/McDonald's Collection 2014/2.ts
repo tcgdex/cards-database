@@ -11,27 +11,17 @@ const card: Card = {
 	description: {
 		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
 	},
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Chespin",
 		fr: "Marisson",
 	},
 	rarity: "None",
-	
+
 	hp: 60,
 	types: [
 		"Grass",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 281654,
-		tcgplayer: 110407,
-	},
 	attacks: [
 		{
 			cost: [
@@ -62,9 +52,20 @@ const card: Card = {
 		},
 	],
 	resistances: [
-		
+
 	],
 	retreat: 1,
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281654,
+				tcgplayer: 110407
+			}
+		}
+	]
 }
 
 export default card

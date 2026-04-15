@@ -10,12 +10,6 @@ const card: Card = {
 	description: {
 		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit."
 	},
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Fennekin",
 		fr: "Feunnec",
@@ -27,10 +21,6 @@ const card: Card = {
 		"Fire",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 281655,
-		tcgplayer: 110408,
-	},
 	attacks: [
 		{
 			cost: [
@@ -61,9 +51,20 @@ const card: Card = {
 		},
 	],
 	resistances: [
-		
+
 	],
 	retreat: 1,
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281655,
+				tcgplayer: 110408
+			}
+		}
+	]
 }
 
 export default card

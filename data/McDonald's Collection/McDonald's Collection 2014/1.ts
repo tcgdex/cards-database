@@ -10,12 +10,6 @@ const card: Card = {
 	description: {
 		en: "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head."
 	},
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Weedle",
 		fr: "Aspicot",
@@ -27,10 +21,6 @@ const card: Card = {
 		"Grass",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 281653,
-		tcgplayer: 110406,
-	},
 	attacks: [
 		{
 			cost: [
@@ -47,16 +37,27 @@ const card: Card = {
 			},
 		},
 	],
-	weaknesses	: [
+	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
 	resistances: [
-		
+
 	],
 	retreat: 1,
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281653,
+				tcgplayer: 110406
+			}
+		}
+	]
 }
 
 export default card

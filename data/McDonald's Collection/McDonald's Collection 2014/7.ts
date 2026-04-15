@@ -10,12 +10,6 @@ const card: Card = {
 		en: "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force."
 	},
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Honedge",
 		fr: "Monorpale",
@@ -27,10 +21,6 @@ const card: Card = {
 		"Metal",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 281659,
-		tcgplayer: 110412,
-	},
 	attacks: [
 		{
 			cost: [
@@ -61,6 +51,17 @@ const card: Card = {
 		}
 	],
 	retreat: 2,
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281659,
+				tcgplayer: 110412
+			}
+		}
+	]
 }
 
 export default card
