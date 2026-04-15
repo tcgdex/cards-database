@@ -84,7 +84,6 @@ const card: Card = {
 			type: "holo",
 			stamp: ["player-rewards-program"],
 			foil: "cosmos"
-			// No ID available
 		}
 	],
 }

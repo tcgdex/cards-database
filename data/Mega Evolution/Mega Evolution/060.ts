@@ -94,7 +94,6 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["player-rewards-program"]
-			// No Ids available 
 		}
 	],
 }

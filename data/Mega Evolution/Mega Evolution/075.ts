@@ -70,12 +70,10 @@ const card: Card = {
 			type: "holo",
 			stamp: ["player-rewards-program"],
 			foil: "cosmos",
-			// No ID's available 
 		},
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"],
-			// No ID's available 
 		}
 	],
 }

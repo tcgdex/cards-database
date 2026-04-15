@@ -103,12 +103,10 @@ const card: Card = {
 			type: "holo",
 			stamp: ["player-rewards-program"],
 			foil: "cosmos"
-			// No ID on either CMT or TCGP
 		},
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"],
-			// No ID on either CMT or TCGP
 		}
 	],	
 }

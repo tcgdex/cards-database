@@ -83,13 +83,11 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"],
-			// No ID's available
 		},
 		{
 			type: "holo",
 			stamp: ["player-rewards-program"],
 			foil: "cosmos",
-			// No ID's available
 		}
 	],
 }

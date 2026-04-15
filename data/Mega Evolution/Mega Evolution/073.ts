@@ -108,7 +108,6 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"]
-			// No IDs available 
 		}
 	],
 }

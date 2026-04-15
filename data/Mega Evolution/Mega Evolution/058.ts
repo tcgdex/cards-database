@@ -83,7 +83,6 @@ const card: Card = {
 			foil: "cosmos",
 			thirdParty: {
 				cardmarket: 862193,
-				tcgplayer: /* MISSING_ID */
 			}
 		},
 	],

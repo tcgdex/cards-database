@@ -82,21 +82,21 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: "gamestop",
+			stamp: ["gamestop"],
 			thirdParty: {
 				cardmarket: 851265,
 			}
 		},
 		{
 			type: "holo",
-			stamp: "eb-games",
+			stamp: ["eb-games"],
 			thirdParty: {
 				cardmarket: 851266,
 			}
 		},
 		{
 			type: "holo",
-			stamp: "set-logo",
+			stamp: ["set-logo"],
 			thirdParty: {
 				cardmarket: 854291,
 			}

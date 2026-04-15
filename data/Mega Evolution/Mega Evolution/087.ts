@@ -92,7 +92,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: "trick-or-trade",
+			stamp: ["trick-or-trade"],
 			thirdParty: {
 				cardmarket: 850911,
 			}
