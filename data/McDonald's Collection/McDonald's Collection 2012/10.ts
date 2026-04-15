@@ -23,13 +23,6 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Scraggy",
 		fr: "Baggiguane"
@@ -39,9 +32,17 @@ const card: Card = {
 	hp: 60,
 	types: ["Darkness"],
 
-	thirdParty: {
-		tcgplayer: 88986
-	}
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281787,
+				tcgplayer: 88986
+			}
+		}
+	]
 }
 
 export default card
