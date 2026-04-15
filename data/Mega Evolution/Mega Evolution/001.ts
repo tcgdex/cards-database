@@ -69,7 +69,7 @@ const card: Card = {
 		{
 			type: "reverse",
 			foil: "league",
-			stamp: "30th-pokeday",
+			stamp: ["30th-pokeday"],
 			thirdParty: {
 				cardmarket: 871308,
 			}
