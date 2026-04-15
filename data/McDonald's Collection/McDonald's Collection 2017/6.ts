@@ -6,12 +6,6 @@ const card: Card = {
 		789,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Cosmog",
 		fr: "Cosmog",
@@ -23,23 +17,33 @@ const card: Card = {
 		"Psychic",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 301848,
-		tcgplayer: 152686,
-	},
 	attacks: [
 		{
 			cost: [
 				"Colorless",
 			],
 			name: {
+				en: "Dust Gathering",
 				fr: "Ramasse Poussière",
 			},
 			effect: {
+				en: "Draw a card",
 				fr: "Piochez une carte.",
 			},
 		},
 	],
+
+	illustrator: "Megumi Mizutani",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 301848,
+				tcgplayer: 152686
+			}
+		}
+	]
 }
 
 export default card

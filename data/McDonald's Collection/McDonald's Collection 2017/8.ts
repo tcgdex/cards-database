@@ -6,12 +6,6 @@ const card: Card = {
 		52,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false,
-	},
 	name: {
 		en: "Alolan Meowth",
 		fr: "Miaouss d'Alola",
@@ -23,22 +17,32 @@ const card: Card = {
 		"Darkness",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 301850,
-		tcgplayer: 152688,
-	},
 	attacks: [
 		{
 			cost: [],
 			name: {
+				en: "Fury Swipes",
 				fr: "Combo-Griffe",
 			},
 			damage: "10×",
 			effect: {
+				en: "Flip 3 coins. This attack does 10 damage for each heads",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 		},
 	],
+
+	illustrator: "Kagemaru Himeno",
+	
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 301850,
+				tcgplayer: 152688
+			}
+		}
+	]
 }
 
 export default card

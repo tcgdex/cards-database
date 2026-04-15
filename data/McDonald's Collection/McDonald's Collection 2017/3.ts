@@ -6,12 +6,6 @@ const card: Card = {
 		725,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false,
-	},
 	name: {
 		en: "Litten",
 		fr: "Flamiaou",
@@ -23,16 +17,13 @@ const card: Card = {
 		"Fire",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 301845,
-		tcgplayer: 152683,
-	},
 	attacks: [
 		{
 			cost: [
 				"Fire",
 			],
 			name: {
+				en: "Bite",
 				fr: "Morsure",
 			},
 			damage: "10",
@@ -43,11 +34,24 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Flare",
 				fr: "Flamboiement",
 			},
 			damage: "20",
 		},
 	],
+
+	illustrator: "Akira Komayama",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 301845,
+				tcgplayer: 152683
+			}
+		}
+	]
 }
 
 export default card

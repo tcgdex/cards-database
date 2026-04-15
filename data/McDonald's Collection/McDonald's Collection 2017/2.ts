@@ -6,12 +6,6 @@ const card: Card = {
 		736,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Grubbin",
 		fr: "Larvibule",
@@ -23,10 +17,6 @@ const card: Card = {
 		"Grass",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 301844,
-		tcgplayer: 152682,
-	},
 	attacks: [
 		{
 			cost: [
@@ -34,11 +24,24 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Vice Grips",
 				fr: "Force Poigne",
 			},
 			damage: "20",
 		},
 	],
+
+	illustrator: "Akira Komayama",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 301844,
+				tcgplayer: 152682
+			}
+		}
+	]
 }
 
 export default card
