@@ -6,12 +6,6 @@ const card: Card = {
 		270,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false,
-	},
 	name: {
 		en: "Lotad",
 		fr: "Nénupiot",
@@ -23,10 +17,6 @@ const card: Card = {
 		"Grass",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 293318,
-		tcgplayer: 110422,
-	},
 	attacks: [
 		{
 			cost: [
@@ -34,11 +24,24 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Beat",
 				fr: "Bataille",
 			},
 			damage: "20",
 		},
 	],
+
+	illustrator: "Kanako Eo"
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 293318,
+				tcgplayer: 110422
+			}
+		}
+	]
 }
 
 export default card

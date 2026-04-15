@@ -6,12 +6,6 @@ const card: Card = {
 		307,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Meditite",
 		fr: "Méditikka",
@@ -23,21 +17,30 @@ const card: Card = {
 		"Fighting",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 293325,
-		tcgplayer: 110425,
-	},
 	attacks: [
 		{
 			cost: [
 				"Fighting",
 			],
 			name: {
+				en: "Smack",
 				fr: "Claque",
 			},
 			damage: "20",
 		},
 	],
+
+	illustrator: "sui",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 293325,
+				tcgplayer: 110425
+			}
+		}
+	]
 }
 
 export default card

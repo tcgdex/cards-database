@@ -6,12 +6,6 @@ const card: Card = {
 		263,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Zigzagoon",
 		fr: "Zigzaton",
@@ -23,19 +17,17 @@ const card: Card = {
 		"Colorless",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 293327,
-		tcgplayer: 110423,
-	},
 	attacks: [
 		{
 			cost: [
 				"Colorless",
 			],
 			name: {
+				en: "Sand Attack",
 				fr: "Jet de Sable",
 			},
 			effect: {
+				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
 			},
 		},
@@ -45,11 +37,25 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Headbutt",
 				fr: "Coup d'Boule",
 			},
 			damage: "20",
 		},
 	],
+
+	illustrator: "Sumiyoshi Kizuki",
+	retreat: 1,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 293327,
+				tcgplayer: 110423
+			}
+		}
+	]
 }
 
 export default card
