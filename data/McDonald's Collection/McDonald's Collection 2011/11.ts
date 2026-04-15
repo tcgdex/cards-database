@@ -33,13 +33,6 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Pidove",
 		fr: "Poichigeon"
@@ -49,9 +42,15 @@ const card: Card = {
 	hp: 40,
 	types: ["Colorless"],
 
-	thirdParty: {
-		tcgplayer: 88055
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281800,
+				tcgplayer: 88055
+			}
+		}
+	]
 }
 
 export default card

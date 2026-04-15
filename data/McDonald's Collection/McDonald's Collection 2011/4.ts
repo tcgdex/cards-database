@@ -28,13 +28,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Oshawott",
 		fr: "Moustillon"
@@ -44,9 +37,15 @@ const card: Card = {
 	hp: 60,
 	types: ["Water"],
 
-	thirdParty: {
-		tcgplayer: 87893
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281793,
+				tcgplayer: 87893
+			}
+		}
+	]
 }
 
 export default card

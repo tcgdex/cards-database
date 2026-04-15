@@ -28,13 +28,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Snivy",
 		fr: "Vipélierre"
@@ -43,10 +36,15 @@ const card: Card = {
 	rarity: "None",
 	hp: 60,
 	types: ["Grass"],
-
-	thirdParty: {
-		tcgplayer: 89378
-	}
+    variants: [
+          {
+            type: 'holo',
+            thirdParty: {
+              cardmarket: 'placeholder',
+              tcgplayer: 89378
+            }
+          }
+        ]
 }
 
 export default card

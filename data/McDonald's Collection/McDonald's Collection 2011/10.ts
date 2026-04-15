@@ -35,13 +35,6 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Klink",
 		fr: "Tic"
@@ -50,10 +43,15 @@ const card: Card = {
 	rarity: "None",
 	hp: 50,
 	types: ["Metal"],
-
-	thirdParty: {
-		tcgplayer: 86480
-	}
+    variants: [
+          {
+            type: 'holo',
+            thirdParty: {
+              cardmarket: 'placeholder',
+              tcgplayer: 86480
+            }
+          }
+        ]
 }
 
 export default card
