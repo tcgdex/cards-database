@@ -86,7 +86,7 @@ export interface variant_detailed {
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
 	foil?: 'pokeball' | 'greatball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
-	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'tinsel'
+	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'tinsel' | 'loveball' | 'friendball' | 'quickball' | 'team-rocket' | 'duskball'
 
 	/**
 	 * list of languages for which this variant is available

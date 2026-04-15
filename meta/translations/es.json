@@ -130,7 +130,12 @@
 		"league": "league",
 		"player-reward": "player-reward",
 		"professor-program": "professor-program",
-		"tinsel": "tinsel"
+		"tinsel": "tinsel",
+		"loveball": "Amor Ball",
+		"friendball": "Amigo Ball", 
+		"quickball": "Veloz Ball",
+		"duskball": "Ocaso Ball", 
+		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
 		"1st-edition": "1ra Edición",
