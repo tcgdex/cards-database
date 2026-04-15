@@ -3,52 +3,59 @@ import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Phyllali",
+		fr: "Mentali",
 	},
-	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	illustrator: "Mizue",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [470],
+	dexId: [196],
 	hp: 90,
-	types: ["Grass"],
+	types: ["Psychic"],
 
 	stage: "Stage1",
 
-	attacks: [
+	abilities: [
 		{
-			cost: ["Colorless"],
+			type: "Ability",
 			name: {
-				fr: "Vive-Attaque",
+				fr: "Révélation Solaire"
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				fr: "Évitez tous les effets des attaques de vyotre adversaire, excepté les dégâts, infligés à chacun de vos Pokémon auquel de l'Energie est attachée. Observation Psychique Votre adversaire montre sa main."
 			},
-			damage: "10+",
-		},
+		}
+	],
+	attacks: [
 		{
-			cost: ["Grass", "Colorless"],
+			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				fr: "Lame-Feuille",
+				fr: "Observation Psychique",
 			},
-			damage: 40,
-		},
+			effect: {
+				fr: "Votre adversaire montre sa main."
+			},
+			damage: 60,
+		}
 	],
 	weaknesses: [
 		{
-			type: "Fire",
+			type: "Psychic",
 			value: "x2"
-		},
-	],
-	resistances: [
-		{
-			type: "Water",
-			value: "-20"
 		},
 	],
 
 	retreat: 1,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 361727,
+			}
+		}
+	]
 }
 
 export default card

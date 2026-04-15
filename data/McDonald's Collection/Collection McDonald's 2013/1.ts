@@ -3,45 +3,65 @@ import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Évoli",
+		fr: "Phyllali",
 	},
-	illustrator: "Kagemaru Himeno",
-	rarity: "Common",
+	illustrator: "Masakazu Fukuda",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [133],
-	hp: 50,
-	types: ["Colorless"],
+	dexId: [470],
+	hp: 90,
+	types: ["Grass"],
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Mimi-Queue",
+				fr: "Vive-Attaque",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
+			damage: "10+",
 		},
 		{
-			cost: ["Colorless"],
+			cost: ["Grass", "Colorless"],
 			name: {
-				fr: "Morsure",
+				fr: "Assistance Énergétique",
 			},
-			damage: 10,
+			effect: {
+				fr: "Attachez une carte Énergie de base de votre pile de défausse à I de vos Pokémon de Banc.",
+			},
+			damage: 40,
 		},
 	],
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Fire",
 			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
 		},
 	],
 
 	retreat: 1,
+
+	variants: [
+		{
+			type: 'holo',
+
+			thirdParty: {
+				cardmarket: 361721,
+			}
+		}
+	]
 }
 
 export default card
