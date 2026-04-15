@@ -41,18 +41,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Shimaris Yukichi",
 
-	thirdParty: {
-		cardmarket: 817153
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817153,
+				tcgplayer: 623428
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817153,
+				tcgplayer: 623428
+			}
 		},
-	]
+	],
 }
 
 export default card

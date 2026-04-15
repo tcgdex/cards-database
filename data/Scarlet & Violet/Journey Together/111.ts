@@ -75,19 +75,19 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "aky CG Works",
 
-	thirdParty: {
-		cardmarket: 817263
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817263,
+				tcgplayer: 623538
+			}
 		},
 		{
 			type: 'holo',
 			stamp: ['player-rewards-program']
 		}
-	]
+	],
 }
 
 export default card

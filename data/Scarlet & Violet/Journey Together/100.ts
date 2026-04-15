@@ -50,18 +50,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "AKIRA EGAWA",
 
-	thirdParty: {
-		cardmarket: 817252
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817252,
+				tcgplayer: 623527
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817252,
+				tcgplayer: 623527
+			}
 		},
-	]
+	],
 }
 
 export default card

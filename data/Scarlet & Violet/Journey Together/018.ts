@@ -84,22 +84,29 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 817170
-	},
-
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817170,
+				tcgplayer: 623445
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817170,
+				tcgplayer: 623445
+			}
 		},
 		{
-			type: 'holo',
-			foil: 'cosmos'
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 851016,
+			}
 		},
-	]
+	],
 }
 
 export default card

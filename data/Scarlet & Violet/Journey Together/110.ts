@@ -64,18 +64,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Ryuta Fuse",
 
-	thirdParty: {
-		cardmarket: 817262
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817262,
+				tcgplayer: 623537
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817262,
+				tcgplayer: 623537
+			}
 		},
-	]
+	],
 }
 
 export default card
