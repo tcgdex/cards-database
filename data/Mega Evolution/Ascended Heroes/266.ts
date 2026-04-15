@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Mega Eelektross-ex",
 		pt: "Mega Eelektross ex"
 	},
+	evolveFrom: {
+		en: "Eelektrik",
+		de: "Zapplalek",
+		es: "Eelektrik",
+		'es-mx': "Eelektrik",
+		fr: "Lampéroie",
+		it: "Eelektrik",
+		pt: "Eelektrik",
+	},
 
 	illustrator: "DOM",
 	rarity: "Ultra Rare",
@@ -72,10 +81,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676078,
-		cardmarket: 869877
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869877,
+				tcgplayer: 676078
+			}
+		}
+	],
 }
 
 export default card

@@ -20,15 +20,18 @@ const card: Card = {
 
 	trainerType: "Technical Machine",
 
-	attacks: [{
-		name: {
-			de: "Devoluter"
+	attacks: [
+		{
+			name: {
+				de: "Devoluter",
+				fr: "Dés-Évolutionneur",
+			},
+			effect: {
+				de: "Wähle 1 entwickeltes Pokémon deines Gegners (außer Pokémon LV.X). Entferne die höchste Evolutionskarte vom gewählten Pokémon, dein Gegner nimmt diese Karte auf seine Hand zurück.",
+				fr: "Choisissez 1 des Pokémon Évolués de votre adversaire (Pokémon NIV.X exclus). Retirez à ce Pokémon sa carte au niveau d'Évolution le plus élevé et replacez cette carte dans la main de votre adversaire.",
+			},
 		},
-
-		effect: {
-			de: "Wähle 1 entwickeltes Pokémon deines Gegners (außer Pokémon LV.X). Entferne die höchste Evolutionskarte vom gewählten Pokémon, dein Gegner nimmt diese Karte auf seine Hand zurück."
-		}
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 278286,

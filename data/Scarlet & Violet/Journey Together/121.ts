@@ -84,15 +84,15 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 817273
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817273,
+				tcgplayer: 623548
+			}
 		},
-	]
+	],
 }
 
 export default card

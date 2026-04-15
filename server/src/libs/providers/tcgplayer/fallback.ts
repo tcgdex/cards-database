@@ -18,10 +18,17 @@ export interface Result {
 	subTypeName: string
 }
 
+const userAgent = process.env.TCGCSV_USER_AGENT
+
 let cache: Record<number, Record<string, Result>> = {}
 let lastFetch: Date | undefined = undefined
 let lastUpdate: Date | undefined = undefined
 export async function updateTCGPlayerDatas(): Promise<boolean> {
+
+	if (!userAgent) {
+		console.warn('TCGCSV_USER_AGENT is not set, skipping TCGPlayer pricing update')
+		return false
+	}
 
 	// only fetch at max, once an hour
 	if (lastFetch && lastFetch.getTime() > new Date().getTime() - 3600000) {
@@ -29,7 +36,9 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 	}
 
 	// check if it has updated yet
-	const updated = await fetch('https://tcgcsv.com/last-updated.txt')
+	const updated = await fetch('https://tcgcsv.com/last-updated.txt', {
+		headers: { 'User-Agent': userAgent }
+	})
 		.then((it) => it.text())
 		.then((it) => new Date(it))
 
@@ -43,7 +52,9 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 		.map((it) => it!.thirdParty!.tcgplayer)
 
 	for (const product of products) {
-		const res = await fetch(`https://tcgcsv.com/tcgplayer/3/${product}/prices`)
+		const res = await fetch(`https://tcgcsv.com/tcgplayer/3/${product}/prices`, {
+			headers: { 'User-Agent': userAgent }
+		})
 
 		if (res.status >= 400) {
 			console.warn(`couldn\'t load TCGplayer datas for ${product} :(` + await res.text())

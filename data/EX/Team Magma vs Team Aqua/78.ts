@@ -15,8 +15,8 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu.\n\nChaque Pokémon dont le nom ne comporte pas Team Aqua doit payer un  supplémentaire pour battre en retraite.",
-		de: "Each Pokémon that does not have Team Aqua in its name pays  more to retreat."
+		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
+		de: "Each Pokémon that does not have Team Aqua in its name pays  more to retreat.",
 	},
 
 	thirdParty: {

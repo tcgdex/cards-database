@@ -28,9 +28,22 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["regional-championships"]
+		},
+		{
+			type: "normal",
+			stamp: ["regional-championships", "staff"]
+		}
+	],
 
 	illustrator: "Sanosuke Sakuma",
 

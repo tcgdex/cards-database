@@ -84,15 +84,15 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 817336
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817336,
+				tcgplayer: 623610
+			}
 		},
-	]
+	],
 }
 
 export default card

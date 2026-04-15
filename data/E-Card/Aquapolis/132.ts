@@ -18,17 +18,21 @@ const card: Card = {
 		de: "LLege diese Karte an 1 deiner -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Psycho-Würfel 01 auf deinen Ablagestapel."
 	},
 
-	attacks: [{
-		name: {
-			de: "Psy Confuse"
+	attacks: [
+		{
+			name: {
+				de: "Psy Confuse",
+				fr: "Confusion psy",
+			},
+			effect: {
+				de: "The Defending Pokémon is now Confused.",
+				fr: "Le Pokémon Défenseur est maintenant Confus.",
+			},
+			cost: [
+				"Psychic",
+			],
 		},
-
-		effect: {
-			de: "The Defending Pokémon is now Confused."
-		},
-
-		cost: ["Psychic"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 275208,

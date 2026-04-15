@@ -15,8 +15,8 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.\n\nChaque joueur paye  en moins pour faire battre son Pokémon  en retraite.",
-		de: "Jeder Spieler bezahlt   weniger, um seine -Pokémon zurückzuziehen."
+		fr: "Chaque joueur paye Incolore Incolore en moins pour faire battre son Pokémon Psy en retraite.",
+		de: "Jeder Spieler bezahlt   weniger, um seine -Pokémon zurückzuziehen.",
 	},
 
 	thirdParty: {

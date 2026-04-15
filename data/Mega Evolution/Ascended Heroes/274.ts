@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Mega Feraligatr-ex",
 		pt: "Mega Feraligatr ex"
 	},
+	evolveFrom: {
+		en: "Croconaw",
+		de: "Tyracroc",
+		es: "Croconaw",
+		fr: "Crocrodil",
+		it: "Croconaw",
+		pt: "Croconaw",
+	},
 
 	illustrator: "Souichirou Gunjima",
 	rarity: "Special illustration rare",
@@ -50,10 +58,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 676086,
-		cardmarket: 869885
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869885,
+				tcgplayer: 676086
+			}
+		}
+	],
 }
 
 export default card
