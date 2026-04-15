@@ -11,7 +11,7 @@ const card: Card = {
 	description: {
 		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling it skin up to its neck."
 	},
-	
+
 	hp: 60,
 
 	stage: "Basic",
@@ -32,10 +32,15 @@ const card: Card = {
 
 	rarity: "None",
 
-	thirdParty: {
-		cardmarket: 295143,
-		tcgplayer: 275063
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 295143,
+				tcgplayer: 275063
+			}
+		}
+	]
 }
 
 export default card

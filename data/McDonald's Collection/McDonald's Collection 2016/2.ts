@@ -11,7 +11,7 @@ const card: Card = {
 	description: {
 		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit."
 	},
-	
+
 	hp: 60,
 
 	stage: "Basic",
@@ -37,10 +37,15 @@ const card: Card = {
 
 	rarity: "None",
 
-	thirdParty: {
-		cardmarket: 295138,
-		tcgplayer: 275058
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 295138,
+				tcgplayer: 275058
+			}
+		}
+	]
 }
 
 export default card

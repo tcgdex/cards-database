@@ -11,7 +11,7 @@ const card: Card = {
 	description: {
 		en: "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody."
 	},
-	
+
 	hp: 60,
 
 	stage: "Basic",
@@ -42,10 +42,15 @@ const card: Card = {
 
 	rarity: "None",
 
-	thirdParty: {
-		cardmarket: 295144,
-		tcgplayer: 275064
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 295144,
+				tcgplayer: 275064
+			}
+		}
+	]
 }
 
 export default card
