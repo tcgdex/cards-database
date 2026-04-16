@@ -57,6 +57,9 @@ const card: Card = {
 			}
 		}
 	],
+
+	illustrator: "Uninori",
+  
 }
 
 export default card

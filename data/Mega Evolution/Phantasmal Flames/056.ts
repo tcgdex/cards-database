@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Mega Gengar-ex",
 		pt: "Mega Gengar ex"
 	},
+	evolveFrom: {
+		en: "Haunter",
+		de: "Alpollo",
+		es: "Haunter",
+		'es-mx': "Haunter",
+		fr: "Spectrum",
+		it: "Haunter",
+		pt: "Haunter",
+	},
 
 	rarity: "Double rare",
 	category: "Pokemon",

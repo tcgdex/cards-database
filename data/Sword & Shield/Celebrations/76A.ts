@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "M Rayquaza EX"
+		en: "M Rayquaza EX",
+		fr: "M-Rayquaza-EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -31,11 +32,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Emerald Break"
+			en: "Emerald Break",
+			fr: "Bris'Émeraude"
 		},
 
 		effect: {
-			en: "This attack does 30 damage times the number of your Benched Pokémon."
+			en: "This attack does 30 damage times the number of your Benched Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts multipliés par le nombre de vos Pokémon de Banc."
 		},
 
 		damage: "30×",
