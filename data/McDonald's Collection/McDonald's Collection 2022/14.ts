@@ -75,9 +75,14 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
 	variants: [
-		{ type: "normal" }
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670479,
+				tcgplayer: 281497
+			}
+		}
 	]
 }
 
