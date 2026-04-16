@@ -74,13 +74,6 @@ const card: Card = {
 	},
 	{
 		type: "reverse",
-		thirdParty: {
-			cardmarket: 869730,
-			tcgplayer: 675931
-		}
-	},
-	{
-		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
 			cardmarket: 870323,
