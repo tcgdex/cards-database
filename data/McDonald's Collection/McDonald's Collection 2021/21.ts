@@ -55,13 +55,27 @@ const card: Card = {
 	description: {
 		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing."
 	},
+	
+	variants: [
+		{
+			type: 'normal',
+			stamp: ["25th-celebration"],
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+			thirdParty: {
+				cardmarket: 538968,
+				tcgplayer: 232335
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538978,
+				tcgplayer: 232335
+			}
+		}
+	]
 }
 
 export default card

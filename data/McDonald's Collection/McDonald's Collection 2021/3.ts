@@ -56,12 +56,26 @@ const card: Card = {
 		en: "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538798,
+				tcgplayer: 232318
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538803,
+				tcgplayer: 232318
+			}
+		}
+	]
 }
 
 export default card

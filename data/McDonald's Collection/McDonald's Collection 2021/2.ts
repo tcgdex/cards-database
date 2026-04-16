@@ -55,12 +55,26 @@ const card: Card = {
 		en: "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538788,
+				tcgplayer: 232317
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538793,
+				tcgplayer: 232317
+			}
+		}
+	]
 }
 
 export default card

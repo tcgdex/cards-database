@@ -55,12 +55,26 @@ const card: Card = {
 		en: "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+    variants: [
+          {
+            type: 'normal',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538948,
+				tcgplayer: 232332
+			}
+          },
+          {
+            type: 'holo',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538953,
+				tcgplayer: 232332
+			}
+          }
+        ]
 }
 
 export default card

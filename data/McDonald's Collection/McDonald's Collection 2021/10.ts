@@ -53,12 +53,26 @@ const card: Card = {
 		en: "It has a timid nature. If it is startled, the flames on its back burn more vigorously."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538868,
+				tcgplayer: 232325
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538873,
+				tcgplayer: 232325
+			}
+		}
+	]
 }
 
 export default card

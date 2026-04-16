@@ -64,13 +64,27 @@ const card: Card = {
 	description: {
 		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock."
 	},
+	
+	variants: [
+		{
+			type: 'normal',
+			stamp: ["25th-celebration"],
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+			thirdParty: {
+				cardmarket: 538828,
+				tcgplayer: 232321
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538833,
+				tcgplayer: 232321
+			}
+		}
+	]
 }
 
 export default card

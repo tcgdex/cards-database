@@ -65,12 +65,26 @@ const card: Card = {
 		en: "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538858,
+				tcgplayer: 232324
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538863,
+				tcgplayer: 232324
+			}
+		}
+	]
 }
 
 export default card
