@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Mega Meganium-ex",
 		pt: "Mega Meganium ex"
 	},
+	evolveFrom: {
+		en: "Bayleef",
+		de: "Lorblatt",
+		es: "Bayleef",
+		'es-mx': "Bayleef",
+		fr: "Macronium",
+		it: "Bayleef",
+		pt: "Bayleef",
+	},
 
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
@@ -50,10 +59,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675822,
-		cardmarket: 869621
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869621,
+				tcgplayer: 675822
+			}
+		}
+	],
 }
 
 export default card

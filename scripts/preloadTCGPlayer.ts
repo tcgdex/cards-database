@@ -9,6 +9,12 @@ import { Set } from '../interfaces'
  * Example usage : `bun meta/scripts/check-missing.ts "data/*\/*\/*.ts" thirdParty.cardmarket`
  */
 
+const userAgent = process.env.TCGCSV_USER_AGENT || 'tcgdex-dev/1.0'
+
+if (!process.env.TCGCSV_USER_AGENT) {
+	console.warn('TCGCSV_USER_AGENT is not set, using default: tcgdex-dev/1.0')
+}
+
 try {
 
 	// Load groups.json
@@ -16,8 +22,9 @@ try {
 	const baseFolder = 'var/models/tcgplayer'
 	await fs.mkdir(baseFolder, { recursive: true })
 
-	const products = await fetch(`https://tcgcsv.com/tcgplayer/3/groups`)
-		.then((it) => it.json())
+	const products = await fetch(`https://tcgcsv.com/tcgplayer/3/groups`, {
+		headers: { 'User-Agent': userAgent }
+	}).then((it) => it.json())
 	await fs.writeFile(`${baseFolder}/groups.json`, JSON.stringify(products))
 
 	// Load products
@@ -40,7 +47,9 @@ try {
 
 	for (const id of ids) {
 		console.log('Loading product', id)
-		const products = await fetch(`https://tcgcsv.com/tcgplayer/3/${id}/products`)
+		const products = await fetch(`https://tcgcsv.com/tcgplayer/3/${id}/products`, {
+			headers: { 'User-Agent': userAgent }
+		})
 			.then((it) => it.json())
 		await fs.writeFile(`${folder}/${id}.json`, JSON.stringify(products))
 	}

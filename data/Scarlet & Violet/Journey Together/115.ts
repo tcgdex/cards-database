@@ -65,18 +65,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 817267
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817267,
+				tcgplayer: 623542
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817267,
+				tcgplayer: 623542
+			}
 		},
-	]
+	],
 }
 
 export default card

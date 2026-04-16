@@ -75,9 +75,21 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
+		}
+	],
 
 	illustrator: "Masako Tomii",
 

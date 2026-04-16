@@ -18,17 +18,21 @@ const card: Card = {
 		de: "Lege diese Karte an 1 deiner Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Vielzweckmaschine 01 auf deinen Ablagestapel."
 	},
 
-	attacks: [{
-		name: {
-			de: "Lähmender Blick"
+	attacks: [
+		{
+			name: {
+				de: "Lähmender Blick",
+				fr: "Regard paralysant",
+			},
+			effect: {
+				de: "Das Verteidigende Pokémon ist jetzt gelähmt.",
+				fr: "Le Pokémon Défenseur est maintenant Paralysé.",
+			},
+			cost: [
+				"Colorless",
+			],
 		},
-
-		effect: {
-			de: "Das Verteidigende Pokémon ist jetzt gelähmt."
-		},
-
-		cost: ["Colorless"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 275019,

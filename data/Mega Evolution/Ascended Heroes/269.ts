@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Mega Gengar-ex",
 		pt: "Mega Gengar ex"
 	},
+	evolveFrom: {
+		en: "Haunter",
+		de: "Alpollo",
+		es: "Haunter",
+		'es-mx': "Haunter",
+		fr: "Spectrum",
+		it: "Haunter",
+		pt: "Haunter",
+	},
 
 	illustrator: "Taiga Kasai",
 	rarity: "Ultra Rare",
@@ -74,10 +83,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676081,
-		cardmarket: 869880
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869880,
+				tcgplayer: 676081
+			}
+		}
+	],
 }
 
 export default card

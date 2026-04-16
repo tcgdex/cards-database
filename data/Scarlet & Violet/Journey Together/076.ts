@@ -55,18 +55,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Mugi Hamada",
 
-	thirdParty: {
-		cardmarket: 817228
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817228,
+				tcgplayer: 623503
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817228,
+				tcgplayer: 623503
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -117,6 +117,7 @@
 	},
 	"variantFoil": {
 		"pokeball": "Pokéball",
+		"greatball": "Greatball",
 		"ultraball": "Ultraball",
 		"masterball": "Meisterball",
 		"gold": "Gold",
@@ -128,7 +129,13 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"tinsel": "tinsel",
+		"loveball": "Sympaball",
+		"friendball": "Freundesball",
+		"quickball": "Flottball",
+		"duskball": "Finsterball",
+		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
 		"1st-edition": "1. Auflage",
@@ -229,7 +236,8 @@
 		"judge": "richter",
 		"international-championship-europe": "international-championship-europe",
 		"international-championship-latin-america": "international-championship-latin-america",
-		"international-championship-north-america": "international-championship-north-america"
+		"international-championship-north-america": "international-championship-north-america",
+		"ace-trainer": "Ace Trainer"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",

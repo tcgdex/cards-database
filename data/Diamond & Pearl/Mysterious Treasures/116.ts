@@ -20,16 +20,19 @@ const card: Card = {
 		de: "Spiele Panzerfossil wie ein -Basis-Pokémon. (Panzerfossil zählt gleichzeitig als Trainerkarte, aber wenn Panzerfossil kampfunfähig wird, zählt es als kampfunfähiges Pokémon.) Panzerfossil kann nicht von Speziellen Zuständen betroffen werden und sich nicht zurückziehen. In deinem Zug (vor deinem Angriff) kannst du Panzerfossil auf deinen Ablagestapel legen. (Dies zählt nicht als kampfunfähig gemachtes Pokémon.)"
 	},
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Panzerungsstein"
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				de: "Panzerungsstein",
+				fr: "Armure de pierre",
+			},
+			effect: {
+				de: "Wenn Panzerfossil durch einen gegnerischen Angriff Schaden zugefügt würde, wirf 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Reduziere den Schaden dieses Angriffs um 10 Schadenspunkte mal der Anzahl \"Kopf\".",
+				fr: "Si une attaque de votre adversaire inflige des dégâts à Fossile armure, lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, réduisez ces dégâts de 10.",
+			},
 		},
-
-		effect: {
-			de: "Wenn Panzerfossil durch einen gegnerischen Angriff Schaden zugefügt würde, wirf 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Reduziere den Schaden dieses Angriffs um 10 Schadenspunkte mal der Anzahl \"Kopf\"."
-		}
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 277745,

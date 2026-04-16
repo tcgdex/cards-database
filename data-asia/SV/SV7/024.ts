@@ -64,7 +64,11 @@ const card: Card = {
 			'zh-tw': "這隻寶可夢使用招式所需的【無】能量，減少自己的棄牌區的「海岱」的張數。",
 			'zh-cn': "這隻寶可夢使用招式所需的【無】能量，減少自己的棄牌區的「海岱」的張數。"
 		}
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 779038
+	}
 }
 
 export default card
