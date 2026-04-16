@@ -43,15 +43,15 @@ const card: Card = {
 
 	illustrator: "match",
 
-    variants: [
-          {
+	variants: [
+		{
 			type: 'holo',
-            thirdParty: {
-              cardmarket: 301854,
-              tcgplayer: 152693
-            }
-          }
-        ]
+			thirdParty: {
+				cardmarket: 301854,
+				tcgplayer: 152693
+			}
+		}
+	]
 }
 
 export default card

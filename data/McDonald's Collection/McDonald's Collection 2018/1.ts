@@ -5,13 +5,6 @@ const card: Card = {
 	dexId: [58],
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Growlithe"
 	},
@@ -21,11 +14,41 @@ const card: Card = {
 	hp: 80,
 	types: ["Fire"],
 	stage: "Basic",
+	attacks: [
+		{
+			cost: [
+				"Fire", "Colorless", "Colorless",
+			],
+			name: {
+				en: "Take Down",
+			},
+			effect: {
+				en: "This Pokémon does 20 damage to itself"
+			},
+			damage: 60,
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 362776,
-		tcgplayer: 180450
-	}
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		}
+	],
+
+	retreat: 2,
+
+	illustrator: "MAHOU",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 366769,
+				tcgplayer: 180450
+			}
+		}
+	]
 }
 
 export default card
