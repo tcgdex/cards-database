@@ -26,13 +26,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Alolan Meowth"
 	},
@@ -41,10 +34,30 @@ const card: Card = {
 	hp: 60,
 	types: ["Darkness"],
 
-	thirdParty: {
-		cardmarket: 412894,
-		tcgplayer: 200975
-	}
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		}
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		}
+	],
+
+	retreat: 1,
+	
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 412894,
+				tcgplayer: 200975
+			}
+		}
+	]
 }
 
 export default card

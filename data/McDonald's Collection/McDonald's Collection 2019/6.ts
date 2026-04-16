@@ -26,13 +26,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Pikachu"
 	},
@@ -41,10 +34,30 @@ const card: Card = {
 	hp: 60,
 	types: ["Lightning"],
 
-	thirdParty: {
-		cardmarket: 412874,
-		tcgplayer: 200967
-	}
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		}
+	],
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		}
+	],
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 412874,
+				tcgplayer: 200967
+			}
+		}
+	]
 }
 
 export default card

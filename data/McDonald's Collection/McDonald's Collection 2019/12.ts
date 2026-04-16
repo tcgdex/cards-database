@@ -22,13 +22,6 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Eevee"
 	},
@@ -37,10 +30,24 @@ const card: Card = {
 	hp: 60,
 	types: ["Colorless"],
 
-	thirdParty: {
-		cardmarket: 412904,
-		tcgplayer: 200977
-	}
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		}
+	],
+
+	retreat: 1,
+
+    variants: [
+          {
+            type: 'holo',
+            thirdParty: {
+              cardmarket: 412904,
+              tcgplayer: 200977
+            }
+          }
+        ]
 }
 
 export default card

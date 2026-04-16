@@ -26,13 +26,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Alolan Dugtrio"
 	},
@@ -41,10 +34,30 @@ const card: Card = {
 	hp: 60,
 	types: ["Metal"],
 
-	thirdParty: {
-		cardmarket: 412899,
-		tcgplayer: 200976
-	}
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		}
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		}
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 412899,
+				tcgplayer: 200976
+			}
+		}
+	]
 }
 
 export default card

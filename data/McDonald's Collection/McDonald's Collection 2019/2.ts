@@ -26,13 +26,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Alolan Exeggutor"
 	},
@@ -41,10 +34,24 @@ const card: Card = {
 	hp: 160,
 	types: ["Grass"],
 
-	thirdParty: {
-		cardmarket: 412854,
-		tcgplayer: 200961
-	}
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		}
+	],
+
+	retreat: 3,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 412854,
+				tcgplayer: 200961
+			}
+		}
+	]
 }
 
 export default card

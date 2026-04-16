@@ -34,13 +34,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Onix"
 	},
@@ -49,10 +42,24 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 
-	thirdParty: {
-		cardmarket: 412889,
-		tcgplayer: 200973
-	}
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		}
+	],
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 412889,
+				tcgplayer: 200973
+			}
+		}
+	]
 }
 
 export default card
