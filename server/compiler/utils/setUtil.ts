@@ -134,7 +134,8 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 			name: resolveText(booster.name, lang),
 			// images will be coming soon...
 		})) : undefined,
+		pullRates: set.pullRates,
+		
 		thirdParty: set.thirdParty,
-		pullRates: set.pullRates
 	}
 }

@@ -32,7 +32,6 @@ const set: Set = {
 		tcgplayer: 24541
 	},
 
-	
   	// Arbitary data for testing 
 	pullRates: {
 		rarities: {

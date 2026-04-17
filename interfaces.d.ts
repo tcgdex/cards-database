@@ -147,7 +147,7 @@ type ISODate = `${number}-${number}-${number}`
 /**
  * Represents a pull rate value.
  * Can be a simple display string (e.g. '1 in 8') or an object
- * with an optional decimal percent for programmatic use.
+ * with a required decimal percent for programmatic use.
  * 
  * @example '1 in 8'
  * @example { display: '1 in 8', percent: 12.5 }
@@ -162,7 +162,7 @@ export type PullRateValue = | string | {
  * All fields defined on `match` must equal the corresponding fields
  * on the card variant. Fields not present on `match` are ignored.
  * 
- * @example { match: { type: 'reverse', foil: 'masterball' }, rate: '1 in 40' }
+ * @example { match: { type: 'reverse', foil: 'masterball' }, rate: '1 in 40', percent: 2.5 }
  */
 export interface SpecialVariantPullRate {
 	match: Partial<variant_detailed>
