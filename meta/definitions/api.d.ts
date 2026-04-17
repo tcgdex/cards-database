@@ -68,6 +68,7 @@ interface variant_detailed {
 		tcgplayer?: number
 	}
 	variantId: string
+	pullRate?: string | { display: string; percent?: number }
 }
 
 export interface SetResume {
@@ -347,12 +348,6 @@ export interface Card extends CardResume {
 	boosters?: Array<Booster>
 
 	updated: string
-
-	pullRate?: string | { display: string; percent?: number }
-	variantPullRates?: Array<{
-		variant: Record<string, unknown>
-		rate: string | { display: string; percent?: number }
-	}>
 }
 
 /**

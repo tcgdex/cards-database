@@ -33,7 +33,7 @@ const set: Set = {
 	},
 
 	
-  // EXAMPLE DATA FOR TESTING: TO RECTIFY
+  // Arbitary data for testing 
   pullRates: {
     rarities: {
       'Common':              '3 in 5',

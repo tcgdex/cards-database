@@ -174,8 +174,8 @@ export interface SpecialVariantPullRate {
  * - `rarities` maps Card rarity strings directly to pull rates
  * - `specialVariants` defines pull rates for specific variant treatments
  * 
- * Card-level pullRate and variantPullRates are derived from these —
- * they are never authored manually on individual cards.
+ * Pull rates are derived from these and exposed on each entry in
+ * variants_detailed — they are never authored manually on individual cards.
  */
 export interface PullRates {
 	rarities?: Partial<Record<Card['rarity'], PullRateValue>>
@@ -305,18 +305,6 @@ export interface Card {
 	 * Card Set
 	 */
 	set: Set
-
-	/**
-	 * Derived pull rates for each of the card's detailed variants.
-	 * Populated from the parent set's pullRates.specialVariants.
-	 * Only present when the card has detailed variants and at least
-	 * one matching rule exists on the set.
-	*/
-	pullRate?: PullRateValue
-	variantPullRates?: Array<{
-		variant: variant_detailed
-		rate: PullRateValue
-	}>
 
 	/**
 	 * Card regulation Mark
