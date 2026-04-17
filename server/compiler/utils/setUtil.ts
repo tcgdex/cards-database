@@ -56,10 +56,7 @@ export async function getSetPictures(set: Set, lang: SupportedLanguages): Promis
 		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
 		const logoExists = file[lang]?.[set.serie.id]?.[set.id]?.logo ? `https://assets.tcgdex.net/${lang}/${set.serie.id}/${set.id}/logo` : undefined
 		const symbolExists = file.univ?.[set.serie.id]?.[set.id]?.symbol ? `https://assets.tcgdex.net/univ/${set.serie.id}/${set.id}/symbol` : undefined
-		return [
-			logoExists,
-			symbolExists
-		]
+		return [logoExists, symbolExists]
 	} catch {
 		return [undefined, undefined]
 	}
@@ -81,7 +78,7 @@ export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promis
 }
 
 function getVariantCountForType(card: Card, type: 'normal' | 'reverse' | 'holo' | 'firstEdition'): number {
-	if( card.variants === undefined || card.variants === null) {
+	if (card.variants === undefined || card.variants === null) {
 		return 0;
 	}
 
@@ -103,11 +100,11 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 	const pics = await getSetPictures(set, lang)
 	return {
 		cardCount: {
-			firstEd: cards.reduce((count, card) => count + getVariantCountForType(card[1],"firstEdition"), 0),
-			holo: cards.reduce((count, card) => count + getVariantCountForType(card[1],"holo"), 0),
-			normal: cards.reduce((count, card) => count + getVariantCountForType(card[1],"normal"), 0),
+			firstEd: cards.reduce((count, card) => count + getVariantCountForType(card[1], "firstEdition"), 0),
+			holo: cards.reduce((count, card) => count + getVariantCountForType(card[1], "holo"), 0),
+			normal: cards.reduce((count, card) => count + getVariantCountForType(card[1], "normal"), 0),
 			official: set.cardCount.official,
-			reverse: cards.reduce((count, card) => count + getVariantCountForType(card[1],"reverse"), 0),
+			reverse: cards.reduce((count, card) => count + getVariantCountForType(card[1], "reverse"), 0),
 			total: Math.max(set.cardCount.official, cards.length)
 		},
 		cards: await Promise.all(cards.map(([id, card]) => cardToCardSimple(id, card, lang))),
@@ -134,8 +131,13 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 			name: resolveText(booster.name, lang),
 			// images will be coming soon...
 		})) : undefined,
-		pullRates: set.pullRates,
-		
+		pullRates: set.pullRates ? {
+			rarities: set.pullRates.rarities,
+			specialVariants: set.pullRates.specialVariants?.map(({ rate, ...rest }) => ({
+				...rest,
+				rate
+			}))
+		} : undefined,
 		thirdParty: set.thirdParty,
 	}
 }

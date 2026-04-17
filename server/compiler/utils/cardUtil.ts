@@ -7,7 +7,7 @@ import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
 import { formatVariant, variantToIdentifier } from "./variantUtil.ts";
-import { deriveVariantPullRate } from './pull-rates.ts'
+import { deriveCardPullRate, deriveVariantPullRate } from './pull-rates.ts'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -91,6 +91,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		name: resolveText(card.name, lang) as string,
 
 		rarity: translate('rarity', card.rarity, lang) as any,
+		pullRate: deriveCardPullRate(card),
 		set: await setToSetSimple(card.set, lang),
 
 		variants : Array.isArray(card.variants) ?

@@ -71,6 +71,13 @@ interface variant_detailed {
 	pullRate?: string | { display: string; percent?: number }
 }
 
+export type PullRateValue = string | { display: string; percent: number }
+
+export interface PullRates {
+	rarities?: Record<string, PullRateValue>
+	specialVariants?: Array<{ rate: PullRateValue } & Record<string, unknown>>
+}
+
 export interface SetResume {
 	id: string;
 	name: string;
@@ -149,12 +156,9 @@ export interface Set extends SetResume {
 		cardmarket?: number
 		tcgplayer?: number
 	}
-
-	pullRates?: {
-		rarities?: Record<string, string | { display: string; percent?: number }>
-		specialVariants?: Array<Record<string, unknown> & { rate: string | { display: string; percent?: number } }>
-	}
+	pullRates?: PullRates
 }
+
 export interface CardResume {
 	id: string;
 	localId: string;
@@ -189,6 +193,13 @@ export interface Card extends CardResume {
 	 * - Secret Rare
 	 */
 	rarity: string;
+
+	/**
+	 * Derived pull rate for the card's rarity.
+	 * Populated from the parent set's pullRates.rarities.
+	*/
+	pullRate?: PullRateValue
+	
 	/**
 	 * Card Category
 	 *

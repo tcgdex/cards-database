@@ -5,12 +5,12 @@ import { Card, PullRateValue, variant_detailed } from '../../../interfaces'
  * fields on 'variant'. Fields not present on 'rule' are ignored 
  */
 function variantMatchesRule(
-    variant: variant_detailed,
-    rule: Partial<variant_detailed>
+	variant: variant_detailed,
+	rule: Partial<variant_detailed>
 ): boolean {
-    return (Object.keys(rule) as Array<keyof variant_detailed>).every(
-        (key) => variant[key] === rule[key]
-    )
+	return (Object.keys(rule) as Array<keyof variant_detailed>).every(
+		(key) => variant[key] === rule[key]
+	)
 }
 
 /**
@@ -18,15 +18,26 @@ function variantMatchesRule(
  * Returns undefined if no matching rule exists.
  */
 export function deriveVariantPullRate(
-    variant: variant_detailed,
-    card: Card
+	variant: variant_detailed,
+	card: Card
 ): PullRateValue | undefined {
-    const pullRates = card.set.pullRates
-    if (!pullRates?.specialVariants) return undefined
+	const pullRates = card.set.pullRates
+	if (!pullRates?.specialVariants) return undefined
 
-    const rule = pullRates.specialVariants.find((r) => {
-        const { rate, ...match } = r
-        return variantMatchesRule(variant, match)
-    })
-    return rule?.rate
+	const rule = pullRates.specialVariants.find((r) => {
+		const { rate, ...match } = r
+		return variantMatchesRule(variant, match as Partial<variant_detailed>)
+	})
+	return rule?.rate
+}
+
+/**
+ * Derives the pull rate for a card's rarity from its parent set's pullRates.
+ * Returns undefined if no match exists.
+ */
+export function deriveCardPullRate(card: Card): PullRateValue | undefined {
+    const pullRates = card.set.pullRates
+    if (!pullRates?.rarities || !card.rarity) return undefined
+
+    return pullRates.rarities[card.rarity]
 }

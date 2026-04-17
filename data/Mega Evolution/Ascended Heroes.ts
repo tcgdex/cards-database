@@ -32,7 +32,6 @@ const set: Set = {
 		tcgplayer: 24541
 	},
 
-
 	pullRates: {
 		rarities: {
 			'Double rare':                   { display: '1 in 5',   percent: 20 },
