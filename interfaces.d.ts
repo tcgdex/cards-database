@@ -154,7 +154,7 @@ type ISODate = `${number}-${number}-${number}`
 */
 export type PullRateValue = | string | {
 	display: string
-	percent?: number
+	percent: number
 }
 
 /**
