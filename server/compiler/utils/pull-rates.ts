@@ -24,8 +24,9 @@ export function deriveVariantPullRate(
     const pullRates = card.set.pullRates
     if (!pullRates?.specialVariants) return undefined
 
-    const rule = pullRates.specialVariants.find((r) =>
-        variantMatchesRule(variant, r.match)
-    )
+    const rule = pullRates.specialVariants.find((r) => {
+        const { rate, ...match } = r
+        return variantMatchesRule(variant, match)
+    })
     return rule?.rate
 }

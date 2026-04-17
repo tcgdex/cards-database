@@ -149,12 +149,10 @@ export interface Set extends SetResume {
 		cardmarket?: number
 		tcgplayer?: number
 	}
+
 	pullRates?: {
 		rarities?: Record<string, string | { display: string; percent?: number }>
-		specialVariants?: Array<{
-			match: Record<string, string | undefined> 
-			rate: string | { display: string; percent?: number }
-		}>
+		specialVariants?: Array<Partial<Record<string, string>> & { rate: string | { display: string; percent?: number } }>
 	}
 }
 export interface CardResume {
