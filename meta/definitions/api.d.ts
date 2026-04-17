@@ -152,7 +152,7 @@ export interface Set extends SetResume {
 	pullRates?: {
 		rarities?: Record<string, string | { display: string; percent?: number }>
 		specialVariants?: Array<{
-			match: Record<string, unknown> 
+			match: Record<string, string | undefined> 
 			rate: string | { display: string; percent?: number }
 		}>
 	}
