@@ -148,6 +148,13 @@ export interface Set extends SetResume {
 		cardmarket?: number
 		tcgplayer?: number
 	}
+	pullRates?: {
+		rarities?: Record<string, string | { display: string; percent?: number }>
+		specialVariants?: Array<{
+			match: Record<string, unknown> 
+			rate: string | { display: string; percent?: number }
+		}>
+	}
 }
 export interface CardResume {
 	id: string;
@@ -340,6 +347,12 @@ export interface Card extends CardResume {
 	boosters?: Array<Booster>
 
 	updated: string
+
+	pullRate?: string | { display: string; percent?: number }
+	variantPullRates?: Array<{
+		variant: Record<string, unknown>
+		rate: string | { display: string; percent?: number }
+	}>
 }
 
 /**

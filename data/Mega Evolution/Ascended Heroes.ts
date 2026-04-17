@@ -30,7 +30,32 @@ const set: Set = {
 	thirdParty: {
 		cardmarket: 6395,
 		tcgplayer: 24541
-	}
+	},
+
+	
+  // EXAMPLE DATA FOR TESTING: TO RECTIFY
+  pullRates: {
+    rarities: {
+      'Common':              '3 in 5',
+      'Uncommon':            '1 in 5',
+      'Rare':                '1 in 5',
+      'Double rare':         '1 in 5',
+      'Illustration rare':   '1 in 9',
+      'Ultra Rare':          '1 in 12',
+      'Special illustration rare': '1 in 78',
+      'Hyper rare':          '1 in 200',
+    },
+    specialVariants: [
+      {
+        match: { type: 'reverse', foil: 'pokeball' },
+        rate: '1 in 40'
+      },
+      {
+        match: { type: 'reverse', foil: 'energy' },
+        rate: '1 in 4'
+      }
+    ]
+  },
 }
 
 export default set

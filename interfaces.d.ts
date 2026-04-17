@@ -144,6 +144,44 @@ export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
 
 type ISODate = `${number}-${number}-${number}`
 
+/**
+ * Represents a pull rate value.
+ * Can be a simple display string (e.g. '1 in 8') or an object
+ * with an optional decimal percent for programmatic use.
+ * 
+ * @example '1 in 8'
+ * @example { display: '1 in 8', percent: 12.5 }
+*/
+export type PullRateValue = | string | {
+	display: string
+	percent?: number
+}
+
+/**
+ * A rule that matches a card variant and assigns it a pull rate.
+ * All fields defined on `match` must equal the corresponding fields
+ * on the card variant. Fields not present on `match` are ignored.
+ * 
+ * @example { match: { type: 'reverse', foil: 'masterball' }, rate: '1 in 40' }
+ */
+export interface SpecialVariantPullRate {
+	match: Partial<variant_detailed>
+	rate: PullRateValue
+}
+
+/**
+ * Pull rates for a set or booster.
+ * - `rarities` maps Card rarity strings directly to pull rates
+ * - `specialVariants` defines pull rates for specific variant treatments
+ * 
+ * Card-level pullRate and variantPullRates are derived from these —
+ * they are never authored manually on individual cards.
+ */
+export interface PullRates {
+	rarities?: Partial<Record<Card['rarity'], PullRateValue>>
+	specialVariants?: SpecialVariantPullRate[]
+}
+
 export interface Set {
 	id: string
 	name: Languages
@@ -160,7 +198,21 @@ export interface Set {
 
 	boosters?: Record<string, {
 		name: Languages<string>
+
+		/**
+		 * Optional pull rate override for this specific booster.
+		 * Only define when this booster has meaningfully different
+		 * odds from the set-level pullRates.
+		*/
+		pullRates?: PullRates
 	}>
+
+	/**
+	 * The pull rate for a given rarity or variant.
+	 * Can be a simple display string (e.g. '1 in 8') or an object
+	 * with an optional decimal percent for programmatic use.
+	*/
+	pullRates?: PullRates
 
 	releaseDate: ISODate | Languages<ISODate>
 
@@ -253,6 +305,18 @@ export interface Card {
 	 * Card Set
 	 */
 	set: Set
+
+	/**
+	 * Derived pull rates for each of the card's detailed variants.
+	 * Populated from the parent set's pullRates.specialVariants.
+	 * Only present when the card has detailed variants and at least
+	 * one matching rule exists on the set.
+	*/
+	pullRate?: PullRateValue
+	variantPullRates?: Array<{
+		variant: variant_detailed
+		rate: PullRateValue
+	}>
 
 	/**
 	 * Card regulation Mark
