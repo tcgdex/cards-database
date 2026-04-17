@@ -24,6 +24,18 @@ const card: Card = {
 
 	stage: "Basic",
 
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				en: "Sky Circus"
+			},
+			effect: {
+				en: "If you played Bird Keeper from your hand during this turn, ignore all Energy in this Pokémon's attack costs"
+			}
+		}
+	],
+
 	attacks: [
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
@@ -44,6 +56,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	
 	variants: [
 		{
 			type: 'holo',

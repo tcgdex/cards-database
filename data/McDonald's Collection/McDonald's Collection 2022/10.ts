@@ -34,7 +34,7 @@ const card: Card = {
 				en: "If this Pokémon has any Energy attached, it has no Retreat Cost."
 			}
 		}
-	]
+	],
 
 	attacks: [
 		{
@@ -54,6 +54,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	
 	variants: [
 		{
 			type: 'holo',

@@ -47,6 +47,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	
 	variants: [
 		{
 			type: 'holo',

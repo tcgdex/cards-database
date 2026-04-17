@@ -26,7 +26,7 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Water"],
+			cost: ["Colorless"],
 			name: {
 				en: "Wintry Call",
 			},
@@ -35,7 +35,7 @@ const card: Card = {
 			}
 		},
 		{
-			cost: ["Water", "Water"],
+			cost: ["Water", "Colorless"],
 			name: {
 				en: "Icy Wind",
 			},
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	
+
 	variants: [
 		{
 			type: 'holo',
