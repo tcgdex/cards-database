@@ -158,14 +158,14 @@ export type PullRateValue = | string | {
 }
 
 /**
- * A rule that matches a card variant and assigns it a pull rate.
- * All fields defined on `match` must equal the corresponding fields
- * on the card variant. Fields not present on `match` are ignored.
- * 
- * @example { match: { type: 'reverse', foil: 'masterball' }, rate: '1 in 40', percent: 2.5 }
- */
-export interface SpecialVariantPullRate {
-	match: Partial<variant_detailed>
+ * A pull-rate rule for a specific card variant.
+ *
+ * Any variant fields present on this object are used to match against a
+ * card's detailed variant entry. Fields that are not present are ignored.
+ *
+ * @example { type: 'reverse', foil: 'masterball', rate: { display: '1 in 40', percent: 2.5 } }
+*/
+export interface SpecialVariantPullRate extends Partial<variant_detailed> {
 	rate: PullRateValue
 }
 
@@ -283,7 +283,8 @@ export interface Card {
 			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
 			// Black White rare
 			| 'Black White Rare'
-			| 'Mega Hyper Rare'
+			| 'Mega Hyper Rare' 
+			| 'Mega Attack Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 

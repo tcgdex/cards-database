@@ -32,22 +32,18 @@ const set: Set = {
 		tcgplayer: 24541
 	},
 
-  	// Arbitary data for testing 
+
 	pullRates: {
 		rarities: {
-			'Common':   					{ display: '3 in 5', percent: 60 },
-			'Uncommon': 					{ display: '1 in 5', percent: 20 },
-			'Rare':     					{ display: '1 in 5', percent: 20 },
-			'Double rare': 					{ display: '1 in 5', percent: 20 },
-			'Illustration rare': 			{ display: '1 in 9', percent: 11.11 },
-			'Ultra Rare': 					{ display: '1 in 12', percent: 8.33 },
-			'Special illustration rare': 	{ display: '1 in 78', percent: 1.28 },
-			'Hyper rare': 					{ display: '1 in 200', percent: 0.5 },
+			'Double rare':                   { display: '1 in 5',   percent: 20 },
+			'Illustration rare':             { display: '1 in 9',   percent: 11.11 },
+			'Ultra Rare':                    { display: '1 in 21',  percent: 4.76 },
+			'Mega Attack Rare':              { display: '1 in 29',  percent: 3.45 },
+			'Special illustration rare':     { display: '1 in 70',  percent: 1.43 },
+			'Mega Hyper Rare':               { display: '1 in 540', percent: 0.19 },
 		},
-		specialVariants: [
-			{ match: { type: 'reverse', foil: 'pokeball' }, rate: { display: '1 in 40', percent: 2.5 } },
-			{ match: { type: 'reverse', foil: 'energy' }, rate: { display: '1 in 4', percent: 25 } }
-		]
+		// specialVariants omitted — reverse foils are fixed guaranteed slots
+		// per card, not probabilistic pull rates
 	}
 }
 
