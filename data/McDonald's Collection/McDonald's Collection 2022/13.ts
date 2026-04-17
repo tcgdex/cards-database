@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [675],
 
-	hp: 130,
+	hp: 140,
 
 	types: ["Darkness"],
 
@@ -35,28 +35,24 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Darkness", "Colorless"],
+			cost: ["Darkness", "Darkness", "Colorless"],
 			name: {
-				en: "Knuckle Punch",
-				fr: "Coup de Poing",
-				es: "Puñetazo",
-				it: "Pugno",
-				pt: "Soco",
-				de: "Knöchelhieb"
+				en: "Knocking Hammer",
 			},
-			damage: 40,
-		},
-		{
-			cost: ["Darkness", "Colorless", "Colorless"],
-			name: {
-				en: "Hammer In",
-				fr: "Enfoncement",
-				es: "Martillazo",
-				it: "Martellata",
-				pt: "Martelada",
-				de: "Einhämmern"
+			effect: {
+				en: "Discard the top card of your opponent's deck."
 			},
 			damage: 90,
+		},
+		{
+			cost: ["Darkness", "Darkness", "Darkness", "Colorless"],
+			name: {
+				en: "Shakedown",
+			},
+			effect: {
+				en: "Discard a random card from your opponent's hand."
+			},
+			damage: 150,
 		},
 	],
 
@@ -67,7 +63,8 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3,
+	retreat: 4,
+	
 	variants: [
 		{
 			type: 'holo',

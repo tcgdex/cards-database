@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [180],
 
-	hp: 90,
+	hp: 100,
 
 	types: ["Lightning"],
 
@@ -35,19 +35,7 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Lightning"],
-			name: {
-				en: "Static Shock",
-				fr: "Choc Statique",
-				es: "Electrochoque",
-				it: "Elettroshock",
-				pt: "Choque Estático",
-				de: "Statischer Schock"
-			},
-			damage: 20,
-		},
-		{
-			cost: ["Lightning", "Colorless", "Colorless"],
+			cost: ["Lightning", "Colorless"],
 			name: {
 				en: "Electro Ball",
 				fr: "Boule Élek",
@@ -56,7 +44,7 @@ const card: Card = {
 				pt: "Bola Elétrica",
 				de: "Elektroball"
 			},
-			damage: 60,
+			damage: 50,
 		},
 	],
 

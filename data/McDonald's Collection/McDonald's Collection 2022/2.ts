@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [722],
 
-	hp: 60,
+	hp: 50,
 
 	types: ["Grass"],
 
@@ -26,28 +26,13 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Pikser"
+				en: "Wind Shard",
 			},
-			damage: 10,
-		},
-		{
-			cost: ["Grass", "Colorless"],
-			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
-			},
-			damage: 20,
+			effect: {
+				en: "This attack does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
 		},
 	],
 

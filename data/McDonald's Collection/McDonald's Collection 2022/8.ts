@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [170],
 
-	hp: 60,
+	hp: 70,
 
 	types: ["Lightning"],
 
@@ -26,28 +26,16 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Lightning"],
 			name: {
-				en: "Gentle Slap",
-				fr: "Gifle Douce",
-				es: "Bofetada Gentil",
-				it: "Schiaffetto",
-				pt: "Tapinha",
-				de: "Sanfter Hieb"
+				en: "Electro Ball",
+				fr: "Boule Élek",
+				es: "Bola Voltio",
+				it: "Energisfera",
+				pt: "Bola Elétrica",
+				de: "Elektroball"
 			},
 			damage: 10,
-		},
-		{
-			cost: ["Lightning", "Colorless"],
-			name: {
-				en: "Zap Kick",
-				fr: "Coup d'Jus",
-				es: "Patada Eléctrica",
-				it: "Elettrocalcio",
-				pt: "Chute Elétrico",
-				de: "Stromtritt"
-			},
-			damage: 20,
 		},
 	],
 

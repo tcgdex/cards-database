@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [760],
 
-	hp: 120,
+	hp: 130,
 
 	types: ["Colorless"],
 
@@ -35,42 +35,27 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: ["Fighting", "Colorless"],
 			name: {
-				en: "Lunge Out",
-				fr: "Coup Rapide",
-				es: "Embestida",
-				it: "Slancio",
-				pt: "Investida Rápida",
-				de: "Vorstoß"
+				en: "Split Spiral Punch",
 			},
-			damage: 30,
+			damage: 40,
+			effect: {
+				en: "Your opponent's Active Pokémon is now Confused.",
+			},
 		},
 		{
-			cost: ["Colorless", "Colorless", "Colorless"],
+			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				en: "Hammer Arm",
-				fr: "Marto-Poing",
-				es: "Machada",
-				it: "Martelpugno",
-				pt: "Braço de Martelo",
-				de: "Hammerarm"
+				en: "Strength",
 			},
-			damage: 100,
-			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la prima carta del mazzo del tuo avversario.",
-				pt: "Descarte a carta de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
-			},
+			damage: 130,
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Psychic",
 			value: "×2"
 		},
 	],
