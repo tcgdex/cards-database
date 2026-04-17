@@ -152,7 +152,7 @@ export interface Set extends SetResume {
 
 	pullRates?: {
 		rarities?: Record<string, string | { display: string; percent?: number }>
-		specialVariants?: Array<Partial<Record<string, string>> & { rate: string | { display: string; percent?: number } }>
+		specialVariants?: Array<Record<string, unknown> & { rate: string | { display: string; percent?: number } }>
 	}
 }
 export interface CardResume {
