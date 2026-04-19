@@ -11,7 +11,7 @@ const set: Set = {
 	serie: serie,
 
 	cardCount: {
-		official: 41
+		official: 40
 	},
 
 	releaseDate: "2019-10-30"
