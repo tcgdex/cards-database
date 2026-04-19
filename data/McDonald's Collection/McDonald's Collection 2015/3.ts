@@ -6,12 +6,6 @@ const card: Card = {
 		255,
 	],
 	set: Set,
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false,
-	},
 	name: {
 		en: "Torchic",
 		fr: "Poussifeu",
@@ -23,24 +17,35 @@ const card: Card = {
 		"Fire",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 293319,
-		tcgplayer: 110433,
-	},
 	attacks: [
 		{
 			cost: [
 				"Fire",
 			],
 			name: {
+				en: "Ember",
 				fr: "Flammèche",
 			},
 			damage: "20",
 			effect: {
+				en: "Flip a coin. If tails, discard a fire Energy attached to this Pokémon.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie  attachée à ce Pokémon.",
 			},
 		},
 	],
+
+	illustrator: "sui",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 293319,
+				tcgplayer: 110433
+			}
+		}
+	]
 }
 
 export default card
+

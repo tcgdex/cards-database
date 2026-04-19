@@ -237,7 +237,13 @@
 		"international-championship-europe": "campionato-internazionale-europa",
 		"international-championship-latin-america": "campionato-internazionale-america-latina",
 		"international-championship-north-america": "campionato-internazionale-america-del-nord",
-		"ace-trainer": "Ace Trainer"
+		"ace-trainer": "Ace Trainer",
+		"pikachu": "pikachu",
+		"bulbasaur": "bulbasaur",
+		"squirtle": "squirtle",
+		"charmander": "charmander",
+		"pokeball": "pokeball",
+		"mcdonalds": "mcdonalds"
 	},
 	"variantSubtype": {
 		"shadowless": "senza ombra",

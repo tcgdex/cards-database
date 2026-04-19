@@ -10,12 +10,6 @@ const card: Card = {
 	description: {
 		en: "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.",
 	},
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Snubbull",
 		fr: "Snubbull",
@@ -27,10 +21,6 @@ const card: Card = {
 		"Fairy",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 281660,
-		tcgplayer: 110413,
-	},
 	attacks: [
 		{
 			cost: [
@@ -57,7 +47,18 @@ const card: Card = {
 		}
 	],
 	retreat: 2,
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
 
+			thirdParty: {
+				cardmarket: 281660,
+				tcgplayer: 110413
+			}
+		}
+	]
 }
 
 export default card
+

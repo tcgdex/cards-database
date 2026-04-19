@@ -28,13 +28,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Woobat",
 		fr: "Chovsourir"
@@ -44,9 +37,18 @@ const card: Card = {
 	hp: 60,
 	types: ["Psychic"],
 
-	thirdParty: {
-		tcgplayer: 90629
-	}
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281784,
+				tcgplayer: 90629
+			}
+		}
+	]
 }
 
 export default card
+

@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [955],
 
-	hp: 50,
+	hp: 30,
 
 	types: ["Psychic"],
 
@@ -26,28 +26,11 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Psychic"],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Pikser"
+				en: "Ram",
 			},
 			damage: 10,
-		},
-		{
-			cost: ["Psychic", "Colorless"],
-			name: {
-				en: "Psyshot",
-				fr: "Piqûre Psy",
-				es: "Disparo Psi",
-				it: "Psicosparo",
-				pt: "Tiro Psíquico",
-				de: "Psychoschuss"
-			},
-			damage: 20,
 		},
 	],
 
@@ -65,14 +48,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1,
+	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725426,
+				tcgplayer: 516520
+			}
+		}
+	]
 }
 
 export default card

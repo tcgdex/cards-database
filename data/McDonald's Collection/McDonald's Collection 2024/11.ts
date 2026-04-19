@@ -28,34 +28,19 @@ const card: Card = {
 		{
 			cost: ["Darkness"],
 			name: {
-				en: "Assaulting Fangs",
-				fr: "Crocs Assaillants",
-				es: "Colmillos Agresores",
-				it: "Zanne d'Assalto",
-				pt: "Presas de Assalto",
-				de: "Angriffsfänge"
+				en: "Vengeance Fletching",
 			},
-			damage: 30,
+			effect: {
+				en: "This attack does 10 more damage for each Ancient card in your discard pile."
+			},
+			damage: "70+",
 		},
 		{
-			cost: ["Darkness", "Darkness", "Colorless"],
+			cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
 			name: {
-				en: "Frenzied Gouging",
-				fr: "Éventration Frénétique",
-				es: "Desgarro Frenético",
-				it: "Sventramento Frenetico",
-				pt: "Perfuração Frenética",
-				de: "Rasende Aushöhlung"
+				en: "Speed Wing",
 			},
-			damage: 190,
-			effect: {
-				en: "This Pokémon also does 60 damage to itself.",
-				fr: "Ce Pokémon s'inflige aussi 60 dégâts.",
-				es: "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge anche 60 danni a se stesso.",
-				pt: "Este Pokémon também causa 60 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
-			},
+			damage: 120,
 		},
 	],
 
@@ -68,12 +53,15 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 802833,
+				tcgplayer: 614380
+			}
+		}
+	]
 }
 
 export default card

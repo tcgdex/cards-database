@@ -26,13 +26,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Alolan Sandshrew"
 	},
@@ -41,10 +34,25 @@ const card: Card = {
 	hp: 60,
 	types: ["Water"],
 
-	thirdParty: {
-		cardmarket: 412864,
-		tcgplayer: 200964
-	}
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		}
+	],
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 412864,
+				tcgplayer: 200964
+			}
+		}
+	]
 }
 
 export default card
+

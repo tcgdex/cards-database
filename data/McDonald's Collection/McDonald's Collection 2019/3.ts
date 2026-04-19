@@ -34,13 +34,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Magmar"
 	},
@@ -49,10 +42,25 @@ const card: Card = {
 	hp: 80,
 	types: ["Fire"],
 
-	thirdParty: {
-		cardmarket: 412859,
-		tcgplayer: 200963
-	}
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		}
+	],
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 412859,
+				tcgplayer: 200963
+			}
+		}
+	]
 }
 
 export default card
+

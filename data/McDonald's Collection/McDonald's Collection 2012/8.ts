@@ -31,12 +31,6 @@ const card: Card = {
 			damage: "10",
 		},
 	],
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Drilbur",
 		fr: "Rototaupe",
@@ -46,10 +40,19 @@ const card: Card = {
 	types: [
 		"Fighting",
 	],
-	thirdParty: {
-		cardmarket: 281785,
-		tcgplayer: 84967,
-	},
+
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281785,
+				tcgplayer: 84967
+			}
+		}
+	]
 }
 
 export default card
+

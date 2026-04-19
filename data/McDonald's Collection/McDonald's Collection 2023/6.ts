@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [25],
 
-	hp: 60,
+	hp: 70,
 
 	types: ["Lightning"],
 
@@ -28,24 +28,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				en: "Growl",
 			},
-			damage: 10,
+			effect: {
+				en: "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance)."
+			}
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek",
-				es: "Bola Voltio",
-				it: "Energisfera",
-				pt: "Bola Elétrica",
-				de: "Elektroball"
+				en: "Pika Bolt",
 			},
 			damage: 30,
 		},
@@ -60,12 +52,15 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725423,
+				tcgplayer: 516517
+			}
+		}
+	]
 }
 
 export default card
