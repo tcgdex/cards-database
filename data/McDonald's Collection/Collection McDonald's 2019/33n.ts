@@ -3,37 +3,44 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
     name: {
-        fr: "Férosinge",
+        fr: "Taupiqueur d'Alola",
     },
 
     rarity: "None",
     category: "Pokemon",
-    illustrator: "Miki Tanaka",
+    illustrator: "Naoyo Kimura",
 
     set: Set,
-    dexId: [56],
-    hp: 60,
-    types: ["Fighting"],
+    dexId: [50],
+    hp: 50,
+    types: ["Metal"],
 
     stage: "Basic",
     retreat: 1,
 
     weaknesses: [
         {
-            type: "Psychic",
+            type: "Fire",
             value: "×2"
         },
     ],
 
+    resistances: [
+        {
+            type: "Psychic",
+            value: "-20"
+        }
+    ],
+
     attacks: [
         {
-            cost: ["Fighting"],
+            cost: ["Colorless"],
             name: {
-                fr: "Attaque en Trois Étapes"
+                fr: "Tête de Fer"
             },
             damage: "10×",
             effect: {
-                fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
+                fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
             }
         },
     ],
@@ -42,15 +49,9 @@ const card: Card = {
         {
             type: 'normal',
             thirdParty: {
-                cardmarket: 479809,
+                cardmarket: 479834,
             }
         },
-        {
-            type: 'holo',
-            thirdParty: {
-                cardmarket: 581874,
-            }
-        }
     ]
 }
 

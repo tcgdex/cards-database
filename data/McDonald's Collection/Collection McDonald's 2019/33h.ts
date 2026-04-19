@@ -3,65 +3,60 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
     name: {
-        fr: "Rondoudou",
+        fr: "Taupiqueur d'Alola",
     },
 
     rarity: "None",
     category: "Pokemon",
-    illustrator: "Ken Sugimori",
+    illustrator: "Megumi Mizutani",
 
     set: Set,
-    dexId: [39],
-    hp: 70,
-    types: ["Fairy"],
+    dexId: [50],
+    hp: 50,
+    types: ["Metal"],
 
     stage: "Basic",
-    retreat: 2,
+    retreat: 1,
 
     weaknesses: [
         {
-            type: "Metal",
+            type: "Fire",
             value: "×2"
         },
     ],
 
     resistances: [
         {
-            type: "Darkness",
+            type: "Psychic",
             value: "-20"
         },
     ],
 
     attacks: [
         {
-            cost: ["Fairy"],
+            cost: ["Colorless"],
             name: {
-                fr: "Écras'Face"
+                fr: "Spéléologue"
             },
-            damage: 10,
+            damage: 0,
+            effect: {
+                fr: "Regardez les 3 cartes du dessus de votre deck et replacez-les dans l'ordre de votre choix."
+            }
         },
         {
-            cost: ["Colorless", "Colorless"],
+            cost: ["Metal"],
             name: {
-                fr: "Berceuse"
+                fr: "Coud'Boue"
             },
-            effect: {
-                fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
-            }
+            damage: 10,
         },
     ],
 
     variants: [
         {
-            type: 'normal',
-            thirdParty: {
-                cardmarket: 479849,
-            }
-        },
-        {
             type: 'holo',
             thirdParty: {
-                cardmarket: 581886,
+                cardmarket: 479839,
             }
         }
     ]

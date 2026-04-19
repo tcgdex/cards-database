@@ -3,24 +3,70 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Persian",
+		fr: "Artikodin",
 	},
-	rarity: "Common",
+
+	rarity: "None",
 	category: "Pokemon",
+	illustrator: "Hitoshi Ariga",
 
 	set: Set,
-	dexId: [53],
-	hp: 90,
-	types: ["Colorless"],
+	dexId: [144],
+	hp: 120,
+	types: ["Water"],
 
-	stage: "Stage1",
+	stage: "Basic",
+	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				fr: "Tornade"
+			},
+			damage: 30,
+		},
+		{
+			cost: ["Water", "Water", "Colorless"],
+			name: {
+				fr: "Glaciation"
+			},
+			damage: 100,
+			effect: {
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire."
+			}
+		},
+	],
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 479764,
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 581862,
+			}
+		}
+	]
 }
 
 export default card
+
