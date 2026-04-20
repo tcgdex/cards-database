@@ -28,7 +28,8 @@ const card: Card = {
 		de: "Cynthias Knarksel",
 		it: "Gabite di Camilla",
 		es: "Gabite de Cintia",
-		pt: "Gabite da Cíntia"
+		pt: "Gabite da Cíntia",
+		'es-mx': "Gabite de Cynthia"
 	},
 
 	attacks: [{

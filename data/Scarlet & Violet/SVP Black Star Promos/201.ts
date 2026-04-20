@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Elezeba",
 		it: "Blitzle",
 		es: "Blitzle",
+		'es-mx': "Blitzle",
 		pt: "Blitzle"
 	},
 
