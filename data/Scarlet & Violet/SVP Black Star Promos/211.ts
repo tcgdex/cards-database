@@ -26,8 +26,9 @@ const card: Card = {
 		fr: "Mesmérella",
 		de: "Hypnomorba",
 		it: "Gothorita",
+		pt: "Gothorita",
 		es: "Gothorita",
-		pt: "Gothorita"
+		'es-mx': "Gothorita"
 	},
 
 	abilities: [{
