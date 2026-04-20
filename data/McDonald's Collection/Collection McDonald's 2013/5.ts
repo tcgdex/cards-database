@@ -3,47 +3,55 @@ import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Mentali",
+		fr: "Pikachu",
 	},
-	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	illustrator: "Akira Komayama",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [196],
-	hp: 90,
-	types: ["Psychic"],
+	dexId: [25],
+	hp: 60,
+	types: ["Lightning"],
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
-			cost: ["Psychic"],
+			cost: ["Lightning"],
 			name: {
-				fr: "Psykoud'Boul",
-			},
-			damage: 20,
-		},
-		{
-			cost: ["Psychic", "Colorless"],
-			name: {
-				fr: "Rayon Psy",
+				fr: "Éclair",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
-			damage: 40,
+			damage: 10,
+		},
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				fr: "Queue Battoir",
+			},
+			damage: 20,
 		},
 	],
 	weaknesses: [
 		{
-			type: "Psychic",
+			type: "Fighting",
 			value: "x2"
 		},
 	],
 
 	retreat: 1,
+	
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 361725,
+			}
+		}
+	]
 }
 
 export default card
-

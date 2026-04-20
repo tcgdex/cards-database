@@ -6,12 +6,6 @@ const card: Card = {
 		252,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Treecko",
 		fr: "Arcko",
@@ -23,24 +17,35 @@ const card: Card = {
 		"Grass",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 293317,
-		tcgplayer: 110429,
-	},
 	attacks: [
 		{
 			cost: [
 				"Grass",
 			],
 			name: {
+				en: "Quick Attack",
 				fr: "Vive-Attaque",
 			},
 			damage: "10+",
 			effect: {
+				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 		},
 	],
+
+	illustrator: "Akira Komayama",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 293317,
+				tcgplayer: 110429
+			}
+		}
+	]
 }
 
 export default card
+

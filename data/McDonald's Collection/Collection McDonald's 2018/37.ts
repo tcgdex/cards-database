@@ -2,25 +2,68 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
-	name: {
-		fr: "Noctali",
-	},
-	rarity: "Common",
-	category: "Pokemon",
+    name: {
+        fr: "Évoli",
+    },
 
-	set: Set,
-	dexId: [197],
-	hp: 100,
-	types: ["Darkness"],
+    rarity: "None",
+    category: "Pokemon",
+    illustrator: "Shibuzoh.",
 
-	stage: "Stage1",
+    set: Set,
+    dexId: [133],
+    hp: 60,
+    types: ["Colorless"],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+    stage: "Basic",
+    retreat: 2,
+
+    weaknesses: [
+        {
+            type: "Fighting",
+            value: "×2"
+        }
+    ],
+
+    abilities: [
+        {
+            type: "Ability",
+            name: {
+                fr: "Évolution de l'Énergie"
+            },
+            effect: {
+                fr: "Lorsque vous attachez pendant votre tour une carte Énergie de base de votre main à ce Pokémon, vous pouvez chercher dans votre deck une carte qui est l'évolution de ce Pokémon et du même type que cette carte Énergie. Mettez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck."
+            }
+        }
+    ],
+
+    attacks: [
+        {
+            cost: ["Colorless"],
+            name: {
+                fr: "Pioche Rapide"
+            },
+            effect: {
+                fr: "Lancez une pièce. Si c'est face, piochez une carte."
+            }
+        }
+    ],
+
+    variants: [
+        {
+            type: 'normal',
+            thirdParty: {
+                cardmarket: 362808,
+            }
+        },
+        {
+            type: 'holo',
+            thirdParty: {
+                cardmarket: 362808,
+            }
+        }
+    ]
 }
 
 export default card
+

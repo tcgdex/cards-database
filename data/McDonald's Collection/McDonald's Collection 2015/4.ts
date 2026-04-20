@@ -6,12 +6,6 @@ const card: Card = {
 		120,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Staryu",
 		fr: "Stari",
@@ -23,24 +17,35 @@ const card: Card = {
 		"Water",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 293320,
-		tcgplayer: 110431,
-	},
 	attacks: [
 		{
 			cost: [
 				"Colorless",
 			],
 			name: {
+				en: "Lunge",
 				fr: "Coup Rapide",
 			},
 			damage: "20",
 			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 		},
 	],
+
+	illustrator: "Tomokazu Kamiya",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 293320,
+				tcgplayer: 110431
+			}
+		}
+	]
 }
 
 export default card
+

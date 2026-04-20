@@ -37,34 +37,18 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				en: "Dragon Launcher",
 			},
-			damage: 60,
+			effect: {
+				en: "Discard a number of your Benched Dreepy up to the number of your opponent's Pokémon in play. Then, for each Dreepy you discarded in this way, choose 1 of your opponent's Pokémon and do 100 damage to it. You can't choose the same Pokémon more than once. This damage isn't affected by Weakness or Resistance"
+			}
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				en: "Phantom Force",
-				fr: "Hantise",
-				es: "Golpe Fantasma",
-				it: "Spettrotuffo",
-				pt: "Golpe Fantasma",
-				de: "Phantomkraft"
+				en: "Spooky Shot",
 			},
 			damage: 120,
-			effect: {
-				en: "Put 3 damage counters on 1 of your opponent's Benched Pokémon.",
-				fr: "Placez 3 marqueurs de dégâts sur l'un des Pokémon de Banc de votre adversaire.",
-				es: "Pon 3 contadores de daño en 1 de los Pokémon en Banca de tu rival.",
-				it: "Metti tre segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
-				pt: "Coloque 3 contadores de dano em 1 dos Pokémon no Banco do seu oponente.",
-				de: "Lege 3 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners."
-			},
 		},
 	],
 
@@ -84,12 +68,15 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 802828,
+				tcgplayer: 614375
+			}
+		}
+	]
 }
 
 export default card

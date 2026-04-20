@@ -10,12 +10,6 @@ const card: Card = {
 		en: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements."
 	},
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Furfrou",
 		fr: "Couafarel",
@@ -27,10 +21,6 @@ const card: Card = {
 		"Colorless",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 281664,
-		tcgplayer: 110417,
-	},
 	attacks: [
 		{
 			cost: [
@@ -70,6 +60,18 @@ const card: Card = {
 
 	],
 	retreat: 1,
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281664,
+				tcgplayer: 110417
+			}
+		}
+	]
 }
 
 export default card
+
