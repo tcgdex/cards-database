@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tranquill"
 	},
 
+	illustrator: "Tomomi Ozaki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -58,10 +59,38 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836055
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836055,
+				tcgplayer: 642523
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836055,
+				tcgplayer: 642523
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836456,
+				tcgplayer: 642764
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836457,
+				tcgplayer: 642691
+			}
+		}
+	]
 }
 
 export default card

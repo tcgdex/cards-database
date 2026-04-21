@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mudsdale"
 	},
 
+
+	illustrator: "Uta",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,
@@ -75,16 +78,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825982,
+				tcgplayer: 632916
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825982,
+				tcgplayer: 632916
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825982
-	}
 }
 
 export default card

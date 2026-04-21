@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Greedent de Damián"
 	},
 
+
+	illustrator: "Natsumi Yoshida",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
@@ -75,13 +78,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826079,
+				tcgplayer: 633005
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826079
-	}
 }
 
 export default card

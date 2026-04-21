@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Boldore"
 	},
 
+	illustrator: "Krgc",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
@@ -73,9 +74,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836145
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836145,
+				tcgplayer: 642241
+			}
+		},
+	],
 }
 
 export default card

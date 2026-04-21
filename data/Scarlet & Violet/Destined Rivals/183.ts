@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Yanma"
 	},
 
+
+	illustrator: "Ayako Ozaki",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -64,13 +67,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826057,
+				tcgplayer: 632983
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826057
-	}
 }
 
 export default card

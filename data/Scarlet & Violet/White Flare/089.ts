@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Leavanny"
 	},
 
+	illustrator: "mashu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
@@ -81,9 +82,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836074
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836074,
+				tcgplayer: 642204
+			}
+		},
+	],
 }
 
 export default card

@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
+		fr: "Carabaffe"
 	},
 
 	suffix: "GX",
@@ -113,7 +114,7 @@ const card: Card = {
 	retreat: 3,
 
 	thirdParty: {
-		cardmarket: 372255,
+		cardmarket: 372719,
 		tcgplayer: 189100
 	}
 }

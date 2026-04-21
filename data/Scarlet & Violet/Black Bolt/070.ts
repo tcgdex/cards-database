@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Haxorus"
 	},
 
+	illustrator: "Taiga Kasai",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 170,
@@ -80,10 +81,38 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836050
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836050,
+				tcgplayer: 642521
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836050,
+				tcgplayer: 642521
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836452,
+				tcgplayer: 642762
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836453,
+				tcgplayer: 642689
+			}
+		}
+	]
 }
 
 export default card

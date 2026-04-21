@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		tcgplayer: 85991,

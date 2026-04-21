@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Amoonguss"
 	},
 
+	illustrator: "OKUBO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
@@ -72,10 +73,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836100
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836100,
+				tcgplayer: 642545
+			}
+		},
+	]
 }
 
 export default card

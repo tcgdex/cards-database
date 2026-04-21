@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Starmie de Misty"
 	},
 
+	illustrator: "Natsumi Yoshida",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -61,16 +62,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825921,
+				tcgplayer: 630814
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825921,
+				tcgplayer: 630814
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825921
-	}
 }
 
 export default card

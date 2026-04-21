@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Zeraora"
 	},
 
+
+	illustrator: "Ryuta Fuse",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,
@@ -64,16 +67,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825952,
+				tcgplayer: 632888
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825952,
+				tcgplayer: 632888
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825952
-	}
 }
 
 export default card

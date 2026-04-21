@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Virizion"
 	},
 
+	illustrator: "Felicia Chen",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -74,9 +75,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835920
-	}
+	variants: [
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 835920,
+			tcgplayer: 642125
+		}
+	},
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 835920,
+			tcgplayer: 642125
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 836509,
+			tcgplayer: 642370
+		}
+	},
+	{
+		type: "reverse",
+		foil: "masterball",
+		thirdParty: {
+			cardmarket: 836510,
+			tcgplayer: 642298
+		}
+	},
+],
 }
 
 export default card

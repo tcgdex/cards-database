@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Elgyem"
 	},
 
+	illustrator: "Masako Tomii",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -61,10 +62,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836154
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836154,
+				tcgplayer: 642575
+			}
+		},
+	]
 }
 
 export default card

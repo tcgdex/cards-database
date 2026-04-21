@@ -74,21 +74,33 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "chibi",
 
-	thirdParty: {
-		cardmarket: 817207
-	},
 
 	variants: [
 		{
-			type: 'reverse'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817207,
+				tcgplayer: 623482
+			}
 		},
 		{
-			type: 'holo'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817207,
+				tcgplayer: 623482
+			}
 		},
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 819252,
+			}
 		},
-	]
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program']
+		}
+	],
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Basculin"
 	},
 
+	illustrator: "KEIICHIRO ITO",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -64,9 +65,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835951
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 835951,
+			tcgplayer: 642136
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 835951,
+			tcgplayer: 642136
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 836535,
+			tcgplayer: 642380
+		}
+	},
+	{
+		type: "reverse",
+		foil: "masterball",
+		thirdParty: {
+			cardmarket: 836536,
+			tcgplayer: 642308
+		}
+	},
+],
 }
 
 export default card

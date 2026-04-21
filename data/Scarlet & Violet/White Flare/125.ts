@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gothorita"
 	},
 
+	illustrator: "Terada Tera",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
@@ -71,9 +72,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836141
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836141,
+				tcgplayer: 642237
+			}
+		},
+	],
 }
 
 export default card

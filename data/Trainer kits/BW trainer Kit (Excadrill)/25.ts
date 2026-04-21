@@ -25,17 +25,20 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Hone Claws"
+			en: "Hone Claws",
+			fr: "Aiguisage"
 		},
 		effect: {
-			en: "During your next turn, each of this Pokémon's attacks does 30 more damage (before applying Weakness and Ressistance)."
+			en: "During your next turn, each of this Pokémon's attacks does 30 more damage (before applying Weakness and Ressistance).",
+			fr: "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
 		}
 	}, {
 		cost: [
 			"Fighting",
 		],
 		name: {
-			en: "Scratch"
+			en: "Scratch",
+			fr: "Griffe"
 		},
 		damage: 10
 	}],

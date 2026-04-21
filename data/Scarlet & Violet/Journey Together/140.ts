@@ -74,18 +74,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Mina Nakai",
 
-	thirdParty: {
-		cardmarket: 817292
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817292,
+				tcgplayer: 623567
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817292,
+				tcgplayer: 623567
+			}
 		},
-	]
+	],
 }
 
 export default card

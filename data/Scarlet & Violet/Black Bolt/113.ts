@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tynamo"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 40,
@@ -47,10 +48,15 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836135
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836135,
+				tcgplayer: 642566
+			}
+		},
+	]
 }
 
 export default card

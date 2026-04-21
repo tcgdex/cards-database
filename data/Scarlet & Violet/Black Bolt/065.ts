@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Bisharp"
 	},
 
+	illustrator: "Oku",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -72,10 +73,38 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836009
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836009,
+				tcgplayer: 642516
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836009,
+				tcgplayer: 642516
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836444,
+				tcgplayer: 642758
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836445,
+				tcgplayer: 642685
+			}
+		}
+	]
 }
 
 export default card

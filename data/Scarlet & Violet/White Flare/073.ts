@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Watchog"
 	},
 
+	illustrator: "Ounishi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -81,9 +82,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836034
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836034,
+				tcgplayer: 642186
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836034,
+				tcgplayer: 642186
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836630,
+				tcgplayer: 642427
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836631,
+				tcgplayer: 642355
+			}
+		},
+	],
 }
 
 export default card

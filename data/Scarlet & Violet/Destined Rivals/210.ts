@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Cetitan ex"
 	},
 
+
+	illustrator: "PLANETA Tsuji",
+
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 300,
@@ -85,13 +88,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826084,
+				tcgplayer: 633010
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826084
-	}
 }
 
 export default card

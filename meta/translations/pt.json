@@ -116,6 +116,7 @@
 	},
 	"variantFoil": {
 		"pokeball": "Poké Bola",
+		"greatball": "Great Bola",
 		"ultraball": "Ultra Bola",
 		"masterball": "Master Bola",
 		"gold": "Ouro",
@@ -127,7 +128,13 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"tinsel": "tinsel",
+		"loveball": "Bola de Amor",
+		"friendball": "Bola de Amizade", 
+		"quickball": "Bola Rápida",
+		"duskball": "Bola Crepúsculo", 
+		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
 		"1st-edition": "1ª Edição",
@@ -219,7 +226,23 @@
 		"horizons": "horizons",
 		"illustration-contest-2024": "illustration-contest-2024",
 		"worlds-2025": "worlds-2025",
-		"top-eight": "top-eight"
+		"top-eight": "top-eight",
+		"trick-or-trade": "trick-or-trade",
+		"champion": "campeão",
+		"master-ball-league": "liga-master-ball",
+		"ultra-ball-league": "liga-ultra-ball",
+		"asia-promo": "asia-promo",
+		"judge": "juiz",
+		"international-championship-europe": "campeonato-internacional-europa",
+		"international-championship-latin-america": "campeonato-internacional-américa-latina",
+		"international-championship-north-america": "campeonato-internacional-américa-do-norte",
+		"ace-trainer": "Ace Trainer",
+		"pikachu": "pikachu",
+		"bulbasaur": "bulbasaur",
+		"squirtle": "squirtle",
+		"charmander": "charmander",
+		"pokeball": "pokeball",
+		"mcdonalds": "mcdonalds"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",

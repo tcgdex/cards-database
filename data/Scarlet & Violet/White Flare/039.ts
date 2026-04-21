@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Yamask"
 	},
 
+	illustrator: "Bun Toujo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -50,9 +51,38 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835974
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835974,
+				tcgplayer: 642151
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835974,
+				tcgplayer: 642151
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836563,
+				tcgplayer: 642394
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836564,
+				tcgplayer: 642322
+			}
+		},
+	],
 }
 
 export default card

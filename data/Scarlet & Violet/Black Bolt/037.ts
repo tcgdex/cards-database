@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Solosis"
 	},
 
+	illustrator: "LINNE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -39,10 +40,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835981
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835981,
+				tcgplayer: 642489
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835981,
+				tcgplayer: 642489
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836348,
+				tcgplayer: 642733
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836347,
+				tcgplayer: 642660
+			}
+		}
+	]
 }
 
 export default card

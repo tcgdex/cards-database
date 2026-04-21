@@ -28,9 +28,23 @@ const card: Card = {
 	energyType: "Special",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "reverse",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		},
+	],
 
 	thirdParty: {
 		cardmarket: 760791

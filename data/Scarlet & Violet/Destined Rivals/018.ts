@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Hydrapple"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 170,
@@ -73,16 +74,27 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825892,
+				tcgplayer: 632844
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825892,
+				tcgplayer: 632844
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 859006,
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825892
-	}
 }
 
 export default card

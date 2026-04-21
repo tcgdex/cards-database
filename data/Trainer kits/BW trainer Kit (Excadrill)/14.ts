@@ -35,10 +35,12 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Bulk Up"
+			en: "Bulk Up",
+			fr: "Gonflette"
 		},
 		effect: {
-			en: "During your next turn, each of this Pokémon's attacks does 20 more damage (before applying Weakness and Resistance)."
+			en: "During your next turn, each of this Pokémon's attacks does 20 more damage (before applying Weakness and Resistance).",
+			fr: "Lors de votre prochain tour, chaque attaque de ce Pokémon inflige 20 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
 		}
 	}, {
 		cost: [
@@ -47,7 +49,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Pound"
+			en: "Pound",
+			fr: "Écras'Face"
 		},
 		damage: 60
 	}],

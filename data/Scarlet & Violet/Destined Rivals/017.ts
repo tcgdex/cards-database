@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Dipplin"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -61,16 +62,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825891,
+				tcgplayer: 632843
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825891,
+				tcgplayer: 632843
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825891
-	}
 }
 
 export default card

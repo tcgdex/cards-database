@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Arlequín"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -30,9 +31,15 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836203
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836203,
+			tcgplayer: 642280
+		}
+	},
+],
 }
 
 export default card

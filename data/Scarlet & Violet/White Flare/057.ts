@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Scraggy"
 	},
 
+	illustrator: "osare",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -54,9 +55,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836006
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836006,
+				tcgplayer: 642169
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836006,
+				tcgplayer: 642169
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836597,
+				tcgplayer: 642411
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836598,
+				tcgplayer: 642339
+			}
+		},
+	],
 }
 
 export default card

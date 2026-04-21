@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Munna"
 	},
 
+	illustrator: "miki kudo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -61,10 +62,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836144
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836144,
+				tcgplayer: 642570
+			}
+		},
+	]
 }
 
 export default card

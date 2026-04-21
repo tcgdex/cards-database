@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gigalith"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 170,
@@ -73,9 +74,38 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835990
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835990,
+				tcgplayer: 642160
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835990,
+				tcgplayer: 642160
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836579,
+				tcgplayer: 642402
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836580,
+				tcgplayer: 642330
+			}
+		},
+	],
 }
 
 export default card

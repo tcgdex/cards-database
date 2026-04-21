@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Electabuzz"
 	},
 
+
+	illustrator: "Amelicart",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -42,16 +45,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825942,
+				tcgplayer: 632881
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825942,
+				tcgplayer: 632881
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825942
-	}
 }
 
 export default card

@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charizard"
+		en: "Charizard",
+		fr: "Dracaufeu",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -16,18 +17,25 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Stage2",
 
-	attacks: [{
-		name: {
-			en: "Fire Spin"
+	attacks: [
+		{
+			name: {
+				en: "Fire Spin",
+				fr: "Danseflamme",
+			},
+			effect: {
+				en: "Discard 2 Energy cards attached to Charizard in order to use this attack.",
+				fr: "Défaussez 2 cartes Énergie attachées à Dracaufeu pour pouvoir utiliser cette attaque.",
+			},
+			damage: 100,
+			cost: [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire",
+			],
 		},
-
-		effect: {
-			en: "Discard 2 Energy cards attached to Charizard in order to use this attack."
-		},
-
-		damage: 100,
-		cost: ["Fire", "Fire", "Fire", "Fire"]
-	}],
+	],
 
 	weaknesses: [{
 		type: "Water",
@@ -49,11 +57,13 @@ const card: Card = {
 		type: "Pokemon Power",
 
 		name: {
-			en: "Energy Burn"
+			en: "Energy Burn",
+			fr: "Espace Absolu"
 		},
 
 		effect: {
-			en: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed."
+			en: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.",
+			fr: "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de cartes Stade de sa main."
 		}
 	}],
 

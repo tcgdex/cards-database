@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Weezing del Equipo Rocket"
 	},
 
+
+	illustrator: "Yukihiro Tada",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
@@ -61,13 +64,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826073,
+				tcgplayer: 632999
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826073
-	}
 }
 
 export default card

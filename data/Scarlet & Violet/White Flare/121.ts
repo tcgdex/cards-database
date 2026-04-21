@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sigilyph"
 	},
 
+	illustrator: "mingo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
@@ -70,9 +71,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836134
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836134,
+			tcgplayer: 642233
+		}
+	},
+],
 }
 
 export default card

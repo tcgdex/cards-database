@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Protón del Equipo Rocket"
 	},
 
+
+	illustrator: "Naoki Saito",
+
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -32,13 +35,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826101,
+				tcgplayer: 633027
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826101
-	}
 }
 
 export default card

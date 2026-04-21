@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	suffix: "EX",
@@ -87,6 +88,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 0,
 
 	thirdParty: {
 		tcgplayer: 88526,

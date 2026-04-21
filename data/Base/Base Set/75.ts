@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Lass",
 		fr: "Fillette",
-		de: "Göre"
+		de: "Göre",
+		it: "Pupa"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,7 +16,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Vous révélez votre main ainsi que votre adversaire, puis mélangez toutes les cartes Dresseur de vos mains dans vos decks respectifs.",
-		de: "Du und Dein Gegner zeigen sich gegenseitig die Karten auf der Hand, und mischen dann alle Trainerkarten aus der Hand in den Stapel-"
+		de: "Du und Dein Gegner zeigen sich gegenseitig die Karten auf der Hand, und mischen dann alle Trainerkarten aus der Hand in den Stapel-",
+		it: "Tu e il tuo avversario vi mostrate le carte che avete in mano; poi ognuno rimette tutte le carte Addestramento che ha in mano nel proprio mazzo e lo rimischia."
 	},
 
 	thirdParty: {

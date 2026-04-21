@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sawsbuck"
 	},
 
+	illustrator: "Narano",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
@@ -73,9 +74,38 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835913
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835913,
+				tcgplayer: 642122
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835913,
+				tcgplayer: 642122
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836503,
+				tcgplayer: 642367
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836504,
+				tcgplayer: 642295
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Fennel"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -29,10 +30,15 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836236
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836236,
+				tcgplayer: 642615
+			}
+		},
+	]
 }
 
 export default card

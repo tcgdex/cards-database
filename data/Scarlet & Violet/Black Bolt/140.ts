@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Klang"
 	},
 
+	illustrator: "okawamatakatoshi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
@@ -58,10 +59,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836206
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836206,
+				tcgplayer: 642262
+			}
+		},
+	]
 }
 
 export default card

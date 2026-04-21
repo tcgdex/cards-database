@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Deino"
 	},
 
+	illustrator: "kodama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -64,9 +65,38 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836022
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836022,
+				tcgplayer: 642175
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836022,
+				tcgplayer: 642175
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836613,
+				tcgplayer: 642417
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836614,
+				tcgplayer: 642345
+			}
+		},
+	],
 }
 
 export default card

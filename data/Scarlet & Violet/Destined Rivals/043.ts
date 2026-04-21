@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rotom Calor"
 	},
 
+	illustrator: "Dsuke",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -74,16 +75,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825917,
+				tcgplayer: 632862
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825917,
+				tcgplayer: 632862
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825917
-	}
 }
 
 export default card

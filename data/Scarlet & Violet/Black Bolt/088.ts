@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Servine"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
@@ -72,10 +73,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836085
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836085,
+				tcgplayer: 642537
+			}
+		},
+	]
 }
 
 export default card

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Blaziken"
 	},
 
+
+	illustrator: "kodama",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 170,
@@ -75,13 +78,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826066,
+				tcgplayer: 632992
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826066
-	}
 }
 
 export default card

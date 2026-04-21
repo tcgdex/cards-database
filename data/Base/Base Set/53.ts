@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Magnemite",
 		fr: "Magneti",
-		de: "Magnetilo"
+		de: "Magnetilo",
+		it: "Magnemite"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Thunder Wave",
 				fr: "Cage-Éclair",
-				de: "Donnerwelle"
+				de: "Donnerwelle",
+				it: "Tuononda"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt."
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 10,
 
@@ -51,12 +54,14 @@ const card: Card = {
 			name: {
 				en: "Selfdestruct",
 				fr: "Destruction",
-				de: "Finale"
+				de: "Finale",
+				it: "Autodistruzione"
 			},
 			effect: {
 				en: "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magnemite does 40 damage to itself.",
 				fr: "Inflige 10 dégâts à chaque Pokémon sur le Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.) Magneti s'inflige 40 dégâts.",
-				de: "Fügt jedem Pokémon auf der Bank eines jeden Spielers 10 Schadenspunkte zu. (Schwäche und resistenz für Pokémon auf der Bank nicht anwenden!) Magnetilo fügt isch selbst 40 Schadenspunkte zu."
+				de: "Fügt jedem Pokémon auf der Bank eines jeden Spielers 10 Schadenspunkte zu. (Schwäche und resistenz für Pokémon auf der Bank nicht anwenden!) Magnetilo fügt isch selbst 40 Schadenspunkte zu.",
+				it: "Infligge 10 danni a ogni Pokémon nella Panchina di ogni giocatore. (Non applicare Debolezza e Resistenza per i Pokémon in Panchina.) Magnemite si infligge 40 danni."
 			},
 			damage: 40,
 
@@ -71,7 +76,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il contrôle la gravité pour pouvoir voler. Il attaque avec des Cages-Éclair."
+		fr: "Il contrôle la gravité pour pouvoir voler. Il attaque avec des Cages-Éclair.",
+		it: "Usa l'antigravità per rimanere sospeso. Appare senza preavviso e usa attacchi come Tuononda. LIV 13 N.81"
 	},
 
 	thirdParty: {

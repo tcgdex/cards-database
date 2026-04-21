@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Durant"
 	},
 
+	illustrator: "Scav",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
@@ -64,9 +65,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836184
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836184,
+				tcgplayer: 642264
+			}
+		},
+	],
 }
 
 export default card

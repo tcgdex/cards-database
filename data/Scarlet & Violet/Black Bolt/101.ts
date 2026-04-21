@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Panpour"
 	},
 
+	illustrator: "Hoshino KURO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -61,10 +62,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836109
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836109,
+				tcgplayer: 642554
+			}
+		},
+	]
 }
 
 export default card

@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tone-Deaf",
+				fr: "Dur d'Oreille"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
@@ -49,6 +51,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
+				fr: "Picpic"
 			},
 
 			damage: 30,

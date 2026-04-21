@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Recuperación de Energía"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -30,9 +31,30 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836054
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836054,
+				tcgplayer: 642194
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836054,
+				tcgplayer: 642194
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836643,
+				tcgplayer: 644831
+			}
+		},
+	],
 }
 
 export default card

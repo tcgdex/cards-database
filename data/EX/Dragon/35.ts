@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
+		fr: "Magnéti"
 	},
 
 	stage: "Stage1",
@@ -72,9 +73,12 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 87101,
-		cardmarket: 275894
+		cardmarket: 275912
 	}
 }
 

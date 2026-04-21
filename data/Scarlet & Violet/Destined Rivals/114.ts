@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Nidoran♀ del Equipo Rocket"
 	},
 
+
+	illustrator: "REND",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -52,16 +55,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825988,
+				tcgplayer: 632922
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825988,
+				tcgplayer: 632922
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825988
-	}
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Sage's Training",
+		fr: "Entraînement de Sage",
 		de: "Training des Weisen"
 	},
 
@@ -14,7 +15,8 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		de: "Schau dir die obersten 5 Karten deines Decks an. Wähle 2 beliebige der gefundenen Karten und nimm sie auf die Hand. Lege die anderen Karten auf deinen Ablagestapel."
+		de: "Schau dir die obersten 5 Karten deines Decks an. Wähle 2 beliebige der gefundenen Karten und nimm sie auf die Hand. Lege die anderen Karten auf deinen Ablagestapel.",
+		fr: "Regardez les 5 cartes du dessus de votre deck. Choisissez-en 2 et ajoutez-les à votre main. Défaussez les autres cartes.",
 	},
 
 	thirdParty: {

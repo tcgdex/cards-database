@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Ekans del Equipo Rocket"
 	},
 
+
+	illustrator: "KEIICHIRO ITO",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -64,16 +67,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825986,
+				tcgplayer: 632920
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825986,
+				tcgplayer: 632920
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825986
-	}
 }
 
 export default card

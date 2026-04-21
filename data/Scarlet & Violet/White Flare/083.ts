@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Arlequín"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -30,9 +31,30 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836057
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836057,
+				tcgplayer: 642198
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836057,
+				tcgplayer: 642198
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836644,
+				tcgplayer: 645195
+			}
+		},
+	],
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Klang"
 	},
 
+	illustrator: "Amelicart",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -58,10 +59,38 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836037
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836037,
+				tcgplayer: 642181
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836037,
+				tcgplayer: 642181
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836434,
+				tcgplayer: 642422
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836433,
+				tcgplayer: 642350
+			}
+		}
+	]
 }
 
 export default card

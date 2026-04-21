@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Psyduck de Misty"
 	},
 
+
+	illustrator: "OKACHEKE",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -66,13 +69,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826067,
+				tcgplayer: 632993
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826067
-	}
 }
 
 export default card

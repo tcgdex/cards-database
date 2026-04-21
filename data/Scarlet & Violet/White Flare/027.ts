@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Vanillite"
 	},
 
+	illustrator: "cochi8i",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -64,9 +65,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835956
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835956,
+				tcgplayer: 642139
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835956,
+				tcgplayer: 642139
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836541,
+				tcgplayer: 642383
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836542,
+				tcgplayer: 642311
+			}
+		},
+	],
 }
 
 export default card

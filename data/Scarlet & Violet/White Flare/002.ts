@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Swadloon"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -73,9 +74,38 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835899
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835899,
+				tcgplayer: 642117
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835899,
+				tcgplayer: 642117
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836495,
+				tcgplayer: 642363
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836496,
+				tcgplayer: 642291
+			}
+		},
+	],
 }
 
 export default card

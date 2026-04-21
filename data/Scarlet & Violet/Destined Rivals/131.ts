@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Liepard de Marnie"
 	},
 
+
+	illustrator: "Hasuno",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -61,16 +64,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826005,
+				tcgplayer: 632939
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826005,
+				tcgplayer: 632939
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826005
-	}
 }
 
 export default card

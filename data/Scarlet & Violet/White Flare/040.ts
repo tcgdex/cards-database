@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cofagrigus"
 	},
 
+	illustrator: "Bun Toujo",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -81,9 +82,31 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835975
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 835975,
+				tcgplayer: 642152
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836565,
+				tcgplayer: 642395
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836566,
+				tcgplayer: 642323
+			}
+		},
+	],
 }
 
 export default card

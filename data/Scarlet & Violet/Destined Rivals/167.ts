@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Árbitro"
 	},
 
+
+	illustrator: "kantaro",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -29,18 +32,23 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "G",
+
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826041,
+				tcgplayer: 632969
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826041,
+				tcgplayer: 632969
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826041
-	}
 }
 
 export default card

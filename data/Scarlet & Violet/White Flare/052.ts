@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Mienfoo"
 	},
 
+	illustrator: "Keisin",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -40,9 +41,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835997
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835997,
+				tcgplayer: 642164
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835997,
+				tcgplayer: 642164
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836587,
+				tcgplayer: 642406
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836588,
+				tcgplayer: 642334
+			}
+		},
+	],
 }
 
 export default card

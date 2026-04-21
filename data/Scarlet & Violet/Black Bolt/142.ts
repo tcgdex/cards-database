@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pawniard"
 	},
 
+	illustrator: "Dsuke",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -49,10 +50,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836199
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836199,
+				tcgplayer: 642596
+			}
+		},
+	]
 }
 
 export default card

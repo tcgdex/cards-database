@@ -14,8 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.",
-		de: "Jedes Pokémon im Spiel (deine und die deines Gegners), das kein entwickeltes Pokémon ist, erhält +20 KP."
+		fr: "Chaque Pokémon en jeu qui n'est pas un Pokémon Évolué (parmi les vôtres et ceux de votre adversaire) obtient + 20 PV.",
+		de: "Jedes Pokémon im Spiel (deine und die deines Gegners), das kein entwickeltes Pokémon ist, erhält +20 KP.",
 	},
 
 	trainerType: "Stadium",

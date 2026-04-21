@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Crobat ex del Equipo Rocket"
 	},
 
+
+	illustrator: "5ban Graphics",
+
 	rarity: "Hyper rare",
 	category: "Pokemon",
 	hp: 310,
@@ -85,14 +88,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo',
-			foil: 'gold'
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 826116,
+				tcgplayer: 633042
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826116
-	}
 }
 
 export default card

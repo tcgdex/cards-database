@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Excadrill ex"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 270,
@@ -82,10 +83,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836242
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836242,
+				tcgplayer: 642620
+			}
+		},
+	]
 }
 
 export default card

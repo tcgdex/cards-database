@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mabosstiff ex de Damián"
 	},
 
+
+	illustrator: "akagi",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 270,
@@ -85,13 +88,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826013,
+				tcgplayer: 632946
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826013
-	}
 }
 
 export default card

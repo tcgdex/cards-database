@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lairon",
+		fr: "Galegon"
 	},
 
 	stage: "Stage2",
@@ -83,6 +84,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+	
+	retreat: 4,
 
 	thirdParty: {
 		cardmarket: 276879,

@@ -30,9 +30,15 @@ const card: Card = {
 	energyType: "Normal",
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 857699
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 857699,
+				tcgplayer: 662170
+			}
+		}
+	],
 }
 
 export default card

@@ -51,9 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Frozen Slice",
+				fr: "Tranche Gelée"
 			},
 			effect: {
 				en: "This Pokémon does 20 damage to itself.",
+				fr: "Ce Pokémon s'inflige 20 dégâts."
 			},
 			damage: 120,
 
@@ -70,7 +72,7 @@ const card: Card = {
 	retreat: 3,
 
 	thirdParty: {
-		cardmarket: 289803
+		cardmarket: 553908
 	}
 }
 

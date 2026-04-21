@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spoink",
+		fr: "Spoink"
 	},
 
 	stage: "Stage1",
@@ -69,9 +70,12 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
 		tcgplayer: 85967,
-		cardmarket: 276540
+		cardmarket: 276541
 	},
 
 	variants: [

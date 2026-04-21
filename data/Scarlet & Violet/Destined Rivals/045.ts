@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Psyduck de Misty"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,
@@ -66,16 +67,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825919,
+				tcgplayer: 630812
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825919,
+				tcgplayer: 630812
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825919
-	}
 }
 
 export default card

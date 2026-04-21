@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Raticate del Equipo Rocket"
 	},
 
+
+	illustrator: "Mékayu",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
@@ -61,13 +64,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826076,
+				tcgplayer: 633002
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826076
-	}
 }
 
 export default card

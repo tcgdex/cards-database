@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Taillow"
 	},
 
+
+	illustrator: "Ayako Ozaki",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -42,16 +45,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826030,
+				tcgplayer: 632958
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826030,
+				tcgplayer: 632958
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826030
-	}
 }
 
 export default card

@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Rare",
 	category: "Pokemon",
+
+	dexId: [330],
 	hp: 150,
 	types: ["Fighting"],
 	stage: "Stage2",
-	dexId: [330],
 
 	abilities: [{
 		type: "Ability",
@@ -64,9 +65,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 857628
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 857628,
+				tcgplayer: 662159
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 858508
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 857628,
+				tcgplayer: 662159
+			}
+		}
+	],
+
+	
 }
 
 export default card

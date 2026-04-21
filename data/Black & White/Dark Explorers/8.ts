@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dwebble",
+		fr: "Crabicoque"
 	},
 
 	stage: "Stage1",
@@ -40,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Cut",
+				fr: "Coupe"
 			},
 
 			damage: 30,
@@ -53,9 +55,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heavy Bullet",
+				fr: "Projectile Lourd"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâs à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 70,
 

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Krokorok"
 	},
 
+	illustrator: "Gapao",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
@@ -58,10 +59,38 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836024
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836024,
+				tcgplayer: 642510
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836024,
+				tcgplayer: 642510
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836408,
+				tcgplayer: 642752
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836406,
+				tcgplayer: 642679
+			}
+		}
+	]
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Scoop Up",
 		fr: "Rappel",
-		de: "Aufwisch"
+		de: "Aufwisch",
+		it: "Recupero",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,7 +16,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Choisissez 1 de vos Pokémon en jeu et reprenez sa carte Pokémon de base dans votre main. (Défaussez toutes les cartes attachées à cette carte.)",
-		de: "Wähle eines Deiner Pokémon im Spiel und nimm seine Basis-Karte auf Deine Hand zurück (Entferne alle auf dieser Karte abgelegte Karten.)"
+		de: "Wähle eines Deiner Pokémon im Spiel und nimm seine Basis-Karte auf Deine Hand zurück (Entferne alle auf dieser Karte abgelegte Karten.)",
+		it: "Scegli uno dei tuoi Pokémon in gioco e riprendi in mano la carta del suo Pokémon Base. (Scarta tutte le altre carte assegnate a quel Pokémon Base.)"
 	},
 
 	thirdParty: {

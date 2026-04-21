@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Reshiram ex"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 230,
@@ -64,9 +65,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836209
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836209,
+			tcgplayer: 642283
+		}
+	},
+],
 }
 
 export default card

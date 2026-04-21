@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Quilava de Ethan"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
@@ -75,16 +76,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825906,
+				tcgplayer: 632855
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825906,
+				tcgplayer: 632855
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825907
-	}
 }
 
 export default card

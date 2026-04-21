@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Whirlipede"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
@@ -58,10 +59,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836183
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836183,
+				tcgplayer: 642588
+			}
+		},
+	]
 }
 
 export default card

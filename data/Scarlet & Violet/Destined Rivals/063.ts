@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Barraskewda"
 	},
 
+
+	illustrator: "Kyoko Umemoto",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
@@ -75,16 +78,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825937,
+				tcgplayer: 632876
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825937,
+				tcgplayer: 632876
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825937
-	}
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Milotic de Cynthia"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
@@ -61,16 +62,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825927,
+				tcgplayer: 632866
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825927,
+				tcgplayer: 632866
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825927
-	}
 }
 
 export default card

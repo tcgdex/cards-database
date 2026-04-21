@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Houndour",
+		fr: "Malosse"
 	},
 
 	stage: "Stage1",
@@ -84,7 +85,7 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 275050,
+		cardmarket: 275086,
 		tcgplayer: 86203
 	},
 

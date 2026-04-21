@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Stoutland"
 	},
 
+	illustrator: "Eri Kamei",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 160,
@@ -81,9 +82,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836194
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836194,
+			tcgplayer: 642270
+		}
+	},
+],
 }
 
 export default card

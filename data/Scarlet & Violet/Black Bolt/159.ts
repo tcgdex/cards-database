@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Meloetta ex"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -73,10 +74,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836233
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836233,
+				tcgplayer: 642611
+			}
+		},
+	]
 }
 
 export default card

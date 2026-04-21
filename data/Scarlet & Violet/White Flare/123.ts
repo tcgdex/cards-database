@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cofagrigus"
 	},
 
+	illustrator: "Haru Akasaka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
@@ -81,9 +82,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836138
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836138,
+			tcgplayer: 642235
+		}
+	},
+],
 }
 
 export default card

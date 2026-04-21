@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Drilbur"
 	},
 
+	illustrator: "Koji Nakata",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -53,10 +54,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836165
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836165,
+				tcgplayer: 642579
+			}
+		},
+	]
 }
 
 export default card

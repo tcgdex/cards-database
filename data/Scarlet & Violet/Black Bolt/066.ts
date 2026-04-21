@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cobalion"
 	},
 
+	illustrator: "HICO KIM",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -73,10 +74,38 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836045
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836045,
+				tcgplayer: 642517
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836045,
+				tcgplayer: 642517
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836447,
+				tcgplayer: 642759
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836446,
+				tcgplayer: 642686
+			}
+		}
+	]
 }
 
 export default card

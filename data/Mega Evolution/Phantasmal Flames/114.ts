@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+
+	dexId: [395],
 	hp: 320,
 	types: ["Metal"],
 	stage: "Stage2",
-	dexId: [395],
 
 	abilities: [{
 		type: "Ability",
@@ -74,9 +75,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 857689
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 857689,
+				tcgplayer: 662156
+			}
+		}
+	],
 }
 
 export default card

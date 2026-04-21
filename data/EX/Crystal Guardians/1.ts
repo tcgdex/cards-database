@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shuppet",
+		fr: "Polichombr"
 	},
 
 	stage: "Stage1",
@@ -79,6 +80,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 277082,

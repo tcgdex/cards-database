@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Devolution Spray",
 		fr: "Vaporisateur rétrograde",
-		de: "Rückentwicklungs-Spray"
+		de: "Rückentwicklungs-Spray",
+		it: "Getto di Involuzione"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,8 +16,9 @@ const card: Card = {
 
 	effect: {
 		fr: "Choisissez 1 de vos propres Pokémon en jeu et un Niveau d'évolution. Défaussez toutes les cartes Évolution de ce stade ou supérieur attachée(s) à ce Pokémon. Ce Pokémon n'est plus Endormi, Confus, Paralysé, Empoisonné ou tout autre effet résultant d'une attaque (comme si vous veniez juste de le faire évoluer).",
-		de: "Wähle eines Deiner eigenen Pokémon im Spiel und eine Evolutionsphase. Entferne alle Evolutionskarten dieser oder höherer Phasen, die auf diesem Pokémon abgelegt sind. Dieses Pokémon ist nicht mher schlafend, verwirrt, gelähmt, vergiftet oder in sonst einem Zustand, der das Ergebnis eines Angriffs ist (genauso als ob Du es weiterentwickelt hättest)."
-	},
+		de: "Wähle eines Deiner eigenen Pokémon im Spiel und eine Evolutionsphase. Entferne alle Evolutionskarten dieser oder höherer Phasen, die auf diesem Pokémon abgelegt sind. Dieses Pokémon ist nicht mher schlafend, verwirrt, gelähmt, vergiftet oder in sonst einem Zustand, der das Ergebnis eines Angriffs ist (genauso als ob Du es weiterentwickelt hättest).",
+		it: "Scegli uno dei tuoi Pokémon in gioco e una fase di Evoluzione. Scarta tutte le carte Evoluzione assegnate a quella Fase o a Fasi superiori. Quel Pokémon non è più Addormentato, Confuso, Paralizzato, Avvelenato e non ha altri effetti causati da un attacco (proprio come se si fosse evoluto)"
+		},
 
 	thirdParty: {
 		cardmarket: 273767,

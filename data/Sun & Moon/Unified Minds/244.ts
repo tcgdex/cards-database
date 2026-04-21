@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu"
 	},
 
 	stage: "Stage1",
@@ -108,7 +109,7 @@ const card: Card = {
 	retreat: 0,
 
 	thirdParty: {
-		cardmarket: 381441,
+		cardmarket: 389012,
 		tcgplayer: 195054
 	}
 }

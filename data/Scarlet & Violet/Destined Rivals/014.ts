@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lurantis"
 	},
 
+	illustrator: "Masako Tomii",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -75,16 +76,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825888,
+				tcgplayer: 632840
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825888,
+				tcgplayer: 632840
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825888
-	}
 }
 
 export default card

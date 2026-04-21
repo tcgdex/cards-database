@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blastoise"
+		en: "Blastoise",
+		fr: "Tortank",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -16,18 +17,24 @@ const card: Card = {
 	types: ["Water"],
 	stage: "Stage2",
 
-	attacks: [{
-		name: {
-			en: "Hydro Pump"
+	attacks: [
+		{
+			name: {
+				en: "Hydro Pump",
+				fr: "Hydrocanon",
+			},
+			effect: {
+				en: "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Eau attachée à Tortank en plus du coût en Énergie de cette attaque. Les Énergies Eau supplémentaires après la seconde ne comptent pas.",
+			},
+			damage: "40+",
+			cost: [
+				"Water",
+				"Water",
+				"Water",
+			],
 		},
-
-		effect: {
-			en: "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count."
-		},
-
-		damage: "40+",
-		cost: ["Water", "Water", "Water"]
-	}],
+	],
 
 	weaknesses: [{
 		type: "Lightning",

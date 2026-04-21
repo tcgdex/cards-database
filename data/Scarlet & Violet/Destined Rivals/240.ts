@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mewtwo ex del Equipo Rocket"
 	},
 
+
+	illustrator: "aky CG Works",
+
 	rarity: "Hyper rare",
 	category: "Pokemon",
 	hp: 280,
@@ -76,14 +79,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo',
-			foil: 'gold'
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 826114,
+				tcgplayer: 633040
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826114
-	}
 }
 
 export default card

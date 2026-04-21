@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Illustration rare",
 	category: "Pokemon",
+
+	dexId: [835],
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
-	dexId: [835],
 
 	attacks: [{
 		cost: ["Lightning", "Colorless"],
@@ -50,9 +51,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 857674
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 857674,
+				tcgplayer: 662243
+			}
+		}
+	],
 }
 
 export default card

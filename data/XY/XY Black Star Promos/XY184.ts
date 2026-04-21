@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Giratina",
+		fr: "Giratina"
 	},
 
 	illustrator: "5ban Graphics",
@@ -28,9 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Devour Light",
+				fr: "Dévore Lumière"
 			},
 			effect: {
 				en: "Each Pokemon BREAK has no Abilities (this includes Abilities of its previous Evolution).",
+				fr: "Aucun Pokémon TURBO n'a de talents (cela inclut les talents de sa précédente Évolution)."
 			},
 		},
 	],
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadow Claw",
+				fr: "Griffe Ombre"
 			},
 			effect: {
 				en: "Discard a random card from your opponent's hand.",
+				fr: "Défaussez au hasard une carte de la main de votre adversaire."
 			},
 			damage: 110,
 

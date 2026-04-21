@@ -4,6 +4,7 @@ import Set from '../Nintendo Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Marshtomp",
+		fr: "Flobio"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -19,6 +20,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Mudkip",
+		fr: "Gobou"
 	},
 	stage: "Stage1",
 
@@ -30,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble",
+				fr: "Écume"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, Le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -45,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 40,

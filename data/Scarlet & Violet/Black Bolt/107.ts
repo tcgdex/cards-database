@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Carracosta"
 	},
 
+	illustrator: "Takeshi Nakamura",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 180,
@@ -82,10 +83,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836121
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836121,
+				tcgplayer: 642560
+			}
+		},
+	]
 }
 
 export default card

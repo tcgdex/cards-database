@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Frillish"
 	},
 
+	illustrator: "Shinya Komatsu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,
@@ -50,9 +51,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836142
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836142,
+				tcgplayer: 642239
+			}
+		},
+	],
 }
 
 export default card

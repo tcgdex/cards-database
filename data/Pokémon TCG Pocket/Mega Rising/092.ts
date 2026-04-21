@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Ayaka Yoshida",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [595],
 	hp: 30,
 	types: ["Lightning"],
 

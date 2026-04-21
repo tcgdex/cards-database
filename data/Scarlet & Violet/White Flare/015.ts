@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Simisear"
 	},
 
+	illustrator: "Julie Hang",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -49,9 +50,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835930
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835930,
+				tcgplayer: 642130
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835930,
+				tcgplayer: 642130
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836519,
+				tcgplayer: 642375
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836520,
+				tcgplayer: 642303
+			}
+		},
+	],
 }
 
 export default card

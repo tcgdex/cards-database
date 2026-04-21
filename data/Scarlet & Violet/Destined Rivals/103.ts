@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Gabite de Cynthia"
 	},
 
+
+	illustrator: "Taira Akitsu",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
@@ -75,16 +78,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825977,
+				tcgplayer: 632911
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825977,
+				tcgplayer: 632911
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825977
-	}
 }
 
 export default card

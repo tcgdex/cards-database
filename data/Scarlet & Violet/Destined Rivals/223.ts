@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Atlas del Equipo Rocket"
 	},
 
+
+	illustrator: "Hideki Ishikawa",
+
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -32,13 +35,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826097,
+				tcgplayer: 633023
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826097
-	}
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Bisharp"
 	},
 
+	illustrator: "toriyufu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
@@ -72,10 +73,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836210
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836210,
+				tcgplayer: 642597
+			}
+		},
+	]
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Victini"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Black White Rare",
 	category: "Pokemon",
 	hp: 80,
@@ -49,10 +50,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836245
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836245,
+				tcgplayer: 642546
+			}
+		},
+	]
 }
 
 export default card

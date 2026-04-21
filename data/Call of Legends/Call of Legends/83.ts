@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Professor Oak's New Theory",
+		fr: "Nouvelle théorie du Prof. Chen",
 		de: "Professor Eichs neue Theorie"
 	},
 
@@ -14,7 +15,8 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		de: "Mische deine Handkarten in dein Deck. Ziehe danach 6 Karten."
+		de: "Mische deine Handkarten in dein Deck. Ziehe danach 6 Karten.",
+		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
 	},
 
 	thirdParty: {

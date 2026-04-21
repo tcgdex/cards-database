@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Arcanine"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
@@ -75,16 +76,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825901,
+				tcgplayer: 632851
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825901,
+				tcgplayer: 632851
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825902
-	}
 }
 
 export default card

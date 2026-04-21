@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sawk"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
@@ -64,9 +65,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836149
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836149,
+				tcgplayer: 642243
+			}
+		},
+	],
 }
 
 export default card

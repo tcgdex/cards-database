@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Golurk"
 	},
 
+	illustrator: "Uta",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 160,
@@ -72,10 +73,38 @@ const card: Card = {
 
 	retreat: 4,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835994
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835994,
+				tcgplayer: 642495
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835994,
+				tcgplayer: 642495
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836367,
+				tcgplayer: 642739
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836368,
+				tcgplayer: 642666
+			}
+		}
+	]
 }
 
 export default card

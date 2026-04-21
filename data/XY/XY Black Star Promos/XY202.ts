@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Charge",
+				fr: "Chargeur"
 			},
 			effect: {
 				en: "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
+				fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderbolt",
+				fr: "Tonnerre"
 			},
 			effect: {
 				en: "Discard all Energy attached to this Pokémon.",
+				fr: "Défaussez toutes les Énergies attachées à ce Pokémon."
 			},
 			damage: 70,
 

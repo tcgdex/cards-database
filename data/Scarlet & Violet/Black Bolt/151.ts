@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Audino"
 	},
 
+	illustrator: "Asako Ito",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
@@ -49,10 +50,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836223
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836223,
+				tcgplayer: 642605
+			}
+		},
+	]
 }
 
 export default card

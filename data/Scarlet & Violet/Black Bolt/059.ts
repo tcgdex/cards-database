@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Krookodile"
 	},
 
+	illustrator: "Gapao",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 170,
@@ -82,10 +83,38 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836026
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836026,
+				tcgplayer: 642511
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836026,
+				tcgplayer: 642511
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836410,
+				tcgplayer: 642753
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836412,
+				tcgplayer: 642753
+			}
+		}
+	]
 }
 
 export default card

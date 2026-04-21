@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Metichobot del Equipo Rocket"
 	},
 
+
+	illustrator: "Toyste Beach",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -32,16 +35,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826046,
+				tcgplayer: 632973
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826046,
+				tcgplayer: 632973
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826046
-	}
 }
 
 export default card

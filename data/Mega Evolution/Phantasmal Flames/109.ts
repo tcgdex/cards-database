@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+
+	dexId: [6],
 	hp: 360,
 	types: ["Fire"],
 	stage: "Stage2",
-	dexId: [6],
 
 	attacks: [{
 		cost: ["Fire", "Fire"],
@@ -50,9 +51,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 857684
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 857684,
+				tcgplayer: 662183
+			}
+		}
+	],
 }
 
 export default card

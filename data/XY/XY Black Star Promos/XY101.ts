@@ -32,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Psy Bolt",
+				fr: "Choc Mental"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -51,7 +53,7 @@ const card: Card = {
 	retreat: 2,
 
 	thirdParty: {
-		cardmarket: 289557
+		cardmarket: 554275
 	}
 }
 

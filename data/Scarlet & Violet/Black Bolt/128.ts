@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Throh"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
@@ -49,10 +50,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836172
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836172,
+				tcgplayer: 642583
+			}
+		},
+	]
 }
 
 export default card

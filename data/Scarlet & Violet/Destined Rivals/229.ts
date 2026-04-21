@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Moltres ex del Equipo Rocket"
 	},
 
+
+	illustrator: "AKIRA EGAWA",
+
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 220,
@@ -74,13 +77,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826103,
+				tcgplayer: 633029
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 858286,
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826103
-	}
 }
 
 export default card

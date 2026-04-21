@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lillipup"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -50,9 +51,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836036
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836036,
+				tcgplayer: 642187
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836036,
+				tcgplayer: 642187
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836632,
+				tcgplayer: 642428
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836633,
+				tcgplayer: 642356
+			}
+		},
+	],
 }
 
 export default card

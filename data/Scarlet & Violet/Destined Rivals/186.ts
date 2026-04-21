@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Crustle"
 	},
 
+
+	illustrator: "Takumi Wada",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,
@@ -85,13 +88,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826060,
+				tcgplayer: 632986
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826060
-	}
 }
 
 export default card

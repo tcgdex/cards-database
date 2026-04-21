@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Lightning Energy",
 		fr: "Énergie Électrique",
-		de: "Elektroenergie"
+		de: "Elektroenergie",
+		it: "Energia Lampo",
 	},
 
 	illustrator: "Keiji Kinebuchi",

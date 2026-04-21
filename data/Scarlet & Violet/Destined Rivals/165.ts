@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Aventura de Ethan"
 	},
 
+
+	illustrator: "Iori Suzuki",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -32,16 +35,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826039,
+				tcgplayer: 632967
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826039,
+				tcgplayer: 632967
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826039
-	}
 }
 
 export default card

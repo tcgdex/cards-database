@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Makuhita",
+		fr: "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -73,6 +74,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 275656,

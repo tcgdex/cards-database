@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Chandelure"
 	},
 
+	illustrator: "Kuroimori",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,
@@ -83,9 +84,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836099
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836099,
+				tcgplayer: 642551
+			}
+		},
+	],
 }
 
 export default card

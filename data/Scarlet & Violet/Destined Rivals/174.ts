@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Giovanni del Equipo Rocket"
 	},
 
+
+	illustrator: "akagi",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -32,16 +35,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826048,
+				tcgplayer: 630830
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826048,
+				tcgplayer: 630830
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826048
-	}
 }
 
 export default card

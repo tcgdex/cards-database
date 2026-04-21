@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Fósil Cubierta Antiguo"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Common",
 	category: "Trainer",
 
@@ -53,10 +54,30 @@ const card: Card = {
 
 	trainerType: "Item",
 	regulationMark: "H",
-
-	thirdParty: {
-		cardmarket: 836067
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836067,
+				tcgplayer: 642529
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836067,
+				tcgplayer: 642529
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836471,
+				tcgplayer: 644864
+			}
+		},
+	]
 }
 
 export default card

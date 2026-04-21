@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Litwick"
 	},
 
+	illustrator: "satoma",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -48,9 +49,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835931
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835931,
+				tcgplayer: 642464
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835931,
+				tcgplayer: 642464
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836521,
+				tcgplayer: 642709
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836522,
+				tcgplayer: 642637
+			}
+		},
+	],
 }
 
 export default card

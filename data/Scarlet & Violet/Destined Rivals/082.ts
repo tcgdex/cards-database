@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Wobbuffet del Equipo Rocket"
 	},
 
+
+	illustrator: "Kazumasa Yasukuni",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,
@@ -64,16 +67,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825956,
+				tcgplayer: 632892
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825956,
+				tcgplayer: 632892
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825956
-	}
 }
 
 export default card

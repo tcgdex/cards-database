@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Reuniclus"
 	},
 
+	illustrator: "LINNE",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
@@ -80,10 +81,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835985
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835985,
+				tcgplayer: 642491
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835985,
+				tcgplayer: 642491
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836355,
+				tcgplayer: 642735
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836353,
+				tcgplayer: 642662
+			}
+		}
+	]
 }
 
 export default card

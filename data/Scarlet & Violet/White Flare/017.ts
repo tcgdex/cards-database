@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lampent"
 	},
 
+	illustrator: "satoma",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -59,9 +60,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835933
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835933,
+				tcgplayer: 642465
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835933,
+				tcgplayer: 642465
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836523,
+				tcgplayer: 642710
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836524,
+				tcgplayer: 642638
+			}
+		},
+	],
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Timburr"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -53,10 +54,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836167
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836167,
+				tcgplayer: 642580
+			}
+		},
+	]
 }
 
 export default card

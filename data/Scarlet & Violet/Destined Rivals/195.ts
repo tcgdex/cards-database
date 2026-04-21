@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Clamperl"
 	},
 
+
+	illustrator: "Mori Yuu",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -52,13 +55,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826069,
+				tcgplayer: 632995
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826069
-	}
 }
 
 export default card

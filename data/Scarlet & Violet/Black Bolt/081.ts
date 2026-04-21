@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Moneda de Energía"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -29,10 +30,30 @@ const card: Card = {
 
 	trainerType: "Item",
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836068
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836068,
+				tcgplayer: 642528
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836068,
+				tcgplayer: 642528
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836472,
+				tcgplayer: 642770
+			}
+		},
+	]
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Globo con Helio"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -29,10 +30,30 @@ const card: Card = {
 
 	trainerType: "Tool",
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836066
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836066,
+				tcgplayer: 642531
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836066,
+				tcgplayer: 642531
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836470,
+				tcgplayer: 642771
+			}
+		},
+	]
 }
 
 export default card

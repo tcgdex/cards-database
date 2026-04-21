@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Raticate del Equipo Rocket"
 	},
 
+
+	illustrator: "Uninori",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -61,16 +64,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826022,
+				tcgplayer: 632954
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826022,
+				tcgplayer: 632954
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826022
-	}
 }
 
 export default card

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Metagross ex de Steven"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 340,
@@ -75,13 +78,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826019,
+				tcgplayer: 630824
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826019
-	}
 }
 
 export default card

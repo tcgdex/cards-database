@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Susumu Maeya",
 	rarity: "Three Star",
 	category: "Pokemon",
+
+	dexId: [334],
 	hp: 190,
 	types: ["Psychic"],
 

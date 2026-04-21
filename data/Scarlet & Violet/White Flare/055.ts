@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Purrloin"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -48,9 +49,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836002
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836002,
+				tcgplayer: 642167
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836002,
+				tcgplayer: 642167
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836593,
+				tcgplayer: 642409
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836594,
+				tcgplayer: 642337
+			}
+		},
+	],
 }
 
 export default card

@@ -20,15 +20,18 @@ const card: Card = {
 
 	trainerType: "Technical Machine",
 
-	attacks: [{
-		name: {
-			de: "Evoluter"
+	attacks: [
+		{
+			name: {
+				de: "Evoluter",
+				fr: "Évolutionneur",
+			},
+			effect: {
+				de: "Durchsuche dein Deck nach 1 Karte, die sich aus 1 deiner Pokémon entwickelt, und lege sie auf dieses Pokémon. (Dies zählt als Entwickeln von diesem Pokémon.) Mische dein Deck danach.",
+				fr: "Cherchez dans votre deck une carte évoluant d'1 de vos Pokémon et placez-la sur ce Pokémon. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck.",
+			},
 		},
-
-		effect: {
-			de: "Durchsuche dein Deck nach 1 Karte, die sich aus 1 deiner Pokémon entwickelt, und lege sie auf dieses Pokémon. (Dies zählt als Entwickeln von diesem Pokémon.) Mische dein Deck danach."
-		}
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 278285,

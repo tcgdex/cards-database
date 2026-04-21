@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Gible de Cynthia"
 	},
 
+
+	illustrator: "Tomomi Ozaki",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -52,16 +55,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825976,
+				tcgplayer: 632910
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825976,
+				tcgplayer: 632910
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825976
-	}
 }
 
 export default card

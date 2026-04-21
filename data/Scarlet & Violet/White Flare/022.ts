@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Dewott"
 	},
 
+	illustrator: "rika",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
@@ -59,9 +60,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835944
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835944,
+				tcgplayer: 642134
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835944,
+				tcgplayer: 642134
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836531,
+				tcgplayer: 642378
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836532,
+				tcgplayer: 642306
+			}
+		},
+	],
 }
 
 export default card

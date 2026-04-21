@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zekrom ex"
 	},
 
+	illustrator: "takuyoa",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 230,
@@ -63,10 +64,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836232
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836232,
+				tcgplayer: 642610
+			}
+		},
+	]
 }
 
 export default card

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Buizel"
 	},
 
+
+	illustrator: "Ayako Ozaki",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -56,16 +59,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825931,
+				tcgplayer: 632870
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825931,
+				tcgplayer: 632870
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825931
-	}
 }
 
 export default card

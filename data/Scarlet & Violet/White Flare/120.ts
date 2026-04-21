@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Swoobat"
 	},
 
+	illustrator: "Saboteri",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
@@ -71,9 +72,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836133
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836133,
+			tcgplayer: 642232
+		}
+	},
+],
 }
 
 export default card

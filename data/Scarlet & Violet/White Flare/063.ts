@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Vullaby"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -40,9 +41,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836019
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836019,
+				tcgplayer: 642512
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836019,
+				tcgplayer: 642512
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836609,
+				tcgplayer: 642754
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836610,
+				tcgplayer: 642681
+			}
+		},
+	],
 }
 
 export default card

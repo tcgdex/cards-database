@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Fábrica del Equipo Rocket"
 	},
 
+
+	illustrator: "imoniii",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -32,16 +35,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826047,
+				tcgplayer: 632974
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826047,
+				tcgplayer: 632974
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826047
-	}
 }
 
 export default card

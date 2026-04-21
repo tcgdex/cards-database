@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Floatzel"
 	},
 
+
+	illustrator: "Shibuzoh.",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -85,16 +88,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825932,
+				tcgplayer: 632871
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825932,
+				tcgplayer: 632871
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825932
-	}
 }
 
 export default card

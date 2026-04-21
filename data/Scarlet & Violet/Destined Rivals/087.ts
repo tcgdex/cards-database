@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Mimikyu del Equipo Rocket"
 	},
 
+
+	illustrator: "DOM",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 60,
@@ -50,27 +53,34 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825961,
+				tcgplayer: 630821
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825961,
+				tcgplayer: 630821
+			}
 		},
 		{
-			type: 'holo',
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 826182,
+			}
 		},
 		{
-			type: 'holo',
-			stamp: ["set-logo"]
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 833946,
+			}
 		},
-		{
-			type: 'holo',
-			stamp: ["set-logo", "staff"]
-		},
-	],
-
-	thirdParty: {
-		cardmarket: 825961
-	}
+	],	
 }
 
 export default card

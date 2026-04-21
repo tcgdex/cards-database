@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pawniard"
 	},
 
+	illustrator: "Oku",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -49,10 +50,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836041
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836041,
+				tcgplayer: 642515
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836041,
+				tcgplayer: 642515
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836442,
+				tcgplayer: 642757
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836440,
+				tcgplayer: 642684
+			}
+		}
+	]
 }
 
 export default card

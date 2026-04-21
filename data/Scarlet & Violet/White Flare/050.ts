@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Archen"
 	},
 
+	illustrator: "Haru Akasaka",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -59,9 +60,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835991
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835993,
+				tcgplayer: 642162
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835993,
+				tcgplayer: 642162
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836583,
+				tcgplayer: 642404
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836584,
+				tcgplayer: 642332
+			}
+		},
+	],
 }
 
 export default card

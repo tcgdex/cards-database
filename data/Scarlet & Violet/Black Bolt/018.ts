@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Simipour"
 	},
 
+	illustrator: "Makura Tami",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -48,10 +49,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835939
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835939,
+				tcgplayer: 642470
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835939,
+				tcgplayer: 642470
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836294,
+				tcgplayer: 642715
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836295,
+				tcgplayer: 642643
+			}
+		}
+	],
 }
 
 export default card

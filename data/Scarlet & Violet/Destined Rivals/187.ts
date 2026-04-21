@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Spidops del Equipo Rocket"
 	},
 
+
+	illustrator: "NC Empire",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
@@ -85,13 +88,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826062,
+				tcgplayer: 632987
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826061
-	}
 }
 
 export default card

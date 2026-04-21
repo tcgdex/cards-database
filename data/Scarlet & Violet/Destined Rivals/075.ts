@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Electrike"
 	},
 
+
+	illustrator: "Narano",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -56,16 +59,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825949,
+				tcgplayer: 632885
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825949,
+				tcgplayer: 632885
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825949
-	}
 }
 
 export default card

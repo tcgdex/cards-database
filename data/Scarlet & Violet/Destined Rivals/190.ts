@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Typhlosion de Ethan"
 	},
 
+
+	illustrator: "GIDORA",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 170,
@@ -75,13 +78,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826064,
+				tcgplayer: 632990
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826064
-	}
 }
 
 export default card

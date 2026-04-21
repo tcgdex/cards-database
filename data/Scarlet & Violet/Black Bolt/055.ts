@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Whirlipede"
 	},
 
+	illustrator: "okayamatakatoshi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
@@ -58,10 +59,38 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836018
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836018,
+				tcgplayer: 642507
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836018,
+				tcgplayer: 642507
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836395,
+				tcgplayer: 642749
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836396,
+				tcgplayer: 642676
+			}
+		}
+	]
 }
 
 export default card

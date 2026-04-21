@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Mienshao"
 	},
 
+	illustrator: "Atsuya Uki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
@@ -73,9 +74,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836155
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836155,
+				tcgplayer: 642247
+			}
+		},
+	],
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Beartic"
 	},
 
+	illustrator: "OOYAMA",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -82,10 +83,38 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835950
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 835950,
+				tcgplayer: 642478
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835950,
+				tcgplayer: 642478
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836321,
+				tcgplayer: 642723
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836322,
+				tcgplayer: 642651
+			}
+		}
+	]
 }
 
 export default card

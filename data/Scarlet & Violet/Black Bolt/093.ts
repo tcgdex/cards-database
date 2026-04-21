@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Maractus"
 	},
 
+	illustrator: "Heisuke Kitazawa",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
@@ -63,10 +64,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836094
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836094,
+				tcgplayer: 642542
+			}
+		},
+	]
 }
 
 export default card

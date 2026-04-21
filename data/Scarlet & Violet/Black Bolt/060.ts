@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Escavalier"
 	},
 
+	illustrator: "DOM",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
@@ -58,10 +59,38 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836033
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836033,
+				tcgplayer: 642514
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836033,
+				tcgplayer: 642514
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836416,
+				tcgplayer: 642756
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836414,
+				tcgplayer: 642756
+			}
+		}
+	]
 }
 
 export default card

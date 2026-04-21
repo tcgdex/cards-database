@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Rapidash"
 	},
 
+
+	illustrator: "Rond",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
@@ -75,13 +78,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826063,
+				tcgplayer: 632989
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826063
-	}
 }
 
 export default card

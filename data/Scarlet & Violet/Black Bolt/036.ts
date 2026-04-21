@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Musharna"
 	},
 
+	illustrator: "Eri Kamei",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -80,10 +81,38 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835980
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835980,
+				tcgplayer: 642488
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835980,
+				tcgplayer: 642488
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836344,
+				tcgplayer: 642732
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836345,
+				tcgplayer: 642659
+			}
+		}
+	]
 }
 
 export default card

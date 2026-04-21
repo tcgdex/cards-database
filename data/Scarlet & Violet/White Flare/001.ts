@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sewaddle"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -40,9 +41,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835898
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835898,
+				tcgplayer: 642116
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835898,
+				tcgplayer: 642116
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836493,
+				tcgplayer: 642362
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836494,
+				tcgplayer: 642290
+			}
+		},
+	],
 }
 
 export default card

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Spiritomb de Cynthia"
 	},
 
+
+	illustrator: "satoma",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,
@@ -52,16 +55,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826003,
+				tcgplayer: 632937
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826003,
+				tcgplayer: 632937
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826003
-	}
 }
 
 export default card

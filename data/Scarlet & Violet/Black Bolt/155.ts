@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Braviary"
 	},
 
+	illustrator: "kamonabe",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,
@@ -72,10 +73,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836229
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836229,
+				tcgplayer: 642272
+			}
+		},
+	]
 }
 
 export default card

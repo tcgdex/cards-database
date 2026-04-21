@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Nidoking ex del Equipo Rocket"
 	},
 
+
+	illustrator: "5ban Graphics",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 330,
@@ -75,13 +78,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825993,
+				tcgplayer: 632927
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825993
-	}
 }
 
 export default card

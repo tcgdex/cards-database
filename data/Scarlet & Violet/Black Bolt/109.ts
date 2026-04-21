@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cubchoo"
 	},
 
+	illustrator: "osare",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -49,10 +50,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836125
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836125,
+				tcgplayer: 642562
+			}
+		},
+	]
 }
 
 export default card

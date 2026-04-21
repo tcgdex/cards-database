@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Persian ex del Equipo Rocket"
 	},
 
+
+	illustrator: "5ban Graphics",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 260,
@@ -83,13 +86,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826024,
+				tcgplayer: 632955
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826024
-	}
 }
 
 export default card

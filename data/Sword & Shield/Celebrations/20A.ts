@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cleffa"
+		en: "Cleffa",
+		fr: "Mélo",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -16,17 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			en: "Eeeeeeek"
+	attacks: [
+		{
+			name: {
+				en: "Eeeeeeek",
+				fr: "Arheuuuuu",
+			},
+			effect: {
+				en: "Shuffle your hand into your deck, then draw 7 cards.",
+				fr: "Mélangez votre main avec votre deck, piochez ensuite 7 cartes.",
+			},
+			cost: [
+				"Colorless",
+			],
 		},
-
-		effect: {
-			en: "Shuffle your hand into your deck, then draw 7 cards."
-		},
-
-		cost: ["Colorless"]
-	}],
+	],
 
 	retreat: 0,
 

@@ -14,6 +14,9 @@ const card: Card = {
 		pt: "Clefairy ex da Lílian"
 	},
 
+
+	illustrator: "PLANETA Tsuji",
+
 	rarity: "None",
 	category: "Pokemon",
 	hp: 190,
@@ -47,24 +50,20 @@ const card: Card = {
 
 		name: {
 			en: "Full Moon Rondo",
-			fr: "Zone Féérique"
+			fr: "Rondo Pleine Lune",
+			de: "Vollmondrondo",
+			es: "Rondó Luna Llena",
+			it: "Rondò Luna Piena",
+			pt: "Cântico da Lua Cheia"
 		},
 
 		effect: {
 			en: "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).",
-			fr: "La Faiblesse de chacun des Pokémon {N} en jeu de votre adversaire est maintenant de type {P}. (Appliquez une Faiblesse de ×2.)"
-		},
-
-		damage: "20+"
-	}, {
-		cost: ["Psychic", "Colorless"],
-
-		name: {
-			fr: "Rondo Pleine Lune"
-		},
-
-		effect: {
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire)."
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).",
+			de: "Diese Attacke fügt für jedes Pokémon auf der Bank (deiner und der deines Gegners) 20 Schadenspunkte mehr zu.",
+			es: "Este ataque hace 20 puntos de daño más por cada Pokémon en Banca (tanto tuyos como de tu rival).",
+			it: "Questo attacco infligge 20 danni in più per ogni Pokémon in panchina, sia tuo che del tuo avversario.",
+			pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon no Banco (seus e do seu oponente)." 
 		},
 
 		damage: "20+"

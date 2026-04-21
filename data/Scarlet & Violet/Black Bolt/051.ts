@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Dwebble"
 	},
 
+	illustrator: "Tetsu Kayama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -63,10 +64,38 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836011
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836011,
+				tcgplayer: 642503
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836011,
+				tcgplayer: 642503
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836380,
+				tcgplayer: 642745
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836382,
+				tcgplayer: 642672
+			}
+		}
+	]
 }
 
 export default card

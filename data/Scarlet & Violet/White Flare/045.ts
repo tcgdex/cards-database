@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Jellicent ex"
 	},
 
+	illustrator: "PLANETA Igarashi",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 270,
@@ -83,9 +84,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835984
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 835984,
+				tcgplayer: 642157
+			}
+		},
+	],
 }
 
 export default card

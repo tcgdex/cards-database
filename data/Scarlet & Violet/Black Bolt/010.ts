@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Foongus"
 	},
 
+	illustrator: "Kurata So",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -47,10 +48,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835921
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835921,
+				tcgplayer: 642459
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835921,
+				tcgplayer: 642459
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836267,
+				tcgplayer: 642704
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836268,
+				tcgplayer: 642632
+			}
+		}
+	],
 }
 
 export default card

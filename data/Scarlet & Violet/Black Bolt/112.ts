@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Emolga"
 	},
 
+	illustrator: "Tomomi Ozaki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -61,10 +62,15 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836132
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836132,
+				tcgplayer: 642565
+			}
+		},
+	]
 }
 
 export default card

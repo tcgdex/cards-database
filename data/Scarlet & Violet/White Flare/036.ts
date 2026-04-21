@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Woobat"
 	},
 
+	illustrator: "Wintr Wandr",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -40,9 +41,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835971
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835971,
+				tcgplayer: 642148
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835971,
+				tcgplayer: 642148
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836557,
+				tcgplayer: 642391
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836558,
+				tcgplayer: 642319
+			}
+		},
+	],
 }
 
 export default card

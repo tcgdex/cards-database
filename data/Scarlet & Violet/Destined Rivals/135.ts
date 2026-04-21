@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Morgrem de Marnie"
 	},
 
+
+	illustrator: "NC Empire",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -51,16 +54,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826009,
+				tcgplayer: 632943
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826009,
+				tcgplayer: 632943
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826009
-	}
 }
 
 export default card

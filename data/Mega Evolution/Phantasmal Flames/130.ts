@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Mega Hyper Rare",
 	category: "Pokemon",
+
+	dexId: [6],
 	hp: 360,
 	types: ["Fire"],
 	stage: "Stage2",
-	dexId: [6],
 
 	attacks: [{
 		cost: ["Fire", "Fire"],
@@ -50,9 +51,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 857705
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 857705,
+				tcgplayer: 662185
+			}
+		}
+	],
+
+	weaknesses: [{
+		type: "Water",
+		value: "x2"
+	}],
+  
+	illustrator: 'Takuyoa'
+
 }
 
 export default card

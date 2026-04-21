@@ -36,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tromp",
+				fr: "Piaffement"
 			},
 			effect: {
 				en: "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 20,
 
@@ -51,9 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Giant Claw",
+				fr: "Griffe Géante"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has 2 or more damage counters on it, this attack does 40 more damage.",
+				fr: "Si le Pokémon Défenseur a déjà 2 marqueurs de dégâts ou plus, cette attaque inflige 40 dégâts supplémentaires."
 			},
 			damage: 80,
 

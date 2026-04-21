@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Karrablast"
 	},
 
+	illustrator: "Tomokazu Komiya",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -63,10 +64,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836096
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836096,
+				tcgplayer: 642543
+			}
+		},
+	]
 }
 
 export default card

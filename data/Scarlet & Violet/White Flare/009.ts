@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Accelgor"
 	},
 
+	illustrator: "Saboteri",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -59,9 +60,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835917
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835917,
+				tcgplayer: 642124
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835917,
+				tcgplayer: 642124
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836507,
+				tcgplayer: 642369
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836508,
+				tcgplayer: 642297
+			}
+		},
+	],
 }
 
 export default card

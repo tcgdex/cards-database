@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Dondozo ex"
 	},
 
+
+	illustrator: "N-DESIGN Inc.",
+
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 260,
@@ -76,13 +79,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826085,
+				tcgplayer: 633011
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826085
-	}
 }
 
 export default card

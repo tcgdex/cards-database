@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tirtouga"
 	},
 
+	illustrator: "Gemi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -72,10 +73,38 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835945
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835945,
+				tcgplayer: 642474
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835945,
+				tcgplayer: 642474
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836308,
+				tcgplayer: 642719
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836309,
+				tcgplayer: 642647
+			}
+		}
+	],
 }
 
 export default card

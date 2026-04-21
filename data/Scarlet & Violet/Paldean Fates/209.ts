@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Lee HyunJung",
 
 	thirdParty: {
-		cardmarket: 751611
+		cardmarket: 751748
 	}
 }
 

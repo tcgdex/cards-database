@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Genesect ex"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 220,
@@ -73,10 +74,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836046
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836046,
+				tcgplayer: 642518
+			}
+		}
+	]
 }
 
 export default card

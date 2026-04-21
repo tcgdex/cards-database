@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Hypno del Equipo Rocket"
 	},
 
+
+	illustrator: "Yuya Oka",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
@@ -75,16 +78,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825954,
+				tcgplayer: 632890
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825954,
+				tcgplayer: 632890
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825954
-	}
 }
 
 export default card

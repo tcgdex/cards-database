@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Common",
 	category: "Pokemon",
+
+	dexId: [5],
 	hp: 110,
 	types: ["Fire"],
 	stage: "Stage1",
-	dexId: [5],
 
 	attacks: [{
 		cost: ["Fire"],
@@ -40,9 +41,25 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 857587
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 857587,
+				tcgplayer: 662144
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 857587,
+				tcgplayer: 662144
+			}
+		}
+	],
+
+	illustrator: "Uninori",
+  
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gloom",
+		fr: "Ortide"
 	},
 
 	stage: "Stage2",
@@ -75,7 +76,7 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		cardmarket: 275066,
+		cardmarket: 275115,
 		tcgplayer: 90377
 	},
 

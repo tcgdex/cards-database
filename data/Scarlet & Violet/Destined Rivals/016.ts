@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Applin"
 	},
 
+	illustrator: "Tetsu Kayama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -52,16 +53,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825890,
+				tcgplayer: 632842
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825890,
+				tcgplayer: 632842
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825890
-	}
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Bouffalant ex"
 	},
 
+	illustrator: "Rianti Hidayat",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	hp: 220,
@@ -74,9 +75,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836218
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836218,
+			tcgplayer: 642287
+		}
+	},
+],
 }
 
 export default card

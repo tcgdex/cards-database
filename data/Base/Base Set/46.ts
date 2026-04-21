@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Charmander",
 		fr: "Salamèche",
-		de: "Glumanda"
+		de: "Glumanda",
+		it: "Charmander"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
-				de: "Kratzer"
+				de: "Kratzer",
+				it: "Graffio"
 			},
 
 			damage: 10,
@@ -47,12 +49,14 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
-				de: "Glut"
+				de: "Glut",
+				it: "Braciere"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Charmander in order to use this attack.",
 				fr: "Défaussez 1 carte Énergie  attachée à Salamèche pour pouvoir utiliser cette attaque.",
-				de: "Entferne eine auf Glumanda abgelegte  Energiekarte, um diesen Angriff auszuführen."
+				de: "Entferne eine auf Glumanda abgelegte  Energiekarte, um diesen Angriff auszuführen.",
+				it: "Scarta una carta Energia Fuoco assegnata a Charmander per poter usare questo attacco.",
 			},
 			damage: 30,
 
@@ -67,7 +71,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il préfère les endroits chauds. En cas de pluie, de la vapeur se forme autour de sa queue."
+		fr: "Il préfère les endroits chauds. En cas de pluie, de la vapeur se forme autour de sa queue.",
+		it: "Ovviamente preferisce luoghi molto caldi. Se gli capita di trovarsi sotto la pioggia, si dice che esca vapore dalla punta della sua coda."
 	},
 
 	thirdParty: {

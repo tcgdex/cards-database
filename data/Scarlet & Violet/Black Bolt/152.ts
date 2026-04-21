@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Minccino"
 	},
 
+	illustrator: "Natsumi Yoshida",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -49,10 +50,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836224
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836224,
+				tcgplayer: 642606
+			}
+		},
+	]
 }
 
 export default card

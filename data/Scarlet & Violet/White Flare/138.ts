@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Scraggy"
 	},
 
+	illustrator: "Nelnal",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -54,9 +55,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836161
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836161,
+				tcgplayer: 642251
+			}
+		},
+	],
 }
 
 export default card

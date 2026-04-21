@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Galvantula"
 	},
 
+	illustrator: "Shimaris Yukichi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -59,9 +60,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835968
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835968,
+				tcgplayer: 642146
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835968,
+				tcgplayer: 642146
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836553,
+				tcgplayer: 642389
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836554,
+				tcgplayer: 642317
+			}
+		},
+	],
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Huntail"
 	},
 
+	illustrator: "Scav",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -75,16 +76,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825929,
+				tcgplayer: 632868
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825929,
+				tcgplayer: 632868
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825929
-	}
 }
 
 export default card

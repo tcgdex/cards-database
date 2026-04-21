@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gyarados de Misty"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,
@@ -75,29 +76,40 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825923,
+				tcgplayer: 630816
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825923,
+				tcgplayer: 630816
+			}
 		},
 		{
-			type: 'holo',
-			stamp: [
-				"set-logo"
-			]
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 826180,
+			}
 		},
 		{
-			type: 'holo',
-			stamp: [
-				"set-logo",
-				"staff"
-			]
-		}
+			type: "normal",
+			thirdParty: {
+				cardmarket: 828101,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 833945,
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 825923
-	}
 }
 
 export default card

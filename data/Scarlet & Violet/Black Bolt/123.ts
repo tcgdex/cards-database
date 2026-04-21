@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Golurk"
 	},
 
+	illustrator: "Shinya Mizuno",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 160,
@@ -72,10 +73,15 @@ const card: Card = {
 
 	retreat: 4,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836162
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836162,
+				tcgplayer: 642578
+			}
+		},
+	]
 }
 
 export default card

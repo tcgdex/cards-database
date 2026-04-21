@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Golett"
 	},
 
+	illustrator: "Nabatame Kazutaka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
@@ -49,10 +50,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836160
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836160,
+				tcgplayer: 642577
+			}
+		},
+	]
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Snivy"
 	},
 
+	illustrator: "Yoshimi Miyoshi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -53,10 +54,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836082
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836082,
+				tcgplayer: 642536
+			}
+		},
+	]
 }
 
 export default card

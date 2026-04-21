@@ -47,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dream Dance",
+				fr: "Danse-Rêve"
 			},
 			effect: {
 				en: "Both Active Pokémon are now Asleep.",
+				fr: "Les deux Pokémon Actifs sont maintenant Endormis."
 			},
 			damage: 20,
 
@@ -73,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	thirdParty: {
-		cardmarket: 289787
+		cardmarket: 553364
 	}
 }
 

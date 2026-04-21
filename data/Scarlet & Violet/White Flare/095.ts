@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Virizion"
 	},
 
+	illustrator: "kodama",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
@@ -74,9 +75,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836083
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836083,
+				tcgplayer: 642210
+			}
+		},
+	],
 }
 
 export default card

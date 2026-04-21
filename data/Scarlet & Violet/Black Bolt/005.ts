@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Simisage"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -49,9 +50,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835912
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835912,
+				tcgplayer: 642454
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835912,
+				tcgplayer: 642454
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836262,
+				tcgplayer: 642699
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836272,
+				tcgplayer: 642627
+			}
+		}
+	],
 }
 
 export default card

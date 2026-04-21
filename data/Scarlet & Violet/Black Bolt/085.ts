@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Investigación de Profesores"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -29,10 +30,30 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "G",
-
-	thirdParty: {
-		cardmarket: 836076
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836076,
+				tcgplayer: 642533
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836076,
+				tcgplayer: 642533
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836476,
+				tcgplayer: 642772
+			}
+		},
+	]
 }
 
 export default card

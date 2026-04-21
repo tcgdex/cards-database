@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cinccino"
 	},
 
+	illustrator: "tono",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
@@ -58,10 +59,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836226
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836226,
+				tcgplayer: 642607
+			}
+		},
+	]
 }
 
 export default card

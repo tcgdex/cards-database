@@ -14,8 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
-		de: "Ziehe 2 Karten. Solange Avenaros Training neben deinem Aktiven Pokémon den Aktiven Pokémon liegt, fügen alle Angriffe deiner Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+		fr: "Piochez 2 cartes. Tant que l'entrainement de Cornil se trouve à côté de votre Pokémon Actif, les attaques de chacun de vos Pokémon Actifs infligent 10 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
+		de: "Ziehe 2 Karten. Solange Avenaros Training neben deinem Aktiven Pokémon den Aktiven Pokémon liegt, fügen alle Angriffe deiner Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden).",
 	},
 
 	trainerType: "Supporter",

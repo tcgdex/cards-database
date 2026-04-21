@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Numel",
+		fr: "Chamallot"
 	},
 
 	stage: "Stage1",
@@ -72,6 +73,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		tcgplayer: 97749,

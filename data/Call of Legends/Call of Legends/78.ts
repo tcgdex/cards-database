@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Dual Ball",
+		fr: "Double boule",
 		de: "Doppelball"
 	},
 
@@ -14,7 +15,8 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		de: "Wirf 2 Münzen. Durchsuche pro \"Kopf\" dein Deck nach einer Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck, falls du nach Karten gesucht hast."
+		de: "Wirf 2 Münzen. Durchsuche pro \"Kopf\" dein Deck nach einer Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck, falls du nach Karten gesucht hast.",
+		fr: "Lancez 2 pièces. Pour chaque côté face, cherchez un Pokémon de base dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Dans ce cas, mélangez ensuite votre deck.",
 	},
 
 	thirdParty: {

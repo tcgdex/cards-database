@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zweilous"
 	},
 
+	illustrator: "kodama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
@@ -73,9 +74,38 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836025
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836025,
+				tcgplayer: 642176
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836025,
+				tcgplayer: 642176
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836615,
+				tcgplayer: 642418
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836616,
+				tcgplayer: 642346
+			}
+		},
+	],
 }
 
 export default card

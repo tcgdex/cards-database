@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Sudowoodo de Ethan"
 	},
 
+
+	illustrator: "OKACHEKE",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
@@ -74,16 +77,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825970,
+				tcgplayer: 632902
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825970,
+				tcgplayer: 632902
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825967
-	}
 }
 
 export default card

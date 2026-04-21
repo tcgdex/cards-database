@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Solosis"
 	},
 
+	illustrator: "USGMEN",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 40,
@@ -39,10 +40,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836148
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836148,
+				tcgplayer: 642572
+			}
+		},
+	]
 }
 
 export default card

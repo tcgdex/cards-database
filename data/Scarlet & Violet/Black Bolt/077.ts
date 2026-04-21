@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rufflet"
 	},
 
+	illustrator: "Kedamahadaitai Yawarakai",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -53,10 +54,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836064
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836064,
+				tcgplayer: 642191
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836064,
+				tcgplayer: 642191
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836467,
+				tcgplayer: 642431
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836466,
+				tcgplayer: 642359
+			}
+		}
+	]
 }
 
 export default card

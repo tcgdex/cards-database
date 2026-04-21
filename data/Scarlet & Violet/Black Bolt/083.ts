@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Plan de N"
 	},
 
+	illustrator: "hncl",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -29,10 +30,30 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836070
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836070,
+				tcgplayer: 642532
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836070,
+				tcgplayer: 642532
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836474,
+				tcgplayer: 644869
+			}
+		},
+	]
 }
 
 export default card

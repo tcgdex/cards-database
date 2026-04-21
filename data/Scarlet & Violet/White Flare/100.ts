@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Simisear"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
@@ -49,9 +50,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836092
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836092,
+				tcgplayer: 642215
+			}
+		},
+	],
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Landorus"
 	},
 
+	illustrator: "Kazumasa Yasukuni",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -71,10 +72,38 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836015
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836015,
+				tcgplayer: 642505
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836015,
+				tcgplayer: 642505
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836387,
+				tcgplayer: 642747
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836388,
+				tcgplayer: 642674
+			}
+		}
+	]
 }
 
 export default card

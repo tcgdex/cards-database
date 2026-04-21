@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Scolipede"
 	},
 
+	illustrator: "okayamatakatoshi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 160,
@@ -82,10 +83,38 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836021
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836021,
+				tcgplayer: 642508
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836021,
+				tcgplayer: 642508
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836400,
+				tcgplayer: 642750
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836399,
+				tcgplayer: 642677
+			}
+		}
+	]
 }
 
 export default card

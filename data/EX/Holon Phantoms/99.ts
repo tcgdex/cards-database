@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Corphish",
+		fr: "Écrapince"
 	},
 
 	suffix: "EX",
@@ -72,6 +73,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 277069,

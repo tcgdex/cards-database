@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Emboar"
 	},
 
+	illustrator: "NC Empire",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 180,
@@ -73,9 +74,15 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836088
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836088,
+				tcgplayer: 642213
+			}
+		},
+	],
 }
 
 export default card

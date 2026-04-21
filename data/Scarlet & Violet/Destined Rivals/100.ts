@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Medicham"
 	},
 
+
+	illustrator: "Whisker",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -61,16 +64,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825974,
+				tcgplayer: 632908
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825974,
+				tcgplayer: 632908
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825974
-	}
 }
 
 export default card

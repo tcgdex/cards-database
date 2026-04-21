@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Duosion"
 	},
 
+	illustrator: "Kedamahadaitai Yawarakai",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -70,10 +71,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836151
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836151,
+				tcgplayer: 642573
+			}
+		},
+	]
 }
 
 export default card

@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Venusaur"
+		en: "Venusaur",
+		fr: "Florizarre",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -16,14 +17,21 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Stage2",
 
-	attacks: [{
-		name: {
-			en: "Solarbeam"
+	attacks: [
+		{
+			name: {
+				en: "Solarbeam",
+				fr: "Lance-Soleil",
+			},
+			damage: 60,
+			cost: [
+				"Grass",
+				"Grass",
+				"Grass",
+				"Grass",
+			],
 		},
-
-		damage: 60,
-		cost: ["Grass", "Grass", "Grass", "Grass"]
-	}],
+	],
 
 	weaknesses: [{
 		type: "Fire",

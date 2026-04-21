@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lilligant"
 	},
 
+	illustrator: "En Morikura",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
@@ -72,10 +73,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836093
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836093,
+				tcgplayer: 642541
+			}
+		},
+	]
 }
 
 export default card

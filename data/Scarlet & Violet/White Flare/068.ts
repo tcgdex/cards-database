@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ferroseed"
 	},
 
+	illustrator: "Hasuno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -54,9 +55,38 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836028
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836028,
+				tcgplayer: 642178
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836028,
+				tcgplayer: 642178
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836617,
+				tcgplayer: 642419
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836618,
+				tcgplayer: 642347
+			}
+		},
+	],
 }
 
 export default card

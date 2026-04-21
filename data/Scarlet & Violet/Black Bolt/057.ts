@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sandile"
 	},
 
+	illustrator: "Gapao",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -49,10 +50,38 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836023
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836023,
+				tcgplayer: 642509
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836023,
+				tcgplayer: 642509
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836403,
+				tcgplayer: 642751
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836404,
+				tcgplayer: 642678
+			}
+		}
+	]
 }
 
 export default card

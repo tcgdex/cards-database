@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Potion",
 		fr: "Potion",
-		de: "Trank"
+		de: "Trank",
+		it: "Pozione Magica"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,7 +16,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Retirez jusqu'à 2 marqueurs de dégâts d'1 de vos Pokémon.",
-		de: "Entferne bis zu 2 Schadensmarken von einem Deiner Pokémon."
+		de: "Entferne bis zu 2 Schadensmarken von einem Deiner Pokémon.",
+		it: "Togli al massimo 2 segnalini danno da uno dei tuoi Pokémon."
 	},
 
 	thirdParty: {

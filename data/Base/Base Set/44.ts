@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Bulbasaur",
 		fr: "Bulbizarre",
-		de: "Bisasam"
+		de: "Bisasam",
+		it: "Bulbasaur"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,12 +35,14 @@ const card: Card = {
 			name: {
 				en: "Leech Seed",
 				fr: "Vampigraine",
-				de: "Schmarotzer"
+				de: "Schmarotzer",
+				it: "Parassiseme"
 			},
 			effect: {
 				en: "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.",
 				fr: "À moins que tous les dégâts infligés par cette attaque ne soient prévenus, vous pouvez retirer 1 marqueur de dégâts de Bulbizarre.",
-				de: "Falls das verteidigende Pokémon den Schaden dieses Angriffs nicht abwehren kann, kannst du eine Schadensmarke von Bisasam entfernen."
+				de: "Falls das verteidigende Pokémon den Schaden dieses Angriffs nicht abwehren kann, kannst du eine Schadensmarke von Bisasam entfernen.",
+				it: "Tranne nei casi in cui tutti i danni di questo attacco vengano prevenuti, puoi rimuovere un segnalino danno da Bulbasaur."
 			},
 			damage: 20,
 
@@ -54,7 +57,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance."
+		fr: "Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance.",
+		it: "Lo strano seme piantato sul suo dorso dalla nascita è germogliato in una pianta che continua a crescere insieme a questo Pokémon. LIV 13 N.1"
 	},
 
 	thirdParty: {

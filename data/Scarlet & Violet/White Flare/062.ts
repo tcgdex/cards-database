@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zoroark"
 	},
 
+	illustrator: "akagi",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -81,9 +82,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836016
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836016,
+				tcgplayer: 642174
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836607,
+				tcgplayer: 642416
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836608,
+				tcgplayer: 642344
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 867788,
+			}
+		},
+	],
 }
 
 export default card

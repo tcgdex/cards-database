@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Krokorok"
 	},
 
+	illustrator: "Tonji Matsuno",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 100,
@@ -58,10 +59,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836192
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836192,
+				tcgplayer: 642591
+			}
+		},
+	]
 }
 
 export default card

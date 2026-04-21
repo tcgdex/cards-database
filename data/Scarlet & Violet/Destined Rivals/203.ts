@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Meowth del Equipo Rocket"
 	},
 
+
+	illustrator: "Shimaris Yukichi",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -74,13 +77,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826077,
+				tcgplayer: 633003
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826077
-	}
 }
 
 export default card

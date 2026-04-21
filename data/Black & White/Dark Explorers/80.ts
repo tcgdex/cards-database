@@ -35,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sing",
+				fr: "Berceuse"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -49,9 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-Edge",
+				fr: "Damoclès"
 			},
 			effect: {
 				en: "This Pokémon does 30 damage to itself.",
+				fr: "Ce Pokémon s'inflige 30 dégâts."
 			},
 			damage: 60,
 

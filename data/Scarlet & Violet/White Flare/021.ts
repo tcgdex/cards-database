@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Oshawott"
 	},
 
+	illustrator: "rika",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -54,9 +55,45 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835941
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835941,
+				tcgplayer: 642133
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835941,
+				tcgplayer: 642133
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836529,
+				tcgplayer: 642377
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836530,
+				tcgplayer: 642305
+			}
+		},
+		{
+			type: "holo",
+			foil: "tinsel",
+			thirdParty: {
+				cardmarket: 836669,
+			}
+		},
+	],
 }
 
 export default card

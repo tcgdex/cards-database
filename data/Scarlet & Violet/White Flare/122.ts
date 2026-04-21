@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Yamask"
 	},
 
+	illustrator: "YASHIRO Nanaco",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -50,9 +51,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836136
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836136,
+			tcgplayer: 642234
+		}
+	},
+],
 }
 
 export default card

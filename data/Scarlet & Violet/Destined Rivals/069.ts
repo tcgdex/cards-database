@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Electivire ex"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 280,
@@ -83,16 +86,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
-		},
-		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825943,
+				tcgplayer: 632882
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825943
-	}
 }
 
 export default card

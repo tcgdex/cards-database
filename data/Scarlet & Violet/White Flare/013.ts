@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Emboar"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,
@@ -73,9 +74,38 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835925
-	}
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835925,
+				tcgplayer: 642128
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 835925,
+				tcgplayer: 642128
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836515,
+				tcgplayer: 642373
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836516,
+				tcgplayer: 642301
+			}
+		},
+	],
 }
 
 export default card

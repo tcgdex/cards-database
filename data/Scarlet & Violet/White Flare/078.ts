@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tornadus"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -72,9 +73,31 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836044
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836044,
+				tcgplayer: 642193
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836638,
+				tcgplayer: 642433
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836639,
+				tcgplayer: 642361
+			}
+		},
+	],
 }
 
 export default card

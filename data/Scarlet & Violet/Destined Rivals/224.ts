@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Atenea del Equipo Rocket"
 	},
 
+
+	illustrator: "hncl",
+
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -32,13 +35,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826098,
+				tcgplayer: 633024
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826098
-	}
 }
 
 export default card

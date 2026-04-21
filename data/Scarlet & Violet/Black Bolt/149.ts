@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tranquill"
 	},
 
+	illustrator: "cochi8i",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,
@@ -58,10 +59,15 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836221
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836221,
+				tcgplayer: 642603
+			}
+		},
+	]
 }
 
 export default card

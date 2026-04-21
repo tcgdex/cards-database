@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Koffing",
 		fr: "Smogo",
-		de: "Smogon"
+		de: "Smogon",
+		it: "Koffing"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,12 +35,14 @@ const card: Card = {
 			name: {
 				en: "Foul Gas",
 				fr: "Gaz infect",
-				de: "Fäulnisgas"
+				de: "Fäulnisgas",
+				it: "Gas puzzolente"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, it is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné ; si c'est pile, il est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet; bei 'Zahl' verwirrt."
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet; bei 'Zahl' verwirrt.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato; se esce croce, è Confuso."
 			},
 			damage: 10,
 
@@ -54,7 +57,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Son corps, constitué de gaz toxiques et instables, peut exploser soudainement."
+		fr: "Son corps, constitué de gaz toxiques et instables, peut exploser soudainement.",
+		it: "Il suo corpo contiene vari tipi di gas tossici ed è per questo che spesso esplode senza alcun preavviso. LIV 13 N.109",
 	},
 
 	thirdParty: {

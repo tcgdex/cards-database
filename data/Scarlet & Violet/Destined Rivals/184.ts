@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Roserade de Cynthia"
 	},
 
+
+	illustrator: "rika",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
@@ -75,13 +78,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826058,
+				tcgplayer: 632984
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826058
-	}
 }
 
 export default card

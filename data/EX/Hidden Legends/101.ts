@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Jigglypuff",
+		fr: "Rondoudou"
 	},
 
 	suffix: "EX",
@@ -75,6 +76,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 276175,

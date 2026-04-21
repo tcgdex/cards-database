@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Porygon2 del Equipo Rocket"
 	},
 
+
+	illustrator: "Takeshi Nakamura",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -61,16 +64,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826028,
+				tcgplayer: 630827
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826028,
+				tcgplayer: 630827
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826028
-	}
 }
 
 export default card

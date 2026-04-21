@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Trubbish"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -54,9 +55,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836164
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836164,
+				tcgplayer: 642253
+			}
+		},
+	],
 }
 
 export default card

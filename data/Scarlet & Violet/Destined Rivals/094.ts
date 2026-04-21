@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Larvitar del Equipo Rocket"
 	},
 
+
+	illustrator: "Kuroimori",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -52,16 +55,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825967,
+				tcgplayer: 632903
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825967,
+				tcgplayer: 632903
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825968
-	}
 }
 
 export default card

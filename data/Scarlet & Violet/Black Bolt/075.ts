@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Minccino"
 	},
 
+	illustrator: "Ayako Ozaki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -49,10 +50,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836060
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836060,
+				tcgplayer: 642526
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836060,
+				tcgplayer: 642526
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836463,
+				tcgplayer: 642767
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836463,
+				tcgplayer: 642694
+			}
+		}
+	]
 }
 
 export default card

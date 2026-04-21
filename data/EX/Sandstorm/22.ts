@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nuzleaf",
+		fr: "Pifeuil"
 	},
 
 	stage: "Stage2",
@@ -73,8 +74,11 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
-		cardmarket: 275789,
+		cardmarket: 275799,
 		tcgplayer: 89153
 	},
 

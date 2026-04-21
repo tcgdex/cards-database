@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lillipup"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -50,9 +51,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836189
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836189,
+			tcgplayer: 642268
+		}
+	},
+],
 }
 
 export default card

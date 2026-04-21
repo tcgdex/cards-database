@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ducklett"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -62,9 +63,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835952
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835952,
+				tcgplayer: 642137
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835952,
+				tcgplayer: 642137
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836537,
+				tcgplayer: 642381
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836538,
+				tcgplayer: 642309
+			}
+		},
+	],
 }
 
 export default card

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Porygon-Z del Equipo Rocket"
 	},
 
+
+	illustrator: "Anesaki Dynamic",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
@@ -85,16 +88,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826029,
+				tcgplayer: 630828
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826029,
+				tcgplayer: 630828
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826029
-	}
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Purrloin"
 	},
 
+	illustrator: "Mugi Hamada",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -48,9 +49,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836158
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836158,
+				tcgplayer: 642249
+			}
+		},
+	],
 }
 
 export default card

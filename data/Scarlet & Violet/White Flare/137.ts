@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Liepard"
 	},
 
+	illustrator: "matazo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
@@ -59,9 +60,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836159
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836159,
+				tcgplayer: 642250
+			}
+		},
+	],
 }
 
 export default card

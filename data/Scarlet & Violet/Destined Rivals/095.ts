@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Pupitar del Equipo Rocket"
 	},
 
+
+	illustrator: "Izucch",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
@@ -61,16 +64,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825968,
+				tcgplayer: 632904
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825968,
+				tcgplayer: 632904
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825969
-	}
 }
 
 export default card

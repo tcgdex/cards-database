@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Electabuzz",
 		fr: "Élektek",
-		de: "Elektek"
+		de: "Elektek",
+		it: "Electabuzz"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Thundershock",
 				fr: "Éclair",
-				de: "Donnerschock"
+				de: "Donnerschock",
+				it: "Tuonoshock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon gelhämt."
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon gelhämt.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 10,
 
@@ -51,12 +54,14 @@ const card: Card = {
 			name: {
 				en: "Thunderpunch",
 				fr: "Poing-Éclair",
-				de: "Donnerschlag"
+				de: "Donnerschlag",
+				it: "Tuonopugno"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Electabuzz does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 30 dégâts et Élektek s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei Kopf fügt dieser Angriff 30 Schdenspunkte plus 10 weitere Schadenspunkte zu. Bei Zahl fügt dieser Angriff 30 Schadenspunkte zu, und Elektek fügt sich selbst 10 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei Kopf fügt dieser Angriff 30 Schdenspunkte plus 10 weitere Schadenspunkte zu. Bei Zahl fügt dieser Angriff 30 Schadenspunkte zu, und Elektek fügt sich selbst 10 Schadenspunkte zu.",
+				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni più altri 10 danni; se esce croce, questo attacco infligge 30 danni e Electabuzz si infligge 10 danni.",
 			},
 			damage: "30+",
 
@@ -91,7 +96,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Vivant dans les centrales, il provoque des pannes de courant en s'aventurant en ville."
+		fr: "Vivant dans les centrales, il provoque des pannes de courant en s'aventurant en ville.",
+		it: "Si trova in genere vicino a centrali elettriche, ma può allontanarsi e causare gravissimi blackout nelle città. LIV 35 N.125"
 	},
 
 	thirdParty: {

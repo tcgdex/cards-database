@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Herdier"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -71,9 +72,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836038
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836038,
+				tcgplayer: 642188
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836038,
+				tcgplayer: 642188
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836634,
+				tcgplayer: 642429
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836635,
+				tcgplayer: 642357
+			}
+		},
+	],
 }
 
 export default card

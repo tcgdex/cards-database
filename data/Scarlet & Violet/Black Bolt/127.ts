@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Conkeldurr"
 	},
 
+	illustrator: "Kazumasa Yasukuni",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,
@@ -82,10 +83,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836170
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836170,
+				tcgplayer: 642582
+			}
+		},
+	]
 }
 
 export default card

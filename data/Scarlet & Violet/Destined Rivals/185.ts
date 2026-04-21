@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Shaymin"
 	},
 
+
+	illustrator: "Heisuke Kitazawa",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,
@@ -66,13 +69,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826059,
+				tcgplayer: 632985
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826059
-	}
 }
 
 export default card

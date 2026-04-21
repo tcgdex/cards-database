@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Grimmsnarl ex de Marnie"
 	},
 
+
+	illustrator: "PLANETA Mochizuki",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 320,
@@ -85,13 +88,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826010,
+				tcgplayer: 630823
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826010
-	}
 }
 
 export default card

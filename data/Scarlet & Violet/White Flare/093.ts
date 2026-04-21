@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Shelmet"
 	},
 
+	illustrator: "Mékayu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -64,9 +65,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836080
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836080,
+				tcgplayer: 642208
+			}
+		},
+	],
 }
 
 export default card

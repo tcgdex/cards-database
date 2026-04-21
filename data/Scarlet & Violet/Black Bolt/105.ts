@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Seismitoad"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 170,
@@ -72,10 +73,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836117
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836117,
+				tcgplayer: 642558
+			}
+		},
+	]
 }
 
 export default card

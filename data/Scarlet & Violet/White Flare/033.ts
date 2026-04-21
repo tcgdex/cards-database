@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Joltik"
 	},
 
+	illustrator: "Shimaris Yukichi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -50,9 +51,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836053
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835967,
+				tcgplayer: 642145
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835967,
+				tcgplayer: 642145
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836551,
+				tcgplayer: 642388
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836552,
+				tcgplayer: 642316
+			}
+		},
+	],
 }
 
 export default card

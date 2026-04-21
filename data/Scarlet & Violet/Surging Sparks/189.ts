@@ -28,9 +28,28 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "greatball"
+		},
+		{
+			type: "holo",
+			stamp: ["gym-challenge"],
+			foil: "cosmos"
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		}
+	],
 
 	illustrator: "Ayaka Yoshida",
 

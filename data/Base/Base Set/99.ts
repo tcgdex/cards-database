@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Grass Energy",
 		fr: "Énergie Plante",
-		de: "Pflanzenenergie"
+		de: "Pflanzenenergie",
+		it: "Energia Erba"
 	},
 
 	illustrator: "Keiji Kinebuchi",

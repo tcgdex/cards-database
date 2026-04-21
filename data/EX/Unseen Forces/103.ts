@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Croconaw",
+		fr: "Crocrodil"
 	},
 
 	suffix: "EX",
@@ -92,6 +93,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 3,
 
 	thirdParty: {
 		cardmarket: 276749,

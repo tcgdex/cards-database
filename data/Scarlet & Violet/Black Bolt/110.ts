@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Beartic"
 	},
 
+	illustrator: "Whisker",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,
@@ -82,10 +83,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836127
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836127,
+				tcgplayer: 642563
+			}
+		},
+	]
 }
 
 export default card

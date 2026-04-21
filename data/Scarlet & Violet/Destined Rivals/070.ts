@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Zapdos del Equipo Rocket"
 	},
 
+
+	illustrator: "Nurikabe",
+
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -76,16 +79,42 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825944,
+				tcgplayer: 630818
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825944,
+				tcgplayer: 630818
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 827836,
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["eb-games"],
+			thirdParty: {
+				cardmarket: 848308,
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 862171,
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825944
-	}
 }
 
 export default card

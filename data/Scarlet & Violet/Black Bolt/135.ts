@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Sandile"
 	},
 
+	illustrator: "Fujmoto Gold",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -49,10 +50,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836190
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836190,
+				tcgplayer: 642590
+			}
+		},
+	]
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Deino"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,
@@ -64,9 +65,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836178
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836178,
+				tcgplayer: 642257
+			}
+		},
+	],
 }
 
 export default card

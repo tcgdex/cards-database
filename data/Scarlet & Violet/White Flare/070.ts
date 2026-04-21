@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Durant"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -64,9 +65,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836030
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836030,
+				tcgplayer: 642183
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836030,
+				tcgplayer: 642183
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836624,
+				tcgplayer: 642424
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836625,
+				tcgplayer: 642352
+			}
+		},
+	],
 }
 
 export default card

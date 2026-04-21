@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Pidove"
 	},
 
+	illustrator: "Mori Yuu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -61,10 +62,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836219
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836219,
+				tcgplayer: 642602
+			}
+		},
+	]
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Axew"
 	},
 
+	illustrator: "Taiga Kasai",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -47,10 +48,38 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836047
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836047,
+				tcgplayer: 642519
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836047,
+				tcgplayer: 642519
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836448,
+				tcgplayer: 642760
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836449,
+				tcgplayer: 642687
+			}
+		}
+	]
 }
 
 export default card

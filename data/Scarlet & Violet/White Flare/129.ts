@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Gigalith"
 	},
 
+	illustrator: "toi8",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 170,
@@ -73,9 +74,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836147
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836147,
+				tcgplayer: 642242
+			}
+		},
+	],
 }
 
 export default card

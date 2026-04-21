@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Klink"
 	},
 
+	illustrator: "Amelicart",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -49,10 +50,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836035
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836035,
+				tcgplayer: 642180
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836035,
+				tcgplayer: 642180
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836431,
+				tcgplayer: 642421
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836432,
+				tcgplayer: 642349
+			}
+		}
+	]
 }
 
 export default card

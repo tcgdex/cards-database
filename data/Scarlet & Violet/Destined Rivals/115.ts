@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Nidorina del Equipo Rocket"
 	},
 
+
+	illustrator: "Taiga Kasai",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -73,16 +76,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825989,
+				tcgplayer: 632923
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825989,
+				tcgplayer: 632923
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825989
-	}
 }
 
 export default card

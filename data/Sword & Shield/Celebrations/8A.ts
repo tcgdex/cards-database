@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dark Gyarados"
+		en: "Dark Gyarados",
+		fr: "Pikachu Surfeur-V"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,11 +19,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ice Beam"
+			en: "Ice Beam",
+			fr: "Surf"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 		},
 
 		damage: 30,

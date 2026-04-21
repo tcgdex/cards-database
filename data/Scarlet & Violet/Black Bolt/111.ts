@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cryogonal"
 	},
 
+	illustrator: "rika",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
@@ -61,10 +62,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836129
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836129,
+				tcgplayer: 642564
+			}
+		},
+	]
 }
 
 export default card

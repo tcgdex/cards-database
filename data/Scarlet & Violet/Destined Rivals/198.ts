@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Orbeetle del Equipo Rocket"
 	},
 
+
+	illustrator: "HYOGONOSUKE",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
@@ -85,13 +88,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826072,
+				tcgplayer: 632998
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826072
-	}
 }
 
 export default card

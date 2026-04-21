@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Lapras de Misty"
 	},
 
+
+	illustrator: "Orca",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
@@ -64,13 +67,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826068,
+				tcgplayer: 632994
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826068
-	}
 }
 
 export default card

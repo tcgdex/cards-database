@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Eelektross"
 	},
 
+	illustrator: "Yukiko Baba",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 160,
@@ -82,10 +83,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836137
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836137,
+				tcgplayer: 642568
+			}
+		},
+	]
 }
 
 export default card

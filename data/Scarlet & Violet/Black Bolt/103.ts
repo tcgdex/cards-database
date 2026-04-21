@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Tympole"
 	},
 
+	illustrator: "aspara",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 60,
@@ -49,10 +50,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836113
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836113,
+				tcgplayer: 642556
+			}
+		},
+	]
 }
 
 export default card

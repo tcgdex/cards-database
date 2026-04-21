@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Crustle"
 	},
 
+	illustrator: "Tetsu Kayama",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,
@@ -82,10 +83,38 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836013
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836013,
+				tcgplayer: 642504
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836013,
+				tcgplayer: 642504
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836385,
+				tcgplayer: 642746
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836384,
+				tcgplayer: 642673
+			}
+		}
+	]
 }
 
 export default card

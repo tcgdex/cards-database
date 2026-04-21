@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Munna"
 	},
 
+	illustrator: "Eri Kamei",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -61,10 +62,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835978
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835978,
+				tcgplayer: 642487
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835978,
+				tcgplayer: 642487
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836343,
+				tcgplayer: 642731
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836342,
+				tcgplayer: 642658
+			}
+		}
+	]
 }
 
 export default card

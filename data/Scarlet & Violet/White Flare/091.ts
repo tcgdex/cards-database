@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Deerling"
 	},
 
+	illustrator: "takashi shiraishi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -40,9 +41,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836077
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836077,
+				tcgplayer: 642206
+			}
+		},
+	],
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Dwebble"
 	},
 
+	illustrator: "Kanami Ogata",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -50,16 +51,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825885,
+				tcgplayer: 632837
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825885,
+				tcgplayer: 632837
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825885
-	}
 }
 
 export default card

@@ -39,7 +39,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 701076
+	}
 }
 
 export default card

@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "PLANETA Mochizuki",
 	category: "Pokemon",
+
+	dexId: [105],
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Stage1",

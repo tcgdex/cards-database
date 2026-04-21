@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Unfezant"
 	},
 
+	illustrator: "Yoshioka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,
@@ -80,10 +81,15 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836222
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836222,
+				tcgplayer: 642604
+			}
+		},
+	]
 }
 
 export default card

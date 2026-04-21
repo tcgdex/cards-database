@@ -14,6 +14,9 @@ const card: Card = {
 		'es-mx': "Cueva Granito"
 	},
 
+
+	illustrator: "AYUMI ODASHIMA",
+
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -32,16 +35,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826040,
+				tcgplayer: 632968
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826040,
+				tcgplayer: 632968
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826040
-	}
 }
 
 export default card

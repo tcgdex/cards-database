@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Palpitoad"
 	},
 
+	illustrator: "KEIICHIRO ITO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
@@ -72,10 +73,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836115
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836115,
+				tcgplayer: 642557
+			}
+		},
+	]
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Loudred",
+		fr: "Ramboum"
 	},
 
 	stage: "Stage2",
@@ -108,6 +109,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 2,
 
 	thirdParty: {
 		tcgplayer: 85371,

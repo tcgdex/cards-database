@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Double rare",
 	category: "Pokemon",
+
+	dexId: [214],
 	hp: 280,
 	types: ["Grass"],
 	stage: "Basic",
-	dexId: [214],
 
 	attacks: [{
 		cost: ["Grass", "Grass"],
@@ -74,9 +75,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 857579, 
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 857579, 
+				tcgplayer: 662186
+			},
+		}
+	],
+
+	illustrator: "5ban Graphics",
+
+	weaknesses: [{
+		type: "Fire",
+		value: "x2"
+	}]
 }
 
 export default card
+

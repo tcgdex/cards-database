@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Darmanitan"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 140,
@@ -82,10 +83,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836102
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836102,
+				tcgplayer: 642548
+			}
+		},
+	]
 }
 
 export default card

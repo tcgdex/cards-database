@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Plan de N"
 	},
 
+	illustrator: "REND",
 	rarity: "Special illustration rare",
 	category: "Trainer",
 
@@ -29,10 +30,15 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836244
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836244,
+				tcgplayer: 642622
+			}
+		},
+	]
 }
 
 export default card

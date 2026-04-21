@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Murkrow del Equipo Rocket"
 	},
 
+
+	illustrator: "Mugi Hamada",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -74,16 +77,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826001,
+				tcgplayer: 632935
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826001,
+				tcgplayer: 632935
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826001
-	}
 }
 
 export default card

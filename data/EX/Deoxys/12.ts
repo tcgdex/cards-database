@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poochyena",
+		fr: "Medhyena"
 	},
 
 	stage: "Stage1",
@@ -79,6 +80,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 0,
 
 	thirdParty: {
 		tcgplayer: 87445,

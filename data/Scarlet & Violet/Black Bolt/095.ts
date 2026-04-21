@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Foongus"
 	},
 
+	illustrator: "buchi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 50,
@@ -47,10 +48,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836098
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836098,
+				tcgplayer: 642544
+			}
+		},
+	]
 }
 
 export default card

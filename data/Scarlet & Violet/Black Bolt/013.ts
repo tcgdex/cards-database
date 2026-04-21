@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Darumaka"
 	},
 
+	illustrator: "svlt",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -39,10 +40,41 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835928
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835929,
+				tcgplayer: 642462
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835928,
+				tcgplayer: 642462
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836283,
+				tcgplayer: 642707
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836284,
+				tcgplayer: 642635
+			}
+		}
+	],
+	// thirdParty: {
+	// 	cardmarket: 835928
+	// }
 }
 
 export default card

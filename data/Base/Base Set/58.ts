@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
-		de: "Pikachu"
+		de: "Pikachu",
+		it: "Pikachu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Rogne",
-				de: "Nagen"
+				de: "Nagen",
+				it: "Rosicchiamento"
 			},
 
 			damage: 10,
@@ -47,12 +49,14 @@ const card: Card = {
 			name: {
 				en: "Thunder Jolt",
 				fr: "Secousse Tonnerre",
-				de: "Donnerschock"
+				de: "Donnerschock",
+				it: "Scoppiotuono"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Zahl\" fügt Pikachu sich selbst 10 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei \"Zahl\" fügt Pikachu sich selbst 10 Schadenspunkte zu.",
+				it: "Lancia una moneta. Se esce croce, Pikachu si infligge 10 danni.",
 			},
 			damage: 30,
 
@@ -67,7 +71,8 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages."
+		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages.",
+		it: "Quando diversi Pokémon di questo tipo si riuniscono, generano tanta energia elettrica da scatenare delle tempeste di fulmini. LIV 12 N.25"
 	},
 
 	thirdParty: {

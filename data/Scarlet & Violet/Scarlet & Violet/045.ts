@@ -20,7 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Magikarp"
+		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -73,8 +74,9 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	thirdParty: {
-		cardmarket: 702340
-	}
+        cardmarket: 702340,
+        tcgplayer: 487889
+    }
 }
 
 export default card

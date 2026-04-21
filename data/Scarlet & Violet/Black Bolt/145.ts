@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Axew"
 	},
 
+	illustrator: "Ayako Ozaki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 70,
@@ -47,10 +48,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836213
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836213,
+				tcgplayer: 642599
+			}
+		},
+	]
 }
 
 export default card

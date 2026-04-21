@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Houndoom del Equipo Rocket"
 	},
 
+
+	illustrator: "nagimiso",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 130,
@@ -83,13 +86,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826065,
+				tcgplayer: 632991
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826065
-	}
 }
 
 export default card

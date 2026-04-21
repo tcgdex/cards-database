@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Scrafty"
 	},
 
+	illustrator: "osare",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -59,9 +60,38 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836008
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836008,
+				tcgplayer: 642170
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836008,
+				tcgplayer: 642170
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836599,
+				tcgplayer: 642412
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836600,
+				tcgplayer: 642340
+			}
+		},
+	],
 }
 
 export default card

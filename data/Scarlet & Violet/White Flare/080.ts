@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Brazalete Valiente"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -30,9 +31,30 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836051
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836051,
+				tcgplayer: 642197
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836051,
+				tcgplayer: 642197
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836641,
+				tcgplayer: 642434
+			}
+		},
+	],
 }
 
 export default card

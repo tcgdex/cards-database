@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Galvantula"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
@@ -59,9 +60,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836128
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836128,
+			tcgplayer: 642229
+		}
+	},
+],
 }
 
 export default card

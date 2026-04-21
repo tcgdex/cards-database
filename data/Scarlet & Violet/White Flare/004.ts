@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Cottonee"
 	},
 
+	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -50,9 +51,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835907
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835907,
+				tcgplayer: 642119
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835907,
+				tcgplayer: 642119
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836499,
+				tcgplayer: 642365
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836500,
+				tcgplayer: 642293
+			}
+		},
+	],
 }
 
 export default card

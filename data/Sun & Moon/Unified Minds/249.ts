@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poipole",
+		fr: "Vémini"
 	},
 
 	stage: "Stage1",
@@ -114,7 +115,7 @@ const card: Card = {
 	retreat: 1,
 
 	thirdParty: {
-		cardmarket: 378873,
+		cardmarket: 389037,
 		tcgplayer: 195160
 	}
 }

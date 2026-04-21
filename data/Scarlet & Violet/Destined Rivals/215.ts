@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Garchomp ex de Cynthia"
 	},
 
+
+	illustrator: "5ban Graphics",
+
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 330,
@@ -85,13 +88,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826089,
+				tcgplayer: 633015
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826089
-	}
 }
 
 export default card

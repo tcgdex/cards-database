@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Common",
 	category: "Pokemon",
+
+	dexId: [868],
 	hp: 50,
 	types: ["Psychic"],
 	stage: "Basic",
-	dexId: [868],
 
 	attacks: [{
 		cost: ["Psychic"],
@@ -50,9 +51,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 857618
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 857618,
+				tcgplayer: 662196
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 857618,
+				tcgplayer: 662196
+			}
+		}
+	],	
 }
 
 export default card

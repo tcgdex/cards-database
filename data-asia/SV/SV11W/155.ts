@@ -38,12 +38,11 @@ const card: Card = {
 
 	weaknesses: [{ type: "Fighting", value: "x2" }],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+		},
+	],
 
 	evolveFrom: {
 		ja: "ハーデリア",
@@ -53,6 +52,10 @@ const card: Card = {
 	regulationMark: "I",
 	rarity: "Illustration rare",
 	dexId: [508],
+	thirdParty: {
+		cardmarket: 829514,
+		tcgplayer: 636708,
+	},
 };
 
 export default card;

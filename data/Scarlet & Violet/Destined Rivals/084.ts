@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Claydol de Steven"
 	},
 
+
+	illustrator: "nagimiso",
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -85,16 +88,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825958,
+				tcgplayer: 632894
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825958,
+				tcgplayer: 632894
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825958
-	}
 }
 
 export default card

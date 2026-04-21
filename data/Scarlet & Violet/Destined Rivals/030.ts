@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rapidash"
 	},
 
+	illustrator: "SIE NANAHARA",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -75,16 +76,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825903,
+				tcgplayer: 632853
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825903,
+				tcgplayer: 632853
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825904
-	}
 }
 
 export default card

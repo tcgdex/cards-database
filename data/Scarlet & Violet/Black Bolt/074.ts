@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Audino"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
@@ -49,10 +50,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836058
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836058,
+				tcgplayer: 642525
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836058,
+				tcgplayer: 642525
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836460,
+				tcgplayer: 642766
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836461,
+				tcgplayer: 642693
+			}
+		}
+	]
 }
 
 export default card

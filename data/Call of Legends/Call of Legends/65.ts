@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Misdreavus",
+		fr: "Feuforêve",
 		de: "Traunfugil"
 	},
 
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mumble",
+				fr: "Marmonner",
 				de: "Grummeln"
 			},
 
@@ -43,10 +45,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Dual Draw",
+				fr: "Pioche mutuelle",
 				de: "Doppelzug"
 			},
 			effect: {
 				en: "Each player draws 3 cards.",
+				fr: "Chaque joueur pioche 3 cartes.",
 				de: "Jeder Spieler zieht 3 Karten."
 			},
 

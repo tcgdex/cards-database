@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Pokégear 3.0"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -29,10 +30,30 @@ const card: Card = {
 
 	trainerType: "Item",
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836073
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836073,
+				tcgplayer: 642530
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836073,
+				tcgplayer: 642530
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836475,
+				tcgplayer: 644830
+			}
+		},
+	]
 }
 
 export default card

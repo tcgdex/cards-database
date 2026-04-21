@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Koffing del Equipo Rocket"
 	},
 
+
+	illustrator: "kodama",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -66,16 +69,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825999,
+				tcgplayer: 632933
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825999,
+				tcgplayer: 632933
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825999
-	}
 }
 
 export default card

@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Cetitan ex"
 	},
 
+
+	illustrator: "kawayoo",
+
 	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 300,
@@ -85,16 +88,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
-		},
-		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825939,
+				tcgplayer: 632878
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825939
-	}
 }
 
 export default card

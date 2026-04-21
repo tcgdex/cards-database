@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ralts",
+		fr: "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -71,8 +72,11 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 1,
+
 	thirdParty: {
-		cardmarket: 275682,
+		cardmarket: 275683,
 		tcgplayer: 86460
 	},
 

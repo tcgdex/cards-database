@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Scolipede"
 	},
 
+	illustrator: "Oku",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 160,
@@ -82,10 +83,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836187
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836187,
+				tcgplayer: 642589
+			}
+		},
+	]
 }
 
 export default card

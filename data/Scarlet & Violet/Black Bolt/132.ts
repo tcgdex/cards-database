@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Venipede"
 	},
 
+	illustrator: "Apios",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,
@@ -47,10 +48,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836181
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836181,
+				tcgplayer: 642587
+			}
+		},
+	]
 }
 
 export default card

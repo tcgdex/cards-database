@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Goldeen"
+		en: "Goldeen",
+		fr: "Poissirène"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -26,7 +27,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack"
+				en: "Horn Attack",
+				fr: "Koud'korne"
 			},
 			damage: 10
 		},
@@ -36,10 +38,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down"
+				en: "Take Down",
+				fr: "Bélier"
 			},
 			effect: {
-				en: "Goldeen does 10 damage to itself."
+				en: "Goldeen does 10 damage to itself.",
+				fr: "Poissirène s'inflige 10 dégâts."
 			},
 			damage: 30
 		}

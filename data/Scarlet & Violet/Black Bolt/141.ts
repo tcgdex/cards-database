@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Klinklang"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 150,
@@ -72,10 +73,15 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836208
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836208,
+				tcgplayer: 642263
+			}
+		},
+	]
 }
 
 export default card

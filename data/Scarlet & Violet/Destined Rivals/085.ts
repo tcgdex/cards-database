@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Chingling del Equipo Rocket"
 	},
 
+
+	illustrator: "Mina Nakai",
+
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 30,
@@ -48,16 +51,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825959,
+				tcgplayer: 632895
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825959,
+				tcgplayer: 632895
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825959
-	}
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
+		fr: "Carabaffe"
 	},
 
 	stage: "Stage2",
@@ -74,8 +75,11 @@ const card: Card = {
 		},
 	],
 
+
+	retreat: 2,
+
 	thirdParty: {
-		cardmarket: 277083,
+		cardmarket: 277095,
 		tcgplayer: 83892
 	},
 

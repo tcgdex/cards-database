@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidorino",
+		fr: "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -93,7 +94,7 @@ const card: Card = {
 	}],
 
 	thirdParty: {
-		cardmarket: 275043,
+		cardmarket: 275096,
 		tcgplayer: 87695
 	},
 

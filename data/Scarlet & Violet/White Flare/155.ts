@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Herdier"
 	},
 
+	illustrator: "Makura Tami",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
@@ -71,9 +72,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836191
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836191,
+			tcgplayer: 642269
+		}
+	},
+],
 }
 
 export default card

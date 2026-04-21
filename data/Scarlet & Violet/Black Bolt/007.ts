@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lilligant"
 	},
 
+	illustrator: "mele",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -72,10 +73,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835916
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835916,
+				tcgplayer: 642456
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835916,
+				tcgplayer: 642456
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836264,
+				tcgplayer: 642701
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836274,
+				tcgplayer: 642701
+			}
+		}
+	],
 }
 
 export default card

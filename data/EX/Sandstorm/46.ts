@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lotad",
+		fr: "Nénupiot"
 	},
 
 	stage: "Stage1",
@@ -74,8 +75,11 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 1,
+
 	thirdParty: {
-		cardmarket: 275822,
+		cardmarket: 275823,
 		tcgplayer: 86815
 	},
 

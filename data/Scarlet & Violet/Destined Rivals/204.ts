@@ -15,6 +15,9 @@ const card: Card = {
 		'es-mx': "Kangaskhan"
 	},
 
+
+	illustrator: "Mékayu",
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 120,
@@ -66,13 +69,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826078,
+				tcgplayer: 633004
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826078
-	}
 }
 
 export default card

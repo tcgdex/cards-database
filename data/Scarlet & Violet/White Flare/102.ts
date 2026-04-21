@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Lampent"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 80,
@@ -59,9 +60,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836097
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836097,
+				tcgplayer: 642550
+			}
+		},
+	],
 }
 
 export default card

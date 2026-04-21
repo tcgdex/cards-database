@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zweilous"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 110,
@@ -73,9 +74,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836179
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836179,
+				tcgplayer: 642258
+			}
+		},
+	],
 }
 
 export default card

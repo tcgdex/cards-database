@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Eelektrik"
 	},
 
+	illustrator: "Kurata So",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	hp: 90,
@@ -72,10 +73,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836139
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836139,
+				tcgplayer: 642567
+			}
+		},
+	]
 }
 
 export default card
