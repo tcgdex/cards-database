@@ -239,6 +239,12 @@
 		"international-championship-north-america": "international-championship-north-america",
 		"ace-trainer": "Ace Trainer",
 		"30th-pokeday": "30th-pokeday"
+		"pikachu": "pikachu",
+		"bulbasaur": "bulbasaur",
+		"squirtle": "squirtle",
+		"charmander": "charmander",
+		"pokeball": "pokeball",
+		"mcdonalds": "mcdonalds"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",

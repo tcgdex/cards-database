@@ -11,7 +11,7 @@ const card: Card = {
 	description: {
 		en: "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves."
 	},
-	
+
 	hp: 60,
 
 	stage: "Basic",
@@ -37,10 +37,16 @@ const card: Card = {
 
 	rarity: "None",
 
-	thirdParty: {
-		cardmarket: 295141,
-		tcgplayer: 275061
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 295141,
+				tcgplayer: 275061
+			}
+		}
+	]
 }
 
 export default card
+

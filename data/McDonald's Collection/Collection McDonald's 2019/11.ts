@@ -3,24 +3,70 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Raichu",
+		fr: "Sulfura",
 	},
-	rarity: "Common",
+
+	rarity: "None",
 	category: "Pokemon",
+	illustrator: "Hitoshi Ariga",
 
 	set: Set,
-	dexId: [26],
-	hp: 100,
-	types: ["Lightning"],
+	dexId: [146],
+	hp: 120,
+	types: ["Fire"],
 
-	stage: "Stage1",
+	stage: "Basic",
+	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	attacks: [
+		{
+			cost: ["Fire", "Colorless", "Colorless"],
+			name: {
+				fr: "Cru-Aile"
+			},
+			damage: 70,
+		},
+		{
+			cost: ["Fire",  "Colorless","Colorless", "Colorless"],
+			name: {
+				fr: "Piqué"
+			},
+			damage: 150,
+			effect: {
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			}
+		},
+	],
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 479724,
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 581854,
+			}
+		}
+	]
 }
 
 export default card
+

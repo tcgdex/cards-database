@@ -33,13 +33,6 @@ const card: Card = {
 		damage: 50
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Pignite",
 		fr: "Grotichon"
@@ -49,9 +42,18 @@ const card: Card = {
 	hp: 100,
 	types: ["Fire"],
 
-	thirdParty: {
-		tcgplayer: 88064
-	}
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281781,
+				tcgplayer: 88064
+			}
+		}
+	]
 }
 
 export default card
+

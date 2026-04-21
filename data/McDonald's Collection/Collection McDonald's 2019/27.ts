@@ -2,25 +2,63 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
-	name: {
-		fr: "Tadmorv",
-	},
-	rarity: "Common",
-	category: "Pokemon",
+    name: {
+        fr: "Fantominus",
+    },
 
-	set: Set,
-	dexId: [88],
-	hp: 70,
-	types: ["Psychic"],
+    rarity: "None",
+    category: "Pokemon",
+    illustrator: "Shibuzoh.",
 
-	stage: "Basic",
+    set: Set,
+    dexId: [92],
+    hp: 50,
+    types: ["Psychic"],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+    stage: "Basic",
+    retreat: 1,
+
+    weaknesses: [
+        {
+            type: "Darkness",
+            value: "×2"
+        },
+    ],
+
+    resistances: [
+        {
+            type: "Fighting",
+            value: "-20"
+        }
+    ],
+
+    attacks: [
+        {
+            cost: ["Psychic"],
+            name: {
+                fr: "Regard Menaçant"
+            },
+            effect: {
+                fr: "Placez un marqueur de dégâts sur l'un des Pokémon de votre adversaire."
+            }
+        },
+    ],
+
+    variants: [
+        {
+            type: 'normal',
+            thirdParty: {
+                cardmarket: 479804,
+            }
+        },
+        {
+            type: 'holo',
+            thirdParty: {
+                cardmarket: 581872,
+            }
+        }
+    ]
 }
 
 export default card
+

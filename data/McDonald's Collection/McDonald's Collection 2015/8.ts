@@ -6,12 +6,6 @@ const card: Card = {
 		111,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
@@ -23,10 +17,6 @@ const card: Card = {
 		"Fighting",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 293324,
-		tcgplayer: 110426,
-	},
 	attacks: [
 		{
 			cost: [
@@ -34,14 +24,29 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
+				en: "Take Down",
 				fr: "Bélier",
 			},
-			damage: "40",
+			damage: 40,
 			effect: {
+				en: "This Pokémon does 10 damage to itself",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
 			},
 		},
 	],
+
+	illustrator: "Midori Harada",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 293324,
+				tcgplayer: 110426
+			}
+		}
+	]
 }
 
 export default card
+

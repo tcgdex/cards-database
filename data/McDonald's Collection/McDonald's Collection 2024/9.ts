@@ -37,24 +37,19 @@ const card: Card = {
 		{
 			cost: ["Darkness"],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				en: "Blindside",
 			},
-			damage: 30,
+			effect: {
+				en: "This attack does 60 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
 		},
 		{
 			cost: ["Darkness", "Colorless", "Colorless"],
 			name: {
-				en: "Shadow Ball",
-				fr: "Ball'Ombre",
-				es: "Bola Sombra",
-				it: "Palla Ombra",
-				pt: "Bola de Sombra",
-				de: "Spukball"
+				en: "Moon Mirage",
+			},
+			effect: {
+				en: "Your opponent's Active Pokémon is now Confused."
 			},
 			damage: 80,
 		},
@@ -69,12 +64,15 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 802831,
+				tcgplayer: 614378
+			}
+		}
+	]
 }
 
 export default card
