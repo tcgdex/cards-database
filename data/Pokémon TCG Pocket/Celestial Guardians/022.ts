@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [768],
 	hp: 120,
 	types: ["Grass"],
 

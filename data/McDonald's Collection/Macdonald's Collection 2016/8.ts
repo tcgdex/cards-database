@@ -9,6 +9,8 @@ const card: Card = {
 	description: {
 		en: "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody."
 	},
+	
+	hp: 60,
 
 	stage: "Basic",
 

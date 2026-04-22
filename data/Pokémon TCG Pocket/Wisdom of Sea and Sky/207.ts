@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Shinji Kanda",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [169],
 	hp: 170,
 	types: ["Darkness"],
 

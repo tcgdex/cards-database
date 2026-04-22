@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "nagimiso",
 	category: "Pokemon",
+
+	dexId: [965],
 	hp: 70,
 	types: ["Metal"],
 
