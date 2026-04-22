@@ -3,14 +3,14 @@ import type { Card as SDKCard } from '@tcgdex/sdk'
 import apicache from 'apicache'
 import express, { type Request } from 'express'
 import { Errors, sendError } from '../../libs/Errors'
+import { listSKUs } from '../../libs/providers/tcgplayer'
 import type { Query } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
-import { betterSorter, checkLanguage, unique } from '../../util'
-import { getAllCards, findOneCard, findCards, toBrief, getCardById } from '../Components/Card'
-import { findOneSet, findSets, setToBrief } from '../Components/Set'
-import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
-import { listSKUs } from '../../libs/providers/tcgplayer'
 import type { paths as OpenAPI } from '../../openapi'
+import { betterSorter, checkLanguage, unique } from '../../util'
+import { findCards, findOneCard, getAllCards, getCardById, toBrief } from '../Components/Card'
+import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
+import { findOneSet, findSets, setToBrief } from '../Components/Set'
 
 type Response<Path extends keyof OpenAPI> = OpenAPI[Path]['get']['responses'][200]['content']['application/json']
 
@@ -198,7 +198,9 @@ server
 						.map((c) => c[endpointToField[endpoint]] as Array<string>)
 						.filter((c) => c)
 						.reduce((p, c) => [...p, ...c], [] as Array<string>)
-				).sort(betterSorter) satisfies Response<'/types'> & Response<'/dex-ids'>
+				).sort(betterSorter) satisfies
+					| Response<'/types'>
+					| Response<'/dex-ids'>
 				break
 			case "variants":
 				result = unique(

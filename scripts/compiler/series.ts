@@ -1,13 +1,13 @@
-import { Serie as DBSerie, Set as DBSet, Languages, SupportedLanguages } from '../../interfaces'
-import { globSync } from 'glob'
-import { extractCached } from '../utils/ts-extract-utils'
-import fs from 'node:fs'
 import { objectClean, objectKeys } from '@dzeio/object-util'
-import { getLastEdit } from './providers/git'
 import Queue from '@dzeio/queue'
+import { globSync } from 'glob'
+import fs from 'node:fs'
+import { Serie as DBSerie, Set as DBSet, Languages } from '../../interfaces'
+import { extractCached } from '../utils/ts-extract-utils'
+import { CompiledSerie } from './interfaces'
 import { translate } from './libs/translation'
 import { getHashs } from './providers/assets'
-import { CompiledSerie } from './interfaces'
+import { getLastEdit } from './providers/git'
 
 await getHashs()
 
@@ -45,7 +45,11 @@ for (const file of files) {
 			setsList.map((setPath) => extractCached(setPath) as Promise<DBSet>)
 		)
 
-		const firstSet = sets.reduce((c, p) => c.releaseDate > p.releaseDate ? c : p)
+		if (sets.length === 0) {
+			return
+		}
+
+		const firstSet = sets.reduce((c, p) => c.releaseDate < p.releaseDate ? c : p)
 
 		const res: CompiledSerie = {
 			...serie,
@@ -62,7 +66,10 @@ for (const file of files) {
 		objectClean(res)
 
 		out.push(res)
-	})().finally(() => {
+	})().catch((it) => {
+		console.error('error processing', file)
+		throw it
+	}).finally(() => {
 		void addToCounter()
 	}))
 }

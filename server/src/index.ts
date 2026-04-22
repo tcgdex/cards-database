@@ -1,14 +1,14 @@
 import express, { type Response } from 'express'
-import jsonEndpoints from './V2/endpoints/jsonEndpoints'
-import openapi from './V2/endpoints/openapi'
-import graphql from './V2/graphql'
 import cluster from 'node:cluster'
 import { availableParallelism } from "node:os"
 import { Errors, sendError } from './libs/Errors'
-// import status from './status'
+import jsonEndpoints from './V2/endpoints/jsonEndpoints'
+import openapi from './V2/endpoints/openapi'
+import graphql from './V2/graphql'
 import * as Sentry from "@sentry/node"
 import { updateDatas } from './libs/providers/cardmarket'
 import { updateTCGPlayerDatas } from './libs/providers/tcgplayer'
+import status from './status'
 
 // Glitchtip will only start if the DSN is set :D
 Sentry.init({
@@ -134,7 +134,7 @@ if (cluster.isPrimary) {
 	server.use(`/v${VERSION}`, jsonEndpoints)
 
 	// Status page
-	// server.use('/status', status)
+	server.use('/status', status)
 
 	// handle 404 errors
 	server.use((_, res) => {

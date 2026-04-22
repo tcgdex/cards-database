@@ -1,5 +1,5 @@
-import openapiTS, { astToString } from 'openapi-typescript'
 import fs from 'fs/promises'
+import openapiTS, { astToString } from 'openapi-typescript'
 
 console.log('1. Compiling OpenAPI spec')
 const ast = await openapiTS(await fs.readFile('./meta/definitions/openapi.yaml', 'utf-8'))
@@ -14,6 +14,7 @@ console.log('2.2. Compiling sets')
 await import('./sets')
 console.log('2.3. Compiling series')
 await import('./series')
+await import('./stats')
 
 console.log('3. Moving public files')
 // Finally copy definitions files to the public folder :D

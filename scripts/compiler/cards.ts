@@ -1,17 +1,17 @@
-import { Card as DBCard, Set as DBSet, Serie as DBSerie, Languages, SupportedLanguages } from '../../interfaces'
-import { globSync } from 'glob'
-import { extractCached } from '../utils/ts-extract-utils'
-import fs from 'node:fs'
 import { objectClean, objectKeys } from '@dzeio/object-util'
-import { getLastEdit } from './providers/git'
 import Queue from '@dzeio/queue'
+import { globSync } from 'glob'
+import fs from 'node:fs'
+import path from 'node:path'
+import { Card as DBCard, Serie as DBSerie, Set as DBSet, Languages, SupportedLanguages } from '../../interfaces'
+import { extractCached } from '../utils/ts-extract-utils'
 import { translate, validateLanguages } from './libs/translation'
 import { getAsset } from './providers/assets'
-import path from 'node:path'
+import { getLastEdit } from './providers/git'
 
-import { getHashs } from './providers/assets'
 import { CompiledCard } from './interfaces'
 import { cardIsLegal } from './libs/legalUtils'
+import { getHashs } from './providers/assets'
 
 await getHashs()
 

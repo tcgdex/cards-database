@@ -8,6 +8,7 @@ const set: Set = {
 		de: "Schwarze Blitze",
 		en: "Black Bolt",
 		es: "Fulgor Negro",
+		"es-mx": "Fulgor Negro",
 		fr: "Foudre Noire",
 		it: "Luce Nera",
 		pt: "Raio Preto"

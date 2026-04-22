@@ -1,10 +1,12 @@
 export type SupportedLanguages =
-// inter languages
+	// inter languages
 	'en' | 'fr' | 'es' | 'es-mx' | 'it' | 'pt' | 'pt-br' | 'pt-pt' | 'de' | 'nl' | 'pl' | 'ru' |
 	// Asian languages
 	'ja' | 'ko' | 'zh-tw' | 'id' | 'th' | 'zh-cn'
 
 export type Languages<T = string> = Partial<Record<SupportedLanguages, T>>
+
+export type LanguagesV2<Langs = SupportedLanguages, T = string> = Record<Langs, T>
 
 export interface Serie {
 	id: string
@@ -31,9 +33,9 @@ interface variant_detailed {
 	 * and the Unlimited version of the set had no shadow.
 	 */
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
-		| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
-		| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
-		| 'cosmos'
+	| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
+	| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
+	| 'cosmos'
 
 	/**
 	 * define the size of the card
@@ -157,11 +159,11 @@ export interface Set {
 	}
 }
 
-export interface Card {
+export interface Card<Langs extends SupportedLanguages = T> {
 	/**
 	 * Card Name (Including the suffix if next to card name)
 	 */
-	name: Languages
+	name: LanguagesV2<Langs>
 
 	/**
 	 * Card illustrator
@@ -211,16 +213,16 @@ export interface Card {
 	 * - Uncommon: https://www.tcgdex.net/database/Sword-&-Shield/Darkness-Ablaze/136-Furret
 	 */
 	rarity: 'ACE SPEC Rare' | 'Amazing Rare' | 'Classic Collection' | 'Common' |
-			'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
-			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
-			'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
-			'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
-			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
-			// Black White rare
-			| 'Black White Rare'
-			| 'Mega Hyper Rare'
-			// Pokémon TCG Pocket Rarities
-			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
+	'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
+	'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
+	'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
+	'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
+	'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
+	// Black White rare
+	| 'Black White Rare'
+	| 'Mega Hyper Rare'
+	// Pokémon TCG Pocket Rarities
+	| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 
 	/**
 	 * Card Category
@@ -270,7 +272,7 @@ export interface Card {
 	/**
 	 * Pokemon Sub Evolution
 	 */
-	evolveFrom?: Languages
+	evolveFrom?: LanguagesV2<Langs>
 
 	/**
 	 * Pokemon Weight
@@ -280,7 +282,7 @@ export interface Card {
 	/**
 	 * Pokemon Description
 	 */
-	description?: Languages
+	description?: LanguagesV2<Langs>
 
 	/**
 	 * Level of the Pokemon
@@ -324,8 +326,8 @@ export interface Card {
 	 * ex https://www.tcgdex.net/database/dp/dp2/75
 	 */
 	item?: {
-		name: Languages
-		effect: Languages
+		name: LanguagesV2<Langs>
+		effect: LanguagesV2<Langs>
 	}
 
 	/**
@@ -335,8 +337,8 @@ export interface Card {
 	 */
 	abilities?: Array<{
 		type: 'Pokemon Power' | 'Poke-BODY' | 'Poke-POWER' | 'Ability' | 'Ancient Trait'
-		name: Languages
-		effect: Languages
+		name: LanguagesV2<Langs>
+		effect: LanguagesV2<Langs>
 	}>
 
 	/**
@@ -344,8 +346,8 @@ export interface Card {
 	 */
 	attacks?: Array<{
 		cost?: Array<Types>
-		name: Languages
-		effect?: Languages
+		name: LanguagesV2<Langs>
+		effect?: LanguagesV2<Langs>
 		damage?: string | number
 	}>
 
@@ -365,21 +367,21 @@ export interface Card {
 	retreat?: number
 
 	//Trainer/Energy
-	effect?: Languages
+	effect?: LanguagesV2<Langs>
 
 	// Trainer Only
 	trainerType?: 'Supporter' | // https://www.tcgdex.net/database/ex/ex7/83
-		'Item' | // https://www.tcgdex.net/database/ex/ex7/89
-		'Stadium' | // https://www.tcgdex.net/database/ex/ex7/87
-		'Tool' | // https://www.tcgdex.net/database/neo/neo1/93
-		'Ace Spec' | // https://www.tcgdex.net/database/bw/bw7/139
-		'Technical Machine' | // https://www.tcgdex.net/database/ecard/ecard1/144
-		'Goldenrod Game Corner' | // https://www.tcgdex.net/database/neo/neo1/83
-		'Rocket\'s Secret Machine' // https://www.tcgdex.net/database/ex/ex7/84
+	'Item' | // https://www.tcgdex.net/database/ex/ex7/89
+	'Stadium' | // https://www.tcgdex.net/database/ex/ex7/87
+	'Tool' | // https://www.tcgdex.net/database/neo/neo1/93
+	'Ace Spec' | // https://www.tcgdex.net/database/bw/bw7/139
+	'Technical Machine' | // https://www.tcgdex.net/database/ecard/ecard1/144
+	'Goldenrod Game Corner' | // https://www.tcgdex.net/database/neo/neo1/83
+	'Rocket\'s Secret Machine' // https://www.tcgdex.net/database/ex/ex7/84
 
 	// Energy Only
 	energyType?: 'Normal' | // https://www.tcgdex.net/database/ecard/ecard1/160
-		'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
+	'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
 
 	thirdParty?: {
 		tcgplayer?: number

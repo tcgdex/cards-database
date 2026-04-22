@@ -8,6 +8,7 @@ const set: Set = {
 		de: "Weiße Flammen",
 		en: "White Flare",
 		es: "Llama Blanca",
+		"es-mx": "Llama Blanca"
 		fr: "Flamme Blanche",
 		it: "Fuoco Bianco",
 		pt: "Fogo Branco"

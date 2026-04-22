@@ -1,14 +1,14 @@
 import Cache from '@cachex/memory'
 import { objectClean, objectKeys } from '@dzeio/object-util'
 import { SupportedLanguages } from '@tcgdex/sdk'
-import type { Card, CardResume } from '../../api'
-import dataTMP from '../../../generated/cards.json'
 import type { CompiledCard } from '../../../../scripts/compiler/interfaces'
+import dataTMP from '../../../generated/cards.json'
+import type { Card, CardResume } from '../../api'
+import { Version } from '../../interfaces'
 import { getCardMarketPrice } from '../../libs/providers/cardmarket'
 import { getTCGPlayerPrice } from '../../libs/providers/tcgplayer'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
 import { loadSet } from './Set'
-import { Version } from '../../interfaces'
 
 const data = dataTMP as Array<CompiledCard>
 
@@ -169,9 +169,14 @@ export async function findOneCard(lang: SupportedLanguages, query: Query<Card>) 
 	return res[0]
 }
 
-export function toBrief(card: Card): CardResume {
+export function toBrief(card: Card): {
+	id: number;
+	localId: string;
+	image?: string | null;
+	name: string;
+} {
 	return {
-		id: card.id,
+		id: 1,
 		localId: card.localId,
 		name: card.name,
 		image: card.image
