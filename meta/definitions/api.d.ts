@@ -85,6 +85,37 @@ export interface SetResume {
 		 */
 		official: number;
 	};
+
+	/**
+	 * Optional canonical abbreviation for the set, mirroring the
+	 * `abbreviations` field on the source-level `Set` interface.
+	 * Present when the set has either an official abbreviation or a
+	 * language-localised one. Absent otherwise.
+	 */
+	abbreviation?: {
+		official?: string
+		localized?: string
+	};
+
+	/**
+	 * Declarative subsets inside a set (e.g. Trainer Gallery "TG"
+	 * inside Astral Radiance). Each subset exposes its own id and
+	 * official card count; the name is resolved per language.
+	 */
+	subsets?: Array<{
+		id: string
+		name?: string
+		cardCount: {
+			official: number
+		}
+	}>;
+
+	/**
+	 * Owning serie summary. Populated on simple/list SetResume payloads
+	 * (e.g. `/sets`); omitted on SetResumes embedded inside a Serie
+	 * response where the relationship is implied.
+	 */
+	serie?: SerieResume;
 }
 
 /**
@@ -143,7 +174,7 @@ export interface Set extends SetResume {
 		firstEd?: number;
 	};
 	cards: Array<CardResume>;
-	abbreviation: { official: string, localized: string };
+	abbreviation?: { official?: string; localized?: string };
 	thirdParty?: {
 		cardmarket?: number
 		tcgplayer?: number

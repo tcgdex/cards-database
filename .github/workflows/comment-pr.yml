@@ -18,6 +18,7 @@ jobs:
         working-directory: .github/scripts
     permissions:
       pull-requests: write
+      contents: read
 
     steps:
       - name: Checkout code

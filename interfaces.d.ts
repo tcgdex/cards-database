@@ -16,7 +16,23 @@ export interface Serie {
 	energies?: Array<Types>
 }
 
-export type VariantType =  'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
+/**
+ * Cardmarket version tokens used on placeholder variants emitted by the
+ * cardmarket sync script when a Cardmarket productId could not be matched
+ * to a canonical source variant. A human should later flip these back to
+ * 'normal' | 'holo' | 'reverse' | ... with the right subtype/stamp.
+ */
+export type CardmarketVersion = `V${number}` | 'BASE' | 'LIBRE'
+/**
+ * "Yellow A" identifies the alternate-art sibling printing of a card
+ * that shares its name and number with a base printing but uses a
+ * local_id suffixed with "a" (e.g. XY150 / XY150a, PHF024 / PHF024a,
+ * FFI055 / FFI055a). Cardmarket lists these as V2/V3/... versions of
+ * the base product, but tcgdex models them as separate cards; this
+ * variant type binds the Cardmarket product id to the correct tcgdex
+ * "a" sibling.
+ */
+export type VariantType =  'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular' | 'Yellow A' | CardmarketVersion
 export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
 	| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
 	| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato'
@@ -98,6 +114,13 @@ export interface variant_detailed {
 		tcgplayer?: number
 		cardmarket?: number
 	}
+
+	/**
+	 * Raw OCR-derived labels from Cardmarket for placeholder variants whose
+	 * `type` is a `CardmarketVersion` token (e.g. "V2"). They help a human
+	 * reviewer reconcile the slot to the right canonical type/subtype/stamp.
+	 */
+	cardmarketLabels?: string[]
 }
 
 interface variants {
@@ -151,6 +174,19 @@ export interface Set {
 	 * Partial list of abbreviations, this is currently a Work in Progress feature
 	 */
 	abbreviations?: Partial<Omit<Languages, 'en'> & { official?: string }>
+
+	/**
+	 * Optional declarative subsets inside a set (e.g. Trainer Gallery "TG"
+	 * inside Astral Radiance). Each subset gets its own id-prefix in card
+	 * localIds and exposes its own official card count.
+	 */
+	subsets?: Record<string, {
+		name?: Languages
+		cardCount?: {
+			official?: number
+		}
+	}>
+
 	serie: Serie
 	tcgOnline?: string
 
@@ -232,6 +268,10 @@ export interface Card {
 			// Black White rare
 			| 'Black White Rare'
 			| 'Mega Hyper Rare'
+			// Promo rarity used across series for Black Star Promo cards
+			| 'Black Star Promo'
+			// Mega Evolution attack rare variant
+			| 'Mega Attack Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 
@@ -394,6 +434,15 @@ export interface Card {
 	energyType?: 'Normal' | // https://www.tcgdex.net/database/ecard/ecard1/160
 		'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
 
+	/**
+	 * @deprecated Root-level thirdParty has been moved onto
+	 * `variants[0].thirdParty` for cards with array-form variants. The
+	 * cards-database server reconstructs the root-level `pricing` field in
+	 * the SDK response from `variants[0].thirdParty` for backward
+	 * compatibility; new code should read thirdParty from a specific
+	 * variant. The field stays typed for legacy object-variant cards,
+	 * promos and trainer kits that still carry it.
+	 */
 	thirdParty?: {
 		tcgplayer?: number
 		cardmarket?: number

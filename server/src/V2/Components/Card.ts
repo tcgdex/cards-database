@@ -94,6 +94,29 @@ export function getCompiledCard(lang: SupportedLanguages, id: string): any {
 	return list[key]
 }
 
+
+/**
+ * Reconstruct the root-level pricing payload from variants[0].thirdParty
+ * for cards migrated away from root thirdParty (see
+ * `scripts/export/move_root_thirdparty_to_variant_zero.py`). Falls back to
+ * the first variant carrying a populated pricing block when variants[0] has
+ * no pricing yet (e.g. unpopulated at compile time), so that the API
+ * response never loses the deprecated root `pricing` field for clients that
+ * still rely on it.
+ */
+function resolveRootPricingFromVariants(variantsDetailed: any[] | undefined): { cardmarket: any; tcgplayer: any } | null {
+	const variants = variantsDetailed ?? []
+	if (variants.length === 0) {
+		return null
+	}
+	const hasPricing = (v: any) => v && v.pricing && (v.pricing.cardmarket || v.pricing.tcgplayer)
+	const primary = hasPricing(variants[0]) ? variants[0] : variants.find(hasPricing)
+	if (!primary) {
+		return null
+	}
+	return { cardmarket: primary.pricing.cardmarket ?? null, tcgplayer: primary.pricing.tcgplayer ?? null }
+}
+
 /**
  * Function that do the hard work of loading the card with the external processors
  *
@@ -131,20 +154,23 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 	}
 
 	// console.time('loading providers')
-	let [cardmarket, tcgplayer] = await Promise.all([
-		getCardMarketPrice(card),
-		getTCGPlayerPrice(card),
-	])
+	// Root-level pricing is reconstructed from variants[0].thirdParty for
+	// cards migrated by ``scripts/export/move_root_thirdparty_to_variant_zero.py``
+	// (root thirdParty is now @deprecated on the Card interface). Legacy
+	// cards that still hold root ``thirdParty`` (object-variant shape, promos,
+	// trainer kits) fall through to the provider lookups below.
+	let cardmarket: any = null
+	let tcgplayer: any = null
 
-	if(!card.thirdParty) {
-		//No third party info try to get from variants
-		//This is to provide constancy but be able to update the data
-		//To remove the pricing from the root in v3
-		//Takes the first variant with pricing available, this should be the base variant
-		const variantWithPricing = (card.variants_detailed ?? []).find((variant: any) => variant.pricing && (variant.pricing.cardmarket || variant.pricing.tcgplayer));
-		if(variantWithPricing) {
-			({ cardmarket, tcgplayer } = variantWithPricing.pricing);
-		}
+	const rootFromVariants = resolveRootPricingFromVariants(card.variants_detailed)
+	if (rootFromVariants) {
+		({ cardmarket, tcgplayer } = rootFromVariants)
+	} else if (card.thirdParty) {
+		// Legacy retro-compat path: root thirdParty still carries the ids.
+		[cardmarket, tcgplayer] = await Promise.all([
+			getCardMarketPrice(card),
+			getTCGPlayerPrice(card),
+		])
 	}
 
 	// console.timeEnd('loading providers')
