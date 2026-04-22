@@ -74,14 +74,18 @@ const card: Card = {
 		it: "In un passato remoto era molto più forte dei suoi debolissimi discendenti."
 	},
 
-	thirdParty: {
-		cardmarket: 273730,
-		tcgplayer: 42377
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273730,
+				tcgplayer: 42377
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -91,10 +95,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660193
+			}
 		}
 	],
 }

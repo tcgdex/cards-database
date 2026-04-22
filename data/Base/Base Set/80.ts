@@ -20,14 +20,18 @@ const card: Card = {
 		it: "Assegna il Difensore a uno dei tuoi Pokémon. Alla fine del prossimo turno del tuo avversario, scarta il Difensore. I danni inflitti a quel Pokémon dagli attacchi vengono ridotti di 20 (dopo aver applicato Debolezza e Resistenza)."
 	},
 
-	thirdParty: {
-		cardmarket: 273775,
-		tcgplayer: 42426
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273775,
+				tcgplayer: 42426
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -37,10 +41,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660135
+			}
 		}
 	],
 }
