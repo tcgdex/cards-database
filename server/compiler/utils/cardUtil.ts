@@ -168,8 +168,27 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		})) : undefined,
 		updated: await getCardLastEdit(localId, card, lang),
 
-		thirdParty: card.thirdParty
+		thirdParty: card.thirdParty ?? resolveRootThirdPartyFromVariants(card.variants)
 	}
+}
+
+/**
+ * Retrocompat helper: reconstruct the deprecated root-level `thirdParty`
+ * payload from the first `variant_detailed` entry that carries one. Cards
+ * migrated to variant-level `thirdParty` (see e.g. the Base Set migration)
+ * no longer declare `card.thirdParty` directly; consumers that still read
+ * the root field would otherwise see it drop to `undefined` in the
+ * compiled JSON. This keeps the JSON surface byte-compatible while the
+ * ecosystem migrates to `variants_detailed[*].thirdParty`.
+ */
+function resolveRootThirdPartyFromVariants(
+	variants: Card['variants'] | undefined
+): { cardmarket?: number; tcgplayer?: number } | undefined {
+	if (!Array.isArray(variants)) {
+		return undefined
+	}
+	const primary = variants.find((v) => v && typeof v === 'object' && 'thirdParty' in v && (v as variant_detailed).thirdParty)
+	return primary ? (primary as variant_detailed).thirdParty : undefined
 }
 
 /**
