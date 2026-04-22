@@ -24,7 +24,7 @@ const card: Card = {
 	},
 
 	illustrator: "Taiga Kasai",
-	rarity: "Ultra Rare",
+	rarity: "Mega Attack Rare",
 	category: "Pokemon",
 	hp: 350,
 	types: ["Darkness"],

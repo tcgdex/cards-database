@@ -144,6 +144,44 @@ export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
 
 type ISODate = `${number}-${number}-${number}`
 
+/**
+ * Represents a pull rate value.
+ * Can be a simple display string (e.g. '1 in 8') or an object
+ * with a required decimal percent for programmatic use.
+ * 
+ * @example '1 in 8'
+ * @example { display: '1 in 8', percent: 12.5 }
+*/
+export type PullRateValue = | string | {
+	display: string
+	percent: number
+}
+
+/**
+ * A pull-rate rule for a specific card variant.
+ *
+ * Any variant fields present on this object are used to match against a
+ * card's detailed variant entry. Fields that are not present are ignored.
+ *
+ * @example { type: 'reverse', foil: 'masterball', rate: { display: '1 in 40', percent: 2.5 } }
+*/
+export interface SpecialVariantPullRate extends Partial<variant_detailed> {
+	rate: PullRateValue
+}
+
+/**
+ * Pull rates for a set or booster.
+ * - `rarities` maps Card rarity strings directly to pull rates
+ * - `specialVariants` defines pull rates for specific variant treatments
+ * 
+ * Pull rates are derived from these and exposed on each entry in
+ * variants_detailed — they are never authored manually on individual cards.
+ */
+export interface PullRates {
+	rarities?: Partial<Record<Card['rarity'], PullRateValue>>
+	specialVariants?: SpecialVariantPullRate[]
+}
+
 export interface Set {
 	id: string
 	name: Languages
@@ -160,7 +198,21 @@ export interface Set {
 
 	boosters?: Record<string, {
 		name: Languages<string>
+
+		/**
+		 * Optional pull rate override for this specific booster.
+		 * Only define when this booster has meaningfully different
+		 * odds from the set-level pullRates.
+		*/
+		pullRates?: PullRates
 	}>
+
+	/**
+	 * The pull rate for a given rarity or variant.
+	 * Can be a simple display string (e.g. '1 in 8') or an object
+	 * with an optional decimal percent for programmatic use.
+	*/
+	pullRates?: PullRates
 
 	releaseDate: ISODate | Languages<ISODate>
 
@@ -231,7 +283,8 @@ export interface Card {
 			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
 			// Black White rare
 			| 'Black White Rare'
-			| 'Mega Hyper Rare'
+			| 'Mega Hyper Rare' 
+			| 'Mega Attack Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 

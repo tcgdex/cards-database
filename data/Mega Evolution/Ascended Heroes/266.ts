@@ -24,7 +24,7 @@ const card: Card = {
 	},
 
 	illustrator: "DOM",
-	rarity: "Ultra Rare",
+	rarity: "Mega Attack Rare",
 	category: "Pokemon",
 	hp: 350,
 	types: ["Lightning"],
