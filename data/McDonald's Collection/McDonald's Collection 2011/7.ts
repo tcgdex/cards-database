@@ -26,13 +26,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Munna",
 		fr: "Munna"
@@ -42,9 +35,16 @@ const card: Card = {
 	hp: 60,
 	types: ["Psychic"],
 
-	thirdParty: {
-		tcgplayer: 87642
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281796,
+				tcgplayer: 87642
+			}
+		}
+	]
 }
 
 export default card
+

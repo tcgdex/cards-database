@@ -3,24 +3,55 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Carapuce",
+		fr: "Flamajou",
 	},
-	rarity: "Common",
+
+	rarity: "None",
 	category: "Pokemon",
+	illustrator: "Miki Tanaka",
 
 	set: Set,
-	dexId: [7],
-	hp: 60,
-	types: ["Water"],
+	dexId: [513],
+	hp: 70,
+	types: ["Fire"],
 
 	stage: "Basic",
+	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	resistances: [],
+
+	attacks: [
+		{
+			cost: ["Fire"],
+			name: {
+				fr: "Flamboiement"
+			},
+			damage: 10,
+		},
+	],
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 362778,
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 362778,
+			}
+		}
+	]
 }
 
 export default card
+

@@ -40,13 +40,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Maractus",
 		fr: "Maracachi"
@@ -56,9 +49,16 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 
-	thirdParty: {
-		tcgplayer: 87189
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281791,
+				tcgplayer: 87189
+			}
+		}
+	]
 }
 
 export default card
+

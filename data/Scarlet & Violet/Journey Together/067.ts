@@ -74,16 +74,20 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "mashu",
 
-	thirdParty: {
-		cardmarket: 817219
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817219,
+				tcgplayer: 623494
+			}
 		},
 		{
-			type: 'reverse'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817219,
+				tcgplayer: 623494
+			}
 		},
 		{
 			type: 'holo',
@@ -94,7 +98,7 @@ const card: Card = {
 			type: 'normal',
 			stamp: ['player-rewards-program']
 		}
-	]
+	],
 }
 
 export default card

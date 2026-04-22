@@ -74,35 +74,36 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Ryota Murayama",
 
-	thirdParty: {
-		cardmarket: 817288
-	},
-
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817288,
+				tcgplayer: 623563
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817288,
+				tcgplayer: 623563
+			}
 		},
 		{
-			type: 'holo',
-			foil: 'cosmos'
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 817771,
+			}
 		},
 		{
-			type: 'holo',
-			stamp: ["set-logo"]
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 819347,
+			}
 		},
-		{
-			type: 'holo',
-			foil: 'cosmos',
-			stamp: ["player-rewards-program"]
-		},
-		{
-			type: 'normal',
-			stamp: ["player-rewards-program"]
-		},
-	]
+	],
 }
 
 export default card

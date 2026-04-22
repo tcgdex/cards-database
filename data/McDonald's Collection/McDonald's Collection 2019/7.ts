@@ -24,13 +24,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Gastly"
 	},
@@ -39,10 +32,31 @@ const card: Card = {
 	hp: 50,
 	types: ["Psychic"],
 
-	thirdParty: {
-		cardmarket: 412879,
-		tcgplayer: 200969
-	}
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2"
+		}
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		}
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 412879,
+				tcgplayer: 200969
+			}
+		}
+	]
 }
 
 export default card
+

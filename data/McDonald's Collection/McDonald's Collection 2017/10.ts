@@ -6,12 +6,6 @@ const card: Card = {
 		742,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false,
-	},
 	name: {
 		en: "Cutiefly",
 		fr: "Bombydou",
@@ -23,24 +17,35 @@ const card: Card = {
 		"Fairy",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 301852,
-		tcgplayer: 152690,
-	},
 	attacks: [
 		{
 			cost: [
 				"Fairy",
 			],
 			name: {
+				en: "Fly Around",
 				fr: "Papillonnement",
 			},
 			damage: "10",
 			effect: {
+				en: "If any damage is done to this Pokémon by attacks during your opponent's next turn, flip a coin. If heads, prevent that damage.",
 				fr: "Si des dégâts sont infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire, lancez une pièce. Si c'est face, évitez ces dégâts.",
 			},
 		},
 	],
+
+	illustrator: "Hitoshi Ariga",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 301852,
+				tcgplayer: 152690
+			}
+		}
+	]
 }
 
 export default card
+

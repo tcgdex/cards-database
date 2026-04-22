@@ -6,12 +6,6 @@ const card: Card = {
 		300,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Skitty",
 		fr: "Skitty",
@@ -23,19 +17,17 @@ const card: Card = {
 		"Colorless",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 293328,
-		tcgplayer: 110432,
-	},
 	attacks: [
 		{
 			cost: [
 				"Colorless",
 			],
 			name: {
+				en: "Charm",
 				fr: "Charme",
 			},
 			effect: {
+				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying weakness and resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
@@ -45,11 +37,26 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Tail Smack",
 				fr: "Coup de Queue",
 			},
 			damage: "20",
 		},
 	],
+
+	illustrator: "Yuka Morii",
+	retreat: 1,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 293328,
+				tcgplayer: 110432
+			}
+		}
+	]
 }
 
 export default card
+

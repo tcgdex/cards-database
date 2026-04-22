@@ -28,13 +28,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Tepig",
 		fr: "Gruikui"
@@ -44,9 +37,16 @@ const card: Card = {
 	hp: 70,
 	types: ["Fire"],
 
-	thirdParty: {
-		tcgplayer: 89882
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281792,
+				tcgplayer: 89882
+			}
+		}
+	]
 }
 
 export default card
+

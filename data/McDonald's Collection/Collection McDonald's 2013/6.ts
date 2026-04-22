@@ -3,36 +3,39 @@ import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Noctali",
+		fr: "Voltali",
 	},
-	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	illustrator: "Sumiyoshi Kizuki",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [197],
+	dexId: [135],
 	hp: 90,
-	types: ["Darkness"],
+	types: ["Lightning"],
 
 	stage: "Stage1",
 
 	attacks: [
 		{
-			cost: ["Darkness"],
+			cost: ["Colorless"],
 			name: {
-				fr: "Morsure",
-			},
-			damage: 20,
-		},
-		{
-			cost: ["Darkness", "Colorless"],
-			name: {
-				fr: "Assaut Ténébreux",
+				fr: "Pistolectrique",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				fr: "Vous pouvez défausser une Énergie foudre attachée à ce Pokémon. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: "30+",
+			damage: "20+",
+		},
+		{
+			cost: ["Lightning", "Colorless", "Colorless"],
+			name: {
+				fr: "Crocs Éclair",
+			},
+			effect: {
+				fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+			},
+			damage: "40x",
 		},
 	],
 	weaknesses: [
@@ -41,15 +44,17 @@ const card: Card = {
 			value: "x2"
 		},
 	],
-	resistances: [
-		{
-			type: "Psychic",
-			value: "-20"
-		},
-	],
 
-	retreat: 1,
+	retreat: 0,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 361726,
+			}
+		}
+	]
 }
 
 export default card
-
