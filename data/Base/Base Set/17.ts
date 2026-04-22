@@ -94,7 +94,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273712,
+				tcgplayer: 42357
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -103,11 +111,18 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "shadowless",
+			subtype: "shadowless"
 		},
 		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			type: "V2",
+			cardmarketLabels: ["Eyliesiieeieeemaiie", "Resis", "Speed Cod Strack"]
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Eyliesiieeieeemaiie", "Resis", "Speed Cod Strack"],
+			thirdParty: {
+				cardmarket: 660211
+			}
 		}
 	],
 
@@ -116,10 +131,6 @@ const card: Card = {
 		it: " Vola ad alta velocità e attacca con i grandi pungiglioni velenosi che ha sulle zampe anteriori e sulla coda. LIV 32 N.15"
 	},
 
-	thirdParty: {
-		cardmarket: 273712,
-		tcgplayer: 42357
-	}
 }
 
 export default card

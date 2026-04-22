@@ -20,14 +20,18 @@ const card: Card = {
 		it: "Il tuo Pokémon Attivo non è più Addormentato, Confuso, Paralizzato o Avvelenato."
 	},
 
-	thirdParty: {
-		cardmarket: 273777,
-		tcgplayer: 42428
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273777,
+				tcgplayer: 42428
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -37,10 +41,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660132
+			}
 		}
 	],
 }

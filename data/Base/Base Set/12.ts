@@ -86,7 +86,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273707,
+				tcgplayer: 42352
+			}
+		},
+		{
+			type: "holo",
+			subtype: "unlimited"
 		},
 		{
 			type: "holo",
@@ -96,10 +104,9 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "shadowless",
-		},
-		{
-			type: "holo",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660216
+			}
 		}
 	],
 
@@ -109,10 +116,6 @@ const card: Card = {
 		it: "Molto intelligente, ma anche molto vendicativo. Chi osa afferrare una delle sue numerose code viene punito con una maledizione che durerà 1.000 anni. LIV 32 N.38"
 	},
 
-	thirdParty: {
-		cardmarket: 273707,
-		tcgplayer: 42352
-	}
 }
 
 export default card

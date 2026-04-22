@@ -79,14 +79,18 @@ const card: Card = {
 		it: "Dopo la nascita, il suo dorso si gonfia e si indurisce in un guscio. Sprizza potenti schizzi di schiuma dalla bocca. LIV 8 N.7"
 	},
 
-	thirdParty: {
-		cardmarket: 273758,
-		tcgplayer: 42408
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273758,
+				tcgplayer: 42408
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -96,10 +100,20 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660164
+			}
 		},
 		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			type: "V3",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"]
+		},
+		{
+			type: "V3",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 547246
+			}
 		}
 	],
 }

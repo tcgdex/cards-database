@@ -20,14 +20,18 @@ const card: Card = {
 		it: "Scegli uno dei tuoi Pokémon in gioco e una fase di Evoluzione. Scarta tutte le carte Evoluzione assegnate a quella Fase o a Fasi superiori. Quel Pokémon non è più Addormentato, Confuso, Paralizzato, Avvelenato e non ha altri effetti causati da un attacco (proprio come se si fosse evoluto)"
 		},
 
-	thirdParty: {
-		cardmarket: 273767,
-		tcgplayer: 42418
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273767,
+				tcgplayer: 42418
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -36,11 +40,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			subtype: "shadowless"
 		}
 	],
 }

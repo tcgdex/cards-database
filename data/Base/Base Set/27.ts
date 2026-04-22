@@ -81,7 +81,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273722,
+				tcgplayer: 42368
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -91,10 +99,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660201
+			}
 		}
 	],
 	description: {
@@ -102,10 +109,6 @@ const card: Card = {
 		it: "Il porro che impugna è il suo simbolo e lo usa come una spada d'acciaio. LIV 20 N.83"
 	},
 
-	thirdParty: {
-		cardmarket: 273722,
-		tcgplayer: 42368
-	}
 }
 
 export default card

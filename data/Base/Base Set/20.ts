@@ -78,7 +78,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273715,
+				tcgplayer: 42361
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -88,10 +96,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660208
+			}
 		}
 	],
 
@@ -100,10 +107,6 @@ const card: Card = {
 		it: "Si trova in genere vicino a centrali elettriche, ma può allontanarsi e causare gravissimi blackout nelle città. LIV 35 N.125"
 	},
 
-	thirdParty: {
-		cardmarket: 273715,
-		tcgplayer: 42361
-	}
 }
 
 export default card
