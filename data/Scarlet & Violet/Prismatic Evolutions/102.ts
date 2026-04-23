@@ -29,9 +29,30 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 805496
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805496,
+				tcgplayer: 610457
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805496,
+				tcgplayer: 610457
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806560,
+				tcgplayer: 610613
+			}
+		},
+	],
 }
 
 export default card

@@ -60,16 +60,17 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
 	illustrator: "PLANETA Mochizuki",
 
-	thirdParty: {
-		cardmarket: 805420
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805420,
+				tcgplayer: 610386
+			}
+		},
+	],
 }
 
 export default card

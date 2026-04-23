@@ -75,16 +75,31 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
 	illustrator: "aky CG Works",
 
-	thirdParty: {
-		cardmarket: 805415
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805415,
+				tcgplayer: 610381
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 810425,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["snowflake"],
+			thirdParty: {
+				cardmarket: 845410,
+			}
+		},
+	],
 }
 
 export default card
