@@ -60,16 +60,17 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
 	illustrator: "Kazumasa Yasukuni",
 
-	thirdParty: {
-		cardmarket: 805548
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805548,
+				tcgplayer: 610509
+			}
+		},
+	],
 }
 
 export default card

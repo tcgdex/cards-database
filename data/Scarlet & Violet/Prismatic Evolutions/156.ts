@@ -75,16 +75,17 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
 	illustrator: "Cona Nitanda",
 
-	thirdParty: {
-		cardmarket: 805550
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805550,
+				tcgplayer: 610511
+			}
+		},
+	],
 }
 
 export default card
