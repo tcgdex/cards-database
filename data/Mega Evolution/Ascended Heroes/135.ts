@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Mega Scrafty-ex",
 		pt: "Mega Scrafty ex"
 	},
+	evolveFrom: {
+		en: "Scraggy",
+		de: "Zurrokex",
+		es: "Scraggy",
+		'es-mx': "Scraggy",
+		fr: "Baggiguane",
+		it: "Scraggy",
+		pt: "Scraggy",
+	},
 
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
@@ -74,10 +83,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675947,
-		cardmarket: 869746
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869746,
+				tcgplayer: 675947
+			}
+		}
+	],
 }
 
 export default card

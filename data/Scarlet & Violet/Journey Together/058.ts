@@ -73,18 +73,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "GOTO minori",
 
-	thirdParty: {
-		cardmarket: 817210
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817210,
+				tcgplayer: 623485
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817210,
+				tcgplayer: 623485
+			}
 		},
-	]
+	],
 }
 
 export default card

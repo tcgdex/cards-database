@@ -7,7 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Blastoise",
-		fr: "Reshiram"
+		fr: "Tortank",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -17,20 +17,24 @@ const card: Card = {
 	types: ["Water"],
 	stage: "Stage2",
 
-	attacks: [{
-		name: {
-			en: "Hydro Pump",
-			fr: "Vent Brûlant"
+	attacks: [
+		{
+			name: {
+				en: "Hydro Pump",
+				fr: "Hydrocanon",
+			},
+			effect: {
+				en: "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Eau attachée à Tortank en plus du coût en Énergie de cette attaque. Les Énergies Eau supplémentaires après la seconde ne comptent pas.",
+			},
+			damage: "40+",
+			cost: [
+				"Water",
+				"Water",
+				"Water",
+			],
 		},
-
-		effect: {
-			en: "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
-			fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
-		},
-
-		damage: "40+",
-		cost: ["Water", "Water", "Water"]
-	}],
+	],
 
 	weaknesses: [{
 		type: "Lightning",

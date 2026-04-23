@@ -65,24 +65,30 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "PLANETA Mochizuki",
 
-	thirdParty: {
-		cardmarket: 817182
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817182,
+				tcgplayer: 623457
+			}
 		},
 		{
-			type: 'holo',
-			stamp: ["set-logo"]
-		},
-		{
-			type: 'holo',
+			type: "holo",
 			stamp: ["set-logo"],
-			size: 'jumbo'
-		}
-	]
+			thirdParty: {
+				cardmarket: 841282,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 841283,
+			}
+		},
+	],
 }
 
 export default card

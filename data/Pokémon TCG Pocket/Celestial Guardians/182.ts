@@ -64,7 +64,7 @@ const card: Card = {
 			ko: "스카스매시"
 		},
 
-		damage: 80,
+		damage: "80+",
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {

@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Mega Sharpedo-ex",
 		pt: "Mega Sharpedo ex"
 	},
+	evolveFrom: {
+		en: "Carvanha",
+		de: "Kanivanha",
+		es: "Carvanha",
+		fr: "Carvanha",
+		it: "Carvanha",
+		pt: "Carvanha",
+	},
 
 	rarity: "Special illustration rare",
 	category: "Pokemon",
@@ -77,14 +85,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 857702,
+				tcgplayer: 662193
+			}
 		}
 	],
-
-	thirdParty: {
-		cardmarket: 857702,
-		tcgplayer: 662193
-	}
 }
 
 export default card

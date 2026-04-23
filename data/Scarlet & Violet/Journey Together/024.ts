@@ -84,17 +84,20 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "takuyoa",
 
-	thirdParty: {
-		cardmarket: 817176
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817176,
+				tcgplayer: 623451
+			}
 		},
 		{
-			type: 'holo',
-			stamp: ['set-logo']
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 841284,
+			}
 		},
 		{
 			type: 'holo',
@@ -105,7 +108,7 @@ const card: Card = {
 			type: 'holo',
 			size: 'jumbo'
 		}
-	]
+	],
 }
 
 export default card

@@ -51,18 +51,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Ayako Ozaki",
 
-	thirdParty: {
-		cardmarket: 817156
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817156,
+				tcgplayer: 623431
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817156,
+				tcgplayer: 623431
+			}
 		},
-	]
+	],
 }
 
 export default card

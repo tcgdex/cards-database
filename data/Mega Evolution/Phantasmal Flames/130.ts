@@ -53,14 +53,22 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 857705,
+				tcgplayer: 662185
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 857705,
-		tcgplayer: 662185
-	}
+	weaknesses: [{
+		type: "Water",
+		value: "x2"
+	}],
+  
+	illustrator: 'Takuyoa'
+
 }
 
 export default card

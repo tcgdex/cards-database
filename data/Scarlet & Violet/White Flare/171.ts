@@ -31,9 +31,15 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836220
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836220,
+			tcgplayer: 642288
+		}
+	},
+],
 }
 
 export default card

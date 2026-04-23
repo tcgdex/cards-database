@@ -41,18 +41,23 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 817158
-	},
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817158,
+				tcgplayer: 623433
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817158,
+				tcgplayer: 623433
+			}
 		},
-	]
+	],
 }
 
 export default card
