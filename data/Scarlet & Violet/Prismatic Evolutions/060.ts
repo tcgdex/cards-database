@@ -87,7 +87,6 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			foil: "unknown",
 			stamp: ["set-logo"],
 			thirdParty: {
 				cardmarket: 810429,

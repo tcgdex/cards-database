@@ -59,7 +59,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: "set-logo",
+			stamp: ["set-logo"],
 			thirdParty: {
 				cardmarket: 841280,
 			}
