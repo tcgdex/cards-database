@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Dracaufeu-ex"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 330,

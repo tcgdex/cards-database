@@ -8,7 +8,7 @@ const card: Card = {
 		en: "Team Rocket's Nidoking ex",
 		fr: "Nidoking-ex de la Team Rocket"
 	},
-	suffix: "EX",
+	suffix: "ex",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 330,

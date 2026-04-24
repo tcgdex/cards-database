@@ -50,3 +50,4 @@ const card: Card = {
 }
 
 export default card
+

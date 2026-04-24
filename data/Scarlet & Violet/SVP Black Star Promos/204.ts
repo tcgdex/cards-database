@@ -8,7 +8,7 @@ const card: Card = {
 		en: "Cynthia's Garchomp ex",
 		fr: "Carchacrok-ex de Cynthia"
 	},
-	suffix: "EX",
+	suffix: "ex",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 330,
