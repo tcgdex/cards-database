@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Crocrodil"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

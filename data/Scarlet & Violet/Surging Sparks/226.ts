@@ -73,6 +73,7 @@ const card: Card = {
 		}
 	],
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
 	thirdParty: {

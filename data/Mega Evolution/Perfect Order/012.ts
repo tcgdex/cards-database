@@ -24,6 +24,7 @@ const card: Card = {
 		pt: "Dartrix",
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",

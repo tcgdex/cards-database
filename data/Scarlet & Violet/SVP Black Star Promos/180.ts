@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Dialga ex"
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
 	rarity: "None",
 	category: "Pokemon",

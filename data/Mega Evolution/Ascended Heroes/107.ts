@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Regirock ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Nisota Niso",
 	rarity: "Double rare",
 	category: "Pokemon",

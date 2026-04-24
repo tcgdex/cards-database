@@ -74,6 +74,7 @@ const card: Card = {
 		normal: false
 	},
 
+	suffix: "ex",
 	illustrator: "Saki Hayashiro",
 
 	thirdParty: {

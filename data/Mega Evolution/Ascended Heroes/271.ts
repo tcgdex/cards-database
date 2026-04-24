@@ -22,6 +22,7 @@ const card: Card = {
 		pt: "Dragonair",
 	},
 
+	suffix: "ex",
 	illustrator: "DOM",
 	rarity: "Ultra Rare",
 	category: "Pokemon",

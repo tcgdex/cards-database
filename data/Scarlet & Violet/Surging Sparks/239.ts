@@ -75,6 +75,7 @@ const card: Card = {
 		}
 	],
 
+	suffix: "ex",
 	illustrator: "OKACHEKE",
 
 	thirdParty: {

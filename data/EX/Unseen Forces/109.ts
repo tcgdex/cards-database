@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Onix"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

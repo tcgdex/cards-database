@@ -81,6 +81,7 @@ const card: Card = {
 		}
 	],
 
+	suffix: "ex",
 	illustrator: "PLANETA Yamashita",
 
 	thirdParty: {

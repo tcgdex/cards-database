@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Pikachu ex"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",

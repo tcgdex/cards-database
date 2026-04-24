@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Absol ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

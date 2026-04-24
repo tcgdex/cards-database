@@ -77,6 +77,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
+	suffix: "ex",
 	illustrator: "Shigenori Negishi",
 
 	variants: [

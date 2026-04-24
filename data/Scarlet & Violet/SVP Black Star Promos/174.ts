@@ -15,6 +15,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "Natsuko Shoji été",
 
 	rarity: "None",

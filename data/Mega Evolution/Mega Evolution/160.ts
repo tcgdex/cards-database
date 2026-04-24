@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Lucario ex"
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Ultra Rare",
 	category: "Pokemon",

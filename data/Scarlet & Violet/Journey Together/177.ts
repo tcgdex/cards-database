@@ -80,6 +80,7 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
 	variants: [

@@ -16,7 +16,7 @@ const card: Card = {
 	suffix: "ex",
 =======
 
-	suffix: "EX",
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
 >>>>>>> master/master
 	rarity: "None",

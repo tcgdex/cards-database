@@ -67,6 +67,7 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "G",
+	suffix: "ex",
 	illustrator: "PLANETA Hiiragi"
 }
 
