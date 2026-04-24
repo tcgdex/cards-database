@@ -36,13 +36,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Lapras"
 	},
@@ -51,10 +44,25 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 
-	thirdParty: {
-		cardmarket: 412869,
-		tcgplayer: 200966
-	}
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		}
+	],
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 412869,
+				tcgplayer: 200966
+			}
+		}
+	]
 }
 
 export default card
+

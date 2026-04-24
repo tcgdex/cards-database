@@ -84,15 +84,15 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "PLANETA Mochizuki",
 
-	thirdParty: {
-		cardmarket: 817163
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817163,
+				tcgplayer: 623438
+			}
 		},
-	]
+	],
 }
 
 export default card

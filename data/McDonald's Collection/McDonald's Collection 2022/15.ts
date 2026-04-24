@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [235],
 
-	hp: 70,
+	hp: 80,
 
 	types: ["Colorless"],
 
@@ -26,35 +26,14 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
-			name: {
-				en: "Sketch",
-				fr: "Gribouille",
-				es: "Esquema",
-				it: "Schizzo",
-				pt: "Esboço",
-				de: "Nachahmer"
-			},
-			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
-			},
-		},
-		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				en: "Tail Smack",
-				fr: "Coup de Queue",
-				es: "Golpe de Cola",
-				it: "Codacolpo",
-				pt: "Golpe de Cauda",
-				de: "Schwanzschlag"
+				en: "Live Painting",
 			},
-			damage: 30,
+			effect: {
+				en: "Reveal any number of basic Energy cards from your hand. This attack does 30 more damage for each type of basic Energy you revealed in this way.",
+			},
+			damage: "30+"
 		},
 	],
 
@@ -67,12 +46,15 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670480,
+				tcgplayer: 281500
+			}
+		}
+	]
 }
 
 export default card

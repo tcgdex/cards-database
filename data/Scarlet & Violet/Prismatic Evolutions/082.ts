@@ -47,16 +47,47 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 805474
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805474,
+				tcgplayer: 610437
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 841280,
+			}
+		},
+		{
+			type: "normal",
+			size: "jumbo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 841281,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 868293,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 868296,
+			}
+		},
+	],
 }
 
 export default card

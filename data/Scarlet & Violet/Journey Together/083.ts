@@ -65,18 +65,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Yuriko Akase",
 
-	thirdParty: {
-		cardmarket: 817235
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817235,
+				tcgplayer: 623510
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817235,
+				tcgplayer: 623510
+			}
 		},
-	]
+	],
 }
 
 export default card

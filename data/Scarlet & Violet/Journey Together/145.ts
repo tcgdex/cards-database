@@ -31,18 +31,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 817297
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817297,
+				tcgplayer: 623572
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817297,
+				tcgplayer: 623572
+			}
 		},
-	]
+	],
 }
 
 export default card

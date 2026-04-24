@@ -6,47 +6,63 @@ const card: Card = {
 
 	name: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli",
+		it: "Eevee",
+		es: "Eevee",
+		pt: "Eevee"
 	},
 
+	illustrator: "Kariya",
 	rarity: "None",
 	category: "Pokemon",
+	dexId: [133],
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
-	illustrator: "Kariya",
-	dexId: [133],
-	attacks: [
-		{
-			cost: ["Colorless"],
-			name: {
-				en: "Call for Family",
-				fr: "Appel à la Famille"
-			},
-			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck."
-			}
-		},
-		{
-			cost: ["Colorless", "Colorless"],
-			name: {
-				en: "Gnaw",
-				fr: "Ronge"
-			},
-			damage: 20,
-		}
-	],
 
-	weaknesses: [
-		{
-			type: "Fighting",
-			value: "×2"
-		}
-	],
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			en: "Call for Family",
+			fr: "Appel à la Famille",
+			de: "Familienruf",
+			it: "Cerca Famiglia",
+			es: "Llamar a la Familia",
+			pt: "Chamar a Família"
+	},
+
+		effect: {
+			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+			de: "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			es: "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+			pt: "Procure por um Pokémon Básico no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho."
+	}
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			en: "Gnaw",
+			fr: "Ronge",
+			de: "Nagen",
+			it: "Rosicchiamento",
+			es: "Roer",
+			pt: "Roída"
+	},
+
+		damage: 20
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "x2"
+	}],
 
 	retreat: 1,
-	regulationMark: "G",
+	regulationMark: "H",
 
 	variants: [
 		{

@@ -29,9 +29,30 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Cona Nitanda",
 
-	thirdParty: {
-		cardmarket: 805503
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805503,
+				tcgplayer: 610464
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805503,
+				tcgplayer: 610464
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806574,
+				tcgplayer: 610620
+			}
+		},
+	],
 }
 
 export default card

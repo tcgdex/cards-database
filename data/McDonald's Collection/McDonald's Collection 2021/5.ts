@@ -62,13 +62,28 @@ const card: Card = {
 	description: {
 		en: "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter."
 	},
+	
+	variants: [
+		{
+			type: 'normal',
+			stamp: ["25th-celebration"],
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+			thirdParty: {
+				cardmarket: 538808,
+				tcgplayer: 232319
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538823,
+				tcgplayer: 232319
+			}
+		}
+	]
 }
 
 export default card
+

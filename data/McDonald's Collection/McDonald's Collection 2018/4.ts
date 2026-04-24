@@ -5,13 +5,6 @@ const card: Card = {
 	dexId: [25],
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Pikachu"
 	},
@@ -21,11 +14,59 @@ const card: Card = {
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Pika Draw",
+			},
+			effect: {
+				en: "Draw a card"
+			},
+		},
+		{
+			cost: [
+				"Colorless", "Colorless",
+			],
+			name: {
+				en: "Quick Attack",
+			},
+			effect: {
+				en: "Flip a coin. If heads this attack does 20 more damage."
+			},
+			damage: "20+"
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 362788,
-		tcgplayer: 180452
-	}
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		}
+	],
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		}
+	],
+
+	retreat: 1,
+
+	illustrator: "Shibuzoh",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 366772,
+				tcgplayer: 180452
+			}
+		}
+	]
 }
 
 export default card
+

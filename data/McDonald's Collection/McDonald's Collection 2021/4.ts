@@ -67,12 +67,27 @@ const card: Card = {
 		en: "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538808,
+				tcgplayer: 232319
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538813,
+				tcgplayer: 232319
+			}
+		}
+	]
 }
 
 export default card
+

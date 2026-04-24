@@ -2,25 +2,69 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
-	name: {
-		fr: "Miaouss",
-	},
-	rarity: "Common",
-	category: "Pokemon",
+    name: {
+        fr: "Racaillou d'Alola",
+    },
 
-	set: Set,
-	dexId: [52],
-	hp: 60,
-	types: ["Colorless"],
+    rarity: "None",
+    category: "Pokemon",
+    illustrator: "Hitoshi Ariga",
 
-	stage: "Basic",
+    set: Set,
+    dexId: [74],
+    hp: 70,
+    types: ["Lightning"],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+    stage: "Basic",
+    retreat: 2,
+
+    weaknesses: [
+        {
+            type: "Fighting",
+            value: "×2"
+        },
+    ],
+
+    resistances: [
+        {
+            type: "Metal",
+            value: "-20"
+        },
+    ],
+
+    attacks: [
+        {
+            name: {
+                fr: "Poliroche"
+            },
+            effect: {
+                fr: "Pendant votre prochain tour, ce Pokémon n'a pas de Coût de Retraite."
+            }
+        },
+        {
+			cost: ["Lightning", "Colorless", "Colorless"],
+            name: {
+                fr: "Roulade"
+            },
+            damage: 40
+        }
+    ],
+
+    variants: [
+        {
+            type: 'normal',
+            thirdParty: {
+                cardmarket: 362789,
+            }
+        },
+        {
+            type: 'holo',
+            thirdParty: {
+                cardmarket: 362789,
+            }
+        }
+    ]
 }
 
 export default card
+

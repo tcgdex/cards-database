@@ -82,15 +82,15 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Tsuyoshi Nagano",
 
-	thirdParty: {
-		cardmarket: 817340
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817340,
+				tcgplayer: 623614
+			}
 		},
-	]
+	],
 }
 
 export default card

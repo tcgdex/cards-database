@@ -29,9 +29,30 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "kantaro",
 
-	thirdParty: {
-		cardmarket: 805497
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805497,
+				tcgplayer: 610458
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805497,
+				tcgplayer: 610458
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806562,
+				tcgplayer: 610614
+			}
+		},
+	],
 }
 
 export default card

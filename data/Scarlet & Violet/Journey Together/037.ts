@@ -74,18 +74,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Jerky",
 
-	thirdParty: {
-		cardmarket: 817189
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817189,
+				tcgplayer: 623464
+			}
 		},
 		{
-			type: 'reverse'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817189,
+				tcgplayer: 623464
+			}
 		},
-	]
+	],
 }
 
 export default card

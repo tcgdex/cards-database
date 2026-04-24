@@ -68,16 +68,47 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
 	illustrator: "rika",
 
-	thirdParty: {
-		cardmarket: 805414
-	}
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805414,
+				tcgplayer: 610380
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805414,
+				tcgplayer: 610380
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806444,
+				tcgplayer: 610554
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806445,
+				tcgplayer: 610655
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 858731,
+			}
+		},
+	],
 }
 
 export default card

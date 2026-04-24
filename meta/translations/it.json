@@ -129,7 +129,13 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"tinsel": "tinsel",
+		"loveball": "Love Ball",
+		"friendball": "Friend Ball", 
+		"quickball": "Velox Ball",
+		"duskball": "Scuro Ball", 
+		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
 		"1st-edition": "1a Edizione",
@@ -231,7 +237,14 @@
 		"international-championship-europe": "campionato-internazionale-europa",
 		"international-championship-latin-america": "campionato-internazionale-america-latina",
 		"international-championship-north-america": "campionato-internazionale-america-del-nord",
-		"ace-trainer": "Ace Trainer"
+		"ace-trainer": "Ace Trainer",
+		"30th-pokeday": "30th-pokeday",
+		"pikachu": "pikachu",
+		"bulbasaur": "bulbasaur",
+		"squirtle": "squirtle",
+		"charmander": "charmander",
+		"pokeball": "pokeball",
+		"mcdonalds": "mcdonalds"
 	},
 	"variantSubtype": {
 		"shadowless": "senza ombra",

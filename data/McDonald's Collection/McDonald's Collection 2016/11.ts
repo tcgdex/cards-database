@@ -11,7 +11,7 @@ const card: Card = {
 	description: {
 		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change."
 	},
-	
+
 	hp: 60,
 
 	stage: "Basic",
@@ -37,10 +37,16 @@ const card: Card = {
 
 	rarity: "None",
 
-	thirdParty: {
-		cardmarket: 295147,
-		tcgplayer: 275067
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 295147,
+				tcgplayer: 275067
+			}
+		}
+	]
 }
 
 export default card
+

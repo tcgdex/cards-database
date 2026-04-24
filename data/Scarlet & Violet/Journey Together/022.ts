@@ -41,18 +41,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 817174
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817174,
+				tcgplayer: 623449
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817174,
+				tcgplayer: 623449
+			}
 		},
-	]
+	],
 }
 
 export default card
