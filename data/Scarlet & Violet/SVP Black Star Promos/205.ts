@@ -6,58 +6,77 @@ const card: Card = {
 
 	name: {
 		en: "Team Rocket's Mewtwo ex",
-		fr: "Mewtwo-ex de la Team Rocket"
+		fr: "Mewtwo-ex de la Team Rocket",
+		de: "Team Rockets Mewtu-ex",
+		it: "Mewtwo-ex del Team Rocket",
+		es: "Mewtwo ex del Team Rocket",
+		pt: "Mewtwo ex da Equipe Rocket"
 	},
+
 	suffix: "ex",
+	illustrator: "aky CG Works",
 	rarity: "None",
 	category: "Pokemon",
+	dexId: [150],
 	hp: 280,
 	types: ["Psychic"],
 	stage: "Basic",
-	illustrator: "aky CG Works",
-	dexId: [150],
 
-	abilities: [
-		{
-			type: "Ability",
-			name: {
-				en: "Power Saver",
-				fr: "Économie de Puissance"
-			},
-			effect:{
-				en: "This Pokémon can't attack unless you have 4 or more Team Rocket's Pokémon in play.",
-				fr: "Ce Pokémon ne peut attaquer que si vous avez 4 Pokémon de la Team Rocket ou plus en jeu."
-			}
-		}
-	],
+	abilities: [{
+		type: "Ability",
 
-	attacks: [
-		{
-			cost: ["Psychic","Psychic","Colorless"],
-			name: {
-				en: "Erasure Ball",
-			},
-			effect: {
-				en: "You may discard up to 2 Energy from your Benched Pokémon. This attack does 60 more damage for each" +
-					" card you discarded in this way."
-			},
-			damage: "160+",
-		},
-	],
+		name: {
+			en: "Power Saver",
+			fr: "Économie de Puissance",
+			de: "Sparpower",
+			it: "Serbaforza",
+			es: "Ahorro de Poder",
+			pt: "Economizador de Energia"
+	},
 
-	weaknesses: [
-		{
-			type: "Darkness",
-			value: "×2"
-		}
-	],
+		effect: {
+			en: "This Pokémon can't attack unless you have 4 or more Team Rocket's Pokémon in play.",
+			fr: "Ce Pokémon ne peut attaquer que si vous avez 4 Pokémon de la Team Rocket ou plus en jeu.",
+			de: "Dieses Pokémon kann nicht angreifen, es sei denn, du hast 4 oder mehr Team Rockets Pokémon im Spiel.",
+			it: "Questo Pokémon non può attaccare a meno che tu non abbia quattro o più Pokémon del Team Rocket in gioco.",
+			es: "Este Pokémon no puede atacar a menos que tengas 4 Pokémon del Team Rocket o más en juego.",
+			pt: "Este Pokémon não pode atacar a não ser que você tenha 4 ou mais Pokémon da Equipe Rocket em jogo."
+	}
+	}],
 
-	resistances: [
-		{
-			type: "Fighting",
-			value: "-30"
-		}
-	],
+	attacks: [{
+		cost: ["Psychic", "Psychic", "Colorless"],
+
+		name: {
+			en: "Erasure Ball",
+			fr: "Boule Effacement",
+			de: "Löschball",
+			it: "Annientapalla",
+			es: "Bola Correctora",
+			pt: "Bola de Supressão"
+	},
+
+		effect: {
+			en: "You may discard up to 2 Energy from your Benched Pokémon. This attack does 60 more damage for each card you discarded in this way.",
+			fr: "Vous pouvez défausser jusqu'à 2 Énergies de vos Pokémon de Banc. Cette attaque inflige 60 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			de: "Du kannst bis zu 2 Energien von Pokémon auf deiner Bank auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte mehr zu.",
+			it: "Puoi scartare fino a due Energie dai tuoi Pokémon in panchina. Questo attacco infligge 60 danni in più per ogni carta che hai scartato in questo modo.",
+			es: "Puedes descartar hasta 2 Energías de tus Pokémon en Banca. Este ataque hace 60 puntos de daño más por cada carta que hayas descartado de esta manera.",
+			pt: "Você pode descartar até 2 Energias dos seus Pokémon no Banco. Este ataque causa 60 pontos de dano a mais para cada carta descartada desta forma."
+	},
+
+		damage: "160+"
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "x2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
 
 	retreat: 3,
 	regulationMark: "I",
@@ -74,3 +93,4 @@ const card: Card = {
 }
 
 export default card
+
