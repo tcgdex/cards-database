@@ -12,13 +12,9 @@ const card: Card = {
 		es: "Garchomp ex de Cintia",
 		pt: "Garchomp ex da Cíntia"
 	},
-<<<<<<< HEAD
-	suffix: "ex",
-=======
 
 	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
->>>>>>> master/master
 	rarity: "None",
 	category: "Pokemon",
 	dexId: [445],
