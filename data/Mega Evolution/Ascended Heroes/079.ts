@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Mewtwo ex da Equipe Rocket"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",

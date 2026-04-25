@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Kabuto"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

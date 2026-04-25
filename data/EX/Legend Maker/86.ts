@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Blindalys"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

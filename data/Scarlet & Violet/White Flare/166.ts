@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Reshiram ex"
 	},
 
+	suffix: "ex",
 	illustrator: "kawayoo",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

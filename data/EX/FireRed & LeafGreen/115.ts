@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Lavados ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",

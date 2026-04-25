@@ -78,6 +78,7 @@ const card: Card = {
 	regulationMark: "H",
 
 
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
 
 	variants: [

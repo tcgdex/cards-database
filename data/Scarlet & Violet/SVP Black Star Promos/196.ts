@@ -13,7 +13,7 @@ const card: Card = {
 		pt: "Charizard ex"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",

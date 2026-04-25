@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Excadrill ex"
 	},
 
+	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",

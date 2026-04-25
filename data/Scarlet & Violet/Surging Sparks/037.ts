@@ -83,6 +83,7 @@ const card: Card = {
 		}
 	],
 
+	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 
 	thirdParty: {

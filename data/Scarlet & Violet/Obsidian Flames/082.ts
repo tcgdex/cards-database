@@ -82,6 +82,7 @@ const card: Card = {
 		normal: false
 	},
 
+	suffix: "ex",
 	illustrator: "Satoshi Shirai",
 
 	thirdParty: {

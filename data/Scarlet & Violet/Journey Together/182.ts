@@ -73,6 +73,7 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
+	suffix: "ex",
 	illustrator: "akagi",
 
 	variants: [

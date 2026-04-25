@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Libelldra ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Nakaoka",
 	rarity: "Rare",
 	category: "Pokemon",

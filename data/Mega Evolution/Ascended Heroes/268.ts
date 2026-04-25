@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Mega Hawlucha ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Taiga Kasai",
 	rarity: "Ultra Rare",
 	category: "Pokemon",

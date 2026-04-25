@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Kyurem ex"
 	},
 
+	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",

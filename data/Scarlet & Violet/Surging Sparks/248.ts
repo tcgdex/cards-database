@@ -82,6 +82,7 @@ const card: Card = {
 		}
 	],
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 
 	thirdParty: {

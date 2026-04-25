@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Skelénox"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
