@@ -60,7 +60,7 @@
 	},
 	"stage": {
 		"Baby": "Bébé",
-		"Basic": "De base",
+		"Basic": "Base",
 		"BREAK": "TURBO",
 		"LEVEL-UP": "Niveau Sup",
 		"MEGA": "MÉGA",
@@ -68,16 +68,16 @@
 		"Stage1": "Niveau 1",
 		"Stage2": "Niveau 2",
 		"V-UNION": "V-UNION",
-		"VMAX": "ESCOUADE",
+		"VMAX": "VMAX",
 		"VSTAR": "VSTAR"
 	},
 	"suffix": {
 		"EX": "EX",
 		"GX": "GX",
 		"Legend": "LÉGENDE",
-		"Prime": "Prime",
+		"Prime": "Primo",
 		"SP": "SP",
-		"TAG TEAM-GX": "TAG TEAM-GX",
+		"TAG TEAM-GX": "ESCOUADE",
 		"V": "V"
 	},
 	"trainerType": {
@@ -104,7 +104,7 @@
 		"Water": "Eau"
 	},
 	"variantType": {
-		"normal": "De base",
+		"normal": "Normal",
 		"holo": "Holo",
 		"reverse": "Reverse",
 		"metal": "Métal",
