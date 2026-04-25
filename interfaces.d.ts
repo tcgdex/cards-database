@@ -321,15 +321,16 @@ export interface Card {
 	/**
 	 * Card Suffix
 	 *
-	 * - EX https://www.tcgdex.net/database/ex/ex2/94
+	 * - EX https://www.tcgdex.net/database/bw/bw4/54
 	 * - GX https://www.tcgdex.net/database/sm/sm12/4
 	 * - V https://www.tcgdex.net/database/swsh/swsh1/1
 	 * - Legend https://www.tcgdex.net/database/hgss/hgss1/114
 	 * - Prime https://www.tcgdex.net/database/hgss/hgss2/85
 	 * - SP https://www.tcgdex.net/database/pl/pl1/7
 	 * - TAG TEAM-GX https://www.tcgdex.net/database/sm/sm12/226
+	 * - ex https://www.tcgdex.net/database/ex/ex2/94
 	 */
-	suffix?: 'EX' | 'GX' | 'V' | 'Legend' | 'Prime' | 'SP' | 'TAG TEAM-GX'
+	suffix?: 'EX' | 'GX' | 'V' | 'Legend' | 'Prime' | 'SP' | 'TAG TEAM-GX' | 'ex'
 
 	/**
 	 * Pokemon Held Item
