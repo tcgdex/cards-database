@@ -59,9 +59,14 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "AYUMI ODASHIMA",
 
