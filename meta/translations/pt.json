@@ -9,7 +9,7 @@
 	},
 	"category": {
 		"Energy": "Energia",
-		"Pokemon": "Pokemon",
+		"Pokemon": "Pokémon",
 		"Trainer": "Treinador"
 	},
 	"energyType": {
@@ -64,7 +64,7 @@
 		"BREAK": "TURBO",
 		"LEVEL-UP": "LEVEL-UP",
 		"MEGA": "MEGA",
-		"RESTORED": "RESTORED",
+		"RESTORED": "RESTAURADO",
 		"Stage1": "Estágio 1",
 		"Stage2": "Estágio 2",
 		"V-UNION": "V-UNION",
@@ -75,10 +75,10 @@
 		"EX": "EX",
 		"ex": "ex",
 		"GX": "GX",
-		"Legend": "Legend",
+		"Legend": "LENDA",
 		"Prime": "Prime",
 		"SP": "SP",
-		"TAG TEAM-GX": "TAG TEAM-GX",
+		"TAG TEAM-GX": "ALIADOS",
 		"V": "V"
 	},
 	"trainerType": {
