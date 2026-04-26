@@ -3,7 +3,7 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "M Gardevoir EX",
+		en: "M Gardevoir-EX",
 		fr: "M-Gardevoir-EX",
 	},
 	illustrator: "Megumi Mizutani",
