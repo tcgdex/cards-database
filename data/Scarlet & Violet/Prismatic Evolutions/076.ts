@@ -60,6 +60,7 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "H",
 
+	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 
 	variants: [

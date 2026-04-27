@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Magicarpe"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

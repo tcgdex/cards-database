@@ -13,7 +13,7 @@ const card: Card = {
 		pt: "Mega Kangaskhan ex"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",

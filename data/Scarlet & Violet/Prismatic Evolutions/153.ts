@@ -77,6 +77,7 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "H",
 
+	suffix: "ex",
 	illustrator: "kantaro",
 
 	variants: [

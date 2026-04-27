@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Pikachu"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

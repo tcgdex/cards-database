@@ -64,6 +64,7 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
 
 	thirdParty: {

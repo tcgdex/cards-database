@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega Venusaur ex"
 	},
 
+	suffix: "ex",
 	illustrator: "mashu",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

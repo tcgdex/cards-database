@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Moltres ex del Equipo Rocket"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",

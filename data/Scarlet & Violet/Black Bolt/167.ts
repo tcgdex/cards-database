@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Meloetta ex"
 	},
 
+	suffix: "ex",
 	illustrator: "LINNE",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Kangaskhan ex"
 	},
 
+	suffix: "ex",
 	illustrator: "GOTO minori",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

@@ -82,6 +82,7 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "H",
+	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
 
 	variants: [

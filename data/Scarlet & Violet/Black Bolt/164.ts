@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Serperior ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Ryota Murayama",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

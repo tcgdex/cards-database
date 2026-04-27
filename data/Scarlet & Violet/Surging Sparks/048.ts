@@ -94,6 +94,7 @@ const card: Card = {
 		},
 	],
 
+	suffix: "ex",
 	illustrator: "kawayoo",
 
 }

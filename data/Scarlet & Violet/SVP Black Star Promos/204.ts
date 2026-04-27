@@ -13,7 +13,7 @@ const card: Card = {
 		pt: "Garchomp ex da Cíntia"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
 	rarity: "None",
 	category: "Pokemon",
