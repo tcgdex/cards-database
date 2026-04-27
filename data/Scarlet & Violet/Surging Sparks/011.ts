@@ -71,19 +71,19 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 794266,
-				tcgplayer: 590099
-			}
-		},
-		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 794266,
 				tcgplayer: 590099
 			}
 		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794266,
+				tcgplayer: 590099
+			}
+		},	
 	],
 
 	illustrator: "GOSSAN",

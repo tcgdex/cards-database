@@ -71,14 +71,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "reverse",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 794440,
 				tcgplayer: 589980
 			}
 		},
 		{
-			type: "holo",
+			type: "reverse",
 			thirdParty: {
 				cardmarket: 794440,
 				tcgplayer: 589980
