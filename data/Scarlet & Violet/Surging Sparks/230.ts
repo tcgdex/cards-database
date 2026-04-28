@@ -30,15 +30,16 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794603,
+				tcgplayer: 589913
+			}
+		},
 	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 794603
-	}
 }
 
 export default card

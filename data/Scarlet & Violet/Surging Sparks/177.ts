@@ -30,27 +30,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794550,
+				tcgplayer: 589961
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794550,
+				tcgplayer: 589961
+			}
 		},
-		{
-			type: "holo",
-			stamp: ["gym-challenge"]
-		},
-		{
-			type: "holo",
-			stamp: ["player-rewards-program"],
-			foil: "cosmos"
-		}
 	],
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 794550
-	}
 }
 
 export default card
