@@ -71,7 +71,25 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794373
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 841273,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 841274,
+			}
 		},
 		{
 			type: "holo",
@@ -79,25 +97,13 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo"]
-		},
-		{
-			type: "holo",
 			stamp: ["gym-challenge"]
 		},
-		{
-			type: "holo",
-			stamp: ["set-logo"],
-			size: "jumbo"
-		}
 	],
 
 	suffix: "ex",
 	illustrator: "takuyoa",
 
-	thirdParty: {
-		cardmarket: 794373
-	}
 }
 
 export default card
