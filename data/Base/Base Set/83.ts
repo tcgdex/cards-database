@@ -20,14 +20,18 @@ const card: Card = {
 		it: "Rimetti 2 delle altre carte che hai in mano nel tuo mazzo, rimischialo e poi pesca una carta."
 	},
 
-	thirdParty: {
-		cardmarket: 273778,
-		tcgplayer: 42429
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273778,
+				tcgplayer: 42429
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -37,10 +41,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660123
+			}
 		}
 	],
 }

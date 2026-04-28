@@ -61,14 +61,18 @@ const card: Card = {
 		it: "Lo strano seme piantato sul suo dorso dalla nascita è germogliato in una pianta che continua a crescere insieme a questo Pokémon. LIV 13 N.1"
 	},
 
-	thirdParty: {
-		cardmarket: 273739,
-		tcgplayer: 42387
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273739,
+				tcgplayer: 42387
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -78,10 +82,20 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660184
+			}
 		},
 		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			type: "V3",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"]
+		},
+		{
+			type: "V3",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 547236
+			}
 		}
 	],
 }

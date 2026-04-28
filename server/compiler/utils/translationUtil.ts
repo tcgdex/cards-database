@@ -25,6 +25,14 @@ export default function translate(item: translatable, key: string | undefined, l
 	}
 	const res = translations[lang]?.[item]?.[key]
 	if (!res) {
+		// Reconciliation placeholder variant types (CardmarketVersion tokens
+		// like "V1".."Vn", "BASE", "LIBRE") are emitted by the poke-browser
+		// cardmarket sync when a Cardmarket product cannot be matched to an
+		// existing canonical variant. They have no translation; echo the key
+		// back so the build can complete and a human can reconcile later.
+		if (item === 'variantType' && /^(V\d+|BASE|LIBRE|Yellow A)$/.test(key)) {
+			return key
+		}
 		throw new Error(`Could not find translation for ${lang}.${item}.${key}`)
 	}
 	return res

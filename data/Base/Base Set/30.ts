@@ -84,14 +84,18 @@ const card: Card = {
 		it: "Quando la pianta che ha sul dorso cresce, questo Pokémon non è più in grado di mantenersi eretto sulle zampe posteriori. LIV 20 N.2"
 	},
 
-	thirdParty: {
-		cardmarket: 273725,
-		tcgplayer: 42372
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273725,
+				tcgplayer: 42372
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -101,10 +105,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660198
+			}
 		}
 	],
 }

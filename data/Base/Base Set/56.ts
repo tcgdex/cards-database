@@ -74,14 +74,18 @@ const card: Card = {
 		it: "Man mano che cresce, la parte di pietra del suo corpo si indurisce fino a diventare simile al diamante, ma di colore nero. LIV 12 N.95"
 	},
 
-	thirdParty: {
-		cardmarket: 273751,
-		tcgplayer: 42400
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273751,
+				tcgplayer: 42400
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -91,10 +95,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660172
+			}
 		}
 	],
 }

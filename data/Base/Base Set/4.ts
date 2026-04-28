@@ -96,15 +96,18 @@ const card: Card = {
 		it: "Sputa fiamme così intense da sciogliere le rocce. Senza volerlo, a volte causa incendi boschivi. LIV 76 N.6"
 	},
 
-	thirdParty: {
-		cardmarket: 273699,
-		tcgplayer: 42382
-	},
-
 	variants: [
 		{
 			type: "holo",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273699,
+				tcgplayer: 42382
+			}
+		},
+		{
+			type: "holo",
+			subtype: "unlimited"
 		},
 		{
 			type: "holo",
@@ -113,11 +116,18 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			subtype: "shadowless",
+			subtype: "shadowless"
 		},
 		{
-			type: "holo",
-			subtype: "1999-2000-copyright",
+			type: "V2",
+			cardmarketLabels: ["Firc Spin Decu"]
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Firc Spin Decu"],
+			thirdParty: {
+				cardmarket: 660224
+			}
 		}
 	],
 

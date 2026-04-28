@@ -78,14 +78,18 @@ const card: Card = {
 		it: "Praticamente invisibile, questo Pokémon gassoso avvolge la sua preda in una nuvola di gas che la fa immediatamente addormentare. LIV 8 N.92"
 	},
 
-	thirdParty: {
-		cardmarket: 273745,
-		tcgplayer: 42394
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273745,
+				tcgplayer: 42394
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -95,10 +99,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660178
+			}
 		}
 	],
 }

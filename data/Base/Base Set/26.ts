@@ -46,7 +46,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273721,
+				tcgplayer: 42367
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -56,10 +64,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660202
+			}
 		}
 	],
 	resistances: [
@@ -74,10 +81,6 @@ const card: Card = {
 		it: "Da lungo tempo considerato un Pokémon mitologico fino a quando, recentemente, ne è stata rinvenuta una piccola colonia abitante sott'acqua."
 	},
 
-	thirdParty: {
-		cardmarket: 273721,
-		tcgplayer: 42367
-	}
 }
 
 export default card

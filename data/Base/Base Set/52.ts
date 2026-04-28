@@ -55,14 +55,18 @@ const card: Card = {
 		it: "Si allena continuamente per sviluppare al massimo i suoi muscoli d'acciaio. Pratica tutte le arti marziali per diventare sempre più invincibile. LIV 20 N.66",
 	},
 
-	thirdParty: {
-		cardmarket: 273747,
-		tcgplayer: 42396
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273747,
+				tcgplayer: 42396
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -72,10 +76,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 660176
+			}
 		}
 	],
 }
