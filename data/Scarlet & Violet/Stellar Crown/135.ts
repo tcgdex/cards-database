@@ -28,15 +28,25 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 785989,
+				tcgplayer: 567394
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785989,
+				tcgplayer: 567394
+			}
+		},
+	],
 
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 785989
-	}
 }
 
 export default card
