@@ -52,6 +52,7 @@ const card: Card = {
 		normal: false
 	},
 
+	suffix: "ex",
 	illustrator: "Toshinao Aoki",
 
 	thirdParty: {

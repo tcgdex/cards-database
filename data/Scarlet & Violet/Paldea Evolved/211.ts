@@ -80,6 +80,7 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "Toshinao Aoki",
 
 	thirdParty: {

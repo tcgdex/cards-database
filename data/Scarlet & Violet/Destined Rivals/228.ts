@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "Tonji Matsuno",
 
 	rarity: "Special illustration rare",

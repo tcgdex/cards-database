@@ -70,14 +70,25 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794433,
+				tcgplayer: 589953
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794433,
+				tcgplayer: 589953
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 858727,
+			}
 		},
 		{
 			type: "normal",
@@ -87,9 +98,6 @@ const card: Card = {
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 794433
-	}
 }
 
 export default card

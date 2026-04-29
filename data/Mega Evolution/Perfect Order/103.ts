@@ -24,6 +24,7 @@ const card: Card = {
 		pt: "Clefairy",
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",

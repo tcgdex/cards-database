@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Cacnea"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

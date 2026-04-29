@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Metang"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

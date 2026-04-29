@@ -13,7 +13,7 @@ const card: Card = {
 		pt: "Mega Charizard X ex"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "None",
 	category: "Pokemon",

@@ -13,6 +13,7 @@ const card: Card = {
 		pt: "Mega Gardevoir ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Saboteri",
 	rarity: "None",
 	category: "Pokemon",

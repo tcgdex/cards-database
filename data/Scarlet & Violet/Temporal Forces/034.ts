@@ -86,6 +86,7 @@ const card: Card = {
 			size: "jumbo"
 		}
 	],
+	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 
 	thirdParty: {

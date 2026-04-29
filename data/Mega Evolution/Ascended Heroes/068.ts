@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Pincurchin ex do Lupo"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",

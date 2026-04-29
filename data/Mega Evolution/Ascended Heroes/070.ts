@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Bellibolt ex da Kissera"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",

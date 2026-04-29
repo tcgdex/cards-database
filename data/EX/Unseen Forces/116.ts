@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Rockets Snobilikat ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",

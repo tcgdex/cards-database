@@ -68,21 +68,22 @@
 		"RESTORED": "Ricreato",
 		"Stage1": "Livello 1",
 		"Stage2": "Livello 2",
-		"V-UNION": "V-UNION",
+		"V-UNION": "V UNIONE",
 		"VMAX": "VMAX",
 		"VSTAR": "V ASTRO"
 	},
 	"suffix": {
 		"EX": "EX",
+		"ex": "ex",
 		"GX": "GX",
 		"Legend": "LEGGENDA",
-		"Prime": "Prime",
+		"Prime": "Archeo",
 		"SP": "SP",
-		"TAG TEAM-GX": "TAG TEAM-GX",
+		"TAG TEAM-GX": "ALLEATI",
 		"V": "V"
 	},
 	"trainerType": {
-		"Ace Spec": "Ace Spec",
+		"Ace Spec": "Asso Tattico",
 		"Goldenrod Game Corner": "Goldenrod Game Corner",
 		"Item": "Strumento",
 		"Rocket's Secret Machine": "Macchina Nascosta",

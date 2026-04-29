@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Bouffalant ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Rianti Hidayat",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

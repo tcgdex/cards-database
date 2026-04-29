@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Bellibolt ex da Kissera"
 	},
 
+	suffix: "ex",
 	illustrator: "Akira Komayama",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

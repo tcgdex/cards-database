@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Kirlia"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

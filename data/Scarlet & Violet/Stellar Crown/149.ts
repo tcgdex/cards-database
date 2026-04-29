@@ -77,16 +77,25 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 786003,
+				tcgplayer: 567431
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["snowflake"],
+			thirdParty: {
+				cardmarket: 845407,
+			}
+		},
+	],
 
 	illustrator: "Mitsuhiro Arita",
 
-	thirdParty: {
-		cardmarket: 786003
-	}
 }
 
 export default card

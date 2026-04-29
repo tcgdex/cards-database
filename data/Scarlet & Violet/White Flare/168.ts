@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Jellicent ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Narano",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

@@ -82,6 +82,7 @@ const card: Card = {
 
 	retreat: 4,
 	regulationMark: "I",
+	suffix: "ex",
 	illustrator: "Nisota Niso",
 
 	variants: [

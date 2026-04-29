@@ -52,6 +52,7 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "toriyufu",
 
 	thirdParty: {
