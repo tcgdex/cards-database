@@ -94,15 +94,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "1999-2000-copyright",
+			subtype: "unlimited",
 			thirdParty: {
 				cardmarket: 273712,
 				tcgplayer: 42357
 			}
-		},
-		{
-			type: "normal",
-			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -111,18 +107,14 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "shadowless"
-		},
-		{
-			type: "V2",
-			cardmarketLabels: ["Eyliesiieeieeemaiie", "Resis", "Speed Cod Strack"]
-		},
-		{
-			type: "V2",
-			cardmarketLabels: ["Eyliesiieeieeemaiie", "Resis", "Speed Cod Strack"],
+			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660211
 			}
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright"
 		}
 	],
 

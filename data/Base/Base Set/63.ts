@@ -82,15 +82,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "1999-2000-copyright",
+			subtype: "unlimited",
 			thirdParty: {
 				cardmarket: 273758,
 				tcgplayer: 42408
 			}
-		},
-		{
-			type: "normal",
-			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -105,15 +101,8 @@ const card: Card = {
 			}
 		},
 		{
-			type: "V3",
-			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"]
-		},
-		{
-			type: "V3",
-			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
-			thirdParty: {
-				cardmarket: 547246
-			}
+			type: "normal",
+			subtype: "1999-2000-copyright"
 		}
 	],
 }

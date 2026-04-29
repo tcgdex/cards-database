@@ -10,7 +10,6 @@ type CardData = {
 	rarity?: string;
 	set: { name: string };
 	hasImage: boolean;
-	cardmarketIds?: number[];
 };
 
 type CardResult = {
@@ -21,13 +20,6 @@ type CardResult = {
 	usedLanguage?: string;
 	hasImage?: boolean;
 	status?: "added" | "removed" | "modified";
-	cardmarketIds?: number[];
-};
-
-type HeadRepoRef = {
-	owner: string;
-	repo: string;
-	sha: string;
 };
 
 type CardFetchResult = {
@@ -63,63 +55,6 @@ const LANGUAGE_NAMES: Record<string, string> = {
 	th: "Thai",
 	"zh-cn": "Chinese (China)",
 };
-
-// Build a public Cardmarket product link from a raw idProduct.
-//
-// Centralized here so the URL template can be tweaked in a single spot
-// without touching the rendering code below.
-const CARDMARKET_PRODUCT_URL = "https://www.cardmarket.com/Pokemon/Products";
-
-function buildCardmarketUrl(id: number): string {
-	return `${CARDMARKET_PRODUCT_URL}?idProduct=${id}`;
-}
-
-// Parse every `cardmarket: <number>` occurrence from a TypeScript card file
-// in the PR head. Covers both root `thirdParty.cardmarket` and per-variant
-// entries in `variants_detailed[].thirdParty.cardmarket`, returning an
-// order-preserving deduplicated list.
-async function parseCardmarketIdsFromPrFile(
-	octokit: ReturnType<typeof github.getOctokit>,
-	headRef: HeadRepoRef,
-	path: string,
-): Promise<number[]> {
-	try {
-		const response = await octokit.rest.repos.getContent({
-			owner: headRef.owner,
-			repo: headRef.repo,
-			path,
-			ref: headRef.sha,
-		});
-
-		const data = response.data as { type?: string; encoding?: string; content?: string };
-		if (data.type !== "file" || !data.content) {
-			return [];
-		}
-
-		const raw = data.encoding === "base64"
-			? Buffer.from(data.content, "base64").toString("utf8")
-			: data.content;
-
-		const ids: number[] = [];
-		const seen = new Set<number>();
-		const regex = /cardmarket\s*:\s*(\d+)/g;
-		let match: RegExpExecArray | null;
-		while ((match = regex.exec(raw)) !== null) {
-			const id = Number(match[1]);
-			if (!Number.isFinite(id) || seen.has(id)) continue;
-			seen.add(id);
-			ids.push(id);
-		}
-		return ids;
-	} catch (error) {
-		console.log(
-			`   Failed to fetch PR file '${path}' for Cardmarket ids: ${
-				error instanceof Error ? error.message : "Unknown error"
-			}`,
-		);
-		return [];
-	}
-}
 
 // Helper function to sanitize card data
 function sanitizeCardData(card: any): CardData | undefined {
@@ -240,11 +175,7 @@ async function getChangedFiles(
 }
 
 // Process a single card file
-async function processCardFile(
-	file: { filename: string; status: string },
-	octokit: ReturnType<typeof github.getOctokit>,
-	headRef: HeadRepoRef | null,
-): Promise<CardResult | null> {
+async function processCardFile(file: { filename: string; status: string }): Promise<CardResult | null> {
 	console.log(` - ${file.filename} (${file.status})`);
 	let match = file.filename.match(DATA_REGEX);
 	const isCardFile = !!(match || file.filename.match(DATA_ASIA_REGEX));
@@ -253,28 +184,19 @@ async function processCardFile(
 		return null;
 	}
 
-	// Removed files: nothing left to read on the PR head.
-	if (file.status === "removed") {
-		return {
-			file: file.filename,
-			status: "removed",
-		};
-	}
-
-	// Parse Cardmarket ids straight from the PR's version of the TS file so
-	// the reviewer validates exactly what is being introduced (including
-	// per-variant ids that the TCGdex API does not expose).
-	const cardmarketIds = headRef
-		? await parseCardmarketIdsFromPrFile(octokit, headRef, file.filename)
-		: [];
-
-	// For added files, we have no TCGdex entry yet — emit the Cardmarket ids
-	// alongside the filename so reviewers can still click through.
+	// For added files, just return the file info without fetching
 	if (file.status === "added") {
 		return {
 			file: file.filename,
 			status: "added",
-			cardmarketIds,
+		};
+	}
+
+	// For removed files, just return the file info without fetching
+	if (file.status === "removed") {
+		return {
+			file: file.filename,
+			status: "removed",
 		};
 	}
 
@@ -284,16 +206,13 @@ async function processCardFile(
 		const result = await tryFetchCardWithFallback(setName!, cardLocalId!, "en", INTERNATIONAL_LANGUAGES, false);
 
 		if (result) {
-			const card = sanitizeCardData(result.card);
-			if (card) card.cardmarketIds = cardmarketIds;
 			return {
 				file: file.filename,
-				card,
+				card: sanitizeCardData(result.card),
 				isAsian: false,
 				usedLanguage: result.usedLanguage,
 				hasImage: result.hasImage,
 				status: "modified",
-				cardmarketIds,
 			};
 		} else {
 			return {
@@ -301,7 +220,6 @@ async function processCardFile(
 				error: "Failed to fetch card information in all available languages",
 				isAsian: false,
 				status: "modified",
-				cardmarketIds,
 			};
 		}
 	}
@@ -312,16 +230,13 @@ async function processCardFile(
 		const result = await tryFetchCardWithFallback(setId!, cardLocalId!, "ja", ASIAN_LANGUAGES, true);
 
 		if (result) {
-			const card = sanitizeCardData(result.card);
-			if (card) card.cardmarketIds = cardmarketIds;
 			return {
 				file: file.filename,
-				card,
+				card: sanitizeCardData(result.card),
 				isAsian: true,
 				usedLanguage: result.usedLanguage,
 				hasImage: result.hasImage,
 				status: "modified",
-				cardmarketIds,
 			};
 		} else {
 			return {
@@ -329,7 +244,6 @@ async function processCardFile(
 				error: "Failed to fetch card information in all available languages",
 				isAsian: true,
 				status: "modified",
-				cardmarketIds,
 			};
 		}
 	}
@@ -350,7 +264,6 @@ function generateCommentBody(
 	const modifiedCards = cardResults.filter((r) => r.status === "modified" && r.card).length;
 	const errorCards = cardResults.filter((r) => r.status === "modified" && r.error).length;
 	const cardsWithoutImages = cardResults.filter((r) => r.card && !r.hasImage).length;
-	const cardsWithCardmarket = cardResults.filter((r) => (r.cardmarketIds?.length ?? 0) > 0).length;
 
 	let commentBody = `## 🃏 ${cardResults.length} Card${cardResults.length !== 1 ? "s" : ""} Changed\n\n`;
 
@@ -381,9 +294,6 @@ function generateCommentBody(
 	if (cardsWithoutImages > 0) {
 		details.push(`${cardsWithoutImages} without images`);
 	}
-	if (cardsWithCardmarket > 0) {
-		details.push(`${cardsWithCardmarket} with Cardmarket id`);
-	}
 
 	commentBody += details.join(", ") + "\n\n";
 
@@ -402,8 +312,6 @@ function generateCommentBody(
 		if (item.status === "added") {
 			cardSection += `<details><summary>➕ <strong>New card: ${fileName}</strong></summary>\n\n`;
 			cardSection += `**File:** [${encodeURI(item.file)}](${encodeURI(fileUrl)})  \n\n`;
-			const cardmarketLine = renderCardmarketLine(item.cardmarketIds);
-			if (cardmarketLine) cardSection += cardmarketLine;
 			cardSection += "</details>\n\n";
 		} else if (item.status === "removed") {
 			cardSection += `<details><summary>🗑️ <strong>Deleted card: ${fileName}</strong></summary>\n\n`;
@@ -424,9 +332,7 @@ function generateCommentBody(
 
 			cardSection += `**File:** [${item.file}](${fileUrl})  \n`;
 			cardSection += `**Set:** ${item.card.set?.name || "Unknown"}  \n`;
-			cardSection += `**Rarity:** ${item.card.rarity || "Unknown"}\n`;
-			const cardmarketLine = renderCardmarketLine(item.cardmarketIds);
-			cardSection += cardmarketLine ? cardmarketLine + "\n" : "\n";
+			cardSection += `**Rarity:** ${item.card.rarity || "Unknown"}\n\n`;
 			cardSection += "</details>\n\n";
 		} else if (item.error) {
 			cardSection += `<details><summary>⚠️ <strong>Error processing ${fileName}</strong></summary>\n\n`;
@@ -451,15 +357,6 @@ function generateCommentBody(
 	}
 
 	return commentBody;
-}
-
-// Helper to render a Cardmarket line with clickable productId links.
-// Returns an empty string when there are no ids so callers can cleanly skip
-// the line without trailing whitespace.
-function renderCardmarketLine(ids: number[] | undefined): string {
-	if (!ids || ids.length === 0) return "";
-	const links = ids.map((id) => `[#${id}](${buildCardmarketUrl(id)})`).join(", ");
-	return `**Cardmarket:** ${links}  \n`;
 }
 
 // Helper to render the card image table
@@ -543,22 +440,10 @@ async function run() {
 		// Get changed files
 		const changedFiles = await getChangedFiles(context, octokit);
 
-		// Head ref for reading the PR's version of each TS file. Only available
-		// for `pull_request` / `pull_request_target` events.
-		const pr = context.payload.pull_request;
-		const headRepo = pr?.head?.repo;
-		const headRef: HeadRepoRef | null = pr && headRepo?.owner?.login && headRepo?.name && pr.head?.sha
-			? {
-					owner: headRepo.owner.login,
-					repo: headRepo.name,
-					sha: pr.head.sha,
-				}
-			: null;
-
 		// Process card files
 		const cardResults: CardResult[] = [];
 		for (const file of changedFiles) {
-			const result = await processCardFile(file, octokit, headRef);
+			const result = await processCardFile(file);
 			if (result) cardResults.push(result);
 		}
 
