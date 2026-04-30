@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Latias ex"
 	},
 
+	suffix: "ex",
 	illustrator: "AKIRA EGAWA",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

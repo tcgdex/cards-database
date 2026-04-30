@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rabsca ex"
 	},
 
+	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 	rarity: "Double rare",
 	category: "Pokemon",

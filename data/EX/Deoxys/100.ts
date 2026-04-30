@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Makuhita"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

@@ -16,6 +16,7 @@ const card: Card = {
 		pt: "Lapras ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",

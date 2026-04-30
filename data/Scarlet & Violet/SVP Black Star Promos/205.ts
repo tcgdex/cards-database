@@ -13,7 +13,7 @@ const card: Card = {
 		pt: "Mewtwo ex da Equipe Rocket"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "None",
 	category: "Pokemon",

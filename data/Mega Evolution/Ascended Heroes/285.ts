@@ -23,6 +23,7 @@ const card: Card = {
 		pt: "Scraggy",
 	},
 
+	suffix: "ex",
 	illustrator: "nagimiso",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

@@ -29,17 +29,18 @@ const card: Card = {
 	regulationMark: "H",
 
 	variants: [
-		{
-			type: "holo",
-			foil: "gold"
+	{
+		type: "holo",
+		foil: "gold",
+		thirdParty: {
+			cardmarket: 794624,
+			tcgplayer: 593859
 		}
-	],
+	},
+],
 
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 794624
-	}
 }
 
 export default card

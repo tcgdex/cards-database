@@ -71,6 +71,7 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H",
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
 
 	variants: [

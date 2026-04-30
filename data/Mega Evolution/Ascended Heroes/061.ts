@@ -23,6 +23,7 @@ const card: Card = {
 		pt: "Eelektrik",
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Double rare",
 	category: "Pokemon",

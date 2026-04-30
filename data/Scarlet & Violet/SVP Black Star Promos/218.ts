@@ -13,7 +13,7 @@ const card: Card = {
 		pt: "Persian ex da Equipe Rocket"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",

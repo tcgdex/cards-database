@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ho-Oh ex de Ethan"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",

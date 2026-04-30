@@ -48,9 +48,38 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Amelicart",
 
-	thirdParty: {
-		cardmarket: 805479
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805479,
+				tcgplayer: 610442
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805479,
+				tcgplayer: 610442
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806534,
+				tcgplayer: 610600
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806535,
+				tcgplayer: 610701
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Mawile ex"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",

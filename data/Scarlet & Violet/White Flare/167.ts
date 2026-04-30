@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Keldeo ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Yuu Nishida",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

@@ -24,6 +24,7 @@ const card: Card = {
 		pt: "Staryu",
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

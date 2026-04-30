@@ -24,6 +24,7 @@ const card: Card = {
 		pt: "Clefairy",
 	},
 
+	suffix: "ex",
 	illustrator: "Cona Nitanda",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

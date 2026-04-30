@@ -13,6 +13,7 @@ const card: Card = {
 		pt: "Mega Lucario ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",

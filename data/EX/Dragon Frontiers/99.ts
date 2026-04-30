@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Despotar ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Yusuke Shimada",
 	rarity: "Rare",
 	category: "Pokemon",

@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Fezandipiti ex"
 	},
 
+	suffix: "ex",
 	illustrator: "SIE NANAHARA",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

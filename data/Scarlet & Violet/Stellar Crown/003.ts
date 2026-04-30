@@ -77,9 +77,28 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 785856,
+				tcgplayer: 567229
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785856,
+				tcgplayer: 567229
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 789023,
+			}
+		},
+	],
 
 	illustrator: "Masako Tomii",
 

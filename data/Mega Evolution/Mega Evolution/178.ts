@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Gardevoir ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Raita Kazama",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

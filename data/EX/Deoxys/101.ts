@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Dynavolt"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
