@@ -78,9 +78,38 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Saboteri",
 
-	thirdParty: {
-		cardmarket: 805399
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805399,
+				tcgplayer: 610365
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805399,
+				tcgplayer: 610365
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806424,
+				tcgplayer: 610544
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806425,
+				tcgplayer: 610645
+			}
+		},
+	],
 }
 
 export default card

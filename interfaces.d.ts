@@ -16,14 +16,34 @@ export interface Serie {
 	energies?: Array<Types>
 }
 
-interface variant_detailed {
+export type VariantType =  'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
+export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
+	| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
+	| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato'
+	| 'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill'
+	| 'jeremy-maron' | 'jimmy-ballard' | 'miska-saari' | 'hiroki-yano' | 'jason-klaczynski' | 'state-championships'
+	| 'national-championships' | 'gym-challenge' | 'city-championships' | 'jeremy-scharff-kim' | 'destiny-deoxys'
+	| 'pokemon-day' | 'regional-championships' | 'international-championships' | 'stadium-challenge' | '10th-anniversary' | 'wizard-world-philadelphia'
+	| 'wizard-world-chicago' | 'comic-con' | 'nintendo-world' | 'gen-con' | 'akira-miyazaki' | 'tom-roos'
+	| 'pokemon-rocks-america' | 'jun-hasebe' | 'origins' | 'games-expo' | 'kraze-club' | 'dylan-lefavour'
+	| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'worlds-2007' | 'finalist'
+	| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two' | 'worlds-2008' | 'worlds-2009'
+	| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting' | 'mychael-bryan' | "stephen-silvestro"
+	| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
+	| 'ross-cawthorn' | 'gustavo-wada' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
+	| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
+	| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
+	| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america" | 'ace-trainer'
+	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds'
+
+export interface variant_detailed {
 	/**
 	 * define the variant type
 	 * - normal: no holographic elements
 	 * - holo: the illustration has a foil
 	 * - reverse: everything but the illustration is foiled
 	 */
-	type: 'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
+	type: VariantType
 
 	/**
 	 * Some older sets had specific subtypes for the cards
@@ -33,7 +53,7 @@ interface variant_detailed {
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
 		| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
 		| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
-		| 'cosmos'
+		| 'cosmos' | 'blue-border'
 
 	/**
 	 * define the size of the card
@@ -41,6 +61,8 @@ interface variant_detailed {
 	 * - jumbo: also said oversized, big card.
 	 */
 	size?: 'standard' | 'jumbo'
+
+	// TODO: rename to 'stamps' on v3
 	/**
 	 * indicate that this variant has a stamp
 	 * a card may have multiple stamps, example "Ethan's Typhlosion pre-release staff"
@@ -55,36 +77,27 @@ interface variant_detailed {
 	 * - eb-games: a card that is stamped with the EB Games logo
 	 * - snowflake: a card that is stamped with a snowflake, available in the yearly advent calendar
 	 * - trick-or-trade: a card that is stamped with a pikachu-pumpkin, available in the yearly halloween/trick-or-trade boosters
+	 * - ace-trainer: a card that is stamped with a golden ACE TRAINER, won by getting 200 championship points in the season since 2025 season.
+	 * - player-rewards-program: a card that is stamped with the player reward logo, available in the yearly player rewards program (play! pokemon prize pack)
 	 */
-	stamp?: Array<'1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
-		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
-		| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato'
-		| 'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill'
-		| 'jeremy-maron' | 'jimmy-ballard' | 'miska-saari' | 'hiroki-yano' | 'jason-klaczynski' | 'state-championships'
-		| 'national-championships' | 'gym-challenge' | 'city-championships' | 'jeremy-scharff-kim' | 'destiny-deoxys'
-		| 'pokemon-day' | 'regional-championships' | 'international-championships' | 'stadium-challenge' | '10th-anniversary' | 'wizard-world-philadelphia'
-		| 'wizard-world-chicago' | 'comic-con' | 'nintendo-world' | 'gen-con' | 'akira-miyazaki' | 'tom-roos'
-		| 'pokemon-rocks-america' | 'jun-hasebe' | 'origins' | 'games-expo' | 'kraze-club' | 'dylan-lefavour'
-		| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'worlds-2007' | 'finalist'
-		| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two' | 'worlds-2008' | 'worlds-2009'
-		| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting' | 'mychael-bryan' | "stephen-silvestro"
-		| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
-		| 'ross-cawthorn' | 'gustavo-wada' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
-		| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
-		| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
-		| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america"
-	>
+	stamp?: Array<VariantStamps>
+
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
-	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
-	| 'mirror' | 'league' | 'player-reward' | 'professor-program'
+	foil?: 'pokeball' | 'greatball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
+	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'tinsel' | 'loveball' | 'friendball' | 'quickball' | 'team-rocket' | 'duskball'
 
 	/**
 	 * list of languages for which this variant is available
 	 * if not set, the variant is available in all languages
 	 */
 	languages?: SupportedLanguages[]
+
+	thirdParty?: {
+		tcgplayer?: number
+		cardmarket?: number
+	}
 }
 
 interface variants {
@@ -308,15 +321,21 @@ export interface Card {
 	/**
 	 * Card Suffix
 	 *
-	 * - EX https://www.tcgdex.net/database/ex/ex2/94
+	 * - EX https://www.tcgdex.net/database/bw/bw4/54
 	 * - GX https://www.tcgdex.net/database/sm/sm12/4
 	 * - V https://www.tcgdex.net/database/swsh/swsh1/1
 	 * - Legend https://www.tcgdex.net/database/hgss/hgss1/114
 	 * - Prime https://www.tcgdex.net/database/hgss/hgss2/85
 	 * - SP https://www.tcgdex.net/database/pl/pl1/7
 	 * - TAG TEAM-GX https://www.tcgdex.net/database/sm/sm12/226
+	 * - ex https://www.tcgdex.net/database/ex/ex2/94
+	 * ex is the gen 3 and 9 mechanic while EX is the gen 5 and 6 mechanic.
+	 * Despite the name similarity the 2 mechanics are not the same,
+	 * evolved pokemon are handled differently between them,
+	 * and pokemon EX are not considered pokemon ex and vice versa.
+	 * The ruling on the matter: https://compendium.pokegym.net/ruling/1828/
 	 */
-	suffix?: 'EX' | 'GX' | 'V' | 'Legend' | 'Prime' | 'SP' | 'TAG TEAM-GX'
+	suffix?: 'EX' | 'GX' | 'V' | 'Legend' | 'Prime' | 'SP' | 'TAG TEAM-GX' | 'ex'
 
 	/**
 	 * Pokemon Held Item

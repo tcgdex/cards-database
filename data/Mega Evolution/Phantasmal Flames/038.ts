@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Uncommon",
 	category: "Pokemon",
+
+	dexId: [210],
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Stage1",
-	dexId: [210],
 
 	attacks: [{
 		cost: ["Psychic", "Colorless"],
@@ -66,16 +67,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 857613,
+				tcgplayer: 662165
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 857613,
+				tcgplayer: 662165
+			}
 		}
 	],
-
-	thirdParty: {
-		cardmarket: 857613
-	}
 }
 
 export default card

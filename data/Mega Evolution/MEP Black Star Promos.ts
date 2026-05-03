@@ -8,6 +8,7 @@ const set: Set = {
 		de: "MEP Black Star Promos",
 		en: "MEP Black Star Promos",
 		es: "MEP Black Star Promos",
+		'es-mx': "MEP Black Star Promos",
 		fr: "MEP Black Star Promos",
 		it: "MEP Black Star Promos",
 		pt: "MEP Black Star Promos"
@@ -24,6 +25,10 @@ const set: Set = {
 	abbreviations: {
 		official: "MEP"
 	},
+
+	thirdParty: {
+		cardmarket: 6232
+	}
 }
 
 export default set

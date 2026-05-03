@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Celebi ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -68,6 +69,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 276763,

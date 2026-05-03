@@ -60,8 +60,8 @@ _[Support us as a sponsor](https://github.com/sponsors/tcgdex) and have your log
   </a>
 </p>
 
-<p align="center">
-  <!-- <a href="https://dzeio.com" target="_blank" title="Dzeio"><img height="80" width="19%" src="./.github/sponsors/dzeio.svg" alt="TCGdex Sponsor Dzeio" /></a> -->
+<p align="left">
+  <a href="https://card-codex.com" target="_blank" title="Card-Codex"><img height="80" width="19%" src="./.github/sponsors/card-codex.png" alt="TCGdex Sponsor Card-Codex" /></a>
 </p>
 
 ## Contributors ✨

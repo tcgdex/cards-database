@@ -15,7 +15,8 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "Antriebs-Energie kann nur an ein entwickeltes Pokémon angelegt werden. Lege Antriebs-Energie am Ende des Zuges, in dem sie angelegt wurde, auf deinen Ablagestapel. Antriebs-Energie liefert   -Energie. Das Pokémon, an das Antriebs-Energie angelegt ist, kann sich nicht zurückziehen. Handelt es sich bei dem Pokémon, an das Antriebs-Energie angelegt ist, nicht mehr um ein entwickeltes Pokémon, dann lege Antriebs-Energie auf deinen Ablagestapel."
+		de: "Antriebs-Energie kann nur an ein entwickeltes Pokémon angelegt werden. Lege Antriebs-Energie am Ende des Zuges, in dem sie angelegt wurde, auf deinen Ablagestapel. Antriebs-Energie liefert   -Energie. Das Pokémon, an das Antriebs-Energie angelegt ist, kann sich nicht zurückziehen. Handelt es sich bei dem Pokémon, an das Antriebs-Energie angelegt ist, nicht mehr um ein entwickeltes Pokémon, dann lege Antriebs-Energie auf deinen Ablagestapel.",
+		fr: "Énergie Super ne peut être attachée qu'à un Pokémon Évolué. Défaussez Énergie Super à la fin du tour où elle a été attachée. Énergie Super fournit de l'Énergie Incolore Incolore Incolore. Le Pokémon auquel Énergie Super est attachée ne peut pas battre en retraite. Si le Pokémon auquel Énergie Super est attachée n'est pas un Pokémon Évolué, défaussez-la.",
 	},
 
 	thirdParty: {

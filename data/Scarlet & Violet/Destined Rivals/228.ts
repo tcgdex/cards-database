@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "Tonji Matsuno",
 
 	rarity: "Special illustration rare",
@@ -88,13 +89,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826102,
+				tcgplayer: 633028
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826102
-	}
 }
 
 export default card

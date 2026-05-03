@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Pikachu"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -88,6 +88,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 0,
 
 	thirdParty: {
 		tcgplayer: 88526,

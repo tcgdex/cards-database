@@ -74,10 +74,11 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "Jerky",
 
 	thirdParty: {
-		cardmarket: 740559
+		cardmarket: 740790
 	}
 }
 

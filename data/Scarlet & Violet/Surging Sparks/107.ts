@@ -68,15 +68,36 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794433,
+				tcgplayer: 589953
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794433,
+				tcgplayer: 589953
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 858727,
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 794433
-	}
 }
 
 export default card

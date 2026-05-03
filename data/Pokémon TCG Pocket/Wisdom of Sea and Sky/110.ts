@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Sachiko Adachi",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [167],
 	hp: 60,
 	types: ["Darkness"],
 

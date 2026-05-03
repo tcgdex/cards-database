@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Macronium"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -104,6 +104,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+	
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 276752,

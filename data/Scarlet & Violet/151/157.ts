@@ -28,14 +28,19 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Oswaldo KATO",
 
 	thirdParty: {
-		cardmarket: 733652
+		cardmarket: 733752
 	}
 }
 

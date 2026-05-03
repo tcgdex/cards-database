@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Common",
 	category: "Pokemon",
+
+	dexId: [86],
 	hp: 80,
 	types: ["Water"],
 	stage: "Basic",
-	dexId: [86],
 
 	attacks: [{
 		cost: ["Water", "Colorless"],
@@ -52,16 +53,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 857596,
+				tcgplayer: 662226
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 857596,
+				tcgplayer: 662226
+			}
 		}
-	],
-
-	thirdParty: {
-		cardmarket: 857596
-	}
+	],	
 }
 
 export default card

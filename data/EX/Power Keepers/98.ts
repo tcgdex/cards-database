@@ -23,7 +23,7 @@ const card: Card = {
 		"Metal",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -90,6 +90,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+	
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 277404,

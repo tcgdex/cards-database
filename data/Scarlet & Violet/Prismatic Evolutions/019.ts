@@ -56,9 +56,38 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 805408
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805408,
+				tcgplayer: 610374
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805408,
+				tcgplayer: 610374
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806434,
+				tcgplayer: 610549
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806435,
+				tcgplayer: 610650
+			}
+		},
+	],
 }
 
 export default card

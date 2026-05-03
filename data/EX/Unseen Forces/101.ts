@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Leveinard ou Leveinard ex"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -87,6 +87,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 276747,

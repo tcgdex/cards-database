@@ -31,12 +31,21 @@ const card: Card = {
 			name: {
 				en: "Bedhead",
 				fr: "Tête de lit",
-				de: "Schlafmütze"
+				de: "Schlafmütze",
 			},
 			effect: {
 				en: "As long as Snorlax remains Asleep between turns, put 2 damage counters on 1 of the Defending Pokémon.",
 				fr: "Tant que Ronflex est Endormi entre deux tours, placez 2 marqueurs de dégât sur 1 des Pokémon Défenseurs.",
-				de: "Wenn Relaxo schläft und zwischen zwei Zügen nicht aufwacht, lege 2 Schadensmarken auf 1 Verteidigendes Pokémon."
+				de: "Wenn Relaxo schläft und zwischen zwei Zügen nicht aufwacht, lege 2 Schadensmarken auf 1 Verteidigendes Pokémon.",
+			},
+		},
+		{
+			type: "Poke-POWER",
+			name: {
+				fr: "Fainéantise",
+			},
+			effect: {
+				fr: "Une seule fois lors de votre tour (avant votre attaque), si Ronflex est votre Pokémon Actif, vous pouvez lui retirer 2 marqueurs de dégât. Il est maintenant Endormi. Ce pouvoir ne peut pas être utilisé si Ronflex est affecté par un État Spécial.",
 			},
 		},
 	],
@@ -47,6 +56,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 3,
 
 	thirdParty: {
 		cardmarket: 277215

@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Nosferalto"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -99,6 +99,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 0,
 
 	thirdParty: {
 		tcgplayer: 84493,

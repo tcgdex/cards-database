@@ -28,14 +28,19 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Toyste Beach",
 
 	thirdParty: {
-		cardmarket: 733756
+		cardmarket: 733760
 	}
 }
 

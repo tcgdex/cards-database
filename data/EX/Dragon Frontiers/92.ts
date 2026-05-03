@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Libelldra ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Nakaoka",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -67,6 +68,9 @@ const card: Card = {
 
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 277297

@@ -74,6 +74,7 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "Pani Kobayashi",
 
 	thirdParty: {

@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Pifeuil"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -94,6 +94,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 0,
 
 	thirdParty: {
 		cardmarket: 277178,

@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Despotar ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Yusuke Shimada",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -93,6 +94,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 3,
 
 	thirdParty: {
 		cardmarket: 277304

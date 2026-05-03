@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Uncommon",
 	category: "Pokemon",
+
+	dexId: [272],
 	hp: 160,
 	types: ["Grass"],
 	stage: "Stage2",
-	dexId: [272],
 
 	abilities: [{
 		type: "Ability",
@@ -66,16 +67,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 857582,
+				tcgplayer: 662179
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 857582,
+				tcgplayer: 662179
+			}
 		}
 	],
-
-	thirdParty: {
-		cardmarket: 857582
-	}
 }
 
 export default card

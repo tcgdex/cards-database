@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Manectric ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -86,18 +87,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
 			type: "holo",
-			stamp: ["player-rewards-program"]
-		}
+			thirdParty: {
+				cardmarket: 851121,
+				tcgplayer: 654389
+			}
+		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654389,
-		cardmarket: 851121
-	}
 }
 
 export default card

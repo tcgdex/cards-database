@@ -68,15 +68,33 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794334,
+				tcgplayer: 589993
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794334,
+				tcgplayer: 589993
+			}
+		},
+		{
+			type: "normal", 
+			stamp: ["gym-challenge"]
+		},
+		{
+			type: "normal", 
+			stamp: ["player-rewards-program"]
+		},
+	],
 
 	illustrator: "Nisota Niso",
-
-	thirdParty: {
-		cardmarket: 794334
-	}
+	
 }
 
 export default card

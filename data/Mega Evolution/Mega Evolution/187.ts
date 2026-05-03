@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Gardevoir ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Mega Hyper Rare",
 	category: "Pokemon",
@@ -85,14 +86,12 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			foil: "gold"
+			thirdParty: {
+				cardmarket: 851258,
+				tcgplayer: 654526
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654526,
-		cardmarket: 851258
-	}
 }
 
 export default card

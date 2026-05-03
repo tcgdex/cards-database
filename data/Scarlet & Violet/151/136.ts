@@ -77,14 +77,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Ryota Murayama",
 
 	thirdParty: {
-		cardmarket: 733603
+		cardmarket: 733731
 	}
 }
 

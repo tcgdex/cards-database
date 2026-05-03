@@ -23,7 +23,7 @@ const card: Card = {
 		"Lightning",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -76,6 +76,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 275745,

@@ -75,30 +75,52 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 817269
-	},
-
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817269,
+				tcgplayer: 623544
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817269,
+				tcgplayer: 623544
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 817769,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["gamestop"],
+			thirdParty: {
+				cardmarket: 817770,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["eb-games"],
+			thirdParty: {
+				cardmarket: 828859,
+			}
 		},
 		{
 			type: 'holo',
-			stamp: ["set-logo"]
+			foil: 'cosmos',
+			stamp: ['player-rewards-program']
 		},
 		{
-			type: 'holo',
-			stamp: ["gamestop"]
-		},
-		{
-			type: 'holo',
-			stamp: ["eb-games"]
-		},
-	]
+			type: 'normal',
+			stamp: ['player-rewards-program']
+		}
+	],
 }
 
 export default card

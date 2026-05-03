@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Lucario ex"
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -86,14 +87,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851231,
+				tcgplayer: 654499
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654499,
-		cardmarket: 851231
-	}
 }
 
 export default card

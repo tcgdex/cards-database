@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Illustration rare",
 	category: "Pokemon",
+
+	dexId: [849],
 	hp: 140,
 	types: ["Darkness"],
 	stage: "Stage1",
-	dexId: [849],
 
 	abilities: [{
 		type: "Ability",
@@ -66,13 +67,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 857678,
+				tcgplayer: 662235
+			}
 		}
 	],
-
-	thirdParty: {
-		cardmarket: 857678
-	}
 }
 
 export default card

@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Crocrodil"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -93,6 +93,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 3,
 
 	thirdParty: {
 		cardmarket: 276749,

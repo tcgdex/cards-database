@@ -19,17 +19,21 @@ const card: Card = {
 		de: "Attach this card to 1 of your Evolved Pokémon (excluding Pokémon-ex and Pokémon that has an owner in its name) in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Ancient Technical Machine [Rock]."
 	},
 
-	attacks: [{
-		name: {
-			de: "Stone Generator"
+	attacks: [
+		{
+			name: {
+				de: "Stone Generator",
+				fr: "Générateur de pierre",
+			},
+			effect: {
+				de: "If your opponent has any Evolved Pokémon in play, remove the highest Stage Evolution card from each of them and put those cards back into his or her hand.",
+				fr: "Si votre adversaire a des Pokémon Évolués en jeu, retirez à chacun de ses Pokémon la carte Évolution au niveau le plus haut et placez ces cartes dans sa main.",
+			},
+			cost: [
+				"Colorless",
+			],
 		},
-
-		effect: {
-			de: "If your opponent has any Evolved Pokémon in play, remove the highest Stage Evolution card from each of them and put those cards back into his or her hand."
-		},
-
-		cost: ["Colorless"]
-	}],
+	],
 
 	variants: [
 		{

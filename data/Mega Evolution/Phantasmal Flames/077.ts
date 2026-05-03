@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Uncommon",
 	category: "Pokemon",
+
+	dexId: [40],
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Stage1",
-	dexId: [40],
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
@@ -66,16 +67,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 857652,
+				tcgplayer: 662239
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 857652,
+				tcgplayer: 662239
+			}
 		}
-	],
-
-	thirdParty: {
-		cardmarket: 857652
-	}
+	],	
 }
 
 export default card

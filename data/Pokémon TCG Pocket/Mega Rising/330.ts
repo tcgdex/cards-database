@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "PLANETA CG Works",
 	rarity: "Crown",
 	category: "Pokemon",
+
+	dexId: [707],
 	hp: 50,
 	types: ["Psychic"],
 

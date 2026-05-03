@@ -47,15 +47,32 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794947,
+				tcgplayer: 590031
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794947,
+				tcgplayer: 590031
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["horizons"],
+			thirdParty: {
+				cardmarket: 794316,
+			}
+		},
+	],
 
 	illustrator: "Saboteri",
-
-	thirdParty: {
-		cardmarket: 794947
-	}
+	
 }
 
 export default card

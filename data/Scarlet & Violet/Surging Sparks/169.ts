@@ -28,15 +28,33 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794542,
+				tcgplayer: 589907
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794542,
+				tcgplayer: 589907
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["gym-challenge"]
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"]
+		}
+	],
 
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 794542
-	}
 }
 
 export default card

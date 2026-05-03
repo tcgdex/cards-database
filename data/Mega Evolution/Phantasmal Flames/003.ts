@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Rare",
 	category: "Pokemon",
+
+	dexId: [45],
 	hp: 150,
 	types: ["Grass"],
 	stage: "Stage2",
-	dexId: [45],
 
 	attacks: [{
 		cost: ["Grass"],
@@ -75,17 +76,21 @@ const card: Card = {
 	regulationMark: "I",
 
 	variants: [
-		{
-			type: "holo"
-		},
-		{
-			type: "reverse"
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 857578,
+			tcgplayer: 662238
 		}
-	],
-
-	thirdParty: {
-		cardmarket: 857578,
-	}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 857578,
+			tcgplayer: 662238
+		}
+	},
+],
 }
 
 export default card

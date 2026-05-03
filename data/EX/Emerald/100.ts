@@ -23,7 +23,7 @@ const card: Card = {
 		"Metal",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -69,6 +69,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 2,
 
 	thirdParty: {
 		tcgplayer: 88680,

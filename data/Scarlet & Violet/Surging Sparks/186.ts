@@ -28,16 +28,18 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 794559,
+			tcgplayer: 590042
+		}
 	},
+],
 
 	illustrator: "Ayaka Yoshida",
 
-	thirdParty: {
-		cardmarket: 794559
-	}
 }
 
 export default card

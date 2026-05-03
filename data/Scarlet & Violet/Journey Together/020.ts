@@ -51,18 +51,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Naoyo Kimura",
 
-	thirdParty: {
-		cardmarket: 817172
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817172,
+				tcgplayer: 623447
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817172,
+				tcgplayer: 623447
+			}
 		},
-	]
+	],
 }
 
 export default card

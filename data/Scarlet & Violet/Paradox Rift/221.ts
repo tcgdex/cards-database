@@ -73,10 +73,11 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 
 	thirdParty: {
-		cardmarket: 740535
+		cardmarket: 740764
 	}
 }
 

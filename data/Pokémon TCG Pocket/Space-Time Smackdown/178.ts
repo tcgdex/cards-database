@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "matazo",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [431],
 	hp: 60,
 	types: ["Colorless"],
 

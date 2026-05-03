@@ -6,13 +6,22 @@ const card: Card = {
 
 	name: {
 		en: "Cynthia's Garchomp ex",
-		fr: "Carchacrok-ex de Cynthia"
+		fr: "Carchacrock-ex de Cynthia",
+		de: "Cynthias Knakrack-ex",
+		it: "Garchomp-ex di Camilla",
+		es: "Garchomp ex de Cintia",
+		pt: "Garchomp ex da Cíntia"
 	},
-	suffix: "EX",
+
+	suffix: "ex",
+	illustrator: "PLANETA Igarashi",
 	rarity: "None",
 	category: "Pokemon",
+	dexId: [445],
 	hp: 330,
 	types: ["Fighting"],
+	stage: "Stage2",
+
 	evolveFrom: {
 		en: "Cynthia's Gabite",
 		fr: "Carmache de Cynthia",
@@ -22,39 +31,59 @@ const card: Card = {
 		pt: "Gabite da Cíntia",
 		'es-mx': "Gabite de Cynthia"
 	},
-	stage: "Stage2",
-	illustrator: "PLANETA Igarashi",
-	dexId: [445],
-	attacks: [
-		{
-			cost: ["Fighting"],
-			name: {
-				en: "Corkscrew Dive",
-			},
-			effect: {
-				en: "You may draw cards until you have 6 cards in your hand."
-			},
-			damage: 100,
-		},
-		{
-			cost: ["Fighting", "Fighting"],
-			name: {
-				en: "Draconic Buster",
-			},
-			effect: {
-				en: "Discard all Energy from this Pokémon."
-			},
-			damage: 260,
-		}
-	],
 
-	weaknesses: [
-		{
-			type: "Grass",
-			value: "×2"
-		}
-	],
+	attacks: [{
+		cost: ["Fighting"],
 
+		name: {
+			en: "Corkscrew Dive",
+			fr: "Plongée Tire-Bouchon",
+			de: "Spiralsturzflug",
+			it: "Picchiata Rotante",
+			es: "Picado Tirabuzón",
+			pt: "Mergulho Parafuso"
+	},
+
+		effect: {
+			en: "You may draw cards until you have 6 cards in your hand.",
+			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
+			de: "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast.",
+			it: "Puoi pescare fino ad avere sei carte in mano.",
+			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
+			pt: "Você pode comprar cartas até ter 6 cartas na sua mão."
+	},
+
+		damage: 100
+	}, {
+		cost: ["Fighting", "Fighting"],
+
+		name: {
+			en: "Draconic Buster",
+			fr: "Buster Draconien",
+			de: "Drachensprenger",
+			it: "Distruzione del Drago",
+			es: "Destrucción Dracónica",
+			pt: "Aniquilação Dracônica"
+	},
+
+		effect: {
+			en: "Discard all Energy from this Pokémon.",
+			fr: "Défaussez toutes les Énergies de ce Pokémon.",
+			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta tutte le Energie da questo Pokémon.",
+			es: "Descarta todas las Energías de este Pokémon.",
+			pt: "Descarte todas as Energias deste Pokémon."
+	},
+
+		damage: 260
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "x2"
+	}],
+
+	retreat: 0,
 	regulationMark: "I",
 
 	variants: [

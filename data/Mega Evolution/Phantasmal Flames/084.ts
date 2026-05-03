@@ -13,13 +13,23 @@ const card: Card = {
 		it: "Mega Lopunny-ex",
 		pt: "Mega Lopunny ex"
 	},
+	evolveFrom: {
+		en: "Buneary",
+		de: "Haspiror",
+		es: "Buneary",
+		'es-mx': "Buneary",
+		fr: "Laporeille",
+		it: "Buneary",
+		pt: "Buneary",
+	},
 
 	rarity: "Double rare",
 	category: "Pokemon",
+
+	dexId: [428],
 	hp: 330,
 	types: ["Colorless"],
 	stage: "Stage1",
-	dexId: [428],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -76,13 +86,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 857659,
+				tcgplayer: 662188
+			}
 		}
-	],
-
-	thirdParty: {
-		cardmarket: 857659
-	}
+	],	
 }
 
 export default card

@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "kawayoo",
 
 	rarity: "Double rare",
@@ -88,16 +89,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
-		},
-		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825939,
+				tcgplayer: 632878
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825939
-	}
 }
 
 export default card

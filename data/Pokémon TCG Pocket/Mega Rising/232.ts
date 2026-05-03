@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Tetsu Kayama",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [129],
 	hp: 30,
 	types: ["Water"],
 

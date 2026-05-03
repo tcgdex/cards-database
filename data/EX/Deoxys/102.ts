@@ -23,7 +23,7 @@ const card: Card = {
 		"Colorless",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -79,6 +79,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		tcgplayer: 88643,

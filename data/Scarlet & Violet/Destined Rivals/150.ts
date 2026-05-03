@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
 	rarity: "Double rare",
@@ -86,13 +87,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826024,
+				tcgplayer: 632955
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826024
-	}
 }
 
 export default card

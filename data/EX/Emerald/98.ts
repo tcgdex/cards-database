@@ -23,7 +23,7 @@ const card: Card = {
 		"Water",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -70,6 +70,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 3,
 
 	thirdParty: {
 		tcgplayer: 88660,

@@ -60,7 +60,7 @@
 	},
 	"stage": {
 		"Baby": "Bébé",
-		"Basic": "De base",
+		"Basic": "Base",
 		"BREAK": "TURBO",
 		"LEVEL-UP": "Niveau Sup",
 		"MEGA": "MÉGA",
@@ -68,16 +68,17 @@
 		"Stage1": "Niveau 1",
 		"Stage2": "Niveau 2",
 		"V-UNION": "V-UNION",
-		"VMAX": "ESCOUADE",
+		"VMAX": "VMAX",
 		"VSTAR": "VSTAR"
 	},
 	"suffix": {
 		"EX": "EX",
+		"ex": "ex",
 		"GX": "GX",
 		"Legend": "LÉGENDE",
-		"Prime": "Prime",
+		"Prime": "Primo",
 		"SP": "SP",
-		"TAG TEAM-GX": "TAG TEAM-GX",
+		"TAG TEAM-GX": "ESCOUADE",
 		"V": "V"
 	},
 	"trainerType": {
@@ -104,7 +105,7 @@
 		"Water": "Eau"
 	},
 	"variantType": {
-		"normal": "De base",
+		"normal": "Normal",
 		"holo": "Holo",
 		"reverse": "Reverse",
 		"metal": "Métal",
@@ -116,6 +117,7 @@
 	},
 	"variantFoil": {
 		"pokeball": "Pokéball",
+		"greatball": "Greatball",
 		"ultraball": "Ultraball",
 		"masterball": "Masterball",
 		"gold": "Or",
@@ -127,7 +129,13 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"tinsel": "tinsel",
+		"loveball": "Love Ball",
+		"friendball": "Copain Ball", 
+		"quickball": "Rapide Ball",
+		"duskball": "Sombre Ball", 
+		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
 		"1st-edition": "1re Édition",
@@ -228,7 +236,15 @@
 		"judge": "juge",
 		"international-championship-europe": "championnat-international-europe",
 		"international-championship-latin-america": "championnat-international-amérique-latine",
-		"international-championship-north-america": "championnat-international-amérique-du-nord"
+		"international-championship-north-america": "championnat-international-amérique-du-nord",
+		"30th-pokeday": "30th-pokeday",
+		"ace-trainer": "Entraîneur d'as",
+		"pikachu": "pikachu",
+		"bulbasaur": "bulbizarre",
+		"squirtle": "carapuce",
+		"charmander": "salamèche",
+		"pokeball": "pokeball",
+		"mcdonalds": "mcdonalds"
 	},
 	"variantSubtype": {
 		"shadowless": "sans ombre",
@@ -248,6 +264,7 @@
 		"japanese-back": "Dos japonais",
 		"no-e-reader": "Sans e-Reader",
 		"rarity-error": "Erreur de rareté",
-		"cosmos": "cosmos"
+		"cosmos": "cosmos",
+		"blue border": "bordure bleue"
 	}
 }

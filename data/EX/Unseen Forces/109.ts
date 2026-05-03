@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Onix"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -108,6 +108,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+	
+	retreat: 5,
 
 	thirdParty: {
 		cardmarket: 276755,

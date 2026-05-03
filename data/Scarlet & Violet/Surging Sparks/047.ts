@@ -67,15 +67,32 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794313,
+				tcgplayer: 589909
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794313,
+				tcgplayer: 589909
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["snowflake"],
+			thirdParty: {
+				cardmarket: 845408,
+			}
+		},
+	],
 
 	illustrator: "sui",
-
-	thirdParty: {
-		cardmarket: 794313
-	}
+	
 }
 
 export default card

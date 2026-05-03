@@ -68,14 +68,19 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Nisota Niso",
 
 	thirdParty: {
-		cardmarket: 733657
+		cardmarket: 733684
 	}
 }
 

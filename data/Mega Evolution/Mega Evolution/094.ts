@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Mawile ex"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -77,18 +78,17 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851165,
+				tcgplayer: 654433
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
 		}
 	],
-
-	thirdParty: {
-		tcgplayer: 654433,
-		cardmarket: 851165
-	}
 }
 
 export default card

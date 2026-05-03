@@ -9,7 +9,7 @@
 	},
 	"category": {
 		"Energy": "Energia",
-		"Pokemon": "Pokemon",
+		"Pokemon": "Pokémon",
 		"Trainer": "Treinador"
 	},
 	"energyType": {
@@ -64,7 +64,7 @@
 		"BREAK": "TURBO",
 		"LEVEL-UP": "LEVEL-UP",
 		"MEGA": "MEGA",
-		"RESTORED": "RESTORED",
+		"RESTORED": "RESTAURADO",
 		"Stage1": "Estágio 1",
 		"Stage2": "Estágio 2",
 		"V-UNION": "V-UNION",
@@ -73,11 +73,12 @@
 	},
 	"suffix": {
 		"EX": "EX",
+		"ex": "ex",
 		"GX": "GX",
-		"Legend": "Legend",
+		"Legend": "LENDA",
 		"Prime": "Prime",
 		"SP": "SP",
-		"TAG TEAM-GX": "TAG TEAM-GX",
+		"TAG TEAM-GX": "ALIADOS",
 		"V": "V"
 	},
 	"trainerType": {
@@ -116,6 +117,7 @@
 	},
 	"variantFoil": {
 		"pokeball": "Poké Bola",
+		"greatball": "Great Bola",
 		"ultraball": "Ultra Bola",
 		"masterball": "Master Bola",
 		"gold": "Ouro",
@@ -127,7 +129,13 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"tinsel": "tinsel",
+		"loveball": "Bola de Amor",
+		"friendball": "Bola de Amizade", 
+		"quickball": "Bola Rápida",
+		"duskball": "Bola Crepúsculo", 
+		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
 		"1st-edition": "1ª Edição",
@@ -228,7 +236,15 @@
 		"judge": "juiz",
 		"international-championship-europe": "campeonato-internacional-europa",
 		"international-championship-latin-america": "campeonato-internacional-américa-latina",
-		"international-championship-north-america": "campeonato-internacional-américa-do-norte"
+		"international-championship-north-america": "campeonato-internacional-américa-do-norte",
+		"ace-trainer": "Ace Trainer",
+		"30th-pokeday": "30th-pokeday",
+		"pikachu": "pikachu",
+		"bulbasaur": "bulbasaur",
+		"squirtle": "squirtle",
+		"charmander": "charmander",
+		"pokeball": "pokeball",
+		"mcdonalds": "mcdonalds"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",

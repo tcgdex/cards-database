@@ -82,10 +82,11 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "Eske Yoshinob",
 
 	thirdParty: {
-		cardmarket: 740568
+		cardmarket: 740767
 	}
 }
 

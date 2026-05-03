@@ -38,14 +38,19 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Sekio",
 
 	thirdParty: {
-		cardmarket: 733613
+		cardmarket: 733638
 	}
 }
 

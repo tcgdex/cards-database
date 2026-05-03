@@ -28,16 +28,19 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 794623,
+				tcgplayer: 593857
+			}
+		},
+	],
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 794623
-	}
 }
 
 export default card

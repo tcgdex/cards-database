@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "Uninori",
 
 	rarity: "Special illustration rare",
@@ -78,13 +79,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826107,
+				tcgplayer: 633033
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826107
-	}
 }
 
 export default card

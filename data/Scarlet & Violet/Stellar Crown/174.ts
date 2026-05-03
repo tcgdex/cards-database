@@ -28,10 +28,16 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 786028,
+				tcgplayer: 567490
+			}
+		},
+	],
 
 	illustrator: "MARINA Chikazawa",
 

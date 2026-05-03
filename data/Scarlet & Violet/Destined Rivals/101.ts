@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "Nisota Niso",
 
 	rarity: "Double rare",
@@ -77,13 +78,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825975,
+				tcgplayer: 632909
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825975
-	}
 }
 
 export default card

@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Kurata So",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [684],
 	hp: 60,
 	types: ["Psychic"],
 

@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Blindalys"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -73,6 +73,9 @@ const card: Card = {
 			damage: 70
 		}
 	],
+
+	
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 276963,

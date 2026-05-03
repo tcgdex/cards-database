@@ -55,6 +55,10 @@ const card: Card = {
 		{
 			type: "holo",
 			foil: "cosmos"
+		},
+		{
+			type: "reverse",
+			stamp: ["pokemon-day"]
 		}
 	],
 

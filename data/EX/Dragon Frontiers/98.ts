@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Brutalanda ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -101,6 +102,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 277303

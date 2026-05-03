@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega Venusaur ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -86,14 +87,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851226,
+				tcgplayer: 654494
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654494,
-		cardmarket: 851226
-	}
 }
 
 export default card

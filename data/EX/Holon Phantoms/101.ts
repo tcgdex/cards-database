@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Medhyena"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -95,6 +95,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+	
+	retreat: 0,
 
 	thirdParty: {
 		cardmarket: 277071,
