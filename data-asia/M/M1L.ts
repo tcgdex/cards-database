@@ -1,0 +1,20 @@
+import { Set } from "../../interfaces";
+import serie from "../M";
+
+const set: Set = {
+	id: "M1L",
+	name: {
+		ja: "メガブレイブ",
+	},
+
+	serie: serie,
+
+	cardCount: {
+		official: 92,
+	},
+	releaseDate: {
+		ja: "2025-08-01",
+	},
+};
+
+export default set;
