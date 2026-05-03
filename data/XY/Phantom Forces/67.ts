@@ -3,12 +3,12 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Florges EX",
-		fr: "Florges EX",
-		es: "Florges EX",
-		it: "Florges EX",
-		pt: "Florges EX",
-		de: "Florges EX"
+		en: "Florges-EX",
+		fr: "Florges-EX",
+		es: "Florges-EX",
+		it: "Florges-EX",
+		pt: "Florges-EX",
+		de: "Florges-EX"
 	},
 
 	illustrator: "Eske Yoshinob",
