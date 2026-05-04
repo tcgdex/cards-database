@@ -1,7 +1,7 @@
 /node_modules
 /dist
 /generated
-/public/**/graphql.gql
-/public/**/api.d.ts
-/public/**/openapi.yaml
+/public/**/*graphql.gql
+/public/**/*api.d.ts
+/public/**/*openapi.yaml
 .env

@@ -1,0 +1,36 @@
+meta {
+  name: multi-lang support
+  type: graphql
+  seq: 3
+}
+
+post {
+  url: {{BASE_URL}}/v3/graphql
+  body: graphql
+  auth: inherit
+}
+
+body:graphql {
+  query {
+    cards(filters: { id: "eq:base1-1" }) {
+      id
+      locales(langs: ["en", "fr", "de"]) {
+        lang
+        name
+        attacks {
+          name
+          damage
+          effect
+          cost
+        }
+        description
+      }
+    }
+  }
+  
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
