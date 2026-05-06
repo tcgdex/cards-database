@@ -79,13 +79,24 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760671,
+				tcgplayer: 542785
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760671,
+				tcgplayer: 542785
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761970,
+			}
 		},
 		{
 			type: "normal",
@@ -95,9 +106,6 @@ const card: Card = {
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 760671
-	}
 }
 
 export default card
