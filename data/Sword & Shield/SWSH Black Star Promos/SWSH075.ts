@@ -56,13 +56,6 @@ const card: Card = {
 
 	retreat: 3,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	variants: [
 			{
 				type: "holo",
