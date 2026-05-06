@@ -99,15 +99,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "1999-2000-copyright",
+			subtype: "unlimited",
 			thirdParty: {
 				cardmarket: 273699,
 				tcgplayer: 42382
 			}
-		},
-		{
-			type: "holo",
-			subtype: "unlimited"
 		},
 		{
 			type: "holo",
@@ -116,18 +112,14 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			subtype: "shadowless"
-		},
-		{
-			type: "V2",
-			cardmarketLabels: ["Firc Spin Decu"]
-		},
-		{
-			type: "V2",
-			cardmarketLabels: ["Firc Spin Decu"],
+			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660224
 			}
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright"
 		}
 	],
 
