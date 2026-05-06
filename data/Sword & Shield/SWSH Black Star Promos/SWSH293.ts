@@ -78,12 +78,11 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [889],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+			{
+				type: "holo",
+			}
+		],
 
 	regulationMark: "D",
 	suffix: "V"

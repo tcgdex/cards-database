@@ -63,6 +63,12 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	variants: [
+			{
+				type: "holo",
+			}
+		],
+		
 	regulationMark: "D"
 }
 

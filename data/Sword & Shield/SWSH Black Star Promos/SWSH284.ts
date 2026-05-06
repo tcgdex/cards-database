@@ -79,12 +79,11 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+			{
+				type: "holo",
+			}
+		],
 
 	regulationMark: "E"
 }

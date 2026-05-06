@@ -28,12 +28,11 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+			{
+				type: "holo",
+			}
+		],
 
 	regulationMark: "E"
 }
