@@ -99,7 +99,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "holo",
+			subtype: "unlimited"
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
 			thirdParty: {
 				cardmarket: 273699,
 				tcgplayer: 42382
@@ -107,20 +116,8 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			subtype: "shadowless"
 		},
-		{
-			type: "holo",
-			subtype: "shadowless",
-			thirdParty: {
-				cardmarket: 660224
-			}
-		},
-		{
-			type: "holo",
-			subtype: "1999-2000-copyright"
-		}
 	],
 
 }

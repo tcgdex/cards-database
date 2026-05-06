@@ -20,10 +20,20 @@ const card: Card = {
 		it: "Togli tutti i segnalini danno da tutti i tuoi Pokémon e poi scarta tutte le carte Energia assegnate a quei Pokémon."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
 			thirdParty: {
 				cardmarket: 273780
 			}
@@ -31,18 +41,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660121
 			}
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
 		}
 	],
 }

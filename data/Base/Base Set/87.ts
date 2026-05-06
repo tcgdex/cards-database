@@ -20,10 +20,20 @@ const card: Card = {
 		it: "Guarda un massimo di 5 carte in cima al tuo mazzo e rimettile nell'ordine che vuoi."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
 			thirdParty: {
 				cardmarket: 273782
 			}
@@ -31,18 +41,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660119
 			}
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
 		}
 	],
 }

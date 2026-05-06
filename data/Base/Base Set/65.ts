@@ -58,7 +58,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
 			thirdParty: {
 				cardmarket: 273760,
 				tcgplayer: 42410
@@ -67,18 +76,9 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660162
 			}
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
 		}
 	],
 }
