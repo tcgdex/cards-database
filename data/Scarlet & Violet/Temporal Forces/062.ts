@@ -62,25 +62,36 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760692,
+				tcgplayer: 542806
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760692,
+				tcgplayer: 542806
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761971,
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 821592,
+			}
 		},
-		{
-			type: "normal"
-		}
 	],
 
 	illustrator: "Takeshi Nakamura",
 
-	thirdParty: {
-		cardmarket: 760692
-	}
 }
 
 export default card

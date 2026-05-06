@@ -69,29 +69,32 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760753,
+				tcgplayer: 542867
+			}
 		},
 		{
 			type: "holo",
-			size: "jumbo"
-		},
-		{
-			type: "holo",
-			stamp: ["player-rewards-program"]
-		},
-		{
-			type: "holo",
+			size: "jumbo",
 			stamp: ["set-logo"],
-			size: "jumbo"
-		}
+			thirdParty: {
+				cardmarket: 764114,
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 786646,
+			}
+		},
 	],
 
 	suffix: "ex",
 	illustrator: "aky CG Works",
 
-	thirdParty: {
-		cardmarket: 760753
-	}
 }
 
 export default card

@@ -70,16 +70,26 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "reverse"
-		},
-		{
 			type: "holo",
-			stamp: ["player-rewards-program"],
-			foil: "cosmos",
-		}
+			thirdParty: {
+				cardmarket: 760759,
+				tcgplayer: 542873
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760759,
+				tcgplayer: 542873
+			}
+		},
+		{
+			type: "normal",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 883689,
+			}
+		},
 	],
 
 	illustrator: "Teeziro",

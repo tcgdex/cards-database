@@ -62,22 +62,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		},
-		{
 			type: "normal",
-			stamp: ["trick-or-trade"]
-		}
+			thirdParty: {
+				cardmarket: 760769,
+				tcgplayer: 542883
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760769,
+				tcgplayer: 542883
+			}
+		},
 	],
 
 	illustrator: "KEIICHIRO ITO",
 
-	thirdParty: {
-		cardmarket: 760769
-	}
 }
 
 export default card
