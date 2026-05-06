@@ -79,20 +79,24 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760642,
+				tcgplayer: 542658
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["player-rewards-program"]
-		}
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 865202,
+			}
+		},
 	],
 
 	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
 
-	thirdParty: {
-		cardmarket: 760642
-	}
 }
 
 export default card

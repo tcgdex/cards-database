@@ -60,26 +60,30 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760707,
+				tcgplayer: 542821
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760707,
+				tcgplayer: 542821
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos", 
+			thirdParty: {
+				cardmarket: 766664,
+			}
 		},
-		{
-			type: "normal",
-			stamp: ["trick-or-trade"]
-		}
 	],
 
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 760707
-	}
 }
 
 export default card

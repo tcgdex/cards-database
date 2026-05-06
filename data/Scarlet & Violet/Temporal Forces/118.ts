@@ -70,17 +70,28 @@ const card: Card = {
 	regulationMark: "H",
 
 	variants: [
-		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		},
-		{
-			type: "normal",
-			stamp: ["set-logo"]
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 760748,
+			tcgplayer: 542862
 		}
-	],
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 760748,
+			tcgplayer: 542862
+		}
+	},
+	{
+		type: "normal",
+		stamp: ["set-logo"],
+		thirdParty: {
+			cardmarket: 866038,
+		}
+	},
+],
 
 	illustrator: "Tonji Matsuno",
 

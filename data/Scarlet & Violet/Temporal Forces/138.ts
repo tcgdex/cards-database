@@ -62,11 +62,19 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760768,
+				tcgplayer: 542882
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760768,
+				tcgplayer: 542882
+			}
+		},
 	],
 
 	illustrator: "Toshinao Aoki",

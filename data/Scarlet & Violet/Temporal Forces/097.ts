@@ -60,22 +60,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		},
-		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
-		}
+			thirdParty: {
+				cardmarket: 760727,
+				tcgplayer: 542841
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760727,
+				tcgplayer: 542841
+			}
+		},
 	],
 
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 760727
-	}
 }
 
 export default card
