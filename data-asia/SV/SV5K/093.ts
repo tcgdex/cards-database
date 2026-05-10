@@ -7,7 +7,8 @@ const card: Card = {
 	name: {
 		ja: "ウガツホムラex",
 		'zh-tw': "破空焰ex",
-		th: "เพลิงทะลวงex"
+		th: "เพลิงทะลวงex",
+		ko: "꿰뚫는화염 ex"
 	},
 
 	illustrator: "Teeziro",
@@ -23,7 +24,8 @@ const card: Card = {
 		name: {
 			ja: "ヒートブラスト",
 			'zh-tw': "高溫爆破",
-			th: "ฮีทบลาสต์"
+			th: "ฮีทบลาสต์",
+			ko: "히트블라스트"
 		},
 
 		damage: 60
@@ -33,7 +35,8 @@ const card: Card = {
 		name: {
 			ja: "れっかばくしん",
 			'zh-tw': "烈火爆進",
-			th: "ไฟลุกบุกทะลวง"
+			th: "ไฟลุกบุกทะลวง",
+			ko: "열화맥진"
 		},
 
 		damage: 260,
