@@ -50,7 +50,7 @@ pl.forEach((it) => list[`${it.id.toLowerCase()}pl`] = it)
 // @ts-expect-error there is currently not cards here
 ru.forEach((it) => list[`${it.id.toLowerCase()}ru`] = it)
 ja.forEach((it) => list[`${it.id.toLowerCase()}ja`] = it)
-// @ts-expect-error there is currently not cards here
+// @ts-ignore ts can't load file
 ko.forEach((it) => list[`${it.id.toLowerCase()}ko`] = it)
 // @ts-ignore ts can't load file
 zhtw.forEach((it) => list[`${it.id.toLowerCase()}zh-tw`] = it)
