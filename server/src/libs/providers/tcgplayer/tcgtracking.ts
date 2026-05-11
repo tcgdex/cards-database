@@ -1,25 +1,22 @@
-import fs from 'node:fs/promises'
-import path from 'node:path'
+import { sets } from '../../../V2/Components/Set'
 
-interface ResolvedPricingEntry {
-	target: 'card' | 'variant'
-	tcgplayerProductId: number
-	priceType: string
-	low?: number
-	market?: number
+const TCGTRACKING_API_BASE_URL = 'https://tcgtracking.com/tcgapi/v1'
+
+/**
+ * TCGTracking sometimes exposes a set under a different ID than the
+ * existing TCGDex / TCGPlayer set ID.
+ */
+const TCGTRACKING_SET_ID_OVERRIDES: Record<number, number> = {
+	// Black Bolt: TCGDex/TCGPlayer ID 22325, TCGTracking ID 24325
+	22325: 24325,
 }
 
-interface ResolvedPricingCard {
-	cardId: string
-	sourceFetchedAt: string
-	sourceUpdated?: string
-	prices: ResolvedPricingEntry[]
-}
-
-interface ResolvedPricingFile {
-	source: 'tcgtracking'
-	createdAt: string
-	cards: ResolvedPricingCard[]
+interface SetPricingResponse {
+	set_id: number
+	updated: string
+	prices: Record<string, {
+		tcg?: Record<string, { low?: number; market?: number }>
+	}>
 }
 
 export interface PriceResult {
@@ -31,72 +28,86 @@ export interface PriceResult {
 	directLowPrice?: number
 }
 
-// Index: productId → normalised-price-type → PriceResult
+// productId → normalised-price-type → PriceResult
 let cache: Record<number, Record<string, PriceResult>> = {}
-let lastLoaded: Date | undefined = undefined
-let lastUpdated: string | undefined = undefined
-
-// Can be overridden via TCGTRACKING_PRICING_PATH env var for Docker / custom setups.
-// Default: one level above the server directory (standard repo layout).
-const RESOLVED_PRICING_PATH = process.env.TCGTRACKING_PRICING_PATH ?? path.join(
-	process.cwd(),
-	'..',
-	'var',
-	'models',
-	'tcgtracking',
-	'resolved-pricing.json',
-)
+let lastFetch: Date | undefined = undefined
 
 export async function updateTCGPlayerDatas(): Promise<boolean> {
-	try {
-		const stat = await fs.stat(RESOLVED_PRICING_PATH)
+	// Refresh at most once per hour
+	if (lastFetch && Date.now() - lastFetch.getTime() < 3600000) {
+		return false
+	}
 
-		// Skip reload when file hasn't changed since last load
-		if (lastLoaded && stat.mtimeMs <= lastLoaded.getTime()) {
-			return false
-		}
+	const setIds = sets.en
+		.filter((it) => it?.thirdParty?.tcgplayer)
+		.map((it) => it!.thirdParty!.tcgplayer!)
 
-		const raw = await fs.readFile(RESOLVED_PRICING_PATH, 'utf8')
-		const data = JSON.parse(raw) as ResolvedPricingFile
+	const newCache: Record<number, Record<string, PriceResult>> = {}
+	let loaded = 0
+	let failed = 0
 
-		if (data.source !== 'tcgtracking') {
-			console.warn('TCGTracking: unexpected source in resolved-pricing.json:', data.source)
-			return false
-		}
+	for (const setId of setIds) {
+		const fetchSetId = TCGTRACKING_SET_ID_OVERRIDES[setId] ?? setId
 
-		const newCache: Record<number, Record<string, PriceResult>> = {}
+		try {
+			const res = await fetch(
+				`${TCGTRACKING_API_BASE_URL}/3/sets/${fetchSetId}/pricing`,
+				{ headers: { Accept: 'application/json' } },
+			)
 
-		for (const card of data.cards) {
-			for (const price of card.prices) {
-				const productId = price.tcgplayerProductId
-				const key = price.priceType.toLowerCase().replaceAll(' ', '-')
+			if (!res.ok) {
+				failed++
+				console.warn(
+					`TCGTracking: set ${fetchSetId} returned ${res.status} ${res.statusText}`,
+				)
+				continue
+			}
 
-				if (!newCache[productId]) {
-					newCache[productId] = {}
+			const data = (await res.json()) as SetPricingResponse
+
+			for (const [productIdStr, productPricing] of Object.entries(data.prices ?? {})) {
+				const productId = Number(productIdStr)
+
+				if (!productPricing.tcg) {
+					continue
 				}
 
-				newCache[productId][key] = {
-					productId,
-					lowPrice: price.low ?? 0,
-					midPrice: 0,
-					highPrice: 0,
-					marketPrice: price.market,
+				const productCache: Record<string, PriceResult> = {}
+
+				for (const [priceType, price] of Object.entries(productPricing.tcg)) {
+					const key = priceType.toLowerCase().replaceAll(' ', '-')
+
+					if (typeof price.low === 'number' || typeof price.market === 'number') {
+						productCache[key] = {
+							productId,
+							lowPrice: price.low ?? 0,
+							midPrice: 0,
+							highPrice: 0,
+							marketPrice: price.market,
+						}
+					}
+				}
+
+				if (Object.keys(productCache).length > 0) {
+					newCache[productId] = productCache
 				}
 			}
-		}
 
-		cache = newCache
-		lastLoaded = new Date()
-		lastUpdated = data.createdAt
-
-		return true
-	} catch (error) {
-		if (isNodeError(error) && error.code === 'ENOENT') {
-			console.warn('TCGTracking: resolved-pricing.json not found:', RESOLVED_PRICING_PATH)
-			return false
+			loaded++
+		} catch (error) {
+			failed++
+			console.warn(
+				`TCGTracking: failed to load set ${fetchSetId}: ${error instanceof Error ? error.message : String(error)}`,
+			)
 		}
-		throw error
 	}
+
+	cache = newCache
+	lastFetch = new Date()
+
+	console.log(`TCGTracking: loaded ${loaded} sets, ${failed} failed`)
+
+	return true
 }
 
 export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number } }): Promise<{
@@ -104,7 +115,7 @@ export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number
 	updated: string
 	[key: string]: unknown
 } | null> {
-	if (!lastLoaded || typeof card.thirdParty?.tcgplayer !== 'number') {
+	if (!lastFetch || typeof card.thirdParty?.tcgplayer !== 'number') {
 		return null
 	}
 
@@ -115,12 +126,8 @@ export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number
 	}
 
 	return {
-		updated: lastUpdated ?? lastLoaded.toISOString(),
+		updated: lastFetch.toISOString(),
 		unit: 'USD',
 		...variants,
 	}
-}
-
-function isNodeError(error: unknown): error is NodeJS.ErrnoException {
-	return error instanceof Error && 'code' in error
 }
