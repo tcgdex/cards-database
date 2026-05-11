@@ -1,8 +1,12 @@
 import * as OfficialTCGPlayer from './official'
 import * as Fallback from './fallback'
+import * as TCGTracking from './tcgtracking'
 import type RFC7807 from '../../RFCs/RFC7807'
 
-let source: (typeof OfficialTCGPlayer) | (typeof Fallback) = Fallback
+type Source = typeof OfficialTCGPlayer | typeof Fallback | typeof TCGTracking
+
+let source: Source
+
 if (
 	process.env.TCGPLAYER_CLIENT_ID
 	&& process.env.TCGPLAYER_CLIENT_SECRET
@@ -10,8 +14,14 @@ if (
 ) {
 	console.log('loading official TCGPlayer backend')
 	source = OfficialTCGPlayer
-} else {
+} else if (process.env.PRICING_SOURCE === 'tcgcsv') {
 	console.log('loading fallback TCGPlayer backend')
+	source = Fallback
+} else {
+	// TCGTracking is the default — reads from var/models/tcgtracking/resolved-pricing.json
+	// Set PRICING_SOURCE=tcgcsv to revert to the old live TCGCSV fetch.
+	console.log('loading TCGTracking backend')
+	source = TCGTracking
 }
 
 

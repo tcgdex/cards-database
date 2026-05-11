@@ -9,7 +9,19 @@
 		"dex:audit:report": "bun scripts/pokedexIdFixer/audit-dex-ids.ts --report",
 		"dex:fix:dry-run": "bun scripts/pokedexIdFixer/fix-dex-ids.ts --dry-run",
 		"dex:fix:apply": "bun scripts/pokedexIdFixer/fix-dex-ids.ts --apply",
-		"dex:lint": "bun scripts/pokedexIdFixer/lint-dex-ids.ts"
+		"dex:lint": "bun scripts/pokedexIdFixer/lint-dex-ids.ts",
+
+		"tcgtracking:preload": "bun scripts/preloadTCGTracking.ts",
+		"tcgtracking:update-pricing": "bun scripts/updatePricingFromTCGTracking.ts",
+		"tcgtracking:update-pricing:dry-run": "bun scripts/updatePricingFromTCGTracking.ts --dry-run",
+		"tcgtracking:update-pricing:apply": "bun scripts/updatePricingFromTCGTracking.ts --apply",
+
+		"pricing:preload": "bun scripts/preloadTCGTracking.ts",
+		"pricing:preload:backup": "bun scripts/preloadTCGPlayer.ts",
+		"pricing:update:dry-run": "bun scripts/updatePricingFromTCGTracking.ts --dry-run",
+		"pricing:update:apply": "bun scripts/updatePricingFromTCGTracking.ts --apply",
+		"pricing:sync": "bun scripts/preloadTCGTracking.ts && bun scripts/updatePricingFromTCGTracking.ts --apply",
+		"pricing:sync:with-backup": "bun scripts/preloadTCGTracking.ts && bun scripts/preloadTCGPlayer.ts && bun scripts/updatePricingFromTCGTracking.ts --apply",
 	},
 	"devDependencies": {
 		"@dzeio/object-util": "^1.9.2",
