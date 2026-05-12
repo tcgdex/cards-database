@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
 		fr: "Ses tentacules sont rétractés au repos. En situation de chasse, ils s'allongent."
 	},
 
