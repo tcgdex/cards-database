@@ -72,6 +72,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.",
+	},
+
 	thirdParty: {
 		cardmarket: 273951,
 		tcgplayer: 42500
