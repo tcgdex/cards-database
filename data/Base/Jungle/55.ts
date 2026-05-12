@@ -65,6 +65,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Extremely quick to anger. It could be docile one moment, then thrashing away the next.",
 		fr: "Il se met en colère très vite. Calme ou furieux, son humeur change d'une seconde à l'autre."
 	},
 

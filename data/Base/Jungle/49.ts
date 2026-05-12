@@ -65,6 +65,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
 		fr: "Un Pokémon carnivore qui se nourrit de petits insectes. Ses racines servent d'attaches."
 	},
 
