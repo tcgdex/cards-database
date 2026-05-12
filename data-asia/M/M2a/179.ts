@@ -1,0 +1,24 @@
+import { Card } from "../../../interfaces";
+import Set from "../M2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		ja: "ロケット団のラムダ",
+	},
+
+	illustrator: "GOSSAN",
+	category: "Trainer",
+
+	effect: {
+		ja: "自分の山札からトレーナーズを1枚選び、相手に見せて、手札に加える。そして山札を切る。\nサポートは、自分の番に1枚しか使えない。",
+	},
+
+	variants: [{"type": "holo"}],
+
+	trainerType: "Supporter",
+	regulationMark: "I",
+	rarity: "Uncommon",
+};
+
+export default card;

@@ -1,0 +1,34 @@
+import { Card } from "../../../interfaces";
+import Set from "../M2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		ja: "ユキワラシ",
+	},
+
+	illustrator: "June",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Water"],
+
+	description: {
+		ja: "ユキワラシの 棲みついた 家は お金持ちになるという 言い伝えが 雪国には 残っている。",
+	},
+
+	stage: "Basic",
+
+	attacks: [{"name": {"ja": "ひんやり"}, "damage": "10", "cost": ["Water"], "effect": {"ja": ""}}],
+
+	weaknesses: [{"type": "Metal", "value": "x2"}],
+	resistances: [],
+
+	variants: [{"type": "holo"}],
+
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "Illustration rare",
+	dexId: [361],
+};
+
+export default card;

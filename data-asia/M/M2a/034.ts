@@ -1,0 +1,36 @@
+import { Card } from "../../../interfaces";
+import Set from "../M2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		ja: "ロケット団のフリーザー",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	category: "Pokemon",
+	hp: 120,
+	types: ["Water"],
+
+	description: {
+		ja: "氷を 自在に 操る 力を もつ。 永久凍土の 雪山に 棲んでいるという。",
+	},
+
+	stage: "Basic",
+
+	abilities: [{"type": "Ability", "name": {"ja": "レジストヴェール"}, "effect": {"ja": "このポケモンがいるかぎり、自分の場のたねポケモンの「ロケット団のポケモン」全員は、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）"}}],
+
+	attacks: [{"name": {"ja": "ダークフロスト"}, "damage": "60+", "cost": ["Water"], "effect": {"ja": "このポケモンに「ロケット団エネルギー」がついているなら、60ダメージ追加。"}}],
+
+	weaknesses: [{"type": "Lightning", "value": "x2"}],
+	resistances: [],
+
+	variants: [{"type": "holo"}],
+
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "Uncommon",
+	dexId: [144],
+};
+
+export default card;
