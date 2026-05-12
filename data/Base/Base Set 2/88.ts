@@ -46,6 +46,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its newly grown legs prevent it from running. It appears to prefer swimming over trying to stand.",
+	},
+
 	thirdParty: {
 		cardmarket: 274011,
 		tcgplayer: 42539
