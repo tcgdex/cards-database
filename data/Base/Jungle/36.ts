@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
 		fr: "Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement."
 	},
 

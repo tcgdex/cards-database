@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
 		fr: "Plus ses pétales sont grands, plus ils contiennent de pollen toxique."
 	},
 
