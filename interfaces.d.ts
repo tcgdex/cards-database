@@ -97,6 +97,7 @@ export interface variant_detailed {
 	thirdParty?: {
 		tcgplayer?: number
 		cardmarket?: number
+		cardtrader?: number
 	}
 }
 
@@ -167,6 +168,7 @@ export interface Set {
 	thirdParty?: {
 		cardmarket?: number
 		tcgplayer?: number
+		cardtrader?: number
 	}
 }
 
@@ -403,6 +405,7 @@ export interface Card {
 	thirdParty?: {
 		tcgplayer?: number
 		cardmarket?: number
+		cardtrader?: number
 	}
 }
 
