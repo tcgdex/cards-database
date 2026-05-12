@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
 		fr: "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite."
 	},
 
