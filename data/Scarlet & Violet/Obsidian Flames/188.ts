@@ -28,15 +28,35 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 742991,
+				tcgplayer: 509780,
+				cardtrader: 256084
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725268,
+				tcgplayer: 509780,
+				cardtrader: 256084
+			}
+		},
+		{
+			type: 'reverse',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 725268
+			}
+		},
+	],
 
 	illustrator: "kirisAki",
 
-	thirdParty: {
-		cardmarket: 725268
-	}
+	
 }
 
 export default card
