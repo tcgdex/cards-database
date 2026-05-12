@@ -1,0 +1,40 @@
+import { Card } from "../../../interfaces";
+import Set from "../M4";
+
+const card: Card = {
+	set: Set,
+	name: {
+		ja: "メガドラミドロex",
+	},
+
+	illustrator: "5ban Graphics",
+	category: "Pokemon",
+	hp: 330,
+	types: ["Dragon"],
+
+	description: {
+		ja: "",
+	},
+
+	stage: "Stage1",
+	attacks: [
+		{ "name": { "ja": "ふしょくえき" }, "damage": "", "cost": [], "effect": { "ja": "相手のポケモン全員についている「ポケモンのどうぐ」と「特殊エネルギー」を、すべてトラッシュする。" } },
+		{ "name": { "ja": "デッドリーポイズン" }, "damage": "", "cost": ["Water", "Darkness"], "effect": { "ja": "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は16個になる。" } }
+	],
+
+	
+	weaknesses: [],
+	
+	resistances: [],
+	
+	retreat: 2,
+
+	variants: [{"type": "normal"}],
+	evolveFrom: {
+		ja: "クズモー",
+	},
+	rarity: "Double rare",
+	regulationMark: "I",
+};
+
+export default card;

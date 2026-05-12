@@ -1,0 +1,42 @@
+import { Card } from "../../../interfaces";
+import Set from "../M4";
+
+const card: Card = {
+	set: Set,
+	name: {
+		ja: "デンリュウ",
+	},
+
+	illustrator: "CHORISO",
+	category: "Pokemon",
+	hp: 160,
+	types: ["Lightning"],
+
+	description: {
+		ja: "尻尾の 先が 光り輝く。 光は はるか 遠くまで 届き 迷った者の 道標となる。",
+	},
+
+	stage: "Stage2",
+	abilities: [{"type": "Ability", "name": { "ja": "シンクロパルス" }, "effect": { "ja": "自分の手札と相手の手札が同じ枚数なら、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+80」される。" }}],
+
+	attacks: [
+		{ "name": { "ja": "フラッシュボルト" }, "damage": "140", "cost": ["Lightning"], "effect": { "ja": "次の自分の番、このポケモンは「フラッシュボルト」が使えない。" } }
+	],
+
+	
+	weaknesses: [{ "type": "Fighting", "value": "x2" }],
+	
+	resistances: [],
+	
+	retreat: 2,
+
+	variants: [{"type": "normal"}],
+	evolveFrom: {
+		ja: "モココ",
+	},
+	rarity: "Rare",
+	dexId: [181],
+	regulationMark: "I",
+};
+
+export default card;
