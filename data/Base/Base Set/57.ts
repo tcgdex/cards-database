@@ -64,6 +64,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
 		fr: "Il est souvent vu dans les forêts. Il brasse l'air de ses ailes près du sol pour projeter du sable.",
 		it: "È una presenza comune nelle foreste e nei boschi. Sbatte le ali quando è a terra per alzare sabbia accecante. LIV 8 N.16"
 	},

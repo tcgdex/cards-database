@@ -56,6 +56,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
 		fr: "Ses petites pattes sont équipées de ventouses, lui permettant de grimper aux murs.",
 		it: "La punta dei suoi piedini è costituita da ventose che gli consentono di arrampicarsi senza fatica su muri e pendenze. LIV 13 N.10"
 	},

@@ -67,6 +67,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.",
 		fr: "Il distribue des séries de coups de poing rapides comme l'éclair, invisibles à l'œil nu.",
 		it: "Anche se sembra inerme, tira fulminee scariche di pugni, impossibili da vedere. LIV 33 N.107"
 	},

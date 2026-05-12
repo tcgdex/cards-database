@@ -56,6 +56,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its newly grown legs prevent it from running. It appears to prefer swimming over trying to stand.",
 		fr: "Il court mal avec ses petites pattes. Il préfère nager que de se tenir debout.",
 		it: "Le sue gambe appena sviluppate non riescono a sostenerlo nella corsa; preferisce nuotare inceve di stare in piedi. LIV 13 N.60"
 	},

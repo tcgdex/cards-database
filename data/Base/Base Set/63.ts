@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
 		fr: "Son dos durcit avec l'âge et devient une super carapace. Il peut cracher des jets d'écume.",
 		it: "Dopo la nascita, il suo dorso si gonfia e si indurisce in un guscio. Sprizza potenti schizzi di schiuma dalla bocca. LIV 8 N.7"
 	},

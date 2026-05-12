@@ -82,6 +82,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
 		fr: "Très recherché pour son aura mystique, il est très rare et ne vit que dans des endroits précis.",
 		it: "Grazioso e magico, questo Pokémon è molto ammirato. È raro e si trova solo in determinate località. LIV 14 N.35"
 	},

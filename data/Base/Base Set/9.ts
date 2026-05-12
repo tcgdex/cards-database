@@ -86,6 +86,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
 		fr: "Constitué de Magneti reliés les uns aux autres, il apparaît lorsque le soleil brille.",
 		it: "Composto da diversi Magnemite collegati tra loro. Generalmente visibile quando compaiono le macchie solari. LIV 28 N.82"
 	},

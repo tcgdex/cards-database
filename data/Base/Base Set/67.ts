@@ -51,6 +51,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Usually found in power plants. Easily mistaken for a Monster Ball, it has zapped many people.",
 		fr: "Vivant dans les centrales, ce Pokémon survolté est souvent confondu avec une Poké Ball.",
 		it: "Si trova generalmente nelle centrali elettriche. Facilmente confondibile per una Poké Ball, ha fulminato molte persone. LIV 10 N.100"
 	},

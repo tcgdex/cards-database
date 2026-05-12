@@ -85,6 +85,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Uses its powerful tail in battle to smash, constrict, then break its prey's bones.",
 		fr: "Sa queue est une arme redoutable, il s'en sert pour attraper sa proie et lui broyer les os.",
 		it: "In combattimento, usa la sua potente coda per colpire, stritolare e poi spezzare le ossa della sua preda. LIV 48 N.34"
 	},

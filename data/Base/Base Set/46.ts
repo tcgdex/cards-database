@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail.",
 		fr: "Il préfère les endroits chauds. En cas de pluie, de la vapeur se forme autour de sa queue.",
 		it: "Ovviamente preferisce luoghi molto caldi. Se gli capita di trovarsi sotto la pioggia, si dice che esca vapore dalla punta della sua coda."
 	},

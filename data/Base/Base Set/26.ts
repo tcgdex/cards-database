@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Long considered a mythical Pokémon until recently, when a small colony was found living underwater.",
 		fr: "Longtemps considéré comme légendaire, une colonie fut découverte dans les océans.",
 		it: "Da lungo tempo considerato un Pokémon mitologico fino a quando, recentemente, ne è stata rinvenuta una piccola colonia abitante sott'acqua."
 	},

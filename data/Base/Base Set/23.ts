@@ -106,6 +106,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings.",
 		fr: "Un Pokémon très recherché pour sa grâce légendaire. Son pas élégant semble glisser sur le vent.",
 		it: "Pokémon da sempre ammirato per il suo fiero aspetto. Corre con grande agilità, come se avesse le ali. LIV 45 N.59"
 	},

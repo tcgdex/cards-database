@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It emits special alpha waves from its body that induce headaches even to those just nearby.",
 		fr: "Son corps émet des ondes alpha provoquant des migraines à ceux qui se trouvent à proximité.",
 		it: "Emette dal corpo speciali onde alfa che causano mal di testa a chiunque gli sia vicino. LIV 38 N.64"
 	},

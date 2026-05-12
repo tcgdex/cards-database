@@ -64,6 +64,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
 		fr: "Il s'enterre dans les régions arides et désertiques. Il émerge seulement pour chasser.",
 		it: "Vive in tane sotterranee in località aride, lontano da fonti d'acqua. Riappare solo quando è alla ricerca di cibo. LIV 12, N.27"
 	},

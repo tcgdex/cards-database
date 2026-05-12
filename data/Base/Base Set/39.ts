@@ -81,6 +81,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
 		fr: "Un Pokémon fait de programmes et d'algorithmes. Il peut survivre en milieu virtuel.",
 		it: "Pokémon costituito interamente da codici di programmazione. Capace di muoversi liberamente nel ciberspazio. LIV 12 N.137"
 	},

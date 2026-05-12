@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Merely by meditating, the Pokémon launches a powerful psychic energy attack.",
 		fr: "Il lui suffit de méditer pour lancer une puissante attaque psychique.",
 		it: "Con la sola forza del pensiero, Questo Pokémon lancia un potente attacco di energia psichica. LIV 23 N.124"
 	},

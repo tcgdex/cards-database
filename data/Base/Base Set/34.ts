@@ -86,6 +86,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its muscular body is so powerful that it must wear a power-save belt to help regulate its motions.",
 		fr: "Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements.",
 		it: "Il suo corpo è talmente muscoloso che è costretto ad indossare una cintura salva-energia per regolare i suoi movimenti. LIV 40 N.67"
 	},

@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon.",
 		fr: "Ses coups de poing sont si puissants qu'ils font voler ses adversaires jusqu'à l'horizon.",
 		it: "I suoi muscoli supersviluppati gli permettono di tirare pugni capaci di mandare in orbita gli avversari. LIV 67 N.68"
 	},

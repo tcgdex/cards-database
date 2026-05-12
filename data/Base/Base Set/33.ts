@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.",
 		fr: "Incapable de se déplacer de lui-même, il se défend en durcissant sa carapace.",
 		it: "Dato che non ha molta libertà di movimento, questo Pokémon può proteggersi contro i predatori solo indurendo la sua corazza. LIV 23 N.14"
 	},

@@ -86,6 +86,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
 		fr: "Excellent nageur, il pratique le crawl ou la nage papillon mieux qu'un champion olympique.",
 		it: "Abile nuotatore sia nel crawl sia a rana. Supera con facilità qualsiasi nuotatore di razza umana. LIV 48 N.62"
 	},

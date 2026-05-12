@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Often hides in water to stalk unweary prey. When swimming quickly, it moves its ears to maintain balance.",
 		fr: "Il se cache au fond de l'eau pour guetter sa proie. Ses oreilles sont des gouvernails.",
 		it: "Spesso di nasconde nell'acqua per sorprendere le prede. Quando nuota rapidamente, muove le orecchie per mantenersi in equilibrio. LIV 22 N.8"
 	},

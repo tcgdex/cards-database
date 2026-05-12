@@ -52,6 +52,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Very protective of its territory. It will bark and bite to repel intruders from its space.",
 		fr: "Pour protéger son territoire, il aboie et mord jusqu'à ce que les intrus s'enfuient.",
 		it: "Difende con tenacia il suo territorio. Abbaia e morde per cacciare gli intrusi che osano avvicinarsi. LIV 18 N.58"
 	},

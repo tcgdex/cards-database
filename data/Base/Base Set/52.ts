@@ -51,6 +51,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
 		fr: "Il adore la musculation. Il pratique les arts martiaux pour devenir encore plus fort.",
 		it: "Si allena continuamente per sviluppare al massimo i suoi muscoli d'acciaio. Pratica tutte le arti marziali per diventare sempre più invincibile. LIV 20 N.66",
 	},

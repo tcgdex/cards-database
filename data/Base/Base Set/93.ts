@@ -15,6 +15,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.",
 		fr: "Choisissez 1 Pokémon du Banc votre adversaire et échangez-le avec son Pokémon actif.",
 		de: "Wähle ein Pokémon auf der Bank Deines Gegners und tausche es mit seinem aktiven Pokémon aus.",
 		it: "Scegli un Pokémon nella Panchina del tuo avversario e scambialo con il suo Pokémon Attivo."

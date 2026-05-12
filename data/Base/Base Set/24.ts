@@ -99,6 +99,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When it swings its burning tail, it raises the temperature to unbearably high levels.",
 		fr: "En agitant sa queue, il peut élever le niveau de la température à un degré incroyable.",
 		it: "Quando rotea la coda incandescente, aumenta la temperatura a livelli insopportabilmente alti. LIV 32 N.5"
 	},
