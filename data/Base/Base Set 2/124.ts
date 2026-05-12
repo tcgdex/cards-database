@@ -13,7 +13,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		en: "Provides Colorless Colorless energy. Doesn't count as a basic Energy card.",
+		en: "Provides {C}{C} energy. Doesn't count as a basic Energy card.",
 	},
 
 	thirdParty: {
