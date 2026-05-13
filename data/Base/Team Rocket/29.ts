@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It loves nothing better than to be left alone, and so sometimes ends up being manipulated by unscrupulous people.",
 		fr: "Sa principale volonté est qu'on le laisse tranquille, il en vient parfois à être manipulé par des gens sans scrupules."
 	},
 
