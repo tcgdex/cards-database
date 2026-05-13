@@ -80,6 +80,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Researchers have observed these Pokémon reproducing in industrial waste sites.",
 		fr: "Des chercheurs ont observé ces Pokémon se reproduisant dans des sites de traitement des déchets industriels."
 	},
 

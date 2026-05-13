@@ -53,6 +53,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
 		fr: "Pour se protéger, une horrible puanteur émane de ses antennes pour repousser ses ennemis."
 	},
 

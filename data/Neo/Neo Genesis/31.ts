@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
 		fr: "S'il perd un croc, un nouveau poussera pour le remplacer. Il y a toujours 48 crocs dans sa bouche."
 	},
 

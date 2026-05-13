@@ -84,6 +84,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "This Pokémon has soft, fine hair. When angered, it increases in size and has been known to charge those it considers a threat.",
 		fr: "Ce Pokémon a des poils fins et soyeux. Quand il se met en colère, il grossit et il n'est pas impossible qu'il charge ceux qu'il considère comme une menace."
 	},
 

@@ -60,18 +60,40 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733602,
+				tcgplayer: 502548,
+				cardtrader: 261151
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733602,
+				tcgplayer: 502548,
+				cardtrader: 261151
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['pokemon-center'],
+			thirdParty: {
+				cardmarket: 721198
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 794910
+			}
+		},
 	],
 
 	illustrator: "kantaro",
 
-	thirdParty: {
-		cardmarket: 733602
-	}
+	
 }
 
 export default card

@@ -60,6 +60,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.",
 		fr: "Quand il se fait remarquer, ce Pokémon fuit à reculons en plantant furieusement sa queue dans le sol."
 	},
 

@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The number of spots on its back increase or decrease depending on the number of stars visible in the night sky.",
 		fr: "Le nombre de taches sur son dos augmente ou diminue en fonction du nombre d'étoiles visibles dans le ciel nocturne."
 	},
 

@@ -79,6 +79,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The aura it projects from its body has an effect on the surrounding climate and weather.",
 		fr: "L'aura qui enveloppe son corps a un effet sur la météo et le climat environnants."
 	},
 

@@ -69,6 +69,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
 		fr: "Il transporte des baies dans sa coquille. Pour éviter les attaques, il se cache sous les pierres et reste immobile."
 	},
 

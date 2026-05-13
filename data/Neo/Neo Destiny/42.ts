@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It has a perfect sense of balance and can lash out with powerful kicks from any position.",
 		fr: "Il a un sens parfait de l'équilibre et peut donner des coups puissants dans n'importe quelle position."
 	},
 

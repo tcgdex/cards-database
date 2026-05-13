@@ -62,18 +62,26 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740498,
+				tcgplayer: 523625,
+				cardtrader: 265056
+			}
 		},
 		{
-			type: 'holo'
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740498,
+				tcgplayer: 523625,
+				cardtrader: 265056
+			}
 		},
 	],
 
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 740498
-	}
+	
 }
 
 export default card
