@@ -58,6 +58,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked.",
 		fr: "Même si c'est un cocon, il peut bouger un peu. Il peut allonger ses pointes empoisonnées s'il est attrapé."
 	},
 

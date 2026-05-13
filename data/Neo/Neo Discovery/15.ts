@@ -90,6 +90,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen berries.",
 		fr: "Il sait monter aux arbres, mais il préfère casser les troncs avec ses pattes avant pour manger les baies qui sont tombées."
 	},
 

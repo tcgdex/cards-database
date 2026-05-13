@@ -55,6 +55,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
 		fr: "Son dard empoisonné est très puissant. Son corps de couleur criarde est conçu pour repousser ses ennemis."
 	},
 
