@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
 		fr: "Il possède une botte secrète dévastatrice. Il frotte sa fourrure de flamme pour provoquer de gigantesques explosions."
 	},
 

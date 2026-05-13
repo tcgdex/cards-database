@@ -65,6 +65,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
+	},
 	variants: [
 		{
 			type: "normal"

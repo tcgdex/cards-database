@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Normally found only in the deep ocean, it has recently been seen in shallow waters as well.",
 		fr: "On le trouvait habituellement dans les profondeurs de l'océan, mais il a été vu récemment dans des eaux peu profondes."
 	},
 

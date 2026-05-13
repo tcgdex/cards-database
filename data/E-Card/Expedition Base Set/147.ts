@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Flip a coin. If heads, shuffle 2 Energy cards from your discard pile into your deck (1 if you have only 1).",
 		fr: "Lancez une pièce. Si c'est face, mélangez 2 cartes Énergie de votre pile de défausse à votre deck (1 seule si vous n'en avez qu'une).",
 		de: "Wirf eine Münze. Mische bei 'Kopf' 2 Energiekarten aus deinem Ablagestapel in dein Deck (1, wenn du nur 1 hast)."
 	},

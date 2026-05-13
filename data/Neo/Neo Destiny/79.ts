@@ -67,6 +67,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Although possessed of great mental powers, it doesn't know how to use them.",
 		fr: "Bien que possédant d'immenses pouvoirs mentaux, il ne sait pas les utiliser."
 	},
 

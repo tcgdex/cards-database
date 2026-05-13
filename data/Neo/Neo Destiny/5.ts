@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its powerful muscles allow it to move at a speed that belies its bulk.",
 		fr: "Ses muscles surpuissants lui permettent de se déplacer très vite et ce, malgré sa forte corpulence."
 	},
 

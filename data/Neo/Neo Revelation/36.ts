@@ -85,6 +85,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
 		fr: "S'il charge un ennemi, les poils de son dos se dressent à la verticale. Il est très sensible aux sons."
 	},
 

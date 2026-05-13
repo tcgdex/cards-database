@@ -60,6 +60,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is hard for it to support its own weight out of water, so it gets down on all fours. But it moves fast.",
 		fr: "Il lui est difficile de supporter son propre poids hors de l'eau, c'est pourquoi il se met à quatre pattes. Mais il se déplace rapidement."
 	},
 
