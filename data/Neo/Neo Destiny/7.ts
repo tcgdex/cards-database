@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The flame it breathes is actually a volatile poison it produces internally that ignites when exposed to air.",
 		fr: "Les flammes qu'il crache sont en fait un poison qu'il sécrète et qui s'enflamme au contact de l'air."
 	},
 

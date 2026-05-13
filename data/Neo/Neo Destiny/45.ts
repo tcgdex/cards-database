@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It has an aerodynamic shape that allows it to swim at great speeds. The colder the water gets, the more active it becomes.",
 		fr: "Il a une forme aérodynamique qui lui permet de nager à de grandes vitesses. Plus l'eau est froide, plus il est actif."
 	},
 

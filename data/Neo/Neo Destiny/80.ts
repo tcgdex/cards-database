@@ -53,6 +53,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It can shoot a burst of water from its mouth to propel itself backward at high speeds, allowing it to flee from surprised enemies.",
 		fr: "Il peut lancer de l'eau avec sa gueule pour se propulser en arrière à grande vitesse, ce qui lui permet d'échapper à ses ennemis."
 	},
 
