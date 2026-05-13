@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is very timid. It's afraid to move if alone, but it's active if in a group.",
 		fr: "Il est très timide. Il a peur de se déplacer seul, mais il est très actif lorsqu'il est en groupe."
 	},
 

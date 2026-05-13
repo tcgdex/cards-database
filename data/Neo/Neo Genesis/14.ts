@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When its head was bitten, toxins entered Slowpoke's head and unlocked an extraordinary power.",
 		fr: "Un jour qu'il fut mordu à la tête, des toxines pénétrèrent dans le cerveau de Ramoloss en libérant un pouvoir extraordinaire."
 	},
 

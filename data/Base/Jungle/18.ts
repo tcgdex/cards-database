@@ -74,6 +74,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
 		fr: "Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser."
 	},
 

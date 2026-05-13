@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Drifts on seasonal winds and spreads its cotton-like spores all over the world to make more offspring.",
 		fr: "Il dérive au gré des vents saisonniers et sème ses spores cotonneuses dans le monde entier pour se reproduire."
 	},
 

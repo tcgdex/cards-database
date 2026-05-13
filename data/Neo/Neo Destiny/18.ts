@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The shell on its back comes off easily, exposing the flames running through its body.",
 		fr: "La carapace qui couvre son dos s'enlève facilement, exposant à l'air son corps enflammé."
 	},
 

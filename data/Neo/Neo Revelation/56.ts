@@ -66,6 +66,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "At night, the center of its body slowly flickers with the same rhythm as a human heartbeat.",
 		fr: "La nuit, le centre de son corps clignote doucement au rythme d'un cœur humain."
 	},
 

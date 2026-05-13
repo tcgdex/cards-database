@@ -82,6 +82,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
 		fr: "Une fois son adversaire mordu, il absorbera son énergie même s'il devient trop gros pour voler."
 	},
 

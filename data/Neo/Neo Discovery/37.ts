@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty.",
 		fr: "Il ne cesse de grandir et de changer de peau. La pointe de sa tête est très recherchée à cause de sa beauté."
 	},
 

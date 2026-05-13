@@ -73,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "In the water, it tucks its limbs to become more compact, then it wiggles its shell to swim fast.",
 		fr: "Dans l'eau, il rentre ses pattes pour devenir plus compact, puis il agite sa carapace pour nager plus vite."
 	},
 

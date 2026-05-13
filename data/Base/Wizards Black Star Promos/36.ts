@@ -42,6 +42,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere.",
 		fr: "Son corps extrêmement flexible et élastique le fait rebondir continuellement ─ tout le temps, et dans toutes les directions."
 	},
 
