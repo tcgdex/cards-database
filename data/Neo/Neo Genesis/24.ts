@@ -69,6 +69,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost.",
 		fr: "On prétend que lorsqu'il est poursuivi, il attire son attaquant sur de sombres pistes de montagne où le traqueur se perd."
 	},
 

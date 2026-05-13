@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is timid and always curls itself up in a ball. If attacked, it flares up its back for protection.",
 		fr: "Il est timide et se roule toujours en boule. Quand on l'attaque, il enflamme son dos pour se protéger."
 	},
 
