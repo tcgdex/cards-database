@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A Pokémon that races across the land while barking a cry that sounds like crashing thunder.",
 		fr: "Un Pokémon qui court de par le monde en poussant des aboiements qui ressemblent à des coups de tonnerre."
 	},
 
