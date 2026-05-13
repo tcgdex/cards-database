@@ -11,6 +11,9 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	effect: {
+		en: "For each of your Pokémon, you may return any number of Energy cards attached to it to your hand.",
+	},
 	thirdParty: {
 		cardmarket: 274258,
 		tcgplayer: 85213
