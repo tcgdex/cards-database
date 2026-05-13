@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "おたがいの「Grass」ポケモン全員は、出したばかりの番（最初の自分の番をのぞく）でも「Grass」ポケモンに進化できる。\nスタジアムは、自分の番に1枚、バトル場の横に出せる。別のスタジアムが場に出たなら、このカードをトラッシュする。同じ名前のスタジアムは場に出せない。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Stadium",
 	regulationMark: "I",

@@ -19,7 +19,7 @@ const card: Card = {
 	weaknesses: [],
 	resistances: [],
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	evolveFrom: {
 		ja: "ドロンチ",

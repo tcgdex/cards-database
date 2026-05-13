@@ -25,7 +25,7 @@ const card: Card = {
 	weaknesses: [{"type": "Lightning", "value": "x2"}],
 	resistances: [],
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	retreat: 1,
 	regulationMark: "I",

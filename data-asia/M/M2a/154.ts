@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "この番、自分の「Fighting」ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。\nグッズは、自分の番に何枚でも使える。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Item",
 	regulationMark: "I",

@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "自分のサイドの残り枚数が、相手のサイドの残り枚数より多いなら、このカードをつけているポケモンがワザを使うためのエネルギーは、「Colorless」エネルギー1個ぶん少なくなる。\nポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Tool",
 	regulationMark: "I",

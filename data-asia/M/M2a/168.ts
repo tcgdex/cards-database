@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "このカードは、自分の手札を1枚トラッシュしなければ使えない。 自分の手札が6枚になるように、山札を引く。\nサポートは、自分の番に1枚しか使えない。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Supporter",
 	regulationMark: "I",

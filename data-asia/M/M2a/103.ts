@@ -23,7 +23,7 @@ const card: Card = {
 	weaknesses: [{"type": "Lightning", "value": "x2"}],
 	resistances: [],
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	evolveFrom: {
 		ja: "ロケット団のヤミカラス",

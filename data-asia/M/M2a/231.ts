@@ -21,7 +21,7 @@ const card: Card = {
 	weaknesses: [{"type": "Grass", "value": "x2"}],
 	resistances: [],
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	evolveFrom: {
 		ja: "ズルッグ",

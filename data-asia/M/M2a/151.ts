@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "おたがいの場のポケモンについている「ポケモンのどうぐ」を2枚まで選び、トラッシュする。\nグッズは、自分の番に何枚でも使える。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Item",
 	regulationMark: "I",

@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "このカードをつけているポケモンは、にげるためのエネルギーが2個ぶん少なくなる。\nポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Tool",
 	regulationMark: "I",

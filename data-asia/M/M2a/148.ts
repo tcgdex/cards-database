@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "相手の場のポケモンについている特殊エネルギーを1個選び、トラッシュする。\nグッズは、自分の番に何枚でも使える。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Item",
 	regulationMark: "I",

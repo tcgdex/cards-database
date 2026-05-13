@@ -23,7 +23,7 @@ const card: Card = {
 	weaknesses: [],
 	resistances: [],
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	retreat: 1,
 	regulationMark: "I",

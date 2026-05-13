@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "このカードをつけている「シロナのポケモン」の最大HPは「＋70」される。\nポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Tool",
 	regulationMark: "I",

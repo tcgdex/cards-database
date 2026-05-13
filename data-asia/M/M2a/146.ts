@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "自分のトラッシュから基本エネルギーを1枚選び、ベンチの「Nのポケモン」につける。\nグッズは、自分の番に何枚でも使える。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Item",
 	regulationMark: "I",

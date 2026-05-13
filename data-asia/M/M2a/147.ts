@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "自分のトラッシュから基本エネルギーを5枚まで選び、相手に見せて、山札にもどして切る。\nグッズは、自分の番に何枚でも使える。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Item",
 	regulationMark: "I",

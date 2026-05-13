@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。その後、自分の手札が5枚になるように、山札を引く。\nサポートは、自分の番に1枚しか使えない。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Supporter",
 	regulationMark: "I",

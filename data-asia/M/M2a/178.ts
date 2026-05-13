@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "自分のバトル場の「ロケット団のポケモン」を、ベンチの「ロケット団のポケモン」と入れ替える。その後、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。\nサポートは、自分の番に1枚しか使えない。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Supporter",
 	regulationMark: "I",

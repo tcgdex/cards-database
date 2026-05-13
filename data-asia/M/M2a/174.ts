@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "自分の山札から「ヒビキのポケモン」と「基本「Fire」エネルギー」を合計3枚まで選び、相手に見せて、手札に加える。そして山札を切る。\nサポートは、自分の番に1枚しか使えない。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Supporter",
 	regulationMark: "I",

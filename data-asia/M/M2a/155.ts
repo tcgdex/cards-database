@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "自分の山札から「Fighting」タイプのたねポケモンまたは「基本「Fighting」エネルギー」を1枚選び、相手に見せて、手札に加える。そして山札を切る。\nグッズは、自分の番に何枚でも使える。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Item",
 	regulationMark: "I",

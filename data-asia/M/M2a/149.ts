@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "このカードは、自分の場に「テラスタル」のポケモンがいるときにしか使えない。 自分のベンチの「Colorless」ポケモンを2匹まで選び、トラッシュから基本エネルギーを1枚ずつつける。\nグッズは、自分の番に何枚でも使える。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Item",
 	regulationMark: "I",

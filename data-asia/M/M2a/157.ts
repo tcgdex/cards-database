@@ -14,7 +14,7 @@ const card: Card = {
 		ja: "自分の山札を上から7枚見て、その中から「Grass」ポケモンと「基本「Grass」エネルギー」を合計2枚まで選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。\nグッズは、自分の番に何枚でも使える。",
 	},
 
-	variants: [{"type": "holo"}],
+	variants: [{"type": "normal"}],
 
 	trainerType: "Item",
 	regulationMark: "I",
