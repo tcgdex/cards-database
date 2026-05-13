@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Some people say that Kadabras are responsible for many of the mysterious events reported in the news.",
 		fr: "Certaines personnes disent que les Kadabra sont responsables de bon nombre des mystérieux événements rapportés par les médias."
 	},
 
