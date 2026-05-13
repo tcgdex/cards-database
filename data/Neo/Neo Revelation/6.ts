@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Volcanoes erupt when it barks. Unable to restrain its extreme power, it races headlong around the land.",
 		fr: "Son cri déclenche des éruptions volcaniques. Incapable de contrôler son extrême puissance, il fonce tête baissée dans tout le pays."
 	},
 

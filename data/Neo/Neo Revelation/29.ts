@@ -82,6 +82,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily.",
 		fr: "Il peut boire jusqu'à 5 litres de sang d'un seul coup. S'il en boit trop, il devient trop lourd et a du mal à voler."
 	},
 

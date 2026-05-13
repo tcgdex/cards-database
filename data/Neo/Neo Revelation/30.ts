@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains.",
 		fr: "De nature libre et peu souciante, il se moque de perdre des fragments de pierre en roulant sur les pentes des montagnes."
 	},
 

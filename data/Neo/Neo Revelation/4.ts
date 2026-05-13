@@ -86,6 +86,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It flies so silently through the dark on its four wings that it may not be noticed even when nearby.",
 		fr: "Le battement de ses quatre ailes est si silencieux dans la nuit que personne ne remarque sa présence, même s'il est tout près."
 	},
 

@@ -74,6 +74,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If it smells something enticing, it dashes headlong off to find the source of the aroma.",
 		fr: "S'il sent quelque chose d'alléchant, il se précipite vers la source de l'arôme."
 	},
 

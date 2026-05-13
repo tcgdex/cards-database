@@ -60,6 +60,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It carries food all day long. There are tales about lost people who were saved by the food it had.",
 		fr: "Il transporte des victuailles toute la journée. On raconte que des gens perdus ont été sauvés grâce à ses réserves de nourriture."
 	},
 
