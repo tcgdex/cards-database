@@ -79,6 +79,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "These Pokémon are attracted to electrical emissions and will often follow people using PokéGear.",
 		fr: "Ces Pokémon sont attirés par les émissions électriques et ils suivent souvent les gens qui se servent de Pokéquipement."
 	},
 
