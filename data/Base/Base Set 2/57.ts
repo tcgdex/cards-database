@@ -65,6 +65,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
+	},
+
 	thirdParty: {
 		cardmarket: 273980,
 		tcgplayer: 42520

@@ -64,6 +64,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",
+	},
+
 	thirdParty: {
 		cardmarket: 273924,
 		tcgplayer: 42444

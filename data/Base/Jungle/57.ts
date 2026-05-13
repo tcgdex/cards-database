@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns.",
 		fr: "Ce Pokémon est hérissé de dards empoisonnés. Les femelles ont des dards plus petits."
 	},
 

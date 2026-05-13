@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
 		fr: "En cas de danger, il gonfle d'air son corps doux et potelé dans des proportions gigantesques."
 	},
 

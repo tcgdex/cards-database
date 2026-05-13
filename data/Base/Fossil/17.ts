@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
 		fr: "Le légendaire oiseau des glaces. On dit qu'il apparaît aux gens perdus dans les sommets."
 	},
 

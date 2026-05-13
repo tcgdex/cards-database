@@ -66,6 +66,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
+	},
+
 	thirdParty: {
 		cardmarket: 273993,
 		tcgplayer: 42490

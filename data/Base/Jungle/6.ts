@@ -74,6 +74,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If interrupted while miming, it will slap around the enemy with its broad hands.",
 		fr: "Dérangez-le pendant qu'il mime et il se battra en distribuant des volées de claques."
 	},
 
