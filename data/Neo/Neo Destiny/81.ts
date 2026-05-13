@@ -54,6 +54,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Although clumsy on land, it moves easily through the arctic waters it calls home.",
 		fr: "Bien que peu doué pour marcher sur la terre ferme, il se déplace avec aisance dans ses eaux natales de l'Arctique."
 	},
 
