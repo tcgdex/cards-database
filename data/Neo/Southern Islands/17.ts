@@ -64,6 +64,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "This Pokémon makes a loud jangling noise when it shakes its petals to spread poison powder.",
+	},
 	thirdParty: {
 		cardmarket: 275647,
 		tcgplayer: 46474

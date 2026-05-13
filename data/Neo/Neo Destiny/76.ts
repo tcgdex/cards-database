@@ -60,6 +60,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It hits people with its nose as a sign of affection but doesn't know its own strength and so sometimes knocks people off their feet.",
 		fr: "Il frappe les gens avec sa trompe en signe d'affection mais il ne connaît pas sa force ; et parfois, il frappe un peu trop fort..."
 	},
 

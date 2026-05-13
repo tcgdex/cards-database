@@ -62,9 +62,9 @@ const card: Card = {
 				pt: "Nevasca Dupla",
 			},
 			effect: {
-				en: "Discard 2 Water Energy attached to this Pokémon. This attack does 80 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez 2 Énergies Water attachées à ce Pokémon. Cette attaque inflige 80 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				pt: "Descarte 2 Energias de Água ligadas a este Pokémon. Este ataque causa 80 de danos a 2 dos Pokémon de seu oponente. (Não aplique Fraqueza ou Resistência a Pokémon no Banco.)",
+				en: "Discard 2 {W} Energy attached to this Pokémon. This attack does 80 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Défaussez 2 Énergies {W} attachées à ce Pokémon. Cette attaque inflige 80 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				pt: "Descarte 2 Energias {W} ligadas a este Pokémon. Este ataque causa 80 de danos a 2 dos Pokémon de seu oponente. (Não aplique Fraqueza ou Resistência a Pokémon no Banco.)",
 			},
 
 		},

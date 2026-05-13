@@ -23,7 +23,7 @@ const card: Card = {
 		"Lightning",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

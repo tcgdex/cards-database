@@ -76,6 +76,7 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "H",
+	suffix: "ex",
 	illustrator: "PLANETA Mochizuki"
 }
 

@@ -66,6 +66,7 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "G",
+	suffix: "ex",
 	illustrator: "Natsumi Yoshida"
 }
 

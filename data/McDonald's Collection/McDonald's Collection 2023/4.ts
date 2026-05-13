@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [974],
 
-	hp: 90,
+	hp: 100,
 
 	types: ["Water"],
 
@@ -26,26 +26,16 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Water"],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				en: "Icicle",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				en: "Frost Smash",
-				fr: "Coup de Givre",
-				es: "Golpe Gélido",
-				it: "Geloschiacciata",
-				pt: "Pancada Gélida",
-				de: "Frosthieb"
+				en: "Sharp Fin",
 			},
 			damage: 50,
 		},
@@ -60,12 +50,15 @@ const card: Card = {
 
 	retreat: 3,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725421,
+				tcgplayer: 516515
+			}
+		}
+	]
 }
 
 export default card

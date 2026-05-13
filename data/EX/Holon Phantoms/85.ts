@@ -15,7 +15,7 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		fr: "Défaussez une carte de votre main. Si vous ne pouvez pas défausser de carte de votre main, vous ne pouvez pas jouer cette carte.",
+		fr: "Défaussez une carte de votre main. Si vous ne pouvez pas défausser de carte de votre main, vous ne pouvez pas jouer cette carte.\n\nPiochez 3 cartes. Si vous avez défaussé un Pokémon possédant le symbole δ, piochez 4 cartes.",
 		de: "Lege 1 Karte von deiner Hand auf deinen Ablagestapel. Wenn du das nicht machen kannst, kannst du diese Karte nicht spielen.\n\nZiehe 3 Karten. Wenn du ein Pokémon, auf dem δ zu sehen ist, auf den Ablagestapel gelegt hast, ziehe stattdessen 4 Karten.",
 	},
 

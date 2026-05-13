@@ -10,12 +10,6 @@ const card: Card = {
 		en: "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight."
 	},
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Inkay",
 		fr: "Sepiatop",
@@ -27,10 +21,6 @@ const card: Card = {
 		"Darkness",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 281658,
-		tcgplayer: 110411,
-	},
 	attacks: [
 		{
 			cost: [
@@ -56,6 +46,18 @@ const card: Card = {
 		}
 	],
 	retreat: 1,
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281658,
+				tcgplayer: 110411
+			}
+		}
+	]
 }
 
 export default card
+

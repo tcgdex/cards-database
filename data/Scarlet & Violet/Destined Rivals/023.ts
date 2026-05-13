@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Arboliva ex"
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -84,13 +85,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825897,
+				tcgplayer: 630807
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825897
-	}
 }
 
 export default card

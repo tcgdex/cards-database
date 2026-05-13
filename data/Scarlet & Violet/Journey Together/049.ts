@@ -51,18 +51,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Iori Suzuki",
 
-	thirdParty: {
-		cardmarket: 817201
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817201,
+				tcgplayer: 623476
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817201,
+				tcgplayer: 623476
+			}
 		},
-	]
+	],
 }
 
 export default card

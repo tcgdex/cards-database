@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Ho-Oh ex do Ethan"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -74,10 +75,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675838,
-		cardmarket: 869637
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869637,
+				tcgplayer: 675838
+			}
+		}
+	],
 }
 
 export default card

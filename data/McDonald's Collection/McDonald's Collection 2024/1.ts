@@ -33,25 +33,27 @@ const card: Card = {
 		de: "Glutexo"
 	},
 
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				en: "Battle Sense"
+			},
+			effect: {
+				en: "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards."
+			}
+		}
+	],
+
 	attacks: [
 		{
-			cost: ["Fire", "Fire", "Colorless"],
+			cost: ["Fire", "Fire"],
 			name: {
-				en: "Fire Spin",
-				fr: "Danse Flammes",
-				es: "Giro Fuego",
-				it: "Turbofuoco",
-				pt: "Giro de Fogo",
-				de: "Feuerwirbel"
+				en: "Royal Blaze",
 			},
-			damage: 150,
+			damage: "100+",
 			effect: {
-				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
-				es: "Descarta 2 Energías de este Pokémon.",
-				it: "Scarta due Energie da questo Pokémon.",
-				pt: "Descarte 2 Energias deste Pokémon.",
-				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+				en: "This attack does 50 more damage for each Leon card in your discard pile.",
 			},
 		},
 	],
@@ -65,12 +67,15 @@ const card: Card = {
 
 	retreat: 3,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 802823,
+				tcgplayer: 614370
+			}
+		}
+	]
 }
 
 export default card

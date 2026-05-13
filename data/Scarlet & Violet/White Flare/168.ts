@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Jellicent ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Narano",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
@@ -84,9 +85,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836214
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836214,
+			tcgplayer: 642285
+		}
+	},
+],
 }
 
 export default card

@@ -6,12 +6,6 @@ const card: Card = {
 		183,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Marill",
 		fr: "Marill",
@@ -23,16 +17,13 @@ const card: Card = {
 		"Fairy",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 293326,
-		tcgplayer: 110430,
-	},
 	attacks: [
 		{
 			cost: [
 				"Colorless",
 			],
 			name: {
+				en: "Tackle",
 				fr: "Charge",
 			},
 			damage: "10",
@@ -43,11 +34,26 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Rollout",
 				fr: "Roulade",
 			},
 			damage: "20",
 		},
 	],
+
+	illustrator: "Shigenori Negishi",
+	retreat: 2,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 293326,
+				tcgplayer: 110430
+			}
+		}
+	]
 }
 
 export default card
+

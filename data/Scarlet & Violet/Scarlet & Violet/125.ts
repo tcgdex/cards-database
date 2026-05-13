@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "aky CG Works",
-	suffix: "EX",
+	suffix: "ex",
 
 	weaknesses: [{
 		type: "Psychic",

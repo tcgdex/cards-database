@@ -13,7 +13,16 @@ const card: Card = {
 		it: "Mega Lucario-ex",
 		pt: "Mega Lucario ex"
 	},
+	evolveFrom: {
+		en: "Riolu",
+		de: "Riolu",
+		es: "Riolu",
+		fr: "Riolu",
+		it: "Riolu",
+		pt: "Riolu",
+	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -74,10 +83,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675925,
-		cardmarket: 869724
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869724,
+				tcgplayer: 675925
+			}
+		}
+	],
 }
 
 export default card

@@ -2,25 +2,66 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
-	name: {
-		fr: "Noctali",
-	},
-	rarity: "Common",
-	category: "Pokemon",
+    name: {
+        fr: "Excelangue",
+    },
 
-	set: Set,
-	dexId: [197],
-	hp: 100,
-	types: ["Darkness"],
+    rarity: "None",
+    category: "Pokemon",
+    illustrator: "Mizue",
 
-	stage: "Stage1",
+    set: Set,
+    dexId: [108],
+    hp: 100,
+    types: ["Colorless"],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+    stage: "Basic",
+    retreat: 2,
+
+    weaknesses: [
+        {
+            type: "Fighting",
+            value: "×2"
+        },
+    ],
+
+    attacks: [
+        {
+            cost: ["Colorless", "Colorless"],
+            name: {
+                fr: "Gobeur"
+            },
+            effect: {
+                fr: "Piochez 3 cartes."
+            }
+        },
+        {
+            cost: ["Colorless", "Colorless", "Colorless"],
+            name: {
+                fr: "Souplesse"
+            },
+            damage: "50×",
+            effect: {
+                fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
+            }
+        },
+    ],
+
+    variants: [
+        {
+            type: 'normal',
+            thirdParty: {
+                cardmarket: 479859,
+            }
+        },
+        {
+            type: 'holo',
+            thirdParty: {
+                cardmarket: 581890,
+            }
+        }
+    ]
 }
 
 export default card
+

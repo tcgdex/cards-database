@@ -71,29 +71,30 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760708,
+				tcgplayer: 542822
+			}
 		},
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 760708,
+				tcgplayer: 542822
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["trick-or-trade"]
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 761972,
+			}
 		},
-		{
-			type: "normal",
-			stamp: ["player-rewards-program"]
-		}
 	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 760708
-	}
 }
 
 export default card

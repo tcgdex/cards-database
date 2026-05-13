@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Said to be the reincarnation of north winds, it can instantly purify filthy, murky water.",
 		fr: "On dit de lui qu'il est la réincarnation des vents boréals. Il peut instantanément purifier l'eau sale et boueuse."
 	},
 

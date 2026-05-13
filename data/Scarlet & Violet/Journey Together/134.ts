@@ -64,18 +64,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 817286
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817286,
+				tcgplayer: 623561
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817286,
+				tcgplayer: 623561
+			}
 		},
-	]
+	],
 }
 
 export default card

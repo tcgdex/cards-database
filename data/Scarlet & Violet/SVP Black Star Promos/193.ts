@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Zacian ex do Lupo"
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 	rarity: "None",
 	category: "Pokemon",

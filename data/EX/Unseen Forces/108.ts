@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Insécateur ou Insécateur ex"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

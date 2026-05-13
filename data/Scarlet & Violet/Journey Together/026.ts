@@ -55,18 +55,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Gemi",
 
-	thirdParty: {
-		cardmarket: 817178
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817178,
+				tcgplayer: 623453
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817178,
+				tcgplayer: 623453
+			}
 		},
-	]
+	],
 }
 
 export default card

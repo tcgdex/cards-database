@@ -65,12 +65,27 @@ const card: Card = {
 		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538958,
+				tcgplayer: 232333
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538963,
+				tcgplayer: 232333
+			}
+		}
+	]
 }
 
 export default card
+

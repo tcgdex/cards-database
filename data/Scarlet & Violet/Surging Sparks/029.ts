@@ -49,22 +49,30 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794946,
+				tcgplayer: 589952
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794946,
+				tcgplayer: 589952
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["horizons"]
-		}
+			stamp: ["horizons"],
+			thirdParty: {
+				cardmarket: 794286,
+			}
+		},
 	],
 
 	illustrator: "Tomomi Ozaki",
-
-	thirdParty: {
-		cardmarket: 794286
-	}
+	
 }
 
 export default card

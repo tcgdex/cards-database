@@ -60,18 +60,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "satoma",
 
-	thirdParty: {
-		cardmarket: 817155
-	},
-
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817155,
+				tcgplayer: 623430
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817155,
+				tcgplayer: 623430
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -51,18 +51,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Saboteri",
 
-	thirdParty: {
-		cardmarket: 817290
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817290,
+				tcgplayer: 623565
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817290,
+				tcgplayer: 623565
+			}
 		},
-	]
+	],
 }
 
 export default card

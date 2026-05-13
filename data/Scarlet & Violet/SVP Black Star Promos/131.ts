@@ -74,6 +74,7 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H",
+	suffix: "ex",
 	illustrator: "akagi"
 }
 

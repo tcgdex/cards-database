@@ -31,16 +31,20 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 817305
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817305,
+				tcgplayer: 623580
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817305,
+				tcgplayer: 623580
+			}
 		},
 		{
 			type: 'holo',
@@ -51,7 +55,7 @@ const card: Card = {
 			type: 'normal',
 			stamp: ['player-rewards-program']
 		}
-	]
+	],
 }
 
 export default card

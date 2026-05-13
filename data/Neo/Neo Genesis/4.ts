@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
 		fr: "Lorsqu'il mord avec ses puissantes mâchoires, il secoue la tête et déchire sauvagement ses victimes en morceaux."
 	},
 

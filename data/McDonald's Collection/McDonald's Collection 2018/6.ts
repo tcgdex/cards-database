@@ -5,13 +5,6 @@ const card: Card = {
 	dexId: [66],
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Machop"
 	},
@@ -21,11 +14,39 @@ const card: Card = {
 	hp: 60,
 	types: ["Fighting"],
 	stage: "Basic",
+	attacks: [
+		{
+			cost: [
+				"Fighting", "Colorless",
+			],
+			name: {
+				en: "Dynamic Chop",
+			},
+			damage: 50,
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 362793,
-		tcgplayer: 180454
-	}
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		}
+	],
+
+	retreat: 2,
+
+	illustrator: "Masakazu Fukuda",	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 366774,
+				tcgplayer: 180454
+			}
+		}
+	]
 }
 
 export default card
+

@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Garchomp ex da Cíntia"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -74,10 +75,15 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675923,
-		cardmarket: 869722
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869722,
+				tcgplayer: 675923
+			}
+		}
+	],
 }
 
 export default card

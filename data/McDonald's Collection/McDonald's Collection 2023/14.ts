@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [967],
 
-	hp: 100,
+	hp: 110,
 
 	types: ["Colorless"],
 
@@ -28,21 +28,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Rapid Spin",
-				fr: "Tour Rapide",
-				es: "Giro Rápido",
-				it: "Rapigiro",
-				pt: "Giro Rápido",
-				de: "Turbodreher"
+				en: "Touring",
 			},
-			damage: 30,
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				en: "Draw 2 cards.",
 			},
 		},
 		{
@@ -55,7 +44,7 @@ const card: Card = {
 				pt: "Ataque Veloz",
 				de: "Tempoattacke"
 			},
-			damage: 70,
+			damage: 100,
 		},
 	],
 
@@ -66,14 +55,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1,
+	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725431,
+				tcgplayer: 516525
+			}
+		}
+	]
 }
 
 export default card

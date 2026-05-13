@@ -26,13 +26,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Mankey"
 	},
@@ -41,10 +34,25 @@ const card: Card = {
 	hp: 50,
 	types: ["Fighting"],
 
-	thirdParty: {
-		cardmarket: 412884,
-		tcgplayer: 200971
-	}
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		}
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 412884,
+				tcgplayer: 200971
+			}
+		}
+	]
 }
 
 export default card
+

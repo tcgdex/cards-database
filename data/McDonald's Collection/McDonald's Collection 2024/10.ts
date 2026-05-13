@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [635],
 
-	hp: 170,
+	hp: 180,
 
 	types: ["Darkness"],
 
@@ -33,39 +33,26 @@ const card: Card = {
 		de: "Duodino"
 	},
 
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				en: "Tri Howl"
+			},
+			effect: {
+				en: "Once during your turn, you may look at the top 3 cards of your deck and attach any number of Energy cards you find there to your Pokémon in any way you like. Discard the other cards."
+			}
+		}
+	],
+
 	attacks: [
 		{
-			cost: ["Darkness", "Colorless", "Colorless"],
+			cost: ["Darkness", "Darkness", "Colorless"],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
-				es: "Triturar",
-				it: "Sgranocchio",
-				pt: "Mastigar",
-				de: "Knirscher"
-			},
-			damage: 100,
-			effect: {
-				en: "Discard an Energy from your opponent's Active Pokémon.",
-				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
-			},
-		},
-		{
-			cost: ["Darkness", "Darkness", "Colorless", "Colorless"],
-			name: {
-				en: "Dark Pulse",
-				fr: "Vibrobscur",
-				es: "Pulso Umbrío",
-				it: "Neropulsar",
-				pt: "Pulso Sombrio",
-				de: "Finsteraura"
+				en: "Dark Cutter",
 			},
 			damage: 160,
-		},
+		}
 	],
 
 	weaknesses: [
@@ -77,12 +64,15 @@ const card: Card = {
 
 	retreat: 3,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 802832,
+				tcgplayer: 614379
+			}
+		}
+	]
 }
 
 export default card

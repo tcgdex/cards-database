@@ -43,9 +43,9 @@ const card: Card = {
 				pt: "Pisoteada de Pedra",
 			},
 			effect: {
-				en: "Discard as many Fighting Energy attached to your Pokémon as you like. This attack does 40 damage times the amount of Fighting Energy you discarded.",
-				fr: "Défaussez autant d'Énergies Fighting attachées à vos Pokémon que vous voulez. Cette attaque inflige 40 dégâts multipliés par le nombre de cartes Énergie Fighting que vous avez défaussées.",
-				pt: "Descarte tantas Energias de luta ligadas a seus Pokémon quanto desejar. Esse ataque causa 40 de danos vezes a quantidade de Energia de luta descartada.",
+				en: "Discard as many {F} Energy attached to your Pokémon as you like. This attack does 40 damage times the amount of {F} Energy you discarded.",
+				fr: "Défaussez autant d'Énergies {F} attachées à vos Pokémon que vous voulez. Cette attaque inflige 40 dégâts multipliés par le nombre de cartes Énergie {F} que vous avez défaussées.",
+				pt: "Descarte tantas Energias {F} ligadas a seus Pokémon quanto desejar. Esse ataque causa 40 de danos vezes a quantidade de Energia {F} descartada.",
 			},
 			damage: "40×",
 

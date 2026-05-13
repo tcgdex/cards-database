@@ -58,6 +58,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating bad dreams.",
+	},
+
 	thirdParty: {
 		cardmarket: 273996,
 		tcgplayer: 42493

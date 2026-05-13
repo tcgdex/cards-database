@@ -30,10 +30,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760777,
+				tcgplayer: 542662
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760777,
+				tcgplayer: 542662
+			}
 		},
 		{
 			type: "holo",
@@ -52,9 +60,6 @@ const card: Card = {
 
 	illustrator: "Hideki Ishikawa",
 
-	thirdParty: {
-		cardmarket: 760777
-	}
 }
 
 export default card

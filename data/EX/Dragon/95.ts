@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Limagma"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

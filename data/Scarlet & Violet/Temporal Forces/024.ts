@@ -79,10 +79,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760654,
+				tcgplayer: 542768
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760654,
+				tcgplayer: 542768
+			}
 		},
 		{
 			type: "holo",
@@ -97,9 +105,6 @@ const card: Card = {
 
 	illustrator: "mingo",
 
-	thirdParty: {
-		cardmarket: 760654
-	}
 }
 
 export default card

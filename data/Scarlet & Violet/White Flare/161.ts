@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Hydreigon ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -84,9 +85,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836201
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 836201,
+			tcgplayer: 642278
+		}
+	},
+],
 }
 
 export default card

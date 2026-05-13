@@ -65,6 +65,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago.",
 		fr: "Disparu depuis longtemps, il peut être réanimé génétiquement à partir d'anciens fossiles."
 	},
 

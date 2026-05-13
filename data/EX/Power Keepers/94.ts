@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Vibraninf"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "This Pokémon never gets tired, no matter what it does or how hard it works.",
 		fr: "Ce Pokémon ne se fatigue jamais, quoi qu'il fasse, même s'il s'entraîne dur."
 	},
 

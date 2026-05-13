@@ -16,6 +16,8 @@ const card: Card = {
   illustrator: "takuyoa",
   rarity: "Four Diamond",
   category: "Pokemon",
+
+  dexId: [1000],
   hp: 150,
   types: ["Metal"],
   evolveFrom: {

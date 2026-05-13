@@ -40,9 +40,9 @@ const card: Card = {
 				pt: "Festival de Lodo"
 			},
 			effect: {
-				en: "The Retreat Cost of each Pokémon in play (except for Team Aqua Pokémon) is Colorless more.",
-				fr: "Le Coût de Retraite de chaque Pokémon en jeu (à part les Pokémon de la Team Aqua) est augmenté de Colorless.",
-				pt: "O Custo para Recuar de cada um dos Pokémon em jogo (exceto os Pokémon da Equipe Aqua) será de Incolor a mais",
+				en: "The Retreat Cost of each Pokémon in play (except for Team Aqua Pokémon) is {C} more.",
+				fr: "Le Coût de Retraite de chaque Pokémon en jeu (à part les Pokémon de la Team Aqua) est augmenté de {C}.",
+				pt: "O Custo para Recuar de cada um dos Pokémon em jogo (exceto os Pokémon da Equipe Aqua) será de {C} a mais.",
 			},
 		},
 	],

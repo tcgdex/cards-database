@@ -79,6 +79,7 @@ const card: Card = {
 		holo: false
 	},
 
+	suffix: "ex",
 	illustrator: "Teeziro",
 
 	thirdParty: {

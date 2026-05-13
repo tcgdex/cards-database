@@ -87,6 +87,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its power is such that not even mountains can stand in its way.",
 		fr: "Sa puissance est telle que même les montagnes ne lui résistent pas."
 	},
 

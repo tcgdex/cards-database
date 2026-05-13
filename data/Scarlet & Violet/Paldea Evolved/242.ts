@@ -73,6 +73,7 @@ const card: Card = {
 		normal: false
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Hiiragi",
 
 	thirdParty: {

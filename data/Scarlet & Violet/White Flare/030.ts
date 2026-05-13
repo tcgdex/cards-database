@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Keldeo ex"
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Yamashita",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -75,9 +76,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835962
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 835962,
+				tcgplayer: 642142
+			}
+		},
+	],
 }
 
 export default card

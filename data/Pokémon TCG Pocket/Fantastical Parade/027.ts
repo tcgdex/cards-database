@@ -4,6 +4,8 @@ import Set from "../Fantastical Parade"
 const card: Card = {
 	set: Set,
 
+	dexId: [1017],
+
 	name: {
 		en: "Hearthflame Mask Ogerpon"
 	},

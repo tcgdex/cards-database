@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [742],
 
-	hp: 40,
+	hp: 30,
 
 	types: ["Psychic"],
 
@@ -28,12 +28,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Fairy Wind",
-				fr: "Vent Féérique",
-				es: "Viento Feérico",
-				it: "Vento di Fata",
-				pt: "Vento de Fada",
-				de: "Feenbrise"
+				en: "Flap",
 			},
 			damage: 10,
 		},
@@ -47,13 +42,16 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670476,
+				tcgplayer: 281494
+			}
+		}
+	]
 }
 
 export default card

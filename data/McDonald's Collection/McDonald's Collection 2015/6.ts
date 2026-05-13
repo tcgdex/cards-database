@@ -6,12 +6,6 @@ const card: Card = {
 		25,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
@@ -23,20 +17,18 @@ const card: Card = {
 		"Lightning",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 293322,
-		tcgplayer: 110424,
-	},
 	attacks: [
 		{
 			cost: [
 				"Colorless",
 			],
 			name: {
+				en: "Tail Whip",
 				fr: "Mimi-Queue",
 			},
 			effect: {
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+				en: "Flip a coin, If heads, the Defending Pokémon can't attack during your opponent's next turn."
 			},
 		},
 		{
@@ -45,11 +37,25 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Electro Ball",
 				fr: "Boule Élek",
 			},
 			damage: "30",
 		},
 	],
+
+	illustrator: "Naoki Saito",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 293322,
+				tcgplayer: 110424
+			}
+		}
+	]
 }
 
 export default card
+

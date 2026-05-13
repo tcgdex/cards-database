@@ -50,6 +50,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "This Pokémon is often seen crawling around in volcanic regions.",
 		fr: "On voit souvent ce Pokémon ramper dans les régions volcaniques."
 	},
 

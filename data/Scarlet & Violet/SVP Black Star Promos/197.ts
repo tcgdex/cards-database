@@ -15,6 +15,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
 
 	rarity: "None",

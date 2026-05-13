@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Tadmorv"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Vileplume ex da Érica"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -74,10 +75,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675815,
-		cardmarket: 869614
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869614,
+				tcgplayer: 675815
+			}
+		}
+	],
 }
 
 export default card

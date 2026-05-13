@@ -2,25 +2,57 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
-	name: {
-		fr: "Grotadmorv",
-	},
-	rarity: "Common",
-	category: "Pokemon",
+    name: {
+        fr: "Férosinge",
+    },
 
-	set: Set,
-	dexId: [89],
-	hp: 120,
-	types: ["Psychic"],
+    rarity: "None",
+    category: "Pokemon",
+    illustrator: "Miki Tanaka",
 
-	stage: "Stage1",
+    set: Set,
+    dexId: [56],
+    hp: 60,
+    types: ["Fighting"],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+    stage: "Basic",
+    retreat: 1,
+
+    weaknesses: [
+        {
+            type: "Psychic",
+            value: "×2"
+        },
+    ],
+
+    attacks: [
+        {
+            cost: ["Fighting"],
+            name: {
+                fr: "Attaque en Trois Étapes"
+            },
+            damage: "10×",
+            effect: {
+                fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
+            }
+        },
+    ],
+
+    variants: [
+        {
+            type: 'normal',
+            thirdParty: {
+                cardmarket: 479809,
+            }
+        },
+        {
+            type: 'holo',
+            thirdParty: {
+                cardmarket: 581874,
+            }
+        }
+    ]
 }
 
 export default card
+

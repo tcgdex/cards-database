@@ -52,9 +52,38 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Whisker",
 
-	thirdParty: {
-		cardmarket: 805404
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805404,
+				tcgplayer: 610370
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805404,
+				tcgplayer: 610370
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806428,
+				tcgplayer: 610546
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806429,
+				tcgplayer: 610647
+			}
+		},
+	],
 }
 
 export default card

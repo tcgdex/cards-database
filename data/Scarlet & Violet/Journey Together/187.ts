@@ -80,17 +80,18 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
+	suffix: "ex",
 	illustrator: "Tsuyoshi Nagano",
-
-	thirdParty: {
-		cardmarket: 817340
-	},
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817340,
+				tcgplayer: 623614
+			}
 		},
-	]
+	],
 }
 
 export default card

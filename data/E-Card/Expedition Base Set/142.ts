@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Flip a coin until you get tails. For each heads, draw 2 cards.",
 		fr: "Lancez une pièce jusqu'à obtenir pile. Pour chaque face, piochez 2 cartes.",
 		de: "Flip a coin until you get tails. For each heads, draw 2 cards.",
 	},

@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 
 	rarity: "Ultra Rare",
@@ -86,13 +87,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826086,
+				tcgplayer: 633012
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826086
-	}
 }
 
 export default card

@@ -28,13 +28,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Axew",
 		fr: "Coupenotte"
@@ -44,9 +37,18 @@ const card: Card = {
 	hp: 60,
 	types: ["Colorless"],
 
-	thirdParty: {
-		tcgplayer: 83673
-	}
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281789,
+				tcgplayer: 83673
+			}
+		}
+	]
 }
 
 export default card
+

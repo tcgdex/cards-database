@@ -19,17 +19,21 @@ const card: Card = {
 		de: "Jedes Pokémon, auf dem δ zu sehen ist, kann die Angriffe auf dieser Karte anstelle seiner eigenen benutzen.",
 	},
 
-	attacks: [{
-		name: {
-			de: "Delta-Ruf"
+	attacks: [
+		{
+			name: {
+				de: "Delta-Ruf",
+				fr: "Appel Delta"
+			},
+			effect: {
+				de: "Durchsuche dein Deck nach einem Pokémon, auf dem δ zu sehen ist, zeige es deinem Gegner und nimm es auf die Hand. Mische dein Deck danach.",
+				fr: "Cherchez dans votre deck un Pokémon possédant le symbole δ, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck."
+			},
+			cost: [
+				"Colorless",
+			]
 		},
-
-		effect: {
-			de: "Durchsuche dein Deck nach einem Pokémon, auf dem δ zu sehen ist, zeige es deinem Gegner und nimm es auf die Hand. Mische dein Deck danach."
-		},
-
-		cost: ["Colorless"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 277057,

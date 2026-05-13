@@ -67,15 +67,54 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769198,
+				tcgplayer: 550068
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769198,
+				tcgplayer: 550068
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["gamestop"],
+			thirdParty: {
+				cardmarket: 771356,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["eb-games"],
+			thirdParty: {
+				cardmarket: 771357,
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 786105,
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 800148,
+			}
+		},
+	],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 769198
-	}
 }
 
 export default card

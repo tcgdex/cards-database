@@ -28,33 +28,12 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Sing",
-				fr: "Berceuse",
-				es: "Canto",
-				it: "Canto",
-				pt: "Cantar",
-				de: "Gesang"
+				en: "Blot",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				en: "Heal 10 damage from this Pokémon.",
 			},
-		},
-		{
-			cost: ["Grass"],
-			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
-			},
-			damage: 10,
+			damage: 10
 		},
 	],
 
@@ -66,13 +45,16 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670468,
+				tcgplayer: 281482
+			}
+		}
+	]
 }
 
 export default card

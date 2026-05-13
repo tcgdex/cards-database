@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Kyogre ex"
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "None",
 	category: "Pokemon",

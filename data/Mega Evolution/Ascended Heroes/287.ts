@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Grimmsnarl ex da Marine"
 	},
 
+	suffix: "ex",
 	illustrator: "Ligton",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
@@ -74,10 +75,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676099,
-		cardmarket: 869898
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869898,
+				tcgplayer: 676099
+			}
+		}
+	],
 }
 
 export default card

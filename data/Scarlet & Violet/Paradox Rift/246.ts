@@ -73,6 +73,7 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "Oku",
 
 	thirdParty: {

@@ -64,10 +64,31 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675978,
-		cardmarket: 869777
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869777,
+			tcgplayer: 675978
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870393,
+			tcgplayer: 676981
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870394,
+			tcgplayer: 677121
+		}
+	},
+],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Zoroark ex do N"
 	},
 
+	suffix: "ex",
 	illustrator: "Raita Kazama",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
@@ -72,10 +73,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676098,
-		cardmarket: 869897
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869897,
+				tcgplayer: 676098
+			}
+		}
+	],
 }
 
 export default card

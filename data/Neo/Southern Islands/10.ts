@@ -89,6 +89,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "This Pokémon attacks its prey with its eighty toxin-producing tentacles.",
+	},
 	thirdParty: {
 		cardmarket: 275640,
 		tcgplayer: 46467

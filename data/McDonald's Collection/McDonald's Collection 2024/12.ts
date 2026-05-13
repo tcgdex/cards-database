@@ -33,49 +33,42 @@ const card: Card = {
 		de: "Dragonir"
 	},
 
-	attacks: [
+	abilities: [
 		{
-			cost: ["Water", "Lightning"],
+			type: "Ability",
 			name: {
-				en: "Dragon Claw",
-				fr: "Draco-Griffe",
-				es: "Garra Dragón",
-				it: "Dragartigli",
-				pt: "Garra de Dragão",
-				de: "Drachenklaue"
+				en: "Jet Cruise"
 			},
-			damage: 70,
-		},
+			effect: {
+				en: "Your Pokémon in play have no Retreat Cost."
+			}
+		}
+	],
+
+	attacks: [
 		{
 			cost: ["Water", "Lightning", "Colorless"],
 			name: {
-				en: "Draco Meteor",
-				fr: "Draco Météore",
-				es: "Cometa Draco",
-				it: "Dragobolide",
-				pt: "Draco Meteoro",
-				de: "Draco Meteor"
+				en: "Dragon Pulse",
 			},
-			damage: "50×",
+			damage: 180,
 			effect: {
-				en: "Flip 4 coins. This attack does 50 damage for each heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts pour chaque côté face.",
-				es: "Lanza 4 monedas. Este ataque hace 50 puntos de daño por cada cara.",
-				it: "Lancia quattro monete. Questo attacco infligge 50 danni per ogni testa.",
-				pt: "Jogue 4 moedas. Este ataque causa 50 pontos de dano para cada cara.",
-				de: "Wirf 4 Münzen. Diese Attacke fügt 50 Schadenspunkte für jede Kopf-Münze zu."
+				en: "Discard the top 2 cards of your deck.",
 			},
 		},
 	],
 
-	retreat: 2,
+	retreat: 3,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 802834,
+				tcgplayer: 614381
+			}
+		}
+	]
 }
 
 export default card

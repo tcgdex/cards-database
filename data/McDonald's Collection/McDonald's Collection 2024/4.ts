@@ -26,35 +26,21 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Psychic"],
 			name: {
-				en: "Sing",
-				fr: "Berceuse",
-				es: "Canto",
-				it: "Canto",
-				pt: "Cantar",
-				de: "Gesang"
+				en: "Pound",
 			},
-			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
-			},
+			damage: 20
 		},
 		{
-			cost: ["Psychic", "Colorless"],
+			cost: ["Colorless", "Colorless"],
 			name: {
-				en: "Balloon Tackle",
-				fr: "Charge Ballon",
-				es: "Placaje Globo",
-				it: "Pallocarica",
-				pt: "Investida Balão",
-				de: "Ballontackle"
+				en: "Let's All Rollout",
 			},
-			damage: 30,
+			effect: {
+				en: "This attack does 20 more damage for each of your Benched Pokémon that has the Let's Rollout Attack.",
+			},
+			damage: "20x",
 		},
 	],
 
@@ -67,12 +53,15 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 802826,
+				tcgplayer: 614373
+			}
+		}
+	]
 }
 
 export default card

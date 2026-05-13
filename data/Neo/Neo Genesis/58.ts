@@ -65,6 +65,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
 		fr: "Sa queue possède son propre cerveau. Prenez garde ! Si vous vous approchez, elle peut réagir à votre odeur et vous mordre."
 	},
 

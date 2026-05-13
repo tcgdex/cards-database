@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Because its wings aren't yet fully grown, it has to hop to get around. It is always staring at something.",
 		fr: "Comme ses ailes ne sont pas complètement développées, il doit sauter pour se déplacer. Il observe toujours quelque chose."
 	},
 

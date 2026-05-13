@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
 		fr: "Au fond de l'océan, il fait clignoter ses lumières constamment pour communiquer."
 	},
 
