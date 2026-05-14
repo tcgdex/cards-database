@@ -73,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Carries a pendulum with it always. Sometimes appears near less-traveled roads and schools at dusk.",
 		fr: "Il porte toujours un pendule. Il apparaît parfois au crépuscule aux abords des routes peu fréquentées et des écoles."
 	},
 

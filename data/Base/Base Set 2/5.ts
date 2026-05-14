@@ -69,6 +69,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "A timid Fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
+	},
+
 	thirdParty: {
 		cardmarket: 273928,
 		tcgplayer: 42482

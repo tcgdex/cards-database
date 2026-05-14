@@ -79,6 +79,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
 		fr: "Ses yeux sont spécialement adaptés. Ils concentrent la plus petite parcelle de lumière pour lui permettre de voir dans l'obscurité."
 	},
 

@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again.",
 		fr: "Le souffle de Meganium peut redonner vie aux plantes mortes."
 	},
 

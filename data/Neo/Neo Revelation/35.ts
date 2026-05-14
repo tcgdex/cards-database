@@ -59,6 +59,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It stays mostly in dark, damp places, the preference not of the bug, but of the big mushrooms on its back.",
 		fr: "Il se cache surtout dans les lieux froids et humides. Ce n'est pas l'insecte qui décide, mais les gros champignons qui lui poussent sur le dos et qui le contrôlent."
 	},
 

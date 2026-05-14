@@ -67,6 +67,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its muscular body is so powerful that it must wear a power-save belt to help regulate its motions.",
+	},
+
 	thirdParty: {
 		cardmarket: 273972,
 		tcgplayer: 42512

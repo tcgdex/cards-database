@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "An aggressive Pokémon that tackles anything it sees.",
 		fr: "Un Pokémon agressif qui s'attaque à tout ce qu'il voit."
 	},
 

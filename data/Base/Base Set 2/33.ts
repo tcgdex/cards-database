@@ -68,6 +68,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings.",
+	},
+
 	thirdParty: {
 		cardmarket: 273956,
 		tcgplayer: 42472

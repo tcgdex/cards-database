@@ -60,18 +60,26 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733701,
+				tcgplayer: 516675,
+				cardtrader: 261184
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733701,
+				tcgplayer: 516675,
+				cardtrader: 261184
+			}
+		},
 	],
 
 	illustrator: "Hitoshi Ariga",
 
-	thirdParty: {
-		cardmarket: 733701
-	}
+	
 }
 
 export default card

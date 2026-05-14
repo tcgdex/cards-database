@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
 		fr: "On dit qu'il reste silencieux et immobile car il observe le passé et le futur en même temps."
 	},
 

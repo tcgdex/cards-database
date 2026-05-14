@@ -73,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It always stands on one foot. It changes feet so fast that the movement can rarely be seen.",
 		fr: "Il se tient toujours sur une patte. Il change de patte si rapidement qu'on ne peut pas voir le mouvement."
 	},
 

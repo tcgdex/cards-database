@@ -85,6 +85,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter.",
 		fr: "Il fait son nid de façon à pouvoir loger son corps mince. Les autres Pokémon ne peuvent pas rentrer dans le nid."
 	},
 

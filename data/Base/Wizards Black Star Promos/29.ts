@@ -51,6 +51,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning.",
 		fr: "L'extrémité de sa queue, qui contient une huile plus légère que l'eau, lui permet de nager sans couler."
 	},
 

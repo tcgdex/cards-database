@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current.",
 		fr: "L'extrémité de sa queue lui sert de bouée et lui évite de couler, même dans les courants les plus sournois."
 	},
 

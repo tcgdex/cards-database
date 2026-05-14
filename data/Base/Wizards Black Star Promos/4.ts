@@ -67,6 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "When several of these Pokémon gather, they attract so much electricity that they can cause lightning to strike.",
 		fr: "Quand plusieurs de ces Pokémon se réunissent, ils attirent tellement d'électricité qu'ils peuvent provoquer des coups de foudre."
 	},
 

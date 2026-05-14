@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If it turns its back to an opponent, it is a sign that it is getting ready to attack.",
 		fr: "S'il tourne le dos à son adversaire, c'est signe qu'il se prépare à attaquer."
 	},
 

@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It uses its highly developed psychic powers to defeat its enemies before they even have time to think.",
 		fr: "Il utilise ses pouvoirs psychiques surdéveloppés pour vaincre ses ennemis avant qu'ils n'aient le temps de réfléchir."
 	},
 

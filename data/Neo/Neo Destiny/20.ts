@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Each time it yawns, the Shellder on its head releases an enzyme that makes it grow even smarter.",
 		fr: "À chaque fois qu'il baille, le Kokiyas qu'il porte sur la tête projette une enzyme qui le rend encore plus intelligent."
 	},
 

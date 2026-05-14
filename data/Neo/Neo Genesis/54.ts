@@ -66,6 +66,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its pleasantly aromatic leaf has the ability to check the humidity and temperature.",
 		fr: "Ses feuilles au parfum agréable lui permettent de vérifier l'humidité et la température."
 	},
 

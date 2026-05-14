@@ -75,15 +75,49 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725210,
+				tcgplayer: 509888,
+				cardtrader: 255815
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 727071
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 727070
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725210,
+				tcgplayer: 509888,
+				cardtrader: 255815
+			}
+		},
+		{
+			type: 'reverse',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 742043
+			}
+		},
+	],
 
 	illustrator: "rika",
 
-	thirdParty: {
-		cardmarket: 725210
-	}
+	
 }
 
 export default card

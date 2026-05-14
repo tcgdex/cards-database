@@ -53,6 +53,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its dorsal, pectoral and tail fins wave elegantly in the water. That is why it is known as the water dancer.",
 		fr: "Ses nageoires dorsales, pectorales et sa queue s'agitent élégamment dans l'eau. C'est pour cette raison qu'on le surnomme le danseur aquatique."
 	},
 

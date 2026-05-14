@@ -68,6 +68,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
+	},
+
 	thirdParty: {
 		cardmarket: 273932,
 		tcgplayer: 42497

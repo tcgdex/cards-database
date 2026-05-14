@@ -49,6 +49,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "This Pokémon is more active at night. It likes bright, shiny things and cannot resist taking them and adding them to its collection.",
+	},
 	variants: [
 		{
 			type: "holo"
