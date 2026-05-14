@@ -18,14 +18,18 @@ const card: Card = {
 	types: ["Water"],
 	energyType: "Normal",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715754,
+				tcgplayer: 497701,
+				cardtrader: 248914
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 715754
-	}
+	
 }
 
 export default card

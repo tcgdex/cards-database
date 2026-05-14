@@ -244,7 +244,9 @@
 		"squirtle": "squirtle",
 		"charmander": "charmander",
 		"pokeball": "pokeball",
-		"mcdonalds": "mcdonalds"
+		"mcdonalds": "mcdonalds",
+		"rain-city": "rain-city", 
+		"tournament-collection": "tournament-collection" 
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",
