@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The faster it swims, the brighter the glow on its forehead becomes.",
 		fr: "Plus il nage vite, plus l'aura sur son front brille."
 	},
 

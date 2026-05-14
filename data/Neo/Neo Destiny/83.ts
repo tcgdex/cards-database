@@ -66,6 +66,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is very small and powerless. If attacked, the best it can do is flap its leaves in an attempt to frighten away its enemies.",
 		fr: "Il est tout petit et sans défense. S'il est attaqué, il agite ses feuilles en espérant effrayer ses ennemis."
 	},
 

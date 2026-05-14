@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is often seen holding its head in its paws, as if it were suffering from a headache.",
 		fr: "On le voit souvent se prendre la tête entre les mains, comme s'il souffrait de migraines."
 	},
 

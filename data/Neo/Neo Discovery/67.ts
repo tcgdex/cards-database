@@ -65,6 +65,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
 		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
 	},
 

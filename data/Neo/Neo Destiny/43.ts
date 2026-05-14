@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When night falls, the air fills with the eerie cries of this Pokémon as it stakes out its territory.",
 		fr: "Quand la nuit tombe, les hurlements sinistres de ce Pokémon retentissent dans le silence tandis qu'il chasse sur son territoire."
 	},
 

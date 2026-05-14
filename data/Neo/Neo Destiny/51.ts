@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If the Shellder attached to its tail becomes separated, this Pokémon reverts to a normal Slowpoke.",
 		fr: "Si le Kokyias attaché à sa queue se défait, ce Pokémon redevient un Ramoloss normal."
 	},
 

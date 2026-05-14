@@ -73,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When it walks around on the ground, it coats its body with a slimy, poisonous film.",
 		fr: "Quand il marche sur le sol, il recouvre son corps d'un film visqueux et empoisonné."
 	},
 

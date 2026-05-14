@@ -54,6 +54,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up.",
 		fr: "Un proverbe prétend que celui qui pourra réveiller un Togepi endormi sera récompensé par un grand bonheur."
 	},
 
