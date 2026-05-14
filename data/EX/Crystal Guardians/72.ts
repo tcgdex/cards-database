@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for a Supporter card, a Pokémon Tool card, and a basic Energy card. Show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 		fr: "Choisissez dans votre deck une carte Supporter, une carte Outil Pokémon et une carte Énergie de base. Montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
 		de: "Durchsuche dein Deck nach einer Pokémon-Ausrüstungs-Karte und einer Basis-Energiekarte. Zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach.",
 	},
