@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Once during each player's turn, if the player has no Special Energy cards in his or her discard pile, that player searches his or her discard pile for a basic Energy card, show it to the opponent, and put it into his or her hand.",
 		fr: "Une seule fois lors du tour de chaque joueur, si le joueur ne possède pas de cartes Énergie spéciale dans sa pile de défausse, il peut y choisir une carte Énergie de base. Il la montre alors à son adversaire et la place dans sa main.",
 		de: "Einmal während jedes Zuges durchsucht der jeweilige Spieler, wenn sich keine Spezialenergiekarten in seinem Ablagestapel befinden, seinen Ablagestapel nach einer Basis-Energiekarte, zeigt sie seinem Gegner und nimmt sie dann auf die Hand.",
 	},
