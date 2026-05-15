@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is said to have emerged from an egg in a place where there was nothing, then shaped the world.",
+	},
+
 	thirdParty: {
 		cardmarket: 278861
 	},
