@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When it locks eyes with an enemy, it will use a mix of psi moves such as Hypnosis and Confusion.",
 		fr: "En fixant son adversaire, il l'assaille avec les attaques Psy Hypnose et Convulsion."
 	},
 

@@ -67,6 +67,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "By learning how to fly, Pikachu overcame its weakness to Fighting Pokémon.",
 		fr: "En apprenant à voler, Pikachu a surpassé sa faiblesse contre le Pokémon Combat."
 	},
 

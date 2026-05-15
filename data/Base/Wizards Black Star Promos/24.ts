@@ -52,6 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Your Birthdate: ______________________________",
 		fr: "Votre anniversaire : _________________________________________"
 	},
 

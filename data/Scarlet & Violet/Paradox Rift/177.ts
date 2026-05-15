@@ -50,15 +50,28 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740720,
+				tcgplayer: 523858,
+				cardtrader: 265541
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740720,
+				tcgplayer: 523858,
+				cardtrader: 265541
+			}
+		},
+	],
 
 	illustrator: "Studio Bora Inc.",
 
-	thirdParty: {
-		cardmarket: 740720
-	}
+	
 }
 
 export default card

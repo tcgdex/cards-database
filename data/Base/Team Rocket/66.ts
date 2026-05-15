@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Loves to eat walnuts, chestnuts, cheese, and milk.",
 		fr: "Ses plats favoris sont les noix, les châtaignes, le fromage et le lait."
 	},
 

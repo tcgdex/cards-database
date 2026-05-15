@@ -62,6 +62,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It speeds up its thought processes by turning its head around 180 degrees.",
 		fr: "Il accélère la vitesse à laquelle il pense en tournant sa tête à 180 degrés."
 	},
 

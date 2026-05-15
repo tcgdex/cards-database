@@ -67,6 +67,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
 		fr: "Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde."
 	},
 

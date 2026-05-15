@@ -74,6 +74,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is almost impossible to defend against a Machamp's four powerful arms.",
 		fr: "Il est pratiquement impossible de se défendre contre les quatre bras d'un Mackogneur."
 	},
 

@@ -46,6 +46,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "This Pokémon is still immature. When threatened, it releases poison from its head and tries to drive its enemies away.",
+	},
 	thirdParty: {
 		cardmarket: 275634,
 		tcgplayer: 46478

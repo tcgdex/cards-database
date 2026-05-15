@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "This Pokémon races across the land. It is said that north winds will somehow blow whenever it appears.",
 		fr: "Un Pokémon qui court de par le monde. On raconte que les vents du Nord se mettent à souffler quand il apparaît."
 	},
 
