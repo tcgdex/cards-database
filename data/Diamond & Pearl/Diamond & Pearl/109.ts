@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Attach PlusPower to 1 of your Pokémon. Discard this card at the end of your turn. If the Pokémon PlusPower is attached to attacks, the attack does 10 more damage to the Active Pokémon (before applying Weakness and Resistance).",
 		fr: "Attachez PlusPower à 1 de vos Pokémon. Défaussez cette carte à la fin de votre tour. Pokémon auquel PlusPower est attachée attaque, cette attaque inflige 10 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
 		de: "Lege PlusPower an 1 deiner Pokémon an und lege die Karte am Ende deines Zuges auf deinen Ablagestapel.Falls das Pokémon, an das PlusPower angelegt ist, angreift, fügt der Angriff den Aktiven Pokémon 10 weitere Schadesnpunkte zu (bevor Schwäche und Resistenz verrechnet werden).",
 	},

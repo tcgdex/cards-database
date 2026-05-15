@@ -85,6 +85,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by COMBEE.",
 		fr: "Son abdomen est un rayon où vivent ses larves, élevées avec le nectar récolté par Apitrini."
 	},
 

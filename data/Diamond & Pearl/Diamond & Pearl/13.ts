@@ -80,6 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
 		fr: "Il attire ses proies avec son doux parfum et les achève grâce aux fouets d'épines de ses bras."
 	},
 
