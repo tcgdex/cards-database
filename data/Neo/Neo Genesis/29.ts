@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The scent of spices comes from around its neck. Somehow, sniffing it makes you want to fight.",
 		fr: "Un parfum d'épices vient de son tour de cou. D'une certaine façon, cela vous donne envie de combattre."
 	},
 

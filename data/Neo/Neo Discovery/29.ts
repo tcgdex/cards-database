@@ -88,6 +88,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It swings its eye patterned pincers up to scare its foes. This makes it look like it has three heads.",
 		fr: "Il brandit ses pinces décorées d'yeux pour effrayer ses ennemis, qui ont l'impression qu'il a trois têtes."
 	},
 

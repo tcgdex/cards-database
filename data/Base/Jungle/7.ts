@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
 		fr: "Ses écailles très résistantes et son corps massif sont des armes dévastatrices."
 	},
 

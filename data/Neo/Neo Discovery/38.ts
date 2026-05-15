@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its irregularly configured DNA is affected by its surroundings. It evolves if its environment changes.",
 		fr: "Son ADN instable est affecté par son environnement. Il évolue en fonction des changements de son habitat."
 	},
 

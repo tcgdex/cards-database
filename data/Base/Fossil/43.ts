@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The Shellder that is latched onto Slowpoke's tail is said to feed on the host's left-over scraps.",
 		fr: "Le Kokiyas accroché à la queue du Ramoloss se nourrit des restes de son hôte."
 	},
 

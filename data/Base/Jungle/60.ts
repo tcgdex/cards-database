@@ -58,6 +58,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
 		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages."
 	},
 

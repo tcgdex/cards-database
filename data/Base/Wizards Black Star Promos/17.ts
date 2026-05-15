@@ -63,6 +63,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.",
+	},
 	variants: [
 		{
 			type: "holo",

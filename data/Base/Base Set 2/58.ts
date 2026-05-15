@@ -69,6 +69,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It uses its whiskers to maintain its balance. It seems to slow down if they are cut off.",
+	},
+
 	thirdParty: {
 		cardmarket: 273981,
 		tcgplayer: 42521

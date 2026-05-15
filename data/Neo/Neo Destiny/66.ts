@@ -65,6 +65,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its tail has a brain of its own, which can respond to stimuli such as scents. Many unsuspecting people have been bitten by it.",
 		fr: "Sa queue a sa vie propre. Elle réagit à ce qui l'entoure. Bon nombre de personnes ne se méfiant pas se sont fait mordre."
 	},
 

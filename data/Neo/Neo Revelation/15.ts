@@ -80,6 +80,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A vicious Pokémon from the distant past, it appears to have flown by spreading its wings and gliding.",
 		fr: "Un Pokémon vicieux surgi du passé, il semble qu'il volait en étalant ses ailes et en se laissant planer."
 	},
 

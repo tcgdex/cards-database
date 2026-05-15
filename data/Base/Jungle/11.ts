@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
 		fr: "Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant."
 	},
 

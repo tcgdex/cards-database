@@ -42,6 +42,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
 		fr: "Bien qu'il ne soit pas encore très doué pour stocker l'électricité, il peut tout de même envoyer de petites secousses s'il est amusé ou surpris."
 	},
 

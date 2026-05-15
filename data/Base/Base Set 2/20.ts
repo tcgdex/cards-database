@@ -65,6 +65,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.",
+	},
+
 	thirdParty: {
 		cardmarket: 273943,
 		tcgplayer: 42465

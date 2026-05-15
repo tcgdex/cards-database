@@ -34,7 +34,7 @@ export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon
 	| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
 	| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
 	| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america" | 'ace-trainer'
-	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds'
+	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds' | 'pokemon-together'
 
 export interface variant_detailed {
 	/**
@@ -97,6 +97,7 @@ export interface variant_detailed {
 	thirdParty?: {
 		tcgplayer?: number
 		cardmarket?: number
+		cardtrader?: number
 	}
 }
 
@@ -167,6 +168,7 @@ export interface Set {
 	thirdParty?: {
 		cardmarket?: number
 		tcgplayer?: number
+		cardtrader?: number
 	}
 }
 
@@ -403,6 +405,7 @@ export interface Card {
 	thirdParty?: {
 		tcgplayer?: number
 		cardmarket?: number
+		cardtrader?: number
 	}
 }
 

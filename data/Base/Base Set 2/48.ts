@@ -66,6 +66,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its tongue can be extended like a chameleon's. It leaves a stinging sensation when it licks enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 273971,
 		tcgplayer: 42511

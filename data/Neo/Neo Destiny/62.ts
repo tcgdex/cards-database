@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It likes to sleep in rock caves and will even steal other Octillery's nests.",
 		fr: "Il aime dormir dans les cavernes sous-marines et il lui arrive même de voler le nid d'un autre Octillery."
 	},
 

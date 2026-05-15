@@ -81,6 +81,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky.",
 		fr: "Ses ailes solides semblent lourdes, mais elles sont en fait creuses et légères, lui permettant de voler librement dans le ciel."
 	},
 

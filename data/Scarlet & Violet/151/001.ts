@@ -49,18 +49,40 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733596,
+				tcgplayer: 502552,
+				cardtrader: 261065
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733596,
+				tcgplayer: 502552,
+				cardtrader: 261065
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 720365
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 794908
+			}
+		},
 	],
 
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 733596
-	}
+	
 }
 
 export default card

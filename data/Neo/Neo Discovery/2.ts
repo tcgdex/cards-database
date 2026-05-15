@@ -81,6 +81,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
 		fr: "Son corps est protégé par une coquille dure comme l'acier. Ce que cache l'armure reste un mystère complet."
 	},
 
