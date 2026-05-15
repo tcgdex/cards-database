@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A legendary Pokémon of Sinnoh. It is said that space becomes more stable with PALKIA's every breath.",
+	},
+
 	thirdParty: {
 		cardmarket: 278433,
 		tcgplayer: 87910

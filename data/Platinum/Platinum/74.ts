@@ -76,6 +76,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.",
+	},
+
 	thirdParty: {
 		cardmarket: 278495,
 		tcgplayer: 85141

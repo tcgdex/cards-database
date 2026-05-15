@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The long tongue is always soggy with slobber. The saliva contains a solvent that causes numbness.",
+	},
+
 	thirdParty: {
 		cardmarket: 278454,
 		tcgplayer: 86713

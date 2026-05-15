@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When it extends its over-six-foot-long tongue, its tail quivers. There is a possibility they are connected.",
+	},
+
 	thirdParty: {
 		cardmarket: 278501,
 		tcgplayer: 86722
