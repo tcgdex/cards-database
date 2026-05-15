@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Attach a basic Energy card from your hand to 1 of your Pokémon SP.",
 		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
 		de: "Lege 1 Basis-Energiekarte von deiner Hand an 1 deiner Pokémon SP an."
 	},

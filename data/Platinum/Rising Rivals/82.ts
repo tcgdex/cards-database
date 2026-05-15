@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
+	},
+
 	thirdParty: {
 		cardmarket: 278656,
 		tcgplayer: 89449
