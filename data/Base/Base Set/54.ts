@@ -80,8 +80,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It is vulnerable to attack because its shell is soft, exposing its weak and tender body.",
 		fr: "Il est vulnérable aux attaques tant que sa carapace fragile expose son corps tendre et mou.",
 		it: "È vulnerabile agli attacchi a causa del suo guscio morbido, che non protegge il suo corpo debole e molle. LIV 21 N.11"
 	},

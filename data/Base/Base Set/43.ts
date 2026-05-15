@@ -57,6 +57,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Using its ability to read minds, it will identify impending danger and teleport to safety.",
 		fr: "Son don de télépathie lui permet de sentir le danger et de se téléporter en lieu sûr.",
 		it: "Le sue abilità telepatiche gli consentono di individuare eventuali pericoli e teletrasportarsi al sicuro."
 	},
