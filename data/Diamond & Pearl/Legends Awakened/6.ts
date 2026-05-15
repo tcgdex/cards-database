@@ -74,6 +74,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
+		en: "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
 		fr: "Il hante les grottes volcaniques. Il rampe au mur et au plafond grâce à ses pieds en formes de croix."
 	},
 

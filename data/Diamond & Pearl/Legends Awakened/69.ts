@@ -88,6 +88,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "Its shaggy coat makes it unable to see. It checks surroundings with its sensitive nose instead.",
 		fr: "Il ne voit rien à cause de sa fourrure touffue et se repère à l'aide de son nez délicat."
 	},
 

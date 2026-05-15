@@ -85,6 +85,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
 		fr: "Il est né de la fusion de plusieurs Métang. Ses quatre cerveaux en font l'égal d'un superordinateur."
 	},
 

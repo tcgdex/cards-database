@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 278275,
 		tcgplayer: 90130
