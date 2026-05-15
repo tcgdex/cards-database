@@ -69,6 +69,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It sleeps for 18 hours a day. Even when awake, it teleports itself while remaining seated.",
 		fr: "Il dort 18 heures par jour. Même éveillé, il ne prend pas la peine de se lever pour se téléporter."
 	},
 

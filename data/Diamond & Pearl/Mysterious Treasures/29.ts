@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When the waves are calm, one may encounter a swarm of Mantine swimming as if they are in flight.",
 		fr: "Lorsque la mer est calme, il arrive de croiser un banc de Démanta nageant comme s'il volaient."
 	},
 

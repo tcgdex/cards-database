@@ -68,6 +68,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.",
 		fr: "Il est né au milieu d'un volcan. Son corps est couvert de flammes qui flambent comme un soleil."
 	},
 

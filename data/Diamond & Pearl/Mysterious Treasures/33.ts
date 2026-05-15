@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
 		fr: "Son violent coup de tête est assez puissant pour pulvériser les matériaux les plus résistants"
 	},
 

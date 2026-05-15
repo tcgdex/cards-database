@@ -85,6 +85,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "GRAVELER make their homes on sheer cliff faces by gouging out numerous horizontal holes.",
 		fr: "Gravalanch creuse son terrier à flanc de montagne en perçant des galeries horizontales."
 	},
 

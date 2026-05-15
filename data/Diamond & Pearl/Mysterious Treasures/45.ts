@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "In snow, the pure white coat covering its body obscures it from predators.",
 		fr: "Son corps est couvert d'un grand manteau blanc qui, dans la neige, le dissimule aux yeux des prédateurs."
 	},
 

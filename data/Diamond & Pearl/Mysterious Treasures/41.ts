@@ -82,6 +82,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The buds that ring its neck give off a spicy aroma that perks people up.",
 		fr: "Le collier de bourgeons à son cou répand un arôme épicé qui vous donne du tonus."
 	},
 
