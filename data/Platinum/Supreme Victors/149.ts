@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The flames on this legendary Pokémon's wings burn so brightly that they can make night seem like day.",
+	},
+
 	thirdParty: {
 		cardmarket: 278727
 	},
