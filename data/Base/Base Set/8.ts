@@ -76,6 +76,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon.",

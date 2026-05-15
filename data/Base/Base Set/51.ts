@@ -55,6 +55,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",

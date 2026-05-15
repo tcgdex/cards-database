@@ -79,6 +79,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Because of its ability to slip through block walls, it is said to be from another dimension.",

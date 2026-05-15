@@ -76,6 +76,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.",

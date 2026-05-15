@@ -65,6 +65,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments.",

@@ -81,6 +81,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem.",

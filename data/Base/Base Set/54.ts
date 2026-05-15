@@ -80,6 +80,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It is vulnerable to attack because its shell is soft, exposing its weak and tender body.",

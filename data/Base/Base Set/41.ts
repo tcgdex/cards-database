@@ -49,6 +49,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "The protruding horn on its head is very hard. This horn is used for bashing through thick ice.",

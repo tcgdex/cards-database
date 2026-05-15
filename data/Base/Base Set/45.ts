@@ -54,6 +54,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
